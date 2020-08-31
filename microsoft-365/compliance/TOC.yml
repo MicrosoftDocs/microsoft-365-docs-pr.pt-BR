@@ -78,8 +78,51 @@
     - name: Sistema de Proteção de Dados do cliente
       href: customer-lockbox-requests.md
 - name: Gerenciar a proteção de informações
-  href: protect-information.md
   items:
+    - name: 'Conheça seus dados, proteja seus dados, evite a perda de dados'
+      href: protect-information.md
+    - name: Tipos de informações confidenciais
+      items:
+        - name: 'Definições da entidade de tipo de informações confidenciais '
+          href: sensitive-information-type-entity-definitions.md
+        - name: O que as funções DLP procuram
+          href: what-the-dlp-functions-look-for.md
+        - name: Assista a uma visão geral da personalização da DLP
+          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
+        - name: Personalizar um tipo de informação confidencial interno
+          href: customize-a-built-in-sensitive-information-type.md
+        - name: Tipos de informações confidenciais personalizadas
+          href: custom-sensitive-info-types.md
+        - name: Criar tipos de informações confidenciais personalizadas com combinação exata de dados
+          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Criar um tipo de informação confidencial personalizada - Centro de Conformidade e Segurança
+          href: create-a-custom-sensitive-information-type.md
+        - name: Criar um tipo de informação confidencial personalizada - PowerShell
+          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: Criar um dicionário de palavras-chave
+          href: create-a-keyword-dictionary.md
+        - name: Impressão Digital de Documento
+          href: document-fingerprinting.md
+        - name: Funções DLP para informações confidenciais
+          href: what-the-dlp-functions-look-for.md
+    - name: Classificadores de treinamento
+      items:
+        - name: Introdução aos classificadores de treinamento (visualização)
+          href: classifier-getting-started-with.md
+        - name: Usando um classificador interno (visualização)
+          href: classifier-using-a-ready-to-use-classifier.md
+        - name: Criando e treinando um classificador (visualização)
+          href: classifier-creating-a-trainable-classifier.md
+    - name: Classificação de dados
+      items:
+        - name: Entender a classificação de dados
+          href: data-classification-overview.md
+        - name: 'Introdução ao gerenciador de conteúdo '
+          href: data-classification-content-explorer.md
+        - name: Começar a usar o gerenciador de atividades
+          href: data-classification-activity-explorer.md
+        - name: Notas de versão de classificação de dados
+          href: data-classification-pub-preview-relnotes.md
     - name: Rótulos de confidencialidade
       items:
         - name: Saiba mais sobre rótulos de confidencialidade
@@ -100,9 +143,77 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Usar rótulos de confidencialidade em aplicativos do Office
           href: sensitivity-labels-office-apps.md
-    - name: Prevenção de perda de dados (DLP)
-      href: data-loss-prevention-policies.md
+    - name: Criptografia
       items:
+        - name: Noções básicas de encriptação
+          href: encryption.md
+        - name: Criptografia de Chave Dupla (visualizar)
+          href: double-key-encryption.md
+        - name: Criptografia de Serviço do Office 365
+          href: office-365-service-encryption.md
+        - name: Chave de Cliente
+          items:
+            - name: Criptografia de serviço com Chave de Cliente no Office 365
+              href: customer-key-overview.md
+            - name: Configurar a Chave de Cliente do Office 365
+              href: customer-key-set-up.md
+            - name: Gerenciar Chave de Cliente do Office 365
+              href: customer-key-manage.md
+            - name: Rolar ou girar uma Chave de Cliente ou uma chave de disponibilidade
+              href: customer-key-availability-key-roll.md
+            - name: Saiba mais sobre a chave disponibilidade da Chave de Cliente
+              href: customer-key-availability-key-understand.md
+        - name: Criptografia de email
+          href: email-encryption.md
+          items:
+            - name: OME (Criptografia de Mensagem do Office 365)
+              href: ome.md
+            - name: Configurar novos recursos de Criptografia de Mensagens do Office 365
+              href: set-up-new-message-encryption-capabilities.md
+            - name: Definir regras de fluxo de e-mail para criptografar mensagens de e-mail no Office 365
+              href: define-mail-flow-rules-to-encrypt-email.md
+            - name: Adicionar a marca da sua organização a suas mensagens criptografadas
+              href: add-your-organization-brand-to-encrypted-messages.md
+            - name: Criar uma política de tipo de informações confidenciais para sua organização usando a Criptografia de Mensagem do Office 365
+              href: ome-sensitive-info-types.md
+            - name: Gerenciar a Criptografia de Mensagens do Office 365
+              href: manage-office-365-message-encryption.md
+            - name: Criptografia de Mensagem Avançada do Office 365
+              href: ome-advanced-message-encryption.md
+            - name: Definir uma data de vencimento para o email criptografado pela Criptografia de Mensagem Avançada do Office 365
+              href: ome-advanced-expiration.md
+            - name: Revogar email criptografado pela Criptografia de Mensagem Avançada do Office 365
+              href: revoke-ome-encrypted-mail.md
+            - name: Comparar versões de OME
+              href: ome-version-comparison.md
+            - name: Perguntas frequentes sobre Criptografia de Mensagem do Office 365
+              href: ome-faq.md
+            - name: Como o Exchange Online protege seus segredos de email
+              href: exchange-online-secures-email-secrets.md
+            - name: Como o Exchange Online usa o TLS para proteger conexões de email no Office 365
+              href: exchange-online-uses-tls-to-secure-email-connections.md
+            - name: BitLocker e Distributed Key Manager (DKM) para Criptografia
+              href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
+            - name: OME Herdado
+              items:
+                - name: Informações herdadas de Criptografia de Mensagens do Office 365
+                  href: legacy-information-for-message-encryption.md
+                - name: Configurar o Azure Rights Management para a versão anterior de criptografia de mensagem do Office 365
+                  href: set-up-azure-rms-for-previous-version-message-encryption.md
+        - name: IRM do SharePoint
+          href: set-up-irm-in-sp-admin-center.md
+        - name: Referência técnica
+          href: technical-reference-details-about-encryption.md
+        - name: TLS 1.0 e 1.1 substituição para o Office 365
+          href: tls-1.0-and-1.1-deprecation-for-office-365.md
+        - name: Substituição do TLS 1.0 e 1.1no Office 365 GCC High e DoD
+          href: tls-1-2-in-office-365-gcc.md
+        - name: TLS 1.2 no Office 365
+          href: prepare-tls-1.2-in-office-365.md
+    - name: Prevenção de perda de dados (DLP)
+      items:
+        - name: Saiba mais sobre prevenção contra perda de dados
+          href: data-loss-prevention-policies.md
         - name: DLP e Microsoft Teams
           href: dlp-microsoft-teams.md
         - name: Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade (visualização)
@@ -131,116 +242,42 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: Funcionamento da DLP entre o Centro de Conformidade e Segurança e o centro de administração do Exchange
           href: how-dlp-works-between-admin-centers.md
-    - name: Tipos de informações confidenciais
-      items:
-        - name: 'Definições da entidade de tipo de informações confidenciais '
-          href: sensitive-information-type-entity-definitions.md
-        - name: O que as funções DLP procuram
-          href: what-the-dlp-functions-look-for.md
-        - name: Assista a uma visão geral da personalização da DLP
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
-        - name: Personalizar um tipo de informação confidencial interno
-          href: customize-a-built-in-sensitive-information-type.md
-        - name: Tipos de informações confidenciais personalizadas
-          href: custom-sensitive-info-types.md
-        - name: Criar tipos personalizados de informações confidenciais com classificação baseada em correspondência exata de dados
-          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança
-          href: create-a-custom-sensitive-information-type.md
-        - name: Criar um tipo de informação confidencial personalizado usando o PowerShell
-          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
-        - name: Criar um dicionário de palavras-chave
-          href: create-a-keyword-dictionary.md
-        - name: Impressão Digital de Documento
-          href: document-fingerprinting.md
-        - name: Funções DLP para informações confidenciais
-          href: what-the-dlp-functions-look-for.md
-    - name: Criptografia no Microsoft 365
-      href: encryption.md
-    - name: Criptografia de Serviço do Office 365
-      href: office-365-service-encryption.md
-    - name: Detalhes de referências técnicas sobre a criptografia no Office 365
-      href: technical-reference-details-about-encryption.md
-    - name: TLS 1.0 e 1.1 substituição para o Office 365
-      href: tls-1.0-and-1.1-deprecation-for-office-365.md
-    - name: Substituição do TLS 1.0 e 1.1no Office 365 GCC High e DoD
-      href: tls-1-2-in-office-365-gcc.md
-    - name: TLS 1.2 no Office 365
-      href: prepare-tls-1.2-in-office-365.md
-    - name: Criptografia de Chave Dupla da visualização pública do Microsoft 365
-      href: double-key-encryption.md
-    - name: Chave de Cliente
-      items:
-        - name: Criptografia de serviço com Chave de Cliente no Office 365
-          href: customer-key-overview.md
-        - name: Configurar a Chave de Cliente do Office 365
-          href: customer-key-set-up.md
-        - name: Gerenciar Chave de Cliente do Office 365
-          href: customer-key-manage.md
-        - name: Rolar ou girar uma Chave de Cliente ou uma chave de disponibilidade
-          href: customer-key-availability-key-roll.md
-        - name: Saiba mais sobre a chave disponibilidade da Chave de Cliente
-          href: customer-key-availability-key-understand.md
-    - name: Criptografia de dados em trânsito
-      href: office-365-encryption-for-data-in-transit.md
-    - name: Criptografia de email
-      href: email-encryption.md
-      items:
-        - name: OME (Criptografia de Mensagem do Office 365)
-          href: ome.md
-        - name: Configurar novos recursos de Criptografia de Mensagens do Office 365
-          href: set-up-new-message-encryption-capabilities.md
-        - name: Definir regras de fluxo de e-mail para criptografar mensagens de e-mail no Office 365
-          href: define-mail-flow-rules-to-encrypt-email.md
-        - name: Adicionar a marca da sua organização a suas mensagens criptografadas
-          href: add-your-organization-brand-to-encrypted-messages.md
-        - name: Criar uma política de tipo de informações confidenciais para sua organização usando a Criptografia de Mensagem do Office 365
-          href: ome-sensitive-info-types.md
-        - name: Gerenciar a Criptografia de Mensagens do Office 365
-          href: manage-office-365-message-encryption.md
-        - name: Criptografia de Mensagem Avançada do Office 365
-          href: ome-advanced-message-encryption.md
-        - name: Definir uma data de vencimento para o email criptografado pela Criptografia de Mensagem Avançada do Office 365
-          href: ome-advanced-expiration.md
-        - name: Revogar email criptografado pela Criptografia de Mensagem Avançada do Office 365
-          href: revoke-ome-encrypted-mail.md
-        - name: Comparar versões de OME
-          href: ome-version-comparison.md
-        - name: Perguntas frequentes sobre Criptografia de Mensagem do Office 365
-          href: ome-faq.md
-        - name: Como o Exchange Online protege seus segredos de email
-          href: exchange-online-secures-email-secrets.md
-        - name: Como o Exchange Online usa o TLS para proteger conexões de email no Office 365
-          href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: BitLocker e Distributed Key Manager (DKM) para Criptografia
-          href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
-        - name: OME Herdado
-          items:
-            - name: Informações herdadas de Criptografia de Mensagens do Office 365
-              href: legacy-information-for-message-encryption.md
-            - name: Configurar o Azure Rights Management para a versão anterior de criptografia de mensagem do Office 365
-              href: set-up-azure-rms-for-previous-version-message-encryption.md
-    - name: Configurar o IRM no centro de administração do SharePoint
-      href: set-up-irm-in-sp-admin-center.md
-    - name: Entender a classificação de dados
-      href: data-classification-overview.md
-      items:
-        - name: 'Introdução ao gerenciador de conteúdo '
-          href: data-classification-content-explorer.md
-        - name: Começar a usar o gerenciador de atividades
-          href: data-classification-activity-explorer.md
-        - name: Notas de versão de classificação de dados
-          href: data-classification-pub-preview-relnotes.md
-        - name: Introdução aos classificadores de treinamento (visualização)
-          href: classifier-getting-started-with.md
-        - name: Usando um classificador interno (visualização)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: Criando e treinando um classificador (visualização)
-          href: classifier-creating-a-trainable-classifier.md
-- name: Gerenciar governança de informações
+- name: Gerenciar a governança de informações
   items:
-    - name: Gerenciar governança de informações
+    - name: Gerenciar seus dados
       href: manage-information-governance.md
+    - name: Reter e excluir dados
+      items:
+        - name: Saiba mais sobre a retenção
+          items:
+            - name: Rótulos e políticas de retenção
+              href: retention.md
+            - name: Retenção do SharePoint e do OneDrive
+              href: retention-policies-sharepoint.md
+            - name: Retenção do Microsoft Teams
+              href: retention-policies-teams.md
+            - name: Retenção do Exchange
+              href: retention-policies-exchange.md
+        - name: Introdução à retenção
+          href: get-started-with-retention.md
+        - name: Criar políticas de retenção
+          href: create-retention-policies.md
+        - name: Usar plano de arquivos
+          href: file-plan-manager.md
+        - name: Criar rótulos de retenção e aplicá-los em aplicativos
+          href: create-apply-retention-labels.md
+        - name: Aplicar um rótulo de retenção ao conteúdo automaticamente
+          href: apply-retention-labels-automatically.md
+        - name: Respeitar a Regra 17a-4 da SEC
+          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: Criar rótulos de retenção com o PowerShell
+          href: bulk-create-publish-labels-using-powershell.md
+        - name: Iniciar a retenção quando ocorrer um evento
+          href: event-driven-retention.md
+        - name: Usar rótulos de retenção para gerenciar ciclos de vida de documentos
+          href: auto-apply-retention-labels-scenario.md
+        - name: Gerenciar a disposição dos dados
+          href: disposition.md
     - name: Importar dados de caixa de correio
       items:
         - name: Visão geral da importação de arquivos PST
@@ -287,38 +324,6 @@
           href: enable-unlimited-archiving.md
         - name: Configurar uma política de arquivamento e exclusão para caixas de correio
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
-    - name: Reter e excluir dados
-      items:
-        - name: Saiba mais sobre a retenção
-          items:
-            - name: Rótulos e políticas de retenção
-              href: retention.md
-            - name: Retenção do SharePoint e do OneDrive
-              href: retention-policies-sharepoint.md
-            - name: Retenção do Microsoft Teams
-              href: retention-policies-teams.md
-            - name: Retenção do Exchange
-              href: retention-policies-exchange.md
-        - name: Introdução à retenção
-          href: get-started-with-retention.md
-        - name: Criar políticas de retenção
-          href: create-retention-policies.md
-        - name: Usar plano de arquivos
-          href: file-plan-manager.md
-        - name: Criar rótulos de retenção e aplicá-los em aplicativos
-          href: create-apply-retention-labels.md
-        - name: Aplicar um rótulo de retenção ao conteúdo automaticamente
-          href: apply-retention-labels-automatically.md
-        - name: Respeitar a Regra 17a-4 da SEC
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: Criar rótulos de retenção com o PowerShell
-          href: bulk-create-publish-labels-using-powershell.md
-        - name: Iniciar a retenção quando ocorrer um evento
-          href: event-driven-retention.md
-        - name: Usar rótulos de retenção para gerenciar ciclos de vida de documentos
-          href: auto-apply-retention-labels-scenario.md
-        - name: Gerenciar a disposição dos dados
-          href: disposition.md
     - name: Gerenciar caixas de correio inativas
       items:
         - name: Visão geral de caixas de correio inativas
@@ -333,10 +338,8 @@
           href: restore-an-inactive-mailbox.md
         - name: Excluir uma caixa de correio inativa
           href: delete-an-inactive-mailbox.md
-    - name: Mais informações sobre governança de dados
-      items:
-        - name: Assista aos vídeos da equipe de Governança de Dados da Microsoft
-          href: 'https://go.microsoft.com/fwlink/?linkid=867039'
+    - name: Vídeos da equipe de Governança de Dados
+      href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Gerenciamento de registros
       items:
         - name: Saiba mais sobre o gerenciamento de registros
