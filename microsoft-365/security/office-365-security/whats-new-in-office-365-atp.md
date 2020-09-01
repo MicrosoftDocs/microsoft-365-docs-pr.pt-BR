@@ -8,8 +8,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,13 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 08/27/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eda787a92228fc9705bd329f0df7203b9a1175c
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.reviewer: vippand
+ms.openlocfilehash: 2e6638480ec3a687b1bed9f2a176b6bf21278ef2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47294770"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308374"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -39,7 +40,7 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 
 - [Verificar suas políticas usando o analisador de configuração](configuration-analyzer-for-security-policies.md)
 - [Substituir manualmente o filtro verdicts usando a lista de permissões/bloqueios de locatários](tenant-allow-block-list.md)
-- [Recursos estendidos no explorador de ameaças, incluindo usuários direcionados principais, regras de transporte e conectores](threat-explorer.md#extended-capabilities-in-Threat-Explorer.md)
+- [Recursos estendidos no explorador de ameaças, incluindo usuários direcionados principais, regras de transporte e conectores](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections)
 - Revelar substitui informações no [Gerenciador de ameaças](threat-explorer.md) (email permitido/bloqueado por política de locatário/usuário)
 - Ameaças de URL do revelar no [Explorador de ameaças](threat-explorer.md) (malware, phishing, spam ou nenhum)
 

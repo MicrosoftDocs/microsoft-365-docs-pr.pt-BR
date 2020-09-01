@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Garanta que seus funcionários remotos possam acessar recursos locais ao otimizar o acesso aos serviços em nuvem do Microsoft 365.
-ms.openlocfilehash: 4327f6d7e4815a8720ecc05c7e4dd48ca89ac3d8
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 7c928718a4d0f0d47fb601e6ab6e51f25c88a04a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521524"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308386"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Etapa 2. Fornecer acesso remoto a aplicativos e serviços locais
 
@@ -54,13 +54,13 @@ O tráfego do Microsoft 365 deve seguir uma rota indireta pela organização, qu
 
 Com o túnel dividido, você pode configurar seu cliente VPN para impedir que tipos específicos de tráfego sejam enviados à rede da organização pela conexão VPN.
 
-Para otimizar o acesso aos recursos de nuvem do Microsoft 365, configure seus clientes VPN de túnel dividido para excluir o tráfego nos pontos de extremidade do Microsoft 365 da categoria **Otimizar** pela conexão VPN. Para obter mais informações, confira [Categorias de ponto de extremidade do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#new-office-365-endpoint-categories). Veja a lista de pontos de extremidade da categoria Otimizar [aqui](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Para otimizar o acesso aos recursos de nuvem do Microsoft 365, configure seus clientes VPN de túnel dividido para excluir o tráfego nos pontos de extremidade do Microsoft 365 da categoria **Otimizar** pela conexão VPN. Para obter mais informações, confira [Categorias de ponto de extremidade do Office 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories). Veja a lista de pontos de extremidade da categoria Otimizar [aqui](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ![Tráfego de rede de clientes VPN com túnel dividido](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
 Isso permite que o cliente VPN envie e receba o tráfego crucial do serviço em nuvem do Microsoft 365 diretamente pela Internet e para o ponto de entrada mais próximo da rede Microsoft.
 
-Para obter mais informações e orientações, confira [Otimizar a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel).
+Para obter mais informações e orientações, confira [Otimizar a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??).
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Implantar o acesso remoto quando todos os seus aplicativos são aplicativos Web e você tem identidade híbrida
 
@@ -116,7 +116,7 @@ Confira [este artigo](https://www.microsoft.com/security/blog/2020/04/16/securit
 ## <a name="admin-technical-resources-for-remote-access"></a>Recursos técnicos do administrador para acesso remoto
 
 - [Como otimizar rapidamente o tráfego do Office 365 para funcionários remotos e reduzir a carga em sua infraestrutura](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [Otimize a conectividade do Office 365 dos usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)
+- [Otimize a conectividade do Office 365 dos usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
 
 ## <a name="results-of-step-2"></a>Resultados da Etapa 2
 

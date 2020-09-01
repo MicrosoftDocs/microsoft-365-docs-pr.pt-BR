@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: 'Resumo: Configure um site de equipe do SharePoint Online isolado do restante da organização no seu ambiente de desenvolvimento/teste do Microsoft 365.'
-ms.openlocfilehash: 07f3ae349f20fd4498e7809955cf0407d8c31d8c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 095b0e5098d86f69c21576e72439dde48a092db3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588023"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308398"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Site de equipe do SharePoint Online isolado no seu ambiente de desenvolvimento/teste
 
@@ -65,7 +65,7 @@ Se você quiser criar um site de equipe do SharePoint Online isolado em uma conf
 
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>Fase 2: criar contas de usuário e grupos de acesso
 
-Use as instruções em [conectar-se ao Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) para se conectar à sua assinatura de avaliação com sua conta de administrador global em:
+Use as instruções em [conectar-se ao Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell) para se conectar à sua assinatura de avaliação com sua conta de administrador global em:
 
 - Seu computador (para o ambiente leve de desenvolvimento/teste da Microsoft 365).
 
@@ -174,7 +174,7 @@ Para criar um site de equipe do SharePoint Online para o projeto x, faça o segu
 
 13. Na caixa de diálogo **Compartilhar**, digite **Projeto X-Membros**, selecione-o e clique em **Compartilhar**.
 
-14. Clique no botão Voltar de seu navegador.
+14. Clique no botão voltar de seu navegador.
 
 15. Clique em **Proprietários do Projeto X** na lista.
 
@@ -238,7 +238,7 @@ Agora, vamos demonstrar o acesso usando a conta de usuário do designer de clien
 
 13. Clique nas reticências do documento **Document.docx** e clique em **Obter um link**.
 
-14. Copie a URL na caixa de diálogo **compartilhar ' Document. docx '** e cole-a em uma nova linha no bloco de notas ou em seu editor de texto e, em seguida, feche a caixa de diálogo **compartilhar ' Document. docx '** .
+14. Copie a URL na caixa de diálogo **compartilhar ' Document.docx '** e cole-a em uma nova linha no bloco de notas ou em seu editor de texto e, em seguida, feche a caixa de diálogo **compartilhar ' Document.docx '** .
 
 15. Feche as guias **Projeto X-Documentos** e **SharePoint** em seu navegador e clique na guia **Microsoft Office Home**.
 
@@ -286,7 +286,7 @@ Quando estiver pronto para implantar um site de equipe do SharePoint Online isol
 
 [Sites de equipe do SharePoint Online isolados](isolated-sharepoint-online-team-sites.md)
 
-[Guias do Laboratório de Teste (TLGs) para adoção de nuvem](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Guias do Laboratório de Teste (TLGs) para adoção de nuvem](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 [A configuração base de empresa simulada](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 

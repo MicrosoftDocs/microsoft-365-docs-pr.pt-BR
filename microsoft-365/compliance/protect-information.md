@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Implementar recursos de proteção de informações da Microsoft (MIP) usando o Microsoft 365 Compliance para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde quer que elas se envidam ou se encontram.
-ms.openlocfilehash: 96082bc70b093e763be00c847bb6a68ce302c8a9
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: ac4499fceae1e4f754753cf91beaf106d855c517
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815194"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308342"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de informações da Microsoft no Microsoft 365
 
@@ -38,17 +38,17 @@ Para obter informações sobre como governar seus dados, consulte [Microsoft Inf
 
 Para entender seu cenário de dados e identificar dados importantes em seu ambiente híbrido, use os seguintes recursos:
  
-|Recursos|Que problemas ele resolve?|Introdução|
+|Funcionalidade|Que problemas ele resolve?|Introdução|
 |:------|:------------|:--------------------|:-----------------------------|
 |[Tipos de informações confidenciais](sensitive-information-type-entity-definitions.md)| Identifica dados confidenciais usando expressões regulares internas ou personalizadas ou uma função, junto com a evidência corroborativas que inclui palavras-chave, níveis de confiança e proximidade.| [Personalizar um tipo de informação confidencial interno](customize-a-built-in-sensitive-information-type.md)|
-|[Classificadores estagiários (visualização)](classifier-getting-started-with.md)| Classifica dados para você, usando um dos classificadores internos ou treina um classier com seu próprio conteúdo | [Criar um classificador treinado (visualização)](classifier-creating-a-trainable-classifier.md) |
+|[Classificadores estagiários (visualização)](classifier-getting-started-with.md)| Classifica dados para você, usando um dos classificadores internos ou treinando um classificador com seu próprio conteúdo | [Criar um classificador treinado (visualização)](classifier-creating-a-trainable-classifier.md) |
 |[Classificação de dados](data-classification-overview.md) | Identifica itens que têm um rótulo de confidencialidade, um rótulo de retenção ou foram classificados como um tipo de informação confidencial em sua organização e as ações que os usuários estão assumindo neles  | [Introdução ao gerenciador de conteúdo ](data-classification-content-explorer.md)<br /><br /> [Começar a usar o gerenciador de atividades](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>Proteja seus dados
 
 Para aplicar ações de proteção flexíveis que incluem criptografia, restrições de acesso e marcações visuais, use os seguintes recursos:
 
-|Recursos|Que problemas ele resolve?|Introdução|
+|Funcionalidade|Que problemas ele resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
 |[Rótulos de confidencialidade ](sensitivity-labels.md)| Uma única solução entre aplicativos, serviços e dispositivos para rotular e proteger seus dados conforme eles trafegam dentro e fora da sua organização <br /><br />Cenário de exemplo: [aplicar e exibir rótulos de confidencialidade no Power bi e proteger dados quando ele é exportado](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
 |[Cliente de rotulação unificada de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Para computadores com Windows, estende os rótulos de confidencialidade para recursos adicionais e funcionalidade que inclui o rótulo e a proteção de todos os tipos de arquivo do explorador de arquivos e do PowerShell<br /><br /> Exemplos de recursos adicionais: [configurações personalizadas para o cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Guia do administrador do cliente de rótulo unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
@@ -66,7 +66,7 @@ Para aplicar ações de proteção flexíveis que incluem criptografia, restriç
 Para ajudar a evitar o compartilhamento acidental de informações confidenciais, use os seguintes recursos:
 
 
-|Recursos|Que problemas ele resolve?|Introdução|
+|Funcionalidade|Que problemas ele resolve?|Introdução|
 |:------|:------------|:---------------------|:-----------------------------|
 |[Prevenção de perda de dados](data-loss-prevention-policies.md) (DLP)| Ajuda a evitar o compartilhamento não intencional de itens confidenciais <br /><br />Cenário de exemplo: [proteger informações confidenciais em mensagens de chat e de canal do Microsoft Teams](dlp-microsoft-teams.md) | [Introdução à política DLP padrão](get-started-with-the-default-dlp-policy.md)|
 |[Prevenção de perda de dados de ponto de extremidade (prévia)](endpoint-dlp-learn-about.md)| Estende os recursos de DLP para itens que são usados e compartilhados em computadores com Windows 10 | [Introdução à prevenção contra perda de dados do Endpoint (visualização)](endpoint-dlp-getting-started.md)|

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39c58a86b3f8e3bec2225c4a3df53120fac79eea
-ms.sourcegitcommit: 929ca8f4d5fc006c3827f7a8b7d2b43e54c1b42a
+ms.openlocfilehash: 75f807f2d09792838cab2ee5154578b5cbbbfde8
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46674621"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294738"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -186,9 +186,9 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
       > [!TIP]
       >
-      > - Se você estiver procurando por todas as atividades relacionadas a um **site**, adicione o símbolo curinga (\*) após a URL para retornar todas as entradas para esse site. por exemplo, **"https://contoso-my.sharepoint.com/personal/*"**.
+      > - Se você estiver procurando por todas as atividades relacionadas a um **site**, adicione o símbolo curinga (\*) após a URL para retornar todas as entradas para esse site. Por exemplo, `"https://contoso-my.sharepoint.com/personal*"`.
       >
-      > - Se você estiver procurando por todas as atividades relacionadas a um **arquivo**, adicione o símbolo curinga (\*) antes do nome do arquivo para retornar todas as entradas desse arquivo, por exemplo, **"*Customer_Profitability_Sample.csv"**.
+      > - Se você estiver procurando por todas as atividades relacionadas a um **arquivo**, adicione o símbolo curinga (\*) antes do nome do arquivo para retornar todas as entradas desse arquivo, por exemplo, `"*Customer_Profitability_Sample.csv"`.
 
 5. Clique em **Pesquisar** para executar a pesquisa usando seus critérios de pesquisa. 
 

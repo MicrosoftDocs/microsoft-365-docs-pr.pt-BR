@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 112857d9778cf850613c808474051eb25df74296
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5b466084701d2424aeaf9e7ee644d33861fdd5f3
+ms.sourcegitcommit: 87449335d9a1124ee82fa2e95e4745155a95a62f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656822"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47310882"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -255,7 +255,7 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     
     ![Escolher a página de locais do assistente de rotulamento automático ](../media/locations-auto-labeling-wizard.png)
     
-    Para o OneDrive, você deve especificar contas individuais. A URL do OneDrive de um usuário está no seguinte formato: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
+    Você deve especificar sites individuais do SharePoint e contas do OneDrive. Para o OneDrive, a URL da conta do OneDrive de um usuário está no seguinte formato: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
     
     Por exemplo, para um usuário no locatário contoso que tenha um nome de usuário "rsimone": `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
     
@@ -312,4 +312,44 @@ Você também pode ver os resultados da política de rotulagem automática usand
 
 > [!TIP]
 > Você também pode usar o gerenciador de conteúdo para identificar os locais que têm documentos com informações confidenciais, mas que não são rotulados. Usando essas informações, considere adicionar esses locais à política de rotulagem automática e inclua os tipos de informações confidenciais identificadas como regras.
+
+### <a name="use-powershell-for-auto-labeling-policies"></a>Usar o PowerShell para políticas de rotulamento automático
+
+Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps) para criar e configurar políticas de rotulamento automático. Isso significa que agora você pode criar um script completo da criação e da manutenção das políticas de rotulamento automático, que também fornece um método mais eficiente para especificar várias URLs para os locais do OneDrive e do SharePoint.
+
+Antes de executar os comandos no PowerShell, você deve primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+
+Para criar uma nova política de rotulamento automático: 
+
+```powershell
+New-AutoSensitivityLabelPolicy -Name <AutoLabelingPolicyName> -SharePointLocation "<SharePointSiteLocation>" -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
+```
+Esse comando cria uma política de rotulamento automático para um site do SharePoint especificado por você. Para um local do OneDrive, em vez disso, use o parâmetro *OneDriveLocation*. 
+
+Para adicionar mais sites a uma política de rotulamento automático existente:
+
+```powershell
+$spoLocations = @("<SharePointSiteLocation1>","<SharePointSiteLocation2>")
+Set-AutoSensitivityLabelPolicy -Identity <AutoLabelingPolicyName> -AddSharePointLocation $spoLocations -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
+```
+
+Esse comando especifica as URLs adicionais do SharePoint em uma variável que é adicionada a uma política de rotulamento automático existente. Se em vez disso quiser adicionar locais do OneDrive, use o parâmetro *AddOneDriveLocation* com uma variável diferente, como *$OneDriveLocations*.
+
+Para criar uma nova regra de rotulamento automático:
+
+```powershell
+New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelingRuleName> -ContentContainsSensitiveInformation @{"name"= "a44669fe-0d48-453d-a9b1-2cc83f2cba77"; "mincount" = "2"} -Workload SharePoint
+```
+
+Para uma política de rotulamento automático existente, esse comando cria uma nova regra de política para detectar o tipo de informações confidenciais do **Número de seguridade social dos EUA (SSN)**, que tem uma ID de entidade a44669fe-0d48-453d-a9b1-2cc83f2cba77. Para encontrar as IDs de entidade para outros tipos de informações confidenciais, confira [Definições da entidade de tipo de informações confidenciais](sensitive-information-type-entity-definitions.md).
+
+Para mais informações sobre os cmdlets do PowerShell que oferecem suporte a políticas de rotulação automática, seus parâmetros disponíveis e alguns exemplos, confira a ajuda do cmdlet a seguir:
+
+- [Get-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/get-autosensitivitylabelpolicy)
+- [New-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelpolicy?view=exchange-ps)
+- [New-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelrule?view=exchange-ps)
+- [Remove-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelpolicy?view=exchange-ps)
+- [Remove-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelrule?view=exchange-ps)
+- [Set-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelpolicy?view=exchange-ps)
+- [Set-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelrule?view=exchange-ps)
 

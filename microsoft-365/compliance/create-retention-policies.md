@@ -281,7 +281,7 @@ Há um número máximo de políticas com suporte para um locatário: 10.000. Ess
 Se é provável que suas políticas de retenção estejam sujeitas a essas limitações, escolha as opções de configuração que se aplicam a locais inteiros ou use uma política em toda a organização.
 
 > [!WARNING]
-> Se você inclui-lo e, em seguida, remover o último, a configuração será revertida para **Todas** para o local.  Verifique se esta é a configuração que você pretende antes de salvar a política.
+> Se você inclui-lo e, em seguida, remover o último, a configuração será revertida em **Todas** para o local.  Verifique se esta é a configuração que você pretende antes de salvar a política.
 > 
 > Por exemplo, se você especificar um site do SharePoint a ser incluído na sua política de retenção que está configurada para excluir dados e, em seguida, remover o site único, por padrão, todos os sites do SharePoint estarão sujeitos à política de retenção que exclui permanentemente os dados. O mesmo se aplica a inclusões para os destinatários do Exchange, contas do OneDrive, usuários de chat do Teams, etc.
 > 
