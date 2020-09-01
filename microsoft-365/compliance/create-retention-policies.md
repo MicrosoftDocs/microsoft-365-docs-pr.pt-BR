@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: 6a22c1020c7e6d6c1fce4f80ce40da353b095e64
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 5b0b81d18afad9f0f9cba6ec24e157ad8f96e4ef
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903856"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315839"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -210,9 +210,7 @@ Uma política de retenção pode ser aplicada a todo o conteúdo nos locais em q
 ### <a name="identify-content-that-contains-specific-keywords"></a>Identificar conteúdo que inclui palavras-chave específicas
 
 Você pode aplicar uma política de retenção apenas ao conteúdo que atende a condições específicas e depois realizar ações de retenção apenas nesse conteúdo. As condições disponíveis dão suporte à aplicação de uma política de retenção ao conteúdo que inclui palavras ou frases específicas. Refine a consulta usando operadores de pesquisa como AND, OR e NOT. Para saber mais sobre esses operadores, confira [Consultas de palavra-chave e critérios de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
-  
-O suporte à adição de propriedades pesquisáveis (por exemplo, **assunto:**) estará disponível em breve.
-  
+
 A retenção com base em consulta usa o índice de pesquisa para identificar conteúdo.
   
 ![Editor de consultas](../media/2c31b412-922e-4a88-89e4-5175c23d9b5f.png)
