@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar e publicar automaticamente os rótulos de retenção para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 80a5ef502450a24d9c8aeeb08d571bfcbd51a4e3
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 7528fed52ae3df1a60303c40df35a42de6bc1f31
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648800"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315807"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -38,8 +38,8 @@ Os rótulos de retenção de aplicação automática são excelentes porque:
     
 - Os usuários não precisam mais conhecer as políticas de governança de dados; assim podem se concentrar no próprio trabalho.
     
-Você pode aplicar rótulos de retenção ao conteúdo automaticamente quando esse conteúdo contiver informações confidenciais, palavras-chave ou uma correspondência para [classificadores treináveis](classifier-getting-started-with.md).
-    
+Você pode aplicar rótulos de retenção ao conteúdo automaticamente quando esse conteúdo contiver informações confidenciais, palavras-chave, propriedades pesquisáveis ou uma correspondência para [classificadores treináveis](classifier-getting-started-with.md).
+
 Os processos para aplicar automaticamente um rótulo de retenção com base nessas condições:
 
 ![Diagrama de funções e tarefas para aplicação automática de rótulos](../media/32f2f2fd-18a8-43fd-839d-72ad7a43e069.png)
@@ -113,7 +113,7 @@ Você pode aplicar os rótulos de retenção automaticamente ao conteúdo quando
 
 - [Tipos específicos de informações confidenciais](#auto-apply-labels-to-content-with-specific-types-of-sensitive-information)
 
-- [Palavras-chave específicas que correspondem a uma consulta criada por você](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
+- [Palavras-chave específicas ou Propriedades pesquisáveis que correspondem a uma consulta criada](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
 
 - [Uma correspondência de classificadores treináveis](#auto-apply-labels-to-content-by-using-trainable-classifiers)
 
@@ -135,30 +135,28 @@ Para saber mais sobre essas opções, confira [Como ajustar as regras para facil
   
 #### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>Aplicar rótulos automaticamente a conteúdos com palavras-chave ou propriedades pesquisáveis
 
-Você pode aplicar automaticamente os rótulos ao conteúdo que atenda a certas condições. As condições disponíveis agora dão suporte à aplicação de um rótulo a conteúdos que incluem palavras ou frases específicas, ou valores de propriedades pesquisáveis. Você pode refinar a consulta usando os operadores de pesquisa AND, OR e NOT.
+Você pode aplicar automaticamente os rótulos ao conteúdo usando uma consulta que inclui palavras ou frases específicas, ou valores de propriedades pesquisáveis. Você pode refinar a consulta usando os operadores de pesquisa AND, OR e NOT.
 
-Durante a aplicação automática de rótulos para propriedades pesquisáveis, um alias de uma propriedade gerenciada não poderá ser usado na consulta. Deve ser o nome real da propriedade gerenciada, por exemplo, RefinableString01.
+![Editor de consultas](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
 
-Para saber mais sobre sintaxe de consulta, confira:
+Para obter mais informações sobre a sintaxe de consulta que usa a Linguagem de Consulta de Palavra-chave (KQL), consulte [Referência de sintaxe da Linguagem de Consulta de Palavra-chave (KQL) no MSDN](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference).
 
-- [Referência de sintaxe da Linguagem de Consulta de Palavra-chave (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
-
-Rótulos baseados em consultas usam o índice de pesquisa para identificar conteúdos. Para saber mais sobre propriedades pesquisáveis válidas, confira:
+Observe que os rótulos baseados em consulta usam o índice de pesquisa para identificar conteúdo. Para obter mais informações sobre as propriedades pesquisáveis que você pode usar, consulte:
 
 - [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md)
 - [Visão geral de propriedades rastreadas e gerenciadas no SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)
 
+> [!NOTE]
+> Embora as propriedades gerenciadas do SharePoint ofereçam suporte a aliases, não os use quando configurar seus rótulos de retenção. Especifique sempre o nome real da propriedade gerenciada, por exemplo, RefinableString01.
+
 Consultas de exemplos:
 
-- Exchange
-    - assunto:"Finanças trimestrais"
-    - destinatários:garthf<!--nolink-->@contoso.com
-- SharePoint e OneDrive
-    - contenttype:contract
-    - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement E contenttype:contract
-
-![Editor de consultas](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
-
+| Workload | Exemplo |
+|:-----|:-----|
+|Exchange   | `subject:"Quarterly Financials"` |
+|Exchange   | `recipients:garthf@contoso.com` |
+|Microsoft Office SharePoint Online | `contenttype:contract` |
+|Microsoft Office SharePoint Online | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract`|
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
 

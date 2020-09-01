@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: f19f452a01c093d08dbeed38a34756dcaf7a4e95
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 3c1b2564b0ba9d96d22ab9d3b78da500b54363e2
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127398"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315784"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -71,7 +71,7 @@ Quando as configurações forem reter somente ou excluir somente, os caminhos de
 
 ## <a name="how-retention-works-with-document-versions-in-a-site-collection"></a>Como funciona a retenção com versões de documento em um conjunto de sites
 
-O controle de versão é um recurso de todas as bibliotecas de documentos no SharePoint e no OneDrive. Por padrão, o controle de versão retém no mínimo 500 versões principais, embora você possa aumentar esse limite. Confira mais informações em [Habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37).
+O controle de versão é um recurso de todas as bibliotecas de documentos no SharePoint e no OneDrive. Por padrão, o controle de versão retém no mínimo 500 versões principais, embora você possa aumentar esse limite. Para saber mais, confira [Habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37) e [Como funciona o controle de versão em listas e bibliotecas](https://support.microsoft.com/office/how-versioning-works-in-lists-and-libraries-0f6cd105-974f-44a4-aadb-43ac5bdfd247).
   
 Uma política de retenção mantém todas as versões de um documento em um conjunto de sites do SharePoint ou em uma conta do OneDrive. Quando um documento sujeito a uma política de retenção reter somente for editado pela primeira vez, uma versão do documento original será copiada na Biblioteca de Retenção para Preservação. Quando um documento sujeito a uma configuração de retenção reter somente for excluído, todas as versões serão copiadas para a Biblioteca de Retenção para Preservação se o controle de versão estiver habilitado. Cada versão de um documento na Biblioteca de Retenção para Preservação existe como um item separado com seu próprio período de retenção:
   
@@ -81,6 +81,10 @@ Uma política de retenção mantém todas as versões de um documento em um conj
 
 > [!NOTE]
 > As versões preservadas dos documentos do SharePoint e do OneDrive não são pesquisáveis por ferramentas de Descoberta Eletrônica.
+
+Para os itens sujeitos a uma política de retenção (ou um bloqueio legal), os limites de versionamento da biblioteca de documentos são ignorados até o término do período de retenção do documento. Nesse cenário, as versões antigas não são limpas automaticamente e os usuários são impedidos de excluir versões.
+
+Esse não é o caso para rótulos de retenção quando uma política de retenção não é aplicada ao site. Em vez disso, os limites de controle de versão são cumpridos, de modo que as versões mais antigas sejam automaticamente excluídas para acomodar novas versões, mas os usuários ainda poderão excluir versões.
 
 ## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização
 
