@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: f540c1fce1c525ab49037ea27b139f10fac76f33
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 789e75165339f8a834a73aa3fd0d8a2666285ce9
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577957"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308178"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -52,7 +52,7 @@ Também é possível descarregar este pôster nos formatos [PDF](https://github.
 
 Para ajudar a proteger o acesso à equipe e ao site subjacente do Microsoft Office SharePoint Online, revise as seguintes práticas recomendadas:
 - [Políticas de acesso de dispositivos e identidades](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-policies)
-- [Políticas de acesso do Microsoft Office SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies).
+- [Políticas de acesso do SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)
 - [Implantar equipes com proteção de linha de base](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>Compartilhamento de convidados
