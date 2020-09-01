@@ -1,5 +1,5 @@
 ---
-title: Gerenciar configurações de scripts do Office
+title: Gerenciar configurações dos Scripts do Office
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Saiba como gerenciar as configurações de scripts do Office para usuários em sua organização.
-ms.openlocfilehash: 12a80f277f6d17a8e7f5228f6948e70b7a93be11
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 44e2a5c0e0577db344fdbb00a110674df3e71bdc
+ms.sourcegitcommit: 04f196528a7a91b404478553433af3fa94d7eee7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300823"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47317488"
 ---
-# <a name="manage-office-scripts-settings"></a>Gerenciar configurações de scripts do Office
+# <a name="manage-office-scripts-settings"></a>Gerenciar configurações dos Scripts do Office
 
 Os scripts do Office permitem que os usuários automatizem tarefas gravando, editando e executando scripts no Excel na Web. Os scripts do Office funcionam com a automatização de energia, e os usuários executam scripts em pastas de trabalho usando o conector do Excel online (Business). Os administradores do Microsoft 365 podem gerenciar as configurações de scripts do Office no centro de administração do Microsoft 365.
 
@@ -35,7 +35,7 @@ Os scripts do Office permitem que os usuários automatizem tarefas gravando, edi
 
     - Microsoft 365 Business Standard
     - Aplicativos do Microsoft 365 para empresas
-    - Microsoft 365 Apps para Grandes Empresas
+    - Microsoft 365 Apps para empresas
     - Office 365 E3
     - Office 365 E5
     - Office 365 A3
@@ -80,7 +80,7 @@ Os scripts do Office permitem que os usuários automatizem tarefas gravando, edi
 
 7. Selecione **Salvar**.
 
-    Pode levar até 48 horas para que as alterações nas configurações de script do Office entrem em vigor.
+    Pode levar até 48 horas para que as alterações nas configurações de scripts do Office entrem em vigor.
 
 ## <a name="next-steps"></a>Próximas etapas
 

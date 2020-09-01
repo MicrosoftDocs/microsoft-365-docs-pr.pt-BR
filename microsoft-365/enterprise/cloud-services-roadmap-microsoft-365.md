@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: O roteiro para configurar seus serviços de nuvem para o Microsoft 365.
-ms.openlocfilehash: 2b6b69f25888305232ba93d9d738319fe5137019
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4e9630ad84b5e442f0c8fd6ab95ca9d0c48c780a
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687337"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315760"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>Roteiro de serviços de nuvem para o Microsoft 365
 
@@ -28,11 +28,11 @@ Se você tiver implantações baseadas em servidor existentes para Exchange, Sha
 
 ## <a name="deploy"></a>Implantar
 
-Na fase de implantação dos serviços de nuvem:
+Para implantar os serviços de nuvem:
 
 - [Preparar seus serviços](configure-services-and-applications.md)
 - [Migrar seus dados locais para o Microsoft 365](migrate-data-to-office-365.md)
-- Implantar seus serviços de nuvem
+- Obter os serviços de nuvem configurados para seus usuários
   - [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
   - [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
   - [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
@@ -42,7 +42,7 @@ Na fase de implantação dos serviços de nuvem:
 
 ## <a name="manage"></a>Gerenciar
 
-Na fase de gerenciamento dos serviços de nuvem: 
+Para gerenciar os serviços de nuvem: 
 
 - [Verificar a integridade do serviço](view-service-health.md)
 - [Entender suas opções de suporte](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

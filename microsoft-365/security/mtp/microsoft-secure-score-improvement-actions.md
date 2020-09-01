@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ab75e7ddbf3ada01c3f1247e58d8dc9472ecae77
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 3b913b3d53abf8c46fbcc9e053f91f512864c9d8
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866970"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315826"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar a postura de segurança com a pontuação segura da Microsoft
 
@@ -35,7 +35,7 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 
 * Identity (contas do Azure Active Directory & funções)
 * Dados (proteção de informações da Microsoft)
-* Dispositivo (Microsoft defender ATP, conhecido como [Pontuação de configuração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configuration-score))
+* Dispositivo (Microsoft defender ATP, conhecido como [Pontuação segura da Microsoft para dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * Aplicativo (aplicativos de email e de nuvem, incluindo o Office 365 e o Microsoft Cloud app Security)
 * Infraestrutura (sem ações de melhoria por enquanto)
 

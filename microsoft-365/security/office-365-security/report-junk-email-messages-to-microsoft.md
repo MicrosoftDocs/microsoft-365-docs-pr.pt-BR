@@ -16,12 +16,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as diferentes maneiras de relatar mensagens e arquivos bons e ruins para a Microsoft para análise.
-ms.openlocfilehash: eb4826a02e5b55b2d2d5987e8c41f2aa19151090
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: cff9d1b3524200fba9d7ba1775e0b9851027158d
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867054"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315858"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Relatar mensagens e arquivos à Microsoft
 
@@ -35,7 +35,7 @@ Nas organizações do Microsoft 365 com caixas de correio em organizações do E
 |[Habilitar o suplemento de Mensagem de Relatório](enable-the-report-message-add-in.md)|Funciona com o Outlook, o Outlook para Mac e o Outlook na Web (anteriormente conhecido como Outlook Web App) e é o suplemento recomendado. <br/><br/> Dependendo da sua assinatura, as mensagens que os usuários relataram com o suplemento estão disponíveis no [portal de envios do administrador](admin-submission.md), [resultados de investigação e resposta automatizados (Air)](air-view-investigation-results.md), o [relatório de mensagens relatadas pelo usuário](view-email-security-reports.md#user-reported-messages-report)e o [Explorador de ameaças](threat-explorer-views.md#email--submissions). <br/><br/> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no EOP](user-submission.md).|
 |[Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook](junk-email-reporting-add-in-for-microsoft-outlook.md)|O só funciona no Outlook.|
 |[Relatar emails de lixo eletrônico e phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Use os recursos internos do Outlook na Web para organizações com caixas de correio do Exchange Online (não estão disponíveis em EOP autônomos). <br/><br/> Mensagens que o relatório de usuários estão disponíveis no [portal de envios de administradores](admin-submission.md). <br/><br/> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Exchange Online](user-submission.md).|
-|[Relatar emails de lixo eletrônico e phishing no Outlook para iOS e Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)|PARA ser atualizado – use os recursos internos do Outlook na Web para organizações com caixas de correio do Exchange Online (não estão disponíveis em EOP autônomos). <br/><br/> Mensagens que o relatório de usuários estão disponíveis no [portal de envios de administradores](admin-submission.md). <br/><br/> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Exchange Online](user-submission.md).|
+|[Relatar emails de lixo eletrônico e phishing no Outlook para iOS e Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)|Use os recursos internos do Outlook para iOS um Android para organizações com caixas de correio do Exchange Online (não está disponível em EOP autônomos). <br/><br/> Mensagens que o relatório de usuários estão disponíveis no [portal de envios de administradores](admin-submission.md). <br/><br/> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Exchange Online](user-submission.md).|
 |[Enviar mensagens manualmente para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Enviar manualmente mensagens anexadas para endereços de email específicos da Microsoft para spam, não spam e phishing.|
 |[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que o notifica quando os usuários relatam mensagens para a Microsoft para análise.
 |||

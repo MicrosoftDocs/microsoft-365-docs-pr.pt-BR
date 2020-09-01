@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Adicione seu domínio ao Microsoft 365 no centro de administração do Microsoft 365 adicionando um registro DNS no seu host DNS. O assistente de instalação orienta você durante o processo.
-ms.openlocfilehash: 0adf8b4dcd5d7bd31038b74a574f449f32bfb037
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: 3da99644f339eac2db6f1904e4eb50a7f584bc80
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814427"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315712"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Adicionar um domínio ao Microsoft 365
 
@@ -83,11 +83,13 @@ ms.locfileid: "46814427"
     
 5. Escolha como deseja verificar se você é o proprietário do domínio.
     
-    1. Se seu domínio estiver registrado em GoDaddy ou 1 &amp; 1, selecione **entrar em**  >  **seguida** e [a Microsoft configurará seus registros automaticamente](../get-help-with-domains/domain-connect.md).
+    1. Se o registrador de domínio usar a [conexão de domínio](#domain-connect-registrars-integrating-with-microsoft-365), selecione **entrar em**  >  **seguida** e [a Microsoft configurará seus registros automaticamente](../get-help-with-domains/domain-connect.md).
     
     2. É possível enviar um email para o contato registrado do domínio com um código de verificação. Se você não reconhece ou tem acesso ao email no registro, você pode usar a terceira opção.
     
     3. Use um registro TXT para verificar seu domínio. Selecione-o e selecione **Avançar** para ver instruções sobre como adicionar esse registro DNS ao site do registrador. Isso pode levar até 30 minutos para verificar após você ter adicionado o registro. 
+
+    4. Você pode adicionar um arquivo de texto ao site do seu domínio. Selecione e baixe o arquivo. txt do assistente de instalação e, em seguida, carregue o arquivo para a pasta de nível superior do seu site. O caminho para o arquivo deve ser semelhante a: `http://mydomain.com/ms39978200.txt` . Vamos confirmar que você é o proprietário do domínio encontrando o arquivo no seu site.
     
 6. Escolha como você deseja fazer as alterações de DNS necessárias para o Office usar seu domínio.
     
