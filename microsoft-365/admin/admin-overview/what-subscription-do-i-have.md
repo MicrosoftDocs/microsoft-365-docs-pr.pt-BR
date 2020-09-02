@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
-description: Saiba como verificar quais assinaturas sua organização acessará a página assinaturas.
-ms.openlocfilehash: fff76f1a9ac127d061460767a41941f4daf2ea32
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Saiba como verificar quais assinaturas sua organização acessará na página seus produtos.
+ms.openlocfilehash: bd7b7726c93ee6c5022df7ca72342d8d3b7a1c09
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780500"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324543"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
@@ -40,8 +37,9 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-
-2. Suas assinaturas são exibidas na página **produtos** , juntamente com o nome da assinatura, informações sobre a assinatura e seu status. Para ver uma exibição condensada, selecione **modo de exibição de tabela**.
+2. Na guia **produtos** , você verá todas as suas assinaturas. Cada linha de assinatura inclui informações sobre licenças, status da assinatura e cobrança.
+3. Se você deseja alterar as colunas que aparecem na lista, selecione **escolher colunas**. Altere a seleção de colunas e selecione **salvar**.
+4. Para ver mais detalhes de uma única assinatura, selecione essa assinatura.
 
 ::: moniker-end
   

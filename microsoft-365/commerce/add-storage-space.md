@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,21 +20,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEU150
-- GEA150
-- GSP150
-ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Saiba como adicionar e reduzir o armazenamento de arquivos em sua assinatura do Microsoft 365. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e no OneDrive.
-ms.openlocfilehash: d0580113449ae91e7be02a13993562d6b91a7d19
-ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
+ms.date: ''
+ms.openlocfilehash: 7f9973054bfe97beae36e28b73a3eb2025a13e73
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387416"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324463"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
@@ -50,19 +44,28 @@ Se você começar a ficar sem armazenamento para seus conjuntos de sites do Shar
 > [!NOTE]
 > Se você comprou a assinatura por meio de licenciamento por volume ou um CSP, não poderá comprar o **armazenamento de arquivos extra do Office 365** para sua organização diretamente da Microsoft. Entre em contato com seu representante ou parceiro para obter ajuda.
 
+## <a name="before-you-begin"></a>Antes de começar
+
+Você deve ser um administrador global ou do SharePoint para realizar as tarefas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+
 ## <a name="view-available-storage"></a>Exibir armazenamento disponível
 
 ::: moniker range="o365-worldwide"
 
-1. Vá para a [Página sites ativos do novo Centro de administração do SharePoint](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) e entre com uma conta que tenha [permissões de administrador](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) da sua organização.
+1. No centro de administração do SharePoint, vá para a página <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">sites ativos</a> e entre com uma conta que tenha [permissões de administrador](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) para sua organização.
 
-2. No canto superior direito da página, confira a quantidade de armazenamento usada em todos os sites e o armazenamento total da sua assinatura. (Se a sua organização tiver configurado multigeográfico no Office 365, a barra também mostrará a quantidade de armazenamento usada em todos os locais geográficos.) 
+2. No canto superior direito da página, confira a quantidade de armazenamento usada em todos os sites e o armazenamento total da sua assinatura. Se sua organização tiver configurado várias geografias no Office 365, a barra também mostrará a quantidade de armazenamento usada em todos os locais geográficos.
+
+   ![Barra de armazenamento na página sites ativos](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
+
+   > [!NOTE]
+   > O armazenamento usado não inclui as alterações feitas nas últimas 24-48 horas.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Entre https://portal.office.de como um administrador global ou do SharePoint e selecione o bloco administrador para abrir o centro de administração. (Se você vir uma mensagem informando que você não tem permissão para acessar a página, você não tem permissões de administrador do Microsoft 365 em sua organização.)
+1. Entre https://portal.office.de como um administrador global ou do SharePoint e selecione o bloco administrador para abrir o centro de administração. Se você vir uma mensagem informando que você não tem permissão para acessar a página, isso significa que você não tem permissões de administrador do Microsoft 365 em sua organização.
 
 2. No painel esquerdo, em **centros de administração**, selecione **SharePoint**. Se aparecer o centro de administração do SharePoint clássico, selecione **Abrir agora**, na parte superior da página, para abrir o novo centro de administração do SharePoint.
 
@@ -70,11 +73,16 @@ Se você começar a ficar sem armazenamento para seus conjuntos de sites do Shar
 
 4. No canto superior direito da página, confira a quantidade de armazenamento usada em todos os sites e o armazenamento total da sua assinatura.
 
+   ![Barra de armazenamento na página sites ativos](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
+
+   > [!NOTE]
+   > O armazenamento usado não inclui as alterações feitas nas últimas 24-48 horas.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Entre https://login.partner.microsoftonline.cn/ como um administrador global ou do SharePoint e selecione o bloco administrador para abrir o centro de administração. (Se você vir uma mensagem informando que você não tem permissão para acessar a página, você não tem permissões de administrador do Microsoft 365 em sua organização.)
+1. Entre https://login.partner.microsoftonline.cn/ como um administrador global ou do SharePoint e selecione o bloco administrador para abrir o centro de administração. (Se você vir uma mensagem informando que você não tem permissão para acessar a página, significa que você não tem permissões de administrador do Microsoft 365 em sua organização.
 
 2. No painel esquerdo, em **centros de administração**, selecione **SharePoint**. Se aparecer o centro de administração do SharePoint clássico, selecione **Abrir agora**, na parte superior da página, para abrir o novo centro de administração do SharePoint.
 
@@ -82,12 +90,12 @@ Se você começar a ficar sem armazenamento para seus conjuntos de sites do Shar
 
 4. No canto superior direito da página, confira a quantidade de armazenamento usada em todos os sites e o armazenamento total da sua assinatura.  
 
+   ![Barra de armazenamento na página sites ativos](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
+
+   > [!NOTE]
+   > O armazenamento usado não inclui as alterações feitas nas últimas 24-48 horas.
+
 ::: moniker-end
-
-![Barra de armazenamento na página sites ativos](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
-
-> [!NOTE]
-> O armazenamento usado não inclui as alterações feitas nas últimas 24-48 horas.
 
 Após determinar a quantidade de armazenamento que está usando, você pode adicionar ou remover espaço de armazenamento da assinatura. Para descobrir quanto custará para adicionar espaço de armazenamento, siga as etapas deste artigo e revise as informações sobre preços antes de comprar.
   
@@ -100,17 +108,11 @@ Se você ainda não comprou o armazenamento adicional para sua assinatura, é po
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de cobrança.
-
 2. Na parte inferior da página de **serviços de compra** , selecione **Complementos**.
-
 3. Selecione o **armazenamento de arquivos extra do Office 365**.
-
 4. Na página **armazenamento de arquivos extra do Office 365** , se mostrado, escolha a assinatura base e, em seguida, insira o número de gigabytes de armazenamento que você deseja adicionar.
-
 5. Selecione **fazer check-out agora**.
-
 6. Na página **como esta?** , verifique o número de gigabytes de armazenamento que você selecionou, revise as informações de preços e, em seguida, selecione **Avançar**.
-
 7. Na página **ordem completa** , verifique o total. Se você precisar fazer alterações, selecione **Editar ordem**. Se a ordem exigir uma verificação de crédito, marque a caixa de seleção. Quando tiver terminado, selecione **fazer pedido** \> **ir para a home page do administrador**.
 
 ::: moniker-end
@@ -167,17 +169,16 @@ Se você ainda não comprou o armazenamento adicional para sua assinatura, é po
 
 ## <a name="increase-or-decrease-storage"></a>Aumentar ou diminuir armazenamento
 
-Se você já comprou o armazenamento de arquivos extra por meio do complemento de **armazenamento de arquivos extra do Office 365** , poderá usar estas etapas para aumentar ou diminuir o espaço de armazenamento adicional da sua assinatura. Você pode reduzir o armazenamento para, no máximo, 1 gigabyte. Para remover todo o espaço de armazenamento adicional, é necessário [entrar em contato com o suporte](../admin/contact-support-for-business-products.md).
+Se você já comprou o armazenamento de arquivos extra por meio do complemento de **armazenamento de arquivos extra do Office 365** , poderá usar estas etapas para aumentar ou diminuir o espaço de armazenamento adicional da sua assinatura. Você pode reduzir o armazenamento para, no máximo, 1 gigabyte. Para remover todo o espaço de armazenamento adicional, [entre em contato com o suporte](../admin/contact-support-for-business-products.md).
 
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-
-2. Escolha a assinatura que contém o suplemento de **armazenamento de arquivos extra do Office 365** .
-
-3. Selecione **Complementos**e, em seguida, escolha **Alterar quantidade**.
-
-4. No painel **Adicionar/remover gigabytes** , insira o total de gigabytes que você deseja para a assinatura e, em seguida, selecione **Enviar alteração**.
+2. Na guia **produtos** , selecione a assinatura que contém o complemento **armazenamento adicional de arquivos do Office 365** .
+3. Na página detalhes do produto, na seção **Complementos** , selecione **gerenciar**Complementos.
+4. No painel **gerenciar** Complementos, na lista **complemento** , escolha o **armazenamento de arquivos extra do Office 365**.
+5. Na caixa de texto **quantidade** , insira o número de GBS de espaço de armazenamento desejado para a assinatura.
+6. Selecione **Salvar**.
 
 ::: moniker-end
 
@@ -263,3 +264,8 @@ O Office 365 com Espaço de Armazenamento Adicional está disponível para as se
 
 > [!NOTE]
 > O armazenamento de arquivos extra do Office 365 também está disponível para os planos GCC, GCC alto e DOD.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Gerenciar limites de armazenamento do site](ttps://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (artigo) \
+[Definir o espaço de armazenamento padrão para os usuários do onedrive](https://docs.microsoft.com/onedrive/set-default-storage-space)(artigo)

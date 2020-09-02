@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,19 +18,15 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: 'Saiba como renovar sua assinatura do Microsoft 365 para empresas usando uma chave do produto e ative ou desative as cobranças recorrentes. '
-ms.openlocfilehash: 8dd9697f95e238ff759b90b1fef7544be9196c85
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Saiba como renovar o Microsoft 365, ativando ou desativando faturas recorrentes.
+ms.openlocfilehash: 1bf6d3957479d1cb695075e139dc4af2a09db3df
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403217"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324299"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Renove o Microsoft 365 para empresas
 
@@ -57,18 +53,15 @@ Se sua assinatura for pré-paga com uma chave do produto, ela expirará no final
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-
-2. Escolha a assinatura da qual você quer gerenciar o faturamento recorrente.
-
-3. Em **Cobrança**, ao lado de**Renovar em**ou **Expirando em**, selecione **editar**.
-
-4. No painel **Configurações de cobrança recorrente**, clique em **Desativar** para desativá-la. Se a cobrança recorrente já estiver desabilitada, selecione **Mensalmente** ou**Uma vez** para habilitá-la.
-
-5. Selecione **Enviar alteração**.
+2. Selecione a assinatura da qual você quer gerenciar a cobrança recorrente.
+3. Na página de detalhes da assinatura, em **Configurações de pagamento e assinatura**, selecione **Editar cobrança recorrente**.
+4. No painel **Editar definições de cobrança recorrente**, selecione **Ativado**, **Ativado, mas renove uma vez** ou **Desativar**.
+5. Selecione **Salvar**.
 
     > [!NOTE]
     > - Você só pode alterar a configuração de **Cobrança recorrente** para assinaturas ativas. Se a sua assinatura já tiver expirado ou se estiver desabilitada, será necessário [reativá-la](reactivate-your-subscription.md) antes que seja possível ativar ou desativar a **Cobrança recorrente**.
-    > - Quando a **Cobrança recorrente** for desativada, a assinatura não será cancelada imediatamente. Ela permanecerá ativa até expirar. Você pode visualizar a data de expiração na seção **Cobrança** nos detalhes da assinatura da página **Seus produtos**.
+    > - Quando a **Cobrança recorrente** for desativada, a assinatura não será cancelada. Se desejar manter a assinatura ativa, você deverá pagar a fatura manualmente.
+    > - Se você desativar a **Cobrança recorrente**, a assinatura permanecerá ativa até expirar. Você pode exibir a data de expiração na página de detalhes da assinatura na seção **Configurações de pagamento e assinatura**.
     > - Para saber como cancelar a assinatura imediatamente, consulte [Cancelar a minha assinatura](cancel-your-subscription.md).
 
 ::: moniker-end

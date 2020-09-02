@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,17 +19,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: 0320f71180a5c2c127217ebf01854943409e6386
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.date: ''
+ms.openlocfilehash: 81c7509fb2f3be982890ec6b68dafb83ff0c1876
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403673"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324229"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
@@ -49,46 +47,25 @@ Se sua conta comercial não tiver um perfil de cobrança, qualquer administrador
 >
 > Você deve usar um método de pagamento emitido do mesmo país do seu locatário.
 
+## <a name="before-you-begin"></a>Antes de começar
+
+Você deve ser um administrador global ou de cobrança para realizar as tarefas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+
 ## <a name="add-a-payment-method"></a>Adicionar uma forma de pagamento
 
 A adição de um método de pagamento não associa nenhuma assinatura a ela. Para atribuir uma única assinatura ao método de pagamento, confira [alterar um método de pagamento para uma única assinatura](#change-a-payment-method-for-a-single-subscription). Para substituir todas as assinaturas que usam outra forma de pagamento com a nova, confira [substituir um método de pagamento](#replace-a-payment-method).
 
-::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> .
-::: moniker-end
-
-::: moniker range="o365-germany"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
+1. No centro de administração, acesse a página **Cobrança** > **Cobranças e pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Formas de pagamento</a>.
 2. Selecione **Adicionar um método de pagamento**.
-
 3. Na página **Método de pagamento**, escolha um método de pagamento do menu suspenso.
-
 4. Insira as informações para o novo cartão ou conta bancária e, em seguida, selecione **Adicionar**.
 
 ## <a name="update-payment-method-details"></a>Atualizar detalhes de método de pagamento
 
 Você pode alterar o nome no cartão de crédito ou débito, no endereço de cobrança ou na data de vencimento de uma forma de pagamento existente. No entanto, não é possível alterar o número do cartão ou da conta. Se o número da conta tiver sido alterado, [substitua-o por outro método de pagamento](#replace-a-payment-method)e [exclua o antigo](#delete-a-payment-method).
 
-::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> .
-::: moniker-end
-
-::: moniker range="o365-germany"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
+1. No centro de administração, acesse a página **Cobrança** > **Cobranças e pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Formas de pagamento</a>.
 2. Selecione a linha do método de pagamento a ser atualizado. No painel direito, selecione **Editar**.
-
 3. Atualize suas informações de método de pagamento, inclusive o nome no cartão de crédito ou de débito, no endereço de cobrança ou na data de vencimento e selecione **Salvar**.
 
 ## <a name="replace-a-payment-method"></a>Substituir uma método de pagamento
@@ -97,59 +74,26 @@ Ao substituir uma forma de pagamento, você a substitui por todas as assinaturas
 
 Para alterar a forma de pagamento de uma única assinatura, confira [alterar um método de pagamento para uma única assinatura](#change-a-payment-method-for-a-single-subscription).
 
-::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> .
-::: moniker-end
-
-::: moniker range="o365-germany"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
+1. No centro de administração, acesse a página **Cobrança** > **Cobranças e pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Formas de pagamento</a>.
 2. Selecione a linha do método de pagamento a ser substituído. O painel direito lista todos os perfis de cobrança e assinaturas individuais que usam o método de pagamento selecionado.
-
 3. No painel direito, marque **Substituir o método de pagamento para todos os itens**.
-
 4. Para usar um método de pagamento existente, escolha um na lista suspensa e selecione **Substituir**.
     > [!NOTE]
     > Se você tiver assinaturas associadas a um perfil de cobrança, só poderá usar um cartão de crédito ou débito para pagar por eles. Se você tiver contas bancárias listadas na página **Métodos de pagamento**, elas não estarão disponíveis para seleção na lista suspensa.
-
 5. Para adicionar um novo método de pagamento, marque**Adicionar método de pagamento**.
-
 6. No painel **Adicionar um método de pagamento**, insira as informações da conta e, em seguida, selecione **Salvar**. Você deve usar um método de pagamento do mesmo país do seu locatário.
-
 7. O novo método de pagamento já está selecionado na lista suspensa. Selecione **Substituir**.
 
 ## <a name="change-a-payment-method-for-a-single-subscription"></a>Alterar um método de pagamento para uma única assinatura
 
 Você pode alterar o método de pagamento usado para pagar uma única assinatura.
 
-::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-::: moniker-end
-
-::: moniker range="o365-germany"
-1. No centro de administração, vá para a página **Cobrança** > **Seus produtos**.
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-1. No centro de administração, vá para a página **Cobrança** > **Seus produtos**.
-::: moniker-end
-
-2. Na guia **assinaturas** , selecione a assinatura que você deseja pagar com a método de pagamento alternativo.
-
-3. Em **cobrança**, ao lado da forma de pagamento, selecione **Editar**.
-
-4. Ao lado de sua método de pagamento existente, selecione **alterar**.
-
-5. Na lista suspensa, escolha uma forma de pagamento alternativa ou escolha Adicionar uma forma de pagamento.
-
-6. Se você adicionar um método de pagamento, insira os detalhes do cartão ou da conta e selecione **salvar**.
-
-7. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
+1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+2. Na guia **produtos** , encontre a assinatura que deseja pagar com a forma de pagamento alternativo.
+3. Selecione **mais ações** (três pontos) e selecione **substituir método de pagamento**.
+4. No painel **substituir método de pagamento** , na lista suspensa, escolha uma forma de pagamento alternativa ou escolha Adicionar uma forma de pagamento.
+5. Se você adicionar um método de pagamento, insira os detalhes do cartão ou da conta e selecione **salvar**.
+6. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **substituir**.
 
 ## <a name="delete-a-payment-method"></a>Excluir um método de pagamento
 
@@ -159,52 +103,23 @@ Você só pode excluir um método de pagamento que não esteja anexado a uma ass
 
 Se um método de pagamento não estiver associado a qualquer assinatura ou perfil de cobrança, você poderá excluí-lo imediatamente.
 
-::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> .
-::: moniker-end
-
-::: moniker range="o365-germany"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
+1. No centro de administração, acesse a página **Cobrança** > **Cobranças e pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Formas de pagamento</a>.
 2. Encontre o método de pagamento a ser excluído, selecione os três pontos e, em seguida, selecione **excluir**.
-
 3. Na parte inferior do painel direito, selecione **excluir**.
 
 ### <a name="delete-a-payment-method-with-subscriptions-or-billing-profiles-attached"></a>Excluir um método de pagamento com assinaturas ou perfis de cobrança anexados
 
 Se um método de pagamento estiver anexado a qualquer assinatura ou perfil de cobrança, primeiro substitua-o por um método de pagamento existente, ou adicione um novo, e exclua o antigo método de pagamento.
 
-::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> .
-::: moniker-end
-
-::: moniker range="o365-germany"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
-::: moniker-end
-
+1. No centro de administração, acesse a página **Cobrança** > **Cobranças e pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Formas de pagamento</a>.
 2. Selecione a linha para o método de pagamento a ser excluído. O painel direito lista as assinaturas existentes que usam essa forma de pagamento.
-
 3. No painel direito, selecione **excluir**.
-
 4. Para usar um método de pagamento existente, escolha um na lista suspensa, selecione **Avançar**e, em seguida, selecione **excluir**.
     > [!NOTE]
     > Se você tiver assinaturas associadas a um perfil de cobrança, só poderá usar um cartão de crédito para pagar por elas. Se você tiver contas bancárias listadas na página **métodos de pagamento** , elas não estarão disponíveis para escolher na lista suspensa.
-
 5. Para adicionar um novo método de pagamento, marque**Adicionar método de pagamento**.
-
 6. Escolha o tipo de método de pagamento que você deseja adicionar, insira as informações da conta e, em seguida, selecione **salvar**.
-
 7. O novo método de pagamento já está selecionado na lista suspensa. Selecione **Avançar**.
-
 8. Selecione **Excluir**.
 
 ## <a name="troubleshoot-payment-methods"></a>Solucionar problemas de formas de pagamento
@@ -217,10 +132,8 @@ Se um método de pagamento estiver anexado a qualquer assinatura ou perfil de co
 |**Só tenho um cartão ou conta bancária em minha conta e desejo removê-lo.** |Se você tiver apenas uma forma de pagamento, deverá [substituí-la por uma nova método de pagamento antes de](#replace-a-payment-method) excluí-la. |
 |**Não consigo adicionar meu cartão ou minha conta bancária.**  |Você deve usar um método de pagamento emitido do mesmo país do seu locatário. Se você tiver problemas para inserir as informações do cartão ou da conta bancária, você pode [entrar em contato com o suporte](../../admin/contact-support-for-business-products.md). |
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Pagar sua assinatura de negócios](pay-for-your-subscription.md)
-
-[Gerenciar perfis de cobrança](manage-billing-profiles.md)
-
-[Alterar a frequência de pagamento](change-payment-frequency.md)
+[Pague sua assinatura comercial](pay-for-your-subscription.md) (artigo) \
+[Gerenciar perfis de cobrança](manage-billing-profiles.md) (artigo) \
+[Alterar sua frequência de cobrança](change-payment-frequency.md) (artigo)

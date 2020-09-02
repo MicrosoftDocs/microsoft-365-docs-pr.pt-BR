@@ -25,14 +25,20 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Standard.
-ms.openlocfilehash: b42dd0779c708410614ea2ab0d134aa3dcf0c7e9
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cfc198c749cfcaa76bc3fa6323e1dba8a46e7388
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778920"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324441"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Configurar o Microsoft Business Standard
+
+Assista a um vídeo curto sobre como configurar o Microsoft 365 Business Standard.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ELKR]
+
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
  *Estas etapas são para empresas e [entidades sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) que têm o **[Plano padrão de negócios da Microsoft 365 Business Standard.](https://go.microsoft.com/fwlink/p/?LinkId=627220)***
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +16,15 @@ ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago.
-ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.date: ''
+ms.openlocfilehash: 9669551101243f1abe760bf336d3472b50182555
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049743"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324274"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -45,19 +42,22 @@ ms.locfileid: "45049743"
 > [!NOTE]
 > Se você tiver várias assinaturas para o mesmo produto, como o Microsoft 365 Business Premium, cancelar uma delas não afetará as licenças ou serviços comprados nas outras assinaturas.
 
+## <a name="before-you-begin"></a>Antes de começar
+
+Você deve ser um administrador global ou de cobrança para realizar as tarefas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+
 ## <a name="steps-to-cancel-your-subscription"></a>Etapas para cancelar sua assinatura
 
 Se você adicionou seu próprio nome de domínio para usar com sua assinatura, você deve remover o domínio antes de cancelar sua assinatura. Para obter mais informações, consulte [Remove a Domain](../../admin/get-help-with-domains/remove-a-domain.md).
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> e, em seguida, selecione a guia **produtos** .
+2. Encontre a assinatura que você deseja cancelar. Selecione **mais ações** (três pontos) e, em seguida, selecione **cancelar assinatura**.
+3. No painel **cancelar assinatura** , escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça comentários.
+4. Selecione **Salvar**.
 
-2. Encontre a assinatura que você deseja cancelar e, em **configurações & ações**, selecione **cancelar assinatura**.
-
-3. Revise as datas importantes, forneça comentários sobre o motivo do cancelamento e selecione **cancelar assinatura**.
-
-    Agora, sua assinatura aparecerá em um estado **desabilitado** e reduzirá a funcionalidade até que ela seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business é cancelada, veja [o que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 para empresas termina?](what-if-my-subscription-expires.md)
+Agora, sua assinatura aparecerá em um estado **desabilitado** e reduzirá a funcionalidade até que ela seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business é cancelada, veja [o que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 para empresas termina?](what-if-my-subscription-expires.md)
 
 ::: moniker-end
 
@@ -95,7 +95,9 @@ Se você adicionou seu próprio nome de domínio para usar com sua assinatura, v
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>O que acontece quando você cancela uma assinatura
 
-Se você cancelar uma assinatura antes do fim do seu termo, a assinatura se moverá diretamente para um estado desabilitado. Para a maioria das assinaturas, na maioria dos países e das regiões, o estado desabilitado dura 90 dias. Os administradores ainda poderão acessar e fazer o backup de dados da organização enquanto a assinatura estiver no estado desabilitado, mas recomendamos que eles [façam o backup de seus dados](back-up-data-before-switching-plans.md) antes de cancelarem a assinatura, principalmente se essa for a única assinatura deles. Todos os dados deixados poderão ser excluídos após 90 dias e serão excluídos em até 180 dias após o cancelamento.
+Se você cancelar uma assinatura antes do fim do seu termo, o status da assinatura será movido diretamente para um estado desabilitado. Para a maioria das assinaturas, na maioria dos países e das regiões, o estado desabilitado dura 90 dias. Os administradores ainda poderão acessar e fazer o backup de dados da organização enquanto a assinatura estiver no estado desabilitado, mas recomendamos que eles [façam o backup de seus dados](back-up-data-before-switching-plans.md) antes de cancelarem a assinatura, principalmente se essa for a única assinatura deles. Os administradores também podem reativar a assinatura enquanto estiverem no estado desabilitado.
+
+Depois que 90 diz, a assinatura é movida para o estado excluído. Todos os dados que você deixar atrás poderão ser excluídos depois que os 90 dias não forem excluídos depois de 180 dias após o cancelamento. Não é possível remover um método de pagamento de uma assinatura cancelada até que ela atinja o estado excluído.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>O que você e seus usuários devem esperar caso cancelem uma assinatura
   
@@ -146,10 +148,12 @@ Quando o cancelamento se tornar efetivo, seus usuários perderão o acesso aos s
 
 Se você cancelou sua assinatura e não [moveu os usuários para uma assinatura diferente](move-users-different-subscription.md) que inclui o Microsoft 365, o Microsoft 365 é executado no modo de funcionalidade reduzida. Quando isso acontece, os usuários só podem ler e imprimir documentos, e os aplicativos do Microsoft 365 exibem [notificações de produtos não licenciados](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Para evitar confusão, peça aos seus usuários para [desinstalar o Office](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) de seus computadores.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="next-steps"></a>Próximas etapas
 
-[Renovar sua assinatura](renew-your-subscription.md)
+Se você quiser fechar completamente sua conta com a Microsoft, confira [fechar sua conta](../close-your-account.md).
 
-[Reativar sua assinatura](reactivate-your-subscription.md)
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Migrar usuários para uma assinatura diferente](move-users-different-subscription.md)
+[Renovar sua assinatura](renew-your-subscription.md) (artigo) \
+[Reativar sua assinatura](reactivate-your-subscription.md) (artigo) \
+[Mover usuários para uma assinatura diferente](move-users-different-subscription.md) (artigo)

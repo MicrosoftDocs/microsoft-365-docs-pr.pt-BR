@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Saiba como atualizar seus endereços de cobrança para o Microsoft 365 for Business. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
-ms.openlocfilehash: 6b2da1e947362db432bf036d9799ddef89526030
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 5e6fc2bad63c445f516ba3cd473bd40c7bfcb2e3
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817024"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324347"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 
@@ -49,7 +49,7 @@ Sua cobrança ou fatura contém três endereços:
 
 - **Endereço de uso do serviço** O endereço no qual o serviço está sendo usado, normalmente, é o mesmo endereço descrito no campo **Vendido para**. Caso a organização tenha usuários remotos ou vários escritórios, use o endereço em que a maioria dos usuários está localizada.
 
-Na maioria dos casos, esses endereços são os mesmos. Se precisar alterar um ou mais dos endereços, é possível fazê-lo. Você pode também fornecer um endereço de email alternativo para receber notificações de cobrança e alterar o endereço de email alternativo para outros administradores.
+Na maioria dos casos, esses endereços são os mesmos. Se precisar alterar um ou mais dos endereços, é possível fazê-lo. Você também pode fornecer um endereço de email alternativo para receber notificações de cobrança e alterar o endereço de email alternativo para outros administradores.
   
 ::: moniker range="o365-worldwide"
 
@@ -68,7 +68,6 @@ Para saber mais sobre sua cobrança ou fatura, confira [exibir sua cobrança ou 
 Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [exibir sua cobrança ou obter Fapiaos para o Office 365 operado pela 21vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
-
 
 ## <a name="change-your-sold-to-address"></a>Alterar o endereço do campo Vendido para
 
@@ -131,10 +130,9 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-
-2. Encontre a assinatura que você deseja alterar. Na seção **configurações & ações** , selecione **Editar endereço de uso do serviço**.
-
-3. No painel **Editar o endereço de uso do serviço** , atualize seu endereço e, em seguida, selecione **salvar**.
+2. Na guia **produtos** , selecione a assinatura que você deseja alterar.
+3. Na página detalhes da assinatura, na seção **endereço de uso do serviço** , selecione **Editar endereço de uso do serviço**.
+4. No painel **Editar endereço de uso do serviço** , atualize seu endereço e, em seguida, selecione **salvar**.
 
 ::: moniker-end
 
@@ -166,7 +164,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 
 Por padrão, as notificações de cobrança da sua organização são enviadas para o endereço de email da Microsoft e o endereço de email alternativo de cada administrador global e de cobrança em sua organização. Para alterar o endereço de email alternativo, os administradores devem atualizar suas informações de perfil.
   
-1. Entre no Microsoft 365 com sua conta corporativa ou de estudante como um administrador global. [Saiba como entrar](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Entre no Microsoft 365 com sua conta corporativa ou de estudante como um administrador global. [saiba como entrar](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. Selecione o **ícone usuário**e, em seguida, selecione **minha conta**.
   

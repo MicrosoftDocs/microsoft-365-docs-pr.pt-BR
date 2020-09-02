@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de lançamento para novas atualizações de produtos e recursos no centro de administração do Microsoft 365.
-ms.openlocfilehash: 648be8ca5d3c7aae93ed868972bc59b32ba87987
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 110cefa646f7c42c6979a97ca617b015a100866e
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560710"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324531"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de lançamento padrão ou direcionadas
 
@@ -39,13 +39,10 @@ ms.locfileid: "46560710"
 ::: moniker-end
 
 > [!IMPORTANT]
-> As atualizações 365 da Microsoft descritas neste artigo aplicam-se ao Microsoft 365, ao SharePoint Online e ao Exchange Online. Essas opções de versão são direcionadas, as melhores maneiras de lançar as alterações no Microsoft 365, mas não podem ser garantidas sempre ou para todas as atualizações. Eles não se aplicam ao Skype for Business, ao Microsoft Teams e aos serviços relacionados.
+> As atualizações 365 da Microsoft descritas neste artigo aplicam-se ao Microsoft 365, ao SharePoint Online e ao Exchange Online. Essas opções de versão são direcionadas, as melhores maneiras de lançar as alterações no Microsoft 365, mas não podem ser garantidas sempre ou para todas as atualizações. Eles não se aplicam a aplicativos do Microsoft 365, Skype for Business, Microsoft Teams e serviços relacionados. Para obter informações sobre as opções de versão para aplicativos Microsoft 365, consulte [Overview of Update Channels for microsoft 365 apps](https://docs.microsoft.com/deployoffice/overview-update-channels).
 
 Com o Microsoft 365, você recebe novos recursos e atualizações de produtos à medida que eles são disponibilizados em vez de realizar atualizações dispendiosas a cada ano. Você pode gerenciar como sua organização recebe essas atualizações. Por exemplo, você pode se inscrever em uma versão antecipada para que sua organização receba as atualizações primeiro. Você pode designar que apenas alguns usuários recebem as atualizações. Ou você pode permanecer no cronograma de lançamento padrão e receber as atualizações mais tarde. Este artigo explica as diferentes opções de versão e como você pode usá-las para sua organização.
 
-> [!NOTE]
-> Para obter informações sobre os canais de atualização para aplicativos, consulte [Overview of Update Channels for Microsoft 365 apps](https://docs.microsoft.com/deployoffice/overview-update-channels). 
-  
 ## <a name="how-it-works---release-validation"></a>Como funciona - validação de versão
 
 Qualquer nova versão é testada e validada pela equipe de recursos e, em seguida, por toda a equipe de recursos do Microsoft 365, seguida por toda a Microsoft. Depois de testes internos e validação, a próxima etapa é um **lançamento direcionado** (conhecido anteriormente como Primeiro Lançamento) para clientes que aceitarem. Em cada anel de lançamento, a Microsoft coleta comentários e valida mais a qualidade ao monitorar métricas de utilização importantes. Esta série de processos progressivos de validação serve para garantir que a versão mundial seja o mais robusta possível. As versões são ilustradas na figura a seguir. 

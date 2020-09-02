@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 47675f37e9146586b3fe0dd8d974887fd2435bf3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a7f6fc5fef9189f7478bcc67e1d24bdf037f561d
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307472"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324429"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
@@ -40,9 +40,9 @@ Fornecemos dados, ideias e recomendações em duas áreas:
 
 - **Experiência do funcionário:** Medimos como as pessoas colaboram com o conteúdo, como usam os produtos da Microsoft 365 para se comunicarem e se usam o Microsoft 365 entre plataformas. 
 
-    Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo. Quando eles têm liberdade para trabalhar em qualquer dispositivo, eles são mais produtivos e satisfeitos. Quando eles podem se comunicar de forma flexível, eles são mais eficientes, relações melhores de formulário e sua organização é mais unificado. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+    Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo. Com a liberdade de trabalhar em qualquer dispositivo, elas são mais produtivas e satisfeitas. A comunicação de forma flexível torna as pessoas mais eficientes, relações melhores de formulário e sua organização é mais unificada. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-- **Experiência de tecnologia:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos a [análise de ponto de extremidade](https://aka.ms/endpointanalytics), que o ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software de ponto de extremidade, enquanto fornece ações recomendadas para corrigi-los; e fornecemos informações de conectividade de rede da Microsoft 365 para sua organização.
+- **Experiência de tecnologia:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos a [análise de ponto de extremidade](https://aka.ms/endpointanalytics), que o ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software de ponto de extremidade. Também fornecemos as ações recomendadas para corrigi-las, bem como informações de conectividade de rede do Microsoft 365 para sua organização.
 
 Veja [o que é o Endpoint Analytics](https://docs.microsoft.com/mem/analytics/overview) para obter uma visão geral e os detalhes dos pré-requisitos. Para saber mais sobre o Microsoft 365 insights de conectividade de rede, leia [a visão geral da conectividade de rede](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
   
@@ -66,7 +66,7 @@ A pontuação da produtividade baseia-se nas pontuações combinadas das categor
 
 Pontuação de produtividade inclui dados do Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer e Skype.
 
-Sua pontuação é atualizada diariamente e reflete as ações do usuário concluídas nos últimos 28 a 180 dias (incluindo o dia atual).
+Sua pontuação é atualizada diariamente e reflete as ações do usuário concluídas no último 28 (incluindo o dia atual).
 
 
 ## <a name="pre-requisites"></a>Pré-requisitos 
@@ -111,15 +111,15 @@ Cada página de detalhes da categoria mostra a principal percepção e as métri
 
 ### <a name="content-collaboration-details"></a>Detalhes de colaboração de conteúdo
 
-A principal visão da colaboração de conteúdo é o número de pessoas que criar, ler e colaborar (editar e compartilhar) online. Essas medidas são importantes porque a pesquisa mostra que, quando as pessoas colaboram com arquivos online, cada pessoa salva uma média de 100 minutos ou quase 2 horas por semana.
+A principal visão da colaboração de conteúdo é o número de pessoas que criar, ler e colaborar (editar e compartilhar) online. Essas medidas são importantes porque a pesquisa mostra que, quando as pessoas colaboram com arquivos online, cada pessoa salva uma média de quase 2 horas por semana.
 
-Definimos a colaboração de conteúdo como uma pessoa criando e compartilhando um arquivo do Office e, em seguida, pelo menos uma outra pessoa editando-o. 
+Definimos a colaboração de conteúdo como uma pessoa que está criando e compartilhando um arquivo do Office e, em seguida, pelo menos uma outra pessoa lê-lo. 
 
-Leitores: pessoas que acessam ou fazem download de arquivos online no OneDrive ou no SharePoint.
+**Leitores**: pessoas que acessam ou fazem download de arquivos online no onedrive ou no SharePoint.
 
 **Criadores:** Pessoas que criam, modificam, carregam, sincronizam, fazem check-in, copiam ou movem arquivos do OneDrive ou do SharePoint Online.
 
-Colaboradores: pessoas que colaboram com arquivos online usando o OneDrive ou o SharePoint. Duas pessoas são colaboradores se um deles lê ou edita um documento online do Word, Excel, PowerPoint, OneNote ou em nuvem do PDF depois que a outra pessoa cria ou modifica, em uma janela de 28 dias.
+**Colaboradores**: pessoas que colaboram com arquivos online usando o onedrive ou o SharePoint. Duas pessoas são colaboradores se um deles lê ou edita um documento de nuvem online de aplicativos ou PDFs do Office depois que a outra pessoa criou ou modificou, em uma janela de 28 dias.
 
 Os tipos de arquivo considerados para colaboração são arquivos do Word, Excel, PowerPoint, OneNote e PDF.
 
@@ -127,7 +127,7 @@ Fornecemos informações sobre os tempos de inicialização e configurados para 
 
 ### <a name="communication-details"></a>Detalhes de comunicação
 
-A principal visão da comunicação é a freqüência com que as pessoas em sua organização usam Postagens de email, chat e comunidade para se comunicar. Essa percepção é importante porque, quando as pessoas usam uma variedade de ferramentas de comunicação em tempo real, elas podem escolher o modo de comunicação que ajuda a ser mais eficiente, e elas têm ferramentas como chat e comunidades que ajudam a desenvolver relações entre os locais do Office.
+A principal visão da comunicação é a freqüência com que as pessoas em sua organização usam Postagens de email, chat e comunidade para se comunicar. Quando as pessoas usam uma variedade de ferramentas de comunicação em tempo real, elas podem escolher o modo de comunicação que ajuda a ser mais eficiente, como bate-papo e comunidades que os ajudam a desenvolver relações entre escritórios.
 
 ### <a name="mobility-details"></a>Detalhes da mobilidade
 

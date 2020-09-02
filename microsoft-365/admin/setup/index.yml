@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 0af560ae2a7f8aa028e0cb493c9070f78f93e0a4
-  ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+  ms.openlocfilehash: 5410037edbd61f67147745f3c15fabe3f358177d
+  ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/17/2020
-  ms.locfileid: "44779840"
+  ms.lasthandoff: 09/01/2020
+  ms.locfileid: "47324407"
 landingContent:
 - title: Inscreva-se
   linkLists:
@@ -26,10 +26,6 @@ landingContent:
       url: ../admin-overview/sign-up-for-office-365.md
   - linkListType: video
     links:
-    - text: Inscreva-se e configure o Microsoft Business Basic
-      url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-    - text: Inscreva-se no Microsoft Business Standard
-      url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
     - text: Inscreva-se no Microsoft Business Premium
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
 - title: Configuração dirigida

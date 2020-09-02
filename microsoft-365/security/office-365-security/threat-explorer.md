@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 635f7f32d16f18f49aa1920d82efd77bf27dc328
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: 4220c850e5ef7f830f7fc6ec57bb220cca29eaf4
+ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641636"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47322002"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -78,8 +78,39 @@ Você também deve ver detalhes adicionais no produto. Por exemplo, o número to
 
 ![Exibir informações no produto](../../media/ProductInfo.png)
 
+## <a name="extended-capabilities-in-threat-explorer"></a>Recursos estendidos no explorador de ameaças
 
-## <a name="new-features-in-real-time-detections"></a>Novos recursos em detecções em tempo real
+### <a name="top-targeted-users"></a>Principais usuários direcionados
+
+Hoje, expostos a lista dos principais usuários direcionados no modo de exibição de malware para emails (na seção principais famílias de malware). Estenderemos a extensão desse modo de exibição no phishing e em todos os modos de exibição de email, onde você poderá ver os cinco principais usuários direcionados junto com o número de tentativas para cada usuário para o modo de exibição correspondente (por exemplo, para o modo de exibição de phishing, você poderá ver o número de tentativas de Phish).
+Você também será capaz de exportar a lista de usuários direcionados até um limite de 3000, juntamente com o número de tentativas para a análise offline para cada exibição de email. Além disso, selecione não. de tentativas (por exemplo, 13 tentativas abaixo) abriria um modo de exibição filtrado no explorador de ameaças, para que você possa ver mais detalhes nos emails e ameaças desse usuário. 
+
+![Principais usuários direcionados](../../media/Top_Targeted_Users.png)
+
+
+### <a name="exchange-transport-rules"></a>Regras de transporte do Exchange
+Como parte do enriquecimento de dados, você também deve ser capaz de ver todas as diferentes regras de transporte que foram aplicadas a uma mensagem. Essas informações estarão presentes no modo de exibição de grade de email (para exibir isso, selecione opções de coluna na grade e Adicionar regra de transporte do Exchange das opções de coluna na grade), bem como submenu de detalhes no email.
+Você poderá ver o GUID, bem como o nome das regras de transporte que foram aplicadas à mensagem. Além disso, você poderá pesquisar as mensagens usando o nome da regra de transporte. Essa seria uma pesquisa "contém", o que significa que você também poderá pesquisar usando pesquisas parciais. 
+
+#### <a name="important-note"></a>Observação importante: 
+A pesquisa e o nome da disponibilidade do ETR dependeriam da função específica que foi atribuída a você. Você precisará ter uma das seguintes funções/permissões para exibir os nomes e a pesquisa do ETR.  Se você não tiver uma das funções a seguir atribuídas a você, não poderá ver os nomes das regras de transporte e pesquisar as mensagens usando os nomes ETR. No entanto, você poderá ver as informações de rótulo e GUID do ETR nos detalhes do email. Suas outras experiências em relação à exibição de registros em grades de email, submenus de email, filtros e exportação não são impactadas. 
+ 
+- EXO-prevenção de perda de dados: ALL
+- Somente EXO-O365SupportViewConfig: ALL
+- AAD ou EXO-administrador de segurança: todos
+- AAD ou EXO-leitor de segurança: todos
+- Regras de transporte somente EXO: ALL
+- Somente EXO-configuração somente exibição: todas
+
+Na grade de emails, no submenu detalhes e no CSV exportado, o ETRs é apresentado com um nome/GUID, conforme mostrado abaixo. 
+
+![Regras de transporte do Exchange](../../media/ETR_Details.png)
+
+### <a name="inbound-connectors"></a>Conectores de entrada 
+
+Os conectores são uma coleção de instruções que personalizam a forma como seu email flui para e a partir da sua organização do Microsoft 365 ou do Office 365, com a capacidade de aplicar qualquer restrição de segurança ou controles. No explorador de ameaças, agora você terá a capacidade de exibir os conectores relacionados a um email, bem como Pesquisar emails usando os nomes de conectores. A pesquisa de conectores é ' Contains ', por natureza, que significa que as pesquisas parciais de palavra-chave também devem funcionar. Dentro do modo de exibição de grade principal, o submenu detalhes e o CSV exportado, os conectores são mostrados no formato de nome/GUID, conforme mostrado abaixo: 
+
+![Detalhes do conector](../../media/Connector_Details.png)
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Novos recursos no Gerenciador de ameaças e detecções em tempo real
 
@@ -294,4 +325,3 @@ Para saber mais sobre funções e permissões, confira os seguintes recursos:
 - Mais recursos de filtragem e ações disponíveis estão incluídos no **Explorador de ameaças**.
 
 Para obter mais detalhes, consulte a [Descrição do serviço do Office 365 ATP: disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
-
