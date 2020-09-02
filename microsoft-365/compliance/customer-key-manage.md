@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Depois de configurar a chave do cliente, saiba como gerenciá-la restaurando as chaves do AKV e gerenciando as permissões e as políticas de criptografia de dados.
-ms.openlocfilehash: 21c1fedce1ebc09e6c33b74a1b2c035c90988e12
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 8f5f23fa1b8ce8baa8fafd3f29ca5fb8905887a1
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717302"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324253"
 ---
 # <a name="manage-customer-key"></a>Gerenciar chave do cliente
 
@@ -84,11 +84,11 @@ Para exibir uma lista de todos os DEPs que você criou para o Exchange Online e 
 
 2. Para retornar todos os DEPs em sua organização, execute o cmdlet Get-DataEncryptionPolicy sem nenhum parâmetro.
 
-  ```powershell
-  Get-DataEncryptionPolicy
-  ```
+   ```powershell
+   Get-DataEncryptionPolicy
+   ```
 
-  Para obter mais informações sobre o cmdlet Get-DataEncryptionPolicy, consulte [Get-DataEncryptionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps).
+   Para obter mais informações sobre o cmdlet Get-DataEncryptionPolicy, consulte [Get-DataEncryptionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps).
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>Atribuir uma DEP antes de migrar uma caixa de correio para a nuvem
 
@@ -100,11 +100,11 @@ Para atribuir uma DEP a uma caixa de correio antes de migrá-la para o Office 36
 
 2. Execute o cmdlet Set-MailUser.
 
-  ```powershell
-  Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
-  ```
+   ```powershell
+   Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
+   ```
 
-  Onde *GeneralMailboxOrMailUserIdParameter* especifica uma caixa de correio e *DATAENCRYPTIONPOLICYIDPARAMETER* é a ID da DEP. Para obter mais informações sobre o cmdlet Set-MailUser, consulte [Set-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps).
+   Onde *GeneralMailboxOrMailUserIdParameter* especifica uma caixa de correio e *DATAENCRYPTIONPOLICYIDPARAMETER* é a ID da DEP. Para obter mais informações sobre o cmdlet Set-MailUser, consulte [Set-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps).
 
 ### <a name="determine-the-dep-assigned-to-a-mailbox"></a>Determinar a DEP atribuída a uma caixa de correio
 
@@ -167,6 +167,20 @@ A saída deste cmdlet inclui:
   - **Registrado:** A criptografia da chave do cliente foi aplicada e todos os arquivos em todos os sites foram criptografados.
 
   - **Sem interrupção:** Um rolo de chave está em andamento. Se a chave da geografia estiver sem interrupção, você também verá informações sobre a porcentagem de sites que concluiram a operação do registro principal para que você possa monitorar o progresso.
+
+## <a name="unassign-a-dep-from-a-mailbox"></a>Cancelar a atribuição de uma DEP de uma caixa de correio
+
+Você não atribui uma DEP de uma caixa de correio usando o cmdlet Set-Mailbox do PowerShell e definindo o `DataEncryptionPolicy` para `$NULL` . A execução deste cmdlet retira a atribuição da DEP atribuída atualmente e criptografa a caixa de correio usando a DEP associada às chaves gerenciadas padrão da Microsoft. Não é possível cancelar a atribuição da DEP usada pelas chaves gerenciadas pela Microsoft. Se você não quiser usar chaves gerenciadas pela Microsoft, poderá atribuir outra DEP à caixa de correio.
+
+Para cancelar a atribuição da DEP de uma caixa de correio usando o cmdlet Set-Mailbox do PowerShell, conclua estas etapas.
+
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, [Conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+
+2. Execute o cmdlet Set-Mailbox.
+
+   ```powershell
+   Set-Mailbox -Identity <mailbox> -DataEncryptionPolicy $NULL
+   ```
 
 ## <a name="revoke-your-keys-and-start-the-data-purge-path-process"></a>Revogar suas chaves e iniciar o processo de caminho de limpeza de dados
 

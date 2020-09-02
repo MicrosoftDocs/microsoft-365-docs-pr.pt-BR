@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Use a ferramenta de descoberta eletrônica de pesquisa de conteúdo para pesquisar itens importados para caixas de correio no Microsoft 365 de uma fonte de dados de terceiros criando consultas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 823d95d6b32a15662004bfc5d92662b130fe4a65
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 24ca63cf78b85f7b8b5181d5babd16058b641128
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527411"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324567"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>Usar a pesquisa de conteúdo para pesquisar dados de terceiros importados por um conector de parceiro personalizado
 
@@ -35,7 +35,7 @@ Para obter mais informações sobre como trabalhar com um parceiro para importar
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>Criar uma consulta para pesquisar todos os dados de terceiros
 
-Para pesquisar (ou colocar em espera) qualquer tipo de dados de terceiros que você importou para o Office 365, você pode usar o `kind:externaldata` par propriedade-valor de mensagem na caixa palavra-chave para uma pesquisa de conteúdo ou ao criar uma retenção baseada em consulta. Por exemplo, para pesquisar itens importados de qualquer fonte de dados de terceiros e contenham a palavra "contoso" na propriedade Subject do item importado, você usaria a seguinte consulta: 
+Para pesquisar (ou colocar em espera) qualquer tipo de dados de terceiros que você importou para o Office 365, você pode usar o  `kind:externaldata` par propriedade-valor de mensagem na caixa palavra-chave para uma pesquisa de conteúdo ou ao criar uma retenção baseada em consulta. Por exemplo, para pesquisar itens importados de qualquer fonte de dados de terceiros e contenham a palavra "contoso" na propriedade Subject do item importado, você usaria a seguinte consulta: 
   
 ```powershell
 kind:externaldata AND subject:contoso
@@ -59,9 +59,9 @@ Por exemplo, para pesquisar dados do Facebook que contenham a palavra "contoso" 
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
 ```
 
-A tabela a seguir lista os tipos de dados de terceiros que podem ser pesquisados e o valor a ser usado para a `itemclass:` Propriedade Message para pesquisar especificamente o tipo de dados de terceiros. A sintaxe da consulta não diferencia maiúsculas de minúsculas. 
+A tabela a seguir lista os tipos de dados de terceiros que podem ser pesquisados e o valor a ser usado para a  `itemclass:` Propriedade Message para pesquisar especificamente o tipo de dados de terceiros. A sintaxe da consulta não diferencia maiúsculas de minúsculas. 
   
-|**Tipo de dados de terceiros**|**Valor da `itemclass:` Propriedade**|
+|**Tipo de dados de terceiros**|**Valor da  `itemclass:` Propriedade**|
 |:-----|:-----|
 |META  <br/> | `ipm.externaldata.AIM*` <br/> |
 |American Idol  <br/> | `ipm.externaldata.AmericanIdol*` <br/> |
@@ -82,7 +82,7 @@ A tabela a seguir lista os tipos de dados de terceiros que podem ser pesquisados
 |PIN do BlackBerry  <br/> | `ipm.externaldata.BlackBerryPIN*` <br/> |
 |SMS BlackBerry  <br/> | `ipm.externaldata.BlackBerrySMS*` <br/> |
 |Bloomberg  <br/> | `ipm.externaldata.Bloomberg*` <br/> |
-|Bloomberg Mail  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
+|Mensagem da Bloomberg  <br/> | `ipm.externaldata.conversation.Bloomberg Message*` <br/> |
 |Mensagens do Bloomberg  <br/> | `ipm.externaldata.BloombergMessaging*` <br/> |
 |Caixa  <br/> | `ipm.externaldata.Box*` <br/> |
 |Servidor de presença de IM da Cisco &amp;  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
@@ -102,7 +102,7 @@ A tabela a seguir lista os tipos de dados de terceiros que podem ser pesquisados
 |HubConnex  <br/> | `ipm.externaldata.HubConnex*` <br/> |
 |Conexões IBM  <br/> | `ipm.externaldata.Connections*` <br/> |
 |IBM SameTime  <br/> | `ipm.externaldata.Sametime*` <br/> |
-|Chat de gelo  <br/> | `ipm.externaldata.ICEChat.Chat` <br/> |
+|Bate-papo ICE  <br/> | `ipm.externaldata.conversation.Ice Chat*` <br/> |
 |Indii Messenger  <br/> | `ipm.externaldata.Indii*` <br/> |
 |Instagram  <br/> | `ipm.externaldata.Instagram*` <br/> |
 |Instant Bloomberg  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |

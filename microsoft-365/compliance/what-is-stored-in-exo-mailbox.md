@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os dados produzidos por aplicativos baseados em nuvem no Microsoft 365 são armazenados ou associados à caixa de correio do Exchange Online de um usuário.
-ms.openlocfilehash: dc8588008194b5ea9e414efd1354d835e6bb7a63
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 121380cdaaf5d0397d082159ddf6461c0c12cbe1
+ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016294"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321980"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Conteúdo armazenado em caixas de correio do Exchange Online
 
@@ -32,7 +32,7 @@ A tabela a seguir lista os aplicativos que armazenam ou associam dados com uma c
 
 |Aplicativo Microsoft 365|Descrição|
 |:---------|:---------|
-|Forms|Formulários e respostas a um formulário são armazenados em arquivos anexados a mensagens de email e armazenados em uma pasta oculta na caixa de correio do usuário que criou o formulário. Os formulários criados antes de abril de 2020 são armazenados como um arquivo PDF. Formulários criados após 2020 são armazenados como um arquivo JSON.  As respostas a um formulário são armazenadas em um arquivo CSV. Quando você exporta conteúdo de formulários em um arquivo PST, esses dados estão localizados na pasta **ApplicationDataRoot** em uma subpasta chamada com o seguinte identificado globalmente exclusivo (GUID): **c9a559d2-7aab-4f13-a6ed-e7e9c52aec87**.|
+|Formulários|Formulários e respostas a um formulário são armazenados em arquivos anexados a mensagens de email e armazenados em uma pasta oculta na caixa de correio do usuário que criou o formulário. Os formulários criados antes de abril de 2020 são armazenados como um arquivo PDF. Formulários criados após 2020 são armazenados como um arquivo JSON.  As respostas a um formulário são armazenadas em um arquivo CSV. Quando você exporta conteúdo de formulários em um arquivo PST, esses dados estão localizados na pasta **ApplicationDataRoot** em uma subpasta chamada com o seguinte identificado globalmente exclusivo (GUID): **c9a559d2-7aab-4f13-a6ed-e7e9c52aec87**.|
 |Grupos do Microsoft 365|Mensagens de email, itens de calendário, contatos (pessoas), anotações e tarefas são armazenados na caixa de correio associada a um grupo do Microsoft 365.|
 |Outlook/Exchange Online|Mensagens de email, itens de calendário, contatos (pessoas), anotações e tarefas são armazenados na caixa de correio de um usuário.|
 |Pessoas|Contatos no aplicativo pessoas (que são os mesmos contatos que aqueles acessíveis no Outlook) são armazenados na caixa de correio de um usuário.|
@@ -42,6 +42,7 @@ A tabela a seguir lista os aplicativos que armazenam ou associam dados com uma c
 |Tarefas|Tarefas no aplicativo tarefas (que são as mesmas tarefas que aquelas acessíveis no Outlook) são armazenadas na caixa de correio de um usuário.|
 |Teams|As conversas que fazem parte de um canal do teams são associadas à caixa de correio do teams. As conversas que fazem parte da lista de bate-papo no Teams (também chamadas de *1 x N chats*) são associadas à caixa de correio dos usuários que participam do chat. Além disso, as informações resumidas para reuniões e chamadas em um canal do teams são associadas a caixas de correio de usuários que discaram para a reunião ou chamada. Portanto, ao pesquisar o conteúdo do Microsoft Teams, você pesquisará a caixa de correio do Microsoft Teams em conversas do canal e pesquisará as caixas de correio do usuário em um chat de 1 x N.| 
 |Tarefa pendente|Tarefas (chamadas *para no dos*, que são salvas em listas de tarefas pendentes) no aplicativo de tarefas pendentes são armazenadas na caixa de correio de um usuário.|
+|Yammer|Conversas e comentários em uma comunidade do Yammer estão associados à caixa de correio de grupo do Microsoft 365, bem como à caixa de correio do usuário do autor e de qualquer destinatário nomeado (@mentioned ou usuários do cc'ed). As mensagens privadas enviadas fora de uma comunidade do Yammer são armazenadas na caixa de correio dos usuários que participam da mensagem privada.|  
 ||||
 
 > [!NOTE]

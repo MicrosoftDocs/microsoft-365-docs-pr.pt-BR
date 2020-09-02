@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 20f44244005f5a34a0d82f32f625fb067f02df20
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.openlocfilehash: 5751857f8b3bf0a7f63df73e9bfaa244897bf429
+ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47294760"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321990"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -62,7 +62,7 @@ Quando o conteúdo atinge o final do período de retenção, há vários motivos
 
 Quando uma revisão de disposição é disparada no final do período de retenção:
   
-- As pessoas escolhidas recebem uma notificação por email de que o conteúdo deve ser revisado. Esses revisores podem ser usuários individuais, grupos de distribuição ou segurança ou grupos do Microsoft 365 ([anteriormente grupos do Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)). Observe que as notificações são enviadas semanalmente.
+- As pessoas escolhidas recebem uma notificação por email de que o conteúdo deve ser revisado. Esses revisores podem ser usuários individuais ou grupos de segurança habilitados para email. Observe que as notificações são enviadas semanalmente.
     
 - Os revisores vão para a guia **disposição** no centro de conformidade da Microsoft 365 para analisar o conteúdo e decidir se ele será excluído permanentemente, estender o período de retenção ou aplicar um rótulo de retenção diferente.
 
@@ -97,7 +97,7 @@ O disparo de uma revisão de disposição no final do período de retenção é 
 
 Quando um revisor é notificado por email que o conteúdo está pronto para revisão, ele vai para a guia **disposição** do **Gerenciamento de registros** no centro de conformidade da Microsoft 365. Os revisores podem ver quantos itens de cada rótulo de retenção estão aguardando disposição e, em seguida, selecione um rótulo de retenção para ver todo o conteúdo com esse rótulo.
 
-Depois de selecionar um rótulo de retenção, você verá todas as desposições pendentes para esse rótulo da guia **eliminação pendente** . Selecione um ou mais itens onde você pode escolher uma ação e inserir um comentário de justificativa:
+Depois de selecionar um rótulo de retenção, você verá todas as desposições pendentes para esse rótulo na guia **eliminação pendente** . Selecione um ou mais itens onde você pode escolher uma ação e inserir um comentário de justificativa:
 
 ![Opções de disposição](../media/retention-disposition-options.png)
 

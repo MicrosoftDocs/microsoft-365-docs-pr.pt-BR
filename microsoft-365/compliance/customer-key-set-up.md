@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: 0743b4339dae8e70960293f51a7869dc61fea606
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 94403e1d76fbc6fdf06d784fbb7bb9025dc06fc0
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868886"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324207"
 ---
 # <a name="set-up-customer-key"></a>Configurar a chave do cliente
 
@@ -31,7 +31,9 @@ Você deve configurar o Azure antes de poder usar a chave do cliente para o Offi
   
 ## <a name="before-you-set-up-customer-key"></a>Antes de configurar a chave do cliente
 
-Antes de começar, verifique se você tem o licenciamento apropriado para sua organização. A chave do cliente no Microsoft 365 é oferecida no Office 365 E5 ou no SKU de conformidade avançada. Para entender os conceitos e os procedimentos deste tópico, revise a documentação do [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Além disso, familiarize-se com os termos usados no Azure, por exemplo, [locatário](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)).
+Antes de começar, verifique se você tem o licenciamento apropriado para sua organização. A partir de 1º de abril de 2020, a chave de cliente no Office 365 é oferecida no Office 365 e5, M365 e5, M365 E5 conformidade e M365 E5 proteção de informações & SKUs de governança. Office 365 a SKU de conformidade avançada não está mais disponível para novas licenças do aquisição. As licenças de conformidade avançada existentes do Office 365 continuarão a ser suportadas.
+
+Para entender os conceitos e os procedimentos deste tópico, revise a documentação do [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Além disso, familiarize-se com os termos usados no Azure, por exemplo, o [locatário do Azure ad](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant).
 
 O FastTrack é usado apenas para coletar as informações de locatário e configuração de serviço necessárias usadas para registrar-se na chave do cliente. As ofertas de chave do cliente são publicadas via FastTrack para que você e nossos parceiros enviem as informações necessárias usando o mesmo método. O FastTrack também facilita o arquivamento dos dados que você fornece na oferta.
   
