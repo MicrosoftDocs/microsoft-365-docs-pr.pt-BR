@@ -1,7 +1,7 @@
 ---
 title: Imutabilidade de dados da Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como a Microsoft 365 preserva dados no formato detectável para lidar com conformidade normativa, requisitos de governança interna e riscos de litígio.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c070eea4498aca89d7cdb8fea233d9b9596491a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ce3b3f0f5036ab76be714747d7e95fe86139dd75
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687120"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331915"
 ---
 # <a name="immutability-in-microsoft-365"></a>Imutabilidade no Microsoft 365
 

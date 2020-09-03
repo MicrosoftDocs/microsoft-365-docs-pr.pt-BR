@@ -1,6 +1,6 @@
 ---
 title: Políticas comuns de acesso de dispositivo e identidade-Microsoft 365 for Enterprise | Microsoft docs
-description: Descreve as políticas para as recomendações da Microsoft sobre como aplicar as configurações e políticas de dispositivo e identidade.
+description: Descreve as configurações e as políticas de acesso de dispositivos e a identidade comum recomendadas.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 699bc04c8e286c004e1f47ae6825ae311434d9cb
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 9819c161cc421117730cb4c58d1db06859125476
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898111"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332083"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -32,8 +32,8 @@ Este guia discute como implantar as políticas recomendadas em um ambiente provi
 
 O diagrama a seguir ilustra o conjunto de políticas recomendado. Ele mostra qual camada de proteção cada política se aplica e se as políticas se aplicam a PCs ou telefones e tablets ou a ambas as categorias de dispositivos. Também indica onde essas políticas estão configuradas.
 
-[ ![ Políticas comuns para configurar a identidade e o acesso ao dispositivo](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
- [consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[ ![ Políticas comuns para configurar a identidade e o acesso ao dispositivo](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
+ [consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 O restante deste artigo descreve como configurar essas políticas. 
 
@@ -63,13 +63,13 @@ Uma prática recomendada é criar um grupo do Azure AD para exclusão de acesso 
 
 O diagrama a seguir fornece um exemplo de atribuição e exclusões do usuário.
 
-![Exemplo de atribuição e exclusões de usuário para regras MFA](../media/identity-access-policies-assignment.png)
+![Exemplo de atribuição e exclusões de usuário para regras MFA](../media/microsoft-365-policies-configurations/identity-access-policies-assignment.png)
 
 Na ilustração, a "equipe de" projeto de segredo principal X "é atribuída uma política de acesso condicional que requer MFA *sempre*. Seja criterioso ao aplicar níveis mais altos de proteção aos usuários. Os membros desta equipe de projeto serão solicitados a fornecer duas formas de autenticação sempre que fizerem logon, mesmo que não estejam exibindo conteúdo altamente regulamentado.  
 
-Todos os grupos do Azure AD criados como parte dessas recomendações devem ser criados como grupos do Microsoft 365. Isso é importante principalmente para a implantação da AIP (Proteção de Informações do Azure) ao proteger documentos no SharePoint Online.
+Todos os grupos do Azure AD criados como parte dessas recomendações devem ser criados como grupos do Microsoft 365. Isso é especificamente importante para a implantação de rótulos de confidencialidade ao proteger documentos no SharePoint Online.
 
-![Captura de tela para a criação de grupos do Microsoft 365](../media/identity-device-AAD-groups.png)
+![Captura de tela para a criação de grupos do Microsoft 365](../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>Exigir a MFA com base no risco de entrada

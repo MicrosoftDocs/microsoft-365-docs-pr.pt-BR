@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 lidando com corrupção de dados
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: Este artigo explica a corrupção de dados no Microsoft 365 e os esforços feitos pela Microsoft para impedir e recuperar dados.
-ms.openlocfilehash: fabecf8e368813e2f895669edc19c3f74e305c35
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 767be71bb08c49070488cc965165ac86e98836bd
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687107"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331867"
 ---
 # <a name="dealing-with-data-corruption-in-microsoft-365"></a>Lidando com corrupção de dados no Microsoft 365
 

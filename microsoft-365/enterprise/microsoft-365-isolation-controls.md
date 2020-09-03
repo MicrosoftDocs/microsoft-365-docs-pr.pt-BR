@@ -1,7 +1,7 @@
 ---
 title: Controles de isolamento da Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como os controles de isolamento funcionam no Microsoft 365, permitindo que os serviços entrem em operação ou permaneçam autônomos conforme necessário.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15805c2fb57cbcaa33c5ba24dcbcaa378feea4bc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: bb0989f19002267ab92bf184a12a4076f753580e
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687253"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332371"
 ---
 # <a name="microsoft-365-isolation-controls"></a>Controles de isolamento da Microsoft 365 
 

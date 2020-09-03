@@ -1,7 +1,7 @@
 ---
 title: Controles de acesso administrativo no Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Este artigo fornece uma visão geral dos controles de acesso administrativo e da categorização de dados no Microsoft 365.
-ms.openlocfilehash: b5063f89e89b6cffffda53a5df3088a80f89c242
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 817a5907566435d021fe78d89b5c9476c04318d0
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686971"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332587"
 ---
 # <a name="administrative-access-controls-in-microsoft-365"></a>Controles de acesso administrativo no Microsoft 365 
 

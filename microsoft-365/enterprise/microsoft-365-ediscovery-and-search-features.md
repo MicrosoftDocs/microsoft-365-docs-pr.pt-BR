@@ -1,7 +1,7 @@
 ---
 title: Visão geral da descoberta eletrônica e recursos de pesquisa do Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Uma visão geral do recurso de descoberta eletrônica e outros recursos de pesquisa do Microsoft 365 para o uso de auditoria e transparência.
-ms.openlocfilehash: 6a30e1aa687807d61b788bd75fcc63129ff0aa0b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ea7b221ab8fe2ff41d089bb344d2dce58002d0f5
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687363"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331845"
 ---
 # <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Visão geral da descoberta eletrônica e recursos de pesquisa do Microsoft 365 
 
@@ -44,12 +44,12 @@ A tabela a seguir detalha algumas das informações exibidas nos relatórios de 
 | Propriedade | Descrição |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
 | Date | Data e hora do evento |
-| User | Usuário que executou a ação |
+| Usuário | Usuário que executou a ação |
 | ClientIP | Endereço IPv4 ou IPv6 do dispositivo usado quando a atividade foi registrada. |
 | CreationTime | Data e hora no tempo universal coordenado (UTC) quando o usuário realizou a atividade. |
 | EventSource | Identifica se um evento ocorreu. Os valores possíveis são SharePoint e ObjectModel. |
 | ID | ID da entrada de relatório. A identificação identifica exclusivamente a entrada de relatório. |
-| Operation | Nome do usuário ou atividade, que corresponde ao valor selecionado em exibir resultados para esta atividade do usuário. |
+| Operação | Nome do usuário ou atividade, que corresponde ao valor selecionado em exibir resultados para esta atividade do usuário. |
 | OrganizationId | GUID do serviço Microsoft 365 da organização onde o evento ocorreu. |
 | UserAgent | Informações sobre o navegador do usuário, fornecidas pelo navegador. |
 | UserId | O usuário que executou a ação (especificado na Propriedade Operation) que resultou no registro que está sendo registrado em log. |

@@ -1,7 +1,7 @@
 ---
 title: Princípios básicos da Microsoft 365 sobre defesa contra ataques de negação de serviço
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Como a Microsoft utiliza os princípios fundamentais de absorção, detecção e atenuação em sua defesa contra ataques de negação de serviço (DoS).
-ms.openlocfilehash: b04ec717f7c97e44c6ed4011156666e8c27f06c0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb3446570dd8e99ccdb3005a6a7c90ca90a81aee
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687121"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331903"
 ---
-# <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>Principais princípios de defesa contra ataques de negação de serviço
+# <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>Princípios básicos de defesa contra ataques de negação de serviço
 
 Os três princípios fundamentais ao se defender contra ataques de DoS baseados em rede são absorção, detecção e mitigação. A absorção ocorre antes da detecção e a detecção ocorre antes da redução. O absorção é a melhor defesa contra um ataque de DoS. Se não for possível detectar o ataque, não será possível diminuí-lo. Mas, se mesmo o menor ataque de DoS não puder ser absorvido, os serviços não ficarão sobreviventes o suficiente para que o ataque seja detectado.
 

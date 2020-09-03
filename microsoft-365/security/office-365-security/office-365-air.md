@@ -16,18 +16,22 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: c2020c3d46fcf17194e2560af53d9a26fca30629
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 14742df5d9dbd2f65a032250696dbc7c61210562
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327825"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336674"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365
 
 [Office 365 proteção avançada contra ameaças](office-365-atp.md) (Office 365 ATP) o plano 2 inclui recursos avançados de investigação e resposta (Air) automatizados que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança pode revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser impressionante. A automação de algumas delas pode ajudar. Com o AIR, sua equipe de operações de segurança pode se concentrar nas tarefas de maior prioridade sem perder a visão dos alertas disparados.
 
-Este artigo descreve o [fluxo geral](#the-overall-flow-of-air) de ar, [como obter o Air](#how-to-get-air)e as [permissões necessárias](#required-permissions-to-use-air-capabilities) para configurar ou usar os recursos de ar. 
+Este artigo contém informações sobre:
+
+- O [fluxo](#the-overall-flow-of-air) de ar geral
+- [Como obter o AIR](#how-to-get-air)
+- As [permissões necessárias](#required-permissions-to-use-air-capabilities) para configurar ou usar os recursos de ar
 
 ## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 
@@ -89,7 +93,7 @@ A Microsoft 365 fornece várias políticas de alerta internas que ajudam a ident
 
 As permissões são concedidas por determinadas funções, como aquelas descritas na tabela a seguir: 
 
-|Tarefa |Função (ões) necessária |
+|Tarefas |Função (ões) necessária |
 |--|--|
 |Para configurar os recursos de ar |Uma das seguintes funções: <br/>-Administrador global<br/>-Administrador de segurança <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade do & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
 |Para aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>-Administrador global <br/>-Administrador de segurança<br/>– Leitor de segurança <br/>---e---<br/>– Pesquisa e limpeza (esta função é atribuída somente no [centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Talvez seja necessário criar um novo grupo de função e adicionar a função de pesquisa e limpeza a esse novo grupo de função.)

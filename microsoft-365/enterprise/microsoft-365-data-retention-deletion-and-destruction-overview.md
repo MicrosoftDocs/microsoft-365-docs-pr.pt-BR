@@ -1,7 +1,7 @@
 ---
 title: Retenção, Exclusão e Destruição de Dados no Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Uma visão geral das políticas da Microsoft para o Microsoft 365 em relação à retenção, exclusão e destruição de dados.
-ms.openlocfilehash: c522c1a1a4de46a4fc36bd87a031be8b47c5523d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9708ed618528ce0ad5ef8656a85ffd4311395deb
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687108"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331891"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>Retenção, Exclusão e Destruição de Dados no Microsoft 365
 

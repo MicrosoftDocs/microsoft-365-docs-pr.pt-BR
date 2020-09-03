@@ -1,7 +1,7 @@
 ---
 title: Exclusão de dados do Exchange Online da Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como as exclusões de dados suaves e difíceis para caixas de correio e itens em caixas de correio são tratadas no Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4b4d30da70001967ca73377f10a4cd417577b72
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 63bb5dcde334f7c53554f910b1a8d17e1d0d69cc
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695341"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332515"
 ---
 # <a name="exchange-online-data-deletion-in-microsoft-365"></a>Exclusão de dados do Exchange Online no Microsoft 365
 
