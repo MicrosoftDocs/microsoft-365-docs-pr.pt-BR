@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 71969a58acd64c3e830da398288249cbb8610b5f
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 17c32ea53d860e54a7c9a8fcf70778151c28c539
+ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797789"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47334844"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -129,7 +129,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Número de Identidade Nacional da Argentina 
-- Identity 
+- Identidade 
 - Identificar cartão de identidade nacional 
 - DNI 
 - Registro Nacional de pessoas da NIC 
@@ -506,9 +506,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
       <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_australian_tax_file_number" />
         <Match idRef="Keyword_Australia_Tax_File_Number" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Keyword_number_exclusions" />
-        </Any>
       </Pattern>
     </Entity>
 ```
@@ -526,39 +523,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - individual tax return
 - tax file number
 - tfn
-
-#### <a name="keyword_number_exclusions"></a>Keyword_number_exclusions
-
-- 00000000
-- 11111111
-- 22222222
-- 33333333
-- 44444444
-- 55555555
-- 66666666
-- 77777777
-- 88888888
-- 99999999
-- 000000000
-- 111111111
-- 222222222
-- 333333333
-- 444444444
-- 555555555
-- 666666666
-- 777777777
-- 888888888
-- 999999999
-- 0000000000
-- 1111111111
-- 2222222222
-- 3333333333
-- 4444444444
-- 5555555555
-- 6666666666
-- 7777777777
-- 8888888888
-- 9999999999
 
 ## <a name="austria-drivers-license-number"></a>Número da carteira de motorista do Áustria
 Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
@@ -728,7 +692,9 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função  `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função ' Func_austria_eu_
+
+_or_equivalent ' localiza conteúdo que corresponde ao padrão. 
     
 - Uma palavra-chave de  `Keywords_austria_eu_ssn_or_equivalent` foi encontrada. 
     
@@ -1790,7 +1756,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Pessoa jurídica 
 - Pessoas jurídicas 
 - Status do Registro 
-- Negócio 
+- Business 
 - Empresa
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
@@ -2864,20 +2830,28 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
-- card verification
+- 
+card verification
+
 - card identification number
 - cvn
 - CID
 - cvc2
 - cvv2
-- pin block
+- 
+pin block
 - security code
+
 - security number
+
 - security no
+
 - issue number
+
 - issue no
 - cryptogramme
-- numéro de sécurité
+- 
+numéro de sécurité
 - numero de securite
 - kreditkartenprüfnummer
 - kreditkartenprufnummer
@@ -2888,24 +2862,32 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - sicherheitsnummer
 - verfalldatum
 - codice di verifica
-- COD. sicurezza
-- cod sicurezza
+- COD.sicurezza
+- 
+cod sicurezza
 - n autorizzazione
 - CFOP
 - codigo
-- COD. seg
-- cod seg
+- COD.seg
+- 
+cod seg
 - código de segurança
+
 - codigo de seguranca
+
 - codigo de segurança
+
 - código de seguranca
-- cód. segurança
-- COD. seguranca Cod. segurança
-- cód. seguranca
-- cód segurança
-- COD seguranca COD segurança
-- cód seguranca
+- cód.segurança
+- COD.seguranca
+- COD.segurança
+- cód.seguranca
+- segurança do Cód
+- seguranca c.o.d.
+- segurança de COD
+- cód seguranca
 - número de verificação
+
 - numero de verificacao
 - ablauf
 - gültig bis
@@ -2913,54 +2895,79 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - gultig bis
 - gultigkeitsdatum
 - scadenza
-- data scad
+- 
+data scad
 - fecha de expiracion
+
 - fecha de venc
 - vencimiento
-- válido hasta
+- 
+válido hasta
 - valido hasta
 - vto
-- data de expiração
+- 
+data de expiração
 - data de expiracao
+
 - data em que expira
 - validade
 - coragem
 - vencimento
-- Venc 
+- transação
+- número da transação
+- número de referência
+- セキュリティコード
+- セキュリティ コード
+- セキュリティナンバー
+- セキュリティ ナンバー
+- セキュリティ番号
+
 
 #### <a name="keyword_cc_name"></a>Keyword_cc_name
 
 - amex
 - american express
 - americanexpress
+- americano espresso
+
 - Cartões
 - MasterCard
 - master card
-- MC 
+- MC
 - MasterCards
-- master cards
-- diner's Club
+- 
+master cards
+- Clube do Diner
 - diners club
 - dinersclub
+- tect
 - discover card
 - discovercard
 - discover cards
 - JCB
+- BrandSmart
 - japanese card bureau
+
 - carte blanche
 - carteblanche
 - credit card
 - colocado #
 - CC #:
-- expiration date
+- Data de vencimento
 - exp date
-- expiry date
-- Data de d'expiration
-- date d'exp
-- date expiration
+
+- 
+expiry date
+- 
+date d’expiration
+- 
+date d'exp
+- 
+date expiration
 - bank card
 - bankcard
-- card number
+- 
+card number
 - card num
 - cardnumber
 - cardnumbers
@@ -2986,14 +2993,36 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - atm cards
 - atmcards
 - encaminhar
-- en route
+- 
+en route
 - card type
+
+- Cardmember acct
+- conta Cardmember
+- Cardno
+- Cartão corporativo
+- Cartões corporativos
+- Tipo de cartão
+- número da conta de cartão
+- conta de membro do cartão
+- Cardmember acct.
+- card no.
+
+- n º do cartão
+- card number
+
 - carte bancaire
+
 - carte de crédit
+
 - carte de credit
+
 - numéro de carte
+
 - numero de carte
+
 - nº de la carte
+
 - nº de carte
 - kreditkarte
 - karte
@@ -3003,61 +3032,124 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - kreditkarteninstitut
 - kreditkartentyp
 - eigentümername
-- kartennr 
+- kartennr
 - kartennummer
 - kreditkartennummer
 - kreditkarten-nummer
-- carta di credito
+- 
+carta di credito
 - carta credito
-- carta
+- n.n.n..carta
 - n carta
-- nr. carta
-- nr carta
+- nr.carta
+- 
+nr carta
 - numero carta
+
 - numero della carta
+
 - numero di carta
+
 - tarjeta credito
+
 - tarjeta de credito
-- tarjeta crédito
-- tarjeta de crédito
+
+- 
+tarjeta crédito
+- 
+tarjeta de crédito
 - tarjeta de atm
+
 - tarjeta atm
+
 - tarjeta debito
+
 - tarjeta de debito
-- tarjeta débito
-- tarjeta de débito
+
+- 
+tarjeta débito
+- 
+tarjeta de débito
 - nº de tarjeta
-- Não. de tarjeta
-- no de tarjeta
+- Não.de tarjeta
+- nenhum de tarjeta
 - numero de tarjeta
+
 - número de tarjeta
+
 - tarjeta no
 - tarjetahabiente
-- cartão de crédito
+- 
+cartão de crédito
 - cartão de credito
+
 - cartao de crédito
+
 - cartao de credito
+
 - cartão de débito
+
 - cartao de débito
+
 - cartão de debito
+
 - cartao de debito
+
 - débito automático
 - debito automatico
-- número do cartão
-- numero do cartão 
+
+- 
+número do cartão
+- numero do cartão
+
 - número do cartao
+
 - numero do cartao
+
 - número de cartão
+
 - numero de cartão
+
 - número de cartao
+
 - numero de cartao
-- nº do cartão
+
+- n º do cartão
 - nº do cartao
-- n º. do cartão
-- no do cartão
-- no do cartao
-- Não. do cartão
-- Não. do cartao 
+- n º.do cartão
+- n º do cartão
+- Não da carta
+- Não.do cartão
+- Não.do cartao
+- クレジットカード番号
+- クレジットカードナンバー
+- クレジットカード＃
+- クレジットカード
+- クレジット
+- クレカ
+- カード番号
+- カードナンバー
+- カード＃
+- アメックス
+- アメリカンエクスプレス
+- アメリカン エクスプレス
+- Visaカード
+- カード da visa
+- マスターカード
+- マスター カード
+- マスター
+- ダイナースクラブ
+- ダイナース クラブ
+- ダイナース
+- 有効期限
+- 期限
+- キャッシュカード
+- キャッシュ カード
+- カード名義人
+- カードの名義人
+- カードの名義
+- デビット カード
+- デビットカード
 
 ## <a name="croatia-drivers-license-number"></a>Número da carteira de motorista da Croácia
 Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
@@ -4894,7 +4986,7 @@ Estas são as entidades no tipo de informação confidencial do número da carte
 - [Bulgária](#bulgaria-drivers-license-number)
 - [Croácia ](#croatia-drivers-license-number)
 - [Chipre](#cyprus-drivers-license-number)
-- [Czech](#czech-drivers-license-number)
+- [Tcheco](#czech-drivers-license-number)
 - [Dinamarca](#denmark-drivers-license-number)
 - [Estônia](#estonia-drivers-license-number)
 - [Finlândia ](#finland-drivers-license-number)
@@ -4926,7 +5018,7 @@ Estas são as entidades no tipo de informação confidencial do número de ident
 - [Bulgária](#bulgaria-national-identification-number)
 - [Croácia ](#croatia-identity-card-number)
 - [Chipre](#cyprus-national-identification-number)
-- [Czech](#czech-personal-identity-number)
+- [Tcheco](#czech-personal-identity-number)
 - [Dinamarca](#denmark-personal-identification-number)
 - [Estônia](#estonia-national-identification-number)
 - [Finlândia ](#finland-national-identification-number)
@@ -4958,7 +5050,7 @@ Estas são as entidades no número do Passport da UE informações confidenciais
 - [Bulgária](#bulgaria-passport-number)
 - [Croácia ](#croatia-passport-number)
 - [Chipre](#cyprus-passport-number)
-- [Czech](#czech-passport-number)
+- [Tcheco](#czech-passport-number)
 - [Dinamarca](#denmark-passport-number)
 - [Estônia](#estonia-passport-number)
 - [Finlândia ](#finland-passport-number)
@@ -4989,7 +5081,7 @@ Estas são as entidades que estão no número de segurança social da UE ou tipo
 - [Áustria ](#austria-social-security-number-or-equivalent-identification)
 - [Bélgica](#belgium-social-security-number-or-equivalent-identification)
 - [Croácia ](#croatia-social-security-number-or-equivalent-identification)
-- [Czech](#czech-social-security-number-or-equivalent-identification)
+- [Tcheco](#czech-social-security-number-or-equivalent-identification)
 - [Dinamarca](#denmark-social-security-number-or-equivalent-identification)
 - [Finlândia ](#finland-social-security-number-or-equivalent-identification)
 - [França ](#france-social-security-number-insee-or-equivalent-identification)
@@ -5009,7 +5101,7 @@ as entidades hese estão no tipo de informação confidencial do número de iden
 - [Bulgária](#bulgaria-tax-identification-number)
 - [Croácia ](#croatia-tax-identification-number)
 - [Chipre](#cyprus-tax-identification-number)
-- [Czech](#czech-tax-identification-number)
+- [Tcheco](#czech-tax-identification-number)
 - [Dinamarca](#denmark-tax-identification-number)
 - [Estônia](#estonia-tax-identification-number)
 - [Finlândia ](#finland-tax-identification-number)
@@ -6724,12 +6816,9 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_indonesia_id_card localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_indonesia_id_card for encontrada.
-
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_indonesia_id_card localiza o conteúdo que corresponde ao padrão.
 
 ```xml
 <!-- Indonesia Identity Card (KTP) Number -->
@@ -6737,10 +6826,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
   <Pattern confidenceLevel="85">
      <IdMatch idRef="Regex_indonesia_id_card"/>
      <Match idRef="Keyword_indonesia_id_card"/>
-  </Pattern>
-  <Pattern confidenceLevel="75">
-     <IdMatch idRef="Regex_indonesia_id_card"/>
-  </Pattern>
 </Entity>
 ```
 
@@ -12259,7 +12344,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - segurança social
 - great britain
-- seguro
+
+- Número de NI
+- N º de NI
+- NI #
+- NI #
+- seguro #
+- insurancenumber
+- nationalinsurance #
+- nationalinsurancenumber
+
     
 ## <a name="uk-tax-identification-number"></a>britânico número de identificação do imposto
 Essa entidade de tipo de informação confidencial só está disponível no tipo de informação confidencial do número de identificação de imposto da UE.
@@ -12694,14 +12788,18 @@ Uma política de DLP tem 55% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_ssn"></a>Keyword_ssn
 
-- Social Security 
-- Social Security# 
-- Soc Sec 
-- ES 
-- CPFs 
-- ES # 
-- PLANILHA # 
-- SSID 
+- Número do SSA
+- social security number
+- segurança social #
+- segurança social #
+- segurança social não
+- Social Security#
+- Soc Sec
+- ES
+- CPFs
+- ES #
+- PLANILHA #
+- SSID
    
 ## <a name="us--uk-passport-number"></a>EUA/REINO UNIDO passport number
 O Reino Unido a entidade de tipo de informação confidencial do número do Passport está disponível no tipo de informação confidencial do número do Passport da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.

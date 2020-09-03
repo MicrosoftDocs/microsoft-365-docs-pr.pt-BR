@@ -1,5 +1,5 @@
 ---
-title: O que há de novo no Microsoft 365 conformidade
+title: Novidades na Conformidade do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95b23ccdb272c9e91ee4c525fd90679c492efc9b
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 750d8274faa5e68f8d36006f8ccf6d7fa55f8250
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868968"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336664"
 ---
-# <a name="whats-new-in-microsoft-365-compliance"></a>O que há de novo no Microsoft 365 conformidade
+# <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
 Se está adicionando novas soluções ao [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md), atualizando recursos existentes com base em seus comentários, ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Veja o que há de novo no Microsoft 365 Compliance hoje. 
 
@@ -36,6 +36,32 @@ Se está adicionando novas soluções ao [centro de conformidade da Microsoft 36
 > [!TIP]
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Novidades da Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+
+## <a name="july-2020"></a>Julho de 2020
+
+### <a name="spotlight-on-help-docs"></a>Destaque em documentos da ajuda
+
+Para ajudá-lo a entender quais soluções de conformidade são usadas para proteger e controlar os dados confidenciais da sua organização, criamos duas novas páginas de aterrissagem com visões gerais de como as soluções funcionam juntas para atingir essas metas, incluindo links para documentos relacionados, para que você possa se aprofundar.
+
+[Proteção de informações da Microsoft no Microsoft 365](protect-information.md)<br>
+[Governança de informações da Microsoft no Microsoft 365](manage-Information-governance.md)
+
+### <a name="advanced-ediscovery-add-non-custodial-data-sources-to-your-cases"></a>Descoberta eletrônica avançada: adicionar fontes de dados não custodial a seus casos
+
+Adicionar dados a uma ocorrência sem ter que associá-los a um funcionário (conhecido como [fontes de dados não-custodial](non-custodial-data-sources.md)). E, se você precisar colocar esses dados não custodial em espera, poderá fazer isso usando nosso novo recurso de indexação avançada.
+
+### <a name="data-connectors-hr-connector-enhancements"></a>Conectores de dados: aprimoramentos do conector de RH
+
+(Na visualização) Uma nova versão do [conector de RH](import-hr-data.md) permite que você importe dados relacionados a alterações no nível do trabalho, revisões de desempenho e planos de melhoria de desempenho. Esses dados podem ser usados em várias [políticas de risco de insider](insider-risk-management-policies.md) para detectar a atividade relacionada.
+
+### <a name="retention-labels-new-support-for-email"></a>Rótulos de retenção: novo suporte para email
+
+Agora você pode criar um [rótulo de retenção](retention.md#retention-labels) para iniciar a retenção de email com base em quando as mensagens foram rotuladas. Isso não se aplica a itens de calendário, que serão mantidos com base em quando o item é enviado.
+
+### <a name="sensitivity-labels-new-feature-and-an-improvement"></a>Rótulos de confidencialidade: novo recurso e melhoria
+
+- (Na visualização) Ao definir as configurações de criptografia para um rótulo, procure a nova opção para usar a [criptografia de tecla dupla](encryption-sensitivity-labels.md#double-key-encryption) para proteger mais arquivos e emails rotulados.
+- Ao criar ou excluir rótulos de sensibilidade ou criar, editar ou excluir suas políticas de rótulo, as alterações agora sincronizam dentro de 1 hora para todos os usuários, aplicativos e serviços.
 
 ## <a name="june-2020"></a>Junho de 2020
 
@@ -67,7 +93,7 @@ Faça um tour de vídeo...
 O pode trazer mais aprimoramentos para os classificadores estagiários:
 
 - Uma correção com base em seus comentários: quando você propaga e treina um classificador personalizado, não é mais necessário inserir manualmente URLs de site do SharePoint e caminhos de pasta. Agora você pode escolher em uma lista de preenchimento de sites e pastas.
-- Novo recurso: ao criar um rótulo de confidencialidade e configurar as definições de rotulação automática para os aplicativos do Office, você pode aplicar automaticamente (ou recomendar que os usuários se apliquem) o rótulo ao conteúdo que corresponde aos classificadores estagiários. [Saiba Mais](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
+- Novo recurso: ao criar um rótulo de confidencialidade e configurar as definições de rotulação automática para os aplicativos do Office, você pode aplicar automaticamente (ou recomendar que os usuários se apliquem) o rótulo ao conteúdo que corresponde aos classificadores estagiários. [Saiba mais](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
 
 ### <a name="communication-compliance-yammer-support-is-here"></a>Conformidade de comunicação: o suporte do Yammer está aqui
 
@@ -237,7 +263,7 @@ Aqui está um resumo das novas soluções que você encontrará. Fique atento pa
 > Essas soluções estão localizadas somente no centro de conformidade da Microsoft 365. Eles não podem ser gerenciados no centro de conformidade & segurança do Office 365.
 <br/>
 
-|**Nova solução**|**Descrição**|**Saiba Mais**|
+|**Nova solução**|**Descrição**|**Saiba mais**|
 |:-----|:-----|:-----|
 |Pontuação de conformidade da Microsoft (visualização) <br/>|Criado a partir do [Gerenciador de conformidade](compliance-manager-overview.md), a pontuação de conformidade é um recurso autônomo com um design mais simples e mais fácil, que ajuda você a compreender e aprimorar a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. <br/>|[Visão geral da Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md)|
 |Catálogo de soluções (versão prévia) <br/>|O catálogo de soluções é seu ponto de partida para descoberta, aprendizado e rápida introdução às soluções de gerenciamento de conformidade e risco. O catálogo é organizado em três categorias de conformidade, cada uma contendo detalhes sobre as soluções que compõem essa categoria. As categorias incluem proteção de informações & governança, gerenciamento de risco do insider e resposta de & de descoberta <br/>|[Visão geral do catálogo de soluções (versão prévia)](microsoft-365-solution-catalog.md)|
@@ -253,7 +279,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 > Alguns recursos ainda estão disponíveis somente no centro de conformidade & segurança do Office 365 – eles estão indicados abaixo. Mas estamos trabalhando para visualizar isso no centro de conformidade da Microsoft 365, portanto, fique atento às atualizações. 
 <br/>
 
-|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba Mais**|
+|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba mais**|
 |:-----|:-----|:-----|:-----|
 |Descoberta Eletrônica Avançada|descoberta eletrônica avançada > de descoberta eletrônica <br/> https://protection.office.com/advancedediscoverycases |> de descoberta eletrônica avançada <br/> https://compliance.microsoft.com/advancedediscovery | [Visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) |
 |Políticas de alerta|Alertas > políticas de alerta <br/> https://protection.office.com/alertpolicies |No momento, as políticas de alerta são gerenciadas apenas no centro de conformidade & segurança do Office 365. |[Políticas de alerta no centro de conformidade e segurança](alert-policies.md) |
@@ -293,20 +319,3 @@ Vá para [restringir o acesso ao conteúdo usando rótulos de confidencialidade 
 ### <a name="update-to-data-investigations"></a>Atualizar para investigações de dados
 
 Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. Vá para [gerenciar um incidente de derramamento de dados no Microsoft 365](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) para saber mais. 
-
-## <a name="july-2019"></a>Julho de 2019
-
-### <a name="new-admin-roles"></a>Novas funções de administrador
-
-Lançamos duas novas funções de administrador para ajudar a gerenciar a segurança e a conformidade da sua organização. diga todos os seus amigos.
-
-- **Administração de dados de conformidade**. Os usuários com essa função têm permissões para proteger e controlar dados no centro de conformidade da Microsoft 365, no centro de administração do Microsoft 365 e no Azure. Eles também podem gerenciar tudo o centro de administração do Exchange, o gerente de conformidade, o Microsoft Teams & o centro de administração do Skype for Business e criar tíquetes de suporte para o Azure e o Microsoft 365.
-- **Operador de segurança**. Os usuários com essa função podem gerenciar alertas e ter acesso de somente leitura global a recursos relacionados à segurança, incluindo tudo no centro de segurança do Microsoft 365, Active Directory do Azure, proteção de identidade, gerenciamento de identidade privilegiado e centro de conformidade & segurança do Office 365.
-
-[Saiba mais sobre essas funções](https://docs.microsoft.com/microsoft-365/security//office-365-security/permissions-microsoft-365-compliance-security)
-
-### <a name="search-and-filtering-for-reports"></a>Pesquisa e filtragem para relatórios
-
-Não há mais rolagem por um mar de relatórios para encontrar os que você deseja. Agora você pode pesquisar relatórios (com base nos seus títulos) e filtrar em categorias como "rótulos" e "conformidade" e fontes como "Office 365" e "Microsoft Cloud app Security".
-
-![Captura de tela dos botões de pesquisa e filtro para relatórios com um filtro aplicado](../media/mcc_report_filtering.png)

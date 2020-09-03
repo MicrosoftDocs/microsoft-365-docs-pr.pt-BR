@@ -1,7 +1,7 @@
 ---
 title: Recursos de relatório do Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre vários recursos de relatório no Microsoft 365, incluindo o Active Directory do Azure e o Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 104d587ea87a61a66b73aa1441170f37e082a72f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 3beb327bd5cb995c378a414e19cc54dea8ad1304
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687352"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332731"
 ---
 # <a name="microsoft-365-reporting-features"></a>Recursos de relatório do Microsoft 365
 
@@ -58,7 +58,7 @@ Os relatórios de auditoria do Exchange Online incluem detalhes sobre o acesso �
 > [!NOTE]
 > Você deve habilitar o log de auditoria de caixa de correio para cada caixa de correio para que os eventos auditados sejam salvos no log de auditoria dessa caixa de correio. Se o log de auditoria de caixa de correio não estiver habilitado para uma caixa de correio, os eventos dessa caixa de correio não serão salvos no log de auditoria e não aparecerão nos relatórios de auditoria de caixa de correio Para obter mais informações, consulte [habilitar a auditoria de caixa de correio](https://support.office.com/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918).
 
-| Task | Descrição |
+| Tarefas | Descrição |
 |----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Executar um relatório de acesso não proprietário da caixa de correio](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report) | Exibe a lista de caixas de correio acessadas por alguém que não seja o proprietário da caixa de correio. O relatório contém informações sobre quem acessou a caixa de correio, as ações executadas na caixa de correio e se as ações foram bem-sucedidas. |
 | [Exportar logs de auditoria de caixas de correio](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs) | Os logs de auditoria de caixa de correio contêm informações sobre acesso e ações em uma caixa de correio realizada por um usuário diferente do proprietário da caixa de correio. Os administradores podem especificar caixas de correio junto com um intervalo de datas para gerar relatórios. Os logs são exportados em XML, anexados a uma mensagem e enviados a usuários específicos, conforme determinado pelo administrador. |

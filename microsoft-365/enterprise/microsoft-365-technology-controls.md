@@ -1,7 +1,7 @@
 ---
 title: Controles de tecnologia da Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo fornece uma visão geral das ferramentas e tecnologias usadas pelo Microsoft for Technology Control no Microsoft 365.
-ms.openlocfilehash: 53b7a05dba52fbe8c3bb8502441c67bd2be1957d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 66faac9c045dd9b6f6c0c7ea29ca1570e3ad8e19
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686931"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332695"
 ---
 # <a name="microsoft-365-technology-controls"></a>Controles de tecnologia da Microsoft 365 
 

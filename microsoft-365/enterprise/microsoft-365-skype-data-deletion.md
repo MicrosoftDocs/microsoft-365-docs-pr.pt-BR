@@ -1,7 +1,7 @@
 ---
 title: Exclusão de dados do Skype for Business do Office 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você pode encontrar uma explicação da exclusão de dados no Skype for Business, incluindo os tipos de conteúdo que não são mantidos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf317f2ecd3d547ae8601553a34fb43fb4b5bd9d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0a47df4dd0dfdf5551668f8cafc9baa023bd6db1
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687349"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332707"
 ---
 # <a name="skype-for-business-data-deletion-in-office-365"></a>Exclusão de dados do Skype for Business no Office 365
 

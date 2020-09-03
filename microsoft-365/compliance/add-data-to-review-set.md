@@ -18,16 +18,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como adicionar resultados de pesquisa ou amostras desses resultados de pesquisa a um conjunto avançado de análise de casos de descoberta eletrônica.
-ms.openlocfilehash: 687cc33c0e7e6a09fb352e9c13058a6fcac30053
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: 6eed13c2096ad3cd33fbc7af93399824866b17c2
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814523"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336644"
 ---
 # <a name="add-search-results-to-a-review-set"></a>Adicionar os resultados da pesquisa a um conjunto de revisão
 
-Quando estiver satisfeito com os resultados de uma pesquisa e estiver pronto para revisar e analisar os resultados da pesquisa, você poderá adicioná-los a uma análise definida no caso. Copiar os dados originais para o conjunto de revisão também facilita o processo de revisão e análise fornecendo ferramentas avançadas de análise, como detecção de temas, detecção de duplicidade próxima e identificação de thread de email. Você também pode adicionar dados de fontes de dados que não são da Microsoft 365 a um conjunto de revisão para que possa revisar os dados além dos dados que coleta da Microsoft 365. 
+Quando estiver satisfeito com os resultados de uma pesquisa e estiver pronto para revisar e analisar os resultados da pesquisa, você poderá adicioná-los a uma análise definida no caso. Copiar os dados originais para o conjunto de revisão também facilita o processo de revisão e análise fornecendo ferramentas avançadas de análise, como detecção de temas, detecção de duplicidade próxima e identificação de thread de email. Você também pode adicionar dados de fontes de dados que não são da Microsoft 365 a um conjunto de revisão para que possa revisar os dados além dos dados que coleta da Microsoft 365.
 
 Quando você adiciona os resultados de uma pesquisa a um conjunto de revisão (os conjuntos de revisão em um caso são listados na guia **conjuntos de revisão** ), ocorrem as seguintes ações:
 
@@ -35,27 +35,25 @@ Quando você adiciona os resultados de uma pesquisa a um conjunto de revisão (o
 
 - Todos os itens nos resultados da pesquisa são copiados da fonte de dados original nos serviços do Live e copiados para um local seguro de armazenamento do Azure na nuvem da Microsoft.
 
-- Todos os itens (incluindo o conteúdo e os metadados) são reindexados para que todos os dados no conjunto de revisão sejam totalmente pesquisáveis durante a revisão dos dados de caso. A indexação dos resultados dos dados em pesquisas rápidas e rápidas quando você pesquisa os dados na revisão definida durante a investigação do caso.
+- Todos os itens (incluindo o conteúdo e os metadados) são reindexados para que todos os dados no conjunto de revisão sejam totalmente pesquisáveis durante a revisão dos dados de caso. A reindexação dos dados resulta em pesquisas completas e rápidas quando você pesquisa os dados na revisão definida durante a investigação do caso.
 
 Para adicionar dados a um conjunto de revisão, clique em uma pesquisa na guia **pesquisas** e, em seguida, clique em **Adicionar resultados para revisão definida** na página do menu suspenso.
 
-![Adicionando dados a um conjunto de revisão](../media/c1b4fc00-7a15-4587-b9b0-ce594bb02e4d.png)
+Você pode adicionar a um conjunto de revisão existente ou criar um novo conjunto de revisão.  Se estiver adicionando a um novo conjunto de revisão, especifique o nome e clique em **Adicionar** para exibir a página de menu suspenso.
 
-Você pode adicionar a um conjunto de revisão existente ou criar um novo conjunto de revisão.  Se estiver adicionando a um novo conjunto de revisão, especifique o nome e clique em **Adicionar**.
+![Selecionar um conjunto de análise e configurar opções de coleção](../media/AeD_AddToReviewSet.png)
 
-![Selecione um conjunto de revisão](../media/e8c6ab51-da8d-4c39-9b21-26bfdf453fb9.png)
+A adição de dados a um conjunto de revisão é um processo de execução demorada. Esse processo inclui a coleta de itens das fontes de dados originais no Microsoft 365 (por exemplo, de caixas de correio e sites), copiando-os para o local de armazenamento do Azure (esse processo de cópia também é chamado de *inclusão*) e, em seguida, reindexar os itens. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **pesquisas** monitorando o status na coluna **Adicionar dados para revisão** . Depois que o processamento do conjunto de revisão estiver concluído, clique na guia **revisar conjuntos** no caso e, em seguida, clique no conjunto de revisão para iniciar o processo de filtragem, revisão, marcação e exportação de dados no conjunto de revisão.
 
 ## <a name="define-options-to-scope-your-collection-for-review"></a>Definir opções para fazer o escopo da sua coleção para revisão
 
-À medida que você adiciona o conteúdo de uma pesquisa a um conjunto de revisão existente ou cria um novo, você tem opções de como coletar o conteúdo para revisão:
+Ao adicionar o conteúdo de uma pesquisa a um conjunto de revisão novo ou existente, você tem as seguintes opções de como coletar o conteúdo para revisão:
 
-- **Conjunto de análise de conversa** -os itens adicionados ao conjunto de análise serão habilitados para conversas encadeadas para ajudar a revisar o conteúdo no contexto da conversa de trás e para frente, consulte mais neste artigo [conjuntos de revisão de conversa]
+- **Incluir versões do SharePoint (beta)**: Use esta opção para habilitar a coleção de todas as versões de um documento do SharePoint por limites de versão e parâmetros de pesquisa da coleção. Selecionar essa opção aumentará significativamente o tamanho dos itens que são adicionados ao conjunto de revisão.
 
-- **Habilitar recuperação para anexo moderno** – Use esse controle para incluir anexos modernos ou arquivos vinculados na coleção para análise adicional; Leia mais sobre os novos nomes de campos pesquisáveis disponíveis para agrupar esse conteúdo, consulte [campos de metadados do documento na descoberta eletrônica avançada]
+- **Opções de recuperação de conversa**: os itens adicionados ao conjunto de revisão estão habilitados para conversas encadeadas para ajudar a revisar o conteúdo no contexto da conversa de trás e para frente. Para obter mais informações, consulte [revisar conversas na descoberta eletrônica avançada](conversation-review-sets.md).
 
-- **Incluir versões do SharePoint (beta)** -este controle habilita a coleção de todas as versões de um arquivo do SharePoint por limites de versão e parâmetros de pesquisa da coleção; Observação: esse controle aumentará significativamente o tamanho da coleção
-
-A adição de dados a um conjunto de revisão é um processo de execução demorada. Esse processo inclui a coleta de itens das fontes de dados originais no Microsoft 365 (por exemplo, de caixas de correio e sites), copiando-os para o local de armazenamento do Azure (esse processo de cópia também é chamado de *inclusão*) e, em seguida, indexando novamente os itens. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **pesquisas** monitorando o status na coluna **Adicionar dados para revisão** . Depois que o processamento do conjunto de revisão estiver concluído, clique na guia **revisar conjuntos** no caso e clique no conjunto de revisão para iniciar o processo de filtragem, revisão, marcação e exportação de dados no conjunto de revisão.
+- **Habilitar recuperação para anexos modernos**: Use esta opção para incluir anexos modernos ou arquivos vinculados na coleção para análise adicional. Para obter mais informações sobre as propriedades pesquisáveis relacionadas a anexos modernos, consulte [documentar campos de metadados na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md).
 
 ## <a name="add-a-sample-to-a-review-set"></a>Adicionar um exemplo a um conjunto de revisão
 
