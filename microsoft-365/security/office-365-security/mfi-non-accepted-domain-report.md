@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar mensagens de sua organização local onde o domínio do remetente não está configurado no Microsoft 365.
-ms.openlocfilehash: ef5f1c26168347b6696e90292d9c957e63615c0f
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 02692fbded20aa5062ce8add83925fb65c116630
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826936"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358573"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Relatório de domínio não aceito no centro de conformidade e segurança &
 
-O relatório de **domínio não aceito** no [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade & segurança exibe informações sobre as mensagens da sua organização de email local onde o domínio do remetente não está configurado como um domínio aceito na sua organização do Microsoft 365.
+O relatório de **domínio não aceito** no [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade & segurança](https://protection.office.com) exibe informações sobre as mensagens da sua organização de email local onde o domínio do remetente não está configurado como um domínio aceito na sua organização do Microsoft 365.
 
 O Microsoft 365 pode reduzir essas mensagens se houver dados que comprovam que a intenção dessas mensagens é mal-intencionada. Portanto, é importante entender o que está acontecendo e corrigir o problema.
 

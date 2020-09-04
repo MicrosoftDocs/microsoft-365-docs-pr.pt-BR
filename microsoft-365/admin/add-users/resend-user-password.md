@@ -1,5 +1,5 @@
 ---
-title: Reenviar a senha de um usuário-ajuda para administradores
+title: Reenviar a senha de um usuário – ajuda para administradores
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,24 +19,30 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
-description: 'Saiba como redefinir a senha e enviar um email de notificação para um novo usuário do Microsoft 365. '
-ms.openlocfilehash: 2f9d4fd829e4378b245fd3b8277e9b913d17ab69
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Saiba como redefinir a senha e enviar um email de notificação para um novo usuário do Microsoft 365.
+ms.openlocfilehash: d39a448cdea9e986c46fbebc1d4cfcdf63882daf
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386980"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361814"
 ---
-# <a name="resend-a-users-password---admin-help"></a>Reenviar a senha de um usuário-ajuda para administradores
+# <a name="resend-a-users-password---admin-help"></a>Reenviar a senha de um usuário – ajuda para administradores
 
-Este artigo explica como reenviar o email de notificação para um novo usuário no Office 365. Para fazer isso, redefina a senha do usuário.
-  
-Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas. 
+Este artigo explica como reenviar o email de notificação para um novo usuário no Office 365. Isso pode acontecer quando você cria um novo usuário e não recebe um email com sua nova senha. Para fazer isso, redefina a senha do usuário.
+
+## <a name="before-you-begin"></a>Antes de começar
+
+Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir estas etapas, você precisa entrar com sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md).
+
+Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
+
+## <a name="resend-user-password"></a>Reenviar senha do usuário
   
 ::: moniker range="o365-worldwide"  
   
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-     
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -52,9 +58,13 @@ Você deve ser um [administrador de administrador ou de senha global](about-admi
 ::: moniker-end
 
 2. Na página **usuários ativos** , selecione o usuário e, em seguida, selecione **Redefinir senha**.
-    
+
 3. Siga as instruções na página **Redefinir senha** para gerar automaticamente uma nova senha para o usuário ou criar uma para elas e, em seguida, selecione **Redefinir**.  
-    
+
 4. Insira um endereço de email que o usuário possa acessar para que recebam a nova senha e acompanhe com eles para garantir que eles o tenham.
-    
-  
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Permitir que os usuários redefinam as próprias senhas](../add-users/let-users-reset-passwords.md)
+
+[Redefinir senhas](../add-users/reset-passwords.md)

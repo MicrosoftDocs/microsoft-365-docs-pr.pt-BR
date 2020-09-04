@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar a percepção e o relatório de autenticação SMTP no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar remetentes de email em sua organização que usam SMTP autenticado (autenticação SMTP) para enviar mensagens de email.
-ms.openlocfilehash: 65e5569bcd79caef071ee2103d18a4e985c19dbb
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 4123edcfa08e31217dcd6a29186492bc036fa7a0
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826864"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357429"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Clientes de autenticação SMTP percepção e relatório no centro de conformidade e segurança &
 
-Os **clientes de autenticação SMTP** se aprofundam no [painel de fluxo de emails](mail-flow-insights-v2.md) e o [relatório de clientes de autenticação SMTP](#smtp-auth-clients-report) associado realçam o uso do protocolo de envio de cliente de autenticação SMTP por usuários ou contas de sistema em sua organização. Este protocolo herdado (que usa o ponto de extremidade smtp.office365.com) só oferece autenticação básica e é suscetível a uso por contas comprometidas para enviar emails. A percepção e o relatório permitem verificar se há atividades incomuns para envios de email de autenticação SMTP. Ele também mostra os dados de uso de TLS para clientes ou dispositivos que usam a autenticação SMTP.
+Os **clientes de autenticação SMTP** se aprofundam no [painel de fluxo de emails](mail-flow-insights-v2.md) e no [relatório de clientes de autenticação SMTP](#smtp-auth-clients-report) associado no [centro de conformidade & de segurança](https://protection.office.com) realçar o uso do protocolo de envio de cliente de autenticação SMTP por usuários ou contas de sistema em sua organização. Este protocolo herdado (que usa o ponto de extremidade smtp.office365.com) só oferece autenticação básica e é suscetível a uso por contas comprometidas para enviar emails. A percepção e o relatório permitem verificar se há atividades incomuns para envios de email de autenticação SMTP. Ele também mostra os dados de uso de TLS para clientes ou dispositivos que usam a autenticação SMTP.
 
 O widget indica o número de usuários ou contas de serviço que usaram o protocolo de autenticação SMTP nos últimos sete dias.
 

@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 07/23/2020
+ms.date: 09/02/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 17cc826f5cf28ff375deaf1e6a4b192700eebf2f
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: b0f6816ad758f374f2512076939cfa6392b748de
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898123"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357297"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -37,13 +37,33 @@ O Microsoft 365 tem os recursos para permitir que seus funcionários trabalhem r
 
 ![Capacite funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
-| Capacidade importante | Descrição |
-|:-------|:-----|
-| Conectado | De qualquer lugar do mundo e a qualquer momento, os funcionários remotos podem acessar: <ul><li>Serviços e dados baseados em nuvem na sua assinatura do Microsoft 365. </li><li>Recursos da organização, como os oferecidos por centros de dados de aplicativos locais.</li></ul> |
-| Seguro | Os logins são protegidos com autenticação multifator (MFA) e os recursos de segurança internos do Microsoft 365 e do Windows 10 protegem contra malwares, ataques maliciosos e perda de dados. |
-| Gerenciado | Os dispositivos dos seus trabalhadores remotos podem ser gerenciados na nuvem com configurações de segurança, aplicativos permitidos e exigir conformidade com a integridade do sistema. |
-| Colaborativo e produtivo | Seus funcionários remotos podem ser tão produtivos quanto locais, de uma maneira altamente colaborativa com: <ul><li>Reuniões on-line e sessões de bate-papo com o Teams. </li><li>Áreas de trabalho compartilhadas para armazenamento de arquivos baseados em nuvem com acessibilidade global e colaboração em tempo real com o SharePoint e o OneDrive. </li><li>Tarefas e fluxos de trabalho compartilhados para dividir o trabalho e realizar as tarefas. </li></ul> |
-|||
+Assista a esse vídeo para obter uma visão geral do processo de implantação.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
+
+Esta solução fornece esses recursos essenciais.
+
+- Conectado
+
+  De qualquer lugar do mundo e a qualquer momento, os funcionários remotos podem acessar: 
+
+  - Serviços e dados baseados em nuvem na sua assinatura do Microsoft 365. 
+  - Recursos da organização, como os oferecidos por centros de dados de aplicativos locais.
+
+- Seguro
+
+  Os logins são protegidos com autenticação multifator (MFA) e os recursos de segurança internos do Microsoft 365 e do Windows 10 protegem contra malwares, ataques maliciosos e perda de dados.
+
+- Gerenciado
+
+  Os dispositivos dos seus trabalhadores remotos podem ser gerenciados na nuvem com configurações de segurança, aplicativos permitidos e exigir conformidade com a integridade do sistema.
+
+- Colaborativo e produtivo
+
+  Seus funcionários remotos podem ser tão produtivos quanto locais, de uma maneira altamente colaborativa com:
+  - Reuniões on-line e sessões de bate-papo com o Teams. 
+  - Áreas de trabalho compartilhadas para armazenamento de arquivos baseados em nuvem com acessibilidade global e colaboração em tempo real com o SharePoint e o OneDrive.
+  - Tarefas e fluxos de trabalho compartilhados para dividir o trabalho e realizar as tarefas. 
 
 Para uma experiência perfeita de entrada, suas contas de usuário dos Serviços de domínio do Active Directory (AD DS) locais devem ser sincronizadas com o Azure Active Directory (Azure AD). Para proteger os dispositivos com Windows 10, eles devem ser registrados no Intune. Veja a seguir uma visão geral da infraestrutura.
 

@@ -30,8 +30,10 @@
           href: service-description/device-policies.md
         - name: Tecnologias de segurança
           href: service-description/security.md
-        - name: Operações de proteção
+        - name: Operações de segurança
           href: service-description/security-operations.md
+        - name: Privacidade
+          href: service-description/privacy-personal-data.md
         - name: Atualizações
           href: service-description/updates.md
         - name: Suporte

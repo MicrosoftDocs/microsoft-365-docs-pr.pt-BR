@@ -14,12 +14,12 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender como usar a correção de regras de fluxo de emails lentos no centro de conformidade de & de segurança para identificar e corrigir regras de fluxo de emails ineficientes ou desfeitas (também conhecidas como regras de transporte) em sua organização.
-ms.openlocfilehash: 6319633c47e34d7b62c4f68bfbda7fe298c0deb3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: c933a6816c82161d0f4a6199ff1a339dd8a10eae
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826876"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357339"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Correção de regras de fluxo de email lentos no centro de conformidade e segurança &
 
@@ -29,7 +29,7 @@ Regras de fluxo de emails ineficientes (também conhecidas como regras de transp
 - Condições que usam a correspondência de padrão de expressão regular (Regex) complexa.
 - Condições que usam a verificação de conteúdo em anexos.
 
-A **correção de regras de fluxo de emails lentos** na área **recomendada para você** do [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de segurança & conformidade avisa quando uma regra de fluxo de emails demora muito para ser concluída. Essa percepção aparece apenas após a condição ser detectada (se você não tiver loops de email, não verá a percepção).
+A **correção de regras de fluxo de emails lentos** na área **recomendada para você** do [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de segurança & conformidade](https://protection.office.com) avisa quando uma regra de fluxo de emails demora muito para ser concluída. Essa percepção aparece apenas após a condição ser detectada (se você não tiver loops de email, não verá a percepção).
 
 Você pode usar essa notificação para ajudá-lo a identificar e ajustar as regras de fluxo de emails para ajudar a reduzir os atrasos de fluxo de emails.
 

@@ -22,34 +22,31 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: f85eb2d3aaf5b19779ea8f293e2cbdc28c1535aa
-ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
+ms.openlocfilehash: 01817aba0de1f5ca5f0b9bdf7feb1d03d72f6a24
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804203"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361744"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir senha de um usuário individual para nunca expirar
 
-## <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
+Este artigo explica como definir uma senha para que um usuário individual não expire. Você precisa concluir estas etapas usando o PowerShell.
 
-1. No centro de administração, vá para a **Settings** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">configurações</a> de configurações.
-2. Na parte superior da página configurações, selecione **segurança & privacidade**.
-3. Selecione **Política de expiração de senha**. 
-4. Se as senhas estiverem definidas para nunca expirar, clique na caixa de seleção ao lado de **definir senhas de usuário para expirar após um número de dias**. Você terá a opção de especificar o número de dias até que as senhas expirem.
+## <a name="before-you-begin"></a>Antes de começar
 
-## <a name="set-the-password-expiration-policy-for-individual-users"></a>Definir a política de expiração de senha para usuários individuais
+Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir estas etapas, você precisa entrar com sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md). 
+
+Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
 
 Um administrador global para um serviço de nuvem da Microsoft pode usar o [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) para definir senhas que não expirem para usuários específicos. Você também pode usar os cmdlets do [AzureAD](https://docs.microsoft.com/powershell/module/Azuread) para remover a configuração nunca expira ou para ver quais senhas de usuário estão definidas para nunca expirar.
 
 Este guia se aplica a outros provedores, como o Intune e o Microsoft 365, que também dependem do Azure AD para serviços de identidade e diretório. A expiração da senha é a única parte da política que pode ser alterada.
 
-Para obter mais informações sobre o Azure AD PowerShell para Graph, confira [Azure Active Directory PowerShell para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
-
 > [!NOTE]
 > Somente senhas para contas de usuário que não estão sincronizadas por meio da sincronização de diretórios podem ser configuradas para não expirar. Para obter mais informações sobre a sincronização de diretórios, consulte [Connect ad with Azure ad](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 
-### <a name="how-to-check-the-expiration-policy-for-a-password"></a>Como verificar a política de expiração de uma senha
+## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Como verificar a política de expiração de uma senha
 
 Para obter mais informações sobre o comando Get-AzureADUser no módulo AzureAD, consulte o artigo de referência [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).
 
@@ -93,6 +90,21 @@ Execute um dos seguintes comandos:
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
         N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
     } | ConvertTo-Csv -NoTypeInformation | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.csv
+
+## Set a password to never expire
+
+Run one of the following commands:
+
+- To set the password of one user to never expire, run the following cmdlet by using the UPN or the user ID of the user:
+
+    ```powershell
+    Set-AzureADUser -ObjectId <user ID> -PasswordPolicies DisablePasswordExpiration
+    ```
+
+- Para definir as senhas de todos os usuários em uma organização para nunca expirar, execute o seguinte cmdlet:
+
+    ```powershell
+    Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
     ```
 
 ### <a name="set-a-password-to-expire"></a>Definir uma senha para expirar
@@ -111,21 +123,11 @@ Execute um dos seguintes comandos:
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
     ```
 
-### <a name="set-a-password-to-never-expire"></a>Definir uma senha para nunca expirar
-
-Execute um dos seguintes comandos:
-
-- Para definir a senha de um usuário para nunca expirar, execute o seguinte cmdlet usando o UPN ou a ID de usuário do usuário:
-
-    ```powershell
-    Set-AzureADUser -ObjectId <user ID> -PasswordPolicies DisablePasswordExpiration
-    ```
-
-- Para definir as senhas de todos os usuários em uma organização para nunca expirar, execute o seguinte cmdlet:
-
-    ```powershell
-    Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
-    ```
-
 > [!WARNING]
 > As contas de usuário configuradas com o `-PasswordPolicies DisablePasswordExpiration` parâmetro ainda envelhecem com base no `pwdLastSet` atributo de conta de usuário. Por exemplo, se você definir senhas do usuário para nunca expirar e, em seguida, 90 ou mais dias, as senhas ainda expirarem. Com base no `pwdLastSet` atributo de conta de usuário, para contas de usuário configuradas com o `-PasswordPolicies None` parâmetro, todas as senhas com `pwdLastSet` mais de 90 dias exigem que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Permitir que os usuários redefinam as próprias senhas](../add-users/let-users-reset-passwords.md)
+
+[Redefinir senhas](../add-users/reset-passwords.md)

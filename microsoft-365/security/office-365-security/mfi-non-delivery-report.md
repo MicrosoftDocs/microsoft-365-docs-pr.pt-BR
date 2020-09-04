@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o relatório de detalhes de falha na entrega no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar os códigos de erro encontrados com mais frequência nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução) de remetentes em sua organização.
-ms.openlocfilehash: bdc2a2a16f76f4e6ada629c82b86423422ab56c9
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: f9017a7f041037c5db2dc9b9f4f5155b038bf2c7
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826912"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357405"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Notificação de falha na entrega no centro de conformidade e segurança &
 
-A notificação de falha na **entrega** no [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade de & de segurança mostra os códigos de erro mais encontrados em notificações de falha na entrega (também conhecidos como NDRs ou mensagens de devolução) para os usuários da sua organização. Este relatório mostra os detalhes dos NDRs para que você possa solucionar problemas de entrega de email.
+A notificação de falha na **entrega** no [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade de & de segurança](https://protection.office.com) mostra os códigos de erro mais encontrados em notificações de falha na entrega (também conhecidos como NDRs ou mensagens de devolução) para os usuários da sua organização. Este relatório mostra os detalhes dos NDRs para que você possa solucionar problemas de entrega de email.
 
 ![Widget notificação de falha na entrega no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/mfi-non-delivery-report-widget.png)
 

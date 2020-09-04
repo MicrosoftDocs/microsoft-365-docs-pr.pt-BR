@@ -24,18 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: 288613023ee61626bf12f7090ad0ff73139ef06d
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 1684afd1baf32acc6c4245938b2ac7ee024d7374
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780584"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361802"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
-Obter Crushed com pessoas solicitando que você redefina suas senhas? Como o Microsoft 365 admin, você pode permitir que as pessoas usem a [ferramenta de redefinição de senha de autoatendimento](https://go.microsoft.com/fwlink/p/?LinkId=522677) para que você não precise redefinir senhas para elas. Menos trabalho para você! 
+Como o Microsoft 365 admin, você pode permitir que as pessoas usem a [ferramenta de redefinição de senha de autoatendimento](https://go.microsoft.com/fwlink/p/?LinkId=522677) para que você não precise redefinir senhas para elas. Menos trabalho para você!
   
-Aqui estão algumas coisas que você precisa saber:
+## <a name="before-you-begin"></a>Antes de começar
   
 - Você obtém redefinição de senha de autoatendimento para usuários em nuvem **gratuitamente** com qualquer plano pago de negócios, educação ou sem fins lucrativos da Microsoft 365. Ele não funciona com a avaliação da Microsoft 365.
 
@@ -43,13 +43,17 @@ Aqui estão algumas coisas que você precisa saber:
 
 - **Se você estiver usando um Active Directory local**, os dois pontos acima não se aplicam. Em vez disso, você pode configurar isso, mas **requer uma assinatura paga do Azure ad Premium**.
 
-Assista a um pequeno vídeo sobre como permitir que os usuários redefinam suas próprias senhas. <br><br>
+Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir estas etapas, você precisa entrar com sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md)
+
+Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
+
+## <a name="watch-let-users-reset-their-own-passwords"></a>Watch: permitir que os usuários redefinam suas próprias senhas
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="let-people-reset-their-own-passwords"></a>Permitir que as pessoas redefinam suas próprias senhas
+## <a name="steps-let-people-reset-their-own-passwords"></a>Etapas: permitir que as pessoas redefinam suas próprias senhas
 
 Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.
   
@@ -83,10 +87,10 @@ Estas etapas habilitam a redefinição de senhas de autoatendimento para todas a
   
 7. Quando seus usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir sua senha no futuro.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
 [Definir a política de expiração de senha para sua organização](../manage/set-password-expiration-policy.md)
-  
+
 [Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md)
 
 [Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Os administradores podem saber mais sobre as informações de saída e de fluxo de email de entrada no painel de fluxo de emails no centro de conformidade de & de segurança.
-ms.openlocfilehash: 920c1212f4d6dee508704c93272e48140e199710
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 87ea7faed2e2387c31fdb06abaf242a2a3aea76e
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826888"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357417"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Percepção de fluxo de email de entrada e de saída no centro de conformidade e segurança &
 
-A percepção de **fluxo de email de entrada e de saída** no painel de fluxo de [emails](mail-flow-insights-v2.md) no centro de conformidade e segurança & combina as informações do [relatório de conector](view-mail-flow-reports.md#connector-report) e o **relatório de visão geral de TLS** anterior em um só lugar.
+A percepção de **fluxo de email de entrada e de saída** no painel de fluxo de [emails](mail-flow-insights-v2.md) no [centro de conformidade e segurança &](https://protection.office.com) combina as informações do [relatório de conector](view-mail-flow-reports.md#connector-report) e o **relatório de visão geral de TLS** anterior em um só lugar.
 
 O widget exibe a criptografia TLS que é usada para a conexão quando as mensagens são entregues na sua organização. As conexões estabelecidas com outros serviços de email são criptografadas por TLS quando o TLS é oferecido por ambos os lados. O widget oferece um instantâneo da última semana de fluxo de emails.
 

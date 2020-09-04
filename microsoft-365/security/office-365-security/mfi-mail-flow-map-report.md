@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o mapa de fluxo de emails no painel de fluxo de emails no centro de conformidade de & de segurança para visualizar e controlar como o email flui para e de sua organização sobre os conectores e sem usar conectores.
-ms.openlocfilehash: d27513b905a2b6c1a7ae366040e9e29b2d67b258
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e144d1d42603fbf2a8f031b1cf7584b6e6ed5c7b
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826996"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358585"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>Mapa de fluxo de emails no centro de conformidade de & de segurança
 
-O **mapa de fluxo de emails** no [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade do & de segurança fornece informações sobre como os emails fluem pela sua organização. Você pode usar essas informações para aprender padrões, identificar anomalias e corrigir problemas conforme eles ocorrem.
+O **mapa de fluxo de emails** no [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade do & de segurança](https://protection.office.com) fornece informações sobre como os emails fluem pela sua organização. Você pode usar essas informações para aprender padrões, identificar anomalias e corrigir problemas conforme eles ocorrem.
 
 ![Widget mapa de fluxo de emails no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/mfi-mail-flow-map-widget.png)
 

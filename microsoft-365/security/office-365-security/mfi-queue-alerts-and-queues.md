@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Os administradores podem aprender a usar o widget filas no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar o fluxo de emails sem êxito em suas organizações locais ou de parceiros em relação a conectores de saída.
-ms.openlocfilehash: 79523533306e847988fa0d4e2dd70eca22f7c76c
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: bcd78a50f017aae65e82185bf167ea7a227656fa
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826900"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357383"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Informações sobre filas no centro de conformidade & segurança
 
@@ -29,7 +29,7 @@ A Microsoft 365 continuará a tentar a entrega por 24 horas. Após 24 horas, as 
 
 Se o volume de email em fila exceder o limite predefinido (o valor padrão é 200), as informações estarão disponíveis nos seguintes locais:
 
-- As **filas** insights no [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade de & de segurança. Para obter mais informações, consulte a [visão de filas no painel de fluxo de emails](#queues-insight-in-the-mail-flow-dashboard) deste tópico.
+- As **filas** insights no [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade de & de segurança](https://protection.office.com). Para obter mais informações, consulte a [visão de filas no painel de fluxo de emails](#queues-insight-in-the-mail-flow-dashboard) deste tópico.
   
 - Um alerta é exibido em **alertas recentes** no painel de alertas no [centro de conformidade & segurança](https://protection.office.com) (painel de**alertas** \> **Dashboard** ou <https://protection.office.com/alertsdashboard> ).
 

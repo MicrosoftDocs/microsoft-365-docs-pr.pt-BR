@@ -24,20 +24,18 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business Premium para ajudar a proteger seus dados em PCs, telefones e tablets.
-ms.openlocfilehash: 839b5481e27591e1762a0d8eb5623f279d6d22dd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402705"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357309"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Recursos de segurança e conformidade do Microsoft 365 Business Premium
 
 O Microsoft 365 Business Premium oferece recursos simplificados de segurança para ajudar a proteger seus dados em PCs, telefones e tablets.
     
 ## <a name="microsoft-365-admin-center-security-features"></a>Recursos de segurança do centro de administração do Microsoft 365
-
-[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Você pode gerenciar muitos dos recursos de segurança do Microsoft 365 Business Premium no centro de administração, que oferece uma maneira simplificada de ativar ou desativar esses recursos. No centro de administração, você pode fazer o seguinte:
   
@@ -108,7 +106,7 @@ Sua assinatura do Microsoft 365 Business Premium inclui recursos que ajudam voc�
     
 - **[Rótulos de confidencialidade](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   O Microsoft 365 Business Premium inclui todos os recursos do [plano de proteção de informações do Azure 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Com esse plano, você pode criar **Rótulos de confidencialidade** que permitem controlar o acesso a informações confidenciais em emails e documentos, com controles como "não encaminhar" e "não copiar". Você também pode classificar informações confidenciais como "confidencial" e especificar como as informações classificadas podem ser compartilhadas fora e dentro da empresa. A criptografia de nível empresarial é fácil de aplicar a emails e documentos para manter suas informações privadas. Você também pode instalar o suplemento cliente de proteção de informações do Azure para aplicativos do Office. Para obter mais informações, consulte [cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Para rótulos de confidencialidade, instale o **AzInfoProtection_UL. exe**.
+   O Microsoft 365 Business Premium inclui todos os recursos do [plano de proteção de informações do Azure 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Com esse plano, você pode criar **Rótulos de confidencialidade** que permitem controlar o acesso a informações confidenciais em emails e documentos, com controles como "não encaminhar" e "não copiar". Você também pode classificar informações confidenciais como "confidencial" e especificar como as informações classificadas podem ser compartilhadas fora e dentro da empresa. A criptografia de nível empresarial é fácil de aplicar a emails e documentos para manter suas informações privadas. Você também pode instalar o suplemento cliente de proteção de informações do Azure para aplicativos do Office. Para obter mais informações, consulte [cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Para rótulos de confidencialidade, instale o **AzInfoProtection_UL.exe**.
 
 Você pode gerenciar esses recursos no centro de &amp; conformidade de segurança e no centro de administração do Intune. Com o tempo, os controles simplificados serão adicionados ao centro de administração do Microsoft 365.
   
