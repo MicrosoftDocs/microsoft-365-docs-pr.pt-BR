@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Uma lista de tipos de arquivo com suporte no Microsoft 365 Advanced eDiscovery, incluindo tipos de arquivos de imagem suportados pela funcionalidade de OCR na descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e7c1840642dcc572da8e23bcdde3b7759746b209
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4b23e0b0f428c91b13e461eb6514da99e5a69f42
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819151"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357741"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Tipos de arquivo com suporte na descoberta eletrônica avançada
 
@@ -50,14 +50,14 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | vídeo/x-M4V | Sim | Sim | Não | Sim | Não | .m4v |
 ||||||||
 
-## <a name="database"></a>Banco de dados
+## <a name="database"></a>Database
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
 | application/x-Msaccess | Sim | Sim | Sim | Não | Não | . mdb |
 ||||||||
 
-## <a name="email"></a>E-mail
+## <a name="email"></a>Email
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
@@ -83,7 +83,7 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | texto/HTML | Sim | Sim | Sim | Sim | Sim | . htm;. html;. shtml |
 ||||||||
 
-## <a name="image"></a>Image
+## <a name="image"></a>Imagem
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto OCR | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |

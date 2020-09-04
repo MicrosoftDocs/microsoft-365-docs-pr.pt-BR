@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 1/30/2017
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: Saiba como usar o recurso estatísticas de pesquisa para exibir e comparar as estatísticas de várias pesquisas de conteúdo no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30cc893d041819ac1fa2e24c6ecf6178677686b2
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 6f9f6b77a7a557ca363b2a7d56b96ea3d6ccc287
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819031"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358459"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>Exibir as estatísticas de palavras-chave para resultados da Pesquisa de Conteúdo
 
@@ -74,7 +74,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     d. Esta coluna contém a consulta de pesquisa real que é executada pela ferramenta de pesquisa de conteúdo. Observe que a ferramenta adiciona automaticamente alguns componentes adicionais à consulta que você criou. 
 
-    - Quando você procura todo o conteúdo nas caixas de correio (não especificando nenhuma palavra-chave), a consulta de palavras-chave real é `size>=0` para que todos os itens sejam retornados. 
+    - Quando você procura todo o conteúdo nas caixas de correio (não especificando nenhuma palavra-chave), a consulta de palavras-chave real é  `size>=0` para que todos os itens sejam retornados. 
     
      - Quando você pesquisa sites do SharePoint Online e do OneDrive for Business, os dois componentes a seguir são adicionados:
     

@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os limites de caso, limites de indexação e limites de pesquisa em vigor para a solução de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 5666bae5315586ed421ad8d6c748505cda8ae3e6
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: c139480f18e0e6d94aae5a38d5fd636fbc62b2dc
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778457"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358469"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -65,8 +65,8 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 |Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **, \* um** ou **conjunto \* **. <br/> |3D  <br/> |  
 |Máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano **próximo** .  <br/> |10.000 <sup>3</sup> <br/> |
 |Número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.   <br/> |100  <br/> |
-|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1.000  <br/> |
-|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1000 caixas de correio que contenham itens que correspondam à consulta de pesquisa, somente as primeiras caixas de correio de 1.000 com a maioria dos resultados estarão disponíveis para visualização.<br/> |1.000  <br/> |
+|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1,000  <br/> |
+|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1000 caixas de correio que contenham itens que correspondam à consulta de pesquisa, somente as primeiras caixas de correio de 1.000 com a maioria dos resultados estarão disponíveis para visualização.<br/> |1,000  <br/> |
 |Número máximo de itens de sites do SharePoint e do OneDrive for Business exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.  <br/> |200  <br/> |
 |Número máximo de sites do SharePoint e do OneDrive for Business que podem ser visualizados nos resultados da pesquisa. Se houver mais de 200 sites que contenham itens que correspondam à consulta de pesquisa, somente os primeiros 200 sites com mais resultados estarão disponíveis para visualização.  <br/> |200  <br/> |
 |Número máximo de itens por caixa de correio de pasta pública exibida na página de visualização para pesquisas.  <br/> |100  <br/> |

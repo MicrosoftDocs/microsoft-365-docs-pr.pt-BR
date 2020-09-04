@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como começar a usar a descoberta eletrônica principal no Microsoft 365. Depois de atribuir permissões de descoberta eletrônica e criar uma ocorrência, você pode adicionar membros, criar isenções de descoberta eletrônica e, em seguida, procurar e exportar dados relevantes à sua investigação.
-ms.openlocfilehash: 5faae81eb81ce8c69e3ae801d153c664ac152bda
-ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
+ms.openlocfilehash: 94c85987be4cbc5da7a378abb7ea74294f6fe740
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280541"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357909"
 ---
 # <a name="get-started-with-core-ediscovery"></a>Introdução à Descoberta Eletrônica Central
 

@@ -6,18 +6,18 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Você precisa habilitar o suporte do ClickOnce para usar a versão mais recente do Microsoft Edge para baixar os resultados da pesquisa da pesquisa de conteúdo e da descoberta eletrônica no centro de segurança e conformidade.
-ms.openlocfilehash: c48e3fb04747306693364a2cdbc6f18047a0fd9e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 317e19c81a606565fcb18f3256fd5bac007747e1
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632376"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357571"
 ---
 # <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Usar a ferramenta de exportação de descoberta eletrônica no Microsoft Edge
 
@@ -29,15 +29,15 @@ Como resultado de alterações recentes na versão mais recente do Microsoft Edg
 
 2. Se o valor existente for definido como **padrão** ou **desabilitado** na lista suspensa, altere-o para **habilitado**.
 
-   ![](../media/ClickOnceimage1.png)
+   ![Selecionar habilitado na lista suspensa](../media/ClickOnceimage1.png)
 
 3. Role para baixo até a parte inferior da janela do navegador e clique em **reiniciar** para reiniciar a borda.
 
-   ![](../media/ClickOnceimage2.png)
+   ![Clique em reiniciar](../media/ClickOnceimage2.png)
 
 **Observação:** As organizações podem usar a política de grupo para desabilitar o suporte do ClickOnce. Para verificar se há uma política organizacional para o suporte do ClickOnce, acesse **Edge://Policy**. A captura de tela a seguir mostra que o ClickOnce está habilitado em toda a organização. Se esse valor de política for definido como **false**, você precisará entrar em contato com um administrador na sua organização.
 
-![](../media/ClickOnceimage3.png)
+![Lista de políticas organizacionais de borda](../media/ClickOnceimage3.png)
 
 ## <a name="install-and-run-the-ediscovery-export-tool"></a>Instalar e executar a ferramenta de exportação de descoberta eletrônica
 

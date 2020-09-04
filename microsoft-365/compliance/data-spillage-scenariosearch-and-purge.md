@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Use as ferramentas de descoberta eletrônica e de pesquisa para gerenciar e responder a um incidente de derramamento de dados em sua organização.
-ms.openlocfilehash: 4246460f2f7d7fdc41754fc2acd3125601bb5f79
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: bb342eef057fefafe98de274851ad14e9c588dbe
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292447"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357561"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>série de soluções de descoberta eletrônica: cenário de derramamento de dados-pesquisa e limpeza
 
@@ -110,7 +110,7 @@ Depois de verificar os resultados da pesquisa, talvez você queira compartilhar 
  
     ![Na página Exportar, clique em exportar e em "baixar relatório"](../media/O365-eDiscoverySolutions-DataSpillage-ExportReport2.png)
 
-O relatório de **Resumo de exportação** contém o número de locais encontrados com resultados e o tamanho dos resultados da pesquisa. Você pode usá-lo para comparar com o relatório gerado após a exclusão e fornecer uma prova de exclusão. O relatório de **resultados** contém um resumo mais detalhado dos resultados da pesquisa, incluindo o assunto, o remetente, os destinatários, se o email foi lido, as datas e o tamanho de cada mensagem. Se qualquer um dos detalhes neste relatório contiver os dados reais derramados, certifique-se de excluir permanentemente o arquivo Results. csv quando a investigação estiver concluída.
+O relatório de **Resumo de exportação** contém o número de locais encontrados com resultados e o tamanho dos resultados da pesquisa. Você pode usá-lo para comparar com o relatório gerado após a exclusão e fornecer uma prova de exclusão. O relatório de **resultados** contém um resumo mais detalhado dos resultados da pesquisa, incluindo o assunto, o remetente, os destinatários, se o email foi lido, as datas e o tamanho de cada mensagem. Se qualquer um dos detalhes neste relatório contiver dados reais derramados, certifique-se de excluir permanentemente o arquivo de Results.csv quando a investigação estiver concluída.
 
 Para obter mais informações sobre como exportar relatórios, consulte [exportar um relatório de pesquisa de conteúdo](export-a-content-search-report.md).
     
@@ -176,7 +176,7 @@ Usando os locais da caixa de correio que você coletou e preparou na etapa 6 e a
 Para excluir as mensagens derramadas, Confira as etapas 2 & 3 em [Pesquisar e excluir mensagens de email](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)
 
 > [!IMPORTANT]
-> Os itens de email em um conjunto de revisão em um caso de descoberta eletrônica avançada não podem ser excluídos usando os procedimentos deste artigo. Isso ocorre porque os itens em um conjunto de revisão são cópias dos itens no serviço em tempo real que são copiados e armazenados em um local de armazenamento do Azure. Isso significa que eles não serão retornados por uma pesquisa de conteúdo criada na etapa 3. Para excluir itens em um conjunto de revisão, você deve excluir a ocorrência de descoberta eletrônica avançada que contém o conjunto de revisão. Para obter mais informações, consulte [fechar ou excluir uma ocorrência de descoberta eletrônica avançada](close-or-delete-case.md).
+> Os itens de e-mail em um conjunto de revisões em um caso de Descoberta eletrônica avançada não podem ser excluídos usando os procedimentos deste artigo. Isso ocorre porque os itens em um conjunto de revisão são cópias dos itens no serviço em tempo real que são copiados e armazenados em um local de armazenamento do Azure. Isso significa que eles não serão retornados por uma pesquisa de conteúdo criada na etapa 3. Para excluir itens em um conjunto de revisões, é necessário excluir o caso de Descoberta eletrônica avançada que contém o conjunto de revisões. Para obter mais informações, consulte [Fechar ou excluir um caso de descoberta eletrônica avançado](close-or-delete-case.md).
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>Etapa 8: verificar, fornecer uma prova de exclusão e auditoria
 

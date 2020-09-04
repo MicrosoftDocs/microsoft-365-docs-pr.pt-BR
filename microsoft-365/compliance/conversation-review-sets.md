@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como usar o recurso de reconstrução de conversa em descoberta eletrônica avançada para reconstruir, revisar e exportar conversas encadeadas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45cf4bdbf0956ee28e75878b7db5ec84b81c7230
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: bf5c39f567240b58546dbeb353e3e461e9b69e48
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035489"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358339"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Analisar conversas na descoberta eletrônica avançada 
 
@@ -132,7 +132,7 @@ Em um conjunto de revisão de conversa, você pode usar as seguintes opções pa
 
 Em um conjunto de revisão de conversa, você pode definir as seguintes opções para exportar conversas:
 
-![Exportar](../media/export.png)
+![Opções de exportação para conversas](../media/export.png)
 
 a. Opções de metadados
 

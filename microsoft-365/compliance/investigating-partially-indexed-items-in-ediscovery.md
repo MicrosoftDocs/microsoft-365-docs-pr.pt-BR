@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 1/26/2018
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como gerenciar itens parcialmente indexados (ou não indexados) do Exchange, SharePoint e OneDrive em sua organização.
-ms.openlocfilehash: ed85a9351aad340c5840b6b9b9ea6e55833ed527
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4c2da954316450e22f481f1a5093077be79cc67e
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817520"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357373"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Investigar itens parcialmente indexados na descoberta eletrônica
 
@@ -43,13 +43,13 @@ Embora varie, a maioria dos clientes da organização tem menos de 1% do conteú
   
 ## <a name="why-does-the-partially-indexed-item-count-change-for-a-search"></a>Por que a contagem de itens parcialmente indexados é alterada para uma pesquisa?
 
-Após executar uma pesquisa de conteúdo no centro de conformidade de & de segurança, o número total e o tamanho de itens parcialmente indexados nos locais que foram pesquisados são listados nas estatísticas de resultados de pesquisa que são exibidas nas estatísticas detalhadas da pesquisa. Observe que são chamados de *itens não indexados* nas estatísticas de pesquisa. Veja algumas coisas que afetarão o número de itens parcialmente indexados retornados nos resultados da pesquisa: 
+Após executar uma pesquisa de conteúdo no centro de conformidade de & de segurança, o número total e o tamanho de itens parcialmente indexados nos locais que foram pesquisados são listados nas estatísticas de resultados de pesquisa que são exibidas nas estatísticas detalhadas da pesquisa. Observe que são chamados de  *itens não indexados*  nas estatísticas de pesquisa. Veja algumas coisas que afetarão o número de itens parcialmente indexados retornados nos resultados da pesquisa: 
   
 - Se um item for parcialmente indexado e corresponder à consulta de pesquisa, ele será incluído na contagem (e no tamanho) dos itens de resultado de pesquisa e dos itens parcialmente indexados. No entanto, quando os resultados da mesma pesquisa são exportados, o item é incluído somente com o conjunto de resultados de pesquisa; Ele não está incluído como um item parcialmente indexado.
     
 - Se você especificar um intervalo de datas para uma consulta de pesquisa (incluindo-a na consulta de palavra-chave ou usando uma condição), qualquer item parcialmente indexado que não coincida com o intervalo de datas não será incluído na contagem de itens parcialmente indexados. Somente os itens parcialmente indexados que estão no intervalo de datas são incluídos na contagem de itens parcialmente indexados.
     
- **Observação:** Os itens parcialmente indexados localizados nos sites do SharePoint e do OneDrive *não são* incluídos na estimativa de itens parcialmente indexados que são exibidos nas estatísticas detalhadas da pesquisa. No entanto, os itens parcialmente indexados podem ser exportados quando você exporta os resultados de uma pesquisa de conteúdo. Por exemplo, se você só pesquisa sites em uma pesquisa de conteúdo, o número estimado de itens parcialmente indexados será zero. 
+ **Observação:** Os itens parcialmente indexados localizados nos sites do SharePoint e do OneDrive  *não são*  incluídos na estimativa de itens parcialmente indexados que são exibidos nas estatísticas detalhadas da pesquisa. No entanto, os itens parcialmente indexados podem ser exportados quando você exporta os resultados de uma pesquisa de conteúdo. Por exemplo, se você só pesquisa sites em uma pesquisa de conteúdo, o número estimado de itens parcialmente indexados será zero. 
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>Calculando a taxa de itens parcialmente indexados em sua organização
 
@@ -95,7 +95,7 @@ Marcas de erro são comparadas de duas partes de informação, o erro e o tipo d
 ```
 
    
- `parseroutputsize`é o erro e `xls` é o tipo de arquivo do arquivo no qual o erro ocorreu. Nos casos em que o tipo de arquivo não foi reconhecido ou o tipo de arquivo não se aplica ao erro, você verá o valor `noformat` no lugar do tipo de arquivo. 
+ `parseroutputsize` é o erro e  `xls` é o tipo de arquivo do arquivo no qual o erro ocorreu. Nos casos em que o tipo de arquivo não foi reconhecido ou o tipo de arquivo não se aplica ao erro, você verá o valor  `noformat` no lugar do tipo de arquivo. 
   
 Veja a seguir uma lista de erros de indexação e uma descrição da possível causa do erro.
   
@@ -118,7 +118,7 @@ Veja a seguir uma lista de erros de indexação e uma descrição da possível c
 | `retrieverrms` <br/> |O recuperador de conteúdo falhou ao decodificar uma mensagem protegida por RMS.  <br/> |
 | `wordbreakertruncated` <br/> |Muitas palavras foram identificadas no documento durante a indexação. Processamento da propriedade parado ao atingir o limite, e a propriedade será truncada.  <br/> |
    
-Os campos de erro descrevem quais campos são afetados pelo erro de processamento listado no campo marcas de erro. Se você estiver pesquisando uma propriedade como `subject` ou `participants` , os erros no corpo da mensagem não afetarão os resultados da pesquisa. Isso pode ser útil ao determinar exatamente quais itens parcialmente indexados você talvez precise investigar.
+Os campos de erro descrevem quais campos são afetados pelo erro de processamento listado no campo marcas de erro. Se você estiver pesquisando uma propriedade como  `subject` ou  `participants` , os erros no corpo da mensagem não afetarão os resultados da pesquisa. Isso pode ser útil ao determinar exatamente quais itens parcialmente indexados você talvez precise investigar.
   
 ## <a name="using-a-powershell-script-to-determine-your-organizations-exposure-to-partially-indexed-email-items"></a>Usando um script do PowerShell para determinar a exposição da sua organização a itens de email parcialmente indexados
 
@@ -170,7 +170,7 @@ As etapas a seguir mostram como executar um script do PowerShell que pesquisa to
   
 ```
 
-2. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://go.microsoft.com/fwlink/p/?linkid=627084).
+2. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627084).
     
 3. Em segurança & centro de conformidade do PowerShell, vá para a pasta onde você salvou o script na etapa 1 e execute o script; por exemplo:
 

@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 ms.collection:
 - SPO_Content
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
 description: Saiba como executar um script para adicionar caixas de correio & sites do OneDrive for Business a um novo bloqueio associado a uma ocorrência de descoberta eletrônica no centro de conformidade & de segurança.
-ms.openlocfilehash: 55ad3c8c8a4a6b77df4c2d3409fee6e5b43cc5f6
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 454fd4ea4517a46410c9d0922cc83b141fdbd893
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391481"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357671"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>Usar um script para adicionar usuários a uma retenção em um caso de descoberta eletrônica principal
 
@@ -81,7 +81,7 @@ Aqui está um comando do PowerShell (executado usando o PowerShell remoto conect
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > HoldUsers.txt
 ```
 
-Depois de executar esse comando, abra o arquivo de texto e remova o cabeçalho que contém o nome da propriedade `PrimarySmtpAddress` . Em seguida, remova todos os endereços de email, exceto aqueles para os usuários que você deseja adicionar à isenção que você criará na etapa 3. Certifique-se de que não haja linhas em branco antes ou depois da lista de endereços de email.
+Depois de executar esse comando, abra o arquivo de texto e remova o cabeçalho que contém o nome da propriedade  `PrimarySmtpAddress` . Em seguida, remova todos os endereços de email, exceto aqueles para os usuários que você deseja adicionar à isenção que você criará na etapa 3. Certifique-se de que não haja linhas em branco antes ou depois da lista de endereços de email.
   
 ## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a>Etapa 3: executar o script para criar um bloqueio e adicionar usuários
 
@@ -89,7 +89,7 @@ Quando você executar o script nesta etapa, ele solicitará as seguintes informa
   
 - **Suas credenciais de usuário:** O script usará suas credenciais para se conectar ao centro de conformidade de & de segurança com o PowerShell remoto. Ele também usará essas credenciais para acessar o SharePoint Online para obter as URLs do OneDrive for Business para a lista de usuários.
 
-- **Nome do seu domínio de meu site:** O domínio do meu site é o domínio que contém todos os sites do OneDrive for Business em sua organização. Por exemplo, se a URL do seu domínio de meu site for **https://contoso-my.sharepoint.com** , você deve inserir `contoso` quando o script solicitar o nome do seu domínio de meu site.
+- **Nome do seu domínio de meu site:** O domínio do meu site é o domínio que contém todos os sites do OneDrive for Business em sua organização. Por exemplo, se a URL do seu domínio de meu site for **https://contoso-my.sharepoint.com** , você deve inserir  `contoso` quando o script solicitar o nome do seu domínio de meu site.
 
 - **Nome do caso:** O nome de um caso existente. O script criará uma nova retenção associada a esse caso.
 

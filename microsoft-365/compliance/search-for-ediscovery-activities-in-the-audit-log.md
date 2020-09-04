@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Saiba quais eventos são registrados quando os usuários atribuíram permissões de descoberta eletrônica realizam pesquisa de conteúdo e tarefas principais de descoberta eletrônica no centro de conformidade de & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 671fdebd75dfdaaf09deebf320b9fe4cfab0ca1c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 529e1a0ac3dc66ac15bd1b3fbcde466fb36d5f4e
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818870"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357541"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Procurar atividades de descoberta eletrônica no log de auditoria
 
@@ -90,9 +90,9 @@ A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descobert
 |Associação de ocorrência de descoberta eletrônica alterada  <br/> |CaseMemberUpdated  <br/> |Update-ComplianceCaseMember  <br/> |A lista de membros de um caso de descoberta eletrônica foi alterada. Essa atividade é registrada quando todos os membros são substituídos por um grupo de novos usuários. Se um único membro for adicionado ou removido, a operação CaseMemberAdded ou CaseMemberRemoved será registrada.  <br/> |
 |Filtro de permissões de pesquisa alterado  <br/> |SearchPermissionUpdated  <br/> |Set-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi alterado.  <br/> |
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica alterada  <br/> |HoldUpdated  <br/> |Set-CaseHoldRule  <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi alterado. As alterações possíveis incluem a edição da consulta ou do intervalo de datas de uma retenção baseada em consulta.  <br/> |
-|Item de visualização de pesquisa de conteúdo baixado  <br/> |PreviewItemDownloaded  <br/> |N/D  <br/> |Um usuário baixou um item para seu computador local (clicando no link **baixar item original** ) ao visualizar os resultados da pesquisa.  <br/> |
-|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |N/D  <br/> |Um usuário clicou em **Visualizar resultados da pesquisa** para exibir a página Visualizar resultados da pesquisa, que lista até 1000 itens dos resultados de uma pesquisa de conteúdo.  <br/> |
-|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |N/D  <br/> |Um gerente de descoberta eletrônica exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo baixado  <br/> |PreviewItemDownloaded  <br/> |Não disponível  <br/> |Um usuário baixou um item para seu computador local (clicando no link **baixar item original** ) ao visualizar os resultados da pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |Não disponível  <br/> |Um usuário clicou em **Visualizar resultados da pesquisa** para exibir a página Visualizar resultados da pesquisa, que lista até 1000 itens dos resultados de uma pesquisa de conteúdo.  <br/> |
+|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |Não disponível  <br/> |Um gerente de descoberta eletrônica exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
 |Pesquisa de conteúdo criada  <br/> |SearchCreated  <br/> |New-ComplianceSearch  <br/> |Uma nova pesquisa de conteúdo foi criada.  <br/> |
 |Administrador de descoberta eletrônica criado  <br/> |CaseAdminAdded  <br/> |Add-eDiscoveryCaseAdmin  <br/> |Um usuário foi adicionado como um administrador de descoberta eletrônica na organização.  <br/> |
 |Ocorrência de descoberta eletrônica criada  <br/> |CaseAdded  <br/> |New-ComplianceCase  <br/> |Um caso de descoberta eletrônica foi criado. Quando um caso é criado, você só precisa dar um nome a ele. Outras tarefas relacionadas a maiúsculas e minúsculas, como a adição de membros, a criação de isenções e a criação de pesquisas de conteúdo associadas ao caso de eventos adicionais serem registrados.  <br/> |
@@ -103,8 +103,8 @@ A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descobert
 |Caso de descoberta eletrônica excluída  <br/> |CaseRemoved  <br/> |Remove-ComplianceCase  <br/> |Uma ocorrência de descoberta eletrônica foi excluída. Qualquer isenção associada ao caso deve ser removido para que o caso possa ser excluído.  <br/> |
 |Filtro de permissões de pesquisa excluído  <br/> |SearchPermissionRemoved  <br/> |Remove-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi excluído.  <br/> |
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica excluída  <br/> |HoldRemoved  <br/> |Remove-CaseHoldRule  <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi excluído. Remover a consulta da retenção geralmente é o resultado da exclusão de uma isenção. Quando uma consulta de bloqueio ou retenção é excluída, os locais de conteúdo que estavam em retenção são lançados.  <br/> |
-|Exportação baixa de pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |N/D  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo para o computador local. Uma **exportação iniciada da atividade de pesquisa de conteúdo** deve ser iniciada para que os resultados da pesquisa possam ser baixados.  <br/> |
-|Resultados visualizados da pesquisa de conteúdo  <br/> |SearchPreviewed  <br/> |N/D  <br/> |Um usuário visualize os resultados de uma pesquisa de conteúdo.  <br/> |
+|Exportação baixa de pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |Não disponível  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo para o computador local. Uma **exportação iniciada da atividade de pesquisa de conteúdo** deve ser iniciada para que os resultados da pesquisa possam ser baixados.  <br/> |
+|Resultados visualizados da pesquisa de conteúdo  <br/> |SearchPreviewed  <br/> |Não disponível  <br/> |Um usuário visualize os resultados de uma pesquisa de conteúdo.  <br/> |
 |Resultados excluídos da pesquisa de conteúdo  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |Um usuário limpou os resultados de uma pesquisa de conteúdo executando o comando **New-ComplianceSearchAction-Purge** .  <br/> |
 |Análise de pesquisa de conteúdo removida  <br/> |RemovedSearchResultsSentToZoom  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de preparação de pesquisa de conteúdo (para preparar os resultados da pesquisa para descoberta eletrônica avançada) foi excluída. Se a ação de preparação tiver menos de duas semanas, os resultados da pesquisa que foram preparados para descoberta eletrônica avançada foram excluídos da área de armazenamento do Microsoft Azure. Se a ação de preparação tiver mais de duas semanas, esse evento indicará que somente a ação de preparação correspondente foi excluída.  <br/> |
 |Exportação de pesquisa de conteúdo removida  <br/> |RemovedSearchExported  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de exportação de pesquisa de conteúdo foi excluída. Se a ação de exportação tiver menos de duas semanas, os resultados da pesquisa que foram carregados para a área de armazenamento do Microsoft Azure foram excluídos. Se a ação de exportação tiver mais de duas semanas, esse evento indicará que somente a ação de exportação correspondente foi excluída.  <br/> |
@@ -214,7 +214,7 @@ A tabela a seguir descreve as propriedades que são incluídas quando você clic
 |NonPIIParameters  <br/> |Uma lista dos parâmetros (sem qualquer valor) que foram usados com o cmdlet identificado na Propriedade Operation. Os parâmetros listados nesta propriedade são os mesmos que os listados na Propriedade Parameters.  <br/> |
 |ObjectId  <br/> |O GUID ou o nome do objeto (por exemplo, uma pesquisa de conteúdo ou um caso de descoberta eletrônica) que foi criado, alterado ou excluído pela atividade listada na Propriedade Operation. Esse objeto também é identificado na coluna item nos resultados de pesquisa do log de auditoria.  <br/> |
 |ObjectType  <br/> |O tipo de objeto de descoberta eletrônica que o usuário criou, excluiu ou modificou; por exemplo, uma ação de pesquisa de conteúdo (Visualizar, exportar ou limpar), uma ocorrência de descoberta eletrônica ou uma pesquisa de conteúdo.  <br/> |
-|Operation  <br/> |O nome da operação que corresponde à atividade de descoberta eletrônica executada.  <br/> |
+|Operação  <br/> |O nome da operação que corresponde à atividade de descoberta eletrônica executada.  <br/> |
 |OrganizationId  <br/> |O GUID da sua organização do Microsoft 365.  <br/> |
 |Parâmetros  <br/> |O nome e o valor dos parâmetros que foram usados com o cmdlet correspondente.  <br/> |
 |PublicFolderLocations  <br/> |Os locais de pasta pública no Exchange Online que estão incluídos em uma pesquisa de conteúdo ou colocados em retenção em uma ocorrência de descoberta eletrônica.  <br/> |

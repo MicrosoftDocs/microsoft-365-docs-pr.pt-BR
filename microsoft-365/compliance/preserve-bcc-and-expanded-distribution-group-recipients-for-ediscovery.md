@@ -7,17 +7,17 @@ author: markjjo
 manager: laurawi
 ms.date: 6/19/2017
 audience: ITPro
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: Bloqueio in-loco, retenção de litígio e políticas de retenção do Microsoft 365 permitem preservar o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery.
-ms.openlocfilehash: 07959edc89aa9d3335b9af501743eae4a11a6aa1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 62029ff742f9fe4aec1fed23d74b01b145da6cfe
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634859"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358479"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>Preservar destinatários Cco e de grupos de distribuição expandidos para Descoberta Eletrônica
   
@@ -70,38 +70,38 @@ Cenário 2: Bob envia um email para John (para/CC) e Jack (Cco diretamente ou in
    
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
- **P. quando e onde as informações de destinatário Cco são armazenadas?**
+ **T. Quando e onde as informações de destinatário Cco são armazenadas?**
   
 R. As informações de destinatário Cco são preservadas por padrão na mensagem original na caixa de correio do remetente. Se o destinatário Cco for um grupo de distribuição, a associação de grupo de distribuição só será expandida se a caixa de correio do remetente estiver em espera ou atribuída a uma política de retenção do Microsoft 365.
   
- **P. quando e onde a lista de destinatários de grupos de distribuição expandidos está armazenada?**
+ **T. Quando e onde a lista de destinatários de grupos de distribuição expandidos está armazenada?**
   
 R. A associação de grupo é expandida no momento em que a mensagem é enviada. A lista de membros do grupo de distribuição expandida é armazenada na mensagem original na caixa de correio do remetente. A caixa de correio do remetente deve estar em bloqueio in-loco, retenção de litígio ou atribuído a uma política de retenção do Microsoft 365.
   
- **P. os destinatários para/CC podem ver quais destinatários foram estava?**
+ **T. Os destinatários para/CC podem ver quais destinatários foram estava?**
   
 R. Não. Essas informações não estão incluídas em cabeçalhos de mensagem e não são visíveis para destinatários para/CC. O remetente pode ver o campo Cco armazenado na mensagem original armazenada na caixa de correio. Os gerentes de conformidade podem ver essas informações ao pesquisar a caixa de correio do remetente.
   
- **P. como garantir que os destinatários de grupos de distribuição expandidos sejam sempre preservados?**
+ **T. Como posso garantir que os destinatários do grupo de distribuição expandida sejam sempre preservados?**
   
 R. Para garantir que os membros do grupo de distribuição expandido sejam sempre preservados com uma mensagem, [Coloque todas as caixas de correio em espera](https://technet.microsoft.com/library/4c141604-3210-44cc-b98e-f3e0f15613b8.aspx) ou crie uma política de retenção do Microsoft 365 em toda a organização. 
   
- **P. para quais tipos de grupos há suporte?**
+ **T. Para quais tipos de grupos há suporte?**
   
 R. Há suporte para grupos de distribuição, grupos de segurança habilitados para email e grupos de distribuição dinâmicos. 
   
- **P. há um limite no número de destinatários do grupo de distribuição que são expandidos e armazenados na mensagem?**
+ **T. Há um limite no número de destinatários do grupo de distribuição que são expandidos e armazenados na mensagem?**
   
 R. Até 10.000 membros de um grupo de distribuição é preservado.
   
- **P. há suporte para grupos de distribuição aninhados?**
+ **T. Há suporte para grupos de distribuição aninhados?**
   
 R. Sim, 25 níveis de grupos de distribuição aninhados são expandidos.
   
- **P. onde as informações de destinatário do grupo de distribuição Cco e expandidas estão visíveis?**
+ **T. Onde as informações de destinatário do grupo de distribuição Cco e expandidas estão visíveis?**
   
 R. As informações de destinatários de grupos de distribuição Cco e expandidas são visíveis aos responsáveis pela conformidade ao realizar uma pesquisa de descoberta eletrônica. Os destinatários de grupos de distribuição Cco e expandidos são incluídos nos resultados de pesquisa copiados para uma caixa de correio de descoberta ou exportados para um arquivo PST e no log de descoberta eletrônica incluído nos resultados da pesquisa. As informações de destinatário Cco também estão disponíveis na visualização de pesquisa.
   
- **P. o que acontece se um membro de um grupo de distribuição estiver oculto da GAL (lista de endereços global) da organização?**
+ **T. O que acontece se um membro de um grupo de distribuição estiver oculto da GAL (lista de endereços global) da organização?**
   
 R. Não há impacto. Se os destinatários estiverem ocultos da GAL, eles ainda serão incluídos na lista de destinatários para o grupo de distribuição expandido.

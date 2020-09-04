@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados da ferramenta de chat ICE para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 019fa80d24c8345f30df9cf16910725cd1c5af2b
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: b6b31c0ef9b083aa6432e35029fc14be1a817733
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255798"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358223"
 ---
 # <a name="set-up-a-connector-to-archive-ice-chat-data-preview"></a>Configurar um conector para arquivar dados de chat de gelo (visualização)
 
@@ -43,7 +43,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Muitas das etapas de implementação necessárias para arquivar dados de chat de gelo são externas para o Microsoft 365 e devem ser concluídas para que você possa criar o conector no centro de conformidade.
+Algumas das etapas de implementação necessárias para arquivar dados de chat de gelo são externas para o Microsoft 365 e devem ser concluídas para que você possa criar o conector no centro de conformidade.
 
 - Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Office 365 e aceite a solicitação. Você deve concluir esta etapa antes de poder criar com êxito o conector de chat ICE na etapa 3.
 

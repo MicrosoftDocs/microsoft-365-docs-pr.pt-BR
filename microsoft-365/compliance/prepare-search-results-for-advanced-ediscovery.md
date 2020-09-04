@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.CustomizeExportWithZoom
 ms.service: O365-seccomp
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Saiba como preparar os resultados de uma pesquisa de conteúdo no centro de conformidade de & de segurança para análise adicional com a ferramenta de descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0f1540e9745351269e019ea95399ce5c636d8b3
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b403987c39d1ddcc1f22fd0abbeba85e60591414
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818760"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358563"
 ---
 # <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Preparar resultados de pesquisa para a Descoberta Eletrônica Avançada (clássico)
 
@@ -50,7 +50,7 @@ Depois que uma pesquisa associada a uma ocorrência de descoberta eletrônica no
     
 - **Codificação preditiva** : permite que você treine o sistema do que você está procurando, permitindo tomar decisões (sobre se algo é relevante ou não) em um pequeno conjunto de documentos. A descoberta eletrônica avançada, em seguida, aplica o aprendizado (com base nas suas diretrizes) durante a análise de todos os documentos no conjunto de dados. Com base nesse aprendizado, a descoberta eletrônica avançada fornece uma classificação de relevância para que você possa decidir quais documentos serão revisados com base em qual documento é o mais provável de ser relevante para o caso. 
     
-- **Exportando dados para aplicativos de revisão** -você pode exportar dados de descoberta eletrônica avançada e do Microsoft 365 depois de concluir a análise e reduzir o conjunto de dados. O pacote de exportação inclui um arquivo CSV que contém as propriedades do conteúdo exportado e dos metadados da análise. Esse pacote de exportação pode ser importado para um aplicativo de análise de descoberta eletrônica. 
+- **Exportando dados para aplicativos de revisão**  -você pode exportar dados de descoberta eletrônica avançada e do Microsoft 365 depois de concluir a análise e reduzir o conjunto de dados. O pacote de exportação inclui um arquivo CSV que contém as propriedades do conteúdo exportado e dos metadados da análise. Esse pacote de exportação pode ser importado para um aplicativo de análise de descoberta eletrônica. 
     
 ## <a name="get-licenses-and-permissions"></a>Obter licenças e permissões
 

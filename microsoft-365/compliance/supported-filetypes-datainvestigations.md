@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Uma tabela que lista os tipos de arquivo com suporte e quais visualizadores eles podem ser exibidos no para investigações de dados (visualização).
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4aef30c3f2bc15c306a7561bab261bdb0bdcace
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 95af625ece261061d6f797b50a382b1905254326
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034535"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357733"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>Tipos de arquivo com suporte em investigações de dados (versão prévia)
 
@@ -40,7 +40,7 @@ As investigações de dados (visualização) dão suporte a vários tipos de arq
 | application/vnd. MS-Outlook | Produtividade | Não | Não | Não | Não | . msg |
 | application/vnd. MS-Outlook-PST | Produtividade/colaboração | Não | Não | Não | Sim | . pst |
 | application/vnd. ms-PowerPoint | Documento | Sim | Sim | Sim | Não | . ppt;. PPS;. Pot |
-| application/vnd. MS-Word. Document. macroenabled. 12 | Documento | Sim | Sim | Sim | Não | .docm |
+| Application/vnd.ms-word.document. macroenabled. 12 | Documento | Sim | Sim | Sim | Não | .docm |
 | application/vnd. MS-Word. Template. macroenabled. 12 | Documento | Sim | Sim | Sim | Não | . dotm |
 | application/vnd. Oasis. OpenDocument. Text | Documento | Sim | Sim | Sim | Não | ODT  |
 | application/vnd.openxmlformats-officedocument.presentationml.presentation | Documento | Sim | Sim | Sim | Não | . pptx |
@@ -58,12 +58,12 @@ As investigações de dados (visualização) dão suporte a vários tipos de arq
 | aplicativo/x-mspublisher | Documento | Sim | Sim | Sim | Não | . pub |
 | application/x-rar-compactado | Arquivo morto/contêiner | Não | Não | Não | Sim | . rar |
 | aplicativo/zip | Arquivo morto/contêiner | Não | Não | Não | Sim | .zip |
-| imagem/BMP | Image | Sim | Sim | Sim | Não | .bmp |
-| imagem/EMF | Image | Sim | Sim | Sim | Não | . EMF |
+| imagem/BMP | Imagem | Sim | Sim | Sim | Não | .bmp |
+| imagem/EMF | Imagem | Sim | Sim | Sim | Não | . EMF |
 | image/gif | Documento | Sim | Sim | Sim | Não | .gif |
-| image/jpeg | Image | Sim | Sim | Sim | Não | . jpg;. jpeg;. dat;. jpgt |
-| image/png | Image | Sim | Sim | Sim | Não | .png |
-| imagem/TIFF | Image | Sim | Sim | Sim | Não | . tif |
+| image/jpeg | Imagem | Sim | Sim | Sim | Não | . jpg;. jpeg;. dat;. jpgt |
+| image/png | Imagem | Sim | Sim | Sim | Não | .png |
+| imagem/TIFF | Imagem | Sim | Sim | Sim | Não | . tif |
 | Image/vnd. dwg | Documento | Sim | Sim | Sim | Não | . dwg;. DXF |
 | imagem/WMF | Documento | Sim | Sim | Sim | Não | . wmf |
 | mensagem/RFC822 | Produtividade/colaboração | Não | Não | Não | Não | .eml |
