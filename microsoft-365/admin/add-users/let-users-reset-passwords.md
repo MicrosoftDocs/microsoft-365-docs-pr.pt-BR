@@ -24,69 +24,73 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: 288613023ee61626bf12f7090ad0ff73139ef06d
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 1684afd1baf32acc6c4245938b2ac7ee024d7374
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780584"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361802"
 ---
-# <a name="let-users-reset-their-own-passwords"></a><span data-ttu-id="b48f7-103">Permitir que os usuários redefinam as próprias senhas</span><span class="sxs-lookup"><span data-stu-id="b48f7-103">Let users reset their own passwords</span></span>
+# <a name="let-users-reset-their-own-passwords"></a><span data-ttu-id="ebd8d-103">Permitir que os usuários redefinam as próprias senhas</span><span class="sxs-lookup"><span data-stu-id="ebd8d-103">Let users reset their own passwords</span></span>
 
-<span data-ttu-id="b48f7-104">Obter Crushed com pessoas solicitando que você redefina suas senhas?</span><span class="sxs-lookup"><span data-stu-id="b48f7-104">Getting crushed with people asking you to reset their passwords?</span></span> <span data-ttu-id="b48f7-105">Como o Microsoft 365 admin, você pode permitir que as pessoas usem a [ferramenta de redefinição de senha de autoatendimento](https://go.microsoft.com/fwlink/p/?LinkId=522677) para que você não precise redefinir senhas para elas.</span><span class="sxs-lookup"><span data-stu-id="b48f7-105">As the Microsoft 365 admin, you can let people use the [self-service password reset tool](https://go.microsoft.com/fwlink/p/?LinkId=522677) so you don't have to reset passwords for them.</span></span> <span data-ttu-id="b48f7-106">Menos trabalho para você!</span><span class="sxs-lookup"><span data-stu-id="b48f7-106">Less work for you!</span></span> 
+<span data-ttu-id="ebd8d-104">Como o Microsoft 365 admin, você pode permitir que as pessoas usem a [ferramenta de redefinição de senha de autoatendimento](https://go.microsoft.com/fwlink/p/?LinkId=522677) para que você não precise redefinir senhas para elas.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-104">As the Microsoft 365 admin, you can let people use the [self-service password reset tool](https://go.microsoft.com/fwlink/p/?LinkId=522677) so you don't have to reset passwords for them.</span></span> <span data-ttu-id="ebd8d-105">Menos trabalho para você!</span><span class="sxs-lookup"><span data-stu-id="ebd8d-105">Less work for you!</span></span>
   
-<span data-ttu-id="b48f7-107">Aqui estão algumas coisas que você precisa saber:</span><span class="sxs-lookup"><span data-stu-id="b48f7-107">Here are a few things you need to know:</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="ebd8d-106">Antes de começar</span><span class="sxs-lookup"><span data-stu-id="ebd8d-106">Before you begin</span></span>
   
-- <span data-ttu-id="b48f7-108">Você obtém redefinição de senha de autoatendimento para usuários em nuvem **gratuitamente** com qualquer plano pago de negócios, educação ou sem fins lucrativos da Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b48f7-108">You get self-service password reset for cloud users **free** with any Microsoft 365 business, education, or nonprofit paid plan.</span></span> <span data-ttu-id="b48f7-109">Ele não funciona com a avaliação da Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b48f7-109">It doesn't work with Microsoft 365 trial.</span></span>
+- <span data-ttu-id="ebd8d-107">Você obtém redefinição de senha de autoatendimento para usuários em nuvem **gratuitamente** com qualquer plano pago de negócios, educação ou sem fins lucrativos da Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-107">You get self-service password reset for cloud users **free** with any Microsoft 365 business, education, or nonprofit paid plan.</span></span> <span data-ttu-id="ebd8d-108">Ele não funciona com a avaliação da Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-108">It doesn't work with Microsoft 365 trial.</span></span>
 
-- <span data-ttu-id="b48f7-p103">Ela usa o Azure. Você obterá automaticamente esse recurso no Azure **gratuitamente** quando realizar essas etapas. Não haverá custos para habilitar a redefinição de senha de autoatendimento se você não usar outros recursos do Azure.</span><span class="sxs-lookup"><span data-stu-id="b48f7-p103">It uses Azure. You'll automatically get this feature in Azure for **free** when you do these steps. It won't cost you anything to turn on self-service password reset if you don't use other Azure features.</span></span>
+- <span data-ttu-id="ebd8d-p103">Ela usa o Azure. Você obterá automaticamente esse recurso no Azure **gratuitamente** quando realizar essas etapas. Não haverá custos para habilitar a redefinição de senha de autoatendimento se você não usar outros recursos do Azure.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-p103">It uses Azure. You'll automatically get this feature in Azure for **free** when you do these steps. It won't cost you anything to turn on self-service password reset if you don't use other Azure features.</span></span>
 
-- <span data-ttu-id="b48f7-113">**Se você estiver usando um Active Directory local**, os dois pontos acima não se aplicam.</span><span class="sxs-lookup"><span data-stu-id="b48f7-113">**If you're using an on-premises Active Directory**, the above two points don't apply.</span></span> <span data-ttu-id="b48f7-114">Em vez disso, você pode configurar isso, mas **requer uma assinatura paga do Azure ad Premium**.</span><span class="sxs-lookup"><span data-stu-id="b48f7-114">Rather, you can set this up but **it requires a paid subscription to Azure AD Premium**.</span></span>
+- <span data-ttu-id="ebd8d-112">**Se você estiver usando um Active Directory local**, os dois pontos acima não se aplicam.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-112">**If you're using an on-premises Active Directory**, the above two points don't apply.</span></span> <span data-ttu-id="ebd8d-113">Em vez disso, você pode configurar isso, mas **requer uma assinatura paga do Azure ad Premium**.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-113">Rather, you can set this up but **it requires a paid subscription to Azure AD Premium**.</span></span>
 
-<span data-ttu-id="b48f7-115">Assista a um pequeno vídeo sobre como permitir que os usuários redefinam suas próprias senhas.</span><span class="sxs-lookup"><span data-stu-id="b48f7-115">Watch a short video about letting users reset their own passwords.</span></span> <br><br>
+<span data-ttu-id="ebd8d-114">Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-114">This article is for people who set password expiration policy for a business, school, or nonprofit.</span></span> <span data-ttu-id="ebd8d-115">Para concluir estas etapas, você precisa entrar com sua conta de administrador do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-115">To complete these steps, you need to sign in with your Microsoft 365 admin account.</span></span> [<span data-ttu-id="ebd8d-116">O que é uma conta de administrador?</span><span class="sxs-lookup"><span data-stu-id="ebd8d-116">What's an admin account?</span></span>](../admin-overview/admin-overview.md)
+
+<span data-ttu-id="ebd8d-117">Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-117">You must be an [global admin or password administrator](about-admin-roles.md) to perform these steps.</span></span>
+
+## <a name="watch-let-users-reset-their-own-passwords"></a><span data-ttu-id="ebd8d-118">Watch: permitir que os usuários redefinam suas próprias senhas</span><span class="sxs-lookup"><span data-stu-id="ebd8d-118">Watch: Let users reset their own passwords</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-<span data-ttu-id="b48f7-116">Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="b48f7-116">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="ebd8d-119">Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="ebd8d-119">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-## <a name="let-people-reset-their-own-passwords"></a><span data-ttu-id="b48f7-117">Permitir que as pessoas redefinam suas próprias senhas</span><span class="sxs-lookup"><span data-stu-id="b48f7-117">Let people reset their own passwords</span></span>
+## <a name="steps-let-people-reset-their-own-passwords"></a><span data-ttu-id="ebd8d-120">Etapas: permitir que as pessoas redefinam suas próprias senhas</span><span class="sxs-lookup"><span data-stu-id="ebd8d-120">Steps: Let people reset their own passwords</span></span>
 
-<span data-ttu-id="b48f7-118">Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.</span><span class="sxs-lookup"><span data-stu-id="b48f7-118">These steps turn on self-service password reset for everyone in your business.</span></span>
+<span data-ttu-id="ebd8d-121">Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-121">These steps turn on self-service password reset for everyone in your business.</span></span>
   
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="b48f7-119">No <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>, vá para a página Configurações da organização de **configurações** > **Org settings** .</span><span class="sxs-lookup"><span data-stu-id="b48f7-119">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Settings** > **Org settings** page.</span></span>
+1. <span data-ttu-id="ebd8d-122">No <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>, vá para a página Configurações da organização de **configurações** > **Org settings** .</span><span class="sxs-lookup"><span data-stu-id="ebd8d-122">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Settings** > **Org settings** page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="b48f7-120">No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **configurações** de \> \*\* &amp; privacidade de segurança\*\* .</span><span class="sxs-lookup"><span data-stu-id="b48f7-120">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>, go to the **Settings** \> **Security &amp; privacy** page.</span></span>
+1. <span data-ttu-id="ebd8d-123">No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **configurações** de \> \*\* &amp; privacidade de segurança\*\* .</span><span class="sxs-lookup"><span data-stu-id="ebd8d-123">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>, go to the **Settings** \> **Security &amp; privacy** page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="b48f7-121">No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Settings** \> página de privacidade de segurança **das configurações** de configurações \> \*\* &amp; \*\* .</span><span class="sxs-lookup"><span data-stu-id="b48f7-121">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>, go to the **Settings** \>**Settings** \> **Security &amp; privacy** page.</span></span>
+1. <span data-ttu-id="ebd8d-124">No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Settings** \> página de privacidade de segurança **das configurações** de configurações \> \*\* &amp; \*\* .</span><span class="sxs-lookup"><span data-stu-id="ebd8d-124">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>, go to the **Settings** \>**Settings** \> **Security &amp; privacy** page.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="b48f7-122">Na parte superior da página **configurações da organização** , selecione a guia **privacidade & segurança** .</span><span class="sxs-lookup"><span data-stu-id="b48f7-122">At the top of the **Org settings** page, select the **Security & Privacy** tab.</span></span>
+2. <span data-ttu-id="ebd8d-125">Na parte superior da página **configurações da organização** , selecione a guia **privacidade & segurança** .</span><span class="sxs-lookup"><span data-stu-id="ebd8d-125">At the top of the **Org settings** page, select the **Security & Privacy** tab.</span></span>
   
-3. <span data-ttu-id="b48f7-123">Selecione **redefinição de senha de autoatendimento**.</span><span class="sxs-lookup"><span data-stu-id="b48f7-123">Select **Self-service Password Reset**.</span></span>
+3. <span data-ttu-id="ebd8d-126">Selecione **redefinição de senha de autoatendimento**.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-126">Select **Self-service Password Reset**.</span></span>
 
-4. <span data-ttu-id="b48f7-124">Em **redefinição de senha de autoatendimento**, selecione **ir para o portal do Azure para ativar a redefinição de senha de autoatendimento**.</span><span class="sxs-lookup"><span data-stu-id="b48f7-124">Under **Self-service password reset**, select **Go to the Azure portal to turn on self-service password reset**.</span></span>
+4. <span data-ttu-id="ebd8d-127">Em **redefinição de senha de autoatendimento**, selecione **ir para o portal do Azure para ativar a redefinição de senha de autoatendimento**.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-127">Under **Self-service password reset**, select **Go to the Azure portal to turn on self-service password reset**.</span></span>
 
-5. <span data-ttu-id="b48f7-125">No painel de navegação esquerdo, selecione **usuários**e, em seguida, em **usuários | Página todos os usuários** , selecione **redefinição de senha**.</span><span class="sxs-lookup"><span data-stu-id="b48f7-125">In the left navigation pane, select **Users**, and then, on the **Users | All users** page, select **Password reset**.</span></span>
+5. <span data-ttu-id="ebd8d-128">No painel de navegação esquerdo, selecione **usuários**e, em seguida, em **usuários | Página todos os usuários** , selecione **redefinição de senha**.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-128">In the left navigation pane, select **Users**, and then, on the **Users | All users** page, select **Password reset**.</span></span>
   
-6. <span data-ttu-id="b48f7-126">Na página **Propriedades** , selecione **tudo** para habilitá-lo para todas as pessoas em sua empresa e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="b48f7-126">On the **Properties** page, select **All** to enable it for everyone in your business, and then select **Save**.</span></span>
+6. <span data-ttu-id="ebd8d-129">Na página **Propriedades** , selecione **tudo** para habilitá-lo para todas as pessoas em sua empresa e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-129">On the **Properties** page, select **All** to enable it for everyone in your business, and then select **Save**.</span></span>
   
-7. <span data-ttu-id="b48f7-127">Quando seus usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir sua senha no futuro.</span><span class="sxs-lookup"><span data-stu-id="b48f7-127">When your users sign in, they will be prompted to enter additional contact information that will help them reset their password in the future.</span></span>
+7. <span data-ttu-id="ebd8d-130">Quando seus usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir sua senha no futuro.</span><span class="sxs-lookup"><span data-stu-id="ebd8d-130">When your users sign in, they will be prompted to enter additional contact information that will help them reset their password in the future.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="b48f7-128">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="b48f7-128">Related articles</span></span>
+## <a name="related-content"></a><span data-ttu-id="ebd8d-131">Conteúdo relacionado</span><span class="sxs-lookup"><span data-stu-id="ebd8d-131">Related content</span></span>
 
-[<span data-ttu-id="b48f7-129">Definir a política de expiração de senha para sua organização</span><span class="sxs-lookup"><span data-stu-id="b48f7-129">Set the password expiration policy for your organization</span></span>](../manage/set-password-expiration-policy.md)
-  
-[<span data-ttu-id="b48f7-130">Definir a senha de um usuário individual para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="b48f7-130">Set an individual user's password to never expire</span></span>](set-password-to-never-expire.md)
+[<span data-ttu-id="ebd8d-132">Definir a política de expiração de senha para sua organização</span><span class="sxs-lookup"><span data-stu-id="ebd8d-132">Set the password expiration policy for your organization</span></span>](../manage/set-password-expiration-policy.md)
 
-[<span data-ttu-id="b48f7-131">Vídeos de treinamento do Microsoft 365 Business </span><span class="sxs-lookup"><span data-stu-id="b48f7-131">Microsoft 365 Business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="ebd8d-133">Definir a senha de um usuário individual para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="ebd8d-133">Set an individual user's password to never expire</span></span>](set-password-to-never-expire.md)
+
+[<span data-ttu-id="ebd8d-134">Vídeos de treinamento do Microsoft 365 Business </span><span class="sxs-lookup"><span data-stu-id="ebd8d-134">Microsoft 365 Business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
