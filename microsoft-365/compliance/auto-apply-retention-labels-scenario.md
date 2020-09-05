@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Como você pode usar os rótulos de retenção para gerenciar o ciclo de vida dos documentos no SharePoint pelo uso de metadados para classificar conteúdo, aplicar automaticamente os rótulos e usar a retenção baseada em evento para começar o período de retenção.
-ms.openlocfilehash: 8aed846c8c95aad737a9dfd56e4df7533e57a329
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: d02c8102dc53f455c5e0620acf1f8a9a7529bf08
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778541"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336686"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint.
 
@@ -60,14 +60,14 @@ Neste cenário, usamos o serviço de Metadados Gerenciados e o Repositório de T
 
 Cada produto tem um site dedicado do SharePoint que contém uma biblioteca de documentos que tem os corretos tipos de conteúdo habilitados. Todos os documentos são armazenados na biblioteca de documentos.
 
-![Biblioteca de documentos da documentação do produto](../media/SPRetention3.png)
+[ ![Biblioteca de documentos para documentação do produto](../media/SPRetention3.png) ](../media/SPRetention3.png#lightbox)
 
 > [!NOTE]
 > Em vez de ter um site do SharePoint por produto, a empresa de manufatura deste cenário poderia usar um Microsoft Team por produto para colaboração de suporte entre os membros da equipe, como através de chat persistente e o uso da guia **Arquivos** no Teams para gerenciamento de documentos. Neste artigo, nós apenas concentramos em documentos, portanto, só usaremos um site.
 
 Este é um modo de exibição da biblioteca de documentos do produto Spinning Widget:
 
-![Biblioteca de documentos do Spinning Widget](../media/SPRetention4.png)
+[ ![Biblioteca de documentos de Spinning Widget](../media/SPRetention4.png) ](../media/SPRetention4.png#lightbox)
 
 Agora que temos a arquitetura de informações básica em vigor para o gerenciamento de documentos, vamos dar uma olhada na estratégia de retenção e descarte para os documentos que usam os metadados e como classificamos esses documentos.
 
@@ -75,7 +75,7 @@ Agora que temos a arquitetura de informações básica em vigor para o gerenciam
 
 As políticas de conformidade e de governança de dados da empresa de manufatura ditam como os dados são preservados e descartados. Os documentos relacionados a produtos devem ser mantidos enquanto o produto estiver sendo fabricado e por um determinado período adicional. O período adicional difere para as especificações do produto, contratos e manuais do usuário. A tabela a seguir indica os requisitos de retenção e descarte:
 
-| **Tipo de Documento**          | **Retenção**                          | **Disposição**                              |
+|   Tipo de documento            |   Retenção                            |   Disposição                                |
 | -------------------------- | -------------------------------------- | -------------------------------------------- |
 | Especificações do produto      | 5 anos após o fim da produção  | Excluir                                       |
 | Contratos de produtos          | 10 anos após o fim da produção | Analisar                                       |
@@ -137,8 +137,9 @@ A captura de tela a seguir mostra as configurações quando você cria o rótulo
    ![Configurações para o novo rótulo de Especificação do Produto](../media/SPRetention7.png)
 
 6. Selecione **Criar esse rótulo**. 
-> [!TIP]
-> Para etapas mais detalhadas, confira [Criar um rótulo cujo período de retenção está baseado em um evento](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event).
+
+   > [!TIP]
+   > Para etapas mais detalhadas, confira [Criar um rótulo cujo período de retenção está baseado em um evento](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event).
 
 Agora, vamos dar uma olhada em como aplicar automaticamente o rótulo de retenção ao conteúdo de especificação do produto.
 
@@ -183,7 +184,7 @@ KQL não pode usar propriedades rastreadas em consultas de pesquisa. É preciso 
 
 Para a consulta KQL aplicar automaticamente o rótulo de retenção correto ao conteúdo de documento do produto, mapeamos as propriedades rastreadas **ows\_Doc\_x0020\_Type* e *ows\_\_Status** para duas propriedades gerenciadas refináveis. Em nosso ambiente de teste para esse cenário, **RefinableString00** e **RefinableString01** não estão sendo usadas. Determinamos isso ao examinar **Propriedades Gerenciadas** em **Gerenciar Esquema de Pesquisa** no centro de administração do SharePoint.
 
-![Propriedades gerenciadas no esquema de pesquisa](../media/SPRetention12.png)
+[ ![Propriedades gerenciadas no esquema de pesquisa](../media/SPRetention12.png) ](../media/SPRetention12.png#lightbox)
 
 Observe que a coluna **Propriedades Rastreadas Mapeadas** na captura de tela anterior está vazia.
 
@@ -199,7 +200,8 @@ Para mapear a propriedade rastreada **ows\_Doc\_x0020\_Type**, siga as seguintes
 
    Na seção **Propriedades Rastreadas Mapeadas**, você verá algo semelhante a essa captura de tela:
 
-   ![Selecione Adicionar um mapeamento na seção Propriedades rastreadas mapeadas](../media/SPRetention13.png)
+   [ ![Selecione Adicionar um mapeamento na seção Propriedades rastreadas mapeadas](../media/SPRetention13.png) ](../media/SPRetention13.png#lightbox)
+
 
 5. Role até a parte inferior da página e selecione **OK** para salvar o mapeamento.
 
@@ -207,7 +209,7 @@ Repita essas etapas para mapear **RefinableString01** e **ows\_\_Status**.
 
 Agora, você deve ter duas propriedades gerenciadas mapeadas para duas propriedades rastreadas:
 
-![Propriedades gerenciadas mapeadas apresentadas para propriedades rastreadas](../media/SPRetention14.png)
+[![Propriedades gerenciadas apresentaram propriedades mapeadas para rastreadas](../media/SPRetention14.png)](../media/SPRetention14.png#lightbox)
 
 Vamos verificar se nossa configuração está correta, executando uma pesquisa corporativa. Em um navegador, vá para *https://\<your_tenant>. sharepoint.com/search*. Na caixa de pesquisa, digite ***RefinableString00: "Especificação do Produto"*** e pressione Enter. Essa pesquisa deve retornar todos os documentos que tenham uma **Especificação de Produto** do ***Tipo de Documento***.
 
@@ -219,7 +221,7 @@ Agora que verificamos que a consulta KQL está funcionando, vamos criar uma pol�
 
 1. No [centro de conformidade](https://compliance.microsoft.com/homepage), vá para **Gerenciamento de registros** > **Políticas de rótulo** > **Aplicar um rótulo automaticamente**.
 
-   ![Selecionar “Aplicar um rótulo automaticamente” na página de Rótulos](../media/SPRetention16.png)
+   [![Selecione “Aplicar um rótulo automaticamente” na página Rótulos](../media/SPRetention16.png)](../media/SPRetention16.png#lightbox)
 
 2. Na página do assistente**Escolher um rótulo para aplicar automaticamente**, selecione **Escolher um rótulo para aplicar automaticamente**.
 
@@ -227,7 +229,7 @@ Agora que verificamos que a consulta KQL está funcionando, vamos criar uma pol�
 
 4. Selecione **Aplicar rótulo ao conteúdo que contém propriedades, palavras ou frases específicas** e, em seguida, selecione **Próximo**.
 
-   ![Selecionar Aplicar rótulo ao conteúdo que contém propriedades, palavras ou frases específicas](../media/SPRetention17.png)
+   [![Selecione Aplicar rótulo ao conteúdo que contém propriedades, palavras ou frases específicas](../media/SPRetention17.png)](../media/SPRetention17.png#lightbox)
 
    Na próxima etapa, você fornecerá a mesma consulta de pesquisa KQL que testamos na seção anterior. Esta consulta retorna todos os documentos de Especificação do Produto que têm um status *Final*. Quando usamos essa mesma consulta na política de rótulos, o rótulo de retenção de Especificação do Produto será automaticamente aplicado a todos os documentos que a correspondem.
 
@@ -259,11 +261,11 @@ Depois de 7 dias, use o [explorador de atividades](data-classification-activity-
 
 Também examine as propriedades dos documentos na Biblioteca de Documento. No painel de informações, você pode ver que o rótulo de retenção é aplicado a um documento selecionado.
 
-![Verifique se o rótulo foi aplicado analisando as propriedades do documento na Biblioteca de Documentos](../media/SPRetention21.png)
+[![Verifique se o rótulo foi aplicado analisando as propriedades do documento na Biblioteca de Documentos](../media/SPRetention21.png)](../media/SPRetention21.png#lightbox)
 
 Como os rótulos de retenção foram aplicados automaticamente aos documentos, esses documentos são protegidos de exclusão porque o rótulo de retenção foi configurado para declarar os documentos como *registros*. Como um exemplo dessa proteção, obtemos a seguinte mensagem de erro quando tentamos excluir um desses documentos:
 
-![Uma mensagem de erro mostra que os documentos não podem ser excluídos porque o rótulo declara que os documentos são registros.](../media/SPRetention22.png)
+[![Uma mensagem de erro mostra que os documentos não podem ser excluídos porque o rótulo declara que os documentos são registros.](../media/SPRetention22.png)](../media/SPRetention22.png#lightbox)
 
 ## <a name="generate-the-event-that-triggers-the-retention-period"></a>Gerar o evento que dispara o período de retenção
 
@@ -275,13 +277,13 @@ Mas, para este cenário, geraremos automaticamente o evento a partir de um siste
 
 A captura de tela a seguir mostra a lista do SharePoint que será usada para acionar o evento:
 
-![A lista que vai disparar o evento de retenção](../media/SPRetention23.png)
+[![A lista que vai disparar o evento de retenção](../media/SPRetention23.png)](../media/SPRetention23.png#lightbox)
 
 Há dois produtos em produção no momento, como indicados pelo valor ***Sim*** na coluna **Em Produção**. Quando o valor nesta coluna está definido como ***Não*** para um produto, o fluxo associado à lista gerará automaticamente o evento. Este evento dispara o início do período de retenção para o rótulo de retenção que foi aplicado automaticamente aos documentos do produto correspondente.
 
 Para esse cenário, usamos o seguinte fluxo para disparar o evento:
 
-![Configurar o fluxo que disparará o evento](../media/SPRetention24.png)
+[![Configurar o fluxo que disparará o evento](../media/SPRetention24.png)](../media/SPRetention24.png#lightbox)
 
 Para criar esse fluxo, inicie o a partir de um conector do SharePoint e selecione o disparador **Quando um item é criado ou modificado**. Especifique o endereço do site e o nome da lista. Em seguida, adicione uma condição baseada em quando o valor de coluna da lista **Em Produção** é definido como ***Não*** (ou igual a *falso* no cartão da condição). Em seguida, adicione uma ação com base no modelo interno HTTP. Use os valores da seção a seguir para configurar a ação HTTP. Você pode copiar os valores das propriedades para **URI** e **Corpo** da próxima seção e, colá-los no modelo.
 
@@ -290,7 +292,7 @@ Para criar esse fluxo, inicie o a partir de um conector do SharePoint e selecion
 - **Cabeçalhos**: Chave = content-type, valor = application/atom+xml
 - **Corpo**:
     
-    ```HTML
+    ```xml
     <?xml version='1.0' encoding='utf-8' standalone='yes'>
     <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
     <category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent'>
@@ -312,7 +314,7 @@ Esta lista descreve os parâmetros na propriedade **Corpo** da ação que deve s
 - **EventType**: O valor desse parâmetro corresponde ao tipo de evento ao qual o evento criado será aplicado. Esse tipo de evento foi definido quando você criou o rótulo de retenção. Para esse cenário, o tipo de evento é "Cessação de Produção."
 - **SharePointAssetIdQuery**: Esse parâmetro define a ID do ativo para o evento. A retenção baseada em evento precisa de um identificador exclusivo para o documento. Podemos usar as IDs de ativos para identificar os documentos aos quais um determinado evento é aplicável, ou como neste cenário, a coluna de metadados do **Nome do Produto**. Para fazer isso, precisamos criar uma nova propriedade gerenciada do **ProductName** que pode ser usada na consulta KQL. (Como alternativa, poderíamos usar **RefinableString00**, em vez de criar uma nova propriedade gerenciada). Também precisamos mapear essa nova propriedade gerenciada para a propriedade rastreada ** ows_Product_x0020_Name**. Aqui está uma captura de tela da propriedade gerenciada.
 
-    ![Propriedade gerenciada de retenção](../media/SPRetention25.png)
+    [![Propriedade gerenciada de retenção](../media/SPRetention25.png)](../media/SPRetention25.png#lightbox)
 
 - **EventDateTime**: Este parâmetro define a data que ocorre o evento. Usar o formato da data atual:<br/><br/>*formatDateTime(utcNow(),'yyyy-MM-dd'*)
 
@@ -320,7 +322,7 @@ Esta lista descreve os parâmetros na propriedade **Corpo** da ação que deve s
 
 Agora, o rótulo de retenção é criado e aplicado automaticamente, e o fluxo é configurado e criado. Quando o valor na coluna **Em Produção** para o produto Widget Giratório na lista Produtos for alterado de ***Sim*** para ***Não***, o fluxo é disparado para criar o evento. Para ver esse evento no centro de conformidade, vá para **Gerenciamento de registros** > **Eventos**.
 
-![O evento que foi disparado pelo fluxo é exibido na página de Eventos no centro de conformidade.](../media/SPRetention28.png)
+[![O evento que foi disparado pelo fluxo é exibido na página de Eventos no centro de conformidade.](../media/SPRetention28.png)](../media/SPRetention28.png#lightbox)
 
 Selecione o evento para visualizar os detalhes na página do submenu. Observe que mesmo que criando o evento, o status do evento mostra que nenhum site do SharePoint ou documentos foram processados.
 
@@ -340,16 +342,10 @@ Como o artigo sobre[Iniciar de retenção quando um evento ocorre](event-driven-
 
 Conforme a seguinte captura de tela mostra, a propriedade gerenciada por ID de ativo é chamada de **ComplianceAssetId**.
 
-![Propriedade gerenciada ComplianceAssetId](../media/SPRetention27.png)
+[![Propriedade gerenciada ComplianceAssetId](../media/SPRetention27.png)](../media/SPRetention27.png#lightbox)
 
 Em vez de usar a propriedade **ID de ativo** padrão, como fazemos nesse cenário, você pode usar qualquer outra propriedade. Mas é importante entender que se você não especificar uma ID de ativo ou palavras-chave para um evento, todo o conteúdo que tenha um rótulo desse tipo de evento, terá seu período de retenção disparado pelo evento.
 
 ### <a name="using-advanced-search-in-sharepoint"></a>Usando a pesquisa avançada no SharePoint
 
 Na captura de tela anterior, você pode ver que há outra propriedade gerenciada relacionada aos rótulos de retenção chamada **ComplianceTag**, e que é mapeada para uma propriedade rastreada. A propriedade gerenciada **ComplianceAssetId** também é mapeada para uma propriedade rastreada. Isso significa que você pode usar essas propriedades gerenciadas na pesquisa avançada para recuperar todos os documentos que tenham sido marcados com um rótulo de retenção.
-
-## <a name="credits"></a>Créditos
-
-Esse cenário foi criado por: 
-
-Frederic Lapierre<br/>Consultor Diretor de Serviços Microsoft
