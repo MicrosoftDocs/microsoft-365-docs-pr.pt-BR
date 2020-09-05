@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do Globanet Symphony para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 29af0cda6d1f6b194c13047382ab7e01b6b200dc
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: ccd6676060d48027713203f9fe27e506635af92c
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361792"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399312"
 ---
 # <a name="set-up-a-connector-to-archive-symphony-data-preview"></a>Configurar um conector para arquivar dados de Symphony (visualização)
 
@@ -68,7 +68,7 @@ Após clicar em **salvar & concluir**, você voltará para o centro de conformid
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
-Para mapear usuários e concluir o conector configurado no centro de conformidade do Microsoft 365, siga estas etapas:
+Para mapear usuários e concluir a configuração do conector no centro de conformidade do Microsoft 365, siga estas etapas:
 
 1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens do Symphony incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 

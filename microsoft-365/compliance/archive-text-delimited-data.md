@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados delimitados por texto do Globanet para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 989c0a657d9a30156e5991d5b09e389c0b044332
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: e57e9693da77a246bafcdf30561fd1414761355f
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361856"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399292"
 ---
 # <a name="set-up-a-connector-to-archive-text-delimited-data-preview"></a>Configurar um conector para arquivar dados delimitados por texto (visualização)
 
@@ -70,7 +70,7 @@ Após clicar em **salvar & concluir**, você voltará para o centro de conformid
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
-Para mapear usuários e concluir o conector configurado no centro de conformidade do Microsoft 365, siga estas etapas:
+Para mapear usuários e concluir a configuração do conector no centro de conformidade do Microsoft 365, siga estas etapas:
 
 1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens de origem delimitados por texto incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 

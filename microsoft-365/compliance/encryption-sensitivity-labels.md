@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae9131b4cd70cfca4cc32116a651bf4642ed94f1
-ms.sourcegitcommit: c4a7b227f7d9abd666dfb93e3ded78ba8288e649
+ms.openlocfilehash: dc7f1e181fcc2ffda6cd9b36596c164f49d23452
+ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229431"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47334854"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -211,9 +211,9 @@ Para saber mais, confira [Emissor do Gerenciamento de Direitos e Proprietário d
 ### <a name="double-key-encryption"></a>Criptografia de Chave Dupla
 
 > [!NOTE]
-> Atualmente, esse recurso está sendo implementado na visualização pública.. Para obter mais informações, consulte [Anunciando a visualização pública da criptografia de duas teclas do Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451).
+> Este recurso está atualmente no modo de visualização pública. Para obter mais informações, consulte [Anunciando a visualização pública da criptografia de duas teclas do Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451).
 
-Selecione essa opção somente depois de configurar o serviço de Criptografia de Chave Dupla, e você precisar usar esta criptografia de chave dupla para os documentos e emails que serão aplicados a esse rótulo.
+Selecione essa opção somente depois de configurar o serviço de Criptografia de Chave Dupla, e você precisará usar essa criptografia de chave dupla para os arquivos e os emails que serão aplicados a esse rótulo.
 
 Para obter mais informações, pré-requisitos e instruções de configuração, confira [(DKE) Criptografia de Chave Dupla](double-key-encryption.md)
 

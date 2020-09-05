@@ -1,5 +1,5 @@
 ---
-title: Baixar trabalhos de exportação para um caso
+title: Baixar trabalhos de exportação para uma ocorrência de descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,19 +14,19 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
+ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-mar2020
 description: Instale e use o Azure Storage Explorer para baixar documentos que foram exportados de uma análise definida na descoberta eletrônica avançada.
-ms.openlocfilehash: 617ef0b27d5cab4098c505eaefb935ba8ae4ae2a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4b09521b4a72fc8fda68f5892c899fe76a066809
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035673"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399158"
 ---
-# <a name="download-export-jobs"></a>Baixar trabalhos de exportação
+# <a name="download-export-jobs-in-an-advanced-ediscovery-case"></a>Baixar trabalhos de exportação em uma caixa de descoberta eletrônica avançada
 
-Quando você exporta documentos de um conjunto de revisão em um caso de descoberta eletrônica avançada, os documentos são carregados em um local de armazenamento do Azure fornecido pela Microsoft ou em um local de armazenamento do Azure gerenciado por sua organização. O tipo de local de armazenamento do Azure usado depende de qual opção foi selecionada quando os documentos foram exportados. 
+Quando você exporta documentos de um conjunto de revisão em um caso de descoberta eletrônica avançada, os documentos são carregados em um local de armazenamento do Azure fornecido pela Microsoft ou em um local de armazenamento do Azure gerenciado por sua organização. O tipo de local de armazenamento do Azure usado depende de qual opção foi selecionada quando os documentos foram exportados.
 
 Este artigo fornece instruções sobre como usar o Microsoft Azure Storage Explorer para se conectar a um local de armazenamento do Azure para navegar e baixar os documentos exportados. Para obter mais informações sobre o Azure Storage Explorer, consulte [QuickStart: Use Azure Storage Explorer](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-storage-explorer).
 
@@ -50,31 +50,31 @@ A próxima etapa é obter a URL de assinatura de acesso compartilhado (SAS) gera
 
 A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para se conectar ao local de armazenamento do Azure e baixar os documentos que você exportou para um computador local.
 
-1.  Abra o Azure Storage Explorer que você instalou na etapa 1.
+1. Abra o Azure Storage Explorer que você instalou na etapa 1.
 
 2. Clique no ícone **adicionar conta** . Como alternativa, você pode clicar com o botão direito do mouse em **contas de armazenamento**.
 
    ![Clique no ícone Adicionar conta](../media/AzureStorageConnect.png)
 
-3.  Na página **conectar ao Azure Storage** , clique em **usar um URI de assinatura de acesso compartilhado (SAS)** e, em seguida, clique em **Avançar**.
+3. Na página **conectar ao Azure Storage** , clique em **usar um URI de assinatura de acesso compartilhado (SAS)** e, em seguida, clique em **Avançar**.
 
     ![Clique em usar um URI de assinatura de acesso compartilhado (SAS) e clique em avançar](../media/AzureStorageConnect2.png)
 
-4.  Na página **anexar com URI SAS** , clique na caixa URI e cole a URL SAS obtida na etapa 2. 
+4. Na página **anexar com URI SAS** , clique na caixa URI e cole a URL SAS obtida na etapa 2. 
 
     ![Colar a URL SAS na caixa URI](../media/AzureStorageConnect3.png)
 
     Observe que uma parte da URL SAS é exibida na caixa **nome para exibição** . Ele será usado como o nome de exibição do contêiner que é criado nas contas de **armazenamento** depois que você se conecta ao local de armazenamento. Esse nome consiste na ID do caso de descoberta eletrônica avançada ser de um identificador exclusivo. Você pode manter o nome de exibição padrão ou alterá-lo. Se você alterá-lo, o nome para exibição deverá ser exclusivo.
 
-5.  Clique em **Avançar**.
+5. Clique em **Avançar**.
 
     A página de **Resumo de conexão** é exibida.
-   
+
     ![Clique em conectar na página Resumo de conexão para se conectar ao local de armazenamento do Azure](../media/AzureStorageConnect4.png)
 
-6. Na página **Resumo da conexão** , revise as informações de conexão e clique em **conectar**. 
+6. Na página **Resumo da conexão** , revise as informações de conexão e clique em **conectar**.
 
-    O **nó contêineres blob** (em **contas** > **de armazenamento (contêineres anexados)** \> é aberto. 
+    O nó **contêineres blob** (em **contas**  >  **de armazenamento (contêineres anexados)** \> é aberto.
 
     ![Exportar trabalhos no nó contêineres de BLOBs](../media/AzureStorageConnect5.png)
 
@@ -88,9 +88,9 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
 
    A pasta de trabalho de exportação contém os itens a seguir. Os itens reais na pasta de exportação são determinados pelas opções de exportação configuradas quando o trabalho de exportação foi criado. Para obter mais informações, consulte [exportar documentos de um conjunto de revisão](export-documents-from-review-set.md).
 
-    - Export_load_file. csv: este arquivo CSV é um relatório de exportação de detalhes que contém informações sobre cada documento exportado. O arquivo consiste em uma coluna para cada propriedade de metadados de um documento. Para obter uma lista e uma descrição dos metadados incluídos neste relatório, confira a coluna **nome do campo exportado** na tabela em [campos de metadados do documento na descoberta eletrônica avançada](document-metadata-fields.md).
+    - Export_load_file.csv: este arquivo CSV é um relatório de exportação de detalhes que contém informações sobre cada documento exportado. O arquivo consiste em uma coluna para cada propriedade de metadados de um documento. Para obter uma lista e uma descrição dos metadados incluídos neste relatório, confira a coluna **nome do campo exportado** na tabela em [campos de metadados do documento na descoberta eletrônica avançada](document-metadata-fields.md).
     
-    - Summary. txt: um arquivo de texto que contém um resumo da exportação, incluindo as estatísticas de exportação.
+    - Summary.txt: um arquivo de texto que contém um resumo da exportação incluindo as estatísticas de exportação.
     
     - Extracted_text_files: esta pasta contém uma versão de arquivo de texto de cada documento exportado.
      
@@ -98,7 +98,7 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
     
     - Error_files: esta pasta inclui os seguintes itens quando o trabalho de exportação contém qualquer arquivo de erro: 
         
-      - ExtractionError. csv: este arquivo CSV contém os metadados disponíveis para arquivos que não foram extraídos corretamente de seu item pai.
+      - ExtractionError.csv: este arquivo CSV contém os metadados disponíveis para arquivos que não foram extraídos corretamente de seus itens pai.
         
       - ProcessingError: esta pasta contém documentos com erros de processamento. Esse conteúdo está em um nível de item, o que significa que, se um anexo tiver um erro de processamento, o documento que contém o anexo também será incluído nessa pasta.
  

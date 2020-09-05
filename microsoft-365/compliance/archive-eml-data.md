@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados EML do Globanet para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 9a2b473f258973dcbe9cb0e6a155671c80b1f552
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: b27bfdfc9d14495857dadcb4d30b1930d7b90781
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362062"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399148"
 ---
 # <a name="set-up-a-connector-to-archive-eml-data-preview"></a>Configurar um conector para arquivar dados EML (visualização)
 
@@ -68,7 +68,7 @@ Após clicar em **salvar & concluir**, você voltará para o centro de conformid
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
-Para mapear usuários e concluir o conector configurado no centro de conformidade do Microsoft 365, siga estas etapas:
+Para mapear usuários e concluir a configuração do conector no centro de conformidade do Microsoft 365, siga estas etapas:
 
 1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens de origem EML incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens EML serão importados para a caixa de correio desse usuário.
 

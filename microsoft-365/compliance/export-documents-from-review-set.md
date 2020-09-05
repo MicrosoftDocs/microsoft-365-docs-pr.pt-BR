@@ -15,71 +15,94 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Saiba como selecionar e exportar ou baixar o conteúdo de um conjunto de revisão para apresentações ou revisões externas.
+description: Saiba como selecionar e exportar o conteúdo de um conjunto de revisão para apresentações ou revisões externas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29c2224a1ce0a92bca3b2057352f6f82fdc7afde
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 855f1b8fef7a1df6ed86f058b71e5027851b5f0d
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034089"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399168"
 ---
 # <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
 
-Você pode exportar conteúdo para apresentação ou revisão externa de uma análise definida por um dos seguintes métodos:
+Exportar permite que os usuários personalizem o conteúdo que está incluído no pacote de download. A ferramenta de exportação fornece uma página de configuração com as seguintes configurações:
 
-- [Baixar documentos](#download-documents-from-a-review-set)
- 
-- [Exportar documentos](#export-documents-from-a-review-set)
+![Opções para exportar itens de um conjunto de revisão](../media/bcfc72c7-4a01-4697-9e16-2965b7f04fdb.png)
 
-## <a name="download-documents-from-a-review-set"></a>Baixar documentos de um conjunto de revisão
+## <a name="export-options"></a>Opções de exportação
 
-O download oferece uma maneira simples de baixar o conteúdo de uma revisão definida no formato nativo. Ele aproveita os recursos de transferência de dados do navegador para que um prompt do navegador seja exibido quando um download estiver pronto. Arquivos baixados usando este método serão zipados em um arquivo de contêiner e serão arquivos de nível de item. Isso significa que, se você selecionar um anexo, receberá automaticamente o email com o anexo incluído. Da mesma forma, se você selecionar uma planilha do Excel incorporada em um documento do Word, receberá o documento do Word com a planilha do Excel incorporada. Os itens baixados preservarão a data da última modificação que pode ser exibida como uma propriedade de arquivo.
+- Nome para exportação: o nome do trabalho de exportação.
 
-Para baixar o conteúdo de um conjunto de revisão, comece selecionando os arquivos que você deseja baixar e, em seguida, selecione "download" no menu ações.
+- Descrição: campo de texto livre para que você adicione uma descrição.
 
-![Captura de tela de uma descrição de computador gerada automaticamente](../media/eDiscoDownload.png)
+- Exportar estes documentos:
 
-## <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
+  - Somente documentos selecionados-exporta somente os documentos que estão atualmente selecionados.
+  
+  - Todos os documentos no conjunto de revisão-exporta todos os documentos no conjunto de revisão
 
-Exportar permite que os usuários personalizem o conteúdo que está incluído no pacote de download. Ele fornece uma página de configuração com as seguintes configurações:
+- Metadata
+  
+  - Carregar arquivo-esse arquivo contém metadados para cada arquivo. Confira [campos de metadados de documentos na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md) para obter mais informações sobre quais campos estão incluídos. Normalmente, esse arquivo pode ser ingerido por ferramentas de descoberta eletrônica de terceiros.
+  
+  - Marcas-quando selecionadas, as informações de marcação serão incluídas no arquivo de carregamento.
 
-### <a name="metadata-file"></a>Arquivo de metadados
-
-Isso pode ser considerado o "carregar arquivo" que contém metadados associados aos arquivos exportados. Para obter uma lista de campos exportados disponíveis no arquivo de metadados, confira [campos de metadados de documentos na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md). Normalmente, esse arquivo pode ser ingerido por ferramentas de terceiros.
-
-### <a name="tag-data"></a>Dados de marca
-
-Esse conteúdo seria adicionado como campos no arquivo de metadados. Ele contém todas as informações de marca aplicadas nos conjuntos de revisão.
-
-### <a name="text-files"></a>Arquivos de texto
-
-Arquivos de texto podem ser gerados para cada arquivo exportado de um conjunto de revisão. Muitas vezes, esses arquivos são necessários para parceiros de serviço como parte da inclusão de dados em ferramentas de terceiros.
-
-### <a name="redacted-files"></a>Arquivos reredigidos
-
-Se arquivos PDF redigidos forem gerados durante a revisão, esses arquivos estarão disponíveis durante a exportação. Você pode decidir se deseja exportar somente arquivos nativos ou substituir os arquivos nativos que requeram a redação com os arquivos PDF que contêm as redaçãos reais.
-
-### <a name="export-location"></a>Local de exportação
-
-O conteúdo exportado é entregue a um blob do Azure fornecido pela Microsoft ou o blob de um cliente pode ser usado se os detalhes forem fornecidos na exportação.
-
-### <a name="export-structure"></a>Exportar estrutura
-
-Quando o conteúdo é exportado de um conjunto de revisão, o conteúdo é organizado na estrutura a seguir.
-
-  - Pasta raiz – ID de download
+- Conteúdo
+  
+  - Arquivos nativos-Marque esta caixa de seleção para incluir os arquivos nativos.
+  
+  - Opções de conversa
     
-      - Exportar\_arquivo\_de carregamento. csv = arquivo de metadados
+    - Arquivos de conversa-exportar mensagens de chat reconstruídas. Este formato apresenta as conversas em um formulário que se assemelham ao que os usuários vêem no aplicativo nativo.
     
-      - Summary. txt = um arquivo de resumo com estatísticas de exportação
+    - Mensagens de chat individuais-exporte os arquivos de conversa originais conforme eles são armazenados no Microsoft 365.
+
+- Opções
+
+  - Arquivos de texto: inclui versões de texto extraídas de arquivos nativos.
+  
+  - Substituir os nativos recriados por PDFs convertidos, se forem gerados arquivos PDF revisados durante a revisão, esses arquivos estarão disponíveis para exportação. Você pode optar por exportar somente os arquivos nativos que foram redigidos (sem selecionar essa opção) ou pode selecionar essa opção para exportar os arquivos PDF que contêm as redaçãos reais.
+
+- As opções de saída (o conteúdo exportado estão disponíveis para download diretamente por meio de um navegador da Web ou podem ser enviadas para uma conta de armazenamento do Azure. As duas primeiras opções habilitam o download direto.)
+  
+  - Arquivos soltos e PSTs (email é adicionado a PSTs quando possível)-os arquivos são exportados em um formato semelhante à estrutura de diretório original vista pelos usuários em seus aplicativos nativos.  Para obter mais informações, consulte a seção [arquivos soltos e estrutura de exportação de PST](#loose-files-and-pst-export-structure) .
+  
+  - Estrutura de diretório condensada-os arquivos são exportados e incluídos no download.
+  
+  - Estrutura de diretório condensada exportada para sua conta de armazenamento do Azure-os arquivos são exportados para o repositório de armazenamento do Azure da sua organização accouunt.
+
+## <a name="loose-files-and-pst-export-structure"></a>Estrutura de exportação de arquivos soltos e de PST
+
+Se você selecionar essa opção de exportação, o conteúdo exportado será organizado na seguinte estrutura:
+
+- Pasta raiz – esta pasta em nome ExportName.zip
+  
+  - Arquivo de metadados Export_load_file.csv.
+  
+  - Summary.csv-um arquivo de resumo que também contém estatísticas de exportação.
+  
+  - Exchange-esta pasta contém todo o conteúdo do Exchange no formato de arquivo nativo. Os arquivos nativos são substituídos por PDFs redigidos se você selecionou a opção **substituir nativos redigidos por PDFs convertidos** .
+  
+  - SharePoint = esta pasta contém todo o conteúdo nativo do SharePoint em um formato de arquivo nativo. Os arquivos nativos são substituídos por PDFs redigidos se você selecionou a opção **substituir nativos redigidos por PDFs convertidos** .
+
+## <a name="condensed-directory-structure"></a>Estrutura de diretório condensada
+
+- Pasta raiz-esta pasta é nomeada ExportName.zip
+  
+  - Arquivo de metadados Export_load_file.csv.
+  
+  - Summary.txt-um arquivo de resumo que também contém estatísticas de exportação.
+  
+  - Input_or_native_files-esta pasta contém todos os arquivos nativos que foram exportados. Se você exportar arquivos PDF redigidos, eles não serão colocados em arquivos PST. Em vez disso, eles são adicionados a uma pasta separada.
+  
+  - Error_files-esta pasta contém os seguintes arquivos de erro, se eles estiverem incluídos na exportação:
     
-      - Entrada\_ou arquivos\_nativos = contém todos os arquivos nativos
+    - ExtractionError. Um arquivo CSV que contém metadados disponíveis de arquivos que não foram extraídos corretamente de arquivos pai.
     
-      - Arquivos\_de erro = contém qualquer arquivo de erro incluído na exportação
-        
-          - ExtractionError – um CSV que contém metadados disponíveis de arquivos que não foram extraídos corretamente de arquivos pai
-        
-          - ProcessingError – conteúdo com erros de processamento. Esse conteúdo é o nível do item se um anexo sofreu um erro de processamento, o email que contém o anexo será incluído nessa pasta.
-    
-      - Arquivos\_de\_texto extraídos = contém todos os arquivos de texto extraídos gerados no processamento.
+    - ProcessingError – este arquivo contém uma lista de documentos com erros de processamento. Esse conteúdo é de nível de item, ou seja, se um anexo resultar em um erro de processamento, a mensagem de email que contém o anexo será incluída nessa pasta.
+  
+  - Extracted_text_files-esta pasta contém todos os arquivos de texto extraídos que foram gerados no processamento.
+
+> [!NOTE]
+> Os trabalhos de exportação são mantidos durante a vida útil do caso e podem ser baixados, desde que o caso não seja excluído.
