@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: 1b3715e3ed6f0472d9202573ff0cab92f7240ffa
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 08d1633142bba7348cbc899f9cf9b2a1288c3743
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845961"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394730"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -36,17 +36,13 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **envio** , use <https://protection.office.com/reportsubmission> .
 
-- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+- Para enviar mensagens e arquivos para a Microsoft, você precisa ser membro de um dos grupos de função a seguir:
 
-  - Para enviar mensagens e arquivos para a Microsoft, você precisa ser membro de um dos grupos de função a seguir:
+  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
 
-    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-  - Para acesso somente leitura ao portal de envios, você precisa ser membro de um dos grupos de função a seguir:
-
-    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    Observe que a associação ao grupo de funções é necessária para [Exibir envios de usuários para a caixa de correio personalizada](#view-user-submissions-to-the-custom-mailbox) , conforme descrito mais adiante neste tópico.
 
 - Para obter mais informações sobre como os usuários podem enviar mensagens e arquivos para a Microsoft, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
@@ -215,7 +211,7 @@ Para exportar os resultados, clique em **Exportar** próximo à parte superior d
 
 ## <a name="view-user-submissions-to-the-custom-mailbox"></a>Exibir envios de usuários para a caixa de correio personalizada
 
-Se você [configurou uma caixa de correio personalizada](user-submission.md) para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.
+**Se** você [configurou uma caixa de correio personalizada](user-submission.md) para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.
 
 1. No centro de conformidade & segurança, vá para **Threat management** \> **envios**de gerenciamento de ameaças.
 
