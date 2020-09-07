@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: ecc84196435125c83ff9518c2758e3f2611427b3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: d0ac249483d888b76915e98429b72da88884e135
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307790"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357783"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -33,6 +33,9 @@ Além de usar [rótulos de confidencialidade](sensitivity-labels.md) para classi
 - Privacidade (pública ou privada) dos sites de equipes conectadas ao grupo do Microsoft 365
 - Acesso de usuários externos
 - Acesso de dispositivos não gerenciados
+
+> [!IMPORTANT]
+> O **Acesso por dispositivos não gerenciados** funciona em conjunto com o recurso SharePoint para [controlar o acesso por dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices). Você deve configurar este recurso dependente do SharePoint para que seu locatário use uma etiqueta confidencial que tenha essa configuração definida. Informações adicionais estão incluídas nas instruções abaixo.
 
 Quando você aplica esse rótulo de confidencialidade a um contêiner suportado, o rótulo aplica automaticamente as opções configuradas ao site ou grupo conectado.
 
@@ -83,7 +86,13 @@ Nesta nova página **Configurações de site e grupo**, defina as configuraçõe
 
 - **Acesso de usuários externos**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
 
-- **Dispositivos não gerenciados**: Para [dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices), permita acesso total, acesso somente Web ou bloqueio total de acesso. Se você definiu essa configuração no nível do locatário ou em um site específico, a configuração especificada aqui será aplicada apenas se for mais restritiva.
+- **Dispositivos não administrados**: Para essa opção, você também deve configurar o recurso do SharePoint que usa o acesso condicional do Azure AD para bloquear ou limitar o acesso ao conteúdo do SharePoint e OneDrive de dispositivos não gerenciados. Para obter instruções, consulte [Controle de acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices). A opção que você especificar para esta configuração de rótulo equivale ao [bloqueio ou limitação de acesso a um site do SharePoint específico ou ao OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive).
+    
+    Se você não configurar o recurso dependente do SharePoint, a opção que você especificar aqui não terá efeito. Além disso, não terá efeito se for menos restritivo do que a configuração definida ao nível do locatário. Escolha uma configuração de rótulo que seja a mesma que a configuração de nível do locatário, ou mais restritiva.
+    
+    Por exemplo, se seu locatário estiver configurado para **Permitir acesso limitado apenas à Web**, a configuração de rótulo que permite acesso total não terá efeito porque é menos restritiva. Para esta configuração de nível de locatário, escolha a configuração de rótulo para bloquear o acesso (mais restritiva) ou a configuração de rótulo para acesso limitado (a mesma que a configuração do locatário).
+    
+    Como você pode configurar o recurso do SharePoint independentemente da configuração do rótulo, não há verificação no assistente do rótulo de confidencialidade de que as dependências estejam no lugar.
 
 ![Guia configurações de site e grupo](../media/edit-sensitivity-label-site-group2.png)
 
@@ -272,7 +281,7 @@ Os seguintes aplicativos e serviços não oferecem suporte as etiquetas de confi
   - Yammer
   - Planner
   - Project
-  - PowerBI
+  - Power BI
 
 ## <a name="classic-azure-ad-group-classification"></a>Classificação clássica de grupo do Azure Active Directory
 
