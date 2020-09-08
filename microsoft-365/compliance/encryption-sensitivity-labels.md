@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc7f1e181fcc2ffda6cd9b36596c164f49d23452
-ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
+ms.openlocfilehash: e3604518be47e35590792689c46bb036cbeb8965
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47334854"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399260"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -170,11 +170,11 @@ Quando você escolhe todos os usuários e grupos em sua organização ou procura
 
 Como prática recomendada, use grupos em vez de usuários. Essa estratégia mantém a configuração mais simples.
 
-##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>Requisitos e limitações para **Adicionar todos os usuários autenticados**
+##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>Requisitos e limitações para "Adicionar usuários autenticados".
 
 Essa configuração não restringe as pessoas que podem acessar o conteúdo que o rótulo criptografa, ainda criptografando o conteúdo e fornecendo opções para restringir a maneira como o conteúdo pode ser usado (permissões) e acessado (expiração e acesso offline). No entanto, o aplicativo que está abrindo o conteúdo criptografado deve ser capaz de oferecer suporte à autenticação que está sendo usada. Por esse motivo, os provedores sociais federados, como o Google, e a autenticação de senha única funcionam apenas para email e somente quando você usa o Exchange Online. As contas da Microsoft podem ser usadas com aplicativos do Office 365 e com o [visualizador da Proteção de Informações do Azure](https://portal.azurerms.com/#/download).
 
-Alguns cenários comuns para a configuração de todos os usuários autenticados:
+Alguns cenários típicos para qualquer configuração de usuários autenticados:
 - Você não se importa em quem vê o conteúdo, mas deseja restringir a maneira como ele é usado. Por exemplo, você não deseja que o conteúdo seja editado, copiado ou impresso.
 - Você não deseja restringir as pessoas que acessam o conteúdo, mas deseja pode confirmar quem o abre.
 - Você possui um requisito de que o conteúdo deve ser criptografado em repouso e em trânsito, mas não requer controles de acesso.
@@ -213,7 +213,7 @@ Para saber mais, confira [Emissor do Gerenciamento de Direitos e Proprietário d
 > [!NOTE]
 > Este recurso está atualmente no modo de visualização pública. Para obter mais informações, consulte [Anunciando a visualização pública da criptografia de duas teclas do Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451).
 
-Selecione essa opção somente depois de configurar o serviço de Criptografia de Chave Dupla, e você precisará usar essa criptografia de chave dupla para os arquivos e os emails que serão aplicados a esse rótulo.
+Selecione essa opção apenas depois de ter configurado o serviço de Criptografia de chave dupla, sendo que você precisará usar essa criptografia de chave dupla nos arquivos que terão esse rótulo aplicado.
 
 Para obter mais informações, pré-requisitos e instruções de configuração, confira [(DKE) Criptografia de Chave Dupla](double-key-encryption.md)
 

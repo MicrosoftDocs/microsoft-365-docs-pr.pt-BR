@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 67bd00a83314590d1ca1ab71c32d5a325686dc46
-ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
+ms.openlocfilehash: f24dff993a125de9ecd126b232abfcfa503deb83
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46514774"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399218"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)
 
@@ -99,17 +99,17 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
 1. Abra o [Centro de conformidade do Microsoft](https://compliance.microsoft.com).
 2. Abra a página de configurações do Centro de conformidade e escolha **Integrar dispositivos**. 
 
-![habilitar o gerenciamento de dispositivos](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+   ![habilitar o gerenciamento de dispositivos](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
-> [!NOTE]
-> Enquanto a integração de dispositivos geralmente leva cerca de 60 segundos para que seja habilitada, aguarde até 30 minutos antes de se envolver com o suporte da Microsoft.
+   > [!NOTE]
+   > Enquanto a integração de dispositivos normalmente leva em torno de 60 segundos para ser habilitada, aguarde até 30 minutos antes de se envolver com o suporte da Microsoft.
 
 3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. A lista estará vazia até você integrar os dispositivos.
 4. Escolha **Integração** para iniciar o processo de integração.
 5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
 
-![método de implementação](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-1. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos MDATP que correspondem ao pacote de implantação selecionado na etapa 5:
+   ![método de implementação](../media/endpoint-dlp-getting-started-3-deployment-method.png)
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos MDATP que correspondem ao pacote de implantação selecionado na etapa 5:
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
     - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
@@ -152,7 +152,7 @@ Uma vez que o ponto de extremidade está integrado, ele deve estar visível na t
 ## <a name="next-steps"></a>Próximas etapas
 Agora que você tem dispositivos integrados e pode exibir os dados de atividade no Explorador de atividades, você está pronto para prosseguir para a próxima etapa na qual você cria políticas DLP que protegem seus itens confidenciais.
 
-1) [Usando a prevenção contra perda de dados do EndPoint (visualização)](endpoint-dlp-using.md)
+- [Usando a prevenção contra perda de dados do EndPoint (visualização)](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Confira também
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como a retenção funciona para o Exchange.
-ms.openlocfilehash: e1860b9ff9c521a5a6a61c58d822a2a893570e99
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: e12f46b68feb4b64ade14cfb046061d89e1a607c
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127438"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394708"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Saiba mais sobre a retenção para o Exchange
 
@@ -70,4 +70,9 @@ Se um usuário deixar sua organização e a caixa de correio do usuário for inc
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
 
-Se você estiver pronto para configurar a retenção no Microsoft 365, confira [Introdução às políticas de retenção e os rótulos de retenção](get-started-with-retention.md).
+Se você é novo na configuração de retenção no Microsoft 365, consulte [Começar com políticas e rótulos de retenção](get-started-with-retention.md).
+
+Se você estiver pronto para configurar uma política de retenção ou rótulo de retenção do Exchange, consulte as instruções a seguir:
+- [Criar e configurar políticas de retenção](create-retention-policies.md)
+- [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
+- [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)

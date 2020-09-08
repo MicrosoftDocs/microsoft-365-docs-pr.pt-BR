@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O plano de arquivos oferece recursos avançados de gerenciamento dos rótulos de retenção.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 96150005421f6c2e28183c6e4417edd64b80a814
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: eb35915861c08588fab309210a49585a49d1b9da
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126874"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399208"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Usar o plano de arquivos para gerenciar os rótulos de retenção
 
@@ -108,11 +108,11 @@ Para começar, há alguns valores prontos para os seguintes descritores de plano
 
 Exemplo de descritores de plano de arquivos ao criar ou editar um rótulo de retenção:
 
-![Descritores de plano de arquivos](../media/file-plan-descriptors.png)
+![Descritores de plano de arquivo quando você cria ou edita um rótulo de retenção](../media/file-plan-descriptors.png)
 
 Imagem de exemplo das colunas descritoras de plano de arquivos:
 
-![file-plan-descriptors-on-labels-tab.png](../media/file-plan-descriptors-on-labels-tab.png)
+![Colunas descritoras do plano de arquivo](../media/file-plan-descriptors-on-labels-tab.png)
 
 ## <a name="export-all-retention-labels-to-analyze-or-enable-offline-reviews"></a>Exportar todos os rótulos de retenção para analisar ou habilitar revisões offline
 
