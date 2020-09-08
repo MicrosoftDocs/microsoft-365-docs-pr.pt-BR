@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: 3c1b2564b0ba9d96d22ab9d3b78da500b54363e2
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: da700c72a03bad85310be8807bf94e54ec6a4048
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315784"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394698"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -98,4 +98,9 @@ Se um usuário sair da organização, quaisquer arquivos sujeitos a uma polític
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
 
-Se você estiver pronto para configurar a retenção no Microsoft 365, confira a [Introdução às políticas de retenção e aos rótulos de retenção](get-started-with-retention.md).
+Se você é novo na configuração de retenção no Microsoft 365, consulte [Começar com políticas e rótulos de retenção](get-started-with-retention.md).
+
+Se você estiver pronto para configurar uma política de retenção ou rótulo de retenção do Exchange, consulte as instruções a seguir:
+- [Criar e configurar políticas de retenção](create-retention-policies.md)
+- [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
+- [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
