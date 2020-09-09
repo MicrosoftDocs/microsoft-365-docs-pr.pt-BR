@@ -548,10 +548,10 @@
         - name: Exportar dados de ocorrência
           href: exporting-data-ediscover20.md
           items:
+            - name: Baixar documentos de um conjunto de revisão
+              href: download-documents-from-review-set.md
             - name: Exportar documentos de um conjunto de revisão
               href: export-documents-from-review-set.md
-            - name: Baixar trabalhos de exportação
-              href: download-export-jobs.md
         - name: Gerenciar tarefas
           href: managing-jobs-ediscovery20.md
         - name: Definir configurações da ocorrência
