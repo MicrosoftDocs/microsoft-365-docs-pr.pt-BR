@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do local de trabalho do Facebook, que são arquivados no site do Merge1 do Globanet, no Microsoft 365. A configuração de um conector requer que você trabalhe com o Globanet esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: e7cdb81b2b676424c289c42490fe23e7b5441239
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 4bef408f7da93f2ade18fe126d3a1dedaa413a65
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399128"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405482"
 ---
 # <a name="set-up-a-connector-to-archive-workplace-from-facebook-data-preview"></a>Configurar um conector para arquivar o local de trabalho de dados do Facebook (visualização)
 
@@ -42,7 +42,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta do Merge1 aceitando seus termos e condições para o local de trabalho do conector do Facebook. Aqui, você precisará entrar em contato com o [suporte ao cliente do Globanet](https://globanet.com/contact-us/). Você precisa entrar nessa conta ao criar o conector na etapa 1.
+- Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
 - Criar uma integração personalizada em https://my.workplace.com/work/admin/apps/ para recuperar dados do local de trabalho via APIs para fins de conformidade e descoberta eletrônica.
 

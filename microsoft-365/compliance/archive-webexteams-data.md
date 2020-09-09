@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do conector de equipes WebEx do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 65a0f6eb6e3b7d3e7147cc3eaf96212d75d687c0
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: c345edd3a560fff3818cdc7a52ad04e03279f339
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399388"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405440"
 ---
 # <a name="set-up-a-connector-to-archive-webex-teams-data-preview"></a>Configurar um conector para arquivar dados de equipes do WebEx (visualização)
 
@@ -26,7 +26,7 @@ Use um conector Globanet no centro de conformidade da Microsoft 365 para importa
 
 Depois que os dados da equipe WebEx são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, descoberta eletrônica, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso de um conector de equipes WebEx para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
-## <a name="overview-of-archiving-webex-teams"></a>Visão geral do arquivamento de equipes WebEx
+## <a name="overview-of-archiving-webex-teams-data"></a>Visão geral do arquivamento de dados de equipes WebEx
 
 A visão geral a seguir explica o processo de usar um conector para arquivar dados de equipes do WebEx no Microsoft 365.
 
@@ -42,7 +42,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta do Globanet Merge1 aceitando os termos e condições de um conector de equipes WebEx. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/contact-us). Você precisa entrar nessa conta ao criar o conector na etapa 1.
+- Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
 - Criar um aplicativo em [https://developer.webex.com/](https://developer.webex.com) para buscar dados da sua conta de equipes do WebEx. Para obter instruções passo a passo sobre como criar o aplicativo, consulte [Merge1 do usuário de conectores de terceiros](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Webex%20Teams%20User%20Guide%20.pdf)
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados de Globanet FX Connect no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 9c769088148f747e4918f2f91a244ad321d61888
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: d22313ab1de1700c14ee4b35f6a0e3dbcae73ae3
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399392"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405582"
 ---
 # <a name="set-up-a-connector-to-archive-fx-connect-data-preview"></a>Configurar um conector para arquivar dados de conexão FX (visualização)
 
@@ -42,7 +42,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar as 
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta do Globanet Merge1 aceitando os termos e condições de um conector de conexão FX. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/contact-us). Você precisa entrar nessa conta ao criar o conector na etapa 1.
+- Crie uma conta do Merge1 do Globanet para conectores da Microsoft.  Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
 - O usuário que cria o conector de conexão FX na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 

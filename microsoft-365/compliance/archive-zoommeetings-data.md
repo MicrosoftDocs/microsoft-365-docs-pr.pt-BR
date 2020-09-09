@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do Globanet de zoom de reuniões para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: c053137c67276fa76dd84c38e1aca602a0b9c151
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 6b2f5f0b61eb2d569ad49d8f58c7e03d11cdbca0
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399138"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405492"
 ---
 # <a name="set-up-a-connector-to-archive-zoom-meetings-data-preview"></a>Configurar um conector para arquivar dados de reuniões de zoom (visualização)
 
@@ -42,7 +42,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta do Globanet Merge1 aceitando os termos e condições de um conector de descoberta eletrônica de margem de atraso. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/contact-us). Você precisa entrar nessa conta ao criar o conector na etapa 1.
+- Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
 - Obter o nome de usuário e a senha para a conta de negócios ou de zoom da sua organização. Você precisará entrar nesta conta na etapa 2 ao configurar o zoom do conector de reuniões.
 

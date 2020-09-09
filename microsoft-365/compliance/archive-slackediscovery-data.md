@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do Globanet margem de atraso de descoberta eletrônica no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 86a6595ae12201e5083b524661ef53dba54f8cf3
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 175ce5a5e419d3af621fa9b1eb3d55621314e186
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399302"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405572"
 ---
 # <a name="set-up-a-connector-to-archive-slack-ediscovery-data-preview"></a>Configurar um conector para arquivar dados de descoberta eletrônica de margem de atraso (visualização)
 
@@ -42,7 +42,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar as 
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta do Globanet Merge1 aceitando os termos e condições do conector de descoberta eletrônica de margem de atraso. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/contact-us). Você precisa entrar nessa conta ao criar o conector na etapa 1.
+- Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
 - Obtenha o nome de usuário e a senha para a conta de margem de atraso da sua organização. Você precisará entrar nessa conta na etapa 2 ao configurar a descoberta eletrônica de margem de atraso.
 

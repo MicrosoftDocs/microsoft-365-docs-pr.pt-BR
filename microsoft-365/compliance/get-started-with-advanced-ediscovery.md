@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: cc593009337a9b78285fbcf98ad78dbf1899bce1
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 47647c2f4f944812fa066be272a39ded77099c75
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357501"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405411"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Introdução à Descoberta Eletrônica Avançada
 
@@ -141,11 +141,11 @@ Para começar a usar a descoberta eletrônica avançada, aqui está um fluxo de 
 
    - Os dados da caixa de correio do Exchange do responsáveis, da conta do OneDrive e de qualquer grupo do Microsoft Teams ou do Yammer para os quais o responsáveis é membro podem ser "marcados" como dados do custodial no caso.
   
-   - Os dados dos responsáveis são re-indexados (por um processo chamado *indexação avançada*). Isso ajuda a otimizar a pesquisa para ele na próxima etapa.
+   - Os dados dos responsáveis são reindexados (por um processo chamado *indexação avançada*). Isso ajuda a otimizar a pesquisa para ele na próxima etapa.
   
    - Você pode colocar um bloqueio nos dados dos responsáveis. Isso preserva os dados que podem ser relevantes para o caso durante a investigação.
   
-   - Você pode associar outras fontes de dados a um funcionário (por exemplo, você pode associar um site do SharePoint ou um grupo do Microsoft 365 a um funcionário) para que esses dados possam ser reindexados, colocados em retenção e pesquisados, como os dados da caixa de correio ou da conta do OneDrive do responsáveis.
+   - Você pode associar outras fontes de dados a um funcionário (por exemplo, você pode associar um site do SharePoint ou um grupo do Microsoft 365 a um funcionário) para que esses dados possam ser reindexados, colocados em retenção e pesquisados, como os dados na caixa de correio ou na conta do OneDrive do responsáveis.
 
    - Você pode usar o [fluxo de trabalho de comunicações](managing-custodian-communications.md) em descoberta eletrônica avançada para enviar uma notificação de retenção legal para os responsáveis.
 
@@ -157,7 +157,7 @@ Para começar a usar a descoberta eletrônica avançada, aqui está um fluxo de 
 
    - Revise uma consulta e execute a pesquisa novamente.
 
-3. **[Adicione dados a um conjunto de revisão](add-data-to-review-set.md)**. Depois de configurar e verificar se uma pesquisa retorna os dados desejados, a próxima etapa é adicionar os resultados da pesquisa a um conjunto de revisão. Quando você adiciona dados a um conjunto de revisão, os itens são copiados do seu local original para um local seguro de armazenamento do Azure. Os dados são novamente reindexados para otimizá-lo para pesquisas completas e rápidas ao revisar e analisar itens no conjunto de revisão. Além disso, você também pode [Adicionar dados que não sejam do Office 365 em um conjunto de revisão](load-non-office-365-data-into-a-review-set.md).
+3. **[Adicione dados a um conjunto de revisão](add-data-to-review-set.md)**. Depois de configurar e verificar se uma pesquisa retorna os dados desejados, a próxima etapa é adicionar os resultados da pesquisa a um conjunto de revisão. Quando você adiciona dados a um conjunto de revisão, os itens são copiados do seu local original para um local seguro de armazenamento do Azure. Os dados são reindexados novamente para otimizá-los para pesquisas completas e rápidas durante a revisão e análise de itens no conjunto de revisão. Além disso, você também pode [Adicionar dados que não sejam do Office 365 em um conjunto de revisão](load-non-office-365-data-into-a-review-set.md).
 
    Há também um tipo especial de análise configurada para a qual você pode adicionar dados, chamado de *análise de conversa*. Esses tipos de conjuntos de análise fornecem recursos de reconstrução de conversa para reconstruir, revisar e exportar conversas encadeadas como as do Microsoft Teams. Para obter mais informações, consulte [revisar conversas na descoberta eletrônica avançada](conversation-review-sets.md).
 

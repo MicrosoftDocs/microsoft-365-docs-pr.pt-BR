@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: Saiba como os administradores podem excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 52cfe237bb05bc151058a41914af5725bdacee18
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: d0983a3ce10a3980f23af68736acac1382ef938f
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321958"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405462"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>Excluir itens na pasta de Itens recuperáveis de caixas de correio baseadas em nuvem em retenção
 
@@ -292,7 +292,7 @@ Veja a seguir uma visão geral do processo de pesquisa e exclusão de itens na p
 
 3. Use o cmdlet **New-ComplianceSearch** (no PowerShell do centro de conformidade e segurança &) ou use a ferramenta de pesquisa de conteúdo no centro de conformidade para criar uma pesquisa de conteúdo que retorne itens da pasta itens recuperáveis do usuário de destino. Você pode fazer isso incluindo FolderId na consulta de pesquisa para todas as subpastas que você deseja pesquisar. Por exemplo, a consulta a seguir retorna todas as mensagens nas subpastas expurgadas e eDiscoveryHolds:
 
-   ```powershell
+   ```text
    folderid:<folder ID of Purges subfolder> OR folderid:<folder ID of DiscoveryHolds subfolder>
    ```
 
@@ -307,8 +307,15 @@ Veja a seguir uma visão geral do processo de pesquisa e exclusão de itens na p
    New-ComplianceSearchAction -SearchName "RecoverableItems" -Purge -PurgeType HardDelete
    ```
 
-   > [!NOTE]
-   > Um máximo de 10 itens (por caixa de correio) é excluído quando você executa o comando anterior. Isso significa que talvez seja necessário executar o `New-ComplianceSearchAction -Purge` comando várias vezes para excluir os itens que você deseja excluir na pasta itens recuperáveis.
+5. Um máximo de 10 itens por caixa de correio é excluído quando você executa o comando anterior. Isso significa que você pode ter que executar o `New-ComplianceSearchAction -Purge` comando várias vezes para excluir todos os itens que você deseja excluir na pasta itens recuperáveis. Para excluir itens adicionais, primeiro é necessário remover a ação anterior de limpeza da pesquisa de conformidade. Para fazer isso, execute o `Remove-ComplianceSearchAction` cmdlet. Por exemplo, para excluir a ação de limpeza executada na etapa anterior, execute o seguinte comando:
+
+   ```powershell
+   Remove-ComplianceSearchAction "RecoverableItems_Purge"
+   ```
+
+   Depois de fazer isso, você pode criar uma nova ação de limpeza de pesquisa de conformidade para excluir mais itens. Você terá que excluir cada ação de limpeza antes de criar uma nova.
+
+   Para obter uma lista das ações de pesquisa de conformidade, você pode executar o `Get-ComplianceSearchAction` cmdlet. As ações de limpeza são identificadas por `_Purge` anexados ao nome da pesquisa.
 
 ### <a name="verify-that-items-were-deleted"></a>Verificar se os itens foram excluídos
 
