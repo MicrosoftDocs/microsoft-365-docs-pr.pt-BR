@@ -13,17 +13,29 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 72155563a3249aa61075bc9f246b2a553e7b5191
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: f1606e62813aa63225113b38414338c4e2ff7d57
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289598"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405672"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
 Este artigo lista artigos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os artigos "atualizados" são aqueles que tiveram inclusões de material ou correções, correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
 
+## <a name="august-2020"></a>Agosto de 2020
+Artigo novo ou alterado | Descrição
+--- | ---
+[Relatório do inventário do dispositivo](working-with-managed-desktop/device-inventory-report.md) | Novo artigo
+[Novo aplicativo do Microsoft Edge](get-started/edge-browser-app.md) | Artigo atualizado
+[Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
+[Registrar dispositivos existentes sozinho](get-started/register-reused-devices-self.md) | Artigo atualizado
+[Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
+[Operações de segurança na área de trabalho gerenciada da Microsoft](service-description/security-operations.md) | Novo artigo
+[Acessar o portal de administração](get-started/access-admin-portal.md) | Artigo atualizado
+[Microsoft 365 Apps para empresas](get-started/m365-apps.md) | Novo artigo
+[Privacidade e dados pessoais](service-description/privacy-personal-data.md) | Novo artigo
 
 ## <a name="july-2020"></a>Julho de 2020
 Artigo novo ou alterado | Descrição
@@ -51,7 +63,7 @@ Artigo novo ou alterado | Descrição
 ## <a name="may-2020"></a>Maio de 2020
 Artigo novo ou alterado | Descrição
 --- | ---
-[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Etapas para registrar dispositivos de Parceiros](get-started/register-devices-partner.md) | Artigo atualizado
 [Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
@@ -121,7 +133,7 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Exceções para o plano de serviço](service-description/customizing.md) | Novo artigo
-[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
 [Mudanças de serviço e comunicação](service-description/servicechanges.md) | Novo artigo
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
@@ -135,7 +147,7 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
-[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
 [Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop](working-with-managed-desktop/config-setting-deploy.md) | Artigo atualizado
 [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
@@ -150,7 +162,7 @@ Artigo novo ou alterado | Descrição
 --- | ---
 [Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Artigo atualizado
 [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
-[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
 [Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
 
@@ -183,7 +195,7 @@ Artigo novo ou alterado | Descrição
 [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo artigo
 [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo artigo
 [Ordenar dispositivos de área de trabalho gerenciada da Microsoft](get-started/devices.md) | Artigo atualizado
-[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Novo artigo
+[Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Novo artigo
 
 ## <a name="april-2019"></a>Abril de 2019
 Artigo novo ou alterado | Descrição

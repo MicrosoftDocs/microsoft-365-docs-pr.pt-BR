@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre vários recursos de relatório no Microsoft 365, incluindo o Active Directory do Azure e o Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3beb327bd5cb995c378a414e19cc54dea8ad1304
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 59a7569518ad3e4704b3528d175c092b0a19b819
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332731"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407911"
 ---
 # <a name="microsoft-365-reporting-features"></a>Recursos de relatório do Microsoft 365
 
@@ -71,9 +71,9 @@ Os relatórios de auditoria do Exchange Online incluem detalhes sobre o acesso �
 
 ## <a name="device-compliance-reports"></a>Relatórios de conformidade do dispositivo
 
-Você gerencia e protege dispositivos móveis conectados à sua assinatura usando o gerenciamento de dispositivo móvel (MDM) do Microsoft 365. Os dispositivos móveis usados para acessar email, calendário, contatos e documentos do trabalho têm uma parte significativa para garantir que os funcionários possam trabalhar a qualquer momento e de qualquer lugar. É fundamental que você proteja as informações da sua organização. Você usa o Microsoft 365 MDM para definir políticas de segurança de dispositivo e regras de acesso. Se perdido ou roubado, você também usa o Microsoft 365 MDM para apagar dispositivos móveis.
+Você gerencia e protege dispositivos móveis conectados à sua assinatura usando mobilidade básica e segurança para o Microsoft 365. Os dispositivos móveis usados para acessar email, calendário, contatos e documentos do trabalho têm uma parte significativa para garantir que os funcionários possam trabalhar a qualquer momento e de qualquer lugar. É fundamental que você proteja as informações da sua organização. Você usa a mobilidade básica e a segurança do Microsoft 365 para definir políticas de segurança de dispositivos e regras de acesso. Se perdido ou roubado, você também usa a mobilidade básica e a segurança do Microsoft 365 para limpar dispositivos móveis.
 
-Os relatórios de conformidade do MDM fornecem uma visão geral das políticas configuradas por uma organização para proteger dispositivos móveis que acessam os dados 365 da Microsoft. O relatório permite a filtragem de dispositivos por status de conformidade, violações relatadas, dispositivos bloqueados e quantos dispositivos foram apagados como resultado de políticas de segurança. Para obter mais informações, consulte [Overview of Mobile Device Management for Microsoft 365](https://support.microsoft.com/office/overview-of-mobile-device-management-mdm-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a).
+Relatórios de segurança e mobilidade básica fornecem uma visão geral das políticas configuradas por uma organização para proteger dispositivos móveis que acessam os dados 365 da Microsoft. O relatório permite a filtragem de dispositivos por status de conformidade, violações relatadas, dispositivos bloqueados e quantos dispositivos foram apagados como resultado de políticas de segurança. Para obter mais informações, consulte [Overview of Basic Mobility and Security for Microsoft 365](https://support.microsoft.com/office/overview-of-basic-mobility-and-security-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a).
 
 ## <a name="data-loss-prevention"></a>Prevenção contra perda de dados
 

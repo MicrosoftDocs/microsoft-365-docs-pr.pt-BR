@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Uma visão geral dos recursos de auditoria e relatórios no Office 365, no Microsoft 365 e no serviço Assurance.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 11dbf29faf028ec9ed0274c806fc8c8979a6f1fd
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 297eba449515eeadf462d4a6d09e585f1da6209d
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332575"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407945"
 ---
 # <a name="auditing-and-reporting-in-microsoft-cloud-services"></a>Auditoria e relatórios nos serviços em nuvem da Microsoft
 
@@ -37,7 +37,7 @@ Esses centros incluem painéis de navegação para o acesso a vários recursos:
 
 - **Alertas:** Permite gerenciar alertas, exibir alertas relacionados à segurança e gerenciar alertas avançados usando o [Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security).
 - **Permissões:** Permite que você [atribua permissões](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center) como o administrador de conformidade, o Gerenciador de descoberta eletrônica e outros usuários em sua organização para que eles possam realizar tarefas nesses centros. Você atribui permissões para a maioria dos recursos em cada centro, mas outras permissões devem ser configuradas usando o centro de administração do Exchange e o centro de administração do SharePoint.
-- **Gerenciamento de ameaças:** Permite que você crie e aplique políticas de gerenciamento de dispositivos usando o [Gerenciamento de dispositivos móveis do Microsoft 365](https://support.microsoft.com/office/overview-of-mobile-device-management-mdm-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a), para configurar políticas de [prevenção de perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) (DLP) para sua organização, para configurar o filtro de emails, o anti-malware, o DomainKeys identificad mail (DKIM), anexos seguros, links seguros e aplicativos OAuth.
+- **Gerenciamento de ameaças:** Permite que você crie e aplique políticas de gerenciamento de dispositivos usando [mobilidade e segurança básica para o Microsoft 365](https://support.microsoft.com/office/overview-of-basic-mobility-and-security-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a), para configurar políticas de [prevenção de perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) (DLP) para sua organização, para configurar filtragem de email, Antimalware, DomainKeys identificadas por email (DKIM), anexos seguros, links seguros e aplicativos OAuth.
 - **Governança de dados:** Permite que você [importe dados de email ou do SharePoint de outros sistemas para o Microsoft 365](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84), [Configure caixas de correio de arquivo morto](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)e defina [as políticas de retenção](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) para email e outros conteúdos dentro da sua organização.
 - **Investigação de & de pesquisa:** Fornece ferramentas de [pesquisa de conteúdo](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a), [log de auditoria](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c), quarentena e gerenciamento de [casos de descoberta eletrônica](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) para rapidamente analisar a atividade nas caixas de correio do Exchange Online, grupos e pastas públicas, SharePoint Online e onedrive for Business.
 - **Relatórios:** Permite acessar rapidamente [relatórios](https://support.office.com/article/Reports-in-the-Office-365-Security-Compliance-Center-7acd33ce-1ec8-49fb-b625-43bac7b58c5a) do SharePoint Online, onedrive for Business, Exchange Online e Azure AD.

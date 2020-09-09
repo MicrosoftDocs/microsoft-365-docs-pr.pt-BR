@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 7118bca15102fd52e7825ee873187fa11d9fc0f9
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a68baf8f2598b8ca0cd13e45d18919ecfdccdacc
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308190"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407923"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -106,21 +106,23 @@ As seguintes configurações de spoof estão disponíveis em políticas anti-phi
     - [Gerenciar arquivos e mensagens em quarentena como um administrador no Microsoft 365](manage-quarantined-messages-and-files.md)
     - [Localizar e liberar mensagens em quarentena como um usuário no Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-- **Remetente não autenticado**: Confira a descrição na próxima seção.
+- **Remetente não autenticado**: Confira as informações na próxima seção.
 
 ### <a name="unauthenticated-sender"></a>Remetente não autenticado
 
 A identificação de remetentes não autenticados faz parte das [configurações de spoof](#spoof-settings) que estão disponíveis em políticas anti-phishing e políticas antiphishing ATP, conforme descrito na seção anterior.
 
-A configuração de **remetente não autenticado** habilita ou desabilita a identificação de remetente não identificado no Outlook. Especificamente:
+A configuração de **remetente não autenticado** habilita ou desabilita a identificação de remetente não autenticado no Outlook. Especificamente:
 
-- Um ponto de interrogação (?) será adicionado à foto do remetente se a mensagem não passar verificações SPF ou DKIM **e** a mensagem não passar DMARC ou [autenticação composta](email-validation-and-authentication.md#composite-authentication).
+- Um ponto de interrogação (?) será adicionado à foto do remetente se a mensagem não passar verificações SPF ou DKIM **e** a mensagem não passar DMARC ou [autenticação composta](email-validation-and-authentication.md#composite-authentication). Desabilitar a identificação de remetentes não autenticados impede que o ponto de interrogação seja adicionado à foto do remetente.
 
-- A marca via (chris@contoso.com <u>via</u> Michelle@fabrikam.com) será adicionada se o domínio no endereço de (o remetente da mensagem exibido em clientes de email) for diferente do domínio na assinatura do DKIM ou do endereço **de email do** remetente. Para obter mais informações sobre esses endereços, consulte [uma visão geral dos padrões de mensagens de email](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+- A marca via (chris@contoso.com <u>via</u> Michelle@fabrikam.com) será adicionada se o domínio no endereço de (o remetente da mensagem exibido em clientes de email) for diferente do domínio na assinatura do DKIM ou do endereço **de email do** remetente. Para obter mais informações sobre esses endereços, consulte [uma visão geral dos padrões de mensagens de email](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards).
 
-Para impedir que esses identificadores sejam adicionados às mensagens de remetentes específicos, você tem as seguintes opções:
+  Desabilitar a identificação de remetente não autenticado não impede que a marca via seja adicionada se o domínio no endereço de for diferente do domínio na assinatura do DKIM ou do endereço de email do remetente.
 
-- Permitir que o remetente falsifique na política de inteligência de falsificação. Para obter instruções, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
+Para impedir que o ponto de interrogação ou por meio da marca seja adicionado a mensagens de remetentes específicos, você tem as seguintes opções:
+
+- Permitir que o remetente falsifique na política de inteligência de falsificação. Esta ação impedirá que a marca via seja exibida em mensagens do remetente quando a identificação de remetente não autenticado estiver desabilitada. Para obter instruções, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
 
 - [Configurar a autenticação de email](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) para o domínio do remetente.
   

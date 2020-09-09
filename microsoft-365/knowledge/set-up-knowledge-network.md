@@ -11,12 +11,12 @@ ms.service: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: ba8cb8ceb3c98019099bfe5438d274c9d2b32280
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: d6495f297f09ddc167d7c36835ac82a15abc91ac
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612543"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405636"
 ---
 # <a name="set-up-knowledge-management-preview"></a>Configurar o gerenciamento de conhecimento (versão prévia)
 
@@ -38,7 +38,7 @@ Você pode usar o centro de administração do Microsoft 365 para configurar e c
 
 Um administrador também pode [fazer alterações nas configurações selecionadas a qualquer momento após a configuração](manage-knowledge-network.md) , por meio das configurações de gerenciamento de conhecimento no centro de administração do Microsoft 365.
 
-## <a name="requirements"></a>Requisitos 
+## <a name="requirements"></a>Requirements 
 Você deve ter permissões de administrador global ou administrador do SharePoint para poder acessar o centro de administração do Microsoft 365 e configurar tarefas de conhecimento organizacional.
 
 ## <a name="set-up-your-knowledge-network"></a>Configurar sua rede de conhecimento
@@ -71,11 +71,27 @@ Para configurar sua rede de conhecimento:
    
 5. Na seção **excluir tópicos por nome** , você pode optar por incluir nomes de tópicos que não deseja que estejam nos resultados detectados. Use essa configuração para impedir que tópicos confidenciais sejam incluídos como parte da rede de conhecimento. As opções incluem:</br>
     a. **Não excluir nenhum tópico** </br>
-    b. **Excluir tópico que contenha estes termos**: se você tiver tópicos que você não deseja mostrar aos usuários como parte da rede de conhecimento.
-   – Baixar o modelo fornecido.
-   – Insira os nomes dos tópicos que você deseja excluir. Você deve indicar o tipo de correspondência como Exact ou partial. Correspondência exata significa que os tópicos que se encaixam no termo exato serão excluídos. A correspondência parcial é mais estrita e significa que os tópicos que contêm o termo serão excluídos. Por exemplo, se você inserir *Doc* como o nome do tópico, o *assembly doc* será excluído enquanto o *Docker* não. Os nomes dos tópicos não diferenciam maiúsculas de minúsculas.  
-        -Selecione  **+**   para importar o arquivo CSV concluído. Em seguida, selecione **carregar**. Você verá uma marca de seleção verde se o arquivo tiver sido processado com êxito. Selecione **Avançar**.</br>
+    b. **Excluir tópicos por nome**: se você tiver tópicos que não deseja mostrar aos usuários como parte da rede de conhecimento.</br>
 
+    ![Excluir tópicos](../media/content-understanding/topics-excluded-by-name.png) </br>
+
+    #### <a name="how-to-exclude-topics-by-name"></a>Como excluir tópicos por nome    
+
+    Se você precisar excluir tópicos, depois de selecionar **excluir tópicos por nome**, selecione **baixar o modelo. csv**. Use o Excel. Modelo CSV para incluir uma lista de tópicos que você deseja excluir dos resultados da descoberta.
+
+    ![Excluir tópicos no modelo CSV](../media/content-understanding/csv1.png) </br>
+
+    No modelo CSV, insira as seguintes informações sobre os tópicos que você deseja excluir:
+
+    - **Name**: digite o nome do tópico que você deseja excluir. Há duas maneiras de fazer isso:</br>
+        - Correspondência exata: você pode incluir o nome exato ou o acrônimo (por exemplo, *contoso* ou *ATL*).</br>
+        - Correspondência parcial: você pode excluir todos os tópicos que possuem uma palavra específica.  Por exemplo, o *arco* excluirá todos os tópicos com a palavra *arco* nele, como *círculo de arco*, solda de arco de *plasma*ou arco de *treinamento*. Observe que ele não excluirá tópicos nos quais o texto está incluído como parte de uma palavra, como *arquitetura*.</br>
+    - **Expansão (opcional)**: se você deseja excluir um acrônimo, digite as palavras que o acrônimo significa.</br>
+    - **MatchType-Exact/partial**: digite se o nome inserido foi um tipo de correspondência *exata* ou *parcial* .</br>
+
+    Depois de concluir e salvar o arquivo de modelo CSV, selecione **procurar** para localizá-lo e selecioná-lo.
+    
+    Selecione **Avançar**.</br>
 
 6. Na página **quem pode ver os tópicos e onde eles podem vê-los** , você configurará a visibilidade do tópico. Na configuração **quem pode ver os tópicos da configuração de rede de conhecimento** , você escolhe quem terá acesso aos detalhes do tópico, como tópicos realçados, cartões de tópicos, respostas de tópicos em pesquisa e páginas de tópicos. Você pode selecionar:</br>
     a. **Todos em sua organização**</br>
