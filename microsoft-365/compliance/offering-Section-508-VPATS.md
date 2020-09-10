@@ -3,7 +3,7 @@ title: Seção U.S. 508
 description: A Microsoft oferece relatórios de conformidade de acessibilidade detalhados para muitos dos seus serviços em nuvem descrevendo os recursos de acessibilidade desses serviços.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7f61248fc6e31d0982eedd153aa71ae3eed71de5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 1037232f7e72bd6d82cd0818dfad2ca2722144ec
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066294"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415339"
 ---
 # <a name="us-section-508"></a>Seção U.S. 508
 
@@ -33,7 +33,7 @@ A Microsoft é um grande provedor de softwares e serviços em nuvem para governo
 
 A consideração da Microsoft da seção 508 dos EUA no desenvolvimento de produtos e serviços aponta para seu compromisso de tornar a tecnologia e os dados acessíveis para todos os clientes.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure e Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services

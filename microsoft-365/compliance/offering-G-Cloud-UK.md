@@ -3,7 +3,7 @@ title: Governo do Reino Unido-nuvem (G-Cloud)
 description: O serviço comercial de coroa renovou a classificação dos serviços de nuvem da Microsoft para a nuvem do governo v. 6.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6392c591ab5db083f00da97c50e6c388e8656815
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 2d0498ab48190758f6f21f538eefe131fb1edd70
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560768"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416047"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Governo do Reino Unido-nuvem (G-Cloud)
 
@@ -39,7 +39,7 @@ O compromisso dos serviços da Microsoft para o mercado digital significa que ag
 
  [14 controles de segurança na nuvem para a nuvem do Reino Unido usando o Microsoft Azure](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/) fornece estratégias de cliente para mover seus serviços para o Azure e ajudar a atender às obrigações do Reino Unido obrigatórias pelo CESG/NSCS. O White paper fornece informações sobre como o Azure pode ser usado para ajudar a lidar com os 14 controles descritos nas entidades de segurança na nuvem e descreve como os clientes podem se movimentar mais rapidamente e obter mais, ao mesmo tempo, economizar dinheiro à medida que eles adotarem os serviços do Microsoft Azure.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Segurança no aplicativo na nuvem da Microsoft
@@ -47,7 +47,7 @@ O compromisso dos serviços da Microsoft para o mercado digital significa que ag
 - Intune
 - Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Office 365: Exchange Online, SharePoint Online e Skype for Business Online
-- Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados

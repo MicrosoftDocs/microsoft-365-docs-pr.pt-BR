@@ -3,7 +3,7 @@ title: Código de conduta ISO/IEC 27018 para a proteção de dados pessoais na n
 description: A Microsoft foi o primeiro provedor de nuvem a aderir a esse código de conduta de privacidade na nuvem.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a5e5879bf176c7be72ead3c80c91934d0a1c5a01
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 176c80309e3a99707191c2dfba37e5147c875b17
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254410"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417695"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>Código de Conduta ISO/IEC 27018 para Proteção de Dados Pessoais na Nuvem
 

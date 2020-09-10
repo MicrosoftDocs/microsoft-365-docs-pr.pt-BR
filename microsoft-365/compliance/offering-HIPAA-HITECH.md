@@ -3,7 +3,7 @@ title: O Health Insurance Portability and Accountability (HIPAA) & funciona
 description: A Microsoft oferece portabilidade de seguro de saúde & acordos de associação de negócios (BAAs) de prestação de responsabilidade.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 825d8bac0d20534310864801b1d8eaef32c9b417
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: bb1452bc0f33b56cd9fee6bb4846a8e623c0b96a
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936346"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416845"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -34,7 +34,7 @@ A legislação regula o uso e a disseminação de PHI em quatro áreas gerais:
 - Identificadores, que são os tipos de informações que não podem ser liberados se coletados para fins de pesquisa.
 - Códigos para transmissão eletrônica de dados em transações relacionadas à saúde, incluindo declarações de qualificação e de seguro e pagamentos.
 
-O escopo do HIPAA foi estendido com o enactment da tecnologia de informações de integridade para ato econômico e de integridade clínica (alta tecnologia). Juntas, as regras de decreto HIPAA e de alta tecnologia incluem:
+O escopo do HIPAA foi estendido com o enactment da tecnologia de informações de integridade para as regras econômicas e de saúde clínicas. juntas, a HIPAA e a alta tecnologia Act incluem:
 
 - A regra de privacidade da HIPAA, que se concentra no direito de pessoas a controlar o uso de suas informações pessoais e abrange a confidencialidade da PHI, limitando seu uso e divulgação.
 - A regra de segurança HIPAA, que define os padrões para salvaguardas administrativas, técnicas e físicas para proteger o PHI eletrônico contra acesso, uso e divulgação não autorizados. Também inclui esses requisitos organizacionais como Business Association Agreements (BAAs).
@@ -51,7 +51,7 @@ Os serviços de nuvem corporativa da Microsoft também são cobertos por avalia�
 
 Para saber como a nuvem da Microsoft ajuda os clientes a oferecer suporte à HIPAA e aos requisitos de alta tecnologia, visite as [histórias de clientes da Microsoft](https://customers.microsoft.com).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Segurança no aplicativo na nuvem da Microsoft

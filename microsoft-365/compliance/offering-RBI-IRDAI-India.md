@@ -3,7 +3,7 @@ title: Reservar o banco da Índia (RBI) e autoridade de desenvolvimento e regula
 description: A Microsoft publicou orientações para ajudar instituições financeiras na Índia com adoção em nuvem.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d76289740a117979ec4ac2d91a2e24782995d0fb
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: c037a36154f14cc0db2092bc2eeea6344b5544ff
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066178"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416067"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reservar o banco da Índia (RBI) e autoridade de desenvolvimento e regulamentação de seguros da Índia (IRDAi)
 
@@ -43,7 +43,7 @@ Quando as instituições financeiras indianas terceirizam as atividades de negó
 
 A lista de verificação da Microsoft ajuda as empresas financeiras na Índia que estão conduzindo avaliações de auditoria detalhada dos serviços de nuvem do Microsoft Business e incluem:
 
-- Visão geral do panorama normativo para o contexto.
+- Uma visão geral do panorama normativo para o contexto.
 - Uma lista de verificação que define os problemas a serem endereçados e mapeia os serviços do Microsoft Azure, Microsoft Dynamics 365 e Microsoft Office 365 contra essas obrigações regulamentares. A lista de verificação pode ser usada como uma ferramenta para medir a conformidade em relação a uma estrutura regulatória, fornecer uma estrutura interna para a documentação de conformidade e ajudar os clientes a realizar suas próprias avaliações de risco dos serviços de nuvem de negócios da Microsoft.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
@@ -55,7 +55,7 @@ A lista de verificação da Microsoft ajuda as empresas financeiras na Índia qu
 ## <a name="how-to-implement"></a>Como implementar
 
 - [Lista de verificação de conformidade para a Índia](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): as empresas financeiras podem obter ajuda na condução de avaliações de risco do Microsoft Business Cloud Services.
-- [Guia de Conformidade & Avaliação de Risco ](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
+- [Guia de Conformidade e Avaliação de Risco ](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): crie um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
 - [Casos de uso financeiro do Azure](https://docs.microsoft.com/azure/industry/financial/): visões gerais de caso de uso, tutoriais e outros recursos para criar soluções do Azure para serviços financeiros.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes

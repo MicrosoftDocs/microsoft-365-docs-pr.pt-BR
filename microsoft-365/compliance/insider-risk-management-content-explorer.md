@@ -3,7 +3,7 @@ title: Gerenciador de conteúdo de gerenciamento de risco do insider
 description: Saiba mais sobre o Gerenciador de conteúdo de gerenciamento de risco do insider no Microsoft 365
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: dee4ed05f4210530dddeff8ac62ee3f39903abca
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 1523e80f187cd7df6d8e44b91b85c39608e2f49c
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199811"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416485"
 ---
 # <a name="insider-risk-management-content-explorer"></a>Gerenciador de conteúdo de gerenciamento de risco do insider
 
@@ -65,7 +65,7 @@ Para adicionar ou remover cabeçalhos de coluna para a fila de conteúdo, use o 
 | **Assunto** | O texto na linha de assunto de uma mensagem de email. |
 | **Assunto/título** | Para email, o texto na linha de assunto de uma mensagem. Para documentos, o título do documento. Como explicado anteriormente, a propriedade Title é Metadata especificado em documentos do Microsoft Office. Você pode digitar o nome de mais de um assunto/título, separados por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador OR. |
 | **Lista de temas** | Lista de temas conforme calculado para análise. |
-| **Title** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
+| **Título** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
 | **To** | O destinatário de uma mensagem de email no campo para. |
 
 ## <a name="advanced-search-conditions"></a>Condições de pesquisa avançada
@@ -170,6 +170,6 @@ A tabela a seguir lista as condições de propriedade dos documentos disponívei
 | **ID do representante** | Identificador numérico de cada conjunto de duplicatas exatas. |
 | **Marcas** | Marcas aplicadas em um conjunto de revisão. |
 | **Lista de temas** | Lista de temas conforme calculado para análise. |
-| **Title** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
+| **Título** | O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento. |
 | **Foi corrigido** | True se o item foi corrigido, caso contrário, false. |
 | **Contagem de palavras** | O número de palavras em um arquivo. |

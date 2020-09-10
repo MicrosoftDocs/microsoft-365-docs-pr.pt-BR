@@ -3,7 +3,7 @@ title: Parâmetros da Center for Internet Security (CIS)
 description: A Center for Internet Security (CIS) publicou uma série de parâmetros para produtos e serviços da Microsoft
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8e147e26072609a43d962b1d9fc7e71925510da4
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: d8b24885b1d1a80380d0e9ad5c7942bb31ba054c
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064690"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416715"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Parâmetros da Center for Internet Security (CIS)
 

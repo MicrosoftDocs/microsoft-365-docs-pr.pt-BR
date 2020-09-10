@@ -3,7 +3,7 @@ title: Gerenciamento de serviços de tecnologia da informação ISO/IEC 20000-1:
 description: A Microsoft é certificada por sua implementação dessas normas de gerenciamento de serviços.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 00657f3e1e223305c4e4a4202e8ff6f612b5374e
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: b9faa64baf5a361c9b4836ed78ed188b552b37e6
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254194"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416279"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>Gerenciamento de serviços de tecnologia da informação ISO/IEC 20000-1:2011
 

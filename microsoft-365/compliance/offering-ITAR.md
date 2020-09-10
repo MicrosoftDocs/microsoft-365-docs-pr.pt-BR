@@ -3,7 +3,7 @@ title: Normas de tráfego internacional em braços (ITAR)
 description: O governo do Azure oferece suporte a clientes que montam tráfego internacional em braços regs-capable Systems.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c19b10b436d40364d15ce6bf8569d18b0a0e7b7b
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 6019e215e99af672f7e938b11abdac8732c152fa
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065726"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417635"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>Normas de tráfego internacional em braços (ITAR)
 
@@ -39,7 +39,7 @@ O ITAR tem obrigações específicas para relatar violações, que podem fornece
   
 Os clientes que procuram os dados do ITAR regulamentados devem funcionar com suas equipes de conta e licenciamento da Microsoft para saber mais, obter contratos adequados e acessar informações relevantes da arquitetura do sistema.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)

@@ -3,7 +3,7 @@ title: Notificação de Violação do Azure e do Dynamics 365 no GDPR
 description: Como o Azure e o Dynamics 365 protegem contra a violação de dados pessoais e como a Microsoft responderá e notificará se ocorrer uma violação.
 keywords: Azure, Microsoft 365, Dynamics 365, documentação da Microsoft 365, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f1964d4f4406e7a7070e3cf272a1386f14528517
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 838e2ee09ea80f07c637eeebd1229b63f01ad00b
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558091"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415895"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Notificação de Violação do Azure e do Dynamics 365 no GDPR
 

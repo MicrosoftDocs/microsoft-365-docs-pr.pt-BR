@@ -3,7 +3,7 @@ title: FedRAMP (Programa Federal de Gerenciamento de Autorização e Risco)
 description: A Microsoft recebeu o programa de gerenciamento de risco e autorização federal da US, P-ATOs e ATOs.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0ddb997246f2b7a23b25e1b611170c6163e1d670
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: c91c71f199ef36c1c9a0da023c7b26d6cb64282e
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781469"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415775"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP (Programa Federal de Gerenciamento de Autorização e Risco)
 
@@ -63,7 +63,7 @@ Dynamics 365 o governo dos EUA recebeu um ATO de agência de FedRAMP no nível d
 - O Office 365 defesa do governo dos EUA tem um P-ATO da DISA (Agência de sistemas de informações de defesa dos EUA). Qualquer cliente que deseje implantar o Office 365 a defesa do governo dos EUA pode usar o P-ATO de DISA para gerar um ATO de agência para documentar sua aceitação.
 - O Office 365 (planos corporativos e comerciais) e o Office 365 governo dos EUA têm um ATO de agência FedRAMP no nível de impacto moderado do Office DHHS do inspetor geral. Office 365 o governo dos EUA foi o primeiro serviço de colaboração e email baseado em nuvem a obter essa autorização.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://go.microsoft.com/fwlink/p/?linkid=2095323)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)

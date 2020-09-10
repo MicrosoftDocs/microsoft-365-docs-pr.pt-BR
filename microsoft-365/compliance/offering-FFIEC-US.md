@@ -3,7 +3,7 @@ title: Conselho Federal de análise de instituições financeiras (FFIEC)
 description: A Microsoft ajuda os clientes de serviços financeiros a cumprir os requisitos de auditoria do FFIEC (Conselho de análise de instituições financeiras federais).
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c30f92bbbe3458fe4751f829b02203f622414cda
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 34feea4f90ddbb4036bb08c5548696f4fcd649a9
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800092"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417315"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Conselho Federal de análise de instituições financeiras (FFIEC)
 
@@ -42,7 +42,7 @@ Para ajudar os clientes da instituição financeira a atender aos requisitos de 
 
 Para ajudá-lo a atender aos requisitos do FFIEC, os serviços de nuvem da Microsoft fornecem [relatórios de atestado de SOC](offering-SOC.md) produzidos por uma firma CPA independente. Por exemplo, o atestamento do tipo 2 do SOC 1 é baseado no AICPA SSAE 18 Standard (consulte AT-C seção 105) que substituiu a SAS 70 e é apropriado para relatar certos controles para relatórios financeiros. Os relatórios do SOC incluem a opinião do auditor sobre a eficácia dos controles da Microsoft em atingir os objetivos de controle relacionados durante o período de monitoramento especificado. As instituições financeiras podem usar essa auditoria formal ao obter obrigações de conformidade específicas de FFIEC para ativos implantados no Azure, no Power BI e no Office 365.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune

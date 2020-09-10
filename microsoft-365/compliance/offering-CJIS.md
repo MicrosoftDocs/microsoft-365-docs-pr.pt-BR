@@ -3,7 +3,7 @@ title: Política de segurança de serviços de informações de justiça crimina
 description: Os serviços de nuvem do Microsoft governo aderem à política de segurança de serviços de informações de justiça criminal dos EUA.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 02be641b93ffdb245ae6073358b66c1204e46093
-ms.sourcegitcommit: 4581afb3116ccd7d0144398e83cd6a6990e3683b
+ms.openlocfilehash: 5680cc1bf8f3a0290f82baaccea1de7b982317a7
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43772512"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416413"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Política de segurança de serviços de informações de justiça criminal (CJIS)
 
@@ -43,7 +43,7 @@ Saiba mais sobre os benefícios da política de segurança do CJIS na nuvem da M
 
 Saiba como acelerar sua política de segurança do CJIS com o plano de conformidade e segurança do Azure: [Baixe as diretrizes de implementação do CJIS para os serviços de nuvem do Microsoft governo](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
@@ -83,6 +83,6 @@ A Microsoft assina um contrato de informação com um CSA (CJIS Systems Agency) 
 - [Serviços de informações de justiça criminal](https://aka.ms/cjis)
 - [Política de segurança do CJIS](https://aka.ms/cjis-security-policy)
 - [Diretrizes de implementação do CJIS para o governo do Azure](https://aka.ms/cjisimplementationguidelines)
-- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/?linkid=2087246)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

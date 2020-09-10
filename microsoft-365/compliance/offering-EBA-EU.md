@@ -3,7 +3,7 @@ title: Autoridade Bancária Europeia(EBA)
 description: Diretrizes da Microsoft para ajudar instituições financeiras na UE seguir as recomendações da EBA para adoção da nuvem.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: efcdbf5700de94f268c1fbc62ca47b60c171fd45
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 6e680ac71b40b5b7e1b5128dc34c0c14bab0fe11
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064794"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415459"
 ---
 # <a name="european-banking-authority-eba"></a>Autoridade Bancária Europeia (EBA)
 

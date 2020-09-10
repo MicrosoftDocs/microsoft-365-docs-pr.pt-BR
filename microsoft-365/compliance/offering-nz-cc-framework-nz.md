@@ -3,7 +3,7 @@ title: Considerações de segurança e privacidade da computação em nuvem gove
 description: A Microsoft NZ aborda as perguntas publicadas na Nova Zelândia estrutura de computação em nuvem.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 99e7d28bea37ec282bd6358b5af81a3078dfdd38
-ms.sourcegitcommit: b7f4f1e04b27519b818d4255022b28f99fbe54af
+ms.openlocfilehash: 992f531a39fdb21a109099ed30f75591f010c476
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46852497"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417043"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Considerações de segurança e privacidade da computação em nuvem governamental Nova Zelândia
 
@@ -37,7 +37,7 @@ Para ajudar as agências a empreender sua análise e avaliação dos serviços d
 
 Saiba como acelerar sua implantação do Microsoft CC Framework com nosso plano de segurança e conformidade do Azure: [baixar a resposta do Azure para a estrutura CC do NZ](https://gallery.technet.microsoft.com/Response-to-GCIO-Cloud-e117bbb9)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

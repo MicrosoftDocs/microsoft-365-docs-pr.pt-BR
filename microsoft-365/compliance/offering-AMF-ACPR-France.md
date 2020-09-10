@@ -3,7 +3,7 @@ title: Autoridade Financeira (AMF) e Autoridade Prudencial (ACPR) da França
 description: Diretrizes da Microsoft para ajudar instituições financeiras da França na adoção da nuvem.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 931aab574fd5bea59c2dca997fdff02db8a2e1c6
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 21ad1cb8e0c3cabb02fc3ebe2110afe2888ab8fe
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066638"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416147"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>Autoridade Financeira (AMF) e Autoridade Prudencial (ACPR) da França
 

@@ -3,7 +3,7 @@ title: Padrão MTCS (Multi-Tier Cloud Security) para Singapura
 description: A Microsoft recebeu a certificação do Padrão Multi-Tier Cloud Security para Singapura.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ab6f199cd27e56a24641ec52ba640cf5e2f5777b
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 47cc5cf10f048640ead85d239881fa9b2603e699
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254460"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417495"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Padrão MTCS (Multi-Tier Cloud Security) para Singapura
 

@@ -3,7 +3,7 @@ title: Lista de serviços de nuvem certificados da Austrália (CCSL)
 description: A Microsoft está incluída na lista de serviços de nuvem certificados australiano para os marcadores de limitação de disseminação não classificados (DLM) e dados protegidos com base em uma avaliação e certificação do IRAP pelo centro de segurança da Austrália (ACSC).
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 98b669a216b5c3a875cb1a42fd0cc97fb6112f1b
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 0ff270c27c4b3d1a376b8b9ddefd1177cdd7823f
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222103"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417325"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Consultor programa de segurança de informações governamentais da Austrália (IRAP)
 
@@ -40,7 +40,7 @@ O programa avaliadores de segurança de informações registrados (IRAP) é regi
 
 A lista de serviços de nuvem certificados (CCSL) identifica os serviços em nuvem que concluíram com êxito uma avaliação do IRAP pelo governo australiano e recebeu a certificação do centro de segurança da Austrália (ACSC). A certificação reconhece a conclusão, a revisão e a aceitação bem-sucedida de uma avaliação abrangente realizada por uma consultor de segurança registrada, de forma que todas as agências governamentais australianas possam usá-las. O CCSL também pode ser referenciado pelas organizações governamentais da Nova Zelândia na condução de suas avaliações de risco à medida que o ISM e o ISM do governo australiano do NZ estão alinhados.
 
-O Azure, o Dynamics 365 CRM e o Office 365 continuam a ser incluídos no CCSL para os marcadores de Unificação de disseminação (DLM) (hoje oficiais: confidenciais) e aos dados protegidos com base na avaliação e certificação do IRAP anterior pelo Centro de segurança da Austrália (ACSC).
+O Azure, o Dynamics 365 CRM e o Office 365 continuam a ser incluídos no CCSL para os marcadores de limitação de disseminação (DLM) (hoje oficiais: confidenciais) e dados protegidos com base na avaliação e certificação do IRAP anterior pelo centro de segurança da Austrália (ACSC).
 
 ## <a name="microsoft-and-irap"></a>Microsoft e IRAP
 
@@ -48,7 +48,7 @@ Em setembro de 2019, a Microsoft concluiu sua atualização anual para as avalia
 
 A avaliação dos serviços da Microsoft na Austrália abrange as quatro regiões disponíveis do Azure. Para infraestruturas governamentais e críticas, implantamos duas regiões projetadas especificamente para suas necessidades que são entregues a partir do Centres de dados CDC no Camberra; Centro da [Austrália e Central 2](https://azure.microsoft.com/global-infrastructure/australia/). As diferenças entre as regiões australianas são abordadas em detalhes no relatório de avaliação do Azure IRAP, que está disponível na página específica da Austrália do [portal de confiança do serviço Microsoft](https://aka.ms/au-irap).
 
-Para cada avaliação, a Microsoft contratou um ACSC IRAP consultor que examinou os controles de segurança e os processos usados pela equipe de operações de ti da Microsoft, data centers físicos, detecção de invasão, criptografia, segurança entre domínios e segurança de rede controle de acesso e gerenciamento de riscos de segurança de informações de serviços no escopo. As avaliações do IRAP descobriram que a arquitetura do sistema da Microsoft baseia-se nos princípios de segurança de som e que os controles do ISM (manual de segurança de informações) da australiana são estabelecidos e totalmente efetivo nos nossos serviços avaliados.
+Para cada avaliação, a Microsoft contratou um ACSC IRAP consultor que examinou os controles de segurança e os processos usados pela equipe de operações de ti da Microsoft, data centers físicos, detecção de invasão, criptografia, segurança entre domínios e redes, controle de acesso e gerenciamento de riscos de segurança de informações de serviços no escopo. As avaliações do IRAP descobriram que a arquitetura do sistema da Microsoft baseia-se nos princípios de segurança de som e que os controles do ISM (manual de segurança de informações) da australiana são estabelecidos e totalmente efetivo nos nossos serviços avaliados.
 
 A estrutura de gerenciamento de riscos usada pelo ISM é [destinada à publicação especial da National Institute of Standards and Technology (NIST) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final), "estrutura de gerenciamento de risco para sistemas de informação e organizações: uma abordagem de ciclo de vida do sistema para segurança e privacidade." Nesta estrutura de gerenciamento de riscos, a identificação de riscos e a seleção de controles de segurança podem ser realizadas usando uma variedade de padrões de gerenciamento de riscos, como a [International Organization for Standardization (ISO) 31000:2018, gerenciamento de riscos – diretrizes](https://www.iso.org/standard/65694.html). Em geral, a estrutura de gerenciamento de riscos usada pelo ISM tem seis etapas:
 
@@ -61,9 +61,9 @@ A estrutura de gerenciamento de riscos usada pelo ISM é [destinada à publicaç
 
 Como sempre, os controles adicionais de compensação podem ser implementados em uma base de gerenciamento de risco por agências individuais antes da autorização do órgão e do uso subsequente desses serviços de nuvem.
 
-A avaliação do IRAP dos serviços da Microsoft ajuda a garantir que os clientes do setor público no governo e seus parceiros que a Microsoft possuam controles de segurança adequados e eficazes em vigor para o processamento, o armazenamento e a transmissão de protegidos e as informações classificadas abaixo. Isso inclui a maioria dos dados governamentais, de saúde e de educação na Austrália.
+A avaliação do IRAP dos serviços da Microsoft ajuda a garantir que os clientes do setor público no governo e seus parceiros que a Microsoft tenha controles de segurança adequados e eficazes em vigor para o processamento, o armazenamento e a transmissão de informações classificadas e PROTEGIDAs. Isso inclui a maioria dos dados governamentais, de saúde e de educação na Austrália.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure e Dynamics](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)

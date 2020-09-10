@@ -3,7 +3,7 @@ title: Leis de Privacidade do Canadá
 description: O Azure e o Intune podem ajudar os clientes a cumprir com suas obrigações seguindo as Leis de Privacidade do Canadá.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 68dfc85b2f7ba4025393c82fa7ca5c67575ca0d2
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 7369ea8e51ad323198a587c8eb3c3f84edb9ece7
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066244"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415561"
 ---
 # <a name="canadian-privacy-laws"></a>Leis de Privacidade do Canadá
 

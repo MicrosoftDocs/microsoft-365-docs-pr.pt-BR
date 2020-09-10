@@ -3,7 +3,7 @@ title: Alertas de gerenciamento de risco do insider
 description: Saiba mais sobre os alertas de gerenciamento de risco do insider no Microsoft 365
 keywords: Microsoft 365, risco de insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7b7b6e15528d91a59575e2cfda5808106df7d61b
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 0c0c529569ae1c4ca0ed54863b8b2ddcfcfcba2d
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199695"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416855"
 ---
 # <a name="insider-risk-management-alerts"></a>Alertas de gerenciamento de risco do insider
 

@@ -3,7 +3,7 @@ title: Comissão de negócios de futuro de mercadorias (CFTC) de regra 1.31 (c-d
 description: Uma empresa de avaliação independente valida que o Azure e o Office 365 podem ajudar as empresas financeiras a cumprir as regras de CFTC 1,31 de retenção de registros e requisitos de armazenamento imutáveis.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c327ff759f6a0515f5bb454897f01f831c60653
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 73d52a91620bc0bd50a310c4085fa821fab80da2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127049"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416351"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Comissão de negócios de futuro de mercadorias (CFTC) de regra 1.31 (c-d) Estados Unidos
 
@@ -45,7 +45,7 @@ Para avaliar a compatibilidade do Office 365 com a regra do CFTC 1.31 (c-d), a M
 
 O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, incluindo email, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas de retenção de mensagens globais ou detalhadas para armazenar dados por um período definido e além de um formato não regravável e não apagável.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/o365-compliance-framework)

@@ -3,7 +3,7 @@ title: Introdução ao gerenciamento de riscos internos
 description: Configure o gerenciamento de risco do insider em sua organização.
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b968de12a2dee9d6b820558af05f99c7be29763c
-ms.sourcegitcommit: b3316b947059d3a2e31acbf0ab57d2e000b662ff
+ms.openlocfilehash: e4a13d25506481ddcdfaf6ca2f9ad21c871bb603
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45255336"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416465"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 

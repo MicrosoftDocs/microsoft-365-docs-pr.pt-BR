@@ -3,7 +3,7 @@ title: Título da CFR de comida e administração de drogas 21 parte 11
 description: A Microsoft ajuda os clientes a cumprirem essas regulamentações de alimentos e administração de medicamentos da nossa empresa.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b24460940d583eeb9ed431b61453e87a218a816
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fa93c78d240c243911e21e687ef5d02c29b714b2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066374"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417335"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Título da CFR de comida e administração de drogas 21 parte 11
 
@@ -45,7 +45,7 @@ Os clientes podem solicitar acesso aos relatórios de conformidade, sujeitos a t
 
 Saiba como acelerar o título da sua FDA CFR 21 implantação: [baixar o guia de qualificação do Azure FDA 21](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 Embora não haja certificação para conformidade com o título da CFR 21 parte 11, os seguintes serviços de nuvem corporativa da Microsoft sofreram auditorias independentes, que podem ajudar os clientes em seus esforços de conformidade. Esses serviços incluem:
 

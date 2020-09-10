@@ -3,7 +3,7 @@ title: Notificação de violação no GDPR
 description: Como a Microsoft protege contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma violação.
 keywords: Office 365, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ae69a8330f5daec275247e718f7eb66a5f0f8bf9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 30e32a38d380806e56f08303eef4f5adbfc47d10
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633436"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416815"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>Notificação de violação no GDPR
 

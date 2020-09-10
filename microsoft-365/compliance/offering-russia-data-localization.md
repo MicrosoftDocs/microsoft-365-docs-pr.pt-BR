@@ -3,7 +3,7 @@ title: Requisitos de localização de dados pessoais em Russo
 description: Saiba como coletar dados pessoais, gravação de dados pessoais do cidadãos da Rússia, systematization, acúmulo, armazenamento, esclarecimento e extração são executados nos serviços e bancos de dados da Microsoft localizados na Rússia.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3c2a89a881e2615a8459f0a7126b2d92f750c6b0
-ms.sourcegitcommit: dbc9ff159ed41160d8883c8a9787eba50b45f50b
+ms.openlocfilehash: c8c5e78cfd7d531b2c2ee46ae4f28367240a87ca
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278444"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415987"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>Requisitos de localização de dados pessoais em Russo
 

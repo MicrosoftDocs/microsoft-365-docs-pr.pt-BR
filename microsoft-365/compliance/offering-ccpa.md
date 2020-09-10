@@ -1,9 +1,9 @@
 ---
-title: CCPA (Lei de privacidade e proteção de dados da Califórnia)
+title: CCPA (Lei de Privacidade do Consumidor da Califórnia)
 description: Serviços Microsoft e o serviço de privacidade de consumidor da Califórnia (CCPA).
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,20 +14,20 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: de9fcad3b1d54247114974ce4432068c136fdb2a
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 1bdd6770c033abe7a2bf714029b2a4075fada249
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222023"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415733"
 ---
-# <a name="california-consumer-privacy-act-ccpa"></a>CCPA (Lei de privacidade e proteção de dados da Califórnia)
+# <a name="california-consumer-privacy-act-ccpa"></a>CCPA (Lei de Privacidade do Consumidor da Califórnia)
 
 ## <a name="ccpa-overview"></a>Visão geral do CCPA
 
-O CCPA (The California Consumer Privacy Act) é a primeira lei abrangente de privacidade nos Estados Unidos. Ele fornece uma variedade de direitos de privacidade para consumidores da Califórnia.  As empresas regulamentadas pelo CCPA terão várias obrigações para esses consumidores, incluindo comunicados, regulamentação geral de proteção de dados (RGPD), como direitos de assunto de dados do cliente (DSRs), uma ' recusa ' para determinadas transferências de dados e um ' consentimento ' requisito para menores.
+O CCPA (The California Consumer Privacy Act) é a primeira lei abrangente de privacidade nos Estados Unidos. Ele fornece uma variedade de direitos de privacidade para consumidores da Califórnia.  As empresas regulamentadas pelo CCPA terão várias obrigações para esses consumidores, incluindo comunicados, regulamentação geral de proteção de dados (RGPD), como os direitos de assunto de dados do cliente (DSRs), uma ' recusa ' para determinadas transferências de dados e um requisito de ' consentimento ' para menores.
 
-O CCPA só se aplica às empresas que fazem negócios na Califórnia que satisfazem uma ou mais das seguintes opções: (1) ter uma receita anual bruta de mais de $25000000 ou (2) derivar mais de 50% de seu rendimento anual da venda do consumidor pessoal da Califórnia informações ou (3) comprar, vender ou compartilhar as informações pessoais de mais de 50.000 consumidores da Califórnia anualmente.
+O CCPA só se aplica às empresas que fazem negócios na Califórnia que satisfazem uma ou mais das seguintes opções: (1) ter uma receita anual bruta de mais de $25000000 ou (2) derivar mais de 50% de seu rendimento anual da venda das informações pessoais do cliente da Califórnia ou (3) comprar, vender ou compartilhar as informações pessoais de mais de 50.000 clientes da Califórnia anualmente.
 
 Os CCPA entrarão em vigor em 1º de janeiro de 2020. No entanto, a aplicação do advogado geral da Califórnia (AG) começará em 1º de julho de 2020.
 
@@ -39,10 +39,10 @@ Para clientes comerciais que façam negócios na Califórnia, a Microsoft atuar�
 
 Conforme definido no OST, a Microsoft está em conformidade com todas as leis e regulamentos aplicáveis à sua provisão dos serviços online, o que inclui o CCPA.  
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Operações de desenvolvimento do Azure
+- Azure Dev Ops
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://aka.ms/o365-compliance-framework)

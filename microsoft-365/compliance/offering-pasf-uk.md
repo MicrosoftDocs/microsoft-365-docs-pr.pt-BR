@@ -3,7 +3,7 @@ title: Facilidades seguras de polícia (PASF) Reino Unido
 description: Os serviços de nuvem do Microsoft Business Cloud dão suporte à imposição de leis do Reino Unido que exigem recursos seguros com políticas garantidas para processar e armazenar seus dados na nuvem.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3207d0d29c837064ac5c27cc7022a8d0d7e63a22
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 828a16ce825a21a532a22d60cd0005db10c97a75
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065786"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416393"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>Facilidades seguras de polícia (PASF) Reino Unido
 
@@ -37,7 +37,7 @@ A Microsoft usa uma abordagem de defesa profunda e abrangente para segurança. N
 
 Essas certificações são respaldadas pelas medidas tomadas para proteger a segurança física de nossos data centers. Adotamos uma abordagem em camadas que começa com o modo como projetamos, criamos e operamos os datacenters para controlar estritamente o acesso físico às áreas nas quais os dados do cliente estão armazenados. Os datacenters gerenciados pela Microsoft têm amplos níveis de proteção com a aprovação do Access necessária no perímetro do recurso, no perímetro da construção, dentro do edifício e no centro do datacenter. Isso reduz o risco de usuários não autorizados obterem acesso físico a recursos de dados e datacenters.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)

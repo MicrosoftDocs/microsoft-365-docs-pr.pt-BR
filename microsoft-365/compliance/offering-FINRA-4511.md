@@ -3,7 +3,7 @@ title: Regra de autoridade de regulamentação do setor financeiro (FINRA) 4511 
 description: Uma empresa de avaliação independente valida que o Azure e o Office 365 podem ajudar as empresas financeiras a cumprir as regras de FINRA 4511 de retenção de registros e requisitos de armazenamento imutáveis.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 328aa52473fbb8b51ad580379c103e3759c2bff6
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: b70393bfff32d855e49c74bab340379cdaf488f1
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126692"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415865"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Regra de autoridade de regulamentação do setor financeiro (FINRA) 4511 (c) Estados Unidos
 
@@ -51,7 +51,7 @@ Para avaliar a conformidade do Office 365 com a regra do FINRA 4511 (c), a Micro
 
 O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, incluindo email, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas de retenção de mensagens globais ou detalhadas para armazenar dados por um período definido e além de um formato não regravável e não apagável.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)

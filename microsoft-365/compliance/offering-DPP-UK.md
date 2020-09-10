@@ -3,7 +3,7 @@ title: Parceria de produção digital (DPP) Reino Unido
 description: O Microsoft Azure recebeu a DPP comprometida com a marca de segurança para transmissão.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4f97b0c0d5af681ed55a119f7ebbaf6c89fb1393
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ce688fbf933cc14884e989572e222396f4ccec52
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066628"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415449"
 ---
 # <a name="digital-production-partnership-dpp-united-kingdom"></a>Parceria de produção digital (DPP) Reino Unido
 
@@ -35,7 +35,7 @@ O Microsoft Azure recebeu a DPP comprometida com a marca de segurança para tran
   
 Isso significa que os difundidores e outros clientes de mídia que usam o Azure podem ter certeza de que seu serviço robusto e de segurança pode ajudar a atender às demandas exclusivas do setor de transmissão, do desenvolvimento de programas à transmissão.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 

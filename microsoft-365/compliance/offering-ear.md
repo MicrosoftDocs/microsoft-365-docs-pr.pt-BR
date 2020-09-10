@@ -3,7 +3,7 @@ title: Normas de administração de exportação dos EUA (EAR)
 description: Os serviços do Microsoft Cloud ajudam os clientes a lidar com as normas de administração de exportação dos EUA (EAR) atendem aos requisitos de conformidade e gerenciam o risco de controle de exportação
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1adf0bab35c921dd416028747b0309e5ad5f3055
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ad12f785a76f6ee733cb3b459ad58370a330f51
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601958"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416057"
 ---
 # <a name="us-export-administration-regulations-ear"></a>Normas de administração de exportação dos EUA (EAR)
 
@@ -27,7 +27,7 @@ ms.locfileid: "41601958"
 
 O departamento de comércio dos EUA aplica as regulamentações de administração de exportação (EAR) ao [Bureau of Industry and Security (BIS)](https://www.bis.doc.gov/). O EAR controla amplamente os controles na exportação e a reexportação da maioria dos bens, software e tecnologia comercial, incluindo itens de "uso duplo" que podem ser usados para fins comerciais e militares e certos itens de defesa.
 
-A orientação do BIS é que, quando os dados ou o software são carregados na nuvem ou transferidos entre os nós do usuário, o cliente, e não o provedor de nuvem, é o "exportador" que tem a responsabilidade de garantir que as transferências, o armazenamento e o acesso a esses dados ou software está em conformidade com o EAR.
+A orientação do BIS é que, quando os dados ou o software são carregados na nuvem ou transferidos entre os nós do usuário, o cliente, e não o provedor de nuvem, é o "exportador" que tem a responsabilidade de garantir que as transferências, o armazenamento e o acesso a esses dados ou software estejam em conformidade com o EAR.
 
 De [acordo com o bis](https://www.bis.doc.gov/index.php/documents/regulation-docs/412-part-734-scope-of-the-export-administration-regulations/file), a *exportação* se refere à transferência de tecnologia protegida ou de dados técnicos para um destino externo ou sua versão para uma pessoa externa nos Estados Unidos (também conhecida como uma *exportação considerada*). O EAR regula de forma ampla:
 
@@ -41,7 +41,7 @@ A [regra final](https://www.federalregister.gov/documents/2016/06/03/2016-12734/
 
 ## <a name="microsoft-and-the-ear"></a>Microsoft e o EAR
 
-As tecnologias, produtos e serviços da Microsoft estão sujeitos às normas de administração de exportação dos EUA (EAR). Embora não haja nenhuma certificação de conformidade para o EAR, o Microsoft Azure, o Microsoft Azure governo e o Microsoft Office 365 governo (ambientes GCCHigh e DoD) oferecem recursos e ferramentas importantes para ajudar os clientes qualificados a se depararem com o EAR gerenciar exportação controlar riscos e atender seus requisitos de conformidade.
+As tecnologias, produtos e serviços da Microsoft estão sujeitos às normas de administração de exportação dos EUA (EAR). Embora não haja nenhuma certificação de conformidade para o EAR, o Microsoft Azure, o Microsoft Azure governo e o Microsoft Office 365 governo (ambientes GCCHigh e DoD) oferecem recursos e ferramentas importantes para ajudar os clientes qualificados a lidar com os riscos de controle de exportação de orelha EAR e atender aos seus requisitos de conformidade.
 
 O departamento de comércio dos EUA, que impõe o EAR, levou a posição de que os clientes, não os provedores de serviços de nuvem, como a Microsoft, são considerados exportadores de seus próprios dados de cliente. Embora a maioria dos dados do cliente não seja considerada "tecnologia" ou "dados técnicos", sujeita aos controles de exportação EAR, os serviços de nuvem em escopo da Microsoft são estruturados para ajudar os clientes a gerenciar e reduzir significativamente os riscos de controle de exportação possíveis. A Microsoft geralmente, mas não exclusivamente, recomenda o uso de seus serviços de nuvem governamental para clientes qualificados. Com o planejamento apropriado, os clientes podem usar as seguintes ferramentas e seus próprios procedimentos internos para ajudar a garantir total conformidade com os controles de exportação dos EUA.
 
@@ -49,7 +49,7 @@ O departamento de comércio dos EUA, que impõe o EAR, levou a posição de que 
 - **Criptografia de ponta a ponta**. Aproveitando a criptografia de ponta a ponta, o porto seguro para locais de armazenamento físico especificado na EAR, os serviços de nuvem dentro do escopo da Microsoft oferecem recursos de criptografia que podem ajudar a proteger contra riscos de controle de exportação. Eles também oferecem aos clientes uma [ampla variedade de opções de criptografia de dados](https://aka.ms/Azure-Encryption-Overview) em trânsito e em repouso, e a flexibilidade para escolher entre as opções de criptografia.
 - **Ferramentas e protocolos para impedir a exportação considerada não autorizada**. O uso de criptografia também ajuda a proteger contra uma possível exportação (ou considerado reexportação) no EAR, porque, mesmo que uma pessoa que não seja a dos EUA tenha acesso a dados criptografados, nada será revelado se não puder ler ou compreender os dados enquanto estiverem criptografados; Portanto, não há "lançamento" de dados controlados.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - [Governo do Office 365 (GCC-elevado e DoD)](https://aka.ms/Office-365-Export-Controls)

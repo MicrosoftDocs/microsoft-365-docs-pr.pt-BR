@@ -3,7 +3,7 @@ title: National Institute of Standards and Technology (NIST) cybersecurity Frame
 description: Os serviços de nuvem da Microsoft atendem à cybersecurity (National Institute of Standards and Technology (NIST) Framework (CSF).
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2b705d26efa513214164c05703acafe8d5d141c2
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 90670c8102afe0dcf0814726bde36bd422e802a9
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799976"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417083"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) cybersecurity Framework (CSF)
 
@@ -40,7 +40,7 @@ Saiba como acelerar sua implantação de estrutura do NIST cybersecurity com a p
 - [Visão geral da amostra do NIST SP 800-53 R4 Blueprint](https://docs.microsoft.com/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [Saiba mais sobre a avaliação CSF do NIST para o Office 365 em Pontuação de conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 para o governo](https://aka.ms/d365-compliance-list)

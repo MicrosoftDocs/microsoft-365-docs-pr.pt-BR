@@ -3,7 +3,7 @@ title: Intercâmbio de Avaliação de Segurança da Informação Confiável (TIS
 description: Um auditor independente, credenciado pela ENX, avaliou os datacenters em nuvem da Microsoft em relação aos requisitos de segurança do TISAX.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c6f876ee3285f68f6488f83fdc978e175c26f3eb
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: fe9186b45268fee11d011d6a941e244071e31a42
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357287"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417535"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Intercâmbio de Avaliação de Segurança da Informação Confiável (TISAX) Alemanha
 

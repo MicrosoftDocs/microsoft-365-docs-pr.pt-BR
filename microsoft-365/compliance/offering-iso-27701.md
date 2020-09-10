@@ -3,7 +3,7 @@ title: ISO/IEC 27701 Sistema de Gerenciamento de Informações de Privacidade (P
 description: O padrão ISO/IEC 27701 para oferecer suporte à responsabilidade da privacidade e à conformidade regulamentar entre os controladores e processadores na cadeia de fornecimento de processamento de dados globais.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8a4f59a817e8ddd38ee8132e7028a3357d15d578
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: b46a1996d1a86601efe21ec71b19adfc9fa02c61
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254164"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417209"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>PIMS (Sistema de Gerenciamento de Informações de Privacidade) do ISO/IEC 27701
 

@@ -3,7 +3,7 @@ title: Federação contra roubo de direitos autorais (fato)
 description: O Microsoft Azure obteve a certificação da Federação contra roubo de direitos autorais no Reino Unido.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e8d7ce93438ce3699dd30ac8b5f0f8818045eaf5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: acc0ab379cdd93d873cc0b1eb2f0d729eff251c8
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066394"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416107"
 ---
 # <a name="federation-against-copyright-theft-fact"></a>Federação contra roubo de direitos autorais (fato)
 
@@ -33,7 +33,7 @@ Para ressaltar o compromisso da Microsoft de proteger os clientes quando eles en
 
 Com base no envio voluntário pela Microsoft para uma auditoria de fatos, o auditor de fatos certificado para o Azure. O Azure foi o primeiro serviço de nuvem pública de vários locatários a realizar a certificação de fatos, adicionando ao portfólio do Azure de certificações relacionadas à mídia, incluindo a certificação CDSA e uma avaliação formal do MPAA.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 

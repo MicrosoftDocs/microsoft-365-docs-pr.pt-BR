@@ -3,7 +3,7 @@ title: Solicitações de assunto de dados do Azure para o GDPR e o CCPA
 description: Saiba como usar produtos, serviços e ferramentas de administração da Microsoft para encontrar e tomar medidas em relação a dados pessoais para responder às DSRs.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD, CCPA
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 47aca22a5766b39bce513772874bca56de3420c5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b22baa48293e48567d801227996d080e8ee1cce2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035449"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416645"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Azure para o GDPR e o CCPA
 
@@ -75,10 +75,10 @@ As DSRs em relação à própria conta MSA, **fora de um determinado locatário*
 
 ### <a name="executing-dsrs-against-customer-data"></a>Executando DSRs contra dados do cliente
 
-A Microsoft fornece a capacidade de acessar, excluir e exportar determinados Dados de Clientes por meio do Portal do Azure e diretamente, por meio de interfaces de programação de aplicativos (API) preexistentes ou interfaces de usuário (IUs) para serviços específicos (também conhecidos como *experiências de produto*). Os detalhes sobre tais experiências de produto estão descritos na documentação de referência dos respectivos serviços.
+A Microsoft fornece a capacidade de acessar, excluir e exportar determinados Dados do cliente através do Portal do Azure e também diretamente através de APIs (interfaces de programação de aplicativos) preexistentes ou interfaces de usuário (UIs) para serviços específicos (também chamados de *experiências no produto*). Detalhes sobre essas experiências no produto estão descritos na documentação de referência dos respectivos serviços.
 
 >[!IMPORTANT]  
-> Os serviços que oferecem suporte às DSRs de produto exigem o uso direto da interface de programação de aplicativos (API) do serviço ou da interfaces de usuário (IU), descrevendo operações CRUD (criar, ler, atualizar, excluir) aplicáveis. Consequentemente, é necessário executar as DSRs em um determinado serviço e também executar uma DSR no portal do Azure para concluir uma solicitação completa de um determinado titular dos dados. Consulte a documentação de referência de serviços específicos para obter mais detalhes.
+> Os serviços que suportam DSRs no produto requerem o uso direto da API (Interface de Programação de Aplicativos) do serviço ou da Interface do usuário (UI), descrevendo as operações CRUD aplicáveis (criar, ler, atualizar, excluir). Consequentemente, a execução de DSRs em um determinado serviço deve ser feita além da execução de um DSR no Portal do Azure para concluir uma solicitação total para um determinado titular de dados. Consulte a documentação de referência de serviços específicos para obter mais detalhes.
 
 ### <a name="step-1-discover"></a>Etapa 1: Descoberta
 
@@ -114,7 +114,7 @@ A Microsoft oferece a capacidade de descobrir os dados dos clientes diretamente 
 
 ### <a name="step-2-access"></a>Etapa 2: Acesso
 
-Depois de encontrar Dados de Cliente com dados pessoais que atendem a uma DSR, cabe a você e sua organização decidir quais dados fornecer para o titular dos dados. Você pode lhes fornecer uma cópia do documento real, uma versão redigida corretamente ou uma captura de tela das partes que você considera apropriadas para compartilhar. Para cada uma dessas respostas a uma solicitação de acesso, você precisará recuperar uma cópia do documento ou outro item que contenha os dados dinâmicos.
+Depois de encontrar os Dados do cliente que contêm dados pessoais que são potencialmente responsivos a um DSR, você e sua organização decidem quais dados devem fornecer ao titular dos dados. Você pode fornecer-lhes uma cópia do documento real, uma versão adequadamente editada ou uma captura de tela das partes que você considera adequadas de serem compartilhadas. Para cada uma dessas respostas à uma solicitação de acesso, você precisará recuperar uma cópia do documento ou outro item que contenha os dados responsivos.
 
 Ao oferecer uma cópia ao titular dos dados, talvez você tenha que remover ou redigir informações pessoais sobre outros titulares de dados e quaisquer informações confidenciais.
 

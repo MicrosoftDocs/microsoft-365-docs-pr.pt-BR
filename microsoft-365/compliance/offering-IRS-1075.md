@@ -3,7 +3,7 @@ title: Publicação de serviço de receita interna da US 1075
 description: A Microsoft tem controles que atendem aos requisitos da publicação de serviço de receita interna US 1075.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b64b69d52028a09ddd54863d4e2cbf5f0642bd67
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 83c66bfce39698cfea7833433d337fe7411e0ebe
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066324"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416341"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>Publicação de serviço de receita interna da US 1075
 
@@ -43,7 +43,7 @@ Para ajudar agências governamentais em seus esforços de conformidade, a Micros
 - Fornece às considerações de conformidade do governo do IRS e ao Office 365 considerações de conformidade do governo dos EUA, que descrevem como uma agência pode usar o Microsoft Cloud para serviços governamentais de uma maneira que seja compatível com o IRS 1075. Clientes governamentais sob NDA podem solicitar esses documentos.
 - Oferece aos clientes a oportunidade (com suas custas) para se comunicar com especialistas no Microsoft Subject ou fora dos auditores, se necessário.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 As autorizações do FedRAMP são concedidas a três níveis de impacto com base nas diretrizes do NIST: baixo, médio e alto. Essas classificam o impacto que a perda de confidencialidade, integridade ou disponibilidade pode ter em uma organização: baixo (efeito limitado), médio (efeito adverso sério) e alto (efeito grave ou catastrófico).
 

@@ -3,7 +3,7 @@ title: Sarbanes-Oxley Act de 2002 (SOX)
 description: As empresas de serviços financeiros podem usar os relatórios de conformidade da Microsoft para lidar com a conformidade com o Sarbanes-Oxley Act.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a1ee3987a762d3ff9555a8e992dda67e4a154849
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ca91606910c38664e74d650f750769121ea11957
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066304"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415349"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act de 2002 (SOX)
 
@@ -43,7 +43,7 @@ Na Microsoft, compartilhamos a responsabilidade de conformidade com nossos clien
 
 Saiba mais sobre como usar os relatórios de conformidade do Microsoft Azure ao lidar com as obrigações de conformidade SOX: [baixar as diretrizes do Azure para Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

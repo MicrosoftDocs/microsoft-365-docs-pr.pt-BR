@@ -3,7 +3,7 @@ title: Service Organization Controls (SOC)
 description: Os serviços de nuvem da Microsoft estão em conformidade com os padrões do Service Organization Controls em relação à segurança operacional.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2428109743b408061ead8ad87d5e59ac30417c06
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: cdc8835989ada5ebe4089c4d7fed5fd8cf064673
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898079"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415418"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 

@@ -3,7 +3,7 @@ title: Valores de Securities e Exchange Commission-conformidade e integridade do
 description: As regras SCI se aplicam a entidades SCI, que incluem organizações de auto-regulamentar (SROs) como ações e trocas de opções, agências de compensação registradas e sistemas de negociação alternativos (ATSs).
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e2b314934a51c16ab4e907b7d9f6208e7de21641
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fd4817f31aa91698a77de45fd8315b3f84431289
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065706"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415925"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>Interações de títulos e do Exchange: SCI (conformidade e integridade dos sistemas regulamentares)
 
@@ -43,7 +43,7 @@ Para ajudar a orientar os clientes de serviços financeiros que precisam cumprir
 
 Este documento fornece uma lista de verificação completa das áreas de foco da regulamentação de um regulamento crítico. Esta lista de verificação ajuda as organizações financeiras a entender como elas podem adotar o Azure para ajudar a garantir que seus reguladores, clientes e lideranças possam cumprir os requisitos normativos aplicáveis.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 
@@ -52,7 +52,7 @@ Este documento fornece uma lista de verificação completa das áreas de foco da
 - [Guia de implementação de Sci da regulamentação](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=a69ce0c1-7b7e-44e9-9143-867241e6b2f9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers): mapeia os recursos do Azure em relação à regulamentação e detalha a responsabilidade compartilhada de conformidade.
 - [Projetando aplicativos do Azure confiáveis](https://docs.microsoft.com/azure/architecture/resiliency/): uma breve visão geral de como criar a confiabilidade em cada etapa do design do aplicativo do Azure.
 - [Projetando aplicativos altamente disponíveis](https://docs.microsoft.com/azure/storage/common/storage-designing-ha-apps-with-ragrs): como os desenvolvedores podem ajudar a garantir que seus aplicativos de armazenamento do Azure estejam altamente disponíveis.
-- [Guia de Conformidade & Avaliação de Risco ](https://aka.ms/RiskGovernanceGuide): Cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
+- [Guia de Conformidade e Avaliação de Risco ](https://aka.ms/RiskGovernanceGuide): crie um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

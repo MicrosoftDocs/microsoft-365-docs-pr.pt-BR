@@ -3,7 +3,7 @@ title: Autorização do departamento de defesa dos EUA (DoD)
 description: A Microsoft recebeu as autorizações provisionas do departamento de defesa (DoD) nos níveis de impacto 5, 4 e 2.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 333333ad274c569337c2cbab7fd00c7337e26160
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fee91c384850b5a1593cc17e6215985217ada033
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064762"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415469"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Autorização do departamento de defesa dos EUA (DoD) provisionar no impacto dos níveis 2, 4 e 5
 
@@ -57,7 +57,7 @@ Com base em autorizações do FedRAMP, o suporte ao serviço de nuvem do DISA re
 
 O nível 2 de impacto cobre informações não controladas, dados que são autorizados para lançamento público. Ele também aborda outras informações não classificadas que, embora não sejam consideradas ' missão crítica ', ainda exigem um nível mínimo de controle de acesso. Essa autorização permite que os clientes do governo norte-americano da empresa implantem informações não confidenciais e aplicativos básicos de defesa e sites em serviços de nuvem da Microsoft em escopo.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>Serviços cobertos para o nível de impacto de DoD 5
 

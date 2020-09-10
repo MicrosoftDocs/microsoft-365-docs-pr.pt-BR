@@ -3,7 +3,7 @@ title: SP DO NIST 800 – 171
 description: Os serviços de nuvem da Microsoft estão em conformidade com as diretrizes do NIST SP 800 – 171 para proteger as informações não classificadas (CUI) controladas em sistemas de informações não federais.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 47e001fafedbdcaab6e1aa6365789bc309d9f65c
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 757541aa86049106ad06f02419fee02033c6a0e3
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065806"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417063"
 ---
 # <a name="nist-sp-800171"></a>SP DO NIST 800 – 171
 
@@ -42,7 +42,7 @@ Os requisitos do NIST SP 800 – 171 são um subconjunto do NIST SP 800-53, o pa
 
 Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituições de pesquisa, empresas de consultoria, prestadores de serviços de produção — devem estar em conformidade com os requisitos estritos do NIST SP 800 – 171. Este atestado significa que os serviços de nuvem em escopo da Microsoft podem acomodar clientes que procuram implantar cargas de trabalho da CUI com a garantia de que a Microsoft está em conformidade total. Por exemplo, todos os prestadores de serviço do DoD que processam, armazenam ou transmitem "informações sobre defesa abordadas" usando os serviços de nuvem da Microsoft em seus sistemas de informações atendem às cláusulas do departamento de defesa dos EUA que exigem conformidade com os requisitos de segurança do NIST SP 800 – 171.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)

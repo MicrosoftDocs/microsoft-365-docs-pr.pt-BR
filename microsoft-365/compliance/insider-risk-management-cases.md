@@ -3,7 +3,7 @@ title: Casos de gerenciamento de risco do insider
 description: Saiba mais sobre os casos de gerenciamento de risco do insider no Microsoft 365
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 52b80c85fcd9ddb22330c1103e3df908a217e8f2
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 8667c625de4c83c98efd8f1cf20f3db57ed0d4c5
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199911"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416555"
 ---
 # <a name="insider-risk-management-cases"></a>Casos de gerenciamento de risco do insider
 

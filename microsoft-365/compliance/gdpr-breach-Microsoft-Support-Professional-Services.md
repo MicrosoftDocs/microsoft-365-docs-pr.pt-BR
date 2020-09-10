@@ -3,7 +3,7 @@ title: Notificação de violação e Serviços Profissionais e de Suporte da Mic
 description: Como o Suporte e os Serviços Profissionais da Microsoft protegem contra uma violação de dados pessoais e como a Microsoft responderá e notificará você se ocorrer uma violação.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: c6f32258f4997db4cb806141414cffc808e63517
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 87f956e0c9ae80610a61a7ed9496e2aa8b52ebb4
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558101"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416834"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Notificação de violação e Serviços Profissionais e de Suporte da Microsoft no RGPD
 
