@@ -1,0 +1,45 @@
+- name: Microsoft Bookings
+  href: bookings-overview.md
+  items:
+    - name: Configurar
+      items:
+        - name: Obter acesso a reservas
+          href: get-access.md
+        - name: Insira suas informações comerciais
+          href: enter-business-information.md
+        - name: Definir suas ofertas de serviços
+          href: define-service-offerings.md
+        - name: Agendar feriados comerciais e folga
+          href: schedule-closures-time-off-vacation.md
+        - name: Definir suas políticas de agendamento
+          href: set-scheduling-policies.md
+        - name: Personalizar e publicar sua página de reservas
+          href: customize-booking-page.md
+        - name: Criar uma reserva manual
+          href: create-a-manual-booking.md
+        - name: Agendar feriados comerciais e folga
+          href: schedule-closures-time-off-vacation.md
+        - name: Horas do funcionário
+          href: employee-hours.md
+        - name: Adicionar perguntas personalizadas e necessárias à página de reserva
+          href: add-questions.md
+        - name: Definir tempo do buffer
+          href: set-buffer-time.md
+        - name: Métricas e acompanhamento de atividades
+          href: metrics-and-activity-tracking.md
+        - name: Definir idioma e fuso horário
+          href: set-language-time-zones.md
+    - name: Obter o aplicativo de reservas
+      href: get-bookings-app.md
+    - name: Visitas de aplicativos e virtuais no Microsoft Teams
+      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+    - name: Gráfico de comparação-aplicativo Web em relação ao aplicativo do teams
+      href: comparison-chart.md
+    - name: Excluir um calendário de reserva
+      href: delete-calendar.md
+    - name: Ativar ou desativar o Microsoft bookings
+      href: turn-bookings-on-or-off.md
+    - name: Informações de relatório para reservas da Microsoft
+      href: reporting-info.md
+    - name: Perguntas frequentes sobre o Microsoft bookings
+      href: bookings-faq.md

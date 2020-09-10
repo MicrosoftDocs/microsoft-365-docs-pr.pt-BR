@@ -936,7 +936,7 @@
 - name: Ofertas de conformidade
   items:
     - name: Ofertas de conformidade da Microsoft
-      href: offering-home.md
+      href: offering-home.yml
     - name: Global
       items:
         - name: Parâmetros de comparação da CIS

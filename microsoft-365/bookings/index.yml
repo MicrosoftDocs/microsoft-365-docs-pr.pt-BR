@@ -1,0 +1,41 @@
+### YamlMime:Hub
+title: Microsoft Bookings
+summary: Saiba como configurar o Microsoft bookings para fornecer serviços aos clientes de uma base de compromisso.
+brand: m365
+metadata:
+  title: Microsoft Bookings
+  description: Saiba como configurar o Microsoft bookings para fornecer serviços aos clientes de uma base de compromisso.
+  ms.service: bookings
+  ms.topic: hub-page
+  author: dmaguire
+  ms.author: dmaguire
+  manager: serdars
+  audience: Admin
+  ms.date: 09/04/2020
+  ms.openlocfilehash: 8c7158c72700a7db866051a4de10bbc890ad4478
+  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 09/09/2020
+  ms.locfileid: "47419198"
+additionalContent:
+  sections:
+  - items:
+    - title: O que é o Microsoft bookings?
+      summary: Agendar e gerenciar compromissos com um calendário e um aplicativo de reserva baseados na Web, incluindo a integração do Outlook para sua equipe e emails de notificação automatizada.
+      url: bookings-overview.md
+    - title: Insira suas informações comerciais
+      summary: Insira sua página criar seus comentários, incluindo nome da empresa, endereço, número de telefone, URL do site, logotipo e horário comercial em Microsoft bookings.
+      url: enter-business-information.md
+    - title: Obter o aplicativo de reservas
+      summary: Altere o tema de cores e configure a aparência da sua página de reserva externa ao cliente.
+      url: customize-booking-page.md
+    - title: Adicionar equipe a reservas
+      summary: Crie sua lista de equipes e gerencie os detalhes de membros da equipe, como nome, número de telefone e endereço de email.
+      url: add-staff.md
+    - title: Agendar feriados comerciais, folgas e horários de férias
+      summary: Agendar feriados do Office e folga do funcionário do calendário de livros para que os funcionários sejam marcados como indisponíveis para reservas durante os horários especificados.
+      url: schedule-closures-time-off-vacation.md
+    - title: Horário de trabalho do funcionário em Microsoft bookings
+      summary: Defina as horas de trabalho e a disponibilidade dos funcionários em Microsoft bookings.
+      url: employee-hours.md
