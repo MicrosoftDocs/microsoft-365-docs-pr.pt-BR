@@ -3,7 +3,7 @@ title: Diretrizes para controladores de dados usando o Office 365
 description: Este documento fornece aos controladores de dados informações sobre o Office 365 que os ajudarão a determinar se a AIPD é necessária e quais detalhes devem ser incluídos.
 keywords: Documentação do Microsoft 365 DPIA, Office 365, GDPR
 ms.localizationpriority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d0fe3092d0ea3004097aba9a86e1916025b87841
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.openlocfilehash: 2408445598ab1e474ac1967be6e13f19887144a8
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547561"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417895"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Microsoft Office 365 
 

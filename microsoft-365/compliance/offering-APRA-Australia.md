@@ -3,7 +3,7 @@ title: Autoridade de regulamentação Prudential australiana (APRA)
 description: Orientações da Microsoft para ajudar clientes de serviços financeiros em conformidade com os padrões de terceirização da norma da regulamentação Prudential da Austrália.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b344f9c4d750c6e6571c0e76be0c9db0c421271b
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fb964bd6dcf229f362476b68ad87d05053e87f74
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065886"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417745"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Autoridade de regulamentação Prudential australiana (APRA)
 
@@ -70,7 +70,7 @@ Ao confiar em nossa abordagem abrangente para a garantia de risco na nuvem, temo
 
 Obtenha suporte prático para mover dados e cargas de trabalho para o Azure em conformidade com as regulamentações do APRA: [baixar os serviços de nuvem da Microsoft: uma lista de verificação de conformidade para instituições financeiras na Austrália](https://www.microsoft.com/cms/api/am/binary/RE3ez0C).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)

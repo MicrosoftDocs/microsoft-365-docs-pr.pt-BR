@@ -3,7 +3,7 @@ title: Regulamento Geral sobre a Proteção de Dados
 description: Saiba mais sobre as diretrizes técnicas da Microsoft e encontre informações úteis para a Norma Geral de Proteção de Dados (GDPR).
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d1e6730d215fcef6bd0cad6244c82b960ed39ce
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: cd17ac35c732189fe8699d75ceb054cc4c900364
+ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800016"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422449"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -210,7 +210,7 @@ A Microsoft tem usado por extenso as Cláusulas Contratuais Padrão (também con
 
 **Quais são as outras ofertas de conformidade da Microsoft?**
 
-Por ser uma empresa global com clientes em quase todos os países do mundo, a Microsoft tem um portfólio de conformidade robusto para ajudar nossos clientes. Para exibir uma lista completa de nossas ofertas de conformidade, incluindo FedRamp, HIPAA/biotipo, ISO 27001, ISO 27002, ISO 27018, NIST 800-171, UK G-Cloud e muitos outros visite nossos [tópicos de oferta de conformidade](offering-home.md).
+Por ser uma empresa global com clientes em quase todos os países do mundo, a Microsoft tem um portfólio de conformidade robusto para ajudar nossos clientes. Para exibir uma lista completa de nossas ofertas de conformidade, incluindo FedRamp, HIPAA/biotipo, ISO 27001, ISO 27002, ISO 27018, NIST 800-171, UK G-Cloud e muitos outros visite nossos [tópicos de oferta de conformidade](offering-home.yml).
 
 **Como o RGPD afetará a minha empresa?**
 

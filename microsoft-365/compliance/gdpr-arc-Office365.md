@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 07f63fd590c5ce9f5fabee942056a1f9c261bf55
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 84554b0f77ea469635dab6f77f8416c509e6bf84
+ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307832"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422381"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-365"></a>Lista de verificação de preparação de responsabilidade para Microsoft 365
 
@@ -145,7 +145,7 @@ Essa estrutura de controle também é usada para organizar a apresentação dos 
 | 10 <a name="10"> </a> | [Informações importantes do Office 365 para Avaliações do Impacto sobre a Proteção dos Dados do Cliente](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365) |
 | 11 <a name="11"> </a> | [SOC 2 Relatório de auditoria Tipo 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=0cf2cce9-972d-4a64-865f-b8e6eba4ed5e&docTab=4ce99610-c9c0-11e7-8c2c-) |
 | 12 <a name="12"> </a> | [Microsoft Office 365 ISO/IEC 27001:2013 ISMS Declaração de aplicabilidade](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=d7255c90-03e3-48a6-938d-e69d8f723c7a&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
-| 13 <a name="13"> </a> | [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](offering-home.md) |
+| 13 <a name="13"> </a> | [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](offering-home.yml) |
 | 14 <a name="14"> </a> | [Manual de ISMS do Office 365](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=72821313-c175-4857-b1f7-e3c5e6eb2db4&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
 | 15 <a name="15"> </a> | [Usar Restrições de Locatário para gerenciar o acesso aos aplicativos de nuvem de SaaS](https://docs.microsoft.com/azure/active-directory/active-directory-tenant-restrictions) |
 | 16 <a name="16"> </a> | [Pesquisar o log de auditoria no Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) |

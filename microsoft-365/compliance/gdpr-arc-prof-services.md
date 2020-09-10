@@ -3,7 +3,7 @@ title: Lista de verificação de preparação de responsabilidade de Serviços p
 description: Oferece um jeito prático de acessar as informações necessárias para dar suporte ao RGPD ao usar os Serviços de Suporte e os Serviços Professionais da Microsoft.
 keywords: ARC, Listas de verificação de preparação de responsabilidade, Microsoft 365, Microsoft 365 Education, documentação Microsoft 365, RGPD
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 05bf6a14e27e716e4e30b6ad3715f3cdd4f49eec
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: f6242ebddf6597d3ce4256f4ddfc0ab9ac59c8f5
+ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558132"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422415"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade de Serviços profissionais e de suporte da Microsoft para RGPD
 
@@ -139,7 +139,7 @@ Essa estrutura de controle também é usada para organizar a apresentação dos 
 |  9 <a name="9"> </a> | [Informações importantes dos Serviços Profissionais da Microsoft para Avaliações do Impacto sobre a Proteção dos Dados do Cliente](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services) | |
 | 10 <a name="10"> </a> | [Relatório de auditoria 27001 ISO](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=7e71ff67-7609-43e6-9d68-4ceea0b41b50&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) | |
 | 11 <a name="11"> </a> | Serviços Profissionais da Microsoft ISO/IEC 27001:2013 ISMS Declaração de Aplicabilidade | SOA sob solicitação da equipe de gerenciamento de conta do cliente.|
-| 12 <a name="12"> </a> | [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](offering-home.md) | |
+| 12 <a name="12"> </a> | [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](offering-home.yml) | |
 | 13 <a name="13"> </a> | [Informações de DPO da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer) | |
 
 ## <a name="learn-more"></a>Saiba mais

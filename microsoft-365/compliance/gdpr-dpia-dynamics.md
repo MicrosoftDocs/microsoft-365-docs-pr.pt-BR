@@ -4,7 +4,7 @@ description: Fornece informações sobre o Dynamics 365 aos controladores de dad
 keywords: AIPD, Microsoft 365, Dynamics 365, documentação do Microsoft 365, RGPD
 robots: NOINDEX,NOFOLLOW
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 82a04f097b201170942ab4e9e9b155a26a2938bf
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.openlocfilehash: 3352483f87c12996f00e8a75dfcba19581fdaf0c
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547571"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417905"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-dynamics-365"></a>Avaliações de Impacto sobre a Proteção de Dados: Orientações para Controladores de Dados que usam o Dynamics 365
 
