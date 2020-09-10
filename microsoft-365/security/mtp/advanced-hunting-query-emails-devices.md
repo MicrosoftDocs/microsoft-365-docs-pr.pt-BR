@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ccb7b049ee3bc2aa25847886b57341ae936d20b9
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: c24f5891573b8541a97a35d228c57642766fe4a0
+ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649338"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47419139"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Busca de ameaças em dispositivos, emails, aplicativos e identidades
 
@@ -62,9 +62,6 @@ EmailEvents
 
 Você pode obter nomes de conta e outras informações de conta mesclando ou unindo a [tabela IdentityInfo](advanced-hunting-identityinfo-table.md). A consulta a seguir obtém a lista de detecções de phishing e malware da [tabela EmailEvents](advanced-hunting-emailevents-table.md) e une essas informações com a `IdentityInfo` tabela para obter informações detalhadas sobre cada destinatário. 
 
->[!Tip]
-> Esta consulta usa `kind=inner` para especificar uma [junção interna](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor), o que impede a eliminação de duplicação de valores do lado esquerdo ou dos endereços de email do destinatário.
-
 ```kusto
 EmailEvents
 | where Timestamp > ago(7d)
@@ -81,6 +78,9 @@ Department, City, Country
 
 ### <a name="get-device-information"></a>Obter informações sobre o dispositivo
 O [esquema de busca avançada](advanced-hunting-schema-tables.md) fornece informações de dispositivo abrangentes em várias tabelas. Por exemplo, a [tabela DeviceInfo](advanced-hunting-deviceinfo-table.md) fornece informações abrangentes de dispositivo com base em dados de eventos agregados regularmente. Esta consulta usa a `DeviceInfo` tabela para verificar se um usuário potencialmente comprometido ( `<account-name>` ) fez logon em qualquer dispositivo e, em seguida, lista os alertas que foram disparados nesses dispositivos.
+
+>[!Tip]
+> Esta consulta usa `kind=inner` para especificar uma [junção interna](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor), o que impede a eliminação de duplicação de valores do lado esquerdo `DeviceId` .
 
 ```kusto
 DeviceInfo

@@ -1,0 +1,52 @@
+### YamlMime:Landing
+title: Microsoft Bookings
+summary: Agendar e gerenciar compromissos com o Microsoft bookings. Inclui integração com o Outlook e notificações automatizadas.
+metadata:
+  title: Microsoft Bookings
+  description: Agendar e gerenciar compromissos com o Microsoft bookings. Inclui integração com o Outlook e notificações automatizadas.
+  ms.service: bookings
+  ms.topic: landing-page
+  author: dmaguire
+  ms.author: dmaguire
+  manager: serdars
+  audience: Admin
+  ms.date: 07/21/2020
+  ms.openlocfilehash: 7fb9456dfeb6481aebe1f81307a30c4cfad0ec02
+  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 09/09/2020
+  ms.locfileid: "47419239"
+landingContent:
+- title: Sobre as reservas da Microsoft
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Microsoft bookings?
+      url: bookings-overview.md
+  - linkListType: download
+    links:
+    - text: Obter o aplicativo de reservas
+      url: get-bookings-app.md
+- title: Configurar o Microsoft bookings
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Insira suas informações comerciais
+      url: enter-business-information.md
+    - text: Definir suas políticas de agendamento
+      url: set-scheduling-policies.md
+    - text: Definir suas ofertas de serviços
+      url: define-service-offerings.md
+    - text: Definir horário de trabalho do funcionário
+      url: employee-hours.md
+    - text: Personalizar e publicar sua página de reservas
+      url: customize-booking-page.md
+    - text: Criar e equipar suas reservas
+      url: create-a-manual-booking.md
+- title: Convidar pessoas para agendar compromissos
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Personalizar sua página de reserva
+      url: customize-booking-page.md

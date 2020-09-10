@@ -3,7 +3,7 @@ title: Proteger suas contas de administrador global do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 09/08/2020
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -20,16 +20,16 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: Este artigo fornece informações sobre como proteger o acesso de administrador global à sua assinatura do Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 08e0960e7150395b2997dbd9ff0a1818822e17e2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb8f85b3ee5c0f72c2dd93517e68784459c32e7e
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695351"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416381"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Proteger suas contas de administrador global do Microsoft 365
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 As brechas de segurança de uma assinatura do Microsoft 365, incluindo a coleta de informações e os ataques de phishing, são normalmente realizadas comprometendo as credenciais de uma conta de administrador global do Microsoft 365. A segurança na nuvem é uma parceria entre você e a Microsoft:
   
@@ -43,13 +43,14 @@ A Microsoft fornece recursos para ajudar a proteger sua organização, mas elas 
     
 2. Configure a autenticação multifator para suas contas de administrador global do Microsoft 365 dedicada e use a forma mais segura de autenticação secundária.
     
-> [! NOTEs] embora este artigo se concentre em contas de administrador global, você deve considerar se as contas adicionais com permissões amplas para acessar os dados em sua assinatura, como administrador de descoberta eletrônica ou contas de administrador de segurança ou conformidade, devem ser protegidas da mesma maneira. <br > Uma conta de administrador global pode ser criada sem adicionar nenhuma licença.
+> [!Note]
+> Embora este artigo se concentre nas contas de administrador global, você deve considerar se as contas adicionais com permissões amplas para acessar os dados em sua assinatura, como administrador de descoberta eletrônica ou contas de administrador de segurança ou conformidade, devem ser protegidas da mesma maneira. <br > Uma conta de administrador global pode ser criada sem adicionar nenhuma licença.
   
 ## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Etapa 1. Criar contas de administrador global do Microsoft 365 dedicada e usá-las somente quando necessário
 
 Há relativamente poucas tarefas administrativas, como a atribuição de funções a contas de usuário, que exigem privilégios de administrador global. Portanto, em vez de usar contas de usuário diárias às quais a função de administrador global tenha sido atribuída, siga estas etapas:
   
-1. Determine o conjunto de contas de usuário que foram atribuídas à função de administrador global. Você pode fazer isso com o Azure Active Directory (Azure AD), comando PowerShell para Graph:
+1. Determine o conjunto de contas de usuário que foram atribuídas à função de administrador global. Você pode fazer isso com o seguinte comando do PowerShell do Azure Active Directory (Azure AD) para Graph:
   
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
@@ -120,15 +121,15 @@ Se você é uma organização maior que usa um modelo de identidade híbrida do 
     
 Se a infraestrutura de segurança para o método de verificação mais forte desejado não estiver em vigor e estiver funcionando para o Microsoft 365 MFA, recomendamos enfaticamente que você configure contas de administrador global dedicadas com o MFA usando o aplicativo Microsoft Authenticator, uma chamada telefônica ou um código de verificação de mensagem de texto enviado a um telefone inteligente para suas contas de administrador global como uma medida de segurança provisória. Não deixe suas contas de administrador global dedicadas sem a proteção adicional fornecida pela MFA.
   
-Para obter mais informações, consulte [Plan for Multifactor Authentication for Microsoft 365 Implantations](https://docs.microsoft.com/office365/admin/security-and-compliance/multi-factor-authentication-plan).
+Para obter mais informações, consulte [MFA for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).
   
 Para se conectar aos serviços do Microsoft 365 com MFA e PowerShell, consulte estes artigos:
 
 - [PowerShell para Microsoft 365 para contas de usuário, grupos e licenças](connect-to-microsoft-365-powershell.md)
 - [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
-- [Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-by-using-mfa)
+- [Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa)
 - [SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-multifactor-authentication-mfa)
-- [Skype for Business Online] Manage-Skype-for-Business-online-with-Microsoft-365-PowerShell # Connect-using-a-Skype-for-Business-online-Administrator-Account-by-multifator-autenticação
+- [Skype for Business Online](manage-skype-for-business-online-with-microsoft-365-powershell.md#connect-using-a-skype-for-business-online-administrator-account-with-multi-factor-authentication)
 
 ## <a name="additional-protections-for-enterprise-organizations"></a>Proteções adicionais para organizações empresariais
 
