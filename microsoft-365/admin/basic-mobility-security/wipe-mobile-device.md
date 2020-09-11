@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Usar mobilidade básica e segurança interna para remover informações de dispositivos registrados.
-ms.openlocfilehash: 4d854c7d4d81cd0b49ec7f81a49de5478b08f049
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 4627b0cb2d0963ae724c425a6a7ea6279f271856
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47336701"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429945"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Apagar um dispositivo móvel em mobilidade básica e segurança
 
@@ -39,7 +39,7 @@ Os dispositivos móveis podem armazenar informações organizacionais confidenci
 
 - **Quando um dispositivo é apagado (reinicialização de fábrica ou remover dados da empresa)**, o dispositivo é removido da lista de dispositivos gerenciados.
     
-- **Redefinir automaticamente um dispositivo**: você pode configurar uma política de segurança e mobilidade básica que redefine automaticamente um dispositivo depois que o usuário tenta inserir a senha do dispositivo por um número específico de vezes. Para fazer isso, siga as etapas em [criar políticas de segurança de dispositivo em mobilidade básica e segurança](create-device-security-policies-in-basic-mmobility-and-security.md).
+- **Redefinir automaticamente um dispositivo**: você pode configurar uma política de segurança e mobilidade básica que redefine automaticamente um dispositivo depois que o usuário tenta inserir a senha do dispositivo por um número específico de vezes. Para fazer isso, siga as etapas em [criar políticas de segurança de dispositivo em mobilidade básica e segurança](create-device-security-policies.md).
     
 - **Se você quiser saber a experiência do usuário** ao apagar o dispositivo, confira o  [que é o impacto do usuário e do dispositivo?](#whats-the-user-and-device-impact).   
 
@@ -91,4 +91,4 @@ O apagamento é enviado imediatamente para o dispositivo móvel e o dispositivo 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar a Mobilidade Básica e a Segurança](set-up-basic-mobility-and-security.md)
+[Configurar a Mobilidade Básica e a Segurança](set-up.md)

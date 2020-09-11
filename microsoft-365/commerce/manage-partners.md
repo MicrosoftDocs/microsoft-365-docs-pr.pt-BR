@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,13 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba como trabalhar com os fornecedores de soluções certificadas pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola.
-keywords: parceiro, provedor de soluções
-ms.openlocfilehash: 752c9e0237bbdde7be996b5675848e948e866dce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6cce3640a321d1eab31d527369a303cfde646718
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402589"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47430017"
 ---
 # <a name="manage-partner-relationships"></a>Gerenciar relacionamentos de parceiros
 
@@ -34,9 +33,13 @@ ms.locfileid: "44402589"
 
 Você pode trabalhar com os fornecedores de soluções certificadas pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola. Há algumas etapas envolvidas na configuração das coisas.
 
-- Os administradores localizam e contatam um parceiro usando o formulário em <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a> .
-- Os parceiros enviam uma solicitação de email aos clientes para estabelecer uma relação de parceria.
-- Os clientes aceitam o convite no centro de administração do Microsoft 365 e começam a trabalhar com o parceiro.
+1. Os administradores localizam e contatam um parceiro usando o formulário em <a href="https://www.microsoft.com/solution-providers/home" target="_blank">https://www.microsoft.com/solution-providers/home</a> .
+2. Os parceiros enviam uma solicitação de email aos clientes para estabelecer uma relação de parceria.
+3. Os clientes aceitam o convite no centro de administração do Microsoft 365 e começam a trabalhar com o parceiro.
+
+## <a name="before-you-begin"></a>Antes de começar
+
+Você deve ser um administrador global ou de cobrança para executar estas etapas. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="what-can-a-partner-do-for-my-organization-or-school"></a>O que um parceiro pode fazer para minha organização ou escola?
 
@@ -50,7 +53,6 @@ Há várias maneiras pelas quais um parceiro pode trabalhar com você. Com base 
 | Parceiro | Você dá ao seu parceiro uma conta de usuário em seu locatário e ele funciona com outros serviços da Microsoft em seu nome. |
 | Supervisor | Os parceiros podem redefinir senhas e lidar com incidentes de suporte para você. |
 | Microsoft Products MPSA (contrato de serviços de &) | Se você trabalhou com vários parceiros por meio do programa MPSA, poderá permitir que eles vejam as compras feitas por cada um. |
-| Parceiro de computador OEM | Os parceiros podem carregar IDs de dispositivo para computadores que você está [Gerenciando com o AutoPilot](https://docs.microsoft.com/microsoft-store/add-profile-to-devices). |
 | Parceiro de linha de negócios (LOB) | Os parceiros podem desenvolver, enviar e gerenciar aplicativos LOB específicos para sua organização ou escola. |
 
 ## <a name="find-a-partner"></a>Localizar um parceiro
@@ -82,24 +84,16 @@ Se você já tem um parceiro, mas ainda não assinou um contrato de cliente da M
 4. Selecione **aceitar**.
 5. A lista de parceiros com os quais você está trabalhando é exibida. Selecione qualquer parceiro para ver detalhes.
 
-## <a name="remove-partner-admin-privileges"></a>Remover privilégios de administrador de parceiro
+## <a name="remove-partner-admin-roles"></a>Remover funções de administrador de parceiro
 
-Dependendo da solicitação feita pelo parceiro, parte da aceitação do convite inclui concordar em conceder privilégios de administrador delegados para eles. Para obter mais informações, confira [privilégios de administrador delegado no Azure ad](https://docs.microsoft.com/partner-center/customers_revoke_admin_privileges#delegated-admin-privileges-in-azure-ad).
+Dependendo da solicitação feita pelo parceiro, quando você aceita o convite, você concorda em fornecer funções de administrador global e de assistência técnica. Ao conceder essas funções de administrador a um parceiro, você concede automaticamente a elas privilégios de administrador delegados no Azure AD. Para saber mais, confira [privilégios de administrador delegados no Azure ad](https://docs.microsoft.com/partner-center/customers_revoke_admin_privileges#delegated-admin-privileges-in-azure-ad).
 
-Se você não quiser delegar privilégios de administrador para o parceiro, cancele o convite em vez de aceitá-lo.
+Se você não quiser dar as funções de administrador ao parceiro, cancele o convite em vez de aceitá-lo.
 
-Se você delegar privilégios de administrador para um parceiro, poderá remover esses privilégios a qualquer momento. Remover privilégios de administrador não remove o relacionamento do parceiro. Eles ainda podem trabalhar com você, por exemplo, como revendedor.
+Você pode remover as funções de administrador de um parceiro a qualquer momento. Remover as funções de administrador não remove o relacionamento do parceiro. Eles ainda podem trabalhar com você em uma capacidade diferente, como um revendedor. Se você decidir que não deseja mais trabalhar com um parceiro, entre em contato com seu parceiro para terminar a relação.
 
-1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">contas de cobrança</a> de cobrança.
-2. Na página **contas de cobrança** , selecione a guia **relacionamentos de parceiros** .
+1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">relações de parceiros</a> de cobrança.
+2. Na página **relações de parceiros** , selecione a linha que contém o nome do parceiro que você deseja remover.
 3. Selecione a linha que contém o nome do parceiro.
-4. Na página parceiro, selecione **remover funções de administrador**.
-
-## <a name="delete-a-partner-relationship"></a>Excluir uma relação de parceiro
-
-Se você decidir que não deseja mais trabalhar com um parceiro, poderá finalizar a relação. No entanto, você só pode excluir as relações nas quais o parceiro é um administrador delegado ou um supervisor. Para todos os outros tipos de parceiros, entre em contato com seu parceiro para finalizar a relação.
-
-1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">contas de cobrança</a> de cobrança.
-2. Na página **contas de cobrança** , selecione a guia **relacionamentos de parceiros** .
-3. Selecione a linha que contém o nome do parceiro.
-4. Na página detalhes do parceiro, selecione **excluir parceiro**.
+4. Na página parceiro, selecione **remover funções**.
+5. Na caixa de diálogo **remover funções?** , selecione **Sim**.
