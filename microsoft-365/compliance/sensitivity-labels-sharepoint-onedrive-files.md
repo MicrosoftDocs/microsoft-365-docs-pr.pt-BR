@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: d049cdd61d2155267f4e55c612885929e27adaaa
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 650673bd85ab8a7597c9dcd644872fab2b045e72
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845717"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47426968"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -130,7 +130,7 @@ O administrador global da sua organização tem permissões completas para criar
 
 ### <a name="use-powershell-to-enable-support-for-sensitivity-labels"></a>Usar o PowerShell para habilitar o suporte a rótulos de confidencialidade
 
-Como alternativa ao uso do centro de conformidade, é possível habilitar o suporte para rótulos de confidencialidade usando o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) do SharePoint Online PowerShell.
+Como alternativa ao uso do centro de conformidade, é possível habilitar o suporte para rótulos de confidencialidade usando o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) do SharePoint Online PowerShell.
 
 Se você tiver o Microsoft 365 multigeográfico, deverá usar o PowerShell para habilitar esse suporte para todos os locais geográficos.
 
@@ -156,11 +156,11 @@ Antes de executar o comando do PowerShell para habilitar os rótulos de confiden
 
 #### <a name="run-the-powershell-command-to-enable-support-for-sensitivity-labels"></a>Executar o comando do PowerShell para habilitar o suporte a rótulos de confidencialidade
 
-Para habilitar os novos recursos, use o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) com o parâmetro *EnableAIPIntegration* :
+Para habilitar os novos recursos, use o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) com o parâmetro *EnableAIPIntegration* :
 
 1. Usando uma conta corporativa ou de estudante que tenha privilégios de administrador global ou de administrador do SharePoint no Microsoft 365, conecte-se ao SharePoint. Para saber como, consulte [Introdução ao Shell de Gerenciamento do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-    Observação: se você tiver o Microsoft 365 multigeográfico, use o parâmetro-URL com [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)e ESPECIFIQUE a URL do site do centro de administração do SharePoint Online para um de seus locais geográficos.
+    Observação: se você tiver o Microsoft 365 multigeográfico, use o parâmetro-URL com [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice)e ESPECIFIQUE a URL do site do centro de administração do SharePoint Online para um de seus locais geográficos.
 
 2. Execute o seguinte comando e pressione **Y** para confirmar:
 
@@ -210,11 +210,11 @@ Por exemplo, para pesquisar todos os documentos que tenham sido rotulados como "
 
 `InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`
 
-Para obter os GUIDs de seus rótulos de confidencialidade, use o cmdlet [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label?view=exchange-ps) :
+Para obter os GUIDs de seus rótulos de confidencialidade, use o cmdlet [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label) :
 
 1. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
-    Por exemplo, em uma sessão do PowerShell executada como administrador, entre com uma conta de administrador global.
+    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global.
 
 2. Em seguida, execute o seguinte comando:
 
@@ -228,7 +228,7 @@ Para obter mais informações sobre como usar propriedades gerenciadas, consulte
 
 Se você desabilitar esses novos recursos, os arquivos carregados após a habilitação dos rótulos de sensibilidade do SharePoint e do OneDrive continuam a ser protegidos pelo rótulo, pois as configurações de rótulo continuam a ser impostas. Quando você aplica rótulos de sensibilidade a novos arquivos depois de desabilitar esses novos recursos, a pesquisa de texto completo, a descoberta eletrônica e a coautoria não funcionarão mais.
 
-Para desabilitar esses novos recursos, você deve usar o PowerShell. Usando o Shell de gerenciamento do SharePoint Online e o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) , especifique o mesmo parâmetro *EnableAIPIntegration* , conforme descrito na seção [usar o PowerShell para habilitar o suporte para rótulos de confidencialidade](#use-powershell-to-enable-support-for-sensitivity-labels) . Mas, desta vez, defina o valor do parâmetro como false e pressione **Y** para confirmar:
+Para desabilitar esses novos recursos, você deve usar o PowerShell. Usando o Shell de gerenciamento do SharePoint Online e o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) , especifique o mesmo parâmetro *EnableAIPIntegration* , conforme descrito na seção [usar o PowerShell para habilitar o suporte para rótulos de confidencialidade](#use-powershell-to-enable-support-for-sensitivity-labels) . Mas, desta vez, defina o valor do parâmetro como false e pressione **Y** para confirmar:
 
 ```PowerShell
 Set-SPOTenant -EnableAIPIntegration $false

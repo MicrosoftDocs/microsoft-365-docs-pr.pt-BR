@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a usar o Windows PowerShell para criar e publicar os rótulos de retenção a partir da linha de comando, independentemente do Centro de conformidade do Microsoft 365.
-ms.openlocfilehash: 416746bb849020d76bcf950d397768239d17baf1
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 5b8bb7a08c9794139e840d59f9238d858e15dd4e
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126362"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47426978"
 ---
 # <a name="create-and-publish-retention-labels-by-using-powershell"></a>Criar e publicar rótulos de retenção usando o Windows PowerShell
 
@@ -736,7 +736,7 @@ if ($ResultCSV)
 
 ## <a name="step-4-run-the-powershell-script"></a>Etapa 4: Executar o script do Windows PowerShell
 
-Primeiro, [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
+Primeiro, [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 Em seguida, execute o script que cria e publica os rótulos de retenção:
   
