@@ -3,7 +3,7 @@ title: Solicitações de titulares dos dados ao suporte e aos Serviços profissi
 description: Como o Suporte da Microsoft e os serviços profissionais cuidam das solicitações de entidades de dados para o RGPD e CCPA.
 keywords: Serviços profissionais, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e8bbdcc6140ffac298942f81899a4c872cc05584
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 496a84b153d017eb69ba5b18443e4331c00c4dd7
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036306"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416575"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de titulares dos dados ao suporte e aos Serviços profissionais da Microsoft sobre o RGPD e CCPA
 
@@ -133,7 +133,7 @@ Ao descobrir os dados relevantes e obter assistência da Microsoft, um cliente t
 
 Para identificar interações específicas, os clientes precisam pesquisar as suas interações. Para os clientes Premier, o Gerente de Serviço de Contrato Premier (CSM) de um cliente tem a visibilidade de todas as Solicitações de Suporte (SRs) criadas sob essa Agenda do Contrato. Para os clientes não Premier, estão disponíveis portais de interação com o suporte equivalentes, como por meio das áreas de suporte dos Serviços Online.
 
-![Pesquisar no CMS](../media/Prof-Serv-DSR-Doc-Final_image3.png)O CSM pode acessar o portal em Support.Microsoft.Com ([https://support.microsoft.com/\<local código de idioma\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier)) (“CSM”) e selecionar e revisar as Solicitações de Suporte. (Observação: na URL, substitua o seu código de idioma local).
+![Pesquisar no SMC](../media/Prof-Serv-DSR-Doc-Final_image3.png)O CSM pode acessar o portal em Support.Microsoft.Com ([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier)) ("SMC") e selecione e analise os Pedidos de Suporte. (Observação: na URL, substitua o seu código de idioma local).
 
 >[!IMPORTANT]
 >Além do histórico do caso no CMS, os clientes também podem ter dados pessoais de um usuário final em arquivos coletados pela Microsoft (ou, com a permissão do cliente, removidos do Serviço Online) durante uma interação do suporte. Os exemplos podem incluir cópias de caixas de correio do Exchange, VMs do Azure ou bancos de dados do cliente. Esses dados pessoais podem ou não ser mencionados no histórico do caso (ou seja, tíquete) para uma interação específica. Para revisar esses dados, o Contato do Cliente deve ser um contato de solicitação de suporte autenticado (via AAD ou MSA) específico que tenha recebido uma URL para um espaço de trabalho na Ferramenta de Gerenciamento e Transferência de Dados de Suporte da Microsoft (DTM). Um Contato do Cliente terá acesso aos arquivos, mas nenhuma visualização global está disponível, e o SMC não indicará se existem arquivos.
