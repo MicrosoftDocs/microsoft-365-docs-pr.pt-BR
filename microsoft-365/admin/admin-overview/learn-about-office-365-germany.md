@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Saiba mais sobre o Office 365 Alemanha.
-ms.openlocfilehash: 694f1a2ebbe3740c09cb306a26729b6482497d0b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a9ad8f88f48315c77d17ca51855d75d1c443f6f2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307272"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545913"
 ---
 # <a name="learn-about-office-365-germany"></a>Saiba mais sobre o Office 365 Germany
 
@@ -35,11 +35,11 @@ ms.locfileid: "47307272"
 
 Office 365 Alemanha foi uma opção diferenciada para os serviços do Office 365 disponíveis na Europa. Ele ajudou a atender às necessidades dos clientes mais regulamentados na Alemanha, na União Europeia (UE) e na Associação Européia (EFTA) ao fornecer nossos serviços de produtividade líderes do setor para trabalho digital, de data centers em alemão, com residências de dados na Alemanha e medidas de controle e acesso de dados estritos por meio de um modelo de confiança de dados exclusivo regido pela legislação alemã.
   
-O objeto de confiança de dados, T-Systems International, uma empresa alemã independente e subsidiária da Deutsche Telekom, controla o acesso lógico e físico aos dados dos clientes. Os dados dos clientes não podem ser acessados sem a aprovação ou a supervisão do objeto de confiança de dados, que é regido pelas leis alemãs.
+O objeto de confiança de dados, T-Systems International, uma empresa alemã independente e subsidiária da Deutsche Telekom, controla o acesso lógico e físico aos dados dos clientes. Os dados do cliente não podem ser acessados sem aprovação ou supervisão pela confiança de dados, que é regido pela legislação alemã.
   
-Os clientes precisam ter deslocado e o isolamento do Office 365 Alemanha impostos sobre sua capacidade de lidar com a flexibilidade e a consistência que os clientes desejam. Desde agosto de 2018, não estamos mais aceitando novos clientes ou implantando todos os novos serviços da Alemanha do Microsoft Cloud atualmente disponível. Para obter mais detalhes, consulte esta postagem de blog: [a Microsoft fornece serviços de nuvem de novos datacenters na Alemanha em 2019 para atender às necessidades de clientes em evolução](https://go.microsoft.com/fwlink/p/?linkid=839016).
+Os clientes precisam ter deslocado e o isolamento do Office 365 Alemanha impostos sobre sua capacidade de lidar com a flexibilidade e a consistência desejadas pelos clientes. Desde agosto de 2018, não estamos mais aceitando novos clientes ou implantando todos os novos serviços da Alemanha atualmente disponível na nuvem da Microsoft. Para obter mais informações, consulte esta postagem de blog: [a Microsoft oferece serviços de nuvem de novos datacenters na Alemanha em 2019 para atender às necessidades de clientes em constante evolução](https://go.microsoft.com/fwlink/p/?linkid=839016).
   
-## <a name="what-microsoft-online-services-are-available-in-office-365-germany"></a>Quais serviços online da Microsoft estão disponíveis no Office 365 Germany?
+## <a name="which-microsoft-online-services-are-available-in-office-365-germany"></a>Quais serviços online da Microsoft estão disponíveis no Office 365 Alemanha?
 
 As ofertas do plano do Office 365 Alemanha são alinhadas com as ofertas globais o máximo possível nesse ambiente isolado. As exclusões incluem planos relacionados ao Yammer, planos que estão se aproximando do fim da vida e planos disponíveis por meio de programas sem fins lucrativos. O Office 365 e5, o SPE e outros serviços estarão disponíveis após a disponibilidade geral do Office 365 Alemanha. 
   
@@ -89,7 +89,7 @@ Os seguintes serviços e recursos estão disponíveis em alguns [planos de assin
   
 ## <a name="general-information"></a>Informações gerais
 
-|||
+|Item|Informações|
 |-----|-----|
 |Entrar no portal  <br/> |[https://portal.office.de](https://portal.office.de)  <br/> |
 |Assinaturas, cobranças e suporte técnico  <br/> |Suporte baseado em Alemanha disponível em alemão e inglês para obter detalhes, consulte [contatar o suporte para produtos de negócios-ajuda para administradores](../contact-support-for-business-products.md).  <br/> |

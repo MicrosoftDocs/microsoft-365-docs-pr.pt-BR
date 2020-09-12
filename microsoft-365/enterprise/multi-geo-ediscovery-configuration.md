@@ -13,12 +13,12 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: Saiba como usar o parâmetro Region para configurar a descoberta eletrônica para uso em locais de satélite no Microsoft 365 multigeo.
-ms.openlocfilehash: 83141f824c76ca5531e1b390b91adcdb4f3874de
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 216012791473776395d27821293e8fc565568c2c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687085"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547945"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Configuração do Microsoft 365 Multi-Geo eDiscovery
 
@@ -35,7 +35,7 @@ Quando a função de gerente ou administrador de Descoberta Eletrônica é defin
 
 Para configurar o Filtro de Segurança de Conformidade para uma região:
 
-1. [Conecte-se ao Centro de conformidade e segurança do Microsoft 365 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [Conecte-se ao Centro de conformidade e segurança do Microsoft 365 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 2. Use a seguinte sintaxe:
 
@@ -49,4 +49,4 @@ Para configurar o Filtro de Segurança de Conformidade para uma região:
    New-ComplianceSecurityFilter -Action All -FilterName "NAM eDiscovery Managers" -Region NAM -Users adwood@contoso.onmicrosoft.com
    ```
 
-Confira o artigo sobre o cmdlet [New-ComplianceSecurityFilter](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesecurityfilter) para ver os sintaxe e parâmetros adicionais.
+Confira o artigo sobre o cmdlet [New-ComplianceSecurityFilter](https://docs.microsoft.com/powershell/module/exchange/new-compliancesecurityfilter) para ver os sintaxe e parâmetros adicionais.

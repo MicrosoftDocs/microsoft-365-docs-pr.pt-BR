@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 9c289006fc1501865b0cf5529c308a0986895504
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 2dfaf33a837a74d92ec9bbbbb7f04b726e7f3744
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898135"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547849"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
@@ -33,13 +33,15 @@ Essas recomendações exigem que seus usuários usem clientes de email modernos,
 
 ## <a name="updating-common-policies-to-include-email"></a>Atualizando políticas comuns para incluir email
 
-O diagrama a seguir ilustra as políticas comuns de acesso de dispositivo e identidades e indica quais políticas precisam ser atualizadas para proteger o email. Observe a adição de uma nova regra para o Exchange Online bloquear clientes ActiveSync. Isso força o uso do Outlook Mobile.
+Para proteger o email, o diagrama a seguir ilustra quais políticas serão atualizadas a partir das políticas comuns de acesso de dispositivo e identidade.
 
-![Resumo das atualizações de política para proteção de email](../media/identity-access-ruleset-mail.png)
+[![Resumo das atualizações de política para proteger o acesso ao Microsoft Teams e seus serviços dependentes](../media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-[Veja uma versão maior desta imagem](https://raw.githubusercontent.com/MicrosoftDocs/microsoft-365-docs/public/microsoft-365/media/identity-access-ruleset-mail.png)
+[Veja uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando as configurou, só precisará criar a nova política para bloquear clientes ActiveSync. Revise as políticas listadas na tabela a seguir e faça as adições recomendadas ou confirme se elas já estão incluídas. Cada regra vincula as instruções de configuração associadas em [políticas comuns de acesso de dispositivo e identidade](identity-access-policies.md).
+Observe a adição de uma nova política para o Exchange Online bloquear clientes ActiveSync. Isso força o uso do Outlook Mobile.
+
+Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando as configurou, só precisará criar a nova política para bloquear clientes ActiveSync. Revise as políticas listadas na tabela a seguir e faça as adições recomendadas ou confirme se elas já estão incluídas. Cada política vincula as instruções de configuração associadas em [políticas comuns de acesso de dispositivo e identidade](identity-access-policies.md).
 
 |Nível de Proteção|Políticas|Mais informações|
 |:---------------|:-------|:----------------|
@@ -55,7 +57,7 @@ Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando a
 
 ## <a name="block-activesync-clients"></a>Bloquear clientes ActiveSync
 
-Essa política impede que os clientes do ActiveSync ignorem outras regras de acesso condicional. A configuração de regra só se aplica aos clientes do ActiveSync. Ao selecionar **[exigir política de proteção de aplicativo](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)**, essa política bloqueia clientes ActiveSync. Detalhes sobre como criar essa política podem ser encontrados em [exigir política de proteção de aplicativo para acesso de aplicativo em nuvem com acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
+Essa política impede que os clientes do ActiveSync ignorem outras políticas de acesso condicional. A configuração de política se aplica apenas aos clientes do ActiveSync. Ao selecionar **[exigir política de proteção de aplicativo](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)**, essa política bloqueia clientes ActiveSync. Detalhes sobre como criar essa política podem ser encontrados em [exigir política de proteção de aplicativo para acesso de aplicativo em nuvem com acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
 
 1. Siga a etapa 2: configurar uma política de acesso condicional do Azure AD para o Exchange Online com o ActiveSync (EAS) "no [cenário 1: os aplicativos do Office 365 exigem aplicativos aprovados com políticas de proteção de aplicativos](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), o que impede que os clientes do Exchange ActiveSync aproveitem a autenticação básica para se conectar ao Exchange Online.
 
@@ -67,4 +69,9 @@ Para obter mais informações, consulte [configurar novos recursos de criptograf
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Saiba mais sobre as recomendações de política para proteger arquivos e sites do SharePoint](sharepoint-file-access-policies.md)
+![Etapa 4: políticas para aplicativos em nuvem da Microsoft 365](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+
+Configure as políticas de acesso condicional para:
+
+- [Microsoft Teams](teams-access-policies.md)
+- [SharePoint](secure-email-recommended-policies.md)

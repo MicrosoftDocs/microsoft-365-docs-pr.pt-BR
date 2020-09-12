@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Perguntas frequentes sobre o Microsoft bookings.
-ms.openlocfilehash: db04c2759187f66503bcc28660b5177f636eaa6c
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: ee0de2d1412aa5ec38759a3a2512de05b9e02621
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419258"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545711"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Perguntas frequentes sobre o Microsoft bookings
 
@@ -180,7 +180,7 @@ Não há provisão para definir o fuso horário para a equipe em reservas. O fus
 
 ### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>As notificações por email podem ser enviadas como o nome de domínio do locatário?
 
-Os endereços de email são controlados e gerenciados no nível de configurações do Microsoft 365 e dependem das definições de configuração do domínio. Mais informações podem ser encontradas [aqui](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps).
+Os endereços de email são controlados e gerenciados no nível de configurações do Microsoft 365 e dependem das definições de configuração do domínio. Mais informações podem ser encontradas [aqui](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain).
 
 ### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>A capacidade de enviar mensagens SMS de acordo com um serviço diferente ou uma configuração específica?
 
@@ -366,7 +366,7 @@ Se você ainda vir esse erro após um longo período de tempo ou se estiver vend
 
   - [Personalizar e publicar sua página de reservas](customize-booking-page.md)
 
-  - [Configuração da caixa de correio do locatário](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps)
+  - [Configuração da caixa de correio do locatário](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 
   - [Reservas de grupo](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 

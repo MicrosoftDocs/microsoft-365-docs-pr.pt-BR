@@ -12,16 +12,16 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: Saiba como administrar as configurações multigeográficas do Exchange Online no seu ambiente do Microsoft 365 com o PowerShell.
-ms.openlocfilehash: 645d48066ca02dbf3480e20ae30dc187f84293cf
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 996566d67aa8ba7ebca1406cd5d6265458637fee
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686915"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546241"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Administrar caixas de correio do Exchange Online em um ambiente multigeográfico
 
-O PowerShell remoto é necessário para exibir e configurar propriedades de várias regiões no ambiente do Microsoft 365. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+O PowerShell do Exchange Online é necessário para exibir e configurar várias propriedades geográficas no seu ambiente do Microsoft 365. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 É necessário o [Módulo Microsoft Azure Active Directory PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) v1.1.166.0 ou superior em v1. x para ver a propriedade **PreferredDataLocation** nos objetos do usuário. Objetos do usuário sincronizados por meio do AAD Connect no AAD não podem ter seu valore **PreferredDataLocation** modificado diretamente por meio do AAD PowerShell. Objetos Apenas Nuvem de usuário podem ser modificados pelo AAD PowerShell. Para se conectar ao PowerShell do Azure AD, consulte [Conectar-se ao PowerShell](connect-to-microsoft-365-powershell.md).
 
@@ -29,33 +29,49 @@ O PowerShell remoto é necessário para exibir e configurar propriedades de vár
 
 Normalmente, o PowerShell do Exchange Online se conectará à localização geográfica central. Mas você também pode se conectar diretamente a localizações geográficas por satélite. Devido a melhorias no desempenho, recomendamos que você se conecte diretamente à localização geográfica por satélite quando você gerenciar apenas usuários nessa localização.
 
-Para conectar-se a uma localização geográfica específica, o parâmetro *ConnectionUri* é diferente das instruções de conexão comuns. O restante dos comandos e valores são iguais. As etapas são:
+Os requisitos para instalar e usar o módulo EXO V2 são descritos em [Instalar e manter o módulo EXO V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).
 
-1. Em seu computador local, abra o Windows PowerShell e execute o comando a seguir:
+Para conectar o PowerShell do Exchange Online a uma localização geográfica específica, o parâmetro *ConnectionURI* é diferente das instruções de conexão normais. O restante dos comandos e valores são iguais.
+
+Especificamente, você precisa adicionar o `?email=<emailaddress>` valor para o final do valor _ConnectionURI_ . `<emailaddress>` é o endereço de email de **qualquer** caixa de correio na localização geográfica de destino. Suas permissões para essa caixa de correio ou a relação com suas credenciais não são um fator; o endereço de email simplesmente diz ao Exchange Online PowerShell onde se conectar.
+
+Os clientes Microsoft 365 ou Microsoft 365 GCC normalmente não precisam usar o parâmetro _ConnectionURI_ para se conectar ao PowerShell do Exchange Online. Mas, para se conectar a um local geográfico específico, você precisa usar o parâmetro _ConnectionURI_ para que possa usar `?email=<emailaddress>` o valor.
+
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell-using-multi-factor-authentication-mfa"></a>Conectar-se a um local geográfico no PowerShell do Exchange Online usando a protocolo de autenticação multifator (MFA)
+
+1. Em uma janela do Windows PowerShell, carregue o módulo EXO V2 executando o seguinte comando:
+
+   ```powershell
+   Import-Module ExchangeOnlineManagement
+   ```
+
+2. No exemplo a seguir, admin@contoso.onmicrosoft.com é a conta de administrador e a localização geográfica de destino é onde o olga@contoso.onmicrosoft.com de caixa de correio reside.
+
+  ```powershell
+  Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
+  ```
+
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell-without-using-mfa"></a>Conectar-se a um local geográfico no PowerShell do Exchange Online sem usar a MFA
+
+1. Em uma janela do Windows PowerShell, carregue o módulo EXO V2 executando o seguinte comando:
+
+   ```powershell
+   Import-Module ExchangeOnlineManagement
+   ```
+
+2. Execute o seguinte comando:
 
    ```powershell
    $UserCredential = Get-Credential
    ```
 
-   Na caixa de diálogo **Solicitação de Credencial do Windows PowerShell**, digite sua conta corporativa ou de estudante e senha, e clique em **OK**.
+   Na caixa de diálogo **Solicitação de Credencial do Windows PowerShell** que aparece, digite sua conta corporativa ou de estudante e a senha, e clique em **OK**.
 
-2. Substitua `<emailaddress>` com o endereço de email de **qualquer** caixa de correio na localização geográfica de destino e execute o seguinte comando. As permissões de caixa de correio e a relação com suas credenciais na Etapa 1 não são um fator; o endereço de email simplesmente informa ao Exchange Online como se conectar.
-  
-   ```powershell
-   $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell?email=<emailaddress> -Credential $UserCredential -Authentication  Basic -AllowRedirection
-   ```
-
-   Por exemplo, se olga@contoso.onmicrosoft.com for o endereço de email de uma caixa de correio válida na localização geográfica que você deseja conectar, execute o seguinte comando:
+3. No exemplo a seguir, a localização geográfica de destino é onde reside a caixa de correio olga@contoso.onmicrosoft.com.
 
    ```powershell
-   $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com -Credential $UserCredential -Authentication  Basic -AllowRedirection
+   Connect-ExchangeOnline -Credential $UserCredential -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
    ```
-
-3. Execute o seguinte comando:
-
-    ```powershell
-    Import-PSSession $Session
-    ```
 
 ## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>Exibir as localizações geográficas disponíveis que estão configurados em sua organização do Exchange Online
 
@@ -135,14 +151,13 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 ```
 
 > [!NOTE]
+>
 > - Como mencionado anteriormente, você não pode usar este procedimento para objetos de usuário sincronizados do Active Directory local. Você precisa alterar o valor **PreferredDataLocation** no Active Directory e sincronizá-lo usando o AAD Connect. Para obter mais informações, consulte [Sincronização do Azure Active Directory Connect: Configurar o local preferencial dos dados dos recursos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
-> 
+>
 > - O tempo que leva para relocar uma caixa de correio para uma nova localização geográfica depende de vários fatores:
-> 
+>
 >   - O tamanho e tipo de caixa de correio.
-> 
 >   - O número de caixas de correio sendo movidas.
-> 
 >   - Disponibilidade de recursos de movimentação.
 
 ### <a name="move-disabled-mailboxes-that-are-on-litigation-hold"></a>Mover caixas de correio desabilitadas que estão em Retenção de Litígio
@@ -172,17 +187,11 @@ New-MsolUser -UserPrincipalName <UserPrincipalName> -DisplayName "<Display Name>
 Este exemplo cria uma nova conta de usuário para Elizabeth Brunner com os seguintes valores:
 
 - Nome de usuário principal: ebrunner@contoso.onmicrosoft.com
-
 - Nome: Elizabeth
-
 - Sobrenome: Brunner
-
 - Nome para exibição: Elizabeth Brunner
-
 - Senha: gerada aleatoriamente e mostrada nos resultados do comando (porque não estamos usando o parâmetro *Senha*)
-
 - Licença: `contoso:ENTERPRISEPREMIUM` (E5)
-
 - Local: Austrália (AUS)
 
 ```powershell

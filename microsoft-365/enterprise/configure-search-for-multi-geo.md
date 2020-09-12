@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Saiba como configurar a pesquisa em um ambiente multigeográfico. Somente alguns clientes, como o OneDrive for Business, podem retornar resultados em um ambiente multigeográfico.
-ms.openlocfilehash: 22c71661e8f3b643a1fd7afa33b38584a1cd1be5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: e213e93cfbc967a723b4d27f4b36a83fe6687da9
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695046"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547147"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Configurar a Pesquisa do Microsoft 365 Multi-Geo
 
@@ -30,15 +30,11 @@ Por exemplo, um usuário em uma localização geográfica pode pesquisar por um 
 
 Esses clientes podem retornar resultados de todas as localizações geográficas:
 
--   OneDrive for Business
-
--   Delve
-
--   A home page do SharePoint
-
--   O Centro de Pesquisa
-
--   Aplicativos de pesquisa personalizada que usam a API de pesquisa do SharePoint
+- OneDrive for Business
+- Delve
+- A home page do SharePoint
+- O Centro de Pesquisa
+- Aplicativos de pesquisa personalizada que usam a API de pesquisa do SharePoint
 
 ### <a name="onedrive-for-business"></a>OneDrive for Business
 
@@ -135,14 +131,12 @@ Alguns dos recursos de pesquisa que talvez você conheça não são suportados e
 
 Todos os clientes de pesquisa usam as APIs REST de Pesquisa existentes do SharePoint para interagir com os índices de pesquisa.
 
-<img src="../media/configure-search-for-multi-geo-image1-1.png" />
+![Diagrama mostrando como as APIs REST de pesquisa do SharePoint interagem com os índices de pesquisa](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. Um cliente pesquisa chama o ponto de extremidade da API REST com a propriedade de consulta EnableMultiGeoSearch= true.
 2. A consulta é enviada a todas as localizações geográficas no locatário.
 3. Os resultados de pesquisa de cada localização geográfica são mesclados e classificados.
 4. O cliente obtém resultados de pesquisa unificados.
-
-
 
 <span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Observe que não mesclamos os resultados da pesquisa até recebemos resultados de todas as localizações geográficas. Isso significa que pesquisas multigeográficas têm latência adicional comparadas com pesquisas em um ambiente com localização geográfica única.
 
@@ -151,29 +145,32 @@ Todos os clientes de pesquisa usam as APIs REST de Pesquisa existentes do ShareP
 
 Cada centro de pesquisa tem vários verticais e você precisará configurar cada vertical individualmente.
 
-1.  Certifique-se de executar essas etapas com uma conta que tenha permissão para editar a página de resultados de pesquisa e a Web Part de resultados de pesquisa.
+1. Certifique-se de executar essas etapas com uma conta que tenha permissão para editar a página de resultados de pesquisa e a Web Part de resultados de pesquisa.
 
-2.  Navegue até a página de resultados de pesquisa (confira a [lista](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) das páginas de resultados de pesquisa)
+2. Navegue até a página de resultados de pesquisa (confira a [lista](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) das páginas de resultados de pesquisa)
 
-3.  Selecione o eixo vertical a configurar, clique no ícone de engrenagem **Configurações** no canto superior direito e, em seguida, clique em **Editar página**. A página de resultados de pesquisa abre no modo de edição.
+3. Selecione o eixo vertical a configurar, clique no ícone de engrenagem **Configurações** no canto superior direito e, em seguida, clique em **Editar página**. A página de resultados de pesquisa abre no modo de edição.
 
-     ![](../media/configure-search-for-multi-geo-image2.png)
-1.  Na Web Part de Resultados de Pesquisa, mova o ponteiro para o canto superior direito da web part, clique na seta e, em seguida, clique em **Editar Web Part** no menu. O painel de ferramentas da Web Part de Resultados de Pesquisa é aberto na faixa de opções no canto superior direito da página. ![](../media/configure-search-for-multi-geo-image3.png)
+   ![Editar seleção de página em configurações](../media/configure-search-for-multi-geo-image2.png)
 
-1.  No painel de ferramentas da Web Part, na seção **Configurações**, em **Configurações de controle de resultados**, marque **Mostrar resultados multigeográficos** para obter a Web Part de resultados de pesquisa para mostrar resultados de todas as localizações geográficas.
+4. Na Web Part de Resultados de Pesquisa, mova o ponteiro para o canto superior direito da web part, clique na seta e, em seguida, clique em **Editar Web Part** no menu. O painel de ferramentas da Web Part de Resultados de Pesquisa é aberto na faixa de opções no canto superior direito da página.
 
-2.  Clique em **OK** para salvar as alterações e fechar o painel de ferramentas da Web Part.
+   ![Editar seleção de Web Part](../media/configure-search-for-multi-geo-image3.png)
 
-3.  Verifique as suas alterações na Web Part de resultados da pesquisa clicando em **Check-In** na guia Página do menu principal.
+5. No painel de ferramentas da Web Part, na seção **Configurações**, em **Configurações de controle de resultados**, marque **Mostrar resultados multigeográficos** para obter a Web Part de resultados de pesquisa para mostrar resultados de todas as localizações geográficas.
 
-4.  Publique as alterações usando o link fornecido na observação na parte superior da página.
+6. Clique em **OK** para salvar as alterações e fechar o painel de ferramentas da Web Part.
+
+7. Verifique as suas alterações na Web Part de resultados da pesquisa clicando em **Check-In** na guia Página do menu principal.
+
+8. Publique as alterações usando o link fornecido na observação na parte superior da página.
 
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>Obter aplicativos de pesquisa personalizada para mostrar resultados de todas ou algumas localizações geográficas
 
 Os aplicativos de pesquisa personalizada obtêm resultados de todas ou algumas localizações geográficas, especificando-se os parâmetros de consulta com a solicitação para a API REST de pesquisa do SharePoint. Dependendo dos parâmetros de consulta, realiza-se fan-out da consulta para todas ou algumas localizações geográficas. Por exemplo, se você apenas precisar consultar um subconjunto de localizações geográficas para encontrar informações relevantes, você pode controlar o fan-out apenas de acordo com elas. Se a solicitação for concluída, a API REST de pesquisa do SharePoint retorna dados de resposta.
 
-**Requisito**
+### <a name="requirement"></a>Requisito
 
 Para cada local geográfico, certifique-se de que todos os usuários na organização tiverem o nível de permissão **ler** do site raiz (por exemplo, contoso**APAC**.sharepoint.com/ e a contoso** EU**.sharepoint.com/). [Saiba mais sobre permissões](https://support.office.com/article/understanding-permission-levels-in-sharepoint-87ecbb0e-6550-491a-8826-c075e4859848).
 
@@ -230,14 +227,12 @@ MultiGeoSearchStatus – Isso é uma propriedade que a API de pesquisa do ShareP
 <td align="left">Parcial</td>
 <td align="left">Os resultados parciais de uma ou mais localizações geográficas. Os resultados são incompletos devido a um erro transitório.</td>
 </tr>
-
 </tbody>
 </table>
 
 ### <a name="query-using-the-rest-service"></a>Consulta usando o serviço REST
 
 Com uma solicitação GET, você especifica os parâmetros da consulta na URL. Com uma solicitação POST, você passa os parâmetros de consulta no corpo no formato JavaScript Object Notation (JSON).
-
 
 #### <a name="request-headers"></a>Cabeçalhos de solicitação
 
@@ -269,8 +264,9 @@ https:// \<tenant\> / \_ API/Search/Query? QueryText = ' site ' &ClientType = ' 
 
 #### <a name="sample-post-request-thats-fanned-out-to-all-geo-locations"></a>Exemplo de solicitação POST da qual se realiza fan-out para **todas** as localizações geográficas
 
+```text
     {
-        "request": {
+    "request": {
             "__metadata": {
             "type": "Microsoft.Office.Server.Search.REST.SearchRequest"
         },
@@ -289,11 +285,11 @@ https:// \<tenant\> / \_ API/Search/Query? QueryText = ' site ' &ClientType = ' 
         "ClientType": "my_client_id"
         }
     }
-
+```
 
 #### <a name="sample-post-request-thats-fanned-out-to-some-geo-locations"></a>Exemplo de solicitação POST da qual se realiza fan-out para **algumas** localizações geográficas
 
-
+```text
     {
         "request": {
             "Querytext": "SharePoint",
@@ -318,13 +314,15 @@ https:// \<tenant\> / \_ API/Search/Query? QueryText = ' site ' &ClientType = ' 
             }
         }
     }
+```
 
 ### <a name="query-using-csom"></a>Consulta usando o CSOM
 
 Vejamos um exemplo de consulta CSOM da qual se faz fan-out para **todas** as localizações geográficas:
 
-    var keywordQuery = new KeywordQuery(ctx);
-    keywordQuery.QueryText = query.SearchQueryText;
-    keywordQuery.ClientType = <enter a string here>;
-    keywordQuery["EnableMultiGeoSearch"] = true;
-
+```text
+var keywordQuery = new KeywordQuery(ctx);
+keywordQuery.QueryText = query.SearchQueryText;
+keywordQuery.ClientType = <enter a string here>;
+keywordQuery["EnableMultiGeoSearch"] = true;
+```

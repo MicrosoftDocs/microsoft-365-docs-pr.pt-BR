@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo explica como remover ou desabilitar a autenticação moderna híbrida do Skype for Business e do Exchange.
-ms.openlocfilehash: da0887936f5def69ad80c8f04381bcb3a85c2349
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 70f62b9b2165464837aa1dea0e12854df116efe0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686990"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547091"
 ---
 # <a name="removing-or-disabling-hybrid-modern-authentication-from-skype-for-business-and-exchange"></a>Como remover ou desabilitar a autenticação moderna híbrida do Skype for Business e do Exchange
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Se você habilitou a autenticação moderna híbrida (HMA) apenas para encontrá-la inadequada ao seu ambiente atual, é possível desabilitar a HMA. Este artigo explica como.
   
@@ -47,7 +47,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $false
 Set-AuthServer -Identity evoSTS -IsDefaultAuthorizationEndpoint $false
 ```
 
-2. **Exchange Online**: [Conecte-se ao Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) com o PowerShell remoto. Execute o comando a seguir para transformar o sinalizador  *OAuth2ClientProfileEnabled*  como ' false ':
+2. **Exchange Online**: [Conecte-se ao Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) com o PowerShell remoto. Execute o comando a seguir para transformar o sinalizador  *OAuth2ClientProfileEnabled*  como ' false ':
 
 ```powershell    
 Set-OrganizationConfig -OAuth2ClientProfileEnabled:$false

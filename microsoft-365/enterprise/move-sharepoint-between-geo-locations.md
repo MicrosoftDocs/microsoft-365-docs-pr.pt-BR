@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como mover um site do SharePoint para um local geográfico diferente dentro de seu ambiente multigeográfico e comunicar as expectativas das alterações para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e96c422b1d2685c9fe3d4c8c45aa8437a6776621
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 819496b9f7612afa1db902e6fc5a0844e99d7a8e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686901"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545631"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Mover um site do SharePoint para uma localização geográfica diferente
 
@@ -36,13 +36,13 @@ Os seguintes tipos de sites podem ser movidos entre a localizações geográfica
 Só um Administrador Global ou Administrador do SharePoint pode mover um site entre as localizações geográficas.
 
 Há uma janela de somente leitura durante a mudança geográfica do site do SharePoint de aproximadamente 4 a 6 horas, dependendo do conteúdo do site.
- 
+
 ## <a name="best-practices"></a>Práticas recomendadas
 
-- Experimente uma movimentação do site do SharePoint em um site de teste para se familiarizar com o procedimento. 
-- Valide se o site pode ser movido antes do agendamento ou ao realizar a movimentação. 
+- Experimente uma movimentação do site do SharePoint em um site de teste para se familiarizar com o procedimento.
+- Valide se o site pode ser movido antes do agendamento ou ao realizar a movimentação.
 - Quando possível agende as mudanças geográficas cruzadas dos sites fora do horário comercial para reduzir o impacto do usuário.
-- Comunique-se com os usuários afetados antes de mover sites. 
+- Comunique-se com os usuários afetados antes de mover sites.
 
 ## <a name="communicating-to-your-users"></a>Comunicação com os usuários
 
@@ -62,10 +62,11 @@ Você pode agendar a movimentação do site do SharePoint com antecedência (con
 
 - Você pode agendar até 4.000 movimentações por vez.
 - Conforme a movimentação se inicia, você pode agendar mais, com no máximo 4.000 movimentações pendentes na fila e a qualquer momento.
- 
+
 Para agendar uma movimentação geográfica do site do SharePoint para o mais tarde, inclua um dos seguintes parâmetros ao começar a movimentação:
+
 - `PreferredMoveBeginDate` – A movimentação provavelmente começará no horário especificado.
-- `PreferredMoveEndDate` – A movimentação provavelmente será concluída até o momento especificado, na base do melhor esforço. 
+- `PreferredMoveEndDate` – A movimentação provavelmente será concluída até o momento especificado, na base do melhor esforço.
 
 A hora deve ser especificada no Tempo Universal Coordenado (UTC) para ambos os parâmetros.
 
@@ -73,19 +74,22 @@ A hora deve ser especificada no Tempo Universal Coordenado (UTC) para ambos os p
 
 A movimentação geográfica do site do SharePoint requer que você se conecte e realize a movimentação da URL de Administrador do SharePoint na localização geográfica onde está o site.
 
-Por exemplo, se a URL do site é https://contosohealthcare.sharepoint.com/sites/Turbines, conecte a URL de Administrador do SharePoint no https://contosohealthcare-admin.sharepoint.com:
+Por exemplo, se a URL do site for <https://contosohealthcare.sharepoint.com/sites/Turbines> , conecte-se à URL de administração do SharePoint em <https://contosohealthcare-admin.sharepoint.com> :
 
-`Connect-SPOService -url https://contosohealthcare-admin.sharepoint.com`
+```powershell
+Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
+```
 
-![](../media/move-onedrive-between-geo-locations-image1.png)
- 
+![Janela do Shell de gerenciamento do SharePoint Online mostrando o comando Connect-SPOService](../media/move-onedrive-between-geo-locations-image1.png)
+
 ### <a name="validating-the-environment"></a>Validar o ambiente
 
 Recomendamos que antes de agendar a movimentação de qualquer site, execute a validação para garantir que o site possa ser movido.
 
 Não há suporte para mover sites com:
--    Serviços Corporativos de Conectividade
--    Formulários do InfoPath 
+
+- Serviços Corporativos de Conectividade
+- Formulários do InfoPath
 - Modelos do Gerenciamento de Direitos de Informação (IRM) aplicados
 
 Para garantir que todas as localizações geográficas sejam compatíveis, execute `Get-SPOGeoMoveCrossCompatibilityStatus`. Isto exibirá seu local geográfico e se o ambiente é compatível com a localização geográfica de destino.
@@ -102,15 +106,17 @@ Isso retornará *Sucesso* se o site está pronto para ser movido ou *Falha* se h
 
 Por padrão, a URL inicial para o site será alterada para a URL da localização geográfica de destino. Por exemplo:
 
-https://Contoso.sharepoint.com/sites/projectx para https://ContosoEUR.sharepoint.com/sites/projectx
+<https://Contoso.sharepoint.com/sites/projectx> para <https://ContosoEUR.sharepoint.com/sites/projectx>
 
 Para sites sem associação ao grupo do Microsoft 365, também é possível renomear o site usando o `-DestinationUrl` parâmetro. Por exemplo:
 
-https://Contoso.sharepoint.com/sites/projectx para https://ContosoEUR.sharepoint.com/sites/projecty
+<https://Contoso.sharepoint.com/sites/projectx> para <https://ContosoEUR.sharepoint.com/sites/projecty>
 
 Para começar a mover site, execute:
 
-`Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>`
+```powershell
+Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>
+```
 
 ![Captura de tela da janela do PowerShell mostrando Start-SPOSiteContentMove cmdlet](../media/multi-geo-sharepoint-site-move-powershell.png)
 
@@ -124,7 +130,8 @@ Para configurar o PDL de um Grupo do Microsoft 365:
 Set-SPOUnifiedGroup -PreferredDataLocation <PDL> -GroupAlias <GroupAlias>
 Get-SPOUnifiedGroup -GroupAlias <GroupAlias>
 ```
-Depois de atualizar o PDL, você pode começar a mover site: 
+
+Depois de atualizar o PDL, você pode começar a mover site:
 
 ```PowerShell
 Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <DestinationDataLocation>
@@ -139,19 +146,22 @@ Você pode parar a movimentação geográfica do site do SharePoint, desde que a
 Você pode determinar o status da movimentação de um site fora da área geográfica conectada usando os seguintes cmdlets:
 
 - [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate) (sites não conectado a um Grupo)
-- Get-SPOSiteContentMoveState (sites conectados a um Grupo)
+- [Get-SPOUnifiedGroupMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (sites conectados ao grupo)
 
 Use o `-SourceSiteUrl` parâmetro para especificar o site que você deseja ver o status de movimentação.
 
 Os status de movimentação estão descritas na seguinte tabela.
 
+****
+
 |Status|Descrição|
-|:-----|:----------|
+|---|---|
 |Pronto para Disparar|Movimentação não iniciada.|
 |Agendada|A movimentação está na fila, mas ainda não foi iniciada.|
 |InProgress (n/4)|A movimentação está em andamento em um dos seguintes estados: Validação (1/4), Backup (2/4), Restauração (3 4), Limpeza (4/4).|
 |Êxito|A movimentação foi concluída com êxito.|
 |Falhou|Falha na movimentação.|
+|
 
 Você também pode aplicar a opção `-Verbose` para ver informações adicionais sobre a movimentação.
 
@@ -215,4 +225,4 @@ PowerApps precisam ser recriados no local de destino.
 
 ### <a name="data-movement-between-geo-locations"></a>Movimentação de dados entre localizações geográficas
 
-O SharePoint usa o armazenamento de BLOBs do Azure para o seu conteúdo, enquanto os metadados associado a sites e os arquivos são armazenados no SharePoint. Depois de site ser movimentado da sua localização geográfica de origem para sua localização geográfica de destino, o serviço também moverá seu armazenamento BLOB associado. O Armazenamento BLOB move-se completamente em aproximadamente 40 dias. 
+O SharePoint usa o armazenamento de BLOBs do Azure para o seu conteúdo, enquanto os metadados associado a sites e os arquivos são armazenados no SharePoint. Depois de site ser movimentado da sua localização geográfica de origem para sua localização geográfica de destino, o serviço também moverá seu armazenamento BLOB associado. O Armazenamento BLOB move-se completamente em aproximadamente 40 dias.

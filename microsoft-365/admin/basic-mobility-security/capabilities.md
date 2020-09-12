@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Mobilidade e segurança básica podem ajudá-lo a proteger e gerenciar dispositivos móveis.
-ms.openlocfilehash: a88afd539209d20046a778f8c6d16cadd51b5a9a
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: aed4f4c2d252e487d24496ac00f3de24bc57ab55
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430073"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545891"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Recursos de mobilidade básica e segurança
 
@@ -141,8 +141,8 @@ A opção a seguir pode impedir que os usuários acessem seus emails do Microsof
 |Bloquear backup em nuvem |Sim|Não|Não|
 |Bloquear sincronização de documento |Sim|Não|Não|
 |Bloquear sincronização de fotos  |Sim|Não|Não|
-|Permitir backup do Google  |Não disponível|Não|Sim|
-|Permitir a sincronização automática de conta do Google  |Não disponível|Não|Sim|
+|Permitir backup do Google  |N/D|Não|Sim|
+|Permitir a sincronização automática de conta do Google  |N/D|Não|Sim|
 
 ## <a name="system-settings"></a>Configurações do sistema 
 
@@ -166,9 +166,9 @@ A opção a seguir pode impedir que os usuários acessem seus emails do Microsof
 |Bloquear conexão com armazenamento removível |Sim|Sim|Não|
 |Bloquear conexão Bluetooth |Sim|Sim|Não|
 
-##  <a name="additional-settings"></a>Configurações adicionais 
+## <a name="additional-settings"></a>Configurações adicionais
 
-Você pode definir as seguintes configurações de política adicionais usando cmdlets do PowerShell. Para obter mais informações, consulte [Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
+Você pode definir as seguintes configurações de política adicionais usando os cmdlets do PowerShell do centro de conformidade & o Security. Para obter mais informações, consulte [Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell).
 
 |**Nome da configuração**|**iOS 7,1 e posterior**|**Android 5 e posterior**|
 |:-----|:-----|:-----|

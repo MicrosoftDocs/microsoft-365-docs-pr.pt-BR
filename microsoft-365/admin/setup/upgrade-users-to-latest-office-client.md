@@ -2,7 +2,7 @@
 title: Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
 f1.keywords:
 - NOCSH
-ms.author: kwekuako
+ms.author: kwekua
 author: kwekuako
 manager: scotv
 audience: Admin
@@ -20,12 +20,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Saiba como atualizar seus usuários para o cliente do Office mais recente.
-ms.openlocfilehash: fb2513b2112dd8427222d43d14184895df3b594b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 7cddf1554a5892ddac510fc77238529194c1a2a0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778872"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545723"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
 

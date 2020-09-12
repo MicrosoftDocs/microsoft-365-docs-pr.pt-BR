@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,19 +18,16 @@ ms.custom:
 - TopSMBIssues
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
-description: Saiba como adicionar licenças à sua assinatura.
-ms.openlocfilehash: 370ed833a1c7c5142c7725666885a945e1524b53
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Saiba como adicionar ou estender licenças com uma chave do produto (Product Key).
+ms.openlocfilehash: 583014c98207f98abc55248159aafd371c96b6c0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404005"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545779"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Adicionar licenças ou estender uma assinatura paga usando uma chave do produto (Product Key)
 
@@ -44,17 +41,13 @@ As licenças pré-paga são emitidas como um código alfanumérico de 25 caracte
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-
-2. Encontre a assinatura à qual você deseja adicionar licenças. Na seção **licenças** , selecione **adicionar mais licenças**.
-
-3. No **painel Adicionar mais licenças**, selecione **usar uma chave de produto nova e não usada**e, em seguida, selecione **Avançar**.
-
-4. Insira a chave do produto e, em seguida, selecione **Avançar**.
-
+2. Na guia **produtos** , selecione a assinatura à qual você deseja adicionar licenças.
+3. Na página detalhes da assinatura, na seção **licenças** , selecione **adicionar mais licenças**.
+4. No **painel Adicionar mais licenças**, selecione **usar uma chave de produto nova e não usada**e, em seguida, selecione **Avançar**.
+5. Insira a chave do produto e, em seguida, selecione **Avançar**.
     > [!NOTE]
     > Se você tem mais de uma chave de produto, selecione **Adicionar outra chave de produto** para inseri-las.
-  
-5. Revise os detalhes do pedido e, em seguida, selecione **resgatar**.
+6. Revise os detalhes do pedido e, em seguida, selecione **resgatar**.
 
 ::: moniker-end
 
@@ -101,17 +94,13 @@ As licenças pré-paga são emitidas como um código alfanumérico de 25 caracte
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-
-2. Encontre a assinatura que você deseja estender. Na seção **cobrança** , selecione **estender data de término**.
-
-3. No painel **estender assinatura** , selecione **usar uma chave de produto nova e não usada**e, em seguida, selecione **Avançar**.
-
-4. Insira a chave do produto e, em seguida, selecione **Avançar**.
-
+2. Na guia **produtos** , selecione a assinatura que você deseja estender.
+3. Na página detalhes da assinatura, na seção **configurações de assinatura e pagamento** , selecione **estender data de término**.
+4. Na página **renovar ou adicionar licenças de usuário** , selecione **usar uma chave de produto nova e não usada**e, em seguida, selecione **Avançar**.
+5. Insira a chave do produto e, em seguida, selecione **Avançar**.
     > [!NOTE]
     > Se você tem mais de uma chave de produto, selecione **Adicionar outra chave de produto** para inseri-las.
-  
-5. Revise os detalhes do pedido e, em seguida, selecione **resgatar**.
+6. Revise os detalhes do pedido e, em seguida, selecione **resgatar**.
 
 ::: moniker-end
 

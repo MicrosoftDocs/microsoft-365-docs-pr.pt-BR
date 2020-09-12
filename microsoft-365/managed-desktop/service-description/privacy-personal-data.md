@@ -2,7 +2,7 @@
 title: Privacidade e dados pessoais
 description: Detalha os dados coletados, armazenados e usados pelo serviço
 keywords: RGPD, retenção, exclusão, armazenamento, retenção, processamento, segurança, auditoria
-ms.prod: m365-md
+ms.service: m365-md
 ms.sitesec: library
 author: jaimeo
 f1.keywords:
@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: e1b0c856a3bfb886521ee2c1a2115e4c29504862
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: e7eb3eaa6961993f8c77645c8d6760e6701817e2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47363248"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547933"
 ---
 # <a name="privacy-and-personal-data"></a>Privacidade e dados pessoais
 
@@ -115,7 +115,7 @@ O Microsoft Managed desktop processa dados pessoais com sistemas certificados po
 
 A área de trabalho gerenciada da Microsoft não usa dados pessoais coletados como parte de fornecer o serviço para fins de criação de perfil, propaganda ou marketing.
 
-## <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações do Titular dos Dados para RGPD e CCPA
+## <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados para o RGPD e o CCPA
 
 O [rgpd (regulamentação geral de proteção de dados)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) da União Européia oferece direitos às pessoas (conhecidos na regulamentação como assuntos de dados) para gerenciar os dados pessoais que foram coletados por um empregador ou outro tipo de agência ou organização (conhecido como controlador de dados ou simplesmente controlador). Os dados pessoais são definidos em linhas gerais no GDPR como todos os dados relacionados a uma pessoa física identificada ou identificável. O GDPR fornece às entidades de dados direitos específicos a seus dados pessoais. Esses direitos incluem obter cópias, solicitar alterações, restringir o processamento, excluir ou receber os dados em um formato eletrônico para que eles possam ser passados para outro controlador. Uma solicitação formal feita por uma entidade de dados a um controlador para executar uma ação em seus dados pessoais é chamada neste documento de Solicitação de Direitos da Entidade de Dados  ou DSR.
 

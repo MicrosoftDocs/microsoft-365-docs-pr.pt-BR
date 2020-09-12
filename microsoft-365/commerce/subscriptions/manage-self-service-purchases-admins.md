@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Os administradores podem aprender a gerenciar compras de autoatendimento feitas por usuários em sua organização.
-ms.openlocfilehash: f10f525f8efc6bc63e2fa042c299a6d03c77d0cb
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ca25bf0c3e3539196e81dcc289592028cc4dfa47
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429993"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546669"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (Administrador)
 
@@ -38,13 +38,13 @@ Você também pode controlar se os usuários da sua organização podem fazer co
 ## <a name="view-self-service-subscriptions"></a>Exibir assinaturas de autoatendimento
 
 1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
-2. Ao lado de **refinar resultados**, no menu suspenso **tipo de conta** , escolha **autoatendimento**.
+2. Na guia **produtos** , selecione o ícone de filtro e, em seguida, selecione **autoatendimento**.
 3. Para exibir mais detalhes sobre uma assinatura, escolha uma na lista.
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Exibir quem possui licenças para uma assinatura de compra de autoatendimento
 
 1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
-2. Escolha o ícone de filtro e, em seguida, escolha **autoatendimento**.
+2. Selecione o ícone de filtro e, em seguida, escolha **autoatendimento**.
 3. Selecione um produto para ver licenças atribuídas a pessoas.
     > [!NOTE]
     > Se houver várias compras para um produto, esse produto será listado apenas uma vez, e a coluna **quantidade disponível** mostrará o total de todas as assinaturas compradas para o produto.
@@ -67,13 +67,12 @@ Para obter mais informações, consulte [usar AllowSelfServicePurchase para o m�
 
 Você pode atribuir licenças existentes ou comprar assinaturas adicionais por meio de acordos existentes para usuários atribuídos a compras de autoatendimento. Depois de atribuir essas licenças de compra central, você pode solicitar que os compradores cancelem as assinaturas existentes.
 
-1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Administração</a> com sua conta de administrador global ou de cobrança.
-2. Vá para a **Billing**  >  página de<a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de cobrança.
-3. Localize e escolha o produto que você deseja comprar e escolha **comprar**.
-4. Conclua as etapas restantes para concluir sua compra.
-5. Siga as etapas em [Exibir quem possui licenças para uma assinatura adquirida por autoatendimento](#view-who-has-licenses-for-a-self-service-purchase-subscription) para exportar uma lista de usuários para referência na etapa 6.
-6. Atribuir licenças a todas as pessoas que têm uma licença na outra assinatura. Para ver as etapas completas, confira [atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md).
-7. Entre em contato com a pessoa que comprou a assinatura de compras de autoatendimento e peça que ela seja cancelada.
+1. No centro de administração, vá para **Billing** a \> página serviços de <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">compra</a> de cobrança.
+2. Localize e escolha o produto que você deseja comprar e escolha **comprar**.
+3. Conclua as etapas restantes para concluir sua compra.
+4. Siga as etapas em [Exibir quem possui licenças para uma assinatura adquirida por autoatendimento](#view-who-has-licenses-for-a-self-service-purchase-subscription) para exportar uma lista de usuários para referência na próxima etapa.
+5. Atribuir licenças a todas as pessoas que têm uma licença na outra assinatura. Para ver as etapas completas, confira [atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md).
+6. Entre em contato com a pessoa que comprou a assinatura de compras de autoatendimento e peça que [ela seja cancelada](manage-self-service-purchases-users.md#cancel-a-subscription).
 
 ## <a name="take-over-a-self-service-purchase-subscription"></a>Assumir uma assinatura de compra de autoatendimento
 

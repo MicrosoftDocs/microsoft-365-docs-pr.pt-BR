@@ -4,7 +4,7 @@ author: msfttracyp
 ms.author: tracyp
 manager: dansimp
 ms.topic: article
-ms.service: Microsoft Threat Protection
+ms.service: O365-seccomp
 audience: admin
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Correção de ameaças
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 44f20b29dcc88b1d991f9e93929aacc0e8aece32
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 2542f7af8a34088a79aae8a14f7ccdb8ea8fd121
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903878"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547235"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Corrigir emails mal-intencionados entregues no Office 365
 
@@ -39,7 +39,6 @@ Para fazer coisas como exibir cabeçalhos de mensagem ou baixar conteúdo de ema
 |Usar o explorador de ameaças (e detecções em tempo real) para analisar ameaças |Administrador Global <br> Administrador de Segurança <br> Leitor de segurança|Não|
 |Usar o explorador de ameaças (e detecção em tempo real) para exibir cabeçalhos para mensagens de email e para visualizar e baixar mensagens de email em quarentena|Administrador Global <br> Administrador de Segurança <br>Leitor de segurança|Não|
 |Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio|Administrador Global <br>Administrador de Segurança <br> Leitor de segurança <br> Visualização|Sim|
-
 
 > [!NOTE]
 > Preview é uma *função*, não um *grupo de função*. A função Preview deve ser adicionada a um grupo de função existente para o Office 365. A *função de administrador global* é atribuída no [centro de administração do Microsoft 365](https://admin.microsoft.com). As funções de administrador de segurança e leitor de segurança são atribuídas nos [centros de segurança e conformidade](https://protection.office.com). Para saber mais sobre funções e permissões, consulte [permissões nos centros de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).

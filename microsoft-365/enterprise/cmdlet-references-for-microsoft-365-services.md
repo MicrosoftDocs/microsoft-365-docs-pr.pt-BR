@@ -1,5 +1,5 @@
 ---
-title: Referências de cmdlet para serviços do Microsoft 365
+title: Referências de Cmdlet para serviços do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,16 +16,16 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3a1ea1a6-edbd-4922-9ad3-0b075f7f9009
 description: Encontre os tópicos de referência do cmdlet do Microsoft 365 PowerShell para o Azure AD, o Exchange Online, o SharePoint Online, o Skype for Business Online e a segurança & conformidade.
-ms.openlocfilehash: 4905c20216e6df02399fe372ec31fe3bedfde6c4
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8f2aa4b123e3b7e3f92aabee7f9e8adeeb9c154f
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687336"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547113"
 ---
-# <a name="cmdlet-references-for-microsoft-365-services"></a>Referências de cmdlet para serviços do Microsoft 365
+# <a name="cmdlet-references-for-microsoft-365-services"></a>Referências de Cmdlet para serviços do Microsoft 365
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Os tópicos de referência do cmdlet para os vários serviços do Microsoft 365 fornecem informações detalhadas e instruções sobre como usar cada cmdlet. Além disso, cada serviço do Microsoft 365 que tenha suporte para o PowerShell requer instruções de conexão diferentes.
   
@@ -42,7 +42,7 @@ Para obter instruções de conexão do Microsoft 365 PowerShell, confira [conect
   
 ## <a name="exchange-online-powershell-cmdlets"></a>Cmdlets do PowerShell do Exchange Online
 
-Os tópicos de referência do cmdlet do Exchange Online estão localizados na seção de **referência** da [documentação do PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Os tópicos de referência do cmdlet do Exchange Online estão localizados na seção de **referência** da [documentação do PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell).
   
 Para obter instruções de conexão para o PowerShell do Exchange Online, clique em [conectar-se ao PowerShell do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=396554).
   
@@ -61,17 +61,14 @@ Para os tópicos de referência do cmdlet do Skype for Business Online, clique e
   
 Para obter instruções de conexão para o PowerShell do Skype for Business Online, clique em [gerenciar o Skype for Business online com o PowerShell](manage-skype-for-business-online-with-microsoft-365-powershell.md).
 
-## <a name="security-amp-compliance-center-powershell-cmdlets"></a>Cmdlets do PowerShell do Centro de Conformidade e Segurança
+## <a name="security--compliance-center-powershell-cmdlets"></a>Cmdlets do PowerShell do centro de conformidade & segurança
 
-Os &amp; Tópicos de referência do cmdlet do centro de conformidade de segurança da Microsoft 365 estão localizados na seção de **referência** da [documentação do PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Os tópicos de referência do cmdlet do centro de conformidade do Microsoft 365 Security & estão localizados na seção de **referência** da [documentação do PowerShell de conformidade de & de segurança](https://docs.microsoft.com/powershell/exchange/scc-powershell).
   
-Para obter instruções de conexão para &amp; o PowerShell do centro de conformidade de segurança, clique em [conectar ao &amp; PowerShell do centro de conformidade de segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
+Para obter instruções de conexão para segurança & centro de conformidade do PowerShell, clique em [conectar-se ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
-
-  
 ## <a name="see-also"></a>Confira também
 
 [Gerenciar o Microsoft 365 com o PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Introdução ao PowerShell para o Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

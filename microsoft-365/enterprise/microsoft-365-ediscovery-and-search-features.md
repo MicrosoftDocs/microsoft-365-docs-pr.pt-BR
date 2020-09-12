@@ -16,14 +16,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Uma visão geral do recurso de descoberta eletrônica e outros recursos de pesquisa do Microsoft 365 para o uso de auditoria e transparência.
-ms.openlocfilehash: ea7b221ab8fe2ff41d089bb344d2dce58002d0f5
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: d18d3d4776c434788ee8fef7fb8be9edf339ff04
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331845"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547765"
 ---
-# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Visão geral da descoberta eletrônica e recursos de pesquisa do Microsoft 365 
+# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Visão geral da descoberta eletrônica e recursos de pesquisa do Microsoft 365
 
 ## <a name="ediscovery"></a>Descoberta eletrônica
 
@@ -49,7 +49,7 @@ A tabela a seguir detalha algumas das informações exibidas nos relatórios de 
 | CreationTime | Data e hora no tempo universal coordenado (UTC) quando o usuário realizou a atividade. |
 | EventSource | Identifica se um evento ocorreu. Os valores possíveis são SharePoint e ObjectModel. |
 | ID | ID da entrada de relatório. A identificação identifica exclusivamente a entrada de relatório. |
-| Operação | Nome do usuário ou atividade, que corresponde ao valor selecionado em exibir resultados para esta atividade do usuário. |
+| Operation | Nome do usuário ou atividade, que corresponde ao valor selecionado em exibir resultados para esta atividade do usuário. |
 | OrganizationId | GUID do serviço Microsoft 365 da organização onde o evento ocorreu. |
 | UserAgent | Informações sobre o navegador do usuário, fornecidas pelo navegador. |
 | UserId | O usuário que executou a ação (especificado na Propriedade Operation) que resultou no registro que está sendo registrado em log. |
@@ -57,7 +57,7 @@ A tabela a seguir detalha algumas das informações exibidas nos relatórios de 
 |  | 0 indica um usuário regular. |
 |  | 2 indica um administrador na sua organização do Microsoft 365. |
 |  | 3 indica um administrador de datacenter da Microsoft ou uma conta de sistema de datacenter. |
-| Workload | Serviço Microsoft 365 em que a atividade ocorreu. Os valores possíveis para esta propriedade são: |
+| Carga de trabalho | Serviço Microsoft 365 em que a atividade ocorreu. Os valores possíveis para esta propriedade são: |
 |  | Exchange Online |
 |  | SharePoint Online |
 |  | OneDrive for Business |
@@ -67,6 +67,6 @@ Para obter etapas detalhadas para pesquisar logs de auditoria do Microsoft 365, 
 
 ## <a name="search-unified-audit-log"></a>Pesquisar log de auditoria unificada
 
-Use o recurso pesquisa de log de auditoria para pesquisar o log de auditoria unificada. O Microsoft 365 também fornece a capacidade de Pesquisar esse log usando o PowerShell remoto. O [cmdlet Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?view=exchange-ps) no PowerShell do Exchange Online é usado para pesquisar o log de auditoria unificada de eventos relacionados às operações do usuário do Exchange Online, SharePoint Online, onedrive for Business e Azure AD. 
+Use o recurso pesquisa de log de auditoria para pesquisar o log de auditoria unificada. O Microsoft 365 também fornece a capacidade de Pesquisar esse log usando o PowerShell remoto. O [cmdlet Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online é usado para pesquisar o log de auditoria unificada de eventos relacionados às operações do usuário do Exchange Online, SharePoint Online, onedrive for Business e Azure AD.
 
 Você pode pesquisar todos os eventos em um intervalo de datas especificado ou pode filtrar os resultados com base em critérios específicos, como uma ação específica, o usuário que executou a ação ou o objeto de destino. Os administradores podem usar até três sessões do PowerShell executando o Exchange Online simultaneamente para dividir pesquisas de intervalo de datas grandes.
