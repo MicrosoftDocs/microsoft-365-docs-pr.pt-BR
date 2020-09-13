@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o eDiscovery avançado v 1.0 também estão sendo desativados no mesmo período de tempo.
-ms.openlocfilehash: 12de88fe3c9de7806b12bd610e0dbeeb404524ca
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 98e04ada0afa03404ba36da2004a9352a01f598a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126938"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546277"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Baixa das ferramentas de Descoberta Eletrônica herdadas
 
@@ -44,7 +44,7 @@ Como resultado dessa nova e aprimorada funcionalidade de descoberta eletrônica 
    > [!NOTE]
    > Os cmdlets [Get-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch) e [Remove-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/remove-mailboxsearch) estarão disponíveis após os outros * * * *-MailboxSearch * * * cmdlets serem desativados para que você possa usá-los para ajudar na transição para outras ferramentas de descoberta eletrônica e de bloqueio. No entanto, após uma determinada data (citada abaixo) o suporte da Microsoft não dará mais suporte a esses dois cmdlets.
 
-- O cmdlet [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox?view=exchange-ps) no PowerShell do Exchange Online.
+- O cmdlet [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox) no PowerShell do Exchange Online.
 
 - As operações a seguir na API de serviços Web do Exchange:
 
@@ -94,7 +94,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th><strong>Funcionalidade</strong></th>
 <th><strong>Ferramenta alternativa</strong></th>
-<th><strong>Comments</strong></th>
+<th><strong>Comentário</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -111,7 +111,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </li>
 <li>
 <p>Pesquisa de conteúdo para o Exchange Online, o SharePoint Online, o OneDrive for Business, o Skype for Business, o Microsoft Teams, os grupos do Yammer, os grupos do Microsoft 365 e outros conteúdos armazenados em aplicativos do Office 365</p></li></ul>
-<p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations">gerenciar investigações legais no Office 365</a>.</td>
+<p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations"> gerenciar investigações legais no Office 365</a>.</td>
 </tr>
 <tr class="even">
 <td>Bloqueio para fins de retenção</td>
@@ -124,7 +124,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <p>Aplicar políticas a locais de conteúdo específicos, como Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business, Microsoft Teams e grupos do Office 365</p></li>
 <li>
 <p>Aplicando políticas a usuários específicos</p></li></ul>
-<p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">saiba mais sobre políticas de retenção e rótulos de retenção</a>.</td>
+<p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies"> saiba mais sobre políticas de retenção e rótulos de retenção</a>.</td>
 </tr>
 <tr class="odd">
 <td>Copiar os resultados da pesquisa de email para uma caixa de correio de descoberta para revisão</td><td>Revisar conjuntos no eDiscovery v 2.0 avançado</td>
@@ -197,7 +197,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th><strong>Funcionalidade</strong></th>
 <th><strong>Ferramentas alternativas</strong></th>
-<th><strong>Comments</strong></th>
+<th><strong>Comentário</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </tr>
 <tr class="odd">
 <td>Copiar os resultados da pesquisa para uma caixa de correio de descoberta</td>
-<td>Nenhuma</td>
+<td>Nenhum</td>
 <td>Não há substituição direta para essa funcionalidade, pois ela não fornece acesso a todos os serviços do Microsoft 365. Consulte as seguintes perguntas frequentes abaixo para obter soluções alternativas.</td>
 </tr>
   <tr class=even>
@@ -276,14 +276,14 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <tr class="header">
 <th><strong>Funcionalidade</strong></th>
 <th><strong>Ferramentas alternativas</strong></th>
-<th><strong>Comments</strong></th>
+<th><strong>Comentário</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Pesquisar uma caixa de correio</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-ComplianceSearchAction</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></a></p></td>
 <td><p>Os cmdlets do ComplianceSearch e do ComplianceSearchAction funcionam juntos para ajudá-lo a Pesquisar e exportar conteúdo. Você pode criar uma nova pesquisa e exibir a estimativa de pesquisa usando os cmdlets <strong>New-</strong>, <strong>Get-</strong>e <strong>Start-ComplianceSearch</strong> . Em seguida, você pode usar o comando <strong>New-ComplianceSearchAction-Export</strong> para exportar os resultados da pesquisa. Você ainda terá que usar a ferramenta de descoberta eletrônica principal no centro de conformidade do Microsoft 365 para baixar os resultados da pesquisa para o seu computador local.</p></p>
 </td>
@@ -307,8 +307,8 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </tr>
 <tr class=even>
   <td>Limpar mensagens de uma caixa de correio</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-ComplianceSearchAction</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></p></td>
 <td><p>Os cmdlets do ComplianceSearch e do ComplianceSearchAction funcionam juntos para ajudá-lo a Pesquisar e limpar o conteúdo. Você pode criar e executar uma pesquisa com os cmdlets <strong>New-ComplianceSearch</strong> e <strong>New-ComplianceSearch</strong> e, em seguida, pode limpar o conteúdo usando o comando <strong>New-ComplianceSearchAction-purga-PurgeType</strong> . Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Search for and Delete messages</span></a>.</p>
 </td>

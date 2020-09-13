@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Use a criptografia de mensagem avançada do Office 365 para estender sua segurança de email Configurando uma data de expiração em emails por meio de um modelo personalizado com marca.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e929ce1d948a83a98cca6fa35a65b80a2fc9ef15
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 0dcf9c82f9204f1357b49411d0ca87e87007eb96
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818684"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546155"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Definir uma data de vencimento para o email criptografado pela Criptografia de Mensagem Avançada do Office 365
 
@@ -40,7 +40,7 @@ Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar
 
 ## <a name="create-a-custom-branding-template-to-force-mail-expiration-by-using-powershell"></a>Criar um modelo de identidade visual personalizado para forçar a expiração de email usando o PowerShell
 
-1. [Conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) com uma conta que tenha permissões de administrador global em sua organização.
+1. [Conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) com uma conta que tenha permissões de administrador global em sua organização.
 
 2. Execute o cmdlet New-OMEConfiguration.
 
@@ -50,9 +50,9 @@ Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar
 
 Onde:
 
-- `Identity`é o nome do modelo personalizado.
+- `Identity` é o nome do modelo personalizado.
 
-- `ExternalMailExpiryInDays`Identifica o número de dias que os destinatários podem manter os emails antes de expirarem. Você pode usar qualquer valor entre 1 a 730 dias.
+- `ExternalMailExpiryInDays` Identifica o número de dias que os destinatários podem manter os emails antes de expirarem. Você pode usar qualquer valor entre 1 a 730 dias.
 
 ## <a name="more-information-about-office-365-advanced-message-encryption"></a>Mais informações sobre a criptografia de mensagem avançada do Office 365
 

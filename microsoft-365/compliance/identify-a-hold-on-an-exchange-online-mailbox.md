@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Exchange Online no Microsoft 365.
-ms.openlocfilehash: ea7beb34107fb5eaf61c56ece7bde8070e6467a6
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 1cd947f70c57d453b038ac419abccde006f393ae
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126802"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547449"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -58,7 +58,7 @@ Você pode executar os dois cmdlets a seguir no PowerShell do Exchange Online pa
 
 - **Get-OrganizationConfig:** Use este cmdlet para obter os GUIDs de políticas de retenção em toda a organização.
 
-Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -117,7 +117,7 @@ A tabela a seguir define as três ações de retenção possíveis:
 |Valor  |Descrição  |
 |---------|---------|
 |**1**     | Indica que a política de retenção está configurada para excluir itens. A política não retém itens.        |
-|**duas**    |    Indica que a política de retenção está configurada para reter itens. A política não excluirá itens depois que o período de retenção expirar.     |
+|**2**    |    Indica que a política de retenção está configurada para reter itens. A política não excluirá itens depois que o período de retenção expirar.     |
 |**3D**     |   Indica que a política de retenção está configurada para reter itens e excluí-los depois que o período de retenção expira.      |
 
 Para obter mais informações sobre ações de retenção, consulte a seção [retenção de conteúdo para um período específico de tempo](create-retention-policies.md#retaining-content-for-a-specific-period-of-time) .
@@ -142,7 +142,7 @@ Get-ComplianceCase $CaseHold.CaseId | FL Name
 $CaseHold | FL Name,ExchangeLocation
 ```
 
-Para se conectar ao PowerShell do centro de conformidade e segurança &, confira [conectar-se ao PowerShell do centro de conformidade do &](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+Para se conectar ao PowerShell do centro de conformidade e segurança &, confira  [conectar-se ao PowerShell do centro de conformidade do &](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 ### <a name="in-place-holds"></a>Bloqueio In-loco
 
@@ -238,9 +238,9 @@ Tenha em mente os seguintes pontos ao gerenciar uma caixa de correio em atraso d
 
 Após identificar as isenções aplicadas a uma caixa de correio, você pode executar tarefas como alterar a duração da retenção, remover temporariamente ou permanentemente a retenção ou excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365. Para obter mais informações sobre a execução de tarefas relacionadas a isenções, consulte um dos seguintes tópicos:
 
-- Execute o comando [set-RetentionCompliancePolicy- \<user mailbox> AddExchangeLocationException](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps) no centro de segurança & conformidade do PowerShell para excluir uma caixa de correio de uma política de retenção do Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é igual a `All` .
+- Execute o comando [set-RetentionCompliancePolicy- \<user mailbox> AddExchangeLocationException](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) no centro de segurança & conformidade do PowerShell para excluir uma caixa de correio de uma política de retenção do Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é igual a `All` .
 
-- Execute o comando [Set-Mailbox- \<hold GUID without prefix or suffix> ExcludeFromOrgHolds](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps) no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365 em toda a organização.
+- Execute o comando [Set-Mailbox- \<hold GUID without prefix or suffix> ExcludeFromOrgHolds](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365 em toda a organização.
 
 - [Alterar a duração de retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
 

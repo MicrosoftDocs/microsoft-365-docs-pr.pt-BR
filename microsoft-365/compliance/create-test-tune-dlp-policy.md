@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: Neste artigo, você aprenderá a criar, testar e ajustar uma política de DLP de acordo com suas necessidades organizacionais.
-ms.openlocfilehash: b8e82e1304cb411a1e73e6f7bdc02fecdda9784f
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: ef88da90d8e009d3ea634c9142d7d917fbfd288a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648778"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546931"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Criar, testar e ajustar uma política DLP
 
@@ -218,7 +218,7 @@ Quando você estiver contente que sua política de DLP está detectando com prec
 
 ![Opção para ativar a política](../media/DLP-create-test-tune-turn-on-policy.png)
  
-Se você estiver esperando para ver quando a política entrará em vigor, [Conecte-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) e execute o [cmdlet Get-DlpCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-dlpcompliancepolicy?view=exchange-ps) para ver o DistributionStatus.
+Se você estiver esperando para ver quando a política entrará em vigor, [Conecte-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e execute o [cmdlet Get-DlpCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-dlpcompliancepolicy) para ver o DistributionStatus.
 
 ![Executando o cmdlet no PowerShell](../media/DLP-create-test-tune-PowerShell.png)
 

@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Saiba como definir políticas para barreiras de informações no Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 024b10f86cb38532dc441ebd9c88c050fe2839b7
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: dcf7fd496098032bad075c1679f0081ddf29caef
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308070"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547439"
 ---
 # <a name="define-information-barrier-policies"></a>Definir políticas de barreira de informações
 
@@ -71,7 +71,7 @@ Além das [licenças e permissões necessárias](information-barriers.md#require
 - Nenhuma política de catálogo de endereços – antes de definir e aplicar as políticas de barreira de informações, certifique-se de que não haja nenhuma política do catálogo de endereços do Exchange. As barreiras de informação são baseadas nas políticas do catálogo de endereços, mas os dois tipos de políticas não são compatíveis. Se você tiver essas políticas, certifique-se de [remover primeiro as políticas do catálogo de endereços](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) . Quando as políticas de barreira de informações são habilitadas e você tem o catálogo de endereços hierárquico habilitado, todos os usuários ***que não estão incluídos*** em um segmento de barreira de informações verão o [Catálogo de endereços hierárquicos](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) no Exchange Online.
 
 - Atualmente, as políticas de barreira de informações são definidas e gerenciadas no centro de conformidade & segurança do Office 365 usando cmdlets do PowerShell. Embora vários exemplos sejam fornecidos neste artigo, você precisará estar familiarizado com os cmdlets e parâmetros do PowerShell. Você também precisará do módulo do Azure PowerShell.
-    - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+    - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
     - [Instalar o módulo do Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - Consentimento do administrador para barreiras de informações no Microsoft Teams-quando suas políticas estão em vigor, as barreiras de informação podem remover pessoas de sessões de chat que não deveriam estar. Isso ajuda a garantir que sua organização permaneça em conformidade com políticas e regulamentações. Use o procedimento a seguir para permitir que as políticas de barreira de informações funcionem conforme o esperado no Microsoft Teams. 
@@ -258,7 +258,7 @@ Com o PowerShell, você pode exibir o status de contas de usuário, segmentos, p
 |Segui     |Use o cmdlet **Get-OrganizationSegment** .<p>Possuem `Get-OrganizationSegment` <p>Isso exibirá uma lista de todos os segmentos definidos para sua organização.         |
 |Políticas de barreira de informações     |Use o cmdlet **Get-InformationBarrierPolicy** . <p> Possuem `Get-InformationBarrierPolicy` <p>Isso exibirá uma lista de políticas de barreira de informações que foram definidas e seu status.       |
 |O aplicativo de política de barreira de informações mais recente     | Use o cmdlet **Get-InformationBarrierPoliciesApplicationStatus** . <p>Possuem `Get-InformationBarrierPoliciesApplicationStatus`<p>    Isso exibirá informações sobre se o aplicativo de política foi concluído, falhou ou está em andamento.       |
-|Todos os aplicativos de política de barreira de informações|Use `Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>Isso exibirá informações sobre se o aplicativo de política foi concluído, falhou ou está em andamento.|
+|Todos os aplicativos de política de barreira de informações|Usar o `Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>Isso exibirá informações sobre se o aplicativo de política foi concluído, falhou ou está em andamento.|
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 

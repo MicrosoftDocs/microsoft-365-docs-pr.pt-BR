@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar regras de fluxo de emails (regras de transporte) para criptografar e descriptografar mensagens usando a criptografia de mensagem do Office 365.
-ms.openlocfilehash: 869448ff1f5161fc71d332c1b5956015dca50fa2
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b36a924b41da645bd0fb823c25173fea6e7e2313
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351788"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546165"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Definir regras de fluxo de email para criptografar mensagens de email
 
@@ -114,7 +114,7 @@ Você pode definir regras de fluxo de email para o disparo de remover criptograf
 
 7. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **remover a criptografia de mensagem do Office 365 e a proteção de direitos**.
 
-8. Selecione **Salvar**.
+8. Clique em **Salvar**.
 
 ## <a name="create-mail-flow-rules-for-office-365-message-encryption-without-the-new-capabilities"></a>Criar regras de fluxo de email para a criptografia de mensagem do Office 365 sem os novos recursos
 
@@ -154,7 +154,7 @@ Se você ainda não tiver movido sua organização para os novos recursos do OME
 
 ### <a name="use-exchange-online-powershell-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>Usar o PowerShell do Exchange Online para criar uma regra de fluxo de emails para criptografar mensagens de email sem os novos recursos do OME
 
-1. Conecte-se ao PowerShell do Exchange Online. Para saber mais, confira [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Conecte-se ao Exchange Online PowerShell. Para saber mais, confira [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Crie uma regra usando o cmdlet **New-TransportRule** e defina o parâmetro _ApplyOME_ para `$true` .
 
@@ -194,11 +194,11 @@ Quando os usuários de email enviam mensagens criptografadas, os destinatários 
 
 7. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **remover a versão anterior do ome**.
 
-8. Selecione **Salvar**.
+8. Clique em **Salvar**.
 
 #### <a name="use-exchange-online-powershell-to-create-a-rule-to-remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Usar o PowerShell do Exchange Online para criar uma regra para remover a criptografia de respostas de email criptografadas sem os novos recursos do OME
 
-1. Conecte-se ao PowerShell do Exchange Online. Para saber mais, confira [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Conecte-se ao Exchange Online PowerShell. Para saber mais, confira [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Crie uma regra usando o cmdlet **New-TransportRule** e defina o parâmetro _RemoveOME_ para `$true` .
 
@@ -222,7 +222,7 @@ Quando os usuários de email enviam mensagens criptografadas, os destinatários 
 
 Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/New-TransportRule).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-topics"></a>Tópicos Relacionados
 
 [Criptografia no Office 365](encryption.md)
 

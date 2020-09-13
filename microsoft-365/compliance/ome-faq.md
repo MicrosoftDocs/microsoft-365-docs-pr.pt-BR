@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 927b81c3a1ce049f1a2427bbbf1d306608be35cb
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: efccbdf2be33fb771e7e68ba5a0b3dafa82d9ce8
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798183"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546055"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -120,7 +120,7 @@ Para o Outlook na Web, Outlook para iOS e Outlook para Android, você pode cript
 
 O Outlook desktop não oferece suporte nativo à criptografia de anexos de arquivos PDF. Em vez disso, você precisará configurar as regras de fluxo de email do Exchange ou DLP para aplicar a criptografia a anexos em PDF primeiro. Quando você envia emails da área de trabalho do Outlook com um anexo em PDF, o cliente envia a mensagem com o anexo para o serviço primeiro. Quando o serviço recebe o arquivo, o serviço aplica a proteção OME da política de prevenção contra perda de dados (DLP) ou regra de fluxo de emails no Exchange Online. Em seguida, o Exchange Online envia a mensagem com o anexo de arquivo PDF protegido.
 
-Para habilitar a criptografia para anexos em PDF, execute o seguinte comando no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
+Para habilitar a criptografia para anexos em PDF, execute o seguinte comando no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell):
 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true

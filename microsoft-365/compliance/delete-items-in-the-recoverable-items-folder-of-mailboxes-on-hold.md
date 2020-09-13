@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: Saiba como os administradores podem excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d0983a3ce10a3980f23af68736acac1382ef938f
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 5f111a19e3baf57f2b6f2e2254df97d21689de2e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405462"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546145"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>Excluir itens na pasta de Itens recuperáveis de caixas de correio baseadas em nuvem em retenção
 
@@ -226,7 +226,7 @@ Para obter mais informações sobre rótulos, consulte [saiba mais sobre políti
 
 ### <a name="ediscovery-holds"></a>bloqueios de descoberta eletrônica
   
-Execute os seguintes comandos no [PowerShell do centro de conformidade e segurança &](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) para identificar o bloqueio associado a um caso de descoberta eletrônica (chamado de *descoberta eletrônica segura*) que é aplicado à caixa de correio. Use o GUID (não incluindo o  `UniH` prefixo) para o bloqueio de descoberta eletrônica que você identificou na etapa 1. O segundo comando exibe o nome da ocorrência de descoberta eletrônica à qual a retenção está associada; o terceiro comando exibe o nome da retenção.
+Execute os seguintes comandos no [PowerShell do centro de conformidade e segurança &](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) para identificar o bloqueio associado a um caso de descoberta eletrônica (chamado de *descoberta eletrônica segura*) que é aplicado à caixa de correio. Use o GUID (não incluindo o  `UniH` prefixo) para o bloqueio de descoberta eletrônica que você identificou na etapa 1. O segundo comando exibe o nome da ocorrência de descoberta eletrônica à qual a retenção está associada; o terceiro comando exibe o nome da retenção.
   
 ```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>

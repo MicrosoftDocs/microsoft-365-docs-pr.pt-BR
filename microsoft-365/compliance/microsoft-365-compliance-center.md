@@ -5,18 +5,18 @@ f1.keywords:
 ms.author: robmazz
 author: robmazz
 manager: laurawi
+ms.service: O365-seccomp
 audience: ITPro
 ms.topic: article
-ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o centro de conformidade da Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 835c05a701169614d15c3b50294a56cdad331fac
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 5b0b9372563721071ed8282bf507d96e5eee2aea
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126834"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547479"
 ---
 # <a name="microsoft-365-compliance-center"></a>Centro de conformidade do Microsoft 365
 
