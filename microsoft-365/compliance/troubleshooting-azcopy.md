@@ -8,7 +8,7 @@ manager: laurawi
 ms.date: ''
 audience: Admin
 ms.topic: troubleshooting
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
@@ -19,12 +19,12 @@ description: Solucionar erros para o Azure AzCopy ao carregar dados não-Office 
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 4bf8461cb02ca3601707f248a64d8a8a9741efab
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 4a4499bb9790ffeaec6a2be36b5eaff030afc010
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357701"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546451"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Solucionar problemas de AzCopy na descoberta eletrônica avançada
 

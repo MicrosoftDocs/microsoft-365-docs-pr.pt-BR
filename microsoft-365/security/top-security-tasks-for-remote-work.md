@@ -7,7 +7,7 @@ author: brendacarter
 manager: johmar
 audience: Admin
 ms.topic: tutorial
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: 1b21c59e95eccced66a7b64ec7c67354de53e59d
-ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+ms.openlocfilehash: f364b4100efb3d8b9ab4eda2e370794ca4f0f469
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44267174"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547969"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -39,7 +39,7 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 |:-----|:-----|:-----|:-----|:-----|
 |1       |[Habilitar a MFA (autenticação multifator do Azure)](#1-enable-azure-multi-factor-authentication-mfa)   |   ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |2      | [Proteção contra ameaças](#2-protect-against-threats) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
-|3D      |  [Configurar a proteção avançada contra ameaças do Office 365](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
+|3       |  [Configurar a proteção avançada contra ameaças do Office 365](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4       | [Configurar a proteção avançada contra ameaças (ATP) do Azure](#4-configure-azure-advanced-threat-protection)   |   |      |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |5      |   [Habilitar a Proteção contra Ameaças da Microsoft](#5-turn-on-microsoft-threat-protection)  |  |      | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |6       | [Configurar a proteção de aplicativos móveis do Intune para telefones e tablets](#6-configure-intune-mobile-app-protection-for-phones-and-tablets) |    |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
@@ -47,7 +47,7 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 |8       |  [Registrar PCs no gerenciamento de dispositivos e exigir computadores compatíveis](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [Otimizar sua rede para conectividade de nuvem](#9-optimize-your-network-for-cloud-connectivity)  |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10    | [Treinar usuários](#10-train-users) |    ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11 |[Introdução ao Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |  |  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11  |[Introdução ao Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |  |  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[Monitorar ameaças e tomar ações](#12-monitor-for-threats-and-take-action) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 

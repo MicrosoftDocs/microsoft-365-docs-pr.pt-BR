@@ -7,16 +7,16 @@ author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c2fad2726b7e923f871c0307f17f28ea3f99b1bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f396801d4241b06c5523e4f3312c9ce597ac015e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637943"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547559"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -77,7 +77,7 @@ Aqui, você verá cartões para as seguintes soluções:
 
 ## <a name="how-do-i-get-this"></a>Como posso obter isso?
 
-Para visitar o catálogo de soluções do Microsoft 365, [https://compliance.microsoft.com](https://compliance.microsoft.com) acesse e entre como administrador global, administrador de conformidade ou administrador de dados de conformidade. Selecione **Catálogo** no painel de navegação no lado esquerdo da tela para abrir a home page do catálogo.
+Para visitar o catálogo de soluções do Microsoft 365, acesse [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre como administrador global, administrador de conformidade ou administrador de dados de conformidade. Selecione **Catálogo** no painel de navegação no lado esquerdo da tela para abrir a home page do catálogo.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -89,7 +89,7 @@ Primeiro, verifique se você tem as licenças e permissões apropriadas. Em segu
 
 Estamos sempre trabalhando para adicionar novas funcionalidades ao centro de conformidade do Microsoft 365 e ao catálogo de soluções. Se você não conseguir encontrar uma solução específica na área de navegação, ela estará acessível quando a solução estiver disponível em sua assinatura.
 
-Se você estiver procurando por uma solução de conformidade existente e ela ainda não estiver disponível no centro de conformidade da Microsoft 365, você sempre poderá acessar soluções no centro &amp; de conformidade de segurança existente [https://protection.office.com](https://protection.office.com), acessando. Como alternativa, você pode clicar na guia **mais recursos** , na navegação à esquerda do centro de conformidade da Microsoft 365, e selecionar o cartão central de segurança e conformidade do Office 365.  
+Se você estiver procurando por uma solução de conformidade existente e ela ainda não estiver disponível no centro de conformidade da Microsoft 365, você sempre poderá acessar soluções no centro de conformidade de segurança existente, acessando &amp; [https://protection.office.com](https://protection.office.com) . Como alternativa, você pode clicar na guia **mais recursos** , na navegação à esquerda do centro de conformidade da Microsoft 365, e selecionar o cartão central de segurança e conformidade do Office 365.  
 
 ## <a name="next-steps"></a>Próximas etapas
 

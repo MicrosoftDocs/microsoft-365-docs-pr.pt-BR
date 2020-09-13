@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma retenção associada a uma caixa de descoberta eletrônica principal para preservar o conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: d68ca8a15713e20184e39af447cb03ccb5c9e7d7
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: bf04fd0f0637247e4637b5d3fce82f911ca51f0e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798057"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546877"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -151,7 +151,7 @@ Lembre-se do seguinte ao colocar o Teams e os grupos do Office 365 em uma reten�
 
 - Conforme explicado anteriormente, para colocar o conteúdo localizado no Teams e nos grupos do Office 365 em espera, você precisa especificar a caixa de correio e o site do SharePoint que estão associados a um grupo ou a uma equipe.
 
-- Execute o cmdlet **Get-unificado** no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) para exibir propriedades para o Teams e grupos do Office 365. Essa é uma boa maneira de obter a URL para o site que está associado a um grupo de equipe ou do Office 365. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior:
+- Execute o cmdlet **Get-unificado** no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) para exibir propriedades para o Teams e grupos do Office 365. Essa é uma boa maneira de obter a URL para o site que está associado a um grupo de equipe ou do Office 365. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior:
 
     ```text
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
@@ -211,9 +211,9 @@ A tabela a seguir lista os limites de ocorrências de descoberta eletrônica e i
   |:-----|:-----|
   |Número máximo de casos para uma organização  <br/> |Sem limite  <br/> |
   |Número máximo de suspensões de descoberta eletrônica para uma organização  <br/> |10.000  <br/> |
-  |Número máximo de caixas de correio em um único bloqueio de descoberta eletrônica  <br/> |1.000  <br/> |
+  |Número máximo de caixas de correio em um único bloqueio de descoberta eletrônica  <br/> |1,000  <br/> |
   |Número máximo de sites do SharePoint e do OneDrive for Business em um único bloqueio de descoberta eletrônica  <br/> |100  <br/> |
-  |Número máximo de casos exibidos na home page de descoberta eletrônica e o número máximo de itens exibidos nas guias isenções, pesquisas e exportar em um caso. <sup>1</sup> |1.000|
+  |Número máximo de casos exibidos na home page de descoberta eletrônica e o número máximo de itens exibidos nas guias isenções, pesquisas e exportar em um caso. <sup>1</sup> |1,000|
   |||
 
    > [!NOTE]

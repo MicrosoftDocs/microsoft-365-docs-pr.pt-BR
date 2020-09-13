@@ -7,17 +7,18 @@ author: markjjo
 manager: laurawi
 audience: Admin
 ms.topic: how-to
+ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Você precisa habilitar o suporte do ClickOnce para usar a versão mais recente do Microsoft Edge para baixar os resultados da pesquisa da pesquisa de conteúdo e da descoberta eletrônica no centro de segurança e conformidade.
-ms.openlocfilehash: 317e19c81a606565fcb18f3256fd5bac007747e1
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 60f42d2884c56aaff40bc0a6a979e99698a3cd2e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357571"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546815"
 ---
 # <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Usar a ferramenta de exportação de descoberta eletrônica no Microsoft Edge
 

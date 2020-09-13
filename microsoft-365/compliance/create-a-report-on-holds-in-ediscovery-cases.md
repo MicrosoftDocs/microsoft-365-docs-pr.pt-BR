@@ -20,12 +20,12 @@ ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como gerar um relatório que contém informações sobre todas as isenções associadas a ocorrências de descoberta eletrônica.
-ms.openlocfilehash: 4da2b93ad9055363a5f8a7d61eff04270dfd00dc
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 35e432104e7c1358887eb89ae96b9bb0d1d12a0f
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845863"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546973"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>Criar um relatório sobre retenções em ocorrências de Descoberta eletrônica
 
@@ -43,7 +43,7 @@ Consulte a seção [mais informações](#more-information) para obter uma descri
 
 ## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>Etapa 1: conectar-se ao PowerShell do centro de conformidade & segurança
 
-A primeira etapa é conectar-se ao PowerShell de segurança & centro de conformidade da sua organização. Para obter instruções passo a passo, confira [Conectar-se ao Centro de Segurança e Conformidade no PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+A primeira etapa é conectar-se ao PowerShell de segurança & centro de conformidade da sua organização. Para obter instruções passo a passo, confira [Conectar-se ao Centro de Segurança e Conformidade no PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 ## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>Etapa 2: executar o script para relatar em suspensões associadas a ocorrências de descoberta eletrônica
 

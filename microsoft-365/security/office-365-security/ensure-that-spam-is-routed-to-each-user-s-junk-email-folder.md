@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a rotear spam para as pastas de lixo eletrônico do usuário em um ambiente híbrido do Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d8ba6aae599ee4dd327bd1ec82b46e8f3ee3ca8
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 15acc9ad87fa0c785998895d026dae036d9ddd7b
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679115"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547659"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos
 
@@ -33,11 +33,11 @@ Se você for um cliente autônomo do Exchange Online Protection (EOP) em um ambi
 
 Especificamente, você precisa criar regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização local do Exchange com condições que encontrem mensagens com qualquer um dos seguintes valores e cabeçalhos antispam do EOP, e ações que definem o nível de confiança de spam (SCL) dessas mensagens como 6:
 
-- `X-Forefront-Antispam-Report: SFV:SPM`(mensagem marcada como spam por filtragem de spam)
+- `X-Forefront-Antispam-Report: SFV:SPM` (mensagem marcada como spam por filtragem de spam)
 
-- `X-Forefront-Antispam-Report: SFV:SKS`(mensagem marcada como spam por regras de fluxo de email no EOP antes de filtragem de spam)
+- `X-Forefront-Antispam-Report: SFV:SKS` (mensagem marcada como spam por regras de fluxo de email no EOP antes de filtragem de spam)
 
-- `X-Forefront-Antispam-Report: SFV:SKB`(mensagem marcada como spam por filtragem de spam devido ao endereço de email do remetente ou domínio de email que está na lista de remetentes bloqueados ou na lista de domínios bloqueados no EOP)
+- `X-Forefront-Antispam-Report: SFV:SKB` (mensagem marcada como spam por filtragem de spam devido ao endereço de email do remetente ou domínio de email que está na lista de remetentes bloqueados ou na lista de domínios bloqueados no EOP)
 
 Para obter mais informações sobre esses valores de cabeçalho, consulte [anti-spam Message Headers](anti-spam-message-headers.md).
 
@@ -59,7 +59,7 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
   Para obter detalhes, consulte [Exchange spam nível de confiança (SCL)](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl).
 
   - Se a regra de lixo eletrônico está habilitada na caixa de correio (o valor do parâmetro _Enabled_ é $true no cmdlet [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) no Shell de gerenciamento do Exchange). É a regra de lixo eletrônico que realmente move a mensagem para a pasta lixo eletrônico após a entrega. Por padrão, a regra de lixo eletrônico está habilitada nas caixas de correio. Para obter mais informações, consulte [Configurar configurações antispam do Exchange em caixas de correio](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
-  
+
 - Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange, confira [abrir o Shell de gerenciamento do Exchange](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell).
 
 - Para obter mais informações sobre regras de fluxo de emails no Exchange local, consulte os seguintes tópicos:
@@ -94,7 +94,7 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
 
      - Clique em **Inserir texto**. Na caixa de diálogo **especificar nome do cabeçalho** que aparece, insira **X-Forefront-antispam-Report** e clique em **OK**.
 
-     - Clique em **inserir palavras**. Na caixa de diálogo **especificar palavras ou frases** que aparece, insira um dos valores de cabeçalho de spam do EOP (**SFV: SPM**, **SFV: SKS**ou **SFV: SKB**), clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.png) de adição e, em seguida, clique em **OK**.
+     - Clique em  **inserir palavras**. Na caixa de diálogo **especificar palavras ou frases** que aparece, insira um dos valores de cabeçalho de spam do EOP (**SFV: SPM**, **SFV: SKS**ou **SFV: SKB**), clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.png) de adição e, em seguida, clique em **OK**.
 
    - **Faça o seguinte**: selecione **modificar as propriedades da mensagem** \> **definem o nível de confiança de spam (SCL)**.
 

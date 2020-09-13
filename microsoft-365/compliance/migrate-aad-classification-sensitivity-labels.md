@@ -7,15 +7,15 @@ manager: pamgreen
 audience: ITPro
 f1.keywords: NOCSH
 ms.topic: article
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 description: Este artigo discute a classificação clássica do Azure Active Directory e os rótulos de confidencialidade.
-ms.openlocfilehash: 38a3dbe727f3d0759d427944016ae98440f2686f
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 2506e7f467a485878f1e26a23ee1071907b41614
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308168"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545655"
 ---
 # <a name="azure-active-directory-classification-and-sensitivity-labels-for-microsoft-365-groups"></a>Classificação do Azure Active Directory e rótulos de confidencialidade para grupos do Microsoft 365
 
@@ -41,15 +41,17 @@ Consulte os cenários a seguir para práticas recomendadas ao migrar da classifi
 
 Tabela 1. Comportamento de cargas de trabalho compatíveis e não compatíveis – criar, editar ou excluir grupos
 
-|Workload|Qual lista de etiquetas o usuário vê na janela de grupo?|Criar novo grupo |Editar grupo |Excluir grupo |
+|Carga de trabalho|Qual lista de etiquetas o usuário vê na janela de grupo?|Criar novo grupo |Editar grupo |Excluir grupo |
 |:-------|:-------|:--------|:--------|:--------|   
 |Compatible   |rótulos de sensibilidade. |Nenhuma alteração no comportamento. |Nenhuma alteração no comportamento. |Nenhuma alteração no comportamento. |
 |Não compatível |Nenhum rótulo de confidencialidade visível. |O usuário pode criar um grupo sem selecionar um rótulo de confidencialidade. <br><br> Observe que o administrador pode executar cmdlets para aplicar rótulos de confidencialidade no plano de fundo. |**Caso 1**: nenhum rótulo de confidencialidade selecionado anteriormente. O usuário pode editar um grupo.<br><br> **Caso 2**: rótulo de confidencialidade aplicado anteriormente em segundo plano usando o cmdlet. O usuário pode editar um grupo com êxito, excluindo o caso em que o usuário seleciona uma combinação inválida de definição de privacidade em relação ao rótulo. |Nenhuma alteração no comportamento.|
 
 > [!NOTE]
 > No caso do cliente da área de trabalho do Outlook (Win 32), após o administrador habilitar os rótulos de confidencialidade em seus locatários e o usuário está em uma versão mais antiga do cliente da área de trabalho do Outlook (Win 32):
+>
 > - O usuário vê que os rótulos de confidencialidade aparecem na versão mais antiga do cliente da área de trabalho do Outlook.
 > - No entanto, quando o usuário edita um grupo e salva o grupo com um rótulo de confidencialidade, a configuração de privacidade selecionada é substituída pela configuração de privacidade do rótulo de confidencialidade aplicado.
+>
 > Recomendamos que os usuários em uma versão antiga do cliente do Outlook sejam atualizados para a versão mais recente.
 
 ## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>Cenário 2: o locatário já está usando [classificações](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell) clássicas do AAD
@@ -69,15 +71,17 @@ Tabela 1. Comportamento de cargas de trabalho compatíveis e não compatíveis �
 
 Tabela 2. Comportamento de cargas de trabalho compatíveis e não compatíveis – criar, editar ou excluir grupos
 
-|Workload|Qual lista de etiquetas o usuário vê na janela de grupo?|Criar novo grupo |Editar grupo |Excluir grupo |
+|Carga de trabalho|Qual lista de etiquetas o usuário vê na janela de grupo?|Criar novo grupo |Editar grupo |Excluir grupo |
 |:-------|:-------|:--------|:--------|:--------|   
 |Compatible   |rótulos de sensibilidade. |Nenhuma alteração no comportamento. |Nenhuma alteração no comportamento. |Nenhuma alteração no comportamento. |
 |Não compatível |Rótulos AAD clássicos antigos. |O usuário pode criar um grupo com o rótulo clássico do Azure AD selecionado. <br><br>Observe que o administrador pode executar cmdlets para aplicar rótulos de confidencialidade no plano de fundo. |**Caso 1**: nenhum rótulo de confidencialidade selecionado anteriormente. O usuário pode editar um grupo.<br><br> **Caso 2**: rótulos do AAD clássicos previamente selecionados. O usuário pode editar um grupo.<br><br> **Caso 3**: rótulo de confidencialidade aplicado anteriormente em segundo plano usando o cmdlet. O usuário deve ser capaz de editar um grupo, excluindo um caso em que o usuário seleciona uma combinação inválida de definição de privacidade em relação ao rótulo. |O usuário pode excluir um grupo. |
 
 > [!NOTE]
 > No caso do cliente da área de trabalho do Outlook (Win 32), após o administrador habilitar os rótulos de confidencialidade em seus locatários e o usuário está em uma versão mais antiga do cliente da área de trabalho do Outlook (Win 32):
+>
 > - O usuário vê que os rótulos de confidencialidade aparecem na versão mais antiga do cliente da área de trabalho do Outlook.
 > - No entanto, quando o usuário edita um grupo e salva o grupo com um rótulo de confidencialidade, a configuração de privacidade selecionada é substituída pela configuração de privacidade do rótulo de confidencialidade aplicado.
+>
 > Recomendamos que os usuários em uma versão antiga do cliente do Outlook sejam atualizados para a versão mais recente.
 
 ### <a name="case-b-tenant-used-sensitivity-labels-for-documents-and-emails"></a>Caso B: locatários usados rótulos de confidencialidade para documentos e emails
@@ -90,4 +94,3 @@ Tabela 2. Comportamento de cargas de trabalho compatíveis e não compatíveis �
 ## <a name="sample-script"></a>Amostra de script
 
 Para que um script de exemplo migre grupos com rótulos do AAD clássicos para rótulos de confidencialidade, confira [classificação clássica de grupos do Azure ad](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
-

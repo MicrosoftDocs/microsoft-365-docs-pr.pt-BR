@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7c83d3f202851008e93c3f3e9d0c7bc89c49bf20
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a1e85b2089663208e8b6004462211263a1b27242
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308362"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547788"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Para identificar e além disso: o ponto de vista de um arquiteto
 
@@ -272,7 +272,7 @@ O Office 365 tem um [log de auditoria unificado](https://docs.microsoft.com/micr
 
 Exemplos de logs do Microsoft 365 que são acessados por meio de outras APIs incluem o seguinte:
 - [Azure ad](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (atividades não relacionadas ao Office 365)
-- [Rastreamento de mensagens do Exchange](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace?view=exchange-ps)
+- [Rastreamento de mensagens do Exchange](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace)
 - Sistemas de ameaça/UEBA discutidos acima (por exemplo, proteção de identidade do Azure AD, segurança do aplicativo do Microsoft Cloud, Microsoft defender ATP, etc.)
 - [Proteção de informações da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
 - [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)

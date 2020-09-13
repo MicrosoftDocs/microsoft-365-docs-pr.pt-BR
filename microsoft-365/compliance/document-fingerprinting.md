@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Os funcionários de TI em sua organização lidam com vários tipos de informações confidenciais em um dia comum. A Impressão Digital de Documento facilita a proteção dessas informações identificando formas padrão usadas em sua organização. Este tópico descreve os conceitos por trás da impressão digital de documento e como criar um usando o PowerShell.
-ms.openlocfilehash: 37b5649e357f24993e41ae93db6737d980ce0c72
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0c1fb86e4176c042a6ed772b2a18fc14ca81efcd
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352018"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547137"
 ---
 # <a name="document-fingerprinting"></a>Impressão Digital de Documento
 
@@ -45,7 +45,7 @@ O exemplo a seguir mostra o que acontecerá se você criar uma impressão digita
   
 ### <a name="example-of-a-patent-document-matching-a-document-fingerprint-of-a-patent-template"></a>Exemplo de um documento de patente correspondente a uma impressão digital de documento de um modelo de patente
 
-![Document-Fingerprinting-diagram. png](../media/Document-Fingerprinting-diagram.png)
+![Document-Fingerprinting-diagram.png](../media/Document-Fingerprinting-diagram.png)
   
 O modelo de patente contém os campos em branco "título da patente", "inventrs" e "Descrição" e as descrições de cada um desses campos, que é o padrão da palavra. Quando você carrega o modelo de patente original, ele está em um dos tipos de arquivo com suporte e em texto sem formatação. A DLP converte esse padrão de Word em uma impressão digital de documento, que é um pequeno arquivo XML Unicode contendo um valor de hash exclusivo representando o texto original e a impressão digital é salva como uma classificação de dados no Active Directory. (Como medida de segurança, o próprio documento original não é armazenado no serviço; somente o valor de hash é armazenado e o documento original não pode ser reconstruído com base no valor de hash.) A impressão digital de patente torna-se um tipo de informação confidencial que você pode associar a uma política de DLP. Depois de associar a impressão digital com uma política de DLP, a DLP detecta qualquer email de saída contendo documentos que correspondam à impressão digital de patente e lidam com eles de acordo com a política da sua organização. 
 
@@ -65,7 +65,7 @@ A impressão digital de documento não detectará informações confidenciais no
 
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Usar o PowerShell para criar um pacote de regras de classificação com base na impressão digital de documento
 
-Observe que, no momento, você pode criar uma impressão digital de documento usando o PowerShell no centro de conformidade de segurança &amp; . Para se conectar, confira [conectar-se ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Observe que, no momento, você pode criar uma impressão digital de documento usando o PowerShell no centro de conformidade de segurança &amp; . Para se conectar, confira [conectar-se ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 A DLP usa pacotes de regras de classificação para detectar conteúdo confidencial. Para criar um pacote de regras de classificação com base em uma impressão digital de documento, use os cmdlets **New-DlpFingerprint** e **New-DlpSensitiveInformationType** . Como os resultados de **New-DlpFingerprint** não são armazenados fora da regra de classificação de dados, você sempre executa **New-DlpFingerprint** e **New-DlpSensitiveInformationType** ou **set-DlpSensitiveInformationType** na mesma sessão do PowerShell. Este exemplo cria uma nova impressão digital de documento baseada no arquivo CC:\My Documents\Contoso Employee Template.docx. Você armazena a nova impressão digital como uma variável para que possa usá-la com o cmdlet **New-DlpSensitiveInformationType** na mesma sessão do PowerShell.
   
@@ -90,13 +90,13 @@ Por fim, adicione o pacote de regras de classificação de dados "contoso Custom
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-Você também pode usar o pacote de regras de classificação de dados nas regras de fluxo de email no Exchange Online, conforme mostrado no exemplo a seguir. Para executar este comando, primeiro você precisa [se conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Observe também que leva tempo para que o pacote de regras seja sincronizado do &amp; centro de conformidade de segurança para o centro de administração do Exchange.
+Você também pode usar o pacote de regras de classificação de dados nas regras de fluxo de email no Exchange Online, conforme mostrado no exemplo a seguir. Para executar este comando, primeiro você precisa [se conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Observe também que leva tempo para que o pacote de regras seja sincronizado do &amp; centro de conformidade de segurança para o centro de administração do Exchange.
   
 ```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
 ```
 
-A DLP agora detecta documentos que correspondem à impressão digital de documento. docx do formulário cliente da contoso.
+A DLP agora detecta documentos que correspondem à impressão digital de documento do cliente Form.docx da contoso.
   
 Para obter informações sobre sintaxe e parâmetros, consulte:
 

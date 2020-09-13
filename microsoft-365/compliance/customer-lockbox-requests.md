@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: 67662c34ed3aedb22c3462a2ba8aff9e338e07c6
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: d71fbaa42fba49bd0f06b26d34d2257f8a4a60ba
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794250"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546497"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
@@ -101,7 +101,7 @@ Você pode ativar os controles de lockbox de cliente no centro de administraçã
     ![Aprovar ou negar solicitações de lockbox do cliente](../media/CustomerLockbox8.png)
 
 > [!NOTE]
-> Use o cmdlet Set-AccessToCustomerDataRequest para aprovar, negar ou cancelar solicitações de lockbox do cliente Microsoft 365 que controlam o acesso aos seus dados por engenheiros de suporte da Microsoft. Para obter mais informações, consulte [set-AccessToCustomerDataRequest](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest?view=exchange-ps).
+> Use o cmdlet Set-AccessToCustomerDataRequest para aprovar, negar ou cancelar solicitações de lockbox do cliente Microsoft 365 que controlam o acesso aos seus dados por engenheiros de suporte da Microsoft. Para obter mais informações, consulte [set-AccessToCustomerDataRequest](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest).
 
 
 ## <a name="auditing-customer-lockbox-requests"></a>Auditar solicitações de lockbox do cliente

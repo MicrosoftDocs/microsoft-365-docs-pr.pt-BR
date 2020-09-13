@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Saiba mais sobre as etapas básicas de solução de problemas que você pode executar para resolver problemas comuns na descoberta eletrônica do Office 365.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b96ed80ba9f347616fd364b3b97ac960cdaeb8e
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 5c9d917306c1a4ffd0dd1e11e1dd87c135e94f05
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357991"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545949"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica
 
@@ -38,7 +38,7 @@ Se você tentar adicionar o local da caixa de correio do usuário para pesquisar
 
 Verifique se há usuários duplicados ou lista de distribuição com a mesma ID de usuário.
 
-1. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Execute o seguinte comando para recuperar todas as instâncias do nome de usuário:
 
@@ -52,7 +52,7 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
    > |Nome|RecipientType|
    > |---|---|
    > |Alias, usuário|MailUser|
-   > |Alias, usuário|User|
+   > |Alias, usuário|Usuário|
 
 3. Se vários usuários forem retornados, localize e corrija o objeto conflitante.
 
@@ -67,7 +67,7 @@ Uma pesquisa de descoberta eletrônica ou conteúdo pode resultar no seguinte er
 
 Se você receber esse erro, recomendamos verificar os locais que falharam na pesquisa e, em seguida, executar a pesquisa apenas nos locais com falha.
 
-1. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e execute o seguinte comando:
+1. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -97,7 +97,7 @@ Uma pesquisa de descoberta eletrônica falha com o erro `recipient not found` . 
 
 ### <a name="resolution"></a>Resolução
 
-1. Conecte-se ao [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Conecte-se ao [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Execute o seguinte comando para verificar se o usuário foi sincronizado com a proteção do Exchange Online:
 
@@ -115,7 +115,7 @@ Ao exportar os resultados da pesquisa de descoberta eletrônica ou de pesquisa d
 
 1. Tente usar as etapas identificadas no artigo [aumentar as velocidades de download](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
 
-2. Se você ainda tiver problemas, conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e execute o seguinte comando:
+2. Se você ainda tiver problemas, conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -143,7 +143,7 @@ Ao executar uma pesquisa de descoberta eletrônica, se a pesquisa falhar continu
 
 1. Divida a pesquisa em pesquisas menores e execute a pesquisa novamente.  Tente usar um intervalo de datas menor ou limitar o número de locais que estão sendo pesquisados.
 
-2. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e execute o seguinte comando:
+2. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
 
    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
    Get-ComplianceSearch <searchname> | FL
@@ -163,7 +163,7 @@ erro de distribuição de política de retenção de caso de descoberta eletrôn
 
 ### <a name="resolution"></a>Resolução
 
-1. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) e, em seguida, execute o seguinte comando para uma retenção de caso de descoberta eletrônica:
+1. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e, em seguida, execute o seguinte comando para uma retenção de caso de descoberta eletrônica:
 
    ```powershell
    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
