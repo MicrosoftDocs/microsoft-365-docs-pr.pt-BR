@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a identificar, monitorar e proteger automaticamente as informações confidenciais da sua organização no Office 365.
-ms.openlocfilehash: 8d507a32a6f36555eabfa0216febdb167ad4241c
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: fc2287743bbe0239442e9507464dda4599880eb0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127528"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546211"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -529,19 +529,19 @@ Essas permissões são necessárias somente para criar e aplicar uma política d
 
 Para usar a maioria dos cmdlets do Centro de Conformidade &amp; Segurança, você precisa:
   
-1. [Conectar-se ao Centro de Conformidade &amp; e Segurança do Office 365 usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+1. [Conectar-se ao Centro de Conformidade &amp; e Segurança do Office 365 usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
     
-2. Usar qualquer um destes [policy-and-compliance-dlp cmdlets](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection?view=exchange-ps).
+2. Usar qualquer um destes [policy-and-compliance-dlp cmdlets](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection).
     
 No entanto, os relatórios DLP precisam extrair dados do Microsoft 365, incluindo o Exchange Online. Por esse motivo, **os cmdlets para os relatórios DLP estão disponíveis no Exchange Online Powershell, e não no Centro de Conformidade &amp; Segurança do Powershell**. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
   
-1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
     
 2. Usar qualquer um destes cmdlets para os relatórios DLP:
     
-    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetectionsReport?view=exchange-ps)
+    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetectionsReport)
 
-    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetailReport?view=exchange-ps)
+    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetailReport)
     
 ## <a name="more-information"></a>Mais informações
 

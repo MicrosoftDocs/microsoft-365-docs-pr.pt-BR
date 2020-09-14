@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use a ação de auditoria da caixa de correio MailItemsAccessed para executar investigações de perícia das contas de usuários comprometidas.
-ms.openlocfilehash: cd76a49e1f7b6e52d2a21e74162781771a8552a1
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 908c2a22b05d7daef8d55c7e0aac61f25489692a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327645"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546287"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Usar a Auditoria Avançada para investigar contas comprometidas
 
@@ -67,7 +67,7 @@ Confira a etapa 1 na seção [Usar registros de auditoria MailItemsAccessed para
 
 A auditoria de caixa de correio gera registros de auditoria para acesso a mensagens de email para que você tenha certeza de que as mensagens de email não foram comprometidas. Por esse motivo, em situações em que não sabemos que alguns dados foram acessados, supomos que foram acessados gravando todas as atividades de acesso ao email.
 
-Geralmente usa-se os registros de auditoria MailItemsAccessed para fins de perícia após uma violação de dados ser resolvida e o invasor ser removido. Para iniciar a investigação, identifique o conjunto de caixas de correio que foram comprometidas e determine o período de tempo em que o invasor teve acesso às caixas de correio em sua organização. Em seguida, você pode usar os cmdlets **Search-UnifiedAuditLog** ou **Search-MailboxAuditLog** no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) para pesquisar registros de auditoria que correspondem à violação de dados. 
+Geralmente usa-se os registros de auditoria MailItemsAccessed para fins de perícia após uma violação de dados ser resolvida e o invasor ser removido. Para iniciar a investigação, identifique o conjunto de caixas de correio que foram comprometidas e determine o período de tempo em que o invasor teve acesso às caixas de correio em sua organização. Em seguida, você pode usar os cmdlets **Search-UnifiedAuditLog** ou **Search-MailboxAuditLog** no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) para pesquisar registros de auditoria que correspondem à violação de dados. 
 
 Você pode executar um dos seguintes comandos para pesquisar registros de auditoria MailItemsAccessed:
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: b07965800c1258c03e3e7615fa88a0ed4e453c40
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: a657e3cac4c6b0620d7c5c69247154776ce60ffe
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845873"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547015"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -87,7 +87,7 @@ Neste momento, não há nenhuma indicação de que a política de retenção foi
 
 Você também pode usar o PowerShell do Centro de conformidade e segurança para criar políticas de retenção de log de auditoria. 
 
-1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Execute o seguinte comando para criar uma política de retenção de log de auditoria. 
 

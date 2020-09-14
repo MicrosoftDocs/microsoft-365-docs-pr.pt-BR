@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: efe09796b7c3048fd9c6026a5e6a2ca6fbc234a3
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: 88ad35b2bc07f85a86a1900d9f551b92d4646ba1
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47427030"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546723"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -315,9 +315,9 @@ Você também pode ver os resultados da política de rotulagem automática usand
 
 ### <a name="use-powershell-for-auto-labeling-policies"></a>Usar o PowerShell para políticas de rotulamento automático
 
-Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell) para criar e configurar políticas de rotulamento automático. Isso significa que agora você pode criar um script completo da criação e da manutenção das políticas de rotulamento automático, que também fornece um método mais eficiente para especificar várias URLs para os locais do OneDrive e do SharePoint.
+Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell) para criar e configurar políticas de rotulamento automático. Isso significa que agora você pode criar um script completo da criação e da manutenção das políticas de rotulamento automático, que também fornece um método mais eficiente para especificar várias URLs para os locais do OneDrive e do SharePoint.
 
-Antes de executar os comandos no PowerShell, você deve primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Antes de executar os comandos no PowerShell, você deve primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 Para criar uma nova política de rotulamento automático: 
 

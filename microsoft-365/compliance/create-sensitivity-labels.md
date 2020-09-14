@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 71e7724873a783f72e8a4088e85f82be68ae75f8
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: b11f2c089f445c73ec43a6030d756c7da4d2f26c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47427000"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546887"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -87,7 +87,7 @@ Até que você publique seus rótulos, eles não estarão disponíveis para sele
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
-As configurações adicionais de rótulo estão disponíveis com o cmdlet [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) do [PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell).
+As configurações adicionais de rótulo estão disponíveis com o cmdlet [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) do [PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/scc-powershell).
 
 Por exemplo:
 
@@ -107,7 +107,7 @@ Como resultado dessa configuração, os usuários com aplicativos do Office que 
 
 Para os idiomas para os quais você precisa oferecer suporte, use os [identificadores de idiomas](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) do Office (também conhecidos como marcas de idioma) e especifique a sua própria tradução para o rótulo e para a dica de ferramenta.
 
-Antes de executar os comandos no PowerShell, você dever primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Antes de executar os comandos no PowerShell, você dever primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 
 ```powershell
@@ -178,13 +178,13 @@ Os usuários conseguem ver os novos rótulos em seus aplicativos do Office dentr
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de políticas de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
-As configurações adicionais de políticas de rótulo estão disponíveis com o cmdlet [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) do [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell).
+As configurações adicionais de políticas de rótulo estão disponíveis com o cmdlet [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) do [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell).
 
 Somente para o cliente com rótulo unificado de Proteção de Informações do Microsoft Azure, você pode especificar [configurações avançadas](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem a configuração de um rótulo padrão diferente para o Outlook, e implementar mensagens pop-up no Outlook que avisam, justificam ou bloqueiam os emails a serem enviados. Para obter a lista completa, confira [Configurações avançadas disponíveis para políticas de rótulos](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) da guia de administração deste cliente.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>Usar o PowerShell para rótulos de confidencialidade e suas políticas
 
-Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell) para criar e configurar todas as configurações que você vê no seu centro de administração de rótulos. Isso significa que, além de usar o PowerShell para configurações que não estão disponíveis nos centros de administração de rótulos, agora você pode criar scripts para a criação e a manutenção de rótulos de confidencialidade e políticas de rótulo de confidencialidade. 
+Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell) para criar e configurar todas as configurações que você vê no seu centro de administração de rótulos. Isso significa que, além de usar o PowerShell para configurações que não estão disponíveis nos centros de administração de rótulos, agora você pode criar scripts para a criação e a manutenção de rótulos de confidencialidade e políticas de rótulo de confidencialidade. 
 
 Confira a seguinte documentação para os parâmetros e valores com suporte:
 

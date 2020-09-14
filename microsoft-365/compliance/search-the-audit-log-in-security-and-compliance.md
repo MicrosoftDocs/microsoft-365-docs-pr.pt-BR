@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d65b64f80dc9d8c3c799e8044d6fc5d3dfec4321
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 21a8ea6f930efcd106c541021c9b9bd47af43f23
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357803"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547247"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -828,14 +828,14 @@ A tabela abaixo lista os eventos que resultam das atividades de rotulamento dos 
 
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
-| Configurações definidas para uma política de retenção |NewRetentionComplianceRule |As configurações de retenção para uma nova política de retenção foram definidas pelo administrador. As configurações de retenção incluem por quanto tempo os itens são retidos e o que acontece com os itens quando o período de retenção expira (como excluir itens, reter itens ou retê-los e excluí-los). Essa atividade também corresponde à execução do cmdlet [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule).|
+| Configurações definidas para uma política de retenção |NewRetentionComplianceRule |As configurações de retenção para uma nova política de retenção foram definidas pelo administrador. As configurações de retenção incluem por quanto tempo os itens são retidos e o que acontece com os itens quando o período de retenção expira (como excluir itens, reter itens ou retê-los e excluí-los). Essa atividade também corresponde à execução do cmdlet [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule).|
 | Criado o rótulo de retenção |NewComplianceTag |Um novo rótulo de retenção foi criado pelo administrador.|
 | Criada a política de retenção  |NewRetentionCompliancePolicy|Uma nova política de retenção foi criada pelo administrador.|
 | As configurações de uma política de retenção foram excluídas| RemoveRetentionComplianceRule<br/>| As definições de configuração de uma política de retenção foram excluídas pelo administrador. Provavelmente, essa atividade é registrada quando um administrador exclui uma política de retenção ou executa o cmdlet [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/Remove-RetentionComplianceRule).|
 | Rótulo de retenção excluído |RemoveComplianceTag | Um rótulo de retenção foi excluído pelo administrador.|
 | Excluída a política de retenção |RemoveRetentionCompliancePolicy<br/> |Uma política de retenção foi excluída pelo administrador. |
 | A opção de registro regulatório foi habilitada para etiquetas de retenção<br/> |SetRestrictiveRetentionUI |O administrador executou o cmdlet [Set-RegulatoryComplianceUI](https://docs.microsoft.com/powershell/module/exchange/set-regulatorycomplianceui) para que um administrador possa selecionar a opção de configuração da IU para que um rótulo de retenção marque o conteúdo como um registro regulamentar.|
-| Configurações atualizadas para uma política de retenção | SetRetentionComplianceRule | As configurações de retenção para uma política de retenção existente foram alteradas pelo administrador. As configurações de retenção incluem por quanto tempo os itens são retidos e o que acontece com os itens quando o período de retenção expira (como excluir itens, reter itens ou retê-los e excluí-los). Essa atividade também corresponde à execução do cmdlet [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule). |
+| Configurações atualizadas para uma política de retenção | SetRetentionComplianceRule | As configurações de retenção para uma política de retenção existente foram alteradas pelo administrador. As configurações de retenção incluem por quanto tempo os itens são retidos e o que acontece com os itens quando o período de retenção expira (como excluir itens, reter itens ou retê-los e excluí-los). Essa atividade também corresponde à execução do cmdlet [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule). |
 | Rótulo de retenção atualizado |SetComplianceTag  | Um rótulo de retenção existente foi atualizado pelo administrador.|
 | Política de retenção atualizada |SetRetentionCompliancePolicy |Uma política de retenção existente foi atualizada pelo administrador. As atualizações que acionam este evento incluem adicionar ou excluir locais de conteúdo aos quais a política de retenção é aplicada.|
 

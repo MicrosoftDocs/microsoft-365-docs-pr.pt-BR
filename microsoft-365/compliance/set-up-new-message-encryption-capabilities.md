@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Aprenda sobre os novos recursos de criptografia das mensagens do Office 365 que permitem a comunicação protegida por e-mail com pessoas dentro e fora da organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d6e37da7456cfbb0b7cbf8d986b54615aca60f0
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4102611d3be43a5bedffc83fba5c83c0b648ca42
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819181"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547613"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Configurar recursos de criptografia de nova mensagem
 
@@ -62,9 +62,9 @@ Há muitos motivos, por exemplo, os requisitos de conformidade, que podem exigir
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Verificar a nova configuração do OME no PowerShell do Exchange Online
 
-Você pode verificar se o locatário do Microsoft 365 está configurado corretamente para usar os novos recursos do OME no[Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Você pode verificar se o locatário do Microsoft 365 está configurado corretamente para usar os novos recursos do OME no[Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell).
   
-1. [Conecte-se ao Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) usando uma conta com permissões de administrador global em seu locatário do Microsoft 365.
+1. [Conecte-se ao Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) usando uma conta com permissões de administrador global em seu locatário do Microsoft 365.
 
 2. Execute o cmdlet Get-IRMConfiguration.
 

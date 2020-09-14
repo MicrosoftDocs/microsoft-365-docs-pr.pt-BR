@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: 01a5137c3ab098101ebfeab71be38ee3ca28088f
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: bf449c15378226ffb0dd28a55903cbef35d32944
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47426958"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546912"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -297,7 +297,7 @@ Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservaç�
 
 Todas as políticas de retenção, com qualquer configuração, oferecem suporte ao Bloqueio de Preservação. No entanto, ao usar os comandos do PowerShell a seguir, você perceberá que o parâmetro **Carga de trabalho** sempre exibirá **o Exchange, o SharePoint, o OneDriveForBusines, o Skype, o ModernGroup** em vez de refletir as cargas de trabalho reais configuradas na política. Isso é apenas um problema de exibição.
 
-1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Liste suas políticas de retenção e encontre o nome da política que quer bloquear executando [Get-RetentionCompliancePolicy](https://powershell/module/exchange/get-retentioncompliancepolicy). Por exemplo:
     

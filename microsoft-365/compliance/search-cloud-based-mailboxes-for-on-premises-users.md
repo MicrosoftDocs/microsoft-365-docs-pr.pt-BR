@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta Pesquisa de conteúdo no Centro de conformidade e segurança para procurar e exportar dados de bate-papo do Teams para usuários locais em uma implantação híbrida do Exchange.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 159c9c674feca4b01618289b194dd162c9020d59
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: e3bb1f187faf3196dae6aa663af89dcb2b9e7e53
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818880"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547591"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>Pesquisar caixas de correio baseadas em nuvem para usuários locais 
 
@@ -110,7 +110,7 @@ Após habilitar o recurso, você poderá usar a pesquisa de conteúdo no Centro 
 
 Você pode usar os cmdlets **New-ComplianceSearch** e **Set-ComplianceSearch** no PowerShell do Centro de Conformidade e Segurança para pesquisar usuários locais na caixa de correio baseada em nuvem. Como foi explicado anteriormente, você não precisa enviar uma solicitação de suporte para usar o PowerShell para pesquisar os dados de chat do Teams para usuários locais. 
   
-1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Execute o seguinte comando do PowerShell para criar uma Pesquisa de Conteúdo que pesquise as caixas de correio de usuários locais baseadas na nuvem.
 
