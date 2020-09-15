@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ff610cee46b2b48815af82fa86d0b30aa99f4b5c
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 502dc87b45c42f0ae95ea9da898c4d4589b19671
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798229"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47649944"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
 
@@ -57,6 +57,7 @@ Você saberá que os recursos de visualização estão ativados ao ver que a cai
 ## <a name="preview-features"></a>Visualização prévia de recursos
 Os seguintes recursos e aprimoramentos estão disponíveis atualmente na visualização:
 
+- **[APIs de proteção contra ameaças da Microsoft](api-overview.md)** – as APIs de proteção contra ameaças do Lop da Microsoft permitirão automatizar fluxos de trabalho com base no incidente compartilhado e em tabelas de busca avançada. 
 - **[Tabela IdentityDirectoryEvents em busca avançada](advanced-hunting-identitydirectoryevents-table.md)** — encontre eventos que envolvem um controlador de domínio local executando o Active Directory (AD). Esta tabela abrange um intervalo de eventos relacionados à identidade, bem como eventos do sistema no controlador de domínio.
 - **[Função AssignedIPAddresses ()](advanced-hunting-assignedipaddresses-function.md)** — Use essa função em busca avançada para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo ou os endereços IP mais recentes de um momento específico.
 - **[Execute uma ação em busca avançada](advanced-hunting-take-action.md)** , confira rapidamente as ameaças ou atenda aos ativos comprometidos que você encontra em [busca avançada](advanced-hunting-overview.md).

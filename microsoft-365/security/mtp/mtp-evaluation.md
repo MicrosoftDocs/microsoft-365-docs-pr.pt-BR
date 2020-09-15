@@ -1,5 +1,5 @@
 ---
-title: Avaliar a proteção contra ameaças da Microsoft
+title: Avaliar Proteção contra Ameaças da Microsoft
 description: Configure seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft para experimentar como a solução de proteção de ameaças coordenada projetada para proteger dispositivos, identidade, dados e aplicativos pode ajudar sua organização
 keywords: Avaliação de proteção contra ameaças da Microsoft, experimente a proteção contra ameaças da Microsoft, avaliar a proteção contra ameaças da Microsoft, laboratório de avaliação de proteção contra ameaças da Microsoft, segurança da CyberSource, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f6ee8147965a29b87d84690535116f096e4c6006
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a9d7b514aac8d1a769c0dabf6dcdb54f4bcb447b
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049634"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47649956"
 ---
 # <a name="create-a-microsoft-threat-protection-trial-lab-environment"></a>Criar um ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft 
 
@@ -67,7 +67,7 @@ O seguinte é o escopo deste guia de ambiente de laboratório de avaliação:
 -   Configurar todos os pilares de proteção contra ameaças da Microsoft com base nas práticas recomendadas
     -   Proteção Avançada contra Ameaças do Office 365
     -   Proteção Avançada contra Ameaças do Azure
-    -   Microsoft Cloud App Security
+    -   Segurança no aplicativo na nuvem da Microsoft
     -   Proteção avançada contra ameaças do Microsoft Defender
 
 ## <a name="out-of-scope"></a>Fora do escopo
@@ -78,6 +78,5 @@ Os itens a seguir estão fora do escopo deste guia de implantação:
 -   Teste de penetração no ambiente de produção
 
 ## <a name="next-step"></a>Próxima etapa
-|||
-|:-------|:-----|
-|![Fase 1: preparar](../../media/prepare.png) <br>[Fase 1: preparar](prepare-mtpeval.md) | Preparar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
+![Fase 1: preparar](../../media/prepare.png) <br>[Fase 1: preparar](prepare-mtpeval.md) 
+<br> Preparar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
