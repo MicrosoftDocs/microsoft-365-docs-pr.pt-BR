@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: O roteiro para configurar seus serviços de nuvem para o Microsoft 365.
-ms.openlocfilehash: 4e9630ad84b5e442f0c8fd6ab95ca9d0c48c780a
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: 9d28b03f17aa0b9de955af824939d0db28faa057
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315760"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775130"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>Roteiro de serviços de nuvem para o Microsoft 365
 
 Para obter os benefícios de criatividade, trabalho em equipe e produtividade do Microsoft 365 for Enterprise, implante os serviços de nuvem que melhor atendem às necessidades da sua organização.
 
-Se você tiver implantações baseadas em servidor existentes para Exchange, SharePoint ou Skype for Business, consulte o [mapa de software de cliente e servidor](client-server-software-roadmap-microsoft-365.md) para migrar toda a organização para o Microsoft 365 para empresas. Este mapa inclui produtos cliente do Microsoft Office, produtos do Office Server local e dispositivos baseados no Microsoft Windows.
+Se você tiver implantações baseadas em servidor existentes para o Exchange, o SharePoint ou o Skype for Business e quiser migrar toda a sua organização para a Microsoft 365 para empresas, consulte o [mapa de software de cliente e servidor](client-server-software-roadmap-microsoft-365.md). Este mapa inclui produtos cliente do Microsoft Office, produtos do Office Server local e dispositivos baseados no Microsoft Windows &ndash; .
 
 ## <a name="deploy"></a>Implantar
 
@@ -56,12 +56,12 @@ Para gerenciar os serviços de nuvem:
 
 ## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Como a Microsoft realiza serviços em nuvem para o Microsoft 365
 
-Para ver como a divisão de ti da Microsoft implantou ou está gerenciando os serviços de nuvem da Microsoft 365:
+Para obter informações sobre como a ti da Microsoft implantou ou está gerenciando os serviços de nuvem da Microsoft 365:
 
-1. Vá para a [apresentação de ti da Microsoft](https://www.microsoft.com/itshowcase).
+1. Vá para [apresentação de ti da Microsoft](https://www.microsoft.com/itshowcase).
 2. Selecione **conteúdo de pesquisa**.
-3. Em **refinar resultados**, selecione **profissionais de ti** em **público**e o serviço de nuvem em que você está interessado em **produto**.
+3. Em **refinar resultados**, selecione **profissional de ti** em **público**e, em **produto**, selecione um serviço de nuvem.
 
 ## <a name="next-step"></a>Próxima etapa
 
-Inicie sua implementação dos serviços em nuvem com o [Get Ready](configure-services-and-applications.md).
+Inicie sua implementação de serviços de nuvem. Para obter orientação, consulte [Configure Microsoft 365 Enterprise Services and Applications](configure-services-and-applications.md).

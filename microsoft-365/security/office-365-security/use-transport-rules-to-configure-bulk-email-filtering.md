@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de emails (regras de transporte) para identificar e filtrar emails em massa (emails cinza) na proteção do Exchange Online (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dfe841d3e80efc50d6ffbc702faefa1c9a971b13
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 62db73ea917139d81a29569d5b452637fd053c92
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826748"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775190"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Usar regras de fluxo de e-mail para filtrar e-mails em massa no EOP
 
@@ -76,7 +76,7 @@ Este tópico explica como criar essas regras de fluxo de email no centro de admi
        - `If you are unable to view the content of this email\, please`
        - `\>(safe )?unsubscribe( here)?\</a\>`
        - `If you do not wish to receive further communications like this\, please`
-       - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
+       - `<img height="?1"? width="?1"? sr\c=.?http\://`
        - `To stop receiving these+emails\:http\://`
        - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
        - `no longer (wish )?(to )?(be sent|receive) w+ email`

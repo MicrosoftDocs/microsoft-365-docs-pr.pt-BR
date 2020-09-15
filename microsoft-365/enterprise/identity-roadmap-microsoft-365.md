@@ -15,32 +15,32 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: O mapa de identidade para o Microsoft 365.
-ms.openlocfilehash: 2eae98d891672e9fc9adb68e1fee2426fe4934dd
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: e268422fcd6cfba36b1a971629036d29827806f6
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315794"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775118"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Roteiro de identidade para o Microsoft 365
 
-No Microsoft 365 for Enterprise, uma infraestrutura de identidade bem planejada e executada abre a forma de segurança e acesso mais seguro às suas cargas de trabalho de produtividade e seus dados apenas por usuários e dispositivos autenticados.
+No Microsoft 365 for Enterprise, uma infraestrutura de identidade bem planejada e executada abre a forma de segurança mais forte, incluindo a restrição de acesso às cargas de trabalho de produtividade e seus dados apenas para usuários e dispositivos autenticados.
 
-Assista a este vídeo para obter uma visão geral dos modelos de identidade e autenticação para o Microsoft 365 para empresas.
+Para obter uma visão geral dos modelos de identidade e autenticação do Microsoft 365 for Enterprise, Assista a este vídeo:
 
 <p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-Para obter os recursos de identidade de cada Microsoft 365 for Enterprise Plan, a função do Azure Active Directory (Azure AD), os componentes locais e baseados em nuvem e as configurações de autenticação mais comuns, consulte o [cartaz infraestrutura de identidade](../downloads/m365e-identity-infra.pdf).
+Para obter informações sobre os recursos de identidade de cada Microsoft 365 for Enterprise Plan, a função do Azure Active Directory, tanto os componentes locais quanto os baseados em nuvem, e as configurações de autenticação mais comuns, confira o [pôster de infraestrutura de identidade](../downloads/m365e-identity-infra.pdf).
 
 [![Pôster sobre a Infraestrutura de Identidade](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
 
-Este cartaz de duas páginas é uma maneira rápida de aumentar os conceitos e as configurações de identidade do Microsoft 365 para empresas.
+Revise este cartaz de duas páginas para aumentar rapidamente os conceitos de identidade e as configurações do Microsoft 365 para empresas.
 
-Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
+Você também pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf). Você pode imprimi-lo no formato carta, legal ou tablóide (11 x 17).
 
-## <a name="plan"></a>Planejar
+## <a name="plan"></a>Plano
 
 Para planejar sua implementação de identidade:
 
@@ -59,7 +59,7 @@ Para implantar sua implementação de identidade:
 
 ### <a name="identity-and-device-access-recommendations"></a>Recomendações de acesso de dispositivo e identidade
 
-A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e identidade](microsoft-365-policies-configurations.md) para garantir uma força de trabalho segura e produtiva. Para identidade, use as recomendações e configurações nestes artigos:
+Para ajudar a garantir uma força de obra segura e produtiva, a Microsoft fornece um conjunto de recomendações para [acesso de identidades e dispositivos](microsoft-365-policies-configurations.md). Para identidade, use as recomendações e configurações nestes artigos:
 
 - [Pré-requisitos](identity-access-prerequisites.md)
 - [Identidade comum e políticas de acesso ao dispositivo](identity-access-policies.md)
@@ -76,12 +76,12 @@ Para gerenciar sua implementação de identidade:
 Saiba como os especialistas de TI [da Microsoft gerenciam identidades e protegem o acesso.](https://www.microsoft.com/en-us/itshowcase/managing-user-identities-and-secure-access-at-microsoft)
 
 >[!Note]
->Este recurso de demonstração de TI está disponível apenas em inglês.
+>Este recurso de demonstração de ti está disponível somente em inglês.
 >
 
 ## <a name="how-contoso-did-identity-for-microsoft-365"></a>Como a contoso fazia a identidade para o Microsoft 365
 
-Veja como a Contoso Corporation, uma empresa multinacional fictícia, mas representativa, [implantou uma infraestrutura de identidade híbrida](contoso-identity.md) dos serviços em nuvem do Microsoft 365.
+Para obter um exemplo de como uma organização multinacional fictícia, mas representativa, implantou uma infraestrutura de identidade híbrida para os serviços de nuvem da Microsoft 365, consulte [Identity for the Contoso Corporation](contoso-identity.md).
 
 ## <a name="next-step"></a>Próxima etapa
 

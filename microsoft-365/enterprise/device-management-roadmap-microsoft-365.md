@@ -15,35 +15,37 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: O roteiro para configurar o gerenciamento de dispositivos para o Microsoft 365.
-ms.openlocfilehash: 1a1bdb449aa1d1ba12cf1de422b3e279df6c1376
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: bb19c38d5cf92cfc04ac83bc29573ea24c93ef30
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315736"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775166"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Roteiro de gerenciamento de dispositivo para o Microsoft 365
 
-
 O Microsoft 365 for Enterprise inclui recursos para ajudar a gerenciar dispositivos e seus aplicativos em sua organização. Gerenciar dispositivos móveis ajuda você a proteger e proteger os recursos da sua organização.
 
-Há duas opções para o gerenciamento de dispositivos.
+Há duas opções para o gerenciamento de dispositivos:
+
+- [Microsoft Intune](#microsoft-intune)
+- [Mobilidade básica e segurança](#basic-mobility-and-security)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
-O Intune oferece opções para gerenciar o acesso à sua organização usando o gerenciamento de dispositivo móvel (MDM) ou o gerenciamento de aplicativo móvel (MAM). O MDM é quando os usuários "registram" seus dispositivos no Intune. Após o registro, eles são dispositivos gerenciados e podem receber quaisquer políticas, regras e configurações usadas por sua organização. Por exemplo, você pode instalar aplicativos específicos, criar uma diretiva de senha, instalar uma conexão VPN e muito mais.
+Você pode usar o Microsoft Intune para gerenciar o acesso à sua organização usando o gerenciamento de dispositivos móveis ou o gerenciamento de aplicativos móveis. O gerenciamento de dispositivos móveis é quando os usuários "registram" seus dispositivos no Intune. Após um dispositivo ser inscrito, é um dispositivo gerenciado; Portanto, ele pode receber as políticas, as regras e as configurações da sua organização. Por exemplo, você pode instalar aplicativos específicos, criar uma política de senha, instalar uma conexão VPN e muito mais.
 
-Os usuários com seus próprios dispositivos pessoais podem não querer registrar seus dispositivos ou ser gerenciados pelo Intune e suas políticas. Mas você ainda precisa proteger os recursos e os dados da sua organização. Neste cenário, você pode proteger seus aplicativos usando MAM. Por exemplo, você pode usar uma política MAM que exige que um usuário insira um PIN ao acessar o SharePoint no dispositivo.
+Os usuários com seus próprios dispositivos pessoais podem não querer registrar seus dispositivos ou ser gerenciados pelo Intune e pelas políticas da sua organização. Mas você ainda precisa proteger os recursos e os dados da sua organização. Neste cenário, você pode proteger seus aplicativos usando o gerenciamento de aplicativo móvel. Por exemplo, você pode usar uma política de gerenciamento de aplicativo móvel que exige que um usuário insira um PIN ao acessar o Microsoft SharePoint no dispositivo.
 
-Você também determinará como vai gerenciar dispositivos pessoais ou pertencentes à organização. Você pode querer tratar os dispositivos de forma diferente, dependendo do uso. 
+Você também determinará como você vai gerenciar dispositivos pessoais e dispositivos de propriedade da organização. Você pode querer tratar os dispositivos de forma diferente, dependendo de seus usos.
 
-Inicie [aqui](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide).
+Para gerenciar dispositivos usando o Intune, inicie [aqui](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide).
 
 ## <a name="basic-mobility-and-security"></a>Mobilidade básica e segurança
- 
-Isso é feito no Microsoft 365 e ajuda você a proteger e gerenciar os dispositivos móveis dos seus usuários, como iPhones, iPads, Androids e Windows phones. Você pode criar e gerenciar políticas de segurança de dispositivo, apagar remotamente um dispositivo e exibir relatórios detalhados de dispositivos. 
 
-Inicie [aqui](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd).
+Isso é feito no Microsoft 365 e ajuda você a proteger e gerenciar os dispositivos móveis dos seus usuários, como iPhones, iPads, Androids e Windows phones. Você pode criar e gerenciar políticas de segurança de dispositivo, apagar remotamente um dispositivo e exibir relatórios detalhados de dispositivos.
+
+Para gerenciar dispositivos usando mobilidade e segurança básicas, comece [aqui](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd).
  
 ## <a name="identity-and-device-access-recommendations"></a>Recomendações de acesso de dispositivo e identidade
 
@@ -54,4 +56,4 @@ A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e
 
 ## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Como a contoso fazia o gerenciamento de dispositivos para o Microsoft 365
 
-Veja como a Contoso Corporation, uma empresa multinacional fictícia, mas representativa, [implantou sua infraestrutura de gerenciamento de dispositivo móvel com os](contoso-mdm.md) serviços de nuvem da Microsoft 365.
+Para obter informações sobre como uma empresa multinacional fictícia, mas representativa, implantou sua infraestrutura de gerenciamento de dispositivo móvel com os serviços de nuvem da Microsoft 365, consulte [Mobile Device Management for contoso](contoso-mdm.md).

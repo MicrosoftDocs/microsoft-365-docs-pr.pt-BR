@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, perguntas frequentes, respostas, negócios
 ms.date: 07/21/2020
-ms.openlocfilehash: 614da177df9250045ca3cc18c0b071e0aa43b7ec
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: e056f0c33aec180080a0d4e27e182d2d98877e6e
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560790"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775076"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Perguntas frequentes sobre o Microsoft 365 Business Premium
 
@@ -157,7 +157,7 @@ Todos os complementos que podem ser adicionados ao Microsoft 365 Business Standa
 Sim, você pode adquirir uma assinatura de voz de negócios. [Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) é uma solução de telefonia projetada para pequenas e médias empresas de até 300 usuários que agrupam o sistema de telefonia, a conferência de áudio, um plano de chamadas domésticas e muito mais. Os recursos do sistema de telefonia que você receberão incluem caixa postal, ID do chamador, estacionamento de chamadas, encaminhamento de chamadas, atendedores automáticos e filas de chamadas. <br> Para descobrir se o Business Voice está disponível em seu país ou sua região, confira [disponibilidade do país/região para Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability). Para obter informações sobre preços, consulte [precificação de Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).
  
 ### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Os clientes do Microsoft 365 Business Premium podem usar a proteção avançada contra ameaças do Microsoft defender? 
-Sim, a proteção avançada contra ameaças do Microsoft defender está disponível como um complemento para os clientes do Microsoft 365 Business Premium.
+Sim, a proteção avançada contra ameaças do Microsoft defender está disponível como um complemento para o Microsoft 365 Business Premium quando adquirido de um [provedor de soluções de nuvem da Microsoft](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
 ## <a name="partner-opportunity"></a>Oportunidade de parceiros
 
