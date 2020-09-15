@@ -18,12 +18,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: a5237f845239414a9b26a6da7028e323a11ea850
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 53411edcaa64508d7200a2ca1bf1903f809d9ae1
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416595"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547429"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de entidades de dados do Dynamics 365 para o RGPD e CCPA
 
@@ -42,7 +42,7 @@ O guia explica como usar produtos, serviços e ferramentas administrativas da Mi
 
 Cada seção deste guia descreve os procedimentos técnicos que uma organização controladora de dados pode realizar para responder a uma solicitação de DSR para dados pessoais na nuvem da Microsoft
 
-### <a name="gdpr-terminology"></a>Terminologia de RGPD
+## <a name="gdpr-terminology"></a>Terminologia de RGPD
 
 Veja a seguir as definições dos termos que são relevantes para este guia:
 
@@ -52,14 +52,14 @@ Veja a seguir as definições dos termos que são relevantes para este guia:
 - **Dados do cliente:** Todos os dados, incluindo todos os arquivos de texto, som, vídeo ou imagem e software, fornecidos à Microsoft por um cliente, em nome de um cliente ou por meio do uso do serviço corporativo. Os Dados do Cliente incluem (1) informações de identificação de usuários finais (por exemplo, nomes de usuário e informações de contato no Azure Active Directory) e Conteúdo do Cliente que um cliente carrega ou cria em serviços específicos (por exemplo, conteúdo do cliente em uma conta de Armazenamento do Azure, conteúdo do cliente de um Banco de Dados SQL do Azure ou imagem da máquina virtual de um cliente nas Máquinas Virtuais do Azure).
 - **Logs gerados pelo sistema:** logs e dados relacionados gerados pela Microsoft que ajudam a Microsoft a fornecer serviços corporativos aos usuários. Os logs gerados pelo sistema contêm principalmente dados pseudonimizados, como identificadores exclusivos — normalmente, um número gerado pelo sistema que não pode, por si só, identificar uma pessoa individual, mas é usado para fornecer os serviços corporativos aos usuários. Os logs gerados pelo sistema também podem conter informações identificáveis sobre os usuários finais, como um nome de usuário.
 
-### <a name="how-this-guide-can-help-you-meet-your-controller-responsibilities"></a>Como este guia pode ajudar você a cumprir suas responsabilidades de controlador
+## <a name="how-this-guide-can-help-you-meet-your-controller-responsibilities"></a>Como este guia pode ajudar você a cumprir suas responsabilidades de controlador
 
 O guia, dividido em duas partes, descreve como usar os produtos, serviços e ferramentas administrativas do Dynamics 365 para ajudar a localizar e executar ações em dados na nuvem da Microsoft em resposta a solicitações de titulares de dados exercendo seus direitos no RGPD. A primeira parte aborda dados pessoais incluídos nos dados do cliente, seguida por uma parte que aborda outros dados pessoais pseudonimizados obtidos de registros gerados pelo sistema.
 
 - **Parte 1: Respondendo a solicitações de Direitos do Titular dos Dados (DSR) para Dados Pessoais incluídos nos dados do cliente:** A parte 1 deste guia aborda como acessar, corrigir, restringir, excluir e exportar dados pessoais a partir de aplicativos do Dynamics 365 (software como um serviço), que é processado como parte dos dados do cliente que você forneceu ao serviço online.
 - **Parte 2: Responder a solicitações de direitos de assunto de dados para dados do Pseudonymized:** ao usar os serviços corporativos do Dynamics 365, a Microsoft gera algumas informações (mencionadas neste documento, como *logs gerados pelo sistema*) para fornecer o serviço, o que limita o espaço de uso deixado pelos usuários finais para identificar suas ações no sistema. Embora esses dados não possam ser atribuídos a uma entidade de dados específica sem o uso de informações adicionais, alguns deles podem ser considerados pessoais de acordo com o RGPD. A Parte 2 deste guia discute como acessar, excluir e exportar logs gerados pelo sistema produzidos pelo Dynamics 365.
 
-### <a name="preparing-for-data-subject-rights-investigations"></a>Preparar para investigações de direitos de entidades de dados
+## <a name="preparing-for-data-subject-rights-investigations"></a>Preparar para investigações de direitos de entidades de dados
 
 Quando titulares de dados exercem seus direitos e fazem solicitações, considere os seguintes pontos:
 
@@ -94,7 +94,7 @@ No Dynamics 365 for Marketing, você tem os seguintes recursos adicionais:
 1. [Criar relatórios do Power BI](https://docs.microsoft.com/power-bi/service-connect-to-microsoft-dynamics-crm) para filtrar e identificar os dados do cliente.
 2. Utilize os modos de exibição de informações em contatos e objetos de execução de marketing para identificar os pontos de dados adicionais que podem conter dados do cliente.
 
-O ***Dynamics 365 Customer Service Insights*** fornece uma lista de recursos para ajudá-lo a [encontrar dados de clientes](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-discovery) para responder às solicitações de RGPD dos clientes. 
+O ***Dynamics 365 Customer Service Insights*** fornece uma lista de recursos para ajudá-lo a [encontrar dados de clientes](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-discovery) para responder às solicitações de RGPD dos clientes.
 
 O ***Dynamics 365 Finance and Operations*** oferece várias maneiras para você pesquisar por dados de clientes. Um administrador locatário pode executar as seguintes ações para pesquisar dados dos clientes:
 
@@ -154,7 +154,7 @@ Você pode alterar dados do cliente armazenados em qualquer campo, como as infor
 
 Registros transacionais, como entradas contábeis gerais, do cliente e tributárias, são essenciais para a integridade de um sistema de planejamento de recursos empresariais. Dados pessoais que fazem parte de uma transação financeira ou de outro tipo são mantidos “no estado em que se encontram” para cumprir as leis financeiras (por exemplo, leis tributárias), impedir fraudes (como uma trilha de auditoria de segurança ou para estar em conformidade com as certificações do setor). Dessa forma, o Dynamics 365 for Finance and Operations e o Dynamics 365 Business Central restringem a modificação dos dados nesses registros.
 
-Se você armazenar dados pessoais em registros de transação de negócios, a única maneira de corrigir, excluir ou restringir o processamento de dados pessoais para atender à solicitação de um titular de dados é usar os [recursos de personalização](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/index) Dynamics 365 Business Central. A[](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#reasons-why-certain-personal-data-may-not-be-modified-or-deleted)decisão de atender a uma solicitação do titular de dados de modificação e sua implementação é de sua responsabilidade.
+Se você armazenar dados pessoais em registros de transação de negócios, a única maneira de corrigir, excluir ou restringir o processamento de dados pessoais para atender à solicitação de um titular de dados é usar os [recursos de personalização](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/index) da Dynamics 365 Business Central. [A decisão de atender a uma solicitação do titular de dados de modificação](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#reasons-why-certain-personal-data-may-not-be-modified-or-deleted) e sua implementação é de sua responsabilidade.
 
 ### <a name="restricting-the-processing-of-customer-data"></a>Restrição do processamento de dados do cliente
 
@@ -194,7 +194,7 @@ Para ***Dynamics 365 Customer Service Insights***, você [exporta dados do clien
 
 O ***Dynamics 365 for Finance and Operations*** fornece [entidades de integração e de gerenciamento de dados](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-integration-data-entity), habilitando entidades fornecidas ou estendidas para exportação de dados pessoais repetidos para o Excel ou outros formatos comuns usando [Importar e exportar trabalhos de dados](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job).  Dados do cliente podem ser exportados para um arquivo estático do Excel para facilitar a solicitação de portabilidade de dados. Ao exportar dados do cliente para o Excel dessa forma, você pode editar os dados pessoais a serem incluídos na solicitação de portabilidade e depois salvar como um formato comum legível por máquina, como .csv ou .xml.
 
-Tanto o Dynamics 365 for Finance and Operations quanto o ***Dynamics 365 for Talent*** oferecem o Relatório de pesquisa de pessoa para fornecer ao titular os dados que você tenha classificado como pessoais. 
+Tanto o Dynamics 365 for Finance and Operations quanto o ***Dynamics 365 for Talent*** oferecem o Relatório de pesquisa de pessoa para fornecer ao titular os dados que você tenha classificado como pessoais.
 
 O ***Dynamics 365 Business Central*** oferece os seguintes recursos:
 

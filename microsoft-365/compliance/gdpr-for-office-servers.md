@@ -12,28 +12,28 @@ ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4efb3803df2baa1ca37aeda05ae81947c3b65010
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5ee42a12f65ad5eff0a33ef2b61d328ebdc7af3e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036256"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547327"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>RGPD para servidores locais do Office
 
 O RGPD (Regulamento Geral sobre a Proteção de Dados) apresenta os requisitos para as organizações protegerem dados pessoais adequadamente e atender adequadamente às solicitações de titulares de dados. Esta série de artigos fornece abordagens recomendadas para cargas de trabalho locais:
 
--   [SharePoint Server](gdpr-for-sharepoint-server.md)
+- [SharePoint Server](gdpr-for-sharepoint-server.md)
 
--   [Exchange Server](gdpr-for-exchange-server.md)
+- [Exchange Server](gdpr-for-exchange-server.md)
 
--   [Skype for Business Server](gdpr-for-skype-for-business-server.md)
+- [Skype for Business Server](gdpr-for-skype-for-business-server.md)
 
--   [Project Server](gdpr-for-project-server.md)
+- [Project Server](gdpr-for-project-server.md)
 
--   [Servidor do Office Web Apps e Servidor do Office Online](gdpr-for-office-online-server.md)
+- [Servidor do Office Web Apps e Servidor do Office Online](gdpr-for-office-online-server.md)
 
--   [Compartilhamentos de arquivos locais](gdpr-for-on-premises-file-shares.md)
+- [Compartilhamentos de arquivos locais](gdpr-for-on-premises-file-shares.md)
 
 Para obter mais informações sobre o RGPD e como a Microsoft pode ajudar você, confira a [Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/privacy/gdpr-overview
 ).
@@ -42,17 +42,20 @@ Antes de trabalhar com dados locais, consulte suas equipes de conformidade e jur
 
 A ilustração a seguir lista os recursos recomendados para usar em cada uma dessas cargas de trabalho para descobrir, classificar, proteger e monitorar dados pessoais. Confira os artigos desta seção para saber mais.
 
-![](../media/gdpr-for-office-servers-image1.png)
+![Diagrama descrevendo os recursos para descobrir, classificar, proteger e monitorar dados pessoais entre cargas de trabalho](../media/gdpr-for-office-servers-image1.png)
 
 ## <a name="illustration-description"></a>Descrição da ilustração
 
-Para aprimorar a acessibilidade, a tabela a seguir fornece os mesmos exemplos da ilustração.
+Para maior acessibilidade, a tabela a seguir fornece os mesmos exemplos da ilustração.
 
-|             |Compartilhamentos de arquivos do Windows Server|SharePoint Server|Exchange Server|Skype for Business|Project Server|
-|:------------|:-------------------------|:----------------|:--------------|:-----------------|:-------------|
-|Descobrir|Verificador da Proteção de Informações do Azure*|Centro de Pesquisa ou Descoberta Eletrônica (depois que os dados forem classificados); verificador da Proteção de Informações do Azure*|Portal de Descoberta Eletrônica do Exchange|Portal de Descoberta Eletrônica do Exchange|Scripts SQL para descobrir e exportar|
-|Classificar|Verificador da Proteção de Informações do Azure*; tipos de informações confidenciais do Office 365|Verificador da Proteção de Informações do Azure*; tipos de informações confidenciais do Office 365|Marcas e políticas de retenção do Exchange|Marcas e políticas de retenção do Exchange||
-|Proteger||Regras de prevenção contra perda de dados do Exchange Server; proteção de IRM para bibliotecas de permissões|Regras de prevenção contra perda de dados do Exchange Server; integração de IRM com o Exchange Server|||
+****
+
+|Ação|Compartilhamentos de arquivos do Windows Server|SharePoint Server|Exchange Server|Skype for Business|Project Server|
+|---|---|---|---|---|---|
+|Descobrir|Scanner da Proteção de Informações do Azure<sup>\*</sup>|Centro de Pesquisa ou de Descoberta Eletrônica (depois que os dados forem classificados) <br/><br/> Scanner da Proteção de Informações do Azure<sup>\*</sup>|Portal de Descoberta Eletrônica do Exchange|Portal de Descoberta Eletrônica do Exchange|Scripts SQL para descobrir e exportar|
+|Classificar|Scanner da Proteção de Informações do Azure<sup>\*</sup> <br/><br/> Tipos de informações confidenciais do Office 365|Scanner da Proteção de Informações do Azure<sup>\*</sup> <br/><br/> Tipos de informações confidenciais do Office 365|Marcas e políticas de retenção do Exchange|Marcas e políticas de retenção do Exchange||
+|Proteger||Regras de prevenção contra perda de dados do Exchange Server <br/><br/> Permissões, proteção do IRM para bibliotecas|Regras de prevenção contra perda de dados do Exchange Server <br/><br/> Integração do IRM com o Exchange Server|||
 |Monitorar|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|
+|
 
-*Note que a proteção criptografa os arquivos. Consequentemente, o SharePoint Server não consegue encontrar os tipos de informações confidenciais nesses arquivos.
+<sup>\*</sup> Observe que a proteção criptografa o arquivo. Consequentemente, o SharePoint Server não consegue encontrar os tipos de informações confidenciais nos arquivos protegidos.
