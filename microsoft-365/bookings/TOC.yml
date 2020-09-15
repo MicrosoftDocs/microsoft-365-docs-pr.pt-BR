@@ -32,7 +32,7 @@
     - name: Obter o aplicativo de reservas
       href: get-bookings-app.md
     - name: Visitas de aplicativos e virtuais no Microsoft Teams
-      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+      href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
     - name: Gráfico de comparação-aplicativo Web em relação ao aplicativo do teams
       href: comparison-chart.md
     - name: Excluir um calendário de reserva
