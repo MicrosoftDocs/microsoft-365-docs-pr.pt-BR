@@ -1,7 +1,7 @@
 ---
-title: Configurar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
-description: Acessar o centro de segurança do Microsoft 365 e configurar seu ambiente de laboratório de avaliação do Microsoft Threat Protection
-keywords: Configuração de avaliação do Microsoft Threat Protection, experimente a proteção contra ameaças da Microsoft, configuração do laboratório de avaliação de proteção contra ameaças da Microsoft
+title: Configurar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto
+description: Acessar o centro de segurança do Microsoft 365 e configurar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
+keywords: Configuração de avaliação do Microsoft Threat Protection, configuração do piloto do Microsoft Threat Protection, experimente proteção contra ameaças da Microsoft, configuração do laboratório de avaliação de proteção contra ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: w10
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 69a883263952b7c20225659ae023399e0242606d
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 60c1a39e350a9a1d5d43c9b59ab12c4a6ad3f12a
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650064"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817176"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Configurar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft 
 
@@ -28,26 +28,26 @@ ms.locfileid: "47650064"
 - Proteção contra Ameaças da Microsoft 
 
 
-Criar um ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft e implantá-lo é um processo de três fases:
+A criação de um laboratório de avaliação de proteção contra ameaças da Microsoft ou ambiente piloto e sua implantação é um processo de três fases:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Prepare seu laboratório de avaliação de proteção contra ameaças da Microsoft" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Preparar o laboratório de avaliação da proteção contra ameaças da Microsoft ou o ambiente piloto" />
       <br/>Fase 1: preparar </a><br>
     </td>
      <td align="center"bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Configurar o laboratório de avaliação de proteção contra ameaças da Microsoft" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab or pilot environment" title="Configurar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto" />
       <br/>Fase 2: configuração </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
         <img src="../../media/config-onboard.png" alt="
-Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab environment and onboard your endpoints" title="
-Configure cada pilar de proteção contra ameaças da Microsoft para seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft e integração dos seus pontos de extremidade" />
+Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab or pilot environment and onboard your endpoints" title="
+Configure cada pilar de proteção contra ameaças da Microsoft para o laboratório de avaliação de proteção contra ameaças da Microsoft ou para o ambiente piloto e a integração dos pontos de extremidade" />
       <br/>Fase 3: configurar o & integrado </a><br>
 </td>
 
@@ -55,12 +55,12 @@ Configure cada pilar de proteção contra ameaças da Microsoft para seu ambient
   </tr>
 </table>
 
-Você está atualmente na fase de configuração. Execute as etapas iniciais para acessar o centro de segurança do Microsoft 365 e configure seu ambiente de laboratório de avaliação.
+Você está atualmente na fase de configuração. Execute as etapas iniciais para acessar o centro de segurança do Microsoft 365 e configure seu laboratório de avaliação ou ambiente piloto.
 
 Inscreva-se para uma assinatura do Office 365 ou do Azure Active Directory para gerar um locatário *. onmicrosoft.com* que você pode usar para se inscrever na sua licença do Microsoft 365 e5. 
 
 >[!NOTE]
->Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de criação do locatário de avaliação do Office 365 e5.
+>Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de avaliação do Office 365 E5 ou de criação do locatário piloto.
 
 Nesta fase, você será orientado a:
 - Criar um locatário de avaliação do Office 365 e5
@@ -88,7 +88,7 @@ Nesta fase, você será orientado a:
 5. Defina o nome de domínio personalizado para o seu locatário e clique em **Avançar**.
 <br>![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode configurar seu nome de domínio personalizado](../../media/mtp-eval-13.png) <br>
  
-6. Configure a primeira identidade que será um administrador global do locatário. Insira o **nome** e a **senha**. Clique em **inscrever-se**.
+6. Configure a primeira identidade, que será um administrador global para o locatário. Insira o **nome** e a **senha**. Clique em **inscrever-se**.
 ![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode definir sua identidade comercial](../../media/mtp-eval-14.png) <br>
 
 7. Clique em **ir para configuração** para concluir o provisionamento do locatário de avaliação do Office 365 e5.
@@ -97,7 +97,7 @@ Nesta fase, você será orientado a:
 8. Conecte seu domínio corporativo ao locatário do Office 365. Opcion Escolha **conectar um domínio que você já possui** e digite o nome do seu domínio. Clique em **Avançar**.
 <br>![Página de configuração de imagem of_Office 365 E5 onde você deve personalizar sua entrada e email](../../media/mtp-eval-16.png) <br>
  
-9. Será necessário adicionar um registro TXT ou MX para validar a propriedade do domínio. Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **verificar**.
+9. Adicione um registro TXT ou MX para validar a propriedade do domínio. Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **verificar**.
 <br>![Página de imagem of_Office 365 E5 onde você deve adicionar um TXT do registro MX para verificar seu domínio](../../media/mtp-eval-17.png) <br>
  
 10. Opcion Criar mais contas de usuário para o locatário. Você pode ignorar essa etapa clicando em **Avançar**.
@@ -112,7 +112,7 @@ Nesta fase, você será orientado a:
 13. Escolha serviços online. Selecione **Exchange** e clique em **Avançar**. 
 <br>![Imagem of_Office 365 E5 onde você pode escolher seus serviços online](../../media/mtp-eval-21.png) <br>
 
-14. Adicione registros MX, CNAME e TXT ao seu domínio. Quando concluído, selecione **verificar**.
+14. Adicionar registros MX, CNAME e TXT ao seu domínio. Quando concluído, selecione **verificar**.
 <br>![Imagem of_Office 365 E5 aqui você pode adicionar seus registros DNS](../../media/mtp-eval-22.png) <br>
  
 15. Parabéns, você concluiu o provisionamento do seu locatário do Office 365.
@@ -149,4 +149,4 @@ Nesta fase, você será orientado a:
 
 
 ## <a name="next-step"></a>Próxima etapa
-![Fase 3: configurar o & integrado](../../media/config-onboard.png) <br>[Fase 3: configurar o & integrado](config-mtpeval.md) <br>Configure cada pilar de proteção contra ameaças da Microsoft para o laboratório de avaliação de proteção contra ameaças da Microsoft e integração dos seus pontos de extremidade.
+![Fase 3: configurar o & integrado](../../media/config-onboard.png) <br>[Fase 3: configurar o & integrado](config-mtpeval.md) <br>Configure cada pilar de proteção contra ameaças da Microsoft para o laboratório de avaliação de proteção contra ameaças da Microsoft ou para o ambiente piloto e integração dos pontos de extremidade.

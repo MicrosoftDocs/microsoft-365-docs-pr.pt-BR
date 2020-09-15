@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores na nuvem do governo dos EUA podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 2f41426003fcf3b6afe14d24cf7176fa4668ad44
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 30a3730bcb2d4f41df28c47fdb9ab35e9d012540
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289812"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817160"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government-preview"></a>Configurar um conector para importar dados de RH no governo dos EUA (versão prévia)
 
@@ -65,11 +65,11 @@ A tabela a seguir descreve cada coluna no arquivo CSV:
 |**Nome da coluna**|**Descrição**|
 |:-----|:-----|
 | **EmailAddress** <br/> |Especifica o endereço de email do funcionário demitido.|
-| **TerminationDate** <br/> |Especifica a data em que o emprego da pessoa foi oficialmente encerrado em sua organização. Por exemplo, isso pode ser a data em que o funcionário deu seu aviso sobre a saída da sua organização. Essa data pode ser diferente da data do último dia de trabalho da pessoa. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
-|**LastWorkingDate**|Especifica o último dia de trabalho para o funcionário demitido. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+| **TerminationDate** <br/> |Especifica a data em que o emprego da pessoa foi oficialmente encerrado em sua organização. Por exemplo, isso pode ser a data em que o funcionário deu seu aviso sobre a saída da sua organização. Essa data pode ser diferente da data do último dia de trabalho da pessoa. Use o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+|**LastWorkingDate**|Especifica o último dia de trabalho para o funcionário demitido. Use o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 |||
 
-Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no mesmo sistema que o script executado na etapa 4. Você também deve implementar uma estratégia de atualização para certificar-se de que o arquivo CSV sempre contenha as informações mais atuais para que seja o que você executar o script, os dados mais atuais de encerramento do funcionário serão carregados para a nuvem da Microsoft.
+Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no mesmo sistema que o script executado na etapa 4. Certifique-se de implementar uma estratégia de atualização para que o arquivo CSV sempre contenha as informações mais atuais. Isso garante que o que for executado no script, os dados de encerramento de funcionários mais atuais sejam carregados para a nuvem da Microsoft.
 
 ## <a name="step-3-create-the-hr-connector"></a>Etapa 3: criar o conector de RH
 
@@ -139,11 +139,11 @@ A última etapa na configuração de um conector de RH é executar um script de 
 
    |**Parâmetro**|**Descrição**
    |:-----|:-----|:-----|
-   |`tenantId`|Esta é a ID da sua organização do Microsoft 365 que você obteve na etapa 1. Você também pode obter a ID do locatário para sua organização na folha **visão geral** no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
-   |`appId` |Esta é a ID de aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. |
-   |`appSecret`|Este é o segredo do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso também é usado para autenticação.|
-   |`jobId`|Esta é a ID do trabalho do conector de RH que você criou na etapa 3. Isso é usado para associar os dados de RH que são carregados para a nuvem da Microsoft com o conector de RH.|
-   |`csvFilePath`|Este é o caminho do arquivo para o arquivo CSV (armazenado no mesmo sistema que o script) que você criou na etapa 2. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
+   |`tenantId`|A ID da sua organização do Microsoft 365 que você obteve na etapa 1. Você também pode obter a ID do locatário para sua organização na folha **visão geral** no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
+   |`appId` |A ID de aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. |
+   |`appSecret`|O segredo do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso também é usado para autenticação.|
+   |`jobId`|A ID do trabalho do conector de RH que você criou na etapa 3. Isso é usado para associar os dados de RH que são carregados para a nuvem da Microsoft com o conector de RH.|
+   |`csvFilePath`|O caminho do arquivo CSV (armazenado no mesmo sistema que o script) que você criou na etapa 2. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
    |||
    
    Veja um exemplo da sintaxe do script do conector de RH usando valores reais para cada parâmetro:

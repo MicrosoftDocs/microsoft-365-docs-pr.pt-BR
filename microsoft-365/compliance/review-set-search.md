@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como criar e executar uma consulta em uma revisão definida para organizar dados para uma análise mais eficiente em uma ocorrência de descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 871630af4b8b19e5fad1a062129782e36b9706f5
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 508e8e9fdb4a558a998a33aa561dc3755edcc40d
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527431"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816714"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Consultar dados em um conjunto de revisão
 
@@ -30,7 +30,7 @@ Na maioria dos casos, será útil ser capaz de se aprofundar nos dados de um con
 
 ## <a name="creating-and-running-a-query-in-a-review-set"></a>Criando e executando uma consulta em um conjunto de revisão
 
-Para criar e executar uma consulta nos documentos em um conjunto de revisão, clique em **nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, clique em **salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, clique em uma consulta salva.
+Para criar e executar uma consulta nos documentos em um conjunto de revisão, selecione **nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, selecione **salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, selecione uma consulta salva.
 
 ![Analisar consultas de definição](../media/AeDReviewSetQueries.png)
 
@@ -56,9 +56,9 @@ Há vários tipos de cartões de condição:
 
 Além de cartões de condição, você pode usar um idioma de consulta do tipo KQL no cartão de palavras-chave para criar sua consulta. A linguagem de consulta para consultas de conjunto de revisão oferece suporte a operadores booleanos padrão, como **e**, **ou**, e **não**, e **Near**. Também suporta um curinga de caractere único (?) e um curinga de vários caracteres (*).
 
-## <a name="using-filters"></a>Usando filtros
+## <a name="filters"></a>Filtros
 
-Além das consultas que podem ser salvas, você pode usar os filtros de definição de análise para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. Isso ajuda você a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão.
+Além das consultas que podem ser salvas, você pode usar os filtros de definição de análise para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. O uso de filtros ajuda você a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão.
 
 ![Examinar filtros de conjunto](../media/AeDReviewSetFilters.png)
 

@@ -7,22 +7,21 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Saiba mais sobre os métodos para revisar os dados em suas evidências, como exibir em formatos nativos, de texto ou quase nativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f094718bd14ee86ff8fdae482e86c22ecfbdc483
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9df5c1f0fd15cb320e8359d09ab39202700dbc4b
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034605"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816724"
 ---
 # <a name="review-the-data-in-evidence"></a>Revise os dados em evidência
 
@@ -34,7 +33,7 @@ Para agrupar documentos e obter mais assistência para revisão, selecione um co
 
 ## <a name="view-documents-in-evidence"></a>Exibir documentos em evidência
 
-As investigações de dados (visualização) permitem exibir conteúdo em vários visualizadores diferentes, com cada visualizador com uma finalidade diferente. Esses visualizadores são:
+A ferramenta de investigações de dados (visualização) permite que você exiba conteúdo em vários visualizadores diferentes, com cada visualizador com uma finalidade diferente. Esses visualizadores são:
 
 - Metadados de arquivo
 - Modo de exibição nativo
@@ -53,14 +52,14 @@ Veja um exemplo dos metadados de arquivo para um documento. Para obter mais info
 
 ## <a name="native-view"></a>Modo de exibição nativo
 
-O visualizador nativo exibe o modo de exibição mais preciso de um documento no formato nativo. O modo de exibição nativo é suportado para centenas de tipos de arquivo e deve exibir documentos na experiência nativa verdadeiramente mais verdadeira possível. Para arquivos do Microsoft Office, o visualizador nativo usa a versão da Web dos aplicativos do Office. Isso permite que você exiba conteúdo como comentários em diferentes documentos do Office, fórmulas e linhas/colunas ocultas no Excel e o modo de anotações no PowerPoint.
+O visualizador nativo exibe o modo de exibição mais preciso de um documento em seu formato nativo. O modo de exibição nativo é suportado para centenas de tipos de arquivo e deve exibir documentos na experiência nativa verdadeiramente mais verdadeira possível. Para arquivos do Microsoft Office, o visualizador nativo usa a versão da Web dos aplicativos do Office. Isso permite que você exiba conteúdo como comentários em diferentes documentos do Office, fórmulas e linhas/colunas ocultas no Excel e o modo de anotações no PowerPoint.
 
 ![Modo de exibição nativo
 ](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>Exibição de texto
 
-O Visualizador de texto fornece um modo de exibição do texto extraído de um arquivo. Ele ignora todas as imagens e formatação inseridas, mas esse modo de exibição é muito útil se você estiver tentando rapidamente revisar e entender o conteúdo em um documento. O modo de exibição de texto também inclui estes recursos:
+O Visualizador de texto fornece um modo de exibição do texto extraído de um arquivo. Ele ignora todas as imagens e formatação inseridas, mas esse modo de exibição será útil se você estiver tentando revisar e entender rapidamente o conteúdo em um documento. O modo de exibição de texto também inclui estes recursos:
 
   - Um contador de linhas, que facilita a referência a partes específicas de um documento.
 

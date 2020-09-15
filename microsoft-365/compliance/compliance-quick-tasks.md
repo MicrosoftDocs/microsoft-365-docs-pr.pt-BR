@@ -1,5 +1,5 @@
 ---
-title: Tarefas rápidas para introdução à conformidade com o Microsoft 365
+title: Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -12,14 +12,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar a usar rapidamente a conformidade no Microsoft 365.
-ms.openlocfilehash: 26d10840382d044e8126745daec32948571a1be9
-ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
+ms.openlocfilehash: 1702c05b271c0e8b5456c1a93f8bf1dc28f7fbd9
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153684"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816810"
 ---
-# <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas para introdução à conformidade com o Microsoft 365
+# <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 
 Se você é novo na conformidade com a Microsoft 365 e está imaginando onde começar, este artigo fornece orientação sobre as noções básicas e prioriza tarefas de conformidade importantes. Este artigo ajudará você a começar rapidamente a gerenciar e monitorar seus dados, proteger as informações e minimizar os riscos Insider.
 
@@ -87,9 +87,9 @@ Uma [política de retenção](retention.md) permite que você decida de forma pr
 
 Quando o conteúdo está sujeito a uma política de retenção, as pessoas podem continuar a editar e trabalhar com o conteúdo como se nada fosse alterado. O conteúdo é mantido no lugar, em seu local original. Mas, se alguém editar ou excluir o conteúdo que está sujeito à política de retenção, uma cópia do conteúdo original será salva em um local seguro, onde será mantida enquanto a política de retenção desse conteúdo estiver em vigor.
 
-Você pode rapidamente colocar uma política de retenção em vigor para vários locais no seu ambiente do Microsoft 365: Exchange mail and Public Folders, sites do SharePoint, contas do OneDrive e Microsoft 365 grupos. Conhecido como "política de retenção em toda a organização", não há limites para o número de caixas de correio ou sites que a política pode incluir. Mas se você precisar de mais específico, você pode fazer isso Configurando uma política de retenção para locais específicos e, em seguida, incluir ou excluir sites ou usuários.
+Você pode colocar rapidamente uma política de retenção em vigor para vários locais no seu ambiente do Microsoft 365, como o email do Exchange, sites do SharePoint, contas do OneDrive e Microsoft 365 grupos. Não há limites para o número de caixas de correio ou sites que essa política pode incluir automaticamente. Mas se você precisar obter mais seletivamente, você pode fazer isso Configurando uma política de retenção para locais específicos e incluir ou excluir sites ou usuários.
 
-Para obter uma orientação passo a passo para configurar uma política de retenção, consulte [Create and configure Retention Policies](create-retention-policies.md). Para obter informações sobre licenciamento de gerenciamento de registros, consulte [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management).
+Para obter uma orientação passo a passo para configurar uma política de retenção, consulte [Create and configure Retention Policies](create-retention-policies.md). Se você é novo na configuração de retenção no Microsoft 365, consulte [Iniciar com políticas de retenção e rótulos de retenção](get-started-with-retention.md).
 
 ## <a name="task-8-configure-sensitive-information-and-offensive-language-policies"></a>Tarefa 8: configurar informações confidenciais e políticas de linguagem ofensivas
 
@@ -137,13 +137,13 @@ Agora que você configurou as noções básicas para o gerenciamento de conformi
 
 Enquanto as políticas de retenção são aplicadas no nível do contêiner para locais como sites do SharePoint e caixas de correio do Exchange, os [Rótulos de retenção](retention.md#retention-labels) permitem um direcionamento mais específico para suas políticas de retenção e exclusão. Por exemplo, no nível do documento ou da mensagem de email que os usuários finais podem aplicar manualmente, além do aplicativo automático pelos administradores. Você também pode aplicar um rótulo de retenção a uma biblioteca de documentos, pasta ou conjunto de documentos no SharePoint, para que todos os documentos armazenados nesse local herdem o rótulo de retenção padrão.
 
-Além disso, os rótulos de retenção suportam o [Gerenciamento de registros](records-management.md) para marcar o conteúdo como um registro. Quando isso acontece, o rótulo não pode ser alterado nem removido, e o conteúdo não pode ser editado nem excluído. Essas restrições podem ser necessárias para ajudar sua organização a cumprir os requisitos normativos.
+Além disso, os rótulos de retenção suportam o [Gerenciamento de registros](records-management.md) para marcar o conteúdo como um registro. Quando isso acontece, o rótulo coloca restrições adicionais sobre o conteúdo que pode ser necessário para ajudar sua organização a cumprir os requisitos normativos.
 
 Para obter uma orientação passo a passo para criar e publicar rótulos de retenção, consulte as orientações a seguir:
 - [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
 - [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
 
-Para obter informações sobre licenciamento de gerenciamento de registros, consulte [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management).
+Para começar a usar o gerenciamento de registros, confira [introdução ao gerenciamento de registros](get-started-with-records-management.md).
 
 ### <a name="identify-and-define-sensitive-information-types"></a>Identificar e definir tipos de informações confidenciais
 
@@ -151,7 +151,7 @@ Definir tipos de informações confidenciais com base no padrão contido nas inf
 
 Para obter uma orientação passo a passo para definir tipos de informações confidenciais personalizados, consulte [criar um tipo de informação confidencial personalizado no centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type).
 
-### <a name="prevent-data-loss"></a>Evitar a perda de dados
+### <a name="prevent-data-loss"></a>Evita a perda de dados
 
 [As políticas de prevenção contra perda de dados (DLP)](data-loss-prevention-policies.md) permitem identificar, monitorar e proteger automaticamente as informações confidenciais em sua organização do Microsoft 365. Use políticas de DLP para identificar itens confidenciais nos serviços da Microsoft, impedir o compartilhamento acidental de itens confidenciais e ajudar os usuários a aprender a manter a conformidade sem interromper o fluxo de trabalho.
 

@@ -17,13 +17,13 @@ ms.custom:
 search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
-ms.date: 08/12/2020
-ms.openlocfilehash: 78a7082a966a866f18ac2aa378198dbb33d8c158
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.date: 09/15/2020
+ms.openlocfilehash: 81143dfe3794bc4f42bea879905bf08750f498b4
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653696"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816920"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -32,7 +32,7 @@ A compra de autoatendimento oferece aos usuários a oportunidade de experimentar
 A compra de autoatendimento está disponível para a plataforma de alimentação (Power BI, aplicativos de energia e automatização de energia), Project e Visio.
 
 > [!NOTE]
-> A compra de autoatendimento não está disponível na Índia e não está disponível para clientes governamentais ou de educação.
+> A compra de autoatendimento não está disponível na Índia ou para clientes governamentais ou de educação. O Project e o Visio não estão disponíveis para compras de autoatendimento no Brasil e na República Democrática do Congo.
 
 ## <a name="making-a-self-service-purchase"></a>Fazendo uma compra de autoatendimento
 

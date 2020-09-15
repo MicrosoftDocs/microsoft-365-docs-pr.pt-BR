@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Exchange Online no Microsoft 365.
-ms.openlocfilehash: 1cd947f70c57d453b038ac419abccde006f393ae
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a76b02f6345421871c759e1b31bf19207b474e2a
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547449"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816820"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -40,11 +40,9 @@ O Microsoft 365 oferece várias maneiras em que sua organização pode impedir q
 
   Há dois tipos de políticas de retenção da Microsoft 365 que podem ser atribuídos às caixas de correio.
 
-    - **Políticas de retenção de local específico:** Essas são as políticas atribuídas aos locais de conteúdo de usuários específicos. Você usa o cmdlet **Get-Mailbox** no PowerShell do Exchange Online para obter informações sobre políticas de retenção atribuídas a caixas de correio específicas.
+    - **Políticas de retenção de local específico:** Essas são as políticas atribuídas aos locais de conteúdo de usuários específicos. Você usa o cmdlet **Get-Mailbox** no PowerShell do Exchange Online para obter informações sobre políticas de retenção atribuídas a caixas de correio específicas. Para obter mais informações sobre esse tipo de política de retenção, consulte a seção [uma política com inclusões específicas ou exclusões](create-retention-policies.md#a-policy-with-specific-inclusions-or-exclusions) da documentação da política de retenção.
 
-    - **Políticas de retenção em toda a organização:** Essas são as políticas atribuídas a todos os locais de conteúdo em sua organização. Você usa o cmdlet **Get-OrganizationConfig** no PowerShell do Exchange Online para obter informações sobre políticas de retenção em toda a organização.
-    
-  Para obter mais informações, consulte [aplicando uma política de retenção a uma organização inteira ou a uma seção locais específicos](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) .
+    - **Políticas de retenção em toda a organização:** Essas são as políticas atribuídas a todos os locais de conteúdo em sua organização. Você usa o cmdlet **Get-OrganizationConfig** no PowerShell do Exchange Online para obter informações sobre políticas de retenção em toda a organização. Para obter mais informações sobre esse tipo de política de retenção, consulte a seção [uma política que se aplica a locais inteiros](create-retention-policies.md#a-policy-that-applies-to-entire-locations) na documentação da política de retenção.
 
 - **[Rótulos de retenção do microsoft 365](retention.md):** se um usuário aplica um rótulo de retenção do Microsoft 365 (um que esteja configurado para reter conteúdo ou reter e excluir conteúdo) em *qualquer* pasta ou item na caixa de correio, uma retenção é colocada na caixa de correio como se a caixa de correio fosse colocada em retenção de litígio ou atribuída a uma política de retenção do Microsoft 365. Para obter mais informações, consulte o artigo [identificando caixas de correio em espera porque um rótulo de retenção foi aplicado a uma seção de pasta ou item](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) neste artigo.
 

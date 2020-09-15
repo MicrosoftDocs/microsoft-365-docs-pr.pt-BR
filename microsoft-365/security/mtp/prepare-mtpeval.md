@@ -1,7 +1,7 @@
 ---
 title: Preparar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
-description: Preparar o desligamento de pessoas, cronogramas, considerações de ambiente e ordem de adoção ao configurar seu ambiente de laboratório de avaliação do Microsoft Threat Protection
-keywords: MTP Trial Prep, implantar, preparar, acionista, linha do tempo, ambiente, ponto de extremidade, servidor, gerenciamento, adoção
+description: Preparar o desligamento de pessoas, cronogramas, considerações de ambiente e ordem de adoção ao configurar seu laboratório de avaliação do Microsoft Threat Protection ou ambiente piloto
+keywords: Versão de avaliação de MTP, preparação piloto de MTP, Prep para executar um projeto piloto do MTP, executar um projeto do MTP do piloto, implantar, preparar, acionista, linha do tempo, ambiente, ponto de extremidade, servidor, gerenciamento, adoção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: w10
@@ -15,31 +15,31 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ad2f34fbb94cafd22976c6ff7c75cdd254e913e3
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: a684f49ab8c70a19a17ff43195197677bccbf95b
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650088"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816764"
 ---
-# <a name="prepare-your-microsoft-threat-protection-trial-lab-environment"></a>Preparar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
+# <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-Criar um ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft e implantá-lo é um processo de três fases:
+A criação de um laboratório de avaliação de proteção contra ameaças da Microsoft ou ambiente piloto e sua implantação é um processo de três fases:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Preparar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto" />
       <br/>Fase 1: preparar </a><br>
     </td>
      <td align="center"  >
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Configurar seu ambiente de laboratório de avaliação do Microsoft Threat Protection" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Configurar seu laboratório de avaliação do Microsoft Threat Protection ou ambiente piloto" />
       <br/>Fase 2: configuração </a><br>
         </td>
     <td align="center">
@@ -64,13 +64,13 @@ Criar um ambiente de laboratório de avaliação de proteção contra ameaças d
 Você está atualmente na fase de preparação.
 
 
-A preparação é fundamental para qualquer implantação bem-sucedida. Esta seção orientará você sobre o que você precisa considerar ao se preparar para criar um ambiente de laboratório de avaliação para sua implantação do Microsoft Threat Protection.
+A preparação é fundamental para qualquer implantação bem-sucedida. Esta seção orientará você sobre o que você precisa considerar ao se preparar para criar um laboratório de avaliação ou ambiente piloto para sua implantação do Microsoft Threat Protection.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Saiba mais sobre os requisitos de licenciamento, hardware e software e outras definições de configuração para provisionar e usar a proteção contra ameaças da Microsoft. Confira os requisitos mínimos para a [proteção contra ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?view=o365-worldwide), [Microsoft defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [Microsoft Cloud app Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Participantes e aprovação
-A seção a seguir serve para identificar todos os participantes envolvidos no projeto e que talvez precisem ser desligados, revisados ou permaneçam informados, mesmo para uma avaliação ou prova de conceito de execução seca.
+A seção a seguir serve para identificar todos os participantes que estão envolvidos no projeto e que talvez precisem ser desligados, revisados ou permaneçam informados, seja para avaliação ou executando um piloto.
 
 >[!NOTE]
 >Nem todas as organizações podem ter a maturidade da organização de segurança para ter essas funções. Nesse caso, consulte sua equipe de liderança no responsabilidades de revisão e aprovação.
@@ -92,7 +92,7 @@ Adicione participantes à tabela abaixo, conforme apropriado para sua organizaç
 | Insira o nome e o email | **Analista de segurança** *um representante da equipe do CDOC que pode fornecer informações sobre os recursos de detecção, a experiência do usuário e a utilidade geral dessa alteração de uma perspectiva de operações de segurança.* | I      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Preparar o Azure Active Directory
-Pule esta etapa se você já tiver habilitado a sincronização entre o Active Directory e o Active Directory do Azure no local. Analise a documentação de práticas recomendadas existentes no Azure Active Directory. As etapas a seguir são otimizadas para avaliar a proteção contra ameaças da Microsoft.
+Pule esta etapa se você já tiver habilitado a sincronização entre o Active Directory e o Active Directory do Azure no local. Analise a documentação de práticas recomendadas existentes no Azure Active Directory. As etapas a seguir são otimizadas para avaliar ou executar um projeto piloto de proteção contra ameaças da Microsoft.
 
 1. Vá para o portal [do Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) > **Azure ad Connect**. 
 ![Imagem da página do portal do Azure Active Directory](../../media/mtp-eval-1.png) <br> 
@@ -122,7 +122,7 @@ Agora você pode [Adicionar usuários e grupos ao Active Directory](https://docs
 
 
 ## <a name="configuration-order"></a>Ordem de configuração
-A tabela abaixo indica a ordem que a Microsoft recomenda para configurar os componentes de proteção contra ameaças da Microsoft para sua implantação de ambiente de laboratório de avaliação.
+A tabela a seguir indica a ordem que a Microsoft recomenda para configurar os componentes de proteção contra ameaças da Microsoft para sua implantação de laboratório de avaliação ou de ambiente piloto.
 
 | Componente                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Classificação da ordem de configuração |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
@@ -132,5 +132,5 @@ A tabela abaixo indica a ordem que a Microsoft recomenda para configurar os comp
 |Proteção avançada contra ameaças do Microsoft Defender | Os recursos de detecção e resposta de ponto de extremidade da ATP do Microsoft Defender fornecem detecções avançadas de ataques quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Próxima etapa
-![Fase 2: configuração](../../media/setup.png) <br>[Fase 2: configuração](setup-mtpeval.md)<br> Configurar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
+![Fase 2: configuração](../../media/setup.png) <br>[Fase 2: configuração](setup-mtpeval.md)<br> Configurar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto
 

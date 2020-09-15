@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 78832d74a7d61577e5ec49c290e19bdec758a0b3
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: a8eaeda3bc883de55a2c588e39557b4517ae3cc5
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289246"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817156"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-preview"></a>Configurar um conector para importar dados de RH (visualização)
 
-Você pode configurar um conector de dados no centro de conformidade da Microsoft 365 para importar dados de recursos humanos (RH) relacionados a eventos, como a desistência de um usuário ou uma alteração no nível de trabalho de um usuário. Esses dados de RH podem ser usados pela [solução de gerenciamento de risco do insider](insider-risk-management.md) para gerar indicadores de risco que podem ajudá-lo a identificar possíveis atividades mal-intencionadas ou roubo de dados por usuários dentro da sua organização.
+Você pode configurar um conector de dados no centro de conformidade da Microsoft 365 para importar dados de recursos humanos (RH) relacionados a eventos, como a desistência de um usuário ou uma alteração no nível de trabalho de um usuário. Os dados de RH podem ser usados pela [solução de gerenciamento de risco do insider](insider-risk-management.md) para gerar indicadores de risco que podem ajudá-lo a identificar possíveis atividades mal-intencionadas ou roubo de dados por usuários dentro da sua organização.
 
 Configurar um conector para dados de RH que as políticas de gerenciamento de risco do insider podem usar para gerar indicadores de risco consistem em criar um arquivo CSV que contenha os dados de RH, criar um aplicativo no Azure Active Directory que é usado para autenticação, criar um conector de dados de RH no centro de conformidade do Microsoft 365 e, em seguida, executar um script (de acordo com uma base agendada) que absorve os dados de RH em arquivos CSV para a nuvem da Microsoft, para que ele esteja disponível para o Insider solução de gerenciamento de risco.
 
@@ -91,8 +91,8 @@ A tabela a seguir descreve cada coluna no arquivo CSV para dados de demissão de
 | **Coluna**  |  **Descrição**|
 |:------------|:----------------|
 |**EmailAddress**| Especifica o endereço de email (UPN) do usuário terminado.|
-| **ResignationDate** | Especifica a data em que o emprego do usuário foi oficialmente demitido em sua organização. Por exemplo, essa pode ser a data em que o usuário deu o aviso de sair da sua organização. Essa data pode ser diferente da data do último dia de trabalho da pessoa. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
-| **LastWorkingDate** | Especifica o último dia de trabalho para o usuário demitido. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+| **ResignationDate** | Especifica a data em que o emprego do usuário foi oficialmente demitido em sua organização. Por exemplo, essa pode ser a data em que o usuário deu o aviso de sair da sua organização. Essa data pode ser diferente da data do último dia de trabalho da pessoa. Use o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+| **LastWorkingDate** | Especifica o último dia de trabalho para o usuário demitido. Use o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 |||
 
 ### <a name="csv-file-for-job-level-changes-data"></a>Arquivo CSV para dados de alterações de nível de trabalho
@@ -110,10 +110,10 @@ A tabela a seguir descreve cada coluna no arquivo CSV para dados de alterações
 | **Coluna**|**Descrição**|
 |:--------- |:------------- |
 | **EmailAddress**  | Especifica o endereço de email do usuário (UPN).|
-| **EffectiveDate** | Especifica a data em que o nível de trabalho do usuário foi oficialmente alterado. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
-| **Comentários**| Especifica o comentários que o avaliador forneceu sobre a alteração do nível de trabalho. Este é um parâmetro de texto com um limite de 200 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
-| **OldLevel**| Especifica o nível de trabalho do usuário antes de ser alterado. Este é um parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
-| **NewLevel**| Especifica o nível de trabalho do usuário após sua alteração. Este é um parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **EffectiveDate** | Especifica a data em que o nível de trabalho do usuário foi oficialmente alterado. Use o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+| **Comentários**| Especifica o comentários que o avaliador forneceu sobre a alteração do nível de trabalho. Você pode inserir um limite de 200 caracteres. Esse parâmetro é opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **OldLevel**| Especifica o nível de trabalho do usuário antes de ser alterado. Este é um parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse parâmetro é opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **NewLevel**| Especifica o nível de trabalho do usuário após sua alteração. Este é um parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse parâmetro é opcional. Você não precisa incluí-lo no arquivo CSV.|
 |||
 
 ### <a name="csv-file-for-performance-review-data"></a>Arquivo CSV para dados de avaliação de desempenho
@@ -131,9 +131,9 @@ A tabela a seguir descreve cada coluna no arquivo CSV para dados de revisão de 
 | **Coluna**|**Descrição**|
 |:----------|:--------------|
 | **EmailAddress**  | Especifica o endereço de email do usuário (UPN).|
-| **EffectiveDate** | Especifica a data em que o usuário foi oficialmente informado sobre o resultado de sua avaliação de desempenho. Esta pode ser a data em que o ciclo de revisão de desempenho terminou. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
-| **Comentários**| Especifica qualquer comentários que o avaliador forneceu ao usuário para a avaliação de desempenho. Este é um parâmetro de texto com um limite de 200 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
-| **Classificação**| Especifica a classificação fornecida para a revisão de desempenho. Este é um parâmetro de texto e pode conter qualquer texto de forma livre que sua organização usa para reconhecer a avaliação. Por exemplo, "3 expectativas atendidas" ou "2 abaixo da média". Este é um parâmetro de texto com um limite de 25 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **EffectiveDate** | Especifica a data em que o usuário foi oficialmente informado sobre o resultado de sua avaliação de desempenho. Esta pode ser a data em que o ciclo de revisão de desempenho terminou. Use o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+| **Comentários**| Especifica qualquer comentários que o avaliador forneceu ao usuário para a avaliação de desempenho. Este é um parâmetro de texto com um limite de 200 caracteres. Esse parâmetro é opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **Classificação**| Especifica a classificação fornecida para a revisão de desempenho. Este é um parâmetro de texto e pode conter qualquer texto de forma livre que sua organização usa para reconhecer a avaliação. Por exemplo, "3 expectativas atendidas" ou "2 abaixo da média". Este é um parâmetro de texto com um limite de 25 caracteres. Esse parâmetro é opcional. Você não precisa incluí-lo no arquivo CSV.|
 |||
 
 ### <a name="csv-file-for-performance-improvement-plan-data"></a>Arquivo CSV para dados do plano de melhoria de desempenho
