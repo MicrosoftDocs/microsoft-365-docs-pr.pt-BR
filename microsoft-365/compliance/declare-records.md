@@ -17,22 +17,22 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Declarar registros usando rótulos de retenção. '
-ms.openlocfilehash: d637817e8d1bcc8c72bfe011dfd288ac4e2d0298
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 841c5197addff704016e344ba7ae44355c872f72
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778511"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817094"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Declarar registros usando rótulos de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Para declarar itens como um registro, use [rótulos de retenção](retention.md#retention-labels) que marquem o conteúdo como um registro. É possível publicar esses rótulos para que usuários e administradores possam aplicá-los manualmente ou automaticamente ao conteúdo que você deseja classificar como registro.
+Para declarar documentos e emails como um registro, use [rótulos de retenção](retention.md#retention-labels) que identificam itens como registros. É possível publicar esses rótulos para que usuários e administradores possam aplicá-los manualmente ou automaticamente ao conteúdo que você deseja classificar como registro.
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>Configurar rótulos de retenção para declarar registros
 
-Quando você cria ou configura um rótulo de retenção, selecione a opção para marcar o conteúdo como um registro.
+Quando você criar ou configurar um rótulo de retenção, selecione a opção para marcar os itens como registros.
 
 >[!NOTE] 
 > A opção de marcar o conteúdo como registro não está disponível quando você cria ou configura rótulos de retenção da **Governança de Informações** no Centro de conformidade do Microsoft 365. Em vez disso, você deve usar o **Gerenciamento de Registros**.
@@ -41,9 +41,9 @@ Para criar um novo rótulo de retenção que marque o conteúdo como um registro
 
 1. No [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para **Gerenciamento de Registros** \> **Plano de Arquivo**. Na página **Planejamento de arquivos**, clique em **Criar um rótulo**.
 
-2. Na página **Configurações de rótulo** no assistente, escolha a opção para classificar o conteúdo como registro.
+2. Na página **Definir configurações de retenção** no assistente, escolha a opção para marcar itens como registros:
     
-   ![Clique em Usar rótulo para classificar o conteúdo como uma caixa de seleção de Registro](../media/recordversioning6.png)
+   ![Selecione a configuração de retenção para marcar os itens como um registro](../media/recordversioning6.png)
 
 3. Aplique o rótulo de retenção aos documentos do SharePoint ou OneDrive e emails do Exchange, conforme necessário. Para obter instruções:
     

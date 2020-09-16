@@ -20,20 +20,20 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Normalmente parte de uma solução de gerenciamento de registros, em que você pode configurar um rótulo de retenção para iniciar o período de retenção com base em um evento identificado.
-ms.openlocfilehash: 7286e65be2313f5716bfc59399c1755cadb9f6d6
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 1572995909f370c5c3a544cb3f85e20c35629f88
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778521"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816864"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Iniciar a retenção quando um evento ocorrer
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Quando você retém o conteúdo, o período de retenção normalmente é baseado na idade desse conteúdo. Por exemplo, você pode reter documentos por sete anos após terem sido criados e excluí-los após esse prazo. Porém, se você configurar os [rótulos de retenção](labels.md), poderá também basear um período de retenção no momento em que um tipo específico de evento ocorre. O evento desencadeia o início do período de retenção e as ações de retenção do rótulo passam a ser aplicadas a todo o conteúdo que tiver esse rótulo de retenção.
+Quando você retém o conteúdo, o período de retenção normalmente é baseado na idade desse conteúdo. Por exemplo, você pode reter documentos por sete anos após terem sido criados e excluí-los após esse prazo. Porém, se você configurar os [rótulos de retenção](retention.md#retention-labels), poderá também basear um período de retenção no momento em que um tipo específico de evento ocorre. O evento desencadeia o início do período de retenção e as ações de retenção do rótulo passam a ser aplicadas a todo o conteúdo que tiver esse rótulo de retenção.
   
-Exemplos de uso da retenção impulsionada por eventos:
+Exemplos de uso da retenção baseada por eventos:
   
 - **Funcionários que estão saindo da organização** Suponha que os registros de funcionários devam ser retidos por 10 anos após a data em que o funcionário saiu da organização. Decorrido o prazo de 10 anos, todos os documentos relacionados à contratação, desempenho e demissão desse funcionário precisam ser descartados. O evento que desencadeia o período de retenção de 10 anos é a saída do funcionário da organização. 
     
@@ -41,24 +41,24 @@ Exemplos de uso da retenção impulsionada por eventos:
     
 - **Vida útil do produto** Talvez sua organização tenha exigências de retenção relacionadas à última data de produção de produtos para determinados conteúdos, como especificações técnicas. Nesse caso, a última data de produção é o evento que dispara o período de retenção. 
     
-Normalmente, a retenção controlada por eventos é usada como parte de um processo de gerenciamento de registros. Isso significa que:
+A retenção baseada em eventos geralmente é usada como parte de um processo de gerenciamento de registros. Isso significa que:
   
 - Os rótulos com base em eventos geralmente classificam o conteúdo como um registro, como parte de uma solução de gerenciamento de registros. Para obter mais informações, confira o artigo [Saiba mais sobre registros](records-management.md).
 
-- Um documento classificado como registro cujo evento desencadeador ainda não ocorreu é retido por prazo indeterminado (os registros não podem ser excluídos permanentemente), até que um evento desencadeie seu período de retenção.
+- Um documento declarado como um registro, mas cujo gatilho de evento ainda não aconteceu, é retido indefinidamente (registros não podem ser excluídos permanentemente), até que um evento dispare o período de retenção desse documento.
     
 - Os rótulos de retenção baseados em eventos costumam desencadear uma análise de descarte no final do período de retenção, de modo que um gerente de registros possa analisar e descartar o conteúdo manualmente. Para obter mais informações, confira o artigo [Disposição e descarte de conteúdo](disposition.md).
     
 
-Um rótulo com base em um evento tem os mesmos recursos que qualquer rótulo no Microsoft 365. Para obter mais informações, consulte [Saiba mais sobre políticas e rótulos de retenção](retention.md).
+Os recursos dos rótulos de retenção baseados em um evento são os mesmos que os de quaisquer outros rótulos de retenção do Microsoft 365. Para obter mais informações, consulte [saiba mais sobre políticas e rótulos de retenção](retention.md).
 
 ## <a name="understanding-the-relationship-between-event-types-labels-events-and-asset-ids"></a>Compreender a relação entre tipos de eventos, rótulos, eventos e IDs de ativos
 
-Para usar a retenção controlada por eventos com êxito, é importante compreender a relação entre tipos de evento, rótulos, eventos e IDs de ativo, conforme ilustrado nos diagramas e explicações a seguir: 
+Para usar a retenção controlada por eventos com êxito, é importante compreender a relação entre tipos de evento, rótulos de retenção, eventos e IDs de ativo, conforme ilustrado nos diagramas e explicações a seguir: 
   
-![Diagrama de tipo de evento, rótulos, eventos e IDs de ativos](../media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
+![Diagrama 1 de 2: Tipo de evento, rótulos, eventos e IDs de ativos](../media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
   
-![Diagrama de tipo de evento, rótulos, eventos e IDs de ativos](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
+![Diagrama 2 de 2: Tipo de evento, rótulos, eventos e IDs de ativos](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
   
 1. Você cria rótulos de retenção para diferentes tipos de conteúdo e depois os associa a um tipo de evento. Por exemplo, os rótulos de retenção para diferentes tipos de arquivos e registros de produtos são associados a um tipo de evento denominado Vida útil do produto, pois esses registros devem ser retidos por 10 anos a partir do momento em que o produto atinge o final de sua vida útil.
     
@@ -74,7 +74,7 @@ Para usar a retenção controlada por eventos com êxito, é importante compreen
 
 4. Depois de criar um evento, a data dele é sincronizada com todo o conteúdo que tem um rótulo desse tipo de evento e que contém a ID ou palavra-chave especificada do ativo. Como ocorre com qualquer rótulo de retenção, essa sincronização poderá demorar até sete dias. No diagrama anterior, todos os itens marcados com um círculo vermelho têm o período de retenção desencadeado por esse evento. Em outras palavras, quando esse produto chega ao fim da vida útil, esse evento ativa o período de retenção dos registros desse produto.
 
-É importante entender que se você não especificar uma ID de ativos ou palavras-chave para um evento, **todo o conteúdo** com um rótulo desse tipo de evento terá um período de retenção desencadeado pelo evento. Isso significa que, no diagrama anterior, todo o conteúdo começaria a ser retido. Isso pode não ser o que você pretende. 
+É importante entender que, se você não especificar uma ID de ativo ou palavras-chave para um evento, **todo o conteúdo** com um rótulo de retenção desse tipo de evento terá um período de retenção ativado pelo evento. Isso significa que, no diagrama anterior, todo o conteúdo começaria a ser retido. Isso pode não ser o que você pretende.
 
 Por fim, lembre-se de que cada rótulo de retenção tem suas próprias configurações de retenção. Neste exemplo, todos eles especificam dez anos, mas é possível que um evento ative rótulos de retenção onde cada rótulo tem um período de retenção diferente.
   
@@ -89,46 +89,39 @@ Aqui está o fluxo de trabalho de alto nível para a retenção controlada por e
 
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>Etapa 1: criar um rótulo cujo período de retenção seja baseado em um evento
 
-Para criar e configurar seu rótulo de retenção, use as instruções do artigo [Criar e configurar os rótulos de retenção](create-retention-labels.md#create-and-configure-retention-labels). Ao ativar a retenção, escolha a opção de reter ou excluir o conteúdo com base em um evento. Essa opção significa que as configurações de retenção somente entrarão em vigor quando você chegar à Etapa 5, em que um evento será criado na página **Eventos**. 
-  
-De modo geral, a retenção impulsionada por eventos é utilizada para conteúdos que são classificados como registros. Aproveite essa oportunidade e verifique se você também precisa selecionar a opção de marcar um conteúdo como um registro.
-  
+Para criar e configurar seu rótulo de retenção, use as instruções de [Criar e configurar os rótulos de retenção](create-retention-labels.md#create-and-configure-retention-labels). Mas especificamente para a retenção baseada em eventos, na página **Definir as configurações de retenção** do assistente Criar etiqueta de retenção, depois de **Iniciar o período de retenção com base em**, selecione um dos tipos de eventos padrão na lista suspensa ou crie o seu próprio selecionando **Criar novo tipo de evento**:
+
+![Criar um novo tipo de evento para um rótulo de retenção](../media/SPRetention6.png)
+
+Um tipo de evento é uma descrição geral de um evento que você quer associar a um rótulo.
+
+Os tipos de evento padrão têm o **(tipo de evento)** depois do nome na lista suspensa, para facilitar a identificação, além disso, você também pode ver e criar o tipo de evento na aba **Gerenciamento de registros** > ** Eventos** > **Gerenciar tipos de eventos**.
+
 A retenção impulsionada por eventos requer configurações de retenção que:
   
 - Retêm o conteúdo.
     
 - Excluem o conteúdo automaticamente, ou acionam uma revisão de disposição ao final do período de retenção.
-    
-![Opção para basear um rótulo em um evento](../media/a4902281-5196-4194-9737-f30231d95861.png)
-
-### <a name="step-2-choose-an-event-type-for-that-label"></a>Etapa 2: Escolher um tipo de evento para esse rótulo
-
-Nas configurações do rótulo, depois de escolher a opção de basear o rótulo em um **evento** você verá a opção **Escolher um tipo de evento**. Um tipo de evento é uma descrição geral de um evento que você quer associar a um rótulo.
   
-Por exemplo, se você criar um tipo de evento chamado Vida útil do produto, criará os rótulos baseados em eventos com nomes que descrevem a quais tipos de conteúdo você deseja aplicar os rótulos, como "Arquivos de desenvolvimento de produto" ou "Registros de decisões comerciais sobre o produto".
+A retenção baseada em eventos geralmente é usada para o conteúdo declarado como um registro, portanto, esse é um bom momento para verificar se você também precisa selecionar a opção que marca o conteúdo como um [registro](records-management.md#records).
 
-Selecione um dos tipos de eventos internos ou crie o seu próprio e selecione-o.
+Se você estiver usando um tipo de evento existente, em vez de criar um novo tipo de evento, vá para a etapa 3.
 
-Após escolher um tipo de evento e salvar o rótulo de retenção, o tipo de evento não poderá mais ser alterado.
-  
-![Opções para criar ou escolher um tipo de evento](../media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
+> [!NOTE]
+> Após escolher um tipo de evento e salvar o rótulo de retenção, o tipo de evento não poderá mais ser alterado.
+
+### <a name="step-2-create-a-new-event-type-for-your-label"></a>Etapa 2: Criar um novo tipo de evento para um rótulo de retenção
+
+Para as configurações de retenção, se você tiver selecionado **Criar novo tipo de evento**, insira um nome e uma descrição para o seu tipo de evento. Em seguida, selecione **Próximo**, **Enviar**, e **Concluído**.
+
+De volta à página **Definir configurações de retenção**, para **Iniciar o período de retenção com base em**, use a lista suspensa para selecionar o tipo de evento que você criou.
+
   
 ### <a name="step-3-publish-or-auto-apply-the-event-based-retention-labels"></a>Etapa 3: publicar ou aplicar automaticamente os rótulos de retenção com base em eventos
 
 Assim como qualquer rótulo, você precisa publicar ou aplicar automaticamente um rótulo com base em eventos, para que ele seja aplicado manual ou automaticamente ao conteúdo:
 - [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
 - [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
-
-
-> [!NOTE]
-> Se você selecionar um rótulo de retenção voltada para a aba **Plano de Arquivo** > **de Gerenciamento de Arquivos** ou **Rótulos de Dados de Governança** > ****, o botão **aplicar rótulo automaticamente** não estará disponível.
-> 
-> Em vez disso, use a **Aplicar um rótulo automaticamente**, acima da lista de rótulos ou políticas, de um dos seguintes locais:
-> - Aba de políticas de**Gerenciamento de registros** > **de Rótulo **
-> - Aba de Rótulos de**Governança de dados ** > **** ou aba de **políticas**
-
-
-![Opções para publicar ou aplicar automaticamente um rótulo](..\media\compliance-information-governance-publish-labels.png)
 
 ### <a name="step-4-enter-an-asset-id"></a>Etapa 4: Inserir uma ID de ativo
 
@@ -146,14 +139,19 @@ A ID de Ativo é, simplesmente, mais uma propriedade do documento que está disp
   
 ### <a name="step-5-create-an-event"></a>Etapa 5: Criar um evento
 
-Quando uma instância específica desse tipo de evento ocorre — como, por exemplo, o fim da vida útil de um produto — vá para a página **Eventos de gerenciamento** > **de registros** no centro de conformidade do Microsoft 365 e crie um evento. Você precisa desencadear um evento por meio de sua criação.
-  
+Quando uma instância específica desse tipo de evento ocorre — como, por exemplo, o fim da vida útil de um produto — vá para a página **Eventos de gerenciamento** > **de registros** no Centro de conformidade do Microsoft 365 e selecion **+ Criar** para criar um evento. Para acionar o evento, crie-o aqui.
+
+![Criar um evento para disparar o início da retenção de rótulos de retenção com base em eventos](../media/create-event-records-management.png)
+
+
 ### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Etapa 6: Escolher o mesmo tipo de evento usado pelo rótulo na Etapa 2
 
-Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo de retenção na Etapa 2 — por exemplo, a Vida Útil do Produto. Somente o conteúdo com os rótulos de retenção aplicados a esse tipo de evento terá o período de retenção ativado.
-  
-![Opção em Configurações de evento para escolher um tipo de evento](../media/11663591-5628-419e-9537-61eb8f5c741f.png)
-  
+Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo de retenção na Etapa 2. Por exemplo, se você selecionou **Vida útil do produto** como seu tipo de evento para as configurações de rótulo, selecione **Vida útil do produto** quando criar o evento. Somente o conteúdo com os rótulos de retenção aplicados a esse tipo de evento terá o período de retenção ativado.
+
+![Opção em Configurações de evento para escolher um tipo de evento](../media/choose-event-type-records-management.png)
+
+Como alternativa, se você precisar criar um evento para vários rótulos de retenção com diferentes tipos de evento, marque a opção **Escolher Rótulos Existentes**. Em seguida, selecione os rótulos que estão configurados para os tipos de eventos que você deseja associar a esse evento.
+
 ### <a name="step-7-enter-keywords-or-an-asset-id"></a>Etapa 7: Inserir palavras-chave ou IDs de ativo
 
 Agora você restringe o escopo do conteúdo especificando IDs de ativos para o conteúdo do SharePoint e OneDrive ou palavras-chave para o conteúdo do Exchange. Para IDs de ativos, a retenção será aplicada apenas no conteúdo com o par especificado *propriedade:valor*. Se uma ID de ativos não for inserida, todo o conteúdo com rótulos desse tipo de evento obtém a mesma data de retenção aplicada a ele.
@@ -181,13 +179,7 @@ Após a atribuição dos rótulos de retenção ao conteúdo, você pode usar a 
 - Para localizar todo o conteúdo com uma ID de ativo específica, digite a propriedade **ComplianceAssetID** e um valor, usando o formato `ComplianceAssetID:<value>`. 
     
 Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
-  
-## <a name="permissions"></a>Permissões
 
-Para acessar a página **Eventos**, os revisores devem ser membros de um grupo com a função **Gerenciamento de disposição** e a função **Logs de auditoria somente para exibição**. Recomendamos criar um novo grupo de funções denominado Revisores de disposição, adicionar essas duas funções a esse grupo e incluir membros ao grupo de funções. 
-  
-Para saber mais, consulte [Dar aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
-  
 ## <a name="automate-events-by-using-powershell"></a>Automatizar eventos usando o PowerShell
 
 É possível usar um script do PowerShell para automatizar a retenção baseada em eventos a partir de aplicativos da sua empresa. Os cmdlets do PowerShell disponíveis para retenção baseada em eventos:
