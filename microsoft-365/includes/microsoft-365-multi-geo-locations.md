@@ -1,5 +1,5 @@
 
-|**Localização geográfica**             |**Código**|**Localização dos dados de descoberta eletrônica**      |
+|  Localização geográfica               |  Código  |  Localização dos dados de descoberta eletrônica        |
 |:----------------------------|:-------|:---------------------------------|
 |Ásia – Pacífico                 |APC     |Datacenters no sudeste ou leste da Ásia|
 |Austrália                    |AUS     |Datacenters no sudeste ou leste da Ásia|

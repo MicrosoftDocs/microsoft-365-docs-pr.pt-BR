@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 92d5d2840963ae00ae0f03e3359f287371f770ee
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 9e92a0328d2e7fb9cfe7461241dd866081926876
+ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650132"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47825369"
 ---
 # <a name="advanced-hunting-apis"></a>APIs de busca avançada
 
@@ -37,8 +37,10 @@ ms.locfileid: "47650132"
 ## <a name="limitations"></a>Limitações
 1. Você só pode executar uma consulta nos dados dos últimos 30 dias.
 2. Os resultados incluirão um máximo de 100.000 linhas.
-3. O número de execuções é limitado por locatário: até 15 chamadas por minuto, 15 minutos de tempo de execução a cada hora e 4 horas de tempo de execução por dia.
+3. O número de execuções é limitado por locatário: até 10 chamadas por minuto, 10 minutos de tempo de execução a cada hora e 4 horas de tempo de execução por dia.
 4. O tempo máximo de execução de uma única solicitação é de 10 minutos.
+5. 429 a resposta representará um limite de cota de alcance por número de solicitações ou por CPU. O corpo da resposta 429 também indicará o tempo até que a cota seja renovada. 
+
 
 ## <a name="permissions"></a>Permissões
 Uma das seguintes permissões é necessária para chamar esta API. Para saber mais, incluindo como escolher permissões, confira [acessar as APIs de proteção contra ameaças da Microsoft](api-access.md)
