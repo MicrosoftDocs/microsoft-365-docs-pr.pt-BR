@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: bf449c15378226ffb0dd28a55903cbef35d32944
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
+ms.openlocfilehash: b992452cffbe7fa2df5e7ad02726ca337fbe0f45
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546912"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816832"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -32,7 +32,7 @@ Use uma política de retenção para decidir proativamente se deseja reter o con
 
 Uma política de retenção permite que você faça isso com muita eficiência, atribuindo as mesmas configurações de retenção para o conteúdo por local, no nível do site ou da caixa de correio. Se você não tiver certeza se deseja usar uma política ou um rótulo de retenção, confira [Políticas de retenção e os rótulos de retenção](retention.md#retention-policies-and-retention-labels).
 
-Para saber mais sobre o funcionamento das políticas de retenção, confira [Saiba mais sobre retenção](retention.md).
+Para saber mais sobre o funcionamento das políticas de retenção, confira [Saiba mais sobre políticas e rótulos de retenção](retention.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -61,20 +61,18 @@ Quando você tem mais de uma política de retenção, e quando você também usa
 
 1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção**.
 
-2. Selecione **Nova política de retenção** para criar uma nova política de retenção.
+2. Selecione **Nova política de retenção** para iniciar o assistente Criar política de retenção, e a nomeie.
 
-3. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo. 
-    
-    Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
-    
-    Não selecionar **Usar as configurações avançadas de retenção** porque essa opção não tem suporte para os locais do Teams. 
-
-4. Na página **Escolher locais**, clique em **Escolher locais específicos**. Em seguida, ative um ou ambos os locais para o Teams: **Mensagens de canal do Teams** e **chat do Teams**.
+3. Para a página **Escolher locais para aplicar a política**, selecione um ou ambos os locais para o Teams: **Mensagem de canal do Teams** e **chats do Teams**.
      
     Para as **Mensagens de canal do Teams**, estão incluídas mensagens de canais padrão, mas não de [canais privados](https://docs.microsoft.com/microsoftteams/private-channels). No momento, canais privados não são suportados pelas políticas de retenção.
     
-    Por padrão, todas as equipes são selecionadas, mas você pode refiná-la especificando as equipes a serem incluídas ou a serem excluídas.
+    Por padrão, [todas as equipes e usuários são selecionados](#a-policy-that-applies-to-entire-locations), mas você pode filtrar isso selecionando as opções de [**Escolha** e **Exclusão**](#a-policy-with-specific-inclusions-or-exclusions).
 
+4. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo.
+    
+    Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
+    
 5. Conclua o assistente para salvar suas configurações.
 
 Para mais informações sobre as políticas de retenção para o Teams, confira [Políticas de retenção no Microsoft Teams](https://docs.microsoft.com/microsoftteams/retention-policies) da documentação do Teams.
@@ -99,23 +97,19 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
 
 1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção**.
 
-2. Selecione **Nova política de retenção** para criar uma nova política de retenção.
+2. Selecione **Nova política de retenção** para iniciar o assistente Criar política de retenção, e a nomeie.
 
-3. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo. 
-    
-    Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
-    
-    Em seguida, decida se a política de retenção deve ser aplicada a todo o conteúdo ou ao conteúdo que atenda a condições específicas. Para saber mais sobre essas configurações avançadas de retenção, confira [Configurações avançadas para identificar conteúdo que atenda a condições específicas ](#advanced-settings-to-identify-content-that-meets-specific-conditions) nesta página. 
-
-4. Na página **Escolher locais**, selecione se a política de retenção deve ser aplicada a todos os locais suportados em sua organização ou se você deseja especificar os locais. Se você optar por locais específicos, também pode especificar inclusões e exclusões. 
-    
-    Para obter mais informações sobre como escolher entre uma política de retenção para a organização ou para locais específicos, confira [ Aplicar uma política de retenção a uma organização inteira ou locais específicos](#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) nesta página.
+3. Para a página **Escolha locais**, ative ou desative qualquer uma das localizações, exceto os locais para o Teams. Para cada local, você pode deixá-lo no padrão para [Aplicar a política em todo local](#a-policy-that-applies-to-entire-locations) ou [Especificar inclusões e exclusões](#a-policy-with-specific-inclusions-or-exclusions). 
     
     Informações específicas para locais:
     - [Email do Exchange e pastas públicas do Exchange](#configuration-information-for-exchange-email-and-exchange-public-folders)
     - [Sites do SharePoint e contas do OneDrive](#configuration-information-for-sharepoint-sites-and-onedrive-accounts)
     - [Grupos do Office 365](#configuration-information-for-microsoft-365-groups)
     - [Skype for Business](#configuration-information-for-skype-for-business)
+
+4. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo.
+    
+    Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
 
 5. Conclua o assistente para salvar suas configurações.
 
@@ -154,34 +148,43 @@ Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa 
 
 ### <a name="configuration-information-for-skype-for-business"></a>Informações de configuração do Skype for Business
 
-Diferentemente de um email do Exchange, você não pode ativar ou desativar o status de local do Skype para incluir todos os usuários, mas pode ativar esse local e depois selecionar manualmente os usuários cujas conversas deseja manter:
+Diferentemente de um email do Exchange, você não pode ativar ou desativar o status de local do Skype para incluir automaticamente todos os usuários, mas pode ativar esse local e depois deve selecionar manualmente os usuários cujas conversas deseja manter:
 
 ![Escolha o local do Skype para políticas de retenção](../media/skype-location-retention-policies.png)
   
-Ao selecionar **escolher usuários**, você pode incluir rapidamente todos os usuários, selecionando a caixa **Nome** no cabeçalho da coluna. No entanto, é importante compreender que cada usuário é como uma inclusão específica na política. Portanto, se mais de 1.000 usuários forem incluídos, os limites indicados na seção anterior serão aplicáveis. Aqui, selecionar todos os usuários do Skype não é o mesmo como se uma política no âmbito da organização fosse capaz de incluir todos os usuários do Skype por padrão. 
-  
-![Página Escolher usuários do Skype](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
-  
-Observe que o **Histórico da Conversa**, uma pasta no Outlook, é um recurso que não tem nada a ver com o arquivamento do Skype. **Histórico da Conversa** pode ser desativado pelo usuário final, mas o arquivamento para o Skype é feito armazenando-se uma cópia das conversas do Skype em uma pasta oculta que é inacessível ao usuário, mas disponível para Descoberta Eletrônica.
+Ao selecionar **Escolher usuário**, você pode incluir rapidamente todos os usuários, selecionando a caixa **Selecionar todos**. No entanto, é importante compreender que cada usuário conta como uma inclusão específica na política. Portanto, se você incluir 1.000 usuários selecionando a caixa **Selecionar todos**, é a mesma coisa que selecionar manualmente 1.000 usuários para incluir, que é o número máximo suportado pelo Skype for Business.
 
+Lembre-se de que o **Histórico da conversa**, uma pasta no Outlook, é um recurso que nada tem a ver com o recurso de arquivamento do Skype. O **Histórico da conversa** pode ser desativado pelo usuário final, mas o arquivamento para o Skype é feito armazenando-se uma cópia das conversas do Skype em uma pasta oculta que é inacessível ao usuário, mas disponível para Descoberta Eletrônica.
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>Configurações de retenção e exclusão de conteúdo
 
 Ao escolher as configurações de retenção e exclusão de conteúdo em sua política de retenção, sua política de retenção terá uma das seguintes configurações por um período especificado:
 
 - Somente reter
+    
+    Para essa configuração, escolha **Reter itens por um período específico** e **No final do período de retenção: não fazer nada**. Ou marque **Reter itens para sempre**.
+
 - Reter e excluir
+    
+    Para essa configuração, escolha **Reter itens por um período específico** e **No final do período de retenção: excluir itens automaticamente**.
+
 - Somente excluir
+    
+    Para essa configuração, escolha **Excluir itens somente quando eles atingirem um determinado tempo**.
 
 ### <a name="retaining-content-for-a-specific-period-of-time"></a>Reter o conteúdo por um período específico
 
-Ao configurar uma política de retenção, você opta por reter o conteúdo indefinidamente ou por um número específico de dias, meses ou anos. A duração para retenção do conteúdo é calculada com base na idade desse conteúdo, e não do momento em que a política de retenção foi aplicada. Você pode escolher se a idade se baseia em quando o conteúdo foi criado ou (para o OneDrive e o SharePoint) em quando ele foi modificado pela última vez.
+Ao configurar uma política de retenção, você opta por reter os itens por um número específico de dias, meses ou anos. Ou, se preferir, mantenha os itens indefinidamente.
+
+Ao configurar uma política de retenção, você pode optar por reter o conteúdo indefinidamente ou por um número específico de dias, meses ou anos. O período de retenção é calculado com base na idade desse conteúdo, e não do momento em que a política de retenção foi aplicada. 
+
+Para o início do período de retenção, você também pode escolher quando o conteúdo foi criado o suportado apenas para arquivos e os locais do SharePoint, do OneDrive e do Office 365, quando o conteúdo foi modificado pela última vez.
 
 Exemplos:
   
-- SharePoint: se você quiser preservar o conteúdo em um conjunto de sites por sete anos, e se um documento nesse conjunto de sites não tiver sido modificado em seis anos, o documento será retido somente por mais um ano caso não seja modificado. Se o documento for editado novamente, a idade do documento será calculada a partir da última data de modificação, e ele ficará retido por mais sete anos.
+- SharePoint: se você quiser preservar os itens em um conjunto de sites por sete anos depois que esse conteúdo foi modificado, e um documento nesse conjunto de sites não tiver sido modificado em seis anos, o documento será retido somente por mais um ano caso não seja modificado. Se o documento for editado novamente, a idade do documento será calculada a partir da última data de modificação, e ele ficará retido por mais sete anos.
   
-- Exchange: se você deseja reter o conteúdo em uma caixa de correio por sete anos, e uma mensagem foi enviada há seis anos, esta será retida por apenas um ano. Para o conteúdo do Exchange, a idade é baseada na data de recebimento do email de entrada ou na data de envio do email de saída. O processo de reter o conteúdo com base em quando ele foi modificado pela última vez é aplicável apenas ao conteúdo de sites do OneDrive e do SharePoint.
+- Exchange: se você deseja reter os itens em uma caixa de correio por sete anos, e uma mensagem foi enviada há seis anos, esta será retida por apenas um ano. Para os itens do Exchange, a idade é baseada na data de recebimento do email de entrada ou na data de envio do email de saída. O processo de reter os itens com base em quando ele foi modificado pela última vez é aplicável apenas ao conteúdo de sites do OneDrive e do SharePoint.
   
 No final do período de retenção, você pode escolher se deseja que o conteúdo seja excluído permanentemente:
   
@@ -189,84 +192,25 @@ No final do período de retenção, você pode escolher se deseja que o conteúd
   
 ### <a name="deleting-content-thats-older-than-a-specific-age"></a>Como excluir conteúdo mais antigo que uma idade específica
 
-Uma política de retenção pode reter e excluir o conteúdo ou excluir o conteúdo antigo sem retê-lo.
+Uma política de retenção pode reter e excluir os itens ou excluir os itens antigos sem retê-los.
   
-Se sua política de retenção excluir conteúdo, será importante entender que o período de tempo especificado para uma política de retenção é calculado pelo tempo em que o documento foi criado ou modificado, e não a partir do momento em que a política foi atribuída.
-  
-![Configurações de exclusão](../media/042f9571-96f4-458f-8f38-fad3ed68ed31.png)
-  
-Por exemplo, suponha que você crie uma política de retenção que exclui o conteúdo depois de três anos e, em seguida, atribui essa política a todas as contas do OneDrive, que incluem uma grande quantidade de conteúdo criado há quatro ou cinco anos. Nesse caso, uma boa parcela do conteúdo será excluída logo depois que a política de retenção for atribuída pela primeira vez. Por esse motivo, é importante compreender que uma política de retenção que exclui conteúdo pode ter um impacto considerável sobre o seu conteúdo. 
-  
-Portanto, quando atribuir uma política de retenção a um conjunto de sites pela primeira vez, primeiro considere a idade do conteúdo e de que modo a política poderá afetá-los. Você também poderá informar os usuários sobre a nova política antes de atribuí-la, para que eles tenham tempo de avaliar o possível impacto. Observe esse aviso que é exibido quando você revisa as configurações da política de retenção antes de criá-la.
-  
-![Aviso sobre exclusão de conteúdo](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
-  
-## <a name="advanced-settings-to-identify-content-that-meets-specific-conditions"></a>Configurações avançadas para identificar conteúdo que atenda a condições específicas
+Em ambos os casos, se sua política de retenção excluir os itens, será importante entender que o período de tempo especificado para uma política de retenção é calculado pelo tempo em que o item foi criado ou modificado, e não a partir do momento em que a política foi atribuída.
 
-Uma política de retenção pode ser aplicada a todo o conteúdo nos locais em que inclui ou você pode aplicar uma política de retenção apenas ao conteúdo que inclui palavras-chave específicas ou [tipos específicos de informações confidenciais](what-the-sensitive-information-types-look-for.md).
-  
-![Opções avançadas de retenção](../media/e8d9dd42-c062-4e8b-a2ca-bffe3ea298e0.png)
-  
-### <a name="identify-content-that-contains-specific-keywords"></a>Identificar conteúdo que inclui palavras-chave específicas
+Portanto, antes de adicionar uma política de retenção pela primeira vez, e especialmente quando essa política exclui itens, considere primeiro considerar a idade dos conteúdos e de que modo a política poderá afetá-los. Você também poderá informar os seus usuários sobre a nova política antes de atribuí-la, para que eles tenham tempo para avaliar o possível impacto.
 
-Você pode aplicar uma política de retenção apenas ao conteúdo que atende a condições específicas e depois realizar ações de retenção apenas nesse conteúdo. As condições disponíveis dão suporte à aplicação de uma política de retenção ao conteúdo que inclui palavras ou frases específicas. Refine a consulta usando operadores de pesquisa como AND, OR e NOT. Para saber mais sobre esses operadores, confira [Consultas de palavra-chave e critérios de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
-
-A retenção com base em consulta usa o índice de pesquisa para identificar conteúdo.
-  
-![Editor de consultas](../media/2c31b412-922e-4a88-89e4-5175c23d9b5f.png)
-  
-### <a name="identify-content-that-contains-sensitive-information"></a>Identificar conteúdo com informações confidenciais
-
-Você também pode aplicar uma política de retenção apenas ao conteúdo que inclui [tipos específicos de informações confidenciais](what-the-sensitive-information-types-look-for.md). Por exemplo, você pode optar por aplicar exigências de retenção exclusivas somente ao conteúdo com informações pessoais, como números de identificação de contribuinte, números de CPF ou números de passaporte.
-  
-![Página Tipos de informações confidenciais](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
-  
-Observações:
-  
-- A retenção avançada para informações confidenciais não se aplica a pastas públicas do Exchange ou Skype for Business, pois esses locais não dão suporte a tipos de informações confidenciais.
-    
-- O Exchange Online usa regras de fluxo de email (também conhecidas como regras de transporte) para identificar informações confidenciais, portanto, isso funciona apenas em mensagens em trânsito, e não em todos os itens já armazenados em uma caixa de correio. Para o Exchange Online, isso significa que uma política de retenção pode identificar informações confidenciais e realizar ações de retenção apenas em mensagens recebidas **após** a aplicação da política à caixa de correio. A retenção com base em consulta descrita na seção anterior não apresenta essa limitação, pois ela usa o índice de pesquisa para identificar conteúdo. 
-    
-## <a name="applying-a-retention-policy-to-an-entire-organization-or-specific-locations"></a>Aplicar uma política de retenção a uma organização inteira ou locais específicos
-
-Você pode facilmente aplicar uma política de retenção a uma organização inteira, locais inteiros ou apenas a locais ou usuários específicos.
-  
-### <a name="org-wide-policy"></a>Política no âmbito da organização
-
-Um dos recursos mais avançados de política de retenção é que, por padrão, aplica-se aos locais no Microsoft 365, incluindo:
-  
-- Email do Exchange
-    
-- Conjuntos de sites do SharePoint
-    
-- Contas do OneDrive
-    
-- Grupos do Microsoft 365
-    
-- Pastas públicas do Exchange
-    
-
-![Opção Todos os locais](../media/retention-policies-all-locations.png)
-
-Outros recursos importantes de uma política de retenção no âmbito da organização incluem:
-  
-- Não há um limite para o número de caixas de correio ou sites que essa política pode incluir.
-    
-- Para o Exchange, as caixas de correio criadas após a aplicação da política herdam a política automaticamente.
-  
 ### <a name="a-policy-that-applies-to-entire-locations"></a>Uma política aplicável a locais inteiros
 
-Ao escolher locais, você pode facilmente incluir ou excluir um local inteiro, como emails do Exchange ou contas do OneDrive. Para fazer isso, ative ou desative o **Status** desse local. 
+Ao escolher locais, com exceção do Skype for Business, a configuração padrão é **Todos** quando o status do local é **Ativado**.
   
-Como uma política no âmbito da organização, se uma política for aplicada a qualquer combinação de locais inteiros, não haverá limite para o número de caixas de correio ou sites que ela pode incluir. 
+Quando uma política de retenção for aplicada a qualquer combinação de locais inteiros, não haverá limite para o número de destinatários, sites, grupos, etc., que ela pode incluir. 
 
-Por exemplo, se uma política incluir todos os emails do Exchange e sites do SharePoint, todos os sites e caixas de correio serão incluídos, independentemente da quantidade. Além disso, no caso do Exchange, todas as caixas de correio criadas após a aplicação da política herdam a política automaticamente.
+Por exemplo, se uma política incluir todos os emails do Exchange e sites do SharePoint, todos os sites e destinatários serão incluídos, independentemente da quantidade. Além disso, no caso do Exchange, todas as caixas de correio criadas após a aplicação da política herdam a política automaticamente.
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>Uma política com inclusões ou exclusões específicas
 
-Você também pode aplicar uma política de retenção a usuários específicos, grupos específicos do Microsoft 365 ou sites específicos. Para fazer isso, ative o **Status** desse local e, em seguida, use os links para incluir ou excluir usuários específicos, grupos do Microsoft 365 ou sites. 
+Você também pode aplicar uma política de retenção a usuários específicos, grupos específicos do Microsoft 365 ou sites específicos. Para fazer isso, certifique-se de que o **Status** desse local esteja**Ativado**, em seguida, use os links para incluir ou excluir usuários específicos, grupos do Microsoft 365 ou sites. 
   
-No entanto, usando essa configuração, há alguns limites quando sua política de retenção inclui ou exclui mais de 1.000 locais específicos:
+No entanto, usando essa configuração, há alguns limites quando sua política de retenção inclui ou exclui mais de 1.000 objetos específicos:
   
 - Números máximos da política de retenção:
     - 1.000 caixas de correio
@@ -276,7 +220,7 @@ No entanto, usando essa configuração, há alguns limites quando sua política 
 
 Há um número máximo de políticas com suporte para um locatário: 10.000. Esses itens incluem políticas de retenção, políticas de rótulo de retenção e políticas de retenção de aplicação automática.
 
-Se é provável que suas políticas de retenção estejam sujeitas a essas limitações, escolha as opções de configuração que se aplicam a locais inteiros ou use uma política em toda a organização.
+Se é provável que suas políticas de retenção estejam sujeitas a essas limitações, escolha as opções de configuração que se aplicam a locais inteiros.
 
 > [!WARNING]
 > Se você inclui-lo e, em seguida, remover o último, a configuração será revertida em **Todas** para o local.  Verifique se esta é a configuração que você pretende antes de salvar a política.
@@ -287,7 +231,7 @@ Se é provável que suas políticas de retenção estejam sujeitas a essas limit
 
 ## <a name="updating-retention-policies"></a>Atualizar políticas de retenção
 
-Se você editar uma política de retenção e o conteúdo já estiver sujeito às configurações originais da sua política de retenção, as configurações atualizadas serão aplicadas automaticamente a esse conteúdo, além do conteúdo identificado recentemente.
+Se você editar uma política de retenção e os itens já estiverem sujeitos às configurações originais da sua política de retenção, as configurações atualizadas serão aplicadas automaticamente a esses itens, além dos itens identificados recentemente.
 
 Geralmente, essa atualização é bastante rápida, mas pode levar vários dias. Quando a replicação da política nos locais do Microsoft 365 estiver concluída, você verá o status da política de retenção no Centro de Conformidade do Microsoft 365 mudar de **Ativado (Pendente)** para **Ativado (Sucesso)**.
 
