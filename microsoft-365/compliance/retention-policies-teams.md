@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: cc0d422220d4f3c2ca667a4f0076eb9e62d90518
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: 04ca027b9ce8ad1b36e0d4e60c4e10308a822a63
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394688"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816734"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -100,10 +100,6 @@ Se o usuário tiver armazenado os arquivos no Teams, consulte a [seção equival
 ## <a name="limitations"></a>Limitações
 
 Estamos trabalhando continuamente para otimizar a funcionalidade de retenção no Teams. Enquanto isso, aqui estão algumas limitações que você deve conhecer ao usar a retenção para os canais de conversa e mensagens do Teams:
-
-- **O Teams não está incluído em uma política no âmbito de toda a organização**. Se criar uma política no âmbito da organização, os canais de mensagens e conversas do Teams não estarão incluídos, porque eles exigem uma política de retenção independente.
-
-- **O Teams não é compatível com retenção avançada.** Ao criar uma política de retenção, se você escolher as [Configurações avançadas para identificar conteúdo que atende a determinadas condições](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions), os locais do Teams não estarão disponíveis. A retenção no Teams se aplica a todo o conteúdo de mensagem de chat e canal quando você seleciona esses locais.
 
 - **As mensagens do Teams em canais privados não são incluídas quando você configura uma política de retenção para mensagens de canal do Teams**. No momento, canais privados não são suportados pelas políticas de retenção. 
 
