@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Criar um modelo de processamento de formulários no Project Cortex.
-ms.openlocfilehash: 733baf24d8a484571ba9882fdda2633dc2ce0504
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: cec3b9a8b1b58237c4beb745377709d4938a2dba
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612769"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950139"
 ---
 # <a name="create-a-form-processing-model-preview"></a>Criar um modelo de processamento de formulário (versão prévia)
 
@@ -34,7 +34,7 @@ A criação de um modelo de processamento de formulários envolve o seguinte:
  - Etapa 6: usar o modelo
 
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Você só pode criar um modelo de processamento de formulário em bibliotecas de documentos do SharePoint em que ele está habilitado. Se o processamento de formulários estiver habilitado, você poderá ver o **Construtor ai** **"criar um modelo de processamento de formulários** " no menu **automatizar** da biblioteca de documentos.  Se você precisar do processamento habilitado em sua biblioteca de documentos, entre em contato com seu administrador.
 
@@ -48,7 +48,7 @@ A primeira etapa na criação de um modelo de processamento de formulários é n
 1. Na biblioteca de documentos, selecione o menu **automatizar** , selecione **Construtor ai**e, em seguida, selecione **criar um modelo de processamento de formulários**.
 
     ![Criar um modelo do AI Builder](../media/content-understanding/create-ai-builder-model.png)</br>
-2. No painel **novo modelo de processamento de formulário** , no campo **nome** , digite um nome para o modelo (por exemplo, *ordens de compra*).
+2. No painel **novo modelo de processamento de formulário** , no campo  **nome** , digite um nome para o modelo (por exemplo, *ordens de compra*).
 
     ![Novo modelo de processamento de formulário](../media/content-understanding/new-form-model.png)</br> 
 

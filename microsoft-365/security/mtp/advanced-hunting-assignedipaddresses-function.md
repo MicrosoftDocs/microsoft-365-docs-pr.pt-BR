@@ -17,30 +17,29 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 72d02bafa168e48c2d588771f5289da09e6d6000
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: 4ee07abe7ce1432921a843d713d0f9b914631174
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794226"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949307"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+Use a `AssignedIPAddresses()` função para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo. Se você especificar um argumento timestamp, essa função obterá os endereços IP mais recentes no horário especificado. 
 
-Use a `AssignedIPAddresses()` função para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo ou os endereços IP mais recentes de um momento específico. Essa função retorna uma tabela com as seguintes colunas:
+Essa função retorna uma tabela com as seguintes colunas:
 
 | Coluna | Tipo de dados | Descrição |
 |------------|-------------|-------------|
-| Carimbo de data/hora | datetime | Última hora em que o dispositivo foi observado usando o endereço IP |
-| IPAddress | string | Endereço IP usado pelo dispositivo |
-| IPType | string | Indica se o endereço IP é um endereço público ou privado |
-| NetworkAdapterType | int | Tipo de adaptador de rede usado pelo dispositivo que foi atribuído ao endereço IP. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2)  |
-| ConnectedNetworks | int | Redes às quais o adaptador com o endereço IP atribuído está conectado. Cada matriz JSON contém o nome da rede, a categoria (público, privado ou domínio), uma descrição e um sinalizador que indica se ele está conectado publicamente à Internet |
-
+| `Timestamp` | datetime | Última hora em que o dispositivo foi observado usando o endereço IP |
+| `IPAddress` | string | Endereço IP usado pelo dispositivo |
+| `IPType` | string | Indica se o endereço IP é um endereço público ou privado |
+| `NetworkAdapterType` | int | Tipo de adaptador de rede usado pelo dispositivo que foi atribuído ao endereço IP. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `ConnectedNetworks` | int | Redes às quais o adaptador com o endereço IP atribuído está conectado. Cada matriz JSON contém o nome da rede, a categoria (pública, particular ou o domínio), uma descrição e um sinalizador que indica se ele está conectado publicamente à Internet |
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -50,12 +49,12 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Argumentos
 
-- **x** — `DeviceId` ou `DeviceName` Value identificando o dispositivo
-- **y** – `Timestamp` o valor (DateTime) que indica o ponto específico no momento em que os endereços IP mais recentes serão obtidos. Se não for especificado, a função retornará os endereços IP mais recentes.
+- **x**— `DeviceId` ou `DeviceName` Value identificando o dispositivo
+- valor **y**– `Timestamp` (DateTime) instruindo a função para obter os endereços IP atribuídos mais recentes de um horário específico. Se não for especificado, a função retornará os endereços IP mais recentes.
 
 ## <a name="examples"></a>Exemplos
 
-### <a name="get-the-list-of-ip-addresses-used-by-a-device-as-of-24-hours-ago"></a>Obter a lista de endereços IP usados por um dispositivo a partir de 24 horas
+### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>Obter a lista de endereços IP usados por um dispositivo 24 horas atrás
 
 ```kusto
 AssignedIPAddresses('example-device-name', ago(1d))

@@ -14,12 +14,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre como governar os recursos relacionados no Microsoft 365 Groups, Teams, SharePoint e Yammer.
-ms.openlocfilehash: cdef9a4f939c20b34bf32efb5a258deddd885d0e
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: b217dc089eb150d01eed9cd720b2caa290d54bf1
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662449"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950707"
 ---
 # <a name="overview-of-collaboration-governance-in-microsoft-365"></a>Visão geral da governança de colaboração no Microsoft 365
 
@@ -108,16 +108,16 @@ Assista a estas sessões de conferência para saber mais sobre governança para 
 
 Saiba mais sobre os conceitos básicos e as novas inovações nos grupos do Microsoft 365, incluindo gerenciamento e governança em escala, práticas recomendadas para a condução de uso e adoção e autoatendimento.
 
-- [Abraçar os grupos do Microsoft 365](https://myignite.techcommunity.microsoft.com/sessions/81553)
+- [Abraçar os grupos do Microsoft 365](https://www.youtube.com/watch?v=dAamBF1gb7M)
 
 **Governança**
 
 Saiba como configurar seu ciclo de vida de expiração de grupos, políticas de nomeação, rótulos de classificação, colaboração com convidados externos e gerenciar permissões de criação de grupo.
 
-- [Transformar a colaboração e combater a sombra com grupos do Office 365](https://myignite.techcommunity.microsoft.com/sessions/81554)
+- [Transformar a colaboração e combater a sombra com grupos do Office 365](https://www.youtube.com/watch?v=Bhf_bKx3lAg)
 
 **Exemplo de cliente**
 
 Veja um exemplo de bastidores de como o Microsoft 365 Groups, SharePoint, Teams e Yammer trabalham em conjunto para fornecer uma plataforma de colaboração global.
 
-- [Encontrando seu ponto central de colaboração com os grupos do Office 365, SharePoint, Teams e Yammer](https://myignite.techcommunity.microsoft.com/sessions/84289)
+- [Encontrando seu ponto central de colaboração com os grupos do Office 365, SharePoint, Teams e Yammer](https://www.youtube.com/watch?v=Rx9eVwqXeQk)

@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: Saiba como obter o relatório de uso de caixa de correio para saber mais sobre as atividades dos usuários com uma caixa de correio de usuário.
-ms.openlocfilehash: 15da09574b2273e119ba9cf2c132d2e9596e9a64
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0b0c57bda813e1600866513df86b7c973dcdffdc
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387676"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949127"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>Relatórios da Microsoft 365 no centro de administração-uso da caixa de correio
 
@@ -44,7 +44,7 @@ O **relatório de uso da caixa de correio** fornece informações sobre os usuá
 
 Para ter uma noção do **uso da caixa de correio** da organização, analise os gráficos **Caixa de correio**, **Armazenamento** e **Cota**. 
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório **Uso da caixa de correio** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |

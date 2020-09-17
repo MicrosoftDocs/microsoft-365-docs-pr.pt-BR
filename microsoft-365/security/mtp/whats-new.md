@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 1a2a8cd91d0cc32dc5a10b1eb1dd28714cd4f6c4
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: da3fd8b97899e302c9b7b24a5c0677534b579981
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429961"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47947979"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Novidades da Proteção contra Ameaças da Microsoft
 
@@ -30,10 +30,13 @@ RSS feed: seja notificado quando esta página for atualizada copiando e colando 
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+## <a name="september-2020"></a>Setembro de 2020
+- [Função AssignedIPAddresses ()](advanced-hunting-assignedipaddresses-function.md) <br> Use essa função em suas consultas de [busca avançada](advanced-hunting-overview.md) para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo ou os endereços IP mais recentes de um momento específico.
+
 ## <a name="july-2020"></a>Julho de 2020
-- [Função fileprofile ()](advanced-hunting-fileprofile-function.md) <br> Use essa função em suas consultas de [busca avançada](advanced-hunting-overview.md) para enriquecer os resultados com informações de arquivo abrangentes.
+- [Função fileprofile ()](advanced-hunting-fileprofile-function.md) <br> Use essa função em suas consultas de busca avançada para enriquecer os resultados com informações de arquivo abrangentes.
 - [Identidade e tabelas de aplicativos](advanced-hunting-schema-tables.md)<br> Obtenha visibilidade em eventos de autenticação, consultas do Active Directory e atividades relacionadas a aplicativos com as tabelas [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)e [AppFileEvents](advanced-hunting-appfileevents-table.md) no esquema de caça avançada.
-- [Ir à caça](advanced-hunting-go-hunt.md)<br> Rapidamente dinamizar a investigação de um incidente para inspecionar um evento específico, um usuário, um dispositivo ou outros tipos de entidade usando recursos de [busca avançada](advanced-hunting-overview.md) baseados em consulta.
+- [Ir à caça](advanced-hunting-go-hunt.md)<br> Rapidamente dinamizar a investigação de um incidente para inspecionar um evento específico, um usuário, um dispositivo ou outros tipos de entidade usando recursos de busca avançada baseados em consulta.
 
 ## <a name="june-2020"></a>Junho de 2020
 - Feed do Twitter <br> Obtenha a pesquisa de segurança mais recente, inteligência de ameaças, notícias sobre produtos e muito mais-direito dentro do painel.
@@ -45,7 +48,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 
 ## <a name="february-2020"></a>Fevereiro de 2020
 - [Incidentes](incidents-overview.md) <br> Saiba exatamente onde um ataque começou e outros detalhes para ajudá-lo a ver a extensão do ataque.
-- [Investigação e resposta automatizadas](mtp-autoir.md) <br> O AIR permite à sua equipe de operações de segurança aumentar drasticamente a capacidade da sua organização para lidar com alertas e incidentes de segurança.
+- [Resposta e investigação automatizadas](mtp-autoir.md) <br> O AIR permite à sua equipe de operações de segurança aumentar drasticamente a capacidade da sua organização para lidar com alertas e incidentes de segurança.
 - [Aprimoramentos de busca avançada](advanced-hunting-overview.md) <br> Busca de ameaças proativamente no espaço de trabalho moderno com a linguagem de consulta do Kusto e um esquema com segurança otimizada.
 
 ## <a name="march-2019"></a>Março de 2019

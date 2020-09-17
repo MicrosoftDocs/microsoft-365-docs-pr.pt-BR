@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: caaea8404c099f56704d21684323a4b20e61f52d
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 10bca6776173c07a28b097f44c641c3e65a0cf6c
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45103084"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948695"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 
@@ -152,7 +152,7 @@ Se o suplemento implantado não oferecer suporte a comandos de suplemento ou se 
 
 [Implantar suplementos no centro de administração](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
 
-Saiba mais sobre a criação e [a criação de suplementos do Office](https://go.microsoft.com/fwlink/p/?linkid=846362).
+Saiba mais sobre a criação e [a criação de suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).
   
 [Use cmdlets do PowerShell de implantação centralizada para gerenciar suplementos](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins).
   

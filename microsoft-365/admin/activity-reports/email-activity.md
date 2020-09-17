@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Saiba como obter um relatório de atividade de email usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: a864b997d607b06391c1a2a5d4725bc8d074de87
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b2b322fe7e35c3fa7e4a5966919321b329004d92
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387772"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948227"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de email
 
@@ -48,7 +48,7 @@ Você pode observar a atividade de email do usuário examinando os gráficos **A
   
 ![Relatório de atividade de email](../../media/2317f03d-2d71-46bf-a5c7-d94dbc8cfbe1.png)
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório **Atividade de email** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |

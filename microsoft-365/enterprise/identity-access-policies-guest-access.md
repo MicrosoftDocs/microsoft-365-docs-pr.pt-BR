@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: a88fc5f46a6dafda72a24ba5e80587b24a216955
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: c61526139111885ec345bc4a4dd3cd6b147370e6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546461"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950803"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Políticas para permitir acesso B2B e de convidado externo
 
@@ -55,7 +55,9 @@ Para incluir ou excluir convidados e usuários externos em políticas de acesso 
 ### <a name="guests-vs-external-users"></a>Convidados vs. usuários externos
 No Azure AD, os usuários convidados e externos são os mesmos. O tipo de usuário para ambos é Guest. Os usuários convidados são usuários B2B.
 
-O Microsoft Teams diferencia entre usuários convidados e usuários externos dentro do aplicativo, mas são usuários de B2B durante a autenticação. Para obter mais informações sobre os usuários convidados e externos do Teams, consulte [habilitar o convidado e o acesso externo para o Teams](teams-access-policies.md#enabling-guest-and-external-access-for-teams).
+O Microsoft Teams diferencia entre usuários convidados e usuários externos dentro do aplicativo. Os usuários convidados têm contas B2B do Azure AD e podem ser adicionados ao Microsoft Teams. Usuários externos só podem participar de chamadas, chats e reuniões. Para obter mais informações, consulte [esta comparação entre usuários convidados e externos para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access).
+
+Consulte as [recomendações de política para proteger chats, grupos e arquivos de equipes](teams-access-policies.md) para obter mais informações sobre a proteção de identidade e acesso de dispositivo para o Microsoft Teams
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>Exigir a MFA sempre para usuários convidados e externos
 Essa política solicita que os convidados registrem a MFA em seu locatário, independentemente de estarem ou não registrados para MFA em seu locatário de casa. Ao acessar recursos em seu locatário, convidados e usuários externos precisam usar a MFA para cada solicitação. 

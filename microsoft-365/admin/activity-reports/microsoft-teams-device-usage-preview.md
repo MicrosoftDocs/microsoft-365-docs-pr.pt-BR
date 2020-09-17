@@ -1,5 +1,5 @@
 ---
-title: Relatórios do Microsoft 365 no centro de administração-uso do dispositivo do Microsoft Teams-visualização
+title: Uso do dispositivo do Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,30 +21,34 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha informações sobre os aplicativos do Microsoft Teams usados em sua organização obtendo o relatório de uso do aplicativo Microsoft Teams dos relatórios do Microsoft 365.
-ms.openlocfilehash: 4945e74d91e12c1e846de3e4bd8393220349d608
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+ms.openlocfilehash: 98b8d6241b94445c9cb47d2c464d47c5609efdfe
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167348"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949067"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage---preview"></a>Relatórios do Microsoft 365 no centro de administração-uso do dispositivo do Microsoft Teams-visualização
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de dispositivos do Microsoft Teams
 
 O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de uso do aplicativo Microsoft Teams, você encontra informações sobre os aplicativos do Microsoft Teams em uso na sua organização.
   
 > [!NOTE]
 > Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
  
-## <a name="how-to-get-to-the-preview-microsoft-teams-app-usage-report"></a>Como obter o relatório de uso do aplicativo Preview Microsoft Teams
+## <a name="how-to-get-to-the-microsoft-teams-app-usage-report"></a>Como gerar o relatório de uso do aplicativo Microsoft Teams
 
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>. 
-2. No menu suspenso **selecionar um relatório** , selecione **Microsoft Teams**.
+2. Na página inicial do painel, clique no botão **Exibir mais** no cartão de atividades do Microsoft Teams.
   
-## <a name="interpret-the-preview-microsoft-teams-app-usage-report"></a>Interpretar o relatório de uso do aplicativo Preview Microsoft Teams
+## <a name="interpret-the-microsoft-teams-app-usage-report"></a>Interpretar o relatório de uso do aplicativo Microsoft Teams
 
-Você pode exibir o uso do dispositivo no relatório do preview Teams escolhendo a guia **uso do dispositivo** .
+Você pode exibir o uso do dispositivo no relatório do teams escolhendo a guia **uso do dispositivo** .<br/>![Microsoft 365 Reports-uso de dispositivos do Microsoft Teams.](../../media/e46c7f7c-8371-4a20-ae82-b20df64b0205.png)
+
+Selecione **escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de dispositivo do usuário do teams-escolher colunas](../../media/3358d5d9-931b-4d30-931f-450b2f5717da.png)
+
+Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |**Indicador**|**Definição**|
 |Nome de usuário  <br/> |O nome de exibição do usuário. Você pode clicar no nome para exibição para acessar a página de configuração do usuário no centro de administração do Microsoft Teams.  <br/> |

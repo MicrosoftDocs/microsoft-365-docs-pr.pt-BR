@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3ca475ef6dbdbd66af47216c4130d748788730c2
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 2259158c566223c39a6b533483551f95c2fa0824
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419127"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949295"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 
@@ -31,7 +31,12 @@ ms.locfileid: "47419127"
 
 Aplique essas recomendações para obter resultados mais rapidamente e evitar tempos limite ao executar consultas complexas. Para obter mais informações sobre como melhorar o desempenho da consulta, leia [ práticas recomendadas de consulta no Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).
 
-## <a name="general-guidance"></a>Diretrizes gerais
+## <a name="understand-cpu-resource-limits"></a>Entender os limites de recursos da CPU
+Dependendo de seu tamanho, cada locatário tem acesso a uma quantidade definida de recursos de CPU alocados para executar consultas de busca avançadas. Para obter informações detalhadas sobre vários limites de serviço, [Leia sobre os limites de caça avançados](advanced-hunting-limits.md).
+
+Os clientes que executam várias consultas regularmente acompanham o consumo e aplicam a orientação de otimização neste artigo para minimizar a interrupção resultante da excedeção dos limites.
+
+## <a name="general-optimization-tips"></a>Dicas gerais de otimização
 
 - **Dimensionar novas consultas**— se você suspeita que uma consulta retornará um grande conjunto de resultados, avalie-a primeiro usando o [operador de contagem](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator). Use o [limite](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) ou seu sinônimo `take` para evitar grandes conjuntos de resultados.
 - **Aplicar filtros antecipadamente**— Aplique filtros de tempo e outros filtros para reduzir o conjunto de dados, especialmente antes de usar funções de transformação e análise, como [substring ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [Trim ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [ToUpper ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)ou [parse_json (](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction)). No exemplo abaixo, a função de análise [extractjson ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) é usada depois que os operadores de filtragem reduziram o número de registros.
@@ -255,9 +260,7 @@ Para saber mais sobre todas as funções de análise compatíveis, [Leia sobre a
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Documentação da linguagem de consulta do Kusto](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+- [Limites de serviço](advanced-hunting-limits.md)
+- [Manipular erros de busca avançada](advanced-hunting-errors.md)
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
-- [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
-- [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
-- [Compreender o esquema](advanced-hunting-schema-tables.md)

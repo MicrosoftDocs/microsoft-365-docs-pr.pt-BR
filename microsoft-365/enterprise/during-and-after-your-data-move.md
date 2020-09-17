@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Movimentações de dados são operações de back-end que ocorrem quando a Microsoft transfere serviços e dados associados para seu locatário para uma nova Geografia de datacenter.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9f87628d6bbc65fe4122999f6d0fde809fed51b8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: acd2601d32617c56019ca8b4bf8688ce40f5d76a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687127"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950267"
 ---
 # <a name="during-and-after-your-data-move"></a>Durante e após a migração dos dados
 
@@ -45,8 +45,8 @@ Assista ao centro de mensagens do Microsoft 365 para confirmação quando se mov
 |Emirados Árabes Unidos  <br/> |1º de julho de 2022  <br/> |
 |África do Sul  <br/> |1º de julho de 2022  <br/> |
 |Suíça, Liechtenstein  <br/> |1º de julho de 2022  <br/> |
-|Alemanha  <br/> |Liga  <br/> |
 |Noruega  <br/> |1 de novembro de 2022  <br/> |
+|Alemanha  <br/> |Liga  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
@@ -75,7 +75,7 @@ Quando o SharePoint Online é movido, os dados dos seguintes serviços também s
     
 - Office no navegador s
     
-- Microsoft 365 Apps para Grandes Empresas
+- Microsoft 365 Apps para empresas
     
 - Visio pro para Microsoft 365
     

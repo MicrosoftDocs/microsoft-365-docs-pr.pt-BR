@@ -15,12 +15,12 @@ ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como criar um site de extranet B2B ou uma equipe com usuários convidados gerenciados de uma organização de parceiro.
-ms.openlocfilehash: 4f8eb33ad9b41f552975d4158a61ec4cedcfa9cc
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 83252241833f3dfe663cc70eae28a5df1214cce0
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526977"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949379"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Crie uma extranet B2B com convidados gerenciados
 
@@ -31,6 +31,12 @@ Com esse método de compartilhamento de recursos para colaboração, a organiza�
 Este artigo percorre as etapas para criar um pacote de recursos (neste caso, um site ou uma equipe) que você pode compartilhar com uma organização de parceiro por meio de um modelo de registro de acesso de autoatendimento. 
 
 Antes de começar, crie o site ou a equipe que você deseja compartilhar com a organização do parceiro e habilite-o para o compartilhamento de convidados. Consulte [colaborar com convidados em um site](collaborate-in-site.md) ou [colaborar com convidados em uma equipe](collaborate-as-team.md) para obter mais informações. Recomendamos também que você revise [criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md) para obter informações sobre os recursos de segurança e conformidade que você pode usar para ajudar a manter suas políticas de governança ao colaborar com convidados.
+
+## <a name="license-requirements"></a>Requisitos de licença
+
+O uso deste recurso exige uma licença do Azure AD Premium P2. 
+
+Nuvens especializadas, como o Azure Alemanha e o Azure China 21Vianet, atualmente não estão disponíveis para uso.
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -124,4 +130,3 @@ Depois de copiar o link, você poderá compartilhá-lo com seu contato na organi
 ## <a name="see-also"></a>Confira também
 
 [Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
-

@@ -22,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: 'Obter o relatório de uso do OneDrive for Business para saber mais sobre o número total de arquivos e armazenamento usados em toda a organização. '
-ms.openlocfilehash: 33c319961adc02ba5b8c937bd14626461bbb7200
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: e08dff4e763479afa197377d37e474384492c012
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560394"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948911"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso do OneDrive for Business
 
@@ -51,7 +51,7 @@ Você pode obter uma visão de uso do OneDrive for Business examinando as exibi�
   
 ![OneDrive Usage Report](../../media/49c5b93b-d081-436e-8992-236343a6d46b.png)
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório de **Uso do OneDrive** mostra as tendências nos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas. <br/>|

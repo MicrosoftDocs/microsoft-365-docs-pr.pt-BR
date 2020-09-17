@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6745285600b6c5a62b4327d7174b2c249ff5276c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 95f84ead009b7510699e467bf5f12bf32d8097d8
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307368"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948791"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
 
@@ -37,11 +37,11 @@ ms.locfileid: "47307368"
 
 ::: moniker-end
 
-As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e acessar [o Microsoft 365 for Business](https://go.microsoft.com/fwlink/?LinkID=519395). A maneira mais fácil de adicionar contas de usuário é adicionar uma de cada vez no centro de administração do Microsoft 365. Após executar esta etapa, os usuários terão licenças do Microsoft 365, credenciais de entrada e caixas de correio do Microsoft 365.
+As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e acessar [o Microsoft 365 for Business](https://www.microsoft.com/microsoft-365/business). A maneira mais fácil de adicionar contas de usuário é adicionar uma de cada vez no centro de administração do Microsoft 365. Após executar esta etapa, os usuários terão licenças do Microsoft 365, credenciais de entrada e caixas de correio do Microsoft 365.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global, de licença ou de usuário para adicionar usuários e atribuir licenças. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador global, de licença ou de usuário para adicionar usuários e atribuir licenças. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="watch-add-users-in-the-admin-center"></a>Watch: adicionar usuários no centro de administração
 
@@ -54,7 +54,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
 
 ::: moniker range="o365-worldwide"
 
-1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Vá para o centro de administração do<https://admin.microsoft.com>.
 2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
 3. No painel **Configurar o** básico, preencha as informações básicas do usuário e selecione **Avançar**.
     - **Nome** Preencha o nome e o sobrenome, o nome para exibição e o nome de usuário.
@@ -70,7 +70,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
 
 ::: moniker range="o365-germany"
 
-1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.
+1. Vá para o centro de administração do<https://portal.office.de/adminportal>.
 2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
 3. No painel **novo usuário** , preencha as informações a seguir. Quando tiver terminado, selecione **Adicionar**.
     - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
@@ -84,7 +84,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
 
 ::: moniker range="o365-21vianet"
 
-1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
+1. Vá para o centro de administração do<https://portal.partner.microsoftonline.cn>.
 2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
 3. No painel **novo usuário** , preencha as informações a seguir. Quando tiver terminado, selecione **Adicionar**.
     - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
@@ -99,7 +99,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
 ## <a name="add-multiple-users-at-the-same-time"></a>Adicionar vários usuários ao mesmo tempo
 
 Você pode usar qualquer um dos seguintes métodos para adicionar vários usuários ao mesmo tempo:
-  
+
 - **Usar uma planilha para adicionar pessoas em massa.** Confira [adicionar vários usuários ao mesmo tempo](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time).
 - **Automatize a adição de contas e a atribuição de licenças.** Confira [criar contas de usuário com o Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell). Escolha este método se já estiver familiarizado com o uso dos cmdlets do Windows PowerShell.
 - **Usando o ActiveDirectory?** [Configurar a sincronização de diretórios para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization). Use a ferramenta Azure AD Connect para replicar as contas de usuário do Active Directory (e outros objetos do Active Directory) no Microsoft 365. A sincronização só adiciona as contas de usuário. Você deve atribuir licenças aos usuários sincronizados antes que eles possam usar emails e outros aplicativos do Office.

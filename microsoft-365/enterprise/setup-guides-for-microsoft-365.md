@@ -3,7 +3,7 @@ title: Guias de configuração para os serviços Microsoft 365 e Office 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 09/15/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: Acelere o planejamento e a configuração do Microsoft 365 ou do Office 365 com guias de configuração.
-ms.openlocfilehash: 2f2c398a3e807b3859cf8f53f63a0ac908ba2683
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 879942d75f37a7984dad8f4ac5dc99933b3988f4
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687094"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949733"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Guias de configuração para os serviços Microsoft 365 e Office 365
 
@@ -51,7 +51,7 @@ Os guias de configuração podem ser acessados na página [orientação da insta
 
 ## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Como os guias de instalação funcionam no centro de administração do Microsoft 365?
 
-Cada guia fornece instruções passo a passo, recursos, artigos e, quando necessário, scripts que você pode usar para fazer alterações na configuração. Esses guias oferecem opções que refletem as necessidades específicas de pequenas e grandes organizações expandidas. Além disso, a orientação fornecida inclui assistência para administradores novos e mais experientes.
+Cada guia fornece instruções passo a passo, recursos, artigos e, quando necessário, scripts que você pode usar para fazer alterações na configuração. Esses guias oferecem opções que refletem as necessidades específicas de pequenas e grandes organizações. Além disso, a orientação fornecida inclui assistência para administradores novos e mais experientes.
 
 ![Exemplo de um guia de configuração](../media/setup-guides-for-microsoft-365/m365-setupguide-example.png)
 
@@ -90,7 +90,7 @@ A área de trabalho virtual do Windows é um serviço abrangente de virtualizaç
 
 O [Guia de instalação da área de trabalho virtual do Windows](https://aka.ms/wvdsetupguide) fornece aos administradores recursos de planejamento e os pré-requisitos para implantação, orientação de instalação e recursos adicionais. 
 
-## <a name="guides-for-security"></a>Guias de segurança
+## <a name="guides-for-authentication-and-access"></a>Guias para autenticação e acesso
 
 ### <a name="azure-ad-setup-guide"></a>Guia de instalação do Azure AD
 
@@ -104,9 +104,21 @@ Atualize para uma abordagem de entrada alternativa que permite que os usuários 
 
 Use o [Assistente de plano de implantação de senha](https://aka.ms/passwordlesssetup) para descobrir os melhores métodos de autenticação de senha para usar e receber orientações sobre como implantá-los. 
 
+### <a name="plan-your-self-service-password-reset-deployment"></a>Planejar a implantação de redefinição de senha de autoatendimento
+
+Conceda aos usuários a capacidade de alterar ou redefinir a senha de forma independente, se sua conta estiver bloqueada ou se esquecer a senha sem precisar entrar em contato com um engenheiro de assistência técnica. 
+
+Use o [Assistente de planejamento de implantação de senha de autoatendimento](https://aka.ms/SSPRSetupGuide) para receber artigos relevantes e instruções sobre como configurar as opções apropriadas do portal do Azure para ajudá-lo a implantar o SSPR em seu ambiente.
+
+### <a name="active-directory-federation-services-ad-fs-deployment-advisor"></a>Supervisor de implantação dos serviços de Federação do Active Directory (AD FS)
+
+O [supervisor de implantação do AD FS](https://aka.ms/adfsguidance) oferece orientações passo a passo sobre a implantação de uma infraestrutura do AD FS local que autentica usuários para os serviços do Microsoft 365 e do Office 365. Com este guia, sua organização pode examinar os requisitos e componentes do AD FS, adquirir e instalar certificados SSL necessários para a implantação e instalar um servidor de proxy de aplicativo Web necessário. 
+
+## <a name="guides-for-security-and-compliance"></a>Guias de segurança e conformidade
+
 ### <a name="microsoft-defender-advanced-threat-protection-atp-advisor"></a>Supervisor de proteção avançada contra ameaças do Microsoft defender (ATP)
 
-O [Microsoft defender Advanced Threat Protection Advisor](https://aka.ms/mdatpsetup) fornece instruções que ajudarão sua rede corporativa a prevenir, detectar, investigar e responder a ameaças avançadas. Faça uma avaliação informada da vulnerabilidade da organização e decida quais pacotes de implantação e métodos de configuração são melhor. 
+O [Microsoft defender Advanced Threat Protection Advisor](https://aka.ms/mdatpsetup) fornece instruções que ajudarão sua rede corporativa a prevenir, detectar, investigar e responder a ameaças avançadas. Faça uma avaliação informada da vulnerabilidade da sua organização e decida quais pacotes de implantação e métodos de configuração são melhor. 
 
 >[!NOTE]
 >Uma licença de volume da Microsoft é necessária para o Microsoft defender ATP.
@@ -121,31 +133,39 @@ Use o [Guia de instalação do Exchange Online Protection](https://aka.ms/EOPgui
 
 O [supervisor de proteção avançada contra ameaças do Office 365](https://aka.ms/oatpsetup) protege sua organização contra ameaças mal-intencionadas que seu ambiente pode encontrar através de mensagens de email, links e ferramentas de colaboração de terceiros. Este guia fornece os recursos e informações para ajudá-lo a preparar e identificar o plano de proteção avançada contra ameaças para atender às necessidades da sua organização. 
 
-### <a name="active-directory-federation-services-ad-fs-deployment-advisor"></a>Supervisor de implantação dos serviços de Federação do Active Directory (AD FS)
+### <a name="microsoft-information-protection-setup-guide"></a>Guia de instalação do Microsoft Information Protection
 
-O [supervisor de implantação do AD FS](https://aka.ms/adfsguidance) oferece orientações passo a passo sobre a implantação de uma infraestrutura do AD FS local que autentica usuários para os serviços do Microsoft 365 e do Office 365. Com este guia, a sua organização pode examinar os requisitos e componentes do AD FS, adquirir e instalar certificados SSL necessários para a implantação e instalar um servidor de proxy de aplicativo Web necessário. 
+Obtenha uma visão geral dos recursos que você pode aplicar à sua estratégia de proteção de informações para que você possa ter certeza de que suas informações confidenciais estão protegidas. Use uma abordagem de ciclo de vida de quatro estágios na qual você descobre, classifica, protege e monitora informações confidenciais. O [Guia de configuração do Microsoft Information Protection](https://aka.ms/mipsetupguide) fornece orientações para concluir cada um desses estágios.
+
+### <a name="microsoft-information-governance-setup-guide"></a>Guia de instalação de governança de informações da Microsoft
+
+O [Guia de instalação do Microsoft Information Governance](https://aka.ms/migsetupguide) fornece as informações necessárias para configurar e gerenciar a estratégia de governança da sua organização, para garantir que seus dados sejam classificados e gerenciados de acordo com as diretrizes específicas do ciclo de vida que você definiu. Com este guia, você aprenderá a criar, aplicar automaticamente ou publicar rótulos, políticas de rótulo e políticas de retenção que são aplicadas ao conteúdo reutilizável e aos registros de conformidade da sua organização. Você também obterá informações sobre a importação de arquivos CSV com um plano de arquivo para cenários em massa ou para aplicá-los manualmente a documentos individuais. 
 
 ## <a name="guides-for-collaboration"></a>Guias para colaboração
 
-### <a name="microsoft-365-apps-for-enterprise-deployment-advisor"></a>Microsoft 365 Apps for Enterprise Deployment Advisor
+### <a name="microsoft-365-apps-deployment-advisor"></a>Supervisor de implantação de aplicativos do Microsoft 365
 
 O [Microsoft 365 apps Deployment Advisor](https://aka.ms/OPPquickstartguide) ajuda você a obter os dispositivos de seus usuários que executam a versão mais recente dos produtos do Office, como Word, Excel, PowerPoint e OneNote. Você obterá orientações sobre os vários métodos de implantação que incluem opções de auto-instalação simples para implantações corporativas com ferramentas de gerenciamento. As instruções ajudarão você a avaliar seu ambiente, calcular seus requisitos específicos de implantação e implementar as ferramentas de suporte necessárias para garantir uma instalação bem-sucedida. 
 
-### <a name="mobile-apps-setup-assistant"></a>Assistente de configuração de aplicativos móveis
+### <a name="office-mobile-apps-setup-assistant"></a>Assistente de configuração de aplicativos móveis do Office
 
-O [Assistente de configuração de aplicativos móveis](https://aka.ms/officeappguidance) fornece instruções para o download e a instalação de aplicativos do Office em seus dispositivos móveis Windows, Ios e Android. Este guia fornece informações passo a passo para baixar e instalar os aplicativos do Microsoft 365 e do Office 365 em seus dispositivos de telefone e Tablet.
+O [Assistente de configuração de aplicativos móveis do Office](https://aka.ms/officeappguidance) fornece instruções para o download e a instalação de aplicativos do Office em seus dispositivos móveis Windows, Ios e Android. Este guia fornece informações passo a passo para baixar e instalar os aplicativos do Microsoft 365 e do Office 365 em seus dispositivos de telefone e Tablet.
 
 ### <a name="microsoft-teams-setup-guide"></a>Guia de instalação do Microsoft Teams
 
 O [Guia de instalação do Microsoft Teams](https://aka.ms/teamsguidance) fornece à sua organização orientações para configurar espaços de trabalho de equipe que hospedam conversas em tempo real por meio de mensagens, chamadas e reuniões de áudio ou vídeo para a equipe e comunicações privadas. Você receberá as instruções para determinar os requisitos de rede da sua organização usando a ferramenta planejador de rede e o consultor do teams no centro de administração do Microsoft Teams. Após a conclusão da implantação, o guia inclui recursos úteis para começar a usar o Microsoft Teams.
 
-### <a name="sharepoint-deployment-advisor"></a>Supervisor de implantação do SharePoint
+### <a name="sharepoint-setup-guide"></a>Guia de instalação do SharePoint
 
-O [supervisor de implantação do SharePoint](https://aka.ms/spoguidance) ajuda você a configurar o armazenamento de documentos do SharePoint e o gerenciamento de conteúdo, criar sites, configurar o compartilhamento externo, migrar dados e definir configurações avançadas, tudo para conduzir o contrato de usuário e a comunicação em sua organização. Siga as etapas para configurar suas políticas de permissão de compartilhamento de conteúdo, escolha suas ferramentas de sincronização de migração, além de habilitar as configurações de segurança para seu ambiente do SharePoint. 
+O [Guia de configuração do SharePoint](https://aka.ms/spoguidance) ajuda você a configurar o armazenamento de documentos e o gerenciamento de conteúdo do SharePoint, a criar sites, configurar o compartilhamento externo, migrar dados e definir configurações avançadas e promover o contrato de usuário e a comunicação em sua organização. Siga as etapas para configurar suas políticas de permissão de compartilhamento de conteúdo, escolha suas ferramentas de sincronização de migração, além de habilitar as configurações de segurança para seu ambiente do SharePoint. 
 
-### <a name="onedrive-quick-start-guide"></a>Guia de início rápido do OneDrive
+### <a name="onedrive-setup-guide"></a>Guia de configuração do OneDrive
 
 Use o [Guia de configuração do onedrive](https://aka.ms/ODfBquickstartguide) para começar a usar os recursos de armazenamento de arquivos, compartilhamento, colaboração e sincronização do onedrive. O OneDrive fornece um local central onde os usuários podem sincronizar seus arquivos de aplicativos do Microsoft 365, configurar o compartilhamento externo, migrar dados de usuário e definir configurações de segurança avançada e de acesso a dispositivos. O guia de configuração do OneDrive pode ser implantado usando uma assinatura do OneDrive ou um plano autônomo do OneDrive. 
+
+### <a name="yammer-deployment-advisor"></a>Supervisor de implantação do Yammer
+
+Conecte-se e entre em sua organização com o Yammer. O [supervisor de implantação do Yammer](https://aka.ms/yammerdeploymentguide) prepara sua rede do Yammer adicionando domínios, definindo administradores e combinando redes do Yammer. Você obterá orientações para implantar o Yammer e, em seguida, personalizar a aparência, configurar a segurança e a conformidade e refinar as configurações.
 
 ## <a name="advanced-wizards"></a>Assistentes avançados
 
@@ -156,6 +176,12 @@ Use a [atualização in-loco com o guia do Configuration Manager](https://aka.ms
 ### <a name="deploy-office-to-your-users"></a>Implantar o Office para seus usuários
 
 Implantar aplicativos do Office da nuvem com a capacidade de personalizar sua instalação usando a ferramenta de implantação do Office. O [guia implantar o Office em seu usuário ](https://aka.ms/proplusodt) ajuda você a criar uma configuração personalizada do Office com configurações avançadas, ou você pode usar uma configuração previamente criada. Se seus usuários estão realizando uma auto-instalação ou se você está implantando em seus usuários individualmente ou em massa, este assistente avançado fornece instruções passo a passo para fornecer aos usuários uma instalação do Office adaptada para sua organização.
+
+### <a name="deploy-office-to-remote-users"></a>Implantar o Office para usuários remotos
+
+Agora que trabalhar remotamente é a norma, os usuários precisam receber as configurações do Office da sua organização quando não estiverem conectados à sua rede interna ou quando estiverem usando seus próprios dispositivos. 
+
+Use o [guia implantar o Office para usuários remotos](https://aka.ms/officeremoteinstall) para criar uma instalação personalizada do Office e, em seguida, enviar aos usuários um script gerado do PowerShell que irá instalar o Office sem interrupções com sua configuração.
 
 ### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Implantar e atualizar os aplicativos do Microsoft 365 com o Gerenciador de configurações
 

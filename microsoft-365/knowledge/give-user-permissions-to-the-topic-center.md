@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como conceder aos usuários permissões para executar tarefas no centro de tópicos
-ms.openlocfilehash: 2b7c745146b0386ff7f8bc2dcaf126a530b77598
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: b920c6e444eda7b33b8ec71e1bfa4d3ee5b220b6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612567"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949721"
 ---
 # <a name="give-user-permissions-to-the-topic-center-preview"></a>Conceder permissões ao usuário para o centro de tópicos (versão prévia)
 

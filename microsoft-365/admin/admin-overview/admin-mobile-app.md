@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Obtenha o aplicativo de administração do Microsoft 365 e saiba como gerenciar sua organização online do seu telefone ou Tablet.
-ms.openlocfilehash: 287aafb0be3161c5f100211d6d8169fd133d427b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 1ad44ccc379b5115ad36e657708eed38f58dca34
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780536"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948803"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Sobre o aplicativo móvel do Microsoft 365 admin
 
@@ -58,7 +58,7 @@ Assista a um pequeno vídeo sobre como instalar o aplicativo móvel do administr
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
  
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
@@ -88,6 +88,10 @@ Os números representam o total de mensagens da semana anterior e não as mensag
 ### <a name="how-can-i-share-the-service-incidents-and-messages-with-the-rest-of-my-organization"></a>Como posso compartilhar as ocorrências de serviço e as mensagens com o restante da organização?
 
 Se você selecionar um incidente de serviço específico ou uma mensagem, a opção compartilhar estará no canto superior direito. Atualmente, temos suporte para o compartilhamento de emails.
+  
+### <a name="can-i-use-this-app-with-multiple-accounts-or-tenants"></a>Posso usar este aplicativo com várias contas ou locatários?
+
+Sim, você pode configurar várias contas ou locatários.
   
 ### <a name="my-app-is-acting-funny-what-can-i-do-to-troubleshoot-weird-app-behavior"></a>Meu aplicativo está se comportando de forma estranha. O que posso fazer para solucionar problemas de comportamento estranho do aplicativo?
 

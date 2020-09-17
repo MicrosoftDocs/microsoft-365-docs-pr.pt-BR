@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como criar um classificador
-ms.openlocfilehash: 088770ace8914b583b184c78c3ce110d9d68b4c7
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 718d904ca397d43644c578ff6f589b5e5b043e5a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612603"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950151"
 ---
 # <a name="create-a-classifier-preview"></a>Criar um classificador (visualização)
 

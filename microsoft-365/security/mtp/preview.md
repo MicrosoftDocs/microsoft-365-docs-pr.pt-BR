@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 502dc87b45c42f0ae95ea9da898c4d4589b19671
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 1e779e0da89ea49fb4ed390b20a6fb67ffd3b162
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47649944"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47947991"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
 
@@ -50,7 +50,7 @@ Ative a configuração de experiência de visualização para estar entre o prim
 
 3. Selecionar **recursos**  >  **de visualização ative os recursos de visualização**. 
 
-3. Selecione **Salvar**.
+3. Clique em **Salvar**.
 
 Você saberá que os recursos de visualização estão ativados ao ver que a caixa de seleção **ativar recursos de visualização** está marcada. 
 
@@ -59,7 +59,6 @@ Os seguintes recursos e aprimoramentos estão disponíveis atualmente na visuali
 
 - **[APIs de proteção contra ameaças da Microsoft](api-overview.md)** – as APIs de proteção contra ameaças do Lop da Microsoft permitirão automatizar fluxos de trabalho com base no incidente compartilhado e em tabelas de busca avançada. 
 - **[Tabela IdentityDirectoryEvents em busca avançada](advanced-hunting-identitydirectoryevents-table.md)** — encontre eventos que envolvem um controlador de domínio local executando o Active Directory (AD). Esta tabela abrange um intervalo de eventos relacionados à identidade, bem como eventos do sistema no controlador de domínio.
-- **[Função AssignedIPAddresses ()](advanced-hunting-assignedipaddresses-function.md)** — Use essa função em busca avançada para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo ou os endereços IP mais recentes de um momento específico.
 - **[Execute uma ação em busca avançada](advanced-hunting-take-action.md)** , confira rapidamente as ameaças ou atenda aos ativos comprometidos que você encontra em [busca avançada](advanced-hunting-overview.md).
 - **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — Obtenha informações sobre tabelas de esquema de busca avançada diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência conveniente fornece informações sobre tipos de evento ( `ActionType` valores) com suporte e consultas de amostra.
 

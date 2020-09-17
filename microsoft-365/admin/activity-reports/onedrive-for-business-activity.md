@@ -22,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 8bbe4bf8-221b-46d6-99a5-2fb3c8ef9353
 description: Obter o relatório de uso do OneDrive para sua organização e conhecer a atividade de cada usuário do OneDrive, o número de arquivos compartilhados e o uso do armazenamento.
-ms.openlocfilehash: 9de2260049d901b401bd62a9e4d05191222b97a3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: dd5ac1c52d2226b12c75dc92c3407012251a90da
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387532"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948919"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade do OneDrive for Business
 
@@ -56,7 +56,7 @@ Você pode examinar a atividade do OneDrive for Business nos modos de exibição
   
 ![OneDrive Activity Report](../../media/316b2a03-8e42-447c-aae8-080813eebe84.png)
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório **Atividade do OneDrive for Business** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas. <br/>|

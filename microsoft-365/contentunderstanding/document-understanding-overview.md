@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 08/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Obtenha uma visão geral da compreensão do documento no Project Cortex.
-ms.openlocfilehash: bdebc8a8726a7b9a77eb9a1095f83e937cf36cb1
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: c1e4092164ee96d4f244f10be9ebab62a2c8da5b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612709"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950043"
 ---
 # <a name="document-understanding-overview-preview"></a>Visão geral da compreensão do documento (versão prévia)
 > [!Note] 
@@ -36,7 +36,7 @@ Você pode adicionar *classificadores* e *extratores* ao seu documento entendend
 
 - Os classificadores são usados para identificar e classificar documentos que são carregados na biblioteca de documentos. Por exemplo, um classificador pode ser "treinado" para identificar todos os documentos de *renovação de contrato* que são carregados na biblioteca. O tipo de conteúdo de renovação de contrato é definido por você quando você cria o classificador.
 
-- Os extratores recebem informações desses documentos. Por exemplo, para todos os documentos de renovação de contrato identificados na sua biblioteca de documentos, as colunas serão exibidas no modo de exibição que também mostrará a *data de início* e o *cliente* para cada documento de renovação de contrato. 
+- Os extratores recebem informações desses documentos. Por exemplo, para todos os documentos de renovação de contrato identificados na sua biblioteca de documentos, as colunas serão exibidas no modo de exibição que também mostrará a *data de início* e o  *cliente* para cada documento de renovação de contrato. 
 
 Você usa arquivos de exemplo para treinar e testar classificadores e extratores no modelo. Arquivos de exemplo fornecem exemplos de modelo do que procurar ao tentar identificar e extrair dados de arquivos. Por exemplo, você treinaria os classificadores e os extratores de renovação de contrato com exemplos de documentos de renovação de contrato que sua empresa trabalha. Você também pode usar arquivos de exemplo para testar a eficácia do seu modelo.
 

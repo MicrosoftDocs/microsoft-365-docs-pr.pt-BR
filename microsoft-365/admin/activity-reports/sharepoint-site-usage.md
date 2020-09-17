@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: 4ecfb843-e5d5-464d-8bf6-7ed512a9b213
 description: 'Obtenha o relatório de uso do site do SharePoint para saber quantos arquivos os usuários armazenam em sites do SharePoint, quantas são usadas ativamente e o armazenamento total consumido. '
-ms.openlocfilehash: b39f1588f5c0c68a5972aab3039a8d7d901f9dc5
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: 8c2428a49a42a1d259c69297feff13e5c00a9b8e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689295"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948851"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso do site do SharePoint
 
@@ -47,7 +47,7 @@ Os relatórios do Microsoft 365 no centro de administração não têm suporte p
 
 ![SharePoint Site Usage Report](../../media/4f88fb7d-9aa8-470e-9e23-e31caaf77d78.png)
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório **Uso do SharePoint** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas. <br/> |

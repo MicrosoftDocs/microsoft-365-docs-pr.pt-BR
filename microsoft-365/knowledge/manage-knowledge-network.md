@@ -1,22 +1,22 @@
 ---
 title: 'Gerenciar sua rede de gerenciamento de conhecimento (versão prévia) '
 description: Como configurar o gerenciamento de conhecimento.
-author: efrene
-ms.author: efrene
-manager: pamgreen
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
 ms.date: 08/01/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: af53f4d563d286ad29138f935fbb69aa10b902ca
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 3ca180dba82e677dbc0d9f112b713df14820ce61
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612615"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950767"
 ---
 # <a name="manage-your-knowledge-management-network-preview"></a>Gerenciar sua rede de gerenciamento de conhecimento (versão prévia)
 
@@ -33,7 +33,7 @@ Por exemplo, você pode precisar ajustar suas configurações para qualquer um d
 - Alterar o nome do seu centro de tópico
 
 
-## <a name="requirements"></a>Requisitos 
+## <a name="requirements"></a>Requirements 
 Você deve ter permissões de administrador global ou administrador do SharePoint para poder acessar o centro de administração do Microsoft 365 e gerenciar tarefas de conhecimento organizacional.
 
 
@@ -62,7 +62,7 @@ Selecione a guia **descoberta de tópico** se quiser atualizar suas escolhas par
    
     Se você tiver um número de sites que você deseja excluir (se você selecionar **todos, exceto os sites selecionados**) ou incluir (se você selecionou **apenas sites selecionados**), poderá optar por carregar um arquivo CSV com os nomes e URLs dos sites. Você pode selecionar **baixar modelo de site. csv** se quiser usar o arquivo de modelo CSV.
 
-3. Selecione **Salvar**.
+3. Clique em **Salvar**.
 
 ##  <a name="change-who-can-see-topics-in-your-organization"></a>Alterar quem pode ver os tópicos em sua organização
 
@@ -75,7 +75,7 @@ Selecione a guia **descoberta de tópico** se você deseja atualizar quem em sua
     c. **Ninguém**</br>
 
     ![Quem pode ver os tópicos](../media/content-understanding/k-manage-who-can-see-topics.png) </br> 
-3. Selecione **Salvar**.  
+3. Clique em **Salvar**.  
  
 > [!Note] 
 > Embora essa configuração permita que você selecione qualquer usuário em sua organização, somente os usuários que têm licenças de gerenciamento de conhecimento atribuídas poderão exibir tópicos.
@@ -96,7 +96,7 @@ Para atualizar as permissões para criar e editar tópicos:
 
     ![Criar e editar tópicos](../media/content-understanding/k-manage-who-can-create-and-edit.png) </br> 
 
-3. Selecione **Salvar**.</br>
+3. Clique em **Salvar**.</br>
 
 Para atualizar as permissões para gerenciar tópicos:
 
@@ -107,7 +107,7 @@ Para atualizar as permissões para gerenciar tópicos:
 
     ![Gerenciar tópicos](../media/content-understanding/k-manage-who-can-manage-topics.png) </br> 
 
-3. Selecione **Salvar**.</br>
+3. Clique em **Salvar**.</br>
 
 
 ##  <a name="update-your-topic-center-name"></a>Atualizar o nome da central de tópicos

@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: be35663fc32a2d214e1ca0ae91161079a5f672a3
-ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
+ms.openlocfilehash: 686d31c64394094530099edb97bbd10912a58cb8
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651139"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949887"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -114,8 +114,8 @@ O Azure AD fornece um pacote completo de recursos de gerenciamento de identidade
 | [Grupos do Azure AD](/azure/active-directory/fundamentals/active-directory-manage-groups) | As políticas de acesso condicional, gerenciamento de dispositivos com o Intune e até mesmo permissões para arquivos e sites em sua organização dependem da atribuição para contas de usuário ou grupos do Azure AD. Recomendamos que você crie grupos do Azure AD que correspondam aos níveis de proteção que você está implementando. Por exemplo, sua equipe executiva é provavelmente metas de valor mais alto para hackers. Portanto, faz sentido adicionar as contas de usuário desses funcionários a um grupo do Azure AD e atribuir esse grupo a políticas de acesso condicional e outras políticas que impõem um nível mais alto de proteção para o Access. | Microsoft 365 E3 ou E5 |
 | [Registro do dispositivo](/azure/active-directory/devices/overview) | Você inscreve um dispositivo no Azure AD para criar uma identidade para o dispositivo. Essa identidade é usada para autenticar o dispositivo quando um usuário entra e para aplicar as políticas de acesso condicional que exigem computadores associados ou em conformidade com o domínio. Para este guia, usamos o registro de dispositivos para registrar automaticamente os computadores Windows associados ao domínio. O registro de dispositivo é um pré-requisito para gerenciar dispositivos com o Intune. | Microsoft 365 E3 ou E5 |
 | [Azure AD Identity Protection](/azure/active-directory/identity-protection/overview) | Permite que você detecte possíveis vulnerabilidades que afetam as identidades da sua organização e configure a política de correção automatizada para riscos de entrada baixa, média e alta e o risco do usuário. Este guia depende dessa avaliação de risco para aplicar políticas de acesso condicional para a autenticação multifator. Este guia também inclui uma política de acesso condicional que exige que os usuários alterem a senha se for detectada atividade de alto risco para a conta. | Microsoft 365 e5, Microsoft 365 E3 com a identidade & Complementos de proteção contra ameaças, EMS E5 ou Azure Premium P2 licenças |
-| [Redefinição de senha de autoatendimento (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks) | Permita que os usuários redefinam suas senhas com segurança e sem a intervenção do técnico, fornecendo a verificação de vários métodos de autenticação que o administrador pode controlar. | Microsoft 365 E3 ou E5 |
-| [Proteção de senha do Azure ad](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad). Detectar e bloquear senhas fracas conhecidas e suas variantes e termos fracos adicionais que são específicos para sua organização. As listas de senhas globais excluídas padrão são automaticamente aplicadas a todos os usuários em um locatário do Azure AD. Você pode definir entradas adicionais em uma lista personalizada de senhas proibidas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para impor o uso de senhas seguras. |  Microsoft 365 E3 ou E5 |
+| [Redefinição de senha por autoatendimento (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks) | Permita que os usuários redefinam suas senhas com segurança e sem a intervenção do técnico, fornecendo a verificação de vários métodos de autenticação que o administrador pode controlar. | Microsoft 365 E3 ou E5 |
+| [Proteção de senha do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | Detectar e bloquear senhas fracas conhecidas e suas variantes e termos fracos adicionais que são específicos para sua organização. As listas de senhas globais excluídas padrão são automaticamente aplicadas a todos os usuários em um locatário do Azure AD. Você pode definir entradas adicionais em uma lista personalizada de senhas proibidas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para impor o uso de senhas seguras. |  Microsoft 365 E3 ou E5 |
 ||||
 
 ![Componentes de identidade e acesso de dispositivo.](../media/microsoft-365-policies-configurations/identity-device-access-components.png)

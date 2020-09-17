@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 12ac7d0a3d07749e16443e645f50de8fda185658
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: b9e900baf02e9fc866fe6fe520ad1e40ccd565de
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866774"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950695"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integre as permissões do ServiceNow no centro de segurança e centro de conformidade do Microsoft 365
 
@@ -32,7 +32,7 @@ ms.locfileid: "46866774"
 
 O ServiceNow é uma plataforma de computação em nuvem popular que ajuda as empresas a gerenciar fluxos de trabalho digitais para operações corporativas. A plataforma atual tem fluxos de trabalho de ti, fluxos de trabalho de funcionários e fluxos de trabalho de cliente. [Saiba mais sobre o ServiceNow](https://www.servicenow.com/)
 
-A Microsoft fez uma parceria com o ServiceNow para tornar mais fácil para os administradores de ti gerenciar suas permissões e tarefas em ambas as plataformas. O centro de [segurança do microsoft 365](overview-security-center.md) e o [centro de conformidade da Microsoft 365](https://docs.microsoft.commicrosoft-365/compliance/microsoft-365-compliance-center) estão sendo aprimorados com a capacidade de criar e controlar de forma nativa as permissões no ServiceNow.
+A Microsoft fez uma parceria com o ServiceNow para tornar mais fácil para os administradores de ti gerenciar suas permissões e tarefas em ambas as plataformas. O centro de [segurança do microsoft 365](overview-security-center.md) e o [centro de conformidade da Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) estão sendo aprimorados com a capacidade de criar e controlar de forma nativa as permissões no ServiceNow.
 
 - [**Gerenciar tíquetes do ServiceNow na central de segurança**](tickets-security-center.md)
 - **Gerenciar tíquetes do ServiceNow no centro de conformidade** (em breve)

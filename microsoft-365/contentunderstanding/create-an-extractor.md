@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como criar um extrator
-ms.openlocfilehash: 64dede9f6613da82c65ca12c6c335a25301f5b9e
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 7219726fb385d0b67f7ee0614f5075ba226140ab
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612757"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950079"
 ---
 # <a name="create-an-extractor-preview"></a>Criar um extrator (versão prévia)
 > [!Note] 
@@ -82,7 +82,7 @@ Para ajudar a identificar a *data de início do serviço* , você pode criar uma
     - 0/00/0000
     - 00/0/0000
     - 00/00/0000
-4. Selecione **Salvar**.
+4. Clique em **Salvar**.
 
 
 ### <a name="use-the-explanation-library"></a>Usar a biblioteca de explicação
@@ -97,7 +97,7 @@ Para nosso exemplo de *data de início do serviço* , é mais eficiente usar a e
 
     ![Biblioteca de explicação](../media/content-understanding/explanation-library.png) 
 
-4. Na página **criar uma explicação** , as informações de *Data* da biblioteca explicação farão preenchimento automático dos campos. Selecione **Salvar**.</br>
+4. Na página **criar uma explicação** , as informações de *Data* da biblioteca explicação farão preenchimento automático dos campos. Clique em **Salvar**.</br>
 
     ![Biblioteca de explicação](../media/content-understanding/date-explanation-library.png) 
 
@@ -120,7 +120,7 @@ Para o nosso exemplo, percebemos que a *data de início do serviço de sequênci
 1. Na seção explicação, selecione **novo**e digite um nome (por exemplo, *cadeia de caracteres de prefixo*).
 2. Para o tipo, selecione **lista de frases**.
 3. Use a *data de início do serviço* como o valor.
-4. Selecione **Salvar**.
+4. Clique em **Salvar**.
 
     ![Biblioteca de explicação](../media/content-understanding/prefix-string.png) 
 

@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Saiba como obter o relatório de uso de aplicativos de email para saber mais sobre os aplicativos de email que se conectam ao Exchange Online e os usuários da versão do Outlook estão usando o.
-ms.openlocfilehash: bfd8a911652283685486202203d0302479a8270e
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: c6ee72390f0b9e9ead0f07c41d64bf5b7264fc1b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005740"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948239"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de aplicativos de email
 
@@ -46,7 +46,7 @@ Você pode obter uma visão da atividade aplicativos de email examinando os grá
   
 ![Clientes de email usados](../../media/2a775e46-750f-4fa6-8197-de4b24614bd7.png)
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório de **uso de aplicativos de email** pode ser exibido para tendências nos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |

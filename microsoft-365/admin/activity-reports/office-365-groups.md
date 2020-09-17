@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Obtenha um relatório do Microsoft 365 groups para saber mais sobre os grupos e suas atividades.
-ms.openlocfilehash: 5c89cc6b5b211cbba3414f61d6b15c0c62f54c73
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1d329efa4fe7cdf12b6c7452b6480d237fb3d5c1
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387556"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948983"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos
 
@@ -46,7 +46,7 @@ Você pode obter uma visão da atividade de grupos examinando os gráficos de **
   
 ![Relatórios da Microsoft 365-grupos de atividades](../../media/852027a4-8eab-47d1-b770-2bb874bdc403.png)
   
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório de **grupos do Microsoft 365** pode ser exibido para tendências nos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |

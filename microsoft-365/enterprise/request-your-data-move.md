@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Os clientes existentes do Office 365 devem enviar uma solicitação antes do prazo final para que seu país tenha seus dados de serviços do Microsoft 365 movidos para a nova geografia.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91ef6b35378c342b5f70182acc351e5288c34def
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f7ca333ca12faab84df54582ecd3212842d26e1a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686985"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949793"
 ---
 # <a name="how-to-request-your-data-move"></a>Como solicitar a migração dos dados
 
@@ -43,9 +43,9 @@ Os clientes do Microsoft 365 existentes estão qualificados para solicitar a mig
 |Emirados Árabes Unidos  <br/> |15 de julho de 2019  <br/> |30 de junho de 2020  <br/> |
 |África do Sul  <br/> |25 de julho de 2019  <br/> |30 de junho de 2020  <br/> |
 |Suíça, Liechtenstein  <br/> |10 de dezembro de 2019  <br/> |30 de junho de 2020  <br/> |
-|Alemanha  <br/> |Liga  <br/> |Liga  <br/> |
 |Noruega  <br/> |15 de abril de 2020  <br/> |31 de outubro de 2020  <br/> |
-   
+|Alemanha  <br/> |Liga  <br/> |Liga  <br/> |
+
 ## <a name="how-to-request-a-move"></a>Como solicitar uma movimentação
 
 Os clientes qualificados verão uma página no [centro de administração do Microsoft 365](https://aka.ms/365admin), que lhes permitirá solicitar que seus principais dados do cliente sejam movidos para sua nova região de datacenter.  
@@ -53,11 +53,7 @@ Os clientes qualificados verão uma página no [centro de administração do Mic
 Para acessar a página no centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **configurações**e clique em **configurações da organização**.
 Selecione o **perfil de organização**da guia e, em seguida, selecione a opção **Data Residency**.
   
-**Talvez você não veja esta seção se uma das seguintes opções se aplicar**:
-- Seu locatário não está qualificado para o programa Office 365 move.  A qualificação é determinada pelo país de inscrição do locatário.
-- Todos os dados principais do cliente em repouso já estão localizados na nova Geografia (consulte a seção local dos dados da página). 
-  
-Se sua organização tiver requisitos de residência de dados e você precisar solicitar migração, marque a caixa de seleção e **salve**.
+Você não verá esta seção se o seu locatário não estiver qualificado para o programa Microsoft 365 move.  Se sua organização tiver requisitos de residência de dados e você precisar solicitar migração, marque a caixa de seleção e **salve**.
   
 ![Tela de aceitação de data center](../media/dataresidencyflyoutae.jpg)
   
@@ -67,13 +63,13 @@ Você deve ver o texto na seção **residência de dados** alterar para indicar 
   
 ## <a name="what-happens-after-requesting-a-move"></a>O que acontece depois de solicitar uma movimentação?
 
-Depois de solicitar uma movimentação, planejaremos movê-lo tão rapidamente quanto nossas restrições operacionais permitir. Devido à natureza imprevisível de muitas das restrições, não é possível compartilhar uma data ou um intervalo de tempo específico para as movimentações. Você verá uma notificação após a conclusão da movimentação.
+Depois de solicitar uma movimentação, planejaremos movê-lo tão rapidamente quanto nossas restrições operacionais permitir. Devido à natureza imprevisível de muitas das restrições, não é possível compartilhar uma data ou um intervalo de tempo específico para as movimentações. Os administradores de locatários do cliente verão uma notificação no centro de mensagens após a conclusão da movimentação de cada serviço.
   
 As movimentações podem levar até 24 meses do prazo da solicitação para que o seu país seja concluído.
   
 ## <a name="microsoft-teams"></a>Microsoft Teams
 
-A partir de janeiro de 2020, os clientes nos países do Office 365 qualificados podem optar por migrar dados do serviço de chat do Microsoft Teams.  As linhas do ponto de adesão foram reabertas ou estendidas para todos os países qualificados para oferecer aos clientes uma oportunidade de considerar o programa de migração com o Microsoft Teams no escopo. Os clientes que anteriormente optaram por uma mudança de residência de dados também terão o Teams mudar para sua geografia local de datacenter.
+A partir de janeiro de 2020, os clientes nos países do Office 365 qualificados podem optar por migrar dados do serviço de chat do Microsoft Teams.  As linhas do ponto de adesão foram reabertas ou estendidas para todos os países qualificados para oferecer aos clientes uma oportunidade de considerar o programa de migração com o Microsoft Teams no escopo. Os clientes que anteriormente optaram por uma movimentação de residência de dados também terão o Teams migrar para sua geografia local de datacenter, nenhuma ação adicional será necessária para esses clientes.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

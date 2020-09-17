@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Use os rótulos e políticas de retenção da Microsoft 365 para gerenciar dados pessoais no seu ambiente do Microsoft 365.
-ms.openlocfilehash: a7a0d6e00d29d80dfd0cb72ba217177aa6029a2c
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 766995b9c758d4ae8cbf7140fb259d208cfb7771
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522296"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949247"
 ---
 # <a name="govern-information-subject-to-data-privacy-regulation"></a>Controlar informações sujeitas à regulamentação de privacidade de dados
 
@@ -81,27 +81,13 @@ Lembre-se do seguinte:
 
 - Depois que os tipos de informações pessoais no ambiente são mais conhecidos, estabeleça agendas de retenção e exclusão para esse tipo de conteúdo e ajuste sua arquitetura de informações para facilitar a governança desse tipo de informação. Por exemplo, isole informações pessoais em sites, bibliotecas ou pastas separadas com acesso controlado.
 
-### <a name="retention-policies"></a>Políticas de retenção
+### <a name="retention-policies-and-retention-labels"></a>Políticas de retenção e rótulos de retenção
 
-Criar e implantar [políticas de retenção](../compliance/retention-policies.md) para conteúdo em sites que são automaticamente aplicados.
-
-Para privacidade de dados de sites que contenham ou que devam conter dados pessoais, especifique regras de retenção ou exclusão para lidar com padrões organizacionais.
-
-### <a name="retention-labels"></a>Rótulos de retenção
-
-Criar e implantar [Rótulos de retenção](../compliance/labels.md) para conteúdo e email.
-
-Para privacidade de dados de sites, bibliotecas, pastas e emails que contêm ou que devem conter dados pessoais, especifique regras de retenção ou exclusão automáticas para lidar com padrões organizacionais.
+Use [as políticas de retenção e os rótulos de retenção](../compliance/retention.md) para reter ou excluir o conteúdo no Microsoft 365 que contém ou deve conter dados pessoais.
 
 ### <a name="records-management"></a>Gerenciamento de registros
 
-Criar e implantar rótulos de retenção para gerenciamento de registros com base em um agendamento de retenção de registros e plano de arquivo.
+Use rótulos de retenção que declarem o conteúdo um registro para implementar uma [solução de gerenciamento de registros](../compliance/records-management.md) para dados no Microsoft 365.
 
-Para a privacidade dos dados, as solicitações de entidades de dados (DSRs) recebidas pelo departamento jurídico são declaradas como um registro e armazenadas indefinidamente para aderir às especificações de retenção de atividade regulamentar.
+Para a privacidade dos dados, as solicitações de entidades de dados (DSRs) recebidas pelo departamento jurídico são declaradas como um registro e podem ser armazenadas indefinidamente ou descartadas com provas, para cumprir as especificações de retenção de atividade regulamentar.
 
-Consulte estes recursos para obter mais informações: 
-
-- [Gerenciamento de Registros](../compliance/records-management.md)
-- [Gerenciador de planos de arquivo](../compliance/file-plan-manager.md)
-- [Retenção baseada em eventos para gerenciamento de registros](../compliance/automate-event-driven-retention.md)
-- [Disposição do conteúdo](../compliance/disposition-reviews.md)

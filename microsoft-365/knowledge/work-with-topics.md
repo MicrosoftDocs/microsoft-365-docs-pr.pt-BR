@@ -7,16 +7,16 @@ manager: pamgreen
 ms.date: 08/01/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: e4a9917464e22c6220d26619e7b5ca60f090abb7
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 82a1b1990f464a892b8216caa26e0422b093bf37
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612485"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948049"
 ---
 # <a name="work-with-topics-in-the-topic-center-preview"></a>Trabalhar com tópicos no centro de tópicos (versão prévia)
 
@@ -26,7 +26,7 @@ ms.locfileid: "46612485"
 
 No centro de tópicos, um gerente de conhecimento pode examinar os tópicos que foram extraídos e descobertos nos locais de origem do SharePoint que você especificou e pode confirmá-los ou rejeitá-los. Um gerente de conhecimento também pode criar e publicar novas páginas de tópico, se uma não foi encontrada no tópico Discovery, ou editar as existentes, caso precisem ser atualizadas.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Para trabalhar no centro de tópicos, você precisa ter as permissões necessárias. Seu administrador pode adicionar você durante [a configuração do gerenciamento de conhecimento](set-up-knowledge-network.md)ou novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md).
 
@@ -70,7 +70,7 @@ Para criar um novo tópico:
     c. Na seção **Descrição curta** , digite uma ou duas sentenças descrição do tópico. Este texto será usado para o cartão de tópico associado.</br>
     d. Na seção **pessoas** , digite os nomes dos especialistas no assunto do tópico.</br>
     e. Na seção **arquivos e páginas** , selecione **Adicionar** e, na próxima página, você pode selecionar arquivos associados do onedrive ou páginas do SharePoint Online.</br>
-    f. Na seção **sites** , selecione **Adicionar**. No painel **sites** exibido, selecione os sites associados ao tópico.</br>
+    f. Na seção **sites** , selecione **Adicionar**. No painel  **sites** exibido, selecione os sites associados ao tópico.</br>
 
     ![Nova página de tópico](../media/content-understanding/k-new-topic-page.png) </br>
 3. Se você precisar adicionar outros componentes à página, como texto, imagens, WebParts, links, etc., selecione o ícone de tela no meio da página para localizar e adicioná-los.

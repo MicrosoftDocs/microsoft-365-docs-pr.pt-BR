@@ -1,22 +1,22 @@
 ---
 title: 'Configurar a compreensão do conteúdo (versão prévia) '
 description: Como configurar o Project Cortex.
-author: efrene
-ms.author: efrene
-manager: pamgreen
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
 ms.date: 08/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5fcc7f78bfc12faae19ce2a3fbc77c4348da01de
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 05696f99e59cbd51ba004f6007311b4b6af4a839
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612697"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950031"
 ---
 # <a name="set-up-content-understanding-preview"></a>Configurar a compreensão do conteúdo (versão prévia)
 
@@ -32,7 +32,7 @@ Antes da instalação, certifique-se de planejar a melhor maneira de configurar 
 Um administrador também pode fazer alterações nas configurações selecionadas a qualquer momento após a configuração por meio das configurações de gerenciamento de compreensão do conteúdo no centro de administração do Microsoft 365.
 
 
-## <a name="requirements"></a>Requisitos 
+## <a name="requirements"></a>Requirements 
 Você precisa ter permissões de administrador global ou administrador do SharePoint para poder acessar o centro de administração do Microsoft 365 e configurar a compreensão do conteúdo.
 
 

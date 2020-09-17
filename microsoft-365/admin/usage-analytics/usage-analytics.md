@@ -19,17 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obtenha uma visão geral de como sua organização está adotando os serviços do Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: 6619205fb62cce3ba7c62c3df773f650dc125dac
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fecaed3aa9fc2d0990cb3e7b416cee1bfab21d7e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402017"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948623"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 ---
-A análise de uso do Microsoft 365 ainda não está disponível para a Comunidade do governo dos EUA da Microsoft 365.
- 
+
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Visão geral da análise de uso do Microsoft 365
 
 Use a análise de uso do Microsoft 365 no Power BI para obter informações sobre como sua organização está adotando os vários serviços no Microsoft 365 para se comunicar e colaborar. Você pode visualizar e analisar os dados de uso do Microsoft 365, criar relatórios personalizados e compartilhar os insights dentro da sua organização e obter informações sobre como regiões ou departamentos específicos usam o Microsoft 365.
@@ -52,7 +51,7 @@ Este resumo permite que você entenda rapidamente os padrões de uso no Office e
 
 ![Imagem do resumo executivo de uso do Microsoft 365.](../../media/office365usage-exec-summary.png)
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O relatório de visão geral do Microsoft 365 contém os seguintes relatórios. Você pode exibi-las escolhendo a guia na parte superior da página de relatório. Todos os valores do mês mostrados na seção superior do relatório referem-se ao último mês completo.
 
@@ -136,7 +135,7 @@ Além disso, os detalhes no nível do usuário no aplicativo de modelo só estã
 
 ### <a name="when-should-i-use-the-template-app-and-when-the-usage-reports"></a>Quando devo usar o aplicativo de modelo e quando os relatórios de uso?
 
-Os [relatórios de atividades](../activity-reports/activity-reports.md) são um bom ponto de partida para entender o uso e a adoção do Microsoft 365. O aplicativo de modelo combina os dados de uso do Microsoft 365 e as informações do Active Directory da sua organização e permite que os administradores analisem o conjunto de dados usando os recursos do Visual Analytics do Power BI. Isso permite que os administradores não apenas visualizem e analisem os dados de uso do Microsoft 365, mas também o slicem por propriedades do Active Directory, como departamentos, local, etc. Eles também podem criar relatórios personalizados e compartilhar as ideias dentro de sua organização. 
+Os [relatórios de atividades](../activity-reports/activity-reports.md)  são um bom ponto de partida para entender o uso e a adoção do Microsoft 365. O aplicativo de modelo combina os dados de uso do Microsoft 365 e as informações do Active Directory da sua organização e permite que os administradores analisem o conjunto de dados usando os recursos do Visual Analytics do Power BI. Isso permite que os administradores não apenas visualizem e analisem os dados de uso do Microsoft 365, mas também o slicem por propriedades do Active Directory, como departamentos, local, etc. Eles também podem criar relatórios personalizados e compartilhar as ideias dentro de sua organização. 
 
 ### <a name="how-often-is-the-data-refreshed"></a>Com que frequência os dados são atualizados? 
 

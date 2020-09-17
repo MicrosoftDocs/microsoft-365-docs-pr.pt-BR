@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: c45b7d1b01ee776e9519d67ee52d36b8f48bf0ef
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 9fc4c99254f4f27b476930a555b237be093bff24
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552349"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950719"
 ---
 # <a name="automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Recursos de investigação e resposta automatizados no Microsoft Threat Protection
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-Como os alertas de segurança são disparados, a equipe de operações de segurança pode examinar os alertas e realizar etapas para proteger sua organização. Priorizar e investigar alertas pode consumir muito tempo, especialmente quando novos alertas continuam chegando enquanto uma investigação está em andamento. As equipes de operações de segurança podem se sentir sobrecarregadas pelo simples volume de ameaças que devem ser monitoradas e protegidas. Os recursos de investigação e resposta automatizados (também conhecidos como recursos de auto-recuperação *automática* ) no Microsoft Threat Protection podem ajudar. 
+Como os alertas de segurança são disparados, a equipe de operações de segurança pode examinar os alertas e realizar etapas para proteger sua organização. Priorizar e investigar alertas pode consumir muito tempo, especialmente quando novos alertas continuam chegando enquanto uma investigação está em andamento. As equipes de operações de segurança podem se sentir sobrecarregadas pelo simples volume de ameaças que devem ser monitoradas e protegidas. Os recursos de investigação e resposta automatizados (também conhecidos como recursos de *auto-recuperação* ) no Microsoft Threat Protection podem ajudar. 
 
 Assista ao vídeo a seguir para ver como funcionam as funcionalidades automatizadas de auto-recuperação:
 
@@ -78,7 +78,7 @@ Enquanto uma investigação está em execução, quaisquer outros alertas relaci
 |Requisitos de rede |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) habilitado<br/>- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) (MCAS) configurado<br/>- [MCAS integrado ao Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
 |Requisitos de máquina do Windows |– Windows 10, versão 1709 ou posterior instalado (consulte [informações sobre a versão do Windows 10](https://docs.microsoft.com/windows/release-information/)) com os seguintes serviços de proteção contra ameaças configurados:<br/>- [Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) <br/>- [Antivírus do Windows Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) |
 |Proteção para arquivos de conteúdo de email e do Office |[Proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) configurada |
-|Permissões |– Para configurar a investigação e a resposta automatizadas, você deve ter a função de administrador global ou administrador de segurança atribuída no Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) ou no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/><br/>– Para usar os recursos de investigação e resposta automatizados, confira [permissões necessárias para tarefas da central de ações](mtp-action-center.md#required-permissions-for-action-center-tasks). |
+|Permissions |– Para configurar a investigação e a resposta automatizadas, você deve ter a função de administrador global ou administrador de segurança atribuída no Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) ou no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/><br/>– Para usar os recursos de investigação e resposta automatizados, confira [permissões necessárias para tarefas da central de ações](mtp-action-center.md#required-permissions-for-action-center-tasks). |
 
 ## <a name="next-steps"></a>Próximas etapas
 

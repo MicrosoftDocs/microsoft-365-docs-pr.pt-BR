@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revise as respostas para perguntas frequentes sobre a implantação centralizada no centro de administração do Microsoft 365.
-ms.openlocfilehash: b1b5ccbb5373bf5d536208efdfe487bc0c872f25
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 555496f15663b6607ebc785498bdc94b5e51b9c9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102879"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948683"
 ---
 # <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre a Implantação centralizada
 
@@ -94,8 +94,10 @@ Sugerimos acessar o desenvolvedor de ISV do suplemento pago para solicitar um ar
     
 ## <a name="which-admin-role-do-i-need-to-manage-add-ins-for-my-organization"></a>Qual função de administrador preciso gerenciar suplementos para minha organização?  
 
-Você deve ter a função de administrador global para gerenciar suplementos. Se você é a pessoa que comprou sua assinatura do Microsoft 365 for Business, você é o administrador global. 
+O administrador global é a função recomendada com acesso completo ao ciclo de vida de gerenciamento de suplementos. Outras funções de administrador têm acesso limitado ao ciclo de vida de implantação de suplementos. Se você é a pessoa que comprou sua assinatura do Microsoft 365 for Business, você é o administrador global. 
  
 Sua assinatura vem com um conjunto de funções de administrador que você pode atribuir a outros usuários em sua organização. Cada função de administrador mapeia para funções comuns de negócios e dá às pessoas de suas permissões de organização a execução de tarefas específicas no centro de administração do Microsoft 365.  
  
 Para obter mais informações, consulte [assign admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide).  
+
+

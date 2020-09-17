@@ -7,16 +7,16 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: e9306ff3f797e03422a40ceb189a76dee331ddd9
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 6e4038982f396bbd427273225c2a3d1a9f866252
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612497"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948121"
 ---
 # <a name="topic-center-overview-preview"></a>Visão geral do centro de tópicos (versão prévia)
 

@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2c654cb0ec2afd138c7c9fb4b339b53a8522e5e4
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 034dd31309c783e8b231a113d2bda5ccb1888d5b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547199"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950755"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar as políticas de acesso de dispositivo e identidade
 
@@ -92,7 +92,7 @@ Os clientes a seguir são recomendados quando uma política de documentos seguro
 |Android|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
 |iOS|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
 |macOS|Com suporte|Com suporte|N/D|N/D|Sem suporte|
-|Linux|Sem suporte|Sem suporte|Sem suporte|Sem suporte|Sem suporte|
+|Linux|Incompatível|Incompatível|Incompatível|Incompatível|Incompatível|
 
 ### <a name="microsoft-365-client-support"></a>Suporte ao aplicativo cliente do Microsoft 365
 
@@ -116,6 +116,6 @@ Veja algumas recomendações adicionais:
 
 ## <a name="next-step"></a>Próxima etapa
 
-![Etapa 2: configurar as políticas de acesso condicional de identidade e acesso comuns](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
+[![Etapa 2: configurar as políticas de acesso condicional de identidade e acesso comuns](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
 [Configurar as políticas comuns de acesso de dispositivo e identidade](identity-access-policies.md)

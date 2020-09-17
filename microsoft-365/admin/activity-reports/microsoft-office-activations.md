@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Saiba como obter um relatório de ativação do Office para saber quais usuários ativaram a assinatura do Office e identifique os usuários que podem precisar de mais ajuda.
-ms.openlocfilehash: 3b7d3e599d31377fb11a07623a53a3c75dced129
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 228d8a6437cecfad8e7600a354ca31ddd6b0e6c4
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387736"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949139"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Relatórios do Microsoft 365 no centro de administração-ativações do Microsoft Office
 
@@ -48,11 +48,11 @@ Você pode analisar as ativações do Office na sua organização olhando os gr�
   
 ![Contagem de ativações do Office](../../media/8c0ae08d-2d71-4437-9147-12c345bb5e9d.png)
   
-|||
+|Item|Descrição|
 |:-----|:-----|
-|1   <br/> |O relatório Ativações do Office apresenta o estado atual dos dados de ativações de licença do Office [na data do relatório apresentado na parte superior direita do gráfico].  <br/> |
-|duas  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |
-|3D  <br/> |O gráfico **Ativações** mostra a contagem de ativações do Office em computadores e dispositivos.  <br/> |
+|1  <br/> |O relatório Ativações do Office apresenta o estado atual dos dados de ativações de licença do Office [na data do relatório apresentado na parte superior direita do gráfico].  <br/> |
+|2   <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |
+|3   <br/> |O gráfico **Ativações** mostra a contagem de ativações do Office em computadores e dispositivos.  <br/> |
 |4   <br/> |O gráfico **Usuários** mostra a contagem de usuários que estão habilitados e quais usuários ativaram a assinatura do Office em computadores e dispositivos.  <br/> |
 |5   <br/> | No gráfico **Ativações**, o eixo Y é a contagem de ativações do Office.  <br/>  Já no gráfico **Usuários**, ele é a atividade do usuário de ativar o Office.  <br/>  O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse relatório específico.  <br/> |
 |6   <br/> |Você pode filtrar gráficos que vê selecionando um item na legenda. Por exemplo, no gráfico de **ativações** , selecione **sistema operacional Windows**, **Mac os**, **Windows 10 Mobile**, **Ios** ou **Android** para ver apenas as informações relacionadas a cada uma. Ao alterar essa seleção, as informações da tabela não mudam. <br/> ![Dados de ativação para dispositivos](../../media/59d3ec6e-2a6e-4b21-8aac-c73038c47b9f.png)  <br/> |

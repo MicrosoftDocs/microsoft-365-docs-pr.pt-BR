@@ -1,5 +1,5 @@
 ---
-title: Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams-visualização
+title: Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,30 +19,34 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como obter o relatório de atividades do usuário do Microsoft Teams e obtenha informações sobre a atividade do teams em sua organização.
-ms.openlocfilehash: 734a4dfd62160c2f4d29b8faffb3268a1962fe4f
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+ms.openlocfilehash: 5b6c67903e7af600cac6ad1fda10962aecc2cc83
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167336"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949019"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity--preview"></a>Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams-visualização
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams
 
 O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de atividade de usuários do Microsoft Teams, você pode obter informações sobre a atividade do Microsoft Teams em sua organização.
   
 > [!NOTE]
 > Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
  
-## <a name="how-to-get-to-the-preview-microsoft-teams-user-activity-report"></a>Como acessar o relatório de atividades do usuário da visualização do Microsoft Teams
+## <a name="how-to-get-to-the-microsoft-teams-user-activity-report"></a>Como gerar o relatório de atividade de usuários do Microsoft Teams
 
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
-2. No menu suspenso **selecionar um relatório** , selecione **Microsoft Teams**.
+2. Na página inicial do painel, clique no botão **Exibir mais** no cartão de atividades do Microsoft Teams.
   
-## <a name="interpret-the-preview-microsoft-teams-user-activity-report"></a>Interpretar o relatório de atividades do usuário da visualização do Microsoft Teams
+## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Interpretar o relatório de atividade de usuários do Microsoft Teams
 
-Você pode exibir a atividade do usuário no relatório do preview Teams escolhendo a guia **atividade do usuário** .
-  
-|||
+Você pode exibir a atividade do usuário no relatório do teams escolhendo a guia **atividade do usuário** . <br/>![Microsoft 365 Reports-atividade de usuário do Microsoft Teams.](../../media/1011877f-3cf0-4417-9447-91d0b2312aab.png)
+
+Selecione **escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
+
+Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
+
+|Item|Descrição|
 |:-----|:-----|
 |**Indicador**|**Definição**|
 |Nome de usuário  <br/> |O endereço de email do usuário. Você pode exibir o endereço de email real ou tornar este campo anônimo.   <br/> |

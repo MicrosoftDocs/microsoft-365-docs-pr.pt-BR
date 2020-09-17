@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre o processamento de formulários no Project Cortex.
-ms.openlocfilehash: 44ae5d9cbfbabc5615a751dba5f6c13290fc7b35
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: de8e0ed546380059cc1b7b209eeec71f1eb779f9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405617"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950019"
 ---
 # <a name="form-processing-overview-preview"></a>Visão geral do processamento de formulário (versão prévia)
 > [!Note]

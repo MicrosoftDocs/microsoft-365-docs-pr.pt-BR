@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre a autenticação multifator no Microsoft 365.
-ms.openlocfilehash: 71a61c51d2813880cad782d132679fa413ada987
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: bca84e949e696b483b567bf5f72233840023abca
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083581"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948707"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para Microsoft 365
 
@@ -59,7 +59,7 @@ Essas formas se baseiam no seu plano Microsoft 365.
 |---------|---------|----------|
 | Todos os planos do Microsoft 365 | Use os padrões de segurança, que requerem MFA para todas as contas de usuário. <br> Você também pode exigir a MFA em uma conta por usuário, mas isso não é recomendado. | Pequena empresa |
 | Microsoft 365 Business Premium <br><br> Microsoft 365 E3 <br><br> Azure Active Directory (Azure AD) licenças Premium P1 | Use as políticas de acesso condicional para exigir a MFA de contas de usuário com base na associação de grupo, aplicativos ou outros critérios. | Pequena empresa para empresas |
-| Microsoft 365 E5 <br><br> Licenças do Azure AD Premium P2 | Use a proteção de identidade do Azure AD para exigir a MFA com base nos critérios de risco de entrada. |  Corporativo |
+| Microsoft 365 E5 <br><br> Licenças do Azure AD Premium P2 | Use a proteção de identidade do Azure AD para exigir a MFA com base nos critérios de risco de entrada. |  Enterprise |
 ||||
 
 ### <a name="security-defaults"></a>Padrões de segurança
@@ -123,7 +123,7 @@ As empresas devem usar [políticas de acesso condicional comuns](https://docs.mi
 
 Para mais informações, confira esta [visão geral do Acesso Condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
-### <a name="azure-ad-identity-protection"></a>Proteção de Identidade do Azure AD
+### <a name="azure-ad-identity-protection"></a>Azure AD Identity Protection
 
 Com o Azure AD Identity Protection, você pode criar uma política de acesso condicional adicional para [exigir a MFA quando o risco de entrada for médio ou alto](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-policies#require-mfa-based-on-sign-in-risk).
 
@@ -134,7 +134,7 @@ Você pode usar a proteção de identidade do Azure AD e políticas de acesso co
 
 Para obter mais informações, confira esta [visão geral da Azure Active Directory Identity Protection](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection).
 
-### <a name="mfa-for-an-individual-user-account-not-recommended"></a>MFA de uma conta de usuário individual (não recomendado)
+### <a name="legacy-per-person-mfa-not-recommended"></a>Herdado por pessoa (não recomendado)
 
 Você deve usar os padrões de segurança ou as políticas de acesso condicional para exigir a MFA de suas entradas de conta de usuário. No entanto, se qualquer um desses não puder ser usado, a Microsoft recomenda a MFA de contas de usuário com funções de administrador, especialmente a função de administrador global, para qualquer assinatura de tamanho. 
 
@@ -152,7 +152,7 @@ Esta tabela mostra os resultados da ativação da MFA com padrões de segurança
 |:-------|:-----|:-------|:-------|
 | **Padrões de segurança** | Não é possível usar políticas de Acesso Condicional |   Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
 | **Políticas de Acesso Condicional** |Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança | Especificado pelo usuário durante o registro da MFA |
-| **Configuração de conta por usuário (não recomendado)** | Substitui os padrões de segurança e as políticas de acesso condicional que exigem MFA em cada entrada | Substituído por padrões de segurança e políticas de acesso condicional | Especificado pelo usuário durante o registro da MFA|
+| **Herdado por pessoa (não recomendado)** | Substitui os padrões de segurança e as políticas de acesso condicional que exigem MFA em cada entrada | Substituído por padrões de segurança e políticas de acesso condicional | Especificado pelo usuário durante o registro da MFA|
 ||||
 
 Se os padrões de segurança estiverem habilitados, todos os novos usuários serão solicitados a registrar o registro MFA e o uso do aplicativo Microsoft Authenticator na próxima entrada.
@@ -171,4 +171,3 @@ No centro de administração do Microsoft 365, é possível definir as configura
 ## <a name="your-next-step"></a>Sua próxima etapa
 
 [Configurar a MFA para o Microsoft 365](set-up-multi-factor-authentication.md)
-

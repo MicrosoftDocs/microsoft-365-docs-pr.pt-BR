@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Saiba como obter um relatório de atividades do Microsoft Forms pro usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: df03f3f0300dcd923f43987ee786981b1653b1ce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 58c7a76c49b7c925a4e7851f7e81c7f47d465d3a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387700"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949187"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-pro-activity"></a>Relatórios do Microsoft 365 no centro de administração – atividade do Forms pro
 
@@ -47,7 +47,7 @@ Você pode obter um modo de exibição da atividade de formulários do seu usuá
 
 ![Relatório de atividades de formulários](../../media/formsproactivity.png)
 
-|||
+|Item|Descrição|
 |:-----|:-----|
 |1.  <br/> |O relatório de atividades do **Forms pro** pode ser exibido para tendências nos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).   <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente são tão recentes quanto as últimas 48 horas.  <br/> |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8c4b136f30da0499b31102683f1a903e71813142
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547212"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950780"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -35,6 +35,10 @@ O diagrama a seguir ilustra o conjunto de políticas recomendado. Ele mostra qua
 
 [ ![ Políticas comuns para configurar a identidade e o acesso ao dispositivo](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
  [consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+
+Veja um resumo do PDF de uma página com links para as políticas individuais:
+
+[![Imagem em miniatura para proteção de identidade e dispositivo para o folheto do Microsoft 365](../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [Exibir como um PDF](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)  
 
 O restante deste artigo descreve como configurar essas políticas. 
 
@@ -374,7 +378,6 @@ Para exigir a conformidade de todos os dispositivos:
 
 ## <a name="next-step"></a>Próxima etapa
 
-![Etapa 3: políticas para usuários convidados e externos](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)
-
+[![Etapa 3: políticas para usuários convidados e externos](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)](identity-access-policies-guest-access.md)
 
 [Saiba mais sobre as recomendações de política para usuários convidados e externos](identity-access-policies-guest-access.md)
