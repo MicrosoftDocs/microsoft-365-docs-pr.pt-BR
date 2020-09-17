@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Como você pode usar os rótulos de retenção para gerenciar o ciclo de vida dos documentos no SharePoint pelo uso de metadados para classificar conteúdo, aplicar automaticamente os rótulos e usar a retenção baseada em evento para começar o período de retenção.
-ms.openlocfilehash: d02c8102dc53f455c5e0620acf1f8a9a7529bf08
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 321043a8a33d274ed9e7caecfb167b9587ceae1d
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47336686"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817201"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint.
 
@@ -99,17 +99,17 @@ Aqui está o [plano de arquivo](file-plan-manager.md) para a etiqueta de retenç
 
 - **Nome:** Especificação do Produto
 
-- **Descrição para administradores:** Reter por 5 anos após o fim da produção, exclusão automática, retenção baseada em evento, e o tipo de evento é *Cessação do Produto*.
-
 - **Descrição para usuários:** Reter por 5 anos após o fim da produção.
+
+- **Descrição para administradores:** Reter por 5 anos após o fim da produção, exclusão automática, retenção baseada em evento, e o tipo de evento é *Cessação do Produto*.
 
 - **Ação de retenção:** Reter e excluir.
 
 - **Duração da retenção:** 5 anos (1,825 dias).
 
-- **Rótulo de registro**: Configure o rótulo de registro para classificar o conteúdo como um [registro](records-management.md#records). (Os documentos que são classificados como um *registro* não podem ser modificados ou excluídos por usuários.)
+- **Rótulo de registro**: Configure o rótulo de retenção para marcar os itens como [registro](records-management.md#records), o que significa que os documentos rotulados não podem ser modificados ou excluídos por usuários.
 
-- **Descritores de plano de arquivo:** (para simplificar o cenário, nenhum descritor de arquivo é fornecido)
+- **Descritores de plano de arquivo:** Para simplificar o cenário, nenhum descritor de arquivo é fornecido.
 
 A captura de tela a seguir mostra as configurações quando você cria o rótulo de retenção para Especificação do Produto no Centro de Conformidade do Microsoft 365. Você pode criar o tipo de evento *Cessação do Produto* ao criar o rótulo de retenção. Confira o procedimento nas seguintes seções.
 
@@ -120,34 +120,30 @@ A captura de tela a seguir mostra as configurações quando você cria o rótulo
 
 ### <a name="create-an-event-type-when-you-create-a-retention-label"></a>Criar um tipo de evento quando você criar um rótulo de retenção
 
-1. Do **Conteúdo retido ou excluído baseado em** lista suspensa, selecione **um evento**.
-
-2. Selecione **Escolher um tipo de evento**.
+1. Na página **Definir as configurações de retenção** do assistente Criar etiqueta de retenção, depois de **Iniciar o período de retenção com base em**, selecione **Criar novo tipo de evento**:
     
     ![Criar um novo tipo de evento para a caixa de diálogo do rótulo de Especificação do Produto](../media/SPRetention6.png)
 
-3. Selecione **Escolher um tipo de evento**, e depois selecione **Criar novos tipos de eventos** na página **escolher um tipo de evento**.
+3. Na página **Nomear o tipo de evento**, digite **Cessação do Produto** e uma descrição opcional. Em seguida, selecione **Próximo**, **Enviar**, e **Concluído**.
 
-4. Crie um tipo de evento denominado ***Cessação do Produto***, digite uma descrição, e selecione **Concluir**.
-
-5. Novamente na página **Escolher um tipo de evento**, selecione o tipo de evento **Cessação do Produto** que você criou e, em seguida, selecione **Adicionar**.
-
-   Veja como é a aparência das configurações para o rótulo de retenção de Especificação do Produto. 
-
+4. De volta à página **Definir configurações de retenção**, para **Iniciar o período de retenção com base em**, use a lista suspensa para selecionar o tipo de evento **Cessação de Produto** que você criou.
+    
+    Veja como é a aparência das configurações para o rótulo de retenção de Especificação do Produto: 
+    
    ![Configurações para o novo rótulo de Especificação do Produto](../media/SPRetention7.png)
 
-6. Selecione **Criar esse rótulo**. 
-
-   > [!TIP]
-   > Para etapas mais detalhadas, confira [Criar um rótulo cujo período de retenção está baseado em um evento](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event).
+6. Marque **Criar rótulos**e, na próxima página, quando vir as opções para publicar a etiqueta, aplique a etiqueta automaticamente ou apenas salve o rótulo: selecione **Somente salvar o rótulo por enquanto**, em seguida, selecione **Concluído**. 
+    
+    > [!TIP]
+    > Para etapas mais detalhadas, confira [Criar um rótulo cujo período de retenção está baseado em um evento](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event).
 
 Agora, vamos dar uma olhada em como aplicar automaticamente o rótulo de retenção ao conteúdo de especificação do produto.
 
-## <a name="auto-apply-retention-labels-to-classify-content"></a>Aplicação automática dos rótulos de retenção para classificar conteúdo.
+## <a name="auto-apply-retention-labels-to-documents"></a>Aplicação automática de rótulos de retenção
 
 Vamos usar a Linguagem de Consulta de Palavra-chave (KQL) para [aplicação automática](apply-retention-labels-automatically.md) de rótulos de retenção que criamos. KQL é a linguagem que é usada para compilar consultas de pesquisa. Na KQL, você pode pesquisar usando as palavras-chave ou as propriedades gerenciadas. Para mais informações, confira [Referência de sintaxe da Linguagem de Consulta de Palavra-chave (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference).
 
-Basicamente, gostaríamos de dizer ao Microsoft 365 para "aplicar o rótulo de retenção da *Especificação do Produto* a todos os documentos que têm um **Status** de ***Final*** e um **Tipo de Documento** de ***Especificação de Produto***.” Lembre-se de que **Status** e **Tipo de Documento** são as colunas de site que definimos para o tipo de conteúdo de Documentação do Produto na seção [Arquitetura de Informação](#information-architecture). Para fazer isso, precisamos configurar o esquema de pesquisa.
+Basicamente, gostaríamos de dizer ao Microsoft 365 para "aplicar o rótulo de retenção da **Especificação do Produto** a todos os documentos que têm um **Status** de **Final** e um **Tipo de Documento** de **Especificação de Produto**.” Lembre-se de que **Status** e **Tipo de Documento** são as colunas de site que definimos para o tipo de conteúdo de Documentação do Produto na seção [Arquitetura de Informação](#information-architecture). Para fazer isso, precisamos configurar o esquema de pesquisa.
 
 Quando o SharePoint indexa conteúdo, ele gera automaticamente propriedades rastreadas para cada coluna de site. Neste cenário, estamos interessados nas propriedades **Tipo de documento** e **Status**. Precisamos de documentos na biblioteca que são do tipo de conteúdo correto e tenham as colunas de site preenchidas na pesquisa para assim criar as propriedades rastreadas.
 
@@ -217,47 +213,47 @@ Agora, na caixa de pesquisa, digite **RefinableString00: "Especificação do Pro
 
 ### <a name="create-auto-apply-label-policies"></a>Criar as políticas de aplicação automática de rótulos
 
-Agora que verificamos que a consulta KQL está funcionando, vamos criar uma política de rótulo que usa uma consulta KQL para aplicar automaticamente o rótulo de retenção de Especificação do Produto aos documentos apropriados.
+Agora que verificamos que a consulta KQL está funcionando, vamos criar uma política de rótulo que usa uma consulta KQL para aplicar automaticamente o rótulo de retenção Especificação do Produto aos documentos apropriados.
 
 1. No [centro de conformidade](https://compliance.microsoft.com/homepage), vá para **Gerenciamento de registros** > **Políticas de rótulo** > **Aplicar um rótulo automaticamente**.
 
    [![Selecione “Aplicar um rótulo automaticamente” na página Rótulos](../media/SPRetention16.png)](../media/SPRetention16.png#lightbox)
 
-2. Na página do assistente**Escolher um rótulo para aplicar automaticamente**, selecione **Escolher um rótulo para aplicar automaticamente**.
+2. No assistente criar política de rotulação automática, na página **Nome da sua política de rotulamento automática**, digite um nome como **Rótulo de Especificação de Produto de Aplicação Automática**e uma descrição opcional. Em seguida, selecione **Avançar**.
 
-3. Na lista de rótulos, selecione **Especificação do Produto**. Em seguida, selecione **Adicionar** e **Próximo**.
+3. Em **Escolher o tipo de conteúdo ao qual você deseja aplicar a essa etiqueta** página, selecione **Aplicar rótulo ao conteúdo que contém palavras ou frases específicas, ou propriedades**e, em seguida, selecione **Próximo**.
+    
+   [ ![Selecione Aplicar rótulo ao conteúdo que contém propriedades, palavras ou frases específicas](../media/SPRetention17.png) ](../media/SPRetention17.png#lightbox)
+    
+   Na próxima etapa, você fornecerá a mesma consulta de pesquisa KQL que testamos na seção anterior. Esta consulta retorna todos os documentos de Especificação do Produto que têm um status *Final*. Quando usamos essa mesma consulta na política de rótulos de aplicação automática, o rótulo de retenção de Especificação de Produto será automaticamente aplicado a todos os documentos que a correspondam.
 
-4. Selecione **Aplicar rótulo ao conteúdo que contém propriedades, palavras ou frases específicas** e, em seguida, selecione **Próximo**.
-
-   [![Selecione Aplicar rótulo ao conteúdo que contém propriedades, palavras ou frases específicas](../media/SPRetention17.png)](../media/SPRetention17.png#lightbox)
-
-   Na próxima etapa, você fornecerá a mesma consulta de pesquisa KQL que testamos na seção anterior. Esta consulta retorna todos os documentos de Especificação do Produto que têm um status *Final*. Quando usamos essa mesma consulta na política de rótulos, o rótulo de retenção de Especificação do Produto será automaticamente aplicado a todos os documentos que a correspondem.
-
-5. Na caixa **Editor de consulta de palavra-chave**, digite ***RefinableString00: "Especificação do Produto" E RefinableString01:Final*** e, em seguida, selecione **Próximo**.
+4. Na página **Aplicar rótulo ao conteúdo que corresponda à consulta**, digite **RefinableString00:"Especificação do produto" e RefinableString01:Final**e, em seguida, selecione **Próximo**.
 
    ![Especificar a consulta na caixa Editor de consulta de palavra-chave](../media/SPRetention19.png)
 
-6. Digite um nome (por exemplo, ***Aplicação automática de Rótulo de Especificação do Produto***) e uma descrição opcional para a política de rótulo e, em seguida, selecione **Próximo**.
-
-7. Na página do assistente **Escolher locais**, selecione os locais de conteúdo aos quais deseja aplicar a política. Para este cenário, aplicamos essa política apenas a locais do SharePoint, pois todos os documentos de produção são armazenados nas bibliotecas de documentos do SharePoint. Selecione **Deixe-me escolher locais específicos** e, em seguida, alterne para desativado o status de **email do Exchange**, **contas do OneDrive**, e **Grupos do Microsoft 365**. Certifique-se que o status de sites do SharePoint está definido como ativado. 
-
+5. Na página **Escolha locais para aplicar a política**, selecione os locais de conteúdo aos quais deseja aplicar a política. Para este cenário, aplicamos a política apenas a locais do SharePoint, pois todos os documentos de produção são armazenados nas bibliotecas de documentos do SharePoint. Ativar/desativar o status de **email do Exchange**, **contas do OneDrive**, e **Grupos do Office 365** para **Desativado**. Verifique se o status dos sites do SharePoint está definido como **Ativado** antes de selecionar **Próximo**: 
+    
     ![Escolher sites específicos para aplicar rótulos automaticamente](../media/SPRetentionSPlocations.png)
-
+    
    > [!TIP]
    > Em vez de aplicar a política a todos os sites do SharePoint, você pode selecionar **Escolher sites** e adicionar as URLs para sites específicos do SharePoint.
 
-8. Selecione **Próximo** para exibir a página **Examinar suas configurações**.
+6. Na página **Escolha um rótulo para aplicar automaticamente a**, selecione **Adicionar rótulo**.
+
+7. Na lista de rótulos, selecione **Especificação do Produto**. Em seguida, selecione **Adicionar** e **Próximo**.
+
+8. Revise as suas configurações:
 
     ![Configurações para aplicar automaticamente o rótulo](../media/SPRetention18.png)
 
-9. Selecione **Aplicar automaticamente** para criar a política do rótulo.
-
+9. Selecione **Enviar** para criar a política do rótulo de aplicação automática.
+    
    >[!NOTE]
    >Leva até 7 dias para aplicar automaticamente o rótulo de especificação do produto a todos os documentos que correspondam à consulta de pesquisa KQL.
 
 ### <a name="verify-that-the-retention-label-was-automatically-applied"></a>Verificar que o rótulo de retenção foi aplicado automaticamente
 
-Depois de 7 dias, use o [explorador de atividades](data-classification-activity-explorer.md) no centro de conformidade para verificar que a política de rótulos que criamos tenha aplicado automaticamente os rótulos de retenção para os documentos do produto.
+Após 7 dias, use [explorador de atividades](data-classification-activity-explorer.md) no centro de conformidade para verificar se a política de rótulo de aplicação automática que criamos aplicou automaticamente os rótulos de retenção aos documentos do produto.
 
 Também examine as propriedades dos documentos na Biblioteca de Documento. No painel de informações, você pode ver que o rótulo de retenção é aplicado a um documento selecionado.
 
