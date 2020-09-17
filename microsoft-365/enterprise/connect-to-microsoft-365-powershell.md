@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Conecte-se ao seu locatário do Microsoft 365 usando o PowerShell para Microsoft 365 para executar tarefas do centro de administração a partir da linha de comando.
-ms.openlocfilehash: d1e347a13ca5c587fa544ef80a8e289a8dec0a59
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9b4cdbe9fcdea48df456e75095f8d269ab84696f
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687272"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950551"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Conecte-se ao Microsoft 365 com o PowerShell
 
@@ -56,13 +56,12 @@ Esses procedimentos são destinados aos usuários que são membros de uma funç�
 
 ## <a name="connect-with-the-azure-active-directory-powershell-for-graph-module"></a>Conecte-se ao Azure Active Directory PowerShell para o módulo do Graph.
 
-Os comandos no módulo do PowerShell do Azure Active Directory para Graph têm o **AzureAD** no nome do cmdlet. Você pode instalar o módulo do [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) ou o [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-3.6.1).
+Os comandos no módulo do PowerShell do Azure Active Directory para Graph têm o **AzureAD** no nome do cmdlet. Você pode instalar o módulo do [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) ou o [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps).
 
 Para os procedimentos que exigem os novos cmdlets no Azure Active Directory do PowerShell para o módulo do Graph, use estas etapas para instalar o módulo e se conectar à sua assinatura do Microsoft 365.
 
->[!Note]
->Confira o [Azure Active Directory PowerShell para o módulo do Graph](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) para obter mais informações sobre o suporte a diferentes versões do Microsoft Windows.
->
+> [!Note]
+> Confira o [Azure Active Directory PowerShell para o módulo do Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) para obter mais informações sobre o suporte a diferentes versões do Microsoft Windows.
 
 ### <a name="step-1-install-required-software"></a>Etapa 1: instalar o software necessário
 

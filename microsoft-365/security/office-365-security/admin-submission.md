@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: 08d1633142bba7348cbc899f9cf9b2a1288c3743
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: ef401f34bb0bc7a9a9718443101924ad09bca8a0
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394730"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47947967"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -78,7 +78,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
 
-1. Na seção **tipo de objeto** , selecione **URL**. Na caixa exibida, digite a URL completa (por exemplo, <https://www.fabrikam.com/marketing.html> ).
+1. Na seção **tipo de objeto** , selecione **URL**. Na caixa exibida, digite a URL completa (por exemplo, `https://www.fabrikam.com/marketing.html` ).
 
 2. Na seção **motivo da envio** , selecione uma das seguintes opções:
 

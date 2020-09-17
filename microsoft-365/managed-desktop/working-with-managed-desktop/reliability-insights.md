@@ -1,19 +1,20 @@
 ---
-title: Insights de confiabilidade
+title: Percepções de confiabilidade
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b7f56a64f1846676f458f7b3ddb210e84b9ca8f7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 06e1446ca290439c9e6689f4461c825438cf6aaf
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085661"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950337"
 ---
-# <a name="reliability-insights"></a>Insights de confiabilidade
+# <a name="reliability-insights"></a>Percepções de confiabilidade
 
 Este modo de exibição fornece um resumo de integridade dos dispositivos gerenciados. Para exibir os dados de confiabilidade, selecione a guia **confiabilidade** .
 

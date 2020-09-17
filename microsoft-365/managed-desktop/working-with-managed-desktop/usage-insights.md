@@ -1,19 +1,20 @@
 ---
-title: Informações de uso
+title: Percepções de uso
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 43e1ec21719dd4dcab2d2e285197476d54734a13
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ce23825bd847e610a1d933f4d50635aff4107db3
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085640"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950349"
 ---
-# <a name="usage-insights"></a>Informações de uso
+# <a name="usage-insights"></a>Percepções de uso
 Este modo de exibição fornece métricas de uso para seus dispositivos de área de trabalho gerenciada da Microsoft. Para esses fins, um aplicativo é considerado "em uso" se estiver em execução e em foco.
 
 Para exibir os dados de uso, selecione a guia **uso** .

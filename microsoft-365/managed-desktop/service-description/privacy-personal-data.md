@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: e7eb3eaa6961993f8c77645c8d6760e6701817e2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 33a2bf0b85b9b8561a5dcf32eae6e4cd0cb53765
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547933"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950479"
 ---
 # <a name="privacy-and-personal-data"></a>Privacidade e dados pessoais
 
@@ -128,7 +128,7 @@ A seção a seguir descreve como a área de trabalho gerenciada da Microsoft aju
 
 ### <a name="it-admin-contact-information"></a>Informações de contato de administrador de ti
 
-Um administrador de locatários pode exibir, corrigir e excluir seus dados pessoais diretamente na seção de contato de administrador do portal de área de trabalho gerenciada da Microsoft.
+Um administrador de locatários pode exibir, corrigir e excluir seus próprios dados pessoais (como suas próprias informações de contato) diretamente na seção de contato de administrador do portal de área de trabalho gerenciada da Microsoft.
 
 ### <a name="user-related-personal-data"></a>Dados pessoais relacionados ao usuário
 

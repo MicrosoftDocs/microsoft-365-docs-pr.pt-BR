@@ -4,13 +4,14 @@ description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação, ITISM
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 05bd5a2ee36633b7ccf9ae61e601988a7268bb2c
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 4b735ec28b655dfc01c874bc4865388d11247b67
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289800"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47947955"
 ---
 # <a name="microsoft-managed-desktop-and-itil"></a>Área de trabalho e ITIL gerenciados da Microsoft
 

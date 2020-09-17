@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: a68baf8f2598b8ca0cd13e45d18919ecfdccdacc
-ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
+ms.openlocfilehash: 06307efdc1df03d918e7f0b48c42f6e8ecb1dd79
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47407923"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950599"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -188,6 +188,9 @@ As configurações de representação a seguir estão disponíveis apenas em pol
   - **Usuários representados**: o endereço de contém um usuário protegido.
   - **Domínios representados**: o endereço de contém um domínio protegido.
   - **Caracteres incomuns**: o endereço de contém conjuntos de caracteres usuais (por exemplo, símbolos matemáticos e texto ou uma mistura de letras maiúsculas e minúsculas) em um remetente ou domínio protegido.
+
+  > [!NOTE]
+  > Mesmo quando as dicas de segurança de representação estiverem desativadas, você poderá usar uma regra de fluxo de emails (também conhecida como regra de transporte) para adicionar um cabeçalho de mensagem chamado **X-MS-Exchange-EnableFirstContactSafetyTip** a mensagens. Dicas de segurança específicas serão exibidas notificando os destinatários de que geralmente não recebem emails do remetente ou em casos em que o destinatário recebe um email pela primeira vez do remetente.
 
 - **Inteligência de caixa de correio**: habilita ou desabilita a inteligência artificial (ai) que determina os padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda o AI a distinguir entre emails legítimos e falsificados desses contatos. O Mailbox Intelligence só está disponível para caixas de correio do Exchange Online.
 

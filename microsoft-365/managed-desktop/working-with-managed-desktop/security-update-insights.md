@@ -1,24 +1,25 @@
 ---
 title: Percepções de atualização da segurança do Windows
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ef2d5c897709e7f7d2484d032b7471031be77d74
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 772d1d52e977a067ff9bc3517de9cb2ae6c8c9a3
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341262"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950362"
 ---
 # <a name="windows-security-update-insights"></a>Percepções de atualização da segurança do Windows
 Este modo de exibição fornece uma visão geral do status das atualizações de segurança para seus dispositivos de área de trabalho gerenciada da Microsoft. 
 
 Para exibir os dados de uso, selecione a guia <strong>atualizações de segurança do Windows</strong> .
 
-![Painel de atualizações de segurança do Windows: barras de gráfico de status do dispositivo e versão de atualização na coluna à esquerda, atualizar o progresso da implantação ao longo do tempo na coluna central e a porcentagem de dispositivos ativos por grupo de implantação, bem como o número de dias obtidos para chegar à implantação de 95% destino na coluna direita.](../../media/update-insights.jpg)
+![Painel de atualizações de segurança do Windows: barras de gráfico de status do dispositivo e versão de atualização na coluna à esquerda, atualize o progresso da implantação ao longo do tempo na coluna central e a porcentagem de dispositivos ativos por grupo de implantação, bem como o número de dias obtidos para chegar à coluna direito de destino de implantação de 95%.](../../media/update-insights.jpg)
 
 ## <a name="device-status"></a>Status do dispositivo
 

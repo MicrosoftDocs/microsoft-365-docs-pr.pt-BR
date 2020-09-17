@@ -16,22 +16,21 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 14742df5d9dbd2f65a032250696dbc7c61210562
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 0587c2d58410d7a0bc4a581f156a2cbfc06701a9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47336674"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949693"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365
 
 [Office 365 proteção avançada contra ameaças](office-365-atp.md) (Office 365 ATP) o plano 2 inclui recursos avançados de investigação e resposta (Air) automatizados que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança pode revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser impressionante. A automação de algumas delas pode ajudar. Com o AIR, sua equipe de operações de segurança pode se concentrar nas tarefas de maior prioridade sem perder a visão dos alertas disparados.
 
-Este artigo contém informações sobre:
-
-- O [fluxo](#the-overall-flow-of-air) de ar geral
-- [Como obter o AIR](#how-to-get-air)
-- As [permissões necessárias](#required-permissions-to-use-air-capabilities) para configurar ou usar os recursos de ar
+Este artigo inclui:
+- O [fluxo](#the-overall-flow-of-air) de ar geral;
+- [Como obter o ar](#how-to-get-air); e 
+- As [permissões necessárias](#required-permissions-to-use-air-capabilities) para configurar ou usar os recursos de ar. 
 
 ## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 

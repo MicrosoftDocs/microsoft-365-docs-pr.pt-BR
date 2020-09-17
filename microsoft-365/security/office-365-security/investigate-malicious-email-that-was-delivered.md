@@ -19,19 +19,19 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5026b69f356fad11a664900a3e316d9c1c976905
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 91f16c3aa7ba98467c52fb25e0597f346a810003
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845949"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949259"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigue emails mal-intencionados que foram entregues no Office 365
 
 A [proteção avançada contra ameaças do Office 365](office-365-atp.md) permite investigar as atividades que colocam as pessoas da sua organização em risco e realizar ações para proteger sua organização. Por exemplo, se você fizer parte da equipe de segurança da sua organização, poderá encontrar e investigar mensagens de email suspeitas que foram entregues. Você pode fazer isso usando o [Explorador de ameaças (ou detecções em tempo real)](threat-explorer.md).
 
 > [!NOTE]
-> Vá para o artigo de correção [aqui](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-21vianet&branch=pr-en-us-4258).
+> Vá para o artigo de correção [aqui](remediate-malicious-email-delivered-office-365.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -61,7 +61,7 @@ Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baix
 > [!NOTE]
 > *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global é atribuída ao centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro de conformidade do & de segurança [https://protection.office.com](https://protection.office.com) . Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>Localizar e excluir emails suspeitos que foram entregues
+## <a name="find-suspicious-email-that-was-delivered"></a>Localizar emails suspeitos que foram entregues
 
 O Gerenciador de ameaças é um poderoso relatório que pode atender a vários propósitos, como localizar e excluir mensagens, identificar o endereço IP de um remetente de email mal-intencionado ou iniciar um incidente para investigação adicional. O procedimento a seguir enfoca o uso do Explorer para localizar e excluir emails mal-intencionados das caixas de correio do destinatário.
 
@@ -191,11 +191,11 @@ O local de entrega mostra os resultados das políticas e detecções que executa
 A **linha do tempo de email** é um campo no explorador de ameaças que facilita a busca da equipe de operações de segurança. Quando vários eventos ocorrem ou próximos ao mesmo tempo em um email, esses eventos aparecem em um modo de exibição de linha do tempo. Alguns eventos que ocorrem após a entrega para email são capturados na coluna **ações especiais** . A combinação de informações da linha do tempo de uma mensagem de email com qualquer ação especial que tenha sido realizada pela entrega oferece aos administradores informações sobre políticas e tratamento de ameaças (por exemplo, onde o email foi roteado e, em alguns casos, qual era a avaliação final).
 
 > [!IMPORTANT]
-> Vá para um tópico de correção [aqui](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide).
+> Vá para um tópico de correção [aqui](remediate-malicious-email-delivered-office-365.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Corrigir emails mal-intencionados entregues no Office 365](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)
+[Corrigir emails mal-intencionados entregues no Office 365](remediate-malicious-email-delivered-office-365.md)
 
 [Proteção Avançada contra Ameaças do Office 365](office-365-ti.md)
 

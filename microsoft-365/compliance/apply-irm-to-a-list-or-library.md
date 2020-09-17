@@ -21,12 +21,12 @@ ms.collection:
 - SPO_Content
 description: Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a controlar e proteger arquivos baixados de listas ou bibliotecas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 11d12eda6f2cb8de5c94b6952a8a194b06471473
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: de0105bf61b4abbddd938a4ec7286c1919bf3985
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818470"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948479"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>Aplicar o gerenciamento de direitos de informação (IRM) a uma lista ou biblioteca
 
@@ -70,10 +70,10 @@ Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a 
 |:-----|:-----|
 |Permitir que as pessoas imprimam documentos desta lista ou biblioteca  <br/> |Marque a caixa de seleção **permitir que os visualizadores imprimam** .  <br/> |
 |Permita que as pessoas com pelo menos a permissão Exibir itens executem código incorporado ou macros em um documento.  <br/> |Selecione a caixa de seleção **permitir que os visualizadores executem scripts e leitor de tela para funcionar em documentos baixados** .  <br/> Se você selecionar essa opção, os usuários poderão executar o código para extrair o conteúdo de um documento.           |
-|Exigir que as pessoas verifiquem suas credenciais em intervalos específicos.  <br/> Selecione essa opção se você quiser restringir o acesso ao conteúdo para um período especificado de tempo. Se você selecionar essa opção, as licenças de publicação de pessoas para acessar o conteúdo expirarão após o número de dias especificado e as pessoas serão solicitadas a retornar ao servidor para verificar suas credenciais e baixar uma nova cópia.  <br/> |Marque a caixa de seleção **os usuários devem verificar suas credenciais usando este intervalo (dias)** e especifique o número de dias em que você deseja que o documento seja exibido.  <br/> |
+|Selecione essa opção se você quiser restringir o acesso ao conteúdo para um período especificado de tempo. Se você selecionar essa opção, as licenças de publicação de pessoas para acessar o conteúdo expirarão após o número de dias especificado e as pessoas serão solicitadas a retornar ao servidor para verificar suas credenciais e baixar uma nova cópia.  <br/> |Marque a caixa de seleção **após download, os direitos de acesso ao documento expirarão após estes números de dias (1-365)** e, em seguida, especifique o número de dias nos quais você deseja que o documento seja exibido.  <br/> |
 | Impedir que as pessoas carreguem documentos que não dão suporte ao IRM para esta lista ou biblioteca.  <br/>  Se você selecionar essa opção, as pessoas não poderão carregar nenhum dos seguintes tipos de arquivo:  <br/>  Tipos de arquivo que não têm protetores de IRM correspondentes instalados em todos os servidores Web front-end.  <br/>  Tipos de arquivo que o SharePoint Server 2010 não pode descriptografar.  <br/>  Tipos de arquivo que estão protegidos por IRM em outro programa  <br/> |Marque a caixa de seleção não **permitir que os usuários carreguem documentos que não dão suporte ao IRM** .  <br/> |
 |Remover permissões restritas dessa lista ou biblioteca em uma data específica.  <br/> |Marque a caixa de seleção **parar de restringir o acesso à biblioteca em** e selecione a data desejada.  <br/> |
-|Controle o intervalo em que as credenciais são armazenadas em cache para o programa licenciado para abrir o documento.  <br/> |No **intervalo de definir credenciais e proteção de grupo**, insira o intervalo de credenciais de cache em número de dias.  <br/> |
+|Controle o intervalo em que as credenciais são armazenadas em cache para o programa licenciado para abrir o documento.  <br/> |Selecione a caixa de seleção **os usuários devem verificar suas credenciais usando este intervalo (dias)** e, em seguida, insira o intervalo para as credenciais de cache em número de dias.  <br/> |
 |Permitir proteção de grupo para que os usuários possam compartilhar com membros do mesmo grupo.  <br/> |Selecione **permitir proteção de grupo**e digite o nome do grupo para compartilhamento.  <br/> |
    
 8. Após concluir a seleção das opções desejadas, clique em **OK**.

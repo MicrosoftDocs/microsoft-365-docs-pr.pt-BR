@@ -1,5 +1,5 @@
 ---
-title: Recomendações de desempenho de rede no centro de administração do Microsoft 365 (versão prévia)
+title: Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,16 +14,16 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Visão geral da conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
-ms.openlocfilehash: 2f7e922f1e9abd68ebe51d26ef270760a7c446e2
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: f8eff2248fb7abce75c27f227a2c5e7ec7219046
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815238"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948396"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 
-O centro de administração do Microsoft 365 agora includesaggregated as métricas de conectividade de rede coletadas do seu locatário do Microsoft 365 e estão disponíveis para visualização apenas por usuários administrativos em seu locatário. **Avaliações de rede** e **insights de rede** são exibidos no centro de administração do Microsoft 365 em **Health | Conectividade**.
+O centro de administração do Microsoft 365 agora inclui métricas de conectividade de rede agregadas coletadas do seu locatário do Microsoft 365 e disponíveis para visualização apenas por usuários administrativos em seu locatário. **Avaliações de rede** e **insights de rede** são exibidos no centro de administração do Microsoft 365 em **Health | Conectividade**.
 
 ![Página desempenho da rede](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
 
@@ -35,9 +35,9 @@ Há três opções para obter avaliações de rede de seus locais do Office:
 
 ### <a name="1-enable-windows-location-services"></a>1. habilitar os serviços de localização do Windows
 
-Para esta opção, você deve ter pelo menos dois computadores executando em cada local do escritório que ofereçam suporte aos pré-requisitos. O OneDrive for Windows versão 19,232 ou superior deve estar instalado em cada computador. Para obter mais informações sobre as versões do OneDrive, consulte as [notas de versão do onedrive](https://support.office.com/article/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). As medições de rede são planejadas para serem adicionadas em outros aplicativos cliente do Office 365 em um futuro próximo.
+Para esta opção, você deve ter pelo menos dois computadores executando em cada local do escritório que ofereçam suporte aos pré-requisitos. O OneDrive for Windows versão **19,232** ou superior deve estar instalado em cada computador. Para obter mais informações sobre as versões do OneDrive, consulte as [notas de versão do onedrive](https://support.office.com/article/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). As medições de rede são planejadas para serem adicionadas em outros aplicativos cliente do Office 365 em um futuro próximo.
 
-O serviço de localização do Windows deve ser consentido nas máquinas. Você pode testar isso executando o aplicativo **Maps** e localizando-se. Ela pode ser habilitada em um único computador com o local de privacidade **das configurações**,  ->  **Privacy**  ->  **Location** onde a configuração "permitir que os aplicativos acessem seu local" deve estar habilitada. O consentimento dos serviços de localização do Windows pode ser implantado em computadores usando o MDM ou a política de grupo com a configuração _LetAppsAccessLocation_.
+O serviço de localização do Windows deve ser consentido nas máquinas. Você pode testar isso executando o aplicativo **Maps** e localizando-se. Ela pode ser habilitada em uma única máquina com **as configurações | Privacidade | Local** onde a configuração _permitir que os aplicativos acessem seu local_ deve estar habilitada. O consentimento dos serviços de localização do Windows pode ser implantado em computadores usando o MDM ou a política de grupo com a configuração _LetAppsAccessLocation_.
 
 Você não precisa adicionar locais no centro de administração com esse método, pois eles são identificados automaticamente na resolução da cidade. Você não pode mostrar vários locais do Office dentro de uma cidade usando os serviços de localização do Windows.
 
@@ -47,7 +47,7 @@ Os exemplos de medidas e locais do Office devem começar a aparecer 24 horas ap�
 
 ### <a name="2-add-locations-and-provide-lan-subnet-information"></a>2. Adicione locais e forneça informações de sub-rede de LAN
 
-Para esta opção, não são necessários serviços de localização do Windows nem Wi-Fi. Você precisa do OneDrive for Windows versão 20.161.0811.0001 ou superior instalado em cada commputer no local.
+Para esta opção, não são necessários serviços de localização do Windows nem Wi-Fi. Você precisa do OneDrive for Windows versão 20,161 ou superior instalado em cada computador no local.
 
 Você também precisa adicionar locais na página conectividade de rede do centro de administração ou importá-los de um arquivo CSV. Os locais adicionados devem incluir informações de sub-rede da LAN do Office.
 
@@ -118,14 +118,14 @@ A guia detalhes na página local do Office mostra os resultados de medição esp
 
 ## <a name="csv-import-for-lan-subnet-office-locations"></a>Importação de CSV para locais de escritório de sub-rede de LAN
 
-Para a identificação do escritório da sub-rede da LAN, você precisa adicionar cada locaiton com antecedência. Em vez de adicionar locais individuais do Office na guia **locais** , você pode importá-los de um arquivo CSV. É possível obter esses dados de outros locais que você armazenou como o painel de qualidade da chamada ou sites e serviços do Active Directory
+Para a identificação do escritório da sub-rede da LAN, você precisa adicionar cada local com antecedência. Em vez de adicionar locais individuais do Office na guia **locais** , você pode importá-los de um arquivo CSV. É possível obter esses dados de outros locais que você armazenou como o painel de qualidade da chamada ou sites e serviços do Active Directory
 
 No arquivo CSV, um local de cidade descoberto é rotulado como **cidade**, e um local do escritório adicionado manualmente é um **local**rotulado.
 
 1. Na janela principal _conectividade com o Microsoft 365_ , clique na guia **locais** .
 1. Clique no botão **importar** , logo acima da lista locais. O submenu **importar locais do Office** aparecerá.
 
-   ![Mensagem de erro de importação de CSV](../media/m365-mac-perf/m365-mac-perf-import.png)
+   ![Mensagem de importação de CSV](../media/m365-mac-perf/m365-mac-perf-import.png)
 
 1. Clique no link **baixar locais atuais do Office (. csv)** para exportar a lista de locais atuais para um arquivo CSV e salvá-lo no disco rígido local. Isso fornecerá um CSV formatado corretamente com os títulos de coluna para os quais você pode adicionar locais. Você pode deixar os locais exportados existentes como estão; Eles não serão duplicados quando você importar o CSV atualizado. Se você quiser alterar o endereço de um local existente, ele será atualizado quando você importar o CSV. Não é possível alterar o endereço de uma cidade descoberta.
 1. Abra o CSV e adicione seus locais preenchendo os campos a seguir em uma nova linha para cada local que você deseja adicionar. Deixe todos os outros campos em branco; os valores inseridos em outros campos serão ignorados.
@@ -143,7 +143,7 @@ No arquivo CSV, um local de cidade descoberto é rotulado como **cidade**, e um 
 
    ![Mensagem de importação pronta para CSV](../media/m365-mac-perf/m365-mac-perf-import-ready.png)
 
-## <a name="faq"></a>PERGUNTAS FREQÜENTES
+## <a name="faq"></a>Perguntas frequentes
 
 ### <a name="what-is-a-microsoft-365-service-front-door"></a>O que é uma porta frontal de serviço do Microsoft 365?
 
@@ -169,3 +169,5 @@ O local de egresso de Internet é o local onde o tráfego de rede sai da rede co
 [Teste de conectividade do Microsoft 365 no centro de administração do M365 (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Serviços de local de conectividade de rede da Microsoft 365 (versão prévia)](office-365-network-mac-location-services.md)
+
+[Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)

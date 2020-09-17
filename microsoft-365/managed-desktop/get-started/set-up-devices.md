@@ -1,19 +1,20 @@
 ---
 title: Configurar dispositivos para a área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 64a2936b5a2f9e670a3d89c50424ca0322e99c13
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5efda6fe73dd5454c8b527b6ba63c9ae81951dd2
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085790"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950503"
 ---
-# <a name="set-up-microsoft-managed-desktop-devices"></a>Configurar dispositivos de área de trabalho gerenciada da Microsoft
+# <a name="set-up-microsoft-managed-desktop-devices"></a>Configurar dispositivos de Área de Trabalho Gerenciada da Microsoft
 
 Você pode usar os dispositivos novos e existentes na área de trabalho gerenciada da Microsoft.
 

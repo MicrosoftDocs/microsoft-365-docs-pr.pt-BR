@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre como o EOP e o Office 365 protegem você com spam, phishing e prevenção contra malware adicionando uma dica de segurança à parte superior de emails.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e13e9cce325dfd3f8312c1d68459ab3c423c1fbb
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: b4bcfd2bf05f2f5ae7a51fbc2488cb1aa6e7d2c9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827476"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949627"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
 
@@ -38,12 +38,6 @@ A dica de segurança — uma mensagem codificada por cores — avisará você so
     ![Captura de tela que mostra uma dica de segurança vermelha.](../../media/5078a0be-e556-44a1-b169-09d780d26898.png)
 
     Uma dica de segurança vermelha em um email significa que a mensagem recebida contém algo suspeito, como um golpe de phishing. Recomendamos que você exclua esse tipo de mensagem de email da caixa de entrada sem abri-la.
-
-- Spam (dica de segurança amarela).
-
-    ![Captura de tela que mostra uma dica de segurança amarela.](../../media/793c9265-ea44-48fd-a98f-804fadd4163b.png)
-
-    Uma dica de segurança amarela em um email significa que a mensagem foi marcada como spam. Se você não reconhece e confia no remetente da mensagem, não baixe nenhum anexo ou imagem e não clique em nenhum link da mensagem. No Outlook na Web, você pode clicar em **não é spam** na barra amarela de um item de lixo eletrônico para mover a mensagem para sua caixa de entrada. Se a dica de segurança amarela aparecer em uma mensagem que foi entregue na caixa de entrada, é provável que você tenha desabilitado a movimentação de spam para a pasta lixo eletrônico.
 
 - Email seguro (dica de segurança verde).
 

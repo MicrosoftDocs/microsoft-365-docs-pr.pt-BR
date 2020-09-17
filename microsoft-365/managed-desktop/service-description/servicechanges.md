@@ -1,19 +1,20 @@
 ---
-title: Alterações de serviço e comunicação
+title: Mudanças de serviço e comunicação
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 00d1cb409364c017585c6afcd10a236ecbcdc3a0
-ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
+ms.openlocfilehash: 753ad703a7949b7901ddd76d0d8c966b170461ea
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37697877"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950313"
 ---
-# <a name="service-changes-and-communication"></a>Alterações de serviço e comunicação
+# <a name="service-changes-and-communication"></a>Mudanças de serviço e comunicação
 
 Às vezes, a Microsoft pode precisar alterar detalhes sobre a maneira como o Microsoft Managed Desktop funciona. Da mesma forma, talvez seja necessário fazer alterações que também afetem o serviço. Tratamos essas alterações de forma diferente, dependendo do quão significativas elas estão. Este tópico define as alterações que consideramos principal e explica como lidar com elas em comparação com outras alterações.
 

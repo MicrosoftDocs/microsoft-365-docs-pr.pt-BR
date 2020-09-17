@@ -1,5 +1,5 @@
 ---
-title: Kit de laboratório de implantação do Office e do Windows
+title: Kit de laboratório de implantação do Windows e do Office
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,14 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 751d2a04daa707049c59b9b7cabb18ca06a598d1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 09441f879fa41d1b920aae7d37625d0a52160d84
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685493"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949875"
 ---
-# <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
+# <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows e do Office
 
 Esses laboratórios foram projetados para ajudá-lo a planejar, testar e validar a implantação e o gerenciamento de desktops que executam o Windows 10 Enterprise e o Microsoft 365 aplicativos para empresas. A capa de laboratórios usando o Microsoft Endpoint Configuration Manager, o desktop Analytics, a ferramenta de personalização do Office, o OneDrive, o piloto automático do Windows e muito mais.
 
@@ -32,7 +32,7 @@ Este kit é altamente recomendável para organizações que estão se preparando
 
 ## <a name="a-complete-lab-environment"></a>Um ambiente de laboratório completo
 
-O laboratório fornece um ambiente de laboratório provisionado automaticamente, incluindo clientes da área de trabalho ingressados no domínio, controlador de domínio, gateway de Internet e uma instância do Configuration Manager totalmente configurada.  O laboratório contém as Versões de Avaliação dos seguintes produtos:
+O laboratório fornece um ambiente de laboratório provisionado automaticamente, incluindo clientes da área de trabalho ingressados no domínio, controlador de domínio, gateway de Internet e uma instância do Configuration Manager totalmente configurada.  O laboratório contém as versões de avaliação mais recentes dos seguintes produtos:
 
   - NOVO! Windows 10 Enterprise, Versão 2004
   - Windows 7 Enterprise
@@ -53,70 +53,36 @@ Além disso, o laboratório foi projetado para ser conectado aos testes do:
 
 Detalhados guias de laboratório o conduzem por vários cenários de implantação e gerenciamento. Os laboratórios foram atualizados para as versões mais recentes do Intune e do Configuration Manager. 
 
-### <a name="device-and-app-readiness"></a>Preparação de dispositivos e aplicativos
+### <a name="plan-and-prepare-infrastructure"></a>Planejar e preparar a infraestrutura 
+Análise de Área de Trabalho   
+Gateway de gerenciamento de nuvem & anexação de locatário de ponto de distribuição de nuvem, gerenciamento de Cogestão e troca de cargas de trabalho    
+Acesso remoto
 
-  - Análise de Área de Trabalho
-  - Implantar e atualizar o novo Microsoft Edge 
-  - Instalar e configurar o Gateway de Gerenciamento de Nuvem (CMG) 
-  - Modo do Internet Explorer 
-  - Application Guard 
+### <a name="prepare-configuration"></a>Preparar configuração   
+Otimizar o serviço de entrega de atualização do Windows 10 Windows 10 usando a política de grupo atendendo ao Windows 10 usando o Microsoft Intune servindo o Windows 10 com o Configuration Manager servindo o Microsoft 365 aplicativos para empresas usando o Configuration Manager servindo aplicativos da Microsoft 365 para empresas usando o Intune    
+Segurança e Conformidade 
 
-### <a name="directory-and-network-readiness"></a>Preparação de rede e diretório
+### <a name="prepare-applications"></a>Preparar aplicativos    
+Readiness Toolkit para Office    
+Empacotamento e conversão de MSIX de aplicativos Win32 
 
-  - Otimizar a Entrega de Atualizações do Windows 10 
-  - Cogerenciamento do Configuration Manager e do Microsoft Intune
-  - Acesso Remoto (VPN)
+### <a name="deploy-windows-10"></a>Implantar o Windows 10   
+Sequências de tarefas de implantação de sistema operacional no Gerenciador de configurações de implantação de so do Configuration Manager no MDT Windows AutoPilot implantar e gerenciar o novo Microsoft Edge    
 
-### <a name="office-and-lob-app-delivery"></a>Entrega de Aplicativos do Office e LOB
+### <a name="deploy-microsoft-365-apps-for-enterprise"></a>Implantar o Microsoft 365 Apps para Grandes Empresas    
+Implantação gerenciada em nuvem    
+Implantação gerenciada localmente  
+Microsoft 365 aplicativos para implantação corporativa em dispositivos que não ingressaram no AD   
+Implantação gerenciada pela empresa usando o Configuration Manager Enterprise Managed Deployment usando o Microsoft Intune    
+Implantação e gerenciamento de LOB com o Microsoft Intune implantar o Microsoft Teams
 
-  - Microsoft 365 Apps para empresas
-  - Implantação gerenciada pela empresa usando o Configuration Manager e o Microsoft Intune
-  - Implantação e gerenciamento de aplicativo usando o Microsoft Intune
-  - Instalação de autoatendimento e implantação do aplicativo usando o Microsoft Store para Empresas
-  - NOVO! Instalar o Microsoft Teams 
-
-### <a name="user-file-and-settings-migration"></a>Arquivos de usuários e Migração de configurações
-
-  - Migração de arquivos de pastas conhecidas 
-  - Ferramenta de migração de Estado do Usuário 
-  - Roaming de Estado da Empresa
-  - Personalização do menu Iniciar e Remoção do aplicativo UWP 
-  - User Experience Virtualization (UE-V) 
-
-### <a name="security-and-compliance"></a>Segurança e Conformidade
-
-  - Criptografia de dispositivo do BitLocker
-  - Windows Defender Antivírus
-  - Windows Hello para Empresas
-  - Conversão de BIOS para UEFI
-  - Windows Defender Application Guard
-  - Windows Defender Exploit Guard
-  - Controle de Aplicativos do Windows Defender
-  - Proteção avançada contra ameaças do Windows Defender
-  - NOVO! Segurança do ponto de extremidade 
-
-### <a name="os-deployment-and-feature-updates"></a>Implantação de Sistema Operacional e Atualizações de Recursos
-
-  - Criação de Imagem do Sistema Operacional
-  - Sequências de Tarefas de Implantação do Sistema Operacional no Configuration Manager 
-  - Sequências de tarefas de implantação do sistema operacional no MDT
-  - Windows Autopilot
-  - Pacotes de provisionamento 
-
-### <a name="windows-and-office-as-a-service"></a>Windows e Office como serviço
-  - Gerenciar atualizações do Windows usando a Política de Grupo
-  - Manutenção do Windows 10 com o Configuration Manager e o Intune
-  - Manutenção do Microsoft 365 Apps para Grandes Empresas com o Gerenciador de Configurações
-  - NOVO! Atualizações do Office com o Configuration Manager Intune
-  
-### <a name="windows-virtual-desktop"></a>Área de Trabalho Virtual do Windows
-  - Área de trabalho virtual do Windows: preparar, implantar, otimizar 
-
+### <a name="deploy-windows-virtual-desktop"></a>Implantar a área de trabalho virtual do Windows  
+ 
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Baixe o kit de laboratório de implantação do Office e Windows
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Para melhorar sua experiência de download, use uma largura de banda alta para baixar esse conteúdo e reserve 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, é recomendável possuir 32 GB de memória disponível. O laboratório expirará em 12 de novembro de 2020. Uma nova versão será publicada antes da expiração.*
+*Use uma largura de banda abrangente para baixar esse conteúdo para aprimorar sua experiência de download e permitir 30-45 minutos de provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 150 GB de espaço livre em disco. Para obter o desempenho ideal, são recomendados 32 GB de memória disponível. O laboratório expira em 4 de dezembro de 2020. Uma nova versão será publicada antes da expiração.*
 
 ## <a name="additional-guidance"></a>Orientações adicionais
 

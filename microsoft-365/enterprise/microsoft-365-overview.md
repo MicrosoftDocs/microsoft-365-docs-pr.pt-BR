@@ -13,18 +13,18 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 55c7ca87d307fc9891d9967029f15e25414d7c18
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1a7c0cbb339ae0023264fbafb39e9b8682e98af2
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686295"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775178"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
-O Microsoft 365 para empresas é uma solução completa e inteligente que permite que todos sejam criativos e trabalhem juntos com segurança. 
+O Microsoft 365 para empresas é uma solução completa e inteligente que permite que todos sejam criativos e trabalhem juntos com segurança.
 
-Embora projetado para grandes organizações, o Microsoft 365 para empresas também pode ser usado para empresas de médio e pequeno porte que precisam de recursos de segurança e produtividade mais avançados. 
+O Microsoft 365 para empresas foi projetado para grandes organizações, mas também pode ser usado para empresas de médio e pequeno porte que precisam de recursos de segurança e produtividade mais avançados.
 
 ## <a name="components"></a>Componentes
 
@@ -33,8 +33,8 @@ O Microsoft 365 para empresas consiste em:
 | Serviços | Descrição |
 |:-------|:-----|
 | Serviços de produtividade e aplicativos locais e baseados em nuvem | Inclui o Microsoft 365 Apps para Grandes Empresas, os Aplicativos do Office mais recentes para seu PC e Mac (como Word, Excel, PowerPoint, Outlook e outros) e um pacote completo de serviços online para email, armazenamento de arquivos e colaboração, reuniões e muito mais. |
-| Windows 10 Enterprise | Atende às necessidades de organizações de médio e grande porte, fornecendo aos usuários a versão mais produtiva e segura do Windows e dos profissionais de TI com gerenciamento abrangente de implantação, dispositivos e aplicativos. |
-| Gerenciamento de dispositivos e serviços avançados de segurança | Inclui o Microsoft Intune, que é um serviço de gerenciamento de mobilidade corporativa (EMM) baseado em nuvem que ajuda a permitir que sua força de trabalho seja produtiva enquanto protege os dados de sua organização. |
+| Windows 10 Enterprise | Atende às necessidades das organizações de grande e médio porte. É a versão mais produtiva e segura do Windows para usuários. Para profissionais de TI, ele também fornece implantação, dispositivos e gerenciamento de aplicativos abrangentes. |
+| Gerenciamento de dispositivos e serviços avançados de segurança | Inclui o Microsoft Intune, que é um serviço de gerenciamento de mobilidade corporativa baseado em nuvem que ajuda a permitir que sua força de trabalho seja produtiva enquanto protege os dados de sua organização. |
 |||
 
 ## <a name="plans"></a>Planos
@@ -44,8 +44,8 @@ O Microsoft 365 para empresas está disponível em três planos.
 | Nome do plano | Recursos |
 |:-------|:-----|
 | E3 | Acesse os principais produtos e recursos no Microsoft 365 para melhorar a produtividade do local de trabalho e impulsionar a inovação com segurança. |
-| E5 | Acesse os produtos e recursos mais recentes do Microsoft 365, incluindo ferramentas avançadas de proteção contra ameaças, segurança e colaboração. Inclui todos os recursos do E3, além de ferramentas avançadas de segurança, voz e análise de dados. |
-| F3 | Conecte-se com seus Trabalhadores de Contato Direto por meio de ferramentas e recursos criados especificamente para permitir que eles realizem o melhor trabalho. |
+| E5 | Acesse os produtos e recursos mais recentes do Microsoft 365. Estes incluem proteção avançada contra ameaças, ferramentas de segurança e ferramentas de colaboração. Este plano inclui todos os recursos do E3, além de ferramentas avançadas de segurança, voz e análise de dados. |
+| F3 | Conecte-se com seus trabalhadores de contato direito por meio de ferramentas e recursos criados especificamente para permitir que eles realizem o melhor trabalho. |
 |||
 
 Se você tem o Microsoft 365 E3, também pode obter estes complementos:
@@ -55,7 +55,7 @@ Se você tem o Microsoft 365 E3, também pode obter estes complementos:
 - [Microsoft 365 E5 Compliance](https://www.microsoft.com/microsoft-365/business/e5-compliance)
 - Risco Interno do Microsoft 365 E5
 
-Essas ofertas contêm recursos adicionais que estão incluídos no Microsoft 365 E5.
+Os usuários do Microsoft 365 E3 podem usar esses complementos para aproveitar os recursos adicionais que o Microsoft 365 E5 inclui.
 
 Para saber mais, confira [Recursos e funcionalidade de cada plano](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 
@@ -63,23 +63,23 @@ Para saber mais, confira [Recursos e funcionalidade de cada plano](https://www.m
 
 O [pôster do Microsoft 365 para empresas](../downloads/Microsoft365Enterprise.pdf) é um local central para você exibir:
 
-- Os benefícios do Microsoft 365 para empresas e como os aplicativos e serviços são mapeados para seus pilares de valor
-- Planos do Microsoft 365 para empresas e quais componentes eles contêm 
-- Os principais componentes do Modern Workplace, que o Microsoft 365 para empresas permite
-- A [Biblioteca de Produtividade do Microsoft 365](https://www.microsoft.com/microsoft-365/success/) e cenários representativos para alguns departamentos comuns da organização
+- Os benefícios do Microsoft 365 para empresas e como os aplicativos e serviços são mapeados para seus pilares de valor.
+- Planos do Microsoft 365 para empresas e quais componentes eles contêm.
+- Os principais componentes do Modern Workplace da Microsoft, que o Microsoft 365 para empresas habilitada.
+- A [Biblioteca de Produtividade do Microsoft 365](https://www.microsoft.com/microsoft-365/success/) e cenários representativos para alguns departamentos comuns da organização.
 
 [![Imagem do pôster do Microsoft 365 para empresas](../media/microsoft-365-overview/m365e-poster.png)](../downloads/Microsoft365Enterprise.pdf)
 
-Para baixar uma cópia do pôster, clique [aqui](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365Enterprise.pdf).
+Você também pode [baixar uma cópia do pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365Enterprise.pdf).
 
 
 ## <a name="transition-your-entire-organization"></a>Transição para toda a organização
 
-Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 para empresas, baixe o [pôster de transição](../downloads/transition-org-to-m365.pdf).
+Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 para empresas, consulte o [pôster de transição](../downloads/transition-org-to-m365.pdf).
 
 [![Imagem do pôster de Transição para o Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
 
-Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente e obter diretrizes e ir para o produto ou serviço correspondente no Microsoft 365 para empresas. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
+Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente. Ele ajuda você a encontrar orientação e a migrar para o produto ou serviço correspondente no Microsoft 365 para empresas. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
 
 Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
 
@@ -106,25 +106,25 @@ Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/micros
 
 Há três maneiras de planejar a implantação de produtos, recursos e componentes do Microsoft 365 para empresas:
 
-1. Em parceria com o FastTrack
+- Em parceria com o FastTrack:
   
    Com o FastTrack, os engenheiros da Microsoft ajudam você a migrar para a nuvem em seu próprio ritmo. Confira [FastTrack para Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
   
-2. Com a ajuda dos Serviços de Consultoria da Microsoft ou de um [parceiro da Microsoft](https://partner.microsoft.com/).
+- Com a ajuda dos Serviços de Consultoria da Microsoft ou de um [Parceiro da Microsoft](https://partner.microsoft.com/):
 
    Os consultores podem analisar sua infraestrutura atual e ajudá-lo a desenvolver um plano para incorporar todos os softwares e serviços do Microsoft 365 para empresas.
 
-3. Faça você mesmo
+- Faça você mesmo:
 
    Comece com o [Roteiro de rede](networking-roadmap-microsoft-365.md) para construir ou verificar as cargas de trabalho de produtividade e infraestrutura existentes. 
 
-Veja como [A Contoso Corporation](contoso-overview.md), uma organização multinacional fictícia, mas representativa, implantou o Microsoft 365 para empresas.
+Para ver um exemplo de como uma organização multinacional fictícia, mas representativa, implantou o Microsoft 365 para empresa, consulte a [Contoso Corporation](contoso-overview.md).
 
 ## <a name="additional-microsoft-365-products"></a>Produtos adicionais do Microsoft 365
 
 - [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
  
-  Reúne a melhor produtividade disponível e as funcionalidades de colaboração com o gerenciamento de dispositivo e as soluções de segurança para proteger os dados comerciais de pequenas e médias empresas (PME).
+  Reúne a melhor produtividade disponível e as funcionalidades de colaboração com o gerenciamento de dispositivo e as soluções de segurança para proteger os dados comerciais de pequenas e médias empresas.
 
 - [Microsoft 365 Education](https://docs.microsoft.com/education)
  
@@ -138,7 +138,7 @@ Veja como [A Contoso Corporation](contoso-overview.md), uma organização multin
 
 ![Treinamento sobre os Fundamentos do Microsoft 365 training](../media/microsoft-365-overview/m365-fundamentals.svg)
 
-Obtenha treinamento e garanta uma certificação do Microsoft 365. Comece com os [Fundamentos do Microsoft 365](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
+Para saber mais sobre o Microsoft 365 e trabalhar para obter uma certificação do Microsoft 365, comece com o [Microsoft 365 Certificado: conceitos básicos](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
 
 
 ## <a name="see-also"></a>Confira também
