@@ -70,10 +70,24 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Gerar um alerta de teste
               href: mtp/generate-test-alert.md
+        - name: Executar um piloto na produção
+          items:
+            - name: Visão geral do piloto
+              href: mtp/mtp-pilot.md
+            - name: Planejar
+              href: mtp/mtp-pilot-plan.md
+            - name: Preparar
+              href: mtp/prepare-mtpeval.md
+            - name: Simular ameaças
+              href: mtp/mtp-pilot-simulate.md
+            - name: Fechar e resumir
+              href: mtp/mtp-pilot-close.md
         - name: Guias de instruções
           items:
             - name: Criar um laboratório de avaliação ou um ambiente piloto
               href: mtp/mtp-evaluation.md
+            - name: Executar o guia estratégico do piloto
+              href: mtp/mtp-pilot.md
             - name: Implantar serviços com suporte
               href: mtp/deploy-supported-services.md
             - name: Habilitar a Proteção contra Ameaças da Microsoft
@@ -94,36 +108,48 @@
                       href: mtp/manage-incidents.md
             - name: Investigação e resposta automatizadas
               items:
-                - name: Visão geral do AIR
+                - name: Visão geral da investigação e Resposta Automatizadas
                   href: mtp/mtp-autoir.md
-                - name: Ações de correção
+                - name: Configurar os recursos de investigação e resposta automatizadas
+                  href: mtp/mtp-configure-auto-investigation-response.md
+                - name: Ações de correção após a investigação automática
                   href: mtp/mtp-remediation-actions.md
-                - name: A Central de Ações
+                - name: Visite a Central de Ações
                   href: mtp/mtp-action-center.md
-                - name: Exibir detalhes e resultados de investigação automatizada
-                  href: mtp/mtp-autoir-results.md
-                - name: Aprovar ou rejeitar ações pendentes
+                - name: Aprove ou rejeite as ações de correção pendentes
                   href: mtp/mtp-autoir-actions.md
+                - name: Exiba os detalhes e resultados das investigações automatizadas
+                  href: mtp/mtp-autoir-results.md
                 - name: Relatório falso positivo/negativos
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Busca avançada
               items:
-                - name: Visão geral da caça avançada
+                - name: Visão geral da busca avançada
                   href: mtp/advanced-hunting-overview.md
-                - name: Aprender a linguagem de consulta
-                  href: mtp/advanced-hunting-query-language.md
-                - name: Aplicar práticas recomendadas de consulta
-                  href: mtp/advanced-hunting-best-practices.md
+                - name: 'Aprenda, treine & obtenha exemplos'
+                  items:
+                    - name: Saiba mais sobre o idioma da consulta
+                      href: mtp/advanced-hunting-query-language.md
+                    - name: Obtenha treinamento especializado
+                      href: mtp/advanced-hunting-expert-training.md
+                    - name: Usar consultas compartilhadas
+                      href: mtp/advanced-hunting-shared-queries.md
+                    - name: 'Procure em dispositivos, e-mails, aplicativos e identidades'
+                      href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Trabalhar com os resultados da consulta
                   href: mtp/advanced-hunting-query-results.md
                 - name: Tomar providências sobre os resultados de consulta
                   href: mtp/advanced-hunting-take-action.md
-                - name: Usar consultas compartilhadas
-                  href: mtp/advanced-hunting-shared-queries.md
-                - name: 'Procure em dispositivos, e-mails, aplicativos e identidades'
-                  href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Ir à caça
                   href: mtp/advanced-hunting-go-hunt.md
+                - name: Otimização e identificação de erros
+                  items:
+                    - name: Aplicar as práticas recomendadas de consulta
+                      href: mtp/advanced-hunting-best-practices.md
+                    - name: Lidar com erros
+                      href: mtp/advanced-hunting-errors.md
+                    - name: Limites de serviço
+                      href: mtp/advanced-hunting-limits.md
                 - name: Estender cobertura de dados
                   href: mtp/advanced-hunting-extend-data.md
                 - name: Esquema de dados
@@ -204,8 +230,6 @@
                   href: mtp/monitor-devices.md
                 - name: Monitoramento e relatório de aplicativo
                   href: mtp/monitor-apps.md
-            - name: APIs
-              items: null
         - name: Referência
           items:
             - name: Configurações e permissões

@@ -107,12 +107,14 @@
           href: what-the-dlp-functions-look-for.md
     - name: Classificadores de treinamento
       items:
+        - name: Saiba mais sobre classificadores de treinamento (visualização)
+          href: classifier-learn-about.md
         - name: Introdução aos classificadores de treinamento (visualização)
-          href: classifier-getting-started-with.md
-        - name: Usando um classificador interno (visualização)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: Criando e treinando um classificador (visualização)
-          href: classifier-creating-a-trainable-classifier.md
+          href: classifier-get-started-with.md
+        - name: Como treinar novamente um classificador em conformidade de comunicações (visualização)
+          href: classifier-how-to-retrain-comms-compliance.md
+        - name: Como treinar novamente um classificador no explorador de conteúdos (visualização)
+          href: classifier-how-to-retrain-content-explorer.md
     - name: Classificação de dados
       items:
         - name: Entender a classificação de dados
