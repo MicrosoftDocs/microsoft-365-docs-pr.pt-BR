@@ -3,7 +3,7 @@ title: Microsoft 365 Network insights (versão prévia)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/21/2020
+ms.date: 09/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network insights (versão prévia)
-ms.openlocfilehash: a9d4dbde112c9b6c74e340824c63ce2b9749e80e
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e3730704b6672c931b7538659a38f218e769dd0a
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948511"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962366"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network insights (versão prévia)
 
@@ -86,7 +86,7 @@ Esta percepção será exibida se o serviço de insights de rede detectar que os
 
 Esta percepção é abreviada como "roteamento" em alguns modos de exibição de resumo.
 
-![Porta frontal não ideal](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
+![Porta frontal EXO não ideal](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
 
 ### <a name="what-does-this-mean"></a>Cenário
 
@@ -102,7 +102,7 @@ Esta percepção será exibida se o serviço de insights de rede detectar que os
 
 Esta percepção é abreviada como "AFD" em alguns modos de exibição de resumo.
 
-![Porta frontal não ideal](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
+![Porta frontal SPO não ideal](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
 
 ### <a name="what-does-this-mean"></a>Cenário
 
@@ -173,7 +173,7 @@ Habilitar a visibilidade da conectividade de rede do Office local, se você aind
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Recomendações de desempenho de rede no centro de administração do Microsoft 365 (versão prévia)](office-365-network-mac-perf-overview.md)
+[Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)](office-365-network-mac-perf-overview.md)
 
 [Avaliação de rede do Microsoft 365 (versão prévia)](office-365-network-mac-perf-score.md)
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 1aaa73fdc56662335904cbaa152429ea90d6bb08
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 757b1fcdae69e98ec45bb29e669ceda8f8cb8f98
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289350"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131631"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -189,7 +189,7 @@ Os classificadores de imagem *adulto*, *Racy*e *Gory* verificam arquivos. JPEG,.
 
 Os classificadores internos e informativos globais não oferecem uma lista abrangente de termos ou imagens nessas áreas. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar os classificadores a seu critério. Embora os classificadores possam ajudar sua organização a monitorar essas áreas, os classificadores não são destinados a fornecer o único meio de monitoramento ou endereçamento desses idiomas ou imagens. Sua organização, não a Microsoft, permanece responsável por todas as decisões relacionadas a imagens e idiomas de verificação e bloqueio nessas áreas.
 
-Para obter informações sobre classificadores estagiários no Microsoft 365, confira [introdução aos classificadores estagiários](classifier-getting-started-with.md).
+Para obter informações sobre classificadores estagiários no Microsoft 365, confira [introdução aos classificadores estagiários](classifier-get-started-with.md).
 
 ### <a name="conditional-settings"></a>Configurações condicionais
 <a name="ConditionalSettings"> </a>
@@ -200,7 +200,7 @@ A tabela a seguir explica mais sobre cada condição.
   
 |**Condição**|**Como usar essa condição**|
 |:-----|:-----|
-| **O conteúdo corresponde a qualquer um desses classificadores** | Aplica-se à política quando os classificadores são incluídos ou excluídos em uma mensagem. Alguns classificadores são predefinidos no locatário e os classificadores personalizados devem ser configurados separadamente antes de estarem disponíveis para essa condição. Somente um classificador pode ser definido como uma condição em uma política. Para obter mais informações sobre a configuração de classificadores, consulte [classificadores](classifier-getting-started-with.md). |
+| **O conteúdo corresponde a qualquer um desses classificadores** | Aplica-se à política quando os classificadores são incluídos ou excluídos em uma mensagem. Alguns classificadores são predefinidos no locatário e os classificadores personalizados devem ser configurados separadamente antes de estarem disponíveis para essa condição. Somente um classificador pode ser definido como uma condição em uma política. Para obter mais informações sobre a configuração de classificadores, consulte [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md). |
 | **O conteúdo contém qualquer um desses tipos de informações confidenciais** | Aplica-se à política quando qualquer tipo de informação confidencial é incluído ou excluído em uma mensagem. Alguns classificadores são predefinidos no locatário e os classificadores personalizados podem ser configurados separadamente ou como parte do processo de atribuição de condição. Cada tipo de informação confidencial que você escolher será aplicado separadamente e apenas um desses tipos de informações confidenciais deverá ser aplicado à política a ser aplicada à mensagem. Para obter mais informações sobre tipos de informações confidenciais personalizadas, confira [tipos de informações confidenciais personalizados](custom-sensitive-info-types.md). |
 | **A mensagem é recebida de qualquer um desses domínios**  <br><br> **A mensagem não é recebida de nenhum desses domínios** | Aplique a política para incluir ou excluir domínios ou endereços de email específicos em mensagens recebidas. Insira cada domínio ou endereço de email e separe vários domínios ou endereços de email com uma vírgula. Cada endereço de domínio ou de email inserido é aplicado separadamente, somente um domínio ou endereço de email deve ser aplicado para que a política seja aplicada à mensagem. <br><br> Se você deseja examinar todos os emails de um domínio específico, mas deseja excluir mensagens que não precisam de revisão (boletins informativos, anúncios e assim por diante), você deve configurar uma **mensagem não é recebida de qualquer uma destas** condições de domínios que exclua o endereço de email (exemplo "newsletter@contoso.com"). |
 | **A mensagem é enviada para qualquer um desses domínios**  <br><br> **A mensagem não é enviada a nenhum desses domínios** | Aplique a política para incluir ou excluir domínios ou endereços de email específicos em mensagens enviadas. Insira cada domínio ou endereço de email e separe vários domínios ou endereços de email com uma vírgula. Cada domínio ou endereço de email é aplicado separadamente, apenas um endereço de domínio ou de email deve ser aplicado para que a política seja aplicada à mensagem. <br><br> Se você deseja examinar todos os emails enviados para um domínio específico, mas deseja excluir as mensagens enviadas que não precisam de revisão, você deve configurar duas condições: <br> -Uma **mensagem é enviada a qualquer uma das condições de domínios** que define o domínio ("contoso.com") e <br> -Uma **mensagem não é enviada para qualquer uma dessas condições de domínio** que exclua o endereço de email ("subscriptions@contoso.com"). |
@@ -243,7 +243,7 @@ A proteção da privacidade dos usuários que têm correspondências de polític
 Para usuários com uma correspondência de conformidade de comunicação, você pode escolher uma das configurações a seguir nas **configurações de conformidade de comunicação**:
 
 - **Mostrar versões de nomes de usuário anônimos**: os nomes de usuários são anônimos para impedir que administradores, analistas, investigadores de dados e revisores vejam quem está associado aos alertas de política. Por exemplo, um "Taylor de cortesia" do usuário apareceria com um pseudonym aleatório, como "AnonIS8-988" em todas as áreas da experiência de conformidade de comunicação. A escolha dessa configuração anonymizes todos os usuários com correspondências de política atuais e anteriores e se aplicam a todas as políticas. As informações de perfil de usuário nos detalhes de alerta de conformidade de comunicação não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuários são exibidos ao adicionar novos usuários às políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que têm correspondências de política atuais ou antigas.
-- **Não mostrar versões de nomes de usuário anônimos**: os nomes de usuários são exibidos para todas as correspondências de política atuais e anteriores para alertas de conformidade de comunicação. As informações de perfil de usuário (o nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas e casos de gerenciamento de risco do insider.
+- **Não mostrar versões de nomes de usuário anônimos**: os nomes de usuários são exibidos para todas as correspondências de política atuais e anteriores para alertas de conformidade de comunicação. As informações de perfil de usuário (o nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas de conformidade de comunicação.
 
 ## <a name="notice-templates"></a>Modelos de aviso
 
@@ -283,14 +283,14 @@ Se quiser criar mais de uma mensagem de email baseada em texto simples para noti
 
 Os filtros de conformidade de comunicação permitem que você filtre e classifique mensagens de alerta para investigação e ações de correção mais rápidas. A filtragem está disponível nas guias **pendentes** e **resolvidas** de cada política. Para salvar um filtro ou conjunto de filtro como uma consulta de filtro salva, um ou mais valores devem ser configurados como seleções de filtro. A tabela a seguir descreve os detalhes do filtro:
 
-|**Filter**|**Detalhes**|
+|**Filtro**|**Detalhes**|
 |:-----|:-----|
 | **Date** | A data em que a mensagem foi enviada ou recebida por um usuário em sua organização. |
 | **Classe de arquivo** | A classe da mensagem com base no tipo de mensagem, a *mensagem* ou o *anexo*. |
 | **Tem anexo** | A presença de anexo na mensagem. |
 | **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloomberg, etc. Para obter mais informações sobre tipos de item e classes de mensagens comuns, consulte [tipos de item e classes de mensagens](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes). |
 | **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
-| **Recipiente** | O usuário para o qual a mensagem foi enviada. |
+| **Recipient** | O usuário para o qual a mensagem foi enviada. |
 | **Sender** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
 | **Tamanho** | O tamanho da mensagem em KB. |
@@ -334,16 +334,91 @@ Se quiser alterar o nível de gravidade atribuído em uma política de alerta pa
 
 7. Selecione **fechar** para sair da página de detalhes da política de alerta.
 
+## <a name="power-automate-flows-preview"></a>Fluxos automatizados de energia (visualização)
+
+[O Microsoft Power Automate](https://docs.microsoft.com/power-automate/getting-started) é um serviço de fluxo de trabalho que automatiza ações entre aplicativos e serviços. Usando fluxos de modelos ou criados manualmente, é possível automatizar tarefas comuns associadas a esses aplicativos e serviços. Quando você habilita os fluxos de energia automatizada para conformidade de comunicação, é possível automatizar tarefas importantes para alertas e usuários. Você pode configurar fluxos de energia automatizada para notificar os gerentes quando os usuários têm alertas de conformidade de comunicação e outros aplicativos.
+
+Os clientes com assinaturas do Microsoft 365 que incluem conformidade de comunicação não precisam de automatização de energia adicional para usar o modelo de automatização de conformidade de comunicação padrão recomendado. O modelo padrão pode ser personalizado para dar suporte à sua organização e cobrir os principais cenários de conformidade de comunicação. Se você optar por usar os recursos de automatização de energia Premium nesses modelos, crie um modelo personalizado usando o conector de conformidade da Microsoft 365 ou use os modelos de automatização de energia para outras áreas de conformidade no Microsoft 365, talvez você precise de energia adicional automatizar as licenças.
+
+![Comunicação automatizada de conformidade de comunicação](../media/communication-compliance-power-automate.png)
+
+O modelo de automatização de energia a seguir é fornecido aos clientes para oferecer suporte à automação de processos para alertas de conformidade de comunicação:
+
+- **Notificar o gerente quando um usuário tiver um alerta de conformidade de Comunicação**: algumas organizações podem precisar ter uma notificação de gerenciamento imediata quando um usuário tiver um alerta de conformidade de comunicação. Quando esse fluxo é configurado e selecionado, o gerente para o usuário caso é enviado uma mensagem de email com as seguintes informações sobre todos os alertas:
+    - Política aplicável para o alerta
+    - Data/hora do alerta
+    - Nível de severidade do alerta
+
+### <a name="create-a-power-automate-flow"></a>Criar um fluxo automatizado de energia
+
+Para criar um fluxo automatizado de energia a partir de um modelo padrão recomendado, você usará a opção **gerenciar fluxos de automatização de energia** do controle **automatizado** ao trabalhar diretamente em um alerta. Para criar um fluxo automatizado de energia com o **gerenciamento automático fluxos de energia**, você deve ser membro de pelo menos um grupo de função de conformidade de comunicação.
+
+Conclua as etapas a seguir para criar um fluxo automatizado de energia a partir de um modelo padrão:
+
+1. No centro de conformidade da Microsoft 365, vá para políticas de **conformidade de comunicação**  >  **Policies** e selecione a política com o alerta que você deseja revisar.
+2. Na política, selecione a guia **pendente** e selecione um alerta pendente.
+3. Selecione **automatizar energia** no menu Ação de alerta.
+4. Na página **automatizar energia** , selecione um modelo padrão dos modelos de **conformidade de comunicação que você pode desejar** na página.
+5. O fluxo listará as conexões inseridas necessárias para o fluxo e será exibido se os status de conexão estiverem disponíveis. Se necessário, atualize as conexões que não são exibidas como disponíveis. Selecione **continuar**.
+6. Por padrão, os fluxos recomendados são pré-configurados com os campos de dados de serviço recomendados de conformidade de comunicação e Microsoft 365 necessários para concluir a tarefa atribuída para o fluxo. Se necessário, personalize os componentes de fluxo usando o controle **Mostrar opções avançadas** e configurando as propriedades disponíveis para o componente de fluxo.
+7. Se necessário, adicione as etapas adicionais ao fluxo selecionando o botão **nova etapa** . Na maioria dos casos, essa alteração não deve ser necessária para os modelos padrão recomendados.
+8. Selecione **salvar rascunho** para salvar o fluxo para uma configuração adicional mais tarde ou selecione **salvar** para concluir a configuração para o fluxo.
+9. Selecione **fechar** para retornar à página fluxo automatizado de energia. O novo modelo será listado como um fluxo na guia **meus fluxos** e estará automaticamente disponível no controle automatizado de energia para o usuário que criou o fluxo ao trabalhar com alertas de conformidade de comunicação.
+
+### <a name="share-a-power-automate-flow"></a>Compartilhar um fluxo automatizado de energia
+
+Por padrão, os fluxos de energia automatizados criados por um usuário só estão disponíveis para esse usuário. Para que outros usuários de conformidade de comunicação tenham acesso e usem um fluxo, o fluxo deve ser compartilhado pelo criador de fluxo. Para compartilhar um fluxo, você usará o controle de **automatização de energia** ao trabalhar diretamente em um alerta.
+
+Para compartilhar um fluxo automatizado de energia, você deve ser membro de pelo menos um grupo de função de conformidade de comunicação.
+Conclua as seguintes etapas para compartilhar um fluxo automatizado de energia:
+
+1. No centro de conformidade da Microsoft 365, vá para políticas de **conformidade de comunicação**  >  **Policies** e selecione a política com o alerta que você deseja revisar.
+2. Na política, selecione a guia **pendente** e selecione um alerta pendente.
+3. Selecione **automatizar energia** no menu Ação de alerta.
+4. Na página **fluxos automáticos de energia** , selecione a guia **meus fluxos** ou **enfluxos da equipe** .
+5. Selecione o fluxo a ser compartilhado e, em seguida, selecione **compartilhar** no menu opções de fluxo.
+6. Na página compartilhamento de fluxo, insira o nome do usuário ou grupo que você deseja adicionar como um proprietário para o fluxo.
+7. Na caixa de diálogo **conexão usada** , selecione **OK** para confirmar que o usuário ou grupo adicionado terá acesso total ao fluxo.
+
+### <a name="edit-a-power-automate-flow"></a>Editar um fluxo automatizado de energia
+
+Se for necessário editar um fluxo, você usará o controle de **automatização de energia** ao trabalhar diretamente em um alerta. Para editar um fluxo automatizado de energia, você deve ser membro de pelo menos um grupo de função de conformidade de comunicação.
+
+Conclua as seguintes etapas para editar um fluxo automatizado de energia:
+
+1. No centro de conformidade da Microsoft 365, vá para políticas de **conformidade de comunicação**  >  **Policies** e selecione a política com o alerta que você deseja revisar.
+2. Na política, selecione a guia **pendente** e selecione um alerta pendente.
+3. Selecione **automatizar energia** no menu Ação de alerta.
+4. Na página **fluxos automáticos de energia** , selecione fluxo para editar. Selecione **Editar** no menu controle de fluxo.
+5. Selecione as configurações de **reticências**  >  **Settings** para alterar uma configuração de componente de fluxo ou **reticências**  >  **delete** para excluir um componente de fluxo.
+6. Selecione **salvar** e **fechar** para concluir a edição do fluxo.
+
+### <a name="delete-a-power-automate-flow"></a>Excluir um fluxo automatizado de energia
+
+Se for necessário excluir um fluxo, você usará o controle de **automatização de energia** ao trabalhar diretamente em um alerta. Para excluir um fluxo automatizado de energia, você deve ser membro de pelo menos um grupo de função de conformidade de comunicação.
+
+Conclua as seguintes etapas para excluir um fluxo automatizado de energia:
+
+1. No centro de conformidade da Microsoft 365, vá para políticas de **conformidade de comunicação**  >  **Policies** e selecione a política com o alerta que você deseja revisar.
+2. Na política, selecione a guia **pendente** e selecione um alerta pendente.
+3. Selecione **automatizar energia** no menu Ação de alerta.
+4. Na página **fluxos automáticos de energia** , selecione fluxo para excluir. Selecione **excluir** no menu controle de fluxo.
+5. Na caixa de diálogo de confirmação de exclusão, selecione **excluir** para remover o fluxo ou selecione **Cancelar** para sair da ação de exclusão.
+
 ## <a name="reports-preview"></a>Relatórios (visualização)
 
-O novo painel de **relatórios** é o local central para exibir todos os relatórios de conformidade de comunicação. Os widgets de relatório fornecem uma visão rápida dos insights mais necessários para uma avaliação geral do status das atividades de conformidade de comunicação. As informações contidas nos widgets de relatório não são exportáveis.
+O novo painel de **relatórios** é o local central para exibir todos os relatórios de conformidade de comunicação. Os widgets de relatório fornecem uma visão rápida das ideias mais comumente necessárias para uma avaliação geral do status das atividades de conformidade de comunicação. As informações contidas nos widgets de relatório não são exportáveis. Relatórios detalhados fornecem informações detalhadas relacionadas a áreas de conformidade de comunicação específicas e oferecem a capacidade de filtrar, agrupar, classificar e exportar informações durante a revisão.
 
-O painel **relatórios** contém os seguintes widgets de relatório:
+O **painel relatórios** contém os seguintes widgets de relatório e links de relatórios detalhados:
 
-- **Correspondências de política recentes**: exibe o número de correspondências por política ativa ao longo do tempo.
-- **Itens resolvidos pela política**: exibe o número de alertas de correspondência de política resolvidos pela política ao longo do tempo.
-- **Usuários com a maioria das correspondências de política**: exibe os usuários (ou nomes de usuário anônimos) e o número de correspondências de política para um determinado período.
-- **Política com a maioria das correspondências**: exibe as políticas e o número de correspondências de um determinado período, classificados de maior para mais baixo para correspondências.
+- **Correspondências recentes de política** widget: exibe o número de correspondências por política ativa ao longo do tempo.
+- **Itens resolvidos pelo widget política** : exibe o número de alertas de correspondência de política resolvidos pela política ao longo do tempo.
+- **Usuários com a maioria das políticas de correspondência** widget: exibe os usuários (ou nomes de usuário anônimos) e o número de correspondências de política para um determinado período.
+- **Política com a maioria das correspondências** widget: exibe as políticas e o número de correspondências de um determinado período, classificados de maior para mais baixo para correspondências.
+- **Escalonamento pelo widget política** : exibe o número de escalas por política em um determinado momento.
+- **Configurações de política e** relatório detalhado de status: fornece uma visão detalhada da configuração e das configurações da política, bem como o status geral de cada política (correspondências e ações) nas mensagens. Use a opção *Exportar* para criar um. Arquivo CSV contendo os detalhes do relatório.
+- **Itens e ações por** relatório detalhado de política: revise e exporte itens correspondentes e ações de correção por política. Use a opção *Exportar* para criar um. Arquivo CSV contendo os detalhes do relatório.
+- **Item e ações por local** relatório detalhado: revise e exporte itens correspondentes e ações de correção por local da Microsoft 365. Use a opção *Exportar* para criar um. Arquivo CSV contendo os detalhes do relatório.
 
 ## <a name="audit"></a>Auditoria
 

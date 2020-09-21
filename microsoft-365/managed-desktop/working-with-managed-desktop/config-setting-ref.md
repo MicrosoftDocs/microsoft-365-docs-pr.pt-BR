@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c3f8aec244b1b0685b8293fda0b048d662c7cef2
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 2c7c7d75fad58cab0cd6d19a16a97667ea3641a1
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529356"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104483"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>Referência de configurações configuráveis-Microsoft Managed desktop
 
@@ -23,7 +23,7 @@ Este tópico lista as categorias de configurações que os clientes podem config
 ## <a name="desktop-background-picture"></a>Imagem de fundo da área de trabalho
 Você pode personalizar a imagem de plano de fundo da área de trabalho para dispositivos de área de trabalho gerenciado da Microsoft em sua organização. Você pode usá-lo para aplicar uma marca da empresa ou material de marketing. 
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Esses requisitos devem ser atendidos para uma imagem de plano de fundo da área de trabalho:
 - Formato de arquivo de imagem-. jpg, JPEG ou. png
@@ -33,25 +33,25 @@ Esses requisitos devem ser atendidos para uma imagem de plano de fundo da área 
 ### <a name="customize-and-deploy-desktop-background-picture"></a>Personalizar e implantar imagem de plano de fundo da área de trabalho
 
 **Para adicionar uma imagem de plano de fundo da área de trabalho personalizada**
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
-2. Em **configurações**, selecione **configurável**.
-3. Em espaço de trabalho **configurável** , selecione **imagem de fundo da área de trabalho**. 
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **dispositivos**
+2. Procure a seção área de trabalho gerenciada da Microsoft, selecione **configurações**.
+3. Em **configurações** do espaço de trabalho, selecione **imagem de fundo da área de trabalho**. 
 4. Insira o local da imagem que você deseja usar. 
 5. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste. 
 
 ## <a name="browser-start-pages"></a>Páginas iniciais do navegador
 As páginas iniciais do navegador são abertas em guias individuais quando os usuários iniciam o Microsoft Edge. Se você quiser tornar mais fácil para os usuários abrir um conjunto de sites que eles usam com frequência, adicione uma página inicial de navegador para cada site. 
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Você deve fornecer o nome de domínio totalmente qualificado (FQDN) para sites de intranet ou Internet para as páginas iniciais do seu navegador. Se os sites internos estiverem configurados, permita que os usuários saibam que o acesso a esses sites só será permitido quando você estiver conectado à rede interna no escritório ou quando estiver conectado a uma conexão VPN. 
 
 ### <a name="customize-and-deploy-browser-start-pages"></a>Personalizar e implantar páginas iniciais do navegador
 
 **Para adicionar uma página inicial do navegador**
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
-2. Em **configurações**, selecione **configurável**.
-3. Em espaço de trabalho **configurável** , selecione **páginas iniciais do navegador**. 
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **dispositivos**
+2. Procure a seção área de trabalho gerenciada da Microsoft, selecione **configurações**.
+3. Em **configurações** do espaço de trabalho, selecione **páginas iniciais do navegador**. 
 4. Selecione **Adicionar página inicial**.
 5. Na **página Adicionar do navegador**, digite a URL do site que você deseja usar e, em seguida, selecione **Adicionar página inicial**. 
 6. Repita as etapas 1-5 para as páginas iniciais adicionais do navegador. 
@@ -63,7 +63,7 @@ Se você tiver sites e aplicativos específicos que sabe que têm problemas de c
 
 Você pode especificar um local do https://ou o local de um compartilhamento interno onde você tenha hospedado sua lista de sites do modo empresarial. 
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Esses requisitos devem ser atendidos para o arquivo de lista de sites do modo empresarial:
 - Formato de arquivo-arquivo XML que atende [aos requisitos de arquivo](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#site-list-xml-file)
@@ -80,11 +80,11 @@ Essas práticas recomendadas são oferecidas para ajudar os clientes a tomar dec
 
 **Para adicionar um local de lista de modo de site corporativo**
 
-1.  Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
-2.  Em **configurações**, selecione **configurável**.
-3.  Em espaço de trabalho **configurável** , selecione **local da lista de sites do modo empresarial**. 
-4.  Insira o local https da sua lista de sites. 
-5.  Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **dispositivos**
+2. Procure a seção área de trabalho gerenciada da Microsoft, selecione **configurações**.
+3. Em **configurações** do espaço de trabalho, selecione **local da lista de sites do modo empresarial**. 
+4. Insira o local https da sua lista de sites. 
+5. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
 
 ## <a name="trusted-sites"></a>Sites confiáveis
 
@@ -94,7 +94,7 @@ Os sites confiáveis permitem que você personalize as zonas de segurança ou on
 - Zona 3 – zona da Internet
 - Zona 4 – zona de sites restritos
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet ou Internet para cada site confiável. 
 
@@ -102,18 +102,18 @@ Forneça o nome de domínio totalmente qualificado (FQDN) para sites de intranet
 
 **Para adicionar um site confiável**
 
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
-2. Em **configurações**, selecione **configurável**.
-3. Em espaço de trabalho **configurável** , selecione **sites confiáveis**e, em seguida, selecione **Adicionar site confiável**. 
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **dispositivos**
+2. Procure a seção área de trabalho gerenciada da Microsoft, selecione **configurações**.
+3. Em **configurações** do espaço de trabalho, selecione **sites confiáveis**e, em seguida, selecione **Adicionar site confiável**. 
 4. Em **Adicionar site confiável**, digite a URL, escolha uma zona de segurança e, em seguida, selecione **Adicionar site confiável**. 
 5. Repita as etapas 1-4 para cada site confiável que você deseja adicionar. 
 6. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
 
 **Para remover um site confiável**
 
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
-2. Em **configurações**, selecione **configurável**.
-3. Em espaço de trabalho **configurável** , selecione **sites confiáveis**. 
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **dispositivos**
+2. Procure a seção área de trabalho gerenciada da Microsoft, selecione **configurações**.
+3. Em **configurações** do espaço de trabalho, selecione **sites confiáveis**. 
 4. Selecione o site que você deseja excluir e, em seguida, selecione **excluir**. 
 5. Repita as etapas 1-4 para cada site confiável que você deseja excluir. 
 6. Selecione **implantação de estágio** para salvar suas alterações e implantá-las no grupo de teste.
@@ -126,7 +126,7 @@ As exceções de site de proxy adicionadas no portal de área de trabalho gerenc
 > [!NOTE]
 > A atualização da lista de exceções de proxy padrão é sempre priorizada em implantações de cliente. Isso significa que sua implantação em estágios será pausada se houver uma implantação para a lista de exceções de proxy padrão.  
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Esses requisitos devem ser atendidos para exceções de servidor proxy e site de proxy:
 - Deve ser um endereço de servidor válido e um número de porta
@@ -136,9 +136,9 @@ Esses requisitos devem ser atendidos para exceções de servidor proxy e site de
 
 **Para adicionar uma exceção de site de proxy individual**
 
-1. Entrar no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal)
-2. Em **configurações**, selecione **configurável**.
-3. Em espaço de trabalho **configurável** , selecione **proxy**. 
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **dispositivos**
+2. Procure a seção área de trabalho gerenciada da Microsoft, selecione **configurações**.
+3. Em **configurações** do espaço de trabalho, selecione **proxy**. 
 4. Insira o **endereço** e o **número da porta** para o servidor de proxy e, em seguida, selecione **Adicionar exceção de proxy**. 
 5. Insira a URL de um site http válido e, em seguida, selecione **Adicionar exceção de proxy**. 
 6. Repita as etapas 1-5 para cada site confiável que você deseja adicionar. 

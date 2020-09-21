@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5fde3c6d5fd14bd0e4d108030ffaa8e5aeb5ed5c
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: d64edc9d80722080db18c45127bfc82110d1ea9e
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289316"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131533"
 ---
 # <a name="plan-for-communication-compliance"></a>Planejar a conformidade em comunicações
 
@@ -66,7 +66,7 @@ Ao planejar políticas de conformidade de comunicação, considere as seguintes 
 - Para simplificar a configuração, considere a criação de grupos para pessoas que precisam de suas comunicações revisadas. Se você estiver usando grupos; Você pode precisar de vários. Por exemplo, se você quiser examinar as comunicações entre dois grupos distintos de pessoas ou se quiser especificar um grupo que não é supervisionado.
 - Configure a porcentagem de comunicação a ser revisada às 100% para garantir que as políticas estejam decorrendo todos os problemas de interesse nas comunicações da sua organização.
 - Você pode verificar as comunicações de [fontes de terceiros](communication-compliance-feature-reference.md#supported-communication-types) para dados importados em caixas de correio em sua organização do Microsoft 365. Para incluir a análise das comunicações nessas plataformas, você precisará configurar um conector para esses serviços antes que as condições da política de reunião de mensagens sejam monitoradas pela política de comunicação.
-- As políticas podem suportar idiomas de monitoramento diferentes do inglês em políticas de conformidade de comunicação personalizadas. Crie um [dicionário de palavra-chave personalizado](communication-compliance-feature-reference.md#custom-keyword-dictionaries) de palavras ofensivas no idioma de sua escolha ou crie seu próprio modelo de aprendizado de máquina usando [classificadores destreinados](classifier-getting-started-with.md) no Microsoft 365.
+- As políticas podem suportar idiomas de monitoramento diferentes do inglês em políticas de conformidade de comunicação personalizadas. Crie um [dicionário de palavra-chave personalizado](communication-compliance-feature-reference.md#custom-keyword-dictionaries) de palavras ofensivas no idioma de sua escolha ou crie seu próprio modelo de aprendizado de máquina usando [classificadores destreinados](classifier-get-started-with.md) no Microsoft 365.
 - Todas as organizações têm padrões de comunicação e necessidades de política diferentes. Monitorar palavras-chave específicas usando [condições de política](communication-compliance-feature-reference.md#conditional-settings) de conformidade de comunicação ou monitorar tipos específicos de informações com [tipos de informações confidenciais personalizados](create-a-custom-sensitive-information-type.md).
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?

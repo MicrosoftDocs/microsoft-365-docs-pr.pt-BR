@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: f1902c71b167d6293530eae61fa6c57d63c5f06c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0dcb1fac17a39d1125f9188028d714962c9797d
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387796"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948203"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
-You can easily see how people in your business are using Microsoft 365 services. For example, you can identify who is using a service a lot and reaching quotas, or who may not need an Microsoft 365 license at all.
+Você pode ver facilmente como as pessoas da sua empresa estão usando os serviços do Microsoft 365. Por exemplo, você pode identificar quem está usando muito um serviço e está atingindo cotas ou quem não precisa de uma licença do Microsoft 365.
   
-Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
+Os relatórios estão disponíveis para os últimos 7 dias, 30 dias, 90 dias e 180 dias. Não existirão dados para todos os períodos de relatórios imediatamente. Os relatórios ficam disponíveis a partir de 48 horas.
   
 Assista a este vídeo para obter uma visão geral: sobre como você pode usar os relatórios:
   
@@ -141,13 +141,25 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
 
 ::: moniker range="o365-worldwide"
 
-- [Atividade de usuários do Microsoft Teams](microsoft-teams-user-activity.md)
+- [Atividade de usuários do Microsoft Teams](microsoft-teams-user-activity-preview.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Uso do dispositivo do Microsoft Teams](microsoft-teams-device-usage.md)
+- [Atividade do usuário do Microsoft Teams para o Departamento de Defesa e Nuvem da Comunidade Governamental](microsoft-teams-user-activity.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Uso do dispositivo do Microsoft Teams](microsoft-teams-device-usage-preview.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Uso do dispositivo do Microsoft Teams para o Departamento de Defesa e Nuvem da Comunidade Governamental](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 
@@ -159,7 +171,7 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>Como exibir informações de uso de um usuário específico
 
-Use the service reports to research how much a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel so you filter through the list quickly.
+Use os relatórios de serviço para pesquisar o nível de uso de um determinado usuário. Por exemplo, para descobrir a quantidade de armazenamento de caixa de correio que um usuário específico consumiu, abra o relatório de uso da caixa de correio e classifique os usuários por nome. Caso tenha milhares de usuários, exporte o relatório para o Excel a fim de filtrar a lista rapidamente.
   
 Não é possível gerar um relatório no qual você insere contas de usuários e obtém uma lista com os serviços e a quantidade que eles estão usando.
   
@@ -177,7 +189,7 @@ A sua lista de usuários terá a seguinte aparência:
   
 ![Relatórios - lista de usuários anônimos](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-It'll take a few minutes for these changes to take effect on the reports in the reports dashboard. This setting also applies to the reports API.
+Levará alguns minutos para que essas alterações entrem em vigor nos relatórios do Painel de relatórios. Isso também se aplica à API de relatórios.
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>O que acontece com os dados de uso quando uma conta de usuário é fechada?
 

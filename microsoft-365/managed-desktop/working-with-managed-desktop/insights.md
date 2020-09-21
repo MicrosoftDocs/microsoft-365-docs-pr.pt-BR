@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bcb47a7d5e5dc0880ade6a7e5900d1019e13a8d7
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 6b19c5cd1766c07e106897cefeb495f1b98bb548
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529762"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104383"
 ---
 # <a name="work-with-insights"></a>Trabalhe com percepções
 
-O Microsoft Managed Desktop fornece vários painéis que os administradores de ti do seu locatário podem usar para entender vários aspectos da população de dispositivos. Você acessa estes por meio do centro de administração do Microsoft 365.
+O Microsoft Managed Desktop fornece vários painéis que os administradores de ti do seu locatário podem usar para entender vários aspectos da população de dispositivos. Você acessa esses diretamente no centro de [Administração do Microsoft 365](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop).
 
 Com esses painéis, você pode encontrar as respostas para perguntas como estas:
 
@@ -31,10 +31,9 @@ Com esses painéis, você pode encontrar as respostas para perguntas como estas:
 - Qual é o status atual das atualizações de segurança em dispositivos?
 - Quanto tempo levava até 95% dos dispositivos para obter o atual com a atualização de segurança mais recente?
 
-Para acessar esses modos de exibição no centro de administração do Microsoft 365, selecione **Exibir detalhes** na área **relatórios** :
+Para acessar esses modos de exibição do [Microsoft Endopint Manager](https://endpoint.microsoft.com/), nvaigate para a guia área de trabalho gerenciada da Microsoft na Home Page e selecione **Exibir detalhes** na área **relatórios** :
 
-![Centro de administração com área de relatórios no canto superior direito, incluindo o cartão de relatórios de dispositivos e o link "Exibir detalhes".](../../media/insights_overview.png)
-
+<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->!
 
 
 ## <a name="usage-insights"></a>Percepções de uso

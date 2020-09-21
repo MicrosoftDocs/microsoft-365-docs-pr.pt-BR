@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 94af3e22-aca6-4e91-8b91-1cd5a02a9ea8
 description: Alterar suas configurações de idioma e fuso horário em Microsoft bookings. Se as reservas forem criadas na hora errada, as reservas poderão ser definidas para o fuso horário errado.
-ms.openlocfilehash: 07e5dde2a896610ee079063943aff24ec69ba721
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 3e7709666d6426b11c275e46a18d43e7b7ab3526
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419180"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962426"
 ---
 # <a name="set-language-and-time-zones-in-microsoft-bookings"></a>Definir idioma e fuso horário em Microsoft bookings
 
 Se você estiver usando o Microsoft bookings e as reservas são criados no momento errado, as configurações de fuso horário podem precisar ser alteradas. Da mesma forma, se algumas reservas estiverem no idioma errado, talvez seja necessário alterar as configurações de idioma.
 
 Há duas configurações de idioma e fuso horário separados para reservas. A primeira configuração controla o idioma e o fuso horário do calendário de reserva e é definida usando as configurações do Outlook na Web para o calendário pessoal do usuário conectado. A segunda configuração afeta a página de reserva de autoatendimento usada pelos seus clientes e é definida usando uma página "configurações regionais" que controla o idioma e o fuso horário somente para essa página.
-
-> [!NOTE]
-> As reservas são ativadas por padrão para clientes que têm as assinaturas do Microsoft 365 Business Standard, da Microsoft 365 a3 ou do Microsoft 365 a5. As reservas também estão disponíveis para clientes que têm o Office 365 Enterprise E3 e o Office 365 Enterprise e5, mas estão desativados por padrão. Para começar, confira [obter acesso aos Microsoft bookings](get-access.md). Para ativar ou desativar reservas, consulte [Ativar ou desativar reservas para sua organização](turn-bookings-on-or-off.md).
 
 ## <a name="setting-language-and-time-zone-for-a-booking-calendar"></a>Definindo o idioma e o fuso horário de um calendário de reserva
 

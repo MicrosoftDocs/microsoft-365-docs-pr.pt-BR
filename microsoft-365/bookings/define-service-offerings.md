@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 4a1c391e-524f-48e0-bef8-185df3a9634b
 description: Instruções para inserir informações de ofertas de serviço, incluindo nome do serviço, descrição, local, duração e preços. Você também pode marcar os funcionários que estão qualificados para fornecer o serviço.
-ms.openlocfilehash: 60b77633b9845b3c269f6773c1fb8a26256fbdc5
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 095188546c01149a793a478a3cbd5ac9fbeb5524
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419221"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962532"
 ---
 # <a name="define-your-service-offerings-in-bookings"></a>Definir suas ofertas de serviço em reservas
 
 Ao definir suas ofertas de serviço em Microsoft bookings, você define um nome de serviço, uma descrição, um local (escolha se você deseja se reunir em pessoa ou em uma reunião online), duração, lembretes padrão para clientes e funcionários, anotações internas sobre o serviço e preços. Você também pode marcar os funcionários que estão qualificados para fornecer o serviço. Em seguida, quando os clientes chegam ao seu site comercial para agendar um compromisso, eles podem ver exatamente quais tipos de compromissos estão disponíveis, escolher a pessoa que eles desejam fornecer o serviço e quanto seu serviço custará.
 
 Você também pode adicionar informações personalizadas e URLs às confirmação de email e lembretes que você envia quando alguém manuais de um serviço por meio da página de reserva.
-
-> [!NOTE]
-> As reservas são ativadas por padrão para clientes que têm as assinaturas do Microsoft 365 Business Standard, da Microsoft 365 a3 ou do Microsoft 365 a5. As reservas também estão disponíveis para clientes que têm o Office 365 Enterprise E3 e o Office 365 Enterprise e5, mas estão desativados por padrão. Para começar, confira [obter acesso aos Microsoft bookings](get-access.md). Para ativar ou desativar reservas, consulte [Ativar ou desativar reservas para sua organização](turn-bookings-on-or-off.md).
 
 ## <a name="create-the-service-details"></a>Criar os detalhes do serviço
 

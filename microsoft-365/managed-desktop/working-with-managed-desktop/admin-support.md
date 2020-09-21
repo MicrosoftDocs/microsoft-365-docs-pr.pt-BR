@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fb786383e448ad3f5c78b22f3cdbf282c2c9f906
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 972430f5637f1160c330bed1558b79c8273171c5
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289716"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104577"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Administrador de suporte para Área de Trabalho Gerenciada da Microsoft
 
@@ -24,10 +24,11 @@ Você pode enviar tíquetes de suporte ou solicitações de comentários para a 
 >Verifique se você [configurou um contato de administrador](../get-started/add-admin-contacts.md) para pacotes de aplicativos, dispositivos, segurança e outros. Você não pode enviar uma solicitação de suporte em nenhuma destas áreas se um contato de administrador não estiver configurado.
 
 **Para enviar uma solicitação de suporte**
-1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal). 
-2. Em **solicitações de suporte**, selecione **+ novo tíquete de suporte**.
-3. Selecione o **tipo de solicitação de suporte** que corresponde à ajuda de que você precisa. A tabela abaixo descreve as opções. 
-4. Selecione o **nível de severidade**. Para obter mais informações, consulte [support Request Severity definições](#sev). 
+1. Entre no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até o menu **solução de problemas + suporte** .
+2. Procure a seção área de trabalho gerenciada da Microsoft, selecione **solicitação**de gerenciamento.
+3. Em **solicitações de suporte**, selecione **+ novo tíquete de suporte**.
+4. Selecione o **tipo de solicitação de suporte** que corresponde à ajuda de que você precisa. A tabela abaixo descreve as opções. 
+5. Selecione o **nível de severidade**. Para obter mais informações, consulte [support Request Severity definições](#sev). 
 
 Tipo de solicitação de suporte | Quando usar
 --- | ---
@@ -58,7 +59,7 @@ Detalhes adicionais:
 
 Agradecemos seus comentários e o usamos para melhorar a experiência de suporte do administrador.
 
-Depois que um tíquete estiver no estado **atenuado** ou **resolvido** , você poderá compartilhar seus comentários sobre sua experiência com esse problema específico. Para fazer isso, vá até a página **solicitações de suporte** no portal de administração. Selecione o tíquete específico. Na parte de baixo que aparece no lado direito, selecione a guia **comentários** e forneça as informações solicitadas. Tenha cuidado para não incluir informações pessoais no formulário de comentários. Para obter mais informações sobre privacidade, consulte a [política de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
+Depois que um tíquete estiver no estado **atenuado** ou **resolvido** , você poderá compartilhar seus comentários sobre sua experiência com esse problema específico. Para fazer isso, vá até a página **solicitações de serviço** no menu **Troubleshooting + support** do portal mem. Selecione o tíquete específico. Os detalhes do tíquete aparecerão no lado direito, selecione a guia **comentários** e forneça as informações solicitadas. Tenha cuidado para não incluir informações pessoais no formulário de comentários. Para obter mais informações sobre privacidade, consulte a [política de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ![Formulário de comentários](../../media/feedback_form.png)
 
@@ -67,4 +68,4 @@ Depois que um tíquete estiver no estado **atenuado** ou **resolvido** , você p
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte de usuário para a área de trabalho gerenciada da Microsoft](end-user-support.md). 
 - [Suporte para a área de trabalho gerenciada da Microsoft](../service-description/support.md). 
-- Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal).
+- Se você já se inscrever na área de trabalho gerenciada da Microsoft, poderá encontrar procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na página **recursos online** na seção **área de trabalho gerenciada da Microsoft** do menu de **Administração de locatários** no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).

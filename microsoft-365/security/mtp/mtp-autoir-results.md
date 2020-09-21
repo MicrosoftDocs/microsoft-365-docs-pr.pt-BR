@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 6b3bc068e5da99e02a64463891e32d137c448d64
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: 62d33c57606aad81607164b1f068c6f6d91063c2
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42261058"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962294"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -81,8 +83,6 @@ Na exibição de detalhes da investigação, você pode ver as informações nas
 |Ações pendentes    |Lista os itens que exigem aprovação para prosseguir.|
 
 ## <a name="next-steps"></a>Próximas etapas
-
-- [Obter uma visão geral das permissões da central de Ações](mtp-action-center.md#required-permissions-for-action-center-tasks)
 
 - [Aprovar ou rejeitar ações relacionadas a investigações e respostas automatizadas](mtp-autoir-actions.md)
 

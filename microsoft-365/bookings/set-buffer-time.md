@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 271f43e4-b8f7-4d63-8059-b5747679bb7e
 description: Defina o tempo do buffer antes ou depois de um compromisso em Microsoft bookings para permitir o tempo de limpeza ou redefinição de equipamento.
-ms.openlocfilehash: dceb777f9ddba9f1ddabfee00608813afae57a86
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 882ab0340fe56976429ed8294f2fa386b801941f
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419182"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962342"
 ---
 # <a name="set-buffer-time-in-microsoft-bookings"></a>Definir o tempo do buffer em Microsoft bookings
 
 Alguns dos seus compromissos podem exigir tempo antes ou após a reunião com o cliente para configurar, limpar ou redefinir a sala e o equipamento. Ou se você estiver viajando entre compromissos de clientes, talvez precise de tempo para garantir que você e sua equipe possam viajar entre compromissos sem fazer o cliente aguardar.
 
 Você pode definir o tempo do buffer antes do início dos compromissos, após o fim dos compromissos ou ambos para dar à equipe o tempo adicional necessário para se preparar para o próximo compromisso.
-
-> [!NOTE]
-> As reservas são ativadas por padrão para clientes que têm as assinaturas do Microsoft 365 Business Standard, da Microsoft 365 a3 ou do Microsoft 365 a5. As reservas também estão disponíveis para clientes que têm o Office 365 Enterprise E3 e o Office 365 Enterprise e5, mas estão desativados por padrão. Para começar, confira [obter acesso aos Microsoft bookings](get-access.md). Para ativar ou desativar reservas, consulte [Ativar ou desativar reservas para sua organização](turn-bookings-on-or-off.md).
 
 ## <a name="set-buffer-time-defaults"></a>Definir padrões de tempo do buffer
 

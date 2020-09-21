@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como obter o relatório de atividades do usuário do Microsoft Teams e obtenha informações sobre a atividade do teams em sua organização.
-ms.openlocfilehash: 5b6c67903e7af600cac6ad1fda10962aecc2cc83
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 32252ed89dd9447b5df59ee733088349c559a320
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949019"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104505"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams
 
@@ -44,7 +44,7 @@ Você pode exibir a atividade do usuário no relatório do teams escolhendo a gu
 
 Selecione **escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
 
-Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
+Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. O formato exportado para hora de **áudio**, tempo de **vídeo** e **tempo de compartilhamento de tela** segue o formato de data ISO8601.
 
 |Item|Descrição|
 |:-----|:-----|
@@ -59,5 +59,5 @@ Você também pode exportar os dados do relatório para um arquivo. csv do Excel
 |As reuniões organizadas como AdHoc <br/> |O número de reuniões não agendadas no calendário que o usuário organizou durante o período de tempo especificado. <br/>|
 |Reuniões organizadas agendadas  <br/> |O número de reuniões agendadas que um usuário organizou durante o período de tempo especificado.  <br/> |
 |É licenciado |Selecionado se o usuário está licenciado para usar o Microsoft Teams.|
-|Outra atividade|O usuário é considerado ativo, mas tem um valor zero para as mensagens de chat, 1:1 chamadas, mensagens de canal, reuniões totais e reuniões organizadas. Os exemplos de ações são quando o cliente do Microsoft Teams é ativado para o primeiro plano, as ações foram executadas na área de mensagem de redação, as notificações exibidas no cliente Microsoft Teams, foram mostradas no cliente Microsoft Teams, etc. |
+|Outra atividade|o usuário é considerado ativo, mas tem um valor zero para as mensagens de chat, 1:1 chamadas, mensagens de canal, reuniões totais e valores de métrica organizados em reuniões. Exemplos de ações são quando um usuário abre uma postagem de mensagem de canal, mas não responde ou quando uma mensagem privada é recebida e é lida, mas não respondida. |
 |||

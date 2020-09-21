@@ -9,12 +9,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 04c3901155ecd80fad472e07e7e46620c3ddee1f
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: fc216adadea8dd774901d42a754fb288412318a1
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289268"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104589"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Prepare as unidades mapeadas da Área de trabalho gerenciada da Microsoft
 
@@ -48,8 +48,8 @@ Por exemplo:
  
 Verifique se as unidades mapeadas não podem ser evitadas e se você analisou cuidadosamente os requisitos antes de enviar qualquer solicitação de serviço. Siga estas etapas:
 
-1. Navegue até o [portal de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal).  
-2. Envie uma solicitação de suporte intitulada "implantação de unidades mapeadas" por meio da seção de suporte de **solicitações de suporte >** e forneça todos os detalhes necessários do compartilhamento de arquivos.  
+1. Navegue até [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e selecione "solução de problemas + suporte" e procure por "solicitações de serviço" na seção Microsoft Managed deskop.  
+2. Envie uma solicitação de suporte intitulado "implantação de unidades mapeadas" e forneça todos os detalhes de compartilhamento de arquivos necessários.  
 3. As operações de ti de área de trabalho gerenciada da Microsoft avisarão usando as atualizações de solicitação de suporte, quando a solicitação tiver sido concluída. Inicialmente, essa configuração só será implantada em dispositivos no grupo de implantação de teste.  
-4. Você deve testar e confirmar se a configuração implantada pelas operações de ti de área de trabalho gerenciada da Microsoft funciona conforme o esperado. Responda usando a guia discussão na solicitação de suporte para notificar as operações de ti de área de trabalho gerenciada da Microsoft depois de concluir o teste.  
+4. Você deve testar e confirmar se a configuração implantada pelas operações de ti de área de trabalho gerenciada da Microsoft funciona conforme o esperado. Responda usando a guia discussão nos detalhes da mesma solicitação de suporte para notificar as operações de ti de área de trabalho gerenciada pela Microsoft após a conclusão do teste.  
 5. A equipe de operações de ti de área de trabalho gerenciada da Microsoft implantará a configuração em outros grupos de implantação. 

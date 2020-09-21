@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2d6dab7ae722b6e64b782596e51e0898ddc2cccc
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 8af782095ada41f0472e1df338ced7ebe76c97fe
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289682"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104407"
 ---
-# <a name="getting-help-for-users"></a>Obtendo ajuda para usuários
+# <a name="getting-help-for-users"></a>Obter ajuda para usuários
 
 Há duas maneiras de que os usuários em sua organização possam obter ajuda com seus dispositivos de área de trabalho gerenciada da Microsoft: **Obtenha ajuda** ou suporte por telefone. Ambas as opções de suporte estão disponíveis para os usuários 24 horas por dia, 7 dias por semana.
  
@@ -71,4 +71,4 @@ os usuários com dispositivos de área de trabalho gerenciada da Microsoft tamb�
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Suporte de administrador para área de trabalho gerenciada da Microsoft](admin-support.md). 
 - [Suporte para a área de trabalho gerenciada da Microsoft](../service-description/support.md).
-- Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal).
+- Se você já se inscrever na área de trabalho gerenciada da Microsoft, poderá encontrar procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** na área de trabalho gerenciada da Microsoft do menu de **Administração de locatário** no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).

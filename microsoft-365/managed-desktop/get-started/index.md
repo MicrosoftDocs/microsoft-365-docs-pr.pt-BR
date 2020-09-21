@@ -4,17 +4,18 @@ description: Etapas para configurar dispositivos e configurar recursos do Azure 
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 1c5edfd096694324082bdd4fcb70b85b0dd1f5f0
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: 02f12174ef3b8a55f9642bba41c845952b1c1c48
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "38020394"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950539"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Introdução à Área de Trabalho Gerenciada da Microsoft
 
-Agora que você já se inscreveu no serviço do, siga estas etapas para confirmar os contatos do administrador, ajustar as configurações de acesso condicional, atribuir licenças aos usuários, habilitar o roaming de estado empresarial, obter e configurar dispositivos, preparar os usuários e implantar aplicativos para dispositivos.
+Agora que você já inscreveu no serviço, siga estas etapas para confirmar os contatos do administrador, ajustar as configurações de acesso condicional, atribuir licenças a usuários, habilitar o Enterprise State Roaming, obter e configurar os dispositivos, preparar os usuários e implantar aplicativos para dispositivos.
 
 > [!NOTE]
 > Esta é a ordem recomendada a seguir, mas você tem alguma flexibilidade na sequência.

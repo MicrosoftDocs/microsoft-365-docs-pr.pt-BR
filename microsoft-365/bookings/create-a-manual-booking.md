@@ -9,19 +9,16 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: Siga estas instruções para criar um compromisso e atribuir um funcionário por meio do aplicativo Microsoft bookings.
-ms.openlocfilehash: d0538b1c3e19a6bc78c997ff3e681ac30aa074ff
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: dffc63b1f638c551e40d22852b1ba6a73c5be869
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419232"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962556"
 ---
 # <a name="create-a-manual-booking"></a>Criar uma reserva manual
 
 As reservas podem ser agendadas e são equipadas de duas maneiras diferentes. A primeira maneira é pelo cliente usando uma página de reserva autônoma ou uma página de reserva incorporada que você adiciona ao seu site. A outra maneira é para você ou um de seus funcionários inserir manualmente os registros, como quando um cliente liga para um compromisso. Este artigo aborda o cenário manual.
-
-> [!NOTE]
-> As reservas são ativadas por padrão para clientes que têm as assinaturas do Microsoft 365 Business Standard, da Microsoft 365 a3 ou do Microsoft 365 a5. As reservas também estão disponíveis para clientes que têm o Office 365 Enterprise E3 e o Office 365 Enterprise e5, mas estão desativados por padrão. Para começar, confira [obter acesso aos Microsoft bookings](get-access.md). Para ativar ou desativar reservas, consulte [Ativar ou desativar reservas para sua organização](turn-bookings-on-or-off.md).
 
 1. No Microsoft 365, selecione o inicializador de aplicativos e, em seguida, selecione **reservas**.
 

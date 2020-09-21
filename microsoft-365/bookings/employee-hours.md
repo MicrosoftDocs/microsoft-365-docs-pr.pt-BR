@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 0968717e-b61f-4b06-987c-6c1464541782
 description: Defina as horas de trabalho e a disponibilidade dos funcionários em Microsoft bookings.
-ms.openlocfilehash: 656b52992f4da32ae334809bd1a3ee4dd3b89652
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 140ab5732b051931666824cd4290a38c0b11fd65
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419209"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962520"
 ---
 # <a name="employee-working-hours-in-microsoft-bookings"></a>Horário de trabalho do funcionário em Microsoft bookings
 
@@ -23,9 +23,6 @@ Definir as horas de trabalho do funcionário garante que sua disponibilidade sej
 Na página **equipe** , você pode personalizar as horas de trabalho do funcionário para atender às necessidades de seus funcionários e negócios.
 
 Se você quiser agendar o tempo limite para membros da equipe para que os clientes não possam agendá-los enquanto estiverem fora do escritório, confira [agendar feriados comerciais, folgas e tempo de férias](schedule-closures-time-off-vacation.md) para obter instruções.
-
-> [!NOTE]
-> As reservas são ativadas por padrão para clientes que têm as assinaturas do Microsoft 365 Business Standard, da Microsoft 365 a3 ou do Microsoft 365 a5. As reservas também estão disponíveis para clientes que têm o Office 365 Enterprise E3 e o Office 365 Enterprise e5, mas estão desativados por padrão. Para começar, confira [obter acesso aos Microsoft bookings](get-access.md). Para ativar ou desativar reservas, consulte [Ativar ou desativar reservas para sua organização](turn-bookings-on-or-off.md).
 
 ## <a name="customize-employee-working-hours"></a>Personalizar o horário de trabalho do funcionário
 

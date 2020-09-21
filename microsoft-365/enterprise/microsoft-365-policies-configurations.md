@@ -17,18 +17,18 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 686d31c64394094530099edb97bbd10912a58cb8
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: cef17142d90a15f10e82fd51c4c22202bf7ecf00
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949887"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131573"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
 O perímetro de segurança moderna da sua organização agora vai além da sua rede para incluir usuários que acessam aplicativos baseados em nuvem de qualquer local com uma variedade de dispositivos. Sua infraestrutura de segurança precisa determinar se uma determinada solicitação de acesso deve ser concedida e sob quais condições. 
 
-Essa determinação deve ser baseada na entrada da conta de usuário, o dispositivo que está sendo usado, os aplicativos que o usuário está tentando acessar, o local a partir do qual a solicitação de acesso é feita e uma avaliação do risco da solicitação. Essa capacidade ajuda a garantir que apenas os usuários e dispositivos aprovados possam acessar seus recursos críticos.
+Essa determinação deve se basear na conta de usuário do logon, o dispositivo que está sendo usado, o aplicativo que o usuário está usando para acesso, o local a partir do qual a solicitação de acesso é feita e uma avaliação do risco da solicitação. Essa capacidade ajuda a garantir que apenas os usuários e dispositivos aprovados possam acessar seus recursos críticos.
 
 Esta série de artigos descreve um conjunto de configurações de pré-requisitos de acesso de dispositivo e identidade e um conjunto de acesso condicional do Azure Active Directory (Azure AD), Microsoft Intune e outras políticas para proteger o acesso ao Microsoft 365 para aplicativos e serviços de nuvem empresarial, outros serviços SaaS e aplicativos locais publicados com o proxy de aplicativo do Azure AD.
 

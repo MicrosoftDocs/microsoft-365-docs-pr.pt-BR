@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: e0f76f6a232edeac350d08eeeb47188535ffe688
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.date: 09/16/2020
+ms.reviewer: evaldm, isco
+ms.openlocfilehash: 205809bac14cc82e850ea1cbc0349256432bfe68
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502932"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962580"
 ---
 # <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Ações de correção após as investigações automatizadas no Microsoft Threat Protection
 
@@ -41,26 +43,28 @@ A tabela a seguir resume as ações de correção que atualmente têm suporte na
 |---------|---------|
 |– Coletar pacote de investigação <br/>-Isolar dispositivo (esta ação pode ser desfeita)<br/>-Máquina externamente <br/>-Liberar execução de código <br/>– Liberar da quarentena <br/>– Exemplo de solicitação <br/>– Restringir a execução de código (essa ação pode ser desfeita) <br/>– Executar verificação antivírus <br/>– Parar e colocar em quarentena      |-Bloquear URL (tempo de clique)<br/>– Excluir mensagens de email ou clusters<br/>– Email de quarentena<br/>-Colocar um anexo de email em quarentena<br/>– Desativar o encaminhamento de email externo          |
 
-Ações de correção, se estão aguardando aprovação ou já estão concluídas, podem ser exibidas na [central de ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
+Ações de correção, se a aprovação pendente ou já concluída, podem ser exibidas na [central de ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
 
 ## <a name="remediation-actions-follow-automated-investigations"></a>As ações de correção seguem investigações automatizadas
 
-Quando uma investigação automatizada for concluída, um veredito será feito para cada evidência envolvida, e as ações de correção serão identificadas. Em alguns casos, as ações de correção são executadas automaticamente, em outros casos, as ações de correção aguardam aprovação. A tabela a seguir lista os possíveis verditos e resultados:
+Quando uma investigação automatizada é concluída, um veredicto é alcançado para cada evidência envolvida. Dependendo do veredicto, as ações de correção serão identificadas. Em alguns casos, as ações de correção são executadas automaticamente, em outros casos, as ações de correção aguardam aprovação. Tudo isso depende de como a [investigação e a resposta automáticas são configuradas](mtp-configure-auto-investigation-response.md).
+
+A tabela a seguir lista os possíveis verditos e resultados:
 
 |Verdito    |Área    |Resultados|
 |------|------|------|
-|Mal-intencionado    |Dispositivos (pontos de extremidade)    |As ações de correção são tomadas automaticamente|
+|Mal-intencionado    |Dispositivos (pontos de extremidade)    |As ações de correção são realizadas automaticamente (supondo que os [grupos de dispositivos](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) da sua organização estejam definidos para **corrigir ameaças automaticamente**)|
 |Mal-intencionado    |Conteúdo do email (URLs ou anexos) | As ações de correção recomendadas estão aguardando aprovação|
 |Suspeito    |Conteúdo de dispositivos ou emails |As ações de correção recomendadas estão aguardando aprovação|
 |Nenhuma ameaça encontrada    |Conteúdo de dispositivos ou emails    |Nenhuma ação de correção é necessária|
 
-[Revisar uma ação pendente na Central de Ações](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
-
-> [!TIP]
-> Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! [Relatar falsos positivos/negativos](mtp-autoir-report-false-positives-negatives.md).
+> [!IMPORTANT]
+> Se as ações de correção serão realizadas automaticamente ou apenas após a aprovação dependerá de determinadas configurações, como as políticas de grupo de dispositivos da sua organização. Para saber mais, confira os seguintes artigos:
+> - [Configurar os recursos de investigação e resposta automatizados no Microsoft Threat Protection](mtp-configure-auto-investigation-response.md)
+> - [Como as ameaças são corrigidas nos dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Aprovar ou rejeitar ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
-
-- [Saiba mais sobre a Central de Ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
+- [Visite a central de ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
+- [Aprovar ou rejeitar ações pendentes](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
+- [Lidar com falsos positivos/negativos em recursos de investigação e resposta automatizados](mtp-autoir-report-false-positives-negatives.md)

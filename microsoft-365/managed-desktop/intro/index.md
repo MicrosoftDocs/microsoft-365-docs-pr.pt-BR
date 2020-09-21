@@ -9,17 +9,17 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: abd6a123cdc06a84ce094a93eac06f50fe23a315
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: a126627a4c4d96b2b6918cefb0630801b3674383
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289728"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950491"
 ---
-# <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?
+# <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
 
-A Área de Trabalho Gerenciada da Microsoft é um serviço baseado em nuvem que reúne [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (incluindo [Windows 10](https://docs.microsoft.com/windows/windows-10/) Enterprise e [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adicionando estes recursos:
+A Área de Trabalho Gerenciada da Microsoft é um serviço baseado em nuvem que reúne [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (incluindo [Windows 10](https://docs.microsoft.com/windows/windows-10/) Enterprise e [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adiciona estes recursos:
 
 - Implantação de dispositivos do usuário
 - Gerenciamento e operações de serviços de TI

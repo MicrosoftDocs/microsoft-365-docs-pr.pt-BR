@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: cd796a6bd5faebc87b2f7c9cab36fe17be41fe2e
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 43edaec282cc1efb9f4ab7d9e92ed0a779d255ab
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597462"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131553"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -70,7 +70,7 @@ A conformidade de comunicação no Microsoft 365 oferece vários recursos import
 Modelos inteligentes personalizáveis na conformidade de comunicação permitem que você aplique o Machine Learning para detectar com inteligência as violações de comunicação em sua organização.
 
 - **Modelos pré-configurados personalizáveis**: novos modelos de política ajudam a lidar com os riscos de comunicação mais comuns. A criação da diretiva inicial e a atualização de acompanhamento são agora mais rápida com o predefinido e com o antiassédio, informações confidenciais e modelos de conformidade normativa pré-definidos.
-- **Novo suporte de aprendizado de máquina**: a ameaça interna, assédio, profanação e [classificadores](classifier-getting-started-with.md) de imagem ajudam a reduzir falsos positivos em mensagens verificadas, poupando o tempo dos revisores durante o processo de investigação e correção.
+- **Novo suporte de aprendizado de máquina**: a ameaça interna, assédio, profanação e [classificadores](classifier-get-started-with.md) de imagem ajudam a reduzir falsos positivos em mensagens verificadas, poupando o tempo dos revisores durante o processo de investigação e correção.
 - **Melhor Construtor de condições**: a configuração de condições de política agora é simplificada em uma única experiência integrada no assistente de política, reduzindo a confusão em como as condições são aplicadas para políticas.
 
 ### <a name="flexible-remediation-workflows"></a>Fluxos de trabalho de correção flexíveis

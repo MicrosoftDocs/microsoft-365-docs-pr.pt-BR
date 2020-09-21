@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2dc641d22432e245980b905051bddd3b7dd4ed07
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: 4d4aa8afc7a17d2f9f0ae2d48404d7a3da553d47
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547981"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962258"
 ---
 # <a name="the-action-center"></a>A Central de Ações
 
@@ -94,9 +96,6 @@ Para aprovar ou rejeitar ações pendentes na Central de ações, você deve ter
 
 ## <a name="next-steps"></a>Próximas etapas 
 
-- [Saiba mais sobre incidentes em Proteção contra Ameaças da Microsoft](incidents-overview.md)
-
+- [Aprovar ou rejeitar ações pendentes após uma investigação automatizada](mtp-autoir-actions.md)
 - [Exibir os resultados de uma investigação automatizada](mtp-autoir-results.md)
-
-- [Saiba mais sobre a caça na Proteção contra Ameaças da Microsoft](advanced-hunting-overview.md)
 
