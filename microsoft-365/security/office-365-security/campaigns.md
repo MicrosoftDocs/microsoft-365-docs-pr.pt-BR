@@ -17,16 +17,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: 72662519177f4ac43e3de04e9755fd99f5ffb03f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 60ec8ea1d2c164905e7b57f4b518ea3f80e7986c
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867194"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173303"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Modos de Exibição de Campanha no Office 365 ATP
 
-O modo de exibição de campanha é um recurso do plano de proteção avançada contra ameaças (ATP) 2 (por exemplo, Microsoft 365 E5 ou organizações com um complemento plano 2). Os modos de exibição do campaing no centro de conformidade & segurança identifica e categoriza os ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
+O modo de exibição de campanha é um recurso do plano de proteção avançada contra ameaças (ATP) 2 (por exemplo, Microsoft 365 E5 ou organizações com um complemento plano 2). Os modos de exibição de campanha no centro de conformidade & segurança identifica e categoriza os ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
 
 - Investigar e responder de forma eficiente os ataques de phishing.
 - Entender melhor o escopo do ataque.
@@ -47,7 +47,7 @@ A Microsoft aproveita as vastas quantidades de dados anti-phishing, antispam e a
 
 Uma campanha pode ser de vida curta ou pode abranger vários dias, semanas ou meses com períodos ativos e inativos. Uma campanha pode ser iniciada em sua organização específica ou sua organização pode fazer parte de uma campanha maior em várias empresas.
 
-## <a name="campaign-views-the-security--compliance-center"></a>Exibições de campanha o centro de conformidade & segurança
+## <a name="campaign-views-in-the-security--compliance-center"></a>Modos de exibição de campanha no centro de conformidade & segurança
 
 Os modos de exibição de campanha estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) em campanhas de **Gerenciamento de ameaças** \> **Campaigns**ou diretamente em <https://protection.office.com/campaigns> .
 

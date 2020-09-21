@@ -8,7 +8,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.author: heidip
-ms.date: 09/12/2020
+ms.date: 09/18/2020
 ms.reviewer: anmorgan
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: fc2b83fc167a9385383d7085ed6d1e8db15abd42
-ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
+ms.openlocfilehash: 570ef098a3989bf42d641b78e325414350b8e5a5
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651127"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132107"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Recomendações de política para proteger chats, grupos e arquivos de equipes
 
@@ -71,28 +71,49 @@ Esta tabela lista as políticas que precisam ser revisitadas e links para cada p
 |        |[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Inclua equipes e serviços dependentes nessa política.|
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|O Microsoft Teams tem acesso de convidado e regras de acesso externo para considerar também, você aprenderá mais sobre eles posteriormente neste artigo. Inclua equipes e serviços dependentes nessa política.|
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Inclua equipes e serviços dependentes nessa política.|
-|**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Independentemente da identidade do usuário, a MFA será usada pela sua organização. Inclua equipes e serviços dependentes nessa política.
+|**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Independentemente da identidade do usuário, a MFA será usada pela sua organização. Inclua equipes e serviços dependentes nessa política. |
 | | |
 
 ## <a name="teams-dependent-services-architecture"></a>Arquitetura de serviços dependentes do teams
 
 Para referência, o diagrama a seguir ilustra a equipe de serviços que se baseia no. Para obter mais informações e ilustrações adicionais, consulte [Microsoft Teams e serviços de produtividade relacionados no microsoft 365 para arquitetos de ti](../solutions/productivity-illustrations.md).
 
-![Diagrama mostrando dependências do teams no SharePoint, no OneDrive for Business e no Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
+[![Diagrama mostrando dependências do teams no SharePoint, no OneDrive for Business e no Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-## <a name="enabling-guest-and-external-access-for-teams"></a>Habilitando o acesso externo e de convidados para o Teams
+[Veja uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-No Azure AD, os usuários convidados e externos são os mesmos. O tipo de usuário para ambos é Guest. Os usuários convidados são usuários B2B. O Microsoft Teams diferencia entre usuários convidados e usuários externos no aplicativo. Embora seja importante compreender como cada um deles é tratado no Microsoft Teams, os dois tipos de usuários são usuários B2B no Azure AD e as políticas recomendadas para usuários B2B se aplicam a ambos. Para obter as políticas recomendadas para permitir o acesso de convidados, confira [políticas para permitir o acesso B2B e de convidado externo](identity-access-policies-guest-access.md).
+## <a name="guest-and-external-access-for-teams"></a>Acesso externo e de convidados para o Teams
+
+O Microsoft Teams define o seguinte:
+
+- O **acesso de convidados** usa uma conta B2B do Azure ad para um usuário convidado ou externo que pode ser adicionado como um membro de uma equipe e ter todos os acessos com permissão para a comunicação e recursos da equipe.
+
+- O **acesso externo** é para um usuário externo que não tem uma conta B2B do Azure AD. O acesso externo pode incluir convites e participação em chamadas, chats e reuniões, mas não inclui Associação de equipe e acesso aos recursos da equipe.
+
+As políticas de acesso condicional só se aplicam ao acesso de convidados no Teams porque há uma conta B2B do Azure AD correspondente.
+
+<!--
+In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both. 
+
+--> 
+
+Para as políticas recomendadas para permitir o acesso a usuários convidados e externos com uma conta B2B do Azure AD, consulte [políticas para permitir acesso a contas de convidados e externos](identity-access-policies-guest-access.md).
 
 ### <a name="guest-access-in-teams"></a>Acesso de convidado ao Teams
 
-Além das políticas para usuários internos à sua empresa ou organização, os administradores podem habilitar o acesso de convidados para permitir, em uma base de usuário por usuário, as pessoas que são externas à sua empresa ou organização para acessar os recursos do Teams e interagir com pessoas internas para tarefas como conversas de grupo, chat e reuniões. Você pode saber mais sobre o acesso de convidados no seguinte link: [acesso de convidados às equipes](https://docs.microsoft.com/microsoftteams/guest-access)
+Além das políticas para usuários internos à sua empresa ou organização, os administradores podem habilitar o acesso de convidados para permitir, em uma base de usuário por usuário, as pessoas que são externas à sua empresa ou organização para acessar os recursos do Teams e interagir com pessoas internas para tarefas como conversas de grupo, chat e reuniões. 
+
+Para obter mais informações sobre o acesso de convidados e como implementá-lo, consulte  [Teams Guest Access](https://docs.microsoft.com/microsoftteams/guest-access).
 
 ### <a name="external-access-in-teams"></a>Acesso externo no Teams
 
-O acesso externo às vezes é confundido com acesso de convidados, portanto, é importante ficar claro que esses dois mecanismos de acesso não internos são realmente muito diferentes. Enquanto o acesso de convidados ocorre em uma base por usuário (você adiciona um usuário de cada vez), quando um administrador habilita o acesso externo, ele permite que você adicione todos os usuários de um domínio externo ao mesmo tempo para o Microsoft Teams. No entanto, os usuários externos têm menos acesso e funcionalidade do que um indivíduo que tenha sido adicionado por meio de acesso de convidados. Usuários de acesso externo podem bater papo com seus usuários internos via Teams.
+O acesso externo às vezes é confundido com acesso de convidados, portanto, é importante ficar claro que esses dois mecanismos de acesso não internos são realmente muito diferentes. 
 
-Para obter mais informações sobre acesso externo e como implementá-lo, caso precise, revise [gerenciar o acesso externo no Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-external-access)
+O acesso externo é uma maneira para os usuários do teams de um domínio externo inteiro localizar, chamar, bater papo e configurar reuniões com seus usuários no Microsoft Teams. Os administradores do teams configuram o acesso externo no nível da organização. Para obter mais informações, consulte [gerenciar o acesso externo no Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-external-access).
+
+Usuários de acesso externo têm menos acesso e funcionalidade do que um indivíduo que foi adicionado por meio de acesso de convidados. Por exemplo, usuários de acesso externo podem bater papo com seus usuários internos com o Teams, mas não podem acessar canais de equipe, arquivos ou outros recursos.
+
+O acesso externo não usa contas de usuário B2B do Azure AD e, portanto, não usa políticas de acesso condicional. 
 
 ## <a name="teams-policies"></a>Políticas de equipes
 

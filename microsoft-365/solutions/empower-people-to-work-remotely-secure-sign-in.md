@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Exigir que seus funcionários remotos entrem com autenticação multifator (MFA).
-ms.openlocfilehash: a8c0b8ac689407fa871d2373f1ca0a3658bb1668
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 0b655800d27e6836a3848bfb2a94fc9c30439ec7
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521512"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132197"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
 
@@ -86,7 +86,7 @@ Se os padrões de segurança estiverem ativados, todos os novos usuários serão
 
 Esta tabela mostra os resultados da habilitação da MFA com padrões de segurança e políticas de Acesso Condicional.
 
-|| Habilitado | Desabilitado | Método de autenticação adicional |
+| Método | Habilitado | Desabilitado | Método de autenticação adicional |
 |:-------|:-----|:-------|:-------|
 | **Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
 | **Políticas de Acesso Condicional** | Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança  | Especificado pelo usuário durante o registro da MFA  |
@@ -104,7 +104,7 @@ Além de fornecer autenticação na nuvem aos usuários, o Azure AD também pode
 
 - [MFA para o Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
 - [As 5 principais formas como o Microsoft Azure Active Directory pode ajudar você a habilitar o trabalho remoto](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691)
-- [Planejar e implantar sua infraestrutura de identidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure?view=o365-worldwide#plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure)
+- [Mapa da identidade do Microsoft 365](../enterprise/identity-roadmap-microsoft-365.md)
 - [Vídeos de treinamento do Microsoft Azure Active Directory da Azure Academy](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
 - [Configurar a política de registro da Autenticação Multifator do Azure](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Planejar a implantação de uma senha de autoatendimento do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)

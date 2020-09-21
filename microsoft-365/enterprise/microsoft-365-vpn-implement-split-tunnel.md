@@ -3,7 +3,7 @@ title: Implementando o túnel dividido de VPN para Office 365
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/15/2020
+ms.date: 9/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Como implementar o túnel dividido de VPN para o Office 365
-ms.openlocfilehash: 1fa86501e9cf29ffd41ec5b25a86cc4f2b139d52
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: bfdc11ffe4244ec0ac83bb1c0470476aafeec939
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695407"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171417"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Implementando o túnel dividido de VPN para Office 365
 
@@ -220,7 +220,7 @@ Alguns administradores podem precisar de informações mais detalhadas sobre com
 
 ### <a name="configuration"></a>Configuração
 
-Para chamadas e reuniões, contanto que as sub-redes de IP otimizadas para a mídia do Teams estejam corretamente disponíveis na tabela de rotas, quando o Teams chama o método _GetBestRoute_ para determinar qual interface deve ser usada para um destino específico, a interface local será retornada para destinos da Microsoft nos blocos IP da Microsoft listados acima.
+Para as chamadas e reuniões, contanto que as subredes otimizadas de IP necessárias para o Teams Media estejam corretamente no local na tabela de rotas, quando o Teams chamar a função [GetBestRoute](https://docs.microsoft.com/windows/win32/api/iphlpapi/nf-iphlpapi-getbestroute) para determinar qual interface local corresponde à rota que deve ser usada para um destino específico, a interface local será retornada para destinos da Microsoft nos blocos de IP da Microsoft listados acima.
 
 Algum softwares clientes VPN permitem a manipulação de roteamento baseado na URL. No entanto, o tráfego de mídia do Teams não tem nenhuma URL associada a ele. Portanto, o controle do roteamento desse tráfego deve ser feito usando sub-redes IP.
 
@@ -277,7 +277,7 @@ Esta seção fornece links de guias detalhados para implementar o túnel dividid
 - **Pulse Secure**: [Túnel VPN: como configurar o túnel dividido para excluir aplicativos do Office 365](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44417)
 - **VPN de verificação de ponto**: [como configurar o túnel dividido para o Office 365 e outros aplicativos SaaS](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk167000)
 
-## <a name="faq"></a>PERGUNTAS FREQÜENTES
+## <a name="faq"></a>Perguntas frequentes
 
 A equipe de segurança da Microsoft publicou [um artigo](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) que descreve as principais maneiras de profissionais de segurança e pode obter os controles de segurança modernos nos cenários de trabalho remoto exclusivos de hoje. Além disso, abaixo estão algumas das perguntas e respostas comuns dos clientes sobre esse assunto.
 
@@ -293,7 +293,7 @@ Não, não permite. Os pontos de extremidade do Office 365 não são os mesmos q
 
 ### <a name="how-do-i-apply-dlp-and-protect-my-sensitive-data-when-the-traffic-no-longer-flows-through-my-on-premises-solution"></a>Como posso aplicar a DLP e proteger meus dados confidenciais quando o tráfego não flui pela minha solução local?
 
-Para ajudar a evitar a divulgação acidental de informações confidenciais, o Office 365 tem um conjunto avançado de [ferramentas internas](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide). Você pode usar os recursos internos [DLP](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide) do Teams e do SharePoint para detectar informações confidenciais armazenadas ou armazenadas incorretamente. Se parte da sua estratégia de trabalho remota envolver uma política do BYOD (Traga seu próprio dispositivo), você poderá usar o [acesso condicional baseado em aplicativo](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) para impedir que dados confidenciais sejam baixados para dispositivos pessoais dos usuários
+Para ajudar a evitar a divulgação acidental de informações confidenciais, o Office 365 tem um conjunto avançado de [ferramentas internas](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies). Você pode usar os recursos internos [DLP](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) do Teams e do SharePoint para detectar informações confidenciais armazenadas ou armazenadas incorretamente. Se parte da sua estratégia de trabalho remota envolver uma política do BYOD (Traga seu próprio dispositivo), você poderá usar o [acesso condicional baseado em aplicativo](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) para impedir que dados confidenciais sejam baixados para dispositivos pessoais dos usuários
 
 ### <a name="how-do-i-evaluate-and-maintain-control-of-the-users-authentication-when-they-are-connecting-directly"></a>Como faço para avaliar e manter o controle da autenticação do usuário quando eles estão se conectando diretamente?
 
@@ -307,7 +307,7 @@ Em seguida, podemos desencadear políticas, como aprovar, disparar a MFA ou bloq
 
 ### <a name="how-do-i-protect-against-viruses-and-malware"></a>Como posso me proteger contra vírus e malware?
 
-Mais uma vez, o Office 365 fornece proteção para os pontos de extremidade de otimização marcados em várias camadas no próprio serviço, [descritos neste documento](https://docs.microsoft.com/office365/Enterprise/office-365-malware-and-ransomware-protection). Conforme observado, é muito mais eficiente fornecer esses elementos de segurança no próprio serviço, em vez de tentar fazê-lo em uma linha com dispositivos que podem não entender totalmente os protocolos/tráfego. Por padrão, o SharePoint Online [verifica automaticamente os carregamentos de arquivos](https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo?view=o365-worldwide) para malwares conhecidos
+Mais uma vez, o Office 365 fornece proteção para os pontos de extremidade de otimização marcados em várias camadas no próprio serviço, [descritos neste documento](https://docs.microsoft.com/office365/Enterprise/office-365-malware-and-ransomware-protection). Conforme observado, é muito mais eficiente fornecer esses elementos de segurança no próprio serviço, em vez de tentar fazê-lo em uma linha com dispositivos que podem não entender totalmente os protocolos/tráfego. Por padrão, o SharePoint Online [verifica automaticamente os carregamentos de arquivos](https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo) para malwares conhecidos
 
 Para os pontos de extremidade do Exchange listados acima, [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) e [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) executam um excelente trabalho de segurança do tráfego para o serviço.
 
@@ -323,7 +323,7 @@ Para obter instruções sobre como permitir o acesso direto a uma rede virtual d
 
 ### <a name="why-is-port-80-required-is-traffic-sent-in-the-clear"></a>Por que a porta 80 é necessária? O tráfego é enviado sem formatação?
 
-A porta 80 só é usada para itens como redirecionar para uma sessão de porta 443, nenhum dado do cliente é enviado ou pode ser acessado pela porta 80. [Este artigo](https://docs.microsoft.com/microsoft-365/compliance/encryption?view=o365-worldwide) descreve a criptografia de dados em trânsito e em repouso para o Office 365 e [este artigo](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic) descreve como usamos o SRTP para proteger o tráfego de mídia do Teams.
+A porta 80 só é usada para itens como redirecionar para uma sessão de porta 443, nenhum dado do cliente é enviado ou pode ser acessado pela porta 80. [Este artigo](https://docs.microsoft.com/microsoft-365/compliance/encryption) descreve a criptografia de dados em trânsito e em repouso para o Office 365 e [este artigo](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic) descreve como usamos o SRTP para proteger o tráfego de mídia do Teams.
 
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>Esse conselhos se aplicam aos usuários na China usando uma instância Mundial do Office 365?
 

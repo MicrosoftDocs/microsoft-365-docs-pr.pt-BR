@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Teste de conectividade de rede do Microsoft 365 (versão prévia)
-ms.openlocfilehash: 2197f3361efee51dfa2bd170b0c8d8e94709d3e8
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 40a46ecb39366c64c99077e90bb35c5056f36b9d
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962390"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171345"
 ---
 # <a name="microsoft-365-network-connectivity-test-preview"></a>Teste de conectividade de rede do Microsoft 365 (versão prévia)
 
@@ -37,13 +37,33 @@ Recomendamos que eles sejam usados em conjunto, onde o status de qualidade da re
 >[!IMPORTANT]
 >Os insights de rede, as recomendações de desempenho e as avaliações no centro de administração do Microsoft 365 estão atualmente no status de visualização e só estão disponíveis para os locatários do Microsoft 365 que foram registrados no programa de visualização de recurso.
 
-## <a name="the-advanced-tests-client-application"></a>O aplicativo cliente de testes avançados
+## <a name="what-happens-at-each-test-step"></a>O que acontece em cada etapa de teste
+
+### <a name="office-location-identification"></a>Identificação de local do escritório
+
+Quando você clica no botão Executar teste, mostramos a página de teste em execução e identificamos o local do escritório. Você pode digitar o local por cidade, estado e país ou pode ser detectado do navegador da Web. Se você detectá-lo, solicitaremos a latitude e a longitude do navegador da Web e limitará a precisão a 300m por 300m antes de usar. Fazemos isso porque não é necessário identificar o local com mais precisão do que o edifício para o desempenho da rede. 
+
+### <a name="javascript-tests"></a>Testes de JavaScript
+
+Após a identificação de local do Office, executamos um teste de latência TCP no JavaScript e solicitamos dados do serviço sobre o uso e os servidores de porta frontal de serviço recomendados do Office 365. Quando elas forem concluídas, elas serão mostradas no mapa e na guia detalhes, onde poderão ser exibidas antes da próxima etapa.
+
+### <a name="download-the-advanced-tests-client-application"></a>Baixar o aplicativo cliente de testes avançados
+
+Em seguida, começamos o download do aplicativo cliente de testes avançados. Confiamos no usuário para iniciar o aplicativo cliente e também deve ter o .NET Core instalado.
 
 Há duas partes no teste de conectividade de rede do Microsoft 365; o site da Web <https://connectivity.office.com> e um aplicativo cliente do Windows para download que executa testes de conectividade de rede avançados. A maioria dos testes exige que o aplicativo seja executado. Ele preencherá os resultados de volta para a página da Web à medida que ele é executado.
 
 Você será solicitado a baixar o aplicativo de teste avançado de cliente do site após a conclusão dos testes de navegador da Web. Abra e execute o arquivo quando solicitado.
 
 ![Aplicativo cliente de testes avançados](../media/m365-mac-perf/m365-mac-perf-open-run-file.png)
+
+### <a name="start-the-advanced-tests-client-application"></a>Iniciar o aplicativo cliente de testes avançados
+
+Depois que o aplicativo cliente iniciar a página da Web será atualizada para mostrar isso e testar os dados começarão a ser recebidos para a página da Web. Ele atualiza sempre que novos dados são recebidos e você pode revisar os dados conforme eles chegam.
+
+### <a name="advanced-tests-completed-and-test-report-upload"></a>Testes avançados concluídos e carregamento do relatório de teste
+
+Depois que os testes forem concluídos, a página da Web e o cliente de testes avançados indicarão isso e, se o usuário estiver conectado, o relatório de teste será carregado para o locatário Customers.
 
 ## <a name="sharing-your-test-report"></a>Compartilhando seu relatório de teste
 
@@ -111,7 +131,7 @@ Isso detectará se você estiver usando uma VPN para se conectar ao Office 365. 
 
 #### <a name="vpn-split-tunnel"></a>Túnel dividido VPN
 
-Cada rota de categoria otimizada para o Exchange Online, o SharePoint Online e o Microsoft Teams é testada para ver se é tunnelled na VPN ou não. Uma carga de trabalho dividida evita a VPN completamente. Uma carga de trabalho do tunnelled é enviada pela VPN. Uma carga de trabalho seletiva tunnelled tem algumas rotas enviadas pela VPN e algumas divididas. Um resultado de passagem mostrará se todas as cargas de trabalho estão divididas ou tunnelleds de forma seletiva.
+Cada rota de categoria otimizada para o Exchange Online, o SharePoint Online e o Microsoft Teams é testada para ver se ela está encapsulada na VPN ou não. Uma carga de trabalho dividida evita a VPN completamente. Uma carga de trabalho encapsulada é enviada pela VPN. Uma carga de trabalho encapsulada seletiva tem algumas rotas enviadas pela VPN e algumas divididas. Um resultado de passagem mostrará se todas as cargas de trabalho serão divididas ou encapsuladas seletivamente.
 
 #### <a name="customers-in-your-metropolitan-area-with-better-performance"></a>Clientes em sua área metropolitana com melhor desempenho
 
@@ -207,28 +227,6 @@ Quando é encontrado um certificado SSL que não é fornecido pela Microsoft, mo
 
 Esta seção mostra os resultados de um traceroute do ICMP para a porta frontal do serviço do Exchange Online, a porta frontal do serviço do SharePoint Online e a porta frontal do serviço do Microsoft Teams. Ele é fornecido apenas para informações e não há nenhuma percepção de rede associada. Há três traceroutes fornecidos. Um traceroute para o _Outlook.office365.com_, um traceroute para o front-end do SharePoint de clientes ou para o _Microsoft.SharePoint.com_ , se não tiver sido fornecido, e um traceroute para o _World.TR.Teams.Microsoft.com_.
 
-## <a name="what-happens-at-each-test-step"></a>O que acontece em cada etapa de teste
-
-### <a name="office-location-identification"></a>Identificação de local do escritório
-
-Quando você clica no botão Executar teste, mostramos a página de teste em execução e identificamos o local do escritório. Você pode digitar o local por cidade, estado e país ou pode ser detectado do navegador da Web. Se você detectá-lo, solicitaremos a latitude e a longitude do navegador da Web e limitará a precisão a 300m por 300m antes de usar. Fazemos isso porque não é necessário identificar o local com mais precisão do que o edifício para o desempenho da rede. 
-
-### <a name="javascript-tests"></a>Testes de JavaScript
-
-Após a identificação de local do Office, executamos um teste de latência TCP no JavaScript e solicitamos dados do serviço sobre o uso e os servidores de porta frontal de serviço recomendados do Office 365. Quando elas forem concluídas, elas serão mostradas no mapa e na guia detalhes, onde poderão ser exibidas antes da próxima etapa.
-
-### <a name="download-the-advanced-tests-client-application"></a>Baixar o aplicativo cliente de testes avançados
-
-Em seguida, começamos o download do aplicativo cliente de testes avançados. Confiamos no usuário para iniciar o aplicativo cliente e também deve ter o .NET Core instalado.
-
-### <a name="start-the-advanced-tests-client-application"></a>Iniciar o aplicativo cliente de testes avançados
-
-Depois que o aplicativo cliente iniciar a página da Web será atualizada para mostrar isso e testar os dados começarão a ser recebidos para a página da Web. Ele atualiza sempre que novos dados são recebidos e você pode revisar os dados conforme eles chegam.
-
-### <a name="advanced-tests-completed-and-test-report-upload"></a>Testes avançados concluídos e carregamento do relatório de teste
-
-Depois que os testes forem concluídos, a página da Web e o cliente de testes avançados indicarão isso e, se o usuário estiver conectado, o relatório de teste será carregado para o locatário Customers.
-
 ## <a name="connectivity-reports"></a>Relatórios de conectividade
 
 Quando você estiver conectado, poderá revisar os relatórios anteriores que você executou. Você também pode compartilhá-los ou excluí-los da lista.
@@ -251,7 +249,7 @@ No momento, é uma visualização e planejamos fornecer as atualizações regula
 
 ### <a name="what-is-required-to-run-the-advanced-test-client"></a>O que é necessário para executar o cliente de teste avançado?
 
-O cliente de teste avançado requer o tempo de execução do .NET Core 3,1 desktop. Se você executar o cliente de teste avançado sem o instalado, você será direcionado para [a página do instalador do .NET Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Certifique-se de instalar o tempo de execução da área de trabalho e não o SDK ou o tempo de execução do ASP.NET Core que estão mais altos na página. As permissões de administrador no computador são reuqired para instalar o .NET Core. 
+O cliente de teste avançado requer o tempo de execução do .NET Core 3,1 desktop. Se você executar o cliente de teste avançado sem o instalado, você será direcionado para [a página do instalador do .NET Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Certifique-se de instalar o tempo de execução da área de trabalho e não o SDK ou o tempo de execução do ASP.NET Core que estão mais altos na página. É necessário ter permissões de administrador no computador para instalar o .NET Core. 
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>O que é o Microsoft 365 Service front door?
 

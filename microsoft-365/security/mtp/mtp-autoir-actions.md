@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 725d22629d2c81a0edf8f329602214afddde6511
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: d7739ac6184509abe4df3aaf140db66f6039717c
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633919"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962648"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Aprovar ou rejeitar ações pendentes após uma investigação automatizada
 
@@ -62,8 +64,5 @@ Ações pendentes podem ser revisadas e aprovadas usando a [central de ações](
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Saiba mais sobre a Central de Ações](mtp-action-center.md)
-
-- [Saiba mais sobre incidentes](incidents-overview.md)
-
-- [Saiba mais sobre a caça avançada](advanced-hunting-overview.md)
+- [Exibir os detalhes e resultados de uma investigação automatizada](mtp-autoir-results.md)
+- [Lidar com falsos positivos/negativos em recursos de investigação e resposta automatizados](mtp-autoir-report-false-positives-negatives.md)

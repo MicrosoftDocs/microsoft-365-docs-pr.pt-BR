@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar um site do SharePoint para colaboração com convidados.
-ms.openlocfilehash: c04114218342a2d65b318c71d061c2a0ed815fab
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: d5a868e57753a6eb05f74b4873ed64ef0a70878e
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797811"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171263"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Colaborar com convidados em um site
 
@@ -39,18 +39,18 @@ Este vídeo mostra as etapas de configuração descritas neste documento.</br>
 
 O compartilhamento no Microsoft 365 é regido no seu nível mais alto pelas [configurações de relações organizacionais no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, isso substituirá as configurações de compartilhamento que você configurar no Microsoft 365.
 
-Verifique as configurações de relações organizacionais para garantir que o compartilhamento com convidados não seja bloqueado.
+Verifique as configurações de colaboração externa para garantir que o compartilhamento com convidados não seja bloqueado.
 
-![Captura de tela da página de configurações das Relações Organizacionais do Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
+![Captura de tela da página de configurações de colaboração externa do Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
-Para definir as configurações de relação organizacional
+Para definir as configurações de colaboração externa:
+
 
 1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com) .
 2. Na navegação à esquerda, clique em **Azure Active Directory**.
-3. No painel **visão geral** , clique em **relações organizacionais**.
-4. No painel **relações organizacionais** , clique em **configurações**.
-5. Certifique-se de que **Administradores e usuários na função de convite de convidado podem convidar** e **os membros podem convidar** estão definidos como **Sim**.
-6. Caso tenha feito alterações, clique em **Salvar**.
+3. Selecione **identidades externas** e clique em **configurações de colaboração externas**.
+4. No painel **configurações de convite de convidado** , verifique se os **Administradores e usuários na função de convite de convidado podem convidar** e os **Membros podem convidar** estão definidos como **Sim**.
+5. Caso tenha feito alterações, clique em **Salvar**.
 
 Observe as configurações na seção **restrições de colaboração** . Certifique-se de que os domínios dos convidados com os quais você deseja colaborar não estão bloqueados.
 
@@ -137,13 +137,12 @@ Para convidar convidados para um grupo
 3. Digite os endereços de email dos convidados que você deseja convidar e clique em **Adicionar**.
 4. Clique em **Fechar**.
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 [Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados](best-practices-anonymous-sharing.md)
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)
-

@@ -9,18 +9,26 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 2ac0bb01c1a941d460e92c7e75e765ceb85b2bc0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: f57911276d74c6945027077404e1f83c2f5072fd
+ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546569"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48137030"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
 Seu gateway para o serviço de área de trabalho gerenciada da Microsoft é o portal do Microsoft [Azure](https://portal.azure.com). Para saber mais sobre como usar e personalizar sua experiência do portal do Azure geralmente, consulte a [documentação do portal do Azure](https://docs.microsoft.com/azure/azure-portal/). Disponível em versão prévia agora, você também pode encontrar a área de trabalho gerenciada da Microsoft no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). Se você não estiver familiarizado com os recursos deste portal para gerenciamento de dispositivos, consulte a [documentação do Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
 
-Sua conta administrativa precisa de permissões específicas para acessar os recursos administrativos da área de trabalho gerenciada da Microsoft no portal do Azure ou no Microsoft Endpoint Manager. Você pode gerenciar o acesso de administrador a esses recursos dentro da sua organização usando o controle de acesso baseado em função (RBAC). Várias funções de administrador do Azure AD e funções personalizadas internas estão disponíveis para fornecer controle mais granular a diferentes recursos no portal de administração de área de trabalho gerenciada da Microsoft. Para obter mais informações sobre as funções do Azure Active Directory, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). Diferentemente das funções de administrador do AAD que se aplicam a uma variedade de produtos e serviços da Microsoft, as funções personalizadas são específicas para a área de trabalho gerenciada da Microsoft e só garantem o acesso aos recursos de administração desse serviço. Os administradores podem atribuir funções personalizadas a usuários individualmente ou em combinação com funções de administrador do AAD para adicionar permissões de área de trabalho gerenciada da Microsoft às contas de administração existentes.
+> [!NOTE]
+> No entanto, você opta por acessar a área de trabalho gerenciada da Microsoft, no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) ou no [portal do Azure](https://portal.azure.com), há suporte para os seguintes navegadores:
+> - Microsoft Edge (versão mais recente)
+> - Microsoft Internet Explorer 11
+> - Safari (versão mais recente, somente Mac)
+> - Chrome (versão mais recente)
+> - Firefox (versão mais recente)
+
+Sua conta administrativa precisa de permissões específicas para acessar os recursos administrativos da área de trabalho gerenciada da Microsoft no portal do Azure ou no Microsoft Endpoint Manager. Você pode gerenciar o acesso de administrador a esses recursos dentro da sua organização usando o controle de acesso baseado em função (RBAC). Várias funções de administrador do Azure Active Directory (Azure AD) e funções personalizadas internas estão disponíveis para fornecer controle mais granular a diferentes recursos no portal de administração de área de trabalho gerenciada da Microsoft. Para obter mais informações sobre as funções do Azure Active Directory, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). Diferentemente das funções de administrador do Azure AD que se aplicam a uma variedade de produtos e serviços da Microsoft, as funções personalizadas são específicas para a área de trabalho gerenciada da Microsoft e só garantem o acesso aos recursos de administração desse serviço. Os administradores podem atribuir funções personalizadas a usuários individualmente ou em combinação com funções de administrador do Azure AD para adicionar permissões de área de trabalho gerenciada da Microsoft a contas de administração existentes.
 
 Cada uma das funções abaixo pode ser atribuída para fornecer diferentes níveis de acesso:
 

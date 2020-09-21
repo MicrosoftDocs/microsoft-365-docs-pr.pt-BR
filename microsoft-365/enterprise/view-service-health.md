@@ -26,16 +26,16 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Veja o status de integridade dos serviços do Microsoft 365 antes de ligar para o suporte para ver se há uma interrupção ativa do serviço.
-ms.openlocfilehash: 49f7d3afd3c19cd4e9b6486db580082fe933b997
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 20e19072e1a851fba20e556be696146b8ad57a2f
+ms.sourcegitcommit: 392f60efa0921c64ac1462dd63985cd156e6498a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687445"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48134070"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Como verificar a integridade do serviço Microsoft 365
 
-[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/O365-Admin-AdminCenterChanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview?view=o365-worldwide)
+[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/O365-Admin-AdminCenterChanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview?view=o365-worldwide&preserve-view=true)
 
 Você pode exibir a integridade de seus serviços da Microsoft, incluindo o Office na Web, o Yammer, o Microsoft Dynamics CRM e os serviços de nuvem de gerenciamento de dispositivo móvel, na página **integridade do serviço** no centro de [administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339). Se tiver problemas com um serviço em nuvem, poderá verificar a integridade do serviço para determinar se é um problema conhecido com uma resolução em andamento, antes de chamar o suporte ou perder tempo na solução de problemas.
 
@@ -46,7 +46,7 @@ Se você não conseguir entrar no portal de serviço, poderá usar a [página st
 1. Vá para o centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) e entre com uma conta de administrador.
 
     > [!NOTE]
-    > As pessoas às quais a função de administrador global ou do serviço é atribuída podem visualizar a integridade do serviço. Para permitir que os administradores do Exchange, SharePoint e Skype for Business visualizem a integridade do serviço, eles também devem receber a função de administrador do serviço. Para obter mais informações sobre as funções que podem exibir a integridade do serviço, consulte [about admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide#roles-available-in-the-microsoft-365-admin-center).
+    > As pessoas às quais a função de administrador global ou do serviço é atribuída podem visualizar a integridade do serviço. Para permitir que os administradores do Exchange, SharePoint e Skype for Business visualizem a integridade do serviço, eles também devem receber a função de administrador do serviço. Para obter mais informações sobre as funções que podem exibir a integridade do serviço, consulte [about admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#roles-available-in-the-microsoft-365-admin-center).
   
 2. Se você não estiver usando o novo centro de administração, na **Home** Page, marque a opção **Experimente o novo centro de administração** alternar no canto superior direito.
 
@@ -64,7 +64,9 @@ A guia **histórico** mostra o histórico de incidentes e avisos que foram resol
 
 Se você estiver enfrentando um problema com um serviço do Microsoft 365 e não vê-lo listado na página **integridade do serviço** , fale conosco selecionando **relatar um problema**e preenchimento de forma curta. Examinaremos os dados relacionados e os relatórios de outras organizações para ver o grau de disseminação do problema e se ele se originou com nosso serviço. Se tiver feito isso, vamos adicioná-lo como um novo incidente ou comunicado na página **integridade do serviço** , onde você pode controlar a resolução. Se você não vê-lo aparece na lista em cerca de 30 minutos, considere o suporte de contato para resolver o problema.
 
-Para inscrever-se para receber notificações por email de novos incidentes que afetam as alterações de locatário e de status de um incidente ativo, selecione **preferências**, clique em **enviar-me notificações do serviço Heath no email**e especifique:
+Para personalizar a exibição dos serviços exibidos no painel, selecione **Preferences**  >  **modo de exibição personalizado**preferências e desmarque as caixas de seleção dos serviços que você deseja filtrar do modo de exibição do painel de integridade do serviço. Certifique-se de que a caixa de seleção está marcada para cada serviço que você deseja monitorar.    
+
+Para inscrever-se para receber notificações por email de novos incidentes que afetam as alterações de locatário e de status **Preferences**de um incidente ativo, selecione  >  **emails**de preferências, clique em **enviar-me notificações do serviço Heath no email**e especifique:
 
 - Até dois endereços de email.
 - Se você deseja notificações para incidentes ou comunicados
@@ -80,7 +82,7 @@ Para inscrever-se para receber notificações por email de novos incidentes que 
 
 No modo de exibição **todos os serviços** , selecionar o status do serviço abrirá um modo de exibição de Resumo de comunicados ou incidentes.
   
-![Uma captura de tela mostrando o comunicado de serviço](../media/service-health-advisory.png)
+[![Uma captura de tela mostrando o comunicado ](../media/service-health-advisory.png) de serviço](../media/service-health-advisory.png#lightbox)
 
 O resumo do aviso ou incidente fornece as seguintes informações:
 
@@ -150,4 +152,4 @@ Para obter mais informações sobre nosso compromisso com o tempo de atividade, 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Relatórios de atividades no centro](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
- de administração do Microsoft 365 [Preferências do centro de mensagens](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide#preferences11)
+ de administração do Microsoft 365 [Preferências do centro de mensagens](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true#preferences11)

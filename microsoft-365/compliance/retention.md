@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 7787d3e2e3dead737d7a0e5ed083a851a349d561
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 3d5bf971f65be5fd6ef4fdbed46cc41827657a54
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816745"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132131"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -83,7 +83,7 @@ Diferentemente das políticas de retenção, as configurações de retenção de
  
 - Opções para iniciar o período de retenção a partir do momento em que o conteúdo foi rotulado ou com base em um evento, além da idade do conteúdo ou de quando ele foi modificado pela última vez.
 
-- Use [classificadores treináveis](classifier-getting-started-with.md) para identificar o conteúdo a ser rotulado.
+- Use [classificadores treináveis](classifier-learn-about.md) para identificar o conteúdo a ser rotulado.
 
 - Aplicar um rótulo padrão para documentos do Microsoft Office SharePoint Online.
 

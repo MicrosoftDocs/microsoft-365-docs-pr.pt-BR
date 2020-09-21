@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: f5449bdb6b05e2a29393ad8e389c562953efd710
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 6d7a09ca9c515494eaf18ea144b7f67ce0003890
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307314"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131753"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -42,11 +42,11 @@ Para obter mais informações, confira [Sobre funções de administrador](about-
 
 Ao adicionar novos usuários, se você não atribuir a eles uma função de administrador, eles estão na *função de usuário* e não têm privilégios de administrador em nenhum dos centros de administração da Microsoft. Mas se você precisar de ajuda para realizar tarefas, você pode atribuir uma função de administrador a um usuário. Por exemplo, se precisar de alguém para ajudar a redefinir senhas, você não deve atribuir a função de administrador global, você deve atribuir a função de administrador de senha. Ter muitos administradores globais, com acesso ilimitado aos seus dados e à empresa online, é um risco de segurança.
 
-Assista a um pequeno vídeo sobre como adicionar um administrador.<br><br>
+## <a name="watch-add-an-adminbrbr"></a>Watch: adicionar um administrador.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="assign-admin-roles"></a>Atribuir funções de administrador 
 
@@ -78,7 +78,7 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, acesse a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **Editar**. 
 
@@ -90,7 +90,7 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, acesse a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **Editar**.
 
@@ -100,7 +100,6 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 ::: moniker-end
 
-
 ## <a name="assign-admin-roles-to-multiple-users"></a>Atribuir funções de administrador para vários usuários
 
 Se você souber o PowerShell, confira [atribuir funções a contas de usuário com o PowerShell](https://go.microsoft.com/fwlink/?linkid=854257). Ele é ideal para atribuir funções a centenas de usuários.
@@ -108,7 +107,6 @@ Se você souber o PowerShell, confira [atribuir funções a contas de usuário c
 Use as instruções a seguir para atribuir funções a dezenas de usuários.
 
 ::: moniker range="o365-worldwide"
-
 
 ## <a name="check-your-permissions"></a>Verificar suas permissões
 

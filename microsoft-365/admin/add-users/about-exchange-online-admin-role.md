@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Administradores do Exchange Online gerenciam emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário. '
-ms.openlocfilehash: 0b63679883e8329782700085fa0c11a0ac6585ca
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: be4c8a4f1c75402d690cc705dd408c9070e40c9b
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307428"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131765"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Sobre a função de administrador do Exchange Online
 
@@ -34,15 +34,17 @@ Para ajudá-lo a administrar o Microsoft 365, você pode [atribuir](assign-admin
   
  **Dica**: quando você atribui alguém à função de administrador do Exchange, também o atribui à função de administrador de serviço. Dessa forma, eles podem ver informações importantes no centro de administração do Microsoft 365, como a integridade do serviço do Exchange Online e as notificações de alteração e de versão.
   
+## <a name="before-you-begin"></a>Antes de começar
+
 Aqui estão algumas das principais tarefas que os usuários podem fazer quando são atribuídas à função de administrador do Exchange:
   
 - [Recuperar itens excluídos na caixa de correio do usuário – Ajuda para Administradores](https://docs.microsoft.com/microsoft-365/enterprise/recover-deleted-items-in-a-mailbox)
-    
+
 - [Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
-    
+
 - Configurar recursos de caixa de correio, como a política de compartilhamento de caixa de correio: como os usuários podem compartilhar informações de calendário e contatos com outras pessoas fora da sua organização.
-    
-- Configure os representantes "[Enviar como](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" e "[enviar no abehalf](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" para a caixa de correio de alguém. Por exemplo, um executivo pode querer que seu assistente tenha a capacidade de enviar emails em seu nome. 
+
+- Configure os representantes "[Enviar como](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" e "[enviar no abehalf](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" para a caixa de correio de alguém. Por exemplo, um executivo pode querer que seu assistente tenha a capacidade de enviar emails em seu nome.
 
 - [Criar uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) para que um grupo de pessoas possa monitorar e enviar emails de um endereço de email comum.
 

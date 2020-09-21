@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f396801d4241b06c5523e4f3312c9ce597ac015e
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: ff445711dfd57ec69305c3f8cc7d01e05a66a1cc
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547559"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132165"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -101,6 +101,6 @@ Se você estiver procurando por uma solução de conformidade existente e ela ai
 
 - **Microsoft Information Protection**, saiba como a Microsoft 365 Solutions ajuda você a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
     - **Familiarize-se com e configure o Microsoft Cloud app Security**. Veja [início rápido: introdução ao Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).
-    - **Introdução aos classificadores**. Classificar conteúdo e, em seguida, rotulá-lo para que possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. Confira [introdução aos classificadores destreinados](classifier-getting-started-with.md).
+    - **Introdução aos classificadores**. Classificar conteúdo e, em seguida, rotulá-lo para que possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. Confira [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md).
 
 - **Visite seu catálogo de soluções do Microsoft 365 com frequência**e Leia novas soluções para ajudá-lo com suas necessidades de conformidade. Entre em [https://compliance.microsoft.com](https://compliance.microsoft.com) e selecione **Catálogo** no painel de navegação esquerdo.

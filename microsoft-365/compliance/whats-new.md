@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 750d8274faa5e68f8d36006f8ccf6d7fa55f8250
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 7d5e1bb67d6adc1b3c25aea8f468a23ed5c1019a
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47336664"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132031"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -269,7 +269,7 @@ Aqui está um resumo das novas soluções que você encontrará. Fique atento pa
 |Catálogo de soluções (versão prévia) <br/>|O catálogo de soluções é seu ponto de partida para descoberta, aprendizado e rápida introdução às soluções de gerenciamento de conformidade e risco. O catálogo é organizado em três categorias de conformidade, cada uma contendo detalhes sobre as soluções que compõem essa categoria. As categorias incluem proteção de informações & governança, gerenciamento de risco do insider e resposta de & de descoberta <br/>|[Visão geral do catálogo de soluções (versão prévia)](microsoft-365-solution-catalog.md)|
 |Conformidade de comunicação (visualização) <br/>|A conformidade com comunicações faz parte da nova categoria de gerenciamento de riscos do insider que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. A solução estende os recursos de políticas de supervisão no Office 365, apresentando vários aprimoramentos novos, como modelos inteligentes, fluxos de trabalho de correção flexíveis e ideias acionáveis. <br/>|[Conformidade de comunicação no Microsoft 365 (versão prévia)](communication-compliance.md)|
 |Classificação de dados (prévia) <br/>|Nossa nova página de classificação de dados contém ideias poderosas e ferramentas para ajudá-lo a descobrir e avaliar como as informações e os rótulos confidenciais são usados em conteúdo em toda a organização. Examine o conteúdo que contém informações confidenciais ou tenha rótulos aplicados, explore a atividade de etiquetas nos locais do Microsoft 365, crie tipos de informações confidenciais personalizados e muito mais.<br/>|[Visão geral da classificação de dados (visualização)](data-classification-overview.md)|
-|Classificadores estagiários (visualização) <br/>|Essa nova ferramenta poderosa usa o nosso mecanismo de aprendizado de máquina para ajudar a identificar categorias de conteúdo em sua organização, como documentos regulatórios ou contratos de funcionários. Depois de criado, os classificadores podem ser usados em várias soluções de conformidade para detectar conteúdo relacionado e classificá-lo, protegê-lo, mantê-lo e muito mais.<br/>|[Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md)|
+|Classificadores estagiários (visualização) <br/>|Essa nova ferramenta poderosa usa o nosso mecanismo de aprendizado de máquina para ajudar a identificar categorias de conteúdo em sua organização, como documentos regulatórios ou contratos de funcionários. Depois de criado, os classificadores podem ser usados em várias soluções de conformidade para detectar conteúdo relacionado e classificá-lo, protegê-lo, mantê-lo e muito mais.<br/>|[Saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md)|
 
 #### <a name="updated-compliance-solutions"></a>Soluções de conformidade atualizadas
 

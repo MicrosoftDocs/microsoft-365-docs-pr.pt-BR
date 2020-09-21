@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre documentos seguros no Microsoft 365 E5 ou Microsoft 365 E5 Security.
-ms.openlocfilehash: 8918c7da26a60c7cfd64b7148d0added82cc6642
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 5e91c226102d60368bf08b09ae5f0239f63599d5
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949449"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132209"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Documentos seguros no Microsoft 365 e5
 
@@ -28,40 +28,33 @@ Documentos seguros é um recurso no Microsoft 365 E5 ou no Microsoft 365 E5 segu
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Agora, os documentos seguros estão disponíveis para usuários com o Office versão 2004 (12730. x) ou mais. Esse recurso está desativado por padrão e deverá ser habilitado pelo administrador de segurança.
+- Os documentos seguros só estão disponíveis para usuários com licenças de segurança *do microsoft 365 E5* ou *Microsoft 365 E5* . Essas licenças não estão incluídas nos planos de proteção avançada contra ameaças (ATP) do Office 365.
 
-- Este recurso está disponível apenas para usuários com a licença de segurança do *microsoft 365 E5* ou *do Microsoft 365 E5* (não incluída nos planos ATP do Office 365).
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com>. Para ir diretamente para a página de **anexos seguros de ATP** , abra <https://protection.office.com/safeattachmentv2> .
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
-
-- Para obter mais informações sobre 
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Você precisa ter permissões para poder executar os procedimentos deste tópico. Para habilitar e configurar documentos seguros, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="how-does-microsoft-handle-your-data"></a>Como a Microsoft lida com seus dados?
+- Para mantê-lo protegido, documentos seguros enviam arquivos para a nuvem de [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) para análise. Os detalhes sobre como o Microsoft defender ATP lida com seus dados podem ser encontrados aqui: [armazenamento e privacidade do Microsoft defender ATP data](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
 
-Para mantê-lo protegido, documentos seguros enviam arquivos para a nuvem de [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) para análise.
-
-- Detalhes sobre como a proteção avançada contra ameaças do Microsoft defender lida com seus dados pode ser encontrada [aqui](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
-- Além das diretrizes acima, os arquivos enviados por documentos seguros não são mantidos no defender além do tempo necessário para análise, que normalmente é menor que 24 horas.
+- Arquivos enviados por documentos seguros não são mantidos no defender além do tempo necessário para análise (normalmente, menos de 24 horas).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Usar o centro de conformidade de & de segurança para configurar documentos seguros
 
-1. Abra o centro de conformidade & segurança em <https://protection.office.com> .
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> e **anexos seguros de ATP**e clique em **configurações globais**.
 
-2. Vá para política de **Gerenciamento de ameaças** \> **Policy** \> **anexos seguros de ATP**.
+2. Na saída **das configurações globais** exibida, defina as seguintes configurações:
 
-3. Na seção **ajudar as pessoas a permanecerem seguras ao confiar em um arquivo para abrir fora do modo de exibição protegido em aplicativos do Office** , configure qualquer uma das seguintes configurações:
+   - **Ativar documentos seguros para clientes do Office**: mover o botão de alternância para o direito para ativar o recurso: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
-   - **Ativar documentos seguros para clientes do Office**
+   - **Permitir que as pessoas cliquem através do modo de exibição protegido, mesmo se os documentos seguros identificarem o arquivo como mal-intencionado**: Recomendamos que você deixe esta opção desativada (Mantenha a alternação para a esquerda: ![ desativar ](../../media/scc-toggle-off.png) ).
 
-   - **Permitir que as pessoas cliquem no modo de exibição protegido, mesmo se os documentos seguros identificam o arquivo como mal-intencionado**: Recomendamos que você não habilite essa opção.
+   Quando concluir, clique em **Salvar**.
 
-4. Quando concluir, clique em **Salvar**.
+   ![Configurações de documentos seguros depois de selecionar as configurações globais na página de anexos seguros de ATP.](../../media/safe-docs.png)
 
-![Página de anexos seguros de ATP](../../media/safe-docs.png)
-
-### <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-documents"></a>Usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar documentos seguros
+### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Usar o PowerShell do Exchange Online para configurar documentos seguros
 
 Use a seguinte sintaxe:
 
@@ -70,7 +63,6 @@ Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true 
 ```
 
 - O parâmetro _EnableSafeDocs_ habilita ou desabilita documentos seguros para toda a organização.
-
 - O parâmetro _AllowSafeDocsOpen_ permite ou impede que os usuários saiam do modo de exibição protegido (ou seja, abrir o documento) se o documento tiver sido identificado como mal-intencionado.
 
 Este exemplo habilita documentos seguros para toda a organização e impede que os usuários abram documentos identificados como mal-intencionados no modo de exibição protegido.
@@ -85,10 +77,16 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AtpPol
 
 Para verificar se você habilitou e configurou documentos seguros, execute uma das seguintes etapas:
 
-- No centro de conformidade & segurança, vá para a política de **Gerenciamento de ameaças** de \> **Policy** \> **anexos seguros de ATP**e verifique as seleções na seção **ajuda para manter a segurança ao confiar em um arquivo para abrir fora do modo de exibição protegido em aplicativos do Office** .
+- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> de **anexos seguros de ATP**, clique em **configurações globais**e verifique o **Ativar documentos seguros para clientes do Office** e **permitir que as pessoas cliquem através do modo de exibição protegido, mesmo se os documentos seguros identificam o arquivo como configurações mal-intencionadas** .
 
 - Execute o seguinte comando no PowerShell do Exchange Online e verifique os valores de propriedade:
 
   ```powershell
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
+
+- Os arquivos a seguir estão disponíveis para testar a proteção de documentos seguros. Estes documentos são semelhantes aos EICAR.TXT arquivo para testar soluções antimalware e antivírus. Os arquivos não são prejudiciais, mas eles disparam a proteção de documentos seguros.
+
+  - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
+  - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)
+  - [SafeDocsDemo.xlsx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.xlsx)

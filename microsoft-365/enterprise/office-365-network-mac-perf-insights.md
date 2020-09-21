@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network insights (versão prévia)
-ms.openlocfilehash: e3730704b6672c931b7538659a38f218e769dd0a
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 682c888fefb9bec9725e470d62019c857fc2de07
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962366"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171333"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network insights (versão prévia)
 
@@ -157,7 +157,7 @@ Esta percepção mostrará quando 50% ou mais das conexões de amostra são impa
 
 ### <a name="what-should-i-do"></a>O que devo fazer?
 
-Habilitar a visibilidade da conectividade de rede do Office local, se você ainda não tiver feito isso. Você deseja identificar quais escritórios são impactred por uma conectividade de rede ruim que afeta o Exchange e encontrar maneiras de melhorar o perímetro de rede em cada um que conecte os usuários à rede da Microsoft.
+Habilitar a visibilidade da conectividade de rede do Office local, se você ainda não tiver feito isso. Você deseja identificar quais escritórios são impactados pela baixa conectividade de rede que está afetando o Exchange e encontre maneiras de melhorar o perímetro de rede em cada um que conecte os usuários à rede da Microsoft.
 
 ## <a name="sharepoint-sampled-connections-impacted-by-connectivity-issues"></a>Exemplos de conexões do SharePoint impactadas por problemas de conectividade
 
@@ -169,7 +169,7 @@ Esta percepção mostrará quando 50% ou mais das conexões de amostra são impa
 
 ### <a name="what-should-i-do"></a>O que devo fazer?
 
-Habilitar a visibilidade da conectividade de rede do Office local, se você ainda não tiver feito isso. Você deseja identificar quais escritórios são impactred por uma conectividade de rede ruim que está afetando o SharePoint e encontre maneiras de melhorar o perímetro de rede em cada um que conecte os usuários à rede da Microsoft.
+Habilitar a visibilidade da conectividade de rede do Office local, se você ainda não tiver feito isso. Você deseja identificar quais escritórios são impactados pela baixa conectividade de rede que está afetando o SharePoint e encontre maneiras de melhorar o perímetro de rede em cada um que conecte os usuários à rede da Microsoft.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -177,6 +177,6 @@ Habilitar a visibilidade da conectividade de rede do Office local, se você aind
 
 [Avaliação de rede do Microsoft 365 (versão prévia)](office-365-network-mac-perf-score.md)
 
-[Teste de conectividade do Microsoft 365 no centro de administração do M365 (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
+[Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Serviços de local de conectividade de rede da Microsoft 365 (versão prévia)](office-365-network-mac-location-services.md)

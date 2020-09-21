@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 60c1a39e350a9a1d5d43c9b59ab12c4a6ad3f12a
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c3323192e0095ad6693241390cff81d42be9cce1
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817176"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956238"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Configurar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft 
 
@@ -121,7 +121,7 @@ Nesta fase, você será orientado a:
 ## <a name="enable-microsoft-365-trial-subscription"></a>Habilitar a assinatura de avaliação do Microsoft 365
 
 >[!NOTE]
->Inscrever-se em uma avaliação oferece 25 licenças de usuário para usar por mês. Consulte [tentar ou comprar uma assinatura do M365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide#try-or-buy-a-microsoft-365-subscription-1) para obter detalhes.
+>Inscrever-se em uma avaliação oferece 25 licenças de usuário para usar por mês. Consulte [tentar ou comprar uma assinatura do M365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) para obter detalhes.
 
 1. No [centro de administração do Microsoft 365](https://admin.microsoft.com/), clique em **cobrança** e navegue até **serviços de compra**.
 
@@ -149,4 +149,5 @@ Nesta fase, você será orientado a:
 
 
 ## <a name="next-step"></a>Próxima etapa
-![Fase 3: configurar o & integrado](../../media/config-onboard.png) <br>[Fase 3: configurar o & integrado](config-mtpeval.md) <br>Configure cada pilar de proteção contra ameaças da Microsoft para o laboratório de avaliação de proteção contra ameaças da Microsoft ou para o ambiente piloto e integração dos pontos de extremidade.
+|![Fase 3: configurar o & integrado](../../media/config-onboard.png) <br>[Fase 3: configurar o & integrado](config-mtpeval.md) | Configure cada pilar de proteção contra ameaças da Microsoft para o laboratório de avaliação de proteção contra ameaças da Microsoft ou para o ambiente piloto e integração dos pontos de extremidade.
+|:-------|:-----|

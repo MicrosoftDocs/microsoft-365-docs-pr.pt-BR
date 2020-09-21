@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
-description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: 10bca6776173c07a28b097f44c641c3e65a0cf6c
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+description: Saiba como usar suplementos centralizados para implantar suplementos para usuários e grupos em sua organização.
+ms.openlocfilehash: c7f8b7bf71dbdaaf1c850c801a5145d3ab47a65c
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948695"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171287"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 

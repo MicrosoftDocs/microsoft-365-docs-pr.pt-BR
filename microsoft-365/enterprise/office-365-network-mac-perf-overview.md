@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Visão geral da conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
-ms.openlocfilehash: 35ea28ec45a7e581901c0f4f22360a1dcd0def8b
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 644efe53e862f6bbe98be7dca889bc3637084521
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962282"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171357"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 
@@ -31,11 +31,13 @@ O centro de administração do Microsoft 365 agora inclui métricas de conectivi
 
 ![Página desempenho da rede](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
 
-Ao navegar pela primeira vez para a página conectividade de rede, você verá um painel Visão geral contendo um mapa de desempenho de rede global, uma avaliação de rede com escopo para o locatário inteiro e uma lista de problemas atuais. Na visão geral, você pode fazer uma busca detalhada para exibir as métricas e os problemas específicos de desempenho da rede por local. Para obter mais informações, consulte [Network Performance Overview no centro de administração do Microsoft 365](#network-connectivity-overview-in-the-microsoft-365-admin-center).
+Você pode ser solicitado a participar da visualização pública desse recurso em nome da sua organização. A aceitação normalmente aconteceu imediatamente e, em seguida, você verá a página conectividade de rede. 
+
+Ao navegar até a página conectividade de rede, você verá um painel Visão geral contendo um mapa de desempenho de rede global, uma avaliação de rede com escopo para o locatário inteiro e uma lista de problemas atuais. Para acessar essa página, você deve ser um administrador da organização no Microsoft 365. A função administrativa do leitor de relatórios terá acesso de leitura a essas informações. Para configurar locais e outros elementos de conectividade de rede, um administrador deve fazer parte de uma função de administrador de servidor, como a função de administrador de suporte de serviço. Na visão geral, você pode fazer uma busca detalhada para exibir as métricas e os problemas específicos de desempenho da rede por local. Para obter mais informações, consulte [Network Performance Overview no centro de administração do Microsoft 365](#network-connectivity-overview-in-the-microsoft-365-admin-center).
 
 ## <a name="pre-requisites-for-network-connectivity-assessments-to-appear"></a>Pré-requisitos para que as avaliações de conectividade de rede apareçam
 
-Há três opções para obter avaliações de rede de seus locais do Office:
+Embora a conectividade de rede possa ser avaliada em toda a organização, qualquer aprimoramento de design de rede precisará ser feito para locais específicos do Office. As informações de conectividade de rede são fornecidas para cada local do escritório quando esses locais podem ser determinados. Há três opções para obter avaliações de rede de seus locais do Office:
 
 ### <a name="1-enable-windows-location-services"></a>1. habilitar os serviços de localização do Windows
 
@@ -43,7 +45,7 @@ Para esta opção, você deve ter pelo menos dois computadores executando em cad
 
 O serviço de localização do Windows deve ser consentido nas máquinas. Você pode testar isso executando o aplicativo **Maps** e localizando-se. Ela pode ser habilitada em uma única máquina com **as configurações | Privacidade | Local** onde a configuração _permitir que os aplicativos acessem seu local_ deve estar habilitada. O consentimento dos serviços de localização do Windows pode ser implantado em computadores usando o MDM ou a política de grupo com a configuração _LetAppsAccessLocation_.
 
-Você não precisa adicionar locais no centro de administração com esse método, pois eles são identificados automaticamente na resolução da cidade. Você não pode mostrar vários locais do Office dentro de uma cidade usando os serviços de localização do Windows.
+Você não precisa adicionar locais no centro de administração com esse método, pois eles são identificados automaticamente na resolução da cidade. Você não pode mostrar vários locais do Office dentro de uma cidade usando os serviços de localização do Windows. As informações de local também são arredondadas para os 300 metros mais próximos de 300 metros antes de serem carregadas para que não seja possível acessar informações de local mais precisas.
 
 As máquinas devem ter redes Wi-Fi, em vez de um cabo Ethernet. As máquinas com um cabo Ethernet não têm informações precisas sobre o local.
 
@@ -51,7 +53,7 @@ Os exemplos de medidas e locais do Office devem começar a aparecer 24 horas ap�
 
 ### <a name="2-add-locations-and-provide-lan-subnet-information"></a>2. Adicione locais e forneça informações de sub-rede de LAN
 
-Para esta opção, não são necessários serviços de localização do Windows nem Wi-Fi. Você precisa do OneDrive for Windows versão 20,161 ou superior instalado em cada computador no local.
+Para esta opção, não são necessários serviços de localização do Windows nem Wi-Fi. Você precisa do OneDrive for Windows versão **20,161** ou superior instalado em cada computador no local.
 
 Você também precisa adicionar locais na página conectividade de rede do centro de administração ou importá-los de um arquivo CSV. Os locais adicionados devem incluir informações de sub-rede da LAN do Office.
 
@@ -61,11 +63,11 @@ Os exemplos de medidas e locais do Office devem começar a aparecer 24 horas ap�
 
 ### <a name="3-manually-gather-test-reports-with-the-microsoft-365-network-connectivity-test-tool"></a>3. reúna manualmente relatórios de teste com a ferramenta de teste de conectividade de rede 365 da Microsoft
 
-Para esta opção, você precisa identificar uma pessoa em cada local. Solicite a eles o navegador para [o teste de conectividade de rede do Microsoft 365](https://connectivity.office.com) em uma máquina Windows com a qual eles tenham permissões administrativas. No site, eles precisam entrar em sua conta do Office 365 no mesmo locatário em que você deseja ver os resultados. Em seguida, clique em executar teste. Durante o teste, há um executável de teste de conectividade baixado. Eles também precisam abrir e executar isso. Depois que os testes são concluídos, o resultado do teste é carregado para a Microsoft.
+Para esta opção, você precisa identificar uma pessoa em cada local. Peça a eles para navegar até [o teste de conectividade de rede do Microsoft 365](https://connectivity.office.com) em uma máquina Windows com a qual eles têm permissões administrativas. No site, eles precisam entrar em sua conta do Office 365 para a mesma organização que você deseja ver os resultados. Em seguida, clique em executar teste. Durante o teste, há um executável de teste de conectividade baixado. Eles também precisam abrir e executar isso. Depois que os testes são concluídos, o resultado do teste é carregado para o Office 365.
 
 Os relatórios de teste são vinculados a um local se ele tiver sido adicionado com informações de sub-rede da rede local, caso contrário, eles serão exibidos somente no local da cidade.
 
-Amostras de medida e locais do Office devem começar a aparecer 2-3 minutos após o resultado de um teste ser concluído.
+Amostras de medida e locais do Office devem começar a aparecer 2-3 minutos após um relatório de teste ser concluído. Para obter mais informações, consulte [o teste de conectividade de rede do Microsoft 365 (versão prévia)](office-365-network-mac-perf-onboarding-tool.md).
 
 ## <a name="how-do-i-use-this-information"></a>Como usar essas informações?
 
@@ -88,7 +90,7 @@ Muitas empresas têm configurações de perímetro de rede que cresceram com o p
 
 As empresas podem melhorar a experiência geral do usuário e proteger seu ambiente, seguindo os [princípios de conectividade do Office 365](https://aka.ms/pnc) e usando o recurso conectividade de rede do centro de administração do Microsoft 365. Na maioria dos casos, seguir esses princípios gerais terá um impacto positivo significativo sobre a latência do usuário final, a confiabilidade do serviço e o desempenho geral do Microsoft 365.
 
-Às vezes, a Microsoft é solicitada a investigar problemas de desempenho da rede com o Microsoft 365 para clientes de grandes empresas, e essas muitas vezes têm uma causa raiz relacionada à infraestrutura de egresso da rede do cliente. Quando uma causa raiz comum de um problema de perímetro de rede do cliente for encontrada, procuraremos a identificação de medidas de teste simples que a identificam. Um teste com um limite de medida que identifica um problema específico é importante porque podemos testar a mesma medição em qualquer local, diga se essa causa raiz está presente e compartilhe-a como uma percepção de rede com o administrador.
+Às vezes, a Microsoft é solicitada a investigar problemas de desempenho da rede com o Microsoft 365 para clientes de grandes empresas, e essas muitas vezes têm uma causa raiz relacionada à infraestrutura de perímetro de rede do cliente. Quando uma causa raiz comum de um problema de perímetro de rede do cliente for encontrada, procuraremos a identificação de medidas de teste simples que a identificam. Um teste com um limite de medida que identifica um problema específico é importante porque podemos testar a mesma medição em qualquer local, diga se essa causa raiz está presente e compartilhe-a como uma percepção de rede com o administrador.
 
 Alguns insights de rede simplesmente indicarão um problema que precisa de investigação adicional. Uma percepção de rede onde temos testes suficientes para mostrar uma ação de correção específica para corrigir a causa raiz é listada como uma **ação recomendada**. Essas recomendações, com base em métricas de Live, que revelam valores que estão fora de um limite pré-determinado, são muito mais valiosas que o Conselho geral de práticas recomendadas, uma vez que eles são específicos para seu ambiente e mostrarão o aprimoramento real depois que as alterações recomendadas forem feitas.
 
@@ -104,17 +106,30 @@ A página Visão geral também mostra a avaliação de rede para o cliente como 
 
 ![Avaliação de rede](../media/m365-mac-perf/m365-mac-perf-overview-score.png)
 
+Você pode exibir um modo de exibição de tabela dos locais onde eles podem ser filtrados, classificados e editados na guia locais. Os locais com recomendações específicas também podem incluir uma melhoria de latência potencial estimada. Isso é calculado com a latência mediana dos usuários da organização no local e a subtração da latência mediana de todas as organizações na mesma cidade.
+
+![Locais do insights de rede](../media/m365-mac-perf/m365-mac-perf-locations.png)
+
 ## <a name="specific-office-location-network-performance-summary-and-insights"></a>Resumo de desempenho da rede de local específico do Office e insights
 
 Selecionar um local do Office abre uma página de resumo específica do local mostrando detalhes da saída da rede que foi identificada por meio de medidas para esse local do escritório.
 
 ![Detalhes da Network insights por local](../media/m365-mac-perf/m365-mac-perf-locations-plan-overview.png)
 
-A página de Resumo de local do Office também mostra a avaliação de rede do local, o histórico de avaliação de rede, uma comparação entre a avaliação desse local e outros clientes na mesma cidade e uma lista de ideias e recomendações específicas que você pode tomar para melhorar o desempenho e a confiabilidade da rede. Os locais com recomendações específicas também podem incluir uma melhoria de latência potencial estimada.
+Um mapa da rede de perímetro para os usuários da sua organização no local é mostrado com alguns ou todos estes elementos:
+
+- **Local do Office** -o local do escritório para a página que você está olhando
+- **Perímetro de rede** -o local do endereço IP de origem para conexões do local do escritório. Isso depende da precisão dos bancos de dados de local de IP geográfico
+- **Porta frontal de serviço ideal do Exchange** – uma das portas de entrada recomendadas do serviço do Exchange à qual os usuários neste local do Office devem se conectar
+- **Porta frontal ótima do Exchange** -uma porta frontal de serviço do Exchange à qual os usuários estão conectados, mas não é recomendada
+- **Porta frontal de serviço otimizada do SharePoint** – uma das portas do front-end do serviço do SharePoint para as quais os usuários neste local do escritório devem se conectar
+- **Porta frontal de serviço do SharePoint** em uma porta frontal do serviço do SharePoint à qual os usuários estão conectados, mas não é recomendado
+- **Servidor do resolvedor recursivo de DNS** -o local de um banco de dados de IP geográfico do resolvedor recursivo de DNS detectado usado para o Exchange Online (se disponível)
+- **Seu servidor proxy** -o local de um banco de dados de IP geográfico do servidor proxy detectado (se disponível) 
+
+A página de Resumo de local do Office também mostra a avaliação de rede do local, o histórico de avaliação de rede, uma comparação entre a avaliação desse local e outros clientes na mesma cidade e uma lista de ideias e recomendações específicas que você pode tomar para melhorar o desempenho e a confiabilidade da rede.
 
 As comparações entre os clientes na mesma cidade têm como base a expectativa de que todos os clientes tenham acesso igual aos provedores de serviços de rede, à infraestrutura de telecomunicações e aos pontos de presença da rede Microsoft próximos.
-
-![Locais do insights de rede](../media/m365-mac-perf/m365-mac-perf-locations.png)
 
 A guia detalhes na página local do Office mostra os resultados de medição específicos que foram usados para surgir com as ideias, recomendações e avaliação de rede. Isso é fornecido para que os engenheiros de rede possam validar as recomendações e o fator em qualquer restrição ou especificações em seu ambiente.
 
@@ -124,7 +139,7 @@ A guia detalhes na página local do Office mostra os resultados de medição esp
 
 Para a identificação do escritório da sub-rede da LAN, você precisa adicionar cada local com antecedência. Em vez de adicionar locais individuais do Office na guia **locais** , você pode importá-los de um arquivo CSV. É possível obter esses dados de outros locais que você armazenou como o painel de qualidade da chamada ou sites e serviços do Active Directory
 
-No arquivo CSV, um local de cidade descoberto é rotulado como **cidade**, e um local do escritório adicionado manualmente é um **local**rotulado.
+No arquivo CSV, um local de cidade descoberto é mostrado na coluna userdigitou como em branco, e um local do escritório adicionado manualmente é mostrado como 1.
 
 1. Na janela principal _conectividade com o Microsoft 365_ , clique na guia **locais** .
 1. Clique no botão **importar** , logo acima da lista locais. O submenu **importar locais do Office** aparecerá.
@@ -133,9 +148,10 @@ No arquivo CSV, um local de cidade descoberto é rotulado como **cidade**, e um 
 
 1. Clique no link **baixar locais atuais do Office (. csv)** para exportar a lista de locais atuais para um arquivo CSV e salvá-lo no disco rígido local. Isso fornecerá um CSV formatado corretamente com os títulos de coluna para os quais você pode adicionar locais. Você pode deixar os locais exportados existentes como estão; Eles não serão duplicados quando você importar o CSV atualizado. Se você quiser alterar o endereço de um local existente, ele será atualizado quando você importar o CSV. Não é possível alterar o endereço de uma cidade descoberta.
 1. Abra o CSV e adicione seus locais preenchendo os campos a seguir em uma nova linha para cada local que você deseja adicionar. Deixe todos os outros campos em branco; os valores inseridos em outros campos serão ignorados.
+   1. **Userentered** (obrigatório): deve ser 1 para uma nova sub-rede de LAN local do escritório
    1. **Endereço** (obrigatório): o endereço físico do Office
-   1. **Latitude** (opcional): preenchido da pesquisa de mapas do Bing se estiver em branco
-   1. **Longitude** (opcional): preenchida da pesquisa de mapas do Bing se estiver em branco
+   1. **Latitude** (opcional): preenchido da pesquisa do Bing Maps do endereço se estiver em branco
+   1. **Longitude** (opcional): preenchida do Bing Maps pesquisa do endereço se estiver em branco
    1. **Intervalos de endereços IP de egresso 1-5** (opcional): para cada intervalo, insira o nome do circuito seguido por uma lista separada por espaço de endereços válidos IPv4 ou IPv6. Esses valores são usados para diferenciar vários locais do Office onde você usa os mesmos endereços IP de sub-rede da rede local.
    1. **LanIps** (obrigatório): lista os intervalos de sub-rede LAN em uso neste local do Office.
 1. Após adicionar os locais do Office e salvar o arquivo, clique no botão **procurar** ao lado do campo **carregar o concluído** e selecione o arquivo CSV salvo.

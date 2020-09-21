@@ -21,19 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
-description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: d80207ac264cb1b649f631d358c86809c2992a8e
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador de serviço pode abrir tíquetes de suporte por meio do centro de administração.
+ms.openlocfilehash: 35fee24a2e9de6c00f37e93c59851b7e760baa19
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361768"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131777"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
 Sua assinatura do Microsoft 365 ou do Office 365 acompanha um conjunto de funções de administrador que você pode atribuir aos usuários em sua organização usando o Centro de administração do Microsoft 365. Cada função de administrador é mapeada para uma função de negócios comum da empresa e concede permissões para a realização de tarefas específicas nos centros de administração.
 
 O Centro de administração do Microsoft 365 permite gerenciar as funções do Azure AD e do Microsoft Intune. No entanto, essas funções são um subconjunto das funções disponíveis no portal do Azure AD e no centro de administração do Intune.
+
+## <a name="before-you-begin"></a>Antes de começar
 
 Procurando a lista completa de descrições detalhadas da função do Azure Active Directory que você pode gerenciar no Centro de administração do Microsoft 365? Confira as permissões da função de administrador no Azure Active Directory. [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 

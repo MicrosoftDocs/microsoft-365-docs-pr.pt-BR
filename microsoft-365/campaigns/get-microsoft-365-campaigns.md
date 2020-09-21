@@ -2,8 +2,8 @@
 title: Obter o Microsoft 365 para campanhas
 f1.keywords:
 - NOCSH
-ms.author: supotter
-author: supotter
+ms.author: sirkkuw
+author: sirkkuw
 manager: scotv
 ms.audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obtenha o Microsoft 365 para campanhas para que você possa proteger sua campanha contra ameaças cybersecurity a emails, dados e comunicações.
-ms.openlocfilehash: 13e0f66b388e9041e1654a7a45226d3204499618
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: fcb28ba7ca52ee3498afd12cf93157fa90d0d80b
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527325"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131971"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>Obter o Microsoft 365 para campanhas
 
