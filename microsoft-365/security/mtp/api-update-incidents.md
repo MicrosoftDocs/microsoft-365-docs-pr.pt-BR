@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e790f4f415575323cfdd5fc15db41baa8b59c7f6
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 8ad47453c7163bfac99c17f42986b818cdca603f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650100"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203608"
 ---
 # <a name="update-incidents-api"></a>Atualizar a API de incidentes
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -68,7 +71,7 @@ PATCH /api/incidents/{id}
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | String | Portador {token}. **Obrigatório**.
+Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 
@@ -83,7 +86,7 @@ status | Enum | Especifica o status atual do alerta. Os valores possíveis são 
 assignedTo | string | Proprietário do incidente.
 classificação | Enum | Especificação do alerta. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do alerta. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-tags | Lista de cadeia de caracteres | Lista de marcas de incidente.
+categorias | Lista de cadeia de caracteres | Lista de marcas de incidente.
 
 
 
@@ -113,5 +116,5 @@ Este é um exemplo da solicitação.
 
 
 ## <a name="related-topic"></a>Tópico relacionado
-- [APIs de incidente](api-incident.md)
+- [APIs de Incidente](api-incident.md)
 - [Listar incidentes](api-list-incidents.md)

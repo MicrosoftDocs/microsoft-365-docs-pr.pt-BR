@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre a proteção contra ameaças no Microsoft 365 e configurar como usá-la para sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a78bbea2d11360bbfa48fa3da01391471b2e0a4d
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1ad74e9bdcd7b937873108d2ba049c16db8c235b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547357"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202574"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Aqui está um guia de início rápido que divide a configuração da proteção avançada contra ameaças em partes. Se você é novo em recursos de proteção contra ameaças no Office 365, não tem certeza de onde começar, ou se você aprende melhor *fazendo*isso, use este guia como uma lista de verificação e um ponto de partida.
 

@@ -17,14 +17,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar o analisador de configuração para encontrar e corrigir as políticas de segurança que estão abaixo das políticas de segurança predefinidas de proteção padrão e proteção estrita.
-ms.openlocfilehash: 022f11013ef49c65b1f94fea7a3872233ff1ab14
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d2d37d937f42587ad99e4145d3a9f9fbc6a5a0f4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949473"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203426"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-office-365-atp"></a>Analisador de configuração para políticas de proteção no EOP e no Office 365 ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > Os recursos descritos neste tópico estão em visualização, não estão disponíveis em todas as organizações e estão sujeitos a alterações. Para obter informações sobre o cronograma de lançamento, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=config%2Canalyzer).
@@ -93,7 +96,7 @@ Por padrão, a coluna **grupo de políticas/nome da configuração** contém uma
 
 - **Antispam**
 - **Anti-phishing**
-- **Antimalware**
+- **Anti-malware**
 - **Anexos seguros de ATP** (se sua assinatura incluir ATP)
 - **Links seguros de ATP** (se sua assinatura incluir ATP)
 

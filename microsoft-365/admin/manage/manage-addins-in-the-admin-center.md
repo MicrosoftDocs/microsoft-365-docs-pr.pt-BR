@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como usar suplementos centralizados para implantar suplementos para usuários e grupos em sua organização.
-ms.openlocfilehash: c7f8b7bf71dbdaaf1c850c801a5145d3ab47a65c
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 6339858871834637c0b8fdd1b16c17b534026de9
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171287"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48207881"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 
@@ -60,6 +60,9 @@ Você também pode excluir um suplemento implantado.
 
 1. No centro de administração, vá para a página **configurações**de  >  **&** de suplementos.
 
+     > [!NOTE]
+    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para seção implantação centralizada em aplicativos de **configurações**  >  **integradas**. Na parte superior da página **aplicativos integrados** , escolha **suplementos**.
+
 2. Selecione o suplemento implantado.
 
 3. Clique em **excluir suplemento**. Remova o botão do suplemento no canto inferior direito.
@@ -71,6 +74,9 @@ Você também pode excluir um suplemento implantado.
 Pós-implantação, os administradores também podem gerenciar o acesso do usuário a suplementos.
 
 1. No centro de administração, vá para a página **configurações**de  >  **&** de suplementos.
+
+     > [!NOTE]
+    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para seção implantação centralizada em aplicativos de **configurações**  >  **integradas**. Na parte superior da página **aplicativos integrados** , escolha **suplementos**.
 
 2. Selecione o suplemento implantado.
 
@@ -88,6 +94,9 @@ Como uma organização, talvez você queira impedir o download de novos suplemen
 **Para desativar a aquisição de suplementos**
   
 1. No centro de administração, vá para a página **Configurações** \> [Serviços&amp; suplementos](https://go.microsoft.com/fwlink/p/?linkid=2053743).
+
+     > [!NOTE]
+    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para seção implantação centralizada em aplicativos de **configurações**  >  **integradas**. Na parte superior da página **aplicativos integrados** , escolha **suplementos**.
     
 3. Selecione **aplicativos e serviços de Propriedade do usuário**.
     

@@ -21,12 +21,12 @@ description: O centro de administração do Microsoft 365-Aprenda sobre os recur
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 7504fa085c6dd5413a1dcddbb71f3d015ded72c1
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 64c9939f7dd6c4370b80e74987263942dad0e62f
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300440"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208871"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -49,17 +49,121 @@ E se você quiser saber o que há de novo em outros serviços de nuvem da Micros
 - [O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Atualizações do Office](https://docs.microsoft.com/OfficeUpdates/)
 
+## <a name="ignite-2020-august--september"></a>Ignite 2020 (agosto de & setembro)
+
+Bem-vindo ao Microsoft Ignite-nosso primeiro Ignite somente online. Esperamos ver você em uma de nossas sessões: catálogo de [sessão do Microsoft Ignite 2020](https://myignite.microsoft.com/sessions). Veja aqui apenas algumas das coisas que falaremos em Ignite. 
+> [!NOTE]
+> Nem todos os recursos estarão disponíveis para todas as pessoas imediatamente. Se você não estiver vendo os novos recursos, [ingresse no lançamento direcionado](manage/release-options-in-office-365.md).
+
+### <a name="multi-tenant-management"></a>Gerenciamento de vários locatários
+
+Desenvolvemos um conjunto de recursos para administradores de vários locatários como você para que o trabalho seja feito de forma mais rápida e eficiente.
+
+- **Seus locatários**: alternar rapidamente entre os locatários que você gerencia.
+- **Todos os locatários**: uma nova página na qual você pode ver rapidamente a integridade de todos os serviços de seus locatários, todas as solicitações de serviço abertas, seus produtos e cobrança, as tarefas de configuração recomendadas e o número de usuários nesse locatário.
+- **Configuração**: a página de configuração de vários locatários fornece um modo de exibição de lista da página de configuração, mas organizadas para vários locatários. Você pode ver quais recursos não estão ativados, quais tarefas são concluídas para todos os locatários, tarefas que os locatários ainda precisam concluir. Este modo de exibição o ajudará a acompanhar a adoção de recursos e a garantir que as tarefas de configuração de segurança recomendadas sejam sempre realizadas.
+- **Integridade do serviço**: o modo de exibição de integridade do serviço mostra se algum incidentes ou comunicados estão afetando os locatários. Ele até mesmo dirá quantos de seus locatários gerenciados são afetados. Apenas selecione um incidente para obter mais informações sobre a guia Visão geral e, em seguida, alterne para a guia de locatários afetados para detalhar e dar suporte a esse locatário.
+- As **migrações de caixa de correio de vários locatários** são um novo serviço, agora em visualização pública, que permite mover caixas de correio entre locatários sem a necessidade de externamente e, em seguida, caixas de correio integradas. 
+- **Compartilhamento de domínios entre locatários**: em breve, você pode ingressar em uma visualização privada para recursos que permitem compartilhar um domínio em vários locatários. Por exemplo, se a contoso adquire a Wingtip Toys, a Contoso pode compartilhar o domínio com a Wingtip Toys para que as pessoas em ambos os locatários possam usar o "contoso.com" como seus endereços de email.
+
+![Página integridade do serviço para vários locatários com um incidente selecionado e a guia de locatários afetados aberta. O menu de navegação tem todos os locatários, a configuração e a integridade do serviço como as únicas opções.](../media/MAC-WN-MTinServiceHealth.png)
+
+### <a name="monitor-your-most-important-accounts"></a>Monitorar suas contas mais importantes
+
+Você pode monitorar e acompanhar mensagens de email com falha ou atrasadas enviadas para seus usuários com alto impacto nos negócios, como seu CEO. Você controla as contas de prioridade adicionando usuários à sua lista de contas de prioridade no centro de administração do Microsoft 365. Adicione executivos, líderes, gerentes ou outros usuários que tenham acesso a informações confidenciais ou de alta prioridade.
+
+As contas de prioridade só estão disponíveis para as organizações que atendem aos dois requisitos a seguir:
+
+- Office 365 E3 ou Microsoft 365 E3 ou Office 365 E5 ou Microsoft 365 e5.
+- Pelo menos 10.000 licenças e pelo menos 50 usuários ativos mensais do Exchange Online.
+
+![Página de configuração do recurso: monitorar suas contas mais importantes](../media/MAC-WN-PriorityAccounts.png)
+
+Há duas maneiras de começar:
+
+- Vá para **usuários**e, no menu "mais ações", selecione **gerenciar contas de prioridade** para adicionar usuários à lista.
+- Vá para **configuração**, encontre a tarefa de configuração para **monitorar suas contas mais importantes**e, em seguida, selecione **introdução**.
+
+Para obter mais informações sobre contas de prioridade, consulte [monitorando contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) e [problemas de email para contas de prioridade](https://docs.microsoft.com/Exchange/mail-flow-best-practices/mail-flow-insights/mfi-email-issues-for-priority-accounts).
+
+### <a name="search-faster-and-get-better-results-from-any-page"></a>Pesquisar mais rápido e obter melhores resultados de qualquer página
+
+Começamos a implantar uma nova experiência de pesquisa para o centro de administração e não podemos esperar por você experimentá-lo. A ![ caixa de pesquisa foi movida para a região de faixa. ALT + S para Pesquisar de qualquer página.](../media/MAC-WN-GlobalSearch.png)
+
+- A caixa de pesquisa foi movida para a área de cabeçalho onde diz "centro de administração do Microsoft 365" para que você agora pesquise em qualquer página, e não apenas na página inicial. Temos até obter um atalho: **ALT + S**.
+- A pesquisa é mais inteligente e fornecerá melhores resultados, até mesmo mais rápido. Tente digitar "2Fa" para começar.
+- Os resultados da pesquisa são organizados pelo tipo de item ou ação que você pode tomar.
+  - **Usuários**: selecione o nome do usuário e você pode editar esse usuário diretamente lá. Se você selecionar o menu "mais ações" ao lado do nome, poderá redefinir a senha. Você pode pesquisar por nome de exibição, sobrenome, nome, nome de usuário ou endereço de email principal e aliases de email. Mas para obter uma correspondência exata, pesquise por endereço de email principal ou nome de usuário.
+  - **Grupos**: editar o grupo de qualquer página, adicionar membros, atribuir proprietários.
+  - **Ações**: semelhante à forma como você pode pesquisar um usuário e redefinir sua senha, você também pode Pesquisar "Redefinir senha" em qualquer página e, em seguida, redefinir uma ou mais senhas para usuários.
+  - **Navegação**: os resultados na navegação podem ajudá-lo rapidamente a obter rapidamente uma página no centro de administração. Por exemplo, a pesquisa de "funções" levará você para a página de funções das funções do Azure AD.
+  - **Configurações**: Procure qualquer configuração relacionada à sua organização, os serviços que você assina e as configurações de segurança e privacidade. 
+  - **Domínios**: você pode encontrar links rápidos para seus domínios e, em seguida, o link o levará para a página Visão geral e integridade desse domínio.
+  - **Documentação**: se não for possível encontrar um resultado para você, tentaremos encontrar uma documentação para ajudar. Demora um pouco mais para a lista organizada de artigos para localizar uma correspondência, portanto, aguarde um segundo para que a pesquisa encontre os resultados. 
+  - **Feedback**: não encontrou o que você estava procurando? Envie-nos comentários da pesquisa. Adicionaremos funcionalidade de pesquisa para mais páginas e mais recursos no centro de administração.
+
+### <a name="microsoft-365-admin-mobile-app"></a>Aplicativo móvel de administração do Microsoft 365
+
+O [aplicativo microsoft 365 admin Mobile](https://www.microsoft.com/microsoft-365/business/manage-office-365-admin-app), que está incluído na sua assinatura, permite que você gerencie o Microsoft 365 do seu dispositivo móvel para que você possa sair da sua mesa para realizar tarefas diárias. Na verdade, há mais de 90 recursos no aplicativo e acabamos de adicionar mais alguns:
+
+- **Suporte para políticas de acesso condicional e de gerenciamento de aplicativo móvel do Microsoft Intune**: agora você pode usar seu dispositivo pessoal para gerenciar o Microsoft 365 mesmo que sua organização tenha ativado as políticas de acesso condicional e de gerenciamento de aplicativo móvel do Intune.
+- **Notificações do centro de mensagens**: Ative as notificações de central de mensagens em **configurações**, caso queira  >  **Notifications** ser alertado sobre novas postagens do centro de mensagens. Por meio de notificações, queremos garantir que você fique informado sobre informações importantes e eventos em seu locatário.
+- **Alertas de cobrança**: você também pode ativar notificações de cobrança em notificações de **configurações**  >  **Notifications** se quiser obter notificações de cobrança no seu dispositivo se uma assinatura estiver prestes a expirar.
+- **Modo escuro**: Bem-vindo ao lado escuro do aplicativo móvel. Este foi um dos recursos mais solicitados. Vá para **Settings**  >  **temas** de configurações para ativá-la.
+- **Relatar um problema**: agora você pode relatar um problema no aplicativo ou exibir problemas relatados por outros administradores. Visite **integridade do serviço** para fazer o check-out.
+
+![A página de integridade no aplicativo de administração do Microsoft 365 com notificações para o centro de mensagens, integridade do serviço, alertas de cobrança.](../media/MAC-WN-AdminMobileApp.png)
+
+### <a name="usage-recommendations-for-small-and-medium-businesses"></a>Recomendações de uso para pequenas e médias empresas
+
+Pequenas e médias empresas podem obter uma recomendação na **Home** Page se algumas pessoas da organização não estiverem usando ativamente o Teams, o onedrive ou os aplicativos do Office. Ao exibir a recomendação, você pode enviar emails rapidamente para o treinamento da Microsoft para usuários inativos para ajudá-los a começar a usar o aplicativo e a garantir que você esteja obtendo o valor completo de suas assinaturas.
+
+### <a name="remote-work-collection"></a>Conjunto de trabalho remoto
+
+Em outubro, adicionaremos uma coleção de trabalho remota para ajudar os proprietários de pequenas empresas e sua equipe a ficar online e a trabalhar remotamente.  Configuração do **Essentials de trabalho remoto** é uma lista organizada de todos os recursos que a Microsoft recomenda para habilitar o trabalho remoto e colaborar de forma segura. Em algumas semanas, você pode experimentá-lo em **Configurar**o  >  **princípios de trabalho remoto**.
+
+![Página recursos de trabalho remoto no programa de instalação com sete tarefas não iniciadas.](../media/MAC-WN-RemoteWork.png)
+
+Para obter mais informações sobre como permitir com segurança o trabalho remoto e um endereço da Web útil que seja fácil de lembrar e compartilhar, acesse [aka.ms/Remote-Business](https://aka.ms/remote-business).
+
+### <a name="need-help-moving-to-more-admin-centers"></a>Precisa de ajuda? movendo para mais centros de administração
+
+Estamos examinando e atualizando continuamente o conteúdo e as ferramentas para acompanhar as alterações no produto. Agora, temos muito mais ferramentas de diagnóstico de autoatendimento para ajudá-lo a resolver problemas com rapidez e eficiência. Veja algumas que foram adicionadas recentemente:
+
+- Alterar sua política de limitação de serviços Web do Exchange
+- Verificando o status do provisionamento e da validação do teams para usuários específicos
+- Corrigir problemas de configuração do DKIM
+- Diagnosticar erros de registro do usuário do Intune
+
+E estamos distribuindo a experiência de suporte nova e aprimorada que você já vê no centro de administração do Microsoft 365 para alguns dos outros centros de administração. O centro de administração do Microsoft Teams e os centros de administração de segurança e conformidade já têm essa nova experiência. Logo, o **centro de administração do Exchange**, o **centro de administração do SharePoint**e o **Office.com** serão atualizados junto com essa nova experiência de ajuda para administradores.
+
+### <a name="manage-changes-with-microsoft-planner"></a>Gerenciar alterações com o Microsoft Planner
+
+Em maio, anunciamos que você poderá sincronizar as postagens do centro de mensagens para o Microsoft Planner e agora ela está disponível para que todos possam usar o.  Agora você pode criar tarefas a partir de mensagens, atribuí-las e rastreá-las à conclusão. Na primeira vez, você seleciona a **sincronização de planejador** , precisará se conectar ao plano apropriado.
+
+![Página do centro de mensagens com a "sincronização do planejador" realçada na barra de comandos ao lado do botão preferências.](../media/MAC-WN-MCPlannerSync.png)
+
+Para saber mais sobre ele, confira este artigo e vídeo para ver como funciona: [controle suas postagens do centro de mensagens no Planner](https://docs.microsoft.com/Office365/Planner/track-message-center-tasks-planner)
+
+### <a name="documentation-training-and-videos"></a>Documentação, treinamento e vídeos
+
+- Nova marca e tempo para o Microsoft Ignite--[o Hub virtual](https://adoption.microsoft.com/virtual-hub/). Aprofundamento no treinamento técnico para profissionais de ti e desenvolvedores. Encontre rapidamente 20 novos vídeos como parte do #SIDETRACKED, o nome do controle de administração do Ignite este ano.
+- [O que há de novo com a série de vídeo da Microsoft 365](https://www.youtube.com/watch?v=OVjb2lGJ4GU&t=2s) : este mês, abordamos os novos recursos disponíveis no whiteboard para Teams e na Web, como automatizar o provisionamento de usuários para o Azure AD, nova potência automatizar gatilhos e ações no Teams e muito mais. E fique atento no próximo mês, onde teremos uma recapitulação de todas as coisas boas que ocorrem em Ignite!
+- Fizemos um novo design da página de [documentação da Microsoft 365](https://docs.microsoft.com/microsoft-365) que se concentra nas soluções primeiro. Vamos destacar novas soluções à medida que elas forem disponibilizadas nesta página, portanto, fique atento.
+
+![Nova página de aterrissagem para a documentação de soluções do Microsoft 365 com soluções como "capacitar funcionários remotos".](../media/MAC-WN-M365Docspage.png)
+
 ## <a name="july-2020"></a>Julho de 2020
 
 ### <a name="getting-ready-for-ignite-2020"></a>Preparando-se para o Ignite 2020
 
-Como estamos migrando para a temporada Ignite da Microsoft, não estamos lançando o máximo de recursos para que possamos falar sobre durante nossas sessões. 
+Como estamos migrando para a temporada Ignite da Microsoft, não estamos lançando o máximo de recursos para que possamos falar sobre durante nossas sessões.
 
 A próxima atualização deste artigo será no dia de abertura do nosso primeiro Ignite somente online. E este ano, é gratuito participar! Faça o check-out, conecte-se: [Microsoft Ignite 2020](https://www.microsoft.com/ignite).
 
 ### <a name="your-products"></a>Seus produtos
 
-Houve muito trabalho no gerenciamento de assinaturas para tornar a página mais rápida para carregar, mais rápido localizar o que você está procurando e para atender aos padrões de acessibility da Web ([WCAG 2,1](http://www.w3.org/TR/WCAG21/)).
+Houve muito trabalho no gerenciamento de assinaturas para tornar a página mais rápida para carregar, mais rápido localizar o que você está procurando e para atender aos padrões de acessibilidade da Web ([WCAG 2,1 Guidelines](http://www.w3.org/TR/WCAG21/)).
 
 - **Redesign de tabela**: a tabela foi reprojetada para que você possa agrupar assinaturas semelhantes. Vá para **cobrança**  >  **de seus produtos**.
 - **Detalhes do produto**: Obtenha mais detalhes do que nunca sobre suas assinaturas selecionando o produto na lista.
@@ -73,7 +177,7 @@ O gerenciamento de domínio pode ser complicado e lançamos um novo recurso para
 
 :::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Página de detalhes de domínios para contoso.com":::
 
-### <a name="docs-training-and-videos"></a>Docs, treinamento e vídeos
+### <a name="docs-training-and-videos-july-2020"></a>Docs, treinamento e vídeos (julho de 2020)
 
 [O que há de novo com](https://youtu.be/m1Nu8WJgCDY) a série de vídeo da Microsoft 365: este mês, abordamos a nova experiência do Yammer para Web e móvel, como integrar o aplicativo de comunidades do Yammer para o Microsoft Teams, novos pacotes de política para dar suporte a operadores e gerentes de primeira e mais.
 
@@ -257,7 +361,7 @@ Recebemos muitos comentários de parceiros e administradores sobre os desafios d
 ![Captura de tela: parte superior da Home Page mostrando o nome do perfil da organização com o ícone do alternador.](../media/MAC-Organization-switcher.png)
 
 2. No alternador de organização, selecione o org que você deseja gerenciar.
-![Captura de tela: parte superior da Home Page mostrando o nome do perfil da organização com o ícone do alternador.](../media/MAC-OrgSwitcherSelected.png)
+![Captura de tela: o seletor de locatários de minhas organizações com o locatário do exconsolidated Messenger](../media/MAC-OrgSwitcherSelected.png)
 
 Isso é literalmente!!!
 
@@ -437,7 +541,7 @@ Há uma atualização para outro dos nossos assistentes de instalação inicial:
 Temos algumas atualizações para cobrança e assinaturas neste mês:
 
 - Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição **de licenças do microsoft 365 Apps for Education (Device)** a dispositivos no centro de administração do Microsoft 365. **O Microsoft 365 Apps for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá para **cobrança**de  >  **seus produtos** para encontrar e comprar a licença.
-- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para mais informações, confira:
+- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para saber mais, confira:
   - [Atribuir licenças a usuários](manage/assign-licenses-to-users.md)
   - [Cancelar licenças de usuários](manage/remove-licenses-from-users.md)
 

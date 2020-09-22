@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre os controles de spam de saída na proteção do Exchange Online (EOP) e o que fazer se você precisar enviar emails em massa.
-ms.openlocfilehash: 99502e7fb55419dedb4d0f7d4a7e6c4591eff859
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1097b768b955f2fa99c552ceda7564bef33a1aa7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208918"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202382"
 ---
 # <a name="outbound-spam-protection-in-eop"></a>Proteção contra spam de saída no EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, vamos Gerenciar spam de saída seriamente. Um cliente que envia de forma intencional ou não spam de sua organização pode degradar a reputação de todo o serviço e pode afetar a entrega de email para outros clientes.
 
@@ -40,7 +43,7 @@ Este tópico descreve os controles e as notificações que são projetados para 
 
 ## <a name="how-eop-controls-outbound-spam"></a>Como o EOP controla o spam de saída
 
-- **Diferenciação de tráfego de email de saída**: todas as mensagens de saída enviadas pelo serviço são verificadas por spam. Se a mensagem for determinada como spam, ela será entregue de um pool de endereços IP secundário e menos confiável chamado _pool de entrega de alto risco_. Para obter mais informações, consulte [pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).
+- **Diferenciação de tráfego de email de saída**: todas as mensagens de saída enviadas pelo serviço são verificadas por spam. Se a mensagem for determinada como spam, ela será entregue de um pool de endereços IP secundário e menos confiável chamado _pool de entrega de alto risco_. Para saber mais, confira [Pool de entrega com maior risco em mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).
 
 - **Monitorando nossa reputação de endereço IP de origem**: o Microsoft 365 consulta várias listas de bloqueios de IP de terceiros. Um alerta é gerado se qualquer um dos endereços IP usados para o email de saída aparecer nessas listas. Isso nos permite reagir rapidamente quando o spam causa a degradação da nossa reputação. Quando um alerta é gerado, temos documentação interna que descreve como obter os endereços IP removidos (deslistados) das listas de bloqueios.
 
@@ -48,7 +51,7 @@ Este tópico descreve os controles e as notificações que são projetados para 
 
 - **Desabilitando contas que enviam muito email muito rapidamente** <sup>\*</sup> : além dos limites que procuram mensagens marcadas como spam, também há limites que bloqueiam contas quando atingem um limite de mensagens de saída geral, independentemente da veredicto de filtragem de spam nas mensagens de saída. Uma conta comprometida pode enviar spams (anteriormente não reconhecidos) que são perdidos pelo filtro de spam. Como pode ser difícil identificar uma campanha de mala direta em massa legítima vs. uma campanha de spam, esses limites ajudam a minimizar possíveis danos.
 
-<sup>\*</sup>Não anunciamos os limites exatos para que os spammers não possam fazer o jogo do sistema e, portanto, podemos aumentar ou diminuir os limites conforme necessário. Os limites são altos o suficiente para evitar que um usuário da empresa seja excedido de uma média duração e o suficiente para ajudar a conter os danos causados por um remetente de spam.
+<sup>\*</sup> Não anunciamos os limites exatos para que os spammers não possam fazer o jogo do sistema e, portanto, podemos aumentar ou diminuir os limites conforme necessário. Os limites são altos o suficiente para evitar que um usuário da empresa seja excedido de uma média duração e o suficiente para ajudar a conter os danos causados por um remetente de spam.
 
 ## <a name="recommendations-for-customers-who-want-to-send-mass-mailings-through-eop"></a>Recomendações para clientes que desejam enviar correspondências em massa por meio do EOP
 

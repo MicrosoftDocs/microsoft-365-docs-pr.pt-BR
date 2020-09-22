@@ -1,6 +1,6 @@
 ---
-title: APIs de proteção de ameaças da Microsoft compatíveis
-description: APIs de proteção de ameaças da Microsoft compatíveis
+title: APIs de Proteção contra Ameaças da Microsoft suportadas.
+description: APIs de Proteção contra Ameaças da Microsoft suportadas.
 keywords: MTP, APIs, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 49fa182a6142748ca7769411fe74389f365ba75f
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: fda90945f09abfadfe56ea11469687130d88b2a7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650102"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203690"
 ---
-# <a name="supported-microsoft-threat-protection-apis"></a>APIs de proteção de ameaças da Microsoft compatíveis 
+# <a name="supported-microsoft-threat-protection-apis"></a>APIs de Proteção contra Ameaças da Microsoft suportadas. 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
@@ -52,5 +55,5 @@ ms.locfileid: "47650102"
 
 Tópico | Descrição
 :---|:---
-[API de busca avançada](api-advanced-hunting.md) | Executar consultas de busca avançada da API.
-[APIs de incidente](api-incident.md) | Executar chamadas de API relacionadas a incidentes, como: listar incidentes, atualizar incidente e mais.
+[API de Busca Avançada](api-advanced-hunting.md) | Executar consultas de busca avançada da API.
+[APIs de Incidente](api-incident.md) | Executar chamadas de API relacionadas a incidentes, como: listar incidentes, atualizar incidente e mais.

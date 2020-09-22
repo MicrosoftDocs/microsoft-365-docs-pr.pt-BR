@@ -18,14 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: Projetar sites de equipe isolados do SharePoint Online, incluindo determinar níveis de permissão, atribuir permissões a usuários com grupos de acesso e grupos aninhados do Azure AD.
-ms.openlocfilehash: d26f55d9e037d86eac28e5cf21c56406eae5cc19
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 035952c1921443d86602eb94e3965acee86ae3e8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653000"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203114"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Projetar um site de equipe do SharePoint Online isolado
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Resumo:** Percorra o processo de design para sites de equipe isolados do SharePoint Online.
 
@@ -35,11 +38,11 @@ Este artigo orienta as principais decisões de design que você deve fazer antes
 
 Todos os sites de equipe do SharePoint Online por padrão são criados com os seguintes grupos do SharePoint:
 
-- \<site name>Integra
+- \<site name> Integra
 
-- \<site name>Possam
+- \<site name> Possam
 
-- \<site name>Aos
+- \<site name> Aos
 
 Esses grupos são separados dos grupos do Microsoft 365 e do Azure Active Directory (AD) e são a base para atribuir permissões para os recursos do site.
 
@@ -49,9 +52,9 @@ O conjunto de permissões específicas que determina o que um membro de um grupo
 
 |Grupo do SharePoint|Nível de permissão|
 |---|---|
-|\<site name>Integra|Editar|
-|\<site name>Possam|Ler|
-|\<site name>Aos|Controle total|
+|\<site name> Integra|Editar|
+|\<site name> Possam|Leitura|
+|\<site name> Aos|Controle total|
 |
 
  Práticas **recomendadas:** Você pode criar grupos adicionais do SharePoint e níveis de permissão. No entanto, recomendamos o uso dos grupos e níveis de permissão padrão do SharePoint para seu site isolado do SharePoint Online.
@@ -92,9 +95,9 @@ Para sites de equipe isolados do SharePoint Online, a estrutura de grupo recomen
 
 |Grupo do SharePoint|Grupo de acesso baseado no AD do Azure|Nível da permissão|
 |---|---|---|
-|\<site name>Integra|\<site name>Integra|Editar|
-|\<site name>Possam|\<site name>Visualizadores|Ler|
-|\<site name>Aos|\<site name>Administradores|Controle total|
+|\<site name> Integra|\<site name> Integra|Editar|
+|\<site name> Possam|\<site name> Visualizadores|Leitura|
+|\<site name> Aos|\<site name> Administradores|Controle total|
 |
 
  Práticas **recomendadas:** Embora você possa usar os grupos do Microsoft 365 ou do Azure AD como membros de grupos do SharePoint, recomendamos usar os grupos do Azure AD. Os grupos do Azure AD, gerenciados pelo AD DS ou pelo Microsoft 365, oferecem mais flexibilidade para usar grupos aninhados para atribuir permissões.

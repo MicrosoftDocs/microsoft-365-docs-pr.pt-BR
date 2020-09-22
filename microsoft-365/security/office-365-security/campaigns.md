@@ -17,14 +17,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: 60ec8ea1d2c164905e7b57f4b518ea3f80e7986c
-ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
+ms.openlocfilehash: 881dcde1157877eb015d9700bcbcd08fd3336192
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48173303"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203474"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Modos de Exibição de Campanha no Office 365 ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 O modo de exibição de campanha é um recurso do plano de proteção avançada contra ameaças (ATP) 2 (por exemplo, Microsoft 365 E5 ou organizações com um complemento plano 2). Os modos de exibição de campanha no centro de conformidade & segurança identifica e categoriza os ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
 
@@ -126,7 +129,7 @@ As propriedades de campanha disponíveis são descritas na lista a seguir:
   - **Sender**
   - **Destinatários**
   - **Domínio do remetente**
-  - **Assunto**
+  - **Subject**
   - **Nome do arquivo anexo**
   - **Família de malware**
   - **Ação de entrega**

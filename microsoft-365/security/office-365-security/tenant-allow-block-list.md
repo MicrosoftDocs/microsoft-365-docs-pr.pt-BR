@@ -15,14 +15,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a configurar entradas de URL na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: 888a96f23daf2cf47847466ad4080f310be7f9b4
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: eb9dcc5b239aae1366a0a2e0eebd68b3f0082e6b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845937"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202334"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na Lista de Permissões/Bloqueios de Locatários
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > Os recursos descritos neste tópico estão em visualização, estão sujeitos a alterações e não estão disponíveis em todas as organizações.
@@ -432,7 +435,7 @@ As entradas a seguir são inválidas:
   - contoso
   - \*contoso.\*
   - \*. com
-  - \*.pdf
+  - \*. pdf
 
 - **Curinga no texto ou sem caracteres de espaçamento**:
 

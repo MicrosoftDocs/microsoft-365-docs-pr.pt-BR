@@ -16,14 +16,17 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger os usuários de emails ofensivos, indesejados ou mal-intencionados.
-ms.openlocfilehash: 5b815678fc7462df5448447624d6f7c0c63d6eb6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b971823201fb805c9e17da8402250065d274668d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949651"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202370"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Referência: políticas, práticas e diretrizes
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 A Microsoft é dedicada a ajudar a fornecer a experiência de usuário mais confiável na Web. Portanto, a Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger os usuários de emails ofensivos, indesejados ou mal-intencionados. Os remetentes que tentam enviar emails para os usuários devem garantir que eles compreendam totalmente e estejam seguindo as orientações deste artigo para ajudar nesse esforço e para ajudar a evitar possíveis problemas de entrega.
 

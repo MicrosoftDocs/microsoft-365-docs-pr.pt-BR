@@ -15,14 +15,17 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: c44b0a535e6838258d3efa63010d7ccc63009af9
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 2f1d6a1dccfaece6a52ec33fd86ea244fbb6c4fe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804830"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202442"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Exibir ações de correção pendentes ou concluídas após uma investigação automatizada no Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 
 ![Página de ação de investigações aéreas](../../media/air-investigationactionspage.png)
@@ -36,7 +39,7 @@ Ao exibir os [detalhes de uma investigação](air-view-investigation-results.md)
 
 1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
 
-2. Vá para **Threat management** > **investigações**de gerenciamento de ameaças.
+2. Vá para investigações de **Gerenciamento de ameaças**  >  **Investigations**.
 
 3. Na lista de investigações, selecione um item na coluna **ID** . 
 

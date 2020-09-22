@@ -14,14 +14,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a aplicar as configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: a2f0472d8dd44c90fd5db14e71d2db0d5d323b50
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 35be2b1ebfcf7ef8b7aad5cc2d4b3dd7032806b2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825252"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202598"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Políticas de segurança predefinidas no EOP e no Office 365 ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 As políticas de segurança predefinidas fornecem um local centralizado para aplicar todas as políticas recomendadas de spam, malware e phishing aos usuários de uma só vez. As configurações de política não são configuráveis. Em vez disso, eles são definidos por nós e são baseados em observações e experiências nos data centers para obter um equilíbrio entre manter o conteúdo prejudicial longe dos usuários sem interromper o trabalho.
 
