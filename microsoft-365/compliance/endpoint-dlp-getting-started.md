@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 43ab2a30570f153f16819ede2eeed1f0e091da74
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 08e2bd43b4337087b401244b7dc4cf80a26aaf06
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949841"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131665"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)
 
@@ -90,7 +90,7 @@ Certifique-se de que os dispositivos Windows 10 que você pretende implantar o E
 
 Se você quiser que os dispositivos integrados ainda não estejam integrados, baixe o script apropriado e distribua-o a esses dispositivos. Siga o [Procedimento de integração de dispositivos](endpoint-dlp-getting-started.md#onboarding-devices).
 
-Se você já tiver dispositivos integrados na [Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/), eles já serão exibidos na lista dispositivos gerenciados. Siga o [Procedimento com dispositivos integrados no MDATP](endpoint-dlp-getting-started.md#with-devices-onboarded-into-mdatp).
+Se você já tiver dispositivos integrados na [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), eles já serão exibidos na lista dispositivos gerenciados. Siga [Com dispositivos integrados no procedimento Microsoft Defender para Ponto de Extremidade](endpoint-dlp-getting-started.md#with-devices-onboarded-into-microsoft-defender-for- endpoint).
 
 ### <a name="onboarding-devices"></a>Dispositivos de integração
 
@@ -109,7 +109,7 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
 5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
 
    ![método de implementação](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos MDATP que correspondem ao pacote de implantação selecionado na etapa 5:
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos do Microsoft Defender para Ponto de Extremidade que correspondem ao pacote de implantação selecionado na etapa 5:
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
     - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
@@ -121,16 +121,16 @@ Uma vez que o ponto de extremidade está integrado, ele deve estar visível na l
 > [!NOTE]
 > Esta experiência está na imposição da licença. Sem a licença necessária, os dados não estarão visíveis nem acessíveis.
 
-### <a name="with-devices-onboarded-into-mdatp"></a>Com dispositivos integrados no MDATP
+### <a name="with-devices-onboarded-into-microsoft-defender-for-endpoint"></a>Com dispositivos integrados no Microsoft Defender para Ponto de Extremidade.
 
-Neste cenário, MDATP já está implantado e há relatórios de pontos de extremidade no. Todos esses pontos de extremidade serão exibidos na lista dispositivos gerenciados. Você pode continuar a integrar novos dispositivos no ponto de extremidade DLP para expandir a cobertura usando o[Procedimento de integração de dispositivos](endpoint-dlp-getting-started.md#onboarding-devices).
+Neste cenário, o Microsoft Defender para Ponto de Extremidade já está implantado e há relatórios de pontos de extremidade. Todos esses pontos de extremidade serão exibidos na lista dispositivos gerenciados. Você pode continuar a integrar novos dispositivos no ponto de extremidade DLP para expandir a cobertura usando o[Procedimento de integração de dispositivos](endpoint-dlp-getting-started.md#onboarding-devices).
 
 1. Abra o [Centro de conformidade do Microsoft](https://compliance.microsoft.com).
 2. Abra a página de configurações do Centro de conformidade e escolha **Habilitar o monitoramento de dispositivos**.
-3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. Você deverá ver a lista de dispositivos que já estão relatando para o MDATP. ![gerenciamento de dispositivos](../media/endpoint-dlp-getting-started-2-device-management.png)
+3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. Você deverá ver a lista de dispositivos que já estão relatando para o Microsoft Defender para Ponto de Extremidade. ![gerenciamento de dispositivos](../media/endpoint-dlp-getting-started-2-device-management.png)
 4. Escolha **Integração**, caso precise integrar dispositivos adicionais.
 5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
-6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos MDATP que correspondem ao pacote de implantação selecionado na etapa 5:
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos do Microsoft Defender para Ponto de Extremidade que correspondem ao pacote de implantação selecionado na etapa 5:
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
     - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel

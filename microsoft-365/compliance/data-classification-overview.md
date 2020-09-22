@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: aff6d2c30fe8036448a8816426896f080b86b9e6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 725dc5d2e9e5cf0638a54c5ee46d77b321ae4796
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948501"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131719"
 ---
 # <a name="know-your-data---data-classification-overview"></a>Conheça seus dados - visão geral da classificação de dados
 
@@ -34,7 +34,7 @@ Como administrador de conformidade ou administrador do Microsoft 365, você pode
 - os locais onde estão os seus dados confidenciais e retidos
 
 Você também gerencia esses recursos na página de classificação de dados:
-- [classificadores treináveis](classifier-getting-started-with.md)
+- [classificadores treináveis](classifier-learn-about.md)
 - [tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
 
 Você pode encontrar a classificação de dados no **Centro de conformidade do Microsoft 365** ou no **Centro de segurança do Microsoft 365** > **Classificação**  >  ** Classificação de Dados**.
@@ -137,4 +137,4 @@ O objetivo do relatório de classificação de dados é fornecer visibilidade so
 - [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
 - [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
-- [Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md)
+- [Saiba mais sobre classificadores treináveis (visualização)](classifier-learn-about.md)

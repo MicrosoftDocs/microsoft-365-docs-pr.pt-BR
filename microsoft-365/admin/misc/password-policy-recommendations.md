@@ -19,15 +19,15 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Aprenda a tornar a sua organização mais segura contra ataques de senha e por que você deve bloquear senhas comuns e habilitar a autenticação multifator baseada em risco.
-ms.openlocfilehash: 1d6e399acb83751ec6a45eb0c811dedec394127e
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 0ae26dc27cc698c24d999acde03f63f9cfead081
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015918"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131937"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
- 
+
 Como administrador de uma organização, você é responsável por definir a política de senha para usuários em sua organização. Definir a política de senha pode ser complicado e confuso, e este artigo fornece recomendações para tornar a sua organização mais segura contra ataques de senha.
   
 Para determinar a frequência com que as senhas do Microsoft 365 expiram em sua organização, confira [Definir política de expiração de senha para o Office 365](../manage/set-password-expiration-policy.md).
@@ -78,11 +78,11 @@ Essas são algumas das práticas de gerenciamento de senhas mais usadas, mas a p
   
 ### <a name="password-expiration-requirements-for-users"></a>Requisitos de expiração de senha para usuários
 
-Os requisitos de expiração de senha causam mais danos do que bem, porque fazem com que os usuários selecionem senhas previsíveis, compostas por palavras e números sequenciais intimamente relacionados entre si. Nesses casos, a próxima senha poderá ser prevista com base na senha anterior. Os requisitos de expiração de senha não oferecem benefícios de contenção, porque os cibercriminosos quase sempre usam credenciais assim que os comprometem.
+Os requisitos de expiração de senha causam mais danos do que bem, porque fazem com que os usuários selecionem senhas previsíveis, compostas por palavras e números sequenciais intimamente relacionados entre si. Nesses casos, a próxima senha poderá ser prevista com base na senha anterior. Os requisitos de expiração de senha não oferecem benefícios de contenção, porque os cibercriminosos quase sempre usam credenciais assim que os comprometem. Confira [Hora de repensar as alterações de senha obrigatórias](https://go.microsoft.com/fwlink/p/?linkid=861018) para obter mais informações.
   
 ### <a name="requiring-long-passwords"></a>Exigir senhas longas
 
-Os requisitos de tamanho da senha (maiores que cerca de 10 caracteres) podem resultar em comportamento do usuário previsível e indesejável. Por exemplo, os usuários que precisam ter uma senha de 16 caracteres podem escolher padrões de repetição como **quatroquatroquatroquatro** ou **senhasenha** que atendem aos requisitos de comprimento de caractere, mas não são difíceis de adivinhar. Além disso, os requisitos de tamanho aumentam as chances de os usuários adotar outras práticas inseguras, como anotar suas senhas, reutilizá-las ou armazená-las descriptografadas em seus documentos. Para incentivar os usuários a pensar em uma senha exclusiva, recomendamos manter um requisito de comprimento mínimo de 8 caracteres. 
+Os requisitos de tamanho da senha (maiores que cerca de 10 caracteres) podem resultar em comportamento do usuário previsível e indesejável. Por exemplo, os usuários que precisam ter uma senha de 16 caracteres podem escolher padrões de repetição como **quatroquatroquatroquatro** ou **senhasenha** que atendem aos requisitos de comprimento de caractere, mas não são difíceis de adivinhar. Além disso, os requisitos de tamanho aumentam as chances de os usuários adotar outras práticas inseguras, como anotar suas senhas, reutilizá-las ou armazená-las descriptografadas em seus documentos. Para incentivar os usuários a pensar em uma senha exclusiva, recomendamos manter um requisito de comprimento mínimo de 8 caracteres.
   
 ### <a name="requiring-the-use-of-multiple-character-sets"></a>Exigir o uso de vários conjuntos de caracteres
 
@@ -131,8 +131,6 @@ A autenticação multifatorial baseada em risco garante que, quando o sistema de
 - [Hora de repensar as alterações de senha obrigatórias](https://go.microsoft.com/fwlink/p/?linkid=861018)
 
 - [As piores Senhas do 2015](https://go.microsoft.com/fwlink/p/?linkid=861020)
-
-- [Baixar arquivos da Web](https://go.microsoft.com/fwlink/p/?linkid=861029)
 
 ## <a name="related-articles"></a>Artigos relacionados
 

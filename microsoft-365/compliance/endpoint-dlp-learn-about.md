@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do ponto de extremidade da Microsoft 365 estende o monitoramento de atividades de arquivo e ações de proteção para os pontos de extremidade desse arquivo. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: 2423f45fefe994fbaf5704074c49ce862a59340e
-ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
+ms.openlocfilehash: 7403f20fa7c97c63be0e5001e8d3f5b37b409eee
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46517492"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131543"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade da Microsoft 365 (visualização)
 
@@ -120,7 +120,7 @@ Por exemplo, se um arquivo for copiado para uma mídia USB removível, você ver
 - nome do dispositivo
 - Tipo de local de destino
 - aplicativo que executou a cópia
-- ID do dispositivo MDATP (se aplicável)
+- ID de dispositivo do Microsoft Defender para Ponto de Extremidade (se aplicável)
 - fabricante do dispositivo de mídia removível
 - modelo do dispositivo de mídia removível
 - número de série do dispositivo de mídia removível
