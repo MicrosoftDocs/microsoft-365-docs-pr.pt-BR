@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Os administradores podem saber mais sobre o relatório de mensagens de encaminhamento automático no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: e9e3a0159671dd4ce62f4fa0b07b7162807fe0e6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b5255a95718fa6624c85e93a19c8accf9c3dcdb2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949851"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199354"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Informações de encaminhamento automático de mensagens no centro de conformidade & segurança
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 As **mensagens de encaminhamento automático** no painel de [fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade de & de segurança](https://protection.office.com) exibem informações sobre as mensagens que são automaticamente encaminhadas da sua organização para destinatários em domínios externos.
 

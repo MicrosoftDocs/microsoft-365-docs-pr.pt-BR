@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5b62ba22fc765c0f6f3febe00cc5043d37619acf
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: e80d8143898a31f7ae08b2cb1cf9b0eb2fc8bb8e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650107"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198662"
 ---
 # <a name="overview-of--microsoft-threat-protection-apis"></a>Visão geral das APIs de proteção contra ameaças da Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft

@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como a compreensão da inteligência de falsificação funciona, incluindo como determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f04baca3761e44acfd26c09cdc0d5283db13697
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: 6fc934491606a53ebfb4bae4f46ab9e1ee93467b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726508"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198566"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough-visão geral da inteligência de fraudes ATP no Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações Microsoft 365 com a proteção avançada contra ameaças (ATP), você pode usar a compreensão de inteligência de falsificação para determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados. Ao permitir que eles enviem mensagens falsificadas, você pode reduzir o risco de qualquer falso positivo para os seus usuários. Você também pode usar a compreensão de inteligência de falsificação para monitorar e gerenciar os pares de domínio permitidos para fornecer uma camada adicional de segurança e impedir que mensagens não seguras cheguem à sua organização.
 
@@ -33,7 +36,7 @@ Se você for novo para [relatórios e insights no centro de conformidade e segur
 
 Este passo a passo é um dos vários para o centro de conformidade de & de segurança. Para sobre como navegar por relatórios e insights, consulte as orientações na seção Tópicos relacionados.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página do **painel de segurança** , use <https://protection.office.com/searchandinvestigation/dashboard> .
 
@@ -41,10 +44,10 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
 - Você precisa receber permissões antes de executar os procedimentos deste tópico. Para usar o spoof Intelligence percepção, você precisa ser membro de um dos seguintes grupos de função:
 
-  - **Gerenciamento da organização** ou **administrador de segurança** no centro de conformidade de & de [segurança](permissions-in-the-security-and-compliance-center.md).
-  - Gerenciamento da **organização** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
-  - **Leitor de segurança** no [centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organização somente para exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+  - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+  - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Você habilita e desabilita a inteligência de spoof em políticas anti-phishing da ATP. Para obter mais informações, consulte [Configure ATP anti-phishing Policies in Microsoft 365](configure-atp-anti-phishing-policies.md).
 
@@ -68,7 +71,7 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
    - **Modo de percepção**. Se você tiver uma política de falsificação habilitada, a percepção mostrará quantas mensagens foram impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
 
-   - **Se Mode**. Se você não tiver uma política de falsificação habilitada, a percepção mostrará a você quantos emails *teriam* sido afetados por nossos recursos de inteligência de fraude nos últimos 30 dias.
+   - **Se Mode**. Se você não tiver uma política de falsificação habilitada, a percepção mostrará a você quantos emails  *teriam*  sido afetados por nossos recursos de inteligência de fraude nos últimos 30 dias.
 
    De qualquer forma, os domínios falsificados exibidos na percepção são separados em duas categorias: **pares de domínios suspeitos** e **pares de domínios não suspeitos**. Essas categorias são subdivididas em três buckets diferentes para revisão.
 
@@ -102,7 +105,7 @@ Você adiciona ou remove um domínio da lista de remetentes confiáveis do Allow
 
 Isso modifica a combinação exclusiva de par de domínio do domínio falsificado e da infraestrutura de envio e não fornece cobertura para todo o domínio falsificado ou para a infraestrutura de envio isoladamente.
 
-Por exemplo, se você adicionar o seguinte par de domínios à lista de permissões de remetente "AllowedToSpoof": *domínio falsificado* "gmail.com" e de *envio de infraestrutura* "TMS *. MX.com",* somente os emails desse par de domínio poderão ser falsificados. Outros remetentes que tentam falsificar "gmail.com" e outros domínios que "tms.mx.com" tentam falsificar continuarão a ser protegidos por spoof Intelligence.
+Por exemplo, se você adicionar o seguinte par de domínios à lista de permissões de remetente "AllowedToSpoof":  *domínio falsificado*  "gmail.com" e de *envio de infraestrutura* "TMS *. MX.com",* somente os emails desse par de domínio poderão ser falsificados. Outros remetentes que tentam falsificar "gmail.com" e outros domínios que "tms.mx.com" tentam falsificar continuarão a ser protegidos por spoof Intelligence.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

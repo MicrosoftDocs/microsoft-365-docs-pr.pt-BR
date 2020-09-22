@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4ebf220472db69d48127b805256e15246bd400cb
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 14785e032d6e4a7a0868308f4029df623456af2a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552723"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197888"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Executar ações nos resultados da consulta de busca avançada
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -55,10 +58,10 @@ Para saber mais sobre como essas ações de resposta são executadas por meio do
 ## <a name="quarantine-files"></a>Arquivos de quarentena
 Você pode implantar a ação de *quarentena* nos arquivos para que eles sejam automaticamente colocados em quarentena quando encontrados. Ao selecionar essa ação, você pode escolher entre as seguintes colunas para identificar quais arquivos da sua consulta resultam em quarentena:
 
-- `SHA1`— Na maioria das tabelas de caça avançadas, este é o SHA-1 do arquivo que foi afetado pela ação gravada. Por exemplo, se um arquivo foi copiado, esse será o arquivo copiado.
-- `InitiatingProcessSHA1`— Na maioria das tabelas de busca avançada, este é o arquivo responsável por iniciar a ação gravada. Por exemplo, se um processo filho foi iniciado, esse seria o processo pai. 
-- `SHA256`— Este é o equivalente SHA-256 do arquivo identificado pela `SHA1` coluna.
-- `InitiatingProcessSHA256`— Este é o equivalente SHA-256 do arquivo identificado pela `InitiatingProcessSHA1` coluna.
+- `SHA1` — Na maioria das tabelas de caça avançadas, este é o SHA-1 do arquivo que foi afetado pela ação gravada. Por exemplo, se um arquivo foi copiado, esse será o arquivo copiado.
+- `InitiatingProcessSHA1` — Na maioria das tabelas de busca avançada, este é o arquivo responsável por iniciar a ação gravada. Por exemplo, se um processo filho foi iniciado, esse seria o processo pai. 
+- `SHA256` — Este é o equivalente SHA-256 do arquivo identificado pela `SHA1` coluna.
+- `InitiatingProcessSHA256` — Este é o equivalente SHA-256 do arquivo identificado pela `InitiatingProcessSHA1` coluna.
 
 Para saber mais sobre como as ações de quarentena são tomadas e como os arquivos podem ser restaurados, [Leia sobre as ações de resposta nos arquivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts).
 
@@ -74,7 +77,7 @@ Para executar qualquer uma das ações descritas, selecione um ou mais registros
 Cada ação é registrada individualmente na [central de ações](mtp-action-center.md) , em histórico da **central de ações**  >  **History** ([Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Vá para a central de ações para verificar o status de cada ação.
  
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da caça avançada](advanced-hunting-overview.md)
+- [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)

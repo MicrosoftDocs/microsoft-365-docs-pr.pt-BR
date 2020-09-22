@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8b69d114b1387a1ef76d962424149c1db93ce04
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5f9f1a6cc250fdd336e48c19c6cb5d73e9a05800
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656618"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197218"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre anexos seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -48,7 +51,7 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
 
   ****
 
-  |Role|Onde/como a atribuição|
+  |Função|Onde/como a atribuição|
   |---|---|
   |administrador global |Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
   |Administrador de Segurança |Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
@@ -95,8 +98,8 @@ Considere configurar várias políticas de anexos seguros de ATP para sua organi
 
 |Opção|Efeito|Use quando quiser:|
 |---|---|---|
-|**Desabilitado**|Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens|Desligar a verificação para destinatários selecionados.  <br/> Evitar atrasos desnecessários no roteamento de email interno.  <br/> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros de ATP para destinatários que recebem emails de remetentes confiáveis.**|
-|**Monitor**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado|Veja onde o malware detectado entra em sua organização|
+|**Desativar**|Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens|Desligar a verificação para destinatários selecionados.  <br/> Evitar atrasos desnecessários no roteamento de email interno.  <br/> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros de ATP para destinatários que recebem emails de remetentes confiáveis.**|
+|**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado|Veja onde o malware detectado entra em sua organização|
 |**Bloquear**|Impede que mensagens com anexos de malware detectados continuem  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> Bloqueia automaticamente mensagens e anexos futuros|Proteger sua organização de ataques repetidos usando os mesmos anexos de malware|
 |**Replace**|Remove anexos detectados de malware  <br/> Notifica os destinatários de que os anexos foram removidos  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens|Aumentar a visibilidade dos destinatários que os anexos foram removidos devido a um malware detectado|
 |**Entrega dinâmica**|Entrega mensagens imediatamente  <br/> Substitui anexos por um arquivo de espaço reservado até que a verificação seja concluída e, em seguida, anexa novamente os anexos se nenhum malware for detectado  <br/> Inclui recursos de visualização de anexos para a maioria dos arquivos PDFs e do Office durante a verificação  <br/> Envia mensagens com malware detectado para colocar em quarentena onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> [Saiba mais sobre a entrega dinâmica e a visualização com anexos seguros de ATP](dynamic-delivery-and-previewing.md) <br/> |Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados  <br/> Habilitar destinatários para visualizar anexos no modo de segurança enquanto a verificação está ocorrendo|

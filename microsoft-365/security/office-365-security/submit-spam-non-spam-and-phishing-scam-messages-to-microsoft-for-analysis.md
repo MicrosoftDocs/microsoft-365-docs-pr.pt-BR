@@ -17,14 +17,17 @@ ms.collection:
 - M365-security-compliance
 description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails em bom estado marcados como inválidos ou incorretos) para a Microsoft para análise.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94f00f8399164a84d2cb9dae0c4c416b73dfb0dc
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 6673dc7e7ac263ea9f734c002d0ffac410fadc07
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827804"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202192"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente para a Microsoft para análise
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade do & de segurança. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).

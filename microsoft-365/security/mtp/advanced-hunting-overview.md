@@ -18,19 +18,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47035b5c988dba551948334c0c93d08b779c0d38
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 9b7e20daa3a5d642a864f9b24e836d3c75bbd7b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950731"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199848"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar eventos de forma proativa em sua rede para localizar indicadores de ameaça e entidades. O acesso flexível aos dados permite uma busca irrestrita para ameaças conhecidas e potenciais.
 <p></p>
@@ -68,7 +69,7 @@ As informações de tempo em busca avançada estão no fuso horário UTC.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
-- [Obter treinamento especializado](advanced-hunting-expert-training.md)
+- [Obtenha treinamento especializado](advanced-hunting-expert-training.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Entender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

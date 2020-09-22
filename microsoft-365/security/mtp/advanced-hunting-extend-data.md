@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 07c010a78d297a4a3c932c0d9a0e32cce0c43bfa
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 66e978b28f03e30cc2157aae2508874b73b01a40
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560902"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197972"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Estender a cobertura de busca avançada com as configurações corretas
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -48,5 +51,5 @@ Se você estiver executando o Active Directory no local, precisará instalar o s
 | Controlador de domínio | Dados do Active Directory local enviados para o Azure ATP, aprimorando informações relacionadas à identidade, como detalhes da conta, atividade de logon e consultas do Active Directory | Várias tabelas, incluindo [IdentityInfo](advanced-hunting-identityinfo-table.md), [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)e [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Instalar o sensor ATP do Azure](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)<br>- [Ativar eventos relevantes do Windows](https://docs.microsoft.com/azure-advanced-threat-protection/configure-event-collection) |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da caça avançada](advanced-hunting-overview.md)
+- [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)

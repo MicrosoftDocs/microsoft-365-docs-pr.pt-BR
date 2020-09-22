@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 222d7f12c1a648800e4a359eb341354a5609c548
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: d9650811a264992c20a1ed88939e06694373b25c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649374"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197698"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Trabalhar com resultados de consulta de busca avançada
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -148,10 +151,10 @@ Refine sua consulta selecionando os `+` `-` botões ou nos valores que você des
 Depois de aplicar o filtro para modificar e executar a consulta, os resultados serão atualizados de acordo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da caça avançada](advanced-hunting-overview.md)
+- [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)

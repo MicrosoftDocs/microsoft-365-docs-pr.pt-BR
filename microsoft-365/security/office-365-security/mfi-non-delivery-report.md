@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o relatório de detalhes de falha na entrega no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar os códigos de erro encontrados com mais frequência nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução) de remetentes em sua organização.
-ms.openlocfilehash: f9017a7f041037c5db2dc9b9f4f5155b038bf2c7
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: bc530cce54b3d4fd9f414920a8fb58f4322f6b5c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357405"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195959"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Notificação de falha na entrega no centro de conformidade e segurança &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 A notificação de falha na **entrega** no [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade de & de segurança](https://protection.office.com) mostra os códigos de erro mais encontrados em notificações de falha na entrega (também conhecidos como NDRs ou mensagens de devolução) para os usuários da sua organização. Este relatório mostra os detalhes dos NDRs para que você possa solucionar problemas de entrega de email.
 

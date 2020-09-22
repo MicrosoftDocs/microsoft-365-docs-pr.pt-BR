@@ -14,14 +14,17 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender como usar a correção de regras de fluxo de emails lentos no centro de conformidade de & de segurança para identificar e corrigir regras de fluxo de emails ineficientes ou desfeitas (também conhecidas como regras de transporte) em sua organização.
-ms.openlocfilehash: c933a6816c82161d0f4a6199ff1a339dd8a10eae
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 2f9a35534ab4377cff164b38eeb66dd55c48d5b9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357339"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199260"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Correção de regras de fluxo de email lentos no centro de conformidade e segurança &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Regras de fluxo de emails ineficientes (também conhecidas como regras de transporte) podem levar a atrasos de fluxo de emails para sua organização. Esta percepção relata regras de fluxo de emails que afetam o fluxo de email da sua organização. Exemplos desses tipos de regras incluem:
 

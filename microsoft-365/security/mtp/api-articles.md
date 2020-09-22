@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8a866e08d9aa098e484d3738159217511fcbfc0b
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: c0bd20ee9b100fcdc53ebf2e5d755ca38c6df545
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650130"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197746"
 ---
 # <a name="additional-protection-apis"></a>APIs de proteção adicionais
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -38,4 +41,4 @@ Os seguintes recursos fornecem mais informações sobre outras APIs disponíveis
 
 - [Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
 - [Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/office/office-365-management-api/)
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/api-introduction)
+- [Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security/api-introduction)

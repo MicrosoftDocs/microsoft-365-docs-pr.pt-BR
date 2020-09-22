@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d0fd359bb6f56f7c20b0a39b7fd45ec551e7e49e
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 3fc563c762e7cd00888665b63e66159e4d3d9612
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797777"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196972"
 ---
 # <a name="fileprofile"></a>FileProfile()
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -84,7 +87,7 @@ DeviceFileEvents
 ```
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da caça avançada](advanced-hunting-overview.md)
+- [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Obter mais exemplos de consulta](advanced-hunting-shared-queries.md)

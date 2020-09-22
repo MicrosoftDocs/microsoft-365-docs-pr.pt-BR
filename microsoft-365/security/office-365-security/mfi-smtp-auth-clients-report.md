@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar a percepção e o relatório de autenticação SMTP no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar remetentes de email em sua organização que usam SMTP autenticado (autenticação SMTP) para enviar mensagens de email.
-ms.openlocfilehash: 4123edcfa08e31217dcd6a29186492bc036fa7a0
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 7ca673e5ecc92c28996a976c26a38ae570f16203
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357429"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199236"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Clientes de autenticação SMTP percepção e relatório no centro de conformidade e segurança &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Os **clientes de autenticação SMTP** se aprofundam no [painel de fluxo de emails](mail-flow-insights-v2.md) e no [relatório de clientes de autenticação SMTP](#smtp-auth-clients-report) associado no [centro de conformidade & de segurança](https://protection.office.com) realçar o uso do protocolo de envio de cliente de autenticação SMTP por usuários ou contas de sistema em sua organização. Este protocolo herdado (que usa o ponto de extremidade smtp.office365.com) só oferece autenticação básica e é suscetível a uso por contas comprometidas para enviar emails. A percepção e o relatório permitem verificar se há atividades incomuns para envios de email de autenticação SMTP. Ele também mostra os dados de uso de TLS para clientes ou dispositivos que usam a autenticação SMTP.
 

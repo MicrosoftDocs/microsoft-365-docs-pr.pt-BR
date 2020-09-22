@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b9afecb3d0efce93ae5d5725bba71d8d9719d17f
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 496deff5d2fda47b7ffac4bc87e98bf28e90ea50
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430406"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196960"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Busca rápida de informações de entidade ou de evento com busca no go
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -37,7 +40,7 @@ A ação ir para a *busca* está disponível em várias seções da central de s
 
     ![Imagem mostrando os detalhes da caixa de correio com a opção ir para a busca](../../media/mtp-ah/go-hunt-email.png)
 
-- Na página incidente, você também pode acessar uma lista de entidades sob a guia evidência. selecionar uma dessas entidades oferece uma opção de busca rápida de informações sobre essa entidade.
+- Na página incidente, você também pode acessar uma lista de entidades na guia evidência. Selecionar uma dessas entidades oferece uma opção de busca rápida de informações sobre essa entidade.
 
     ![Imagem mostrando o arquivo selecionado com a opção ir para a busca na guia evidência](../../media/mtp-ah/go-hunt-evidence-file.png)
 
@@ -102,7 +105,7 @@ Além de modificar a consulta para obter resultados mais relevantes, você tamb�
 - [Criar uma regra de detecção personalizada](custom-detection-rules.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da caça avançada](advanced-hunting-overview.md)
+- [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Regras de detecção personalizadas](custom-detection-rules.md)

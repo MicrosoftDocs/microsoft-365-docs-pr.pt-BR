@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviço para proteger suas informações e aderir às regulamentações de privacidade de dados.
-ms.openlocfilehash: 640ce075515c687c037cb0e4ab3e03e3beda81dc
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 2b249b3b43f1b520e42be4b6e5f9d684c718dc79
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522284"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195634"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Implantar a proteção de informações para regulamentações de privacidade de dados com o Microsoft 365
 
@@ -30,7 +30,7 @@ Sua organização pode estar sujeita às normas de privacidade de dados regionai
 
 Exemplos de tipos de dados no Microsoft 365 incluem sessões de chat no Microsoft Teams, emails no Exchange e arquivos no SharePoint e no OneDrive. Esta solução fornece orientações sobre como identificar, localizar, proteger, controlar e responder a incidentes de privacidade de dados para dados pessoais armazenados nos serviços do Microsoft 365 que estão sujeitos às regulamentações de privacidade de dados.
 
-![Implantar a proteção de informações para os regulamentos de privacidade de dados](../media/information-protection-deploy/information-protection-deploy-big-picture.png)
+![Implantar a proteção de informações dos regulamentos da privacidade de dados](../media/information-protection-deploy/information-protection-deploy-big-picture.png)
 
 Também são fornecidas informações adicionais sobre o uso dos controles de proteção de identidade, dispositivo e ameaça da Microsoft 365 para suas necessidades de privacidade de dados. 
 
@@ -38,8 +38,7 @@ Para atender aos critérios de proteção de informações para conformidade com
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
-| Gerente de Conformidade | Gerencie as atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft com esta ferramenta de avaliação de risco baseada em fluxo de trabalho no Portal de Confiança do Serviço da Microsoft. | Microsoft 365 E3 e E5 |
-| Pontuação de Conformidade (visualização) | Veja uma pontuação geral da configuração de conformidade atual e recomendações para melhorá-la no Centro de Conformidade do Microsoft 365. | Microsoft 365 E3 e E5 |
+| Gerente de Conformidade | Gerenciar atividades de conformidade normativa, obter uma pontuação geral da configuração atual de conformidade e encontrar recomendações para melhorias nessa ferramenta de avaliação de riscos baseada em fluxo de trabalho no centro de conformidade da Microsoft 365. | Microsoft 365 E3 e E5 |
 | Proteção Avançada contra Ameaças do Office (ATP) | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. | Microsoft 365 E3 e E5 | 
 | Rótulos de confidencialidade | Classifique e proteja os dados da organização sem atrapalhar a produtividade e a capacidade de colaboração dos usuários, colocando rótulos com vários níveis de proteção em emails, arquivos ou sites. | Microsoft 365 E3 e E5 |
 | Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou impróprio, como o compartilhamento de dados com informações pessoais, interna e externamente. | Microsoft 365 E3 e E5 | 
@@ -51,7 +50,7 @@ Para atender aos critérios de proteção de informações para conformidade com
 
 Para ajudá-lo a entender as ferramentas do Microsoft 365 disponíveis para identificar, gerenciar, controlar e monitorar dados pessoais sujeitos a uma ou mais normas relacionadas à privacidade, esta orientação é organizada em seções.
  
-![Implantar a proteção de informações para os regulamentos de privacidade de dados](../media/information-protection-deploy/information-protection-deploy-grid.png)
+![Implantar a proteção de informações dos regulamentos da privacidade de dados](../media/information-protection-deploy/information-protection-deploy-grid.png)
 
 Cada uma dessas seções corresponde a um artigo separado nesta solução.
 
@@ -68,13 +67,13 @@ Avaliar as normas e os riscos de privacidade de dados em que sua organização e
 
 Para obter mais informações, consulte [avaliar riscos de privacidade de dados e identificar itens confidenciais](information-protection-deploy-assess.md).
 
-## <a name="track-use-compliance-score-and-compliance-manager"></a>Track: usar a pontuação de conformidade e o gerente de conformidade 
+## <a name="track-use-compliance-manager"></a>Track: usar o gerente de conformidade
 
-A pontuação de conformidade e o gerente de conformidade oferecem um conjunto integrado de ferramentas disponíveis no portal de confiança do centro de administração de conformidade e serviços do Microsoft 365. Juntas, essas ferramentas oferecem uma capacidade interna de rastrear e gerenciar ações de melhorias gerais, bem como aquelas relacionadas a diversas regulamentações de privacidade de dados às quais você está sujeito.
+O Gerenciador de conformidade, disponível no centro de conformidade da Microsoft 365, fornece uma capacidade interna de rastrear e gerenciar ações de melhorias gerais, bem como aquelas relacionadas a várias leis de privacidade de dados que se aplicam a você.
 
-As ferramentas também permitem que você utilize modelos de avaliação internos específicos para cada regulamentação, onde você pode rastrear itens de ação para cada modelo de avaliação selecionado, bem como exibir controles regulatórios específicos e relacioná-los a ações específicas.
+Aproveite os modelos de avaliação internos específicos para cada regulamentação, onde você pode rastrear itens de ação para cada modelo de avaliação selecionado, bem como para exibir controles regulatórios específicos e relacioná-los a ações específicas.
 
-Para saber mais, confira [usar o placar de conformidade e o Gerenciador de conformidade para gerenciar ações de melhoria](information-protection-deploy-compliance.md).
+Para obter mais informações, consulte [usar o Gerenciador de conformidade para gerenciar ações de melhoria](information-protection-deploy-compliance.md).
 
 ## <a name="prevent-use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Impedir: usar a proteção de identidade, dispositivo e ameaça para a regulamentação de privacidade de dados
 

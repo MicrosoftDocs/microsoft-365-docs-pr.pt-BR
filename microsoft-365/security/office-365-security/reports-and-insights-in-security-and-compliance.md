@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os relatórios inteligentes e insights disponíveis no centro de conformidade do & de segurança e como usá-los para exibir e explorar dados e realizar ações rápidas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d100aca53f3683d477fd15469ae53ecb7a2901b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 7f8094c46868118bb88858dab6cd12b2427382be
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652772"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196330"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Relatórios inteligentes e insights no Centro de Conformidade e Segurança
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Se você fizer parte da equipe de segurança do Microsoft para 365 para empresas da sua organização e tiver as [permissões necessárias atribuídas no centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md), poderá acessar uma variedade de relatórios, incluindo relatórios inteligentes e insights. Leia este artigo para obter uma visão geral desses relatórios e insights e onde ir para saber mais sobre relatórios específicos.
 

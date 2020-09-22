@@ -20,14 +20,17 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ace9ab8e5b73e4a4310b476c8954b0be81faaa66
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 84d2a71f715c31560f6376464bf9da25cc8d58b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962318"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198626"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Lidar com falsos positivos/negativos em recursos de investigação e resposta automatizados
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -53,7 +56,7 @@ Use este artigo como uma guia.
 
 |Cenário |Serviço |O que fazer |
 |--------|--------|--------|
-|-Um alerta é disparado por uso legítimo <br/>-Um alerta é impreciso    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
+|-Um alerta é disparado por uso legítimo <br/>-Um alerta é impreciso    |[Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
 |Um arquivo, um endereço IP, uma URL ou um domínio é tratado como um malware em um dispositivo, mesmo que seja seguro|[Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) |[Criar um indicador personalizado com uma ação "permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 

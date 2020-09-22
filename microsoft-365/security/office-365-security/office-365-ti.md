@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os recursos de investigação e resposta contra ameaças no plano de proteção avançada contra ameaças do Office 365.
-ms.openlocfilehash: 6c009a756b30d4b35159b98b145b19b72c9ab541
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: c37129c7c3801ab1e55bd59f9c40c9e65f9cbd8d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656666"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198428"
 ---
 # <a name="threat-investigation-and-response"></a>Investigação e resposta a ameaças
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Os recursos de investigação e resposta contra ameaças no [Office 365 proteção avançada contra ameaças](office-365-atp.md) ajudam os analistas e administradores de segurança a proteger o Microsoft 365 da organização para os usuários de negócios:
 - Facilitando a identificação, o monitoramento e a compreensão do cyberattacks
@@ -43,8 +46,8 @@ Recursos de investigação e resposta contra ameaças no centro de conformidade 
 - [Painel de ameaças](#threat-dashboard)
 - [Explorador](#threat-explorer)
 - [Incidentes](#incidents)
-- [Simulador de ataque](#attack-simulator)
-- [Investigação e resposta automatizadas](automated-investigation-response-office.md)
+- [Simulador de Ataque](#attack-simulator)
+- [Resposta e investigação automatizadas](automated-investigation-response-office.md)
 
 ### <a name="threat-dashboard"></a>Painel de ameaças
 
@@ -72,7 +75,7 @@ Para exibir a lista de incidentes atuais para sua organização, no centro de co
 
 ![No centro de conformidade & segurança, escolha análise de gerenciamento de ameaças \>](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
-### <a name="attack-simulator"></a>Simulador de ataque
+### <a name="attack-simulator"></a>Simulador de Ataque
 
 Use o simulador de ataques para configurar e executar o cyberattacks realista em sua organização e identificar pessoas vulneráveis antes que um cyberattack real afete sua empresa. Para saber mais, veja o [simulador de ataques no Office 365](attack-simulator.md).
 

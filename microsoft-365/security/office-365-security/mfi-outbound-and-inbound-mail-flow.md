@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Os administradores podem saber mais sobre as informações de saída e de fluxo de email de entrada no painel de fluxo de emails no centro de conformidade de & de segurança.
-ms.openlocfilehash: 87ea7faed2e2387c31fdb06abaf242a2a3aea76e
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 33bfe3882c274fa655d17c80aba007e8d246b250
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357417"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199296"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Percepção de fluxo de email de entrada e de saída no centro de conformidade e segurança &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 A percepção de **fluxo de email de entrada e de saída** no painel de fluxo de [emails](mail-flow-insights-v2.md) no [centro de conformidade e segurança &](https://protection.office.com) combina as informações do [relatório de conector](view-mail-flow-reports.md#connector-report) e o **relatório de visão geral de TLS** anterior em um só lugar.
 

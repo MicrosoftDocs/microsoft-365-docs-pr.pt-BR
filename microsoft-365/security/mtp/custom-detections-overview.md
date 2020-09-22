@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: cdbaf9cfd2172656ed75cb3c0a1a9e361070f25b
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: 28d6cca20c8b386d5e6f7f39b80264a39f88ec55
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498346"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199460"
 ---
 # <a name="custom-detections-overview"></a>Visão geral de detecções personalizadas
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -39,4 +42,4 @@ As detecções personalizadas fornecem:
 
 ## <a name="related-topic"></a>Tópico relacionado
 - [Criar e gerenciar regras de detecção personalizadas](custom-detection-rules.md)
-- [Visão geral da caça avançada](advanced-hunting-overview.md)
+- [Visão geral da busca avançada](advanced-hunting-overview.md)

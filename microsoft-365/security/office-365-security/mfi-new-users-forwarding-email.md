@@ -11,14 +11,17 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem aprender a usar os novos usuários que estão encaminhando informações de email no centro de conformidade de & de segurança para investigar quando os usuários de sua organização estão encaminhando mensagens para novos domínios.
-ms.openlocfilehash: 4d8c88cef182ab1c521d23970797e4746e188916
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 42f8c536f8a8a1421d97726c7af432c01d053b05
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357361"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200650"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Novos usuários encaminhando informações de email no centro de conformidade e segurança &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 É suspeito quando novas contas de usuário em sua organização começam a encaminhar mensagens de email para domínios externos de repente.
 
@@ -94,7 +97,7 @@ Se você selecionar uma linha da tabela, um submenu de **detalhes** aparecerá c
 
 - **Nome**: Este é o endereço de email do remetente (da exibição **Mostrar dados para: novos usuários de encaminhamento** ) ou o domínio de email do remetente (do **Mostrar dados para: novo** modo de exibição de domínios de encaminhamento).
 - **Tipo de encaminhamento**
-- **Recipiente**
+- **Recipient**
 - **Detalhes**
 - **Count**
 - **Data de início**

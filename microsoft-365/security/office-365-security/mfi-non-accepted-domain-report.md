@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar mensagens de sua organização local onde o domínio do remetente não está configurado no Microsoft 365.
-ms.openlocfilehash: 02692fbded20aa5062ce8add83925fb65c116630
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: d05489ec4a6d670fc89b5d943b3e7061506b6fe8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358573"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199320"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Relatório de domínio não aceito no centro de conformidade e segurança &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 O relatório de **domínio não aceito** no [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade & segurança](https://protection.office.com) exibe informações sobre as mensagens da sua organização de email local onde o domínio do remetente não está configurado como um domínio aceito na sua organização do Microsoft 365.
 

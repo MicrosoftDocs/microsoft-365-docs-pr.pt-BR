@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra spam no Exchange Online Protection (EOP).
-ms.openlocfilehash: ed871990cf5f8fc4e15995987312fc6814ab8296
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: d114c20a3a246eb0cd925b6783b10071d056443d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825168"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198602"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Este tópico fornece perguntas frequentes e respostas sobre a proteção antimalware para organizações do Microsoft 365 com caixas de correio no Exchange Online, ou organizações autônomas do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online.
 

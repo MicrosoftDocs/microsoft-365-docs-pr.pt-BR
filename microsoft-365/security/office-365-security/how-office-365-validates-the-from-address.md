@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre os tipos de endereços de email que são aceitos ou rejeitados pela proteção do Exchange Online (EOP) e o Outlook.com para ajudar a evitar phishing.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c67cf5855f2b0a99cf8d03bb6d7ba8557329b300
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e0afd05c80bb4de665d23b17c7089631dad93c78
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827416"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196054"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Como o EOP valida o endereço de para impedir o phishing
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Os ataques de phishing são uma ameaça constante para qualquer organização de email. Além de usar [endereços de email de remetente falsificados (forjados)](anti-spoofing-protection.md), os invasores freqüentemente usam valores no endereço de que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Exchange Online Protection (EOP) e o Outlook.com agora exigem mensagens de entrada para incluir um endereço de conformidade da RFC, conforme descrito neste tópico. Essa imposição foi habilitada em novembro de 2017.
 

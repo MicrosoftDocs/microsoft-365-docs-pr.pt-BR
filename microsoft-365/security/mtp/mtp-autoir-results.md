@@ -20,14 +20,17 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 62d33c57606aad81607164b1f068c6f6d91063c2
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 6d3ffd9f9e28bc190093c19ce9013f9aca12d60e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962294"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198856"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft

@@ -16,14 +16,17 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os valores de nível de conformidade em massa (BCL) usados no Exchange Online Protection (EOP).
-ms.openlocfilehash: e24c0c97afcca2e7aa014d929d7b2131c6a2d074
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: d59bb152de075bb807e3cae72839fe459d7da40f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827428"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203522"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>Nível de reclamação em massa (BCL) no EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP atribui um nível de conformidade em massa (BCL) a mensagens de entrada de emails em massa. A BCL é adicionada à mensagem em um cabeçalho X e é semelhante ao [nível de confiança de spam (SCL)](spam-confidence-levels.md) usado para identificar mensagens como spam. Uma BCL maior indica que uma mensagem em massa é mais provável de gerar queixas (e, portanto, é mais provável de spam). A Microsoft usa fontes internas e de terceiros para identificar emails em massa e determinar a BCL apropriada.
 

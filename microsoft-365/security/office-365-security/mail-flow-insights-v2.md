@@ -12,14 +12,17 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Os administradores podem saber mais sobre as ideias e os relatórios disponíveis no painel de fluxo de emails no centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 06e9449553d008bc383ae6f2b6098f9598cad43c
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 089c6351485712d841691d5b856b1ba28dfe4fc4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826560"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198476"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Os administradores podem usar o painel de fluxo de emails no centro de conformidade de & de segurança para descobrir tendências, insights e realizar ações para corrigir problemas relacionados ao fluxo de emails em sua organização.
 

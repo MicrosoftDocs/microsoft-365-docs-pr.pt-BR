@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Os administradores podem aprender a usar o widget filas no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar o fluxo de emails sem êxito em suas organizações locais ou de parceiros em relação a conectores de saída.
-ms.openlocfilehash: bcd78a50f017aae65e82185bf167ea7a227656fa
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 3291a21828215d0a2a99c2226147bb1b748b8469
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357383"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199284"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Informações sobre filas no centro de conformidade & segurança
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Quando as mensagens não podem ser enviadas da sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens são enfileiradas no Microsoft 365. Exemplos comuns que causam essa condição são:
 

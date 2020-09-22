@@ -13,14 +13,17 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
-ms.openlocfilehash: e8427f3e0341ccb381121b6cdc83d20727713d4c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 0d73ea1fe64cda3c3f29f7bd437bba4e93f37529
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307912"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198498"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de e-mails no EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você geralmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para rotear mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas são colocadas em fila no Microsoft 365. O Microsoft 365 continuará a entregar a entrega de cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará, e a mensagem será retornada ao remetente original em uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno).
 

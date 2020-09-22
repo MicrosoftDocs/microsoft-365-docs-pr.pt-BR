@@ -16,17 +16,20 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 2435a934065a06c8105f8ac4e0f80dcfbaed8f7f
-ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
+ms.openlocfilehash: 0bc7ada54c0ce67ccbe1fded5970853672e08c1b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997534"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201022"
 ---
 # <a name="configure-and-manage-microsoft-defender-atp-capabilities"></a>Configurar e gerenciar recursos do Microsoft defender ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **Aplica-se a:**
 
-- [Proteção avançada contra ameaças do Microsoft defender (Microsoft defender ATP)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
+- [Proteção Avançada contra Ameaças do Microsoft Defender (Microsoft Defender ATP)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
 Configure e gerencie todos os recursos do Microsoft defender ATP para obter a melhor proteção de segurança para sua organização. 
 

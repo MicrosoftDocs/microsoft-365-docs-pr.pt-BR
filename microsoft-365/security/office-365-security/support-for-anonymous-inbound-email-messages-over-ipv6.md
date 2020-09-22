@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: O administrador pode saber como configurar o suporte para emails de entrada anônimos de fontes IPv6 no Exchange Online e no Exchange Online Protection.
-ms.openlocfilehash: f2e14fe2e8e46d6085fc3764d3a41382f15049e9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: be226bf9814b0fcfadaaeb5b4bdda0ff133dd0c8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950289"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202144"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Adicionar suporte para email de entrada anônimo por IPv6 no Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 As organizações do Microsoft 365 com caixas de correio do Exchange Online e proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online dão suporte a emails de entrada anônimos por IPv6. O servidor de email IPv6 de origem deve cumprir os seguintes requisitos:
 

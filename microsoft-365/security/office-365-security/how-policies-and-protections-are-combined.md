@@ -16,14 +16,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a ordem de proteção de aplicativos na proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: 9556d2262eb59224357e20027a1f0e63404081f2
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e2da22bfbe0e7df70cf8d8b0d8cfd09eaf6e2ee3
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827404"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196042"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os emails de entrada podem ser sinalizados por várias formas de proteção. Por exemplo, as políticas anti-phishing internas do EOP que estão disponíveis para todos os clientes da Microsoft 365 e as políticas de anti-phishing mais robustas do ATP que também estão disponíveis para clientes do Office 365 Advanced Threat Protection (Office 365 ATP). As mensagens também passam por várias verificações de detecção de malware, spam, phishing, etc. Dada a todas essas atividades, pode haver uma certa confusão sobre qual política é aplicada.
 
@@ -37,9 +40,9 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
   |Priority|Proteção de email|Categoria|Onde gerenciar|
   |---|---|---|---|
-  |1 |Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
+  |1|Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
   |2 |Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
-  |3 |Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no EOP](learn-about-spoof-intelligence.md)|
   |5 |Spam|GATO: SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |6 |Em massa|GATO: EM MASSA|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
@@ -59,7 +62,7 @@ Por exemplo, considere as seguintes políticas de anti-phishing da ATP **que se 
 
   |Política de anti-phishing do ATP|Priority|Representação de usuário|Antifalsificação|
   |---|---|---|---|
-  |Política A|1 |Ativada|Desativada|
+  |Política A|1|Ativada|Desativada|
   |Política B|2 |Desativada|Ativada|
   |
 

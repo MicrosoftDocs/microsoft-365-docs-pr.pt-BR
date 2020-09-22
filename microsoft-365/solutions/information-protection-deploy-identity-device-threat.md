@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Evitar violações de dados pessoais com serviços de proteção de identidade, dispositivo e ameaça do Microsoft 365.
-ms.openlocfilehash: a309b5d0ba5f939cf89a31d7ac91ca3aac25ce0d
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: a0efdcfe8e9d27e19b6cf1355a6d0943b7cdaa59
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46520976"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195658"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Usar a proteção de identidade, dispositivo e ameaça para a regulamentação de privacidade de dados
 
@@ -33,17 +33,17 @@ Embora as leis de privacidade dos dados variem em sua especificidade, a essênci
 
 - Os dados pessoais devem ser processados de forma a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou não ilegal e contra perda acidental, destruição ou danos, usando medidas técnicas ou organizacionais apropriadas (' integridade e confidencialidade ').
 
-Como as violações de dados pessoais são freqüentemente causadas por comprometimento de conta de usuário ou administrador e acesso de sistema mal-intencionado. Por exemplo, uma conta de administrador atacante pode resultar em exfiltration de números de cartão de crédito do cliente ou outras informações pessoais. Todas as proteções de identidade, dispositivo e ameaça mais comumente recomendadas disponíveis no Microsoft 365 podem ser implementadas, o que será refletido na pontuação de conformidade.
+Como as violações de dados pessoais são freqüentemente causadas por comprometimento de conta de usuário ou administrador e acesso de sistema mal-intencionado. Por exemplo, uma conta de administrador atacante pode resultar em exfiltration de números de cartão de crédito do cliente ou outras informações pessoais. Toda a proteção de identidade, dispositivo e ameaça do recomendável disponível com o Microsoft 365 pode ser implementada, que será refletida em sua pontuação de conformidade, encontrada no gerente de conformidade.
 
-## <a name="using-the-results-of-your-assessment-work-and-compliance-score"></a>Usando os resultados do trabalho de avaliação e da Pontuação de conformidade
+## <a name="using-the-results-of-your-assessment-work-and-compliance-manager"></a>Usando os resultados do trabalho de avaliação e do gerente de conformidade
 
-A pontuação de conformidade inclui a proteção de identidade, dispositivo e ameaça usando estas categorias:
+O Gerenciador de conformidade inclui a proteção de identidade, dispositivo e ameaça usando estas categorias:
 
 - Identity corresponde à categoria de **acesso de controle**
 - O dispositivo corresponde à categoria **gerenciar dispositivos**
 - Proteção contra ameaças corresponde à categoria **proteger contra ameaças**
  
-Se eles forem selecionados em nosso conjunto de exemplos de quatro maiores regulamentações de privacidade de dados, a pontuação de conformidade especificará 90 ações de melhoria, a maioria delas será classificada como "27". Como esse número grande é chamado por Pontuação de conformidade para essas categorias, algumas das mais comuns estão listadas aqui, para referência.
+Se eles forem selecionados em nosso conjunto de exemplos de quatro principais regulamentações de privacidade de dados, o Gerenciador de conformidade especificará 90 ações aprimoradas, a maioria delas será classificada como "27". Como um grande número é chamado de Gerenciador de conformidade para essas categorias, algumas das mais comuns estão listadas aqui, para referência.
 
 Use o [Azure Active Directory (Azure AD)](https://azure.microsoft.com/services/active-directory/) para identidade e a categoria **acesso de controle** , com a qual você pode:
 

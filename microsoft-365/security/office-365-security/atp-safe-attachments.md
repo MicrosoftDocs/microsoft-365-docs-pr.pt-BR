@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre o recurso de anexos seguros de ATP para o Office 365 e como obter o recurso para sua assinatura.
-ms.openlocfilehash: 16b9ae47ead318e200cdf1e5e5beb58c2bc396bc
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 1ff7021f1c9fa64d3f04cbcac7231733399ad2b8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656988"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198770"
 ---
 # <a name="atp-safe-attachments"></a>Anexos Seguros da ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-safe-attachments"></a>Visão geral dos anexos seguros de ATP do Office 365
 
@@ -45,7 +48,7 @@ Em seguida, verifique se as políticas de anexos seguros de ATP estão definidas
 
 Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
 
-|Role|Onde/como a atribuição|
+|Função|Onde/como a atribuição|
 |---|---|
 |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
 |Administrador de Segurança|Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|

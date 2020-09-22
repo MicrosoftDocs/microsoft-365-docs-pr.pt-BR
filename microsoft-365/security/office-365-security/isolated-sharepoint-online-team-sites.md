@@ -18,14 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: Saiba mais sobre os sites de equipe isolados do SharePoint Online, incluindo os usos, os requisitos e os recursos com os quais podem ser usados.
-ms.openlocfilehash: 0646ffc37256702844b550fd1beb841944b2d509
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 51e71288bd070c0a3c74c7ce74cb8f5655bdb2b2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819528"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198722"
 ---
 # <a name="isolated-sharepoint-online-team-sites"></a>Sites de equipe isolados do SharePoint Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Resumo:** conheça as utilizações dos sites de equipe do SharePoint Online isolados.
   
