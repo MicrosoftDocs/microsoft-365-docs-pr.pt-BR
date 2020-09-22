@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f2ba1b63b3c1a986b3e811b3495bb4de85f93223
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: d6e9dbc214cdbb7aaf6bf8922ca4eaf986f8a91c
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956274"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173279"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Fechar e resumir seu piloto de proteção contra ameaças da Microsoft  
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-Você acabou de simular um ataque avançado de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft defender ATP e o Azure ATP detectam e alertam sobre atividades mal-intencionadas fraudulentas. Você também viu como os alertas de fontes diferentes são entregues junto com outras informações contextuais em um único incidente no portal de proteção contra ameaças da Microsoft, permitindo que os analistas do SOC investiguem e tomem a ação necessária. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
+Você acabou de simular um ataque avançado de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft defender ATP e o Azure ATP detectam e alertam sobre atividades mal-intencionadas fraudulentas. Você também viu como os alertas de fontes diferentes são entregues junto com outras informações contextuais em um único incidente no portal da central de segurança do Microsoft 365, permitindo que os analistas do SOC investiguem e tomem a ação necessária. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
 
 Você atingiu o final do processo após todos os testes terem concluído.
 

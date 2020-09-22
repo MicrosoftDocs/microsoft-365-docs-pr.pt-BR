@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 518afae2d241cca5fdff054faeb07d25e37eb585
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: aa4767deac30641e39880c2eeb001c2dc884540a
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956284"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173315"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Executar as simulações de ataque de proteção contra ameaças da Microsoft  
 
@@ -33,9 +33,9 @@ Após preparar seu ambiente piloto, é hora de testar o gerenciamento de inciden
 
 Nesta simulação, nosso cenário de exemplo começa com um script do PowerShell. Um usuário pode ser levado para executar um script. Ou o script pode ser executado a partir de uma conexão remota para outro computador a partir de um dispositivo previamente infectado, o invasor que está tentando se mover mais tarde na rede. A detecção desses scripts pode ser difícil porque os administradores também costumam executar scripts remotamente para realizar várias atividades administrativas.
 
-Durante a simulação, o ataque injeta shellcode em um processo aparentemente inocente. Neste cenário, usaremos notepad.exe. Escolhemos esse processo para a simulação, mas os invasores provavelmente serão direcionados a um processo de sistema de longa execução, como svchost.exe. O shellcode prossegue para entrar em contato com o servidor de comando e controle (C2) do invasor para receber instruções sobre como proceder. Além disso, o script tenta executar consultas de reconhecimento no controlador de domínio (DC). Isso permite que um invasor Obtenha informações sobre as informações recentes de login do usuário. Após os invasores terem essa informação, eles podem ser movidos para a rede de forma mais tarde para obter uma conta confidencial específica
-
 ![Ataque sem arquivo do PowerShell com injeção de processo e diagrama de ataque do Reconnaisance SMB](../../media/mtp/mtpdiydiagram.png)
+
+Durante a simulação, o ataque injeta shellcode em um processo aparentemente inocente. Neste cenário, usaremos notepad.exe. Escolhemos esse processo para a simulação, mas os invasores provavelmente serão direcionados a um processo de sistema de longa execução, como svchost.exe. O shellcode prossegue para entrar em contato com o servidor de comando e controle (C2) do invasor para receber instruções sobre como proceder. Além disso, o script tenta executar consultas de reconhecimento no controlador de domínio (DC). Isso permite que um invasor Obtenha informações sobre as informações recentes de login do usuário. Após os invasores terem essa informação, eles podem ser movidos para a rede de forma mais tarde para obter uma conta confidencial específica
 
 >[!IMPORTANT]
 >Para obter resultados ideais, siga as instruções de simulação de ataque o mais próximo possível.
@@ -109,9 +109,9 @@ Para ver o recurso automatizado de incidentes e respostas em ação, mantenha o 
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-Mudando para o ponto de vista do analista do SOC, agora você pode começar a investigar o ataque no portal de proteção contra ameaças da Microsoft. 
+Mudando para o ponto de vista do analista do SOC, agora você pode começar a investigar o ataque no portal da central de segurança do Microsoft 365. 
 
-1.  Abra a fila de incidentes do [portal de proteção contra ameaças da Microsoft](https://security.microsoft.com/incidents) de qualquer dispositivo.
+1.  Abra a fila de incidentes do [portal da central de segurança do Microsoft 365](https://security.microsoft.com/incidents) de qualquer dispositivo.
 
 2.  Navegue até **incidentes** no menu. 
 
@@ -230,7 +230,7 @@ Clique no nome de usuário para abrir a página de perfil do usuário, onde a in
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BzwB]
 
-Navegue de volta para o incidente no portal de proteção contra ameaças da Microsoft. A guia **investigações** na página **incidente** mostra as investigações automatizadas que foram acionadas pelo Azure ATP e pelo Microsoft defender ATP. A captura de tela abaixo exibe apenas a investigação automatizada disparada pelo Microsoft defender ATP. Por padrão, o Microsoft defender ATP corrige automaticamente os artefatos encontrados na fila que requer correção.
+Navegue de volta para o incidente no portal da central de segurança do Microsoft 365. A guia **investigações** na página **incidente** mostra as investigações automatizadas que foram acionadas pelo Azure ATP e pelo Microsoft defender ATP. A captura de tela abaixo exibe apenas a investigação automatizada disparada pelo Microsoft defender ATP. Por padrão, o Microsoft defender ATP corrige automaticamente os artefatos encontrados na fila que requer correção.
 
 ![Captura de tela de investigações automatizadas relacionadas ao incidente](../../media/mtp/fig14.png)
 
@@ -255,7 +255,7 @@ Após a investigação ser concluída e confirmada para ser corrigida, feche o i
 
 Clique em **gerenciar incidente**. Defina o status como **resolver incidente** e selecione a classificação relevante.
 
-Depois que o incidente for resolvido, ele fechará todos os alertas associados no Microsoft Threat Protection e nos portais relacionados.
+Depois que o incidente for resolvido, ele fechará todos os alertas associados no centro de segurança do Microsoft 365 e nos portais relacionados.
 
 ![Captura de tela da página incidentes com o painel abrir gerenciamento de incidentes onde você pode clicar na opção para resolver o incidente](../../media/mtp/fig16.png) 
 
@@ -289,7 +289,7 @@ Há uma única caixa de correio e dispositivo interno necessários para este cen
 1.  Abra o portal do security.microsoft.com.
 2.  Navegue até **caça > busca avançada**.
 
-    ![Captura de tela de busca avançada na barra de navegação do portal de segurança do M365](../../media/mtp/fig17.png) 
+    ![Captura de tela de busca avançada na barra de navegação do portal central de segurança do M365](../../media/mtp/fig17.png) 
 
 3.  Criar uma consulta que comece coletando eventos de email.
     a.  No painel de consulta, selecione novo.
