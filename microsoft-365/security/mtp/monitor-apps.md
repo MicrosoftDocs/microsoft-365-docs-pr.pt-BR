@@ -15,55 +15,58 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f370a537b9355a99b90f21faab5eda75d7f84cdf
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: e5f41eef243bbd5f475dc719071833c4c21111d2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866844"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199716"
 ---
-# <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="3a3ac-105">Monitoramento e relatórios de aplicativos no centro de segurança do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="3a3ac-105">App monitoring and reporting in the Microsoft 365 security center</span></span>
+# <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="96fb1-105">Monitoramento e relatórios de aplicativos no centro de segurança do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96fb1-105">App monitoring and reporting in the Microsoft 365 security center</span></span>
 
-<span data-ttu-id="3a3ac-106">Esses relatórios fornecem mais informações sobre como os aplicativos de nuvem estão sendo usados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-106">These reports provide more insight into how cloud apps are being used in your organization.</span></span> <span data-ttu-id="3a3ac-107">Inclui diferentes tipos de aplicativos, seu nível de risco e alertas.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-107">Includes different kinds of apps, their level of risk, and alerts.</span></span>
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-## <a name="monitor-email-accounts-at-risk"></a><span data-ttu-id="3a3ac-108">Monitorar contas de e-mail em risco</span><span class="sxs-lookup"><span data-stu-id="3a3ac-108">Monitor email accounts at risk</span></span>
 
-<span data-ttu-id="3a3ac-109">A **proteção de email** mostra as contas de email em risco.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-109">**Email protection** shows email accounts at risk.</span></span> <span data-ttu-id="3a3ac-110">Você pode selecionar uma conta para investigar ainda mais a central de segurança do Microsoft defender.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-110">You can select an account to investigate further in Microsoft Defender Security Center.</span></span>
+<span data-ttu-id="96fb1-106">Esses relatórios fornecem mais informações sobre como os aplicativos de nuvem estão sendo usados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="96fb1-106">These reports provide more insight into how cloud apps are being used in your organization.</span></span> <span data-ttu-id="96fb1-107">Inclui diferentes tipos de aplicativos, seu nível de risco e alertas.</span><span class="sxs-lookup"><span data-stu-id="96fb1-107">Includes different kinds of apps, their level of risk, and alerts.</span></span>
+
+## <a name="monitor-email-accounts-at-risk"></a><span data-ttu-id="96fb1-108">Monitorar contas de e-mail em risco</span><span class="sxs-lookup"><span data-stu-id="96fb1-108">Monitor email accounts at risk</span></span>
+
+<span data-ttu-id="96fb1-109">A **proteção de email** mostra as contas de email em risco.</span><span class="sxs-lookup"><span data-stu-id="96fb1-109">**Email protection** shows email accounts at risk.</span></span> <span data-ttu-id="96fb1-110">Você pode selecionar uma conta para investigar ainda mais a central de segurança do Microsoft defender.</span><span class="sxs-lookup"><span data-stu-id="96fb1-110">You can select an account to investigate further in Microsoft Defender Security Center.</span></span>
 
 ![Cartão de proteção de email](../../media/email-protection.png)
 
-## <a name="monitor-app-permissions-granted-by-users"></a><span data-ttu-id="3a3ac-112">Monitorar permissões de aplicativo concedidas por usuários</span><span class="sxs-lookup"><span data-stu-id="3a3ac-112">Monitor app permissions granted by users</span></span>
+## <a name="monitor-app-permissions-granted-by-users"></a><span data-ttu-id="96fb1-112">Monitorar permissões de aplicativo concedidas por usuários</span><span class="sxs-lookup"><span data-stu-id="96fb1-112">Monitor app permissions granted by users</span></span>
 
-<span data-ttu-id="3a3ac-113">**Cloud app Security-aplicativos OAuth** lista aplicativos descobertos pela Cloud app Security que receberam permissões pelos usuários.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-113">**Cloud App Security - OAuth apps** lists apps discovered by Cloud App Security that have been granted permissions by users.</span></span> <span data-ttu-id="3a3ac-114">O catálogo de riscos do Cloud app Security inclui mais de 16.000 aplicativos que são avaliados usando mais de 70 fatores de risco.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-114">Cloud App Security's risk catalog includes over 16,000 apps that are assessed using over 70 risk factors.</span></span>
+<span data-ttu-id="96fb1-113">**Cloud app Security-aplicativos OAuth** lista aplicativos descobertos pela Cloud app Security que receberam permissões pelos usuários.</span><span class="sxs-lookup"><span data-stu-id="96fb1-113">**Cloud App Security - OAuth apps** lists apps discovered by Cloud App Security that have been granted permissions by users.</span></span> <span data-ttu-id="96fb1-114">O catálogo de riscos do Cloud app Security inclui mais de 16.000 aplicativos que são avaliados usando mais de 70 fatores de risco.</span><span class="sxs-lookup"><span data-stu-id="96fb1-114">Cloud App Security's risk catalog includes over 16,000 apps that are assessed using over 70 risk factors.</span></span>
 
-<span data-ttu-id="3a3ac-115">Os fatores de risco são iniciados a partir de informações gerais, como o editor de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-115">The risk factors start from general information, such as the app publisher.</span></span> <span data-ttu-id="3a3ac-116">Em seguida, ele passa para medidas de segurança e controles, como se o aplicativo dá suporte à criptografia em repouso ou fornece um log de auditoria da atividade do usuário.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-116">It then moves to security measures and controls, such as whether the app supports encryption at rest or provides an audit log of user activity.</span></span>
+<span data-ttu-id="96fb1-115">Os fatores de risco são iniciados a partir de informações gerais, como o editor de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="96fb1-115">The risk factors start from general information, such as the app publisher.</span></span> <span data-ttu-id="96fb1-116">Em seguida, ele passa para medidas de segurança e controles, como se o aplicativo dá suporte à criptografia em repouso ou fornece um log de auditoria da atividade do usuário.</span><span class="sxs-lookup"><span data-stu-id="96fb1-116">It then moves to security measures and controls, such as whether the app supports encryption at rest or provides an audit log of user activity.</span></span>
 
 ![Cartão de aplicativos OAuth do Cloud app Security](../../media/cloud-app-security-oauth-apps.png)
 
-## <a name="monitor-cloud-app-user-accounts"></a><span data-ttu-id="3a3ac-118">Monitorar contas de usuário do aplicativo na nuvem</span><span class="sxs-lookup"><span data-stu-id="3a3ac-118">Monitor cloud app user accounts</span></span>
+## <a name="monitor-cloud-app-user-accounts"></a><span data-ttu-id="96fb1-118">Monitorar contas de usuário do aplicativo na nuvem</span><span class="sxs-lookup"><span data-stu-id="96fb1-118">Monitor cloud app user accounts</span></span>
 
-<span data-ttu-id="3a3ac-119">**Contas de aplicativo em nuvem para análise** lista contas que podem exigir atenção.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-119">**Cloud app accounts for review** lists accounts that may require attention.</span></span>
+<span data-ttu-id="96fb1-119">**Contas de aplicativo em nuvem para análise** lista contas que podem exigir atenção.</span><span class="sxs-lookup"><span data-stu-id="96fb1-119">**Cloud app accounts for review** lists accounts that may require attention.</span></span>
 
 ![Contas de aplicativo de nuvem para o cartão de revisão](../../media/cloud-app-accounts-for-review.png)
 
-## <a name="understand-which-cloud-apps-are-used"></a><span data-ttu-id="3a3ac-121">Entender quais aplicativos de nuvem são usados</span><span class="sxs-lookup"><span data-stu-id="3a3ac-121">Understand which cloud apps are used</span></span>
+## <a name="understand-which-cloud-apps-are-used"></a><span data-ttu-id="96fb1-121">Entender quais aplicativos de nuvem são usados</span><span class="sxs-lookup"><span data-stu-id="96fb1-121">Understand which cloud apps are used</span></span>
 
-<span data-ttu-id="3a3ac-122">Os **aplicativos de nuvem descobertos (categorias)** mostram quais tipos de aplicativos estão sendo usados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-122">**Discovered cloud apps (categories)** show what kinds of apps are being used in your organization.</span></span> <span data-ttu-id="3a3ac-123">Ele é vinculado ao painel de descoberta de nuvem no Cloud app Security.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-123">It links to the Cloud Discovery dashboard in Cloud App Security.</span></span> <span data-ttu-id="3a3ac-124">Para obter mais informações, consulte [QuickStart: work with untected apps](https://docs.microsoft.com/cloud-app-security/discovered-apps).</span><span class="sxs-lookup"><span data-stu-id="3a3ac-124">For more information, see [Quickstart: Work with discovered apps](https://docs.microsoft.com/cloud-app-security/discovered-apps).</span></span>  
+<span data-ttu-id="96fb1-122">Os **aplicativos de nuvem descobertos (categorias)** mostram quais tipos de aplicativos estão sendo usados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="96fb1-122">**Discovered cloud apps (categories)** show what kinds of apps are being used in your organization.</span></span> <span data-ttu-id="96fb1-123">Ele é vinculado ao painel de descoberta de nuvem no Cloud app Security.</span><span class="sxs-lookup"><span data-stu-id="96fb1-123">It links to the Cloud Discovery dashboard in Cloud App Security.</span></span> <span data-ttu-id="96fb1-124">Para obter mais informações, consulte [QuickStart: work with untected apps](https://docs.microsoft.com/cloud-app-security/discovered-apps).</span><span class="sxs-lookup"><span data-stu-id="96fb1-124">For more information, see [Quickstart: Work with discovered apps](https://docs.microsoft.com/cloud-app-security/discovered-apps).</span></span>  
 
 ![Cartão de categorias de aplicativos de nuvem descoberto](../../media/discovered-cloud-apps-categories.png)
 
-## <a name="monitor-where-users-access-cloud-apps"></a><span data-ttu-id="3a3ac-126">Monitorar onde os usuários acessam os aplicativos de nuvem</span><span class="sxs-lookup"><span data-stu-id="3a3ac-126">Monitor where users access cloud apps</span></span>
+## <a name="monitor-where-users-access-cloud-apps"></a><span data-ttu-id="96fb1-126">Monitorar onde os usuários acessam os aplicativos de nuvem</span><span class="sxs-lookup"><span data-stu-id="96fb1-126">Monitor where users access cloud apps</span></span>
 
-<span data-ttu-id="3a3ac-127">**Locais de atividade do aplicativo na nuvem** mostram onde os usuários estão acessando aplicativos em nuvem.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-127">**Cloud app activity locations** show where users are accessing cloud apps.</span></span>
+<span data-ttu-id="96fb1-127">**Locais de atividade do aplicativo na nuvem** mostram onde os usuários estão acessando aplicativos em nuvem.</span><span class="sxs-lookup"><span data-stu-id="96fb1-127">**Cloud app activity locations** show where users are accessing cloud apps.</span></span>
 
 ![Cartão de locais de atividade do Cloud app](../../media/cloud-app-activity-locations.png)
 
-## <a name="monitor-health-for-infrastructure-workloads"></a><span data-ttu-id="3a3ac-129">Monitorar a integridade das cargas de trabalho da infraestrutura</span><span class="sxs-lookup"><span data-stu-id="3a3ac-129">Monitor health for infrastructure workloads</span></span>
+## <a name="monitor-health-for-infrastructure-workloads"></a><span data-ttu-id="96fb1-129">Monitorar a integridade das cargas de trabalho da infraestrutura</span><span class="sxs-lookup"><span data-stu-id="96fb1-129">Monitor health for infrastructure workloads</span></span>
 
-<span data-ttu-id="3a3ac-130">**Infrastructure Health** mostra alertas de status de integridade para cargas de trabalho de infraestrutura na central de segurança do Azure.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-130">**Infrastructure health** shows health status alerts for infrastructure workloads in Azure Security Center.</span></span>
+<span data-ttu-id="96fb1-130">**Infrastructure Health** mostra alertas de status de integridade para cargas de trabalho de infraestrutura na central de segurança do Azure.</span><span class="sxs-lookup"><span data-stu-id="96fb1-130">**Infrastructure health** shows health status alerts for infrastructure workloads in Azure Security Center.</span></span>
 
-<span data-ttu-id="3a3ac-131">A central de segurança do Azure oferece gerenciamento de segurança unificado e proteção avançada contra ameaças em cargas de trabalho locais e em nuvem.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-131">Azure Security Center provides unified security management and advanced threat protection across on-premises and cloud workloads.</span></span> <span data-ttu-id="3a3ac-132">Você pode coletar, Pesquisar e analisar dados de segurança de fontes diferentes, incluindo firewalls e outras soluções de parceiros.</span><span class="sxs-lookup"><span data-stu-id="3a3ac-132">You can collect, search, and analyze security data from different sources, including firewalls and other partner solutions.</span></span>
+<span data-ttu-id="96fb1-131">A central de segurança do Azure oferece gerenciamento de segurança unificado e proteção avançada contra ameaças em cargas de trabalho locais e em nuvem.</span><span class="sxs-lookup"><span data-stu-id="96fb1-131">Azure Security Center provides unified security management and advanced threat protection across on-premises and cloud workloads.</span></span> <span data-ttu-id="96fb1-132">Você pode coletar, Pesquisar e analisar dados de segurança de fontes diferentes, incluindo firewalls e outras soluções de parceiros.</span><span class="sxs-lookup"><span data-stu-id="96fb1-132">You can collect, search, and analyze security data from different sources, including firewalls and other partner solutions.</span></span>
 
-<span data-ttu-id="3a3ac-133">Para obter mais informações, consulte a [documentação da central de segurança do Azure](https://docs.microsoft.com/azure/security-center/).</span><span class="sxs-lookup"><span data-stu-id="3a3ac-133">For more information, see [Azure Security Center Documentation](https://docs.microsoft.com/azure/security-center/).</span></span>
+<span data-ttu-id="96fb1-133">Para obter mais informações, consulte a [documentação da central de segurança do Azure](https://docs.microsoft.com/azure/security-center/).</span><span class="sxs-lookup"><span data-stu-id="96fb1-133">For more information, see [Azure Security Center Documentation](https://docs.microsoft.com/azure/security-center/).</span></span>
 
 ![Cartão de integridade de infraestrutura](../../media/infrastructure-health.png)
