@@ -15,14 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8abb4960318bb12b0205d014c32e48a60d4b9ae5
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 638fa558d3bc83b94f1a165e8d087e3770357d42
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866807"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200024"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de dispositivos no centro de segurança do Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Mantenha seus dispositivos seguros, atualizados e identifique as possíveis ameaças no centro de segurança do Microsoft 365.
 

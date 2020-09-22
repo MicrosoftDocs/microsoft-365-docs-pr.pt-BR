@@ -12,14 +12,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: b0fbb29489cece6d708811c5c8d8d60450938f0c
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: c62d09a1cf8b586b5c1d4393d7316d6d6d0cc96d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825204"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201670"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção contra phishing
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Embora a Microsoft 365 tenha uma variedade de recursos antiphishing habilitados por padrão, é possível que algumas mensagens de phishing ainda possam ser obtidas por meio de suas caixas de correio. Este tópico descreve o que você pode fazer para descobrir por que uma mensagem de phishing foi obtida e o que você pode fazer para ajustar as configurações de anti-phishing na sua organização do Microsoft 365 _sem dificultar as coisas_.
 

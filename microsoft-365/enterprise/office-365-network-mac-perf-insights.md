@@ -3,7 +3,7 @@ title: Microsoft 365 Network insights (versão prévia)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network insights (versão prévia)
-ms.openlocfilehash: 682c888fefb9bec9725e470d62019c857fc2de07
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 9e324af8ea2b81d0ca672b079afc74bededce695
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171333"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200764"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network insights (versão prévia)
 

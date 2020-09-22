@@ -17,24 +17,27 @@ ms.collection:
 - M365-security-compliance
 description: Saiba onde ir para exibir informações sobre arquivos mal-intencionados detectados no SharePoint, no OneDrive ou no Microsoft Teams e como executar ações nesses arquivos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47b1fea4b3b5713a8f69e8f4b2c0e2ad0f6dd6b8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e6cd0363b546fad063290ae20e8c6c82fd6d0dea
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036639"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201990"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Exibir informações sobre arquivos mal-intencionados detectados no SharePoint, no OneDrive ou no Microsoft Teams
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 O [Office 365 ATP para SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-and-teams.md) protege sua organização de arquivos mal-intencionados em bibliotecas de documentos e sites de equipe. Quando um arquivo mal-intencionado é detectado, esse arquivo é bloqueado para que ninguém possa abri-lo, copiá-lo ou compartilhá-lo até que outras ações sejam executadas pela equipe de segurança da organização. Leia este artigo para saber como exibir informações sobre arquivos detectados e quais ações executar. 
 
-Para executar as tarefas descritas neste artigo, você deve ter as [permissões necessárias para o centro de conformidade &amp; de segurança](permissions-in-the-security-and-compliance-center.md). 
+Para executar as tarefas descritas neste artigo, você deve ter as [permissões necessárias para o &amp; centro de conformidade de segurança](permissions-in-the-security-and-compliance-center.md). 
   
 ## <a name="view-reports-with-information-about-detected-files"></a>Exibir relatórios com informações sobre arquivos detectados
 
 Para exibir o status e informações detalhadas sobre arquivos detectados pelo Office 365 ATP, você pode usar o relatório de status de proteção contra ameaças.
   
-1. No [centro de &amp; conformidade de segurança](https://protection.office.com), escolha **painel** \> de **relatórios** \> **status de proteção contra ameaças**.
+1. No [centro de &amp; conformidade de segurança](https://protection.office.com), escolha painel de **relatórios** \> **Dashboard** \> **status de proteção contra ameaças**.
     
 2. No canto superior direito do relatório, escolha **Exibir tabela de detalhes**.
     
@@ -46,7 +49,7 @@ Para exibir o status e informações detalhadas sobre arquivos detectados pelo O
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>Exibir e executar ação em arquivos em quarentena
 
-1. No centro de &amp; conformidade de segurança, escolha **quarentena**de **análise** \> de **Gerenciamento** \> de ameaças. (Você também pode ir diretamente para [https://protection.office.com/quarantine](https://protection.office.com/quarantine).)
+1. No centro de &amp; conformidade de segurança, escolha quarentena de análise de **Gerenciamento de ameaças** \> **Review** \> **Quarantine**. (Você também pode ir diretamente para [https://protection.office.com/quarantine](https://protection.office.com/quarantine) .)
     
 2. No canto superior esquerdo, altere o menu suspenso de **emails** para **arquivos**. Se a lista de resultados incluir muitos itens, use a funcionalidade de **filtro** para restringir a seleção.
     

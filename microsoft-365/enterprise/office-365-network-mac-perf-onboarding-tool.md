@@ -1,9 +1,9 @@
 ---
-title: Teste de conectividade de rede do Microsoft 365 (versão prévia)
+title: Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,15 +13,15 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Teste de conectividade de rede do Microsoft 365 (versão prévia)
-ms.openlocfilehash: 40a46ecb39366c64c99077e90bb35c5056f36b9d
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+description: Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)
+ms.openlocfilehash: 72f42a71ec44d165a24187edaf03aa62d330479b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171345"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200812"
 ---
-# <a name="microsoft-365-network-connectivity-test-preview"></a>Teste de conectividade de rede do Microsoft 365 (versão prévia)
+# <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)
 
 A ferramenta de teste de conectividade de rede 365 da Microsoft está localizada em <https://connectivity.office.com> . É uma ferramenta do adjunct para as informações de avaliação de rede e insights de rede disponíveis no centro de administração do Microsoft 365 sob o **| ** Menu de conectividade.
 
@@ -249,7 +249,7 @@ No momento, é uma visualização e planejamos fornecer as atualizações regula
 
 ### <a name="what-is-required-to-run-the-advanced-test-client"></a>O que é necessário para executar o cliente de teste avançado?
 
-O cliente de teste avançado requer o tempo de execução do .NET Core 3,1 desktop. Se você executar o cliente de teste avançado sem o instalado, você será direcionado para [a página do instalador do .NET Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Certifique-se de instalar o tempo de execução da área de trabalho e não o SDK ou o tempo de execução do ASP.NET Core que estão mais altos na página. É necessário ter permissões de administrador no computador para instalar o .NET Core. 
+O cliente de teste avançado requer o tempo de execução do .NET Core 3,1 desktop. Se você executar o cliente de teste avançado sem o instalado, você será direcionado para [a página do instalador do .NET Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Certifique-se de instalar o tempo de execução da área de trabalho e não o SDK ou o tempo de execução do ASP.NET Core que estão mais altos na página. É necessário ter permissões de administrador no computador para instalar o .NET Core.
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>O que é o Microsoft 365 Service front door?
 
@@ -267,7 +267,7 @@ O local de egresso de Internet é o local onde o tráfego de rede sai da rede co
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Recomendações de desempenho de rede no centro de administração do Microsoft 365 (versão prévia)](office-365-network-mac-perf-overview.md)
+[Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)](office-365-network-mac-perf-overview.md)
 
 [Microsoft 365 Network Performance insights (versão prévia)](office-365-network-mac-perf-insights.md)
 

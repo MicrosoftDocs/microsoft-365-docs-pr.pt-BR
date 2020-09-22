@@ -25,14 +25,17 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, você aprenderá a usar os links seguros para proteger sua organização contra phishing e outros ataques.
-ms.openlocfilehash: d9b3c981cb282c286a5b6edcea367c8c57ffd4d3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 486c19fa0ba47baadf7b3418608a644407e6e1d0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307632"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200428"
 ---
 # <a name="atp-safe-links"></a>Links seguros da ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-safe-links"></a>Visão geral dos links seguros de ATP do Office 365
 
@@ -47,7 +50,7 @@ Depois que as políticas de links seguros de ATP estiverem vigentes, administrad
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>Como obter proteção de links de segurança ATP
 
-**Primeiro, certifique-se de que sua assinatura inclua a [proteção avançada contra ameaças do Office 365](office-365-atp.md) ** Plano 1 ou plano 2. O Office 365 ATP está incluído em inscrições, como [o microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), [o Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), o Office 365 Enterprise e5, o Office 365 Education a5, etc. Se sua organização tiver uma assinatura do Microsoft 365 que não inclua o Office 365 ATP, você poderá comprar ATP como um complemento. Para saber mais, veja os seguintes recursos: 
+**Primeiro, certifique-se de que sua assinatura inclua a [proteção avançada contra ameaças do Office 365](office-365-atp.md) ** Plano 1 ou plano 2. O Office 365 ATP está incluído em inscrições, como [o microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), [o Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), o Office 365 Enterprise e5, o Office 365 Education a5, etc. Se sua organização tiver uma assinatura do Microsoft 365 que não inclua o Office 365 ATP, você poderá comprar ATP como um complemento. Para obter mais informações, consulte os seguintes recursos: 
 
 - [Preços e planos para proteção avançada contra ameaças do Office 365](https://products.office.com/exchange/advance-threat-protection)
 
@@ -67,7 +70,7 @@ Depois que as políticas de links seguros de ATP estiverem vigentes, administrad
 
 ****
 
-|Role|Onde/como a atribuição|
+|Função|Onde/como a atribuição|
 |---|---|
 |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
 |Administrador de Segurança|Centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )|

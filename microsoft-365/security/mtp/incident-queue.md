@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: a08ff27d6d33317df9bd4bf61c0c2ee4cf0ee14e
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 403bf35ab976a8e309981e18c8241f1c16b63ccd
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797753"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200036"
 ---
 # <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Priorizar Incidentes na Proteção contra Ameaças da Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft

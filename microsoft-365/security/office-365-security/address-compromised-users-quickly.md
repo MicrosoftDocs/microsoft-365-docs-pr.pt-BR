@@ -14,14 +14,17 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 5a1dd64a0b30bb230af0d96432ae9542ce0370d8
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: fa648b33180cab7d70348dc4d1d6e64930ecff99
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656904"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201226"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Endereçar contas de usuário comprometidas com investigação e resposta automatizadas
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 O [plano avançado de proteção contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) inclui recursos avançados de [investigação e resposta](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (Air). Esses recursos podem economizar sua equipe de operações de segurança muito tempo e esforço lidando com ameaças. A Microsoft continua a melhorar os recursos de segurança. Recentemente, os recursos de ar foram aprimorados para incluir um guia de segurança de usuário comprometido (atualmente em versão prévia). Leia este artigo para saber mais sobre o guia de segurança de usuário comprometido. E veja a velocidade da postagem do blog [para detectar e responder ao escopo do usuário e limitar o escopo de violação com o Office 365 ATP](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) para obter mais detalhes.
 

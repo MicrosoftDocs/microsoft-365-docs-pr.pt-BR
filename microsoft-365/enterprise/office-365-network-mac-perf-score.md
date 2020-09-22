@@ -3,7 +3,7 @@ title: Avaliação de rede do Microsoft 365 (versão prévia)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Avaliação de rede do Microsoft 365 (versão prévia)
-ms.openlocfilehash: 21fb9515ea1621225cffbe23fe87d0daeb5265de
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 3d80130dbf9ca41342bc1a01fe3ce992303efb48
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104541"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200742"
 ---
 # <a name="microsoft-365-network-assessment-preview"></a>Avaliação de rede do Microsoft 365 (versão prévia)
 
@@ -101,8 +101,6 @@ Calculamos uma pontuação de opinião média dessas medidas UDP para uma escala
 
 [Microsoft 365 Network Performance insights (versão prévia)](office-365-network-mac-perf-insights.md)
 
-[Teste de conectividade do Microsoft 365 no centro de administração do M365 (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
+[Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Serviços de local de conectividade de rede da Microsoft 365 (versão prévia)](office-365-network-mac-location-services.md)
-
-[Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)

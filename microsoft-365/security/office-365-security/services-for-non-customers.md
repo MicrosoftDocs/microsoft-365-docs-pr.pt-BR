@@ -16,14 +16,17 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários.
-ms.openlocfilehash: 74389d3b975a0ffaebdc1619be40fd3ac74d72f4
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: e9389d52ee1d6c1c0bbab8630778749a6ed6005f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652652"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199572"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Serviços para não clientes enviando emails para a Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 O abuso por email, lixo eletrônico e emails fraudulentos (phishing) continuam a sobrecarregar todo o ecossistema de email. Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias em vigor para ajudar a proteger os usuários. No entanto, a Microsoft reconhece que os emails legítimos não devem ser afetados negativamente. Portanto, estabelecemos um pacote de serviços para ajudar os remetentes a aprimorar a capacidade de entregar emails aos usuários da Microsoft 365, gerenciando proativamente sua reputação de envio.
 

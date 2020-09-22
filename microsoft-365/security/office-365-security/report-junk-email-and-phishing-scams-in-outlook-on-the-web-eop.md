@@ -16,14 +16,17 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as opções internas de lixo eletrônico, não lixo eletrônico e relatório de email de phishing no Outlook na Web (Outlook Web App) no Exchange Online e como desabilitar essas opções de relatórios para os usuários.
-ms.openlocfilehash: 947f9bb9c1c686b549d83b27c262e86eda0d5008
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 75be22d6ec38ca3c8d11836ea28c7af74b93f14c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826536"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201238"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Relatar emails de lixo eletrônico e phishing no Outlook na Web no Exchange Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, você pode usar as opções de relatório internas no Outlook na Web (anteriormente conhecido como Outlook Web App) para enviar falsos positivos (emails bons marcados como spam), falsos negativos (email incorreto) e mensagens de phishing para o Exchange Online Protection (EOP).
 

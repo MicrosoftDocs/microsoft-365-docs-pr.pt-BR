@@ -13,14 +13,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores do Microsoft 365 podem aprender a se recuperar de um ataque de ransomware.
-ms.openlocfilehash: 2f8e5f5deb18cadfaea7acc1cffe73abbc43010b
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: c362ffcbb83e8b0fb7ae89bbbf835165e23b8e83
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827828"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201954"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Recuperar de um ataque de ransomware no Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Mesmo que você tenha cuidado para proteger sua organização, ainda pode ser vítima de um ataque de [ransomware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) . O ransomware é grande negócio, e os ataques são sofisticados.
 
@@ -78,7 +81,7 @@ Arquivos Restore in OneDrive for Business permite restaurar todo o OneDrive para
 
 ## <a name="step-6-recover-deleted-email"></a>Etapa 6: recuperar emails excluídos
 
-No caso raro em que o ransomware excluiu todos os seus emails, provavelmente você poderá recuperar os itens excluídos. Para mais informações, confira:
+No caso raro em que o ransomware excluiu todos os seus emails, provavelmente você poderá recuperar os itens excluídos. Para saber mais, confira:
 
 - [Recuperar mensagens excluídas na caixa de correio de um usuário](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 

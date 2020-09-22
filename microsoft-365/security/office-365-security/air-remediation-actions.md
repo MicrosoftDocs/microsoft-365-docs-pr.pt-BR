@@ -15,18 +15,21 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 761ae38250dc084a248203dd78b66ed18ea9c401
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c327bdf505b774532600169e9579ffa6acfac1b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653372"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199896"
 ---
 # <a name="remediation-actions-in-microsoft-365"></a>Ações de correção no Microsoft 365
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 ## <a name="remediation-actions"></a>Ações de correção
 
-[Recursos de investigação e resposta automatizados](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (Air) no [Office 365 proteção avançada contra ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) plano 2 inclui determinadas ações de correção. Sempre que uma investigação automatizada estiver em execução ou concluída, você verá, em geral, uma ou mais ações de correção que exigem aprovação da equipe de operações de segurança para continuar. Essas ações de correção podem incluir o seguinte:
+[Recursos de investigação e resposta automatizados](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (Air) no [Office 365 proteção avançada contra ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) plano 2 inclui determinadas ações de correção. Sempre que uma investigação automatizada estiver em andamento ou tiver sido concluída, você normalmente verá uma ou mais ações de remediação que requerem aprovação da sua equipe de operações de segurança para prosseguir. Essas ações de correção podem incluir o seguinte:
 
 - Exclusão reversível de mensagens de emails ou clusters
 - Bloquear URL (hora do clique)

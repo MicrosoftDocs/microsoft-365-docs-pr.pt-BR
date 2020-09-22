@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Os administradores podem saber como atribuir ou remover permissões no centro de administração do Exchange (Eat) na proteção do Exchange Online.
-ms.openlocfilehash: 8d452eb85d59bbe82cc6685d652617bc857c1ddf
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: fb1e0979b77c38d852f35817e01135af888eac68
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825684"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201896"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Gerenciar grupos de funções no EOP autônomo
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar o centro de administração do Exchange (Eat) para adicionar usuários aos grupos de função. A adição de um usuário a um grupo de funções permite que as permissões de administrador específicas sejam executadas. Você também pode remover usuários dos grupos de função.
 

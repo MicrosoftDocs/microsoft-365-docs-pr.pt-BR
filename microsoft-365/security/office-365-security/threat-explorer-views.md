@@ -15,14 +15,17 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar o Gerenciador de ameaças e o relatório de detecções em tempo real para investigar e responder a ameaças no centro de &amp; conformidade de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5064c3a250ba9e7dcf48d6bc360102b3ab4b8504
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5500a7bff0766159384604e9973b5ad81b3dbc6f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656940"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200102"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Modos de exibição no Gerenciador de ameaças e detecções em tempo real
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ![Explorador de Ameaças](../../media/ThreatExplorerFirstOpened.png)
 

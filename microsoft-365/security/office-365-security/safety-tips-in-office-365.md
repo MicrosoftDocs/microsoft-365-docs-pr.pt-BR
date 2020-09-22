@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre como o EOP e o Office 365 protegem você com spam, phishing e prevenção contra malware adicionando uma dica de segurança à parte superior de emails.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4bcfd2bf05f2f5ae7a51fbc2488cb1aa6e7d2c9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 3da52a8ef2913c30c281fec74f92142847e29792
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949627"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201978"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 O Exchange Online Protection (EOP) e o Microsoft 365 protegem você com spam, phishing e prevenção contra malware. Hoje, alguns desses ataques são tão bem criados que parecem legítimos. Enviar mensagens para a pasta lixo eletrônico nem sempre é suficiente. Agora, quando você verificar seu email no Outlook ou no Outlook na Web ou em qualquer cliente de email, o EOP verifica automaticamente o remetente e adiciona uma dica de segurança à parte superior do email.
 

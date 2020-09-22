@@ -16,14 +16,17 @@ ms.collection: M365-security-compliance
 ms.date: 08/21/2020
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 27a2330d5f1ff339aabf6a0fccb94a15dec30852
-ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
+ms.openlocfilehash: d6793793a663e562b05df7e8458a6a8933e5ee47
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860716"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200340"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Uma visão geral da investigação e resposta automatizadas (AIR) no Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Como os alertas de segurança são disparados, a equipe de operações de segurança pode examinar os alertas e realizar etapas para proteger sua organização. Às vezes, as equipes de operações de segurança podem se sentir sobrecarregadas pelo volume de alertas disparados. Recursos de investigação e resposta (AIR) automatizados no Office 365 a proteção avançada contra ameaças (Office 365 ATP) podem ajudar. 
 

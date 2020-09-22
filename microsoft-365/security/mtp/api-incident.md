@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 310e3105c973223ea79373d770eb10f7753b917e
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: ac149ca7263b8ef8bb37a7dd18bf0787a3114b37
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650120"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201298"
 ---
 # <a name="incident-resource-type"></a>Tipo de recurso incidente
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -56,5 +59,5 @@ severity | Enum | Gravidade do incidente. Os valores possíveis são: ```UnSpeci
 status | Enum | Especifica o status atual do incidente. Os valores possíveis são ```Active``` : ```Resolved``` e ```Redirected``` .
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-tags | Lista de cadeia de caracteres | Lista de marcas de incidente.
+categorias | Lista de cadeia de caracteres | Lista de marcas de incidente.
 alerts | Lista de alerta | Lista de alertas relacionados. Consulte exemplos na documentação da API de [incidentes de lista](api-list-incidents.md) .

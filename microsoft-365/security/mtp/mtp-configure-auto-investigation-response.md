@@ -14,14 +14,17 @@ ms.collection: M365-security-compliance.
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: 81ad3ab0d3bc20a49128fa6ed45ff62195b32bc7
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: f7bcfa4f08bee51408de33964f1dfd1e1db3bd33
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47963847"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199740"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Configurar os recursos de investigação e resposta automatizados no Microsoft Threat Protection
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 A proteção contra ameaças da Microsoft inclui recursos avançados de [investigação e resposta automatizados](mtp-autoir.md) que podem economizar muito tempo e esforço na equipe de operações de segurança. Com o auto-recuperação, esses recursos imitam as etapas que um analista de segurança tomaria para investigar e responder a ameaças, mais rápido e com mais capacidade de escalabilidade. Este artigo descreve como configurar a investigação e a resposta automatizadas no Microsoft Threat Protection.
 

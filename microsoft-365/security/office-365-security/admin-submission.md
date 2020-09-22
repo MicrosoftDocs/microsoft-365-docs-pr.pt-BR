@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: ef401f34bb0bc7a9a9718443101924ad09bca8a0
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 85251e82166279c25f009728dd5e5f0ff3c3f2ea
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47947967"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201250"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, os administradores podem usar o portal de envios no centro de conformidade de & de segurança para enviar mensagens de email, URLs e anexos para a Microsoft para verificação.
 
@@ -200,7 +203,7 @@ Próximo à parte superior da página, você pode inserir uma data de início, u
 Para alterar os critérios de filtro, clique no botão **remetente** e escolha um dos seguintes valores:
 
 - **Domínio do remetente**
-- **Assunto**
+- **Subject**
 - **Enviado por**
 - **Tipo de envio**
 - **IP do remetente**

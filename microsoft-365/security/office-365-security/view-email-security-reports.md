@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87cee31b4e0251aea8eb39640d37184ccd0ee96
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 588c30ca07684636661c7946b2418b75574c8cbd
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104517"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199212"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Vários relatórios estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) para ajudá-lo a ver como os recursos de segurança de email, como os recursos antispam, Antimalware e de criptografia no Microsoft 365 estão protegendo sua organização. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando **Reports** o \> **painel**relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
 
@@ -58,7 +61,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 
 - **Hora de criação**
 - **ID de usuário**
-- **Ação**
+- **Action**
 
 Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
 
@@ -119,7 +122,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
   - **Modelo de criptografia**
   - **Método de criptografia**
   - **Endereço do destinatário**
-  - **Assunto**
+  - **Subject**
 
 - **Exibir dados por: cinco domínios principais de destinatários**:
 
@@ -163,7 +166,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 - **Endereço do remetente**.
 - **Endereço do destinatário**
 - **ID da mensagem**: disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem e deve ser exclusivo. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
-- **Assunto**
+- **Subject**
 - **Filename**
 - **Nome do malware**
 
@@ -221,8 +224,8 @@ Se você clicar em **Exibir tabela de detalhes** em qualquer modo de exibição 
 - **Endereço do remetente**.
 - **Endereço do destinatário**
 - **Tipo de evento**
-- **Ação**
-- **Assunto**
+- **Action**
+- **Subject**
 
 Se você clicar em **filtros** em uma tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -260,7 +263,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 - **Remetente falsificado**
 - **Remetente verdadeiro**
 - **IP do remetente**
-- **Ação**
+- **Action**
 - **Contagem de mensagem**
 
 Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
@@ -371,7 +374,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 - **Exibir dados por: conteúdo \> Malware**:
 
   - **Date**
-  - **Location**
+  - **Localização**
   - **Direcionado por**
   - **Nome do malware**
 
@@ -380,7 +383,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 - Todos os outros gráficos:
 
   - **Date**
-  - **Assunto**
+  - **Subject**
   - **Sender**
   - **Destinatários**
   - **Detectado por**

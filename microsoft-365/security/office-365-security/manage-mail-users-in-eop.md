@@ -13,14 +13,17 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Saiba mais sobre como gerenciar usuários de email na proteção do Exchange Online (EOP), incluindo o uso da sincronização de diretórios, da Eat e do PowerShell para gerenciar usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64b7effadd96b6dc025677139c4303acd538dadb
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 56e6f8955b5993fb4b5064aa92cdde80a4c67ffe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827070"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201778"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de e-mail no EOP autônomo
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os usuários de email são o tipo fundamental de conta de usuário. Um usuário de email tem credenciais de conta em sua organização autônoma do EOP e pode acessar recursos (permissões atribuídas). O endereço de email de um usuário de email é externo (por exemplo, em seu ambiente de email local).
 
@@ -100,7 +103,7 @@ Use a guia **geral** para exibir ou alterar as informações básicas sobre o us
 
 Use a guia **informações de contato** para exibir ou alterar as informações de contato do usuário. As informações nesta página são exibidas no catálogo de endereços.
 
-- **Street**
+- **123**
 - **Cidade**
 - **Estado/Província**
 - **CEP/código postal**
@@ -119,7 +122,7 @@ Use a guia **informações de contato** para exibir ou alterar as informações 
 
 Use a guia **organização** para registrar informações detalhadas sobre a função do usuário na organização.
 
-- **Título**
+- **Title**
 - **Departamento**
 - **Company**
 

@@ -20,14 +20,17 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: f2a0a439996f13cea3823815aceb9dd1c235e2f2
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 2131af5e35aa0cf9f236940d2b4aaa2bed85190a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962660"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199776"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-threat-protection"></a>Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -42,7 +45,7 @@ Na proteção contra ameaças da Microsoft, a investigação e a resposta automa
 - [Investigação e correção automatizadas no Microsoft defender proteção avançada contra ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 - [Investigação e resposta automatizadas no Office 365 proteção avançada contra ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
 - [Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
+- [Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
  
 Este artigo descreve como funciona a investigação e a resposta automatizadas. Para configurar esses recursos, consulte [configurar os recursos de investigação e resposta automatizados no Microsoft Threat Protection](mtp-configure-auto-investigation-response.md).
 

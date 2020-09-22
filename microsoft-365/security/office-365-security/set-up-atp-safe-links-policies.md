@@ -17,14 +17,17 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 121de6137e392ae0c66d9961fd2138f003a9d9fa
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 8c72473a9b1337e1d932ec7235ed12e79f0c48f6
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307756"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201754"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -51,7 +54,7 @@ Com os links seguros de ATP habilitados, se um usuário clicar em um link em um 
 
 - Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
 
-    |Role|Onde/como a atribuição|
+    |Função|Onde/como a atribuição|
     |---|---|
     |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
     |Administrador de Segurança|Centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )|
@@ -149,7 +152,7 @@ As opções de política padrão se aplicam a todas as pessoas em sua organizaç
 
 |Essa opção|Faça isto|
 |---|---|
-|**Desabilitado**|Não verifica URLs em mensagens de email.  <br/> Permite que você defina uma regra de exceção, como uma regra que não examina URLs em mensagens de email para um grupo específico de destinatários.|
+|**Desativar**|Não verifica URLs em mensagens de email.  <br/> Permite que você defina uma regra de exceção, como uma regra que não examina URLs em mensagens de email para um grupo específico de destinatários.|
 |**On**|Reconfigura URLs para rotear usuários por meio de proteção de links seguros de ATP quando os usuários clicam em URLs em mensagens de email e habilita links seguros de ATP no Outlook (C2R) no Windows.  <br/> Verifica uma URL quando clicado em uma lista de URLs bloqueadas ou maliciosas e dispara um acionamento da URL em segundo plano de forma assíncrona se a URL não tiver uma reputação válida.|
 |**Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos**|Quando essa opção é selecionada, URLs suspeitas e links que apontam para o conteúdo baixável são verificados.|
 |**Aguarde a conclusão da verificação de URL antes de entregar a mensagem**|Quando essa opção é selecionada, as mensagens que contêm URLs a serem verificadas serão mantidas até que as URLs terminem a verificação e sejam confirmadas para serem seguras antes de as mensagens serem entregues.|

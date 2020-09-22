@@ -16,14 +16,17 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as opções internas de lixo eletrônico, não lixo eletrônico e relatório de email de phishing no Outlook para iOS e Android.
-ms.openlocfilehash: 216f60eb168190603c7c9aba58cef27c2bf15b01
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: fef519f3fdd5cf46d383c41ad227ab0cd3ed4390
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867328"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201528"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Relatar emails de lixo eletrônico e phishing no Outlook para iOS e Android no Exchange Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio em Exchange Online ou caixas de correio locais usando a [autenticação moderna híbrida](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide), você pode usar as opções de relatório internas no Outlook para IOS e Android para enviar falsos positivos (emails bons marcados como spam), falsos negativos (email incorreto) e mensagens de phishing para o Exchange Online Protection (EOP).
 

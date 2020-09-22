@@ -14,14 +14,17 @@ ms.assetid: 2921f544-8257-4bae-8e3a-ce9250e9f162
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre os diferentes tipos de objetos de destinatário na proteção do Exchange Online (EOP) autônomo.
-ms.openlocfilehash: 8ee3821d05a4d777227e90c9b6208b3e9f8644a4
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: c277365fb8a5c43108faa15a375af39ecc086eed
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827034"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201719"
 ---
 # <a name="manage-recipients-in-standalone-eop"></a>Gerenciar destinatários no EOP autônomo
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 As organizações do proteção do Exchange Online (EOP) autônomas sem caixas de correio do Exchange Online oferecem suporte aos seguintes tipos de destinatários:
 

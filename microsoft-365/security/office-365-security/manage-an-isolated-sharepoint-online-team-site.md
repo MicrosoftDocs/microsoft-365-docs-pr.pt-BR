@@ -16,14 +16,17 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: Gerenciar um site de equipe isolado do SharePoint Online, adicionar novos usuários e grupos, remover usuários e grupos e criar uma subpasta documentos com permissões personalizadas.
-ms.openlocfilehash: d66f9a349bd5834d07fbc13146127bde522923e4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: e63cd6d17bf30ce6d236e38673b33cf054940eac
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200614"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Gerenciar um site de equipe do SharePoint Online isolado
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Resumo:** Gerencie seu site de equipe do SharePoint Online isolado com estes procedimentos.
   

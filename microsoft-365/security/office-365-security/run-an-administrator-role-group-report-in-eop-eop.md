@@ -14,14 +14,17 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no proteção do Exchange Online (EOP) autônomo. Este relatório registra quando um administrador adiciona ou remove membros de grupos de funções de administrador, EOP registra cada ocorrência.
-ms.openlocfilehash: db1934c7865209d358d164ff5165bb23026589cc
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: f2f3e32a818825d14c02b2bbffdc136e82f83013
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827500"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200476"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Executar um relatório de grupo de função de administrador no EOP autônomo
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, quando um administrador adiciona ou remove membros dos grupos de função administrativa, o serviço registra cada ocorrência. Para obter mais informações sobre grupos de função em EOP autônomos, consulte [permissões no EOP autônomo](feature-permissions-in-eop.md).
 

@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as configurações e filtros antispam que ajudarão a evitar spam na proteção do Exchange Online (EOP).
-ms.openlocfilehash: 74ffe22ffea07350245f6fed18d09b52f96c8351
-ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
+ms.openlocfilehash: 4e5c41ebf92de320651a90813220abfcfa50c30e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189556"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199130"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Proteção antispam no EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > Este tópico destina-se a administradores. Para os tópicos do usuário final, confira [visão geral do filtro de lixo eletrônico](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) e [saiba mais sobre lixo eletrônico e phishing](https://support.microsoft.com/office/86c1d76f-4d5a-4967-9647-35665dc17c31).

@@ -3,7 +3,7 @@ title: Conectividade de rede no centro de administração do Microsoft 365 (vers
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Visão geral da conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
-ms.openlocfilehash: 644efe53e862f6bbe98be7dca889bc3637084521
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: a51cfba962ff884afa634473c0523e49a92a56f5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171357"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200788"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 
@@ -63,7 +63,7 @@ Os exemplos de medidas e locais do Office devem começar a aparecer 24 horas ap�
 
 ### <a name="3-manually-gather-test-reports-with-the-microsoft-365-network-connectivity-test-tool"></a>3. reúna manualmente relatórios de teste com a ferramenta de teste de conectividade de rede 365 da Microsoft
 
-Para esta opção, você precisa identificar uma pessoa em cada local. Peça a eles para navegar até [o teste de conectividade de rede do Microsoft 365](https://connectivity.office.com) em uma máquina Windows com a qual eles têm permissões administrativas. No site, eles precisam entrar em sua conta do Office 365 para a mesma organização que você deseja ver os resultados. Em seguida, clique em executar teste. Durante o teste, há um executável de teste de conectividade baixado. Eles também precisam abrir e executar isso. Depois que os testes são concluídos, o resultado do teste é carregado para o Office 365.
+Para esta opção, você precisa identificar uma pessoa em cada local. Peça a eles para navegar até o [teste de conectividade de rede do Microsoft 365](https://connectivity.office.com) em um computador Windows no qual tenham permissões administrativas. No site, eles precisam entrar em sua conta do Office 365 para a mesma organização que você deseja ver os resultados. Em seguida, eles devem clicar em **Executar teste**. Durante o teste, há um executável de teste de conectividade baixado. Eles também precisam abrir e executar isso. Depois que os testes são concluídos, o resultado do teste é carregado para o Office 365.
 
 Os relatórios de teste são vinculados a um local se ele tiver sido adicionado com informações de sub-rede da rede local, caso contrário, eles serão exibidos somente no local da cidade.
 
@@ -174,7 +174,7 @@ O Microsoft 365 Service front door é um ponto de entrada na rede global da Micr
 
 ### <a name="what-is-an-optimal-microsoft-365-service-front-door"></a>Qual é a melhor porta de serviço do Microsoft 365?
 
-Uma das melhores portas de serviço do Microsoft 365 é aquela mais próxima à sua rede de egresso, geralmente na cidade ou na área de metrô. Use o [teste de conectividade do microsoft 365](office-365-network-mac-perf-onboarding-tool.md) para determinar o local da porta de entrada do Microsoft 365 Service e da porta frontal de serviço ideal. Se a ferramenta determina que sua porta frontal de uso é ideal, então, você está se conectando de forma ideal à rede global da Microsoft.
+Uma das melhores portas de serviço do Microsoft 365 é aquela mais próxima à sua rede de egresso, geralmente na cidade ou na área de metrô. Use a [ferramenta de teste de conectividade do 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md) para determinar o local da porta de entrada do Microsoft 365 Service e da porta frontal de serviço ideal. Se a ferramenta determina que sua porta frontal de uso é ideal, então, você está se conectando de forma ideal à rede global da Microsoft.
 
 ### <a name="what-is-an-internet-egress-location"></a>O que é um local de egresso na Internet?
 
@@ -186,8 +186,6 @@ O local de egresso de Internet é o local onde o tráfego de rede sai da rede co
 
 [Avaliação de rede do Microsoft 365 (versão prévia)](office-365-network-mac-perf-score.md)
 
-[Teste de conectividade do Microsoft 365 no centro de administração do M365 (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
+[Ferramenta de teste de conectividade 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Serviços de local de conectividade de rede da Microsoft 365 (versão prévia)](office-365-network-mac-location-services.md)
-
-[Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)

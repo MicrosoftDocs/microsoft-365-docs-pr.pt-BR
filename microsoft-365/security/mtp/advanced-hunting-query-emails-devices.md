@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c24f5891573b8541a97a35d228c57642766fe4a0
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 5b2ef4881eabea7e546eb8cd3d164b372b0018ee
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419139"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199824"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Busca de ameaças em dispositivos, emails, aplicativos e identidades
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -193,7 +196,7 @@ DeviceProcessEvents
 ```
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da caça avançada](advanced-hunting-overview.md)
+- [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)

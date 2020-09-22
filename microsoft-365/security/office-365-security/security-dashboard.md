@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: 7edfcfefc379aa30b7028097b21522d63cd26268
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 1bef6d0496c39d5157bbc40893d2710e89d1c734
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200068"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="basic-functions-and-how-to-open-security-dashboard"></a>Funções básicas e como abrir o painel de segurança
 
@@ -102,7 +105,7 @@ Por exemplo, você pode ver que as mensagens de email de phishing estão sendo e
 
 ## <a name="threat-investigation-and-response"></a>Investigação e resposta a ameaças
 
-Se a assinatura de sua organização incluir o [plano de proteção avançada contra ameaças do Office 365](office-365-ti.md), o painel de segurança tem uma seção que inclui investigação avançada de ameaças e ferramentas de resposta. Essas ferramentas incluem [investigação automatizada e recursos de resposta](automated-investigation-response-office.md). A investigação e a resposta automatizadas podem ser úteis em cenários como [endereçar contas de usuário comprometidas rapidamente](address-compromised-users-quickly.md).
+Se a assinatura de sua organização incluir o  [plano de proteção avançada contra ameaças do Office 365](office-365-ti.md), o painel de segurança tem uma seção que inclui investigação avançada de ameaças e ferramentas de resposta. Essas ferramentas incluem [investigação automatizada e recursos de resposta](automated-investigation-response-office.md). A investigação e a resposta automatizadas podem ser úteis em cenários como [endereçar contas de usuário comprometidas rapidamente](address-compromised-users-quickly.md).
 
 Para saber mais, confira [introdução ao uso de investigação e resposta automatizadas (Air) no Office 365](office-365-air.md).
 

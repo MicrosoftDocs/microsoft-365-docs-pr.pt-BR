@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Os administradores podem aprender sobre os relatórios de auditoria do administrador que estão disponíveis no Exchange Online Protection (EOP)
-ms.openlocfilehash: ab2c1af7197094b456d8e1b4151dd42791d992a1
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 8e5175266cd964a2f2fb721a67f64e709661ce26
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825780"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200328"
 ---
 # <a name="auditing-reports-in-standalone-eop"></a>Relatórios de auditoria na EOP autônomo
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, os relatórios de auditoria podem ajudá-lo a atender aos requisitos normativos, de conformidade e de litígio para sua organização. Você pode obter relatórios de auditoria a qualquer momento para determinar as alterações que foram realizadas na configuração do EOP. Estes relatórios ajudam você a solucionar problemas de configuração ou a encontrar a causa de problemas relacionados à conformidade ou à segurança.
 

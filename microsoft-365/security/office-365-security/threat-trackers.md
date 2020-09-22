@@ -16,14 +16,17 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os rastreadores de ameaças, incluindo novos rastreadores dignos de importância, para ajudar sua organização a se manter informado sobre segurança.
-ms.openlocfilehash: 13e8463d88250fe76474311e9df394577949989e
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: e4e157e64da92cf3c9178af1223fbc6c85e3fd95
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755059"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201790"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Rastreadores de ameaça-novidade e digno de sessão
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Os recursos de [investigação e resposta contra ameaças do Office 365](office-365-ti.md) permitem que a equipe de segurança da sua organização descubra e execute ações contra ameaças de cybersecurity. Os recursos de investigação e resposta contra ameaças do Office 365 incluem recursos de controlador de ameaças, incluindo rastreadores dignos de ameaça. Leia este artigo para obter uma visão geral desses novos recursos e próximas etapas. 
 

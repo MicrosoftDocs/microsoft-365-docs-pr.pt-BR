@@ -14,14 +14,17 @@ ms.assetid: e109077e-cc85-4c19-ae40-d218ac7d0548
 ms.custom:
 - seo-marvel-apr2020
 description: O administrador pode aprender sobre as opções de configuração de fluxo de email e roteamento na proteção do Exchange Online (EOP).
-ms.openlocfilehash: c58981afaadf2c4083b6a6db99c74cf9544715c3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e1c821e3de8dd7dd18c192522bd18fd32a395dca
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827720"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200698"
 ---
 # <a name="mail-flow-in-eop"></a>Fluxo de e-mails no EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio do Exchange Online, ou organizações autônomas do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online, todas as mensagens enviadas para sua organização passam pelo EOP antes que seus funcionários os vejam. Você tem opções sobre como rotear mensagens que passam pelo EOP para processamento antes de serem encaminhadas para suas caixas de entrada de trabalho.
 
