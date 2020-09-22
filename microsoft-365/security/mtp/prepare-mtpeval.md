@@ -15,14 +15,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6b87b051d243c11fe2b32fccb50f3ad0d01d0c04
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: 97e75b07721c180fe6b4df56c2d9cc819b610802
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956146"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195542"
 ---
 # <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -83,7 +86,7 @@ Adicione participantes à tabela abaixo, conforme apropriado para sua organizaç
 
 -   I = informamos este projeto
 
-| Nome                 | Role                                                                                                                                                                                                          | Action |
+| Nome                 | Função                                                                                                                                                                                                          | Action |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Insira o nome e o email | **Diretor de segurança de informações (ciso)** *um representante executivo que atua como patrocinador dentro da organização para a nova implantação de tecnologia.*                                                  | Então     |
 | Insira o nome e o email | **Chefe do CDOC (Cyber Defense Operations Center)** *um representante da equipe do CDOC responsável por definir como essa alteração está alinhada com os processos da equipe de operações de segurança do cliente.*       | Então     |
@@ -126,10 +129,10 @@ A tabela a seguir indica a ordem que a Microsoft recomenda para configurar os co
 
 | Componente                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Classificação da ordem de configuração |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Proteção Avançada contra Ameaças do Office 365| O Office 365 ATP salvaguarda sua organização contra ameaças mal-intencionadas que foram causadas por mensagens de email, links (URLs) e ferramentas de colaboração. <br> [Saiba Mais.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                    |
+| Proteção Avançada contra Ameaças do Office 365| O Office 365 ATP salvaguarda sua organização contra ameaças mal-intencionadas que foram causadas por mensagens de email, links (URLs) e ferramentas de colaboração. <br> [Saiba Mais.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
 |Proteção Avançada contra Ameaças do Azure|O Azure ATP usa sinais do Active Directory para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações maliciosas mal-intencionadas direcionadas para sua organização. <br> [Saiba mais](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2  |
-|Microsoft Cloud App Security| O Microsoft Cloud app Security é um CASB (agente de segurança de acesso à nuvem) que opera em várias nuvens. Ele oferece visibilidade avançada, controle sobre a viagem de dados e análises sofisticadas para identificar e combater o ciberataques em todos os seus serviços de nuvem. <br> [Saiba mais](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                    |
-|Proteção avançada contra ameaças do Microsoft Defender | Os recursos de detecção e resposta de ponto de extremidade da ATP do Microsoft Defender fornecem detecções avançadas de ataques quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
+|Microsoft Cloud App Security| O Microsoft Cloud app Security é um CASB (agente de segurança de acesso à nuvem) que opera em várias nuvens. Ele oferece visibilidade avançada, controle sobre a viagem de dados e análises sofisticadas para identificar e combater o ciberataques em todos os seus serviços de nuvem. <br> [Saiba mais](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3D                   |
+|Proteção Avançada contra Ameaças do Microsoft Defender | Os recursos de detecção e resposta de ponto de extremidade da ATP do Microsoft Defender fornecem detecções avançadas de ataques quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Próxima etapa
 |![Fase 2: configuração](../../media/setup.png) <br>[Fase 2: configuração](setup-mtpeval.md) | Configurar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto

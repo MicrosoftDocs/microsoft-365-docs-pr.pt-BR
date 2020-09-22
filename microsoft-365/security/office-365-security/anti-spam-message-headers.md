@@ -16,14 +16,17 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre os campos de cabeçalho adicionados às mensagens pelo EOP (Exchange Online Protection). Esses campos de cabeçalho fornecem informações sobre a mensagem e como ela foi processada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5423ccf658843ab22f30dcef99fe0a0c34d512f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 71cefb4a26751b92dd8b5e5a308bbc18b1a5c221
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867182"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197496"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Cabeçalhos de mensagens anti-spam no Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Em todas as organizações do Microsoft 365, o EOP (Proteção do Exchange Online) verifica todas as mensagens recebidas em busca de spam, malware e outras ameaças. Os resultados dessas verificações são adicionados aos seguintes campos de cabeçalho nas mensagens:
 

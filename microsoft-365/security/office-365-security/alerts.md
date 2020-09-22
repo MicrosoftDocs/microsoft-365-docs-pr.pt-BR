@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre como usar os recursos de alerta no centro de conformidade & segurança do Office 365 para exibir e gerenciar alertas, incluindo o gerenciamento de alertas avançados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c51d5d58b1af64a5066e6176fb2533c91bcf6f01
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 2e53d61b2bbbf241683379916362a9d33fa5ace8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653348"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197650"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>Alertas no centro de conformidade & segurança
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Use os recursos de alerta no centro de conformidade & segurança para exibir e gerenciar alertas da sua organização, incluindo o gerenciamento de alertas avançados como parte da [visão geral do Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security).
 
@@ -61,5 +64,5 @@ A tabela a seguir descreve as ferramentas que estão disponíveis em **alertas**
 |Ferramenta|Descrição|
 |---|---|
 |[Gerenciar alertas](../../compliance/create-activity-alerts.md)|Use os alertas de atividade para enviar notificações por email para si mesmo ou para outros administradores quando os usuários executarem atividades específicas no Office 365. Os alertas de atividade são semelhantes à pesquisa de eventos no log de auditoria, exceto pelo fato de que você enviará uma mensagem de email quando um evento que você criou um alerta para ocorrer.|
-|[Gerenciar alertas avançados](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Use o recurso **Gerenciar alertas avançados** do Office 365 Cloud app Security para configurar políticas que podem alertá-lo sobre atividades suspeitas e anormais no Office 365. Depois de alertar, você pode investigar situações que são potencialmente problemáticas e, se necessário, tomar medidas para resolver problemas de segurança.|
+|[Gerenciar alertas avançados ](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Use o recurso **Gerenciar alertas avançados** do Office 365 Cloud app Security para configurar políticas que podem alertá-lo sobre atividades suspeitas e anormais no Office 365. Depois de alertar, você pode investigar situações que são potencialmente problemáticas e, se necessário, tomar medidas para resolver problemas de segurança.|
 |

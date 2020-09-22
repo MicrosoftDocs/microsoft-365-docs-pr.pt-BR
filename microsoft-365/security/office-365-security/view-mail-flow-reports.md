@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: 3db9130083565d77bb84b4b31ec63eee5cc7a7c9
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: d33bd62e9a06385bf3448b7744031ae030dbe3ca
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171393"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195838"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Além dos relatórios de fluxo de emails disponíveis no painel de [fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade com segurança &, vários relatórios de fluxo de email adicionais estão disponíveis no painel de relatórios para ajudá-lo a monitorar sua organização do Microsoft 365.
 
@@ -131,22 +134,22 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 
   - **Date**
   - **Regra de transporte**
-  - **Assunto**
+  - **Subject**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direção**
+  - **Direction**
 
 - **Exibir dados por: regras de transporte do Exchange DLP**:
 
   - **Date**
   - **Política de DLP**
   - **Regra de transporte**
-  - **Assunto**
+  - **Subject**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direção**
+  - **Direction**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -237,7 +240,7 @@ Você pode alterar esses filtros clicando em **Filtrar** ou clicando em um valor
 
 A tabela de dados contém as seguintes informações:
 
-- **Direção**
+- **Direction**
 - **Tipo**
 - **24 horas**
 - **3 dias**
@@ -446,7 +449,7 @@ Se você clicar em **Exibir tabela de detalhes** na tela **dividir por: direçã
 
 - **Data (UTC)**
 - **Tipo**
-- **Direção**
+- **Direction**
 - **Contagem de mensagem**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:

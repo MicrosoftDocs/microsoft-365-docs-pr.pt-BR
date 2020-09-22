@@ -15,14 +15,17 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de emails (também conhecidas como regras de transporte) para receber cópias das mensagens que os usuários reportam à Microsoft.
-ms.openlocfilehash: 1612adeefff21fa9f149de6537917dd9b8c50b00
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 9798e808470a506da3d6dff65a5ea91934c1690d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827380"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195862"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Usar regras de fluxo de e-mails para ver o que seus usuários estão relatando à Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, há várias maneiras para os usuários reportarem mensagens para a Microsoft para análise, conforme descrito em [mensagens e arquivos de relatórios para a Microsoft](report-junk-email-messages-to-microsoft.md).
 

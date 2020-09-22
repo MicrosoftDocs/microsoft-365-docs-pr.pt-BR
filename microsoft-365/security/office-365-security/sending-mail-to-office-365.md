@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como um remetente externo, como você pode aumentar a capacidade de enviar emails para os usuários no Microsoft 365. Saiba também como relatar lixo eletrônico & tentativas de phishing como um usuário externo.
-ms.openlocfilehash: f20d5d64bccb69db47c159a8166fa3532b51e3db
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 0c0a981d12fa5b8159789a69597f83eb15d9b194
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825180"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196792"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>Envio de email para o Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Estes artigos ajudam os remetentes externos a melhorar sua reputação e aumentar a capacidade de entregar emails aos usuários no Microsoft 365. Eles também fornecem algumas informações sobre como é possível relatar lixo eletrônico e tentativas de phishing, mesmo que você não seja um usuário da Microsoft 365.
 

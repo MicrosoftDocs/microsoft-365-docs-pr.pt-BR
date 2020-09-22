@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c64adf870d3669b983e11093196f59c82b1f59e0
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 50ca606a6bef9cec528b6b0ef78142f050e37c51
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844901"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195486"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
@@ -41,9 +44,9 @@ Qualquer uma dessas licenças oferece acesso aos recursos de proteção contra a
 - Windows 10 Enterprise E5 ou a5
 - Enterprise Mobility + Security (EMS) E5 ou a5 
 - Office 365 E5 ou a5
-- Proteção avançada contra ameaças do Microsoft Defender
+- Proteção Avançada contra Ameaças do Microsoft Defender
 - Proteção Avançada contra Ameaças do Azure 
-- Segurança no aplicativo na nuvem da Microsoft
+- Microsoft Cloud App Security
 - Proteção contra Ameaças do Office 365 Advanced (Plano 2)
 
 > [!NOTE]

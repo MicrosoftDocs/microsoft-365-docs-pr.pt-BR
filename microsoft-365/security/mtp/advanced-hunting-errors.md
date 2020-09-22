@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5bc49ddfa93a06bc8f3d84ce7b8492681ee65cb7
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 20133e0f5dda3abc583adf66cc20a1d8fde190cf
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950897"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197996"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Manipular erros de busca avançada
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 A busca avançada exibe erros para notificar os erros de sintaxe e sempre que as consultas atingem [limites predefinidos](advanced-hunting-limits.md). Consulte a tabela abaixo para obter dicas sobre como resolver ou evitar erros. 
 

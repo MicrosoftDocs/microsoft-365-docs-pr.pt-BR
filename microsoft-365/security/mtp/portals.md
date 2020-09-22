@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e44411fdc14279dac92b8829503fd636e3225600
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: c4cb142e06835101eae94365ef2d36ea8287ca9b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608228"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195588"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 Embora o [centro de segurança do Microsoft 365](overview-security-center.md) seja a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos e aplicativos, você precisará acessar vários portais para determinadas tarefas especializadas.
 
 > [!TIP] 
