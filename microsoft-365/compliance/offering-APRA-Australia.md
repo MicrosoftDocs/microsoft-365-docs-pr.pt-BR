@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fb964bd6dcf229f362476b68ad87d05053e87f74
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 079fb69eb4d8fd41b9493d8bf992084640f2835a
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417745"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208653"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Autoridade de regulamentação Prudential australiana (APRA)
 
@@ -70,7 +70,7 @@ Ao confiar em nossa abordagem abrangente para a garantia de risco na nuvem, temo
 
 Obtenha suporte prático para mover dados e cargas de trabalho para o Azure em conformidade com as regulamentações do APRA: [baixar os serviços de nuvem da Microsoft: uma lista de verificação de conformidade para instituições financeiras na Austrália](https://www.microsoft.com/cms/api/am/binary/RE3ez0C).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
@@ -87,6 +87,10 @@ Além disso, se os serviços de nuvem forem considerados como "riscos herdados o
 **São permitidas transferências de dados fora da Austrália?**
 
 Sim. A legislação de privacidade geral (que se aplica a todos os setores, não apenas às instituições financeiras) permite transferências fora da Austrália sob determinadas condições. A Microsoft concorda com termos contratuais em linha com princípios de privacidade australiano para que as transferências de dados fora da Austrália sejam permitidas quando você usa os serviços de nuvem da Microsoft. No entanto, muitos dos nossos clientes de serviços financeiros da australiana aproveitam os serviços em nuvem disponíveis em nossos data centers da Austrália, para os quais fazemos compromissos contratuais específicos para armazenar categorias de dados em repouso na geografia da Austrália. Esses compromissos são descritos mais detalhadamente na [lista de verificação de conformidade](https://www.microsoft.com/cms/api/am/binary/RE3ez0C).
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

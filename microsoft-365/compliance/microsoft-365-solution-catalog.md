@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ff445711dfd57ec69305c3f8cc7d01e05a66a1cc
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: a560193bf7ee2911b90332f84eef2d60027cbbf9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132165"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198354"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -93,7 +93,7 @@ Se você estiver procurando por uma solução de conformidade existente e ela ai
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- **Revise sua pontuação de conformidade da Microsoft**, uma pontuação personalizada e baseada em riscos para ajudá-lo a entender o estado de conformidade da sua organização com normas e padrões principais. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Pontuação de conformidade (visualização)](compliance-score.md).
+- **Visite o Microsoft Compliance Manager**, que ajuda a entender o estado de conformidade da sua organização com normas e padrões importantes. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Gerenciador de conformidade](compliance-manager.md).
 
 - **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do insider](insider-risk-management.md).
 

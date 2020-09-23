@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b3cf1017a3ed64cecafe269e313ab5a6980af25
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 7969d18bea1e8873651a1ea94e46c6b7a6b48c83
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417725"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208393"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>Ato Gramm-Leach-Bliley (GLBA)
 
@@ -38,7 +38,7 @@ A Microsoft desenvolveu ferramentas de avaliação de riscos para o [Azure](http
 - [Baixar a ferramenta de avaliação de risco Cloud de serviços financeiros do Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Baixar a ferramenta de avaliação de risco em nuvem do Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -51,6 +51,10 @@ A Microsoft desenvolveu ferramentas de avaliação de riscos para o [Azure](http
 **Como saber se minha instituição financeira deve estar em conformidade com a lei do GLB?**
 
 A FTC responde isso detalhadamente em sua página do GLB Act, [que é coberta pela regra de privacidade](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)?
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

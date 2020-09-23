@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb1452bc0f33b56cd9fee6bb4846a8e623c0b96a
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 37da9f692b3556bf887d742ece3b99cdc1da60a2
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416845"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208403"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -51,7 +51,7 @@ Os serviços de nuvem corporativa da Microsoft também são cobertos por avalia�
 
 Para saber como a nuvem da Microsoft ajuda os clientes a oferecer suporte à HIPAA e aos requisitos de alta tecnologia, visite as [histórias de clientes da Microsoft](https://customers.microsoft.com).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Segurança no aplicativo na nuvem da Microsoft
@@ -102,15 +102,15 @@ Para ajudar os clientes nessa tarefa, a Microsoft publicou estes guias:
 - O [Guia prático para projetar soluções de integridade seguras usando o Microsoft Azure](https://aka.ms/azureindustrysecurity) ajuda a entender melhor o que é necessário para adotar um serviço de nuvem de forma segura.
 - [Atender aos requisitos de segurança e privacidade da HIPAA no Microsoft Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) oferece uma breve visão geral dos requisitos normativos. Ele também fornece uma análise detalhada de como os serviços de nuvem da Microsoft foram criados com metodologias que mapeiam esses requisitos e orientações sobre como criar soluções prontas para conformidade.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudar você a compreender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o modelo do [Office 365](https://go.microsoft.com/fwlink/?linkid=2118005) ou o [modelo HIPAA](https://go.microsoft.com/fwlink/?linkid=2118006) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 
 - [Regra HIPAA Omnibus](https://aka.ms/HIPAA-omnibus) (as regulamentações finais – modificando regras do HIPAA)
-- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Noções básicas sobre a conformidade HIPAA com o Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 de maio de 2016)
 - [Exemplo de Blueprint do HITRUST do Azure HIPAA](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)

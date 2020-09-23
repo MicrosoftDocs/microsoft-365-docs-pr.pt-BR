@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector de Telemensagem para importar e arquivar dados SMS e MMS da rede Verizon no Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: c088adbd0e0a5d4a46b3f7ddb3d64d3f8c32c8dc
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 8d3d23a4383f15b9390db3fb84b20a5566a28b8d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361826"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196550"
 ---
-# <a name="set-up-a-connector-to-archive-verizon-network-data-preview"></a>Configurar um conector para arquivar dados de rede Verizon (visualização)
+# <a name="set-up-a-connector-to-archive-verizon-network-data"></a>Configurar um conector para arquivar dados de rede Verizon
 
 Use o conector de Telemensagem no centro de conformidade da Microsoft 365 para importar e arquivar o serviço de mensagens curtas (SMS) e dados de MMS (Multimedia Messaging Service) da Verizon Network. Depois de configurar e configurar um conector, ele se conecta à rede Verizon da sua organização uma vez por dia e importa dados SMS e MMS para caixas de correio no Microsoft 365.
 
@@ -88,4 +87,4 @@ Depois de concluir os pré-requisitos descritos na seção anterior, você pode 
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

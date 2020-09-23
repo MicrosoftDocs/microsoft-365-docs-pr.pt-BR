@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fa93c78d240c243911e21e687ef5d02c29b714b2
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 59e11a5e0142647003ea4b0e9f1876ebedb37d00
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417335"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208443"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Título da CFR de comida e administração de drogas 21 parte 11
 
@@ -45,7 +45,7 @@ Os clientes podem solicitar acesso aos relatórios de conformidade, sujeitos a t
 
 Saiba como acelerar o título da sua FDA CFR 21 implantação: [baixar o guia de qualificação do Azure FDA 21](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 Embora não haja certificação para conformidade com o título da CFR 21 parte 11, os seguintes serviços de nuvem corporativa da Microsoft sofreram auditorias independentes, que podem ajudar os clientes em seus esforços de conformidade. Esses serviços incluem:
 
@@ -79,9 +79,13 @@ O [Portal de Confiança do Serviço](https://aka.ms/stphelp) fornece relatórios
 
 Sim. Os relatórios de conformidade independentes de terceiros dos padrões IEC/ISO 27001, ISO/IEC 27018, SOC 1 e SOC 2 são atestados à eficácia dos controles da Microsoft. Os clientes do Microsoft Enterprise Cloud podem usar os controles auditados descritos nesses relatórios relacionados como parte de seu próprio título da CFR 21 análise de risco da parte 11 e esforços de qualificação. Os clientes que criam e implantam aplicativos sujeitos à regulamentação da FDA são responsáveis por garantir que seus aplicativos atendam aos requisitos da FDA.
 
-**Quais são as responsabilidades da Microsoft em manter a conformidade com esse padrão?**
+**Quais são as responsabilidades da Microsoft para manter conformidade com esse padrão?**
 
 A Microsoft garante que os serviços de nuvem corporativa atendam aos termos definidos nos termos de controle de [serviços online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) e SLAs (contratos de nível de serviço) aplicáveis. Eles definem nossa responsabilidade para implementar e manter os controles adequados para proteger e monitorar o sistema.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 
@@ -90,7 +94,7 @@ A Microsoft garante que os serviços de nuvem corporativa atendam aos termos def
 - [Orientação da FDA para o setor parte 11: registros eletrônicos e assinaturas](https://www.fda.gov/RegulatoryInformation/Guidances/ucm125067.htm)
 - [Diretrizes de qualificação para o Azure](https://aka.ms/azurefda21cfrpart11qualguide)
 - [Diretrizes de qualificação para o Office 365](https://aka.ms/o365-qualification-guideline)
-- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud for Government](https://aka.ms/govt-cloud)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

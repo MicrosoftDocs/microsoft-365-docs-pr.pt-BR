@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9a5eb61d6009dd5a7ab2f66eb3ef712196368010
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 224221950104b5dee6a6e8f179db34ee6fad014e
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416725"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208767"
 ---
 # <a name="insider-risk-management-users-dashboard"></a>Painel usuários de gerenciamento de risco do insider
 
@@ -45,7 +45,7 @@ O **painel usuários** exibe automaticamente todos os usuários com indicadores 
 
 O **painel usuários** permite que você adicione usuários temporariamente a uma política de gerenciamento de risco do insider existente após um evento incomum fora do fluxo de trabalho de gerenciamento de risco do insider. A adição temporária de usuários também é uma maneira de adicionar usuários a uma política de gerenciamento de risco do insider para testar a política, mesmo que um conector necessário não esteja configurado.
 
-Quando um usuário é adicionado manualmente a uma política, as atividades do usuário dos últimos 90 dias são classificadas e adicionadas à linha do tempo de **atividade do usuário** . Por exemplo, um usuário que não está em escopo no momento em uma política de risco Insider e o usuário tem atividades de perda de dados relatadas para o departamento jurídico em sua organização. O departamento jurídico recomenda que você configure novos requisitos de monitoramento de curto prazo para o usuário. Você pode atribuir temporariamente o usuário à sua política de *vazamentos de dados* por um período de tempo designado (janela de ativação). Todos os usuários adicionados temporariamente são exibidos no **painel usuários** porque os requisitos do indicador de acionamento são RENUNCIADOS.
+Quando um usuário é adicionado manualmente a uma política, as atividades do usuário dos últimos 90 dias são classificadas e adicionadas à linha do tempo de **atividade do usuário** . Por exemplo, você tem um usuário que não está em escopo no momento em uma política de risco Insider e o usuário tem atividades de perda de dados relatadas para o departamento jurídico em sua organização. O departamento jurídico recomenda que você configure novos requisitos de monitoramento de curto prazo para o usuário. Você pode atribuir temporariamente o usuário à sua política de *vazamentos de dados* por um período de tempo designado (janela de ativação). Todos os usuários adicionados temporariamente são exibidos no **painel usuários** porque os requisitos do indicador de acionamento são RENUNCIADOS.
 
 >[!NOTE]
 >Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel usuários**. As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para exibir as atividades de usuários adicionados manualmente, selecione o usuário no **painel usuários** e abra a guia **atividade do usuário** no painel de detalhes.
@@ -104,3 +104,17 @@ Conclua as seguintes etapas para adicionar um usuário a uma política de risco 
 
 >[!NOTE]
 >Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel usuários**. As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para exibir as atividades de usuários adicionados manualmente, selecione o usuário no **painel usuários** e abra a guia **atividade do usuário** no painel de detalhes.
+
+## <a name="run-automated-tasks-with-power-automate-flows-for-a-user"></a>Executar tarefas automatizadas com fluxos de energia automatizados para um usuário
+
+Usando os fluxos de alimentação automatizados, os investigadores de risco e os analistas podem tomar medidas rapidamente para:
+
+- Notificar os usuários quando eles forem adicionados a uma política de risco Insider
+
+Para executar, gerenciar ou criar fluxos automatizados de energia para um usuário de gerenciamento de risco do insider:
+
+1. Selecione **automatizar** na barra de ferramentas ação do usuário.
+2. Escolha o fluxo automatizado de energia a ser executado e, em seguida, selecione **fluxo de execução**.
+3. Após a conclusão do fluxo, selecione **concluído**.
+
+Para saber mais sobre os fluxos de automatização de energia do gerenciamento de risco do Insider, confira [introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#power-automate-flows-preview).

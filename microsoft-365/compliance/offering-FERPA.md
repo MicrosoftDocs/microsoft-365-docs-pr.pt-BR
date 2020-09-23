@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cbf8b04fe4e3d301d3ee79c09895093f97c2e785
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 89f7e0ca95144e783b70e23c21008dcc46328522
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417345"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208453"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Lei de privacidade e direitos educacionais da família (FERPA)
 
@@ -41,7 +41,7 @@ O FERPA não requer ou reconhece auditorias ou outras certificações, de forma 
 
 Como resultado desses compromissos contratuais, os clientes sujeitos ao FERPA — instituições educacionais e terceiros para quem eles fornecem acesso a dados confidenciais do aluno — podem usar com segurança os serviços de nuvem do Microsoft Business para processar, armazenar e transmitir esses dados.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 Os serviços para os quais a Microsoft concorda em ser designados como uma "escola oficial" com "interesses educativos legítimos" nos dados do cliente incluem:
 
@@ -68,6 +68,10 @@ Esta legislação federal dos EUA exige a proteção da privacidade dos registro
 - [Registro Federal: FERPA última regra](https://aka.ms/ferpa-reg) (dezembro de 2011)
 - [Diretrizes gerais do FERPA para pais](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/parents.html)
 
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
+
 ## <a name="resources"></a>Recursos
 
 - [Lei de privacidade e direitos educacionais da família](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
@@ -75,5 +79,5 @@ Esta legislação federal dos EUA exige a proteção da privacidade dos registro
 - [Registro Federal: FERPA última regra](https://aka.ms/ferpa-reg)
 - [Guia de implementação do FERPA para o Microsoft Azure](https://aka.ms/azureferpa)
 - [Mapeamento da estrutura de conformidade do Azure FERPA](https://aka.ms/AzureFERPAMapping)
-- [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
+- [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

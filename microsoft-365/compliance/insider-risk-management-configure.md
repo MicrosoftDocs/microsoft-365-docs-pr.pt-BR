@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e4a13d25506481ddcdfaf6ca2f9ad21c871bb603
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 6645ce4d4f6b2fa8f2725e4b0679bc00fdec3505
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416465"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208797"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -89,6 +89,7 @@ Se você estiver configurando uma política usando o *idioma ofensivo no modelo 
 ### <a name="configure-microsoft-365-hr-connector"></a>Configurar o conector de RH da Microsoft 365
 
 O gerenciamento de risco do insider oferece suporte à importação de dados de log e de usuário importados de plataformas de gerenciamento e recursos humanos de terceiros. O conector de dados Human Resources (RH) da Microsoft 365 permite que você receba dados de recursos humanos de arquivos CSV, incluindo datas de término do usuário, datas do plano de melhoria do desempenho, ações de análise de desempenho e status de alteração no nível do trabalho. Esses dados ajudam a direcionar os indicadores de alerta nas políticas de gerenciamento de risco do insider e é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização. Se você configurar mais de um conector de RH para sua organização, o gerenciamento de riscos do insider receberá os indicadores automaticamente de todos os conectores de RH.
+
 O conector de RH da Microsoft 365 é necessário ao usar os seguintes modelos de política:
 
 - Parte do roubo de dados do usuário
@@ -123,10 +124,19 @@ O gerenciamento de riscos do insider inclui suporte para a atribuição de grupo
 
 Um grupo de usuários de prioridade é necessário ao usar os seguintes modelos de política:
 
-- Violações de política de segurança por usuários de prioridade 
+- Violações de política de segurança por usuários de prioridade
 - Vazamentos de dados por usuários de prioridade
 
 Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#priority-user-groups-preview) para obter orientações passo a passo para criar um grupo de usuários de prioridade. Depois de configurar um grupo de usuários de prioridade, retorne a estas etapas de configuração.
+
+### <a name="configure-physical-badging-connector-optional"></a>Configurar o conector de símbolos físico (opcional)
+
+O gerenciamento de risco do insider oferece suporte à importação de dados de log e de usuário importados de plataformas de acesso físico O conector símbolos físico permite que você extraia dados do Access de arquivos JSON, incluindo IDs de usuário, IDs de ponto de acesso, tempo de acesso e datas e status de acesso. Esses dados ajudam a direcionar os indicadores de alerta nas políticas de gerenciamento de risco do insider e é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização. Se você configurar mais de um conector de símbolos físico para sua organização, o gerenciamento de riscos do insider automaticamente extrairá os indicadores de todos os conectores físicos do símbolos. As informações do conector símbolos físico complementam outros sinais de risco internos ao usar todos os modelos de política de riscos Insider.
+
+>[!IMPORTANT]
+>Para políticas de gerenciamento de risco do insider para usar e correlacionar dados de sinal relacionados a cancelamento e usuários demitidos com dados de evento de suas plataformas de controle e de acesso físico, você também deve configurar o Microsoft 365 HR Connector. Se você habilitar o conector símbolos físico sem habilitar o conector de RH da Microsoft 365, as políticas de gerenciamento de risco do insider só processarão eventos para acesso físico não autorizado aos usuários em sua organização.
+
+Consulte o artigo [configurar um conector para importar dados do símbolos físico](import-physical-badging-data.md) para obter orientações passo a passo para configurar o conector símbolos físico para sua organização. Depois de configurar o conector, retorne para estas etapas de configuração.
 
 ## <a name="step-4-configure-insider-risk-settings"></a>Etapa 4: definir configurações de risco do insider
 
@@ -150,14 +160,17 @@ Antes de configurar uma política, defina as seguintes configurações de risco 
     - [Configurações de domínio](insider-risk-management-settings.md#domains-preview)
 6. Na página **Exportar alertas** , habilite a exportação de informações de alerta de risco do insider usando as APIs de gerenciamento do Office 365, se necessário.
 7. Na página **grupos de usuários de prioridade** , crie um grupo de usuários de prioridade e adicione usuários se não criados na **etapa 3**.
-8. Selecione **salvar** para habilitar essas configurações para suas políticas de risco do insider.
+8. Na página **fluxos** automáticos de energia, configure um fluxo de modelos de fluxo de risco do insider ou crie um novo fluxo. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#power-automate-flows-preview) para obter orientações passo a passo.
+9. Na **página de ativos de prioridade**, configure os ativos de prioridade para usar os dados do controle físico e da plataforma de acesso importados pelo conector símbolos físico. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#priority-physical-assets-preview) para obter orientações passo a passo.
+10. Na página **Microsoft Teams** , habilite a integração do Microsoft Teams com o gerenciamento de risco do insider para criar automaticamente uma equipe para colaboração de casos ou usuários. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#microsoft-teams-preview) para obter orientações passo a passo.
+11. Selecione **salvar** para habilitar essas configurações para suas políticas de risco do insider.
 
 ## <a name="step-5-create-an-insider-risk-management-policy"></a>Etapa 5: criar uma política de gerenciamento de risco do insider
 
 As políticas de gerenciamento de risco do insider incluem usuários atribuídos e definem quais tipos de indicadores de risco estão configurados para alertas. Antes que as atividades possam disparar alertas, uma política deve ser configurada.
 
 1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **políticas** .
-2. Selecione **criar política** para abrir o assistente de política
+2. Selecione **criar política** para abrir o assistente de política.
 3. Na página **nova política de riscos de insider** , preencha os seguintes campos:
     - **Nome (obrigatório)**: Insira um nome amigável para a política.
     - **Descrição (opcional)**: Insira uma descrição para a política.
@@ -165,6 +178,9 @@ As políticas de gerenciamento de risco do insider incluem usuários atribuídos
 
     >[!IMPORTANT]
     >A maioria dos modelos de política tem pré-requisitos que devem ser configurados para que a política Gere alertas relevantes. Se você não tiver configurado os pré-requisitos de política aplicáveis, consulte a **etapa 3** acima.
+
+    >[!CAUTION]
+    >A partir de 16 de outubro de 2020, você não poderá mais criar políticas usando o idioma ofensivo no modelo de email. As políticas ativas que usam esse modelo funcionarão até que sejam permanentemente removidas em janeiro de 2021.
 
 4. Selecione **Avançar** para continuar.
 5. Na página **usuários** , selecione **Adicionar usuário ou grupo** ou **escolha prioridade grupos de usuários** para definir quais usuários ou grupos de usuários de prioridade estão incluídos na política, dependendo do modelo de política que você selecionou. Marque a caixa **de seleção todos os usuários e grupos habilitados para email,** se aplicável (se você não tiver selecionado um modelo com prioridade de usuário). Selecione **Avançar** para continuar.

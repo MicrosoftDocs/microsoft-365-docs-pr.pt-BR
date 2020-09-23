@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 83c66bfce39698cfea7833433d337fe7411e0ebe
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: bf1297fb955a2f66de0d6e5677668952c8808c5c
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416341"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208373"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>Publicação de serviço de receita interna da US 1075
 
@@ -43,11 +43,11 @@ Para ajudar agências governamentais em seus esforços de conformidade, a Micros
 - Fornece às considerações de conformidade do governo do IRS e ao Office 365 considerações de conformidade do governo dos EUA, que descrevem como uma agência pode usar o Microsoft Cloud para serviços governamentais de uma maneira que seja compatível com o IRS 1075. Clientes governamentais sob NDA podem solicitar esses documentos.
 - Oferece aos clientes a oportunidade (com suas custas) para se comunicar com especialistas no Microsoft Subject ou fora dos auditores, se necessário.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 As autorizações do FedRAMP são concedidas a três níveis de impacto com base nas diretrizes do NIST: baixo, médio e alto. Essas classificam o impacto que a perda de confidencialidade, integridade ou disponibilidade pode ter em uma organização: baixo (efeito limitado), médio (efeito adverso sério) e alto (efeito grave ou catastrófico).
 
-- [Azure e Azure Governamental](https://azure.microsoft.com/global-infrastructure/government/)
+- [Azure e Azure Government](https://azure.microsoft.com/global-infrastructure/government/)
 - Dynamics 365 governo dos EUA
 - [Office 365 e Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Office 365 U.S. Government Defense
@@ -76,10 +76,14 @@ Sim, se sua organização atende aos requisitos de qualificação para o governo
 
 Não. Os únicos ambientes onde o FTI podem ser armazenados e processados são o governo do Azure ou o governo dos EUA do Office 365. Os clientes governamentais devem atender aos requisitos de qualificação para usar esses ambientes.
 
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
+
 ## <a name="resources"></a>Recursos
 
 - [Publicação IRS 1075](https://www.irs.gov/pub/irs-pdf/p1075.pdf)
 - [Programa de salvaguardas IRS](https://www.irs.gov/uac/Safeguards-Program)
-- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

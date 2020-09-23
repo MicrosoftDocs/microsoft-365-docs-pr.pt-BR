@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do Globanet Symphony para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: ade08b0f6f82bb2c76cdaf033e276909b5ec2122
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: fd44575aa34ea6f6180c5eabdbb286a3b8380d33
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405526"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196728"
 ---
-# <a name="set-up-a-connector-to-archive-symphony-data-preview"></a>Configurar um conector para arquivar dados de Symphony (visualização)
+# <a name="set-up-a-connector-to-archive-symphony-data"></a>Configurar um conector para arquivar dados de Symphony
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados do Symphony em caixas de correio do usuário na sua organização do Microsoft 365. Symphony é uma plataforma de mensagens e colaboração usada no setor de serviços financeiros. O Globanet fornece um [conector de dados Symphony](https://globanet.com/symphony) no centro de conformidade da Microsoft 365 que você pode configurar para capturar itens da fonte de dados de terceiros (regularmente) e, em seguida, importar esses itens para caixas de correio de usuários. O conector converte o conteúdo de um item da conta Symphony em um formato de mensagem de email e, em seguida, importa o item para uma caixa de correio no Microsoft 365.
 
@@ -90,4 +89,4 @@ Depois de criar o conector Symphony, você pode visualizar o status do conector 
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

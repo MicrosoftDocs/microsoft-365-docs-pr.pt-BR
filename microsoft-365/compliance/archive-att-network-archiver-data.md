@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector de Telemensagem para importar e arquivar dados de SMS e MMS da rede móvel em&T. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: dfcc59c6ed7beb088ca738c50112cf40a0ebe511
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 87974fd18f0e0a7c824e81231418ccf1c838b636
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362072"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200246"
 ---
-# <a name="set-up-a-connector-to-archive-att-smsmms-data-preview"></a>Configurar um conector para arquivar em&T SMS/MMS data (visualização)
+# <a name="set-up-a-connector-to-archive-att-smsmms-data"></a>Configurar um conector para arquivar em&T SMS/MMS data
 
 Use um conector de Telemensagem no centro de conformidade da Microsoft 365 para importar e arquivar dados SMS e MMS de em&rede móvel. Após a configuração e a configuração de um conector, ele se conecta à rede de sua organização em&T a cada dia e importa dados SMS e MMS para caixas de correio no Microsoft 365.
 
@@ -88,4 +87,4 @@ Depois de concluir os pré-requisitos descritos na seção anterior, você pode 
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

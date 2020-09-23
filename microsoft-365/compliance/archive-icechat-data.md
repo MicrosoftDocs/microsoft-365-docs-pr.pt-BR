@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados da ferramenta de chat ICE para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: b6b31c0ef9b083aa6432e35029fc14be1a817733
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 94a2d35b9bb8d3a0edae0eebeae53d7dd7b04af2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358223"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196364"
 ---
-# <a name="set-up-a-connector-to-archive-ice-chat-data-preview"></a>Configurar um conector para arquivar dados de chat de gelo (visualização)
+# <a name="set-up-a-connector-to-archive-ice-chat-data"></a>Configurar um conector para arquivar dados de chat de gelo
 
 Use um conector nativo no centro de conformidade da Microsoft 365 para importar e arquivar dados de chat de serviços financeiros da ferramenta de colaboração de chat ICE. Após a configuração e a configuração de um conector, ele se conecta ao site de FTP seguro da sua organização uma vez a cada dia, converte o conteúdo de mensagens de chat em um formato de mensagem de email e, em seguida, importa esses itens para caixas de correio no Microsoft 365.
 
@@ -59,7 +59,7 @@ A primeira etapa é obter uma cópia das chaves públicas para SSH (Secure Shell
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Na página **conectores de dados (visualização)** , em **chat de gelo**, clique em **Exibir**.
+2. Na página **conectores de dados** , em **chat de gelo**, clique em **Exibir**.
 
 3. Na página **chat Ice** , clique em **Adicionar conector**.
 

@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector de Telemensagem para importar e arquivar chamadas SMS, MMS e de voz de telefones móveis Android. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 2284e09b3f04bf135435407a842f3e2c3f0648fa
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 35ff69ec3b8f0af5ed86350862bb7b0917a98909
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362094"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200256"
 ---
-# <a name="set-up-a-connector-to-archive-android-mobile-data-preview"></a>Configurar um conector para arquivar dados móveis do Android (versão prévia)
+# <a name="set-up-a-connector-to-archive-android-mobile-data"></a>Configurar um conector para arquivar dados móveis do Android
 
 Use um conector de Telemensagem no centro de conformidade da Microsoft 365 para importar e arquivar o SMS, MMS, chamadas de voz e logs de chamadas de telefones móveis Android. Depois de configurar e configurar um conector, ele se conecta à conta de Telemensagem de sua organização uma vez por dia e importa a comunicação móvel de funcionários usando o Archiver de Android para caixas de correio no Microsoft 365.
 
@@ -84,4 +83,4 @@ A última etapa é criar um conector do Archiver para Android no centro de confo
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

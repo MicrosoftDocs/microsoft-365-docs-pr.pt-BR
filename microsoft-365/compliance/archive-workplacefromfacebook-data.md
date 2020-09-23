@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do local de trabalho do Facebook, que são arquivados no site do Merge1 do Globanet, no Microsoft 365. A configuração de um conector requer que você trabalhe com o Globanet esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 4bef408f7da93f2ade18fe126d3a1dedaa413a65
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: cea8f7549bbf1ed19bc3de6fe4d1e1c63f1be4cd
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405482"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195578"
 ---
-# <a name="set-up-a-connector-to-archive-workplace-from-facebook-data-preview"></a>Configurar um conector para arquivar o local de trabalho de dados do Facebook (visualização)
+# <a name="set-up-a-connector-to-archive-workplace-from-facebook-data"></a>Configurar um conector para arquivar o local de trabalho de dados do Facebook
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados do local de trabalho do Facebook para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um [local de trabalho do conector do Facebook](https://globanet.com/workplace/) que é configurado para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para o Microsoft 365. O conector converte o conteúdo como chats, anexos, postagens e vídeos do local de trabalho em um formato de mensagem de email e importa esses itens para caixas de correio do usuário no Microsoft 365.
 
@@ -94,4 +93,4 @@ Depois de criar o local de trabalho do conector do Facebook, você pode exibir o
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

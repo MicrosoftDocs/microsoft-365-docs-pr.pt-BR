@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c8c5e78cfd7d531b2c2ee46ae4f28367240a87ca
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 29c56d525375162926d34bd298bbbd660964438d
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415987"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208153"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>Requisitos de localização de dados pessoais em Russo
 
@@ -40,6 +40,10 @@ A Microsoft solicita que os clientes considerem inscrever-se nos serviços onlin
 ### <a name="managing-user-identity-and-access-for-microsoft-online-services"></a>Gerenciando identidades de usuário e acesso para serviços online da Microsoft
 
 Para os serviços online da Microsoft, como o Microsoft Azure, o Microsoft 365, o Dynamics 365 e a plataforma de energia, a verificação e o gerenciamento de acesso do usuário são realizados por meio [do Azure Active Directory (AAD)](https://azure.microsoft.com/services/active-directory/). Observe que casos em que um cliente da Microsoft usa um sistema de gerenciamento de identificação local para serviços de nuvem da Microsoft (como o Windows Server Active Directory (AD) ou qualquer outro sistema de gerenciamento de ID), o cliente tem uma oportunidade de integrar rapidamente esse sistema ao Azure Active Directory (AAD) por meio do Azure AD Connect. Consulte a opção [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/) para obter mais informações. Os clientes da Microsoft também podem considerar o uso de aplicativos e soluções de fornecedores terceirizados para o gerenciamento de seus usuários e a integração do sistema de identificação local com o Azure AD.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="questions-and-support"></a>Perguntas e suporte
 

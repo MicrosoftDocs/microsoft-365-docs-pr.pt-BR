@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 90670c8102afe0dcf0814726bde36bd422e802a9
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: be40c207f5f09c97d1a0a4da5cf56e2caf2c51b7
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417083"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208163"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) cybersecurity Framework (CSF)
 
@@ -40,7 +40,7 @@ Saiba como acelerar sua implantação de estrutura do NIST cybersecurity com a p
 - [Visão geral da amostra do NIST SP 800-53 R4 Blueprint](https://docs.microsoft.com/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [Saiba mais sobre a avaliação CSF do NIST para o Office 365 em Pontuação de conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 para o governo](https://aka.ms/d365-compliance-list)
@@ -97,9 +97,9 @@ Os serviços dentro do escopo da certificação CSF do NIST são arquivamento do
 
 A Microsoft fornece as ofertas mais abrangentes em comparação a outros provedores de serviços de nuvem. Para acompanhar nossas amplas ofertas de conformidade em regiões e indústrias, incluímos serviços no escopo de nossos esforços de garantia com base na demanda do mercado, comentários do cliente e ciclo de vida do produto. Se um serviço não estiver incluído no escopo atual de uma oferta de conformidade específica, sua organização tem a responsabilidade de avaliar os riscos com base em suas obrigações de conformidade e determinar a maneira como você processa os dados nesse serviço. Coletamos continuamente comentários de clientes e trabalhamos com reguladores e auditores para expandir nossa cobertura de conformidade para atender às suas necessidades de segurança e conformidade.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o modelo de CSF do [NIST](https://go.microsoft.com/fwlink/?linkid=2117917) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

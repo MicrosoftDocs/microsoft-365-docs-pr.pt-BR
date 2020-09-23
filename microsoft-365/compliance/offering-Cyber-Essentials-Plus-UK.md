@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6b0d28c853c540e72c4287b141097f12ddf23419
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 54f1c4006450d47e974c4775720c91d8c6bea764
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415571"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208583"
 ---
 # <a name="united-kingdom-cyber-essentials-plus"></a>Cyber Essentials do Reino Unido PLUS
 
@@ -46,6 +46,10 @@ A [certificação do Azure Cyber Essentials Plus](https://aka.ms/AzureCyberEPlus
 
 - [Relatório de conformidade do Azure Cyber Essentials PLUS](https://aka.ms/AzureCyberEPlusReport)
 - [Certificação do Azure Cyber Essentials PLUS](https://aka.ms/AzureCyberEPlusCert)
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c91c71f199ef36c1c9a0da023c7b26d6cb64282e
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 94e83110ef9761f551fd1401884dbba58a8df107
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415775"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208433"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP (Programa Federal de Gerenciamento de Autorização e Risco)
 
@@ -63,9 +63,9 @@ Dynamics 365 o governo dos EUA recebeu um ATO de agência de FedRAMP no nível d
 - O Office 365 defesa do governo dos EUA tem um P-ATO da DISA (Agência de sistemas de informações de defesa dos EUA). Qualquer cliente que deseje implantar o Office 365 a defesa do governo dos EUA pode usar o P-ATO de DISA para gerar um ATO de agência para documentar sua aceitação.
 - O Office 365 (planos corporativos e comerciais) e o Office 365 governo dos EUA têm um ATO de agência FedRAMP no nível de impacto moderado do Office DHHS do inspetor geral. Office 365 o governo dos EUA foi o primeiro serviço de colaboração e email baseado em nuvem a obter essa autorização.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
-- [Azure e Azure Governamental](https://go.microsoft.com/fwlink/p/?linkid=2095323)
+- [Azure e Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2095323)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365 e Office 365 regulamentar nos EUA](https://go.microsoft.com/fwlink/p/?linkid=2077751)
@@ -109,9 +109,9 @@ Para obter uma visão geral das etapas federais que as agências devem executar 
 
 Sim. Você pode usar as certificações dos serviços de nuvem da Microsoft como base para qualquer programa ou iniciativa que exija uma ATO de uma agência governamental federal. No entanto, você precisa obter suas próprias autorizações para componentes fora desses serviços.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o [modelo FedRAMP](https://go.microsoft.com/fwlink/?linkid=2118102) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

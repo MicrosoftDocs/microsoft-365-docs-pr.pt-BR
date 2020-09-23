@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: fa38b81ff02729f1bd874c1ac286712b0a6bbb7a
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 9ff029904a34291f4131f2013ffe30b73aa3233c
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416805"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208777"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -71,7 +71,7 @@ Ao criar ou modificar políticas de DLP para uso com políticas de gerenciamento
 
 Cada política de gerenciamento de risco do insider criada a partir do modelo de **vazamentos de dados** pode ter apenas uma política de DLP atribuída. Considere a criação de uma política de DLP dedicada que combine as diferentes atividades que você deseja detectar e atue como eventos de acionamento para políticas de risco de insider que usam o modelo de **vazamento de dados** .
 
-Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
+Consulte o artigo [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
 
 ### <a name="data-leaks-by-priority-users-preview"></a>Vazamentos de dados por usuários de prioridade (visualização)
 
@@ -115,6 +115,9 @@ Você também precisará ter o Microsoft defender ATP configurado em sua organiz
 
 ### <a name="offensive-language-in-email"></a>Idioma ofensivo no email
 
+>[!IMPORTANT]
+>A partir de 16 de outubro de 2020, você não poderá mais criar políticas usando esse modelo. As políticas ativas que usam esse modelo funcionarão até que sejam permanentemente removidas em janeiro de 2021. Estamos preterindo o classificador interno de idioma ofensivo que oferece suporte a esse modelo, pois ele está produzindo um grande número de falsos positivos. Para resolver problemas de risco para linguagem ofensiva, recomendamos o uso de políticas de [conformidade de Comunicação](communication-compliance.md) do Microsoft 365. Para obter mais informações sobre classificadores internos, confira [introdução aos classificadores estagiários](classifier-get-started-with.md).
+
 Detectar e realizar ações para impedir o comportamento ofensivo e abusivo é um componente essencial da prevenção de riscos. Classificadores internos no Microsoft 365 Scan mensagens de email de caixas de correio do Exchange Online em sua organização para diferentes tipos de problemas de conformidade. Esses classificadores usam uma combinação de inteligência artificial e palavras-chave para identificar o idioma em que o email provavelmente viola as políticas antiassédio. Use este modelo para criar rapidamente uma política que use esses classificadores para detectar automaticamente o conteúdo de mensagens de email que pode ser considerado abusivo ou ofensivo. O gerenciamento de risco do insider usa classificadores que verificam as mensagens de email enviadas para termos do idioma inglês e uma inversão para linguagem ofensiva.
 
 ### <a name="policy-template-prerequisites-and-triggering-events"></a>Pré-requisitos de modelo de política e eventos de disparo
@@ -139,7 +142,7 @@ A tabela a seguir lista os eventos de acionamento e os pré-requisitos para pol�
 
 As políticas de gerenciamento de risco do insider oferecem suporte à especificação de uma prioridade mais alta para o conteúdo, dependendo de onde estejam armazenadas ou como são classificadas. A especificação de conteúdo como prioridade aumenta a pontuação de risco para qualquer atividade associada, o que, por sua vez, aumenta a chance de gerar um alerta de alta gravidade. No entanto, algumas atividades não gerarão nenhum alerta, a menos que o conteúdo relacionado contenha tipos de informações confidenciais internas ou personalizadas ou tenha sido especificado como uma prioridade na política.
 
-Por exemplo, sua organização tem um site dedicado do SharePoint para um projeto altamente confidencial. Os vazamentos de dados para informações neste site do SharePoint podem comprometer o projeto e ter um impacto significativo em seu sucesso. Ao priorizar esse site do SharePoint em uma política de vazamento de dados, a pontuação de risco para atividades de qualificação é aumentada automaticamente. Isso aumenta a probabilidade de que essas atividades gerem um alerta de risco Insider e aumentam o nível de severidade para o alerta.
+Por exemplo, sua organização tem um site dedicado do SharePoint para um projeto altamente confidencial. Os vazamentos de dados para informações neste site do SharePoint podem comprometer o projeto e ter um impacto significativo em seu sucesso. Ao priorizar esse site do SharePoint em uma política de vazamento de dados, a pontuação de risco para atividades de qualificação é aumentada automaticamente. Essa priorização aumenta a probabilidade de que essas atividades gerem um alerta de risco Insider e aumentam o nível de severidade para o alerta.
 
 Ao criar uma política de gerenciamento de risco do insider no assistente de política, você pode escolher entre as seguintes prioridades:
 

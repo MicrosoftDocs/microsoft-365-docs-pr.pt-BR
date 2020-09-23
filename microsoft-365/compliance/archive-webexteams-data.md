@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do conector de equipes WebEx do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: c345edd3a560fff3818cdc7a52ad04e03279f339
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 3d9693fd1baf990ba3ca956c8a24d8d796e80995
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405440"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196560"
 ---
-# <a name="set-up-a-connector-to-archive-webex-teams-data-preview"></a>Configurar um conector para arquivar dados de equipes do WebEx (visualização)
+# <a name="set-up-a-connector-to-archive-webex-teams-data"></a>Configurar um conector para arquivar dados de equipes do WebEx
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados de equipes do WebEx para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector de [equipes WebEx](https://globanet.com/webex-teams/) que é configurado para capturar itens de comunicação do WebEx Teams e importá-los para o Microsoft 365. O conector converte o conteúdo de equipes WebEx, como 1:1 chats, conversas de grupo, conversas de canal e anexos da conta de equipes WebEx de sua organização, para um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -94,4 +93,4 @@ Depois de criar o conector de equipes WebEx, você pode visualizar o status do c
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

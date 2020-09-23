@@ -11,18 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados da margem de atraso do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 6466beb6115037ff726b1e5fd3350032bceb2230
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: 532b8a8eb4331d66e1c7522d79bde2b5b6b0a02f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47957026"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196751"
 ---
-# <a name="set-up-a-connector-to-archive-slack-data-preview"></a>Configurar um conector para arquivar dados de margem de atraso (visualização)
+# <a name="set-up-a-connector-to-archive-slack-data"></a>Configurar um conector para arquivar dados de margem de atraso
 
-Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados de terceiros de mídia social, mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio em sua organização do Microsoft 365. O Globanet fornece um conector de [conector de dados de margem de atraso](https://globanet.com/slack/) no centro de conformidade da Microsoft 365 que você pode configurar para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para a Microsoft 365. A margem de atraso extrai mensagens e arquivos da API de margem de atraso e converte-os em um formato de mensagens de email e os importa para caixas de correio do usuário no Microsoft 365.
+Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados de terceiros de mídia social, mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio em sua organização do Microsoft 365. Globanet fornece um conector de margem de atraso que é configurado para capturar itens da fonte de dados de terceiros (regularmente) e importá-los para o Microsoft 365. A margem de atraso extrai mensagens e arquivos da API de margem de atraso e os converte em um formato de mensagem de email e importa o item para as caixas de correio do usuário.
 
 Após os dados da margem de atraso serem armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, descoberta eletrônica, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso de um conector de margem de atraso para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
@@ -92,4 +91,4 @@ Depois de criar o conector de margem de atraso, você pode visualizar o status d
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos e itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

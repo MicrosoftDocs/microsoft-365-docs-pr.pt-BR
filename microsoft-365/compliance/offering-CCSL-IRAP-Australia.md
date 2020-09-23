@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0ff270c27c4b3d1a376b8b9ddefd1177cdd7823f
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 03a48dc757b8028fe0391bdc8f0469b8632f0f61
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417325"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208643"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Consultor programa de segurança de informações governamentais da Austrália (IRAP)
 
@@ -50,7 +50,7 @@ A avaliação dos serviços da Microsoft na Austrália abrange as quatro regiõe
 
 Para cada avaliação, a Microsoft contratou um ACSC IRAP consultor que examinou os controles de segurança e os processos usados pela equipe de operações de ti da Microsoft, data centers físicos, detecção de invasão, criptografia, segurança entre domínios e redes, controle de acesso e gerenciamento de riscos de segurança de informações de serviços no escopo. As avaliações do IRAP descobriram que a arquitetura do sistema da Microsoft baseia-se nos princípios de segurança de som e que os controles do ISM (manual de segurança de informações) da australiana são estabelecidos e totalmente efetivo nos nossos serviços avaliados.
 
-A estrutura de gerenciamento de riscos usada pelo ISM é [destinada à publicação especial da National Institute of Standards and Technology (NIST) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final), "estrutura de gerenciamento de risco para sistemas de informação e organizações: uma abordagem de ciclo de vida do sistema para segurança e privacidade." Nesta estrutura de gerenciamento de riscos, a identificação de riscos e a seleção de controles de segurança podem ser realizadas usando uma variedade de padrões de gerenciamento de riscos, como a [International Organization for Standardization (ISO) 31000:2018, gerenciamento de riscos – diretrizes](https://www.iso.org/standard/65694.html). Em geral, a estrutura de gerenciamento de riscos usada pelo ISM tem seis etapas:
+A estrutura de gerenciamento de riscos usada pelo ISM é [destinada à publicação especial da National Institute of Standards and Technology (NIST) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final), "estrutura de gerenciamento de risco para sistemas de informação e organizações: uma abordagem de ciclo de vida do sistema para segurança e privacidade." Nesta estrutura de gerenciamento de riscos, a identificação de riscos e a seleção de controles de segurança podem ser realizadas usando uma variedade de padrões de gerenciamento de riscos, como a [International Organization for Standardization (ISO) 31000:2018, gerenciamento de riscos-diretrizes](https://www.iso.org/standard/65694.html). Em geral, a estrutura de gerenciamento de riscos usada pelo ISM tem seis etapas:
 
 - Definir o sistema
 - Selecionar controles de segurança
@@ -63,7 +63,7 @@ Como sempre, os controles adicionais de compensação podem ser implementados em
 
 A avaliação do IRAP dos serviços da Microsoft ajuda a garantir que os clientes do setor público no governo e seus parceiros que a Microsoft tenha controles de segurança adequados e eficazes em vigor para o processamento, o armazenamento e a transmissão de informações classificadas e PROTEGIDAs. Isso inclui a maioria dos dados governamentais, de saúde e de educação na Austrália.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure e Dynamics](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -86,9 +86,9 @@ Comece com o [que é IRAP?](https://www.cyber.gov.au/irap/what-irap) e siga-o co
 - [Quem fornece treinamento do IRAP?](https://acsc.gov.au/infosec/irap/training.htm)
 - [Informações sobre requisitos de conformidade e não conformidade](https://acsc.gov.au/infosec/irap/compliance.htm)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o [modelo IRAP](https://go.microsoft.com/fwlink/?linkid=2117913) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

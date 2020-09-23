@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados EML do Globanet para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 99b32960b46853ed4766c255e36df05c8fe9086a
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: c11d66774a61fa20a533b5c906b3c8601659c1fe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405592"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200214"
 ---
-# <a name="set-up-a-connector-to-archive-eml-data-preview"></a>Configurar um conector para arquivar dados EML (visualização)
+# <a name="set-up-a-connector-to-archive-eml-data"></a>Configurar um conector para arquivar dados EML
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados EML para caixas de correio de usuários na sua organização do Microsoft 365. EML é a extensão de arquivo de uma mensagem de email salva em um arquivo. O conector converte o conteúdo de um item do formato de origem em um formato de mensagem de email e importa o item para uma caixa de correio de usuário.
 
@@ -90,4 +89,4 @@ Depois de criar o conector EML, você pode visualizar o status do conector no ce
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

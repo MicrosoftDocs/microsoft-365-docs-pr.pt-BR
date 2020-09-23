@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: d7e06eb025513caa2d4ad61f7b9d8b2a9e0d2cba
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 92b8802325ea6d80241d59bd506051ad048b8422
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199561"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208673"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de risco do insider no Microsoft 365
 
@@ -115,7 +115,7 @@ Após os casos serem investigados, os revisores podem agir rapidamente para reso
 Nas situações mais sérias, talvez você precise compartilhar as informações do caso de gerenciamento de risco do insider com outros revisores ou serviços em sua organização. O gerenciamento de riscos do insider está totalmente integrado a outras soluções de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta.
 
 - **Descoberta eletrônica avançada**: o escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
-- **Servicenow (visualização)**: o servicenow é uma plataforma de computação em nuvem popular que ajuda as organizações a gerenciar fluxos de trabalho digitais para operações empresariais. O gerenciamento de risco do insider oferece suporte ao compartilhamento de alertas de casos com o serviço do ServiceNow e permite que você crie incidentes e altere solicitações relacionadas a casos de risco do insider. Para saber mais sobre como compartilhar informações de alerta com o ServiceNow, confira [compartilhar um caso com o servicenow](insider-risk-management-cases.md#share-a-case).
+- **Servicenow (visualização)**: o servicenow é uma plataforma de computação em nuvem popular que ajuda as organizações a gerenciar fluxos de trabalho digitais para operações empresariais. O gerenciamento de risco do insider oferece suporte ao compartilhamento de alertas de casos com o serviço do ServiceNow e permite que você crie incidentes e altere solicitações relacionadas a casos de risco do insider. Para saber mais sobre como compartilhar informações de alerta com o ServiceNow, confira [compartilhar um caso com o servicenow](insider-risk-management-cases.md#share-the-case).
 - **Integração de APIs de gerenciamento do Office 365 (versão prévia)**: o gerenciamento de risco do insider oferece suporte à exportação de informações de alerta para serviços de gerenciamento de eventos e informações de segurança por meio das APIs de gerenciamento do Office 365 Ter acesso a informações de alerta na plataforma o mais adequado para os processos de risco da sua organização oferece maior flexibilidade na forma de agir em atividades de risco. Para saber mais sobre como exportar informações de alerta com as APIs de gerenciamento do Office 365, confira [Exportar alertas](insider-risk-management-settings.md#export-alerts-preview).
 
 ## <a name="scenarios"></a>Cenários

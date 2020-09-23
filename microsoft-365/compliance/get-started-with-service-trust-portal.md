@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Saiba como acessar e usar o Microsoft Service Trust portal para ajudar nas práticas de segurança, privacidade e conformidade.
-ms.openlocfilehash: 40c80c0256f730784373a0ff96474d02dbf175c5
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a3a46884a41be31779b82a74bc2b6750dea697c5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547469"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197758"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Introdução ao portal de confiança do serviço Microsoft
 
@@ -68,11 +68,8 @@ O link do **portal de confiança do serviço** exibe a Home Page. Ele oferece um
 
 ### <a name="compliance-manager"></a>Gerente de Conformidade
 
-O Gerenciador de conformidade é uma ferramenta de avaliação de riscos baseada em fluxo de trabalho que ajuda a rastrear, atribuir e verificar as atividades de conformidade normativa da sua organização relacionadas aos serviços de nuvem da Microsoft, como o Microsoft 365, o Dynamics 365 e o Azure. Use o Gerenciador de conformidade para gerenciar a conformidade normativa dentro do modelo de responsabilidade compartilhada da nuvem. Dependendo da versão do Gerenciador de conformidade que você deseja usar, consulte os seguintes artigos para obter mais informações:
-
-- [Gerenciador de conformidade da Microsoft (clássico)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-
-- [Gerente de conformidade da Microsoft (versão prévia)](compliance-manager-overview.md)
+> [!IMPORTANT]
+> O Gerenciador de conformidade mudou do portal de confiança do serviço para seu novo local no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com/). Todos os dados do cliente foram movidos para o novo local, para que você possa continuar usando o Gerenciador de conformidade sem interrupção. Consulte a [documentação do Gerenciador de conformidade](compliance-manager.md) para obter informações de configuração e aprender sobre novos recursos. Embora a versão clássica do Gerenciador de conformidade permaneça no portal de confiança do serviço, todos os usuários são incentivados a usar o Gerenciador de conformidade no centro de conformidade da Microsoft 365.
 
 ### <a name="trust-documents"></a>Documentos de Confiança
 
@@ -110,15 +107,9 @@ Este novo recurso permite salvar (ou *fixar*) documentos para que você possa ac
 
 Vá para **mais > administrador** para acessar funções administrativas que estão disponíveis somente para a conta de administrador global. Essa opção estará visível somente quando você estiver conectado como um administrador global. Há duas opções no menu suspenso **administrador** :
 
-- **Configurações:** Essa página permite atribuir acesso baseado em função (conhecido como *funções de usuário*) ao Gerenciador de conformidade.  Para mais informações, confira:
+- **Configurações:** Esta página permite que você atribua funções de usuário para o Gerenciador de conformidade (clássico).
 
-  - [Permissões no Gerenciador de conformidade (clássico)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#permissions-and-role-based-access-control)
-
-  - [Permissões no gerente de conformidade (visualização)](compliance-manager-overview.md#permissions)
-
-  Você também pode configurar se as ações no Gerenciador de conformidade são atualizadas com base no status da mesma ação na pontuação segura. Esse recurso só será suportado se você estiver usando a versão mais recente do Gerenciador de conformidade. Para obter mais informações, consulte [controle de atualizações automáticas de Pontuação segura](working-with-compliance-manager.md#controlling-automatic-secure-score-updates).
-
-- **Configurações de privacidade do usuário:** Esta página permite exportar um relatório que contém as atribuições de item de ação no Gerenciador de conformidade para um usuário específico. Você também pode reatribuir todos os itens de ação a um usuário diferente e remover qualquer item de ação atribuído do usuário especificado. Para obter mais informações, consulte [configurações de privacidade do usuário](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#user-privacy-settings).
+- **Configurações de privacidade do usuário:** Esta página permite exportar um relatório que contém as atribuições de item de ação no Gerenciador de conformidade (clássico) para um usuário específico. Você também pode reatribuir todos os itens de ação a um usuário diferente e remover qualquer item de ação atribuído do usuário especificado.
 
 ### <a name="search"></a>Pesquisa
 
@@ -128,7 +119,7 @@ Clique na lupa no canto superior direito da página do portal de confiança do s
 
 Por padrão, a pesquisa retorna resultados de documento. Você pode filtrar os resultados usando as listas suspensas para aprimorar a lista de documentos exibidos. Você pode usar vários filtros para restringir a lista de documentos. Os filtros incluem os serviços de nuvem específicos, categorias de práticas de conformidade ou segurança, regiões e setores. Clique no link nome do documento para baixar o documento.
 
-Para listar os controles de avaliações no gerente de conformidade relacionados aos termos de pesquisa, clique em **Gerenciador de conformidade**. Os resultados da pesquisa mostram a data em que a avaliação foi criada, o nome do agrupamento de avaliação, o serviço do Microsoft Cloud aplicável e se o controle é gerenciado pela Microsoft ou pelo cliente. Clique no nome do controle para exibir o controle na avaliação no Gerenciador de conformidade.
+Para listar os controles de avaliações no Gerenciador de conformidade (clássico) relacionados aos termos de pesquisa, clique em **Gerenciador de conformidade**. Os resultados da pesquisa mostram a data em que a avaliação foi criada, o nome do agrupamento de avaliação, o serviço do Microsoft Cloud aplicável e se o controle é gerenciado pela Microsoft ou pelo cliente. Clique no nome do controle para exibir o controle na avaliação no Gerenciador de conformidade (clássico).
 
 ![Portal de Confiança do Serviço – pesquisa em controles de gerenciamento de conformidade](../media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
 

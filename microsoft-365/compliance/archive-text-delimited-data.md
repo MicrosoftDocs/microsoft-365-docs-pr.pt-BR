@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados delimitados por texto do Globanet para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 6a7c8a23fdf78ccac21e1cae68dbc6b971bd6486
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 854e678067a26fd5fa1f89eb4b2f4f0327eac7a0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405602"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196570"
 ---
-# <a name="set-up-a-connector-to-archive-text-delimited-data-preview"></a>Configurar um conector para arquivar dados delimitados por texto (visualização)
+# <a name="set-up-a-connector-to-archive-text-delimited-data"></a>Configurar um conector para arquivar dados delimitados por texto
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados delimitados por texto para caixas de correio de usuários na sua organização do Microsoft 365. O [Globanet](https://globanet.com/merge1/) fornece um conector delimitado por texto que é configurado para capturar itens de uma fonte de dados de terceiros (em uma base regular) e importá-los para o Microsoft 365. O conector converte o conteúdo da fonte de dados delimitada por texto em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -92,4 +91,4 @@ Depois de criar o conector de texto delimitado, você pode visualizar o status d
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

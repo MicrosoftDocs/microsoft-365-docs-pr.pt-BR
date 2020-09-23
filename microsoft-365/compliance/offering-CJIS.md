@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5680cc1bf8f3a0290f82baaccea1de7b982317a7
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 4ca7654482251d86c44a3956c71f704a0cc3f2d4
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416413"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208613"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Política de segurança de serviços de informações de justiça criminal (CJIS)
 
@@ -43,7 +43,7 @@ Saiba mais sobre os benefícios da política de segurança do CJIS na nuvem da M
 
 Saiba como acelerar sua política de segurança do CJIS com o plano de conformidade e segurança do Azure: [Baixe as diretrizes de implementação do CJIS para os serviços de nuvem do Microsoft governo](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 governo dos EUA](https://aka.ms/d365-compliance-list)
@@ -78,11 +78,15 @@ A Microsoft assina um contrato de informação com um CSA (CJIS Systems Agency) 
 
 [CJIS política de segurança](https://aka.ms/cjis-security-policy) cobre as precauções que a Agência deve tomar para proteger o CJI. Além disso, seu representante de conta da Microsoft pode colocá-lo em contato com aqueles familiarizados com os requisitos de sua jurisdição
 
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
+
 ## <a name="resources"></a>Recursos
 
 - [Serviços de informações de justiça criminal](https://aka.ms/cjis)
 - [Política de segurança do CJIS](https://aka.ms/cjis-security-policy)
 - [Diretrizes de implementação do CJIS para o governo do Azure](https://aka.ms/cjisimplementationguidelines)
-- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/?linkid=2087246)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

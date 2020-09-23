@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c037a36154f14cc0db2092bc2eeea6344b5544ff
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: aac61dc6686e318d21a6aa6cb1ee86704879f51b
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416067"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208193"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reservar o banco da Índia (RBI) e autoridade de desenvolvimento e regulamentação de seguros da Índia (IRDAi)
 
@@ -31,7 +31,7 @@ As diretrizes de terceirização e gerenciamento de riscos incluem:
 
 - [Diretrizes sobre o gerenciamento de riscos e código de conduta na terceirização de serviços financeiros por bancos](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) (RBI) os riscos aos quais os bancos regulamentados seriam expostos enquanto terceirizam os serviços financeiros e ajudam a garantir que a terceirização não impeça a função de supervisão do RBI. O RBI não requer aprovação prévia para bancos que buscam serviços financeiros terceirizados; no entanto, as funções bancárias principais, como funções internas de auditoria e conformidade, não devem ser terceirizadas.
 - [Diretrizes sobre segurança de informações, bancos eletrônicos, gerenciamento de riscos tecnológicos e fraudes na CyberSource](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) (RBI). As instituições financeiras devem relatar as disposições de terceirização nas quais a escala e a natureza das atividades são significativas ou exigem um amplo compartilhamento de dados com provedores de serviços fora da Índia. Este guia se aplica especialmente se dados operacionais estiverem armazenados ou processados fora da Índia.
-- [Terceirização de atividades pela regulamentação de certeza](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) (IrDA) do Índico. A cada ano, as organizações de seguros precisam relatar a terceirização para a IRDAi de determinadas funções de suporte das principais atividades em até 45 dias após o fechamento do ano financeiro. (A página 7 na [lista de verificação](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) da Microsoft descreve o que constitui "funções de suporte das principais atividades".
+- [Terceirização de atividades pela regulamentação de certeza](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) (IrDA) do Índico. A cada ano, as organizações de seguros precisam relatar a terceirização para a IRDAi de determinadas funções de suporte das principais atividades em até 45 dias após o fechamento do ano financeiro. (A página 7 na [lista de verificação](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) da Microsoft descreve o que constitui as funções de suporte das atividades principais.
 
 As empresas financeiras que usam os serviços de nuvem também devem estar em conformidade com as regras de privacidade, incluindo as [regras de tecnologia da informação (práticas de segurança razoáveis e procedimentos e dados pessoais ou informações confidenciais), 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Desenvolvido para fortalecer as leis de proteção de dados da Índia, essas regras governam a proteção e a manipulação de dados pessoais confidenciais.
 
@@ -55,7 +55,7 @@ A lista de verificação da Microsoft ajuda as empresas financeiras na Índia qu
 ## <a name="how-to-implement"></a>Como implementar
 
 - [Lista de verificação de conformidade para a Índia](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): as empresas financeiras podem obter ajuda na condução de avaliações de risco do Microsoft Business Cloud Services.
-- [Guia de Conformidade e Avaliação de Risco ](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): crie um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
+- [Guia de conformidade e avaliação de risco](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
 - [Casos de uso financeiro do Azure](https://docs.microsoft.com/azure/industry/financial/): visões gerais de caso de uso, tutoriais e outros recursos para criar soluções do Azure para serviços financeiros.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
@@ -63,6 +63,10 @@ A lista de verificação da Microsoft ajuda as empresas financeiras na Índia qu
 **Há termos obrigatórios que devem ser incluídos no contrato com o provedor de serviços de nuvem?**
 
 Sim. As diretrizes mencionadas acima estipulam alguns pontos específicos que as instituições financeiras devem incorporar aos contratos de serviços de nuvem. Parte 2 da [lista de verificação](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (página 70) mapeia essas opções em relação às seções nos documentos da Microsoft contratuais onde elas são abordadas.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

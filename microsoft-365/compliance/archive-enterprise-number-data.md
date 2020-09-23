@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados SMS e MMS do Archiver de número corporativo de Telemensagem. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: d2e871f6d2515ac49018c6710689517a7bde0985
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 1152c5e1d658e33e3056873d2230f6f94e58adc1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362030"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200158"
 ---
-# <a name="set-up-a-connector-to-archive-enterprise-number-data-preview"></a>Configurar um conector para arquivar dados de número de empresa (versão prévia)
+# <a name="set-up-a-connector-to-archive-enterprise-number-data"></a>Configurar um conector para arquivar dados de número de empresa
 
 Use um conector de Telemensagem no centro de conformidade da Microsoft 365 para importar e arquivar mensagens de serviço de mensagens curtas (SMS) e MMS (serviço de mensagens de multimídia), mensagens de chat, gravações de chamada de voz e logs de chamada de voz do arquivador de número da empresa. Depois de configurar e configurar um conector, ele se conecta à conta de Telemensagem de sua organização uma vez por dia e importa os dados de comunicação móvel de funcionários usando o arquivador de número de empresa de Telemensagem para caixas de correio no Microsoft 365.
 
@@ -82,4 +81,4 @@ Depois de concluir os pré-requisitos descritos na seção anterior, você pode 
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

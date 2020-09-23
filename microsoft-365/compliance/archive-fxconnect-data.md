@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados de Globanet FX Connect no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: d22313ab1de1700c14ee4b35f6a0e3dbcae73ae3
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: e56c0bc1ab16d9790e56bf0baf054057121ff94c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405582"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197242"
 ---
-# <a name="set-up-a-connector-to-archive-fx-connect-data-preview"></a>Configurar um conector para arquivar dados de conexão FX (visualização)
+# <a name="set-up-a-connector-to-archive-fx-connect-data"></a>Configurar um conector para arquivar dados de conexão FX
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma de colaboração de conexão FX para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector de [conexão FX](https://globanet.com/fx-connect/) que é configurado para capturar itens de conexão FX e importar esses itens para o Microsoft 365. O conector converte o conteúdo da conexão FX, como comerciais, mensagens e outros detalhes da conta de conexão FX da sua organização, para um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -90,4 +89,4 @@ Depois de criar o conector de conexão FX, você pode visualizar o status do con
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

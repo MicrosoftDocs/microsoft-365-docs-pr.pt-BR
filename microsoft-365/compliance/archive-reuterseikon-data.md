@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados de EIKON do Reuters do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: ec5df821bcfbb772879fea5e8568e7090ce54aae
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: c9e63896d333d7f94d01b6ec3af565f476fac39e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405472"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196770"
 ---
-# <a name="set-up-a-connector-to-archive-reuters-eikon-data-preview"></a>Configurar um conector para arquivar dados de Reuters EIKON (visualização)
+# <a name="set-up-a-connector-to-archive-reuters-eikon-data"></a>Configurar um conector para arquivar dados de Reuters EIKON
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma Reuters EIKON para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector [Reuters EIKON](https://globanet.com/eikon/) que é configurado para capturar itens da fonte de dados de terceiros (em uma base regular) e importá-los para o Microsoft 365. O conector converte o conteúdo como mensagens de pessoa para pessoa, chats de grupo, anexos e avisos de isenção de responsabilidade de uma conta de usuário do Reuters EIKON para um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -90,4 +89,4 @@ Depois de criar o conector do Reuters EIKON, você pode visualizar o status do c
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

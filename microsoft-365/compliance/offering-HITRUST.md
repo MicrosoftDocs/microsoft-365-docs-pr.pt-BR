@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ee3e77624650f0a5c1b913081620695cdc13142
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 54d188aa84cd6bc2614489dbbc3a969d30b40342
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417033"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208413"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) estrutura de segurança comum (CSF)
 
@@ -39,7 +39,7 @@ Saiba como acelerar sua implantação do HITRUST com o plano de segurança e con
 
 [Baixe a matriz de responsabilidades do cliente do Microsoft Azure HITRUST (CRM) Blueprint v 9.0 d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Intune
@@ -102,6 +102,10 @@ Sim, você pode encontrar as ações de cliente recomendadas em Pontuação de c
 **Como faço para entrar com a Microsoft?**
 
 Faça logon na ferramenta HITRUST MyCSF® e preencha previamente sua avaliação de sua solução hospedada no Microsoft Azure com controles totalmente herdados ou de responsabilidade compartilhada para o Azure. Um administrador do Microsoft HITRUST concluirá a parte da avaliação usando sua conta na ferramenta de® do MyCSF.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector de Telemensagem para importar e arquivar dados de WhatsApp no Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: fbd0e30cf8016da9479d5f1e24715d2e2aaa628c
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: a8a3465ca3f728290b69cf9b6c5d0820daf00221
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361866"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199154"
 ---
-# <a name="set-up-a-connector-to-archive-whatsapp-data-preview"></a>Configurar um conector para arquivar dados de WhatsApp (visualização)
+# <a name="set-up-a-connector-to-archive-whatsapp-data"></a>Configurar um conector para arquivar dados de WhatsApp
 
 Use o conector de Telemensagem no centro de conformidade da Microsoft 365 para importar e arquivar chamadas, chats, anexos, arquivos e mensagens excluídas do WhatsApp. Depois de configurar e configurar um conector, ele se conecta à conta de Telemensagem de sua organização uma vez por dia e importa a comunicação móvel de funcionários usando o WhatsApp Phone Archiver ou telemessage WhatsApp Cloud Archiver para caixas de correio no Microsoft 365.
 
@@ -86,4 +85,4 @@ Depois de concluir os pré-requisitos descritos na seção anterior, você pode 
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

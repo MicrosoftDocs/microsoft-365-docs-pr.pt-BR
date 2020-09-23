@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector para importar e arquivar dados do Globanet de zoom de reuniões para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: c7052e7f51108cac93ad8d87402a07acd12df28a
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: a94d0a776af05b609816d3fdbfede869018fa30a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956228"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196354"
 ---
-# <a name="set-up-a-connector-to-archive-zoom-meetings-data-preview"></a>Configurar um conector para arquivar dados de reuniões de zoom (visualização)
+# <a name="set-up-a-connector-to-archive-zoom-meetings-data"></a>Configurar um conector para arquivar dados de reuniões de zoom
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados de reuniões de zoom para caixas de correio de usuários na sua organização do Microsoft 365. O Globanet fornece um conector de [reuniões de zoom](https://globanet.com/zoom/) que é configurado para capturar itens da fonte de dados de terceiros (em uma base regular) e importá-los para o Microsoft 365. O conector converte o conteúdo das reuniões (incluindo chats, arquivos gravados e metadados) da conta de reuniões de zoom para um formato de mensagem de email e, em seguida, importa esses itens para caixas de correio do usuário no Microsoft 365.
 
@@ -102,6 +101,6 @@ Depois de criar o conector de reuniões de zoom, você pode visualizar o status 
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.
 
 - Para que o conector de reuniões de zoom funcione, você deve habilitar gravações ao configurar as reuniões de zoom.

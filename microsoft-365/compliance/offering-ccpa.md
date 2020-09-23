@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1bdd6770c033abe7a2bf714029b2a4075fada249
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: e279d8e075538582ea282e1c6d1493685a817b2a
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415733"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208121"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>CCPA (Lei de Privacidade do Consumidor da Califórnia)
 
@@ -39,7 +39,7 @@ Para clientes comerciais que façam negócios na Califórnia, a Microsoft atuar�
 
 Conforme definido no OST, a Microsoft está em conformidade com todas as leis e regulamentos aplicáveis à sua provisão dos serviços online, o que inclui o CCPA.  
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Azure Dev Ops
@@ -68,7 +68,7 @@ Para começar sua jornada do CCPA, você deve se concentrar na descoberta de inf
 
 **Quais são as diferenças entre RGPD e CCPA?**
 
-Existem muitas diferenças. É mais fácil se concentrar nas similaridades, incluindo:
+Existem muitas diferenças. É mais fácil focalizar as semelhanças, incluindo:
 
 - Obrigações de transparência/divulgação,
 - Direitos de consumidor para acessar, excluir e receber uma cópia de dados,
@@ -93,9 +93,9 @@ O CCPA exige que as empresas regulamentadas coletem, transfiram e vendam informa
 - O CCPA introduz obrigações de consentimento pelos pais, consistentes com a COPPA (política de proteção de privacidade online) para crianças menores de 13 anos.
 - Para crianças entre 13 e 16 anos de idade, o CCPA impõe uma nova obrigação de obter consentimento de aceitação do filho.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o [modelo CCPA](https://go.microsoft.com/fwlink/?linkid=2118004) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 
