@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector de Telemensagem para importar e arquivar dados SMS e MMS da rede Bell. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 975053c589b0c5ff36df1fa49f14d5d0452053d1
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: ad4b8a51e88e6477d9d4408c9faee1d83590eaa9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362052"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200570"
 ---
-# <a name="set-up-a-connector-to-archive-bell-network-data-preview"></a>Configurar um conector para arquivar dados de rede Bell (visualização)
+# <a name="set-up-a-connector-to-archive-bell-network-data"></a>Configurar um conector para arquivar dados de rede Bell
 
 Use um conector de Telemensagem no centro de conformidade da Microsoft 365 para importar e arquivar mensagens de serviço de mensagens curtas (SMS) e Multimedia Messaging Service (MMS) da rede Bell. Depois de configurar e configurar um conector, ele se conecta à rede de Bell da sua organização uma vez por dia e importa as mensagens SMS e MMS para caixas de correio no Microsoft 365.
 
@@ -88,4 +87,4 @@ A última etapa é criar um conector de rede Bell no centro de conformidade da M
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para a importação de anexos com mais de 10 MB, mas o suporte a itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.

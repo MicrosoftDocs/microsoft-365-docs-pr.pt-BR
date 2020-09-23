@@ -12,12 +12,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar a usar rapidamente a conformidade no Microsoft 365.
-ms.openlocfilehash: 1702c05b271c0e8b5456c1a93f8bf1dc28f7fbd9
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: d2399b65e6f8d2765d3fc8691b0e395f113092f1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816810"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200834"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 
@@ -31,7 +31,7 @@ Depois de concluir essas tarefas básicas de conformidade, considere a expansão
 
 É importante gerenciar quem em sua organização tem acesso ao centro de conformidade da Microsoft 365 para exibir conteúdo e realizar tarefas de gerenciamento. A Microsoft 365 fornece funções administrativas específicas para conformidade e para usar as ferramentas incluídas no centro de conformidade da Microsoft 365.
 
-Comece atribuindo permissões de conformidade às pessoas em sua organização para que eles possam executar essas tarefas e impedir que pessoas não autorizadas tenham acesso a áreas fora de suas responsabilidades. Você deve ter certeza de que atribuiu as pessoas adequadas às funções de **administrador de dados de conformidade** e administrador de **conformidade** antes de começar a configurar e implementar as soluções de conformidade incluídas no Microsoft 365. Você também precisará atribuir usuários à função leitor global do Azure Active Directory para exibir dados em Pontuação de conformidade.
+Comece atribuindo permissões de conformidade às pessoas em sua organização para que eles possam executar essas tarefas e impedir que pessoas não autorizadas tenham acesso a áreas fora de suas responsabilidades. Você deve ter certeza de que atribuiu as pessoas adequadas às funções de **administrador de dados de conformidade** e administrador de **conformidade** antes de começar a configurar e implementar as soluções de conformidade incluídas no Microsoft 365. Você também precisará atribuir usuários à função leitor global do Azure Active Directory para exibir dados no Gerenciador de conformidade.
 
 Para obter uma orientação passo a passo para configurar permissões e atribuir pessoas a funções de administrador, consulte [permissões no centro de conformidade de & de segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
 
@@ -39,9 +39,9 @@ Para obter uma orientação passo a passo para configurar permissões e atribuir
 
 É difícil saber onde ir se você não sabe onde você está. Atender às suas necessidades de conformidade inclui entender seu nível atual de risco e quais atualizações podem ser necessárias nesses horários que estão sempre mudando. Se sua organização é nova para os requisitos de conformidade ou se apresenta uma experiência profunda com padrões e regulamentações que governam seu setor, a melhor maneira de melhorar a conformidade é entender onde a sua organização se refere.
 
-A [Pontuação de conformidade da Microsoft](compliance-score.md) pode ajudar você a entender a postura de conformidade da sua organização e a destacar áreas que podem precisar de melhorias. A pontuação de conformidade usa um painel centralizado para calcular uma pontuação baseada em riscos, medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Você também pode usar a pontuação de conformidade como uma ferramenta para rastrear todas as avaliações de risco. Ele fornece recursos de fluxo de trabalho para ajudá-lo a concluir com eficiência as avaliações de riscos por meio de uma ferramenta comum.
+O [Microsoft Compliance Manager](compliance-manager.md) pode ajudá-lo a entender a postura de conformidade da sua organização e destacar áreas que podem precisar de melhorias. O Gerenciador de conformidade usa um painel centralizado para calcular uma pontuação baseada em riscos, medindo seu progresso no preenchimento de ações que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Você também pode usar o Gerenciador de conformidade como uma ferramenta para rastrear todas as avaliações de risco. Ele fornece recursos de fluxo de trabalho para ajudá-lo a concluir com eficiência as avaliações de riscos por meio de uma ferramenta comum.
 
-Para obter orientações passo a passo para começar a pontuação de conformidade, consulte [Configurar Pontuação de conformidade](compliance-score-setup.md).
+Para obter uma orientação passo a passo para começar a usar o Gerenciador de conformidade, confira [introdução ao Gerenciador de conformidade](compliance-manager-setup.md).
 
 >[!IMPORTANT]
 >A segurança e a conformidade estão totalmente integradas à maioria das organizações. É importante que sua organização atenda às áreas de segurança básica, proteção contra ameaças e identidade e gerenciamento de acesso para ajudar a fornecer uma abordagem de defesa profunda para segurança e conformidade.

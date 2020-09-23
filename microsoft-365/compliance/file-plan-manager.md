@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O plano de arquivos oferece recursos avançados de gerenciamento dos rótulos de retenção.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: a92f835658bdeedbc64d3d4f2349900e30ec6dda
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: c56f71032ccf154e5d9f416b42df1345da03d9a4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47427020"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199012"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Usar o plano de arquivos para gerenciar os rótulos de retenção
 
@@ -81,6 +81,7 @@ Todas as colunas, exceto **Nome** do rótulo, podem ser exibidas ou ocultas sele
 - **É registro** identifica se o item é marcado como um registro quando o rótulo é aplicado. Valores válidos:
     - Não
     - Sim
+    - Sim (Regulatório)
 
 - **Duração da retenção** identifica o período de retenção. Valores válidos:
     - Dias

@@ -108,11 +108,11 @@
                       href: mtp/manage-incidents.md
             - name: Investigação e resposta automatizadas
               items:
-                - name: Visão geral da investigação e Resposta Automatizadas
+                - name: Visão geral da investigação e resposta automatizadas
                   href: mtp/mtp-autoir.md
                 - name: Configurar os recursos de investigação e resposta automatizadas
                   href: mtp/mtp-configure-auto-investigation-response.md
-                - name: Ações de correção após a investigação automática
+                - name: Ações de correção após a investigação automatizada
                   href: mtp/mtp-remediation-actions.md
                 - name: Visite a Central de Ações
                   href: mtp/mtp-action-center.md

@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 5f4c715058c7fd9a98dc268b18cc487af4c1ae10
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 4b12457b051b19aa1eaca0d92b342ab8a7b34134
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962672"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200580"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -205,7 +205,7 @@ A tabela a seguir lista as funções necessárias para exibir alertas das seis c
 
 Para ver a qual categoria uma política de alerta padrão é atribuída, confira a tabela na seção [políticas de alerta padrão](#default-alert-policies) .
 
-|&nbsp;|Governança de informações|Prevenção contra perda de dados|Fluxo de emails|Permissões|Gerenciamento de ameaças|Outros|
+|Função|Governança de informações|Prevenção contra perda de dados|Fluxo de emails|Permissões|Gerenciamento de ameaças|Outros|
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Logs de auditoria|||||||
 |Gerenciamento de casos|||||||

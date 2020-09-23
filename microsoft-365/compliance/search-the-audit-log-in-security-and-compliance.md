@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: 'Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. '
+description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 21a8ea6f930efcd106c541021c9b9bd47af43f23
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 7051e03ca4751d6e97d9af9228765be9e1af6ebe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547247"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197344"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -298,19 +298,125 @@ Essas tabelas agrupam atividades relacionadas ou as atividades de um serviço es
 
 Clique em um dos links a seguir para ir até uma tabela específica.
 
-||||
-|:-----|:-----|:-----|
-|[Atividades de arquivo e página](#file-and-page-activities)|[Atividades de pasta](#folder-activities)|[Atividades de lista do SharePoint](#sharepoint-list-activities)|
-|[Atividades de compartilhamento e solicitação de acesso](#sharing-and-access-request-activities)|[Atividades de sincronização](#synchronization-activities)|[Atividades de permissões de site](#site-permissions-activities)|
-|[Atividades de administração de site](#site-administration-activities)|[Atividades de caixa de correio do Exchange](#exchange-mailbox-activities)|[Atividades de administração de usuários](#user-administration-activities)|
-|[Atividades de administração de grupos do Azure AD](#azure-ad-group-administration-activities)|[Atividades de administração de aplicativos](#application-administration-activities)|[Atividades de administração de funções](#role-administration-activities)|
-|[Atividades de administração de diretórios](#directory-administration-activities)|[Atividades de Descoberta Eletrônica](#ediscovery-activities)|[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|
-|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|[Atividades do Microsoft Teams](#microsoft-teams-activities)|
-|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades de Turnos do Microsoft Teams](#microsoft-teams-shifts-activities)|[Atividades do Yammer](#yammer-activities)|
-|[Atividades do Microsoft Power Automate](#microsoft-power-automate-activities)|[Atividades do Microsoft Power Apps](#microsoft-power-apps-activities)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|
-|[Atividades do explorador de conteúdo](#content-explorer-activities)|[Atividades de quarentena](#quarantine-activities)|[Atividades do Microsoft Forms](#microsoft-forms-activities)|
-|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|[Política de retenção e rótulo de retenção de atividades](#retention-policy-and-retention-label-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)
-|||
+:::row:::
+    :::column:::
+        [Atividades de arquivo e página](#file-and-page-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de pasta](#folder-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de lista do SharePoint](#sharepoint-list-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades de compartilhamento e solicitação de acesso](#sharing-and-access-request-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de sincronização](#synchronization-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de permissões de site](#site-permissions-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades de administração de site](#site-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de caixa de correio do Exchange](#exchange-mailbox-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de administração de usuários](#user-administration-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades de administração de grupos do Azure AD](#azure-ad-group-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de administração de aplicativos](#application-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de administração de funções](#role-administration-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades de administração de diretórios](#directory-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de Descoberta Eletrônica](#ediscovery-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades do Power BI](#power-bi-activities)
+    :::column-end:::
+    :::column:::
+        [Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades do Microsoft Teams](#microsoft-teams-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de Turnos do Microsoft Teams](#microsoft-teams-shifts-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades do Yammer](#yammer-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades do Microsoft Power Automate](#microsoft-power-automate-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades do Microsoft Power Apps](#microsoft-power-apps-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades do Microsoft Stream](#microsoft-stream-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades do explorador de conteúdo](#content-explorer-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de quarentena](#quarantine-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades do Microsoft Forms](#microsoft-forms-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades de rótulo de sensibilidade](#sensitivity-label-activities)
+    :::column-end:::
+    :::column:::
+        [Política de retenção e rótulo de retenção de atividades](#retention-policy-and-retention-label-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades de administradores do Exchange](#exchange-admin-audit-log)
+    :::column-end:::
+:::row-end:::
 
 ### <a name="file-and-page-activities"></a>Atividades de arquivo e página
 

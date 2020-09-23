@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: a8eaeda3bc883de55a2c588e39557b4517ae3cc5
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 31afa01a518028e7ec25116e947b4e0d6dc94dac
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817156"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201540"
 ---
-# <a name="set-up-a-connector-to-import-hr-data-preview"></a>Configurar um conector para importar dados de RH (visualização)
+# <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
 Você pode configurar um conector de dados no centro de conformidade da Microsoft 365 para importar dados de recursos humanos (RH) relacionados a eventos, como a desistência de um usuário ou uma alteração no nível de trabalho de um usuário. Os dados de RH podem ser usados pela [solução de gerenciamento de risco do insider](insider-risk-management.md) para gerar indicadores de risco que podem ajudá-lo a identificar possíveis atividades mal-intencionadas ou roubo de dados por usuários dentro da sua organização.
 
@@ -219,7 +219,7 @@ Depois de concluir esta etapa, certifique-se de copiar o ID do trabalho que é g
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Na página **conectores de dados (visualização)** em **RH**, clique em **Exibir**.
+2. Na página **conectores de dados** em **RH**, clique em **Exibir**.
 
 3. Na página **personalizada de RH** , clique em **Adicionar conector**.
 
