@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Visão geral da conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
-ms.openlocfilehash: a51cfba962ff884afa634473c0523e49a92a56f5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fc800d6f7a63e34f83b089fdea41b68cbf9134da
+ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200788"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214910"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 
@@ -33,7 +33,7 @@ O centro de administração do Microsoft 365 agora inclui métricas de conectivi
 
 Você pode ser solicitado a participar da visualização pública desse recurso em nome da sua organização. A aceitação normalmente aconteceu imediatamente e, em seguida, você verá a página conectividade de rede. 
 
-Ao navegar até a página conectividade de rede, você verá um painel Visão geral contendo um mapa de desempenho de rede global, uma avaliação de rede com escopo para o locatário inteiro e uma lista de problemas atuais. Para acessar essa página, você deve ser um administrador da organização no Microsoft 365. A função administrativa do leitor de relatórios terá acesso de leitura a essas informações. Para configurar locais e outros elementos de conectividade de rede, um administrador deve fazer parte de uma função de administrador de servidor, como a função de administrador de suporte de serviço. Na visão geral, você pode fazer uma busca detalhada para exibir as métricas e os problemas específicos de desempenho da rede por local. Para obter mais informações, consulte [Network Performance Overview no centro de administração do Microsoft 365](#network-connectivity-overview-in-the-microsoft-365-admin-center).
+Ao navegar até a página conectividade de rede, você verá um painel Visão geral contendo um mapa de desempenho de rede global, uma avaliação de rede com escopo para o locatário inteiro e uma lista de problemas atuais. Para acessar essa página, você deve ser um administrador da organização no Microsoft 365. A função administrativa do leitor de relatórios terá acesso de leitura a essas informações. Para configurar locais e outros elementos de conectividade de rede, um administrador deve fazer parte de uma função de administrador de servidor, como a função de administrador de suporte de serviço. Na visão geral, você pode fazer uma busca detalhada para exibir as métricas e os problemas específicos de desempenho da rede por local. Para obter mais informações, consulte [visão geral da conectividade de rede no centro de administração do Microsoft 365](#network-connectivity-overview-in-the-microsoft-365-admin-center).
 
 ## <a name="pre-requisites-for-network-connectivity-assessments-to-appear"></a>Pré-requisitos para que as avaliações de conectividade de rede apareçam
 
