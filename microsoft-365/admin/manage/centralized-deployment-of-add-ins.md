@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: 4bd81dcf1d1ee6221a3519baac0a3b1bc63b791f
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: c3e306789f5b1c09e835d8d2c5ebea668bf14874
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131729"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235413"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -45,7 +45,7 @@ Pode levar até 24 horas para que um suplemento seja exibido para o cliente para
   
 ## <a name="requirements"></a>Requirements
 
-A implantação centralizada de suplementos exige que os usuários estejam usando o Microsoft 365 aplicativos para empresas (e estejam conectados ao Office usando a respectiva ID organizacional) e tenham o Exchange Online e caixas de correio ativas do Exchange Online. Seu diretório de assinatura deve ser ou federado no Azure Active Directory.
+A implantação centralizada de suplementos exige que os usuários estejam usando o Microsoft 365 aplicativos para empresas ou o Microsoft 365 Business Premium (e estejam conectados ao Office usando sua ID organizacional) e tenham caixas de correio ativas do Exchange Online e do Exchange Online. Seu diretório de assinatura deve ser ou federado no Azure Active Directory.
 Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o[Verificador de compatibilidade de implantação centralizado](#centralized-deployment-compatibility-checker).
 
 A Implantação Centralizada não é compatível com:
@@ -61,11 +61,11 @@ A Implantação Centralizada não é compatível com:
 ### <a name="office-requirements"></a>Requisitos do Office
 
 - Para suplementos do Word, Excel e PowerPoint, seus usuários devem estar usando um dos seguintes:
-  - Em um dispositivo do Windows, versão 1704 ou posterior do Microsoft 365 aplicativos para empresas.
+  - Em um dispositivo Windows, versão 1704 ou posterior do Microsoft 365 aplicativos para empresas ou Microsoft 365 Business Premium.
   - Em um Mac, versão 15,34 ou posterior.
 
 - Para o Outlook, seus usuários devem estar usando um dos seguintes: 
-  - Versão 1701 ou posterior do Microsoft 365 aplicativos para empresas.
+  - Versão 1701 ou posterior do Microsoft 365 aplicativos para empresas ou o Microsoft 365 Business Premium.
   - Versão 1808 ou posterior do Office Professional Plus 2019 ou Office Standard 2019.
   - Versão 16.0.4494.1000 ou posterior do Office Professional Plus 2016 (MSI) ou Office Standard 2016 (MSI)\*
   - Versão 15.0.4937.1000 ou posterior do Office Professional Plus 2013 (MSI) ou Office Standard 2013 (MSI)\*

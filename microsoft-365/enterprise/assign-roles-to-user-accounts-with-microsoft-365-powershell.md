@@ -3,7 +3,7 @@ title: Atribuir funções a contas de usuário do Microsoft 365 com o PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: Neste artigo, saiba como usar o PowerShell para a Microsoft 365 com rapidez e facilidade para atribuir funções a contas de usuário.
-ms.openlocfilehash: 4726dcea109490ff28299002bc5263aa15dca949
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9df1b018cf3e89e0afbd5265fdd1ec9f92b34aec
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686962"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235425"
 ---
 # <a name="assign-roles-to-microsoft-365-user-accounts-with-powershell"></a>Atribuir funções a contas de usuário do Microsoft 365 com o PowerShell
 
@@ -34,7 +34,7 @@ ms.locfileid: "46686962"
 Você pode atribuir funções de forma rápida e fácil às contas de usuário usando o PowerShell para o Microsoft 365.
 
 >[!Note]
->Para atribuir funções a contas de usuário com o centro de administração do Microsoft 365, consulte [estas instruções](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
+>[Saiba como atribuir funções a contas de usuário](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) com o centro de administração do Microsoft 365. Para obter uma lista de recursos adicionais, consulte [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico

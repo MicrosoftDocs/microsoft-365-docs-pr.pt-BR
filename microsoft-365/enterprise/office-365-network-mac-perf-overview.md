@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Visão geral da conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
-ms.openlocfilehash: fc800d6f7a63e34f83b089fdea41b68cbf9134da
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: 52d1995572a3ae0220ac8529862ba69d5bca8cdb
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214910"
+ms.locfileid: "48235533"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 
@@ -30,6 +30,11 @@ O centro de administração do Microsoft 365 agora inclui métricas de conectivi
 **Avaliações de rede** e **insights de rede** são exibidos no centro de administração do Microsoft 365 em **Health | Conectividade**.
 
 ![Página desempenho da rede](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
+
+>[!NOTE]
+>A ferramenta de teste de conectividade de rede suporta locatários no WW Commercial e na Alemanha, mas não GCC moderada, GCC alta, DoD ou China.
+
+Ao navegar pela primeira vez para a página desempenho da rede, você verá um painel Visão geral contendo um mapa de desempenho de rede global, uma avaliação de rede com escopo para o locatário inteiro e uma lista de problemas atuais. Na visão geral, você pode fazer uma busca detalhada para exibir as métricas e os problemas específicos de desempenho da rede por local. Para obter mais informações, consulte [Network Performance Overview no centro de administração do Microsoft 365](#network-connectivity-overview-in-the-microsoft-365-admin-center).
 
 Você pode ser solicitado a participar da visualização pública desse recurso em nome da sua organização. A aceitação normalmente aconteceu imediatamente e, em seguida, você verá a página conectividade de rede. 
 
