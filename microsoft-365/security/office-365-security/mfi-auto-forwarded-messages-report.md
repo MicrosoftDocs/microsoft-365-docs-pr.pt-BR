@@ -11,50 +11,50 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Os administradores podem saber mais sobre o relatório de mensagens de encaminhamento automático no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: b5255a95718fa6624c85e93a19c8accf9c3dcdb2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d4b772e6392e0af22e6bed475970f637ed03dcb1
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199354"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245942"
 ---
-# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a><span data-ttu-id="8f8d5-103">Informações de encaminhamento automático de mensagens no centro de conformidade & segurança</span><span class="sxs-lookup"><span data-stu-id="8f8d5-103">Auto-forwarded messages insight in the Security & Compliance Center</span></span>
+# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a><span data-ttu-id="2b17f-103">Informações de encaminhamento automático de mensagens no centro de conformidade & segurança</span><span class="sxs-lookup"><span data-stu-id="2b17f-103">Auto-forwarded messages insight in the Security & Compliance Center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-<span data-ttu-id="8f8d5-104">As **mensagens de encaminhamento automático** no painel de [fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade de & de segurança](https://protection.office.com) exibem informações sobre as mensagens que são automaticamente encaminhadas da sua organização para destinatários em domínios externos.</span><span class="sxs-lookup"><span data-stu-id="8f8d5-104">The **Auto-forwarded messages** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) in the [Security & Compliance Center](https://protection.office.com) displays information about messages that are automatically forwarded from your organization to recipients in external domains.</span></span>
+<span data-ttu-id="2b17f-104">As **mensagens de encaminhamento automático** no painel de [fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade de & de segurança](https://protection.office.com) exibem informações sobre as mensagens que são automaticamente encaminhadas da sua organização para destinatários em domínios externos.</span><span class="sxs-lookup"><span data-stu-id="2b17f-104">The **Auto-forwarded messages** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) in the [Security & Compliance Center](https://protection.office.com) displays information about messages that are automatically forwarded from your organization to recipients in external domains.</span></span>
 
 ![Widget mensagens automaticamente encaminhadas no centro de conformidade de & de segurança](../../media/mfi-auto-forwarded-messages.png)
 
-## <a name="auto-forwarded-messages-details"></a><span data-ttu-id="8f8d5-106">Detalhes de mensagens automaticamente encaminhadas</span><span class="sxs-lookup"><span data-stu-id="8f8d5-106">Auto-forwarded messages details</span></span>
+## <a name="auto-forwarded-messages-details"></a><span data-ttu-id="2b17f-106">Detalhes de mensagens automaticamente encaminhadas</span><span class="sxs-lookup"><span data-stu-id="2b17f-106">Auto-forwarded messages details</span></span>
 
-<span data-ttu-id="8f8d5-107">Quando você clica no número de mensagens no widget, um painel de submenu aparece mostrando mais informações sobre as mensagens automaticamente encaminhadas:</span><span class="sxs-lookup"><span data-stu-id="8f8d5-107">When you click the number of messages in the widget, a flyout pane appears that shows more information about the auto-forwarded messages:</span></span>
+<span data-ttu-id="2b17f-107">Quando você clica no número de mensagens no widget, um painel de submenu aparece mostrando mais informações sobre as mensagens automaticamente encaminhadas:</span><span class="sxs-lookup"><span data-stu-id="2b17f-107">When you click the number of messages in the widget, a flyout pane appears that shows more information about the auto-forwarded messages:</span></span>
 
-- <span data-ttu-id="8f8d5-108">**Encaminhar mensagens automaticamente por métodos de encaminhamento**:</span><span class="sxs-lookup"><span data-stu-id="8f8d5-108">**Auto-forwarded messages by forwarding methods**:</span></span>
+- <span data-ttu-id="2b17f-108">**Encaminhar mensagens automaticamente por métodos de encaminhamento**:</span><span class="sxs-lookup"><span data-stu-id="2b17f-108">**Auto-forwarded messages by forwarding methods**:</span></span>
 
-  - <span data-ttu-id="8f8d5-109">**Por regras de fluxo de emails**</span><span class="sxs-lookup"><span data-stu-id="8f8d5-109">**By mail flow rules**</span></span>
-  - <span data-ttu-id="8f8d5-110">**Por regras de caixa de entrada**</span><span class="sxs-lookup"><span data-stu-id="8f8d5-110">**By Inbox rules**</span></span>
-  - <span data-ttu-id="8f8d5-111">**Pelo encaminhamento SMTP**</span><span class="sxs-lookup"><span data-stu-id="8f8d5-111">**By SMTP forwarding**</span></span>
-  - <span data-ttu-id="8f8d5-112">Um link para o [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) para obter mais detalhes.</span><span class="sxs-lookup"><span data-stu-id="8f8d5-112">A link to the [Forwarding report](view-mail-flow-reports.md#forwarding-report) for more details.</span></span>
+  - <span data-ttu-id="2b17f-109">**Por regras de fluxo de emails**</span><span class="sxs-lookup"><span data-stu-id="2b17f-109">**By mail flow rules**</span></span>
+  - <span data-ttu-id="2b17f-110">**Por regras de caixa de entrada**</span><span class="sxs-lookup"><span data-stu-id="2b17f-110">**By Inbox rules**</span></span>
+  - <span data-ttu-id="2b17f-111">**Pelo encaminhamento SMTP**: Este é o encaminhamento automático que os administradores podem configurar em uma caixa de correio, conforme descrito em [Configure e-mail Forwarding for a Mailbox](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).</span><span class="sxs-lookup"><span data-stu-id="2b17f-111">**By SMTP forwarding**: This is automatic forwarding that admins can configure on a mailbox as described in [Configure email forwarding for a mailbox](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).</span></span>
+  - <span data-ttu-id="2b17f-112">Um link para o [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) para obter mais detalhes.</span><span class="sxs-lookup"><span data-stu-id="2b17f-112">A link to the [Forwarding report](view-mail-flow-reports.md#forwarding-report) for more details.</span></span>
 
-- <span data-ttu-id="8f8d5-113">**Encaminhar mensagens automaticamente por domínios e usuários**:</span><span class="sxs-lookup"><span data-stu-id="8f8d5-113">**Auto-forwarded messages by domains and users**:</span></span>
+- <span data-ttu-id="2b17f-113">**Encaminhar mensagens automaticamente por domínios e usuários**:</span><span class="sxs-lookup"><span data-stu-id="2b17f-113">**Auto-forwarded messages by domains and users**:</span></span>
 
-  - <span data-ttu-id="8f8d5-114">**Cinco principais domínios encaminhados para**</span><span class="sxs-lookup"><span data-stu-id="8f8d5-114">**Top 5 domains forwarded to**</span></span>
-  - <span data-ttu-id="8f8d5-115">**Novos domínios (semana passada)**</span><span class="sxs-lookup"><span data-stu-id="8f8d5-115">**New domains (last week)**</span></span>
-  - <span data-ttu-id="8f8d5-116">**Cinco principais usuários de encaminhamento**</span><span class="sxs-lookup"><span data-stu-id="8f8d5-116">**Top 5 forwarding users**</span></span>
-  - <span data-ttu-id="8f8d5-117">**Novos usuários (semana passada)**</span><span class="sxs-lookup"><span data-stu-id="8f8d5-117">**New users (last week)**</span></span>
-  - <span data-ttu-id="8f8d5-118">Um link para o [relatório de alterações de encaminhamento](mfi-new-users-forwarding-email.md#forwarding-modifications-report) para obter mais detalhes.</span><span class="sxs-lookup"><span data-stu-id="8f8d5-118">A link to the [Forwarding modifications report](mfi-new-users-forwarding-email.md#forwarding-modifications-report) for more details.</span></span>
+  - <span data-ttu-id="2b17f-114">**Cinco principais domínios encaminhados para**</span><span class="sxs-lookup"><span data-stu-id="2b17f-114">**Top 5 domains forwarded to**</span></span>
+  - <span data-ttu-id="2b17f-115">**Novos domínios (semana passada)**</span><span class="sxs-lookup"><span data-stu-id="2b17f-115">**New domains (last week)**</span></span>
+  - <span data-ttu-id="2b17f-116">**Cinco principais usuários de encaminhamento**</span><span class="sxs-lookup"><span data-stu-id="2b17f-116">**Top 5 forwarding users**</span></span>
+  - <span data-ttu-id="2b17f-117">**Novos usuários (semana passada)**</span><span class="sxs-lookup"><span data-stu-id="2b17f-117">**New users (last week)**</span></span>
+  - <span data-ttu-id="2b17f-118">Um link para o [relatório de alterações de encaminhamento](mfi-new-users-forwarding-email.md#forwarding-modifications-report) para obter mais detalhes.</span><span class="sxs-lookup"><span data-stu-id="2b17f-118">A link to the [Forwarding modifications report](mfi-new-users-forwarding-email.md#forwarding-modifications-report) for more details.</span></span>
 
 ![Submenu de detalhes do relatório de mensagens automaticamente encaminhadas no centro de conformidade & segurança](../../media/mfi-auto-forwarded-messages-details.png)
 
-## <a name="insights"></a><span data-ttu-id="8f8d5-120">Informações</span><span class="sxs-lookup"><span data-stu-id="8f8d5-120">Insights</span></span>
+## <a name="insights"></a><span data-ttu-id="2b17f-120">Informações</span><span class="sxs-lookup"><span data-stu-id="2b17f-120">Insights</span></span>
 
-<span data-ttu-id="8f8d5-121">Dois insights são gerados com base nos dados do relatório:</span><span class="sxs-lookup"><span data-stu-id="8f8d5-121">Two insights are generated based on the report data:</span></span>
+<span data-ttu-id="2b17f-121">Dois insights são gerados com base nos dados do relatório:</span><span class="sxs-lookup"><span data-stu-id="2b17f-121">Two insights are generated based on the report data:</span></span>
 
-- [<span data-ttu-id="8f8d5-122">Novos usuários encaminhando email</span><span class="sxs-lookup"><span data-stu-id="8f8d5-122">New users forwarding email</span></span>](mfi-new-users-forwarding-email.md)
-- [<span data-ttu-id="8f8d5-123">Novos domínios sendo encaminhados emails</span><span class="sxs-lookup"><span data-stu-id="8f8d5-123">New domains being forwarded email</span></span>](mfi-new-domains-being-forwarded-email.md)
+- [<span data-ttu-id="2b17f-122">Novos usuários encaminhando email</span><span class="sxs-lookup"><span data-stu-id="2b17f-122">New users forwarding email</span></span>](mfi-new-users-forwarding-email.md)
+- [<span data-ttu-id="2b17f-123">Novos domínios sendo encaminhados emails</span><span class="sxs-lookup"><span data-stu-id="2b17f-123">New domains being forwarded email</span></span>](mfi-new-domains-being-forwarded-email.md)
 
-## <a name="see-also"></a><span data-ttu-id="8f8d5-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="8f8d5-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2b17f-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="2b17f-124">See also</span></span>
 
-<span data-ttu-id="8f8d5-125">Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="8f8d5-125">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+<span data-ttu-id="2b17f-125">Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="2b17f-125">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
