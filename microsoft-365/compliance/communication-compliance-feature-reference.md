@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 757b1fcdae69e98ec45bb29e669ceda8f8cb8f98
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: e1e1677c929ef0de5d47dbb98ef8987a8fba548d
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131631"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245898"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -198,7 +198,7 @@ As condições escolhidas para a política se aplicam às comunicações de emai
 
 A tabela a seguir explica mais sobre cada condição.
   
-|**Condição**|**Como usar essa condição**|
+|**Condition**|**Como usar essa condição**|
 |:-----|:-----|
 | **O conteúdo corresponde a qualquer um desses classificadores** | Aplica-se à política quando os classificadores são incluídos ou excluídos em uma mensagem. Alguns classificadores são predefinidos no locatário e os classificadores personalizados devem ser configurados separadamente antes de estarem disponíveis para essa condição. Somente um classificador pode ser definido como uma condição em uma política. Para obter mais informações sobre a configuração de classificadores, consulte [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md). |
 | **O conteúdo contém qualquer um desses tipos de informações confidenciais** | Aplica-se à política quando qualquer tipo de informação confidencial é incluído ou excluído em uma mensagem. Alguns classificadores são predefinidos no locatário e os classificadores personalizados podem ser configurados separadamente ou como parte do processo de atribuição de condição. Cada tipo de informação confidencial que você escolher será aplicado separadamente e apenas um desses tipos de informações confidenciais deverá ser aplicado à política a ser aplicada à mensagem. Para obter mais informações sobre tipos de informações confidenciais personalizadas, confira [tipos de informações confidenciais personalizados](custom-sensitive-info-types.md). |
@@ -256,7 +256,7 @@ Avisos os modelos são modelos de email personalizados onde você pode definir o
 |**Nome do modelo** | Sim | Nome amigável para o modelo de aviso que você selecionará no fluxo de trabalho notificar durante a correção, suporta caracteres de texto. |
 | **Endereço do remetente**. | Sim | O endereço de um ou mais usuários ou grupos que enviam a mensagem para o usuário com uma correspondência de política, selecionado no Active Directory para a sua assinatura. |
 | **Endereços CC e Cco** | Não | Usuários ou grupos opcionais a serem notificados sobre a correspondência da política, selecionados no Active Directory para a sua assinatura. |
-| **Assunto** | Sim | As informações que aparecem na linha de assunto da mensagem dão suporte a caracteres de texto. |
+| **Subject** | Sim | As informações que aparecem na linha de assunto da mensagem dão suporte a caracteres de texto. |
 | **Corpo da mensagem** | Sim | As informações que aparecem no corpo da mensagem dão suporte a valores de texto ou HTML. |
 
 ### <a name="html-for-notices"></a>HTML para avisos
@@ -283,9 +283,9 @@ Se quiser criar mais de uma mensagem de email baseada em texto simples para noti
 
 Os filtros de conformidade de comunicação permitem que você filtre e classifique mensagens de alerta para investigação e ações de correção mais rápidas. A filtragem está disponível nas guias **pendentes** e **resolvidas** de cada política. Para salvar um filtro ou conjunto de filtro como uma consulta de filtro salva, um ou mais valores devem ser configurados como seleções de filtro. A tabela a seguir descreve os detalhes do filtro:
 
-|**Filtro**|**Detalhes**|
+|**Filter**|**Detalhes**|
 |:-----|:-----|
-| **Date** | A data em que a mensagem foi enviada ou recebida por um usuário em sua organização. |
+| **Date** | A data em que a mensagem foi enviada ou recebida por um usuário em sua organização. Para filtrar por um único dia, selecione um intervalo de datas que comece com o dia em que você deseja resultados e termine com o dia seguinte. Por exemplo, se você quisesse filtrar os resultados de 9/20/2020, escolha um intervalo de data de filtro de 9/20/2020-9/21/2020.|
 | **Classe de arquivo** | A classe da mensagem com base no tipo de mensagem, a *mensagem* ou o *anexo*. |
 | **Tem anexo** | A presença de anexo na mensagem. |
 | **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloomberg, etc. Para obter mais informações sobre tipos de item e classes de mensagens comuns, consulte [tipos de item e classes de mensagens](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes). |

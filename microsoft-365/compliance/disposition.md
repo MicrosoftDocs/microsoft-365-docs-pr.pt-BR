@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 6789ab1abe54b76f22462a47326b07a213f19b0c
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 3ef98e07df37d429567534e252c15abee69d0044
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950385"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245932"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -118,11 +118,6 @@ Todas as ações de disposição podem ser auditadas e o texto de justificativa 
 O conteúdo que está aguardando uma análise de disposição é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo. Quando o revisor escolhe essa opção, o conteúdo do site do SharePoint ou da conta do OneDrive fica qualificado para o processo de limpeza padrão descrito em [como as configurações de retenção funcionam com o conteúdo](retention.md#how-retention-settings-work-with-content-in-place)in-loco.
 
 ## <a name="disposition-of-records"></a>Disposição de conteúdo
-
-> [!NOTE]
-> A distribuição de provas de eliminação para registros no SharePoint e no OneDrive foi concluída.
->
-> A distribuição de provas de eliminação para registros no Exchange está quase concluída quando iremos remover esta nota.
 
 Use a guia **disposição** da página de **Gerenciamento de registros** para identificar os registros que agora são excluídos, automaticamente ou após uma revisão de disposição. Estes itens exibem os **registros descartados** na coluna **tipo** . Por exemplo:
 
