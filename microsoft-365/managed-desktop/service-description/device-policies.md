@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 319b26261f623a7e19e5bb8fbcd0b5d8a50d10a8
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: a76bae70adeb07d9ea0574a25bac14f89a0a790d
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289704"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262212"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
 
@@ -42,7 +42,7 @@ Implantação de atualização | Use o Windows Update para empresas para executa
 Conexões limitadas | Por padrão, as atualizações em conexões limitadas (como redes LTE) estão desativadas, embora cada usuário possa ativar o recurso de forma independente em **configurações > atualizações > opções avançadas**. Se você deseja permitir que todos os usuários habilitem atualizações em conexões limitadas, [envie uma solicitação de alteração](../working-with-managed-desktop/admin-support.md), o que ativará essa configuração para todos os dispositivos.
 | Conformidade do dispositivo | Essas políticas são configuradas para todos os dispositivos de área de trabalho gerenciada da Microsoft. Um dispositivo é relatado como não compatível quando ele se desfere da configuração de segurança necessária.
 
-## <a name="diagnostic-data"></a>Dados de diagnóstico
+## <a name="windows-diagnostic-data"></a>Dados de diagnóstico do Windows
 
  Os dispositivos serão definidos para fornecer dados de diagnóstico avançados à Microsoft sob um identificador comercial conhecido. Como parte da área de trabalho gerenciada da Microsoft, os administradores de ti não podem alterar essas configurações. Para clientes nas regiões RGPD (regulamentação de proteção de dados) gerais, os usuários podem reduzir o nível de dados de diagnóstico fornecidos, mas haverá uma redução no serviço. Por exemplo, a área de trabalho gerenciada da Microsoft não conseguirá coletar os dados necessários para iterar nas configurações e políticas para melhor atender às necessidades de desempenho e segurança. Para obter mais informações, consulte [configurar os dados de diagnóstico do Windows em sua organização.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 
