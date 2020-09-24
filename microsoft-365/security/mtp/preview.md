@@ -1,7 +1,7 @@
 ---
-title: Recursos de visualização no Microsoft Threat Protection
-description: Saiba mais sobre os novos recursos no Microsoft 365 Security
-keywords: visualização, nova, M365 Security, Security, 365, Capabilities
+title: Prévia dos recursos na Proteção contra Ameaças da Microsoft
+description: Saiba mais sobre os novos recursos de segurança do Microsoft 365
+keywords: prévia, novo, segurança do m365, segurança, 365, recursos
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.openlocfilehash: f01f76ac591b4c2be9873fa87ec416939158acd3
 ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48195498"
 ---
-# <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
+# <a name="microsoft-threat-protection-preview-features"></a>Recursos de visualização da Proteção contra Ameaças da Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,33 +35,33 @@ ms.locfileid: "48195498"
 - Proteção contra Ameaças da Microsoft
 
 
-O serviço de proteção contra ameaças da Microsoft é atualizado constantemente para incluir novos recursos e aprimoramentos de recursos.
+A Proteção contra Ameaças da Microsoft está sendo atualizada constantemente para incluir novos recursos e melhorias.
 
-Saiba mais sobre os novos recursos da versão prévia da proteção contra ameaças da Microsoft e esteja entre os primeiros a experimentar os recursos futuros, ativando a experiência de visualização.
+Saiba mais sobre os novos recursos da Proteção contra Ameaças da Microsoft a serem lançados e tenha a oportunidade de experimentar esses recursos futuros, ativando a experiência prévia.
 
 Para saber mais sobre os novos recursos que estão disponíveis ao público em geral, confira [novidades da Proteção contra Ameaças da Microsoft](whats-new.md).
 
-## <a name="turn-on-preview-features"></a>Ativar recursos de visualização
-Você terá acesso aos próximos recursos nos quais pode fornecer comentários para ajudar a melhorar a experiência geral antes que os recursos estejam disponíveis.
+## <a name="turn-on-preview-features"></a>Habilitar recursos de prévia
+Você terá acesso aos recursos futuros para os quais poderá fornecer comentários para ajudar a melhorar a experiência geral antes que os recursos tornem-se disponíveis para o público.
 
-Ative a configuração de experiência de visualização para estar entre o primeiro a experimentar os recursos futuros.
+Ative a configuração de experiência de visualização para ser uma das primeiras pessoas a experimentar os recursos futuros.
 
-1. No painel de navegação, selecione **configurações**.
+1. No painel de navegação, selecione **Configurações**.
 
-2. Selecione **proteção contra ameaças da Microsoft**.
+2. Selecione **Proteção contra Ameaças da Microsoft**.
 
 
-3. Selecionar **recursos**  >  **de visualização ative os recursos de visualização**. 
+3. Selecione **Prévia dos recursos** > **Ativar prévia dos recursos**. 
 
-3. Clique em **Salvar**.
+3. Selecione **Salvar**.
 
-Você saberá que os recursos de visualização estão ativados ao ver que a caixa de seleção **ativar recursos de visualização** está marcada. 
+Você saberá que tem prévia dos recursos ativados quando vir que a caixa de seleção **Ativar prévia dos recursos** está marcada. 
 
-## <a name="preview-features"></a>Visualização prévia de recursos
-Os seguintes recursos e aprimoramentos estão disponíveis atualmente na visualização:
+## <a name="preview-features"></a>Recursos em versão prévia
+Os recursos e aprimoramentos a seguir estão disponíveis em prévia:
 
-- **[APIs de proteção contra ameaças da Microsoft](api-overview.md)** – as APIs de proteção contra ameaças do Lop da Microsoft permitirão automatizar fluxos de trabalho com base no incidente compartilhado e em tabelas de busca avançada. 
-- **[Tabela IdentityDirectoryEvents em busca avançada](advanced-hunting-identitydirectoryevents-table.md)** — encontre eventos que envolvem um controlador de domínio local executando o Active Directory (AD). Esta tabela abrange um intervalo de eventos relacionados à identidade, bem como eventos do sistema no controlador de domínio.
-- **[Execute uma ação em busca avançada](advanced-hunting-take-action.md)** , confira rapidamente as ameaças ou atenda aos ativos comprometidos que você encontra em [busca avançada](advanced-hunting-overview.md).
-- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — Obtenha informações sobre tabelas de esquema de busca avançada diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência conveniente fornece informações sobre tipos de evento ( `ActionType` valores) com suporte e consultas de amostra.
+- **[APIs de Proteção contra Ameaças da Microsoft](api-overview.md)** – as APIs do nível de proteção da Proteção contra Ameaças da Microsoft permitem automatizar os fluxos de trabalho com base no incidente compartilhado e nas tabelas de busca avançada. 
+- **[Tabela IdentityDirectoryEvents em busca avançada de ameaças](advanced-hunting-identitydirectoryevents-table.md)** —  encontre eventos envolvendo um controlador de domínio local executando o AD (Active Directory). Essa tabela abrange um intervalo de eventos relacionados à identidade, bem como eventos do sistema no controlador de domínio.
+- **[Tome providências na busca avançada de ameaças](advanced-hunting-take-action.md)** — contenha rapidamente ameaças ou resolva os ativos comprometidos em [busca avançada de ameaças](advanced-hunting-overview.md).
+- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — obtenha informações sobre as tabelas de esquema de busca avançada de ameaças diretamente na central de segurança. Além das descrições de tabela e coluna, esta referência conveniente fornece informações sobre os tipos de eventos com suporte (`ActionType` valores) e consultas de exemplo.
 
