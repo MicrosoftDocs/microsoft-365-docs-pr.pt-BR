@@ -1,8 +1,8 @@
 ---
-title: Criar equipes para colaboração
+title: Criar equipes de colaboração
 f1.keywords:
 - NOCSH
-ms.author: stevhord
+ms.author: samanro
 author: samanro
 manager: scotv
 ms.audience: Admin
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Crie um espaço de colaboração para sua equipe com o Microsoft Teams.
-ms.openlocfilehash: c5c484b2787bf3e819a723a3b5648106dcf75602
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 7a07b7b90f5c89f6b1c6a6dd17145ca11af5dfa6
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079780"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245840"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Criar equipes para colaboração no Microsoft Teams
 

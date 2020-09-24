@@ -2,8 +2,8 @@
 title: Inscreva-se no Microsoft 365 para campanhas
 f1.keywords:
 - NOCSH
-ms.author: supotter
-author: supotter
+ms.author: sirkkuw
+author: Sirkkuw
 manager: scotv
 ms.audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Inscrição passo a passo para o Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: 0628ac1a2e8bf6d12bd4a196df11775ebcc2d583
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: a66380ea5b657d1ce231dd4a56b333087140c777
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527109"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245864"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Inscreva-se no Microsoft 365 para campanhas 
 
@@ -57,7 +57,7 @@ Confira aqui como concluir a inscrição para o Microsoft 365 para campanhas.
     > [!NOTE]
     > Se sua campanha ou parte não for proprietária de um domínio e você tiver decidido o domínio desejado, poderá comprar um agora selecionando-o.
 
-4. **Prova. Você está. Sido. Um. robô. página**:
+4. **Prova. Você está. Não. A. página**:
     1. Prepare o seu telefone e selecione **Text me** (ou **ligue para mim** se preferir). Em seguida, insira seu número de telefone. 
     2. Ao selecionar o **texto eu**, enviaremos um código de verificação. Ou chamaremos um código se você selecionar **ligar para mim**.
     3. Insira o código da mensagem de texto (ou ligue) e selecione **Avançar**. Espere uma breve espera. 

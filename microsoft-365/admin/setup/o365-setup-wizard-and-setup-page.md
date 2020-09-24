@@ -2,9 +2,9 @@
 title: Diferença entre o assistente de instalação e a página de configuração
 f1.keywords:
 - NOCSH
-ms.author: v-sharos
-author: shars
-manager: mnirkhe
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba a diferença entre o assistente de instalação e a página de configuração.
-ms.openlocfilehash: eecc86b1d2a23ea2940a68c9edee3e33a5f5339e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: dd04920c1c686cd0082b0d3c11cc7869e5d3f4eb
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398853"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245920"
 ---
 # <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação e a página de configuração
 

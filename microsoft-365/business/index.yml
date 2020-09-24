@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: c54d491aa240154a2ea654661c7cf8c55faae2e8
-  ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+  ms.openlocfilehash: 099b9b21e133ce3c9ffc708bb242c9f2603fd520
+  ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/29/2020
-  ms.locfileid: "47307460"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "48195462"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -33,9 +33,9 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
     summary: O Azure AD Premium P1 agora está incluso no Microsoft 365 Business Premium!
     url: https://aka.ms/aadp1smbblog
-  - title: Participe do webinar de parceiros - Gerando lucro e reduzindo riscos no mundo do trabalho remoto!
+  - title: Assista ao webinário do parceiro
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: 19 de agosto, das 8 às 9 da manhã. Horário do Pacífico.
+    summary: Gerando lucro e reduzindo riscos no mundo do trabalho remoto!
     url: https://aka.ms/GrowwithMicrosoft365
 conceptualContent:
   items:
