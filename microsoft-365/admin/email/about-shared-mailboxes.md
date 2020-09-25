@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: 8ca942d35d54fc8cc635e401c250ce409b9af0dd
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: f6feae1662093ffea2537a62c5e8fdf28c622166
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780308"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269344"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 
@@ -50,7 +50,7 @@ Antes [de criar uma caixa de correio compartilhada](create-a-shared-mailbox.md),
 
 - **Funções de administrador:** Usuários com funções de administrador global ou administrador do Exchange podem criar caixas de correio compartilhadas.
 
-- **Requisitos de assinatura:** Para criar uma caixa de correio compartilhada, você precisa se inscrever em um plano do Microsoft 365 para empresas que inclui emails (o serviço do Exchange Online). A assinatura do Microsoft 365 Apps for Business não inclui email; O Microsoft 365 Business Standard faz isso.
+- **Requisitos de assinatura:** Para criar uma caixa de correio compartilhada, você precisa se inscrever em um plano do Microsoft 365 para empresas que inclui emails (o serviço do Exchange Online). A assinatura do Microsoft 365 Apps for Business não inclui email. O Microsoft 365 Business Standard inclui email.
 
 - **Entrar:** Uma caixa de correio compartilhada não se destina ao logon direto por sua conta de usuário associada. Você deve sempre bloquear o logon para a conta de caixa de correio compartilhada e mantê-lo bloqueado.
 

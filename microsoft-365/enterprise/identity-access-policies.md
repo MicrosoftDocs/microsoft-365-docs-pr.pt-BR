@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 6a8ab25a1bce4355e63482b8450412884a9f0faf
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950780"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269400"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -170,6 +170,8 @@ Por fim, selecione **ativado** para **habilitar política**e, em seguida, escolh
 
 Considere usar a ferramenta [e se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
 
+Para o Exchange Online, você pode usar políticas de autenticação para [desabilitar a autenticação básica](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online), o que força todas as solicitações de acesso para cliente a usar a autenticação moderna.
+
 ## <a name="high-risk-users-must-change-password"></a>Usuários de alto risco devem alterar a senha
 
 Para garantir que todas as contas comprometidas de usuários de alto risco sejam forçadas a executar uma alteração de senha ao entrar, você deve aplicar a política a seguir.
@@ -188,7 +190,7 @@ Na segunda seção de **atribuições** :
 
 | Tipo | Propriedades | Valores                  | Action |
 |:-----|:-----------|:------------------------|:------|
-| Access | **Permitir acesso** |  | Selecionar  |
+| Acesso | **Permitir acesso** |  | Selecionar  |
 |      |     | **Requer a alteração de senha** | Verificar  |
 |||||
 
