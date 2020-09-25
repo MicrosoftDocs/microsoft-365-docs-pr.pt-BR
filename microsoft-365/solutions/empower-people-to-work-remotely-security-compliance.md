@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários remotos.
-ms.openlocfilehash: 223de710b924fc213e30fd9a6e246b3fec2344c0
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: f2743e9f7d2f102231531e7a9146a0f26727e1d4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560458"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200938"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários remotos
 
@@ -68,7 +68,7 @@ Cumpra os requisitos normativos ou políticas internas com estes recursos de con
 | Rótulos e políticas de retenção de dados | Implemente controles de governança de informações, como por quanto tempo manter os dados e os requisitos sobre o armazenamento de dados pessoais dos clientes, para estar em conformidade com as políticas da sua organização ou com as regulamentações de dados. | Microsoft 365 E3 ou E5 |
 | Criptografia de Mensagem do Office (OME) | Envie e receba mensagens de email criptografadas entre as pessoas dentro e fora da sua organização que contenham dados regulados, como dados pessoais de clientes. | Microsoft 365 E3 ou E5 |
 | Gerente de Conformidade | Gerencie as atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft com esta ferramenta de avaliação de risco baseada em fluxo de trabalho no Portal de Confiança do Serviço da Microsoft. | Microsoft 365 E3 ou E5 |
-| Pontuação de Conformidade (visualização) | Veja uma pontuação geral da configuração de conformidade atual e recomendações para melhorá-la no Centro de Conformidade do Microsoft 365. | Microsoft 365 E3 ou E5 |
+| Gerente de Conformidade | Veja uma pontuação geral da configuração de conformidade atual e recomendações para melhorá-la no Centro de Conformidade do Microsoft 365. | Microsoft 365 E3 ou E5 |
 | Conformidade em comunicações  | Detecte, capture e execute ações de correção para mensagens inadequadas em sua organização. | Microsoft 365 E5 ou Microsoft 365 E3 com os complementos de conformidade e gerenciamento de risco interno do Office Insider |
 | Gerenciamento de riscos internos |  Detectar, investigar e agir nos riscos maliciosos e inadvertidos em sua organização. O Microsoft 365 pode detectar esses tipos de riscos mesmo quando um trabalhador está usando um dispositivo não gerenciado. | Microsoft 365 E5 ou Microsoft 365 E3 com os complementos de conformidade e gerenciamento de risco interno do Office Insider |
 ||||
