@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 8663da0a93bb4781af747d810200d4a2a777acb4
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: f9c8ff4287f0970f8571d3ced7d612515b03c08e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948169"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198488"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -50,11 +50,14 @@ Embora uma política de retenção possa dar suporte a vários locais, você nã
 - Pastas públicas do Exchange
 - Mensagens do canal do Teams
 - Chats do Teams
+- Mensagens da comunidade do Yammer
+- Mensagens privadas do Yammer
 
-Quando você seleciona um dos locais do Teams quando cria uma política de retenção, os outros locais são excluídos automaticamente. Portanto, as instruções a seguir dependem se você precisar incluir os locais do Teams:
+Quando você seleciona um dos locais do Teams ou Yammer quando cria uma política de retenção, os outros locais são excluídos automaticamente. Portanto, as instruções a seguir dependem se você precisar incluir os locais do Teams ou Yammer:
 
 - [Instruções para uma política de retenção para locais do Teams](#retention-policy-for-teams-locations)
-- [Instruções para uma política de retenção para locais do Teams](#retention-policy-for-locations-other-than-teams)
+- [Instruções para uma política de retenção para locais do Yammer](#retention-policy-for-yammer-locations)
+- [Instruções para uma política de retenção para locais do Teams e Yammer](#retention-policy-for-locations-other-than-teams-and-yammer)
 
 Quando você tem mais de uma política de retenção, e quando você também usa rótulos de retenção, consulte [Princípios de retenção ou o que tem precedência?](retention.md#the-principles-of-retention-or-what-takes-precedence) para compreender o que acontece quando várias configurações de retenção se aplicam ao mesmo conteúdo.
 
@@ -93,7 +96,56 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
 
 É possível que uma política de retenção aplicada aos grupos do Microsoft 365, sites do SharePoint ou contas do OneDrive, exclua um arquivo referenciado em uma mensagem de bate-papo ou de um canal do Teams para que as mensagens sejam excluídas. Neste cenário, o arquivo ainda é exibido na mensagem do Teams, mas quando os usuários selecionam o arquivo, eles recebem o erro "arquivo não encontrado". Esse comportamento não é específico das políticas de retenção e também pode acontecer se um usuário exclui manualmente um arquivo do SharePoint ou do OneDrive.
 
-### <a name="retention-policy-for-locations-other-than-teams"></a>Política de retenção para locais diferentes do Teams
+### <a name="retention-policy-for-yammer-locations"></a>Política de retenção para locais do Yammer
+
+> [!NOTE]
+> As políticas de retenção para o Yammer estão sendo distribuídas na visualização. Caso ainda não veja os novos locais do Yammer, tente novamente em alguns dias.
+>
+> Para usar esse recurso, sua rede do Yammer deve ser [Modo Nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode), não no modo híbrido.
+
+1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção**.
+
+2. Selecione **Nova política de retenção** para criar uma nova política de retenção.
+
+3. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo. 
+    
+    Você pode criar uma política de retenção que apenas retenha o conteúdo sem excluir, retenha e exclua após um período especificado ou apenas exclua o conteúdo após um período especificado. Para saber mais, confira [Configurações de retenção e exclusão de conteúdo](#settings-for-retaining-and-deleting-content) nesta página.
+    
+    Não selecione **Usar as configurações avançadas de retenção** porque essa opção não tem suporte para os locais do Yammer. 
+
+4. Na página **Escolher locais**, selecione **Deixe-me escolher locais específicos**. Em seguida, alterne em um ou em ambos os locais do Yammer: **Mensagens da comunidade do Yammer** e **mensagens particulares do Yammer**.
+    
+    Por padrão, todas as comunidades e todos os usuários são selecionados, mas você pode refinar isso especificando as comunidades e os usuários a serem incluídos ou excluídos.
+    
+    Para mensagens privadas do Yammer: 
+    - Se você deixar o padrão em **Todos**, os usuários convidados do Azure B2B não serão incluídos. 
+    - Se você selecionar **Escolher usuário**, você poderá aplicar uma política de retenção a usuários externos se souber a conta deles.
+
+5. Conclua o assistente para salvar suas configurações.
+
+Para mais informações a respeito do funcionamento das políticas de retenção para o Yammer, confira [Saiba mais sobre a retenção para Yammer](retention-policies-yammer.md).
+
+#### <a name="additional-retention-policies-needed-to-support-yammer"></a>Políticas de retenção adicionais necessárias para apoiar o Yammer
+
+O Yammer é mais do que somente mensagens e mensagens privadas em uma comunidade. Para reter e apagar as mensagens de e-mail para a sua rede do Yammer, configure uma política de retenção adicional que inclua quaisquer grupos do Microsoft 365 que são utilizados pelo Yammer, utilizando a localização do **grupos do Office 365**. 
+
+Para manter e excluir arquivos armazenados no Yammer, você precisa de uma política de retenção que inclua localizações de **sites do SharePoint** ou **contas do OneDrive**:
+
+- Os arquivos compartilhados em mensagens privadas são armazenados na conta do OneDrive do usuário que compartilhou o arquivo. 
+
+- Os arquivos carregados nas comunidades são armazenados no site do SharePoint usado pela comunidade Yammer.
+
+É possível que uma política de retenção que seja aplicada aos sites do SharePoint ou contas do OneDrive exclua um arquivo referenciado em uma mensagem do Yammer antes que a mensagem seja excluída. Neste cenário, o arquivo ainda é exibido na mensagem do Yammer, mas quando os usuários selecionam o arquivo, eles recebem o erro "Arquivo não encontrado". Esse comportamento não é específico das políticas de retenção e também pode acontecer se um usuário exclui manualmente um arquivo do SharePoint ou do OneDrive.
+
+### <a name="retention-policy-for-locations-other-than-teams-and-yammer"></a>Política de retenção para locais diferentes do Teams e do Yammer
+
+Use as instruções a seguir para políticas de retenção que se aplicam a qualquer um desses serviços:
+
+- Exchange: E-mails e pastas públicas
+- SharePoint: Sites
+- OneDrive: Contas
+- Grupos do Microsoft 365
+- Skype for Business
 
 1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção**.
 

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f7d00575a0a5757f0662c07e727d7166d571e2ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8d4eb6cedbfa9a74eccdbb94e71f9eb32189ccbb
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201190"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277540"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Executar as simulações de ataque de proteção contra ameaças da Microsoft  
 
@@ -48,7 +48,7 @@ Durante a simulação, o ataque injeta shellcode em um processo aparentemente in
 
 Como você já configurou o ambiente piloto durante a fase de preparação, verifique se você tem dois dispositivos para este cenário: um dispositivo de teste e um controlador de domínio.
 
-1.  Verifique se o seu locatário tem [proteção](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
+1.  Verifique se o seu locatário [ativou a proteção contra ameaças](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)da Microsoft contra ameaças da Microsoft.
 2.  Verifique a configuração do controlador de domínio de teste:
     - O dispositivo é executado com o Windows Server 2008 R2 ou uma versão posterior.
     - O controlador de domínio de teste para a [proteção avançada contra ameaças do Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) e habilitar o [gerenciamento remoto](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager).    

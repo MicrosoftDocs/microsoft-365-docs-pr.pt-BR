@@ -1,5 +1,5 @@
 ---
-title: Migração de caixa de correio de vários locatários
+title: Migração de caixa de correio entre locatários
 description: Como mover caixas de correio entre os locatários do Microsoft 365 ou do Office 365.
 ms.author: josephd
 author: JoeDavies-MSFT
@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f649a72dc5569e8aec46347df295aa3ff9d93613
-ms.sourcegitcommit: 327163f70eac0de568ebe3c9a97a744c3ed408cb
+ms.openlocfilehash: 06a82fda31e602ed2feb53d00e8839daf801bf7e
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177131"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277505"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio de locatário cruzado (versão prévia)
 
@@ -57,12 +57,12 @@ Para obter a ID do locatário de uma assinatura, entre no centro de administraç
 
 Veja como funciona o processo.
 
-:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg" alt-text="Preparação do locatário para migração de caixa de correio.":::
+:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png" alt-text="Preparação do locatário para migração de caixa de correio.":::
 
 <!--
-[![Tenant preparation for mailbox migration](../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg)
+[![Tenant preparation for mailbox migration](../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png)
 
-[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg).
+[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png).
 --> 
 
 ### <a name="prepare-tenants"></a>Preparar locatários
@@ -162,11 +162,11 @@ A configuração do administrador de destino está concluída!
 
 1.  Entre na sua caixa de correio como-ResourceTenantAdminEmail especificado pelo administrador de destino durante a configuração. Localize o convite de email do locatário de destino e, em seguida, **Selecione o botão introdução.**
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Você foi invided caixa de diálogo":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Caixa de diálogo foi convidado":::
 
 2. Selecione **aceitar** para aceitar o convite.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Caixa de diálogo para aceitar permissons":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Caixa de diálogo para aceitar permissões":::
 
    > [!NOTE]
    > Se você não receber esse email ou não conseguir encontrá-lo, o administrador do locatário de destino foi fornecido como uma URL direta que pode ser concedida para que você aceite o convite. A URL deve estar na transcrição da sessão do PowerShell remoto do administrador de locatários de destino.

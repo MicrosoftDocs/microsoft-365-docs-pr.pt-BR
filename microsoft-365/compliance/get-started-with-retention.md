@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar políticas e rótulos de retenção para administrar os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: 33b2fbd40c19d1f4e2e2ef042eaa2fe21080eec1
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: cc504468611d4a2a2758ef7d52b965c177999217
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778287"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198936"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Introdução à políticas de retenção e rótulos de retenção
 
@@ -60,7 +60,7 @@ Use a tabela a seguir para ajudá-lo a mapear seus requisitos de negócios para 
 
 |Eu quero...|Documentação|
 |----------------|---------------|
-|Defina com eficiência as ações reter e excluir para a organização ou pelo serviço Microsoft 365: <br />- Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Grupos do Microsoft 365 <br />- Skype for Business  <br />- Microsoft Teams  |[Criar e configurar políticas de retenção](create-retention-policies.md)|
+|Defina com eficiência as ações reter e excluir para a organização ou pelo serviço Microsoft 365: <br />- Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Grupos do Microsoft 365 <br />- Skype for Business  <br />- Microsoft Teams <br />- Rede do Yammer |[Criar e configurar políticas de retenção](create-retention-policies.md)|
 |Permita que os administradores e os usuários apliquem manualmente um conjunto de ações de retenção e exclusão de documentos e emails: <br />- SharePoint <br />- OneDrive <br />- Outlook e Outlook na Web|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
 |Deixe que os administradores do site apliquem um rótulo de retenção padrão a todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do SharePoint|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
 |Permita que os usuários apliquem automaticamente um rótulo de retenção a emails usando as regras do Outlook|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|

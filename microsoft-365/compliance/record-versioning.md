@@ -17,16 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os registros para ajudá-lo na implementação de uma solução de gerenciamento de registros no Microsoft 365.
-ms.openlocfilehash: 47a6aee128dbc8375d5860e1e8b1e4e0acc355cb
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 4b8209108564f0a75f8d70efecd57d2526d9face
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778447"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200512"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>Use o controle de versão de registro para atualizar os registros armazenados no SharePoint ou no OneDrive
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+
+>[!NOTE] 
+> Como os registros regulatórios bloqueiam edição, a versão de registro não está disponível para registros regulatórios.
 
 A capacidade de marcar um documento como [registro](records-management.md#records) e restringir as ações que podem ser executadas no registro é uma meta essencial para qualquer solução de gerenciamento de registros. No entanto, a colaboração também pode ser necessária para as pessoas criarem versões posteriores.
 
