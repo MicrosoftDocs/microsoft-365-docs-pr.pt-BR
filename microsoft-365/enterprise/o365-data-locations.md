@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Resumo: locais de dados do Microsoft 365'
-ms.openlocfilehash: 17655e8cb35f3eaa78315fd2cdb3450f1552ad96
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: 125d58b0565bf0380a4b2578aea4db6b26596f14
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324262"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269536"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -32,7 +32,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 As tabelas abaixo mostram onde os dados do cliente são armazenados em repouso para os serviços do Microsoft 365 em todos os locais de nuvem global da Microsoft. Expanda o local do endereço de cobrança do seu país/região para descobrir onde os dados do cliente de cada serviço seriam armazenados.
 
-Os clientes devem exibir informações específicas dos locais dos dados do locatário no Centro de Administração do Office 365 em **Configurações | Perfil da organização | Cartão do local dos dados**.
+Os clientes devem visualizar as informações de localização de dados específicos do locatário no seu Microsoft 365 Admin Center em **Configurações | Configurações da organização | Perfil da Organização | Localização dos dados **.
 
 Os locatários do novo Microsoft 365 são padronizados numa localização geográfica baseada no país/região onde a transação da primeira assinatura do locatário foi realizada.
 

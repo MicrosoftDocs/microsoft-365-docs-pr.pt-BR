@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar avaliações no Microsoft Compliance Manager para ajudá-lo a atender aos requisitos de normas e certificações que são importantes para sua organização.
-ms.openlocfilehash: 5bbdba66d2288c173827062aade3bbd196d77040
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d09103f58be3a5fa39b57ca35da411e8046aace5
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204275"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262286"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Criar e gerenciar avaliações no gerente de conformidade
 
@@ -206,6 +206,9 @@ Para excluir uma avaliação, siga as etapas abaixo:
 3. Uma janela será exibida solicitando que você confirme se deseja excluir permanentemente a avaliação. Selecione **excluir avaliação** para fechar a janela. Você receberá uma janela de confirmação de que a avaliação foi excluída do Gerenciador de conformidade.
 
 Se você excluir a única avaliação em um grupo, esse grupo também será excluído do Gerenciador de conformidade.
+
+> [!NOTE]
+> Você não pode excluir todas as avaliações. As organizações precisam de, pelo menos, uma avaliação para que o Gerenciador de conformidade funcione corretamente. Se a avaliação que você deseja excluir for a única, adicione outra avaliação antes de excluir a outra avaliação.
 
 ## <a name="monitor-assessment-progress-and-controls"></a>Monitorar o progresso e os controles da avaliação
 

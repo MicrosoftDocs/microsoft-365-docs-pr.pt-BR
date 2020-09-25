@@ -11,13 +11,13 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar dados da margem de atraso do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 532b8a8eb4331d66e1c7522d79bde2b5b6b0a02f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Os administradores podem configurar um conector para importar e arquivar dados da margem de atraso do Globanet no Microsoft 365. Este conector de dados permite que você arquive dados de fontes de dados de terceiros no Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
+ms.openlocfilehash: 7c796c16b5a4b305c5d4b5259337ca28d9bfde9a
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196751"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269446"
 ---
 # <a name="set-up-a-connector-to-archive-slack-data"></a>Configurar um conector para arquivar dados de margem de atraso
 

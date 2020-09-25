@@ -15,17 +15,19 @@ search.appverid:
 - MET150
 description: Entenda como o Microsoft Compliance Manager calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9fd71b4953dc40a3c1e7601f42f595488fcef98b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f1707e0117d0a61f572716f21d13a02821955401
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204263"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262264"
 ---
 # <a name="compliance-score-calculation"></a>Cálculo da Pontuação de conformidade
 
+**Neste artigo:** Saiba como o Gerenciador de conformidade calcula uma pontuação de conformidade para sua organização. Este artigo explica como **interpretar sua pontuação**, o que a **avaliação da linha de base de proteção de dados** inclui, **monitoramento contínuo**e **como tipos diferentes de ações são gerenciadas e pontuadas**.
+
 > [!IMPORTANT]
-> As recomendações do Gerenciador de conformidade não devem ser interpretadas como garantia de conformidade. Você pode avaliar e validar a eficácia dos controles de clientes por seu ambiente normativo. Esses serviços estão sujeitos aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910). Confira também [orientações de licenciamento da Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+> As recomendações do Gerenciador de Conformidade não devem ser interpretadas como uma garantia de conformidade. Você pode avaliar e validar a eficácia dos controles de clientes por seu ambiente normativo. Esses serviços estão sujeitos aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910). Confira também [orientações de licenciamento da Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="how-to-read-your-compliance-score"></a>Como ler a pontuação de conformidade
 

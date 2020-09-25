@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar no Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8aaa1128788ba8f2f4ece7fb54f886595770c01
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 1c0d0b4b8c5c43945efad737165acdd2612d33b7
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357763"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269390"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de descoberta eletrônica
 
@@ -55,7 +55,7 @@ Este é o processo de configuração dos limites de conformidade:
 [Etapa 4: criar um filtro de permissões de pesquisa para reforçar o limite de conformidade](#step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary)
 
 [Etapa 5: criar um caso de descoberta eletrônica para investigações dentro da Agência](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
-  
+
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>Etapa 1: identificar um atributo de usuário para definir suas agências
 
 A primeira etapa é escolher um atributo do Azure Active Directory para usar que irá definir suas agências. Este atributo é usado para criar o filtro permissões de pesquisa que limita um gerente de descoberta eletrônica para pesquisar apenas os locais de conteúdo de usuários aos quais foram atribuídos um valor específico para este atributo. Por exemplo, digamos que a contoso decida usar o atributo **Department** . O valor desse atributo para os usuários na quarta subsidiária da Fourth Coffee seria  `FourthCoffee`  e o valor para os usuários da vinícola Coho-subsidiária seria `CohoWinery` . Na etapa 4, você usa esse  `attribute:value`  par (por exemplo, *Department: fourthcoffee*) para limitar os locais de conteúdo do usuário que os gerentes de descoberta eletrônica podem pesquisar. 
