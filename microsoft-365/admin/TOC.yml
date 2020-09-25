@@ -218,6 +218,8 @@
           href: setup/upgrade-users-to-latest-office-client.md
         - name: Requisitos para implantação centralizada de suplementos
           href: manage/centralized-deployment-of-add-ins.md
+        - name: Gerenciar notícias da indústria
+          href: manage/manage-industry-news.md
         - name: Implantar suplementos no centro de administração
           href: manage/manage-deployment-of-add-ins.md
         - name: Gerenciar suplementos no centro de administração
