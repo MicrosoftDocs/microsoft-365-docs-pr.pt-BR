@@ -246,6 +246,8 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: Funcionamento da DLP entre o Centro de Conformidade e Segurança e o centro de administração do Exchange
           href: how-dlp-works-between-admin-centers.md
+        - name: Utilize rótulos de sensibilidade como condição nas políticas de DLP (visualização)
+          href: dlp-sensitivity-label-as-condition.md
 - name: Gerenciar a governança de informações
   items:
     - name: Gerenciar seus dados
