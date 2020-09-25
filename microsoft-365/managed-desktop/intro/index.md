@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a126627a4c4d96b2b6918cefb0630801b3674383
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b877a35133be13cd6783659f1e5d981633338be8
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950491"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269368"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
@@ -44,7 +44,7 @@ Nossas políticas e linha de base de segurança oferecem aos seus usuários esse
 - Tempo de inicialização 75% menor para dispositivos de Área de Trabalho Gerenciada da Microsoft.
 - Pelo menos o dobro de vida útil da bateria
 - Cerca de um terço das falhas de dispositivos por ano
-- Mobilidade de dispositivos por meio [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), permitindo que os usuários tenham a mesma experiência, não importa em qual dispositivo entrar
+- Mobilidade de dispositivos por meio do [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), permitindo que os usuários tenham a mesma experiência, não importa em qual dispositivo entrem
 
 Os administradores de TI se beneficiam dos seguintes recursos:
 
