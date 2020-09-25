@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
@@ -15,45 +15,61 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: 451eb2a10074081b6d688754002d4f2e9f50f4b1
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: bd92d8d471af07d6be252390f0be0764e6b320f7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351688"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200282"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
-A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) no Microsoft 365 oferece às organizações a visibilidade de vários tipos de atividades auditadas em vários serviços do Microsoft 365. Agora, com o lançamento da Auditoria Avançada no Microsoft 365, estamos adicionando novos recursos de auditoria que podem ajudar sua organização nas investigações forenses e de conformidade.
+A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) no Microsoft 365 oferece às organizações a visibilidade de vários tipos de atividades auditadas em vários serviços do Microsoft 365. A Auditoria Avançada ajuda as organizações a conduzir investigações forenses e de conformidade ao aumentar a retenção de log de auditoria necessária para conduzir uma investigação, fornecendo acesso a eventos cruciais que ajudam a determinar o escopo do comprometimento e acesso mais rápido à API da Atividade de Gestão do Office 365.
 
 > [!NOTE]
-> A Auditoria Avançada está disponível para organizações que têm uma assinatura do Office 365 E5 ou Microsoft 365 Enterprise E5. Além disso, uma licença de complemento do Microsoft 365 E5 Compliance pode ser atribuída aos usuários quando o licenciamento por usuário for necessário aos recursos de Auditoria Avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais de investigações.
+> A Auditoria Avançada está disponível para organizações que têm uma assinatura do Office 365 E5 ou Microsoft 365 Enterprise E5. Além disso, uma licença de complemento do Microsoft 365 E5 Compliance ou Descoberta Eletrônica E5 pode ser atribuída aos usuários quando o licenciamento por usuário for necessário aos recursos de Auditoria Avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais de investigações. Para obter mais informações sobre licenciamento, confira [Diretrizes de licenciamento do Microsoft 365 para conformidade e segurança](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
 
-Este artigo fornece uma visão geral desses recursos de Auditoria Avançada.
+Este artigo fornece uma visão geral dos recursos de Auditoria Avançada.
 
 ## <a name="long-term-retention-of-audit-logs"></a>Retenção a longo prazo de logs de auditoria
 
-A Auditoria Avançada mantém todos os registros de auditoria do Exchange, SharePoint e Azure Active Directory por um ano. Isso é feito por uma política de retenção de log de auditoria padrão que mantém qualquer registro de auditoria que contenha o valor **Exchange**, **SharePoint**ou **AzureActiveDirectory** da propriedade **Carga de trabalho** (que indica o serviço em que a atividade ocorreu) por um ano. Isso pode ajudar nas investigações forenses ou de conformidade em andamento. Para saber mais, confira a seção "Política de retenção de log de auditoria padrão" em [Gerenciar políticas de retenção de log de auditoria](audit-log-retention-policies.md#default-audit-log-retention-policy).
+A Auditoria Avançada mantém todos os registros de auditoria do Exchange, SharePoint e Azure Active Directory por um ano. Isso é feito por uma política de retenção de log de auditoria padrão que mantém qualquer registro de auditoria que contenha o valor **Exchange**, **SharePoint**ou **AzureActiveDirectory** da propriedade **Carga de trabalho** (que indica o serviço em que a atividade ocorreu) por um ano. Manter os registros de auditoria por períodos mais longos pode ajudar com investigações de conformidade ou perícia contínua. Para saber mais, confira a seção "Política de retenção de log de auditoria padrão" em [Gerenciar políticas de retenção de log de auditoria](audit-log-retention-policies.md#default-audit-log-retention-policy).
 
-## <a name="audit-log-retention-policies"></a>Políticas de retenção de log de auditoria
+Também estamos lançando o recurso de retenção de logs de auditoria por dez anos. A retenção de logs de auditoria por dez anos ajuda a dar suporte às investigações longas e a responder às obrigações normativas e legais.
 
-Todos os registros de auditoria gerados em outros serviços que não são cobertos pela política de retenção de log de auditoria padrão (descrita na seção anterior) são retidos por 90 dias. No entanto, agora você pode criar políticas de retenção de logs de auditoria personalizadas para manter outros registros de auditoria por até um ano. Você pode criar uma política para manter registros de auditoria com base em um ou mais dos seguintes critérios:
+> [!NOTE]
+> Manter os logs de auditoria por dez anos exige uma licença adicional complementar. Essa nova licença estará disponível no início de 2021. Para obter mais informações, confira a seção [Perguntas frequentes sobre Auditoria Avançada](#faqs-for-advanced-audit) desse artigo.
 
-- O serviço do Microsoft 365 em que as atividades auditadas ocorrem
+### <a name="audit-log-retention-policies"></a>Políticas de retenção de log de auditoria
 
-- Atividades auditadas específicas
+Todos os registros de auditoria gerados em outros serviços que não são cobertos pela política de retenção de log de auditoria padrão (descrita na seção anterior) são retidos por 90 dias. Mas agora você pode criar políticas de retenção de logs de auditoria personalizadas para manter outros registros de auditoria por períodos mais longos de até dez anos. Você pode criar uma política para manter registros de auditoria com base em um ou mais dos seguintes critérios:
 
-- O usuário que executa uma atividade auditada
+- O serviço do Microsoft 365 em que as atividades auditadas ocorrem.
 
-Você também pode especificar por quanto tempo deseja manter registros de auditoria que correspondam à política e a um nível de prioridade, para que políticas específicas tenham prioridade sobre outras políticas. Observe também que qualquer política de retenção de log de auditoria personalizada terá precedência sobre a política de retenção de auditoria padrão, caso você precise reter registros de auditoria do Exchange, SharePoint ou Azure Active Directory por menos de um ano para alguns ou todos os usuários em sua organização. Para saber mais, confira [Gerenciar políticas de retenção de log de auditoria](audit-log-retention-policies.md).
+- Atividades auditadas específicas.
+
+- O usuário que executa uma atividade auditada.
+
+Você também pode especificar por quanto tempo deseja manter registros de auditoria que correspondam à política e a um nível de prioridade, para que políticas específicas tenham prioridade sobre outras políticas. Observe também que qualquer política de retenção de log de auditoria personalizada terá precedência sobre a política de retenção de auditoria padrão, caso você precise reter registros de auditoria do Exchange, SharePoint ou Azure Active Directory por menos de um ano (ou por até dez anos) para alguns ou todos os usuários em sua organização. Para saber mais, confira [Gerenciar políticas de retenção de log de auditoria](audit-log-retention-policies.md).
 
 ## <a name="access-to-crucial-events-for-investigations"></a>Acesso aos eventos cruciais de investigações
 
-Eventos cruciais de auditoria relacionados à segurança e conformidade são aqueles que podem ajudá-lo a investigar possíveis violações ou outras investigações forenses. O primeiro evento de alto valor que estamos lançando é a ação de auditoria de caixa de correio *MailItemsAccessed*. Esta ação é acionada quando os dados de email são acessados ​​por protocolos e clientes de email. A ação MailItemsAccessed pode ajudar os investigadores a identificar violações de dados e determinar o escopo das mensagens que podem ter sido comprometidas. Se um invasor obtiver acesso às mensagens de email, a ação MailItemsAccessed será acionada mesmo se não houver sinal explícito de que as mensagens foram realmente lidas (em outras palavras, o tipo de acesso, como via associação ou sincronização, é registrado no registro de auditoria).
+A Auditoria Avançada ajuda as organizações a conduzirem investigações forenses e de conformidade, fornecendo acesso a eventos cruciais, como quando os itens de email foram acessados, quando os itens de email foram respondidos e encaminhados, e quando e o que um usuário pesquisava no Exchange Online e no SharePoint Online. Esses eventos cruciais podem ajudá-lo a investigar possíveis violações e a determinar o escopo dos comprometimentos.  A Auditoria Avançada oferece os seguintes eventos cruciais:
 
-A nova ação da caixa de correio MailItemsAccessed substitui o MessageBind no log de auditoria da caixa de correio do Exchange Online e fornece os seguintes aprimoramentos:
+- [MailItemsAccessed](#mailitemsaccessed)
+
+- [Send](#send)
+
+- [SearchQueryInitiatedExchange](#searchqueryinitiatedexchange)
+
+- [SearchQueryInitiatedSharePoint](#searchqueryinitiatedsharepoint)
+
+### <a name="mailitemsaccessed"></a>MailItemsAccessed
+
+O evento MailItemsAccessed é uma ação de auditoria da caixa de correio e é acionado quando dados de email é acessado por protocolos de email e clientes de email. A ação MailItemsAccessed pode ajudar os investigadores a identificar violações de dados e determinar o escopo das mensagens que podem ter sido comprometidas. Se um invasor obtiver acesso às mensagens de email, a ação MailItemsAccessed será acionada mesmo se não houver sinal explícito de que as mensagens foram realmente lidas (em outras palavras, o tipo de acesso, como via associação ou sincronização, é registrado no registro de auditoria).
+
+A ação da caixa de correio MailItemsAccessed substitui o MessageBind no log de auditoria da caixa de correio do Exchange Online e fornece os seguintes aprimoramentos:
 
 - O MessageBind era configurável apenas para o tipo de logon do usuário AuditAdmin; não se aplicava a ações de representante ou de proprietário. O MailItemsAccessed se aplica a todos os tipos de logon.
 
@@ -63,13 +79,55 @@ A nova ação da caixa de correio MailItemsAccessed substitui o MessageBind no l
 
 Para obter informações sobre registros de auditoria para atividades MailItemsAccessed, confira [Usar auditoria avançada para investigar contas comprometidas](mailitemsaccessed-forensics-investigations.md).
 
-### <a name="search-for-mailitemsaccessed-audit-records"></a>Pesquisar registros de auditoria MailItemsAccessed
+Para pesquisar registros de auditoria MailItemsAccessed, é possível pesquisar a atividade **Itens da caixa de correio acessados**​​ na lista suspensa **Atividades da caixa de correio do Exchange** na [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no centro de conformidade do Microsoft 365.
 
-Para pesquisar registros de auditoria MailItemsAccessed, é possível pesquisar a atividade **Itens da caixa de correio acessados**​​ na lista suspensa **Atividades da caixa de correio do Exchange** na [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no Centro de Conformidade e Segurança.
-
-![Pesquisar ações MailItemsAccessed na ferramenta de pesquisa de log de auditoria](../media/MailItemsAccessedSCC1.png)
+![Pesquisar ações MailItemsAccessed na ferramenta de pesquisa de log de auditoria](../media/AdvAudit_MailItemsAccessed.png)
 
 Você também pode executar os comandos [Search-UnifiedAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) ou [Search-MailboxAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) no PowerShell do Exchange Online.
+
+### <a name="send"></a>Send
+
+O evento Send também é uma ação de auditoria de caixa de correio e é acionado quando um usuário realiza uma das seguintes ações:
+
+- Envia uma mensagem de email
+
+- Responde a uma mensagem de email
+
+- Encaminha uma mensagem de email
+
+Os investigadores podem usar o evento Send para identificar os emails enviados de uma conta comprometida. O registro de auditoria para um evento de Envio contém informações sobre a mensagem, como, por exemplo, quando a mensagem foi enviada, a ID de InternetMessage, o campo assunto e se a mensagem continha anexos. Essas informações de auditoria podem ajudar os investigadores a identificar informações sobre mensagens de email enviadas de uma conta comprometida ou enviadas por um invasor. Além disso, os investigadores podem usar uma ferramenta de Descoberta Eletrônica do Microsoft 365 para procurar a mensagem (usando o campo assunto ou ID da mensagem) para identificar os destinatários para os quais a mensagem foi enviada e o conteúdo real da mensagem enviada.
+
+Para pesquisar os registros de auditoria Send, é possível pesquisar a atividade **Mensagem enviada**​​ na lista suspensa **Atividades da caixa de correio do Exchange** na [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no centro de conformidade do Microsoft 365.
+
+![Pesquisar ações Mensagem enviada na ferramenta de pesquisa de log de auditoria](../media/AdvAudit_SentMessage.png)
+
+Você também pode executar os comandos [Search-UnifiedAuditLog -Operations Send](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) ou [Search-MailboxAuditLog -Operations Send](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) no PowerShell do Exchange Online.
+
+### <a name="searchqueryinitiatedexchange"></a>SearchQueryInitiatedExchange
+
+O evento SearchQueryInitiatedExchange é disparado quando uma pessoa usa a barra de pesquisa no Outlook ou no Outlook na Web para procurar itens em uma caixa de correio. Os investigadores podem usar o evento SearchQueryInitiatedExchange para determinar se um invasor que pode ter comprometido uma conta procurou por ou tentou acessar informações confidenciais na caixa de correio. O registro de auditoria para um evento SearchQueryInitiatedExchange contém informações como o texto atual de consulta de pesquisa e se a pesquisa foi realizada no cliente de área de trabalho do Outlook ou no Outlook na Web. Examinando as consultas de pesquisa que um invasor pode ter executado, um investigador pode entender melhor a intenção dos dados de email que foi pesquisado.
+
+Para pesquisar os registros de auditoria SearchQueryInitiatedExchange, é possível pesquisar a atividade **Pesquisa de email realizada**​​ na lista suspensa **Atividades de pesquisa** na [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no centro de conformidade.
+
+![Pesquisar ações Pesquisa de email realizada na ferramenta de pesquisa de log de auditoria](../media/AdvAudit_SearchExchange.png)
+
+Você também pode executar o [Search-UnifiedAuditLog – Operations SearchQueryInitiatedExchange](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online.
+
+> [!NOTE]
+> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedExchange (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.
+
+### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
+
+De forma semelhante à pesquisa dos itens da caixa de correio, o evento SearchQueryInitiatedSharePoint será disparado quando uma pessoa procurar itens no site inicial do SharePoint, sites do Teams, sites de colaboração e sites hub da sua organização. Os investigadores podem usar o evento SearchQueryInitiatedSharePoint para determinar se um invasor tentou localizar (e possivelmente acessar) informações confidenciais no SharePoint. O registro de auditoria para um evento SearchQueryInitiatedSharePoint contém também um texto de consulta de pesquisa real. Examinando as consultas de pesquisa que um invasor pode ter executado, um investigador pode entender melhor a intenção e o escopo dos dados do arquivo sendo pesquisado.
+
+Para pesquisar os registros de auditoria SearchQueryInitiatedSharePoint, é possível pesquisar a atividade **Pesquisa SharePoint realizada**​​ na lista suspensa **Atividades de pesquisa** na [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no centro de conformidade.
+
+![Pesquisar ações Pesquisa SharePoint realizada na ferramenta de pesquisa de log de auditoria](../media/AdvAudit_SearchSharePoint.png)
+
+Você também pode executar o [Search-UnifiedAuditLog – Operations SearchQueryInitiatedSharePoint](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online.
+
+> [!NOTE]
+> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedSharePoint (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.
 
 ## <a name="high-bandwidth-access-to-the-office-365-management-activity-api"></a>Acesso de alta largura de banda à API da Atividade de Gerenciamento do Office 365
 
@@ -83,47 +141,21 @@ Para mais informações, confira a seção "limitação da API" em [Referência 
 
 ## <a name="faqs-for-advanced-audit"></a>Perguntas frequentes para Auditoria Avançada
 
-**Onde posso acessar a Auditoria Avançada?**
-
-Depois que a Auditoria Avançada for lançada em sua organização, você poderá criar políticas de retenção de log de auditoria e procurar registros de auditoria MailItemsAccessed usando a ferramenta de pesquisa de log de auditoria no [Centro de Conformidade e Segurança](https://protection.office.com). Estamos trabalhando para implantar a Auditoria Avançada no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com) nas próximas semanas.
-
 **Todo usuário precisa de uma licença E5 para se beneficiar da Auditoria Avançada?**
 
 Para se beneficiar dos recursos da Auditoria Avançada no nível de usuário, o usuário deve ter uma licença E5. Existem alguns recursos que verificarão a licença apropriada para expor o recurso ao usuário. Por exemplo, se você estiver tentando manter os registros de auditoria para um usuário que não tem uma licença E5 por mais de 90 dias, o sistema retornará uma mensagem de erro.
 
-**Por que não vejo a Auditoria Avançada em minha organização, apesar de termos uma assinatura E5 e usuários com licenças E5 atribuídas?**
+**Minha organização tem uma assinatura E5, preciso fazer algo para ter acesso aos registros de auditoria dos eventos cruciais?**
 
-É possível que os recursos de Auditoria Avançada (como a capacidade de criar políticas de retenção de log de auditoria e o log de registros de auditoria MailItemsAccessed) não estejam disponíveis em sua organização, mesmo com o licenciamento correto em vigor. Caso esteja acontecendo, é porque o pacote de Auditoria Avançada ainda não foi implementado em sua organização. Esse é um problema de preenchimento temporário de licenciamento, que deve ser resolvido para as organizações afetadas em breve. Para atenuar esse problema, execute as seguintes etapas para cada usuário E5:
+Para clientes qualificados, não há ação para obter acesso aos eventos de auditoria cruciais. No entanto, conforme explicado anteriormente neste tópico, a latência causada pelo problema de aterramento de licenciamento pode impedir que os registros de auditoria dos eventos cruciais sejam retornados em uma pesquisa de log de auditoria. Se isso acontecer, siga as instruções nas perguntas frequentes anteriores sobre o problema de aterramento de licenciamento temporário.
 
-1. No centro de administração do Microsoft 365, acesse **Usuários > Usuários ativos** e selecione um usuário.
+**Quando a nova licença do complemento de retenção do log de auditoria de dez anos estará disponível?**
 
-2. Na página do submenu de propriedades do usuário, clique em **Licenças e aplicativos**.
+O novo complemento de retenção de log de auditoria de dez anos estará disponível para compra pelos clientes com assinaturas E5 no início de 2021.
 
-3. Expanda a seção **Aplicativos** e siga um destes procedimentos:
+**O que acontecerá com os dados do log de auditoria da minha organização se eu criar uma política de retenção de log de auditoria de dez anos, o recurso for lançado para disponibilidade geral, mas antes da licença complementar necessária estar disponível no início de 2021?**
 
-   a. Se a caixa de seleção **Auditoria Avançada do Microsoft 365** não estiver selecionada, selecione-a e clique em **Salvar alterações.** Os registros de auditoria para ações MailItemsAccessed para esse usuário devem ser pesquisáveis ​​em 24 horas.
-
-   b. Se a caixa de seleção **Auditoria Avançada do Microsoft 365** estiver selecionada, desmarque-a e clique em **Salvar alterações.** Confira a etapa 4.
-
-4. Se você desmarcou a caixa de seleção na etapa 3, aguarde 60 minutos e repita a etapa 3a para ativar o aplicativo Auditoria Avançada do Microsoft 365.
-
-Para organizações que atribuem licenças a grupos de usuários usando o licenciamento baseado em grupo, é necessário desativar a atribuição de licenciamento da Auditoria avançada do Microsoft 365 do grupo. Depois de salvar as alterações, verifique se a Auditoria Avançada do Microsoft 365 está desativada para o grupo. Em seguida, ative novamente a atribuição de licenciamento do grupo. Para obter mais instruções do licenciamento baseado em grupo, consulte [Atribuir licenças a usuários por membro de grupo no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).
-
-**O que acontece se minha organização estava na visualização privada para retenção de um ano de registros de auditoria?**
-
-Suas políticas de retenção de auditoria do programa de visualização persistirão, desde que você não as substitua e as altere com políticas personalizadas de retenção de auditoria.
-
-**E se a minha organização quiser reter os logs de auditoria por mais de um ano?**
-
-Estamos explorando opções de como e se podemos fornecer períodos de retenção mais longos para registros de auditoria. Você pode enviar comentários sobre a retenção mais longa de registros de auditoria na [Voz do Usuário do Office 365](https://office365.uservoice.com/forums/289138-office-365-security-compliance?category_id=137187).
-
-**Minha organização tem uma assinatura E5, preciso fazer algo para ter acesso aos registros de auditoria dos eventos MailItemsAccessed?**
-
-Para clientes qualificados, não há ação para obter acesso aos eventos MailItemsAccessed. No entanto, conforme explicado anteriormente neste tópico, a latência causada pelo problema de aterramento de licenciamento pode impedir que os registros de auditoria do evento MailItemsAccessed sejam retornados em uma pesquisa de log de auditoria. Se isso ocorrer, siga as instruções na seção Pesquisar registros de auditoria MailItemsAccessed.
-
-**Pretende lançar outros eventos neste ano?**
-
-Sim, planejamos lançar novos eventos cruciais para as investigações nos próximos meses. Publicaremos informações sobre esses novos eventos no [Mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) à medida que nos aproximamos de uma data de lançamento.
+Todos os dados de log de auditoria abrangidos por uma política de retenção de log de auditoria de dez anos que você cria depois da disponibilidade geral serão mantidos por dez anos. Quando a licença complementar de retenção do log de auditoria de dez anos estiver disponível no início de 2021, você precisará comprar licenças de complemento para os usuários os quais os dados de auditoria estão sendo retidos por uma política de retenção existente de dez anos. Além disso, após a licença complementar estar disponível no início de 2021, o licenciamento apropriado será aplicado quando você criar novas políticas de retenção de log de auditoria de dez anos.
 
 **Os novos eventos da Auditoria Avançada estão disponíveis na API da Atividade de Gerenciamento do Office 365?**
 
@@ -131,4 +163,4 @@ Sim. Desde que os registros de auditoria sejam gerados para os usuários com a l
 
 **Maior largura de banda significa melhor latência ou SLA mais alto?**
 
-No momento, a alta largura de banda fornece um pipeline melhor, especialmente para organizações com um alto volume de sinais de auditoria e padrões de consumo significativos. Isso pode levar a uma latência melhor. No entanto, não há um SLA associado à alta largura de banda. As latências padrão são documentadas e não mudam com o lançamento da Auditoria Avançada.
+No momento, a alta largura de banda fornece um pipeline melhor, especialmente para organizações com um alto volume de sinais de auditoria e padrões de consumo significativos. Uma maior largura de banda pode levar a uma latência melhor. No entanto, não há um SLA associado à alta largura de banda. As latências padrão são documentadas e essas latências não mudam com o lançamento da Auditoria Avançada.
