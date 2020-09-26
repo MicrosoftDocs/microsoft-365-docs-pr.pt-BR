@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 6c241894ab50b6b1341b06f47c107c8945fb6e8c
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 1ad83dbf323e431e1694b408e09e581ff5b76348
+ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104565"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48279555"
 ---
 # <a name="register-existing-devices-yourself"></a>Registre dispositivos existentes por conta própria
 
@@ -146,14 +146,14 @@ Siga estas etapas:
 
 1. Em **upload de arquivo**, forneça um caminho para o arquivo CSV que você criou anteriormente.
 
-1. Selecione **registrar dispositivos**. O sistema adicionará os dispositivos à sua lista de dispositivos na **folha de dispositivos**, marcada como **AutopilotRegistrationRequested**. O registro geralmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo aparecerá como **pronto para o usuário** , o que significa que ele está pronto e esperando que um usuário comece a usar o.
+1. Selecione **registrar dispositivos**. O sistema adicionará os dispositivos à sua lista de dispositivos na **lâmina de dispositivos**, marcada como **registro pendente**. O registro geralmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo aparecerá como **pronto para o usuário** , o que significa que ele está pronto e esperando que um usuário comece a usar o.
 
 
 Você pode monitorar o progresso do registro de dispositivo na página principal. Os Estados possíveis relatados incluem:
 
 | Estado | Descrição |
 |---------------|-------------|
-| AutopilotRegistrationRequested | O registro ainda não foi feito. Verifique novamente mais tarde. |
+| Registro pendente | O registro ainda não foi feito. Verifique novamente mais tarde. |
 | Falha no registro | Não foi possível concluir o registro. Consulte [Solucionando problemas de registro de dispositivo](#troubleshooting-device-registration) para obter mais informações. |
 | Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A área de trabalho gerenciada da Microsoft irá orientá-lo pela primeira vez na configuração, portanto, não é necessário fazer mais preparativos. |
 | Ativo | O dispositivo foi entregue ao usuário e foi registrado com seu locatário. Isso também indica que eles estão usando o dispositivo regularmente. |
