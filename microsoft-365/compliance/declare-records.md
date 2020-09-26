@@ -17,51 +17,72 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Declarar registros usando rótulos de retenção. '
-ms.openlocfilehash: 841c5197addff704016e344ba7ae44355c872f72
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 490f81ba9c1d2d291539107650ec3c3f5938eba8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817094"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198916"
 ---
-# <a name="declare-records-by-using-retention-labels"></a><span data-ttu-id="52a2c-103">Declarar registros usando rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="52a2c-103">Declare records by using retention labels</span></span>
+# <a name="declare-records-by-using-retention-labels"></a><span data-ttu-id="7286a-103">Declarar registros usando rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="7286a-103">Declare records by using retention labels</span></span>
 
-><span data-ttu-id="52a2c-104">*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*</span><span class="sxs-lookup"><span data-stu-id="52a2c-104">*[Microsoft 365 licensing guidance for security & compliance](https://aka.ms/ComplianceSD).*</span></span>
+><span data-ttu-id="7286a-104">*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*</span><span class="sxs-lookup"><span data-stu-id="7286a-104">*[Microsoft 365 licensing guidance for security & compliance](https://aka.ms/ComplianceSD).*</span></span>
 
-<span data-ttu-id="52a2c-105">Para declarar documentos e emails como um registro, use [rótulos de retenção](retention.md#retention-labels) que identificam itens como registros.</span><span class="sxs-lookup"><span data-stu-id="52a2c-105">To declare documents and emails as a record, you use [retention labels](retention.md#retention-labels) that mark items as a record.</span></span> <span data-ttu-id="52a2c-106">É possível publicar esses rótulos para que usuários e administradores possam aplicá-los manualmente ou automaticamente ao conteúdo que você deseja classificar como registro.</span><span class="sxs-lookup"><span data-stu-id="52a2c-106">You can either publish those labels so that users and administrators can manually apply them to content, or auto-apply those labels to content that you want to mark as a record.</span></span>
+<span data-ttu-id="7286a-105">Para declarar documentos e emails como [registros](records-management.md#records), use [rótulos de retenção](retention.md#retention-labels) que marquem o conteúdo como um **registro** ou um **registro regulatório**.</span><span class="sxs-lookup"><span data-stu-id="7286a-105">To declare documents and emails as [records](records-management.md#records), you use [retention labels](retention.md#retention-labels) that mark the content as a **record** or a **regulatory record**.</span></span>
 
-## <a name="configuring-retention-labels-to-declare-records"></a><span data-ttu-id="52a2c-107">Configurar rótulos de retenção para declarar registros</span><span class="sxs-lookup"><span data-stu-id="52a2c-107">Configuring retention labels to declare records</span></span>
+> [!NOTE]
+> <span data-ttu-id="7286a-106">Os registros regulatórios estão no modo de visualização.</span><span class="sxs-lookup"><span data-stu-id="7286a-106">Regulatory records are currently in preview.</span></span>
 
-<span data-ttu-id="52a2c-108">Quando você criar ou configurar um rótulo de retenção, selecione a opção para marcar os itens como registros.</span><span class="sxs-lookup"><span data-stu-id="52a2c-108">When you create or configure a retention label, select the option to mark items as a record.</span></span>
+<span data-ttu-id="7286a-107">Se você não tiver certeza se deseja usar um registro ou um registro normativo, confira [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).</span><span class="sxs-lookup"><span data-stu-id="7286a-107">If you're not sure whether to use a record or a regulatory record, see [Compare restrictions for what actions are allowed or blocked](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).</span></span> <span data-ttu-id="7286a-108">Se precisar usar registros regulatórios, primeiro você deve executar um comando do Windows PowerShell, conforme descrito na próxima seção.</span><span class="sxs-lookup"><span data-stu-id="7286a-108">If you need to use regulatory records, you must first run a PowerShell command, as described in the next section.</span></span>
+
+<span data-ttu-id="7286a-109">Em seguida, você pode publicar esses rótulos em uma política de rótulo de retenção para que os usuários e administradores possam aplicá-los ao conteúdo ou a rótulos que marcam itens como registros (mas não registros regulatórios), aplicam automaticamente esses rótulos ao conteúdo desejado para declarar um registro.</span><span class="sxs-lookup"><span data-stu-id="7286a-109">You can then either publish those labels in a retention label policy so that users and administrators can apply them to content, or for labels that mark items as records (but not regulatory records), auto-apply those labels to content that you want to declare a record.</span></span>
+
+## <a name="how-to-display-the-option-to-mark-content-as-a-regulatory-record"></a><span data-ttu-id="7286a-110">Como exibir a opção para marcar o conteúdo como um registro regulatório</span><span class="sxs-lookup"><span data-stu-id="7286a-110">How to display the option to mark content as a regulatory record</span></span>
 
 >[!NOTE] 
-> <span data-ttu-id="52a2c-109">A opção de marcar o conteúdo como registro não está disponível quando você cria ou configura rótulos de retenção da **Governança de Informações** no Centro de conformidade do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="52a2c-109">The option to mark the content as a record is not available when you create or configure retention labels from **Information Governance** in the Microsoft 365 compliance center.</span></span> <span data-ttu-id="52a2c-110">Em vez disso, você deve usar o **Gerenciamento de Registros**.</span><span class="sxs-lookup"><span data-stu-id="52a2c-110">Instead, you must use **Records Management**.</span></span>
+> <span data-ttu-id="7286a-111">O procedimento a seguir é uma ação auditável, registrar em log \*\* Opção de registro regulatório habilitado para rótulos de retenção\*\* na seção [Política de retenção e atividades de rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) do log de auditoria.</span><span class="sxs-lookup"><span data-stu-id="7286a-111">The following procedure is an auditable action, logging **Enabled regulatory record option for retention labels** in the [Retention policy and retention label activities](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) section of the audit log.</span></span>
 
-<span data-ttu-id="52a2c-111">Para criar um novo rótulo de retenção que marque o conteúdo como um registro:</span><span class="sxs-lookup"><span data-stu-id="52a2c-111">To create a new retention label that marks the content as a record:</span></span>
+<span data-ttu-id="7286a-112">Por padrão, a opção de rótulo de retenção para marcar o conteúdo como um registro regulatório não é exibida no assistente de etiqueta de retenção.</span><span class="sxs-lookup"><span data-stu-id="7286a-112">By default, the retention label option to mark content as a regulatory record isn't displayed in the retention label wizard.</span></span> <span data-ttu-id="7286a-113">Para exibir essa opção, você deve primeiro executar um comando do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7286a-113">To display this option, you must first run a PowerShell command:</span></span>
 
-1. <span data-ttu-id="52a2c-112">No [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com), vá para **Gerenciamento de Registros** \> **Plano de Arquivo**.</span><span class="sxs-lookup"><span data-stu-id="52a2c-112">In the [Microsoft 365 compliance center](https://compliance.microsoft.com), go to **Records Management** \> **File Plan**.</span></span> <span data-ttu-id="52a2c-113">Na página **Planejamento de arquivos**, clique em **Criar um rótulo**.</span><span class="sxs-lookup"><span data-stu-id="52a2c-113">On the **File plan** page, select **Create a label**.</span></span>
+1. <span data-ttu-id="7286a-114">[Conecte-se ao Centro de Segurança e Conformidade do Office 365 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).</span><span class="sxs-lookup"><span data-stu-id="7286a-114">[Connect to the Office 365 Security & Compliance Center Powershell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).</span></span>
 
-2. <span data-ttu-id="52a2c-114">Na página **Definir configurações de retenção** no assistente, escolha a opção para marcar itens como registros:</span><span class="sxs-lookup"><span data-stu-id="52a2c-114">On the **Define retention settings** page in the wizard, choose the option to mark items as records:</span></span>
+2. <span data-ttu-id="7286a-115">Execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="7286a-115">Run the following cmdlet:</span></span>
     
-   ![Selecione a configuração de retenção para marcar os itens como um registro](../media/recordversioning6.png)
+    ```powershell
+    Set-RegulatoryComplianceUI -Enabled $true
+    ````
+    <span data-ttu-id="7286a-116">Não há uma solicitação para confirmar e a configuração tem efeito imediatamente.</span><span class="sxs-lookup"><span data-stu-id="7286a-116">There is no prompt to confirm and the setting takes effect immediately.</span></span>
 
-3. <span data-ttu-id="52a2c-116">Aplique o rótulo de retenção aos documentos do SharePoint ou OneDrive e emails do Exchange, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="52a2c-116">Apply the retention label to SharePoint or OneDrive documents and Exchange emails, as needed.</span></span> <span data-ttu-id="52a2c-117">Para obter instruções:</span><span class="sxs-lookup"><span data-stu-id="52a2c-117">For instructions:</span></span>
-    
-    - [<span data-ttu-id="52a2c-118">Criar rótulos de retenção e aplicá-los em aplicativos</span><span class="sxs-lookup"><span data-stu-id="52a2c-118">Create retention labels and apply them in apps</span></span>](create-apply-retention-labels.md)
-    
-    - [<span data-ttu-id="52a2c-119">Aplicar um rótulo de retenção automaticamente ao conteúdo</span><span class="sxs-lookup"><span data-stu-id="52a2c-119">Apply a retention label to content automatically</span></span>](apply-retention-labels-automatically.md)
+<span data-ttu-id="7286a-117">Se você mudar de ideia sobre como ver essa opção no assistente de etiqueta de retenção, é possível ocultá-la novamente executando o mesmo cmdlet com o **falso** valor: `Set-RegulatoryComplianceUI -Enabled $false`</span><span class="sxs-lookup"><span data-stu-id="7286a-117">If you change your mind about seeing this option in the retention label wizard, you can hide it again by running the same cmdlet with the **false** value: `Set-RegulatoryComplianceUI -Enabled $false`</span></span> 
 
-## <a name="applying-the-configured-retention-label-to-content"></a><span data-ttu-id="52a2c-120">Aplicando o rótulo de retenção configurado ao conteúdo</span><span class="sxs-lookup"><span data-stu-id="52a2c-120">Applying the configured retention label to content</span></span>
+## <a name="configuring-retention-labels-to-declare-records"></a><span data-ttu-id="7286a-118">Configurar rótulos de retenção para declarar registros</span><span class="sxs-lookup"><span data-stu-id="7286a-118">Configuring retention labels to declare records</span></span>
 
-<span data-ttu-id="52a2c-121">Quando os rótulos de retenção que marcam o conteúdo como registro são disponibilizados para os usuários aplicá-los nos aplicativos:</span><span class="sxs-lookup"><span data-stu-id="52a2c-121">When retention labels that mark content as a record are made available for users to apply them in apps:</span></span>
+<span data-ttu-id="7286a-119">Ao criar ou editar um rótulo de retenção na solução **Gerenciamento de Registros** no Centro de conformidade do Microsoft 365, você tem a opção de marcar os itens como um registro.</span><span class="sxs-lookup"><span data-stu-id="7286a-119">When you create or edit a retention label from the **Records Management** solution in the Microsoft 365 compliance center, you have the option to mark items as a record.</span></span> <span data-ttu-id="7286a-120">Caso tenha executado o comando do Windows PowerShell da seção anterior, você pode marcar os itens como um registro regulatório.</span><span class="sxs-lookup"><span data-stu-id="7286a-120">If you ran the PowerShell command from the previous section, you can alternatively mark items as a regulatory record.</span></span>
 
-- <span data-ttu-id="52a2c-122">Para o Exchange, qualquer usuário com acesso de gravação à caixa de correio pode aplicar esses rótulos.</span><span class="sxs-lookup"><span data-stu-id="52a2c-122">For Exchange, any user with write-access to the mailbox can apply these labels.</span></span> 
-- <span data-ttu-id="52a2c-123">Para o SharePoint e OneDrive, qualquer usuário no grupo Membros padrão (o nível de permissão de Contribuição) pode aplicar esses rótulos.</span><span class="sxs-lookup"><span data-stu-id="52a2c-123">For SharePoint and OneDrive, any user in the default Members group (the Contribute permission level) can apply these labels.</span></span>
+<span data-ttu-id="7286a-121">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="7286a-121">For example:</span></span>
 
-<span data-ttu-id="52a2c-124">Exemplo de um documento marcado como registro usando um rótulo de retenção:</span><span class="sxs-lookup"><span data-stu-id="52a2c-124">Example of a document marked as record by using a retention label:</span></span>
+![Configurar um rótulo de retenção para marcar o conteúdo como um registro ou uma regulamentação](../media/recordversioning6.png)
+
+<span data-ttu-id="7286a-123">Usando esse rótulo de retenção, você pode aplicá-lo a documentos do Microsoft Office SharePoint Online ou do Microsoft OneDrive e a emails do Exchange, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="7286a-123">Using this retention label, you can now apply it to SharePoint or OneDrive documents and Exchange emails, as needed.</span></span> 
+
+<span data-ttu-id="7286a-124">Para obter instruções completas:</span><span class="sxs-lookup"><span data-stu-id="7286a-124">For full instructions:</span></span>
+
+- [<span data-ttu-id="7286a-125">Criar rótulos de retenção e aplicá-los em aplicativos</span><span class="sxs-lookup"><span data-stu-id="7286a-125">Create retention labels and apply them in apps</span></span>](create-apply-retention-labels.md)
+
+- <span data-ttu-id="7286a-126">[Aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md) (sem suporte para registros regulatórios)</span><span class="sxs-lookup"><span data-stu-id="7286a-126">[Apply a retention label to content automatically](apply-retention-labels-automatically.md) (not supported for regulatory records)</span></span>
+
+
+## <a name="applying-the-configured-retention-label-to-content"></a><span data-ttu-id="7286a-127">Aplicando o rótulo de retenção configurado ao conteúdo</span><span class="sxs-lookup"><span data-stu-id="7286a-127">Applying the configured retention label to content</span></span>
+
+<span data-ttu-id="7286a-128">Quando os rótulos de retenção que marcam itens como registro ou registro regulatório estão disponíveis para os usuários aplicá-los em aplicativos:</span><span class="sxs-lookup"><span data-stu-id="7286a-128">When retention labels that mark items as a record or regulatory record are made available for users to apply them in apps:</span></span>
+
+- <span data-ttu-id="7286a-129">Para o Exchange, qualquer usuário com acesso de gravação à caixa de correio pode aplicar esses rótulos.</span><span class="sxs-lookup"><span data-stu-id="7286a-129">For Exchange, any user with write-access to the mailbox can apply these labels.</span></span> 
+- <span data-ttu-id="7286a-130">Para o SharePoint e OneDrive, qualquer usuário no grupo Membros padrão (o nível de permissão de Contribuição) pode aplicar esses rótulos.</span><span class="sxs-lookup"><span data-stu-id="7286a-130">For SharePoint and OneDrive, any user in the default Members group (the Contribute permission level) can apply these labels.</span></span>
+
+<span data-ttu-id="7286a-131">Exemplo de um documento marcado como registro usando um rótulo de retenção:</span><span class="sxs-lookup"><span data-stu-id="7286a-131">Example of a document marked as record by using a retention label:</span></span>
 
 ![Painel de detalhes do documento marcado como um registro](../media/recordversioning7.png)
 
-## <a name="next-steps"></a><span data-ttu-id="52a2c-126">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="52a2c-126">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="7286a-133">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="7286a-133">Next steps</span></span>
 
-<span data-ttu-id="52a2c-127">Para obter uma lista dos cenários com suporte para o gerenciamento de registros, confira [Cenários comuns para o gerenciamento de registros](get-started-with-records-management.md#common-scenarios-for-records-management).</span><span class="sxs-lookup"><span data-stu-id="52a2c-127">For a list of scenarios supported by records management, see [Common scenarios for records management](get-started-with-records-management.md#common-scenarios-for-records-management).</span></span>
+<span data-ttu-id="7286a-134">Para obter uma lista dos cenários com suporte para o gerenciamento de registros, confira [Cenários comuns para o gerenciamento de registros](get-started-with-records-management.md#common-scenarios-for-records-management).</span><span class="sxs-lookup"><span data-stu-id="7286a-134">For a list of scenarios supported by records management, see [Common scenarios for records management](get-started-with-records-management.md#common-scenarios-for-records-management).</span></span>
