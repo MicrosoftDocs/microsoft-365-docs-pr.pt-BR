@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b46a1996d1a86601efe21ec71b19adfc9fa02c61
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: e156a8dc71dc9aca4a5d608b29307f4d36f0ec6b
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417209"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208133"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>PIMS (Sistema de Gerenciamento de Informações de Privacidade) do ISO/IEC 27701
 
@@ -77,7 +77,7 @@ Independentemente do tamanho da sua organização e se for uma controladora ou p
 - Bot do Microsoft Healthcare
 - Intune
 - Área de Trabalho Gerenciada da Microsoft
-- Power Automate (anteriormente Microsoft Flow) 
+- Power Automate (anteriormente Microsoft Flow)
 - PowerApps
 - Power BI
 - Power BI incorporado
@@ -86,15 +86,14 @@ Independentemente do tamanho da sua organização e se for uma controladora ou p
 - Especialistas em ameaças da Microsoft
 - Proteção avançada contra ameaças do Windows Defender
 
-
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
 - [Azure, Dynamics 365 e Online Services: certificação ISO27701](https://aka.ms/azureiso27701cert)
 - [Azure, Dynamics 365 e Online Services: relatório de avaliação ISO27701](https://aka.ms/azureiso27701report)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [configurar a Pontuação de Conformidade](compliance-score-setup.md), selecione o modelo pré-configurado [ISO 27701](https://go.microsoft.com/fwlink/?linkid=2117915) da lista suspensa **Template** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 47cc5cf10f048640ead85d239881fa9b2603e699
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 3757d400d16b324f512c60059c8d8b762916894c
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417495"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208253"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Padrão MTCS (Multi-Tier Cloud Security) para Singapura
 
 ## <a name="mtcs-overview"></a>Visão geral do MTCS
 
-O Padrão MTCS (Multi-Tier Cloud Security) para Singapura foi elaborado sob o direcionamento do ITSC (Information Technology Standards Committee) da IDA (Infocomm Development Authority of Singapore). O ITSC promove e apoia programas nacionais de padronização da TI e da comunicação, e a participação de Singapura em atividades internacionais de padronização.
+O Padrão MTCS (Multi-Tier Cloud Security) para Singapura foi elaborado sob o direcionamento do ITSC (Information Technology Standards Committee) da IDA (Infocomm Development Authority of Singapore). O ITSC promove e apoia programas nacionais de padronização de TI e comunicações, e a participação de Singapura em atividades internacionais de padronização.
 
 A finalidade do MTCS é fornecer:
 
@@ -89,13 +89,17 @@ O MTCS tem um total de 535 controles que abrangem três níveis de segurança:
 - O Nível 2 atende às necessidades da maioria das organizações preocupadas com a segurança de dados, com um conjunto de controles mais rigorosos direcionados aos riscos e ameaças de segurança dos dados. O Nível 2 aplica-se à maior parte do uso da nuvem, incluindo aplicativos de negócios críticos.
 - O Nível 3 foi criado para organizações regulamentadas com requisitos específicos e que estão dispostas a pagar por requisitos de segurança mais rígidos. O Nível 3 adiciona um conjunto de controles de segurança que complementam os dos Níveis 1 e 2. Eles tratam dos riscos e ameaças à segurança em sistemas de informações de alto impacto que usam serviços de nuvem, como aplicativos de hospedagem com informações confidenciais e em sistemas regulamentados.
 
-**Por onde começo a iniciativa de conformidade de minha empresa?**
+**Por onde começo a iniciativa de conformidade em minha empresa?**
 
 O [MTCS Certification Scheme](https://go.microsoft.com/fwlink/p/?linkid=2099490) fornece orientações sobre controles de auditoria e requisitos de segurança.
 
 **Posso usar a conformidade da Microsoft no processo de certificação de minha organização?**
 
 Sim. Se houver uma requisição para certificar seus serviços baseados nesses serviços de nuvem da Microsoft, use a certificação MTCS para reduzir o impacto da auditoria de sua infraestrutura de TI até o limite em que ela depende deles. Contudo, você é responsável por contratar um avaliador para analisar a conformidade de sua implementação e pelos controles e processos dentro de sua organização.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o Gerenciador de conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

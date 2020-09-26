@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd17ac35c732189fe8699d75ceb054cc4c900364
-ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
+ms.openlocfilehash: a1c04718c1ebb798319a83155a6c70f72b0847de
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422449"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208807"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -56,6 +56,10 @@ As seguintes tarefas estão envolvidas para atender aos padrões RGPD. Siga os l
 - **[Avaliações do Impacto sobre a Proteção dos Dados (DPIA)](gdpr-data-protection-impact-assessments.md)**. O RGPD exige que os controladores preparem um DPIA para operações de dados que "provavelmente resultariam em alto risco para os direitos e a liberdade de pessoas físicas".
 
 Conforme mencionado acima, o plano de ação recomendado para o RGPD e as Listas de Verificação de Preparação de Responsabilidade fornece um guia para implementar ou avaliar a conformidade com o RGPD usando produtos e serviços da Microsoft.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade tem uma avaliação prévia para essa regulamentação para clientes do Enterprise E5. Encontre o modelo para criar a avaliação na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Gerenciador de Conformidade](compliance-manager-assessments.md).
 
 ## <a name="data-subject-request-dsr"></a>Solicitação do Titular de Dados (DSR)
 
@@ -178,7 +182,7 @@ A Microsoft tem políticas e procedimentos em vigor para notificá-lo imediatame
 
 ## <a name="accountability-readiness-checklists-for-the-gdpr"></a>Listas de Verificação de Preparação de Responsabilidade para o RGPD
 
-Essas [listas de verificação](gdpr-arc.md) fornecem uma forma conveniente de acessar as informações necessárias para dar suporte ao RGPD ao usar os produtos da Microsoft. Você pode gerenciar os itens nesta lista de verificação com a [Pontuação de Conformidade](compliance-score.md) fazendo referência à ID de controle e ao Título do controle em Controles gerenciados pelo cliente no bloco do RGPD.
+Essas [listas de verificação](gdpr-arc.md) fornecem uma forma conveniente de acessar as informações necessárias para dar suporte ao RGPD ao usar os produtos da Microsoft. Você pode gerenciar os itens nesta lista de verificação com a [Gerenciador de Conformidade da Microsoft](compliance-manager.md) fazendo referência à ID de controle e ao Título do Controle em Controles Gerenciados pelo Cliente no bloco do RGPD.
 
 ## <a name="gdpr-faqs"></a>Perguntas frequentes do RGPD
 

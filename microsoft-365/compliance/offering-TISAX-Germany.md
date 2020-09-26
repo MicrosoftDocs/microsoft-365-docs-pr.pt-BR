@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fe9186b45268fee11d011d6a941e244071e31a42
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 775a3d21697103d6ed0b891aef605197741d3dbd
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417535"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208113"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Intercâmbio de Avaliação de Segurança da Informação Confiável (TISAX) Alemanha
 
@@ -72,6 +72,10 @@ Visão geral de casos de uso, guias de soluções, tutoriais e outros recursos p
 **Por que não consigo visualizar uma cópia da certificação Microsoft TISAX?**
 
 A ENX fornece confirmação de certificação apenas para representantes do setor registrados no portal ENX. Para obter detalhes sobre como fazer isso, consulte a seção "Auditorias, relatórios e certificados" acima.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

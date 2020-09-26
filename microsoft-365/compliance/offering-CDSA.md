@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8c87d00e76ac71be3527e9db741aea6ee7a741f4
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: d57c725f471e5197f269270eca19c863a7f79555
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417305"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208623"
 ---
 # <a name="content-delivery--security-association-cdsa-content-protection--security-cps-standard"></a>Padrão Content Protection & Security (CPS) da Content Delivery & Security Association (CDSA)
 
@@ -60,13 +60,17 @@ A Microsoft concluiu favoravelmente a renovação de seis meses da certificaçã
 
 Esse padrão aplica-se a qualquer provedor que deseja fornecer serviços de nuvem ao setor de produção de mídia.
 
-**Como a iniciativa de conformidade de minha organização se inicia?**
+**Como eu inicio o esforço de conformidade da minha organização?**
 
 Para obter instruções, confira o [guia de implementação da CDSA do Azure](https://aka.ms/cdsaprotectsecure). Para discutir sobre requisitos específicos e o processo de inscrição no Programa de Certificação do Padrão CPS, [entre em contato com a CDSA](https://go.microsoft.com/fwlink/p/?linkid=2099484).
 
 **Posso usar a conformidade da Microsoft no processo de certificação de minha organização?**
 
 Sim. Você pode se respaldar na certificação CPS do Azure em sua iniciativa pessoal de certificação CPS usando os recursos de segurança e criptografia do Azure.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

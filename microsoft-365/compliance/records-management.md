@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: d8ea68d8fbbf67928bae4f6d09712658f364e3ef
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 677196f23430ec19f23c50e05fcc193fde420ca0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868906"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200488"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
@@ -53,7 +53,7 @@ Além da documentação online, você pode achar útil ouvir a [gravação do we
 
 ## <a name="records"></a>Registros
 
-Quando o conteúdo é marcado como registro:
+Quando o conteúdo for declarado como um registro:
 
 - Restrições são colocadas nos itens em termos de quais [ações são permitidas ou bloqueadas](#compare-restrictions-for-what-actions-are-allowed-or-blocked).
 
@@ -61,31 +61,31 @@ Quando o conteúdo é marcado como registro:
 
 - Você tem prova de disposição quando os itens são excluídos no final do período de retenção.
 
-Você usa [rótulos de retenção](retention.md#retention-labels) para marcar conteúdos como registros. É possível publicar esses rótulos para que usuários e administradores possam aplicá-los manualmente ou automaticamente ao conteúdo que você deseja classificar como registro.
+Use os [rótulos de retenção](retention.md#retention-labels) para marcar o conteúdo como um **registro** ou um **registro regulatório** (atualmente na visualização). A diferença entre esses dois são explicadas na próxima seção. Você pode publicar esses rótulos para que os usuários e administradores possam aplicá-los manualmente ao conteúdo ou aplicar automaticamente esses rótulos ao conteúdo que você deseja marcar como um registro ou um registro regulatório.
 
-Usando rótulos de retenção para marcar o conteúdo como registro, você pode implementar uma estratégia única e consistente para gerenciar registros no ambiente do Microsoft 365.
+Usando rótulos de retenção para declarar registros, você pode implementar uma estratégia única e consistente para o gerenciamento de registros em seu ambiente Microsoft 365.
 
 ### <a name="compare-restrictions-for-what-actions-are-allowed-or-blocked"></a>Comparar restrições para quais ações são permitidas ou bloqueadas
 
-Use a tabela a seguir para identificar quais restrições são impostas ao conteúdo como resultado da aplicação de um rótulo de retenção padrão e rótulos de retenção que marcam o conteúdo como registro. 
+Use a tabela a seguir para identificar quais restrições são colocadas no conteúdo como resultado da aplicação de um rótulo de retenção padrão e de rótulos de retenção que marcam o conteúdo como registro regulatório ou registro. 
 
-Um rótulo de retenção padrão tem configurações e ações de retenção, mas não marca o conteúdo como um registro.
+Um rótulo de retenção padrão tem configurações de retenção e ações, mas não marca o conteúdo como um registro ou um registro regulatório.
 
 >[!NOTE] 
 > Para garantir a integridade, a tabela inclui colunas para um registro bloqueado e desbloqueado, aplicável ao SharePoint e OneDrive, mas não ao Exchange. A capacidade de bloquear e desbloquear um registro usa o [controle de versão do registro](record-versioning.md) que não tem suporte para itens do Exchange. Portanto, para todos os itens do Exchange marcados como registro, o comportamento é mapeado para a coluna **Registro - bloqueado** e a coluna **Registro - desbloqueado** não é relevante.
 
 
-|Action| Rótulo de retenção |Registro - bloqueado| Registro - desbloqueado|
-|:-----|:-----|:-----|:-----|:-----|
-|Editar conteúdo|Permitido | **Bloqueado** | Permitido|
-|Editar propriedades, incluindo renomear|Permitido |Permitido | Permitido|
-|Excluir|Permitido <sup>1</sup> |**Bloqueado** | **Bloqueado**|
-|Copiar|Permitido |Permitido | Permitido|
-|Mover dentro do contêiner <sup>2</sup>|Permitido |Permitido | Permitido|
-|Mover entre contêineres <sup>2</sup>|Permitido |Permitido se nunca desbloqueado | Permitido|
-|Abrir/Ler|Permitido |Permitido | Permitido|
-|Alterar rótulo|Permitido |Permitido - somente administrador do contêiner | Permitido - somente administrador do contêiner|
-|Remover rótulo|Permitido |Permitido - somente administrador do contêiner | Permitido - somente administrador do contêiner|
+|Action| Rótulo de retenção |Registro - bloqueado| Registro - desbloqueado| Registro regulatório |
+|:-----|:-----|:-----|:-----|:-----|:-----|
+|Editar conteúdo|Permitido | **Bloqueado** | Permitido | **Bloqueado**|
+|Editar propriedades, incluindo renomear|Permitido |Permitido | Permitido| **Bloqueado**|
+|Excluir|Permitido <sup>1</sup> |**Bloqueado** |**Bloqueado**| **Bloqueado**|
+|Copiar|Permitido |Permitido | Permitido| Permitido|
+|Mover dentro do contêiner <sup>2</sup>|Permitido |Permitido | Permitido| Permitido|
+|Mover entre contêineres <sup>2</sup>|Permitido |Permitido se nunca desbloqueado | Permitido| **Bloqueado**|
+|Abrir/Ler|Permitido |Permitido | Permitido| Permitido|
+|Alterar rótulo|Permitido |Permitido - somente administrador do contêiner | Permitido - somente administrador do contêiner| **Bloqueado**
+|Remover rótulo|Permitido |Permitido - somente administrador do contêiner | Permitido - somente administrador do contêiner| **Bloqueado**
 
 Notas de rodapé:
 
@@ -95,8 +95,17 @@ Mensagem que um usuário vê se tentar excluir um documento rotulado no SharePoi
 
 ![Mensagem informando que o item não foi excluído do SharePoint](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-
 <sup>2</sup> Os contêineres incluem bibliotecas de documentos do SharePoint e caixas de correio do Exchange.
+
+>[!IMPORTANT] 
+> A diferença mais importante para um registro regulatório é que depois que ele é aplicado ao conteúdo, ninguém, nem mesmo um administrador global, pode remover o rótulo. 
+>
+> Além disso, os rótulos de retenção configurados para registros regulatórios têm as seguintes restrições de administrador:
+> - Não é possível tornar o período de retenção mais curto depois que o rótulo é salvo, somente estendido.
+> - Esses rótulos não têm suporte por políticas de rotulamento automático e devem ser aplicados usando [políticas de rótulo de retenção](create-apply-retention-labels.md). 
+> - Depois de ter adicionado e salvo esses rótulos a uma política de rótulo de retenção, você não pode remover esses rótulos de locais, só adicionar locais.
+> 
+> Devido a essas ações irreversíveis, certifique-se de que realmente precise usar registros regulatórios antes de selecionar essa opção para os seus rótulos de retenção. Para ajudar a evitar a configuração acidental, essa opção não está disponível por padrão, mas deve ser habilitada primeiro usando o Windows PowerShell. As instruções estão incluídas no [Declarar registros usando os rótulos de retenção](declare-records.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

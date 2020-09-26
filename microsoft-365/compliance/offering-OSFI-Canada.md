@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4250d2d79bb00c4179e39969ad992011d3fc2d4f
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: b22eebd00ee168f576a673f74ce0a39d250f9542
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417865"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208243"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Escritório do Superintendente de Instituições Financeiras (OSFI), Canadá
 
@@ -27,7 +27,7 @@ ms.locfileid: "47417865"
 
 O [Escritório de Superintendência de instituições Financeiras](https://www.osfi-bsif.gc.ca/Eng/Pages/default.aspx) (OSFI) é uma agência independente do governo do Canadá responsável pela regulamentação prudencial e pela supervisão de instituições financeiras e de planos de pensão regulados federalmente no Canadá.
 
-Na sua função de supervisão, o OSFI publicou as Diretrizes B-10 para[Terceirização de Atividades, Funções e Processos de Negócios](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx). Tais diretrizes estabeleceram "práticas prudentes, procedimentos ou padrões" que as instituições financeiras reguladas federalmente devem seguir para avaliar e gerenciar o risco associado à terceirização do seus negócios para um provedor de serviços. Um memorando subsequente do OSFI, [Novos requerimentos de terceirização baseados em tecnologia](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/cldcmp.aspx), relembrou às instituições que as diretrizes B-10 continuam válidas e que as expectativas do OSFI relativas aos acordos de terceirização de atividades importantes devem ser atendidas.
+Na sua função de supervisão, o OSFI publicou as Diretrizes B-10 para[Terceirização de Atividades, Funções e Processos de Negócios](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx). Eles estabeleceram "práticas procedimentos ou padrões seguros" que as instituições financeiras reguladas federalmente devem seguir para avaliar e gerenciar o risco associado à terceirização do seus negócios para um provedor de serviços. Um memorando subsequente do OSFI, [Novos requerimentos de terceirização baseados em tecnologia](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/cldcmp.aspx), relembrou às instituições que as diretrizes B-10 continuam válidas e que as expectativas do OSFI relativas aos acordos de terceirização de atividades importantes devem ser atendidas.
 
 Além disso, o uso de serviços de nuvem por instituições financeiras deve ser compatível com a [ Lei de Proteção às Informações Pessoais e Documentos Eletrônicos](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA) e, em alguns casos, com as leis provinciais de privacidade de dados.
 
@@ -66,6 +66,10 @@ As [Diretrizes G-10 do OSFI](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort
 **Há termos obrigatórios que devem ser incluídos no contrato com o provedor de serviços de nuvem?**
 
 Sim, mas apenas se o acordo de terceirização envolve terceirização de atividade fundamental ou envolve qualquer transferência de informações pessoais para o provedor de serviços de nuvem.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

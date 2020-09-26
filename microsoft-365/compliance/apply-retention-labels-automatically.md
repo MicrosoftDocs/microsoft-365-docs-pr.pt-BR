@@ -17,16 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar e publicar automaticamente os rótulos de retenção para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: dc525a9f7a2ea97f61f03320495eea737465cfd9
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 9ab456cd5b1f5f1bf47a1e24a3d7e58b7992ede0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171299"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196374"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+
+> [!NOTE]
+> Não há suporte para esse cenário para [registros regulatórios](records-management.md#records).
 
 Um dos recursos mais poderosos dos [rótulos de retenção](retention.md) é a capacidade de aplicá-los automaticamente ao conteúdo que corresponde a determinadas condições. Nesse caso, as pessoas da sua organização não precisam aplicar os rótulos de retenção. O Microsoft 365 faz o trabalho para elas.
   
@@ -39,6 +42,9 @@ Os rótulos de retenção de aplicação automática são excelentes porque:
 - Os usuários não precisam mais conhecer as políticas de governança de dados; assim podem se concentrar no próprio trabalho.
     
 Você pode aplicar rótulos de retenção ao conteúdo automaticamente quando esse conteúdo contiver informações confidenciais, palavras-chave, propriedades pesquisáveis ou uma correspondência para [classificadores treináveis](classifier-get-started-with.md).
+
+> [!TIP]
+> Agora, no modo de visualização, use as propriedades pesquisáveis para identificar [gravações das reuniões do Teams](#microsoft-teams-meeting-recordings).
 
 Os processos para aplicar automaticamente um rótulo de retenção com base nessas condições:
 
@@ -80,7 +86,7 @@ As instruções de navegação dependem se você estiver usando o [gerenciamento
     
     - Para saber mais sobre os descritores de plano de arquivo, confira [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md)
     
-    - Para usar o rótulo de retenção para declarar um [registro](records-management.md#records), habilite a opção **Marcar itens como um registro**.
+    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
 
 3. Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar automaticamente a etiqueta, ou apenas salvar o rótulo: Selecione **Aplicar o rótulo automaticamente a um tipo específico de conteúdo** e, em seguida, selecione **concluído** para iniciar o assistente criar rotulagem automática, que o levará diretamente para a etapa 2 do procedimento a seguir.
 
@@ -161,7 +167,30 @@ Consultas de exemplos:
 |Exchange   | `subject:"Quarterly Financials"` |
 |Exchange   | `recipients:garthf@contoso.com` |
 |Microsoft Office SharePoint Online | `contenttype:contract` |
-|Microsoft Office SharePoint Online | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract`|
+|SharePoint | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract`|
+
+##### <a name="microsoft-teams-meeting-recordings"></a>Gravações de reunião do Microsoft Teams
+
+> [!NOTE]
+> A capacidade de reter e excluir gravações de reunião de equipes é distribuída na visualização e não funciona antes de as gravações serem salvas no Microsoft OneDrive ou no Microsoft Office SharePoint Online. Para saber mais, confira[Usar o OneDrive for Business e o SharePoint Online ou Stream para gravações de reunião](https://docs.microsoft.com/MicrosoftTeams/tmr-meeting-recording-change).
+
+Para identificar as gravações de reunião do Microsoft Teams que estão armazenadas nas contas do OneDrive do usuário ou no SharePoint, especifique o seguinte para o **Editor de consulta palavra-chave**:
+
+``` 
+ProgID:Media AND ProgID:Meeting
+```
+
+Para esse rótulo de retenção, você também deve publicá-lo em contas do Microsoft OneDrive ou sites do Microsoft Office SharePoint Online relevantes dos usuários, criando uma política de rótulo. Na maioria das vezes, as gravações de reunião são salvas no Microsoft OneDrive, mas para reuniões do canal, elas são salvas no Microsoft Office SharePoint Online.
+
+Depois de salvar a política de aplicação automática:
+
+1. Selecionar **Políticas de rótulos** guia > **Publicar rótulos**
+
+2. Quando for pedido para selecionar um rótulo, escolha o rótulo que você criou com a consulta KQL para identificar as gravações de reunião do Teams.
+
+3. Quando for solicitado o local, escolha **Sites do Microsoft Office SharePoint Online** e **Contas do Microsoft OneDrive**. Em seguida, você pode manter o padrão de **Todas**ou especificar locais individuais, como incluir ou excluir contas específicas do Microsoft OneDrive.
+
+4. Conclua o assistente e salve essa política de rótulo.
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
 
