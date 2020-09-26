@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 43e7cc1231e88144e1f03f81de6e2355a582a785
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 8440d510e5f6f2e1e90e4f3e9a7368cd00f0f802
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417915"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208273"
 ---
 # <a name="motion-picture-association-of-america-mpaa"></a>Motion Picture Association of America (MPAA)
 
@@ -59,6 +59,10 @@ As diretrizes da MPAA fornecem aos fornecedores e parceiros dos grandes estúdio
 **Minha organização ainda assim precisa passar por uma auditoria da MPAA ou podemos simplesmente usar a da Azure?**
 
 As instalações do estúdios de filmagem, as empresas de efeitos visuais e outros parceiros de serviços devem trabalhar com seus produtores executivos e diretores para entender os novos requisitos de segurança e avaliar se uma auditoria formal da MPAA é necessária. A conformidade com as diretrizes da MPAA é voluntária, mas a Microsoft escolheu realizar uma avaliação independente de forma que os clientes da área de mídia possam confiar na segurança do conteúdo e nos recursos de proteção do Azure. Contudo, o Azure não gerencia os ambientes de nuvem individuais dos clientes, que podem estar sujeitos a regulações adicionais da MPAA que são melhor abordadas por sua própria auditoria de seu ambiente.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

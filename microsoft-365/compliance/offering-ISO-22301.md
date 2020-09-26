@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2e470972e1d1549bff5cce107666a930a9b29969
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 29af3729260d3d87f0cf17b83beec70da6fb7931
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416229"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208383"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>Padrão de Gerenciamento de Continuidade dos Negócios ISO 22301:2012
 
@@ -70,6 +70,10 @@ O [Portal de Confiança do Serviço](https://aka.ms/stphelp) fornece relatórios
 **Posso usar a conformidade dos serviços da Microsoft com a ISO 22301 no processo de certificação de minha organização?**
 
 Sim. Se a sua empresa exige a certificação ISO 22301 para as implementações implantadas em serviços da Microsoft, você pode usar as certificações do Azure e do Office 365 em sua avaliação de conformidade. Contudo, você é responsável por contratar um avaliador para analisar os controles, processos e implementação da ISO 22301 em sua organização e em seus próprios aplicativos.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 
