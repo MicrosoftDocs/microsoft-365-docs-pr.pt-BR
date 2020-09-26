@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb2d4ca52acce338e3afb31852409d441e52cfe0
-ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
+ms.openlocfilehash: 2083b7b6ed208f5681f4e19c276c1d7425999854
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422459"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201518"
 ---
 # <a name="azure-and-dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Lista de verificação de preparação de responsabilidade do Azure e o Dynamics 365 para o RGPD
 
@@ -33,7 +33,7 @@ Esta lista de verificação de preparação de responsabilidade oferece uma mane
 - Requisitos de técnicas de segurança[ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736).
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) para requisitos de gerenciamento de privacidade.
 
-Você pode gerenciar os itens nesta lista de verificação com a Pontuação de Conformidade [[16](gdpr-arc-Azure.md#16)] fazendo referência à ID de Controle e Título de Controle em Controles Gerenciados pelo Cliente no bloco RGPD. Essa estrutura de controle também é usada para organizar a apresentação dos controles internos que o Microsoft Azure e o Dynamics 365 implementam para oferecer suporte ao RGPD, que você pode baixar na [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
+Você pode gerenciar os itens nesta lista de verificação com o Gerente de Conformidade[16](gdpr-arc-Azure.md#16) fazendo referência à ID de Controle e ao Título do Controle em Controles Gerenciados do Cliente no bloco RGPD. Essa estrutura de controle também é usada para organizar a apresentação dos controles internos que o Microsoft Azure e o Dynamics 365 implementam para oferecer suporte ao RGPD, que você pode baixar na [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
 
 Essa estrutura de controle também é usada para organizar a apresentação dos [controles internos implementados pelo Microsoft Dynamics 365 para dar suporte ao RGPD](https://aka.ms/gdprcontrols).
 

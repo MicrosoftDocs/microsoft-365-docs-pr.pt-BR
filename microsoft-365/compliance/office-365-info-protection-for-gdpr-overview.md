@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Tenha uma visão geral da Proteção de Informações do Office 365 para o GDPR. Saiba como descobrir, classificar, proteger e monitorar dados pessoais.
-ms.openlocfilehash: 83a090b214821142a312ee81463fb3c395876867
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 72ce55b5ceb2ec3ff95cada481ec4aee0bbe8eef
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919600"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197402"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>Visão geral da Proteção de Informações do Office 365 para o GDPR
 
@@ -43,13 +43,13 @@ A [Avaliação do GDPR](https://www.microsoft.com/cyberassessment/en/gdpr/uso365
 
 A primeira etapa para estar em conformidade com o GDPR é avaliar se ele se aplica à sua organização e, em caso afirmativo, até que ponto. Essa análise inclui entender os dados que a sua organização processa e onde estão localizados.
 
-### <a name="step-1--use-compliance-score-to-view-the-regulation-requirements-and-track-your-progress"></a>Etapa 1: usar a Pontuação de Conformidade para exibir as exigências regulatórias e acompanhar o progresso
+### <a name="step-1--use-compliance-manager-to-view-the-regulation-requirements-and-track-your-progress"></a>Etapa 1: usar o Gerenciador de Conformidade para exibir as exigências regulatórias e acompanhar o progresso
 
-A Pontuação de Conformidade fornece ferramentas para acompanhar, implementar e gerenciar os controles de auditoria para ajudar sua organização a estar em conformidade com vários padrões, incluindo o GDPR.
+O Gerenciador de Conformidade ajuda a acompanhar, implementar e gerenciar os controles de auditoria para ajudar sua organização a estar em conformidade com vários padrões, incluindo o GDPR.
 
-![Use a Pontuação de Conformidade e o Gerenciador de Conformidade para exibir as exigências e acompanhar o progresso](../media/Overview-image1.png)
+![Use o Gerenciador de Conformidade para exibir as exigências e acompanhar o progresso](../media/Overview-image1.png)
 
-Para saber mais, consulte os [pontuação de conformidade](compliance-score.md).
+Para saber mais, consulte os [Gerenciador de Conformidade](compliance-manager.md).
 
 ### <a name="step-2--use-content-search-and-sensitive-information-types-to-find-personal-data"></a>Etapa 2: usar a Pesquisa de Conteúdo e os tipos de informações confidenciais para encontrar dados pessoais 
 

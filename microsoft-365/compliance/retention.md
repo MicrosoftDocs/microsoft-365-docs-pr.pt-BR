@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 3d5bf971f65be5fd6ef4fdbed46cc41827657a54
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: d8b9ff7bea32f489a5cce5f64626908e8ec56fa1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132131"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197334"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -31,6 +31,7 @@ ms.locfileid: "48132131"
 Para a maioria das organizações, o volume e a complexidade dos dados aumentam diariamente, como emails, documentos, mensagens instantâneas e muito mais. O gerenciamento ou controle efetivo dessas informações é importante porque você precisa:
   
 - **Estar em conformidade de forma proativa com as regulamentações do setor e as políticas internas** que exigem a retenção do conteúdo por um período mínimo de tempo, por exemplo, a lei Sarbanes-Oxley, que pode exigir que você guarde determinados tipos de conteúdo por sete anos. 
+
 - **Reduzir seu risco em caso de litígio ou violação de segurança** excluindo definitivamente o conteúdo antigo que você não tem mais obrigação de guardar. 
     
 - **Ajudar a sua organização a compartilhar conhecimento de maneira eficaz e ser mais ágil** garantindo que seus usuários trabalhem apenas com conteúdo atual e relevante para eles. 
@@ -58,7 +59,7 @@ Quando o conteúdo tiver as configurações de retenção atribuídas a ele, ess
 
 - Para as caixas de correio do Exchange: a cópia é mantida na pasta **Itens Recuperáveis**. 
 
-- Para o canal do Teams e as mensagens de chat: a cópia é mantida em uma pasta oculta chamada **SubstrateHolds** como uma subpasta na pasta **Itens Recuperáveis** do Exchange.
+- Para as mensagens do Teams e do Yammer: a cópia é mantida em uma pasta oculta chamada **SubstrateHolds** como uma subpasta na pasta **Itens Recuperáveis** do Exchange.
 
 > [!NOTE]
 > A biblioteca de Retenção para Preservação consome armazenamento que não está isento da cota de armazenamento de um site. Pode ser necessário aumentar o armazenamento ao usar configurações de retenção para o SharePoint e os grupos do Microsoft 365.
@@ -69,6 +70,7 @@ Para obter informações mais detalhadas sobre como funcionam as configurações
 
 - [Saiba mais sobre retenção para o Microsoft Office SharePoint Online e o OneDrive](retention-policies-sharepoint.md)
 - [Saiba mais sobre retenção para o Microsoft Teams](retention-policies-teams.md)
+- [Saiba mais sobre retenção no Yammer](retention-policies-yammer.md)
 - [Saiba mais sobre a retenção para o Exchange](retention-policies-exchange.md)
 
 ## <a name="retention-policies-and-retention-labels"></a>Políticas de retenção e rótulos de retenção
@@ -102,6 +104,8 @@ As políticas de retenção podem ser aplicadas aos seguintes locais:
 - Pastas públicas do Exchange
 - Mensagens do canal do Teams
 - Chats do Teams
+- Mensagens da comunidade do Yammer
+- Mensagens privadas do Yammer
 
 Você pode aplicar uma única política de forma eficaz a vários locais ou a locais ou usuários específicos.
     
@@ -214,7 +218,7 @@ Além das políticas de rótulo de retenção, você também pode criar uma ou m
    
 No Exchange, os rótulos de retenção de aplicação automática são aplicados somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens da caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis aplicam-se a todas as caixas de correio. Não é possível selecionar caixas de correio específicas.
   
-As pastas públicas do Exchange, o Skype e os chats e mensagens de canal do Teams não oferecem suporte a rótulos de retenção. Para reter e excluir conteúdo desses locais, use políticas de retenção.
+As pastas públicas do Exchange, Skype, Teams e as mensagens do Yammer não oferecem suporte a rótulos de retenção. Para reter e excluir conteúdo desses locais, use políticas de retenção.
 
 #### <a name="only-one-retention-label-at-a-time"></a>Apenas um rótulo de retenção por vez
 
@@ -265,7 +269,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Recursos|Política de retenção |Rótulo de retenção|
 |:-----|:-----|:-----|:-----|
 |Configurações de retenção que podem reter e excluir, somente reter ou somente excluir |Sim |Sim |
-|Cargas de trabalho com suporte: <br />- Exchange <br />- Microsoft Office SharePoint Online <br />- OneDrive <br />- Grupos do Microsoft 365 <br />- Skype for Business <br />- Teams|<br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim | <br /> Sim, exceto as pastas públicas <br /> Sim <br /> Sim <br /> Sim <br /> Não <br /> Não  |
+|Cargas de trabalho com suporte: <br />- Exchange <br />- Microsoft Office SharePoint Online <br />- OneDrive <br />- Grupos do Microsoft 365 <br />- Skype for Business <br />- Teams<br />- Yammer|<br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim | <br /> Sim, exceto as pastas públicas <br /> Sim <br /> Sim <br /> Sim <br /> Não <br /> Não <br /> Não |
 |Retenção aplicada automaticamente | Sim | Sim |
 |Retenção aplicada com base em condições <br /> - tipos de informações confidenciais, consultas de KQL, classificadores de treinamento| Não | Sim |
 |Retenção aplicada manualmente | Não | Sim |
