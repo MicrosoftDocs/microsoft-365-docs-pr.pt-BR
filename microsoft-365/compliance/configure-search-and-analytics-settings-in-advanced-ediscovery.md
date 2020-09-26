@@ -1,5 +1,5 @@
 ---
-title: Definir as configurações de pesquisa e análise-descoberta eletrônica
+title: Definir as configurações de pesquisa e análise-descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,15 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
-description: Definir configurações de descoberta eletrônica avançadas que se aplicam a todas as análises definidas em uma ocorrência. Isso inclui configurações para análise e OCR.
-ms.openlocfilehash: eb934146b065454b54d797e47f7a643b95be546d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Definir configurações de descoberta eletrônica avançadas que se aplicam a todas as análises definidas em uma ocorrência. Isso inclui configurações para análise e reconhecimento óptico de caracteres.
+ms.openlocfilehash: dfacab79f635a817b127614f524d00b0297981fb
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033671"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277087"
 ---
-# <a name="configure-search-and-analytics-settings"></a>Definir configurações de pesquisa e análise
+# <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>Definir as configurações de pesquisa e análise na descoberta eletrônica avançada
 
 Você pode definir as configurações de cada caso de descoberta eletrônica avançada para controlar a funcionalidade a seguir.
 
@@ -84,7 +84,15 @@ Há situações em que certos textos reduzirão a qualidade da análise, como av
 
 ## <a name="optical-character-recognition-ocr"></a>Reconhecimento óptico de caracteres (OCR)
 
-Quando essa configuração estiver ativada, o OCR será executado em arquivos de imagem adicionados aos conjuntos de revisão para que o texto da imagem possa ser revisado, pesquisado, marcado e analisado. Você pode exibir o texto extraído no Visualizador de texto do arquivo de imagem selecionado no conjunto de revisão. Para saber mais, confira:
+Quando essa configuração estiver ativada, o processamento OCR será executado em arquivos de imagem. O processamento de OCR é executado nas seguintes situações:
+
+- Quando [fontes de dados que os responsáveis e não custodial](non-custodial-data-sources.md) são adicionadas a um caso. O processamento de OCR é executado durante o processo de indexação avançado. Isso significa que o texto em arquivos de imagem que corresponde aos critérios de pesquisa será retornado em uma pesquisa de coleção.
+
+- Quando o conteúdo de outras fontes de dados (que não estão associados a um Objecte adicionado ao caso em uma fonte de dados não custodial) é adicionado a um conjunto de revisão.
+
+Depois que os dados são adicionados a um conjunto de revisão, o texto da imagem pode ser revisado, pesquisado, marcado e analisado. Você pode exibir o texto extraído no Visualizador de texto do arquivo de imagem selecionado no conjunto de revisão. Para saber mais, confira:
+
+- [Indexação avançada de dados custodiantes](indexing-custodian-data.md)
 
 - [Adicionar os resultados da pesquisa a um conjunto de revisão](add-data-to-review-set.md#optical-character-recognition)
 

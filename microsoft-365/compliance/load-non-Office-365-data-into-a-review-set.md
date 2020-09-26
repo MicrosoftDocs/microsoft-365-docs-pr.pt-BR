@@ -7,22 +7,21 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Saiba como importar dados que não são da Microsoft 365 para uma análise definida para análise em um caso de descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9b506edc55da1916ae908eaa7ca619ba7300f87
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ad70207bdc015107a5aba074e2df06a42c0618b3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815458"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285857"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Carregar dados que não sejam da Microsoft 365 em um conjunto de revisão
 

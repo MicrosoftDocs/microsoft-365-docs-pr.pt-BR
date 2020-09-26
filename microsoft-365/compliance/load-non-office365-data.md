@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Saiba como usar o recurso de importação de conteúdo não-Office 365 para carregar documentos que não sejam do Office 365 em evidências em uma investigação de dados.
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 9bfebc6aad9bc37d7d78ec4a0d50e6de967ac7d1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b6d8c2f65a1fa3a43fa2ac4bf3821cc6c1fac514
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815478"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285367"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Carregar dados que não sejam da Microsoft 365 em evidências
 
@@ -61,7 +60,7 @@ O uso do recurso carregar não Microsoft 365, conforme descrito neste procedimen
 4. Na etapa **carregar arquivos** , especifique o **caminho para o local dos arquivos**, onde os dados que não são da Microsoft 365 que você planeja importar estão localizados.  Definir o local correto garante que o comando AzCopy seja atualizado corretamente.
 
 > [!NOTE]
-> Se você ainda não tiver instalado o AzCopy, poderá fazer isso daqui:https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+> Se você ainda não tiver instalado o AzCopy, poderá fazer isso daqui: https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
 
 5. Copie o comando predefinido clicando no link **copiar para a área de transferência** . Inicie um prompt de comando do Windows, Cole o comando e pressione Enter.  Os arquivos serão carregados para o armazenamento de blob do Azure seguro para a próxima etapa.
 

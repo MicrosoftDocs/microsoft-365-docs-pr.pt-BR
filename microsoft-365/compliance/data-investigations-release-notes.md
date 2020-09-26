@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
 description: Neste artigo, você encontrará notas de versão que contêm alterações e novos recursos para a ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: 40d441aff8da69b4ead0ab2f49fbe93589aa709c
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 2a46236d000c62c4ab73f8a47e9c9f661fb17a61
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528021"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285407"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Notas de versão para investigações de dados (visualização) no Microsoft 365
 
 Você pode usar a ferramenta novas investigações de dados (visualização) no Microsoft 365 para fazer a triagem, investigar e corrigir incidentes relacionados a dados, como um incidente de derramamento de dados ou uma investigação interna. A visualização pública de investigações de dados fornece acesso antecipado às futuras funcionalidades e atualizações. Para obter acesso antecipado aos recursos mais recentes, crie uma nova investigação em investigações de dados (visualização) no centro de conformidade de & de segurança. Para saber como, confira [gerenciar um incidente de derramamento de dados no Microsoft 365](manage-data-spillage-incidents.md).
 
-## <a name="whats-new"></a>O que há de novo 
+## <a name="whats-new"></a>Novidades 
 
 - **Investigações** – você pode agrupar pesquisas e incidentes criando uma investigação. Gerenciar quem pode acessar a investigação adicionando ou removendo membros.  Você também pode selecionar e marcar suas investigações favoritas. Controlar e monitorar a atividade dentro e nas investigações usando novos painéis. Depois de concluir sua investigação, você pode fechá-la ou excluí-la.
 

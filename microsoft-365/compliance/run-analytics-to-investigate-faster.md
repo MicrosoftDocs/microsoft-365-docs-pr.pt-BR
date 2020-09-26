@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como usar ferramentas analíticas, como detecção de duplicidades, segmentação de email e temas para acelerar suas investigações.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e7c5103adabadf88028351f0314bcdfaa2cd4d0f
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 7a97f5ce7aefdd230a3c7a671155a7b73b2e8e19
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035843"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285337"
 ---
 # <a name="run-analytics-to-investigate-faster"></a>Executar análise para investigar mais rápido
 

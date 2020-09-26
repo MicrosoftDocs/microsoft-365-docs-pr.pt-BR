@@ -1,5 +1,5 @@
 ---
-title: Estatísticas de pesquisa
+title: Estatísticas de pesquisa na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -7,46 +7,55 @@ author: esclee
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
-description: ''
-ms.openlocfilehash: b7975f5d288348177cbb6edec8002b4ed49de327
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Valide os resultados da pesquisa exibindo as estatísticas geradas após a execução de uma pesquisa de coleção na descoberta eletrônica avançada.
+ms.openlocfilehash: ef5653a76d94272ba5f608149648f1421198929a
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069868"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286077"
 ---
-# <a name="search-statistics"></a>Estatísticas de pesquisa
+# <a name="search-statistics-in-advanced-ediscovery"></a>Estatísticas de pesquisa na descoberta eletrônica avançada
 
 Uma maneira de validar seus resultados de pesquisa é examinar as estatísticas em torno dos seus resultados para garantir que eles se alinhem às suas expectativas. Quando uma pesquisa é concluída, as estatísticas de alto nível são exibidas no submenu detalhes da pesquisa:
+
 - Número e volume de itens recuperados pela pesquisa
-- Número e volume de itens parcialmente indexados/não indexados que foram encontrados nos locais de pesquisa
+
+- Número e volume de itens parcialmente indexados ou não indexados que foram encontrados nos locais de pesquisa
+
 - Número de caixas de correio e locais pesquisados.
 Para exibir estatísticas mais detalhadas, clique em "Estatísticas" no submenu detalhes da pesquisa.
 
-## <a name="summary"></a>Resumo
+## <a name="summary-view"></a>Exibição de resumo
 
-No modo de exibição Resumo, você pode ver os resultados da pesquisa dividido por tipo de local (por exemplo, Exchange). Para cada tipo de local, você pode ver:
+No modo de exibição de resumo, você pode ver os resultados da pesquisa dividido por tipo de local (por exemplo, Exchange). Para cada tipo de local, você pode ver:
+
 - Número de locais que tinham itens que corresponderam às condições de pesquisa
+
 - Número de itens desses locais que corresponderam às condições de pesquisa
+
 - Volume total de itens que correspondem às condições de pesquisa.
 
-## <a name="top-locations"></a>Principais locais
+## <a name="top-locations-view"></a>Exibição de locais principais
 
-No modo de exibição de locais principais, você vê os locais individuais com mais correspondências. Para cada local, você verá:
+No modo de exibição locais principais, você vê os locais individuais com mais correspondências. Para cada local, você verá:
+
 - Nome do local (por exemplo, URL do SharePoint)
+
 - Tipo de local
+
 - Número de itens que corresponderam às condições de pesquisa
+
 - Volume total de itens que correspondem às condições de pesquisa.
 
-## <a name="queries"></a>Consultas
+## <a name="queries-view"></a>Exibição de consultas
 
 Se você tiver usado (c:s) linhas de palavra-chave ou de palavra-chave em sua consulta, poderá ver a divisão da consulta no modo de exibição de consultas por tipo de local. Para cada tipo de local, você verá:
 

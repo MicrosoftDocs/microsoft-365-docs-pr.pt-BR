@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59b0d723c93bddd607c12172ee0fed81650a09b0
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: a809a5880a247c66cd96daf7ae44efea13c04704
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269585"
+ms.locfileid: "48277462"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -317,7 +317,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
 
   ![Ferramenta de exportação de descoberta eletrônica](../media/eDiscoveryExportTool.png)
 
-  Clique na caixa exportar chave e pressione `CTRL + V` para colar a chave de exportação (o script copia a chave exportar para a área de transferência para que você possa colar a caixa). Clique em **procurar** para especificar o local onde você deseja baixar os arquivos de resultado da pesquisa e inicie o download.
+  Clique na caixa exportar chave e pressione `CTRL + V` para colar a chave de exportação (o script copia a chave exportar para a área de transferência). Clique em **procurar** para especificar o local onde você deseja baixar os arquivos e, em seguida, inicie o download.
 
   Conforme mencionado anteriormente, recomendamos que você baixe os resultados da pesquisa para uma unidade de disco local devido à grande quantidade de atividade do disco (leituras e gravações). Não baixe os resultados da pesquisa para uma unidade de rede mapeada ou outro local de rede.
 

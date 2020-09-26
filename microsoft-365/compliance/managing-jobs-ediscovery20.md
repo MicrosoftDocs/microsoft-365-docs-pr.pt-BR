@@ -7,21 +7,20 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Trabalhos de descoberta eletrônica avançados ajudam a acompanhar o status de processos de longa execução relacionados à execução de várias tarefas avançadas de descoberta eletrônica.
-ms.openlocfilehash: a3367a17444ab99cb7c32af455d4564380dfd591
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d41ac3572c462b85ff8f0bac0cc7205a5c012ce9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632946"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285165"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Gerenciar trabalhos na descoberta eletrônica avançada
 

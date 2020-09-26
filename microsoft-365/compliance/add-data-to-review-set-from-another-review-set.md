@@ -19,12 +19,12 @@ description: Saiba como selecionar documentos de um conjunto de análise e traba
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 433e59629ec40dbdf66b8daf6437ce84e41a3a33
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: e03cd042ac11c36838e712ccd945bc249b849f43
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818598"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285175"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>Adicionar dados a um conjunto de revisão de outro conjunto de revisão
 
@@ -40,12 +40,12 @@ Antes de começar, você precisará criar um conjunto de revisão para adicionar
 
 Você pode adicionar conteúdo de uma análise definida para outra selecionando documentos específicos no conjunto de revisão de origem ou selecionando todos os itens retornados por consulta de conjunto de revisão. Se você estiver adicionando itens selecionados, selecione os itens, selecione **ação**e, em seguida, selecione **Adicionar a outro conjunto de revisão**.
 
-![Adicionar a outro conjunto de revisão](../media/64f2a4d4-eba3-4ab3-a3ba-d519feea3142.png)
+![Adicionar a outro conjunto de revisão no menu de ações](../media/64f2a4d4-eba3-4ab3-a3ba-d519feea3142.png)
 
 ## <a name="step-2-specify-options-for-adding-to-another-review-set"></a>Etapa 2: especificar as opções para adicionar a outro conjunto de revisão
 
 Na página **Adicionar a outro conjunto de revisão de opções** , escolha o conjunto de revisão ao qual você deseja adicionar os itens. Escolha se deseja adicionar **todos os resultados de pesquisa** ou os **itens selecionados**.  **Informações adicionais** fornecem opções para incluir todos os metadados dos itens e se devem ser incluídas as marcas (marcando a caixa de seleção **Rótulos** ) do conjunto de revisão de origem quando os documentos são adicionados ao novo conjunto de revisão.  
 
-![Adicionar a outro conjunto de revisão](../media/6440ee44-68fd-44d7-b43a-3a477345525c.png)
+![Opções para adicionar dados a outro conjunto de revisão](../media/6440ee44-68fd-44d7-b43a-3a477345525c.png)
 
 Após clicar em **OK**, um novo trabalho (chamado **adição de dados a outro conjunto de revisão**) é criado para adicionar o conteúdo a outro conjunto de análise. Você pode ir para a guia **trabalhos** e monitorar o progresso desse trabalho. Para obter mais informações, consulte [Manage Jobs](managing-jobs-ediscovery20.md).

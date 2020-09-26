@@ -1,12 +1,12 @@
 ---
-title: Exibir documentos em um conjunto de revisão-descoberta eletrônica
+title: Exibir documentos em uma revisão definida na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 description: Escolha como exibir o conteúdo na descoberta eletrônica avançada, como texto, anotar, convertido ou modo de exibição nativo.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c7527caedb06ccc6a2600a35576600452bb9c09a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: ba66b64460a4aa9cf76641c6d84f0282195b85e9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034283"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286047"
 ---
-# <a name="view-documents-in-a-review-set"></a>Exibir documentos em um conjunto de revisão
+# <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>Exibir documentos em uma revisão definida na descoberta eletrônica avançada
 
 A descoberta eletrônica avançada exibe o conteúdo por vários visualizadores, cada um com finalidades diferentes. Os vários visualizadores podem ser usados clicando em qualquer documento dentro de um conjunto de revisão. Os visualizadores atualmente fornecidos são:
 

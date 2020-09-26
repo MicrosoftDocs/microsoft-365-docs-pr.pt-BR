@@ -1,5 +1,5 @@
 ---
-title: Criar consultas de pesquisa – investigações de dados
+title: Criar consultas de pesquisa em investigações de dados
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Use palavras-chave e condições para restringir o escopo de pesquisa ao pesquisar dados usando a investigação de dados no Microsoft 365.
-ms.openlocfilehash: 95466d0e7c7109001fef001cc0d5bca5b6d658ed
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b2d77ef23e7427fd5f770a27166dc571f853191d
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034109"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285757"
 ---
-# <a name="build-search-queries"></a>Criar consultas de pesquisa
+# <a name="build-search-queries-in-data-investigations-preview"></a>Criar consultas de pesquisa em investigações de dados (prévia)
 
 Ao criar consultas de pesquisa, você pode usar palavras-chave para localizar conteúdo e condições específicas para restringir o escopo da pesquisa para retornar itens que sejam mais relevantes para sua investigação.
 

@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: As estatísticas de pesquisa são uma maneira eficaz de validar os resultados da pesquisa e exibi-los em status na página do submenu detalhes da pesquisa.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dc6aea96e86388ae7ecfa0fa545bc5571eeff0cd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 24de99cf0a7ae21b5966811b988c93d64abd5148
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035833"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286087"
 ---
-# <a name="search-statistics"></a>Estatísticas de pesquisa
+# <a name="search-statistics-in-data-investigations-preview"></a>Estatísticas de pesquisa em investigações de dados (prévia)
 
 Uma maneira eficaz de validar seus resultados de pesquisa ao investigar um incidente de dados é exibir as estatísticas sobre seus resultados de pesquisa para garantir que eles se alinhem às suas expectativas. Quando uma pesquisa de conclusão é executada, as seguintes estatísticas de alto nível são exibidas em **status** na página do submenu detalhes da pesquisa:
 

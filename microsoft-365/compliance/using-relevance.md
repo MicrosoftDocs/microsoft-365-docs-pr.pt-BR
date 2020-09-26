@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como o módulo de relevância analisa dados em evidência com uma descrição do fluxo de trabalho de relevância e as etapas de treinamento na descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4babb0aa7693bc1107cc7594da967bca2d307228
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4a05ec47a4a6b2100c062912e7668c2bf785caf7
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034463"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286057"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-advanced-ediscovery"></a>Usar o módulo de relevância para analisar dados na descoberta eletrônica avançada
 
@@ -30,7 +30,7 @@ Na descoberta eletrônica avançada, o módulo de relevância inclui o treinamen
 
 - Processo: cada conjunto de carga adicionado ao conjunto de revisão será exibido como um "contêiner" aqui. Você precisa processar esses documentos para poder adicioná-los ao módulo de relevância; Isso também é onde você pode marcá-los como semente ou pré-selecionado para um problema específico.
 
-- Adicionar à relevância: em cargas \> de relevância, você pode adicionar documentos que foram processados à relevância para torná-los disponíveis para treinamento.
+- Adicionar à relevância: em cargas de relevância \> , você pode adicionar documentos que foram processados à relevância para torná-los disponíveis para treinamento.
 
 O fluxo de trabalho de relevância é mostrado e descrito da seguinte maneira:
   
@@ -94,7 +94,7 @@ Veja a seguir uma visão geral das diretrizes de treinamento e análise de relev
     
 ## <a name="steps-in-relevance-training"></a>Etapas no treinamento de relevância
 
-Na guia **controle \> de relevância** , a descoberta eletrônica avançada fornece recomendações sobre como proceder no processamento, com as próximas etapas a seguir. As implicações são descritas abaixo quando cada uma das etapas a seguir é recomendada no processo de treinamento de relevância. 
+Na guia ** \> controle de relevância** , a descoberta eletrônica avançada fornece recomendações sobre como proceder no processamento, com as próximas etapas a seguir. As implicações são descritas abaixo quando cada uma das etapas a seguir é recomendada no processo de treinamento de relevância. 
   
 - Marcação/continuação de marcação: marcação de arquivo e classificação de relevância executada por um especialista para cada arquivo e problema em um exemplo.
     

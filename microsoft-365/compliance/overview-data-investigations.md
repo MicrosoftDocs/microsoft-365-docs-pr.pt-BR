@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-mar2020
 description: Neste artigo, você aprenderá sobre a ferramenta de investigações de dados (visualização) no Microsoft 365. A ferramenta de investigações de dados ajuda a avaliar e corrigir os dados derramamento.
-ms.openlocfilehash: 6975d554e939481c6ee1c32ec4e76bb25c7bf36c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 21241ad36278bc75a8363b9aeefeaf4caec783b5
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036044"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285987"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Visão geral das investigações de dados (prévia) no Microsoft 365
 

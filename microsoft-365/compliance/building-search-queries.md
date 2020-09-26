@@ -1,5 +1,5 @@
 ---
-title: Criar consultas de pesquisa-descoberta eletrônica
+title: Criar consultas de pesquisa na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -7,26 +7,25 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Use palavras-chave e condições para restringir o escopo da pesquisa ao pesquisar dados usando a descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 86e763577c24473f8f55c5c8dc26d1853509d50a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3ddd9c38f16fc2dd0fcb96e5fffc79ebbacdbda4
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035509"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285797"
 ---
-# <a name="build-search-queries"></a>Criar consultas de pesquisa
+# <a name="build-search-collection-queries-in-advanced-ediscovery"></a>Criar consultas de coleta de pesquisa na descoberta eletrônica avançada
 
-Ao criar consultas de pesquisa, você pode usar palavras-chave para localizar conteúdo e condições específicas para restringir o escopo da pesquisa para retornar itens que sejam mais relevantes para sua investigação legal.
+Ao criar consultas de pesquisa para coletar dados em um caso de descoberta eletrônica avançada, você pode usar palavras-chave para localizar conteúdo e condições específicas para restringir o escopo da pesquisa para retornar itens que sejam mais relevantes para sua investigação legal.
 
 ![Usar palavras-chave e condições para restringir os resultados de uma pesquisa](../media/SearchQueryBox.png)
 

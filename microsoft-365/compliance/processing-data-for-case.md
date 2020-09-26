@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Leia uma visão geral sobre o processamento de várias formas de dados na ferramenta de descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 0725b38af00ec787869090c5a57f5a865fb421e7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Visão geral sobre o processamento de várias formas de dados na descoberta eletrônica avançada.
+ms.openlocfilehash: c82363a846334ccf47fc28cf0aaa25e92f2bbea9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527401"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285237"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Trabalhar com erros de processamento na descoberta eletrônica avançada
 
-*Processing* é o processo de identificação de arquivos, expansão de documentos e anexos incorporados, extração de texto e OCR (reconhecimento óptico de caracteres) de arquivos de imagem e a indexação subsequente desse conteúdo.  
+*Processamento* é o processo de identificação de arquivo, expansão de documentos e anexos incorporados, extração de texto e reconhecimento óptico de caracteres (OCR)) de arquivos de imagem e a indexação subsequente desse conteúdo.  
 
 Quando você adiciona responsáveis e fontes de dados não-responsáveis a um caso na guia **fontes** , todos os itens parcialmente indexados do Microsoft 365 são processados para torná-los totalmente pesquisáveis. Da mesma forma, quando o conteúdo é adicionado a um conjunto de análise de fontes de dados do Microsoft 365 e de não-Microsoft 365, esse conteúdo também é processado.
 

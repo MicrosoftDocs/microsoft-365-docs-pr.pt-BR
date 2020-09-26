@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Você pode corrigir um erro de processamento em um documento em um conjunto de análise de descoberta eletrônica avançada sem precisar seguir o processo de correção de erro em massa.
-ms.openlocfilehash: 3c50f9dcd1448ee36edd0e82e5b2c2879c11d6b5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c318148900d891304ebcb9b4a88abfe52f43c05e
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069627"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285837"
 ---
-# <a name="single-item-error-remediation"></a>Correção de erros de item único
+# <a name="single-item-error-remediation-in-advanced-ediscovery"></a>Correção de erro de item único na descoberta eletrônica avançada
 
 A correção de erros oferece aos usuários avançados a capacidade de corrigir problemas de dados que impedem o eDiscovery avançado de processar corretamente o conteúdo. Por exemplo, arquivos que são protegidos por senha não podem ser processados porque esses arquivos estão bloqueados ou criptografados. Anteriormente, você só podia corrigir erros em massa usando [esse fluxo de trabalho](error-remediation-when-processing-data-in-advanced-ediscovery.md). Mas, às vezes, não faz sentido corrigir erros em vários arquivos quando você não tem certeza se qualquer um desses arquivos está respondendo ao caso que você está investigando. Também pode não fazer sentido corrigir os erros antes que você tenha a oportunidade de revisar os metadados do arquivo (como o local do arquivo ou quem teve acesso) para ajudá-lo a tomar decisões mais antecipadas sobre a capacidade de resposta. Um novo recurso chamado *correção de erro de item único* oferece aos gerentes de descoberta eletrônica a capacidade de exibir os metadados de arquivos com um erro de processamento e, se necessário, corrigir o erro diretamente no conjunto de revisão. O artigo discute como identificar, ignorar e corrigir arquivos com erros de processamento em um conjunto de revisão.
 
@@ -53,7 +53,7 @@ Você também pode pesquisar todos os documentos que tiveram um erro de processa
 
 Para corrigir um único documento, siga estas etapas:
 
-1. Clique em **baixar** > o**original** para baixar uma cópia do arquivo para um computador local.
+1. Clique em **baixar**  >  o**original** para baixar uma cópia do arquivo para um computador local.
 
    ![Baixar o documento com o erro de processamento](../media/SIERimage5.png)
 

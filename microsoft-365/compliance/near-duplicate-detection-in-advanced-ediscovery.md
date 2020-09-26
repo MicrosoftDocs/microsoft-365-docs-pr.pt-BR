@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Use a detecção quase duplicada para agrupar documentos semelhantes ao analisar dados de caso para descoberta eletrônica avançada.
+description: Use a detecção quase duplicada para agrupar documentos semelhantes ao analisar dados de caso na descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c24e1b67af68dc5fccd900fc390a63e8da3c389
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 255531897a1706904005034c56cab00d0032b7f3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036436"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286017"
 ---
-# <a name="near-duplicate-detection"></a>Detecção de duplicata próxima
+# <a name="near-duplicate-detection-in-advanced-ediscovery"></a>Detecção próxima duplicada na descoberta eletrônica avançada
 
 Considere um conjunto de documentos para ser revisado no qual um subconjunto é baseado no mesmo modelo e tem principalmente o mesmo idioma clichê, com algumas diferenças aqui e ali. Se um revisor pudesse identificar esse subconjunto, revise um deles cuidadosamente e revise as diferenças para o resto, eles não teriam informações exclusivas e, ao mesmo tempo, levaria apenas uma fração de tempo que teria levado em vista para ler todos os documentos na capa. Um grupo de detecção de duplicidades próximo agrupa documentos semelhantes para ajudá-lo a tornar seu processo de revisão mais eficiente.
 

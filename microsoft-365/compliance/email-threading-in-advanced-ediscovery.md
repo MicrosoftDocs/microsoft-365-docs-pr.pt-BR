@@ -1,5 +1,5 @@
 ---
-title: Encadeamento de email-descoberta eletrônica
+title: Encadeamento de emails na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Ao realizar uma análise de descoberta eletrônica avançada, o encadeamento de emails analisa uma conversa por email e separa cada mensagem em diferentes categorias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6072650a07f634b8dc19a013907eb36469c443b
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: b087bfc84175f80daaf1c0d2f1394584a70757ac
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527669"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285557"
 ---
-# <a name="email-threading"></a>Threading de emails
+# <a name="email-threading-in-advanced-ediscovery"></a>Encadeamento de emails na descoberta eletrônica avançada
 
 Considere uma conversa por email que está acontecendo por algum tempo. Na maioria dos casos, o último email no thread incluirá o conteúdo de todos os emails anteriores; a revisão do último email fornecerá um contexto completo da conversa que aconteceu no thread. O encadeamento de emails identifica esses emails para que os Revisores possam revisar uma fração de documentos coletados sem perder nenhum contexto.
 

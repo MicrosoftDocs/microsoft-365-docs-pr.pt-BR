@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Saiba como usar a correção de erros para corrigir problemas de dados em investigações de dados (prévia) que podem impedir o processamento adequado de conteúdo.
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: fe77f918a7471bf36df7727f890ea043976e44db
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: c6c62bb1a3191e369d553df5eb451d4656e704d7
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817810"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286027"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>Correção de erro ao processar dados de uma investigação
 
@@ -43,15 +42,15 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de in
 
 3. Clique em **+ nova correção de erro**.
 
-    ![Correção de erro](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
+    ![Clique no botão Nova correção de erro](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
 
     A sessão de correção de erro começa, começando com um estágio de preparação onde os arquivos com erros são copiados para um local seguro do Azure para que eles possam ser baixados.
 
-    ![Preparando correção de erro](../media/390572ec-7012-47c4-a6b6-4cbb5649e8a8.png)
+    ![Preparando para correção de erros](../media/390572ec-7012-47c4-a6b6-4cbb5649e8a8.png)
 
 4. Após a conclusão da preparação, clique em **Avançar: baixar arquivos** para continuar com o download.
 
-    ![Baixar arquivos](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
+    ![Baixar os arquivos que precisam de correção](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
 5. Para baixar arquivos, especifique o **caminho de destino para download**. Este é um caminho no computador local onde o arquivo deve ser baixado.  O caminho padrão,%USERPROFILE%\Downloads\errors, aponta para a pasta downloads do usuário conectado; Isso pode ser alterado conforme necessário.
 
@@ -65,7 +64,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de in
 
     Os arquivos serão baixados.
 
-    ![Preparando correção de erro](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
+    ![Informações sobre os arquivos baixados no prompt de comando](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
     > Se você tiver problemas para executar este comando, confira [solucionar problemas de AzCopy na descoberta eletrônica avançada](troubleshooting-azcopy.md).
@@ -77,13 +76,13 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de in
 
 8. Agora, retorne a investigações de dados (visualização) e clique em **Avançar: carregar arquivos**.  Isso passará para a próxima etapa, onde você pode agora carregar os arquivos.
 
-    ![Carregar arquivos](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
+    ![A guia carregar arquivos](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
 
 9. Especifique o local dos arquivos corrigidos na caixa de texto **caminho para o local de arquivos** e clique em **copiar para área de transferência**.
 
 10. Cole o comando em um prompt de comando do Windows e pressione **Enter** para carregar os arquivos.
 
-    ![ff2ff691-629f-4065-9b37-5333f937daf6.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
+    ![Informações sobre arquivos carregados no prompt de comando](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
 11. Por fim, retorne a investigações de dados (visualização) e clique em **Avançar: processar arquivos**.
 

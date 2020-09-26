@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: Use temas em descoberta eletrônica avançada para organizar os conjuntos de análise encontrando o tema dominante em cada documento.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: eb008e091cd8c8330d1cdd5b388e252af70922da
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3dfc0dca0c6ed62e3ce8384efa2fd3ea407c3ce8
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034515"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285527"
 ---
-# <a name="themes"></a>Temas
+# <a name="themes-in-advanced-ediscovery"></a>Temas na descoberta eletrônica avançada
 
 Como uma pessoa escreve um documento? Geralmente, elas começam com uma ou mais ideias que desejam transmitir no documento e compor usando palavras que se alinham com as ideias. Quanto mais predominante uma ideia é, mais frequentes as palavras relacionadas a essa ideia tendem a ser. Isso informa como as pessoas consomem documentos também. O importante a ser compreendido na leitura de um documento é as ideias que o documento está tentando transmitir, quais ideias aparecem onde e quais são as relações entre as idéias.
 

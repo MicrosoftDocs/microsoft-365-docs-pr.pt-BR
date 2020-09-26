@@ -8,7 +8,7 @@ manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: Saiba como definir a regra para ignorar texto específico ao usar módulos de análise e processo na descoberta eletrônica avançada.
-ms.openlocfilehash: fd7b1f3236c88faf792a97146bbed35802f6c695
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e167cc2877ca6e1ecb2b4ac896e2000b0441be59
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936888"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285847"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Definir a opção Ignorar texto para analisar na descoberta eletrônica avançada (clássico)
 
@@ -36,13 +36,12 @@ Se o recurso Ignorar texto tiver sido definido anteriormente para módulos que j
 
 Vários filtros de texto ignorar são aplicados na ordem em que foram inseridos. Para alterar a ordem na qual são aplicadas, elas devem ser excluídas e reinseridas na ordem desejada.
   
-Por exemplo, se o conteúdo de texto for: "DAVE BOB Ana Maria, véspera", veja a seguir exemplos de ignorar entradas de texto e resultados:
-  
-||||
-|:-----|:-----|:-----|
-|**Ignorar entradas de texto** <br/> |**==\>** <br/> |**Resultados** <br/> |
-|"ALICE", "BOB CAROL"  <br/> |==\>  <br/> |"VÉSPERA DA DAVE"  <br/> |
-|"ANA", "BOB ALICE CAROL"  <br/> |==\>  <br/> |"DAVE BOB CAROL (VÉSPERA)"  <br/> |
+Por exemplo, se o conteúdo de texto é: "DAVE BOB Ana Maria, véspera", veja a seguir exemplos de ignorar entradas de texto e os resultados que essas entradas produzem:
+
+|**Ignorar entradas de texto** <br/> |**Resultados** <br/> |
+|:-----|:-----|
+|"ALICE", "BOB CAROL"  <br/> |"VÉSPERA DA DAVE"  <br/> |
+|"ANA", "BOB ALICE CAROL"  <br/> |"DAVE BOB CAROL (VÉSPERA)"  <br/> |
    
 A segunda entrada de texto ignorar não é implementada porque a cadeia de caracteres não é encontrada como tal após a aplicação do primeiro texto para ignorar.
   
@@ -90,7 +89,7 @@ As expressões regulares têm suporte para uso ao definir o texto de ignorar. A 
     
     a expressão regular para remover o aviso de isenção de responsabilidade acima deve ser: 
     
-    **\/\\*\\Esta mensagem contém informações confidenciais \. (. | \s) \* se a verificação for necessária, solicite uma versão \. de cópia de disco\/\\*\\**
+    **\/\\*\\ Esta mensagem contém informações confidenciais \. (. | \s) \* se a verificação for necessária, solicite uma versão \. de cópia de disco \/\\*\\**
     
 - Regras de expressão regular:
     

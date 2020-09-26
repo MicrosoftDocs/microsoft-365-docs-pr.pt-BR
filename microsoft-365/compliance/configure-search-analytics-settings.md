@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como definir as configurações de pesquisa e análise, como duplicatas, encadeamentos de email e temas ao gerenciar investigações de dados.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3100c83fc027e793f7937a4d27e059ce7e3038a0
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ebc04e68c4d8854c91ceae75b164cc061e77aad4
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527347"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277071"
 ---
-# <a name="configure-search-and-analytics-settings"></a>Definir configurações de pesquisa e análise
+# <a name="configure-search-and-analytics-settings-in-data-investigations"></a>Definir as configurações de pesquisa e análise em investigações de dados
 
 ## <a name="near-duplicates-and-email-threading"></a>Duplicados próximos e threads de email
 

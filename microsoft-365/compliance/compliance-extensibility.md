@@ -20,12 +20,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como estender as soluções de conformidade da Microsoft 365 usando conectores de dados de terceiros e APIs do Microsoft Graph.
-ms.openlocfilehash: 284125db8243b10f5c8de7e0a37c1b7284709c28
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8eeb83013ec412ed82973b37c4c10e2250f5eaf8
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204261"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285737"
 ---
 # <a name="microsoft-365-compliance-extensibility"></a>Extensibilidade de conformidade do Microsoft 365
 
@@ -77,7 +77,7 @@ Para saber mais sobre o SDK MIP, pré-requisitos, cenários adicionais e exemplo
 
 Essas duas APIs formam a API do Microsoft Graph para Teams DLP. Você pode começar experimentando o aplicativo de [exemplo](https://github.com/microsoftgraph/csharp-webhook-with-resource-data). Para obter mais informações sobre os WebHooks de mensagens do Microsoft Teams, consulte a [documentação](https://docs.microsoft.com/graph/api/subscription-post-subscriptions).
 
-Para obter os requisitos de licenciamento para o Teams DLP, consulte [o guia de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#office-365-data-loss-prevention-for-exchange-online-sharepoint-online-and-onedrive-for-business).
+Para obter os requisitos de licenciamento para o Teams DLP, consulte [o guia de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#communication-data-loss-prevention-for-teams).
 
 ### <a name="microsoft-graph-api-for-ediscovery-preview"></a>API do Microsoft Graph para descoberta eletrônica (prévia)
 

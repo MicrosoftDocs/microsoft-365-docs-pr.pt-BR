@@ -13,14 +13,14 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: Use a ferramenta descoberta eletrônica de pesquisa de conteúdo no centro de conformidade de & de segurança para localizar rapidamente emails em caixas de correio do Exchange, documentos em sites do SharePoint e locais do OneDrive e conversas de mensagens instantâneas no Skype for Business.
-ms.openlocfilehash: 2b874181fdfc5bce69227acc279e12bffe70c069
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c02bcf627cec46b52ba9ff449a0d39b185ce4a0a
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632916"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285977"
 ---
-# <a name="search-for-content"></a>Procurar conteúdo
+# <a name="search-for-content-using-the-content-search-tool"></a>Pesquisar conteúdo usando a ferramenta de pesquisa de conteúdo
 
 Use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para localizar rapidamente emails em caixas de correio do Exchange, documentos em sites do SharePoint e do OneDrive e conversas de mensagens instantâneas no Skype for Business. Você pode usar a ferramenta de pesquisa de conteúdo para pesquisar emails, documentos e conversas de mensagens instantâneas em ferramentas de colaboração, como Microsoft Teams e Microsoft 365 groups.
   
@@ -36,7 +36,7 @@ A primeira etapa é começar a usar a ferramenta de pesquisa de conteúdo para e
     
 - [Executar uma pesquisa de lista de ID](csv-file-for-an-id-list-content-search.md) para pesquisar mensagens de email específicas 
     
-- [Pesquisar caixas de correio baseadas em nuvem](search-cloud-based-mailboxes-for-on-premises-users.md) para usuários locais no Microsoft 365
+- [Pesquisar caixas de correio baseadas em nuvem ](search-cloud-based-mailboxes-for-on-premises-users.md) para usuários locais no Microsoft 365
 
 - [Exibir estatísticas de palavras-chave](view-keyword-statistics-for-content-search.md) para os resultados de uma pesquisa e depois refinar a consulta, se necessário 
     
@@ -79,7 +79,7 @@ A pesquisa de conteúdo é fácil de usar, mas também é uma poderosa ferrament
 
 Às vezes, você precisa executar tarefas de pesquisa de conteúdo mais avançadas, complexas e repetitivas. Nesses casos, é mais fácil e rápido usar os comandos do PowerShell no centro de conformidade do & de segurança. Para ajudá-lo a simplificar isso, criamos vários scripts do PowerShell do centro de conformidade & central de segurança para ajudá-lo a concluir tarefas relacionadas à pesquisa de conteúdo complexo.
   
-- [Pesquisar pastas de caixa de correio e sites específicos](use-content-search-for-targeted-collections.md) (chamados de *coleção direcionadas* ) quando você tiver certeza de que os itens que respondem a um caso estão localizados nessa pasta 
+- [Pesquisar pastas de caixa de correio e sites específicos](use-content-search-for-targeted-collections.md) (chamados de  *coleção direcionadas*  ) quando você tiver certeza de que os itens que respondem a um caso estão localizados nessa pasta 
     
 - [Pesquisar a caixa de correio e o local do onedrive](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) para obter uma lista de usuários 
     

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: Este artigo descreve como usar a nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para excluir itens de seus locais originais.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0787944791fea65dfc940b1067abe1bad8097dcd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 82f411dd380c039d2c8a9011144d5a49fcbfd597
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817880"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285767"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>Excluir itens de seu local original (versão prévia)
 

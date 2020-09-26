@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: A marcação de documentos em um conjunto de revisão ajuda a remover conteúdo desnecessário e a identificar conteúdo relevante em uma ocorrência de descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 445bf9a0ee5959c4972920a74e7bd1596d9edca1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 83e7a3c9c097968c4d773e6e2092bb3c50154cc3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034545"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285277"
 ---
-# <a name="tag-documents-in-a-review-set"></a>Marcar documentos em um conjunto de revisão
+# <a name="tag-documents-in-a-review-set-in-advanced-ediscovery"></a>Marcar documentos em uma revisão definida na descoberta eletrônica avançada
 
 Organizar o conteúdo em um conjunto de revisão é importante para concluir vários fluxos de trabalho no processo de descoberta eletrônica. Isso inclui:
 

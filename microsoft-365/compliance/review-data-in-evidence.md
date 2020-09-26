@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre os métodos para revisar os dados em suas evidências, como exibir em formatos nativos, de texto ou quase nativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9df5c1f0fd15cb320e8359d09ab39202700dbc4b
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 9335b95cc57add69660b707577829caef1ad8183
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816724"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285377"
 ---
 # <a name="review-the-data-in-evidence"></a>Revise os dados em evidência
 

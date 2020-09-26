@@ -17,12 +17,12 @@ ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 ms.custom:
 - seo-marvel-apr2020
 description: Use casos de descoberta eletrônica no centro de conformidade & segurança no Office 365 para gerenciar a investigação legal da sua organização.
-ms.openlocfilehash: 0e39c2cfb865e6cf649bf1ff7702d97bd29352b9
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: edc9835cdbefa611af4c0906be5d3e1d0404c635
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815498"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285647"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Gerenciar investigações legais no Microsoft 365
 
@@ -68,7 +68,7 @@ Veja uma rápida visão geral do fluxo de trabalho interno na descoberta eletrô
 
 - [Coletar dados](collecting-data-for-ediscovery.md) de um caso e adicionar [o suplemento a um conjunto de revisão para uma](collecting-data-for-ediscovery.md#add-search-results-to-a-review-set) investigação adicional
 
-- [Exibir](view-documents-in-review-set.md) documentos, dados de [consulta](review-set-search.md) e itens de [marca](tagging-documents.md) em um conjunto de revisão
+- [Exibir ](view-documents-in-review-set.md) documentos, dados de [consulta](review-set-search.md) e itens de [marca](tagging-documents.md) em um conjunto de revisão
 
 - [Analisar dados de caso](analyzing-data-in-review-set.md) com ferramentas avançadas de análise
 

@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como selecionar e exportar o conteúdo de um conjunto de revisão para apresentações ou revisões externas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 855f1b8fef7a1df6ed86f058b71e5027851b5f0d
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: b3be21d4c90c861c83acf612e9aadc373189f7ba
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399168"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285357"
 ---
-# <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
+# <a name="export-documents-from-a-review-set-in-advanced-ediscovery"></a>Exportar documentos de um conjunto de revisão na descoberta eletrônica avançada
 
 Exportar permite que os usuários personalizem o conteúdo que está incluído no pacote de download. A ferramenta de exportação fornece uma página de configuração com as seguintes configurações:
 
