@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 19a05cd9d9605904ad12e6f0d244d7cf0afce006
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 24820526b6ba58c82c2412ed3d0902eecb60b5b6
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417053"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208103"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>Lei de Proteção de Dados Pessoais (PDPA) da Argentina
 
 ## <a name="about-the-pdpa"></a>Sobre a PDPA
 
-De acordo com a Constituição Nacional Argentina, a [Lei de Proteção de Dados Pessoais 25.326](http://www.jus.gob.ar/media/3201023/personal_data_protection_act25326.pdf) (PDPA) ([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)) foi executada em 2000 para ajudar a proteger a privacidade de dados pessoais e dar acessos individuais a qualquer informação armazenada em bancos de dados e registros públicos e privados. A Agência Argentina de Acesso à Informação Pública ([Agencia de Acceso a la Información Pública](https://www.argentina.gob.ar/aaip), AAIP), dentro do Gabinete do Chefe do Ministério, é responsável pela aplicação desta lei.
+De acordo com a Constituição Nacional Argentina, a [Lei de Proteção de Dados Pessoais 25.326](http://www.jus.gob.ar/media/3201023/personal_data_protection_act25326.pdf) (PDPA) ([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)) foi executada em 2000 para ajudar a proteger a privacidade de dados pessoais e dar acessos individuais a qualquer informação armazenada em bancos de dados e registros públicos e privados. A Agência Argentina de Acesso à Informação Pública ([Agencia de Acceso a la Información Pública](https://www.argentina.gob.ar/aaip), AAIP), dentro do Gabinete do Chefe dos Ministérios, é responsável pela aplicação desta lei.
 
 A PDPA está alinhada com o modelo legislativo europeu para proteger a privacidade de dados, e a Argentina foi o primeiro país da América Latina a alcançar uma qualificação de “adequação” para transferências de dados da UE.
 
@@ -39,7 +39,7 @@ As medidas de segurança técnica e organizacional implementadas nos serviços d
 
 O contrato de transferência de dados da Microsoft é um aditamento (Aditamento ID M314) aos termos de processamento de dados em nossos Termos do Online Services. Ele adiciona compromissos importantes, incluindo que a Microsoft notificará o cliente sobre qualquer solicitação juridicamente vinculativa de divulgação de dados pessoais; enviará suas instalações de processamento de dados para auditoria a pedido do cliente, seja pelo cliente ou por um terceiro independente; e solicitará consentimento prévio por escrito para o uso de subcontratados.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure e Azure DevOps](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
@@ -55,6 +55,10 @@ O contrato de transferência de dados da Microsoft é um aditamento (Aditamento 
 **Como o GDPR alterou a Lei de Proteção de Dados Pessoais?**
 
 No final de 2018, a Argentina ainda não havia aplicado os regulamentos relacionados ao GDPR, mas elaborou um novo projeto de lei de proteção de dados, já submetido ao Congresso pelo Poder Executivo e em revisão pela Câmara dos Deputados, para alinhar a lei de proteção de dados com o GDPR. Ele aborda diferenças como a definição de titulares de dados e preocupações com a transferência internacional de informações pessoais.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

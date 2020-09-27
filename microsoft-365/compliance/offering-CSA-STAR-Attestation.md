@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 33fd2cef596144c48dcc76594d8d466e09481dd4
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 56f01880e3e2f381d85ed386ac413d4dbff38ff4
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415611"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208591"
 ---
 # <a name="cloud-security-alliance-csa-star-attestation"></a>Atestado STAR do Cloud Security Alliance (CSA)
 
@@ -39,7 +39,7 @@ Uma auditoria do SOC 2 Tipo 2 se baseia nos Princípios e Critérios dos Serviç
 
 O Microsoft Azure e o Microsoft Intune receberam o Atestado STAR do CSA. O Atestado STAR fornece as conclusões de um auditor quanto à adequação do projeto e à eficácia operacional dos controles SOC 2 nos serviços em nuvem da Microsoft.
 
-- [Azure e Azure Government](https://aka.ms/AzureCompliance)
+- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - [Azure Alemanha](https://aka.ms/AzureCompliance)
 - Segurança no aplicativo na nuvem da Microsoft
 - Microsoft Graph
@@ -68,6 +68,10 @@ Você pode baixar o [Atestado STAR do CSA](https://aka.ms/CSASTAR-Attestation) p
 - **Nível 1**: **Autoavaliação STAR do CSA**: Azure, Microsoft Dynamics 365 e Microsoft Office 365. A [Autoavaliação](offering-csa-star-self-assessment.md) é uma oferta de cortesia dos provedores de serviços de nuvem para documentar seus controles de segurança para ajudar os clientes a avaliarem a segurança do serviço.
 - **Nível 2**: **Certificação STAR do CSA**: Azure, Segurança do aplicativo em nuvem da Microsoft, Intune e Power BI. A Certificação STAR se baseia em obter a certificação ISO/IEC 27001 e os critérios de reunião especificados no CCM. Ele é concedido depois de uma rigorosa avaliação de terceiros sobre os controles e práticas de segurança de um provedor de serviços de nuvem.
 - **Nível 2**: **Atestado STAR da CSA**: Azure e Intune. O CSA e os AICPA colaboraram para fornecer diretrizes para os CPAs usarem na realização de compromissos do SOC 2, usando critérios dos AICPA (Princípios do Serviço de Confiança, AT 101) e do CCM do CSA. O [Atestado STAR](offering-CSA-STAR-Attestation.md) se baseia nessas diretrizes e é concedido depois de rigorosas avaliações independentes de provedores em nuvem.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 
