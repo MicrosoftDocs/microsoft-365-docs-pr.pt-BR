@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ad755398afc80f829561854217f1295ce8fff6f5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 1151fd74e5f40a91107467b6004049081c4a9a69
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417855"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208233"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)
 
@@ -70,7 +70,7 @@ O pacote Azure AoC tem AoCs correspondentes à nuvem pública do Azure, da Alema
 
 **Qual é a relação entre PA DSS e PCI DSS?**
 
-O Padrão de Segurança de Dados em Aplicativos de Pagamento (Payment Application Data Security Standard - PA DSS) é um conjunto de requisitos que cumpre o PCI DSS e substitui as Práticas Recomendadas para Aplicativos de Pagamento do Visa (Visa’s Payment Application Best Practices) e consolida os requisitos de conformidade dos outros emissores de cartões principais. O PA DSS ajuda os fornecedores de software a desenvolver aplicativos de terceiros para armazenar, processar ou transmitir dados de pagamento do titular do cartão como parte do processo de autorização ou pagamento do cartão. Os varejistas precisam usar aplicativos com a certificação PA DSS para obter efetivamente a conformidade com o PCI DSS. O PA DSS não se aplica ao Azure.
+O Padrão de Segurança de Dados em Aplicativos de Pagamento (Payment Application Data Security Standard - PA DSS) é um conjunto de requisitos que cumpre o PCI DSS e substitui as Práticas Recomendadas para Aplicativos de Pagamento da Visa (Visa’s Payment Application Best Practices) e consolida os requisitos de conformidade dos outros emissores de cartões principais. O PA DSS ajuda os fornecedores de software a desenvolver aplicativos de terceiros para armazenar, processar ou transmitir dados de pagamento do titular do cartão como parte do processo de autorização ou pagamento do cartão. Os varejistas precisam usar aplicativos com a certificação PA DSS para obter efetivamente a conformidade com o PCI DSS. O PA DSS não se aplica ao Azure.
 
 **O que é um adquirente? O Azure usa um?**
 
@@ -93,6 +93,10 @@ Atualmente, o OneDrive for Business e o SharePoint Online estão em conformidade
 **O que está dentro do escopo para o OneDrive for Business e o SharePoint Online?**
 
 Atualmente, apenas os arquivos e documentos carregados no OneDrive for Business e no SharePoint Online estarão em conformidade com o PCI DSS.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0fbef84ca8f4d8993ca40b48b25effaf44e141f5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 8c2c1e516e0d2c338104d36bb227e877d490ecb7
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416157"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208633"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>Catálogo de Controles de Conformidade de Computação em Nuvem (C5)
 
@@ -59,6 +59,10 @@ O IT-Grundschutz fornece a metodologia específica para ajudar as organizações
 **O que é o Microsoft Cloud Alemanha?**
 
 O Microsoft Cloud Alemanha é fisicamente baseado na Alemanha, obedecendo ao requisito da lei de privacidade alemã, que limita estritamente a transferência de dados pessoais para outros países, incluindo proteção contra o acesso por autoridades de outras jurisdições que poderiam violar as leis nacionais. O Azure Alemanha fornece serviços do Azure de datacenters alemães com residência de dados na Alemanha, além de fornecer medidas rigorosas de acesso e controle de dados fornecidas por meio de um modelo administrador de dados exclusivo regido pelas leis alemãs.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

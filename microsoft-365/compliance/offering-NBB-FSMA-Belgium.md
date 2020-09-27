@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ad72be958e8d028ff40dcbd483accd0dbe5c0527
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: d35e9893c54367bc62de65300613853408070c33
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415755"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208263"
 ---
 # <a name="national-bank-of-belgium-nbb-and-the-financial-services-and-markets-authority-fsma"></a>O National Bank of Belgium (NBB) e a Financial Services and Markets Authority (FSMA)
 
@@ -29,7 +29,7 @@ Os principais reguladores dos serviços financeiros na Bélgica são o [National
 
 O NBB é responsável pela supervisão prudencial das instituições de crédito, seguradoras, corretoras e outras organizações financeiras. Como o banco central da Bélgica, o NBB é responsável pelas políticas monetárias belgas e contribui para a estabilidade do sistema financeiro do país. Junto ao NBB, a FSMA supervisiona os mercados financeiros e os provedores de serviços financeiros, inclusive instituições de investimentos e de pensão suplementar, da Bélgica. A função dela inclui a supervisão das informações financeiras disseminadas pelas empresas e dos produtos ofertados por elas para consumidores, bem como da conformidade das empresas com as regras de conduta comercial.
 
-O NBB e a FSMA atuam em conjunto com a European Banking Authority (EBA), "uma autoridade independente da UE que trabalha para garantir uma regulação e supervisão prudente, eficaz e consistente em todo o setor bancário da europeu". Para isso, a EBA definiu uma abordagem abrangente para a terceirização de computação em nuvem por instituições financeiras na UE, [Recomendações para a terceirização de provedores de serviços de nuvem](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362).
+O NBB e a FSMA atuam em conjunto com a European Banking Authority (EBA), "uma autoridade independente da UE que trabalha para garantir uma regulação e supervisão prudente, eficaz e consistente em todo o setor bancário da europeu". Para isso, a EBA definiu uma abordagem abrangente para a terceirização da computação em nuvem por instituições financeiras na UE, [Recomendações para a terceirização de provedores de serviços de nuvem](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362).
 
 As instituições financeiras na Bélgica devem estar cientes de vários requisitos ao migrar as funções da empresa para a nuvem, inclusive:
 
@@ -69,6 +69,10 @@ Não. Contudo, as instituições financeiras devem notificar o NBB e a FSMA em c
 **Há termos obrigatórios que devem ser incluídos no contrato com o provedor de serviços de nuvem?**
 
 Sim. Alguns pontos específicos devem ser incorporados pelas instituições nos contratos de serviços de nuvem. A Parte 2 da [lista de verificação da Microsoft](https://aka.ms/FinServ-Guide-Belgium) (página 49) mapeia isso em relação às seções nos documentos contratuais da Microsoft em que elas são abordadas.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
+
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 
