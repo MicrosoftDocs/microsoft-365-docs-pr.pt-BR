@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Como implementar o túnel dividido de VPN para o Office 365
-ms.openlocfilehash: af5c2ea35df921abe8eaa9a85ab2ab244931c098
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: ff79138d44c98d76af1a3d9c374159b0fae4c7ed
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214847"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295269"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Implementando o túnel dividido de VPN para Office 365
 
@@ -325,6 +325,10 @@ A porta 80 só é usada para itens como redirecionar para uma sessão de porta 4
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>Esse conselhos se aplicam aos usuários na China usando uma instância Mundial do Office 365?
 
 **Não**, não se aplicam. A única ressalva aos conselhos acima são os usuários da RPC que estão se conectando a uma instância mundial do Office 365. Devido à ocorrência comum de congestionamento na rede entre fronteiras na região, o desempenho direto da Internet pode ser variável. A maioria dos clientes na região opera usando uma VPN para trazer o tráfego para a rede corporativa e utiliza seu circuito de MPLS autorizado ou similar à saída externa por um caminho otimizado. Isso é descrito mais adiante no artigo [Otimização de desempenho do Office 365 para usuários da China](microsoft-365-networking-china.md).
+
+### <a name="does-split-tunnel-configuration-work-for-teams-running-in-a-browser"></a>A configuração de túnel dividido funciona para o Microsoft Teams em execução em um navegador?
+
+**Não**, não se aplicam. Ele funciona apenas no Microsoft Teams Client versão 1.3.00.13565 ou superior. Esta versão inclui melhorias na forma como o cliente detecta os caminhos de rede disponíveis.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

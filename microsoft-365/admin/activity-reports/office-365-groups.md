@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Obtenha um relatório do Microsoft 365 groups para saber mais sobre os grupos e suas atividades.
-ms.openlocfilehash: 1d329efa4fe7cdf12b6c7452b6480d237fb3d5c1
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b45582388103e843e2893cfceb9aa1106cb9ce76
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948983"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295089"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos
 
@@ -37,8 +37,8 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
 
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
-    
-2. No menu suspenso **selecionar um relatório** , selecione atividade de **grupos do Office 365** \> **Groups activity**.
+2. Nas opções, selecione **Exibir mais** em **usuários ativos-serviços da Microsoft 365**.
+3. No menu suspenso **selecionar um relatório** , selecione atividade de **grupos do Office 365** \> **Groups activity**.
   
 ## <a name="interpret-the-groups-report"></a>Interpretar o relatório de grupos
 
@@ -61,4 +61,3 @@ Você pode obter uma visão da atividade de grupos examinando os gráficos de **
 |11  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||
    
-

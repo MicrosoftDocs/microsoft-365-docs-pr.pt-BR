@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)
-ms.openlocfilehash: 72f42a71ec44d165a24187edaf03aa62d330479b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2be48f42c8529334b55b311e6f202d9f3b25ff9e
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200812"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295521"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)
 
@@ -205,7 +205,7 @@ Isso testa a conectividade UDP para a porta frontal do serviço do Microsoft Tea
 
 Mostra a perda de pacotes UDP medida em uma chamada de áudio de teste de 10 segundos do cliente para a porta frontal do serviço do Microsoft Teams. Deve ser inferior a **1, 0%** para uma passagem.
 
-### <a name="latency"></a>Latência
+#### <a name="latency"></a>Latência
 
 Mostra a latência de UDP medida, que deve ser inferior a **100 ms**.
 

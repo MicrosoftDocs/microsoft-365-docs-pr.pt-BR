@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business Premium do Office 365 E3.
-ms.openlocfilehash: d72f0c52a745ff973868b6fdaa95efa1a37a3dbd
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785923"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295281"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migrando do Office 365 E3 para a Microsoft 365 Business Premium 
 
@@ -42,7 +42,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 | Recurso    | Suporte no Microsoft 365 Business Premium    | Suporte no Office 365 E3 | 
 |:-------|:-----|:-----|
 | **No local**        | | | 
-| Aplicativos do Office<sup>1</sup>    | Aplicativos do Microsoft 365 para empresas    | Microsoft 365 Apps para Grandes Empresas | 
+| Aplicativos do Office<sup>1</sup>    | Aplicativos do Microsoft 365 para empresas    | Microsoft 365 Apps para empresas | 
 | **Aplicativos de produtividade em nuvem**        | | | 
 | Exchange Online e Outlook    | limite de armazenamento de 50 GB por caixa de correio e arquivamento ilimitado do Exchange Online    | limite de armazenamento de 100 GB por caixa de correio e arquivamento ilimitado do Exchange Online | 
 | Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
@@ -50,7 +50,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 | Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
 | Gerenciador de clientes do Outlook, MileIQ    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | | 
-| **Proteção contra ameaças**        | | | 
+| **Proteção contra Ameaças**        | | | 
 | Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**        | | | 
 | Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
@@ -114,6 +114,11 @@ Você também pode concluir estas etapas na página dispositivos:
   - Consulte [configurar dispositivos Windows para usuários do Microsoft 365 Business Premium](set-up-windows-devices.md) para obter etapas para dispositivos Windows. 
     
   - Confira [configurar dispositivos móveis para usuários do Microsoft 365 Business Premium](set-up-mobile-devices.md) para obter etapas para telefones Android e iPhones. 
+  
+### <a name="mailbox-size"></a>Tamanho da caixa de correio
+
+O Microsoft 365 Business Premium tem um limite de armazenamento de 50 GB, pois usa o Exchange Online plano 1. Durante a migração para o Microsoft 365 Business Premium, se qualquer um dos seus usuários exceder 50 GB de armazenamento de caixa de correio, é recomendável que você atribua a este usuário um plano 2 do Exchange Online e remova o plano 1 do Exchange Online, já que não é possível atribuir ambos.
+
 
 ### <a name="threat-protection"></a>Proteção contra Ameaças
 

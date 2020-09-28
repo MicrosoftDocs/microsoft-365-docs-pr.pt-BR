@@ -1,7 +1,7 @@
 ---
 title: O que há de novo na pontuação segura da Microsoft
 description: Descreve quais novas alterações ocorreram na pontuação segura da Microsoft na central de segurança do Microsoft 365.
-keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central de segurança, ações de melhoria
+keywords: Pontuação segura da Microsoft, Pontuação segura, Pontuação segura do Office 365, pontuação de segurança da Microsoft, centro de segurança da Microsoft 365
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b85b8b801401c7f067de6a8a7d5ea96557225c44
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 964724ad92c1ae29095b7368167b771b1632b003
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196272"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295065"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 588c30ca07684636661c7946b2418b75574c8cbd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b26dd18754a96d1879a2f57ae9742ae1d1a36ce4
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199212"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295533"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -364,8 +364,13 @@ Os seguintes modos de exibição estão disponíveis:
 Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
 
 - **Data de início** e **data de término**
-- Valor de detecção
-- **Protegido por** (somente o Office 365 ATP): **ATP** ou **EOP**. Observe que essa propriedade filtrável não está disponível em **exibir dados por: \> malware de conteúdo**.
+- **Detecção**
+- **Protegido por**: **ATP** ou **EOP**
+- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Domínio**
+
+> [!NOTE]
+> **Protegido por**, a **marca** e o **domínio** são somente o Office 365 ATP. Essas propriedades filtráveis não estão disponíveis em **exibir dados por: \> malware de conteúdo**.
 
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>Exibição da tabela de detalhes para o relatório de status de proteção contra ameaças
 
@@ -378,7 +383,12 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
   - **Direcionado por**
   - **Nome do malware**
 
-- **Exibir dados por: visão geral**: não há botão **Exibir tabela detalhes** disponível.
+Se você clicar em **filtros** neste modo de exibição, poderá modificar o relatório com os seguintes filtros:
+
+- **Data de início** e **data de término**
+- **Detecção**
+
+**Exibir dados por: visão geral**: não há botão **Exibir tabela detalhes** disponível.
 
 - Todos os outros gráficos:
 
@@ -389,12 +399,16 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
   - **Detectado por**
   - **Status de entrega**
   - **Origem de comprometimento**
+  - **Marcas**
 
 Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
 
 - **Data de início** e **data de término**
-- Valor de detecção
-- **Protegido por** (somente o Office 365 ATP): **ATP** ou **EOP**. Observe que essa propriedade filtrável não está disponível em **exibir dados por: \> malware de conteúdo**.
+- **Detecção**
+- **Protegido por** (somente o Office 365 ATP): **ATP** ou **EOP**
+- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Domínio**
+- **Destinatários** (Observe que essa propriedade Filterable só está disponível no modo de exibição tabela de detalhes)
 
 ## <a name="top-malware-report"></a>Relatório de malware superior
 

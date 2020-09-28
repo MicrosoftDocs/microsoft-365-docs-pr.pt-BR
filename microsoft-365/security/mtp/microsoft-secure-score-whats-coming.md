@@ -1,7 +1,7 @@
 ---
 title: O que está chegando à pontuação segura da Microsoft
 description: Descreve quais novas alterações estão chegando à pontuação segura da Microsoft na central de segurança do Microsoft 365.
-keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central de segurança, ações de melhoria
+keywords: Pontuação segura da Microsoft, Pontuação segura, Pontuação segura do Office 365, pontuação de segurança da Microsoft, centro de segurança da Microsoft 365, ações de melhoria
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2d9d166c8e9fd16b09964c75a3b6bace05265120
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: e4a9e5f1606b91e4cd41f29b37db2707f4c7df17
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235461"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295077"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à pontuação segura da Microsoft
 

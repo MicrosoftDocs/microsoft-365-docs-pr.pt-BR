@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Saiba mais sobre os problemas que você tem ao configurar um domínio personalizado certificando-se de que os registros DNS estão configurados corretamente.
-ms.openlocfilehash: 0a315be243395940146479e05de2c7044a5a36ab
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 8d46d681e44a0bebd0a9571d18ffa95e1e554dc8
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560246"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295041"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Localizar e corrigir problemas após a adição do seu domínio ou de registros DNS
 
@@ -98,4 +98,9 @@ Caso tenha corrigido os problemas de DNS, mas ainda esteja com dificuldades, ten
 - As pessoas não conseguem acessar seu site em www.mydomain.com: [Rastrear problemas do site](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)
     
 - Você não pode atualizar seu registro A ou CNAME para apontar para seu site: [atualizar registros DNS personalizados no Microsoft 365](../dns/add-or-edit-custom-dns-records.md)
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Solução de problemas: auditoria de dados na alteração de domínio verificada](https://docs.microsoft.com/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+
     

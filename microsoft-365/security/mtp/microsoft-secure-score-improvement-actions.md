@@ -1,7 +1,7 @@
 ---
 title: Avaliar a postura de segurança por meio da Pontuação segura da Microsoft
 description: Descreve como realizar ações para melhorar sua pontuação segura da Microsoft na central de segurança do Microsoft 365.
-keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central de segurança, ações de melhoria
+keywords: Pontuação segura da Microsoft, Pontuação segura, Pontuação segura do Office 365, pontuação de segurança da Microsoft, centro de segurança da Microsoft 365, ações de melhoria
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 7049845b4c1b240c5ecc72b4f2ebac1acecfbaf6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: cb2aad70b8ba6ccd9075513b5f383ede42ebd6c0
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203671"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295123"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar a postura de segurança com a pontuação segura da Microsoft
 

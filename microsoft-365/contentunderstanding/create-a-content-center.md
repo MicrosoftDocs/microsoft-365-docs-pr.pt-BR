@@ -1,27 +1,26 @@
 ---
-title: Criar um centro de conteúdo (versão prévia)
+title: Criar um centro de conteúdo no Microsoft SharePoint Syntex
 ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: o365-administration
+ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como criar um centro de conteúdo.
-ms.openlocfilehash: ae10cdae2fe84abf72cf09141798b628d88a504a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 62977bc5a34b041e9e958ff46e0dbc010d6bd822
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950091"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295427"
 ---
-# <a name="create-a-content-center-preview"></a>Criar um centro de conteúdo (versão prévia)
+# <a name="create-a-content-center-in-microsoft-sharepoint-syntex"></a>Criar um centro de conteúdo no Microsoft SharePoint Syntex
 
-> [!Note] 
-> O conteúdo deste artigo é para a visualização privada do Project Cortex. [Saiba mais sobre o Project Cortex](https://aka.ms/projectcortex).</br>
+O conteúdo deste artigo é para a visualização privada do projeto Cortex. [Saiba mais sobre o Project Cortex](https://aka.ms/projectcortex).</br>
 
 </br>
 
@@ -33,9 +32,10 @@ Para criar e gerenciar modelos de compreensão de documentos, primeiro você pre
 
    ![Selecionar uma biblioteca de documentos](../media/content-understanding/content-center-page.png)</br>
 
-Um centro de conteúdo inicial é criado durante [a instalação](set-up-content-understanding.md), mas um administrador do SharePoint pode optar por criar outros, conforme necessário. Embora um único centro de conteúdo possa ser bom para ambientes nos quais você deseja ver uma acumulação de toda a atividade do modelo, talvez você queira ter outros, caso tenha vários departamentos em sua organização que possam ter necessidades e requisitos diferentes para seus modelos.
+Você cria um centro de conteúdo inicial durante [a configuração](set-up-content-understanding.md). Mas um administrador do SharePoint também pode optar por criar centros adicionais, conforme necessário. Embora um único centro de conteúdo possa ser bom para ambientes para os quais você deseja um lançamento de toda a atividade do modelo, talvez você queira ter centros adicionais para vários departamentos em sua organização, que podem ter necessidades e requisitos diferentes para seus modelos.
 
-Um administrador do SharePoint pode criar um site do centro de conteúdo como [criaria qualquer outro site do SharePoint](https://docs.microsoft.com/sharepoint/create-site-collection) em um modelo de site.
+> [!NOTE]
+> Um administrador do SharePoint pode criar um site do centro de conteúdo como [criaria qualquer outro site do SharePoint](https://docs.microsoft.com/sharepoint/create-site-collection) usando um modelo de site.
 
 Para criar um novo centro de conteúdo:
 
@@ -45,18 +45,14 @@ Para criar um novo centro de conteúdo:
 4. No menu **escolher um modelo** , selecione **central de conteúdo**.
 5. Para o novo site, forneça um **nome de site**, **administrador principal**e um **idioma**.</br>
 
-> [!Note] 
-> Você pode selecionar um site de centro de conteúdo para renderizar em qualquer um dos idiomas disponíveis, mas observe que modelos no momento só podem ser criados para arquivos em inglês.</br>
+> [!NOTE] 
+> Opcionalmente, você pode selecionar um site de centro de conteúdo para renderizar em qualquer um dos idiomas disponíveis. Somente modelos atuais podem ser criados para arquivos em inglês.</br>
 
-6. Clique em **Concluído**.
+6. Selecione **concluído**.
 
 ### <a name="give-access-to-additional-users"></a>Conceder acesso a usuários adicionais
  
-Depois que o site for criado, você poderá permitir que usuários adicionais acessem o site por meio do [modelo de permissões de site padrão do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
-
-
-
-
+Depois de criar o site, você pode permitir que usuários adicionais acessem o site por meio do [modelo de permissões de site padrão do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
 
 ## <a name="see-also"></a>Confira também
 [Criar um classificador](create-a-classifier.md)</br>
@@ -65,7 +61,3 @@ Depois que o site for criado, você poderá permitir que usuários adicionais ac
  de conteúdo [Visão geral da compreensão do documento](document-understanding-overview.md)</br>
 [Criar um modelo de processamento de formulários](create-a-form-processing-model.md)</br>
 [Aplicar um modelo](apply-a-model.md)    
-
-
-
-
