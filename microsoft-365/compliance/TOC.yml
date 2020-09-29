@@ -151,8 +151,10 @@
       items:
         - name: Noções básicas de encriptação
           href: encryption.md
-        - name: Criptografia de Chave Dupla (visualizar)
+        - name: Criptografia de Chave Dupla (DKE)
           href: double-key-encryption.md
+        - name: Perguntas frequentes da Criptografia de Chave Dupla
+          href: double-key-encryption-overview.md
         - name: Criptografia de Serviço do Office 365
           href: office-365-service-encryption.md
         - name: Chave de Cliente
@@ -340,10 +342,6 @@
               href: archive-workplacefromfacebook-data.md
             - name: Reuniões do Zoom
               href: archive-zoommeetings-data.md
-            - name: Margem de atraso
-              href: archive-slack-data.md
-            - name: Reuniões do Zoom
-              href: archive-zoommeetings-data.md
         - name: Conectores de dados de telemensagem
           items:
             - name: Android
@@ -425,7 +423,7 @@
               href: configure-edge-to-export-search-results.md
             - name: Pesquisar e excluir mensagens de email
               href: search-for-and-delete-messages-in-your-organization.md
-            - name: Pesquisar caixas de correio baseadas em nuvem dos usuários locais
+            - name: Pesquisar para o Teams dados de chat para usuários locais
               href: search-cloud-based-mailboxes-for-on-premises-users.md
             - name: Edição em massa de várias pesquisas de conteúdo
               href: bulk-edit-content-searches.md
