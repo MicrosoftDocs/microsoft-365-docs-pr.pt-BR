@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: d18b3d8ede271cb0d9611d6210a3d1d32849581a
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a52ba30aa9b89dc78e9bd5a538cb530cd7bf6e00
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195646"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305361"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>Planejamento do seu projeto piloto de proteção contra ameaças da Microsoft 
 
@@ -60,7 +60,7 @@ Os casos de uso representam instruções sobre como a ferramenta que está sendo
 
 Tenha em mente que esses casos de uso devem ser criados dentro dos parâmetros do escopo definido. Se, por exemplo, o escopo de teste não incluir uma avaliação de ferramentas como o Microsoft Cloud app Security, os casos que dependem dele como uma fonte de dados não devem ser criados.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Na lista de casos de uso, você pode começar a criar requisitos. Os requisitos incluem recursos que uma ferramenta deve ter para satisfazer os casos de uso. Esses requisitos podem ser divididos em categorias como configuração e manutenção, suporte para integrações e requisitos específicos de recursos, como a capacidade de busca e a capacidade de criar alertas personalizados.
 
@@ -78,7 +78,7 @@ Uma maneira de reunir todos os elementos de seu plano pode ser criar um scorecar
 
 |**Caso de uso**|**Requisitos**|**Requisitos de configuração**|**Plano de teste**|**Resultado esperado**|**Status do teste**|**Pontuação**|**Anotações**|
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-|Gerenciamento de incidentes|-Proteção contra ameaças da Microsoft </br></br>-Azure ATP </br></br>-Microsoft defender ATP </br></br>– Segurança do aplicativo do Microsoft Cloud (opcional)|Consulte os [pré-requisitos](https://aka.ms/mtp-trial-lab) para preparação, configuração e configuração para obter detalhes |[Simular ameaças](mtp-pilot-simulate.md) <br></br>[Investigue o incidente](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#investigate-an-incident) |Os investigadores podem entender o escopo e o impacto do incidente e gerenciar o incidente||||
+|Gerenciamento de incidentes|-Proteção contra ameaças da Microsoft </br></br>-Azure ATP </br></br>-Microsoft defender ATP </br></br>– Segurança do aplicativo do Microsoft Cloud (opcional)|Consulte os [pré-requisitos](https://aka.ms/mtp-trial-lab) para preparação, configuração e configuração para obter detalhes |[Simular ameaças](mtp-pilot-simulate.md) <br></br>[Investigue o incidente](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Os investigadores podem entender o escopo e o impacto do incidente e gerenciar o incidente||||
 |AutoIR|-Proteção contra ameaças da Microsoft </br></br>-Azure ATP </br></br>-Microsoft defender ATP |Consulte os [pré-requisitos](https://aka.ms/mtp-trial-lab) para preparação, configuração e configuração para obter detalhes <br>Habilitar AutoIR  |[Simular ameaças](mtp-pilot-simulate.md) <br></br>[Investigação automatizada](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Alertas e incidentes são corrigidos automaticamente pela proteção contra ameaças da Microsoft||||
 |Busca avançada|-Proteção contra ameaças da Microsoft </br></br>-Microsoft defender ATP </br></br>-Office 365 ATP   |Consulte os [pré-requisitos](https://aka.ms/mtp-trial-lab) para preparação, configuração e configuração para obter detalhes|[Cenário de busca avançada](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Os investigadores podem localizar dados por meio de busca avançada, dinamização para entidades impactadas e criação de detecções personalizadas||||
 

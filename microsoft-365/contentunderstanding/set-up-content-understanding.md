@@ -10,12 +10,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configurar a compreensão do conteúdo no Project Cortex
-ms.openlocfilehash: f0a26f0044e578928730cf4930f1524e86dff9f3
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 31c6b6dd31b3f1bc47deb8424dd847cc0af6d429
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294818"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304775"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Configurar o SharePoint Syntex
 
@@ -107,27 +107,7 @@ Se você tiver 300 ou mais licenças do Syntex do SharePoint para o SharePoint S
 
 Você pode estimar a capacidade do Construtor AI mais adequada para a [calculadora do ai Builder](https://powerapps.microsoft.com/ai-builder-calculator).
 
-1. Vá para o [centro de administração da plataforma de energia](https://admin.powerplatform.microsoft.com/resources/capacity) para verificar seus créditos e uso.
-
-    > [!NOTE]
-    > Habilitar esta configuração em uma biblioteca de documentos do SharePoint não afeta os modelos existentes aplicados à biblioteca ou a capacidade de aplicar modelos de compreensão de documentos a uma biblioteca. 
-    
-2. Na página **criar centro de conteúdo** , você pode criar um site do centro de conteúdo do SharePoint para o qual os usuários podem criar e gerenciar modelos de compreensão de documentos. </br>
-    a. Em **nome do site**, digite o nome desejado para o site do centro de conteúdo.</br>
-    b. O **endereço do site** mostra a URL do seu site, com base no nome do site.</br>
-
-    > [!NOTE] 
-    > Embora você possa selecionar qualquer idioma suportado, o conteúdo entendendo modelos só pode ser criado para inglês.</br>
-
-      ![Criar centro de conteúdo](../media/content-understanding/admin-cu-create-cc.png)</br>
-
-3. Selecione **Avançar**.
-
-4. Na página **concluir e revisar** , examine a configuração selecionada e escolha fazer alterações. Se estiver satisfeito com suas seleções, selecione **Ativar**.
-
-5. A página **conteúdo Understanding Activated** é exibida, confirmando que o sistema adicionou suas preferências de processamento de formulário e criou o site do centro de conteúdo. Selecione **Concluído**.
-
-6. Você retornará à página **automatizar o conteúdo de compreensão** . Nessa página, você pode selecionar **gerenciar** para fazer quaisquer alterações nas suas definições de configuração. 
+Vá para o [centro de administração da plataforma de energia](https://admin.powerplatform.microsoft.com/resources/capacity) para verificar seus créditos e uso.
 
 ## <a name="see-also"></a>Confira também
 

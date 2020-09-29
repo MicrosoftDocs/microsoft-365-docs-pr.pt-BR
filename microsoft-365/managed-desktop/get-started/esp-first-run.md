@@ -1,6 +1,6 @@
 ---
-title: Experiência de primeira execução com o AutoPilot e a página de status do registro
-description: Como implantar a experiência de ESP, as configurações usadas e exceções
+title: Experiência da primeira execução com o piloto automático e a página de status do registro
+description: Como implantar a experiência de ESP, as configurações usadas e as alterações de configuração
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -10,14 +10,14 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 84656e2f0ae9d148c61c27af2a53e157cd44c171
-ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
+ms.openlocfilehash: 7337dd28f7940256d1753cd4c0b6309406fab2d1
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/29/2020
-ms.locfileid: "48299234"
+ms.locfileid: "48305265"
 ---
-# <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Experiência de primeira execução com o AutoPilot e a página de status do registro
+# <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Experiência da primeira execução com o piloto automático e a página de status do registro
 
 O Microsoft Managed desktop usa o [Windows AutoPilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot) e a página de status de registro do Microsoft INTUNE [(ESP)](https://docs.microsoft.com/windows/deployment/windows-autopilot/enrollment-status) para fornecer a melhor experiência de primeira execução para os seus usuários.
 
@@ -49,7 +49,7 @@ O Microsoft Managed desktop usa essas configurações no perfil do piloto autom�
 |Insira um nome     | MMD-% RAND: 11%        |
 
 > [!NOTE]
-> Embora o rovisioning "branco Glove" seja habilitado apenas para clientes com ESP ativado, não há suporte para ele no momento na área de trabalho gerenciada da Microsoft.
+> Embora o provisionamento "White Glove" seja habilitado apenas para clientes com ESP ativado, ele não tem suporte no momento na área de trabalho gerenciada da Microsoft.
 
 ## <a name="enrollment-status-page-settings"></a>Configurações da página de status do registro
 
@@ -89,15 +89,15 @@ A experiência continua da seguinte maneira:
 
 A área de trabalho gerenciada da Microsoft não suporta atualmente o recurso "White Glove" do Windows AutoPilot.
 
-## <a name="exceptions"></a>Exceptions
+## <a name="change-to-autopilot-and-enrollment-status-page-settings"></a>Alterar as configurações de página de status do AutoPilot e do registro
 
-Se a configuração usada pelo Microsoft Managed desktop não corresponder exatamente às suas necessidades, você poderá arquivar uma solicitação de exceção. Para fazer isso, confira detalhes na [solicitação de uma exceção](../service-description/customizing.md#request-an-exception). Estes são alguns exemplos dos tipos de exceções que você pode precisar:
+Se a configuração usada pelo Microsoft Managed desktop não corresponder exatamente às suas necessidades, você poderá arquivar um tíquete de suporte através do [portal de administração](https://portal.azure.com/). Estes são alguns exemplos dos tipos de configuração que podem ser necessários:
 
-### <a name="autopilot-exception"></a>Exceção do piloto automático
+### <a name="autopilot-settings-change"></a>Alteração das configurações do AutoPilot
 
 Você pode querer solicitar um modelo de nome de dispositivo diferente. No entanto, você não pode alterar o modo de implantação, ingressar no Azure como, configurações de privacidade ou tipo de conta de usuário.
 
-### <a name="enrollment-status-page-exception"></a>Exceção da página de status do registro
+### <a name="enrollment-status-page-settings-change"></a>Alteração das configurações da página de status do registro
 
 - Um número maior de minutos para a configuração "mostrar um erro quando a instalação demorar mais do que o número especificado de minutos".
 - A mensagem de erro exibida

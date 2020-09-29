@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4a698bc0d6a7c1ebadec44357b932e9b56dc0a3c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 118d96b797e9d46b4a9912f919cafbba680a9609
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196840"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305277"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -31,8 +31,6 @@ ms.locfileid: "48196840"
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 A `IdentityDirectoryEvents` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém eventos que envolvem um controlador de domínio local executando o Active Directory (AD). Esta tabela captura vários eventos relacionados à identidade, como alterações de senha, expiração de senha e alterações de nome de usuário principal (UPN). Ele também captura eventos do sistema no controlador de domínio, como agendamento de tarefas e atividade do PowerShell. Use essa referência para criar consultas que retornam informações dessa tabela.
 
@@ -57,7 +55,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AccountDomain` | string | Domínio da conta |
 | `AccountUpn` | string | Nome principal do usuário (UPN) da conta |
 | `AccountSid` | string | Identificador de segurança (SID) da conta |
-| `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
+| `AccountObjectId` | string | Identificador exclusivo para a conta no Azure Active Directory |
 | `AccountDisplayName` | string | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
 | `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
 | `IPAddress` | string | Endereço IP atribuído ao dispositivo durante a comunicação |

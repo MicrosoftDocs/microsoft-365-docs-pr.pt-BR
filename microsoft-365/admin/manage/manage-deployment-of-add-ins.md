@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: 5806b2a33446a8e273c2aaf78e082c6fd753bbe4
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 20ebdfd2072c49fabadcbaf66dead54e75f9becd
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171275"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304787"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
 
@@ -61,7 +61,7 @@ Dependendo do tamanho do público-alvo, você poderá adicionar ou remover etapa
 
 Antes de começar, confira [determinar se a implantação centralizada de suplementos funciona para sua organização](centralized-deployment-of-add-ins.md).
   
-1. No centro de administração, vá para a página **configurações** \> **de suplementos** .
+1. No centro de administração, vá para a página **configurações** \> **de suplementos** . Se você não vir a página do **suplemento** , vá para a página **configurações** de \> **aplicativos integrados** da configuração \> **Add-ins** .
     
 2. Selecione **implantar suplemento** na parte superior da página e, em seguida, selecione **Avançar**.
  
