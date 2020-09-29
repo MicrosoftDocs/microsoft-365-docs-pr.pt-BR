@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft fornece modelos para a criação de avaliações que se alinham às normas nacionais, regionais e industriais, normas e leis.
-ms.openlocfilehash: 548844e3850757484f9ee1d455d6ecd18bcb939c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9bce625bd8733570a62e3b5f7685cace84005b69
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204269"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294791"
 ---
-# <a name="compliance-manager-templates-list"></a>Lista de modelos do Gerenciador de conformidade
+# <a name="compliance-manager-templates-list"></a>Lista de modelos do Gerenciador de Conformidade
 
 **Neste artigo:** Exibir a lista abrangente de **modelos** disponíveis para a criação de avaliações no Gerenciador de conformidade.
 
@@ -134,13 +134,8 @@ Leia mais sobre [como exibir e gerenciar seus modelos](compliance-manager-templa
 - Indonésia-Law 11/2008 (Microsoft 365)
 - Indonésia-Peraturan Pemerintah no. 82 Tahun 2012-regulamento governamental-regulamentação de proteção de dados (Microsoft 365)
 - [IRS-P1075](offering-irs-1075.md) (Microsoft 365)
-- ISO 15489 (Microsoft 365)
-- [ISO 22301:2019](offering-iso-22301.md) (Microsoft 365)
-- ISO 27005:2018 (Microsoft 365)
 - [ISO 27017:2015](offering-iso-27017.md) (Microsoft 365)
-- ISO 31000:2018 (Microsoft 365)
 - [ISO/IEC 27018:2014](offering-iso-27018.md)
-- [ISO/IEC 27701:2019](offering-iso-27701.md) (Microsoft 365)
 - Normas de proteção de privacidade em Israel (transferência de dados para bancos de dados do exterior) (Microsoft 365)
 - Estrutura de gerenciamento de segurança de informações da ITU X. 1052 (Microsoft 365)
 - Japão – agir de proibição de acesso não autorizado ao computador (Microsoft 365)

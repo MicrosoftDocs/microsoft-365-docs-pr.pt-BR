@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Implementar recursos de proteção de informações da Microsoft (MIP) usando o Microsoft 365 Compliance para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde quer que elas se envidam ou se encontram.
-ms.openlocfilehash: d69395523cb656d23e44b577f01338eb78c7b386
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 66938804a119022b6b44664ecd8f040e3c56123f
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277519"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295463"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de informações da Microsoft no Microsoft 365
 
@@ -50,10 +50,10 @@ Para aplicar ações de proteção flexíveis que incluem criptografia, restriç
 
 |Recursos|Que problemas ele resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
-|[Rótulos de confidencialidade ](sensitivity-labels.md)| Uma única solução entre aplicativos, serviços e dispositivos para rotular e proteger seus dados conforme eles trafegam dentro e fora da sua organização <br /><br />Cenário de exemplo: [aplicar e exibir rótulos de confidencialidade no Power bi e proteger dados quando ele é exportado](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
+|[Rótulos de confidencialidade ](sensitivity-labels.md)| Uma única solução entre aplicativos, serviços e dispositivos para rotular e proteger seus dados conforme eles trafegam dentro e fora da sua organização <br /><br />Cenário de exemplo: [aplicar e exibir rótulos de confidencialidade no Power bi e proteger dados quando ele é exportado](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|[ Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
 |[Cliente de rotulação unificada de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Para computadores com Windows, estende os rótulos de confidencialidade para recursos adicionais e funcionalidade que inclui o rótulo e a proteção de todos os tipos de arquivo do explorador de arquivos e do PowerShell<br /><br /> Exemplos de recursos adicionais: [configurações personalizadas para o cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Guia do administrador do cliente de rótulo unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
-|[Criptografia de Chave Dupla](double-key-encryption.md)| Em todas as circunstâncias, apenas você pode descriptografar o conteúdo protegido, ou para requisitos normativos, você deve manter chaves de criptografia dentro de um limite geográfico | [Implantar a criptografia de chave dupla](double-key-encryption.md)|
-|[Criptografia de mensagem do Office 365](ome.md) (ome)| Criptografa mensagens de email e documentos anexados que são enviados para qualquer usuário em qualquer dispositivo, de modo que somente os destinatários autorizados possam ler informações enviadas por email  <br /><br />Cenário de exemplo: [revogar emails criptografados por criptografia de mensagem avançada](revoke-ome-encrypted-mail.md) | [Introdução à criptografia de mensagem do Office 365](set-up-new-message-encryption-capabilities.md)|
+|[Criptografia de Chave Dupla](double-key-encryption.md)| Em todas as circunstâncias, apenas você pode descriptografar o conteúdo protegido, ou para requisitos normativos, você deve manter chaves de criptografia dentro de um limite geográfico | [Implantar a criptografia de chave dupla](double-key-encryption.md#deploy-dke)|
+|[Criptografia de mensagem do Office 365](ome.md) (ome)| Criptografa mensagens de email e documentos anexados que são enviados para qualquer usuário em qualquer dispositivo, de modo que somente os destinatários autorizados possam ler informações enviadas por email  <br /><br />Cenário de exemplo: [revogar emails criptografados por criptografia de mensagem avançada](revoke-ome-encrypted-mail.md) | [Configurar recursos de criptografia de nova mensagem](set-up-new-message-encryption-capabilities.md)|
 |[Criptografia de serviço com a chave do cliente](customer-key-overview.md) | Protege contra a exibição de dados por um pessoal ou sistemas não autorizados e complementa a criptografia de disco BitLocker nos datacenters da Microsoft | [Configurar a Chave de Cliente do Office 365](customer-key-set-up.md)|
 |[IRM (gerenciamento de direitos de informação) do SharePoint](set-up-irm-in-sp-admin-center.md#irm-enable-sharepoint-document-libraries-and-lists)|Protege listas e bibliotecas do SharePoint para que, quando um usuário faz check-out de um documento, o arquivo baixado seja protegido de modo que somente as pessoas autorizadas possam exibir e usar o arquivo de acordo com as políticas que você especificar | [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)|
 [Conector de gerenciamento de direitos](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector) |Proteção: somente para implantações locais existentes que usam o Exchange ou o SharePoint Server ou servidores de arquivos que executam o Windows Server e a infraestrutura de classificação de arquivo (FCI) | [Etapas para implantar o conector RMS](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector)
