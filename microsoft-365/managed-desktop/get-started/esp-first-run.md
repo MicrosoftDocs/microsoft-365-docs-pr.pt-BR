@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d4083e48033787ca46ad2374ea461b4a77d21e0d
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 84656e2f0ae9d148c61c27af2a53e157cd44c171
+ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295711"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48299234"
 ---
 # <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Experiência de primeira execução com o AutoPilot e a página de status do registro
 
@@ -46,9 +46,10 @@ O Microsoft Managed desktop usa essas configurações no perfil do piloto autom�
 |Tipo de conta de usuário     |  Padrão       |
 |Permitir branco Glove OOBE     |  Sim       |
 |Aplicar modelo de nome do dispositivo     | Sim        |
-|Insira um nome     | MMD-% RAND: 7%        |
+|Insira um nome     | MMD-% RAND: 11%        |
 
-
+> [!NOTE]
+> Embora o rovisioning "branco Glove" seja habilitado apenas para clientes com ESP ativado, não há suporte para ele no momento na área de trabalho gerenciada da Microsoft.
 
 ## <a name="enrollment-status-page-settings"></a>Configurações da página de status do registro
 
