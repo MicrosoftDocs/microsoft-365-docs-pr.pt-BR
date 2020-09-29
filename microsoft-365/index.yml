@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 8f7fff018e14b58aa65800af8f854c939cf0de89
-  ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
+  ms.openlocfilehash: d01e49aad4a30ddece688bba5ad24a68dedb40dd
+  ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/09/2020
-  ms.locfileid: "47422391"
+  ms.lasthandoff: 09/25/2020
+  ms.locfileid: "48277436"
 highlightedContent:
   items:
   - title: Capacitar trabalhadores remotos
@@ -71,6 +71,8 @@ productDirectory:
       text: Colaboração de arquivos no SharePoint
     - url: /onedrive/plan-onedrive-enterprise
       text: Guia OneDrive para empresas
+    - url: solutions/collaboration-governance-overview.md
+      text: Governança de colaboração
   - title: Recursos da arquitetura
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg
     links:
@@ -185,7 +187,7 @@ additionalContent:
         url: /DeployOffice
     - title: SharePoint
       links:
-      - text: SharePoint Online
+      - text: SharePoint no Microsoft 365
         url: /sharepoint/sharepoint-online
       - text: SharePoint Server
         url: /sharepoint/sharepoint-server

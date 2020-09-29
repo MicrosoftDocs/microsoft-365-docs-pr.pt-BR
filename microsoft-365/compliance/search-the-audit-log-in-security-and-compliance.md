@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização.
+description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7051e03ca4751d6e97d9af9228765be9e1af6ebe
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 48d40cff907480f05dff8ba1c5c1584fc8289b1b
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197344"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286037"
 ---
-# <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
+# <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
-Precisa descobrir se um usuário visualizou um documento específico ou apagou um item de sua caixa de correio? Em caso afirmativo, você pode usar o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. Por que usar um log de auditoria unificada? Porque você pode procurar os seguintes tipos de [atividades de usuários e administradores ](#audited-activities)no Office 365:
+Precisa descobrir se um usuário visualizou um documento específico ou apagou um item de sua caixa de correio? Em caso afirmativo, você pode usar o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. Por que usar um log de auditoria unificada? Como você pode procurar os seguintes tipos de [Atividade de usuários e administradores](#audited-activities) no Microsoft 365:
 
 - Atividade do usuário do SharePoint Online e do OneDrive for Business
 
@@ -36,7 +36,7 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 
 - Atividade de administração do SharePoint Online
 
-- Atividade de administração do Azure Active Directory (o serviço de diretório para o Office 365)
+- Atividade de administração do Azure Active Directory (o serviço de diretório para o Microsoft 365)
 
 - Atividade de administradores do Exchange Online (log de auditoria de administradores do Exchange)
 

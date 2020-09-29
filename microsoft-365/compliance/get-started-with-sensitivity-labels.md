@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 2c23246f17a8d9ea9681017dca28e144f3088604
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: 7892eabdea3d92e9720b23efc708a99c7154ab7b
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245954"
+ms.locfileid: "48262296"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -67,7 +67,6 @@ Para obter instruções sobre como adicionar usuários às funções padrão ou 
 Essas permissões são necessárias somente para criar e configurar os rótulos de confidencialidade e suas políticas de rótulos. Eles não são necessários para aplicar os rótulos em aplicativos ou serviços. Se forem necessárias permissões adicionais para as configurações específicas relacionadas aos rótulos de sensibilidade, essas permissões serão listadas nas suas respectivas instruções de documentação.
 
 ## <a name="deployment-strategy-for-sensitivity-labels"></a>Estratégia de implementação para rótulos de sensibilidade
-
 Uma estratégia bem-sucedida para implantar rótulos de sensibilidade para uma organização é criar uma equipe de trabalho virtual que identifique e gerencie os requisitos técnicos e de negócios, os testes de verificação, os pontos de verificação internos e as aprovações, além da implantação final para o ambiente de produção.
 
 Usando a tabela na próxima seção, recomendamos identificar um ou dois cenários mais importantes que mostram as suas exigências de negócios mais impactantes. Após a implantação desses cenários, volte para a lista para identificar as próximas prioridades para implantação.
@@ -85,7 +84,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
 |Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados — até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
-|Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use rótulos de sensibilidade nos Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint)](sensitivity-labels-teams-groups-sites.md)|
+|Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use etiquetas de sensibilidade com o Microsoft Teams, o Microsoft 365 Groups e sites do SharePoint](sensitivity-labels-teams-groups-sites.md)|
 |Impedir ou alertar os usuários sobre o compartilhamento de arquivos ou emails com um rótulo de confidencialidade |[Utilize rótulos de confidencialidade como condição nas políticas de DLP (visualização)](dlp-sensitivity-label-as-condition.md) |
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
