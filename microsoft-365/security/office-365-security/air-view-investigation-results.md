@@ -15,12 +15,13 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Durante e após uma investigação automatizada no Microsoft 365, você pode exibir os resultados e as principais descobertas.
-ms.openlocfilehash: 6137edf741dc2ef21ec4e046b1985dd3f85b5720
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.date: 09/29/2020
+ms.openlocfilehash: df0eaa54d8bc1c9cd6c91b6b36958e1eb0d2bfd6
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197686"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309101"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Detalhes e resultados de uma investigação automatizada no Microsoft 365
 
@@ -144,10 +145,14 @@ Dado o volume simples de email que os usuários de uma organização enviam e re
 
 pode levar muito tempo. Agora, o ar automatiza esse processo, poupando o tempo e esforço da equipe de segurança da sua organização.
 
-Dois tipos diferentes de clusters de email podem ser identificados durante a etapa de análise de email: clusters de similaridade e clusters de indicador.
+Três tipos diferentes de clusters de email podem ser identificados durante a etapa de análise de email: clusters de similaridade (todas as investigações), clusters de indicador (todas as investigações) e grupos de caixa de correio/usuário.
 
 - Os clusters de similaridade são mensagens de email identificadas pela busca de emails com atributos de remetente e conteúdo semelhantes. Esses clusters são avaliados para conteúdo mal-intencionado com base nas descobertas de detecção originais. Os clusters de emails que contêm detecções de email maliciosas suficientes são considerados mal-intencionados.
-- Os clusters de indicadores são mensagens de email identificadas por busca da mesma entidade de indicador (hash de arquivo ou URL) do email original. Quando a entidade de arquivo/URL original é identificada como mal-intencionada, o AIR aplica o indicador veredicto a todo o cluster de mensagens de email contendo essa entidade. Um arquivo identificado como malware significa que o cluster de mensagens de email que contém esse arquivo é tratado como mensagens de email de malware.
+- Os clusters de indicadores são mensagens de email identificadas por busca da mesma entidade de indicador (hash de arquivo ou URL) do email original. Quando a entidade de arquivo/URL do ouserriginal é identificada como mal-intencionada, o AIR aplica o indicador veredicto ao cluster inteiro de mensagens de email contendo essa entidade. Um arquivo identificado como malware significa que o cluster de mensagens de email que contém esse arquivo é tratado como mensagens de email de malware.
+- Os clusters de caixa de correio/usuário são mensagens de email relacionadas ao usuário envolvido em uma investigação de comprometimento do usuário.  Observe que esses clusters de email são para análise mais detalhada da equipe de operações de segurança e não irão gerar ações de correção de email.  Os clusters de caixa de correio/usuário do manual de comprometimento analisam os emails enviados pelo usuário que está sendo analisado, a fim de entender o possível impacto dos emails enviados pela caixa de correio:
+    - Emails maliciosos enviados a partir da caixa de correio/usuário, que indicam o potencial comprometimento da caixa de correio/conta e mostrará outros usuários/caixas de correio potencialmente impactadas por um envio mal-intencionado como parte de um compromisso.
+    - Emails suspeitos enviados pela caixa de correio/usuário, mostrando qualquer email em massa/spam enviado a partir da caixa de correio, que pode estar relacionada a um possível comprometimento ou pelo menos indicar uma possível atividade indesejada da conta de email.
+    - Limpar os emails enviados pela caixa de correio/usuário, que fornecerá à equipe de operações de segurança um modo de exibição de emails legítimos enviados, mas pode incluir exfiltration de dados quando a conta de email for comprometida.
 
 O objetivo do clustering é procurar e encontrar outras mensagens de email relacionadas enviadas pelo mesmo remetente como parte de um ataque ou uma campanha.  Em alguns casos, os emails legítimos podem acionar uma investigação (por exemplo, um usuário relata um email de marketing).  Nesses cenários, o clustering de emails deve identificar que os clusters de emails não são mal-intencionados, quando isso o faz adequadamente, ele **não** indica uma ameaça nem recomenda a remoção de email.
 
@@ -155,7 +160,7 @@ A guia **email** também mostra os itens de email relacionados à investigação
 
 A contagem de emails identificada na guia email representa atualmente a soma total de todas as mensagens de email exibidas na guia **email** . Como as mensagens de email estão presentes em vários clusters, a contagem total real de mensagens de email identificadas (e afetadas por ações de correção) é a contagem de mensagens de email exclusivas em todos os clusters e mensagens de email dos destinatários originais.
 
-O Explorer e o AIR contam mensagens de email por destinatário, já que os locais de segurança verdicts, ações e entrega variam de acordo com cada destinatário. Portanto, um email original enviado a três usuários conta como um total de três mensagens de email em vez de um email. Observação pode haver casos em que um email é contado duas ou mais vezes, uma vez que o email pode ter várias ações nela, pode haver várias cópias do email quando todas as ações ocorrerem. Por exemplo, um email de malware detectado na entrega pode resultar em um email bloqueado (em quarentena) e um email substituído (arquivo de ameaça substituído por um arquivo de aviso e, em seguida, entregue à caixa de correio do usuário). Como há, literalmente, duas cópias do email no sistema, ambas podem ser contadas em contagens de cluster.
+O Explorer e o AIR contam mensagens de email por destinatário, porque os locais de segurança verdicts, Actions e Delivery variam de acordo com cada destinatário. Portanto, um email original enviado a três usuários conta como um total de três mensagens de email em vez de um email. Pode haver casos em que um email é contado duas ou mais vezes, como quando um email tem várias ações nele, ou quando há várias cópias do email quando todas as ações ocorrem. Por exemplo, um email de malware detectado na entrega pode resultar em um email bloqueado (em quarentena) e um email substituído (arquivo de ameaça substituído por um arquivo de aviso e, em seguida, entregue à caixa de correio do usuário). Como há literalmente duas cópias do email no sistema, ambas podem ser contadas em contagens de cluster.
 
 As contagens de email são calculadas no momento da investigação e algumas contagens são recalculadas quando você abre submenus de investigação (com base em uma consulta subjacente). As contagens de email mostradas para os clusters de email na guia email e o valor de quantidade de email mostrado no submenu de cluster são calculados no momento da investigação e não são alterados. A contagem de email mostrada na parte inferior da guia email do submenu de cluster de emails e a contagem de mensagens de email exibidas no Explorer refletem mensagens de email recebidas após a análise inicial da investigação. Portanto, um cluster de emails que mostra uma quantidade original de 10 mensagens de email mostraria uma lista de emails de 15 a cinco mensagens de email que chegam entre a fase de análise de investigação e quando o administrador revisa a investigação.  Da mesma forma, investigações antigas podem começar a ter contagens maiores do que as consultas do Explorer, já que ATP P2 expira dados após 7 dias para tentativas e 30 dias para licenças pagas.  Mostrar as contagens históricas e atuais de contagem em modos de exibição diferentes é feita para indicar o impacto do email no momento da investigação e o impacto atual até o momento em que a correção é executada.
 
@@ -232,7 +237,7 @@ Você pode:
 |Investigação de violações de DLP|Investigue todas as violações detectadas pela [prevenção de perda de dados](../../compliance/data-loss-prevention-policies.md) (DLP)|
 |Extração de indicadores de email|Extrair indicadores do cabeçalho, do corpo e do conteúdo de uma mensagem de email para investigação|
 |Reputação de hash de arquivo|Detectar anomalias com base nos hashes de arquivo para usuários e computadores em sua organização|
-|Identificação de cluster de email|Análise do cluster de emails com base no cabeçalho, corpo, conteúdo e URLs|
+|Identificação de cluster de email|Análise do cluster de emails com base em cabeçalho, corpo, conteúdo, arquivos e URLs|
 |Análise de volume de cluster de email|Análise de cluster de email com base em padrões de volume de fluxo de emails de saída|
 |Investigação de delegação de email|Investigar o acesso de delegação de email para caixas de correio de usuário relacionadas a essa investigação|
 |Investigação de regras de encaminhamento de email|Investigue qualquer regra de encaminhamento de email para caixas de correio do usuário relacionadas a esta investigação|

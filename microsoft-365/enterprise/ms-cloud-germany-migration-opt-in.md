@@ -19,22 +19,22 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Resumo: '
-ms.openlocfilehash: a4252a357891fc978d8b40747c5ad5741786b290
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2e5e5053ff1539b3fa92175115c8c9db3abc81ce
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686891"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309042"
 ---
 # <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Como aceitar a migração do Microsoft Cloud Alemanha (Microsoft Cloud Deutschland) para os serviços do Office 365 nas novas regiões de datacenter alemãs
 
 >[!Note]
->Esse artigo aplica-se somente aos clientes qualificados do Microsoft Cloud Alemanha/Deutschland.
+>Este artigo aplica-se apenas aos clientes do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha).
 >
 
 ## <a name="how-to-request-migration"></a>Como solicitar a migração
 
-Os clientes qualificados com serviço provisionado no Microsoft Cloud Alemanha verão uma página no centro de administração do Microsoft 365, que permitirá que um administrador de locatários do cliente opte por migrar.
+Clientes qualificados com o serviço provisionado no Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) verão uma página no centro de administração do Microsoft 365 que permitirá que um administrador de locatários do cliente opte por fazer a migração.
 
 Para acessar a página no centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **Configurações** e, em seguida, clique em **Perfil da Organização**.
 
@@ -54,7 +54,13 @@ Depois que um administrador aceitar em nome de seu locatário, todos os administ
 
 ## <a name="what-happens-after-opting-in-for-migration"></a>O que acontece após aceitar a migração?
 
-Para as organizações que aceitarem a abordagem orientada pela Microsoft, espera-se que as migrações ocorram em 2020.  Como resultado da migração, os dados principais e assinaturas do cliente serão movidos para as novas regiões alemãs.  A Microsoft enviará atualizações durante todo o processo de migração no Centro de Mensagens.
+As migrações começarão no início de 2021 para as organizações que optarem pela abordagem orientada pela Microsoft e serão concluídas antes da data de aposentadoria da Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) em 29 de outubro de 2021.  Como resultado da migração, os dados principais e assinaturas do cliente serão movidos para as novas regiões alemãs.  A Microsoft enviará atualizações durante todo o processo de migração no Centro de Mensagens.  Confira os artigos mencionados abaixo para saber mais.
+
+## <a name="what-happens-if-the-customer-tenant-administrator-does-not-opt-in-for-migration-in-admin-center"></a>O que acontece se o administrador de locatários do cliente não aceitar a migração no centro de administração?
+
+Os termos do Online Services foram alterados para incluir termos que permitirão que a Microsoft migre seus dados e assinaturas do Microsoft 365, Dynamics 365 e Power BI do Microsoft Cloud Alemanha para um novo data center. Estes termos entram em vigor em qualquer assinatura do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) renovada desde maio de 2020.  O administrador de locatários do cliente receberá um aviso em email e aviso do centro de mensagens que a aceitação da migração ocorrerá automaticamente para uma migração assistida pela Microsoft. Este aviso será enviado pelo menos 30 dias antes do consentimento automático.  Após a migração, todas as comunicações e atualizações de status são enviadas para administradores de locatários do cliente no centro de mensagens.
+
+Os administradores de locatários de clientes e parceiros são incentivados a optar por migrar no centro de administração para que o processo de migração possa começar o mais rápido possível.
 
 ## <a name="more-information"></a>Mais informações
 

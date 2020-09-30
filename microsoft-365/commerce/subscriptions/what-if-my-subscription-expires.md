@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: 2852d2fc301d71131a0adb1c277974e2303dd395
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 2c8b21274d7e3e776e62a9a185309d6e742ac2b3
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016072"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309177"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
@@ -36,7 +36,7 @@ Se sua assinatura terminar, pois ela expira ou porque você decide cancelar — 
 
 Leia as informações importantes antes de entrar em contato com o [suporte do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
   
-## <a name="what-happens-to-data-when-a-subscription-expires"></a>O que acontece com os dados quando uma assinatura expira? 
+## <a name="what-happens-to-data-when-a-subscription-expires"></a>O que acontece com os dados quando uma assinatura expira?
 
 - Se sua assinatura expirar, ela passará pelos seguintes estágios: expirado/desabilitado/desprovisionado. O estágio expirado é iniciado imediatamente após a assinatura atingir sua data de término.
 - Se você desativar a cobrança recorrente em sua assinatura anual, ela passará pelos mesmos estágios de uma assinatura expirada. O primeiro estágio começa é o aniversário da assinatura anual, não começando na data em que você desativou a configuração de cobrança recorrente da assinatura.
@@ -47,7 +47,7 @@ A tabela a seguir explica o que você pode esperar quando uma assinatura paga do
 | **Active**                                                             | **Expirado <br/> (30 dias \* )**                                                | **Desabilitado <br/> (90 dias \* )**                                               | **Desprovisionada**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Dados acessíveis a todos*                                               | *Dados acessíveis a todos*                                                     | *Dados acessíveis somente para administradores*                                             | **Dados excluídos o <br/> Azure Active Directory foi removido, se não estiver sendo usado por outros serviços** |
-| Os usuários têm acesso normal aos aplicativos do Microsoft 365, aos dados e ao Office  | Os usuários têm acesso normal ao Microsoft 365, arquivos e aplicativos              | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                                     |
+| Os usuários têm acesso normal ao Microsoft 365, arquivos e aplicativos   | Os usuários têm acesso normal ao Microsoft 365, arquivos e aplicativos              | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                                     |
 | Os administradores têm acesso normal ao Microsoft 365, aos dados e aos aplicativos do Office | Os administradores podem acessar o centro de administração                                           | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
 |                                                                        | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração |                                                                                           |
 
@@ -208,16 +208,19 @@ Neste ponto, não é possível reativar a assinatura. No entanto, como administr
 Quando a avaliação terminar, você não poderá continuar usando o Microsoft 365 gratuitamente. Você tem algumas opções:
 
 ::: moniker range="o365-worldwide"
+
 - **Compre o Microsoft 365.** Quando a avaliação expira, ela é movida para um período de cortesia, dando mais 30 dias (para a maioria dos testes, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a avaliação em uma assinatura paga, confira [comprar sua versão de avaliação do Microsoft 365 for Business](../buy-a-subscription-from-your-free-trial.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 - **Compre o Microsoft 365.** Quando a avaliação expira, ela é movida para um período de cortesia, dando mais 30 dias (para a maioria dos testes, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a avaliação em uma assinatura paga, confira [comprar sua versão de avaliação do Microsoft 365 for Business](../buy-a-subscription-from-your-free-trial.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
+
 - **Comprar o Office 365.** Quando a avaliação expira, ela é movida para um período de cortesia, dando mais 30 dias (para a maioria dos testes, na maioria dos países e regiões) para comprar o Office 365. Para saber como converter a avaliação em uma assinatura paga, consulte [comprar ou experimentar assinaturas do Office 365 operado pela 21vianet](../../admin/services-in-china/buy-or-try-subscriptions.md).
 
 ::: moniker-end
@@ -229,10 +232,8 @@ Quando a avaliação terminar, você não poderá continuar usando o Microsoft 3
 > [!NOTE]
 > As informações nesta página estão sujeitas ao [aviso de isenção de responsabilidade e alteração da política da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613651). Retorne a este site periodicamente para revisar as alterações.
 
-## <a name="related-articles"></a>Artigos relacionados 
+## <a name="related-content"></a>Conteúdo relacionado 
 
-[Cancelar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription)
-
-[Renove o Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription)
-
-[Reativar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription)
+[Cancelar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (artigo) \
+[Renovar o Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (artigo) \
+[Reativar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (artigo)

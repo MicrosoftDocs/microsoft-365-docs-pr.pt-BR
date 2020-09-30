@@ -1,6 +1,6 @@
 ---
-title: Como relatar falsos positivos ou falsos negativos em investigação e resposta automatizadas do Office 365
-description: Algo estava perdido ou foi detectado incorretamente pela proteção avançada contra ameaças do Office 365? Saiba como enviar falsos positivos ou falsos negativos para a Microsoft para análise.
+title: Como relatar falsos positivos ou falsos negativos seguindo a investigação automatizada no Microsoft defender para Office 365
+description: Algo estava perdido ou erroneamente detectado pelo ar no Microsoft defender para Office 365? Saiba como enviar falsos positivos ou falsos negativos para a Microsoft para análise.
 keywords: automatizado, investigação, alerta, gatilho, ação, correção, falso positivo, falso negativo
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -11,20 +11,21 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 05/15/2020
+ms.date: 09/29/2020
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
-ms.custom: autoir
-ms.openlocfilehash: 66b81a474ff81df57c0b2a59672b17061f7235cb
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.custom:
+- autoir
+ms.openlocfilehash: fa6b4ae03a3cf62398a270d65a29e6b4c955173a
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196067"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308927"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados
 
@@ -32,7 +33,7 @@ ms.locfileid: "48196067"
 
 
 **Aplica-se a:**
-- Proteção Avançada contra Ameaças do Office 365
+- Microsoft defender para Office 365
 
 Os [recursos de investigação e resposta automatizados (Air) do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) perdem ou detectou erroneamente algo? Há etapas que você pode executar para corrigi-lo. Você pode:
 - [Relatar um falso positivo/negativo para a Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);
@@ -43,7 +44,7 @@ Use este artigo como uma guia.
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Relatar um falso positivo/negativo para a Microsoft para análise
 
-Se o Office 365 AIR perdeu uma mensagem de email, um anexo de email, uma URL em uma mensagem de email ou uma URL em um arquivo do Office, você pode [enviar spam, Phish, URLs e arquivos suspeitos para a Microsoft para a verificação do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
+Se o AIR no Microsoft defender para Office 365 perder uma mensagem de email, um anexo de email, uma URL em uma mensagem de email ou uma URL em um arquivo do Office, você poderá [enviar spam, Phish, URLs e arquivos suspeitos para a Microsoft para a verificação de 365 do Office](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
 
 Você também pode [enviar um arquivo para a Microsoft para análise de malware](https://www.microsoft.com/wdsi/filesubmission).
 
@@ -51,7 +52,7 @@ Você também pode [enviar um arquivo para a Microsoft para análise de malware]
 
 Se um alerta for disparado por uso legítimo ou se o alerta for impreciso, você poderá [Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts).
 
-Se sua organização estiver usando a [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection) , além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você poderá [criar um indicador personalizado com uma ação "permitir" para o dispositivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).
+Se sua organização estiver usando o [Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection) , além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você poderá [criar um indicador personalizado com uma ação "permitir" para o dispositivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).
 
 ## <a name="undo-a-remediation-action"></a>Desfazer uma ação de correção
 
@@ -90,6 +91,6 @@ Na central de ações, você pode ver ações de correção que foram tomadas e 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+[Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 
-[Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365](office-365-air.md)
+[AR no Microsoft defender para Office 365](office-365-air.md)

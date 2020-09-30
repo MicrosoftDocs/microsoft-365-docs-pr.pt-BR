@@ -8,27 +8,29 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
+ms.date: 09/29/2020
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: adee64461d06b46f467682835a493a7eebe89aef
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Comece a usar os recursos de investigação e resposta automatizados no Microsoft defender para Office 365.
+ms.custom:
+- air
+- seo-marvel-mar2020
+ms.openlocfilehash: b844e4817bc77d7f6f4e99df53fc4b14c7e7110c
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202646"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308882"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
-[Office 365 proteção avançada contra ameaças](office-365-atp.md) (Office 365 ATP) o plano 2 inclui recursos avançados de investigação e resposta (Air) automatizados que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança pode revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser impressionante. A automação de algumas delas pode ajudar. Com o AIR, sua equipe de operações de segurança pode se concentrar nas tarefas de maior prioridade sem perder a visão dos alertas disparados.
+[O Microsoft defender para Office 365](office-365-atp.md) inclui poderosos recursos avançados de investigação e resposta (Air) que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança pode revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser impressionante. A automação de algumas delas pode ajudar. Com o AIR, sua equipe de operações de segurança pode se concentrar nas tarefas de maior prioridade sem perder a visão dos alertas disparados.
 
 Este artigo inclui:
 - O [fluxo](#the-overall-flow-of-air) de ar geral;
@@ -73,7 +75,7 @@ Durante e após um processo de investigação automatizado, a equipe de seguran�
 
 ## <a name="how-to-get-air"></a>Como obter o AIR
 
-Os recursos de AIR do Office 365 estão incluídos no [office 365 Advanced Threat Protection Plan 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2). No entanto, suas [políticas ATP do Office 365 devem ser configuradas](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) para que o Air funcione conforme o esperado. Além disso, certifique-se de revisar e configurar potencialmente as [políticas de alerta](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)da sua organização. 
+Os recursos de ar estão incluídos no [Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2). No entanto, suas [políticas devem ser configuradas](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) para que o ar funcione conforme o esperado. Além disso, certifique-se de revisar e configurar potencialmente as [políticas de alerta](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)da sua organização. 
 
 A Microsoft 365 fornece várias políticas de alerta internas que ajudam a identificar abuso de permissões de administrador do Exchange, atividade de malware, ameaças externas e internas potenciais e riscos de governança de informações. Várias das [políticas de alerta padrão](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) podem disparar investigações automatizadas. Elas incluem o seguinte:
 
@@ -100,12 +102,12 @@ As permissões são concedidas por determinadas funções, como aquelas descrita
 |Para configurar os recursos de ar |Uma das seguintes funções: <br/>-Administrador global<br/>-Administrador de segurança <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade do & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
 |Para aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>-Administrador global <br/>-Administrador de segurança<br/>– Leitor de segurança <br/>---e---<br/>– Pesquisa e limpeza (esta função é atribuída somente no [centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Talvez seja necessário criar um novo grupo de função e adicionar a função de pesquisa e limpeza a esse novo grupo de função.)
 
-As licenças [do plano ATP 2 do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) devem ser atribuídas a:
+As licenças do [Microsoft defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) devem ser atribuídas a:
 - Administradores de segurança (incluindo administradores globais)
 - A equipe de operações de segurança da sua organização (incluindo leitores de segurança e aquelas com a função de pesquisa e limpeza)
 - Usuários finais
 
-Além disso, [as políticas ATP do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) devem ser definidas e aplicadas para que a proteção seja estabelecida.
+Além disso, [as políticas do Microsoft defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) devem ser definidas e aplicadas para que a proteção seja estabelecida.
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -115,6 +117,6 @@ Além disso, [as políticas ATP do Office 365](https://docs.microsoft.com/micros
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Investigação e correção automatizadas no Microsoft defender proteção avançada contra ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [Investigação e correção automatizadas no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-- [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Investigação e resposta automatizadas no Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
