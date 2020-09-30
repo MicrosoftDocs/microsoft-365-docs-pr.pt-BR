@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 496a84b153d017eb69ba5b18443e4331c00c4dd7
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 6052d4fd4c4f85696d18d7ccdd679fd98e9fc7c8
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416575"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304821"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de titulares dos dados ao suporte e aos Serviços profissionais da Microsoft sobre o RGPD e CCPA
 
@@ -35,13 +35,13 @@ Para saber mais sobre os Serviços Profissionais da Microsoft, acesse a [webpage
 
 O RGPD fornece direitos às pessoas (conhecidas na regulamentação como *titulares de dados*) para gerenciar os dados pessoais que foram coletados por um funcionário ou outro tipo de órgão ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos genericamente no RGPD como quaisquer dados relacionados a uma pessoa identificada ou identificável. O RGPD fornece aos titulares dos dados direitos específicos a seus dados pessoais; esses direitos incluem a obtenção de cópias, a solicitação de alterações, a restrição do processamento e a exclusão deles. Uma solicitação formal realizada por um titular dos dados para que um controlador realize um determinado pedido com os dados pessoais do titular é chamada de *Solicitação do Titular dos Dados* ou DSR. Além disso, ela obriga as empresas que trabalham em nome de um controlador (conhecido como *processador de dados* ou apenas *processador*) a ajudar razoavelmente o controlador a atender às DSRs.
 
-Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do GDPR, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "aceitação/recusa" para determinadas transferências de dados classificadas como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
+Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "aceitação/recusa" para determinadas transferências de dados classificadas como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
 Este guia discute como localizar, acessar e atuar em dados pessoais que residem nos sistemas de TI da Microsoft que podem ter sido coletados para fornecer Suporte e outras ofertas dos Serviços Profissionais.
 
 Ao desenvolver uma resposta para as DSRs, é importante para os clientes da Microsoft entenderem que os dados de consultoria e de suporte são separados dos dados de cliente nos Serviços Online ou de outros dados que eles ou seus titulares de dados possam ter fornecido à Microsoft. As ferramentas e os processos fornecidos para Serviços Online, para o Painel de Privacidade da Microsoft ou outros sistemas da Microsoft para resposta às DSRs da Microsoft não podem ser usados para responder às DSRs relativas aos dados pessoais mantidos pelo Suporte da Microsoft ou outros Serviços Profissionais.
 
-Todas as solicitações precisam ser realizadas por meio de um representante do suporte, conforme descrito abaixo. Atualmente não há nenhuma ferramenta de autoatendimento para os clientes acessarem dados pessoais nas organizações de Serviços Profissionais.
+Todas as solicitações precisam ser realizadas por meio de um representante do suporte, conforme descrito mais adiante nesse artigo. Atualmente não há nenhuma ferramenta de autoatendimento para os clientes acessarem dados pessoais nas organizações de Serviços Profissionais.
 
 #### <a name="overview-of-the-processes-outlined-in-this-guide"></a>Visão geral dos processos descritos neste guia
 
@@ -58,13 +58,13 @@ Vejamos abaixo as definições relevantes dos termos do RGPD para este guia:
 
 - **Controlador:** a pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, onde tais fins e meios são determinados por lei da União ou Estado-Membro, o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei da União ou Estado-Membro.
 - **Dados pessoais e titular dos dados:** qualquer informação relativa a uma pessoa natural identificada ou identificável (“titular dos dados”); uma pessoa natural identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou um ou mais fatores específicos de natureza física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa natural.
-- **Processador:** uma pessoa singular ou coletiva, uma autoridade pública, uma agência ou outro organismo que processe dados pessoais em nome do controlador.
+- **Processador:** uma pessoa física ou jurídica, autoridade pública, agência ou outro órgão que processa dados pessoais em nome do controlador.
 
 #### <a name="additional-terms-and-definitions-that-may-be-helpful-in-understanding-this-guide"></a>Outros termos e definições que podem ser úteis à compreensão deste guia
 
 - **Dados de suporte e consultoria:** todos os dados, incluindo todo texto, som, vídeo, arquivo de imagem ou software, fornecidos à Microsoft pelo cliente ou em seu nome (ou que o cliente autorize a Microsoft a obter de um serviço online) por meio de uma interação com a Microsoft para obter suporte ou serviços profissionais. Para esclarecer, isso não inclui dados coletados cujo controlador de dados é a Microsoft, incluindo dados de contato do cliente.
 - **Contato do cliente:** dados pessoais que podem fazer parte do seu relacionamento comercial com a Microsoft, como dados pessoais contidos nas informações de contato do cliente. Isso pode incluir o nome, email ou número de telefone do Gerente de Serviços de Contrato Premier (CSM), o Administrador Global ou de TI para um Serviço Online, ou funções semelhantes.
-- **Dados sob Pseudônimo:** Quando você usa o suporte da Microsoft para produtos e serviços corporativos da Microsoft, a Microsoft gera algumas informações ligadas a um identificador numérico da Microsoft para fornecer o suporte. Isto é, muitas vezes, chamado de "Dados sob Pseudônimo". Embora estes dados não possam ser atribuídos a uma entidade de dados específica sem o uso de informações adicionais, alguns deles podem ser considerados pessoais segundo a ampla definição do RGPD para dados pessoais. Nos serviços profissionais, as solicitações para atender ou auxiliar no cumprimento de DSRs sempre incluirão automaticamente o tratamento de dados sob pseudônimo.
+- **Dados sob Pseudônimo:** Quando você usa o suporte da Microsoft para produtos e serviços corporativos da Microsoft, a Microsoft gera algumas informações ligadas a um identificador numérico da Microsoft para fornecer o suporte. Essa informação é, muitas vezes, chamada de "Dados Pseudomizados". Embora estes dados não possam ser atribuídos a uma entidade de dados específica sem o uso de informações adicionais, alguns deles podem ser considerados pessoais segundo a ampla definição do RGPD para dados pessoais. Nos serviços profissionais, as solicitações para atender ou auxiliar no cumprimento de DSRs sempre incluirão automaticamente o tratamento de dados sob pseudônimo.
 
 ### <a name="how-to-use-this-guide"></a>Como usar este guia
 
@@ -89,7 +89,7 @@ Ao ser consultado por um Contato do Cliente sobre uma DSR, a equipe da Microsoft
 
 Para garantir a continuidade de negócios do cliente, a Microsoft também não processará uma DSR associada a uma interação até a confirmação de um contato substituto. Após a confirmação de um novo contato, a Microsoft trocará o contato antigo pelo novo em interações abertas.
 
-Os clientes podem optar por fazer alterações em seus dados coletados durante as interações com os Serviços profissionais pelo suporte normal ou por canais de consultoria, separado dessa DSR. Por exemplo, a Microsoft pode ajudá-lo a eliminar interações com o suporte, mediante solicitação (consulte abaixo na seção *Guia de DSR sobre os dados fornecidos pelo cliente*).
+Os clientes podem optar por fazer alterações em seus dados coletados durante as interações com os Serviços Profissionais pelo suporte normal ou por canais de consultoria, separado dessa DSR. Por exemplo, a Microsoft pode ajudá-lo a eliminar interações com o suporte, mediante solicitação (consulte na seção *Guia de DSR sobre os dados fornecidos pelo cliente*).
 
 ***Exemplo apenas para fins ilustrativos***
 
@@ -111,7 +111,7 @@ Jane é uma funcionária de um cliente corporativo, a Contoso, que forneceu a el
 
 *Como obter assistência da Microsoft quando um cliente recebe uma solicitação de seus funcionários ou de outras entidades de dados pedindo o exercício de direitos, e esses dados pessoais do titular dos dados tenham sido coletados pelo Suporte da Microsoft durante a interação com o suporte.*
 
-Quando um cliente se envolve com o Suporte da Microsoft, a Microsoft coleta Dados de Suporte do cliente para resolver quaisquer problemas que requeiram uma interação do suporte. Esses Dados de Suporte incluem a interação da Microsoft com o cliente (por exemplo, bate-papo, telefone, e-mail, envio pela web) e quaisquer arquivos de conteúdo que o cliente envie à Microsoft ou que a Microsoft tenha extraído, com permissão do cliente, do ambiente de TI do cliente ou locação de serviços online para resolver o problema de suporte. No caso do suporte Premier, isso também incluirá todos os dados que coletarmos de você para evitar problemas futuros de maneira proativa. No entanto, isso exclui as informações de Contato do Cliente ou outras informações do relacionamento comercial da Microsoft com o cliente (por exemplo, registros de faturamento).
+Quando um cliente se envolve com o Suporte da Microsoft, a Microsoft coleta Dados de Suporte do cliente para resolver quaisquer problemas que requeiram uma interação do suporte. Esses Dados de Suporte incluem a interação da Microsoft com o cliente (por exemplo, bate-papo, telefone, e-mail, envio pela web) e quaisquer arquivos de conteúdo que o cliente envie à Microsoft ou que a Microsoft tenha extraído, com permissão do cliente, do ambiente de TI do cliente ou locação de serviços online para resolver o problema de suporte. No caso do Suporte Premier, isso também incluirá todos os dados que coletarmos de você para evitar problemas futuros de maneira proativa. No entanto, isso exclui as informações de Contato do Cliente ou outras informações do relacionamento comercial da Microsoft com o cliente (por exemplo, registros de faturamento).
 
 Para todos os Dados de Suporte, a Microsoft é a processadora de dados. Dessa forma, a Microsoft não responderá às solicitações diretas dos titulares dos dados sobre os Dados de Suporte fornecidos quando foram associados a um cliente comercial da Microsoft. A Microsoft trabalhará com o cliente por meio dos canais de suporte normais para ajudá-lo a responder às DSRs.
 
@@ -172,7 +172,7 @@ Todos os dados da Microsoft têm uma política de retenção e exclusão aplicad
 
 Os clientes que solicitarem a exclusão universal dos dados pessoais de um titular dos dados em todos os sistemas de suporte pode fazê-lo por meio do TAM ou apresentando uma Solicitação de Suporte (SS) no CMS ou sistema equivalente. Você *deve* indicar que essa é uma solicitação para ajudá-lo com a DSR em RGPD.
 
-*Opção A — DSR de cliente de suporte em toda a Microsoft*. Para uma DSR de sistema cruzado, o cliente deve fornecer os dados pessoais que a Microsoft precisa para identificar os dados necessários (por exemplo, endereço de email, número de telefone). A Microsoft não irá correlacionar ou pesquisar registros e só pesquisará diretamente nos identificadores fornecidos pelo cliente. Quando dados forem encontrados, a Microsoft excluirá todas as interações e todos os dados associados.
+*Opção A—DSR de cliente de suporte em toda a Microsoft*. Para uma DSR de sistema cruzado, o cliente deve fornecer os dados pessoais que a Microsoft precisa para identificar os dados necessários (por exemplo, endereço de email, número de telefone). A Microsoft não irá correlacionar ou pesquisar registros e só pesquisará diretamente nos identificadores fornecidos pelo cliente. Quando dados forem encontrados, a Microsoft excluirá todas as interações e todos os dados associados.
 
 > Observação Importante: isso pode resultar na perda de registros históricos importantes para a organização do cliente.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: b81d598c3a80a915d9d20622a1b6d2e6f4517883
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 4ae0491699f2ffa60245d502bb691b2c79b34133
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547683"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305373"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -35,7 +35,7 @@ Além de usar [rótulos de confidencialidade](sensitivity-labels.md) para classi
 - Acesso de dispositivos não gerenciados
 
 > [!IMPORTANT]
-> O **Acesso por dispositivos não gerenciados** funciona em conjunto com o recurso SharePoint para [controlar o acesso por dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices). Você deve configurar este recurso dependente do SharePoint para que seu locatário use uma etiqueta confidencial que tenha essa configuração definida. Informações adicionais estão incluídas nas instruções abaixo.
+> O **Acesso por dispositivos não gerenciados** funciona em conjunto com o recurso SharePoint para [controlar o acesso por dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices). Você deve configurar este recurso dependente do SharePoint para usar um rótulo de confidencialidade que tenha essa configuração definida. Informações adicionais estão incluídas nas instruções abaixo.
 
 Quando você aplica esse rótulo de confidencialidade a um contêiner suportado, o rótulo aplica automaticamente as opções configuradas ao site ou grupo conectado.
 
@@ -86,13 +86,13 @@ Nesta nova página **Configurações de site e grupo**, defina as configuraçõe
 
 - **Acesso de usuários externos**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
 
-- **Dispositivos não administrados**: Para essa opção, você também deve configurar o recurso do SharePoint que usa o acesso condicional do Azure AD para bloquear ou limitar o acesso ao conteúdo do SharePoint e OneDrive de dispositivos não gerenciados. Para obter instruções, consulte [Controle de acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices). A opção que você especificar para esta configuração de rótulo equivale ao [bloqueio ou limitação de acesso a um site do SharePoint específico ou ao OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive).
+- **Dispositivos não administrados**: Essa opção usa o recurso do SharePoint que usa o acesso condicional do Azure AD para bloquear ou limitar o acesso ao conteúdo do SharePoint e OneDrive de dispositivos não gerenciados. Para obter informações, consulte [Controlar o acesso de dispositivos gerenciados](/sharepoint/control-access-from-unmanaged-devices). A opção que você especifica para esta configuração de rótulo equivale a executar um comando do PowerShell para um site, conforme descrito nas etapas 7 a 9 em [Bloquear ou limitar o acesso a um site do SharePoint específico ou ao OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive).
     
-    Se você não configurar o recurso dependente do SharePoint, a opção que você especificar aqui não terá efeito. Além disso, não terá efeito se for menos restritivo do que a configuração definida ao nível do locatário. Escolha uma configuração de rótulo que seja a mesma que a configuração de nível do locatário, ou mais restritiva.
+    Se você não configurar a política de acesso condicional dependente conforme documentado nas etapas 1 a 6 nas instruções do SharePoint, a opção que você especificar aqui não terá efeito. Além disso, não terá efeito se for menos restritivo do que a configuração definida ao nível do locatário. Se você configurou uma configuração em toda a organização para dispositivos não gerenciados, escolha uma configuração de rótulo que seja igual ou mais restritiva.
     
     Por exemplo, se seu locatário estiver configurado para **Permitir acesso limitado apenas à Web**, a configuração de rótulo que permite acesso total não terá efeito porque é menos restritiva. Para esta configuração de nível de locatário, escolha a configuração de rótulo para bloquear o acesso (mais restritiva) ou a configuração de rótulo para acesso limitado (a mesma que a configuração do locatário).
     
-    Como você pode configurar o recurso do SharePoint independentemente da configuração do rótulo, não há verificação no assistente do rótulo de confidencialidade de que as dependências estejam no lugar.
+    Como você pode configurar o SharePoint separadamente da configuração do rótulo, não há verificação no assistente do rótulo de confidencialidade de que as dependências estejam no lugar.
 
 ![Guia configurações de site e grupo](../media/edit-sensitivity-label-site-group2.png)
 

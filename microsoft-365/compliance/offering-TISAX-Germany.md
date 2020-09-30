@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 775a3d21697103d6ed0b891aef605197741d3dbd
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 1c12618b92a84cb7861d1df243a689cd1cf8a17c
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208113"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304831"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Intercâmbio de Avaliação de Segurança da Informação Confiável (TISAX) Alemanha
 
 ## <a name="about-tisax"></a>Sobre o TISAX
 
-Para ajudar a garantir a conectividade cada vez maior na indústria automotiva, a Associação da Indústria Automotiva Alemã ([Verband der Automobilindustrie](https://www.dict.cc/deutsch-englisch/Verband.html), VDA) desenvolveu um catálogo de critérios para avaliar a segurança das informações. A Avaliação de Segurança da Informação da VDA ([alemã](https://www.vda.de/de/themen/sicherheit-und-standards/informationssicherheit/informationssicherheit-sicherheitsanforderungen.html) e [inglesa](https://www.vda.de/en/topics/safety-and-standards/information-security/information-security-requirements))  é baseada nos fundamentos das normas internacionais ISO/IEC 27001 e 27002, adaptadas à indústria automotiva. Em 2017, ela foi atualizada para abranger controles quanto ao uso dos serviços em nuvem.
+Para ajudar a garantir a conectividade cada vez maior na indústria automotiva, a Associação da Indústria Automotiva Alemã ([Verband der Automobilindustrie](https://www.vda.de), VDA) desenvolveu um catálogo de critérios para avaliar a segurança das informações. A Avaliação de Segurança da Informação da VDA ([alemã](https://www.vda.de/de/themen/sicherheit-und-standards/informationssicherheit/informationssicherheit-sicherheitsanforderungen.html) e [inglesa](https://www.vda.de/en/topics/safety-and-standards/information-security/information-security-requirements))  é baseada nos fundamentos das normas internacionais ISO/IEC 27001 e 27002, adaptadas à indústria automotiva. Em 2017, ela foi atualizada para abranger controles quanto ao uso dos serviços em nuvem.
 
 As empresas membros da VDA usavam esse instrumento tanto para avaliações de segurança interna quanto para fornecedores, prestadores de serviços e outros parceiros que processam informações confidenciais em seu nome. Entretanto, como essas avaliações foram tratadas individualmente por cada empresa, isso criou um ônus aos parceiros e um esforço duplicado por parte dos membros da VDA.
 
