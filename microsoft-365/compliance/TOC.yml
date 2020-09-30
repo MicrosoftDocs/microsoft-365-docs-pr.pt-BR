@@ -388,8 +388,6 @@
           href: restore-an-inactive-mailbox.md
         - name: Excluir uma caixa de correio inativa
           href: delete-an-inactive-mailbox.md
-    - name: Vídeos da equipe de Governança de Dados
-      href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Gerenciamento de registros
       items:
         - name: Saiba mais sobre o gerenciamento de registros
