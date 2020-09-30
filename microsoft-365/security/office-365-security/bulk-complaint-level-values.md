@@ -16,17 +16,16 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os valores de nível de conformidade em massa (BCL) usados no Exchange Online Protection (EOP).
-ms.openlocfilehash: d59bb152de075bb807e3cae72839fe459d7da40f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 53d0ae5fb23fb68ef970a07b2b5d8c4220775de7
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203522"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318205"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>Nível de reclamação em massa (BCL) no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP atribui um nível de conformidade em massa (BCL) a mensagens de entrada de emails em massa. A BCL é adicionada à mensagem em um cabeçalho X e é semelhante ao [nível de confiança de spam (SCL)](spam-confidence-levels.md) usado para identificar mensagens como spam. Uma BCL maior indica que uma mensagem em massa é mais provável de gerar queixas (e, portanto, é mais provável de spam). A Microsoft usa fontes internas e de terceiros para identificar emails em massa e determinar a BCL apropriada.
 
@@ -42,6 +41,8 @@ Os limites de BCL são descritos na tabela a seguir.
 |:---:|---|
 |,0|A mensagem não é de um remetente em massa.|
 |1, 2, 3|A mensagem é de um remetente em massa que gera algumas reclamações.|
-|4, 5, 6, 7|A mensagem é de um remetente em massa que gera um número misto de reclamações.|
+|4, 5, 6, 7<sup>\*</sup>|A mensagem é de um remetente em massa que gera um número misto de reclamações.|
 |8, 9|A mensagem é de um remetente em massa que gera um grande número de reclamações.|
 |
+
+<sup>\*</sup> Este é o valor de limite padrão usado em políticas antispam.

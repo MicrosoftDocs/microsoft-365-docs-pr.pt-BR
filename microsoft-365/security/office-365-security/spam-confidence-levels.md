@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre o nível de confiança de spam (SCL) que se aplica a mensagens no Exchange Online Protection (EOP).
-ms.openlocfilehash: fbd892b0171cee71f516d7ca3b26b91da664af79
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 51d00b36ae826676f436c0a74617ddbbadf7a30a
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202228"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318235"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>SCL (nível de confiança de spam) no EOP
 
@@ -50,6 +50,6 @@ Você pode usar regras de fluxo de emails (também conhecidas como regras de tra
 
 Semelhante ao SCL, o nível de reclamação em massa (BCL) identifica emails em massa inválidos (também conhecidos como _emails cinza_). Um BCL mais alto indica que uma mensagem de email em massa tem mais chances de gerar reclamações (e, portanto, mais chances que seja spam). Você configura o limite de BCL em políticas antispam. Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md), [nível de reclamação em massa (BCL) no EOP)](bulk-complaint-level-values.md)e [qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
 
-|<!-- -->|
-|---|
-|![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **profissionais de ti e administradores do Microsoft 365**, trazidos para você pelo LinkedIn Learning.|
+****
+
+![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **profissionais de ti e administradores do Microsoft 365**, trazidos para você pelo LinkedIn Learning.

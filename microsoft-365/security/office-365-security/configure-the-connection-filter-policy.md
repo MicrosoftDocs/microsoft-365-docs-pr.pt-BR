@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a configurar a filtragem de conexão na proteção do Exchange Online (EOP) para permitir ou bloquear emails de servidores de email.
-ms.openlocfilehash: d69ec30c9d6d812bf3bbcc6dc5b6df332d9dd0b5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 95e178e34c944c13cd99e4d4a0e9f30ed083842c
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203366"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318247"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem da conexão
 
@@ -43,7 +43,7 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 > [!NOTE]
 > A lista de IPs permitidos, a lista segura e a lista de IPs bloqueados são uma parte de sua estratégia geral para permitir ou bloquear emails em sua organização. Para obter mais informações, consulte [criar listas de remetentes confiáveis](create-safe-sender-lists-in-office-365.md) e [criar listas de remetentes bloqueados](create-block-sender-lists-in-office-365.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
@@ -203,7 +203,6 @@ Se você encontrar um desses cenários, poderá criar uma regra de fluxo de emai
 
 ## <a name="new-to-microsoft-365"></a>Novo no Microsoft 365?
 
-|<!-- a -->|
-|---|
-|![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **Administradores e profissionais de ti**, trazidos para você pelo LinkedIn Learning.|
-|
+****
+
+![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **profissionais de ti e administradores do Microsoft 365**, trazidos para você pelo LinkedIn Learning.

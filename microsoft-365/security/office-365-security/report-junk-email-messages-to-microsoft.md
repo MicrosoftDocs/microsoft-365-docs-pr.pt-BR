@@ -16,17 +16,16 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as diferentes maneiras de relatar mensagens e arquivos bons e ruins para a Microsoft para análise.
-ms.openlocfilehash: 040f998b09f280fc2b6bdfdac327313f9cc65c3c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aeaf7a779ac9ba2d879a88dd72f4a457a26096ca
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203635"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318166"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Relatar mensagens e arquivos à Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, tanto usuários quanto administradores têm vários métodos diferentes para relatar mensagens e arquivos de email à Microsoft.
 
@@ -43,6 +42,5 @@ Nas organizações do Microsoft 365 com caixas de correio em organizações do E
 |[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que o notifica quando os usuários relatam mensagens para a Microsoft para análise.
 |||
 |[Enviar malware e não malware para a Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Use o site do Microsoft Security Intelligence para enviar anexos e outros arquivos.|
-|
 
 Se as mensagens de spam ou phishing foram colocadas em quarentena em vez de entregues, os usuários podem relatar as mensagens para a Microsoft do portal de quarentena no centro de conformidade do & de segurança. Para obter detalhes, consulte [Localizar e liberar mensagens em quarentena como um usuário no Microsoft 365](find-and-release-quarantined-messages-as-a-user.md).
