@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Visão geral da conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
-ms.openlocfilehash: 52d1995572a3ae0220ac8529862ba69d5bca8cdb
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 91c931eba5c9f5bdb9f45185581019cc9c754ed2
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235533"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322194"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 
@@ -157,8 +157,8 @@ No arquivo CSV, um local de cidade descoberto é mostrado na coluna userdigitou 
    1. **Endereço** (obrigatório): o endereço físico do Office
    1. **Latitude** (opcional): preenchido da pesquisa do Bing Maps do endereço se estiver em branco
    1. **Longitude** (opcional): preenchida do Bing Maps pesquisa do endereço se estiver em branco
-   1. **Intervalos de endereços IP de egresso 1-5** (opcional): para cada intervalo, insira o nome do circuito seguido por uma lista separada por espaço de endereços válidos IPv4 ou IPv6. Esses valores são usados para diferenciar vários locais do Office onde você usa os mesmos endereços IP de sub-rede da rede local.
-   1. **LanIps** (obrigatório): lista os intervalos de sub-rede LAN em uso neste local do Office.
+   1. **Intervalos de endereços IP de egresso 1-5** (opcional): para cada intervalo, insira o nome do circuito seguido por uma lista separada por espaço de endereços válidos IPv4 ou IPv6. Esses valores são usados para diferenciar vários locais do Office onde você usa os mesmos endereços IP de sub-rede da rede local. Intervalos de endereços IP de egresso todos devem ser/24 o tamanho da rede e o/24 não está incluído na entrada.
+   1. **LanIps** (obrigatório): lista os intervalos de sub-rede LAN em uso neste local do Office. As IDs de sub-rede de LAN precisam ter um tamanho de rede CIDR incluído onde o tamanho da rede pode ser entre/8 e/29. Vários intervalos de sub-rede LAN podem ser separados por uma vírgula ou um ponto-e-vírgula.
 1. Após adicionar os locais do Office e salvar o arquivo, clique no botão **procurar** ao lado do campo **carregar o concluído** e selecione o arquivo CSV salvo.
 1. O arquivo será validado automaticamente. Se houver erros de validação, você verá a mensagem de erro _há alguns erros no arquivo de importação. Revise os erros, corrija o arquivo de importação e tente novamente._ Clique no link **abrir detalhes do erro** para obter uma lista de erros de validação de campo específicos.
 

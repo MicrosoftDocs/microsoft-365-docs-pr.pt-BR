@@ -9,18 +9,18 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1588a2c91bcbe0bd381acb6be4f9bd5562810860
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 5198691a38b179a5491a36de95531edb9f32d691
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530242"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322218"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft
 
 À medida que você estiver pronto para se inscrever na área de trabalho gerenciada da Microsoft, avalie seus requisitos de impressão e determine a abordagem certa para o seu ambiente. Você tem três opções:
  
-- Implantar a solução de impressão em nuvem híbrida da Microsoft para facilitar a descoberta de impressoras pelos dispositivos de área de trabalho gerenciada da Microsoft. Para saber mais, confira [implantar a impressão na nuvem híbrida do Windows Server](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
+- Implantar a solução de impressão universal da Microsoft para facilitar a descoberta de impressoras pelos dispositivos de área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [o que é impressão universal](https://docs.microsoft.com/universal-print/fundamentals/universal-print-whatis).
 - Implantar impressoras diretamente usando um script do PowerShell personalizado. Siga as etapas na seção [configurar impressoras locais](#set-up-local-printers) para fazer isso.
 - Use uma solução de impressão em nuvem que não seja da Microsoft que seja compatível com dispositivos Windows 10 que fazem parte de um domínio do Azure Active Directory. A solução deve atender aos requisitos de software para a área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [requisitos de aplicativos de área de trabalho gerenciada da Microsoft](../service-description/mmd-app-requirements.md).
  
