@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 37da9f692b3556bf887d742ece3b99cdc1da60a2
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: a6605f7d8561532121e54f02b579de26879baa1a
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208403"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305235"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -51,7 +51,7 @@ Os serviços de nuvem corporativa da Microsoft também são cobertos por avalia�
 
 Para saber como a nuvem da Microsoft ajuda os clientes a oferecer suporte à HIPAA e aos requisitos de alta tecnologia, visite as [histórias de clientes da Microsoft](https://customers.microsoft.com).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Segurança no aplicativo na nuvem da Microsoft
@@ -70,7 +70,7 @@ Para saber como a nuvem da Microsoft ajuda os clientes a oferecer suporte à HIP
 
 Comece a aproveitar as vantagens dos benefícios da nuvem para as soluções de dados de integridade com o esquema de conformidade e segurança do Azure, os dados de saúde da HIPAA/HITRUST e o AI. Este Blueprint fornece ferramentas e orientações para começar a criar soluções do HIPAA/HITRUST hoje.
 
-[Começar a usar o plano gráfico da HIPAA/HITRUST do Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
+[Começar a usar o plano gráfico da HIPAA/HITRUST do Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -102,9 +102,9 @@ Para ajudar os clientes nessa tarefa, a Microsoft publicou estes guias:
 - O [Guia prático para projetar soluções de integridade seguras usando o Microsoft Azure](https://aka.ms/azureindustrysecurity) ajuda a entender melhor o que é necessário para adotar um serviço de nuvem de forma segura.
 - [Atender aos requisitos de segurança e privacidade da HIPAA no Microsoft Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) oferece uma breve visão geral dos requisitos normativos. Ele também fornece uma análise detalhada de como os serviços de nuvem da Microsoft foram criados com metodologias que mapeiam esses requisitos e orientações sobre como criar soluções prontas para conformidade.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
 
-O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

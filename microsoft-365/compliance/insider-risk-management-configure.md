@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6645ce4d4f6b2fa8f2725e4b0679bc00fdec3505
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: f944933be4ce4d3a755ba54dd68856362bba9a0b
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208797"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304865"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -55,6 +55,9 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 | **Administrador de gerenciamento de risco do insider** | Use esse grupo de funções para configurar inicialmente o gerenciamento de riscos de insider e depois para separar os administradores de risco internos em um grupo definido.  Os usuários desse grupo de funções podem criar, ler, atualizar e excluir políticas de gerenciamento de risco do Insider, configurações globais e atribuições de grupos de função. |
 | **Analistas de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como analistas de caso de risco do insider. Os usuários desse grupo de funções podem acessar todos os modelos de alerta, casos e avisos de gerenciamento de risco do insider. Eles não podem acessar o Gerenciador de conteúdo de risco do insider. |
 | **Investigadores de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como investigadores de dados de risco do insider. Os usuários desse grupo de funções podem acessar todos os alertas de gerenciamento de risco do Insider, ocorrências, modelos de avisos e o Gerenciador de conteúdo. |
+
+> [!NOTE]
+> Atualmente, esses grupos de função não têm suporte no gerenciamento de identidade privilegiada (PIM). Para saber mais sobre o PIM, confira [atribuir funções do Azure AD no gerenciamento de identidade privilegiado](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user).
 
 ### <a name="add-users-to-an-insider-risk-management-role-group"></a>Adicionar usuários a um grupo de funções de gerenciamento de risco do insider
 

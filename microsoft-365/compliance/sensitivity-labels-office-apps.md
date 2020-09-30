@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ad340d84297c716edcfbb39ea7f3aa75c093523
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 5207d0e3e7e6272ab4a498d1cd68ad1fe3865c39
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962628"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309203"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -63,7 +63,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | [Canal atual](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2003 +) | 16.35 +   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
-|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | Distribuindo para o [canal atual](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2006 +)                                  | Visualização para Word e PowerPoint: distribuindo para o [canal atual (visualização)](https://office.com/insider) | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | [Canal atual](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2006 +)                                  | Visualização para Word e PowerPoint: distribuindo para o [canal atual (visualização)](https://office.com/insider) | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |Suporte para [salvamento automático](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) e [coautoria](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) em documentos rotulados e protegidos | Em revisão | Em revisão | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
@@ -213,7 +213,7 @@ No entanto, a conta de convidado automática não é criada imediatamente devido
 
 Os aplicativos do Office aplicam a marcação e a criptografia de conteúdo com um rótulo de confidencialidade de forma diferente, dependendo do aplicativo usado.
 
-| Aplicativo | Marcação de conteúdo | Criptografia |
+| App | Marcação de conteúdo | Criptografia |
 | --- | --- | --- |
 | Word, Excel, PowerPoint em todas as plataformas | Imediatamente | Imediatamente |
 | Outlook para PC e Mac | Após o Exchange Online enviar o email | Imediatamente |
@@ -232,7 +232,7 @@ Os cenários que incluem a aplicação de um rótulo de confidencialidade fora d
 
 - Dados de rótulo e criptografados exportados do Power BI
 
-- Microsoft Cloud App Security
+- Segurança no aplicativo na nuvem da Microsoft
 
 Para esses cenários, usando seus aplicativos do Office, um usuário com rotulação interna pode aplicar as marcações de conteúdo do rótulo, removendo ou substituindo temporariamente o rótulo atual e reaplicando o rótulo original.
 
