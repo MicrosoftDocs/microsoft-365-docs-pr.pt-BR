@@ -298,7 +298,7 @@
             - name: Configure o multigeográfico
               href: multi-geo-tenant-configuration.md
             - name: Configurar um local preferencial para os dados
-              href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json
+              href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
             - name: Configurar pesquisa
               href: configure-search-for-multi-geo.md
         - name: Gerenciar
@@ -395,25 +395,31 @@
           href: microsoft-365-secure-sign-in.md
     - name: Gerencie
       items:
-        - name: Atribuir licenças às contas de usuário
+        - name: Contas de usuário
+          items:
+            - name: Contas de usuário
+              href: manage-microsoft-365-accounts.md
+            - name: Adicionar vários usuários ao mesmo tempo
+              href: add-several-users-at-the-same-time.md
+        - name: Licenças
           href: assign-licenses-to-user-accounts.md
-        - name: Centro de ajuda do Microsoft 365
-          href: 'https://docs.microsoft.com/office365/admin/admin-home'
-        - name: Ferramentas para gerenciar contas de usuários
-          href: manage-microsoft-365-accounts.md
-        - name: Adicionar vários usuários ao mesmo tempo
-          href: add-several-users-at-the-same-time.md
+        - name: Senhas
+          href: manage-microsoft-365-passwords.md
+        - name: Grupos
+          href: manage-microsoft-365-groups.md
+        - name: Governança
+          href: manage-microsoft-365-identity-governance.md
         - name: Recuperar itens excluídos em uma caixa de correio de usuário
           href: recover-deleted-items-in-a-mailbox.md
         - name: Sincronização de diretório
           items:
-            - name: Visualizar o status de sincronização de diretório
+            - name: Exibir status
               href: view-directory-synchronization-status.md
-            - name: Identificar erros de sincronização de diretório
+            - name: Identificar erros
               href: identify-directory-synchronization-errors.md
-            - name: Corrigindo problemas de sincronização de diretório
+            - name: Corrigir problemas
               href: fix-problems-with-directory-synchronization.md
-            - name: Desativar a sincronização de diretórios
+            - name: Desativá-la.
               href: turn-off-directory-synchronization.md
 - name: Software do cliente e servidor
   items:
@@ -645,7 +651,7 @@
           href: lightweight-base-configuration-microsoft-365-enterprise.md
         - name: Empresa simulada
           href: simulated-ent-base-configuration-microsoft-365-enterprise.md
-    - name: Identidade
+    - name: Identity
       items:
         - name: Sincronização de hash de senha
           href: password-hash-sync-m365-ent-test-environment.md

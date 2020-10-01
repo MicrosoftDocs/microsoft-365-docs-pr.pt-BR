@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: d8b9ff7bea32f489a5cce5f64626908e8ec56fa1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 49d61a7bbc376121f5a91c1692f292b83abea779
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197334"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308939"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -230,7 +230,7 @@ Um email ou um documento do pode ter apenas um único rótulo de retenção atri
     
 - Se o conteúdo tiver um rótulo de retenção publicado, um rótulo de aplicação automática não poderá substituí-lo.
     
-- Se houver várias regras que atribuem um rótulo de aplicação automática, e o conteúdo atender às condições das regras, será atribuído o rótulo de retenção da regra mais antiga.
+- Se houver várias regras que atribuem um rótulo de aplicação automática e o conteúdo atender às condições de várias regras, o rótulo de retenção da regra mais antiga (por data de criação) será atribuído.
     
 Para entender como e por que um rótulo de retenção é aplicado, em vez de outro, é bom compreender a diferença entre atribuir explicitamente ou implicitamente um rótulo:
 

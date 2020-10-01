@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 3352483f87c12996f00e8a75dfcba19581fdaf0c
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 29da829ddf20a24776ef40b7aefb02cdf1546669
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417905"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305051"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-dynamics-365"></a>Avaliações de Impacto sobre a Proteção de Dados: Orientações para Controladores de Dados que usam o Dynamics 365
 
@@ -30,7 +30,7 @@ De acordo com o Regulamento Geral sobre a Proteção de Dados (RGPD), os control
 
 O objetivo deste documento é fornecer informações sobre o Dynamics 365 aos controladores de dados para lhes ajudar a determinar se a AIPD é necessária e, se esse for o caso, a saber que detalhes devem ser incluídos.
 
-## <a name="part-1--determining-whether-a-dpia-is-needed"></a>Parte 1 — Determinar se a AIPD é necessária
+## <a name="part-1-determining-whether-a-dpia-is-needed"></a>Parte 1: Determinar se a DPIA é necessária
 
 O Artigo 35 do RGPD exige que o controlador de dados crie uma AIPD "Quando um certo tipo de tratamento em particular, que utilize novas tecnologias e tendo em conta a natureza, âmbito, contexto e finalidades do processo, for suscetível de implicar um elevado risco para os direitos e liberdades da pessoa física". O artigo ainda apresenta os fatores particulares que indicam um risco elevado, os quais são discutidos na tabela a seguir. Para determinar se a AIPD é necessária, o controlador de dados deve considerar esses fatores. Além de outros que possam ser relevantes, levando em conta as implementações e os usos específicos do Dynamics 365.
 
@@ -44,7 +44,7 @@ O Artigo 35 do RGPD exige que o controlador de dados crie uma AIPD "Quando um ce
 >[!Note]
 ><sup>1</sup> Com relação aos critérios que o processamento é em “grande escala”, o Recital 91 do RGPD esclarece que: “O processamento de dados pessoais não deve ser considerado em grande escala se o processamento se referir a dados pessoais de pacientes ou clientes de um médico, outro profissional da saúde ou advogado. Nesses casos, a avaliação de impacto sobre a proteção dos dados não deve ser obrigatória.”
 
-## <a name="part-2--contents-of-a-dpia"></a>Parte 2 — Conteúdo de uma AIPD
+## <a name="part-2-contents-of-a-dpia"></a>Parte 2: Conteúdo de uma DPIA
 
 Artigo 35 (7) determina que uma Avaliação de Impacto de Proteção de Dados especifique a finalidade de processar e uma descrição sistemática do processamento em questão. Uma descrição sistemática de uma AIPD abrangente pode incluir fatores como os tipos de dados processados, por quanto tempo os dados são mantidos, onde os dados estão localizados e transferidos, e quais terceiros podem ter acesso aos dados. Além disso, a AIPD deve incluir:
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: e28c3866ad674b4bf933bd83e0ebccc19657ca7b
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: c4f00c0a11b172671da456b27e0e33c081728614
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131799"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326742"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -75,7 +75,7 @@ Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamen
 
 |Recurso ou comportamento|Configuração do rótulo: Rotulagem automática para aplicativos do Office |Política: Rotulagem automática|
 |:-----|:-----|:-----|
-|Dependência de aplicativos|Sim |Não |
+|Dependência de aplicativos|Sim |Não \* |
 |Restringir por local|Não |Sim |
 |Condições: Classificadores de treinamento|Sim |Não |
 |Condições: Opções de compartilhamento e opções adicionais para email|Não |Sim |
@@ -85,6 +85,8 @@ Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamen
 |Aplicar marcações visuais |Sim |Sim (somente email) |
 |Substituir a criptografia de IRM aplicada sem um rótulo|Sim, se o usuário tiver o direito mínimo de uso do Exportar |Sim (somente email) |
 |Rótulo de email de entrada|Não |Sim (criptografia não aplicada) |
+
+\* A rotulação automática não está disponível em todas as regiões. Se o locatário não oferecer suporte a essa funcionalidade, a guia de rotulamento automático não ficará visível no centro de rotulamento de administrador.
 
 > [!NOTE]
 > Quando o conteúdo é rotulado manualmente, esse rótulo nunca será substituído pela rotulagem automática. No entanto, as políticas de rotulagem automática podem substituir um [rótulo de prioridade mais baixa](sensitivity-labels.md#label-priority-order-matters) que foi aplicado usando rotulagem automática para aplicativos do Office.
@@ -242,6 +244,8 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     
     ![Guia Rotulamento automático](../media/auto-labeling-tab.png)
     
+    > [!NOTE]
+    > Se você não vir a guia **Rotulamento automático**, esta funcionalidade não está disponível atualmente na sua região.
 
 3. Selecione **+ Criar uma política de rotulamento automático**. Isso iniciará o Assistente de nova política:
     

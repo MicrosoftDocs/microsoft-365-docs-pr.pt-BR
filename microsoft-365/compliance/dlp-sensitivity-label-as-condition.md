@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: saiba mais sobre os serviços e os tipos de item que você pode usar rótulos de confidencialidade como condições em políticas DLP
-ms.openlocfilehash: bb06ed6919a396bef1e5d1f1cb04731fa11267ae
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 561a6cbd7b8aeb9082862319c5cc6419fd79c896
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235709"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321106"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies-preview"></a>Usar rótulos de confidencialidade como condições em políticas DLP (visualização)
 
@@ -59,7 +59,7 @@ Você pode usar rótulos de confidencialidade como condições nestes itens e ne
 
 \* A detecção de DLP de rótulos de confidencialidade em emails possui suporte. A detecção de DLP de anexos de email rotulados como confidenciais não.
 
-\** Anexos enviados no Teams em chats individuais ou canais são carregados automaticamente para o One Drive for Business e para o SharePoint. Portanto, se o SharePoint Online ou One Drive for Business estiverem incluídos como locais na sua política de DLP, os anexos enviados pelo Teams serão incluídos automaticamente no escopo dessa condição. O Teams como local não precisa ser selecionado na política de DLP.
+\** Anexos enviados no Teams em chats individuais ou canais são carregados automaticamente para o OneDrive for Business e para o SharePoint. Portanto, se o SharePoint Online ou OneDrive for Business estiverem incluídos como locais na sua política de DLP, os anexos enviados pelo Teams serão incluídos automaticamente no escopo dessa condição. O Teams como local não precisa ser selecionado na política de DLP.
 
 ### <a name="supported-scenarios"></a>Cenários com suporte
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 2408445598ab1e474ac1967be6e13f19887144a8
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 942097033fe5ed97449dbf3be93e8153f91a7961
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417895"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305021"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Microsoft Office 365 
 
@@ -29,7 +29,7 @@ De acordo com o Regulamento Geral de Proteção de Dados (GDPR), os controladore
 
 O objetivo deste documento é fornecer aos controladores de dados informações sobre o Office 365 que os ajudarão a determinar se um DPIA é necessário e, em caso afirmativo, quais detalhes devem ser incluídos. Ele se aplica a aplicativos e serviços do Office 365, incluindo, entre outros, o Exchange Online, o SharePoint Online, o OneDrive for Business, o Yammer, o Skype for Business e o Power BI. (Veja, por exemplo, as Tabelas 1 e 2 do Data Subject Request Guide do Office 365.) 
 
-## <a name="part-1--determining-whether-a-dpia-is-needed"></a>Parte 1 — Determinar se a AIPD é necessária
+## <a name="part-1-determining-whether-a-dpia-is-needed"></a>Parte 1: Determinar se a DPIA é necessária
 
 O Artigo 35 do GDPR exige que um controlador de dados crie uma avaliação de impacto na proteção de dados "[o]nde um tipo de processamento em particular que usa novas tecnologias e leva em consideração a natureza, escopo, contexto e objetivos do processamento, provavelmente resultará num alto risco para os direitos e liberdades das pessoas singulares". Além disso, estabelece fatores específicos que indicariam um risco tão alto que são discutidos na tabela a seguir: ao determinar se uma DPIA é necessária, um controlador de dados deve considerar esses fatores, juntamente com outros fatores relevantes, à luz do controlador. implementações específicas e usos do Office 365.
 
@@ -44,7 +44,7 @@ O Artigo 35 do GDPR exige que um controlador de dados crie uma avaliação de im
 >[!Note]
 ><sup>1</sup> Em relação aos critérios de que o processamento seja em “grande escala”, o Recital 91 do RGPD esclarece que: “O processamento de dados pessoais não deve ser considerado em grande escala se o processamento se referir a dados pessoais de pacientes ou clientes por um médico individual, outro profissional da saúde ou advogado. Nesses casos, a avaliação de impacto sobre a proteção dos dados não deve ser obrigatória.”
 
-## <a name="part-2--contents-of-a-dpia"></a>Parte 2 — Conteúdo de uma AIPD
+## <a name="part-2-contents-of-a-dpia"></a>Parte 2: Conteúdo de uma DPIA
 
 Artigo 35 (7) determina que uma Avaliação de Impacto de Proteção de Dados especifique a finalidade de processar e uma descrição sistemática do processamento em questão.  Nas DPIAs da Microsoft, essa descrição sistemática inclui fatores como os tipos de dados processados, quanto tempo os dados são retidos, onde os dados são localizados e transferidos e quais terceiros podem ter acesso aos dados.  Além disso, a AIPD deve incluir:
 
