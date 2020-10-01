@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Durante e após uma investigação automatizada no Microsoft 365, você pode exibir os resultados e as principais descobertas.
 ms.date: 09/29/2020
-ms.openlocfilehash: df0eaa54d8bc1c9cd6c91b6b36958e1eb0d2bfd6
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 4be5f3814ed798a0e7fd42285ed2884a5cc29461
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309101"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327694"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Detalhes e resultados de uma investigação automatizada no Microsoft 365
 
@@ -247,7 +247,7 @@ Você pode:
 |Investigação anormal de malware e spam de saída|Detectar malware, phishing ou spam da organização e de saída provenientes de usuários em sua organização|
 |Investigação de domínio do remetente|Verificação sob demanda da reputação do domínio do [gráfico de segurança inteligente da Microsoft](https://www.microsoft.com/security/operations/intelligence) e de fontes de inteligência de ameaças externas|
 |Investigação de IP do remetente| Verificação por demanda da reputação de IP do [gráfico de segurança inteligente da Microsoft](https://www.microsoft.com/security/operations/intelligence) e de fontes de inteligência de ameaças externas|
-|Investigação de cliques de URL| Investigar cliques de usuários protegidos por [links seguros de ATP do Office 365](atp-safe-links.md) em sua organização|
+|Investigação de cliques de URL| Investigue os cliques de usuários protegidos por [links seguros no Office 365 ATP](atp-safe-links.md) em sua organização|
 |Investigação de reputação de URL|Verificação sob demanda na reputação da URL do [gráfico de segurança inteligente da Microsoft](https://www.microsoft.com/security/operations/intelligence) e de fontes de inteligência de ameaças externas|
 |Investigação de atividades do usuário|Analisar anomalias de atividades do usuário no [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|
 |Extração de indicadores de email relatados pelo usuário|Extrair indicadores do cabeçalho, do corpo e do conteúdo de [emails relatados pelo usuário](enable-the-report-message-add-in.md) para investigação|
@@ -271,6 +271,6 @@ Você pode:
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Revisar e aprovar ações pendentes](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions?view=o365-worldwide#approve-or-reject-pending-actions)
+- [Revisar e aprovar ações pendentes](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)
 
 - [Saiba mais sobre a investigação e a resposta automatizadas no Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

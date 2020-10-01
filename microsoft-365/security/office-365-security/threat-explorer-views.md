@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar o Gerenciador de ameaças e o relatório de detecções em tempo real para investigar e responder a ameaças no centro de &amp; conformidade de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5500a7bff0766159384604e9973b5ad81b3dbc6f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1310baec402d9053e93b7166ca38cfcab11d73b2
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200102"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326980"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Modos de exibição no Gerenciador de ameaças e detecções em tempo real
 
@@ -140,7 +140,7 @@ Clicar em **acionamento ATP** neste gráfico resultará em um modo de exibição
 
 ![Explorer filtrado para exibir somente os resultados de acionamento ATP](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
-Neste modo de exibição, agora estamos examinando dados para arquivos que foram destruídodos por [anexos seguros do Office 365 ATP](atp-safe-attachments.md). Abaixo do gráfico, podemos ver detalhes sobre mensagens de email específicas que tinham anexos detectados por anexos seguros de ATP.
+Neste modo de exibição, agora estamos examinando dados para arquivos que foram destruídodos por [anexos seguros](atp-safe-attachments.md). Abaixo do gráfico, podemos ver detalhes sobre mensagens de email específicas que tinham anexos detectados por anexos seguros.
 
 ![Detalhes específicos sobre mensagens de email com anexos detectados](../../media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
 

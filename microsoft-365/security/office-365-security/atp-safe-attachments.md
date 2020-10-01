@@ -1,12 +1,12 @@
 ---
-title: Anexos Seguros da ATP
+title: Anexos seguros
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
-ms.date: 05/17/2019
+ms.date: ''
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -17,63 +17,119 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá sobre o recurso de anexos seguros de ATP para o Office 365 e como obter o recurso para sua assinatura.
-ms.openlocfilehash: 1ff7021f1c9fa64d3f04cbcac7231733399ad2b8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Os administradores podem saber mais sobre o recurso de anexos seguros na proteção avançada contra ameaças (ATP) do Office 365.
+ms.openlocfilehash: 6ff356f34f3e44752b5ad7f5fa433a8c72cd5083
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198770"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326526"
 ---
-# <a name="atp-safe-attachments"></a>Anexos Seguros da ATP
+# <a name="safe-attachments-in-office-365-atp"></a>Anexos seguros no Office 365 ATP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+Os anexos seguros no [Office 365 proteção avançada contra ameaças (ATP)](office-365-atp.md) fornecem uma camada adicional de proteção para anexos de email que já foram verificados pela [proteção Antimalware no Exchange Online Protection (EOP)](anti-malware-protection.md). Especificamente, os anexos seguros usam um ambiente virtual para verificar anexos em mensagens de email antes de serem entregues aos destinatários (um processo conhecido como _acionamento_).
 
-## <a name="overview-of-office-365-atp-safe-attachments"></a>Visão geral dos anexos seguros de ATP do Office 365
+A proteção de anexos seguros para mensagens de email é controlada por políticas de anexos seguros. Não há nenhuma política de anexos seguros padrão, **portanto, para obter a proteção de anexos seguros, você precisa criar uma ou mais políticas de anexos seguros**. Para obter instruções, consulte [Configurar políticas de anexos seguros na ATP](set-up-atp-safe-attachments-policies.md).
 
-Os anexos seguros de ATP (juntamente com [links seguros de ATP](atp-safe-links.md)) fazem parte da [proteção avançada contra ameaças](office-365-atp.md) (atp) do Office 365. O recurso de anexos seguros de ATP verifica se os anexos de email são mal-intencionados e, em seguida, executa a ação de proteger sua organização. O recurso de anexos seguros de ATP protege sua organização de acordo com [as políticas de anexos seguros de ATP](set-up-atp-safe-attachments-policies.md) definidas por seus administradores globais ou de segurança.
-
-A proteção ATP também pode ser estendida para arquivos no SharePoint Online, no OneDrive for Business e no Microsoft Teams. Para saber mais, confira [Office 365 Advanced Threat Protection for SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-and-teams.md).
-
-## <a name="how-to-get-atp-safe-attachments"></a>Como obter anexos seguros de ATP
-
-Primeiro, certifique-se de que sua assinatura inclua [proteção avançada contra ameaças](office-365-atp.md). A ATP está incluída em inscrições, como [o microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/home), [o Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), o Office 365 e5, o Office 365 a5, etc. Se sua organização tiver uma assinatura do Microsoft 365 que não inclua o Office 365 ATP, você poderá comprar ATP como um complemento. Confira mais informações em [planos e preços avançados de proteção contra ameaças do office 365](https://products.office.com/exchange/advance-threat-protection) e a [Descrição do serviço de proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
-
-Em seguida, verifique se as políticas de anexos seguros de ATP estão definidas. (Consulte [Configurar políticas de anexos seguros de ATP do Office 365](set-up-atp-safe-attachments-policies.md)) Os recursos de anexos seguros de ATP estão ativos quando:
-
-- As políticas de anexos seguros de ATP estão configuradas. (Confira [Configurar políticas de anexos seguros de ATP no Office 365](set-up-atp-safe-attachments-policies.md).)
-
-- Os usuários entraram usando sua conta corporativa ou de estudante. (Consulte [entrar no Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426).)
-
-Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
-
-|Função|Onde/como a atribuição|
-|---|---|
-|administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
-|Administrador de Segurança|Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Gerenciamento de Organização do Exchange Online|Centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
-|
-
-## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>Como saber se a proteção de anexos seguros de ATP está em vigor
-
-Após [definir (ou revisar) suas políticas de anexos seguros de ATP](set-up-atp-safe-attachments-policies.md), uma boa maneira de ver como o serviço está funcionando é [exibindo relatórios para proteção avançada contra ameaças](view-reports-for-atp.md).
-
-A tabela a seguir descreve alguns exemplos de cenários. Em todos esses casos, assumimos que a organização tem uma assinatura do Microsoft 365 que inclui proteção avançada contra ameaças.
+A tabela a seguir descreve os cenários de anexos seguros no Microsoft 365 e no Office 365 organizações que incluem ATP (em outras palavras, a falta de licenciamento nunca é um problema nos exemplos).
 
 ****
 
-|Cenário de exemplo|A proteção de anexos seguros ATP se aplica nesse caso?|
+|Cenário|Resultado|
 |---|---|
-|A organização do Luigi tem o Office 365 e5, mas nenhuma política de anexos seguros de ATP ainda foi definida.|Não. Embora o recurso esteja disponível, pelo menos uma política de anexos seguros de ATP deve ser definida para que a proteção de anexos seguros de ATP esteja em vigor.|
-|Lee é um funcionário no departamento de vendas da contoso. A organização de Lee tem uma política de anexos seguros de ATP em vigor que se aplica apenas aos funcionários de finanças.|Não. Nesse caso, os funcionários de finanças teriam proteção de anexos seguros de ATP, mas outros funcionários, incluindo o departamento de vendas, não até as políticas que incluem esses grupos são definidas.|
-|Ontem, um administrador na organização de Jean configurou uma política de anexos seguros de ATP que se aplica a todos os funcionários. Hoje em dia, Jean recebeu uma mensagem de email que inclui um anexo.|Sim. Neste exemplo, Jean tem uma licença para proteção avançada contra ameaças e uma política de anexos seguros de ATP que inclui Jean foi definida. Geralmente, leva cerca de 30 minutos para uma nova política entrar em vigor nos data centers; como um dia passou nesse caso, a política deve estar em vigor.|
-|A organização de Carla tem o Office 365 E5 com políticas de anexos seguros de ATP in-loco para todos na organização. Chris recebe um email que tem um anexo e encaminha a mensagem para outras pessoas que estão fora da organização.|A proteção de anexos seguros de ATP está em vigor para mensagens que Carla receber. Se as organizações dos destinatários também tiverem diretivas de anexos seguros de ATP em vigor, a mensagem informando que Carla estaria sujeita às políticas quando a mensagem encaminhada chegar.|
-|A organização de Jaime tem políticas de anexos seguros de ATP no local e [a ATP para SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-and-teams.md) foi ativada. Jaime supõe que cada arquivo no SharePoint Online foi verificado e é seguro para ser aberto ou baixado.|A proteção de anexos seguros de ATP está no local de acordo com as políticas definidas; no entanto, isso não significa que cada arquivo único no SharePoint Online, no OneDrive for Business ou no Microsoft Teams seja verificado. (Para saber mais, confira [ATP para SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-and-teams.md).)|
+|A organização do Microsoft 365 E5 não tem políticas de anexos seguros configuradas.|Pat não está protegido por anexos seguros. <br/><br/> Um administrador deve criar pelo menos uma política de anexos seguros para que a proteção de anexos seguros seja ativada. Além disso, as condições da política devem incluir Pat se Pat estiver protegido por anexos seguros.|
+|A organização de Lee tem uma política de anexos seguros que se aplica apenas a funcionários financeiros. Lee é membro do departamento de vendas.|Lee não é protegido por anexos seguros. <br/><br/> Os funcionários de Finanças são protegidos por anexos seguros, mas os funcionários de vendas (e outros funcionários) não.|
+|Ontem, um administrador na organização de Jean criou uma política de anexos seguros que se aplica a todos os funcionários. Hoje em dia, Jean recebeu uma mensagem de email que incluía um anexo.|Jean é protegido por anexos seguros. <br/><br/> Normalmente, leva cerca de 30 minutos para que uma nova política entre em vigor.|
+|A organização de Carla tem políticas de anexos seguros de longa duração para todas as pessoas na organização. Carla recebe um email com um anexo e encaminha a mensagem para destinatários externos.|O Chis é protegido por anexos seguros. <br/><br/> Se os destinatários externos também têm políticas de anexos seguros em sua organização, as mensagens encaminhadas estão sujeitas a essas políticas.|
 |
+
+A verificação de anexos seguros ocorre na mesma região onde seus dados do Microsoft 365 residem. Para obter mais informações sobre a geografia do datacenter, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All)
+
+> [!NOTE]
+> Os seguintes recursos estão localizados nas configurações globais são de políticas de anexos seguros no centro de conformidade & segurança, mas essas configurações são habilitadas ou desabilitadas globalmente e não exigem políticas de anexos seguros:
+>
+> - [ATP para SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-and-teams.md).
+>
+> - [Documentos seguros no Microsoft 365 e5](safe-docs.md)
+
+## <a name="safe-attachments-policy-settings"></a>Configurações de política de anexos seguros
+
+Esta seção descreve as configurações em políticas de anexos confiáveis:
+
+- **Anexos seguros resposta desconhecida de malware**: essa configuração controla a ação para verificação de malware de anexos seguros em mensagens de email. As opções disponíveis são descritas na tabela a seguir:
+
+  ****
+
+  |Opção|Efeito|Use quando quiser:|
+  |---|---|---|
+  |**Desativar**|Os anexos não são verificados em busca de malware por anexos seguros. As mensagens ainda são verificadas em busca de malware por [proteção Antimalware no EOP](anti-malware-protection.md).|Desligar a verificação para destinatários selecionados. <br/><br/> Evitar atrasos desnecessários no roteamento de email interno. <br/><br/> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros para destinatários que recebem apenas mensagens de remetentes confiáveis.**|
+  |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado. <br/><br/> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Veja onde o malware detectado entra em sua organização.|
+  |**Bloquear**|Impede que mensagens com anexos de malware detectados sejam entregues. <br/><br/> As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <br/><br/> Bloqueia automaticamente instâncias futuras das mensagens e dos anexos. <br/><br/> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <br/><br/> Esse é o valor padrão e o valor recomendado em políticas de segurança padrão e estritas [predefinidas](preset-security-policies.md).|
+  |**Replace**|Remove anexos detectados de malware. <br/><br/> Notifica os destinatários de que os anexos foram removidos. <br/><br/>  As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <br/><br/> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Aumente a visibilidade dos destinatários que os anexos foram removidos devido à detecção de malware.|
+  |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaços reservados até que a verificação de anexos seguros seja concluída. <br/><br/> Para obter detalhes, consulte a seção [entrega dinâmica em políticas de anexos seguros](#dynamic-delivery-in-safe-attachments-policies) , posteriormente neste tópico.|Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados <br/> <br/> Habilitar destinatários para visualizar anexos no modo de segurança enquanto a verificação está ocorrendo|
+  |
+
+- **Redirecionar o anexo na detecção: habilitar o redirecionamento** e **enviar o anexo para o seguinte endereço de email**: para **Bloquear**, **monitorar**ou **substituir** ações, envie mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.
+
+  A recomendação para as configurações de política padrão e estrita é habilitar o redirecionamento. Para obter mais informações, consulte [configurações de anexos seguros](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings).
+
+- **Aplicar a seleção acima se a verificação de malware para anexos expirar ou ocorrer erro**: a ação especificada por **anexos seguros a resposta desconhecida** é tomada em mensagens, mesmo quando a verificação de anexos seguros não pode ser concluída. Sempre Selecione esta opção se você selecionar **habilitar redirecionamento**. Caso contrário, as mensagens poderão ser perdidas.
+
+- **Filtros de destinatário**: você precisa especificar as condições e exceções de destinatário que determinam a quem a política se aplica. Você pode usar essas propriedades para condições e exceções:
+
+  - **O destinatário é**
+  - **O domínio do destinatário é**
+  - **O destinatário é um membro de**
+
+  Você só pode usar uma condição ou uma exceção uma vez, mas a condição ou exceção pode conter vários valores. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
+
+- **Prioridade**: se você criar várias políticas, poderá especificar a ordem em que elas serão aplicadas. Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
+
+  Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
+
+### <a name="dynamic-delivery-in-safe-attachments-policies"></a>Entrega dinâmica em políticas de anexos seguros
+
+> [!NOTE]
+> A entrega dinâmica funciona apenas para caixas de correio do Exchange Online.
+
+A ação de entrega dinâmica em políticas de anexos seguros busca eliminar os atrasos de entrega de email que podem ser causados por verificação de anexos seguros. O corpo da mensagem de email é entregue ao destinatário com um espaço reservado para cada anexo. O espaço reservado permanece até que o anexo seja considerado seguro e, em seguida, o anexo fica disponível para ser aberto ou baixado.
+
+Se um anexo for mal-intencionado, a mensagem será colocada em quarentena. Somente administradores (não usuários finais) podem revisar, liberar ou excluir mensagens que foram colocadas em quarentena por anexos seguros. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador](manage-quarantined-messages-and-files.md).
+
+A maioria dos documentos PDFs e do Office pode ser visualizada no modo de segurança enquanto a verificação de anexos seguros está em andamento. Se um anexo não for compatível com o modo de exibição de entrega dinâmica, os destinatários verão um espaço reservado para o anexo até que a verificação de anexos seguros seja concluída.
+
+Se você estiver usando um dispositivo móvel e os PDFs não são renderizados no modo de entrega dinâmico do seu dispositivo móvel, tente abrir a mensagem no Outlook na Web (anteriormente conhecido como Outlook Web App) usando seu navegador móvel.
+
+Aqui estão algumas considerações para entrega dinâmica e mensagens encaminhadas:
+
+- Se o destinatário encaminhado estiver protegido por uma política de anexos seguros que usa a opção de entrega dinâmica, o destinatário verá o espaço reservado, com a capacidade de visualizar arquivos compatíveis.
+
+- Se o destinatário encaminhado não estiver protegido por uma política de anexos seguros, a mensagem e os anexos serão entregues sem nenhum marcador de verificação de anexos seguros ou de anexo.
+
+## <a name="scenarios-where-safe-attachments-doesnt-scan-messages"></a>Cenários em que os anexos seguros não verificam mensagens
+
+Há situações em que anexos seguros não podem verificar mensagens:
+
+- Mensagens em pastas públicas.
+
+- Mensagens que são encaminhadas de e, em seguida, de volta para a caixa de correio de um usuário usando regras personalizadas.
+
+- Mensagens que são movidas (automática ou manualmente) de caixas de correio na nuvem para outros locais, incluindo pastas de arquivos mortos.
+
+- Mensagens excluídas.
+
+- A pasta de pesquisa da caixa de correio do usuário está em um estado de erro.
+
+- Organizações do Exchange Online onde o exclaimr está habilitado. Para resolver isso, confira [KB4014438](https://support.microsoft.com/help/4014438).
+
+- [S/MIME)](s-mime-for-message-signing-and-encryption.md) mensagens criptografadas.
+
+- Você configurou a ação de entrega dinâmica em uma política de anexos seguros, mas o destinatário não dá suporte à entrega dinâmica (por exemplo, o destinatário é uma caixa de correio em uma organização local do Exchange). No entanto, os [links seguros no office 365 ATP](set-up-atp-safe-links-policies.md) podem verificar anexos de arquivo do Office que contêm URLs (dependendo de como os links seguros estão configurados).
 
 ## <a name="submitting-files-for-malware-analysis"></a>Enviando arquivos para análise de malware
 
-- Se você receber um arquivo que deseja solicitar à Microsoft para analisar, visite [enviar um arquivo para análise de malware](https://aka.ms/wdsi/submit).
+- Se você receber um arquivo que deseja enviar para a Microsoft para análise, confira [Enviar malware e não malware para a Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md).
 
 - Se você receber uma mensagem de email (com ou sem um anexo) que deseja enviar para a Microsoft para análise, confira [mensagens de relatório e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).

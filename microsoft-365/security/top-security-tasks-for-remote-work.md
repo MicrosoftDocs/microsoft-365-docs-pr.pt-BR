@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: 6643228a3f71ba3c0c993577ba60b8e365b3d3df
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: 754f3eac884128e0707a02c15d4d3766f5fa4ca5
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318223"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327790"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -100,14 +100,13 @@ Para obter uma visão geral, incluindo um resumo dos planos, confira [proteção
 
 O administrador global pode configurar essas proteções:
 
-- [Configurar links seguros de ATP](office-365-security/set-up-atp-safe-links-policies.md)
-- [Configurar uma política de Anexos Seguros de ATP](office-365-security/set-up-atp-safe-attachments-policies.md)
-- [Configurar uma lista personalizada de URLs do tipo "não reconfigurar" ](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-- [Configurar uma lista personalizada de URLs bloqueadas](office-365-security/set-up-a-custom-blocked-urls-list-atp.md)
+- [Configurar políticas de links seguros](office-365-security/set-up-atp-safe-links-policies.md)
+- [Definir configurações globais para links seguros](office-365-security/configure-global-settings-for-safe-links.md)
+- [Configurar políticas de anexos seguros](office-365-security/set-up-atp-safe-attachments-policies.md)
 
 Você precisará trabalhar com seu administrador do Exchange Online e administrador do SharePoint Online para configurar a ATP para essas cargas de trabalho:
 
-- [Ativar a ATP para SharePoint, OneDrive e Microsoft Teams](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
+- [ATP para SharePoint, OneDrive e Microsoft Teams](office-365-security/atp-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-azure-advanced-threat-protection"></a>4: configurar a proteção avançada contra ameaças do Azure
 

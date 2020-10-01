@@ -3,7 +3,7 @@ title: Preparar-se para a sincronização de diretórios com o Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/25/2019
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Descreve como se preparar para provisionar usuários para a Microsoft 365 usando a sincronização de diretórios e os benefícios de longo prazo de usar esse método.
-ms.openlocfilehash: c9d4368d1939b9c6feedf5146f9d168f18d5d5b1
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: a70f49dd5656da996912173690dc2b21b4288023
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269412"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327280"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Preparar-se para a sincronização de diretórios com o Microsoft 365
 
@@ -43,9 +43,9 @@ Os benefícios para a identidade híbrida e a sincronização de diretórios que
 - Opcionalmente, habilitando o cenário de logon único
 - Automatizar alterações de conta no Microsoft 365
 
-Para obter mais informações sobre as vantagens de usar a sincronização de diretório, consulte [mapa de sincronização de diretório]( https://go.microsoft.com/fwlink/p/?LinkId=525398) e [identidade híbrida do Microsoft 365](plan-for-directory-synchronization.md).
+Para obter mais informações sobre as vantagens de usar a sincronização de diretório, consulte [identidade híbrida com Azure Active Directory (Azure AD)](https://go.microsoft.com/fwlink/p/?LinkId=525398) e [identidade híbrida do Microsoft 365](plan-for-directory-synchronization.md).
 
-No entanto, a sincronização de diretórios requer planejamento e preparação para garantir que os serviços de domínio do Active Directory (AD DS) sincronizem com o locatário do Azure Active Directory (Azure AD) de sua assinatura do Microsoft 365 com um mínimo de erros.
+No entanto, a sincronização de diretórios requer planejamento e preparação para garantir que os serviços de domínio do Active Directory (AD DS) sincronizem o locatário do Azure AD da sua assinatura do Microsoft 365 com um mínimo de erros.
 
 Siga estas etapas para obter os melhores resultados.
 
@@ -54,7 +54,7 @@ Siga estas etapas para obter os melhores resultados.
 Antes de sincronizar o AD DS com seu locatário do Azure AD, você precisa limpar o AD DS.
 
 > [!IMPORTANT]
-> Se você não executar a limpeza do AD DS antes de sincronizar, pode haver um efeito negativo significativo no processo de implantação. Pode levar dias ou até mesmo semanas para passar pelo ciclo de sincronização de diretórios, identificar erros e ressincronizar.
+> Se você não executar a limpeza do AD DS antes de sincronizar, ela pode levar a um impacto negativo significativo no processo de implantação. Pode levar dias ou até mesmo semanas para passar pelo ciclo de sincronização de diretórios, identificar erros e ressincronizar.
 
 No AD DS, conclua as seguintes tarefas de limpeza para cada conta de usuário à qual será atribuída uma licença da Microsoft 365:
 
@@ -151,7 +151,7 @@ Os atributos que você precisa preparar estão listados aqui:
   - Caracteres inválidos: \ \< \> ();, [] "
   - Todos os endereços SMTP (Simple Mail Transport Protocol) devem estar em conformidade com os padrões de mensagens de email.
 
-- **userPrincipalName**
+- **Principal**
 
   - O atributo **userPrincipalName** deve estar no formato de entrada no estilo da Internet, onde o nome do usuário é seguido pelo sinal de arroba (@) e um nome de domínio: por exemplo, User@contoso.com. Todos os endereços SMTP (Simple Mail Transport Protocol) devem estar em conformidade com os padrões de mensagens de email.
   - O número máximo de caracteres para o atributo **userPrincipalName** é 113. Um número específico de caracteres é permitido antes e depois do sinal de arroba (@), da seguinte maneira:

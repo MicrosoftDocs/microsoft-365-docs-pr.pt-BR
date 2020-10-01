@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 6d6562f528b36acdfbc28da9647d3356a0f585af
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 3afc818f9461ad0cc5ca65ea86d5e90f61f64d9b
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132153"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327862"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Políticas para permitir acesso B2B e de convidado externo
 
@@ -60,21 +60,11 @@ O Microsoft Teams define o seguinte:
 
 - O **acesso externo** é para um usuário externo que não tem uma conta B2B. O acesso externo pode incluir convites e participação em chamadas, chats e reuniões, mas não inclui Associação de equipe e acesso aos recursos da equipe.
 
-Para obter mais informações, consulte [esta comparação entre o convidado e o acesso externo para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access).
+Para obter mais informações, consulte a [comparação entre o convidado e o acesso externo para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access).
 
 As políticas de acesso condicional só se aplicam ao acesso de convidados no Teams porque há uma conta B2B do Azure AD correspondente.
 
 Consulte [recomendações de política para proteger chats, grupos e arquivos de equipes](teams-access-policies.md) para obter mais informações sobre como proteger as políticas de acesso de dispositivo e identidade para o Microsoft Teams.
-
-<!--
-ount treats guest and external users that have an Azure AD B2B account differently than external access  .
-
-
-to a meeting, call, or chat with
-
-
-differentiates between guest users and external users within the app. Guest users have Azure AD B2B accounts and can be added to teams. External users can only participate in calls, chats, and meetings. 
---> 
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>Exigir a MFA sempre para usuários convidados e externos
 Essa política solicita que os convidados registrem a MFA em seu locatário, independentemente de estarem ou não registrados para MFA em seu locatário de casa. Ao acessar recursos em seu locatário, os usuários convidados e externos precisam usar a MFA para cada solicitação. 

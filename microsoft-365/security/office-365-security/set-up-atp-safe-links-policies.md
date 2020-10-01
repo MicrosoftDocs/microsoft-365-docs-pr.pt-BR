@@ -1,9 +1,9 @@
 ---
-title: Configurar políticas de links seguros de ATP do Office 365
+title: Configurar políticas de links seguros no Office 365 ATP
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: msfttracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: article
@@ -16,157 +16,460 @@ search.appverid:
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
-description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 76d0aba026b96251a64163ef7d7f518fe0b1e1b1
-ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
+description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de links seguros e configurações globais de links seguros na proteção avançada contra ameaças do Office 365 (ATP).
+ms.openlocfilehash: 58088955a6909238c1fe5202688e0b8d1ab8e6c6
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48279586"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327220"
 ---
-# <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
+# <a name="set-up-safe-links-policies-in-office-365-atp"></a>Configurar políticas de links seguros no Office 365 ATP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre o Safelinks no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Os [links seguros de ATP](atp-safe-links.md) são um recurso da [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP) que pode ajudar a proteger sua organização contra links mal-intencionados usados em phishing e outros ataques. Se você tiver as [permissões necessárias para o centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md), poderá configurar as políticas de links seguros de ATP para ajudar a garantir que quando as pessoas clicarem em endereços da Web (URLs), sua organização esteja protegida. As políticas de links seguros de ATP podem ser configuradas para verificar URLs em emails e URLs em documentos do Office. Os links seguros de ATP examinam o email de entrada para hiperlinks mal-intencionados conhecidos e anexos que contenham malware. Este recurso reconfigura URLs verificadas no prefixo de formato de URL padrão da Microsoft <https://nam01.safelinks.protection.outlook.com> . Depois que um link é reconfigurado, ele é analisado para qualquer conteúdo mal-intencionado em potencial. Com os links seguros de ATP habilitados, se um usuário clicar em um link em um email e a URL tiver sido bloqueada pela lista de URLs bloqueadas personalizada da sua organização ou se a URL for determinada como mal-intencionada, uma página de aviso será aberta.
+Links seguros é um recurso da [proteção avançada contra ameaças do Office 365 (ATP)](office-365-atp.md) que fornece verificação de URL de mensagens de email de entrada no fluxo de emails e a hora de clicar em verificação de URLs e links em mensagens de email e em outros locais. Para obter mais informações, consulte [links seguros no Office 365 ATP](atp-safe-links.md).
 
-Depois que o links de segurança ATP tiver reconfigurado uma URL, se a mensagem for encaminhada ou respondida, a URL permanecerá reconfigurada. Links adicionais adicionados à mensagem que estão sendo respondidas ou encaminhadas não serão reconfigurados.
+Não há nenhuma política interna ou de links seguros padrão. Para obter a verificação de URLs de links seguros, você precisa criar uma ou mais políticas de links seguros, conforme descrito neste artigo.
 
-[Novos recursos estão sempre sendo adicionados à ATP](office-365-atp.md#new-features-in-office-365-atp). À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes em suas políticas de links seguros de ATP existentes.
+Você pode configurar políticas de links seguros no centro de conformidade e segurança & ou no PowerShell (Exchange Online PowerShell para organizações qualificadas da Microsoft 365 com caixas de correio no Exchange Online; autônomo do EOP PowerShell para organizações sem caixas de correio do Exchange Online, mas com assinaturas do Office 365 ATP Add-on).
 
-## <a name="what-to-do"></a>O que fazer
+Os elementos básicos de uma política de links seguros são:
 
-1. Examine os pré-requisitos.
+- **A política de links seguros**: Ative a proteção de links seguros, ative a verificação de URL em tempo real, especifique se deve aguardar a conclusão da verificação em tempo real antes de entregar a mensagem, ative a verificação de mensagens internas, especifique se deseja rastrear cliques do usuário em URLs e especifique se deseja permitir que os usuários cliquem em Trough para a URL original.
+- **A regra de links seguros**: especifica a prioridade e os filtros de destinatários (a qual a política se aplica).
 
-2. Revise e edite a política de links seguros padrão ATP que se aplica a todos. Por exemplo, você pode [configurar sua lista de URLs bloqueadas personalizada para links seguros de ATP](set-up-a-custom-blocked-urls-list-atp.md).
+A diferença entre esses dois elementos não é óbvia quando você gerencia políticas de links seguros no centro de conformidade de & de segurança:
 
-3. Adicione ou edite políticas para destinatários de email específicos, incluindo [a configuração da lista de URLs de "não reescrever" personalizada para links seguros de ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).
+- Ao criar uma política de links seguros, você realmente está criando uma regra de links seguros e a política de links seguros associada ao mesmo tempo usando o mesmo nome para ambos.
+- Quando você modifica uma política de links seguros, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de links seguros. Todas as outras configurações modificam a política de links seguros associada.
+- Quando você remove uma política de links seguros, a regra de links seguros e a política de links seguros associada são removidos.
 
-4. Saiba mais sobre as opções de política de links seguros de ATP (neste artigo), incluindo configurações para alterações recentes.
-
-## <a name="step-1-review-the-prerequisites"></a>Etapa 1: revisar os pré-requisitos
-
-- Certifique-se de que sua organização tenha a [proteção avançada contra ameaças do Office 365](office-365-atp.md).
-
-- Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
-
-    |Função|Onde/como a atribuição|
-    |---|---|
-    |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
-    |Administrador de Segurança|Centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )|
-    |Gerenciamento de Organização do Exchange Online|Centro de administração do Exchange ( <https://outlook.office365.com/ecp> ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
-
-    Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
-
-- Certifique-se de que os clientes do Office estão configurados para usar a [autenticação moderna](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016) (isso é para proteção de links de segurança ATP em documentos do Office).
-
-- [Saiba mais sobre as opções de política de links seguros de ATP](#step-4-learn-about-atp-safe-links-policy-options) (neste artigo).
-
-- Aguarde até 30 minutos para que a política nova ou atualizada se espalhe para todos os datacenters da Microsoft 365.
-
-## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>Etapa 2: definir (ou revisar) a política de links seguros de ATP que se aplica a todos
-
-Quando você tiver a [proteção avançada contra ameaças do Office 365](office-365-atp.md), terá uma política de links seguros padrão da ATP que se aplica a todas as pessoas em sua organização. Certifique-se de revisar e, se necessário, edite a política padrão.
-
-1. Acesse <https://protection.office.com> e entre com sua conta corporativa ou de estudante.
-
-2. Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **links seguros**de ** \> política** .
-
-3. Na seção **políticas que se aplicam a toda a organização** , selecione **padrão**e, em seguida, escolha **Editar** (o botão Editar parece um lápis).
-
-   ![Clique em Editar para editar a política padrão para proteção de links seguros](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
-
-4. Na seção **bloquear as seguintes URLs** , especifique uma ou mais URLs que você deseja impedir que as pessoas em sua organização visitem. (Consulte [Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP](set-up-a-custom-blocked-urls-list-atp.md).)
-
-5. Na seção **configurações que se aplicam a conteúdo exceto email** , marque (ou desmarque) as opções que você deseja usar. (Recomendamos que você selecione todas as opções.)
-
-6. Escolha **Salvar**.
-    
-## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients"></a>Etapa 3: Adicionar (ou editar) políticas de links seguros de ATP que se aplicam a todos os destinatários de email específicos
-
-Após revisar (ou editar) a política padrão de links seguros de ATP que se aplica a todos, a próxima etapa é definir políticas adicionais que se apliquem a todos os destinatários de email específicos. Por exemplo, você pode especificar exceções à política padrão definindo uma política adicional ou criar restrições mais granulares para todos os funcionários.
-  
-1. Acesse <https://protection.office.com> e entre com sua conta corporativa ou de estudante. 
-    
-2. Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **política**.
-
-3. Escolha **links seguros**.
-
-4. Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal de adição ( **+** )).
-
-   ![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
-
-5. Especifique o nome, a descrição e as configurações da política.
-
-   **Exemplo:** Para configurar uma política chamada "sem cliques diretos" que não permite que as pessoas de um determinado grupo em sua organização cliquem em um site específico sem proteção de links de ATP seguro, você pode especificar as seguintes configurações recomendadas:
-
-   - Na caixa **nome** , digite sem clique direto em.
-
-   - Na caixa **Descrição** , digite uma descrição como, para impedir que as pessoas em determinados grupos cliquem em um site sem verificação de links seguros de ATP.
-
-   - Na seção **Selecionar ação** , escolha **ativado**.
-
-   - Selecione **aplicar verificação de URL em tempo real para links suspeitos e links que apontam para os arquivos** se você quiser habilitar a URL acionamento para URLs suspeitas e de arquivo apontado (recomendado). E selecione **aguardar até que a verificação de URL seja concluída antes de entregar a mensagem** se você quiser que os usuários recebam mensagens depois que as URLs tiverem sido totalmente verificadas.
-
-   - Selecione **aplicar links seguros a mensagens enviadas dentro da organização** se quiser habilitar links seguros para mensagens enviadas entre usuários dentro da sua organização (recomendado).
-
-   - Selecione não **permitir que o usuário clique na URL original** se você não quiser que os usuários individuais substituam uma *verificação nas páginas de notificação de andamento ou de* *URL bloqueadas* .
-
-   - (Isso é opcional) Na seção não **reescrever as seguintes URLs** , especifique uma ou mais URLs consideradas seguras para sua organização. (Consulte [Configurar uma lista de URLs "não reconfigurar" personalizada usando os links seguros de ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md))
-
-   - Na seção **aplica-se** a, escolha **o destinatário é um membro de**e, em seguida, escolha o (s) grupo (s) que você deseja incluir na política. Escolha **Adicionar**e, em seguida, escolha **OK**.
-
-6. Escolha **Salvar**.
+No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção [usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar políticas de links seguros](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) , posteriormente neste artigo.
 
 > [!NOTE]
-> As políticas de links seguros de ATP com prioridade mais alta terão precedência. Se um usuário estiver sujeito a duas ou mais políticas, somente a política de prioridade mais alta entrará em vigor. Se quiser que a política do cliente tenha precedência, você precisará aumentar a prioridade da política.
+> Você define as configurações globais para proteção de links seguros **fora** de políticas de links seguros. Para obter instruções, consulte [Configure Global Settings for Safe links in Office 365 ATP](configure-global-settings-for-safe-links.md).
 
-## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Etapa 4: Saiba mais sobre as opções de política de links seguros de ATP
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-À medida que você configura ou edita suas políticas de links seguros de ATP, algumas opções estão disponíveis. Caso você esteja se perguntando quais são essas opções, a tabela a seguir descreve cada uma e seu efeito. Lembre-se de que há dois tipos principais de políticas de links seguros de ATP para definir ou editar:
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **links seguros de ATP** , use <https://protection.office.com/safelinksv2> .
 
-- uma [política padrão](#default-policy-options) que se aplica a todos; e
-- [políticas adicionais para destinatários específicos](#policies-that-apply-to-specific-email-recipients)
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-### <a name="default-policy-options"></a>Opções de política padrão
+- Para exibir, criar, modificar e excluir as políticas de links seguros, você precisa ser membro de um dos grupos de função a seguir:
 
-As opções de política padrão se aplicam a todas as pessoas em sua organização.
+  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+  - **Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-****
+- Para obter as configurações recomendadas para políticas de links seguros, consulte [configurações de política de links seguros](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings).
 
-|Essa opção|Faça isto|
-|---|---|
-|**Bloquear as seguintes URLs**|Permite que sua organização tenha uma lista personalizada de URLs bloqueadas automaticamente. Quando os usuários clicarem em uma URL nessa lista, serão levados a uma [página de aviso](atp-safe-links-warning-pages.md) que explica por que a URL é bloqueada. Para saber mais, confira [Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP do Office 365](set-up-a-custom-blocked-urls-list-atp.md).|
-|**Microsoft 365 aplicativos para empresas, Office para iOS e Android**| Quando essa opção é selecionada, a proteção de links seguros de ATP é aplicada às URLs nos arquivos do Word, Excel e PowerPoint no Windows ou no Mac OS, mensagens de email no Outlook, documentos do Office em dispositivos iOS ou Android, arquivos do Visio 2016 no Windows e arquivos abertos nas versões Web dos aplicativos do Office (Word, PowerPoint, Excel, Outlook e OneNote), desde que o usuário tenha entrado no Office 365|
-|**Não rastrear quando os usuários clicarem em links de ATP seguros**|Quando essa opção é selecionada, clique em dados para URLs no Word, Excel, PowerPoint, documentos do Visio e mensagens de email do Outlook não são armazenados.|
-|**Não permitir que os usuários cliquem através de links seguros de ATP para a URL original**|Quando essa opção é selecionada, os usuários não podem continuar após uma [página de aviso](atp-safe-links-warning-pages.md) para uma URL que é determinada como mal-intencionada.|
-|
+- Aguarde até 30 minutos para que uma política nova ou atualizada seja aplicada.
 
-### <a name="policies-that-apply-to-specific-email-recipients"></a>Políticas que se aplicam a destinatários de email específicos
+- [Novos recursos estão sempre sendo adicionados à ATP](office-365-atp.md#new-features-in-office-365-atp). À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes em suas políticas de links seguros existentes.
 
-****
+## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>Usar o centro de conformidade de & de segurança para criar políticas de links seguros
 
-|Essa opção|Faça isto|
-|---|---|
-|**Desativar**|Não verifica URLs em mensagens de email.  <br/> Permite que você defina uma regra de exceção, como uma regra que não examina URLs em mensagens de email para um grupo específico de destinatários.|
-|**On**|Reconfigura URLs para rotear usuários por meio de proteção de links seguros de ATP quando os usuários clicam em URLs em mensagens de email e habilita links seguros de ATP no Outlook (C2R) no Windows.  <br/> Verifica uma URL quando clicado em uma lista de URLs bloqueadas ou maliciosas e dispara um acionamento da URL em segundo plano de forma assíncrona se a URL não tiver uma reputação válida.|
-|**Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos**|Quando essa opção é selecionada, URLs suspeitas e links que apontam para o conteúdo baixável são verificados.|
-|**Aguarde a conclusão da verificação de URL antes de entregar a mensagem**|Quando essa opção é selecionada, as mensagens que contêm URLs a serem verificadas serão mantidas até que as URLs terminem a verificação e sejam confirmadas para serem seguras antes de as mensagens serem entregues.|
-|**Aplicar links seguros a mensagens enviadas dentro da organização** <br/> | Quando essa opção está disponível e selecionada, a proteção de links de segurança ATP é aplicada a mensagens de email enviadas entre pessoas em sua organização, desde que as contas de email sejam hospedadas no Office 365.|
-|**Não rastrear cliques do usuário**|Quando essa opção é selecionada, clique em dados para URLs em emails de remetentes externos não são armazenados. URL o acompanhamento de links em mensagens de email enviadas dentro da organização atualmente não tem suporte.|
-|**Não permitir que os usuários cliquem através da URL original**|Quando essa opção é selecionada, os usuários não podem continuar após uma [página de aviso](atp-safe-links-warning-pages.md) para uma URL que é determinada como mal-intencionada.|
-|**Não Reescreva as seguintes URLs**|Deixa as URLs como estão. Mantém uma lista personalizada de URLs seguras que não precisam de varredura para um grupo específico de destinatários de email em sua organização. Confira [Configurar uma lista de URLs de "não reconfigurar" personalizada usando links seguros de ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) para obter mais detalhes, incluindo as alterações recentes de suporte para asteriscos curinga ( \* ).|
-|
+A criação de uma política de links seguros personalizada no centro de conformidade de & de segurança cria a regra de links seguros e a política de links seguros associada ao mesmo tempo usando o mesmo nome para ambos.
 
-## <a name="next-steps"></a>Próximas etapas
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
 
-Depois que as políticas de links seguros de ATP estiverem vigentes, você poderá ver como a ATP está trabalhando para sua organização exibindo relatórios. Confira os seguintes recursos para saber mais:
+2. Na página **links seguros** , clique em **criar**.
 
-- [Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
+3. O assistente de **nova política de links seguros** é aberto. Na página **nomear sua política** , defina as seguintes configurações:
 
-- [Usar o Explorer no centro de conformidade & segurança](threat-explorer.md)
+   - **Nome**: insira um nome exclusivo e descritivo para a política.
 
-Fique à frente dos novos recursos que chegam à ATP. Visite o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365).
+   - **Descrição**: digite uma descrição opcional para a política.
+
+   Quando terminar, clique em **Avançar**.
+
+4. Na página **configurações** que aparece, defina as seguintes configurações:
+
+   - **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens**: selecione **ativado**.
+
+   - **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens**: selecione **ativado** ou deixe o valor padrão **desativado** .
+
+   - **Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos**: Selecione essa configuração para habilitar a verificação em tempo real de links em mensagens de email.
+
+   - **Aguarde a conclusão da verificação de URL antes de entregar a mensagem**: Selecione essa configuração para esperar a conclusão da verificação de URL em tempo real antes de entregar a mensagem.
+
+   - **Aplicar links seguros a mensagens de email enviadas dentro da organização**: Selecione essa configuração para aplicar a política de links seguros a mensagens entre remetentes internos e destinatários internos.
+
+   - **Não rastrear cliques do usuário**: Deixe essa configuração desmarcada para permitir que o usuário de acompanhamento clique em URLs nas mensagens de email.
+
+   - **Não permitir que os usuários cliquem na URL original**: Selecione essa configuração para impedir que os usuários cliquem na URL original nas [páginas de aviso](atp-safe-links.md#warning-pages-from-safe-links).
+
+   - **Não Reescreva as seguintes URLs**: permite acessar as URLs especificadas que, caso contrário, serão bloqueadas por links seguros.
+
+     Na caixa, digite a URL ou o valor desejado e clique em ![Ícone Adicionar botão](../../media/ITPro-EAC-AddIcon.png).
+
+     Para remover uma entrada existente, selecione-a e clique em ![Ícone Excluir botão](../../media/ITPro-EAC-DeleteIcon.png).
+
+     Para obter a sintaxe de entrada, consulte a [sintaxe de entrada da lista "não reescrever as seguintes URLs"](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list).
+
+   Para obter informações detalhadas sobre essas configurações, consulte [configurações de links seguros para mensagens de email](atp-safe-links.md#safe-links-settings-for-email-messages) e [configurações de links seguros para o Microsoft Teams](atp-safe-links.md#safe-links-settings-for-microsoft-teams).
+
+   Para obter mais valores recomendados para configurações de política padrão e estrita, consulte [configurações de política de links seguros](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings).
+
+   Quando terminar, clique em **Avançar**.
+
+5. Na página **aplicado a** que aparece, identifique os destinatários internos aos quais a política se aplica.
+
+   Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
+
+   Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se**:
+
+   - **O destinatário é**: especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
+   - **O destinatário é um membro de**: especifica um ou mais grupos na sua organização.
+   - **O domínio do destinatário é**: Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização. 
+
+   Após selecionar a condição, uma lista suspensa correspondente aparecerá com uma **destas** caixas.
+
+   - Clique na caixa e role pela lista de valores para selecionar.
+   - Clique na caixa e comece a digitar para filtrar a lista e selecione um valor.
+   - Para adicionar valores adicionais, clique em uma área vazia na caixa.
+   - Para remover entradas individuais, clique em **remover** ![ ícone de remoção ](../../media/scc-remove-icon.png) no valor.
+   - Para remover toda a condição, clique em **remover** ![ ícone de remoção ](../../media/scc-remove-icon.png) na condição.
+
+   Para adicionar uma condição adicional, clique em **Adicionar uma condição** e selecione um valor restante em **aplica If**.
+
+   Para adicionar exceções, clique em **Adicionar uma condição** e selecione uma exceção em **exceto se**. As configurações e o comportamento são exatamente como as condições.
+
+   Quando terminar, clique em **Avançar**.
+
+6. Na página **revise suas configurações** exibidas, revise suas configurações. Você pode clicar em **Editar** em cada configuração para modificá-la.
+
+   Quando tiver concluído, clique em **concluir**.
+
+## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>Usar o centro de conformidade de & de segurança para exibir políticas de links seguros
+
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+
+2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
+
+   Os detalhes da política aparecem em saída
+
+## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>Usar o centro de conformidade de & de segurança para modificar as políticas de links seguros
+
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+
+2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
+
+3. Nos detalhes da política que aparecem, clique em **Editar política**.
+
+As configurações disponíveis no menu suspenso que aparecem são idênticas às descritas na seção [usar o centro de conformidade de segurança & para criar políticas de links seguros](#use-the-security--compliance-center-to-create-safe-links-policies) .
+
+Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da política, consulte as seções a seguir.
+
+### <a name="enable-or-disable-safe-links-policies"></a>Habilitar ou desabilitar políticas de links seguros
+
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+
+2. Observe o valor na coluna **status** :
+
+   - Mova o botão de alternância para a esquerda para desabilitar a política: ![Desativar política](../../media/scc-toggle-off.png).
+
+   - Mova o botão de alternância para a direita para habilitar a política: ![Ativar política](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+
+### <a name="set-the-priority-of-safe-links-policies"></a>Definir a prioridade das políticas de links seguros
+
+Por padrão, as políticas de links seguros recebem uma prioridade com base na ordem em que foram criadas (as políticas mais recentes são de prioridade mais baixa do que as diretivas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
+
+Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
+
+As políticas de links seguros são exibidas na ordem em que são processadas (a primeira política tem o valor de **prioridade** 0).
+
+**Observação**: no centro de conformidade & segurança, você só pode alterar a prioridade da política de links seguros após criá-la. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de links seguros (que pode afetar a prioridade das regras existentes).
+
+Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
+
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+
+2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
+
+3. Na saída detalhes da política exibida, clique no botão prioridade disponível:
+
+   - A política de links seguros com o valor de **prioridade** **0** tem apenas o botão **diminuir prioridade** disponível.
+
+   - A política de links seguros com o menor valor de **prioridade** (por exemplo, **3**) tem apenas o botão **aumentar prioridade** disponível.
+
+   - Se você tiver três ou mais políticas de links seguros, as políticas entre os valores de prioridade mais alta e mais baixa terão os botões **aumentar prioridade** e **diminuir prioridade** disponíveis.
+
+4. Clique em **aumentar prioridade** ou **diminuir prioridade** para alterar o valor de **prioridade** .
+
+5. Quando terminar, clique em **Fechar**.
+
+## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>Usar o centro de conformidade de & de segurança para remover políticas de links seguros
+
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+
+2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
+
+3. Nos detalhes da política de saída, clique em **excluir política**e clique em **Sim** na caixa de diálogo de aviso que aparece.
+
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar políticas de links seguros
+
+Como descrito anteriormente, uma política de links seguros consiste em uma política de links seguros e uma regra de links seguros.
+
+No PowerShell, a diferença entre políticas de links seguros e regras de links seguros é aparente. Você gerencia as políticas de links seguros usando os cmdlets ** \* -SafeLinksPolicy** e gerencia as regras de links seguros usando os cmdlets ** \* -SafeLinksRule** .
+
+- No PowerShell, você cria a política de links seguros primeiro e, em seguida, cria a regra de links seguros que identifica a política à qual a regra se aplica.
+- No PowerShell, você modifica as configurações da política de links seguros e da regra de links seguros separadamente.
+- Quando você remove uma política de links seguros do PowerShell, a regra de links seguros correspondente não é removida automaticamente e vice-versa.
+
+### <a name="use-powershell-to-create-safe-links-policies"></a>Usar o PowerShell para criar políticas de links seguros
+
+A criação de uma política de links seguros no PowerShell é um processo de duas etapas:
+
+1. Criar a política de links seguros.
+2. Crie a regra de links seguros que especifica a política de links seguros à qual a regra se aplica.
+
+ **Observações**:
+
+- Você pode criar uma nova regra de links seguros e atribuir uma política de links seguros sem associação existente a ela. Uma regra de links seguros não pode ser associada a mais de uma política de links seguros.
+
+- Você pode definir as seguintes configurações em novas políticas de links seguros no PowerShell que não estão disponíveis no centro de conformidade & de segurança até que a política seja criada:
+
+  - Crie a nova política como desabilitada (_habilitada_ `$false` no cmdlet **New-SafeLinksRule** ).
+  - Definir a prioridade da política durante a criação (_prioridade_ _\<Number\>_ ) no cmdlet **New-SafeLinksRule** ).
+
+- Uma nova política de links seguros que você cria no PowerShell não fica visível no centro de conformidade & segurança até que você atribua a política a uma regra de links seguros.
+
+#### <a name="step-1-use-powershell-to-create-a-safe-links-policy"></a>Etapa 1: usar o PowerShell para criar uma política de links seguros
+
+Para criar uma política de links seguros, use esta sintaxe:
+
+```PowerShell
+New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEnabled <$true | $false>] [-EnableSafeLinksForTeams <$true | $false>] [-ScanUrls <$true | $false>] [-DeliverMessageAfterScan <$true | $false>] [-EnableForInternalSenders <$true | $false>] [-DoNotAllowClickThrough <$true | $false>] [-DoNotTrackUserClicks <$true | $false>] [-DoNotRewriteUrls "Entry1","Entry2",..."EntryN"]
+```
+
+**Observações**:
+
+- Para obter detalhes sobre a sintaxe de entrada a ser usada para o parâmetro _DoNotRewriteUrls_ , consulte [a sintaxe de entrada da lista "não reescrever as seguintes URLs"](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list).
+
+- Para obter sintaxe adicional que você pode usar para o parâmetro _DoNotRewriteUrls_ ao modificar as políticas de links seguros existentes usando o cmdlet **set-SafeLinksPolicy** , consulte a seção [usar o PowerShell para modificar as políticas de links seguros](#use-powershell-to-modify-safe-links-policies) mais adiante neste artigo.
+
+Este exemplo cria uma política de links seguros chamada contoso todos com os seguintes valores:
+
+- Ative a verificação de URL e reescreva em mensagens de email.
+- Ative a verificação de URL no Microsoft Teams (toque apenas em visualização).
+- Ative a verificação em tempo real de URLs clicadas, incluindo links clicados apontando para arquivos.
+- Aguarde a conclusão da verificação de URL antes de entregar a mensagem.
+- Ative a verificação de URL e a reconfiguração de mensagens internas.
+- Rastrear cliques do usuário relacionados à proteção de links seguros (não estamos usando o parâmetro _DoNotTrackUserClicks_ , e o valor padrão é $false, o que significa que os cliques do usuário são controlados).
+- Não permita que os usuários cliquem até a URL original.
+
+```PowerShell
+New-SafeLinksPolicy -Name "Contoso All" -IsEnabled $true -EnableSafeLinksForTeams $true -ScanUrls $true -DeliverMessageAfterScan $true -EnableForInternalSenders $true -DoNotAllowClickThrough $true
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy).
+
+#### <a name="step-2-use-powershell-to-create-a-safe-links-rule"></a>Etapa 2: usar o PowerShell para criar uma regra de links seguros
+
+Para criar uma regra de links seguros, use esta sintaxe:
+
+```PowerShell
+New-SafeLinksRule -Name "<RuleName>" -SafeLinksPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"] [-Enabled <$true | $false>]
+```
+
+Este exemplo cria uma regra de links seguros chamada contoso com as seguintes condições:
+
+- A regra é associada à política de links seguros chamada contoso ALL.
+- A regra se aplica a todos os destinatários no domínio contoso.com.
+- Como não estamos usando o parâmetro _Priority_ , a prioridade padrão é usada.
+- A regra está habilitada (não estamos usando o parâmetro _Enabled_ e o valor padrão é `$true` ).
+
+```powershell
+New-SafeLinksRule -Name "Contoso All" -SafeLinksPolicy "Contoso All" -RecipientDomainIs contoso.com
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/new-safelinksrule).
+
+### <a name="use-powershell-to-view-safe-links-policies"></a>Usar o PowerShell para exibir políticas de links seguros
+
+Para exibir as políticas de links seguros existentes, use a seguinte sintaxe:
+
+```PowerShell
+Get-SafeLinksPolicy [-Identity "<PolicyIdentity>"] [| <Format-Table | Format-List> <Property1,Property2,...>]
+```
+
+Este exemplo retorna uma lista resumida de todas as políticas de links seguros.
+
+```PowerShell
+Get-SafeLinksPolicy | Format-Table Name
+```
+
+Este exemplo retorna informações detalhadas sobre a política de links seguros chamada executivos da contoso.
+
+```PowerShell
+Get-SafeLinksPolicy -Identity "Contoso Executives"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/get-safelinkspolicy).
+
+### <a name="use-powershell-to-view-safe-links-rules"></a>Usar o PowerShell para exibir regras de links seguros
+
+Para exibir regras de links seguros existentes, use a seguinte sintaxe:
+
+```PowerShell
+Get-SafeLinksRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled] [| <Format-Table | Format-List> <Property1,Property2,...>]
+```
+
+Este exemplo retorna uma lista resumida de todas as regras de links seguros.
+
+```PowerShell
+Get-SafeLinksRule | Format-Table Name,State
+```
+
+Para filtrar a lista por regras habilitadas ou desabilitadas, execute os seguintes comandos:
+
+```PowerShell
+Get-SafeLinksRule -State Disabled
+```
+
+```PowerShell
+Get-SafeLinksRule -State Enabled
+```
+
+Este exemplo retorna informações detalhadas sobre a regra de links seguros chamada executivos da contoso.
+
+```PowerShell
+Get-SafeLinksRule -Identity "Contoso Executives"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/get-safelinksrule).
+
+### <a name="use-powershell-to-modify-safe-links-policies"></a>Usar o PowerShell para modificar as políticas de links seguros
+
+Não é possível renomear uma política de links seguros no PowerShell (o cmdlet **set-SafeLinksPolicy** não tem nenhum parâmetro _Name_ ). Ao renomear uma política de links seguros no centro de conformidade e segurança &, você estará apenas renomeando a _regra_de links seguros.
+
+A única consideração adicional para modificar as políticas de links seguros no PowerShell é a sintaxe disponível para o parâmetro _DoNotRewriteUrls_ (a [lista "não reescrever as seguintes URLs"](atp-safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)):
+
+- Para adicionar valores que substituirão as entradas existentes, use a seguinte sintaxe: `"Entry1","Entry2,..."EntryN"` .
+- Para adicionar ou remover valores sem afetar outras entradas existentes, use a seguinte sintaxe: `@{Add="Entry1","Entry2"...; Remove="Entry3","Entry4"...}`
+
+Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma política de links seguros, conforme descrito na seção [etapa 1: usar o PowerShell para criar uma política de links seguros](#step-1-use-powershell-to-create-a-safe-links-policy) , anteriormente neste artigo.
+
+Para modificar uma política de links seguros, use esta sintaxe:
+
+```PowerShell
+Set-SafeLinksPolicy -Identity "<PolicyName>" <Settings>
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy).
+
+### <a name="use-powershell-to-modify-safe-links-rules"></a>Usar o PowerShell para modificar regras de links seguros
+
+A única configuração que não está disponível quando você modifica uma regra de links seguros no PowerShell é o parâmetro _habilitado_ que permite criar uma regra desabilitada. Para habilitar ou desabilitar regras de links seguros existentes, consulte a próxima seção.
+
+Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma regra, conforme descrito na seção [etapa 2: usar o PowerShell para criar uma regra de links seguros](#step-2-use-powershell-to-create-a-safe-links-rule) , anteriormente neste artigo.
+
+Para modificar uma regra de links seguros, use esta sintaxe:
+
+```PowerShell
+Set-SafeLinksRule -Identity "<RuleName>" <Settings>
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule).
+
+### <a name="use-powershell-to-enable-or-disable-safe-links-rules"></a>Usar o PowerShell para habilitar ou desabilitar regras de links seguros
+
+Habilitar ou desabilitar uma regra de links seguros no PowerShell habilita ou desabilita toda a política de links seguros (a regra de links seguros e a política de links seguros atribuídas).
+
+Para habilitar ou desabilitar uma regra de links seguros no PowerShell, use esta sintaxe:
+
+```PowerShell
+<Enable-SafeLinksRule | Disable-SafeLinksRule> -Identity "<RuleName>"
+```
+
+Este exemplo desabilita a regra de links seguros chamada departamento de marketing.
+
+```PowerShell
+Disable-SafeLinksRule -Identity "Marketing Department"
+```
+
+Este exemplo habilita a mesma regra.
+
+```PowerShell
+Enable-SafeLinksRule -Identity "Marketing Department"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Enable-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/enable-safelinksrule) e [Disable-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/disable-safelinksrule).
+
+### <a name="use-powershell-to-set-the-priority-of-safe-links-rules"></a>Usar o PowerShell para definir a prioridade de regras de links seguros
+
+O valor mais alto de prioridade que pode ser definido em uma regra é 0. O valor mais baixo que pode ser definido depende do número de regras. Por exemplo, se você tiver cinco regras, use os valores de prioridade de 0 a 4. Alterar a prioridade de uma regra existente pode ter um efeito cascata em outras regras. Por exemplo, se você tiver cinco regras personalizadas (prioridades de 0 a 4) e alterar a prioridade de uma regra para 2, a regra existente com prioridade 2 será alterada para a prioridade 3, e a regra com prioridade 3 será alterada para prioridade 4.
+
+Para definir a prioridade de uma regra de links seguros no PowerShell, use a seguinte sintaxe:
+
+```PowerShell
+Set-SafeLinksRule -Identity "<RuleName>" -Priority <Number>
+```
+
+Este exemplo define a prioridade da regra chamada Marketing Department como 2. Todas as regras existentes com prioridade inferior ou igual a 2 são reduzidas por 1 (seus números de prioridade são aumentados por 1).
+
+```PowerShell
+Set-SafeLinksRule -Identity "Marketing Department" -Priority 2
+```
+
+**Observação**: para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Priority_ no cmdlet **New-SafeLinksRule** .
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule).
+
+### <a name="use-powershell-to-remove-safe-links-policies"></a>Usar o PowerShell para remover políticas de links seguros
+
+Quando você usa o PowerShell para remover uma política de links seguros, a regra de links seguros correspondente não é removida.
+
+Para remover uma política de links seguros no PowerShell, use esta sintaxe:
+
+```PowerShell
+Remove-SafeLinksPolicy -Identity "<PolicyName>"
+```
+
+Este exemplo remove a política de links seguros chamada departamento de marketing.
+
+```PowerShell
+Remove-SafeLinksPolicy -Identity "Marketing Department"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-safelinkspolicy).
+
+### <a name="use-powershell-to-remove-safe-links-rules"></a>Usar o PowerShell para remover regras de links seguros
+
+Quando você usa o PowerShell para remover uma regra de links seguros, a política de links seguros correspondente não é removida.
+
+Para remover uma regra de links seguros no PowerShell, use esta sintaxe:
+
+```PowerShell
+Remove-SafeLinksRule -Identity "<PolicyName>"
+```
+
+Este exemplo remove a regra de links seguros chamada departamento de marketing.
+
+```PowerShell
+Remove-SafeLinksRule -Identity "Marketing Department"
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/remove-safelinksrule).
+
+Para verificar se os links seguros estão verificando mensagens, verifique os relatórios de proteção avançada contra ameaças disponíveis. Para obter mais informações, consulte [exibir relatórios do Office 365 ATP](view-reports-for-atp.md) e [usar o Explorer no centro de conformidade do & de segurança](threat-explorer.md).
+
+## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
+
+Para verificar se as políticas de links seguros foram criadas, modificadas ou removidas com êxito, execute uma das seguintes etapas:
+
+- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**. Verifique a lista de políticas, seus valores de **status** e seus valores de **prioridade** . Para exibir mais detalhes, selecione a política na lista e exiba os detalhes na saída.
+
+- No PowerShell do Exchange Online ou do Exchange Online Protection, substitua o \<Name\> nome da política ou regra, execute o seguinte comando e verifique as configurações:
+
+  ```PowerShell
+  Get-SafeLinksPolicy -Identity "<Name>"
+  ```
+
+  ```PowerShell
+  Get-SafeLinksRule -Identity "<Name>"
+  ```

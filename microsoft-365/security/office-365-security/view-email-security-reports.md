@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b26dd18754a96d1879a2f57ae9742ae1d1a36ce4
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 7e594f758e0fb08b0b8718248466ecbc46903b82
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295533"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327004"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -61,7 +61,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 
 - **Hora de criação**
 - **ID de usuário**
-- **Action**
+- **Ação**
 
 Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
 
@@ -224,7 +224,7 @@ Se você clicar em **Exibir tabela de detalhes** em qualquer modo de exibição 
 - **Endereço do remetente**.
 - **Endereço do destinatário**
 - **Tipo de evento**
-- **Action**
+- **Ação**
 - **Subject**
 
 Se você clicar em **filtros** em uma tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
@@ -263,16 +263,16 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 - **Remetente falsificado**
 - **Remetente verdadeiro**
 - **IP do remetente**
-- **Action**
+- **Ação**
 - **Contagem de mensagem**
 
 Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
 
 ## <a name="threat-protection-status-report"></a>Relatório de status de proteção contra ameaças
 
-O relatório de **status de proteção contra ameaças** está disponível no EOP e no Office 365 ATP; no entanto, os relatórios contêm dados diferentes. Por exemplo, os clientes do EOP podem exibir informações sobre malware detectado no email, mas não informações sobre [arquivos mal-intencionados detectados no SharePoint Online, no onedrive ou no Microsoft Teams](atp-for-spo-odb-and-teams.md).
+O relatório de **status de proteção contra ameaças** está disponível no EOP e no Office 365 ATP; no entanto, os relatórios contêm dados diferentes. Por exemplo, os clientes do EOP podem exibir informações sobre malware detectado no email, mas não informações sobre [arquivos mal-intencionados detectados pela ATP para SharePoint, onedrive ou Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
-O relatório fornece a contagem de mensagens de email com conteúdo mal-intencionado, como arquivos ou endereços de sites (URLs) que foram bloqueados pelo Mecanismo Antimalware, [exclusão automática de zero-hora (zap)](zero-hour-auto-purge.md)e recursos de ATP, como [links seguros de ATP](atp-safe-links.md), [anexos seguros de ATP](atp-safe-attachments.md)e [anti-phishing anti-phishing](set-up-anti-phishing-policies.md). Você pode usar essas informações para identificar tendências ou determinar se as políticas da organização precisam de ajuste. É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
+O relatório fornece a contagem de mensagens de email com conteúdo mal-intencionado, como arquivos ou endereços de sites (URLs) que foram bloqueados pelo Mecanismo Antimalware, [exclusão automática de zero-hora (zap)](zero-hour-auto-purge.md)e recursos de ATP, como [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing do ATP](set-up-anti-phishing-policies.md). Você pode usar essas informações para identificar tendências ou determinar se as políticas da organização precisam de ajuste. É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
 
 Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **status de proteção contra ameaças**. Para ir diretamente para o relatório, abra uma das seguintes URLs:
 
@@ -366,7 +366,7 @@ Se você clicar em **filtros**, poderá modificar o relatório com os seguintes 
 - **Data de início** e **data de término**
 - **Detecção**
 - **Protegido por**: **ATP** ou **EOP**
-- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
 - **Domínio**
 
 > [!NOTE]
@@ -406,7 +406,7 @@ Se você clicar em **filtros**, poderá modificar o relatório com os seguintes 
 - **Data de início** e **data de término**
 - **Detecção**
 - **Protegido por** (somente o Office 365 ATP): **ATP** ou **EOP**
-- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
 - **Domínio**
 - **Destinatários** (Observe que essa propriedade Filterable só está disponível no modo de exibição tabela de detalhes)
 

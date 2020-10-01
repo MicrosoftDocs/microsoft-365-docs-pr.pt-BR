@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
-ms.date: 06/09/2020
+ms.date: 09/30/2020
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
 description: Saiba como gerenciar o serviço de identidade do usuário do Azure AD no Microsoft 365 usando modelos de identidade híbrida ou somente na nuvem.
-ms.openlocfilehash: d91e14f678e487365805b024e4025e9a39db0c2c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 6b5b80584408671a1925e32df1fbf458b7c16139
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687500"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327946"
 ---
 # <a name="microsoft-365-identity-models-and-azure-active-directory"></a>Modelos de identidade do Microsoft 365 e Active Directory do Azure
 
@@ -37,6 +37,8 @@ ms.locfileid: "46687500"
 O Microsoft 365 usa o Azure Active Directory (Azure AD), um serviço de autenticação e identidade do usuário baseado na nuvem que está incluído na assinatura do Microsoft 365, para gerenciar identidades e autenticação para o Microsoft 365. Obter sua infraestrutura de identidade configurada corretamente é vital para gerenciar o acesso de usuário e permissões do Microsoft 365 para sua organização.
 
 Antes de começar, assista a este vídeo para ter uma visão geral dos modelos de identidade e autenticação do Microsoft 365.
+
+<p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
@@ -58,7 +60,7 @@ Estes são os dois tipos de identidade e seus benefícios e melhores necessidade
 
 ## <a name="cloud-only-identity"></a>Identidade somente na nuvem
 
-Uma identidade somente na nuvem usa contas de usuário que existem somente no Azure AD. A identidade em nuvem é normalmente usada por pequenas organizações que não têm servidores locais ou não usam o AD DS para gerenciar identidades locais. 
+Uma identidade somente na nuvem usa contas de usuário que existem somente no Azure AD. A identidade somente na nuvem é normalmente usada por pequenas organizações que não têm servidores locais ou não usam o AD DS para gerenciar identidades locais. 
 
 Estes são os componentes básicos da identidade somente na nuvem.
  
@@ -67,7 +69,7 @@ Estes são os componentes básicos da identidade somente na nuvem.
 Os usuários locais e remotos (online) usam suas contas de usuário e senhas do Azure AD para acessar os serviços de nuvem da Microsoft 365. O Azure AD autentica as credenciais do usuário com base em suas contas de usuário e senhas armazenadas.
 
 ### <a name="administration"></a>Administração
-Como as contas de usuário são armazenadas apenas no Azure AD, você gerencia identidades de nuvem com ferramentas como o [centro de administração do Microsoft 365](https://admin.microsoft.com) e o [Windows PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md). 
+Como as contas de usuário são armazenadas apenas no Azure AD, você gerencia identidades de nuvem com ferramentas como o [centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/) e o [Windows PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md). 
 
 ## <a name="hybrid-identity"></a>Identidade híbrida
 
@@ -89,7 +91,7 @@ O locatário do Azure AD tem uma cópia das contas do AD DS. Nessa configuraçã
 
 ### <a name="administration"></a>Administração
 
-Como as contas de usuário originais e autoritativas são armazenadas no AD DS local, você gerencia suas identidades com as mesmas ferramentas que o AD DS, como a ferramenta usuários e computadores do Active Directory. 
+Como as contas de usuário originais e autoritativas são armazenadas no AD DS local, você gerencia suas identidades com as mesmas ferramentas que gerencia seu AD DS. 
 
 Você não usa o centro de administração do Microsoft 365 ou o PowerShell para a Microsoft 365 para gerenciar contas de usuário sincronizadas no Azure AD.
 

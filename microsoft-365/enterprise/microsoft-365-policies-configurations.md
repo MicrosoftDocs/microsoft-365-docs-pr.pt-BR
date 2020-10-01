@@ -6,7 +6,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 09/14/2020
+ms.date: 09/29/2020
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -17,18 +17,18 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: cef17142d90a15f10e82fd51c4c22202bf7ecf00
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: b6e961dc8e7de6bfaf16508fa6c70f8a90fa4080
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131573"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327433"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
 O perímetro de segurança moderna da sua organização agora vai além da sua rede para incluir usuários que acessam aplicativos baseados em nuvem de qualquer local com uma variedade de dispositivos. Sua infraestrutura de segurança precisa determinar se uma determinada solicitação de acesso deve ser concedida e sob quais condições. 
 
-Essa determinação deve se basear na conta de usuário do logon, o dispositivo que está sendo usado, o aplicativo que o usuário está usando para acesso, o local a partir do qual a solicitação de acesso é feita e uma avaliação do risco da solicitação. Essa capacidade ajuda a garantir que apenas os usuários e dispositivos aprovados possam acessar seus recursos críticos.
+Essa determinação deve se basear na conta de usuário do logon, o dispositivo que está sendo usado, o aplicativo que o usuário está usando para acesso, o local a partir do qual a solicitação de acesso é feita e uma avaliação do risco da solicitação. Esse recurso ajuda a garantir que apenas usuários e dispositivos aprovados possam acessar os recursos críticos.
 
 Esta série de artigos descreve um conjunto de configurações de pré-requisitos de acesso de dispositivo e identidade e um conjunto de acesso condicional do Azure Active Directory (Azure AD), Microsoft Intune e outras políticas para proteger o acesso ao Microsoft 365 para aplicativos e serviços de nuvem empresarial, outros serviços SaaS e aplicativos locais publicados com o proxy de aplicativo do Azure AD.
 
@@ -115,7 +115,7 @@ O Azure AD fornece um pacote completo de recursos de gerenciamento de identidade
 | [Registro do dispositivo](/azure/active-directory/devices/overview) | Você inscreve um dispositivo no Azure AD para criar uma identidade para o dispositivo. Essa identidade é usada para autenticar o dispositivo quando um usuário entra e para aplicar as políticas de acesso condicional que exigem computadores associados ou em conformidade com o domínio. Para este guia, usamos o registro de dispositivos para registrar automaticamente os computadores Windows associados ao domínio. O registro de dispositivo é um pré-requisito para gerenciar dispositivos com o Intune. | Microsoft 365 E3 ou E5 |
 | [Azure AD Identity Protection](/azure/active-directory/identity-protection/overview) | Permite que você detecte possíveis vulnerabilidades que afetam as identidades da sua organização e configure a política de correção automatizada para riscos de entrada baixa, média e alta e o risco do usuário. Este guia depende dessa avaliação de risco para aplicar políticas de acesso condicional para a autenticação multifator. Este guia também inclui uma política de acesso condicional que exige que os usuários alterem a senha se for detectada atividade de alto risco para a conta. | Microsoft 365 e5, Microsoft 365 E3 com a identidade & Complementos de proteção contra ameaças, EMS E5 ou Azure Premium P2 licenças |
 | [Redefinição de senha por autoatendimento (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks) | Permita que os usuários redefinam suas senhas com segurança e sem a intervenção do técnico, fornecendo a verificação de vários métodos de autenticação que o administrador pode controlar. | Microsoft 365 E3 ou E5 |
-| [Proteção de senha do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | Detectar e bloquear senhas fracas conhecidas e suas variantes e termos fracos adicionais que são específicos para sua organização. As listas de senhas globais excluídas padrão são automaticamente aplicadas a todos os usuários em um locatário do Azure AD. Você pode definir entradas adicionais em uma lista personalizada de senhas proibidas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para impor o uso de senhas seguras. |  Microsoft 365 E3 ou E5 |
+| [Proteção de senha do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | Detectar e bloquear senhas fracas conhecidas e suas variantes e termos fracos adicionais que são específicos para sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes. |  Microsoft 365 E3 ou E5 |
 ||||
 
 ![Componentes de identidade e acesso de dispositivo.](../media/microsoft-365-policies-configurations/identity-device-access-components.png)
@@ -162,6 +162,25 @@ A tabela a seguir resume nossas recomendações para usar esses recursos nas tr�
 A tabela acima reflete a tendência de muitas organizações a oferecer suporte a uma combinação de dispositivos de organização, bem como pessoais ou BYODs para habilitar a produtividade móvel em toda a força de mesa. As políticas de proteção de aplicativos do Intune garantem que o email seja protegido de exfiltrating fora do aplicativo móvel do Outlook e outros aplicativos do Office Mobile, em dispositivos de organização e no BYODs.  
 
 Recomendamos que os dispositivos pertencentes à organização sejam gerenciados pelo Intune ou pelo ingresso no domínio para aplicar proteções e controle adicionais. Dependendo da confidencialidade de dados, sua organização pode optar por não permitir o BYODs para populações de usuários específicos ou aplicativos específicos.
+
+## <a name="deployment-and-your-apps"></a>Implantação e seus aplicativos
+
+Antes de configurar e distribuir a configuração de acesso de dispositivo e identidade para seus aplicativos integrados ao Azure AD, você deve: 
+
+- Decida quais aplicativos são usados na sua organização que você deseja proteger. 
+- Analise esta lista de aplicativos para determinar os conjuntos de políticas que fornecem níveis adequados de proteção. 
+
+  Você não deve criar conjuntos separados de políticas para o aplicativo, pois eles podem se tornar complicados. A Microsoft recomenda que você agrupe seus aplicativos com os mesmos requisitos de proteção para os mesmos usuários. 
+
+  Por exemplo, você poderia ter um conjunto de políticas que inclua todos os aplicativos do Microsoft 365 para todos os seus usuários para proteção de linha de base e um segundo conjunto de políticas para todos os aplicativos confidenciais, como aqueles usados por recursos humanos ou departamentos financeiros e aplicá-los a esses grupos. 
+
+Depois de determinar o conjunto de políticas para os aplicativos que você deseja proteger, role as políticas para os usuários de forma incremental, resolvendo problemas ao longo do caminho.  
+
+Por exemplo, configure as políticas que serão usadas para todos os aplicativos do Microsoft 365 para apenas o Exchange Online com as alterações adicionais para o Exchange. Role estas políticas para os seus usuários e trabalhe com qualquer problema. Em seguida, adicione o Microsoft Teams com suas alterações adicionais e distribua-o para os seus usuários. Em seguida, adicione o SharePoint com suas alterações adicionais. Continue adicionando o restante dos seus aplicativos até que você possa configurar com segurança essas políticas de linha de base para incluir todos os aplicativos do Microsoft 365. 
+
+Da mesma forma, para seus aplicativos confidenciais, crie o conjunto de políticas e adicione um aplicativo por vez e trabalhe com qualquer problema até que todos estejam incluídos no conjunto de políticas confidenciais de aplicativos. 
+
+A Microsoft recomenda que você não crie conjuntos de políticas que se apliquem a todos os aplicativos, pois isso pode resultar em algumas configurações indesejadas. Por exemplo, as políticas que bloqueiam todos os aplicativos podem bloquear seus administradores fora do portal do Azure e as exclusões não podem ser configuradas para pontos de extremidade importantes como o Microsoft Graph. 
 
 ## <a name="steps-in-the-process-of-configuring-identity-and-device-access"></a>Etapas no processo de configuração de identidade e acesso de dispositivo
 

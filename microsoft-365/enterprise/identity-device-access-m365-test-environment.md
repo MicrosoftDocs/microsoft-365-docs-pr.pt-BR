@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um ambiente do Microsoft 365 para testar o acesso a identidades e dispositivos.
-ms.openlocfilehash: c5bc0fbbb3ae3839cb7aa71e8c840784ae4a4cad
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 84af7747fc1d0e80e933397f4f0f96018ed246c3
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685849"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327802"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Acesso a identidades e dispositivos para o seu ambiente de teste do Microsoft 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "46685849"
 
 [As configurações de acesso de dispositivo e identidade](microsoft-365-policies-configurations.md) são um conjunto de recursos e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
 
-Para criar um ambiente de teste que tenha essas políticas em vigor:
+Para criar um ambiente de teste que tenha as configurações comuns de acesso de dispositivo e identidade no local:
 
 1. Configure seu ambiente de teste com os recursos de identidade e segurança de pré-requisito com base na sua opção de modelo de identidade e método de autenticação:
 
@@ -36,7 +36,7 @@ Para criar um ambiente de teste que tenha essas políticas em vigor:
   - [Sincronização de hash de senha (PHS)](phs-prereqs-m365-test-environment.md)
   - [Autenticação de passagem (PTA)](pta-prereqs-m365-test-environment.md)
 
-2. Use as [Políticas comuns de acesso a identidades e dispositivos](identity-access-policies.md) para configurar as políticas criadas com base nos pré-requisitos e testar a proteção de identidades e dispositivos.
+2. Use [as políticas comuns de acesso de dispositivo e identidade](identity-access-policies.md) para configurar as políticas que se baseiam nos pré-requisitos configurados para seu ambiente de teste e explorar e verificar a proteção de identidades e dispositivos.
 
 ## <a name="see-also"></a>Confira também
 

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a aplicar as configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: 35be2b1ebfcf7ef8b7aad5cc2d4b3dd7032806b2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8431d36779069b0b289a2533fbd6b85abee24536
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202598"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326538"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Políticas de segurança predefinidas no EOP e no Office 365 ATP
 
@@ -75,9 +75,9 @@ As políticas de segurança predefinidas usam as políticas correspondentes dos 
     - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [Limites avançados de phishing](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [Políticas de links seguros](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings-in-custom-policies-for-specific-users) chamada **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
+  - [Políticas de links seguros](set-up-atp-safe-links-policies.md) chamada **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
 
-  - [Políticas de anexos seguros](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-policy-settings-in-custom-policies-for-specific-users) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
+  - [Políticas de anexos seguros](set-up-atp-safe-attachments-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
 
 Observe que você pode aplicar proteções do EOP a diferentes usuários do que as proteções ATP.
 
@@ -98,7 +98,7 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
 ## <a name="assign-preset-security-policies-to-users"></a>Atribuir políticas de segurança predefinidas aos usuários
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança predefinidas** , use <https://protection.office.com/presetSecurityPolicies> .
 

@@ -5,7 +5,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: conceptual
-ms.date: 06/09/2020
+ms.date: 09/30/2020
 ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: d3577c90-dda5-45ca-afb0-370d2889b10f
 description: Descreve a sincronização de diretórios com o Microsoft 365, limpeza de serviços de domínio do Active Directory e a ferramenta Azure Active Directory Connect.
-ms.openlocfilehash: 2d3161fb835073a22743ea4f3b00ac508479f0f2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 02b594f9db02df7e855a20dfc65b21ab2dbe91c0
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687171"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327374"
 ---
 # <a name="hybrid-identity-and-directory-synchronization-for-microsoft-365"></a>Identidade híbrida e sincronização de diretórios para o Microsoft 365
 
@@ -143,9 +143,5 @@ A sincronização de diretórios é necessária para os seguintes recursos e fun
 
 ## <a name="next-step"></a>Próxima etapa
 
-Quando estiver pronto para implantar a identidade híbrida, confira [preparar para provisionar usuários](prepare-for-directory-synchronization.md).
+Quando estiver pronto para implantar a identidade híbrida, confira [preparar para a sincronização de diretórios](prepare-for-directory-synchronization.md).
   
-## <a name="see-also"></a>Confira também
-
-[Visão geral do Microsoft 365 Enterprise](microsoft-365-overview.md)
-

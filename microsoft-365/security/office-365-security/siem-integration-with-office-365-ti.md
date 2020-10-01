@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Integre o servidor SIEM da sua organização com a proteção avançada contra ameaças do Office 365 e eventos de ameaça relacionados na API de gerenciamento de atividades do Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfb76485fec8eca2f2b62da59fa2d18a56177bba
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 544093960570fe0e68ac47dc7bf9965fba2d30a1
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203631"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327160"
 ---
 # <a name="siem-integration-with-advanced-threat-protection"></a>Integração do SIEM com proteção avançada contra ameaças
 
@@ -46,7 +46,6 @@ Recentemente, eventos de investigação automatizada e recursos de resposta no [
 
 O servidor SIEM ou outro sistema semelhante pesquisa a **auditoria.** a carga de trabalho geral para acessar eventos de detecção. Para saber mais, confira [introdução às APIs de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis). 
 
-
 ## <a name="enum-auditlogrecordtype---type-edmint32"></a>Enumeração: AuditLogRecordType - Tipo: Edm.Int32
 
 ### <a name="auditlogrecordtype"></a>AuditLogRecordType
@@ -56,7 +55,7 @@ A tabela a seguir resume os valores de **AuditLogRecordType** que são relevante
 |Valor|Nome do membro|Descrição|
 |---|---|---|
 |28|ThreatIntelligence|Eventos de phishing e malware de proteção do Exchange Online e do Office 365 ATP.|
-|41|ThreatIntelligenceUrl|Links seguros de ATP os eventos de tempo de bloqueio e substituição de bloqueio do Office 365 ATP.|
+|41|ThreatIntelligenceUrl|Links seguros de tempo de bloqueio e substituição de bloqueio de eventos do Office 365 ATP.|
 |47|ThreatIntelligenceAtpContent|Eventos de phishing e malware para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams, do Office 365 ATP.|
 |64|AirInvestigation|Eventos de investigação e resposta automatizados, como detalhes de investigação e artefatos relevantes, do plano de ATP 2 do Office 365.|
 |

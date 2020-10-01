@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: c62d09a1cf8b586b5c1d4393d7316d6d6d0cc96d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 813a9c263d9cc620606c7a5e272e47bdaf1ff7a7
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201670"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328054"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção contra phishing
 
@@ -32,11 +32,11 @@ Se a conta de um destinatário foi comprometida como resultado da mensagem de ph
 
 Se sua assinatura incluir a proteção avançada contra ameaças (ATP), você poderá usar o [Office 365 Threat Intelligence](office-365-ti.md) para identificar outros usuários que também receberam a mensagem de phishing. Você tem opções adicionais para bloquear mensagens de phishing:
 
-- [Links Seguros de ATP](set-up-atp-safe-links-policies.md)
+- [Links seguros no Office 365 ATP](set-up-atp-safe-links-policies.md)
 
-- [Anexos Seguros da ATP](set-up-atp-safe-attachments-policies.md)
+- [Anexos seguros no Office 365 ATP](set-up-atp-safe-attachments-policies.md)
 
-- [Políticas anti-phishing da ATP no Microsoft 365](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo**, **mais agressivo**ou **mais agressivo**.
+- [Políticas anti-phishing no Office 365 ATP](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo**, **mais agressivo**ou **mais agressivo**.
 
 Verifique se esses recursos ATP estão ativados.
 

@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre como a limpeza automática de zero horas (ZAP) pode mover retroativamente as mensagens entregues em uma caixa de correio do Exchange Online para a pasta de lixo eletrônico ou quarentena que estão retroativamente de spam ou phishing.
-ms.openlocfilehash: 66df614700dc5f9b9938200d384cc293a51e2f3c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 31e546ddf6e93ed0a265aef3737182cf30ae5a95
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202634"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327970"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Limpeza automática de zero horas (ZAP) no Exchange Online
 
@@ -83,7 +83,7 @@ Para obter mais informações sobre a configuração do filtro de spam verdicts,
 
 ### <a name="zap-considerations-for-office-365-advanced-threat-protection-office-365-atp"></a>Considerações de ZAP para a proteção avançada contra ameaças do Office 365 (Office 365 ATP)
 
-ZAP não colocará em quarentena qualquer mensagem que esteja no processo de varredura [dinâmica da entrega](dynamic-delivery-and-previewing.md) , ou em que a filtragem de malware já tenha substituído o anexo com o arquivo de alerta de **malware Text.txt** . Se um sinal de phishing ou spam for recebido para esses tipos de mensagens, e a veredicto de filtragem na política antispam estiver definida para executar alguma ação na mensagem (mover para lixo eletrônico, redirecionar, excluir, quarentena), ZAP será o padrão para uma ação mover para lixo eletrônico.
+ZAP não colocará em quarentena qualquer mensagem que esteja no processo de [entrega dinâmica](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) na verificação de anexos seguros, ou onde a filtragem de malware do EOP já tenha substituído o anexo com o arquivo de **alerta de malware Text.txt** . Se um sinal de phishing ou spam for recebido para esses tipos de mensagens, e a veredicto de filtragem na política antispam estiver definida para executar alguma ação na mensagem (mover para lixo eletrônico, redirecionar, excluir ou quarentena), ZAP será o padrão para uma ação "mover para lixo eletrônico".
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>Como ver se ZAP moveu a mensagem
 

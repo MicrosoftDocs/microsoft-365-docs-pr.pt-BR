@@ -3,7 +3,7 @@ title: Identidade somente na nuvem do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,16 +26,16 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Descreve como criar usuários e grupos quando sua assinatura do Microsoft 365 estiver usando a identidade somente de nuvem.
-ms.openlocfilehash: 6ec727ea3648f1daa3af42763e5f497715b987a2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 111c42e644913a8f7f6e41d4e8bf65685263f757
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547753"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327922"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Identidade somente na nuvem do Microsoft 365
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
 Com a identidade somente na nuvem, todos os usuários, grupos e contatos são armazenados no locatário do Azure Active Directory (Azure AD) da sua assinatura do Microsoft 365. Estes são os componentes básicos da identidade somente na nuvem.
  
@@ -58,17 +58,9 @@ Você pode usar grupos no Azure AD para várias finalidades que simplificam o ge
 - Provisionar automaticamente os usuários para aplicativos de software como serviço (SaaS) e para proteger o acesso a esses aplicativos com a autenticação multifator (MFA) e outras políticas de acesso condicional.
 - Provisione permissões e níveis de acesso para sites de equipe do SharePoint Online.
 
-Você cria novos ***usuários*** com:
+## <a name="next-steps-for-cloud-only-identity"></a>Próximas etapas para identidade somente na nuvem
 
-- [O Centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
-- [PowerShell para Microsoft 365](create-user-accounts-with-microsoft-365-powershell.md)
-
-Você cria novos ***grupos*** com:
-
-- [O Centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/create-groups)
-- [PowerShell para Microsoft 365](manage-microsoft-365-groups-with-powershell.md)
-
-
-## <a name="next-step-for-cloud-only-identity"></a>Próxima etapa para identidade somente na nuvem
-
-[Atribuir licenças às contas de usuário](assign-licenses-to-user-accounts.md)
+- [Gerenciar contas de usuário](manage-microsoft-365-accounts.md)
+- [Atribuir licenças às contas de usuário](assign-licenses-to-user-accounts.md)
+- [Gerenciar grupos e associações de grupo](manage-microsoft-365-groups.md)
+- [Gerenciar senhas de conta de usuário](manage-microsoft-365-passwords.md)

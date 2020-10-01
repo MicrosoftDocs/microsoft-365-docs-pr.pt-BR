@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: 881dcde1157877eb015d9700bcbcd08fd3336192
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: df3b3c7a0e8d8f614e5f743b445af07916f1dfd5
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203474"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326586"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Modos de Exibição de Campanha no Office 365 ATP
 
@@ -264,9 +264,9 @@ Se um usuário clicou na URL de carga na mensagem de phishing, as ações são e
 
 - **Permitido**
 
-- **BlockPage**: o destinatário clicou na URL de carga, mas seu acesso ao site mal-intencionado foi bloqueado pelas políticas de [links seguros de ATP](atp-safe-links.md) em sua organização.
+- **BlockPage**: o destinatário clicou na URL de carga, mas seu acesso ao site mal-intencionado foi bloqueado por uma política de [links seguros](atp-safe-links.md) em sua organização.
 
-- **BlockPageOverride**: o destinatário clicou na URL de carga da mensagem, os links seguros de ATP tentaram interrompê-los, mas eles tinham permissão para substituir o bloco. Inspecione suas [políticas de links seguros](set-up-atp-safe-links-policies.md) para ver por que os usuários têm permissão para substituir os links de segurança veredicto e continuar no site mal-intencionado.
+- **BlockPageOverride**: o destinatário clicou na URL da carga de mensagens, os links seguros tentaram interrompê-los, mas eles tinham permissão para substituir o bloco. Inspecione suas [políticas de links seguros](set-up-atp-safe-links-policies.md) para ver por que os usuários têm permissão para substituir os links de segurança veredicto e continuar no site mal-intencionado.
 
 - **PendingDetonationPage**: os anexos seguros no Office 365 ATP estão no processo de abertura e investigação da URL de carga em um ambiente de computador virtual.
 
