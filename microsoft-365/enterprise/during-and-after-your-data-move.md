@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Movimentações de dados são operações de back-end que ocorrem quando a Microsoft transfere serviços e dados associados para seu locatário para uma nova Geografia de datacenter.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: acd2601d32617c56019ca8b4bf8688ce40f5d76a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d2e63dd046f62f07e367b3632f96bf7261b99c9c
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950267"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333695"
 ---
 # <a name="during-and-after-your-data-move"></a>Durante e após a migração dos dados
 
@@ -30,8 +30,7 @@ Movimentação de dados é uma operação de back-end com impacto mínimo para o
 > [!NOTE]
 > As movimentações ocorrem em horários diferentes de cada serviço. Como resultado, você verá a funcionalidade reduzida descrita para cada serviço em um momento diferente. 
   
-Assista ao centro de mensagens do Microsoft 365 para confirmação quando se move para cada um dos Exchange Online, SharePoint Online, Teams e Skype for Business concluído. Conforme mostrado na tabela abaixo, pode levar até 24 meses, após o final do período de registro, para concluir todos os dados solicitados são movidos para todos os clientes em uma geografia específica. Se você vir problemas com o seu locatário após a movimentação, entre em contato com o [suporte](https://go.microsoft.com/fwlink/p/?LinkID=522459) para obter assistência. 
-  
+Assista ao centro de mensagens do Microsoft 365 para confirmação quando se move para cada um dos serviços de chat do Exchange Online, SharePoint Online e Teams concluídos. Conforme mostrado na tabela abaixo, pode levar até 24 meses após o término do período de registro para concluir os dados principais do cliente em repouso para a nova Geografia do datacenter.   
 
 |**Clientes com país de inscrição no**|**Todas as movimentações concluídas por**|
 |:-----|:-----|
@@ -46,7 +45,7 @@ Assista ao centro de mensagens do Microsoft 365 para confirmação quando se mov
 |África do Sul  <br/> |1º de julho de 2022  <br/> |
 |Suíça, Liechtenstein  <br/> |1º de julho de 2022  <br/> |
 |Noruega  <br/> |1 de novembro de 2022  <br/> |
-|Alemanha  <br/> |Liga  <br/> |
+|Alemanha  <br/> |1º de abril de 2023  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
@@ -67,13 +66,9 @@ Quando o SharePoint Online é movido, os dados dos seguintes serviços também s
   
 - One Drive for Business
     
-- Project Online
-    
-- Project para o Microsoft 365
-    
 - Serviços de vídeo Microsoft 365
     
-- Office no navegador s
+- Office em um navegador
     
 - Microsoft 365 Apps para empresas
     
@@ -109,7 +104,7 @@ Os seguintes recursos de pesquisa são afetados:
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 
-Além do Exchange Online, do SharePoint Online e do OneDrive for Business, a Microsoft migrará os dados do teams para o datacenter local.
+Além do Exchange Online, do SharePoint Online e do OneDrive for Business, a Microsoft migrará os dados do serviço do Team Chat para o datacenter local.
 
 - Mensagens de chat de equipes, incluindo mensagens privadas e mensagens de canal.
 - Imagens de equipes usadas em chats.
@@ -118,20 +113,7 @@ Os arquivos do teams são armazenados no SharePoint Online e os arquivos de chat
 
 ## <a name="skype-for-business"></a>Skype for Business
 
-As movimentações do Skype for Business estão disponíveis para a Austrália, Japão, Índia, Canadá, Reino Unido e Coréia do Sul.
-
-Todos os usuários serão desconectados do software cliente Skype for Business durante o recorte. A entrada automática reconectará os usuários dentro de dois minutos.
-  
-|**Recursos que funcionam durante uma movimentação inteira**|**Recursos que podem ser limitados durante uma parte da movimentação**|
-|:-----|:-----|
-| Mensagens instantâneas e chamadas de voz  <br/>  Os usuários podem adicionar contatos, adicionar grupos de contatos, adicionar reuniões, definir seu local e alterar "o que está acontecendo hoje".  <br/>  As configurações de ACP (provedor de serviços de audioconferência) são copiadas para a geografia do datacenter de destino. Se o provedor ACP estiver presente no datacenter de destino, ele funcionará. Caso contrário, ele não será.  <br/> | Os TRPS de administração de locatários (PowerShell remoto do locatário) não estarão disponíveis para que os administradores criem sessões.  <br/>  O administrador de locatários LAC não estará disponível para que os administradores entrem e alterem as configurações do usuário.  <br/> |
-   
-|**Após a movimentação**|
-|:-----|
-| Os dados da reunião (apresentações carregadas, etc.) não serão movidos e precisarão ser carregados novamente.  <br/>  Os clientes Lync mais antigos, como o cliente Lync 2010 e o Lync para Mac 2011, são conhecidos por armazenar em cache as informações de DNS para o serviço que causa problemas de entrada. Limpar o cache DNS pode ser necessário se o usuário não estiver no cliente mais recente do Windows Skype for Business. Consulte [Solucionando problemas de configuração de DNS do Skype for Business online no Office 365](https://docs.microsoft.com/skypeforbusiness/troubleshoot/online-configuration/dns-configuration-issue). Os usuários do cliente do Lync para Mac devem seguir [estas instruções](https://support.microsoft.com/kb/2629861).  <br/> |
-   
-### <a name="skype-for-business-moves-that-involve-a-third-party-audio-conferencing-provider"></a>O Skype for Business se move que envolve um provedor de audioconferência de terceiros
-Serviços complementares de provedor de conferência de áudio de terceiros para o Skype for Business não estão disponíveis para usuários hospedados em novos data centers específicos geográficos.  Os clientes existentes que usam um serviço de provedor de audioconferência de terceiros não devem solicitar uma movimentação para um novo data center específico em geografia.  Novos clientes implantados nos novos data centers específicos de Geografia precisarão solicitar uma mudança para um centro de dados regional para usar um provedor de audioconferência de terceiros.
+O Skype for Business Moves não está mais disponível.  O [Skype for Business online será desativado](https://docs.microsoft.com/lifecycle/announcements/skype-for-business-online-retirement) no dia 31 de julho de 2021. Após esse período, o serviço não estará mais acessível. 
   
 ## <a name="related-topics"></a>Tópicos relacionados 
  

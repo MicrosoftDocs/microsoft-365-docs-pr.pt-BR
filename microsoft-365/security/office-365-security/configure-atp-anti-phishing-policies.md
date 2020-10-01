@@ -14,17 +14,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com a proteção avançada contra ameaças do Office 365 (Office 365 ATP).
-ms.openlocfilehash: 2986102b549b7302a7a4ac533f80846d832aeb41
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c08046bdc9e72bc824dc28acdf2443c9071236a0
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328066"
+ms.locfileid: "48333541"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>Configurar políticas anti-phishing ATP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 As políticas de anti-phishing do ATP fazem parte da [proteção avançada contra ameaças do Office 365](office-365-atp.md). As políticas de anti-phishing do ATP podem ajudar a proteger sua organização contra ataques de phishing baseados em personificação mal-intencionada e outros tipos de ataques de phishing. Para obter mais informações sobre as diferenças entre políticas anti-phishing no Exchange Online Protection (EOP) e nas políticas de anti-phishing do ATP, consulte [proteção contra phishing](anti-phishing-protection.md).
 
@@ -57,13 +56,13 @@ Todas as organizações do Office 365 ATP têm uma política anti-phishing inter
 
 Para aumentar a eficácia da proteção contra phishing, você pode criar políticas anti-phishing personalizadas da ATP com configurações mais rígidas que são aplicadas a usuários ou grupos de usuários específicos.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **anti-phishing do ATP** , use <https://protection.office.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+- Você precisa receber permissões antes de executar os procedimentos deste artigo:
 
   - Para adicionar, modificar e excluir as políticas de anti-phishing do ATP, você precisa ser membro de um dos seguintes grupos de função:
 
@@ -176,6 +175,8 @@ Use os procedimentos a seguir para modificar as políticas de anti-phishing do A
 
      - **Incluir automaticamente os domínios que**possuo: o valor padrão é **desativado**. Para ativá-la, deslize o botão para **Ativar.**
      - **Incluir domínios personalizados**: o valor padrão é **desativado**. Para ativá-la, deslize o **botão para ativar e,** na caixa **adicionar domínios** , digite o nome do domínio (por exemplo, contoso.com), pressione Enter e repita conforme necessário.
+
+       **Observação**: no centro de conformidade & segurança, você pode inserir no máximo 20 domínios. No PowerShell do Exchange Online, você pode inserir um máximo de 50 domínios.
 
    - **Ações**: clique em **Editar**
 

@@ -1,13 +1,15 @@
-- name: Introdução ao Microsoft SharePoint Syntex
+- name: Saiba mais sobre o Microsoft SharePoint Syntex
   items:
-    - name: Introdução ao Microsoft SharePoint Syntex
-      href: microsoft-sharepoint-syntex-overview.md
-    - name: Visão geral da compreensão do documento
+    - name: Introdução ao SharePoint Syntex
+      href: index.md
+    - name: Visão geral da compreensão de documentos
       href: document-understanding-overview.md
     - name: Visão geral do processamento de formulário
       href: form-processing-overview.md
-    - name: Diferença entre modelos de processamento de formulários e compreensão de documentos
+    - name: Diferença entre modelo de compreensão de documentos e modelo de processamento de formulário
       href: difference-between-document-understanding-and-form-processing-model.md
+- name: Introdução aos modelos
+  items:
     - name: Saiba mais sobre modelos por meio do modelo de amostra
       href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Criar um centro de conteúdo
@@ -20,11 +22,11 @@
       href: explanation-types-overview.md
     - name: Aplicar um modelo
       href: apply-a-model.md
-    - name: Criar um modelo de processamento de formulários
+    - name: Criar um modelo de processamento de formulário
       href: create-a-form-processing-model.md
     - name: Aplicar um rótulo de retenção
       href: apply-a-retention-label-to-a-model.md
-    - name: Análise de uso de modelo
+    - name: Análise de uso do modelo
       href: model-usage-analytics.md
     - name: Aproveitar a taxonomia do repositório de termos ao criar um extrator
       href: leverage-term-store-taxonomy.md
@@ -46,5 +48,5 @@
       href: skos-format-reference.md
     - name: Tipo de conteúdo push para Hub
       href: push-content-type-to-hub.md
-    - name: Relatórios de repositório de termos
+    - name: Relatórios do repositório de termos
       href: term-store-analytics.md

@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 description: Os clientes existentes do Office 365 devem enviar uma solicitação antes do prazo final para que seu país tenha seus dados de serviços do Microsoft 365 movidos para a nova geografia.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ca333ca12faab84df54582ecd3212842d26e1a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 10c77fdde8583c9d791c9fed936f94aad8fc7264
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949793"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333879"
 ---
 # <a name="how-to-request-your-data-move"></a>Como solicitar a migração dos dados
 
 > [!NOTE]
-> As informações nesta página aplicam-se apenas aos clientes que tinham locatários do Microsoft 365 existentes antes dos novos datacenters em sua geografia. A qualificação de migração também depende da data de provisionamento de carga de trabalho específica, portanto, a data de criação do locatário pode nem sempre ser a única data que importa.
+> As informações nesta página só se aplicam aos clientes que tiveram locatários do Microsoft 365 existentes antes que os novos datacenters em sua região geográfica do datacenter sejam abertos. A qualificação de migração também depende da data de provisionamento do serviço específico.  A data de criação do locatário pode nem sempre ser a única data que importa.
   
-Os clientes do Microsoft 365 existentes estão qualificados para solicitar a migração de todos os dados do cliente principais da sua organização em repouso.  
+Os clientes Microsoft 365 qualificados podem solicitar a migração de todos os dados do cliente principais da sua organização em repouso.  O programa dá suporte a solicitações para cada país no período de tempo descrito na tabela e de clientes com um país de inscrição qualificado associado ao seu locatário do Microsoft 365.
   
 ## <a name="when-can-i-request-a-move"></a>Quando posso solicitar uma movimentação?
 
@@ -44,7 +44,7 @@ Os clientes do Microsoft 365 existentes estão qualificados para solicitar a mig
 |África do Sul  <br/> |25 de julho de 2019  <br/> |30 de junho de 2020  <br/> |
 |Suíça, Liechtenstein  <br/> |10 de dezembro de 2019  <br/> |30 de junho de 2020  <br/> |
 |Noruega  <br/> |15 de abril de 2020  <br/> |31 de outubro de 2020  <br/> |
-|Alemanha  <br/> |Liga  <br/> |Liga  <br/> |
+|Alemanha  <br/> |1 de outubro de 2020  <br/> |31 de março de 2021  <br/> |
 
 ## <a name="how-to-request-a-move"></a>Como solicitar uma movimentação
 
@@ -57,19 +57,17 @@ Você não verá esta seção se o seu locatário não estiver qualificado para 
   
 ![Tela de aceitação de data center](../media/dataresidencyflyoutae.jpg)
   
-Você deve ver o texto na seção **residência de dados** alterar para indicar que **sua organização solicitou a movimentação de seus dados** para o país e a data apropriados. Você também terá uma mensagem de confirmação no centro de mensagens. Isso confirma que você solicitou uma movimentação com êxito. 
-
-
+O texto na seção **residência de dados** será alterado para indicar que **sua organização solicitou a movimentação de seus dados** para o país e a data apropriados. Você também terá uma mensagem de confirmação no centro de mensagens. Isso confirma que você solicitou uma movimentação com êxito. 
   
 ## <a name="what-happens-after-requesting-a-move"></a>O que acontece depois de solicitar uma movimentação?
 
-Depois de solicitar uma movimentação, planejaremos movê-lo tão rapidamente quanto nossas restrições operacionais permitir. Devido à natureza imprevisível de muitas das restrições, não é possível compartilhar uma data ou um intervalo de tempo específico para as movimentações. Os administradores de locatários do cliente verão uma notificação no centro de mensagens após a conclusão da movimentação de cada serviço.
+Depois de solicitar uma movimentação, planejaremos mover seus dados principais do cliente em repouso para os serviços qualificados da Microsoft 365, tão rapidamente quanto nossas restrições operacionais permitem. Devido à natureza imprevisível de muitas das restrições, não é possível compartilhar uma data ou um intervalo de tempo específico para as movimentações. Os administradores de locatários do cliente verão uma notificação no centro de mensagens após a conclusão da movimentação de cada serviço.
   
 As movimentações podem levar até 24 meses do prazo da solicitação para que o seu país seja concluído.
   
 ## <a name="microsoft-teams"></a>Microsoft Teams
 
-A partir de janeiro de 2020, os clientes nos países do Office 365 qualificados podem optar por migrar dados do serviço de chat do Microsoft Teams.  As linhas do ponto de adesão foram reabertas ou estendidas para todos os países qualificados para oferecer aos clientes uma oportunidade de considerar o programa de migração com o Microsoft Teams no escopo. Os clientes que anteriormente optaram por uma movimentação de residência de dados também terão o Teams migrar para sua geografia local de datacenter, nenhuma ação adicional será necessária para esses clientes.
+A partir de janeiro de 2020, os clientes nos países do Office 365 qualificados podem optar por migrar dados do serviço de chat do Microsoft Teams.  Os clientes que anteriormente optaram por uma mudança de residência de dados também terão o Teams mudar para sua geografia local de datacenter.  Nenhuma ação adicional é necessária para esses clientes.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

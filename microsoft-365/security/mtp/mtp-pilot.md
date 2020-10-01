@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 88d92558d86e0aa2e90ef04d88a3cd4676386f15
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 250c125648f734a13899a58dd22ee3bffb0921a9
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195622"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333719"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Executar seu projeto piloto de proteção contra ameaças da Microsoft 
 
@@ -56,7 +56,7 @@ Há quatro fases na execução de um piloto de proteção contra ameaças da Mic
 |Fase | Descrição | 
 |:-------|:-----|
 | ![Planejamento](../../media/mtp/plan.png)<br>[Planejamento](mtp-pilot-plan.md)| Saiba o que você precisa considerar antes de executar o projeto piloto de proteção contra ameaças da Microsoft: <br><br>-Escopo <br> – Casos de uso <br>- Requisitos <br>– Plano de teste <br> -Critérios de êxito <br> -Scorecard 
-| ![Preparação](../../media/prepare.png) <br>[Preparação](mtp-evaluation.md)|  Acesse a central de segurança do Microsoft 365 para configurar seu ambiente piloto de proteção contra ameaças da Microsoft. Você será orientado para:<br><br>– Identificar os participantes e a aprovação de busca para o seu piloto <br> -Considerações de ambiente <br>– Acesso <br>-Configuração do Azure Active Directory <br> -Ordem de configuração <br> -Inscrever-se no Microsoft 365 E5 Trial <br> -Configurar domínio <br>-Atribuir licenças do Microsoft 365 e5 <br> – Concluir o assistente de configuração no portal|
+| ![Preparação](../../media/mtp/prep.png) <br>[Preparação](mtp-evaluation.md)|  Acesse a central de segurança do Microsoft 365 para configurar seu ambiente piloto de proteção contra ameaças da Microsoft. Você será orientado para:<br><br>– Identificar os participantes e a aprovação de busca para o seu piloto <br> -Considerações de ambiente <br>– Acesso <br>-Configuração do Azure Active Directory <br> -Ordem de configuração <br> -Inscrever-se no Microsoft 365 E5 Trial <br> -Configurar domínio <br>-Atribuir licenças do Microsoft 365 e5 <br> – Concluir o assistente de configuração no portal|
 | ![Simulação de ataque](../../media/mtp/run-sim.png) <br>[Simulação de ataque](mtp-pilot-simulate.md) | Para simular um ataque, você será orientado para:<br><br>– Verificar os requisitos do ambiente de teste <br>– Executar a simulação <br>– Investigue um incidente <br>-resolver o incidente 
 | ![Fechamento e Resumo](../../media/mtp/close.png) <br>[Fechamento e Resumo](mtp-pilot-close.md) | Quando atingir o final do processo, você será orientado para:<br><br>-Passar pela saída final<br>-Apresentar sua saída para seus participantes <br>– Fornecer comentários <br>-Siga as próximas etapas 
 

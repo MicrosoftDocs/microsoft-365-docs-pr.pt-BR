@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a52ba30aa9b89dc78e9bd5a538cb530cd7bf6e00
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 21e6e3294b8fe722214d567963223b9e62737e34
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305361"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333673"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>Planejamento do seu projeto piloto de proteção contra ameaças da Microsoft 
 
@@ -31,8 +31,49 @@ ms.locfileid: "48305361"
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Planejar seu projeto piloto de proteção contra ameaças da Microsoft" />
+      <br/>Plano</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto" />
+      <br/>Preparar</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Executar as simulações de ataque de proteção contra ameaças da Microsoft" />
+     <br/>Simular ameaças</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Feche e resuma seu piloto de proteção contra ameaças da Microsoft" />
+     <br/>Fechar e resumir</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
 
-Para garantir que seu projeto piloto seja um sucesso, é essencial planejar com detalhes e obter aprovações de seus participantes no início. Os elementos de planejamento incluem o escopo de identificação, casos de uso, requisitos e critérios de sucesso.. 
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+Você está atualmente na fase de planejamento.
+
+Para garantir que seu projeto piloto seja um sucesso, é essencial planejar com detalhes e obter aprovações de seus participantes no início. Os elementos de planejamento incluem o escopo de identificação, casos de uso, requisitos e critérios de sucesso.
 
 Este guia descreve como planejar o projeto piloto. 
 
@@ -85,5 +126,5 @@ Uma maneira de reunir todos os elementos de seu plano pode ser criar um scorecar
 
 
 ## <a name="next-step"></a>Próxima etapa
-|![Fase de preparação](../../media/prepare.png) <br>[Fase de preparação](prepare-mtpeval.md) | Prepare seu ambiente piloto de proteção contra ameaças da Microsoft
+|![Fase de preparação](../../media/mtp/prep.png) <br>[Fase de preparação](prepare-mtpeval.md) | Prepare seu ambiente piloto de proteção contra ameaças da Microsoft
 |:-------|:-----|
