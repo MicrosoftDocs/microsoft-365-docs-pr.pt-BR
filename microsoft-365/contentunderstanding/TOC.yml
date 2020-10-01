@@ -28,6 +28,10 @@
       href: model-usage-analytics.md
     - name: Aproveitar a taxonomia do repositório de termos ao criar um extrator
       href: leverage-term-store-taxonomy.md
+- name: Adoção
+  items:
+    - name: Introdução à adoção
+      href: adoption-getstarted.md
 - name: Instalação e administração
   items:
     - name: Configurar o entendimento de conteúdo
