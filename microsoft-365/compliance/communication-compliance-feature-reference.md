@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e1e1677c929ef0de5d47dbb98ef8987a8fba548d
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: e2fba7a5cf83838c440cdea8436b5bbdd360885b
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245898"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318170"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -113,7 +113,7 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
     - **Para comunicações de chat de equipes com ambientes de email híbridos**: a conformidade com comunicação pode monitorar mensagens de chat para usuários de organizações com uma implantação local do Exchange ou um provedor de email externo que tenha habilitado o Microsoft Teams. Você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Ao criar uma política de conformidade de comunicação, você atribuirá esse grupo de distribuição como a seleção de **usuários e grupos supervisionados** no assistente de política.
 
     >[!IMPORTANT]
-    >Você deve arquivar uma solicitação com o suporte da Microsoft para permitir que sua organização Use a interface gráfica do usuário no centro de conformidade de & de segurança para pesquisar dados de chat do teams para usuários locais. Para obter mais informações, consulte [pesquisando caixas de correio baseadas em nuvem para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
+    >Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams para usuários locais. Para obter mais informações, consulte [pesquisando caixas de correio baseadas em nuvem para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
 
 Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams as caixas de correio baseadas em nuvem para usuários locais.
 
@@ -194,7 +194,7 @@ Para obter informações sobre classificadores estagiários no Microsoft 365, co
 ### <a name="conditional-settings"></a>Configurações condicionais
 <a name="ConditionalSettings"> </a>
 
-As condições escolhidas para a política se aplicam às comunicações de emails e fontes de terceiros em sua organização (como do Bloomberg ou do DropBox).
+As condições escolhidas para a política se aplicam às comunicações de emails e fontes de terceiros em sua organização (como do Bloomberg instantâneo).
 
 A tabela a seguir explica mais sobre cada condição.
   

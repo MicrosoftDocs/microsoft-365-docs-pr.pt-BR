@@ -3,54 +3,52 @@ title: Aproveitar a taxonomia do repositório de termos ao criar um extrator
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Aproveitar a taxonomia do repositório de termos ao criar um extrator em seu documento entendendo o modelo no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 94f7a0389d2f06e0f8c1a60a341a02e43dfb2071
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Use a taxonomia do repositório de termos ao criar um extrator no seu modelo de compreensão de documentos no Microsoft SharePoint Syntex.
+ms.openlocfilehash: 457cab51f8dd19e95707801f793cdf2aa267d18f
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295712"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321284"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>Aproveitar a taxonomia do repositório de termos ao criar um extrator
 
+Ao criar um extrator no modelo de compreensão de documentos no SharePoint Syntex, você pode aproveitar a taxonomia do repositório de termos dos [serviços de metadados gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms) para exibir os termos preferenciais para os dados que você extrai.  
 
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CSoL]
-
-</br>
-
-Ao criar um extrator em seu documento entendendo o modelo no SharePoint Syntex, você pode aproveitar a taxonomia do repositório de termos [dos serviços de metadados gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms) para exibir os termos preferenciais dos dados extraídos.  
-
-Por exemplo, o modelo identifica e classifica todos os documentos de **contrato** que são carregados na biblioteca de documentos.  Além disso, o modelo também extrai um valor de **serviço de contrato** de cada contrato e o exibirá em uma coluna no modo de exibição de biblioteca. Entre os vários valores de serviços de contrato nos contratos, há vários valores mais antigos que sua empresa não usa mais e foi renomeado. Por exemplo, todas as referências aos termos *design*, *elementos gráficos*ou serviços de contrato *topografia* agora devem ser chamadas de *criativo*. Sempre que seu modelo extrai um dos termos desatualizados de um documento de contrato, você deseja que ele exiba o termo atual-criativo-no modo de exibição de biblioteca. No exemplo abaixo, ao treinar o modelo, vemos que um documento de exemplo contém o termo de *design*desatualizado.
+Por exemplo, o modelo identifica e classifica todos os documentos de **Contrato** que são carregados na biblioteca de documentos.  Além disso, o modelo também extrai um valor de **Serviços contratados** de cada contrato e o exibirá em uma coluna no modo de exibição de biblioteca. Entre os vários valores dos Serviços contratados nos contratos, há vários valores mais antigos que a sua empresa não usa mais e foi renomeado. Por exemplo, todas as referências aos termos de serviços contratados *Design*, *Gráficos*ou *Topografia* devem agora ser chamados *Criativo*. Sempre que seu modelo extrai um dos termos desatualizados de um documento de contrato, você quer que ele exiba o termo atual - Criativo - no modo de exibição da biblioteca. No exemplo a seguir, enquanto treina o modelo, vemos que um documento de exemplo contém o termo desatualizado *Design*.
 
    ![Repositório de termos](../media/content-understanding/design.png)</br>
 
 
-## <a name="term-set-synonyms"></a>Sinônimos de conjunto de termos 
+## <a name="use-a-managed-metadata-column-in-your-extractor"></a>Usar uma coluna de metadados gerenciados no extrator
 
-Os conjuntos de termos são configurados no repositório de termos de serviços de metadados gerenciados no centro de administração do SharePoint. No exemplo abaixo, o [conjunto de termos](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) *dos serviços de contrato* é configurado para incluir vários termos, incluindo *criativo*.  Os detalhes de ti mostram que o termo tem três sinônimos (*design*, *elementos gráficos*e *topografia*) e que os sinônimos devem ser traduzidos para *criativo*.
+Os conjuntos de termos são configurados no repositório de termos serviços de metadados gerenciados no Centro de administração do SharePoint. No exemplo a seguir, o *conjunto de termos* dos [Serviços contratados](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) é configurado para incluir um número de termos, incluindo *Criativo*.  Os detalhes mostram que o termo tem três sinônimos (*Design*, *Gráficos* e *Topografia*) e os sinônimos devem ser traduzidos para *Criativo*. 
 
    ![Conjunto de termos](../media/content-understanding/term-store.png)</br>
 
-<Mike, aqui está onde não tenho certeza sobre como descrever isso.  Qual ação diz ao modelo que quando crio um extrator para extrair e exibir uma coluna de serviços de contrato, como essa coluna "marcada" para usar o conjunto de termos de metadados gerenciados para serviços de criação? >
+Pode haver vários motivos pelos quais você pode querer usar um sinônimo em seu conjunto de termos. Por exemplo, pode haver termos desatualizados, termos renomeados ou variações de nome entre seus departamentos de organizações.
 
-## <a name="configure-your-document-library-site-column-for-a-managed-metadata-field"></a>Configurar a coluna de site de biblioteca de documentos para um campo de metadados gerenciados
+Para disponibilizar o campo de metadados gerenciados para seleção quando você cria o seu extrador em seu modelo, é necessário [adicioná-lo como uma coluna de site de metadados gerenciados](https://support.microsoft.com/office/8fad9e35-a618-4400-b3c7-46f02785d27f). Depois que você adicionar a coluna de site, ela estará disponível para você selecionar quando criar o extrator para o seu modelo.
+
+   ![Serviços contratados](../media/content-understanding/contract-services.png)</br>
 
 
-   ![Criar metadados gerenciados](../media/content-understanding/creative.png)</br>
+Depois de aplicar seu modelo à biblioteca de documentos, quando os documentos forem carregados na biblioteca, a coluna de *Serviços criativos* exibirá o termo preferido (*Criativo*) quando o extrator encontrar qualquer um dos valores de sinônimos (*Design*, *Gráficos*e *Topografia*).
+
+   ![Coluna de serviços contratados](../media/content-understanding/creative.png)</br>
+
 
 ## <a name="see-also"></a>Confira também
-[Introdução aos metadados gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms)</br>
-[Criar um extrator](create-an-extractor.md)</br>
-[Criar uma coluna de metadados gerenciados](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f?redirectSourcePath=%252farticle%252fc2a06717-8105-4aea-890d-3082853ab7b7&ui=en-US&rs=en-US&ad=US)</br>
+[Introdução a Metadados gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms)
+
+[Criar um extrator](create-an-extractor.md)
+
+[Criar uma coluna de metadados gerenciados](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f?redirectSourcePath=%252farticle%252fc2a06717-8105-4aea-890d-3082853ab7b7&ui=en-US&rs=en-US&ad=US)
 
 
 

@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 69387d2697c91d637fa6a3ab19a07f4924037637
-  ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+  ms.openlocfilehash: e2f29cdb3604dd05e665cf326b7d9d014a94f3bf
+  ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "48201448"
+  ms.lasthandoff: 09/30/2020
+  ms.locfileid: "48308997"
 landingContent:
 - title: Gerenciar proteção de informação e governança
   linkLists:
@@ -76,3 +76,9 @@ landingContent:
       url: iso-action-plan.md
     - text: Plano de ação de conformidade NIST
       url: nist-action-plan.md
+- title: Implantar soluções de conformidade
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Implantar a proteção de informações para os normas de privacidade de dados
+      url: ../solutions/information-protection-deploy.md

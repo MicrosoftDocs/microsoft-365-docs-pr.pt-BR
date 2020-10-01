@@ -1,56 +1,51 @@
 ---
-title: Documento entendendo a análise de uso do modelo
+title: Análise do uso do modelo de compreensão de documentos
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Saiba como aplicar um rótulo de retenção a um documento entendendo o modelo
-ms.openlocfilehash: a07e60d575e616b3a2765011a4fba84b4cff21ff
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Aprenda a aplicar um rótulo de retenção a um modelo de compreensão de documentos
+ms.openlocfilehash: 26e8aea3ef52e9d850dea2f2268858d8367f7408
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295759"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321272"
 ---
-# <a name="document-understanding-model-usage-analytics"></a>Documento entendendo a análise de uso do modelo
+# <a name="document-understanding-model-usage-analytics"></a>Análise do uso do modelo de compreensão de documentos
 
-</br>
+O centro de conteúdo do Microsoft SharePoint Syntex disponibiliza a você análises de uso de modelos para fornecer mais informações de como seus modelos publicados no centro de conteúdo estão sendo usados. Isso inclui um conjunto das seguintes informações:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CSoL]
+- Onde seus modelos estão sendo aplicados
+- Quantos arquivos estão sendo processadas ao longo do tempo
 
-</br>
+ ![Análise de modelos](../media/content-understanding/model-analytics.png) </br>
 
-O centro de conteúdo do Microsoft SharePoint Syntex fornece uma análise de uso de modelo para fornecer mais informações sobre como os modelos que foram publicados no centro de conteúdo estão sendo usados. Isso inclui uma acumulação das seguintes informações:
+## <a name="total-model-percentage"></a>Porcentagem total dos modelos
 
-- Onde os modelos estão sendo aplicados
-- Quantos arquivos estão sendo processados ao longo do tempo
+   ![Porcentagem total dos modelos](../media/content-understanding/total-model-percentage.png) </br>
 
- ![Análise de modelo](../media/content-understanding/model-analytics.png) </br>
+O gráfico de pizza da **porcentagem total dos modelos** exibe cada modelo publicado como uma porcentagem do total de arquivos processados por todos os modelos publicados no centro de conteúdo.
 
-## <a name="total-model-percentage"></a>Porcentagem total do modelo
-
-   ![Porcentagem total do modelo](../media/content-understanding/total-model-percentage.png) </br>
-
-O gráfico de pizza de **porcentagem total de modelo** exibe cada modelo publicado como uma porcentagem do total de arquivos processados por todos os modelos publicados no centro de conteúdo.
-
-Cada modelo também mostra a **taxa de conclusão**, a porcentagem de arquivos carregados que foram analisados com êxito pelo modelo. Uma taxa de integridade baixa pode significar que há problemas com o modelo ou com os arquivos que estão sendo analisados.
+Cada modelo também mostra a **Taxa de conclusão**, a porcentagem de arquivos carregados que foram analisados com êxito pelo modelo. Uma taxa de conclusão insuficiente pode significar que há problemas com o modelo ou com os arquivos que estão sendo analisados.
 
 ## <a name="files-processed-over-time"></a>Arquivos processados ao longo do tempo
 
    ![Arquivos processados](../media/content-understanding/files-processed-over-time.png) </br>
 
-Os **arquivos processados no** gráfico de barras de tempo mostram que você não só o número de arquivos processados ao longo do tempo para cada modelo, mas também mostra as bibliotecas de documentos às quais o modelo foi aplicado.
+O gráfico de barras dos **arquivos processados ao longo do tempo**mostra não apenas o número de arquivos processados ao longo do tempo para cada modelo, mas também mostra a biblioteca de documentos para a qual o modelo foi aplicado.
 
    ![Gráfico de barras](../media/content-understanding/bar-chart-models.png) </br>
 
 ## <a name="see-also"></a>Confira também
-[Criar um classificador](create-a-classifier.md)</br>
-[Criar um extrator](create-an-extractor.md)</br>
-[Visão geral da compreensão do documento](document-understanding-overview.md)</br>
-[Criar um modelo de processamento de formulários](create-a-form-processing-model.md)  
+[Criar um classificador](create-a-classifier.md)
+
+[Criar um extrator](create-an-extractor.md)
+
+[Visão geral da compreensão de documentos](document-understanding-overview.md)
+
+[Criar um modelo de processamento de formulário](create-a-form-processing-model.md)  

@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre classificadores estagiários (visualização)
+title: Saiba mais sobre classificadores de treinamento (visualização)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 9a628eec748681e0a22911bf7cf3774895b10ead
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 8b086690faba23e1331e02d8844503c44e7617c0
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132305"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322184"
 ---
 # <a name="learn-about-classifiers-preview"></a>Saiba mais sobre classificadores (visualização)
 
@@ -75,10 +75,8 @@ A Microsoft 365 vem com cinco classificadores pré-qualificados:
     - C++
     - Clojure
     - CoffeeScript
-    - CSS
     - Ir
     - Haskell
-    - HTML
     - Java
     - JavaScript
     - Lua

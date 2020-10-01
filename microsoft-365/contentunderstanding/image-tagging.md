@@ -6,29 +6,33 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: ''
+search.appverid: MET150
 localization_priority: Priority
 description: Saiba mais sobre a marcação de imagens no SharePoint Syntex
-ms.openlocfilehash: 38b9ad6823aa5f63a4ddec87bab7fec52a37f163
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 7b41422633934593de881bdb0c04f0a845a3fe5f
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295727"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321248"
 ---
 # <a name="image-tagging-in-sharepoint-syntex"></a>Marcação de imagem no SharePoint Syntex
 
-Por padrão, a marcação de imagem básica está habilitada no SharePoint e no OneDrive. As imagens carregadas para qualquer local são automaticamente verificadas e as marcas aplicáveis são aplicadas, caso disponíveis, em uma lista de 37 marcas básicas. Os usuários podem encontrar imagens pesquisando nas marcas de imagem.
+Com a marcação de imagens no SharePoint Syntex, os usuários podem encontrar imagens por meio de pesquisa, pesquisando em marcas de imagem e criar fluxos de trabalho com base em marcas de imagem. Por padrão, a marcação de imagem básica está habilitada no SharePoint e no OneDrive. As imagens carregadas para qualquer local são automaticamente verificadas e as marcas aplicáveis são aplicadas, caso disponíveis, em uma lista de 37 marcas básicas. Os usuários podem encontrar imagens pesquisando nas marcas de imagem.
 
 Quando um usuário carrega uma imagem, o processo de marcação é executado automaticamente. Se uma imagem for editada, o processo de marcação será executado novamente para atualizar as marcas.
 
-Os usuários com permissões para o arquivo de imagem podem ver e editar as marcas no painel de informações do arquivo ou na página de resultados da pesquisa. Quando um usuário edita as marcas de uma imagem, o sistema não executa mais a marcação automática nessa imagem, mesmo que ela seja editada.
+Os usuários com permissões para o arquivo de imagem podem ver e editar as marcas no painel de informações do arquivo ou na página de resultados da pesquisa. Quando um usuário edita as marcas de uma imagem, o sistema deixa de marcar automaticamente essa imagem, mesmo que ela seja editada.
 
-Se você desativar a marcação, imagens não serão mais marcadas automaticamente. As marcas existentes não serão removidas.
+Se você desativar a marcação, as imagens não serão mais marcadas automaticamente. As marcas existentes não serão removidas.
+
+> [!NOTE]
+> As marcas geradas pelo sistema podem ser alteradas com as atualizações na imagem ou na nossa tecnologia de marcas.
+
 
 ## <a name="configure-image-tagging"></a>Configurar marcação de imagem
 
-Você pode configurar a marcação de imagens no centro de administração do Microsoft 365.  
+Depois de [configurar o SharePoint Syntex](set-up-content-understanding.md), você pode configurar a marcação de imagens no Centro de administração do Microsoft 365.  
 
 Para ativar ou desativar a marcação de imagem
 
@@ -45,7 +49,3 @@ Para ativar ou desativar a marcação de imagem
 6. Clique em **Salvar**.
 
     ![Captura de tela do controle de marcação de imagem](../media/content-understanding/sharepoint-syntex-image-tagging-control.png)
-
-## <a name="see-also"></a>Confira também
-
-[Configurar o entendimento de conteúdo](set-up-content-understanding.md)

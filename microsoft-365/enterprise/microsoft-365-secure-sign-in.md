@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/16/2020
+ms.date: 09/30/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,24 +15,33 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Exija que seus usuários se conectem com segurança usando a autenticação multifator (MFA) e outros recursos.
-ms.openlocfilehash: 6c8f58e54ae21b4a5e1566dc72673e1d69152863
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 2e6c564e3179d0847710e2bef071dcc9e1cdbdaf
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132233"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327421"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Proteger as entradas do usuário ao locatário do seu Microsoft 365
 
 Para aumentar a segurança das entradas do usuário:
 
+- Usar o Windows Hello para Empresas
 - Use a Proteção por Senha do Azure Active Directory (Azure AD)
 - Use a autenticação multifator (MFA)
-- Implante políticas de identidade e acesso a dispositivos
+- Implantar configurações de identidade e acesso a dispositivos
+- Proteja-se contra o comprometimento de credenciais com o Azure Active Directory Identity Protection
 
-## <a name="azure-ad-password-protection"></a>Proteção por Senha do Microsoft Azure AD
+## <a name="windows-hello-for-business"></a>Windows Hello para Empresas
 
-A Proteção por Senha do Microsoft Azure AD detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos de sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.
+O Windows Hello para Empresas no Windows 10 Enterprise substitui senhas com autenticação forte de dois fatores ao entrar em um dispositivo Windows. O recurso de dois fatores é um novo tipo de credencial de usuário vinculado a um dispositivo e a uma leitura biométrica ou a um PIN.
+
+Para obter mais informações, consulte [Visão geral do Windows Hello para Empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview).
+
+
+## <a name="azure-ad-password-protection"></a>Proteção por senha do Microsoft Azure AD
+
+A proteção por senha do Microsoft Azure AD detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos de sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.
 
 Para obter mais informações, confira [Configurar a proteção por senha do Microsoft Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad).
 
@@ -63,7 +72,7 @@ Os usuários têm 14 dias para se registrar na MFA com o aplicativo Microsoft Au
 
 Os padrões de segurança garantem que todas as organizações tenham um nível básico de segurança para a entrada do usuário, que é habilitado por padrão. Você pode desativar os padrões de segurança em favor da MFA com políticas de Acesso Condicional ou para contas individuais.
 
-Para obter mais informações, confira esta [visão geral dos padrões de segurança](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+Para obter mais informações, confira a [visão geral dos padrões de segurança](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 ### <a name="conditional-access-policies"></a>Políticas de Acesso Condicional
 
@@ -77,7 +86,7 @@ Você também pode usar políticas de Acesso Condicional para recursos mais avan
 
 O Acesso Condicional requer as licenças do Microsoft Azure AD Premium P1, incluídas no Microsoft 365 E3 e E5.
 
-Para mais informações, confira esta [visão geral do Acesso Condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+Para mais informações, confira a [visão geral do acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
 ### <a name="using-these-methods-together"></a>Usando esses métodos juntos
 
@@ -96,7 +105,7 @@ Esta tabela mostra os resultados da habilitação da MFA com padrões de seguran
 | **Políticas de Acesso Condicional** | Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança  | Especificado pelo usuário durante o registro da MFA  |
 ||||
 
-## <a name="identity-and-device-access-policies"></a>Políticas de identidade e acesso a dispositivos
+## <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
 As configurações e políticas de identidade e acesso a dispositivos são recursos de pré-requisito recomendados e suas configurações combinadas com as políticas de Acesso Condicional, Intune e Azure AD Identity Protection que determinam se uma determinada solicitação de acesso deve ser concedida e sob quais condições. Essa determinação é baseada na conta do usuário da entrada, no dispositivo que está sendo usado, no aplicativo que o usuário está usando para acessar, no local a partir do qual a solicitação de acesso é feita e em uma avaliação do risco da solicitação. Esse recurso ajuda a garantir que apenas usuários e dispositivos aprovados possam acessar os recursos críticos.
 
@@ -114,27 +123,22 @@ Essas camadas e suas configurações correspondentes fornecem níveis consistent
 
 A Microsoft recomenda a configuração e distribuição de políticas de identidade de acesso a dispositivos em sua organização, incluindo configurações específicas para o Microsoft Teams, Exchange Online e SharePoint. Para obter mais informações, confira [Configurações de identidade e acesso a dispositivos](microsoft-365-policies-configurations.md).
 
-<!--
+## <a name="azure-ad-identity-protection"></a>Azure Active Directory Identity Protection
 
-## Let your users reset their own passwords
+Nesta seção, você aprenderá a configurar políticas de proteção contra o comprometimento de credenciais, onde um invasor determina o nome e senha da conta de um usuário para obter acesso aos serviços de nuvem e dados de uma organização. O Azure AD Identity Protection oferece várias maneiras de ajudar a impedir que um invasor comprometa as credenciais da conta de um usuário.
 
-Self-Service Password Reset (SSPR) enables users to reset their own passwords without impacting IT staff. Users can quickly reset their passwords at any time and from any place. Watch [this video](https://go.microsoft.com/fwlink/?linkid=2128524) to set up SSPR.
+Com a Azure AD Identity Protection, você pode:
 
-## Sign in to SaaS apps with Azure AD
+|Funcionalidade|Descrição|
+|:---------|:---------|
+| Determinar e administrar possíveis vulnerabilidades nas identidades da organização | O Azure AD usa o aprendizado de máquina para detectar anomalias e atividades suspeitas, como entrada e pós-entradas. Ao usar esses dados, o Azure AD Identity Protection gera relatórios e alertas que ajudam você a avaliar os problemas e a tomar medidas.|
+|Detectar ações suspeitas relacionadas às identidades da organização e responder a essas suspeitas automaticamente|Você pode configurar políticas de risco que respondem automaticamente a problemas detectados quando um nível de risco específico tiver sido alcançado. Essas políticas, além de outros controles de Acesso Condicional fornecidos pelo Azure AD e pelo Microsoft Intune, podem bloquear automaticamente o acesso ou tomar ações corretivas, como redefinições de senha e a imposição de Autenticação Multifator do Azure para as próximas entradas. |
+| Investigar incidentes suspeitos e resolvê-los com medidas administrativas | Você pode investigar eventos de risco usando informações sobre o incidente de segurança. Fluxos básicos de trabalho estão disponíveis para controlar investigações e iniciar ações de correção, como a redefinição de senhas. |
+|||
 
-In addition to providing cloud authentication for users, Azure AD can also be your central way to secure all your apps, whether they’re on-premises, in Microsoft’s cloud, or in another cloud. By [integrating your apps into Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration), you can make it easy for your users to discover the applications they need and sign into them securely.
+Consulte mais [informações sobre a Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection).
 
-## Results of deployment of secure sign-ins
-
-After deployment of MFA, your users:
-
-- Are required to use MFA for sign-ins.
-- Have completed the MFA registration process and are using MFA for all sign-ins.
-- Can use SSPR to reset their own passwords.
-
-- [Plan an Azure AD self-service password reset deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
-
---> 
+Consulte as [etapas para habilitar a Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).
 
 ## <a name="admin-technical-resources-for-mfa-and-secure-sign-ins"></a>Recursos técnicos de administração para MFA e entradas seguras
 
@@ -144,3 +148,6 @@ After deployment of MFA, your users:
 - [Configurar a política de registro da Autenticação Multifator do Azure](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Configurações de identidade e acesso a dispositivos](microsoft-365-policies-configurations.md)
 
+## <a name="next-step"></a>Próxima etapa
+
+[Gerenciar suas contas de usuário](manage-microsoft-365-accounts.md)
