@@ -1,9 +1,9 @@
 ---
-title: Configurar políticas de links seguros de ATP do Office 365
+title: Configurar políticas de links seguros no Office 365 ATP
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: msfttracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: article
@@ -16,157 +16,460 @@ search.appverid:
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
-description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 76d0aba026b96251a64163ef7d7f518fe0b1e1b1
-ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
+description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de links seguros e configurações globais de links seguros na proteção avançada contra ameaças do Office 365 (ATP).
+ms.openlocfilehash: 58088955a6909238c1fe5202688e0b8d1ab8e6c6
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48279586"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327220"
 ---
-# <a name="set-up-office-365-atp-safe-links-policies"></a><span data-ttu-id="65fe9-103">Configurar políticas de links seguros de ATP do Office 365</span><span class="sxs-lookup"><span data-stu-id="65fe9-103">Set up Office 365 ATP Safe Links policies</span></span>
+# <a name="set-up-safe-links-policies-in-office-365-atp"></a><span data-ttu-id="c7610-103">Configurar políticas de links seguros no Office 365 ATP</span><span class="sxs-lookup"><span data-stu-id="c7610-103">Set up Safe Links policies in Office 365 ATP</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> <span data-ttu-id="65fe9-104">Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md).</span><span class="sxs-lookup"><span data-stu-id="65fe9-104">This article is intended for business customers who have [Office 365 Advanced Threat Protection](office-365-atp.md).</span></span> <span data-ttu-id="65fe9-105">Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).</span><span class="sxs-lookup"><span data-stu-id="65fe9-105">If you are a home user looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).</span></span>
+> <span data-ttu-id="c7610-104">Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md).</span><span class="sxs-lookup"><span data-stu-id="c7610-104">This article is intended for business customers who have [Office 365 Advanced Threat Protection](office-365-atp.md).</span></span> <span data-ttu-id="c7610-105">Se você for um usuário doméstico que procura informações sobre o Safelinks no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).</span><span class="sxs-lookup"><span data-stu-id="c7610-105">If you are a home user looking for information about Safelinks in Outlook, see [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).</span></span>
 
-<span data-ttu-id="65fe9-106">Os [links seguros de ATP](atp-safe-links.md) são um recurso da [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP) que pode ajudar a proteger sua organização contra links mal-intencionados usados em phishing e outros ataques.</span><span class="sxs-lookup"><span data-stu-id="65fe9-106">[ATP Safe Links](atp-safe-links.md) is a feature in [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) that can help protect your organization from malicious links used in phishing and other attacks.</span></span> <span data-ttu-id="65fe9-107">Se você tiver as [permissões necessárias para o centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md), poderá configurar as políticas de links seguros de ATP para ajudar a garantir que quando as pessoas clicarem em endereços da Web (URLs), sua organização esteja protegida.</span><span class="sxs-lookup"><span data-stu-id="65fe9-107">If you have the necessary [permissions for the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md), you can set up ATP Safe Links policies to help ensure that when people click web addresses (URLs), your organization is protected.</span></span> <span data-ttu-id="65fe9-108">As políticas de links seguros de ATP podem ser configuradas para verificar URLs em emails e URLs em documentos do Office.</span><span class="sxs-lookup"><span data-stu-id="65fe9-108">Your ATP Safe Links policies can be configured to scan URLs in email and URLs in Office documents.</span></span> <span data-ttu-id="65fe9-109">Os links seguros de ATP examinam o email de entrada para hiperlinks mal-intencionados conhecidos e anexos que contenham malware.</span><span class="sxs-lookup"><span data-stu-id="65fe9-109">ATP Safe Links scans incoming email for known malicious hyperlinks and for attachments containing malware.</span></span> <span data-ttu-id="65fe9-110">Este recurso reconfigura URLs verificadas no prefixo de formato de URL padrão da Microsoft <https://nam01.safelinks.protection.outlook.com> .</span><span class="sxs-lookup"><span data-stu-id="65fe9-110">This feature rewrites scanned URLs to Microsoft’s standard URL format prefix <https://nam01.safelinks.protection.outlook.com>.</span></span> <span data-ttu-id="65fe9-111">Depois que um link é reconfigurado, ele é analisado para qualquer conteúdo mal-intencionado em potencial.</span><span class="sxs-lookup"><span data-stu-id="65fe9-111">Once a link is rewritten, it is analyzed for any potential malicious content.</span></span> <span data-ttu-id="65fe9-112">Com os links seguros de ATP habilitados, se um usuário clicar em um link em um email e a URL tiver sido bloqueada pela lista de URLs bloqueadas personalizada da sua organização ou se a URL for determinada como mal-intencionada, uma página de aviso será aberta.</span><span class="sxs-lookup"><span data-stu-id="65fe9-112">With ATP Safe Links enabled, if a user clicks on a link in an email and the URL has been blocked by your organization's custom blocked URL list or if the URL is determined to be malicious, a warning page will open.</span></span>
+<span data-ttu-id="c7610-106">Links seguros é um recurso da [proteção avançada contra ameaças do Office 365 (ATP)](office-365-atp.md) que fornece verificação de URL de mensagens de email de entrada no fluxo de emails e a hora de clicar em verificação de URLs e links em mensagens de email e em outros locais.</span><span class="sxs-lookup"><span data-stu-id="c7610-106">Safe Links is a feature in [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md) that provides URL scanning of inbound email messages in mail flow, and time of click verification of URLs and links in email messages and in other locations.</span></span> <span data-ttu-id="c7610-107">Para obter mais informações, consulte [links seguros no Office 365 ATP](atp-safe-links.md).</span><span class="sxs-lookup"><span data-stu-id="c7610-107">For more information, see [Safe Links in Office 365 ATP](atp-safe-links.md).</span></span>
 
-<span data-ttu-id="65fe9-113">Depois que o links de segurança ATP tiver reconfigurado uma URL, se a mensagem for encaminhada ou respondida, a URL permanecerá reconfigurada.</span><span class="sxs-lookup"><span data-stu-id="65fe9-113">Once ATP Safe Links has rewritten a URL, if the message is forwarded or replied to, the URL will remain rewritten.</span></span> <span data-ttu-id="65fe9-114">Links adicionais adicionados à mensagem que estão sendo respondidas ou encaminhadas não serão reconfigurados.</span><span class="sxs-lookup"><span data-stu-id="65fe9-114">Additional links added to the message being replied to or forwarded will not be rewritten.</span></span>
+<span data-ttu-id="c7610-108">Não há nenhuma política interna ou de links seguros padrão.</span><span class="sxs-lookup"><span data-stu-id="c7610-108">There's no built-in or default Safe Links policy.</span></span> <span data-ttu-id="c7610-109">Para obter a verificação de URLs de links seguros, você precisa criar uma ou mais políticas de links seguros, conforme descrito neste artigo.</span><span class="sxs-lookup"><span data-stu-id="c7610-109">To get Safe Links scanning of URLs, you need to create one or more Safe Links policies as described in this article.</span></span>
 
-<span data-ttu-id="65fe9-115">[Novos recursos estão sempre sendo adicionados à ATP](office-365-atp.md#new-features-in-office-365-atp).</span><span class="sxs-lookup"><span data-stu-id="65fe9-115">[New features are continually being added to ATP](office-365-atp.md#new-features-in-office-365-atp).</span></span> <span data-ttu-id="65fe9-116">À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes em suas políticas de links seguros de ATP existentes.</span><span class="sxs-lookup"><span data-stu-id="65fe9-116">As new features are added, you may need to make adjustments to your existing ATP Safe Links policies.</span></span>
+<span data-ttu-id="c7610-110">Você pode configurar políticas de links seguros no centro de conformidade e segurança & ou no PowerShell (Exchange Online PowerShell para organizações qualificadas da Microsoft 365 com caixas de correio no Exchange Online; autônomo do EOP PowerShell para organizações sem caixas de correio do Exchange Online, mas com assinaturas do Office 365 ATP Add-on).</span><span class="sxs-lookup"><span data-stu-id="c7610-110">You can configure Safe Links policies in the Security & Compliance Center or in PowerShell (Exchange Online PowerShell for eligible Microsoft 365 organizations with mailboxes in Exchange Online; standalone EOP PowerShell for organizations without Exchange Online mailboxes, but with Office 365 ATP add-on subscriptions).</span></span>
 
-## <a name="what-to-do"></a><span data-ttu-id="65fe9-117">O que fazer</span><span class="sxs-lookup"><span data-stu-id="65fe9-117">What to do</span></span>
+<span data-ttu-id="c7610-111">Os elementos básicos de uma política de links seguros são:</span><span class="sxs-lookup"><span data-stu-id="c7610-111">The basic elements of a Safe Links policy are:</span></span>
 
-1. <span data-ttu-id="65fe9-118">Examine os pré-requisitos.</span><span class="sxs-lookup"><span data-stu-id="65fe9-118">Review the prerequisites.</span></span>
+- <span data-ttu-id="c7610-112">**A política de links seguros**: Ative a proteção de links seguros, ative a verificação de URL em tempo real, especifique se deve aguardar a conclusão da verificação em tempo real antes de entregar a mensagem, ative a verificação de mensagens internas, especifique se deseja rastrear cliques do usuário em URLs e especifique se deseja permitir que os usuários cliquem em Trough para a URL original.</span><span class="sxs-lookup"><span data-stu-id="c7610-112">**The safe links policy**: Turn on Safe Links protection, turn on real-time URL scanning, specify whether to wait for real-time scanning to complete before delivering the message, turn on scanning for internal messages, specify whether to track user clicks on URLs, and specify whether to allow users to click trough to the original URL.</span></span>
+- <span data-ttu-id="c7610-113">**A regra de links seguros**: especifica a prioridade e os filtros de destinatários (a qual a política se aplica).</span><span class="sxs-lookup"><span data-stu-id="c7610-113">**The safe links rule**: Specifies the priority and recipient filters (who the policy applies to).</span></span>
 
-2. <span data-ttu-id="65fe9-119">Revise e edite a política de links seguros padrão ATP que se aplica a todos.</span><span class="sxs-lookup"><span data-stu-id="65fe9-119">Review and edit the default ATP Safe Links policy that applies to everyone.</span></span> <span data-ttu-id="65fe9-120">Por exemplo, você pode [configurar sua lista de URLs bloqueadas personalizada para links seguros de ATP](set-up-a-custom-blocked-urls-list-atp.md).</span><span class="sxs-lookup"><span data-stu-id="65fe9-120">For example, you can [set up your custom blocked URLs list for ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md).</span></span>
+<span data-ttu-id="c7610-114">A diferença entre esses dois elementos não é óbvia quando você gerencia políticas de links seguros no centro de conformidade de & de segurança:</span><span class="sxs-lookup"><span data-stu-id="c7610-114">The difference between these two elements isn't obvious when you manage Safe Links polices in the Security & Compliance Center:</span></span>
 
-3. <span data-ttu-id="65fe9-121">Adicione ou edite políticas para destinatários de email específicos, incluindo [a configuração da lista de URLs de "não reescrever" personalizada para links seguros de ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).</span><span class="sxs-lookup"><span data-stu-id="65fe9-121">Add or edit policies for specific email recipients, including [setting up your custom "Do not rewrite" URLs list for ATP Safe Links](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).</span></span>
+- <span data-ttu-id="c7610-115">Ao criar uma política de links seguros, você realmente está criando uma regra de links seguros e a política de links seguros associada ao mesmo tempo usando o mesmo nome para ambos.</span><span class="sxs-lookup"><span data-stu-id="c7610-115">When you create a Safe Links policy, you're actually creating a safe links rule and the associated safe links policy at the same time using the same name for both.</span></span>
+- <span data-ttu-id="c7610-116">Quando você modifica uma política de links seguros, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-116">When you modify a Safe Links policy, settings related to the name, priority, enabled or disabled, and recipient filters modify the safe links rule.</span></span> <span data-ttu-id="c7610-117">Todas as outras configurações modificam a política de links seguros associada.</span><span class="sxs-lookup"><span data-stu-id="c7610-117">All other settings modify the associated safe links policy.</span></span>
+- <span data-ttu-id="c7610-118">Quando você remove uma política de links seguros, a regra de links seguros e a política de links seguros associada são removidos.</span><span class="sxs-lookup"><span data-stu-id="c7610-118">When you remove a Safe Links policy, the safe links rule and the associated safe links policy are removed.</span></span>
 
-4. <span data-ttu-id="65fe9-122">Saiba mais sobre as opções de política de links seguros de ATP (neste artigo), incluindo configurações para alterações recentes.</span><span class="sxs-lookup"><span data-stu-id="65fe9-122">Learn about ATP Safe Links policy options (in this article), including settings for recent changes.</span></span>
-
-## <a name="step-1-review-the-prerequisites"></a><span data-ttu-id="65fe9-123">Etapa 1: revisar os pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="65fe9-123">Step 1: Review the prerequisites</span></span>
-
-- <span data-ttu-id="65fe9-124">Certifique-se de que sua organização tenha a [proteção avançada contra ameaças do Office 365](office-365-atp.md).</span><span class="sxs-lookup"><span data-stu-id="65fe9-124">Make sure that your organization has [Office 365 Advanced Threat Protection](office-365-atp.md).</span></span>
-
-- <span data-ttu-id="65fe9-125">Verifique se você tem as permissões necessárias.</span><span class="sxs-lookup"><span data-stu-id="65fe9-125">Make sure that you have the necessary permissions.</span></span> <span data-ttu-id="65fe9-126">Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída.</span><span class="sxs-lookup"><span data-stu-id="65fe9-126">To define (or edit) ATP policies, you must be assigned an appropriate role.</span></span> <span data-ttu-id="65fe9-127">Alguns exemplos são descritos na tabela a seguir:</span><span class="sxs-lookup"><span data-stu-id="65fe9-127">Some examples are described in the following table:</span></span>
-
-    |<span data-ttu-id="65fe9-128">Função</span><span class="sxs-lookup"><span data-stu-id="65fe9-128">Role</span></span>|<span data-ttu-id="65fe9-129">Onde/como a atribuição</span><span class="sxs-lookup"><span data-stu-id="65fe9-129">Where/how assigned</span></span>|
-    |---|---|
-    |<span data-ttu-id="65fe9-130">administrador global</span><span class="sxs-lookup"><span data-stu-id="65fe9-130">global administrator</span></span>|<span data-ttu-id="65fe9-131">Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global.</span><span class="sxs-lookup"><span data-stu-id="65fe9-131">The person who signs up to buy Microsoft 365 is a global admin by default.</span></span> <span data-ttu-id="65fe9-132">(Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)</span><span class="sxs-lookup"><span data-stu-id="65fe9-132">(See [About Microsoft 365 admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) to learn more.)</span></span>|
-    |<span data-ttu-id="65fe9-133">Administrador de Segurança</span><span class="sxs-lookup"><span data-stu-id="65fe9-133">Security Administrator</span></span>|<span data-ttu-id="65fe9-134">Centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )</span><span class="sxs-lookup"><span data-stu-id="65fe9-134">Azure Active Directory admin center (<https://aad.portal.azure.com>)</span></span>|
-    |<span data-ttu-id="65fe9-135">Gerenciamento de Organização do Exchange Online</span><span class="sxs-lookup"><span data-stu-id="65fe9-135">Exchange Online Organization Management</span></span>|<span data-ttu-id="65fe9-136">Centro de administração do Exchange ( <https://outlook.office365.com/ecp> )</span><span class="sxs-lookup"><span data-stu-id="65fe9-136">Exchange admin center (<https://outlook.office365.com/ecp>)</span></span> <br><span data-ttu-id="65fe9-137">ou</span><span class="sxs-lookup"><span data-stu-id="65fe9-137">or</span></span> <br>  <span data-ttu-id="65fe9-138">Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))</span><span class="sxs-lookup"><span data-stu-id="65fe9-138">PowerShell cmdlets (See [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))</span></span>|
-
-    <span data-ttu-id="65fe9-139">Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="65fe9-139">To learn more about roles and permissions, see [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
-
-- <span data-ttu-id="65fe9-140">Certifique-se de que os clientes do Office estão configurados para usar a [autenticação moderna](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016) (isso é para proteção de links de segurança ATP em documentos do Office).</span><span class="sxs-lookup"><span data-stu-id="65fe9-140">Make sure that Office clients are configured to use [Modern Authentication](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016) (this is for ATP Safe Links protection in Office documents).</span></span>
-
-- <span data-ttu-id="65fe9-141">[Saiba mais sobre as opções de política de links seguros de ATP](#step-4-learn-about-atp-safe-links-policy-options) (neste artigo).</span><span class="sxs-lookup"><span data-stu-id="65fe9-141">[Learn about ATP Safe Links policy options](#step-4-learn-about-atp-safe-links-policy-options) (in this article).</span></span>
-
-- <span data-ttu-id="65fe9-142">Aguarde até 30 minutos para que a política nova ou atualizada se espalhe para todos os datacenters da Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="65fe9-142">Allow up to 30 minutes for your new or updated policy to spread to all Microsoft 365 datacenters.</span></span>
-
-## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a><span data-ttu-id="65fe9-143">Etapa 2: definir (ou revisar) a política de links seguros de ATP que se aplica a todos</span><span class="sxs-lookup"><span data-stu-id="65fe9-143">Step 2: Define (or review) the ATP Safe Links policy that applies to everyone</span></span>
-
-<span data-ttu-id="65fe9-144">Quando você tiver a [proteção avançada contra ameaças do Office 365](office-365-atp.md), terá uma política de links seguros padrão da ATP que se aplica a todas as pessoas em sua organização.</span><span class="sxs-lookup"><span data-stu-id="65fe9-144">When you have [Office 365 Advanced Threat Protection](office-365-atp.md), you will have a default ATP Safe Links policy that applies to everyone in your organization.</span></span> <span data-ttu-id="65fe9-145">Certifique-se de revisar e, se necessário, edite a política padrão.</span><span class="sxs-lookup"><span data-stu-id="65fe9-145">Make sure to review, and if needed, edit your default policy.</span></span>
-
-1. <span data-ttu-id="65fe9-146">Acesse <https://protection.office.com> e entre com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="65fe9-146">Go to <https://protection.office.com> and sign in with your work or school account.</span></span>
-
-2. <span data-ttu-id="65fe9-147">Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **links seguros**de \*\* \> política\*\* .</span><span class="sxs-lookup"><span data-stu-id="65fe9-147">In the left navigation, under **Threat management**, choose **Policy \>** **Safe Links**.</span></span>
-
-3. <span data-ttu-id="65fe9-148">Na seção **políticas que se aplicam a toda a organização** , selecione **padrão**e, em seguida, escolha **Editar** (o botão Editar parece um lápis).</span><span class="sxs-lookup"><span data-stu-id="65fe9-148">In the **Policies that apply to the entire organization** section, select **Default**, and then choose **Edit** (the Edit button resembles a pencil).</span></span>
-
-   ![Clique em Editar para editar a política padrão para proteção de links seguros](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
-
-4. <span data-ttu-id="65fe9-150">Na seção **bloquear as seguintes URLs** , especifique uma ou mais URLs que você deseja impedir que as pessoas em sua organização visitem.</span><span class="sxs-lookup"><span data-stu-id="65fe9-150">In the **Block the following URLs** section, specify one or more URLs that you want to prevent people in your organization from visiting.</span></span> <span data-ttu-id="65fe9-151">(Consulte [Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP](set-up-a-custom-blocked-urls-list-atp.md).)</span><span class="sxs-lookup"><span data-stu-id="65fe9-151">(See [Set up a custom blocked URLs list using ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md).)</span></span>
-
-5. <span data-ttu-id="65fe9-152">Na seção **configurações que se aplicam a conteúdo exceto email** , marque (ou desmarque) as opções que você deseja usar.</span><span class="sxs-lookup"><span data-stu-id="65fe9-152">In the **Settings that apply to content except email** section, select (or clear) the options you want to use.</span></span> <span data-ttu-id="65fe9-153">(Recomendamos que você selecione todas as opções.)</span><span class="sxs-lookup"><span data-stu-id="65fe9-153">(We recommend that you select all the options.)</span></span>
-
-6. <span data-ttu-id="65fe9-154">Escolha **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="65fe9-154">Choose **Save**.</span></span>
-    
-## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients"></a><span data-ttu-id="65fe9-155">Etapa 3: Adicionar (ou editar) políticas de links seguros de ATP que se aplicam a todos os destinatários de email específicos</span><span class="sxs-lookup"><span data-stu-id="65fe9-155">Step 3: Add (or edit) ATP Safe Links policies that apply to all or specific email recipients</span></span>
-
-<span data-ttu-id="65fe9-156">Após revisar (ou editar) a política padrão de links seguros de ATP que se aplica a todos, a próxima etapa é definir políticas adicionais que se apliquem a todos os destinatários de email específicos.</span><span class="sxs-lookup"><span data-stu-id="65fe9-156">After you have reviewed (or edited) the default ATP Safe Links policy that applies to everyone, your next step is to define additional policies that would apply to all or specific email recipients.</span></span> <span data-ttu-id="65fe9-157">Por exemplo, você pode especificar exceções à política padrão definindo uma política adicional ou criar restrições mais granulares para todos os funcionários.</span><span class="sxs-lookup"><span data-stu-id="65fe9-157">For example, you can specify exceptions to your default policy by defining an additional policy or create more granular restrictions for all employees.</span></span>
-  
-1. <span data-ttu-id="65fe9-158">Acesse <https://protection.office.com> e entre com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="65fe9-158">Go to <https://protection.office.com> and sign in with your work or school account.</span></span> 
-    
-2. <span data-ttu-id="65fe9-159">Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **política**.</span><span class="sxs-lookup"><span data-stu-id="65fe9-159">In the left navigation, under **Threat management**, choose **Policy**.</span></span>
-
-3. <span data-ttu-id="65fe9-160">Escolha **links seguros**.</span><span class="sxs-lookup"><span data-stu-id="65fe9-160">Choose **Safe Links**.</span></span>
-
-4. <span data-ttu-id="65fe9-161">Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal de adição ( **+** )).</span><span class="sxs-lookup"><span data-stu-id="65fe9-161">In the **Policies that apply to specific recipients** section, choose **New** (the New button resembles a plus sign ( **+**)).</span></span>
-
-   ![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
-
-5. <span data-ttu-id="65fe9-163">Especifique o nome, a descrição e as configurações da política.</span><span class="sxs-lookup"><span data-stu-id="65fe9-163">Specify the name, description, and settings for your policy.</span></span>
-
-   <span data-ttu-id="65fe9-164">**Exemplo:** Para configurar uma política chamada "sem cliques diretos" que não permite que as pessoas de um determinado grupo em sua organização cliquem em um site específico sem proteção de links de ATP seguro, você pode especificar as seguintes configurações recomendadas:</span><span class="sxs-lookup"><span data-stu-id="65fe9-164">**Example:** To set up a policy called "no direct click through" that does not allow people in a certain group in your organization to click through to a specific website without ATP Safe Links protection, you might specify the following recommended settings:</span></span>
-
-   - <span data-ttu-id="65fe9-165">Na caixa **nome** , digite sem clique direto em.</span><span class="sxs-lookup"><span data-stu-id="65fe9-165">In the **Name** box, type no direct click through.</span></span>
-
-   - <span data-ttu-id="65fe9-166">Na caixa **Descrição** , digite uma descrição como, para impedir que as pessoas em determinados grupos cliquem em um site sem verificação de links seguros de ATP.</span><span class="sxs-lookup"><span data-stu-id="65fe9-166">In the **Description** box, type a description like, Prevents people in certain groups from clicking through to a website without ATP Safe Links verification.</span></span>
-
-   - <span data-ttu-id="65fe9-167">Na seção **Selecionar ação** , escolha **ativado**.</span><span class="sxs-lookup"><span data-stu-id="65fe9-167">In the **Select the action** section, choose **On**.</span></span>
-
-   - <span data-ttu-id="65fe9-168">Selecione **aplicar verificação de URL em tempo real para links suspeitos e links que apontam para os arquivos** se você quiser habilitar a URL acionamento para URLs suspeitas e de arquivo apontado (recomendado).</span><span class="sxs-lookup"><span data-stu-id="65fe9-168">Select **Apply real-time URL scanning for suspicious links and links that point to files** if you would like to enable URL detonation for suspicious and file-pointing URLs (recommended).</span></span> <span data-ttu-id="65fe9-169">E selecione **aguardar até que a verificação de URL seja concluída antes de entregar a mensagem** se você quiser que os usuários recebam mensagens depois que as URLs tiverem sido totalmente verificadas.</span><span class="sxs-lookup"><span data-stu-id="65fe9-169">And select **Wait for URL scanning to complete before delivering the message** if you wish to only have users receive messages after the URLs have been fully scanned.</span></span>
-
-   - <span data-ttu-id="65fe9-170">Selecione **aplicar links seguros a mensagens enviadas dentro da organização** se quiser habilitar links seguros para mensagens enviadas entre usuários dentro da sua organização (recomendado).</span><span class="sxs-lookup"><span data-stu-id="65fe9-170">Select **Apply Safe Links to messages sent within the organization** if you would like to enable Safe Links for messages sent between users within your organization (recommended).</span></span>
-
-   - <span data-ttu-id="65fe9-171">Selecione não **permitir que o usuário clique na URL original** se você não quiser que os usuários individuais substituam uma *verificação nas páginas de notificação de andamento ou de* *URL bloqueadas* .</span><span class="sxs-lookup"><span data-stu-id="65fe9-171">Select **Do not allow user to click through to original URL** if you do not wish the individual users to override a *scan in progress* or *URL blocked* notification pages.</span></span>
-
-   - <span data-ttu-id="65fe9-172">(Isso é opcional) Na seção não **reescrever as seguintes URLs** , especifique uma ou mais URLs consideradas seguras para sua organização.</span><span class="sxs-lookup"><span data-stu-id="65fe9-172">(This is optional) In the **Do not rewrite the following URLs** section, specify one or more URLs that are considered to be safe for your organization.</span></span> <span data-ttu-id="65fe9-173">(Consulte [Configurar uma lista de URLs "não reconfigurar" personalizada usando os links seguros de ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md))</span><span class="sxs-lookup"><span data-stu-id="65fe9-173">(See [Set up a custom "Do not rewrite" URLs list using ATP Safe Links](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md))</span></span>
-
-   - <span data-ttu-id="65fe9-174">Na seção **aplica-se** a, escolha **o destinatário é um membro de**e, em seguida, escolha o (s) grupo (s) que você deseja incluir na política.</span><span class="sxs-lookup"><span data-stu-id="65fe9-174">In the **Applied To** section, choose **The recipient is a member of**, and then choose the group(s) you want to include in your policy.</span></span> <span data-ttu-id="65fe9-175">Escolha **Adicionar**e, em seguida, escolha **OK**.</span><span class="sxs-lookup"><span data-stu-id="65fe9-175">Choose **Add**, and then choose **OK**.</span></span>
-
-6. <span data-ttu-id="65fe9-176">Escolha **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="65fe9-176">Choose **Save**.</span></span>
+<span data-ttu-id="c7610-119">No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente.</span><span class="sxs-lookup"><span data-stu-id="c7610-119">In Exchange Online PowerShell or standalone EOP PowerShell, you manage the policy and the rule separately.</span></span> <span data-ttu-id="c7610-120">Para obter mais informações, consulte a seção [usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar políticas de links seguros](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) , posteriormente neste artigo.</span><span class="sxs-lookup"><span data-stu-id="c7610-120">For more information, see the [Use Exchange Online PowerShell or standalone EOP PowerShell to configure Safe Links policies](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) section later in this article.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="65fe9-177">As políticas de links seguros de ATP com prioridade mais alta terão precedência.</span><span class="sxs-lookup"><span data-stu-id="65fe9-177">ATP Safe Links policies with higher priority will take precedence.</span></span> <span data-ttu-id="65fe9-178">Se um usuário estiver sujeito a duas ou mais políticas, somente a política de prioridade mais alta entrará em vigor.</span><span class="sxs-lookup"><span data-stu-id="65fe9-178">If a user is subject to two or more policies, only the higher priority policy will take effect.</span></span> <span data-ttu-id="65fe9-179">Se quiser que a política do cliente tenha precedência, você precisará aumentar a prioridade da política.</span><span class="sxs-lookup"><span data-stu-id="65fe9-179">If you want the customer policy to take precedence, you need to raise the priority of the policy.</span></span>
+> <span data-ttu-id="c7610-121">Você define as configurações globais para proteção de links seguros **fora** de políticas de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-121">You configure the global settings for Safe Links protection **outside** of Safe Links policies.</span></span> <span data-ttu-id="c7610-122">Para obter instruções, consulte [Configure Global Settings for Safe links in Office 365 ATP](configure-global-settings-for-safe-links.md).</span><span class="sxs-lookup"><span data-stu-id="c7610-122">For instructions, see [Configure global settings for Safe Links in Office 365 ATP](configure-global-settings-for-safe-links.md).</span></span>
 
-## <a name="step-4-learn-about-atp-safe-links-policy-options"></a><span data-ttu-id="65fe9-180">Etapa 4: Saiba mais sobre as opções de política de links seguros de ATP</span><span class="sxs-lookup"><span data-stu-id="65fe9-180">Step 4: Learn about ATP Safe Links policy options</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="c7610-123">Do que você precisa saber para começar?</span><span class="sxs-lookup"><span data-stu-id="c7610-123">What do you need to know before you begin?</span></span>
 
-<span data-ttu-id="65fe9-181">À medida que você configura ou edita suas políticas de links seguros de ATP, algumas opções estão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="65fe9-181">As you set up or edit your ATP Safe Links policies, will see several options available.</span></span> <span data-ttu-id="65fe9-182">Caso você esteja se perguntando quais são essas opções, a tabela a seguir descreve cada uma e seu efeito.</span><span class="sxs-lookup"><span data-stu-id="65fe9-182">In case you are wondering what these options are, the following table describes each one and its effect.</span></span> <span data-ttu-id="65fe9-183">Lembre-se de que há dois tipos principais de políticas de links seguros de ATP para definir ou editar:</span><span class="sxs-lookup"><span data-stu-id="65fe9-183">Remember that there are two main kinds of ATP Safe Links policies to define or edit:</span></span>
+- <span data-ttu-id="c7610-124">Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>.</span><span class="sxs-lookup"><span data-stu-id="c7610-124">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="c7610-125">Para ir diretamente para a página de **links seguros de ATP** , use <https://protection.office.com/safelinksv2> .</span><span class="sxs-lookup"><span data-stu-id="c7610-125">To go directly to the **ATP Safe Links** page, use <https://protection.office.com/safelinksv2>.</span></span>
 
-- <span data-ttu-id="65fe9-184">uma [política padrão](#default-policy-options) que se aplica a todos; e</span><span class="sxs-lookup"><span data-stu-id="65fe9-184">a [default policy](#default-policy-options) that applies to everyone; and</span></span>
-- <span data-ttu-id="65fe9-185">[políticas adicionais para destinatários específicos](#policies-that-apply-to-specific-email-recipients)</span><span class="sxs-lookup"><span data-stu-id="65fe9-185">additional [policies for specific recipients](#policies-that-apply-to-specific-email-recipients)</span></span>
+- <span data-ttu-id="c7610-126">Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="c7610-126">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="c7610-127">Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span><span class="sxs-lookup"><span data-stu-id="c7610-127">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
 
-### <a name="default-policy-options"></a><span data-ttu-id="65fe9-186">Opções de política padrão</span><span class="sxs-lookup"><span data-stu-id="65fe9-186">Default policy options</span></span>
+- <span data-ttu-id="c7610-128">Para exibir, criar, modificar e excluir as políticas de links seguros, você precisa ser membro de um dos grupos de função a seguir:</span><span class="sxs-lookup"><span data-stu-id="c7610-128">To view, create, modify, and delete Safe Links policies, you need to be a member of one of the following role groups:</span></span>
 
-<span data-ttu-id="65fe9-187">As opções de política padrão se aplicam a todas as pessoas em sua organização.</span><span class="sxs-lookup"><span data-stu-id="65fe9-187">Default policy options apply to everyone in your organization.</span></span>
+  - <span data-ttu-id="c7610-129">**Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="c7610-129">**Organization Management** or **Security Administrator** in the [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+  - <span data-ttu-id="c7610-130">**Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).</span><span class="sxs-lookup"><span data-stu-id="c7610-130">**Organization Management** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).</span></span>
 
-****
+- <span data-ttu-id="c7610-131">Para obter as configurações recomendadas para políticas de links seguros, consulte [configurações de política de links seguros](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings).</span><span class="sxs-lookup"><span data-stu-id="c7610-131">For our recommended settings for Safe Links policies, see [Safe Links policy settings](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings).</span></span>
 
-|<span data-ttu-id="65fe9-188">Essa opção</span><span class="sxs-lookup"><span data-stu-id="65fe9-188">This option</span></span>|<span data-ttu-id="65fe9-189">Faça isto</span><span class="sxs-lookup"><span data-stu-id="65fe9-189">Does this</span></span>|
-|---|---|
-|<span data-ttu-id="65fe9-190">**Bloquear as seguintes URLs**</span><span class="sxs-lookup"><span data-stu-id="65fe9-190">**Block the following URLs**</span></span>|<span data-ttu-id="65fe9-191">Permite que sua organização tenha uma lista personalizada de URLs bloqueadas automaticamente.</span><span class="sxs-lookup"><span data-stu-id="65fe9-191">Enables your organization to have a custom list of URLs that are automatically blocked.</span></span> <span data-ttu-id="65fe9-192">Quando os usuários clicarem em uma URL nessa lista, serão levados a uma [página de aviso](atp-safe-links-warning-pages.md) que explica por que a URL é bloqueada.</span><span class="sxs-lookup"><span data-stu-id="65fe9-192">When users click a URL in this list, they'll be taken to a [warning page](atp-safe-links-warning-pages.md) that explains why the URL is blocked.</span></span> <span data-ttu-id="65fe9-193">Para saber mais, confira [Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP do Office 365](set-up-a-custom-blocked-urls-list-atp.md).</span><span class="sxs-lookup"><span data-stu-id="65fe9-193">To learn more, see [Set up a custom blocked URLs list using Office 365 ATP Safe Links](set-up-a-custom-blocked-urls-list-atp.md).</span></span>|
-|<span data-ttu-id="65fe9-194">**Microsoft 365 aplicativos para empresas, Office para iOS e Android**</span><span class="sxs-lookup"><span data-stu-id="65fe9-194">**Microsoft 365 Apps for enterprise, Office for iOS and Android**</span></span>| <span data-ttu-id="65fe9-195">Quando essa opção é selecionada, a proteção de links seguros de ATP é aplicada às URLs nos arquivos do Word, Excel e PowerPoint no Windows ou no Mac OS, mensagens de email no Outlook, documentos do Office em dispositivos iOS ou Android, arquivos do Visio 2016 no Windows e arquivos abertos nas versões Web dos aplicativos do Office (Word, PowerPoint, Excel, Outlook e OneNote), desde que o usuário tenha entrado no Office 365</span><span class="sxs-lookup"><span data-stu-id="65fe9-195">When this option is selected, ATP Safe Links protection is applied to URLs in Word, Excel, and PowerPoint files on Windows or Mac OS, email messages in Outlook, Office documents on iOS or Android devices, Visio 2016 files on Windows, and files open in the web versions of Office apps (Word, PowerPoint, Excel, Outlook, and OneNote), provided the user has signed in to Office 365.</span></span>|
-|<span data-ttu-id="65fe9-196">**Não rastrear quando os usuários clicarem em links de ATP seguros**</span><span class="sxs-lookup"><span data-stu-id="65fe9-196">**Don't track when users click ATP Safe Links**</span></span>|<span data-ttu-id="65fe9-197">Quando essa opção é selecionada, clique em dados para URLs no Word, Excel, PowerPoint, documentos do Visio e mensagens de email do Outlook não são armazenados.</span><span class="sxs-lookup"><span data-stu-id="65fe9-197">When this option is selected, click data for URLs in Word, Excel, PowerPoint, Visio documents, and Outlook email messages is not stored.</span></span>|
-|<span data-ttu-id="65fe9-198">**Não permitir que os usuários cliquem através de links seguros de ATP para a URL original**</span><span class="sxs-lookup"><span data-stu-id="65fe9-198">**Don't let users click through ATP Safe Links to original URL**</span></span>|<span data-ttu-id="65fe9-199">Quando essa opção é selecionada, os usuários não podem continuar após uma [página de aviso](atp-safe-links-warning-pages.md) para uma URL que é determinada como mal-intencionada.</span><span class="sxs-lookup"><span data-stu-id="65fe9-199">When this option is selected, users cannot proceed past a [warning page](atp-safe-links-warning-pages.md) to a URL that is determined to be malicious.</span></span>|
-|
+- <span data-ttu-id="c7610-132">Aguarde até 30 minutos para que uma política nova ou atualizada seja aplicada.</span><span class="sxs-lookup"><span data-stu-id="c7610-132">Allow up to 30 minutes for a new or updated policy to be applied.</span></span>
 
-### <a name="policies-that-apply-to-specific-email-recipients"></a><span data-ttu-id="65fe9-200">Políticas que se aplicam a destinatários de email específicos</span><span class="sxs-lookup"><span data-stu-id="65fe9-200">Policies that apply to specific email recipients</span></span>
+- <span data-ttu-id="c7610-133">[Novos recursos estão sempre sendo adicionados à ATP](office-365-atp.md#new-features-in-office-365-atp).</span><span class="sxs-lookup"><span data-stu-id="c7610-133">[New features are continually being added to ATP](office-365-atp.md#new-features-in-office-365-atp).</span></span> <span data-ttu-id="c7610-134">À medida que novos recursos são adicionados, talvez seja necessário fazer ajustes em suas políticas de links seguros existentes.</span><span class="sxs-lookup"><span data-stu-id="c7610-134">As new features are added, you may need to make adjustments to your existing Safe Links policies.</span></span>
 
-****
+## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a><span data-ttu-id="c7610-135">Usar o centro de conformidade de & de segurança para criar políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-135">Use the Security & Compliance Center to create Safe Links policies</span></span>
 
-|<span data-ttu-id="65fe9-201">Essa opção</span><span class="sxs-lookup"><span data-stu-id="65fe9-201">This option</span></span>|<span data-ttu-id="65fe9-202">Faça isto</span><span class="sxs-lookup"><span data-stu-id="65fe9-202">Does this</span></span>|
-|---|---|
-|<span data-ttu-id="65fe9-203">**Desativar**</span><span class="sxs-lookup"><span data-stu-id="65fe9-203">**Off**</span></span>|<span data-ttu-id="65fe9-204">Não verifica URLs em mensagens de email.</span><span class="sxs-lookup"><span data-stu-id="65fe9-204">Does not scan URLs in email messages.</span></span>  <br/> <span data-ttu-id="65fe9-205">Permite que você defina uma regra de exceção, como uma regra que não examina URLs em mensagens de email para um grupo específico de destinatários.</span><span class="sxs-lookup"><span data-stu-id="65fe9-205">Enables you to define an exception rule, such as a rule that does not scan URLs in email messages for a specific group of recipients.</span></span>|
-|<span data-ttu-id="65fe9-206">**On**</span><span class="sxs-lookup"><span data-stu-id="65fe9-206">**On**</span></span>|<span data-ttu-id="65fe9-207">Reconfigura URLs para rotear usuários por meio de proteção de links seguros de ATP quando os usuários clicam em URLs em mensagens de email e habilita links seguros de ATP no Outlook (C2R) no Windows.</span><span class="sxs-lookup"><span data-stu-id="65fe9-207">Rewrites URLs to route users through ATP Safe Links protection when the users click URLs in email messages and enables ATP Safe Links within Outlook (C2R) on Windows.</span></span>  <br/> <span data-ttu-id="65fe9-208">Verifica uma URL quando clicado em uma lista de URLs bloqueadas ou maliciosas e dispara um acionamento da URL em segundo plano de forma assíncrona se a URL não tiver uma reputação válida.</span><span class="sxs-lookup"><span data-stu-id="65fe9-208">Checks a URL when clicked against a list of blocked or malicious URLs and triggers a detonation of the URL in the background asynchronously if the URL does not have a valid reputation.</span></span>|
-|<span data-ttu-id="65fe9-209">**Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos**</span><span class="sxs-lookup"><span data-stu-id="65fe9-209">**Apply real-time URL scanning for suspicious links and links that point to files**</span></span>|<span data-ttu-id="65fe9-210">Quando essa opção é selecionada, URLs suspeitas e links que apontam para o conteúdo baixável são verificados.</span><span class="sxs-lookup"><span data-stu-id="65fe9-210">When this option is selected, suspicious URLs and links that point to downloadable content are scanned.</span></span>|
-|<span data-ttu-id="65fe9-211">**Aguarde a conclusão da verificação de URL antes de entregar a mensagem**</span><span class="sxs-lookup"><span data-stu-id="65fe9-211">**Wait for URL scanning to complete before delivering the message**</span></span>|<span data-ttu-id="65fe9-212">Quando essa opção é selecionada, as mensagens que contêm URLs a serem verificadas serão mantidas até que as URLs terminem a verificação e sejam confirmadas para serem seguras antes de as mensagens serem entregues.</span><span class="sxs-lookup"><span data-stu-id="65fe9-212">When this option is selected, messages that contain URLs to be scanned will be held until the URLs finish scanning and are confirmed to be safe before the messages are delivered.</span></span>|
-|<span data-ttu-id="65fe9-213">**Aplicar links seguros a mensagens enviadas dentro da organização**</span><span class="sxs-lookup"><span data-stu-id="65fe9-213">**Apply Safe Links to messages sent within the organization**</span></span> <br/> | <span data-ttu-id="65fe9-214">Quando essa opção está disponível e selecionada, a proteção de links de segurança ATP é aplicada a mensagens de email enviadas entre pessoas em sua organização, desde que as contas de email sejam hospedadas no Office 365.</span><span class="sxs-lookup"><span data-stu-id="65fe9-214">When this option is available and selected, ATP Safe Links protection is applied to email messages sent between people in your organization, provided the email accounts are hosted in Office 365.</span></span>|
-|<span data-ttu-id="65fe9-215">**Não rastrear cliques do usuário**</span><span class="sxs-lookup"><span data-stu-id="65fe9-215">**Do not track user clicks**</span></span>|<span data-ttu-id="65fe9-216">Quando essa opção é selecionada, clique em dados para URLs em emails de remetentes externos não são armazenados.</span><span class="sxs-lookup"><span data-stu-id="65fe9-216">When this option is selected, click data for URLs in email from external senders is not stored.</span></span> <span data-ttu-id="65fe9-217">URL o acompanhamento de links em mensagens de email enviadas dentro da organização atualmente não tem suporte.</span><span class="sxs-lookup"><span data-stu-id="65fe9-217">URL click tracking for links within email messages sent within the organization is currently not supported.</span></span>|
-|<span data-ttu-id="65fe9-218">**Não permitir que os usuários cliquem através da URL original**</span><span class="sxs-lookup"><span data-stu-id="65fe9-218">**Do not allow users to click through to original URL**</span></span>|<span data-ttu-id="65fe9-219">Quando essa opção é selecionada, os usuários não podem continuar após uma [página de aviso](atp-safe-links-warning-pages.md) para uma URL que é determinada como mal-intencionada.</span><span class="sxs-lookup"><span data-stu-id="65fe9-219">When this option is selected, users cannot proceed past a [warning page](atp-safe-links-warning-pages.md) to a URL that is determined to be malicious.</span></span>|
-|<span data-ttu-id="65fe9-220">**Não Reescreva as seguintes URLs**</span><span class="sxs-lookup"><span data-stu-id="65fe9-220">**Do not rewrite the following URLs**</span></span>|<span data-ttu-id="65fe9-221">Deixa as URLs como estão.</span><span class="sxs-lookup"><span data-stu-id="65fe9-221">Leaves URLs as they are.</span></span> <span data-ttu-id="65fe9-222">Mantém uma lista personalizada de URLs seguras que não precisam de varredura para um grupo específico de destinatários de email em sua organização.</span><span class="sxs-lookup"><span data-stu-id="65fe9-222">Keeps a custom list of safe URLs that don't need scanning for a specific group of email recipients in your organization.</span></span> <span data-ttu-id="65fe9-223">Confira [Configurar uma lista de URLs de "não reconfigurar" personalizada usando links seguros de ATP](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) para obter mais detalhes, incluindo as alterações recentes de suporte para asteriscos curinga ( \* ).</span><span class="sxs-lookup"><span data-stu-id="65fe9-223">See [Set up a custom "Do not rewrite" URLs list using ATP Safe Links](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) for more details, including recent changes to support for wildcard asterisks (\*).</span></span>|
-|
+<span data-ttu-id="c7610-136">A criação de uma política de links seguros personalizada no centro de conformidade de & de segurança cria a regra de links seguros e a política de links seguros associada ao mesmo tempo usando o mesmo nome para ambos.</span><span class="sxs-lookup"><span data-stu-id="c7610-136">Creating a custom Safe Links policy in the Security & Compliance Center creates the safe links rule and the associated safe links policy at the same time using the same name for both.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="65fe9-224">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="65fe9-224">Next steps</span></span>
+1. <span data-ttu-id="c7610-137">No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.</span><span class="sxs-lookup"><span data-stu-id="c7610-137">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Links**.</span></span>
 
-<span data-ttu-id="65fe9-225">Depois que as políticas de links seguros de ATP estiverem vigentes, você poderá ver como a ATP está trabalhando para sua organização exibindo relatórios.</span><span class="sxs-lookup"><span data-stu-id="65fe9-225">Once your ATP Safe Links policies are in place, you can see how ATP is working for your organization by viewing reports.</span></span> <span data-ttu-id="65fe9-226">Confira os seguintes recursos para saber mais:</span><span class="sxs-lookup"><span data-stu-id="65fe9-226">See the following resources to learn more:</span></span>
+2. <span data-ttu-id="c7610-138">Na página **links seguros** , clique em **criar**.</span><span class="sxs-lookup"><span data-stu-id="c7610-138">On the **Safe Links** page, click **Create**.</span></span>
 
-- [<span data-ttu-id="65fe9-227">Exibir relatórios para a proteção avançada contra ameaças do Office 365</span><span class="sxs-lookup"><span data-stu-id="65fe9-227">View reports for Office 365 Advanced Threat Protection</span></span>](view-reports-for-atp.md)
+3. <span data-ttu-id="c7610-139">O assistente de **nova política de links seguros** é aberto.</span><span class="sxs-lookup"><span data-stu-id="c7610-139">The **New Safe Links policy** wizard opens.</span></span> <span data-ttu-id="c7610-140">Na página **nomear sua política** , defina as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="c7610-140">On the **Name your policy** page, configure the following settings:</span></span>
 
-- [<span data-ttu-id="65fe9-228">Usar o Explorer no centro de conformidade & segurança</span><span class="sxs-lookup"><span data-stu-id="65fe9-228">Use Explorer in the Security & Compliance Center</span></span>](threat-explorer.md)
+   - <span data-ttu-id="c7610-141">**Nome**: insira um nome exclusivo e descritivo para a política.</span><span class="sxs-lookup"><span data-stu-id="c7610-141">**Name**: Enter a unique, descriptive name for the policy.</span></span>
 
-<span data-ttu-id="65fe9-229">Fique à frente dos novos recursos que chegam à ATP.</span><span class="sxs-lookup"><span data-stu-id="65fe9-229">Stay on top of new features coming to ATP.</span></span> <span data-ttu-id="65fe9-230">Visite o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365).</span><span class="sxs-lookup"><span data-stu-id="65fe9-230">visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365).</span></span>
+   - <span data-ttu-id="c7610-142">**Descrição**: digite uma descrição opcional para a política.</span><span class="sxs-lookup"><span data-stu-id="c7610-142">**Description**: Enter an optional description for the policy.</span></span>
+
+   <span data-ttu-id="c7610-143">Quando terminar, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c7610-143">When you're finished, click **Next**.</span></span>
+
+4. <span data-ttu-id="c7610-144">Na página **configurações** que aparece, defina as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="c7610-144">On the **Settings** page that appears, configure the following settings:</span></span>
+
+   - <span data-ttu-id="c7610-145">**Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens**: selecione **ativado**.</span><span class="sxs-lookup"><span data-stu-id="c7610-145">**Select the action for unknown potentially malicious URLs in messages**: Select **On**.</span></span>
+
+   - <span data-ttu-id="c7610-146">**Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens**: selecione **ativado** ou deixe o valor padrão **desativado** .</span><span class="sxs-lookup"><span data-stu-id="c7610-146">**Select the action for unknown potentially malicious URLs in messages**: Select **On** or leave the default value **Off** selected.</span></span>
+
+   - <span data-ttu-id="c7610-147">**Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos**: Selecione essa configuração para habilitar a verificação em tempo real de links em mensagens de email.</span><span class="sxs-lookup"><span data-stu-id="c7610-147">**Apply real-time URL scanning for suspicious links and links that point to files**: Select this setting to enable real-time scanning of links in email messages.</span></span>
+
+   - <span data-ttu-id="c7610-148">**Aguarde a conclusão da verificação de URL antes de entregar a mensagem**: Selecione essa configuração para esperar a conclusão da verificação de URL em tempo real antes de entregar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="c7610-148">**Wait for URL scanning to complete before delivering the message**: Select this setting to wait for real-time URL scanning to complete before delivering the message.</span></span>
+
+   - <span data-ttu-id="c7610-149">**Aplicar links seguros a mensagens de email enviadas dentro da organização**: Selecione essa configuração para aplicar a política de links seguros a mensagens entre remetentes internos e destinatários internos.</span><span class="sxs-lookup"><span data-stu-id="c7610-149">**Apply safe links to email messages sent within the organization**: Select this setting to apply the Safe Links policy to messages between internal senders and internal recipients.</span></span>
+
+   - <span data-ttu-id="c7610-150">**Não rastrear cliques do usuário**: Deixe essa configuração desmarcada para permitir que o usuário de acompanhamento clique em URLs nas mensagens de email.</span><span class="sxs-lookup"><span data-stu-id="c7610-150">**Do not track user clicks**: Leave this setting unselected to enable the tracking user clicks on URLs in email messages.</span></span>
+
+   - <span data-ttu-id="c7610-151">**Não permitir que os usuários cliquem na URL original**: Selecione essa configuração para impedir que os usuários cliquem na URL original nas [páginas de aviso](atp-safe-links.md#warning-pages-from-safe-links).</span><span class="sxs-lookup"><span data-stu-id="c7610-151">**Do not allow users to click through to original URL**: Select this setting to block users from clicking through to the original URL in [warning pages](atp-safe-links.md#warning-pages-from-safe-links).</span></span>
+
+   - <span data-ttu-id="c7610-152">**Não Reescreva as seguintes URLs**: permite acessar as URLs especificadas que, caso contrário, serão bloqueadas por links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-152">**Do not rewrite the following URLs**: Allows access the specified URLs that would otherwise be blocked by Safe Links.</span></span>
+
+     <span data-ttu-id="c7610-153">Na caixa, digite a URL ou o valor desejado e clique em</span><span class="sxs-lookup"><span data-stu-id="c7610-153">In the box, type the URL or value that you want, and then click</span></span> ![Ícone Adicionar botão](../../media/ITPro-EAC-AddIcon.png)<span data-ttu-id="c7610-155">.</span><span class="sxs-lookup"><span data-stu-id="c7610-155">.</span></span>
+
+     <span data-ttu-id="c7610-156">Para remover uma entrada existente, selecione-a e clique em</span><span class="sxs-lookup"><span data-stu-id="c7610-156">To remove an existing entry, select it and then click</span></span> ![Ícone Excluir botão](../../media/ITPro-EAC-DeleteIcon.png)<span data-ttu-id="c7610-158">.</span><span class="sxs-lookup"><span data-stu-id="c7610-158">.</span></span>
+
+     <span data-ttu-id="c7610-159">Para obter a sintaxe de entrada, consulte a [sintaxe de entrada da lista "não reescrever as seguintes URLs"](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list).</span><span class="sxs-lookup"><span data-stu-id="c7610-159">For entry syntax, see [Entry syntax for the "Do not rewrite the following URLs" list](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list).</span></span>
+
+   <span data-ttu-id="c7610-160">Para obter informações detalhadas sobre essas configurações, consulte [configurações de links seguros para mensagens de email](atp-safe-links.md#safe-links-settings-for-email-messages) e [configurações de links seguros para o Microsoft Teams](atp-safe-links.md#safe-links-settings-for-microsoft-teams).</span><span class="sxs-lookup"><span data-stu-id="c7610-160">For detailed information about these settings, see [Safe Links settings for email messages](atp-safe-links.md#safe-links-settings-for-email-messages) and [Safe Links settings for Microsoft Teams](atp-safe-links.md#safe-links-settings-for-microsoft-teams).</span></span>
+
+   <span data-ttu-id="c7610-161">Para obter mais valores recomendados para configurações de política padrão e estrita, consulte [configurações de política de links seguros](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings).</span><span class="sxs-lookup"><span data-stu-id="c7610-161">For more the recommended values for Standard and Strict policy settings, see [Safe Links policy settings](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings).</span></span>
+
+   <span data-ttu-id="c7610-162">Quando terminar, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c7610-162">When you're finished, click **Next**.</span></span>
+
+5. <span data-ttu-id="c7610-163">Na página **aplicado a** que aparece, identifique os destinatários internos aos quais a política se aplica.</span><span class="sxs-lookup"><span data-stu-id="c7610-163">On the **Applied to** page that appears, identify the internal recipients that the policy applies to.</span></span>
+
+   <span data-ttu-id="c7610-164">Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção.</span><span class="sxs-lookup"><span data-stu-id="c7610-164">You can only use a condition or exception once, but you can specify multiple values for the condition or exception.</span></span> <span data-ttu-id="c7610-165">Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_).</span><span class="sxs-lookup"><span data-stu-id="c7610-165">Multiple values of the same condition or exception use OR logic (for example, _\<recipient1\>_ or _\<recipient2\>_).</span></span> <span data-ttu-id="c7610-166">Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).</span><span class="sxs-lookup"><span data-stu-id="c7610-166">Different conditions or exceptions use AND logic (for example, _\<recipient1\>_ and _\<member of group 1\>_).</span></span>
+
+   <span data-ttu-id="c7610-167">Clique em **Adicionar uma condição**.</span><span class="sxs-lookup"><span data-stu-id="c7610-167">Click **Add a condition**.</span></span> <span data-ttu-id="c7610-168">Na lista suspensa exibida, selecione uma condição em **aplicado se**:</span><span class="sxs-lookup"><span data-stu-id="c7610-168">In the dropdown that appears, select a condition under **Applied if**:</span></span>
+
+   - <span data-ttu-id="c7610-169">**O destinatário é**: especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.</span><span class="sxs-lookup"><span data-stu-id="c7610-169">**The recipient is**: Specifies one or more mailboxes, mail users, or mail contacts in your organization.</span></span>
+   - <span data-ttu-id="c7610-170">**O destinatário é um membro de**: especifica um ou mais grupos na sua organização.</span><span class="sxs-lookup"><span data-stu-id="c7610-170">**The recipient is a member of**: Specifies one or more groups in your organization.</span></span>
+   - <span data-ttu-id="c7610-171">**O domínio do destinatário é**: Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização. </span><span class="sxs-lookup"><span data-stu-id="c7610-171">**The recipient domain is**: Specifies recipients in one or more of the configured accepted domains in your organization.</span></span>
+
+   <span data-ttu-id="c7610-172">Após selecionar a condição, uma lista suspensa correspondente aparecerá com uma **destas** caixas.</span><span class="sxs-lookup"><span data-stu-id="c7610-172">After you select the condition, a corresponding dropdown appears with an **Any of these** box.</span></span>
+
+   - <span data-ttu-id="c7610-173">Clique na caixa e role pela lista de valores para selecionar.</span><span class="sxs-lookup"><span data-stu-id="c7610-173">Click in the box and scroll through the list of values to select.</span></span>
+   - <span data-ttu-id="c7610-174">Clique na caixa e comece a digitar para filtrar a lista e selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c7610-174">Click in the box and start typing to filter the list and select a value.</span></span>
+   - <span data-ttu-id="c7610-175">Para adicionar valores adicionais, clique em uma área vazia na caixa.</span><span class="sxs-lookup"><span data-stu-id="c7610-175">To add additional values, click in an empty area in the box.</span></span>
+   - <span data-ttu-id="c7610-176">Para remover entradas individuais, clique em **remover** ![ ícone de remoção ](../../media/scc-remove-icon.png) no valor.</span><span class="sxs-lookup"><span data-stu-id="c7610-176">To remove individual entries, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the value.</span></span>
+   - <span data-ttu-id="c7610-177">Para remover toda a condição, clique em **remover** ![ ícone de remoção ](../../media/scc-remove-icon.png) na condição.</span><span class="sxs-lookup"><span data-stu-id="c7610-177">To remove the whole condition, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the condition.</span></span>
+
+   <span data-ttu-id="c7610-178">Para adicionar uma condição adicional, clique em **Adicionar uma condição** e selecione um valor restante em **aplica If**.</span><span class="sxs-lookup"><span data-stu-id="c7610-178">To add an additional condition, click **Add a condition** and select a remaining value under **Applied if**.</span></span>
+
+   <span data-ttu-id="c7610-179">Para adicionar exceções, clique em **Adicionar uma condição** e selecione uma exceção em **exceto se**.</span><span class="sxs-lookup"><span data-stu-id="c7610-179">To add exceptions, click **Add a condition** and select an exception under **Except if**.</span></span> <span data-ttu-id="c7610-180">As configurações e o comportamento são exatamente como as condições.</span><span class="sxs-lookup"><span data-stu-id="c7610-180">The settings and behavior are exactly like the conditions.</span></span>
+
+   <span data-ttu-id="c7610-181">Quando terminar, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c7610-181">When you're finished, click **Next**.</span></span>
+
+6. <span data-ttu-id="c7610-182">Na página **revise suas configurações** exibidas, revise suas configurações.</span><span class="sxs-lookup"><span data-stu-id="c7610-182">On the **Review your settings** page that appears, review your settings.</span></span> <span data-ttu-id="c7610-183">Você pode clicar em **Editar** em cada configuração para modificá-la.</span><span class="sxs-lookup"><span data-stu-id="c7610-183">You can click **Edit** on each setting to modify it.</span></span>
+
+   <span data-ttu-id="c7610-184">Quando tiver concluído, clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="c7610-184">When you're finished, click **Finish**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a><span data-ttu-id="c7610-185">Usar o centro de conformidade de & de segurança para exibir políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-185">Use the Security & Compliance Center to view Safe Links policies</span></span>
+
+1. <span data-ttu-id="c7610-186">No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.</span><span class="sxs-lookup"><span data-stu-id="c7610-186">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Links**.</span></span>
+
+2. <span data-ttu-id="c7610-187">Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).</span><span class="sxs-lookup"><span data-stu-id="c7610-187">On the **Safe Links** page, select a policy from the list and click on it (don't select the check box).</span></span>
+
+   <span data-ttu-id="c7610-188">Os detalhes da política aparecem em saída</span><span class="sxs-lookup"><span data-stu-id="c7610-188">The policy details appear in a fly out</span></span>
+
+## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a><span data-ttu-id="c7610-189">Usar o centro de conformidade de & de segurança para modificar as políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-189">Use the Security & Compliance Center to modify Safe Links policies</span></span>
+
+1. <span data-ttu-id="c7610-190">No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.</span><span class="sxs-lookup"><span data-stu-id="c7610-190">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Links**.</span></span>
+
+2. <span data-ttu-id="c7610-191">Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).</span><span class="sxs-lookup"><span data-stu-id="c7610-191">On the **Safe Links** page, select a policy from the list and click on it (don't select the check box).</span></span>
+
+3. <span data-ttu-id="c7610-192">Nos detalhes da política que aparecem, clique em **Editar política**.</span><span class="sxs-lookup"><span data-stu-id="c7610-192">In the policy details fly out that appears, click **Edit policy**.</span></span>
+
+<span data-ttu-id="c7610-193">As configurações disponíveis no menu suspenso que aparecem são idênticas às descritas na seção [usar o centro de conformidade de segurança & para criar políticas de links seguros](#use-the-security--compliance-center-to-create-safe-links-policies) .</span><span class="sxs-lookup"><span data-stu-id="c7610-193">The available settings in the fly out that appears are identical to those described in the [Use the Security & Compliance Center to create Safe Links policies](#use-the-security--compliance-center-to-create-safe-links-policies) section.</span></span>
+
+<span data-ttu-id="c7610-194">Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da política, consulte as seções a seguir.</span><span class="sxs-lookup"><span data-stu-id="c7610-194">To enable or disable a policy or set the policy priority order, see the following sections.</span></span>
+
+### <a name="enable-or-disable-safe-links-policies"></a><span data-ttu-id="c7610-195">Habilitar ou desabilitar políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-195">Enable or disable Safe Links policies</span></span>
+
+1. <span data-ttu-id="c7610-196">No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.</span><span class="sxs-lookup"><span data-stu-id="c7610-196">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Links**.</span></span>
+
+2. <span data-ttu-id="c7610-197">Observe o valor na coluna **status** :</span><span class="sxs-lookup"><span data-stu-id="c7610-197">Notice the value in the **Status** column:</span></span>
+
+   - <span data-ttu-id="c7610-198">Mova o botão de alternância para a esquerda para desabilitar a política:</span><span class="sxs-lookup"><span data-stu-id="c7610-198">Move the toggle to the left to disable the policy:</span></span> ![Desativar política](../../media/scc-toggle-off.png)<span data-ttu-id="c7610-200">.</span><span class="sxs-lookup"><span data-stu-id="c7610-200">.</span></span>
+
+   - <span data-ttu-id="c7610-201">Mova o botão de alternância para a direita para habilitar a política:</span><span class="sxs-lookup"><span data-stu-id="c7610-201">Move the toggle to the right to enable the policy:</span></span> ![Ativar política](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)<span data-ttu-id="c7610-203">.</span><span class="sxs-lookup"><span data-stu-id="c7610-203">.</span></span>
+
+### <a name="set-the-priority-of-safe-links-policies"></a><span data-ttu-id="c7610-204">Definir a prioridade das políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-204">Set the priority of Safe Links policies</span></span>
+
+<span data-ttu-id="c7610-205">Por padrão, as políticas de links seguros recebem uma prioridade com base na ordem em que foram criadas (as políticas mais recentes são de prioridade mais baixa do que as diretivas mais antigas).</span><span class="sxs-lookup"><span data-stu-id="c7610-205">By default, Safe Links policies are given a priority that's based on the order they were created in (newer polices are lower priority than older policies).</span></span> <span data-ttu-id="c7610-206">Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade).</span><span class="sxs-lookup"><span data-stu-id="c7610-206">A lower priority number indicates a higher priority for the policy (0 is the highest), and policies are processed in priority order (higher priority policies are processed before lower priority policies).</span></span> <span data-ttu-id="c7610-207">Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.</span><span class="sxs-lookup"><span data-stu-id="c7610-207">No two policies can have the same priority, and policy processing stops after the first policy is applied.</span></span>
+
+<span data-ttu-id="c7610-208">Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).</span><span class="sxs-lookup"><span data-stu-id="c7610-208">For more information about the order of precedence and how multiple policies are evaluated and applied, see [Order and precedence of email protection](how-policies-and-protections-are-combined.md).</span></span>
+
+<span data-ttu-id="c7610-209">As políticas de links seguros são exibidas na ordem em que são processadas (a primeira política tem o valor de **prioridade** 0).</span><span class="sxs-lookup"><span data-stu-id="c7610-209">Safe Links policies are displayed in the order they're processed (the first policy has the **Priority** value 0).</span></span>
+
+<span data-ttu-id="c7610-210">**Observação**: no centro de conformidade & segurança, você só pode alterar a prioridade da política de links seguros após criá-la.</span><span class="sxs-lookup"><span data-stu-id="c7610-210">**Note**: In the Security & Compliance Center, you can only change the priority of the Safe Links policy after you create it.</span></span> <span data-ttu-id="c7610-211">No PowerShell, você pode substituir a prioridade padrão ao criar a regra de links seguros (que pode afetar a prioridade das regras existentes).</span><span class="sxs-lookup"><span data-stu-id="c7610-211">In PowerShell, you can override the default priority when you create the safe links rule (which can affect the priority of existing rules).</span></span>
+
+<span data-ttu-id="c7610-212">Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).</span><span class="sxs-lookup"><span data-stu-id="c7610-212">To change the priority of a policy, move the policy up or down in the list (you can't directly modify the **Priority** number in the Security & Compliance Center).</span></span>
+
+1. <span data-ttu-id="c7610-213">No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.</span><span class="sxs-lookup"><span data-stu-id="c7610-213">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Links**.</span></span>
+
+2. <span data-ttu-id="c7610-214">Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).</span><span class="sxs-lookup"><span data-stu-id="c7610-214">On the **Safe Links** page, select a policy from the list and click on it (don't select the check box).</span></span>
+
+3. <span data-ttu-id="c7610-215">Na saída detalhes da política exibida, clique no botão prioridade disponível:</span><span class="sxs-lookup"><span data-stu-id="c7610-215">In the policy details fly out that appears, click the available priority button:</span></span>
+
+   - <span data-ttu-id="c7610-216">A política de links seguros com o valor de **prioridade** **0** tem apenas o botão **diminuir prioridade** disponível.</span><span class="sxs-lookup"><span data-stu-id="c7610-216">The Safe Links policy with the **Priority** value **0** has only the **Decrease priority** button available.</span></span>
+
+   - <span data-ttu-id="c7610-217">A política de links seguros com o menor valor de **prioridade** (por exemplo, **3**) tem apenas o botão **aumentar prioridade** disponível.</span><span class="sxs-lookup"><span data-stu-id="c7610-217">The Safe Links policy with the lowest **Priority** value (for example, **3**) has only the **Increase priority** button available.</span></span>
+
+   - <span data-ttu-id="c7610-218">Se você tiver três ou mais políticas de links seguros, as políticas entre os valores de prioridade mais alta e mais baixa terão os botões **aumentar prioridade** e **diminuir prioridade** disponíveis.</span><span class="sxs-lookup"><span data-stu-id="c7610-218">If you have three or more Safe Links policies, policies between the highest and lowest priority values have both the **Increase priority** and **Decrease priority** buttons available.</span></span>
+
+4. <span data-ttu-id="c7610-219">Clique em **aumentar prioridade** ou **diminuir prioridade** para alterar o valor de **prioridade** .</span><span class="sxs-lookup"><span data-stu-id="c7610-219">Click **Increase priority** or **Decrease priority** to change the **Priority** value.</span></span>
+
+5. <span data-ttu-id="c7610-220">Quando terminar, clique em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="c7610-220">When you're finished, click **Close**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a><span data-ttu-id="c7610-221">Usar o centro de conformidade de & de segurança para remover políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-221">Use the Security & Compliance Center to remove Safe Links policies</span></span>
+
+1. <span data-ttu-id="c7610-222">No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.</span><span class="sxs-lookup"><span data-stu-id="c7610-222">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Links**.</span></span>
+
+2. <span data-ttu-id="c7610-223">Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).</span><span class="sxs-lookup"><span data-stu-id="c7610-223">On the **Safe Links** page, select a policy from the list and click on it (don't select the check box).</span></span>
+
+3. <span data-ttu-id="c7610-224">Nos detalhes da política de saída, clique em **excluir política**e clique em **Sim** na caixa de diálogo de aviso que aparece.</span><span class="sxs-lookup"><span data-stu-id="c7610-224">In the policy details fly out that appears, click **Delete policy**, and then click **Yes** in the warning dialog that appears.</span></span>
+
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a><span data-ttu-id="c7610-225">Usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-225">Use Exchange Online PowerShell or standalone EOP PowerShell to configure Safe Links policies</span></span>
+
+<span data-ttu-id="c7610-226">Como descrito anteriormente, uma política de links seguros consiste em uma política de links seguros e uma regra de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-226">As previously described, a Safe Links policy consists of a safe links policy and a safe links rule.</span></span>
+
+<span data-ttu-id="c7610-227">No PowerShell, a diferença entre políticas de links seguros e regras de links seguros é aparente.</span><span class="sxs-lookup"><span data-stu-id="c7610-227">In PowerShell, the difference between safe links policies and safe links rules is apparent.</span></span> <span data-ttu-id="c7610-228">Você gerencia as políticas de links seguros usando os cmdlets \*\* \* -SafeLinksPolicy\*\* e gerencia as regras de links seguros usando os cmdlets \*\* \* -SafeLinksRule\*\* .</span><span class="sxs-lookup"><span data-stu-id="c7610-228">You manage safe links policies by using the **\*-SafeLinksPolicy** cmdlets, and you manage safe links rules by using the **\*-SafeLinksRule** cmdlets.</span></span>
+
+- <span data-ttu-id="c7610-229">No PowerShell, você cria a política de links seguros primeiro e, em seguida, cria a regra de links seguros que identifica a política à qual a regra se aplica.</span><span class="sxs-lookup"><span data-stu-id="c7610-229">In PowerShell, you create the safe links policy first, then you create the safe links rule that identifies the policy that the rule applies to.</span></span>
+- <span data-ttu-id="c7610-230">No PowerShell, você modifica as configurações da política de links seguros e da regra de links seguros separadamente.</span><span class="sxs-lookup"><span data-stu-id="c7610-230">In PowerShell, you modify the settings in the safe links policy and the safe links rule separately.</span></span>
+- <span data-ttu-id="c7610-231">Quando você remove uma política de links seguros do PowerShell, a regra de links seguros correspondente não é removida automaticamente e vice-versa.</span><span class="sxs-lookup"><span data-stu-id="c7610-231">When you remove a safe links policy from PowerShell, the corresponding safe links rule isn't automatically removed, and vice versa.</span></span>
+
+### <a name="use-powershell-to-create-safe-links-policies"></a><span data-ttu-id="c7610-232">Usar o PowerShell para criar políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-232">Use PowerShell to create Safe Links policies</span></span>
+
+<span data-ttu-id="c7610-233">A criação de uma política de links seguros no PowerShell é um processo de duas etapas:</span><span class="sxs-lookup"><span data-stu-id="c7610-233">Creating a Safe Links policy in PowerShell is a two-step process:</span></span>
+
+1. <span data-ttu-id="c7610-234">Criar a política de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-234">Create the safe links policy.</span></span>
+2. <span data-ttu-id="c7610-235">Crie a regra de links seguros que especifica a política de links seguros à qual a regra se aplica.</span><span class="sxs-lookup"><span data-stu-id="c7610-235">Create the safe links rule that specifies the safe links policy that the rule applies to.</span></span>
+
+ <span data-ttu-id="c7610-236">**Observações**:</span><span class="sxs-lookup"><span data-stu-id="c7610-236">**Notes**:</span></span>
+
+- <span data-ttu-id="c7610-237">Você pode criar uma nova regra de links seguros e atribuir uma política de links seguros sem associação existente a ela.</span><span class="sxs-lookup"><span data-stu-id="c7610-237">You can create a new safe links rule and assign an existing, unassociated safe links policy to it.</span></span> <span data-ttu-id="c7610-238">Uma regra de links seguros não pode ser associada a mais de uma política de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-238">A safe links rule can't be associated with more than one safe links policy.</span></span>
+
+- <span data-ttu-id="c7610-239">Você pode definir as seguintes configurações em novas políticas de links seguros no PowerShell que não estão disponíveis no centro de conformidade & de segurança até que a política seja criada:</span><span class="sxs-lookup"><span data-stu-id="c7610-239">You can configure the following settings on new safe links policies in PowerShell that aren't available in the Security & Compliance Center until after you create the policy:</span></span>
+
+  - <span data-ttu-id="c7610-240">Crie a nova política como desabilitada (_habilitada_ `$false` no cmdlet **New-SafeLinksRule** ).</span><span class="sxs-lookup"><span data-stu-id="c7610-240">Create the new policy as disabled (_Enabled_ `$false` on the **New-SafeLinksRule** cmdlet).</span></span>
+  - <span data-ttu-id="c7610-241">Definir a prioridade da política durante a criação (_prioridade_ _\<Number\>_ ) no cmdlet **New-SafeLinksRule** ).</span><span class="sxs-lookup"><span data-stu-id="c7610-241">Set the priority of the policy during creation (_Priority_ _\<Number\>_) on the **New-SafeLinksRule** cmdlet).</span></span>
+
+- <span data-ttu-id="c7610-242">Uma nova política de links seguros que você cria no PowerShell não fica visível no centro de conformidade & segurança até que você atribua a política a uma regra de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-242">A new safe links policy that you create in PowerShell isn't visible in the Security & Compliance Center until you assign the policy to a safe links rule.</span></span>
+
+#### <a name="step-1-use-powershell-to-create-a-safe-links-policy"></a><span data-ttu-id="c7610-243">Etapa 1: usar o PowerShell para criar uma política de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-243">Step 1: Use PowerShell to create a safe links policy</span></span>
+
+<span data-ttu-id="c7610-244">Para criar uma política de links seguros, use esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-244">To create a safe links policy, use this syntax:</span></span>
+
+```PowerShell
+New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEnabled <$true | $false>] [-EnableSafeLinksForTeams <$true | $false>] [-ScanUrls <$true | $false>] [-DeliverMessageAfterScan <$true | $false>] [-EnableForInternalSenders <$true | $false>] [-DoNotAllowClickThrough <$true | $false>] [-DoNotTrackUserClicks <$true | $false>] [-DoNotRewriteUrls "Entry1","Entry2",..."EntryN"]
+```
+
+<span data-ttu-id="c7610-245">**Observações**:</span><span class="sxs-lookup"><span data-stu-id="c7610-245">**Notes**:</span></span>
+
+- <span data-ttu-id="c7610-246">Para obter detalhes sobre a sintaxe de entrada a ser usada para o parâmetro _DoNotRewriteUrls_ , consulte [a sintaxe de entrada da lista "não reescrever as seguintes URLs"](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list).</span><span class="sxs-lookup"><span data-stu-id="c7610-246">For details about the entry syntax to use for the _DoNotRewriteUrls_ parameter, see [Entry syntax for the "Do not rewrite the following URLs" list](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list).</span></span>
+
+- <span data-ttu-id="c7610-247">Para obter sintaxe adicional que você pode usar para o parâmetro _DoNotRewriteUrls_ ao modificar as políticas de links seguros existentes usando o cmdlet **set-SafeLinksPolicy** , consulte a seção [usar o PowerShell para modificar as políticas de links seguros](#use-powershell-to-modify-safe-links-policies) mais adiante neste artigo.</span><span class="sxs-lookup"><span data-stu-id="c7610-247">For additional syntax that you can use for the _DoNotRewriteUrls_ parameter when you modify existing safe links policies by using the **Set-SafeLinksPolicy** cmdlet, see the [Use PowerShell to modify safe links policies](#use-powershell-to-modify-safe-links-policies) section later in this article.</span></span>
+
+<span data-ttu-id="c7610-248">Este exemplo cria uma política de links seguros chamada contoso todos com os seguintes valores:</span><span class="sxs-lookup"><span data-stu-id="c7610-248">This example creates a safe links policy named Contoso All with the following values:</span></span>
+
+- <span data-ttu-id="c7610-249">Ative a verificação de URL e reescreva em mensagens de email.</span><span class="sxs-lookup"><span data-stu-id="c7610-249">Turn on URL scanning and rewriting in email messages.</span></span>
+- <span data-ttu-id="c7610-250">Ative a verificação de URL no Microsoft Teams (toque apenas em visualização).</span><span class="sxs-lookup"><span data-stu-id="c7610-250">Turn on URL scanning in Teams (TAP Preview only).</span></span>
+- <span data-ttu-id="c7610-251">Ative a verificação em tempo real de URLs clicadas, incluindo links clicados apontando para arquivos.</span><span class="sxs-lookup"><span data-stu-id="c7610-251">Turn on real-time scanning of clicked URLs, including clicked links that point to files.</span></span>
+- <span data-ttu-id="c7610-252">Aguarde a conclusão da verificação de URL antes de entregar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="c7610-252">Wait for URL scanning to complete before delivering the message.</span></span>
+- <span data-ttu-id="c7610-253">Ative a verificação de URL e a reconfiguração de mensagens internas.</span><span class="sxs-lookup"><span data-stu-id="c7610-253">Turn on URL scanning and rewriting for internal messages.</span></span>
+- <span data-ttu-id="c7610-254">Rastrear cliques do usuário relacionados à proteção de links seguros (não estamos usando o parâmetro _DoNotTrackUserClicks_ , e o valor padrão é $false, o que significa que os cliques do usuário são controlados).</span><span class="sxs-lookup"><span data-stu-id="c7610-254">Track user clicks related to Safe Links protection (we aren't using the _DoNotTrackUserClicks_ parameter, and the default value is $false, which means user clicks are tracked).</span></span>
+- <span data-ttu-id="c7610-255">Não permita que os usuários cliquem até a URL original.</span><span class="sxs-lookup"><span data-stu-id="c7610-255">Do not allow users to click through to the original URL.</span></span>
+
+```PowerShell
+New-SafeLinksPolicy -Name "Contoso All" -IsEnabled $true -EnableSafeLinksForTeams $true -ScanUrls $true -DeliverMessageAfterScan $true -EnableForInternalSenders $true -DoNotAllowClickThrough $true
+```
+
+<span data-ttu-id="c7610-256">Para informações detalhadas de sintaxes e de parâmetros, consulte [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy).</span><span class="sxs-lookup"><span data-stu-id="c7610-256">For detailed syntax and parameter information, see [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy).</span></span>
+
+#### <a name="step-2-use-powershell-to-create-a-safe-links-rule"></a><span data-ttu-id="c7610-257">Etapa 2: usar o PowerShell para criar uma regra de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-257">Step 2: Use PowerShell to create a safe links rule</span></span>
+
+<span data-ttu-id="c7610-258">Para criar uma regra de links seguros, use esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-258">To create a safe links rule, use this syntax:</span></span>
+
+```PowerShell
+New-SafeLinksRule -Name "<RuleName>" -SafeLinksPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"] [-Enabled <$true | $false>]
+```
+
+<span data-ttu-id="c7610-259">Este exemplo cria uma regra de links seguros chamada contoso com as seguintes condições:</span><span class="sxs-lookup"><span data-stu-id="c7610-259">This example creates a safe links rule named Contoso All with the following conditions:</span></span>
+
+- <span data-ttu-id="c7610-260">A regra é associada à política de links seguros chamada contoso ALL.</span><span class="sxs-lookup"><span data-stu-id="c7610-260">The rule is associated with the safe links policy named Contoso All.</span></span>
+- <span data-ttu-id="c7610-261">A regra se aplica a todos os destinatários no domínio contoso.com.</span><span class="sxs-lookup"><span data-stu-id="c7610-261">The rule applies to all recipients in the contoso.com domain.</span></span>
+- <span data-ttu-id="c7610-262">Como não estamos usando o parâmetro _Priority_ , a prioridade padrão é usada.</span><span class="sxs-lookup"><span data-stu-id="c7610-262">Because we aren't using the _Priority_ parameter, the default priority is used.</span></span>
+- <span data-ttu-id="c7610-263">A regra está habilitada (não estamos usando o parâmetro _Enabled_ e o valor padrão é `$true` ).</span><span class="sxs-lookup"><span data-stu-id="c7610-263">The rule is enabled (we aren't using the _Enabled_ parameter, and the default value is `$true`).</span></span>
+
+```powershell
+New-SafeLinksRule -Name "Contoso All" -SafeLinksPolicy "Contoso All" -RecipientDomainIs contoso.com
+```
+
+<span data-ttu-id="c7610-264">Para informações detalhadas de sintaxes e de parâmetros, consulte [New-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/new-safelinksrule).</span><span class="sxs-lookup"><span data-stu-id="c7610-264">For detailed syntax and parameter information, see [New-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/new-safelinksrule).</span></span>
+
+### <a name="use-powershell-to-view-safe-links-policies"></a><span data-ttu-id="c7610-265">Usar o PowerShell para exibir políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-265">Use PowerShell to view safe links policies</span></span>
+
+<span data-ttu-id="c7610-266">Para exibir as políticas de links seguros existentes, use a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-266">To view existing safe links policies, use the following syntax:</span></span>
+
+```PowerShell
+Get-SafeLinksPolicy [-Identity "<PolicyIdentity>"] [| <Format-Table | Format-List> <Property1,Property2,...>]
+```
+
+<span data-ttu-id="c7610-267">Este exemplo retorna uma lista resumida de todas as políticas de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-267">This example returns a summary list of all safe links policies.</span></span>
+
+```PowerShell
+Get-SafeLinksPolicy | Format-Table Name
+```
+
+<span data-ttu-id="c7610-268">Este exemplo retorna informações detalhadas sobre a política de links seguros chamada executivos da contoso.</span><span class="sxs-lookup"><span data-stu-id="c7610-268">This example returns detailed information for the safe links policy named Contoso Executives.</span></span>
+
+```PowerShell
+Get-SafeLinksPolicy -Identity "Contoso Executives"
+```
+
+<span data-ttu-id="c7610-269">Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/get-safelinkspolicy).</span><span class="sxs-lookup"><span data-stu-id="c7610-269">For detailed syntax and parameter information, see [Get-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/get-safelinkspolicy).</span></span>
+
+### <a name="use-powershell-to-view-safe-links-rules"></a><span data-ttu-id="c7610-270">Usar o PowerShell para exibir regras de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-270">Use PowerShell to view safe links rules</span></span>
+
+<span data-ttu-id="c7610-271">Para exibir regras de links seguros existentes, use a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-271">To view existing safe links rules, use the following syntax:</span></span>
+
+```PowerShell
+Get-SafeLinksRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled] [| <Format-Table | Format-List> <Property1,Property2,...>]
+```
+
+<span data-ttu-id="c7610-272">Este exemplo retorna uma lista resumida de todas as regras de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-272">This example returns a summary list of all safe links rules.</span></span>
+
+```PowerShell
+Get-SafeLinksRule | Format-Table Name,State
+```
+
+<span data-ttu-id="c7610-273">Para filtrar a lista por regras habilitadas ou desabilitadas, execute os seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="c7610-273">To filter the list by enabled or disabled rules, run the following commands:</span></span>
+
+```PowerShell
+Get-SafeLinksRule -State Disabled
+```
+
+```PowerShell
+Get-SafeLinksRule -State Enabled
+```
+
+<span data-ttu-id="c7610-274">Este exemplo retorna informações detalhadas sobre a regra de links seguros chamada executivos da contoso.</span><span class="sxs-lookup"><span data-stu-id="c7610-274">This example returns detailed information for the safe links rule named Contoso Executives.</span></span>
+
+```PowerShell
+Get-SafeLinksRule -Identity "Contoso Executives"
+```
+
+<span data-ttu-id="c7610-275">Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/get-safelinksrule).</span><span class="sxs-lookup"><span data-stu-id="c7610-275">For detailed syntax and parameter information, see [Get-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/get-safelinksrule).</span></span>
+
+### <a name="use-powershell-to-modify-safe-links-policies"></a><span data-ttu-id="c7610-276">Usar o PowerShell para modificar as políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-276">Use PowerShell to modify safe links policies</span></span>
+
+<span data-ttu-id="c7610-277">Não é possível renomear uma política de links seguros no PowerShell (o cmdlet **set-SafeLinksPolicy** não tem nenhum parâmetro _Name_ ).</span><span class="sxs-lookup"><span data-stu-id="c7610-277">You can't rename a safe links policy in PowerShell (the **Set-SafeLinksPolicy** cmdlet has no _Name_ parameter).</span></span> <span data-ttu-id="c7610-278">Ao renomear uma política de links seguros no centro de conformidade e segurança &, você estará apenas renomeando a _regra_de links seguros.</span><span class="sxs-lookup"><span data-stu-id="c7610-278">When you rename a Safe Links policy in the Security & Compliance Center, you're only renaming the safe links _rule_.</span></span>
+
+<span data-ttu-id="c7610-279">A única consideração adicional para modificar as políticas de links seguros no PowerShell é a sintaxe disponível para o parâmetro _DoNotRewriteUrls_ (a [lista "não reescrever as seguintes URLs"](atp-safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)):</span><span class="sxs-lookup"><span data-stu-id="c7610-279">The only additional consideration for modifying safe links policies in PowerShell is the available syntax for the _DoNotRewriteUrls_ parameter (the ["Do not rewrite the following URLs" list](atp-safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)):</span></span>
+
+- <span data-ttu-id="c7610-280">Para adicionar valores que substituirão as entradas existentes, use a seguinte sintaxe: `"Entry1","Entry2,..."EntryN"` .</span><span class="sxs-lookup"><span data-stu-id="c7610-280">To add values that will replace any existing entries, use the following syntax: `"Entry1","Entry2,..."EntryN"`.</span></span>
+- <span data-ttu-id="c7610-281">Para adicionar ou remover valores sem afetar outras entradas existentes, use a seguinte sintaxe: `@{Add="Entry1","Entry2"...; Remove="Entry3","Entry4"...}`</span><span class="sxs-lookup"><span data-stu-id="c7610-281">To add or remove values without affecting other existing entries, use the following syntax: `@{Add="Entry1","Entry2"...; Remove="Entry3","Entry4"...}`</span></span>
+
+<span data-ttu-id="c7610-282">Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma política de links seguros, conforme descrito na seção [etapa 1: usar o PowerShell para criar uma política de links seguros](#step-1-use-powershell-to-create-a-safe-links-policy) , anteriormente neste artigo.</span><span class="sxs-lookup"><span data-stu-id="c7610-282">Otherwise, the same settings are available when you create a safe links policy as described in the [Step 1: Use PowerShell to create a safe links policy](#step-1-use-powershell-to-create-a-safe-links-policy) section earlier in this article.</span></span>
+
+<span data-ttu-id="c7610-283">Para modificar uma política de links seguros, use esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-283">To modify a safe links policy, use this syntax:</span></span>
+
+```PowerShell
+Set-SafeLinksPolicy -Identity "<PolicyName>" <Settings>
+```
+
+<span data-ttu-id="c7610-284">Para informações detalhadas de sintaxes e de parâmetros, consulte [set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy).</span><span class="sxs-lookup"><span data-stu-id="c7610-284">For detailed syntax and parameter information, see [Set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy).</span></span>
+
+### <a name="use-powershell-to-modify-safe-links-rules"></a><span data-ttu-id="c7610-285">Usar o PowerShell para modificar regras de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-285">Use PowerShell to modify safe links rules</span></span>
+
+<span data-ttu-id="c7610-286">A única configuração que não está disponível quando você modifica uma regra de links seguros no PowerShell é o parâmetro _habilitado_ que permite criar uma regra desabilitada.</span><span class="sxs-lookup"><span data-stu-id="c7610-286">The only setting that's not available when you modify a safe links rule in PowerShell is the _Enabled_ parameter that allows you to create a disabled rule.</span></span> <span data-ttu-id="c7610-287">Para habilitar ou desabilitar regras de links seguros existentes, consulte a próxima seção.</span><span class="sxs-lookup"><span data-stu-id="c7610-287">To enable or disable existing safe links rules, see the next section.</span></span>
+
+<span data-ttu-id="c7610-288">Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma regra, conforme descrito na seção [etapa 2: usar o PowerShell para criar uma regra de links seguros](#step-2-use-powershell-to-create-a-safe-links-rule) , anteriormente neste artigo.</span><span class="sxs-lookup"><span data-stu-id="c7610-288">Otherwise, the same settings are available when you create a rule as described in the [Step 2: Use PowerShell to create a safe links rule](#step-2-use-powershell-to-create-a-safe-links-rule) section earlier in this article.</span></span>
+
+<span data-ttu-id="c7610-289">Para modificar uma regra de links seguros, use esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-289">To modify a safe links rule, use this syntax:</span></span>
+
+```PowerShell
+Set-SafeLinksRule -Identity "<RuleName>" <Settings>
+```
+
+<span data-ttu-id="c7610-290">Para informações detalhadas de sintaxes e de parâmetros, consulte [set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule).</span><span class="sxs-lookup"><span data-stu-id="c7610-290">For detailed syntax and parameter information, see [Set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule).</span></span>
+
+### <a name="use-powershell-to-enable-or-disable-safe-links-rules"></a><span data-ttu-id="c7610-291">Usar o PowerShell para habilitar ou desabilitar regras de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-291">Use PowerShell to enable or disable safe links rules</span></span>
+
+<span data-ttu-id="c7610-292">Habilitar ou desabilitar uma regra de links seguros no PowerShell habilita ou desabilita toda a política de links seguros (a regra de links seguros e a política de links seguros atribuídas).</span><span class="sxs-lookup"><span data-stu-id="c7610-292">Enabling or disabling a safe links rule in PowerShell enables or disables the whole Safe Links policy (the safe links rule and the assigned safe links policy).</span></span>
+
+<span data-ttu-id="c7610-293">Para habilitar ou desabilitar uma regra de links seguros no PowerShell, use esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-293">To enable or disable a safe links rule in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+<Enable-SafeLinksRule | Disable-SafeLinksRule> -Identity "<RuleName>"
+```
+
+<span data-ttu-id="c7610-294">Este exemplo desabilita a regra de links seguros chamada departamento de marketing.</span><span class="sxs-lookup"><span data-stu-id="c7610-294">This example disables the safe links rule named Marketing Department.</span></span>
+
+```PowerShell
+Disable-SafeLinksRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="c7610-295">Este exemplo habilita a mesma regra.</span><span class="sxs-lookup"><span data-stu-id="c7610-295">This example enables same rule.</span></span>
+
+```PowerShell
+Enable-SafeLinksRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="c7610-296">Para informações detalhadas de sintaxes e de parâmetros, consulte [Enable-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/enable-safelinksrule) e [Disable-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/disable-safelinksrule).</span><span class="sxs-lookup"><span data-stu-id="c7610-296">For detailed syntax and parameter information, see [Enable-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/enable-safelinksrule) and [Disable-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/disable-safelinksrule).</span></span>
+
+### <a name="use-powershell-to-set-the-priority-of-safe-links-rules"></a><span data-ttu-id="c7610-297">Usar o PowerShell para definir a prioridade de regras de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-297">Use PowerShell to set the priority of safe links rules</span></span>
+
+<span data-ttu-id="c7610-298">O valor mais alto de prioridade que pode ser definido em uma regra é 0.</span><span class="sxs-lookup"><span data-stu-id="c7610-298">The highest priority value you can set on a rule is 0.</span></span> <span data-ttu-id="c7610-299">O valor mais baixo que pode ser definido depende do número de regras.</span><span class="sxs-lookup"><span data-stu-id="c7610-299">The lowest value you can set depends on the number of rules.</span></span> <span data-ttu-id="c7610-300">Por exemplo, se você tiver cinco regras, use os valores de prioridade de 0 a 4.</span><span class="sxs-lookup"><span data-stu-id="c7610-300">For example, if you have five rules, you can use the priority values 0 through 4.</span></span> <span data-ttu-id="c7610-301">Alterar a prioridade de uma regra existente pode ter um efeito cascata em outras regras.</span><span class="sxs-lookup"><span data-stu-id="c7610-301">Changing the priority of an existing rule can have a cascading effect on other rules.</span></span> <span data-ttu-id="c7610-302">Por exemplo, se você tiver cinco regras personalizadas (prioridades de 0 a 4) e alterar a prioridade de uma regra para 2, a regra existente com prioridade 2 será alterada para a prioridade 3, e a regra com prioridade 3 será alterada para prioridade 4.</span><span class="sxs-lookup"><span data-stu-id="c7610-302">For example, if you have five custom rules (priorities 0 through 4), and you change the priority of a rule to 2, the existing rule with priority 2 is changed to priority 3, and the rule with priority 3 is changed to priority 4.</span></span>
+
+<span data-ttu-id="c7610-303">Para definir a prioridade de uma regra de links seguros no PowerShell, use a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-303">To set the priority of a safe links rule in PowerShell, use the following syntax:</span></span>
+
+```PowerShell
+Set-SafeLinksRule -Identity "<RuleName>" -Priority <Number>
+```
+
+<span data-ttu-id="c7610-304">Este exemplo define a prioridade da regra chamada Marketing Department como 2.</span><span class="sxs-lookup"><span data-stu-id="c7610-304">This example sets the priority of the rule named Marketing Department to 2.</span></span> <span data-ttu-id="c7610-305">Todas as regras existentes com prioridade inferior ou igual a 2 são reduzidas por 1 (seus números de prioridade são aumentados por 1).</span><span class="sxs-lookup"><span data-stu-id="c7610-305">All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).</span></span>
+
+```PowerShell
+Set-SafeLinksRule -Identity "Marketing Department" -Priority 2
+```
+
+<span data-ttu-id="c7610-306">**Observação**: para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Priority_ no cmdlet **New-SafeLinksRule** .</span><span class="sxs-lookup"><span data-stu-id="c7610-306">**Note**: To set the priority of a new rule when you create it, use the _Priority_ parameter on the **New-SafeLinksRule** cmdlet instead.</span></span>
+
+<span data-ttu-id="c7610-307">Para informações detalhadas de sintaxes e de parâmetros, consulte [set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule).</span><span class="sxs-lookup"><span data-stu-id="c7610-307">For detailed syntax and parameter information, see [Set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule).</span></span>
+
+### <a name="use-powershell-to-remove-safe-links-policies"></a><span data-ttu-id="c7610-308">Usar o PowerShell para remover políticas de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-308">Use PowerShell to remove safe links policies</span></span>
+
+<span data-ttu-id="c7610-309">Quando você usa o PowerShell para remover uma política de links seguros, a regra de links seguros correspondente não é removida.</span><span class="sxs-lookup"><span data-stu-id="c7610-309">When you use PowerShell to remove a safe links policy, the corresponding safe links rule isn't removed.</span></span>
+
+<span data-ttu-id="c7610-310">Para remover uma política de links seguros no PowerShell, use esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-310">To remove a safe links policy in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+Remove-SafeLinksPolicy -Identity "<PolicyName>"
+```
+
+<span data-ttu-id="c7610-311">Este exemplo remove a política de links seguros chamada departamento de marketing.</span><span class="sxs-lookup"><span data-stu-id="c7610-311">This example removes the safe links policy named Marketing Department.</span></span>
+
+```PowerShell
+Remove-SafeLinksPolicy -Identity "Marketing Department"
+```
+
+<span data-ttu-id="c7610-312">Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-safelinkspolicy).</span><span class="sxs-lookup"><span data-stu-id="c7610-312">For detailed syntax and parameter information, see [Remove-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-safelinkspolicy).</span></span>
+
+### <a name="use-powershell-to-remove-safe-links-rules"></a><span data-ttu-id="c7610-313">Usar o PowerShell para remover regras de links seguros</span><span class="sxs-lookup"><span data-stu-id="c7610-313">Use PowerShell to remove safe links rules</span></span>
+
+<span data-ttu-id="c7610-314">Quando você usa o PowerShell para remover uma regra de links seguros, a política de links seguros correspondente não é removida.</span><span class="sxs-lookup"><span data-stu-id="c7610-314">When you use PowerShell to remove a safe links rule, the corresponding safe links policy isn't removed.</span></span>
+
+<span data-ttu-id="c7610-315">Para remover uma regra de links seguros no PowerShell, use esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c7610-315">To remove a safe links rule in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+Remove-SafeLinksRule -Identity "<PolicyName>"
+```
+
+<span data-ttu-id="c7610-316">Este exemplo remove a regra de links seguros chamada departamento de marketing.</span><span class="sxs-lookup"><span data-stu-id="c7610-316">This example removes the safe links rule named Marketing Department.</span></span>
+
+```PowerShell
+Remove-SafeLinksRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="c7610-317">Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/remove-safelinksrule).</span><span class="sxs-lookup"><span data-stu-id="c7610-317">For detailed syntax and parameter information, see [Remove-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/remove-safelinksrule).</span></span>
+
+<span data-ttu-id="c7610-318">Para verificar se os links seguros estão verificando mensagens, verifique os relatórios de proteção avançada contra ameaças disponíveis.</span><span class="sxs-lookup"><span data-stu-id="c7610-318">To verify that Safe Links is scanning messages, check the available Advanced Threat Protection reports.</span></span> <span data-ttu-id="c7610-319">Para obter mais informações, consulte [exibir relatórios do Office 365 ATP](view-reports-for-atp.md) e [usar o Explorer no centro de conformidade do & de segurança](threat-explorer.md).</span><span class="sxs-lookup"><span data-stu-id="c7610-319">For more information, see [View reports for Office 365 ATP](view-reports-for-atp.md) and [Use Explorer in the Security & Compliance Center](threat-explorer.md).</span></span>
+
+## <a name="how-do-you-know-these-procedures-worked"></a><span data-ttu-id="c7610-320">Como saber se esses procedimentos funcionaram?</span><span class="sxs-lookup"><span data-stu-id="c7610-320">How do you know these procedures worked?</span></span>
+
+<span data-ttu-id="c7610-321">Para verificar se as políticas de links seguros foram criadas, modificadas ou removidas com êxito, execute uma das seguintes etapas:</span><span class="sxs-lookup"><span data-stu-id="c7610-321">To verify that you've successfully created, modified, or removed Safe Links policies, do any of the following steps:</span></span>
+
+- <span data-ttu-id="c7610-322">No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.</span><span class="sxs-lookup"><span data-stu-id="c7610-322">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Links**.</span></span> <span data-ttu-id="c7610-323">Verifique a lista de políticas, seus valores de **status** e seus valores de **prioridade** .</span><span class="sxs-lookup"><span data-stu-id="c7610-323">Verify the list of policies, their **Status** values, and their **Priority** values.</span></span> <span data-ttu-id="c7610-324">Para exibir mais detalhes, selecione a política na lista e exiba os detalhes na saída.</span><span class="sxs-lookup"><span data-stu-id="c7610-324">To view more details, select the policy from the list, and view the details in the fly out.</span></span>
+
+- <span data-ttu-id="c7610-325">No PowerShell do Exchange Online ou do Exchange Online Protection, substitua o \<Name\> nome da política ou regra, execute o seguinte comando e verifique as configurações:</span><span class="sxs-lookup"><span data-stu-id="c7610-325">In Exchange Online PowerShell or Exchange Online Protection PowerShell, replace \<Name\> with the name of the policy or rule, run the following command, and verify the settings:</span></span>
+
+  ```PowerShell
+  Get-SafeLinksPolicy -Identity "<Name>"
+  ```
+
+  ```PowerShell
+  Get-SafeLinksRule -Identity "<Name>"
+  ```
