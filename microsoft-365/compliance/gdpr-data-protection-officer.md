@@ -16,12 +16,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 140d66c48feed0534c377fb03673bb575e62527d
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 440d8756e68b022b3b5e7bb4513e2cb3c199f335
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417935"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305041"
 ---
 # <a name="microsofts-data-protection-officer"></a>Diretor de proteção dos dados da Microsoft
 

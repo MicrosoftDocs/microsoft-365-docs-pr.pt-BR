@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 9e7853fb44cc9ccd8c233cc2fee71eaef91a5c1c
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: e4750e063c0f049c5f3faa1667aafb7f1afa6586
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415875"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305175"
 ---
 # <a name="gdpr-breach-notification"></a>Notificação de falha de RGPD
 
@@ -47,7 +47,7 @@ A Microsoft leva a sério as suas obrigações de acordo com o RGPD (Regulamento
 
 Como um processador de dados, a Microsoft garante que os clientes do serviço possam atender aos requisitos de notificação de violação do RGPD como controladores de dados. Nossa notificação fornece as informações necessárias para a avaliação. A Microsoft informa aos clientes sobre qualquer falha de dados pessoais, exceto para os casos em que os dados pessoais sejam confirmados como ininteligíveis (por exemplo, dados criptografados com criptografia de integridade de teclas).
 
-Os controladores de dados são responsáveis por avaliar os riscos de privacidade de dados e determinar se uma violação exige uma notificação do DPA do cliente. A Microsoft fornece as informações necessárias, juntamente com sua política de conformidade do RGPD, para fazer essa avaliação.
+Os controladores de dados são responsáveis por avaliar os riscos à privacidade de dados e determinar se uma violação exige uma notificação de DPA do cliente. A Microsoft fornece as informações necessárias, juntamente com sua política de conformidade do RGPD, para fazer essa avaliação.
 
 A notificação inicial inclui uma descrição da natureza da violação, o impacto aproximado do usuário e as etapas de mitigação (se aplicável). Caso a investigação não seja concluída no momento da notificação inicial, vamos indicar as próximas etapas e linhas do tempo para comunicações subsequentes. Para obter mais informações sobre como a Microsoft detecta e responde a uma violação de dados pessoais, confira [Notificação de violação de dados no RGPD](https://servicetrust.microsoft.com/ViewPage/GDPRBreach) no Portal de Confiança do Serviço.
 
@@ -66,7 +66,7 @@ Os detalhes relacionados a notificações de violação para produtos e serviço
         Para obter uma lista de eventos que disparam uma investigação de violação no Microsoft Azure, confira [Detecção de possíveis violações](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#detection-of-potential-breaches). [O Azure e a Notificação de Violação no âmbito do RGPD](gdpr-breach-azure-dynamics.md) fornecem detalhes adicionais sobre como a Microsoft investiga, gerencia e responde a incidentes de segurança no Azure.
 
     - *Resposta à Violação de Dados*: a Microsoft determina a prioridade adequada e os níveis de gravidade de uma violação analisando o impacto funcional, a capacidade de recuperação e o impacto das informações do incidente. A prioridade e a severidade podem mudar durante a investigação, com base nas novas descobertas e conclusões.
-    A equipe de resposta de segurança da Microsoft trabalha em conjunto com consultores jurídicos globais para ajudar a garantir que as perícias sejam realizadas de acordo com obrigações legais e compromissos com os clientes. Esses processos estão detalhados na [Resposta de Violação de Dados do Azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response).
+    A equipe de resposta de segurança da Microsoft trabalha em conjunto com consultores jurídicos globais para ajudar a garantir que as perícias sejam realizadas de acordo com obrigações legais e compromissos com os clientes. Esses processos estão detalhados na [Resposta À Violação de Dados no Azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response).
 
     - *Notificação de Cliente*: o Microsoft Azure notifica os clientes e as autoridades normativas das violações de dados conforme necessário. As notificações dos clientes são oferecidas em não mais de 72 horas a partir do prazo, com exceção das seguintes circunstâncias:
 
