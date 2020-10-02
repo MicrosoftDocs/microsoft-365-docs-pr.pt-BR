@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1c03d9028205ea392bade15e6dec354bff0be96e
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: d5aaba3d1f8606ab69b360d5916a5c9a8a653a14
+ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235389"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48343278"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos da Área de trabalho gerenciada da Microsoft
 
@@ -26,7 +26,7 @@ Este tópico descreve os requisitos de infraestrutura que você deve atender par
 
 Área | Detalhes do pré-requisito
 --- | ---
-Licenças |O Microsoft Managed desktop requer uma das seguintes licenças do Microsoft 365 (ou equivalentes):<br>-Microsoft 365 e5<br>-Microsoft 365 E3 com o complemento de segurança do Microsoft 365 e5<br><br>Para obter detalhes sobre os planos de serviço específicos e sua função na área de trabalho gerenciada da Microsoft, consulte [mais sobre licenças](#more-about-licenses) neste tópico.<br>Para obter mais informações sobre licenças disponíveis, consulte [Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+Licenças |A área de trabalho gerenciada da Microsoft requer a licença do Microsoft 365 E3 com o Microsoft defender for Endpoint e o Azure Active Directory Premium 2 (ou equivalentes).<br>Para obter detalhes sobre os planos de serviço específicos, consulte [mais sobre as licenças](#more-about-licenses) neste tópico.<br>Para obter mais informações sobre licenças disponíveis, consulte [Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 Conectividade |  Todos os dispositivos de área de trabalho gerenciados da Microsoft exigem conectividade com vários pontos de extremidade do serviço Microsoft a partir da rede corporativa.<br><br>Para obter a lista completa de IPs e URLs necessários, confira [configuração de rede](../get-ready/network.md). 
 Azure Active Directory |    O Azure Active Directory (Azure AD) deve ser a fonte de autoridade para todas as contas de usuário, ou as contas de usuário devem ser sincronizadas a partir do Active Directory local usando a versão mais recente suportada do Azure AD Connect.<br><br>O [roaming de estado corporativo](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview) deve ser habilitado para usuários da área de trabalho gerenciada da Microsoft.<br><br>Para obter mais informações, consulte [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect).<br><br>Para obter mais informações sobre versões compatíveis do Azure AD Connect, consulte [Azure ad Connect: versão do histórico de versões](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history).
 Autenticação |    Se o Azure AD não for a fonte de autenticação principal para contas de usuário, você deverá configurar uma delas no Azure AD Connect:<br>-Sincronização de hash de senha<br>-Autenticação de passagem<br>– Um provedor de identidade externa (incluindo o Windows Server ADFS e não-Microsoft IDPs) configurado para atender aos requisitos de integração do Azure AD. Consulte as [diretrizes](https://www.microsoft.com/download/details.aspx?id=56843) para obter mais informações. <br><br>Ao definir as opções de autenticação com o Azure AD Connect, o Write-back de senha também é recomendado. Para obter mais informações, consulte [write-back de senha](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). <br><br>Se um provedor de identidade externo for implementado, você deverá validar a solução:<br>– Atende aos requisitos de integração do Azure AD<br>– Oferece suporte ao acesso condicional do Azure AD, para habilitar a configuração da política de conformidade do dispositivo MMD<br>– Habilita o registro de dispositivos e o uso de serviços ou recursos do Microsoft 365 necessários como parte da área de trabalho gerenciada da Microsoft <br><br>Para obter mais informações sobre as opções de autenticação com o Azure AD, confira [Opções de logon do usuário do Azure ad Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin).
@@ -38,20 +38,20 @@ Quando estiver pronto para começar a usar a área de trabalho gerenciada da Mic
 
 ## <a name="more-about-licenses"></a>Mais sobre licenças
 
-O Microsoft Managed desktop requer determinadas opções de licença para funcionar. Essas opções estão disponíveis em vários pacotes de licença, alguns dos quais você já pode ter. Esta tabela mostra quais opções necessárias estão disponíveis em quais licenças e resume sua função na área de trabalho gerenciada da Microsoft.
+O Microsoft Managed desktop requer determinadas opções de licença para funcionar. Consulte [Microsoft Managed desktop Technologies](../intro/technologies.md) para obter informações sobre como essas licenças são usadas.
 
 > [!TIP]
 > Para atribuir essas opções de licença a usuários específicos, recomendamos que você aproveite o [recurso de licenciamento baseado em grupo](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) do Azure Active Directory.
 
+- Azure Active Directory Premium P2
+- Microsoft Intune 
+- Windows 10 Enterprise  
+- Microsoft defender para ponto de extremidade
+- Microsoft 365 Apps para empresas
+- Microsoft Teams
+- [SharePoint Online (Plano 2)](https://www.microsoft.com/microsoft-365/sharepoint/compare-sharepoint-plans)
+- [Exchange Online (Plano 2)](https://www.microsoft.com/microsoft-365/exchange/compare-microsoft-exchange-online-plans) 
 
-
-|Opção de licença |Disponível em *qualquer* um desses produtos de licença |Como a área de trabalho gerenciada da Microsoft o usa|
-|-------------|-------------|-------------|
-|Azure Active Directory Premium P2     |-Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Enterprise Mobility + Security e5<br>– Enterprise Mobility + Security E3<br>-Microsoft Azure Active Directory Premium P2|  Fornece acesso aos serviços do Microsoft Cloud; permite que o AutoPilot Registre dispositivos      |
-|Microsoft Intune | -Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Enterprise Mobility + Security e5<br>– Enterprise Mobility + Security E3<br>– Microsoft Intune  |  Necessário para registrar dispositivos, implantar atualizações e gerenciar dispositivos       |
-|Windows 10 Enterprise  |-Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Windows 10 Enterprise E3<br>– Windows 10 Enterprise e5 | Oferece recursos da empresa do Windows 10       |
-|Proteção Avançada contra Ameaças do Microsoft Defender | -Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Windows 10 Enterprise e5<br>– Proteção avançada contra ameaças do Microsoft defender   |  Oferece detecção, monitoramento, alerta e resposta a ameaças  |
-|Microsoft 365 Apps para empresas  |-Microsoft 365 e5<br>-Microsoft 365 E3<br>-Office 365 e5<br>-Office 365 E3| Ativa ferramentas de colaboração e de produtividade do Office    |
 
 > [!TIP]
 > O gerente de contas da Microsoft ajudará você a revisar suas licenças atuais e seus planos de serviço e encontrará o caminho mais eficiente para obter qualquer licença ou plano de serviço adicional que você possa precisar, enquanto evita a duplicação.

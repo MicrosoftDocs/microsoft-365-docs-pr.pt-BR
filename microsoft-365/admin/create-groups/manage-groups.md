@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Saiba como gerenciar os grupos do Microsoft 365, incluindo a adição de adicionar ou remover membros do grupo, editar o endereço de email, o nome do grupo ou a descrição e personalizar como o grupo funciona.
-ms.openlocfilehash: 26c6c064e454351366c326e665bacdcc9bb855fb
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 29eaa762116498799d4156b58c8f9bf466f04073
+ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307296"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48343266"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Gerenciar um grupo no centro de administração do Microsoft 365
 
@@ -196,10 +196,10 @@ Essa opção é ótima se você deseja ter um endereço de email da empresa, com
 
 [Gerenciar o acesso de convidados aos grupos do Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
-[Escolha o domínio a ser usado ao criar grupos do Microsoft 365](choose-domain-to-create-groups.md)
+[Escolha o domínio a ser usado ao criar grupos do Microsoft 365](../../solutions/choose-domain-to-create-groups.md)
 
-[Permitir que os membros enviem como ou enviem em nome de um grupo do Microsoft 365](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[Permitir que os membros enviem como ou enviem em nome de um grupo do Microsoft 365](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
 [Atualizar listas de distribuição para grupos do Microsoft 365](../manage/upgrade-distribution-lists.md)
 
-[Gerenciar os grupos do Microsoft 365 com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[Gerenciar os grupos do Microsoft 365 com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
