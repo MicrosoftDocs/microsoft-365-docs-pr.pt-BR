@@ -9,14 +9,21 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 03e1be51b35447376be5adfc2f2cd3c944cf89fa
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 6adaef77f6989d541f8028252c5bb1ec7db7a6fc
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321332"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337188"
 ---
 # <a name="push-content-types-to-a-hub"></a>Enviar os tipos de conteúdo a um hub
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GyeV]  
+
+</br>
+
 
 Para disponibilizar os tipos de conteúdo importantes com mais consistência nas listas e bibliotecas do SharePoint, você pode enviá-los para os hubs que você escolher. Isso os adiciona automaticamente a todas as novas listas e bibliotecas criadas nos sites associados ao hub e a todos os novos sites adicionados ao hub.
 

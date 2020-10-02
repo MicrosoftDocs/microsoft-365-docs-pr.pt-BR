@@ -9,14 +9,21 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Aprenda a aplicar um rótulo de retenção a um modelo de compreensão de documentos
-ms.openlocfilehash: 26e8aea3ef52e9d850dea2f2268858d8367f7408
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 6f616dc3d2ebd87bcc70ee01c9f3a88db60b6f17
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321272"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337236"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>Análise do uso do modelo de compreensão de documentos
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJY]  
+
+</br>
+
 
 O centro de conteúdo do Microsoft SharePoint Syntex disponibiliza a você análises de uso de modelos para fornecer mais informações de como seus modelos publicados no centro de conteúdo estão sendo usados. Isso inclui um conjunto das seguintes informações:
 

@@ -9,14 +9,21 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Este artigo discute a aplicação de um rótulo de retenção a um modelo de compreensão de documentos
-ms.openlocfilehash: 6b42f7df5e14f57f3754e7d65c5f4cf2e8fab6a0
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 8f74187d14620f0c095b19c6f59b2dbd1b3f98d1
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321840"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337212"
 ---
 # <a name="apply-a-retention-label-to-a-document-understanding-model"></a>Aplicar um rótulo de retenção a um modelo de compreensão de documentos
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GydO]  
+
+</br>
+
 
 Você pode aplicar facilmente um [rótulo de retenção](https://docs.microsoft.com/microsoft-365/compliance/retention) a um modelo de compreensão de documentos no Microsoft SharePoint Syntex.
 

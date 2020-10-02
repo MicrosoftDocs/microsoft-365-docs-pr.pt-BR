@@ -9,14 +9,21 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Use a taxonomia do repositório de termos ao criar um extrator no seu modelo de compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 457cab51f8dd19e95707801f793cdf2aa267d18f
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: f7219f6facc1d29242f7bd52743da92e13de3b89
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321284"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337272"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>Aproveitar a taxonomia do repositório de termos ao criar um extrator
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJJ]  
+
+</br>
+
 
 Ao criar um extrator no modelo de compreensão de documentos no SharePoint Syntex, você pode aproveitar a taxonomia do repositório de termos dos [serviços de metadados gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms) para exibir os termos preferenciais para os dados que você extrai.  
 

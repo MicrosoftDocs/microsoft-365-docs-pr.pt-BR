@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6b19c5cd1766c07e106897cefeb495f1b98bb548
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: b3ed56dd3e669dbd5a2c3f09d87dfd87fe680aff
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104383"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337176"
 ---
 # <a name="work-with-insights"></a>Trabalhe com percepções
 
@@ -31,9 +31,9 @@ Com esses painéis, você pode encontrar as respostas para perguntas como estas:
 - Qual é o status atual das atualizações de segurança em dispositivos?
 - Quanto tempo levava até 95% dos dispositivos para obter o atual com a atualização de segurança mais recente?
 
-Para acessar esses modos de exibição do [Microsoft Endopint Manager](https://endpoint.microsoft.com/), nvaigate para a guia área de trabalho gerenciada da Microsoft na Home Page e selecione **Exibir detalhes** na área **relatórios** :
+Para acessar esses modos de exibição do [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), navegue até a guia área de trabalho gerenciada da Microsoft na Home Page e selecione **Exibir detalhes** na área **relatórios** :
 
-<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->!
+<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->
 
 
 ## <a name="usage-insights"></a>Percepções de uso
@@ -54,7 +54,6 @@ Este modo de exibição mostra informações sobre o consumo de energia de aplic
 Saiba mais sobre o [insights da bateria](battery-insights.md).
 
 ## <a name="windows-security-update-insights"></a>Percepções de atualização da segurança do Windows
-
-Este modo de exibição mostra informações sobre o status das atualizações de segurança para os dispositivos de área de trabalho gerenciada da Microsoft. Para exibir essas informações, selecione a guia **udates de segurança do Windows** .
+Este modo de exibição mostra informações sobre o status das atualizações de segurança para os dispositivos de área de trabalho gerenciada da Microsoft. Para exibir essas informações, selecione a guia **atualizações de segurança do Windows** .
 
 Saiba mais sobre as [informações de atualização de segurança](security-update-insights.md).

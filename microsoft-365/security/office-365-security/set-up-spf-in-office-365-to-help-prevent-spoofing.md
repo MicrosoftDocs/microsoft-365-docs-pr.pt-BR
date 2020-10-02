@@ -18,17 +18,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo descreve como atualizar um registro de Serviço de Nome de Domínio (DNS) para que você possa usar a Sender Policy Framework (SPF) com seu domínio personalizado no Office 365.
-ms.openlocfilehash: 8beca879669657612b884462488a347d873f4bf2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e53facc12ed8ad2b702d2d0514aebe0068c097b7
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197734"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318165"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Configure o SPF para ajudar a evitar falsificações
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
  **Resumo:** Este artigo descreve como atualizar um registro de Serviço de Nome de Domínio (DNS) para que você possa usar a Sender Policy Framework (SPF) com seu domínio personalizado no Office 365. Usar a SPF ajuda a validar emails de saída enviados do seu domínio personalizado.
 
@@ -66,30 +65,34 @@ Reúna essas informações:
 
    ****
 
-   |<!-- -->|Se você estiver usando...|Comum para clientes?|Adicione este...|
+   |Elemento|Se você estiver usando...|Comum para clientes?|Adicione este...|
    |---|---|---|---|
-   |1|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF começam com esse valor|v=spf1|
-   |2|Exchange Online|Comum|include:spf.protection.outlook.com|
-   |3|Somente Exchange Online dedicado|Incomum|ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com|
-   |4|Office 365 Alemanha, Microsoft Cloud Alemanha apenas|Incomum|include:spf.protection.outlook.de|
-   |5|Sistema de email de terceiros|Incomum|include:\<domain name\>  <br/> Onde o nome de domínio é o nome de domínio do sistema de email de terceiros.|
-   |6|Sistema de emails local. Por exemplo, o Exchange Online Protection mais outro sistema de email|Incomum| Use um destes procedimentos para cada sistema de email adicional: <br> ip4:\<_IP address_\>  <br/>  ip6:\<_IP address_\>  <br/>  include:\<_domain name_\>  <br/>  Onde o valor de \<_IP address_\> for o endereço IP do outro sistema de email e \<_domain name_\> for o nome de domínio do outro sistema de email que envia emails em nome de seu domínio.|
-   |7|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF terminam com esse valor|\<_enforcement rule_\>  <br/> Isso pode ser um dos vários valores. Recomendamos que se use **-all**.|
+   |1|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF começam com esse valor|`v=spf1`|
+   |2|Exchange Online|Comum|`include:spf.protection.outlook.com`|
+   |3|Somente Exchange Online dedicado|Incomum|`ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com`|
+   |4|Office 365 Alemanha, Microsoft Cloud Alemanha apenas|Incomum|`include:spf.protection.outlook.de`|
+   |5|Sistema de email de terceiros|Incomum|`include:<domain_name>`  <br/> Onde \<domain_name\> é o domínio do sistema de email de terceiros.|
+   |6|Sistema de emails local. Por exemplo, o Exchange Online Protection mais outro sistema de email|Incomum|Use um destes procedimentos para cada sistema de email adicional: <br> `ip4:<IP_address>` <br/> `ip6:<IP_address>` <br/> `include:<domain_name>` <br/> Onde \<IP_address\> e \<domain_name\> são o endereço IP e o domínio do sistema de emails que enviam emails em nome de seu domínio.|
+   |7|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF terminam com esse valor|`<enforcement rule>` <br/> Este pode ser um dos vários valores. Recomendamos o valor ``-all`. ' |
    |
 
-2. Se ainda não tiver feito isso, crie seu registro TXT SPF usando a sintaxe da tabela:
+2. Se ainda não tiver feito isso, crie seu registro TXT SPF usando a sintaxe da tabela.
 
    Por exemplo, se você estiver totalmente hospedado no Office 365, ou seja, se você não tiver servidores de email locais, seu registro TXT SPF incluiria as linhas 1, 2 e 7 e teria esta aparência:
 
-   `v=spf1 include:spf.protection.outlook.com -all`
+   ```text
+   v=spf1 include:spf.protection.outlook.com -all
+   ```
 
    Esse é o registro SPF TXT mais comum. Esse registro funciona para praticamente todas as pessoas, independentemente de seu data center da Microsoft estar localizado nos Estados Unidos ou na Europa (incluindo a Alemanha) ou em outro local.
 
    No entanto, se você comprou o Office 365 Alemanha, parte do Microsoft Cloud Alemanha, você deve usar a instrução incluir na linha 4, em vez de na linha 2. Por exemplo, se você estiver totalmente hospedado no Office 365 Alemanha, ou seja, se você não tiver servidores de email locais, seu registro TXT SPF incluiria as linhas 1, 4 e 7 e teria esta aparência:
 
-   `v=spf1 include:spf.protection.outlook.de -all`
+   ```text
+   v=spf1 include:spf.protection.outlook.de -all
+   ```
 
-   Se você já implementou no Office 365 e configurou seus registros TXT SPF para o seu domínio personalizado e estiver migrando para o Office 365 Germany, será preciso atualizar o registro TXT SPF. Para fazer isso, altere **include:spf.protection.outlook.com** para **include.spf.protection.outlook.de**.
+   Se você já implementou no Office 365 e configurou seus registros TXT SPF para o seu domínio personalizado e estiver migrando para o Office 365 Germany, será preciso atualizar o registro TXT SPF. Para fazer isso, altere `include:spf.protection.outlook.com` para `include:spf.protection.outlook.de`.
 
 3. Depois que você formar seu registro TXT SPF, precisará atualizar o registro no DNS. Você só pode ter um registro TXT SPF para um domínio. Se em vez de adicionar um novo registro, você precisa atualizar o registro existente. Vá para [Criar registros de DNS para o Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) e clique no link do seu host DNS.
 
@@ -101,7 +104,7 @@ Reúna essas informações:
 
 É necessário um registro SPF curinga adicional (`*.`) para todos os domínios e subdomínios para impedir que os ataques por envio de emails que alegam ser de subdomínios não existentes. Por exemplo:
 
-```console
+```text
 *.subdomain.contoso.com. IN TXT "v=spf1 –all"
 ```
 

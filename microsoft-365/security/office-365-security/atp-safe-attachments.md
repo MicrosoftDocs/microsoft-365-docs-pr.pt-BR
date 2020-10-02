@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre o recurso de anexos seguros na proteção avançada contra ameaças (ATP) do Office 365.
-ms.openlocfilehash: 6ff356f34f3e44752b5ad7f5fa433a8c72cd5083
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c3dd64ce6f1d50cf30dfcc33f17021904791912c
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326526"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337200"
 ---
 # <a name="safe-attachments-in-office-365-atp"></a>Anexos seguros no Office 365 ATP
 
@@ -108,9 +108,7 @@ Aqui estão algumas considerações para entrega dinâmica e mensagens encaminha
 
 - Se o destinatário encaminhado não estiver protegido por uma política de anexos seguros, a mensagem e os anexos serão entregues sem nenhum marcador de verificação de anexos seguros ou de anexo.
 
-## <a name="scenarios-where-safe-attachments-doesnt-scan-messages"></a>Cenários em que os anexos seguros não verificam mensagens
-
-Há situações em que anexos seguros não podem verificar mensagens:
+Há situações em que a entrega dinâmica não é capaz de substituir anexos em mensagens. Esses cenários incluem:
 
 - Mensagens em pastas públicas.
 
@@ -126,7 +124,7 @@ Há situações em que anexos seguros não podem verificar mensagens:
 
 - [S/MIME)](s-mime-for-message-signing-and-encryption.md) mensagens criptografadas.
 
-- Você configurou a ação de entrega dinâmica em uma política de anexos seguros, mas o destinatário não dá suporte à entrega dinâmica (por exemplo, o destinatário é uma caixa de correio em uma organização local do Exchange). No entanto, os [links seguros no office 365 ATP](set-up-atp-safe-links-policies.md) podem verificar anexos de arquivo do Office que contêm URLs (dependendo de como os links seguros estão configurados).
+- Você configurou a ação de entrega dinâmica em uma política de anexos seguros, mas o destinatário não dá suporte à entrega dinâmica (por exemplo, o destinatário é uma caixa de correio em uma organização local do Exchange). No entanto, os [links seguros no office 365 ATP](set-up-atp-safe-links-policies.md) podem verificar anexos de arquivo do Office que contêm URLs (dependendo de como as [configurações globais de links seguros](configure-global-settings-for-safe-links.md) são configuradas).
 
 ## <a name="submitting-files-for-malware-analysis"></a>Enviando arquivos para análise de malware
 
