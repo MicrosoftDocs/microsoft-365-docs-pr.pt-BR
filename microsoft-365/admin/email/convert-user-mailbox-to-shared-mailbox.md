@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Saiba como converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por vários usuários. '
-ms.openlocfilehash: a4b2e9ce53051feb07ea035adc0c959bbb1a0948
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 027236afb5a77e950083f254a154c491d6abc6ac
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521024"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341187"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 
@@ -51,48 +51,9 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
 
 4. Se a caixa de correio for menor do que 50 GB, você poderá remover a [licença do usuário](../manage/remove-licenses-from-users.md)e deixar de pagar por ela. Não exclua a conta do usuário. A caixa de correio compartilhada precisa dela como uma âncora. Se estiver convertendo a caixa de correio de um funcionário que está saindo da sua organização, você deve executar etapas adicionais para garantir que eles não consigam mais fazer logon. Confira [remover um antigo funcionário da Microsoft 365](../add-users/remove-former-employee.md).
     
-5. Para tudo o que você precisa saber sobre caixas de correio compartilhadas, consulte [sobre caixas de correio](about-shared-mailboxes.md) compartilhadas e [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md).
+> [!NOTE]
+> Não é necessário redefinir a senha do usuário durante a conversão da caixa de correio. No entanto, se a senha não for redefinida, **o nome de usuário e a senha originais continuarão funcionando** após a conclusão da conversão da caixa de correio.
 
-## <a name="use-the-microsoft-365-admin-center-to-convert-a-mailbox"></a>Usar o centro de administração do Microsoft 365 para converter uma caixa de correio
-
-::: moniker range="o365-worldwide"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-
-2. Selecione o nome do usuário cuja caixa de correio você deseja converter.
-
-3. Redefinir a senha do usuário.
-
-   > [!NOTE]
-   > Não é necessário redefinir a senha do usuário durante a conversão da caixa de correio. No entanto, se a senha não for redefinida, **o nome de usuário e a senha originais continuarão funcionando** após a conclusão da conversão da caixa de correio.
-
-4. Na guia **email** , em **mais ações**, selecione **converter para caixa de correio compartilhada**. 
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-
-2. Selecione o usuário cuja caixa de correio você deseja converter.
-
-3. No painel direito, expanda **configurações de email**. Ao lado de **mais configurações**, selecione **converter para caixa de correio compartilhada**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-
-2. Selecione o usuário cuja caixa de correio você deseja converter.
-
-3. No painel direito, expanda **configurações de email**. Ao lado de **mais configurações**, selecione **converter para caixa de correio compartilhada**.
-
-::: moniker-end
-
-
-Se a caixa de correio for menor do que 50 GB, você poderá [remover a licença do usuário](../manage/remove-licenses-from-users.md)e deixar de pagar por ela. Não exclua a caixa de correio antiga do usuário. A caixa de correio compartilhada precisa dela como uma âncora. Se estiver convertendo a caixa de correio de um funcionário que está saindo da sua organização, você deve executar etapas adicionais para garantir que eles não consigam mais fazer logon. Confira [remover um antigo funcionário da Microsoft 365](../add-users/remove-former-employee.md).
-    
 Para tudo o que você precisa saber sobre caixas de correio compartilhadas, consulte [sobre caixas de correio](about-shared-mailboxes.md) compartilhadas e [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md).
 
 > [!NOTE]

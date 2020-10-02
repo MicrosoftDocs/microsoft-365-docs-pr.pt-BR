@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Resumo: locais de dados do Microsoft 365'
-ms.openlocfilehash: 125d58b0565bf0380a4b2578aea4db6b26596f14
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: 7a2fb85d0d7320770a1ab32efcd024a9e348795e
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269536"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337152"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -41,7 +41,7 @@ Obtenha informações sobre os compromissos contratuais para o local de armazena
 Para locais dos dados do Azure Active Directory, acesse [Mapa de Dados do AAD](https://go.microsoft.com/fwlink/p/?linkid=2092972).
 
 
-Devido a circunstâncias sem precedentes em torno de COVID-19 e a necessidade de gerenciar a demanda de serviços online, se sua organização é uma instituição educacional na Europa, poderemos provisionar seu locatário do Office 365 no, transferir seus dados para o e armazenar seus dados em repouso na União Europeia.  Se sua organização é uma instituição educacional na Índia, poderemos provisionar seu locatário do Office 365, transferir seus dados para, e armazenar seus dados em repouso na Índia, Europa ou nos Estados Unidos.  Se sua organização é uma instituição educacional na África do Sul, poderemos provisionar seu locatário do Office 365, transferir seus dados para, e armazenar seus dados em repouso na África do Sul ou Europa. Nosso compromisso com a conformidade, privacidade e a segurança permanecem inalterados enquanto implementamos medidas necessárias e prudentes para manter a disponibilidade do serviço. Atenderemos a todas as leis aplicáveis quanto à transferências de dados.
+Se o endereço de cobrança do cliente estiver fora da Europa e o cliente tiver uma assinatura do Office 365 Education, não obstante a seção “Localização dos dados do cliente em repouso para os principais serviços online” do OST, a Microsoft poderá fornecer o locatário do Office 365 do cliente, transferir dados do cliente e armazenar dados do cliente em qualquer lugar na Europa ou América do Norte.  Se o endereço de cobrança do cliente estiver na Europa e o cliente tiver uma assinatura do Office 365 Education, apesar da seção “Localização dos dados do cliente em repouso para os principais serviços online” do OST, a Microsoft poderá fornecer o locatário do Office 365 do cliente, transferir dados do cliente e armazenar dados do cliente em qualquer lugar na União Europeia.
 
 
 
@@ -387,7 +387,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="argentina"></a>Argentina
 <details><summary>Clique para expandir</summary><p>
 
-| Fornecer manutenção | Local |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1018,7 +1018,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Dispositivo Móvel | Geografia Global 1 – EMEA |
+| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -3858,7 +3858,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Fluxo | União Europeia |
+| Stream | União Europeia |
 | Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
