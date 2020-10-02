@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 685132e3f5c303f21fde3702725a84e24383e679
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ea6b65e5e6d676c5efb2622193197bae5b9ba1b2
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198238"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338540"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -32,15 +32,15 @@ ms.locfileid: "48198238"
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-Use a `AssignedIPAddresses()` função para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo. Se você especificar um argumento timestamp, essa função obterá os endereços IP mais recentes no horário especificado. 
+Use a `AssignedIPAddresses()` função nas suas consultas de [busca avançada](advanced-hunting-overview.md) para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo. Se você especificar um argumento timestamp, essa função obterá os endereços IP mais recentes no horário especificado. 
 
 Essa função retorna uma tabela com as seguintes colunas:
 
 | Coluna | Tipo de dados | Descrição |
 |------------|-------------|-------------|
 | `Timestamp` | datetime | Última hora em que o dispositivo foi observado usando o endereço IP |
-| `IPAddress` | string | Endereço IP usado pelo dispositivo |
-| `IPType` | string | Indica se o endereço IP é um endereço público ou privado |
+| `IPAddress` | cadeia de caracteres | Endereço IP usado pelo dispositivo |
+| `IPType` | cadeia de caracteres | Indica se o endereço IP é um endereço público ou privado |
 | `NetworkAdapterType` | int | Tipo de adaptador de rede usado pelo dispositivo que foi atribuído ao endereço IP. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
 | `ConnectedNetworks` | int | Redes às quais o adaptador com o endereço IP atribuído está conectado. Cada matriz JSON contém o nome da rede, a categoria (pública, particular ou o domínio), uma descrição e um sinalizador que indica se ele está conectado publicamente à Internet |
 

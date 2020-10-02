@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 4b12457b051b19aa1eaca0d92b342ab8a7b34134
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9f05fe464b4945d739c5920282e45e07f9fcb344
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200580"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338424"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -109,10 +109,11 @@ A tabela a seguir lista e descreve as políticas de alerta padrão disponíveis 
 
 A tabela também indica o plano do governo dos EUA do Office 365 Enterprise e do Office 365 necessário para cada um. Algumas políticas de alerta padrão estão disponíveis se sua organização tem a assinatura complementar apropriada, além de uma assinatura E1/F1/G1 ou E3.
 
-|**Política de alerta padrão**|**Descrição**|**Category**|**Assinatura do Office 365 Enterprise**|
+| Política de alerta padrão | Descrição | Categoria | Assinatura do Office 365 Enterprise |
 |:-----|:-----|:-----|:-----|
 |**Um clique em URL potencialmente mal-intencionado foi detectado**|Gera um alerta quando um usuário protegido por [links seguros de ATP do Office 365](../security/office-365-security/atp-safe-links.md) em sua organização clica em um link mal-intencionado. Este evento é disparado quando as alterações de URL veredicto são identificadas pelo Office 365 ATP ou quando os usuários substituem as páginas de links seguros do Office 365 ATP (com base na política de links seguros de ATP da sua organização Microsoft 365 para empresas). Essa política de alerta tem uma configuração de **alta** gravidade. Para os clientes do Office 365 ATP P2, e5, G5, este alerta dispara automaticamente a [investigação e a resposta automatizadas no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air). Para obter mais informações sobre eventos que disparam esse alerta, consulte [set up Office 365 ATP Safe links Policies](../security/office-365-security/set-up-atp-safe-links-policies.md).|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
 |**Resultado do envio do administrador concluído**|Gera um alerta quando um [envio de administrador](../security/office-365-security/admin-submission.md) conclui a verificação da entidade enviada. Um alerta será disparado toda vez que um resultado de nova verificação for renderizado de um envio de administrador. Esses alertas destinam-se a lembrá-lo de [revisar os resultados de](https://protection.office.com/reportsubmission)envios anteriores, enviar mensagens relatadas pelo usuário para obter a verificação mais recente da política e reexaminar o verdicts e ajudá-lo a determinar se as políticas de filtragem em sua organização estão tendo o impacto desejado. Essa política tem uma configuração de **baixa** gravidade.|Gerenciamento de ameaças|E1/F1, E3 ou e5|
+|**Investigação manual de email disparada pelo administrador**|Gera um alerta quando um administrador aciona a investigação manual de um email a partir do Gerenciador de ameaças. Para obter mais informações, consulte [exemplo: um administrador de segurança dispara uma investigação do explorador de ameaças] ( https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) . Este alerta notifica sua organização de que a investigação foi iniciada. O alerta fornece informações sobre quem disparou e inclui um link para a investigação. Essa política tem uma configuração de severidade **informativa** .|Gerenciamento de ameaças| Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2| 
 |**Criação de regra de encaminhamento/redirecionamento**|Gera um alerta quando alguém em sua organização cria uma regra de caixa de entrada para a caixa de correio que encaminha ou redireciona mensagens para outra conta de email. Esta política controla apenas as regras de caixa de entrada que são criadas usando o Outlook na Web (anteriormente conhecido como Outlook Web App) ou o PowerShell do Exchange Online. Essa política tem uma configuração de **baixa** gravidade. Para obter mais informações sobre como usar regras de caixa de entrada para encaminhar e redirecionar emails no Outlook na Web, confira [usar regras no Outlook na Web para encaminhar automaticamente as mensagens para outra conta](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
 |**pesquisa de descoberta eletrônica iniciada ou exportada**|Gera um alerta quando alguém usa a ferramenta de pesquisa de conteúdo no centro de segurança e conformidade. Um alerta é disparado quando as seguintes atividades de pesquisa de conteúdo são executadas: <br/><br/>* Uma pesquisa de conteúdo foi iniciada<br/>* Os resultados de uma pesquisa de conteúdo são exportados<br/>* Um relatório de pesquisa de conteúdo é exportado<br/><br/>Os alertas também são acionados quando as atividades de pesquisa de conteúdo anteriores são realizadas em associação a uma ocorrência de descoberta eletrônica. Essa política tem uma configuração de severidade **média** . Para obter mais informações sobre as atividades de pesquisa de conteúdo, consulte [Search for eDiscovery Activities no log de auditoria](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
 |**Elevação do privilégio de administrador do Exchange**|Gera um alerta quando alguém recebe permissões administrativas na sua organização do Exchange Online. Por exemplo, quando um usuário é adicionado ao grupo de função gerenciamento da organização no Exchange Online. Essa política tem uma configuração de **baixa** gravidade.|Permissões|E1/F1/G1, E3/G3 ou E5/G5|
@@ -238,17 +239,18 @@ Para ver a qual categoria uma política de alerta padrão é atribuída, confira
 |Gerenciamento de retenção somente para exibição|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
 |||||||
 
-**Dica:** Para exibir as funções atribuídas a cada um dos grupos de função padrão, execute os seguintes comandos no PowerShell do centro de conformidade & segurança:
-
-```PowerShell
-$RoleGroups = Get-RoleGroup
-```
-
-```PowerShell
-$RoleGroups | foreach {Write-Output -InputObject `r`n,$_.Name,"-----------------------"; Get-RoleGroup $_.Identity | Select-Object -ExpandProperty Roles}
-```
-
-Você também pode exibir as funções atribuídas a um grupo de função no centro de conformidade de & de segurança. Vá até a página **permissões** e selecione um grupo de função. As funções atribuídas estão listadas na página do menu de atalho.
+> [!TIP]
+> Para exibir as funções atribuídas a cada um dos grupos de função padrão, execute os seguintes comandos no PowerShell do centro de conformidade & segurança:
+> 
+> ```powershell
+> $RoleGroups = Get-RoleGroup
+> ```
+> 
+> ```powershell
+> $RoleGroups | foreach {Write-Output -InputObject `r`n,$_.Name,"-----------------------"; Get-RoleGroup $_.Identity | Select-Object -ExpandProperty Roles}
+> ```
+> 
+> Você também pode exibir as funções atribuídas a um grupo de função no centro de conformidade de & de segurança. Vá até a página **permissões** e selecione um grupo de função. As funções atribuídas estão listadas na página do menu de atalho.
 
 ## <a name="managing-alerts"></a>Gerenciar alertas
 

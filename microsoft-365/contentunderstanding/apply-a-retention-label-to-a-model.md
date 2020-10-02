@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Este artigo discute a aplicação de um rótulo de retenção a um modelo de compreensão de documentos
-ms.openlocfilehash: 8f74187d14620f0c095b19c6f59b2dbd1b3f98d1
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: b6ace2a11a7205919fdcf767b888401a5c28db0c
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337212"
+ms.locfileid: "48338620"
 ---
 # <a name="apply-a-retention-label-to-a-document-understanding-model"></a>Aplicar um rótulo de retenção a um modelo de compreensão de documentos
 
@@ -74,4 +74,4 @@ Por exemplo, todos os documentos de *Aviso de seguro* identificados pelo seu mod
 
 [Visão geral da Compreensão de Documentos](document-understanding-overview.md)
 
-[Criar um modelo de processamento de formulário](create-a-form-processing-model.md)  
+

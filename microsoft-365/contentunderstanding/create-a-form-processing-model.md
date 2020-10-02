@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Crie um modelo de processamento de formulário no Microsoft SharePoint Syntex.
-ms.openlocfilehash: df8a8bc5828c0235ecb18387fe753d77f0856eec
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 27e80a7b3626170e45ceaa55f1269e50d8fdab9e
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321816"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337260"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Criar um modelo de processamento de formulário no Microsoft SharePoint Syntex
 
@@ -30,6 +30,13 @@ A criação de um modelo de processamento de formulário envolve o seguinte:
  - Etapa 6: usar o seu modelo
 
 ## <a name="requirements"></a>Requisitos
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhN]  
+
+</br>
+
 
 Você só pode criar um modelo de processamento de formulário nas bibliotecas de documentos do SharePoint para os quais ele está habilitado. Se o processamento de formulário estiver habilitado, você poderá ver o**AI Builder** **"criar um modelo de processamento de formulário"** no menu **Automação** na biblioteca de documentos.  Se precisar de processamento habilitado na biblioteca de documentos, você deve contatar o administrador do SharePoint.
 
