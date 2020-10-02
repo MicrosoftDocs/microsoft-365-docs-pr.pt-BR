@@ -16,13 +16,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
+- m365solution-mig
+- m365initiative-compliance
 description: Pronto para começar a implementar políticas e rótulos de retenção para administrar os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: cc504468611d4a2a2758ef7d52b965c177999217
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8ff6b05a675053009c3d42587e296ab240b2740d
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198936"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338380"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Introdução à políticas de retenção e rótulos de retenção
 
@@ -60,16 +62,17 @@ Use a tabela a seguir para ajudá-lo a mapear seus requisitos de negócios para 
 
 |Eu quero...|Documentação|
 |----------------|---------------|
-|Defina com eficiência as ações reter e excluir para a organização ou pelo serviço Microsoft 365: <br />- Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Grupos do Microsoft 365 <br />- Skype for Business  <br />- Microsoft Teams <br />- Rede do Yammer |[Criar e configurar políticas de retenção](create-retention-policies.md)|
-|Permita que os administradores e os usuários apliquem manualmente um conjunto de ações de retenção e exclusão de documentos e emails: <br />- SharePoint <br />- OneDrive <br />- Outlook e Outlook na Web|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
-|Deixe que os administradores do site apliquem um rótulo de retenção padrão a todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do SharePoint|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
-|Permita que os usuários apliquem automaticamente um rótulo de retenção a emails usando as regras do Outlook|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
-|Automaticamente aplique um conjunto de ações de retenção e exclusão de documentos e emails |[Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)|
+|Defina com eficiência as ações reter e excluir do serviço Microsoft 365: <br />- Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Grupos do Microsoft 365 <br />- Skype for Business  <br />- Microsoft Teams <br />- Rede do Yammer |[Criar e configurar políticas de retenção](create-retention-policies.md)|
+|Permitir que os administradores e usuários apliquem manualmente as ações reter e excluir para documentos e emails: <br />- SharePoint <br />- OneDrive <br />- Outlook e Outlook na Web|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Permitir que os administradores de site configuram ações reter e excluir padrão para todo o conteúdo em uma biblioteca do Microsoft Office SharePoint Online, pasta ou conjunto de documentos|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Permitir que os usuários apliquem automaticamente manter e excluam ações para emails usando as regras do Outlook|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Permitir que os administradores se apliquem e excluam ações a um documento entendendo o modelo, para que eles sejam automaticamente aplicados a documentos identificados em uma biblioteca do Microsoft Office SharePoint Online|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Aplicar automaticamente ações reter e excluir a documentos e emails |[Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)|
 |Inicie o período de retenção quando um evento ocorrer, por exemplo:  <br />- Funcionários saindo da organização <br />- Expiração dos contratos <br />- Fim da vida útil do produto| [Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
 |Gerenciar o ciclo de vida de diferentes tipos de documentos no Microsoft Office SharePoint Online| [Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint](auto-apply-retention-labels-scenario.md)|
 |Respeitar a Regra 17a-4 da SEC|[Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma SEC 17a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md) |
-|Certifique-se de que alguém examine e aprove antes que o conteúdo seja excluído ao fim do período de retenção|[Revisões de disposição](disposition.md#disposition-reviews) |
-| Monitorar como e onde os rótulos de retenção são aplicados | [Monitorar rótulos de retenção](retention.md#monitoring-retention-labels) |
+|Certifique-se de que alguém examine e aprove antes que o conteúdo seja excluído permanentemente no final do período de retenção|[Revisões de disposição](disposition.md#disposition-reviews) |
+| Monitorar como e onde as configurações reter e excluir são aplicadas aos itens | [Monitorar rótulos de retenção](retention.md#monitoring-retention-labels) |
 |Usar uma única solução de gerenciamento de registros para emails e documentos |[Saiba mais sobre o gerenciamento de registros](records-management.md) |
 
 Se você usa rótulos de retenção para o gerenciamento de registros, há outros cenários exclusivos de rótulos de retenção que marcam o conteúdo como um registro. Confira [Cenários comuns para de gerenciamento de registros](get-started-with-records-management.md#common-scenarios-for-records-management).

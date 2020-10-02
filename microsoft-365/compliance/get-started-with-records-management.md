@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Precisa de uma solução de gerenciamento de registros para o Microsoft 365 que gerencie o conteúdo de alto valor para obrigações legais, comerciais ou normativas, mas não sabe onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: 1983aca82bdab2ca7bb63d5a508dc3843ac1e322
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: fd3e3368b7a23cb31a8df4953268576de2419f89
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868896"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333847"
 ---
 # <a name="get-started-with-records-management"></a>Começar a usar o gerenciamento de registros
 
@@ -70,15 +70,16 @@ Use a tabela a seguir para ajudá-lo a mapear seus requisitos de negócios para 
 |----------------|---------------|
 |Declarar um registro |[Declarar registros usando rótulos de retenção](declare-records.md)|
 |Atualizar um registro |[Usar a versão de registro para atualizar registros armazenados no SharePoint ou no OneDrive](record-versioning.md)|
-|Permita que os administradores e os usuários apliquem manualmente um conjunto de ações de retenção e exclusão de documentos e emails: <br />- SharePoint <br />- OneDrive <br />- Outlook e Outlook na Web|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
-|Deixe que os administradores do site apliquem um rótulo de retenção padrão a todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do SharePoint|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
-|Permita que os usuários apliquem automaticamente um rótulo de retenção a emails usando as regras do Outlook|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
-|Automaticamente aplique um conjunto de ações de retenção e exclusão de documentos e emails |[Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)|
+|Permitir que os administradores e usuários apliquem manualmente as ações reter e excluir para documentos e emails: <br />- SharePoint <br />- OneDrive <br />- Outlook e Outlook na Web|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Permitir que os administradores de site configuram ações reter e excluir padrão para todo o conteúdo em uma biblioteca do Microsoft Office SharePoint Online, pasta ou conjunto de documentos|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Permitir que os usuários apliquem automaticamente manter e excluam ações para emails usando as regras do Outlook|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Permitir que os administradores se apliquem e excluam ações a um documento entendendo o modelo, para que eles sejam automaticamente aplicados a documentos identificados em uma biblioteca do Microsoft Office SharePoint Online|[Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)|
+|Aplicar automaticamente ações reter e excluir a documentos e emails |[Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)|
 |Inicie o período de retenção quando um evento ocorrer, por exemplo:  <br />- Funcionários saindo da organização <br />- Expiração dos contratos <br />- Fim da vida útil do produto| [Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
 |Gerenciar o ciclo de vida de diferentes tipos de documentos no Microsoft Office SharePoint Online| [Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint](auto-apply-retention-labels-scenario.md)|
-|Certifique-se de que alguém examine e aprove antes que o conteúdo seja excluído ao fim do período de retenção|[Revisões de disposição](disposition.md#disposition-reviews) |
-|Tenha a prova de disposição para o conteúdo excluído ao fim do seu período de retenção|[Disposição de conteúdo](disposition.md#disposition-of-records) |
-| Monitorar como e onde os rótulos de retenção são aplicados | [Monitorar rótulos de retenção](retention.md#monitoring-retention-labels) |
+|Certifique-se de que alguém examine e aprove antes que o conteúdo seja excluído permanentemente no final do período de retenção|[Revisões de disposição](disposition.md#disposition-reviews) |
+|Ter uma prova de eliminação para o conteúdo que é excluído permanentemente no final do período de retenção|[Disposição de conteúdo](disposition.md#disposition-of-records) |
+|Monitorar como e onde as configurações reter e excluir são aplicadas aos itens | [Monitorar rótulos de retenção](retention.md#monitoring-retention-labels) |
 
 ## <a name="end-user-documentation-for-records"></a>Documentação do usuário final para registros
 
