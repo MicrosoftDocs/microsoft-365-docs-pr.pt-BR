@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Aprenda a criar um classificador
-ms.openlocfilehash: 1225a4e57969b507ddd2ca7260050605c0db955e
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 948ece1a19b7e6049167c373b3200efd316a60cd
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321852"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338632"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Criar um classificador no Microsoft SharePoint Syntex
 
@@ -131,7 +131,7 @@ Se você receber uma **incompatibilidade** nos arquivos rotulados, talvez seja n
 
 ## <a name="test-your-model"></a>Testar seu modelo
 
-Se você recebeu uma correspondência em seus arquivos de exemplo rotulados, agora você pode testar seu modelo em seus arquivos de exemplo não rotulados restantes que o modelo não tenha visto anteriormente.  Essa etapa é opcional.
+Se você recebeu uma correspondência em seus arquivos de exemplo rotulados, agora você pode testar seu modelo em seus arquivos de exemplo não rotulados restantes que o modelo não tenha visto anteriormente.  Isso é opcional, mas uma etapa útil para avaliar a "adequação" ou prontidão do modelo antes de usá-lo, testando-o em arquivos que o modelo nunca viu antes.
 
 1. Na página inicial do modelo, selecione a guia **Testar**.  Isso executará o modelo em seus arquivos de exemplo não rotulados.
 2. Na lista **Arquivos de teste**, os arquivos de exemplo são exibidos e mostram se o modelo os previu como positivos ou negativos. Use essas informações para ajudá-lo a determinar a eficácia do seu classificador na identificação de seus documentos.
@@ -141,8 +141,8 @@ Se você recebeu uma correspondência em seus arquivos de exemplo rotulados, ago
 ## <a name="see-also"></a>Confira também
 [Criar um extrator](create-an-extractor.md)
 
-[Visão geral da Compreensão de Documentos](document-understanding-overview.md)
+[Visão geral sobre Compreensão de Documentos](document-understanding-overview.md).
 
-[Criar um modelo de processamento de formulário](create-a-form-processing-model.md)
+[Tipos de explicação](explanation-types-overview.md)
 
 [Aplicar um modelo](apply-a-model.md) 

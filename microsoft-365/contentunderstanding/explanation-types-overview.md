@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Saiba mais sobre tipos de explicação no Microsoft SharePoint Syntex
-ms.openlocfilehash: 7d78337fd91bc7e5a71bccd4867f019ae663417a
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 4fe13a35757807e08638f68259ccd24a59a97460
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321792"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338656"
 ---
 # <a name="introduction-to-explanation-types"></a>Introdução aos tipos de explicação
 
@@ -68,7 +68,7 @@ Além disso, se você tiver requisitos de uso de maiúsculas na sua lista de pad
    ![Somente maiúsculas](../media/content-understanding/exact-caps.png)
 
 > [!NOTE]
-> Em vez de criar a explicação da lista de padrões manualmente, use a [biblioteca de explicações]() para usar modelos de lista de padrões predefinidos para lista de padrões comuns, como *data*, *número de telefone*, *número de cartão de crédito*, etc... 
+> Em vez de criar a explicação da lista de padrões manualmente, use a [biblioteca de explicações](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-explanation-templates) para usar modelos de lista de padrões predefinidos para lista de padrões comuns, como *data*, *número de telefone*, *número de cartão de crédito*, etc... 
 
 ## <a name="proximity"></a>Proximidade 
 

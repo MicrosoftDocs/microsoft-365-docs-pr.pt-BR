@@ -9,14 +9,14 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Aprenda como criar um extrator no Microsoft SharePoint Syntex.
-ms.openlocfilehash: d68cc8b8c337c1ae6740eb5775576a54279b8389
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 260486c128ce76c31fe5f4a0994b4e103687b829
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321804"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338644"
 ---
-# <a name="create-an-extractor-preview"></a>Crie um extrator (Visualização)
+# <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Criar um extrator no Microsoft SharePoint Syntex
 
 
 </br>
@@ -122,9 +122,20 @@ Se você receber novamente um **Incompatível** em seus arquivos rotulados, prov
 
 ## <a name="test-your-model"></a>Teste o seu modelo
 
-Se você receber uma compatibilidade em seus arquivos de amostra rotulados, agora você pode testar seu modelo no restante dos arquivos de amostra não rotulados. Esta é uma etapa útil para avaliar a "adequação" ou prontidão do modelo antes de usá-lo, testando-o em arquivos que o modelo nunca viu antes.
+Se você receber uma compatibilidade em seus arquivos de amostra rotulados, agora você pode testar seu modelo no restante dos arquivos de amostra não rotulados. Isso é opcional, mas uma etapa útil para avaliar a "adequação" ou prontidão do modelo antes de usá-lo, testando-o em arquivos que o modelo nunca viu antes.
 
 1. Na página inicial do modelo, clique na guia **Teste**. Isso executa o modelo em seus arquivos de amostra não rotulados.
 2. Na lista **Arquivos de teste**, seus arquivos de exemplo são exibidos para mostrar se o modelo é capaz de extrair as informações de que você precisa. Utilize essas informações para ajudar a determinar a eficácia do seu classificador na identificação dos seus documentos.
 
     ![Teste nos seus arquivos](../media/content-understanding/test-filies-extractor.png) 
+
+## <a name="see-also"></a>Confira também
+[Criar um classificador](create-a-classifier.md)
+
+[Tipos de explicação](explanation-types-overview.md)
+
+[Aproveitar a taxonomia do repositório de termos ao criar um extrator](leverage-term-store-taxonomy.md)
+
+[Visão geral sobre Compreensão de Documentos](document-understanding-overview.md).
+
+[Aplicar um modelo](apply-a-model.md) 
