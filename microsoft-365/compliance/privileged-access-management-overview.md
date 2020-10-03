@@ -13,18 +13,20 @@ search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
-- M365-security-compliance
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: ''
 description: Este artigo fornece uma visão geral sobre o gerenciamento de acesso privilegiado no Microsoft 365, incluindo as respostas para perguntas frequentes.
-ms.openlocfilehash: eb5fe5320c061d40f0882f93b66afa3cad4fa0fa
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a1bcf1fbe767b4657be8a8ebcc8bf7b101c498d8
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036034"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341229"
 ---
 # <a name="privileged-access-management"></a>Gerenciamento de acesso privilegiado
 
@@ -50,13 +52,13 @@ Cada um dos fluxos de processo a seguir descreve a arquitetura de acesso privile
 
 ### <a name="step-1-configure-a-privileged-access-policy"></a>Etapa 1: configurar uma política de acesso privilegiado
 
-Quando você configura uma política de acesso privilegiada com o [centro de administração do Microsoft 365](https://admin.microsoft.com) ou o PowerShell de gerenciamento do Exchange, você define a política e os processos de recurso de acesso privilegiado e os atributos de política no substrato da Microsoft 365. As atividades são registradas no centro &amp; de conformidade de segurança. A política agora está habilitada e pronta para lidar com solicitações de entrada para aprovações.
+Quando você configura uma política de acesso privilegiada com o [centro de administração do Microsoft 365](https://admin.microsoft.com) ou o PowerShell de gerenciamento do Exchange, você define a política e os processos de recurso de acesso privilegiado e os atributos de política no substrato da Microsoft 365. As atividades são registradas no centro de conformidade de segurança &amp; . A política agora está habilitada e pronta para lidar com solicitações de entrada para aprovações.
 
 ![Etapa 1: criação de política](../media/pam-step1-policy-creation.jpg)
 
 ### <a name="step-2-access-request"></a>Etapa 2: solicitação de acesso
 
-No [centro de administração do Microsoft 365](https://admin.microsoft.com) ou com o PowerShell de gerenciamento do Exchange, os usuários podem solicitar acesso a tarefas privilegiadas ou privilegiadas. O recurso de acesso privilegiado envia a solicitação para o substrato 365 da Microsoft para processamento com a política de acesso de privilégio configurada &amp; e registra a atividade nos logs do centro de conformidade de segurança.
+No [centro de administração do Microsoft 365](https://admin.microsoft.com) ou com o PowerShell de gerenciamento do Exchange, os usuários podem solicitar acesso a tarefas privilegiadas ou privilegiadas. O recurso de acesso privilegiado envia a solicitação para o substrato 365 da Microsoft para processamento com a política de acesso de privilégio configurada e registra a atividade nos logs do centro de conformidade de segurança &amp; .
 
 ![Etapa 2: solicitação de acesso](../media/pam-step2-access-request.jpg)
 
@@ -68,7 +70,7 @@ Uma solicitação de aprovação é gerada e a notificação de solicitação pe
 
 ### <a name="step-4-access-processing"></a>Etapa 4: processamento de acesso
 
-Para uma solicitação aprovada, a tarefa é processada pelo runspace de gerenciamento do Exchange. A aprovação é verificada em relação à política de acesso privilegiado e processada pelo substrato 365 da Microsoft. Todas as atividades da tarefa são registradas no centro &amp; de conformidade de segurança.
+Para uma solicitação aprovada, a tarefa é processada pelo runspace de gerenciamento do Exchange. A aprovação é verificada em relação à política de acesso privilegiado e processada pelo substrato 365 da Microsoft. Todas as atividades da tarefa são registradas no centro de conformidade de segurança &amp; .
 
 ![Etapa 4: processamento de acesso](../media/pam-step4-access-processing.jpg)
 

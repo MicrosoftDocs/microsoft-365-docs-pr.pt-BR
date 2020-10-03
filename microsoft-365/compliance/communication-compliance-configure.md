@@ -14,16 +14,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
-- M365-security-compliance
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 361e20129e67832c21631ebf1dbf0031319489ed
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 262cb34bbe7f2923ecf8dce88208c70ba0b5b7f7
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289112"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341407"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -133,7 +135,7 @@ Quando você atribui um grupo de distribuição na política, a política monito
 Se você é uma organização com uma implantação local do Exchange ou um provedor de email externo e deseja monitorar os bate-papos do Microsoft Teams para seus usuários, você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Posteriormente nestas etapas, você atribuirá esse grupo de distribuição como a seleção de **usuários e grupos supervisionados** no assistente de política.
 
 >[!IMPORTANT]
->Você deve arquivar uma solicitação com o suporte da Microsoft para permitir que sua organização Use a interface gráfica do usuário no centro de conformidade de & de segurança para pesquisar dados de chat do teams para usuários locais. Para obter mais informações, consulte [pesquisando caixas de correio baseadas em nuvem para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
+>Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams para usuários locais. Para obter mais informações, consulte [pesquisando caixas de correio baseadas em nuvem para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
 
 Para obter mais informações sobre a configuração de grupos, consulte:
 

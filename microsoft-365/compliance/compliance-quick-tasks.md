@@ -9,15 +9,16 @@ audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
-- M365-security-compliance
+- m365-security-compliance
+- m365initiative-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar a usar rapidamente a conformidade no Microsoft 365.
-ms.openlocfilehash: d2399b65e6f8d2765d3fc8691b0e395f113092f1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 98526104d2ced7b86315b24bd2843701047a097c
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200834"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341177"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 

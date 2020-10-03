@@ -14,16 +14,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
-- M365-security-compliance
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 43edaec282cc1efb9f4ab7d9e92ed0a779d255ab
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: df30f15e4b5b1a47027e2c01d4e98e144ef915be
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131553"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341209"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
