@@ -1,6 +1,6 @@
 ---
 title: Trabalhe com percepções
-description: ''
+description: Visão geral dos insights disponíveis na área de trabalho gerenciada da Microsoft
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b3ed56dd3e669dbd5a2c3f09d87dfd87fe680aff
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: ba91a33da9f4d2187938c27398d5ef7c1cacebcd
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337176"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350815"
 ---
 # <a name="work-with-insights"></a>Trabalhe com percepções
 
@@ -31,9 +31,11 @@ Com esses painéis, você pode encontrar as respostas para perguntas como estas:
 - Qual é o status atual das atualizações de segurança em dispositivos?
 - Quanto tempo levava até 95% dos dispositivos para obter o atual com a atualização de segurança mais recente?
 
+
 Para acessar esses modos de exibição do [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), navegue até a guia área de trabalho gerenciada da Microsoft na Home Page e selecione **Exibir detalhes** na área **relatórios** :
 
-<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->
+
+![Página principal do centro de administração com área de relatório no link detalhes da parte inferior esquerda e modo de exibição](../../media/insights-main.png)
 
 
 ## <a name="usage-insights"></a>Percepções de uso

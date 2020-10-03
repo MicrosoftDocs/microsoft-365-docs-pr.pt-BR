@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e50e5e961e1a45b0b6535995727029222539ff03
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 6794cf72afdb94e587e06319f87a406521ad2710
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326956"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350368"
 ---
 # <a name="set-up-safe-attachments-policies-in-office-365-atp"></a>Configurar políticas de anexos seguros no Office 365 ATP
 
@@ -53,7 +53,7 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 > [!NOTE]
 > Na área configurações globais das configurações de anexos seguros, você configura recursos que não são dependentes de políticas de anexos seguros. Para obter instruções, confira [Ativar ATP para SharePoint, onedrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md) e [documentos seguros no Microsoft 365 E5](safe-docs.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **anexos seguros de ATP** , use <https://protection.office.com/safeattachmentv2> .
 

@@ -3,8 +3,8 @@ title: Configurar o Microsoft 365 Apps for business
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
-author: sirkkuw
-manager: mnirkhe
+author: Sirkkuw
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Apps for business.
-ms.openlocfilehash: 8e03da2f3547b9a11b9a6f27b86558b82c9e82c6
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 905a8a69045ed283c0c6e38ab9bc58523fd8bade
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778884"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350254"
 ---
 # <a name="set-up-microsoft-365-apps-for-business"></a>Configurar o Microsoft 365 Apps for business
 

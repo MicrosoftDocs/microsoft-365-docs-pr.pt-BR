@@ -3,8 +3,8 @@ title: Configurar o Microsoft 365 Business Basic
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
-author: sirkkuw
-manager: mnirkhe
+author: Sirkkuw
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Basic.
-ms.openlocfilehash: 9b448db2a6b8c78bb5265b1e80a01e93c9a6c6ca
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: b40b6a633c9c6c25daa4607c9e05178a1f418c51
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778896"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350210"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Configurar o Microsoft 365 Business Basic
 
