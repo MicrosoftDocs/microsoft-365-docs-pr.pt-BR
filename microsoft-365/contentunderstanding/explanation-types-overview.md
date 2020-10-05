@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Saiba mais sobre tipos de explicação no Microsoft SharePoint Syntex
-ms.openlocfilehash: 4fe13a35757807e08638f68259ccd24a59a97460
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 43272504912451e4690cb8b7fe351462371bb252
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338656"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350298"
 ---
 # <a name="introduction-to-explanation-types"></a>Introdução aos tipos de explicação
 
@@ -87,7 +87,7 @@ Use a explicação de proximidade para definir a distância da explicação do n
 
 #### <a name="what-are-tokens"></a>O que são tokens?
 
-Para usar o tipo de explicação de proximidade, entenda o que é um token, uma vez que o número de tokens é como a explicação de proximidade mede a distância de uma explicação para a outra.  
+Para usar o tipo de explicação de proximidade, você precisa entender o que é um token, uma vez que o número de tokens é como a explicação de proximidade mede a distância de uma explicação para a outra.  
 
 Um token é um intervalo contínuo (sem espaços ou pontuação) de letras e números. Um espaço NÃO é um token. Cada caractere de pontuação é um token. A tabela a segui mostra alguns exemplos de como determinar o número de tokens em uma frase.
 

@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Saiba mais sobre o processamento de formulário no SharePoint Syntex
-ms.openlocfilehash: bbdf318b7d0c4a9f58cc79453dfaaf0daf5b9a5c
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 9b5b9b1c54220037e1c10f2722a641b526592f84
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333892"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338608"
 ---
 # <a name="form-processing-overview"></a>Visão geral do processamento de formulário
 
@@ -43,7 +43,7 @@ Você usa arquivos de exemplo para treinar seu modelo e definir as informações
 
 Depois de treinar e publicar seu modelo, ele cria um [Fluxo do Power Automate](https://docs.microsoft.com/power-automate/getting-started). O fluxo será executado quando um arquivo for carregado na biblioteca de documentos do SharePoint e extrairá os dados identificados no modelo. Os dados extraídos serão exibidos em colunas no modo de exibição da biblioteca de documentos do seu modelo.
 
-Um administrador do Office 365 precisa [habilitar o processamento de formulário](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding#to-set-up-content-understanding) da biblioteca de documentos do SharePoint para que os usuários possam [criar um modelo de processamento de formulário](create-a-form-processing-model.md) nele.
+Um administrador do Office 365 precisa [habilitar o processamento de formulário](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding#to-set-up-content-understanding) da biblioteca de documentos do SharePoint para que os usuários possam [criar um modelo de processamento de formulário](create-a-form-processing-model.md) nele. Você pode selecionar os sites durante a instalação ou após a instalação das suas configurações de gerenciamento.
 
 
 
