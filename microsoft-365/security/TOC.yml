@@ -71,7 +71,7 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Gerar um alerta de teste
               href: mtp/generate-test-alert.md
-        - name: Executar um piloto na produção
+        - name: Executar o projeto piloto na produção
           items:
             - name: Visão geral do piloto
               href: mtp/mtp-pilot.md
@@ -400,17 +400,17 @@
               href: ./office-365-security/email-validation-and-authentication.md
             - name: Conceder aos usuários acesso ao Centro de Segurança
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
-            - name: Documentos seguros no Office 365 ATP
+            - name: Documentos Seguros no Office 365 ATP
               href: ./office-365-security/safe-docs.md
-            - name: Configurar as políticas de Links Seguros da ATP
+            - name: Configurar políticas de Links Seguros no Office 365 ATP
               href: ./office-365-security/set-up-atp-safe-links-policies.md
-            - name: Configurar políticas de Anexos Seguros da ATP
+            - name: Configurar políticas de Anexos Seguros no Office 365 ATP
               href: ./office-365-security/set-up-atp-safe-attachments-policies.md
             - name: Configurar o SPF para ajudar a evitar falsificações
               href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
-            - name: Especificar uma caixa de correio para envios dos usuários
+            - name: Políticas de envios do usuário
               href: ./office-365-security/user-submission.md
-            - name: 'Ativar a ATP para SharePoint, OneDrive e Microsoft Teams'
+            - name: 'Ativar a ATP para o SharePoint, OneDrive e Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Usar DKIM para validar emails de saída
               href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -493,8 +493,10 @@
               href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
             - name: Regras de fluxo de email (regras de transporte) no EOP autônomo
               href: ./office-365-security/mail-flow-rules-transport-rules-0.md
-            - name: Relatar lixo eletrônico e esquemas de phishing no Outlook na Web
+            - name: Relatar lixo eletrônico e phishing no Outlook na Web
               href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+            - name: Relatar lixo eletrônico e phishing no Outlook para iOS e Android
+              href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
             - name: Executar um relatório de grupo de função de administrador no EOP autônomo
               href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
         - name: Investigar
