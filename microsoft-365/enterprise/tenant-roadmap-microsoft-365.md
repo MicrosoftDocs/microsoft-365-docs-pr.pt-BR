@@ -10,15 +10,17 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: M365-subscription-management
+ms.collection:
+- M365-subscription-management
+- M365initiative-coredeploy
 ms.custom: it-pro
 description: O roteiro para configurar seus locatários para o Microsoft 365.
-ms.openlocfilehash: 7834e8b7f9ff8a1b33f2f2a7ccc4a499e4da7c69
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: e4b2af9143070caa1ebd8fd66ef9f367f85d3bb9
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775142"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357905"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Roteiro do locatário para o Microsoft 365
 
@@ -28,13 +30,12 @@ Ao criar um locatário do Microsoft 365, você o atribui a uma localização geo
 
 Para que o seu locatário fique pronto para os serviços fundamentais de rede e identidade, é fundamental planejar e executar cuidadosamente a configuração do locatário.
 
-## <a name="plan"></a>Plano
+## <a name="plan"></a>Planejar
 
 Para planejar sua implementação de locatário:
 
 - [Entender as assinaturas, as licenças e os locatários do Azure Active Directory (Azure AD)](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [Entender como usar certificados SSL de terceiros](plan-for-third-party-ssl-certificates.md)
-- [Acessar guias de configuração no centro de administração do Microsoft 365](setup-guides-for-microsoft-365.md)
 - [Entender as maneiras como um Microsoft 365 locatário é integrado aos serviços do Azure AD](integrated-apps-and-azure-ads.md)
 - [Planejar o suporte ao aplicativo cliente](microsoft-365-client-support-certificate-based-authentication.md)
 - [Determinar como usar a autenticação moderna híbrida](hybrid-modern-auth-overview.md)
@@ -44,7 +45,7 @@ Para planejar sua implementação de locatário:
 
 ## <a name="deploy"></a>Implantar
 
-Para implantar o locatário, [adicione os domínios DNS](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) da sua organização.
+Para implantar seu locatário, [adicione os domínios DNS](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) para sua organização e use os [guias de configuração no centro de administração do Microsoft 365](setup-guides-for-microsoft-365.md).
 
 ## <a name="tenants-with-multiple-geographic-locations"></a>Locatários com vários locais geográficos
 

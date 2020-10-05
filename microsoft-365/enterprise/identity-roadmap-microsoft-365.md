@@ -13,14 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
+- M365initiative-coredeploy
 ms.custom: ''
 description: O mapa de identidade para o Microsoft 365.
-ms.openlocfilehash: 997df19ca71b67d3fa579b9feaf3e1a61bc7a358
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 82c2adc753a3446b9ca4f070d8655f526465de55
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327766"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357825"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Roteiro da identidade do Microsoft 365
 
@@ -70,7 +71,7 @@ Para gerenciar sua implantação de identidade do Microsoft 365, consulte:
 
 - [Contas de usuário](manage-microsoft-365-accounts.md)
 - [Licenças](assign-licenses-to-user-accounts.md)
-- [Password](manage-microsoft-365-passwords.md)
+- [Senhas](manage-microsoft-365-passwords.md)
 - [Grupos](manage-microsoft-365-groups.md)
 - [Governança](manage-microsoft-365-identity-governance.md)
 - [Sincronização de diretório](view-directory-synchronization-status.md)

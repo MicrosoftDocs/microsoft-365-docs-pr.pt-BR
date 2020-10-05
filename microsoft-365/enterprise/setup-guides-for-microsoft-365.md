@@ -12,6 +12,7 @@ ms.collection:
 - Ent_O365
 - M365-subscription-management
 - SPO_Content
+- M365initiative-coredeploy
 f1.keywords:
 - CSH
 ms.custom: Adm_O365_Setup
@@ -21,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: Acelere o planejamento e a configuração do Microsoft 365 ou do Office 365 com guias de configuração.
-ms.openlocfilehash: 879942d75f37a7984dad8f4ac5dc99933b3988f4
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 106a659dd75ae14d38c393a9547b84630e458337
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949733"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357977"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Guias de configuração para os serviços Microsoft 365 e Office 365
 

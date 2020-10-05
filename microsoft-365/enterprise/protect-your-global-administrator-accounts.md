@@ -8,7 +8,9 @@ audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365initiative-coredeploy
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +22,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: Este artigo fornece informações sobre como proteger o acesso de administrador global à sua assinatura do Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0b234c0e5c0ca352f26ff30213f22d59e07de274
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: bcc1a09ca8e7c57d4d6c69400925df3531c53c4f
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327244"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357801"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Proteger suas contas de administrador global do Microsoft 365
 

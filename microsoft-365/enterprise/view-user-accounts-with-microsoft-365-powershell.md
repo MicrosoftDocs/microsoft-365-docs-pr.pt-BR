@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: Saiba como exibir, listar ou exibir suas contas de usuário do Microsoft 365 de diferentes maneiras com o PowerShell.
-ms.openlocfilehash: ea631d12a95ca813ebf9da3286e36d724d51a2f7
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4dba05ce440ec0d395fda58a12df3e9f751bb469
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695423"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357893"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>Exibir contas de usuário do Microsoft 365 com o PowerShell
 
@@ -99,6 +99,21 @@ Como outro exemplo, você pode verificar o status habilitado de uma conta de usu
 ```powershell
 Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayName,UserPrincipalName,AccountEnabled
 ```
+
+### <a name="view-account-synchronization-status"></a>Exibir status de sincronização de conta
+
+As contas de usuário têm duas fontes; Windows Server Active Directory (AD) que são contas que sincronizam do AD local para a nuvem e o Azure AD que são contas criadas diretamente na nuvem.
+
+```powershell
+Get-AzureADUser | Where {$_.DirSyncEnabled -eq $true}
+```
+Este comando instrui o PowerShell a obter todos os usuários que tenham o atributo **DirSyncEnabled** definido como true. Pode ser usado para retirar as contas que sincronizam do AD local.
+
+
+```powershell
+Get-AzureADUser | Where {$_.DirSyncEnabled -ne $true}
+```
+Este comando instrui o PowerShell a obter todos os usuários que tenham o atributo **DirSyncEnabled** definido como false. Ele pode ser usado para extrair contas somente na nuvem.
 
 ### <a name="view-some-accounts-based-on-a-common-property"></a>Exibir algumas contas com base em uma propriedade comum
 
@@ -305,4 +320,3 @@ Get-ADUser ([guid][System.Convert]::FromBase64String((Get-MsolUser -UserPrincipa
 [Gerenciar o Microsoft 365 com o PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Introdução ao PowerShell para o Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f462e6018f03080b41e46f45629dc4bfe44b3ef9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c9b495b70c8b61188b4db3175b54e406feb87fc8
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200012"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357837"
 ---
 # <a name="incidents-overview-in-microsoft-threat-protection"></a>Visão geral de incidentes na Proteção contra Ameaças da Microsoft
 
@@ -36,23 +36,26 @@ ms.locfileid: "48200012"
 
 
 
-A base de todos os incidentes são os alertas. Os alertas são criados quando um evento ou uma atividade mal-intencionados são vistos na sua rede. Os alertas individuais fornecem pistas valiosas sobre o que está acontecendo em eventos individuais ou entidades. No entanto, em ataques geralmente são usados vários vetores de ataque para executar uma violação. Juntar pistas individuais para chegar a um todo pode ser um desafio. 
+Os incidentes são baseados em alertas relacionados. Os alertas são criados quando um evento ou uma atividade mal-intencionados são vistos na sua rede. Alertas individuais fornecem pistas valiosas sobre um ataque contínuo. No entanto, os ataques geralmente empregam vários vetores e técnicas para realizar uma violação. Piecing pistas individuais juntas podem ser desafiadores e demorados.
 
-A Proteção contra Ameaças da Microsoft conecta os pontos em alertas individuais. Os eventos mal-intencionados nas seguintes entidades são exibidos no centro de segurança do Microsoft 365:
-- Dispositivos
-- Usuários
-- Caixas de correio
+Este breve vídeo fornece uma visão geral de incidentes na proteção contra ameaças da Microsoft.
+<br>
 
-Os eventos suspeitos que mostram as características de ser parte de um ataque maior são agregados em um só incidente. 
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-Você saberá exatamente onde um ataque começou e outros detalhes para ajudá-lo a ver a extensão desse ataque.
+Um incidente é uma coleção de alertas correlacionados que compõem a história de um ataque. Eventos mal-intencionados e suspeitos encontrados em diferentes entidades de dispositivo, usuário e caixa de correio na rede são agregados automaticamente pela proteção contra ameaças da Microsoft. Agrupar alertas relacionados em um incidente oferece aos defensores de segurança uma visão abrangente de um ataque. 
 
-A plataforma fornece agentes defensores da segurança com visuais e representações de dados corretos para entender e resolver ameaças complexas que podem afetar diferentes entidades ao mesmo tempo. 
+Por exemplo, os defensores de segurança podem ver onde o ataque começou, quais táticas foram usadas e o quanto o ataque entrou na rede. Eles também podem ver o escopo do ataque, como quantos dispositivos, usuários e caixas de correio foram impactados, quão severo o impacto era e outros detalhes sobre entidades afetadas.
 
-Você terá não somente visibilidade sobre o escopo de um ataque, mas também terá acesso aos serviços que permitirão que você execute etapas táticas para conter um incidente.
+Se for habilitada, a proteção contra ameaças da Microsoft poderá investigar e resolver automaticamente os alertas individuais por meio de automação e inteligência artificial. Os defensores de segurança também podem realizar etapas adicionais de correção para resolver o ataque diretamente do modo de exibição incidentes. 
+
+Os incidentes dos últimos 30 dias são mostrados na fila de incidentes. A partir daqui, os defensores de segurança podem ver quais incidentes devem ser priorizados com base no nível de risco e outros fatores. 
+
+Os defensores de segurança também podem renomear incidentes, atribuí-los a analistas individuais, classificar e adicionar marcas a incidentes para uma experiência de gerenciamento de incidentes melhor e mais personalizada.
 
 
-## <a name="related-topics"></a>Tópicos relacionados
+
+## <a name="see-also"></a>Confira também
 - [Priorizar incidentes](incident-queue.md)
 - [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)
