@@ -15,14 +15,16 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: 250c125648f734a13899a58dd22ee3bffb0921a9
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 3d7156dfe65e9479f2505d196790800c6afd1f2a
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333719"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367960"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Executar seu projeto piloto de proteção contra ameaças da Microsoft 
 
