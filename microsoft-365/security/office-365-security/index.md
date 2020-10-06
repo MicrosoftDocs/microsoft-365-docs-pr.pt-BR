@@ -13,13 +13,13 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Segurança no Office 365, de EOP para planos ATP 1 e 2, configurações de segurança padrão vs. estritos e muito mais, para que você possa entender o que você tem e como proteger suas propriedades.
-ms.openlocfilehash: bfce840aa05eaebecc1ec227c6c29bd11cb0a823
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+description: Segurança no Office 365, de EOP para planos ATP 1 e 2, configurações de segurança padrão vs. estrito e muito mais. Entenda o que você tem e como proteger suas propriedades.
+ms.openlocfilehash: c5b357dc7a08eeef099b25172169d04cdb81e8c4
+ms.sourcegitcommit: 5abd5ef8c2903b4c3bd875da68049fde26768dcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338692"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48359148"
 ---
 # <a name="office-365-security-overview"></a>Visão geral da segurança do Office 365
 
@@ -53,9 +53,9 @@ Mas, em termos de arquitetura, vamos começar pensando em cada parte como camada
 
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="Placeholder graphic":::
 
-Embora cada um desses serviços enfatize uma meta específica de entre proteger, detectar, investigar e responder, ***todos*** os serviços podem realizar ***qualquer*** uma das metas de proteção, detecção, investigação e resposta.
+Embora cada um desses serviços enfatize um objetivo de entre proteger, detectar, investigar e responder, ***todos*** os serviços podem realizar ***qualquer*** uma das metas de proteção, detecção, investigação e resposta.
 
-O núcleo da segurança do Office 365 é a proteção do EOP. ATP P1 contém EOP. ATP P2 contém P1 e EOP. A estrutura é cumulativa. É por isso que, ao configurar a ATP, você deve começar com o EOP e trabalhar nas camadas.
+O núcleo da segurança do Office 365 é a proteção do EOP. ATP P1 contém EOP. ATP P2 contém P1 e EOP. A estrutura é cumulativa. É por isso que, ao configurar esse produto, você deve começar com o EOP e trabalhar com ATP.
 
 Embora a configuração de autenticação de email ocorra no DNS público, é importante configurar esse recurso para ajudar a se defender contra falsificação. *Se você tiver o EOP,* ***deverá [Configurar a autenticação de email](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)***.
 
@@ -138,11 +138,11 @@ Esta referência rápida o ajudará a entender quais recursos vêm com cada assi
 - Se sua assinatura atual não inclui o Office 365 ATP e você deseja, [entre em contato com a venda para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644)e descubra como a ATP pode trabalhar em sua organização.
 
 > [!TIP]
-> ***Dica de insider***. Você pode usar o Sumário do docs.microsoft.com para saber mais sobre o EOP e a ATP. Navegue até os artigos de [segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) e você notará que a organização do Sumário começa com avaliação e implantação (incluindo a migração) e continua em prevenção, detecção, investigação e resposta. <p> Essa estrutura é dividida para que os tópicos de **Administração de segurança** sejam seguidos por tópicos de **operações de segurança** . Se você for um novo membro de qualquer função de trabalho, use o link nesta dica e seu conhecimento sobre o Sumário para ajudar a aprender o espaço. Lembre-se de usar *links de comentários* e *taxas de artigos* conforme você vai. Feedback nos ajuda a melhorar o que oferecemos a você.
+> ***Dica de insider***. Você pode usar o Sumário do docs.microsoft.com para saber mais sobre o EOP e a ATP. Navegue de volta para esta página, [visão geral da segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/?view=o365-worldwide)e você notará que a organização do Sumário está na barra lateral. Ele começa com a implantação (incluindo a migração) e, em seguida, continua em prevenção, detecção, investigação e resposta. <p> Essa estrutura é dividida para que os tópicos de **Administração de segurança** sejam seguidos por tópicos de **operações de segurança** . Se você for um novo membro de qualquer função de trabalho, use o link nesta dica e seu conhecimento sobre o Sumário para ajudar a aprender o espaço. Lembre-se de usar *links de comentários* e *taxas de artigos* conforme você vai. Feedback nos ajuda a melhorar o que oferecemos a você.
 
 ## <a name="where-to-go-next"></a>Onde ir para a próxima
 
-Se você for um administrador de segurança, talvez seja necessário configurar o DKIM ou o DMARC para seu email, distribuir predefinições de segurança "estritas" para seus usuários de prioridade ou você pode estar procurando o que há de novo no produto. Se você estiver usando as operações de segurança, talvez queira aproveitar as detecções em tempo real ou o explorador de ameaças para investigar e responder ou treinar a detecção de usuário final com o simulador de ataques. Veja a seguir algumas recomendações adicionais sobre o que examinar em seguida.
+Se você for um administrador de segurança, talvez precise configurar o DKIM ou o DMARC para o seu email. Você pode querer distribuir predefinições de segurança "estritas" para seus usuários de prioridade ou procurar as novidades no produto. Ou, se você estiver usando as operações de segurança, talvez queira aproveitar as detecções em tempo real ou o explorador de ameaças para investigar e responder ou treinar a detecção de usuário final com o data Simulator. De qualquer forma, aqui estão algumas recomendações adicionais sobre o que examinar em seguida.
 
 [Autenticação de email, incluindo SPF, DKIM e DMARC (com links para configuração de todos os três)](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)
 
