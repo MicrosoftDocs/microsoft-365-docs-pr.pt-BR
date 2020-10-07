@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Saiba mais sobre o arquivamento de expansão automática, que fornece armazenamento de arquivo ilimitado para caixas de correio do Exchange Online.
-ms.openlocfilehash: f2d9e645badd98ea9a1d14dec22e291c8ad7de63
-ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
+ms.openlocfilehash: 5481fd14f281c132475613228c835c72592d2f59
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44534913"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370419"
 ---
 # <a name="overview-of-unlimited-archiving"></a>Visão geral de arquivamento ilimitado
 
@@ -112,4 +112,4 @@ Esta seção explica a funcionalidade entre o arquivamento de expansão automát
 
 ## <a name="more-information"></a>Mais informações
 
-Para obter mais detalhes técnicos sobre o arquivamento de expansão automática, consulte [Microsoft 365: auto-up de arquivamento perguntas frequentes](https://blogs.technet.microsoft.com/exchange/2018/04/09/office-365-auto-expanding-archives-faq/).
+Para obter mais detalhes técnicos sobre o arquivamento de expansão automática, consulte [Microsoft 365: auto-up de arquivamento perguntas frequentes](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-auto-expanding-archives-faq/ba-p/607784).

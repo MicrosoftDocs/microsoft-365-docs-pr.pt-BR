@@ -1,5 +1,5 @@
 ---
-title: Configurar um conector para arquivar dados de margem de atraso no Microsoft 365
+title: Configurar um conector para arquivar margem de atraso de dados de eDiscovery no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -11,21 +11,21 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar dados da margem de atraso do Globanet no Microsoft 365. Este conector de dados permite que você arquive dados de fontes de dados de terceiros no Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 7c796c16b5a4b305c5d4b5259337ca28d9bfde9a
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+description: Os administradores podem configurar um conector para importar e arquivar dados do Globanet margem de atraso de descoberta eletrônica no Microsoft 365. Este conector de dados permite que você arquive dados de fontes de dados de terceiros no Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
+ms.openlocfilehash: 4e0e57ff46656b45aea373a9c0ea6e530310272f
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269446"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370387"
 ---
-# <a name="set-up-a-connector-to-archive-slack-data"></a>Configurar um conector para arquivar dados de margem de atraso
+# <a name="set-up-a-connector-to-archive-slack-ediscovery-data"></a>Configurar um conector para arquivar dados de descoberta eletrônica de margem de atraso
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados de terceiros de mídia social, mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio em sua organização do Microsoft 365. Globanet fornece um conector de margem de atraso que é configurado para capturar itens da fonte de dados de terceiros (regularmente) e importá-los para o Microsoft 365. A margem de atraso extrai mensagens e arquivos da API de margem de atraso e os converte em um formato de mensagem de email e importa o item para as caixas de correio do usuário.
 
-Após os dados da margem de atraso serem armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, descoberta eletrônica, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso de um conector de margem de atraso para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Após margem de atraso os dados de descoberta eletrônica são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, descoberta eletrônica, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso de um conector de margem de atraso para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
-## <a name="overview-of-archiving-slack-data"></a>Visão geral do arquivamento de dados de margem de atraso
+## <a name="overview-of-archiving-slack-ediscovery-data"></a>Visão geral do arquivamento margem de atraso de dados de eDiscovery
 
 A visão geral a seguir explica o processo de usar um conector para arquivar as informações de margem de atraso no Microsoft 365.
 
@@ -35,7 +35,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar as 
 
 2. Uma vez a cada 24 horas, as mensagens de chat da margem de atraso são copiadas para o site do Globanet Merge1. O conector também converte o conteúdo de uma mensagem de chat em um formato de mensagem de email.
 
-3. O conector de margem de atraso que você cria no centro de conformidade da Microsoft 365, conecta-se ao site do Globanet Merge1 todos os dias e transfere as mensagens de chat para um local seguro de armazenamento do Azure na nuvem da Microsoft.
+3. O conector de descoberta eletrônica de margem de atraso que você cria no centro de conformidade da Microsoft 365, conecta-se ao site do Globanet Merge1 todos os dias e transfere as mensagens de chat para um local seguro de armazenamento do Azure na nuvem da Microsoft.
 
 4. O conector importa os itens de mensagem de chat convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *email* e o mapeamento de usuário automático, conforme descrito na etapa 3. Uma nova subpasta na pasta caixa de entrada chamada **margem de atraso** é criada nas caixas de correio do usuário e os itens da mensagem de chat serão importados para essa pasta. O conector faz isso usando o valor da propriedade *email* . Cada mensagem de chat contém essa propriedade, que é preenchida com o endereço de email de cada participante da mensagem de chat.
 
@@ -45,15 +45,15 @@ A visão geral a seguir explica o processo de usar um conector para arquivar as 
 
 - Obtenha o nome de usuário e a senha para a conta de margem de atraso da sua organização. Você precisará entrar nessa conta na etapa 2 ao configurar a margem de atraso.
 
-- O usuário que cria o conector de margem de atraso na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
+- O usuário que cria o conector de descoberta eletrônica de margem de atraso na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
-## <a name="step-1-set-up-the-slack-connector"></a>Etapa 1: configurar o conector de margem de atraso
+## <a name="step-1-set-up-the-slack-ediscovery-connector"></a>Etapa 1: configurar o conector de descoberta eletrônica de atraso
 
 A primeira etapa é acessar a página **conectores de dados** no centro de conformidade da Microsoft 365 e criar um conector para dados de margem de atraso.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em margem de atraso dos **conectores de dados**  >  **Slack**.
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados**  >  **margem de atraso da descoberta eletrônica**.
 
-2. Na página descrição da **margem de atraso** do produto, clique em **Adicionar conector**.
+2. Na página margem de atraso do produto de **descoberta eletrônica** , clique em **Adicionar conector**.
 
 3. Na página **termos de serviço** , clique em **aceitar**.
 
@@ -61,9 +61,9 @@ A primeira etapa é acessar a página **conectores de dados** no centro de confo
 
 5. Entre em sua conta do Merge1 para configurar o conector.
 
-## <a name="step-2-configure-slack"></a>Etapa 2: configurar a margem de atraso
+## <a name="step-2-configure-slack-ediscovery"></a>Etapa 2: configurar o eDiscovery da margem de atraso
 
-A segunda etapa é configurar o conector de margem de atraso no site do Merge1. Para obter mais informações sobre como configurar o conector de margem de atraso no site do Globanet Merge1, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Slack%20eDiscovery%20User%20Guide.pdf).
+A segunda etapa é configurar o conector de descoberta eletrônica de margem de atraso no site do Merge1. Para obter mais informações sobre como configurar o conector de descoberta eletrônica de margem de atraso no site do Globanet Merge1, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Slack%20eDiscovery%20User%20Guide.pdf).
 
 Após clicar em **salvar & concluir**, você será direcionado para o centro de conformidade da Microsoft 365, para a página **mapeamento de usuário** no assistente de conector.
 
@@ -71,7 +71,7 @@ Após clicar em **salvar & concluir**, você será direcionado para o centro de 
 
 1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário.
 
-   Os itens de margem de atraso incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
+   Margem de atraso os itens de descoberta eletrônica incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
 2. Na página **consentimento do administrador** , clique no botão **fornecer consentimento** . Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
 
@@ -79,13 +79,13 @@ Após clicar em **salvar & concluir**, você será direcionado para o centro de 
 
 3. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
-## <a name="step-4-monitor-the-slack-connector"></a>Etapa 4: monitorar o conector de margem de atraso
+## <a name="step-4-monitor-the-slack-ediscovery-connector"></a>Etapa 4: monitorar o conector de eDiscovery da margem de atraso
 
-Depois de criar o conector de margem de atraso, você pode visualizar o status do conector no centro de conformidade da Microsoft 365.
+Depois de criar o conector de descoberta eletrônica de margem de atraso, você pode visualizar o status do conector no centro de conformidade da Microsoft 365.
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Clique na guia **conectores** e selecione o conector **margem de atraso** para exibir a página de submenu, que contém as propriedades e informações sobre o conector.
+2. Clique na guia **conectores** e selecione o conector de **descoberta eletrônica de margem de atraso** para exibir a página de submenu, que contém as propriedades e informações sobre o conector.
 
 3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre os dados que foram importados para a nuvem da Microsoft.
 

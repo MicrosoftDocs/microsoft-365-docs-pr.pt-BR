@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 4ae0491699f2ffa60245d502bb691b2c79b34133
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 6c8ca07cc0da826be23bcee79dbc4e3824b00695
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305373"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357874"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -76,7 +76,7 @@ Se precisar de ajuda para criar ou editar um rótulo de confidencialidade, confi
 
 Nesta nova página **Configurações de site e grupo**, defina as configurações:
 
-- **Privacidade dos sites de equipes conectados ao grupo do Office 365**: Manter a configuração padrão de **Público - qualquer pessoa em sua organização pode acessar o site **se você quiser que todos na sua organização acessem o site de equipe ou grupo no qual o rótulo foi aplicado.
+- **Privacidade dos sites de equipes conectados ao grupo do Microsoft 365**: Manter a configuração padrão de **Público - qualquer pessoa em sua organização pode acessar o site **se você quiser que todos na sua organização acessem o site de equipe ou grupo no qual o rótulo foi aplicado.
 
   Selecione **Particular** se desejar que o acesso seja restrito apenas a membros aprovados da sua organização.
 

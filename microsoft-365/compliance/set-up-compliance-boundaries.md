@@ -19,18 +19,18 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar no Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 19165af60d7813134952589831bf94a91bfe7f40
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: c57689cc6e626b62ae976bac9f9771205431bc8a
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277109"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370397"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de descoberta eletrônica
 
 As orientações deste artigo podem ser aplicadas ao usar a descoberta eletrônica principal ou a descoberta eletrônica avançada para gerenciar investigações.
 
-Os limites de conformidade criam limites lógicos dentro de uma organização que controlam os locais de conteúdo do usuário (como caixas de correio, sites do SharePoint e contas do OneDrive) que os gerentes de descoberta eletrônica podem pesquisar. Além disso, os limites de conformidade controlam quem pode acessar os casos de descoberta eletrônica usados para gerenciar os recursos jurídicos, humanos ou outras investigações em sua organização. A necessidade de limites de conformidade é geralmente necessária para as empresas multinacionais que precisam respeitar as normas e as regulamentações geográficas e para governos, que geralmente são divididas em diferentes agências. No Microsoft 365, os limites de conformidade o ajudam a atender a esses requisitos ao executar pesquisas de conteúdo e gerenciar investigações com ocorrências de descoberta eletrônica.
+Os limites de conformidade criam limites lógicos dentro de uma organização que controlam os locais de conteúdo do usuário (como caixas de correio, contas do OneDrive e sites do SharePoint) que os gerentes de descoberta eletrônica podem pesquisar. Além disso, os limites de conformidade controlam quem pode acessar os casos de descoberta eletrônica usados para gerenciar os recursos jurídicos, humanos ou outras investigações em sua organização. A necessidade de limites de conformidade é geralmente necessária para as empresas multinacionais que precisam respeitar as normas e as regulamentações geográficas e para governos, que geralmente são divididas em diferentes agências. No Microsoft 365, os limites de conformidade o ajudam a atender a esses requisitos ao executar pesquisas de conteúdo e gerenciar investigações com ocorrências de descoberta eletrônica.
   
 Usamos o exemplo na ilustração a seguir para explicar como os limites de conformidade funcionam.
   
@@ -56,11 +56,21 @@ Este é o processo de configuração dos limites de conformidade:
 
 [Etapa 5: criar um caso de descoberta eletrônica para investigações dentro da Agência](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
 
+## <a name="before-you-set-up-compliance-boundaries"></a>Antes de configurar os limites de conformidade
+
+Você precisa atender aos seguintes pré-requisitos antes de o atributo do Azure Active Directory (Azure AD) que você deseja que a identidade (na etapa 1) possa ser sincronizado com êxito com a conta do OneDrive de um usuário (na etapa 2):
+
+- Os usuários devem receber uma licença do Exchange Online e uma licença do SharePoint Online.
+
+- As caixas de correio de usuário devem ter pelo menos 10 MB de tamanho. Se a caixa de correio de um usuário tiver menos de 10 MB, o atributo usado para definir suas agências não será sincronizado com a conta do OneDrive do usuário.
+
+- Os limites de conformidade e os atributos usados para criar filtros de permissão de pesquisa exigem que os atributos do Azure Active Directory (Azure AD) sejam sincronizados com as caixas de correio do usuário. Para verificar se os atributos que você deseja usar foram sincronizados, execute o cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) no PowerShell do Exchange Online. A saída desse cmdlet exibe os atributos do Azure AD sincronizados com o Exchange Online.
+
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>Etapa 1: identificar um atributo de usuário para definir suas agências
 
-A primeira etapa é escolher um atributo do Azure Active Directory para usar que irá definir suas agências. Este atributo é usado para criar o filtro permissões de pesquisa que limita um gerente de descoberta eletrônica para pesquisar apenas os locais de conteúdo de usuários aos quais foram atribuídos um valor específico para este atributo. Por exemplo, digamos que a contoso decida usar o atributo **Department** . O valor desse atributo para os usuários na quarta subsidiária da Fourth Coffee seria  `FourthCoffee`  e o valor para os usuários da vinícola Coho-subsidiária seria `CohoWinery` . Na etapa 4, você usa esse  `attribute:value`  par (por exemplo, *Department: fourthcoffee*) para limitar os locais de conteúdo do usuário que os gerentes de descoberta eletrônica podem pesquisar. 
+A primeira etapa é escolher um atributo do Azure AD para usar que irá definir suas agências. Este atributo é usado para criar o filtro permissões de pesquisa que limita um gerente de descoberta eletrônica para pesquisar apenas os locais de conteúdo de usuários aos quais foram atribuídos um valor específico para este atributo. Por exemplo, digamos que a contoso decida usar o atributo **Department** . O valor desse atributo para os usuários na quarta subsidiária da Fourth Coffee seria  `FourthCoffee`  e o valor para os usuários da vinícola Coho-subsidiária seria `CohoWinery` . Na etapa 4, você usa esse  `attribute:value`  par (por exemplo, *Department: fourthcoffee*) para limitar os locais de conteúdo do usuário que os gerentes de descoberta eletrônica podem pesquisar. 
   
-Veja a seguir uma lista de atributos de usuário do Azure Active Directory que você pode usar para limites de conformidade:
+Veja a seguir uma lista de atributos de usuário do Azure AD que você pode usar para limites de conformidade:
   
 - Empresa
 
@@ -79,20 +89,20 @@ Embora mais atributos de usuário estejam disponíveis, particularmente para cai
   
 ## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>Etapa 2: arquivar uma solicitação com o suporte da Microsoft para sincronizar o atributo de usuário com as contas do OneDrive
 
-A próxima etapa é arquivar uma solicitação com o suporte da Microsoft para sincronizar o atributo do Azure Active Directory que você escolheu na etapa 1 para todas as contas do OneDrive em sua organização. Após essa sincronização ocorrer, o atributo (e seu valor) que você escolheu na etapa 1 será mapeado para uma propriedade gerenciada oculta chamada `ComplianceAttribute` . Use este atributo para criar o filtro de permissões de pesquisa para o OneDrive na etapa 4.
+A próxima etapa é arquivar uma solicitação com o suporte da Microsoft para sincronizar o atributo do Azure AD que você escolheu na etapa 1 para todas as contas do OneDrive em sua organização. Após essa sincronização ocorrer, o atributo (e seu valor) que você escolheu na etapa 1 será mapeado para uma propriedade gerenciada oculta chamada `ComplianceAttribute` . Use este atributo para criar o filtro de permissões de pesquisa para o OneDrive na etapa 4.
   
 Inclua as seguintes informações ao enviar a solicitação para o suporte da Microsoft:
   
 - O nome de domínio padrão da sua organização
 
-- O nome do atributo do Azure Active Directory (da etapa 1)
+- O nome do atributo do Azure AD (da etapa 1)
 
-- O seguinte título ou descrição da finalidade da solicitação de suporte: "habilitar a sincronização do OneDrive for Business com o Azure Active Directory para filtros de segurança de conformidade". Isso ajuda a rotear a solicitação para a equipe de engenharia de descoberta eletrônica que implementa a solicitação.
+- O seguinte título ou descrição da finalidade da solicitação de suporte: "habilitar a sincronização do OneDrive for Business com o Azure AD para filtros de segurança de conformidade". Isso ajuda a rotear a solicitação para a equipe de engenharia de descoberta eletrônica que implementa a solicitação.
 
 Após a alteração da engenharia ser feita e o atributo ser sincronizado com o OneDrive, o suporte da Microsoft lhe enviará o número de compilação que a alteração foi feita e uma data de implantação estimada. O processo de implantação geralmente leva de 4 a 6 semanas após o envio da solicitação de suporte.
   
 > [!IMPORTANT]
-> Você pode concluir a etapa 3 até a etapa 5 antes que esta alteração de atributo seja implantada. Mas a execução de pesquisas de conteúdo não retornará documentos de sites do OneDrive especificados no filtro permissões de pesquisa até que a alteração seja implantada.
+> Você pode concluir a etapa 3 até a etapa 5 antes que esta alteração de atributo seja implantada. Mas a execução de pesquisas de conteúdo não retornará documentos de contas do OneDrive que são especificadas em um filtro de permissões de pesquisa até que a sincronização do atributo seja implantada.
   
 ## <a name="step-3-create-a-role-group-for-each-agency"></a>Etapa 3: criar um grupo de função para cada agência
 
@@ -193,7 +203,7 @@ Os filtros de permissões de pesquisa também permitem que você controle onde o
     |CAN <br/> |Canadá|
     |||
 
-- **Pesquisas de conteúdo de rota:** Você pode rotear as pesquisas de conteúdo de sites do SharePoint e contas do OneDrive para um data center de satélite. Isso significa que você pode especificar o local do datacenter onde as pesquisas serão executadas.
+- **Pesquisas de conteúdo de rota:** Você pode rotear as pesquisas de conteúdo de sites do SharePoint e contas do OneDrive para um datacenter de satélite. Isso significa que você pode especificar o local do datacenter onde as pesquisas serão executadas.
 
     Use um dos seguintes valores para o parâmetro **Region** para controlar o local do Data Center em que pesquisas serão executadas ao pesquisar sites do SharePoint e contas do onedrive. 
   
@@ -211,12 +221,12 @@ Os filtros de permissões de pesquisa também permitem que você controle onde o
     |LAM  <br/> |Unidos  <br/> |
     |||
 
-   Se você não especificar o parâmetro **Region** para um filtro de permissões de pesquisa, a região padrão do SharePoint da organização será pesquisada. Os resultados da pesquisa são exportados para o datacenter mais próximo.
+   Se você não especificar o parâmetro **Region** para um filtro de permissões de pesquisa, a região principal do SharePoint da organização será pesquisada. Os resultados da pesquisa são exportados para o datacenter mais próximo.
 
    Para simplificar o conceito, o parâmetro **Region** controla o datacenter que é usado para pesquisar conteúdo no SharePoint e no onedrive. Isso não se aplica à pesquisa de conteúdo no Exchange porque as pesquisas de conteúdo do Exchange não estão associadas à localização geográfica dos datacenters. Além disso, o mesmo valor de parâmetro **Region** também pode ditar o datacenter no qual as exportações são roteadas. Geralmente, isso é necessário para controlar a movimentação de dados entre os inboards geográficas.
 
 > [!NOTE]
-> Se você estiver usando a descoberta eletrônica avançada, o parâmetro **Region** não controlará a região da qual os dados são exportados. Além disso, a pesquisa de conteúdo no SharePoint e no OneDrive não é associada à localização geográfica dos datacenters. Todos os datacenters são pesquisados. Para obter mais informações sobre a descoberta eletrônica avançada, confira [visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
+> Se você estiver usando a descoberta eletrônica avançada, o parâmetro **Region** não controlará a região da qual os dados são exportados. Os dados são exportados do datacenter principal da organização. Além disso, a pesquisa de conteúdo no SharePoint e no OneDrive não é associada à localização geográfica dos datacenters. Todos os datacenters são pesquisados. Para obter mais informações sobre a descoberta eletrônica avançada, confira [visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
 
 Aqui estão exemplos de como usar o parâmetro **Region** ao criar filtros de permissão de pesquisa para limites de conformidade. Isso pressupõe que a quarta subsidiária de café está localizada na América do Norte e que a Coho Winery está na Europa. 
   
@@ -236,7 +246,7 @@ Tenha em mente as seguintes coisas ao pesquisar e exportar conteúdo em ambiente
 
 - Ao pesquisar conteúdo no SharePoint e no OneDrive, o parâmetro **Region** direciona as pesquisas para o local principal ou de satélite onde o gerente de descoberta eletrônica conduzirá investigações de descoberta eletrônica. Se um gerente de descoberta eletrônica pesquisa sites do SharePoint e do OneDrive fora da região especificada no filtro permissões de pesquisa, nenhum resultado de pesquisa é retornado.
 
-- Ao exportar os resultados da pesquisa, o conteúdo de todos os locais de conteúdo (incluindo o Exchange, o Skype for Business, o SharePoint, o OneDrive e outros serviços que você pode pesquisar usando a ferramenta de pesquisa de conteúdo) é carregado para o local de armazenamento do Azure no datacenter que é especificado pelo parâmetro **Region** . Isso ajuda as organizações a ficar dentro da conformidade, não permitindo que o conteúdo seja exportado por bordas controladas. Se nenhuma região for especificada no filtro permissões de pesquisa, o conteúdo será carregado para a região padrão da organização.
+- Ao exportar os resultados da pesquisa, o conteúdo de todos os locais de conteúdo (incluindo o Exchange, o Skype for Business, o SharePoint, o OneDrive e outros serviços que você pode pesquisar usando a ferramenta de pesquisa de conteúdo) é carregado para o local de armazenamento do Azure no datacenter que é especificado pelo parâmetro **Region** . Isso ajuda as organizações a ficar dentro da conformidade, não permitindo que o conteúdo seja exportado por bordas controladas. Se nenhuma região for especificada no filtro permissões de pesquisa, o conteúdo será carregado no datacenter principal da organização.
 
 - Você pode editar um filtro de permissões de pesquisa existente para adicionar ou alterar a região executando o seguinte comando:
 
@@ -271,6 +281,22 @@ Tenha em mente as seguintes limitações ao gerenciar casos de descoberta eletr�
     Além disso, as estatísticas de retenção só serão aplicadas aos locais de conteúdo na agência.
 
 - Os filtros de permissão de pesquisa não são aplicados às pastas públicas do Exchange.
+
+## <a name="more-information"></a>Mais informações
+
+- Se uma caixa de correio for deslicenciada ou excluída por software, os atributos do Azure AD não serão mais sincronizados com a caixa de correio. Se uma retenção for colocada na caixa de correio quando tiver sido excluída, o conteúdo preservado na caixa de correio ainda estará sujeito a um limite de conformidade ou a um filtro de permissões de pesquisa com base na última vez em que os atributos do Azure AD foram sincronizados antes da exclusão da caixa de correio. 
+
+    Além disso, a sincronização entre a caixa de correio do usuário e a conta do OneDrive será interrompida se a caixa de correio for deslicenciada ou excluída. O último valor carimbado do atributo de conformidade da conta do OneDrive permanecerá em vigor.
+
+- O atributo de conformidade é sincronizado da caixa de correio do Exchange de um usuário para a conta do OneDrive a cada sete dias. Conforme mencionado anteriormente, essa sincronização ocorre somente quando o usuário recebe uma licença do Exchange Online e do SharePoint Online, e a caixa de correio do usuário tem pelo menos 10 MB.
+
+- Se os limites de conformidade e os filtros de permissões de pesquisa forem implementados na caixa de correio de um usuário e na conta do OneDrive, recomendamos que você não exclua a caixa de correio de um usuário e não sua conta do OneDrive. Em outras palavras, se você excluir a caixa de correio de um usuário, você também deverá remover a conta do OneDrive do usuário.
+
+- Há situações (como um funcionário em retorno) onde um usuário pode ter duas ou mais contas do OneDrive. Nesses casos, somente a conta do OneDrive principal associada ao usuário no Azure AD será sincronizada.
+
+- Os limites de conformidade e os filtros de permissões de pesquisa dependem dos atributos que estão sendo marcados no conteúdo no Exchange, no OneDrive e no SharePoint e na indexação subsequente desse conteúdo carimbado. 
+
+- Não recomendamos o uso de filtros de exclusão (como usar `-not()` em um filtro de permissões de pesquisa) para um limite de conformidade baseado em conteúdo. O uso de um filtro de exclusão pode ter resultados inesperados se o conteúdo com atributos atualizados recentemente não tiver sido indexado. 
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 9f05fe464b4945d739c5920282e45e07f9fcb344
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: dbe97b207e9683e719155f5dfd94d6f6a0427940
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338424"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370439"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -126,6 +126,7 @@ A tabela também indica o plano do governo dos EUA do Office 365 Enterprise e do
 |**Campanha de malware detectada e bloqueada**|Gera um alerta quando alguém tentava enviar um número excepcionalmente grande de mensagens de email contendo um determinado tipo de malware para os usuários em sua organização. Se esse evento ocorrer, as mensagens infectadas são bloqueadas pela Microsoft e não são entregues a caixas de correio. Essa política tem uma configuração de **baixa** gravidade.|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
 |**Campanha de malware detectada no SharePoint e no OneDrive**|Gera um alerta quando um volume excepcionalmente alto de malware ou vírus é detectado em arquivos localizados em sites do SharePoint ou em contas do OneDrive em sua organização. Essa política tem uma configuração de **alta** gravidade.|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
 |**Phishing entregue devido à substituição de locatário ou usuário**<sup>1</sup>|Gera um alerta quando a Microsoft detecta um administrador ou substituição de usuário permitiu a entrega de uma mensagem de phishing para uma caixa de correio. Exemplos de substituições incluem uma regra de caixa de entrada ou de fluxo de emails que permite mensagens de um remetente ou domínio específico ou uma política antispam que permite mensagens de remetentes ou domínios específicos. Essa política tem uma configuração de **alta** gravidade.|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
+|**Atividade de encaminhamento de emails suspeitos**|Gera um alerta quando alguém em sua organização tem emails automaticamente encaminhados para uma conta externa suspeita. Este é um aviso antecipado para o comportamento que pode indicar que a conta está comprometida, mas não grave o suficiente para restringir o usuário. Essa política tem uma configuração de severidade **média** . Embora seja raro, um alerta gerado por essa política pode ser uma anomalia. É uma boa ideia [verificar se a conta do usuário está comprometida](../security/office-365-security/responding-to-a-compromised-email-account.md).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
 |**Padrões de envio de emails suspeitos detectados**|Gera um alerta quando alguém em sua organização enviou emails suspeitos e está correndo o risco de ser restrito a enviar emails. Este é um aviso antecipado para comportamento que pode indicar que a conta está comprometida, mas não grave o suficiente para restringir o usuário. Essa política tem uma configuração de severidade **média** . Embora seja raro, um alerta gerado por essa política pode ser uma anomalia. No entanto, é uma boa ideia [verificar se a conta do usuário está comprometida](../security/office-365-security/responding-to-a-compromised-email-account.md).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5  |
 |**Locatário restrito do envio de email**|Gera um alerta quando a maior parte do tráfego de email da sua organização é detectada como suspeita e a Microsoft restringiu sua organização a enviar emails. Investigue todas as contas de usuário e de administrador potencialmente comprometidas, novos conectores ou retransmissões abertas e, em seguida, entre em contato com o suporte da Microsoft para desbloquear sua organização. Essa política tem uma configuração de **alta** gravidade. Para obter mais informações sobre por que as organizações são bloqueadas, confira [corrigir problemas de entrega de email com o código de erro 5.7.7 XX no Exchange Online](https://go.microsoft.com/fwlink/?linkid=2022138).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
 |**Atividade de arquivo de usuário externo incomum**|Gera um alerta quando um número excepcionalmente alto de atividades é executado em arquivos no SharePoint ou no OneDrive por usuários fora da sua organização. Isso inclui atividades como acessar arquivos, baixar arquivos e excluir arquivos. Essa política tem uma configuração de **alta** gravidade.|Governança de informações|E5/G5, Office 365 ATP P2 ou assinatura de complemento do Microsoft 365 e5|

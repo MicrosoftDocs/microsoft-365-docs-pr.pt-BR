@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Exchange Online no Microsoft 365.
-ms.openlocfilehash: a76b02f6345421871c759e1b31bf19207b474e2a
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c0f5d11066169181b524632c7a1340c54f0061f0
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816820"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370331"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -78,7 +78,7 @@ A tabela a seguir descreve como identificar diferentes tipos de isenções com b
 |retenção de descoberta eletrônica     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   A *Propriedade InPlaceHolds* contém o GUID de qualquer isenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade e segurança. É possível dizer que esse é um bloqueio de descoberta eletrônica porque o GUID começa com o `UniH` prefixo (que denota uma retenção unificada).      |
 |Bloqueio In-loco     |     `c0ba3ce811b6432a8751430937152491` <br/> ou <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`  |     A propriedade *InPlaceHolds* contém o GUID do bloqueio in-loco colocado na caixa de correio. Você pode dizer que isso é um bloqueio in-loco, pois o GUID não começa com um prefixo ou começa com o `cld` prefixo.     |
 |Política de retenção da Microsoft 365 aplicada especificamente à caixa de correio     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> ou <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     A propriedade InPlaceHolds contém GUIDs de qualquer política de retenção de local específica que é aplicada à caixa de correio. Você pode identificar as políticas de retenção porque o GUID começa com o `mbx` ou o `skp` prefixo. O `skp` prefixo indica que a política de retenção é aplicada às conversas do Skype for Business na caixa de correio do usuário.    |
-|Excluído de uma política de retenção da Microsoft 365 em toda a organização     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     Se uma caixa de correio for excluída de uma política de retenção da Microsoft 365 em toda a organização, o GUID da política de retenção para a qual a caixa de correio é excluída é exibida na propriedade InPlaceHolds e é identificado pelo `-mbx` prefixo.    |
+|Excluído de uma política de retenção da Microsoft 365 em toda a organização     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     Se uma caixa de correio for excluída de uma política de retenção da Microsoft 365 em toda a organização, o GUID da política de retenção que a caixa de correio é excluída será exibido na propriedade InPlaceHolds e identificado pelo `-mbx` prefixo.    |
 
 ### <a name="get-organizationconfig"></a>Get-OrganizationConfig
 Se a propriedade *InPlaceHolds* estiver vazia quando você executar o cmdlet **Get-Mailbox** , ainda poderá haver uma ou mais políticas de retenção do Microsoft 365 em toda a organização aplicadas à caixa de correio. Execute o seguinte comando no PowerShell do Exchange Online para obter uma lista de GUIDs para as políticas de retenção do Microsoft 365 em toda a organização.
@@ -236,7 +236,7 @@ Tenha em mente os seguintes pontos ao gerenciar uma caixa de correio em atraso d
 
 Após identificar as isenções aplicadas a uma caixa de correio, você pode executar tarefas como alterar a duração da retenção, remover temporariamente ou permanentemente a retenção ou excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365. Para obter mais informações sobre a execução de tarefas relacionadas a isenções, consulte um dos seguintes tópicos:
 
-- Execute o comando [set-RetentionCompliancePolicy- \<user mailbox> AddExchangeLocationException](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) no centro de segurança & conformidade do PowerShell para excluir uma caixa de correio de uma política de retenção do Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é igual a `All` .
+- Execute o comando [set-RetentionCompliancePolicy-Identity \<Policy Name> - \<user mailbox> AddExchangeLocationException](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) no PowerShell do centro de conformidade e segurança & para excluir uma caixa de correio de uma política de retenção da Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é igual a `All` .
 
 - Execute o comando [Set-Mailbox- \<hold GUID without prefix or suffix> ExcludeFromOrgHolds](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365 em toda a organização.
 

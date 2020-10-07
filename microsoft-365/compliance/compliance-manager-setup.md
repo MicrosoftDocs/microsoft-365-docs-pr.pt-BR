@@ -9,19 +9,22 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Defina as permissões e funções de usuário do Microsoft Compliance Manager e configure o teste automatizado de ações. Gerenciar histórico de usuários e filtrar o modo de exibição do painel.
-ms.openlocfilehash: ead4fe60a11bcf78a318601c1de6d72f2490c567
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 043a52e2817e770671c2ef8876049f6bbe0285ee
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204270"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368134"
 ---
-# <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de conformidade
+# <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
 **Neste artigo:** Este artigo ajuda você a configurar o Gerenciador de conformidade. Saiba como **acessar** o Gerenciador de conformidade, **definir funções e permissões**e configurar **testes automáticos de ações de melhoria**. Mostre o **painel do Gerenciador de conformidade** e entenda as páginas principais: a página ações de melhoria, a página soluções, a página avaliações e a página modelos de avaliação.
 
@@ -70,7 +73,7 @@ Para definir permissões e atribuir funções de dentro do centro de conformidad
 
 Saiba mais sobre [permissões no centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
 
-Se você não tiver acesso ao centro de segurança e conformidade do Office 365, ou se precisar acessar a versão clássica do Gerenciador de conformidade no portal de confiança do serviço Microsoft, as configurações de administrador no portal de confiança do serviço fornecem outra maneira de atribuir funções ([instruções de exibição](/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud?view=o365-worldwide.md#assigning-compliance-manager-roles-to-users)). Lembre-se de que essas funções são mais limitadas em sua funcionalidade.
+Se você não tiver acesso ao centro de segurança e conformidade do Office 365, ou se precisar acessar a versão clássica do Gerenciador de conformidade no portal de confiança do serviço Microsoft, as configurações de administrador no portal de confiança do serviço fornecem outra maneira de atribuir funções ([instruções de exibição](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)). Lembre-se de que essas funções são mais limitadas em sua funcionalidade.
 
 ##### <a name="more-about-azure-ad"></a>Mais sobre o Azure AD
 
