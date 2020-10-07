@@ -3,7 +3,6 @@ title: Programa de Parceiros de Redes do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/07/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +16,12 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: O programa de parceria de rede 365 da Microsoft permite que seu dispositivo se torne certificado como trabalhar com o Microsoft 365.
 hideEdit: true
-ms.openlocfilehash: fb4a7c9543c6928eefbd62fc6b94e6bdab93e86d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4f47b4d58dacf9578952f18668f2a0a89752f30f
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687371"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370353"
 ---
 # <a name="microsoft-365-networking-partner-program"></a>Programa de Parceiros de Redes do Microsoft 365
 
@@ -40,4 +39,4 @@ O programa de parceria de rede do Microsoft 365 designa soluções de rede quali
 
 Se você for um cliente da Microsoft 365, poderá tornar o seu provedor de soluções de rede ciente desse programa através desta página em [https://aka.ms/Office365NPP](https://aka.ms/Office365NPP) .
 
-Para fornecedores de soluções de rede que desejem fazer consultas sobre o programa de parceria de rede 365 da Microsoft, preencha [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMNEapKtzJHu98R0YXYz1RUN0QxSUVEWTdRVTdIV1RTWjIzOVk0QkE4US4u). Agradecemos seu interesse e estamos ansiosos para uma linda parceria.
+Para fornecedores de soluções de rede que desejem fazer consultas sobre o programa de parceria de rede 365 da Microsoft, preencha o formulário em [https://aka.ms/NPPsignup](https://aka.ms/NPPsignup) . Agradecemos seu interesse e estamos ansiosos para uma linda parceria.

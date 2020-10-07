@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: Saiba como usar os recursos de governança de identidade do Microsoft 365.
-ms.openlocfilehash: d5bcafb5b452e693bf3ff706c436a9986eeeae76
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: e4c537e7fa3ac099caf8b7dbc44327308751c8f5
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328479"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370341"
 ---
 # <a name="manage-microsoft-365-identity-governance"></a>Gerenciar o Microsoft 365 Identity Governance
 
@@ -46,8 +46,6 @@ As revisões do Azure AD Access permitem que você revise o acesso de um usuári
 Isso é especialmente importante se a sua organização está sujeita a auditorias de segurança para determinar se as contas de usuários têm muito acesso, o que pode resultar em multas se estiverem se violar os regulamentos da região ou do setor.
 
 Para obter mais informações, consulte [visão geral das revisões do Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview).
-
-O Azure AD Privileged Identity Management (PIM) fornece controles adicionais adaptados para proteger direitos de acesso para recursos, entre o Azure AD, o Azure e outros serviços de nuvem da Microsoft. O Azure AD PIM fornece um conjunto abrangente de controles de governança para ajudar a proteger os recursos da empresa, como diretório, o Office 365 e as funções de recurso do Azure. Assim como acontece com outras formas de acesso, as organizações podem usar revisões de acesso para configurar a recertificação recorrente de acesso para todos os usuários nas funções de administrador. O Azure AD PIM só está disponível na versão E5 do Microsoft 365 Enterprise.
 
 Confira estes artigos para configurar os diferentes tipos de revisões de acesso:
 

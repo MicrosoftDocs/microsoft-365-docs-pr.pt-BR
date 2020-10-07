@@ -13,16 +13,35 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a483a03fc913a019f58e80fb2713bb0367a6db44
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 9dec293a26cbc3d239a597e46815d60d79b9ac20
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546265"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370407"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
 Este artigo lista artigos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os artigos "atualizados" são aqueles que tiveram inclusões de material ou correções, correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+
+## <a name="september-2020"></a>Setembro de 2020
+Artigo novo ou alterado | Descrição
+--- | ---
+[Privacidade e dados pessoais](service-description/privacy-personal-data.md) | Novo artigo
+[Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](get-ready/mapped-drives.md) | Artigo atualizado
+[Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Referência de configurações configuráveis-Microsoft Managed desktop](working-with-managed-desktop/config-setting-ref.md) | Artigo atualizado
+[Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop](working-with-managed-desktop/config-setting-deploy.md) | Artigo atualizado
+[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
+[Microsoft Teams](get-started/teams.md) | Novo artigo
+[Acessar o portal de administração](get-started/access-admin-portal.md) | Novo artigo
+[Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft](get-ready/printing.md) | Artigo atualizado
+[Experiência da primeira execução com o piloto automático e a página de status do registro](get-started/esp-first-run.md) | Artigo atualizado
+[Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
+[Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Artigo atualizado
+[Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
+[Trabalhar com insights](working-with-managed-desktop/insights.md) | Artigo atualizado
 
 ## <a name="august-2020"></a>Agosto de 2020
 Artigo novo ou alterado | Descrição
