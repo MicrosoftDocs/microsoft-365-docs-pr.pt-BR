@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 04ca027b9ce8ad1b36e0d4e60c4e10308a822a63
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 40e68116c24622fd21bd35531ef7821d8c4b7c62
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816734"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370365"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -51,7 +51,7 @@ Quando a política de retenção for reter e excluir:
 
 Para os dois caminhos no diagrama:
 
-1. **Se uma mensagem de chat ou canal for editada ou excluída** pelo usuário durante o período de retenção, a mensagem original será copiada imediatamente (se tiver sido editada) ou movida (se tiver sido excluída) para a pasta SubstrateHolds. A mensagem é armazenada lá até o período de retenção expirar e a mensagem será excluída permanentemente dentro de 24 horas.
+1. **Se uma mensagem de chat ou canal for editada ou excluída** pelo usuário durante o período de retenção, a mensagem original será copiada (se tiver sido editada) ou movida (se tiver sido excluída) para a pasta SubstrateHolds dentro de 21 dias. A mensagem é armazenada lá até o período de retenção expirar e será excluída permanentemente dentro de 24 horas.
 
 2. **Se uma mensagem de chat ou canal não for excluída** e para as mensagens atuais após a edição, a mensagem será movida para a pasta SubstrateHolds após o período de retenção expirar. Essa ação leva sete dias após a data de vencimento. Quando a mensagem estiver na pasta SubstrateHolds, ela será excluída permanentemente dentro de 24 horas. 
 
@@ -62,7 +62,7 @@ Quando a política de retenção é somente retenção ou somente exclusão, os 
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção reter somente
 
-1. **Se uma mensagem de chat ou canal for editada ou excluída**: uma cópia da mensagem original é criada imediatamente na pasta SubstrateHolds e mantida lá até que o período de retenção expire. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds dentro de 24 horas.
+1. **Se uma mensagem de chat ou canal for editada ou excluída**: uma cópia da mensagem original é criada na pasta SubstrateHolds dentro de 21 dias e mantida lá até que o período de retenção expire. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds dentro de 24 horas.
 
 2. **Se o item não for modificado ou excluído** e para as mensagens atuais após a edição durante o período de retenção: nada acontece antes e depois do período de retenção; a mensagem permanecerá no local original. 
 
@@ -70,7 +70,7 @@ Quando a política de retenção é somente retenção ou somente exclusão, os 
 
 1. **Se a mensagem não for excluída** durante o período de retenção: no final do período de retenção, a mensagem será movida para a pasta SubstrateHolds. Essa ação leva sete dias após a data de vencimento. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds dentro de 24 horas.
 
-2. **Se o item for excluído pelo usuário** durante o período, o item será movido imediatamente para a pasta SubstrateHolds, onde será excluído permanentemente dentro de 24 horas.
+2. **Se o item for excluído pelo usuário** durante o período, o item será movido para a pasta SubstrateHolds dentro de 21 dias, onde será excluído permanentemente dentro de 24 horas.
 
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>Chats de Interoperabilidade entre Skype for Business e Teams
