@@ -14,14 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - m365solution-infoprotection
+- m365solution-scenario
 ms.custom: ''
 description: Use os rótulos e políticas de retenção da Microsoft 365 para gerenciar dados pessoais no seu ambiente do Microsoft 365.
-ms.openlocfilehash: 766995b9c758d4ae8cbf7140fb259d208cfb7771
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: c2a933e556213ae4b78db9dc5f903885df969b27
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949247"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377040"
 ---
 # <a name="govern-information-subject-to-data-privacy-regulation"></a>Controlar informações sujeitas à regulamentação de privacidade de dados
 

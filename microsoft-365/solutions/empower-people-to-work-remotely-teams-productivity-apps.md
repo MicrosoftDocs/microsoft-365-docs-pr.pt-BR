@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
+- m365solution-scenario
 ms.custom: ''
 description: Permita que seus usuários sejam produtivos com o Teams, Exchange, Microsoft Office SharePoint Online e outros serviços do Microsoft 365.
-ms.openlocfilehash: 277b3830c20c00209a1860468d58b82b3ec479f2
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: a001bb748a9b6e0431c75c0a23637fd47e460a6e
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521476"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377612"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Etapa 5. Implantar aplicativos e serviços de produtividade de trabalhador remoto
 

@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Fim das opções de ciclo de vida para grupos, equipes e Yammer.
-ms.openlocfilehash: ab06f06cc65614ee313892a026c2f482d641791f
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 3720f63f99711a09d02675f10a7d639fe1bedc65
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662451"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377170"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Fim das opções de ciclo de vida para grupos, equipes e Yammer
 
@@ -41,7 +42,7 @@ A tabela a seguir descreve os serviços associados a grupos e equipes e tipos de
 |Projeto na Web|Planos de projeto|
 |Roteiro|Roteiros|
 |SharePoint|Arquivos, listas, dados do wiki do canal do teams|
-|Stream|Vídeos|
+|Fluxo|Vídeos|
 |Yammer|Conversas|
 
 Ao excluir um grupo ou uma equipe, a maioria dos recursos associados também é excluída. Algumas das exceções incluem vídeos no Stream – elas permanecem e ainda pertencem à pessoa que as carregou/gravou, como os fluxos de energia automatizar. Os dados de projeto e roteiro no Project na Web permanecem nos CDS e podem ser restaurados separadamente.

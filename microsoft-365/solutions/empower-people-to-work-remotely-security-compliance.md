@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
+- m365solution-scenario
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários remotos.
-ms.openlocfilehash: f2743e9f7d2f102231531e7a9146a0f26727e1d4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1f59b83760c3df042bb3936becbd80e04f0db06e
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200938"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377206"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários remotos
 

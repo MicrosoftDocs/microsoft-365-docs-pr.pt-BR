@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre as interações de configurações entre o Microsoft 365 grupos, o Teams e o SharePoint
-ms.openlocfilehash: 3ad5011c2d7b4579e054b014237d5771049b3c91
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 3a6d4e057f88410a8808ea133bf7e579d0041228
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662475"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377540"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-teams-and-sharepoint"></a>Configurações interações entre o Microsoft 365 grupos, o Teams e o SharePoint
 

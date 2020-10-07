@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
+- m365solution-collabgovernance
 search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Saiba como permitir que os membros enviem email como um grupo do Microsoft 365 ou enviem email em nome de um grupo do Microsoft 365.
-ms.openlocfilehash: b660131798e60182435a69f479411cdec948bc99
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 9ccaeff49914dd5b510beb80f40a3a3b790ce831
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662455"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377588"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Permitir que os membros enviem como ou enviem em nome de um grupo
 
@@ -50,7 +50,7 @@ Esta seção explica como permitir que os usuários enviem emails como um grupo 
     
 4. Na seção **Enviar como** , selecione o **+** sinal para adicionar os usuários que você deseja enviar como o grupo. 
     
-    ![Selecione o sinal de adição para adicionar os usuários que você deseja enviar como o grupo do Microsoft 365](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![Captura de tela da caixa de diálogo Enviar como](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
 5. Digite para pesquisar ou selecionar um usuário da lista. Selecione **OK** e **salvar**.
     
@@ -68,7 +68,7 @@ Esta seção explica como permitir que os usuários enviem emails em nome de um 
     
 4. Na seção enviar em nome de, selecione o **+** sinal para adicionar os usuários que você deseja enviar como o grupo. 
     
-    ![Selecione o sinal de adição para adicionar os usuários que você deseja enviar como o grupo do Microsoft 365](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
+    ![Captura de tela da caixa de diálogo enviar em nome de](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
 5. Digite para pesquisar ou selecionar um usuário da lista. Selecione **OK** e **salvar**.
     

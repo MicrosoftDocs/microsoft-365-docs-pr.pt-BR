@@ -9,19 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- m365solution-3tiersprotection
 - m365solution-securecollab
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Configure o Microsoft 365 para habilitar o compartilhamento e segurança adicional quando você convidar usuários externos para colaborar no Teams e compartilhar sites do SharePoint.
-ms.openlocfilehash: f8dc81ae32bed7a12daf21955ada60ab852d4617
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: 11359e2de358d5673da6c39ca2d419c94349a829
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255786"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377408"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
 

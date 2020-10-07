@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Interações de serviços de grupos
-ms.openlocfilehash: 9632debf1bc6fdd2fce061a4c535906410700175
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 235a897314a784ba3bb1ac50fe8bdfe9986a70d3
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662479"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377624"
 ---
 # <a name="groups-services-interactions"></a>Interações de serviços de grupos
 
@@ -94,7 +95,7 @@ A experiência da restrição de criação de grupo varia entre aplicativos e se
 |Planner|**Novo plano** explica que a criação do grupo foi desativada e oferece para adicionar o plano a um grupo existente|
 |Projeto para a Web e o mapa|Menu **Criar grupo** explica que a criação do grupo é restrita e sugere o uso de um grupo existente.|
 |SharePoint|Ainda é possível criar um site de equipe que não esteja conectado a um grupo.|
-|Stream|A opção **grupo** não aparece no **Menu criar**.|
+|Fluxo|A opção **grupo** não aparece no **Menu criar**.|
 |Teams|O usuário não pode criar uma equipe com um novo grupo, mas ainda pode criar uma equipe que utiliza um grupo existente.<br><br>**Criar um botão de equipe** é substituído por **criar equipe de um grupo**.|
 |Yammer|**Criar uma** opção de grupo é removida da navegação de grupos principais/comunidades.|
 
@@ -117,12 +118,12 @@ A tabela a seguir fornece uma visão geral das interações de grupos do Microso
 |Planner|Quadro de tarefas|Não|Sim|Sim|
 |Aplicativo de aplicativos de energia|App|Sim|Não|Não|
 |Power Automate|Fluxo de trabalho|Sim|Não|Não|
-|Power BI (clássico)|Espaço de trabalho|Não|Sim|Sim|
-|Power BI (novo)|Espaço de trabalho|Sim|Não|Sim|
+|Power BI (clássico)|Workspace|Não|Sim|Sim|
+|Power BI (novo)|Workspace|Sim|Não|Sim|
 |Project para a Web|Plano de projeto|Sim|Sim|Não|
 |Roteiro|Roteiro|Sim|Sim|Não|
 |SharePoint|Site|Sim|Sim|Sim|
-|Stream|Canal, vídeo|Sim|Sim|Sim|
+|Fluxo|Canal, vídeo|Sim|Sim|Sim|
 |Teams|Equipe|Não|Sim|Sim|
 |Yammer|Group|Sim|Sim|Sim|
 
@@ -174,7 +175,7 @@ Por padrão, quando uma equipe é criada, a caixa de correio e o calendário ass
 
 - Conversas
 - & guias de canais
-- Meetings
+- Reuniões
 
 **O Microsoft Teams pode criar um grupo?**
 
@@ -565,7 +566,7 @@ Não, o próprio site é associado ao grupo, no entanto, o conteúdo pode ser mo
 
 Sim, a exclusão do site no SharePoint excluirá os serviços e o conteúdo associados ao grupo e ao grupo.
 
-## <a name="stream"></a>Stream
+## <a name="stream"></a>Fluxo
 
 O Microsoft Stream é uma plataforma de hospedagem e compartilhamento de vídeo.
 

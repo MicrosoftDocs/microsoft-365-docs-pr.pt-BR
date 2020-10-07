@@ -1,5 +1,5 @@
 ---
-title: Governança primeiro
+title: Governança em primeiro lugar
 ms.reviewer: mmclean
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -10,18 +10,19 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Governança primeiro
-ms.openlocfilehash: 6d0a275f8b459199fe0444f2de127778e1da40b3
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+description: Governança em primeiro lugar
+ms.openlocfilehash: 7f6104997028434b9c8aeab946ac6e1f06a61c84
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662453"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377420"
 ---
-# <a name="governance-first"></a>Governança primeiro
+# <a name="governance-first"></a>Governança em primeiro lugar
 
 É sempre melhor começar sua migração para o Microsoft 365 com uma visão clara:
 

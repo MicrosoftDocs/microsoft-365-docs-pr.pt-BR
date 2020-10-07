@@ -14,14 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - m365solution-infoprotection
+- m365solution-scenario
 ms.custom: ''
 description: Determine as regulamentações de privacidade de dados, os cenários relevantes, a prontidão e os tipos de informações confidenciais que estão no seu ambiente Microsoft 365.
-ms.openlocfilehash: 237039bfd853c0f58276926f29bda26981df6b8c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c2f8bd6587e399fd1e928575b3cd9dfb2a4565eb
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195742"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377110"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Avaliar os riscos de privacidade de dados e identificar itens confidenciais com o Microsoft 365
 

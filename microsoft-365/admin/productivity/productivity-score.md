@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 7c323d51bcd8a1bead28677e399891ccd0a22950
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 82dc26aea5c573b63bb66d087b332e3301e71409
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285181"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376968"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
-Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com ideias sobre como as pessoas usam o Microsoft 365 e as experiências tecnológicas que dão suporte a eles. A pontuação reflete o desempenho da organização em relação à experiência de funcionários e tecnologias e compara sua pontuação com organizações como a sua.
+Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com ideias sobre como as pessoas usam o Microsoft 365 e as experiências tecnológicas que dão suporte a eles. A pontuação reflete o desempenho da sua organização contra experiências de pessoas e tecnologia e compara sua pontuação com organizações como a sua.
 
 A pontuação inclui:
 
@@ -39,18 +39,18 @@ A pontuação inclui:
 
 Fornecemos dados, ideias e recomendações em duas áreas: 
 
-- **Experiência do funcionário:** Medimos como as pessoas colaboram com o conteúdo, como usam os produtos da Microsoft 365 para se comunicarem e se usam o Microsoft 365 entre plataformas. 
+- **Experiências de pessoas:** Medimos como as pessoas colaboram com o conteúdo, como usam os produtos da Microsoft 365 para se comunicarem e se usam o Microsoft 365 entre plataformas. 
 
     Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo. Com a liberdade de trabalhar em qualquer dispositivo, elas são mais produtivas e satisfeitas. A comunicação de forma flexível torna as pessoas mais eficientes, relações melhores de formulário e sua organização é mais unificada. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-- **Experiência de tecnologia:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos a [análise de ponto de extremidade](https://aka.ms/endpointanalytics), que o ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software de ponto de extremidade. Também fornecemos as ações recomendadas para corrigi-las, bem como informações de conectividade de rede do Microsoft 365 para sua organização.
+- **Experiências tecnológicas:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos a [análise de ponto de extremidade](https://aka.ms/endpointanalytics), que o ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software de ponto de extremidade. Também fornecemos as ações recomendadas para corrigi-las, bem como informações de conectividade de rede do Microsoft 365 para sua organização.
 
 Veja [o que é o Endpoint Analytics](https://docs.microsoft.com/mem/analytics/overview) para obter uma visão geral e os detalhes dos pré-requisitos. Para saber mais sobre o Microsoft 365 insights de conectividade de rede, leia [a visão geral da conectividade de rede](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
   
 
 ## <a name="how-the-score-is-calculated"></a>Como a pontuação é calculada
 
-A pontuação da produtividade baseia-se nas pontuações combinadas das categorias de experiência de seus funcionários e tecnologias. Cada categoria é ponderada igualmente, com um total de 100 pontos por categoria. O total de pontos possíveis para a pontuação de produtividade é de 500.
+A pontuação da produtividade baseia-se nas pontuações combinadas de suas categorias de experiências de tecnologia e pessoas. Cada categoria é ponderada igualmente, com um total de 100 pontos por categoria. O total de pontos possíveis para a pontuação de produtividade é de 500.
 
 ### <a name="score-categories"></a>Categorias de Pontuação 
 
@@ -72,7 +72,7 @@ Sua pontuação é atualizada diariamente e reflete as ações do usuário concl
 
 ## <a name="pre-requisites"></a>Pré-requisitos 
 
-Você precisa de uma assinatura do Microsoft 365 for Business ou do Office 365 para Enterprise para obter os dados da experiência do funcionário, e você precisa estar usando serviços em nuvem de vários locatários. Para obter dados de análise do ponto de extremidade para seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização por meio do gerenciamento de dispositivos e aplicativos.       Depois de ter o Intune, você pode ativar a análise de ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o Microsoft Intune. 
+Você precisa de uma assinatura do Microsoft 365 for Business ou do Office 365 para Enterprise para obter dados de experiência de pessoas, e você precisa estar usando serviços em nuvem de vários locatários. Para obter dados de análise do ponto de extremidade para seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização por meio do gerenciamento de dispositivos e aplicativos.       Depois de ter o Intune, você pode ativar a análise de ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o Microsoft Intune. 
 
 Para exibir a pontuação de produtividade da sua organização, você deve ter uma das seguintes funções: 
 
@@ -94,17 +94,17 @@ A Home Page de Pontuação de produtividade mostra a pontuação total e o hist�
 
 **Sua pontuação** é mostrada como um valor de porcentagem, bem como em pontos, para que você possa ver seus pontos (numerador) e os pontos máximos possíveis (denominadores).
 
-Os **benchmarks de ponto** permitem comparar sua pontuação com organizações como a sua. Para as categorias de experiência do funcionário, a medida de benchmark de ponto é calculada como a média de medidas dentro de um conjunto de organizações semelhantes. O conjunto é composto por organizações em sua região com um número semelhante de usuários licenciados, tipos de licenças, setor e gestão com o Microsoft 365. 
+Os **benchmarks de ponto** permitem comparar sua pontuação com organizações como a sua. Para as categorias de experiências de pessoas, a medida de benchmark de ponto é calculada como a média de medidas dentro de um conjunto de organizações semelhantes. O conjunto é composto por organizações em sua região com um número semelhante de usuários licenciados, tipos de licenças, setor e gestão com o Microsoft 365. 
 
 O benchmark ponto de extremidade da análise do Endpoint inclui destinos para o desempenho de inicialização do dispositivo e a configuração de software recomendada com base em valores medianos agregados em todos os locatários.
 
 Para conectividade de rede, o benchmark recomendado é de 80 pontos.
 
-A seção de **divisão de Pontuação** fornece uma divisão da sua pontuação de produtividade com benchmarks por funcionários e áreas de experiência de tecnologia.
+A seção de **divisão de Pontuação** fornece uma divisão de sua pontuação de produtividade com benchmarks por pessoas e áreas de experiência tecnológica.
 
 O histórico de Pontuação exibe como sua pontuação em cada categoria foi alterada nos últimos seis meses.
 
-As áreas **experiência do funcionário** e **experiência tecnológica** contêm os principais fatos para as categorias nessas áreas. Você pode clicar em cada categoria para ver informações mais profundas.
+As áreas **experiências de pessoas** e **experiências tecnológicas** contêm os principais fatos sobre as categorias nessas áreas. Você pode clicar em cada categoria para ver informações mais profundas.
 
 ## <a name="category-details-pages"></a>Páginas de detalhes da categoria
 

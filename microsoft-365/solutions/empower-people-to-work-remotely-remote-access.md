@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
+- m365solution-scenario
 ms.custom: ''
 description: Garanta que seus funcionários remotos possam acessar recursos locais ao otimizar o acesso aos serviços em nuvem do Microsoft 365.
-ms.openlocfilehash: 7c928718a4d0f0d47fb601e6ab6e51f25c88a04a
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 52a338822c28f6ae044f13f60664d66816d6ce5c
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308386"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377242"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Etapa 2. Fornecer acesso remoto a aplicativos e serviços locais
 
@@ -60,7 +61,7 @@ Para otimizar o acesso aos recursos de nuvem do Microsoft 365, configure seus cl
 
 Isso permite que o cliente VPN envie e receba o tráfego crucial do serviço em nuvem do Microsoft 365 diretamente pela Internet e para o ponto de entrada mais próximo da rede Microsoft.
 
-Para obter mais informações e orientações, confira [Otimizar a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??).
+Para obter mais informações e orientações, confira [Otimizar a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?).
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Implantar o acesso remoto quando todos os seus aplicativos são aplicativos Web e você tem identidade híbrida
 
@@ -116,7 +117,7 @@ Confira [este artigo](https://www.microsoft.com/security/blog/2020/04/16/securit
 ## <a name="admin-technical-resources-for-remote-access"></a>Recursos técnicos do administrador para acesso remoto
 
 - [Como otimizar rapidamente o tráfego do Office 365 para funcionários remotos e reduzir a carga em sua infraestrutura](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [Otimize a conectividade do Office 365 dos usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
+- [Otimize a conectividade do Office 365 dos usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel)
 
 ## <a name="results-of-step-2"></a>Resultados da Etapa 2
 

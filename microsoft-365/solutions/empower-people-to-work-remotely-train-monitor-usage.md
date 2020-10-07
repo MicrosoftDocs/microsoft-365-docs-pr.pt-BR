@@ -15,15 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
-- m365solution-overview
+- m365solution-scenario
 ms.custom: ''
 description: Treine seus usuários e garanta que os problemas sejam tratados rapidamente.
-ms.openlocfilehash: 1954a3768d2a35c3193aa523d6383b7b8257a6a0
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: b1dd55febcd23f6bb8413b0aa5c625f4b785babb
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521428"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377064"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Etapa 6: Treinar os funcionários remotos e responder a questões sobre o uso
 

@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365solution-threatprotection
+- m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a5f3f93ad70210143cbe774c2a4e96542b1cfd34
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: c6e973e05f9a73736410c9bfedfa2ef73bb583ce
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332671"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377396"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Configurar recursos de proteção contra ameaças no Microsoft 365
 
@@ -45,7 +46,7 @@ A Microsoft testou e recomenda um conjunto específico de acesso condicional e p
 
 ### <a name="more-information-about-protecting-identities"></a>Mais informações sobre como proteger identidades
 
-- [Configurações de acesso à identidade e dispositivo](../enterprise/microsoft-365-policies-configurations.md)
+- [Configurações de identidade e acesso a dispositivos](../enterprise/microsoft-365-policies-configurations.md)
 - [Diretrizes de segurança para o Azure MFA](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-azure-advanced-threat-protection"></a>Etapa 2: configurar a proteção avançada contra ameaças do Azure
@@ -97,7 +98,7 @@ A [proteção avançada contra ameaças do office 365](https://docs.microsoft.co
 
 |Recursos de configuração, proteção e detecção|Recursos de automação, investigação, correção e educação|
 |---|---|
-|[Anexos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Links Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Documentos seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP para SharePoint, OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Proteção antiphishing ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Controladores de Ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Explorador de Ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Resposta e investigação automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Simulador de Ataque](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
+|[Anexos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Links Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Documentos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP para SharePoint, OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Proteção antiphishing ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Controladores de Ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Explorador de Ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Resposta e investigação automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Simulador de Ataque](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
 Com o Office 365 ATP, as pessoas em sua organização podem se comunicar e colaborar com mais segurança, com proteção contra ameaças para seus documentos de conteúdo de email e do Office.
