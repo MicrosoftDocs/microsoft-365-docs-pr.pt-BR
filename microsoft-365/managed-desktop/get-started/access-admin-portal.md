@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: f57911276d74c6945027077404e1f83c2f5072fd
-ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
+ms.openlocfilehash: 5adf57c2397c4de3c5ea8622a2a9be7207ebf152
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48137030"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379291"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
@@ -34,12 +34,12 @@ Cada uma das funções abaixo pode ser atribuída para fornecer diferentes níve
 
 |Função do Azure AD  |Permissões de área de trabalho gerenciada da Microsoft  |
 |---------|---------|
-|Administrador Global     | Os administradores com essa função terão **permissões de leitura e gravação** para todos os recursos no portal de administração de área de trabalho gerenciada da Microsoft.         |
-|Leitor global     | Os administradores com essa função terão **permissões somente leitura** para todos os recursos no portal de administração de área de trabalho gerenciada da Microsoft.         |
-|Administrador de serviço do Intune     |  Os administradores com essa função terão **permissões de leitura e gravação** para todos os recursos no portal de administração de área de trabalho gerenciada da Microsoft. **Alteração:** A inicialização de todos os administradores de setembro de 2020 com essa função não terá acesso aos recursos de segurança do Microsoft Managed desktop.       |
-|Administrador de suporte de serviço     | Os administradores com essa função terão **permissões de leitura e gravação** para todos os recursos no portal de administração de área de trabalho gerenciada da Microsoft. **Alteração:** A inicialização de todos os administradores de setembro de 2020 com essa função não terá acesso aos recursos de segurança do Microsoft Managed desktop.         |
-|Administrador de segurança | **(Na visualização de setembro de 2020)** Os administradores com essa função terão permissões somente leitura para todos os recursos e permissões de gravação para recursos relacionados à segurança no Microsoft Managed desktop no portal de administração. |
-|Leitor de segurança | **(Na visualização de setembro de 2020)**  Os administradores com essa função terão permissões somente leitura para todos os recursos no portal de administração de área de trabalho gerenciada da Microsoft.|
+|Administrador Global     | Os administradores com essa função terão **permissões de leitura e gravação para todos os recursos** no portal de administração de área de trabalho gerenciada da Microsoft.         |
+|Leitor global     | Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal de administração de área de trabalho gerenciada da Microsoft.         |
+|Administrador de serviço do Intune     |  Os administradores com essa função terão **permissões de leitura e gravação para recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.       |
+|Administrador de suporte de serviço     | Os administradores com essa função terão **permissões de leitura e gravação para recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.         |
+|Administrador de segurança | Os administradores com essa função terão **permissões somente leitura para todos os recursos** e **permissões de gravação para recursos relacionados à segurança** no Microsoft Managed desktop no portal de administração. |
+|Leitor de segurança |Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal de administração de área de trabalho gerenciada da Microsoft.|
 
 > [!IMPORTANT]
 > Somente a função de administrador global tem as permissões necessárias para *registrar* sua organização na área de trabalho gerenciada da Microsoft. Lembre-se de que as funções do Azure Active Directory fornecerão privilégios de contas de usuário em vários serviços da Microsoft. Após concluir o registro com a área de trabalho gerenciada da Microsoft, você sempre deve usar a função com os privilégios *mínimos* necessários para realizar suas outras tarefas.
@@ -47,9 +47,9 @@ Cada uma das funções abaixo pode ser atribuída para fornecer diferentes níve
  
 |Função personalizada  |Permissões de área de trabalho gerenciada da Microsoft  |
 |---------|---------|
-|Administrador do serviço de área de trabalho gerenciada da Microsoft  | **(Na visualização de setembro de 2020)** Quando atribuída a um usuário, essa função concede permissões de **leitura & gravação de administrador para recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.  |
-|Leitor de serviço de área de trabalho gerenciada da Microsoft | **(Na visualização de setembro de 2020)** Quando atribuída a um usuário, essa função fornece as **permissões somente leitura do administrador a recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft. |
-|Gerenciador de segurança do Microsoft Managed desktop | **(Na visualização de setembro de 2020)** Quando atribuída a um usuário, essa função concede permissões de **leitura & gravação somente para recursos relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.   |
+|Administrador do serviço de área de trabalho gerenciada da Microsoft  | Quando atribuída a um usuário, essa função fornece as **permissões de leitura e gravação de administrador a recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.  |
+|Leitor de serviço de área de trabalho gerenciada da Microsoft | Quando atribuída a um usuário, essa função concede **permissões somente leitura do administrador a recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft. |
+|Gerenciador de segurança do Microsoft Managed desktop |Quando atribuída a um usuário, essa função concede permissões de **leitura e gravação de administrador somente para recursos relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.   |
 
 > [!NOTE]
 > Os recursos de segurança incluem comunicações relacionadas à segurança, gerenciamento de contatos de segurança, gerenciamento de solicitações de suporte relacionadas à segurança e acesso a relatórios relacionados à segurança. 
