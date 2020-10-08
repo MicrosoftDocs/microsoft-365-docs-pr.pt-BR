@@ -12,16 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: e5041f82d22b62e8b343c62136251e2c69ca9e47
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 7977d30881a4229f99f4c5976d4c41377573a6ca
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127038"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379213"
 ---
 # <a name="get-started-with-content-explorer"></a>Introdução ao gerenciador de conteúdo
 
