@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 localization_priority: None
 description: Use as barreiras de informação para garantir a conformidade de comunicação usando o Microsoft Teams em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f723885a366e6f92f29faccfb632677c6e0028c8
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 7b223de8eba68d49a8cc0c90239305eb05bb1090
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430219"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379194"
 ---
 # <a name="information-barriers"></a>Barreiras de informações
 

@@ -14,16 +14,17 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
-- SPO_Content
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 08e2bd43b4337087b401244b7dc4cf80a26aaf06
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: e0b9ba6afcad0c683aaa7386998a621f279aa9eb
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131665"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379240"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)
 

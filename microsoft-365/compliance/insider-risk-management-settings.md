@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 5a1bd06e76564750c7b080182ac8ab93fc8d60de
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: c98c0081d95da19e79db03dc4b4fdb823a14e42c
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341219"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377266"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Introdução às configurações de gerenciamento de risco do insider
 
@@ -300,14 +300,14 @@ Os clientes com assinaturas do Microsoft 365 que incluem o gerenciamento de risc
 
 Os modelos de automatização de energia a seguir são fornecidos aos clientes para oferecer suporte à automação de processos para usuários e casos de gerenciamento de risco do insider:
 
-- **Notificar os usuários quando eles forem adicionados a uma política de risco Insider**: esse modelo é para organizações que têm políticas internas, privacidade ou requisitos normativos que os usuários devem ser notificados quando estão sujeitos às políticas de gerenciamento de risco do insider. Quando esse fluxo é configurado e selecionado para um usuário na página usuários, os usuários e seus gerentes são enviados uma mensagem de email quando o usuário é adicionado a uma política de gerenciamento de risco do insider. Este modelo também oferece suporte à atualização de uma lista do SharePoint hospedada em um site do SharePoint para ajudar a rastrear detalhes da mensagem de notificação, como data/hora e o destinatário da mensagem. Os fluxos de automatização de energia usando esse modelo estão disponíveis no **painel usuários**.
-- **Solicitar informações de RH ou de negócios sobre um usuário em um caso de risco do insider**: ao atuar em um caso, os analistas e investigadores de risco do insider podem precisar consultar o RH ou outros participantes para entender o contexto das atividades de caso. Quando esse fluxo é configurado e selecionado para um caso, os analistas e investigadores enviam uma mensagem de email para os participantes de RH e comerciais configurados para esse fluxo. Cada destinatário recebe uma mensagem com opções de resposta pré-configuradas ou personalizáveis. Quando os destinatários selecionam uma opção de resposta, a resposta é registrada como uma nota de caso e inclui informações de destinatário e data/hora. Os fluxos de automatização de energia usando esse modelo estão disponíveis no **painel de casos**.
+- **Notificar os usuários quando eles forem adicionados a uma política de risco Insider**: esse modelo é para organizações que têm políticas internas, privacidade ou requisitos normativos que os usuários devem ser notificados quando estão sujeitos às políticas de gerenciamento de risco do insider. Quando esse fluxo é configurado e selecionado para um usuário na página usuários, os usuários e seus gerentes são enviados uma mensagem de email quando o usuário é adicionado a uma política de gerenciamento de risco do insider. Este modelo também oferece suporte à atualização de uma lista do SharePoint hospedada em um site do SharePoint para ajudar a rastrear detalhes da mensagem de notificação, como data/hora e o destinatário da mensagem. Se você tiver optado por tornar os usuários em **configurações de privacidade**, os fluxos criados a partir desse modelo não funcionarão conforme o planejado para que a privacidade do usuário seja mantida. Os fluxos de automatização de energia usando esse modelo estão disponíveis no **painel usuários**.
+- **Solicitar informações de RH ou de negócios sobre um usuário em um caso de risco do insider**: ao atuar em um caso, os analistas e investigadores de risco do insider podem precisar consultar o RH ou outros participantes para entender o contexto das atividades de caso. Quando esse fluxo é configurado e selecionado para um caso, os analistas e investigadores enviam uma mensagem de email para os participantes de RH e comerciais configurados para esse fluxo. Cada destinatário recebe uma mensagem com opções de resposta pré-configuradas ou personalizáveis. Quando os destinatários selecionam uma opção de resposta, a resposta é registrada como uma nota de caso e inclui informações de destinatário e data/hora. Se você tiver optado por tornar os usuários em **configurações de privacidade**, os fluxos criados a partir desse modelo não funcionarão conforme o planejado para que a privacidade do usuário seja mantida. Os fluxos de automatização de energia usando esse modelo estão disponíveis no **painel de casos**.
 - **Notificar o gerente quando um usuário tiver um alerta de risco do insider**: algumas organizações podem precisar ter uma notificação de gerenciamento imediata quando um usuário tiver um alerta de gerenciamento de risco do insider. Quando esse fluxo é configurado e selecionado, o gerente para o usuário caso é enviado uma mensagem de email com as seguintes informações sobre todos os alertas de caso: 
     - Política aplicável para o alerta
     - Data/hora do alerta
     - Nível de severidade do alerta
 
-    O fluxo atualiza automaticamente as notas de caso em que a mensagem foi enviada e que o fluxo foi ativado. Os fluxos de automatização de energia usando esse modelo estão disponíveis no **painel de casos**.
+    O fluxo atualiza automaticamente as notas de caso em que a mensagem foi enviada e que o fluxo foi ativado. Se você tiver optado por tornar os usuários em **configurações de privacidade**, os fluxos criados a partir desse modelo não funcionarão conforme o planejado para que a privacidade do usuário seja mantida. Os fluxos de automatização de energia usando esse modelo estão disponíveis no **painel de casos**.
 
 - **Adicionar Lembrete de calendário para acompanhar um caso de risco do insider**: este modelo permite que investigadores de risco e analistares adicionem lembretes de calendário para casos ao seu calendário do Office 365 Outlook. Esse fluxo elimina a necessidade de que os usuários saiam ou saiam do fluxo de trabalho de gerenciamento de risco do insider ao processar os alertas de ocorrências e de triagem. Quando esse fluxo é configurado e selecionado, um lembrete é adicionado ao calendário do Office 365 Outlook para o usuário que está executando o fluxo. Os fluxos de automatização de energia usando esse modelo estão disponíveis no **painel de casos**.
 
