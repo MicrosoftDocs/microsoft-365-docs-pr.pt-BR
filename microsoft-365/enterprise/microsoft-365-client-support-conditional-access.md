@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam acesso condicional para o Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fd4dcaeda27f12427f3175b7ec52e2fdb0c153da
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d44dffd6da91be9e64953d1b744043114ba68183
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546507"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384928"
 ---
 # <a name="microsoft-365-client-app-support--conditional-access"></a>Suporte ao aplicativo cliente Microsoft 365 — acesso condicional
 
@@ -40,7 +40,7 @@ Saiba mais sobre o [Acesso Condicional do Azure AD](https://docs.microsoft.com/a
  - iOS
  - macOS<sup>1</sup>
 
-Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System Requirements for Microsoft 365](https://products.office.com/office-system-requirements).
+Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System Requirements for Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
 
 ## <a name="supported-clients"></a>Clientes com suporte
 
@@ -49,7 +49,7 @@ As versões mais recentes dos seguintes clientes suportam acesso condicional:
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![Ícone do Azure](../media/o365-azure-64x64.png) <br> [Portal do Azure AD <br>](https://azure.microsoft.com/features/azure-portal/) | ![Ícone do Access](../media/o365-access-64x64.png) <br> [Access](https://products.office.com/access) | ![Ícone do portal da empresa](../media/o365-microsoft-64x64.png) <br> [Portal da empresa <br>](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal)  | ![Ícone da Cortana](../media/o365-cortana-64x64.png) <br> [Consome](https://www.microsoft.com/cortana) | ![Ícone do Delve](../media/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) 
-| ![Ícone do Dynamics 365](../media/o365-dynamics365-64x64.png) <br> [Dynamics 365](https://dynamics.microsoft.com) | ![Ícone de borda](../media/o365-edge-64x64.png) <br> [Vertical](https://www.microsoft.com/windows/microsoft-edge) | ![Ícone do Exchange](../media/o365-exchange-64x64.png) <br> [Exchange](https://products.office.com/exchange/exchange-online) | ![Ícone do Excel](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Ícone do Forms](../media/o365-forms-64x64.png) <br> [Forms](https://flow.microsoft.com/connectors/shared_microsoftforms/microsoft-forms/) 
+| ![Ícone do Dynamics 365](../media/o365-dynamics365-64x64.png) <br> [Dynamics 365](https://dynamics.microsoft.com) | ![Ícone de borda](../media/o365-edge-64x64.png) <br> [Borda](https://www.microsoft.com/windows/microsoft-edge) | ![Ícone do Exchange](../media/o365-exchange-64x64.png) <br> [Exchange](https://products.office.com/exchange/exchange-online) | ![Ícone do Excel](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Ícone do Forms](../media/o365-forms-64x64.png) <br> [Forms](https://flow.microsoft.com/connectors/shared_microsoftforms/microsoft-forms/) 
 | ![Ícone do Kaizala](../media/o365-kaizala-64x64.png) <br> [Kaizala](https://products.office.com/en/business/microsoft-kaizala) | ![Ícone de Office.com](../media/o365-office-64x64.png) <br> [Office.com](https://www.office.com/) | ![Ícone de lente](../media/o365-lens-64x64.png) <br> [Office Lens](https://www.microsoft.com/p/office-lens/9wzdncrfj3t8?activetab=pivot%3Aoverviewtab) | ![Ícone de administração do Office 365](../media/o365-o365admin-64x64.png) <br> [Administrador 365 da Microsoft <br>](https://products.office.com/business/manage-office-365-admin-app) | ![Ícone do OneDrive for Business](../media/o365-OneDrive-64x64.png) <br> [OneDrive<sup>1</sup>](https://products.office.com/onedrive-for-business/online-cloud-storage) 
 | ![Ícone do OneNote](../media/o365-OneNote-64x64.png) <br> [OneNote](https://products.office.com/onenote) | ![Ícone do Outlook](../media/o365-outlook-64x64.png) <br> [Outlook](https://products.office.com/outlook) | ![Ícone do Planner](../media/o365-planner-64x64.png) <br> [Planner](https://products.office.com/business/task-management-software) | ![Ícone do PowerApps](../media/o365-powerapps-64x64.png) <br> [PowerApps](https://powerapps.microsoft.com) | ![Ícone de automatização de energia](../media/o365-flow-64x64.png) <br> [<br>Automatização de energia](https://flow.microsoft.com)
 | ![Ícone do PowerBI](../media/o365-powerbi-64x64.png) <br> [Power BI](https://powerbi.microsoft.com) | ![Ícone do PowerPoint](../media/o365-powerpoint-64x64.png) <br> [PowerPoint](https://products.office.com/powerpoint) | ![Ícone do Project](../media/o365-project-64x64.png) <br> [Project](https://products.office.com/project) | ![Ícone do Publisher](../media/o365-publisher-64x64.png) <br> [Publisher](https://products.office.com/publisher) | ![Ícone do SharePoint](../media/o365-sharepoint-64x64.png) <br> [Do](https://products.office.com/sharepoint) 

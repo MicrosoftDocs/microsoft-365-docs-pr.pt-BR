@@ -3,7 +3,6 @@ title: Guias de configuração para os serviços Microsoft 365 e Office 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/15/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -22,22 +21,22 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: Acelere o planejamento e a configuração do Microsoft 365 ou do Office 365 com guias de configuração.
-ms.openlocfilehash: 106a659dd75ae14d38c393a9547b84630e458337
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 67e24ae41806b4dc112387526177cb4bd84d0779
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357977"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384909"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Guias de configuração para os serviços Microsoft 365 e Office 365
 
-Os guias de instalação do Microsoft 365 e do Office 365 dão aos administradores orientações e recursos adaptados para a implantação de aplicativos e serviços. Esses guias são criados usando as mesmas práticas recomendadas que os especialistas de integração do FastTrack compartilham em interações individuais e estão disponíveis para todos os administradores no centro de administração do Microsoft 365. Eles oferecem informações sobre a instalação do produto, a habilitação de recursos de segurança, implantação de ferramentas de colaboração e fornecimento de scripts para acelerar implantações avançadas.
+Os guias de instalação do Microsoft 365 e do Office 365 oferecem orientações e recursos personalizados para o planejamento e a implantação do seu locatário, aplicativos e serviços. Esses guias são criados usando as mesmas práticas recomendadas que os especialistas de integração do [microsoft 365 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) compartilham interações individuais e estão disponíveis para todos os administradores no centro de administração do Microsoft 365. Eles oferecem informações sobre a instalação do produto, a habilitação de recursos de segurança, implantação de ferramentas de colaboração e fornecimento de scripts para acelerar implantações avançadas.
 
 ## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>Como acessar guias de configuração no centro de administração do Microsoft 365
 
 Os guias de configuração podem ser acessados na página [orientação da instalação](https://aka.ms/setupguidance) no centro de administração do Microsoft 365. Você pode acompanhar o status do seu progresso e tem a opção de retornar a qualquer momento para concluir uma guia. Para acessar a página **orientação da instalação** :
 
-1. No [centro de administração](https://admin.microsoft.com/), vá para a página **inicial** .
+1. No [centro de administração do Microsoft 365](https://admin.microsoft.com/), vá para a página **inicial** .
 
 2. Encontre o cartão de **guias de treinamento &** . 
 
@@ -52,11 +51,11 @@ Os guias de configuração podem ser acessados na página [orientação da insta
 
 ## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Como os guias de instalação funcionam no centro de administração do Microsoft 365?
 
-Cada guia fornece instruções passo a passo, recursos, artigos e, quando necessário, scripts que você pode usar para fazer alterações na configuração. Esses guias oferecem opções que refletem as necessidades específicas de pequenas e grandes organizações. Além disso, a orientação fornecida inclui assistência para administradores novos e mais experientes.
+Cada guia fornece instruções passo a passo, recursos, artigos e, quando necessário, scripts que você pode usar para fazer alterações na configuração. Esses guias oferecem opções que refletem as necessidades específicas de pequenas e grandes organizações. Além disso, a orientação inclui assistência para administradores novos e mais experientes.
 
 ![Exemplo de um guia de configuração](../media/setup-guides-for-microsoft-365/m365-setupguide-example.png)
 
-Você pode usar as guias para saber mais sobre os recursos específicos do Microsoft 365 e do Office 365 durante a fase de planejamento ou revisitá-los depois de concluir uma implantação para modificar uma configuração.
+Você pode usar as guias para saber mais sobre os recursos específicos do Microsoft 365 e do Office 365 durante a fase de planejamento, durante a implantação e distribuição, ou para revisitá-los depois de concluir uma implantação para modificar uma configuração.
 
 ## <a name="guides-for-initial-setup"></a>Guias para configuração inicial
 
@@ -74,7 +73,7 @@ Ao migrar a caixa de correio de um usuário do Gmail para a Microsoft 365, as me
 
 ### <a name="microsoft-365-deployment-advisor"></a>Supervisor de implantação do Microsoft 365
 
-O [Microsoft 365 Deployment Advisor](https://aka.ms/microsoft365setupguide) fornece orientações para clientes comerciais ao configurar ferramentas de produtividade, políticas de segurança e recursos de gerenciamento de dispositivos. Com uma assinatura do Microsoft 365 Business Premium ou do Microsoft 365 Enterprise, você pode usar este supervisor para configurar e configurar os dispositivos da sua organização. 
+O [Microsoft 365 Deployment Advisor](https://aka.ms/microsoft365setupguide) fornece orientações ao configurar ferramentas de produtividade, políticas de segurança e recursos de gerenciamento de dispositivos. Com uma assinatura do Microsoft 365 Business Premium ou Microsoft 365 para empresas, você pode usar este supervisor para configurar e configurar os dispositivos da sua organização. 
 
 Você receberá orientações e acesso aos recursos para habilitar os serviços de nuvem, atualizar dispositivos para a versão mais recente suportada do Windows 10 e integrar dispositivos ao Azure Active Directory (Azure AD), tudo em um local central.
 
@@ -83,7 +82,7 @@ Você receberá orientações e acesso aos recursos para habilitar os serviços 
 
 O [Guia de configuração do trabalho remoto](https://aka.ms/remoteworksetup) fornece às organizações as dicas e os recursos necessários para garantir que os usuários possam trabalhar remotamente com êxito, que seus dados estejam seguros e que as credenciais dos usuários sejam salvaguardadas. 
 
-Você receberá orientações para otimizar o tráfego de dispositivo dos funcionários remotos para os recursos do Microsoft 365 na nuvem e na rede da sua organização, o que reduzirá a sobrecarga da infraestrutura de VPN. 
+Você receberá orientações para otimizar o tráfego de dispositivo dos funcionários remotos para os recursos do Microsoft 365 na nuvem e na rede da sua organização, o que reduzirá a sobrecarga da sua infraestrutura de VPN de acesso remoto. 
 
 ### <a name="windows-virtual-desktop-setup-guide"></a>Guia de instalação da área de trabalho virtual do Windows
 
@@ -97,15 +96,19 @@ O [Guia de instalação da área de trabalho virtual do Windows](https://aka.ms/
 
 O [Guia de instalação do Azure ad](https://aka.ms/aadpguidance) fornece informações para garantir que sua organização tenha uma forte base de segurança. Neste guia, você configurará os recursos iniciais, como o Azure RBAC (controle de acesso baseado em função) para administradores, o Azure AD Connect para o seu diretório local e a integridade do Azure AD Connect, para que você possa monitorar a integridade da sua identidade híbrida durante sincronizações automatizadas. 
 
-Ele também inclui informações essenciais sobre como habilitar redefinições de senha de autoatendimento, acesso condicional e logon integrado de terceiros, incluindo proteção de ID avançada opcional e automação de provisionamento do usuário.
+Ele também inclui informações essenciais para habilitar redefinições de senha de autoatendimento, acesso condicional e logon integrado de terceiros, incluindo proteção de identidade avançada opcional e automação de provisionamento de usuário.
 
 ### <a name="plan-your-passwordless-deployment"></a>Planejar sua implantação com senha
 
-Atualize para uma abordagem de entrada alternativa que permite que os usuários acessem seus dispositivos com segurança com um dos seguintes métodos de autenticação sem senha: Windows Hello for Business, Microsoft Authenticator app ou chaves de segurança. 
+Atualize para uma abordagem de entrada alternativa que permite que os usuários acessem seus dispositivos com segurança com um dos seguintes métodos de autenticação sem senha: 
+
+- Windows Hello para Empresas
+- O aplicativo Microsoft Authenticator
+- Chaves de segurança 
 
 Use o [Assistente de plano de implantação de senha](https://aka.ms/passwordlesssetup) para descobrir os melhores métodos de autenticação de senha para usar e receber orientações sobre como implantá-los. 
 
-### <a name="plan-your-self-service-password-reset-deployment"></a>Planejar a implantação de redefinição de senha de autoatendimento
+### <a name="plan-your-self-service-password-reset-sspr-deployment"></a>Planejar a implantação de redefinição de senha de autoatendimento (SSPR)
 
 Conceda aos usuários a capacidade de alterar ou redefinir a senha de forma independente, se sua conta estiver bloqueada ou se esquecer a senha sem precisar entrar em contato com um engenheiro de assistência técnica. 
 
@@ -187,4 +190,3 @@ Use o [guia implantar o Office para usuários remotos](https://aka.ms/officeremo
 ### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Implantar e atualizar os aplicativos do Microsoft 365 com o Gerenciador de configurações
 
 Para organizações que usam o Gerenciador de configuração, você pode usar o gerente de [implantação e atualização do microsoft 365 com o Configuration Manager Advisor](https://aka.ms/oppinstall) para gerar um script que irá configurar automaticamente sua implantação de aplicativos do Microsoft 365 usando as práticas recomendadas por engenheiros do FastTrack. Use este guia para compilar seus grupos de implantação, personalizar seus aplicativos e recursos do Office, configurar instalações dinâmicas ou Lean e, em seguida, executar o script para criar aplicativos, regras de implantação automática e coleções de dispositivos que você precisa para direcionar sua implantação. 
-

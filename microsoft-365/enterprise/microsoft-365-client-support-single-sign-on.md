@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam logon único para o Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f6398736c8ead072374fbc14ee04eec63d3ad18
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d0a45c30ffe736cf67e811bce6eb029d6fb50674
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546405"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384804"
 ---
 # <a name="microsoft-365-client-app-support--single-sign-on"></a>Suporte ao aplicativo cliente Microsoft 365 — logon único
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-O logon único (SSO) adiciona segurança e conveniência quando os usuários entram em aplicativos no Azure Active Directory (Azure AD). Com o logon único, os usuários entram uma vez com uma conta para acessar dispositivos que ingressaram no domínio, recursos da empresa, aplicativos de software como um serviço (SaaS) e aplicativos da Web.
+O logon único (SSO) adiciona segurança e conveniência quando os usuários entram em aplicativos no Azure Active Directory (Azure AD). Com o logon único, os usuários se conectam uma única vez com uma conta para acessar os dispositivos do Active Directory Domain Services (AD DS), software como um serviço (SaaS) e aplicativos Web.
 
 Saiba mais sobre o [logon único](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).
 
@@ -40,7 +40,7 @@ Saiba mais sobre o [logon único](https://docs.microsoft.com/azure/active-direct
  - iOS<sup>1</sup>
  - macOS<sup>4</sup>
 
-Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System Requirements for Microsoft 365](https://products.office.com/office-system-requirements).
+Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System Requirements for Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
 
 ## <a name="supported-clients"></a>Clientes com suporte
 

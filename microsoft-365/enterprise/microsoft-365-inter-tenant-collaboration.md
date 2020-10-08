@@ -3,7 +3,6 @@ title: Colaboração entre locatários do Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/21/2020
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como o Microsoft 365 Collaboration funciona em locatários e organizações, permitindo que diferentes organizações trabalhem em conjunto com segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8064543f771927f539d09e3136663bb0df56d5be
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: 00eacfc21d3223b5b9a1ad420cd5d1d85bf4ea8e
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214794"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384830"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Colaboração entre locatários do Microsoft 365
 
@@ -79,7 +78,7 @@ As opções de colaboração entre locatários do Microsoft 365 incluem o uso de
 |Meta de compartilhamento|Ação administrativa|Informações de instruções|
 |:-----|:-----|:-----|
 |Colaborar no Microsoft Teams com usuários externos à organização | Um administrador global para o convite Microsoft 365 locatário precisa habilitar a colaboração externa no Teams. Administradores globais e proprietários de equipe agora poderão convidar qualquer pessoa com um endereço de email para colaborar no Microsoft Teams.  <br/> Os administradores também podem gerenciar e editar convidados já presentes no locatário. |  <ul><li> [Autorizar acesso de convidados](https://docs.microsoft.com/microsoftteams/teams-dependencies) </li><li> [Ativar ou desativar o acesso de convidados no Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) </li><li> [Usar o PowerShell para controlar o acesso de convidados](https://docs.microsoft.com/microsoftteams/guest-access-powershell) </li><li> [Lista de verificação de acesso de convidados](https://docs.microsoft.com/microsoftteams/guest-access-checklist) </li><li> [Exibir usuários convidados](https://docs.microsoft.com/microsoftteams/view-guests) </li><li> [Editar informações de usuários convidados](https://docs.microsoft.com/microsoftteams/edit-guests-information) </li></ul> |
-|Os proprietários de equipe podem convidar e gerenciar como os convidados colaboram dentro de suas equipes.  </li><li> |Os proprietários de equipe têm controles adicionais sobre o que os convidados podem fazer em suas equipes. |  <ul><li> [Adicionar convidados](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [Adicionar um convidado a uma equipe](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [Gerenciar o acesso de convidados no Teams](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [Ver quem está em uma equipe ou em um canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
+|Os proprietários de equipe podem convidar e gerenciar como os convidados colaboram dentro de suas equipes.  |Os proprietários de equipe têm controles adicionais sobre o que os convidados podem fazer em suas equipes. |  <ul><li> [Adicionar convidados](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [Adicionar um convidado a uma equipe](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [Gerenciar o acesso de convidados no Teams](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [Ver quem está em uma equipe ou em um canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
 |Convidados de outros locatários podem exibir conteúdo no Teams e colaborar com outros membros | Nenhum. | [A experiência de acesso de convidados](https://docs.microsoft.com/microsoftteams/guest-experience)| 
 
 ## <a name="power-bi-collaboration-options"></a>Opções de colaboração do Power BI
@@ -94,18 +93,18 @@ As opções de colaboração entre locatários do Microsoft 365 incluem o uso de
 
 Cada organização mantém suas próprias contas de usuário, identidades, grupos de segurança, assinaturas, licenças e armazenamento. As pessoas usam os recursos de colaboração no Microsoft 365 junto com políticas de compartilhamento e configurações de segurança para fornecer acesso às informações necessárias, mantendo o controle dos ativos da empresa.
   
-- **Contas de usuário:** As contas não podem ser compartilhadas e as contas não podem ser duplicadas entre os locatários ou partições nos serviços de diretório do Active Directory local. 
+- **Contas de usuário:** As contas não podem ser compartilhadas ou duplicadas entre os locatários ou partições nos serviços de domínio do Active Directory local. 
     
 - **Assinaturas de licenças &amp; :** no Microsoft 365, as licenças dos planos de licenciamento (também chamadas de SKUs ou planos da Microsoft 365) dão aos usuários acesso aos serviços do Microsoft 365 definidos para esses planos. 
     
-- **Armazenamento:** Nos planos do Microsoft 365, os limites de software e os limites do SharePoint Online são gerenciados separadamente dos limites de armazenamento de caixa de correio. Os limites de armazenamento de caixa de correio são configurados e gerenciados usando o Exchange Online. Em ambos os cenários, o armazenamento não pode ser compartilhadas entre locatários. 
+- **Armazenamento:** Nos planos de licenciamento da Microsoft 365, os limites de software e os limites do SharePoint Online são gerenciados separadamente dos limites de armazenamento de caixa de correio. Os limites de armazenamento de caixa de correio são configurados e gerenciados usando o Exchange Online. Em ambos os cenários, o armazenamento não pode ser compartilhado entre locatários. 
     
 ### <a name="can-we-share-domain-namespaces-across-microsoft-365-tenants"></a>Podemos compartilhar namespaces de domínio nos locatários do Microsoft 365?
 
-Não. Os domínios do personalizado, como fabrikam.com ou tailspintoys.com, só podem ser associados e usados com um locatário no momento. Cada locatário deve ter seu próprio namespace; Os namespaces de UPN, SMTP e SIP não podem ser compartilhados entre locatários.
+Não. Os nomes de domínio da organização, como fabrikam.com ou tailspintoys.com, só podem ser associados e usados com um único locatário do Microsoft 365. Cada locatário deve ter seu próprio namespace. Namespaces UPN, SMTP e SIP não podem ser compartilhados entre locatários.
   
 ### <a name="what-about-hybrid-components-and-microsoft-365-inter-tenant-collaboration"></a>E os componentes híbridos e a colaboração entre locatários do Microsoft 365?
 
 Os componentes híbridos locais, como uma organização do Exchange e o Azure AD Connect, não podem ser divididos em vários locatários.
-  
+ 
 

@@ -15,12 +15,12 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: O roteiro para configurar o gerenciamento de dispositivos para o Microsoft 365.
-ms.openlocfilehash: bb19c38d5cf92cfc04ac83bc29573ea24c93ef30
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: 0efe7098f90064184f222acb671ae6f96c1b38d5
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775166"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384760"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Roteiro de gerenciamento de dispositivo para o Microsoft 365
 
@@ -35,17 +35,22 @@ Há duas opções para o gerenciamento de dispositivos:
 
 Você pode usar o Microsoft Intune para gerenciar o acesso à sua organização usando o gerenciamento de dispositivos móveis ou o gerenciamento de aplicativos móveis. O gerenciamento de dispositivos móveis é quando os usuários "registram" seus dispositivos no Intune. Após um dispositivo ser inscrito, é um dispositivo gerenciado; Portanto, ele pode receber as políticas, as regras e as configurações da sua organização. Por exemplo, você pode instalar aplicativos específicos, criar uma política de senha, instalar uma conexão VPN e muito mais.
 
-Os usuários com seus próprios dispositivos pessoais podem não querer registrar seus dispositivos ou ser gerenciados pelo Intune e pelas políticas da sua organização. Mas você ainda precisa proteger os recursos e os dados da sua organização. Neste cenário, você pode proteger seus aplicativos usando o gerenciamento de aplicativo móvel. Por exemplo, você pode usar uma política de gerenciamento de aplicativo móvel que exige que um usuário insira um PIN ao acessar o Microsoft SharePoint no dispositivo.
+Os usuários com seus próprios dispositivos pessoais podem não querer registrar seus dispositivos ou ser gerenciados pelo Intune e pelas políticas da sua organização. Mas você ainda precisa proteger os recursos e os dados da sua organização. Neste cenário, você pode proteger seus aplicativos usando o gerenciamento de aplicativo móvel. Por exemplo, você pode usar uma política de gerenciamento de aplicativo móvel que exige que um usuário insira um PIN ao acessar o SharePoint Online no dispositivo.
 
 Você também determinará como você vai gerenciar dispositivos pessoais e dispositivos de propriedade da organização. Você pode querer tratar os dispositivos de forma diferente, dependendo de seus usos.
-
-Para gerenciar dispositivos usando o Intune, inicie [aqui](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide).
 
 ## <a name="basic-mobility-and-security"></a>Mobilidade básica e segurança
 
 Isso é feito no Microsoft 365 e ajuda você a proteger e gerenciar os dispositivos móveis dos seus usuários, como iPhones, iPads, Androids e Windows phones. Você pode criar e gerenciar políticas de segurança de dispositivo, apagar remotamente um dispositivo e exibir relatórios detalhados de dispositivos.
 
-Para gerenciar dispositivos usando mobilidade e segurança básicas, comece [aqui](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd).
+## <a name="choose-between-the-two-options"></a>Escolha entre as duas opções
+
+Para ajudá-lo a avaliar melhor qual opção de gerenciamento de dispositivos é melhor para você, consulte [escolher entre a segurança de mobilidade básica e o Intune](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune).
+
+Com base em sua avaliação, comece a gerenciar seus dispositivos com:
+
+- [Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide).
+- [Mobilidade básica e segurança](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd).
  
 ## <a name="identity-and-device-access-recommendations"></a>Recomendações de acesso de dispositivo e identidade
 

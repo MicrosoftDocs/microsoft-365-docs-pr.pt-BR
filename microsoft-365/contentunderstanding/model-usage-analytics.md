@@ -9,18 +9,18 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Aprenda a aplicar um rótulo de retenção a um modelo de compreensão de documentos
-ms.openlocfilehash: 6f616dc3d2ebd87bcc70ee01c9f3a88db60b6f17
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 052c137a419c0185010fbd152e73615a4bb093af
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337236"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367948"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>Análise do uso do modelo de compreensão de documentos
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJY]  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhX]  
 
 </br>
 
@@ -53,6 +53,6 @@ O gráfico de barras dos **arquivos processados ao longo do tempo**mostra não a
 
 [Criar um extrator](create-an-extractor.md)
 
-[Visão geral da compreensão de documentos](document-understanding-overview.md)
+[Visão geral sobre Compreensão de Documentos](document-understanding-overview.md).
 
 [Criar um modelo de processamento de formulário](create-a-form-processing-model.md)  

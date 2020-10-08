@@ -7,19 +7,19 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection: M365-security-compliance.
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: f7bcfa4f08bee51408de33964f1dfd1e1db3bd33
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f904512f9fd07e2065f3d27a5bd5adc56a3565d5
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199740"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384793"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Configurar os recursos de investigação e resposta automatizados no Microsoft Threat Protection
 
@@ -52,8 +52,6 @@ Depois que você estiver pronto, [revise as ações pendentes e concluídas na c
 
 Se as investigações automatizadas são executadas e se as ações de correção são realizadas automaticamente ou apenas na aprovação de seus dispositivos dependem de determinadas configurações, como as políticas de grupo de dispositivos da sua organização. Revise o nível de automação definido para suas políticas de grupo de dispositivos.
 
-### <a name="to-review-or-change-your-device-group-policies"></a>Para revisar ou alterar suas políticas de grupo de dispositivos
-
 1. Vá para o centro de segurança do Microsoft defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) e entre.
 
 2. Vá para **Settings**  >  **Permissions**  >  **grupos de dispositivos**de permissões de configurações. 
@@ -69,8 +67,6 @@ Se as investigações automatizadas são executadas e se as ações de correçã
 A Microsoft fornece políticas de [alerta](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) internas que ajudam a identificar determinados riscos. Esses riscos incluem abuso de permissões de administração do Exchange, atividade de malware, ameaças externas e internas potenciais e riscos de governança de informações. Alguns alertas podem disparar [investigação e resposta automatizadas no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air). Certifique-se de que seus recursos [avançados de proteção contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) estão configurados corretamente.
 
 Embora determinados alertas e políticas de segurança possam disparar investigações automatizadas, nenhuma ação de correção é executada automaticamente para email e conteúdo. Em vez disso, todas as ações de correção para email e conteúdo de email aguardam aprovação por sua equipe de operações de segurança na [central de ações](mtp-action-center.md).
-
-### <a name="to-view-or-change-your-security-and-alert-policies-in-office-365"></a>Para exibir ou alterar suas políticas de segurança e alerta no Office 365
 
 As configurações de segurança no Office 365 ajudam a proteger o email e o conteúdo. Para exibir ou alterar essas configurações, siga as orientações em [proteção contra ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
 
@@ -88,13 +84,15 @@ As configurações de segurança no Office 365 ajudam a proteger o email e o con
 
 5. Verifique se a [limpeza automática de zero horas para proteção de email](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop) está em vigor. 
 
-8. (Isso é opcional) Revise suas [políticas de alerta do Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) no centro de conformidade da Microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Várias políticas de alerta padrão estão na categoria gerenciamento de ameaças. Alguns desses alertas podem acionar a investigação e a resposta automatizadas. Para saber mais, confira [Default Alert Policies](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies).
+8. (Isso é opcional). Revise suas [políticas de alerta do Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) no centro de conformidade da Microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Várias políticas de alerta padrão estão na categoria gerenciamento de ameaças. Alguns desses alertas podem acionar a investigação e a resposta automatizadas. Para saber mais, confira [Default Alert Policies](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies).
  
 ## <a name="make-sure-microsoft-threat-protection-is-turned-on"></a>Verifique se a proteção contra ameaças da Microsoft está ativada
 
 1. Vá para o centro de segurança do Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
 
-2. No painel de navegação, procure **incidentes**, a **central de ações**e a **caça**, conforme mostrado na imagem a seguir:<br/> :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP no":::
+2. No painel de navegação, procure **incidentes**, a **central de ações**e a **caça**, conforme mostrado na imagem a seguir:
+
+   :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP no":::
 
    - Se você vir **incidentes**, **central de ações**e **caça**, a proteção contra ameaças da Microsoft está ativada. Vá para o próximo procedimento, [revise ou altere o nível de automação para grupos de dispositivos](#review-or-change-the-automation-level-for-device-groups).
 
