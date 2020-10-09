@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: f9c8ff4287f0970f8571d3ced7d612515b03c08e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 40e405a8ab3ac2159b9a3c5ab8f633bb690d5c24
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198488"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384557"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -259,9 +259,7 @@ Por exemplo, se uma política incluir todos os emails do Exchange e sites do Sha
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>Uma política com inclusões ou exclusões específicas
 
-Você também pode aplicar uma política de retenção a usuários específicos, grupos específicos do Microsoft 365 ou sites específicos. Para fazer isso, certifique-se de que o **Status** desse local esteja**Ativado**, em seguida, use os links para incluir ou excluir usuários específicos, grupos do Microsoft 365 ou sites.
-
-No entanto, usando essa configuração, há alguns limites quando sua política de retenção inclui ou exclui mais de 1.000 objetos específicos:
+Apenas se você usar a configuração opcional para definir o escopo de suas configurações de retenção para usuários específicos, grupos específicos do Microsoft 365 ou sites específicos, existem alguns limites a serem considerados: 
 
 - Números máximos da política de retenção:
   - 1.000 caixas de correio
@@ -269,9 +267,11 @@ No entanto, usando essa configuração, há alguns limites quando sua política 
   - 1.000 usuários para conversas privadas do Teams
   - 100 sites (OneDrive ou SharePoint)
 
-Há um número máximo de políticas com suporte para um locatário: 10.000. Esses itens incluem políticas de retenção, políticas de rótulo de retenção e políticas de retenção de aplicação automática.
+Há também um número máximo de políticas com suporte para um locatário: 10.000. Esses itens incluem políticas de retenção, políticas de rótulo de retenção e políticas de retenção de aplicação automática.
 
-Se é provável que suas políticas de retenção estejam sujeitas a essas limitações, escolha as opções de configuração que se aplicam a locais inteiros.
+Se as suas políticas de retenção estiverem provavelmente sujeitas a essas limitações, use a configuração padrão que se aplica para todo o local, pois essas políticas não possuem limitações.
+
+Para usar a configuração opcional para definir o escopo de suas configurações de retenção, certifique-se de que o **Status** desse local esteja**Ativado**, em seguida, use os links para incluir ou excluir usuários específicos, grupos do Microsoft 365 ou sites.
 
 > [!WARNING]
 > Se você inclui-lo e, em seguida, remover o último, a configuração será revertida em **Todas** para o local.  Verifique se esta é a configuração que você pretende antes de salvar a política.
