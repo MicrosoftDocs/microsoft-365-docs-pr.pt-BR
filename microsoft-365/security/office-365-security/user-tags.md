@@ -15,23 +15,28 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Office 365 ATP Plan 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Office 365 ATP para identificar rapidamente os usuários marcados.
-ms.openlocfilehash: 9522499b3861f0f0e44fcbf09896a5c93feed95d
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 16e756b95e16e40f4df738e825e842681c67e22c
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337248"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399380"
 ---
 # <a name="user-tags-in-office-365-atp"></a>Marcas de usuário no Office 365 ATP
 
-As marcas de usuário são identificadores de grupos específicos de usuários no [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md). [As contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) são um tipo de marca de usuário. Se sua organização tiver o plano de ATP 2 do Office 365 (incluído na sua assinatura ou como um complemento), você poderá criar marcas de usuário personalizadas além de usar a marca de contas de prioridade.
+As marcas de usuário são identificadores de grupos específicos de usuários no [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md). Há dois tipos de marcas de usuário:
 
-Após aplicar marcas a usuários específicos, você pode usar essas marcas como filtros em alertas, relatórios e investigações:
+- **Marcas de sistema**: atualmente, [contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) é o único tipo de marca do sistema.
+- **Marcas personalizadas**: você mesmo cria essas marcas de usuário.
+
+Se sua organização tiver o plano de ATP 2 do Office 365 (incluído na sua assinatura ou como um complemento), você poderá criar marcas de usuário personalizadas além de usar a marca de contas de prioridade.
+
+Após aplicar marcas de sistema ou marcas personalizadas aos usuários, você pode usar essas marcas como filtros em alertas, relatórios e investigações:
 
 - [Alertas no centro de conformidade & segurança](alerts.md)
 - [Gerenciador de ameaças e detecções em tempo real](threat-explorer.md)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
-- [Modos de exibição de campanha](campaigns.md)
+- [Modos de Exibição de Campanha](campaigns.md)
 
 Este artigo explica como configurar marcas de usuário no centro de conformidade de & de segurança. Não há cmdlets no centro de conformidade & segurança para gerenciar marcas de usuário.
 
@@ -39,9 +44,11 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **marcas do usuário** , abra <https://protection.office.com/userTags> .
 
-- Para criar, modificar ou remover marcas de usuário, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** no centro de conformidade de & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+- Para criar, modificar ou remover **marcas de usuário personalizadas**, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** no centro de conformidade de & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Você também pode gerenciar e monitorar contas de prioridade no centro de administração do Microsoft 365. Para obter instruções, consulte [gerenciar e monitorar contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts).
+- Para configurar contas de prioridade (marcas de sistema), você precisa ser um [administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) ou um [administrador do Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator).
+
+  Você também pode gerenciar e monitorar contas de prioridade no centro de administração do Microsoft 365. Para obter instruções, consulte [gerenciar e monitorar contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts).
 
 ## <a name="use-the-security-center-to-create-user-tags"></a>Usar a central de segurança para criar marcas de usuário
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a contoso usa os recursos de proteção de informações no Microsoft 365 for Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: 67404df9bb2056c226eeb9370190519fc0cc8f3b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1966fdec3de246ca54fd99ab018485b9ee817281
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686017"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399236"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -41,7 +41,7 @@ A Contoso realizou uma análise de seus dados e determinou os níveis a seguir.
 As tabela a seguir lista as políticas de informações da Contoso.
 
 
-| Valor | Acessar | Retenção de dados | Proteção de informações |
+| Valor | Access | Retenção de dados | Proteção de informações |
 |:-------|:-----|:-----|:-----|
 | Baixo valor de negócios (Nível 1: Linha de base) | Permitir acesso a todos  | 6 meses | Usar criptografia. |
 | Valor médio de negócios (Nível 2: Confidencial) | Permitir acesso a funcionários, fornecedores e parceiros da Contoso <BR> <BR> Usar a MFA, o Protocolo TLS e o Gerenciamento de Aplicativos Móveis (MAM) | 2 anos  | Usar valores de hash para integridade de dados.  |
@@ -76,9 +76,9 @@ A contoso usou as seguintes etapas para preparar o Microsoft 365 for Enterprise 
 
 Juntamente com sua infraestrutura de gerenciamento de identidade e dispositivo móvel e como parte de sua implementação do Exchange Online e do SharePoint, a Contoso configurou o seguinte conjunto de políticas de Acesso Condicional e as aplicou aos grupos apropriados:
 
-- [Acesso de aplicativo gerenciados e não gerenciado e políticas de dispositivos](identity-access-policies.md)
-- [Políticas de acesso do Exchange Online](secure-email-recommended-policies.md)
-- [Políticas de acesso do SharePoint](sharepoint-file-access-policies.md)
+- [Acesso de aplicativo gerenciados e não gerenciado e políticas de dispositivos](../security/office-365-security/identity-access-policies.md)
+- [Políticas de acesso do Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)
+- [Políticas de acesso do SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Este é o conjunto de políticas resultantes da proteção de informações da Contoso.
 

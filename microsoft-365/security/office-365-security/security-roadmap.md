@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Principais recomendações da equipe do cybersecurity da Microsoft para a implementação de recursos de segurança para proteger seu ambiente do Microsoft 365. '
-ms.openlocfilehash: 9bdddbbfbb20900a4645d2e17cf298ed018f4c6d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aae103b93409b2f7fee635b832fce8f10c3d9437
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197424"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399404"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Mapa de segurança-principais prioridades para os primeiros 30 dias, 90 dias e depois
 
@@ -32,7 +32,7 @@ ms.locfileid: "48197424"
 
 Este artigo inclui as principais recomendações da equipe do cybersecurity da Microsoft para a implementação de recursos de segurança para proteger seu ambiente do Microsoft 365. Este artigo é adaptado de uma sessão do Microsoft Ignite — [Secure microsoft 365 like a cybersecurity pro: Top prioridades para os primeiros 30 dias, 90 dias e além](https://www.youtube.com/watch?v=luignzNyR-o). Esta sessão foi desenvolvida e apresentada por Mark Simos e Matt Kemelhar, Enterprise cybersecurity Architects.
 
-Neste artigo:
+Nesse artigo:
 
 - [Resultados do roteiro](security-roadmap.md#Roadmap)
 
@@ -82,7 +82,7 @@ Essas tarefas demoram um pouco mais para planejar e implementar, mas aumentam si
 |---|---|
 |Gerenciamento de segurança|* Verifique a pontuação segura para as ações recomendadas para seu ambiente ( [https://securescore.office.com](https://securescore.office.com) ).  <br/>  * Continue a examinar regularmente painéis e relatórios no centro de segurança do Microsoft 365, no Cloud app Security e nas ferramentas SIEM. <br/> * Procurar e implementar atualizações de software. <br/> * Realize simulações de ataque para os ataques de senhas de spear-phishing, de irrigação de senha e de força bruta usando o [Attack Simulator](attack-simulator.md) (incluído no [Office 365 Threat Intelligence](office-365-ti.md)).  <br/> * Procure o risco de compartilhamento revisando os relatórios internos no Cloud app Security (na guia investigar). <br/> * Verifique o [Gerenciador de conformidade](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) para revisar o status das regulamentações que se aplicam à sua organização (como RGPD, NIST 800-171).|
 |Proteção contra Ameaças| Implementar proteções aprimoradas para contas de administrador: <br/> * Configure PAWs ( [estações de trabalho privilegiadas](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) ) para atividades de administração. <br/> * Configure o [Azure ad Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure). <br/> * Configure a ferramenta de gerenciamento de eventos e informações de segurança (SIEM) para coletar dados de log do Office 365, do Cloud app Security e de outros serviços, incluindo o AD FS. O log de auditoria armazena dados por apenas 90 dias. A captura desses dados na ferramenta SIEM permite que você armazene dados por um período mais longo.|
-|Gerenciamento de identidades e acesso|* Habilitar e impor a MFA para todos os usuários. <br/> * Implemente um conjunto de [acesso condicional e políticas relacionadas](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations). |
+|Gerenciamento de identidades e acesso|* Habilitar e impor a MFA para todos os usuários. <br/> * Implemente um conjunto de [acesso condicional e políticas relacionadas](microsoft-365-policies-configurations.md). |
 |Proteção de informações| Adaptar e implementar políticas de proteção de informações. Esses recursos incluem exemplos: <br/> * [Proteção de informações do Office 365 para RGPD](https://aka.ms/o365gdpr) <br/> * [Configurar o Microsoft Teams com três camadas de proteção](../../solutions/configure-teams-three-tiers-protection.md) <br/> <br> Use políticas de prevenção de perda de dados e ferramentas de monitoramento no Microsoft 365 para dados armazenados no Microsoft 365 (em vez de segurança do Cloud app). <br><br>Use o Cloud app Security com o Microsoft 365 para recursos avançados de alerta (diferentes de prevenção de perda de dados).|
 |
 

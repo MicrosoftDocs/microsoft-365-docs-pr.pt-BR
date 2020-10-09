@@ -15,20 +15,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um ambiente do Microsoft 365 para testar a identidade e o acesso a dispositivos com os pré-requisitos para a autenticação de passagem.
-ms.openlocfilehash: eeb6c1d1313c95e920b20cce419118fe1e61ad6e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 7741b38a947e58d81192326c412760487d803e36
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685637"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399176"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Pré-requisitos de acesso a identidades e dispositivos para autenticação de passagem no seu ambiente de teste do Microsoft 365
 
 *Este guia de laboratório de teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
 
-[As configurações de acesso de dispositivo e identidade](microsoft-365-policies-configurations.md) são um conjunto de configurações e políticas de acesso condicional para proteger o acesso a todos os serviços no Microsoft 365 for Enterprise integrados ao Azure Active Directory (Azure AD).
+[As configurações de acesso de dispositivo e identidade](../security/office-365-security/microsoft-365-policies-configurations.md) são um conjunto de configurações e políticas de acesso condicional para proteger o acesso a todos os serviços no Microsoft 365 for Enterprise integrados ao Azure Active Directory (Azure AD).
 
-Este artigo descreve como você pode configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos da [Configuração de pré-requisitos de autenticação de passagem](identity-access-prerequisites.md#prerequisites) para acesso a identidades e dispositivos.
+Este artigo descreve como você pode configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos da [Configuração de pré-requisitos de autenticação de passagem](../security/office-365-security/identity-access-prerequisites.md#prerequisites) para acesso a identidades e dispositivos.
 
 Existem oito fases para configurar este ambiente de teste:
 
@@ -111,7 +111,7 @@ Para o Skype for Business Online:
   Get-CsOAuthConfiguration
   ```
 
-O resultado é um ambiente de teste que atende aos requisitos da [configuração de pré-requisito de autenticação de passagem](identity-access-prerequisites.md#prerequisites) para acesso a identidades e dispositivos. 
+O resultado é um ambiente de teste que atende aos requisitos da [configuração de pré-requisito de autenticação de passagem](../security/office-365-security/identity-access-prerequisites.md#prerequisites) para acesso a identidades e dispositivos. 
 
 ## <a name="next-step"></a>Próxima etapa
 

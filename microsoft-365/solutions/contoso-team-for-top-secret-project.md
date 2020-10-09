@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso usou uma equipe com isolamento de segurança para um projeto de segredo principal para desenvolver um novo pacote de produtos e serviços.'
-ms.openlocfilehash: ba9a66d2419e81aeb1eac026b16c0475ac6d0614
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778571"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399484"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Equipe isolada para um projeto de segredo superior da Contoso Corporation
 
@@ -40,7 +40,7 @@ A equipe de ti da Contoso usou uma [equipe com isolamento de segurança](secure-
 
 ## <a name="step-1-created-a-private-team"></a>Etapa 1: criar uma equipe privada
 
-Primeiro, para proteger o acesso ao site do SharePoint subjacente para a equipe, os administradores de ti da Contoso configuraram as [políticas de acesso recomendadas do SharePoint](../enterprise/sharepoint-file-access-policies.md).
+Primeiro, para proteger o acesso ao site do SharePoint subjacente para a equipe, os administradores de ti da Contoso configuraram as [políticas de acesso recomendadas do SharePoint](../security/office-365-security/sharepoint-file-access-policies.md).
 
 Em seguida, um administrador de ti da Contoso criou uma nova equipe privada chamada projeto 2X e adicionou as contas de usuário do projeto 2X como membros. Eles também configuraram a equipe para que apenas os proprietários do projeto 2 da equipe possam criar canais privados.
 
@@ -51,7 +51,7 @@ Para obter detalhes sobre a configuração, consulte [Create a Private Team](sec
 Os administradores da Contoso criaram um novo rótulo de sensibilidade chamado **projeto 2x** que:
 
 - Criptografia habilitada.
-- Permissões de coautoria permitidas para o grupo 2 do projeto do Microsoft 365.
+- Permissões de Co-Author permitidas para o grupo 2 do projeto do Microsoft 365.
 - Permissões de visualizador permitidas para o grupo de liderança sênior.
 - Acesso bloqueado a dispositivos não gerenciados.
 
@@ -64,7 +64,7 @@ Para obter detalhes sobre a configuração, consulte [criar um rótulo de confid
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Etapa 3: configurou o site do SharePoint subjacente
 
-Primeiro, para proteger o acesso ao site do SharePoint subjacente para a equipe, os administradores de ti da Contoso configuraram as [políticas de acesso recomendadas do SharePoint](../enterprise/sharepoint-file-access-policies.md).
+Primeiro, para proteger o acesso ao site do SharePoint subjacente para a equipe, os administradores de ti da Contoso configuraram as [políticas de acesso recomendadas do SharePoint](../security/office-365-security/sharepoint-file-access-policies.md).
 
 Em seguida, eles definiram as configurações de permissão adicional para o site:
 

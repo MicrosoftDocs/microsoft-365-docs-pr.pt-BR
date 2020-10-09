@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com um nível de linha de base de proteção.
-ms.openlocfilehash: 4a1843b687155cefd48bf3800be68c3e01abd7f5
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527855"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398860"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Configurar equipes com proteção de linha de base
 
@@ -31,7 +31,7 @@ Neste artigo, veremos como implantar equipes com um nível de linha de base de p
 
 ## <a name="initial-protections"></a>Proteções iniciais
 
-Como primeira etapa, recomendamos que você configure as políticas básicas de acesso a dispositivos e identidade. Para saber mais, confira [Recomendações de política para proteger conversas, grupos e arquivos no Teams](https://docs.microsoft.com/microsoft-365/enterprise/teams-access-policies).
+Como primeira etapa, recomendamos que você configure as políticas básicas de acesso a dispositivos e identidade. Para saber mais, confira [Recomendações de política para proteger conversas, grupos e arquivos no Teams](../security/office-365-security/teams-access-policies.md).
 
 Também recomendamos ativar os recursos básicos de Proteção Avançada contra Ameaças para proteção contra malware em documentos, anexos e links. Recomendamos ativar cada uma das opções na tabela a seguir.
 

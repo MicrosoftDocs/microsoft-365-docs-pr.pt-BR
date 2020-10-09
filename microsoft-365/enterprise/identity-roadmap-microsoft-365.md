@@ -16,12 +16,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: O mapa de identidade para o Microsoft 365.
-ms.openlocfilehash: 82c2adc753a3446b9ca4f070d8655f526465de55
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 4daf673a35505652bdb8105f304dde8166512660
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357825"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398766"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Roteiro da identidade do Microsoft 365
 
@@ -41,7 +41,7 @@ Revise este cartaz de duas páginas para aumentar rapidamente os conceitos de id
 
 Você também pode [baixar este cartaz](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) e pode imprimi-lo em formato carta, legal ou tablóide (11 x 17).
 
-## <a name="plan"></a>Planejar
+## <a name="plan"></a>Plano
 
 Para planejar sua implementação de identidade:
 
@@ -60,10 +60,10 @@ Para implantar sua implementação de identidade:
 
 ### <a name="identity-and-device-access-recommendations"></a>Recomendações de acesso de dispositivo e identidade
 
-Para ajudar a garantir uma força de obra segura e produtiva, a Microsoft fornece um conjunto de recomendações para [acesso de identidades e dispositivos](microsoft-365-policies-configurations.md). Para identidade, use as recomendações e configurações nestes artigos:
+Para ajudar a garantir uma força de obra segura e produtiva, a Microsoft fornece um conjunto de recomendações para [acesso de identidades e dispositivos](../security/office-365-security/microsoft-365-policies-configurations.md). Para identidade, use as recomendações e configurações nestes artigos:
 
-- [Pré-requisitos](identity-access-prerequisites.md)
-- [Identidade comum e políticas de acesso ao dispositivo](identity-access-policies.md)
+- [Pré-requisitos](../security/office-365-security/identity-access-prerequisites.md)
+- [Identidade comum e políticas de acesso ao dispositivo](../security/office-365-security/identity-access-policies.md)
 
 ## <a name="manage"></a>Gerenciar
 
