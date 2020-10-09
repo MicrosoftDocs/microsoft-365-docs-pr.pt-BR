@@ -10,22 +10,23 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-mig
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-- m365solution-mig
-- m365initiative-compliance
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: baf03fd5c9f58101454f5f2132700c7e078b3107
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 497e8b9fce06ae64d9f4396f2db05e65274f61dd
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338336"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398998"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 

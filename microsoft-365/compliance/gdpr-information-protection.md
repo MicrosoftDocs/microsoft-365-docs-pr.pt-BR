@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8716af366e2ec75775f3e34cbd121fe14fbb11f1
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 2c9f0a97869f27cbcf5829a15f50bf2905472c28
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416795"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398480"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Proteção de informações para o RGPD com recursos do Microsoft 365
 
@@ -49,7 +49,7 @@ O Azure Active Directory e outros recursos do Microsoft 365 fornecem um conjunto
 
 A Microsoft fornece uma configuração recomendada que você pode usar como ponto de partida:
 
-- [Configurações de identidade e acesso a dispositivos](../enterprise/microsoft-365-policies-configurations.md): configurações de política recomendadas para alcançar três camadas de proteção (linha de base, confidencial, altamente regulada). Essas diretrizes incluem políticas recomendadas para o Exchange Online e o SharePoint Online (incluindo o OneDrive for Business).
+- [Configurações de identidade e acesso a dispositivos](../security/office-365-security/microsoft-365-policies-configurations.md): configurações de política recomendadas para alcançar três camadas de proteção (linha de base, confidencial, altamente regulada). Essas diretrizes incluem políticas recomendadas para o Exchange Online e o SharePoint Online (incluindo o OneDrive for Business).
 - [Diretrizes de segurança para campanhas políticas, entidades sem fins lucrativos e outras organizações ágeis](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): Isso inclui o mesmo conjunto de políticas, mas fornece diretrizes adicionais para ambientes de BYOD e contas B2B.
 
 ## <a name="threat-protection"></a>Proteção contra Ameaças

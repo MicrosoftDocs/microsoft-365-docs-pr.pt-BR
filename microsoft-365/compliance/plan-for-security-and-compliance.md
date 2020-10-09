@@ -17,12 +17,12 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Esta página de aterrissagem fornece links e planejamento de informações de segurança e conformidade no Office 365.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e4eae4dddb90983b811e0856a09dae79af83d226
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 3684506b458ea2d40d3ff8b022bfb9e8154accf3
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086652"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399030"
 ---
 # <a name="plan-for-security-amp-compliance"></a>Planejar a conformidade de segurança &amp;
 
@@ -46,7 +46,7 @@ Proteger o acesso aos seus dados e serviços do Microsoft 365 é crucial para se
   
 - [Proteger o acesso a dados e serviços no Office 365](protect-access-to-data-and-services.md)
     
-- [Configurações e políticas de email seguro](https://docs.microsoft.com/microsoft-365/enterprise/secure-email-recommended-policies)
+- [Configurações e políticas de email seguro](../security/office-365-security/secure-email-recommended-policies.md)
     
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=55032)
   
@@ -70,9 +70,9 @@ O &amp; centro de conformidade de segurança oferece uma visão única dos contr
 
 Use estas configurações recomendadas como ponto de partida para cenários de segurança de acesso sofisticado ou de escala empresarial.
   
-- [Configurações e políticas de email seguro](https://docs.microsoft.com/microsoft-365/enterprise/secure-email-recommended-policies)
+- [Configurações e políticas de email seguro](../security/office-365-security/secure-email-recommended-policies.md)
     
-- [Contoso na nuvem da Microsoft](https://aka.ms/cloudarchcontoso)
+- [Contoso na nuvem da Microsoft](../enterprise/contoso-case-study.md)
     
 ## <a name="microsoft-365-admin-centers-and-dashboards"></a>Centros e painéis de administração do Microsoft 365
 

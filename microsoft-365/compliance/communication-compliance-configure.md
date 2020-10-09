@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 262cb34bbe7f2923ecf8dce88208c70ba0b5b7f7
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 20f1a0cc38338bb054618726b5a399d237a979d2
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341407"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399496"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -57,7 +57,7 @@ Se você não tiver um plano existente do Office 365 Enterprise E5 e quiser expe
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>Etapa 1 (obrigatório): Habilitar permissões para conformidade de comunicação
 
 >[!Important]
->Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado.
+>Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado. Após configurar seus grupos de função, pode levar até 30 minutos para que as permissões de grupo de função sejam aplicadas a usuários atribuídos em toda a organização.
 
 Há cinco grupos de função usados para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365 e para continuar com essas etapas de configuração, você deve estar atribuído aos grupos de função de administrador de conformidade de *comunicação* ou de *conformidade* de comunicação. Para acessar e gerenciar recursos de conformidade de comunicação após a configuração inicial, os usuários devem ser membros de pelo menos um grupo de função de conformidade de comunicação.
 

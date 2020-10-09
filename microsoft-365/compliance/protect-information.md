@@ -13,16 +13,17 @@ localization_priority: High
 search.appverid:
 - MOE150
 - MET150
+ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Implementar recursos de proteção de informações da Microsoft (MIP) usando o Microsoft 365 Compliance para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde quer que elas se envidam ou se encontram.
-ms.openlocfilehash: b421cf0b81c5ad52282302626b93064f9cd83ce8
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 78aadbba5442d7ec3cdc1beeac6d290a11325861
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338346"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399040"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de informações da Microsoft no Microsoft 365
 
@@ -44,7 +45,7 @@ Para entender seu cenário de dados e identificar dados importantes em seu ambie
 |:------|:------------|:--------------------|:-----------------------------|
 |[Tipos de informações confidenciais](sensitive-information-type-entity-definitions.md)| Identifica dados confidenciais usando expressões regulares internas ou personalizadas ou uma função, junto com a evidência corroborativas que inclui palavras-chave, níveis de confiança e proximidade.| [Personalizar um tipo de informação confidencial interno](customize-a-built-in-sensitive-information-type.md)|
 |[Classificadores estagiários (visualização)](classifier-learn-about.md)| Classifica dados para você, usando um dos classificadores internos ou treinando um classificador com seu próprio conteúdo | [Introdução aos classificadores de treinamento (visualização)](classifier-get-started-with.md) |
-|[Classificação de dados](data-classification-overview.md) | Identifica itens que têm um rótulo de confidencialidade, um rótulo de retenção ou foram classificados como um tipo de informação confidencial em sua organização e as ações que os usuários estão assumindo neles  | [Introdução ao gerenciador de conteúdo ](data-classification-content-explorer.md)<br /><br /> [Começar a usar o gerenciador de atividades](data-classification-activity-explorer.md) |
+|[Classificação de dados](data-classification-overview.md) | Identifica itens que têm um rótulo de confidencialidade, um rótulo de retenção ou foram classificados como um tipo de informação confidencial em sua organização e as ações que os usuários estão assumindo neles  | [Introdução ao gerenciador de conteúdo](data-classification-content-explorer.md)<br /><br /> [Introdução ao explorador de atividade](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>Proteja seus dados
 

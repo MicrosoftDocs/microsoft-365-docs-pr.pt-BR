@@ -10,19 +10,22 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-aed
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: Este artigo fornece uma visão geral da descoberta eletrônica avançada no Microsoft 365, uma ferramenta para investigações internas e externas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5adf2a62aad5e7da476c2713fa18f9e8b6ab9329
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: d8a43d8a7f0b1803b374839d8ed0d7d82c6adace
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024781"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399050"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
@@ -85,7 +88,7 @@ Use a guia **pesquisas** para criar pesquisas a fim de Pesquisar as fontes de da
 
 ## <a name="reviewing-and-analyzing-case-data"></a>Revisando e analisando dados de caso
 
-Use a guia **conjuntos de revisão** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado que extrai arquivos de contêineres, extrai metadados e extrai texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threads de email e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para saber mais, veja:
+Use a guia **conjuntos de revisão** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado que extrai arquivos de contêineres, extrai metadados e extrai texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threads de email e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para saber mais, confira:
 
 - [Exibir documentos em um conjunto de revisão](view-documents-in-review-set.md)
 

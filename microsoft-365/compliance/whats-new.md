@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d5e1bb67d6adc1b3c25aea8f468a23ed5c1019a
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: c33e136be55ea60f1e5954d4713b219045b1f0eb
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132031"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398522"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
-Se está adicionando novas soluções ao [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md), atualizando recursos existentes com base em seus comentários, ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Veja o que há de novo no Microsoft 365 Compliance hoje. 
+Se está adicionando novas soluções ao centro de [conformidade da Microsoft 365](microsoft-365-compliance-center.md), atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Veja o que há de novo no Microsoft 365 Compliance hoje. 
 
 > [!NOTE]
 > Alguns recursos de conformidade são implementados em diferentes velocidades para nossos clientes. Se ainda não estiver vendo um recurso, tente adicioná-lo ao [lançamento direcionado](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365).
@@ -36,6 +36,63 @@ Se está adicionando novas soluções ao [centro de conformidade da Microsoft 36
 > [!TIP]
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Novidades da Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+
+## <a name="august-2020"></a>Agosto de 2020
+
+### <a name="spotlight-insider-risk-and-communication-compliance-updates"></a>Spotlight: atualizações de conformidade de risco e comunicação do insider
+
+Vários recursos novos e aprimorados atingiram a visualização pública neste mês:
+
+**Gerenciamento de risco do insider**
+
+- Confira nossos seis novos [modelos de política](insider-risk-management-policies.md#policy-templates):
+    - Vazamentos de dados por usuários de prioridade
+    - Vazamentos de dados por usuários descontentes
+    - Violações de política de segurança geral
+    - Violações de política de segurança por parte dos usuários
+    - Violações de política de segurança por usuários de prioridade
+    - Violações de política de segurança por usuários descontentes
+
+- A integração com [o Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) permite que você importe e filtre os alertas do Microsoft defender ATP para atividades detectadas por políticas criadas a partir dos novos modelos de política de violação de segurança. Há também uma configuração de [risco do insider](insider-risk-management-settings.md#microsoft-defender-advanced-threat-protection-preview) relacionada, onde você pode escolher importar alertas de segurança para o gerenciamento de risco do insider com base no status de triagem de alerta do Microsoft defender ATP.
+
+    > [!NOTE]
+    > Para aproveitar a integração do Microsoft defender ATP (incluindo os novos modelos de violação de política de segurança), você precisará ter o Microsoft defender ATP configurado em sua organização. Você também precisará habilitar o Microsoft defender ATP para a integração do gerenciamento de risco do insider [configurando recursos avançados no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
+ 
+- Personalizar limites do indicador ao [criar uma política](insider-risk-management-policies.md#create-a-new-policy).
+- Configurar [grupos de usuários de prioridade](insider-risk-management-settings.md#priority-user-groups-preview) para definir usuários em sua organização cuja atividade requer uma inspeção mais detalhada com base em fatores como sua posição, nível de acesso a informações confidenciais ou histórico de riscos.
+- Usar as APIs de atividade de gerenciamento do Office 365 para [Exportar detalhes de alerta de risco do insider](insider-risk-management-settings.md#export-alerts-preview) para outros aplicativos que sua organização pode usar para gerenciar ou agregar dados de risco Insider
+- [As novas configurações de domínio](insider-risk-management-settings.md#domains-preview) ajudam a definir e controlar os níveis de risco para atividades em domínios específicos.
+
+**Conformidade em comunicações**
+
+- Ao [examinar mensagens em um alerta](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action), agora você pode remover mensagens inadequadas nos canais do Microsoft Teams, 1:1 e chats de grupo. As mensagens e o conteúdo removidos são substituídos por uma dica de política que explica que foi removido devido a conteúdo confidencial.
+- Novas [funções de comunicação](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) (elas também serão incluídas nos novos grupos de função de conformidade de comunicação em setembro).
+- Nova experiência de configuração de conformidade de comunicação que inclui configurações para [privacidade](communication-compliance-feature-reference.md#privacy-preview) e [modelos de aviso](communication-compliance-feature-reference.md#notice-templates).
+- Novos [classificadores](communication-compliance-feature-reference.md#classifiers) para ajudar a detectar imagens adultas, Racy e Gory.
+- Nova notificação ' padrão detectado ' que aparece ao [revisar as mensagens em um alerta](communication-compliance-investigate-remediate.md#step-2-examine-the-message-details) permite que você saiba mais sobre as instâncias de ocorrência do mesmo comportamento por um usuário.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+- Para locatários do governo dos Estados Unidos (GCC, GCC-H e DoD) rótulos de confidencialidade possuem suporte somente quando o cliente de rotulagem unificada e digitalização da Proteção de Informações do Microsoft Azure está instalado. Para obter mais informações, confira [Descrição do Serviço Governamental Premium de Proteção de Informações do Microsoft Azure](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
+- Agora, você pode [usar o PowerShell de segurança & o centro de conformidade](create-sensitivity-labels.md#use-powershell-for-sensitivity-labels-and-their-policies) para criar e definir todas as configurações que você vê no seu centro de administração de etiquetas. Isso significa que, além de usar o PowerShell para configurações que não estão disponíveis nos centros de administração de rótulo, agora você pode criar um script completo de criação e manutenção de rótulos de sensibilidade e políticas de rótulo de confidencialidade.
+
+### <a name="records-management-content-overhaul"></a>Gerenciamento de registros: revisão de conteúdo
+
+Novos documentos que abrangem etapas de implantação, marcando o conteúdo como registros e registrando o controle de versão:
+
+- [Começar a usar o gerenciamento de registros](get-started-with-records-management.md)
+- [Declarar registros usando rótulos de retenção](declare-records.md)
+- [Usar a versão de registro para atualizar registros armazenados no SharePoint ou no OneDrive](record-versioning.md)
+
+### <a name="retention-labels--policies"></a>Políticas de & de rótulos de retenção
+
+A atividade de administração relacionada à retenção agora está gravada e disponível para revisão no log de auditoria. Para a lista completa, confira [Política de retenção e atividades do rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities).
+
+### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
+
+- Ao [Adicionar uma coleção a um conjunto de revisão](add-data-to-review-set.md#define-options-to-scope-your-collection-for-review), agora você pode incluir anexos modernos (também chamados de "anexos na nuvem") e versões de documentos do SharePoint.
+- Nova [experiência de exportação de download direto](export-documents-from-review-set.md), eliminando a necessidade de usar o Azure Storage Explorer para baixar o conteúdo do caso.
+
 
 ## <a name="july-2020"></a>Julho de 2020
 
@@ -93,7 +150,7 @@ Faça um tour de vídeo...
 O pode trazer mais aprimoramentos para os classificadores estagiários:
 
 - Uma correção com base em seus comentários: quando você propaga e treina um classificador personalizado, não é mais necessário inserir manualmente URLs de site do SharePoint e caminhos de pasta. Agora você pode escolher em uma lista de preenchimento de sites e pastas.
-- Novo recurso: ao criar um rótulo de confidencialidade e configurar as definições de rotulação automática para os aplicativos do Office, você pode aplicar automaticamente (ou recomendar que os usuários se apliquem) o rótulo ao conteúdo que corresponde aos classificadores estagiários. [Saiba mais](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
+- Novo recurso: ao criar um rótulo de confidencialidade e configurar as definições de rotulação automática para os aplicativos do Office, você pode aplicar automaticamente (ou recomendar que os usuários se apliquem) o rótulo ao conteúdo que corresponde aos classificadores estagiários. [Saiba Mais](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
 
 ### <a name="communication-compliance-yammer-support-is-here"></a>Conformidade de comunicação: o suporte do Yammer está aqui
 
@@ -263,13 +320,13 @@ Aqui está um resumo das novas soluções que você encontrará. Fique atento pa
 > Essas soluções estão localizadas somente no centro de conformidade da Microsoft 365. Eles não podem ser gerenciados no centro de conformidade & segurança do Office 365.
 <br/>
 
-|**Nova solução**|**Descrição**|**Saiba mais**|
+|**Nova solução**|**Descrição**|**Saiba Mais**|
 |:-----|:-----|:-----|
 |Pontuação de conformidade da Microsoft (visualização) <br/>|Criado a partir do [Gerenciador de conformidade](compliance-manager-overview.md), a pontuação de conformidade é um recurso autônomo com um design mais simples e mais fácil, que ajuda você a compreender e aprimorar a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. <br/>|[Visão geral da Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md)|
 |Catálogo de soluções (versão prévia) <br/>|O catálogo de soluções é seu ponto de partida para descoberta, aprendizado e rápida introdução às soluções de gerenciamento de conformidade e risco. O catálogo é organizado em três categorias de conformidade, cada uma contendo detalhes sobre as soluções que compõem essa categoria. As categorias incluem proteção de informações & governança, gerenciamento de risco do insider e resposta de & de descoberta <br/>|[Visão geral do catálogo de soluções (versão prévia)](microsoft-365-solution-catalog.md)|
 |Conformidade de comunicação (visualização) <br/>|A conformidade com comunicações faz parte da nova categoria de gerenciamento de riscos do insider que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. A solução estende os recursos de políticas de supervisão no Office 365, apresentando vários aprimoramentos novos, como modelos inteligentes, fluxos de trabalho de correção flexíveis e ideias acionáveis. <br/>|[Conformidade de comunicação no Microsoft 365 (versão prévia)](communication-compliance.md)|
 |Classificação de dados (prévia) <br/>|Nossa nova página de classificação de dados contém ideias poderosas e ferramentas para ajudá-lo a descobrir e avaliar como as informações e os rótulos confidenciais são usados em conteúdo em toda a organização. Examine o conteúdo que contém informações confidenciais ou tenha rótulos aplicados, explore a atividade de etiquetas nos locais do Microsoft 365, crie tipos de informações confidenciais personalizados e muito mais.<br/>|[Visão geral da classificação de dados (visualização)](data-classification-overview.md)|
-|Classificadores estagiários (visualização) <br/>|Essa nova ferramenta poderosa usa o nosso mecanismo de aprendizado de máquina para ajudar a identificar categorias de conteúdo em sua organização, como documentos regulatórios ou contratos de funcionários. Depois de criado, os classificadores podem ser usados em várias soluções de conformidade para detectar conteúdo relacionado e classificá-lo, protegê-lo, mantê-lo e muito mais.<br/>|[Saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md)|
+|Classificadores estagiários (visualização) <br/>|Essa nova ferramenta poderosa usa o nosso mecanismo de aprendizado de máquina para ajudar a identificar categorias de conteúdo em sua organização, como documentos regulatórios ou contratos de funcionários. Depois de criado, os classificadores podem ser usados em várias soluções de conformidade para detectar conteúdo relacionado e classificá-lo, protegê-lo, mantê-lo e muito mais.<br/>|[Saiba mais sobre classificadores treináveis (visualização)](classifier-learn-about.md)|
 
 #### <a name="updated-compliance-solutions"></a>Soluções de conformidade atualizadas
 
@@ -279,7 +336,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 > Alguns recursos ainda estão disponíveis somente no centro de conformidade & segurança do Office 365 – eles estão indicados abaixo. Mas estamos trabalhando para visualizar isso no centro de conformidade da Microsoft 365, portanto, fique atento às atualizações. 
 <br/>
 
-|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba mais**|
+|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba Mais**|
 |:-----|:-----|:-----|:-----|
 |Descoberta Eletrônica Avançada|descoberta eletrônica avançada > de descoberta eletrônica <br/> https://protection.office.com/advancedediscoverycases |> de descoberta eletrônica avançada <br/> https://compliance.microsoft.com/advancedediscovery | [Visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) |
 |Políticas de alerta|Alertas > políticas de alerta <br/> https://protection.office.com/alertpolicies |No momento, as políticas de alerta são gerenciadas apenas no centro de conformidade & segurança do Office 365. |[Políticas de alerta no centro de conformidade e segurança](alert-policies.md) |
@@ -290,13 +347,13 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 |Conectores de dados|> de governança de informações arquivar dados de terceiros <br/> https://protection.office.com/nativeconnector | Conectores de dados <br/> https://compliance.microsoft.com/connectorlanding |[Arquivar dados de terceiros](archiving-third-party-data.md)|
 |Prevenção contra perda de dados|Prevenção contra perda de dados <br/> https://protection.office.com/datalossprevention |Prevenção contra perda de dados <br/> https://compliance.microsoft.com/datalossprevention |[Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)|
 |Solicitações de titular dos dados |Data Privacy > solicitações de entidades de dados <br/> https://protection.office.com/dsrcases |Solicitações de titular dos dados <br/> https://compliance.microsoft.com/datasubjectrequest |[Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de ocorrência de DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
-|Descoberta eletrônica|descoberta eletrônica > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |Centro de > de descoberta eletrônica <br/> https://compliance.microsoft.com/classicediscovery |[Gerenciar casos de Descoberta Eletrônica](ediscovery-cases.md) |
+|Descoberta Eletrônica|descoberta eletrônica > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |Centro de > de descoberta eletrônica <br/> https://compliance.microsoft.com/classicediscovery |[Gerenciar casos de Descoberta Eletrônica](ediscovery-cases.md) |
 |Eventos|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
 |Plano de arquivos|Gerenciamento de registros > plano de arquivo <br/> https://protection.office.com/fileplan |Gerenciamento de registros > guia plano de arquivo <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Usar o plano de arquivos para gerenciar os rótulos de retenção](file-plan-manager.md)|
 |Importar arquivos PST|Governança de informações > importar arquivos PST <br/> https://protection.office.com/importV2 |Guia importar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Visão geral da importação dos arquivos PST da sua organização](importing-pst-files-to-office-365.md)|
 |Explorador de atividade de rótulo|Gerenciador de atividade de > de governança de informações <br/> https://protection.office.com/labelexplorer |Classificação de dados > guia Explorador de atividade <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Exibir atividade do seu conteúdo rotulado (visualização)](data-classification-activity-explorer.md)|
 |Rótulos de retenção e políticas de rótulo |Guias de > de classificação > rótulos e políticas de rótulo <br/> https://protection.office.com/retentionlabels |Guias de controle de > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [Visão geral de rótulos de retenção](retention.md)|
-|Políticas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)|
+|Políticas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Saiba mais sobre as políticas de retenção e rótulos de retenção](retention.md)|
 |Tipos de informações confidenciais|Classificação > tipos de informações confidenciais <br/> https://protection.office.com/sensitivetypes |Guia tipos de informações confidenciais > classificação de dados <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)|
 |Rótulos de confidencialidade e políticas de rótulo|Rótulos de classificação > de sensibilidade > rótulos e políticas de rótulo <br/> https://protection.office.com/sensitivity |Guias de proteção de informações > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md) |
 |Garantia do serviço|Garantia do serviço <br/> https://protection.office.com/serviceassurance/dashboard |No momento, os recursos de garantia de serviço só podem ser acessados no centro de conformidade & segurança do Office 365. |[Garantia de serviço no Centro de Conformidade e Segurança](service-assurance.md)|
@@ -313,9 +370,3 @@ Ao configurar a criptografia para um rótulo de confidencialidade, agora você t
 - Ao aplicar o rótulo a **arquivos do Word, PowerPoint e Excel**, os usuários serão solicitados a atribuir permissões de acesso a usuários e grupos específicos.
 
 Vá para [restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md#let-users-assign-permissions) para saber mais.
-
-## <a name="august-2019"></a>Agosto de 2019
-
-### <a name="update-to-data-investigations"></a>Atualizar para investigações de dados
-
-Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. Vá para [gerenciar um incidente de derramamento de dados no Microsoft 365](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) para saber mais. 

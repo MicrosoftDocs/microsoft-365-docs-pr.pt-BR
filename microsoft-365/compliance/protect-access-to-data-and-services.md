@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Saiba como proteger o acesso do usuário e do dispositivo aos dados e serviços do Microsoft 365 e defesa contra a perda de dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90fd902f0ccd8589fa413a2b06b9d5ccf74ab1fd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 64baa2c9e49a9b24841ec50db3e5592ba3d7d55d
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036024"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399020"
 ---
 # <a name="protect-user-and-device-access"></a>Proteger acesso de usuário e de dispositivo
 
@@ -50,7 +50,7 @@ Outra recomendação principal é usar as estações de trabalho especificamente
 Por fim, você pode reduzir o impacto da falta inadvertida de acesso administrativo, criando duas ou mais contas de acesso de emergência em seu locatário. Consulte [gerenciar contas de acesso de emergência no Azure ad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access). 
 
 ## <a name="step-3-configure-recommended-identity-and-device-access-policies"></a>Etapa 3: configurar as políticas recomendadas de acesso de dispositivo e identidades
-A MFA (autenticação multifator) e as políticas de acesso condicional são ferramentas poderosas para reduzir as contas comprometidas e o acesso não autorizado. É recomendável implementar um conjunto de políticas que foram testadas juntas. Para obter mais informações, incluindo etapas de implantação, consulte [Identity and Device Access Configurations](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations).
+A MFA (autenticação multifator) e as políticas de acesso condicional são ferramentas poderosas para reduzir as contas comprometidas e o acesso não autorizado. É recomendável implementar um conjunto de políticas que foram testadas juntas. Para obter mais informações, incluindo etapas de implantação, consulte [Identity and Device Access Configurations](../security/office-365-security/microsoft-365-policies-configurations.md).
 
  Essas políticas implementam os seguintes recursos:
 - Mediante-factor Authentication
@@ -63,7 +63,7 @@ A implementação da conformidade do dispositivo do Intune requer o registro do 
 
 ## <a name="step-4-configure-sharepoint-device-access-policies"></a>Etapa 4: configurar as políticas de acesso do dispositivo do SharePoint
 
-A Microsoft recomenda que você proteja o conteúdo em sites do SharePoint com conteúdo confidencial e altamente regulamentado com controles de acesso do dispositivo. Para mais informações, consulte [recomendações de política para proteger sites e arquivos do SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies).
+A Microsoft recomenda que você proteja o conteúdo em sites do SharePoint com conteúdo confidencial e altamente regulamentado com controles de acesso do dispositivo. Para mais informações, consulte [recomendações de política para proteger sites e arquivos do SharePoint](../security/office-365-security/sharepoint-file-access-policies.md).
 
 
 

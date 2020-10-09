@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: 62d6fa47d19eaa9ae12e84879b5bf19a81afe8ae
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dba14d5a4132bc9c883c531ceeb83a2a8ff3c6cd
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199530"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398722"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -82,8 +82,6 @@ A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de lo
    6. **Prioridade:** esse valor determinar a ordem na qual as políticas de retenção de log de auditoria são processadas na sua organização. Um valor mais alto indica uma prioridade mais alta. Por exemplo, uma política com um valor de prioridade de **5** teria prioridade sobre uma política com um valor de prioridade **0**. Como explicado anteriormente, qualquer política de retenção de log de auditoria personalizada tem prioridade sobre a política padrão da sua organização.
 
 4. Clique em **Salvar** para criar a nova política de retenção.
-
-A nova política de retenção de auditoria está listada na guia **Políticas de retenção de auditoria**.
 
 ## <a name="create-an-audit-log-retention-policy-in-powershell"></a>Criar uma política de retenção de log de auditoria no PowerShell
 

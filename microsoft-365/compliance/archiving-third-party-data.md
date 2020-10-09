@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- m365solution-mig
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
@@ -20,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio do Microsoft 365.
-ms.openlocfilehash: a70747e9268b075f2c46072009b76f8071492fc7
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7ce515e99e4ddded1cfeccd346bd33a445fe17d7
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200048"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398532"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -38,7 +40,7 @@ A tabela a seguir lista os conectores de dados de terceiros disponíveis no cent
 > [!TIP]
 > Clique no link na coluna **dados de terceiros** para ir para as instruções passo a passo para criar um conector para esse tipo de dados.
 
-|Dados de terceiros  |Retenção de litígio|Descoberta eletrônica  |Configurações de retenção  |Gerenciamento de registros  |Conformidade em comunicações  |Gerenciamento de risco interno  |
+|Dados de terceiros  |Retenção de litígio|Descoberta Eletrônica  |Configurações de retenção  |Gerenciamento de registros  |Conformidade em comunicações  |Gerenciamento de risco interno  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
 |[Android <sup>1</sup>](archive-android-archiver-data.md)     |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[EM&T Network <sup>1</sup>](archive-att-network-archiver-data.md)     |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
@@ -80,7 +82,7 @@ As seções a seguir descrevem algumas das coisas que as soluções de conformid
 
 Você coloca uma [retenção de litígio](create-a-litigation-hold.md) em uma caixa de correio de usuário para manter os dados de terceiros. Ao criar uma retenção, você pode especificar uma duração de retenção (também chamada de *retenção baseada em tempo*), para que os dados de terceiros excluídos e modificados sejam mantidos por um período especificado e, em seguida, excluídos permanentemente da caixa de correio. Ou você pode simplesmente reter o conteúdo indefinidamente (chamado de *retenção infinita*) ou até que a retenção de litígio seja removida.
 
-### <a name="ediscovery"></a>Descoberta eletrônica
+### <a name="ediscovery"></a>Descoberta Eletrônica
 
 As três principais ferramentas de descoberta eletrônica no Microsoft 365 são pesquisa de conteúdo, descoberta eletrônica principal e descoberta eletrônica avançada.
 

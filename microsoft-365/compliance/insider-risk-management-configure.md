@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 4fcfec889b4b5005a172037a0df674b45a9e7281
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 707f2b260ff9d4a452cdb65d75a1a8fe6a13af3f
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341429"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399166"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -47,6 +47,9 @@ Os usuários incluídos nas políticas de gerenciamento de risco do insider deve
 Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente ou [inscrever-se em uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
 
 ## <a name="step-1-enable-permissions-for-insider-risk-management"></a>Etapa 1: Habilitar permissões para o gerenciamento de risco do insider
+
+>[!Important]
+>Após configurar seus grupos de função, pode levar até 30 minutos para que as permissões de grupo de função sejam aplicadas a usuários atribuídos em toda a organização.
 
 Há quatro grupos de funções usados para configurar permissões para gerenciar recursos de gerenciamento de risco do insider. Para continuar com essas etapas de configuração, os administradores de locatários devem primeiro atribuí-lo ao grupo de função **Gerenciamento de riscos Insider** ou **administrador de gerenciamento de risco do insider** . Para acessar e gerenciar recursos de gerenciamento de risco do insider após a configuração inicial, os usuários devem ser um membro de pelo menos um grupo de funções de gerenciamento de risco do insider.
 
