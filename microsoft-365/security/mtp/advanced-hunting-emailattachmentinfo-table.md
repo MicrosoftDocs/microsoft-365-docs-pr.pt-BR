@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+mms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ce80b68784392f5e74f18378e7f074b8273fe73b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 47dee1cd86aa618f40572f050025913095efba66
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198092"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412965"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 

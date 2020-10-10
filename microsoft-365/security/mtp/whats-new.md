@@ -13,14 +13,16 @@ author: mjcaparas
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 8b9176fea67583fbdce647b2a3c37cf1d6fde7ed
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 670b020e3c15ac99b06bc8615b2693ba73497b8a
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304853"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412029"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Novidades da Proteção contra Ameaças da Microsoft
 

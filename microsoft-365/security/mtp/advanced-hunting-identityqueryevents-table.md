@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 3b2459d0d90f6160bcbac7efbb5c0cc0683ae8c2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d6650a36d07427df6148d43894cc8aaa845faf05
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196804"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412701"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -42,28 +44,28 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `ActionType` | string | Tipo de atividade que disparou o evento. Consulte a [referência de esquema no portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) para obter detalhes |
-| `Application` | string | Aplicativo que executou a ação gravada |
-| `QueryType` | string | Tipo de consulta, como o QueryUser ou o EnumerateUsers |
-| `QueryTarget` | string | Nome do usuário, grupo, dispositivo, domínio ou qualquer outro tipo de entidade sendo consultado |
-| `Query` | string | Cadeia de caracteres usada para executar a consulta |
-| `Protocol` | string | Protocolo usado durante a comunicação |
-| `AccountName` | string | Nome de usuário da conta |
-| `AccountDomain` | string | Domínio da conta |
-| `AccountUpn` | string | Nome principal do usuário (UPN) da conta |
-| `AccountSid` | string | Identificador de segurança (SID) da conta |
-| `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
-| `AccountDisplayName` | string | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
-| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do ponto de extremidade |
-| `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante as comunicações de rede relacionadas |
-| `DestinationDeviceName` | string | Nome do dispositivo que executa o aplicativo de servidor que processou a ação registrada |
-| `DestinationIPAddress` | string | Endereço IP do dispositivo que está executando o aplicativo de servidor que processou a ação registrada |
-| `TargetDeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo ao qual a ação registrada foi aplicada |
-| `TargetAccountUpn` | string | Nome principal do usuário (UPN) da conta à qual a ação registrada foi aplicada |
-| `TargetAccountDisplayName` | string | Nome para exibição da conta à qual a ação registrada foi aplicada |
-| `Location` | string | Cidade, país ou outra localização geográfica associada ao evento |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento. Consulte a [referência de esquema no portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) para obter detalhes |
+| `Application` | cadeia de caracteres | Aplicativo que executou a ação gravada |
+| `QueryType` | cadeia de caracteres | Tipo de consulta, como o QueryUser ou o EnumerateUsers |
+| `QueryTarget` | cadeia de caracteres | Nome do usuário, grupo, dispositivo, domínio ou qualquer outro tipo de entidade sendo consultado |
+| `Query` | cadeia de caracteres | Cadeia de caracteres usada para executar a consulta |
+| `Protocol` | cadeia de caracteres | Protocolo usado durante a comunicação |
+| `AccountName` | cadeia de caracteres | Nome de usuário da conta |
+| `AccountDomain` | cadeia de caracteres | Domínio da conta |
+| `AccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta |
+| `AccountSid` | cadeia de caracteres | Identificador de segurança (SID) da conta |
+| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo da conta no Azure AD |
+| `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
+| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do ponto de extremidade |
+| `IPAddress` | cadeia de caracteres | Endereço IP atribuído ao ponto de extremidade e usado durante as comunicações de rede relacionadas |
+| `DestinationDeviceName` | cadeia de caracteres | Nome do dispositivo que executa o aplicativo de servidor que processou a ação registrada |
+| `DestinationIPAddress` | cadeia de caracteres | Endereço IP do dispositivo que está executando o aplicativo de servidor que processou a ação registrada |
+| `TargetDeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo ao qual a ação registrada foi aplicada |
+| `TargetAccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta à qual a ação registrada foi aplicada |
+| `TargetAccountDisplayName` | cadeia de caracteres | Nome para exibição da conta à qual a ação registrada foi aplicada |
+| `Location` | cadeia de caracteres | Cidade, país ou outra localização geográfica associada ao evento |
 | `ReportId` | long | Identificador exclusivo do evento |
-| `AdditionalFields` | string | Informações adicionais sobre a entidade ou o evento |
+| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre a entidade ou o evento |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

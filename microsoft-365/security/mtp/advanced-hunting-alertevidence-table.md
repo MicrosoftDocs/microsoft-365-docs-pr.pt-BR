@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: a7e2eca147bb956606380b9ac97a91b898830dd0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ec6fe3d080efb396ce0ecacadd3d5d9a8fa9f8d1
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197264"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413193"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -40,31 +42,31 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
 | `AlertId` | string | Identificador exclusivo do alerta. |
-| `ServiceSource` | string | Produto ou serviço que forneceu as informações de alerta |
-| `EntityType` | string | Tipo de objeto, como um arquivo, um processo, um dispositivo ou um usuário |
-| `EvidenceRole` | string | Como a entidade está envolvida em um alerta, indicando se é impactada ou se é meramente relacionada |
-| `EvidenceDirection` | string | Indica se a entidade é a origem ou o destino de uma conexão de rede |
-| `FileName` | string | Nome do arquivo ao qual a ação gravada foi aplicada |
-| `FolderPath` | string | Pasta que contém o arquivo para o qual a ação registrada foi aplicada |
+| `ServiceSource` | cadeia de caracteres | Produto ou serviço que forneceu as informações de alerta |
+| `EntityType` | cadeia de caracteres | Tipo de objeto, como um arquivo, um processo, um dispositivo ou um usuário |
+| `EvidenceRole` | cadeia de caracteres | Como a entidade está envolvida em um alerta, indicando se é impactada ou se é meramente relacionada |
+| `EvidenceDirection` | cadeia de caracteres | Indica se a entidade é a origem ou o destino de uma conexão de rede |
+| `FileName` | cadeia de caracteres | Nome do arquivo ao qual a ação gravada foi aplicada |
+| `FolderPath` | cadeia de caracteres | Pasta que contém o arquivo para o qual a ação registrada foi aplicada |
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
-| `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Este campo geralmente não é preenchido: Use a coluna SHA1 quando disponível. |
+| `SHA256` | cadeia de caracteres | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Este campo geralmente não é preenchido: Use a coluna SHA1 quando disponível. |
 | `FileSize` | int | Tamanho do arquivo em bytes |
-| `ThreatFamily` | string | Família de malware que o arquivo ou processo suspeito ou mal-intencionado foi classificado em |
+| `ThreatFamily` | cadeia de caracteres | Família de malware que o arquivo ou processo suspeito ou mal-intencionado foi classificado em |
 | `RemoteIP` | cadeia de caracteres | Endereço IP que estava sendo conectado ao |
 | `RemoteUrl` | cadeia de caracteres | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
 | `AccountName` | cadeia de caracteres | Nome de usuário da conta |
-| `AccountDomain` | string | Domínio da conta |
-| `AccountSid` | string | Identificador de segurança (SID) da conta |
-| `AccountObjectId` | string | Identificador exclusivo para a conta no Azure Active Directory |
-| `DeviceId` | string | Identificador exclusivo do dispositivo no serviço |
-| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
-| `LocalIP` | string | Endereço IP atribuído ao dispositivo local usado durante a comunicação |
-| `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Office 365 |
+| `AccountDomain` | cadeia de caracteres | Domínio da conta |
+| `AccountSid` | cadeia de caracteres | Identificador de segurança (SID) da conta |
+| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo para a conta no Azure Active Directory |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo do dispositivo no serviço |
+| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `LocalIP` | cadeia de caracteres | Endereço IP atribuído ao dispositivo local usado durante a comunicação |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Office 365 |
 | `EmailSubject` | cadeia de caracteres | Assunto do email |
 | `ApplicationId` | cadeia de caracteres | Identificador exclusivo do aplicativo |
-| `Application` | string | Aplicativo que executou a ação gravada |
-| `ProcessCommandLine` | string | Linha de comando usada para criar o novo processo |
-| `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
+| `Application` | cadeia de caracteres | Aplicativo que executou a ação gravada |
+| `ProcessCommandLine` | cadeia de caracteres | Linha de comando usada para criar o novo processo |
+| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre o evento no formato de matriz JSON |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

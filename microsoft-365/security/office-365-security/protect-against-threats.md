@@ -16,14 +16,15 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: Os administradores podem saber mais sobre a proteção contra ameaças no Microsoft 365 e configurar como usá-la para sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 624646461efe7131b2479e003b23a9e659e0a779
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: bb28decf459035c238c61b12f65abf45128e527c
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326550"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413585"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -206,7 +207,7 @@ Para configurar [links seguros](atp-safe-links.md), revise e edite suas configur
 
 5. Revise suas configurações e clique em **concluir**.
 
-Para saber mais, confira [Configurar políticas de links seguros](set-up-atp-safe-links-policies.md).
+Para saber mais, confira [Configurar políticas de Links Seguros](set-up-atp-safe-links-policies.md).
 
 ## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Parte 5: verificar a ATP para SharePoint, OneDrive e Microsoft Teams está ativado
 

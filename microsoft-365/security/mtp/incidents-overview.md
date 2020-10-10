@@ -14,17 +14,19 @@ author: mjcaparas
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c9b495b70c8b61188b4db3175b54e406feb87fc8
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: b0cfa6ed4af6ef9c5686cb25d5b2f0522d818860
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357837"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412893"
 ---
 # <a name="incidents-overview-in-microsoft-threat-protection"></a>Visão geral de incidentes na Proteção contra Ameaças da Microsoft
 

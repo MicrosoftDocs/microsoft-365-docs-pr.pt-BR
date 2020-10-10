@@ -14,17 +14,19 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 73d807a37f1c85e9d79353334cac4208b86bbdc2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3a5db0b9709a9596ccd6560d7f2e546dd3753332
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198880"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413347"
 ---
 # <a name="deploy-supported-services"></a>Implantar serviços com suporte
 
@@ -43,10 +45,10 @@ Uma licença de segurança do Microsoft 365 e5, E5 Security, a5 ou a5 ou uma com
 
 | Serviço com suporte | Descrição |
 | ------ | ------ |
-| Microsoft Defender ATP | Conjunto de pontos de extremidade do Endpoint desenvolvido com base em poderosos sensores comportamentais, análise de nuvem e inteligência de ameaças |
+| O Microsoft Defender ATP | Conjunto de pontos de extremidade do Endpoint desenvolvido com base em poderosos sensores comportamentais, análise de nuvem e inteligência de ameaças |
 | Office 365 ATP | Proteção avançada para seus aplicativos e dados no Office 365, incluindo emails e outras ferramentas de colaboração |
 | Azure ATP | Defesa contra ameaças avançadas, identidades comprometidas e insideres mal-intencionados usando sinais correlatos do Active Directory |
-| Microsoft Cloud App Security | Identificar e combater o ciberataques em seus serviços de nuvem da Microsoft e de terceiros |
+| Segurança no aplicativo na nuvem da Microsoft | Identificar e combater o ciberataques em seus serviços de nuvem da Microsoft e de terceiros |
 
 ## <a name="deployed-services-and-functionality"></a>Serviços e funcionalidade implantados
 A proteção contra ameaças da Microsoft oferece melhor visibilidade, correlação e correção à medida que você implanta serviços mais suportados.
@@ -64,20 +66,20 @@ A tabela a seguir lista como cada serviço suportado fornece dados adicionais, o
 
 | Serviço | Dados (sinais & informações correlacionadas) | Escopo de resposta de & de correção |
 | ------ | ------ | ------ |
-| Microsoft Defender ATP | – Estados de ponto de extremidade e eventos brutos<br />-Detecções e alertas de ponto de extremidade, incluindo antivírus, EDR, redução da superfície de ataque<br />– Informações sobre arquivos e outras entidades observadas nos pontos de extremidade | Pontos de extremidade |
+| O Microsoft Defender ATP | – Estados de ponto de extremidade e eventos brutos<br />-Detecções e alertas de ponto de extremidade, incluindo antivírus, EDR, redução da superfície de ataque<br />– Informações sobre arquivos e outras entidades observadas nos pontos de extremidade | Pontos de extremidade |
 | Office 365 ATP | -Mensagens e Estados de caixa de correio e eventos brutos<br />– Detecções de email, anexos e links | -Caixas de correio<br />-Contas da Microsoft 365 |
 | Azure ATP | -Sinais do Active Directory, incluindo eventos de autenticação<br />-Detecções de comportamento relacionadas à identidade | Identidades |
-| Microsoft Cloud App Security | – Detecção de serviços e aplicativos de nuvem não aprovados (Shadow IT)<br />– Exposição de dados para aplicativos em nuvem<br />-Atividade de ameaça associada aos aplicativos de nuvem | Aplicativos em nuvem |
+| Segurança no aplicativo na nuvem da Microsoft | – Detecção de serviços e aplicativos de nuvem não aprovados (Shadow IT)<br />– Exposição de dados para aplicativos em nuvem<br />-Atividade de ameaça associada aos aplicativos de nuvem | Aplicativos em nuvem |
 
 ## <a name="deploy-the-services"></a>Implantar os serviços
 A implantação de cada serviço normalmente requer o provisionamento para seu locatário e uma configuração inicial. Consulte a tabela a seguir para entender como cada um desses serviços é implantado.
 
 | Serviço | Instruções de provisionamento | Configuração inicial |
 | ------ | ------ | ------ |
-| Microsoft Defender ATP | [Guia de implantação do Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases) | *Confira instruções de provisionamento* |
+| O Microsoft Defender ATP | [Guia de implantação do Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases) | *Confira instruções de provisionamento* |
 | Office 365 ATP | *Nenhum, provisionado com o Office 365* | [Configurar políticas de ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |
 | Azure ATP | [Início rápido: criar sua instância do Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) | *Confira instruções de provisionamento* |
-| Microsoft Cloud App Security | *Nenhum* | [Início rápido: introdução ao Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security) |
+| Segurança no aplicativo na nuvem da Microsoft | *Nenhum* | [Início rápido: introdução ao Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security) |
 
 Depois de implantar os serviços com suporte, [ative a proteção contra ameaças da Microsoft](mtp-enable.md).
 

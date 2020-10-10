@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração com convidados no Microsoft Teams.
-ms.openlocfilehash: e92397c7b8d4a4192fb36a52a76679269be53b3b
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 7a2259358d6976184d393980b2b7c0320c3bb171
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357789"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48409043"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -37,7 +37,7 @@ Este vídeo mostra as etapas de configuração descritas neste documento.</br>
 
 ## <a name="azure-organizational-relationships-settings"></a>Configurações de relações organizacionais do Azure
 
-O compartilhamento no Microsoft 365 é regido no seu nível mais alto pelas [configurações de relações organizacionais no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, isso substituirá as configurações de compartilhamento que você configurar no Microsoft 365.
+O compartilhamento no Microsoft 365 é regido no seu nível mais alto pelas [configurações de relações organizacionais no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, essa configuração substituirá as configurações de compartilhamento que você configurar no Microsoft 365.
 
 Verifique as configurações de relações organizacionais para garantir que o compartilhamento com convidados não seja bloqueado.
 
@@ -45,10 +45,10 @@ Verifique as configurações de relações organizacionais para garantir que o c
 
 Para definir as configurações de relação organizacional
 
-1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com) .
-2. Na navegação à esquerda, clique em **Azure Active Directory**.
-3. No painel **Visão geral** clique em **Identidades Externas**.
-4. No painel **identidades organizacionais** , clique em **configurações de colaboração externa**.
+1. Faça logon no Azure Active Directory em [https://aad.portal.azure.com](https://aad.portal.azure.com) .
+2. No painel de navegação esquerdo, clique em **Azure Active Directory**.
+3. Clique em **identidades externas**.
+4. Na tela **introdução** , no painel de navegação esquerdo, clique em **configurações de colaboração externa**.
 5. Certifique-se de que **Administradores e usuários na função de convite de convidado podem convidar** e **os membros podem convidar** estão definidos como **Sim**.
 6. Caso tenha feito alterações, clique em **Salvar**.
 
@@ -67,14 +67,14 @@ Verifique se o acesso de convidados está habilitado no Teams e faça qualquer a
 Para definir as configurações de acesso de convidado do Teams
 
 1. Entre no Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com).
-2. Na barra de navegação esquerda, clique em **Mostrar tudo**.
+2. No painel de navegação esquerdo, clique em **Mostrar tudo**.
 3. Em **Centros de administração**, clique em **Teams**.
-4. No Centro de administração do Teams, na navegação à esquerda, expanda **Configurações para toda a organização** e clique em **Acesso de convidado**.
+4. No centro de administração do Microsoft Teams, no painel de navegação esquerdo, expanda **configurações de toda a organização** e clique em **acesso de convidado**.
 5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
 6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
 
 > [!NOTE]
-> Depois de habilitá-la, pode levar até 24 horas para que a configuração de convidado do Teams se torne ativa.
+> Pode levar até vinte e quatro horas para que as configurações de convidados do teams se tornem ativas depois de ativá-la.
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Configurações de convidado de grupos do Microsoft 365
 
@@ -84,10 +84,10 @@ O Teams usa os grupos do Microsoft 365 para associação da equipe. As configura
 
 Para definir as configurações de convidados de grupos do Microsoft 365
 
-1. No centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **configurações**.
+1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, expanda **configurações**.
 2. Clique em **configurações da organização**.
 3. Na lista, clique em **Microsoft 365 grupos**.
-4. Certifique-se de que o **grupo permitir Membros fora do seu conteúdo de grupo de acesso à organização** e **que os proprietários do grupo adicionem pessoas fora da sua organização a grupos de** seleção.
+4. Certifique-se de que os **proprietários de grupo permitem que as pessoas de fora da sua organização para o Microsoft 365 grupos de** convidados e **permitir que os membros do grupo convidado acessem o conteúdo do grupo de acesso** sejam verificados.
 5. Se você tiver feito alterações, clique em **salvar alterações**.
 
 
@@ -102,21 +102,21 @@ Se você quiser permitir o compartilhamento de arquivos e pastas com pessoas nã
 ![Captura de tela das configurações de compartilhamento no nível da organização do SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 
 
-Para definir as configurações de compartilhamento de nível da organização do SharePoint
+Para definir as configurações de compartilhamento no nível da organização do SharePoint
 
-1. No centro de administração do Microsoft 365, na navegação à esquerda, em **centros de administração**, clique em **SharePoint**.
-2. No centro de administração do SharePoint, na navegação à esquerda, expanda **políticas** e clique em **compartilhamento**.
+1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, em **centros de administração**, clique em **SharePoint**.
+2. No centro de administração do SharePoint, no painel de navegação esquerdo, expanda **políticas** e clique em **compartilhamento**.
 3. Verifique se o compartilhamento externo do SharePoint está definido como **qualquer pessoa** ou **novo convidado existente**.
 4. Caso tenha feito alterações, clique em **Salvar**.
 
 
-## <a name="sharepoint-organization-level-default-link-settings"></a>Configurações de link padrão de nível de organização do SharePoint
+## <a name="sharepoint-organization-level-default-link-settings"></a>Configurações de link padrão no nível da organização do SharePoint
 
-As configurações padrão de link de arquivo e pasta determinam qual opção de link é mostrada para o usuário por padrão ao compartilhar um arquivo ou uma pasta. Os usuários podem alterar o tipo de link para uma das outras opções antes de compartilhar, se desejado.
+As configurações padrão de link de arquivo e pasta determinam a opção de link que será mostrada para os usuários por padrão ao compartilhar um arquivo ou uma pasta. Os usuários podem alterar o tipo de link para uma das outras opções antes de compartilhar, se desejado.
 
 Tenha em mente que essa configuração afeta todas as equipes e sites do SharePoint em sua organização.
 
-Escolha o tipo de link selecionado por padrão quando os usuários compartilham arquivos e pastas:
+Escolha qualquer um dos seguintes tipos de link que serão selecionados por padrão quando os usuários compartilharem arquivos e pastas:
 
 - **Qualquer pessoa com o link** -escolha essa opção se você quiser fazer muito do compartilhamento não autenticado de arquivos e pastas. Se você quiser permitir links de *qualquer pessoa* , mas estiver preocupado com o compartilhamento acidental não autenticado, considere uma das outras opções como padrão. Esse tipo de link só estará disponível se você tiver habilitado o compartilhamento de **qualquer pessoa** .
 - **Somente as pessoas da sua organização** -escolha esta opção se você espera que a maioria dos compartilhamento de arquivos e pastas seja com pessoas dentro da sua organização.
@@ -125,7 +125,7 @@ Escolha o tipo de link selecionado por padrão quando os usuários compartilham 
 ![Captura de tela das configurações de compartilhamento de pastas e arquivos no nível da organização do SharePoint](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
 
-Para definir as configurações de link padrão de nível de organização do SharePoint
+Para definir as configurações de link padrão no nível da organização do SharePoint
 
 1. Navegue até a página de compartilhamento no centro de administração do SharePoint.
 2. Em **links de arquivo e pasta**, selecione o link de compartilhamento padrão que você deseja usar.
@@ -153,9 +153,9 @@ Verifique as configurações de compartilhamento no nível do site para garantir
 
 
 Para definir configurações de compartilhamento no nível do site
-1. No centro de administração do SharePoint, na navegação à esquerda, expanda a opção **Sites** e clique em **Sites ativos**.
+1. No centro de administração do SharePoint, no painel de navegação esquerdo, expanda **sites** e clique em **sites ativos**.
 2. Selecione o site da equipe que você acabou de criar.
-3. Na faixa de opções, clique em **Compartilhamento**.
+3. Clique em... e escolha **compartilhamento**.
 4. Verifique se o compartilhamento está definido como **qualquer pessoa** ou **convidado novo e existente**.
 5. Caso tenha feito alterações, clique em **Salvar**.
 

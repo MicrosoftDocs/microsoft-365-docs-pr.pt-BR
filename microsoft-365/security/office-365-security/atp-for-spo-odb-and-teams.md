@@ -17,16 +17,17 @@ ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+- m365-initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Saiba mais sobre a proteção avançada contra ameaças do Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams.
-ms.openlocfilehash: 95557e99817f7e7d3fe678c1966e4e04fd3753d7
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: e36efba37ae21ee1e2044d8b631cb14b17fcca55
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350884"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48411753"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP para SharePoint, OneDrive e Microsoft Teams
 

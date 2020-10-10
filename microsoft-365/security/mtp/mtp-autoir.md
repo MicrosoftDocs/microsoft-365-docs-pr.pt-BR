@@ -16,16 +16,17 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 2131af5e35aa0cf9f236940d2b4aaa2bed85190a
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ee5616f79df35ebff2713538bae7fb42fd755287
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199776"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413573"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-threat-protection"></a>Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft
 

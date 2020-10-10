@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f22a046dc5289405aaf59086ed535016cc46bae9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 916f86cf9536101bdbb2650bf7381682203d343f
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197662"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412425"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
@@ -75,7 +77,7 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Eventos de email da Microsoft 365, incluindo a entrega de email e eventos de bloqueio |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Eventos de segurança que ocorrem após a entrega após a Microsoft 365 ter entregue os emails para a caixa de correio de destinatário |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informações sobre URLs em emails |
-| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Eventos envolvendo um controlador de domínio local executando o Active Directory (AD). Esta tabela abrange um intervalo de eventos relacionados à identidade, bem como eventos do sistema no controlador de domínio. |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Eventos envolvendo um controlador de domínio local executando o Active Directory (AD). Essa tabela abrange um intervalo de eventos relacionados à identidade, bem como eventos do sistema no controlador de domínio. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Informações de conta de várias fontes, incluindo o Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Eventos de autenticação no Active Directory e nos serviços online da Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Atividades de consulta executadas em objetos do Active Directory, como usuários, grupos, dispositivos e domínios |

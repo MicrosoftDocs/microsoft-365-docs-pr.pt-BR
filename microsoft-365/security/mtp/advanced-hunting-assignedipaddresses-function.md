@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ea6b65e5e6d676c5efb2622193197bae5b9ba1b2
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 7f0b479051c46fe35ec9aea84b23ca0c4937fbfe
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338540"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412317"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 

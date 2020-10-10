@@ -11,16 +11,18 @@ ms.author: ellevin
 author: levinec
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 861ee8a01f9fba7daeec7375ebb6f33ffcae1fcd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 76b70f20a8bbeb3b79fa8f6b3847245449cb8823
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199812"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413157"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento de dados e relatórios no centro de segurança do Microsoft 365
 

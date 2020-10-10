@@ -1,5 +1,5 @@
 ---
-title: Políticas de envios de usuários
+title: Políticas de envios do usuário
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,15 +14,16 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar spam e emails de phishing relatados pelos usuários.
-ms.openlocfilehash: bffa70184a9307869ce6170ba1ea05ae3f084ccf
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 8347463a4c3f41b6b6333d35c5b4207d1b94aabe
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350266"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412557"
 ---
-# <a name="user-submissions-policies"></a>Políticas de envios de usuários
+# <a name="user-submissions-policies"></a>Políticas de envios do usuário
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

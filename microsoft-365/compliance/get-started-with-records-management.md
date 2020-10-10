@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Precisa de uma solução de gerenciamento de registros para o Microsoft 365 que gerencie o conteúdo de alto valor para obrigações legais, comerciais ou normativas, mas não sabe onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: fd3e3368b7a23cb31a8df4953268576de2419f89
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: b7fc33e8a58857d839598cc74cdddc5247fd4a0d
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333847"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390158"
 ---
 # <a name="get-started-with-records-management"></a>Começar a usar o gerenciamento de registros
 
@@ -85,6 +85,6 @@ Use a tabela a seguir para ajudá-lo a mapear seus requisitos de negócios para 
 
 Os rótulos de retenção usados para o gerenciamento de registros têm uma presença da interface de usuário em aplicativos do Microsoft 365. Certifique-se de fornecer orientações para os usuários finais e para o suporte técnico antes de implantar os rótulos de retenção à sua rede de produção.
 
-A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes dos rótulos de retenção e às configurações que você escolher. No entanto, você pode usar as seguintes informações para obter instruções básicas:
+A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes dos rótulos de retenção e às configurações que você escolher. Confira a postagem a seguir para um pacote de download que você pode usar para treinar os usuários e impulsionar a adoção: [Treinamento do Usuário Final para Etiquetas de Retenção no M365 – Como Acelerar a Sua Adoção](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
 
-- [Aplicar manualmente os rótulos de retenção](create-apply-retention-labels.md#manually-apply-retention-labels)
+Você também encontrará instruções de usuário básicas na seção a seguir: [Aplicar rótulos de retenção manualmente](create-apply-retention-labels.md#manually-apply-retention-labels).

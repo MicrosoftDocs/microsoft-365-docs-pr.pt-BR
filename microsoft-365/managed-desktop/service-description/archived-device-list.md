@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: acdca0a70fb28b10f053da8f79b4e37c9c7632f5
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 4bfda869972c5650a99395a5fd16c6ad7ddb4f11
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529918"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48409019"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 
@@ -42,13 +42,17 @@ Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo d
 | Dell Latitude 5490| 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
 | Dell Latitude 7390 7390 2-in-1/7490 | 256 GB/Intel i5/8 GB de RAM   | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
 |HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário  | **15 de fevereiro de 2023** |
+|HP EliteBook 830/840/850 G6| 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário  | **30 de novembro de 2023** |
 |HP elite X2 1013 G3| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS03AV, câmera de infravermelho necessária |**14 de maio de 2023** |
-|HP EliteBook X360 1030 G3| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária |**14 de maio de 2023** |
+|HP EliteBook X360 1030 G5| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária |**14 de maio de 2023** |
+|HP EliteBook X360 1030 G6| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária |**30 de novembro de 2023** |
 |HP EliteBook X360 1040 G5| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | **23 de outubro de 2023** |
+|HP EliteBook X360 1040 G6| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | **30 de novembro de 2023** |
 |HP ProBook X360 440 G1| 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV, câmera de infravermelho ou leitor de impressão digital necessário | **6 de junho de 2023** |
 |HP EliteDesk 800 G4 DM | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | **18 de julho de 2023** |
 |HP EliteDesk 800 G4 SFF | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | **18 de julho de 2023** |
 |HP EliteOne 800 G4 23.8 em AIO |128 GB/Intel i3/8 GB de RAM |SKU com 5VS04AV| **18 de julho de 2023** |
+|Estação de trabalho móvel HP ZBook 14U/15U G6 |256 GB/Intel i5/8 GB de RAM |SKU com 5VS04AV, câmera de infravermelho necessária| **30 de novembro de 2023** |
 |Livro de superfície 2| 256 GB/Intel i5/8 GB de RAM | Nenhum | **16 de novembro de 2022** |
 |Ir para a superfície| 128 GB/Intel 4415Y/8GB de RAM | Nenhum | **2 de agosto de 2023** |
 |Laptop de superfície| 256 GB/Intel i5/8 GB de RAM | Nenhum | **20 de maio de 2022** |

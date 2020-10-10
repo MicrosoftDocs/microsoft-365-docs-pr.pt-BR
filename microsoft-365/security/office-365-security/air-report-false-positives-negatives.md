@@ -17,15 +17,16 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.topic: conceptual
 ms.custom:
 - autoir
-ms.openlocfilehash: fa6b4ae03a3cf62398a270d65a29e6b4c955173a
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: b9f037e3e6d798122b8d3c7ffd3476e34bd5a76b
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308927"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48411957"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados
 

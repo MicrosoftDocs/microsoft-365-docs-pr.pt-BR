@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6922f50906013cfbfa3bd63c69fff3e89ed46cd5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 94afa9e36ca75491511338297f02e8031333e53f
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196816"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412737"
 ---
 # <a name="identityinfo"></a>IdentityInfo
 
@@ -42,20 +44,20 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
-| `AccountUpn` | string | Nome principal do usuário (UPN) da conta |
-| `OnPremSid` | string | SID (identificador de segurança) local da conta |
-| `CloudSid` | string | Identificador de segurança de nuvem da conta |
-| `GivenName` | string | Nome ou nome de usuário da conta fornecido |
-| `Surname` | string | Sobrenome, nome da família ou sobrenome do usuário da conta |
-| `AccountDisplayName` | string | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
-| `Department` | string | Nome do departamento ao qual pertence o usuário da conta |
-| `JobTitle` | string | Título do trabalho da conta de usuário |
-| `AccountName` | string | Nome de usuário da conta |
-| `AccountDomain` | string | Domínio da conta |
-| `EmailAddress` | string | Endereço SMTP da conta |
-| `SipProxyAddress` | string | Endereço SIP (protocolo de iniciação de sessão) de voz sobre IP (VOIP) da conta |
-| `City` | string | Cidade onde o usuário da conta está localizado |
-| `Country` | string | País/região onde o usuário da conta está localizado |
+| `AccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta |
+| `OnPremSid` | cadeia de caracteres | SID (identificador de segurança) local da conta |
+| `CloudSid` | cadeia de caracteres | Identificador de segurança de nuvem da conta |
+| `GivenName` | cadeia de caracteres | Nome ou nome de usuário da conta fornecido |
+| `Surname` | cadeia de caracteres | Sobrenome, nome da família ou sobrenome do usuário da conta |
+| `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
+| `Department` | cadeia de caracteres | Nome do departamento ao qual pertence o usuário da conta |
+| `JobTitle` | cadeia de caracteres | Título do trabalho da conta de usuário |
+| `AccountName` | cadeia de caracteres | Nome de usuário da conta |
+| `AccountDomain` | cadeia de caracteres | Domínio da conta |
+| `EmailAddress` | cadeia de caracteres | Endereço SMTP da conta |
+| `SipProxyAddress` | cadeia de caracteres | Endereço SIP (protocolo de iniciação de sessão) de voz sobre IP (VOIP) da conta |
+| `City` | cadeia de caracteres | Cidade onde o usuário da conta está localizado |
+| `Country` | cadeia de caracteres | País/região onde o usuário da conta está localizado |
 | `IsAccountEnabled` | booliano | Indica se a conta está habilitada ou não |
 
 ## <a name="related-topics"></a>Tópicos relacionados

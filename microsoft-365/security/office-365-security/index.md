@@ -13,20 +13,21 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: Segurança no Office 365, de EOP para planos ATP 1 e 2, configurações de segurança padrão vs. estrito e muito mais. Entenda o que você tem e como proteger suas propriedades.
-ms.openlocfilehash: c5b357dc7a08eeef099b25172169d04cdb81e8c4
-ms.sourcegitcommit: 5abd5ef8c2903b4c3bd875da68049fde26768dcf
+ms.openlocfilehash: d650a02faa21ac6ade39506d2c423dd319951bef
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48359148"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413049"
 ---
 # <a name="office-365-security-overview"></a>Visão geral da segurança do Office 365
 
 Este artigo apresentará as novas propriedades de segurança na nuvem. Se você é parte de um centro de operações de segurança, você é um administrador de segurança novo no espaço ou deseja um atualizador, vamos começar.
 
 > [!CAUTION]
-> Oi. Se você estiver usando o **Outlook.com**, a **família do Microsoft 365**ou **o Microsoft 365 Personal**, e precisar de *links seguros* ou informações de *anexos seguros* , ***clique neste link***: [segurança avançada do Outlook.com para assinantes do Microsoft 365](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2). Muitíssimo!
+> Se você estiver usando o **Outlook.com**, a **família do Microsoft 365**ou **o Microsoft 365 Personal**, e precisar de *links seguros* ou informações de *anexos seguros* , ***clique neste link***: [segurança avançada do Outlook.com para assinantes do Microsoft 365](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 ## <a name="office-365-security-spelled-out"></a>Segurança do Office 365 grafada
 
