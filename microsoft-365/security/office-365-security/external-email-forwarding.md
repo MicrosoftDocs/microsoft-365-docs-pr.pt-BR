@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: f729aa816caf8fb07499037ee27fbfc37b7205b3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c0a3849d330b508630eb60c7ee24cd8b498a32b8
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202874"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417231"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Configurando o encaminhamento de email externo no Office 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "48202874"
 
 O encaminhamento externo é controlado pela *política antispam de saída* e com escopo para os usuários com base na configuração configurada. As 3 configurações atualmente são suportadas:
 
-- **Automático** – nesse modo, o sistema é responsável por decidir se uma mensagem encaminhada é permitida ou não.  Este é o modo padrão e, nesse modo, o sistema bloqueará o encaminhamento externo automático.
+- **Automático** – é controlado pelo sistema: ele permite que a filtragem de spam de saída controle o encaminhamento de email externo automático. Esta é a configuração padrão.
 
 - **Ativado** – o encaminhamento externo automático é permitido e não é restrito.
 
@@ -37,7 +37,7 @@ O encaminhamento externo é controlado pela *política antispam de saída* e com
 Consulte [Configure Outbound spam Filtering in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true) para obter mais informações sobre como definir essas configurações.
 
 > [!NOTE]
-> Desabilitar o encaminhamento automático também dsable regras de caixa de entrada que redirecionam mensagens para endereços externos.
+> Desabilitar o encaminhamento automático também desabilitará as regras de caixa de entrada que redirecionam mensagens para endereços externos.
 
 ## <a name="controlling-external-email-forwarding"></a>Controle de encaminhamento de email externo
 

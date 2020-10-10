@@ -15,14 +15,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Office 365 ATP Plan 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Office 365 ATP para identificar rapidamente os usuários marcados.
-ms.openlocfilehash: 16e756b95e16e40f4df738e825e842681c67e22c
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 475bf976a71fb688df8db9ac25f3b397c078d79a
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399380"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417277"
 ---
 # <a name="user-tags-in-office-365-atp"></a>Marcas de usuário no Office 365 ATP
+
+> [!NOTE]
+> O recurso de marcas de usuário está em visualização, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 As marcas de usuário são identificadores de grupos específicos de usuários no [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md). Há dois tipos de marcas de usuário:
 

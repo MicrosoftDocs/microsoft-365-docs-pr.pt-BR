@@ -17,15 +17,15 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-defender-office365
 ms.topic: conceptual
-ms.date: 09/10/2020
+ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 5bbbda8b2fb13351d0b86d1670910cbaa52ad8cb
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab987652082c93a82fa5bcbd4667f26291c6e9d7
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413253"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417287"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -47,7 +47,8 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 - [Substituir manualmente o filtro verdicts usando a lista de permissões/bloqueios de locatários](tenant-allow-block-list.md)
 - [Recursos estendidos no explorador de ameaças, incluindo usuários direcionados principais, regras de transporte e conectores](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP plano 2)
 - Revelar substitui informações no [Gerenciador de ameaças](threat-explorer.md) (email permitido/bloqueado por política de locatário/usuário)
-- Ameaças de URL do revelar no [Explorador de ameaças](threat-explorer.md) (malware, phishing, spam ou nenhum) 
+- Ameaças de URL do revelar no [Explorador de ameaças](threat-explorer.md#threats-in-urls) (malware, phishing, spam ou nenhum) 
+- [Aprimoramentos na busca do explorador de ameaças](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) com atualizações relacionadas a ameaças, ações adicionais, locais de entrega e exibição de linha do tempo atualizada
 
 ## <a name="julyaugust-2020"></a>Julho/agosto de 2020 
 

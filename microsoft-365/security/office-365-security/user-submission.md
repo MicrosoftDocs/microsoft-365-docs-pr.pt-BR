@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-defender-office365
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar spam e emails de phishing relatados pelos usuários.
-ms.openlocfilehash: 8347463a4c3f41b6b6333d35c5b4207d1b94aabe
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab7f25c456a9321977721113c1e98d67d1529feb
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412557"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417237"
 ---
 # <a name="user-submissions-policies"></a>Políticas de envios do usuário
 
@@ -47,17 +47,17 @@ O fornecimento de mensagens relatadas pelo usuário para uma caixa de correio pe
 
 Use os artigos a seguir para configurar os pré-requisitos necessários para que o usuário reportado mensagens vá para sua caixa de correio personalizada:
 
-- Ignorar filtragem de spam criando uma regra de fluxo de email do Exchange para definir o nível de confiança de spam. Consulte [usar o Eat para criar uma regra de fluxo de emails que define o SCL de uma mensagem](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages?view=o365-worldwide#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) para definir o SCL como **-1**.
+- Ignorar a filtragem de spam na caixa de correio personalizada criando uma regra de fluxo de email do Exchange para definir o nível de confiança de spam. Consulte [usar o Eat para criar uma regra de fluxo de emails que define o SCL de uma mensagem](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) para definir o SCL como **-1**.
 
-- Desativar a verificação de anexos de malware. Use [Configurar (ou editar) uma política de anexos seguros de ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide#step-2-set-up-or-edit-an-atp-safe-attachments-policy) para criar uma política de anexos seguros com a configuração **off-Attachment não será verificada para malware** habilitado.
+- Desative a verificação de anexos de malware na caixa de correio personalizada. Use [Configurar políticas de anexos seguros no Office 365 ATP](set-up-atp-safe-attachments-policies.md) para criar uma **política de anexos** seguros com a configuração para **resposta de malware desconhecido para anexos seguros**.
 
-- Desative a verificação de URL em mensagens. Use [Adicionar (ou editar) políticas de links seguros de ATP que se aplicam a todos os destinatários de email específicos](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide#step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients) para criar uma política de links seguros com a **opção Selecionar a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens** definidas como **desativadas**.
+- Desative a verificação de URL em mensagens na caixa de correio personalizada. Use [Configurar políticas de links seguros no Office 365 ATP](set-up-atp-safe-links-policies.md) para criar uma política de links seguros com a configuração **desativada** para **selecionar a ação para URLs possivelmente mal intencionadas, em mensagens**.
 
-- Criar uma política antimalware para desativar a limpeza automática de malware zero-hora. Consulte [usar o centro de conformidade de & de segurança para criar políticas Antimalware](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide#use-the-security--compliance-center-to-create-anti-spam-policies) para definir a **limpeza automática de zero-hora de malware** como **desativada**.
+- Criar uma política antimalware para desativar a limpeza automática de malware zero-hora. Consulte [usar o centro de conformidade de & de segurança para criar políticas Antimalware](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) para definir a **limpeza automática de zero-hora de malware** como **desativada**.
 
-- Criar uma política de filtro de spam para desabilitar a limpeza automática de zero hora (ZAP) para spam ZAP e Phish de phishing. Consulte [usar o centro de conformidade de & de segurança para criar políticas antispam](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide#use-the-security--compliance-center-to-create-anti-spam-policies) e desmarcar as caixas de seleção **em** spam zap e phishing zap.
+- Crie uma política de filtro de spam para desabilitar a limpeza automática de zero hora (ZAP) para spam e phishing na caixa de correio personalizada. Consulte [usar o centro de conformidade de & de segurança para criar políticas antispam](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) e desmarcar as caixas de seleção **em** **spam zap** e **phishing zap**.
 
-- Desabilitar a regra de lixo eletrônico. Use [definir configurações de lixo eletrônico em caixas de correio do Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes?view=o365-worldwide) para desabilitar a regra de lixo eletrônico. Depois de desabilitado, o EOP não pode mover mensagens para a pasta lixo eletrônico com base na ação de filtro de spam veredicto **mover mensagem para a pasta lixo eletrônico** ou para a coleção SafeList na caixa de correio.
+- Desabilitar a regra de lixo eletrônico na caixa de correio personalizada. Use [definir configurações de lixo eletrônico em caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md) para desabilitar a regra de lixo eletrônico. Depois de desabilitado, o EOP não pode mover mensagens para a pasta lixo eletrônico com base na ação de filtro de spam veredicto **mover mensagem para a pasta lixo eletrônico** ou para a coleção SafeList na caixa de correio.
 
 Depois de verificar se a caixa de correio atende a todos os pré-requisitos aplicáveis, [use o centro de conformidade de & de segurança para configurar a caixa de correio de envios de usuários](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) (neste artigo).
 
@@ -118,7 +118,7 @@ As mensagens enviadas para caixas de correio personalizadas precisam seguir um f
 
 `SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
 
-SafetyAPIAction é um dos seguintes valores inteiros:
+onde SafetyAPIAction é um dos seguintes valores inteiros:
 
 - 1: lixo eletrônico
 - 2: não é lixo eletrônico

@@ -26,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem saber mais sobre a proteção de links seguros na proteção avançada contra ameaças do Office 365 (ATP) para proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
-ms.openlocfilehash: c933ce48483f0263650d0af2994023dfcb24fadf
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 7b10a941d63fd654a61c6d6ec78869f4bafb3edd
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414113"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417268"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Links seguros no Office 365 ATP
 
@@ -150,7 +150,7 @@ Em um nível alto, veja como a proteção de links seguros funciona em URLs nas 
 ## <a name="safe-links-settings-for-microsoft-teams"></a>Configurações de links seguros para o Microsoft Teams
 
 > [!IMPORTANT]
-> A partir de março de 2020, esse recurso está em versão prévia e está disponível somente para membros do programa de adoção de tecnologia do Microsoft Teams (toque).
+> A partir de março de 2020, esse recurso está em versão prévia e está disponível somente para membros do programa de adoção de tecnologia do Microsoft Teams (toque). Para obter informações sobre o cronograma de lançamento, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams).
 
 Habilite ou desabilite a proteção de links seguros para o Microsoft Teams em políticas de links seguros. Especificamente, você usa a configuração **selecionar a ação para URLs desconhecidas ou potencialmente mal-intencionadas dentro da Microsoft Teams** . O valor recomendado está **ativado**.
 

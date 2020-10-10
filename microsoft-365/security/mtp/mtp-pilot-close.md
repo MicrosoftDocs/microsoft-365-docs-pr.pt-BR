@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365solution-evalutatemtp
+- m365solution-scenario
+- m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: ec8e630c3669b3eb7af8cb012a0ca361f8c77f1e
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 1a7b87432ce1eb16c29f462fb4865bfa5c5e2201
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368008"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418092"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Fechar e resumir seu piloto de proteção contra ameaças da Microsoft  
 
@@ -76,7 +77,7 @@ ms.locfileid: "48368008"
 
 Você está atualmente na fase de fechamento e resumo.
 
-Você acabou de simular um ataque avançado de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft defender ATP e o Azure ATP detectam e alertam sobre atividades mal-intencionadas fraudulentas. Você também viu como os alertas de fontes diferentes são entregues junto com outras informações contextuais em um único incidente no portal da central de segurança do Microsoft 365, permitindo que os analistas do SOC investiguem e tomem a ação necessária. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
+Você acabou de executar uma simulação avançada de ataque somente de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft defender ATP e o Azure ATP detectam e criam alertas sobre atividades mal-intencionadas fraudulentas. Você também viu como os alertas de fontes diferentes são entregues junto com outras informações contextuais em um único incidente no portal da central de segurança do Microsoft 365. A integração desse tipo permite que analistas do SOC investiguem e tomem a ação necessária. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
 
 Você atingiu o final do processo após todos os testes terem concluído.
 
@@ -86,9 +87,9 @@ A saída final deve ser:
 - Um relatório detalhado das conclusões do piloto
 - Uma decisão sobre como mover para frente
 
-Essas informações devem ser apresentadas para os participantes internos (identificados durante a fase de [preparação](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) ) e contatos da Microsoft. Isso garante que qualquer feedback possa ser usado para melhorar os produtos e a documentação.
+Apresente os relatórios de sua saída final, tanto os participantes internos (identificados durante a fase de [preparação](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) ) e os contatos da Microsoft. Tal esforço garante que qualquer feedback possa ser usado para melhorar os produtos e a documentação.
 
-Esperamos que você tenha gostado dessa simulação e recomendamos começar a implementar o que você aprendeu.
+Esperamos que você tenha aproveitado essa simulação. Comece a implementar o que você aprendeu em uma escala maior em sua organização para aproveitar ao máximo a solução de segurança integrada.
 
 ## <a name="next-step"></a>Próxima etapa
 Saiba mais sobre os pilares de proteção contra ameaças da Microsoft por meio dos seguintes guias interativos:

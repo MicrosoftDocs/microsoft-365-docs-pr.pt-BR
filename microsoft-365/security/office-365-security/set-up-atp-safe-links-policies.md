@@ -1,5 +1,5 @@
 ---
-title: Configurar políticas de links seguros no Office 365 ATP
+title: Configurar políticas de Links Seguros no Office 365 ATP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,14 +17,14 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de links seguros e configurações globais de links seguros na proteção avançada contra ameaças do Office 365 (ATP).
-ms.openlocfilehash: b6b013364fc763450ac8bef0d06bd2fad8d55daa
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: cf60820297401de92781a48f22f70d1f503e3097
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350714"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417255"
 ---
-# <a name="set-up-safe-links-policies-in-office-365-atp"></a>Configurar políticas de links seguros no Office 365 ATP
+# <a name="set-up-safe-links-policies-in-office-365-atp"></a>Configurar políticas de Links Seguros no Office 365 ATP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -88,9 +88,9 @@ A criação de uma política de links seguros personalizada no centro de conform
 
 4. Na página **configurações** que aparece, defina as seguintes configurações:
 
-   - **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens**: selecione **ativado**.
+   - **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas nas mensagens**: selecione **ativado** para habilitar a proteção de links seguros para links em mensagens de email.
 
-   - **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens**: selecione **ativado** ou deixe o valor padrão **desativado** .
+   - **Selecione a ação para URLs desconhecidas ou potencialmente mal-intencionadas no Microsoft Teams**: selecione **ativado** para habilitar a proteção de links seguros para links no Teams.
 
    - **Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos**: Selecione essa configuração para habilitar a verificação em tempo real de links em mensagens de email.
 

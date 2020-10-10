@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
+- m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 79e141ad85eecab827e0caa98fe022f88335c671
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 7e9060c804fcdb8445c8d833d8a43dc90a738b04
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368144"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418152"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-or-pilot-environment"></a>Configurar os pilares de proteção contra ameaças da Microsoft para seu laboratório de avaliação ou ambiente piloto
 

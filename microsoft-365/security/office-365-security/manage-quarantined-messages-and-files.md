@@ -1,5 +1,5 @@
 ---
-title: Gerenciar arquivos e mensagens em quarentena como um administrador
+title: Gerenciar arquivos e mensagens em quarentena como administrador
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários na proteção do Exchange Online (EOP). Administradores nas organizações com a proteção avançada contra ameaças do Office 365 (Office 365 ATP) também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
-ms.openlocfilehash: 1969a282d5d083886b9ad5a8aae54896ea9b1fc1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7e9b49e7e7a90f5271a65bb26cecdd1a7ce2ab84
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202418"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417214"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -65,25 +65,15 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
 3. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. Os valores padrão são marcados com um asterisco (<sup>\*</sup>):
 
    - **Recebido**<sup>\*</sup>
-
    - **Remetente**<sup>\*</sup>
-
    - **Assunto**<sup>\*</sup>
-
    - **Motivo da quarentena**<sup>\*</sup>
-
    - **Lançado?**<sup>\*</sup>
-
    - **Tipo de política**<sup>\*</sup>
-
    - **Recipiente**
-
    - **ID da mensagem**
-
    - **Nome da política**
-
    - **Tamanho**
-
    - **Direção**
 
    Quando você terminar, clique em **Salvar**, ou clique em **Definido como padrão**.
@@ -91,29 +81,19 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
 4. Para filtrar os resultados, clique em **Filtro**. Os filtros disponíveis são:
 
    - **Hora que expira**: filtre as mensagens assim que elas saírem da quarentena:
-
      - **Hoje**
-
      - **Próximos 2 dias**
-
      - **Próximas 7 semanas**
-
      - **Personalizado**: Insira uma **Data de início** e uma **Data de término**.
 
    - **Hora recebida**: Insira uma **Data de início** e uma **Data de término**.
 
    - **Motivo da quarentena**:
-
      - **Política**: a mensagem correspondeu às condições de uma regra de fluxo de emails (também conhecida como regra de transporte).
-
      - **Em massa**
-
-     - **Golpe**
-
+     - **Phish**: o filtro de spam veredicto foi um **email de phishing** ou proteção contra phishing colocou em quarentena a mensagem ([configurações de spoof](set-up-anti-phishing-policies.md#spoof-settings) ou [proteção de personificação](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)).
      - **Malware**
-
      - **Spam**
-
      - **Phishing de alta confiança**
 
    - **Destinatário do email**: todos os usuários ou apenas as mensagens enviadas a você. Os usuários finais só podem gerenciar mensagens em quarentena enviadas para eles.
@@ -175,11 +155,8 @@ Após selecionar uma mensagem, você tem várias opções para o que fazer com a
   - **Relatar mensagens à Microsoft para análise**: isso é selecionado por padrão e relata a mensagem em quarentena errada à Microsoft como um falso positivo. Se a mensagem foi colocada em quarentena como spam, em massa, phishing ou com malware, a mensagem também é relatada para a equipe de análise de spam da Microsoft. Dependendo da análise, as regras de filtro de spam de todo o serviço podem ser ajustadas para permitir a mensagem.
 
   - Escolha uma das seguintes opções:
-
     - **Liberar mensagens para todos os destinatários**
-
     - **Liberar mensagens para destinatários específicos**
-
     - **Liberar mensagens para outras pessoas**
 
   Quando terminar, clique em **Liberar mensagens**.
@@ -195,7 +172,6 @@ Após selecionar uma mensagem, você tem várias opções para o que fazer com a
 - **Visualizar mensagem**: no painel de submenu que é exibido, escolha uma das seguintes opções:
 
   - **Visualização da fonte**: mostra a versão HTML do corpo da mensagem com todos os links desabilitados.
-  
   - **Visualização do texto**: mostra o corpo da mensagem em texto sem formatação.
 
 - **Remover da quarentena**: depois de clicar em **Sim** no aviso exibido, a mensagem será excluída imediatamente sem ser enviada aos destinatários originais.
@@ -245,37 +221,23 @@ Em organizações com ATP, os administradores podem gerenciar arquivos em quaren
 3. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. As colunas padrão são marcadas com um asterisco ( <sup>\*</sup> ):
 
    - **Usuário**<sup>\*</sup>
-
    - **Alocações**<sup>\*</sup>
-
    - **Nome do arquivo**<sup>\*</sup>
-
    - **URL do arquivo**<sup>\*</sup>
-
    - **Tamanho do arquivo**<sup>\*</sup>
-
    - **Expira**<sup>\*</sup>
-
    - **Lançado?**<sup>\*</sup>
-
    - **Detectado por**
-
    - **Modificado por hora**
 
 4. Para filtrar os resultados, clique em **Filtro**. Os filtros disponíveis são:
 
    - **Hora que expira**: filtre as mensagens assim que elas saírem da quarentena:
-
      - **Hoje**
-
      - **Próximos 2 dias**
-
      - **Próximas 7 semanas**
-
      - Um intervalo personalizado de data/hora.
-
    - **Hora de recebimento**
-
    - **Motivo da quarentena**: o único valor disponível é **malware**.
 
 Depois de encontrar um arquivo em quarentena específico, selecione o arquivo para exibir os detalhes sobre ele e execute a ação nele (por exemplo, exibir, liberar, baixar ou excluir a mensagem).
@@ -293,29 +255,17 @@ Depois de encontrar um arquivo em quarentena específico, selecione o arquivo pa
 Quando você seleciona um arquivo na lista, os seguintes detalhes de arquivo são exibidos no painel de submenu **detalhes** :
 
 - **Nome do arquivo**
-
 - **URL do arquivo**: URL que define o local do arquivo (por exemplo, no SharePoint Online).
-
 - **Conteúdo mal-intencionado detectado em** A data/hora em que o arquivo foi colocado em quarentena.
-
 - **Expira**: a data em que o arquivo será excluído da quarentena.
-
 - **Detectado por**: ATP (proteção avançada contra ameaças) ou mecanismo antimalware da Microsoft.
-
 - **Lançado?**
-
 - **Nome do malware**
-
 - **ID do documento**: um identificador exclusivo para o documento.
-
 - **Tamanho do arquivo**: em kilobytes (KB).
-
 - **Organização** A ID exclusiva da sua organização.
-
 - **Última modificação**
-
 - **Modificado por**: o usuário que modificou o arquivo pela última vez.
-
 - **Algoritmo de hash seguro 256 bits (SHA-256) valor**: você pode usar esse valor de hash para identificar o arquivo em outros repositórios de reputação ou em outros locais em seu ambiente.
 
 ### <a name="take-action-on-quarantined-files"></a>Executar ação em arquivos em quarentena
@@ -323,9 +273,7 @@ Quando você seleciona um arquivo na lista, os seguintes detalhes de arquivo sã
 Ao selecionar um arquivo na lista, você pode executar as seguintes ações no arquivo no painel de submenu **detalhes** :
 
 - **Arquivos de lançamento**: selecione (padrão) ou desmarque **arquivos de relatório para a Microsoft para análise**e clique em **liberar arquivos**.
-
 - **Baixar o arquivo**
-
 - **Remover arquivo da quarentena**
 
 Se você não liberar ou remover os arquivos, eles serão excluídos depois que o período de retenção de quarentena padrão expirar.
@@ -335,7 +283,6 @@ Se você não liberar ou remover os arquivos, eles serão excluídos depois que 
 Quando você seleciona vários arquivos em quarentena na lista (até 100), o painel de submenu **ações em massa** aparece onde você pode executar as seguintes ações:
 
 - **Arquivos de versão**
-
 - **Excluir arquivos**: depois de clicar em **Sim** no aviso exibido, os arquivos serão excluídos imediatamente.
 
 1. Usando uma conta corporativa ou de estudante que tenha privilégios de administrador global (ou funções apropriadas de segurança & central de conformidade) em sua organização, entre e [vá para o centro de conformidade de & de segurança](../../compliance/go-to-the-securitycompliance-center.md).
