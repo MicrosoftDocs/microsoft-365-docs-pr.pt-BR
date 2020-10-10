@@ -14,6 +14,7 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -25,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem saber mais sobre a proteção de links seguros na proteção avançada contra ameaças do Office 365 (ATP) para proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
-ms.openlocfilehash: 742ccc82fe5c6fafa4e6c3463cb471b674b77fa9
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c933ce48483f0263650d0af2994023dfcb24fadf
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326605"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414113"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Links seguros no Office 365 ATP
 

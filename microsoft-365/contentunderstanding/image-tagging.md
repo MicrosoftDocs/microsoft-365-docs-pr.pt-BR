@@ -6,17 +6,20 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: MET150
-localization_priority: Priority
+search.appverid: ''
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre a marcação de imagens no SharePoint Syntex
-ms.openlocfilehash: 7b41422633934593de881bdb0c04f0a845a3fe5f
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
-ms.translationtype: HT
+ms.openlocfilehash: c6d7513db2fd6aadabe5d813f3b49073a8f8c933
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321248"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413729"
 ---
 # <a name="image-tagging-in-sharepoint-syntex"></a>Marcação de imagem no SharePoint Syntex
+
+(Em breve)
 
 Com a marcação de imagens no SharePoint Syntex, os usuários podem encontrar imagens por meio de pesquisa, pesquisando em marcas de imagem e criar fluxos de trabalho com base em marcas de imagem. Por padrão, a marcação de imagem básica está habilitada no SharePoint e no OneDrive. As imagens carregadas para qualquer local são automaticamente verificadas e as marcas aplicáveis são aplicadas, caso disponíveis, em uma lista de 37 marcas básicas. Os usuários podem encontrar imagens pesquisando nas marcas de imagem.
 

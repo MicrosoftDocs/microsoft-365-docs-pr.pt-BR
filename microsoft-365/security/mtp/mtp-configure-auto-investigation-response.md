@@ -7,19 +7,20 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 10/07/2020
 ms.prod: microsoft-365-enterprise
 localization_priority: Normal
-ms.collection: M365-security-compliance.
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: f904512f9fd07e2065f3d27a5bd5adc56a3565d5
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 4b49436533855fc4c6a48a149fc23c433985bace
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384793"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413825"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Configurar os recursos de investigação e resposta automatizados no Microsoft Threat Protection
 

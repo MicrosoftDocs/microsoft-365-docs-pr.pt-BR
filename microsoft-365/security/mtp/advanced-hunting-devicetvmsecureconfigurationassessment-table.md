@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: b186574cfc1307dfd8a01f7a77ef60bf91f4b162
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f25c0ad47a520ec23a94775b64a4f1ecc2eb9486
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196984"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414245"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -41,7 +43,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `DeviceId` | string | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7.|
 | `Timestamp` | datetime | Data e hora em que o registro foi gerado |
 | `ConfigurationId` | string | Identificador exclusivo para uma configuração específica |

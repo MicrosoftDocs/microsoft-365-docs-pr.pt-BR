@@ -11,16 +11,18 @@ ms.author: ellevin
 author: levinec
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3eacb8804871d0371ddabbd75c78875a8b49f0d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 83952a34f9d147e016c974c930179ba22a592707
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196138"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414317"
 ---
 # <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de identidade no centro de segurança do Microsoft 365
 

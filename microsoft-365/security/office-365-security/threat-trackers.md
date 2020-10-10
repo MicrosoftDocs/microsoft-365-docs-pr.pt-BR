@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: Saiba mais sobre os rastreadores de ameaças, incluindo novos rastreadores dignos de importância, para ajudar sua organização a se manter informado sobre segurança.
-ms.openlocfilehash: c631a6d9ad56c2bd155a9aa24b3758eb30d10cf7
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: fa5bc6f93eb4722f87828dd064c58e5da50a1297
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327148"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414185"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Rastreadores de ameaça-novidade e digno de sessão
 

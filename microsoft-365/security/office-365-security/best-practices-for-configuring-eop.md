@@ -5,19 +5,18 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas recomendações de práticas recomendadas para proteção autônoma do Exchange Online (EOP) a fim de configurar o sucesso e evitar erros de configuração comuns.
-ms.openlocfilehash: cb3aa36720a6a46932d69341394304937bb1a296
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b734fe87b82c243531944bbd9cf53d22d5b42f53
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203558"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414029"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
@@ -46,7 +45,7 @@ Estas configurações abrangem uma variedade de recursos fora das políticas de 
 
 |Nome do recurso de segurança|Padrão|Impede|Comentário|
 |---|---|---|---|
-|[Configure o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
+|[Configurar o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
 |[Usar DKIM para validar emails enviados de seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md)|Sim|Sim||
 |[Usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)|Sim|Sim|Use `action=quarantine` para padrão e `action=reject` para estrito.|
 |Implantar o [suplemento de mensagem de relatório](enable-the-report-message-add-in.md) para melhorar o relatório do usuário final de emails suspeitos|Sim|Sim||

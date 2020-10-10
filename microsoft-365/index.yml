@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: ad215b1b5115faaaf82f01488aaf864f4b2de392
-  ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+  ms.openlocfilehash: 2b25d2b290723378f0e7ec286a0928add997ea39
+  ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 10/03/2020
-  ms.locfileid: "48350242"
+  ms.lasthandoff: 10/09/2020
+  ms.locfileid: "48398698"
 highlightedContent:
   items:
   - title: Capacitar trabalhadores remotos
@@ -93,7 +93,7 @@ productDirectory:
       text: Implantar a Proteção Avançada contra Ameaças do Microsoft Defender
     - url: security/office-365-security/office-365-atp.md
       text: Implantar a Proteção Avançada contra Ameaças do Office 365
-    - url: enterprise/microsoft-365-policies-configurations.md
+    - url: security/office-365-security/microsoft-365-policies-configurations.md
       text: Configurações de identidade e proteção do acesso ao dispositivo.
   - title: Proteja suas informações e siga os regulamentos
     imageSrc: https://docs.microsoft.com/office/media/icons/certificate-blue.svg
@@ -247,9 +247,12 @@ additionalContent:
     - title: Usuários finais
       summary: Encontre conteúdo de treinamento, instruções e ajuda para usuários do Microsoft 365 em support.microsoft.com.
       url: https://support.microsoft.com/microsoft-365
-    - title: Professores
+    - title: Education IT
       summary: Saiba como desbloquear a criatividade, promover o trabalho em equipe e ter uma experiência simples e segura com o Microsoft 365 Education.
       url: /education
+    - title: Professores
+      summary: Encontre conteúdo de treinamento, instruções e ajuda para educadores usando o Microsoft 365 Education.
+      url: https://support.microsoft.com/education
     - title: Comunidade técnica
       summary: Participe da comunidade técnica do Microsoft 365 para compartilhar experiências, participar e aprender com especialistas.
       url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365

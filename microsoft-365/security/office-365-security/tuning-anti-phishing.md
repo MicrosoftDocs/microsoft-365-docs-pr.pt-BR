@@ -1,5 +1,5 @@
 ---
-title: Ajustar a proteção contra phishing
+title: Ajustar a proteção anti-phishing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -9,17 +9,20 @@ audience: ITPro
 ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
-search.appverid:
+search.appverid: ''
+ms.collection:
+- M365-security-compliance
+- m365-initiative-defender-office365
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: 813a9c263d9cc620606c7a5e272e47bdaf1ff7a7
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: ca1030141dd18797c7672b95ccae60b86fe9b7f2
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328054"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414149"
 ---
-# <a name="tune-anti-phishing-protection"></a>Ajustar a proteção contra phishing
+# <a name="tune-anti-phishing-protection"></a>Ajustar a proteção anti-phishing
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -72,7 +75,7 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
   Para obter instruções de configuração, consulte:
   
-  - [Configure o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  - [Configurar o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   - [Usar o DKIM para validar emails enviados de seu domínio personalizado](use-dkim-to-validate-outbound-email.md)
 

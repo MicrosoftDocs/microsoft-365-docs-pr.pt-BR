@@ -11,15 +11,17 @@ ms.author: lomayor
 author: lomayor
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: c4cb142e06835101eae94365ef2d36ea8287ca9b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7fd3850da7c81bca0ca5176b38056e26be2cc468
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195588"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414209"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
 

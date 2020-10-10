@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: df3b3c7a0e8d8f614e5f743b445af07916f1dfd5
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 333e9c03cea9f16393169396ca016b09fd6a359d
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326586"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413969"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Modos de Exibição de Campanha no Office 365 ATP
 
