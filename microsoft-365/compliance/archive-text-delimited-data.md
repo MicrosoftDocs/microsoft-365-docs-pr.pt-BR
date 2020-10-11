@@ -12,24 +12,24 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados delimitados por texto do Globanet para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 854e678067a26fd5fa1f89eb4b2f4f0327eac7a0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 71614949e13e08d522ae8a7feb501dd439594e13
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196570"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408661"
 ---
 # <a name="set-up-a-connector-to-archive-text-delimited-data"></a>Configurar um conector para arquivar dados delimitados por texto
 
-Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados delimitados por texto para caixas de correio de usuários na sua organização do Microsoft 365. O [Globanet](https://globanet.com/merge1/) fornece um conector delimitado por texto que é configurado para capturar itens de uma fonte de dados de terceiros (em uma base regular) e importá-los para o Microsoft 365. O conector converte o conteúdo da fonte de dados delimitada por texto em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
+Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados delimitados por texto para caixas de correio de usuários na sua organização do Microsoft 365. O Globanet fornece um [conector delimitado por texto](https://globanet.com/text-delimited) que é configurado para capturar itens de uma fonte de dados de terceiros (em uma base regular) e importá-los para o Microsoft 365. O conector converte o conteúdo da fonte de dados delimitada por texto em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
-Depois que os dados delimitados por texto são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, descoberta eletrônica, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso de um conector de reuniões de zoom para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Depois que os dados delimitados por texto são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, descoberta eletrônica e políticas de retenção e rótulos de retenção. O uso de um conector de dados delimitado por texto para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 Após arquivar, as comunicações de origem delimitadas por texto podem ser mantidas, supervisionadas para fins de conformidade e recuperadas para o eDiscovery e o controle de informações internas.
 
-## <a name="overview-of-archiving-the-text-delimited-source"></a>Visão geral do arquivamento da fonte delimitada por texto
+## <a name="overview-of-archiving-the-text-delimited-data"></a>Visão geral do arquivamento de dados delimitados por texto
 
-A visão geral a seguir explica o processo de usar um conector para arquivar as informações de origem delimitadas por texto no Microsoft 365.
+A visão geral a seguir explica o processo de usar um conector para arquivar informações de origem delimitadas por texto no Microsoft 365.
 
 ![Fluxo de trabalho de arquivamento para dados delimitados por texto](../media/TextDelimitedConnectorWorkflow.png)
 
@@ -39,7 +39,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar as 
 
 3. O conector de texto delimitado que você cria no centro de conformidade da Microsoft 365, conecta-se ao site do Globanet Merge1 todos os dias e transfere as mensagens para um local seguro de armazenamento do Azure na nuvem da Microsoft.
 
-4. O conector importa os itens de mensagem convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *email* do mapeamento de usuário automático, conforme descrito na etapa 3. Uma nova subpasta na pasta caixa de entrada denominada **texto delimitado** será criada nas caixas de correio do usuário e os itens de mensagem serão importados para essa pasta. O conector faz isso usando o valor da propriedade *email* . Cada mensagem contém essa propriedade, que é preenchida com o endereço de email de cada participante da mensagem.
+4. O conector importa os itens de mensagem convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *email* do mapeamento de usuário automático, conforme descrito na etapa 3. Uma nova subpasta na pasta caixa de entrada denominada **texto delimitado** é criada nas caixas de correio do usuário e os itens de mensagem são importados para essa pasta. O conector faz isso usando o valor da propriedade *email* . Cada mensagem contém essa propriedade, que é preenchida com o endereço de email de cada participante da mensagem.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -63,7 +63,7 @@ A primeira etapa é acessar a página **conectores de dados** no centro de confo
 
 ## <a name="step-2-configure-the-text-delimited-connector-on-the-globanet-merge1-site"></a>Etapa 2: configurar o conector delimitado por texto no site do Globanet Merge1
 
-A segunda etapa é configurar o conector delimitado por texto no site do Merge1. Para obter informações sobre como configurar o conector delimitado por texto no site do Globanet Merge1, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Text-Delimited%20User%20Guide%20.pdf).
+A segunda etapa é configurar o conector delimitado por texto no site do Merge1. Para obter informações sobre como configurar o conector delimitado por texto no site do Globanet Merge1, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20text-delimited%20User%20Guide%20.pdf).
 
 Após clicar em **salvar & concluir**, você voltará para o centro de conformidade da Microsoft 365, para a página **mapeamento de usuário** do assistente de conector.
 
@@ -73,7 +73,7 @@ Para mapear usuários e concluir a configuração do conector no centro de confo
 
 1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens de origem delimitados por texto incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
-2. Na página **consentimento do administrador** , clique no botão **fornecer consentimento** . Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
+2. Na página **consentimento do administrador** , clique em **fornecer consentimento**. Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
 
    Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para fornecer o consentimento do administrador, você deve estar conectado com as credenciais de um administrador global do Microsoft 365 e aceitar a solicitação de consentimento. Se você não estiver conectado como um administrador global, poderá ir para [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entrar usando as credenciais de administrador global para aceitar a solicitação.
 

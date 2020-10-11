@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados da ferramenta de chat ICE para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 94a2d35b9bb8d3a0edae0eebeae53d7dd7b04af2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: cd56e98aadc2b7328b733939ecc8951413309ba5
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196364"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408761"
 ---
 # <a name="set-up-a-connector-to-archive-ice-chat-data"></a>Configurar um conector para arquivar dados de chat de gelo
 
@@ -37,7 +37,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 3. O conector de chat de gelo que você cria no centro de conformidade da Microsoft 365 conecta-se ao site do ICE do chat SFTP todos os dias e transfere as mensagens de chat das últimas 24 horas para um local seguro de armazenamento do Azure na nuvem da Microsoft. O conector também converte o conteúdo de um massage de chat em um formato de mensagem de email.
 
-4. O conector importa itens de mensagem de chat para as caixas de correio de usuários específicos. Uma nova pasta chamada **Ice chat** será criada nas caixas de correio do usuário e os itens da mensagem de chat serão importados para essa pasta. O conector faz usando o valor das propriedades *SenderEmail* e *RecipientEmail* . Cada mensagem de chat contém essas propriedades, que são preenchidas com o endereço de email do remetente e todos os destinatários/participantes da mensagem de chat.
+4. O conector importa itens de mensagem de chat para as caixas de correio de usuários específicos. Uma nova pasta chamada **chat de gelo** é criada nas caixas de correio do usuário e os itens da mensagem de chat são importados para essa pasta. O conector faz usando o valor das propriedades *SenderEmail* e *RecipientEmail* . Cada mensagem de chat contém essas propriedades, que são preenchidas com o endereço de email do remetente e todos os destinatários/participantes da mensagem de chat.
 
    Além do mapeamento automático de usuários que usa os valores da propriedade *SenderEmail* e *RecipientEmail* (o que significa que o conector importa uma mensagem de chat para a caixa de correio do remetente e as caixas de correio de cada destinatário), você também pode definir o mapeamento de usuários personalizados carregando um arquivo de mapeamento CSV. Este arquivo de mapeamento contém o *ImId* de bate-papo Ice e o endereço de caixa de correio do Microsoft 365 correspondente para todos os usuários da sua organização. Se você habilitar o mapeamento automático de usuários e fornecer um arquivo de mapeamento personalizado, para cada item de chat, o conector examinará primeiro o arquivo de mapeamento personalizado. Se não encontrar uma conta de usuário válida da Microsoft 365 que corresponda ao ImId de chat do gelo de um usuário, o conector usará as propriedades *SenderEmail* e *RecipientEmail* do item de chat para importar o item para as caixas de correio dos participantes do chat. Se o conector não localizar um usuário válido do Microsoft 365 no arquivo de mapeamento personalizado ou nas propriedades *SenderEmail* e *RecipientEmail* , o item não será importado.
 

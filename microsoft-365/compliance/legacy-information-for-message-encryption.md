@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como fazer a transição de arquivos herdados para a OME (criptografia de mensagem do Office 365) para sua organização.
-ms.openlocfilehash: 06c0e41d6c3b7cbf7d06bf6aae82742211bd2542
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: ecf4723df9afdf09d63150a3ec7564df44dd9808
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306500"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408989"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Informações herdadas de Criptografia de Mensagens do Office 365
 
@@ -61,13 +61,108 @@ Para obter mais informações, consulte [Service Information for Legacy Office 3
   
 ## <a name="defining-mail-flow-rules-for-office-365-message-encryption-that-dont-use-the-new-ome-capabilities"></a>Definindo regras de fluxo de email para a criptografia de mensagem do Office 365 que não usam os novos recursos do OME
 
-Para habilitar a criptografia de mensagem do Office 365 sem os novos recursos, os administradores do Exchange Online e do Exchange Online Protection definem as regras de fluxo de email do Exchange. Essas regras determinam sob quais condições as mensagens de email devem ser criptografadas, bem como as condições para remover a criptografia de mensagens. Quando uma ação de criptografia é definida para uma regra, quaisquer mensagens que correspondam às condições de regra são criptografadas antes de serem enviadas.
-  
+Para habilitar a criptografia de mensagem do Office 365 sem os novos recursos, os administradores do Exchange Online e do Exchange Online Protection definem as regras de fluxo de email do Exchange. Essas regras determinam sob quais condições as mensagens de email devem ser criptografadas, bem como as condições para remover a criptografia de mensagens. Quando uma ação de criptografia é definida para uma regra, o serviço executa a ação em todas as mensagens que correspondam às condições de regra antes de enviar as mensagens.
+
 As regras de fluxo de emails são flexíveis, permitindo que você combine condições para que possa atender a requisitos específicos de segurança em uma única regra. Por exemplo, você pode criar uma regra para criptografar todas as mensagens que contenham palavras-chave específicas e que sejam endereçadas a destinatários externos. A Criptografia de Mensagens do Office 365 também criptografa os emails de respostas dos destinatários e é possível criar uma regra para descriptografar essas respostas para a comodidade dos seus usuários de email. Dessa forma, os usuários em sua organização não precisarão entrar no portal de criptografia para exibir respostas.
   
 Para obter mais informações sobre como criar regras de fluxo de email do Exchange, consulte [definir regras para a criptografia de mensagem do Office 365](define-mail-flow-rules-to-encrypt-email.md).
   
-## <a name="sending-viewing-and-replying-to-encrypted-email-messages"></a>Enviar, visualizar e responder mensagens de email criptografadas
+### <a name="use-the-eac-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>Use o Eat para criar uma regra de fluxo de emails para criptografar mensagens de email sem os novos recursos do OME
+
+1. Em um navegador da Web, usando uma conta corporativa ou de estudante que recebeu permissões de administrador global, [entre no Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
+
+2. Escolha o bloco **administrador** .
+
+3. No centro de administração do Microsoft 365, escolha central de **Administração** do \> **Exchange**.
+
+4. No Eat, vá para regras de **fluxo de email** \> **Rules** e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+
+5. Em **nome**, digite um nome para a regra, como criptografar email para DrToniRamos@hotmail.com.
+
+6. Em **Aplicar esta regra se**, selecione uma condição e digite um valor, se necessário. Por exemplo, para criptografar mensagens enviadas a DrToniRamos@hotmail.com:
+
+   1. Em **Aplicar esta regra se**, selecione **o destinatário é**.
+
+   2. Escolha um nome existente na lista de contatos ou digite um novo endereço de email na caixa **verificar nomes**.
+
+      - Para selecionar um nome existente, escolha-o na lista e clique em **OK**.
+
+      - Para inserir um novo nome, digite um endereço de email na caixa **verificar nomes** e selecione **verificar nomes** \> **OK**.
+
+7. Para adicionar mais condições, escolha **mais opções** e selecione **Adicionar condição** e selecione na lista.
+
+   Por exemplo, para aplicar a regra apenas se o destinatário estiver fora da sua organização, selecione **Adicionar condição** e selecione **o destinatário é externo/interno** \> **fora da organização** \> **OK**.
+
+8. Para habilitar a criptografia sem usar os novos recursos do ome, em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **aplique a versão anterior do ome**e, em seguida, escolha **salvar**.
+
+   Se você receber um erro de que o licenciamento do IRM não está habilitado, então você não está usando o OME herdado.
+
+9. Opcion Escolha **Adicionar ação** para especificar outra ação.
+
+### <a name="use-exchange-online-powershell-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>Usar o PowerShell do Exchange Online para criar uma regra de fluxo de emails para criptografar mensagens de email sem os novos recursos do OME
+
+1. Conecte-se ao PowerShell do Exchange Online. Para saber mais, confira [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+
+2. Crie uma regra usando o cmdlet **New-TransportRule** e defina o parâmetro _ApplyOME_ para `$true` .
+
+   Este exemplo requer que todas as mensagens de email enviadas para DrToniRamos@hotmail.com devem ser criptografadas.
+
+   ```powershell
+   New-TransportRule -Name "Encrypt rule for Dr Toni Ramos" -SentTo "DrToniRamos@hotmail.com" -SentToScope "NotinOrganization" -ApplyOME $true
+   ```
+
+   Onde
+
+   - O nome exclusivo da nova regra é "criptografar regra para Dr Toni ramos".
+   - O parâmetro _SentTo_ especifica os destinatários da mensagem (identificados por nome, endereço de email, nome diferenciado, etc.). Neste exemplo, o destinatário é identificado pelo endereço de email "DrToniRamos@hotmail.com".
+   - O parâmetro _SentToScope_ especifica a localização dos destinatários da mensagem. Neste exemplo, a caixa de correio do destinatário está no hotmail e não faz parte da organização, portanto, o valor `NotInOrganization` é usado.
+
+   Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/New-TransportRule).
+
+### <a name="remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Remover a criptografia de respostas de email criptografadas sem os novos recursos do OME
+
+Quando os usuários de email enviam mensagens criptografadas, os destinatários dessas mensagens podem responder com respostas criptografadas. Você pode criar regras de fluxo de email para remover automaticamente a criptografia das respostas para que os usuários de email em sua organização não precisem entrar no portal de criptografia para exibi-las. Você pode usar os cmdlets Eat ou Windows PowerShell para definir essas regras. Você pode descriptografar mensagens enviadas de dentro da sua organização ou mensagens que são respostas a mensagens enviadas de dentro da sua organização. Você não pode descriptografar mensagens criptografadas de fora da sua organização.
+
+#### <a name="use-the-eac-to-create-a-rule-for-removing-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Use o Eat para criar uma regra para remover a criptografia de respostas de email criptografadas sem os novos recursos do OME
+
+1. Em um navegador da Web, usando uma conta corporativa ou de estudante que recebeu permissões de administrador, [entre no Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
+
+2. Escolha o bloco **administrador** .
+
+3. No centro de administração do Microsoft 365, escolha central de **Administração** do \> **Exchange**.
+
+4. No Eat, vá para regras de **fluxo de email** \> **Rules** e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+
+5. Em **nome**, digite um nome para a regra, como remover criptografia de emails de entrada.
+
+6. Em **aplicar esta regra, se** selecionar as condições em que a criptografia deve ser removida das mensagens, como **o destinatário está localizado** \> **dentro da organização**.
+
+7. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **remover a versão anterior do ome**.
+
+8. Selecione **Salvar**.
+
+#### <a name="use-exchange-online-powershell-to-create-a-rule-to-remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Usar o PowerShell do Exchange Online para criar uma regra para remover a criptografia de respostas de email criptografadas sem os novos recursos do OME
+
+1. Conecte-se ao PowerShell do Exchange Online. Para saber mais, confira [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+
+2. Crie uma regra usando o cmdlet **New-TransportRule** e defina o parâmetro _RemoveOME_ para `$true` .
+
+   Este exemplo remove a criptografia de todos os emails enviados para destinatários na organização.
+
+   ```powershell
+   New-TransportRule -Name "Remove encryption from incoming mail" -SentToScope "InOrganization" -RemoveOME $true
+   ```
+
+   Onde
+
+   - O nome exclusivo da nova regra é "remover a criptografia de emails de entrada".
+   - O parâmetro _SentToScope_ especifica a localização dos destinatários da mensagem. Neste exemplo, o valor value `InOrganization` é usado, o que indica uma das seguintes opções:
+     - O destinatário é uma caixa de correio, usuário de email, grupo ou pasta pública habilitada para email em sua organização.
+     - O endereço de email do destinatário está em um domínio aceito configurado como um domínio autoritativo ou um domínio de retransmissão interno em sua organização, _e_ a mensagem foi enviada ou recebida através de uma conexão autenticada.
+
+Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/New-TransportRule).
+
+## <a name="sending-viewing-and-replying-to-messages-encrypted-without-the-new-capabilities"></a>Enviar, exibir e responder a mensagens criptografadas sem os novos recursos
 
 Com a criptografia de mensagem do Office 365, as mensagens de email são criptografadas automaticamente, com base em regras definidas pelo administrador. Um email que possui uma mensagem criptografada chega à caixa de entrada do destinatário com um arquivo HTML anexado.
   
@@ -76,7 +171,7 @@ Os destinatários seguem instruções na mensagem para abrir o anexo e autentica
 ## <a name="customize-encrypted-messages-with-office-365-message-encryption"></a>Personalizar mensagens criptografadas com a criptografia de mensagem do Office 365
 
 Como administrador de proteção do Exchange Online e do Exchange Online, você pode personalizar suas mensagens criptografadas. Por exemplo, você pode adicionar a marca e o logotipo da sua empresa, especificar uma introdução e adicionar texto de aviso de isenção de responsabilidade em mensagens criptografadas e no portal em que os destinatários exibem suas mensagens criptografadas. Usando cmdlets do Windows PowerShell, você pode personalizar os seguintes aspectos da experiência de visualização dos destinatários de mensagens de email criptografadas.
-  
+
 - Texto introdutório do email que contém a mensagem criptografada
 
 - Texto do aviso de isenção de responsabilidade do email que contém a mensagem criptografada
@@ -91,7 +186,7 @@ O exemplo a seguir mostra um logotipo personalizado para a ContosoPharma no anex
   
 ![Exemplo da página de exibição de mensagem criptografada](../media/TA-OME-3attachment2.jpg)
   
- **Para personalizar as mensagens de email de criptografia e o portal de criptografia com a marca da sua organização**
+**Para personalizar as mensagens de email de criptografia e o portal de criptografia com a marca da sua organização**
   
 1. Conecte-se ao Exchange Online usando o PowerShell remoto, conforme descrito em [Connect to Exchange Online using Remote PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -99,14 +194,14 @@ O exemplo a seguir mostra um logotipo personalizado para a ContosoPharma no anex
 
    **Opções de personalização de criptografia**
 
-|**Para personalizar este recurso da experiência com criptografia**|**Utilize estes comandos do Windows PowerShell**|
+**Para personalizar este recurso da experiência com criptografia**|**Utilize estes comandos do Windows PowerShell**|
 |:-----|:-----|
 |Texto padrão que acompanha as mensagens de email criptografadas  <br/> O texto padrão é exibido acima das instruções para a exibição de mensagens criptografadas  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **Exemplo:** `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
 |Declaração de isenção de responsabilidade nos emails que contêm a mensagem criptografada  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **Exemplo:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
 |Texto que aparece na parte superior do portal de exibição do email criptografado  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **Exemplo:** `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
 |Logotipo  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **Exemplo:** `Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Formatos de arquivo com suporte: .png, .jpg, .bmp ou .tiff  <br/> Tamanho ideal do arquivo de logotipo: menos que 40 KB  <br/> Tamanho ideal da imagem de logotipo: 170 pixels x 70 pixels  <br/> |
 
- **Para remover as personalizações de marca de mensagens de email de criptografia e do portal de criptografia**
+**Para remover as personalizações de marca de mensagens de email de criptografia e do portal de criptografia**
   
 1. Conecte-se ao Exchange Online usando o PowerShell remoto, conforme descrito em [Connect to Exchange Online using Remote PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
 
@@ -195,7 +290,7 @@ A criptografia de mensagem do Office 365 usa o Rights Management Services (RMS) 
 
 Para obter mais informações, consulte [modos criptográficos do AD RMS](https://go.microsoft.com/fwlink/p/?LinkId=398616).
   
- **P. Por que algumas mensagens criptografadas dizem que elas vêm do** Office365@messaging.microsoft.com?
+**P. Por que algumas mensagens criptografadas dizem que elas vêm do** Office365@messaging.microsoft.com?
   
 Quando uma resposta criptografada é enviada do portal de criptografia ou pelo aplicativo Visualizador de OME, o endereço de email de envio é definido como Office365@messaging.microsoft.com, porque a mensagem criptografada é enviada por meio de um ponto de extremidade da Microsoft. Isso ajuda a impedir que mensagens criptografadas sejam marcadas como spam. O nome exibido no email e o endereço do portal de criptografia não são alterados por causa desse rótulo. Além disso, esse rótulo só se aplica às mensagens enviadas pelo portal, não por qualquer outro cliente de email.
   
@@ -223,7 +318,7 @@ Não há um relatório que mostra se uma mensagem criptografada foi exibida, mas
   
 A [declaração de privacidade do portal de criptografia de mensagens do Office 365](https://privacy.microsoft.com/privacystatement) fornece informações detalhadas sobre o que a Microsoft faz e não faz com suas informações particulares.
 
-## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>O que fazer se eu não receber o código de passagem única depois de solicitá-lo?
+**T. O que fazer se eu não receber o código de passagem única depois de solicitá-lo?**
 
 Primeiro, verifique a pasta de lixo eletrônico ou spam em seu cliente de email. As configurações do DKIM e do DMARC para sua organização podem fazer com que esses emails terminem de ser filtrados como spam.
 
