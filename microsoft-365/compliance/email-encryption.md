@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 description: Compara as opções de criptografia, incluindo a Criptografia de Mensagem do Office (OME), S/MIME, Gerenciamento de Direitos de Informação (IRM) e apresenta o protocolo TLS (Protocolo TLS).
-ms.openlocfilehash: 43c3b25fb5a7b045590d1c3e2f16df681e48ecc0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4dd3d645f17b8eb0edec868b11b631e8ef80d219
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631746"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408999"
 ---
 # <a name="email-encryption"></a>Criptografia de email
 

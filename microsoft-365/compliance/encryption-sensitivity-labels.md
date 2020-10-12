@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a1be64f98def6676e27e1e0c1b3f7e031b31cba
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a734d6f71a943964775477199025180d1a41426e
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196616"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408621"
 ---
-# <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
+# <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
@@ -68,7 +68,6 @@ Configurar as opções de criptografia:
 
 ![Opções de rótulo de confidencialidade para criptografia](../media/encrytion-options-sensitivity-label.png)
 
-
 ### <a name="what-happens-to-existing-encryption-when-a-labels-applied"></a>O que acontece com a criptografia existente quando um rótulo é aplicado
 
 Se um rótulo de confidencialidade for aplicado ao conteúdo não criptografado, o resultado das opções de criptografia que você poderá selecionar será autoexplicativo. Por exemplo, se a criptografia estiver definida como **Nenhuma**, o conteúdo permanecerá não criptografado.
@@ -88,6 +87,7 @@ A tabela a seguir identifica o que acontece com uma criptografia existente quand
 |**Rótulo com permissões definidas por administrador**|A criptografia original é removida|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
 
 Observe que, em casos em que a nova criptografia de rótulo é aplicada ou a criptografia original é removida, isso só acontece se o usuário que está aplicando o rótulo tiver um direito de uso ou função que dê suporte a essa ação:
+
 - O [direito de uso](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total.
 - A função do [emissor de Gerenciamento de Direitos ou do proprietário de Gerenciamento de Direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) ou [superusuário](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
@@ -99,7 +99,7 @@ Por exemplo, a pessoa que aplica o Não Encaminhar a uma mensagem de email pode 
 
 Quando uma mensagem de email é criptografada por qualquer método, todos os documentos do Office não criptografados que são anexados ao email herdam automaticamente as mesmas configurações de criptografia.
 
-Os documentos que já estão criptografados e depois são adicionados como anexos sempre preservam a criptografia original. 
+Os documentos que já estão criptografados e depois são adicionados como anexos sempre preservam a criptografia original.
 
 ## <a name="configure-encryption-settings"></a>Definir configurações da criptografia
 
@@ -112,10 +112,9 @@ Por exemplo, se você tiver um rótulo de confidencialidade denominado **Altamen
 
 Como alternativa, se você tiver um rótulo de confidencialidade denominado **Contratos de Negócios**, e o fluxo de trabalho da sua organização exigir que as pessoas colaborem nesse conteúdo com outras pessoas de forma ad hoc, talvez você queira permitir que seus os usuários decidam quem receberá permissões quando atribui o rótulo. Essa flexibilidade auxilia não só a produtividade dos usuários como também reduz as solicitações dos seus administradores de atualizar ou criar novos rótulos de sensibilidade para cenários específicos.
 
-Optar por atribuir permissões agora ou permitir que os usuários atribuam permissões: 
+Optar por atribuir permissões agora ou permitir que os usuários atribuam permissões:
 
 ![Opção para adicionar permissões definidas por usuários ou administradores](../media/sensitivity-label-user-or-admin-defined-permissions.png)
-
 
 ## <a name="assign-permissions-now"></a>Atribuir permissões agora
 
@@ -162,7 +161,7 @@ Quando você atribui permissões, pode escolher:
 - Qualquer usuário específico ou grupo de segurança habilitado para e-mail, grupo de distribuição ou grupo do Microsoft 365 ([anteriormente grupo do Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) no Azure AD. O grupo do Microsoft 365 pode ter uma [associação estática ou dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Observe que você não pode usar um [grupo de distribuição dinâmico do Exchange](https://docs.microsoft.com/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups) porque esse tipo de grupo não está sincronizado com o Microsoft Azure Active Directory e não pode usar um grupo de segurança que não esteja habilitado para email.
 
 - Qualquer endereço de email ou domínio. Use esta opção para especificar todos os usuários em outra organização que usa o Azure AD, inserindo qualquer nome de domínio dessa organização. Você também pode usar essa opção para provedores sociais, inserindo o nome de domínio, como **gmail.com**, **hotmail.com** ou **outlook.com**.
-    
+
     > [!NOTE]
     > Se você especificar um domínio de uma organização que usa o Azure AD, não será possível restringir o acesso a esse domínio específico. Em vez disso, todos os domínios verificados no Azure AD são incluídos automaticamente para o locatário que possui o nome de domínio especificado por você.
 
@@ -175,6 +174,7 @@ Como prática recomendada, use grupos em vez de usuários. Essa estratégia mant
 Essa configuração não restringe as pessoas que podem acessar o conteúdo que o rótulo criptografa, ainda criptografando o conteúdo e fornecendo opções para restringir a maneira como o conteúdo pode ser usado (permissões) e acessado (expiração e acesso offline). No entanto, o aplicativo que está abrindo o conteúdo criptografado deve ser capaz de oferecer suporte à autenticação que está sendo usada. Por esse motivo, os provedores sociais federados, como o Google, e a autenticação de senha única funcionam apenas para email e somente quando você usa o Exchange Online. As contas da Microsoft podem ser usadas com aplicativos do Office 365 e com o [visualizador da Proteção de Informações do Azure](https://portal.azurerms.com/#/download).
 
 Alguns cenários típicos para qualquer configuração de usuários autenticados:
+
 - Você não se importa em quem vê o conteúdo, mas deseja restringir a maneira como ele é usado. Por exemplo, você não deseja que o conteúdo seja editado, copiado ou impresso.
 - Você não deseja restringir as pessoas que acessam o conteúdo, mas deseja pode confirmar quem o abre.
 - Você possui um requisito de que o conteúdo deve ser criptografado em repouso e em trânsito, mas não requer controles de acesso.
@@ -223,10 +223,11 @@ Você pode usar essas opções para permitir que os usuários atribuam permissõ
 
 - No Outlook, um usuário pode aplicar restrições equivalentes à opção [Não Encaminhar](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) para os destinatários escolhidos.
 
-- No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos. 
+- No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos.
+
     > [!NOTE]
     > Essa opção para o Word, o PowerPoint e o Excel têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para aplicativos que usam rótulos internos, [verificar quais aplicativos os oferecem suporte](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint).
-    > 
+    >
     > Se essa opção estiver selecionada, mas não for compatível com o aplicativo de um usuário, esse rótulo não será exibido para o usuário, ou o rótulo exibirá por consistência, mas não poderá ser aplicado a uma mensagem de explicação aos usuários.
 
 Quando houver suporte para as opções, use a tabela a seguir para identificar quais usuários verão o rótulo de confidencialidade:
@@ -272,7 +273,6 @@ Para rotulagem interna, os usuários visualizam a mesma caixa de diálogo se sel
 
 - Mac: guia **Revisar** > **Proteção** > **Permissões** > **Acesso Restrito**
 
-
 ## <a name="example-configurations-for-the-encryption-settings"></a>Exemplos de configurações para as configurações de criptografia
 
 Para cada exemplo a seguir, faça a configuração na página **Criptografia** do assistente ao [criar ou editar rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels). Primeiro, certifique-se que a opção **Criptografia** está definida como **Aplicar**:
@@ -281,18 +281,17 @@ Para cada exemplo a seguir, faça a configuração na página **Criptografia** d
 
 ### <a name="example-1-label-that-applies-do-not-forward-to-send-an-encrypted-email-to-a-gmail-account"></a>Exemplo 1: Rótulo que aplica Não Encaminhar para enviar um email criptografado para uma conta do Gmail
 
-Esse rótulo é exibido apenas no Outlook e no Outlook na Web, e você deve usar o Exchange Online. Instrua os usuários a selecionar esse rótulo quando precisarem enviar um email criptografado para pessoas que usam uma conta do Gmail (ou qualquer outra conta de email fora da sua organização). 
+Esse rótulo é exibido apenas no Outlook e no Outlook na Web, e você deve usar o Exchange Online. Instrua os usuários a selecionar esse rótulo quando precisarem enviar um email criptografado para pessoas que usam uma conta do Gmail (ou qualquer outra conta de email fora da sua organização).
 
-Os usuários digitam o endereço de email do Gmail na caixa **Para**.  Em seguida, eles selecionam o rótulo e a opção Não Encaminhar é adicionada automaticamente ao email. O resultado é que os destinatários não podem encaminhar o email, imprimi-lo, copiá-lo ou salvá-lo fora da caixa de correio usando a opção **Salvar Como**. 
+Os usuários digitam o endereço de email do Gmail na caixa **Para**.  Em seguida, eles selecionam o rótulo e a opção Não Encaminhar é adicionada automaticamente ao email. O resultado é que os destinatários não podem encaminhar o email, imprimi-lo, copiá-lo ou salvá-lo fora da caixa de correio usando a opção **Salvar Como**.
 
 1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** selecione**Permitir que os usuários atribuam permissões ao aplicar o rótulo**.
 
-3. Marque a caixa de seleção: **No Outlook, impor restrições equivalentes à opção Não Encaminhar**.
+2. Marque a caixa de seleção: **No Outlook, impor restrições equivalentes à opção Não Encaminhar**.
 
-4. Se selecionad0, desmarque a caixa de seleção: **No Word, PowerPoint e Excel, solicite aos usuários que especifiquem permissões**.
+3. Se selecionad0, desmarque a caixa de seleção: **No Word, PowerPoint e Excel, solicite aos usuários que especifiquem permissões**.
 
-5. Selecione **Próximo** e conclua o assistente.
-
+4. Selecione **Próximo** e conclua o assistente.
 
 ### <a name="example-2-label-that-restricts-read-only-permission-to-all-users-in-another-organization"></a>Exemplo 2: Rótulo que restringe a permissão somente leitura para todos os usuários em outra organização
 
@@ -302,22 +301,21 @@ Esse rótulo não é adequado para emails.
 
 1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** selecione **Atribuir permissões agora**.
 
-3. Para **Permitir acesso offline**, selecione **Nunca**.
+2. Para **Permitir acesso offline**, selecione **Nunca**.
 
-4. Selecione **Atribuir permissões**.
+3. Selecione **Atribuir permissões**.
 
-3. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios específicos**.
+4. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios específicos**.
 
-4. Na caixa de texto, insira o nome de um domínio da outra organização, por exemplo, **fabrikam.com**. Em seguida, selecione **OK**.
+5. Na caixa de texto, insira o nome de um domínio da outra organização, por exemplo, **fabrikam.com**. Em seguida, selecione **OK**.
 
-5. Clique em **Selecionar permissões**.
+6. Clique em **Selecionar permissões**.
 
-6. No painel **Escolher permissões**, marque a caixa suspensa, selecione **Visualizador** e, em seguida, selecione **Salvar**.
+7. No painel **Escolher permissões**, marque a caixa suspensa, selecione **Visualizador** e, em seguida, selecione **Salvar**.
 
-6. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
+8. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
 
-7. Na página **Criptografia**, selecione **Próximo** e conclua o assistente.
-
+9. Na página **Criptografia**, selecione **Próximo** e conclua o assistente.
 
 ### <a name="example-3-add-external-users-to-an-existing-label-that-encrypts-content"></a>Exemplo 3: Adicionar usuários externos a um rótulo existente que criptografa conteúdo
 
@@ -339,10 +337,9 @@ Os novos usuários que você adicionar poderão abrir documentos e emails que j�
 
 8. Na página **Criptografia**, selecione **Próximo** e conclua o assistente.
 
-
 ### <a name="example-4-label-that-encrypts-content-but-doesnt-restrict-who-can-access-it"></a>Exemplo 4: Rótulo que criptografa o conteúdo, mas não restringe quem pode acessá-lo
 
-Essa configuração tem a vantagem de que você não precisa especificar usuários, grupos ou domínios para criptografar um email ou documento. O conteúdo ainda será criptografado e você ainda poderá especificar os direitos de uso, uma data de vencimento e o acesso offline. 
+Essa configuração tem a vantagem de que você não precisa especificar usuários, grupos ou domínios para criptografar um email ou documento. O conteúdo ainda será criptografado e você ainda poderá especificar os direitos de uso, uma data de vencimento e o acesso offline.
 
 Use essa configuração somente quando não precisar restringir quem pode abrir o documento protegido ou o email. [Mais informações sobre essa configuração](#requirements-and-limitations-for-add-any-authenticated-users)
 
@@ -352,8 +349,8 @@ Use essa configuração somente quando não precisar restringir quem pode abrir 
 
 3. Selecione **Atribuir permissões**.
 
-4. No painel **Atribuir permissões**, selecione **Adicionar todos os usuários autenticados**. 
-    
+4. No painel **Atribuir permissões**, selecione **Adicionar todos os usuários autenticados**.
+
     Para **Usuários e grupos**, você vê **Usuários autenticados** adicionado automaticamente. Você não pode alterar esse valor, só excluí-lo, o que cancela a seleção **Adicionar todos os usuários autenticados**.
 
 5. Clique em **Selecionar permissões**.
@@ -369,26 +366,26 @@ Use essa configuração somente quando não precisar restringir quem pode abrir 
 Criptografar seus documentos e emails mais confidenciais ajuda a garantir que somente pessoas autorizadas possam acessar esses dados. No entanto, há algumas coisas a se considerar:
 
 - Se sua organização ainda não [habilitou rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md):
-    
-    - Pesquisa, Descoberta Eletrônica e Delve não funcionarão em arquivos criptografados.
-    - Políticas de DEL funcionam com metadados dos arquivos criptografados (incluindo informações dos rótulos de retenção), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
-    - Os usuários não podem abrir arquivos criptografados usando o Office na Web. Quando os rótulos de sensibilidade dos arquivos do Office no SharePoint e do OneDrive estiverem ativados, os usuários podem usar o Office na Web para abrir arquivos criptografados, com algumas [limitações](sensitivity-labels-sharepoint-onedrive-files.md#limitations) que incluem criptografia aplicada com uma chave local (conhecida como "mantenha sua própria chave" ou HYOK), [criptografia de chave dupla](#double-key-encryption), e criptografia aplicada independentemente de um rótulo de sensibilidade.
+
+  - Pesquisa, Descoberta Eletrônica e Delve não funcionarão em arquivos criptografados.
+  - Políticas de DEL funcionam com metadados dos arquivos criptografados (incluindo informações dos rótulos de retenção), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
+  - Os usuários não podem abrir arquivos criptografados usando o Office na Web. Quando os rótulos de sensibilidade dos arquivos do Office no SharePoint e do OneDrive estiverem ativados, os usuários podem usar o Office na Web para abrir arquivos criptografados, com algumas [limitações](sensitivity-labels-sharepoint-onedrive-files.md#limitations) que incluem criptografia aplicada com uma chave local (conhecida como "mantenha sua própria chave" ou HYOK), [criptografia de chave dupla](#double-key-encryption), e criptografia aplicada independentemente de um rótulo de sensibilidade.
 
 - Para que vários usuários editem um arquivos criptografado ao mesmo tempo, todos devem estar usando o Office para a Web. Se esse não for o caso e o arquivo já estiver aberto:
-    
-    - Nos aplicativos do Office (Windows, Mac, Android e iOS), os usuários veem uma mensagem **Arquivo em Uso** com o nome da pessoa que conferiu o arquivo. Em seguida, eles poderão visualizar uma cópia somente leitura ou salvar e editar uma cópia do arquivo e receber notificações quando o arquivo estiver disponível.
-    - No Office para a Web, os usuários veem uma mensagem de erro informando que eles não podem editar o documento com outras pessoas. Eles podem selecionar **Abrir no Modo de Exibição de Leitura**.
+
+  - Nos aplicativos do Office (Windows, Mac, Android e iOS), os usuários veem uma mensagem **Arquivo em Uso** com o nome da pessoa que conferiu o arquivo. Em seguida, eles poderão visualizar uma cópia somente leitura ou salvar e editar uma cópia do arquivo e receber notificações quando o arquivo estiver disponível.
+  - No Office para a Web, os usuários veem uma mensagem de erro informando que eles não podem editar o documento com outras pessoas. Eles podem selecionar **Abrir no Modo de Exibição de Leitura**.
 
 - A funcionalidade [Salvamento Automático](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) nos aplicativos do Office (Windows, Mac, Android e iOS) está desabilitada para arquivos criptografados. Os usuários visualizam uma mensagem informando que o arquivos tem permissões restritas que devem ser removidas antes de ativar o Salvamento Automático.
 
 - Os arquivos criptografados podem demorar mais para abrir nos aplicativos do Office (Windows, Mac, Android e iOS).
 
 - As seguintes ações para arquivos criptografados não são compatíveis com os aplicativos do Office (Windows, Mac, Android e iOS) e os usuários veem uma mensagem de erro informando que algo deu errado. No entanto, as funcionalidades do SharePoint podem ser usadas como alternativa:
-    
-    - Visualize, restaure e salve cópias de versões anteriores. Como alternativa, os usuários poderão realizar essas ações usando o Office na Web quando você [habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37). 
-    - Alterar o nome ou local dos arquivos. Como alternativa, os usuários podem [renomear um arquivos, pasta ou link em uma biblioteca de documentos](https://support.microsoft.com/pt-BR/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185) no SharePoint.
 
-Para obter a melhor experiência de colaborações para arquivos criptografados por um rótulo de confidencialidade, recomendamos que você use os [rótulos de confidencialidade de arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) e no Office para a Web. 
+  - Visualize, restaure e salve cópias de versões anteriores. Como alternativa, os usuários poderão realizar essas ações usando o Office na Web quando você [habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37).
+  - Alterar o nome ou local dos arquivos. Como alternativa, os usuários podem [renomear um arquivos, pasta ou link em uma biblioteca de documentos](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185) no SharePoint.
+
+Para obter a melhor experiência de colaborações para arquivos criptografados por um rótulo de confidencialidade, recomendamos que você use os [rótulos de confidencialidade de arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) e no Office para a Web.
 
 ## <a name="important-prerequisites"></a>Pré-requisitos importantes
 
@@ -401,10 +398,10 @@ Para que os rótulos de confidencialidade apliquem a criptografia, o serviço de
 ### <a name="configure-exchange-for-azure-information-protection"></a>Configurar o Exchange para a Proteção de Informações do Azure
 
 O Exchange não precisa ser configurado para a Proteção de Informações do Azure antes que os usuários possam aplicar rótulos no Outlook para criptografar seus emails. No entanto, até que o Exchange esteja configurado para a Proteção de Informações do Azure, você não obtém a funcionalidade completa do uso da proteção do Gerenciamento de Direitos do Azure com o Exchange.
- 
-Por exemplo, os usuários não podem exibir emails criptografados em telefones celulares ou com o Outlook na Web, emails criptografados não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para proteção do Gerenciamento de Direitos. 
+
+Por exemplo, os usuários não podem exibir emails criptografados em telefones celulares ou com o Outlook na Web, emails criptografados não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para proteção do Gerenciamento de Direitos.
 
 Para garantir que Exchange possa dar suporte a esses cenários adicionais, confira o seguinte:
 
 - Para o Exchange Online, confira as instruções de [Exchange Online: configuração do IRM](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration).
-- Para o Exchange local, é necessário implantar o [conector RMS e configurar seus servidores Exchange](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector). 
+- Para o Exchange local, é necessário implantar o [conector RMS e configurar seus servidores Exchange](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector).
