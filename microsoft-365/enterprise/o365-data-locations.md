@@ -16,22 +16,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Determine onde os dados de cliente do Microsoft 365 estão armazenados em todo o mundo
-ms.openlocfilehash: 9f651cf2bf042a59efcfc9b76fd4349c839e7423
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: da58b5e322190e61d72dc30ac6e1ea075e8f48b4
+ms.sourcegitcommit: 39af527404cb06e05c5aa4550dbec39aec133016
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384773"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48422624"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
 -->
 
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Onde os dados de cliente do Microsoft 365 estão armazenados
-
->[!Note]
->As atualizações deste artigo são estritamente controladas pela Microsoft. As edições diretas não serão publicadas. Se você tiver alterações a serem sugeridas, envie-a como comentários no final do artigo.
->
 
 As tabelas abaixo mostram onde os dados do cliente são armazenados em repouso para os serviços do Microsoft 365 em todos os locais de nuvem global da Microsoft. Expanda o local do endereço de cobrança do seu país/região para descobrir onde os dados do cliente de cada serviço seriam armazenados.
 
@@ -110,10 +106,6 @@ Os dados do cliente do Intune não serão armazenados em repouso fora da área g
 
 Independentemente disso, a Microsoft não controla nem limita as áreas geográficas de quais clientes ou seus usuários finais podem acessar os dados do cliente. 
 
-### <a name="can-i-edit-the-information-in-this-article"></a>Posso editar as informações neste artigo?
-
-Não. As atualizações deste artigo são estritamente controladas pela Microsoft. As edições diretas não serão publicadas. Se você tiver alterações a serem sugeridas, envie-a como comentários no final do artigo.
-
 ## <a name="data-center-locations"></a>Locais do Data Center 
 
 A tabela a seguir define o local dos dados para vários serviços. Ao determinar os locais de serviço, consulte estas tabelas.
@@ -154,7 +146,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="afghanistan"></a>Afeganistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -178,7 +170,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="aland-islands"></a>Ilhas Aland
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -202,7 +194,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="albania"></a>Albânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -226,7 +218,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="algeria"></a>Argélia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -250,7 +242,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="american-samoa"></a>Samoa Americana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -274,7 +266,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="andorra"></a>Andorra
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -298,7 +290,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="angola"></a>Angola
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -322,7 +314,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="anguilla"></a>Anguila
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -346,7 +338,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="antarctica"></a>Antártica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -370,7 +362,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="antigua-and-barbuda"></a>Antígua e Barbuda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -394,7 +386,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="argentina"></a>Argentina
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -418,7 +410,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="armenia"></a>Armênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -442,7 +434,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="aruba"></a>Aruba
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -466,7 +458,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="australia"></a>Austrália
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Austrália |
 | OneDrive for Business | Austrália |
@@ -490,7 +482,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="austria"></a>Áustria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -514,7 +506,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="azerbaijan"></a>Azerbaijão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -538,7 +530,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bahamas"></a>Bahamas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -562,7 +554,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bahrain"></a>Bahrein
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -586,7 +578,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bangladesh"></a>Bangladesh
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -610,7 +602,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="barbados"></a>Barbados
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -634,7 +626,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="belarus"></a>Belarus
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -658,7 +650,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="belgium"></a>Bélgica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -682,7 +674,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="belize"></a>Belize
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -706,7 +698,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="benin"></a>Benin
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -730,7 +722,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bermuda"></a>Bermuda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -754,7 +746,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bhutan"></a>Butão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -778,7 +770,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bolivia"></a>Bolívia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -802,7 +794,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bonaire"></a>Bonaire
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -826,7 +818,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bosnia"></a>Bósnia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -850,7 +842,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="botswana"></a>Botsuana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -874,7 +866,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bouvet-island"></a>Ilha Bouvet
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -898,7 +890,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="brazil"></a>Brasil
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -922,7 +914,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="british-indian-ocean-territory"></a>Território Britânico do Oceano Índico
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -946,7 +938,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="british-virgin-islands"></a>Ilhas Virgens Britânicas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -970,7 +962,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="brunei"></a>Brunei
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -994,7 +986,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="bulgaria"></a>Bulgária
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1018,7 +1010,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="burkina-faso"></a>Burquina Faso
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1042,7 +1034,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="burundi"></a>Burundi
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1066,7 +1058,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cambodia"></a>Camboja
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1090,7 +1082,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cameroon"></a>Camarões
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1114,7 +1106,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="canada"></a>Canadá
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Canadá |
 | OneDrive for Business | Canadá |
@@ -1138,7 +1130,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cape-verde"></a>Cabo Verde
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1162,7 +1154,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cayman-islands"></a>Ilhas Cayman
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1186,7 +1178,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="central-african-republic"></a>República Centro-Africana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1210,7 +1202,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="chad"></a>Chade
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1234,7 +1226,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="chile"></a>Chile
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1258,7 +1250,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="china"></a>China
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1282,7 +1274,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="christmas-island"></a>Ilhas Christmas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1306,7 +1298,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cocos-keeling-islands"></a>Ilhas Cocos (Keeling)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1330,7 +1322,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="colombia"></a>Colômbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1354,7 +1346,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="comoros"></a>Comores
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1378,7 +1370,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="congo-brazzaville"></a>Congo (Brazzaville)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1402,7 +1394,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="congo-kinshasa"></a>Congo, (Kinshasa)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1426,7 +1418,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cook-islands"></a>Ilhas Cook
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1450,7 +1442,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="costa-rica"></a>Costa Rica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1474,7 +1466,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cote-divoire"></a>Costa do Marfim
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1498,7 +1490,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="croatia"></a>Croácia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1522,7 +1514,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="curacao"></a>Curaçao
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1546,7 +1538,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="cyprus"></a>Chipre
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1570,7 +1562,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="czech-republic"></a>República Tcheca
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1594,7 +1586,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="denmark"></a>Dinamarca
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1618,7 +1610,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="djibouti"></a>Djibuti
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1642,7 +1634,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="dominica"></a>Dominica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1666,7 +1658,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="dominican-republic"></a>República Dominicana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1690,7 +1682,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="ecuador"></a>Equador
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1714,7 +1706,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="egypt"></a>Egito
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1738,7 +1730,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="el-salvador"></a>El Salvador
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1762,7 +1754,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="equatorial-guinea"></a>Guiné Equatorial
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1786,7 +1778,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="eritrea"></a>Eritreia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1810,7 +1802,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="estonia"></a>Estônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1834,7 +1826,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="ethiopia"></a>Etiópia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1858,7 +1850,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="falkland-islands-malvinas"></a>Ilhas Malvinas (Falkland)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1882,7 +1874,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="faroe-islands"></a>Ilhas Faroés
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1906,7 +1898,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="federated-states-of-micronesia"></a>Estados Federados da Micronésia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1930,7 +1922,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="fiji"></a>Fiji
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Austrália |
 | OneDrive for Business | Austrália |
@@ -1954,7 +1946,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="finland"></a>Finlândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1978,7 +1970,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="france"></a>França
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | França |
 | OneDrive for Business | França |
@@ -2002,7 +1994,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="french-guiana"></a>Guiana Francesa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -2026,7 +2018,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="french-polynesia"></a>Polinésia Francesa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2050,7 +2042,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="french-southern-territories"></a>Territórios Franceses do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2074,7 +2066,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="gabon"></a>Gabão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2098,7 +2090,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="gambia"></a>Gâmbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2122,7 +2114,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="georgia"></a>Geórgia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2146,7 +2138,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="germany"></a>Alemanha
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Alemanha |
 | OneDrive for Business | Alemanha |
@@ -2170,7 +2162,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="ghana"></a>Gana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2194,7 +2186,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="gibraltar"></a>Gibraltar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2218,7 +2210,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="greece"></a>Grécia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2242,7 +2234,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="greenland"></a>Groenlândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2266,7 +2258,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="grenada"></a>Granada
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2290,7 +2282,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="guadeloupe"></a>Guadalupe
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2314,7 +2306,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="guam"></a>Guam
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2338,7 +2330,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="guatemala"></a>Guatemala
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2362,7 +2354,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="guernsey"></a>Guernsey
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2386,7 +2378,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="guinea"></a>Guiné
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2410,7 +2402,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="guinea-bissau"></a>Guiné-Bissau
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2434,7 +2426,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="guyana"></a>Guiana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -2458,7 +2450,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="haiti"></a>Haiti
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2482,7 +2474,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="heard-and-mcdonald-islands"></a>Ilhas Heard e McDonald
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2506,7 +2498,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="herzegovina"></a>Bósnia e Herzegovina
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2530,7 +2522,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="holy-see-vatican-city-state"></a>Santa Sé (Cidade do Vaticano)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2554,7 +2546,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="honduras"></a>Honduras
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2578,7 +2570,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="hong-kong-sar"></a>RAE de Hong Kong
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2602,7 +2594,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="hungary"></a>Hungria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2626,7 +2618,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="iceland"></a>Islândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2650,7 +2642,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="india"></a>Índia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Índia |
 | OneDrive for Business | Índia |
@@ -2674,7 +2666,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="indonesia"></a>Indonésia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2698,7 +2690,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="iraq"></a>Iraque
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2722,7 +2714,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="ireland"></a>Irlanda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2746,7 +2738,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="isle-of-man"></a>Ilha de Man
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2770,7 +2762,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="israel"></a>Israel
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2794,7 +2786,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="italy"></a>Itália
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2818,7 +2810,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="jamaica"></a>Jamaica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2842,7 +2834,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="japan"></a>Japão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Japão |
 | OneDrive for Business | Japão |
@@ -2866,7 +2858,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="jersey"></a>Jersey
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2890,7 +2882,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="jordan"></a>Jordão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2914,7 +2906,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="kazakhstan"></a>Cazaquistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2938,7 +2930,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="kenya"></a>Quênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2962,7 +2954,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="kiribati"></a>Kiribati
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2986,7 +2978,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="south-korea"></a>Coreia do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Coreia do Sul |
 | OneDrive for Business | Coreia do Sul |
@@ -3010,7 +3002,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="kosovo"></a>Kosovo
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3034,7 +3026,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="kuwait"></a>Kuwait
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3058,7 +3050,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="kyrgyzstan"></a>Quirguistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3082,7 +3074,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="laos"></a>Laos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3106,7 +3098,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="latvia"></a>Letônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3130,7 +3122,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="lebanon"></a>Líbano
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3154,7 +3146,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="lesotho"></a>Lesoto
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3178,7 +3170,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="liberia"></a>Libéria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3202,7 +3194,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="libya"></a>Líbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3226,7 +3218,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="liechtenstein"></a>Liechtenstein
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Suíça |
 | OneDrive for Business | Suíça |
@@ -3250,7 +3242,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="lithuania"></a>Lituânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3274,7 +3266,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="luxembourg"></a>Luxemburgo
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3298,7 +3290,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="madagascar"></a>Madagascar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3322,7 +3314,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="malawi"></a>Malaui
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3346,7 +3338,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="malaysia"></a>Malásia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3370,7 +3362,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="maldives"></a>Maldivas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3394,7 +3386,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="mali"></a>Mali
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3418,7 +3410,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="malta"></a>Malta
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3442,7 +3434,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="marshall-islands"></a>Ilhas Marshall
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3466,7 +3458,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="martinique"></a>Martinica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3490,7 +3482,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="mauritania"></a>Mauritânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3514,7 +3506,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="mauritius"></a>Ilhas Maurício
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3538,7 +3530,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="mayotte"></a>Maiote
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3562,7 +3554,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="mexico"></a>México
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3586,7 +3578,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="moldova"></a>Moldova
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3610,7 +3602,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="monaco"></a>Mônaco
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3634,7 +3626,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="mongolia"></a>Mongólia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3658,7 +3650,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="montenegro"></a>Montenegro
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3682,7 +3674,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="montserrat"></a>Montserrat
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3706,7 +3698,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="morocco"></a>Marrocos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3730,7 +3722,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="mozambique"></a>Moçambique
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3754,7 +3746,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="myanmar"></a>Myanmar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3778,7 +3770,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="namibia"></a>Namíbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3802,7 +3794,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="nauru"></a>Nauru
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3826,7 +3818,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="nepal"></a>Nepal
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3850,7 +3842,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="netherlands"></a>Países Baixos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3874,7 +3866,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="netherlands-antilles"></a>Bonaire, Curaçao, Saba, Santo Eustáquio e São Martinho
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3898,7 +3890,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="new-caledonia"></a>Nova Caledônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3922,7 +3914,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="new-zealand"></a>Nova Zelândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Austrália |
 | OneDrive for Business | Austrália |
@@ -3946,7 +3938,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="nicaragua"></a>Nicarágua
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3970,7 +3962,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="niger"></a>Níger
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3994,7 +3986,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="nigeria"></a>Nigéria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4018,7 +4010,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="niue"></a>Niue
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4042,7 +4034,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="norfolk-island"></a>Ilha Norfolk
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4066,7 +4058,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="northern-mariana-islands"></a>Ilhas Marianas do Norte
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4090,7 +4082,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="norway"></a>Noruega
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Noruega |
 | OneDrive for Business | Noruega |
@@ -4114,7 +4106,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="oman"></a>Omã
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4138,7 +4130,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="pakistan"></a>Paquistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4162,7 +4154,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="palau"></a>Palau
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4186,7 +4178,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="palestinian-authority"></a>Autoridade Palestina
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4210,7 +4202,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="panama"></a>Panamá
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4234,7 +4226,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="papua-new-guinea"></a>Papua Nova Guiné
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4258,7 +4250,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="paraguay"></a>Paraguai
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -4282,7 +4274,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="peru"></a>Peru
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -4306,7 +4298,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="philippines"></a>Filipinas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4330,7 +4322,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="pitcairn"></a>Ilhas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4354,7 +4346,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="poland"></a>Polônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -4378,7 +4370,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="portugal"></a>Portugal
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -4402,7 +4394,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="puerto-rico"></a>Porto Rico
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4426,7 +4418,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="qatar"></a>Catar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4450,7 +4442,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="republic-of-macedonia"></a>República da Macedônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4474,7 +4466,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="runion"></a>Réunion
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4498,7 +4490,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="romania"></a>Romênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -4522,7 +4514,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="russian-federation"></a>Federação Russa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4546,7 +4538,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="rwanda"></a>Ruanda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4570,7 +4562,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saint-helena"></a>Santa Helena, Ascensão e Tristão da Cunha
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4594,7 +4586,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saint-kitts-and-nevis"></a>São Cristóvão e Névis
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4618,7 +4610,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saint-lucia"></a>Santa Lúcia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4642,7 +4634,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saint-martin"></a>Saint Martin
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4666,7 +4658,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saint-pierre-and-miquelon"></a>São Pedro e Miquelão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4690,7 +4682,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saint-vincent-and-the-grenadines"></a>São Vincente e Granadinas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4714,7 +4706,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saint-barthlemy"></a>São Bartolomeu
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4738,7 +4730,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="samoa"></a>Samoa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4762,7 +4754,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="san-marino"></a>São Marinho
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4786,7 +4778,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="sao-tome-and-principe"></a>São Tomé e Príncipe
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4810,7 +4802,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="saudi-arabia"></a>Arábia Saudita
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4834,7 +4826,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="senegal"></a>Senegal
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4858,7 +4850,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="serbia"></a>Sérvia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4882,7 +4874,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="seychelles"></a>Seicheles
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4906,7 +4898,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="sierra-leone"></a>Serra Leoa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4930,7 +4922,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="singapore"></a>Cingapura
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4954,7 +4946,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="sint-maarten"></a>São Martinho
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4978,7 +4970,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="slovakia"></a>Eslováquia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -5002,7 +4994,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="slovenia"></a>Eslovênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -5026,7 +5018,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="solomon-islands"></a>Ilhas Salomão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5050,7 +5042,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="somalia"></a>Somália
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5074,7 +5066,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="south-africa"></a>África do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | África do Sul |
 | OneDrive for Business | África do Sul |
@@ -5098,7 +5090,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="south-georgia-and-the-south-sandwich-islands"></a>Ilhas Geórgia do Sul e Sandwich do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5122,7 +5114,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="spain"></a>Espanha
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -5146,7 +5138,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="sri-lanka"></a>Sri Lanka
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5170,7 +5162,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="suriname"></a>Suriname
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5194,7 +5186,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="svalbard-and-jan-mayen-islands"></a>Ilhas de Svalbard e Jan Mayen
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5218,7 +5210,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="swaziland"></a>Suazilândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5242,7 +5234,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="sweden"></a>Suécia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -5266,7 +5258,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="switzerland"></a>Suíça
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Suíça |
 | OneDrive for Business | Suíça |
@@ -5290,7 +5282,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="taiwan"></a>Taiwan
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5314,7 +5306,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="tajikistan"></a>Tadjiquistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5338,7 +5330,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="united-republic-of-tanzania"></a>República Unida da Tanzânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5362,7 +5354,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="thailand"></a>Tailândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5386,7 +5378,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="timor-leste"></a>Timor-Leste
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5410,7 +5402,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="togo"></a>Togo
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5434,7 +5426,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="tokelau"></a>Tokelau
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5458,7 +5450,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="tonga"></a>Tonga
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5482,7 +5474,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="trinidad-and-tobago"></a>Trinidad e Tobago
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5506,7 +5498,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="tunisia"></a>Tunísia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5530,7 +5522,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="turkey"></a>Turquia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5554,7 +5546,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="turkmenistan"></a>Turcomenistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5578,7 +5570,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="turks-and-caicos-islands"></a>Ilhas Turcos e Caicos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5602,7 +5594,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="tuvalu"></a>Tuvalu
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5626,7 +5618,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="us-virgin-islands"></a>Ilhas Virgens Americanas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5650,7 +5642,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="uganda"></a>Uganda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5674,7 +5666,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="ukraine"></a>Ucrânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5698,7 +5690,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="united-arab-emirates"></a>Emirados Árabes Unidos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Emirados Árabes Unidos |
 | OneDrive for Business | Emirados Árabes Unidos |
@@ -5722,7 +5714,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="united-kingdom"></a>Reino Unido
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Reino Unido |
 | OneDrive for Business | Reino Unido |
@@ -5746,7 +5738,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="united-states"></a>Estados Unidos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5770,7 +5762,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="uruguay"></a>Uruguai
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -5794,7 +5786,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="us-minor-outlying-islands"></a>Territórios Insulares dos EUA
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5818,7 +5810,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="uzbekistan"></a>Uzbequistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5842,7 +5834,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="vanuatu"></a>Vanuatu
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5866,7 +5858,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="venezuela"></a>Venezuela
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5890,7 +5882,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="vietnam"></a>Vietnã
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5914,7 +5906,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="wallis-and-futuna-islands"></a>Ilhas Wallis e Futuna
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5938,7 +5930,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="western-sahara"></a>Sahara Ocidental
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5962,7 +5954,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="yemen"></a>Iêmen
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5986,7 +5978,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="zambia"></a>Zâmbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -6010,7 +6002,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="zimbabwe"></a>Zimbábue
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Fornecer manutenção | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
