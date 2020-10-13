@@ -16,14 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 774f3af001800f01ce956097f6b7441df2c0ddac
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 64c6e5f7eefad50aa59301de3fd46cae60d6876f
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413467"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48429426"
 ---
 # <a name="configure-and-manage-microsoft-defender-atp-capabilities"></a>Configurar e gerenciar recursos do Microsoft defender ATP
 

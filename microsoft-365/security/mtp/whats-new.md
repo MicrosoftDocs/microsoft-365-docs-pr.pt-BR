@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 670b020e3c15ac99b06bc8615b2693ba73497b8a
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 1b3cc273b61fcdff3c01b30c9ef64619a0e7a368
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412029"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430392"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Novidades da Proteção contra Ameaças da Microsoft
 

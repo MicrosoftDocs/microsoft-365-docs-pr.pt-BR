@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ca89630a940ea56fd7ad968d1cba8a50dd9f4fa0
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 739ee33b162c1e701603a17e59f0d0c2611c064c
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413181"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430170"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -48,8 +48,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Category` | cadeia de caracteres | Tipo de atividade indicadora de ameaça ou violação identificada pelo alerta |
 | `Severity` | cadeia de caracteres | Indica o impacto potencial (alto, médio ou baixo) do indicador de ameaça ou da atividade de violação identificados pelo alerta |
 | `ServiceSource` | cadeia de caracteres | Produto ou serviço que forneceu as informações de alerta |
-| `DetectionSource` | cadeia de caracteres | Tecnologia de detecção ou sensor que identificou o componente ou atividade notável |
-| `AttackTechniques` | cadeia de caracteres | MITRE ATT&as técnicas de Enck associadas à atividade que disparou o alerta |
+| `DetectionSource` | string | Tecnologia de detecção ou sensor que identificou o componente ou atividade notável |
+| `AttackTechniques` | string | MITRE ATT&as técnicas de Enck associadas à atividade que disparou o alerta |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

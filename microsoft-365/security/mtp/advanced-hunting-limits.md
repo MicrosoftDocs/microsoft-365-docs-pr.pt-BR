@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ad21b4241d7cbbcc85639a0a10b47971e5fcebcb
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab19c86bbdec243dd4abb8b6c9fab9b5ec6f2228
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412689"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430450"
 ---
 # <a name="advanced-hunting-service-limits"></a>Limites de serviço de busca avançada
 

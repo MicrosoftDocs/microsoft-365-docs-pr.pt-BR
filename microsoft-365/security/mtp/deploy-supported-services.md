@@ -16,17 +16,17 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3a5db0b9709a9596ccd6560d7f2e546dd3753332
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 4e4036e1a1ee0ccf807dc5299b9842911f140478
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413347"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430806"
 ---
 # <a name="deploy-supported-services"></a>Implantar serviços com suporte
 
@@ -64,7 +64,7 @@ Cada serviço compatível que você implantar fornece um conjunto de sinais brut
 
 A tabela a seguir lista como cada serviço suportado fornece dados adicionais, oportunidades de obter informações adicionais, correlacionando os dados e melhores recursos de correção e resposta.
 
-| Serviço | Dados (sinais & informações correlacionadas) | Escopo de resposta de & de correção |
+| Fornecer manutenção | Dados (sinais & informações correlacionadas) | Escopo de resposta de & de correção |
 | ------ | ------ | ------ |
 | O Microsoft Defender ATP | – Estados de ponto de extremidade e eventos brutos<br />-Detecções e alertas de ponto de extremidade, incluindo antivírus, EDR, redução da superfície de ataque<br />– Informações sobre arquivos e outras entidades observadas nos pontos de extremidade | Pontos de extremidade |
 | Office 365 ATP | -Mensagens e Estados de caixa de correio e eventos brutos<br />– Detecções de email, anexos e links | -Caixas de correio<br />-Contas da Microsoft 365 |
@@ -74,7 +74,7 @@ A tabela a seguir lista como cada serviço suportado fornece dados adicionais, o
 ## <a name="deploy-the-services"></a>Implantar os serviços
 A implantação de cada serviço normalmente requer o provisionamento para seu locatário e uma configuração inicial. Consulte a tabela a seguir para entender como cada um desses serviços é implantado.
 
-| Serviço | Instruções de provisionamento | Configuração inicial |
+| Fornecer manutenção | Instruções de provisionamento | Configuração inicial |
 | ------ | ------ | ------ |
 | O Microsoft Defender ATP | [Guia de implantação do Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases) | *Confira instruções de provisionamento* |
 | Office 365 ATP | *Nenhum, provisionado com o Office 365* | [Configurar políticas de ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |

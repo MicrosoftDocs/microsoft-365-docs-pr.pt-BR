@@ -13,14 +13,14 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 description: Segurança no Office 365, de EOP para planos ATP 1 e 2, configurações de segurança padrão vs. estrito e muito mais. Entenda o que você tem e como proteger suas propriedades.
-ms.openlocfilehash: d650a02faa21ac6ade39506d2c423dd319951bef
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 94fce99d029d21524bc60af4622fda7ee38980e7
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413049"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430687"
 ---
 # <a name="office-365-security-overview"></a>Visão geral da segurança do Office 365
 

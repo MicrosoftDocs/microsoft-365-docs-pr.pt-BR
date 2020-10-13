@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 522f4900bb9d2746c16eaf2172d756e2517e75c3
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: f18a98b19b6a1920d1e4d2094ba0bab74f10035e
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412245"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430134"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 
@@ -253,7 +253,7 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 ### <a name="parse-strings"></a>Analisar cadeias de caracteres
 Há várias funções que você pode usar para lidar com eficiência cadeias de caracteres que precisam de análise ou conversão. 
 
-| Cadeia de caracteres | Função | Exemplo de uso |
+| String | Função | Exemplo de uso |
 |--|--|--|
 | Linhas de comando | [parse_command_line ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | Extraia o comando e todos os argumentos. | 
 | Caminhos | [parse_path ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | Extraia as seções de um caminho de arquivo ou pasta. |

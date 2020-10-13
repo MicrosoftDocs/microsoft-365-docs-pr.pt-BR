@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: a0fb30915cac875e1e5278ecec2b3a1c65685f37
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 85bf980f87b640df0f3767294b3c5f2059ba0ac6
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412521"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430854"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Criar e gerenciar regras de detecções personalizadas
 

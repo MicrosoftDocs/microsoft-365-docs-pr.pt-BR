@@ -17,15 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b1738180e192baafa60f76fada1e433319922b91
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: f56360b28a9fe9de4198d97954a64a429d1d99a5
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412677"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48429690"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-atp"></a>Migrar consultas de busca avançada do Microsoft defender ATP
 

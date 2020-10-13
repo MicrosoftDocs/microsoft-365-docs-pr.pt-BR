@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 05812ec1c747c019bdba1c7ecffc2b33bd5f793a
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 36edb4c1da63949b1ec8b914f831c1c5d36b7c7c
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413873"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48429906"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -43,20 +43,20 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, esta coluna deve ser usada em conjunto com as colunas DeviceName e timestamp |
-| `NetworkAdapterName` | cadeia de caracteres | Nome do adaptador de rede |
-| `MacAddress` | cadeia de caracteres | Endereço MAC do adaptador de rede |
-| `NetworkAdapterType` | cadeia de caracteres | Tipo de adaptador de rede. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
-| `NetworkAdapterStatus` | cadeia de caracteres | Status operacional do adaptador de rede. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
-| `TunnelType` | cadeia de caracteres | Protocolo de encapsulamento, se a interface for usada para essa finalidade, por exemplo, 6to4, Teredo, ISATAP, PPTP, SSTP e SSH |
-| `ConnectedNetworks` | cadeia de caracteres | Redes às quais o adaptador está conectado. Cada matriz JSON contém o nome da rede, a categoria (público, privado ou domínio), uma descrição e um sinalizador que indica se ele está conectado publicamente à Internet |
-| `DnsAddresses` | cadeia de caracteres | Endereços de servidor DNS no formato de matriz JSON |
-| `IPv4Dhcp` | cadeia de caracteres | Endereço IPv4 do servidor DHCP |
-| `IPv6Dhcp` | cadeia de caracteres | Endereço IPv6 do servidor DHCP |
-| `DefaultGateways` | cadeia de caracteres | Endereços de gateway padrão no formato de matriz JSON |
-| `IPAddresses` | cadeia de caracteres | Matriz JSON que contém todos os endereços IP atribuídos ao adaptador, juntamente com seus respectivos prefixo de sub-rede e espaço de endereço IP, como Public, Private ou link-local |
+| `NetworkAdapterName` | string | Nome do adaptador de rede |
+| `MacAddress` | string | Endereço MAC do adaptador de rede |
+| `NetworkAdapterType` | string | Tipo de adaptador de rede. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
+| `NetworkAdapterStatus` | string | Status operacional do adaptador de rede. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
+| `TunnelType` | string | Protocolo de encapsulamento, se a interface for usada para essa finalidade, por exemplo, 6to4, Teredo, ISATAP, PPTP, SSTP e SSH |
+| `ConnectedNetworks` | string | Redes às quais o adaptador está conectado. Cada matriz JSON contém o nome da rede, a categoria (público, privado ou domínio), uma descrição e um sinalizador que indica se ele está conectado publicamente à Internet |
+| `DnsAddresses` | string | Endereços de servidor DNS no formato de matriz JSON |
+| `IPv4Dhcp` | string | Endereço IPv4 do servidor DHCP |
+| `IPv6Dhcp` | string | Endereço IPv6 do servidor DHCP |
+| `DefaultGateways` | string | Endereços de gateway padrão no formato de matriz JSON |
+| `IPAddresses` | string | Matriz JSON que contém todos os endereços IP atribuídos ao adaptador, juntamente com seus respectivos prefixo de sub-rede e espaço de endereço IP, como Public, Private ou link-local |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

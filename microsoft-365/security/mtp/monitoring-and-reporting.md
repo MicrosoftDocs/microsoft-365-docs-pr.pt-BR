@@ -13,16 +13,16 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 922ffa3add41dba9896a406dc5705825d2d27aab
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: e434f6088fa1cd08e6b14e3808007e89f32b83a3
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413669"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48431034"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Monitorar e exibir relatórios no centro de segurança do Microsoft 365
 

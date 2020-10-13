@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 2ecf6de79f5eab4aca7bc928ea64b780a257b908
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 212189c89f354b186072bb109f119cf048680d08
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412725"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48431082"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -47,29 +47,29 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento. Consulte a [referência de esquema no portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) para obter detalhes |
-| `LogonType` | cadeia de caracteres | Tipo de sessão de logon, especificamente:<br><br> - **Interativo** -o usuário interage fisicamente com o computador usando o teclado e a tela locais<br><br> - **Logons interativos (RDP) remotos** -o usuário interage com o computador remotamente usando a área de trabalho remota, serviços de terminal, assistência remota ou outros clientes RDP<br><br> - **Rede** -sessão iniciada quando a máquina é acessada usando o PsExec ou quando recursos compartilhados na máquina, como impressoras e pastas compartilhadas, são acessados<br><br> - Sessão **em lote** iniciada por tarefas agendadas<br><br> - **Serviço** -sessão iniciada pelos serviços à medida que eles são iniciados |
-| `Application` | cadeia de caracteres | Aplicativo que executou a ação gravada |
-| `Protocol` | cadeia de caracteres | Protocolo de rede usado |
-| `FailureReason` | cadeia de caracteres | Informações explicando por que a ação gravada falhou |
-| `AccountName` | cadeia de caracteres | Nome de usuário da conta |
-| `AccountDomain` | cadeia de caracteres | Domínio da conta |
-| `AccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta |
-| `AccountSid` | cadeia de caracteres | Identificador de segurança (SID) da conta |
-| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo da conta no Azure AD |
-| `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
-| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
-| `DeviceType` | cadeia de caracteres | Tipo de dispositivo |
+| `ActionType` | string | Tipo de atividade que disparou o evento. Consulte a [referência de esquema no portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) para obter detalhes |
+| `LogonType` | string | Tipo de sessão de logon, especificamente:<br><br> - **Interativo** -o usuário interage fisicamente com o computador usando o teclado e a tela locais<br><br> - **Logons interativos (RDP) remotos** -o usuário interage com o computador remotamente usando a área de trabalho remota, serviços de terminal, assistência remota ou outros clientes RDP<br><br> - **Rede** -sessão iniciada quando a máquina é acessada usando o PsExec ou quando recursos compartilhados na máquina, como impressoras e pastas compartilhadas, são acessados<br><br> - Sessão **em lote** iniciada por tarefas agendadas<br><br> - **Serviço** -sessão iniciada pelos serviços à medida que eles são iniciados |
+| `Application` | string | Aplicativo que executou a ação gravada |
+| `Protocol` | string | Protocolo de rede usado |
+| `FailureReason` | string | Informações explicando por que a ação gravada falhou |
+| `AccountName` | string | Nome de usuário da conta |
+| `AccountDomain` | string | Domínio da conta |
+| `AccountUpn` | string | Nome principal do usuário (UPN) da conta |
+| `AccountSid` | string | Identificador de segurança (SID) da conta |
+| `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
+| `AccountDisplayName` | string | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
+| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `DeviceType` | string | Tipo de dispositivo |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
 | `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante as comunicações de rede relacionadas |
-| `DestinationDeviceName` | cadeia de caracteres | Nome do dispositivo que executa o aplicativo de servidor que processou a ação registrada |
-| `DestinationIPAddress` | cadeia de caracteres | Endereço IP do dispositivo que está executando o aplicativo de servidor que processou a ação registrada |
-| `TargetDeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo ao qual a ação registrada foi aplicada |
-| `TargetAccountDisplayName` | cadeia de caracteres | Nome para exibição da conta à qual a ação registrada foi aplicada |
-| `Location` | cadeia de caracteres | Cidade, país ou outra localização geográfica associada ao evento |
-| `Isp` | cadeia de caracteres | Provedor de serviços de Internet (ISP) associado ao endereço IP do ponto de extremidade |
+| `DestinationDeviceName` | string | Nome do dispositivo que executa o aplicativo de servidor que processou a ação registrada |
+| `DestinationIPAddress` | string | Endereço IP do dispositivo que está executando o aplicativo de servidor que processou a ação registrada |
+| `TargetDeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo ao qual a ação registrada foi aplicada |
+| `TargetAccountDisplayName` | string | Nome para exibição da conta à qual a ação registrada foi aplicada |
+| `Location` | string | Cidade, país ou outra localização geográfica associada ao evento |
+| `Isp` | string | Provedor de serviços de Internet (ISP) associado ao endereço IP do ponto de extremidade |
 | `ReportId` | long | Identificador exclusivo do evento |
-| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre a entidade ou o evento |
+| `AdditionalFields` | string | Informações adicionais sobre a entidade ou o evento |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

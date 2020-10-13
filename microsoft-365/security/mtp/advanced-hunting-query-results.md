@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 5d620a1c30466553470eec49d4f5ff8242d060bd
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: e19859189b57bbc9a6a4bbfb87fb224b2735331b
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412593"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48431070"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Trabalhar com resultados de consulta de busca avançada
 

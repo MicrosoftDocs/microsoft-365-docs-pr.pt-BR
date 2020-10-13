@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 99bda752edf46c5e446e393b5f185b3f18eff974
-ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
+ms.openlocfilehash: 37a43717ebb003c10a65e14da46012dab164916d
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48390146"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48429378"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -37,20 +37,16 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 
 | Modelo    | Especificações mínimas  | Requisitos adicionais    | Data do arquivo morto   | Data de aposentadoria   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Dell Precision 3530](https://www.dell.com/en-us/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 22 de maio de 2020  | 22 de maio de 2023 |
-| [Dell Latitude 5300](https://www.dell.com/en-us/work/shop/laptops/13-5300/spd/latitude-13-5300-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
-| **\*[Dell Latitude 5300 2-in-1](https://www.dell.com/en-us/work/shop/laptops/13-5300-2-in-1/spd/latitude-13-5300-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
-| [Dell Latitude 5400](https://www.dell.com/en-us/work/shop/laptops/14-5400/spd/latitude-14-5400-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
-| [Dell Latitude 5500](https://www.dell.com/en-us/work/shop/laptops/15-5500/spd/latitude-15-5500-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1º de junho de 2021  | 1º de junho de 2024  |
-| [Dell Latitude 7200 2-in-1](https://www.dell.com/en-us/work/shop/laptops/12-7200-2-in-1/spd/latitude-12-7200-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
-| **\*[Dell Latitude 7210 2-in-1](https://www.dell.com/en-us/work/shop/laptops/new-12-7210/spd/latitude-12-7210-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 19 de maio de 2022  | 19 de maio de 2025  |
-| [Dell Latitude 7300](https://www.dell.com/en-us/work/shop/laptops/13-7300/spd/latitude-13-7300-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
-| [Dell Latitude 7400](https://www.dell.com/en-us/work/shop/laptops/new-14/spd/latitude-14-7400-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
-| [Dell Latitude 7400 2-in-1](https://www.dell.com/en-us/work/shop/laptops/14-2-in-1/spd/latitude-14-7400-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 1 de maio de 2021  | 1 de maio de 2024  |
-| **\*[Dell Latitude 7410](https://www.dell.com/en-us/work/shop/laptops/new-14-7410/spd/latitude-14-7410-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 19 de maio de 2022  | 19 de maio de 2025  |
-| **\*[Dell Latitude 7410 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 19 de maio de 2022 | 19 de maio de 2025
-| **\*[Dell Latitude 9410 2-in-1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 19 de maio de 2022  | 19 de maio de 2025  |
-| [Dell OptiPlex 3070](https://www.dell.com/en-us/work/shop/desktops-n-workstations/3070/spd/optiplex-3070-desktop) | 128 GB/Intel i3/8 GB de RAM | Nenhum | 1 de maio de 2022  | 1 de maio de 2025  |
+| **\*[Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 28 de abril de 2022  | 28 de abril de 2025 |
+| **\*[Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 28 de abril de 2022 | 28 de abril de 2025  |
+| **\*[Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 28 de abril de 2022 | 28 de abril de 2025 |
+| **\*[Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 4 de maio de 2022  | 4 de maio de 2025  |
+| [Dell Latitude 7410/7410 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 19 de maio de 2022  | 19 de maio de 2025  |
+| [Dell Latitude 9410 2-in-1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 5 de maio de 2022  | 5 de maio de 2025  |
+| **\*[Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop)** | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 5 de maio de 2022  | 5 de maio de 2025  |
+| **\*[Dell OptiPlex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop)** | 128 GB/Intel i3/8 GB de RAM | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
+| **\*[Dell OptiPlex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio)** | 128 GB/Intel i3/8 GB de RAM | Nenhum | 15 de maio de 2022  | 15 de maio de 2025  |
+| **\*[Estação de trabalho Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop)** | 256 GB/Intel i5/8 GB de RAM | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
 
 ### <a name="hp"></a>Complement
 
@@ -79,7 +75,7 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 
 Além disso, o dispositivo também deve atender a estes critérios:     
 
-- Ter uma imagem aprovada pela área de trabalho gerenciada pela Microsoft. Ao solicitar dispositivos, verifique se você especificou que eles estão sendo usados com a área de trabalho gerenciada da Microsoft.
+- Se um SKU específico estiver listado nos requisitos do dispositivo, certifique-se de usá-lo ao fazer o pedido. Isso garante que os dispositivos estejam em conformidade com os requisitos de software do Microsoft Managed desktop. 
 - Não concluiu a experiência de primeira execução do Windows.
 - Ser registrado com a área de trabalho gerenciada da Microsoft usando o recurso de [registro de dispositivo](https://aka.ms/mmddrhelp)
 

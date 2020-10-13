@@ -16,17 +16,17 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4e83f9877d76f09da002dec9857417c1de91619a
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: c599343233e7e29589bc4e3d1cda01da505b16f1
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413753"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430556"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Gerenciar incidentes na Proteção contra Ameaças da Microsoft
 
