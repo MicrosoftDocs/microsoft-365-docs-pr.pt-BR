@@ -1,10 +1,10 @@
 ---
-title: Definir configurações de caixa de correio compartilhada
+title: Configurar caixa de correio compartilhada
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,14 +21,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Depois de criar uma caixa de correio compartilhada, convém definir algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como os membros ou o nome da caixa de correio.
-ms.openlocfilehash: 3bde856f4db80192f5ed058a18c7942aa6a724b2
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: a007b3ca810bdfc00176e71a737a510230f18113
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739207"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445670"
 ---
-# <a name="configure-shared-mailbox-settings"></a>Definir configurações de caixa de correio compartilhada
+# <a name="configure-shared-mailbox-settings"></a>Configurar caixa de correio compartilhada
 
 Depois de [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md), convém definir algumas configurações para os usuários de caixa de correio, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como o nome da caixa de correio, membros ou permissões de membro. 
 
@@ -82,7 +82,7 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione edição de **encaminhamento de email** \> **Edit**.
     
-3. Defina **a opção**ativar e digite um endereço de email para encaminhar as mensagens. Pode ser qualquer endereço de email válido. Para encaminhar para vários endereços, você precisa [criar um grupo de distribuição](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists?view=o365-worldwide) para os endereços e, em seguida, inserir o nome do grupo nessa caixa.
+3. Defina **a opção**ativar e digite um endereço de email para encaminhar as mensagens. Pode ser qualquer endereço de email válido. Para encaminhar para vários endereços, você precisa [criar um grupo de distribuição](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists) para os endereços e, em seguida, inserir o nome do grupo nessa caixa.
     
 4. Selecione **Salvar**.
 

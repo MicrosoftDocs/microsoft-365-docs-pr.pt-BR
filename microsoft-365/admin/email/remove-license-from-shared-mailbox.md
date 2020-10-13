@@ -2,8 +2,8 @@
 title: Remover licença de caixa de correio compartilhada
 f1.keywords:
 - NOCSH
-ms.author: pebaum
-author: pebaum
+ms.author: sharik
+author: SKjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Remover a licença de uma caixa de correio compartilhada para atribuí-la a outro usuário. '
-ms.openlocfilehash: 401b334efeccf6d7c4caca20be3cc9767b2df945
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 43d32744afe42a8f244160ace20c1d989f501b28
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432214"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445490"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -72,8 +72,8 @@ Caixas de correio compartilhadas normalmente não exigem uma licença. Siga esta
 
  1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-   > [!NOTE]
-   > Você precisa remover a licença da página usuários ativos. Você não pode remover a licença da página de caixa de correio compartilhada, pois as licenças são configurações de usuário.
+    > [!NOTE]
+    > Você precisa remover a licença da página usuários ativos. Você não pode remover a licença da página de caixa de correio compartilhada, pois as licenças são configurações de usuário.
 
 2. Selecione a caixa de correio compartilhada e, em seguida, selecione **Editar** ao lado de **licenças de produto**.
 
@@ -91,8 +91,8 @@ Caixas de correio compartilhadas normalmente não exigem uma licença. Siga esta
 
  1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-   > [!NOTE]
-   > Você precisa remover a licença da página usuários ativos. Você não pode remover a licença da página de caixa de correio compartilhada, pois as licenças são configurações de usuário.
+    > [!NOTE]
+    > Você precisa remover a licença da página usuários ativos. Você não pode remover a licença da página de caixa de correio compartilhada, pois as licenças são configurações de usuário.
 
 2. Selecione a caixa de correio compartilhada e, em seguida, selecione **Editar** ao lado de **licenças de produto**.
 

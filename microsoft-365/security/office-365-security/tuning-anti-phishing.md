@@ -12,15 +12,15 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: ca1030141dd18797c7672b95ccae60b86fe9b7f2
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab7087355ce8ee41616f63a7b466a0d5d0fc7b0f
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414149"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446460"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção anti-phishing
 

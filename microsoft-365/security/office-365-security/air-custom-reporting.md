@@ -15,17 +15,17 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: Saiba como integrar a investigação e a resposta automatizadas com uma solução de relatório personalizada ou de terceiros.
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: 429ceae87e3beeb9ec0a254b120289be4ab51d16
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 9bc5de44700b7f1b7207f8fae002adcb55d32841
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446678"
 ---
 # <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>Usar a API de atividade de gerenciamento para soluções de relatórios personalizadas ou de terceiros
 

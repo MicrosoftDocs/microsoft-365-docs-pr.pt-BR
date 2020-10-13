@@ -15,17 +15,17 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: Saiba mais sobre ações de correção seguindo a investigação automatizada no Microsoft defender para Office 365.
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: a868b5e55bcc46c7134494172d05fb4a34075a0c
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ffd0429d3dc85371e7b6bb1c2d1246d9820d0e2e
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411933"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446702"
 ---
 # <a name="remediation-actions-following-automated-investigation-in-microsoft-defender-for-office-365"></a>Ações de correção após a investigação automatizada no Microsoft defender para Office 365
 

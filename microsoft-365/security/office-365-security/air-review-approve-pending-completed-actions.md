@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 29a3c2f59ba85c2c5d9965c0c7f262dcba1ecda7
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 1df963a77054e1adc9a290e976be5998d6298436
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411981"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446622"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Exibir ações de correção pendentes ou concluídas após uma investigação automatizada no Office 365
 

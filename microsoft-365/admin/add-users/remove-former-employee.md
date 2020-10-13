@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
-ms.openlocfilehash: 252442c36fd29b816626adb71b3ae38ae66f1f64
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: e8f0b61fae3656b7d700857e3cc7167cc121a77f
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445514"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Remover ou excluir um funcionário anterior
 
@@ -49,7 +49,7 @@ Assista a um pequeno vídeo sobre como remover um funcionário. <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Para impedir que um funcionário faça logon:
 
@@ -127,7 +127,7 @@ Há duas maneiras de salvar o conteúdo da caixa de correio do ex-funcionário:
 
 2. Coloque uma retenção de litígio ou bloqueio in-loco na caixa de correio antes de excluir a conta do usuário. Isso é muito mais complicado do que a primeira opção, mas vale a pena se o seu plano empresarial inclui arquivamento e retenção jurídica, se o litígio é uma possibilidade e se você tem um departamento de TI com excelente experiência técnica.
 
-    Após converter a caixa de correio em uma "caixa de correio inativa", os administradores, os gerentes de conformidade ou os gerentes de registros podem usar as ferramentas de descoberta eletrônica in-loco no Exchange Online para acessar e pesquisar o conteúdo.
+    Depois de converter a caixa de correio em uma "caixa de correio inativa", os administradores, os gerentes de conformidade ou os gerentes de registros podem usar as ferramentas de descoberta eletrônica do In-Place no Exchange Online para acessar e pesquisar o conteúdo.
 
     As caixas de correio inativas não podem receber emails e não são exibidas no catálogo de endereços compartilhados da sua organização ou em outras listas.
 
@@ -140,7 +140,6 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 - Criar uma caixa de correio compartilhada é a maneira mais econômica, pois assim não é necessário pagar por uma licença, **desde que a caixa de correio tenha menos de 50 GB**. Para caixas de correio acima de 50 GB, é necessário atribuir uma licença.
 - Se você converter a caixa de correio em uma caixa de correio compartilhada, todos os emails antigos ficarão disponíveis também. Isso pode ocupar muito espaço.
 - Quando você configura o encaminhamento de email, apenas os  *novos*  emails enviados ao ex-funcionário são enviados para o funcionário atual.
-- O encaminhamento de email requer a atribuição de uma licença para a conta do ex-funcionário.
 
  > [!IMPORTANT]
  > Se você estiver configurando o encaminhamento de emails ou uma caixa de correio compartilhada, no final, não exclua a conta do funcionário anterior. Ela deve existir para ancorar o encaminhamento de email ou a caixa de correio compartilhada.
@@ -150,7 +149,7 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 2. Selecione o nome do funcionário que você deseja bloquear e, em seguida, selecione a guia **email** .
 3. Em **encaminhamento de email**, selecione **gerenciar encaminhamento de email**.
-4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **Endereço de encaminhamento**, digite o endereço de email do funcionário atual (ou da caixa de correio compartilhada) que vai receber os emails.
+4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **endereço de encaminhamento** , digite o endereço de email do funcionário atual que vai receber o email.
 5. Selecione **Salvar**.
 6. Lembre-se de não excluir a conta do ex-funcionário.
 

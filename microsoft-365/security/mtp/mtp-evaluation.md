@@ -1,6 +1,6 @@
 ---
 title: Avaliar Proteção contra Ameaças da Microsoft
-description: Configure seu laboratório de avaliação de proteção contra ameaças da Microsoft ou seu ambiente piloto para experimentar como a solução de proteção de ameaças coordenada projetada para proteger dispositivos, identidade, dados e aplicativos pode ajudar sua organização
+description: Configure seu laboratório de avaliação de proteção contra ameaças da Microsoft ou seu ambiente piloto para experimentar e experimentar a solução de segurança projetada para proteger dispositivos, identidade, dados e aplicativos em sua organização.
 keywords: Avaliação de proteção contra ameaças da Microsoft, experimente a proteção contra ameaças da Microsoft, avalie a proteção contra ameaças da Microsoft, laboratório de avaliação de proteção contra ameaças da Microsoft, piloto de proteção contra ameaças da Microsoft, segurança persistente avançada, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, caça avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: 489ce48be4d995d7e91e2559311d7e619530ba4c
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: d3f63c8ac4ba82a80c365dce564bbd8d3dd4da4b
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418080"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447114"
 ---
 # <a name="create-a-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Criar um laboratório de avaliação do Microsoft Threat Protection ou ambiente piloto 
 
@@ -35,9 +35,9 @@ ms.locfileid: "48418080"
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-O objetivo de criar este laboratório de avaliação ou ambiente piloto é ilustrar os recursos abrangentes, integrados e inteligentes da proteção contra ameaças da Microsoft em detecção, prevenção, investigação e resposta que você pode usar em sua organização. 
+O objetivo de criar este laboratório de avaliação ou ambiente piloto é ilustrar os recursos de proteção de ameaças abrangentes e integrados da Microsoft. Experimente como essa solução de segurança inteligente detecta, impede, investiga automaticamente e responde a ameaças avançadas de sua organização. 
 
-Este guia orienta as etapas para iniciar a avaliação de proteção contra ameaças da Microsoft com base nos caminhos de implantação recomendados. O objetivo é ajudá-lo a configurar os serviços integrados de proteção contra ameaças da Microsoft em um ambiente de laboratório ao usar uma conta de avaliação ou em um ambiente piloto em produção ao usar uma licença completa. Os resultados do que serão úteis para a apresentação de casos de uso da operação de segurança para tomadores de decisões da solução de segurança em sua organização. Quando você terminar de executar as simulações de ataque e estiver satisfeito com os resultados, você pode implantá-lo e operacionalá-lo em sua organização com a ajuda dos profissionais de vendas ou especialistas técnicos da Microsoft em sua organização. 
+Este guia orienta as etapas para iniciar a avaliação de proteção contra ameaças da Microsoft com base nos caminhos de implantação recomendados. O objetivo é ajudá-lo a configurar a solução de segurança em um ambiente de laboratório com uma conta de avaliação ou em um ambiente piloto em produção com uma licença completa. Preparar o laboratório de avaliação ou o ambiente piloto pode ajudá-lo a apresentar casos de uso da operação de segurança para tomadores de decisões em sua organização. Quando você terminar de executar as simulações de ataque e estiver satisfeito com os resultados, você pode implantá-lo e operacionalá-lo completamente em sua organização com a ajuda dos profissionais de vendas ou especialistas da Microsoft em sua organização. 
 
 Este guia ajudará você a:
 - Configurar seu servidor de laboratório e computadores

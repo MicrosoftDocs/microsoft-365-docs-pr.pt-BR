@@ -2,9 +2,9 @@
 title: Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Saiba como converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por vários usuários. '
-ms.openlocfilehash: 027236afb5a77e950083f254a154c491d6abc6ac
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: bc867c9b43656e40149eb7cd7a7e5ce186c10798
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341187"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445682"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 
@@ -57,7 +57,7 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
 Para tudo o que você precisa saber sobre caixas de correio compartilhadas, consulte [sobre caixas de correio](about-shared-mailboxes.md) compartilhadas e [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md).
 
 > [!NOTE]
-> Caixas de correio compartilhadas não exigem uma licença separada. No entanto, se você deseja habilitar o arquivo morto in-loco ou colocar um bloqueio in-loco ou uma retenção de litígio em uma caixa de correio compartilhada, você deve atribuir uma licença do Exchange Online Plan 1 com o arquivamento do Exchange Online ou do Exchange Online Plan 2 à caixa de correio.
+> Caixas de correio compartilhadas não exigem uma licença separada. No entanto, se você deseja habilitar o arquivo de In-Place ou colocar uma In-Place isenção ou uma retenção de litígio em uma caixa de correio compartilhada, você deve atribuir uma licença do Exchange Online Plan 1 com o arquivamento do Exchange Online ou do Exchange Online Plan 2 à caixa de correio.
 
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Converter a caixa de correio de um usuário excluído

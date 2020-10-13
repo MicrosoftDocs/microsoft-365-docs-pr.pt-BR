@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 502ceb47a110dd7cd743281d518e542451413672
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: e07c1455cc2799481bc31871d2c3ee07b10492b9
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399612"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446178"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -118,7 +118,9 @@ O Azure AD fornece um pacote completo de recursos de gerenciamento de identidade
 | [Proteção de senha do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | Detectar e bloquear senhas fracas conhecidas e suas variantes e termos fracos adicionais que são específicos para sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes. |  Microsoft 365 E3 ou E5 |
 ||||
 
-![Componentes de identidade e acesso de dispositivo.](../../media/microsoft-365-policies-configurations/identity-device-access-components.png)
+Estes são os componentes de identidade e acesso ao dispositivo, incluindo os objetos do Intune e do Azure AD, configurações e subserviços.
+
+![Componentes de acesso de identidade e dispositivo](../../media/microsoft-365-policies-configurations/identity-device-access-components.png)
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 

@@ -15,17 +15,17 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: ab987652082c93a82fa5bcbd4667f26291c6e9d7
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 85813659d952fe936c8e8b41f2dc103a60116641
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417287"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447066"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 

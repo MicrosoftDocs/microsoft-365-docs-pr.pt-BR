@@ -2,9 +2,9 @@
 title: Resolver problemas com caixas de correio compartilhadas
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Tente estas soluções se você tiver problemas com caixas de correio compartilhadas.
-ms.openlocfilehash: 5d6de9ac66b11f0e50b259cdca0b1bb50b8326ee
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c889d3aa2fab8c2dce4cc2a8a00ef49a905363a1
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400011"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445502"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>Resolver problemas com caixas de correio compartilhadas
 

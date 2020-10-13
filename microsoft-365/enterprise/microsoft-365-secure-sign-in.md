@@ -13,15 +13,15 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365initiative-coredeploy
+- m365initiative-coredeploy
 ms.custom: ''
 description: Exija que seus usuários se conectem com segurança usando a autenticação multifator (MFA) e outros recursos.
-ms.openlocfilehash: 64b873a243d0ce86ee3700d5150076f88031a483
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: a3a63dfc06f5470c2151cd2ff140ad5dee19b0ce
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399130"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446072"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Proteger as entradas do usuário ao locatário do seu Microsoft 365
 

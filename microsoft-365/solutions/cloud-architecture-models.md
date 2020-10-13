@@ -12,12 +12,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 08b899582e6401c0950a1c7349b73130ee62acb4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 355d933c98bba284302c94e0dc9f54ba7ca52762
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308202"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446506"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft cloud para ilustrações de arquitetos de empresas
 
@@ -64,16 +64,23 @@ Esta série de tópicos ilustra várias abordagens de arquitetura para fusões, 
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Segurança no Microsoft Cloud para arquitetos corporativos
 
-O que os arquitetos de TI precisam saber sobre segurança em plataformas e serviços em nuvem da Microsoft.
+>[!Note]
+>Este modelo está sendo revisado. Confira este artigo no futuro para obter a versão atualizada.
+>
+
+<!--
+
+What IT architects need to know about security in Microsoft cloud services and platforms.
   
-|**Item**|**Descrição**|
+|**Item**|**Description**|
 |:-----|:-----|
-|[![Imagem em miniatura do modelo de segurança em nuvem da Microsoft](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Atualizado em dezembro de 2018 | Este modelo contém: <ul><li>Função da Microsoft no fornecimento de plataformas e serviços seguros</li><li>Responsabilidade do cliente em reduzir os riscos de segurança</li><li>Principais certificações de segurança </li><li>Ofertas de segurança fornecidas pelos serviços de consultoria da Microsoft </ul><br/>|
+|[![Thumb image for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Updated December 2018 | This model contains: <ul><li>Microsoft's role in providing secure services and platforms</li><li>Customer responsibilities to mitigate security risks</li><li>Top security certifications </li><li>Security offerings provided by Microsoft consulting services </ul><br/>|
+
+--> 
 
 
 <a name="attacks"></a>
-### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>Ataques comuns e recursos da Microsoft que protegem sua organização
-Conheça os ataques cibernéticos mais comuns e saiba como a Microsoft pode ajudar sua organização em cada etapa de um ataque. 
+### Os ataques comuns e os recursos da Microsoft que protegem sua organização aprendem sobre os ataques de Cyber mais comuns e como a Microsoft pode ajudar sua organização em cada estágio de um ataque. 
 
 |**Item**|**Descrição**|
 |:-----|:-----|

@@ -14,16 +14,16 @@ search.appverid:
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra spam no Exchange Online Protection (EOP).
-ms.openlocfilehash: c6ad0bf903ef7283415035581ed11ecb6e4336bd
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 2bf2808cc0da6124a0377b52dc46f88b2c8a69e0
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411849"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445730"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 

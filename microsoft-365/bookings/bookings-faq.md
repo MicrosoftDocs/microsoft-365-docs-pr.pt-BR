@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Perguntas frequentes sobre o Microsoft bookings.
-ms.openlocfilehash: ee0de2d1412aa5ec38759a3a2512de05b9e02621
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 40605cfc7e5d30e12cd34a463a76e8d9c324efc7
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545711"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445446"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Perguntas frequentes sobre o Microsoft bookings
 
@@ -21,7 +21,7 @@ ms.locfileid: "47545711"
 
 ### <a name="what-is-microsoft-bookings"></a>O que é o Microsoft bookings?
 
-O Microsoft bookings é um aplicativo da Microsoft 365 que facilita o agendamento e o gerenciamento de compromissos. As reservas Incudes um calendário de reserva baseado na Web e se integram ao Outlook para otimizar o calendário de sua equipe, dando a flexibilidade dos seus clientes ao livro um tempo que funcione melhor para eles. Os emails de notificação automatizada não reduzem os programas, e as organizações economizam tempo com uma redução nas tarefas de agendamento repetitivas. O livro ajuda você a realizar compromissos virtuais com facilidade via Skype ou Microsoft Teams e ajuda a gerenciar o agendamento diário por meio do aplicativo de reservas no Teams. Com a capacidade interna de personalizar, as reservas foram projetadas para atender às necessidades de várias partes de qualquer organização.
+O Microsoft bookings é um aplicativo da Microsoft 365 que facilita o agendamento e o gerenciamento de compromissos. As reservas incluem um calendário de reserva baseado na Web e integram-se ao Outlook para otimizar o calendário de sua equipe, dando a flexibilidade dos clientes ao livro um tempo que funciona melhor para eles. Os emails de notificação automatizada não reduzem os programas, e as organizações economizam tempo com uma redução nas tarefas de agendamento repetitivas. O livro ajuda você a realizar compromissos virtuais com facilidade via Skype ou Microsoft Teams e ajuda a gerenciar o agendamento diário por meio do aplicativo de reservas no Teams. Com a capacidade interna de personalizar, as reservas foram projetadas para atender às necessidades de várias partes de qualquer organização.
 
 ### <a name="how-do-i-use-microsoft-bookings"></a>Como usar o Microsoft bookings?
 
@@ -174,7 +174,7 @@ Uma configuração chamada de **lead time máximo** determina o que está mais l
 
 Todos os horários estão no fuso horário comercial (seu fuso horário local) por padrão. Isso significa que qualquer configuração configurada para um calendário de livros, como o horário de trabalho, será exibida neste fuso horário. A página de autoatendimento tem a capacidade de exibir todos os horários dos compromissos no fuso horário do usuário final, que pode ser desativado, se desejado.Se **sempre mostrar os intervalos de tempo no fuso horário de negócios** permanecer desmarcado na guia página de livros, as pessoas que visitarem a página verão os intervalos de tempo em seus próprios fusos horários locais.
 
-:::image type="content" source="media/bookings-faq-region.png" alt-text="Configurações de região e fuso horário":::
+:::image type="content" source="media/bookings-faq-region.png" alt-text="Agendamento em reservas":::
 
 Não há provisão para definir o fuso horário para a equipe em reservas. O fuso horário da equipe e, portanto, o horário comercial, estará no fuso horário comercial.
 
@@ -202,7 +202,7 @@ Sim, temos uma funcionalidade de catálogos de grupo que permite várias pessoas
 
 Sim. Há uma caixa de seleção na guia página de reserva no aplicativo Web: **exigir uma conta do Microsoft 365 ou do Office 365 de minha organização para o livro**. Marcar essa caixa de seleção restringe o acesso a páginas de autoatendimento apenas àqueles que estão dentro do seu locatário. O calendário de livros que se encontra dentro do aplicativo Web para criação e gerenciamento só pode ser acessado por usuários adicionados como equipe à página com funções de administrador ou de visualizador.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Controle de acesso de página de reserva em reservas":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Agendamento em reservas":::
 
 ### <a name="how-frequently-does-the-home-page-update"></a>Com que frequência a página inicial é atualizada?
 
@@ -214,7 +214,7 @@ O tempo limite de gravação dentro dos livros Web App sempre irá disparar um e
 
 ### <a name="can-bookings-calendars-be-cloned-or-duplicated-and-can-they-be-templatized-for-easy-scaling"></a>Os calendários podem ser clonados ou duplicados e podem ser templatizeddos para facilitar o dimensionamento?
 
-A capacidade de duplicar páginas está atualmente disponível por meio do PowerShell. O processo seria usar a API do Graph para obter detalhes da caixa de correio e, em seguida, usar esses detalhes para criar uma nova caixa de correio. A documentação da API está [aqui](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta).
+O processo seria usar a API do Graph para obter detalhes da caixa de correio e, em seguida, usar esses detalhes para criar uma nova caixa de correio. A documentação da API está [aqui](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta).
 
 ### <a name="what-reporting-is-available-in-bookings"></a>Que relatórios estão disponíveis nos livros?
 
@@ -250,7 +250,7 @@ Cada calendário de livros é mantido de forma independente. Não há um modo de
 
 O acesso ao aplicativo Web de reservas envolve autenticação por meio da autenticação regular do Azure Active Directory (AAD). A página de reservas de autoatendimento pode ser disponibilizada para todos com o link da página da Web. No entanto, quando a configuração **exigir uma conta do Microsoft 365 ou do Office 365 da minha organização para o** livro está selecionada, a página é restrita para uso no locatário do Microsoft 365 (usando a autenticação do AAD).
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Controle de acesso de página de reserva em reservas":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Agendamento em reservas":::
 
 ### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>Os dados do cliente deixam o sistema de produção por algum motivo?
 
