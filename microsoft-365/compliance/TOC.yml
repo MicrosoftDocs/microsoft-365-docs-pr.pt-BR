@@ -250,6 +250,8 @@
           href: how-dlp-works-between-admin-centers.md
         - name: Utilize rótulos de sensibilidade como condição nas políticas de DLP (visualização)
           href: dlp-sensitivity-label-as-condition.md
+        - name: Usar as políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft
+          href: dlp-use-policies-non-microsoft-cloud-apps.md
 - name: Gerenciar a governança de informações
   items:
     - name: Gerenciar seus dados
