@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 8ee871ccde30d3ab71dbcb2d5183aafdf11482bd
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: adc1006628b8b4f13d30f2001fee0871b51b18ca
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430428"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -146,7 +146,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-seis a TWN dígitos com ou sem um número de filial do estado do banco
+seis a dez dígitos com ou sem um número de filial do estado do banco
 
 ### <a name="pattern"></a>Padrão
 
@@ -768,7 +768,7 @@ Uma combinação de uma letra, sete dígitos e um espaço:
     
 ### <a name="checksum"></a>Soma de verificação
 
-não aplicável
+não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1621,8 +1621,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - registro
 - registrationsnumme
 - registrierung
-- social security number
-
+- número de seguro social
 - es #
 - es
 - steuernummer
@@ -1657,7 +1656,7 @@ duas letras e seguidas por seis dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-não aplicável
+não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1702,7 +1701,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - paspoortnummers
 - Passeport carte
 - Passeport livre
-- Pass-NR
+- Pass-Nr
 - Passnummer
 - reisepass kein
 
@@ -2162,8 +2161,7 @@ national id
 - pessoal não
 - número pessoal
 - personalidnumber #
-- social security number
-
+- número de seguro social
 - es #
 - es
 - ID civil uniforme
@@ -3096,7 +3094,7 @@ master cards
 
 - carte blanche
 - carteblanche
-- credit card
+- cartão de crédito
 - colocado #
 - CC #:
 - Data de vencimento
@@ -3672,7 +3670,7 @@ dez dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-não aplicável
+não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -3787,7 +3785,7 @@ oito dígitos e uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-não aplicável
+não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -4037,8 +4035,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - rodné číslo
 - es
 - es #
-- social security number
-
+- número de seguro social
 - tax id
 
 - identificação de imposto não
@@ -4305,8 +4302,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - skat kode
 - skat nummer
 - skattenummer
-- social security number
-
+- número de seguro social
 - sundhedsforsikringskort
 - sundhedsforsikringsnummer
 - sundhedskort
@@ -5321,8 +5317,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - personalidnumber #
 - personbeteckning
 - personnummer
-- social security number
-
+- número de seguro social
 - sosiaaliturvatunnus
 - tax id
 
@@ -7798,7 +7793,7 @@ duas letras ou dígitos seguidos por sete dígitos:
     
 ### <a name="checksum"></a>Soma de verificação
 
-não aplicável
+não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -8550,8 +8545,7 @@ national id
 registration number
 - número de receita
 - número de seguro social
-- social security number
-
+- número de seguro social
 - código de imposto estadual
 - número do arquivo de imposto
 - tax id
@@ -8784,7 +8778,7 @@ oito dígitos ou letras (não diferencia maiúsculas de minúsculas)
   
 ### <a name="checksum"></a>Soma de verificação
 
-não aplicável
+não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -9541,7 +9535,7 @@ nove letras ou dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-não aplicável
+não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -11276,8 +11270,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - rč
 - rodne cislo
 - rodné číslo
-- social security number
-
+- número de seguro social
 - es #
 - es
 - személyi igazolvány szám
@@ -12631,8 +12624,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - atos
 - número de seguro
 - personalidno #
-- social security number
-
+- número de seguro social
 - número de identificação pessoal
 - n º de identificação pessoal
 - insuranceno #
@@ -13134,8 +13126,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - protection act
 - seguro
-- social security number
-
+- número de seguro social
 - insurance application
 
 - medical application
