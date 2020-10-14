@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os limites de caso, limites de indexação e limites de pesquisa em vigor para a solução de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: c139480f18e0e6d94aae5a38d5fd636fbc62b2dc
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 7d676b568c7e4cddedeff02c62b4645619d53357
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358469"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446248"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -38,6 +38,8 @@ A tabela a seguir lista os limites de casos e os conjuntos de revisão na descob
 |Quantidade total de dados carregados em todos os conjuntos de revisão na organização por dia.<br/> |2 TB <br/> |
 |Número máximo de conjuntos de cargas por caso.  <br/> |200 <br/> |
 |Número máximo de conjuntos de revisão por caso.  <br/> |508 <br/> |
+|Número máximo de grupos de marcas por caso.  <br/> |1000 <br/> |
+|Número máximo de marcas por caso.  <br/> |1000 <br/> |
 |||
 
 ## <a name="indexing-limits"></a>Limites de indexação

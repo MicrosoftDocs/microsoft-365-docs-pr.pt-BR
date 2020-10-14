@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c33e136be55ea60f1e5954d4713b219045b1f0eb
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: b124e4c4d120d981766493034aba9bc6eefa7d9c
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398522"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446554"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -43,7 +43,7 @@ E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365
 
 Vários recursos novos e aprimorados atingiram a visualização pública neste mês:
 
-**Gerenciamento de risco do insider**
+**Gerenciamento de risco interno**
 
 - Confira nossos seis novos [modelos de política](insider-risk-management-policies.md#policy-templates):
     - Vazamentos de dados por usuários de prioridade
@@ -80,7 +80,7 @@ Vários recursos novos e aprimorados atingiram a visualização pública neste m
 
 Novos documentos que abrangem etapas de implantação, marcando o conteúdo como registros e registrando o controle de versão:
 
-- [Começar a usar o gerenciamento de registros](get-started-with-records-management.md)
+- [Introdução ao gerenciamento de registros](get-started-with-records-management.md)
 - [Declarar registros usando rótulos de retenção](declare-records.md)
 - [Usar a versão de registro para atualizar registros armazenados no SharePoint ou no OneDrive](record-versioning.md)
 
@@ -170,7 +170,7 @@ O carregamento de rede agora está disponível nos Emirados Árabes Unidos.
 
 ### <a name="sensitivity-labels-new-privacy-option"></a>Rótulos de confidencialidade: nova opção de privacidade
 
-Ao configurar [definições de site e de grupo](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings) para um rótulo, agora você pode definir a opção de privacidade como **nenhum-permitir que o usuário escolha quem pode acessar o site**. Isso é útil quando você deseja proteger o conteúdo do contêiner usando um rótulo de confidencialidade, mas ainda permitir que os usuários configurem a configuração de privacidade.
+Ao configurar [definições de site e de grupo](sensitivity-labels-teams-groups-sites.md#how-to-configure-groups-and-site-settings) para um rótulo, agora você pode definir a opção de privacidade como **nenhum-permitir que o usuário escolha quem pode acessar o site**. Isso é útil quando você deseja proteger o conteúdo do contêiner usando um rótulo de confidencialidade, mas ainda permitir que os usuários configurem a configuração de privacidade.
 
 ## <a name="april-2020"></a>Abril de 2020
 
@@ -347,7 +347,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 |Conectores de dados|> de governança de informações arquivar dados de terceiros <br/> https://protection.office.com/nativeconnector | Conectores de dados <br/> https://compliance.microsoft.com/connectorlanding |[Arquivar dados de terceiros](archiving-third-party-data.md)|
 |Prevenção contra perda de dados|Prevenção contra perda de dados <br/> https://protection.office.com/datalossprevention |Prevenção contra perda de dados <br/> https://compliance.microsoft.com/datalossprevention |[Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)|
 |Solicitações de titular dos dados |Data Privacy > solicitações de entidades de dados <br/> https://protection.office.com/dsrcases |Solicitações de titular dos dados <br/> https://compliance.microsoft.com/datasubjectrequest |[Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de ocorrência de DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
-|Descoberta Eletrônica|descoberta eletrônica > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |Centro de > de descoberta eletrônica <br/> https://compliance.microsoft.com/classicediscovery |[Gerenciar casos de Descoberta Eletrônica](ediscovery-cases.md) |
+|Descoberta eletrônica|descoberta eletrônica > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |Centro de > de descoberta eletrônica <br/> https://compliance.microsoft.com/classicediscovery |[Gerenciar casos de Descoberta Eletrônica](ediscovery-cases.md) |
 |Eventos|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
 |Plano de arquivos|Gerenciamento de registros > plano de arquivo <br/> https://protection.office.com/fileplan |Gerenciamento de registros > guia plano de arquivo <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Usar o plano de arquivos para gerenciar os rótulos de retenção](file-plan-manager.md)|
 |Importar arquivos PST|Governança de informações > importar arquivos PST <br/> https://protection.office.com/importV2 |Guia importar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Visão geral da importação dos arquivos PST da sua organização](importing-pst-files-to-office-365.md)|

@@ -22,12 +22,12 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar no centro de conformidade & segurança do Office 365.
-ms.openlocfilehash: fb3d0b9d941658f2613344d00984dbe7846565a6
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 5445c9485d7076b3819c796028a311a523a92dde
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662295"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446190"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo
 
@@ -52,9 +52,9 @@ A tabela a seguir lista as propriedades de mensagens de email que podem ser pesq
 > [!NOTE]
 > Ao pesquisar as propriedades de email, não é possível pesquisar itens em que a propriedade especificada está vazia ou em branco. Por exemplo, usando o par *Propriedade: Value* do **assunto: ""** para pesquisar mensagens de email com uma linha de assunto vazia retornará zero resultados. Isso também se aplica ao pesquisar Propriedades de site e de contato.
   
-|**Propriedade**|**Descrição da propriedade**|**Exemplos**|**Resultados de pesquisa retornados pelos exemplos**|
+|**Property**|**Descrição da propriedade**|**Exemplos**|**Resultados de pesquisa retornados pelos exemplos**|
 |:-----|:-----|:-----|:-----|
-|Attachmentnames|Os nomes dos arquivos anexados a uma mensagem de email.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames:.pptx|Mensagens que têm um arquivo anexado chamado relatórioanual.ppt. No segundo exemplo, o uso do caractere curinga retorna mensagens com a palavra "anual" no nome de arquivo de um anexo. O terceiro exemplo retorna todos os anexos com a extensão de arquivo PPTX.|
+|Attachmentnames|Os nomes dos arquivos anexados a uma mensagem de email.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> `attachmentnames:.pptx` |Mensagens que têm um arquivo anexado chamado relatórioanual.ppt. No segundo exemplo, o uso do caractere curinga retorna mensagens com a palavra "anual" no nome de arquivo de um anexo. O terceiro exemplo retorna todos os anexos com a extensão de arquivo PPTX.|
 |Cco|O campo Cco de uma mensagem de email. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|Todos os exemplos retornam mensagens com Brenda Fernandes incluída no campo Cco.|
 |Categoria| As categorias a serem pesquisadas. As categorias podem ser definidas por usuários usando o Outlook ou o Outlook na Web (anteriormente conhecido como Outlook Web App). Os valores possíveis são:  <br/><br/>  azuis  <br/>  natureza  <br/>  laranja  <br/>  roxa  <br/>  vermelha  <br/>  amarelo|`category:"Red Category"`|Mensagens que foram atribuídas à categoria vermelho nas caixas de correio de origem. |
 |Cc|O campo CC de uma mensagem de email. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|Em ambos os exemplos, as mensagens com Pilar Fernandes especificadas no campo CC.|
@@ -75,7 +75,18 @@ A tabela a seguir lista as propriedades de mensagens de email que podem ser pesq
 |||||
    
 > [!NOTE]
-> <sup>1</sup> para o valor de uma propriedade de destinatário, você pode usar o endereço de email (também chamado de UPN ou *nome principal de usuário* ), nome de exibição ou alias para especificar um usuário. Por exemplo, você pode usar clarab@contoso.com, clarab ou "Clara Barbosa" para especificar o usuário Clara Barbosa.<br/><br/>Ao pesquisar qualquer uma das propriedades de destinatário (de, para, CC, Cco, participantes e destinatários), o Microsoft 365 tenta expandir a identidade de cada usuário procurando-o no Azure Active Directory.  Se o usuário for localizado no Azure Active Directory, a consulta será expandida para incluir o endereço de email do usuário (ou UPN), o alias, o nome para exibição e LegacyExchangeDN.<br/><br/>Por exemplo, uma consulta como `participants:ronnie@contoso.com` expande para `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"` .<br/><br/>Para impedir a expansão do destinatário, você pode adicionar um caractere curinga (asterisco) ao final do endereço de email na consulta de pesquisa; por exemplo, `participants:ronnie@contoso.com*` .
+> <sup>1</sup> para o valor de uma propriedade de destinatário, você pode usar o endereço de email (também chamado de UPN ou *nome principal de usuário* ), nome de exibição ou alias para especificar um usuário. Por exemplo, você pode usar clarab@contoso.com, clarab ou "Clara Barbosa" para especificar o usuário Clara Barbosa.
+
+### <a name="recipient-expansion"></a>Expansão de destinatário
+
+Ao pesquisar qualquer uma das propriedades de destinatário (de, para, CC, Cco, participantes e destinatários), o Microsoft 365 tenta expandir a identidade de cada usuário procurando-o no Azure Active Directory (Azure AD).  Se o usuário for encontrado no Azure AD, a consulta será expandida para incluir o endereço de email do usuário (ou UPN), alias, nome de exibição e LegacyExchangeDN. Por exemplo, uma consulta como `participants:ronnie@contoso.com` expande para `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"` .
+
+Para impedir a expansão do destinatário, adicione um caractere curinga (asterisco) ao final do endereço de email e use um nome de domínio reduzido; por exemplo, `participants:"ronnie@contoso*"` não se esqueça de colocar o endereço de email entre aspas duplas.
+
+No entanto, lembre-se de que impedir a expansão de destinatários na consulta de pesquisa pode resultar em itens relevantes que não estão sendo retornados nos resultados da pesquisa. As mensagens de email no Exchange podem ser salvas com formatos de texto diferentes nos campos de destinatário. A expansão de destinatários destina-se a ajudar a reduzir esse fato, retornando mensagens que podem conter formatos de texto diferentes. Portanto, impedir a expansão do destinatário pode resultar na consulta de não retornar todos os itens que podem ser relevantes para a sua investigação.
+
+> [!NOTE]
+> Se você precisar revisar ou reduzir os itens retornados por uma consulta de pesquisa devido à expansão de destinatário, considere o uso de descoberta eletrônica avançada. Você pode procurar mensagens (tirando proveito da expansão de destinatário), adicioná-las a um conjunto de revisão e, em seguida, usar as consultas ou filtros de revisão para revisar ou restringir os resultados. Para obter mais informações, consulte [coletar dados por um caso](collecting-data-for-ediscovery.md) e [consultar os dados em um conjunto de revisão](review-set-search.md).
 
 ## <a name="searchable-site-properties"></a>Propriedades de sites pesquisáveis
 
@@ -83,11 +94,11 @@ A tabela a seguir lista algumas das propriedades do SharePoint e do OneDrive for
   
 Para obter uma lista completa das propriedades do SharePoint que podem ser pesquisadas, confira [visão geral das propriedades rastreadas e gerenciadas no SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=331599). As propriedades marcadas com um **Sim** na coluna **consultável** podem ser pesquisadas. 
   
-|**Propriedade**|**Descrição da propriedade**|**Exemplo**|**Resultados de pesquisa retornados pelos exemplos**|
+|**Property**|**Descrição da propriedade**|**Exemplo**|**Resultados de pesquisa retornados pelos exemplos**|
 |:-----|:-----|:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`author:"Garth Fort"`|Todos os documentos criados por Paulo Araújo.|
 |ContentType|O tipo de conteúdo do SharePoint de um item, como item, documento ou vídeo.|`contenttype:document`|Todos os documentos seriam ser retornados.|
-|Criado em|A data em que um item foi criado.|`created>=06/01/2016`|Todos os itens criados em ou após 1º de junho de 2016.|
+|Created|A data em que um item foi criado.|`created>=06/01/2016`|Todos os itens criados em ou após 1º de junho de 2016.|
 |CreatedBy|A pessoa que criou ou carregou um item. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`createdby:"Garth Fort"`|Todos os itens criados ou carregados por Paulo Araújo.|
 |DetectedLanguage|O idioma de um item.|`detectedlanguage:english`|Todos os itens em inglês.|
 |DocumentLink|O caminho (URL) de uma pasta específica em um site do SharePoint ou do OneDrive for Business. Se você usar essa propriedade, certifique-se de Pesquisar o site no qual a pasta especificada está localizada.  <br/> Para retornar itens localizados em subpastas da pasta que você especificou para a propriedade documentlink, você precisa adicionar/ \* à URL da pasta especificada; por exemplo,  `documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>Para obter mais informações sobre como Pesquisar a propriedade documentlink e usar um script para obter as URLs do documentlink para pastas em um site específico, consulte [usar a pesquisa de conteúdo para coleções direcionadas](use-content-search-for-targeted-collections.md).|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens na pasta especificada do OneDrive for Business. O segundo exemplo retorna documentos na pasta de site especificada (e todas as subpastas) que contenham a palavra "confidencial" no nome do arquivo.|
@@ -95,7 +106,7 @@ Para obter uma lista completa das propriedades do SharePoint que podem ser pesqu
 |FileName|O nome de um arquivo.|`filename:"marketing plan"`  <br/> `filename:estimate`|O primeiro exemplo retorna os arquivos com a frase exata "plano de marketing" no título. O segundo exemplo retorna arquivos com a palavra "estimativa" no nome de arquivo.|
 |LastModifiedTime|A data em que um item foi alterado pela última vez.|`lastmodifiedtime>=05/01/2016`  <br/> `lastmodifiedtime>=05/10/2016 AND lastmodifiedtime<=06/1/2016`|O primeiro exemplo retorna itens que foram alterados em ou após 1 de maio de 2016. O segundo exemplo retorna os itens que foram alterados entre 1º de maio de 2016 e 1 de junho de 2016.|
 |ModifiedBy|A pessoa que alterou um item pela última vez. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`modifiedby:"Garth Fort"`|Todos os itens que foram alterados pela última vez por Paulo Araújo.|
-|Caminho|O caminho (URL) de um site específico em um site do SharePoint ou do OneDrive for Business.  <br/> Para retornar itens localizados em pastas no site que você especificar para a propriedade Path, você precisa adicionar/ \* à URL do site especificado; por exemplo,  `path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **Observação:** O uso da  `Path` propriedade para pesquisar os locais do onedrive não retornará arquivos de mídia, como arquivos. png,. TIFF ou. wav, nos resultados da pesquisa. Use uma propriedade de site diferente em sua consulta de pesquisa para pesquisar arquivos de mídia em pastas do OneDrive. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens no site do OneDrive for Business especificado. O segundo exemplo retorna documentos no site especificado (e pastas no site) que contenham a palavra "confidencial" no nome do arquivo.|
+|Path|O caminho (URL) de um site específico em um site do SharePoint ou do OneDrive for Business.  <br/> Para retornar itens localizados em pastas no site que você especificar para a propriedade Path, você precisa adicionar/ \* à URL do site especificado; por exemplo,  `path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **Observação:** O uso da  `Path` propriedade para pesquisar os locais do onedrive não retornará arquivos de mídia, como arquivos. png,. TIFF ou. wav, nos resultados da pesquisa. Use uma propriedade de site diferente em sua consulta de pesquisa para pesquisar arquivos de mídia em pastas do OneDrive. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens no site do OneDrive for Business especificado. O segundo exemplo retorna documentos no site especificado (e pastas no site) que contenham a palavra "confidencial" no nome do arquivo.|
 |SharedWithUsersOWSUser|Documentos que foram compartilhados com o usuário especificado e exibidos na página **compartilhado comigo** no site do onedrive for Business do usuário. Estes são documentos que foram explicitamente compartilhados com o usuário especificado por outras pessoas na sua organização. Quando você exporta documentos que correspondem a uma consulta de pesquisa que usa a propriedade SharedWithUsersOWSUser, os documentos são exportados do local de conteúdo original da pessoa que compartilhou o documento com o usuário especificado. Para obter mais informações, consulte [pesquisando o conteúdo do site compartilhado em sua organização](#searching-for-site-content-shared-within-your-organization).|`sharedwithusersowsuser:garthf`  <br/> `sharedwithusersowsuser:"garthf@contoso.com"`|Ambos os exemplos retornam todos os documentos internos que foram explicitamente compartilhados com o Henrique Fort e que aparecem na página **compartilhado comigo** na conta do onedrive for Business do Henrique Fort.|
 |Site|A URL de um site ou grupo de sites em sua organização.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|O primeiro exemplo retorna itens dos sites do OneDrive for Business para todos os usuários da organização. O segundo exemplo retorna itens de todos os sites de equipe.|
 |Size|O tamanho de um item, em bytes.|`size>=1`  <br/> `size:1..10000`|O primeiro exemplo retorna itens com mais de 1 byte. O segundo exemplo retorna itens de 1 a 10.000 bytes de tamanho.|
@@ -109,7 +120,7 @@ A tabela a seguir lista as propriedades de contato que estão indexadas e que vo
 > [!TIP]
 > Para pesquisar valores que contenham espaços ou caracteres especiais, use aspas duplas ("") para conter a frase; por exemplo,  `businessaddress:"123 Main Street"` . 
   
-|**Propriedade**|**Descrição da propriedade**|
+|**Property**|**Descrição da propriedade**|
 |:-----|:-----|
 |BusinessAddress|O endereço na propriedade **endereço comercial** . A propriedade também é chamada de endereço **comercial** na página de propriedades do contato.|
 |BusinessPhone|O número de telefone em qualquer uma das propriedades do número de **telefone comercial** .|
@@ -146,7 +157,7 @@ Para obter mais informações sobre como criar consultas usando a  `SensitiveTyp
 
 Operadores de pesquisa booleanos, como **e**, **ou**, e **não**, ajudam você a definir pesquisas mais precisas, incluindo ou excluindo palavras específicas na consulta de pesquisa. Outras técnicas, como o uso de operadores de propriedade (como \> = ou..), aspas, parênteses e curingas, ajudam a refinar uma consulta de pesquisa. A tabela a seguir lista os operadores que você pode usar para restringir ou ampliar os resultados de pesquisa. 
   
-|**Operator**|**Uso**|**Descrição**|
+|**Operator**|**Usage**|**Descrição**|
 |:-----|:-----|:-----|
 |E|palavra-chave1 AND palavra-chave2|Retorna itens que incluem todas as palavras-chave ou expressões especificadas  `property:value` . Por exemplo,  `from:"Ann Beebe" AND subject:northwind` retorna todas as mensagens enviadas por Ana Beebe que continham a palavra Northwind na linha de assunto. <sup>2</sup>|
 |+|palavra + palavra-chave2 + keyword3|Retorna itens que contêm *um* `keyword2` ou `keyword3` *e* que também contêm `keyword1` .   Portanto, este exemplo é equivalente à consulta  `(keyword2 OR keyword3) AND keyword1` .  <br/> A consulta  `keyword1 + keyword2` (com um espaço após o **+** símbolo) não é o mesmo que usar o operador **and** . Essa consulta seria equivalente a  `"keyword1 + keyword2"` e retornar itens com a fase exata  `"keyword1 + keyword2"` .|
@@ -195,7 +206,7 @@ Crie uma condição usando propriedades comuns ao pesquisar caixas de correio e 
 |Remetente/autor|Para email, a pessoa que enviou uma mensagem. Para documentos, a pessoa citada no campo autor de documentos do Office. Você pode digitar mais de um nome, separado por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador **OR**.|
 |Tamanho (em bytes)|Para emails e documentos, o tamanho do item (em bytes).|
 |Assunto/título|Para email, o texto na linha de assunto de uma mensagem. Para documentos, o título do documento. Como explicado anteriormente, a propriedade Title é Metadata especificado em documentos do Microsoft Office. Você pode digitar o nome de mais de um assunto/título, separados por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador **OR**.|
-|Rótulo de conformidade|Para emails e documentos, rótulos de retenção que foram atribuídos a mensagens e documentos automaticamente por políticas de rótulo automático ou rótulos de retenção que foram atribuídos manualmente pelos usuários. Os rótulos de retenção são usados para classificar emails e documentos para controle de informações e aplicar regras de retenção com base nas configurações definidas pelo rótulo. Você pode digitar parte do nome do rótulo de retenção e usar um caractere curinga ou digitar o nome completo do rótulo. Para obter mais informações sobre rótulos de retenção, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).|
+|Rótulo de conformidade|Para emails e documentos, os rótulos de retenção que foram atribuídos a mensagens e documentos automaticamente por políticas de autorótulo ou rótulos de retenção que foram atribuídos manualmente pelos usuários. Os rótulos de retenção são usados para classificar emails e documentos para controle de informações e aplicar regras de retenção com base nas configurações definidas pelo rótulo. Você pode digitar parte do nome do rótulo de retenção e usar um caractere curinga ou digitar o nome completo do rótulo. Para obter mais informações sobre rótulos de retenção, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).|
 |||
   
 ### <a name="conditions-for-mail-properties"></a>Condições para propriedades de email
@@ -223,7 +234,7 @@ Crie uma condição usando as propriedades do documento ao pesquisar documentos 
 |:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original.|
 |Título|O título do documento. A propriedade Title consiste em metadados que são especificados em documentos do Office. É diferente do nome de arquivo do documento.|
-|Criado em|A data em que um documento foi criado.|
+|Created|A data em que um documento foi criado.|
 |Última modificação|A data em que um documento foi alterado pela última vez.|
 |Tipo de arquivo|A extensão de um arquivo; por exemplo, docx, One, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension.|
 |||
