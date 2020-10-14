@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-- M365initiative-CoreDeploy
+- m365initiative-coredeploy
 description: Visão geral da conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
-ms.openlocfilehash: d3ca55a4d8357d10b79bd8e87ddc3350efa2845e
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: fcc70f7c76b92ecf113158cdac8eecdfb9852351
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326872"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456418"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)
 
@@ -53,13 +53,13 @@ O serviço de localização do Windows deve ser consentido nas máquinas. Você 
 
 Você não precisa adicionar locais no centro de administração com esse método, pois eles são identificados automaticamente na resolução da cidade. Você não pode mostrar vários locais do Office dentro de uma cidade usando os serviços de localização do Windows. As informações de local também são arredondadas para os 300 metros mais próximos de 300 metros antes de serem carregadas para que não seja possível acessar informações de local mais precisas.
 
-As máquinas devem ter redes Wi-Fi, em vez de um cabo Ethernet. As máquinas com um cabo Ethernet não têm informações precisas sobre o local.
+As máquinas devem ter Wi-Fi rede em vez de um cabo Ethernet. As máquinas com um cabo Ethernet não têm informações precisas sobre o local.
 
 Os exemplos de medidas e locais do Office devem começar a aparecer 24 horas após os pré-requisitos terem sido atendidos.
 
 ### <a name="2-add-locations-and-provide-lan-subnet-information"></a>2. Adicione locais e forneça informações de sub-rede de LAN
 
-Para esta opção, não são necessários serviços de localização do Windows nem Wi-Fi. Você precisa do OneDrive for Windows versão **20,161** ou superior instalado em cada computador no local.
+Para essa opção, nenhum dos serviços de localização do Windows nem Wi-Fi são necessários. Você precisa do OneDrive for Windows versão **20,161** ou superior instalado em cada computador no local.
 
 Você também precisa adicionar locais na página conectividade de rede do centro de administração ou importá-los de um arquivo CSV. Os locais adicionados devem incluir informações de sub-rede da LAN do Office.
 

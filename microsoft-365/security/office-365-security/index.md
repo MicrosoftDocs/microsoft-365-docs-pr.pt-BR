@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Segurança no Office 365, de EOP para planos ATP 1 e 2, configurações de segurança padrão vs. estrito e muito mais. Entenda o que você tem e como proteger suas propriedades.
-ms.openlocfilehash: 94fce99d029d21524bc60af4622fda7ee38980e7
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 256a24a7816a40e1bd60c687a875f84e605f5208
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430687"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456466"
 ---
 # <a name="office-365-security-overview"></a>Visão geral da segurança do Office 365
 
@@ -88,7 +88,7 @@ a partir do **Exchange Online Protection**:
 |---------|---------|---------|
 | As tecnologias incluem:<ul><li>spam</li><li>Phish</li><li>software</li><li>email em massa</li><li>inteligência de spoof</li><li>detecção de representação</li><li>Quarentena do administrador</li><li>Envios de administrador e de usuário de falsos positivos e falsos negativos</li><li>Permitir/bloquear URLs e arquivos</li><li>Relatórios</li></u1>|<li>Pesquisa de log de auditoria</li><li>Rastreamento de Mensagem</li>|<li>Limpeza automática de zero horas (ZAP)</li><li>Ajuste e teste de listas de permissões e bloqueios</li>|
 
-Se você quiser se aprofundar no EOP, **[vá para este artigo](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-21vianet&branch=tp_EOPOverview)**.
+Se você quiser se aprofundar no EOP, **[vá para este artigo](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide#:~:text=Exchange%20Online%20Protection%20%28EOP%29%20is%20the%20cloud-based%20filtering,is%20also%20available%20in%20the%20following%20on-premises%20scenarios%3A)**.
 
 Como esses produtos são cumulativos, se você avaliar ATP P1 e decidir inscrever-se nele, você adicionará essas habilidades.
 
