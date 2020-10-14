@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,19 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
-description: 'Encontre respostas para suas principais perguntas de cobrança para a assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: a2c25c82587752493dea6e3110e69f7075ed7b09
-ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
+description: Encontre respostas para suas principais perguntas de cobrança para as assinaturas do Microsoft 365 for Business.
+ms.openlocfilehash: d1af61fe4493137621315c79c2bbf7d33d60de0a
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44741682"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48463997"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>Principais perguntas sobre cobrança para o Microsoft 365 for Business
 
@@ -171,14 +166,14 @@ Confira [exibir sua cobrança ou obter Fapiaos no Office 365 operado pela 21vian
 ::: moniker range="o365-worldwide"
 ## <a name="what-taxes-will-i-be-charged"></a>Quais são os impostos que serei cobrados?
 
-Veja [qual é o imposto que serei cobrado?](tax-information.md#what-tax-will-i-be-charged) para descobrir qual é o imposto que você está cobrado, dependendo do seu país ou região.
+Veja [informações de impostos](tax-information.md) para saber qual é o imposto cobrado, dependendo do seu país ou região.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="what-taxes-will-i-be-charged"></a>Quais são os impostos que serei cobrados?
 
-Veja [qual é o imposto que serei cobrado?](tax-information.md#what-tax-will-i-be-charged) para descobrir qual é o imposto que você está cobrado, dependendo do seu país ou região.
+Veja [informações de impostos](tax-information.md) para saber qual é o imposto cobrado, dependendo do seu país ou região.
   
 ::: moniker-end
 

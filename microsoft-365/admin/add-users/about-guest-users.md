@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a lista de usuários convidados é preenchida no centro de administração do Microsoft 365.
-ms.openlocfilehash: b22b23e27c1a0cbb241b75a9a9953537f9fcb819
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: c698332351d525c12659849826d9e822351a347d
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786241"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48463973"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Usuários convidados no centro de administração do Microsoft 365
 
@@ -41,7 +41,7 @@ Para ver como adicionar um convidado ao Microsoft Teams, confira o seguinte víd
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
-## <a name="join-a-team-as-a-guest"></a>Ingressar em uma equipe como convidado
+## <a name="join-a-team-as-a-guest"></a>Participe de uma equipe como convidado
 
 Para ingressar em uma equipe como um convidado, confira o seguinte vídeo:<br><br>
 

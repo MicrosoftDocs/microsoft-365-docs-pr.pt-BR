@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 09/02/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -19,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: c68e2e68ea6a5cc1204eda371cf67ca31f58d7cb
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 122df0f81200462f85d52985ccf3e42ce5d925f7
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357861"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446818"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -107,6 +106,6 @@ Use estas etapas para proteger e otimizar o acesso aos servidores, dados e servi
 5. [Implantar aplicativos e serviços de produtividade de trabalhador remoto](empower-people-to-work-remotely-teams-productivity-apps.md)
 6. [Treinar os funcionários remotos e responder a questões sobre o uso](empower-people-to-work-remotely-train-monitor-usage.md)
 
-![As etapas para capacitar funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)
+[![Os passos para capacitar os trabalhadores remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
 Para obter as informações mais recentes da Microsoft sobre como oferecer suporte a funcionários remotos, confira [Habilitação do site de comunidade técnica de trabalho remoto](https://resources.techcommunity.microsoft.com/enabling-remote-work/).

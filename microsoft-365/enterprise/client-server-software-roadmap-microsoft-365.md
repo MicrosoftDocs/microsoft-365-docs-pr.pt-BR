@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: O roteiro para configurar o software cliente e servidor para o Microsoft 365.
-ms.openlocfilehash: 898464222b8296cee3ab12fe7351295f39a23736
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d3401baa09d27ff9753f9a45ecb537c67701c0e9
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950563"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464403"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Roteiro de software de cliente e servidor para o Microsoft 365
 
@@ -60,7 +60,7 @@ O Aplicativos do Microsoft 365 para empresas instala atualizações automaticame
 
 ### <a name="office-2010"></a>Office 2010
 
-Para as versões de Office do lançamento Office 2010, o fim do suporte será em **13 de outubro de 2020**. Para mais informações, confira [Roteiro sobre o fim do suporte ao Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap).
+Para versões do Office na versão do Office 2010, o suporte terminou em **13 de outubro de 2020**. Para mais informações, confira [Roteiro sobre o fim do suporte ao Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap).
 
 Em vez de atualizar seus computadores que executam o Office 2010 com o Office 2013 ou o Office 2016 (cujas atualizações devem ser feitas manualmente), considere:
 
@@ -117,7 +117,7 @@ Em vez de atualizar seus produtos de servidor na versão Office 2007 com produto
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-O fim do suporte ao [Exchange Server 2010](exchange-2010-end-of-support.md) será em **13 de outubro de 2020**.
+O suporte para o [Exchange Server 2010](exchange-2010-end-of-support.md) terminou em **13 de outubro de 2020**.
 
 O fim do suporte ao [SharePoint Server 2010](upgrade-from-sharepoint-2010.md) será em **13 de abrir de 2021**.
 

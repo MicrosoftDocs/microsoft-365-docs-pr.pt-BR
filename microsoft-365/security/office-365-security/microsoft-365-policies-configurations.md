@@ -17,12 +17,13 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: e07c1455cc2799481bc31871d2c3ee07b10492b9
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+- m365solution-overview
+ms.openlocfilehash: 6037d997f43abfaf1f2d6b7fd55143fb0332dbe3
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446178"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464427"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 

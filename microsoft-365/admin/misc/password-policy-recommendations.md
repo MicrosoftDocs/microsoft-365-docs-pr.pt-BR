@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Aprenda a tornar a sua organização mais segura contra ataques de senha e por que você deve bloquear senhas comuns e habilitar a autenticação multifator baseada em risco.
-ms.openlocfilehash: 0ae26dc27cc698c24d999acde03f63f9cfead081
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 0bfbeac6fb8069e846ddad3c5b618687ba3c2260
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131937"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456310"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
 
@@ -102,7 +102,7 @@ Por outro lado, aqui estão algumas recomendações para o incentivo à diversid
   
 ### <a name="ban-common-passwords"></a>Bloquear senhas comuns
 
-O requisito de senha mais importante que você deve colocar para os usuários ao criar senhas é proibir o uso de senhas comuns para reduzir a suscetibilidade da sua organização a ataques de senha de força bruta. As senhas comuns de usuário incluem, **abdcefg**, **senha**, **macaco**.
+O requisito de senha mais importante que você deve colocar para os usuários ao criar senhas é proibir o uso de senhas comuns para reduzir a suscetibilidade da sua organização a ataques de senha de força bruta. As senhas de usuário comuns incluem, **abcdefg**, **senha**, **macaco**.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>Instrua os usuários a não reutilizar senhas da organização em outro local
 

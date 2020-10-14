@@ -18,18 +18,18 @@ search.appverid:
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
 f1.keywords:
 - NOCSH
-description: Encontre informações e recursos para atualizar do SharePoint 2010 e do SharePoint Server 2010, como suporte para ambas as extremidades em 13 de outubro de 2020.
+description: Encontre informações e recursos para atualizar do SharePoint 2010 e do SharePoint Server 2010, como suporte para ambas as extremidades em 13 de abril de 2021.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88970c83f2497f029635cb987b6b613ea662dc07
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: f406c30befbd1202fa6590352bd32f6d3102ae60
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948015"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464271"
 ---
 # <a name="upgrading-from-sharepoint-2010"></a>Atualizando do SharePoint 2010
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
 O Microsoft SharePoint 2010 e o SharePoint Server 2010 atingirão o fim do suporte em **13 de abril de 2021**. Este artigo detalha os recursos para ajudá-lo a migrar seus dados existentes do SharePoint Server 2010 para o SharePoint Online no Microsoft 365 ou a atualizar seu ambiente local do SharePoint Server 2010.
 

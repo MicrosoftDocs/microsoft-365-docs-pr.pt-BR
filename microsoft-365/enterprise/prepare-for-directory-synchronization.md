@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Descreve como se preparar para provisionar usuários para a Microsoft 365 usando a sincronização de diretórios e os benefícios de longo prazo de usar esse método.
-ms.openlocfilehash: 79d2a7932867531849ce75f8452b91e8c7ddd7b1
-ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
+ms.openlocfilehash: 41c2ff08c8e2ae11079e82d378110d10bd7cab3e
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48390168"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464235"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Preparar-se para a sincronização de diretórios com o Microsoft 365
 
@@ -100,7 +100,7 @@ Os atributos que você precisa preparar estão listados aqui:
   - Se o atributo existir no objeto do usuário, ele será sincronizado com o Microsoft 365, mas a Microsoft 365 não o exigirá ou o usará.
   - Número máximo de caracteres: 64
 
-- **email**
+- **mala**
 
   - O valor do atributo deve ser exclusivo no diretório.
 
@@ -151,7 +151,7 @@ Os atributos que você precisa preparar estão listados aqui:
   - Caracteres inválidos: \ \< \> ();, [] "
   - Todos os endereços SMTP (Simple Mail Transport Protocol) devem estar em conformidade com os padrões de mensagens de email.
 
-- **Principal**
+- **userPrincipalName**
 
   - O atributo **userPrincipalName** deve estar no formato de entrada no estilo da Internet, onde o nome do usuário é seguido pelo sinal de arroba (@) e um nome de domínio: por exemplo, User@contoso.com. Todos os endereços SMTP (Simple Mail Transport Protocol) devem estar em conformidade com os padrões de mensagens de email.
   - O número máximo de caracteres para o atributo **userPrincipalName** é 113. Um número específico de caracteres é permitido antes e depois do sinal de arroba (@), da seguinte maneira:
@@ -159,7 +159,7 @@ Os atributos que você precisa preparar estão listados aqui:
   - Número máximo de caracteres para o nome de domínio após o sinal de arroba (@): 48
   - Caracteres inválidos: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] " '
   - Caracteres permitidos: A – Z, a-z, 0 – 9, ". - _ ! # ^ ~
-  - Um trema também é um caractere inválido.
+  - Letras com sinais diacríticos, como tremas, acentos e tils, são caracteres inválidos.
   - O caractere @ é necessário em cada valor **userPrincipalName** .
   - O caractere @ não pode ser o primeiro caractere em cada valor **userPrincipalName** .
   - O nome de usuário não pode terminar com um ponto (.), um e comercial ( &amp; ), um espaço ou um sinal de arroba (@).

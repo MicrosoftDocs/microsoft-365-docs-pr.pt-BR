@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
 description: Saiba como usar o PowerShell para executar uma migração IMAP (Internet Mail Access Protocol) para o Microsoft 365.
-ms.openlocfilehash: 6eb422455d0bdf31fa1859bd0231b68e5568748c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 67621ecfca7ec323a73b91a530f848dd7571f9b2
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687338"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464439"
 ---
 # <a name="use-powershell-to-perform-an-imap-migration-to-microsoft-365"></a>Usar o PowerShell para realizar uma migração IMAP para o Microsoft 365
 
@@ -103,7 +103,7 @@ Para o atributo **UserName**, além do nome de usuário, você pode usar as cred
   
  **Microsoft Exchange:**
   
-Se você estiver migrando email a partir da implementação IMAP do Microsoft Exchange, use o formato **Domain/Admin_UserName/User_UserName** para o atributo **UserName** no arquivo CSV. Digamos que você esteja migrando emails do Exchange para Pedro Gonçalves, Brenda Fernandes e Henrique Cunha. Você tem uma conta de administrador de email, em que o nome de usuário é **mailadmin** e a senha é **P@ssw0rd**. Esta seria a aparência do seu arquivo CSV:
+Se você estiver migrando emails da implementação de IMAP para Microsoft Exchange, use o formato **Domain/Admin_UserName/User_UserName** para o atributo **UserName** no arquivo CSV. Digamos que você esteja migrando email do Exchange para Henrique Castro, Alice Pena e Pedro Gonçalves. Você tem uma conta de administrador de email, onde o nome de usuário é **mailadmin** e a senha é **P \@ ssw0rd**. Esta seria a aparência do seu arquivo CSV:
   
 ```powershell
 EmailAddress,UserName,Password
@@ -114,7 +114,7 @@ paulc@contoso.edu,contoso-students/mailadmin/paul.cannon,P@ssw0rd
 
  **Dovecot:**
   
-Para servidores IMAP que dão suporte a SASL (Simple Authentication and Security Layer), como um servidor Dovecot IMAP, use o formato **Usuário_NomeDeUsuário*Admin_NomeDeUsuário**, em que o asterisco (*) é um caractere separador configurável. Suponha que você esteja migrando emails desses mesmos usuários de um servidor Dovecot IMAP usando as credenciais de administrador **mailadmin** e **P@ssw0rd**. Esta seria a aparência do seu arquivo CSV:
+Para servidores IMAP que dão suporte a SASL (Simple Authentication and Security Layer), como um servidor Dovecot IMAP, use o formato **User_UserName*Admin_UserName**, em que o asterisco (*) é um caractere separador configurável. Digamos que você esteja migrando os mesmos emails de usuários de um servidor IMAP Dovecot usando as credenciais de administrador **mailadmin** e **P \@ ssw0rd**. Esta seria a aparência do seu arquivo CSV:
   
 ```powershell
 EmailAddress,UserName,Password
@@ -125,7 +125,7 @@ paulc@contoso.edu,paul.cannon*mailadmin,P@ssw0rd
 
  **Mirapoint:**
   
-Se você estiver migrando emails a partir do Mirapoint Message Server, use o formato **#user@domain#Admin_UserName#** para as credenciais de administrador. Para migrar emails do Mirapoint usando as credenciais de administrador **mailadmin** e **P@ssw0rd**, seu arquivo CSV teria a seguinte aparência:
+Se você estiver migrando emails do servidor de mensagens do Mirapoint, use o formato **#user \@ domínio # Admin_UserName** para as credenciais de administrador. Para migrar emails do Mirapoint usando as credenciais de administrador **mailadmin** e **P \@ SSW0RD**, o arquivo CSV teria a seguinte aparência:
   
 ```powershell
 EmailAddress,UserName,Password

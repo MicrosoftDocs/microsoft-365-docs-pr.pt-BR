@@ -3,7 +3,6 @@ title: Roteiro do encerramento de suporte do Exchange 2010
 ms.author: dstrome
 author: dstrome
 manager: laurawi
-ms.date: 09/16/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,22 +12,22 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: O Exchange 2010 está se aproximando do fim do suporte. Use este mapa de planejamento como um guia para preparar a atualização para o Exchange Online ou uma versão mais recente do Exchange Server no local.
-ms.openlocfilehash: 128abd1e98c3e9d1ec4dd8a58683ee0ab019af18
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: dbae3fba3ddbff016e0e9434db4af6ca0a046b0d
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950815"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464247"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Roteiro do encerramento de suporte do Exchange 2010
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Em **13 de outubro de 2020**, o Exchange Server 2010 atingirá o fim do suporte. Se você ainda não começou sua migração do Exchange 2010 para a Microsoft 365, Office 365 ou Exchange 2016, agora é hora de iniciar o planejamento.
+O Exchange Server 2010 atingiu o fim do suporte em **13 de outubro de 2020**. Se você ainda não começou sua migração do Exchange 2010 para a Microsoft 365, Office 365 ou Exchange 2016, agora é hora de iniciar o planejamento.
 
 ## <a name="what-does-end-of-support-mean"></a>O que significa o fim do suporte?
 
-O Exchange Server, como quase todos os produtos da Microsoft, tem um ciclo de vida de suporte durante o qual fornecemos novos recursos, correções de erros, correções de segurança e assim por diante. Esse ciclo de vida normalmente dura 10 anos a partir da data da versão inicial do produto, e o final desse ciclo de vida é conhecido como o fim do suporte do produto. Quando o Exchange 2010 atingir o fim do suporte em 13 de outubro de 2020, a Microsoft não fornecerá mais:
+O Exchange Server, como quase todos os produtos da Microsoft, tem um ciclo de vida de suporte durante o qual fornecemos novos recursos, correções de erros, correções de segurança e assim por diante. Esse ciclo de vida normalmente dura 10 anos a partir da data da versão inicial do produto, e o final desse ciclo de vida é conhecido como o fim do suporte do produto. Como o Exchange 2010 atingiu o fim do suporte em 13 de outubro de 2020, a Microsoft não fornecerá mais:
 
 - Suporte técnico para problemas que podem ocorrer.
 - Correções de erros descobertas e que podem afetar a estabilidade e a usabilidade do servidor.
@@ -49,8 +48,8 @@ Com o Exchange 2010 alcançando o fim do suporte, esse é um excelente momento p
 > [!IMPORTANT]
 > Se sua organização optar por migrar as caixas de correio para a Microsoft 365, mas pretende manter o DirSync ou o Azure AD Connect in-loco para continuar Gerenciando contas de usuário do Active Directory local, você precisará manter pelo menos um servidor Exchange local. Se o último servidor do Exchange for removido, você não poderá fazer alterações nos destinatários do Exchange no Exchange Online. Isso ocorre porque a fonte de autoridade permanece no Active Directory local e as alterações precisam ser feitas ali. Neste cenário, você tem as seguintes opções:
 
-- (**Recomendado**) Se você puder migrar suas caixas de correio para o Microsoft 365 e atualizar seus servidores em 13 de outubro de 2020, use o Exchange 2010 para se conectar ao Microsoft 365 e migrar caixas de correio. Em seguida, migre o Exchange 2010 para o Exchange 2016 e encerre os servidores do Exchange 2010 restantes.
-- Se você não conseguir concluir a migração de caixa de correio e a atualização do servidor local em 13 de outubro de 2020, atualize seus servidores locais do Exchange 2010 para o Exchange 2016 primeiro e, em seguida, use o Exchange 2016 para se conectar ao Microsoft 365 e migrar caixas de correio.
+- (**Recomendado**) Se você conseguiu migrar suas caixas de correio para o Microsoft 365 e atualizar seus servidores em 13 de outubro de 2020, use o Exchange 2010 para se conectar ao Microsoft 365 e migrar caixas de correio. Em seguida, migre o Exchange 2010 para o Exchange 2016 e encerre os servidores do Exchange 2010 restantes.
+- Se você não pôde concluir a migração de caixa de correio e a atualização do servidor local em 13 de outubro de 2020, atualize seus servidores locais do Exchange 2010 para o Exchange 2016 primeiro e, em seguida, use o Exchange 2016 para se conectar ao Microsoft 365 e migrar caixas de correio.
 
 > [!NOTE]
 > Embora um pouco mais complicado, você também pode migrar caixas de correio para a Microsoft 365 enquanto migra seus servidores locais do Exchange 2010 para o Exchange 2016.
@@ -65,7 +64,7 @@ As seções a seguir exploram cada opção em mais detalhes.
 
 Migrar seu email para a Microsoft 365 é a opção mais simples e fácil de ajudá-lo a retirar sua implantação do Exchange 2010. Com uma migração para o Microsoft 365, você pode fazer um único salto da tecnologia antiga para os recursos de ponta, como:
 
-- Recursos de conformidade, como políticas de retenção, bloqueio in-loco e de litígio, descoberta eletrônica in-loco e muito mais.
+- Recursos de conformidade, como políticas de retenção, In-Place e retenção de litígio, descoberta eletrônica in-loco e muito mais.
 - Microsoft Teams
 - Power BI
 - Caixa de Entrada Destaques
@@ -156,7 +155,7 @@ Se você estiver pensando em realizar uma migração híbrida completa, aqui est
 Se uma migração híbrida completa for adequada para você, dê uma olhada nos seguintes recursos para ajudá-lo com a migração:
 
 - [Assistente de implantação do Exchange](https://aka.ms/exdeploy)
-- [Implantações híbridas do Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid)
+- [Implantações Híbridas do Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid)
 - [Assistente de Configuração Híbrida](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
 - [Perguntas frequentes do Assistente de Configuração Híbrida](https://docs.microsoft.com/exchange/hybrid-configuration-wizard-faqs)
 - [Pré-requisitos de implantação híbrida](https://docs.microsoft.com/exchange/hybrid-deployment-prerequisites)

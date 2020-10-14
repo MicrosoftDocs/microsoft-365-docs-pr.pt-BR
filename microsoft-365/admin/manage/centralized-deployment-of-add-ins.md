@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: c3e306789f5b1c09e835d8d2c5ebea668bf14874
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: c89cb801a5b2fcad87227feaf4228b0dcabcf609
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235413"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464045"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -43,10 +43,10 @@ A implantação centralizada oferece suporte a três plataformas de área de tra
 
 Pode levar até 24 horas para que um suplemento seja exibido para o cliente para todos os usuários.
   
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 A implantação centralizada de suplementos exige que os usuários estejam usando o Microsoft 365 aplicativos para empresas ou o Microsoft 365 Business Premium (e estejam conectados ao Office usando sua ID organizacional) e tenham caixas de correio ativas do Exchange Online e do Exchange Online. Seu diretório de assinatura deve ser ou federado no Azure Active Directory.
-Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o[Verificador de compatibilidade de implantação centralizado](#centralized-deployment-compatibility-checker).
+Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o [Verificador de compatibilidade de implantação centralizado](#centralized-deployment-compatibility-checker).
 
 A Implantação Centralizada não é compatível com:
   
@@ -134,7 +134,8 @@ Quando a ferramenta conclui a execução, ela gera um arquivo de saída no forma
     
 - Caixa de correio com suporte - Se ele usa uma caixa de correio habilitada para OAuth
 
-
+> [!NOTE]
+> A autenticação multifator não é suportada ao usar o módulo do PowerShell de implantação central.
   
 ## <a name="user-and-group-assignments"></a>Atribuições de usuário e grupo
 
@@ -171,4 +172,3 @@ Se você ou seus usuários encontrarem problemas ao carregar o suplemento durant
 |Office  <br/> | Registros de Charles/Fiddler  <br/>  ID do locatário ( [saiba como](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  CorrelationID. Exibir a origem de uma das páginas do Office e procurar o valor de ID de correlação e enviá-lo ao suporte:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Clientes avançados (Windows, Mac)  <br/> | Registros de Charles/Fiddler  <br/>  Números de compilação do aplicativo cliente (preferencialmente como captura de tela de **arquivo/conta**)  <br/> |
    
-
