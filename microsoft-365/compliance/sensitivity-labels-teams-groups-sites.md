@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: e8d9b3c4928172ace2bc63d5aa31d65c4145ad6a
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: ac6af4d82b3da507f1fe0081041b347b9f5e4a94
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430310"
+ms.locfileid: "48446842"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -30,23 +30,23 @@ ms.locfileid: "48430310"
 
 Além de usar [rótulos de confidencialidade](sensitivity-labels.md) para classificar e proteger documentos e emails, você também pode usar rótulos de confidencialidade para proteger o conteúdo nos seguintes contêineres: sites de Microsoft Teams, grupos de Microsoft 365 groups ([antigos grupos do Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) e sites do SharePoint. Para a classificação e a proteção de nível de contêiner, use as seguintes configurações de etiqueta:
 
-- Privacidade (pública ou privada) dos sites de equipes conectadas ao grupo do Microsoft 365
+- Privacidade (pública ou privada) de sites de equipes e grupos do Microsoft 365
 - Acesso de usuários externos
 - Acesso de dispositivos não gerenciados
 
 > [!IMPORTANT]
 > O **Acesso por dispositivos não gerenciados** funciona em conjunto com o recurso SharePoint para [controlar o acesso por dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices). Você deve configurar este recurso dependente do SharePoint para usar um rótulo de confidencialidade que tenha essa configuração definida. Informações adicionais estão incluídas nas instruções abaixo.
 
-Quando você aplica esse rótulo de confidencialidade a um contêiner suportado, o rótulo aplica automaticamente as opções configuradas ao site ou grupo conectado.
+Quando você aplica esse rótulo de confidencialidade a um contêiner compatível, o rótulo aplica automaticamente a classificação e as configurações de proteção configuradas ao site ou grupo.
 
-O conteúdo desses contêineres, no entanto, não herda os rótulos da classificação e configurações como marcações visuais ou criptografia. Para que os usuários possam rotular seus documentos em sites do SharePoint ou em sites de equipe, [habilite rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
+O conteúdo nesses contêineres, no entanto, não herda os rótulos para a classificação ou configurações de arquivos e emails, como marcações visuais e criptografia. Para que os usuários possam rotular seus documentos em sites do SharePoint ou em sites de equipe, [habilite rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
 > [!NOTE]
 > Os rótulos de confidencialidade de contêineres não têm suporte com o CDNs (redes de distribuição de conteúdo) do Office 365.
 
 ## <a name="using-sensitivity-labels-for-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
-Antes de habilitar os rótulos de confidencialidade para contêineres e configurar rótulos de confidencialidade para as novas configurações, os usuários podem ver e aplicar rótulos de confidencialidade em seus aplicativos. Por exemplo, no Word:
+Antes de habilitar rótulos de confidencialidade para recipientes e configurar rótulos de confidencialidade para as novas configurações, os usuários podem ver e aplicar rótulos de confidencialidade em seus aplicativos. Por exemplo, no Word:
 
 ![Um rótulo de confidencialidade exibido no aplicativo Word para área de trabalho](../media/sensitivity-label-word.png)
 
@@ -68,42 +68,53 @@ Depois de habilitar e configurar os rótulos de confidencialidade para os contê
     Execute-AzureAdLabelSync
     ```
 
-## <a name="how-to-configure-site-and-group-settings"></a>Como definir as configurações de site e grupo
+## <a name="how-to-configure-groups-and-site-settings"></a>Como definir grupos e configurações de site
 
-Agora você está pronto para criar ou editar os rótulos de confidencialidade que deseja disponibilizar para sites e grupos. Habilitar os rótulos de confidencialidade para contêineres torna uma nova página visível nas assistentes de rotulagem de confidencialidade: **Configurações de site e grupo**
+Ativar rótulos de confidencialidade para contêineres significa que agora você pode definir as configurações de proteção para grupos e sites no assistente de rotulagem de confidencialidade. Até que você habilite este suporte, as configurações ficam visíveis no assistente, mas você não pode defini-las.
 
-Se precisar de ajuda para criar ou editar um rótulo de confidencialidade, confira as instruções em [Criar e configurar os rótulos de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels).
-
-Nesta nova página **Configurações de site e grupo**, defina as configurações:
-
-- **Privacidade dos sites de equipes conectados ao grupo do Microsoft 365**: Manter a configuração padrão de **Público - qualquer pessoa em sua organização pode acessar o site **se você quiser que todos na sua organização acessem o site de equipe ou grupo no qual o rótulo foi aplicado.
-
-  Selecione **Particular** se desejar que o acesso seja restrito apenas a membros aprovados da sua organização.
-
-  Selecione **Nenhuma - permita que o usuário tenha acesso ao site** quando desejar proteger o conteúdo do contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem a própria configuração de privacidade.
-
-  Selecione **Pública** ou **Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. A configuração escolhida substituirá qualquer configuração de privacidade anterior que possa ser configurada para a equipe ou grupo, e bloqueará o valor de privacidade para que ele possa ser alterado apenas pela primeira remoção da etiqueta de confidencialidade do contêiner. Depois de remover o rótulo de confidencialidade, a configuração de privacidade do rótulo permanece e os usuários agora podem alterá-lo novamente.
-
-- **Acesso de usuários externos**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
-
-- **Dispositivos não administrados**: Essa opção usa o recurso do SharePoint que usa o acesso condicional do Azure AD para bloquear ou limitar o acesso ao conteúdo do SharePoint e OneDrive de dispositivos não gerenciados. Para obter informações, consulte [Controlar o acesso de dispositivos gerenciados](/sharepoint/control-access-from-unmanaged-devices). A opção que você especifica para esta configuração de rótulo equivale a executar um comando do PowerShell para um site, conforme descrito nas etapas 2 a 4 em [Bloquear ou limitar o acesso a um site do SharePoint específico ou ao OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive).
+1. Siga as instruções gerais para [criar ou editar um rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) e certifique-se de selecionar **Grupos e sites** para o escopo do rótulo: 
     
-    Se você não configurar a política de acesso condicional dependente conforme documentado em [Usar restrições impostas do aplicativo](https://docs.microsoft.com/sharepoint/app-enforced-restrictions), a opção que você especificar aqui não terá efeito. Além disso, não terá efeito se for menos restritivo do que a configuração definida ao nível do locatário. Se você configurou uma configuração em toda a organização para dispositivos não gerenciados, escolha uma configuração de rótulo que seja igual ou mais restritiva.
+    ![Opções de escopo do rótulo de confidencialidade para arquivos e emails](../media/groupsandsites-scope-options-sensitivity-label.png)
     
-    Por exemplo, se seu locatário estiver configurado para **Permitir acesso limitado apenas à Web**, a configuração de rótulo que permite acesso total não terá efeito porque é menos restritiva. Para esta configuração de nível de locatário, escolha a configuração de rótulo para bloquear o acesso (mais restritiva) ou a configuração de rótulo para acesso limitado (a mesma que a configuração do locatário).
+    Quando apenas este escopo é selecionado para o rótulo, o rótulo não será exibido em aplicativos do Office que oferecem suporte a rótulos de confidencialidade e não pode ser aplicado a arquivos e emails. Ter essa separação de rótulos pode ser útil para usuários e administradores, mas também pode aumentar a complexidade da implantação de rótulos.
     
-    Como você pode configurar o SharePoint separadamente da configuração do rótulo, não há verificação no assistente do rótulo de confidencialidade de que as dependências estejam no lugar.
+    Por exemplo, você precisa revisar cuidadosamente sua [ordem de etiqueta](sensitivity-labels.md#label-priority-order-matters)porque o Microsoft Office SharePoint Online detecta quando um documento etiquetado é carregado em um site rotulado. Nesse cenário, um evento de auditoria e um email são gerados automaticamente quando o documento tem um rótulo de confidencialidade de prioridade mais alta do que o rótulo do site. Para obter mais informações, consulte a seção [Atividades de rótulo de confidencialidade de auditoria](#auditing-sensitivity-label-activities) nesta página. 
 
-![Guia configurações de site e grupo](../media/edit-sensitivity-label-site-group2.png)
+2. Em seguida, na página **Definir configurações de proteção para grupos e sites**, selecione uma ou ambas as opções disponíveis:
+    
+    - **Configurações de privacidade e acesso de usuário externo** para definir as configurações de **Privacidade** e **Acesso de usuários externos**. 
+    - **Acesso ao dispositivo e configurações de compartilhamento externo** para definir a configuração **Acesso de dispositivos não gerenciados**.
+
+3. Se você selecionou **Privacidade e configurações de acesso de usuário externo**, agora defina as seguintes configurações:
+    
+    - **Privacidade**: Mantenha o padrão do **Público** se desejar que qualquer pessoa em sua organização acesse o site de equipe ou grupo onde este rótulo é aplicado.
+        
+        Selecione **Particular** se desejar que o acesso seja restrito apenas a membros aprovados da sua organização.
+        
+        Selecione **Nenhum** quando quiser proteger o conteúdo no contêiner usando o rótulo de confidencialidade, mas ainda permitir que os próprios usuários definam a configuração de privacidade.
+        
+        Selecione **Pública** ou **Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. A configuração escolhida substituirá qualquer configuração de privacidade anterior que possa ser configurada para a equipe ou grupo, e bloqueará o valor de privacidade para que ele possa ser alterado apenas pela primeira remoção da etiqueta de confidencialidade do contêiner. Depois de remover o rótulo de confidencialidade, a configuração de privacidade do rótulo permanece e os usuários agora podem alterá-lo novamente.
+    
+    - **Acesso de usuário externo**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
+
+4. Se você selecionou **Acesso ao dispositivo e configuração de compartilhamento externo**, agora defina as seguintes configurações:
+    
+    - **Acesso de dispositivos não gerenciados**: esta opção usa o recurso do Microsoft Office SharePoint Online que usa o acesso condicional do Microsoft Azure Active Directory para bloquear ou limitar o acesso ao conteúdo do Microsoft Office SharePoint Online e OneDrive de dispositivos não gerenciados. Para obter mais informações, consulte [Controle de acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices) na documentação do Microsoft Office SharePoint Online. A opção que você especifica para esta configuração de rótulo é o equivalente a executar um comando Windows PowerShell para um site, conforme descrito nas etapas 2 a 4 de [Bloquear ou limitar o acesso a um site específico do Microsoft Office SharePoint Online ou seção OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) das instruções do Microsoft Office SharePoint Online.
+        
+        Para obter informações adicionais, consulte [Mais informações sobre as dependências da opção de dispositivos não gerenciados](#more-information-about-the-dependencies-for-the-unmanaged-devices-option) no final desta seção.
 
 > [!IMPORTANT]
-> Somente essas configurações de site e grupo entrarão em vigor quando você aplicar um rótulo a uma equipe, grupo ou site. Outras configurações de rótulo, como criptografia e marcação de conteúdo, não são aplicadas ao conteúdo da equipe, grupo ou site.
->
-> Implementação gradual para locatários: Somente os rótulos com as configurações de site e grupo estarão disponíveis para seleção quando os usuários criarem equipes, grupos e sites. Se você pode aplicar um rótulo a um contêiner quando o rótulo não possui as configurações de site e grupo ativadas, apenas o nome do rótulo é aplicado ao contêiner.
+> Só essas configurações de site e grupo entrarão em vigor quando você aplicar um rótulo a uma equipe, grupo ou site. Se o [escopo do rótulo](sensitivity-labels.md#label-scopes) inclui arquivos e emails, outras configurações de rótulo, como criptografia e marcação de conteúdo, não são aplicadas ao conteúdo da equipe, grupo ou site.
 
 Se o seu rótulo de confidencialidade ainda não estiver publicado, publique-o agora [adicionando-o a uma política de rótulo de confidencialidade](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy). Os usuários aos quais tenha sido atribuída uma política de rótulo de confidencialidade que inclua esse rótulo poderão selecioná-lo para sites e grupos.
 
-Na política de rótulo, apenas a configuração de política **Aplicar esta etiqueta por padrão aos documentos e o email** é válida quando você aplica esse rótulo aos contêineres. Outras configurações de política não são aplicadas, as que incluem rotulagem obrigatória, exigindo justificativa do usuário e um link para a página de ajuda personalizada.
+##### <a name="more-information-about-the-dependencies-for-the-unmanaged-devices-option"></a>Mais informações sobre as dependências da opção de dispositivos não gerenciados
+
+Se você não configurar a política de acesso condicional dependente conforme documentado em [Usar restrições impostas do aplicativo](https://docs.microsoft.com/sharepoint/app-enforced-restrictions), a opção que você especificar aqui não terá efeito. Além disso, não terá efeito se for menos restritivo do que a configuração definida ao nível do locatário. Se você definiu uma configuração em toda a organização para dispositivos não gerenciados, escolha uma configuração de rótulo que seja igual ou mais restritiva
+
+Por exemplo, se seu locatário estiver configurado para **Permitir acesso limitado apenas à Web**, a configuração de rótulo que permite acesso total não terá efeito porque é menos restritiva. Para esta configuração de nível de locatário, escolha a configuração de rótulo para bloquear o acesso (mais restritiva) ou a configuração de rótulo para acesso limitado (a mesma que a configuração do locatário).
+
+Como você pode configurar o SharePoint separadamente da configuração do rótulo, não há verificação no assistente do rótulo de confidencialidade de que as dependências estejam no lugar. Essas dependências podem ser configuradas depois que o rótulo é criado e publicado, e mesmo depois que o rótulo é aplicado. No entanto, se o rótulo já estiver aplicado, a configuração do rótulo não entrará em vigor até a próxima autenticação do usuário.
 
 ## <a name="sensitivity-label-management"></a>Gerenciamento de rótulo de confidencialidade
 
@@ -344,6 +355,9 @@ Para ajudar você a gerenciar a coexistência de rótulos de sensibilidade e cla
 
 ## <a name="auditing-sensitivity-label-activities"></a>Atividades de rótulo de confidencialidade de auditoria
 
+> [!IMPORTANT]
+> Se você usar a separação de rótulos selecionando apenas o escopo **Grupos e sites** para rótulos que protegem os contêineres: Por causa do evento de auditoria de **Incompatibilidade de confidencialidade do documento detectado** e email descrito nesta seção, considere [ordenar esses rótulos ](sensitivity-labels.md#label-priority-order-matters)antes dos rótulos que têm um escopo para **Arquivos e emails**. 
+
 Se alguém enviar um documento para um site protegido por um rótulo de confidencialidade e o documento tiver um rótulo de confidencialidade com [prioridade mais alta](sensitivity-labels.md#label-priority-order-matters) que o rótulo de confidencialidade aplicado ao site, essa ação não será bloqueada. Por exemplo, você aplicou o rótulo **Geral** a um site do SharePoint e alguém carrega neste site um documento chamado **Confidencial**. Como um rótulo de confidencialidade com prioridade mais alta identifica o conteúdo que é mais confidencial do que o conteúdo com ordem de prioridade mais baixa, essa situação pode ser um problema de segurança.
 
 Embora a ação não seja bloqueada, ela é auditada e gera automaticamente um email para a pessoa que carregou o documento e para o administrador do site. Como resultado, tanto o usuário como os administradores podem identificar documentos que tenham esse desalinhamento da prioridade do rótulo e tomar medidas, se necessário. Por exemplo, excluir ou mover o documento carregado do site.
@@ -362,7 +376,7 @@ Todos esses eventos podem ser encontrados na categoria [Atividades de rótulo de
 
 Você pode desativar os rótulos de confidencialidade do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint usando as mesmas instruções de [Habilitar o suporte a rótulo de confidencialidade no PowerShell](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). No entanto, para desabilitar o recurso, na etapa 5, especifique `$setting["EnableMIPLabels"] = "False"`.
 
-Além de ocultar a página de **Sites e configurações de grupo** quando você cria ou edita rótulos de confidencialidade, essa ação reverte qual propriedade os contêineres usam para a configuração. Habilitar rótulos de confidencialidade para o Microsoft Teams, o Microsoft 365 Groups, e os sites do SharePoint altera a propriedade usada de **Classificação** (usada para [classificação de grupo do Azure Active Direcroty](#classic-azure-ad-group-classification)) para **Confidencialidade**. Quando você desabilita os rótulos de confidencialidade para contêineres, os contêineres ignoram a propriedade Confidencialidade e usam novamente a propriedade de Classificação.
+Além de tornar todas as configurações não disponíveis para grupos e sites ao criar ou editar rótulos de confidencialidade, esta ação reverte a propriedade que os contêineres usam para sua configuração. Habilitar rótulos de confidencialidade para o Microsoft Teams, o Microsoft 365 Groups, e os sites do SharePoint altera a propriedade usada de **Classificação** (usada para [classificação de grupo do Azure Active Direcroty](#classic-azure-ad-group-classification)) para **Confidencialidade**. Quando você desabilita os rótulos de confidencialidade para contêineres, os contêineres ignoram a propriedade Confidencialidade e usam novamente a propriedade de Classificação.
 
 Isso significa que todas as configurações de rótulo de sites e grupos aplicados anteriormente aos contêineres não serão forçadas e os contêineres não exibirão mais os rótulos.
 

@@ -22,12 +22,12 @@ description: Use rótulos de sensibilidade da estrutura Microsoft Information Pr
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 80aad465442ce43d2fef993133c4e49da709a531
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 7b2eaf8bcfa7014e8c70f4c7efb7d859b32e5e7e
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398988"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446739"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -56,6 +56,8 @@ Você pode usar rótulos de confidencialidade para:
 
 - **Proteger o conteúdo em aplicativos e serviços de terceiros** usando o Microsoft Cloud App Security. Com o Cloud App Security, você pode detectar, classificar, rotular e proteger o conteúdo em serviços e aplicativos de terceiros, como SalesForce, Box ou Dropbox, mesmo que o aplicativo ou serviço de terceiros não leia nem ofereça suporte a rótulos de confidencialidade.
 
+- **Proteja contêineres** que incluem equipes, grupos do Microsoft 365 e sites do Microsoft Office SharePoint Online. Por exemplo, defina configurações de privacidade, acesso de usuário externo e acesso de dispositivos não gerenciados.
+
 - **Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros.** Usando o SDK de Proteção de informações da Microsoft, os aplicativos e os serviços de terceiros podem ler os rótulos de confidencialidade e aplicar as configurações de proteção.
 
 - **Classificar conteúdo sem usar nenhuma configuração de proteção.** Você também pode simplesmente atribuir uma classificação ao conteúdo (como uma etiqueta) que se mantém e se desloca com o conteúdo conforme ele é usado e compartilhado. Você pode usar essa classificação para gerar relatórios de uso e ver dados de atividade para seu conteúdo confidencial. Com base nessas informações, você pode optar por aplicar as configurações de proteção mais tarde.
@@ -74,7 +76,7 @@ Quando você atribui um rótulo de sensibilidade a um documento ou e-mail, isso 
 
 Em aplicativos do Office, um rótulo de confidencialidade simplesmente aparece como uma marca em um email ou documento.
 
-Cada item de conteúdo pode ter um único rótulo de confidencialidade aplicado a ele. Um item pode ter tanto um rótulo de confidencialidade único quanto um [rótulo de retenção](retention.md#retention-labels) único aplicado a ele.
+Cada item que oferece suporte a rótulos de confidencialidade pode ter um único rótulo de confidencialidade aplicado a ele. Documentos e emails podem ter um rótulo de confidencialidade e uma [marca de retenção](retention.md#retention-labels) aplicado a eles.
 
 > [!div class="mx-imgBorder"]
 > ![Rótulo de confidencialidade aplicado a um email](../media/Sensitivity-label-on-email.png)
@@ -95,10 +97,9 @@ Depois que um rótulo de confidencialidade é aplicado a um email ou documento, 
     
     Comprimentos de cadeias de caracteres: as marcas d' água estão limitadas a 255 caracteres. Os cabeçalhos e rodapés estão limitados a 1024 caracteres, exceto no Excel. O Excel tem um limite total de 255 caracteres para cabeçalhos e rodapés, mas esse limite inclui caracteres que não estão visíveis, como códigos de formatação. Se esse limite for alcançado, a cadeia de caracteres inserida não será exibida no Excel.
 
-
 - **Proteja o conteúdo em contêineres, como sites e grupos**, quando você habilita a capacidade de [usar rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](sensitivity-labels-teams-groups-sites.md).
     
-    As opções de configuração para **Configurações de site e grupo** não são exibidas até que você ative esse recurso. Lembre-se de que essa configuração de rótulo não resulta na rotulação automática de documentos. Em vez disso, as configurações de rótulo protegem o conteúdo controlando o acesso ao contêiner onde os documentos estão armazenados. Essas configurações incluem o nível de privacidade, se um proprietário de grupo do Microsoft 365 pode adicionar convidados ao grupo e o nível de acesso concedido a um dispositivo não gerenciado.
+    Você não pode definir as configurações de proteção para grupos e sites até ativar esse recurso. Essa configuração de rótulo não resulta em documentos ou emails sendo automaticamente rotulados, mas em vez disso, as configurações de rótulo protegem o conteúdo, controlando o acesso ao contêiner onde o conteúdo pode ser armazenado. Essas configurações incluem configurações de privacidade, acesso de usuário externo e acesso de dispositivos não gerenciados.
 
 - **Aplique o rótulo automaticamente nos aplicativos do Office ou recomende um rótulo.** Escolha quais tipos de informações confidenciais deseja rotular, e o rótulo poderá ser aplicado automaticamente ou será solicitado aos usuários que apliquem o rótulo recomendado. Caso recomende um rótulo, um texto de alerta escolhido por você será exibido. Por exemplo:
     
@@ -106,11 +107,27 @@ Depois que um rótulo de confidencialidade é aplicado a um email ou documento, 
     
     Para obter mais informações sobre as configurações de **Rótulo automático para aplicativos do Office** quando você cria ou edita um rótulo de confidencialidade, consulte [Aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md).
 
+### <a name="label-scopes"></a>Escopos de rótulo
+
+Ao criar um rótulo de confidencialidade, você é solicitado a configurar o escopo do rótulo, que determina duas coisas:
+- Quais configurações de rótulo você pode definir para esse rótulo
+- Onde o rótulo ficará visível para os usuários
+
+Esta configuração de escopo permite que você tenha rótulos de confidencialidade que são apenas para documentos e emails e não podem ser selecionados para containers. E da mesma forma, rótulos de confidencialidade que são apenas para contêineres e não podem ser selecionados para documentos e emails. Por padrão, ambos os escopos estão selecionados:
+
+![Opções de escopo para rótulos de confidencialidade](../media/sensitivity-labels-scopes.png)
+
+Quando você altera esse padrão e seleciona apenas um escopo, ainda vê a primeira página das configurações do outro escopo, mas não pode selecioná-los. Por exemplo, se o escopo para arquivos e emails não for selecionado, você não pode selecionar as opções na próxima página:
+
+![Opções indisponíveis para rótulos de confidencialidade](../media/sensitivity-labels-unavailable-settings.png)
+
+Para essas páginas que têm opções indisponíveis, selecione **Avançar** para continuar. Ou selecione **Voltar** para alterar o escopo do rótulo.
+
 ### <a name="label-priority-order-matters"></a>Prioridade de rótulo (a ordem importa)
 
 Quando você cria seus rótulos de confidencialidade no centro de administração, eles aparecem em uma lista na guia **Confidencialidade**, na página **Rótulos**. Nessa lista, a ordem dos rótulos é importante porque reflete sua prioridade. Você quer que seu rótulo de confidencialidade mais restritivo, como o Altamente Confidencial, apareça na **parte inferior** da lista, e que seu rótulo de confidencialidade menos restritivo, como o Público, apareça na **parte superior**.
 
-Você pode aplicar apenas um rótulo de confidencialidade a um documento ou email. Se você definir uma opção que exija que os usuários forneçam uma justificativa para alterar um rótulo para uma classificação inferior, a ordem desta lista identificará as classificações inferiores. No entanto, essa opção não se aplica aos sub-rótulos.
+Você pode aplicar apenas um rótulo de confidencialidade a um item, como um documento, email ou container. Se você definir uma opção que exija que os usuários forneçam uma justificativa para alterar um rótulo para uma classificação inferior, a ordem desta lista identificará as classificações inferiores. No entanto, essa opção não se aplica aos sub-rótulos.
 
 Embora a ordem dos sub-rótulos seja usada com [rotulagem automática](apply-sensitivity-label-automatically.md). Ao configurar rótulos para que sejam aplicados automaticamente ou como uma recomendação, várias correspondências podem resultar em mais de um rótulo. A ordem dos rótulos é usada para determinar qual rótulo será aplicado ou recomendado: o último rótulo de confidencialidade é selecionado e, se aplicável, o último sub-rótulo.
 
@@ -142,22 +159,26 @@ Com uma política de rótulos, você pode:
 
 - **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados para qualquer usuário específico ou grupo de segurança habilitado para email, grupo de distribuição ou grupo do Microsoft 365 (que podem ter [associação dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)) no Azure AD.
 
-- **Aplicar um rótulo padrão** para todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Essa opção também se aplica a contêineres, se você tiver [ativado rótulos de confidencialidade para Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](sensitivity-labels-teams-groups-sites.md). Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. 
+- **Aplique um rótulo padrão** a todos os novos documentos e emails criados pelos usuários e grupos incluídos na política de rótulo, e o mesmo ou diferente rótulo padrão para contêineres (se você [habilitou rótulos de confidencialidade para Microsoft Teams, grupos Microsoft 365 e sites do Microsoft Office SharePoint Online](sensitivity-labels-teams-groups-sites.md)) Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. 
     
     Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. Geralmente, não é uma boa ideia selecionar um rótulo que aplica a criptografia como um rótulo padrão para documentos. Por exemplo, muitas organizações precisam enviar e compartilhar emails com usuários externos que podem não ter aplicativos compatíveis com a criptografia ou talvez não usem uma conta que possa ser autorizada. Para obter mais informações sobre esse cenário, consulte [Compartilhar documentos criptografados com usuários externos](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users).
 
-- **Exigir uma justificativa para alterar um rótulo.** Se um usuário tentar remover um rótulo ou substituí-lo por um rótulo com um número de pedido menor, você poderá pedir que o usuário forneça uma justificativa para executar essa ação. Por exemplo, um usuário abre um documento rotulado como confidencial (número de pedido 3) e substitui esse rótulo por um denominado público (número 1). Atualmente, a justificativa não é enviada para a [análise de rótulo](label-analytics.md) para que o administrador examine. No entanto, o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) envia essas informações para a [Análise de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
+- **Exigir uma justificativa para alterar um rótulo.** Se um usuário tentar remover um rótulo ou substituí-lo por um rótulo com um número de pedido menor, você poderá pedir que o usuário forneça uma justificativa para executar essa ação. Por exemplo, um usuário abre um documento rotulado como confidencial (número de pedido 3) e substitui esse rótulo por um denominado público (número 1). Atualmente, o motivo da justificativa é usado apenas pelo [Cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2), que envia essas informações para a [Análise do Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
 
-    ![Prompt no qual os usuários inserem uma justificativa](../media/Sensitivity-label-justification-required.png)
+    ![Prompt onde os usuários inserem uma justificativa](../media/Sensitivity-label-justification-required.png)
 
-- **Exigir que os usuários apliquem um rótulo a seus emails e documentos.** Também conhecido como rotulagem obrigatória, você pode exigir que um rótulo seja aplicado antes que os usuários possam salvar documentos e enviar emails. O rótulo pode ser atribuído manualmente pelo usuário, automaticamente como resultado de uma condição configurada ou por padrão (a opção de rótulo padrão descrita acima). Um prompt de exemplo exibido no Outlook quando um usuário é solicitado a atribuir um rótulo:
+- **Exigir que os usuários apliquem um rótulo** com uma opção para email e documentos e outra para contêineres. Também conhecido como rotulagem obrigatória, essas opções garantem que um rótulo deve ser aplicado antes que os usuários possam salvar documentos e enviar emails, e criar novos grupos ou sites.
+    
+    Para documentos e emails, um rótulo pode ser atribuído manualmente pelo usuário, automaticamente como resultado de uma condição que você configurar, ou ser atribuído por padrão (a opção de rótulo padrão descrita acima). Um prompt de exemplo exibido no Outlook quando um usuário é solicitado a atribuir um rótulo:
 
     ![Prompt no Outlook pedindo ao usuário para aplicar o rótulo necessário](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
     
     > [!NOTE]
     > Atualmente, a rotulagem obrigatória exige o [cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app). O cliente só é executado no Windows, portanto esse recurso ainda não é compatível com Mac, iOS e Android.
     
-    Considere usar essa opção para ajudar a aumentar a cobertura de rótulos. No entanto, sem o treinamento do usuário, essa configuração pode resultar em rotulagem imprecisa. Além disso, a menos que você também defina um rótulo padrão, a rotulagem obrigatória poderá frustrar os usuários com os prompts frequentes. 
+    Para contêineres, um rótulo deve ser atribuído no momento em que o grupo ou local é criado.
+    
+    Considere usar essa opção para ajudar a aumentar a cobertura de rótulos. No entanto, sem treinamento do usuário, essas configurações podem resultar em rotulagem imprecisa. Além disso, a menos que você também defina um rótulo padrão correspondente, o rótulo obrigatório pode frustrar seus usuários com as solicitações frequentes. 
 
 - **Fornecer um link de ajuda para uma página de ajuda personalizada** Se os usuários não tiverem certeza do significado dos rótulos de sensibilidade ou de como devem ser usados, você pode fornecer um URL Saiba mais que aparece na parte inferior do menu do **Rótulo de sensibilidade** nos aplicativos do Office:
 
@@ -236,5 +257,5 @@ Você também pode saber mais sobre [soluções de parceiro que estão integrada
 
 ## <a name="deployment-guidance"></a>Guia de implantação
 
-Confira [Introdução ao rótulos de confidencialidade](get-started-with-sensitivity-labels.md).
+Para planejamento de implantação e orientação que inclui informações de licenciamento, permissões, estratégia de implantação e uma lista de recursos para cenários suportados e documentação do usuário final, consulte [Primeiros passos com rótulos de confidencialidade](get-started-with-sensitivity-labels.md).
 
