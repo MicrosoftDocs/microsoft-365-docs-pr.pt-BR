@@ -19,16 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Saiba como gerenciar os grupos do Microsoft 365, incluindo a adição de adicionar ou remover membros do grupo, editar o endereço de email, o nome do grupo ou a descrição e personalizar como o grupo funciona.
-ms.openlocfilehash: 29eaa762116498799d4156b58c8f9bf466f04073
-ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
+ms.openlocfilehash: 7cc9bc6eb79b305c7d20d8075b6dc287e4f8b5d7
+ms.sourcegitcommit: 88c2461b14cd16f74979f4bcd0a9ad18e4422cb3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48343266"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469704"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Gerenciar um grupo no centro de administração do Microsoft 365
 
-Depois de [criar um grupo do Microsoft 365](create-groups.md) e adicionar membros de grupo, você pode configurar seu grupo. Você pode editar o nome ou a descrição do grupo, gerenciar proprietários ou membros e especificar se os remetentes externos podem enviar emails para o grupo e se deseja enviar cópias de conversas de grupo para membros. 
+Depois de [criar um grupo do Microsoft 365](create-groups.md) e adicionar membros de grupo, você pode configurar seu grupo. Você pode editar o nome ou a descrição do grupo, gerenciar proprietários ou membros e especificar se os remetentes externos podem enviar emails para o grupo e se deseja enviar cópias de conversas de grupo para membros.
+
+Vá para o centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com) .
 
 ## <a name="edit-the-group-name-or-description"></a>Editar o nome ou a descrição do grupo
 
