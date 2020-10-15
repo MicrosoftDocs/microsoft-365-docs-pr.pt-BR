@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para a sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 34133f4204c1ee305b0a249a0ff8e0e9edaf5599
-ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
+ms.openlocfilehash: 320c66e6c9db7827c22cab67df57d75375f009d4
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153672"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464009"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -96,12 +96,11 @@ Se você já ativou a MFA por pessoa, é necessário desativá-la antes de habil
 1. Na página da autenticação multifator, selecione cada usuário e defina o status de autenticação multifator como **Desabilitado**.
 
 ## <a name="next-steps"></a>Próximas etapas
-
 - [Como se inscrever para obter o método de verificação adicional](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [O que é: Autenticação Multifator](https://support.microsoft.com/help/4577374/what-is-multifactor-authentication)
 - [Como entrar após o registro](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
 - [Como alterar o método de verificação adicional](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
-- [Como lidar com situações como um novo smartphone](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
-- [Solucionar problemas de entrada com MFA](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
+
 
 
 

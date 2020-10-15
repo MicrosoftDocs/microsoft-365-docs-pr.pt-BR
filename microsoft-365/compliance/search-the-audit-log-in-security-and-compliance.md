@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48d40cff907480f05dff8ba1c5c1584fc8289b1b
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: f1f2201d847001a5a9df4a367268f1f764367574
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48286037"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446634"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -456,6 +456,24 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |Exibição sinalizada pelo cliente|ClientViewSignaled|Um cliente do usuário (por exemplo, site ou aplicativo móvel) sinalizou que a página indicada foi exibida pelo usuário. Essa atividade geralmente é registrada após um evento PagePrefetched para uma página. <br/><br/>**OBSERVAÇÃO**: Como os eventos ClientViewSignaled são sinalizados pelo cliente, em vez do servidor, é possível que ele não seja registrado pelo servidor e, portanto, pode não aparecer no log de auditoria. Também é possível que as informações do registro de auditoria não sejam confiáveis. No entanto, como a identidade do usuário é validada por um token usado para criar o sinal, a identidade do usuário listada no registro de auditoria correspondente é precisa. |
 |(nenhum)|PagePrefetched|O cliente do usuário (por exemplo, site ou aplicativo móvel) solicitou a página indicada para ajudar a melhorar o desempenho se o usuário navegar por ela. Este evento é registrado para indicar que o conteúdo da página foi servido ao cliente do usuário. Esse evento não é um indício definitivo de que o usuário navegou pela página. <br/><br/> Quando o conteúdo da página é renderizado pelo cliente (conforme a solicitação do usuário), um evento ClientViewSignaled deve ser gerado. Nem todos os clientes oferecem suporte para indicar uma pré-busca e, portanto, algumas atividades pré-buscadas podem ser registradas como eventos PageViewed.|
 ||||
+
+#### <a name="frequently-asked-questions-about-fileaccessed-and-filepreviewed-events"></a>Perguntas frequentes sobre eventos do FileAccessed e FilePreviewed
+
+**Alguma atividade de não usuário poderia acionar registros de auditoria FilePreviewed que contenham um agente de usuário como "OneDriveMpc-Transform_Thumbnail"?**
+
+Não temos conhecimento de cenários em que ações de não usuários gerem eventos como esses. As ações do usuário, como abrir um cartão de perfil do usuário (clicando em seu nome ou endereço de email em uma mensagem no Outlook na Web), gerariam eventos semelhantes.
+
+**As chamadas para o OneDriveMpc-Transform_Thumbnail são sempre acionadas intencionalmente pelo usuário?**
+
+Não. Mas eventos semelhantes podem ser registrados como resultado da pré-busca do navegador.
+
+**Se virmos um evento FilePreviewed vindo de um endereço IP registrado pela Microsoft, isso significa que a visualização foi exibida na tela do dispositivo do usuário?**
+
+Não. O evento pode ter sido registrado como resultado da pré-busca do navegador.
+
+**Existem cenários em que um usuário visualizando um documento gera eventos FileAccessed?**
+
+Ambos eventos FilePreviewed e FileAccessed indicam que a chamada de um usuário levou à leitura do arquivo (ou leitura de uma renderização em miniatura do arquivo). Embora esses eventos tenham a intenção de se alinhar com a intenção de visualização vs. intenção de acesso, a distinção do evento não é uma garantia da intenção do usuário.
 
 #### <a name="the-appsharepoint-user-in-audit-records"></a>O usuário app\@sharepoint em registros de auditoria
 

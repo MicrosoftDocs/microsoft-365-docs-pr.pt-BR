@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Configure a compreensão de conteúdo no Projeto Cortex
-ms.openlocfilehash: 43ce7809237d32fb9d2da73e9e00bed9b9a8193e
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 6078b41f8911301d343925c5bf895e881abddffe
+ms.sourcegitcommit: 88c2461b14cd16f74979f4bcd0a9ad18e4422cb3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464057"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469716"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Configuração do SharePoint Syntex
 
@@ -41,13 +41,14 @@ Como administrador, também é possível fazer alterações nas configurações 
 
 ## <a name="to-set-up-sharepoint-syntex"></a>Para configurar o SharePoint Syntex
 
-1. No Centro de administração do Microsoft 365, selecione **Configuração**, e depois veja a seção **Conhecimento organizacional**.
+1. No centro de administração do Microsoft 365, selecione **Configurar** e visualize a seção **Arquivos e conteúdo**.
 
 2. Na seção **Arquivos e conteúdo**, selecione **Automatizar a compreensão de conteúdo**.<br/>
 
 3. Na página **Compreensão automatizada de conteúdo**, clique em **Começar** para percorrer o processo de instalação.<br/>
 
-    ![Iniciar a instalação](../media/content-understanding/admin-content-understanding-get-started.png)</br>
+    > [!div class="mx-imgBorder"]
+    > ![Iniciar a instalação](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
 4. Na página **Configurar Processamento de Formulário**, você pode escolher se quer permitir que os usuários sejam capazes de criar modelos de processamento de formulários em bibliotecas específicas de documentos do SharePoint. Uma opção de menu estará disponível na faixa de opções da biblioteca de documentos para **Criar um modelo de processamento de formulário** nas bibliotecas de documentos do SharePoint nas quais ele está ativado.
  
@@ -56,18 +57,22 @@ Como administrador, também é possível fazer alterações nas configurações 
       - **Bibliotecas somente em sites selecionados**, e então selecione os sites nos quais você quer disponibilizá-lo ou carregue uma lista de até 50 sites.</br>
       - **Nenhuma biblioteca do SharePoint** se você não deseja torná-lo disponível para nenhum site (você pode alterar isto após a configuração).
 
-   ![Configurar o processamento de formulário](../media/content-understanding/admin-configforms.png)
+   > [!div class="mx-imgBorder"]
+   > ![Configurar o processamento de formulário](../media/content-understanding/admin-configforms.png)
 
    > [!Note]
    > A remoção de um site após a sua insalubridade não afeta os modelos existentes aplicados às bibliotecas naquele site ou a capacidade de aplicar modelos de compreensão de documentos a uma biblioteca. 
     
-5. Na página **Criar Centro de Conteúdo**, você pode criar um site de centro de conteúdo do SharePoint, no qual seus usuários poderão criar e gerenciar modelos de compreensão de documentos. </br>
-    a. Para **Nome do site**, digite o nome que você quer dar ao seu site do centro de conteúdo.</br>
-    b. O **Endereço do site** mostrará o URL do seu site, baseado no que você selecionou para o nome do site. Se você desejar mudá-lo, clique em **Editar**.</br>
+5. Na página **Criar Centro de Conteúdo**, você pode criar um site de centro de conteúdo do SharePoint, no qual seus usuários poderão criar e gerenciar modelos de compreensão de documentos.
 
-      ![Crie um centro de conteúdo](../media/content-understanding/admin-cu-create-cc.png)</br>
+    1. Para **Nome do site**, digite o nome que você quer dar ao site do centro de conteúdo.
+    
+    1. O **Endereço do site** mostrará o URL do seu site, baseado no que você selecionou para o nome do site. Se você desejar mudá-lo, clique em **Editar**.
 
-    Selecione **Avançar**.
+       > [!div class="mx-imgBorder"]
+       > ![Criar centro de conteúdo](../media/content-understanding/admin-cu-create-cc.png)</br>
+
+       Selecione **Avançar**.
 
 6. Na página **Revisão e acabamento**, você pode olhar para a configuração selecionada e escolher fazer alterações. Se estiver satisfeito com as suas seleções, selecione **Ativar**.
 
@@ -89,7 +94,8 @@ Atribuição de licenças:
 
 4. Selecione **Serviços de Conteúdo Inteligente**. Em **Aplicativos**, certifique-se de que **Serviço de Dados Comum para Serviços de Conteúdo Inteligente** e **Serviços de Conteúdo Inteligente** estejam ambos selecionados.
 
-    ![Licenças do SharePoint Syntex no Centro de administração do Microsoft 365](../media/content-understanding/sharepoint-syntex-licenses.png)
+    > [!div class="mx-imgBorder"]
+    > ![Licenças do SharePoint Syntex no Centro de administração do Microsoft 365](../media/content-understanding/sharepoint-syntex-licenses.png)
 
 5. Clique em **Salvar alterações**.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a734d6f71a943964775477199025180d1a41426e
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 3856b92126d660ed0cdbfd1280d778ac9f072424
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408621"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446117"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
@@ -43,34 +43,39 @@ Quando um documento ou email é criptografado, o acesso ao conteúdo é restrito
 Por fim, como administrador, quando você configura um rótulo de confidencialidade para aplicar criptografia, há duas opções a escolher:
 
 - **Atribuir permissões agora**, para que assim você possa determinar exatamente quais usuários podem obter quais permissões de conteúdo com esse rótulo.
-- **Permitir que os usuários atribuam permissões** quando aplicam o rótulo ao conteúdo. Dessa forma, você pode conceder a pessoas em sua organização uma certa flexibilidade que elas possam precisar para colaborar e realizar o trabalho.
+- **Let users assign permissions** when they apply the label to content. This way, you can allow people in your organization some flexibility that they might need to collaborate and get their work done.
 
 As configurações de criptografia estão disponíveis quando você [cria um rótulo de confidencialidade](create-sensitivity-labels.md) no Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365 ou Centro de Conformidade e segurança.
 
 ## <a name="understand-how-the-encryption-works"></a>Entenda como funciona a criptografia
 
-A criptografia usa o serviço Azure Rights Management (Azure RMS) da Proteção de Informações do Azure. Esta solução de proteção usa política de criptografia, identidade e autorização. Para saber mais, confira [O que é o Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) na documentação da Proteção de Informações do Azure. 
+Encryption uses the Azure Rights Management service (Azure RMS) from Azure Information Protection. This protection solution uses encryption, identity, and authorization policies. To learn more, see [What is Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) from the Azure Information Protection documentation. 
 
-Quando você usa essa solução de criptografia, o **recurso de superusuário** garante que as pessoas e os serviços autorizados possam sempre ler e inspecionar os dados criptografados para a sua organização. Se necessário, a criptografia poderá ser removida ou alterada. Para saber mais, confira [Configurar os superusuários para a Proteção de Informações do Azure, serviços de descoberta ou recuperação de dados](https://docs.microsoft.com/azure/information-protection/configure-super-users).
+When you use this encryption solution, the **super user** feature ensures that authorized people and services can always read and inspect the data that has been encrypted for your organization. If necessary, the encryption can then be removed or changed. For more information, see [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
 ## <a name="how-to-configure-a-label-for-encryption"></a>Como configurar um rótulo para criptografia
 
-[Crie ou edite um rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels), e na página **Criptografia** do assistente, você pode selecionar uma das seguintes opções:
+1. Siga as instruções gerais para [criar ou editar um rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) e certifique-se de que **Arquivos e emails** esteja selecionado para o escopo do rótulo: 
+    
+    ![Opções de escopo do rótulo de confidencialidade para arquivos e emails](../media/filesandemails-scope-options-sensitivity-label.png)
 
-- **Nenhuma**: a configuração padrão para um novo rótulo. Nenhuma nova criptografia é aplicada.
-- **Aplicar**: ativa a criptografia e, em seguida, você especifica as configurações de criptografia.
-- **Remover**: remove a criptografia se o documento ou email estiver criptografado.
+2. Em seguida, na página **Escolher configurações de proteção para arquivos e emails**, certifique-se de selecionar **Criptografar arquivos e emails**
+    
+    ![Opções de proteção de rótulo de confidencialidade para arquivos e emails](../media/protection-options-sensitivity-label.png)
 
-> [!NOTE]
-> A opção **Remover** só tem suporte no cliente de rotulagem unificada da Proteção de Informações do Azure. Quando você usa a rotulagem interna, um rótulo com esta opção fica visível nos aplicativos do Office e, se selecionado, o comportamento de criptografia é o mesmo que em **Nenhum**.
-
-Configurar as opções de criptografia:
-
-![Opções de rótulo de confidencialidade para criptografia](../media/encrytion-options-sensitivity-label.png)
+4.  Na página **Criptografia** do assistente, selecione uma das seguintes opções:
+    
+    - **Remova a criptografia se o arquivo estiver criptografado**: Para obter mais informações sobre este cenário, consulte a seção [O que acontece com a criptografia existente quando um rótulo é aplicado](#what-happens-to-existing-encryption-when-a-labels-applied). É importante entender que essa configuração pode resultar em um rótulo de confidencialidade que os usuários podem não ser capazes de aplicar quando não têm permissões suficientes.
+    
+    - **Definir configurações de criptografia**: Ativa a criptografia e torna as configurações de criptografia visíveis:
+        
+        ![Opções de rótulo de confidencialidade para criptografia](../media/encrytion-options-sensitivity-label.png)
+        
+        As instruções para essas configurações estão na seção [Definir configurações de criptografia a seguir](#configure-encryption-settings).
 
 ### <a name="what-happens-to-existing-encryption-when-a-labels-applied"></a>O que acontece com a criptografia existente quando um rótulo é aplicado
 
-Se um rótulo de confidencialidade for aplicado ao conteúdo não criptografado, o resultado das opções de criptografia que você poderá selecionar será autoexplicativo. Por exemplo, se a criptografia estiver definida como **Nenhuma**, o conteúdo permanecerá não criptografado.
+Se um rótulo de confidencialidade for aplicado ao conteúdo não criptografado, o resultado das opções de criptografia que você poderá selecionar será autoexplicativo. Por exemplo, se você não selecionou **Criptografar arquivos e emails**, o conteúdo permanecerá descriptografado.
 
 No entanto, conteúdo pode já estar criptografado. Por exemplo, outro usuário pode ter aplicado:
 
@@ -80,7 +85,7 @@ No entanto, conteúdo pode já estar criptografado. Por exemplo, outro usuário 
 
 A tabela a seguir identifica o que acontece com uma criptografia existente quando um rótulo de confidencialidade é aplicado ao conteúdo:
 
-| |**Criptografia: nenhuma**|**Criptografia: aplicar**|**Criptografia: remover**|
+| |**Criptografia: não selecionada**|**Criptografia: Configurada**|**Criptografia: remover**|
 |:-----|:-----|:-----|:-----|
 |**Permissões especificadas por um usuário**|A criptografia original é preservada|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
 |**Modelo de proteção**|A criptografia original é preservada|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
@@ -103,7 +108,7 @@ Os documentos que já estão criptografados e depois são adicionados como anexo
 
 ## <a name="configure-encryption-settings"></a>Definir configurações da criptografia
 
-Quando você seleciona **Aplicar** na página **Criptografia** do assistente para criar ou editar um rótulo de confidencialidade, escolha se deseja:
+Ao selecionar **Definir configurações de criptografia** na página **Criptografia** do assistente para criar ou editar um rótulo de confidencialidade, escolha uma das seguintes opções:
 
 - **Atribuir permissões agora**, para assim determinar exatamente quais usuários podem obter quais permissões do conteúdo com o rótulo aplicado. Para mais informações, consulte a próxima seção[Atribuir permissões agora](#assign-permissions-now).
 - **Permitir que os usuários atribuam permissões** quando aplicam o rótulo ao conteúdo. Com essa opção, você pode conceder uma certa flexibilidade a pessoas em sua organização para que possam colaborar e realizar o trabalho. Para mais informações, confira a seção nessa página [ Permitir que usuários atribuam permissões](#let-users-assign-permissions).
@@ -275,7 +280,7 @@ Para rotulagem interna, os usuários visualizam a mesma caixa de diálogo se sel
 
 ## <a name="example-configurations-for-the-encryption-settings"></a>Exemplos de configurações para as configurações de criptografia
 
-Para cada exemplo a seguir, faça a configuração na página **Criptografia** do assistente ao [criar ou editar rótulo de confidencialidade](create-sensitivity-labels.md#create-and-configure-sensitivity-labels). Primeiro, certifique-se que a opção **Criptografia** está definida como **Aplicar**:
+Para cada exemplo a seguir, faça a configuração na página **Criptografia** do assistente quando **Definir configurações de criptografia** estiver selecionado:
 
 ![Aplicar opção de criptografia no assistente de rótulo de confidencialidade](../media/apply-encryption-option.png)
 
@@ -391,17 +396,18 @@ Para obter a melhor experiência de colaborações para arquivos criptografados 
 
 Antes de usar a criptografia, talvez seja necessário realizar algumas tarefas de configurações.
 
-### <a name="activate-protection-from-azure-information-protection"></a>Ativar a proteção da Proteção de Informações do Azure
+- Ativar a proteção da Proteção de Informações do Azure
+    
+    Para que os rótulos de confidencialidade apliquem a criptografia, o serviço de proteção (Azure Rights Management) da Proteção de Informações do Aure devem ser ativado para seu locatário. Em locatários mais recentes, essa é a configuração padrão, mas talvez seja necessário ativar o serviço manualmente. Para saber mais, confira [Ativar o serviço de proteção da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/activate-service).
 
-Para que os rótulos de confidencialidade apliquem a criptografia, o serviço de proteção (Azure Rights Management) da Proteção de Informações do Aure devem ser ativado para seu locatário. Em locatários mais recentes, essa é a configuração padrão, mas talvez seja necessário ativar o serviço manualmente. Para saber mais, confira [Ativar o serviço de proteção da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/activate-service).
+- Configurar o Exchange para a Proteção de Informações do Azure
+    
+    O Exchange não precisa ser configurado para a Proteção de Informações do Azure antes que os usuários possam aplicar rótulos no Outlook para criptografar seus emails. No entanto, até que o Exchange esteja configurado para a Proteção de Informações do Azure, você não obtém a funcionalidade completa do uso da proteção do Gerenciamento de Direitos do Azure com o Exchange.
+    
+    Por exemplo, os usuários não podem exibir emails criptografados em telefones celulares ou com o Outlook na Web, emails criptografados não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para proteção do Gerenciamento de Direitos. 
+    
+    Para garantir que Exchange possa dar suporte a esses cenários adicionais, confira o seguinte:
+    
+    - Para o Exchange Online, confira as instruções de [Exchange Online: configuração do IRM](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration).
+    - Para o Exchange local, é necessário implantar o [conector RMS e configurar seus servidores Exchange](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector). 
 
-### <a name="configure-exchange-for-azure-information-protection"></a>Configurar o Exchange para a Proteção de Informações do Azure
-
-O Exchange não precisa ser configurado para a Proteção de Informações do Azure antes que os usuários possam aplicar rótulos no Outlook para criptografar seus emails. No entanto, até que o Exchange esteja configurado para a Proteção de Informações do Azure, você não obtém a funcionalidade completa do uso da proteção do Gerenciamento de Direitos do Azure com o Exchange.
-
-Por exemplo, os usuários não podem exibir emails criptografados em telefones celulares ou com o Outlook na Web, emails criptografados não podem ser indexados para pesquisa e você não pode configurar o DLP do Exchange Online para proteção do Gerenciamento de Direitos.
-
-Para garantir que Exchange possa dar suporte a esses cenários adicionais, confira o seguinte:
-
-- Para o Exchange Online, confira as instruções de [Exchange Online: configuração do IRM](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration).
-- Para o Exchange local, é necessário implantar o [conector RMS e configurar seus servidores Exchange](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector).
