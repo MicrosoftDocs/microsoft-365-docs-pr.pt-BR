@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1001b5b209204785221aef40631e91f904136b0b
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 2cb1c8071e72a8a60a8bac1dd13bb2ce038a8ac0
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417475"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476978"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -31,11 +31,11 @@ A [TruSight](https://trusightsolutions.com/) foi fundada por um consórcio de em
 
 A TruSight é um serviço de avaliação de risco terceirizado criado por grandes bancos dos EUA para o benefício coletivo de instituições financeiras, dos fornecedores, parceiros e terceiros. A TruSight simplifica a avaliação, executando avaliações padronizadas e práticas recomendadas uma vez e disponibilizando-as para vários — permitindo que as instituições financeiras tenham maior visibilidade dos possíveis riscos e gerenciem outras relações com terceiros de forma eficaz e eficiente.
 
-A base da metodologia da TruSight é o Questionário de Práticas Recomendadas (BPQ) robusto e padronizado criado pelos bancos fundadores da TruSight e atualizado em parceria com os clientes e especialistas do setor. Os 27 domínios de controle diversificados dela foram desenvolvidos para atender às necessidades de avaliação do setor em diferentes categorias de informação e segurança cibernética, privacidade, resiliência de negócios e outros domínios de riscos operacionais.
+A base da metodologia da TruSight é o robusto e padronizado BPQ (Questionário de Práticas Recomendadas), criado pelos bancos fundadores da TruSight e atualizado em parceria com os clientes e especialistas do setor. Seus 27 domínios de controle diversificados foram desenvolvidos para atender às necessidades de avaliação do setor em diferentes categorias de informação e segurança cibernética, privacidade, resiliência de negócios e outros domínios de riscos operacionais.
 
-A TruSight realizou, para a Microsoft, uma ampla e rigorosa avaliação no local do Microsoft Azure, do Microsoft Dynamics 365 e do Microsoft Office 365 para validar o design e a implementação dos controles de acordo com os requisitos do BPQ. Os procedimentos de validação abrangentes incluem consultas estruturadas, inspeções de políticas e procedimentos, análises com evidências de suporte e observações de controle dinâmicos no local.
+A TruSight realizou, para a Microsoft, uma ampla e rigorosa avaliação no local do Microsoft Azure, do Microsoft Dynamics 365, do Microsoft Power Platform e do Microsoft 365 para validar o design e a implementação dos controles de acordo com os requisitos do BPQ. Os procedimentos de validação abrangentes incluem consultas estruturadas, inspeções de políticas e procedimentos, análises com evidências de suporte e observações de controle dinâmicos no local.
 
-Em setembro de 2018, a TruSight emitiu sua primeira avaliação de risco dos serviços na nuvem da Microsoft, *Avaliação Abrangente do Microsoft Cloud*. Agora, a Microsoft passará por análises anuais da TruSight para garantir que a avaliação continue atualizada e atenda às novas exigências regulamentares e atualizações de tecnologia nos serviços da Microsoft. Espera-se que a TruSight publique a primeira atualização do relatório no segundo semestre de 2019.
+Em setembro de 2018, a TruSight emitiu sua primeira avaliação de risco dos serviços na nuvem da Microsoft, *Avaliação Abrangente do Microsoft Cloud*. Agora, a Microsoft passa por revisões anuais do TruSight para garantir que a avaliação continue atualizada e reflita os novos requisitos regulamentares e atualizações de tecnologia nos serviços Microsoft. A TruSight emitiu seu relatório mais recente em outubro de 2020.
 
 Como resultado desta rigorosa avaliação da TruSight, os clientes de serviços financeiros, agora, têm acesso sob demanda a uma avaliação de alta qualidade dos serviços de nuvem da Microsoft com base na metodologia padronizada e com suporte do setor, sem a necessidade de expandir os recursos necessários para fazer isso por conta própria.
 
