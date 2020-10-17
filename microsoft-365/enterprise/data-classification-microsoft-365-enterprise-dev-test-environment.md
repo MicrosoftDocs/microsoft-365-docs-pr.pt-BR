@@ -14,135 +14,104 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para criar e usar rótulos de retenção em documentos no ambiente de teste do Microsoft 365 for Enterprise.
-ms.openlocfilehash: 171fcb74b09a1f2e5c80f23e010640dce55660bc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 5cc77167db866d99f0beea5f554a777ecf355046
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487727"
 ---
-# <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a><span data-ttu-id="2f33e-103">Classificação de dados para o ambiente de teste do Microsoft 365 for Enterprise</span><span class="sxs-lookup"><span data-stu-id="2f33e-103">Data classification for your Microsoft 365 for enterprise test environment</span></span>
+# <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a><span data-ttu-id="15b6a-103">Classificação de dados para o ambiente de teste do Microsoft 365 for Enterprise</span><span class="sxs-lookup"><span data-stu-id="15b6a-103">Data classification for your Microsoft 365 for enterprise test environment</span></span>
 
-<span data-ttu-id="2f33e-104">*Este guia de laboratório de teste pode ser usado para ambientes de teste corporativos do Microsoft 365 para Enterprise e Office 365.*</span><span class="sxs-lookup"><span data-stu-id="2f33e-104">*This Test Lab Guide can be used for both Microsoft 365 for enterprise and Office 365 Enterprise test environments.*</span></span>
+<span data-ttu-id="15b6a-104">*Este guia de laboratório de teste pode ser usado para ambientes de teste corporativos do Microsoft 365 para Enterprise e Office 365.*</span><span class="sxs-lookup"><span data-stu-id="15b6a-104">*This Test Lab Guide can be used for both Microsoft 365 for enterprise and Office 365 Enterprise test environments.*</span></span>
 
-<span data-ttu-id="2f33e-105">Com as instruções deste artigo, você configura a classificação de dados usando rótulos de retenção no ambiente de teste do Microsoft 365 for Enterprise.</span><span class="sxs-lookup"><span data-stu-id="2f33e-105">With the instructions in this article, you configure data classification using retention labels in your Microsoft 365 for enterprise test environment.</span></span>
+<span data-ttu-id="15b6a-105">Este artigo descreve como configurar a classificação de dados usando rótulos de retenção no ambiente de teste do Microsoft 365 for Enterprise.</span><span class="sxs-lookup"><span data-stu-id="15b6a-105">This article describes how to configure data classification using retention labels in your Microsoft 365 for enterprise test environment.</span></span>
 
-![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+<span data-ttu-id="15b6a-106">Classificar dados em seu ambiente de teste envolve três fases:</span><span class="sxs-lookup"><span data-stu-id="15b6a-106">Classifying data in your test environment involves three phases:</span></span>
+- [<span data-ttu-id="15b6a-107">Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise</span><span class="sxs-lookup"><span data-stu-id="15b6a-107">Phase 1: Build out your Microsoft 365 for enterprise test environment</span></span>](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [<span data-ttu-id="15b6a-108">Fase 2: criar rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="15b6a-108">Phase 2: Create retention labels</span></span>](#phase-2-create-retention-labels)
+- [<span data-ttu-id="15b6a-109">Fase 3: aplicar rótulos de retenção a documentos</span><span class="sxs-lookup"><span data-stu-id="15b6a-109">Phase 3: Apply retention labels to documents</span></span>](#phase-3-apply-retention-labels-to-documents)
+
+![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> <span data-ttu-id="2f33e-107">Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.</span><span class="sxs-lookup"><span data-stu-id="2f33e-107">Click [here](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 for enterprise Test Lab Guide stack.</span></span>
+> <span data-ttu-id="15b6a-111">Para obter um mapa Visual para todos os artigos da pilha do guia do laboratório de teste do Microsoft 365 for Enterprise, vá para a [pilha do guia do laboratório de teste da microsoft 365 para empresas](../downloads/Microsoft365EnterpriseTLGStack.pdf).</span><span class="sxs-lookup"><span data-stu-id="15b6a-111">For a visual map to all the articles in the Microsoft 365 for enterprise Test Lab Guide stack, go to [Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf).</span></span>
   
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a><span data-ttu-id="2f33e-108">Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise</span><span class="sxs-lookup"><span data-stu-id="2f33e-108">Phase 1: Build out your Microsoft 365 for enterprise test environment</span></span>
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a><span data-ttu-id="15b6a-112">Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise</span><span class="sxs-lookup"><span data-stu-id="15b6a-112">Phase 1: Build out your Microsoft 365 for enterprise test environment</span></span>
 
-<span data-ttu-id="2f33e-109">Se você só quiser configurar os rótulos de retenção de uma forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).</span><span class="sxs-lookup"><span data-stu-id="2f33e-109">If you just want to configure retention labels in a lightweight way with the minimum requirements, follow the instructions in [Lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).</span></span>
+<span data-ttu-id="15b6a-113">Se você só quiser configurar os rótulos de retenção de uma forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).</span><span class="sxs-lookup"><span data-stu-id="15b6a-113">If you just want to configure retention labels in a lightweight way with the minimum requirements, follow the instructions in [Lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).</span></span>
   
-<span data-ttu-id="2f33e-110">Se você quiser configurar os rótulos de retenção em uma empresa simulada, siga as instruções em [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).</span><span class="sxs-lookup"><span data-stu-id="2f33e-110">If you want to configure retention labels in a simulated enterprise, follow the instructions in [Pass-through authentication](pass-through-auth-m365-ent-test-environment.md).</span></span>
+<span data-ttu-id="15b6a-114">Se você quiser configurar os rótulos de retenção em uma empresa simulada, siga as instruções em [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).</span><span class="sxs-lookup"><span data-stu-id="15b6a-114">If you want to configure retention labels in a simulated enterprise, follow the instructions in [Pass-through authentication](pass-through-auth-m365-ent-test-environment.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="2f33e-111">O teste de rótulos de retenção não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS).</span><span class="sxs-lookup"><span data-stu-id="2f33e-111">Testing retention labels does not require the simulated enterprise test environment, which includes a simulated intranet connected to the Internet and directory synchronization for an Active Directory Domain Services (AD DS) forest.</span></span> <span data-ttu-id="2f33e-112">Ele é fornecido aqui como uma opção para que você possa testar o licenciamento e a associação de grupo automatizados e experimentá-lo em um ambiente que representa uma organização típica.</span><span class="sxs-lookup"><span data-stu-id="2f33e-112">It is provided here as an option so that you can test automated licensing and group membership and experiment with it in an environment that represents a typical organization.</span></span> 
+> <span data-ttu-id="15b6a-115">O teste de rótulos de retenção não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS).</span><span class="sxs-lookup"><span data-stu-id="15b6a-115">Testing retention labels doesn't require the simulated enterprise test environment, which includes a simulated intranet connected to the internet and directory synchronization for an Active Directory Domain Services (AD DS) forest.</span></span> <span data-ttu-id="15b6a-116">Ele é fornecido aqui como uma opção para que você possa testar o licenciamento e a associação de grupo automatizados e experimentá-lo em um ambiente que representa uma organização típica.</span><span class="sxs-lookup"><span data-stu-id="15b6a-116">It's provided here as an option so that you can test automated licensing and group membership and experiment with it in an environment that represents a typical organization.</span></span>
 
-## <a name="phase-2-create-retention-labels"></a><span data-ttu-id="2f33e-113">Fase 2: criar rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="2f33e-113">Phase 2: Create retention labels</span></span>
+## <a name="phase-2-create-retention-labels"></a><span data-ttu-id="15b6a-117">Fase 2: criar rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="15b6a-117">Phase 2: Create retention labels</span></span>
 
-<span data-ttu-id="2f33e-114">Nesta fase, você cria os rótulos de retenção para os diferentes níveis de retenção para pastas de documentos do SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="2f33e-114">In this phase, you create the retention labels for the different levels of retention for SharePoint Online documents folders.</span></span>
+<span data-ttu-id="15b6a-118">Nesta fase, crie os rótulos de retenção para os diferentes níveis de retenção para as pastas de documentos do SharePoint Online:</span><span class="sxs-lookup"><span data-stu-id="15b6a-118">In this phase, create the retention labels for the different levels of retention for SharePoint Online documents folders:</span></span>
 
-1. <span data-ttu-id="2f33e-115">Entre na central de [segurança do Microsoft 365](https://security.microsoft.com/homepage) com sua conta de administrador global.</span><span class="sxs-lookup"><span data-stu-id="2f33e-115">Sign in to the [Microsoft 365 security center](https://security.microsoft.com/homepage) with your global admin account.</span></span>
-    
-2. <span data-ttu-id="2f33e-116">Na guia **segurança doméstica-Microsoft 365** do navegador, clique em **classificação > rótulos de retenção**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-116">From the **Home - Microsoft 365 security** tab of your browser, click **Classification > Retention labels**.</span></span>
-    
-3. <span data-ttu-id="2f33e-117">Clique em **Criar um rótulo**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-117">Click **Create a label**.</span></span>
-    
-4. <span data-ttu-id="2f33e-118">No painel **nomear seu rótulo** , digite **público interno** em **nome seu rótulo**e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-118">In the **Name your label** pane, type **Internal Public** in **Name your label**, and then click **Next**.</span></span>
-
-5. <span data-ttu-id="2f33e-119">No painel **descritores de plano de arquivo** , clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-119">In the **File plan descriptors** pane, click **Next**.</span></span>
-    
-6. <span data-ttu-id="2f33e-120">No painel **configurações do rótulo** , se necessário, defina **retenção** como **ativado**e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-120">In the **Label settings** pane, if needed, set **Retention** to **On**, and then click **Next**.</span></span>
-    
-7. <span data-ttu-id="2f33e-121">No painel **examinar as configurações** , clique em **criar o rótulo**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-121">In the **Review your settings** pane, click **Create the label**.</span></span>
-    
-8. <span data-ttu-id="2f33e-122">Repita as etapas 3 a 7 para etiquetas adicionais com esses nomes:</span><span class="sxs-lookup"><span data-stu-id="2f33e-122">Repeat steps 3-7 for additional labels with these names:</span></span>
-    
-  - <span data-ttu-id="2f33e-123">Private</span><span class="sxs-lookup"><span data-stu-id="2f33e-123">Private</span></span>
-    
-  - <span data-ttu-id="2f33e-124">Confidencial</span><span class="sxs-lookup"><span data-stu-id="2f33e-124">Sensitive</span></span>
-    
-  - <span data-ttu-id="2f33e-125">Altamente Confidencial</span><span class="sxs-lookup"><span data-stu-id="2f33e-125">Highly Confidential</span></span>
-  
-9. <span data-ttu-id="2f33e-126">No painel **Rótulos de retenção** , clique em **publicar rótulos**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-126">In the **Retention labels** pane, click **Publish labels**.</span></span>
-    
-10. <span data-ttu-id="2f33e-127">No painel **escolher rótulos para publicar** , clique em **escolher rótulos para publicar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-127">In the **Choose labels to publish** pane, click **Choose labels to publish**.</span></span>
-    
-11. <span data-ttu-id="2f33e-128">No painel **escolher rótulos** , clique em **Adicionar** e selecione todos os quatro rótulos.</span><span class="sxs-lookup"><span data-stu-id="2f33e-128">In the **Choose labels** pane, click **Add** and select all four labels.</span></span>
-    
-12. <span data-ttu-id="2f33e-129">Clique em **Adicionar** e, em seguida, clique em **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-129">Click **Add**, and then click **Done**.</span></span>
-    
-13. <span data-ttu-id="2f33e-130">No painel **Escolher rótulos para publicar**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-130">On the **Choose labels to publish** pane, click **Next**.</span></span>
-    
-14. <span data-ttu-id="2f33e-131">No painel **Escolher locais**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-131">On the **Choose locations** pane, click **Next**.</span></span>
-    
-15. <span data-ttu-id="2f33e-132">No painel **Atribuir um nome à política**, digite **Organização de exemplo** em **Nome** e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-132">On the **Name your policy** pane, type **Example organization** in **Name**, and then click **Next**.</span></span>
-    
-16. <span data-ttu-id="2f33e-133">No painel **revisar as configurações** , clique em **publicar rótulos**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-133">On the **Review your settings** pane, click **Publish labels**.</span></span>
+1. <span data-ttu-id="15b6a-119">Entre na central de [segurança do Microsoft 365](https://security.microsoft.com/homepage) com sua conta de administrador global.</span><span class="sxs-lookup"><span data-stu-id="15b6a-119">Sign in to the [Microsoft 365 security center](https://security.microsoft.com/homepage) with your global admin account.</span></span>
+1. <span data-ttu-id="15b6a-120">Na guia **segurança doméstica-Microsoft 365** do navegador, selecione rótulos de **Classification**  >  **retenção**de classificação.</span><span class="sxs-lookup"><span data-stu-id="15b6a-120">From the **Home - Microsoft 365 security** tab of your browser, select **Classification** > **Retention labels**.</span></span>
+1. <span data-ttu-id="15b6a-121">Selecione **Criar um rótulo**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-121">Select **Create a label**.</span></span>
+1. <span data-ttu-id="15b6a-122">No painel **nomear seu rótulo** , digite **público interno** em **nome seu rótulo**e, em seguida, selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-122">In the **Name your label** pane, enter **Internal Public** in **Name your label**, and then select **Next**.</span></span>
+1. <span data-ttu-id="15b6a-123">No painel de **descritores de plano de arquivo** , selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-123">In the **File plan descriptors** pane, select **Next**.</span></span>
+1. <span data-ttu-id="15b6a-124">No painel **configurações do rótulo** , se necessário, defina **retenção** como **ativado**e, em seguida, selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-124">In the **Label settings** pane, if needed, set **Retention** to **On**, and then select **Next**.</span></span>
+1. <span data-ttu-id="15b6a-125">No painel **examinar suas configurações** , selecione **criar o rótulo**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-125">In the **Review your settings** pane, select **Create the label**.</span></span>
+1. <span data-ttu-id="15b6a-126">Repita as etapas 3 a 7 para etiquetas adicionais com esses nomes:</span><span class="sxs-lookup"><span data-stu-id="15b6a-126">Repeat steps 3-7 for additional labels with these names:</span></span>
+  - <span data-ttu-id="15b6a-127">Private</span><span class="sxs-lookup"><span data-stu-id="15b6a-127">Private</span></span>
+  - <span data-ttu-id="15b6a-128">Confidencial</span><span class="sxs-lookup"><span data-stu-id="15b6a-128">Sensitive</span></span>
+  - <span data-ttu-id="15b6a-129">Altamente Confidencial</span><span class="sxs-lookup"><span data-stu-id="15b6a-129">Highly Confidential</span></span>
+1. <span data-ttu-id="15b6a-130">No painel **Rótulos de retenção** , selecione **publicar rótulos**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-130">In the **Retention labels** pane, select **Publish labels**.</span></span>
+1. <span data-ttu-id="15b6a-131">No painel **escolher rótulos para publicar** , selecione **escolher rótulos para publicar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-131">In the **Choose labels to publish** pane, select **Choose labels to publish**.</span></span>
+1. <span data-ttu-id="15b6a-132">No painel **escolher rótulos** , selecione **Adicionar** e selecione todos os quatro rótulos.</span><span class="sxs-lookup"><span data-stu-id="15b6a-132">In the **Choose labels** pane, select **Add** and select all four labels.</span></span>
+1. <span data-ttu-id="15b6a-133">Selecione **Adicionar**e, em seguida, selecione **concluído**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-133">Select **Add**, and then select **Done**.</span></span>
+1. <span data-ttu-id="15b6a-134">No painel **escolher rótulos para publicar** , selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-134">On the **Choose labels to publish** pane, select **Next**.</span></span>
+1. <span data-ttu-id="15b6a-135">No painel **escolher locais** , selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-135">On the **Choose locations** pane, select **Next**.</span></span>
+1. <span data-ttu-id="15b6a-136">No painel **nomear sua política** , digite **organização de exemplo** em **nome**e, em seguida, selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-136">On the **Name your policy** pane, enter **Example organization** in **Name**, and then select **Next**.</span></span>
+1. <span data-ttu-id="15b6a-137">No painel **rever suas configurações** , selecione **publicar rótulos**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-137">On the **Review your settings** pane, select **Publish labels**.</span></span>
  
-<span data-ttu-id="2f33e-134">Observe que pode levar alguns minutos para que os rótulos de retenção sejam publicados.</span><span class="sxs-lookup"><span data-stu-id="2f33e-134">Note that it might take a few minutes for the retention labels to be published.</span></span>
+<span data-ttu-id="15b6a-138">Pode levar alguns minutos para que os rótulos de retenção sejam publicados.</span><span class="sxs-lookup"><span data-stu-id="15b6a-138">It might take a few minutes for the retention labels to be published.</span></span>
 
-## <a name="phase-3-apply-retention-labels-to-documents"></a><span data-ttu-id="2f33e-135">Fase 3: aplicar rótulos de retenção a documentos</span><span class="sxs-lookup"><span data-stu-id="2f33e-135">Phase 3: Apply retention labels to documents</span></span>
+## <a name="phase-3-apply-retention-labels-to-documents"></a><span data-ttu-id="15b6a-139">Fase 3: aplicar rótulos de retenção a documentos</span><span class="sxs-lookup"><span data-stu-id="15b6a-139">Phase 3: Apply retention labels to documents</span></span>
 
-<span data-ttu-id="2f33e-136">Nesta fase, você descobre o comportamento de rótulo de retenção padrão para arquivos na pasta documentos de um site do SharePoint Online e altera manualmente o rótulo de retenção de um documento.</span><span class="sxs-lookup"><span data-stu-id="2f33e-136">In this phase, you discover the default retention label behavior for files in the Documents folder of a SharePoint Online site and manually change the retention label of a document.</span></span>
+<span data-ttu-id="15b6a-140">Nesta fase, você descobre o comportamento de rótulo de retenção padrão para arquivos na pasta documentos de um site do SharePoint Online e altera manualmente o rótulo de retenção de um documento.</span><span class="sxs-lookup"><span data-stu-id="15b6a-140">In this phase, you discover the default retention label behavior for files in the Documents folder of a SharePoint Online site and manually change the retention label of a document.</span></span>
 
-<span data-ttu-id="2f33e-137">Primeiro, crie um site de equipe do SharePoint Online de nível confidencial:</span><span class="sxs-lookup"><span data-stu-id="2f33e-137">First, create a sensitive-level SharePoint Online team site:</span></span>
+<span data-ttu-id="15b6a-141">Primeiro, crie um site de equipe do SharePoint Online de nível confidencial:</span><span class="sxs-lookup"><span data-stu-id="15b6a-141">First, create a sensitive-level SharePoint Online team site:</span></span>
   
-1. <span data-ttu-id="2f33e-138">Usando uma instância privada do navegador, entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando sua conta de administrador global.</span><span class="sxs-lookup"><span data-stu-id="2f33e-138">Using a private instance of your browser, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) using your global admin account.</span></span>
+1. <span data-ttu-id="15b6a-142">Usando uma instância privada do navegador, entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando sua conta de administrador global.</span><span class="sxs-lookup"><span data-stu-id="15b6a-142">Using a private instance of your browser, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) using your global admin account.</span></span>
+1. <span data-ttu-id="15b6a-143">Na lista de blocos, selecione **SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-143">In the list of tiles, select **SharePoint**.</span></span>
+1. <span data-ttu-id="15b6a-144">Na nova guia **SharePoint** no navegador, selecione **criar site**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-144">On the new **SharePoint** tab in your browser, select **Create site**.</span></span>
+1. <span data-ttu-id="15b6a-145">Na página **Criar um site**, clique em **Site de equipe**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-145">On the **Create a site** page, select **Team site**.</span></span>
+1. <span data-ttu-id="15b6a-146">Na caixa **nome do site de equipe** , digite **SensitiveFiles**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-146">In the **Team site name** box, enter **SensitiveFiles**.</span></span>
+1. <span data-ttu-id="15b6a-147">Na caixa **Descrição do site de equipe** , digite **site do SharePoint para arquivos confidenciais**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-147">In the **Team site description** box, enter **SharePoint site for sensitive files**.</span></span>
+1. <span data-ttu-id="15b6a-148">Em **configurações de privacidade**, selecione **membros somente privados podem acessar esse site**e, em seguida, selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-148">In **Privacy settings**, select **Private - only members can access this site**, and then select **Next**.</span></span>
+1. <span data-ttu-id="15b6a-149">No painel **quem você deseja adicionar?** , selecione **concluir**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-149">In the **Who do you want to add?** pane, select **Finish**.</span></span>
     
-2. <span data-ttu-id="2f33e-139">Na lista de blocos, clique em **SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-139">In the list of tiles, click **SharePoint**.</span></span>
-    
-3. <span data-ttu-id="2f33e-140">Na nova guia **SharePoint** no navegador, clique em **criar site**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-140">On the new **SharePoint** tab in your browser, click **Create site**.</span></span>
-    
-4. <span data-ttu-id="2f33e-141">Na página **Criar um site**, clique em **Site de equipe**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-141">On the **Create a site** page, click **Team site**.</span></span>
-    
-5. <span data-ttu-id="2f33e-142">Em **nome do site de equipe**, digite **SensitiveFiles**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-142">In **Team site name**, type **SensitiveFiles**.</span></span>
-    
-6. <span data-ttu-id="2f33e-143">Em **Descrição do site de equipe**, digite **site do SharePoint para arquivos confidenciais**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-143">In **Team site description**, type **SharePoint site for sensitive files**.</span></span>
-    
-7.  <span data-ttu-id="2f33e-144">Em **Configurações de privacidade**, selecione **Privado – somente membros podem acessar esse site** e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-144">In **Privacy settings**, select **Private - only members can access this site**, and then click **Next**.</span></span>
-    
-8. <span data-ttu-id="2f33e-145">No painel **quem você deseja adicionar?** , clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-145">In the **Who do you want to add?** pane, click **Finish**.</span></span>
-    
-<span data-ttu-id="2f33e-146">Em seguida, configure a pasta de documentos do site de equipe do SensitiveFiles para o rótulo de retenção confidencial.</span><span class="sxs-lookup"><span data-stu-id="2f33e-146">Next, configure the Documents folder of the SensitiveFiles team site for the Sensitive retention label.</span></span>
+<span data-ttu-id="15b6a-150">Em seguida, configure a pasta de documentos do site de equipe do SensitiveFiles para o rótulo de retenção confidencial.</span><span class="sxs-lookup"><span data-stu-id="15b6a-150">Next, configure the Documents folder of the SensitiveFiles team site for the Sensitive retention label.</span></span>
   
-1. <span data-ttu-id="2f33e-147">Na guia **SensitiveFiles** do navegador, clique em **documentos**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-147">In the **SensitiveFiles** tab of your browser, click **Documents**.</span></span>
-    
-2. <span data-ttu-id="2f33e-148">Clique no ícone de configurações e clique em **Configurações de biblioteca**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-148">Click the settings icon, and then click **Library settings**.</span></span>
-    
-3. <span data-ttu-id="2f33e-149">Em **permissões e gerenciamento**, clique em **aplicar rótulo aos itens nesta lista ou biblioteca**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-149">Under **Permissions and Management**, click **Apply label to items in this list or library**.</span></span> <span data-ttu-id="2f33e-150">Se essa opção não aparecer, seus rótulos de retenção ainda não serão publicados.</span><span class="sxs-lookup"><span data-stu-id="2f33e-150">If this option does not appear, your retention labels are not yet published.</span></span> <span data-ttu-id="2f33e-151">Tente esta etapa mais tarde.</span><span class="sxs-lookup"><span data-stu-id="2f33e-151">Try this step at a later time.</span></span>
-    
-4. <span data-ttu-id="2f33e-152">Em **Configurações – Aplicar rótulo**, selecione **confidencial** na caixa suspensa e clique em **salvar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-152">In **Settings-Apply Label**, select **Sensitive** in the drop-down box, and then click **Save**.</span></span>
+1. <span data-ttu-id="15b6a-151">Na guia **SensitiveFiles** do navegador, selecione **documentos**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-151">In the **SensitiveFiles** tab of your browser, select **Documents**.</span></span>
+1. <span data-ttu-id="15b6a-152">Selecione o ícone **configurações** e, em seguida, selecione **configurações da biblioteca**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-152">Select the **Settings** icon, and then select **Library settings**.</span></span>
+1. <span data-ttu-id="15b6a-153">Em **permissões e gerenciamento**, selecione **aplicar rótulo a itens nesta lista ou biblioteca**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-153">Under **Permissions and Management**, select **Apply label to items in this list or library**.</span></span> <span data-ttu-id="15b6a-154">Se essa opção não for exibida, seus rótulos de retenção ainda não foram publicados.</span><span class="sxs-lookup"><span data-stu-id="15b6a-154">If this option doesn't appear, your retention labels aren't yet published.</span></span> <span data-ttu-id="15b6a-155">Tente esta etapa mais tarde.</span><span class="sxs-lookup"><span data-stu-id="15b6a-155">Try this step at a later time.</span></span>
+1. <span data-ttu-id="15b6a-156">Em **Configurações – Aplicar rótulo**, selecione **confidencial** na caixa suspensa e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-156">In **Settings-Apply Label**, select **Sensitive** in the drop-down box, and then select **Save**.</span></span>
 
-<span data-ttu-id="2f33e-153">Em seguida, crie um novo documento no site do SensitiveFiles e altere seu rótulo de retenção.</span><span class="sxs-lookup"><span data-stu-id="2f33e-153">Next, create a new document in the SensitiveFiles site and change its retention label.</span></span>
+<span data-ttu-id="15b6a-157">Em seguida, crie um novo documento no site do SensitiveFiles e altere seu rótulo de retenção.</span><span class="sxs-lookup"><span data-stu-id="15b6a-157">Next, create a new document in the SensitiveFiles site and change its retention label.</span></span>
     
-1. <span data-ttu-id="2f33e-154">Na pasta documentos, clique em **novo documento do Word >**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-154">In the documents folder, click **New > Word document**.</span></span>
-    
-2. <span data-ttu-id="2f33e-155">Digite algum texto no documento em branco.</span><span class="sxs-lookup"><span data-stu-id="2f33e-155">Type some text in the blank document.</span></span> <span data-ttu-id="2f33e-156">Aguarde o texto ser salvo.</span><span class="sxs-lookup"><span data-stu-id="2f33e-156">Wait for the text to be saved.</span></span>
-    
-3. <span data-ttu-id="2f33e-157">Na barra de menus, clique em **documentos compartilhados**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-157">In the menu bar, click **Shared Documents**.</span></span>
-    
-4. <span data-ttu-id="2f33e-158">Clique nas reticências verticais ao lado do nome do arquivo **Document.docx** e, em seguida, clique em **detalhes**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-158">Click the vertical ellipsis next to the **Document.docx** file name, and then click **Details**.</span></span>
-    
-5. <span data-ttu-id="2f33e-159">No painel direito, na seção **Propriedades** , em **aplicar rótulo de retenção**, observe que o documento teve o rótulo de retenção **confidencial** aplicado automaticamente.</span><span class="sxs-lookup"><span data-stu-id="2f33e-159">In the right-hand pane, in the **Properties** section, under **Apply retention label**, note that the document has had the **Sensitive** retention label automatically applied.</span></span>
-    
-6. <span data-ttu-id="2f33e-160">Clique em **Editar Tudo**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-160">Click **Edit all**.</span></span>
-    
-7. <span data-ttu-id="2f33e-161">No painel **Document.docx** , em **aplicar rótulo de retenção**, selecione o rótulo **altamente confidencial** e clique em **salvar**.</span><span class="sxs-lookup"><span data-stu-id="2f33e-161">In the **Document.docx** pane, under **Apply retention label**, select the **Highly Confidential** label, and then click **Save**.</span></span>
+1. <span data-ttu-id="15b6a-158">Na pasta documentos, selecione **novo**  >  **documento do Word**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-158">In the documents folder, select **New** > **Word document**.</span></span>
+1. <span data-ttu-id="15b6a-159">Insira algum texto no documento em branco.</span><span class="sxs-lookup"><span data-stu-id="15b6a-159">Enter some text in the blank document.</span></span> <span data-ttu-id="15b6a-160">Aguarde o texto ser salvo.</span><span class="sxs-lookup"><span data-stu-id="15b6a-160">Wait for the text to be saved.</span></span>
+1. <span data-ttu-id="15b6a-161">Na barra de menus, selecione **documentos compartilhados**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-161">On the menu bar, select **Shared Documents**.</span></span>
+1. <span data-ttu-id="15b6a-162">Ao lado do nome do arquivo **Document.docx** , selecione as reticências verticais e, em seguida, selecione **detalhes**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-162">Next to the **Document.docx** file name, select the vertical ellipsis, and then select **Details**.</span></span>
+1. <span data-ttu-id="15b6a-163">No painel direito, na seção **Propriedades** , em **aplicar rótulo de retenção**, observe que o rótulo de retenção **confidencial** foi aplicado automaticamente ao documento.</span><span class="sxs-lookup"><span data-stu-id="15b6a-163">In the right pane, in the **Properties** section, under **Apply retention label**, note that the document has had the **Sensitive** retention label automatically applied.</span></span>
+1. <span data-ttu-id="15b6a-164">Clique em **Editar Tudo**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-164">Click **Edit all**.</span></span>
+1. <span data-ttu-id="15b6a-165">No painel **Document.docx** , em **aplicar rótulo de retenção**, selecione o rótulo **altamente confidencial** e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="15b6a-165">In the **Document.docx** pane, under **Apply retention label**, select the **Highly Confidential** label, and then select **Save**.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="2f33e-162">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="2f33e-162">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="15b6a-166">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="15b6a-166">Next step</span></span>
 
-<span data-ttu-id="2f33e-163">Explore recursos e funcionalidades adicionais de [proteção de informações](m365-enterprise-test-lab-guides.md#information-protection) em seu ambiente de teste.</span><span class="sxs-lookup"><span data-stu-id="2f33e-163">Explore additional [information protection](m365-enterprise-test-lab-guides.md#information-protection) features and capabilities in your test environment.</span></span>
+<span data-ttu-id="15b6a-167">Explore recursos e funcionalidades adicionais de [proteção de informações](m365-enterprise-test-lab-guides.md#information-protection) em seu ambiente de teste.</span><span class="sxs-lookup"><span data-stu-id="15b6a-167">Explore additional [information protection](m365-enterprise-test-lab-guides.md#information-protection) features and capabilities in your test environment.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2f33e-164">Confira também</span><span class="sxs-lookup"><span data-stu-id="2f33e-164">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="15b6a-168">Confira também</span><span class="sxs-lookup"><span data-stu-id="15b6a-168">See also</span></span>
 
-[<span data-ttu-id="2f33e-165">Guias do Laboratório de Teste do Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="2f33e-165">Microsoft 365 for enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="15b6a-169">Guias do Laboratório de Teste do Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="15b6a-169">Microsoft 365 for enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="2f33e-166">Visão geral do Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="2f33e-166">Microsoft 365 for enterprise overview</span></span>](microsoft-365-overview.md)
+[<span data-ttu-id="15b6a-170">Visão geral do Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="15b6a-170">Microsoft 365 for enterprise overview</span></span>](microsoft-365-overview.md)
 
-[<span data-ttu-id="2f33e-167">Documentação da Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="2f33e-167">Microsoft 365 for enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
-
- 
+[<span data-ttu-id="15b6a-171">Documentação da Microsoft 365 para empresas</span><span class="sxs-lookup"><span data-stu-id="15b6a-171">Microsoft 365 for enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
