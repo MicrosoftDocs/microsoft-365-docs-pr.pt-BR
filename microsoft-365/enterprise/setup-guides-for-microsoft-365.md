@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: Acelere o planejamento e a configuração do Microsoft 365 ou do Office 365 com guias de configuração.
-ms.openlocfilehash: fd9d9a3b65f3a4e47604299c47a85d8c5e551149
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 215f51af1fc553ef0710565af0a7c25111de8328
+ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446934"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48493692"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Guias de configuração para os serviços Microsoft 365 e Office 365
 
@@ -90,6 +90,17 @@ A área de trabalho virtual do Windows é um serviço abrangente de virtualizaç
 
 O [Guia de instalação da área de trabalho virtual do Windows](https://aka.ms/wvdsetupguide) fornece aos administradores recursos de planejamento e os pré-requisitos para implantação, orientação de instalação e recursos adicionais. 
 
+### <a name="microsoft-edge-deployment-advisor"></a>Supervisor de implantação do Microsoft Edge
+
+O Microsoft Edge foi recriado desde o início para trazer a compatibilidade e o desempenho de classe internacional, a segurança e a privacidade que você merece e os novos recursos projetados para oferecer o melhor da Web.
+
+O [Microsoft Edge Deployment Advisor](https://aka.ms/edgeadvisor) ajudará você a configurar a descoberta de site corporativo para ver quais sites acessados em sua organização podem precisar usar o modo IE, examinar e configurar recursos de segurança importantes, configurar políticas de privacidade e políticas adicionais para atender aos requisitos da organização e gerenciar o acesso à Web em seus dispositivos. Você pode baixar o Microsoft Edge para dispositivos individuais ou mostraremos como implantar para vários usuários em sua organização com o Configuration Manager ou o Microsoft Intune.
+A área de trabalho virtual do Windows é um serviço abrangente de virtualização de área de trabalho e aplicativo em execução na nuvem. É a única infraestrutura de área de trabalho virtual (VDI) que oferece gerenciamento simplificado, Windows 10 de várias sessões, otimizações para aplicativos Microsoft 365 e suporte para ambientes de serviços de área de trabalho remota (RDS). Implante e dimensione suas áreas de trabalho e aplicativos do Windows para o Azure em minutos e obtenha recursos internos de segurança e conformidade. 
+
+### <a name="intune-configuration-manager-co-management-setup-guide"></a>Guia de instalação de cogerenciamento do Intune Configuration Manager
+
+Use o [Guia de configuração de cogerenciamento do Intune Configuration Manager](https://aka.ms/comanagementsetup) para os dispositivos cliente existentes do Configuration Manager e novos dispositivos baseados na Internet que sua organização deseja gerenciar com o Microsoft Intune e o Gerenciador de configuração. Este guia de implantação de co-Management permite gerenciar dispositivos Windows 10 e adiciona Nova funcionalidade aos dispositivos da sua organização, enquanto recebe os benefícios de ambas as soluções.
+
 ## <a name="guides-for-authentication-and-access"></a>Guias para autenticação e acesso
 
 ### <a name="azure-ad-setup-guide"></a>Guia de instalação do Azure AD
@@ -97,6 +108,10 @@ O [Guia de instalação da área de trabalho virtual do Windows](https://aka.ms/
 O [Guia de instalação do Azure ad](https://aka.ms/aadpguidance) fornece informações para garantir que sua organização tenha uma forte base de segurança. Neste guia, você configurará os recursos iniciais, como o Azure RBAC (controle de acesso baseado em função) para administradores, o Azure AD Connect para o seu diretório local e a integridade do Azure AD Connect, para que você possa monitorar a integridade da sua identidade híbrida durante sincronizações automatizadas. 
 
 Ele também inclui informações essenciais para habilitar redefinições de senha de autoatendimento, acesso condicional e logon integrado de terceiros, incluindo proteção de identidade avançada opcional e automação de provisionamento de usuário.
+
+### <a name="sync-users-from-your-orgs-directory"></a>Sincronizar usuários do diretório da sua organização
+
+O [Assistente para sincronização de usuários do seu diretório da organização](https://aka.ms/directorysyncsetup) orienta você na ativação da sincronização de diretórios. Isso traz suas identidades locais e em nuvem juntas para facilitar o acesso e o gerenciamento simplificado. Desbloquear novos recursos, como logon único, opções de autoatendimento, provisionamento automático de contas, controles de acesso condicional e políticas de conformidade. Isso garante que os usuários tenham acesso aos recursos necessários de qualquer lugar.
 
 ### <a name="plan-your-passwordless-deployment"></a>Planejar sua implantação com senha
 

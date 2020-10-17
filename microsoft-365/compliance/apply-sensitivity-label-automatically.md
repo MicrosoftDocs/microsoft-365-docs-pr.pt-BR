@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: c4f00c0a11b172671da456b27e0e33c081728614
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 87b1078462d6315e6cf4ddeb95832f20eae67375
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326742"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445471"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -107,7 +107,11 @@ Confira mais informações em rótulos de pai e sub-rótulos[Sub-rótulos (agrup
 
 A rotulagem automática nos aplicativos Office para Windows têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para a rotulagem interna nos aplicativos do Office, esse recurso está em [diferentes estágios de disponibilidade de aplicativos diferentes](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
-As configurações de rotulagem automática para aplicativos do Office estão disponíveis quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md). Você pode optar por aplicar rótulos de confidencialidade ao conteúdo automaticamente quando informação confidencial for detectada. Escolha em uma lista de tipos ou classificadores treináveis de informações confidenciais:
+As configurações de rotulagem automática para aplicativos do Office estão disponíveis quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md). Certifique-se de que **Arquivos e emails** estejam selecionados para o escopo do marcador: 
+
+![Opções de escopo do rótulo de confidencialidade para arquivos e emails](../media/filesandemails-scope-options-sensitivity-label.png)
+
+Conforme você avança no assistente, você vê a página de **Rotulagem automática** para aplicativos do Office, onde pode escolher em uma lista de tipos de informações confidenciais ou classificadores treináveis:
 
 ![Condições de rótulos para rotulagem automática em aplicativos do Office](../media/sensitivity-labels-conditions.png)
 
@@ -202,7 +206,7 @@ Certifique-se de que você está ciente dos pré-requisitos antes de configurar 
     - No momento em que a política de rotulagem automática é executada, o arquivo não deve estar aberto por outro processo ou usuário. Um arquivo que foi retirado para edição se enquadra nessa categoria.
 
 - Se você planeja usar [tipos de informações confidenciais personalizadas](custom-sensitive-info-types.md), em vez de tipos de confidencialidade interna: 
-    - Os tipos de informações de confidencialidade personalizadas são avaliados quanto ao conteúdo criado depois que os tipos de informações de confidencialidade personalizadas são salvos. 
+    - Os tipos de informações de confidencialidade personalizados são avaliados para conteúdo adicionado ao Microsoft Office SharePoint Online ou OneDrive depois que os tipos de informações de confidencialidade personalizados são salvos. 
     - Para testar novos tipos de informações confidenciais personalizadas, crie-os antes de criar a política de rotulagem automática e crie novos documentos com dados de exemplo para teste.
 
 - Um ou mais rótulos de confidencialidade [criados e publicados](create-sensitivity-labels.md) (para pelo menos um usuário) que você pode selecionar para suas políticas de rotulagem automática. Para esses rótulos:

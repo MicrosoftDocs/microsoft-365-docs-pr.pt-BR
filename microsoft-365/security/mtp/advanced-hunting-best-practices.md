@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f18a98b19b6a1920d1e4d2094ba0bab74f10035e
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: e3b29a8182e38fa05e5f791478157c978632fb13
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430134"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477000"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 
@@ -56,7 +56,7 @@ Os clientes que executam várias consultas regularmente acompanham o consumo e a
 
 - O **tem batidas**, para evitar a pesquisa de subcadeias de caracteres em palavras desnecessariamente, use o `has` operador em vez de `contains` . [Saiba mais sobre operadores de cadeia de caracteres](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
 - **Examinar colunas específicas**— procure em uma coluna específica em vez de executar pesquisas de texto completo em todas as colunas. Não use `*` para verificar todas as colunas.
-- Diferenciar **maiúsculas de minúsculas para velocidade**— as pesquisas que diferenciam maiúsculas de minúsculas são mais específicas e geralmente têm mais desempenho. Nomes de [operadores de cadeia de caracteres](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)com distinção entre maiúsculas e minúsculas, como `has_cs` e `contains_cs` , geralmente terminam com `_cs` . Você também pode usar o operador Equals que diferencia maiúsculas de minúsculas `==` em vez de `~=` .
+- Diferenciar **maiúsculas de minúsculas para velocidade**— as pesquisas que diferenciam maiúsculas de minúsculas são mais específicas e geralmente têm mais desempenho. Nomes de [operadores de cadeia de caracteres](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)com distinção entre maiúsculas e minúsculas, como `has_cs` e `contains_cs` , geralmente terminam com `_cs` . Você também pode usar o operador Equals que diferencia maiúsculas de minúsculas `==` em vez de `=~` .
 - **Parse, não extrair**— sempre que possível, use o [operador Parse](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) ou uma função de análise como [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). Evite o `matches regex` operador de cadeia de caracteres ou a [função Extract ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction), ambos usam a expressão regular. Reserve o uso de expressão regular para cenários mais complexos. [Ler mais sobre funções de análise](#parse-strings)
 - **Filter Tables Not Expressions**— não filtra uma coluna calculada se você pode filtrar em uma coluna de tabela.
 - **Sem termos de três caracteres**— Evite comparar ou filtrar usando termos com três caracteres ou menos. Esses termos não são indexados e a correspondência precisará de mais recursos.
@@ -253,7 +253,7 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 ### <a name="parse-strings"></a>Analisar cadeias de caracteres
 Há várias funções que você pode usar para lidar com eficiência cadeias de caracteres que precisam de análise ou conversão. 
 
-| String | Função | Exemplo de uso |
+| Cadeia de caracteres | Função | Exemplo de uso |
 |--|--|--|
 | Linhas de comando | [parse_command_line ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | Extraia o comando e todos os argumentos. | 
 | Caminhos | [parse_path ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | Extraia as seções de um caminho de arquivo ou pasta. |

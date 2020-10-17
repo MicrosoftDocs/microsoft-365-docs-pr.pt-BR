@@ -14,23 +14,28 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para criar e usar rótulos de retenção em documentos no ambiente de teste do Microsoft 365 for Enterprise.
-ms.openlocfilehash: 171fcb74b09a1f2e5c80f23e010640dce55660bc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 5cc77167db866d99f0beea5f554a777ecf355046
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487727"
 ---
 # <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>Classificação de dados para o ambiente de teste do Microsoft 365 for Enterprise
 
 *Este guia de laboratório de teste pode ser usado para ambientes de teste corporativos do Microsoft 365 para Enterprise e Office 365.*
 
-Com as instruções deste artigo, você configura a classificação de dados usando rótulos de retenção no ambiente de teste do Microsoft 365 for Enterprise.
+Este artigo descreve como configurar a classificação de dados usando rótulos de retenção no ambiente de teste do Microsoft 365 for Enterprise.
 
-![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+Classificar dados em seu ambiente de teste envolve três fases:
+- [Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [Fase 2: criar rótulos de retenção](#phase-2-create-retention-labels)
+- [Fase 3: aplicar rótulos de retenção a documentos](#phase-3-apply-retention-labels-to-documents)
+
+![Guias de Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.
+> Para obter um mapa Visual para todos os artigos da pilha do guia do laboratório de teste do Microsoft 365 for Enterprise, vá para a [pilha do guia do laboratório de teste da microsoft 365 para empresas](../downloads/Microsoft365EnterpriseTLGStack.pdf).
   
 ## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise
 
@@ -39,51 +44,33 @@ Se você só quiser configurar os rótulos de retenção de uma forma leve com o
 Se você quiser configurar os rótulos de retenção em uma empresa simulada, siga as instruções em [autenticação de passagem](pass-through-auth-m365-ent-test-environment.md).
   
 > [!NOTE]
-> O teste de rótulos de retenção não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS). Ele é fornecido aqui como uma opção para que você possa testar o licenciamento e a associação de grupo automatizados e experimentá-lo em um ambiente que representa uma organização típica. 
+> O teste de rótulos de retenção não requer o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS). Ele é fornecido aqui como uma opção para que você possa testar o licenciamento e a associação de grupo automatizados e experimentá-lo em um ambiente que representa uma organização típica.
 
 ## <a name="phase-2-create-retention-labels"></a>Fase 2: criar rótulos de retenção
 
-Nesta fase, você cria os rótulos de retenção para os diferentes níveis de retenção para pastas de documentos do SharePoint Online.
+Nesta fase, crie os rótulos de retenção para os diferentes níveis de retenção para as pastas de documentos do SharePoint Online:
 
 1. Entre na central de [segurança do Microsoft 365](https://security.microsoft.com/homepage) com sua conta de administrador global.
-    
-2. Na guia **segurança doméstica-Microsoft 365** do navegador, clique em **classificação > rótulos de retenção**.
-    
-3. Clique em **Criar um rótulo**.
-    
-4. No painel **nomear seu rótulo** , digite **público interno** em **nome seu rótulo**e clique em **Avançar**.
-
-5. No painel **descritores de plano de arquivo** , clique em **Avançar**.
-    
-6. No painel **configurações do rótulo** , se necessário, defina **retenção** como **ativado**e clique em **Avançar**.
-    
-7. No painel **examinar as configurações** , clique em **criar o rótulo**.
-    
-8. Repita as etapas 3 a 7 para etiquetas adicionais com esses nomes:
-    
+1. Na guia **segurança doméstica-Microsoft 365** do navegador, selecione rótulos de **Classification**  >  **retenção**de classificação.
+1. Selecione **Criar um rótulo**.
+1. No painel **nomear seu rótulo** , digite **público interno** em **nome seu rótulo**e, em seguida, selecione **Avançar**.
+1. No painel de **descritores de plano de arquivo** , selecione **Avançar**.
+1. No painel **configurações do rótulo** , se necessário, defina **retenção** como **ativado**e, em seguida, selecione **Avançar**.
+1. No painel **examinar suas configurações** , selecione **criar o rótulo**.
+1. Repita as etapas 3 a 7 para etiquetas adicionais com esses nomes:
   - Private
-    
   - Confidencial
-    
   - Altamente Confidencial
-  
-9. No painel **Rótulos de retenção** , clique em **publicar rótulos**.
-    
-10. No painel **escolher rótulos para publicar** , clique em **escolher rótulos para publicar**.
-    
-11. No painel **escolher rótulos** , clique em **Adicionar** e selecione todos os quatro rótulos.
-    
-12. Clique em **Adicionar** e, em seguida, clique em **Concluído**.
-    
-13. No painel **Escolher rótulos para publicar**, clique em **Avançar**.
-    
-14. No painel **Escolher locais**, clique em **Avançar**.
-    
-15. No painel **Atribuir um nome à política**, digite **Organização de exemplo** em **Nome** e clique em **Avançar**.
-    
-16. No painel **revisar as configurações** , clique em **publicar rótulos**.
+1. No painel **Rótulos de retenção** , selecione **publicar rótulos**.
+1. No painel **escolher rótulos para publicar** , selecione **escolher rótulos para publicar**.
+1. No painel **escolher rótulos** , selecione **Adicionar** e selecione todos os quatro rótulos.
+1. Selecione **Adicionar**e, em seguida, selecione **concluído**.
+1. No painel **escolher rótulos para publicar** , selecione **Avançar**.
+1. No painel **escolher locais** , selecione **Avançar**.
+1. No painel **nomear sua política** , digite **organização de exemplo** em **nome**e, em seguida, selecione **Avançar**.
+1. No painel **rever suas configurações** , selecione **publicar rótulos**.
  
-Observe que pode levar alguns minutos para que os rótulos de retenção sejam publicados.
+Pode levar alguns minutos para que os rótulos de retenção sejam publicados.
 
 ## <a name="phase-3-apply-retention-labels-to-documents"></a>Fase 3: aplicar rótulos de retenção a documentos
 
@@ -92,46 +79,30 @@ Nesta fase, você descobre o comportamento de rótulo de retenção padrão para
 Primeiro, crie um site de equipe do SharePoint Online de nível confidencial:
   
 1. Usando uma instância privada do navegador, entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando sua conta de administrador global.
-    
-2. Na lista de blocos, clique em **SharePoint**.
-    
-3. Na nova guia **SharePoint** no navegador, clique em **criar site**.
-    
-4. Na página **Criar um site**, clique em **Site de equipe**.
-    
-5. Em **nome do site de equipe**, digite **SensitiveFiles**.
-    
-6. Em **Descrição do site de equipe**, digite **site do SharePoint para arquivos confidenciais**.
-    
-7.  Em **Configurações de privacidade**, selecione **Privado – somente membros podem acessar esse site** e clique em **Avançar**.
-    
-8. No painel **quem você deseja adicionar?** , clique em **concluir**.
+1. Na lista de blocos, selecione **SharePoint**.
+1. Na nova guia **SharePoint** no navegador, selecione **criar site**.
+1. Na página **Criar um site**, clique em **Site de equipe**.
+1. Na caixa **nome do site de equipe** , digite **SensitiveFiles**.
+1. Na caixa **Descrição do site de equipe** , digite **site do SharePoint para arquivos confidenciais**.
+1. Em **configurações de privacidade**, selecione **membros somente privados podem acessar esse site**e, em seguida, selecione **Avançar**.
+1. No painel **quem você deseja adicionar?** , selecione **concluir**.
     
 Em seguida, configure a pasta de documentos do site de equipe do SensitiveFiles para o rótulo de retenção confidencial.
   
-1. Na guia **SensitiveFiles** do navegador, clique em **documentos**.
-    
-2. Clique no ícone de configurações e clique em **Configurações de biblioteca**.
-    
-3. Em **permissões e gerenciamento**, clique em **aplicar rótulo aos itens nesta lista ou biblioteca**. Se essa opção não aparecer, seus rótulos de retenção ainda não serão publicados. Tente esta etapa mais tarde.
-    
-4. Em **Configurações – Aplicar rótulo**, selecione **confidencial** na caixa suspensa e clique em **salvar**.
+1. Na guia **SensitiveFiles** do navegador, selecione **documentos**.
+1. Selecione o ícone **configurações** e, em seguida, selecione **configurações da biblioteca**.
+1. Em **permissões e gerenciamento**, selecione **aplicar rótulo a itens nesta lista ou biblioteca**. Se essa opção não for exibida, seus rótulos de retenção ainda não foram publicados. Tente esta etapa mais tarde.
+1. Em **Configurações – Aplicar rótulo**, selecione **confidencial** na caixa suspensa e, em seguida, selecione **salvar**.
 
 Em seguida, crie um novo documento no site do SensitiveFiles e altere seu rótulo de retenção.
     
-1. Na pasta documentos, clique em **novo documento do Word >**.
-    
-2. Digite algum texto no documento em branco. Aguarde o texto ser salvo.
-    
-3. Na barra de menus, clique em **documentos compartilhados**.
-    
-4. Clique nas reticências verticais ao lado do nome do arquivo **Document.docx** e, em seguida, clique em **detalhes**.
-    
-5. No painel direito, na seção **Propriedades** , em **aplicar rótulo de retenção**, observe que o documento teve o rótulo de retenção **confidencial** aplicado automaticamente.
-    
-6. Clique em **Editar Tudo**.
-    
-7. No painel **Document.docx** , em **aplicar rótulo de retenção**, selecione o rótulo **altamente confidencial** e clique em **salvar**.
+1. Na pasta documentos, selecione **novo**  >  **documento do Word**.
+1. Insira algum texto no documento em branco. Aguarde o texto ser salvo.
+1. Na barra de menus, selecione **documentos compartilhados**.
+1. Ao lado do nome do arquivo **Document.docx** , selecione as reticências verticais e, em seguida, selecione **detalhes**.
+1. No painel direito, na seção **Propriedades** , em **aplicar rótulo de retenção**, observe que o rótulo de retenção **confidencial** foi aplicado automaticamente ao documento.
+1. Clique em **Editar Tudo**.
+1. No painel **Document.docx** , em **aplicar rótulo de retenção**, selecione o rótulo **altamente confidencial** e, em seguida, selecione **salvar**.
 
 ## <a name="next-step"></a>Próxima etapa
 
@@ -144,5 +115,3 @@ Explore recursos e funcionalidades adicionais de [proteção de informações](m
 [Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
 [Documentação da Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)
-
- 

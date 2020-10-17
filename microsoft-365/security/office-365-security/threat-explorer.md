@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd437141f80b80370abeec7585596892f2434655
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 89708efa6a34b5ca7a302ba0ad331a2dac99f5d9
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446564"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477122"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -48,29 +48,64 @@ Com esse relatório, você pode:
 - [Iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer](#start-automated-investigation-and-response) (apenas plano ATP 2)
 - ... [Investigue emails mal-intencionados e muito mais](#more-ways-to-use-explorer-or-real-time-detections)!
 
+## <a name="tags-in-threat-explorer"></a>Marcas no explorador de ameaças
+
+> [!NOTE] 
+> O recurso de marcas de usuário está em visualização, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o Microsoft 365 Roadmap.
+
+Marcas de usuário são identificadores para grupos específicos de usuários no Microsoft defender para Office 365. Para obter mais informações sobre marcas, licenciamento e configuração de marcas, leia mais aqui: [marcas de usuário no Office 365 ATP](user-tags.md).
+
+No explorador de ameaças, você poderá ver informações sobre marcas de usuário nas seguintes experiências:
+
+#### <a name="email-grid-view"></a>Exibição de grade de email
+
+A coluna marcas mostrada na grade de emails contém todas as marcas que foram aplicadas às caixas de correio de remetentes ou destinatários. Por padrão, marcas de sistema como contas de prioridade são mostradas primeiro.
+
+![Marcas de filtro](../../media/tags-grid.png)
+
+#### <a name="filtering"></a>Filtragem
+Agora, temos marcas como um filtro para que você possa procurar apenas por contas de prioridade ou em cenários de marcas de usuário específicos (e até mesmo excluir resultados com determinadas marcas como parte dessa experiência). A combinação desses com os vários outros filtros que fornecemos ajuda você a reduzir o escopo da investigação
+
+![Marcas de filtro](../../media/tags-filter-normal.png)
+
+![Marcas não de filtro](../../media/tags-filter-not.png)
+
+#### <a name="email-detail-flyout"></a>Submenu detalhes do email
+Para exibir as marcas individuais do remetente e do destinatário, clique no assunto. Ele abre o submenu de detalhes da mensagem. Na guia Resumo, as marcas de remetente e destinatário são mostradas separadamente, se estiverem presentes para um email.
+As informações sobre marcas individuais para remetente e destinatário, também são estendidas para CSV exportado, onde você pode ver esses detalhes em duas colunas separadas. 
+
+![Marcas de detalhes de email](../../media/tags-flyout.png)
+
+As informações de marcas também são mostradas no submenu de cliques de URL. Para acessar o submenu de cliques de URL, você precisará ir para Phish ou para todos os modos de exibição de email e, em seguida, para a guia URLs ou URL. clicar em um submenu de URL individual mostraria mais detalhes sobre cliques para essa URL e teria marcas associadas a esse clique. 
+
+![Marcas de URL](../../media/tags-urls.png)
+
 ## <a name="improvements-to-threat-hunting-experience-upcoming"></a>Melhorias na experiência de busca de ameaças (futuro)
 
 ### <a name="updated-threat-information-for-emails"></a>Informações de ameaças atualizadas para emails
 
-Nos concentramos nos aprimoramentos de qualidade da plataforma e dos dados para aumentar a precisão dos dados e a consistência dos registros de email. Esse conjunto de atualizações inclui a consolidação de informações de pré e entregas (ação de exemplo executadas em um email como parte do processo ZAP) em um único registro, juntamente com uma riqueza adicional, como spam veredicto, ameaças no nível da entidade (por exemplo, qual URL era mal-intencionada) e locais de entrega mais recentes. 
+Nos concentramos nos aprimoramentos de qualidade da plataforma e dos dados para aumentar a precisão dos dados e a consistência dos registros de email. Esse conjunto de atualizações inclui a consolidação das informações de pré e entrega e de envio (exemplo de ação executada em um email como parte do processo ZAP) em um único registro, juntamente com uma riqueza adicional, como spam veredicto, ameaças no nível da entidade (por exemplo, qual URL era mal-intencionada) e locais de entrega mais recentes. 
 
 Após essas atualizações, você verá uma única entrada para cada mensagem, independentemente dos diferentes eventos de envio que ocorreram na mensagem. As ações podem incluir ZAP, correção manual (o que significa ação de administrador), entrega dinâmica, etc. 
 
 Além de mostrar ameaças de malware e phishing, agora você poderá ver as veredicto de spam associadas a um email. No email, você poderá ver todas as ameaças associadas ao email junto com as tecnologias de detecção correspondentes. Cada email pode ter 0, 1 ou várias ameaças. Você verá as ameaças atuais na seção detalhes do submenu email. Além disso, para várias ameaças (por exemplo, um email com malware e phishing), o campo Tech de detecção forneceria o mapeamento de Threat-Detection, o que significa que a tecnologia de detecção levou à identificação da ameaça.
 
-O conjunto de tecnologias de detecção foi atualizado para incluir novos métodos de detecção, bem como tecnologias de detecção de spam, e aross todos os diferentes modos de exibição de email (malware, Phish, todos os emails), você terá o mesmo conjunto consistente de tecnologias de detecção para filtrar os resultados. 
+O conjunto de tecnologias de detecção foi atualizado para incluir novos métodos de detecção, bem como tecnologias de detecção de spam, e em todos os diferentes modos de exibição de email (malware, Phish, todos os emails), você terá o mesmo conjunto consistente de tecnologias de detecção para filtrar os resultados. 
 
-**Observação**: a análise do veredicto pode não estar necessariamente associada a entidades. Por exemplo, um email pode ser classificado como Phish ou spam, mas não há URLs com veredicto de phishing/spam marcados. Isso ocorre porque nossos filtros também avaliam o conteúdo e outros detalhes de um email, antes de atribuir um veredicto. 
+> [!NOTE]
+> A análise do veredicto pode não estar necessariamente associada a entidades. Por exemplo, um email pode ser classificado como Phish ou spam, mas não há URLs com veredicto de phishing/spam marcados. Isso ocorre porque nossos filtros também avaliam o conteúdo e outros detalhes de um email, antes de atribuir um veredicto. 
  
 #### <a name="threats-in-urls"></a>Ameaças em URLs
 
 Na guia detalhes do submenu de email >, agora você poderá ver a ameaça específica para uma URL (a ameaça de uma URL pode ser malware, Phish, spam ou nenhum)
 
-![Ameaças de URL](../../media/URL_Threats.png)
+> [!div class="mx-imgBorder"]
+> ![Ameaças de URL](../../media/URL_Threats.png)
 
 ### <a name="updated-timeline-view-upcoming"></a>Exibição de linha do tempo atualizada (próximo)
 
-![Exibição de linha do tempo atualizada](../../media/Email_Timeline.png)
+> [!div class="mx-imgBorder"]
+> ![Exibição de linha do tempo atualizada](../../media/Email_Timeline.png)
 
 Além da identificação de todos os eventos Delivery e post-Delivery, a exibição de linha do tempo também fornece informações sobre a ameaça identificada nesse ponto de tempo para um subconjunto desses eventos. Também fornece mais informações sobre ações adicionais (por exemplo, ZAP, correção manual) juntamente com o resultado dessa ação. O modo de exibição linha do tempo contém informações sobre a entrega original e, em seguida, quaisquer eventos de post-Delivery executados em um email.
 
@@ -86,27 +121,31 @@ Hoje, apresentamos o local de entrega dentro da grade de email e do submenu de e
 
 O local de entrega original forneceria mais informações sobre onde um email foi entregue inicialmente. O local de entrega mais recente incluiria local onde um email pode ter redirecionado após ações do sistema, como ações de ZAP ou de administração, como **mover para itens excluídos**. O local de entrega mais recente destina-se a informar aos administradores sobre a última postagem de local conhecida da mensagem ou qualquer ação de sistema/administrador. Por design, ele não inclui nenhuma ação relacionada ao usuário final no email. Por exemplo: se um usuário excluir uma mensagem ou mover a mensagem para arquivo morto/PST, o local de "entrega" da mensagem não será atualizado. No entanto, se uma ação do sistema tiver atualizado o local (por exemplo, ZAP resultando em um email movendo para quarentena), você verá o local de entrega mais recente como quarentena. 
 
-![Locais de entrega atualizados](../../media/Updated_Delivery_Location.png)
+> [!div class="mx-imgBorder"]
+> ![Locais de entrega atualizados](../../media/Updated_Delivery_Location.png)
 
-**Observação**: há alguns casos em que a ação de entrega e o local de entrega podem mostrar ' Unknown ' como o valor:
+> [!NOTE]
+> Há alguns casos em que a ação de entrega e o local de entrega podem mostrar ' Unknown ' como o valor:
+> 
+> - Você pode ver o local de entrega como entregue e o local de entrega como desconhecido. Isso acontece quando a mensagem foi entregue, mas uma regra de caixa de entrada moveu a mensagem para uma pasta padrão (rascunho, arquivo morto etc.) em vez das pastas caixa de correio ou lixo eletrônico. 
+> 
+> - O local de entrega mais recente pode ser desconhecido se uma ação de administrador/sistema (por exemplo, ZAP, ação de administrador) for tentada, mas a mensagem não for encontrada. Normalmente, a ação ocorre depois que o usuário moveu ou excluiu a mensagem. Nesses casos, verifique a coluna resultados/detalhes no modo de exibição linha do tempo. Procure a mensagem: mensagem movida ou excluída pelo usuário.
 
-- Você pode ver o local de entrega como entregue e o local de entrega como desconhecido. Isso acontece quando a mensagem foi entregue, mas uma regra de caixa de entrada moveu a mensagem para uma pasta padrão (rascunho, arquivo morto etc.) em vez das pastas caixa de correio ou lixo eletrônico. 
-
-- O local de entrega mais recente pode ser desconhecido se uma ação de administrador/sistema (por exemplo, ZAP, ação de administrador) for tentada, mas a mensagem não for encontrada. Normalmente, a ação ocorre depois que o usuário moveu ou excluiu a mensagem. Nesses casos, verifique a coluna resultados/detalhes no modo de exibição linha do tempo. Procure a mensagem: mensagem movida ou excluída pelo usuário.
-
-![Locais de entrega para cronograma](../../media/Updated_Timeline_Delivery_Location.png)
+> [!div class="mx-imgBorder"]
+> ![Locais de entrega para cronograma](../../media/Updated_Timeline_Delivery_Location.png)
 
 ### <a name="additional-actions"></a>Ações adicionais 
 
-Ações adicionais consistem nas ações que foram aplicadas postar a entrega do email e podem incluir a correção de ZAP, manual (ação tomada por um admi; n por exemplo, exclusão reversível), entrega dinâmica e reprocessada (um email foi detectado retroativamente como bom). 
+Ações adicionais consistem nas ações que foram aplicadas postar a entrega do email e podem incluir ZAP, correção manual (ação tomada por um administrador, por exemplo, exclusão reversível), entrega dinâmica e reprocessada (um email foi detectado retroativamente como bom). 
 
 > [!NOTE]
 >
 > - Como parte dessa alteração, o valor removido por ZAP atualmente no filtro de ação de entrega está desaparecendo. Você terá uma maneira de Pesquisar todos os emails com a ZAP durante a tentativa de ações adicionais.
 >
-> -Haverá novos campos e valores para tecnologias de detecção e ações adicionais (especialmente para cenários de ZAP). Avaliar suas consultas salvas e consultas rastreadas existentes para garantir que elas funcionem com os novos valores. 
+> - Haverá novos campos e valores para tecnologias de detecção e ações adicionais (especialmente para cenários ZAP). Avaliar suas consultas salvas e consultas rastreadas existentes para garantir que elas funcionem com os novos valores. 
 
-![Additional_Actions](../../media/Additional_Actions.png)
+> [!div class="mx-imgBorder"]
+> ![Additional_Actions](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Substituições de sistema 
 
@@ -120,18 +159,23 @@ Substituições de sistema são um método de fazer exceções para o local de e
 
 ![System_Overrides](../../media/System_Overrides.png)
 
-![System_Overrides_Grid](../../media/System_Overrides_Grid.png)
+> [!div class="mx-imgBorder"]
+> ![System_Overrides_Grid](../../media/System_Overrides_Grid.png)
+
 
 ### <a name="improvements-around-url-and-clicks-experience"></a>Aprimoramentos em relação à URL e cliques
 
-O conjunto de aprimoramentos abordados em relação aos dados de URL e de URL são:
+O conjunto de melhorias voltadas para os dados de URL e de URL são:
 
--   Mostrando a URL de clique completo (incluindo qualquer parâmetro de consulta que faça parte da URL) na seção cliques no submenu URL. No momento, mostramos o domínio e o caminho da URL na barra de título. Estamos estendendo essas informações para mostrar a URL completa.
--   Corrige nos filtros de URL (URL vs domínio de URL vs domínio de URL e caminho): fizemos atualizações em torno de mensagens que contêm uma URL/clique em veredicto. Como parte desse, habilitamos o suporte para pesquisas que não eram de protocolo (ou seja, você pode pesquisar uma URL diretamente sem http). Por padrão, a pesquisa de URL mapeia para http, a menos que explicitamente especificado. Por exemplo:
+ - Mostrando a URL de clique completo (incluindo qualquer parâmetro de consulta que faça parte da URL) na seção cliques no submenu URL. No momento, mostramos o domínio e o caminho da URL na barra de título. Estamos estendendo essas informações para mostrar a URL completa.
+ 
+ - Corrige nos filtros de URL (URL vs domínio de URL vs domínio de URL e caminho): fizemos atualizações em torno de mensagens que contêm uma URL/clique em veredicto. Como parte desse, habilitamos o suporte para pesquisas que não eram de protocolo (ou seja, você pode pesquisar uma URL diretamente sem http). Por padrão, a pesquisa de URL mapeia para http, a menos que explicitamente especificado. Por exemplo:
 
-  a.    Pesquise e sem o `http://` prefixo nos campos de filtro "URL", "domínio de URL" e "domínio de URL e caminho". Esse comportamento é consistente e deve mostrar o mesmo resultado.
-  b.    Procure o `https://` prefixo em "URL". Quando não estiver presente, o `http://` prefixo será assumido.
-  c.     `/` no início e no final dos campos "caminho de URL", "domínio de URL", "URL de domínio e caminho" será ignorado. `/` no final do campo "URL" será ignorado. 
+   1. Pesquise e sem o `http://` prefixo nos campos de filtro "URL", "domínio de URL" e "domínio de URL e caminho". Esse comportamento é consistente e deve mostrar o mesmo resultado.
+   
+   1. Procure o `https://` prefixo em "URL". Quando não estiver presente, o `http://` prefixo será assumido.
+   
+   1. `/` no início e no final dos campos "caminho de URL", "domínio de URL", "URL de domínio e caminho" será ignorado. `/` no final do campo "URL" será ignorado. 
 
 ### <a name="phish-confidence-level"></a>Nível de confiança de phishing
 
@@ -156,7 +200,8 @@ Como parte do aprimoramento do processo de busca, fizemos algumas atualizações
 
 Você verá o fuso horário dos registros de email no portal, bem como os dados exportados. O fuso horário ficará visível em experiências como grade de email, submenu de detalhes, linha do tempo de email e emails semelhantes, para que o fuso horário do conjunto de resultados seja claro para o usuário.
 
-![Exibir fuso horário no Explorer](../../media/TimezoneImprovements.png)
+> [!div class="mx-imgBorder"]
+> ![Exibir fuso horário no Explorer](../../media/TimezoneImprovements.png)
 
 ### <a name="update-in-the-refresh-process"></a>Atualização no processo de atualização
 
@@ -164,19 +209,22 @@ Ouvimos comentários em relação à confusão com a atualização automática (
 
 A partir de um ponto de vista da experiência, o usuário pode aplicar e remover o intervalo diferente de filtros (do conjunto de filtros e data) e pressionar o botão atualizar para filtrar os resultados depois que eles forem feitos com a definição da consulta. O botão atualizar também foi atualizado para chamá-lo com clareza na tela. Também atualizamos as dicas de ferramentas e a documentação do produto em torno dessa alteração.
 
-![Clique em atualizar para filtrar resultados](../../media/ManualRefresh.png)
+> [!div class="mx-imgBorder"]
+> ![Clique em atualizar para filtrar resultados](../../media/ManualRefresh.png)
 
 ### <a name="chart-drilldown-to-add-to-filters"></a>Detalhamento de gráfico para adicionar a filtros
 
 Agora, você poderá clicar nos valores de legenda do gráfico para adicionar esse valor como um filtro. Observe que você ainda terá que clicar no botão atualizar para filtrar os resultados como parte da alteração descrita acima.
 
-![Análise de gráficos para filtrar](../../media/ChartDrilldown.png)
+> [!div class="mx-imgBorder"]
+> ![Análise de gráficos para filtrar](../../media/ChartDrilldown.png)
 
 ### <a name="in-product-information-updates"></a>Atualizações de informações do produto
 
 Você também deve ver detalhes adicionais no produto. Por exemplo, o número total de resultados de pesquisa dentro da grade (veja abaixo), bem como melhorias em relação a rótulos, mensagens de erro e dicas de ferramentas, para fornecer mais informações sobre filtros, experiência de pesquisa e conjunto de resultados.
 
-![Exibir informações no produto](../../media/ProductInfo.png)
+> [!div class="mx-imgBorder"]
+> ![Exibir informações no produto](../../media/ProductInfo.png)
 
 ## <a name="extended-capabilities-in-threat-explorer"></a>Recursos estendidos no explorador de ameaças
 
@@ -185,7 +233,8 @@ Você também deve ver detalhes adicionais no produto. Por exemplo, o número to
 Hoje, expostos a lista dos principais usuários direcionados no modo de exibição de malware para emails (na seção principais famílias de malware). Estenderemos a extensão desse modo de exibição no phishing e em todos os modos de exibição de email, onde você poderá ver os cinco principais usuários direcionados junto com o número de tentativas para cada usuário para o modo de exibição correspondente (por exemplo, para o modo de exibição de phishing, você poderá ver o número de tentativas de Phish).
 Você também será capaz de exportar a lista de usuários direcionados até um limite de 3000, juntamente com o número de tentativas para a análise offline para cada exibição de email. Além disso, selecione não. de tentativas (por exemplo, 13 tentativas abaixo) abriria um modo de exibição filtrado no explorador de ameaças, para que você possa ver mais detalhes nos emails e ameaças desse usuário.
 
-![Principais usuários direcionados](../../media/Top_Targeted_Users.png)
+> [!div class="mx-imgBorder"]
+> ![Principais usuários direcionados](../../media/Top_Targeted_Users.png)
 
 
 ### <a name="exchange-transport-rules"></a>Regras de transporte do Exchange
@@ -204,7 +253,8 @@ A pesquisa e o nome da disponibilidade do ETR dependeriam da função específic
 
 Na grade de emails, no submenu detalhes e no CSV exportado, o ETRs é apresentado com um nome/GUID, conforme mostrado abaixo.
 
-![Regras de transporte do Exchange](../../media/ETR_Details.png)
+> [!div class="mx-imgBorder"]
+> ![Regras de transporte do Exchange](../../media/ETR_Details.png)
 
 ### <a name="inbound-connectors"></a>Conectores de entrada
 
@@ -212,7 +262,8 @@ Os conectores são uma coleção de instruções que personalizam a forma como s
 A pesquisa de conectores é ' Contains ', por natureza, que significa que as pesquisas parciais de palavra-chave também devem funcionar.
 Dentro do modo de exibição de grade principal, o submenu detalhes e o CSV exportado, os conectores são mostrados no formato de nome/GUID, conforme mostrado abaixo:
 
-![Detalhes do conector](../../media/Connector_Details.png)
+> [!div class="mx-imgBorder"]
+> ![Detalhes do conector](../../media/Connector_Details.png)
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Novos recursos no Gerenciador de ameaças e detecções em tempo real
 
@@ -284,7 +335,8 @@ Você pode obter o mesmo local no relatório de detecções em tempo real da seg
 > [!TIP]
 > Mapeamento de ID de mensagem de rede o clique em voltar para emails específicos quando você pesquisa pelo Explorer ou ferramentas de terceiros associadas via ID de mensagem de rede. A pesquisa da ID da mensagem de rede fornecerá aos administradores o email específico associado a um clique. Na exportação, a identificação de correlação da ID da mensagem de rede realiza uma análise mais rápida e eficiente.
 
-![Guia cliques no Explorer](../../media/tp_ExportClickResultAndNetworkID.png)
+> [!div class="mx-imgBorder"]
+> ![Guia cliques no Explorer](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Confira malware detectado em email por tecnologia
 
@@ -294,17 +346,20 @@ Suponha que você queira ver o malware detectado no email, pela tecnologia Micro
 
 2. No menu **Exibir** , escolha malware de **email**  >  **Malware**.
 
-   ![Menu Exibir para Explorer](../../media/ExplorerViewEmailMalwareMenu.png)
+   > [!div class="mx-imgBorder"]
+   > ![Menu Exibir para Explorer](../../media/ExplorerViewEmailMalwareMenu.png)
 
 3. Clique em **remetente**e escolha tecnologia **Basic**de  >  **detecção**básica.
 
    Agora, suas tecnologias de detecção estão disponíveis como filtros para o relatório.
 
-   ![Tecnologias de detecção de malware](../../media/ExplorerEmailMalwareDetectionTech.png)
+   > [!div class="mx-imgBorder"]
+   > ![Tecnologias de detecção de malware](../../media/ExplorerEmailMalwareDetectionTech.png)
 
 4. Selecione uma opção e, em seguida, clique no botão **Atualizar** para aplicar esse filtro.
 
-   ![Tecnologia de detecção selecionada](../../media/ExplorerEmailMalwareDetectionTechATP.png)
+   > [!div class="mx-imgBorder"]
+   > ![Tecnologia de detecção selecionada](../../media/ExplorerEmailMalwareDetectionTechATP.png)
 
 O relatório é atualizado para mostrar o malware de resultados detectado no email, usando a opção de tecnologia que você selecionou. A partir daqui, você pode realizar uma análise adicional.
 
@@ -318,15 +373,17 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
 2. No menu **Exibir** , escolha phishing de **email**  >  **Phish**.
 
-   ![Menu Exibir para Explorer](../../media/ExplorerViewEmailPhishMenu.png)
+   > [!div class="mx-imgBorder"]
+   > ![Menu Exibir para Explorer](../../media/ExplorerViewEmailPhishMenu.png)
 
 3. Clique em **remetente**e, em seguida, escolha **URLs**  >  **clique em veredicto**.
 
 4. Selecione uma ou mais opções, como **bloqueado** e **substituído**e, em seguida, clique no botão **Atualizar** que está na mesma linha que as opções para aplicar esse filtro. (Não atualize a janela do navegador.)
 
-   ![URLs e clique em verdicts](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+   > [!div class="mx-imgBorder"]
+   > ![URLs e clique em verdicts](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
 
-    O relatório é atualizado para mostrar duas tabelas de URL diferentes na guia URL no relatório:
+   O relatório é atualizado para mostrar duas tabelas de URL diferentes na guia URL no relatório:
 
    - As **principais URLs** são as URLs contidas nas mensagens que foram filtradas para baixo e a ação de entrega de emails conta para cada URL. No modo de exibição email de phishing, essa lista normalmente conterá URLs legítimas. Os invasores incluem uma mistura de URLs boas e ruins nas mensagens para tentar obtê-las, mas eles farão com que os links mal-intencionados sejam mais interessantes para o usuário clicar. A tabela de URLs é classificada pela contagem total de emails (mas observe que essa coluna está oculta para simplificar o modo de exibição).
 
@@ -334,7 +391,8 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
    As duas tabelas de URL mostram as principais URLs nas mensagens de email de phishing por ação de entrega e local, e mostram cliques de URL que foram bloqueados (ou visitados apesar de um aviso) para que você possa entender quais links defeituosos possíveis foram recebidos por usuários e interagem com os usuários. A partir daqui, você pode realizar uma análise adicional. Por exemplo, abaixo do gráfico, você pode ver as principais URLs nas mensagens de email que foram bloqueadas no ambiente da sua organização.
 
-   ![URLs do Explorer que foram bloqueadas](../../media/ExplorerPhishClickVerdictURLs.png)
+   > [!div class="mx-imgBorder"]
+   > ![URLs do Explorer que foram bloqueadas](../../media/ExplorerPhishClickVerdictURLs.png)
 
    Selecione uma URL para exibir informações mais detalhadas.
 
@@ -362,13 +420,15 @@ Suponha que você queira ver as mensagens de email que os usuários em sua organ
 
 2. No menu **Exibir** , escolha **Email**  >  **envios**de email.
 
-   ![Menu Exibir para Explorer](../../media/explorer-view-menu-email-user-reported.png)
+   > [!div class="mx-imgBorder"]
+   > ![Menu Exibir para Explorer](../../media/explorer-view-menu-email-user-reported.png)
 
 3. Clique em **remetente**e, em seguida, escolha tipo de **Basic**  >  **relatório**básico.
 
 4. Selecione uma opção, como **Phish**, e clique no botão **Atualizar** .
 
-   ![Phishing relatado pelo usuário](../../media/EmailUserReportedReportType.png)
+   > [!div class="mx-imgBorder"]
+   > ![Phishing relatado pelo usuário](../../media/EmailUserReportedReportType.png)
 
 O relatório é atualizado para mostrar dados sobre mensagens de email que as pessoas em sua organização relataram como uma tentativa de phishing. Você pode usar essas informações para realizar mais análises e, se necessário, ajustar as [políticas de anti-phishing da ATP](configure-atp-anti-phishing-policies.md).
 

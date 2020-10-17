@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 122df0f81200462f85d52985ccf3e42ce5d925f7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: ca5774c027eebaedd42bcca23292b89d92f1e102
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446818"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487739"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -38,7 +38,7 @@ O Microsoft 365 tem os recursos para permitir que seus funcionários trabalhem r
 ![Capacite funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
 Assista a esse vídeo para obter uma visão geral do processo de implantação.
-
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
 
 Esta solução fornece esses recursos essenciais.

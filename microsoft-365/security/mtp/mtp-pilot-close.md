@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 1a7b87432ce1eb16c29f462fb4865bfa5c5e2201
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: e56ba8933947c37db3e558ef36dd6d305915040f
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487619"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Fechar e resumir seu piloto de proteção contra ameaças da Microsoft  
 
@@ -87,13 +87,13 @@ A saída final deve ser:
 - Um relatório detalhado das conclusões do piloto
 - Uma decisão sobre como mover para frente
 
-Apresente os relatórios de sua saída final, tanto os participantes internos (identificados durante a fase de [preparação](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) ) e os contatos da Microsoft. Tal esforço garante que qualquer feedback possa ser usado para melhorar os produtos e a documentação.
+Apresente os relatórios de sua saída final para os participantes internos (identificados durante a fase de [preparação](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) ) e contatos da Microsoft. Tal esforço garante que qualquer feedback possa ser usado para melhorar os produtos e a documentação.
 
 Esperamos que você tenha aproveitado essa simulação. Comece a implementar o que você aprendeu em uma escala maior em sua organização para aproveitar ao máximo a solução de segurança integrada.
 
 ## <a name="next-step"></a>Próxima etapa
 Saiba mais sobre os pilares de proteção contra ameaças da Microsoft por meio dos seguintes guias interativos:
 - [Proteger sua organização com o Microsoft defender para Office 365](https://aka.ms/O365ATP-Interactive-Guide)
-- [Detectar atividades suspeitas e possíveis ataques com o Microsoft defender para identidade](https://aka.ms/AATP-Interactive-Guide)
+- [Detecção de atividades suspeitas e possíveis ataques com o Microsoft Defender para Identidade](https://aka.ms/AATP-Interactive-Guide)
 - [Detectar ameaças e gerenciar alertas com o Microsoft Cloud app Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [Investigue e corrija ameaças com o Microsoft defender para ponto de extremidade](https://aka.ms/MDATP-IR-Interactive-Guide)

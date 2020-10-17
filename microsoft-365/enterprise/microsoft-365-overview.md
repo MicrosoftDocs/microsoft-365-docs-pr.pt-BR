@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2019
+ms.date: 10/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 53cc91a2b5e756fcf4ec8fcc5371795bcfb8342c
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: d34ddd9b577f4baff4ebb77f84f48bf2b779c93c
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487147"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -104,21 +104,21 @@ Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/micros
 
 ## <a name="plan-for-and-deploy"></a>Planejar e implantar
 
-Há três maneiras de planejar a implantação de produtos, recursos e componentes do Microsoft 365 para empresas:
+Existem três maneiras de planejar e implementar os produtos, recursos e componentes do Microsoft 365 para empresas:
 
-- Em parceria com o FastTrack:
+- Em parceria com o FastTrack
 
    Com o FastTrack, os engenheiros da Microsoft ajudam você a migrar para a nuvem em seu próprio ritmo. Confira [FastTrack para Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
 
-- Com a ajuda dos Serviços de Consultoria da Microsoft ou de um [Parceiro da Microsoft](https://partner.microsoft.com/):
+- Com a ajuda dos Serviços de Consultoria da Microsoft ou de um [parceiro da Microsoft](https://partner.microsoft.com/)
 
    Os consultores podem analisar sua infraestrutura atual e ajudá-lo a desenvolver um plano para incorporar todos os softwares e serviços do Microsoft 365 para empresas.
 
-- Faça você mesmo:
+- Faça você mesmo
 
-   Comece com o [Roteiro de rede](networking-roadmap-microsoft-365.md) para construir ou verificar as cargas de trabalho de produtividade e infraestrutura existentes.
+   Inicie com o [Roteiro da Rede](networking-roadmap-microsoft-365.md) para construir ou verificar sua infra-estrutura existente e cargas de trabalho de produtividade.
 
-Para ver um exemplo de como uma organização multinacional fictícia, mas representativa, implantou o Microsoft 365 para empresa, consulte a [Contoso Corporation](contoso-overview.md).
+Para um exemplo de como uma organização multinacional fictícia mas representativa implantou o Microsoft 365 para empresas, veja o [estudo de caso da Corporação Contoso](contoso-overview.md).
 
 ## <a name="additional-microsoft-365-products"></a>Produtos adicionais do Microsoft 365
 

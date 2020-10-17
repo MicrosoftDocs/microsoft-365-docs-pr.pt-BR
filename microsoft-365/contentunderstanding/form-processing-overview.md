@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Saiba mais sobre o processamento de formulário no SharePoint Syntex
-ms.openlocfilehash: 9b5b9b1c54220037e1c10f2722a641b526592f84
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 7340e0c78db71fbb0acc05c2985b60f6bafbba80
+ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48493668"
 ---
 # <a name="form-processing-overview"></a>Visão geral do processamento de formulário
 
@@ -33,13 +33,9 @@ Por exemplo, você pode criar um modelo de processamento de formulário que iden
 
 ![Modo de exibição da biblioteca de documentos](../media/content-understanding/doc-lib-done.png)</br>  
 
-Você também pode usar arquivos de exemplo para treinar seu modelo e definir as informações a serem extraídas do seu formulário. O layout do seu documento é aprendido treinando o seu modelo, e aprende a extrair seus dados de locais semelhantes em seus formulários, uma vez que eles têm um layout estruturado de forma semelhante. 
+Você usa arquivos de exemplo para treinar seu modelo e definir as informações a serem extraídas do seu formulário. O layout do seu documento é aprendido treinando o seu modelo. Você só precisa de cinco documentos de formulário para começar. O Construtor AI analisará seus arquivos de exemplo para pares de chave/valor e você também pode identificar manualmente os que podem não ter sido detectados.  O Construtor AI permite testar a precisão do modelo em seus arquivos de exemplo.
 
 Você precisa de no mínimo cinco documentos de formulário para começar. A construção de AI analisa os arquivos de exemplo para pares de chave/valor e identifica manualmente aqueles que podem não ter sido detectados.  O Construtor AI permite testar a precisão do modelo em seus arquivos de exemplo.
-
-Depois de treinar e publicar seu modelo, use-o para criar um [Fluxo do Power Automate](https://docs.microsoft.com/power-automate/getting-started) que será executado depois que um arquivo for carregado na biblioteca de documentos do SharePoint. Em seguida, o recurso extrai os dados identificados no modelo. Os dados extraídos serão exibidos em colunas no modo de exibição da biblioteca de documentos do seu modelo.
-
-Você usa arquivos de exemplo para treinar seu modelo e definir as informações a serem extraídas do seu formulário. O layout do seu documento é aprendido treinando o seu modelo. Você só precisa de cinco documentos de formulário para começar. O Construtor AI analisará seus arquivos de exemplo para pares de chave/valor e você também pode identificar manualmente os que podem não ter sido detectados.  O Construtor AI permite testar a precisão do modelo em seus arquivos de exemplo.
 
 Depois de treinar e publicar seu modelo, ele cria um [Fluxo do Power Automate](https://docs.microsoft.com/power-automate/getting-started). O fluxo será executado quando um arquivo for carregado na biblioteca de documentos do SharePoint e extrairá os dados identificados no modelo. Os dados extraídos serão exibidos em colunas no modo de exibição da biblioteca de documentos do seu modelo.
 

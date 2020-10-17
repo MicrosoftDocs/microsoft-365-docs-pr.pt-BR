@@ -1,11 +1,11 @@
 ---
-title: Cadeias de criptografia
+title: Cadeias de criptografia do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/3/2020
+ms.date: 10/16/2020
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,33 +16,35 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Exibir uma lista completa de certificados raiz e CAs (autoridades de certificação) no Office 365.
-ms.openlocfilehash: c0f63f6e4ebc288f8b06d608af81a485e5f71e8a
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+description: Exibir uma lista completa de certificados raiz e CAs (autoridades de certificação) no Microsoft 365.
+ms.openlocfilehash: c2a623d1e52318e954efbc843b036f99314a2feb
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307440"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580959"
 ---
-# <a name="encryption-chains"></a>Cadeias de criptografia
+# <a name="microsoft-365-encryption-chains"></a>Cadeias de criptografia do Microsoft 365
 
-O Office 365 aproveita vários provedores de certificado diferentes. A seguir, a descrição da lista completa de certificados raiz conhecidos do Office 365 que os clientes podem encontrar ao acessar o Office 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for de certificados SSL de terceiros para o Office 365](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates). As informações de certificado a seguir aplicam-se a todas as instâncias de nuvem do Office 365 em todo o mundo.
+A Microsoft 365 utiliza vários provedores de certificado diferentes. A seguir, a descrição da lista completa de certificados raiz conhecidos do Microsoft 365 que os clientes podem encontrar ao acessar o Microsoft 365. Para obter informações sobre os certificados que podem ser instalados em sua própria infraestrutura, consulte [Plan for de certificados SSL de terceiros para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates). As informações de certificado a seguir se aplicam a todas as instâncias de nuvem do mundo inteiro e nacional do Microsoft 365.
+
+Última atualização: **10/16/2020**
 
 >[!NOTE]
->Para obter informações de certificado que se aplicam aos clientes **DOD e gcc altos** , consulte [Office 365 Encryption encadeations-DOD e gcc High](encryption-office-365-certificate-chains-itar.md).
+>Para obter informações de certificado que se apliquem a clientes **DOD e gcc altos** , consulte [Microsoft 365 Encryption Transformations-DOD e gcc High](encryption-office-365-certificate-chains-itar.md).
 
 | **Tipo de certificado** | **Download de P7b** | **Pontos de extremidade da CRL** | **Pontos de extremidade OCSP** | **Pontos de extremidade AIA** |
 | --- | --- | --- | --- | --- |
-| Certificados raiz confiáveis publicamente | [Pacote de certificados raiz do Office 365 (P7B)](https://download.microsoft.com/download/A/5/A/A5AE01F3-D19B-4A11-9407-801263CEF72C/O365_Root_Certs_20170321.p7b) | crl.globalsign.net<br>www.d-trust.net | N/D | N/D |
-| Certificados intermediários confiáveis publicamente | [Pacote de certificados intermediário (P7B) do Office 365](https://download.microsoft.com/download/4/D/5/4D5339A4-0A4A-46AB-AE52-B179DEDA4BEC/O365_Intermediate_Certs_20170321.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
+| Certificados raiz confiáveis publicamente | [Pacote de certificados raiz do Microsoft 365 (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | N/D | N/D |
+| Certificados intermediários confiáveis publicamente | [Pacote de certificados intermediários da Microsoft 365 (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais sobre os provedores de certificado.
 
-## <a name="office-365-root-certificate-details"></a>**Detalhes do certificado raiz do Office 365**
+## <a name="microsoft-365-root-certificate-details"></a>**Detalhes do certificado raiz do Microsoft 365**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
-| **Assunto** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
+| **Subject** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
 | --- | --- |
 | **Número de série** | 02:00:00: B9 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -56,7 +58,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="cnnic-root"></a>**RAIZ CNNIC**
 
-| **Assunto** | CN = CNNIC RAIZ<br>O = CNNIC<br>C = CN |
+| **Subject** | CN = CNNIC RAIZ<br>O = CNNIC<br>C = CN |
 | --- | --- |
 | **Número de série** | 49:33:00:01 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -71,7 +73,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-global-root-ca"></a>**Autoridade de certificação raiz global do DigiCert**
 
-| **Assunto** | CN = autoridade de certificação raiz global DigiCert<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = autoridade de certificação raiz global DigiCert<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Número de série** | 08:3B: E0:56:90:42: (EM INGLÊS): B1: (A1: A). |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -84,9 +86,24 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **Impressão digital (SHA-256)** | 4348A0E9444C78CB265E058D5E8944B4D84F9662BD26DB257F8934A443C70161 |
 | **PIN (SHA-256)** | r/mIkG3eEpVdm + u/ko/cwxzOMo1bk4TyHIlByibiA5E = |
 
+### <a name="digicert-global-root-g2"></a>**DigiCert raiz G2 global**
+
+| **Subject** | CN = DigiCert global raiz G2<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Emissor** | CN = DigiCert global root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 03:3A: F1: E6: A7:11: A9: A0: BB: 28: A: B1:-1D: 09. |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Quinta-feira, 1 de agosto de 2013 5:00 AM |
+| **Validade não até** | Sexta-feira, 15 de janeiro de 2038 4:00 AM |
+| **Identificador de chave de assunto** | 4E2254201895E6E36EE60FFAFAB912ED06178F39 |
+| **Identificador de chave de autoridade** | KeyID: 4e: 22:54: cerca de 20:18:95: E6: E3:6e: E6: a: (em inglês): o FA: FA: B9:. |
+| **Impressão digital (SHA-1)** | DF3C24F9BFD666761B268073FE06D1CC8D4F82A4 |
+| **Impressão digital (SHA-256)** | CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F |
+
 ### <a name="digicert-high-assurance-ev-root-ca"></a>**AC raiz EV de alta garantia DigiCert**
 
-| **Assunto** | CN = DigiCert AC raiz EV de alta garantia<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert AC raiz EV de alta garantia<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Número de série** | 02: AC: 5C: 26:6A: 0B: 40:9B: 8F: 0B: 79: (EM INGLÊS). |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -101,7 +118,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="d-trust-root-class-3-ca-2-2009"></a>**D-TRUST root classe 3 CA 2 2009**
 
-| **Assunto** | CN = D-confiança da classe raiz 3 2 2009<br>O = D-Trust GmbH<br>C = DE |
+| **Subject** | CN = D-confiança da classe raiz 3 2 2009<br>O = D-Trust GmbH<br>C = DE |
 | --- | --- |
 | **Número de série** | 09:83: F3 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -116,7 +133,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="d-trust-root-class-3-ca-2-ev-2009"></a>**D-confiança de classe raiz 3 AC 2 EV 2009**
 
-| **Assunto** | CN = D-confiança classe raiz 3 AC 2 EV 2009<br>O = D-Trust GmbH<br>C = DE |
+| **Subject** | CN = D-confiança classe raiz 3 AC 2 EV 2009<br>O = D-Trust GmbH<br>C = DE |
 | --- | --- |
 | **Número de série** | 09:83: F4 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -131,7 +148,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="dst-root-ca-x3"></a>**AC root de horário de verão**
 
-| **Assunto** | CN = AC raiz de DST X3<br>O = confiança de assinatura digital co. |
+| **Subject** | CN = AC raiz de DST X3<br>O = confiança de assinatura digital co. |
 | --- | --- |
 | **Número de série** | 44.: B0: (EM INGLÊS): (EM INGLÊS): D6: A3:6B: (EM INGLÊS). |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -145,7 +162,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Autoridade de certificação raiz confiável-G2**
 
-| **Assunto** | CN = autoridade de certificação raiz Entrust-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
+| **Subject** | CN = autoridade de certificação raiz Entrust-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Número de série** | 4A: 53:8C: 28 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -159,7 +176,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Entrust.net Certification Authority (2048)**
 
-| **Assunto** | CN = autoridade de certificação Entrust. net (2048)<br>OU = (c) 1999 Entrust.net Limited<br>OU = www. Entrust. net/CPS \_ 2048 incorp. por Ref. (limite s liab.)<br>O = Entrust. net |
+| **Subject** | CN = autoridade de certificação Entrust. net (2048)<br>OU = (c) 1999 Entrust.net Limited<br>OU = www. Entrust. net/CPS \_ 2048 incorp. por Ref. (limite s liab.)<br>O = Entrust. net |
 | --- | --- |
 | **Número de série** | 38:63: DE: F8 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -173,7 +190,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="globalsign"></a>**GlobalSign**
 
-| **Assunto** | CN = GlobalSign<br>O = GlobalSign<br>OU = GlobalSign raiz CA-R2 |
+| **Subject** | CN = GlobalSign<br>O = GlobalSign<br>OU = GlobalSign raiz CA-R2 |
 | --- | --- |
 | **Número de série** | 04:00:00:00.00:86: (... |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -187,9 +204,24 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **PIN (SHA-256)** | iie1VXtL7HzAMF +/PVPR9xzT80kQxdZeJ + zduCB3uj0 = |
 | **URLs de CRL** | http://crl.globalsign.net/root-r2.crl |
 
+### <a name="globalsign"></a>**GlobalSign**
+
+| **Subject** | CN = GlobalSign<br>O = GlobalSign<br>OU = GlobalSign raiz CA-R3 |
+| --- | --- |
+| **Emissor** | CN = GlobalSign, O = GlobalSign, OU = GlobalSign raiz CA-R3 |
+| **Número de série** | 04:00:00:00:00: (em inglês). |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Quarta-feira, 18 de março de 2009 3:00 AM |
+| **Validade não até** | Domingo, 18 de março de 2029 3:00 AM |
+| **Identificador de chave de assunto** | 8FF04B7FA82E4524AE4D50FA639A8BDEE2DD1BBC |
+| **Identificador de chave de autoridade** | KeyID: 8F: F0:4B. 7F: A8:2e: 45:/!: AE: (em inglês): (em inglês): 0,50:: 8B: de: |
+| **Impressão digital (SHA-1)** | D69B561148F01C77C54578C10926DF5B856976AD |
+| **Impressão digital (SHA-256)** | CBB522D7B7F127AD6A0113865BDF1CD4102E7D0759AF635A7CF4720DC963C53B |
+
 ### <a name="globalsign-root-ca"></a>**GlobalSign Root CA**
 
-| **Assunto** | CN = autoridade de certificação raiz GlobalSign<br>OU = autoridade de certificação raiz<br>O = GlobalSign NV-SA<br>C = BE |
+| **Subject** | CN = autoridade de certificação raiz GlobalSign<br>OU = autoridade de certificação raiz<br>O = GlobalSign NV-SA<br>C = BE |
 | --- | --- |
 | **Número de série** | 04:00:00:00: A (EM INGLÊS): 4B: 5A: C3 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -203,7 +235,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="thawte-primary-root-ca---g3"></a>**AC raiz principal da Thawte-G3**
 
-| **Assunto** | CN = AC raiz primária da Thawte-G3<br>OU = &quot; (c) 2008 Thawte, Inc.-for Authorized use only&quot;<br>OU = divisão de serviços de certificação<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
+| **Subject** | CN = AC raiz primária da Thawte-G3<br>OU = &quot; (c) 2008 Thawte, Inc.-for Authorized use only&quot;<br>OU = divisão de serviços de certificação<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Número de série** | 60:01:97:-B7:46: A7:9A: O (A) (EM INGLÊS): [!: 2F: |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -217,7 +249,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="verisign-class-3-public-primary-certification-authority---g5"></a>**Autoridade de certificação principal pública da classe VeriSign 3-G5**
 
-| **Assunto** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU = &quot; (c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O = &quot; Verisign, Inc.&quot;<br>C = US |
+| **Subject** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU = &quot; (c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O = &quot; Verisign, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Número de série** | 18: DA: D1:9E: 26:7D: E8: BB: 4A: 21: (EM INGLÊS:. |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -229,11 +261,11 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **Impressão digital (SHA-256)** | 9ACFAB7E43C8D880D06B262A94DEEEE4B4659989C3D0CAF19BAF6405E41AB7DF |
 | **PIN (SHA-256)** | JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg = |
 
-## <a name="office-365-intermediate-certificate-details"></a>**Detalhes do certificado intermediário do Office 365**
+## <a name="microsoft-365-intermediate-certificate-details"></a>**Detalhes do certificado intermediário da Microsoft 365**
 
 ### <a name="cnnic-sha256-ssl"></a>**SSL CNNIC SHA256**
 
-| **Assunto** | CN = SSL CNNIC SHA256 <br>O = CNNIC SHA256 (SSL) <br>C = CN |
+| **Subject** | CN = SSL CNNIC SHA256 <br>O = CNNIC SHA256 (SSL) <br>C = CN |
 | --- | --- |
 | **Emissor** | CN = CNNIC RAIZ <br>O = CNNIC <br>C = CN |
 | **Número de série** | 49:33:00:7C |
@@ -252,7 +284,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="d-trust-ssl-class-3-ca-1-2009"></a>**D-confiança da classe 3 SSL 1 2009**
 
-| **Assunto** | CN = D-TRUST SSL classe 3 CA 1 2009<br>O = D-Trust GmbH<br>C = DE |
+| **Subject** | CN = D-TRUST SSL classe 3 CA 1 2009<br>O = D-Trust GmbH<br>C = DE |
 | --- | --- |
 | **Emissor** | CN = D-confiança da classe raiz 3 2 2009<br>O = D-Trust GmbH<br>C = DE |
 | **Nome alternativo da entidade** | RFC822 Name=info@d-trust.net<br>URL =http://www.d-trust.net |
@@ -271,7 +303,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="d-trust-ssl-class-3-ca-1-ev-2009"></a>**D-confiança da classe 3 da AC 1 EV 2009**
 
-| **Assunto** | CN = D-confiança SSL classe 3 AC 1 EV 2009<br>O = D-Trust GmbH<br>C = DE |
+| **Subject** | CN = D-confiança SSL classe 3 AC 1 EV 2009<br>O = D-Trust GmbH<br>C = DE |
 | --- | --- |
 | **Emissor** | CN = D-confiança classe raiz 3 AC 2 EV 2009<br>O = D-Trust GmbH<br>C = DE |
 | **Nome alternativo da entidade** | RFC822 Name=info@d-trust.net<br>URL =http://www.d-trust.net |
@@ -288,9 +320,26 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs de CRL** | ldap://directory.d-trust.net/CN=D-TRUST%20Root%20Class%203%20CA%202%20EV%202009,O=D-Trust%20GmbH,C=DE?certificaterevocationlist<br>http://www.d-trust.net/crl/d-trust\_root\_class\_3\_ca\_2\_ev\_2009.crl |
 | **URLs de OCSP** | http://root-c3-ca2-ev-2009.ocsp.d-trust.net |
 
+### <a name="digicert-basic-rsa-cn-ca-g2"></a>**DigiCert básico da AC CN RSA**
+
+| **Subject** | CN = DigiCert Basic RSA CN AC G2<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Emissor** | CN = autoridade de certificação raiz global DigiCert, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 02: F7: E1: F9:82: BA: O (A): 09: AF:.////!: |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Quarta-feira, 4 de março de 2020 4:04 AM |
+| **Validade não até** | Segunda-feira, 4 de março de 2030 4:04 AM |
+| **Identificador de chave de assunto** | 06BDA69B60795031BED5A9024AA0D095538B2F34 |
+| **Identificador de chave de autoridade** | KeyID: 03: de: 50:35:-D1:4C: BB: 66: (em inglês): a3: E2: (em inglês). 1b: 1b:. |
+| **Impressão digital (SHA-1)** | 4D1FA5D1FB1AC3917C08E43F65015E6AEA571179 |
+| **Impressão digital (SHA-256)** | CB57B3FF2040CB269497625BC90FA9D7B4ED4938C6F60F42F69AFDF508AC2993 |
+| **URLs de CRL** | http://crl.digicert.cn/DigiCertGlobalRootCA.crl |
+| **URLs de OCSP** | http://ocsp.digicert.cn |
+
 ### <a name="digicert-cloud-services-ca-1"></a>**AC de serviços de nuvem do DigiCert-1**
 
-| **Assunto** | CN = autoridade de certificação dos serviços de nuvem DigiCert-1<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = autoridade de certificação dos serviços de nuvem DigiCert-1<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Emissor** | CN = autoridade de certificação raiz global DigiCert<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Número de série** | 01:9E: C1: C6: O BD: 3F: 59:7B: B2:0C: 33:.. |
@@ -306,9 +355,43 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs de CRL** | http://crl4.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl3.digicert.com/DigiCertGlobalRootCA.crl |
 | **URLs de OCSP** | http://ocsp.digicert.com |
 
+### <a name="digicert-cloud-services-ca-1"></a>**AC de serviços de nuvem do DigiCert-1**
+
+| **Subject** | CN = autoridade de certificação dos serviços de nuvem DigiCert-1<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Emissor** | CN = autoridade de certificação raiz global DigiCert, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 0F: 17:1A: 48: C6: (EM INGLÊS) (EM INGLÊS): 18:92:92:, CD: 2E: |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Quinta-feira, 24 de setembro de 2020 5:00 PM |
+| **Validade não até** | Terça-feira, 24 de setembro de 2030 4:59 PM |
+| **Identificador de chave de assunto** | DD51D0A23173A973AE8FB4017E5D8C57CB9FF0F7 |
+| **Identificador de chave de autoridade** | KeyID: 03: de: 50:35:-D1:4C: BB: 66: (em inglês): a3: E2: (em inglês). 1b: 1b:. |
+| **Impressão digital (SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
+| **Impressão digital (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 |
+| **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
+### <a name="digicert-sha2-extended-validation-server-ca"></a>**Autoridade de certificação do servidor de validação estendida do DigiCert SHA2**
+
+| **Subject** | CN = DigiCert SHA2 servidor de validação estendida<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Emissor** | CN = DigiCert AC raiz EV de alta garantia, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 0C: 79: A9:44: B0: O 8C: 11: O QUE É 20:92:61:5F: E2, 6B: 1D. |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Terça-feira, 22 de outubro de 2013 5:00 AM |
+| **Validade não até** | Domingo, 22 de outubro de 2028 5:00 AM |
+| **Identificador de chave de assunto** | 3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F |
+| **Identificador de chave de autoridade** | KeyID: B1:3E: C3: (em inglês) (em inglês):-BF: 47:47-01:0,01:1a: 1Uma: 08:02:. |
+| **Impressão digital (SHA-1)** | 7E2F3A4F8FE8FA8A5730AECA029696637E986F3F |
+| **Impressão digital (SHA-256)** | 403E062A2653059113285BAF80A0D4AE422C848C9F78FAD01FC94BC5B87FEF1A |
+| **URLs de CRL** | http://crl4.digicert.com/DigiCertHighAssuranceEVRootCA.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
 ### <a name="digicert-sha2-high-assurance-server-ca"></a>**Autoridade de certificação do servidor de alta garantia DigiCert SHA2**
 
-| **Assunto** | CN = DigiCert SHA2 AC de servidor de alta garantia<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert SHA2 AC de servidor de alta garantia<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Emissor** | CN = DigiCert AC raiz EV de alta garantia<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Número de série** | 04: E1: E7: A4: DC: 5C: F2: F3:6D: C0:2B: 42:2: 5D: |
@@ -326,7 +409,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="digicert-sha2-secure-server-ca"></a>**Autoridade de certificação do servidor seguro do DigiCert SHA2**
 
-| **Assunto** | CN = DigiCert SHA2 servidor seguro AC<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert SHA2 servidor seguro AC<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Emissor** | CN = autoridade de certificação raiz global DigiCert<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Número de série** | 01: FD: A3: EB: 6E: AUTORIDADE DE CERTIFICAÇÃO: 75: C8:88:43:8B: 72:4B: CF: |
@@ -342,9 +425,43 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
 | **URLs de OCSP** | http://ocsp.digicert.com |
 
+### <a name="digicert-sha2-secure-server-ca"></a>**Autoridade de certificação do servidor seguro do DigiCert SHA2**
+
+| **Subject** | CN = DigiCert SHA2 servidor seguro AC<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Emissor** | CN = autoridade de certificação raiz global DigiCert, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 02:74:2E: O AA: 17: CA: 8E: 21: C7:17: (EM INGLÊS). |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Terça-feira, 22 de setembro de 2020 5:00 PM |
+| **Validade não até** | Domingo, 22 de setembro de 2030 4:59 PM |
+| **Identificador de chave de assunto** | 0F80611C823161D52F28E78D4638B42CE1C6D9E2 |
+| **Identificador de chave de autoridade** | KeyID: 03: de: 50:35:-D1:4C: BB: 66: (em inglês): a3: E2: (em inglês). 1b: 1b:. |
+| **Impressão digital (SHA-1)** | 626D44E704D1CEABE3BF0D53397464AC8080142C |
+| **Impressão digital (SHA-256)** | C1AD7778796D20BCA65C889A2655021156528BB62FF5FA43E1B8E5A83E3D2EAA |
+| **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
+### <a name="digicert-tls-rsa-sha256-2020-ca1"></a>**DigiCert TLS RSA SHA256 2020 CA1**
+
+| **Subject** | CN = DigiCert TLS RSA SHA256 2020 CA1<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Emissor** | CN = autoridade de certificação raiz global DigiCert, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 0A: 35:08: D5:5C: (29:2: 2B: 7D:...:: 0F: |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Quarta-feira, 23 de setembro de 2020 5:00 PM |
+| **Validade não até** | Segunda-feira, 23 de setembro de 2030 4:59 PM |
+| **Identificador de chave de assunto** | B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4 |
+| **Identificador de chave de autoridade** | KeyID: 03: de: 50:35:-D1:4C: BB: 66: (em inglês): a3: E2: (em inglês). 1b: 1b:. |
+| **Impressão digital (SHA-1)** | 6938FD4D98BAB03FAADB97B34396831E3780AEA1 |
+| **Impressão digital (SHA-256)** | 25768713D3B459F9382D2A594F85F34709FD2A8930731542A4146FFB246BEC69 |
+| **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
 ### <a name="entrust-certification-authority---l1c"></a>**Autoridade de certificação Entrust-L1C**
 
-| **Assunto** | CN = autoridade de certificação Entrust-L1C<br>OU = &quot; (c) 2009 Entrust, Inc.&quot;<br>OU = www. Entrust. net/RPA é incorporado por referência<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
+| **Subject** | CN = autoridade de certificação Entrust-L1C<br>OU = &quot; (c) 2009 Entrust, Inc.&quot;<br>OU = www. Entrust. net/RPA é incorporado por referência<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Emissor** | CN = autoridade de certificação Entrust. net (2048)<br>OU = (c) 1999 Entrust.net Limited<br>OU = www. Entrust. net/CPS \_ 2048 incorp. por Ref. (limita liab.)<br>O = Entrust. net |
 | **Número de série** | 4C: 0E: 8C: 39 |
@@ -362,7 +479,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1k"></a>**Autoridade de certificação Entrust-L1K**
 
-| **Assunto** | CN = autoridade de certificação Entrust-L1K<br>OU = &quot; (c) 2012 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
+| **Subject** | CN = autoridade de certificação Entrust-L1K<br>OU = &quot; (c) 2012 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Emissor** | CN = autoridade de certificação raiz Entrust-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | **Número de série** | 0E: E9:4C: C3: A 00:00:00:00:51: |
@@ -378,27 +495,9 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs de CRL** | http://crl.entrust.net/g2ca.crl |
 | **URLs de OCSP** | http://ocsp.entrust.net |
 
-### <a name="globalsign"></a>**GlobalSign**
-
-| **Assunto** | CN = GlobalSign<br>O = GlobalSign<br>OU = GlobalSign raiz CA-R3 |
-| --- | --- |
-| **Emissor** | CN = autoridade de certificação raiz GlobalSign<br>OU = root CAO = GlobalSign NV-SA<br>C = BE |
-| **Número de série** | 04:00:00:00:00:01:04:07:1D: |
-| **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
-| **Algoritmo de assinatura** | sha256RSA |
-| **Validade não antes** | UTC de novembro de 18 10:00:00 2009 |
-| **Validade não após** | Mar 18 10:00:00 2019 UTC |
-| **Identificador de chave de assunto** | 8F: F0:4B: 7F: A8:2e: (em inglês): (em inglês): AE: 4D:: 8B:, de: |
-| **Identificador de chave de autoridade** | keyid: 60:7B: 0,50:66:1a:-4B: 97: autoridade de certificação: 89: (em inglês) (em inglês): 2f: |
-| **Impressão digital (SHA-1)** | 4765557AF418C68A641199146A7E556AA8242996 |
-| **Impressão digital (SHA-256)** | FDFC6560B09C237F468B8130EB90996FF85FA13FA266239B8D5863798D6AB898 |
-| **PIN (SHA-256)** | cGuxAXyFXFkWm61cF4HPWX8S0srS9j0aSqN0k4AP + 4A = |
-| **URLs de CRL** | http://crl.globalsign.net/root.crl |
-| **URLs de OCSP** | http://ocsp.globalsign.com/ExtendedSSLSHA256CACross |
-
 ### <a name="globalsign-extended-validation-ca---sha256---g2"></a>**AC de validação estendida do GlobalSign-SHA256-G2**
 
-| **Assunto** | CN = GlobalSign validação estendida AC-SHA256-G2<br>O = GlobalSign NV-SA<br>C = BE |
+| **Subject** | CN = GlobalSign validação estendida AC-SHA256-G2<br>O = GlobalSign NV-SA<br>C = BE |
 | --- | --- |
 | **Emissor** | CN = GlobalSign<br>O = GlobalSign<br>OU = GlobalSign raiz CA-R2 |
 | **Número de série** | 04:00:00:00:00: A-4E: F0: |
@@ -416,7 +515,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="globalsign-extended-validation-ca---sha256---g3"></a>**AC de validação estendida do GlobalSign-SHA256-G3**
 
-| **Assunto** | CN = GlobalSign validação estendida AC-SHA256-G3<br>O = GlobalSign NV-SA<br>C = BE |
+| **Subject** | CN = GlobalSign validação estendida AC-SHA256-G3<br>O = GlobalSign NV-SA<br>C = BE |
 | --- | --- |
 | **Emissor** | CN = GlobalSign<br>O = GlobalSign<br>OU = GlobalSign raiz CA-R3 |
 | **Número de série** | 48: A4:02: DD: 27:92: SÃO: A2:2008:34:9D |
@@ -434,7 +533,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**AC de validação de organização do GlobalSign-SHA256-G2**
 
-| **Assunto** | CN = GlobalSign da organização de validação de empresa-SHA256-G2<br>O = GlobalSign NV-SA<br>C = BE |
+| **Subject** | CN = GlobalSign da organização de validação de empresa-SHA256-G2<br>O = GlobalSign NV-SA<br>C = BE |
 | --- | --- |
 | **Emissor** | CN = GlobalSign<br>O = GlobalSign<br>OU = GlobalSign raiz CA-R3 |
 | **Número de série** | 04:00:00:00:00: A-89:. |
@@ -452,7 +551,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**AC de validação de organização do GlobalSign-SHA256-G2**
 
-| **Assunto** | CN = GlobalSign da organização de validação de empresa-SHA256-G2<br>O = GlobalSign NV-SA<br>C = BE |
+| **Subject** | CN = GlobalSign da organização de validação de empresa-SHA256-G2<br>O = GlobalSign NV-SA<br>C = BE |
 | --- | --- |
 | **Emissor** | CN = autoridade de certificação raiz GlobalSign<br>OU = autoridade de certificação raiz<br>O = GlobalSign NV-SA<br>C = BE |
 | **Número de série** | 04:00:00:00:00:: 0,01:44: |
@@ -468,27 +567,43 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs de CRL** | http://crl.globalsign.net/root.crl |
 | **URLs de OCSP** | http://ocsp.globalsign.com/rootr1 |
 
-### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**AC de validação de organização do GlobalSign-SHA256-G2**
+### <a name="globalsign-organization-validation-ca---sha256---g3"></a>**AC de validação de organização do GlobalSign-SHA256-G3**
 
-| **Assunto** | CN = GlobalSign da organização de validação de empresa-SHA256-G2<br>O = GlobalSign NV-SA<br>C = BE |
+| **Subject** | CN = GlobalSign de validação de organização da organização-SHA256-G3<br>O = GlobalSign NV-SA<br>C = BE |
 | --- | --- |
-| **Emissor** | CN = autoridade de certificação raiz GlobalSign<br>OU = autoridade de certificação raiz<br>O = GlobalSign NV-SA<br>C = BE |
-| **Número de série** | 04:00:00:00:00:: 0,01:44: |
-| **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
+| **Emissor** | CN = GlobalSign root AC, OU = root AC, O = GlobalSign NV-SA, C = BE |
+| **Número de série** | 47:07: B1:01:9A: 0C: 57: AD: 39: B3: E1:7D: A9: F9 |
+| **Comprimento da chave pública** | Bits RSA 2048 |
 | **Algoritmo de assinatura** | sha256RSA |
-| **Validade não antes** | Fev 20 10:00:00 2014 UTC |
-| **Validade não após** | Fev 20 10:00:00 2024 UTC |
-| **Identificador de chave de assunto** | 96: de: 61: F1: o BD: (!...........: 7D: 53:... |
-| **Identificador de chave de autoridade** | keyid: 60:7B: 0,50:66:1a:-4B: 97: autoridade de certificação: 89: (em inglês) (em inglês): 2f: |
-| **Impressão digital (SHA-1)** | 902EF2DEEB3C5B13EA4C3D5193629309E231AE55 |
-| **Impressão digital (SHA-256)** | 74EF335E5E18788307FB9D89CB704BEC112ABD23487DBFF41C4DED5070F241D9 |
-| **PIN (SHA-256)** | IQBnNBEiFuhj + 8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4 = |
-| **URLs de CRL** | http://crl.globalsign.net/root.crl |
+| **Validade não antes** | Quinta-feira, 3 de setembro de 2015 5:00 PM |
+| **Validade não até** | Quarta-feira, 3 de setembro de 2025 5:00 PM |
+| **Identificador de chave de assunto** | 6886B87D7AD96D496B872F188B15346CD7B47A0E |
+| **Identificador de chave de autoridade** | KeyID: 60:7B: 0,50:66:1a:-4B: 97: autoridade de certificação: 89: (em inglês) (em inglês): 2f: |
+| **Impressão digital (SHA-1)** | 20D1EBAB5A71587B9116E4C74415D1A85B0DDDA5 |
+| **Impressão digital (SHA-256)** | 699D54B7482A5D329331EA0415CC2EDCD60FDA01D19E71D054196BCE0677735C |
+| **URLs de CRL** | http://crl.globalsign.com/root.crl |
 | **URLs de OCSP** | http://ocsp.globalsign.com/rootr1 |
+
+### <a name="globalsign-rsa-ov-ssl-ca-2018"></a>**GlobalSign RSA OV SSL CA 2018**
+
+| **Subject** | CN = GlobalSign RSA OV SSL CA 2018<br>O = GlobalSign NV-SA<br>C = BE |
+| --- | --- |
+| **Emissor** | CN = GlobalSign, O = GlobalSign, OU = GlobalSign raiz CA-R3 |
+| **Número de série** | 01: EE: 5F: 22:1D: O FC: 62:3B: D4: |
+| **Comprimento da chave pública** | Bits RSA 2048 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Terça-feira, 20 de novembro de 2018 4:00 PM |
+| **Validade não até** | Segunda-feira, 20 de novembro de 2028 4:00 PM |
+| **Identificador de chave de assunto** | F8EF7FF2CD7867A8DE6F8F248D88F1870302B3EB |
+| **Identificador de chave de autoridade** | KeyID: 8F: F0:4B. 7F: A8:2e: 45:/!: AE: (em inglês): (em inglês): 0,50:: 8B: de: |
+| **Impressão digital (SHA-1)** | DFE83023062B997682708B4EAB8E819AFF5D9775 |
+| **Impressão digital (SHA-256)** | B676FFA3179E8812093A1B5EAFEE876AE7A6AAF231078DAD1BFB21CD2893764A |
+| **URLs de CRL** | http://crl.globalsign.com/root-r3.crl |
+| **URLs de OCSP** | http://ocsp2.globalsign.com/rootr3 |
 
 ### <a name="lets-encrypt-authority-x3"></a>**Vamos criptografar a autoridade de certificação X3**
 
-| **Assunto** | CN = vamos criptografar Authority X3<br>O = vamos criptografar<br>C = US |
+| **Subject** | CN = vamos criptografar Authority X3<br>O = vamos criptografar<br>C = US |
 | --- | --- |
 | **Emissor** | CN = AC raiz de DST X3<br>O = confiança de assinatura digital co. |
 | **Número de série** | 0A: 01:41:42:42:00:0,01-53:85::, 0B: 85: |
@@ -505,44 +620,77 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs de CRL** | http://crl.identrust.com/DSTROOTCAX3CRL.crl |
 | **URLs de OCSP** | http://isrg.trustid.ocsp.identrust.com |
 
-### <a name="microsoft-it-ssl-sha2"></a>**SHA2 SSL de ti da Microsoft**
+### <a name="microsoft-azure-tls-issuing-ca-01"></a>**CA de emissão do Microsoft Azure TLS 01**
 
-| **Assunto** | CN = SHA2 de SSL de ti da Microsoft<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
+| **Subject** | CN = CA de emissão do Microsoft Azure TLS 01<br>O = Microsoft Corporation<br>C = US |
 | --- | --- |
-| **Emissor** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
-| **Número de série** | 07:27:9A: A9 |
-| **Comprimento da chave pública** | RSA 4096 bits (e 65537) |
-| **Algoritmo de assinatura** | sha256RSA |
-| **Validade não antes** | Dec 19 20:07:32 2013 UTC |
-| **Validade não após** | Dec 19 20:06:55 2017 UTC |
-| **Identificador de chave de assunto** | 51: AF: 24:26: (em inglês): (em inglês): (em inglês): 57: (16:26:2B: 3B: 46: |
-| **Identificador de chave de autoridade** | keyid: E5:9d: 59-30:/!: (em inglês): (em inglês): 4: (em inglês): 08:36: |
-| **Impressão digital (SHA-1)** | 948E1652586240D453287AB69CAEB8F2F4F02117 |
-| **Impressão digital (SHA-256)** | 34BD941A06ED10E2FAC8459F79E4748C1EA08F142C6DE5E557884D0D3CE249FA |
-| **PIN (SHA-256)** | CzdPous1hY3sIkO55pUH7vklXyIHVZAl/UnprSQvpEI = |
-| **URLs de CRL** | http://cdp1.public-trust.com/CRL/Omniroot2025.crl |
+| **Emissor** | CN = DigiCert global root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 0A: AF: A6: C5: A AC: 63: O (A): 41: (!: 3B:). |
+| **Comprimento da chave pública** | Bits RSA 4096 |
+| **Algoritmo de assinatura** | sha384RSA |
+| **Validade não antes** | Quarta-feira, 29 de julho de 2020 5:30 AM |
+| **Validade não até** | Quinta-feira, 27 de junho de 2024 4:59 PM |
+| **Identificador de chave de assunto** | 0F205DD7A15795DB92CF2BD0C7C27704CE728076 |
+| **Identificador de chave de autoridade** | KeyID: 4e: 22:54: cerca de 20:18:95: E6: E3:6e: E6: a: (em inglês): o FA: FA: B9:. |
+| **Impressão digital (SHA-1)** | 2F2877C5D778C31E0F29C7E371DF5471BD673173 |
+| **Impressão digital (SHA-256)** | 24C7299864E0A2A6964F551C0E8DF2461532FA8C48E4DBBB6080716691F190E5 |
+| **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
 
-### <a name="microsoft-it-ssl-sha2"></a>**SHA2 SSL de ti da Microsoft**
+### <a name="microsoft-azure-tls-issuing-ca-02"></a>**CA de emissão do Microsoft Azure TLS 02**
 
-| **Assunto** | CN = SHA2 de SSL de ti da Microsoft<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
+| **Subject** | CN = CA de emissão do Microsoft Azure TLS 02<br>O = Microsoft Corporation<br>C = US |
 | --- | --- |
-| **Emissor** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
-| **Número de série** | 07:27: AA: 47 |
-| **Comprimento da chave pública** | RSA 4096 bits (e 65537) |
-| **Algoritmo de assinatura** | sha256RSA |
-| **Validade não antes** | Maio de 07 17:04:09 2014 UTC |
-| **Validade não após** | Maio de 07 17:03:30 2018 UTC |
-| **Identificador de chave de assunto** | 51: AF: 24:26: (em inglês): (em inglês): (em inglês): 57: (16:26:2B: 3B: 46: |
-| **Identificador de chave de autoridade** | keyid: E5:9d: 59-30:/!: (em inglês): (em inglês): 4: (em inglês): 08:36: |
-| **Impressão digital (SHA-1)** | 97EFF3028677894BDD4F9AC53F789BEE5DF4AD86 |
-| **Impressão digital (SHA-256)** | 2399983E99703EBD01CEA466C10799810C4BA62A8D61B88170A334DCD61BB20F |
-| **PIN (SHA-256)** | CzdPous1hY3sIkO55pUH7vklXyIHVZAl/UnprSQvpEI = |
-| **URLs de CRL** | http://cdp1.public-trust.com/CRL/Omniroot2025.crl |
-| **URLs de OCSP** | http://ocsp.omniroot.com/baltimoreroot |
+| **Emissor** | CN = DigiCert global root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 0C: 6A: E9:7C: (EM INGLÊS): CE: (EM INGLÊS).: 83:: |
+| **Comprimento da chave pública** | Bits RSA 4096 |
+| **Algoritmo de assinatura** | sha384RSA |
+| **Validade não antes** | Quarta-feira, 29 de julho de 2020 5:30 AM |
+| **Validade não até** | Quinta-feira, 27 de junho de 2024 4:59 PM |
+| **Identificador de chave de assunto** | 00AB91FC216226979AA8791B61419060A96267FD |
+| **Identificador de chave de autoridade** | KeyID: 4e: 22:54: cerca de 20:18:95: E6: E3:6e: E6: a: (em inglês): o FA: FA: B9:. |
+| **Impressão digital (SHA-1)** | E7EEA674CA718E3BEFD90858E09F8372AD0AE2AA |
+| **Impressão digital (SHA-256)** | 15A98761EBE011554DA3A46D206B0812CB2EB69AE87AAA11A6DD4CB84ED5142A |
+| **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
+### <a name="microsoft-azure-tls-issuing-ca-05"></a>**CA de emissão do Microsoft Azure TLS 05**
+
+| **Subject** | CN = CA de emissão do Microsoft Azure TLS<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **Emissor** | CN = DigiCert global root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 0D: 7B: ED: E9:7D: 82:09:7A: 52:. º DA. º DE. |
+| **Comprimento da chave pública** | Bits RSA 4096 |
+| **Algoritmo de assinatura** | sha384RSA |
+| **Validade não antes** | Quarta-feira, 29 de julho de 2020 5:30 AM |
+| **Validade não até** | Quinta-feira, 27 de junho de 2024 4:59 PM |
+| **Identificador de chave de assunto** | C7B29C7F1CE3B85AEFE9681AA85D94C126526A68 |
+| **Identificador de chave de autoridade** | KeyID: 4e: 22:54: cerca de 20:18:95: E6: E3:6e: E6: a: (em inglês): o FA: FA: B9:. |
+| **Impressão digital (SHA-1)** | 6C3AF02E7F269AA73AFD0EFF2A88A4A1F04ED1E5 |
+| **Impressão digital (SHA-256)** | D6831BA43607F5AC19778D627531562AF55145F191CAB5EFAFA0E0005442B302 |
+| **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
+### <a name="microsoft-azure-tls-issuing-ca-06"></a>**CA de emissão do Microsoft Azure TLS 06**
+
+| **Subject** | CN = CA de emissão do Microsoft Azure TLS 6<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **Emissor** | CN = DigiCert global root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Número de série** | 02: E7:91:71: SÃO: FB: 80: E9:3F: E2:-: E2:83:83: |
+| **Comprimento da chave pública** | Bits RSA 4096 |
+| **Algoritmo de assinatura** | sha384RSA |
+| **Validade não antes** | Quarta-feira, 29 de julho de 2020 5:30 AM |
+| **Validade não até** | Quinta-feira, 27 de junho de 2024 4:59 PM |
+| **Identificador de chave de assunto** | D5C1673AC2A39DF477525B59123829E65568BBA5 |
+| **Identificador de chave de autoridade** | KeyID: 4e: 22:54: cerca de 20:18:95: E6: E3:6e: E6: a: (em inglês): o FA: FA: B9:. |
+| **Impressão digital (SHA-1)** | 30E01761AB97E59A06B41EF20AF6F2DE7EF4F7B0 |
+| **Impressão digital (SHA-256)** | 48FF8B494668C752304B48BFE818758987DEF6582E5F09B921F4B60BB3D6A8DD |
+| **URLs de CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
 
 ### <a name="microsoft-it-tls-ca-1"></a>**AC 1 TLS da TI da Microsoft**
 
-| **Assunto** | CN = autoridade de certificação TLS da TI da Microsoft<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
+| **Subject** | CN = autoridade de certificação TLS da TI da Microsoft<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
 | --- | --- |
 | **Emissor** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
 | **Número de série** | 08: B8:7A: 50:1B: DA: (EM INGLÊS): (EM INGLÊS):-0,50: |
@@ -560,7 +708,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-it-tls-ca-2"></a>**AC 2 do Microsoft IT TLS**
 
-| **Assunto** | CN = autoridade de certificação TLS de ti da Microsoft<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
+| **Subject** | CN = autoridade de certificação TLS de ti da Microsoft<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
 | --- | --- |
 | **Emissor** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
 | **Número de série** | 0F: 2C: 10: C9:5B: 06: C0:93: O B8: D4: (... |
@@ -578,7 +726,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-it-tls-ca-4"></a>**AC 4 TLS da TI da Microsoft**
 
-| **Assunto** | CN = AC do Microsoft IT TLS 4<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
+| **Subject** | CN = AC do Microsoft IT TLS 4<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
 | --- | --- |
 | **Emissor** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
 | **Número de série** | 0B. 6A: B3: B0: (EM INGLÊS): (EM INGLÊS): B1: (EM INGLÊS): |
@@ -596,7 +744,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="microsoft-it-tls-ca-5"></a>**AC do Microsoft IT TLS 5**
 
-| **Assunto** | CN = AC do Microsoft IT TLS 5<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
+| **Subject** | CN = AC do Microsoft IT TLS 5<br>OU = ti da Microsoft<br>O = Microsoft Corporation<br>L = Redmond<br>S = Washington<br>C = US |
 | --- | --- |
 | **Emissor** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
 | **Número de série** | 08:88: CD: 52:5F:-16:44: (EM INGLÊS), 14: A5:82: |
@@ -612,9 +760,43 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **URLs de CRL** | http://crl3.digicert.com/Omniroot2025.crl |
 | **URLs de OCSP** | http://ocsp.digicert.com |
 
+### <a name="microsoft-rsa-tls-ca-01"></a>**AC do Microsoft RSA TLS 01**
+
+| **Subject** | CN = AC do Microsoft RSA TLS 01<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **Emissor** | CN = Baltimore CyberTrust root, OU = CyberTrust, O = Baltimore, C = IE |
+| **Número de série** | 0F: 14:96:5F: 20: A 20:69:99:4F: D5: (EM INGLÊS). |
+| **Comprimento da chave pública** | Bits RSA 4096 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Terça-feira, 21 de julho de 2020 4:00 PM |
+| **Validade não até** | Terça-feira, 8 de outubro de 2024 12:00 AM |
+| **Identificador de chave de assunto** | B5760C3011CEC792424D4CC75C2CC8A90CE80B64 |
+| **Identificador de chave de autoridade** | KeyID: E5:9d: 59-30:/!: (em inglês): (em inglês): 4: (em inglês): 08:36: |
+| **Impressão digital (SHA-1)** | 703D7A8F0EBF55AAA59F98EAF4A206004EB2516A |
+| **Impressão digital (SHA-256)** | 04EEEA8E50B4775B3C24797262917EE50002EC4C75B56CDF3EE1C18CFCA5BA52 |
+| **URLs de CRL** | http://crl3.digicert.com/Omniroot2025.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
+### <a name="microsoft-rsa-tls-ca-02"></a>**AC do Microsoft RSA TLS 02**
+
+| **Subject** | CN = Microsoft RSA TLS AC 02<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **Emissor** | CN = Baltimore CyberTrust root, OU = CyberTrust, O = Baltimore, C = IE |
+| **Número de série** | 0F: A7:47:22: (EM INGLÊS): C5: C8:0F: 58:9E: FB: |
+| **Comprimento da chave pública** | Bits RSA 4096 |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não antes** | Terça-feira, 21 de julho de 2020 4:00 PM |
+| **Validade não até** | Terça-feira, 8 de outubro de 2024 12:00 AM |
+| **Identificador de chave de assunto** | FF2F7FE106F438F32DED258D98C2FE0EF66CFCFA |
+| **Identificador de chave de autoridade** | KeyID: E5:9d: 59-30:/!: (em inglês): (em inglês): 4: (em inglês): 08:36: |
+| **Impressão digital (SHA-1)** | B0C2D2D13CDD56CDAA6AB6E2C04440BE4A429C75 |
+| **Impressão digital (SHA-256)** | 05E4005DB0C382F3BD66B47729E9011577601BF6F7B287E9A52CED710D258346 |
+| **URLs de CRL** | http://crl3.digicert.com/Omniroot2025.crl |
+| **URLs de OCSP** | http://ocsp.digicert.com |
+
 ### <a name="symantec-class-3-ev-ssl-ca---g3"></a>**AC SSL EV-G3 da Symantec classe 3**
 
-| **Assunto** | CN = Symantec classe 3 EV SSL AC-G3<br>OU = rede de confiança da Symantec<br>O = Symantec Corporation<br>C = US |
+| **Subject** | CN = Symantec classe 3 EV SSL AC-G3<br>OU = rede de confiança da Symantec<br>O = Symantec Corporation<br>C = US |
 | --- | --- |
 | **Emissor** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU = &quot; (c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O = &quot; Verisign, Inc.&quot;<br>C = US |
 | **Nome alternativo da entidade** | Endereço do diretório: CN = SymantecPKI-1-533 |
@@ -633,7 +815,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="symantec-class-3-secure-server-ca---g4"></a>**Symantec classe 3 AC do servidor seguro-G4**
 
-| **Assunto** | CN = autoridade de certificação do servidor seguro do Symantec Class 3-G4<br>OU = rede de confiança da Symantec<br>O = Symantec Corporation<br>C = US |
+| **Subject** | CN = autoridade de certificação do servidor seguro do Symantec Class 3-G4<br>OU = rede de confiança da Symantec<br>O = Symantec Corporation<br>C = US |
 | --- | --- |
 | **Emissor** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU = &quot; (c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O = &quot; Verisign, Inc.&quot;<br>C = US |
 | **Nome alternativo da entidade** | Endereço do diretório: CN = SymantecPKI-1-534 |
@@ -652,7 +834,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="thawte-sha256-ssl-ca"></a>**AC com autoridade de certificação do Thaw SHA256**
 
-| **Assunto** | CN = AC de SSL de Thaw SHA256<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
+| **Subject** | CN = AC de SSL de Thaw SHA256<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Emissor** | CN = AC raiz primária da Thawte-G3<br>OU = &quot; (c) 2008 Thawte, Inc.-for Authorized use only&quot;<br>OU = divisão de serviços de certificação<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | **Nome alternativo da entidade** | Endereço do diretório: CN = VeriSignMPKI-2-415 |
@@ -671,7 +853,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="verizon-akamai-sureserver-ca-g14-sha2"></a>**Verizon Akamai SureServer AC G14-SHA2**
 
-| **Assunto** | CN = Verizon Akamai SureServer AC G14-SHA2<br>OU = Cybertrust<br>O = Verizon Enterprise Solutions<br>L = Amsterdã<br>C = NL |
+| **Subject** | CN = Verizon Akamai SureServer AC G14-SHA2<br>OU = Cybertrust<br>O = Verizon Enterprise Solutions<br>L = Amsterdã<br>C = NL |
 | --- | --- |
 | **Emissor** | CN = Baltimore CyberTrust raiz<br>OU = CyberTrust<br>O = Baltimore<br>C = IE |
 | **Número de série** | 07:27: A4:6B |

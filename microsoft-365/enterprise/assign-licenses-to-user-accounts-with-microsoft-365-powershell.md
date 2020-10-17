@@ -21,22 +21,26 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 description: Neste artigo, saiba como usar o PowerShell para atribuir uma licença do Microsoft 365 a usuários não licenciados.
-ms.openlocfilehash: f042f8109bf9ac9b634bc66509c60a5181fb1af6
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 8c3165b99477afa14e6d2b0da927b5f64c416ef1
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235611"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580935"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>Atribuir licenças do Microsoft 365 a contas de usuário com o PowerShell
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Os usuários não podem usar serviços do Microsoft 365 até que a conta tenha sido atribuída a uma licença de um plano de licenciamento. Você pode usar o PowerShell para atribuir licenças rapidamente às contas não licenciadas. 
 
->[!Note]
->As contas de usuário devem ser atribuídas a um local. Você pode fazer isso a partir das propriedades de uma conta de usuário no centro de administração do Microsoft 365 ou no PowerShell.
->
+É necessário atribuir um local às contas de usuário primeiro. A especificação de um local é uma parte obrigatória da criação de uma nova conta de usuário no [centro de administração do Microsoft 365](../admin/add-users/add-users.md). 
+
+As contas sincronizadas de seus serviços de domínio do Active Directory local não possuem um local especificado. Você pode configurar um local para estas contas de:
+
+- O Centro de administração do Microsoft 365
+ - [PowerShell](configure-user-account-properties-with-microsoft-365-powershell.md)
+ - O [portal do Azure](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (usuários do**Active Directory**  >  **Users** > conta de usuário > **Profile**  >  **informações**  >  **de contato de perfil país ou região**).
 
 >[!Note]
 >[Saiba como atribuir licenças a contas de usuário](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) com o centro de administração do Microsoft 365. Para obter uma lista de recursos adicionais, consulte [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).

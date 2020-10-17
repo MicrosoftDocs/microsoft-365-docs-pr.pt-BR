@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: fdebfcbfa4aad68f381db4ffb8c9b83a5100187c
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 46bc63bab52bf75dc7c215510d49b4d985ff07c3
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487477"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -42,11 +42,15 @@ Os elementos de configuração para uma equipe com isolamento de segurança são
 > [!IMPORTANT]
 > Certifique-se de ter ativado os [rótulos de confidencialidade para proteger o conteúdo em sites do Microsoft Teams, Office 365 e Microsoft Office SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) antes de prosseguir com as etapas deste artigo.
 
+Assista a esse vídeo para obter uma visão geral do processo de implementação.
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
+
 <a name="poster"></a> Para um resumo de duas páginas deste cenário, confira o [Pôster do Microsoft Teams com isolamento de segurança](../downloads/team-security-isolation-poster.pdf).
 
 [![Pôster do Microsoft Teams com isolamento de segurança](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
-Também é possível descarregar este pôster no formato [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) e imprimi-lo em papel tamanho carta, legal, ou tabloide (11 x 17).
+Também é possível pode baixar este pôster no formato [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) e imprimi-lo em papel tamanho carta, ofício ou tablóide (11 x 17).
 
 ## <a name="initial-protections"></a>Proteções iniciais
 

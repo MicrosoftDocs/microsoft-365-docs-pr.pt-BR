@@ -4,7 +4,7 @@ ms.author: kvice
 ms.reviewer: smithre4
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 08/25/2020
+ms.date: 10/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre a autenticação moderna híbrida e os pré-requisitos para o uso com o Skype for Business e os servidores do Exchange locais.
-ms.openlocfilehash: 82cd4203e2e9dc53c6add542c5f0ba90530b6548
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: dbd108d9b04445838ce8e88a921af717ebd763be
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361922"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487715"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>Visão geral da Autenticação Moderna Híbrida e pré-requisitos para usá-la com servidores locais do Skype for Business e do Exchange
 
@@ -161,6 +161,7 @@ Verifique e marque esses itens na sua lista de verificação antes de continuar:
     Os clientes e/ou protocolos que não estão listados (por exemplo, POP3) não dão suporte à autenticação moderna com o Exchange local e continuam a aproveitar os mecanismos de autenticação herdados, mesmo depois que a autenticação moderna está habilitada no ambiente.
 
 - **Pré-requisitos gerais**
+  - Os cenários de floresta de recursos exigirão uma relação de confiança bidirecional com a floresta de contas para garantir que as pesquisas de SID adequadas sejam realizadas durante solicitações de autenticação modernas híbridas. 
   - Se você usa o AD FS, é preciso ter o Windows 2012 R2 AD FS 3.0 e acima para os serviços de federação.
   - Suas configurações de identidade devem ser de um dos tipos suportados pelo Azure AD Connect, como a sincronização de criptografia de senha, a autenticação pass-through e um STS no local suportado pelo Office 365.
   - Você deve ter o Azure AD Connect configurado e funcionando para a replicação e sincronização de usuários.

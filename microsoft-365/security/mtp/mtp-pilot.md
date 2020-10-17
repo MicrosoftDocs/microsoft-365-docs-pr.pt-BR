@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 4ec46891248c09f580b19d888573544ad2b4930f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: f49f1afe5461a4f2eff0a3049f1d14d1892f70ce
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446862"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477012"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Executar seu projeto piloto de proteção contra ameaças da Microsoft 
 
@@ -41,6 +41,16 @@ Para determinar efetivamente o benefício e a adoção da MTP (proteção contra
 ## <a name="how-to-use-this-pilot-playbook"></a>Como usar este guia estratégico piloto
 
 Este guia fornece uma visão geral da proteção contra ameaças da Microsoft e instruções passo a passo sobre como configurar seu projeto piloto. 
+
+A proteção contra ameaças da Microsoft é um pacote de defesa unificado do Enterprise Defense, que coordena nativamente a proteção, detecção, prevenção, investigação e resposta entre os pontos de extremidade, as identidades, os emails e os aplicativos para oferecer proteção integrada contra ataques sofisticados. Isso é feito combinando e organizando os seguintes recursos em uma única solução de segurança:
+  - Microsoft defender para ponto de extremidade, o novo nome da proteção avançada contra ameaças do Microsoft defender (pontos de extremidade)
+  - Microsoft defender para Office 365, o novo nome do Office 365 ATP (email) 
+  - Microsoft defender para identidade, o novo nome para o Azure ATP (identidade) 
+  - Microsoft Cloud app Security (aplicativos)
+
+![Imagem of_Microsoft solução de proteção contra ameaças para usuários, proteção avançada contra ameaças do Azure, para pontos de extremidade proteção avançada contra ameaças do Microsoft defender, para aplicativos de nuvem, segurança do aplicativo do Microsoft Cloud e para dados, proteção avançada contra ameaças do Office 365  ](../../media/mtp/m365pillars.png)
+
+Com a solução integrada de proteção contra ameaças da Microsoft, os profissionais de segurança podem unir os sinais de ameaça que a proteção avançada contra ameaças do Microsoft defender, o Office 365 ATP, o Azure ATP e o Microsoft Cloud app Security recebem, e determinam o escopo completo e o impacto da ameaça, como ele entrou no ambiente, o que é afetado e como ele está afetando a organização. A proteção contra ameaças da Microsoft realiza ações automáticas para impedir ou interromper o ataque e a AutoCorreção de caixas de correio, pontos de extremidade e identidades de usuários afetados. Consulte a [visão geral da proteção contra ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) para obter detalhes.
 
 ![Fases na execução de um piloto de proteção contra ameaças da Microsoft](../../media/pilotphases.png)
 
