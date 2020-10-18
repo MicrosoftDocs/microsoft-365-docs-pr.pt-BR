@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 84b7f5959d3bd8c13476059655113ea78495862a
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 07309131e9be4ef8149ca71dfd4fc6bc5ecf845d
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417715"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487431"
 ---
 # <a name="health-data-hosting-hds-france"></a>Hospedagem de Dados de Integridade (HDS) França
 
@@ -27,7 +27,7 @@ ms.locfileid: "47417715"
 
 A certificação Hébergeurs de Données de Santé (HDS) é exigida de entidades como provedores de serviços de nuvem que hospedam dados pessoais de saúde regidos pelas leis francesas e coletados para fornecer serviços de saúde preventivos, de diagnóstico, entre outros. O regulamento da HDS foi emitido pela [ASIP SANTÉ](https://esante.gouv.fr/) que, de acordo com o Ministério da Saúde francês, é responsável por promover soluções de saúde por meios eletrônicos na França.
 
-A hospedagem de dados de saúde é regulamentada de acordo com a lei francesa pelo Código de Saúde Pública da França (Artigo L.1111-8) que estipula que qualquer organização de saúde — hospitais, empresas farmacêuticas, laboratórios — que manipule dados médicos pessoais deve usar um provedor de serviços certificado pela HDS. Em abril de 2018, entraram em vigor os novos artigos, que vão do R1111-8-8 ao R1111-11, do Código de Saúde Pública que alteram o procedimento de credenciamento de uma autorização pelo Ministério da Saúde francês por uma certificação de um organismo autorizado como o BSI.
+A hospedagem de dados de saúde é regulamentada de acordo com a lei francesa pelo Código de Saúde Pública da França (Artigo L.1111-8) que estipula que qualquer organização de saúde, como hospitais, empresas farmacêuticas e laboratórios, que manipule dados médicos pessoais deve usar um provedor de serviços certificado pela HDS. Em abril de 2018, entraram em vigor os novos artigos, que vão do R1111-8-8 ao R1111-11, do Código de Saúde Pública que alteram o procedimento de credenciamento de uma autorização pelo Ministério da Saúde francês por uma certificação de um organismo autorizado como o BSI.
 
 A certificação HDS exige que os provedores de serviços implementem medidas para manter os dados pessoais de saúde seguros, confidenciais e que possam ser acessados pelos pacientes. Essas medidas incluem procedimentos fortes de autenticação e autorização, sistemas de backup robustos e métodos de criptografia eficientes. A HDS também especifica disposições obrigatórias que devem ser incluídas nos contratos com o provedor de serviços de nuvem. Esses requisitos aplicam-se independentemente do local em que os dados são armazenados.
 
@@ -58,18 +58,18 @@ O certificado HDS não se aplica ao Microsoft Online Serviços em versão prévi
 
 A certificação HDS é válida por três anos.
 
-- HDS: 2018: [ASIP SANTÉ](https://esante.gouv.fr/) e [Grupo BSI](https://www.bsigroup.com/fr-FR/Nos-services/Certification/Recherche-dans-le-repertoire-des-certificats-et-des-clients/Resultats-de-la-recherche-dans-le-repertoire-des-certificats-et-des-clients/?searchkey=licence%3dHDS%2b701569%26company%3dMicrosoft%2bCorp&licencenumber=HDS%20701569)
+- HDS: 2018: [ASIP SANTÉ](https://esante.gouv.fr/)
+- [Grupo BSI](https://www.bsigroup.com/fr-FR/Nos-services/Certification/Recherche-dans-le-repertoire-des-certificats-et-des-clients/Resultats-de-la-recherche-dans-le-repertoire-des-certificats-et-des-clients/?searchkey=licence%3dHDS%2b701569%26company%3dMicrosoft%2bCorp&licencenumber=HDS%20701569)
 
 ## <a name="how-to-implement"></a>Como implementar
 
-**Termos contratuais — O Código de Saúde Pública da França exige a execução de termos contratuais específicos entre o serviço de hospedagem de dados de saúde ou o provedor de serviços de nuvem e seus clientes. Os clientes qualificados devem entrar em contato com o ponto de contato de licenciamento da Microsoft para firmar esses termos contratuais específicos antes de hospedar dados pessoais de saúde nos serviços online da Microsoft.
-
-[Saúde e ciências da vida — Visões gerais de casos, guias de solução, tutoriais e outros recursos para ajudar a criar soluções do Azure.
+- **Termos contratuais**: O Código de Saúde Pública da França exige a execução de termos contratuais específicos entre o serviço de hospedagem de dados de saúde ou o provedor de serviços de nuvem e seus clientes. Os clientes qualificados devem entrar em contato com o ponto de contato de licenciamento da Microsoft para firmar esses termos contratuais específicos antes de hospedar dados pessoais de saúde nos serviços online da Microsoft.
+- **Saúde e ciências da vida**: Visões gerais de casos, guias de solução, tutoriais e outros recursos para ajudar a criar soluções do Azure.
 
 ## <a name="resources"></a>Recursos
 
 - [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Blog de certificação do Microsoft HDS](https://news.microsoft.com/fr-fr/2018/11/06/microsoft-1er-acteur-majeur-du-cloud-public-a-etre-certifie-hebergeur-de-donnees-de-sante-en-france/)
+- [Blog de certificação do Microsoft HDS](https://news.microsoft.com/2018/11/06/microsoft-1er-acteur-majeur-du-cloud-public-a-etre-certifie-hebergeur-de-donnees-de-sante-en-france/)
 - [Azure França](https://azure.microsoft.com/global-infrastructure/france/)
 - [Azure for health](https://azure.microsoft.com/industries/healthcare/)
 - [Segurança na Microsoft](https://www.microsoft.com/security)
