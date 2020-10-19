@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e594f758e0fb08b0b8718248466ecbc46903b82
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 7d83e86c77eb148c4c55be3f363966ac3c756e87
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327004"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594777"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -276,8 +276,8 @@ O relatório fornece a contagem de mensagens de email com conteúdo mal-intencio
 
 Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **status de proteção contra ameaças**. Para ir diretamente para o relatório, abra uma das seguintes URLs:
 
-- Office 365 ATP: <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
-- EOP <https://protection.office.com/reportv2?id=ATPAggregateLightReport>
+- Office 365 ATP: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
+- EOP <https://protection.office.com/reportv2?id=TPSAggregateReport>
 
 ![Widget status de proteção contra ameaças no painel relatórios](../../media/threat-protection-status-report-widget.png)
 
@@ -301,6 +301,20 @@ Os seguintes modos de exibição estão disponíveis:
   - **Arquivo acionamento**
 
   ![Exibição de malware de conteúdo no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-content-malware-view.png)
+
+- **Exibir dados por: substituição de mensagens**: as seguintes informações de motivo de substituição são exibidas:
+
+  - **Ignorar local**
+  - **Permissão de IP**
+  - **Regra de fluxo de emails**
+  - **Permissão de remetente**
+  - **Permissão de domínio**
+  - **ZAP não habilitado**
+  - **Pasta lixo eletrônico não habilitada**
+  - **Remetente seguro do usuário**
+  - **Domínio seguro do usuário**
+
+  ![Exibição de substituição de mensagens no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-message-override-view.png)
 
 - **Divida por: tecnologia de detecção** e **exibir dados por: \> Phish de email**: as informações a seguir são exibidas:
 
@@ -361,16 +375,24 @@ Os seguintes modos de exibição estão disponíveis:
 
 <sup>2</sup> a limpeza automática de zero horas (zap) não está disponível no EOP autônomo (funciona apenas em caixas de correio do Exchange Online).
 
-Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+Se você clicar em **filtros**, os filtros disponíveis dependerão do gráfico que você estava examinando:
+
+Para ** \> malware de conteúdo**, você pode modificar o relatório por **data de início** e **data de término**e o valor de **detecção** .
+
+Para **substituição de mensagens**, você pode modificar o relatório com os seguintes filtros:
+
+- **Data de início** e **data de término**
+- **Motivo da substituição**
+- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
+- **Domínio**
+
+Para todos os outros modos de exibição, você pode modificar o relatório com os seguintes filtros:
 
 - **Data de início** e **data de término**
 - **Detecção**
 - **Protegido por**: **ATP** ou **EOP**
 - **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
 - **Domínio**
-
-> [!NOTE]
-> **Protegido por**, a **marca** e o **domínio** são somente o Office 365 ATP. Essas propriedades filtráveis não estão disponíveis em **exibir dados por: \> malware de conteúdo**.
 
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>Exibição da tabela de detalhes para o relatório de status de proteção contra ameaças
 
@@ -379,14 +401,30 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 - **Exibir dados por: conteúdo \> Malware**:
 
   - **Date**
-  - **Localização**
+  - **Location**
   - **Direcionado por**
   - **Nome do malware**
+
+Se você clicar em **filtros** neste modo de exibição, poderá modificar o relatório por **data de início** e data de **término**e o valor de **detecção** .
+
+- **Exibir dados por: substituição de mensagem**:
+
+  - **Date**
+  - **Subject**
+  - **Sender**
+  - **Destinatários**
+  - **Detectado por**
+  - **Motivo da substituição**
+  - **Origem de comprometimento**
+  - **Marcas**
 
 Se você clicar em **filtros** neste modo de exibição, poderá modificar o relatório com os seguintes filtros:
 
 - **Data de início** e **data de término**
-- **Detecção**
+- **Motivo da substituição**
+- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
+- **Domínio**
+- **Destinatários** (Observe que essa propriedade Filterable só está disponível no modo de exibição tabela de detalhes)
 
 **Exibir dados por: visão geral**: não há botão **Exibir tabela detalhes** disponível.
 
@@ -439,7 +477,7 @@ O relatório de **mensagens relatadas pelo usuário** mostra informações sobre
 
 Os detalhes estão disponíveis para cada mensagem, incluindo o motivo da entrega, como uma exceção de política de spam ou uma regra de fluxo de email configurada para sua organização. Para exibir detalhes, selecione um item na lista relatórios do usuário e, em seguida, exiba as informações nas guias **Resumo** e **detalhes** .
 
-![O relatório mensagens relatadas pelo usuário mostra as mensagens que os usuários rotularam como lixo eletrônico, não lixo eletrônico ou tentativas de phishing.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
+![O relatório mensagens de User-Reported mostra as mensagens que os usuários rotularam como lixo eletrônico, não lixo eletrônico ou tentativas de phishing.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
 
 Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), siga um destes procedimentos:
 

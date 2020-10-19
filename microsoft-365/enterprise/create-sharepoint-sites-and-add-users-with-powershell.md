@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: 'Resumo: Use o PowerShell para criar novos sites do SharePoint Online e, em seguida, adicione usuários e grupos a esses sites.'
-ms.openlocfilehash: 4c4edbd68343f0eaf3a25a8c60a2af1e83b058b6
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 28a51cc39fe838f6c7f9c50e9d750d28e5d830c4
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687073"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594913"
 ---
 # <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>Criar sites do SharePoint Online e adicionar usuários com o PowerShell
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Ao usar o PowerShell para a Microsoft 365 para criar sites do SharePoint Online e adicionar usuários, você pode rapidamente e repetidamente realizar tarefas com mais rapidez do que no centro de administração do Microsoft 365. Você também pode executar tarefas que não são possíveis de realizar no centro de administração do Microsoft 365. 
 
@@ -43,6 +43,9 @@ Crie vários sites usando o PowerShell e um arquivo. csv que você cria usando o
 O cmdlet do PowerShell importa o arquivo. csv e o canaliza para um loop dentro das chaves que lê a primeira linha do arquivo como cabeçalhos de coluna. Em seguida, o cmdlet do PowerShell itera através dos registros restantes, cria um novo conjunto de sites para cada registro e atribui as propriedades do conjunto de sites de acordo com os cabeçalhos da coluna.
 
 ### <a name="create-a-csv-file"></a>Criando um arquivo .csv
+
+> [!NOTE]
+> O parâmetro de cota de recursos funciona somente em sites clássicos. Se você usar esse parâmetro em um site moderno, poderá receber uma mensagem de aviso informando que ela foi preterida. 
 
 1. Abra o bloco de notas e cole o seguinte bloco de texto:<br/>
 
@@ -164,4 +167,3 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 [Gerenciar o Microsoft 365 com o PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Introdução ao PowerShell para o Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-
