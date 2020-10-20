@@ -3,7 +3,7 @@ title: Configurar equipes com três camadas de proteção
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Recomendações de configuração para proteger arquivos no Microsoft Teams.
-ms.openlocfilehash: 2e432c37642db7247f670dfd8d2d72da6df428bb
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: e1ec598bede2419abc19db2dbe3fd3ff63d8f583
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377384"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594925"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Configurar equipes com três camadas de proteção
 
@@ -61,7 +61,7 @@ A tabela a seguir resume as configurações de cada camada. Use estas configura�
 
 A opção [Equipes com isolamento de segurança](secure-teams-security-isolation.md), uma variação da opção altamente confidencial, usa um rótulo de confidencialidade exclusivo para uma equipe, o que proporciona mais segurança. Você pode usar este rótulo para criptografar arquivos, e somente membros dessa equipe poderão lê-los.
 
-A proteção de linha de base inclui equipes públicas e privadas. As equipes públicas podem ser descobertas e acessadas por qualquer pessoa na organização. As equipes privadas podem ser descobertas e acessadas apenas por membros da equipe. Ambas as configurações restringem aos proprietários da equipe o compartilhamento do site do Microsoft Office SharePoint Online associado, para ajudar no gerenciamento de permissões.
+A proteção da linha de base inclui equipes públicas e privadas. As equipes públicas podem ser descobertas e acessadas por qualquer pessoa na organização. As equipes privadas podem ser descobertas e acessadas apenas por membros da equipe. Ambas as configurações restringem aos proprietários da equipe o compartilhamento do site do Microsoft Office SharePoint Online associado, para ajudar no gerenciamento de permissões.
 
 As equipes de proteção confidencial e altamente confidencial são equipes privadas, nas quais o compartilhamento e a solicitação de acesso ao site associado são limitados e os rótulos de confidencialidade são usados para definir políticas de compartilhamento de convidados, acesso de dispositivos e criptografia de conteúdo.
 

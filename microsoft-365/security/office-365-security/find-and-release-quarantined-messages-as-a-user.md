@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os usuários podem aprender como exibir e gerenciar mensagens em quarentena no Exchange Online Protection (EOP) que deveriam ter sido entregues a eles.
-ms.openlocfilehash: 03bcb0518b75d9a35aae1b6664b410b521adf940
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2a8e37dc430af5b3d3c47179c721d83832f01184
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202838"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600340"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Localizar e liberar mensagens em quarentena como usuário no EOP
 
@@ -100,6 +100,11 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
      - **Spam**
 
      - **Golpe**
+     
+   - **Tipo de Política**: Filtre mensagens por tipo de política:
+     - **Política Anti-phish**:
+     - **Política de filtro de conteúdo hospedado**
+     
 
    Para limpar o filtro, clique em **Limpar**. Para ocultar o submenu do filtro, clique novamente em **Filtro**.
 
@@ -108,6 +113,8 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
    - **ID da mensagem**: o identificador globalmente exclusivo da mensagem. Se você selecionar uma mensagem na lista, o valor da **ID da mensagem** será exibido no painel **Detalhes** que é exibido. Os administradores podem usar [Rastreamento da mensagem](message-trace-scc.md) para localizar mensagens e seus valores da ID da mensagem correspondentes.
 
    - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
+   
+   - **Nome da política**: Use o nome completo da política da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
    - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
 
