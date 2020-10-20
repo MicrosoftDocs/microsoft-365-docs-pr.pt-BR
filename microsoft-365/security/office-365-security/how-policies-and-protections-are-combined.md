@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a ordem de proteção de aplicativos na proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: e2da22bfbe0e7df70cf8d8b0d8cfd09eaf6e2ee3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6b17a524fb9dfbf5e33604c2ec26a678befc8834
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196042"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600280"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
 
@@ -41,13 +41,13 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
   |Priority|Proteção de email|Categoria|Onde gerenciar|
   |---|---|---|---|
   |1|Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
-  |2 |Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |duas|Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no EOP](learn-about-spoof-intelligence.md)|
-  |5 |Spam|GATO: SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
-  |6 |Em massa|GATO: EM MASSA|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
-  |178<sup>\*</sup>|Representação de domínio (usuários protegidos)|DIMP|[Configurar políticas anti-phishing ATP](configure-atp-anti-phishing-policies.md)|
-  |8<sup>\*</sup>|Representação de usuário (domínios protegidos)|UIMP|[Configurar políticas anti-phishing ATP](configure-atp-anti-phishing-policies.md)|
+  |0,5<sup>\*</sup>|Representação de usuário (domínios protegidos)|UIMP|[Configurar políticas anti-phishing da ATP](configure-atp-anti-phishing-policies.md)|
+  |6<sup>\*</sup>|Representação de domínio (usuários protegidos)|DIMP|[Configurar políticas anti-phishing da ATP](configure-atp-anti-phishing-policies.md)|
+  |7 |Spam|GATO: SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |8 |Em massa|GATO: EM MASSA|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |
 
   <sup>\*</sup> Esses recursos estão disponíveis apenas em políticas anti-phishing da ATP.
@@ -63,7 +63,7 @@ Por exemplo, considere as seguintes políticas de anti-phishing da ATP **que se 
   |Política de anti-phishing do ATP|Priority|Representação de usuário|Antifalsificação|
   |---|---|---|---|
   |Política A|1|Ativada|Desativada|
-  |Política B|2 |Desativada|Ativada|
+  |Política B|duas|Desativada|Ativada|
   |
 
 1. A mensagem é marcada e tratada como falsificação, porque a falsificação tem uma prioridade mais alta (4) do que a representação de usuário (8).

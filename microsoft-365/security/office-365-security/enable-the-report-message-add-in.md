@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o suplemento de mensagem de relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: 601e3850bf046f3a0c807976fd173a6e0ec7ce2a
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: b061d9db44b08a65b59481035c055a1b75eb6e3c
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350618"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600364"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
@@ -41,7 +41,7 @@ Os administradores podem habilitar o suplemento de mensagem de relatório para a
 
 Se você for um usuário individual, é possível [habilitar o relatório de suplemento de mensagens para você](#get-the-report-message-add-in-for-yourself).
 
-Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá [habilitar o suplemento de mensagem de relatório para sua organização](#get-and-enable-the-report-message-add-in-for-your-organization). O suplemento de mensagem de relatório agora está disponível por meio da [implantação centralizada](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
+Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá [habilitar o suplemento de mensagem de relatório para sua organização](#get-and-enable-the-report-message-add-in-for-your-organization). A mensagem de relatório Add-In agora está disponível por meio da [implantação centralizada](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -91,7 +91,7 @@ Para saber como usar o suplemento, confira [usar o suplemento de mensagem de rel
 > [!NOTE]
 > Pode levar até 12 horas para que o suplemento apareça em sua organização.
 
-1. No centro de administração do Microsoft 365, vá para a página **serviços & suplementos** <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> e clique em **implantar suplemento**.
+1. No centro de administração do Microsoft 365, vá para a página **configurações, aplicativos integrados & suplementos** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> , e clique em **implantar suplemento**.
 
    ![Página serviços e suplementos no centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -151,7 +151,7 @@ Ao notificar os usuários sobre o suplemento de mensagens de relatório, inclua 
 
 1. No centro de administração do Microsoft 365, acesse a página de **suplementos de & de serviços** em <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
 
-   ![Página serviços e suplementos no novo centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Página de serviços e Add-Ins no novo centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 2. Localize e selecione o suplemento de **mensagem de relatório** .
 

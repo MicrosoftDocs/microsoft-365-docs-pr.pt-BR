@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: b1eda98e081338a981be1d1f5991578b49c574fd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4009dcd506921b473e938828e5bdc10411c06ce2
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203162"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600316"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -71,7 +71,7 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
 
    > [!IMPORTANT]
    >
-   > - Nunca configure as regras de fluxo de email configurar *somente* com o domínio do remetente como a condição de ignorar a filtragem de spam. Isso aumentará *significativamente* a probabilidade de que os atacantes possam falsificar o domínio de envio (ou representar o endereço de email completo), ignorar todos os filtros de spam e ignorar as verificações de autenticação do remetente para que a mensagem chegue na caixa de entrada do destinatário.
+   > - Nunca configure as regras de fluxo de email *somente* com o domínio do remetente como a condição de ignorar a filtragem de spam. Isso aumentará *significativamente* a probabilidade de que os atacantes possam falsificar o domínio de envio (ou representar o endereço de email completo), ignorar todos os filtros de spam e ignorar as verificações de autenticação do remetente para que a mensagem chegue na caixa de entrada do destinatário.
    >
    > - Não use domínios que você possui (também conhecidos como domínios aceitos) ou domínios populares (por exemplo, microsoft.com) como condições em regras de fluxo de email. Isso é considerado alto risco, pois cria oportunidades para que os invasores enviem emails que, caso contrário, seriam filtrados.
    >
@@ -97,7 +97,7 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
 
 ## <a name="use-outlook-safe-senders"></a>Usar remetentes confiáveis do Outlook
 
-Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes confiáveis na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Isso não é desejável na maioria das situações, já que os remetentes ignorarão partes da pilha de filtragem. Embora você confie no remetente, as latas do remetente ainda serão comprometidas e poderão enviar conteúdo mal-intencionado. É melhor que nossos filtros façam o que é necessário para verificar cada mensagem e, em seguida, [relatar o falso positivo/negativo para a Microsoft](report-junk-email-messages-to-microsoft.md) se nossos filtros erram. Ignorar a pilha de filtragem também interfere em [zap](zero-hour-auto-purge.md).
+Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes confiáveis na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Isso não é desejável na maioria das situações, já que os remetentes ignorarão partes da pilha de filtragem. Embora você confie no remetente, o remetente ainda pode ser comprometido e enviar conteúdo mal-intencionado. É melhor que nossos filtros façam o que é necessário para verificar cada mensagem e, em seguida, [relatar o falso positivo/negativo para a Microsoft](report-junk-email-messages-to-microsoft.md) se nossos filtros erram. Ignorar a pilha de filtragem também interfere em [zap](zero-hour-auto-purge.md).
 
 Quando as mensagens ignoram a filtragem de spam devido à lista de remetentes confiáveis de um usuário, o campo de cabeçalho **X-Forefront-antispam-Report** conterá o valor `SFV:SFE` , que indica que a filtragem de spam, spoof e phishing foi ignorada.
 

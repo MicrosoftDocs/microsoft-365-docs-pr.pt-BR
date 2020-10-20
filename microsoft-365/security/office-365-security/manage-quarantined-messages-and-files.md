@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários na proteção do Exchange Online (EOP). Administradores nas organizações com a proteção avançada contra ameaças do Office 365 (Office 365 ATP) também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
-ms.openlocfilehash: 7e9b49e7e7a90f5271a65bb26cecdd1a7ce2ab84
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 5e1115157ef7d67bc7a3f626eb61d01ecc0986cb
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417214"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600536"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -95,6 +95,13 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
      - **Malware**
      - **Spam**
      - **Phishing de alta confiança**
+     
+   - **Tipo de política**: filtrar mensagens por tipo de política:
+     - **Política Antimalware**
+     - **Política de anexos seguros**
+     - **Política de anti-golpe**
+     - **Política de filtro de conteúdo hospedado**
+     - **Regra de transporte**
 
    - **Destinatário do email**: todos os usuários ou apenas as mensagens enviadas a você. Os usuários finais só podem gerenciar mensagens em quarentena enviadas para eles.
 
@@ -107,6 +114,8 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
      Por exemplo, você usou o [rastreamento de mensagens](message-trace-scc.md) para procurar uma mensagem que foi enviada a um usuário na sua organização, e você determina que a mensagem foi colocada em quarentena em vez de distribuída. Certifique-se de incluir o valor completo da ID da mensagem, que pode incluir colchetes angulares ( \<\> ). Por exemplo: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>`.
 
    - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
+
+   - **Nome da política**: Use o nome de política completo da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
    - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
 

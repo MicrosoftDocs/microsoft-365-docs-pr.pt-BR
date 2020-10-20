@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as notificações de spam do usuário final para mensagens em quarentena na proteção do Exchange Online (EOP).
-ms.openlocfilehash: 9d1da6c4db245ecb065a5a076f2bc6a9c275c494
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0440056e8e31d24e659f9d0ff6662f86f31a6189
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195814"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600292"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Usar notificações de spam do usuário para liberar e relatar mensagens em quarentena
 
@@ -58,3 +58,6 @@ Uma notificação de spam do usuário final contém as seguintes informações p
 - **Revisão**: clique neste link para ir para quarentena no centro de conformidade do & de segurança, onde você pode (dependendo de por que a mensagem foi colocada em quarentena) exibir, liberar, excluir ou relatar suas mensagens em quarentena. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um usuário no EOP](find-and-release-quarantined-messages-as-a-user.md).
 
 ![Exemplo de notificação de spam do usuário final](../../media/end-user-spam-notification.png)
+
+> [!NOTE]
+> Um remetente bloqueado ainda pode enviar emails. Qualquer mensagem desse remetente que a torne à sua caixa de correio será imediatamente movida para a pasta lixo eletrônico. As futuras mensagens desse remetente vão para a pasta lixo eletrônico ou para a quarentena do usuário final. Se quiser excluir essas mensagens na chegada em vez de colocar em quarentena, use regras de [fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (também conhecidas como regras de transporte) para excluir as mensagens na chegada.

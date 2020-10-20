@@ -1,5 +1,5 @@
 ---
-title: Políticas de envios do usuário
+title: Política de envios de usuários
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,14 +16,14 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar spam e emails de phishing relatados pelos usuários.
-ms.openlocfilehash: c8dec927442cc83752f7c3497f295008fae85377
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: c4792958d1e59cefd8b56c05b5e159f50be80c8b
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446922"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600476"
 ---
-# <a name="user-submissions-policies"></a>Políticas de envios do usuário
+# <a name="user-submissions-policy"></a>Política de envios de usuários
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -76,7 +76,7 @@ Depois de verificar se a caixa de correio atende a todos os pré-requisitos apli
 
 2. Na página **envios de usuários** que aparece, selecione uma das seguintes opções:
 
-   a. **Habilitar o recurso de mensagem de relatório para o Outlook (recomendado)**: Selecione essa opção se você usar o suplemento de mensagem de relatório ou os relatórios internos no Outlook na Web e, em seguida, defina as seguintes configurações:
+   1. **Habilitar o recurso de mensagem de relatório para o Outlook (recomendado)**: Selecione essa opção se você usar o suplemento de mensagem de relatório ou os relatórios internos no Outlook na Web e, em seguida, defina as seguintes configurações:
 
       - **Personalizar a mensagem de confirmação do usuário final**: clique neste link. No submenu **Personalizar mensagem de confirmação** que aparece, defina as seguintes configurações:
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: d33bd62e9a06385bf3448b7744031ae030dbe3ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 801463877db2e022ab84c3187367587c61f71090
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195838"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600574"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
@@ -320,13 +320,23 @@ A tabela de dados contém as informações a seguir, mostradas em ordem decresce
 
 - **Date**
 - **Email total**
-- **Proteção de borda**
-- **Anti-malware, reputação de arquivo, bloco de tipo de arquivo**
-- **Anti-Phish, reputação da URL, representação da marca, anti-falsificação**
-- **Anti-spam, filtragem de email em massa**
-- **Personificação de usuário e domínio (ATP)**
-- **Arquivo e URL acionamento (ATP)**
-- **Proteção de post-entrega e ZAP (ATP) ou ZAP (EOP)**
+- **Proteção de borda** 
+- **Anti-malware, reputação de arquivos, bloqueio de tipo de arquivo**:
+  - **Reputação do arquivo**: mensagens filtradas devido à identificação de um arquivo anexado por outros clientes da Microsoft.
+  - **Bloqueio de tipo de arquivo**: mensagens filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.      
+- **Anti-Phish, reputação da URL, representação da marca,** anti-falsificação:
+  - **Reputação da URL**: mensagens filtradas devido à identificação da URL por outros clientes da Microsoft.
+  - **Representação de marca**: mensagens filtradas devido à mensagem vindo de remetentes de marca conhecidos.
+  - **Anti-falsificação**: mensagens filtradas devido à mensagem que está tentando falsificar um domínio ao qual o destinatário pertence ou um domínio que não é proprietário do remetente da mensagem.  
+- **Anti-spam, filtragem de email em massa**:
+  - **Filtragem de email em massa**: mensagens filtradas devido a uma tentativa de entrega de email em massa para seus destinatários. 
+- **Personificação de usuário e domínio (ATP)**:
+  - **Representação do usuário**: mensagens filtradas devido a uma tentativa de representar um usuário (remetente da mensagem) que está definido nas configurações de proteção de representação de uma política anti-phishing.
+  - **Representação de domínio**: mensagens filtradas devido a uma tentativa de representar um domínio definido nas configurações de proteção de representação de uma política anti-phishing. 
+- **Arquivo e URL acionamento (ATP)**:
+  - **Acionamento de arquivo**: mensagens filtradas por uma política de anexos seguros.
+  - **URL acionamento**: mensagem filtrada por uma política de links seguros.  
+- **Proteção de pós-entrega e zap (ATP) ou zap (EOP)**: zap indica exclusão automática em zero hora.
 
 Se você selecionar uma linha na tabela de dados, uma divisão adicional das contagens de email será mostrada no submenu.
 
@@ -378,8 +388,10 @@ A tabela de dados contém as informações a seguir, mostradas em ordem decresce
 - **Date**
 - **Email total**
 - **Borda filtrada**
-- **Mecanismo Antimalware, anexos seguros, regra filtrada**
-- **DMARC, representação, falsificação, phishing filtrado**
+- **Mecanismo Antimalware, anexos seguros, regra filtrada**:
+  - **Regra filtrada**: mensagens filtradas devido a regras de fluxo de emails (também conhecidas como regras de transporte).
+- **DMARC, representação, falsificação, phishing filtrado**:
+  - **DMARC**: mensagens filtradas devido à falha da mensagem de verificação de autenticação do DMARC. 
 - **Detecção de URL acionamento**
 - **Filtrado por antispam**
 - **ZAP removido**

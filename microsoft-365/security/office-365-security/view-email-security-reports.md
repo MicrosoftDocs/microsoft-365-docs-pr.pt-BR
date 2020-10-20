@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d83e86c77eb148c4c55be3f363966ac3c756e87
-ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
+ms.openlocfilehash: 58c29d37d4f7deab17b2c24bfd7fb74e5ba9cb45
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594777"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600560"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -297,8 +297,8 @@ Os seguintes modos de exibição estão disponíveis:
 
 - **Exibir dados por: conteúdo \> Malware**<sup>1</sup>: as seguintes informações são mostradas para organizações do Office 365 ATP:
 
-  - **Mecanismo Antimalware**
-  - **Arquivo acionamento**
+  - **Mecanismo Antimalware**: captura de arquivos mal-intencionados no SharePoint Online, no onedrive e no Microsoft Teams por anti-malware.
+  - **Arquivo acionamento**: acionamento de arquivos mal-intencionados no SharePoint Online, no onedrive e no Microsoft Teams por anexos seguros.
 
   ![Exibição de malware de conteúdo no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-content-malware-view.png)
 
@@ -318,28 +318,28 @@ Os seguintes modos de exibição estão disponíveis:
 
 - **Divida por: tecnologia de detecção** e **exibir dados por: \> Phish de email**: as informações a seguir são exibidas:
 
-  - **Reputação da URL gerada por ATP**<sup>1</sup>
-  - **Filtro de phishing avançado**
-  - **Antifalsificação: falha de DMARC**
-  - **Anti-falsificação: dentro da organização**
-  - **Antifalsificação: domínio externo**
-  - **Representação da marca**
-  - **Representação de domínio**<sup>1</sup>
-  - **Reputação da URL do EOP**
-  - **Filtro de phishing geral**
+  - **Reputação de URL gerada por ATP**<sup>: reputação</sup>de URL mal-intencionado gerada a partir de ATP detonations em outros clientes da ATP.
+  - **Filtro avançado de Phish**: sinais de phishing baseados no Machine Learning.
+  - **Falha antifalsificação do DMARC**: falha na autenticação do DMARC nas mensagens.
+  - **Anti-spoof-intra-org**: o remetente está tentando falsificar o domínio do destinatário.
+  - **Antifalsificação-domínio externo**: o remetente está tentando falsificar outro domínio.
+  - **Representação da marca**: representação de marcas conhecidas com base nos remetentes.
+  - **Representação de domínio**<sup>1</sup>: representação de domínios pertencentes ao cliente ou definição.
+  - **Reputação da URL do EOP**: reputação de URL mal-intencionado.
+  - **Filtro de phishing geral**: sinais de phishing com base em regras de analista. 
   - **Outros**
-  - **Phishing zap**<sup>2</sup>
+  - **Phish zap**<sup>2</sup>: mensagens de phishing de limpeza automática de zero hora.
   - **URL acionamento**<sup>1</sup>
-  - **Representação de usuário**<sup>1</sup>
+  - **Representação de usuário**<sup>1</sup>: representação de usuários definidos por administrador ou aprendidos por meio da inteligência de caixa de correio.
 
   ![Exibição de tecnologia de detecção para email de phishing no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
 
 - **Divida por: tecnologia de detecção** e **exibir dados por: \> malware de email**: as informações a seguir são exibidas:
 
-  - **Reputação de arquivo gerado por ATP**<sup>1</sup>
-  - **Mecanismo anti-malware**<sup>1</sup>
-  - **Bloco de tipo de arquivo de política Antimalware**
-  - **Arquivo acionamento**<sup>1</sup>
+  - **Reputação de arquivo gerado por ATP**<sup>: toda</sup>a reputação de arquivos mal-intencionados gerada pela ATP detonations.
+  - **Mecanismo anti-malware**<sup>1</sup>: detecção de mecanismos antimalware.
+  - **Bloqueio de tipo de arquivo de política Antimalware**: Estas são mensagens de email filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.
+  - **Arquivo acionamento**<sup>1</sup>: o arquivo acionamento captura por anexos seguros.  
   - **Reputação de arquivos mal-intencionados**
   - **Malware zap**<sup>2</sup>
   - **Outros**

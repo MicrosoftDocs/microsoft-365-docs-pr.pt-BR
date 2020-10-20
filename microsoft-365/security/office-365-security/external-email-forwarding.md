@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: c0a3849d330b508630eb60c7ee24cd8b498a32b8
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 78ba5183667f4e5c6f713182969338f3ef2e7262
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417231"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600524"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Configurando o encaminhamento de email externo no Office 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "48417231"
 
 O encaminhamento externo é controlado pela *política antispam de saída* e com escopo para os usuários com base na configuração configurada. As 3 configurações atualmente são suportadas:
 
-- **Automático** – é controlado pelo sistema: ele permite que a filtragem de spam de saída controle o encaminhamento de email externo automático. Esta é a configuração padrão.
+- **Automático** – o encaminhamento externo automático é bloqueado. O encaminhamento automático de mensagens interno continuará funcionando. Esta é a configuração padrão.
 
 - **Ativado** – o encaminhamento externo automático é permitido e não é restrito.
 
