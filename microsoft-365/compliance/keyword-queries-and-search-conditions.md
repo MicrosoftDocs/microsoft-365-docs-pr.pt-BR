@@ -21,33 +21,32 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar no centro de conformidade & segurança do Office 365.
-ms.openlocfilehash: 5445c9485d7076b3819c796028a311a523a92dde
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar usando as ferramentas de pesquisa e descoberta eletrônica no Microsoft 365.
+ms.openlocfilehash: 4ca444c7e1d7b90f76e8c3f1b23afc7edad8e44b
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446190"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600444"
 ---
-# <a name="keyword-queries-and-search-conditions-for-content-search"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo
+# <a name="keyword-queries-and-search-conditions-for-content-search-and-ediscovery"></a>Consultas de palavra-chave e condições de pesquisa para pesquisa de conteúdo e descoberta eletrônica
 
-Este tópico descreve as propriedades de email e de documento que você pode pesquisar em itens de email no Exchange Online e documentos armazenados em sites do SharePoint e do OneDrive for Business usando o recurso de pesquisa de conteúdo no centro de conformidade do & de segurança. Você também pode usar os cmdlets ** \* -ComplianceSearch** no PowerShell do centro de conformidade e segurança & para pesquisar essas propriedades. O tópico também descreve:   
+Este tópico descreve as propriedades de email e de documento que você pode pesquisar em itens de email no Exchange Online e documentos armazenados em sites do SharePoint e do OneDrive for Business usando o recurso de pesquisa de conteúdo no centro de conformidade da Microsoft 365. Você também pode usar os cmdlets ** \* -ComplianceSearch** no PowerShell do centro de conformidade e segurança & para pesquisar essas propriedades. O tópico também descreve:
   
 - Usando operadores de pesquisa booleanos, condições de pesquisa e outras técnicas de consulta de pesquisa para refinar os resultados da pesquisa.
-    
-- Pesquisando tipos de dados confidenciais e tipos de dados confidenciais personalizados no SharePoint e no OneDrive for Business.
-    
-- Pesquisando conteúdo de site compartilhado com usuários fora da sua organização
-    
-Para obter instruções passo a passo sobre como criar uma pesquisa de conteúdo, consulte [pesquisa de conteúdo no Office 365](content-search.md).
 
-  
+- Pesquisando tipos de dados confidenciais e tipos de dados confidenciais personalizados no SharePoint e no OneDrive for Business.
+
+- Pesquisando conteúdo de site compartilhado com usuários fora da sua organização
+
+Para obter instruções passo a passo sobre como criar uma pesquisa de conteúdo, confira [pesquisa](content-search.md)de conteúdo.
+
 > [!NOTE]
-> Pesquisa de conteúdo no centro de conformidade e segurança & e os cmdlets do ** \* ComplianceSearch** correspondentes no PowerShell do centro de conformidade e segurança & usam o idioma de consulta de palavra-chave (KQL). Para obter informações mais detalhadas, consulte [referência de sintaxe de linguagem de consulta de palavra-chave](https://go.microsoft.com/fwlink/?LinkId=269603). 
+> Pesquisa de conteúdo no centro de conformidade da Microsoft 365 e os cmdlets do ** \* ComplianceSearch** correspondentes no PowerShell do centro de conformidade e segurança & use a palavra-chave Query Language (KQL). Para obter informações mais detalhadas, consulte [referência de sintaxe de linguagem de consulta de palavra-chave](https://go.microsoft.com/fwlink/?LinkId=269603). 
   
 ## <a name="searchable-email-properties"></a>Propriedades de emails pesquisáveis
 
-A tabela a seguir lista as propriedades de mensagens de email que podem ser pesquisadas usando o recurso de pesquisa de conteúdo no centro de conformidade & segurança ou usando o cmdlet **New-ComplianceSearch** ou **set-ComplianceSearch** . A tabela inclui um exemplo da sintaxe da  _Propriedade: Value_ para cada propriedade e uma descrição dos resultados da pesquisa retornados pelos exemplos. Você pode digitar esses  `property:value` pares na caixa palavras-chave para uma pesquisa de conteúdo. 
+A tabela a seguir lista as propriedades de mensagens de email que podem ser pesquisadas usando o recurso de pesquisa de conteúdo no centro de conformidade da Microsoft 365 ou usando o cmdlet **New-ComplianceSearch** ou **set-ComplianceSearch** . A tabela inclui um exemplo da sintaxe da  _Propriedade: Value_ para cada propriedade e uma descrição dos resultados da pesquisa retornados pelos exemplos. Você pode digitar esses  `property:value` pares na caixa palavras-chave para uma pesquisa de conteúdo. 
 
 > [!NOTE]
 > Ao pesquisar as propriedades de email, não é possível pesquisar itens em que a propriedade especificada está vazia ou em branco. Por exemplo, usando o par *Propriedade: Value* do **assunto: ""** para pesquisar mensagens de email com uma linha de assunto vazia retornará zero resultados. Isso também se aplica ao pesquisar Propriedades de site e de contato.
@@ -106,19 +105,19 @@ Para obter uma lista completa das propriedades do SharePoint que podem ser pesqu
 |FileName|O nome de um arquivo.|`filename:"marketing plan"`  <br/> `filename:estimate`|O primeiro exemplo retorna os arquivos com a frase exata "plano de marketing" no título. O segundo exemplo retorna arquivos com a palavra "estimativa" no nome de arquivo.|
 |LastModifiedTime|A data em que um item foi alterado pela última vez.|`lastmodifiedtime>=05/01/2016`  <br/> `lastmodifiedtime>=05/10/2016 AND lastmodifiedtime<=06/1/2016`|O primeiro exemplo retorna itens que foram alterados em ou após 1 de maio de 2016. O segundo exemplo retorna os itens que foram alterados entre 1º de maio de 2016 e 1 de junho de 2016.|
 |ModifiedBy|A pessoa que alterou um item pela última vez. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`modifiedby:"Garth Fort"`|Todos os itens que foram alterados pela última vez por Paulo Araújo.|
-|Path|O caminho (URL) de um site específico em um site do SharePoint ou do OneDrive for Business.  <br/> Para retornar itens localizados em pastas no site que você especificar para a propriedade Path, você precisa adicionar/ \* à URL do site especificado; por exemplo,  `path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **Observação:** O uso da  `Path` propriedade para pesquisar os locais do onedrive não retornará arquivos de mídia, como arquivos. png,. TIFF ou. wav, nos resultados da pesquisa. Use uma propriedade de site diferente em sua consulta de pesquisa para pesquisar arquivos de mídia em pastas do OneDrive. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens no site do OneDrive for Business especificado. O segundo exemplo retorna documentos no site especificado (e pastas no site) que contenham a palavra "confidencial" no nome do arquivo.|
+|Caminho|O caminho (URL) de um site específico em um site do SharePoint ou do OneDrive for Business.  <br/> Para retornar itens localizados em pastas no site que você especificar para a propriedade Path, você precisa adicionar/ \* à URL do site especificado; por exemplo,  `path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **Observação:** O uso da  `Path` propriedade para pesquisar os locais do onedrive não retornará arquivos de mídia, como arquivos. png,. TIFF ou. wav, nos resultados da pesquisa. Use uma propriedade de site diferente em sua consulta de pesquisa para pesquisar arquivos de mídia em pastas do OneDrive. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens no site do OneDrive for Business especificado. O segundo exemplo retorna documentos no site especificado (e pastas no site) que contenham a palavra "confidencial" no nome do arquivo.|
 |SharedWithUsersOWSUser|Documentos que foram compartilhados com o usuário especificado e exibidos na página **compartilhado comigo** no site do onedrive for Business do usuário. Estes são documentos que foram explicitamente compartilhados com o usuário especificado por outras pessoas na sua organização. Quando você exporta documentos que correspondem a uma consulta de pesquisa que usa a propriedade SharedWithUsersOWSUser, os documentos são exportados do local de conteúdo original da pessoa que compartilhou o documento com o usuário especificado. Para obter mais informações, consulte [pesquisando o conteúdo do site compartilhado em sua organização](#searching-for-site-content-shared-within-your-organization).|`sharedwithusersowsuser:garthf`  <br/> `sharedwithusersowsuser:"garthf@contoso.com"`|Ambos os exemplos retornam todos os documentos internos que foram explicitamente compartilhados com o Henrique Fort e que aparecem na página **compartilhado comigo** na conta do onedrive for Business do Henrique Fort.|
 |Site|A URL de um site ou grupo de sites em sua organização.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|O primeiro exemplo retorna itens dos sites do OneDrive for Business para todos os usuários da organização. O segundo exemplo retorna itens de todos os sites de equipe.|
 |Size|O tamanho de um item, em bytes.|`size>=1`  <br/> `size:1..10000`|O primeiro exemplo retorna itens com mais de 1 byte. O segundo exemplo retorna itens de 1 a 10.000 bytes de tamanho.|
 |Título|O título do documento. A propriedade Title é metadados especificados em documentos do Microsoft Office. É diferente do nome de arquivo do documento.|`title:"communication plan"`|Qualquer documento que contém a frase "plano de comunicação" na propriedade de metadados Title de um documento do Office.|
 |||||
-   
+
 ## <a name="searchable-contact-properties"></a>Propriedades de contato pesquisáveis
 
 A tabela a seguir lista as propriedades de contato que estão indexadas e que você pode pesquisar usando a pesquisa de conteúdo. Essas são as propriedades disponíveis para que os usuários configurem os contatos (também chamados de contatos pessoais) localizados no catálogo de endereços pessoal da caixa de correio de um usuário. Para pesquisar contatos, você pode selecionar as caixas de correio a serem pesquisadas e, em seguida, usar uma ou mais propriedades de contato na consulta de palavra-chave.
   
 > [!TIP]
-> Para pesquisar valores que contenham espaços ou caracteres especiais, use aspas duplas ("") para conter a frase; por exemplo,  `businessaddress:"123 Main Street"` . 
+> Para pesquisar valores que contenham espaços ou caracteres especiais, use aspas duplas ("") para conter a frase; por exemplo, `businessaddress:"123 Main Street"` .
   
 |**Property**|**Descrição da propriedade**|
 |:-----|:-----|
@@ -144,18 +143,19 @@ A tabela a seguir lista as propriedades de contato que estão indexadas e que vo
 
 ## <a name="searchable-sensitive-data-types"></a>Tipos de dados confidenciais pesquisáveis
 
-Você pode usar o recurso de pesquisa de conteúdo no centro de conformidade e segurança para pesquisar dados confidenciais, como números de cartão de crédito ou números de seguridade social, que são armazenados em documentos nos sites do SharePoint e do OneDrive for Business. Você pode fazer isso usando a  `SensitiveType` propriedade e o nome de um tipo de informação confidencial em uma consulta de palavra-chave. Por exemplo, a consulta  `SensitiveType:"Credit Card Number"` retorna documentos que contenham um número de cartão de crédito. A consulta  `SensitiveType:"U.S. Social Security Number (SSN)"` retorna documentos que contenham um número de segurança social dos EUA. Para ver uma lista dos tipos de dados confidenciais que você pode pesquisar, vá para **classificações** de \> **tipos de informações confidenciais** no centro de conformidade de & de segurança. Ou você pode usar o cmdlet **Get-DlpSensitiveInformationType** no PowerShell do centro de conformidade e segurança & para exibir uma lista de tipos de informações confidenciais. 
-  
-Você também pode usar a  `SensitiveType` propriedade para pesquisar o nome de um tipo de informação confidencial personalizado que você (ou outro administrador) criou para sua organização. Você pode usar a coluna **Publisher** na página **tipos de informações confidenciais** no centro de conformidade & segurança (ou na propriedade **Publisher** no PowerShell) para diferenciar entre os tipos de informações confidenciais internos e personalizados. Para obter mais informações, consulte [criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md).
+Você pode usar o recurso de pesquisa de conteúdo no centro de conformidade para pesquisar dados confidenciais, como números de cartão de crédito ou números de segurança social, que são armazenados em documentos nos sites do SharePoint e do OneDrive for Business. Você pode fazer isso usando a `SensitiveType` propriedade e o nome de um tipo de informação confidencial em uma consulta de palavra-chave. Por exemplo, a consulta `SensitiveType:"Credit Card Number"` retorna documentos que contenham um número de cartão de crédito. A consulta  `SensitiveType:"U.S. Social Security Number (SSN)"` retorna documentos que contenham um número de segurança social dos EUA. Para ver uma lista dos tipos de dados confidenciais que você pode pesquisar, acesse tipos de informações confidenciais de **classificações de dados** \> **Sensitive info types** no centro de conformidade da Microsoft 365. Ou você pode usar o cmdlet **Get-DlpSensitiveInformationType** no PowerShell do centro de conformidade e segurança & para exibir uma lista de tipos de informações confidenciais.
   
 Para obter mais informações sobre como criar consultas usando a  `SensitiveType` propriedade, consulte [formulário uma consulta para encontrar dados confidenciais armazenados em sites](form-a-query-to-find-sensitive-data-stored-on-sites.md).
 
-> [!NOTE]
-> Você não pode usar tipos de dados confidenciais e a `SensitiveType` Propriedade Search para pesquisar dados confidenciais em caixas de correio do Exchange Online. No entanto, você pode usar políticas de DLP (prevenção contra perda de dados) para proteger dados confidenciais de email em trânsito. Para obter mais informações, consulte [visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) e [pesquisa e localização de dados pessoais](search-for-and-find-personal-data.md).
+### <a name="limitations-for-searching-sensitive-data-types"></a>Limitações para Pesquisar tipos de dados confidenciais
+
+- Você só pode usar a `SensitiveType` propriedade para Pesquisar tipos de dados de informações confidenciais internas. Você não pode Pesquisar tipos de dados confidenciais personalizados que você (ou outro administrador) criou para sua organização. Use a coluna **Publisher** na guia **tipos de informações confidenciais** no centro de conformidade (ou na propriedade **Publisher** no PowerShell) para diferenciar entre os tipos de informações confidenciais internos e personalizados. Os tipos de dados confidenciais internos são identificados pelo valor da **Microsoft Corporation** na coluna do **Publisher** .
+  
+- Você não pode usar tipos de dados de informações confidenciais e a `SensitiveType` Propriedade Search para pesquisar dados confidenciais em caixas de correio do Exchange Online. No entanto, você pode usar políticas de prevenção de perda de dados (DLP) para proteger dados de email confidenciais em trânsito. Para obter mais informações, consulte [visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) e [pesquisa e localização de dados pessoais](search-for-and-find-personal-data.md).
   
 ## <a name="search-operators"></a>Operadores de pesquisa
 
-Operadores de pesquisa booleanos, como **e**, **ou**, e **não**, ajudam você a definir pesquisas mais precisas, incluindo ou excluindo palavras específicas na consulta de pesquisa. Outras técnicas, como o uso de operadores de propriedade (como \> = ou..), aspas, parênteses e curingas, ajudam a refinar uma consulta de pesquisa. A tabela a seguir lista os operadores que você pode usar para restringir ou ampliar os resultados de pesquisa. 
+Operadores de pesquisa booleanos, como **e**, **ou**, e **não**, ajudam você a definir pesquisas mais precisas, incluindo ou excluindo palavras específicas na consulta de pesquisa. Outras técnicas, como o uso de operadores de propriedade (como `>=` ou `..` ), aspas, parênteses e curingas, ajudam a refinar uma consulta de pesquisa. A tabela a seguir lista os operadores que você pode usar para restringir ou ampliar os resultados de pesquisa. 
   
 |**Operator**|**Usage**|**Descrição**|
 |:-----|:-----|:-----|

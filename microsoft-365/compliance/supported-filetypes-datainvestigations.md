@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Uma tabela que lista os tipos de arquivo com suporte e quais visualizadores eles podem ser exibidos no para investigações de dados (visualização).
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4dab40f5c3098d05323edec0ddbab54ac29273
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 826ad69b1fb0074cd0c8bc1b3b0208bb8e77d528
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285267"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600410"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>Tipos de arquivo com suporte em investigações de dados (versão prévia)
 
@@ -47,7 +47,7 @@ A ferramenta de investigações de dados (visualização) oferece suporte a vár
 |application/vnd. openxmlformats-officeDocument. presentationml. Template | Documento | Sim | Sim | Sim | Não | . potx |
 | planilha apadsheetml. | Documento | Sim | Sim | Sim | Não | . xlsx |
 |application/vnd. openxmlformats-officeDocument. SpreadsheetML. Template | Documento | Sim | Sim | Sim | Não | . xltx |
-|aplicativo/vnd.openxmlformats-officedocument.wordproessingml.document | Documento | Sim | Sim | Sim | Não | . docx |
+|application/vnd.openxmlformats-officedocument.wordprocessingml.document | Documento | Sim | Sim | Sim | Não | . docx |
 |application/vnd. openxmlformats-officeDocument. WordprocessingML. Template | Documento | Sim | Sim | Sim | Não | . dotx |
 |application/vnd. Visio | Documento | Sim | Sim | Sim | Não | . vsd |
 |aplicativo/x-7z-compactado | Arquivo morto/contêiner | Não | Não | Não | Sim | .7z |

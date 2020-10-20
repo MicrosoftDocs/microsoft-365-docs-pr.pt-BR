@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: c98c0081d95da19e79db03dc4b4fdb823a14e42c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: ffa2d54385249a22d672be0c2591c3b4171bd10d
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377266"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600376"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Introdução às configurações de gerenciamento de risco do insider
 
@@ -59,7 +59,7 @@ Os alertas são acionados por políticas quando os usuários executam atividades
 Os indicadores de política são segmentados nas seguintes áreas. Você pode escolher os indicadores para ativar e personalizar limites de eventos de indicador para cada nível de indicador ao criar uma política de risco de insider:
 
 - **Indicadores do Office**: eles incluem indicadores de política para sites, equipes e mensagens de email do SharePoint.
-- **Indicadores de dispositivo**: incluem indicadores de política para atividades como compartilhamento de arquivos pela rede ou com dispositivos. Os indicadores incluem atividade envolvendo arquivos do Microsoft Office. Arquivos CSV e. Arquivos PDF. Se você selecionar **indicadores de dispositivo**, Activity será processada somente para dispositivos com o Windows 10 Build 1809 ou superior. Para obter mais informações sobre a configuração de dispositivos para integração com o Insider, consulte [Getting Started with Endpoint DLP](endpoint-dlp-getting-started.md).
+- **Indicadores de dispositivo**: incluem indicadores de política para atividades como compartilhamento de arquivos pela rede ou com dispositivos. Os indicadores incluem atividade envolvendo arquivos do Microsoft Office. Arquivos CSV e. Arquivos PDF. Se você selecionar **indicadores de dispositivo**, Activity será processada somente para dispositivos com o Windows 10 Build 1809 ou superior. Para obter mais informações sobre como configurar dispositivos para integração com o Insider risco, consulte a seção [habilitar indicadores de dispositivo e dispositivos integrados](insider-risk-management-settings.md#OnboardDevices) .
 - **Indicador de violação de política de segurança**: isso inclui indicadores do Microsoft defender ATP relacionados à instalação de software mal-intencionado ou não aprovado ou bypass de controles de segurança. Para receber alertas no gerenciamento de risco do Insider, você deve ter uma licença do Microsoft defender ATP ativa e uma integração de risco Insider habilitada. Para obter mais informações sobre como configurar o Microsoft defender ATP para integração do gerenciamento de risco do Insider, consulte [configurar recursos avançados no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center).
 - **Aceleradores de Pontuação de risco**: isso inclui elevar a pontuação de risco de atividades incomuns ou violações de política passadas. Habilitar os aceleradores de Pontuação de risco aumentam as pontuações de risco e a probabilidade de alertas desses tipos de atividades. Os aumentos de Pontuação de risco só poderão ser selecionados se um ou mais indicadores acima estiverem selecionados.
 
@@ -71,6 +71,73 @@ Para definir os indicadores de política de risco do insider habilitados em toda
 
 >[!NOTE]
 >Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel usuários**. As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para exibir as atividades de usuários adicionados manualmente, selecione o usuário no **painel usuários** e abra a guia **atividade do usuário** no painel de detalhes.
+
+### <a name="enable-device-indicators-and-onboard-devices"></a>Habilitar indicadores de dispositivo e dispositivos integrados
+<a name="OnboardDevices"> </a>
+
+Para habilitar o monitoramento de atividades de risco em dispositivos e incluir indicadores de política para essas atividades, seus dispositivos devem atender aos seguintes requisitos e você deve concluir as seguintes etapas de integração.
+
+#### <a name="step-1-prepare-your-endpoints"></a>Etapa 1: preparar seus pontos de extremidade
+
+Certifique-se de que os dispositivos Windows 10 que você pretende relatar no gerenciamento de risco do insider atendam a esses requisitos.
+
+1. Deve estar executando o Windows 10 x64 build 1809 ou superior.
+2. Todos os dispositivos devem estar [ingressados no Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) ou no Azure AD híbrido.
+3. Instale o Microsoft Chromium Edge browser no dispositivo de ponto de extremidade para monitorar ações para a atividade de upload de nuvem. Confira, [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
+
+#### <a name="step-2-onboarding-devices"></a>Etapa 2: dispositivos de integração
+<a name="OnboardStep2"> </a>
+
+Você deve habilitar o monitoramento de dispositivos e integrado aos pontos de extremidade antes de monitorar as atividades de gerenciamento de risco do insider em um dispositivo. Estas ações estão concluídas no portal de conformidade do Microsoft 365.
+
+Quando você quiser que os dispositivos integrados ainda não estejam integrados, baixe o script apropriado e implante conforme descrito nas etapas a seguir.
+
+Se você já tiver dispositivos integrados na [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), eles já serão exibidos na lista dispositivos gerenciados. Siga a [etapa 3: se você tiver dispositivos integrados ao Microsoft defender para ponto de extremidade](insider-risk-management-settings.md#OnboardStep3) na próxima seção.
+
+Neste cenário de implantação, você integrará dispositivos que ainda não foram integrados e você apenas deseja monitorar as atividades de risco do insider em dispositivos Windows 10.
+
+1. Abra o [Centro de conformidade do Microsoft](https://compliance.microsoft.com).
+2. Abra a página de configurações do Centro de conformidade e escolha **Integrar dispositivos**.
+
+   > [!NOTE]
+   > Enquanto a integração de dispositivos geralmente leva cerca de 60 segundos para que seja habilitada, aguarde até 30 minutos antes de se envolver com o suporte da Microsoft.
+
+3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. A lista estará vazia até você integrar os dispositivos.
+4. Escolha **Integração** para iniciar o processo de integração.
+5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos do Microsoft Defender para Ponto de Extremidade que correspondem ao pacote de implantação selecionado na etapa 5:
+    - Integrar computadores com Windows 10 usando uma política de grupo
+    - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
+    - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
+    - Integrar computadores com Windows 10 usando um script local
+    - Integrar computadores não persistentes da VDI (infraestrutura de desktop virtual).
+
+Depois de concluído e o ponto de extremidade é integrado, ele deve estar visível na lista de dispositivos e o ponto de extremidade começará a relatar logs de atividade de auditoria ao gerenciamento de riscos Insider.
+
+> [!NOTE]
+> Esta experiência está na imposição da licença. Sem a licença necessária, os dados não estarão visíveis nem acessíveis.
+
+#### <a name="step-3-if-you-have-devices-onboarded-into-microsoft-defender-for-endpoint"></a>Etapa 3: se você tiver dispositivos integrados ao Microsoft defender para ponto de extremidade
+<a name="OnboardStep3"> </a>
+
+Se o Microsoft defender para ponto de extremidade já estiver implantado e houver relatórios de pontos de extremidade no, todos esses pontos de extremidade aparecerão na lista de dispositivos gerenciados. Você pode continuar a integrar novos dispositivos no gerenciamento de risco do insider para expandir a cobertura usando a seção [etapa 2: dispositivos de integração](insider-risk-management-settings.md#OnboardStep2) .
+
+1. Abra o [Centro de conformidade do Microsoft](https://compliance.microsoft.com).
+2. Abra a página de configurações do Centro de conformidade e escolha **Habilitar o monitoramento de dispositivos**.
+3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. Você deverá ver a lista de dispositivos que já estão relatando para o Microsoft Defender para Ponto de Extremidade.
+4. Escolha **Integração**, caso precise integrar dispositivos adicionais.
+5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos do Microsoft Defender para Ponto de Extremidade que correspondem ao pacote de implantação selecionado na etapa 5:
+    - Integrar computadores com Windows 10 usando uma política de grupo
+    - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
+    - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
+    - Integrar computadores com Windows 10 usando um script local
+    - Integrar computadores não persistentes da VDI (infraestrutura de desktop virtual).
+
+Depois de concluído e o ponto de extremidade é integrado, ele deve estar visível na tabela **dispositivos** e o ponto de extremidade começará a relatar logs de atividade de auditoria para o gerenciamento de riscos Insider.
+
+> [!NOTE]
+>Esta experiência está na imposição da licença. Sem a licença necessária, os dados não estarão visíveis nem acessíveis.
 
 ### <a name="indicator-level-settings-preview"></a>Configurações de nível de indicador (versão prévia)
 
@@ -177,7 +244,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 | AlertType | O tipo do alerta é *personalizado*.  |
 | AlertId | O GUID do alerta. Os alertas de gerenciamento de risco do insider são mutáveis. À medida que o status do alerta é alterado, um novo log com o mesmo Alertid é gerado. Este Alertid pode ser usado para correlacionar as atualizações de um alerta. |
 | Categoria | A categoria do alerta é *InsiderRiskManagement*. Essa categoria pode ser usada para distinguir esses alertas de outros alertas de segurança & de conformidade. |
-| Comentários | Comentários padrão para o alerta. Os valores são um *alerta novo* (registrado quando um alerta é criado) e o *alerta é atualizado* (registrado quando há uma atualização para um alerta). Use o Alertid para correlacionar as atualizações de um alerta. |
+| Comments | Comentários padrão para o alerta. Os valores são um *alerta novo* (registrado quando um alerta é criado) e o *alerta é atualizado* (registrado quando há uma atualização para um alerta). Use o Alertid para correlacionar as atualizações de um alerta. |
 | Dados | Os dados para o alerta incluem a ID de usuário exclusiva, o nome principal do usuário e a data e hora (UTC) quando o usuário foi disparado em uma política. |
 | Nome | Nome da política para a política de gerenciamento de risco do insider que gerou o alerta. |
 | PolicyId | O GUID da política de gerenciamento de risco do insider que disparou o alerta. |
@@ -192,7 +259,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 - Id
 - RecordType
 - CreationTime
-- Operação
+- Operation
 - OrganizationId
 - UserType
 - UserKey
