@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Saiba como ativar, renovar ou adicionar licenças a uma assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: f0e8de1546c5efdde907209e98f9ee5d710ab2c2
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 59235c7af5ec39ba830f77aca6170727fedf91c5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818550"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647874"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Insira a chave do produto comprada da Microsoft Open
 

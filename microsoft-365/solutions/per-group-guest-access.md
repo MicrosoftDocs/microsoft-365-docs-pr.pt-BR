@@ -1,5 +1,5 @@
 ---
-title: Bloquear usuários convidados de um grupo específico
+title: Impedir que usuários convidados sejam adicionados a um grupo específico
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,21 +14,23 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Bloquear usuários convidados de um grupo específico
-ms.openlocfilehash: 17e5f8f9ab4107a12a0607dca3795d54b7be012c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Saiba como impedir que usuários convidados sejam adicionados a um grupo específico
+ms.openlocfilehash: 91c7560186fb0b954075e9ff9c997b34121951cd
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377300"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651345"
 ---
-# <a name="block-guest-users-from-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Bloquear usuários convidados de um grupo específico do Microsoft 365 ou uma equipe do Microsoft Teams
+# <a name="prevent-guest-users-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Impedir que os usuários convidados sejam adicionados a um grupo específico do Microsoft 365 Teams ou do Microsoft Teams
 
-Se você quiser permitir o acesso de convidados à maioria dos grupos e equipes, mas tiver algumas situações em que você deseja impedir o acesso de convidados, é possível bloquear o acesso de convidados para grupos e equipes individuais. (Bloquear o acesso de convidados a uma equipe é feito bloqueando o acesso de convidados ao grupo associado.)
+Se você quiser permitir o acesso de convidados à maioria dos grupos e equipes, mas tiver algumas situações em que você deseja impedir o acesso de convidados, é possível bloquear o acesso de convidados para grupos e equipes individuais. (Bloquear o acesso de convidados a uma equipe é feito bloqueando o acesso de convidados ao grupo associado.) Isso impede que novos convidados sejam adicionados, mas não remove convidados que já estão no grupo ou na equipe.
 
 Se você usar rótulos de confidencialidade em sua organização, recomendamos usá-los para controlar o acesso de convidados por grupo. Para obter informações sobre como fazer isso, [use rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, microsoft 365 Groups e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). Esta é a abordagem recomendada.
 
-Você também pode bloquear o acesso de convidados a grupos individuais usando o Microsoft PowerShell.
+## <a name="change-group-settings-using-microsoft-powershell"></a>Alterar as configurações de grupo usando o Microsoft PowerShell
+
+Você também pode impedir a adição de novos convidados a grupos individuais usando o PowerShell.
 
 Você deve usar a versão de visualização do [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (nome do módulo **AzureADPreview**) para alterar a configuração de acesso de convidados em nível de Grupo:
 

@@ -1,10 +1,10 @@
 ---
-title: Migrar os usuários para outra assinatura
+title: Migrar usuários para uma assinatura diferente
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,14 +20,14 @@ search.appverid:
 - MET150
 description: Saiba como mover usuários entre assinaturas.
 ms.date: 07/01/2020
-ms.openlocfilehash: d110ee7c49befa34f5a2cd3bb44dc114aec25b62
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 79f3e4636ff047c4d6f27d83e3644913a8fbb0b5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016536"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647790"
 ---
-# <a name="move-users-to-a-different-subscription"></a>Migrar os usuários para outra assinatura
+# <a name="move-users-to-a-different-subscription"></a>Migrar usuários para uma assinatura diferente
 
 ::: moniker range="o365-21vianet"
 
@@ -42,7 +42,7 @@ Se você tiver mais de uma assinatura, peça aos usuários com uma licença para
 
 Você deve ser um administrador global, de licença ou de usuário para atribuir licenças. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
-## <a name="move-users-to-a-different-subscription"></a>Migrar os usuários para outra assinatura
+## <a name="move-users-to-a-different-subscription"></a>Migrar usuários para uma assinatura diferente
 
 ::: moniker range="o365-worldwide"
 

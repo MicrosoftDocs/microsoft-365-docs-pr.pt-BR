@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba como gerenciar assinaturas gratuitas de inscrição de autoatendimento para sua organização.
-ms.openlocfilehash: 81c67292a394c62d6057022babb88aa8796b9b3d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fb70d0c40d4358abc227c8f6ff4a0e0dce1a7265
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403241"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647826"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Gerenciar assinaturas de inscrição de autoatendimento
 
@@ -44,7 +44,7 @@ Use o cmdlet [**set-MsolCompanySettings**](https://docs.microsoft.com/powershell
 > [!IMPORTANT]
 > Quando você exclui uma assinatura de inscrição de autoatendimento, impede que todos os usuários acessem seus dados e emails e exclua todos os dados e email.
 
-1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
 2. Encontre a assinatura de inscrição de autoatendimento que você deseja excluir. Na seção **configurações & ações** , selecione **excluir assinatura**.
 3. No painel **excluir assinatura** , marque a caixa de seleção e, em seguida, selecione **excluir assinatura**.
 
