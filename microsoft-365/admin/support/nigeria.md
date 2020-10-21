@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: adce3f2525c92b8cee565f759a94081bc2f75231
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c96c46edbd746eb5a4c53cea38fc033c6f2e31ef
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306510"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640602"
 ---
 # <a name="contact-support-for-nigeria"></a>Contatar o suporte para Nigéria
 
@@ -34,7 +34,7 @@ Insira o código 7705
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Seg-Sex 9 AM-5 P.M.
+Inglês: Mon-Fri 9 AM-5 PM
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

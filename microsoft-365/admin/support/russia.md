@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3ba15712054641d88fe7fbe0d0213e7ca82aa7e6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 79a563b44979f9fc4d8cc053575a0ca76ed3a846
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44390776"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640122"
 ---
 # <a name="contact-support-for-russia"></a>Contatar o suporte para a Rússia
 
@@ -28,15 +28,15 @@ ms.locfileid: "44390776"
 8 10 800 2548 1044
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Russo: Seg-Sex 10 A.M.-7 P.M. Moscou
+Russo: Mon-Fri 10 de AM-7 PM Moscou
 
-Inglês: Seg-Sex 9 AM-5 P.M. Londres
+Inglês: Mon-Fri 9 AM-5 P.M. Londres
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Russo: Seg-Sex 7 A.M.-8 P.M. Moscou
+Russo: Mon-Fri 7 de manhã-8 P.M. Moscou
 
 Inglês: 24 horas por dia, 7 dias por semana
 

@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad996ca8bde6b540d4c55fc34d4fa315cec04a2c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9a553ccff4b9d034cdd269e5df6cc484ba808682
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388432"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639846"
 ---
 # <a name="contact-support-for-senegal"></a>Contatar o suporte para o Senegal
 
@@ -32,14 +32,14 @@ Após discar, digite
 877 867 2337
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Seg-Sex 8 AM-4 P.M.
+Francês: Mon-Fri 8 P.M.
 
-Inglês: Seg-Sex 8 AM-4 P.M.
+Inglês: Mon-Fri 8 AM-4 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Seg-Sex 7 AM-8 P.M.
+Francês: Mon-Fri 7 AM-8 P.M.
 
 Inglês: 24 horas por dia, 7 dias por semana

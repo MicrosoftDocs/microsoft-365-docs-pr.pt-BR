@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 57c9f31f6d25637c9325e7006de943c14e6d9113
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d6ea0c0f89d1d9a5cdaf48f6e7bcfad62495f886
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389248"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639882"
 ---
 # <a name="contact-support-for-san-marino"></a>Contatar o suporte para San Marino
 
@@ -28,15 +28,15 @@ ms.locfileid: "44389248"
 + 1 312 843 5154
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Italiano: Seg-Sex 10 AM-6 PM
+Italiano: Mon-Fri 10 PM
 
-Inglês: Seg-Sex 10 AM-6 PM
+Inglês: Mon-Fri 10 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Italiano: Seg-Sex 9 AM-10 PM
+Italiano: Mon-Fri 9 AM-10 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 

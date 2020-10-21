@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2da3e49526a09eff0521fc0c627dd55b501aa724
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f298e84091af9acf56f78950cc26c59226e5cede
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44391316"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640290"
 ---
 # <a name="contact-support-for-portugal"></a>Contatar o suporte para Portugal
 
@@ -28,13 +28,13 @@ ms.locfileid: "44391316"
 800 208 745
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Seg-Sex 9 AM-5 P.M.
+Inglês: Mon-Fri 9 AM-5 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Português: Seg-Sex 8 AM-6 PM
+Português: Mon-Fri 8 de manhã às 18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 

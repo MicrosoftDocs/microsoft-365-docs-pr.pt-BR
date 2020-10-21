@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9b800079eead1dc124d39f3e5f5600fbaa2bc9a8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 323261fdeba1366c4ccf9fd556ad2069f85cacbf
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401829"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639078"
 ---
 # <a name="contact-support-for-turkey"></a>Contatar o suporte para Turquia
 
@@ -28,14 +28,14 @@ ms.locfileid: "44401829"
 0 850 3902777
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Turco: Seg-Sex 9 AM-6 PM
+Turco: Mon-Fri 9 AM-6 PM
 
-Inglês: Seg-Sex 9 AM-6 PM
+Inglês: Mon-Fri 9 AM-6 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Turco: Seg-Sex 8 AM-6 P.M.
+Turco: Mon-Fri 8 AM-6 PM
 
 Inglês: 24 horas por dia, 7 dias por semana

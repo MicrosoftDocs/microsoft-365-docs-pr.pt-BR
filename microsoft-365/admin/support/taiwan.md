@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6e8a7d353f1f1d07bd879a757d4a9123987c5f66
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c1bdebfbcf8968cac27464a426568541f560463c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401513"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639330"
 ---
 # <a name="contact-support-for-taiwan"></a>Contatar o suporte para Taiwan
 
@@ -28,15 +28,15 @@ ms.locfileid: "44401513"
 0800 666 802
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Chinês (mandarim): Seg-Sex 9 AM-6 PM
+Chinês (mandarim): Mon-Fri 9 AM-6 PM
 
-Inglês: Seg-Sex 9 AM-6 PM local
+Inglês: Mon-Fri 9 AM-6 PM local
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Chinês (mandarim): Seg-Sex 9 AM-6 PM
+Chinês (mandarim): Mon-Fri 9 AM-6 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 

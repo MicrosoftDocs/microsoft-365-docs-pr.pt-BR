@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cedd5763f4d563de90b181d9d0340299bed8e528
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 640a58a30d6ceb053e95060174119f60b35802d9
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388396"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639810"
 ---
 # <a name="contact-support-for-sierra-leone"></a>Contatar o suporte para Serra Leoa
 
@@ -28,11 +28,11 @@ ms.locfileid: "44388396"
 + 1 312 843 5151
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Seg-Sex 9 AM-5 P.M.
+Inglês: Mon-Fri 9 AM-5 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 

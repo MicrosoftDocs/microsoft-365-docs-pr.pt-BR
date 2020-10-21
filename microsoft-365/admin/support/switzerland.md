@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c1044330e80871bacfd603dbfacef7fd73ad6fa7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e676b8f635f5f62aeeb2e7e44cd7d7ead2f8b358
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401393"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639342"
 ---
 # <a name="contact-support-for-switzerland"></a>Contatar o suporte para Suíça
 
@@ -28,23 +28,23 @@ ms.locfileid: "44401393"
 0800 000 300
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Seg-Sex 9 AM-5 P.M.
+Francês: Mon-Fri 9 PM
 
-Alemão: Seg-Sex 9 AM-5 P.M.
+Alemão: Mon-Fri 9 AM-5 PM
 
-Italiano: Seg-Sex 9 AM-5 P.M.
+Italiano: Mon-Fri 9 AM-5 PM
 
-Inglês: Seg-Sex 9 AM-5 P.M.
+Inglês: Mon-Fri 9 AM-5 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Seg-Sex 8 AM-9 PM
+Francês: Mon-Fri 8 P.M.
 
-Alemão: Seg-Sex 8 AM-9 PM
+Alemão: Mon-Fri 8 PM
 
-Italiano: Seg-Sex 8 AM-9 PM
+Italiano: Mon-Fri 8 de AM-9 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 

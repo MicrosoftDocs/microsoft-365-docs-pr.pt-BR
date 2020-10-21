@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d0574167c03e95e4388dc4486ca502231cb7dc83
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8d4a76d3d2806e63e68ee7df13e7b4e2c31140a2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44391292"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640182"
 ---
 # <a name="contact-support-for-qatar"></a>Contatar o suporte para catar
 
@@ -34,15 +34,15 @@ Selecione a opção 9
 Insira o código 7700
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: sol-qui 10 AM-6 PM
+Árabe: Sun-Thu 10 AM-6 PM
 
-Inglês: Seg-Sex 10 AM-6 PM
+Inglês: Mon-Fri 10 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: sol-qui 10 AM-6 PM
+Árabe: Sun-Thu 10 AM-6 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 

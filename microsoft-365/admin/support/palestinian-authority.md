@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 77309e36b32fe797bbcada756b6703ae10b411cb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3066f28c2a42a48ab534bd58df7a62a2562b184d
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44392684"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640410"
 ---
 # <a name="contact-support-for-palestinian-authority"></a>Contatar o suporte para Autoridade Palestina
 
@@ -34,15 +34,15 @@ Selecione a opção 9
 Insira o código 7702
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: sol-qui 10 AM-6 PM
+Árabe: Sun-Thu 10 AM-6 PM
 
-Inglês: Seg-Sex 10 AM-6 PM
+Inglês: Mon-Fri 10 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: sol-qui 10 AM-6 PM
+Árabe: Sun-Thu 10 AM-6 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
