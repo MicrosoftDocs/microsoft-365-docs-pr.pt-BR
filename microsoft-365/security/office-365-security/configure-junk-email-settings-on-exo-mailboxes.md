@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 632c6f37b80cdc38b513f66ad42e4a5c25b41f25
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ed1513dc16caa25edfe0acd62db59304d90e76c5
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203342"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48626150"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -104,7 +104,7 @@ A coleção de lista segura em uma caixa de correio inclui a lista de remetentes
 
 ****
 
-|Parâmetro no set-MailboxJunkEmailConfiguration|Configuração do Outlook na Web|
+|Parâmetro no Set-MailboxJunkEmailConfiguration|Configuração do Outlook na Web|
 |---|---|
 |_BlockedSendersAndDomains_|**Mover email destes remetentes ou domínios para minha pasta lixo eletrônico**|
 |_ContactsTrusted_|**Confiar em emails de meus contatos**|

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários na proteção do Exchange Online (EOP). Administradores nas organizações com a proteção avançada contra ameaças do Office 365 (Office 365 ATP) também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
-ms.openlocfilehash: 5e1115157ef7d67bc7a3f626eb61d01ecc0986cb
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 65cf0a116dbed3dce93db8e34fa96d6ab68a9c9e
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600536"
+ms.locfileid: "48626162"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -70,6 +70,7 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
    - **Motivo da quarentena**<sup>\*</sup>
    - **Lançado?**<sup>\*</sup>
    - **Tipo de política**<sup>\*</sup>
+   - **Expires**
    - **Recipiente**
    - **ID da mensagem**
    - **Nome da política**
@@ -95,12 +96,12 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
      - **Malware**
      - **Spam**
      - **Phishing de alta confiança**
-     
-   - **Tipo de política**: filtrar mensagens por tipo de política:
+
+   - **Tipo de Política**: Filtre mensagens por tipo de política:
      - **Política Antimalware**
      - **Política de anexos seguros**
-     - **Política de anti-golpe**
-     - **Política de filtro de conteúdo hospedado**
+     - **Política Anti-phish**:
+     - **Política de filtro de conteúdo hospedado** (política antispam)
      - **Regra de transporte**
 
    - **Destinatário do email**: todos os usuários ou apenas as mensagens enviadas a você. Os usuários finais só podem gerenciar mensagens em quarentena enviadas para eles.
@@ -115,11 +116,13 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
 
    - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
 
-   - **Nome da política**: Use o nome de política completo da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
+   - **Nome da política**: Use o nome completo da política da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
    - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
 
    - **Assunto**: use todo o assunto da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
+  
+   - **Nome da política**: o nome da política responsável por colocar a mensagem em quarentena.
 
    Depois de ter inserido os critérios da pesquisa, clique em ![Atualizar botão](../../media/scc-quarantine-refresh.png) **Atualizar** para filtrar os resultados.
 
@@ -147,6 +150,8 @@ Quando você clica em uma mensagem de e-mail na lista, os seguintes detalhes de 
 
 - **Motivo da quarentena**: mostra se uma mensagem foi identificada como **spam**, **em massa**, **Phish**, corresponde a uma regra de fluxo de emails (**regra de transporte**) ou foi identificada como contendo **malware**.
 
+- **Contagem de destinatários**
+
 - **Destinatários**: se a mensagem contiver vários destinatários, você precisará clicar em **Visualizar mensagem** ou **Exibir o cabeçalho da mensagem** para visualizar a lista completa dos destinatários.
 
 - **Expira**: a data/hora em que a mensagem será excluída de forma automática e permanente da quarentena.
@@ -173,7 +178,6 @@ Após selecionar uma mensagem, você tem várias opções para o que fazer com a
   Observações sobre o lançamento de mensagens:
 
   - Você não pode liberar uma mensagem para o mesmo destinatário mais de uma vez.
-
   - Somente os destinatários que não receberam a mensagem aparecerão na lista de possíveis destinatários.
 
 - **Exibir cabeçalho da mensagem**: escolha este link para visualizar o texto do cabeçalho da mensagem. Para analisar os valores e campos de cabeçalho em detalhes, copie o texto do cabeçalho da mensagem para a área de transferência e, em seguida, escolha **Analisador de Cabeçalhos de Mensagens da Microsoft** para acessar o Analisar de Conectividade Remota (clique com o botão direito e escolha **Abrir em uma nova guia** se não quiser deixar o Microsoft 365 para concluir essa tarefa). Cole o cabeçalho da mensagem na página na seção Analisador do cabeçalho da mensagem e escolha **Analisar cabeçalhos**:
@@ -219,13 +223,13 @@ Quando terminar, clique em **Fechar**.
 > [!NOTE]
 > Os procedimentos para arquivos em quarentena nesta seção estão disponíveis somente para assinantes do plano ATP 1 e do plano 2.
 
-Em organizações com ATP, os administradores podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
+Em organizações com ATP, os administradores podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams. Para habilitar a proteção desses arquivos, confira [Ativar ATP para SharePoint, onedrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
 ### <a name="view-quarantined-files"></a>Exibir arquivos em quarentena
 
 1. No Centro de segurança e conformidade, vá para **Gerenciamento de ameaças** \> **Revisão** \> **Quarentena**.
 
-2. Altere o **modo de exibição colocado em quarentena** para os **arquivos**de valor padrão. Você pode classificar em um campo clicando em um cabeçalho de coluna disponível.
+2. Altere o **modo de exibição colocado em quarentena** para os **arquivos**de valor. Você pode classificar em um campo clicando em um cabeçalho de coluna disponível.
 
 3. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. As colunas padrão são marcadas com um asterisco ( <sup>\*</sup> ):
 
@@ -248,6 +252,7 @@ Em organizações com ATP, os administradores podem gerenciar arquivos em quaren
      - Um intervalo personalizado de data/hora.
    - **Hora de recebimento**
    - **Motivo da quarentena**: o único valor disponível é **malware**.
+   - **Tipo de política**
 
 Depois de encontrar um arquivo em quarentena específico, selecione o arquivo para exibir os detalhes sobre ele e execute a ação nele (por exemplo, exibir, liberar, baixar ou excluir a mensagem).
 
@@ -293,8 +298,6 @@ Quando você seleciona vários arquivos em quarentena na lista (até 100), o pai
 
 - **Arquivos de versão**
 - **Excluir arquivos**: depois de clicar em **Sim** no aviso exibido, os arquivos serão excluídos imediatamente.
-
-1. Usando uma conta corporativa ou de estudante que tenha privilégios de administrador global (ou funções apropriadas de segurança & central de conformidade) em sua organização, entre e [vá para o centro de conformidade de & de segurança](../../compliance/go-to-the-securitycompliance-center.md).
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Usar o PowerShell do Exchange Online ou do EOP PowerShell para exibir e gerenciar mensagens em quarentena e arquivos
 
