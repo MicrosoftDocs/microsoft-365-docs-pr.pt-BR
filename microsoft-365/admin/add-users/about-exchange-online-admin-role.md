@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Administradores do Exchange Online gerenciam emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário. '
-ms.openlocfilehash: be4c8a4f1c75402d690cc705dd408c9070e40c9b
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: cd2c4c10554cbaf425fa6ae9156a8ceeb1a21503
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131765"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646698"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Sobre a função de administrador do Exchange Online
 

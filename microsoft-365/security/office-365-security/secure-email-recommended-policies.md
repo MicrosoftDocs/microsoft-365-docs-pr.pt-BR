@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 5e7156a884093ca12fff7020bb045da30882547d
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: c8a1609bed124789229c6ae6d1f80b7d9c70bb66
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464331"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646806"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
@@ -33,7 +33,7 @@ Essas recomendações são baseadas em três camadas diferentes de segurança e 
 
 Essas recomendações exigem que seus usuários usem clientes de email modernos, incluindo Outlook para iOS e Android em dispositivos móveis. O Outlook para iOS e Android oferecem suporte aos melhores recursos do Office 365. Esses aplicativos móveis do Outlook também são arquitetados com recursos de segurança que dão suporte ao uso móvel e trabalham em conjunto com outros recursos de segurança de nuvem da Microsoft. Para obter mais informações, consulte [Outlook para IOS e perguntas frequentes sobre Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq).
 
-## <a name="updating-common-policies-to-include-email"></a>Atualizando políticas comuns para incluir email
+## <a name="update-common-policies-to-include-email"></a>Atualizar políticas comuns para incluir email
 
 Para proteger o email, o diagrama a seguir ilustra quais políticas serão atualizadas a partir das políticas comuns de acesso de dispositivo e identidade.
 
@@ -64,6 +64,41 @@ Essa política impede que os clientes do ActiveSync ignorem outras políticas de
 - Siga a etapa 2: configurar uma política de acesso condicional do Azure AD para o Exchange Online com o ActiveSync (EAS) "no [cenário 1: os aplicativos do Office 365 exigem aplicativos aprovados com políticas de proteção de aplicativos](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), o que impede que os clientes do Exchange ActiveSync aproveitem a autenticação básica para se conectar ao Exchange Online.
 
 Você também pode usar as políticas de autenticação para [desabilitar a autenticação básica](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online), o que força todas as solicitações de acesso para cliente a usar a autenticação moderna.
+
+## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>Limitar o acesso ao Exchange Online do Outlook na Web
+
+Você pode restringir a capacidade dos usuários de baixar anexos do Outlook na Web em dispositivos umnanaged. Os usuários desses dispositivos podem exibir e editar esses arquivos usando o Office Online sem vazar e armazenar os arquivos no dispositivo. Você também pode impedir que os usuários vejam anexos em um dispositivo não gerenciado.
+
+Estas são as etapas:
+
+1. [Conecte-se a uma sessão do PowerShell remoto do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+2. Se você ainda não tiver uma política de caixa de correio do OWA, crie uma com o cmdlet [New-OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/new-owamailboxpolicy) .
+3. Se você quiser permitir a exibição de anexos, mas não baixar, use este comando:
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnly
+   ```
+
+4. Se você deseja bloquear anexos, use este comando:
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnlyPlusAttachmentsBlocked
+   ```
+
+4. No portal do Azure, crie uma nova política de acesso condicional com estas configurações:
+
+   **Atribuições > usuários e grupos**: selecione usuários e grupos apropriados para incluir e excluir.
+
+   **Atribuições > aplicativos ou ações em nuvem > aplicativos de nuvem > incluem > selecionar aplicativos**: selecione **Office 365 Exchange Online**
+
+   **Controles de acesso > sessão**: selecionar **usar restrições impostas do aplicativo**
+
+## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>Exigir que os dispositivos iOS e Android usem o Outlook
+
+Para garantir que os usuários de dispositivos iOS e Android só possam acessar o conteúdo do trabalho ou da escola usando o Outlook para iOS e Android, você precisará de uma política de acesso condicional que tenha como destino os usuários em potencial.
+
+Consulte as etapas para configurar essa política em [gerenciar o acesso à colaboração de mensagens usando o Outlook para IOS e Android]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access).
+
 
 ## <a name="set-up-message-encryption"></a>Configurar a criptografia de mensagens
 

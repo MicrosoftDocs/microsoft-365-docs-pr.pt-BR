@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre as propostas para ajudá-lo a comprar produtos e serviços da Microsoft.
 ROBOTS: NOINDEX
-ms.openlocfilehash: 6de3f116b9266ad8f2d4d245cc0ac4b7422bbf4d
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: d0e8c6fd9973573d4e49f7512e4394f7534bd97c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419107"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646794"
 ---
 # <a name="understand-the-proposal-workflow"></a>Entender o fluxo de trabalho de proposta
 

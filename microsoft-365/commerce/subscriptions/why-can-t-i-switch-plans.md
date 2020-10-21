@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Compreenda os motivos pelos quais às vezes os planos de mudança precisa ser feito manualmente ou chamando o suporte.
-ms.openlocfilehash: 9f48ed56f230802ebd305d9b79e8ad694fadcc4c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8e217ad59e6436641af3b2f0151a760da5239839
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403145"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646746"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Por que não posso mudar de plano de negócios da Microsoft 365?
 

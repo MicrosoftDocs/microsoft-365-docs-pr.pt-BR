@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
 description: Saiba como aplicar um código promocional à sua assinatura do Microsoft 365 para reduzir o preço e como solucionar problemas de código promocional em caso de erro.
-ms.openlocfilehash: 791565e29d8456e6c3c2c90b88cb2c6612e2d2cc
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 09f39b6f82153c6b23525ab41cfb94e77437d062
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403109"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646734"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>Use seu código promocional para reduzir o preço
 

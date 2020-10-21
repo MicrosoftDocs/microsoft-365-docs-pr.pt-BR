@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Entenda o que você precisa saber antes de passar pelo processo de inscrição do Office 365. '
-ms.openlocfilehash: dd374cd12f4e3a041869d17157e7198445f99e69
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0e5e4d89811807bfdb1bb71fb213973bdba075e2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780512"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646626"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Como inscrever-se na ajuda do administrador
 
@@ -70,7 +70,7 @@ Assista a um pequeno vídeo sobre como escolher um plano Microsoft 365 para empr
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Precisa de ajuda para escolher? Os consultores de vendas estão disponíveis para responder às suas perguntas. Basta ir para [comparar todos os produtos](https://products.office.com/compare-all-microsoft-office-products?tab=2) e escolher uma das opções de suporte de contato listadas no lado esquerdo da página.
   

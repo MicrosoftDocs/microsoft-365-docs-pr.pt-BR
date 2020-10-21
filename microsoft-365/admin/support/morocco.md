@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5649cca563d4b69a4bc86a424c4f3a969e78f6ed
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8a815c4605094b10d210e35ab5eabb4b7f7fd9ca
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44395893"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640854"
 ---
 # <a name="contact-support-for-morocco"></a>Contatar o suporte para o Marrocos
 
@@ -32,19 +32,19 @@ Selecione a opção 9
 Insira o código 7700
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: sol-qui 8 AM-4 PM
+Árabe: Sun-Thu 8 AM-4 PM
 
-Francês: Seg-Sex 8 AM-4 P.M.
+Francês: Mon-Fri 8 P.M.
 
-Inglês: Seg-Sex 8 AM-4 P.M.
+Inglês: Mon-Fri 8 AM-4 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: sol-qui 8 AM-4 PM
+Árabe: Sun-Thu 8 AM-4 PM
 
-Francês: Seg-Sex 7 AM-8 P.M.
+Francês: Mon-Fri 7 AM-8 P.M.
 
 Inglês: 24 horas por dia, 7 dias por semana
 

@@ -21,20 +21,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como definir os requisitos de senha forte para seus usuários, usando o Windows PowerShell.
-ms.openlocfilehash: 1634e2f0de2cdd2cac5e1928adbef54457e50716
-ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
+ms.openlocfilehash: 9f6fd61396d99245ffeabf757d3cb65c5d5cb85e
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48626138"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646614"
 ---
 # <a name="set-strong-password-requirement-for-users"></a>Definir um requisito de senha forte para os usuários
 
-Este artigo explica como definir os requisitos de senha forte para os seus usuários. Você precisa concluir estas etapas usando o PowerShell.
+Este artigo explica como desativar os requisitos de senha forte para os seus usuários. Os requisitos de senha forte são ativados por padrão na sua organização do Microsoft 365 for Business. Sua organização pode ter requisitos para desabilitar senhas fortes. Siga as etapas abaixo para desativar os requisitos de senha forte. Você precisa concluir estas etapas usando o PowerShell.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Este artigo é para pessoas que gerenciam a política de senha de uma empresa, escola ou sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md). Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
+Este artigo é para pessoas que gerenciam a política de senha de uma empresa, escola ou sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md) Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
 
 Você também deve se conectar ao Microsoft 365 com o PowerShell.
 
@@ -42,15 +42,15 @@ Você também deve se conectar ao Microsoft 365 com o PowerShell.
 
 1. [Conecte-se ao Microsoft 365 com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-2. Usando o PowerShell, você pode ativar os requisitos de senha forte para todos os usuários com o seguinte comando:
+2. Usando o PowerShell, você pode desativar os requisitos de senha forte para todos os usuários com o seguinte comando:
 
     ```powershell
-    Get-MsolUser | Set-MsolUser -StrongPasswordRequired $true
+    Get-MsolUser | Set-MsolUser -StrongPasswordRequired $false
 
-3. You can turn on strong password requirements for specific users with this command:
+3. You can turn of strong password requirements for specific users with this command:
 
     ```powershell
-    Set-MsolUser –UserPrincipalName –StrongPasswordRequired  $true
+    Set-MsolUser –UserPrincipalName –StrongPasswordRequired  $false
     ```
 
 > [!NOTE]

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: 1684afd1baf32acc6c4245938b2ac7ee024d7374
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 7ecadaa42610e0b77dc1727c11140080bd7b1779
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361802"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646674"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -43,7 +43,7 @@ Como o Microsoft 365 admin, você pode permitir que as pessoas usem a [ferrament
 
 - **Se você estiver usando um Active Directory local**, os dois pontos acima não se aplicam. Em vez disso, você pode configurar isso, mas **requer uma assinatura paga do Azure ad Premium**.
 
-Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir estas etapas, você precisa entrar com sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md)
+Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md)
 
 Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
 

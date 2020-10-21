@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9c29a08980552874fd161b420d298f1e8075e6ce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8dd058697f7a7c696a4020fb25e74ef51fb94415
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397125"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48641082"
 ---
 # <a name="contact-support-for-mauritius"></a>Contatar o suporte para Maurício
 
@@ -28,14 +28,14 @@ ms.locfileid: "44397125"
 802 044 0086
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Seg-Sex 11 AM-7 P.M.
+Francês: Mon-Fri 11 AM-7 PM
 
-Inglês: Seg-Sex 11 AM-7 P.M.
+Inglês: Mon-Fri 11 AM-7 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Seg-Sex 11 AM-meia-noite
+Francês: Mon-Fri 11-meia-noite
 
 Inglês: 24 horas por dia, 7 dias por semana
