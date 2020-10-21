@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Saiba como cancelar a atribuição de licenças de contas de usuário.
 ms.date: 07/01/2020
-ms.openlocfilehash: 4441fd253c4cf5304562900bf31869eb4e0f21ff
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 455348e7dba20913e54e5a4059755f9391644e03
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306534"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645090"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
@@ -70,7 +70,7 @@ Quando você usa a página **usuários ativos** para cancelar a atribuição de 
 
 ### <a name="unassign-licenses-from-one-user"></a>Cancelar a atribuição de licenças de um usuário
   
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 2. Selecione a linha do usuário para a qual você deseja cancelar a atribuição de uma licença.
 3. No painel direito, selecione **Licenças e Aplicativos**.
 4. Expanda a seção **licenças** , desmarque as caixas das licenças que você deseja cancelar a atribuição e, em seguida, selecione **salvar alterações**.
@@ -81,7 +81,7 @@ Quando você usa a página **usuários ativos** para cancelar a atribuição de 
 
 ## <a name="unassign-licenses-from-one-user"></a>Cancelar a atribuição de licenças de um usuário
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 2. Selecione o usuário para o qual você deseja cancelar a atribuição da licença.
 3. No lado direito, na linha **licenças de produto** , selecione **Editar**.
 4. No painel **licenças de produto** , alterne a opção para a posição **desativado** da licença que você deseja cancelar a atribuição para o usuário. Por exemplo, se você desativar a licença do Office 365 Enterprise E3, ela cancelará a atribuição dessa licença e de todos os serviços sob essa licença para o usuário.
@@ -93,7 +93,7 @@ Quando você usa a página **usuários ativos** para cancelar a atribuição de 
 
 ## <a name="unassign-licenses-from-one-user"></a>Cancelar a atribuição de licenças de um usuário
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 2. Selecione o usuário para o qual você deseja cancelar a atribuição da licença.
 3. No lado direito, na linha **licenças de produto** , selecione **Editar**.
 4. No painel **licenças de produto** , alterne a opção para a posição **desativado** da licença que você deseja cancelar a atribuição para o usuário. Por exemplo, se você desativar a licença do Office 365 Enterprise E3, ela cancelará a atribuição dessa licença e de todos os serviços sob essa licença para o usuário.
@@ -104,7 +104,7 @@ Quando você usa a página **usuários ativos** para cancelar a atribuição de 
 ::: moniker range="o365-worldwide"
 ###  <a name="unassign-licenses-from-multiple-users"></a>Cancelar a atribuição de licenças de vários usuários
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 2. Selecione os círculos ao lado dos nomes dos usuários aos quais você deseja cancelar a atribuição de licenças.
 3. Na parte superior, selecione **mais opções (...)**, em seguida, selecione **Gerenciar licenças de produtos**.
 4. No painel **Gerenciar licenças de produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.
@@ -116,7 +116,7 @@ Quando você usa a página **usuários ativos** para cancelar a atribuição de 
 
 ##  <a name="unassign-licenses-from-multiple-users"></a>Cancelar a atribuição de licenças de vários usuários
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 2. Selecione as caixas ao lado dos nomes dos usuários aos quais você deseja cancelar a atribuição de todas as licenças.
 3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
 4. No painel **Substituir produtos existentes**, escolha **Substituir atribuições de licenças de produtos existentes** \> **Avançar**.
@@ -128,7 +128,7 @@ Quando você usa a página **usuários ativos** para cancelar a atribuição de 
 
 ##  <a name="unassign-licenses-from-multiple-users"></a>Cancelar a atribuição de licenças de vários usuários
   
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 2. Selecione as caixas ao lado dos nomes dos usuários aos quais você deseja cancelar a atribuição de todas as licenças.
 3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
 4. No painel **Substituir produtos existentes**, escolha **Substituir atribuições de licenças de produtos existentes** \> **Avançar**.

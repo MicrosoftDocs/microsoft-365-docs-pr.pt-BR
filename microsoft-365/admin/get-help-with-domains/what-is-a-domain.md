@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ description: Entenda o que é um domínio e como você pode comprar um domínio 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 9104c77218c483b61c57a38e37e8e2661db1aa15
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0c59fb6bc5f9a7796c84a0370c771bf90102dec0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399855"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645114"
 ---
 # <a name="what-is-a-domain"></a>O que é um domínio?
 
@@ -45,14 +45,14 @@ Use o Microsoft 365 para comprar um novo domínio – vamos configurar tudo. [Sa
   
  **Use um domínio que você já possui:**
   
-Se você já possui um domínio como *you@yourcompany. <span> com* você pode adicioná-lo e começar a usar o onedrive e aplicativos da Microsoft imediatamente. Você precisará de alguns minutos para configurar o email e o Skype for Business. 
+Se você já possui um domínio como  *you@yourcompany. <span> com*  você pode adicioná-lo e começar a usar o onedrive e aplicativos da Microsoft imediatamente. Você precisará de alguns minutos para configurar o email e o Skype for Business. 
   
 > [!TIP]
 > Não sabe onde seu domínio está registrado? [Obtenha ajuda para localizar o registrador de domínios](find-your-domain-registrar.md).
   
  **Use um domínio padrão por enquanto:**
   
-Você pode usar um domínio padrão como *yourcompany. onmicrosoft. <span> com* para fazer logon por enquanto e adicionar um domínio personalizado mais tarde. Você não pode alterar ou renomear o seu domínio padrão, por isso, tenha certeza de que é isso que você deseja antes de continuar. 
+Você pode usar um domínio padrão como  *yourcompany. onmicrosoft. <span> com*  para fazer logon por enquanto e adicionar um domínio personalizado mais tarde. Você não pode alterar ou renomear o seu domínio padrão, por isso, tenha certeza de que é isso que você deseja antes de continuar. 
   
 ## <a name="feeling-stuck"></a>Se sentindo travado?
 

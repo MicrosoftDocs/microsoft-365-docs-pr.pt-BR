@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: f3bd3c62-0477-48e4-b2b5-21e329d67985
 description: Saiba como você pode configurar a Microsoft para gerenciar os registros DNS do seu domínio personalizado em Hostgator.
-ms.openlocfilehash: 787fe5f5e768d9d93cfca9d1644037142822216e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 02052e98ba92c970a1e8bcc89c73df6946a6c472
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400636"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646434"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-hostgator"></a>Alterar os nameservers para configurar o Microsoft 365 com o Hostgator
 
@@ -85,16 +85,16 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
   
 2. Na página **painel de controle** , na área **domínios** , selecione **Editor de zona de DNS avançado**.
     
-    (You may have to scroll down.) 
+    (Pode ser necessário rolar para baixo.) 
     
 3. On the **Advanced DNS Zone Editor** page, in the **Add a Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Escolha o valor de **Tipo** na lista suspensa.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
 |||||
 |:-----|:-----|:-----|:-----|
-|**Nome** <br/> |**TTL** <br/> |**Tipo** <br/> |**Dados TXT** <br/> |
-|Use seu  *domain_name*  . (por exemplo, fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
+|**Name** <br/> |**TTL** <br/> |**Tipo** <br/> |**Dados TXT** <br/> |
+|Use seu  *domain_name*  . (por exemplo, fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1  <br/> |TXT  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
    
 4. Selecione **adicionar registro**.
     
@@ -121,10 +121,10 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 Para concluir a configuração do seu domínio com a Microsoft, altere os registros NS do seu domínio no seu registrador de domínios para apontar para os servidores de nomes primários e secundários da Microsoft. Isso configura a Microsoft para atualizar os registros DNS do domínio para você. Todos os registros são adicionados para que os seus emails, o Skype for Business Online e os sites públicos funcionem com o seu domínio e você fique com tudo pronto.
   
 > [!CAUTION]
-> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain* . com) começarão a ser iniciados pela Microsoft depois que você fizer essa alteração.
+> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain*  . com) começarão a ser iniciados pela Microsoft depois que você fizer essa alteração.
   
 > [!IMPORTANT]
-> O procedimento a seguir mostrará como excluir outros nameservers indesejados da lista e também como adicionar os nameservers corretos se eles ainda não estiverem listados. Quando você tiver concluído as etapas nesta seção, os únicos nameservers que devem ser listados são estes quatro: **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**e **NS4.bdm.microsoftonline.com**.
+> O procedimento a seguir mostrará como excluir outros nameservers indesejados da lista e também como adicionar os nameservers corretos se eles ainda não estiverem listados. Quando você tiver concluído as etapas nesta seção, os únicos nameservers que devem ser listados são estes quatro:  **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**e **NS4.bdm.microsoftonline.com**.
   
 1. Para começar, vá até a sua página de gerenciamento de clientes na Hostgator usando [este link](https://portal.hostgator.com/domain/manage). Você será solicitado a fazer logon primeiro.
     
@@ -150,7 +150,7 @@ Para concluir a configuração do seu domínio com a Microsoft, altere os regist
     
     ![Hostgator-BP-Redelegate-1-5](../../media/5b73ae32-f26e-48aa-b5ad-6da20f1c491a.png)
   
-7.   **Cuidado**: Siga estas etapas somente se você tiver nameservers existentes além dos quatro nameservers corretos. (Ou seja, exclua somente os nameservers atuais que *não* sejam denominados **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**ou **NS4.bdm.microsoftonline.com**.)
+7.   **Cuidado**: Siga estas etapas somente se você tiver nameservers existentes além dos quatro nameservers corretos. (Ou seja, exclua somente os nameservers atuais que  *não*  sejam denominados **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**ou **NS4.bdm.microsoftonline.com**.)
   
         Ainda na página **Servidores de Nomes** do domínio, na lista de servidores de nomes, exclua cada nameserver na lista selecionando-o e pressionando a tecla **Delete** no teclado. 
     

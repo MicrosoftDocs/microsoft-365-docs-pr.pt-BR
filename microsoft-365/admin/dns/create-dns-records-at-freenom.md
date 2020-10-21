@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Freenom para a Microsoft.
-ms.openlocfilehash: f139c21915d6922c2f77281990dd09949d9db928
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2fc2407193d41d6e0526aacad0b2b558f1b21bdb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400468"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646182"
 ---
 # <a name="create-dns-records-at-freenom-for-microsoft"></a>Criar registros DNS no Freenom para Microsoft
 
-[Verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md) se não encontrar o que você está procurando. 
+[Verifique as perguntas frequentes sobre domínios ](../setup/domains-faq.md) se não encontrar o que você está procurando. 
   
 > [!CAUTION]
 > O site do Freenom não dá suporte a registros SRV, o que significa que vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Independentemente do Microsoft Plan que você usa, há limitações de serviço significativas e você pode querer mudar para um provedor de Hospedagem de DNS diferente. 
@@ -140,7 +140,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Tipo**|**TTL**|**Target**|**Prioridade**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |Servidor de mensagens (MX)  <br/> |3600 (segundos)  <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |(deixar em branco)  <br/> |Servidor de mensagens (MX)  <br/> |3600 (segundos)  <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
    ![Registro MX Freenom](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
@@ -193,11 +193,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Para cada registro, digite ou copie e cole os valores da próxima linha da tabela acima nas caixas desse registro.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
 
 1. Para começar, vá até a sua página de domínios no Freenom usando [este link](https://my.freenom.com/). You'll be prompted to log in.
     
@@ -223,7 +223,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Tipo de registro**|**TTL**|**Target**|
     |:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
     ![Freenom valores TXT para SPF](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
   

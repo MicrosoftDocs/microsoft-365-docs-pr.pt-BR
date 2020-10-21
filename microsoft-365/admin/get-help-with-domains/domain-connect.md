@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
 description: Saiba como trabalhar com os registradores de conexão de domínio habilitado e adicione seu domínio ao Microsoft 365.
-ms.openlocfilehash: fb3f9315ed8ae056cadd2fd6a83f13f6713347f3
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: e907317ec5b606c2fe73232a73c9abdfce26feea
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079974"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645342"
 ---
 # <a name="using-domain-connect"></a>Usando a conexão de domínio
 

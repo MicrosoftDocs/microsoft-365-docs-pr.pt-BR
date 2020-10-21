@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em 1&1 IONOS para a Microsoft.
-ms.openlocfilehash: 10c135d8fdc1512f0b2c1b341f3524097d5f6494
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: b88fa4f14104f60f22857bb9cfdc9e6366d2c303
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307146"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646386"
 ---
 # <a name="create-dns-records-at-11-ionos-for-microsoft"></a>Criar registros DNS na 1&1 IONOS para Microsoft
 
@@ -67,7 +67,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 0:42)](https://docs.micr
     ||||
     |:-----|:-----|:-----|
     |**Tipo** <br/> |**Prefixo** <br/> |**Valor do Nome** <br/> |
-    |TXT  <br/> |(Deixe este campo em branco)  <br/> |MS=ms *XXXXXXXX*  <br/> Observação: Este é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |TXT  <br/> |(Deixe este campo em branco)  <br/> |MS = ms *XXXXXXXX*  <br/> Observação: Este é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
 7. Selecione **Salvar**.
     
@@ -154,7 +154,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 3:57)](https://docs.micr
 
     |**Criar subdomínio**|**Alias**|
     |:-----|:-----|
-    |autodiscover  <br/> |autodiscover.outlook.com   | 
+    |descoberta automática  <br/> |autodiscover.outlook.com   | 
 
     ![1 &amp; 1-BP-configure-3-2](../../media/9be45113-ebaf-48e6-983c-a7e6ff9eea45.png)
   
@@ -170,7 +170,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 3:57)](https://docs.micr
     
     |**Criar subdomínio**|**Alias**|
     |:-----|:-----|
-    |autodiscover  <br/> |autodiscover.outlook.com   |
+    |descoberta automática  <br/> |autodiscover.outlook.com   |
 
     ![1 &amp; 1-BP-configure-3-7](../../media/afac3118-3337-4f99-98dd-a7ca930230ce.png)
   
@@ -300,8 +300,8 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 5:51)](https://docs.micr
     
     |**Tipo**|**Serviço**|**Protocolo**|**Nome**|**Host**|**Prioridade**|**Espessura**|**Porta**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV  <br/> |sip  <br/> |tls  <br/> |(Deixe este campo vazio.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1   <br/> |443  <br/> |3.600 (1 hora)  <br/> |
-    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Deixe este campo vazio.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1   <br/> |5061  <br/> |3.600 (1 hora)  <br/> |  
+    |SRV  <br/> |sip  <br/> |tls  <br/> |(Deixe este campo vazio.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1  <br/> |443  <br/> |3.600 (1 hora)  <br/> |
+    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Deixe este campo vazio.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1  <br/> |5061  <br/> |3.600 (1 hora)  <br/> |  
     
     ![1 &amp; 1-BP-configure-5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
   

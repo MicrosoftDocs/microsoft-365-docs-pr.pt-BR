@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 description: Aprenda a atribuir licenças aos usuários.
 ms.date: 08/14/2020
-ms.openlocfilehash: e1f28107f7774fa4eccbecb3882cbd002a6eea1a
-ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
+ms.openlocfilehash: ec2f9ae2e580987266c636343a66d7c21138e4c3
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46757552"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645126"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 

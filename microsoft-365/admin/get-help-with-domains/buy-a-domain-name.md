@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Saiba como comprar um nome de domínio no Microsoft 365.
-ms.openlocfilehash: c9b4ac4cff7ad8166caa28b89e1195d98b3f6d27
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: f636b9e6afc1e910a6b0c01a58a4e69127c80772
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814451"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645510"
 ---
 # <a name="buy-a-domain-name"></a>Comprar um nome de domínio
 

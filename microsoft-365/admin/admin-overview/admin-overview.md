@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: 'Saiba mais sobre o centro de administração do Microsoft 365: como entrar, quem é seu administrador e assista a uma introdução de vídeo sobre ele.'
-ms.openlocfilehash: 84c8ef52c4cd3bf687a0849e1e3b1a25f9b31f4d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6db1ea88d9a9aeb003f16c746a8fe0a5b4d87a42
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386932"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646590"
 ---
 # <a name="admin-center-overview"></a>Visão geral do Centro de administração 
 

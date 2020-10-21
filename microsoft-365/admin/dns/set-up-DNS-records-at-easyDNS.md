@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em easyDNS para a Microsoft.
-ms.openlocfilehash: 24f477d240af936975141c53d382e114a24c0ac5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4909a02ec56fc9720a2636e822da0339e89bccf8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400227"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645546"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>Criar registros DNS no easyDNS para Microsoft
 
-[Verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md) se não encontrar o que você está procurando. 
+[Verifique as perguntas frequentes sobre domínios ](../setup/domains-faq.md) se não encontrar o que você está procurando. 
   
 Você precisará adicionar todos os seguintes registros DNS no site do registrador para rotear emails para a Microsoft, usar seu domínio para o Teams e o Skype for Business e assim por diante.
   
@@ -63,7 +63,7 @@ Observação: os registros SRV não estão disponíveis no momento em todos os p
     
 11. Na página **configuração** , selecione **Iniciar configuração.**
     
-12. Na página **Verificar domínio**, marque **Verificar**. 
+12. Na página **Verificar domínio**, clique em **Verificar**. 
     
 ## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Adicionar um registro MX para rotear emails para a Microsoft
 
@@ -108,7 +108,7 @@ Observação: os registros SRV não estão disponíveis no momento em todos os p
     
 6. Verifique se o registro está correto e, em seguida, selecione **confirmar**. 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 
 1. Vá para [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) e faça logon com suas credenciais. 
     
@@ -140,8 +140,8 @@ Observação: os registros SRV não estão disponíveis no momento no easyDNS ' 
     
     |**SERVIÇO**|**PROTOCOLO**|**HOST**|**PRI**|**WGT**|**PORTA**|**TARGET (deve terminar com um ".")**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
-    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
+    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
+    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
    
 5. Selecione **Avançar**. 
     

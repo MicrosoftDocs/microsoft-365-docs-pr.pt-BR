@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em WiX para a Microsoft.
-ms.openlocfilehash: fcc0f8e8187e22dde68149e0f2a80073312bff7f
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: ee236a9178092bb8fd14a9615c2ac5911b1ecc87
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814439"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645654"
 ---
 # <a name="create-dns-records-at-wix-for-microsoft"></a>Criar registros DNS no WiX para Microsoft
 
@@ -74,7 +74,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
    ||||
    |:-----|:-----|:-----|
    | Nome de Host <br/> | TXT Value <br/> | TTL <br/> |
-   |Preenchido automaticamente  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)|1 hora <br/> |          |
+   |Preenchido automaticamente  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)|1 hora <br/> |          |
    
 5. Selecione o botão **salvar DNS** na parte superior do editor de DNS. 
     
@@ -133,7 +133,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
    | Nome de Host | Points to  | TTL |
    |:-----|:-----|:-----|
-   |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1 hora  <br/> |
+   |descoberta automática  <br/> |autodiscover.outlook.com  <br/> |1 hora  <br/> |
    |sip  <br/> |sipdir.online.lync.com  <br/> |1 hora <br/> |
    |lyncdiscover  <br/> |webdir.online.lync.com   <br/> |1 hora  <br/> |
    |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |1 hora <br/> |
@@ -144,7 +144,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 6. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_spf"> </a>
 
 > [!IMPORTANT]

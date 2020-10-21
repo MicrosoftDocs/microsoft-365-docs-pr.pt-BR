@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em OVH para a Microsoft.
-ms.openlocfilehash: b462979a3ab1bcf769c78d15d9fd3ad03f307ef0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 87a2a731a253fdc0593a1aae8020e615dca63c4a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400335"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645810"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>Criar registros DNS no OVH para Microsoft
 
@@ -86,7 +86,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |MS = msxxxxxxxx  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. Selecione **confirmar**. 
+7. Selecione **Confirmar**. 
     
     ![OVH confirmar TXT para verificação](../../media/bde45596-9a55-4634-b5e7-16d7cde6e1b8.png)
   
@@ -143,7 +143,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
     |**Tipo de registro**|**Subdomínio**|**TTL**|**Prioridade**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |\<domain-key\>. mail.protection.outlook.com.  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |\<domain-key\>. mail.protection.outlook.com.  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![OVH registro MX para email](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
@@ -151,7 +151,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Registro MX OVH Selecione Avançar](../../media/4db62d07-0dc4-49f6-bd19-2b4a07fd764a.png)
   
-8. Selecione **confirmar**.
+8. Selecione **Confirmar**.
     
     ![Registro MX OVH selecione confirmar](../../media/090bfb11-a753-4af0-8982-582a4069a169.png)
   
@@ -159,7 +159,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![OVH excluir registro MX](../../media/892b328b-7057-4828-b8c5-fe26284dc8c2.png)
   
-10. Selecione **confirmar**.
+10. Selecione **Confirmar**.
     
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>Adicionar os registros CNAME necessários para a Microsoft
 <a name="bkmk_cname"> </a>
@@ -202,17 +202,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![OVH adicionar valores CNAME e selecionar avançar](../../media/f9481cb1-559d-4da1-9643-9cacb0d80d29.png)
   
-8. Selecione **confirmar**.
+8. Selecione **Confirmar**.
     
 9. Repita as etapas anteriores para criar os outros cinco registros CNAME.
     
     Para cada registro, digite ou copie e cole os valores da próxima linha da tabela acima nas caixas desse registro.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
   
 1. Para começar, vá até a sua página de domínios no OVH usando [este link](https://www.ovh.com/manager/). You'll be prompted to log in.
     
@@ -236,7 +236,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo de registro**|**Subdomínio**|**TTL**|**Valor TXT**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |TXT  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
     ![OVH adicionar registro TXT para SPF](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
@@ -244,7 +244,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![OVH adicionar registro TXT para SPF e selecione avançar](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
   
-8. Selecione **confirmar**.
+8. Selecione **Confirmar**.
     
     ![OVH adicionar registro TXT para SPF e Confirm](../../media/649eefeb-3227-49e3-98a0-1ce19c42fa54.png)
   
@@ -277,8 +277,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo de registro**|**Subdomínio**|**Prioridade**|**Espessura**|**Porta**|**TTL**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Serviço)  <br/> |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (segundos)  <br/> |sipdir.online.lync.com.  <br/> |
-    |SRV (Serviço)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (segundos)  <br/> |sipfed.online.lync.com.  <br/> |
+    |SRV (Serviço)  <br/> |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |3600 (segundos)  <br/> |sipdir.online.lync.com.  <br/> |
+    |SRV (Serviço)  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600 (segundos)  <br/> |sipfed.online.lync.com.  <br/> |
        
     ![Registro SRV OVH](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   
@@ -286,7 +286,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Registro SRV OVH Selecione Avançar](../../media/cb4ad7e2-a8f0-4ab1-9797-d1b51c1d2da9.png)
   
-8. Selecione **confirmar**.
+8. Selecione **Confirmar**.
     
 9. Repita as etapas anteriores para criar o outro registro SRV. Digite ou copie e cole os valores da segunda linha da tabela acima nas caixas do segundo registro.
     

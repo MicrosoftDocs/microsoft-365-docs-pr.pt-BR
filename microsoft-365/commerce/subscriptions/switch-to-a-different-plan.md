@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Saiba como mudar para uma nova assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: 299de3618046d7bbf4f9e852f9c623bc02638715
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 1cbdcafc2ef337546f31d2d8f8fc9ef0bf7722f8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818630"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647742"
 ---
 # <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Mudar para outro plano do Microsoft 365 for business
 

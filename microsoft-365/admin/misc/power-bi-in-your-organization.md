@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Saiba mais sobre o Power BI e como os usuários em sua organização podem usar esse serviço Business Analytics.
-ms.openlocfilehash: 5a5e7516800b2010f79296d758aeaeef80194bfd
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 633052889a2ca5c5c4db4c3b3c9334b396148e2a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432166"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644922"
 ---
 # <a name="power-bi-in-your-organization"></a>Power BI em sua organização
 

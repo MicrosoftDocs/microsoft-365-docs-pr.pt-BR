@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Configurar o encaminhamento de emails para uma ou mais contas de email usando o office365.
-ms.openlocfilehash: f6c177ba37cf2b8ce3966732adbe8428d9b6179e
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: d19e2c533be6fac927bdf2aa65d72acab9fad6f6
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780248"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645522"
 ---
 # <a name="configure-email-forwarding"></a>Configurar encaminhamento de email
 
@@ -45,9 +45,9 @@ Como administrador de uma organização, você pode ter requisitos da empresa pa
 
  Antes de configurar o encaminhamento de email, observe o seguinte: 
 
-- Após configurar o encaminhamento de email **, somente os** emails enviados para a caixa *de* correio serão fowarded. 
+- Após configurar o encaminhamento de email **, somente os** emails enviados para a caixa  *de*  correio serão fowarded. 
     
-- O encaminhamento de email exige que a conta *de* tenha uma licença. Se você estiver configurando o encaminhamento de emails porque o usuário deixou sua organização, outra opção é [converter a caixa de correio em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md). Dessa forma, várias pessoas podem acessá-la. No entanto, uma caixa de correio compartilhada não pode exceder 50 GB. 
+- O encaminhamento de email exige que a conta  *de*  tenha uma licença. Se você estiver configurando o encaminhamento de emails porque o usuário deixou sua organização, outra opção é [converter a caixa de correio em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md). Dessa forma, várias pessoas podem acessá-la. No entanto, uma caixa de correio compartilhada não pode exceder 50 GB. 
     
 Você deve ser um administrador do Exchange ou administrador global no Microsoft 365 para executar estas etapas. Para obter mais informações, consulte o tópico [sobre funções de administrador](../add-users/about-admin-roles.md).
 

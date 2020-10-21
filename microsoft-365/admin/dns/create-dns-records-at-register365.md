@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 004030b4-10ad-4026-96e7-011b6afc7e73
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Register365 para a Microsoft.
-ms.openlocfilehash: e580779ce674375564c1b3ab6123ef1b19f50be0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a4c66a4c16960332150a51779207defb00df3044
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400311"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645762"
 ---
 # <a name="create-dns-records-at-register365-for-microsoft"></a>Criar registros DNS no Register365 para Microsoft
 
@@ -71,23 +71,23 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
   
 3. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
     (Se você precisar adicionar uma linha, selecione **adicionar registros a/CNAME (+)**.)
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     |**Nome do host**|**Tipo**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Inserindo valores na página Adicionar/modificar zona DNS](../../media/22326005-de95-464d-8e33-08ea31a89b2d.png)
   
 4. Selecione **Salvar**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    ![Selecione salvar](../../media/157cfb98-d5d0-48a3-8dd1-c4e759c2f8a8.png)
+    ![Selecione Salvar.](../../media/157cfb98-d5d0-48a3-8dd1-c4e759c2f8a8.png)
   
 5. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
@@ -127,19 +127,19 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 3. Na página **Adicionar/Modificar Zona DNS**, na seção **Registros MX**, digite ou copie e cole os valores nas caixas do novo registro, a partir da tabela a seguir. 
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     |**Nome do host**|**Prioridade**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     |
+    |(Deixe este campo vazio.)  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     |
    
     ![Inserindo valores na página Adicionar/modificar zona DNS](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
   
 4. Selecione **Salvar**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    ![Selecione salvar](../../media/0e565fb0-a126-4a48-8ff7-2c2d79d4af32.png)
+    ![Selecione Salvar.](../../media/0e565fb0-a126-4a48-8ff7-2c2d79d4af32.png)
   
 5. Se houver outros registros MX na seção **Registros MX**, selecione cada um deles e pressione a tecla **Delete** no teclado para excluí-los. 
     
@@ -147,9 +147,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 6. Selecione **Salvar**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    ![Selecione salvar](../../media/1fb69bb5-b5df-4060-adf1-eb26cfaa6c4f.png)
+    ![Selecione Salvar.](../../media/1fb69bb5-b5df-4060-adf1-eb26cfaa6c4f.png)
   
 ## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Adicionar os seis registros CNAME necessários para o Microsoft
 <a name="BKMK_add_CNAME"> </a>
@@ -166,7 +166,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 3. Na página **Adicionar/Modificar Zona DNS**, na seção **Registros A, CNAME, AAAA, TXT e NS**, digite ou copie e cole os valores nas caixas dos novos registros, a partir da tabela a seguir. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
     (Se você precisar adicionar uma linha, selecione **adicionar registros a/CNAME (+)**.)
     
@@ -184,13 +184,13 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 4. Selecione **Salvar**.
     
-    ![Selecione salvar](../../media/8ded6428-af97-4fd8-9104-477fa22a5586.png)
+    ![Selecione Salvar.](../../media/8ded6428-af97-4fd8-9104-477fa22a5586.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
   
 1. Para iniciar, vá até a sua página de domínios em Register365, usando [este link](https://admin.register365.com/dns/). Será solicitado que você faça logon primeiro.
     
@@ -204,23 +204,23 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 3. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
     (Se você precisar adicionar uma linha, selecione **adicionar registros a/CNAME (+)**.)
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     |**Nome do host**|**Tipo**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
     ![Inserindo valores na página Adicionar/modificar zona DNS](../../media/33976398-da8a-439b-8e3d-534503b20ee0.png)
   
 4. Selecione **Salvar**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    ![Selecione salvar](../../media/1d8da122-4861-4ca3-bc9b-d01f18557d4c.png)
+    ![Selecione Salvar.](../../media/1d8da122-4861-4ca3-bc9b-d01f18557d4c.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para a Microsoft
 <a name="BKMK_add_SRV"> </a>
@@ -241,16 +241,16 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Prioridade**|**Espessura**|**Porta**|**Resultado**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![Inserindo valores na seção registros de serviço](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
   
 4. Selecione **Salvar**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    ![Selecione salvar](../../media/3b80757c-01e1-492d-b2ce-f721d71f7235.png)
+    ![Selecione Salvar.](../../media/3b80757c-01e1-492d-b2ce-f721d71f7235.png)
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

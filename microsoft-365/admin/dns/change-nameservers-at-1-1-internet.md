@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Saiba como você pode configurar o Office 365 operado pela 21Vianet para gerenciar seus registros DNS, quando 1&1 Internet é o provedor de Hospedagem de DNS.
-ms.openlocfilehash: 79870d534e7d825fd59dbbbec54c796227f5faf1
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 8a783be20d2f8dbdb26e9826018f911289b35235
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780368"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646554"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Alterar os nameservers para configurar o Microsoft 365 com 1&1 IONOS
 
@@ -56,7 +56,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 0:42)](https://support.m
     
 5. Na seção **registros txt e SRV** , selecione **adicionar registro**.
     
-    (You may have to scroll down.) 
+    (Pode ser necessário rolar para baixo.) 
     
 6. In the **Add Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -92,7 +92,7 @@ Quando o Microsoft 365 encontrar o registros TXT correto, o domínio será verif
 Para concluir a configuração do seu domínio com o Microsoft 365, altere os registros NS do seu domínio no seu registrador de domínio para apontar para os servidores de nomes primários e secundários do Microsoft 365. Isso configura o Microsoft 365 para atualizar os registros DNS do domínio para você. Todos os registros são adicionados para que os seus emails, o Skype for Business Online e os sites públicos funcionem com o seu domínio e você fique com tudo pronto.
   
 > [!CAUTION]
-> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes do Microsoft 365, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain* . com) começarão a ser disponibilizados para o Microsoft 365 depois que você fizer essa alteração. 
+> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes do Microsoft 365, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain*  . com) começarão a ser disponibilizados para o Microsoft 365 depois que você fizer essa alteração. 
   
 Pronto para alterar os registros NS de modo que o Microsoft 365 possa configurar seu domínio? Siga as etapas abaixo ou [assista ao vídeo (inicia em 2:47)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   

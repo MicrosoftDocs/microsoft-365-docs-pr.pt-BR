@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Saiba mais sobre o centro de administração do Microsoft 365.
-ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 2e54ad576b944153332aaec2012538e84c444db1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560418"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645066"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -91,7 +91,7 @@ Sim. O novo centro de administração é totalmente funcional e tem todos os rec
 
 O Microsoft 365 é uma solução completa e inteligente que inclui o Office 365, Windows 10 e Enterprise Mobility + Security, que permite que todos sejam criativos e trabalhem juntos de forma segura. As seguintes assinaturas do Microsoft 365 estão disponíveis no centro de administração para experimentar ou comprar agora:
   
-- Microsoft 365 for business
+- Microsoft 365 para empresas
 - Microsoft 365 Enterprise E3
 - Microsoft 365 Enterprise E5
     

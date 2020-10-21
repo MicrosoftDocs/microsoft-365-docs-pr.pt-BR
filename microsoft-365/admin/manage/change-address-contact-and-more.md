@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Saiba como fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
-ms.openlocfilehash: f306130e4578284a159c01436d6e2adc6b08add7
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 17202bb35e6d5e7d40b135f65467aef111aad070
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417207"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645102"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
 

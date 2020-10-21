@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em name.com para a Microsoft.
-ms.openlocfilehash: 646f486e73705f4b1e1bab63866fc7601d34cf92
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ce465e06b3bc18c824d741ee4cba4b9f4f410d90
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400395"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645882"
 ---
 # <a name="create-dns-records-at-namecom-for-microsoft"></a>Criar registros DNS no name.com para Microsoft
 
@@ -62,12 +62,12 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
   
 4. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
     |||||
     |:-----|:-----|:-----|:-----|
     |**Tipo** <br/> |**Host** <br/> |**Atender** <br/> |**TTL** <br/> |
-    |TXT  <br/> |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |
+    |TXT  <br/> |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |
    
     ![Nome-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
   
@@ -115,11 +115,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 4. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
     |**Tipo**|**Host**|**Atender**|**TTL**|**Prio**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
    ![Name-BP-configure-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   
@@ -184,7 +184,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
   
 1. Para iniciar, vá para a sua página de domínios em name.com usando [este link](https://www.name.com/account/domain). Você será solicitado a fazer o logon primeiro.
     
@@ -200,11 +200,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 4. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
     |**Tipo**|**Host**|**Atender**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |Use the default value (300).  <br/> |
+    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |Use the default value (300).  <br/> |
    
    ![Name-BP-configure-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
@@ -235,8 +235,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Serviço**|**Peso**|**TTL**|**Prio**|**Protocolo**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|sip|1 |Use o valor padrão (300).|100|tls|443|sipdir.online.lync.com <br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
-    |SRV|sipfederationtls|1 |Use o valor padrão (300).|100|tcp|5061|sipfed.online.lync.com <br>**Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |SRV|sip|1|Use o valor padrão (300).|100|tls|443|sipdir.online.lync.com <br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |SRV|sipfederationtls|1|Use o valor padrão (300).|100|tcp|5061|sipfed.online.lync.com <br>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
    ![Name-BP-configure-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   

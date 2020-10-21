@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Saiba como verificar sua propriedade de email e domínio para assumir o controle de um locatário não gerenciado no Microsoft 365
-ms.openlocfilehash: 9c1d98616b10737553060bcbad62df9b3b4c0c9a
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: 9ae09a4b88887664a0615128bcddc48ad6f57118
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814463"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645054"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Executar um administrador interno tomada
 

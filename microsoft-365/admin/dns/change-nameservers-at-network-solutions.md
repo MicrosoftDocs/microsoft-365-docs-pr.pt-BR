@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
 description: 'Saiba como configurar seu domínio personalizado da Microsoft com soluções de rede se você quiser que a Microsoft gerencie seus registros DNS. '
-ms.openlocfilehash: 502699cf3760460a13ee067b07737037f31fa4ee
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 1cb5cd3cc8628a629fb6d7044063914e37adfac2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079872"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646398"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>Alterar os nameservers para configurar o Microsoft com soluções de rede
 
@@ -61,7 +61,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
   
 4. Selecione **gerenciar registros de DNS avançados**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     ![Selecionar gerenciar registros DNS avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -115,12 +115,12 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 Para concluir a configuração do seu domínio com a Microsoft, altere os registros NS do seu domínio no seu registrador de domínios para apontar para os servidores de nomes primários e secundários da Microsoft. Isso configura a Microsoft para atualizar os registros DNS do domínio para você. Todos os registros são adicionados para que os seus emails, o Skype for Business Online e os sites públicos funcionem com o seu domínio e você fique com tudo pronto.
   
 > [!CAUTION]
-> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain* . com) começarão a ser iniciados pela Microsoft depois que você fizer essa alteração.
+> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain*  . com) começarão a ser iniciados pela Microsoft depois que você fizer essa alteração.
   
 Pronto para alterar os registros NS para que a Microsoft possa configurar seu domínio? Siga as etapas abaixo ou [assista ao vídeo (inicia em 2:23)](https://support.microsoft.com/office/69b092e3-c026-4d19-a7d0-16cdb2d8b261).
   
 > [!IMPORTANT]
->  Quando você tiver concluído as etapas nesta seção, os *únicos* nameservers que devem ser listados são estes quatro: **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**e **NS4.bdm.microsoftonline.com**. O procedimento a seguir mostra como excluir outros nameservers indesejados da lista, além de adicionar os nameservers  *corretos*  se ainda não estiverem na lista. 
+>  Quando você tiver concluído as etapas nesta seção, os  *únicos*  nameservers que devem ser listados são estes quatro: **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**e **NS4.bdm.microsoftonline.com**. O procedimento a seguir mostra como excluir outros nameservers indesejados da lista, além de adicionar os nameservers  *corretos*  se ainda não estiverem na lista. 
   
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     

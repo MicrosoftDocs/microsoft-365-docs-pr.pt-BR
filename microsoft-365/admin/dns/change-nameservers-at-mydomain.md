@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: c5f6140a-4a12-401b-9bbd-7dfb0d6b0ba3
 description: Saiba como você pode configurar a Microsoft para gerenciar os registros DNS do seu domínio personalizado em mydomain.
-ms.openlocfilehash: d8fc61c3adbe8b5b865bd82b8c4e0944198921e7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 44d36f872ddbeeba1948ee8a7a4db029895fcb8c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400624"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646410"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-mydomain"></a>Alterar os nameservers para configurar o Microsoft com mydomain
 
@@ -113,7 +113,7 @@ Para concluir a configuração do seu domínio com a Microsoft, altere os regist
 ### <a name="if-the-correct-nameservers-are-not-already-listed"></a>Se os nameservers corretos NÃO ESTIVEREM listados
 
 > [!CAUTION]
-> Follow these steps only if you have existing nameservers other than the four correct nameservers. (Ou seja, exclua somente os nameservers atuais que *não* sejam denominados **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**ou **NS4.bdm.microsoftonline.com**.) 
+> Follow these steps only if you have existing nameservers other than the four correct nameservers. (Ou seja, exclua somente os nameservers atuais que  *não*  sejam denominados **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**ou **NS4.bdm.microsoftonline.com**.) 
   
 1. Exclua os nameservers existentes selecionado cada entrada no campo **Nameserver:** e, em seguida, pressione a tecla **Delete** no seu teclado. 
     

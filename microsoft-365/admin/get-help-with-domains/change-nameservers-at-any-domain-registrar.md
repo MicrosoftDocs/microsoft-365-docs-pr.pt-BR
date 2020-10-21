@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Saiba como adicionar e configurar seu domínio no Microsoft 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio.
-ms.openlocfilehash: 34e4db5748f9d4c1f1864db09071374bcec73e1d
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: f233cc9b2d37e3ee81e52178a7cc045cb3579e42
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295053"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645390"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Alterar os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios
 

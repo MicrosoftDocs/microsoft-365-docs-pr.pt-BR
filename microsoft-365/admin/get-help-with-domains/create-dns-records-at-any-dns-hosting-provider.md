@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ description: Aprenda a verificar seu domínio e criar registros DNS em qualquer 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 01bcffe37d9c38d91eff25d9df58f848f4ee1a82
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: 6c2359cbf2da24fa7e2cd579d61216d948e0cb83
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138251"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645366"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Adicionar registros DNS para conectar seu domínio
 

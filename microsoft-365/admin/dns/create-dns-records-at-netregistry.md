@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Netregistry para a Microsoft.
-ms.openlocfilehash: c4e81e92b9f86d0a2974e6f95e397f3584c9a01e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 016df6c61fd6934c1bc46b55c7e110d8442cf1d5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400359"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645966"
 ---
 # <a name="create-dns-records-at-netregistry-for-microsoft"></a>Criar registros DNS no Netregistry para Microsoft
 
@@ -138,7 +138,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**TTL (SEG)**|**Exchange (aponta para o endereço ou valor)**|**O host está totalmente qualificado?**|**Preferência (prioridade)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |3600 (segundos)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)      |(marque a caixa de seleção)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(deixar em branco)  <br/> |3600 (segundos)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)      |(marque a caixa de seleção)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
@@ -161,7 +161,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Netregistry_selectZoneManager](../../media/58384add-0a9d-472b-a5d0-51ec8155fd41.png)
   
-4. Em **Adicionar um registro de zona**, escolha **registro CNAME** na lista e, em seguida, selecione **criar novo registro**.
+4. Em  **Adicionar um registro de zona**, escolha **registro CNAME** na lista e, em seguida, selecione **criar novo registro**.
     
     ![Netregistry_CNAME_CreateNewRecord](../../media/7b4f133f-45da-48da-93c0-62f57c786165.png)
   
@@ -185,11 +185,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Para cada registro, digite ou copie e cole os valores da próxima linha da tabela acima nas caixas desse registro.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores.
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores.
   
 1. Para começar, vá até a sua página de domínios no Netregistry usando [este link](https://theconsole.netregistry.com.au/). You'll be prompted to log in.
     
@@ -214,7 +214,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
     |**Nome**|**Tipo**|**TTL**|**Dados TXT (destino)**|
     |:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |"v = spf1 inclui include. Protection. Outlook. com-All"  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |"v = spf1 inclui include. Protection. Outlook. com-All"  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
     ![Netregistry_SPF-TXTvalues](../../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
   
@@ -229,7 +229,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Netregistry_login](../../media/accf6584-e5f4-4d68-a641-0f8847f8370f.png)
   
-2. Ao lado do domínio que você deseja gerenciar, selecione **gerenciar**.
+2. Ao lado do domínio que você deseja gerenciar, selecione  **gerenciar**.
     
     ![Netregistry_Manage](../../media/e0ddc79e-0123-4e24-8380-9645bdb41aac.png)
   
@@ -237,7 +237,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Netregistry_selectZoneManager](../../media/f122888b-3cc5-40ec-adac-0ede04799d9a.png)
   
-4. Em **Adicionar um registro de zona**, escolha **registro SRV** na lista e, em seguida, selecione **criar novo registro**.
+4. Em  **Adicionar um registro de zona**, escolha **registro SRV** na lista e, em seguida, selecione **criar novo registro**.
     
     ![Netregistry_SRV_select](../../media/e5dab850-acd1-48b8-8b4a-e3b9777cf508.png)
   
@@ -248,8 +248,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
     |**Tipo**|**Nome**|**TTL (SEG)**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (serviço)  <br/> |_sip. _tls  <br/> |3600 (segundos)  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (serviço)  <br/> |_sipfederationtls. _tcp  <br/> |3600 (segundos)  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (serviço)  <br/> |_sip._tls  <br/> |3600 (segundos)  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (serviço)  <br/> |_sipfederationtls._tcp  <br/> |3600 (segundos)  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Netregistry_SRV_values](../../media/49292846-1598-4b8c-9940-db6e10675753.png)
   

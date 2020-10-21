@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 0413dcce-26be-4b8c-b3fa-73ac1ac4fb35
 ROBOTS: NOINDEX
 description: Saiba como validar suas informações de contato para estar em conformidade com as regulamentações do ICANN.
-ms.openlocfilehash: e96ae69af282af84595283a431ccb73f869f1454
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: cddde025fb020347c52de49841e35e2e1aed90ca
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399345"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645042"
 ---
 # <a name="icann-verification-of-contact-information"></a>Verificação ICANN das informações de contato
 

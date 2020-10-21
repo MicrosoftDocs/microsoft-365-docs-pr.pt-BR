@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9c0812e0-908b-4b41-a64b-77f0dbd3db7a
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Dreamhost para a Microsoft.
-ms.openlocfilehash: 4b321138892cb4a7b5f67c37ed66f3baf0f6c45a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8ab617fd5d63b292a85289d2d51a0ae0fd3b26be
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400504"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646194"
 ---
 # <a name="create-dns-records-at-dreamhost-for-microsoft"></a>Criar registros DNS no Dreamhost para Microsoft
 
@@ -64,11 +64,11 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     (You may have to scroll down.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
-    |**Nome**|**Tipo**|**Valor**|**Comment**|
+    |**Name**|**Tipo**|**Valor**|**Comment**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |(Esse campo é opcional.)  <br/> |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |(Esse campo é opcional.)  <br/> |
    
    ![Dreamhost-BP-Verify-1-1](../../media/ed4a7d43-eeeb-4ec8-849c-37f81315dc69.png)
   
@@ -121,13 +121,13 @@ Siga as etapas abaixo.
   
 4. Na seção **registro MX personalizado** , nas caixas do novo registro, digite ou copie e cole os seguintes valores da tabela a seguir. 
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     (Se houver outros registros MX existentes, marque os registros a serem excluídos.)
     
     |**Registro MX (obrigatório)**|
     |:-----|
-    |0 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> **This value MUST end with a period (.)** <br/> O 0 é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> O 0 é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Dreamhost-BP-configure-2-3](../../media/90da1816-e186-4016-ab22-7962f8b86add.png)
   
@@ -163,16 +163,16 @@ Siga as etapas abaixo.
   
 4. Na seção **Adicionar um registro DNS personalizado** , nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
-    |**Nome**|**Tipo**|**Valor**|**Comment**|
+    |**Name**|**Tipo**|**Valor**|**Comment**|
     |:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |CNAME  <br/> |autodiscover.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> |(Esse campo é opcional.)  <br/> |
-    |sip  <br/> |CNAME  <br/> |sipdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |(Esse campo é opcional.)  <br/> |
-    |lyncdiscover  <br/> |CNAME  <br/> |webdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |(Esse campo é opcional.)  <br/> |
-    |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **This value MUST end with a period (.)** <br/> |(Esse campo é opcional.)  <br/> |
+    |autodiscover  <br/> |CNAME  <br/> |autodiscover.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
+    |sip  <br/> |CNAME  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
+    |lyncdiscover  <br/> |CNAME  <br/> |webdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
+    |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
     |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
    
     ![Dreamhost-BP-configure-3-1](../../media/0c4cc587-ea24-47f2-8dc6-a35735b250e6.png)
@@ -184,11 +184,11 @@ Siga as etapas abaixo.
 6. Usando as duas etapas anteriores e os valores das outras cinco linhas na tabela, adicione cada um dos outros cinco registros CNAME.
 
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores.
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores.
   
 Siga as etapas abaixo.
   
@@ -206,13 +206,13 @@ Siga as etapas abaixo.
   
 4. Na seção **Adicionar um registro DNS personalizado** , nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
-    |**Nome**|**Tipo**|**Valor**|**Comment**|
+    |**Name**|**Tipo**|**Valor**|**Comment**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |(Esse campo é opcional.)  <br/> |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |(Esse campo é opcional.)  <br/> |
    
    ![Dreamhost-BP-configure-4-1](../../media/cbc4bbca-bdbc-4dc9-b1b7-b55491eb1e53.png)
   
@@ -242,14 +242,14 @@ Siga as etapas abaixo.
   
 4. Na seção **Adicionar um registro DNS personalizado** , nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
-    |**Nome**|**Tipo**|**Valor**|**Comment**|
+    |**Name**|**Tipo**|**Valor**|**Comment**|
     |:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |SRV  <br/> |100 1 443  <br/> sipdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |(Esse campo é opcional.)  <br/> |
-    |_sipfederationtls. _tcp  <br/> |SRV  <br/> |100 1 5061  <br/> sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
+    |_sip._tls  <br/> |SRV  <br/> |100 1 443  <br/> sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
+    |_sipfederationtls._tcp  <br/> |SRV  <br/> |100 1 5061  <br/> sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |(Esse campo é opcional.)  <br/> |
    
     ![Dreamhost-BP-configure-5-1](../../media/934eb79f-3617-4b72-802c-c42c7d165283.png)
   

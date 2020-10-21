@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dc55f9f-5309-450f-acc3-b2b4119c8be3
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em soluções de rede para a Microsoft.
-ms.openlocfilehash: 25e85bf30527b49ada711af9ba5c418409acd24c
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: f488ad3511c9901eae70691f616dcff52036c71d
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780332"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645942"
 ---
 # <a name="create-dns-records-at-network-solutions-for-microsoft"></a>Criar registros DNS no Network Solutions for Microsoft
 
@@ -80,7 +80,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
   
 4. Selecione **gerenciar registros de DNS avançados**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     ![Selecionar gerenciar registros DNS avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -92,7 +92,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:-----|
-    |@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)   |
+    |@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)   |
        
     ![Digitar ou colar valores nas caixas do novo registro](../../media/8a76daab-b6ff-4c82-ba68-192b24fbb934.png)
   
@@ -149,7 +149,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:51)](https://support.mi
   
 4. Selecione **gerenciar registros de DNS avançados**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     ![Selecionar gerenciar registros DNS avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -161,7 +161,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:51)](https://support.mi
     
     |**Prioridade**|**TTL**|**Servidor de Email**|
     |:-----|:-----|:-----|
-    |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> | *\<domain-key\>*. mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> | *\<domain-key\>*  . mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![Digitar ou colar valores nas caixas do novo registro](../../media/0bb96872-cc6e-4dfa-a649-fb7efbbf0012.png)
   
@@ -207,7 +207,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:43)](https://support.mi
   
 4. Selecione **gerenciar registros de DNS avançados**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     ![Selecionar gerenciar registros DNS avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -219,11 +219,11 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:43)](https://support.mi
     
     |**Alias**|**TTL**|**Refere-se ao Nome do host**|**Outro Host          (selecione o botão de opção **Outro Host**)**|
     |:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |3600  <br/> |(Sem configuração)  <br/> |autodiscover.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |autodiscover  <br/> |3600  <br/> |(Sem configuração)  <br/> |autodiscover.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
     |sip  <br/> |3600  <br/> |(Sem configuração)  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
-    |lyncdiscover  <br/> |3600  <br/> |(Sem configuração)  <br/> |webdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |lyncdiscover  <br/> |3600  <br/> |(Sem configuração)  <br/> |webdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
     |enterpriseregistration  <br/> |3600  <br/> |(Sem configuração)  <br/> |enterpriseregistration.windows.net  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
-    |enterpriseenrollment  <br/> |3600  <br/> |(Sem configuração)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **This value MUST end with a period (.)** <br/> |
+    |enterpriseenrollment  <br/> |3600  <br/> |(Sem configuração)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
     
     ![Digitar ou colar valores dos novos registros](../../media/5ce0b30c-b46c-4778-aa5a-fb5e2f0961c1.png)
   
@@ -235,11 +235,11 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:43)](https://support.mi
     
     ![Selecionar Salvar alterações](../../media/f005c38a-0d8d-4c61-bec6-15e60c89aa5a.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
   
 Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:35)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
@@ -260,7 +260,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:35)](https://support.mi
   
 4. Selecione **gerenciar registros de DNS avançados**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     ![Selecionar gerenciar registros DNS avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -272,7 +272,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:35)](https://support.mi
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:-----|
-    |@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto. |
+    |@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto. |
        
     ![Digitar ou colar valores para o novo registro](../../media/11564eca-e2ee-4f17-af2b-a00eb7c157db.png)
   
@@ -306,7 +306,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 6:18)](https://support.mi
   
 4. Selecione **gerenciar registros de DNS avançados**.
     
-    (You may have to scroll down.)
+    (Pode ser necessário rolar para baixo.)
     
     ![Selecionar gerenciar registros DNS avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -320,8 +320,8 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 6:18)](https://support.mi
     
     |**Serviço**|**Protocolo**|**TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
        
     ![Digitar ou colar valores dos novos registros](../../media/86968d1c-8e43-4e61-aeaa-37fc7d7ef7a7.png)
   
