@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Monitorar mensagens de email com e atrasadas enviadas para ou de contas com alto impacto nos negócios.
-ms.openlocfilehash: 053246da7f57c46045bfc777bc4de981ce51c6e5
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: ce78316290f18f06337adc0e78a1b8992be7b425
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794180"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644579"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Gerenciar e monitorar contas de prioridade
 
@@ -69,7 +69,7 @@ Você pode monitorar o status de email de suas contas de prioridade no centro de
 
 ## <a name="email-issues-for-priority-accounts"></a>Problemas de email para contas de prioridade
 
-Você pode rastrear problemas de email para contas de prioridade, acessando o relatório de **problemas de email para contas de prioridade** no centro de administração do Exchange. Para obter mais informações, confira [problemas de email para contas de prioridade](https://review.docs.microsoft.com/en-us/Exchange/mail-flow-best-practices/mail-flow-insights/mfi-email-issues-for-priority-accounts?branch=Priority-chrisda).
+Você pode rastrear problemas de email para contas de prioridade, acessando o relatório de **problemas de email para contas de prioridade** no centro de administração do Exchange. Para obter mais informações, confira [problemas de email para contas de prioridade](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report).
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>Remover um usuário da lista contas de prioridade
 

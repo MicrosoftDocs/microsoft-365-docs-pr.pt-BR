@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4cf6e4db2a4609583b73804378f9d964269358b1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 26b8a044f2a8b537a95372c8733adbf2b05f506b
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398253"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48643410"
 ---
 # <a name="contact-support-for-china-prc"></a>Contatar o suporte para a China (República Popular da China)
 
@@ -28,15 +28,15 @@ ms.locfileid: "44398253"
 800 988 0365
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Chinês (mandarim): Seg-Sex 9 AM-6 PM
+Chinês (mandarim): Mon-Fri 9 AM-6 PM
 
-Inglês: Seg-Sex 9 AM-6 PM
+Inglês: Mon-Fri 9 AM-6 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Chinês (mandarim): Seg-Sex 9 AM-6 PM
+Chinês (mandarim): Mon-Fri 9 AM-6 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
@@ -50,12 +50,12 @@ Número de telefone alternativo: 400 920 0365 (celular)
 + 86 4000 890 365
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Chinês e inglês: Seg-Sex 9 AM-6 PM
+Chinês e inglês: Mon-Fri 9 AM-6 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Suporte para telefone chinês e inglês: Seg-Sex 9 AM-9 PM
+Suporte para telefone chinês e inglês: Mon-Fri 9 AM-9 PM
 
 Suporte online para chinês e inglês (por meio do centro de administração): 24 horas por dia, 7 dias por semana

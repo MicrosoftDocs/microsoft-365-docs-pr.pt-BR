@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Saiba mais sobre o Office 365 operado pela 21Vianet que foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 133df44635927d185e72c7981953e07162d458a9
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 5906bf961e246f1d707b030ffb4c788da353200c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079732"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644646"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365 operado pela 21Vianet
 
@@ -99,7 +99,7 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
 |Compartilhar seu calendário  <br/> |O compartilhamento de calendário entre caixas de correio locais e do Exchange Online está disponível.  <br/> |
 |Compartilhamento de contatos  <br/> |Em breve.  <br/> |
 |Controle de mensagens  <br/> |Em breve.  <br/> |
-|Apps  <br/> |Em breve.  <br/> |
+|Aplicativos  <br/> |Em breve.  <br/> |
 |Recurso locais  <br/> |Este recurso mostra mapas de endereços no email; Como pode permitir dados fora do seu país, ele não está disponível.  <br/> |
 |Contas Conectadas  <br/> |A conexão a outras contas como o hotmail (Outlook.com) estará disponível em breve.  <br/> |
    

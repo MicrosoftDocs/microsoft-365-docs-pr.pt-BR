@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como fazer a transição do Microsoft Cloud Alemanha Exchange Online para o serviço global do Exchange Online
-ms.openlocfilehash: 41628b3032f5b268d5e32501b393fef31663dfc3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8de64e30205b07a0c20a8ae4f7cdedbf6cc6824f
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399225"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644850"
 ---
 # <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>Atualizar seus registros MX para fazer a transição para o serviço global do Exchange Online
 

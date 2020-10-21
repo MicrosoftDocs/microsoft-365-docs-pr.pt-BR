@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ ms.assetid: 0669bf14-414d-4f51-8231-6b710ce7980b
 ROBOTS: NOINDEX
 description: 'Saiba como criar registros DNS para o Office 365 operado pela 21Vianet ao gerenciar seus registros DNS. '
 monikerRange: o365-21vianet
-ms.openlocfilehash: c05dc1c84465ea06572021610744f0cbe5aa9fea
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 8f252ba47fbd72f5a628a23567addcc84604fb3c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779900"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644814"
 ---
 # <a name="create-dns-records-for-office-365-when-you-manage-your-dns-records"></a>Criar registros DNS para o Office 365 ao gerenciar seus registros DNS
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: Saiba mais sobre o Azure Information Protection para Office 365 operado pela 21Vianet e como configurá-lo para os clientes da China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: ca30811e77f686b92b8cdd13d624182eb0d3039e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: ad3420483701c83ffef65994996047de56a7085c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445574"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644658"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Paridade entre a proteção de informações do Azure para Office 365 operado pela 21Vianet e ofertas comerciais
 
@@ -55,12 +55,12 @@ Para que a criptografia funcione corretamente, o RMS deve estar habilitado para 
 
 - Verifique se o RMS está habilitado:
   1. Inicie o PowerShell como administrador.
-  2. Se o módulo AIPService não estiver instalado, execute  `Install-Module AipService` .
+  2. Se o módulo AIPService não estiver instalado, execute `Install-Module AipService` .
   3. Importe o módulo usando o `Import-Module AipService` .
-  4. Conecte-se ao serviço usando  `Connect-AipService -environmentname azurechinacloud` .
-  5. Executar  `(Get-AipServiceConfiguration).FunctionalState`   e verificar se o estado é  `Enabled` .
+  4. Conecte-se ao serviço usando `Connect-AipService -environmentname azurechinacloud` .
+  5. Executar `(Get-AipServiceConfiguration).FunctionalState` e verificar se o estado é `Enabled` .
 
-- Se o estado funcional for  `Disabled` , execute  `Enable-AipService` .
+- Se o estado funcional for `Disabled` , execute `Enable-AipService` .
 
 ### <a name="dns-configuration-for-encryption-windows"></a>Configuração de DNS para criptografia (Windows)
 
@@ -70,27 +70,27 @@ Além disso, a pressuposição é que os usuários farão logon com um nome de u
 
 - Obter a ID do RMS:
   1. Inicie o PowerShell como administrador.
-  2. Se o módulo AIPService não estiver instalado, execute  `Install-Module AipService` .
-  3. Conecte-se ao serviço usando  `Connect-AipService -environmentname azurechinacloud` .
-  4. Execute  `(Get-AipServiceConfiguration).RightsManagementServiceId`   para obter a ID do RMS.
+  2. Se o módulo AIPService não estiver instalado, execute `Install-Module AipService` .
+  3. Conecte-se ao serviço usando `Connect-AipService -environmentname azurechinacloud` .
+  4. Execute `(Get-AipServiceConfiguration).RightsManagementServiceId` para obter a ID do RMS.
 
 - Faça logon no seu provedor de DNS, navegue até as configurações de DNS para o domínio e, em seguida, adicione um novo registro SRV.
-  - Serviço = `_rmsredir`
-  - Protocolo = `_http`
-  - Nome = `_tcp`
-  - Target =  `[GUID].rms.aadrm.cn`   (onde GUID é a ID do RMS)
+  - Serviço = `_rmsredir`
+  - Protocolo = `_http`
+  - Nome = `_tcp`
+  - Target = `[GUID].rms.aadrm.cn` (onde GUID é a ID do RMS)
   - Prioridade, peso, segundos, TTL = valores padrão
 
-- Associe o domínio personalizado ao locatário no [portal do Azure](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Isso adicionará uma entrada no DNS, que pode levar alguns minutos para ser verificada depois que você adicionar o valor às configurações de DNS.
+- Associe o domínio personalizado ao locatário no [portal do Azure](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Isso adicionará uma entrada no DNS, que pode levar alguns minutos para ser verificada depois que você adicionar o valor às configurações de DNS.
 
 - Faça logon no centro de administração do Microsoft 365 com as credenciais de administrador global correspondentes e adicione o domínio (por exemplo, `contoso.cn` ) para a criação de usuários. No processo de verificação, alterações adicionais de DNS podem ser necessárias. Após a verificação ser concluída, os usuários podem ser criados.
 
 ### <a name="dns-configuration-for-encryption-mac-ios-android"></a>Configuração de DNS para criptografia (Mac, iOS, Android)
 
 - Faça logon no seu provedor de DNS, navegue até as configurações de DNS para o domínio e, em seguida, adicione um novo registro SRV.
-  - Serviço = `_rmsdisco`
-  - Protocolo = `_http`
-  - Nome = `_tcp`
-  - Target = `api.aadrm.cn`
-  - Porta = `80`
+  - Serviço = `_rmsdisco`
+  - Protocolo = `_http`
+  - Nome = `_tcp`
+  - Target = `api.aadrm.cn`
+  - Porta = `80`
   - Prioridade, peso, segundos, TTL = valores padrão

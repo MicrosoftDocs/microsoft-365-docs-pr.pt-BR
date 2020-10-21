@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 20816b8b-8b21-458f-81c1-320b8116597e
 ROBOTS: NOINDEX
 description: 'Saiba como se inscrever no Office 365 com seu endereço de email pessoal, se você não preferir adicionar um domínio personalizado. '
-ms.openlocfilehash: 0b188754b169f6f0f0fb807a8ba236497a7439ff
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b8e11d7c99ce385d8d5147245ac078b7d46c7caf
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399249"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644874"
 ---
 # <a name="signing-up-for-office-365-with-a-personal-email-address"></a>Inscrever-se no Office 365 com um endereço de email pessoal
 
@@ -37,7 +37,7 @@ Se você optar por adicionar um domínio personalizado agora, terá acesso a tod
   
 |**Recurso**|**Office 365 com email pessoal**|**Office 365 com domínio personalizado**|
 |:-----|:-----|:-----|
-|**OneDrive <sup>1, 2</sup>**| [OneDrive pessoal](https://onedrive.live.com/about/en-us/plans/)| [OneDrive for Business](https://onedrive.live.com/about/en-us/business/) |
+|**OneDrive <sup>1, 2</sup>**| [OneDrive pessoal ](https://onedrive.live.com/about/en-us/plans/)| [OneDrive for Business](https://onedrive.live.com/about/en-us/business/) |
 |**Aplicativos do Office: Word, Excel, PowerPoint, OneNote, Outlook, Access (somente computador),**| Sim | Sim 
 |**Aplicativos de negócios <sup>3</sup> : conexões da Microsoft, faturamento, listagens, reservas, MileIQ e gerente de clientes do Outlook**| Não | Sim 
 |**Acesso ao centro de administração do Microsoft 365**| Acesso limitado (cobrança, suporte e configuração de domínio) | Sim
