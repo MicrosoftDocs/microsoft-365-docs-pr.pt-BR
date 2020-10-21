@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9a1cf363fa550c55e054e1839c6996e10474cc70
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 27541e1c0f2f9b9f5bc9a48f3f0757de3d91ceaa
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397893"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642654"
 ---
 # <a name="contact-support-for-french-guiana"></a>Contatar o suporte para Guiana francesa
 
@@ -28,15 +28,15 @@ ms.locfileid: "44397893"
 + 1 312 843 5147
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Seg-Sex 5 AM-1 PM
+Francês: Mon-Fri 5 AM-1 PM
 
-Inglês: Seg-Sex 5 AM-1 PM
+Inglês: Mon-Fri 5 AM-1 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Seg-Sex 4 AM-5 P.M.
+Francês: Mon-Fri 4 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 

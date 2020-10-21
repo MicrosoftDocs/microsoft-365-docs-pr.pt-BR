@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e3b29a8182e38fa05e5f791478157c978632fb13
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 29e5eb64445c6c5c45b8e1fd1633c030b5f32b86
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477000"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649662"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 
@@ -36,10 +36,10 @@ ms.locfileid: "48477000"
 
 Aplique essas recomendações para obter resultados mais rapidamente e evitar tempos limite ao executar consultas complexas. Para obter mais informações sobre como melhorar o desempenho da consulta, leia [ práticas recomendadas de consulta no Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).
 
-## <a name="understand-cpu-resource-limits"></a>Entender os limites de recursos da CPU
-Dependendo de seu tamanho, cada locatário tem acesso a uma quantidade definida de recursos de CPU alocados para executar consultas de busca avançadas. Para obter informações detalhadas sobre vários limites de serviço, [Leia sobre os limites de caça avançados](advanced-hunting-limits.md).
+## <a name="understand-cpu-resource-quotas"></a>Entender as cotas de recursos de CPU
+Dependendo de seu tamanho, cada locatário tem acesso a uma quantidade definida de recursos de CPU alocados para executar consultas de busca avançadas. Para obter informações detalhadas sobre vários limites de serviço, [Leia sobre cotas de caça e parâmetros de uso avançados](advanced-hunting-limits.md).
 
-Os clientes que executam várias consultas regularmente acompanham o consumo e aplicam a orientação de otimização neste artigo para minimizar a interrupção resultante da excedeção dos limites.
+Os clientes que executam várias consultas regularmente acompanham o consumo e aplicam a orientação de otimização neste artigo para minimizar a interrupção resultante da excedeção de cotas ou parâmetros de uso.
 
 ## <a name="general-optimization-tips"></a>Dicas gerais de otimização
 
@@ -253,7 +253,7 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 ### <a name="parse-strings"></a>Analisar cadeias de caracteres
 Há várias funções que você pode usar para lidar com eficiência cadeias de caracteres que precisam de análise ou conversão. 
 
-| Cadeia de caracteres | Função | Exemplo de uso |
+| String | Função | Exemplo de uso |
 |--|--|--|
 | Linhas de comando | [parse_command_line ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | Extraia o comando e todos os argumentos. | 
 | Caminhos | [parse_path ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | Extraia as seções de um caminho de arquivo ou pasta. |
@@ -265,7 +265,7 @@ Para saber mais sobre todas as funções de análise compatíveis, [Leia sobre a
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Documentação da linguagem de consulta do Kusto](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
-- [Limites de serviço](advanced-hunting-limits.md)
+- [Cotas e parâmetros de uso](advanced-hunting-limits.md)
 - [Manipular erros de busca avançada](advanced-hunting-errors.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)

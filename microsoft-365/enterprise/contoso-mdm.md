@@ -15,59 +15,59 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a contoso usa o Microsoft Intune no Microsoft 365 for Enterprise para gerenciar seus dispositivos e os aplicativos que são executados neles.
-ms.openlocfilehash: 40d9473bcadfa636f6fd2b2c6c861c27dae8497c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d3f973827a9b05a415efe9225a2bdb3d83ccaf38
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685837"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649640"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Gerenciamento de dispositivo móvel para a Contoso
 
-O Microsoft 365 for Enterprise inclui o Intune e um conjunto de serviços do Azure para suportar o gerenciamento e a segurança de dispositivos móveis e de aplicativos.
+O Microsoft 365 for Enterprise inclui o Intune e um conjunto de serviços do Azure que oferecem suporte a gerenciamento e segurança de dispositivos móveis e aplicativos.
 
-A Contoso tem vários funcionários com dispositivos móveis, alguns em escritórios da Contoso e alguns dos quais não têm escritórios. A Contoso precisa de uma maneira de habilitar a produtividade mas manter a proteção nos dispositivos, nos dados da Contoso armazenados nesses dispositivos e no comportamento dos aplicativos.
+A contoso tem vários funcionários habilitados para dispositivos móveis. Alguns têm escritórios nos locais da Contoso e alguns não têm escritórios. A contoso precisava de uma maneira de habilitar a produtividade dos funcionários, mas manter os dispositivos, os dados da Contoso armazenados nesses dispositivos e o comportamento do aplicativo seguro.
 
 ## <a name="plan"></a>Planejar
 
-No início da análise do gerenciamento de dispositivos móveis para o Microsoft 365 para empresas, a contoso identificou os seguintes casos de uso do Intune:
+A contoso identificou os seguintes casos de uso do Intune de gerenciamento de dispositivos móveis para o Microsoft 365 para empresas:
 
-- Proteger os dados e emails do Exchange Online para que possam ser acessados com segurança em dispositivos móveis
-- Implementar um programa "traga seu próprio dispositivo" (BYOD) para funcionários da Contoso
-- Emitir telefones e tablets pertencentes à organização e tablets compartilhados de uso limitado para funcionários da Contoso
+- Proteger os dados e emails do Exchange Online para que eles possam ser acessados com segurança por dispositivos móveis.
+- Implementar um programa do BYOD (Traga seu próprio dispositivo) para funcionários da contoso.
+- Emitir telefones de propriedade da organização e usar tablets compartilhados para funcionários da contoso.
 
-A Contoso não está usando o Intune para:
+A contoso não usa o Intune para:
 
-- Permitir que os funcionários acessem com segurança o Microsoft 365 de um quiosque público não gerenciado
-- Proteger dados e emails locais para que possam ser acessados com segurança em dispositivos móveis, já que não há mais servidores locais do Microsoft Exchange.
+- Permitir que os funcionários acessem com segurança o Microsoft 365 de um quiosque público não gerenciado.
+- Proteger os dados e emails locais para que eles possam ser acessados com segurança por dispositivos móveis, porque não há servidores do Microsoft Exchange locais.
 
 ## <a name="deploy"></a>Implantar
 
 A Contoso configurou sua infraestrutura de gerenciamento de dispositivo móvel da seguinte forma:
 
-- Configurou o Intune como a autoridade de Gerenciamento de Dispositivo Móvel (MDM) e está usando o Intune no Azure para administrar o conteúdo e gerenciar os dispositivos
-- Criou grupos do Azure AD para dispositivos para registro e configurações do Intune, além de políticas de acesso condicional baseadas no dispositivo.
+- Definir o Intune como a autoridade de gerenciamento de dispositivo móvel (MDM) e usar o Intune no Azure para administrar o conteúdo e gerenciar os dispositivos
+- Criou grupos do Azure Active Directory (Azure AD) para dispositivos para registro e configurações do Intune e políticas de acesso condicional baseadas em dispositivos
 
-  Confira [políticas de acesso condicional da Contoso](contoso-identity.md#conditional-access-policies-for-identity-and-device-access) para saber mais.
+  Para obter mais informações, consulte [contoso Conditional Access Policies](contoso-identity.md#conditional-access-policies-for-identity-and-device-access).
 
-- Habilitou a plataforma de dispositivos Apple para dar suporte a funcionários com iPads, iPhones e iMacs e celulares de propriedade corporativa com base no iPhone
+- Habilitada a plataforma de dispositivo Apple para dar suporte a funcionários com o iPads, iMacs e iPhones, e iPhones corporativos
 - Criou políticas de termos e condições específicas da Contoso, que são apresentadas durante a instalação do Portal da Empresa da Contoso em dispositivos móveis
-- Para dispositivos que não estão registrados, um conjunto de políticas de gerenciamento de aplicativo móvel (MAM) para exigir autenticação para acesso aos serviços do Microsoft 365
+- Para dispositivos que não estão registrados, implementou um conjunto de políticas de gerenciamento de aplicativo móvel (MAM) para exigir autenticação para acesso aos serviços do Microsoft 365
 - Políticas criadas do Intune que imponham:
-  - Aplicativos permitidos
-  - Criptografia de dispositivos para ajudar a impedir o acesso não autorizado
-  - Um PIN de seis dígitos ou senha
-  - Um tempo limite de inatividade
-  - Proteção antivírus e contra malware, e atualizações de assinaturas com o Windows Defender em dispositivos Windows 10
-  - Atualizações automáticas em dispositivos Windows 10 que incluem as atualizações de segurança mais recentes
-  - Enviar certificados para dispositivos gerenciados
+  - Aplicativos permitidos.
+  - Criptografia de dispositivo para ajudar a impedir o acesso não autorizado.
+  - Um PIN de seis dígitos ou senha.
+  - Um período de tempo limite de inatividade.
+  - Proteção antivírus e de malware e atualizações de assinatura com o Windows Defender em dispositivos Windows 10.
+  - Atualizações automáticas em dispositivos Windows 10 que incluem as atualizações de segurança mais recentes.
+  - Envio de certificados para dispositivos gerenciados.
   - Clara separação de dados pessoais e comerciais. Os administradores ou usuários podem apagar seletivamente dados corporativos do dispositivo, mantendo inalterados dados pessoais, como imagens, contas de email e arquivos pessoais.
 
-Depois de implantar, a Contoso registrou os PCs, smartphones e tablets de propriedade da empresa adicionando-os aos grupos de dispositivos apropriados do Intune, e gradualmente implementou um programa BYOD para os funcionários poderem registrar seus dispositivos pessoais. Os dispositivos registrados receberam políticas do Intune, resultando em dispositivos e aplicativos gerenciados e seguros. Dispositivos não registrados têm políticas de gerenciamento de aplicativo móvel (MAM) que especificam aplicativos permitidos.
+A contoso registrou computadores implantados e smartphones e tablets de propriedade da empresa adicionando-os aos grupos de dispositivos do Intune apropriados. Eles também estabeleceram um programa do BYOD para que os funcionários registrem seus dispositivos pessoais. Os dispositivos registrados recebem políticas do Intune, o que resulta em dispositivos gerenciados e protegidos e seus aplicativos. Os dispositivos que não estão registrados têm políticas de MAM (gerenciamento de aplicativo móvel) que especificam aplicativos permitidos.
 
-Esta é a arquitetura de implantação de gerenciamento de dispositivo móvel da Contoso.
+Veja a arquitetura de implantação de gerenciamento de dispositivo móvel da contoso.
 
-![Infraestrutura de implantação de gerenciamento de dispositivo móvel da Contoso.](../media/contoso-mdm/contoso-mdm-fig1.png)
+![Infraestrutura de implantação de gerenciamento de dispositivo móvel da contoso](../media/contoso-mdm/contoso-mdm-fig1.png)
 
 ## <a name="next-step"></a>Próxima etapa
 

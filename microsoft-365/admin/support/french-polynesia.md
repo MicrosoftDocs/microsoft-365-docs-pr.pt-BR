@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 37f2fadfa73be3d2093d6cf34380a667572b7729
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fff0648fcf1744dfe65eea12efe2cf04fd7c67b1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397881"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642666"
 ---
 # <a name="contact-support-for-french-polynesia"></a>Contatar o suporte para Polinésia francesa
 
@@ -28,15 +28,15 @@ ms.locfileid: "44397881"
 + 1 312 843 5147
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Dom-Sex 10 PM-6 AM
+Francês: Sun-Fri 10 PM-6 AM
 
-Inglês: Dom-Sex 10 PM-6 AM
+Inglês: Sun-Fri 10 PM-6 AM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Seg-Sex 9 PM-10 AM
+Francês: Mon-Fri 9 PM-10 AM
 
 Inglês: 24 horas por dia, 7 dias por semana
 

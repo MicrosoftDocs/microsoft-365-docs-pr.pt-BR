@@ -1,10 +1,10 @@
 ---
-title: Informações de suporte para a Guiné-Bissau
+title: Informações de suporte para Guinea-Bissau
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,14 +13,14 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: faadaefa11694743edb69221cb926d5078ea749b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 19319f643e4da40e217aa8405a8340961eaa5858
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397701"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642191"
 ---
-# <a name="contact-support-for-guinea-bissau"></a>Contatar o suporte para a Guiné-Bissau
+# <a name="contact-support-for-guinea-bissau"></a>Contatar o suporte para Guinea-Bissau
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -28,11 +28,11 @@ ms.locfileid: "44397701"
 + 1 312 843 5153
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Seg-Sex 9 AM-5 P.M.
+Inglês: Mon-Fri 9 AM-5 PM
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
 Português: 8 de AM-9 PM
 
