@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua cobrança ou fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: f0575683cdcaf0ac76de80c93e0d7573e8c63bae
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 80b7e4f14390e2f695dc753358f9e5bebe055bd0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391513"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638406"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Entenda sua conta ou fatura
 
@@ -42,7 +42,7 @@ Se você tiver apenas uma assinatura do Microsoft 365, confira [entender sua cob
 
 A parte superior da primeira página identifica quem é responsável pelo pagamento, onde a cobrança é enviada e um resumo dos encargos.
 
-| Term | Descrição |
+| Termo | Descrição |
 | --- | --- |
 | Vendido para |A conta de cobrança que identifica o nome e o endereço da entidade legal responsável pelo pagamento. Essas informações podem ser gerenciadas na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">contas de cobrança</a> , onde você pode encontrar o contrato de conta e gerenciar funções e permissões. |
 | Faturar para |Identifica quem recebe a fatura. Essas informações podem ser gerenciadas na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">perfis de cobrança</a> . O perfil de cobrança também é mostrado na página fatura online, na seção **Resumo da fatura** . Para saber mais sobre perfis de cobrança e como você pode usá-los para criar opções de cobrança mais flexíveis para sua organização, consulte [Manage Rebilling Profiles](manage-billing-profiles.md). |
@@ -55,7 +55,7 @@ A parte superior da primeira página identifica quem é responsável pelo pagame
 
 O **Resumo de cobrança** mostra o resumo dos encargos desde o período de cobrança anterior, todos os créditos que foram aplicados, impostos e o valor total devido.
 
-| Term | Descrição |
+| Termo | Descrição |
 | --- | --- |
 | Encargos|Número total de produtos comprados para esse período de cobrança e seus impostos e taxas relacionados. As compras são agregadas para fornecer uma visão concisa da sua cobrança. |
 | Créditos |Créditos recebidos de Devoluções |
@@ -67,7 +67,7 @@ O **Resumo de cobrança** mostra o resumo dos encargos desde o período de cobra
 
 As páginas de encargos mostram o custo dividido por produto. Para clientes do Azure, os encargos podem ser organizados por seção de fatura. Para obter mais informações sobre como as seções de fatura são usadas com produtos do Azure, confira [seções de fatura](https://docs.microsoft.com/azure/billing/billing-mca-overview#invoice-sections) em introdução [à sua conta de cobrança de contrato de cliente da Microsoft](https://docs.microsoft.com/azure/billing/billing-mca-overview). Dentro de cada ordem de produto, o custo é dividido pela família de serviços.
 
-| Term |Descrição |
+| Termo |Descrição |
 | --- | --- |
 | Preço unitário | O preço unitário efetivo do serviço (em moeda de preço) que é usado para calcular o encargo. Este preço é exclusivo para um produto, uma família de serviços, um medidor e uma oferta. |
 | Qtd | Quantidade comprada ou consumida durante o período de cobrança |

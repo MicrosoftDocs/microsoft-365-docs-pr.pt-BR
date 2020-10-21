@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,12 @@ description: Saiba como adquirir um complemento para adicionar mais funcionalida
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: e22c4193fffa1d97334f61e789265e75d55d53a3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e73a3430dbcded25a15fad19815106a72798d8e8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402185"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638382"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Comprar ou editar um suplemento
 

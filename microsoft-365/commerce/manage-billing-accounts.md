@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba mais sobre contas de cobrança e como gerenciá-las.
-ms.openlocfilehash: 87cc861ab48b99106a3cbd50d8ded91205ffb0a2
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3c99f3f22fb0eb13c4f9cab06a4037fe057b6fb4
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402601"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638202"
 ---
 # <a name="manage-billing-accounts"></a>Gerenciar contas de cobrança
 
@@ -50,7 +50,7 @@ A tabela a seguir lista os termos importantes exibidos na página de detalhes de
 | Perfis de cobrança | Um perfil de cobrança define as propriedades de sua fatura, como quem recebe a lista, como a cobrança é entregue, as condições de pagamento e um número de OC. Para distribuir cobrança em toda a sua organização, você pode criar vários perfis de cobrança e identificar o perfil de cobrança apropriado no momento da compra. Para obter mais informações sobre perfis de cobrança e como você pode usá-los para criar opções de cobrança mais flexíveis para sua organização, [gerencie perfis de cobrança](billing-and-payments/manage-billing-profiles.md). |
 
 > [!NOTE]
-> Se você quiser alterar o nome ou endereço de **vendido para** , mas não vir um link de **edição** , você deve [entrar em contato](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) com o suporte para alterá-lo. As solicitações para uma alteração de nome **vendidas** exigirão uma verificação de crédito. Ao entrar em contato com o suporte, tenha um dos seguintes documentos prontos:
+> Se você quiser alterar o nome ou endereço de **vendido para** , mas não vir um link de **edição** , você deve  [entrar em contato](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) com o suporte para alterá-lo. As solicitações para uma alteração de nome **vendidas** exigirão uma verificação de crédito. Ao entrar em contato com o suporte, tenha um dos seguintes documentos prontos:
 >
 > - Documento de anúncio externo que indica qualquer alteração no nome da empresa ou na estrutura corporativa
 > - Documento emitido pelo governo ou carta de registro

@@ -2,7 +2,7 @@
 title: Relatórios do Microsoft 365 no centro de administração-usuários ativos
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Saiba como obter um relatório de usuários ativos usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365 e saiba quantas licenças de produto estão sendo usadas.
-ms.openlocfilehash: 7f32059f01163a2a499f1befb9f4e3c519973549
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 162e818e96f6301cf0ec31580950be1ae19a0f35
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387892"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636990"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Relatórios do Microsoft 365 no centro de administração-usuários ativos
 

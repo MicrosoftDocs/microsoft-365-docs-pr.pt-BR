@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
 description: Saiba mais sobre o Microsoft 365 for Business e-fatura para Taiwan.
-ms.openlocfilehash: 1ea9ff21e25229924cd6815999b9c0868173026f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2cdc3f6fe4b87f92b16355f10416fa99712c6fcb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401781"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638466"
 ---
 # <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Entender sua fatura eletrônica para o Microsoft 365 for Business (Taiwan)
 
-a fatura eletrônica é emitida por vendedor após compras de compradores de acordo com os requisitos de fatura e-notação de autoridade de impostos de Taiwan. As informações são transmitidas para a nuvem de faturas eletrônicas da autoridade de impostos de Taiwan para manutenção de registros. Para informações relacionadas à fatura e-notação de Taiwan, consulte aqui:<a href="https://www.einvoice.nat.gov.tw/" target="_blank">財政部電子發票整合服務平台</a>
+a fatura eletrônica é emitida por vendedor após compras de compradores de acordo com os requisitos de fatura e-notação de autoridade de impostos de Taiwan. As informações são transmitidas para a nuvem de faturas eletrônicas da autoridade de impostos de Taiwan para manutenção de registros. Para informações relacionadas à fatura e-notação de Taiwan, consulte aqui: <a href="https://www.einvoice.nat.gov.tw/" target="_blank">財政部電子發票整合服務平台</a>
   
 Uma cópia de exemplo da fatura eletrônica está incluída aqui:
   

@@ -1,5 +1,5 @@
 ---
-title: Uso do dispositivo do Microsoft Teams
+title: Relatórios do Microsoft 365 no centro de administração-uso de dispositivos do Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha informações sobre os aplicativos do Microsoft Teams usados em sua organização obtendo o relatório de uso do aplicativo Microsoft Teams dos relatórios do Microsoft 365.
-ms.openlocfilehash: 98b8d6241b94445c9cb47d2c464d47c5609efdfe
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: deda550b3ffc4209f718d36a3010605edbc1102b
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949067"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636968"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de dispositivos do Microsoft Teams
 
@@ -51,7 +51,7 @@ Você também pode exportar os dados do relatório para um arquivo. csv do Excel
 |Item|Descrição|
 |:-----|:-----|
 |**Indicador**|**Definição**|
-|Nome de usuário  <br/> |O nome de exibição do usuário. Você pode clicar no nome para exibição para acessar a página de configuração do usuário no centro de administração do Microsoft Teams.  <br/> |
+|Nome de usuário  <br/> |O nome de exibição do usuário.  <br/> |
 |Windows  <br/> |Selecionado se o usuário estava ativo no cliente da área de trabalho do Microsoft Teams em um computador baseado no Windows.  <br/> |
 |Mac  <br/> |Selecionado se o usuário estava ativo no cliente da área de trabalho do Microsoft Teams em um computador macOS.  <br/> |
 |iOS  <br/> |Selecionado se o usuário estava ativo no cliente móvel do Microsoft Teams para iOS.  <br/> |
@@ -61,4 +61,5 @@ Você também pode exportar os dados do relatório para um arquivo. csv do Excel
 |Web  <br/> |Selecionado se o usuário estava ativo no cliente da Web do teams em dispositivos.|
 |Data da última atividade (UTC)  <br/> |A última data (UTC) que o usuário participou em uma atividade do teams.  <br/> |
 |É licenciado|Selecionado se o usuário está licenciado para usar o Microsoft Teams.|
+|Atividade total do teams|Número total de atividades do teams durante o período de tempo selecionado. |
 |||

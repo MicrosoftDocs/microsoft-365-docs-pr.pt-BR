@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
-ms.openlocfilehash: 41cf16397c4b3d2341721e741c6b293005971909
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 0c739597253db8b54b12cacfbaf55fce9cb36dd2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432410"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638598"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 
@@ -147,7 +147,7 @@ Se a quantidade do seu pedido for muito alta, pode ser necessária uma verifica�
 1. Vá para <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a> e compre a mesma assinatura do que você tem no momento. Ao fazer check-out, escolha a opção de pagamento por fatura.
 
     > [!IMPORTANT]
-    > Você não pode usar a página **seus produtos** no centro de administração para comprar a assinatura. Você deve usar o <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a>.
+    > Você não pode usar a página **seus produtos** no centro de administração para comprar a assinatura. Você deve usar o  <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a>.
 
 2. Após a conclusão da compra, cancele a assinatura original. Seus usuários são automaticamente movidos para a nova assinatura.
 

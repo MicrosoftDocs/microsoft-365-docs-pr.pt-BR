@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: baf09d87f6229cb530c328d570fa70dc25729a11
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 778906219c03e8cc79ccebb368b84642639a8467
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407951"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638430"
 ---
 # <a name="pay-for-your-subscription"></a>Pagar por sua assinatura
 
@@ -48,7 +48,7 @@ Ao configurar sua assinatura, você pode optar por pagar com cartão de crédito
 
 ## <a name="pay-by-credit-card-or-bank-account"></a>Pagar com um cartão de crédito
 
-Ao pagar com cartão de crédito, você será cobrado automaticamente pela sua assinatura no dia seguinte à data da fatura, até o final do período da assinatura. Você pode [gerenciar métodos de pagamento](manage-payment-methods.md) sempre que precisar. Você também pode optar por [Receber uma cópia do seu demonstrativo por email](#receive-a-copy-of-your-billing-statement-in-email).
+Ao pagar com cartão de crédito, você será cobrado automaticamente pela sua assinatura no dia seguinte à data da fatura, até o final do período da assinatura. Você pode [gerenciar os métodos de pagamento](manage-payment-methods.md) sempre que precisar. Você também pode optar por [Receber uma cópia do seu demonstrativo por email](#receive-a-copy-of-your-billing-statement-in-email).
 
 ### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>E se meu cartão de crédito for recusado e meu pagamento estiver vencido?
 
@@ -98,7 +98,7 @@ Se a sua assinatura custar mais de uma certa quantia de dinheiro (esse valor var
 > [!NOTE]
 > Os clientes que moram no Brasil podem pagar uma assinatura com um boleto bancário. Se você selecionou essa opção, o boleto de pagamento será enviado para o email fornecido durante a compra da assinatura dentro de 10 dias úteis após a data do pedido. A data de vencimento é de 30 dias após a data do pedido. Caso não receba o seu boleto por email, verifique sua caixa de spam ou entre em contato com o suporte. <br><br>Se preferir, você pode pagar por transferência eletrônica entre contas. A agência e o número da conta ficam na parte inferior da sua fatura. Você deve inserir o número da fatura no campo de identificação da transferência.
 
-Se você paga sua assinatura por fatura, receberá um email informando que a fatura está pronta para exibição. Esse email não conterá uma cópia do demonstrativo de cobrança. Entretanto, também é possível optar por [Receber uma cópia do seu demonstrativo por email](#receive-a-copy-of-your-billing-statement-in-email). O demonstrativo de cobrança inclui detalhes sobre as opções de pagamento. Se você inserir um número de OC (ordem de compra) ao adquirir uma assinatura, esse número aparecerá no seu demonstrativo de cobrança. Para obter informações sobre como acessar demonstrativos de cobrança, confira [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
+Se você paga sua assinatura por fatura, receberá um email informando que a fatura está pronta para exibição. Esse email não conterá uma cópia da sua declaração de cobrança. Entretanto, também é possível optar por [Receber uma cópia do seu demonstrativo por email](#receive-a-copy-of-your-billing-statement-in-email). O demonstrativo de cobrança inclui detalhes sobre as opções de pagamento. Se você inserir um número de OC (ordem de compra) ao adquirir uma assinatura, esse número aparecerá no seu demonstrativo de cobrança. Para obter informações sobre como acessar extratos de cobrança, consulte [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 > [!NOTE]
 > Por padrão, as notificações de cobrança da sua organização são enviadas para o endereço de email da Microsoft e o endereço de email alternativo de cada administrador global e de cobrança em sua organização. Para alterar o endereço de email alternativo, confira o artigo [Alterar seu endereço de cobrança do Office 365 para empresas](change-your-billing-addresses.md).

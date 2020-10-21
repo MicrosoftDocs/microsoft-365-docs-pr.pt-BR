@@ -13,16 +13,18 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: Saiba como usar o parâmetro Region para configurar a descoberta eletrônica para uso em locais de satélite no Microsoft 365 multigeo.
-ms.openlocfilehash: 216012791473776395d27821293e8fc565568c2c
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d1d66a9e7953b540e318c8364bdcb8d72654b482
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547945"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636800"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Configuração do Microsoft 365 Multi-Geo eDiscovery
 
-Por padrão, o gerente ou administrador da Descoberta Eletrônica de um locatário multigeográfico poderá realizar a Descoberta Eletrônica apenas na localização central desse locatário. Para poder realizar a descoberta eletrônica nas localizações no satélite, está disponível, no PowerShell, um novo parâmetro de Filtro de Segurança de Conformidade, chamado "Região".
+[Recursos de descoberta eletrônica avançados](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) permitem que um administrador de descoberta eletrônica multigeográfico pesquise todo o GEOS sem precisar utilizar um filtro de segurança "Region". Os dados são exportados para a instância do Azure do local central do locatário multigeográfico. 
+
+Sem recursos de descoberta eletrônica avançados, um gerente de descoberta eletrônica ou administrador de um locatário multigeográfico poderá conduzir a descoberta eletrônica somente no local central desse locatário. Para dar suporte à capacidade de conduzir a descoberta eletrônica para locais de satélite, um novo parâmetro de filtro de segurança de conformidade chamado "Region" está disponível por meio do PowerShell. Esse parâmetro pode ser usado por locatários cujo local central está na América do Norte, Europa ou Pacífico Asiático. A descoberta eletrônica avançada é recomendada para locatários cujo local central não está na América do Norte, Europa ou Pacífico Asiático e quem precisa realizar a descoberta eletrônica entre locais geográficos satélite. 
 
 O administrador global do Microsoft 365 deve atribuir permissões ao eDiscovery Manager para permitir que outras pessoas executem o eDiscovery e atribuam o parâmetro "Região" no seu Filtro de segurança de conformidade aplicável para especificar a região de execução do eDiscovery como localização do satélite; caso contrário, nenhum eDiscovery será executado na localização por satélite.
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Saiba como interpretar os encargos, a cobrança e as informações de pagamento em sua fatura do Microsoft 365 para empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: a46f108766ccfec4f7f6abaa2d48d38137311707
-ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+ms.openlocfilehash: 3d71bab82be3fd9e4c633885dccaf357ccabb551
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909259"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638394"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Entender sua fatura ou fatura para o Microsoft 365 for Business
 
@@ -71,7 +71,7 @@ A tabela a seguir descreve os campos exibidos na fatura. Alguns campos listados 
 |:-----|:-----|
 |Preço anual|As assinaturas são cobradas mensalmente ou anualmente. Se você escolher cobrança anual durante a compra da assinatura, o preço anual da licença será refletido na fatura. Caso pretenda alterar a frequência de cobrança, cancele a assinatura e compre-a novamente com a nova frequência de cobrança.|
 |Período de Cobrança|Um período de cobrança é o período de tempo decorrido desde a data da última fatura. Um Período de Serviço é o período de tempo durante o qual você é cobrado por usar o serviço.|
-|Enviar Cobrança para|Este é o endereço do seu departamento de cobrança e é geralmente o mesmo que o endereço vendido para. Para atualizar seu endereço de cobrança, confira [alterar seus endereços de cobrança](change-your-billing-addresses.md).|
+|Enviar Cobrança para|Este é o endereço do seu departamento de cobrança e é geralmente o mesmo que o endereço de Sold-To. Para atualizar seu endereço de cobrança, confira [alterar seus endereços de cobrança](change-your-billing-addresses.md).|
 |Encargos|A página 1 mostra um resumo de todos os encargos para o Período de Cobrança da fatura. A página 2 mostra os encargos detalhados de cada assinatura.|
 |Cheque|Se pagar por fatura e a opção de pagamento em cheque estiver disponível em seu país, você verá informações sobre o endereço de envio do pagamento na parte inferior da página 1. Faça referência ao número da fatura no cheque.|
 |Créditos|A página 1 mostra um resumo de todos os créditos referentes ao Período de Cobrança da fatura. A página 2 mostra os créditos detalhados de cada assinatura.|

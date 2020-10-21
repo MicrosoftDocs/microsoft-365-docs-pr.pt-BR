@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 description: Saiba mais sobre assinaturas e licenças no Microsoft 365 for Business.
 ms.date: 07/01/2020
-ms.openlocfilehash: 9f8576b00b942c4b38d6192770bd2128afb4b104
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 51d07e777fd5a9e44c864ea11bb00ddc8c1c70d1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015954"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638190"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Entender assinaturas e licenças no Microsoft 365 for Business
 
-Ao comprar uma assinatura para o Microsoft 365 for Business, você se inscreve em um conjunto de aplicativos e serviços que você paga por uma base mensal ou anual. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem do produto que você comprou, como o Microsoft 365 Apps for Business ou o Microsoft 365 Business Standard. Você pode ver o que vem com cada produto na página da [Microsoft 365 para empresas de pequeno e médio](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) porte.
+Ao comprar uma assinatura para o Microsoft 365 for Business, você se inscreve em um conjunto de aplicativos e serviços que você paga por uma base mensal ou anual. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem do produto que você comprou, como o Microsoft 365 Apps for Business ou o Microsoft 365 Business Standard. Você pode ver o que vem com cada produto na página da [Microsoft 365 para empresas de pequeno e médio](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) porte.
 
 Ao comprar uma assinatura, você especifica o número de licenças que precisa, com base em quantas pessoas você tem em sua organização. Depois de comprar uma assinatura, você cria contas para as pessoas da sua organização e, em seguida, atribui uma licença a cada pessoa. Conforme suas necessidades organizacionais mudarem, você pode comprar mais licenças para acomodar novas pessoas ou reatribuir licenças a outros usuários quando alguém sair da sua organização.
 
@@ -79,12 +79,12 @@ Diferentes tipos de administradores podem trabalhar com licenças de diferentes 
 |Administrador de cobrança  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
 |Administrador global  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Administrador de licença <br/> |Sim <br/>|Sim <br/> |Não <br/> |Não <br/> |
-|Administrador de suporte de serviço  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
+|Administrador de Suporte do Serviço  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
 |Administrador de usuários  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Comprar ou remover licenças para sua assinatura comercial](buy-licenses.md) (artigo) \
 [Atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md) (artigo) \
-[Cancelar a atribuição de licenças de usuários](../../admin/manage/remove-licenses-from-users.md) (artigo) \
+[Cancelar a atribuição de licenças de usuários](../../admin/manage/remove-licenses-from-users.md) (artigo)\
 [Remover uma licença de uma caixa de correio compartilhada](../../admin/email/remove-license-from-shared-mailbox.md) (artigo)
