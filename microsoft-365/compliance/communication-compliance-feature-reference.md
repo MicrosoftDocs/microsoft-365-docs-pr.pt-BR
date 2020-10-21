@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e2fba7a5cf83838c440cdea8436b5bbdd360885b
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: 7f1d3e13aebe7c7924732922bbbfc7417622d8c5
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318170"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48626184"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -125,13 +125,9 @@ Você deve registrar uma solicitação com o suporte da Microsoft para permitir 
 
     - **Para comunicações de chat do Skype for Business online**: atribua usuários individuais ou atribua um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um-para-um ou um-para-muitos.
 
-- **Fontes de terceiros**: você pode verificar comunicações de fontes de terceiros para dados importados em caixas de correio em sua organização do Microsoft 365. Os conectores dão suporte aos seguintes recursos de terceiros:
+- **Fontes de terceiros**: você pode verificar as comunicações de dados importados em caixas de correio na sua organização do Microsoft 365 de fontes de terceiros, como [Bloomberg](archive-instant-bloomberg-data.md), [margem de atraso](archive-slack-data.md), [zoom](archive-zoommeetings-data.md), SMS e muitos outros. Para obter uma lista completa de conectores compatíveis com a conformidade de comunicação, consulte [arquivo morto de dados de terceiros](archiving-third-party-data.md).
 
-    - [Instant Bloomberg](archive-instant-bloomberg-data.md)
-    - [Mensagem da Bloomberg](archive-bloomberg-message-data.md)
-    - [Bate-papo ICE](archive-icechat-data.md)
-
-Você deve configurar um conector de terceiros para sua organização do Microsoft 365 antes de poder atribuir o conector a uma política de conformidade de comunicação. A seção de **fontes de terceiros** do assistente de política de conformidade de comunicação só exibe os conectores de terceiros atualmente configurados.
+    Você deve configurar um conector de terceiros para sua organização do Microsoft 365 antes de poder atribuir o conector a uma política de conformidade de comunicação. A seção de **fontes de terceiros** do assistente de política de conformidade de comunicação só exibe os conectores de terceiros atualmente configurados.
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Transição de supervisão no Office 365
 
@@ -256,7 +252,7 @@ Avisos os modelos são modelos de email personalizados onde você pode definir o
 |**Nome do modelo** | Sim | Nome amigável para o modelo de aviso que você selecionará no fluxo de trabalho notificar durante a correção, suporta caracteres de texto. |
 | **Endereço do remetente**. | Sim | O endereço de um ou mais usuários ou grupos que enviam a mensagem para o usuário com uma correspondência de política, selecionado no Active Directory para a sua assinatura. |
 | **Endereços CC e Cco** | Não | Usuários ou grupos opcionais a serem notificados sobre a correspondência da política, selecionados no Active Directory para a sua assinatura. |
-| **Subject** | Sim | As informações que aparecem na linha de assunto da mensagem dão suporte a caracteres de texto. |
+| **Assunto** | Sim | As informações que aparecem na linha de assunto da mensagem dão suporte a caracteres de texto. |
 | **Corpo da mensagem** | Sim | As informações que aparecem no corpo da mensagem dão suporte a valores de texto ou HTML. |
 
 ### <a name="html-for-notices"></a>HTML para avisos
@@ -283,14 +279,14 @@ Se quiser criar mais de uma mensagem de email baseada em texto simples para noti
 
 Os filtros de conformidade de comunicação permitem que você filtre e classifique mensagens de alerta para investigação e ações de correção mais rápidas. A filtragem está disponível nas guias **pendentes** e **resolvidas** de cada política. Para salvar um filtro ou conjunto de filtro como uma consulta de filtro salva, um ou mais valores devem ser configurados como seleções de filtro. A tabela a seguir descreve os detalhes do filtro:
 
-|**Filter**|**Detalhes**|
+|**Filtro**|**Detalhes**|
 |:-----|:-----|
 | **Date** | A data em que a mensagem foi enviada ou recebida por um usuário em sua organização. Para filtrar por um único dia, selecione um intervalo de datas que comece com o dia em que você deseja resultados e termine com o dia seguinte. Por exemplo, se você quisesse filtrar os resultados de 9/20/2020, escolha um intervalo de data de filtro de 9/20/2020-9/21/2020.|
 | **Classe de arquivo** | A classe da mensagem com base no tipo de mensagem, a *mensagem* ou o *anexo*. |
 | **Tem anexo** | A presença de anexo na mensagem. |
 | **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloomberg, etc. Para obter mais informações sobre tipos de item e classes de mensagens comuns, consulte [tipos de item e classes de mensagens](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes). |
 | **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
-| **Recipient** | O usuário para o qual a mensagem foi enviada. |
+| **Recipiente** | O usuário para o qual a mensagem foi enviada. |
 | **Sender** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
 | **Tamanho** | O tamanho da mensagem em KB. |

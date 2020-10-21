@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Use a ferramenta de comunicação em um caso de descoberta eletrônica avançada para enviar, coletar e acompanhar as notificações de retenção legal.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0bcbdef1c1393ff3e7f3baf30279909ed3a663f5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 730b60c4d57f8fecb0e66f460942e9e890732c2c
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035783"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48626174"
 ---
 # <a name="create-a-legal-hold-notice"></a>Criar um aviso de retenção legal
 
@@ -46,7 +46,11 @@ A primeira etapa é especificar os detalhes apropriados para avisos de retençã
 
     - **Name**: Este é o nome da comunicação.
 
-    - **Responsável pela emissão**: a lista suspensa exibe uma lista de membros de caso. Cada aviso enviado aos responsáveis será enviado em nome do responsável pela emissão especificado.
+    - **Responsável pela emissão**: a lista suspensa exibe uma lista de membros de caso. Para obter mais informações sobre como adicionar novos membros a uma ocorrência, consulte [criar uma caixa de descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md#step-4-create-an-advanced-ediscovery-case). Cada aviso enviado aos responsáveis será enviado em nome do responsável pela emissão especificado.
+
+> [!NOTE]
+> O responsável pela emissão deve ter uma **caixa de correio ativa** para aparecer no menu suspenso do responsável pela emissão
+
 
 4. Clique em **Avançar**.
 
@@ -89,7 +93,7 @@ Para criar uma notificação de emissão:
 
 5. Clique em **Salvar**.
 
-### <a name="re-issuance-notification"></a>Notificação de reemissão
+### <a name="re-issuance-notification"></a>Notificação de Re-Issuance
 
 Como o caso progride, os responsáveis podem ser necessários para preservar dados adicionais ou menos do que foram instruídos anteriormente. Depois que você atualizar o conteúdo do portal, a notificação de reemissão será enviada e alertará os responsáveis por todas as suas obrigações de preservação.
 
@@ -130,7 +134,7 @@ Opcionalmente, você pode simplificar o fluxo de trabalho para acompanhar os res
 
 ![Página de encaminhamento/lembrete](../media/ReminderEscalations.PNG)
 
-### <a name="reminders"></a>Lembretes
+### <a name="reminders"></a>Reminders
 
 Depois de enviar uma notificação de espera, você pode acompanhar os responsáveis por não responder, definindo um fluxo de trabalho de lembrete.
 
@@ -200,6 +204,6 @@ A tabela a seguir descreve os eventos no processo de gerenciamento de casos que 
 |Notificações de emissão|A criação inicial da notificação. Você também pode reenviar manualmente uma notificação de retenção. |
 |Notificações de reemissão|Atualizando o conteúdo do portal na página **definir conteúdo do portal** no Assistente para **Editar comunicação** .|
 |Avisos de lançamento|Os responsáveis são liberados do caso.|
-|Lembretes|O intervalo e o número de lembretes configurados para o lembrete.|
+|Reminders|O intervalo e o número de lembretes configurados para o lembrete.|
 |Escalonamentos|O intervalo e o número de lembretes configurados para o escalonamento.|
 |||
