@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 8482501dc978433587c431d18ec93b9e78fb8e03
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 288c53d5e9264942e12d5634cec172a65ee79ca6
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487489"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656048"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -60,14 +60,20 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - A função Func_aba_routing localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ABA_Routing for encontrada.
 
+Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+- A função Func_aba_routing localiza conteúdo que corresponde ao padrão.
+
 ```xml
-<!-- ABA Routing Number -->
-<Entity id="cb353f78-2b72-4c3c-8827-92ebe4f69fdf" patternsProximity="300" recommendedConfidence="75">
+    <!-- ABA Routing Number -->
+    <Entity id="cb353f78-2b72-4c3c-8827-92ebe4f69fdf" patternsProximity="300" recommendedConfidence="75">
       <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_aba_routing" />
         <Match idRef="Keyword_ABA_Routing" />
       </Pattern>
- </Entity>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_aba_routing" />
+      </Pattern>
+    </Entity>
 ```
 
 
@@ -75,37 +81,36 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_aba_routing"></a>Keyword_aba_routing
 
-- aba
-- aba #
-- aba routing #
-- aba routing number
-- aba #
-- abarouting #
 - aba number
+- aba #
+- aba
+- abarouting #
 - abaroutingnumber
-- american bank association routing #
-- american bank association routing number
 - americanbankassociationrouting #
 - americanbankassociationroutingnumber
-- bank routing number
 - bankrouting #
 - bankroutingnumber
+- caminhar #
+- roteamento não
+- número de roteamento
 - routing transit number
-- RTN 
-   
+- caminhar #
+- RTN
+
+
 ## <a name="argentina-national-identity-dni-number"></a>Número de identidade nacional (DNI) da Argentina
 
 ### <a name="format"></a>Formatar
 
-Oito dígitos separados por pontos
+Oito dígitos com ou sem pontos
 
 ### <a name="pattern"></a>Padrão
 
 Oito dígitos:
 - dois dígitos
-- um período
+- um período opcional
 - três dígitos
-- um período
+- um período opcional
 - três dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -133,14 +138,14 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Número de Identidade Nacional da Argentina 
-- Identidade 
-- Identificar cartão de identidade nacional 
-- DNI 
-- Registro Nacional de pessoas da NIC 
-- Documento Nacional de Identidad 
-- Registro Nacional de las Personas 
-- Identidad 
-- Identificación 
+- cedula 
+- cédula 
+- dni 
+- documento nacional de Identidad 
+- número do documento 
+- documentar numero 
+- registro de nacional de las 
+- rnp 
    
 ## <a name="australia-bank-account-number"></a>Número da conta bancária da Austrália
 
@@ -697,8 +702,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -709,9 +714,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -733,9 +738,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -786,9 +791,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -803,9 +807,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -866,9 +868,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
 - número de identidade
-- 
-national id
-- personalausweis republik österreich
+- national id
+- personalausweis republik österreich
 
 ## <a name="austria-passport-number"></a>Número de passaporte da Áustria
 Essa entidade de tipo de informação confidencial só está disponível no tipo sensitiveinformation do número do Passport da UE.
@@ -913,13 +914,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -1043,7 +1044,6 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - st.nr.
 - steuernummer
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -1648,8 +1648,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -1660,9 +1660,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -1684,9 +1684,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -1737,9 +1737,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -1754,9 +1753,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -1773,8 +1770,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - fuehrerschein
 - fuhrerscheinnummer
 - fuehrerscheinnummer
-- 
-permis de conduire
+- permis de conduire
 - Numéro permé conduire
 
 
@@ -1847,10 +1843,9 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - nationalnumber
 - nse #
 - nse
-- numéro d'assuré
+- numéro d'assuré
 - Numéro de Registro Nacional
 - numéro de sécurité
-
 - numéro d'identification
 - numéro d'immatriculation
 - nacional Numéro
@@ -1862,12 +1857,11 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - registro
 - registrationsnumme
 - registrierung
-- número de seguro social
+- social security number
 - es #
 - es
 - steuernummer
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -1923,13 +1917,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -2323,8 +2317,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -2335,9 +2329,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -2359,9 +2353,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -2412,9 +2406,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -2429,9 +2422,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -2509,9 +2500,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - egn #
 - egn
 - identification number
-
-- 
-national id
+- national id
 - número nacional
 - nationalnumber #
 - nationalnumber
@@ -2519,7 +2508,7 @@ national id
 - pessoal não
 - número pessoal
 - personalidnumber #
-- número de seguro social
+- social security number
 - es #
 - es
 - ID civil uniforme
@@ -2532,17 +2521,17 @@ national id
 - número exclusivo de cidadania
 - егн #
 - егн
-- единен граждански номер
-- идентификационен номер
-- личен номер
-- лична идентификация
-- лично не
-- национален номер
-- номер на гражданството
+- единен граждански номер
+- идентификационен номер
+- личен номер
+- лична идентификация
+- лично не
+- национален номер
+- номер на гражданството
 - ID униформ
 - ID de граждански униформ
-- униформ граждански не
-- униформ граждански номер
+- униформ граждански не
+- униформ граждански номер
 - униформгражданскиid #
 - униформгражданскине. #
 
@@ -2585,13 +2574,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -3333,28 +3322,20 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
-- 
-card verification
-
+- card verification
 - card identification number
 - cvn
 - CID
 - cvc2
 - cvv2
-- 
-pin block
+- pin block
 - security code
-
 - security number
-
 - security no
-
 - issue number
-
 - issue no
 - cryptogramme
-- 
-numéro de sécurité
+- numéro de sécurité
 - numero de securite
 - kreditkartenprüfnummer
 - kreditkartenprufnummer
@@ -3365,32 +3346,26 @@ numéro de sécurité
 - sicherheitsnummer
 - verfalldatum
 - codice di verifica
-- COD.sicurezza
-- 
-cod sicurezza
+- COD. sicurezza
+- cod sicurezza
 - n autorizzazione
 - CFOP
 - codigo
-- COD.seg
-- 
-cod seg
+- COD. seg
+- cod seg
 - código de segurança
-
 - codigo de seguranca
-
 - codigo de segurança
-
 - código de seguranca
-- cód.segurança
-- COD.seguranca
-- COD.segurança
-- cód.seguranca
-- segurança do Cód
-- seguranca c.o.d.
-- segurança de COD
-- cód seguranca
+- cód. segurança
+- COD. seguranca
+- COD. segurança
+- cód. seguranca
+- cód segurança
+- cod seguranca
+- cod segurança
+- cód seguranca
 - número de verificação
-
 - numero de verificacao
 - ablauf
 - gültig bis
@@ -3398,20 +3373,15 @@ cod seg
 - gultig bis
 - gultigkeitsdatum
 - scadenza
-- 
-data scad
+- data scad
 - fecha de expiracion
-
 - fecha de venc
 - vencimiento
-- 
-válido hasta
+- válido hasta
 - valido hasta
 - vto
-- 
-data de expiração
+- data de expiração
 - data de expiracao
-
 - data em que expira
 - validade
 - coragem
@@ -3420,9 +3390,9 @@ data de expiração
 - número da transação
 - número de referência
 - セキュリティコード
-- セキュリティ コード
+- セキュリティ コード
 - セキュリティナンバー
-- セキュリティ ナンバー
+- セキュリティ ナンバー
 - セキュリティ番号
 
 #### <a name="keyword_cc_name"></a>Keyword_cc_name
@@ -3431,15 +3401,13 @@ data de expiração
 - american express
 - americanexpress
 - americano espresso
-
 - Cartões
 - MasterCard
 - master card
 - MC
 - MasterCards
-- 
-master cards
-- Clube do Diner
+- master cards
+- diner's Club
 - diners club
 - dinersclub
 - tect
@@ -3449,27 +3417,20 @@ master cards
 - JCB
 - BrandSmart
 - japanese card bureau
-
 - carte blanche
 - carteblanche
-- cartão de crédito
+- credit card
 - colocado #
 - CC #:
-- Data de vencimento
+- expiration date
 - exp date
-
-- 
-expiry date
-- 
-date d’expiration
-- 
-date d'exp
-- 
-date expiration
+- expiry date
+- date d’expiration
+- date d'exp
+- date expiration
 - bank card
 - bankcard
-- 
-card number
+- card number
 - card num
 - cardnumber
 - cardnumbers
@@ -3495,10 +3456,8 @@ card number
 - atm cards
 - atmcards
 - encaminhar
-- 
-en route
+- en route
 - card type
-
 - Cardmember acct
 - conta Cardmember
 - Cardno
@@ -3509,22 +3468,14 @@ en route
 - conta de membro do cartão
 - Cardmember acct.
 - card no.
-
 - n º do cartão
 - card number
-
 - carte bancaire
-
 - carte de crédit
-
 - carte de credit
-
 - numéro de carte
-
 - numero de carte
-
 - nº de la carte
-
 - nº de carte
 - kreditkarte
 - karte
@@ -3538,91 +3489,57 @@ en route
 - kartennummer
 - kreditkartennummer
 - kreditkarten-nummer
-- 
-carta di credito
+- carta di credito
 - carta credito
-- n.n.n..carta
+- n.n.n.. carta
 - n carta
-- nr.carta
-- 
-nr carta
+- nr. carta
+- nr carta
 - numero carta
-
 - numero della carta
-
 - numero di carta
-
 - tarjeta credito
-
 - tarjeta de credito
-
-- 
-tarjeta crédito
-- 
-tarjeta de crédito
+- tarjeta crédito
+- tarjeta de crédito
 - tarjeta de atm
-
 - tarjeta atm
-
 - tarjeta debito
-
 - tarjeta de debito
-
-- 
-tarjeta débito
-- 
-tarjeta de débito
+- tarjeta débito
+- tarjeta de débito
 - nº de tarjeta
-- Não.de tarjeta
-- nenhum de tarjeta
+- Não. de tarjeta
+- no de tarjeta
 - numero de tarjeta
-
 - número de tarjeta
-
 - tarjeta no
 - tarjetahabiente
-- 
-cartão de crédito
+- cartão de crédito
 - cartão de credito
-
 - cartao de crédito
-
 - cartao de credito
-
 - cartão de débito
-
 - cartao de débito
-
 - cartão de debito
-
 - cartao de debito
-
 - débito automático
 - debito automatico
-
-- 
-número do cartão
+- número do cartão
 - numero do cartão
-
 - número do cartao
-
 - numero do cartao
-
 - número de cartão
-
 - numero de cartão
-
 - número de cartao
-
 - numero de cartao
-
-- n º do cartão
+- nº do cartão
 - nº do cartao
-- n º.do cartão
-- n º do cartão
-- Não da carta
-- Não.do cartão
-- Não.do cartao
+- n º. do cartão
+- no do cartão
+- no do cartao
+- Não. do cartão
+- Não. do cartao
 - クレジットカード番号
 - クレジットカードナンバー
 - クレジットカード＃
@@ -3634,23 +3551,23 @@ número do cartão
 - カード＃
 - アメックス
 - アメリカンエクスプレス
-- アメリカン エクスプレス
+- アメリカン エクスプレス
 - Visaカード
 - カード da visa
 - マスターカード
-- マスター カード
+- マスター カード
 - マスター
 - ダイナースクラブ
-- ダイナース クラブ
+- ダイナース クラブ
 - ダイナース
 - 有効期限
 - 期限
 - キャッシュカード
-- キャッシュ カード
+- キャッシュ カード
 - カード名義人
 - カードの名義人
 - カードの名義
-- デビット カード
+- デビット カード
 - デビットカード
 
 
@@ -3701,8 +3618,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -3713,9 +3630,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -3737,9 +3654,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -3790,9 +3707,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -3807,9 +3723,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -3857,20 +3771,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_croatia_id_card"></a>Keyword_croatia_id_card
 
-- majstorski broj građana
+- majstorski broj građana
 - número do cidadão mestre
-- nacionalni identifikacijski broj
-- número de identificação nacional
+- nacionalni identifikacijski broj
+- national identification number
 - NIB #
 - NIB
-- osobna iskaznica
+- osobna iskaznica
 - ID Osobni
-- osobni identifikacijski broj
+- osobni identifikacijski broj
 - número de identificação pessoal
-- porezni broj
-- porezni identifikacijski broj
+- porezni broj
+- porezni identifikacijski broj
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -3926,13 +3839,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -3986,20 +3899,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
-- majstorski broj građana
+- majstorski broj građana
 - número do cidadão mestre
-- nacionalni identifikacijski broj
-- número de identificação nacional
+- nacionalni identifikacijski broj
+- national identification number
 - NIB #
 - NIB
-- osobna iskaznica
+- osobna iskaznica
 - ID Osobni
-- osobni identifikacijski broj
+- osobni identifikacijski broj
 - número de identificação pessoal
-- porezni broj
-- porezni identifikacijski broj
+- porezni broj
+- porezni identifikacijski broj
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -4124,8 +4036,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -4136,9 +4048,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -4160,9 +4072,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -4213,9 +4125,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -4230,9 +4141,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -4287,8 +4196,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - número do cartão de identificação
 - número do cartão de identidade
-- kimlik karti
-- número de identificação nacional
+- kimlik karti
+- national identification number
 - número de identificação pessoal
 - ταυτοτητασ
 
@@ -4332,13 +4241,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -4407,7 +4316,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_cyprus_eu_tax_file_number"></a>Keywords_cyprus_eu_tax_file_number
 
 - tax id
-
 - código de identificação de imposto
 - identificação de imposto não
 - número de identificação do imposto
@@ -4426,12 +4334,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ID do Tin
 - Tin não
 - Tin #
-- vergi kimlik kodu
-- vergi kimlik numarası
-- αριθμός φορολογικού μητρώου
-- κωδικός φορολογικού μητρώου
-- φορολογική ταυτότητα
-- φορολογικού κωδικού
+- vergi kimlik kodu
+- vergi kimlik numarası
+- αριθμός φορολογικού μητρώου
+- κωδικός φορολογικού μητρώου
+- φορολογική ταυτότητα
+- φορολογικού κωδικού
 
 
 ## <a name="czech-drivers-license-number"></a>Número da carteira de motorista do tcheco
@@ -4485,8 +4393,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -4497,9 +4405,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -4521,9 +4429,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -4574,9 +4482,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -4591,9 +4498,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -4646,13 +4551,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -4722,32 +4627,31 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número de nascimento
 - ID da República Tcheca
 - czechidno #
-- daňové číslo
-- identifikační číslo
+- daňové číslo
+- identifikační číslo
 - identidade não
 - número de identidade
 - identityno #
 - identityno
 - número de seguro
-- número de identificação nacional
+- national identification number
 - nationalnumber #
 - número nacional
-- osobní číslo
+- osobní číslo
 - personalidnumber #
 - número de identificação pessoal
 - número de identificação pessoal
 - número pessoal
 - atos #
 - atos
-- pojištění číslo
+- pojištění číslo
 - rč
-- rodne cislo
-- rodné číslo
+- rodne cislo
+- rodné číslo
 - es
 - es #
-- número de seguro social
+- social security number
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -4874,8 +4778,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -4886,9 +4790,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -4910,9 +4814,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -4963,9 +4867,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -4980,9 +4883,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -5033,13 +4934,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -5096,17 +4997,16 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_denmark_id"></a>Keyword_denmark_id
 
-- centrale personregister
+- centrale personregister
 - registreringssystem civil
 - pedir
 - pedir #
-- gesundheitskarte nummer
-- gesundheitsversicherungkarte nummer
+- gesundheitskarte nummer
+- gesundheitsversicherungkarte nummer
 - cartão de saúde
 - número do cartão de seguro de saúde
 - número de seguro de saúde
 - identification number
-
 - identifikationsnummer
 - identifikationsnummer #
 - número de identidade
@@ -5124,10 +5024,10 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - es
 - es #
 - ID Skat
-- skat kode
-- skat nummer
+- skat kode
+- skat nummer
 - skattenummer
-- número de seguro social
+- social security number
 - sundhedsforsikringskort
 - sundhedsforsikringsnummer
 - sundhedskort
@@ -5140,7 +5040,6 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - número do imposto
 - número de registro de imposto
 - tax id
-
 - número de identificação do imposto
 - táxi #
 - taxnumber #
@@ -5237,7 +5136,7 @@ duas letras seguidas por sete dígitos
 
 O padrão deve incluir todos os seguintes itens:
 - uma letra (não diferencia maiúsculas de minúsculas) desse conjunto de possíveis letras: abcdefghjklmnprstux, que é um código inscrito 
-- uma letra (não diferencia maiúsculas de minúsculas), que é a primeira letra do sobrenome do inscrito 
+- uma letra (não diferencia maiúsculas de minúsculas), que é a primeira letra do sobrenome ou dígito ' 9 ' do inscrito
 - sete dígitos, o último que é o dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
@@ -5248,20 +5147,41 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_dea_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave de `Keyword_dea_number` foi encontrada
+- A soma de verificação passa.
+
+Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+- A função Func_dea_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
-<!-- DEA Number -->
-<Entity id="9a5445ad-406e-43eb-8bd7-cac17ab6d0e4" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_dea_number"/>
-  </Pattern>
-</Entity>
+    <!-- DEA Number -->
+    <Entity id="9a5445ad-406e-43eb-8bd7-cac17ab6d0e4" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="75">
+        <IdMatch idRef="Func_dea_number" />
+      </Pattern>
+      <Version minEngineVersion="15.20.1207.000" maxEngineVersion="15.20.3134.000">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_dea_number" />
+        </Pattern>
+      </Version>
+      <Version minEngineVersion="15.20.3135.000">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_dea_number" />
+          <Match idRef="Keyword_dea_number" />
+        </Pattern>
+      </Version>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhuma
+#### <a name="keyword_dea_number"></a>Keyword_dea_number
+
+- dea
+- dea #
+- Administração de aplicação de medicamentos
+- Agência de aplicação de medicamentos
 
 
 ## <a name="estonia-drivers-license-number"></a>Número da carteira de motorista do Estônia
@@ -5313,8 +5233,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -5325,9 +5245,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -5349,9 +5269,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -5402,9 +5322,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -5419,9 +5338,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -5495,9 +5412,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - isikukood #
 - isikukood
 - ID maksu
-- maksukohustuslase identifitseerimisnumber
+- maksukohustuslase identifitseerimisnumber
 - maksunumber
-- número de identificação nacional
+- national identification number
 - número nacional
 - código pessoal
 - número de identificação pessoal
@@ -5505,7 +5422,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número de identificação pessoal
 - personalidnumber #
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -5562,13 +5478,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -6131,8 +6047,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -6143,9 +6059,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -6167,9 +6083,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -6220,9 +6136,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -6237,9 +6152,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -6305,7 +6218,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ehic #
 - ehic
 - finlandehicnumber #
-- finska sjukförsäkringskort
+- finska sjukförsäkringskort
 - cartão de saúde
 - cartão de seguro de saúde
 - número de seguro de saúde
@@ -6313,9 +6226,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - sairaanhoitokortin
 - sairausvakuutuskortti
 - sairausvakuutusnumero
-- sjukförsäkring nummer
+- sjukförsäkring nummer
 - sjukförsäkringskort
-- suomen sairausvakuutuskortti
+- suomen sairausvakuutuskortti
 - terveyskortti
 
 
@@ -6363,8 +6276,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-- ainutlaatuinen henkilökohtainen tunnus
-- henkilökohtainen tunnus
+- ainutlaatuinen henkilökohtainen tunnus
+- henkilökohtainen tunnus
 - henkilötunnus
 - henkilötunnusnumero #
 - henkilötunnusnumero
@@ -6372,12 +6285,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ID não
 - número de identificação
 - identification number
-
-- identiteetti numero
+- identiteetti numero
 - número de identidade
 - idnumber
-- kansallinen henkilötunnus
-- kansallisen henkilökortin
+- kansallinen henkilötunnus
+- kansallisen henkilökortin
 - cartão de ID nacional
 - n º de ID nacional
 - ID pessoal
@@ -6385,10 +6297,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - personalidnumber #
 - personbeteckning
 - personnummer
-- número de seguro social
+- social security number
 - sosiaaliturvatunnus
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -6405,7 +6316,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Tin não
 - Tin #
 - tunnistenumero
-- tunnus numero
+- tunnus numero
 - tunnusluku
 - tunnusnumero
 - verokortti
@@ -6452,13 +6363,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -6588,8 +6499,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -6600,9 +6511,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -6624,9 +6535,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -6677,9 +6588,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -6694,24 +6604,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
 - número de DL
-- 
-permis de conduire
-- 
-licence number
-- 
-license number
-- 
-licence numbers
-- 
-
-license numbers
+- permis de conduire
+- licence number
+- license number
+- licence numbers
+- license numbers
 - numéros de licença
 
 
@@ -6801,16 +6703,15 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_france_eu_national_id_card"></a>Keywords_france_eu_national_id_card
 
 - card number
-
 - Nationale carte d'identité
 - Nationale carte d'idenite
 - CNI #
 - CNI
-- compte bancaire
-- número de identificação nacional
+- compte bancaire
+- national identification number
 - identidade nacional
 - nationalidno #
-- numéro d'assurance maladie
+- numéro d'assurance maladie
 - Numéro de Carte Vitale
 
    
@@ -7007,7 +6908,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - Numéro d'identification fiscal
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -7085,7 +6985,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - IVA #
 - imposto sobre valor agregado
 - identificação de Siren no Numéro d'identification taxe sur valeur ajoutée
-- taxe valeur ajoutée
+- taxe valeur ajoutée
 - taxe sur la valeur ajoutée
 - n ° TVA
 - Numéro de TVA
@@ -7135,22 +7035,18 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - ausstellungsdatum
 - ausstellungsort
-- 
-ausstellende behöde
-- 
-ausstellende behorde
-- 
-
-ausstellende behoerde
+- ausstellende behöde
+- ausstellende behorde
+- ausstellende behoerde
 - führerschein
 - fuhrerschein
 - fuehrerschein
 - führerscheinnummer
 - fuhrerscheinnummer
 - fuehrerscheinnummer
-- führerschein- 
-- fuhrerschein- 
-- fuehrerschein- 
+- führerschein- 
+- fuhrerschein- 
+- fuehrerschein- 
 - führerscheinnummernr
 - fuhrerscheinnummernr
 - fuehrerscheinnummernr
@@ -7166,8 +7062,7 @@ ausstellende behoerde
 - n-führerschein
 - n-fuhrerschein
 - n-fuehrerschein
-- 
-permis de conduire
+- permis de conduire
 - driverlic
 - driverlics
 - driverlicense
@@ -7176,8 +7071,8 @@ permis de conduire
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -7188,9 +7083,9 @@ permis de conduire
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -7212,9 +7107,9 @@ permis de conduire
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -7265,9 +7160,8 @@ permis de conduire
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -7282,9 +7176,7 @@ permis de conduire
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - dlno
 
@@ -7341,7 +7233,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - ID pessoal
 - personalausweis
 - Persönliche ID Nummer
-- persönliche identifikationsnummer
+- persönliche identifikationsnummer
 - Persönliche-ID-Nummer
 
 
@@ -7458,7 +7350,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - steueridentifikationsnummer
 - steuernummer
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -7538,8 +7429,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - IVA #
 - VAT # mehrwertsteuer
 - mwst
-- mehrwertsteuer identifikationsnummer
-- mehrwertsteuer nummer
+- mehrwertsteuer identifikationsnummer
+- mehrwertsteuer nummer
 
 
 ## <a name="greece-drivers-license-number"></a>Número da carteira de motorista do Grécia
@@ -7588,8 +7479,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -7600,9 +7491,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -7624,9 +7515,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -7677,9 +7568,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -7694,9 +7584,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -7810,13 +7698,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -7872,7 +7760,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - aφμ | aφμ αριθμός
 - aφμ
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -7891,9 +7778,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ID do Tin
 - Tin não
 - Tin #
-- αριθμός φορολογικού μητρώου
-- τον αριθμό φορολογικού μητρώου
-- φορολογικού μητρώου νο
+- αριθμός φορολογικού μητρώου
+- τον αριθμό φορολογικού μητρώου
+- φορολογικού μητρώου νο
 
 
 ## <a name="hong-kong-identity-card-hkid-number"></a>Número do cartão de identidade de Hong Kong (HKID)
@@ -8030,8 +7917,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -8042,9 +7929,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -8066,9 +7953,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -8119,9 +8006,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -8136,9 +8022,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -8211,12 +8095,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - número de identificação
 - identification number
-
 - sz IG
-- v.IG.
+- v. IG.
 - sz. ig.
-- személyazonosító igazolvány
-- személyi igazolvány
+- személyazonosító igazolvány
+- személyi igazolvány
 
 
 ## <a name="hungary-passport-number"></a>Número de passaporte da Hungria
@@ -8259,13 +8142,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -8394,14 +8277,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_hungary_eu_tax_file_number"></a>Keywords_hungary_eu_tax_file_number
 
-- adóazonosító szám
-- adóhatóság szám
+- adóazonosító szám
+- adóhatóság szám
 - adószám
 - Tin húngaro
 - hungatiantin #
 - autoridade de imposto não
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -8479,10 +8361,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - hungarianvatno #
 - n º do imposto
 - áfa de imposto sobre valor agregado
-- közösségi adószám
-- általános forgalmi adó szám
-- hozzáadottérték adó
-- áfa szám
+- közösségi adószám
+- általános forgalmi adó szám
+- hozzáadottérték adó
+- áfa szám
 
 
 ## <a name="india-permanent-account-number-pan"></a>Número da conta permanente da Índia (PAN)
@@ -8494,29 +8376,39 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 10 letras ou dígitos.
-- Cinco letras (não diferenciam maiúsculas de minúsculas) 
+- Três letras (não diferencia maiúsculas de minúsculas) 
+- Uma letra em C, P, H, F, A, T, B, L, J, G (não diferencia maiúsculas de minúsculas)
+- Uma carta
 - Quatro dígitos 
-- Uma letra que é um dígito de verificação alfabético
+- Uma letra (não diferencia maiúsculas de minúsculas)
 
 ### <a name="checksum"></a>Soma de verificação
 
-Sim
+Não
 
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_india_permanent_account_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_india_permanent_account_number for encontrada.
-- A soma de verificação passa.
+
+Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+- A expressão regular Regex_india_permanent_account_number localiza o conteúdo que corresponde ao padrão.
+
 
 ```xml
-<!-- India Permanent Account Number -->
-<Entity id="2602bfee-9bb0-47a5-a7a6-2bf3053e2804" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Regex_india_permanent_account_number"/>
-     <Match idRef="Keyword_india_permanent_account_number"/>
-  </Pattern>
-</Entity>
+      <!-- India Permanent Account Number -->
+      <Entity id="2602bfee-9bb0-47a5-a7a6-2bf3053e2804" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_india_permanent_account_number" />
+          <Match idRef="Keyword_india_permanent_account_number" />
+        </Pattern>
+        <Version minEngineVersion="15.20.3520.000">
+          <Pattern confidenceLevel="65">
+            <IdMatch idRef="Regex_india_permanent_account_number" />
+          </Pattern>
+        </Version>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
@@ -8535,7 +8427,8 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 12 dígitos:
-- Quatro dígitos 
+- Um dígito que não é 0 ou 1
+- Três dígitos 
 - Um espaço ou um traço opcional  
 - Quatro dígitos 
 - Um espaço ou um traço opcional  
@@ -8572,10 +8465,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
    
 #### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
-- Aadhar
-- Aadhaar
-- UID
+- aadhaar
+- aadhar
+- aadhar #
+- uid
 - आधार
+- uidai
    
 ## <a name="indonesia-identity-card-ktp-number"></a>Número do cartão de identidade da Indonésia (KTP)
 
@@ -8663,7 +8558,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum(a)
+Nenhum
 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional do Diseases (ICD-10-CM)
@@ -8864,8 +8759,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -8876,9 +8771,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -8900,9 +8795,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -8953,9 +8848,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -8970,9 +8864,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -9028,13 +8920,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -9103,11 +8995,10 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 - serviço de identidade do cliente
 - identification number
-
 - número de identificação pessoal
 - número de serviço público pessoal
 - serviço pessoal não
-- phearsanta seirbhíse poiblí
+- phearsanta seirbhíse poiblí
 - PPS não
 - número PPS
 - número PPS
@@ -9125,11 +9016,10 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - rsin
 - cliente do seirbhís aitheantais
 - uimh
-- uimhir aitheantais chánach
-- uimhir aitheantais phearsanta
-- uimhir phearsanta seirbhíse poiblí
+- uimhir aitheantais chánach
+- uimhir aitheantais phearsanta
+- uimhir phearsanta seirbhíse poiblí
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -9233,8 +9123,23 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_israel_national_id"></a>Keyword_Israel_National_ID
 
-- מספר זהות 
-- Número de identificação nacional
+-   מספר זהות
+-   מספר זיה וי
+-   מספר זיהוי ישר אלי      
+-   זהותישר אלית
+-   هو ية اسرائيل ية عدد
+-   هوية إسرائ يلية
+-   رقم الهوية
+-   عدد هوية فريدة من نوعها
+-   idnumber #
+-   número de identificação
+-   identidade não        
+-   identitynumber #
+-   número de identidade
+-   israeliidentitynumber       
+-   ID pessoal
+-   ID exclusiva  
+
    
 ## <a name="italy-drivers-license-number"></a>Número da carteira de motorista da Itália
 Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número de carteira do driver da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
@@ -9352,7 +9257,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - personalcodeno #
 - código de imposto
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - número de identidade do imposto
@@ -9413,13 +9317,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -9825,10 +9729,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
 - Passaport
-- Número de passaporte
+- Passport Number
 - N º Passport
 - Passport #
-
 - パスポート
 - パスポート番号
 - パスポートナンバー
@@ -10046,8 +9949,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -10058,9 +9961,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -10082,9 +9985,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -10135,9 +10038,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -10152,9 +10054,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -10238,7 +10138,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_latvia_eu_national_id_card"></a>Keywords_latvia_eu_national_id_card
 
 - número administrativo
-- alvas nē
+- alvas nē
 - número de nascimento
 - número do cidadão
 - número civil
@@ -10249,22 +10149,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ID #
 - ID-código
 - identification number
-
-- identifikācijas numurs
+- identifikācijas numurs
 - ID-número
 - número individual
-- latvija alva
+- latvija alva
 - ID nacionālais
-- 
-national id
+- national id
 - número de identificação nacional
 - número de identidade nacional
 - national insurance number
-
 - número do Registro Nacional
-- nodokļa numurs
+- nodokļa numurs
 - ID nodokļu
-- nodokļu identifikācija numurs
+- nodokļu identifikācija numurs
 - número do certificado pessoal
 - código pessoal
 - código de ID pessoal
@@ -10278,15 +10175,13 @@ national id
 - Kods personas
 - código de identificação de população
 - número de serviço público
-- 
-registration number
+- registration number
 - número de receita
-- número de seguro social
-- número de seguro social
+- social insurance number
+- social security number
 - código de imposto estadual
-- número do arquivo de imposto
+- tax file number
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -10345,13 +10240,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -10410,8 +10305,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -10422,9 +10317,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -10446,9 +10341,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -10499,9 +10394,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -10516,9 +10410,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -10586,19 +10478,18 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_lithuania_eu_national_id_card"></a>Keywords_lithuania_eu_national_id_card
 
-- asmeninis skaitmeninis kodas
+- asmeninis skaitmeninis kodas
 - kodas
 - número do serviço do cidadão
 - ID mokesčių
-- mokesčių identifikavimas numeris
-- mokesčių identifikavimo numeris
-- mokesčių numeris
-- número de identificação nacional
+- mokesčių identifikavimas numeris
+- mokesčių identifikavimo numeris
+- mokesčių numeris
+- national identification number
 - código pessoal
 - código numérico pessoal
-- piliečio paslaugos numeris
+- piliečio paslaugos numeris
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -10614,8 +10505,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ID do Tin
 - Tin não
 - Tin #
-- unikalus identifikavimo kodas
-- unikalus identifikavimo numeris
+- unikalus identifikavimo kodas
+- unikalus identifikavimo numeris
 - número de identificação exclusivo
 - número de identidade exclusivo
 - uniqueidentityno #
@@ -10659,13 +10550,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -10721,8 +10612,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -10733,9 +10624,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -10757,9 +10648,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -10810,9 +10701,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -10827,9 +10717,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -10911,7 +10799,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - identidade pessoal
 - personalidno #
 - personalidnumber #
-- persönliche identifikationsnummer
+- persönliche identifikationsnummer
 - ID exclusiva
 - identidade exclusiva
 - uniqueidkey #
@@ -11014,21 +10902,20 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - étain #
 - d'impôt de identificação
 - identifikatiounsnummer de imposto de Luxemburgo
-- numéro d'étain
+- numéro d'étain
 - Numéro d'identification fiscal do Luxembourgeois
 - Numéro d'identification fiscal
-- segurança social
+- social security
 - sozialunterstützung
 - sozialversécherung
 - sozialversicherungsausweis
 - ID steier
-- steier identifikatiounsnummer
-- steier nummer
+- steier identifikatiounsnummer
+- steier nummer
 - ID Steuer
 - steueridentifikationsnummer
 - steuernummer
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -11167,8 +11054,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -11179,9 +11066,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -11203,9 +11090,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -11256,9 +11143,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -11273,9 +11159,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -11339,14 +11223,14 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 - número do serviço do cidadão
 - ID tat-taxxa
-- identifika numru tal-biljett
+- identifika numru tal-biljett
 - Kodiċi numerali pessoali
 - numru ta ' identifikazzjoni pessoal
 - numru ta ' identifikazzjoni tat-taxxa
 - numru ta ' identifikazzjoni uniku
 - numru ta ' Identità uniku
 - numru tas-servizz taċ-ċittadin
-- numru tat-taxxa
+- numru tat-taxxa
 - código numérico pessoal
 - número de identificação exclusivo
 - número de identidade exclusivo
@@ -11392,13 +11276,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -11468,17 +11352,16 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 - número do serviço do cidadão
 - ID tat-taxxa
-- identifika numru tal-biljett
+- identifika numru tal-biljett
 - Kodiċi numerali pessoali
 - numru ta ' identifikazzjoni pessoal
 - numru ta ' identifikazzjoni tat-taxxa
 - numru ta ' identifikazzjoni uniku
 - numru ta ' Identità uniku
 - numru tas-servizz taċ-ċittadin
-- numru tat-taxxa
+- numru tat-taxxa
 - código numérico pessoal
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -11546,16 +11429,16 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - número pessoal
 - código numérico pessoal
 - número relacionado à pessoa
-- persoonlijk nummer
+- persoonlijk nummer
 - código de numerieke persoonlijke
 - persoonsgebonden
 - persoonsnummer
-- sociaal-fiscaal nummer
+- sociaal-fiscaal nummer
 - social-número fiscal
 - sofi
 - sofinummer
-- uniek identificatienummer
-- uniek identiteitsnummer
+- uniek identificatienummer
+- uniek identiteitsnummer
 - número de identificação exclusivo
 - número de identidade exclusivo
 - uniqueidentityno #
@@ -11606,8 +11489,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -11618,9 +11501,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -11642,9 +11525,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -11695,9 +11578,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -11712,9 +11594,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -11820,7 +11700,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_netherlands_eu_tax_file_number"></a>Keywords_netherlands_eu_tax_file_number
 
-- btw nummer
+- btw nummer
 - identificação de imposto hollânske
 - hulandes número de ID de impuesto
 - hulandes impuesto de identificação
@@ -11838,7 +11718,6 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - Tin Holanda
 - Tin do Netherland
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - tal de identificação de imposto
@@ -11916,7 +11795,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - IVA não
 - IVA #
 - wearde tafoege de imposto de getal
-- btw nûmer
+- btw nûmer
 - btw-nummer
 
 
@@ -11975,7 +11854,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_new_zealand_bank_account_number"></a>Keyword_new_zealand_bank_account_number
 
-- número da conta
+- account number
 - conta bancária
 - bank_acct_id
 - bank_acct_branch
@@ -12041,7 +11920,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - driverslicences
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -12057,7 +11936,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- licença do driver
+- driver's licence
 - licenças do driver
 - driverlic #
 - driverlics #
@@ -12091,8 +11970,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - driver'lics do driver #
 - licença do driver #
 - licenças do driver #
-- 
-international driving permit
+- international driving permit
 - international driving permits
 - Associação de automóvel do NZ
 - Nova Zelândia Associação de automóvel
@@ -12254,7 +12132,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_new_zealand_social_welfare_number"></a>Keyword_new_zealand_social_welfare_number
 
-- Welfare social #
+- Welfare social #
 - Welfare social #
 - Welfare social não.
 - número do Welfare social
@@ -12410,8 +12288,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -12422,9 +12300,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -12446,9 +12324,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -12499,9 +12377,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -12516,9 +12393,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -12730,8 +12605,8 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - ID da empresa
 - CompanyID #
 - companyidno #
-- numer statystyczny
-- numeru regon
+- numer statystyczny
+- numeru regon
 - numerstatystyczny #
 - numeruregon #
 
@@ -12779,10 +12654,9 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 - nip #
 - nip
-- numer identyfikacji podatkowej
+- numer identyfikacji podatkowej
 - numeridentyfikacjipodatkowej #
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -12849,7 +12723,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - número de identificação
 - identificação não
 - identification number
-
 - cartão de identidade não
 - número do cartão de identidade
 - cartão de ID nacional
@@ -12920,8 +12793,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -12932,9 +12805,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -12956,9 +12829,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -13009,9 +12882,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -13026,9 +12898,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -13090,13 +12960,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -13164,7 +13034,6 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - número de identificação fisca
 - fiscal numero
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -13230,8 +13099,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -13242,9 +13111,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -13266,9 +13135,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -13319,9 +13188,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -13336,9 +13204,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -13410,16 +13276,15 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - UNIC de c.o.d. identificare
 - codnumericpersonal #
 - codul fiscal do Nr.
-- identificarea fiscală nr #
+- identificarea fiscală nr #
 - ID-UL Taxei
 - número de seguro
 - insurancenumber #
 - ID nacional #
-- 
-national id
-- número de identificação nacional
+- national id
+- national identification number
 - număr identificare pessoal
-- număr identitate
+- număr identitate
 - număr pessoal do UNIC
 - număridentitate #
 - număridentitate
@@ -13431,9 +13296,8 @@ national id
 - pessoal #
 - pessoal
 - arquivo de imposto não
-- número do arquivo de imposto
+- tax file number
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -13493,13 +13357,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -13553,19 +13417,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_russia_passport_number_domestic"></a>Keyword_russia_passport_number_domestic
 
-- número de passaporte
+- passport number
 - Passport não
-- Passaport #
+- Passaport #
 - ID do passaporte
 - passportno #
 - passportnumber #
-- паспорт нет
+- паспорт нет
 - ID паспорт
-- pоссийской паспорт
-- pусский номер паспорта
+- pоссийской паспорт
+- pусский номер паспорта
 - паспорт #
 - паспортid #
-- номер паспорта
+- номер паспорта
 - номерпаспорта #
 
 
@@ -13613,19 +13477,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_russia_passport_number_international"></a>Keywords_russia_passport_number_international
 
-- número de passaporte
+- passport number
 - Passport não
-- Passaport #
+- Passaport #
 - ID do passaporte
 - passportno #
 - passportnumber #
-- паспорт нет
+- паспорт нет
 - ID паспорт
-- pоссийской паспорт
-- pусский номер паспорта
+- pоссийской паспорт
+- pусский номер паспорта
 - паспорт #
 - паспортid #
-- номер паспорта
+- номер паспорта
 - номерпаспорта #
 
 
@@ -13774,8 +13638,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -13786,9 +13650,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -13810,9 +13674,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -13863,9 +13727,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -13880,9 +13743,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -13946,37 +13807,35 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_slovakia_eu_national_id_card"></a>Keywords_slovakia_eu_national_id_card
 
-- azonosító szám
+- azonosító szám
 - número de nascimento
-- číslo národnej identifikačnej karty
-- číslo občianského preukazu
-- daňové číslo
+- číslo národnej identifikačnej karty
+- číslo občianského preukazu
+- daňové číslo
 - número de identificação
 - identificação não
 - identification number
-
-- identifikačná karta č
-- identifikačné číslo
+- identifikačná karta č
+- identifikačné číslo
 - cartão de identidade não
 - número do cartão de identidade
-- národná identifikačná značka č
+- národná identifikačná značka č
 - número nacional
 - nationalnumber #
-- nemzeti személyazonosító igazolvány
+- nemzeti személyazonosító igazolvány
 - personalidnumber #
 - rč
-- rodne cislo
-- rodné číslo
-- número de seguro social
+- rodne cislo
+- rodné číslo
+- social security number
 - es #
 - es
-- személyi igazolvány szám
-- személyi igazolvány száma
-- személyigazolvány szám
+- személyi igazolvány szám
+- személyi igazolvány száma
+- személyigazolvány szám
 - arquivo de imposto não
-- número do arquivo de imposto
+- tax file number
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -14032,13 +13891,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -14096,8 +13955,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -14108,9 +13967,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -14132,9 +13991,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -14185,9 +14044,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -14202,9 +14060,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -14270,32 +14126,30 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_slovenia_eu_national_id_card"></a>Keywords_slovenia_eu_national_id_card
 
-- edinstvena številka glavnega državljana
+- edinstvena številka glavnega državljana
 - emšo
-- enotna maticna številka obcana
-- cartão de identificação
+- enotna maticna številka obcana
+- id card
 - identification number
-
-- identifikacijska številka
+- identifikacijska številka
 - cartão de identidade
 - ID Nacionalna
 - lista de potni nacionalni
-- 
-national id
-- osebna izkaznica
-- osebni koda
+- national id
+- osebna izkaznica
+- osebni koda
 - osebni ne
-- osebni številka
+- osebni številka
 - código pessoal
 - número pessoal
 - código numérico pessoal
-- številka državljana
+- številka državljana
 - número exclusivo do cidadão
 - número de identificação exclusivo
 - número de identidade exclusivo
 - número de cidadão mestre exclusivo
 - número de registro exclusivo
-- uniqueidentityno #
+- uniqueidentityno #
 - uniqueidentityno #
 
 ## <a name="slovenia-passport-number"></a>Número de passaporte da Eslovênia
@@ -14341,13 +14195,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -14408,13 +14262,12 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_slovenia_eu_tax_file_number"></a>Keywords_slovenia_eu_tax_file_number
 
-- davčna številka
-- identifikacijska številka davka
-- številka davčne datoteke
+- davčna številka
+- identifikacijska številka davka
+- številka davčne datoteke
 - arquivo de imposto não
-- número do arquivo de imposto
+- tax file number
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -14595,8 +14448,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -14607,9 +14460,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -14631,9 +14484,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -14684,9 +14537,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -14701,9 +14553,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -14788,10 +14638,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dni
 - dninúmero #
 - documento nacional de Identidad
-- identidad único
+- identidad único
 - identidadúnico #
 - número de seguro
-- número de identificação nacional
+- national identification number
 - identidade nacional
 - nationalid #
 - nationalidno #
@@ -14848,13 +14698,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - Passaport #
-- Passaport #
+- Passaport #
 - passportid
 - Passports
 - passportno
 - Passport não
 - passportnumber
-- número de passaporte
+- passport number
 - passportnumbers
 - números de passaporte
 
@@ -14911,7 +14761,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum(a)
+Nenhum
 
 ## <a name="spain-tax-identification-number"></a>Número de identificação de imposto da Espanha
 Esse tipo de informação confidencial só está disponível para uso no:
@@ -15004,9 +14854,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - spanishcifno #
 - spanishcifno
 - arquivo de imposto não
-- número do arquivo de imposto
+- tax file number
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -15150,8 +14999,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicences
 - Driver de driver'lic
 - Driver de driver'lics
-- licença de driver
-- licenças de driver
+- driver license
+- driver licenses
 - licença de driver
 - licenças de driver
 - driverslic
@@ -15162,9 +15011,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - drivers de driver'lic
 - drivers de driver'lics
-- licença de drivers
-- licenças de drivers
-- licença de drivers
+- drivers license
+- drivers licenses
+- drivers licence
 - licenças de drivers
 - driver'lic
 - driver'lics
@@ -15186,9 +15035,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driver'slicences
 - driver'lic do driver
 - driver'lics do driver
-- carteira de motorista
-- licenças do driver
-- licença do driver
+- driver's license
+- driver's licenses
+- driver's licence
 - licenças do driver
 - distribuição #
 - DL #
@@ -15239,9 +15088,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - licenças do driver #
 - licença do driver #
 - licenças do driver #
+- driving licence 
 - driving licence
- 
-- direcionando a licença
 - dlno #
 - Driv driver'lic
 - Driv
@@ -15256,9 +15104,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dirigindo
 - forças de licenças
 - driving licence
-
 - driving licences
-
 - permissão de condução
 - DL não
 - dlno
@@ -15331,7 +15177,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ID #
 - identificação não
 - identification number
-
 - identifikationsnumret #
 - identifikationsnumret
 - identitetshandling
@@ -15536,12 +15381,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número de identificação pessoal
 - personnummer
 - skatt ID Nummer
-- skatt identifikation
-- skattebetalarens identifikationsnummer
+- skatt identifikation
+- skattebetalarens identifikationsnummer
 - Tin Sverige
 - arquivo de imposto
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -15598,7 +15442,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_swift"></a>Keyword_swift
 
 - international organization for standardization 9362
-
 - iso 9362
 - iso9362
 - Swift #
@@ -15606,42 +15449,29 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - swiftnumber
 - swiftroutingnumber
 - swift code
-
 - swift number #
-
 - swift routing number
-
 - bic number
-
 - bic code
-
 - bic #
 - bic #
 - bank identifier code
-
 - Organisation internationale de normalisation 9362
-
 - rapide #
-
 - code SWIFT
-
 - le numéro de swift
-
 - swift numéro d'acheminement
-
 - le numéro BIC
-
-- # <a name="bic"></a>BIC
+- # <a name="bic"></a>BIC
 - code identificateur de banque
-
 - SWIFTコード
 - SWIFT番号
 - BIC番号
 - BICコード
 - コード SWIFT
 - 番号 SWIFT
-- BIC 番号
-- BIC コード
+- BIC 番号
+- BIC コード
 - 金融機関識別コード
 - 金融機関コード
 - 銀行コード
@@ -15705,7 +15535,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - atos
 - número de seguro
 - personalidno #
-- número de seguro social
+- social security number
 - número de identificação pessoal
 - n º de identificação pessoal
 - insuranceno #
@@ -15714,11 +15544,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número AVS
 - identidade pessoal sem versicherungsnummer
 - identifikationsnummer
-- einzigartige identität nicht
+- einzigartige identität nicht
 - sozialversicherungsnummer
 - identificação personnelle ID
-- 
-numéro de sécurité sociale
+- numéro de sécurité sociale
 
    
 ## <a name="taiwan-national-identification-number"></a>Número de identificação nacional de Taiwan
@@ -16196,26 +16025,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_uk_nino"></a>Keyword_uk_nino
 
 - national insurance number
-
 - national insurance contributions
-
 - protection act
 - seguro
-- número de seguro social
+- social security number
 - insurance application
-
 - medical application
-
 - social insurance
-
 - medical attention
-
-- segurança social
+- social security
 - great britain
-
 - Número de NI
 - N º de NI
-- NI #
+- NI #
 - NI #
 - seguro #
 - insurancenumber
@@ -16267,7 +16089,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número do imposto
 - arquivo de imposto
 - tax id
-
 - identificação de imposto não
 - número de identificação do imposto
 - n º do imposto #
@@ -16287,11 +16108,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-8 a 17 dígitos
+6-17 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-8 a 17 dígitos consecutivos
+6-17 dígitos consecutivos
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -16528,41 +16349,33 @@ Não
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_formatted_itin localiza conteúdo que corresponde ao padrão.
-- Pelo menos uma das seguintes opções for verdadeira:
-    - Uma palavra-chave de Keyword_itin for encontrada.
-    - A função Func_us_address encontrar um endereço no formato de data à direita.
-    - A função Func_us_date encontra uma data no formato de data à direita.
-    - Uma palavra-chave de Keyword_itin_collaborative for encontrada.
+- Uma palavra-chave de Keyword_itin for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_unformatted_itin localiza conteúdo que corresponde ao padrão.
-- Pelo menos uma das seguintes opções for verdadeira:
-    - Uma palavra-chave de Keyword_itin_collaborative for encontrada.
-    - A função Func_us_address encontrar um endereço no formato de data à direita.
-    - A função Func_us_date encontra uma data no formato de data à direita.
+- Uma palavra-chave de Keyword_itin for encontrada.
+
+Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+- A função Func_formatted_itin ou Func_unformatted_itin localiza o conteúdo que corresponde ao padrão.
 
 ```xml
-<!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
-<Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="85">
+    <!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
+    <Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_formatted_itin" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_itin" />
-          <Match idRef="Func_us_address" />
-          <Match idRef="Func_us_date" />
-          <Match idRef="Keyword_itin_collaborative" />
-        </Any>
-    </Pattern>
-    <Pattern confidenceLevel="75">
+        <Match idRef="Keyword_itin" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_unformatted_itin" />
         <Match idRef="Keyword_itin" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_itin_collaborative" />
-          <Match idRef="Func_us_address" />
-          <Match idRef="Func_us_date" />
-        </Any>
-    </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_formatted_itin" />
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_unformatted_itin" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
@@ -16573,6 +16386,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax id 
 - tax identification 
 - itin 
+- i.t.i.n.
 - es 
 - Tin 
 - social security 
@@ -16581,14 +16395,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - táxi 
 - individual taxpayer 
 
-#### <a name="keyword_itin_collaborative"></a>Keyword_itin_collaborative
-
-- Licença 
-- DISTRIBUIÇÃO 
-- DOB 
-- Data de Nascimento 
-- Birthday 
-- Date of Birth 
 
 ## <a name="us-social-security-number-ssn"></a>Número de CPF (cadastro social dos EUA)
 
@@ -16764,10 +16570,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_ukraine_passport_domestic"></a>Keyword_ukraine_passport_domestic
 
 - passaporte da Ucrânia
-- número de passaporte
+- passport number
 - Passport não
-- паспорт України
-- номер паспорта
+- паспорт України
+- номер паспорта
 - персональний
 
 
@@ -16814,7 +16620,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_ukraine_passport_international"></a>Keyword_ukraine_passport_international
 
 - passaporte da Ucrânia
-- número de passaporte
+- passport number
 - Passport não
-- паспорт України
-- номер паспорта
+- паспорт України
+- номер паспорта

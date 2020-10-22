@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: ffa2d54385249a22d672be0c2591c3b4171bd10d
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 5b0353546a9bb923559ebd125393890180257baf
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600376"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651435"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Introdução às configurações de gerenciamento de risco do insider
 
@@ -81,7 +81,7 @@ Para habilitar o monitoramento de atividades de risco em dispositivos e incluir 
 
 Certifique-se de que os dispositivos Windows 10 que você pretende relatar no gerenciamento de risco do insider atendam a esses requisitos.
 
-1. Deve estar executando o Windows 10 x64 build 1809 ou superior.
+1. Deve estar executando o Windows 10 x64 Build 1809 ou posterior e deve ter instalado a [atualização do Windows 10 (versão do sistema operacional 17763,1075)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818) de 20 de fevereiro de 2020.
 2. Todos os dispositivos devem estar [ingressados no Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) ou no Azure AD híbrido.
 3. Instale o Microsoft Chromium Edge browser no dispositivo de ponto de extremidade para monitorar ações para a atividade de upload de nuvem. Confira, [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
@@ -244,7 +244,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 | AlertType | O tipo do alerta é *personalizado*.  |
 | AlertId | O GUID do alerta. Os alertas de gerenciamento de risco do insider são mutáveis. À medida que o status do alerta é alterado, um novo log com o mesmo Alertid é gerado. Este Alertid pode ser usado para correlacionar as atualizações de um alerta. |
 | Categoria | A categoria do alerta é *InsiderRiskManagement*. Essa categoria pode ser usada para distinguir esses alertas de outros alertas de segurança & de conformidade. |
-| Comments | Comentários padrão para o alerta. Os valores são um *alerta novo* (registrado quando um alerta é criado) e o *alerta é atualizado* (registrado quando há uma atualização para um alerta). Use o Alertid para correlacionar as atualizações de um alerta. |
+| Comentários | Comentários padrão para o alerta. Os valores são um *alerta novo* (registrado quando um alerta é criado) e o *alerta é atualizado* (registrado quando há uma atualização para um alerta). Use o Alertid para correlacionar as atualizações de um alerta. |
 | Dados | Os dados para o alerta incluem a ID de usuário exclusiva, o nome principal do usuário e a data e hora (UTC) quando o usuário foi disparado em uma política. |
 | Nome | Nome da política para a política de gerenciamento de risco do insider que gerou o alerta. |
 | PolicyId | O GUID da política de gerenciamento de risco do insider que disparou o alerta. |
@@ -364,6 +364,9 @@ Conclua as seguintes etapas para excluir um ativo físico de prioridade:
 [O Microsoft Power Automate](https://docs.microsoft.com/power-automate/getting-started) é um serviço de fluxo de trabalho que automatiza ações entre aplicativos e serviços. Usando fluxos de modelos ou criados manualmente, é possível automatizar tarefas comuns associadas a esses aplicativos e serviços. Ao habilitar os fluxos de energia automatizada para o gerenciamento de risco do Insider, você pode automatizar tarefas importantes para casos e usuários. Você pode configurar fluxos de energia automatizada para recuperar as informações de usuário, alerta e caso e compartilhar essas informações com participantes e outros aplicativos, além de automatizar ações no gerenciamento de risco do Insider, como postar em notas de caso. Os fluxos de automatização de energia são aplicáveis para casos e qualquer usuário no escopo para uma política.
 
 Os clientes com assinaturas do Microsoft 365 que incluem o gerenciamento de risco do insider não precisam de automatizar as licenças para usar os modelos de automatização de recursos de automação de gerenciamento de risco do insider recomendado. Esses modelos podem ser personalizados para dar suporte à sua organização e cobrir os principais cenários de gerenciamento de risco do insider. Se você optar por usar os recursos de automatização de energia Premium nesses modelos, crie um modelo personalizado usando o conector de conformidade da Microsoft 365 ou use os modelos de automatização de energia para outras áreas de conformidade no Microsoft 365, talvez você precise de energia adicional automatizar as licenças.
+
+>[!IMPORTANT]
+>Você está recebendo prompts para validação de licença adicional ao testar a energia automatizar fluxos? Sua organização pode não ter recebido atualizações de serviço para esse recurso de visualização ainda. As atualizações estão sendo implantadas e todas as organizações com assinaturas do Microsoft 365 que incluem o gerenciamento de risco do insider devem ter suporte de licença para fluxos criados a partir dos modelos de automatização de energia recomendados em 30 de outubro de 2020.
 
 Os modelos de automatização de energia a seguir são fornecidos aos clientes para oferecer suporte à automação de processos para usuários e casos de gerenciamento de risco do insider:
 

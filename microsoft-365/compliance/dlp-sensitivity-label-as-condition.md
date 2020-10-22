@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: saiba mais sobre os serviços e os tipos de item que você pode usar rótulos de confidencialidade como condições em políticas DLP
-ms.openlocfilehash: 561a6cbd7b8aeb9082862319c5cc6419fd79c896
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 2f8eb30e23d722a5e8faf7d0ddaca6b9a94e279b
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321106"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649630"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies-preview"></a>Usar rótulos de confidencialidade como condições em políticas DLP (visualização)
 
@@ -38,7 +38,12 @@ Você pode usar os [rótulos de confidencialidade](sensitivity-labels.md) como u
 
 Os rótulos de confidencialidade aparecem como uma opção na lista **Conteúdo contém**.
 
-![rótulo de confidencialidade como uma condição](../media/dlp-sensitivity-label-as-a-condition.png)
+> [!div class="mx-imgBorder"]
+> ![rótulo de confidencialidade como condição](../media/dlp-sensitivity-label-as-a-condition.png)
+
+> [!IMPORTANT]
+> Como condição, os **Rótulos de Confidencialidade** não estarão disponíveis se você tiver selecionado o **chat do Teams e as mensagens do canal** como um local para aplicar a política DLP.
+
 
 ## <a name="supported-items-scenarios-and-policy-tips"></a>Itens com suporte, cenários e dicas de política
 
@@ -46,7 +51,7 @@ Você pode usar rótulos de confidencialidade como condições nestes itens e ne
 
 ### <a name="supported-items"></a>Itens com suporte
 
-|serviço  |tipo de item  |disponível para a dica de política  |aplicável  |
+|Serviço  |Tipo de item  |Disponível para a dica de política  |Aplicável  |
 |---------|---------|---------|---------|
 |Exchange    |mensagem de email         |sim         |sim         |
 |Exchange    |anexos de email         |não *         |não *         |
@@ -64,16 +69,20 @@ Você pode usar rótulos de confidencialidade como condições nestes itens e ne
 ### <a name="supported-scenarios"></a>Cenários com suporte
 
 - O administrador de DLP poderá ver uma lista de todos os rótulos de confidencialidade no locatário quando eles optarem por incluir um ou mais rótulos de confidencialidade como uma condição.
-- O uso de rótulos de confidencialidade como uma condição tem suporte em todas as cargas de trabalho, como indicado na matriz de suporte acima
+
+- Como condição, o uso de rótulos de confidencialidade tem suporte em todas as cargas de trabalho, como indicado na matriz de suporte acima.
+
 - As dicas de política DLP continuarão a ser mostradas entre cargas de trabalho (exceto o Outlook Win32) para políticas DLP que contêm rótulos de confidencialidade como uma condição.
+
 - Os rótulos de confidencialidade também serão exibidos como parte do email do relatório de incidentes se uma política DLP com rótulos de confidencialidade for correspondida.
+
 - Os detalhes dos rótulos de confidencialidade também serão mostrados na regra de correspondência do log de auditoria da DLP para obter uma correspondência à política DLP que contenha o rótulos de confidencialidade como uma condição.
 
 
 ### <a name="support-policy-tips"></a>Dicas de política com suporte
 
 
-|carga de trabalho  |dicas de política com suporte/sem suporte  |
+|Carga de trabalho  |Dicas de política com suporte/sem suporte  |
 |---------|---------|
 |OWA |    com suporte     |
 |Outlook Win 32    |  sem suporte.       |

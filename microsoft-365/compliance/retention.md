@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 6dedb3209d16d5d9f18c1277821270f973cc16a6
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: fe28e51aa7d93872e5683c3682c110275ece3d54
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398978"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651425"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -276,7 +276,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Retenção aplicada com base em condições <br /> - tipos de informações confidenciais, consultas de KQL, classificadores de treinamento| Não | Sim |
 |Retenção aplicada manualmente | Não | Sim |
 |Presença da interface de usuário para usuários finais | Não | Sim |
-|Persiste se o conteúdo for movido | Não | Sim, no Microsoft 365 |
+|Persiste se o conteúdo for movido | Não | Sim, em seu locatário do Microsoft 365 |
 |Declarar um item como um registro| Não | Sim |
 |Iniciar o período de retenção ao rotular ou com base em um evento | Não | Sim |
 |Revisão de disposição | Não| Sim |
@@ -353,27 +353,50 @@ Para usar os cmdlets de retenção, primeiro você deve [se conectar ao PowerShe
 
 - [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule)
 
+## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>Quando usar políticas de retenção e rótulos de retenção, ou bloqueios de Descoberta Eletrônica
+
+Embora as configurações de retenção e os [bloqueios criados com uma ocorrência de Descoberta Eletrônica](create-ediscovery-holds.md) possam impedir que os dados sejam excluídos permanentemente, eles são projetados para cenários diferentes. Para ajudar você a entender as diferenças e decidir qual usar, veja as seguintes orientações:
+
+- As configurações de retenção que você especificar nas políticas de retenção e nos rótulos de retenção são projetadas para uma estratégia de governança de informações de longo prazo para reter ou excluir dados para requisitos de conformidade. O escopo é geralmente amplo, com o foco principal sendo o local e o conteúdo, e não os usuários individuais. O início e o fim do período de retenção podem ser configurados, com a opção de excluir automaticamente o conteúdo sem intervenção do administrador.
+
+- Os bloqueios da Descoberta Eletrônica (casos de Descoberta Eletrônica Principal ou de Descoberta Eletrônica Avançada) são projetados por um período limitado para preservar os dados de uma investigação legal. O escopo é específico, com foco no conteúdo dos usuários identificados. O início e o fim do período de preservação não são configuráveis, mas dependem de ações individuais do administrador, sem uma opção de excluir conteúdo automaticamente quando o bloqueio for liberado.
+
+Resumo para comparar a retenção com os bloqueios:
+
+|Considerações|Retenção |Bloqueios de Descoberta Eletrônica|
+|:-----|:-----|:-----|:-----|
+|Necessidade comercial: |Conformidade |Jurídico |
+|Escopo de tempo: |Longo prazo |Curto prazo |
+|Foco: |Amplo e baseado no conteúdo |Específico e baseado no usuário |
+|Data de início e de término configurável: |Sim |Não |
+|Exclusão de conteúdo: |Sim (opcional) |Não |
+|Sobrecarga administrativa: |Baixo |Alto |
+
+Se o conteúdo estiver sujeito às configurações de retenção e ao bloqueio de Descoberta Eletrônica, a preservação de conteúdo do bloqueio de Descoberta Eletrônica sempre terá precedência. Dessa forma, os [princípios de retenção](#the-principles-of-retention-or-what-takes-precedence) se expandem para os bloqueios de Descoberta Eletrônica, pois eles preservam os dados até que um administrador libere manualmente o bloqueio. No entanto, apesar dessa precedência, não use os bloqueios da Descoberta Eletrônica para governança de informações de longo prazo. Se você estiver preocupado com a exclusão automática de dados, defina as configurações de retenção para reter itens para sempre ou usar a [revisão de disposição](disposition.md#disposition-reviews) com rótulos de retenção.
+
+Se você estiver usando ferramentas de Descoberta Eletrônica mais antigas para preservar dados, consulte os seguintes recursos:
+
+- Exchange: 
+    - [Bloqueio In-loco e Retenção de Litígio](https://go.microsoft.com/fwlink/?linkid=846124)
+    - [Como identificar o tipo de retenção de uma caixa de correio do Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/identify-a-hold-on-an-exchange-online-mailbox)
+
+- SharePoint e OneDrive: 
+    - [Adicionar conteúdo a uma ocorrência e colocar fontes em retenção na Descoberta Eletrônica](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
+
+- [Baixa das ferramentas de Descoberta Eletrônica herdadas](legacy-ediscovery-retirement.md)
+
 ## <a name="use-retention-policies-and-retention-labels-instead-of-older-features"></a>Use as políticas de retenção e os rótulos de retenção em vez de recursos mais antigos
 
-Se você precisar reter ou excluir o conteúdo proativamente no Microsoft 365 para o controle de informações, recomendamos usar as políticas de retenção e os rótulos de retenção em vez dos recursos mais antigos. 
-  
+Se você precisar reter ou excluir o conteúdo proativamente no Microsoft 365 para o controle de informações, recomendamos usar as políticas de retenção e os rótulos de retenção em vez dos recursos mais antigos.
+
 Se você usa esses recursos mais antigos, eles continuarão a funcionar lado a lado com as políticas de retenção e os rótulos de retenção. No entanto, recomendamos que, daqui para frente, você use políticas de retenção e rótulos de retenção. Eles fornecem um único mecanismo para gerenciar centralmente a retenção e a exclusão de conteúdo no Microsoft 365.
 
 **Recursos mais antigos do Exchange Online:**
 
-- [Bloqueio In-loco e a Retenção de Litígio](https://go.microsoft.com/fwlink/?linkid=846124) (Retenção de Descoberta Eletrônica) 
-
-- [Como identificar o tipo de retenção de uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md)
-    
 - [Marcas de retenção e políticas de retenção](https://go.microsoft.com/fwlink/?linkid=846125), também conhecidas como [gerenciamento de registros de mensagens (MRM)](https://go.microsoft.com/fwlink/?linkid=846126) (apenas exclusão)
-    
-Confira também [Baixa das ferramentas de Descoberta Eletrônica herdadas](legacy-ediscovery-retirement.md).
-
 
 **Recursos mais antigos do SharePoint e do OneDrive:**
 
-- [Adicionar conteúdo a uma ocorrência e colocar fontes em retenção na Descoberta Eletrônica](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) (Retenção de Descoberta Eletrônica) 
-    
 - [Políticas de exclusão documento](https://support.office.com/article/Create-a-document-deletion-policy-in-SharePoint-Server-2016-4fe26e19-4849-4eb9-a044-840ab47458ff) (apenas exclusão)
     
 - [Como configurar o gerenciamento de registros no local](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (apenas retenção) 
@@ -382,10 +405,6 @@ Confira também [Baixa das ferramentas de Descoberta Eletrônica herdadas](legac
     
 - [Políticas de gerenciamento de informações](intro-to-info-mgmt-policies.md) (apenas exclusão)
      
-Se tiver usado anteriormente qualquer um dos bloqueios de descoberta eletrônica para fins de governança de informações, use uma política de retenção para conformidade proativa. Use a Descoberta Eletrônica para apenas bloqueios.
-  
-### <a name="retention-policies-and-sharepoint-content-type-policies-or-information-management-policies"></a>Políticas de retenção e políticas de tipo de conteúdo do SharePoint ou políticas de gerenciamento de informações
-
 Se você configurou sites do SharePoint para políticas de tipo de conteúdo ou políticas de gerenciamento de informações para reter o conteúdo de uma lista ou biblioteca, essas políticas serão ignoradas enquanto uma política de retenção estiver em vigor. 
 
 ## <a name="related-information"></a>Informações relacionadas

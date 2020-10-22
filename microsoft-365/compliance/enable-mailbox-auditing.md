@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: O registro em log de auditoria de caixa de correio é ativado por padrão no Microsoft 365 (também chamado de auditoria de caixa de correio padrão ou de caixa de correio ativada por padrão). Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas em um log de auditoria de caixa de correio, onde você pode pesquisar atividades realizadas na caixa de correio.
-ms.openlocfilehash: 7c0a4417496bcf18362dbcfe53b751c549ef98b9
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 8d91936f82070848dc65d1b160d4df0165875213
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545837"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649620"
 ---
 # <a name="manage-mailbox-auditing"></a>Gerenciar a auditoria de caixa de correio
 
@@ -35,7 +35,7 @@ Estes são alguns benefícios da auditoria de caixa de correio ativada por padr�
 
 - Você não precisa gerenciar as ações da caixa de correio que são auditadas. Um conjunto predefinido de ações de caixa de correio é auditado por padrão para cada tipo de logon (administrador, representante e proprietário).
 
-- Quando a Microsoft lança uma nova ação de caixa de correio (especialmente ações que ajudam a proteger sua organização e a ajudar com investigações jurídicas), a ação é automaticamente adicionada à lista de ações de caixa de correio que são auditadas por padrão. Isso significa que você não precisa monitorar a adição de novas ações em caixas de correio.
+- Quando a Microsoft lança uma nova ação de caixa de correio, a ação pode ser automaticamente adicionada à lista de ações de caixa de correio que são auditadas por padrão (sujeito ao usuário com a licença apropriada). Isso significa que você não precisa monitorar a adição de novas ações em caixas de correio.
 
 - Você tem uma política de auditoria de caixa de correio consistente em sua organização (pois você está auditando as mesmas ações para todas as caixas de correio).
 
@@ -90,7 +90,7 @@ Os tipos de logon classificam o usuário que fazia as ações auditadas na caixa
 
     - Descoberta eletrônica ou descoberta eletrônica avançada no centro de conformidade.
 
-    - Descoberta eletrônica in-loco no Exchange Online.
+    - In-Place eDiscovery no Exchange Online.
 
   - A caixa de correio é acessada usando o editor MAPI do Microsoft Exchange Server.
 
@@ -108,7 +108,7 @@ A tabela a seguir descreve as ações de caixa de correio disponíveis no log de
 |:---------|:---------|:---------:|:---------:|:---------:|
 |**AddFolderPermissions**|**Observação**: embora esse valor seja aceito como uma ação de caixa de correio, ele já está incluído na ação **UpdateFolderPermissions** e não é auditado separadamente. Em outras palavras, não use esse valor.||||
 |**ApplyRecord**|Um item é rotulado como um registro.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Copiar**|Uma mensagem foi copiada a outra pasta.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|**Copy**|Uma mensagem foi copiada a outra pasta.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**Create**|Um item foi criado na pasta calendário, contatos, anotações ou tarefas na caixa de correio (por exemplo, uma nova solicitação de reunião é criada). Criar, enviar ou receber uma mensagem não é auditada. Criar pastas de caixa de correio também não é uma ação auditada.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**Padrão**||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|Uma pasta da caixa de correio foi acessada. Esta ação também é registrada quando o administrador ou representante abrem a caixa de correio.<br/><br/> **Observação**: os registros de auditoria das ações de associação de pasta executadas pelos representantes são consolidados. Um registro de auditoria é gerado para acesso a pastas individuais dentro de um período de 24 horas.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||

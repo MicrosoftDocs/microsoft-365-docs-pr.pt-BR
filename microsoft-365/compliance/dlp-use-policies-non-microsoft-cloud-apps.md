@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar políticas de DLP para aplicativos de nuvem que não são da Microsoft.
-ms.openlocfilehash: dd5a7a4bc0725d0785daec6b7635047cd91f20a2
-ms.sourcegitcommit: 39af527404cb06e05c5aa4550dbec39aec133016
+ms.openlocfilehash: 0b588bf27738a0f9a8078999311294f74e5193c0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48422712"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649652"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Usar políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft (versão prévia)
 
@@ -45,7 +45,7 @@ Antes de começar a usar políticas DLP para aplicativos de nuvem que não são 
 
 ### <a name="prepare-your-cloud-app-security-environment"></a>Preparar o ambiente de segurança do seu Cloud app
 
-As políticas de DLP para aplicativos de nuvem que não são da Microsoft usam recursos de DLP do Cloud app Security. Para usá-lo, você deve preparar o ambiente de segurança do seu Cloud app. Para obter instruções, consulte [set isntant Visibility, Protection e Governance Actions for your apps](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps).
+As políticas de DLP para aplicativos de nuvem que não são da Microsoft usam recursos de DLP do Cloud app Security. Para usá-lo, você deve preparar o ambiente de segurança do seu Cloud app. Para obter instruções, consulte [definir ações instantâneas de visibilidade, proteção e governança para seus aplicativos](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps).
 
 ### <a name="connect-a-non-microsoft-cloud-app"></a>Conectar um aplicativo de nuvem que não seja da Microsoft
 

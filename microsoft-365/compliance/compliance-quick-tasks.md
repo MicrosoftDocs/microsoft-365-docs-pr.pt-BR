@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar a usar rapidamente a conformidade no Microsoft 365.
-ms.openlocfilehash: 98526104d2ced7b86315b24bd2843701047a097c
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: a8fd5d72fd87fdbf9c8c3c6da094a58544efd6e8
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341177"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651357"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 
@@ -68,13 +68,7 @@ Use a política de alerta e as ferramentas de painel de alerta para criar polít
 
 Para obter uma orientação passo a passo para criar políticas de alerta personalizadas, consulte [políticas de alerta no centro de segurança e conformidade](alert-policies.md).
 
-## <a name="task-5-configure-just-in-time-access-for-your-administrators"></a>Tarefa 5: configurar o acesso just-in-time para seus administradores
-
-Ter acesso à parte de alguns usuários a informações confidenciais ou configurações de rede críticas é um possível caminho para as contas comprometidas ou atividades internas de ameaça. O [Gerenciamento de acesso privilegiado](privileged-access-management-overview.md) ajuda a proteger sua organização contra violações e ajuda a atender às práticas recomendadas de conformidade, limitando o acesso à posição de dados confidenciais ou ao acesso a definições de configuração críticas. Em vez de os administradores terem acesso constante, as regras de acesso just-in-time são implementadas para tarefas que precisam de permissões elevadas. Habilitar o gerenciamento de acesso privilegiado no Microsoft 365 permite que sua organização opere com nenhum privilégio de pé e forneça uma camada de defesa contra vulnerabilidades de acesso administrativo.
-
-Para obter uma orientação passo a passo para configurar o gerenciamento de acesso privilegiado, confira [introdução ao gerenciamento de acesso privilegiado](privileged-access-management-configuration.md). Para obter informações sobre licenciamento de gerenciamento de acesso privilegiado, consulte [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privileged-access-management-in-office-365).
-
-## <a name="task-6-classify-and-protect-sensitive-data"></a>Tarefa 6: classificar e proteger dados confidenciais
+## <a name="task-5-classify-and-protect-sensitive-data"></a>Tarefa 5: classificar e proteger dados confidenciais
 
 Para realizar o trabalho, as pessoas da sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo não fica mais atrás de um firewall, ele pode circular em qualquer lugar, em dispositivos, aplicativos e serviços. E quando estiver em roaming, você quer fazê-lo de uma maneira segura e protegida que atenda às políticas de negócios e conformidade da sua organização.
 
@@ -82,7 +76,7 @@ Os [Rótulos de confidencialidade](sensitivity-labels.md) permitem que você cla
 
 Para obter uma orientação passo a passo para configurar e usar rótulos de sensibilidade, confira [introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md). Para obter informações sobre licenciamento de rótulo de confidencialidade, confira [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
 
-## <a name="task-7-configure-a-retention-policy"></a>Tarefa 7: configurar uma política de retenção
+## <a name="task-6-configure-a-retention-policy"></a>Tarefa 6: configurar uma política de retenção
 
 Uma [política de retenção](retention.md) permite que você decida de forma proativa se deseja reter o conteúdo, excluir conteúdo ou ambos – reter e excluir o conteúdo no final de um período de retenção especificado. Essas ações podem ser necessárias para cumprir as políticas internas e regulamentações do setor, além de reduzir o risco no caso de litígio ou uma violação de segurança.
 
@@ -92,7 +86,7 @@ Você pode colocar rapidamente uma política de retenção em vigor para vários
 
 Para obter uma orientação passo a passo para configurar uma política de retenção, consulte [Create and configure Retention Policies](create-retention-policies.md). Se você é novo na configuração de retenção no Microsoft 365, consulte [Iniciar com políticas de retenção e rótulos de retenção](get-started-with-retention.md).
 
-## <a name="task-8-configure-sensitive-information-and-offensive-language-policies"></a>Tarefa 8: configurar informações confidenciais e políticas de linguagem ofensivas
+## <a name="task-7-configure-sensitive-information-and-offensive-language-policies"></a>Tarefa 7: configurar informações confidenciais e políticas de linguagem ofensivas
 
 Proteger informações confidenciais e detectar e atuar nos incidentes de assédio de área de trabalho é uma parte importante da conformidade com políticas e padrões internos. A [conformidade de Comunicação](communication-compliance-feature-reference.md) no Microsoft 365 ajuda a minimizar esses riscos ajudando-o a detectar, capturar e realizar ações de correção para email e comunicações do Microsoft Teams. Isso inclui comunicações inadequadas contendo profanação, ameaças e assédio e comunicações que compartilham informações confidenciais dentro e fora da sua organização.
 
@@ -102,7 +96,7 @@ O modelo de política de *informações confidenciais* predefinido ajuda você a
 
 Para obter uma orientação passo a passo para planejar e configurar a conformidade de comunicação, consulte [Plan for Communication Compliance](communication-compliance-plan.md) e [introdução à conformidade de comunicação](communication-compliance-configure.md). Para obter informações sobre licenciamento de conformidade de comunicação, confira [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#communication-compliance).
 
-## <a name="task-9-see-whats-happening-with-your-sensitive-items"></a>Tarefa 9: ver o que está acontecendo com seus itens confidenciais
+## <a name="task-8-see-whats-happening-with-your-sensitive-items"></a>Tarefa 8: ver o que está acontecendo com seus itens confidenciais
 
 Os rótulos de confidencialidade, os tipos de informações confidenciais, os rótulos de retenção e as políticas e os classificadores treináveis podem ser usados para classificar e rotular itens confidenciais no Exchange, no SharePoint e no OneDrive, conforme visto nas tarefas anteriores. A última etapa da sua jornada de tarefa rápida é ver quais itens foram rotulados e quais ações seus usuários estão levando nesses itens confidenciais. o [Gerenciador de conteúdo](data-classification-content-explorer.md) e o explorador de [atividade](data-classification-activity-explorer.md) oferecem essa visibilidade.
 
@@ -113,7 +107,7 @@ Para obter uma orientação passo a passo sobre como usar o Gerenciador de conte
 
 ### <a name="activity-explorer"></a>Explorador de atividade
 O Gerenciador de atividades ajuda você a monitorar o que está sendo feito com seus itens confidenciais classificados e rotulados em:
-- SharePoint
+- Microsoft Office SharePoint Online
 - Exchange
 - OneDrive
 

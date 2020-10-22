@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar a prevenção contra perda de dados do Endpoint (EPDLP) da Microsoft 365.
-ms.openlocfilehash: 38300769a4d6d3a4093fe403e79f5b13e71f2c1c
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 0f1fc3159de6545007ddd62da2fca17ce87ad1dc
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430239"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636812"
 ---
 # <a name="using-endpoint-data-loss-prevention-preview"></a>Usando a prevenção contra perda de dados do EndPoint (visualização)
 
@@ -38,9 +38,10 @@ Antes de começar, você deve configurar suas configurações de DLP, aplicadas 
 
 Ou
 
-- Se você deseja excluir os caminhos de arquivo barulhento do monitoramento
+- Se você deseja excluir os caminhos de arquivo barulhentos do monitoramento
 
-![Configurações de DLP](../media/endpoint-dlp-1-using-dlp-settings.png)
+  > [!div class="mx-imgBorder"]
+  > ![Configurações de DLP](../media/endpoint-dlp-1-using-dlp-settings.png)
 
 ### <a name="file-path-exclusions"></a>Exclusões de caminho de arquivo
 
@@ -48,13 +49,19 @@ Talvez você queira excluir determinados caminhos de monitoramento DLP, alertas 
 
 Você pode usar essa lógica para construir seus caminhos de exclusão:
 
-- Caminho de arquivo válido que termina com "\", o que significa somente os arquivos da pasta. Por exemplo: C:\Temp\
-- Caminho de arquivo válido que termina com “\*”, o que significa somente os arquivos em subpastas, além dos arquivos diretamente na pasta. Por exemplo: C:\Temp\*
-- Caminho de arquivo válido que termina com "\" ou “\*”, o que significa somente os arquivos da pasta e todas as subpastas. Por exemplo: C:\Temp
-- Um caminho com o curinga entre "\" de cada lado. Por exemplo: C:\Users\*\Desktop\
-- Um caminho com curinga entre "\" de cada lado e com '(número)' para atribuir um número exato de subpastas. Por exemplo: C:\Users\*(1) \Downloads\
-- Um caminho com variáveis de ambiente do sistema. Por exemplo: %SystemDrive%\Test\*
-- Uma mistura de todas as acima. Por exemplo: %SystemDrive%\Users\*\Documents\*(2)\Sub\
+- Caminho de arquivo válido que termina com "\", o que significa somente os arquivos da pasta. <br/>Por exemplo: C:\Temp\
+
+- Caminho de arquivo válido que termina com “\*”, o que significa somente os arquivos em subpastas, além dos arquivos diretamente na pasta. <br/>Por exemplo: C:\Temp\*
+
+- Caminho de arquivo válido que termina com "\" ou “\*”, o que significa somente os arquivos da pasta e todas as subpastas. <br/>Por exemplo: C:\Temp
+
+- Um caminho com o curinga entre "\" de cada lado. <br/>Por exemplo: C:\Users\*\Desktop\
+
+- Um caminho com curinga entre "\" de cada lado e com '(número)' para atribuir um número exato de subpastas. <br/>Por exemplo: C:\Users\*(1) \Downloads\
+
+- Um caminho com variáveis de ambiente do sistema. <br/>Por exemplo: %SystemDrive%\Test\*
+
+- Uma mistura de todas as acima. <br/>Por exemplo: %SystemDrive%\Users\*\Documents\*(2)\Sub\
 
 ### <a name="service-domains"></a>Domínios de serviço
 
@@ -62,15 +69,18 @@ Você pode adicionar domínios a essa lista à qual o Edge Chromium se reforçar
 
 Se o modo de lista estiver definido como **Bloquear**, o usuário não poderá carregar itens confidenciais para esses domínios. Quando uma ação de carregamento é bloqueada porque um item corresponde a uma política DLP, a DLP gera um aviso ou bloqueia o carregamento do item confidenciais.
 
-Se o modo de lista estiver definido como **Permitir**, os usuários poderão carregar itens confidenciais ***apenas*** a esses domínios, e carregar o acesso a todos os outros domínios não será permitido.
+Se o modo de lista estiver definido como **Permitir**, os usuários poderão carregar itens confidenciais **_apenas_*_ a esses domínios, e carregar o acesso a todos os outros domínios não será permitido.
 
 ### <a name="unallowed-apps"></a>Aplicativos não permitidos
 
-Quando a configuração de **Acesso a uma política por meio de aplicativos e navegadores não permitidos** estiver ativada e os usuários tentarem usar esses aplicativos para acessar um arquivo protegido, a atividade será permitida, bloqueada ou bloqueada, mas os usuários poderão substituir a restrição. Todas as atividades são auditadas e estão disponíveis para revisão no explorador de atividades.
+Quando a configuração de _*Acesso a uma política por meio de aplicativos e navegadores não permitidos* estiver ativada e os usuários tentarem usar esses aplicativos para acessar um arquivo protegido, a atividade será permitida, bloqueada, ou bloqueada mas com os usuários podendo substituir a restrição. Todas as atividades são auditadas e estão disponíveis para revisão no explorador de atividades.
 
 ### <a name="unallowed-browsers"></a>Navegadores não permitidos
 
-Você adiciona navegadores, identificados por seus nomes de processo, que serão bloqueados de acessar arquivos que correspondem às condições de uma política de DLP, em que a restrição carregar para os serviços de nuvem está definida como bloquear ou bloquear substituição. Quando estes navegadores estiverem bloqueados de acessar um arquivo, os usuários finais verão uma notificação do sistema solicitando que eles abram o arquivo por meio do Edge Chromium.
+Adicione navegadores, identificados por seus nomes executáveis, que serão impedidos de acessar arquivos que correspondam às condições de uma política de DLP, em que a restrição de upload para serviços de nuvem está definida para bloquear ou para substituição de bloqueio. Quando estes navegadores estiverem bloqueados de acessar um arquivo, os usuários finais verão uma notificação do sistema solicitando que eles abram o arquivo por meio do Edge Chromium.
+
+[!IMPORTANT]
+Não inclua o caminho para o executável, apenas o nome do executável (por exemplo, browser.exe).
 
 ## <a name="tying-dlp-settings-together"></a>Como ligar as configurações da DLP
 
@@ -80,8 +90,10 @@ Quando você usa o Endpoint DLP como um local em uma política DLP corretamente 
 
 Para usar essa restrição, você precisará configurar três partes importantes:
 
-1. Especificar os locais – serviços, domínios e endereços IP – que você deseja impedir que os itens confidenciais sejam compartilhados para o
-2. Adicione os navegadores que não têm permissão para acessar determinados itens confidenciais quando uma política DLP ocorrer
+1. Especifique os locais (serviços, domínios e endereços IP) que deseja impedir que os itens confidenciais sejam compartilhados.
+
+2. Adicione os navegadores que não têm permissão para acessar determinados itens confidenciais quando ocorre uma correspondência de política DLP.
+
 3. Configure as políticas DLP para definir os tipos de itens confidenciais para os quais o carregamento deve ser restrito a esses lugares, ativando **Carregar nos serviços de nuvem** e **Acesso a partir do navegador não permitido**.
 
 Você pode continuar a adicionar novos serviços, aplicativos e políticas para estender e aprimorar suas restrições para atender às suas necessidades de negócios e proteger dados confidenciais. 
@@ -104,49 +116,83 @@ Para ajudar você a se familiarizar com os recursos d Endpoint DLP e como eles s
 Esses cenários exigem que você já tenha dispositivos integrados e relatados no Explorador de atividades. Se ainda não tiver integrado os dispositivos, confira [Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)](endpoint-dlp-getting-started.md).
 
 1. Abra a página [Prevenção de perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
+
 2. Escolha **Criar políticas (visualização)**.
+
 3. Para esse cenário, escolha **Privacidade**, em seguida **Dados de informações de identificação pessoal (PII) dos EUA** e escolha **Próximo**.
+
 4. Alterne o campo **Status** para desativado em todos os locais, exceto os **Dispositivos**.  Escolha **Próximo**.
+
 5. Aceite a seleção padrão **Revisar e personalizar as configurações do modelo** e escolha **Próximo**.
+
 6. Aceite os valores padrão de **Ações de proteção** e escolha **Próximo**.
+
 7. Selecione **Auditoria ou restringir atividades em dispositivos de Windows** e deixe as ações definidas como **Somente auditar**. Escolha **Próximo**.
+
 8. Aceite o valor padrão **Eu quero testá-lo primeiro** e escolha **Mostrar dicas de política enquanto estiver no modo de teste**. Escolha **Próximo**.
+
 9. Examine as configurações e escolha **Enviar**.
+
 10. A nova política DLP será exibida na lista de políticas.
+
 11. Verificar o Explorador de atividade para obter pontos de extremidade monitorados. Defina o filtro local para dispositivos e adicione a política, em seguida, filtre por nome da política para ver o impacto dessa política. Confira [Começar a usar o explorador de atividades](data-classification-activity-explorer.md) se necessário.
+
 12. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
+
 13. Verifique o Explorador de atividades para obter o evento.
 
 ### <a name="scenario-2-modify-the-existing-policy-set-an-alert"></a>Cenário 2: Modificar a política existente, definir um alerta
 
 1. Abra a página [Prevenção de perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
+
 2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** que você criou no cenário 1.
+
 3. Escolha **Editar política (visualização)**.
-4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**
+
+4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
+
 5. Role para baixo até a seção **Relatório de incidentes** e configure **Envie um alerta para administradores quando uma correspondência de regra ocorrer** para **No**. Os alertas de email serão enviados automaticamente para o administrador e qualquer pessoa que você adicionar à lista de destinatários. 
-![turn-on-incident-reports](../media/endpoint-dlp-2-using-dlp-incident-reports.png)
+
+   > [!div class="mx-imgBorder"]
+   > ![turn-on-incident-reports](../media/endpoint-dlp-2-using-dlp-incident-reports.png)
+   
 6. Para fins deste cenário, escolha **Enviar alerta sempre que uma atividade corresponder à regra**.
+
 7. Escolha **Salvar**.
+
 8. Mantenha todas as suas configurações anteriores escolhendo **Próximo** e **Enviar** as alterações de política.
+
 9. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
+
 10. Verifique o Explorador de atividades para obter o evento.
 
 ### <a name="scenario-3-modify-the-existing-policy-block-the-action-with-allow-override"></a>Cenário 3: Modificar a política existente, bloquear a ação com permitir substituição
 
 1. Abra a página [Prevenção de perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
+
 2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** que você criou no cenário 1.
+
 3. Escolha **Editar política (visualização)**.
-4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**
+
+4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
+
 5. Role a tela para baixo até a seção **Auditoria ou restringir atividades nos dispositivos do Windows** e para cada atividade defina a ação correspondente para **Bloquear com substituir**.
-![definir o bloco com substituir ação](../media/endpoint-dlp-6-using-dlp-set-blocked-with-override.png)
+
+   > [!div class="mx-imgBorder"]
+   > ![definir o bloco com substituir ação](../media/endpoint-dlp-6-using-dlp-set-blocked-with-override.png)
+   
 6. Escolha **Salvar**.
+
 7. Repita as etapas 4-7 para o **Alto volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
+
 8. Mantenha todas as suas configurações anteriores escolhendo **Próximo** e **Enviar** as alterações de política.
+
 9. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
 
-Você verá um pop-up assim no dispositivo do cliente:
+   Você verá um pop-up assim no dispositivo do cliente:
 
-![cliente do Endpoint DLP bloqueado na notificação de substituição](../media/endpoint-dlp-3-using-dlp-client-blocked-override-notification.png)
+   > [!div class="mx-imgBorder"]
+   > ![cliente dlp do ponto de extremidade bloqueado na notificação de substituição](../media/endpoint-dlp-3-using-dlp-client-blocked-override-notification.png)
 
 10. Verifique o Explorador de atividades para obter o evento.
 

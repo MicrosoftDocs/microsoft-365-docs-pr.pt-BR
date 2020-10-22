@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 7f1d3e13aebe7c7924732922bbbfc7417622d8c5
-ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
+ms.openlocfilehash: 4ede013a1c9a9bd054fc6965cbb12b5bbabb0b5e
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48626184"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651403"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -335,6 +335,9 @@ Se quiser alterar o nível de gravidade atribuído em uma política de alerta pa
 [O Microsoft Power Automate](https://docs.microsoft.com/power-automate/getting-started) é um serviço de fluxo de trabalho que automatiza ações entre aplicativos e serviços. Usando fluxos de modelos ou criados manualmente, é possível automatizar tarefas comuns associadas a esses aplicativos e serviços. Quando você habilita os fluxos de energia automatizada para conformidade de comunicação, é possível automatizar tarefas importantes para alertas e usuários. Você pode configurar fluxos de energia automatizada para notificar os gerentes quando os usuários têm alertas de conformidade de comunicação e outros aplicativos.
 
 Os clientes com assinaturas do Microsoft 365 que incluem conformidade de comunicação não precisam de automatização de energia adicional para usar o modelo de automatização de conformidade de comunicação padrão recomendado. O modelo padrão pode ser personalizado para dar suporte à sua organização e cobrir os principais cenários de conformidade de comunicação. Se você optar por usar os recursos de automatização de energia Premium nesses modelos, crie um modelo personalizado usando o conector de conformidade da Microsoft 365 ou use os modelos de automatização de energia para outras áreas de conformidade no Microsoft 365, talvez você precise de energia adicional automatizar as licenças.
+
+>[!IMPORTANT]
+>Você está recebendo prompts para validação de licença adicional ao testar a energia automatizar fluxos? Sua organização pode não ter recebido atualizações de serviço para esse recurso de visualização ainda. As atualizações estão sendo implantadas e todas as organizações com assinaturas do Microsoft 365 que incluem conformidade de comunicação devem ter suporte de licença para fluxos criados a partir dos modelos de automatização de energia recomendados em 30 de outubro de 2020.
 
 ![Comunicação automatizada de conformidade de comunicação](../media/communication-compliance-power-automate.png)
 

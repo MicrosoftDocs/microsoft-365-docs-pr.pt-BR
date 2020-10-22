@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/08/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Use as barreiras de informação para garantir a conformidade de comunicação usando o Microsoft Teams em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b223de8eba68d49a8cc0c90239305eb05bb1090
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 0630dc607d6993598f356a7090a6be5890028499
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379194"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636958"
 ---
 # <a name="information-barriers"></a>Barreiras de informações
 
@@ -35,7 +35,7 @@ As barreiras de informação agora têm suporte no Microsoft Teams, no SharePoin
 - Uma equipe de pesquisa deve chamar ou bater papo online apenas com uma equipe de desenvolvimento de produtos
 
 > [!IMPORTANT]
-> As barreiras de informação ***só dão suporte*** a restrições de duas vias. Restrições unidirecionais, como marketing, podem se comunicar com o dia dos comerciantes, mas o dia dos comerciantes não podem se comunicar com o marketing ***não é suportado***.
+> As barreiras de informação ***só dão suporte**a restrições de duas vias. Restrições unidirecionais, como marketing podem se comunicar com o dia dos comerciantes, mas o dia dos comerciantes não podem se comunicar com o marketing _ *_não é suportado_* *.
 
 Para todos esses cenários de exemplo (e mais), as políticas de barreira de informações podem ser definidas para impedir ou permitir comunicações no Microsoft Teams. Essas políticas podem impedir que as pessoas chamem ou chat com as que elas não deveriam ou permitir que as pessoas se comuniquem somente com grupos específicos no Microsoft Teams. Com as políticas de barreira de informações em vigor, sempre que os usuários que estão cobertos por essas políticas tentarem se comunicar com outras pessoas no Microsoft Teams, as verificações são realizadas para impedir (ou permitir) a comunicação (conforme definido pelas políticas de barreira de informações). Para saber mais sobre a experiência do usuário com barreiras de informações, confira [barreiras de informações no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams).
 
