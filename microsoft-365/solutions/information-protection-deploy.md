@@ -17,20 +17,20 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviço para proteger suas informações e aderir às regulamentações de privacidade de dados.
-ms.openlocfilehash: 2b249b3b43f1b520e42be4b6e5f9d684c718dc79
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4296e2f08d9dada62cc45226885d9519a33e6532
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195634"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655790"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Implantar a proteção de informações para regulamentações de privacidade de dados com o Microsoft 365
 
 Sua organização pode estar sujeita às normas de privacidade de dados regionais que exigem que você proteja, gerencie e forneça direitos e controle sobre as informações pessoais armazenadas na sua infraestrutura de ti, incluindo tanto no local quanto na nuvem. O melhor exemplo de uma regulamentação de privacidade de dados é o RGPD (regulamentação geral de proteção de dados) da União Européia. A falha na conformidade com as regulamentações de privacidade de dados pode resultar em multas substanciais.
 
-Exemplos de tipos de dados no Microsoft 365 incluem sessões de chat no Microsoft Teams, emails no Exchange e arquivos no SharePoint e no OneDrive. Esta solução fornece orientações sobre como identificar, localizar, proteger, controlar e responder a incidentes de privacidade de dados para dados pessoais armazenados nos serviços do Microsoft 365 que estão sujeitos às regulamentações de privacidade de dados.
+Exemplos de tipos de dados no Microsoft 365 incluem sessões de chat no Microsoft Teams, emails no Exchange e arquivos no SharePoint e no OneDrive. Esta solução fornece orientações sobre como avaliar riscos e identificar informações, proteger, controlar e responder a incidentes de privacidade de dados para dados pessoais armazenados nos serviços do Microsoft 365 que estão sujeitos às regulamentações de privacidade de dados.
 
-![Implantar a proteção de informações dos regulamentos da privacidade de dados](../media/information-protection-deploy/information-protection-deploy-big-picture.png)
+![O que é proteção de informações para regulamentos de privacidade de dados](../media/information-protection-deploy/information-protection-data-privacy-regulations-overview.png)
 
 Também são fornecidas informações adicionais sobre o uso dos controles de proteção de identidade, dispositivo e ameaça da Microsoft 365 para suas necessidades de privacidade de dados. 
 
@@ -50,7 +50,7 @@ Para atender aos critérios de proteção de informações para conformidade com
 
 Para ajudá-lo a entender as ferramentas do Microsoft 365 disponíveis para identificar, gerenciar, controlar e monitorar dados pessoais sujeitos a uma ou mais normas relacionadas à privacidade, esta orientação é organizada em seções.
  
-![Implantar a proteção de informações dos regulamentos da privacidade de dados](../media/information-protection-deploy/information-protection-deploy-grid.png)
+![Etapas para implementar a proteção de informações para regulamentações de privacidade de dados](../media/information-protection-deploy/information-protection-data-privacy-regulations-steps.png)
 
 Cada uma dessas seções corresponde a um artigo separado nesta solução.
 
@@ -61,13 +61,13 @@ Cada uma dessas seções corresponde a um artigo separado nesta solução.
 >Seguir estas orientações não o fará necessariamente em conformidade com qualquer regulamentação de privacidade de dados, especialmente considerando o número de etapas necessárias que estão fora do contexto dos recursos. Você é responsável por garantir sua conformidade e consultar suas equipes jurídicas e de conformidade ou para buscar orientações e conselhos de terceiros especializados em conformidade.
 >
 
-## <a name="plan-assess-data-privacy-risks-and-identify-sensitive-items"></a>Plano: avaliar os riscos de privacidade de dados e identificar itens confidenciais 
+## <a name="plan-assess-data-privacy-risks-and-identify-sensitive-items"></a>Plano: avaliar os riscos de privacidade de dados e identificar itens confidenciais
 
 Avaliar as normas e os riscos de privacidade de dados em que sua organização está sujeita é uma primeira etapa a ser executada antes de começar a implementar melhorias, incluindo as obtidas por meio da configuração do Microsoft 365. Isso pode incluir uma avaliação geral da prontidão ou identificação de tipos de informações confidenciais particulares que estão sujeitos aos controles normativos de que sua organização precisa estar em conformidade, bem como a ocorrência deles no seu ambiente Microsoft 365.
 
 Para obter mais informações, consulte [avaliar riscos de privacidade de dados e identificar itens confidenciais](information-protection-deploy-assess.md).
 
-## <a name="track-use-compliance-manager"></a>Track: usar o gerente de conformidade
+## <a name="track-run-risk-assessments-and-check-your-compliance-score"></a>Track: executar avaliações de risco e verificar sua pontuação de conformidade
 
 O Gerenciador de conformidade, disponível no centro de conformidade da Microsoft 365, fornece uma capacidade interna de rastrear e gerenciar ações de melhorias gerais, bem como aquelas relacionadas a várias leis de privacidade de dados que se aplicam a você.
 
@@ -75,7 +75,7 @@ Aproveite os modelos de avaliação internos específicos para cada regulamenta�
 
 Para obter mais informações, consulte [usar o Gerenciador de conformidade para gerenciar ações de melhoria](information-protection-deploy-compliance.md).
 
-## <a name="prevent-use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Impedir: usar a proteção de identidade, dispositivo e ameaça para a regulamentação de privacidade de dados
+## <a name="prevent-protect-personal-data"></a>Impedir: proteger dados pessoais
 
 A Microsoft 365 fornece vários recursos de proteção de identidade, dispositivo e ameaça que você pode usar para ajudar a cumprir a conformidade normativa da privacidade dos dados. 
 
@@ -99,7 +99,7 @@ Para obter mais informações, consulte [governar informações sujeitas à regu
 
 Embora as regulamentações de privacidade de dados possam ser vagas em relação à governança de informações, &mdash; como retenção proposital, exclusão e arquivamento &mdash; Este artigo apresenta os esquemas de controle principal que você pode usar para a privacidade de dados da sua organização.
 
-## <a name="investigate-monitor-and-respond-subject-to-data-privacy-regulation"></a>Investigue: monitorar e responder ao assunto para a regulamentação de privacidade de dados
+## <a name="investigate-monitor-investigate-and-respond-to-data-privacy-incidents"></a>Investigar: monitorar, investigar e responder a incidentes de privacidade de dados
 
 Há recursos do Microsoft 365 disponíveis para ajudá-lo a monitorar, investigar e responder a incidentes de privacidade de dados em sua organização à medida que você opera recursos relacionados. 
 

@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0ed10b7088e38cbf5a2d9196508eae5cdc522a74
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 01a43b35d272aaebce4c6866e3edfb04664b1801
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529440"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655718"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Monitoramento e operações de área de trabalho gerenciada da Microsoft
 
@@ -31,7 +31,7 @@ Para produtos locais, sua organização assume todas as responsabilidades de ger
 
 ### <a name="balance-of-responsibility"></a>Equilíbrio de responsabilidade
 
-Responsabilidade | Serviço de área de trabalho gerenciada da Microsoft | Software cliente Microsoft 365 | Servidores e clientes locais | software de terceiros e personalizado
+Capacidade de resposta | Serviço de área de trabalho gerenciada da Microsoft | Software cliente Microsoft 365 | Servidores e clientes locais | software de terceiros e personalizado
 ----- | ----- | ----- | ----- | -----
 Fornecer nova funcionalidade | Microsoft | Microsoft | Ambos | Cliente
 Testar novos recursos para o controle de qualidade |  Microsoft | Microsoft | Ambos | Cliente
@@ -72,7 +72,7 @@ Nem todas as alterações têm o mesmo impacto sobre os usuários ou exigem aç�
 **Requer ação de administração global** | Às vezes |  Raramente |    Raramente 
 **Tipo de ação** | Alterar configurações | Comunicar alterações aos usuários | Alterar configurações de administração     
 **Requer testes** | Verificar aplicativos de negócios, incluindo serviços de acesso remoto |  Às vezes – testando a correção em relação a processos ou personalizações |   Raramente 
-**Exemplos de alteração** | – Atualizações de recursos: portal de administração de ti simplificado envio e análise de tíquete de suporte<br>– Novos recursos ou aplicativos: lançamento semestral de uma atualização de recurso do Windows 10 | Hotfixes baseados em bugs relatados pelo cliente |  
+**Exemplos de alteração** | – Atualizações de recursos: portal de administração de ti simplificado envio e análise de tíquete de suporte<br>– Novos recursos ou aplicativos: Semi-Annual lançamento de uma atualização de recurso do Windows 10 | Hotfixes baseados em bugs relatados pelo cliente |  
 
 
 ## <a name="standard-operating-procedures"></a>Procedimentos operacionais padrão
@@ -89,7 +89,7 @@ Grupos de dispositivos | – Implemente e gerencie a associação de dispositivo
 Políticas |  – Implemente e gerencie as políticas de área de trabalho gerenciada da Microsoft que regem o estado de configuração dos dispositivos no serviço.<br>– Implantar atualizações, política ou janelas, usando grupos de dispositivos de forma incremental.<br> -Excluir explicitamente os grupos de área de trabalho gerenciada não Microsoft de direcionamento. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>-Não edite ou atribua políticas de área de trabalho gerenciada da Microsoft a dispositivos ou usuários não gerenciados pelo serviço de área de trabalho gerenciada da Microsoft.
 Proteção avançada contra ameaças do Microsoft Defender   | Monitore e investigue os dispositivos dentro do escopo do serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>-Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas
 Microsoft Store para empresas |  Configurar e manter o perfil do Windows AutoPilot para o serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>-Não modifique a configuração do perfil do Microsoft AutoPilot da área de trabalho gerenciada do Windows ou adicione/remova dispositivos atribuídos.
-Certificados | | -Criar uma solicitação de suporte 60 dias antes da expiração de um certificado, solicitando informações para uma alteração de configuração planejada, incluindo detalhes da configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Atualizar todos os certificados necessários para configurar perfis de certificado, perfis VPN e perfis Wi-Fi.
+Certificados | | -Criar uma solicitação de suporte 60 dias antes da expiração de um certificado, solicitando informações para uma alteração de configuração planejada, incluindo detalhes da configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Atualizar todos os certificados necessários para configurar perfis de certificado, perfis VPN e perfis de Wi-Fi.
 
 
 

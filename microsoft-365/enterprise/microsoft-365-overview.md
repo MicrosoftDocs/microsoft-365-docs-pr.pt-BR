@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: d34ddd9b577f4baff4ebb77f84f48bf2b779c93c
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 0cee9752ae21e08831b6a3df856452a7ca6aec71
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487147"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655964"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -75,13 +75,11 @@ Você também pode [baixar uma cópia do pôster](https://github.com/MicrosoftDo
 
 ## <a name="transition-your-entire-organization"></a>Transição para toda a organização
 
-Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 para empresas, consulte o [pôster de transição](../downloads/transition-org-to-m365.pdf).
+Para ter uma ideia melhor de como migrar toda a organização para os produtos e serviços do Microsoft 365 para empresas, consulte o [pôster de transição](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf).
 
-[![Imagem do pôster de Transição para o Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
+[![Imagem do pôster de Transição para o Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
 Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da infraestrutura existente. Ele ajuda você a encontrar orientação e a migrar para o produto ou serviço correspondente no Microsoft 365 para empresas. Ele inclui produtos do Windows e do Office, além de outros elementos de infraestrutura e segurança, como gerenciamento de dispositivo, identidade, proteção contra ameaças e informações sobre elas.
-
-Você também pode [baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf) e imprimir em formatos de carta, oficial ou tablóide (11x17).
 
 ## <a name="end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Fim do suporte para clientes e servidores do Windows 7 e Office 2010
 

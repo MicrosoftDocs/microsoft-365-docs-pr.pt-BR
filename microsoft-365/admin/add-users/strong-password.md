@@ -1,5 +1,5 @@
 ---
-title: Definir um requisito de senha forte para os usuários
+title: Desative os requisitos de senha forte para os usuários
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como definir os requisitos de senha forte para seus usuários, usando o Windows PowerShell.
-ms.openlocfilehash: 9f6fd61396d99245ffeabf757d3cb65c5d5cb85e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f9a0b76d024cc18552657144e4ccf8de8a72f0d9
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646614"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655730"
 ---
-# <a name="set-strong-password-requirement-for-users"></a>Definir um requisito de senha forte para os usuários
+# <a name="turn-off-strong-password-requirements-for-users"></a>Desative os requisitos de senha forte para os usuários
 
 Este artigo explica como desativar os requisitos de senha forte para os seus usuários. Os requisitos de senha forte são ativados por padrão na sua organização do Microsoft 365 for Business. Sua organização pode ter requisitos para desabilitar senhas fortes. Siga as etapas abaixo para desativar os requisitos de senha forte. Você precisa concluir estas etapas usando o PowerShell.
 

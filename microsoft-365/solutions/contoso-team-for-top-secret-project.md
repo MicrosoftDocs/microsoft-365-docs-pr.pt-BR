@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso usou uma equipe com isolamento de segurança para um projeto de segredo principal para desenvolver um novo pacote de produtos e serviços.'
-ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: b8794502afcb77a8e597a1b05dfc92acd093f23a
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399484"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656058"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Equipe isolada para um projeto de segredo superior da Contoso Corporation
 
@@ -77,7 +77,7 @@ Como canais privados para o projeto 2X foram criados, o proprietário do grupo d
 
 Veja a seguir a configuração resultante da equipe do projeto 2X com isolamento de segurança.
 
-![A configuração resultante da equipe do projeto 2X](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project.png)
+![A configuração resultante da equipe do projeto 2X](../media/contoso-team-for-top-secret-project.png)
 
  ## <a name="step-4-trained-project-2x-team-members"></a>Etapa 4: projeto treinado 2 membros da equipe
 
@@ -92,7 +92,7 @@ O resultado final era um ambiente seguro no qual o projeto 2X membros da equipe 
 
 Veja a seguir um exemplo de um arquivo armazenado no site subjacente do projeto 2 com o rótulo de sensibilidade do projeto 2 atribuído.
 
-![Um exemplo de um arquivo armazenado no site subjacente do projeto 2](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project-example.png)
+![Um exemplo de um arquivo armazenado no site subjacente do projeto 2](../media/contoso-team-for-top-secret-project-example.png)
 
 Em alguns casos, o Project 2X os membros da equipe baixaram arquivos protegidos pelo rótulo Project 2X para uma unidade local para trabalho offline. 
 
