@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sirkkuw
 author: sirkkuw
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Standard.
-ms.openlocfilehash: cfc198c749cfcaa76bc3fa6323e1dba8a46e7388
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: e69a3c75d77a8b4721558e72526a068df643f284
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324441"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644550"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Configurar o Microsoft Business Standard
 
@@ -40,7 +40,7 @@ Assista a um vídeo curto sobre como configurar o Microsoft 365 Business Standar
 
 Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
- *Estas etapas são para empresas e [entidades sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) que têm o **[Plano padrão de negócios da Microsoft 365 Business Standard.](https://go.microsoft.com/fwlink/p/?LinkId=627220)***
+ *Essas etapas são para empresas e [ atividades sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) que possuam o **[Plano Microsoft 365 Business Standard.](https://go.microsoft.com/fwlink/p/?LinkId=627220)**_
 
 Assista a um vídeo curto sobre como configurar o Microsoft 365 Business Standard (antes conhecido como Office 365 Business Premium).<br><br>
 
@@ -56,7 +56,7 @@ Ao comprar o Microsoft 365 Business Standard, você tem a opção de usar um dom
 
 1. Acesse [Centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de administrador global. 
 
-2. Clique em **Ir para a Configuração** pra iniciar o assistente.
+2. Escolha _*Vá para a instalação** para iniciar o assistente.
 
 3. Na página **Instalar aplicativos do Office**, você pode, opcionalmente, instalar os aplicativos no seu próprio computador.
     

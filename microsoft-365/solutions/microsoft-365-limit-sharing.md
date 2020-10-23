@@ -18,12 +18,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Saiba mais sobre as opções para limitar ou desabilitar o compartilhamento no Microsoft 365.
-ms.openlocfilehash: 7397078b6f347858e4ca91a0deeb9a1cf2fb6911
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: 7ed9cc499e16de835c6ba96eb19bcc28a144b68b
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361900"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651413"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Limitar o compartilhamento no Microsoft 365
 
@@ -64,7 +64,7 @@ Para desativar o compartilhamento de convidados para o Teams
 Se você quiser impedir o acesso de convidado em grupos do Microsoft 365, é possível desativar as configurações de acesso de convidado do grupo no Centro de administração do Microsoft 365.
 
 Para desativar o compartilhamento de convidados no Microsoft 365 Groups
-1. No centro de administração do Microsoft 365, clique em **Configurações**e em **Configurações**.
+1. No Centro de administração do Microsoft 365, clique em **Configurações** e depois clique em **Configurações da Organização**.
 2. Na guia **Serviços**, clique em **Microsoft 365 Groups**.
 3. Desmarque as caixas de seleções **Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo**e **Permita que os proprietários de grupos adicionem pessoas de fora da sua organização a grupos**.
 4. Clique em **Salvar alterações**.

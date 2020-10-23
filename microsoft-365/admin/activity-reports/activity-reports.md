@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: e1748cf25fd36787727b0f00f6ddf6553bd454ab
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 4356b287afa56201da7cb644a4056d4c975964e5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104439"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637002"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -102,15 +102,23 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
   
 - [Grupos do Microsoft 365](office-365-groups.md)
   
-- [Atividade de usuários do OneDrive for Business](onedrive-for-business-activity.md)
-  
-- [Uso do OneDrive for Business](onedrive-for-business-usage.md)
+- [Atividade de usuários do OneDrive for Business](onedrive-for-business-activity-ww.md)
+
+- [OneDrive for Business para atividades de usuários do Governo dos EUA](onedrive-for-business-activity.md)
+
+- [Uso do OneDrive for Business](onedrive-for-business-usage-ww.md)
+
+- [Utilização do OneDrive for Business pelo Governo dos EUA](onedrive-for-business-usage.md)
 
 - [Uso dos Aplicativos do Microsoft 365](microsoft365-apps-usage.md)
   
-- [Uso do site do SharePoint](sharepoint-site-usage.md)
+- [Uso do site do SharePoint](sharepoint-site-usage-ww.md)
+
+- [Utilização do site do SharePoint pelo Governo dos EUA](sharepoint-site-usage.md)
   
-- [Atividade do SharePoint](sharepoint-activity.md)
+- [Atividade do SharePoint](sharepoint-activity-ww.md)
+
+- [Atividade do SharePoint para o Governo dos EUA](sharepoint-activity.md)
   
 - [Atividade do Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
