@@ -269,6 +269,10 @@
       items:
         - name: Adicionar um domínio
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+    - name: Gerenciar
+      items:
+        - name: Status de integridade do serviço Microsoft 365
+          href: microsoft-365-service-health.md
         - name: Guias de configuração
           href: setup-guides-for-microsoft-365.md
     - name: Vários locatários
@@ -571,7 +575,7 @@
               href: view-user-accounts-with-microsoft-365-powershell.md
             - name: Configurar propriedades
               href: configure-user-account-properties-with-microsoft-365-powershell.md
-            - name: Atribuir funções
+            - name: Atribuir funções de administrador
               href: assign-roles-to-user-accounts-with-microsoft-365-powershell.md
             - name: Excluir e restaurar
               href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
@@ -719,8 +723,6 @@
       href: contoso-info-protect.md
     - name: Resumo de segurança
       href: contoso-security-summary.md
-- name: Status de integridade do serviço Microsoft 365
-  href: microsoft-365-service-health.md
 - name: Conformidade do Microsoft 365
   href: ../compliance/index.yml
 - name: Segurança do Microsoft 365

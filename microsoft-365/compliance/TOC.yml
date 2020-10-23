@@ -238,6 +238,8 @@
           href: create-test-tune-dlp-policy.md
         - name: Usar notificações e dicas de política em políticas DLP
           href: use-notifications-and-policy-tips.md
+        - name: Configurar e visualizar alertas para políticas DLP (pré-visualização)
+          href: dlp-configure-view-alerts-policies.md
         - name: O que os modelos de política de DLP incluem
           href: what-the-dlp-policy-templates-include.md
         - name: Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
