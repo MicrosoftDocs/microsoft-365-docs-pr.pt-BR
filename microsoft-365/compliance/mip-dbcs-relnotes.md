@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Notas de versão para suporte a conjuntos de caracteres de dois bytes.
-ms.openlocfilehash: 13bac873f2ba18bc166451ea73ec0d569fb30f68
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1c2244c49a92aa2c00fad06caa8194cf7e32220e
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695227"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681497"
 ---
 # <a name="support-for-double-byte-character-set-release-notes-preview"></a>Suporte para as notas de versão do conjunto de caracteres de dois bytes (visualização)
 
@@ -29,15 +29,6 @@ ms.locfileid: "46695227"
 - Chinês (tradicional)
 - Coreano
 - Japonês
-
-Esta visualização está apenas na nuvem comercial e a implementação está limitada para:
-
-- Japão
-- Coreia
-- China
-- Hong Kong
-- Macau
-- Taiwan
 
 Esse suporte está disponível para tipos de informações confidenciais e dicionários de palavras-chave, e será refletido em soluções de prevenção de perda de dados, de conformidade de comunicações, do Exchange Online, do SharePoint Online, do OneDrive for Business e do Teams.
 

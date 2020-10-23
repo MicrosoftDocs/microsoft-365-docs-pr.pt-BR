@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda as etapas básicas para criar um dicionário de palavras-chave no Centro de Segurança e Conformidade do Office 365.
-ms.openlocfilehash: 7fe425a1f8ac954c6c24752927b218fc7e6f37c7
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: e6f6043efd4c5f38b7e9fa2a92c4fcb7ceb91e45
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547005"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681631"
 ---
 # <a name="create-a-keyword-dictionary"></a>Criar um dicionário de palavras-chave
 
@@ -35,14 +35,6 @@ A DLP (prevenção contra perda de dados) pode identificar, monitorar e proteger
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
-> 
->Esta visualização está apenas na nuvem comercial e a implementação está limitada para:
-> - Japão
-> - Coreia
-> - China
-> - Hong Kong
-> - Macau
-> - Taiwan
 >
 >Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
 

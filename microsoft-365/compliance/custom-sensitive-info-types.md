@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Obtenha uma visão geral dos tipos de informações confidenciais personalizados para a prevenção contra perda de dados (DLP), como o padrão principal, a proximidade de caractere e o nível de confiança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d21d0be23847a8fbd27b6082ca28cdca2d4eed05
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: e414d9a31869e9b1382f0713d6d70df745c41471
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379177"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681759"
 ---
 # <a name="custom-sensitive-information-types"></a>Tipos de informações confidenciais personalizadas
 
@@ -64,14 +64,6 @@ Para criar tipos de informações confidenciais personalizadas no Centro de Conf
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
-> 
->Esta visualização está apenas na nuvem comercial e a implementação está limitada para:
-> - Japão
-> - Coreia
-> - China
-> - Hong Kong
-> - Macau
-> - Taiwan
->
+
 >Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
 

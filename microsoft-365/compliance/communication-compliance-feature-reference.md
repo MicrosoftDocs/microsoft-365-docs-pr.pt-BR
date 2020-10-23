@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4ede013a1c9a9bd054fc6965cbb12b5bbabb0b5e
-ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
+ms.openlocfilehash: c1ef7a765f61ee2231fd99c47f076855225de3fb
+ms.sourcegitcommit: 31f25790b37dfb740530017ef1701db0c5134829
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48651403"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48740255"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -183,7 +183,7 @@ Conformidade de comunicação internas e classificadores globais verificam as co
 
 Os classificadores de imagem *adulto*, *Racy*e *Gory* verificam arquivos. JPEG,. PNG,. GIF e. Formatos BMP. O tamanho dos arquivos de imagem deve ser menor do que 4 megabytes (MB) e as dimensões das imagens devem ser maiores que 50x50 pixels e maior que 50 kilobytes (KB) para que a imagem seja qualificada para avaliação. A identificação de imagem é compatível com as mensagens de email do Exchange Online e os canais e chats do Microsoft Teams.
 
-Os classificadores internos e informativos globais não oferecem uma lista abrangente de termos ou imagens nessas áreas. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar os classificadores a seu critério. Embora os classificadores possam ajudar sua organização a monitorar essas áreas, os classificadores não são destinados a fornecer o único meio de monitoramento ou endereçamento desses idiomas ou imagens. Sua organização, não a Microsoft, permanece responsável por todas as decisões relacionadas a imagens e idiomas de verificação e bloqueio nessas áreas.
+Os classificadores internos e informativos globais não oferecem uma lista abrangente de termos ou imagens nessas áreas. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar os classificadores a seu critério. Embora os classificadores possam ajudar sua organização a monitorar essas áreas, os classificadores não são destinados a fornecer o único meio de monitoramento ou endereçamento desses idiomas ou imagens. Sua organização, não a Microsoft, permanece responsável por todas as decisões relacionadas ao monitoramento, verificação e bloqueio de idioma e imagens nessas áreas, incluindo conformidade com privacidade local e outras leis aplicáveis. A Microsoft incentiva consultoria com assessoria jurídica antes da implantação e do uso.
 
 Para obter informações sobre classificadores estagiários no Microsoft 365, confira [introdução aos classificadores estagiários](classifier-get-started-with.md).
 

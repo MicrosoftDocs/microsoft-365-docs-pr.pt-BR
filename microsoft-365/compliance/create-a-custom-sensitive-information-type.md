@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP na interface gráfica do usuário, no Centro de Conformidade e Segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c54cd9d4969c87bbd83b3048883d8a84dd9bc59
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 59d16ed662ff1b577bbb6c8388c5d27836832c1f
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686655"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681717"
 ---
 <!-- rename md file to match the display name -->
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança
@@ -39,14 +39,6 @@ Também é possível criar tipos personalizados de informações confidenciais u
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
-> 
->Esta visualização está apenas na nuvem comercial e a implementação está limitada para:
-> - Japão
-> - Coreia 
-> - China
-> - Hong Kong
-> - Macau
-> - Taiwan
 >
 >Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
 
