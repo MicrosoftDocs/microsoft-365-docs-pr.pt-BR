@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,108 +20,108 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Saiba como criar e excluir os grupos do Microsoft 365, adicionar e remover membros do grupo e personalizar como o grupo funciona.
-ms.openlocfilehash: f6023188df1ae796badbf05b85ebaa1afdd914e5
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 9d836e8bb3af297e972c4f252808c551b349fb67
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780440"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753284"
 ---
-# <a name="create-a-group-in-the-microsoft-365-admin-center"></a><span data-ttu-id="2c9ee-103">Criar um grupo no centro de administração do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2c9ee-103">Create a group in the Microsoft 365 admin center</span></span>
+# <a name="create-a-group-in-the-microsoft-365-admin-center"></a><span data-ttu-id="98cb2-103">Criar um grupo no centro de administração do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="98cb2-103">Create a group in the Microsoft 365 admin center</span></span>
   
-<span data-ttu-id="2c9ee-104">Embora os usuários possam criar um grupo do Microsoft 365 do Outlook ou de outros aplicativos, como administrador, talvez seja necessário criar ou excluir grupos, adicionar ou remover membros e personalizar o modo como eles funcionam.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-104">While users can create a Microsoft 365 group from Outlook or other apps, as an admin, you may need to create or delete groups, add or remove members, and customize how they work.</span></span> <span data-ttu-id="2c9ee-105">O centro de administração do Microsoft 365 é o local para fazer isso.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-105">The Microsoft 365 admin center is the place to do this.</span></span> 
+<span data-ttu-id="98cb2-104">Embora os usuários possam criar um grupo do Microsoft 365 do Outlook ou de outros aplicativos, como administrador, talvez seja necessário criar ou excluir grupos, adicionar ou remover membros e personalizar o modo como eles funcionam.</span><span class="sxs-lookup"><span data-stu-id="98cb2-104">While users can create a Microsoft 365 group from Outlook or other apps, as an admin, you may need to create or delete groups, add or remove members, and customize how they work.</span></span> <span data-ttu-id="98cb2-105">O centro de administração do Microsoft 365 é o local para fazer isso.</span><span class="sxs-lookup"><span data-stu-id="98cb2-105">The Microsoft 365 admin center is the place to do this.</span></span> 
 
 > [!TIP]
-> <span data-ttu-id="2c9ee-106">Os grupos do Yammer conectados ao Microsoft 365 devem ser criados no Yammer, mas podem ser gerenciados no centro de administração do Microsoft 365, como outros grupos do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-106">Microsoft 365 connected Yammer groups must be created in Yammer, but can be managed in the Microsoft 365 admin center like other Microsoft 365 groups.</span></span> <span data-ttu-id="2c9ee-107">Para saber mais, consulte [Yammer e Microsoft 365 grupos](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups).</span><span class="sxs-lookup"><span data-stu-id="2c9ee-107">To learn more, see [Yammer and Microsoft 365 groups](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups).</span></span> 
+> <span data-ttu-id="98cb2-106">Os grupos do Yammer conectados ao Microsoft 365 devem ser criados no Yammer, mas podem ser gerenciados no centro de administração do Microsoft 365, como outros grupos do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="98cb2-106">Microsoft 365 connected Yammer groups must be created in Yammer, but can be managed in the Microsoft 365 admin center like other Microsoft 365 groups.</span></span> <span data-ttu-id="98cb2-107">Para saber mais, consulte [Yammer e Microsoft 365 grupos](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups).</span><span class="sxs-lookup"><span data-stu-id="98cb2-107">To learn more, see [Yammer and Microsoft 365 groups](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups).</span></span> 
 
-## <a name="create-a-microsoft-365-group"></a><span data-ttu-id="2c9ee-108">Criar um grupo do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2c9ee-108">Create a Microsoft 365 group</span></span>
+## <a name="create-a-microsoft-365-group"></a><span data-ttu-id="98cb2-108">Criar um grupo do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="98cb2-108">Create a Microsoft 365 group</span></span>
 
-1. <span data-ttu-id="2c9ee-109">No centro de administração, expanda **grupos**e clique em **grupos**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-109">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="98cb2-109">No centro de administração, expanda **grupos**e clique em **grupos**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-109">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="2c9ee-110">Selecione **Adicionar um grupo**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-110">Select **Add a group**.</span></span>
+2. <span data-ttu-id="98cb2-110">Selecione **Adicionar um grupo**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-110">Select **Add a group**.</span></span>
   
-3. <span data-ttu-id="2c9ee-111">Na página **escolher um tipo de grupo** , selecione **Office 365**e selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-111">On the **Choose a group type** page, select **Office 365**, and select **Next**.</span></span>
+3. <span data-ttu-id="98cb2-111">Na página **escolher um tipo de grupo** , selecione **Office 365**e selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-111">On the **Choose a group type** page, select **Office 365**, and select **Next**.</span></span>
 
-4. <span data-ttu-id="2c9ee-112">Na página **noções básicas** , digite um nome para o grupo e, opcionalmente, uma descrição.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-112">On the **Basics** page, type a name for the group, and, optionally, a description.</span></span> <span data-ttu-id="2c9ee-113">Selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-113">Select **Next**.</span></span>
+4. <span data-ttu-id="98cb2-112">Na página **noções básicas** , digite um nome para o grupo e, opcionalmente, uma descrição.</span><span class="sxs-lookup"><span data-stu-id="98cb2-112">On the **Basics** page, type a name for the group, and, optionally, a description.</span></span> <span data-ttu-id="98cb2-113">Selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-113">Select **Next**.</span></span>
     
-5. <span data-ttu-id="2c9ee-114">Na página **Editar configurações** , digite um endereço de email exclusivo para o grupo, escolha uma opção de privacidade e se você deseja adicionar o Microsoft Teams e, em seguida, selecione**Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-114">On the **Edit settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then select**Next**.</span></span>
+5. <span data-ttu-id="98cb2-114">Na página **Editar configurações** , digite um endereço de email exclusivo para o grupo, escolha uma opção de privacidade e se você deseja adicionar o Microsoft Teams e, em seguida, selecione**Avançar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-114">On the **Edit settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then select**Next**.</span></span>
     
-6. <span data-ttu-id="2c9ee-115">Nos **proprietários** , escolha o nome de uma ou mais pessoas que serão designadas para gerenciar o grupo.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-115">On the **Owners** choose the name of one or more people who will be designated to manage the group.</span></span> <span data-ttu-id="2c9ee-116">Qualquer pessoa que for proprietária de um grupo poderá excluir emails da caixa de entrada do Grupo.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-116">Anyone who is a group owner will be able to delete email from the Group inbox.</span></span> <span data-ttu-id="2c9ee-117">Outros membros não poderão excluir emails da caixa de entrada do Grupo.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-117">Other members won't be able to delete email from the Group inbox.</span></span> <span data-ttu-id="2c9ee-118">Selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-118">Select **Next**.</span></span>
+6. <span data-ttu-id="98cb2-115">Nos **proprietários** , escolha o nome de uma ou mais pessoas que serão designadas para gerenciar o grupo.</span><span class="sxs-lookup"><span data-stu-id="98cb2-115">On the **Owners** choose the name of one or more people who will be designated to manage the group.</span></span> <span data-ttu-id="98cb2-116">Qualquer pessoa que for proprietária de um grupo poderá excluir emails da caixa de entrada do Grupo.</span><span class="sxs-lookup"><span data-stu-id="98cb2-116">Anyone who is a group owner will be able to delete email from the Group inbox.</span></span> <span data-ttu-id="98cb2-117">Outros membros não poderão excluir emails da caixa de entrada do Grupo.</span><span class="sxs-lookup"><span data-stu-id="98cb2-117">Other members won't be able to delete email from the Group inbox.</span></span> <span data-ttu-id="98cb2-118">Selecione **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-118">Select **Next**.</span></span>
     
-7. <span data-ttu-id="2c9ee-119">Após revisar suas configurações e fazer qualquer alteração, selecione **Criar grupo**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-119">After reviewing your settings and making any changes, select **Create group**.</span></span>
+7. <span data-ttu-id="98cb2-119">Após revisar suas configurações e fazer qualquer alteração, selecione **Criar grupo**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-119">After reviewing your settings and making any changes, select **Create group**.</span></span>
 
-8. <span data-ttu-id="2c9ee-120">Selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-120">Select **Close**.</span></span>
+8. <span data-ttu-id="98cb2-120">Selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-120">Select **Close**.</span></span>
     
-## <a name="add-members-to-the-group"></a><span data-ttu-id="2c9ee-121">Adicionar membros ao grupo</span><span class="sxs-lookup"><span data-stu-id="2c9ee-121">Add members to the group</span></span>
+## <a name="add-members-to-the-group"></a><span data-ttu-id="98cb2-121">Adicionar membros ao grupo</span><span class="sxs-lookup"><span data-stu-id="98cb2-121">Add members to the group</span></span>
 
-<span data-ttu-id="2c9ee-122">Depois que o grupo é criado, você pode adicionar membros e definir configurações adicionais.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-122">Once the group has been created, you can add members and configure additional settings.</span></span>
+<span data-ttu-id="98cb2-122">Depois que o grupo é criado, você pode adicionar membros e definir configurações adicionais.</span><span class="sxs-lookup"><span data-stu-id="98cb2-122">Once the group has been created, you can add members and configure additional settings.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-<span data-ttu-id="2c9ee-123">Os usuários podem [Adicionar a si mesmos ou solicitar aprovação](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), ou você pode adicioná-los agora.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-123">Users can [add themselves or request approval](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), or you can add them now.</span></span>
+<span data-ttu-id="98cb2-123">Os usuários podem [Adicionar a si mesmos ou solicitar aprovação](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), ou você pode adicioná-los agora.</span><span class="sxs-lookup"><span data-stu-id="98cb2-123">Users can [add themselves or request approval](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), or you can add them now.</span></span>
 
-1. <span data-ttu-id="2c9ee-124">No centro de administração, atualize a página para que o novo grupo seja exibido e selecione o nome do grupo ao qual você deseja adicionar membros.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-124">In the admin center, refresh the page so your new group appears, and then select the name of the group that you want to add members to.</span></span>
+1. <span data-ttu-id="98cb2-124">No centro de administração, atualize a página para que o novo grupo seja exibido e selecione o nome do grupo ao qual você deseja adicionar membros.</span><span class="sxs-lookup"><span data-stu-id="98cb2-124">In the admin center, refresh the page so your new group appears, and then select the name of the group that you want to add members to.</span></span>
     
-2. <span data-ttu-id="2c9ee-125">Na guia **Membros** , selecione **Exibir todos e gerenciar Membros**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-125">On the **Members** tab, select **View all and manage members**.</span></span>
+2. <span data-ttu-id="98cb2-125">Na guia **Membros** , selecione **Exibir todos e gerenciar Membros**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-125">On the **Members** tab, select **View all and manage members**.</span></span>
 
-3. <span data-ttu-id="2c9ee-126">Escolha **Adicionar membros**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-126">Select **Add members**.</span></span>
+3. <span data-ttu-id="98cb2-126">Escolha **Adicionar membros**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-126">Select **Add members**.</span></span>
     
-4. <span data-ttu-id="2c9ee-127">Selecione os usuários que você deseja adicionar e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-127">Select the users you want to add, and then select **Save**.</span></span>
+4. <span data-ttu-id="98cb2-127">Selecione os usuários que você deseja adicionar e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-127">Select the users you want to add, and then select **Save**.</span></span>
     
-5. <span data-ttu-id="2c9ee-128">Selecione **Fechar** três vezes.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-128">Select **Close** three times.</span></span> 
+5. <span data-ttu-id="98cb2-128">Selecione **Fechar** três vezes.</span><span class="sxs-lookup"><span data-stu-id="98cb2-128">Select **Close** three times.</span></span> 
     
-<span data-ttu-id="2c9ee-129">O grupo será exibido no Outlook com membros atribuídos a ele.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-129">The group will appear in Outlook with members assigned to it.</span></span>
+<span data-ttu-id="98cb2-129">O grupo será exibido no Outlook com membros atribuídos a ele.</span><span class="sxs-lookup"><span data-stu-id="98cb2-129">The group will appear in Outlook with members assigned to it.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<span data-ttu-id="2c9ee-130">Os usuários podem [Adicionar a si mesmos ou solicitar aprovação](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), ou você pode adicioná-los agora.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-130">Users can [add themselves or request approval](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), or you can add them now.</span></span>
-1. <span data-ttu-id="2c9ee-131">No centro de administração, atualize a página para que o novo grupo seja exibido, selecione **grupos** \> e <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">grupos</a>e, em seguida, selecione o grupo ao qual você deseja adicionar membros.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-131">In the admin center, refresh the page so your new group appears, select **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a>, and then select the group that you want to add members to.</span></span>
+<span data-ttu-id="98cb2-130">Os usuários podem [Adicionar a si mesmos ou solicitar aprovação](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), ou você pode adicioná-los agora.</span><span class="sxs-lookup"><span data-stu-id="98cb2-130">Users can [add themselves or request approval](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), or you can add them now.</span></span>
+1. <span data-ttu-id="98cb2-131">No centro de administração, atualize a página para que o novo grupo seja exibido, selecione **grupos** \> e <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">grupos</a>e, em seguida, selecione o grupo ao qual você deseja adicionar membros.</span><span class="sxs-lookup"><span data-stu-id="98cb2-131">In the admin center, refresh the page so your new group appears, select **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a>, and then select the group that you want to add members to.</span></span>
     
-2. <span data-ttu-id="2c9ee-132">Ao lado de **Membros**, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-132">Next to **Members**, select **Edit**.</span></span>
-3. <span data-ttu-id="2c9ee-133">Escolha **Adicionar membros**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-133">Select **Add members**.</span></span>
+2. <span data-ttu-id="98cb2-132">Ao lado de **Membros**, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-132">Next to **Members**, select **Edit**.</span></span>
+3. <span data-ttu-id="98cb2-133">Escolha **Adicionar membros**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-133">Select **Add members**.</span></span>
     
-4. <span data-ttu-id="2c9ee-134">Selecione os usuários que você deseja adicionar e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-134">Select the users you want to add, and then select **Save**.</span></span>
+4. <span data-ttu-id="98cb2-134">Selecione os usuários que você deseja adicionar e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-134">Select the users you want to add, and then select **Save**.</span></span>
     
-5. <span data-ttu-id="2c9ee-135">Selecione **Fechar** três vezes.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-135">Select **Close** three times.</span></span> 
+5. <span data-ttu-id="98cb2-135">Selecione **Fechar** três vezes.</span><span class="sxs-lookup"><span data-stu-id="98cb2-135">Select **Close** three times.</span></span> 
     
-<span data-ttu-id="2c9ee-136">O grupo será exibido no Outlook com membros atribuídos a ele.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-136">The group will appear in Outlook with members assigned to it.</span></span>
+<span data-ttu-id="98cb2-136">O grupo será exibido no Outlook com membros atribuídos a ele.</span><span class="sxs-lookup"><span data-stu-id="98cb2-136">The group will appear in Outlook with members assigned to it.</span></span>
   
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<span data-ttu-id="2c9ee-137">Os usuários podem [Adicionar a si mesmos ou solicitar aprovação](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), ou você pode adicioná-los agora.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-137">Users can [add themselves or request approval](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), or you can add them now.</span></span>
-1. <span data-ttu-id="2c9ee-138">No centro de administração, atualize a página para que o novo grupo seja exibido, selecione **grupos** \> e <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">grupos</a>e, em seguida, selecione o grupo ao qual você deseja adicionar membros.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-138">In the admin center, refresh the page so your new group appears, select **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a>, and then select the group that you want to add members to.</span></span>
+<span data-ttu-id="98cb2-137">Os usuários podem [Adicionar a si mesmos ou solicitar aprovação](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), ou você pode adicioná-los agora.</span><span class="sxs-lookup"><span data-stu-id="98cb2-137">Users can [add themselves or request approval](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), or you can add them now.</span></span>
+1. <span data-ttu-id="98cb2-138">No centro de administração, atualize a página para que o novo grupo seja exibido, selecione **grupos** \> e <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">grupos</a>e, em seguida, selecione o grupo ao qual você deseja adicionar membros.</span><span class="sxs-lookup"><span data-stu-id="98cb2-138">In the admin center, refresh the page so your new group appears, select **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a>, and then select the group that you want to add members to.</span></span>
     
-2. <span data-ttu-id="2c9ee-139">Ao lado de **Membros**, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-139">Next to **Members**, select **Edit**.</span></span>
-3. <span data-ttu-id="2c9ee-140">Escolha **Adicionar membros**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-140">Select **Add members**.</span></span>
+2. <span data-ttu-id="98cb2-139">Ao lado de **Membros**, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-139">Next to **Members**, select **Edit**.</span></span>
+3. <span data-ttu-id="98cb2-140">Escolha **Adicionar membros**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-140">Select **Add members**.</span></span>
     
-4. <span data-ttu-id="2c9ee-141">Selecione os usuários que você deseja adicionar e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-141">Select the users you want to add, and then select **Save**.</span></span>
+4. <span data-ttu-id="98cb2-141">Selecione os usuários que você deseja adicionar e, em seguida, selecione **salvar**.</span><span class="sxs-lookup"><span data-stu-id="98cb2-141">Select the users you want to add, and then select **Save**.</span></span>
     
-5. <span data-ttu-id="2c9ee-142">Selecione **Fechar** três vezes.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-142">Select **Close** three times.</span></span> 
+5. <span data-ttu-id="98cb2-142">Selecione **Fechar** três vezes.</span><span class="sxs-lookup"><span data-stu-id="98cb2-142">Select **Close** three times.</span></span> 
     
-<span data-ttu-id="2c9ee-143">O grupo será exibido no Outlook com membros atribuídos a ele.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-143">The group will appear in Outlook with members assigned to it.</span></span>
+<span data-ttu-id="98cb2-143">O grupo será exibido no Outlook com membros atribuídos a ele.</span><span class="sxs-lookup"><span data-stu-id="98cb2-143">The group will appear in Outlook with members assigned to it.</span></span>
   
 ::: moniker-end
 
-## <a name="who-can-delete-email-from-the-group-inbox"></a><span data-ttu-id="2c9ee-144">Quem pode excluir emails da caixa de entrada de grupo?</span><span class="sxs-lookup"><span data-stu-id="2c9ee-144">Who can delete email from the Group inbox?</span></span>
+## <a name="who-can-delete-email-from-the-group-inbox"></a><span data-ttu-id="98cb2-144">Quem pode excluir emails da caixa de entrada de grupo?</span><span class="sxs-lookup"><span data-stu-id="98cb2-144">Who can delete email from the Group inbox?</span></span>
 
-<span data-ttu-id="2c9ee-145">O proprietário do Grupo pode excluir todos os emails da Caixa de Entrada do Grupo, independentemente de ter sido o autor inicial.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-145">The Group owner can delete any emails from the Group Inbox, regardless of whether they were the initial author.</span></span>
+<span data-ttu-id="98cb2-145">O proprietário do Grupo pode excluir todos os emails da Caixa de Entrada do Grupo, independentemente de ter sido o autor inicial.</span><span class="sxs-lookup"><span data-stu-id="98cb2-145">The Group owner can delete any emails from the Group Inbox, regardless of whether they were the initial author.</span></span>
   
-<span data-ttu-id="2c9ee-146">Um membro pode excluir uma conversa de email da caixa de entrada de grupo, se ela o iniciou, e apenas o Outlook na Web (clique com o botão direito do mouse no email e, em seguida, escolha **excluir**).</span><span class="sxs-lookup"><span data-stu-id="2c9ee-146">A member can delete an email conversation from the Group inbox if they initiated it, and only using Outlook on the web (right-click the email, then choose **Delete**).</span></span> <span data-ttu-id="2c9ee-147">Não é possível fazer isso no aplicativo Outlook (Outlook 2016).</span><span class="sxs-lookup"><span data-stu-id="2c9ee-147">They can't do it from the Outlook app (Outlook 2016).</span></span>
+<span data-ttu-id="98cb2-146">Um membro pode excluir uma conversa de email da caixa de entrada de grupo, se ela o iniciou, e apenas o Outlook na Web (clique com o botão direito do mouse no email e, em seguida, escolha **excluir**).</span><span class="sxs-lookup"><span data-stu-id="98cb2-146">A member can delete an email conversation from the Group inbox if they initiated it, and only using Outlook on the web (right-click the email, then choose **Delete**).</span></span> <span data-ttu-id="98cb2-147">Não é possível fazer isso no aplicativo Outlook (Outlook 2016).</span><span class="sxs-lookup"><span data-stu-id="98cb2-147">They can't do it from the Outlook app (Outlook 2016).</span></span>
   
-<span data-ttu-id="2c9ee-148">Quando um email é excluído da caixa de correio de grupo, ele não é excluído de nenhuma das caixas de correio pessoais dos membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-148">When an email is deleted from the group mailbox, it is not deleted from any of the group members' personal mailboxes.</span></span>
+<span data-ttu-id="98cb2-148">Quando um email é excluído da caixa de correio de grupo, ele não é excluído de nenhuma das caixas de correio pessoais dos membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="98cb2-148">When an email is deleted from the group mailbox, it is not deleted from any of the group members' personal mailboxes.</span></span>
 
-## <a name="next-step-manage-your-group"></a><span data-ttu-id="2c9ee-149">Próxima etapa: gerenciar seu grupo</span><span class="sxs-lookup"><span data-stu-id="2c9ee-149">Next step: manage your group</span></span>
+## <a name="next-step-manage-your-group"></a><span data-ttu-id="98cb2-149">Próxima etapa: gerenciar seu grupo</span><span class="sxs-lookup"><span data-stu-id="98cb2-149">Next step: manage your group</span></span>
 
-<span data-ttu-id="2c9ee-150">Depois de criar um novo grupo e adicionar membros, você pode configurar seu grupo, como editar o nome ou a descrição do grupo, alterar proprietários ou membros e especificar se os remetentes externos podem enviar por email o grupo e se deseja enviar cópias de conversas de grupo para membros.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-150">After creating a new group and adding members, you can further configure your group, such as editing the group name or description, changing owners or members, and specifying whether external senders can email the group and whether to send copies of group conversations to members.</span></span> <span data-ttu-id="2c9ee-151">Consulte [gerenciar um grupo do Microsoft 365](manage-groups.md) para obter informações.</span><span class="sxs-lookup"><span data-stu-id="2c9ee-151">See [Manage a Microsoft 365 group](manage-groups.md) for information.</span></span>
+<span data-ttu-id="98cb2-150">Depois de criar um novo grupo e adicionar membros, você pode configurar seu grupo, como editar o nome ou a descrição do grupo, alterar proprietários ou membros e especificar se os remetentes externos podem enviar por email o grupo e se deseja enviar cópias de conversas de grupo para membros.</span><span class="sxs-lookup"><span data-stu-id="98cb2-150">After creating a new group and adding members, you can further configure your group, such as editing the group name or description, changing owners or members, and specifying whether external senders can email the group and whether to send copies of group conversations to members.</span></span> <span data-ttu-id="98cb2-151">Consulte [gerenciar um grupo do Microsoft 365](manage-groups.md) para obter informações.</span><span class="sxs-lookup"><span data-stu-id="98cb2-151">See [Manage a Microsoft 365 group](manage-groups.md) for information.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="2c9ee-152">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="2c9ee-152">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="98cb2-152">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="98cb2-152">Related articles</span></span>
 
-[<span data-ttu-id="2c9ee-153">Gerenciar o acesso de convidados aos grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2c9ee-153">Manage guest access to Microsoft 365 groups</span></span>](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[<span data-ttu-id="98cb2-153">Gerenciar o acesso de convidados aos grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="98cb2-153">Manage guest access to Microsoft 365 groups</span></span>](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
-[<span data-ttu-id="2c9ee-154">Escolha o domínio a ser usado ao criar grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2c9ee-154">Choose the domain to use when creating Microsoft 365 groups</span></span>](choose-domain-to-create-groups.md)
+[<span data-ttu-id="98cb2-154">Escolha o domínio a ser usado ao criar grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="98cb2-154">Choose the domain to use when creating Microsoft 365 groups</span></span>](choose-domain-to-create-groups.md)
 
-[<span data-ttu-id="2c9ee-155">Atualizar listas de distribuição para grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2c9ee-155">Upgrade distribution lists to Microsoft 365 groups</span></span>](../manage/upgrade-distribution-lists.md)
+[<span data-ttu-id="98cb2-155">Atualizar listas de distribuição para grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="98cb2-155">Upgrade distribution lists to Microsoft 365 groups</span></span>](../manage/upgrade-distribution-lists.md)

@@ -151,7 +151,7 @@
                       href: mtp/advanced-hunting-best-practices.md
                     - name: Lidar com erros
                       href: mtp/advanced-hunting-errors.md
-                    - name: Limites de serviço
+                    - name: Cotas e parâmetros de uso
                       href: mtp/advanced-hunting-limits.md
                 - name: Estender cobertura de dados
                   href: mtp/advanced-hunting-extend-data.md
