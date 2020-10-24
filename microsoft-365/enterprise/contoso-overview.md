@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,16 +14,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreenda a Contoso Corporation como uma empresa e a estrutura hierárquica de seus escritórios em todo o mundo.
-ms.openlocfilehash: 402c8c1cbb1484d8a0ad2ce4159b90107856167d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b0c00ed5657d914851f28278a2f4cf80660b53b0
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637074"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754263"
 ---
 # <a name="overview-of-contoso-corporation"></a>Visão geral da Contoso Corporation
-
-![A Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 A Contoso Corporation é uma empresa multinacionala em Paris. A empresa é uma organização de manufatura, vendas e suporte com mais de 100.000 produtos.
 
@@ -38,7 +35,7 @@ A Figura 1 mostra o escritório da sede em Paris e o Hub regional e escritórios
  
 A contoso tem três camadas de escritórios:
 
-- Sede
+- Headquarters
 
   A matriz da Contoso é um campus corporativo no outskirts de Paris com dezenas de edifícios para instalações administrativas, de engenharia e de manufatura. Todos os datacenters da Contoso e sua presença na Internet estão hospedados na sede de Paris.
 
@@ -74,7 +71,7 @@ Os arquitetos de ti da Contoso identificaram os seguintes fatores de requisitos 
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba mais](contoso-infra-needs.md) sobre a infraestrutura de ti local da Contoso Corporation e como as necessidades de negócios da empresa são abordadas com o Microsoft 365 para empresas.
+Saiba mais sobre a [infraestrutura de ti local](contoso-infra-needs.md) da Contoso Corporation e como as necessidades de negócios da empresa são abordadas com o Microsoft 365 para empresas.
 
 ## <a name="see-also"></a>Confira também
 

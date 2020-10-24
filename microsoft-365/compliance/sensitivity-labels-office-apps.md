@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5207d0e3e7e6272ab4a498d1cd68ad1fe3865c39
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 238dc5c0b54d09258f2f679bff5467052d3448f3
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309203"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754559"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -59,6 +59,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Fornecer ajuda para um link para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Visualização: [canal beta e canal atual (visualização)](https://office.com/insider)           | 16.42 +     | 2.42 + | 16.0.13328 + | Em revisão |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | [Canal atual](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2003 +) | 16.35 +   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
@@ -76,6 +77,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
 |[Fornecer ajuda para um link para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
 |[Marcar o conteúdo](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
+|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Em revisão                     | Em revisão                 | Em revisão         | Em revisão           | Em revisão               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Em revisão               |
@@ -235,6 +237,27 @@ Os cenários que incluem a aplicação de um rótulo de confidencialidade fora d
 - Segurança no aplicativo na nuvem da Microsoft
 
 Para esses cenários, usando seus aplicativos do Office, um usuário com rotulação interna pode aplicar as marcações de conteúdo do rótulo, removendo ou substituindo temporariamente o rótulo atual e reaplicando o rótulo original.
+
+### <a name="dynamic-markings-with-variables"></a>Marcações dinâmicas com variáveis
+
+> [!IMPORTANT]
+> No momento, nem todos os aplicativos em todas as plataformas dão suporte a marcações de conteúdo dinâmico que você pode especificar para seus cabeçalhos, rodapés e marcas d' água. Para aplicativos que não dão suporte a esse recurso, eles aplicam as marcações como o texto original especificado na configuração do rótulo, em vez de resolver as variáveis.
+> 
+> O cliente de rótulo unificado de proteção de informações do Azure oferece suporte a marcações dinâmicas. Para rotular interno para o Office, Confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) da página.
+
+Ao configurar um rótulo de confidencialidade para marcações de conteúdo, você pode usar as seguintes variáveis na cadeia de caracteres de texto do cabeçalho, rodapé ou marca d' água:
+
+| Variável | Descrição | Exemplo quando o rótulo é aplicado |
+| -------- | ----------- | ------- |
+| `${Item.Label}` | Nome de exibição do rótulo atual | **Geral**|
+| `${Item.Name}` | Nome do arquivo atual ou assunto do email | **Sales.docx** |
+| `${Item.Location}` | O caminho atual e o nome do arquivo do documento ou o assunto do email de um email | **\\\Sales\2020\Q3\Report.docx**|
+| `${User.Name}` | Nome de exibição do usuário atual  | **Richard Simone** |
+| `${User.PrincipalName}` | UPN (nome principal do usuário) do Azure AD do usuário atual | **rsimone \@ contoso.com** |
+| `${Event.DateTime}` | Data e hora atuais para o fuso horário local | **8/10/2020 1:30 PM** |
+
+> [!NOTE]
+> A sintaxe dessas variáveis diferencia maiúsculas de minúsculas.
 
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 

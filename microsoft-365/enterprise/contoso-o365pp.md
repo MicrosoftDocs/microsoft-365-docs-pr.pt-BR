@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa o Microsoft Endpoint Configuration Manager para implantar o Microsoft 365 Apps para Grandes Empresas.
-ms.openlocfilehash: 63993a27f23843fd2d75ef9bf08ae064ec46dc77
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2c02c28ddba7c24592ce09d87bf6f5c9df700a2a
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637158"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754336"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Implantação do Microsoft 365 Apps for enterprise para Contoso
 
@@ -40,7 +39,7 @@ Com base em seus requisitos, a contoso optou por implantar o Windows 10 Enterpri
 - Implantação de pacotes de idiomas inteligentes, incluindo a implantação automática do mesmo idioma do sistema operacional.
 - Um método totalmente compatível e fácil de usar de remover versões existentes do Office de um cliente durante a implantação.
 
-Além do Configuration Manager, a contoso usou o [Readiness Toolkit para suplemento do Office e o VBA](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps), uma ferramenta gratuita da Microsoft, para avaliar problemas de compatibilidade com suas macros e suplementos do Office.
+Além do Configuration Manager, a contoso usava o [Readiness Toolkit para suplementos do Office e VBA](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps), uma ferramenta gratuita da Microsoft, para avaliar problemas de compatibilidade com suas macros e suplementos do Office.
 
 ## <a name="managing-deployment-and-updates"></a>Gerenciando a implantação e atualizações
 
@@ -79,7 +78,7 @@ Aqui está a contoso Microsoft 365 aplicativos para instalação corporativa e a
  
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba](contoso-mdm.md) como a Contoso está usando o Microsoft Intune no Microsoft 365 for Enterprise para gerenciar seus dispositivos e os aplicativos que eles executam em toda a organização.
+Saiba como a Contoso está [usando o Microsoft Intune](contoso-mdm.md) no Microsoft 365 for Enterprise para gerenciar seus dispositivos e os aplicativos que eles executam em toda a organização.
 
 ## <a name="see-also"></a>Confira também
 

@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4bfda869972c5650a99395a5fd16c6ad7ddb4f11
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 4b2c53ee8535c2e99acb83060a2ee04d8f5033db
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48409019"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754511"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 
@@ -38,9 +38,13 @@ Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo d
 
 | Modelo  | Especificações mínimas  | Requisitos adicionais   | Data de aposentadoria |
 |---------|---------|---------|---------|
-| Dell Precision 3530| 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **22 de maio de 2023** |
-| Dell Latitude 5490| 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
-| Dell Latitude 7390 7390 2-in-1/7490 | 256 GB/Intel i5/8 GB de RAM   | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
+|Dell Precision 3530| 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **22 de maio de 2023** |
+|Dell Latitude 5300/5300 2-in-1/5400/5500 | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **1º de junho de 2024**  |
+|Dell Latitude 5490 | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
+|Dell Latitude 7200 2-in-1 | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **1 de maio de 2024** |
+|Dell Latitude 7300/7400/7400 2-in-1 | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **1 de maio de 2024**  |
+|Dell Latitude 7390/7390 2-in-1/7490 | 256 GB/Intel i5/8 GB de RAM   | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
+|Dell OptiPlex 3070 | 128 GB/Intel i3/8 GB de RAM | Nenhum | **1 de maio de 2025**  |
 |HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário  | **15 de fevereiro de 2023** |
 |HP EliteBook 830/840/850 G6| 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário  | **30 de novembro de 2023** |
 |HP elite X2 1013 G3| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS03AV, câmera de infravermelho necessária |**14 de maio de 2023** |

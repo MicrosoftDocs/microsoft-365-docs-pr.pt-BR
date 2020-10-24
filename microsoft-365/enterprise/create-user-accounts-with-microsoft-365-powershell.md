@@ -18,32 +18,36 @@ ms.custom:
 - O365ITProTrain
 - seo-marvel-apr2020
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
-description: Neste artigo, saiba como usar o PowerShell para criar contas de usuário ou várias contas de usuário do Microsoft 365.
-ms.openlocfilehash: aedcc4adba6171a63a5ddaeb87b20150e72b2a76
-ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
+description: Como usar o PowerShell para criar contas de usuário individuais ou múltiplas da Microsoft 365.
+ms.openlocfilehash: d96de72ca3e7c4a439665c3ebf751a8fe25ce572
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48580947"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754205"
 ---
 # <a name="create-microsoft-365-user-accounts-with-powershell"></a>Criar contas de usuário do Microsoft 365 com o PowerShell
 
 *Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
-Você pode usar o PowerShell para Microsoft 365 para criar com eficiência contas de usuário, especialmente várias contas de usuário. Quando você cria contas de usuário no PowerShell, determinadas propriedades de conta são sempre necessárias. Outras propriedades, embora sejam importantes, não são obrigatórias para a criação de contas. Essas propriedades são descritas na tabela a seguir:
+Você pode usar o PowerShell para Microsoft 365 para criar contas de usuário de forma eficiente, incluindo várias contas.
+
+Quando você cria contas de usuário no PowerShell, determinadas propriedades de conta são sempre necessárias. Outras propriedades não são obrigatórias, mas são importantes. Consulte a tabela a seguir.
   
 |**Nome da propriedade**|**Obrigatório?**|**Descrição**|
 |:-----|:-----|:-----|
-|**DisplayName** <br/> |Sim  <br/> |Este é o nome de exibição usado nos serviços do Microsoft 365. Por exemplo, Carlos Lima.  <br/> |
-|**UserPrincipalName** <br/> |Sim  <br/> |Este é o nome da conta usada para entrar nos serviços do Microsoft 365. Por exemplo, carlosl@contoso.onmicrosoft.com.  <br/> |
+|**DisplayName** <br/> |Sim  <br/> |Este é o nome de exibição usado nos serviços do Microsoft 365. Por exemplo, *Carlos Lima*. <br/> |
+|**UserPrincipalName** <br/> |Sim  <br/> |Este é o nome da conta usada para entrar nos serviços do Microsoft 365. Por exemplo, *CalebS \@ contoso.onmicrosoft.com*.  <br/> |
 |**FirstName** <br/> |Não  <br/> ||
 |**LastName** <br/> |Não  <br/> ||
-|**LicenseAssignment** <br/> |Não  <br/> |Este é o plano de licenciamento (também conhecido como o plano de licença ou SKU) a partir do qual uma licença disponível é atribuída à conta de usuário. A licença define os serviços do Microsoft 365 que estão disponíveis para a conta. Não é necessário atribuir uma licença a um usuário quando você cria a conta, mas a conta requer uma licença para acessar os serviços do Microsoft 365. Você tem 30 dias para licenciar a conta de usuário depois de criá-la. |
-|**Password** <br/> |Não  <br/> | Caso não especifique uma senha, nosso sistema atribuirá uma senha aleatória para a conta do usuário e a senha ficará visível nos resultados do comando. Se você especificar uma senha, ela deverá Se você especificar uma senha, ela precisará ter de 8 a 16 caracteres de texto ASCII de qualquer um dos três tipos a seguir: letras minúsculas, letras maiúsculas, números e símbolos. <br/> |
-|**UsageLocation** <br/> |Não  <br/> |Este é um código de país do país 3166-1 alfa-2 válido. Por exemplo, US para os Estados Unidos e FR para a França. **Como alguns serviços do Microsoft 365 não estão disponíveis em determinados países, você não pode atribuir uma licença a uma conta de usuário, a menos que a conta tenha esse valor configurado.** Para obter mais informações, consulte [about License Restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).  <br/> |
+|**LicenseAssignment** <br/> |Não  <br/> |Este é o plano de licenciamento (também conhecido como o plano de licença ou SKU) a partir do qual uma licença disponível é atribuída à conta de usuário. A licença define os serviços do Microsoft 365 que estão disponíveis para a conta. Você não precisa atribuir uma licença a um usuário ao criar a conta, mas a conta deve ter uma licença para acessar os serviços do Microsoft 365. Você tem 30 dias para licenciar a conta de usuário depois de criá-la. |
+|**Password** <br/> |Não  <br/> | Caso não especifique uma senha, nosso sistema atribuirá uma senha aleatória para a conta do usuário e a senha ficará visível nos resultados do comando. Se você especificar uma senha, ela precisará ter de 8 a 16 caracteres de texto ASCII dos seguintes tipos: letras minúsculas, letras maiúsculas, números e símbolos.<br/> |
+|**UsageLocation** <br/> |Não  <br/> |Este é um código de país do país 3166-1 alfa-2 válido. Por *exemplo, para* os Estados Unidos e *fr* da França. É importante fornecer esse valor, pois alguns serviços do Microsoft 365 não estão disponíveis em determinados países. Você não pode atribuir uma licença a uma conta de usuário, a menos que a conta tenha esse valor configurado. Para obter mais informações, consulte [about License Restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).<br/> |
 
 >[!Note]
->[Saiba como criar contas de usuário](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) com o centro de administração do Microsoft 365. Para obter uma lista de recursos adicionais, consulte [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
+>[Saiba como criar contas de usuário](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) usando o centro de administração do Microsoft 365.
+> 
+> Para obter uma lista de recursos adicionais, consulte [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
 >   
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
@@ -58,7 +62,7 @@ $PasswordProfile.Password="<user account password>"
 New-AzureADUser -DisplayName "<display name>" -GivenName "<first name>" -SurName "<last name>" -UserPrincipalName <sign-in name> -UsageLocation <ISO 3166-1 alpha-2 country code> -MailNickName <mailbox name> -PasswordProfile $PasswordProfile -AccountEnabled $true
 ```
 
-Neste exemplo, criamos uma conta para o usuário chamado Carlos Lima do Brasil:
+Este exemplo cria uma conta para o usuário de US *Carlos Lima*:
   
 ```powershell
 $PasswordProfile=New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
@@ -79,7 +83,7 @@ New-MsolUser -DisplayName <display name> -FirstName <first name> -LastName <last
 ```
 
 >[!Note]
->O PowerShell Core não é compatível com o módulo do Microsoft Azure Active Directory para módulo e cmdlets do Windows PowerShell com **MSol** no nome. Para continuar usando esses cmdlets, você deve executá-los a partir do Windows PowerShell.
+>O PowerShell Core não é compatível com o módulo Microsoft Azure Active Directory para o módulo e cmdlets do Windows PowerShell que têm o *MSol* em seu nome. Execute estes cmdlets do Windows PowerShell.
 >
 
 Para listar os nomes do plano de licenciamento disponível, use este comando:
@@ -88,7 +92,7 @@ Para listar os nomes do plano de licenciamento disponível, use este comando:
 Get-MsolAccountSku
 ````
 
-Nesse exemplo, criamos uma conta para o usuário chamado Carlos Lima do Brasil e atribuímos uma licença do plano de licenciamento `contoso:ENTERPRISEPACK` (Office 365 Enterprise E3).
+Este exemplo cria uma conta para o usuário de US *Carlos Lima*e atribui uma licença do `contoso:ENTERPRISEPACK` plano de licenciamento (Office 365 Enterprise E3).
   
 ```powershell
 New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPrincipalName calebs@contoso.onmicrosoft.com -UsageLocation US -LicenseAssignment contoso:ENTERPRISEPACK
@@ -97,28 +101,28 @@ New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPr
 ### <a name="create-multiple-user-accounts"></a>Criar várias contas de usuários
 
 1. Crie um arquivo CSV (arquivo de valores separados por vírgula) que inclua as informações necessárias da conta do usuário. Por exemplo:
-    
-  ```powershell
-  UserPrincipalName,FirstName,LastName,DisplayName,UsageLocation,AccountSkuId
-  ClaudeL@contoso.onmicrosoft.com,Claude,Loiselle,Claude Loiselle,US,contoso:ENTERPRISEPACK
-  LynneB@contoso.onmicrosoft.com,Lynne,Baxter,Lynne Baxter,US,contoso:ENTERPRISEPACK
-  ShawnM@contoso.onmicrosoft.com,Shawn,Melendez,Shawn Melendez,US,contoso:ENTERPRISEPACK
-  ```
 
- > [!NOTE]
->Os nomes de coluna e sua ordem na primeira linha do arquivo CSV são arbitrários, mas certifique-se de que os dados no restante do arquivo coincidem com a ordem dos nomes de coluna e use os nomes de coluna para os valores de parâmetro no PowerShell para o Microsoft 365 Command.
-    
-2. Use a sintaxe a seguir:
-    
-  ```powershell
-  Import-Csv -Path <Input CSV File Path and Name> | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId [-Password $_.Password]} | Export-Csv -Path <Output CSV File Path and Name>
-  ```
+     ```powershell
+     UserPrincipalName,FirstName,LastName,DisplayName,UsageLocation,AccountSkuId
+     ClaudeL@contoso.onmicrosoft.com,Claude,Loiselle,Claude Loiselle,US,contoso:ENTERPRISEPACK
+     LynneB@contoso.onmicrosoft.com,Lynne,Baxter,Lynne Baxter,US,contoso:ENTERPRISEPACK
+     ShawnM@contoso.onmicrosoft.com,Shawn,Melendez,Shawn Melendez,US,contoso:ENTERPRISEPACK
+     ```
 
-Nesse exemplo, criamos as contas de usuários do arquivo C:\Meus Documentos\NewAccounts.csv e registramos os resultados no arquivo C:\Meus Documentos\NewAccountResults.csv
+   >[!NOTE]
+   >Os nomes de coluna e sua ordem na primeira linha do arquivo CSV são arbitrários. Mas certifique-se de que a ordem dos dados no restante do arquivo corresponde à ordem dos nomes das colunas. E use os nomes de coluna para os valores de parâmetro no PowerShell para o Microsoft 365 Command.
     
-  ```powershell
-  Import-Csv -Path "C:\My Documents\NewAccounts.csv" | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId} | Export-Csv -Path "C:\My Documents\NewAccountResults.csv"
-  ```
+2. Use a seguinte sintaxe:
+    
+    ```powershell
+     Import-Csv -Path <Input CSV File Path and Name> | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId [-Password $_.Password]} | Export-Csv -Path <Output CSV File Path and Name>
+    ```
+
+   Este exemplo cria contas de usuário a partir do arquivo *c:\meus Documents\NewAccounts.csv* e registra os resultados em um arquivo chamado *c:\Meus Documents\NewAccountResults.csv*.
+    
+    ```powershell
+    Import-Csv -Path "C:\My Documents\NewAccounts.csv" | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId} | Export-Csv -Path "C:\My Documents\NewAccountResults.csv"
+    ```
 
 3. Examine o arquivo de saída para conferir os resultados. Não especificamos senhas, portanto, as senhas aleatórias geradas pela Microsoft 365 são visíveis no arquivo de saída.
     

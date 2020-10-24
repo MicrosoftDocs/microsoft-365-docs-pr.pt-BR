@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a contoso usa o Microsoft Intune no Microsoft 365 for Enterprise para gerenciar seus dispositivos e os aplicativos que são executados neles.
-ms.openlocfilehash: d3f973827a9b05a415efe9225a2bdb3d83ccaf38
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 6d7783e8c2d9b78b63bf9eefe761fbc52d0b280f
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649640"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753985"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Gerenciamento de dispositivo móvel para a Contoso
 
@@ -28,7 +27,7 @@ O Microsoft 365 for Enterprise inclui o Intune e um conjunto de serviços do Azu
 
 A contoso tem vários funcionários habilitados para dispositivos móveis. Alguns têm escritórios nos locais da Contoso e alguns não têm escritórios. A contoso precisava de uma maneira de habilitar a produtividade dos funcionários, mas manter os dispositivos, os dados da Contoso armazenados nesses dispositivos e o comportamento do aplicativo seguro.
 
-## <a name="plan"></a>Planejar
+## <a name="plan"></a>Plano
 
 A contoso identificou os seguintes casos de uso do Intune de gerenciamento de dispositivos móveis para o Microsoft 365 para empresas:
 
@@ -71,7 +70,7 @@ Veja a arquitetura de implantação de gerenciamento de dispositivo móvel da co
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba](contoso-info-protect.md) como a contoso usa os recursos de proteção de informações do Microsoft 365 para empresas para classificar, identificar e proteger ativos digitais essenciais em toda a organização.
+Saiba como a contoso usa os [recursos de proteção de informações](contoso-info-protect.md) do Microsoft 365 para empresas para classificar, identificar e proteger ativos digitais essenciais em toda a organização.
 
 ## <a name="see-also"></a>Confira também
 

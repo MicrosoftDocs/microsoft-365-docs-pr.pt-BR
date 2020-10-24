@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a contoso usa os recursos de proteção de informações no Microsoft 365 for Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: 51740db9a0bb2e770e959fe8d9dcde15c042f5b8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a1aa08a20d284d3a003f4a406c37f2107ce19bd1
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637230"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754593"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -41,7 +41,7 @@ A contoso realizou uma análise de seus dados e determinou os seguintes níveis 
 A tabela a seguir lista as políticas de informações da contoso.
 
 
-| Valor | Access | Retenção de dados | Proteção de informações |
+| Valor | Acesso | Retenção de dados | Proteção de informações |
 |:-------|:-----|:-----|:-----|
 | Baixo valor de negócios (Nível 1: Linha de base) | Permitir acesso a todos.  | 6 meses | Usar criptografia. |
 | Valor médio de negócios (Nível 2: Confidencial) | Permitir acesso a funcionários, subcontratados e parceiros da contoso. <BR><BR> Usar a MFA, o Protocolo TLS e o Gerenciamento de Aplicativos Móveis (MAM) | 2 anos  | Usar valores de hash para integridade de dados.  |
@@ -113,7 +113,7 @@ Aqui está a configuração resultante da proteção de informações da contoso
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Veja](contoso-security-summary.md) como a contoso usa os recursos de segurança na Microsoft 365 para empresas para gerenciamento de identidades e acesso, proteção contra ameaças, proteção de informações e gerenciamento de segurança.
+Saiba como a contoso usa os [recursos de segurança da Microsoft 365 para empresas](contoso-security-summary.md) para gerenciamento de identidade e acesso, proteção contra ameaças, proteção de informações e gerenciamento de segurança.
 
 ## <a name="see-also"></a>Confira também
 

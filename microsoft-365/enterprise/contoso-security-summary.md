@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a contoso usa os recursos de segurança do Microsoft 365 para empresas.
-ms.openlocfilehash: 635336b70318acdd4ed013a2705691d160926e84
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649696"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754227"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Resumo do Microsoft 365 for Enterprise Security para a Contoso Corporation
 
@@ -40,7 +40,7 @@ A contoso seguiu estas etapas para preparar a segurança para a implantação do
 
 1. Limitar contas de administrador para a nuvem
 
-   A contoso realizou uma análise extensiva de suas contas de administrador de serviços de domínio Active Directory (AD DS) existentes e configurou a série de contas e grupos de administradores de nuvem dedicados.
+   A contoso realizou uma análise abrangente de suas contas de administrador existentes do AD DS (serviços de domínio Active Directory) e configurou a série de contas e grupos de administradores de nuvem dedicados.
 
 2. Classificar dados em três níveis de segurança
 

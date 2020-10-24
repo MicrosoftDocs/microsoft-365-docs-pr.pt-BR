@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda a estrutura básica da infraestrutura de ti local da Contoso e como as necessidades de negócios da empresa são atendidas pela Microsoft 365 para empresas.
-ms.openlocfilehash: bc2b34254da01a3d49085082ab8ee8632df2d434
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 767374097efa116f116cff6f6ddf96d075eb71ed
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637170"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754581"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Infraestrutura de ti e necessidades de negócios da contoso
 
@@ -30,12 +29,10 @@ A Contoso está fazendo a transição de uma infraestrutura de ti centralizada e
 
 A Contoso usa principalmente a infraestrutura de TI local centralizada, com datacenters de aplicativo na sede de Paris.
 
-A Figura 1 mostra o escritório da sede com datacenters de aplicativo, uma DMZ e a Internet.
+Aqui está o escritório sede com datacenters de aplicativo, uma DMZ e a Internet.
 
 ![Infraestrutura existente de ti da contoso](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
-**Figura 1: infraestrutura de ti existente da contoso**
- 
 Os datacenters de aplicativo locais hospedam: 
 
 - Aplicativos de linha de negócios personalizados que usam o SQL Server e outros bancos de dados Linux.
@@ -135,12 +132,12 @@ O departamento de ti da Contoso determinou o seguinte mapeamento das necessidade
 | Conformidade |  |  |
 |  | Cumprir os requisitos regulamentares regionais | Recursos do RGPD no Microsoft 365 |
 | Gerenciamento |  |  |
-|  | Reduzir a sobrecarga de ti para instalar as atualizações do cliente | Anéis de implantação <BR> Atualizações do Windows 10 Enterprise <BR> Atualizações de Aplicativos do Microsoft 365 Apps para empresas |
+|  | Reduzir a sobrecarga de ti para instalar as atualizações do cliente | Atualizações do Windows 10 Enterprise <BR> Atualizações de Aplicativos do Microsoft 365 Apps para empresas |
 ||||
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba mais](contoso-networking.md) sobre a rede local da Contoso Corporation e como ela foi otimizada para acesso e latência a recursos baseados em nuvem da Microsoft 365.
+Saiba mais sobre a [rede local](contoso-networking.md) da Contoso Corporation e como ela foi otimizada para acesso e latência a recursos baseados em nuvem da Microsoft 365.
 
 ## <a name="see-also"></a>Confira também
 

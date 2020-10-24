@@ -17,29 +17,29 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
-description: 'Resumo: Use o PowerShell para Microsoft 365 para configurar propriedades de contas de usuário individuais ou múltiplas em seu locatário do Microsoft 365.'
-ms.openlocfilehash: ae797d67b47c637dc95176b92fad8090f8a7ab37
-ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
+description: Use o PowerShell para Microsoft 365 para configurar propriedades de várias contas de usuário ou individuais em seu locatário do Microsoft 365.
+ms.openlocfilehash: 830cede93a6c14db2dcc5626d41d0dd296b9ac29
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48580923"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754323"
 ---
 # <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Configurar as propriedades da conta de usuário do Microsoft 365 com o PowerShell
 
 *Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
-Embora você possa usar o centro de administração do Microsoft 365 para configurar as propriedades das contas de usuário do seu locatário do Microsoft 365, você também pode usar o PowerShell e realizar algumas coisas que o centro de administração do Microsoft 365 não pode.
+Você pode usar o centro de administração do Microsoft 365 para configurar as propriedades das contas de usuário do seu locatário do Microsoft 365. No PowerShell, você também pode fazer isso, além de outras coisas que você não pode fazer no centro de administração.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
-Para configurar propriedades de contas de usuário com o módulo PowerShell do Azure Active Directory para Graph, use o cmdlet [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) e especifique as propriedades a serem definidas ou alteradas. 
+Para configurar propriedades para contas de usuário no módulo do PowerShell do Azure Active Directory para Graph, use o cmdlet [**set-AzureADUser**](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) e especifique as propriedades a serem definidas ou alteradas.
 
 Primeiro, [Conecte-se ao seu locatário do Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
    
 ### <a name="change-properties-for-a-specific-user-account"></a>Alterar as propriedades de uma conta de usuário específica
 
-Você identifica a conta com o parâmetro **-ObjectID** e define ou altera propriedades específicas com parâmetros adicionais. Veja a seguir uma lista dos parâmetros mais comuns.
+Você identifica a conta com o parâmetro *-ObjectID* e define ou altera propriedades específicas usando parâmetros adicionais. Veja a seguir uma lista dos parâmetros mais comuns:
   
 - -Department " \<department name> "
     
@@ -73,7 +73,7 @@ Você identifica a conta com o parâmetro **-ObjectID** e define ou altera propr
     
     Este é o código de país ou região ISO 3166-1 alfa-2 (a2) de duas letras.
     
-Consulte [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) para parâmetros adicionais.
+Para parâmetros adicionais, consulte [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) .
 
 >[!Note]
 >Antes de poder atribuir licenças a uma conta de usuário, você deve atribuir um local de uso.
@@ -87,29 +87,29 @@ Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName | More
 
 Este comando instrui o PowerShell para:
   
-- Obtenha todas as informações sobre as contas de usuário (**Get-AzureADUser**) e envie-o para o próximo comando ( **|** ).
+1. Obtenha todas as informações sobre as contas de usuário (**Get-AzureADUser**) e envie-as para o próximo comando ( **|** ).
     
-- Classifique a lista de nomes de entidade de segurança de usuário alfabeticamente (**classificar userPrincipalName**) e enviá-lo para o próximo comando ( **|** ).
+1. Classifique a lista de nomes de entidade de segurança de usuário alfabeticamente (**classificar userPrincipalName**) e enviá-lo para o próximo comando ( **|** ).
     
-- Exibe apenas a propriedade nome principal do usuário para cada conta (**selecione userPrincipalName**).
+1. Exibe apenas a propriedade nome principal do usuário para cada conta (**selecione userPrincipalName**).
 
-- Exibir uma tela por vez (**mais**).
+1. Exibir uma tela por vez (**mais**).
     
-Este comando listará todas as suas contas. Se você deseja exibir o nome principal de usuário para uma conta com base no seu nome de exibição (nome e sobrenome), preencha a variável de **$username** abaixo (removendo os \< and > caracteres) e execute os seguintes comandos:
+Para exibir o nome principal de usuário de uma conta com base no seu nome de exibição (nome e sobrenome), execute os seguintes comandos. Preencha a variável *$username* e remova os \< and > caracteres:
   
 ```powershell
 $userName="<Display name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-Este exemplo exibe o nome principal do usuário para a conta de usuário com o nome de exibição de Carlos Lima.
+Este exemplo exibe o nome principal do usuário para a conta de usuário que tem o nome de exibição *Carlos Lima*.
   
 ```powershell
 $userName="Caleb Sills"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-Usando uma variável de **$UPN** , você pode fazer alterações em contas individuais com base no seu nome de exibição. Aqui está um exemplo de como definir o local de uso do Belinda Newman para a França, mas especificando seu nome de exibição em vez do nome principal do usuário:
+Usando uma variável de *$UPN* , você pode fazer alterações em contas individuais com base no seu nome de exibição. Veja um exemplo que define o local de uso de *Belinda Newman*como França. Mas especifica seu nome de exibição em vez do nome principal do usuário:
   
 ```powershell
 $userName="Belinda Newman"
@@ -119,7 +119,7 @@ Set-AzureADUser -ObjectID $upn -UsageLocation "FR"
 
 ### <a name="change-properties-for-all-user-accounts"></a>Alterar propriedades de todas as contas de usuário
 
-Para alterar as propriedades de todos os usuários, você pode usar a combinação dos cmdlets **Get-AzureADUser** e **set-AzureADUser** . O exemplo a seguir altera o local de uso de todos os usuários para a França:
+Para alterar as propriedades de todos os usuários, você pode usar uma combinação dos cmdlets **Get-AzureADUser** e **set-AzureADUser** . O exemplo a seguir altera o local de uso de todos os usuários para a *França*:
   
 ```powershell
 Get-AzureADUser | Set-AzureADUser -UsageLocation "FR"
@@ -127,13 +127,13 @@ Get-AzureADUser | Set-AzureADUser -UsageLocation "FR"
 
 Este comando instrui o PowerShell para:
   
-- Obtenha todas as informações sobre as contas de usuário (**Get-AzureADUser**) e envie-o para o próximo comando ( **|** ).
+1. Obtenha todas as informações sobre as contas de usuário (**Get-AzureADUser**) e envie-o para o próximo comando ( **|** ).
     
-- Defina o local do usuário como França (**set-AzureADUser-UsageLocation "fr"**).
+1. Defina o local do usuário como França (**set-AzureADUser-UsageLocation "fr"**).
     
 ### <a name="change-properties-for-a-specific-set-of-user-accounts"></a>Alterar propriedades de um conjunto específico de contas de usuário
 
-Para alterar as propriedades de um conjunto específico de contas de usuário, você pode usar a combinação dos cmdlets **Get-AzureADUser**, **Where**e **set-AzureADUser** . O exemplo a seguir altera o local de uso de todos os usuários no departamento de contabilidade para a França:
+Para alterar as propriedades de um conjunto específico de contas de usuário, você pode usar uma combinação dos cmdlets **Get-AzureADUser**, **Where**e **set-AzureADUser** . O exemplo a seguir altera o local de uso de todos os usuários no departamento de contabilidade para a *França*:
   
 ```powershell
 Get-AzureADUser | Where {$_.Department -eq "Accounting"} | Set-AzureADUser -UsageLocation "FR"
@@ -141,27 +141,27 @@ Get-AzureADUser | Where {$_.Department -eq "Accounting"} | Set-AzureADUser -Usag
 
 Este comando instrui o PowerShell para:
   
-- Obtenha todas as informações sobre as contas de usuário (**Get-AzureADUser**) e envie-o para o próximo comando ( **|** ).
+1. Obtenha todas as informações sobre as contas de usuário (**Get-AzureADUser**) e envie-as para o próximo comando ( **|** ).
     
-- Encontre todas as contas de usuário que têm a propriedade Department definida como "Accounting" (**onde {$ _. Department-EQ "Accounting"}**) e envie as informações resultantes para o próximo comando ( **|** ).
+1.  Encontre todas as contas de usuário que têm a propriedade *Department* definida como "contabilidade" (**onde {$ _. Department-EQ "Accounting"}**) e envie as informações resultantes para o próximo comando ( **|** ).
     
-- Defina o local do usuário como França (**set-AzureADUser-UsageLocation "fr"**).
+1. Defina o local do usuário como França (**set-AzureADUser-UsageLocation "fr"**).
     
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
-Para configurar propriedades de contas de usuário com o módulo Microsoft Azure Active Directory para Windows PowerShell, use o cmdlet **set-MsolUser** e especifique as propriedades a serem definidas ou alteradas. 
+Para configurar propriedades de contas de usuário com o módulo Microsoft Azure Active Directory para Windows PowerShell, use o cmdlet **set-MsolUser** e especifique as propriedades a serem definidas ou alteradas.
 
 Primeiro, [Conecte-se ao seu locatário do Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
   
 >[!Note]
->O PowerShell Core não é compatível com o módulo do Microsoft Azure Active Directory para módulo e cmdlets do Windows PowerShell com **MSol** no nome. Para continuar usando esses cmdlets, você deve executá-los a partir do Windows PowerShell.
+>O PowerShell Core não é compatível com o módulo do Microsoft Azure Active Directory para o módulo e cmdlets do Windows PowerShell com o *MSol* em seu nome. Execute estes cmdlets do Windows PowerShell.
 >
 
 ### <a name="change-properties-for-a-specific-user-account"></a>Alterar as propriedades de uma conta de usuário específica
 
-Para configurar as propriedades de uma conta de usuário específica, use o cmdlet [set-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)) e especifique as propriedades a serem definidas ou alteradas. 
+Para configurar as propriedades de uma conta de usuário específica, use o cmdlet [**set-MsolUser**](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)) e especifique as propriedades a serem definidas ou alteradas. 
 
-Você identifica a conta com o parâmetro **-userPrincipalName** e define ou altera propriedades específicas com parâmetros adicionais. Veja a seguir uma lista dos parâmetros mais comuns.
+Você identifica a conta com o parâmetro *-userPrincipalName* e define ou altera propriedades específicas usando parâmetros adicionais. Veja a seguir uma lista dos parâmetros mais comuns.
   
 - -City " \<city name> "
     
@@ -197,9 +197,9 @@ Você identifica a conta com o parâmetro **-userPrincipalName** e define ou alt
     
     Este é o código de país ou região ISO 3166-1 alfa-2 (a2) de duas letras.
     
-Consulte [set-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)) para parâmetros adicionais.
+Para parâmetros adicionais, consulte [set-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)).
 
-Para ver os nomes principais de usuário de todos os seus usuários, execute o seguinte comando.
+Para ver os nomes principais de usuário de todos os seus usuários, execute o seguinte comando:
   
 ```powershell
 Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName | More
@@ -207,29 +207,29 @@ Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName | More
 
 Este comando instrui o PowerShell para:
   
-- Obtenha todas as informações sobre as contas de usuário (**Get-MsolUser**) e envie-o para o próximo comando ( **|** ).
+1. Obtenha todas as informações para as contas de usuário (**Get-MsolUser**) e envie-as para o próximo comando ( **|** ).
     
-- Classifique a lista de nomes de entidade de segurança de usuário alfabeticamente (**classificar userPrincipalName**) e enviá-lo para o próximo comando ( **|** ).
+1. Classifique a lista de nomes de entidade de segurança de usuário alfabeticamente (**classificar userPrincipalName**) e enviá-lo para o próximo comando ( **|** ).
     
-- Exibe apenas a propriedade nome principal do usuário para cada conta (**selecione userPrincipalName**).
+1. Exibe apenas a propriedade nome principal do usuário para cada conta (**selecione userPrincipalName**).
     
-- Exibir uma tela por vez (**mais**).
+1. Exibir uma tela por vez (**mais**).
     
-Este comando listará todas as suas contas. Se você deseja exibir o nome principal de usuário para uma conta com base no seu nome de exibição (nome e sobrenome), preencha a variável de **$username** abaixo (removendo os \< and > caracteres) e execute os seguintes comandos:
+Para exibir o nome principal de usuário de uma conta com base no seu nome de exibição (nome e sobrenome), execute os seguintes comandos. Preencha a variável *$username* e remova os \< and > caracteres.
   
 ```powershell
 $userName="<Display name>"
 Write-Host (Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-Este exemplo exibe o nome principal do usuário chamado Carlos Lima.
+Este exemplo exibe o nome principal do usuário chamado Carlos Lima:
   
 ```powershell
 $userName="Caleb Sills"
 Write-Host (Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-Usando uma variável de **$UPN** , você pode fazer alterações em contas individuais com base no seu nome de exibição. Aqui está um exemplo de como definir o local de uso do Belinda Newman para a França, mas especificando seu nome de exibição em vez do nome principal do usuário:
+Usando uma variável de *$UPN* , você pode fazer alterações em contas individuais com base no seu nome de exibição. Veja um exemplo que define o local de uso do *Belinda Newman*para a *França*, mas especifica seu nome de exibição em vez do nome principal do usuário:
   
 ```powershell
 $userName="<display name>"
@@ -239,7 +239,7 @@ Set-MsolUser -UserPrincipalName $upn -UsageLocation "FR"
 
 ### <a name="change-properties-for-all-user-accounts"></a>Alterar propriedades de todas as contas de usuário
 
-Para alterar as propriedades de todos os usuários, você pode usar a combinação dos cmdlets **Get-MsolUser** e **set-MsolUser** . O exemplo a seguir altera o local de uso de todos os usuários para a França:
+Para alterar as propriedades de todos os usuários, use uma combinação dos cmdlets **Get-MsolUser** e **set-MsolUser** . O exemplo a seguir altera o local de uso de todos os usuários para a *França*:
   
 ```powershell
 Get-MsolUser | Set-MsolUser -UsageLocation "FR"
@@ -247,13 +247,13 @@ Get-MsolUser | Set-MsolUser -UsageLocation "FR"
 
 Este comando instrui o PowerShell para:
   
-- Obtenha todas as informações sobre as contas de usuário (**Get-MsolUser**) e envie-o para o próximo comando ( **|** ).
+1. Obtenha todas as informações para as contas de usuário (**Get-MsolUser**) e enviá-las ao próximo comando ( **|** ).
     
-- Defina o local do usuário como França (**set-MsolUser-UsageLocation "fr"**).
+1. Defina o local do usuário como França (**set-MsolUser-UsageLocation "fr"**).
     
 ### <a name="change-properties-for-a-specific-set-of-user-accounts"></a>Alterar propriedades de um conjunto específico de contas de usuário
 
-Para alterar as propriedades de um conjunto específico de contas de usuário, você pode usar a combinação dos cmdlets **Get-MsolUser**, **Where**e **set-MsolUser** . O exemplo a seguir altera o local de uso de todos os usuários no departamento de contabilidade para a França:
+Para alterar as propriedades de um conjunto específico de contas de usuário, você pode usar uma combinação dos cmdlets **Get-MsolUser**, **Where**e **set-MsolUser** . O exemplo a seguir altera o local de uso de todos os usuários no departamento de contabilidade para a *França*:
   
 ```powershell
 Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocation "FR"
@@ -261,12 +261,11 @@ Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocat
 
 Este comando instrui o PowerShell para:
   
-- Obtenha todas as informações sobre as contas de usuário (**Get-MsolUser**) e envie-o para o próximo comando ( **|** ).
+1. Obtenha todas as informações para as contas de usuário (**Get-MsolUser**) e enviá-las ao próximo comando ( **|** ).
     
-- Encontre todas as contas de usuário que têm a propriedade Department definida como "Accounting" (**onde {$ _. Department-EQ "Accounting"}**) e envie as informações resultantes para o próximo comando ( **|** ).
+1. Encontre todas as contas de usuário que têm a propriedade *Department* definida como "contabilidade" (**onde {$ _. Department-EQ "Accounting"}**) e envie as informações resultantes para o próximo comando ( **|** ).
     
-- Defina o local do usuário como França (**set-MsolUser-UsageLocation "fr"**).
-
+1. Defina o local do usuário como França (**set-MsolUser-UsageLocation "fr"**).
 
 ## <a name="see-also"></a>Confira também
 
@@ -274,4 +273,4 @@ Este comando instrui o PowerShell para:
   
 [Gerenciar o Microsoft 365 com o PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[Introdução ao PowerShell para o Microsoft 365](getting-started-with-microsoft-365-powershell.md)
+[Introdução ao Windows PowerShell para o Microsoft 365](getting-started-with-microsoft-365-powershell.md)

@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso tira proveito da Identidade como um Serviço (IDaaS) e fornece a autenticação baseada na nuvem para seus funcionários e autenticação federada para seus clientes e parceiros.
-ms.openlocfilehash: 10db0a35024595c4dba9a33ad83ae75bcad3870c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dea0f53ef1c3fdc2ea32256303c6120c614c904d
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637242"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754627"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Identidade para a Contoso Corporation
 
@@ -43,7 +42,7 @@ A Contoso permite que:
 - Os clientes usem suas contas Microsoft, Facebook ou Google mail para entrar no site público da empresa.
 - Fornecedores e parceiros usem suas contas de email do LinkedIn, Salesforce ou Google para entrar na extranet do parceiro da empresa.
 
-Aqui está o DMZ da Contoso que contém um site público, uma extranet de parceiro e um conjunto de servidores AD FS. O DMZ está conectado à Internet que contém clientes, parceiros e serviços de Internet.
+Aqui está o DMZ da Contoso que contém um site público, uma extranet de parceiro e um conjunto de servidores de serviços de Federação do Active Directory (AD FS). O DMZ está conectado à Internet que contém clientes, parceiros e serviços de Internet.
 
 ![Suporte da Contoso para autenticação federada para clientes e parceiros](../media/contoso-identity/contoso-identity-fig2.png)
  
@@ -77,7 +76,7 @@ Veja a seguir o conjunto resultante de políticas de acesso condicional de dispo
  
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba](contoso-win10.md) como a contoso usa sua infraestrutura do Microsoft Endpoint Configuration Manager para implantar e manter o Windows 10 Enterprise atual em toda a organização.
+Saiba como a contoso usa sua infraestrutura do Microsoft Endpoint Configuration Manager para [implantar e manter o Windows 10 Enterprise atual](contoso-win10.md) em toda a organização.
 
 ## <a name="see-also"></a>Confira também
 

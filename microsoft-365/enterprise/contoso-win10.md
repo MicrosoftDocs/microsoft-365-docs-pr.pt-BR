@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usou o Microsoft Endpoint Configuration Manager para implantar atualizações in-loco para o Windows 10 Enterprise.
-ms.openlocfilehash: a100eb07408053fd270c26f388265696549fff9f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0543f24665048d0679bc1b099fdd0a2d431c1e54
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686413"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754239"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Implantação do Windows 10 Enterprise para a Contoso
 
@@ -55,15 +54,7 @@ A Contoso possui uma infraestrutura existente do Configuration Manager (Branch A
 
 ## <a name="planning-process"></a>Processo de planejamento
 
-Antes da implantação, a Contoso definiu os seguintes anéis:
-
-- Três anéis para validação e preparação da implantação 
-  - Um para compilações de visualização 
-  - Um para compilações da nova versão
-  - Um para compilações anteriores 
-- Um anel para a implantação geral do Windows 10 Enterprise com base nos dados dos anéis de validação
-
-A Contoso também usou a solução Upgrade Readiness do Windows Analytics para determinar o conjunto de aplicativos instalados e sua compatibilidade com o Windows 10 Enterprise.
+A contoso usou a preparação para atualização no Windows Analytics para determinar o conjunto de aplicativos instalados e sua compatibilidade com o Windows 10 Enterprise.
 
 ## <a name="deployment-process"></a>Processo de implantação
 
@@ -71,11 +62,11 @@ Para concluir a implantação da atualização in-loco do Windows 10 Enterprise,
 
 1. Habilitou o cache par para o Configuration Manager.
 2. Criou pacotes personalizados do Windows com base em imagens do Centro de Atendimento de Licenciamento por Volume.
-3. Utilizou o Configuration Manager para implantar os pacotes do Windows em pontos de distribuição em toda a rede e em compilações implantadas para os três anéis de armazenamento temporário de validação e implantação.
+3. Usou o Configuration Manager para implantar os pacotes do Windows em pontos de distribuição em toda a rede e implantado compilações para os três grupos de teste de validação e implantação.
 4. Realizou uma avaliação de sucesso para PCs e dispositivos nos três anéis de teste de validação e implantação usando as soluções de Integridade do dispositivos e Conformidade de atualização do Windows Analytics.
-5. Com base nas informações do Windows Analytics, a Contoso determinou qual versão do Windows 10 Enterprise será implantada no anel de implantação geral.
-6. Executou as sequências das tarefas de implantação do Configuration Manager para implantar o pacote do Windows escolhido no anel de implantação geral.
-7. Os computadores e dispositivos monitorados na implantação geral usam as soluções de integridade dos dispositivos e conformidade de atualização fornecidas para solucionar problemas.
+5. Com base nas informações do Windows Analytics, a contoso determinou que a versão do Windows 10 Enterprise deve ser implantada no grupo de implantação abrangente.
+6. Executou as sequências de tarefas de implantação do Configuration Manager para implantar o pacote do Windows selecionado no grupo de implantação abrangente.
+7. Computadores e dispositivos monitorados no grupo de implantação abrangente usando as soluções de integridade do dispositivo e atualização de conformidade para resolver problemas.
 
 Veja a atualização in-loco e a arquitetura de implantação de atualizações contínuas.
 
@@ -87,11 +78,11 @@ Esta infraestrutura é formada pelo:
   - Obtém imagens para pacotes do Windows 10 Enterprise a partir do Centro de Licenciamento por Volume da Microsoft na Rede da Microsoft.
   - É o ponto de administração central para pacotes de implantação.
 - Pontos de distribuição regionais que normalmente estão localizados nos escritórios secundários da Contoso.
-- Os dispositivos e computadores Windows em vários locais que recebem e instalam os pacotes de implantação para atualizações in-loco ou atualizações contínuas com base na associação do anel.
+- Computadores e dispositivos Windows em vários locais que recebem e instalam os pacotes de implantação para a atualização in-loco ou atualizações contínuas com base na associação de grupo.
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Saiba](contoso-o365pp.md) mais sobre como a Contoso está aproveitando sua infraestrutura do Gerenciador de configurações para implantar e manter os aplicativos atuais do Microsoft 365 para empresas em toda a organização. 
+Saiba como a Contoso está aproveitando sua infraestrutura do Configuration Manager para [implantar e manter os aplicativos atuais do Microsoft 365 para empresas](contoso-o365pp.md) em sua organização. 
 
 ## <a name="see-also"></a>Confira também
 
