@@ -17,20 +17,20 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Use o Microsoft Endpoint Manager para gerenciar seus dispositivos, PCs e outros pontos de extremidade.
-ms.openlocfilehash: b50279166b313742dbfbe8e75dd9788aac6b1daa
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 72aa26c50f5d3c20409382f19d8beabb5d290023
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445954"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681475"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Etapa 4. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 
 Com funcionários remotos, é necessário oferecer suporte a um número crescente de dispositivos pessoais. O gerenciamento de pontos de extremidade é uma abordagem de segurança baseada em políticas que exige que os dispositivos obedeçam a critérios específicos antes de receberem acesso aos recursos. O Microsoft Endpoint Manager oferece um ambiente de trabalho e recursos de gerenciamento modernos para manter seus dados seguros na nuvem e no local. 
 
-O Endpoint Manager fornece serviços e ferramentas para gerenciar dispositivos móveis, computadores desktop, máquinas virtuais, dispositivos incorporados e servidores combinando os seguintes serviços que você já deve conhecer e estar usando.
+O [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/endpoint-manager-overview) fornece serviços e ferramentas para gerenciar dispositivos móveis, computadores desktop, máquinas virtuais, dispositivos incorporados e servidores, combinando os seguintes serviços que você já conhece e utiliza.
 
-![Os componentes para o gerenciamento de pontos de extremidade](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
+![Os componentes de gerenciamento de terminal para o Microsoft 365](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
@@ -58,13 +58,13 @@ Para mais informações, confira esta [visão geral do co-gerenciamento](https:/
 
 ## <a name="desktop-analytics"></a>Análise de Área de Trabalho
 
-A Análise de Área de Trabalho é um serviço baseado em nuvem que se integra ao Gerenciador de Configurações e fornece informações e inteligência para que você possa tomar decisões informadas sobre seus clientes Windows. Ela combina dados da sua organização com dados agregados de milhões de dispositivos conectados aos serviços de nuvem da Microsoft. 
+A Análise de Área de Trabalho é um serviço baseado em nuvem que se integra ao Gerenciador de Configurações e fornece informações e inteligência para que você possa tomar decisões informadas sobre seus clientes Windows. Ele combina os dados da sua organização com dados agregados de milhões de outros dispositivos conectados aos serviços em nuvem da Microsoft. 
 
 Com a Análise de Área de Trabalho, você pode:
 
 - Criar um inventário das aplicações executadas na sua organização.
 - Avaliar a compatibilidade de aplicativos com as atualizações mais recentes dos recursos do Windows 10.
-- Identificar problemas de compatibilidade e receber sugestões de atenuação baseadas em insights de dados habilitados para a nuvem.
+- Identifique problemas de compatibilidade e receba sugestões de mitigação com base em insights de dados habilitados para nuvem.
 - Criar grupos piloto que representem todo o aplicativo e o estado do driver em um conjunto mínimo de dispositivos.
 - Implantar o Windows 10 em dispositivos piloto e gerenciados em ambiente de produção.
 
@@ -72,7 +72,7 @@ Para obter mais informações, confira a [visão geral da Análise de Área de T
 
 ## <a name="windows-autopilot"></a>Windows Autopilot
 
-O Windows Autopilot é uma plataforma de implantação do Windows de autoatendimento e sem intervenções. Inclui um conjunto de tecnologias usadas para instalar e pré-configurar novos dispositivos, preparando-os para uso produtivo. Você também pode usar o Windows Autopilot para redefinir, redirecionar e recuperar dispositivos. 
+O Windows Autopilot é uma plataforma de implantação do Windows de autoatendimento e sem intervenções. Inclui uma coleção de tecnologias que você utiliza para instalar e pré-configurar novos dispositivos, deixando-os prontos para uso produtivo. Você também pode usar o Windows Autopilot para redefinir, redirecionar e recuperar dispositivos. 
 
 O Windows Autopilot permite que o departamento de Ti pré-configure dispositivos com pouca ou nenhuma infraestrutura para gerenciar, por meio de um processo simples e fácil. 
 
@@ -83,9 +83,7 @@ Para obter mais informações, confira a [visão geral do Windows Autopilot](htt
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>Recursos técnicos de administração para o gerenciamento de pontos de extremidade
 
-- [Vídeo da parte 3 sobre o gerenciamento de dispositivos Windows 10 para funcionários remotos](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
-- [Vídeo da parte 5 sobre o gerenciamento de áreas de trabalho e navegadores do usuário para funcionários remotos](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
-- [Implantar uma infraestrutura de mobilidade para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
+- [Roteiro de gerenciamento de dispositivos para Microsoft 365](../enterprise/device-management-roadmap-microsoft-365.md)
 - [Como registrar diferentes tipos de dispositivos para gerenciamento de dispositivos móveis (MDM)](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Como educar seus usuários finais sobre o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  

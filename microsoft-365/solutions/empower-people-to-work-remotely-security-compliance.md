@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários remotos.
-ms.openlocfilehash: 36abe8b8dbd84a883d829308fc970258e7551f2e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 7607f3945d2e3c4e057162296df94dce4c611dbe
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445874"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681463"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários remotos
 
@@ -39,6 +39,8 @@ O trabalho remoto precisa desses elementos de segurança e conformidade:
 - Prevenção contra o vazamento de informações
 - Aderência a regulamentações de dados regionais
 
+Aqui estão os recursos do Microsoft 365 que fornecem serviços de segurança e conformidade para funcionários remotos.
+
 ![Use estes serviços do Microsoft 365 para se manter seguro e em conformidade com as normas](../media/empower-people-to-work-remotely/remote-workers-security-compliance-grid.png)
 
 ## <a name="security"></a>Segurança
@@ -54,7 +56,7 @@ Proteja seus aplicativos e dados com estes recursos de segurança do Microsoft 3
 | Proteção de Identidade do Azure AD  | Automatize a detecção e correção de riscos baseados em identidade. <br><br>Crie políticas de acesso condicional com base em risco para exigir a autenticação multifator (MFA) para entradas arriscadas. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 |
 ||||
 
-Para saber mais, veja [Tarefas rápidas de introdução à conformidade do Microsoft 365](../compliance/compliance-quick-tasks.md).
+Consulte as [12 Principais tarefas das equipes de segurança para apoiar o trabalho em casa](../security/top-security-tasks-for-remote-work.md) para obter mais informações.
 
 ## <a name="compliance"></a>Conformidade
 
@@ -73,16 +75,16 @@ Cumpra os requisitos normativos ou políticas internas com estes recursos de con
 | Gerenciamento de riscos internos |  Detectar, investigar e agir nos riscos maliciosos e inadvertidos em sua organização. O Microsoft 365 pode detectar esses tipos de riscos mesmo quando um trabalhador está usando um dispositivo não gerenciado. | Microsoft 365 E5 ou Microsoft 365 E3 com os complementos de conformidade e gerenciamento de risco interno do Office Insider |
 ||||
 
-Confira [As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md).
+Consulte [Tarefas rápidas de introdução à Conformidade do Microsoft 365](../compliance/compliance-quick-tasks.md) para obter mais informações.
 
 ## <a name="results-of-step-3"></a>Resultados da Etapa 3
 
 Para seus funcionários remotos, você implementou o:
 
-- Segurança:
+- Segurança
   - Acesso controlado a aplicativos e dados que funcionários remotos usam para se comunicar e colaborar
   - Proteção contra malware para dados de serviço de nuvem, email e dispositivos com Windows 10 
-- Conformidade:
+- Conformidade
   - Rotulamento consistente para níveis de confidencialidade e proteção
   - Políticas de prevenção contra o vazamento de informações
   - Aderência a regulamentações de dados regionais

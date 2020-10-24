@@ -82,7 +82,7 @@
           href: services-in-china/apply-for-a-fapiao.md
         - name: Paridade da Proteção de Informações do Azure
           href: services-in-china/parity-between-azure-information-protection.md
-    - name: Gerenciar usuários e grupos
+    - name: 'Gerenciar usuários, grupos e senhas'
       href: add-users/index.yml
       items:
         - name: Usuários
@@ -109,14 +109,6 @@
               href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Restaurar um usuário
               href: add-users/restore-user.md
-            - name: Redefinir senha
-              href: add-users/reset-passwords.md
-            - name: Definir senhas para nunca expirar
-              href: add-users/set-password-to-never-expire.md
-            - name: Permitir que os usuários redefinam senhas
-              href: add-users/let-users-reset-passwords.md
-            - name: Reenviar senhas do usuário
-              href: add-users/resend-user-password.md
             - name: Criar um modelo para adicionar usuários
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Atualizar os usuários para os aplicativos mais recentes
@@ -137,6 +129,20 @@
               href: create-groups/restore-deleted-group.md
             - name: Gerenciar o acesso de convidado a grupos
               href: create-groups/manage-guest-access-in-groups.md
+        - name: Senhas
+          items:
+            - name: Redefinir senha
+              href: add-users/reset-passwords.md
+            - name: Permitir que os usuários redefinam senhas
+              href: add-users/let-users-reset-passwords.md
+            - name: Definir senhas para nunca expirar
+              href: add-users/set-password-to-never-expire.md
+            - name: Reenviar senhas do usuário
+              href: add-users/resend-user-password.md
+            - name: Desabilitar senhas fortes
+              href: add-users/strong-password.md
+            - name: Definir a política de expiração de senha
+              href: manage/set-password-expiration-policy.md
     - name: Gerenciar emails e calendários
       href: email/index.yml
       items:

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 40e405a8ab3ac2159b9a3c5ab8f633bb690d5c24
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 848ed959b1ed728a5a193641d7df42a477604d30
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384557"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681779"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -181,9 +181,10 @@ Quando você escolhe o local**sites do SharePoint**, a política de retenção p
 
 Embora a política de retenção seja aplicada no nível do site, apenas os documentos têm configurações de retenção aplicadas a eles. As configurações de retenção não se aplicam às estruturas de organização que incluem bibliotecas, listas e pastas no site.
 
-Ao especificar os locais para os sites do SharePoint ou contas do OneDrive, não será preciso ter permissões para acessar os sites e nenhuma validação será feita ao especificar a URL na página **Editar locais**. No entanto, os sites devem ser indexados, e, os especificados por você, serão verificados no final do assistente.
+Ao especificar os locais para os sites do SharePoint ou contas do OneDrive, não será preciso ter permissões para acessar os sites e nenhuma validação será feita ao especificar a URL na página **Editar locais**. No entanto, os sites do Microsoft Office SharePoint Online que você especifica são verificados para ver se existem no final do assistente. Se essa verificação falhar, uma mensagem será exibida informando que a validação falhou para a URL inserida, e o assistente não criará a política de retenção até que a verificação de validação seja aprovada. Se você vir esta mensagem, volte ao assistente para alterar a URL ou remover o site da política de retenção.
 
-Se essa verificação falhar, uma mensagem será exibida informando que a validação falhou para a URL inserida, e o assistente não criará a política de retenção até que a verificação de validação seja aprovada. Se você vir esta mensagem, volte ao assistente para alterar a URL ou remover o site da política de retenção.
+> [!NOTE]
+> Os sites do Microsoft Office SharePoint Online devem ser indexados para que as configurações de retenção sejam aplicadas. No entanto, se os itens nas bibliotecas de documentos do Microsoft Office SharePoint Online forem configurados para não aparecer nos resultados da pesquisa, essa configuração não excluirá os itens das configurações de retenção.
 
 Para especificar contas individuais do OneDrive para incluir ou excluir o URL tem o seguinte formato: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
 
@@ -253,7 +254,7 @@ Portanto, antes de adicionar uma política de retenção pela primeira vez, e es
 
 Ao escolher locais, com exceção do Skype for Business, a configuração padrão é **Todos** quando o status do local é **Ativado**.
 
-Quando uma política de retenção for aplicada a qualquer combinação de locais inteiros, não haverá limite para o número de destinatários, sites, grupos, etc., que ela pode incluir.
+Quando uma política de retenção se aplica a qualquer combinação de locais inteiros, não há limite para o número de destinatários, sites, contas, grupos, etc., que a política pode incluir.
 
 Por exemplo, se uma política incluir todos os emails do Exchange e sites do SharePoint, todos os sites e destinatários serão incluídos, independentemente da quantidade. Além disso, no caso do Exchange, todas as caixas de correio criadas após a aplicação da política herdam a política automaticamente.
 

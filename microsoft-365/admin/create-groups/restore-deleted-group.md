@@ -1,10 +1,10 @@
 ---
-title: Restaurar um grupo excluído
+title: Restaurar um grupo do Microsoft 365 excluído
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,24 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Saiba como restaurar um grupo do Microsoft 365 excluído.
-ms.openlocfilehash: 30e267a149bc18c2425d4ea38423b887116794c6
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 091697be54b1127a5cb336179733d51519947e14
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681641"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753238"
 ---
-# <a name="restore-a-deleted-group"></a>Restaurar um grupo excluído
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
-
-::: moniker-end
-
-> [!NOTE]
-> Este artigo descreve a restauração somente de grupos do Microsoft 365. Todos os outros grupos não podem ser restaurados depois de excluídos.
+# <a name="restore-a-deleted-microsoft-365-group"></a>Restaurar um grupo do Microsoft 365 excluído
 
 Se você tiver excluído um grupo, ele será mantido por 30 dias por padrão. Este período de 30 dias é considerado uma "exclusão reversível" porque você ainda pode restaurar o grupo. Após 30 dias, o grupo e seu conteúdo associado são excluídos permanentemente e não podem ser restaurados.
 
@@ -59,7 +49,12 @@ Quando um grupo de é restaurado, o seguinte conteúdo é restaurado:
 
 - Grupo e conteúdo de grupo do Yammer (se o grupo Microsoft 365 foi criado a partir do Yammer)
 
-## <a name="restore-a-group-that-you-own-by-using-outlook-on-the-web"></a>Restaurar um grupo que você possui usando o Outlook na Web
+> [!NOTE]
+> Este artigo descreve a restauração somente de grupos do Microsoft 365. Todos os outros grupos não podem ser restaurados depois de excluídos.
+
+## <a name="restore-a-group"></a>Restaurar um grupo
+
+# <a name="outlook"></a>[Outlook](#tab/outlook)
 
 Se você é o proprietário de um grupo do Microsoft 365, é possível restaurar o grupo sozinho no Outlook na Web seguindo estas etapas:
 
@@ -69,7 +64,7 @@ Se você é o proprietário de um grupo do Microsoft 365, é possível restaurar
 
 Se o grupo excluído não aparecer aqui, entre em contato com um administrador.
 
-## <a name="restore-a-group-in-the-microsoft-365-admin-center"></a>Restaurar um grupo no centro de administração do Microsoft 365
+# <a name="admin-center"></a>[Centro de administração](#tab/admin-center)
 
 Se você for um administrador global ou um administrador de grupos, poderá restaurar um grupo excluído no centro de administração do Microsoft 365:
 
@@ -79,28 +74,9 @@ Se você for um administrador global ou um administrador de grupos, poderá rest
 
 > [!NOTE]
 > Em alguns casos, pode levar até 24 horas para o grupo e todos os seus dados a serem restaurados. 
-  
-## <a name="permanently-delete-a-microsoft-365-group"></a>Excluir permanentemente um grupo do Microsoft 365
 
-Às vezes, você pode querer limpar permanentemente um grupo sem esperar que o período de exclusão reversível de 30 dias expire. Para fazer isso, inicie o PowerShell e execute este comando para obter a ID de objeto do grupo:
-  
-```
-Get-AzureADMSDeletedGroup
-```
+---
 
-Anote a ID de objeto do grupo, ou grupos, que você deseja excluir permanentemente.
-  
-> [!CAUTION]
-> Ao limpar o grupo, você removerá o grupo e os dados nele para sempre. 
-  
-Para limpar o grupo, execute o seguinte comando no PowerShell:
-  
-```
-Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
-```
-
-Para confirmar que o grupo foi limpo, execute o cmdlet  *Get-AzureADMSDeletedGroup*  novamente para confirmar que ele não aparece mais na lista de grupos temporariamente excluídos. Em alguns casos pode levar até 24 horas para que o grupo e todos os dados nele sejam excluídos permanentemente. 
-  
 ## <a name="got-questions-about-microsoft-365-groups"></a>Você tem dúvidas sobre os grupos da Microsoft 365?
 
 Visite a [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) para postar perguntas e participar de conversas sobre os grupos do Microsoft 365. 

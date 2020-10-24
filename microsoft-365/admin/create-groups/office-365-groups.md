@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os grupos do Microsoft 365.
-ms.openlocfilehash: 5d85204687641e74f9a705162df01cebd7eeee26
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: f3114fdd6eefae0fe226e25907716101dcb6a51f
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337164"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753260"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos Grupos do Microsoft 365 para administradores
 
@@ -108,7 +108,7 @@ Qualquer assinatura do Microsoft 365 que tenha o Exchange Online e o SharePoint 
 
 Se você tiver um plano somente do Exchange, ainda poderá obter os recursos de caixa de entrada compartilhada e calendário compartilhado do grupo no Outlook, mas não obterá a biblioteca de documentos, o Planner ou qualquer um dos outros recursos.
 
-Os grupos do Microsoft 365 funcionam com o Azure Active Directory (AAD). Os recursos de grupos que você obtém dependem de qual assinatura do Azure Active Directory você tem e que licença (s) é atribuída ao organizador do grupo.
+Os grupos do Microsoft 365 funcionam com o Azure Active Directory. Os recursos de grupos que você obtém dependem de qual assinatura do Azure Active Directory você tem e que licença (s) é atribuída ao organizador do grupo.
 
 > [!IMPORTANT]
 > Para todos os recursos de grupos, se você tiver uma assinatura do Azure AD Premium, os usuários poderão ingressar no grupo, estando ou não uma licença do AAD P1 atribuída a eles. O licenciamento não é imposto.

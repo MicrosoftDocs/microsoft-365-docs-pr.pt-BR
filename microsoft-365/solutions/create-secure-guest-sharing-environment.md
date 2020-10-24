@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá sobre as opções disponíveis para criar um ambiente de compartilhamento de convidados seguro no Microsoft 365.
-ms.openlocfilehash: 227c609329ae3cca4cc38e65984f1036bfe41068
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: d80dd00369b851768849e846449799ff443957f3
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527925"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681552"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -97,7 +97,7 @@ Para criar uma política de acesso condicional:
 7. Na guia**Incluir**, selecione**Selecionar aplicativos** e, em seguida, clique em **Selecionar**.
 8. Na folha **Selecionar**, selecione **Microsoft Teams**, **Office 365 SharePoint Online** e **Outlook Groups** e, em seguida, clique em **Selecionar**.
 9. Na folha **Aplicativos de nuvem ou ações**, clique em **Concluído**.
-10. Em **Controles de acesso**, clique em **	Conceder**.
+10. Em **Controles de acesso**, clique em ** Conceder**.
 11. Na folha **Conceder**, selecione **Temos de uso de convidado**e, em seguida, clique em **Selecionar**.
 12. Na folha **Novo**, em **Habilitar política**, clique em **Ativar** e, em seguida, clique em **Criar**.
 
@@ -165,10 +165,10 @@ Para restringir os convidados para o acesso apenas Web
 9. Na folha **Aplicativos de nuvem ou ações**, clique em **Concluído**.
 10. Em **Tarefas**, clique em **Condições**.
 11. Na folha **Condições**, clique em **Aplicativos cliente**.
-12. Na folha **Aplicativos cliente**, clique em **Sim** para **Configurara**e, em seguida, selecione configurações de**Aplicativos móveis e clientes de desktop** e **Clientes de autenticação moderna**.</br>
+12. Na folha **Aplicativos dos cliente**, clique em **Sim** para **Configurar** e selecione a configuração **Aplicativos móveis e clientes de desktop**.</br>
     ![Captura de tela de configurações de acesso condicional de aplicativos cliente do Azure AD](../media/azure-ad-conditional-access-client-mobile.png)
 13. Clique em **Concluído** e, em seguida na folha **condições** e clique novamente em **Concluído**.
-14. Em **Controles de acesso**, clique em **	Conceder**.
+14. Em **Controles de acesso**, clique em ** Conceder**.
 15. Na folha**Conceder**, selecione**Exigir que o dispositivo seja marcado como em conformidade** e **Exigir o Dispositivo adicionado ao Azure AD híbrido**.
 16. Em **Para vários controles**, selecione **Exigir um dos controles selecionados** e, em seguida, clique em **Selecionar**.
 17. Na folha **Novo**, em **Habilitar política**, clique em **Ativar** e, em seguida, clique em **Criar**.
