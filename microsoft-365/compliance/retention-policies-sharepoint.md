@@ -17,18 +17,37 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: da700c72a03bad85310be8807bf94e54ec6a4048
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: 31ffce3f02e273e771ca1753474bec48b66148bb
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394698"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754135"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 As informações contidas neste artigo complementam [Saiba mais sobre retenção](retention.md) porque são informações específicas para o SharePoint e o OneDrive.
+
+Para outras cargas de trabalho, confira:
+
+- [Saiba mais sobre retenção para o Microsoft Teams](retention-policies-teams.md)
+- [Saiba mais sobre retenção no Yammer](retention-policies-yammer.md)
+- [Saiba mais sobre a retenção para o Exchange](retention-policies-exchange.md)
+
+## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
+
+Todos os arquivos armazenados em sites do Microsoft Office SharePoint Online ou Microsoft OneDrive podem ser retidos aplicando uma política de retenção ou rótulo de retenção.
+
+Os seguintes arquivos podem ser excluídos:
+
+- Quando você usa uma política de retenção: Todos os arquivos em bibliotecas de documentos, que incluem quaisquer bibliotecas de documentos do Microsoft Office SharePoint Online criadas automaticamente, como **Ativos de Sites** .
+    
+- Quando você usa rótulos de retenção: Todos os arquivos em todas as bibliotecas de documentos e todos os arquivos no nível raiz que não estão em uma pasta.
+    
+    Ao usar uma [consulta KQL com uma política de aplicação automática para um rótulo de retenção](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties), você pode excluir bibliotecas de documentos usando a seguinte entrada: `NOT(DocumentLink:"<URL to document library>")`
+
 
 ## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive
 
@@ -69,6 +88,10 @@ Quando as configurações forem reter somente ou excluir somente, os caminhos de
 
 2. **Se o conteúdo não for excluído** durante o período configurado: no final do período configurado na política de retenção, o documento é movido para a lixeira de primeiro estágio. Se um usuário excluir o documento da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na lixeira de primeiro ou de segundo estágio. Como a lixeira não está indexada, ela não está disponível para pesquisa. Como resultado, uma pesquisa de descoberta eletrônica não encontra conteúdos da lixeira para colocar uma retenção.
 
+## <a name="how-retention-works-for-onenote-content"></a>Como funciona a retenção para o conteúdo do Microsoft OneNote
+
+Quando você aplica uma política de retenção a um local que inclui conteúdo do Microsoft OneNote, as diferentes seções do Microsoft OneNote são, na verdade, arquivos diferentes. Isso significa que cada seção será retida e excluída individualmente, de acordo com as configurações de retenção que você especificar.
+
 ## <a name="how-retention-works-with-document-versions-in-a-site-collection"></a>Como funciona a retenção com versões de documento em um conjunto de sites
 
 O controle de versão é um recurso de todas as bibliotecas de documentos no SharePoint e no OneDrive. Por padrão, o controle de versão retém no mínimo 500 versões principais, embora você possa aumentar esse limite. Para saber mais, confira [Habilitar e configurar o controle de versão para uma lista ou biblioteca](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37) e [Como funciona o controle de versão em listas e bibliotecas](https://support.microsoft.com/office/how-versioning-works-in-lists-and-libraries-0f6cd105-974f-44a4-aadb-43ac5bdfd247).
@@ -88,11 +111,11 @@ Esse não é o caso para rótulos de retenção quando uma política de retenç�
 
 ## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização
 
-**SharePoint**:
+**SharePoint** :
 
 Quando um usuário sai organização, qualquer conteúdo criado por ele não será afetado porque o SharePoint é considerado um ambiente colaborativo, ao contrário da caixa de correio ou da conta OneDrive de um usuário.
 
-**OneDrive**:
+**OneDrive** :
 
 Se um usuário sair da organização, quaisquer arquivos sujeitos a uma política de retenção ou que tenham rótulos de retenção permanecerão pela duração da política ou do rótulo.  Durante esse período, todo o acesso à compartilhamentos continua a funcionar. Quando o período de retenção expira, o conteúdo é movido para a Lixeira de Conjuntos de Sites e não pode ser acessado por ninguém, exceto pelo administrador. Se um documento for marcado por um rótulo de retenção como um registro, o documento não será excluído até que o período de retenção termine, após o qual o conteúdo será permanentemente excluído.
 

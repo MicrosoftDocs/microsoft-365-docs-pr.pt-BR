@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: fe28e51aa7d93872e5683c3682c110275ece3d54
-ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
+ms.openlocfilehash: 089a34d1e9a002bd61e688cd3f721c6e8249c5b7
+ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48651425"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48755580"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -57,9 +57,9 @@ Essas configurações de retenção funcionam com o conteúdo que poupa os demai
 
 Quando o conteúdo tiver as configurações de retenção atribuídas a ele, esse conteúdo permanecerá no local original. As pessoas podem continuar a trabalhar com seus documentos ou emails como se nada tivesse mudado. Porém, se elas editarem ou excluírem o conteúdo incluído na política de retenção, uma cópia do conteúdo será retida automaticamente no momento em que você aplicou as configurações de retenção.
   
-- Para sites do Microsoft Office SharePoint Online e do OneDrive: a cópia é retida na biblioteca de **Retenção para Preservação**.
+- Para sites do Microsoft Office SharePoint Online e do OneDrive: a cópia é retida na biblioteca de **Retenção para Preservação** .
 
-- Para as caixas de correio do Exchange: a cópia é mantida na pasta **Itens Recuperáveis**. 
+- Para as caixas de correio do Exchange: a cópia é mantida na pasta **Itens Recuperáveis** . 
 
 - Para as mensagens do Teams e do Yammer: a cópia é mantida em uma pasta oculta chamada **SubstrateHolds** como uma subpasta na pasta **Itens Recuperáveis** do Exchange.
 
@@ -168,7 +168,7 @@ Com os rótulos de retenção, você pode:
 
 - **Inicie o período de retenção a partir do momento em que o conteúdo foi rotulado** para documentos em sites do Microsoft Office SharePoint Online e contas do OneDrive e para itens de email com exceção dos itens do calendário. Se você aplicar um rótulo de retenção com essa configuração em um item de calendário, o período de retenção será iniciado a partir do momento em que ele for enviado.
 
-- **Iniciar o período de retenção quando um evento ocorrer**, como funcionários saem da organização ou os contratos expiram.
+- **Iniciar o período de retenção quando um evento ocorrer** , como funcionários saem da organização ou os contratos expiram.
 
 - **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
 
@@ -250,7 +250,7 @@ Voce pode fazer uma busca detalhada usando o [explorador de conteúdo](data-clas
 > [!TIP]
 >Considere o uso de algumas das outras ideias de classificação de dados, como classificadores treináveis e tipos de informações confidenciais, para ajudar você a identificar o conteúdo que pode ser necessário reter, excluir, ou gerenciar como registros.
 
-O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel**, e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo**. Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
+O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel** , e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo** . Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
 - [Exibir os relatórios de governança de dados](view-the-data-governance-reports.md)
 - [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
 - [Exibir a atividade de rótulos de documentos](view-label-activity-for-documents.md)
@@ -278,7 +278,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Presença da interface de usuário para usuários finais | Não | Sim |
 |Persiste se o conteúdo for movido | Não | Sim, em seu locatário do Microsoft 365 |
 |Declarar um item como um registro| Não | Sim |
-|Iniciar o período de retenção ao rotular ou com base em um evento | Não | Sim |
+|Iniciar o período de retenção: <br /> - Quando os itens foram criados ou modificados pela última vez<br /> - Quando rotulada ou baseada em um evento | <br />Sim <br />Não | <br />Sim <br /> Sim |
 |Revisão de disposição | Não| Sim |
 |Prova de disposição por até 7 anos | Não |Sim, quando o item é declarado um registro|
 |Auditoria de atividades administrativas| Sim | Sim|

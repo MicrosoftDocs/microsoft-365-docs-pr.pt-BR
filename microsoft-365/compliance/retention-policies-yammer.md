@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Yammer.
-ms.openlocfilehash: 2918efe63947ee17cd7f55f19876ae4b98de7a8a
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 84db671b475a9dade039136380cef0bc5bde7282
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204259"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754699"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Saiba mais sobre a retenção para o Yammer
 
@@ -30,11 +30,23 @@ ms.locfileid: "48204259"
 
 As informações contidas neste artigo complementam [Saiba mais sobre retenção](retention.md) porque são informações específicas para o Yammer.
 
+Para outras cargas de trabalho, confira:
+
+- [Saiba mais sobre retenção para o Microsoft Office SharePoint Online e o OneDrive](retention-policies-sharepoint.md)
+- [Saiba mais sobre retenção para o Microsoft Teams](retention-policies-teams.md)
+- [Saiba mais sobre a retenção para o Exchange](retention-policies-exchange.md)
+
+## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
+
+Os seguintes itens do Yammer podem ser retidos e excluídos usando as políticas de retenção do Yammer: Mensagens da Comunidade e mensagens privadas.
+
+As reações de outras pessoas na forma de emoticons não estão incluídas nessas mensagens.
+
 ## <a name="how-retention-works-with-yammer"></a>Como a retenção funciona com o Yammer
 
 Você pode usar uma política de retenção para reter e excluir mensagens da comunidade e mensagens privadas no Yammer. As mensagens privadas são armazenadas em uma pasta oculta na caixa de correio de cada usuário participante da mensagem, e as mensagens da comunidade são armazenadas em uma pasta oculta semelhante na caixa de correio da comunidade.
 
-As mensagens do Yammer não são afetadas pelas políticas de retenção configuradas para as caixas de correio de usuário ou de grupos. Embora as mensagens do Yammer sejam armazenadas no Exchange, estes dados do Yammer só serão incluídos em uma política de retenção configurada para os locais das **mensagens da comunidade do Yammer** e das **mensagens privadas do Yammer**.
+As mensagens do Yammer não são afetadas pelas políticas de retenção configuradas para as caixas de correio de usuário ou de grupos. Embora as mensagens do Yammer sejam armazenadas no Exchange, estes dados do Yammer só serão incluídos em uma política de retenção configurada para os locais das **mensagens da comunidade do Yammer** e das **mensagens privadas do Yammer** .
 
 > [!NOTE]
 > Se um usuário estiver incluído em uma política de retenção ativa que retém dados do Yammer e você excluir uma caixa de correio de um usuário incluído nessa política, para reter os dados do Yammer, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md). Se você não precisar reter esses dados do Yammer para o usuário, exclua a conta de usuário da política de retenção antes de excluir a caixa de correio.
@@ -60,7 +72,7 @@ Quando a política de retenção é somente retenção ou somente exclusão, os 
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção reter somente
 
-1. **Se uma mensagem do Yammer for editada ou excluída**: uma cópia da mensagem original é criada imediatamente na pasta SubstrateHolds e mantida lá até que o período de retenção expire. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds imediatamente.
+1. **Se uma mensagem do Yammer for editada ou excluída** : uma cópia da mensagem original é criada imediatamente na pasta SubstrateHolds e mantida lá até que o período de retenção expire. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds imediatamente.
 
 2. **Se a mensagem do Yammer não for modificada ou excluída** e para as mensagens atuais após a edição durante o período de retenção: nada acontece antes e depois do período de retenção; a mensagem permanecerá no local original.
 
@@ -85,11 +97,9 @@ Se o usuário tiver armazenado os arquivos no Yammer, consulte a [seção equiva
 
 ## <a name="limitations"></a>Limitações
 
-No momento, as políticas de retenção do Yammer estão no modo de visualização e estamos trabalhando continuamente para otimizar a funcionalidade de retenção. Enquanto isso, aqui estão algumas limitações de que você deve estar ciente ao usar a retenção para as mensagens da comunidade e as mensagens privadas do Yammer:
+No momento, as políticas de retenção do Yammer estão no modo de visualização e estamos trabalhando continuamente para otimizar a funcionalidade de retenção. Enquanto isso, esteja ciente da seguinte limitação ao usar a retenção para mensagens da comunidade Yammer e mensagens privadas:
 
-- **Curtidas e outras reações não são retidas nas mensagens do Yammer**. As reações de outras pessoas na forma de emoticons não são suportadas pelas políticas de retenção.
-
-- Ao selecionar **Escolher usuários** para o local **mensagens privadas do Yammer**, você poderá ver convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
+- Ao selecionar **Escolher usuários** para o local **mensagens privadas do Yammer** , você poderá ver convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
 

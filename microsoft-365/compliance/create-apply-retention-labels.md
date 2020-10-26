@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar e publicar rótulos de retenção para que você possa aplicá-los em aplicativos para manter o que precisa e excluir o que não
-ms.openlocfilehash: 0587e868d8e9d54d0e5025d02fdbd5a5dfc0f430
-ms.sourcegitcommit: 31f25790b37dfb740530017ef1701db0c5134829
+ms.openlocfilehash: a9105b404dbeef0ff6ef247ce613f4257c3d3b2a
+ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48740275"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48755550"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Criar rótulos de retenção e aplicá-los em aplicativos
 
@@ -37,9 +37,9 @@ Os rótulos de retenção ajudam você a manter o que é necessário e a excluir
 
 Disponibilizar os rótulos de retenção para as pessoas em sua organização para que eles possam classificar o conteúdo é um processo de duas etapas: 
 
-1. Criar os rótulos de retenção
+1. Crie os rótulos de retenção.
 
-2. Publicar os rótulos de retenção usando uma política de rótulo de retenção
+2. Publique os rótulos de retenção usando uma política de rótulos de retenção.
   
 ![Diagrama de funções e tarefas para rótulos](../media/4082bc7d-c04c-4b9a-8a26-7f12565d3311.png)
 
@@ -65,15 +65,15 @@ Onde você cria e configura seus rótulos de retenção depende se você está u
     - Se você não estiver usando o gerenciamento de registros:
        - **Soluções** > **Governança de Informações** >  guia **Rótulos** > + **Criar um Rótulo**
     
-    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo** . 
 
 2. Siga as instruções do assistente. Se você estiver usando o gerenciamento de registros:
     
     - Para saber mais sobre os descritores de plano de arquivo, confira [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md)
     
-    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
+    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios** . Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
 
-3. Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar o rótulo automaticamente ou salvar o rótulo: selecione **Basta salvar o rótulo para agora**e, em seguida, selecione **Concluído**.
+3. Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar o rótulo automaticamente ou salvar o rótulo: selecione **Basta salvar o rótulo para agora** e, em seguida, selecione **Concluído** .
 
 4. Repita essas etapas para criar mais rótulos.
 
@@ -91,13 +91,13 @@ Publique os rótulos de retenção para que eles possam ser aplicados pelos usu�
     - Se você não estiver usando o gerenciamento de registros:
         - **Soluções** > **Governança de Informações** >  guia **Políticas de Rótulo** > **Publicar Rótulos**
     
-    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo** . 
 
 2. Siga as instruções do assistente.
     
     Para obter informações sobre os locais suportados pelos rótulos de retenção, confira a seção[Rótulos e locais de retenção](retention.md#retention-label-policies-and-locations). 
 
-Para editar uma política de rótulo de retenção existente (o tipo de política é **Publicar**), selecione-a e, em seguida, selecione a opção **Editar** para iniciar a política de retenção de edição. Esse assistente permite alterar a descrição da política e as [configurações elegíveis](#updating-retention-labels-and-their-policies) na etapa 2.
+Para editar uma política de rótulo de retenção existente (o tipo de política é **Publicar** ), selecione-a e, em seguida, selecione a opção **Editar** para iniciar a política de retenção de edição. Esse assistente permite alterar a descrição da política e as [configurações elegíveis](#updating-retention-labels-and-their-policies) na etapa 2.
 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>Quando os rótulos de retenção se tornam disponíveis para aplicar
@@ -234,19 +234,19 @@ Then, create one or more label policies that contain the labels and policy setti
 
 This method requires retention labels to be published to a retention label policy.
 
-In addition to enabling people to apply a retention label to individual documents, you can also apply a default retention label to a SharePoint library, folder, or document set, so that all documents in that location inherit the default retention label.
+In addition to enabling people to apply a retention label to individual documents, you can also apply a default retention label to a SharePoint library, folder, or document set, so that all documents in that location inherit the default retention label. Although the same label is applied, each document will be retained and deleted separately, according to the start of the retention period setting in the label. 
   
-For a document library, this is done on the **Library settings** page for a document library. When you choose the default retention label, you can also choose to apply it to existing items in the library. 
+For a document library, the default label configuration is done on the **Library settings** page for a document library. When you choose the default retention label, you can also choose to apply it to existing items in the library. 
   
-For example, if you have a tag for marketing materials, and you know a specific document library contains only that type of content, you can make the Marketing Materials tag the default for all documents in that library.
+For example, if you have a retention label for marketing materials, and you know a specific document library contains only that type of content, you can make the **Marketing Materials** retention label the default label for all documents in that library.
   
 ![Apply label option on library Settings page](../media/0787d651-63dc-43b4-8768-716a5ecc64ec.png)
   
 If you apply a default retention label to existing items in the library, folder, or document set:
   
-- All items in the library, folder, or document set automatically get the same retention label, **except** for items that have had a retention label applied explicitly to them (such as records). Explicitly labeled items keep their existing label. For more information, see the below section on [The principles of retention, or what takes precedence](retention.md#the-principles-of-retention-or-what-takes-precedence).
+- All items in the library, folder, or document set automatically get the same retention label, **except** for items that already have a retention label applied to them.
     
-- If you change or remove the default retention label for a library, folder, or document set, the retention label is also changed or removed for all items in the library, folder, or document set, **except** items with explicit retention labels (such as records).
+- If you change or remove the default retention label for a library, folder, or document set, the retention label is also changed or removed for all items in the library, folder, or document set, **except** items that were manually labeled.
     
 - If you move an item with a default retention label from one site collection, library, folder, or document set to another site collection, library, folder, or document set that has a different label, the item keeps its existing default retention label, even if the new location has a different default retention label. If the item does not have a label before moving, it will take on the default retention label of the new location.
 
