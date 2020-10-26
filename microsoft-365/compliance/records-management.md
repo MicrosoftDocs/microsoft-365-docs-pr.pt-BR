@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: 497e8b9fce06ae64d9f4396f2db05e65274f61dd
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: e6e72a14d0d3e22823c8341145f64721831586f9
+ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398998"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48755560"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
@@ -106,7 +106,6 @@ Mensagem que um usuário vê se tentar excluir um documento rotulado no SharePoi
 > Além disso, os rótulos de retenção configurados para registros regulatórios têm as seguintes restrições de administrador:
 > - Não é possível tornar o período de retenção mais curto depois que o rótulo é salvo, somente estendido.
 > - Esses rótulos não têm suporte por políticas de rotulamento automático e devem ser aplicados usando [políticas de rótulo de retenção](create-apply-retention-labels.md). 
-> - Depois de ter adicionado e salvo esses rótulos a uma política de rótulo de retenção, você não pode remover esses rótulos de locais, só adicionar locais.
 > 
 > Devido a essas ações irreversíveis, certifique-se de que realmente precise usar registros regulatórios antes de selecionar essa opção para os seus rótulos de retenção. Para ajudar a evitar a configuração acidental, essa opção não está disponível por padrão, mas deve ser habilitada primeiro usando o Windows PowerShell. As instruções estão incluídas no [Declarar registros usando os rótulos de retenção](declare-records.md).
 

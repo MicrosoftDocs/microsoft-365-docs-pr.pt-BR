@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c47d682d7b3c52fa5ca5b71386a764f3b3da693
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 229eb733af85ea5f450969c6d70709cfadcb8f06
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546953"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681769"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
-[Os tipos de informações confidenciais personalizados](custom-sensitive-info-types.md) são usados para ajudar a identificar itens confidenciais, para que você possa impedi-los de serem compartilhados inadequadamente ou incorretamente. Você define um tipo de informações confidenciais personalizada com base em:
+[Tipos de informações confidenciais personalizadas](custom-sensitive-info-types.md) são usadas para ajudar a identificar itens confidenciais para que você possa evitar que sejam compartilhados inadvertidamente ou inadequadamente. Você define um tipo de informações confidenciais personalizada com base em:
 
 - padrões
-- evidência de palavra-chave, como *funcionário*, *selo*, ou *ID*
+- evidência de palavra-chave, como *funcionário*, * alça de preenchimento* ou *ID*
 - proximidade de um caractere da evidência em um padrão específico
 - níveis de confiança
 
@@ -46,7 +46,7 @@ Mas e se você quiser um tipo personalizado de informações confidenciais que u
 
 ![Classificação baseada em EDM](../media/EDMClassification.png)
 
-A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente e pode conter até 100 milhões de linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) (DLP) ou políticas de arquivo do [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/data-protection-policies).
+A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente e pode conter até 100 milhões de linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) (DLP) ou [políticas de arquivo do Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/data-protection-policies).
 
 > [!NOTE]
 > A Proteção de Informações do Microsoft 365 agora oferece suporte a idiomas de conjunto de caracteres de byte duplo de visualização:
@@ -54,20 +54,12 @@ A classificação baseada no EDM permite criar tipos personalizados de informaç
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
-> 
->Esta visualização está apenas na nuvem comercial e a implementação está limitada para:
-> - Japão
-> - Coreia
-> - China
-> - Hong Kong
-> - Macau
-> - Taiwan
->
+
 >Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
-Você deve ser um administrador global, administrador de conformidade ou administrador do Exchange Online para executar as tarefas descritas neste artigo. Para saber mais sobre permissões DLP, consulte [Permissões](data-loss-prevention-policies.md#permissions).
+Você deve ser um administrador global, administrador de conformidade ou administrador do Exchange Online para executar as tarefas descritas neste artigo. Para saber mais sobre permissões DLP, confira [Permissões](data-loss-prevention-policies.md#permissions).
 
 A classificação baseada em EDM está incluída nestas assinaturas
 
@@ -110,18 +102,18 @@ Organizar e configurar a classificação baseada em EDM envolve:
       - Até 32 colunas (campos) por fonte de dados
       - Até 5 colunas (campos) marcadas como pesquisáveis
 
-2. Estruture os dados confidenciais no arquivo .csv, de modo que a primeira linha inclui os nomes dos campos usados na classificação baseada em EDM. Você pode ter nomes de campo no arquivo .csv, como "CPF", "data de nascimento", "nome", "sobrenome". Os nomes de cabeçalhos de coluna não podem conter espaços ou sublinhados. Por exemplo, nosso arquivo .csv é chamado  *PatientRecords.csv*, e suas colunas incluem  *PacientID*, *MRN*, *LastName*, *FirstName*, *SSN* e mais.
+2. Estruture os dados confidenciais no arquivo .csv, de modo que a primeira linha inclui os nomes dos campos usados na classificação baseada em EDM. Você pode ter nomes de campo no arquivo .csv, como "CPF", "data de nascimento", "nome", "sobrenome". Os nomes de cabeçalhos de coluna não podem conter espaços ou sublinhados. Por exemplo, o arquivo .csv de amostra que usamos neste artigo é denominado *PatientRecords.csv* e suas colunas incluem *PatientID*, *MRN*, * LastName*, *FirstName*, *SSN* e mais.
 
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>Definir o esquema para seu banco de dados de informações confidenciais
 
-3. Defina o esquema para o banco de dados de informações confidenciais no formato XML (semelhante ao nosso exemplo a seguir). Nomeie esse esquema do arquivo **edm.xml** e configure-o para cada coluna no banco de dados, há uma linha que usa a sintaxe: 
+3. Defina o esquema para o banco de dados de informações confidenciais no formato XML (semelhante ao nosso exemplo a seguir). Nomeie esse arquivo de esquema como **edm.xml** e configure-o de forma que, para cada coluna no banco de dados, haja uma linha que use a sintaxe: 
 
       `\<Field name="" searchable=""/\>`.
 
-      - Use nomes de coluna para valores de *Nome do campo* .
-      - Use  *searchable="true"*  para até 5 campos pesquisáveis. Pelo menos um campo deve ser pesquisável.
+      - Use nomes de coluna para valores de *Nome de campo*.
+      - Use *searchable = "true"* para os campos que você deseja que sejam pesquisáveis de ​​até no máximo 5 campos. Pelo menos um campo deve ser pesquisável.
 
-      Por exemplo, o arquivo XML a seguir define o esquema para um banco de dados de registros de paciente, com cinco campos especificados como pesquisáveis:  *PatientID*, *Número de prontuário médico*, *CPF*, *Telefone*e  *Data de nascimento*.
+      Como exemplo, o seguinte arquivo XML define o esquema para um banco de dados de registros de pacientes, com cinco campos especificados como pesquisáveis: *PatientID*, *MRN*, *SSN*, *Telefone* e *DOB*.
 
       (Você pode copiar, modificar e usar nosso exemplo.)
 
@@ -161,7 +153,7 @@ Organizar e configurar a classificação baseada em EDM envolve:
       > \[S\] Sim \[A\] Sim para Todos \[N\] Não \[L\] Não para Todos \[?\] Ajuda (padrão é “Y”):
 
 > [!TIP]
-> Se você quiser que as suas alterações ocorram sem confirmação, na Etapa 5, use este cmdlet: New-DlpEdmSchema -FileData $edmSchemaXml
+> Se você deseja que suas alterações ocorram sem confirmação, na Etapa 5, use este cmdlet: New-DlpEdmSchema -FileData $edmSchemaXml
 
 > [!NOTE]
 > Pode levar de 10 a 60 minutos para atualizar o EDMSchema com as adições. A atualização deve ser concluída antes que você execute as etapas que usam as adições.
@@ -172,7 +164,7 @@ Organizar e configurar a classificação baseada em EDM envolve:
 
       Ao configurar o seu pacote de regras, certifique-se de referenciar corretamente o arquivo .csv e o arquivo **edm.xml**. Você pode copiar, modificar e usar nosso exemplo. Neste exemplo de xml, os seguintes campos precisam ser personalizados para criar seu tipo confidencial do EDM:
 
-      - **RulePack id e ExactMatch id**: use [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) para gerar um GUID.
+      - **Id do RulePack e id ExactMatch**: Use [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) para gerar um GUID.
 
       - **Datastore**: este campo especifica o repositório de dados de pesquisa EDM a ser usado. Forneça um nome de fonte de dados de um esquema EDM configurado.
 
@@ -235,7 +227,7 @@ Organizar e configurar a classificação baseada em EDM envolve:
 
 Nesse ponto, você configurou a classificação baseada em EDM. A próxima etapa é criar o hash dos dados confidenciais e carregar os hashes de indexação.
 
-Lembre-se do procedimento anterior onde o nosso esquema PatientRecords define cinco campos como pesquisáveis:  *PatientID*, *Número de prontuário médico*, *CPF*, *Telefone* e  *Data de nascimento*. O nosso pacote de regras de exemplo inclui esses campos e faz referência ao arquivo de esquema do banco de dados (**edm.xml**), com um item  *ExactMatch*  por campo pesquisável. Considere o seguinte item ExactMatch:
+Lembre-se do procedimento anterior onde o nosso esquema PatientRecords define cinco campos como pesquisáveis: *PatientID*, *MRN*, *SSN*, *Phone* e *DOB*. Nosso pacote de regras de exemplo inclui esses campos e faz referência ao arquivo de esquema do banco de dados (**edm.xml**), com um item *ExactMatch* por campo pesquisável. Considere o seguinte item ExactMatch:
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
@@ -258,11 +250,11 @@ Lembre-se do procedimento anterior onde o nosso esquema PatientRecords define ci
 
 Nesse exemplo, observe que:
 
-- O nome do dataStore faz referência ao arquivo .csv que criamos anteriormente: **dataStore = "PatientRecords"**.
+- O nome do dataStore faz referência ao arquivo .csv que criamos anteriormente: **dataStore = "PatientRecords"**.
 
-- O valor idMatch faz referência a um campo pesquisável listado no arquivo de esquema do banco de dados:  **idMatch matches = "SSN"**.
+- O valor idMatch faz referência a um campo pesquisável listado no arquivo de esquema do banco de dados: **idMatch matches = "SSN"**.
 
-- O valor de classificação faz referência a um tipo de informação confidencial existente ou personalizada: **classification = "Número de Seguridade Social dos EUA (SSN)"**. (Nesse caso, usamos o tipo de informação confidencial existente do Número de Seguridade Social dos EUA.)
+- O valor de classificação faz referência a um tipo de informação confidencial existente ou personalizada: **classification = "Número de Seguridade Social dos EUA (SSN)"**. (Nesse caso, usamos o tipo de informação confidencial existente do Número de Seguridade Social dos EUA.)
 
 > [!NOTE]
 > Pode levar de 10 a 60 minutos para atualizar o EDMSchema com as adições. A atualização deve ser concluída antes que você execute as etapas que usam as adições.
@@ -271,7 +263,7 @@ Nesse exemplo, observe que:
 
 Se você quiser fazer alterações em seu arquivo **edm.xml**, como alterar quais os campos usados para a classificação baseada em EDM, siga estas etapas:
 
-1. Edite o seu arquivo **edm.xml** (este é o arquivo discutido na seção [Definir o esquema](#define-the-schema-for-your-database-of-sensitive-information)  deste artigo).
+1. Edite seu arquivo **edm.xml** (este é o arquivo discutido na seção [Definir o esquema](#define-the-schema-for-your-database-of-sensitive-information) deste artigo).
 
 2. Conectar ao centro de Conformidade e Segurança usando os procedimentos em [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
@@ -293,7 +285,7 @@ Se você quiser fazer alterações em seu arquivo **edm.xml**, como alterar quai
       > \[S\] Sim \[A\] Sim para Todos \[N\] Não \[L\] Não para Todos \[?\] Ajuda (padrão é “Y”):
 
       > [!TIP]
-      > Se você quiser que as suas alterações ocorram sem confirmação, na Etapa 3, use este cmdlet: Set-DlpEdmSchema -FileData $edmSchemaXml
+      > Se você quiser que suas alterações ocorram sem confirmação, na Etapa 3, use este cmdlet: Set-DlpEdmSchema -FileData $edmSchemaXml
 
       > [!NOTE]
       > Pode levar de 10 a 60 minutos para atualizar o EDMSchema com as adições. A atualização deve ser concluída antes que você execute as etapas que usam as adições.
@@ -321,7 +313,7 @@ Se você quiser fazer alterações em seu arquivo **edm.xml**, como alterar quai
       > \[S\] Sim \[A\] Sim para Todos \[N\] Não \[L\] Não para Todos \[?\] Ajuda (padrão é “Y”):
 
       > [!TIP]
-      >  Se você quiser que as alterações ocorram sem confirmação, na Etapa 2, use este cmdlet: Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false
+      >  Se você deseja que suas alterações ocorram sem confirmação, na Etapa 2, use este cmdlet: Remove-DlpEdmSchema -Identity patientrecords -Confirm: $ false
 
 
 <!-- salt notes
@@ -405,16 +397,16 @@ Se você não quiser expor o seu arquivo de dados confidenciais de texto não cr
 
 #### <a name="set-up-the-security-group-and-user-account"></a>Configuração do grupo de segurança e conta de usuário
 
-1. Como um administrador global, acesse o centro de administração usando o apropriado [link para sua assinatura](#portal-links-for-your-subscription) e  [criar um grupo de segurança](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) chamado de  **EDM\_DataUploaders**.
+1. Como administrador global, vá para o centro de administração usando o [link apropriado para sua assinatura](#portal-links-for-your-subscription) e [crie um grupo de segurança](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) chamado **EDM\_DataUploaders**.
 
-2. Adicione um ou mais usuários ao grupo de segurança **EDM\_DataUploaders** . (Esses usuários vão gerenciar o banco de dados de informações confidenciais.)
+2. Adicione um ou mais usuários ao grupo de segurança **EDM\_DataUploaders**. (Esses usuários vão gerenciar o banco de dados de informações confidenciais.)
 
 #### <a name="hash-and-upload-from-one-computer"></a>Hash e carregamento de um computador
 
 Esse computador deve ter acesso direto ao seu locatário do Microsoft 365.
 
 >[!NOTE]
-> Antes de iniciar esse procedimento, certifique-se de que você é um membro do grupo de segurança **EDM\_DataUploaders** .
+> Antes de iniciar este procedimento, certifique-se de que você é membro do grupo de segurança **EDM\_DataUploaders**.
 
 #### <a name="links-to-edm-upload-agent-by-subscription-type"></a>Links para o agente de carregamento EDM por tipo de assinatura
 
@@ -494,9 +486,9 @@ Se você quiser ver todos os carregamentos de dados em um determinado armazename
 
 `EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
 
-Prossiga para configurar seu processo e cronograma da [Atualização de banco de dados de informação confidencial](#refreshing-your-sensitive-information-database).
+Prossiga para configurar seu processo e agenda da [Atualização de banco de dados de informação confidencial](#refreshing-your-sensitive-information-database).
 
-Nesse ponto, você já usou a classificação baseada em EDM com os serviços de nuvem da Microsoft. Por exemplo, você pode [configurar uma política usando a classificação baseada em EDM](#to-create-a-dlp-policy-with-edm).
+Nesse ponto, você já usou a classificação baseada em EDM com os serviços de nuvem da Microsoft. Por exemplo, você pode [configurar uma política usando a classificação baseada em EDM](#to-create-a-dlp-policy-with-edm).
 
 #### <a name="refreshing-your-sensitive-information-database"></a>Atualização do banco de dados de informações confidenciais
 
@@ -504,18 +496,18 @@ Você pode atualizar seu banco de dados confidenciais diariamente, e a ferrament
 
 1. Determine seu processo e a frequência (diariamente ou semanalmente) para atualização do banco de dados de informações confidenciais.
 
-2. Exporte novamente os dados confidenciais para um aplicativo, como o Microsoft Excel, e salve o arquivo no formato .csv. Mantenha o mesmo nome do arquivo e o local que você usou ao seguir as etapas descritas em [Hash e carregamento de dados confidenciais](#part-2-hash-and-upload-the-sensitive-data).
+2. Exporte novamente os dados confidenciais para um aplicativo, como o Microsoft Excel, e salve o arquivo no formato .csv. Mantenha o mesmo nome de arquivo e local que você usou quando seguiu as etapas descritas em [Hash e upload de dados confidenciais](#part-2-hash-and-upload-the-sensitive-data).
 
       > [!NOTE]
       > Se não houver alterações na estrutura (nomes de campos) do arquivo .csv, você não precisará fazer alterações no arquivo de esquema do banco de dados ao atualizar os dados. Mas se for necessário fazer alterações, não deixe de editar o esquema de banco de dados e seu pacote de regra correspondente.
 
-3. Use o [Agendador de tarefas](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) para automatizar as etapas 2 e 3 no procedimento de  [Hash e carregamento de dados confidenciais](#part-2-hash-and-upload-the-sensitive-data) . Você pode agendar tarefas usando vários métodos:
+3. Use o [Agendador de tarefas](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) para automatizar as etapas 2 e 3 no procedimento [Hash e fazer upload dos dados confidenciais](#part-2-hash-and-upload-the-sensitive-data). Você pode agendar tarefas usando vários métodos:
 
       | Método             | O que fazer |
       | ---------------------- | ---------------- |
-      | Windows PowerShell     | Confira a [documentação do ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) e o [exemplo do script do PowerShell](#example-powershell-script-for-task-scheduler) neste artigo. |
-      | API do Agendador de Tarefas     | Confira a documentação do [Agendador de Tarefas](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler)                                                                                                                                                                                                                                                                                 |
-      | Interface do usuário do Windows | No Windows, clique em **Iniciar** e digite Agendador de Tarefas. Em seguida, na lista de resultados, clique com o botão direito do mouse no **Agendador de Tarefas** e escolha **executar como administrador**.                                                                                                                                                                                                                                                                           |
+      | Windows PowerShell     | Confira a documentação do [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) e o [exemplo do script do PowerShell](#example-powershell-script-for-task-scheduler) neste artigo |
+      | API do Agendador de Tarefas     | Confira a documentação do [Agendador de tarefas](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler)                                                                                                                                                                                                                                                                                |
+      | Interface do usuário do Windows | No Windows, clique em **Iniciar** e digite Agendador de tarefas. Em seguida, na lista de resultados, clique com o botão direito do mouse no **Agendador de Tarefas**, e escolha **executar como administrador**.                                                                                                                                                                                                                                                                           |
 
 #### <a name="example-powershell-script-for-task-scheduler"></a>Exemplo de script do PowerShell para o Agendador de Tarefas
 
@@ -607,36 +599,36 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 
 1. Vá para o Centro de Conformidade e Segurança usando o apropriado [link para sua assinatura](#portal-links-for-your-subscription).
 
-2. Clique em **Prevenção contra perda de dados** \> **Política**.
+2. Escolha a **Política**\>**de prevenção contra perda de dados**.
 
-3. Clique em **Criar uma política** \> **Personalizar** \> **Próximo**.
+3. Escolha **Criar uma política**\>**Personalizada**\>**Avançar**.
 
-4. Na guia **Nomear sua política** , especifique um nome e uma descrição e, em seguida, clique em **Próximo**.
+4. Na guia **Nomear sua política**, especifique um nome e uma descrição e, em seguida, escolha **Próximo**. 
 
-5. Na guia **Escolher locais** , clique em **Escolher locais específicos**e, em seguida, clique em **Próximo**.
+5. Na guia **Escolher locais**, clique em **Escolher locais específicos** e, em seguida, clique em **Próximo**.
 
-6. Na coluna **Status** , escolha **email do Exchange, contas do OneDrive, mensagem de canal e chat do Teams** e, em seguida, escolha **Próximo**.
+6. Na coluna **Status**, selecione **Trocar email, contas do OneDrive, chats do Teams e mensagem do canal**, e escolha **Próximo**.
 
-7. Na guia **Configurações de política** , escolha **Usar configurações avançadas**e, em seguida, clique em **Próximo**.
+7. Na guia **Configurações de política**, escolha **Usar configurações avançadas** e, em seguida, clique em **Próximo**.
 
-8. Escolha **+ Nova regra**.
+8. Escolha **+ Nova regra**.
 
-9. Na seção **Nome** , especifique um nome e uma descrição para a regra.
+9. Na seção **Nome**, especifique um nome e uma descrição para a regra.
 
-10. Na seção **Condições** , na lista **Adicionar uma condição** , escolha **Conteúdo contém tipo confidencial**.
+10. Na seção **Condições**, na lista **+ Adicionar uma condição**, escolha **Conteúdo contém tipo confidencial**.
 
       ![O conteúdo contém tipos de informações confidenciais](../media/edm-dlp-newrule-conditions.png)
 
-11. Pesquise o tipo de informação confidencial que você criou ao configurar o pacote de regras e, em seguida, escolha **+ Adicionar**.  
-    Em seguida, escolha **Concluído**.
+11. Pesquise pelo tipo de informação confidencial que você criou ao configurar o pacote de regras e, em seguida, escolha **+ Adicionar**.  
+    Então escolha **Concluído**.
 
-12. Termine de selecionar as opções para a regra, como **Notificações de usuário**, **Substituições do usuário**, **Relatórios de incidente**, e assim por diante, e depois clique em **Salvar**.
+12. Termine de selecionar as opções para a regra, como **Notificações de usuário**, **Substituições do usuário**, **Relatórios de incidente**, e assim por diante, e depois clique em **Salvar**.
 
-13. Na guia **Configurações de política** , revise suas regras e, em seguida, clique em **Próximo**.
+13. Na guia **Configurações de política**, revise suas regras e, em seguida, clique em **Próximo**.
 
-14. Especifique se deseja ativar a política imediatamente, testá-la ou desativá-la. Em seguida, escolha **Próximo**.
+14. Especifique se deseja ativar a política imediatamente, testá-la ou desativá-la. Depois clique em **Próximo**.
 
-15. Na guia **Revisar suas configurações** , revise sua política. Faça todas as alterações necessárias. Quando concluir, clique em **Criar**.
+15. Na guia **Revisar suas configurações**, revise sua política. Faça todas as alterações necessárias. Quando concluir, clique em **Criar**.
 
 > [!NOTE]
 > Espere aproximadamente uma hora para sua nova política DLP funcionar em seu data center.

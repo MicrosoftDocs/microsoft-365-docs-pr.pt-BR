@@ -18,28 +18,27 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: 'Resumo: conectar-se a todos os serviços do Microsoft 365 usando uma única janela do PowerShell.'
-ms.openlocfilehash: 36b16b491aa97e7329e440e2c1fb01b8a221a2b6
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 04be916f745e2bde70554045340fc8ec03f87413
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477048"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754311"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Conectar-se a todos os serviços do Microsoft 365 usando uma única janela do PowerShell
 
-Quando você usa o PowerShell para gerenciar o Microsoft 365, é possível ter múltiplas sessões diferentes do PowerShell do Windows abertas ao mesmo tempo em janelas diferentes do PowerShell, correspondentes ao gerenciamento das contas de usuário, ao SharePoint Online, ao Exchange Online, ao Skype for Business Online, ao Microsoft Teams e ao Centro de Conformidade &amp; Segurança. 
+Ao usar o Windows PowerShell para gerenciar o Microsoft 365, você pode ter várias sessões do PowerShell abertas ao mesmo tempo. Você pode ter diferentes janelas do PowerShell para gerenciar contas de usuário, Microsoft Office SharePoint Online, Exchange Online, Skype for Business Online, Microsoft Teams e o &amp; Centro de Conformidade de Segurança.
   
-Essa não é uma forma ideal de gerenciar o Microsoft 365 porque não é possível trocar dados entre essas janelas para o gerenciamento de diversos serviços. Este tópico descreve como usar uma única instância do PowerShell a partir da qual você pode gerenciar suas contas do Microsoft 365, do Skype for Business Online, do Exchange Online, do SharePoint Online, do Microsoft Teams e do Centro de Conformidade e &amp; Segurança.
+Este cenário não é ideal para gerenciar o Microsoft 365, porque você não pode trocar dados entre essas janelas para gerenciamento entre serviços. Este artigo descreve como usar uma única instância do Windows PowerShell para gerenciar contas do Microsoft 365, Skype for Business Online, Exchange Online, Microsoft Office SharePoint Online, Microsoft Teams e o &amp; Centro de Conformidade de Segurança.
 
 >[!Note]
->Atualmente este artigo contém apenas os comandos necessários para se conectar com a nuvem mundial (+GCC). As observações fornecem links para os artigos que contêm informações sobre como se conectar à outras nuvens do Microsoft 365.
->
+>Atualmente este artigo contém apenas os comandos necessários para se conectar com a nuvem mundial (+GCC). As notas fornecem links para artigos sobre conexão com outras nuvens do Microsoft 365.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 Antes que você possa gerenciar o Microsoft 365 inteiro a partir de uma única instância do PowerShell, considere os seguinte pré-requisitos:
   
-- A conta corporativa ou de estudante do Microsoft 365 que você usa para esses procedimentos precisa ser membro de uma função de administrador do Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles). Isso é obrigatório para o PowerShell no Microsoft 365, mas não necessariamente para todos os demais serviços do Microsoft 365.
+- A conta corporativa ou de estudante do Microsoft 365 que você usa deve ser membro de uma função de administrador do Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles). Este é um requisito do Windows PowerShell para Microsoft 365, mas não necessariamente para todos os outros serviços do Microsoft 365.
     
 - Você pode usar as seguintes versões de 64 bits do Windows:
     
@@ -57,7 +56,7 @@ Antes que você possa gerenciar o Microsoft 365 inteiro a partir de uma única i
     
   - Windows Server 2008 R2 SP1*
     
-    \*É necessário instalar o Microsoft .NET Framework 4.5.*x* e, em seguida, o Windows Management Framework 3.0 ou o Windows Management Framework 4.0. Para obter mais informações, consulte [Instalar o .NET Framework](https://go.microsoft.com/fwlink/p/?LinkId=257868) e [Windows Management 3.0](https://go.microsoft.com/fwlink/p/?LinkId=272757), ou o [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?LinkId=391344).
+    \* É necessário instalar o Microsoft .NET Framework 4.5. *x* e o Windows Management Framework 3.0 ou 4.0. Para obter mais informações, confira [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview?view=powershell-7).
     
     É preciso usar a versão de 64 bits do Windows devido aos requisitos do módulo do Skype for Business Online e de um dos módulos do Microsoft 365.
     
@@ -69,21 +68,19 @@ Antes que você possa gerenciar o Microsoft 365 inteiro a partir de uma única i
   - [PowerShell do Exchange Online V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
   - [Visão Geral do PowerShell do Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
--  O PowerShell precisa ser configurado para executar os scripts assinados do Skype for Business Online e do Centro de Conformidade e &amp; Segurança. Para fazer isso, execute o comando a seguir em uma janela elevada do PowerShell (uma janela do PowerShell que você abre quando seleciona **Executar como administrador**).
+-  O Windows PowerShell deve ser configurado para executar scripts assinados para o Cliente Skype® for Business Online e o &amp; Centro de Conformidade de Segurança. Execute o seguinte comando em uma sessão Windows PowerShell elevada (uma sessão PowerShell que você **Executa como administrador**).
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
    ```
 
-## <a name="exchange-online-and-security-amp-compliance-center-with-the-exchange-online-powershell-v2-module"></a>Exchange Online e Centro de Conformidade &amp; e Segurança com o módulo do Windows PowerShell V2 do Exchange Online
+## <a name="exchange-online-and-security-amp-compliance-center-with-the-exchange-online-powershell-v2-module"></a>O Exchange Online e o &amp; Centro de Conformidade de Segurança com o módulo do Windows PowerShell V2 do Exchange Online
 
-Este artigo usa o módulo do Microsoft Windows PowerShell V2 do Exchange Online para se conectar ao Centro de Conformidade do Exchange Online e ao Centro de Conformidade &amp; e Segurança. No entanto, neste momento você não consegue se conectar ao Exchange Online e ao &amp; Centro de Conformidade **e Segurança na mesma janela do Windows PowerShell**.
-
-Portanto, você deve escolher uma conexão com o Exchange Online *ou* o Centro de Conformidade &amp; e Segurança ao configurar uma janela do PowerShell para vários serviços do Microsoft 365.
+Os procedimentos neste artigo usam o módulo Exchange Online Windows PowerShell V2 para ambos se conectarem ao Exchange Online e ao &amp; Centro de Conformidade de Segurança. Mas atualmente você não pode se conectar a ambos *na mesma janela do Windows PowerShell*. Portanto, você deve escolher se conectar a um ou outro ao configurar uma janela do PowerShell para vários serviços do Microsoft 365.
 
 ## <a name="connection-steps-when-using-just-a-password"></a>Etapas de conexão quando estiver usando apenas uma senha
 
-Estas são as etapas para se conectar a todos os serviços em uma única janela do PowerShell quando você estiver usando apenas uma senha para entrar.
+Siga estas etapas para se conectar a todos os serviços em uma única janela do PowerShell quando estiver usando apenas uma senha para entrar.
   
 1. Abra o PowerShell do Windows.
     
@@ -93,32 +90,32 @@ Estas são as etapas para se conectar a todos os serviços em uma única janela 
    $credential = Get-Credential
    ```
 
-3. Execute este comando para se conectar ao Azure AD usando o PowerShell do Azure Active Directory para o módulo Gráfico.
+3. Execute este comando para se conectar ao Azure AD usando o módulo Azure Active Directory Windows PowerShell para Graph.
     
    ```powershell
    Connect-AzureAD -Credential $credential
    ```
   
-   Alternativamente, se você estiver usando o Módulo do Microsoft Azure Active Directory para o módulo PowerShell do Windows, execute este comando.
+   Ou se você estiver usando o Módulo Microsoft Azure Active Directory para Windows PowerShell, execute este comando.
       
    ```powershell
    Connect-MsolService -Credential $credential
    ```
 
    > [!Note]
-   > O PowerShell Core não é compatível com o módulo do Microsoft Azure Active Directory para módulo e cmdlets do Windows PowerShell com **MSol** no nome. Para continuar usando esses cmdlets, você deve executá-los a partir do PowerShell.
+   > O PowerShell Core não oferece suporte ao Módulo Microsoft Azure Active Directory para Windows PowerShell para o módulo do Windows PowerShell e cmdlets com *Msol* em seus nomes. Você deve executar esses cmdlets do Windows PowerShell.
 
-4. Execute estes comandos para se conectar ao SharePoint Online. Especifique o nome da organização para o seu domínio. Por exemplo, para "litwareinc.onmicrosoft.com" o valor nome da organização é "litwareinc".
+4. Execute estes comandos para se conectar ao SharePoint Online. Especifique o nome da organização para o seu domínio. Por exemplo, para "litwareinc\.onmicrosoft.com", o valor do nome da organização é "litwareinc".
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
    Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
    ```
 
-5. Execute estes comandos para se conectar ao Skype for Business Online. Um aviso sobre o aumento do valor de `WSMan NetworkDelayms` é esperado na primeira vez que você se conectar e deve ser ignorado.
+5. Execute esses comandos para se conectar ao Skype for Business Online. Um aviso sobre o aumento do valor de `WSMan NetworkDelayms` aparecerá na primeira vez que você se conectar. Ignore isto.
      
    > [!Note]
-   > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando a versão pública mais recente do PowerShell do Teams, não será necessário instalar o Conector do Skype for Business Online..
+   > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando o último lançamento público do PowerShell Teams, você não precisa instalar o Conector do Skype for Business Online.
    
    ```powershell
    Import-Module MicrosoftTeams
@@ -136,7 +133,7 @@ Estas são as etapas para se conectar a todos os serviços em uma única janela 
    > [!Note]
    > Para se conectar às nuvens do Exchange Online para Microsoft 365 que não sejam Mundiais, confira[Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-7. Como alternativa, execute estes comandos para se conectar ao Centro de Conformidade &amp; e Segurança.
+   Como alternativa, execute estes comandos para se conectar ao &amp; Centro de Conformidade de Segurança.
     
    ```powershell
    $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -147,7 +144,7 @@ Estas são as etapas para se conectar a todos os serviços em uma única janela 
    > [!Note]
    > Para se conectar às nuvens do Centro de Conformidade &amp; e Segurança do Microsoft 365 que não sejam Mundiais, confira o artigo [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
-8. Execute estes comandos para se conectar ao PowerShell do Teams.
+   Execute estes comandos para se conectar ao PowerShell do Teams.
     
    ```powershell
    Import-Module MicrosoftTeams
@@ -155,12 +152,12 @@ Estas são as etapas para se conectar a todos os serviços em uma única janela 
    ```
   
    > [!Note]
-   > Para se conectar às nuvens do Microsoft Teams que não sejam Mundiais, confira o artigo [Conectar-se ao MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams).
+   > Para se conectar a nuvens do Microsoft Teams que não sejam *Worldwide*, confira [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams).
 
 
-### <a name="azure-active-directory-powershell-for-graph-module"></a>Use o Windows PowerShell do Azure Active Directory para o módulo do Graph
+### <a name="azure-active-directory-powershell-for-graph-module"></a>Módulo do Azure Active Directory Windows PowerShell para Graph
 
-Estes são os comandos para todos os serviços *exceto o &amp; Centro de Conformidade* e Segurança em um único bloco ao usar o módulo do Windows PowerShell do Azure Active Directory para Graph. Especifique o nome do seu host de domínio e, em seguida, execute todos eles ao mesmo tempo.
+Aqui estão os comandos para todos os serviços *exceto &amp; Centro de Conformidade de Segurança * em um único bloco quando você usa o Azure Active Directory Windows PowerShell para módulo Graph. Especifique o nome do host de domínio e execute-os todos ao mesmo tempo.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -177,7 +174,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Estes são os comandos para todos os serviços *, exceto o Exchange Online* em um único bloco ao usar o módulo do Windows PowerShell do Azure Active Directory para o módulo do Graph. Especifique o nome do seu host de domínio e a UPN para entrar e, em seguida, execute todos eles ao mesmo tempo.
+Aqui estão os comandos para todos os serviços *exceto Exchange Online * em um único bloco quando você usa o Azure Active Directory Windows PowerShell para o módulo Graph. Especifique o nome do host de domínio e o UPN para a entrada e execute-os todos ao mesmo tempo.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -197,7 +194,7 @@ Connect-MicrosoftTeams -Credential $credential
 
 ### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Módulo Microsoft Azure Active Directory para Windows PowerShell
 
-Aqui estão os comandos para todos os serviços *, exceto o &amp;Centro de Conformidade* e Segurança em um único bloco ao usar o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do seu host de domínio e, em seguida, execute todos eles ao mesmo tempo.
+Aqui estão os comandos para todos os serviços * exceto &amp; Centro de Conformidade de Segurança * em um único bloco quando você usa o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do host de domínio e execute-os todos de uma vez.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -214,7 +211,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Aqui estão os comandos para todos os serviços *, exceto o Exchange Online* em um único bloco ao usar o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do seu host de domínio e a UPN para entrar e, em seguida, execute todos eles ao mesmo tempo.
+Aqui estão os comandos para todos os serviços * exceto Exchange Online * em um único bloco quando você usa o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do host de domínio e o UPN para a entrada e execute-os todos de uma vez.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -231,11 +228,11 @@ Connect-IPPSSession -UserPrincipalName $acctName
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
-## <a name="connection-steps-when-using-multi-factor-authentication"></a>Etapas de conexão quando estiver usando a autenticação multifator
+## <a name="connection-steps-when-using-multi-factor-authentication"></a>Etapas de conexão ao usar autenticação multifator
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Use o Windows PowerShell do Azure Active Directory para o módulo do Graph
 
-Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365, *exceto o &amp;Centro de Conformidade* e Segurança com a autenticação multifator usando o Microsoft Windows PowerShell do Azure Active Directory para módulo do Graph.
+Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365 * exceto &amp; Centro de Conformidade de Segurança * quando você usa a autenticação multifator com o Azure Active Directory Windows PowerShell para módulo Graph.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -255,7 +252,7 @@ Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365, *exceto o Exchange Online* com a autenticação multifator usando o Windows PowerShell do Azure Active Directory para módulo do Graph.
+Aqui estão todos os comandos em um único bloco para conectar a vários serviços Microsoft 365 * exceto Exchange Online * com autenticação multifator quando você usa o Azure Active Directory Windows PowerShell para módulo Graph.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -277,7 +274,7 @@ Connect-MicrosoftTeams
 ```
 ### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Módulo Microsoft Azure Active Directory para Windows PowerShell
 
-Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365, *exceto o &amp;Centro de Conformidade* e Segurança com a autenticação multifator usando o Módulo Microsoft Azure Active Directory para Windows PowerShell.
+Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365 * exceto &amp; Centro de Conformidade de Segurança * quando você usa autenticação multifator com o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -297,7 +294,7 @@ Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365, *exceto o Exchange Online* usando a autenticação multifator com o Módulo Microsoft Azure Active Directory para Windows PowerShell.
+Aqui estão todos os comandos em um único bloco para se conectar a vários serviços Microsoft 365 * exceto Exchange Online * quando você usa autenticação multifator com o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -320,12 +317,11 @@ Connect-MicrosoftTeams
 
 ## <a name="close-the-powershell-window"></a>Fechar a janela do PowerShell
 
-Quando estiver pronto para fechar a janela do PowerShell, execute este comando para remover as sessões ativas do Skype for Business Online, SharePoint Online e Teams:
+Para fechar a janela do PowerShell, execute este comando para remover as sessões ativas do Skype for Business Online, Microsoft Office SharePoint Online e Teams:
   
 ```powershell
 Remove-PSSession $sfboSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
 ```
-
 
 ## <a name="see-also"></a>Confira também
 
