@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6d35ee7a4a7755a043136f33600abad424956032
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 2eb8b984550f301af9d99e738f6db4623aa2cc86
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529392"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769101"
 ---
 # <a name="deploy-apps-to-devices"></a>Implantar aplicativos em dispositivos
 Parte da integração com a área de trabalho gerenciada da Microsoft inclui a adição e implantação de aplicativos aos dispositivos do usuário. Quando estiver usando o portal de área de trabalho gerenciada da Microsoft, você poderá adicionar e implantar seus aplicativos. 
@@ -42,11 +42,11 @@ Neste procedimento, você selecionará o tipo de aplicativo que você deseja adi
 Você pode entrar no portal de área de trabalho gerenciada da Microsoft ou entrar no Intune e, em seguida, procurar pela área de trabalho gerenciada da Microsoft. Mostraremos a entrada no portal de área de trabalho gerenciada da Microsoft. 
 
 1.    Entre no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal). 
-2.    Em **inventário**, selecione **aplicativos**.
-3.    Na carga de trabalho aplicativos, selecione **Adicionar**.
-4.    Em **Adicionar aplicativo**, selecione **aplicativo de linha de negócios** ou **Windows app (Win32)**.
-    - Se você selecionou o **aplicativo de linha de negócios**, consulte [Adicionar um aplicativo de linha de negócios do Windows ao Microsoft Intune](https://docs.microsoft.com/intune/lob-apps-windows) para obter instruções sobre como adicionar e configurar aplicativos de linha de negócios.
-    - Se você tiver selecionado o **Windows app (Win32)**, confira o [Win32 app Management](https://docs.microsoft.com/intune/apps-win32-app-management) para instruções sobre como adicionar e configurar aplicativos do Windows.
+2.    Em **inventário** , selecione **aplicativos** .
+3.    Na carga de trabalho aplicativos, selecione **Adicionar** .
+4.    Em **Adicionar aplicativo** , selecione **aplicativo de linha de negócios** ou **Windows app (Win32)** .
+    - Se você selecionou o **aplicativo de linha de negócios** , consulte [Adicionar um aplicativo de linha de negócios do Windows ao Microsoft Intune](https://docs.microsoft.com/intune/lob-apps-windows) para obter instruções sobre como adicionar e configurar aplicativos de linha de negócios.
+    - Se você tiver selecionado o **Windows app (Win32)** , confira o [Win32 app Management](https://docs.microsoft.com/intune/apps-win32-app-management) para instruções sobre como adicionar e configurar aplicativos do Windows.
 
 <span id="msfb-apps">
 
@@ -56,25 +56,20 @@ Se você ainda não se inscreveu na Microsoft Store para empresas, você pode se
 **Comprar aplicativos da Microsoft Store para empresas**
 
 1. Entre na [Microsoft Store para empresas](https://businessstore.microsoft.com) com sua conta de administrador do Microsoft Store para empresas.
-2. Selecione **comprar para meu grupo**.
+2. Selecione **comprar para meu grupo** .
 3. Use a pesquisa para encontrar o aplicativo desejado e selecione o aplicativo.
-4. Nos detalhes do produto, selecione **obter o aplicativo**. A Microsoft Store adiciona o aplicativo aos **seus produtos** para sua organização.
+4. Nos detalhes do produto, selecione **obter o aplicativo** . A Microsoft Store adiciona o aplicativo aos **seus produtos** para sua organização.
 
 **Para forçar uma sincronização entre o Intune e a Microsoft Store para empresas**
-1. Entrar no [portal do Azure](https://portal.azure.com/) como administrador do Intune ou administrador global para o locatário
-2. Selecione **todos os serviços > Intune**. O Intune está na seção monitoramento + gerenciamento.
-3. No painel do Intune, selecione **aplicativos cliente**e, em seguida, selecione **Microsoft Store para empresas**.
-4. Selecione **habilitar** para sincronizar seus aplicativos da Microsoft Store para empresas com o Intune.
-    - Se você ainda não tiver feito isso, Inscreva-se e associe sua conta da Microsoft Store para empresas com o Intune
-    - Selecione o idioma no qual os aplicativos da Microsoft Store para empresas serão exibidos no seu console do Intune
-    - Selecione **sincronizar** para sincronizar seus aplicativos da Microsoft Store para empresas com o Intune.
-    - Verifique se a sincronização entre a Microsoft Store para empresas e o Intune está ativa (próxima etapa). 
+1. Entre no centro de [Administração do Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
+2. Selecione conectores de **Administração de locatários**  >  **e tokens**  >  **da Microsoft Store para empresas** .
+3. Selecione **sincronizar** para obter os aplicativos que você comprou da Microsoft Store no Intune.
 
 **Para verificar se uma sincronização entre o Intune e a Microsoft Store para empresas está ativa**
 1. Entre na [Microsoft Store para empresas](https://businessstore.microsoft.com) com sua conta de administrador do Microsoft Store para empresas.
-2. Selecione **gerenciar**.
-3. Selecione **configurações** e, em seguida, **distribuir**.
-4. Em **ferramentas de gerenciamento**, verifique se o Intune está listado e se o status está **ativo**.  
+2. Selecione **gerenciar** .
+3. Selecione **configurações** e, em seguida, **distribuir** .
+4. Em **ferramentas de gerenciamento** , verifique se o Intune está listado e se o status está **ativo** .  
 
 <span id="2" />
 
@@ -97,10 +92,10 @@ Adicione seus usuários a esses grupos para disponibilizar o aplicativo, instala
 **Para atribuir o aplicativo aos seus usuários**
 
 1. Entre no [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mmdportal).
-2. No painel da área de trabalho gerenciada, selecione **aplicativos**.
-3. Na carga de trabalho aplicativos, selecione o aplicativo para o qual você deseja atribuir usuários e selecione **atribuir usuários grupos**.
+2. No painel da área de trabalho gerenciada, selecione **aplicativos** .
+3. Na carga de trabalho aplicativos, selecione o aplicativo para o qual você deseja atribuir usuários e selecione **atribuir usuários grupos** .
 4. Para o aplicativo específico, selecione um tipo de atribuição (disponível, obrigatório, desinstalação) e atribua o grupo apropriado.
-5. No painel atribuir aplicativos, selecione **OK**.
+5. No painel atribuir aplicativos, selecione **OK** .
 
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft

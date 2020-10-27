@@ -19,24 +19,27 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: f57fc83f9102e5eeea61deaaadc17203bad030ac
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8992efdd79295b6b56b8f033bd97b10f59a7a4d5
+ms.sourcegitcommit: bd36c88e731e3fee2a3a5cb3564fdc94f11bab94
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195530"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769670"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>Criar e acompanhar tíquetes do ServiceNow no centro de segurança do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+>[!CAUTION]
+>**O período de visualização para o conector do ServiceNow está terminando**<br>
+>Esse recurso não estará mais disponível até o final de novembro de 2020. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
 O [centro de segurança do Microsoft 365](overview-security-center.md) foi aprimorado com a capacidade de criar e controlar de forma nativa as permissões no ServiceNow. [Saiba mais sobre o ServiceNow](https://www.servicenow.com/)
 
 Na central de segurança, os administradores de segurança podem enviar uma ação de melhoria de [Pontuação segura da Microsoft](microsoft-secure-score.md) diretamente para o ServiceNow e criar uma permissão. As permissões de gerenciamento de incidentes e de alterações podem ser criadas. Rastreie as permissões na home page da central de segurança e o ServiceNow.
 
 - [**Saiba mais sobre os pré-requisitos, a troca de dados e a solução de problemas**](tickets.md)
-- **Gerenciar tíquetes do ServiceNow no centro de conformidade** (em breve)
+- **Gerenciar tíquetes do ServiceNow no centro de conformidade** (não disponível)
 
 ## <a name="connect-microsoft-365-security-center-to-servicenow"></a>Conectar a central de segurança do Microsoft 365 ao ServiceNow
 
@@ -57,7 +60,7 @@ Saiba mais sobre os erros comuns que você pode encontrar no processo de conexã
 
 ## <a name="create-a-task-and-share-it-to-servicenow"></a>Criar uma tarefa e compartilhá-la para o ServiceNow
 
-Depois que a integração é configurada, crie tarefas do ServiceNow com base em ações específicas de melhoria da [Pontuação segura da Microsoft](microsoft-secure-score.md) . Vá para qualquer ação de melhoria de Pontuação segura no centro de segurança do Microsoft 365 e selecione **compartilhar**. Uma das opções de DropDown é o ServiceNow.
+Depois que a integração é configurada, crie tarefas do ServiceNow com base em ações específicas de melhoria da [Pontuação segura da Microsoft](microsoft-secure-score.md) . Vá para qualquer ação de melhoria de Pontuação segura no centro de segurança do Microsoft 365 e selecione **compartilhar** . Uma das opções de DropDown é o ServiceNow.
 
 Uma tarefa é gerada onde você pode definir a prioridade e editar o nome, a descrição ou a data de conclusão. Após todos os campos obrigatórios serem preenchidos, envie a tarefa para o ServiceNow.
 

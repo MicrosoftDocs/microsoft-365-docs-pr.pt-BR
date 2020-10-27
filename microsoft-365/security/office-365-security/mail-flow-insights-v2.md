@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Os administradores podem saber mais sobre as ideias e os relatórios disponíveis no painel de fluxo de emails no centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 089c6351485712d841691d5b856b1ba28dfe4fc4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f9ac8b8b0d346d78af252a9e427d0ef2b1a4c4ea
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198476"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769013"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
@@ -60,11 +60,11 @@ As informações disponíveis são:
 
 ## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Permissões necessárias para exibir o painel de fluxo de emails
 
-O painel de fluxo de emails está disponível para membros dos seguintes grupos de rotas:
+O painel de fluxo de emails está disponível para os membros dos seguintes grupos de função:
 
 - **Gerenciamento de organização** no centro de conformidade e segurança & (administradores globais).
 
-- **[Administrador do Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** no Azure AD.
+- **[Administrador do Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** no Azure Active Directory.
 
 - **Fluxo administrador** no centro de conformidade & segurança: se um membro desse grupo de função não for membro dos grupos de função administrador global ou administrador do Exchange, observe os seguintes problemas e requisitos:
 
@@ -76,6 +76,6 @@ Para obter mais informações sobre permissões no centro de conformidade & segu
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Onde encontrar o painel de fluxo de emails
 
-Abra o centro de conformidade do & de segurança em <https://protection.office.com> , expanda **fluxo de email**e selecione **painel**.
+Abra o centro de conformidade do & de segurança em <https://protection.office.com> , expanda **fluxo de email** e selecione **painel** .
 
 Para ir diretamente para o painel de fluxo de emails, abra <https://protection.office.com/mailflow/dashboard> .

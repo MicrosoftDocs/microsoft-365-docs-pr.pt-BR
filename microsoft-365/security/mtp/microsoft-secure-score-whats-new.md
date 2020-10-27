@@ -20,58 +20,24 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 964724ad92c1ae29095b7368167b771b1632b003
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 71316d6c53862b80178d06726f7c249a2491d659
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295065"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769025"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md).
 
 ## <a name="august-2020"></a>Agosto de 2020
 
-### <a name="update-improvement-action-for-azure-active-directory"></a>Atualizar ação de aprimoramento para o Azure Active Directory
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Ação de aprimoramento atualizada para o Azure Active Directory
 
 - Habilitar política para bloquear autenticação herdada
-
-## <a name="july-2020"></a>Julho de 2020
-
-### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Adicionando ações de melhorias para a proteção avançada contra ameaças do Azure
-
-- Caminhos de movimento laterais arriscados
-- Atributos de conta não seguros
-- Habilitar recursos de segurança em relações de confiança do Active Directory
-- Remover atributos de histórico de SID não seguros das entidades
-
-## <a name="june-2020"></a>Junho de 2020
-
-### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Ação de aprimoramento removida para a proteção avançada contra ameaças do Microsoft defender
-
-* Ativar as regras de redução da superfície de ataque
-
-### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Foram adicionadas ações de melhoria para a proteção avançada contra ameaças do Microsoft defender
-
-* Bloquear o Adobe Reader de criar processos filhos
-* Usar proteção avançada contra ransomware
-* Bloquear todos os aplicativos do Office para criar processos filhos
-* Impedir que aplicativos do Office criem conteúdo executável
-* Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado
-* Bloquear a execução de scripts potencialmente ofuscados
-* Bloquear conteúdo executável de cliente de email e webmail
-* Bloquear o aplicativo de comunicação do Office para criar processos filhos
-* Bloquear processos não confiáveis e não assinados executados no USB
-* Bloquear persistência por meio de assinatura de evento WMI
-* Bloquear aplicativos do Office de injetar código em outros processos
-* Bloquear a execução de arquivos executáveis, a menos que eles atendam a um critério de lista de predominância, idade ou confiável
-* Bloquear criações de processo provenientes de comandos do PSExec e WMI
-* Bloquear o furto de credenciais do subsistema de autoridade de segurança local do Windows (lsass.exe)
-* Bloquear chamadas de API Win32 de macros do Office
 
 ## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibilidade com Pontuação segura de identidade e API de gráfico
 

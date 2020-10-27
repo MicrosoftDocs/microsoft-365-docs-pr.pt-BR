@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4f5d0a59372fb32b2802a094c247e45740ba3946
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 4dfe1c9595db869a59474a030a5dd8673cf7db24
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295245"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769239"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Acompanhar o histórico de Pontuação segura da Microsoft e atingir as metas
 
@@ -60,17 +60,36 @@ Na guia **métricas & tendências** , há vários gráficos e gráficos para dar
 
 ### <a name="compare-your-score-to-organizations-like-yours"></a>Comparar sua pontuação com organizações como a sua
 
-Há dois lugares para ver como sua pontuação se compara a organizações que são semelhantes a você.
+Há dois lugares para ver como sua pontuação se compara a organizações que são semelhantes a você. Em ambos os gráficos, você pode selecionar **gerenciar comparações** para exibir e editar as informações da sua organização. Você também pode criar uma comparação personalizada com base no setor, no tamanho da organização, nas licenças e nas regiões.
 
-O primeiro local é na guia **visão geral** , onde você pode ver um gráfico de barra de comparação. Passe o mouse sobre o gráfico para exibir a oportunidade de Pontuação e pontuação.
+#### <a name="comparison-bar-chart"></a>Gráfico de barra de comparação
+
+O gráfico de barra de comparação é a guia **visão geral** . Passe o mouse sobre o gráfico para exibir a oportunidade de Pontuação e pontuação. Os dados de comparação são mantidos para que não saiba exatamente quais outros locatários estão no mix.
 
 ![Gráfico de barras de pontos semelhantes da organização](../../media/secure-score/secure-score-comparison-bar.png)
 
-O segundo lugar está na guia **métricas & tendências** , onde você pode ver como a pontuação segura da sua organização é comparada com as demais.
+- **Organizações como a sua** : fornecemos uma pontuação média de outros locatários (desde que haja pelo menos 5 ou mais locatários a serem comparados) que se qualificam com os seguintes critérios:
+    1. Mesmo setor
+    2. Mesmo tamanho de organização
+    3. Todas as regiões
+    4. Os produtos da Microsoft usados são 80% semelhantes
+    5. Oportunidade (a pontuação máxima que pode ser alcançada pela licença atual) dentro de um intervalo de 20% do locatário
+
+- **Comparação personalizada** : deve ser configurada primeiro selecionando **gerenciar comparação** (somente se encontrarmos 5 ou mais locatários) com base nos seguintes critérios:
+    1. Setor (es) selecionado (s)
+    2. Tamanho (s) da organização selecionado (s)
+    3. Região (s) selecionada (s)
+    4. Licença (s) selecionada (s)
+    5. Os produtos da Microsoft usados são 80% semelhantes
+    6. Oportunidade (a pontuação máxima que pode ser alcançada pela licença atual) dentro de um intervalo de 20% do locatário
+
+Se você não fez uma seleção para a seleção personalizada do resultado da seleção para ter menos de cinco locatários que possamos comparar, verá "não está disponível devido a dados limitados".
+
+#### <a name="comparison-trend"></a>Tendência de comparação
+
+Na guia **métricas & tendências** , veja como a pontuação segura da sua organização é comparada com o tempo.
 
 ![Gráfico de linhas de pontuações semelhantes da organização ao longo do tempo](../../media/secure-score/secure-score-comparison-trend.png)
-
-Em ambos os gráficos, você pode selecionar **gerenciar comparações** para exibir e editar as informações da sua organização. Você também pode criar uma comparação personalizada com base no setor, no tamanho da organização, nas licenças e nas regiões.
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 

@@ -17,25 +17,31 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e4a9e5f1606b91e4cd41f29b37db2707f4c7df17
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 5465d1a6dc806cb4f76a34801dee2feb87146ad3
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295077"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769263"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à pontuação segura da Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 Estamos fazendo algumas alterações em um futuro próximo para tornar a [Pontuação segura da Microsoft](microsoft-secure-score.md) um representante melhor da sua postura de segurança e melhorar a usabilidade. Sua pontuação e a pontuação máxima possível podem ser alteradas.
 
 ## <a name="proposed-changes"></a>Alterações propostas
 
+### <a name="november-2020"></a>Novembro de 2020
+
+Removendo a capacidade de criar tíquetes do ServiceNow por meio de Pontuação segura, acessando > ServiceNow.
+
+- O período de visualização do conector do ServiceNow está terminando. Esse recurso não estará mais disponível até o final de 2020. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
+
 ### <a name="october-2020"></a>Outubro de 2020
 
-#### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Remover ação de melhoria para a proteção avançada contra ameaças do Microsoft defender
+Remover ação de melhoria relacionada à proteção avançada contra ameaças do Microsoft defender:
+
 - Definir a verificação de conteúdo da Web do aplicativo Windows Store SmartScreen do Microsoft defender
 
 ## <a name="related-resources"></a>Recursos relacionados
