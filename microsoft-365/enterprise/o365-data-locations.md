@@ -2111,30 +2111,6 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | <span data-ttu-id="e1555-3443">Workplace Analytics</span><span class="sxs-lookup"><span data-stu-id="e1555-3443">Workplace Analytics</span></span> | <span data-ttu-id="e1555-3444">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-3444">United States</span></span> |
 </p></details>
 
-## <a name="south-georgia-and-the-south-sandwich-islands"></a><span data-ttu-id="e1555-8043">Ilhas Geórgia do Sul e Sandwich do Sul</span><span class="sxs-lookup"><span data-stu-id="e1555-8043">South Georgia and the South Sandwich Islands</span></span>
-<details><summary><span data-ttu-id="e1555-8044">Clique para expandir</span><span class="sxs-lookup"><span data-stu-id="e1555-8044">Click to expand</span></span></summary><p>
-
-| <span data-ttu-id="e1555-8045">Serviço</span><span class="sxs-lookup"><span data-stu-id="e1555-8045">Service</span></span> | <span data-ttu-id="e1555-8046">Local</span><span class="sxs-lookup"><span data-stu-id="e1555-8046">Location</span></span> |
-| --- | --- |
-| <span data-ttu-id="e1555-8047">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="e1555-8047">Exchange Online</span></span> | <span data-ttu-id="e1555-8048">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8048">United States</span></span> |
-| <span data-ttu-id="e1555-8049">OneDrive for Business</span><span class="sxs-lookup"><span data-stu-id="e1555-8049">OneDrive for Business</span></span> | <span data-ttu-id="e1555-8050">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8050">United States</span></span> |
-| <span data-ttu-id="e1555-8051">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="e1555-8051">SharePoint Online</span></span> | <span data-ttu-id="e1555-8052">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8052">United States</span></span> |
-| <span data-ttu-id="e1555-8053">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="e1555-8053">Skype for Business</span></span> | <span data-ttu-id="e1555-8054">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8054">United States</span></span> |
-| <span data-ttu-id="e1555-8055">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e1555-8055">Microsoft Teams</span></span> | <span data-ttu-id="e1555-8056">Geografia Global 1 – EMEA</span><span class="sxs-lookup"><span data-stu-id="e1555-8056">Global Geography 1 – EMEA</span></span> |
-| <span data-ttu-id="e1555-8057">Office Online &amp; Mobile</span><span class="sxs-lookup"><span data-stu-id="e1555-8057">Office Online &amp; Mobile</span></span> | <span data-ttu-id="e1555-8058">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8058">United States</span></span> |
-| <span data-ttu-id="e1555-8059">EOP</span><span class="sxs-lookup"><span data-stu-id="e1555-8059">EOP</span></span> | <span data-ttu-id="e1555-8060">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8060">United States</span></span> |
-| <span data-ttu-id="e1555-8061">Intune</span><span class="sxs-lookup"><span data-stu-id="e1555-8061">Intune</span></span> | <span data-ttu-id="e1555-8062">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8062">United States</span></span> |
-| <span data-ttu-id="e1555-8063">MyAnalytics</span><span class="sxs-lookup"><span data-stu-id="e1555-8063">MyAnalytics</span></span> | <span data-ttu-id="e1555-8064">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8064">United States</span></span> |
-| <span data-ttu-id="e1555-8065">Planner</span><span class="sxs-lookup"><span data-stu-id="e1555-8065">Planner</span></span> | <span data-ttu-id="e1555-8066">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8066">United States</span></span> |
-| <span data-ttu-id="e1555-8067">Sway</span><span class="sxs-lookup"><span data-stu-id="e1555-8067">Sway</span></span> | <span data-ttu-id="e1555-8068">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8068">United States</span></span> |
-| <span data-ttu-id="e1555-8069">Yammer</span><span class="sxs-lookup"><span data-stu-id="e1555-8069">Yammer</span></span> | <span data-ttu-id="e1555-8070">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8070">United States</span></span> |
-| <span data-ttu-id="e1555-8071">Serviços do OneNote</span><span class="sxs-lookup"><span data-stu-id="e1555-8071">OneNote Services</span></span> | <span data-ttu-id="e1555-8072">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8072">United States</span></span> |
-| <span data-ttu-id="e1555-8073">Stream</span><span class="sxs-lookup"><span data-stu-id="e1555-8073">Stream</span></span> | <span data-ttu-id="e1555-8074">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8074">United States</span></span> |
-| <span data-ttu-id="e1555-8075">Quadro de comunicações</span><span class="sxs-lookup"><span data-stu-id="e1555-8075">Whiteboard</span></span> | <span data-ttu-id="e1555-8076">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8076">United States</span></span> |
-| <span data-ttu-id="e1555-8077">Formulários</span><span class="sxs-lookup"><span data-stu-id="e1555-8077">Forms</span></span> | <span data-ttu-id="e1555-8078">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8078">United States</span></span> |
-| <span data-ttu-id="e1555-8079">Workplace Analytics</span><span class="sxs-lookup"><span data-stu-id="e1555-8079">Workplace Analytics</span></span> | <span data-ttu-id="e1555-8080">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e1555-8080">United States</span></span> |
-</p></details>
-
 ## <a name="gibraltar"></a><span data-ttu-id="e1555-3445">Gibraltar</span><span class="sxs-lookup"><span data-stu-id="e1555-3445">Gibraltar</span></span>
 <details><summary><span data-ttu-id="e1555-3446">Clique para expandir</span><span class="sxs-lookup"><span data-stu-id="e1555-3446">Click to expand</span></span></summary><p>
 
