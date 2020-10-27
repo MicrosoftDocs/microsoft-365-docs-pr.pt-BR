@@ -17,16 +17,30 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como a retenção funciona para o Exchange.
-ms.openlocfilehash: e12f46b68feb4b64ade14cfb046061d89e1a607c
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: 4e8a536aaa81b0117f40b0ce330491fa8430f97c
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394708"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754431"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Saiba mais sobre a retenção para o Exchange
 
-As informações contidas neste artigo complementam [Saiba mais sobre retenção](retention.md) porque são informações específicas para o Exchange.
+As informações contidas neste artigo complementam [Saiba mais sobre retenção](retention.md) porque são informações específicas para o Exchange.  Para outras cargas de trabalho, confira:
+
+- [Saiba mais sobre retenção para o Microsoft Office SharePoint Online e o OneDrive](retention-policies-sharepoint.md)
+- [Saiba mais sobre retenção para o Microsoft Teams](retention-policies-teams.md)
+- [Saiba mais sobre retenção no Yammer](retention-policies-yammer.md)
+
+## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
+
+Os seguintes itens do Exchange podem ser retidos e excluídos usando políticas de retenção e rótulos de retenção: Email do Outlook (inclui rascunhos) com quaisquer anexos, tarefas quando eles têm uma data de término e notas. 
+
+Os itens de Calendário do Outlook com data de término têm suporte para políticas de retenção, mas não para rótulos de retenção.
+
+Contatos e quaisquer tarefas e itens de calendário que não tenham uma data de término não são suportados.
+
+Outros itens armazenados em uma caixa de correio, como mensagens do Skype e Teams, não são incluídos nas políticas de retenção ou rótulos do Exchange. Esses itens têm suas próprias políticas de retenção.
 
 ## <a name="how-retention-works-for-exchange"></a>Saiba como a retenção funciona para o Exchange.
 
