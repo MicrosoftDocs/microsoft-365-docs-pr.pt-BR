@@ -1,5 +1,5 @@
 ---
-title: Documentos seguros no Office 365 ATP
+title: Documentos Seguros no Office 365 ATP
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -15,14 +15,14 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre documentos seguros no Microsoft 365 E5 ou Microsoft 365 E5 Security.
-ms.openlocfilehash: cc63143d61065bc9528677ff4aec7d3433236ce0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: baa04f74388b702b42a0bdb83a7f0797ace09883
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195322"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48773944"
 ---
-# <a name="safe-documents-in-microsoft-365-e5"></a>Documentos seguros no Microsoft 365 e5
+# <a name="safe-documents-in-microsoft-365-e5"></a>Documentos Seguros no Microsoft 365 E5
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -32,6 +32,8 @@ Documentos seguros é um recurso no Microsoft 365 E5 ou no Microsoft 365 E5 segu
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Os documentos seguros só estão disponíveis para usuários com licenças de segurança *do microsoft 365 E5* ou *Microsoft 365 E5* . Essas licenças não estão incluídas nos planos de proteção avançada contra ameaças (ATP) do Office 365.
+
+- Os documentos seguros têm suporte no Microsoft 365 Apps for Enterprise (anteriormente conhecido como Office 365 ProPlus) versão 2004 ou posterior.
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com>. Para ir diretamente para a página de **anexos seguros de ATP** , abra <https://protection.office.com/safeattachmentv2> .
 
@@ -47,15 +49,15 @@ Arquivos enviados por documentos seguros não são mantidos no defender além do
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Usar o centro de conformidade de & de segurança para configurar documentos seguros
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> e **anexos seguros de ATP**e clique em **configurações globais**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> e **anexos seguros de ATP** e clique em **configurações globais** .
 
 2. Na saída **das configurações globais** exibida, defina as seguintes configurações:
 
-   - **Ativar documentos seguros para clientes do Office**: mover o botão de alternância para o direito para ativar o recurso: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Ativar documentos seguros para clientes do Office** : mover o botão de alternância para o direito para ativar o recurso: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
-   - **Permitir que as pessoas cliquem através do modo de exibição protegido, mesmo se os documentos seguros identificarem o arquivo como mal-intencionado**: Recomendamos que você deixe esta opção desativada (Mantenha a alternação para a esquerda: ![ desativar ](../../media/scc-toggle-off.png) ).
+   - **Permitir que as pessoas cliquem através do modo de exibição protegido, mesmo se os documentos seguros identificarem o arquivo como mal-intencionado** : Recomendamos que você deixe esta opção desativada (Mantenha a alternação para a esquerda: ![ desativar ](../../media/scc-toggle-off.png) ).
 
-   Quando concluir, clique em **Salvar**.
+   Quando concluir, clique em **Salvar** .
 
    ![Configurações de documentos seguros depois de selecionar as configurações globais na página de anexos seguros de ATP.](../../media/safe-docs.png)
 
@@ -82,7 +84,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AtpPol
 
 Para verificar se você habilitou e configurou documentos seguros, execute uma das seguintes etapas:
 
-- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> de **anexos seguros de ATP**, clique em **configurações globais**e verifique o **Ativar documentos seguros para clientes do Office** e **permitir que as pessoas cliquem através do modo de exibição protegido, mesmo se os documentos seguros identificam o arquivo como configurações mal-intencionadas** .
+- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> de **anexos seguros de ATP** , clique em **configurações globais** e verifique o **Ativar documentos seguros para clientes do Office** e **permitir que as pessoas cliquem através do modo de exibição protegido, mesmo se os documentos seguros identificam o arquivo como configurações mal-intencionadas** .
 
 - Execute o seguinte comando no PowerShell do Exchange Online e verifique os valores de propriedade:
 

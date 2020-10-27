@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ae4a8b51111c53c2245005a5d863354737335ae2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 01ee05c69a9b649ce3f0c3b93cbdb68bb7a87c69
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546175"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48774101"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade do Microsoft 365
 
@@ -64,7 +64,16 @@ Recursos recomendados para proteger identidades e dispositivos que acessam o Mic
 |**Item**|**Descrição**|
 |:-----|:-----|
 |[![Cartaz de modelo: proteção de identidade e dispositivo para o Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Exibir como um PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Atualizado em setembro de 2020|É importante usar níveis consistentes de proteção para dados, identidades e dispositivos. Este modelo mostra quais recursos são comparáveis com mais informações sobre os recursos para proteger identidades e dispositivos.  <br/> |
-   
+ 
+<a name="BKMK_ediscovery"></a>
+### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Arquitetura de descoberta eletrônica avançada no Microsoft 365
+
+Fluxo de trabalho de ponta a ponta de descoberta eletrônica avançada e fluxo de dados, incluindo os ambientes multigeográfico da Microsoft 365. 
+
+|**Item**|**Descrição**|
+|:-----|:-----|
+|[![Cartaz de modelo: arquitetura de descoberta eletrônica avançada no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Baixar como um PDF](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Baixar como um Visio](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Atualizado em outubro de 2020|Traz <ul><li>  Fluxo de trabalho de ponta a ponta em um único ambiente</li><li>Fluxo de trabalho de ponta a ponta em um ambiente multigeográfico da Microsoft 365 </li><li>Fluxo de dados de ponta a ponta que suporta o fluxo de trabalho do EDRM</li> |
+  
 <!--
 
 <a name="BKMK_O365fileprotect"></a>
