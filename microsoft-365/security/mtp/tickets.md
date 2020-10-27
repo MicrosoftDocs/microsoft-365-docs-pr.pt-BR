@@ -19,19 +19,20 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: ca13234a93ffcc226be45d337880692a3a39c28b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a2650efbac0966b84e6fbfd6ce78cb732f4933b3
+ms.sourcegitcommit: bd36c88e731e3fee2a3a5cb3564fdc94f11bab94
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196114"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769648"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integre as permissões do ServiceNow no centro de segurança e centro de conformidade do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
-[!include[Prerelease information](../includes/prerelease.md)]
+>[!CAUTION]
+>**O período de visualização para o conector do ServiceNow está terminando**<br>
+>Esse recurso não estará mais disponível até o final de novembro de 2020. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
 O ServiceNow é uma plataforma de computação em nuvem popular que ajuda as empresas a gerenciar fluxos de trabalho digitais para operações corporativas. A plataforma atual tem fluxos de trabalho de ti, fluxos de trabalho de funcionários e fluxos de trabalho de cliente. [Saiba mais sobre o ServiceNow](https://www.servicenow.com/)
 
@@ -77,7 +78,7 @@ Vá para [criar e acompanhar tíquetes do ServiceNow no centro de segurança do 
 
 ### <a name="you-receive-an-error-in-the-first-step-of-the-installation-checklist-oauth-creation"></a>Você recebe um erro na primeira etapa da lista de verificação de instalação (criação de OAuth)
 
-**Mensagem de erro**: a operação de leitura em relação a ' oauth_entity ' do escopo ' x_mioms_m365ticket ' foi recusada devido à política de acesso entre escopos da tabela
+**Mensagem de erro** : a operação de leitura em relação a ' oauth_entity ' do escopo ' x_mioms_m365ticket ' foi recusada devido à política de acesso entre escopos da tabela
 
 O aplicativo presume que qualquer administrador na instância do ServiceNow possa criar e ler entidades OAuth. Esse erro pode ser causado por uma personalização na instância do ServiceNow que restringe quem pode criar ou ler entidades OAuth.
 
@@ -92,7 +93,7 @@ Defina as configurações de tabela "registros de aplicativos" como padrão:
 
 ### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>Como validar a entidade OAuth criada para o conector de conformidade de & de segurança do Microsoft 365
 
-Vá para a tabela registros de aplicativos (**Menu > sistema OAuth > registro de aplicativo**) no ServiceNow. Encontre a entidade OAuth criada por você, com o nome que você atribuiu a ela.
+Vá para a tabela registros de aplicativos ( **Menu > sistema OAuth > registro de aplicativo** ) no ServiceNow. Encontre a entidade OAuth criada por você, com o nome que você atribuiu a ela.
 
 ### <a name="signing-in-as-the-integration-user"></a>Entrar como o usuário de integração
 
@@ -106,7 +107,7 @@ Antes de autorizar a conexão entre o centro de segurança do Microsoft 365 e o 
 
 ### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Como validar o usuário de integração criado com a lista de verificação de instalação do conector de conformidade do & de segurança do Microsoft 365
 
-Vá para a tabela usuários **(Menu > administração de usuário > usuários**) no ServiceNow e localize o usuário de integração criado por você, com o nome atribuído a ele.
+Vá para a tabela usuários **(Menu > administração de usuário > usuários** ) no ServiceNow e localize o usuário de integração criado por você, com o nome atribuído a ele.
 
 ### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>Sua empresa tem o logon único habilitado, o que impede que você se conecte ao ServiceNow através da central de segurança do Microsoft 365
 

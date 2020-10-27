@@ -1,6 +1,6 @@
 ---
 title: Tabela DeviceTvmSecureConfigurationAssessment no esquema de busca avançada
-description: Saiba mais sobre os eventos de avaliação de segurança de Gerenciamento de Vulnerabilidades e Ameaças na tabela DeviceTvmSecureConfigurationAssessment do esquema de busca avançada. Esses eventos fornecem informações do computador, bem como informações de conformidade, impacto e detalhes da configuração de segurança.
+description: Saiba mais sobre eventos de avaliação de segurança na tabela DeviceTvmSecureConfigurationAssessment do esquema de busca avançada. Essas ameaças & eventos de gerenciamento de vulnerabilidade fornecem informações sobre o dispositivo, bem como detalhes da configuração de segurança, impacto e informações de conformidade.
 keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, ameaça & gerenciamento de vulnerabilidades, TVM, gerenciamento de dispositivos, configuração de segurança, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 8c9e886f205a3d1b402b8c39718b6ee49b86a11d
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 356548c3115aacce8c76d7fbc552811c168750ed
+ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429882"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48770068"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -42,15 +42,18 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
-| `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7.|
+| `DeviceId` | string | Identificador exclusivo do dispositivo no serviço |
+| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7.|
 | `Timestamp` | datetime | Data e hora em que o registro foi gerado |
 | `ConfigurationId` | string | Identificador exclusivo para uma configuração específica |
 | `ConfigurationCategory` | string | Categoria ou agrupamento ao qual a configuração pertence: aplicativo, sistema operacional, rede, contas, controles de segurança |
 | `ConfigurationSubcategory` | string | Subcategoria ou subgrupo ao qual a configuração pertence. Em muitos casos, isso descreve capacidades ou recursos específicos. |
 | `ConfigurationImpact` | string | Impacto avaliado da configuração na classificação total (1-10) |
 | `IsCompliant` | booliano | Indica se a configuração ou política está configurada corretamente |
+| `IsApplicable` | booliano | Indica se a configuração ou política se aplica ao dispositivo |
+| `Context` | cadeia de caracteres | Informações contextuais adicionais sobre a configuração ou política |
+| `IsExpectedUserImpactCompliant` | booliano | Indica se haverá impacto no usuário se a configuração ou política for aplicada |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
