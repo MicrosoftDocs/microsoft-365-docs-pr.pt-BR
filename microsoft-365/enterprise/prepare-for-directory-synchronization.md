@@ -26,16 +26,16 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Descreve como se preparar para provisionar usuários para a Microsoft 365 usando a sincronização de diretórios e os benefícios de longo prazo de usar esse método.
-ms.openlocfilehash: 41c2ff08c8e2ae11079e82d378110d10bd7cab3e
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: b74310b0f444da118699c5ad5fbb68b15519b830
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464235"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48773980"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Preparar-se para a sincronização de diretórios com o Microsoft 365
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Os benefícios para a identidade híbrida e a sincronização de diretórios que a organização incluem:
 
@@ -157,7 +157,7 @@ Os atributos que você precisa preparar estão listados aqui:
   - O número máximo de caracteres para o atributo **userPrincipalName** é 113. Um número específico de caracteres é permitido antes e depois do sinal de arroba (@), da seguinte maneira:
   - Número máximo de caracteres para o nome de usuário que está na frente do sinal de arroba (@): 64
   - Número máximo de caracteres para o nome de domínio após o sinal de arroba (@): 48
-  - Caracteres inválidos: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] " '
+  - Caracteres inválidos: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] "
   - Caracteres permitidos: A – Z, a-z, 0 – 9, ". - _ ! # ^ ~
   - Letras com sinais diacríticos, como tremas, acentos e tils, são caracteres inválidos.
   - O caractere @ é necessário em cada valor **userPrincipalName** .
@@ -170,7 +170,7 @@ Os atributos que você precisa preparar estão listados aqui:
 
 ## <a name="3-prepare-the-userprincipalname-attribute"></a>3. Prepare o atributo userPrincipalName
 
-O Active Directory é projetado para permitir que os usuários finais em sua organização entrem em seu diretório usando **sAMAccountName** ou **userPrincipalName**. Da mesma forma, os usuários finais podem entrar no Microsoft 365 usando o nome principal do usuário (UPN) de sua conta corporativa ou de estudante. A sincronização de diretório tenta criar novos usuários no Azure Active Directory usando o mesmo UPN que está no AD DS. O UPN é formatado como um endereço de email.
+O Active Directory é projetado para permitir que os usuários finais em sua organização entrem em seu diretório usando **sAMAccountName** ou **userPrincipalName** . Da mesma forma, os usuários finais podem entrar no Microsoft 365 usando o nome principal do usuário (UPN) de sua conta corporativa ou de estudante. A sincronização de diretório tenta criar novos usuários no Azure Active Directory usando o mesmo UPN que está no AD DS. O UPN é formatado como um endereço de email.
 
 No Microsoft 365, o UPN é o atributo padrão usado para gerar o endereço de email. É fácil obter **userPrincipalName** (no AD DS e no Azure AD) e o endereço de email principal no **proxyAddresses** definido como valores diferentes. Quando estão definidas como valores diferentes, pode haver confusão para administradores e usuários finais.
 
