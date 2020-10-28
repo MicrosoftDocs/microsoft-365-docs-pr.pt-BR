@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Use a criptografia de mensagem avançada do Office 365 para estender sua segurança de email Configurando uma data de expiração em emails por meio de um modelo personalizado com marca.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0dcf9c82f9204f1357b49411d0ca87e87007eb96
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: bbd018e55592e5b17149edf1a4dc0907c0184417
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546155"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769161"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Definir uma data de vencimento para o email criptografado pela Criptografia de Mensagem Avançada do Office 365
 
@@ -30,7 +30,7 @@ O Office 365 Advanced Message Encryption está incluído no [microsoft 365 Enter
 
 Você pode usar a expiração de mensagens em emails enviados por seus usuários para destinatários externos que usam o portal do OME para acessar emails criptografados. Você força os destinatários a usar o portal do OME para exibir e responder a emails criptografados enviados pela sua organização usando um modelo personalizado com marca que especifica uma data de expiração no Windows PowerShell.
 
-Como administrador global do O365, quando você aplica a marca da empresa para personalizar a aparência das mensagens de email da sua organização, você também pode especificar uma expiração para essas mensagens de email. Com a criptografia de mensagem avançada do Office 365, você pode criar vários modelos para emails criptografados originados em sua organização. Usando um modelo, você pode controlar por quanto tempo os destinatários têm acesso a emails enviados por seus usuários.
+Como administrador global do Office 365, ao aplicar a marca da empresa para personalizar a aparência das mensagens de email da sua organização, você também pode especificar uma expiração para essas mensagens de email. Com a criptografia de mensagem avançada do Office 365, você pode criar vários modelos para emails criptografados originados em sua organização. Usando um modelo, você pode controlar por quanto tempo os destinatários têm acesso a emails enviados por seus usuários.
 
 Quando um usuário final recebe emails com uma data de expiração definida, o usuário vê a data de expiração no email de conteúdo adicional. Se um usuário tentar abrir um email expirado, um erro aparecerá no portal do OME.
 
@@ -44,9 +44,9 @@ Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar
 
 2. Execute o cmdlet New-OMEConfiguration.
 
-     ```powershell
-     New-OMEConfiguration -Identity "Expire in 7 days" -ExternalMailExpiryInDays 7
-     ```
+    ```powershell
+    New-OMEConfiguration -Identity "Expire in 7 days" -ExternalMailExpiryInDays 7
+    ```
 
 Onde:
 
