@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8af782095ada41f0472e1df338ced7ebe76c97fe
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 5b09b59efa6862782b04b7aa58d7c1fdc0383bb0
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104407"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787529"
 ---
 # <a name="getting-help-for-users"></a>Obter ajuda para usuários
 
@@ -25,14 +25,17 @@ Há duas maneiras de que os usuários em sua organização possam obter ajuda co
 
 ## <a name="get-help-app"></a>Obter ajuda do aplicativo
 
-O método preferencial para fornecer suporte aos seus usuários é **obter ajuda**, uma interface fácil de usar incorporada ao dispositivo do usuário.  
+O método preferencial para fornecer suporte aos seus usuários é **obter ajuda** , uma interface fácil de usar incorporada ao dispositivo do usuário.  
 
 ![Ícone obter ajuda do aplicativo](../../media/get-help.png)
 
 Este é um aplicativo que é instalado em todos os dispositivos de área de trabalho gerenciada da Microsoft e está fixado na barra de tarefas. 
 
-- os usuários podem solicitar uma chamada de volta para um número de telefone fornecido ou bater papo online com um representante de serviço.
+- Os usuários podem solicitar uma chamada de volta para um número de telefone fornecido ou bater papo online com um representante de serviço.
 - As solicitações que estão fora do escopo de suporte do Microsoft Managed desktop são redirecionadas para a assistência técnica de ti local por chamada telefônica.
+
+> [!NOTE]
+> O idioma de exibição do aplicativo Get Help é somente em inglês, mesmo que um usuário tenha selecionado um idioma diferente ao configurar o dispositivo ou nas configurações do dispositivo. 
 
 ### <a name="prerequisites"></a>Pré-requisitos
 Para que os usuários possam obter ajuda através do aplicativo, verifique se esses pré-requisitos foram atendidos:
@@ -49,7 +52,7 @@ Se você verificou esses pré-requisitos e o aplicativo Get Help ainda não est�
 
 ## <a name="phone-support"></a>Suporte telefônico
 
-os usuários com dispositivos de área de trabalho gerenciada da Microsoft também têm acesso a números de telefone de chamada gratuita que podem chamar. Isso deve ser usado quando obter ajuda não estiver disponível. Por exemplo, se não puder entrar no dispositivo ou se o dispositivo estiver quebrado. Estes são os números de telefone para suporte por telefone:
+Os usuários com dispositivos de área de trabalho gerenciada da Microsoft também têm acesso a números de telefone de chamada gratuita que podem chamar. Isso deve ser usado quando obter ajuda não estiver disponível. Por exemplo, se não puder entrar no dispositivo ou se o dispositivo estiver quebrado. Estes são os números de telefone para suporte por telefone:
 
 - Estados Unidos: + 1 855 425 0216
 - Canadá (exceto Quebec): + 1 855 425 0216
