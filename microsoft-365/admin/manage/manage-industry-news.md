@@ -15,16 +15,16 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Forneça aos seus usuários as manchetes atualizadas sobre o seu setor e as informações da sua organização, use o serviço de notícias para habilitar um feed de notícias personalizado para sua organização.
-ms.openlocfilehash: 003855e366e8ad4c9e7abdcf1a0c2a53ec49ec2f
-ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
+ms.openlocfilehash: 718e48c9db90ff7e598dd56c0228bb894b7a3a4d
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48770080"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779173"
 ---
 # <a name="manage-industry-news"></a>Gerenciar notícias do setor
 
-Para permitir que seus usuários tenham manchetes de notícias atualizadas sobre seu setor e informações da sua organização, use o serviço de [notícias](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) para habilitar um feed de notícias personalizado para sua organização.Você também pode gerenciar as configurações da home page do Bing.
+Para permitir que seus usuários tenham manchetes de notícias atualizadas sobre seu setor e informações da sua organização, use o serviço de [notícias](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) para habilitar um feed de notícias personalizado para sua organização.Você também pode gerenciar as configurações da página inicial do Bing e da página de nova guia do Microsoft Edge (começando com a versão da borda 87).
 
 ## <a name="what-your-users-will-see"></a>O que os usuários verão
 
@@ -40,23 +40,25 @@ Eles também podem ver as informações da empresa, da indústria e das notícia
 
 ## <a name="news-settings"></a>Configurações de notícias
 
-Como administrador, você controla as configurações de feed de notícias da sua organização, incluindo o setor selecionado e a home page do Bing, juntamente com a página de nova guia do Microsoft Edge.
-
-
+Como administrador, você controla as configurações de feed de notícias da sua organização, incluindo o setor selecionado e a home page do Bing, juntamente com a página de nova guia do Microsoft Edge (começando com o lançamento da borda 87).
 
 1. No centro de administração do Microsoft 365, vá para **configurações**  >  **org Settings**  >  **Services**  >  [News](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews)
 2. No painel **notícias** , clique na guia **geral**
 3. Na lista **setor** , selecione os setores da sua organização. Isso determina as notícias gerais que aparecem no novo feed da sua organização. A Microsoft pode selecionar previamente uma indústria usando informações da sua conta. Você pode remover ou adicionar setores atualizando a lista do setor.
 4. No campo **Tópicos** , insira os tópicos que você deseja ver artigos de notícias. Os usuários não poderão alterar esses tópicos.
-5. Você pode bloquear artigos e conter palavras-chave no campo **excluir conteúdo** . Por exemplo, para evitar que artigos que contenham a palavra-chave "disformar" apareçam no feed de notícias, adicione a palavra-chave "distorta" no campo excluir conteúdo. @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ Termos gerais (,
+5. Você pode bloquear artigos contendo palavras-chave no campo **excluir conteúdo** .  Por exemplo, para evitar que artigos que contenham a palavra-chave "distorta" apareçam no feed de notícias, adicione a palavra-chave "distorta" no campo excluir conteúdo. @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ Termos gerais (,
 6. Selecione **Salvar** . Pode levar até 24 horas para que as alterações sejam exibidas.
 
 ## <a name="bing-homepage"></a>Página inicial do Bing
 
-Você pode personalizar a página inicial do Bing para incluir notícias sobre sua indústria. No centro de administração do Microsoft 365, vá para **configurações**  >  **org Settings**  >  **Serviços** de  >  [notícias](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). No painel **notícias** , clique na guia **página inicial do Bing** e selecione **incluir na home page do Bing** . A notícia da indústria aparece sob as informações personalizadas da sua organização no Bing.com.
+Você pode personalizar a página inicial do Bing para incluir notícias sobre sua indústria. 
+
+1. No centro de administração do Microsoft 365, vá para **configurações**  >  **org Settings**  >  **Serviços** de  >  [notícias](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
+2. No painel **notícias** , clique na guia **página inicial do Bing** e selecione **incluir na home page do Bing** .
+3. A notícia da indústria aparece sob as informações personalizadas da sua organização no Bing.com.
 
 ## <a name="microsoft-edge-new-tab-page"></a>Página de nova guia do Microsoft Edge 
-Quando os usuários entram no Microsoft Edge com uma conta corporativa ou de estudante válida, eles podem ver notícias adaptadas para sua organização.
+Quando os usuários entram no Microsoft Edge (versão 87 ou superior) com uma conta corporativa ou de estudante válida, eles podem ver notícias adaptadas para a sua organização.
 
 1. No centro de administração do Microsoft 365, vá para **configurações**  >  **org Settings**  >  **Serviços** de  >  [notícias](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews).
 2. No painel **notícias** , clique em **página da nova guia do Microsoft Edge** .

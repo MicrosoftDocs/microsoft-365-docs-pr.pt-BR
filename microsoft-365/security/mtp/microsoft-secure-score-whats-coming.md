@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5465d1a6dc806cb4f76a34801dee2feb87146ad3
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: 82ec67cae86525c055b2232667cccb603830d15f
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769263"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779243"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à pontuação segura da Microsoft
 
@@ -34,15 +34,33 @@ Estamos fazendo algumas alterações em um futuro próximo para tornar a [Pontua
 
 ### <a name="november-2020"></a>Novembro de 2020
 
-Removendo a capacidade de criar tíquetes do ServiceNow por meio de Pontuação segura, acessando > ServiceNow.
+Removendo a capacidade de criar tíquetes do ServiceNow por meio de Pontuação segura, acessando **> ServiceNow** .
 
 - O período de visualização do conector do ServiceNow está terminando. Esse recurso não estará mais disponível até o final de 2020. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
-### <a name="october-2020"></a>Outubro de 2020
+Adicionando 18 ações aprimoradas relacionadas ao Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
 
-Remover ação de melhoria relacionada à proteção avançada contra ameaças do Microsoft defender:
+Recomendações relacionadas à redução da superfície de ataque (ASR):
+- Bloquear conteúdo executável de cliente de email e webmail
+- Bloquear todos os aplicativos do Office para criar processos filhos
+- Impedir que aplicativos do Office criem conteúdo executável
+- Bloquear aplicativos do Office de injetar código em outros processos
+- Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado
+- Bloquear a execução de scripts potencialmente ofuscados
+- Bloquear chamadas de API Win32 de macros do Office
+- Bloquear a execução de arquivos executáveis, a menos que eles atendam a um critério de lista de predominância, idade ou confiável
+- Usar proteção avançada contra ransomware
+- Bloquear o furto de credenciais do subsistema de autoridade de segurança local do Windows (lsass.exe)
+- Bloquear criações de processo provenientes de comandos do PSExec e WMI
+- Bloquear processos não confiáveis e não assinados executados no USB
+- Bloquear o aplicativo de comunicação do Office para criar processos filhos
+- Bloquear o Adobe Reader de criar processos filhos
+- Bloquear persistência por meio de assinatura de evento WMI
 
-- Definir a verificação de conteúdo da Web do aplicativo Windows Store SmartScreen do Microsoft defender
+Recomendações relacionadas a serviços:
+- Corrigir o caminho de serviço sem cotação para os serviços do Windows
+- Alterar o caminho do executável do serviço para um local protegido comum
+- Alterar a conta de serviço para evitar a senha em cache no registro do Windows
 
 ## <a name="related-resources"></a>Recursos relacionados
 

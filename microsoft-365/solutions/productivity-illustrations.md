@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 01ee05c69a9b649ce3f0c3b93cbdb68bb7a87c69
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: 7709bf9a3063863d802e8c36a09ea10d287d0e34
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774101"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779267"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade do Microsoft 365
 
@@ -72,7 +72,7 @@ Fluxo de trabalho de ponta a ponta de descoberta eletrônica avançada e fluxo d
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Cartaz de modelo: arquitetura de descoberta eletrônica avançada no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Baixar como um PDF](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Baixar como um Visio](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Atualizado em outubro de 2020|Traz <ul><li>  Fluxo de trabalho de ponta a ponta em um único ambiente</li><li>Fluxo de trabalho de ponta a ponta em um ambiente multigeográfico da Microsoft 365 </li><li>Fluxo de dados de ponta a ponta que suporta o fluxo de trabalho do EDRM</li> |
+|[![Cartaz de modelo: arquitetura de descoberta eletrônica avançada no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Baixar como um PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Baixar como um Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Atualizado em outubro de 2020|Traz <ul><li>  Fluxo de trabalho de ponta a ponta em um único ambiente</li><li>Fluxo de trabalho de ponta a ponta em um ambiente multigeográfico da Microsoft 365 </li><li>Fluxo de dados de ponta a ponta que suporta o fluxo de trabalho do EDRM</li> |
   
 <!--
 
