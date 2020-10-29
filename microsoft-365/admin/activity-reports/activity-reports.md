@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: 4356b287afa56201da7cb644a4056d4c975964e5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dee0f3e586c49c25daafe999d065e743babf020e
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637002"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779115"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -41,20 +41,20 @@ Assista a este vídeo para obter uma visão geral: sobre como você pode usar os
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
+1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso**.
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso** .
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso**.
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso** .
 
 ::: moniker-end
 
@@ -130,19 +130,37 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
   
 ::: moniker range="o365-worldwide"
 
-- [Atividade do Yammer](yammer-activity-report.md)
+- [Atividade do Yammer](yammer-activity-report-ww.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Uso do dispositivo do Yammer](yammer-device-usage-report.md)
+- [Atividade do Yammer para o Governo dos EUA](yammer-activity-report.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Relatório de atividade de grupos do Yammer](yammer-groups-activity-report.md)
+- [Uso do dispositivo Yammer](yammer-device-usage-report-ww.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Uso de dispositivo Yammer para o Governo dos EUA](yammer-device-usage-report.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Relatório de atividades de grupos do Yammer](yammer-groups-activity-report-ww.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Relatório de atividades de grupos do Yammer para o Governo dos EUA](yammer-groups-activity-report.md)
 
 ::: moniker-end
 
@@ -188,9 +206,9 @@ Se quiser ocultar informações de nível do usuário ao gerar seus relatórios,
   
 1. No centro de administração, vá para a página **Configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Serviços&amp; suplementos</a>.
 
-2. Selecione **Relatórios**. 
+2. Selecione **Relatórios** . 
   
-3. No painel **relatórios**, selecione as opções desejadas e, em seguida, salve suas alterações.
+3. No painel **relatórios** , selecione as opções desejadas e, em seguida, salve suas alterações.
   
 A sua lista de usuários terá a seguinte aparência:
   
