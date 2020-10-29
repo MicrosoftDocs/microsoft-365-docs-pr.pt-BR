@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,13 +17,13 @@ search.appverid:
 - MOE150
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudar a solucionar problemas comuns de suporte para contas de email.
-ms.openlocfilehash: e370a0220fcc42854d3cc570e175ab96845f7d4b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+description: Saiba como usar a ferramenta de pesquisa de log de auditoria do Microsoft 365 para ajudar a solucionar problemas comuns de suporte para contas de email.
+ms.openlocfilehash: a32633d401156e00a45d15e4b38622b13bcb87cf
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351124"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787587"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria para investigar problemas comuns de suporte
 
@@ -34,6 +34,8 @@ Este artigo descreve como usar a ferramenta de pesquisa de log de auditoria para
 - Determinar se um usuário excluiu itens de email em suas caixas de correio
 - Determinar se um usuário criou uma regra de caixa de entrada
 - Investigue por que houve um login bem-sucedido de um usuário fora da sua organização
+- Pesquisar atividades de caixa de correio realizadas por usuários com licenças não e5
+- Pesquisar atividades de caixa de correio realizadas por usuários delegados
 
 ## <a name="using-the-audit-log-search-tool"></a>Usando a ferramenta de pesquisa de log de auditoria
 
@@ -41,7 +43,7 @@ Cada um dos cenários de solução de problemas descritos neste artigo se baseia
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>Permissões necessárias para usar a ferramenta de pesquisa de log de auditoria
 
-Você deve receber a função de logs de auditoria somente para exibição ou logs de auditoria no Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Os administradores globais no Office 365 e Microsoft 365 são automaticamente adicionados como membros do grupo de função gerenciamento da organização no Exchange Online. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkID=730688).
+Você deve ser atribuído à função View-Only logs de auditoria ou logs de auditoria no Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Os administradores globais no Office 365 e Microsoft 365 são automaticamente adicionados como membros do grupo de função gerenciamento da organização no Exchange Online. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkID=730688).
 
 ### <a name="running-audit-log-searches"></a>Executando pesquisas de log de auditoria
 
@@ -49,7 +51,7 @@ Esta seção descreve as noções básicas para criar e executar pesquisas de lo
 
 1. Acesse [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog) e entre usando sua conta corporativa ou de estudante.
     
-    É exibida a página **Pesquisa de log de auditoria**. 
+    É exibida a página **Pesquisa de log de auditoria** . 
     
     ![Configure critérios e selecione Pesquisar para executar a pesquisa](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
   
@@ -79,7 +81,7 @@ O endereço IP correspondente a uma atividade realizada por qualquer usuário é
 
 Confira aqui como configurar uma consulta de pesquisa de log de auditoria para este cenário:
 
-**Atividades:** Se for relevante para o seu caso, selecione uma atividade específica a ser pesquisada. Para solucionar problemas de contas comprometidas, considere selecionar o **usuário conectado à** atividade de caixa de correio em **atividades de caixa de correio do Exchange**. Isso retorna registros de auditoria mostrando o endereço IP que foi usado ao entrar na caixa de correio. Caso contrário, deixe este campo em branco para retornar os registros de auditoria de todas as atividades. 
+**Atividades:** Se for relevante para o seu caso, selecione uma atividade específica a ser pesquisada. Para solucionar problemas de contas comprometidas, considere selecionar o **usuário conectado à** atividade de caixa de correio em **atividades de caixa de correio do Exchange** . Isso retorna registros de auditoria mostrando o endereço IP que foi usado ao entrar na caixa de correio. Caso contrário, deixe este campo em branco para retornar os registros de auditoria de todas as atividades. 
 
 > [!TIP]
 > Deixar este campo em branco retornará as atividades **userlogged** , que é uma atividade do Azure Active Directory que indica que alguém entrou em uma conta de usuário. Use filtragem nos resultados da pesquisa para exibir os registros de auditoria **Userlogind** .
@@ -94,7 +96,7 @@ Depois de executar a pesquisa, o endereço IP de cada atividade é exibido na co
 
 ## <a name="determine-who-set-up-email-forwarding-for-a-mailbox"></a>Determinar quem configurou o encaminhamento de email para uma caixa de correio
 
-Quando o encaminhamento de emails é configurado para uma caixa de correio, as mensagens de email enviadas para a caixa de correio são encaminhadas para outra caixa de correio. As mensagens podem ser encaminhadas para os usuários dentro ou fora da sua organização. Quando o encaminhamento de emails é configurado em uma caixa de correio, o cmdlet do Exchange Online subjacente usado é **Set-Mailbox**.
+Quando o encaminhamento de emails é configurado para uma caixa de correio, as mensagens de email enviadas para a caixa de correio são encaminhadas para outra caixa de correio. As mensagens podem ser encaminhadas para os usuários dentro ou fora da sua organização. Quando o encaminhamento de emails é configurado em uma caixa de correio, o cmdlet do Exchange Online subjacente usado é **Set-Mailbox** .
 
 Confira aqui como configurar uma consulta de pesquisa de log de auditoria para este cenário:
 
@@ -110,7 +112,7 @@ Depois de executar a pesquisa, selecione **filtrar resultados** na página de re
 
 ![Filtrando os resultados de uma pesquisa de log de auditoria](../media/emailforwarding1.png)
 
-Neste ponto, você precisa examinar os detalhes de cada registro de auditoria para determinar se a atividade está relacionada ao encaminhamento de email. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações**. A captura de tela e as descrições a seguir realçam as informações que indicam que o encaminhamento de emails foi definido na caixa de correio.
+Neste ponto, você precisa examinar os detalhes de cada registro de auditoria para determinar se a atividade está relacionada ao encaminhamento de email. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações** . A captura de tela e as descrições a seguir realçam as informações que indicam que o encaminhamento de emails foi definido na caixa de correio.
 
 ![Informações detalhadas do registro de auditoria](../media/emailforwarding2.png)
 
@@ -118,7 +120,7 @@ a. No campo **ObjectID** , o alias da caixa de correio para o qual o encaminhame
 
 b. No campo **parâmetros** , o valor *ForwardingSmtpAddress* indica que o encaminhamento de emails foi definido na caixa de correio. Neste exemplo, o email está sendo encaminhado para o endereço de email mike@contoso.com, que está fora da organização do alpinehouse.onmicrosoft.com.
 
-c. O valor *true* para o parâmetro *DeliverToMailboxAndForward* indica que uma cópia da mensagem é entregue ao Sarad@alpinehouse.onmicrosoft.com *e* é encaminhada para o endereço de email especificado pelo parâmetro *ForwardingSmtpAddress* , que, neste exemplo, é Mike@contoso.com. Se o valor do parâmetro *DeliverToMailboxAndForward* for definido como *false*, o email será encaminhada somente para o endereço especificado pelo parâmetro *ForwardingSmtpAddress* . Ele não é entregue à caixa de correio especificada no campo **ObjectID** .
+c. O valor *true* para o parâmetro *DeliverToMailboxAndForward* indica que uma cópia da mensagem é entregue ao Sarad@alpinehouse.onmicrosoft.com *e* é encaminhada para o endereço de email especificado pelo parâmetro *ForwardingSmtpAddress* , que, neste exemplo, é Mike@contoso.com. Se o valor do parâmetro *DeliverToMailboxAndForward* for definido como *false* , o email será encaminhada somente para o endereço especificado pelo parâmetro *ForwardingSmtpAddress* . Ele não é entregue à caixa de correio especificada no campo **ObjectID** .
 
 d. O campo **userid** indica o usuário que define o encaminhamento de emails na caixa de correio especificada no campo **ObjectID** . Esse usuário também é exibido na coluna **usuário** na página de resultados da pesquisa. Nesse caso, parece que o proprietário da caixa de correio define o encaminhamento de email em sua caixa de correio.
 
@@ -138,9 +140,9 @@ As ações de caixa de correio registradas por padrão incluem as ações de cai
 
 Confira aqui como configurar uma consulta de pesquisa de log de auditoria para este cenário:
 
-**Atividades:** Em **atividades de caixa de correio do Exchange**, selecione uma das atividades a seguir ou ambas:
+**Atividades:** Em **atividades de caixa de correio do Exchange** , selecione uma das atividades a seguir ou ambas:
 
-- **Mensagens excluídas da pasta itens excluídos:** Essa atividade corresponde à ação de auditoria de caixa de correio do **SoftDelete** . Essa atividade também é registrada quando um usuário exclui permanentemente um item selecionando-o e pressionando **Shift + Delete**. Depois que um item é excluído permanentemente, o usuário pode recuperá-lo até que expire o período de retenção do item excluído.
+- **Mensagens excluídas da pasta itens excluídos:** Essa atividade corresponde à ação de auditoria de caixa de correio do **SoftDelete** . Essa atividade também é registrada quando um usuário exclui permanentemente um item selecionando-o e pressionando **Shift + Delete** . Depois que um item é excluído permanentemente, o usuário pode recuperá-lo até que expire o período de retenção do item excluído.
 
 - **Mensagens limpas da caixa de correio:** Essa atividade corresponde à ação de auditoria de caixa de correio do **HardDelete** . Isso é registrado quando um usuário limpa um item da pasta itens recuperáveis. Os administradores podem usar a ferramenta de pesquisa de conteúdo no centro de segurança e conformidade para pesquisar e recuperar itens excluídos até que o período de retenção do item excluído expire ou maior se a caixa de correio do usuário estiver em espera.
 
@@ -150,7 +152,7 @@ Confira aqui como configurar uma consulta de pesquisa de log de auditoria para e
 
 **Arquivo, pasta ou site:** Deixe este campo em branco.
 
-Depois de executar a pesquisa, você pode filtrar os resultados da pesquisa para exibir os registros de auditoria para itens excluídos por software ou para itens excluídos. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações**. Informações adicionais sobre o item excluído, como a linha de assunto e o local do item quando ele foi excluído, são exibidas no campo **AffectedItems** . As capturas de tela a seguir mostram um exemplo do campo **AffectedItems** de um item excluído de forma reversível e de um item excluído.
+Depois de executar a pesquisa, você pode filtrar os resultados da pesquisa para exibir os registros de auditoria para itens excluídos por software ou para itens excluídos. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações** . Informações adicionais sobre o item excluído, como a linha de assunto e o local do item quando ele foi excluído, são exibidas no campo **AffectedItems** . As capturas de tela a seguir mostram um exemplo do campo **AffectedItems** de um item excluído de forma reversível e de um item excluído.
 
 **Exemplo de campo AffectedItems para item excluído por software**
 
@@ -178,7 +180,7 @@ Quando os usuários criam uma regra de caixa de entrada para sua caixa de correi
 
 Confira aqui como configurar uma consulta de pesquisa de log de auditoria para este cenário:
 
-**Atividades:** Em **atividades de caixa de correio do Exchange**, selecione **novo-InboxRule criar/modificar/habilitar/desabilitar regra de caixa de entrada**.
+**Atividades:** Em **atividades de caixa de correio do Exchange** , selecione **novo-InboxRule criar/modificar/habilitar/desabilitar regra de caixa de entrada** .
 
 **Data de início** e **data de término:** selecione um intervalo de datas que seja aplicável à sua investigação.
 
@@ -186,7 +188,7 @@ Confira aqui como configurar uma consulta de pesquisa de log de auditoria para e
 
 **Arquivo, pasta ou site:** Deixe este campo em branco.
 
-Depois de executar a pesquisa, todos os registros de auditoria dessa atividade serão exibidos nos resultados da pesquisa. Selecione um registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações**. As informações sobre as configurações da regra de caixa de entrada são exibidas no campo **parâmetros** . As descrições e capturas de tela a seguir destacam as informações sobre regras de caixa de entrada.
+Depois de executar a pesquisa, todos os registros de auditoria dessa atividade serão exibidos nos resultados da pesquisa. Selecione um registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações** . As informações sobre as configurações da regra de caixa de entrada são exibidas no campo **parâmetros** . As descrições e capturas de tela a seguir destacam as informações sobre regras de caixa de entrada.
 
 ![Registro de auditoria para nova regra de caixa de entrada](../media/NewInboxRuleRecord.png)
 
@@ -194,20 +196,20 @@ a. No campo **ObjectID** , o nome completo da regra de caixa de entrada é exibi
 
 b. No campo **parâmetros** , a condição da regra de caixa de entrada é exibida. Neste exemplo, a condição é especificada pelo parâmetro *from* . O valor definido para o parâmetro from indica que a regra de caixa *de* entrada atua no email enviado por admin@alpinehouse.onmicrosoft.com. Para obter uma lista completa dos parâmetros que podem ser usados para definir condições de regras de caixa de entrada, consulte o artigo [New-InboxRule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) .
 
-c. O parâmetro *MoveToFolder* especifica a ação para a regra de caixa de entrada. Neste exemplo, as mensagens recebidas de admin@alpinehouse.onmicrosoft.com são movidas para a pasta denominada *AdminSearch*. Consulte também o artigo [New-InboxRule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) para obter uma lista completa de parâmetros que podem ser usados para definir a ação de uma regra de caixa de entrada.
+c. O parâmetro *MoveToFolder* especifica a ação para a regra de caixa de entrada. Neste exemplo, as mensagens recebidas de admin@alpinehouse.onmicrosoft.com são movidas para a pasta denominada *AdminSearch* . Consulte também o artigo [New-InboxRule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) para obter uma lista completa de parâmetros que podem ser usados para definir a ação de uma regra de caixa de entrada.
 
 d. O campo **userid** indica o usuário que criou a regra de caixa de entrada especificada no campo **ObjectID** . Esse usuário também é exibido na coluna **usuário** na página de resultados da pesquisa.
 
 ## <a name="investigate-why-there-was-a-successful-login-by-a-user-outside-your-organization"></a>Investigue por que houve um login bem-sucedido de um usuário fora da sua organização
 
-Ao revisar registros de auditoria no log de auditoria, você pode ver registros que indicam que um usuário externo foi autenticado pelo Azure Active Directory e fez logon com êxito na sua organização. Por exemplo, um administrador no contoso.onmicrosoft.com pode ver um registro de auditoria mostrando que um usuário de uma organização diferente (por exemplo, fabrikam.onmicrosoft.com) se conectou com êxito no contoso.onmicrosoft.com. Da mesma forma, você pode ver registros de auditoria que indicam aos usuários uma conta da Microsoft (MSA), como um Outlook.com ou Live.com, conectado com êxito à sua organização. Nessas situações, a atividade auditada é o **usuário conectado**. 
+Ao revisar registros de auditoria no log de auditoria, você pode ver registros que indicam que um usuário externo foi autenticado pelo Azure Active Directory e fez logon com êxito na sua organização. Por exemplo, um administrador no contoso.onmicrosoft.com pode ver um registro de auditoria mostrando que um usuário de uma organização diferente (por exemplo, fabrikam.onmicrosoft.com) se conectou com êxito no contoso.onmicrosoft.com. Da mesma forma, você pode ver registros de auditoria que indicam aos usuários uma conta da Microsoft (MSA), como um Outlook.com ou Live.com, conectado com êxito à sua organização. Nessas situações, a atividade auditada é o **usuário conectado** . 
 
 Este é o comportamento padrão. Azure Active Directory (Azure AD), o serviço de diretório permite algo chamado *autenticação de passagem* quando um usuário externo tenta acessar um site do SharePoint ou um local do onedrive em sua organização. Quando o usuário externo tenta fazer isso, é solicitado a inserir suas credenciais. O Azure AD usa as credenciais para autenticar o usuário, o que significa que somente o Azure AD verifica se o usuário é quem diz ser. A indicação do logon bem-sucedido no registro de auditoria é o resultado do Azure AD autenticar o usuário. O logon bem-sucedido não significa que o usuário conseguiu acessar qualquer recurso ou executar qualquer outra ação em sua organização. Somente indica que o usuário foi autenticado pelo Azure AD. Para que um usuário de passagem acesse os recursos do SharePoint ou do OneDrive, um usuário da sua organização teria que compartilhar explicitamente um recurso com o usuário externo enviando-lhes um convite de compartilhamento ou um link de compartilhamento anônimo. 
 
 > [!NOTE]
-> O Azure AD permite a autenticação de passagem somente para *aplicativos de terceiros*, como o SharePoint Online e o onedrive for Business. Não é permitido para outros aplicativos de terceiros.
+> O Azure AD permite a autenticação de passagem somente para *aplicativos de terceiros* , como o SharePoint Online e o onedrive for Business. Não é permitido para outros aplicativos de terceiros.
 
-Veja um exemplo e descrições das propriedades relevantes em um registro de auditoria para um evento **conectado pelo usuário** que é um resultado de autenticação de passagem. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações**.
+Veja um exemplo e descrições das propriedades relevantes em um registro de auditoria para um evento **conectado pelo usuário** que é um resultado de autenticação de passagem. Selecione o registro de auditoria para exibir a página do submenu **detalhes** e, em seguida, selecione **mais informações** .
 
 ![Exemplo de registro de auditoria para autenticação pass-thru bem-sucedida](../media/PassThroughAuth1.png)
 
@@ -229,7 +231,6 @@ Estes são dois cenários de exemplo que resultaria em um **usuário bem-sucedid
 
   - Um usuário com uma conta corporativa ou de estudante em uma organização (como pilarp@fabrikam.onmicrosoft.com) tentou acessar um site do SharePoint no contoso.onmicrosoft.com e não há uma conta de usuário convidado correspondente para o pilarp@fabrikam.com no contoso.onmicrosoft.com.
 
-
 ### <a name="tips-for-investigating-successful-logins-resulting-from-pass-through-authentication"></a>Dicas para a investigação de logons bem-sucedidos resultantes da autenticação de passagem
 
 - Pesquisar o log de auditoria para atividades realizadas pelo usuário externo identificado no registro de auditoria do **usuário conectado** . Digite o UPN para o usuário externo na caixa **usuários** e use um intervalo de datas, se for relevante para o seu cenário. Por exemplo, você pode criar uma pesquisa usando os seguintes critérios de pesquisa:
@@ -240,4 +241,55 @@ Estes são dois cenários de exemplo que resultaria em um **usuário bem-sucedid
 
 - Procure atividades de compartilhamento do SharePoint que informariam que um arquivo foi compartilhado com o usuário externo identificado por um registro **de auditoria conectado** por um usuário. Para saber mais, veja [Usar a auditoria de compartilhamento no log de auditoria](use-sharing-auditing.md).
 
-- Exporte os resultados de pesquisa de log de auditoria que contêm registros relevantes à sua investigação, para que você possa usar o Excel para pesquisar outras atividades relacionadas ao usuário externo. Para obter mais informações, consulte [exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).
+- Exporte os resultados de pesquisa de log de auditoria que contêm registros relevantes à sua investigação, para que você possa usar o Excel para pesquisar outras atividades relacionadas ao usuário externo. Para obter mais informações, consulte  [exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).
+
+## <a name="search-for-mailbox-activities-performed-by-users-with-non-e5-licenses"></a>Pesquisar atividades de caixa de correio realizadas por usuários com licenças não e5
+
+Mesmo quando a [auditoria de caixa de correio ativa por padrão](enable-mailbox-auditing.md) é ativada para sua organização, você pode notar que os eventos de auditoria de caixa de correio para alguns usuários não são encontrados nas pesquisas de log de auditoria usando o centro de conformidade, o cmdlet **Search-UNIFIEDAUDITLOG** ou a API de atividade de gerenciamento do Office 365. O motivo para isso é que os eventos de auditoria de caixa de correio serão retornados somente para os usuários com licenças E5 quando você tiver um dos métodos anteriores para pesquisar o log de auditoria unificada.
+
+Para recuperar registros de log de auditoria de caixa de correio para usuários não-e5, você pode executar uma das seguintes soluções alternativas:
+
+- Habilitar manualmente a auditoria de caixa de correio em caixas de correio individuais (execute o `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` comando no PowerShell do Exchange Online). Depois de fazer isso, pesquise as atividades de auditoria de caixa de correio usando o centro de conformidade, o cmdlet **Search-UnifiedAuditLog** ou a API de atividade de gerenciamento do Office 365.
+  
+  > [!NOTE]
+  > Se a auditoria de caixa de correio já estiver habilitada na caixa de correio, mas as pesquisas não retornarem nenhum resultado, altere o valor do parâmetro _AuditEnabled_ para `$false` e, em seguida, de volta para o `$true` .
+  
+- Use os seguintes cmdlets no PowerShell do Exchange Online:
+
+  - [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) para pesquisar o log de auditoria de caixa de correio para usuários específicos.
+
+  - [New-MailboxAuditLogSearch](https://docs.microsoft.com/powershell/module/exchange/new-mailboxauditlogsearch) para pesquisar o log de auditoria de caixa de correio para usuários específicos e para que os resultados sejam enviados por email para destinatários especificados.
+
+## <a name="search-for-mailbox-activities-performed-in-a-specific-mailbox-including-shared-mailboxes"></a>Pesquisar atividades de caixa de correio realizadas em uma caixa de correio específica (incluindo caixas de correio compartilhadas)
+
+Quando você usa a lista suspensa de **usuários** na ferramenta de pesquisa de log de auditoria no centro de conformidade ou no comando **Search-UnifiedAuditLog-userids** no Exchange Online PowerShell, você pode pesquisar atividades realizadas por um usuário específico. Para atividades de auditoria de caixa de correio, esse tipo de pesquisa pesquisará atividades realizadas pelo usuário especificado. Não garante que todas as atividades realizadas na mesma caixa de correio sejam retornadas nos resultados da pesquisa. Por exemplo, uma pesquisa de log de auditoria não retornará registros de auditoria para atividades realizadas por um usuário delegado, pois a pesquisa de atividades de caixa de correio realizadas por um usuário específico não retornará atividades realizadas por um usuário delegado que tenha recebido permissões para acessar a caixa de correio de outro usuário. (Um usuário delegado é alguém que tenha recebido a permissão de caixa de correio sendas, SendOnBehalf ou FullAccess para a caixa de correio de outro usuário.)
+
+Além disso, usar a lista suspensa de **usuário** na ferramenta de pesquisa de log de auditoria ou o **Search-UnifiedAuditLog-userids** não retornará resultados para atividades realizadas em uma caixa de correio compartilhada.
+
+Para pesquisar as atividades realizadas em uma caixa de correio específica ou para pesquisar atividades realizadas em uma caixa de correio compartilhada, use a seguinte sintaxe ao executar o cmdlet **Search-UnifiedAuditLog** :
+
+```powershell
+Search-UnifiedAuditLog  -StartDate <date> -EndDate <date> -FreeText (Get-Mailbox <mailbox identity).ExchangeGuid
+```
+
+Por exemplo, o comando a seguir retorna registros de auditoria para atividades realizadas na caixa de correio compartilhada da equipe de conformidade da Contoso entre agosto de 2020 e outubro de 2020:
+
+```powershell
+Search-UnifiedAuditLog  -StartDate 08/01/2020 -EndDate 10/31/2020 -FreeText (Get-Mailbox complianceteam@contoso.onmicrosoft.com).ExchangeGuid
+```
+
+Como alternativa, você pode usar o cmdlet **Search-MailboxAuditLog** para pesquisar registros de auditoria para atividades realizadas em uma caixa de correio específica. Isso inclui a pesquisa de atividades realizadas em uma caixa de correio compartilhada.
+
+O exemplo a seguir retorna registros de log de auditoria de caixa de correio para atividades realizadas na caixa de correio compartilhada da equipe de conformidade da Contoso:
+
+```powershell
+Search-MailboxAuditLog -Identity complianceteam@contoso.onmicrosoft.com -StartDate 08/01/2020 -EndDate 10/31/2020 -ShowDetails
+```
+
+O exemplo a seguir retorna registros de log de auditoria de caixa de correio para atividades realizadas na caixa de correio especificada por usuários delegados:
+
+```powershell
+Search-MailboxAuditLog -Identity <mailbox identity> -StartDate <date> -EndDate <date> -LogonTypes Delegate -ShowDetails
+```
+
+Você também pode usar o cmdlet **New-MailboxAuditLogSearch** para pesquisar o log de auditoria para uma caixa de correio específica e para que os resultados sejam enviados por email para destinatários especificados.

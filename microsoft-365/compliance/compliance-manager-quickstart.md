@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Use o guia de início rápido do Gerenciador de conformidade para ajudá-lo na sua jornada de compreensão, configuração e uso do Gerenciador de conformidade.
-ms.openlocfilehash: 9fd86550652860b1c89be414f4c0b55c28a817e5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 895f03482c0af9603aa96d907d7339a853ef5e9d
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204271"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791787"
 ---
-# <a name="compliance-manager-quickstart"></a>QuickStart do Gerenciador de conformidade
+# <a name="compliance-manager-quickstart"></a>QuickStart do Gerenciador de Conformidade
 
 **Neste artigo:** Use este guia de início rápido para ajudá-lo a usar o gerente de conformidade da Microsoft para gerenciar a conformidade da sua organização com regulamentos, políticas e padrões.
 
@@ -33,13 +33,13 @@ Se você está entrando no gerente de conformidade pela primeira vez ou está pr
 
 O Gerenciador de conformidade está localizado no centro de conformidade da Microsoft 365 em https://compliance.microsoft.com . O administrador global da sua organização precisará [configurar permissões de usuário e atribuir funções antes de](compliance-manager-setup.md#set-user-permissions-and-assign-roles) começar a usar o Gerenciador de conformidade.
 
-Na primeira vez que visitar o gerente de conformidade, você verá uma pontuação de conformidade para sua organização. O Gerenciador de conformidade já está avaliando seu ambiente atual do Microsoft 365 em relação à linha de base de proteção de dados. A melhor maneira de começar a se familiarizar com o Gerenciador de conformidade é entender o que ele mostra, seus elementos principais e como personalizar seu painel.
+Na primeira vez que visitar o gerente de conformidade, você verá uma pontuação de conformidade para sua organização. O Gerenciador de conformidade já está avaliando seu ambiente atual do Microsoft 365 em relação à linha de base de proteção de dados. A melhor maneira de começar a se familiarizar com o Gerenciador de conformidade é entender o que ele está mostrando, seus elementos principais e como personalizar o painel.
 
 Nossa [página de visão geral do Gerenciador de conformidade](compliance-manager.md) é a melhor parada para uma análise abrangente do que é gerente de conformidade e como funciona. Você também pode querer ir direto para as seções principais da nossa documentação usando os links abaixo:
 
 - [Entender sua pontuação de conformidade](compliance-manager.md#understanding-your-compliance-score)
 - [Visão geral dos principais elementos: controles, avaliações, modelos e ações de melhoria](compliance-manager.md#key-elements-controls-assessments-templates-improvement-actions)
-- [Entender o painel do Gerenciador de conformidade](compliance-manager-setup.md#understand-the-compliance-manger-dashboard)
+- [Entender o painel do Gerenciador de conformidade](compliance-manager-setup.md#understand-the-compliance-manager-dashboard)
 - [Filtrar o modo de exibição do painel](compliance-manager-setup.md#filtering-your-dashboard-view)
 - [Saiba mais sobre ações de melhoria](compliance-manager-setup.md#improvement-actions-page)
 - [Entender avaliações](compliance-manager.md#assessments)

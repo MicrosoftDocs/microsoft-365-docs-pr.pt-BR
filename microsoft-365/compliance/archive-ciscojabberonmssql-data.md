@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar os dados do Cisco Jabber do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: c87449c35d588fd886d9d108f136eea0a4799ccf
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: c93e0e702fba5a8232f3d41b3b6a32ab12216b3c
+ms.sourcegitcommit: 16cbac5eacadd7b30cbca1fd2435ba9098de5e1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48409088"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48785545"
 ---
-# <a name="set-up-a-connector-to-archive-cisco-jabber-data-preview"></a>Configurar um conector para arquivar dados do Cisco Jabber (visualização)
+# <a name="set-up-a-connector-to-archive-cisco-jabber-data"></a>Configurar um conector para arquivar os dados do Cisco Jabber
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma Cisco Jabber para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector [Cisco Jabber](https://globanet.com/jabber/) que é configurado para capturar itens do banco de dados MS SQL do Jabber, 1:1 como mensagens de chat e chats de grupo do e, em seguida, importa esses itens para a Microsoft 365. O conector recupera dados do banco de dados MS SQL do Cisco Jabber, processa-o e converte o conteúdo de uma conta do Cisco Jabber do usuário em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -51,13 +51,13 @@ A visão geral a seguir explica o processo de usar um conector para arquivar os 
 
 A primeira etapa é acessar os **conectores de dados** no centro de conformidade da Microsoft 365 e criar um conector para o Cisco Jabber em dados MS SQL.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados**  >  **Cisco Jabber no MS SQL**.
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados**  >  **Cisco Jabber no MS SQL** .
 
-2. Na página **Cisco Jabber na descrição do produto MS SQL** , clique em **Adicionar conector**.
+2. Na página **Cisco Jabber na descrição do produto MS SQL** , clique em **Adicionar conector** .
 
-3. Na página **termos de serviço** , clique em **aceitar**.
+3. Na página **termos de serviço** , clique em **aceitar** .
 
-4. Insira um nome exclusivo que identifique o conector e clique em **Avançar**.
+4. Insira um nome exclusivo que identifique o conector e clique em **Avançar** .
 
 5. Entre em sua conta do Merge1 para configurar o conector.
 
@@ -65,19 +65,19 @@ A primeira etapa é acessar os **conectores de dados** no centro de conformidade
 
 A segunda etapa é configurar o Cisco Jabber no MS SQL Connector no site do Merge1 Globanet. Para obter informações sobre como configurar o Cisco Jabber no MS SQL Connector, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Cisco%20Jabber%20on%20MS%20SQL%20User%20Guide%20.pdf).
 
-Após clicar em **salvar & concluir**, você será direcionado para o centro de conformidade da Microsoft 365, para a página **mapeamento de usuários** no assistente de conector.
+Após clicar em **salvar & concluir** , você será direcionado para o centro de conformidade da Microsoft 365, para a página **mapeamento de usuário** no assistente de conector.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
 Para mapear usuários e concluir o conector configurado no centro de conformidade do Microsoft 365, siga estas etapas:
 
-1. Na página **mapear o Cisco Jabber em usuários do MS SQL para usuários do Microsoft 365** , habilite o mapeamento de usuário automático. Os itens do Cisco Jabber em MS SQL incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
+1. Na página **mapear o Cisco Jabber em usuários do MS SQL para usuários do Microsoft 365** , habilite o mapeamento de usuário automático. Os itens do Cisco Jabber em MS SQL incluem uma propriedade chamada *email* , que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
-2. Na página **consentimento do administrador** , clique em **fornecer consentimento**. Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
+2. Na página **consentimento do administrador** , clique em **fornecer consentimento** . Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
 
    Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para fornecer o consentimento do administrador, você deve estar conectado com as credenciais de um administrador global do Microsoft 365 e aceitar a solicitação de consentimento. Se você não estiver conectado como um administrador global, poderá ir para [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entrar usando as credenciais de administrador global para aceitar a solicitação.
 
-3. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+3. Clique em **Avançar** , revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
 ## <a name="step-4-monitor-the-cisco-jabber-connector"></a>Etapa 4: monitorar o conector Cisco Jabber
 
@@ -87,7 +87,7 @@ Depois de criar o Cisco Jabber no MS SQL Connector, você pode visualizar o stat
 
 2. Clique na guia **conectores** e selecione o **Cisco JABBER no MS SQL** Connector para exibir a página de menu suspenso, que contém as propriedades e informações sobre o conector.
 
-3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
+3. Em **status do conector com origem** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

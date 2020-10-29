@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O gerente de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: d26d187277b021e278667b6e0ae19a0772b34f03
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: d7136368a1c9726d1a77a0c99e717b98e1920242
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368124"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791797"
 ---
 # <a name="microsoft-compliance-manager"></a>Gerente de conformidade da Microsoft
 
@@ -83,9 +83,9 @@ Um controle é um requisito de regulamentação, padrão ou política. Ele defin
 
 O Gerenciador de conformidade rastreia os seguintes tipos de controle:
 
-1. **Controles gerenciados pela Microsoft**: controles para serviços de nuvem da Microsoft, que a Microsoft é responsável por implementar
-2. **Seus controles**: às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
-3. **Controles compartilhados**: são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
+1. **Controles gerenciados pela Microsoft** : controles para serviços de nuvem da Microsoft, que a Microsoft é responsável por implementar
+2. **Seus controles** : às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
+3. **Controles compartilhados** : são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
 
 ##### <a name="learn-more"></a>Saiba mais
 
@@ -99,11 +99,11 @@ Uma avaliação é o agrupamento de controles de uma regulamentação, padrão o
 
 As avaliações têm vários componentes:
 
-- **Serviços no escopo**: o conjunto específico de serviços Microsoft aplicável à avaliação
-- **Controles gerenciados**pela Microsoft: controles para serviços de nuvem da Microsoft, que a Microsoft implementa em seu nome
-- **Seus controles**: às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
-- **Controles compartilhados**: são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
-- **Pontuação de avaliação**: mostra seu progresso em obter o total de pontos possíveis de ações na avaliação que são gerenciados pela sua organização e pela Microsoft
+- **Serviços no escopo** : o conjunto específico de serviços Microsoft aplicável à avaliação
+- **Controles gerenciados** pela Microsoft: controles para serviços de nuvem da Microsoft, que a Microsoft implementa em seu nome
+- **Seus controles** : às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
+- **Controles compartilhados** : são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
+- **Pontuação de avaliação** : mostra seu progresso em obter o total de pontos possíveis de ações na avaliação que são gerenciados pela sua organização e pela Microsoft
 
 Ao criar avaliações, você as atribuirá a um grupo. Você pode configurar grupos de qualquer forma que seja mais lógica para sua organização. Por exemplo, você pode agrupar avaliações por ano de auditoria, região, solução, equipes dentro da sua organização ou alguma outra maneira. Depois de criar grupos, você pode [filtrar seu painel do Gerenciador de conformidade](compliance-manager-setup.md#filtering-your-dashboard-view) para exibir sua pontuação por um ou mais grupos.
 

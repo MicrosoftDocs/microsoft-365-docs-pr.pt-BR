@@ -14,16 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como usar e gerenciar modelos para a criação de avaliações no Microsoft Compliance Manager. Criar e modificar modelos usando um arquivo Excel formatado.
-ms.openlocfilehash: 95cd6e90454b04f34014830008b9e7fbec04c38e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: cc3092e486e4f25fa1edad1ff64e638410cf3a63
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204268"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791798"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>Trabalhando com modelos de avaliação no gerente de conformidade
 
-**Neste artigo:** Entenda **como os modelos funcionam** e **como gerenciá-los** na página modelos de avaliação. Obtenha instruções para a **criação** de novos modelos, **modificação** de modelos existentes, **formatação de dados de modelo com o Excel**e exportação de **relatórios**de modelo.
+**Neste artigo:** Entenda **como os modelos funcionam** e **como gerenciá-los** na página modelos de avaliação. Obtenha instruções para a **criação** de novos modelos, **modificação** de modelos existentes, **formatação de dados de modelo com o Excel** e exportação de **relatórios** de modelo.
 
 > [!IMPORTANT]
 > Os modelos de avaliação disponíveis para sua organização dependem do contrato de licenciamento. [Revise os detalhes](https://go.microsoft.com/fwlink/?linkid=2132371).
@@ -58,13 +58,13 @@ Somente os usuários que retêm uma função de administração global de admini
 Para criar seu próprio modelo novo (usado para compilar avaliações personalizadas), siga as etapas abaixo.
 
 1. Vá para a página **modelos de avaliação** no Gerenciador de conformidade.
-2. Selecione **criar novo modelo**. Um assistente de criação de modelo será aberto.
-3. Escolha o tipo de modelo que você deseja criar. Nesse caso, selecione **criar um modelo personalizado**e, em seguida, selecione **Avançar**.
+2. Selecione **criar novo modelo** . Um assistente de criação de modelo será aberto.
+3. Escolha o tipo de modelo que você deseja criar. Nesse caso, selecione **criar um modelo personalizado** e, em seguida, selecione **Avançar** .
 4. Na triagem de **arquivo de upload** , selecione **procurar** para localizar e carregar seu arquivo Excel formatado que contém todos os dados de modelo necessários (consulte as [instruções para formatar corretamente o arquivo](#formatting-your-template-data-with-excel)).
-5. Se não houver problemas no arquivo, o nome do arquivo carregado será exibido. Selecione **Avançar** para continuar. (Se você precisar alterar o arquivo, selecione **carregar um arquivo diferente**).
+5. Se não houver problemas no arquivo, o nome do arquivo carregado será exibido. Selecione **Avançar** para continuar. (Se você precisar alterar o arquivo, selecione **carregar um arquivo diferente** ).
     - Se houver um erro com seu arquivo, uma mensagem de erro na parte superior explicará o que há de errado. Você precisará corrigir o arquivo e carregá-lo novamente. Os erros ocorrerão se sua planilha estiver formatada incorretamente ou se houver informações inválidas em determinados campos (consulte novamente as [instruções de formatação](#formatting-your-template-data-with-excel)).  
     
-6. A tela **revisão e término** mostra o número de ações e controles de aperfeiçoamento e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **criar modelo.** (Se você precisar fazer alterações, selecione **voltar**).
+6. A tela **revisão e término** mostra o número de ações e controles de aperfeiçoamento e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **criar modelo.** (Se você precisar fazer alterações, selecione **voltar** ).
 7. A última tela confirma que um novo modelo foi criado. Selecione **concluído** para sair do assistente.
 8. Você chegará à página de detalhes de seu novo modelo, onde você pode [criar sua avaliação](compliance-manager-assessments.md#create-your-own-custom-assessment).
 
@@ -77,19 +77,19 @@ A planilha do Excel usada para criar modelos contém quatro guias, três das qua
 3. [Ações](#actions-tab) (obrigatório)
 4. [Dimensões](#dimensions-tab) (opcional)
 
-Ao preencher sua planilha com dados de modelo, a planilha  **deve incluir as guias na ordem listada acima**, caso contrário, seus dados não serão importados com êxito para um modelo.
+Ao preencher sua planilha com dados de modelo, a planilha  **deve incluir as guias na ordem listada acima** , caso contrário, seus dados não serão importados com êxito para um modelo.
 
 ##### <a name="template-tab"></a>Guia modelo
 
 A guia **modelo** é necessária. As informações nesta guia fornecem metadados sobre o modelo. Há quatro colunas obrigatórias. As colunas devem reter a ordem na planilha do Excel, conforme listado abaixo. Você pode adicionar sua própria coluna **depois** das quatro colunas para fornecer suas próprias dimensões. Se você fizer isso, adicione-os à guia **dimensões** usando as [instruções abaixo](#dimensions-tab).
 
-- **título**: Este é o título do seu modelo, que deve ser exclusivo. Não é possível compartilhar um nome com outro modelo que você tem no Gerenciador de conformidade, incluindo seus próprios modelos ou um modelo do Gerenciador de conformidade.
+- **título** : Este é o título do seu modelo, que deve ser exclusivo. Não é possível compartilhar um nome com outro modelo que você tem no Gerenciador de conformidade, incluindo seus próprios modelos ou um modelo do Gerenciador de conformidade.
 
-- **produto**: esta é uma dimensão obrigatória. Listar o produto associado ao modelo.
+- **produto** : esta é uma dimensão obrigatória. Listar o produto associado ao modelo.
 
-- **certificação**: esta é a regulamentação que você está usando para o modelo.
+- **certificação** : esta é a regulamentação que você está usando para o modelo.
 
-- **Inscopeservices**: estes são os serviços do produto que esta avaliação resolve (por exemplo, se você listou o Office 365 como produto, o Microsoft Teams pode ser um serviço no escopo). Você pode listar vários serviços separados por dois pontos e vírgulas.
+- **Inscopeservices** : estes são os serviços do produto que esta avaliação resolve (por exemplo, se você listou o Office 365 como produto, o Microsoft Teams pode ser um serviço no escopo). Você pode listar vários serviços separados por dois pontos e vírgulas.
 
 > [!NOTE]
 > Os dados inseridos no **produto** e nas células de **certificação** não podem ser editados após a importação da planilha para criar ou personalizar um modelo. Além disso, um grupo não pode conter duas avaliações que tenham a mesma combinação de **produto/certificação** . Você pode ter vários modelos com a mesma combinação de produto/certificação.
@@ -98,43 +98,43 @@ A guia **modelo** é necessária. As informações nesta guia fornecem metadados
 
 A guia **ControlFamily** é necessária.  As colunas obrigatórias nesta guia, que devem seguir a ordem fornecida na planilha de exemplo, são:
 
-- **ControlName**: Este é o nome do controle da certificação, padrão ou regulamentação, que normalmente é um tipo de ID. Os nomes de controle devem ser exclusivos em um modelo. Não é possível ter vários controles com o mesmo nome na planilha.
+- **ControlName** : Este é o nome do controle da certificação, padrão ou regulamentação, que normalmente é um tipo de ID. Os nomes de controle devem ser exclusivos em um modelo. Não é possível ter vários controles com o mesmo nome na planilha.
 
-- **controlFamily**: forneça uma palavra ou frase para o controlFamily, que identifica um amplo agrupamento de controles. Um controlFamily não precisa ser exclusivo; Ele pode ser listado mais de uma vez em uma planilha. O mesmo controlFamily também pode ser listado em vários modelos, embora não tenham nenhuma relação entre si. Cada controlFamily deve ser mapeado para pelo menos um controle.
+- **controlFamily** : forneça uma palavra ou frase para o controlFamily, que identifica um amplo agrupamento de controles. Um controlFamily não precisa ser exclusivo; Ele pode ser listado mais de uma vez em uma planilha. O mesmo controlFamily também pode ser listado em vários modelos, embora não tenham nenhuma relação entre si. Cada controlFamily deve ser mapeado para pelo menos um controle.
 
-- **controlTitle**: forneça um título para o controle. Enquanto o ControlName é um código de referência, o título é um formato Rich Text geralmente visto nas regulamentações.
+- **controlTitle** : forneça um título para o controle. Enquanto o ControlName é um código de referência, o título é um formato Rich Text geralmente visto nas regulamentações.
 
-- **controlDescription**: forneça uma descrição do controle.
+- **controlDescription** : forneça uma descrição do controle.
 
-- **controlActionTitle**: Este é o título de uma ação que você deseja relacionar a este controle. Você pode adicionar várias ações separando por dois pontos e vírgulas sem espaço entre elas. Todos os controles que você lista deve incluir pelo menos uma ação, e a ação deve existir (o que significa que você pode listar uma ação listada na guia **ações** da mesma planilha, uma ação que existe em um modelo diferente ou uma ação criada pela Microsoft). Diferentes controles podem fazer referência à mesma ação.
+- **controlActionTitle** : Este é o título de uma ação que você deseja relacionar a este controle. Você pode adicionar várias ações separando por dois pontos e vírgulas sem espaço entre elas. Todos os controles que você lista deve incluir pelo menos uma ação, e a ação deve existir (o que significa que você pode listar uma ação listada na guia **ações** da mesma planilha, uma ação que existe em um modelo diferente ou uma ação criada pela Microsoft). Diferentes controles podem fazer referência à mesma ação.
 
 ##### <a name="actions-tab"></a>Guia ações
 
 A guia **ações** é necessária.  Ele designa as ações de melhoria gerenciadas pela sua organização e não as da Microsoft, que já existem no gerente de conformidade. As colunas necessárias para esta guia, que devem seguir a ordem fornecida na planilha de exemplo, são:
 
-- **actionTitle**: Este é o título da ação e é um campo obrigatório. O título fornecido deve ser exclusivo. **Importante**: se você se referir a uma ação que já existe (como em outro modelo) e modificar qualquer um de seus elementos nas colunas subsequentes, essas alterações serão propagadas para a mesma ação em outros modelos.
+- **actionTitle** : Este é o título da ação e é um campo obrigatório. O título fornecido deve ser exclusivo. **Importante** : se você se referir a uma ação que já existe (como em outro modelo) e modificar qualquer um de seus elementos nas colunas subsequentes, essas alterações serão propagadas para a mesma ação em outros modelos.
 
-- **ImplementationType**: neste campo obrigatório, liste um dos três tipos de implementação abaixo:
+- **ImplementationType** : neste campo obrigatório, liste um dos três tipos de implementação abaixo:
     - **Operações operacionais** implementadas por pessoas e processos para proteger a confidencialidade, integridade e disponibilidade de sistemas organizacionais, ativos, dados e funcionários (exemplo: reconhecimento de segurança e treinamento)
     - **Técnicas** -ações concluídas por meio do uso de tecnologia e mecanismos contidos nos componentes de hardware, software ou firmware do sistema de informações para proteger a confidencialidade, integridade e disponibilidade de sistemas e dados organizacionais (exemplo: autenticação multifator)
     - **Documentação** -ações implementadas por meio de políticas e procedimentos documentados que estabelecem e definem os controles necessários para proteger a confidencialidade, integridade e disponibilidade de sistemas organizacionais, ativos, dados e funcionários (exemplo: uma política de segurança de informações)
 
-- **actionScore**: neste campo obrigatório, forneça um valor numérico de Pontuação para a ação. Deve ser um número inteiro variando de 1 a 99; Ele não pode ser 0, nulo ou vazio. Quanto maior o número, maior o valor para melhorar a postura de conformidade. A imagem abaixo demonstra como o Gerenciador de conformidade classifica os controles:
+- **actionScore** : neste campo obrigatório, forneça um valor numérico de Pontuação para a ação. Deve ser um número inteiro variando de 1 a 99; Ele não pode ser 0, nulo ou vazio. Quanto maior o número, maior o valor para melhorar a postura de conformidade. A imagem abaixo demonstra como o Gerenciador de conformidade classifica os controles:
 
 ![Valores de pontos de controles do Gerenciador de conformidade](../media/compliance-score-action-scoring.png "Valores de pontos de controles do Gerenciador de conformidade")
 
-- **actionDescriptionTitle**: Este é o título da descrição e é obrigatório. Este título de descrição permite que você tenha a mesma ação em vários modelos e, em seguida, uma descrição diferente em cada modelo.  Este campo ajuda você a esclarecer em qual modelo a descrição faz referência. Na maioria dos casos, é possível colocar o nome do modelo que você está criando nesse campo.
+- **actionDescriptionTitle** : Este é o título da descrição e é obrigatório. Este título de descrição permite que você tenha a mesma ação em vários modelos e, em seguida, uma descrição diferente em cada modelo.  Este campo ajuda você a esclarecer em qual modelo a descrição faz referência. Na maioria dos casos, é possível colocar o nome do modelo que você está criando nesse campo.
 
-- **actionDescription**: forneça uma descrição da ação. Você pode aplicar formatação, como texto em negrito e hiperlinks. Este é um campo obrigatório.
+- **actionDescription** : forneça uma descrição da ação. Você pode aplicar formatação, como texto em negrito e hiperlinks. Este é um campo obrigatório.
 
-- **Dimension-propósito de ação**: Este é um campo opcional. Se você incluir, o cabeçalho deve incluir o prefixo "Dimension-". Todas as dimensões incluídas aqui serão usadas como filtros no gerente de conformidade e serão exibidas na página de detalhes de ações de melhoria no Gerenciador de conformidade.
+- **Dimension-propósito de ação** : Este é um campo opcional. Se você incluir, o cabeçalho deve incluir o prefixo "Dimension-". Todas as dimensões incluídas aqui serão usadas como filtros no gerente de conformidade e serão exibidas na página de detalhes de ações de melhoria no Gerenciador de conformidade.
 
 ##### <a name="dimensions-tab"></a>Guia dimensões
 
 A guia **dimensões** é opcional. No entanto, se você fizer referência a uma dimensão em outro lugar, precisará especificá-la aqui se ela não existir em um modelo já criado ou em um modelo do Microsoft. As colunas desta guia estão listadas abaixo:
 
-- **dimensionKey**: list como "Product", "certifications", "Action purpose"
-- **dimensionvalue**: exemplos: Office 365, HIPPA, preventivo, detecção
+- **dimensionKey** : list como "Product", "certifications", "Action purpose"
+- **dimensionvalue** : exemplos: Office 365, HIPPA, preventivo, detecção
 
 Você pode exibir as dimensões existentes indo para o **Gerenciamento de locatários** e selecionando a guia **dimensões** . Além disso, sempre que você exportar um modelo existente, a planilha exportada terá a guia **dimensões** , que lista todas as dimensões usadas no modelo.
 
@@ -149,15 +149,15 @@ No entanto, há detalhes específicos que devem ser cientes à medida que você 
 Para modificar um modelo, siga as etapas abaixo:
 
 1. Na página **modelos de avaliação** , selecione o modelo que você deseja modificar, que exibirá a página de detalhes.
-2. Selecione **exportar para o Excel**. Um arquivo do Excel com todos os seus dados de modelo será baixado. Salve o arquivo no computador local.
+2. Selecione **exportar para o Excel** . Um arquivo do Excel com todos os seus dados de modelo será baixado. Salve o arquivo no computador local.
 3. Faça as alterações de modelo [modificando o arquivo do Excel usando as instruções abaixo](#formatting-your-excel-file-to-modify-a-template).
 4. Quando você terminar de fazer alterações no arquivo do Excel, salve o arquivo.
 5. Na página detalhes do seu modelo, selecione **Modificar modelo** para iniciar o assistente de modificação. 
 6. Na tela **carregar arquivo** , selecione **procurar** para localizar e carregar seu arquivo do Excel.
-7. Se não houver problemas com o arquivo, a tela seguinte mostrará o nome do arquivo carregado. Selecione **Avançar** para continuar (se precisar alterar o arquivo, selecione **carregar um arquivo diferente**).
+7. Se não houver problemas com o arquivo, a tela seguinte mostrará o nome do arquivo carregado. Selecione **Avançar** para continuar (se precisar alterar o arquivo, selecione **carregar um arquivo diferente** ).
     - Se houver um problema com seu arquivo, uma mensagem de erro na parte superior explicará o que há de errado. Você precisará corrigir o arquivo e carregá-lo novamente. Os erros ocorrerão se sua planilha estiver formatada incorretamente ou se houver informações inválidas em determinados campos.
 
-8. A tela **revisão e término** mostra o número de ações e controles de aperfeiçoamento e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **Avançar**.
+8. A tela **revisão e término** mostra o número de ações e controles de aperfeiçoamento e a pontuação máxima do modelo. Quando estiver pronto para aprovar, selecione **Avançar** .
 9. A última tela confirma que o modelo foi modificado. Selecione **concluído** para sair do assistente.
 
 Agora, o modelo incluirá as alterações feitas. Todas as avaliações que usam esse modelo modificado agora mostrarão atualizações pendentes e você precisará aceitar as atualizações para as avaliações para refletir as alterações feitas no modelo. Saiba mais sobre [atualizações de avaliações](compliance-manager-assessments.md#accepting-updates-to-assessments).
@@ -188,7 +188,7 @@ Na guia **modelos** , é possível editar qualquer coisa na coluna **título** ,
 
 #### <a name="edit-an-improvement-actions-information"></a>Editar as informações de uma ação de aprimoramento
 
-Você pode alterar as informações de ações de melhoria *, exceto o título*. Você pode editar qualquer célula das colunas B em diante e, quando importar o arquivo de volta para o modelo, as ações de aperfeiçoamento nesse modelo agora conterá os dados atualizados.
+Você pode alterar as informações de ações de melhoria *, exceto o título* . Você pode editar qualquer célula das colunas B em diante e, quando importar o arquivo de volta para o modelo, as ações de aperfeiçoamento nesse modelo agora conterá os dados atualizados.
 
 Não é possível editar o **actionTitle** (coluna A) porque, se você fizer isso, o Gerenciador de conformidade considera que isso seja uma nova ação de aprimoramento. Se você quiser alterar o nome de uma ação de aprimoramento, consulte as instruções imediatamente abaixo.
 
@@ -197,9 +197,9 @@ Não é possível editar o **actionTitle** (coluna A) porque, se você fizer iss
 Se quiser alterar o nome de uma ação de aperfeiçoamento, você terá que designar explicitamente na planilha que está substituindo um nome existente por um novo nome. Siga estas etapas:
 
 1. Na guia **ações** da planilha, adicione uma nova coluna à planilha após A coluna a.
-2. Nesta nova coluna, que agora é a coluna B, coloque o cabeçalho na linha 1: **oldActionTitle**.
+2. Nesta nova coluna, que agora é a coluna B, coloque o cabeçalho na linha 1: **oldActionTitle** .
 3. Copie o conteúdo da coluna A e cole-o na coluna B. Isso coloca os títulos de ações de melhorias existentes, que são o que você deseja alterar, para a coluna B.
-4. Na coluna A, **actionTitle**, exclua o nome antigo e substitua-o pelo novo nome da ação de aprimoramento.
+4. Na coluna A, **actionTitle** , exclua o nome antigo e substitua-o pelo novo nome da ação de aprimoramento.
 
 Observe que os títulos de ação, tanto para suas ações aprimoradas quanto para ações da Microsoft, devem ser escritos em inglês para serem reconhecidos quando mencionados nos controles.
 
@@ -209,7 +209,7 @@ Excluir uma ação de melhoria de uma linha em uma **planilha não** remove a a�
 
 1. Na guia **ações** , insira uma nova coluna como A coluna a **e colocar na linha de cabeçalho** , que é a linha número um.
 2. Na linha da ação de aprimoramento que você deseja remover, coloque **delete** na coluna A para essa linha.
-3. Certifique-se de que essa ação de aprimoramento não é mais referenciada por um controle. Vá para a guia **ControlFamily** e procure o título da ação de aprimoramento na coluna F, que é **controlActionTitle**.
+3. Certifique-se de que essa ação de aprimoramento não é mais referenciada por um controle. Vá para a guia **ControlFamily** e procure o título da ação de aprimoramento na coluna F, que é **controlActionTitle** .
 4. Quando você encontrar sua ação de aprimoramento listada na coluna **controlActionTitle** , exclua-a.
 5. Salve sua planilha.
 
