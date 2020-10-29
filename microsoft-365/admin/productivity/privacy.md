@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Como a privacidade é protegida com a pontuação de produtividade.
-ms.openlocfilehash: 1af2553e67b4f14e9783c23d679a7ac96443512a
-ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
+ms.openlocfilehash: 62ff3a9f0434421cbe1115f13376e92bd9f3cac9
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48770020"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794972"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Controles de privacidade para Pontuação de produtividade
 
@@ -55,7 +55,21 @@ Para exibir toda a pontuação de produtividade, incluindo métricas de nível d
 
 Atribua a função leitor de relatórios a qualquer pessoa responsável pelo gerenciamento de alterações e pela adoção. Essa função dá acesso à experiência completa, incluindo métricas de nível de locatário e detalhes de nível de usuário.
 
-O relatório de experiências de pessoas contém detalhes de atividade por usuário para cada página de detalhes de categoria. Atribuir uma função personalizada chamada leitor de relatórios de Resumo de uso (disponível Iniciando em 29 de outubro de 2020) para permitir o acesso apenas às métricas de agregação das experiências de pessoas.
+O relatório de experiências de pessoas contém detalhes de atividade por usuário para cada página de detalhes de categoria. Atribuir uma função personalizada chamada leitor de relatórios de Resumo de uso (disponível Iniciando em 29 de outubro de 2020) para permitir o acesso apenas às métricas de agregação das experiências de pessoas. Essa função terá que ser atribuída por meio dos cmdlets do PowerShell até que se torne atribuível do centro de administração da Microsoft em 11/15/2020.
+
+Para atribuir a função leitor de relatórios de Resumo de uso com o PowerShell:
+
+- Execute o seguinte PowerShell:
+
+```powershell
+Connect-AzureAD
+$role=Get-AzureADDirectoryRole -Filter "roleTemplateId eq '75934031-6c7e-415a-99d7-48dbd49e875e'"
+Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId
+$u=Get-AzureADUser -ObjectId <user upn>
+Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
+```
+
+</br>
 
 :::image type="content" source="../../media/communicationspage.jpg" alt-text="Página de comunicações em relatórios de produtividade.":::
 

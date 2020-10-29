@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 82dc26aea5c573b63bb66d087b332e3301e71409
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 3d014cd0eb3a3ceed3b3f3b48f126453e4ced193
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376968"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794960"
 ---
-# <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
+# <a name="microsoft-productivity-score"></a>Pontuação de produtividade da Microsoft 
 
 Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com ideias sobre como as pessoas usam o Microsoft 365 e as experiências tecnológicas que dão suporte a eles. A pontuação reflete o desempenho da sua organização contra experiências de pessoas e tecnologia e compara sua pontuação com organizações como a sua.
 
@@ -39,18 +39,18 @@ A pontuação inclui:
 
 Fornecemos dados, ideias e recomendações em duas áreas: 
 
-- **Experiências de pessoas:** Medimos como as pessoas colaboram com o conteúdo, como usam os produtos da Microsoft 365 para se comunicarem e se usam o Microsoft 365 entre plataformas. 
+- **Experiências de pessoas:** Mede o modo como as pessoas colaboram com o conteúdo, como usam os produtos do Microsoft 365 para se comunicar e se usam o Microsoft 365 em várias plataformas. 
 
-    Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo. Com a liberdade de trabalhar em qualquer dispositivo, elas são mais produtivas e satisfeitas. A comunicação de forma flexível torna as pessoas mais eficientes, relações melhores de formulário e sua organização é mais unificada. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+    Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo e a liberdade de trabalhar em qualquer dispositivo torna-se mais produtiva e satisfeita. A capacidade de se comunicar de forma flexível torna as pessoas mais eficientes, capazes de formar melhores relacionamentos, tornando sua organização mais unificada. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-- **Experiências tecnológicas:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos a [análise de ponto de extremidade](https://aka.ms/endpointanalytics), que o ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software de ponto de extremidade. Também fornecemos as ações recomendadas para corrigi-las, bem como informações de conectividade de rede do Microsoft 365 para sua organização.
+- **Experiências tecnológicas:** A produtividade depende da tecnologia confiável e de boa execução, bem como do uso eficiente do Microsoft 365. Fornecemos a [análise de ponto de extremidade](https://aka.ms/endpointanalytics), que o ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software de ponto de extremidade. Também fornecemos as ações recomendadas para corrigi-las, bem como informações de conectividade de rede do Microsoft 365 para sua organização.
 
 Veja [o que é o Endpoint Analytics](https://docs.microsoft.com/mem/analytics/overview) para obter uma visão geral e os detalhes dos pré-requisitos. Para saber mais sobre o Microsoft 365 insights de conectividade de rede, leia [a visão geral da conectividade de rede](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
   
 
 ## <a name="how-the-score-is-calculated"></a>Como a pontuação é calculada
 
-A pontuação da produtividade baseia-se nas pontuações combinadas de suas categorias de experiências de tecnologia e pessoas. Cada categoria é ponderada igualmente, com um total de 100 pontos por categoria. O total de pontos possíveis para a pontuação de produtividade é de 500.
+A pontuação da produtividade baseia-se nas pontuações combinadas de suas categorias de experiências de tecnologia e pessoas. Cada categoria é ponderada igualmente, com um total de 100 pontos. A pontuação de produtividade mais alta possível é de 500.
 
 ### <a name="score-categories"></a>Categorias de Pontuação 
 
@@ -61,7 +61,7 @@ A pontuação da produtividade baseia-se nas pontuações combinadas de suas cat
 - Conectividade de rede (100 pontos)
 - **Total possível = 500 pontos**
  
- Em cada categoria, identificamos padrões para as principais atividades que são indicadores de como as pessoas usam os produtos da Microsoft 365 para colaborar, comunicar e trabalhar entre plataformas. Fornecemos visualizações de 28 dias e 180 dias das principais atividades. Também fornecemos métricas de suporte que não fazem parte do cálculo de pontuação, mas são importantes para ajudá-lo a identificar comportamentos e configurações subjacentes que podem ser atuados na alteração da unidade.
+ Em cada categoria, identificamos padrões para as principais atividades que são indicadores de como as pessoas usam os produtos da Microsoft 365 para colaborar, comunicar e trabalhar entre plataformas. Fornecemos visualizações de 28 dias e 180 dias das principais atividades. Também fornecemos métricas de suporte que não fazem parte do cálculo de pontuação, mas são importantes para ajudá-lo a identificar comportamentos e configurações subjacentes nos quais você pode atuar.
 
 ### <a name="products-included-in-productivity-score"></a>Produtos incluídos na pontuação de produtividade 
 
@@ -72,7 +72,7 @@ Sua pontuação é atualizada diariamente e reflete as ações do usuário concl
 
 ## <a name="pre-requisites"></a>Pré-requisitos 
 
-Você precisa de uma assinatura do Microsoft 365 for Business ou do Office 365 para Enterprise para obter dados de experiência de pessoas, e você precisa estar usando serviços em nuvem de vários locatários. Para obter dados de análise do ponto de extremidade para seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização por meio do gerenciamento de dispositivos e aplicativos.       Depois de ter o Intune, você pode ativar a análise de ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o Microsoft Intune. 
+Para obter dados de experiências de pessoas, você precisa de uma assinatura do Microsoft 365 for Business ou do Office 365 para Enterprise e precisa estar usando serviços em nuvem de vários locatários. Para obter dados de análise do ponto de extremidade para seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização por meio do gerenciamento de dispositivos e aplicativos.       Depois de ter o Intune, você pode ativar a análise de ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o Microsoft Intune. 
 
 Para exibir a pontuação de produtividade da sua organização, você deve ter uma das seguintes funções: 
 
@@ -84,15 +84,15 @@ Para exibir a pontuação de produtividade da sua organização, você deve ter 
 - Leitor global 
 - Leitor de relatórios 
 
-Você pode acessar a experiência da página inicial do Microsoft 365 admin em **relatórios**de  >  **produtividade**.
+Você pode acessar a experiência da página inicial do Microsoft 365 admin em **relatórios** de  >  **produtividade** .
 
 ## <a name="interpreting-productivity-score"></a>Interpretação da Pontuação de produtividade 
 
-A Home Page de Pontuação de produtividade mostra a pontuação total e o histórico de pontuação, bem como a principal percepção de cada categoria
+A Home Page de Pontuação de produtividade mostra a pontuação total e o histórico de Pontuação e a principal percepção de cada categoria.
 
 ![Home Page de Pontuação de produtividade](../../media/pslanding.png)
 
-**Sua pontuação** é mostrada como um valor de porcentagem, bem como em pontos, para que você possa ver seus pontos (numerador) e os pontos máximos possíveis (denominadores).
+**Sua pontuação** é mostrada como um valor de porcentagem e em pontos. Você pode ver seus pontos no numerador e os pontos máximos possíveis no denominador.
 
 Os **benchmarks de ponto** permitem comparar sua pontuação com organizações como a sua. Para as categorias de experiências de pessoas, a medida de benchmark de ponto é calculada como a média de medidas dentro de um conjunto de organizações semelhantes. O conjunto é composto por organizações em sua região com um número semelhante de usuários licenciados, tipos de licenças, setor e gestão com o Microsoft 365. 
 
@@ -110,31 +110,13 @@ As áreas **experiências de pessoas** e **experiências tecnológicas** contêm
 
 Cada página de detalhes da categoria mostra a principal percepção e as métricas de suporte, bem como as pesquisas e ações relacionadas que você pode tomar para conduzir as alterações em sua organização. A pesquisa oferece suporte à importância e lógica por trás dos principais insights para cada categoria. para obter mais informações, [Leia o relatório da Forrester](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-### <a name="content-collaboration-details"></a>Detalhes de colaboração de conteúdo
-
-A principal visão da colaboração de conteúdo é o número de pessoas que criar, ler e colaborar (editar e compartilhar) online. Essas medidas são importantes porque a pesquisa mostra que, quando as pessoas colaboram com arquivos online, cada pessoa salva uma média de quase 2 horas por semana.
-
-Definimos a colaboração de conteúdo como uma pessoa que está criando e compartilhando um arquivo do Office e, em seguida, pelo menos uma outra pessoa lê-lo. 
-
-**Leitores**: pessoas que acessam ou fazem download de arquivos online no onedrive ou no SharePoint.
-
-**Criadores:** Pessoas que criam, modificam, carregam, sincronizam, fazem check-in, copiam ou movem arquivos do OneDrive ou do SharePoint Online.
-
-**Colaboradores**: pessoas que colaboram com arquivos online usando o onedrive ou o SharePoint. Duas pessoas são colaboradores se um deles lê ou edita um documento de nuvem online de aplicativos ou PDFs do Office depois que a outra pessoa criou ou modificou, em uma janela de 28 dias.
-
-Os tipos de arquivo considerados para colaboração são arquivos do Word, Excel, PowerPoint, OneNote e PDF.
-
-Fornecemos informações sobre os tempos de inicialização e configurados para dispositivos em sua organização, bem como insights de conectividade de rede para colaboração de conteúdo porque a colaboração de arquivos online requer dispositivos confiáveis que começam a ter software atualizado, bem como boa conectividade para o Microsoft 365.
-
-### <a name="communication-details"></a>Detalhes de comunicação
-
-A principal visão da comunicação é a freqüência com que as pessoas em sua organização usam Postagens de email, chat e comunidade para se comunicar. Quando as pessoas usam uma variedade de ferramentas de comunicação em tempo real, elas podem escolher o modo de comunicação que ajuda a ser mais eficiente, como bate-papo e comunidades que os ajudam a desenvolver relações entre escritórios.
-
-### <a name="mobility-details"></a>Detalhes da mobilidade
-
-A principal percepção para mobilidade é o número de pessoas que acessam arquivos e usam email e bate-papo em várias plataformas. A capacidade de trabalhar a partir de qualquer local em qualquer dispositivo que ele escolha seja importante para pessoas com funções de vendas, gerentes seniores, consultores e outros que precisam trabalhar fora do escritório para serem produtivos. Os aprimoramentos desses funcionários têm um grande impacto. 
-
-Medimos a porcentagem e o número absoluto de pessoas que usavam pelo menos um aplicativo de produtividade da Microsoft 365 em duas ou mais plataformas, incluindo desktops, móveis e Web. Os aplicativos de produtividade que medemos são Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer e Skype. As pessoas devem ter aplicativos da Microsoft 365 para licenças Enterprise, Exchange, Yammer, Skype ou Teams a serem medidos. 
+As páginas de detalhes são:
+- [Colaboração de conteúdo – experiências de pessoas](content-collaboration.md)
+- [Comunicação – experiências de pessoas](communication.md)
+- [Reuniões – experiências de pessoas](meetings.md)
+- [Mobilidade – experiências de pessoas](mobility.md)
+- [Trabalho em equipe – experiências de pessoas](teamwork.md)
+- [Integridade de aplicativos da Microsoft 365 – experiências tecnológicas](apps-health.md)
 
 ## <a name="business-continuity-special-report"></a>Relatório especial de continuidade de negócios
 

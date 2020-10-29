@@ -13,21 +13,23 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cd7790e51ae5c110b00739f608e7dd3e1bc560b2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 08f49d491de8079c9ea3373861f22ed6c4825db3
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641058"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794984"
 ---
 # <a name="contact-support-for-mexico"></a>Contatar o suporte para o México
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-01 800 563 0605
+
+800 563 0605
 
 ## <a name="hours"></a>Horas
+
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
 Espanhol: Mon-Fri 9 AM-5 PM
@@ -36,6 +38,6 @@ Espanhol: Mon-Fri 9 AM-5 PM
 
 Espanhol: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 01 55 4738 6567
+Número de telefone alternativo: 55 4738 6567
 
 Tarifas de chamada local se aplicam
