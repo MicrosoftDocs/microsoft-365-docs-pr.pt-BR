@@ -15,28 +15,26 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Forneça aos seus usuários as manchetes atualizadas sobre o seu setor e as informações da sua organização, use o serviço de notícias para habilitar um feed de notícias personalizado para sua organização.
-ms.openlocfilehash: 718e48c9db90ff7e598dd56c0228bb894b7a3a4d
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: c0758c3a762c39534629095345d935456cb938e9
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779173"
+ms.locfileid: "48791817"
 ---
 # <a name="manage-industry-news"></a>Gerenciar notícias do setor
 
 Para permitir que seus usuários tenham manchetes de notícias atualizadas sobre seu setor e informações da sua organização, use o serviço de [notícias](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) para habilitar um feed de notícias personalizado para sua organização.Você também pode gerenciar as configurações da página inicial do Bing e da página de nova guia do Microsoft Edge (começando com a versão da borda 87).
 
 ## <a name="what-your-users-will-see"></a>O que os usuários verão
-
-:::image type="content" source="../../media/manage-industry-news-1.png" alt-text="Lançamento de atualizações do setor de pesquisa da Microsoft":::
  
 Os usuários conectados que chegam à Home Page do Bing verão seu feed de notícias sob as informações personalizadas da sua organização.
 
-:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Lançamento de atualizações do setor de pesquisa da Microsoft":::
+:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Captura de tela do carrossel de imagem com notícias da indústria da Web":::
 
 Eles também podem ver as informações da empresa, da indústria e das notícias internas ou personalizadas na página de nova guia do Microsoft Edge. 
 
-:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Lançamento de atualizações do setor de pesquisa da Microsoft":::
+:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Captura de tela do carrossel de imagem com notícias da indústria da Web":::
 
 ## <a name="news-settings"></a>Configurações de notícias
 
