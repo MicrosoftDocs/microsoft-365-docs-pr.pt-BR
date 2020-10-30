@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 089a34d1e9a002bd61e688cd3f721c6e8249c5b7
-ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
+ms.openlocfilehash: 50bbe9d80b7b0a1b9fa346fd6e5abc8971dadcfb
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48755580"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804754"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -240,6 +240,8 @@ Para entender como e por que um rótulo de retenção é aplicado, em vez de out
 - Os rótulos de retenção aplicados automaticamente de uma política de aplicação automática são atribuídos implicitamente
 
 Um rótulo de retenção atribuído explicitamente tem precedência sobre um rótulo de retenção atribuído implicitamente. Para saber mais, confira a seção [Os princípios de retenção ou o que tem precedência](retention.md#the-principles-of-retention-or-what-takes-precedence) nesta página.
+
+Para o Microsoft Office SharePoint Online, os rótulos de retenção também podem ser atribuídos implicitamente quando se configura um rótulo padrão para todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do Microsoft Office SharePoint Online. Para este cenário, um rótulo aplicado automaticamente tem precedência sobre um rótulo padrão, mas para compreender totalmente todos os resultados ao usar um rótulo padrão, confira as informações em [Aplicando um rótulo de retenção padrão a todo o conteúdo em uma biblioteca do Microsoft Office SharePoint Online, pasta ou seção de conjunto de documentos](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set). 
 
 #### <a name="monitoring-retention-labels"></a>Monitorar rótulos de retenção
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 43bfe1b51b730dd41342f95a069645ff15a03437
-ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
+ms.openlocfilehash: 6b30c5689981adaf3eb7f4893a8acf0398ca2339
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48755570"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48774025"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -83,7 +83,7 @@ Para mais informações sobre as políticas de retenção para o Teams, confira 
 
 #### <a name="additional-retention-policy-needed-to-support-teams"></a>Adicionais políticas de retenção necessárias para oferecer suporte ao Teams
 
-O Teams é muito mais que apenas chats e mensagens de canal. Se você tiver equipes criadas a partir de um grupo do Microsoft 365 (antigo Office 365 Group), deverá configurar uma política de retenção que inclui o grupo do Microsoft 365 usando o local do **grupos do Office 365** . Essa política de retenção se aplica ao conteúdo da caixa de correio do grupo, site e arquivos.
+O Teams é muito mais que apenas chats e mensagens de canal. Se você tiver equipes criadas a partir de um grupo do Microsoft 365 (antigo Grupo do Office 365), deverá configurar uma política de retenção que inclui o grupo do Microsoft 365 usando o local **Grupos do Microsoft 365** . Essa política de retenção se aplica ao conteúdo da caixa de correio do grupo, site e arquivos.
 
 Se você tiver um site da equipe que não está conectado a um grupo do Microsoft 365, você precisará de uma política de retenção que inclui os locais dos **sites do SharePoint** ou das **contas do OneDrive** locais para manter e excluir arquivos no Teams:
 
@@ -127,7 +127,7 @@ Para mais informações a respeito do funcionamento das políticas de retenção
 
 #### <a name="additional-retention-policies-needed-to-support-yammer"></a>Políticas de retenção adicionais necessárias para apoiar o Yammer
 
-O Yammer é mais do que somente mensagens e mensagens privadas em uma comunidade. Para reter e apagar as mensagens de e-mail para a sua rede do Yammer, configure uma política de retenção adicional que inclua quaisquer grupos do Microsoft 365 que são utilizados pelo Yammer, utilizando a localização do **grupos do Office 365** . 
+O Yammer é mais do que somente mensagens e mensagens privadas em uma comunidade. Para reter e excluir as mensagens de email da sua rede do Yammer, configure uma política de retenção adicional que inclua quaisquer grupos do Microsoft 365 que são utilizados pelo Yammer, utilizando o local **Grupos do Microsoft 365** . 
 
 Para manter e excluir arquivos armazenados no Yammer, você precisa de uma política de retenção que inclua localizações de **sites do SharePoint** ou **contas do OneDrive** :
 
@@ -156,7 +156,7 @@ Use as instruções a seguir para políticas de retenção que se aplicam a qual
     Informações específicas para locais:
     - [Email do Exchange e pastas públicas do Exchange](#configuration-information-for-exchange-email-and-exchange-public-folders)
     - [Sites do SharePoint e contas do OneDrive](#configuration-information-for-sharepoint-sites-and-onedrive-accounts)
-    - [Grupos do Office 365](#configuration-information-for-microsoft-365-groups)
+    - [Grupos do Microsoft 365](#configuration-information-for-microsoft-365-groups)
     - [Skype for Business](#configuration-information-for-skype-for-business)
 
 4. Para **decidir se deseja reter o conteúdo, excluí-lo, ou ambos** página do assistente, especifique as opções de configuração para manter e excluir o conteúdo.
@@ -171,13 +171,13 @@ O local **email do Exchange** oferece suporte à retenção de emails, calendár
 
 Os itens de email a seguir são incluídos: mensagens de email (inclui rascunhos) com todos os anexos, tarefas e itens de calendário quando eles têm uma data de término e anotações. Os contatos, as tarefas e os itens de calendário que não têm uma data de término não são incluídos. Os outros itens armazenados em uma caixa de correio, como as mensagens salvas no Skype e no Teams, não são incluídos com esse local. Esses itens têm seus próprios locais de retenção.
 
-Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Para manter o conteúdo nessas caixas de correio, selecione o local **Grupos do Office 365** .
+Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365** .
 
 O local **Pastas públicas do Exchange** aplica as configurações de retenção a todas as pastas públicas e não pode ser aplicado no nível de pasta ou caixa de correio.
 
 #### <a name="configuration-information-for-sharepoint-sites-and-onedrive-accounts"></a>Informações de configuração para sites do SharePoint e contas do OneDrive
 
-Quando você escolhe o local **sites do SharePoint** , a política de retenção pode reter e excluir documentos no conteúdo nos sites de comunicação do SharePoint, sites de equipes que não estão conectados por grupos do Office 365 e sites clássicos. Os sites de equipes conectados por grupos do Office 365 não possuem suporte com essa opção e, em vez disso, use a **Grupos do Office 365** local que se aplicam ao conteúdo na caixa de correio do grupo, sites e arquivos.
+Quando você escolhe o local **sites do SharePoint** , a política de retenção pode reter e excluir documentos em sites de comunicação do SharePoint, sites de equipe que não estão conectados por grupos do Microsoft 365 e sites clássicos. Os sites de equipe conectados por grupos do Microsoft 365 não possuem suporte com essa opção. Use o local **Grupos do Microsoft 365** que se aplica ao conteúdo da caixa de correio, sites e arquivos do grupo.
 
 Embora a política de retenção seja aplicada no nível do site, apenas os documentos têm configurações de retenção aplicadas a eles. As configurações de retenção não se aplicam às estruturas de organização que incluem bibliotecas, listas e pastas no site.
 
@@ -192,9 +192,9 @@ Por exemplo, para um usuário no locatário contoso que tenha um nome de usuári
 
 Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, confira [Obter uma lista de todas as URLs de usuário do OneDrive em sua organização](https://docs.microsoft.com/onedrive/list-onedrive-urls).
 
-### <a name="configuration-information-for-microsoft-365-groups"></a>Informações de configuração de grupos do Microsoft 365
+### <a name="configuration-information-for-microsoft-365-groups"></a>Informações de configuração do Grupos do Microsoft 365
 
-Para manter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo grupo Office 365), use o local **grupos do Office 365** . Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Além disso, embora o local **E-mail do Exchange** permita inicialmente especificar uma caixa de correio de grupo a ser incluída ou excluída, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
+Para reter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo Grupo Office 365), use o local **Grupos do Microsoft 365** . Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Além disso, embora o local **E-mail do Exchange** permita inicialmente especificar uma caixa de correio de grupo a ser incluída ou excluída, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
 
 Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio do grupo e o site de equipes, se um site de equipes tiver sido selecionado no momento em que o grupo foi criado ou adicionado posteriormente ao grupo. Os arquivos armazenados no site de equipes são cobertos por este local, mas não os chats do Teams ou as mensagens do canal do Teams que têm seus próprios locais de política de retenção.
 
