@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Detalhes da Pontuação de produtividade de trabalho em equipe-pessoas experiências.
-ms.openlocfilehash: d76447a187003aa3d3e87ec293cf4550ced2fc74
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: d7edd5685c8e818e08faf4ac227f3eb1a416c94c
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795205"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804788"
 ---
 # <a name="teamwork--people-experiences"></a>Trabalho em equipe – experiências de pessoas
 
@@ -193,3 +192,12 @@ As seguintes colunas são apresentadas na tabela no nível do espaço de trabalh
 - O trabalho em equipe mede o envolvimento de pessoas dentro da sua organização. Ele não&#39;capturar a atividade de membros externos.
 - As mensagens do canal em trabalho em equipe não incluem mensagens enviadas pelo cliente móvel do Microsoft Teams.
 - Pode haver pequenas diferenças entre as métricas de email e as mensagens de canal entre as categorias de comunicação e trabalho em equipe que estamos trabalhando para resolver.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Integridade de aplicativos da Microsoft 365 – experiências de tecnologia](apps-health.md) (artigo) \
+[Comunicação – experiências de pessoas](communication.md) (artigo) \
+[Colaboração de conteúdo – experiências de pessoas](content-collaboration.md) (artigo) \
+[Reuniões – experiências de pessoas](meetings.md) (artigo) \
+[Mobilidade – experiências de pessoas](mobility.md) (artigo) \
+[Controles de privacidade para Pontuação de produtividade](privacy.md) (artigo)

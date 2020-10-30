@@ -18,14 +18,13 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Como a privacidade é protegida com a pontuação de produtividade.
-ms.openlocfilehash: 62ff3a9f0434421cbe1115f13376e92bd9f3cac9
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 4978039d99704c0658fe22f3725167ac31276dcd
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48794972"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804742"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Controles de privacidade para Pontuação de produtividade
 

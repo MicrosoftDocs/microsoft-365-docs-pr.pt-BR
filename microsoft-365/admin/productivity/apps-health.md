@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Detalhes da Pontuação de produtividade da experiência do Microsoft 365 aplicativos Health-Technology.
-ms.openlocfilehash: bb6454b336caa9ac1e7b8f6049ea46c681c8bd77
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 4242a9b665bc7292232cc15ee0f1ec37915fb1ac
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795202"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804764"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Integridade de aplicativos da Microsoft 365 – experiências tecnológicas
 
@@ -112,3 +111,12 @@ As seguintes colunas são apresentadas na tabela no nível do usuário:
 - **Status:**   Aplicativos da Microsoft 365 suporte ao estado dos dispositivos com base no canal e na versão atuais.
 - **Versões:**   Versões atuais do Microsoft 365 apps nos dispositivos.
 - **n º de dispositivos:**  Número de dispositivos.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Comunicação – experiências de pessoas](communication.md) (artigo) \
+[Colaboração de conteúdo – experiências de pessoas](content-collaboration.md) (artigo) \
+[Reuniões – experiências de pessoas](meetings.md) (artigo) \
+[Mobilidade – experiências de pessoas](mobility.md) (artigo) \
+[Controles de privacidade para Pontuação de produtividade](privacy.md) (artigo) \
+[Trabalho em equipe – experiências de pessoas](teamwork.md) (artigo)

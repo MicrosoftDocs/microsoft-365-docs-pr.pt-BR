@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e427cb2eaa282ebac46b47c6dd97718039c12cb8
-ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
+ms.openlocfilehash: 6c2ffc926114b8ffc2ebf2005b98e549ac03cf26
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753340"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787577"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -672,6 +672,7 @@ A tabela a seguir lista as atividades que podem ser registradas pelo log de audi
 |Mensagens limpas da caixa de correio|HardDelete|Uma mensagem foi limpa da pasta Itens Recuperáveis (permanentemente excluída da caixa de correio).|
 |Permissões de caixa de correio do representante removidas|Remove-MailboxPermission|Um administrador removeu a permissão FullAccess (que foi atribuída a um representante) da caixa de correio de uma pessoa. Depois que a permissão FullAccess for removida, o representante não pode abrir a caixa de correio de outra pessoa ou acessar nenhum conteúdo dela.|
 |Permissões removidas da pasta|RemoveFolderPermissions|Uma permissão da pasta foi removida. As permissões de pasta controlam quais usuários da sua organização podem acessar as pastas em uma caixa de correio e as mensagens localizadas nessas pastas.|
+|Mensagem enviada|Enviar|Uma mensagem foi enviada, respondida ou encaminhada. Essa atividade é registrada apenas aos usuários com uma licença do Office 365 ou do Microsoft 365 E5. Para obter mais informações, consulte a seção "Acesso aos eventos cruciais de investigações" em [Auditoria Avançada](advanced-audit.md#access-to-crucial-events-for-investigations).|
 |Mensagem enviada com permissões Enviar Como|SendAs|Uma mensagem foi enviada usando a permissão SendAs. Isto significa que outro usuário enviou a mensagem como se ela tivesse vindo do proprietário da caixa de correio.|
 |Mensagem enviada com permissões Enviar em Nome de|SendOnBehalf|Uma mensagem foi enviada usando a permissão SendOnBehalf. Isto significa que outro usuário enviou a mensagem em nome do proprietário da caixa de correio. A mensagem indica ao destinatário em nome de quem a mensagem foi enviada e quem realmente a enviou.|
 |Regras atualizadas da caixa de entrada do cliente do Outlook|UpdateInboxRules|Um proprietário da caixa de correio ou outro usuário com acesso à caixa de correio modificou uma regra da caixa de entrada no cliente do Outlook.|
