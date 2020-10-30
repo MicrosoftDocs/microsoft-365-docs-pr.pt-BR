@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: dff2ea4e144f8f8fcc0f42732141e110effe7e9e
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: 59e2c938c70dd8e3060fd85d084acbe8f79856ad
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774088"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806620"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Controlar o encaminhamento de email externo automático no Microsoft 365
 
@@ -31,7 +31,7 @@ Os seguintes tipos de encaminhamento automático estão disponíveis no Microsof
 
 - Os usuários podem configurar [regras de caixa de entrada](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) para encaminhar mensagens automaticamente para remetentes externos (deliberadamente ou como resultado de uma conta comprometida).
 
-- Os administradores podem configurar o [encaminhamento de caixa de correio](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (também conhecido como encaminhamento SMTP) para encaminhar mensagens automaticamente para destinatários externos.
+- Os administradores podem configurar o [encaminhamento de caixa de correio](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (também conhecido como _encaminhamento SMTP_ ) para encaminhar mensagens automaticamente para destinatários externos.
 
 Você pode usar as políticas de filtro de spam de saída para controlar o encaminhamento automático para destinatários externos. Três configurações estão disponíveis:
 
@@ -45,9 +45,9 @@ Para obter instruções sobre como definir essas configurações, consulte [Conf
 
 > [!NOTE]
 > 
-> - Desabilitar o encaminhamento automático também desabilitará as regras de caixa de entrada que redirecionam mensagens para endereços externos.
+> - Desabilitar o encaminhamento automático desabilita qualquer regra de caixa de entrada (usuários) ou de caixa de correio (admins) que redireciona mensagens para endereços externos.
 > 
->   O Office 365 não permite o encaminhamento externo automático por regras de caixa de entrada ou configuração de caixa de correio, que fornece uma política padrão segura. No entanto, o administrador pode modificar essas configurações para todos ou alguns usuários da organização. Criar [políticas de spam de saída](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true#use-the-security--compliance-center-to-create-outbound-spam-policies) e modificar a seção de encaminhamento automático para controlar o encaminhamento automático de emails por usuários para remetentes externos. Isso pode ser aplicado posteriormente aos remetentes internos aos quais a política se aplica. O encaminhamento de mensagens entre usuários internos não é afetado por tal modificação.
+> - O encaminhamento automático de mensagens entre usuários internos não é afetado pelas configurações em políticas de filtro de spam de saída.
 > 
 > - Você pode ver informações sobre os usuários que estão encaminhando mensagens automaticamente para destinatários externos no [relatório de mensagens de encaminhamento automático](mfi-auto-forwarded-messages-report.md).
 

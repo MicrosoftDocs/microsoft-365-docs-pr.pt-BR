@@ -20,12 +20,12 @@ description: 'Descubra quanto de impostos você será cobrado para sua assinatur
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: d3d1bc1239cb99da33f776e603356ccae95a2353
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: d3654dd307e15e58acdd06277cf7338da537e5c6
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464091"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806595"
 ---
 # <a name="tax-information"></a>Informação de imposto
 
@@ -99,21 +99,21 @@ As empresas nos seguintes países podem fornecer o número de IVA ou o equivalen
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>Europa, Oriente Médio e África (EMEA)
 
-Ao comprar serviços da Microsoft 365 na União Européia, esta compra está sujeita a Value-Added imposto (VAT).
+Quando você compra serviços da Microsoft 365 na região EMEA, esta compra pode ser sujeita a Value-Added imposto (VAT).
   
-- Se você estiver localizado em um estado de membro da União Européia e não fornecer sua ID de IVA local válida, o Microsoft Ireland Operations Ltd. aplicará a taxa de IVA local atual, com base no país de cobrança em que sua conta está definida.
+- Se você estiver localizado em um estado de membro da União Européia, Armênia, Belarus, Belarus, Turquia, ou Emirados Árabes Unidos e não fornecer sua ID de IVA local válida, o Microsoft Ireland Operations Ltd. aplicará a taxa de IVA local atual, com base no país de cobrança em que sua conta está definida como.
 
-- Se você estiver na Suíça ou em Liechtenstein, nosso sistema aplicará a taxa suíça atual, mesmo que você não forneça a sua ID do IVA.
+- Se você estiver localizado em Liechtenstein, Rússia, Sérvia, África do Sul ou Suíça, o IVA será aplicado, se você fornecer sua ID de IVA ou não.
 
-- Geralmente, se você estiver localizado em um país de EMEA fora da União Européia e Suíça/Liechtenstein, o IVA não será cobrado pela Microsoft Ireland Operations Ltd.
-
-- Antes de podermos validar seu ID de IVA, ele deve estar disponível para verificação no VAT Information Exchange System (VIES). Se o seu ID de IVA não puder ser verificado, entre em contato com sua autoridade fiscal local.
+- Para clientes da União Européia, antes de validarmos sua ID de IVA, ele deve estar disponível para verificação no VIES (sistema de troca de informações de IVA). Se o seu ID de IVA não puder ser verificado, entre em contato com sua autoridade fiscal local.
 
 Você pode qualificar para classificação zero de IVA se:
   
 - **Você está em um estado de membro da União Européia fora da Irlanda:** Você pode fornecer sua ID de IVA local válida. Isso permite que a Microsoft Ireland Operations Ltd. o IVA seja de taxa zero para a transação. No entanto, você pode ter uma obrigação de contabilização de IVA local. Se você tiver alguma preocupação, Confira seus aconselhadores de impostos. Para obter instruções, consulte [adicionar sua ID de IVA](#add-your-vat-id).
 
 - **Você está na Irlanda e tem a certificação de isenção de IVA válida relevante:** Microsoft Ireland Operations Ltd. pode ter direito a isentar a transação de VAT. Se você não fizer isso, o Microsoft Ireland Operations Ltd. aplica a taxa de IVA atual do irlandês, se você fornecer uma ID de IVA ou não.
+
+- **Você está na Armênia, Belarus, Noruega, Turquia ou Emirados Árabes Unidos:** Você pode fornecer sua ID de IVA local. Isso prepara a Microsoft Ireland Operations Ltd. to IVA zero Rate a transação. No entanto, você pode ter uma obrigação de contabilização de IVA local, portanto, Confira seus aconselhadores de impostos se tiver alguma preocupação. Para obter instruções, consulte [adicionar sua ID de IVA](#add-your-vat-id).
 
 ## <a name="asia-pacific-countries-apac"></a>Países do Pacífico Asiático (APAC)
 
@@ -136,10 +136,10 @@ Se sua cobrança for realizada pela Microsoft Corporation ([Confira sua fatura](
 ## <a name="add-your-vat-id"></a>Adicionar sua ID de IVA
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na guia **produtos** , selecione a assinatura que você deseja atualizar.
-3. Na página detalhes da assinatura, na seção **endereço de uso do serviço** , selecione **Editar endereço de uso do serviço**.
-4. No painel **Editar o endereço de uso do serviço** , na caixa **número de IVA** , insira sua ID de IVA, incluindo o prefixo e sem espaços.
-5. Selecione **Salvar**.
+2. Na guia **Produtos** , escolha a assinatura que deseja atualizar.
+3. Na página detalhes da assinatura, na seção **endereço de uso do serviço** , selecione **Editar endereço de uso do serviço** .
+4. No painel de **endereço editar uso de serviço** , na caixa **número de IVA** , insira sua ID de IVA, incluindo o prefixo, e sem espaços.
+5. Selecione **Salvar** .
 
 ## <a name="how-taxes-are-calculated"></a>Como os impostos são calculados
 

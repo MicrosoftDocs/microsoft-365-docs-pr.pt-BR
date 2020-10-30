@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Aprenda a criar um classificador
-ms.openlocfilehash: 948ece1a19b7e6049167c373b3200efd316a60cd
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 97a7b28d45499a46d72029d47b422d2c32696a54
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338632"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804810"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Criar um classificador no Microsoft SharePoint Syntex
 
@@ -25,13 +25,13 @@ ms.locfileid: "48338632"
 
 </br>
 
-Um classificador é um tipo de modelo que você pode usar para automatizar a identificação e a classificação de um tipo de documento. Por exemplo, talvez você queira identificar toda os documentos de*Renovação de Contrato* que são adicionados à biblioteca de documentos, como o é mostrado na ilustração a seguir.
+Um classificador é um tipo de modelo que você pode usar para automatizar a identificação e a classificação de um tipo de documento. Por exemplo, talvez você queira identificar toda os documentos de *Renovação de Contrato* que são adicionados à biblioteca de documentos, como o é mostrado na ilustração a seguir.
 
 ![Documento de Renovação de Contrato](../media/content-understanding/contract-renewal.png)
 
-Criar um classificador permite que você crie um novo [Tipo de Conteúdo do SharePoint](https://docs.microsoft.com/sharepoint/governance/content-type-and-workflow-planning#content-type-overview) que será associado ao modelo.
+A criação de um classificador permite criar um novo [tipo de conteúdo do Microsoft Office SharePoint Online](https://docs.microsoft.com/sharepoint/governance/content-type-and-workflow-planning#content-type-overview) que será associado ao modelo.
 
-Ao criar o classificador, você precisa criar *explicações * para definir o modelo. Isso permite que você observe dados comuns que esperaria encontrar esse tipo de documento. 
+Ao criar o classificador, você precisa criar *explicações* para definir o modelo. Isso permite que você observe dados comuns que esperaria encontrar esse tipo de documento. 
 
 Use exemplos do tipo de documento ("arquivos de exemplo") para "treinar" seu modelo para identificar arquivos que têm o mesmo tipo de conteúdo.
 
@@ -49,13 +49,13 @@ Para criar um classificador, você precisa:
 
 A primeira etapa para criar seu modelo é dar um nome a ele:
 
-1. No Centro de Conteúdo, selecione **Nova**e, em seguida, em **Criar um modelo**.
-2. No painel **Novo modelo de compreensão de documentos**, no campo **Nome**, digite o nome do modelo. Por exemplo, se você deseja identificar documentos de renovação de contrato, nomeie o modelo como *Renovação de Contrato*.
-3. Escolha **Criar**. Isso cria uma página inicial para o modelo.</br>
+1. No centro de conteúdo, selecione **Novo** , e depois **Criar um modelo** .
+2. No painel **Novo modelo de compreensão de documentos** , no campo **Nome** , digite o nome do modelo. Por exemplo, se você deseja identificar documentos de renovação de contrato, nomeie o modelo como *Renovação de Contrato* .
+3. Escolha **Criar** . Isso cria uma página inicial para o modelo.</br>
 
     ![Home page do modelo de classificação](../media/content-understanding/model-home.png)
 
-Ao criar um modelo, você também cria um novo tipo de conteúdo de site. Um tipo de conteúdo representa uma categoria de documentos que tem características comuns e compartilha um conjunto de propriedades de colunas ou metadados para esse conteúdo específico. Os Tipos de Conteúdo do SharePoint são gerenciados por meio da[Galeria de tipos de conteúdo](https://support.microsoft.com/office/create-or-customize-a-site-content-type-27eb6551-9867-4201-a819-620c5658a60f). Neste exemplo, quando você cria o modelo, está criando um novo tipo de conteúdo de *Renovação de Contrato*.
+Ao criar um modelo, você também cria um novo tipo de conteúdo de site. Um tipo de conteúdo representa uma categoria de documentos que tem características comuns e compartilha um conjunto de propriedades de colunas ou metadados para esse conteúdo específico. Os tipos de conteúdo do Microsoft Office SharePoint Online são gerenciados através da [Galeria de tipos de conteúdos](https://support.microsoft.com/office/create-or-customize-a-site-content-type-27eb6551-9867-4201-a819-620c5658a60f). Neste exemplo, quando você cria o modelo, está criando um novo tipo de conteúdo de *Renovação de Contrato* .
 
 Selecione **Configurações avançadas** se desejar mapear esse modelo para um tipo de conteúdo empresarial existente na Galeria de Tipos de conteúdo do SharePoint para usar o esquema. Os tipos de conteúdo corporativo são armazenados no Hub de Tipo de Conteúdo no centro de administração do SharePoint e são agregados a todos os sites no locatário. Observe que, embora você possa usar um tipo de conteúdo existente para aproveitar o esquema para ajudar na identificação e classificação, ainda é necessário treinar o seu modelo para extrair informações de arquivos que ele identifica.</br>
 
@@ -81,9 +81,9 @@ Use pelo menos cinco exemplos positivos e pelo menos um exemplo negativo para tr
 
 Para adicionar arquivos de exemplo:
 
-1. Na página inicial do modelo, no bloco **Adicionar arquivos de exemplo**, clique em **Adicionar arquivos**.
-2. Na página**selecione arquivos de exemplo para sua página de modelo**, selecione os arquivos de exemplo da biblioteca Arquivos de treinamento no centro de conteúdo. Se você ainda não tiver carregado esses arquivos, clique em **Carregar** para copiá-los para a Biblioteca de arquivos de treinamento.
-3. Depois de selecionar os arquivos de exemplo que deseja usar para treinar o modelo, clique em **Adicionar**.
+1. Na página inicial do modelo, no bloco **Adicionar arquivos de exemplo** , clique em **Adicionar arquivos** .
+2. Na página **selecione arquivos de exemplo para sua página de modelo** , selecione os arquivos de exemplo da biblioteca Arquivos de treinamento no centro de conteúdo. Se você ainda não tiver carregado esses arquivos, clique em **Carregar** para copiá-los para a Biblioteca de arquivos de treinamento.
+3. Depois de selecionar os arquivos de exemplo que deseja usar para treinar o modelo, clique em **Adicionar** .
 
     ![Selecione arquivos de exemplo](../media/content-understanding/select-sample.png) 
 
@@ -91,10 +91,10 @@ Para adicionar arquivos de exemplo:
 
 Depois de adicionar os arquivos de exemplo, é necessário rotulá-los como exemplos positivos ou negativos.
 
-1. Na página inicial do modelo, no bloco **Classificar arquivos e executar o treinamento**, clique em **Treinar Classificador**.
+1. A partir da página inicial do modelo, no bloco **Classificar arquivos e executar treinamento** , clique em **Treinar classificador** .
    Isso exibe a página de etiquetas que mostra uma lista de arquivos de exemplo, com o primeiro arquivo visível no visualizador.
-2. No visualizador, na parte superior do primeiro arquivo de exemplo, você deve ver o texto perguntando se o arquivo é um exemplo do modelo que você acabou de criar. Se for um exemplo positivo, selecione **Sim**. Se for um exemplo negativo, selecione **Não**.
-3. Na lista de**Exemplos rotulados** à esquerda, selecione arquivos adicionais que você deseja usar como exemplos e etiquete-los. 
+2. No visualizador, na parte superior do primeiro arquivo de exemplo, você deve ver o texto perguntando se o arquivo é um exemplo do modelo que você acabou de criar. Se for um exemplo positivo, selecione **Sim** . Se for um exemplo negativo, selecione **Não** .
+3. Na lista de **Exemplos rotulados** à esquerda, selecione arquivos adicionais que você deseja usar como exemplos e etiquete-los. 
 
     ![Página inicial do classificador](../media/content-understanding/classifier-home-page.png) 
 
@@ -104,7 +104,7 @@ Depois de adicionar os arquivos de exemplo, é necessário rotulá-los como exem
 
 ## <a name="create-an-explanation"></a>Criar uma explicação
 
-A próxima etapa é criar uma explicação na Página de treinamento. Uma explicação ajuda o modelo a entender como reconhecer o documento. Por exemplo, os documentos de Renovação de Contrato sempre contêm um cadeia de texto de *Solicitação de divulgação*.
+A próxima etapa é criar uma explicação na Página de treinamento. Uma explicação ajuda o modelo a entender como reconhecer o documento. Por exemplo, os documentos de Renovação de Contrato sempre contêm um cadeia de texto de *Solicitação de divulgação* .
 
 > [!Note]
 > Quando usado com extratores, uma explicação identifica a cadeia que você deseja extrair do documento. 
@@ -112,18 +112,17 @@ A próxima etapa é criar uma explicação na Página de treinamento. Uma explic
 Para criar uma explicação:
 
 1. Na página inicial do modelo, selecione a guia **Treinar** para ir para a página de treinamento.
-2. Na página Treinar, na seção **Arquivos treinados**, você verá uma lista dos arquivos de exemplo que você rotulou anteriormente. Selecione um dos arquivos positivos na lista, e ele será exibido no visualizador.
-3. Na seção Explicação, selecione **Nova** e, em seguida, **Em branco**.
-4. Na página **Criar uma explicação**:</br>
+2. Na página Treinar, na seção **Arquivos treinados** , você verá uma lista dos arquivos de exemplo que você rotulou anteriormente. Selecione um dos arquivos positivos na lista, e ele será exibido no visualizador.
+3. Na seção Explicação, selecione **Nova** e, em seguida, **Em branco** .
+4. Na página **Criar uma explicação** :</br>
     a. Digite o **Nome** (por exemplo, "Bloqueio de Divulgação").</br>
-    b. Selecione o **Tipo**. Para o exemplo, selecione **Lista de frases**, já que você adiciona uma cadeia de texto.</br>
-    c. Na caixa **Digite aqui**, digite a cadeia. Para o exemplo, adicione "Solicitar divulgação adicional". Você pode selecionar **Diferenciar maiúsculas de minúsculas** se a cadeia precisar diferenciar maiúsculas de minúsculas.</br>
-    d. Clique em **Salvar**.
+    b. Selecione o **Tipo** . Para o exemplo, selecione **Lista de frases** , já que você adiciona uma cadeia de texto.</br>
+    c. Na caixa **Digite aqui** , digite a cadeia. Para o exemplo, adicione "Solicitar divulgação adicional". Você pode selecionar **Diferenciar maiúsculas de minúsculas** se a cadeia precisar diferenciar maiúsculas de minúsculas.</br>
+    d. Clique em **Salvar** .
 
     ![Criar explicação](../media/content-understanding/explanation.png) 
     
- 
-5. Agora, o modelo verifica se a explicação que você criou era boa o suficiente para identificar os arquivos de exemplo rotulados restantes corretamente, como exemplos positivos e negativos. Na seção Arquivos Treinados, marque a coluna **Avaliação**após concluir o treinamento para ver os resultados. Os arquivos mostram um valor de **Correspondência**, se as explicações que você criou foram o suficiente para corresponder ao que foi rotulado como positivo ou negativo.
+5. O Centro de Conteúdo agora verifica se a explicação que você criou está completa o suficiente para identificar corretamente os demais arquivos de exemplo rotulados, como exemplos positivos e negativos. Na seção Arquivos Treinados, marque a coluna **Avaliação** após concluir o treinamento para ver os resultados. Os arquivos mostram um valor de **Correspondência** , se as explicações que você criou foram o suficiente para corresponder ao que foi rotulado como positivo ou negativo.
 
     ![Valor de correspondência](../media/content-understanding/match.png) 
 
@@ -133,8 +132,8 @@ Se você receber uma **incompatibilidade** nos arquivos rotulados, talvez seja n
 
 Se você recebeu uma correspondência em seus arquivos de exemplo rotulados, agora você pode testar seu modelo em seus arquivos de exemplo não rotulados restantes que o modelo não tenha visto anteriormente.  Isso é opcional, mas uma etapa útil para avaliar a "adequação" ou prontidão do modelo antes de usá-lo, testando-o em arquivos que o modelo nunca viu antes.
 
-1. Na página inicial do modelo, selecione a guia **Testar**.  Isso executará o modelo em seus arquivos de exemplo não rotulados.
-2. Na lista **Arquivos de teste**, os arquivos de exemplo são exibidos e mostram se o modelo os previu como positivos ou negativos. Use essas informações para ajudá-lo a determinar a eficácia do seu classificador na identificação de seus documentos.
+1. Na página inicial do modelo, selecione a guia **Testar** .  Isso executará o modelo em seus arquivos de exemplo não rotulados.
+2. Na lista **Arquivos de teste** , os arquivos de exemplo são exibidos e mostram se o modelo os previu como positivos ou negativos. Use essas informações para ajudá-lo a determinar a eficácia do seu classificador na identificação de seus documentos.
 
     ![Teste de arquivos não-rotulados](../media/content-understanding/test-on-files.png) 
 
