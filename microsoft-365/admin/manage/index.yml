@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 8af267e0317b396cbcb1364598bbce70c86df3e0
-  ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+  ms.openlocfilehash: 821bfbac12e01f73fa3fbb52be9f95165bb3dd1b
+  ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/28/2020
-  ms.locfileid: "47300417"
+  ms.lasthandoff: 10/30/2020
+  ms.locfileid: "48804558"
 landingContent:
 - title: Monitorar o status do nosso serviço
   linkLists:
@@ -24,6 +24,8 @@ landingContent:
     links:
     - text: Monitorar a atividade do usuário usando relatórios
       url: ../activity-reports/activity-reports.md
+    - text: Monitorar a produtividade do usuário com pontuação de Produtividade
+      url: ../productivity/productivity-score.md
     - text: Monitorar análise de uso
       url: ../usage-analytics/usage-analytics.md
     - text: Habilitar análise de uso

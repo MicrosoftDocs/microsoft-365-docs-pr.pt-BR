@@ -210,6 +210,8 @@
       items:
         - name: Monitorar a atividade do usuário usando relatórios
           href: activity-reports/activity-reports.md
+        - name: Monitorar a produtividade do usuário com pontuação de Produtividade
+          href: productivity/productivity-score.md
         - name: Alterar as informações de contato da sua organização
           href: manage/change-address-contact-and-more.md
         - name: Atualizar suas informações de contato de administrador
