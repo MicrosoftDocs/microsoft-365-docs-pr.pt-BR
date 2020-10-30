@@ -89,8 +89,6 @@
           href: sensitive-information-type-entity-definitions.md
         - name: O que as funções DLP procuram
           href: what-the-dlp-functions-look-for.md
-        - name: Assista a uma visão geral da personalização da DLP
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
         - name: Personalizar um tipo de informação confidencial interno
           href: customize-a-built-in-sensitive-information-type.md
         - name: Tipos de informações confidenciais personalizadas
@@ -222,12 +220,26 @@
           href: data-loss-prevention-policies.md
         - name: DLP e Microsoft Teams
           href: dlp-microsoft-teams.md
-        - name: Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade (visualização)
+        - name: Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade
           href: endpoint-dlp-learn-about.md
-        - name: Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)
+        - name: Introdução à Prevenção contra perda de dados do ponto de extremidade
           href: endpoint-dlp-getting-started.md
-        - name: Usando a prevenção contra perda de dados do ponto de extremidade (visualização)
+        - name: Usando a Prevenção contra perda de dados do ponto de extremidade
           href: endpoint-dlp-using.md
+        - name: Ferramentas e métodos de integração de DLP do ponto de extremidade para dispositivos Windows 10
+          items:
+            - name: Ferramentas e métodos de integração para computadores Windows 10
+              href: dlp-configure-endpoints.md
+            - name: Integrar dispositivos Windows 10 por meio da Política de Grupo
+              href: dlp-configure-endpoints-gp.md
+            - name: Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel
+              href: dlp-configure-endpoints-mdm.md
+            - name: Integrar dispositivo Windows 10 usando o Configuration Manager
+              href: dlp-configure-endpoints-sccm.md
+            - name: Integrar dispositivos Windows 10 usando um script local
+              href: dlp-configure-endpoints-script.md
+            - name: Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure).
+              href: dlp-configure-endpoints-vdi.md
         - name: Introdução às recomendações de política DLP
           href: get-started-with-dlp-policy-recommendations.md
         - name: Introdução à política DLP padrão
