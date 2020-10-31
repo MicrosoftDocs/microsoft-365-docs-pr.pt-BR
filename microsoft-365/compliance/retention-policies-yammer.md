@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Yammer.
-ms.openlocfilehash: 3e4cfd5c9e5ef8c28ecd069f3474764b966d6c9a
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: b23161f57aedec062e155586f2e20d2791d02d3f
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48794996"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804570"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Saiba mais sobre a retenção para o Yammer
 
@@ -61,7 +61,7 @@ Quando a política de retenção for reter e excluir:
 
 Para os dois caminhos no diagrama:
 
-1. **Se uma mensagem do Yammer for editada ou excluída** pelo usuário durante o período de retenção, a mensagem original será copiada (se foi editada) ou movida (se foi excluída) para a pasta SubstrateHolds. A mensagem é armazenada lá até que o período de retenção expirar e a mensagem será permanentemente excluída imediatamente.
+1. **Se uma mensagem do Yammer for editada ou excluída** pelo usuário durante o período de retenção, a mensagem original será copiada imediatamente (se foi editada) ou movida (se foi excluída) para a pasta SubstrateHolds. A mensagem é armazenada lá até que o período de retenção expirar e a mensagem será permanentemente excluída imediatamente.
 
 2. **Se uma mensagem do Yammer não for excluída** e para as mensagens atuais após a edição, a mensagem será movida para a pasta SubstrateHolds após o período de retenção expirar. Essa ação leva sete dias após a data de vencimento. Quando a mensagem estiver na pasta SubstrateHolds, ela será permanentemente excluída imediatamente. 
 
@@ -72,7 +72,7 @@ Quando a política de retenção é somente retenção ou somente exclusão, os 
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção reter somente
 
-1. **Se uma mensagem do Yammer for editada ou excluída** : uma cópia da mensagem original é criada na pasta SubstrateHolds e mantida lá até que o período de retenção expire. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds imediatamente.
+1. **Se uma mensagem do Yammer for editada ou excluída** : uma cópia da mensagem original é criada imediatamente na pasta SubstrateHolds e mantida lá até que o período de retenção expire. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds imediatamente.
 
 2. **Se a mensagem do Yammer não for modificada ou excluída** e para as mensagens atuais após a edição durante o período de retenção: nada acontece antes e depois do período de retenção; a mensagem permanecerá no local original.
 
@@ -80,7 +80,7 @@ Quando a política de retenção é somente retenção ou somente exclusão, os 
 
 1. **Se a mensagem do Yammer não for excluída** durante o período de retenção: no final do período de retenção, a mensagem será movida para a pasta SubstrateHolds. Essa ação leva sete dias após a data de vencimento. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds imediatamente.
 
-2. **Se a mensagem do Yammer for excluída pelo usuário** durante o período, o item será movido para a pasta SubstrateHolds, onde será permanentemente excluído imediatamente.
+2. **Se a mensagem do Yammer for excluída pelo usuário** durante o período, o item será movido imediatamente para a pasta SubstrateHolds, onde será permanentemente excluído imediatamente.
 
 
 ## <a name="messages-and-external-users"></a>Mensagens e usuários externos

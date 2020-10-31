@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7709bf9a3063863d802e8c36a09ea10d287d0e34
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 9c4898f6ecf17ad57da9ecd54499764c7efc2a6c
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779267"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816866"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade do Microsoft 365
 
@@ -27,7 +27,7 @@ A série de solução do Microsoft 365 Enterprise fornece orientações para a i
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>Microsoft Teams e serviços de produtividade relacionados no Microsoft 365 para arquitetos de TI
 A arquitetura lógica dos serviços de produtividade no Microsoft 365, liderada pelo Microsoft Teams.
 
-|**Item**|**Descrição**|
+| Item | Descrição |
 |:-----|:-----|
 |[![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Atualizado em abril de 2019   |A Microsoft fornece um conjunto de serviços de produtividade que trabalham juntos para fornecer experiências de colaboração com recursos de governança de dados, segurança e conformidade. <br/> <br/>Esta série de ilustrações oferece uma visão da arquitetura lógica dos serviços de produtividade para arquitetos empresariais, liderada pelo Microsoft Teams.|
 
@@ -35,14 +35,26 @@ A arquitetura lógica dos serviços de produtividade no Microsoft 365, liderada 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Grupos no Microsoft 365 para arquitetos de TI
 O que os arquitetos de TI precisam saber sobre os grupos no Microsoft 365
 
-|**Item**|**Descrição**|
+| Item | Descrição |
 |:-----|:-----|
 |[![Imagem em miniatura de infográfico sobre os grupos](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Atualizado em maio de 2020|Essas ilustrações detalham os diferentes tipos de grupos, como eles são criados e gerenciados e algumas recomendações de governança.|
+
+### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Recursos de conformidade e proteção de informações da Microsoft 365
+
+O Microsoft 365 inclui um amplo conjunto de recursos de conformidade e proteção de informações. Juntamente com as ferramentas de produtividade da Microsoft, esses recursos foram projetados para ajudar as organizações a colaborar em tempo real, enquanto estão de acordo com as rigorosas estruturas de conformidade normativa. 
+
+Este conjunto de ilustrações usa um dos setores mais regulamentados, serviços financeiros, para demonstrar como esses recursos podem ser aplicados para atender aos requisitos normativos comuns. Sinta-se livre para adaptar estas ilustrações para seu próprio uso. 
+
+
+| Item | Descrição |
+|:-----|:-----|
+|[![Pôster de modelo: recursos de conformidade e proteção de informações da Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Baixar como um PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [Baixar como um Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Atualizado em outubro de 2020|Traz <ul><li>  Proteção de informações da Microsoft e prevenção contra perda de dados</li><li>Políticas de retenção e rótulos de retenção </li><li>Barreiras de informações</li><li>Conformidade em comunicações</li><li>Risco Insider</li><li>Inclusão de dados de terceiros</li>|
+
 
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>Segurança e proteção de informações para organizações de várias regiões
 Segurança e proteção de informações para organizações de várias regiões com um único locatário do Microsoft 365
 
-|**Item**|**Descrição**|
+| Item | Descrição |
 |:-----|:-----|
 |[![Imagem em miniatura para infográfico de várias regiões](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Atualizado em março de 2020 |Usar um único locatário do Microsoft 365 para sua organização global é a melhor escolha e experiência por vários motivos. No entanto, muitos arquitetos têm dificuldades para encontrar a melhor forma de atender aos objetivos de segurança e proteção de informações em diferentes regiões. Este conjunto de tópicos fornece recomendações. |
 
@@ -51,7 +63,7 @@ Segurança e proteção de informações para organizações de várias regiões
 Dependendo do ambiente, algumas ferramentas são mais adequadas para determinadas arquiteturas.
 
 
-|**Item**|**Descrição**|
+| Item | Descrição |
 |:-----|:-----|
 |[![Imagem em miniatura da estratégia de implantação do Microsoft Defender ATP](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Atualizado em fevereiro de 2020| O material arquitetônico ajuda a planejar a implantação para as seguintes arquiteturas: <ul><li> Nuvem nativa </li><li> Cogerenciamento </li><li> No local</li><li>Avaliação e integração local</li>
 
@@ -61,7 +73,7 @@ Dependendo do ambiente, algumas ferramentas são mais adequadas para determinada
 
 Recursos recomendados para proteger identidades e dispositivos que acessam o Microsoft 365, outros serviços SaaS e aplicativos locais publicados com o proxy de aplicativo do Azure AD.
 
-|**Item**|**Descrição**|
+| Item | Descrição |
 |:-----|:-----|
 |[![Cartaz de modelo: proteção de identidade e dispositivo para o Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Exibir como um PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Atualizado em setembro de 2020|É importante usar níveis consistentes de proteção para dados, identidades e dispositivos. Este modelo mostra quais recursos são comparáveis com mais informações sobre os recursos para proteger identidades e dispositivos.  <br/> |
  
@@ -70,7 +82,7 @@ Recursos recomendados para proteger identidades e dispositivos que acessam o Mic
 
 Fluxo de trabalho de ponta a ponta de descoberta eletrônica avançada e fluxo de dados, incluindo os ambientes multigeográfico da Microsoft 365. 
 
-|**Item**|**Descrição**|
+| Item | Descrição |
 |:-----|:-----|
 |[![Cartaz de modelo: arquitetura de descoberta eletrônica avançada no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Baixar como um PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Baixar como um Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Atualizado em outubro de 2020|Traz <ul><li>  Fluxo de trabalho de ponta a ponta em um único ambiente</li><li>Fluxo de trabalho de ponta a ponta em um ambiente multigeográfico da Microsoft 365 </li><li>Fluxo de dados de ponta a ponta que suporta o fluxo de trabalho do EDRM</li> |
   
@@ -81,7 +93,7 @@ Fluxo de trabalho de ponta a ponta de descoberta eletrônica avançada e fluxo d
 
 Recommended capabilities for protecting files in Office 365 based on three different sensitivity levels.
   
-|**Item**|**Description**|
+| Item | Description |
 |:-----|:-----|
 |[![Thumbnail for File Protection Solutions in Office 365 mini poster set](media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)          ](https://www.microsoft.com/download/details.aspx?id=55523) <br/> [PDF](https://go.microsoft.com/fwlink/?linkid=2004320)  \| [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx) <br/> |It's important to use consistent levels of protection across your data, identities, and devices. This document shows you which capabilities are comparable with more information on capabilities to protect files in Office 365.  <br/> |
    
@@ -90,7 +102,7 @@ Recommended capabilities for protecting files in Office 365 based on three diffe
 
 Prescriptive recommendations for discovering, classifying, protecting, and monitoring personal data. This solution uses General Data Protection Regulation (GDPR) as an example, but you can apply the same process to achieve compliance with many other regulations.
 
-|**Item**|**Description**|
+| Item | Description |
 |:-----|:-----|
 |![Thumbnail for Office 365 Information Protection for GDPR](media/o365infoprotectforgdpr-thumb.png)  <br/> [PDF](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf) \| [Visio](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.vsdx)    |To see this content in article format, see [Office 365 Information Protection for GDPR](https://docs.microsoft.com/Office365/SecurityCompliance/office-365-information-protection-for-gdpr).      |
 
@@ -99,7 +111,7 @@ Prescriptive recommendations for discovering, classifying, protecting, and monit
 This guidance describes how to implement a secure cloud environment. The solution guidance can be used by any organization. It includes extra help for agile organizations with BYOD access and guest accounts. You can use this guidance as a starting-point for designing your own environment.
 
 
-|**Item**|**Description**|
+| Item | Description |
 |:-----|:-----|
 |**Microsoft Security Guidance for Political Campaigns** <br/> [![Thumb nail for mini poster set.](media/d370ce28-ca40-4930-9a2c-907312aa06c8.png)          ](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf) <br/> [PDF](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf)  \| [Visio](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.vsdx) <br/> |This guidance uses a political campaign organization as an example. Use this guidance as a starting point for any environment.  <br/> |
 |**Microsoft Security Guidance for Nonprofits** <br/> [![Thumnail image for downloadable file](media/e4784889-1c69-4067-9a8f-31d31d1eceea.png)          ](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) <br/> [PDF](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf)  \| [Visio](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.vsdx) <br/> |This guide is slightly revised for nonprofit organizations. For example, it references Office 365 Nonprofit plans. The technical guidance is the same as the political campaign solution guide.  <br/> |
