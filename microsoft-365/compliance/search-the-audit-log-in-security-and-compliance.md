@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: how-to
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c2ffc926114b8ffc2ebf2005b98e549ac03cf26
-ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
+ms.openlocfilehash: cf5481584031469b459d5662f75e32fd9a793a94
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787577"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816754"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -459,7 +459,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 
 #### <a name="frequently-asked-questions-about-fileaccessed-and-filepreviewed-events"></a>Perguntas frequentes sobre eventos do FileAccessed e FilePreviewed
 
-**Alguma atividade de não usuário poderia acionar registros de auditoria FilePreviewed que contenham um agente de usuário como "OneDriveMpc-Transform_Thumbnail"?**
+**Alguma atividade de não usuário pode acionar registros de auditoria FilePreviewed que contêm um agente de usuário como "OneDriveMpc-Transform_Thumbnail"?**
 
 Não temos conhecimento de cenários em que ações de não usuários gerem eventos como esses. As ações do usuário, como abrir um cartão de perfil do usuário (clicando em seu nome ou endereço de email em uma mensagem no Outlook na Web), gerariam eventos semelhantes.
 
@@ -893,7 +893,7 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |:-----|:-----|:-----|
 |Comentário criado|CreateComment|O proprietário do formulário adiciona um comentário ou pontuação a um teste.|
 |Formulário criado|CreateForm|O proprietário do formulário cria um novo formulário.|
-|Formulário editado|EditForm|O proprietário do formulário edita um formulário criando, removendo ou editando uma pergunta. <br><br>A propriedade EditOperation:string indica o nome da operação de edição. As possíveis operações são: CreateQuestion, CreateQuestionChoice, DeleteQuestion, DeleteQuestionChoice, DeleteFormImage, DeleteQuestionImage, UpdateQuestion, UpdateQuestionChoice, UploadFormImage/Bing/Onedrive, UploadQuestionImage e ChangeTheme.  <br><br>A maioria dos nomes de operação são auto-explicativos. <br><br>FormImage inclui qualquer lugar dentro do Forms que o usuário pode carregar uma imagem, como em uma consulta ou como um tema de plano de fundo.|
+|Formulário editado|EditForm|O proprietário do formulário edita um formulário criando, removendo ou editando uma pergunta. A propriedade *EditOperation: cadeia de caracteres* indica o nome da operação de edição. As operações possíveis são:<br/>- CreateQuestion<br/>- CreateQuestionChoice <br/>- DeleteQuestion <br/>- DeleteQuestionChoice <br/>- DeleteFormImage <br/>- DeleteQuestionImage <br/>- UpdateQuestion <br/>- UpdateQuestionChoice <br/>- UploadFormImage/Bing/Onedrive <br/>- UploadQuestionImage <br/>- ChangeTheme <br><br>FormImage inclui qualquer lugar dentro do Forms que o usuário pode carregar uma imagem, como em uma consulta ou como um tema de plano de fundo.|
 |Formulário movido|MoveForm|O proprietário do formulário move um formulário. <br><br>A propriedade DestinationUserId:string indica a ID de usuário da pessoa que moveu o formulário. A propriedade NewFormId:string é a nova ID do formulário copiado recentemente.|
 |Formulário excluído |DeleteForm|O proprietário do formulário exclui um formulário. Isso inclui SoftDelete (opção de exclusão usada e o formulário é movido para a lixeira) e HardDelete (a lixeira é esvaziada).|
 |Formulário exibido (tempo de design)|ViewForm|O proprietário do formulário abre um formulário existente para edição.|
@@ -912,7 +912,8 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Resposta exibida|ViewResponse|O proprietário do formulário exibe uma resposta específica. <br><br>A propriedade ResponseId:string e a propriedade ResponderId:string indicam qual resultado está sendo visualizado. <br><br>Para um respondente anônimo, a propriedade ResponderId será nula.|
 |Link de resumo criado|GetSummaryLink|O proprietário do formulário cria links de resumo para compartilhar resultados.|
 |Link de resumo excluído|DeleteSummaryLink|O proprietário do formulário exclui o link de resultados de resumo.|
-|Formulário de status de phishing atualizado|UpdatePhishingStatus|Esse evento é registrado sempre que o valor de status de segurança interna for alterado, independentemente de isso ter alterado o Estado de Segurança final (por exemplo, o formulário agora está Fechado ou Aberto). Isso significa que você pode ver os eventos duplicados sem uma alteração final de Estado de Segurança.|
+|Formulário de status de phishing atualizado|UpdatePhishingStatus|Este evento é registrado sempre que o valor detalhado para o status de segurança interna for alterado, independentemente de isso ter alterado o estado de segurança final (por exemplo, o formulário agora está Fechado ou Aberto). Isso significa que você pode ver eventos duplicados sem uma alteração final do estado de segurança. Os valores de status possíveis para este evento são:<br/>- Derrubar <br/>- Retirado por Administrador <br/>- Administrador Desbloqueado <br/>- Auto Bloqueado <br/>- Auto Desbloqueado <br/>- Relatado pelo Cliente <br/>- Redefinir Relatado pelo Cliente|
+|Status de phishing do usuário atualizado|UpdateUserPhishingStatus|Este evento é registrado sempre que o valor do status de segurança do usuário é alterado. O valor do status do usuário no registro de auditoria é **Confirmado como Phisher** quando o usuário criou um formulário de phishing que foi removido pela equipe de segurança do Microsoft Online. Se um administrador desbloquear o usuário, o valor do status do usuário é definido como **Redefinir como Usuário Normal** .|
 |Convite do Forms Pro enviado|ProInvitation|O usuário clica para ativar uma avaliação do Pro.|
 |Configuração do formulário atualizado|UpdateFormSetting|O proprietário do formulário atualiza a configuração de um formulário. <br><br>A propriedade FormSettingName:string indica o nome e o novo valor da configuração.|
 |Configuração de usuário atualizada|UpdateUserSetting|O proprietário do formulário atualiza a configuração de um usuário. <br><br>A propriedade UserSettingName:string indica o nome e o novo valor da configuração|
@@ -922,7 +923,7 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 
 #### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>Atividades do Forms realizadas por coautores e respondentes anônimos
 
-O Forms oferece suporte à colaboração quando os formulários estão sendo projetados e ao analisar as respostas. Um colaborador de formulário é conhecido como um *coautor* . Os coautores podem fazer tudo o que um proprietário de formulário pode fazer, exceto excluir ou mover um formulário. O Forms também permite criar um formulário que pode ser respondido anonimamente. Isso significa que o respondente não precisa estar conectado à sua organização para responder a um formulário. 
+Os formulários oferecem suporte à colaboração quando os formulários são projetados e ao analisar as respostas. Um colaborador de formulário é conhecido como um *coautor* . Os coautores podem fazer tudo o que um proprietário de formulário pode fazer, exceto excluir ou mover um formulário. O Forms também permite criar um formulário que pode ser respondido anonimamente. Isso significa que o respondente não precisa estar conectado à sua organização para responder a um formulário.
 
 A tabela a seguir descreve as atividades e informações de auditoria no registro de auditoria para atividades executadas por coautores e respondentes anônimos.
 
