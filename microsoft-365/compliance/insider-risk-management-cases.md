@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: f0251f783aebd1264facfcbaa23a9b7afa286833
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: e790dfa986e6132295279e64321bda71a736a4b2
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774014"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816846"
 ---
 # <a name="insider-risk-management-cases"></a>Casos de gerenciamento de risco do insider
 
@@ -241,7 +241,7 @@ Para saber mais sobre o Microsoft Teams para gerenciamento de risco do Insider, 
 O compartilhamento de um caso de gerenciamento de risco do insider permite que os investigadores de risco e analistas colaborem facilmente com outros participantes de conformidade em sua organização. Você pode compartilhar rapidamente um link para um caso de gerenciamento de risco do insider com participantes externos da área de gerenciamento de casos. Para acessar o caso de gerenciamento de risco do Insider a partir do link, os participantes devem ser incluídos em qualquer um dos grupos de função de gerenciamento de risco do insider.
 
 >[!NOTE]
->A visualização do ServiceNow terminará em novembro de 30 2020 e não será continuada. Agradecemos seus comentários e suporte enquanto determinamos as próximas etapas.
+>Obrigado por seus comentários e suporte durante a visualização do conector do ServiceNow. Decidimos encerrar a visualização do conector do ServiceNow e o suporte de descontinuação no gerenciamento de risco do insider em 30 de novembro de 2020. Estamos avaliando ativamente métodos alternativos para fornecer aos clientes a integração do ServiceNow no gerenciamento de risco do insider.
 
 As seguintes opções de compartilhamento estão disponíveis:
 

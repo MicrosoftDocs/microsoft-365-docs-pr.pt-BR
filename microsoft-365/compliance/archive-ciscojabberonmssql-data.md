@@ -11,13 +11,13 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar os dados do Cisco Jabber do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: c93e0e702fba5a8232f3d41b3b6a32ab12216b3c
-ms.sourcegitcommit: 16cbac5eacadd7b30cbca1fd2435ba9098de5e1c
+description: Os administradores podem configurar um conector para importar e arquivar os dados do Cisco Jabber do Globanet no Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
+ms.openlocfilehash: f20d7827b2ec00fe5c7acc491d7a595d99fe8589
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48785545"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816604"
 ---
 # <a name="set-up-a-connector-to-archive-cisco-jabber-data"></a>Configurar um conector para arquivar os dados do Cisco Jabber
 
@@ -37,15 +37,15 @@ A visão geral a seguir explica o processo de usar um conector para arquivar os 
 
 3. O conector do Cisco Jabber que você cria no centro de conformidade da Microsoft 365 conecta-se ao site do Globanet Merge1 todos os dias e transfere os itens para um local seguro de armazenamento do Azure na nuvem da Microsoft.
 
-4. O mapeamento de usuário automático como conector importa itens para as caixas de correio de usuários específicos usando o valor da propriedade *email* do descrito na [etapa 3](#step-3-map-users-and-complete-the-connector-setup). Uma subpasta na pasta caixa de entrada chamada **Cisco Jabber no MS SQL** é criada nas caixas de correio do usuário e os itens de mensagem são importados para essa pasta. O conector faz isso usando o valor da propriedade *email* . Cada item do Cisco Jabber contém essa propriedade, que é preenchida com o endereço de email de cada participante das mensagens.
+4. O mapeamento de usuário automático como conector importa itens para as caixas de correio de usuários específicos usando o valor da propriedade *email* do descrito na [etapa 3](#step-3-map-users-and-complete-the-connector-setup). Uma subpasta na pasta caixa de entrada chamada **Cisco Jabber no MS SQL** é criada nas caixas de correio do usuário e os itens de mensagem são importados para essa pasta. O conector determina qual caixa de correio para a qual importar itens usando o valor da propriedade *email* . Cada item do Cisco Jabber contém essa propriedade, que é preenchida com o endereço de email de cada participante.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para fazer isso, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact/). Você precisa entrar nessa conta ao criar o conector na etapa 1.
+- Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para criar essa conta, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact/). Você entrará nesta conta quando criar o conector na etapa 1.
 
-- Você deve configurar um banco de dados MS SQL para recuperar os itens do Jabber antes de criar o conector na etapa 1. Você especificará as configurações de conexão para o banco de dados MS SQL ao configurar o conector do Cisco Jabber na etapa 2. Para obter mais informações, consulte o [Guia do usuário do Merge1 conectores de terceiros](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Cisco%20Jabber%20on%20MS%20SQL%20User%20Guide%20.pdf).
+- Configurar um banco de dados MS SQL para recuperar os itens do Jabber antes de criar o conector na etapa 1. Você especificará as configurações de conexão para o banco de dados MS SQL ao configurar o conector do Cisco Jabber na etapa 2. Para obter mais informações, consulte o [Guia do usuário do Merge1 conectores de terceiros](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Cisco%20Jabber%20on%20MS%20SQL%20User%20Guide%20.pdf).
 
-- O usuário que cria o conector Cisco Jabber na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
+- O usuário que cria o conector Cisco Jabber na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a um grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
 ## <a name="step-1-set-up-the-cisco-jabber-connector"></a>Etapa 1: configurar o conector Cisco Jabber
 
@@ -65,7 +65,7 @@ A primeira etapa é acessar os **conectores de dados** no centro de conformidade
 
 A segunda etapa é configurar o Cisco Jabber no MS SQL Connector no site do Merge1 Globanet. Para obter informações sobre como configurar o Cisco Jabber no MS SQL Connector, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Cisco%20Jabber%20on%20MS%20SQL%20User%20Guide%20.pdf).
 
-Após clicar em **salvar & concluir** , você será direcionado para o centro de conformidade da Microsoft 365, para a página **mapeamento de usuário** no assistente de conector.
+Depois de clicar em **salvar & concluir** , a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
@@ -85,7 +85,7 @@ Depois de criar o Cisco Jabber no MS SQL Connector, você pode visualizar o stat
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Clique na guia **conectores** e selecione o **Cisco JABBER no MS SQL** Connector para exibir a página de menu suspenso, que contém as propriedades e informações sobre o conector.
+2. Clique na guia **conectores** e selecione o **Cisco JABBER no MS SQL** Connector para exibir a página do menu de atalho. Esta página contém as propriedades e as informações sobre o conector.
 
 3. Em **status do conector com origem** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
 

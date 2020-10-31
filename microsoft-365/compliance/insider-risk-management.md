@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: c9b19066b57d40ad33ac8d50ee1bee1f4a828030
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: 289f0763d6a7e887946a5672fde5341f79f96855
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774044"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816856"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de risco do insider no Microsoft 365
 
@@ -122,7 +122,7 @@ Nas situações mais sérias, talvez você precise compartilhar as informações
 - **Integração de APIs de gerenciamento do Office 365 (versão prévia)** : o gerenciamento de risco do insider oferece suporte à exportação de informações de alerta para serviços de gerenciamento de eventos e informações de segurança por meio das APIs de gerenciamento do Office 365 Ter acesso a informações de alerta na plataforma o mais adequado para os processos de risco da sua organização oferece maior flexibilidade na forma de agir em atividades de risco. Para saber mais sobre como exportar informações de alerta com as APIs de gerenciamento do Office 365, confira [Exportar alertas](insider-risk-management-settings.md#export-alerts-preview).
 
 >[!NOTE]
->A visualização do ServiceNow terminará em novembro de 30 2020 e não será continuada. Agradecemos seus comentários e suporte enquanto determinamos as próximas etapas.
+>Obrigado por seus comentários e suporte durante a visualização do conector do ServiceNow. Decidimos encerrar a visualização do conector do ServiceNow e o suporte de descontinuação no gerenciamento de risco do insider em 30 de novembro de 2020. Estamos avaliando ativamente métodos alternativos para fornecer aos clientes a integração do ServiceNow no gerenciamento de risco do insider.
 
 ## <a name="scenarios"></a>Cenários
 

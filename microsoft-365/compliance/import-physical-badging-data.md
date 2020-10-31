@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados do sistema físico do símbolos da sua organização para o Microsoft 365. Isso permite que você use esses dados nas políticas de gerenciamento de risco do insider para ajudá-lo a detectar acesso a seus prédios físicos por usuários específicos que podem indicar uma possível ameaça interna à sua organização.
-ms.openlocfilehash: 6d52879031c8801191b1a419f38a1167c1bb0688
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 71f43d8e6abd53454b6c81d811d0dca2e8b08388
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204287"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816644"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>Configurar um conector para importar dados de símbolos físicos (versão prévia)
 
@@ -51,11 +51,11 @@ A configuração de um conector de símbolos físico consiste nas seguintes tare
 
 A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directory (Azure AD). O aplicativo corresponderá ao conector físico do símbolos que você criou na etapa 3. A criação deste aplicativo permitirá que o Azure AD autentique a solicitação de envio por push para o Payload JSON contendo dados de símbolos físicos. Durante a criação deste aplicativo do Azure AD, certifique-se de salvar as informações a seguir. Esses valores serão usados nas etapas posteriores.
 
-- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente*)
+- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente* )
 
-- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente*)
+- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente* )
 
-- ID do locatário (também chamado de *ID de diretório*)
+- ID do locatário (também chamado de *ID de diretório* )
 
 Para obter instruções detalhadas sobre a criação de um aplicativo no Azure AD, consulte [registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
@@ -65,7 +65,7 @@ A próxima etapa é criar um arquivo JSON que contenha informações sobre os da
 
 O arquivo JSON deve estar em conformidade com a definição de esquema exigida pelo conector. Aqui estão as descrições das propriedades de esquema necessárias para o arquivo JSON:
 
-|**Property**|**Descrição**|**Tipo de dados**|
+| Propriedade | Descrição | Tipo de dados |
 |:-----------|:--------------|:------------|
 |UserId|Um funcionário pode ter várias identidades digitais nos sistemas. A entrada precisa ter a ID do Azure AD já resolvida pelo sistema de origem. |UPN ou endereço de email|
 |AssetId|A ID de referência do ativo físico ou do ponto de acesso físico.| Cadeia alfanumérica|
@@ -76,7 +76,7 @@ O arquivo JSON deve estar em conformidade com a definição de esquema exigida p
 
 Veja um exemplo de um arquivo JSON que está em conformidade com o esquema necessário:
 
-```text
+```json
 [
     {
         "UserId":"sarad@contoso.com"
@@ -137,11 +137,11 @@ A próxima etapa é criar um conector de símbolos físico no centro de conformi
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Na página **conectores de dados** em **símbolos físico**, clique em **Exibir**.
+2. Na página **conectores de dados** em **símbolos físico** , clique em **Exibir** .
 
-3. Na página **símbolos físico** , clique em **Adicionar conector**.
+3. Na página **símbolos físico** , clique em **Adicionar conector** .
 
-4. Na página **credenciais de autenticação** , faça o seguinte e clique em **Avançar**:
+4. Na página **credenciais de autenticação** , faça o seguinte e clique em **Avançar** :
   
    1. Digite ou cole a ID de aplicativo do Azure AD para o aplicativo do Azure que você criou na etapa 1.
   
@@ -155,7 +155,7 @@ A próxima etapa é criar um conector de símbolos físico no centro de conformi
 
    A página de status também contém um link para o script. Consulte este script para entender como postar o arquivo JSON no ponto de extremidade da API.
 
-7. Clique em **Concluído**.
+7. Clique em **Concluído** .
 
    O novo conector é exibido na lista na guia **conectores** .
 
@@ -190,7 +190,7 @@ Depois de executar o script, o arquivo JSON que contém os dados do símbolos f�
 
    A tabela a seguir descreve os parâmetros a serem usados com esse script e seus valores necessários. As informações obtidas nas etapas anteriores são usadas nos valores desses parâmetros.
 
-   | **Parâmetro**|**Descrição**|
+   | Parâmetro | Descrição |
    |:-------------|:--------------|
    |tenantId | Esta é a ID da sua organização do Microsoft 365 que você obteve na etapa 1. Você também pode obter o tenantid para sua organização na folha **visão geral** no centro de administração do Azure AD. Isso é usado para identificar sua organização. |
    |appId | Esta é a ID de aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365.                    |
@@ -218,17 +218,17 @@ Depois de criar o conector de símbolos físico e enviar seus dados de símbolos
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Clique na guia **conectores** e selecione o conector símbolos físico para exibir a página de submenu, que contém as propriedades e informações sobre o conector.
+2. Clique na guia **conectores** e selecione o conector símbolos físico para exibir a página de submenu. Esta página contém as propriedades e as informações sobre o conector.
 
    ![Página de submenu de status do conector símbolos físico](..\media\PhysicalBadgingStatusFlyout.png)
 
-3. Em **última importação**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft.
+3. Em **última importação** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft.
 
    ![Arquivo de log físico do conector símbolos exibe linhas de número do arquivo JSON que foram carregadas](..\media\PhysicalBadgingConnectorLogFile.png)
 
    O campo **RecordsSaved** indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver quatro linhas, o valor dos campos **RecordsSaved** será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
 
-Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação**. Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
+Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação** . Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
 
 ## <a name="optional-step-6-schedule-the-script-to-run-automatically"></a>Opcion Etapa 6: agendar o script para ser executado automaticamente
 
@@ -236,35 +236,35 @@ Para garantir que os dados de símbolos físicos mais recentes da sua organizaç
 
 Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o script automaticamente todos os dias.
 
-1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas**.
+1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas** .
 
 2. Clique no aplicativo **Agendador de tarefas** para abri-lo.
 
-3. Na seção **ações** , clique em **criar tarefa**.
+3. Na seção **ações** , clique em **criar tarefa** .
 
-4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector símbolos físico**. Você também pode adicionar uma descrição opcional.
+4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector símbolos físico** . Você também pode adicionar uma descrição opcional.
 
-5. Em **Opções de segurança**, faça o seguinte:
+5. Em **Opções de segurança** , faça o seguinte:
 
    1. Determine se o script deve ser executado somente quando você estiver conectado ao computador ou executá-lo quando estiver conectado ou não.
 
    2. Verifique se a caixa de seleção **executar com os privilégios mais altos** está selecionada.
 
-6. Selecione a guia **acionadores** , clique em **novo**e faça o seguinte:
+6. Selecione a guia **acionadores** , clique em **novo** e faça o seguinte:
 
-   1. Em **configurações**, selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
+   1. Em **configurações** , selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
 
-   2. Em **Configurações avançadas**, certifique-se de que a caixa de seleção **habilitado** esteja marcada.
+   2. Em **Configurações avançadas** , certifique-se de que a caixa de seleção **habilitado** esteja marcada.
 
-   3. Clique em **OK**.
+   3. Clique em **OK** .
 
-7. Selecione a guia **ações** , clique em **novo**e faça o seguinte:
+7. Selecione a guia **ações** , clique em **novo** e faça o seguinte:
 
    ![Configurações de ação para criar uma nova tarefa agendada para o script do conector do símbolos físico](..\media\SchedulePhysicalBadgingScript1.png)
 
    1. Na lista suspensa **ação** , verifique se **Iniciar um programa** está selecionado.
 
-   2. Na caixa **programa/script** , clique em **procurar**e vá para o local a seguir e selecione-o para que o caminho seja exibido na caixa: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe.
+   2. Na caixa **programa/script** , clique em **procurar** e vá para o local a seguir e selecione-o para que o caminho seja exibido na caixa: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe.
 
    3. Na caixa **adicionar argumentos (opcional)** , Cole o mesmo comando de script executado na etapa 4. Por exemplo, .\PhysicalBadging.ps1-tenantid "d5723623-11CF-4E2E-b5a5-01d1506273g9"-appId "c12823b7-b55a-4989-faba-02de41bb97c3"-appsecret pela "MNubVGbcQDkGCnn"-jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458"-jsonFilePath "C:\Users\contosoadmin\Desktop\Data\physical_badging_data.csv"
 

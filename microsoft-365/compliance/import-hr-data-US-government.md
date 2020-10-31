@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores na nuvem do governo dos EUA podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: c1382cd94fcbba1d2ba561657c756e509af21dae
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 28f4c77ec626e2035451ec6e7c9562c5bf20f101
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196384"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816836"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government"></a>Configurar um conector para importar dados de RH no governo dos EUA
 
@@ -40,11 +40,11 @@ Você pode configurar um conector de dados no centro de conformidade da Microsof
 
 A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directory (Azure AD). O aplicativo corresponderá ao conector de RH que você criou na etapa 3. A criação deste aplicativo permitirá que o Azure AD autentique o conector de RH quando executado e tente acessar sua organização. Este aplicativo também será usado para autenticar o script executado na etapa 4 para carregar seus dados de RH na nuvem da Microsoft. Durante a criação deste aplicativo do Azure AD, certifique-se de salvar as informações a seguir. Esses valores serão usados nas etapas posteriores.
 
-- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente*)
+- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente* )
 
-- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente*)
+- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente* )
 
-- ID do locatário (também chamado de *ID de diretório*)
+- ID do locatário (também chamado de *ID de diretório* )
 
 Para obter instruções detalhadas sobre a criação de um aplicativo no Azure AD, consulte [registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
@@ -62,7 +62,7 @@ A primeira linha, ou linha de cabeçalho, do arquivo CSV lista os nomes de colun
 
 A tabela a seguir descreve cada coluna no arquivo CSV:
 
-|**Nome da coluna**|**Descrição**|
+| Nome da coluna | Descrição |
 |:-----|:-----|
 | **EmailAddress** <br/> |Especifica o endereço de email do funcionário demitido.|
 | **TerminationDate** <br/> |Especifica a data em que o emprego da pessoa foi oficialmente encerrado em sua organização. Por exemplo, isso pode ser a data em que o funcionário deu seu aviso sobre a saída da sua organização. Essa data pode ser diferente da data do último dia de trabalho da pessoa. Use o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
@@ -77,17 +77,17 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Na página **conectores de dados** em **RH**, clique em **Exibir**.
+2. Na página **conectores de dados** em **RH** , clique em **Exibir** .
 
-3. Na página **RH** , clique em **Adicionar conector**.
+3. Na página **RH** , clique em **Adicionar conector** .
 
-4. Na página **credenciais de autenticação** , faça o seguinte e clique em **Avançar**:
+4. Na página **credenciais de autenticação** , faça o seguinte e clique em **Avançar** :
 
-   a. Digite ou cole a ID de aplicativo do Azure AD para o aplicativo do Azure que você criou na etapa 1.
+   1. Digite ou cole a ID de aplicativo do Azure AD para o aplicativo do Azure que você criou na etapa 1.
 
-   b. Digite um nome para o conector de RH.
+   1. Digite um nome para o conector de RH.
 
-5. Na página **mapeamento de arquivo** , digite os nomes dos três cabeçalhos de coluna (também chamados de *parâmetros*) do arquivo CSV que você criou na etapa 2 em cada uma das caixas apropriadas. Os nomes não diferenciam maiúsculas de minúsculas. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de parâmetro no arquivo CSV. Por exemplo, a captura de tela a seguir mostra os nomes de parâmetro do exemplo no arquivo CSV de exemplo mostrado na etapa 2.
+5. Na página **mapeamento de arquivo** , digite os nomes dos três cabeçalhos de coluna (também chamados de *parâmetros* ) do arquivo CSV que você criou na etapa 2 em cada uma das caixas apropriadas. Os nomes não diferenciam maiúsculas de minúsculas. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de parâmetro no arquivo CSV. Por exemplo, a captura de tela a seguir mostra os nomes de parâmetro do exemplo no arquivo CSV de exemplo mostrado na etapa 2.
 
    ![Os nomes de título de coluna correspondem àqueles no arquivo CSV](../media/HRConnectorWizard3.png)
 
@@ -97,11 +97,11 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
    ![Consultar a página com ID do trabalho e vincular ao GitHub para obter o script de exemplo](../media/HRConnector_Confirmation.png)
 
-   a. **ID de trabalho.** Você precisará dessa ID de trabalho para executar o script na próxima etapa. Você pode copiá-lo desta página ou da página do submenu conector.
+   1. **ID de trabalho.** Você precisará dessa ID de trabalho para executar o script na próxima etapa. Você pode copiá-lo desta página ou da página do submenu conector.
    
-   b. **Link para script de amostra.** Clique no link **aqui** para ir para o site do GitHub para acessar o script de exemplo (o link abre uma nova janela). Mantenha essa janela aberta para que você possa copiar o script na etapa 4. Como alternativa, você pode indicar o destino ou copiar a URL para que possa acessá-la novamente na etapa 4. Este link também está disponível na página do submenu conector.
+   1. **Link para script de amostra.** Clique no link **aqui** para ir para o site do GitHub para acessar o script de exemplo (o link abre uma nova janela). Mantenha essa janela aberta para que você possa copiar o script na etapa 4. Como alternativa, você pode indicar o destino ou copiar a URL para que possa acessá-la novamente na etapa 4. Este link também está disponível na página do submenu conector.
 
-7. Clique em **Concluído**.
+7. Clique em **Concluído** .
 
    O novo conector é exibido na lista na guia **conectores** . 
 
@@ -109,7 +109,7 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
    ![Página de menu do novo conector de RH](../media/HRConnectorWizard7.png)
 
-   Se ainda não tiver feito isso, você poderá copiar os valores para a **ID do aplicativo do Azure** e a **ID do trabalho do conector**. Você precisará deles para executar o script na próxima etapa. Você também pode baixar o script da página do menu de atalho (ou baixá-lo usando o link na próxima etapa.)
+   Se ainda não tiver feito isso, você poderá copiar os valores para a **ID do aplicativo do Azure** e a **ID do trabalho do conector** . Você precisará deles para executar o script na próxima etapa. Você também pode baixar o script da página do menu de atalho (ou baixá-lo usando o link na próxima etapa.)
 
    Você também pode clicar em **Editar** para alterar a ID do aplicativo do Azure ou os nomes de cabeçalho de coluna definidos na página **mapeamento de arquivo** .
 
@@ -137,7 +137,7 @@ A última etapa na configuração de um conector de RH é executar um script de 
 
    A tabela a seguir descreve os parâmetros a serem usados com esse script e seus valores necessários. As informações obtidas nas etapas anteriores são usadas nos valores desses parâmetros.
 
-   |**Parâmetro**|**Descrição**
+   | Parâmetro | Descrição |
    |:-----|:-----|:-----|
    |`tenantId`|A ID da sua organização do Microsoft 365 que você obteve na etapa 1. Você também pode obter a ID do locatário para sua organização na folha **visão geral** no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
    |`appId` |A ID de aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. |
@@ -163,17 +163,17 @@ Depois de criar o conector de RH e executar o script para carregar seus dados de
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Clique na guia **conectores** e selecione o conector de RH para exibir a página de submenu, que contém as propriedades e informações sobre o conector.
+2. Clique na guia **conectores** e selecione o conector de RH para exibir a página de submenu. Esta página contém as propriedades e as informações sobre o conector.
 
    ![Página de submenu do conector de RH com propriedades e status](../media/HRConnectorFlyout1.png)
 
-3. Em **andamento**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft. 
+3. Em **andamento** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft. 
 
    ![Arquivo de log do conector de RH exibe linhas de número do arquivo CSV que foram carregadas](../media/HRConnectorLogFile.png)
 
    O `RecordsSaved` campo indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver quatro linhas, o valor dos `RecordsSaved` campos será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
 
-Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação**. Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
+Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação** . Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
 
 ## <a name="optional-step-6-schedule-the-script-to-run-automatically"></a>Opcion Etapa 6: agendar o script para ser executado automaticamente
 
@@ -181,41 +181,41 @@ Para verificar se os dados de RH mais recentes da sua organização estão dispo
 
 Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o script automaticamente todos os dias.
 
-1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas**.
+1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas** .
 
 2. Clique no aplicativo **Agendador de tarefas** para abri-lo.
 
-3. Na seção **ações** , clique em **criar tarefa**.
+3. Na seção **ações** , clique em **criar tarefa** .
 
-4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector de RH**. Você também pode adicionar uma descrição opcional.
+4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector de RH** . Você também pode adicionar uma descrição opcional.
 
-5. Em **Opções de segurança**, faça o seguinte:
+5. Em **Opções de segurança** , faça o seguinte:
 
-   a. Determine se o script deve ser executado somente quando você estiver conectado ao computador ou executá-lo quando estiver conectado ou não.
+   1. Determine se o script deve ser executado somente quando você estiver conectado ao computador ou executá-lo quando estiver conectado ou não.
    
-   b. Verifique se a caixa de seleção **executar com os privilégios mais altos** está selecionada.
+   1. Verifique se a caixa de seleção **executar com os privilégios mais altos** está selecionada.
 
-6. Selecione a guia **acionadores** , clique em **novo**e faça o seguinte:
+6. Selecione a guia **acionadores** , clique em **novo** e faça o seguinte:
 
-   a. Em **configurações**, selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
+   1. Em **configurações** , selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
    
-   b. Em **Configurações avançadas**, certifique-se de que a caixa de seleção **habilitado** esteja marcada.
+   1. Em **Configurações avançadas** , certifique-se de que a caixa de seleção **habilitado** esteja marcada.
    
-   c. Clique em **OK**.
+   1. Clique em **OK** .
 
-7. Selecione a guia **ações** , clique em **novo**e faça o seguinte:
+7. Selecione a guia **ações** , clique em **novo** e faça o seguinte:
 
    ![Configurações de ação para criar uma nova tarefa agendada para o script do conector de RH](../media/HRConnectorScheduleTask1.png)
 
-   a. Na lista suspensa **ação** , verifique se **Iniciar um programa** está selecionado.
+   1. Na lista suspensa **ação** , verifique se **Iniciar um programa** está selecionado.
 
-   b. Na caixa **programa/script** , clique em **procurar**e vá para o local a seguir e selecione-o para que o caminho seja exibido na caixa: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` .
+   1. Na caixa **programa/script** , clique em **procurar** e vá para o local a seguir e selecione-o para que o caminho seja exibido na caixa: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` .
 
-   c. Na caixa **adicionar argumentos (opcional)** , Cole o mesmo comando de script executado na etapa 4. Por exemplo, `.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
+   1. Na caixa **adicionar argumentos (opcional)** , Cole o mesmo comando de script executado na etapa 4. Por exemplo, `.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
 
-   d. Na caixa **Iniciar em (opcional)** , Cole o local da pasta do script executado na etapa 4. Por exemplo, `C:\Users\contosoadmin\Desktop\Scripts`.
+   1. Na caixa **Iniciar em (opcional)** , Cole o local da pasta do script executado na etapa 4. Por exemplo, `C:\Users\contosoadmin\Desktop\Scripts`.
 
-   e. Clique em **OK** para salvar as configurações da nova ação.
+   1. Clique em **OK** para salvar as configurações da nova ação.
 
 8. Na janela **criar tarefa** , clique em **OK** para salvar a tarefa agendada. Você pode ser solicitado a inserir suas credenciais de conta de usuário.
 

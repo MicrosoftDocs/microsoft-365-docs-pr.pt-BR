@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 288c53d5e9264942e12d5634cec172a65ee79ca6
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 498ff1482bd0109903968d1c8fe250311e37a51f
+ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656048"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48819111"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -3162,9 +3162,9 @@ sete a oito dígitos mais delimitadores um dígito ou letra de verificação
 
 sete a oito dígitos mais delimitadores:
 - um a dois dígitos 
-- um período 
+- um período opcional 
 - três dígitos 
-- um período 
+- um período opcional 
 - três dígitos 
 - um traço 
 - um dígito ou letra (não diferencia maiúscula de minúscula), que é um dígito de verificação
@@ -3201,18 +3201,40 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_chile_id_card"></a>Keyword_chile_id_card
 
-- Número de Identificação Nacional 
-- Cartão de identidade 
-- ID 
-- Identificador 
-- Rol Único Nacional 
-- SEJAM 
-- Rol Único Tributario 
-- ROTINA 
-- Cédula de Identidad 
-- Número De Identificación Nacional 
-- Tarjeta de identificación 
-- Identificación 
+- cédula de Identidad
+- identificación
+- national identification
+- national identification number
+- national id
+- número de Identificación nacional
+- rol único nacional
+- rol único tributario
+- SEJAM
+- ROTINA
+- tarjeta de Identificación
+- Rol Unico Nacional
+- Rol Unico Tributario
+- SEJAM #
+- ROTINA #
+- nationaluniqueroleID #
+- nacional identidad
+- número Identificación
+- identidad número
+- numero identificacion
+- identidad numero
+- N º de identidade chileno
+- Número de identidade chileno
+- Identidade chileno #
+- Registro de imposto exclusivo
+- Função tributária exclusiva
+- Função de imposto exclusivo
+- Número exclusivo
+- Número nacional exclusivo
+- Função nacional exclusiva
+- Função única nacional
+- N º de identidade do Chile
+- Número de identidade do Chile
+- Identidade do Chile #
 
    
 ## <a name="china-resident-identity-card-prc-number"></a>Número do cartão de identidade residente (PRC) da China
@@ -8558,7 +8580,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+Nenhuma
 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional do Diseases (ICD-10-CM)
@@ -12044,7 +12066,9 @@ três letras, um espaço (opcional) e quatro dígitos
 
 ### <a name="pattern"></a>Padrão
 
-três letras (não diferencia maiúsculas de minúsculas) um espaço (opcional) quatro dígitos
+- três letras (não diferencia maiúsculas de minúsculas) exceto ' I ' e ' O '
+- um espaço (opcional) 
+- quatro dígitos
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -12057,27 +12081,38 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - Uma palavra-chave de Keyword_nz_terms for encontrada.
 - A soma de verificação passa.
 
+Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+- A função Func_new_zealand_ministry_of_health_number localiza conteúdo que corresponde ao padrão.
+- A soma de verificação passa.
+
 ```xml
-<!-- New Zealand Health Number -->
-<Entity id="2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7" patternsProximity="300" recommendedConfidence="85">
-    <Pattern confidenceLevel="85">
+    <!-- New Zealand Health Number -->
+    <Entity id="2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_new_zealand_ministry_of_health_number" />
-        <Any minMatches="1">
           <Match idRef="Keyword_nz_terms" />
-        </Any>
-    </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_new_zealand_ministry_of_health_number" />
+       </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
 #### <a name="keyword_nz_terms"></a>Keyword_nz_terms
 
-- NHI 
-- Nova Zelândia 
-- Integridade 
-- tratamento 
-
+- NHI
+- Nova Zelândia
+- Integridade
+- tratamento
+- Número de índice de integridade nacional
+- número do NHI
+- NHI não.
+- NHI #
+- N º do índice de integridade nacional
+- ID de índice de integridade nacional
+- Índice de integridade nacional #
 
 ## <a name="new-zealand-social-wlefare-number"></a>Número de wlefare social da Nova Zelândia
 Esse tipo de informação confidencial só está disponível para uso no:
@@ -14761,7 +14796,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+Nenhuma
 
 ## <a name="spain-tax-identification-number"></a>Número de identificação de imposto da Espanha
 Esse tipo de informação confidencial só está disponível para uso no:

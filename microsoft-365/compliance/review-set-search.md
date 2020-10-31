@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como criar e executar uma consulta em uma revisão definida para organizar dados para uma análise mais eficiente em uma ocorrência de descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 508e8e9fdb4a558a998a33aa561dc3755edcc40d
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 1ead897d412af2356d8b57ab8494539a5ed9a019
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816714"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816564"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Consultar dados em um conjunto de revisão
 
@@ -36,25 +36,25 @@ Para criar e executar uma consulta nos documentos em um conjunto de revisão, se
 
 ## <a name="building-a-review-set-query"></a>Criar uma consulta de conjunto de revisão
 
-Você pode criar uma consulta usando uma combinação de cartões de condição e linguagem de consulta no cartão de condição de palavras-chave. Você também pode agrupar cartões de condição juntos como um bloco (chamado de *grupo de condição*) para criar uma consulta mais complexa. Para obter uma lista e uma descrição das propriedades de metadados que você pode pesquisar, confira os [campos de metadados de documentos na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md).
+Você pode criar uma consulta usando uma combinação de palavras-chave, propriedades e condições na condição de palavras-chave. Você também pode agrupar as condições como um bloco (chamado de *grupo de condição* ) para criar uma consulta mais complexa. Para obter uma lista e uma descrição das propriedades de metadados que você pode pesquisar, confira os [campos de metadados de documentos na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md).
 
-### <a name="condition-cards"></a>Cartões de condição
+### <a name="conditions"></a>Condições
 
-Cada campo pesquisável em um conjunto de revisão tem um cartão de condição correspondente que você pode usar para criar sua consulta.
+Cada campo pesquisável em um conjunto de revisão tem uma condição correspondente que você pode usar para criar sua consulta.
 
-Há vários tipos de cartões de condição:
+Há vários tipos de condições:
 
-- FREETEXT: um cartão de condição do freetext é usado para campos de texto como o assunto. Você pode listar vários termos de pesquisa separando-os com uma vírgula.
+- FREETEXT: uma condição freetext é usada para campos de texto como assunto. Você pode listar vários termos de pesquisa separando-os com uma vírgula.
 
-- Date: um cartão de condição de data é usado para campos de data, como data da última modificação.
+- Date: uma condição de data é usada para campos de data, como data da última modificação.
 
-- Opções de pesquisa: um cartão de condição de opções de pesquisa fornecerá uma lista de valores possíveis para o campo específico em seu conjunto de análise. Isso é usado para campos, como remetente, onde há um número finito de valores possíveis em seu conjunto de análise.
+- Opções de pesquisa: uma condição de opções de pesquisa fornecerá uma lista de valores possíveis para o campo específico em seu conjunto de análise. Isso é usado para campos, como remetente, onde há um número finito de valores possíveis em seu conjunto de análise.
 
-- Palavra-chave: um cartão de condição de palavra-chave é uma instância específica do cartão de condição FREETEXT que você pode usar para pesquisar termos, ou usar o idioma de consulta do KQL como no. Veja mais detalhes abaixo.
+- Palavra-chave: uma condição de palavra-chave é uma instância específica da condição FREETEXT que você pode usar para pesquisar termos ou usar o idioma de consulta do KQL como no. Veja mais detalhes abaixo.
 
 ### <a name="query-language"></a>Linguagem de consulta
 
-Além de cartões de condição, você pode usar um idioma de consulta do tipo KQL no cartão de palavras-chave para criar sua consulta. A linguagem de consulta para consultas de conjunto de revisão oferece suporte a operadores booleanos padrão, como **e**, **ou**, e **não**, e **Near**. Também suporta um curinga de caractere único (?) e um curinga de vários caracteres (*).
+Além das condições, você pode usar um idioma de consulta semelhante a KQL na condição de palavras-chave para compilar sua consulta. A linguagem de consulta para consultas de conjunto de revisão oferece suporte a operadores booleanos padrão, como **e** , **ou** , e **não** , e **Near** . Também suporta um curinga de caractere único (?) e um curinga de vários caracteres (*).
 
 ## <a name="filters"></a>Filtros
 
