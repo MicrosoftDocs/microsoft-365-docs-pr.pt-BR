@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários remotos.
-ms.openlocfilehash: 7607f3945d2e3c4e057162296df94dce4c611dbe
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 6c6c30e320068a6e97cf5fd2cd81b4bfeff1c49e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681463"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845223"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários remotos
 
@@ -47,11 +47,11 @@ Aqui estão os recursos do Microsoft 365 que fornecem serviços de segurança e 
 
 Proteja seus aplicativos e dados com estes recursos de segurança do Microsoft 365.
 
-| Capcidade ou recurso | Descrição | Licenças |
+| Capcidade ou recurso | Descrição | Licenciamento |
 |:-------|:-----|:-------|
-| Proteção Avançada contra Ameaças do Office 365 (ATP) | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O ATP do Office coleta e analisa sinais de seus aplicativos para detecção, investigação e correção de riscos de segurança e salvaguarda a sua organização contra ameaças maliciosas, representadas por mensagens de email, links (URLs) e ferramentas de colaboração. | Microsoft 365 E3 ou E5 | 
+| Microsoft Defender para Office 365 | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O Microsoft Defender para Office 365 coleta e analisa sinais dos aplicativos para detecção, investigação e correção de riscos de segurança e protege a organização contra ameaças maliciosas representadas por mensagens de email, links (URLs) e ferramentas de colaboração. | Microsoft 365 E3 ou E5 | 
 | Proteção contra malware | O Windows Defender Antivirus e o Windows Device Guard fornecem proteção contra malware baseada em dispositivo. <br><br> O SharePoint online examina automaticamente os carregamentos de arquivos para malwares conhecidos. ‎<br><br> A proteção do Exchange Online (EOP) protege as caixas de correio na nuvem. | Microsoft 365 E3 ou E5 |
-| O Microsoft Defender ATP | Proteja os dispositivos da sua organização contra violações de dados e ameaças cibernéticas e detecte, investigue e responda a ameaças avançadas. | Microsoft 365 E5 |
+| Microsoft Defender para Ponto de Extremidade | Proteja os dispositivos da organização contra ameaças cibernéticas e violações de dados e detecte, investigue e responda a ameaças avançadas. | Microsoft 365 E5 |
 | Microsoft Cloud App Security | Proteja os serviços baseados em nuvem—tanto o Microsoft 365 quanto outros aplicativos SaaS — contra ataque. | Licença do Microsoft 365 E5 ou licença individual do Microsoft Cloud App Security |
 | Proteção de Identidade do Azure AD  | Automatize a detecção e correção de riscos baseados em identidade. <br><br>Crie políticas de acesso condicional com base em risco para exigir a autenticação multifator (MFA) para entradas arriscadas. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 |
 ||||

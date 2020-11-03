@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
+title: Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade da Microsoft 365 (visualização)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do ponto de extremidade da Microsoft 365 estende o monitoramento de atividades de arquivo e ações de proteção para os pontos de extremidade desse arquivo. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: d9260da3e007885821441c8217e01650823eb8b4
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: cbf4a53658885102226d2b874180f5cc5f264a91
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48768959"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841857"
 ---
-# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
+# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade da Microsoft 365 (visualização)
 
 Você pode usar a prevenção contra perda de dados (DLP) da Microsoft 365 para monitorar as ações que estão sendo executadas em itens que você concluiu a ser sensível e para ajudar a evitar o compartilhamento não intencional desses itens. Para mais informações sobre a DLP, confira [Visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md).
 
@@ -69,7 +69,7 @@ A integração e a remoção são manipuladas por meio de scripts que você baix
 
  Use os procedimentos no [Introdução ao Microsoft 365 Endpoint DLP](endpoint-dlp-getting-started.md) a dispositivos integrados.
 
-Caso tenha dispositivos integrados por meio [Proteção Avançada contra Ameaças do Microsoft Defender (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/), esses dispositivos serão mostrados automaticamente na lista de dispositivos.
+Se você tiver dispositivos integrados por meio do [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), esses dispositivos serão mostrados automaticamente na lista de dispositivos.
 
 ![lista de dispositivos gerenciados](../media/endpoint-dlp-learn-about-2-device-list.png)
 
@@ -142,5 +142,5 @@ Agora que você aprendeu sobre o Endpoint DLP, as próximas etapas são:
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
-- [Proteção Avançada contra Ameaças do Microsoft Defender (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Gerenciamento de risco interno](insider-risk-management.md)

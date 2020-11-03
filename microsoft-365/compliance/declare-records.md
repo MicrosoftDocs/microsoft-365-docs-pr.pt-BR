@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Declarar registros usando rótulos de retenção. '
-ms.openlocfilehash: 490f81ba9c1d2d291539107650ec3c3f5938eba8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 34b5272a8bed9be01c3965dae258c88facec0145
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198916"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830600"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Declarar registros usando rótulos de retenção
 
@@ -30,17 +30,14 @@ ms.locfileid: "48198916"
 
 Para declarar documentos e emails como [registros](records-management.md#records), use [rótulos de retenção](retention.md#retention-labels) que marquem o conteúdo como um **registro** ou um **registro regulatório**.
 
-> [!NOTE]
-> Os registros regulatórios estão no modo de visualização.
-
-Se você não tiver certeza se deseja usar um registro ou um registro normativo, confira [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked). Se precisar usar registros regulatórios, primeiro você deve executar um comando do Windows PowerShell, conforme descrito na próxima seção.
+Se você não tiver certeza se deseja usar um registro ou um registro normativo, consulte [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked). Se precisar usar registros regulatórios, primeiro você deve executar um comando do Windows PowerShell, conforme descrito na próxima seção.
 
 Em seguida, você pode publicar esses rótulos em uma política de rótulo de retenção para que os usuários e administradores possam aplicá-los ao conteúdo ou a rótulos que marcam itens como registros (mas não registros regulatórios), aplicam automaticamente esses rótulos ao conteúdo desejado para declarar um registro.
 
 ## <a name="how-to-display-the-option-to-mark-content-as-a-regulatory-record"></a>Como exibir a opção para marcar o conteúdo como um registro regulatório
 
 >[!NOTE] 
-> O procedimento a seguir é uma ação auditável, registrar em log ** Opção de registro regulatório habilitado para rótulos de retenção** na seção [Política de retenção e atividades de rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) do log de auditoria.
+> O procedimento a seguir é uma ação auditável, registrar em log **Opção de registro regulatório habilitado para rótulos de retenção** na seção [Política de retenção e atividades de rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) do log de auditoria.
 
 Por padrão, a opção de rótulo de retenção para marcar o conteúdo como um registro regulatório não é exibida no assistente de etiqueta de retenção. Para exibir essa opção, você deve primeiro executar um comando do Windows PowerShell:
 

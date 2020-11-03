@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b4767b9cc3d267020fee1c44876bf47442d0cea2
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 61744c9c9d8bd5a7bb94cf9ab3599be0c2889efc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415489"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843103"
 ---
 # <a name="european-union-model-clauses"></a>Cláusulas Modelo da União Europeia
 
@@ -51,7 +51,7 @@ O grupo determinou que a implementação das disposições nos contratos da Micr
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 - Azure DevOps Services
-- Proteção Avançada contra Ameaças do Windows Defender para as seguintes partes do serviço de nuvem: Detecção & resposta dos Pontos de Extremidade, Investigação & Correção Automática, Pontuação Segura.
+- Proteção Avançada contra Ameaças do Microsoft Defender para as seguintes partes do serviço de nuvem: Detecção e resposta dos Pontos de Extremidade, Investigação e Correção Automática, Classificação de Segurança.
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 

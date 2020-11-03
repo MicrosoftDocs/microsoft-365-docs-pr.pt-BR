@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a5da8e0168b58011a696f1f602d21e410e2a1eb6
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 504135d30cbb859f419307ba0641c721d171d747
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415592"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847787"
 ---
 # <a name="cloud-security-alliance-csa-star-certification"></a>Certificação STAR do Cloud Security Alliance (CSA)
 
@@ -47,8 +47,8 @@ Saiba como acelerar a implantação da Autoavaliação STAR do CSA com nosso Blu
 - Bot do Microsoft Healthcare
 - Intune
 - Área de Trabalho Gerenciada da Microsoft
-- Proteção avançada contra ameaças do Microsoft Defender
-- Mapa do serviço do OMS
+- Microsoft Defender para Ponto de Extremidade
+- Mapa de Serviço do OMS
 - Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Power BI: a parte do serviço de nuvem do Power BI oferecido como um serviço autônomo ou incluído em um plano ou pacote do Office 365
@@ -75,9 +75,9 @@ O Azure, o Microsoft Segurança dos aplicativos na nuvem, o Intune e o Power BI 
 
 **Quais níveis de garantia STAR do CSA os serviços de nuvem corporativos da Microsoft atingiram?**
 
-- **Nível 1**: **Autoavaliação STAR do CSA**: Azure, Dynamics 365 e Office 365. A [Autoavaliação](offering-csa-star-self-assessment.md) é uma oferta de cortesia dos provedores de serviços de nuvem para documentar seus controles de segurança para ajudar os clientes a avaliarem a segurança do serviço.
-- **Nível 2**: **Certificação STAR do CSA**: Azure, Segurança do aplicativo em nuvem da Microsoft, Intune e Power BI. A Certificação STAR se baseia em obter a certificação ISO/IEC 27001 e os critérios de reunião especificados no CCM. Ele é concedido depois de uma rigorosa avaliação de terceiros sobre os controles e práticas de segurança de um provedor de serviços de nuvem.
-- **Nível 2**: **Atestado STAR da CSA**: Azure e Intune. O CSA e os AICPA colaboraram para fornecer diretrizes para os CPAs usarem na realização de compromissos do SOC 2, usando critérios dos AICPA (Princípios do Serviço de Confiança, AT 101) e do CCM do CSA. O [Atestado STAR](offering-CSA-STAR-Attestation.md) se baseia nessas diretrizes e é concedido depois de rigorosas avaliações independentes de provedores em nuvem.
+- **Nível 1** : **Autoavaliação STAR do CSA** : Azure, Dynamics 365 e Office 365. A [Autoavaliação](offering-csa-star-self-assessment.md) é uma oferta de cortesia dos provedores de serviços de nuvem para documentar seus controles de segurança para ajudar os clientes a avaliarem a segurança do serviço.
+- **Nível 2** : **Certificação STAR do CSA** : Azure, Segurança do aplicativo em nuvem da Microsoft, Intune e Power BI. A Certificação STAR se baseia em obter a certificação ISO/IEC 27001 e os critérios de reunião especificados no CCM. Ele é concedido depois de uma rigorosa avaliação de terceiros sobre os controles e práticas de segurança de um provedor de serviços de nuvem.
+- **Nível 2** : **Atestado STAR da CSA** : Azure e Intune. O CSA e os AICPA colaboraram para fornecer diretrizes para os CPAs usarem na realização de compromissos do SOC 2, usando critérios dos AICPA (Princípios do Serviço de Confiança, AT 101) e do CCM do CSA. O [Atestado STAR](offering-CSA-STAR-Attestation.md) se baseia nessas diretrizes e é concedido depois de rigorosas avaliações independentes de provedores em nuvem.
 
 ## <a name="resources"></a>Recursos
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Este artigo fornece as diretrizes mais recentes para otimizar a conectividade de rede do Microsoft 365 com segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7602ee5ac7001b4d4d88232c9528f0bdc731e90b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8036a4759f959a075ad0398e823116491e128c0b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687016"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847007"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Princípios de conectividade de rede do Microsoft 365
 
@@ -67,7 +67,7 @@ O objetivo principal no design de rede deve ser minimizar a latência, reduzindo
   
 Identificar o tráfego de rede do Microsoft 365 é o primeiro passo para diferenciar esse tráfego do tráfego de rede genérico vinculado à Internet. A conectividade do Microsoft 365 pode ser otimizada implementando uma combinação de abordagens, como otimização de rota de rede, regras de firewall, configurações de proxy do navegador e bypass de dispositivos de inspeção de rede para certos pontos de extremidade.
   
-Diretrizes de otimização anterior do Microsoft 365 divididos em pontos de extremidade do Microsoft 365 em duas categorias, **Necessário** e **Opcional**. Como os pontos de extremidade foram adicionados para dar suporte a novos recursos e serviços do Microsoft 365, reorganizamos os pontos de extremidade do Microsoft 365 em três categorias: **Otimizar**, **Permitir** e **Padrão**. As diretrizes de cada categoria se aplicam a todos os pontos de extremidade da categoria, facilitando a compreensão e a implementação de otimizações.
+Diretrizes de otimização anterior do Microsoft 365 divididos em pontos de extremidade do Microsoft 365 em duas categorias, **Necessário** e **Opcional**. Como os pontos de extremidade foram adicionados para dar suporte a novos recursos e serviços do Microsoft 365, reorganizamos os pontos de extremidade do Microsoft 365 em três categorias: **Otimizar** , **Permitir** e **Padrão**. As diretrizes de cada categoria se aplicam a todos os pontos de extremidade da categoria, facilitando a compreensão e a implementação de otimizações.
   
 Para obter mais informações sobre as categorias e os métodos de otimização do ponto de extremidade do Microsoft 365, confira a seção [Novas categorias de ponto de extremidade do Office 365](microsoft-365-network-connectivity-principles.md#BKMK_Categories).
   
@@ -143,27 +143,27 @@ Os administradores do Microsoft 365 podem criar scripts PAC (Configuração Auto
 #### <a name="microsoft-365-security-features"></a>Recursos de segurança do Microsoft 365
 <a name="BKMK_WebSvc"> </a>
 
-A Microsoft é transparente sobre a segurança do datacenter, a segurança operacional e a redução de riscos em relação aos servidores da Microsoft 365 e aos pontos de extremidade de rede que eles representam. Os recursos de segurança internos do Microsoft 365 estão disponíveis para reduzir o risco de segurança da rede, como Prevenção Contra Perda de Dados, Antivírus, Autenticação Multifator, Proteção de Dados do Cliente, Proteção Avançada contra Ameaças, Inteligência Contra Ameaças do Microsoft 365, Classificação de Segurança do Microsoft 365, Proteção do Exchange Online e Segurança de Rede contra DDOS.
+A Microsoft é transparente sobre a segurança do datacenter, a segurança operacional e a redução de riscos em relação aos servidores da Microsoft 365 e aos pontos de extremidade de rede que eles representam. Os recursos de segurança integrados do Microsoft 365 estão disponíveis para reduzir o risco de segurança da rede, como Prevenção Contra Perda de Dados, Antivírus, Autenticação Multifator, Caixa de Bloqueio do Cliente, Defender para Office 365, Inteligência Contra Ameaças do Microsoft 365, Pontuação Segura do Microsoft 365, Proteção do Exchange Online e Segurança DDOS de Rede.
   
 Para obter mais informações sobre o datacenter da Microsoft e a segurança da Rede Global, confira [Central de Confiabilidade da Microsoft](https://www.microsoft.com/trustcenter/security).
   
 ## <a name="new-office-365-endpoint-categories"></a>Novas categorias de pontos de extremidade do Office 365
 <a name="BKMK_Categories"> </a>
 
-Os pontos de extremidade do Office 365 representam um conjunto variado de endereços de rede e sub-redes. Os pontos de extremidade podem ser URLs, endereços IP ou intervalos de IP, e alguns pontos de extremidade são listados com portas TCP/UDP específicas. As URLs podem ser FQDN, como *account.office.net*ou uma URL curinga como *\*.office365.com*.
+Os pontos de extremidade do Office 365 representam um conjunto variado de endereços de rede e sub-redes. Os pontos de extremidade podem ser URLs, endereços IP ou intervalos de IP, e alguns pontos de extremidade são listados com portas TCP/UDP específicas. As URLs podem ser FQDN, como *account.office.net* ou uma URL curinga como *\*.office365.com*.
   
 > [!NOTE]
 > Os locais dos pontos de extremidade do Office 365 dentro da rede não estão diretamente relacionados à localização dos dados do locatário do Microsoft 365. Por esse motivo, os clientes devem examinar o Microsoft 365 como um serviço distribuído e global e não devem tentar bloquear as conexões de rede para os pontos de extremidade do Office 365 com base nos critérios geográficos.
   
 Nas diretrizes anteriores para o gerenciamento de tráfego do Microsoft 365, os pontos de extremidade eram organizados em duas categorias, **Necessário** e **Opcional**. Os pontos de extremidade de cada categoria exigiam otimizações diferentes dependendo da criticalidade do serviço e muitos clientes enfrentaram desafios ao justificar a aplicação das mesmas otimizações de rede à lista completa de URLs e endereços IP do Office 365.
   
-No novo modelo, os pontos de extremidade são separados em três categorias, **Otimizar**, **Permitir**e **Padrão**, fornecendo uma tabela dinâmica baseada em prioridade sobre onde você deve focar os esforços de otimização de rede para obter os melhores aperfeiçoamentos de desempenho e retorno sobre o investimento. Os pontos de extremidade são consolidados nas categorias acima, com base na sensibilidade da experiência efetiva do usuário à qualidade da rede, volume e envelope de desempenho dos cenários e facilidade de implementação. As otimizações recomendadas podem ser aplicadas da mesma forma em todos os pontos de extremidade de uma determinada categoria.
+No novo modelo, os pontos de extremidade são separados em três categorias, **Otimizar** , **Permitir** e **Padrão** , fornecendo uma tabela dinâmica baseada em prioridade sobre onde você deve focar os esforços de otimização de rede para obter os melhores aperfeiçoamentos de desempenho e retorno sobre o investimento. Os pontos de extremidade são consolidados nas categorias acima, com base na sensibilidade da experiência efetiva do usuário à qualidade da rede, volume e envelope de desempenho dos cenários e facilidade de implementação. As otimizações recomendadas podem ser aplicadas da mesma forma em todos os pontos de extremidade de uma determinada categoria.
   
 - **Otimizar** os pontos de extremidades é necessário para a conectividade com todos os serviços do Microsoft 365 e representa mais de 75% da largura de banda, conexões e volume de dados do Office 365. Esses pontos de extremidade representam os cenários do Office 365 mais confidenciais para o desempenho, latência e disponibilidade da rede. Todos os pontos de extremidade estão hospedados em datacenters da Microsoft. A taxa de alteração para os pontos de extremidade nesta categoria deve ser muito menor do que para os pontos de extremidade nas outras duas categorias. Essa categoria inclui um pequeno conjunto (na ordem de aproximadamente 10) de URLs principais e um conjunto de sub-redes IP dedicadas às cargas de trabalho principais do Office 365, como o Exchange Online, o SharePoint Online, o Skype for Business Online e o Microsoft Teams.
 
     Uma lista condensada de pontos de extremidade críticos muito definidos deve ajudar você a planejar e implementar otimizações de rede de alto valor para esses destinos de maneira mais rápida e fácil.
 
-    Exemplos de *Otimizar*  pontos de extremidade incluem *https://outlook.office365.com*, *https://\<tenant\>.sharepoint.com* e *https://\<tenant\>-my.sharepoint.com*.
+    Exemplos de *Otimizar*  pontos de extremidade incluem *https://outlook.office365.com* , *https://\<tenant\>.sharepoint.com* e *https://\<tenant\>-my.sharepoint.com*.
 
     Os métodos de otimização incluem:
 
@@ -179,7 +179,7 @@ No novo modelo, os pontos de extremidade são separados em três categorias, **O
 
     Otimizações de rede para  *Permitir*  que os pontos de extremidade possam melhorar a experiência do usuário do Office 365, mas alguns clientes podem optar por escolhê-los de forma mais restrita para minimizar as alterações na rede.
 
-    Exemplos de pontos de extremidade *Permitir* incluem*https://\*. protection.outlook.com* e *https://accounts.accesscontrol.windows.net*.
+    Exemplos de pontos de extremidade *Permitir* incluem *https://\*. protection.outlook.com* e *https://accounts.accesscontrol.windows.net*.
 
     Os métodos de otimização incluem:
 

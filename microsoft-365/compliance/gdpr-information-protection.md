@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c9f0a97869f27cbcf5829a15f50bf2905472c28
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 547d79093b65fba37a020781fbfce938d122c943
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398480"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846373"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Proteção de informações para o RGPD com recursos do Microsoft 365
 
@@ -57,8 +57,8 @@ A Microsoft fornece uma configuração recomendada que você pode usar como pont
 A proteção contra ameaças está integrada a todos os serviços do Microsoft 365. Aqui estão alguns recursos para começar:
 
 - [Roteiro de segurança do Office 365: principais prioridades nos primeiros 30 dias, 90 dias e depois](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap). Esse roteiro contém recomendações para implementar os recursos. 
-- [Proteção contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Saiba mais sobre medidas de proteção que você pode tomar na central de segurança do Microsoft 365.
-- [Proteção contra Ameaças do Windows](https://docs.microsoft.com/windows/security/threat-protection/). Saiba mais sobre a Proteção contra Ameaças do Windows Defender e outros recursos no Windows 10.
+- [Proteção contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Saiba mais sobre medidas de proteção que você pode tomar na Centro de segurança do Microsoft 365.
+- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/). Saiba mais sobre o Microsoft Defender para Ponto de Extremidade e outras funcionalidades no Windows 10.
 
 ## <a name="learn-more"></a>Saiba mais
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com um nível de linha de base de proteção.
-ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 76b60a61812c4d30884825b41ee7220d6686b58b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398860"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845295"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Configurar equipes com proteção de linha de base
 
@@ -33,13 +33,13 @@ Neste artigo, veremos como implantar equipes com um nível de linha de base de p
 
 Como primeira etapa, recomendamos que você configure as políticas básicas de acesso a dispositivos e identidade. Para saber mais, confira [Recomendações de política para proteger conversas, grupos e arquivos no Teams](../security/office-365-security/teams-access-policies.md).
 
-Também recomendamos ativar os recursos básicos de Proteção Avançada contra Ameaças para proteção contra malware em documentos, anexos e links. Recomendamos ativar cada uma das opções na tabela a seguir.
+Também recomendamos ativar os recursos básicos do Defender para Office 365 para proteção contra malware em documentos, anexos e links. Recomendamos ativar cada uma das opções na tabela a seguir.
 
 |Opção|Informações|
 |:------|:-----------|
-|Anexos Seguros da ATP para SPO, OneDrive e Teams|[Anexos Seguros da Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Office 365 ATP para SharePoint, OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|Documentos Seguros da ATP|[Documentos Seguros na Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Links Seguros da ATP para o Teams|[Links seguros do Office 365 no Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Links seguros da Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|Anexos seguros para SPO, Microsoft OneDrive e Microsoft Teams|[Anexos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Defender para Office 365 - Microsoft Office SharePoint Online, Microsoft OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
+|Documentos Seguros|[Documentos Seguros no Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
+|Links Seguros para o Microsoft Teams|[Links seguros do Office 365 no Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Links Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
 
 ## <a name="teams-guest-sharing"></a>Compartilhamento de convidados no Teams
 
@@ -51,7 +51,7 @@ Para definir as configurações de acesso de convidado do Teams
 
 1. Entre no Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com).
 2. Na barra de navegação esquerda, clique em **Mostrar tudo**.
-3. Em **Centros de administração**, clique em **Teams**.
+3. Em **Centros de administração** , clique em **Teams**.
 4. No Centro de administração do Teams, na navegação à esquerda, expanda **Configurações para toda a organização** e clique em **Acesso de convidado**.
 5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
 6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
@@ -67,8 +67,8 @@ Para reduzir o risco de compartilhar acidentalmente arquivos ou pastas com pesso
 
 Para alterar o link de compartilhamento padrão
 1. Abra o [Centro de Administração do SharePoint](https://admin.microsoft.com/sharepoint).
-2. Em **Políticas**, clique em **Compartilhamento**.
-3. Em **Links de arquivos e pastas**, selecione **Somente as pessoas da sua organização**.
+2. Em **Políticas** , clique em **Compartilhamento**.
+3. Em **Links de arquivos e pastas** , selecione **Somente as pessoas da sua organização**.
 4. Clique em **Salvar**.
 
 Para obter a melhor experiência de compartilhamento de convidados, recomendamos também que você habilite a [Integração do SharePoint e do OneDrive com o B2B do Azure AD](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
@@ -87,8 +87,8 @@ Para atualizar as configurações de compartilhamento de site
 1. Na barra de ferramentas da equipe, clique em **Arquivos**.
 2. Clique em **Abrir no SharePoint**.
 3. Na barra de ferramentas do site do SharePoint, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
-4. No painel **Permissões do site**, em **Configurações de compartilhamento**, clique em **Alterar configurações de compartilhamento**.
-5. Em **Compartilhar permissões**, escolha **Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site** e, em seguida, clique em **Salvar**.
+4. No painel **Permissões do site** , em **Configurações de compartilhamento** , clique em **Alterar configurações de compartilhamento**.
+5. Em **Compartilhar permissões** , escolha **Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site** e, em seguida, clique em **Salvar**.
 
 ## <a name="additional-protections"></a>Proteções adicionais
 

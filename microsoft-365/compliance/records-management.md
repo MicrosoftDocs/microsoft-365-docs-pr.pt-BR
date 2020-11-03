@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: e6e72a14d0d3e22823c8341145f64721831586f9
-ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
+ms.openlocfilehash: 6648a3a671e40dd5218eba1a1e8bafe42120f0de
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48755560"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830522"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
@@ -64,7 +64,7 @@ Quando o conteúdo for declarado como um registro:
 
 - Você tem prova de disposição quando os itens são excluídos no final do período de retenção.
 
-Use os [rótulos de retenção](retention.md#retention-labels) para marcar o conteúdo como um **registro** ou um **registro regulatório** (atualmente na visualização). A diferença entre esses dois são explicadas na próxima seção. Você pode publicar esses rótulos para que os usuários e administradores possam aplicá-los manualmente ao conteúdo ou aplicar automaticamente esses rótulos ao conteúdo que você deseja marcar como um registro ou um registro regulatório.
+Use os [rótulos de retenção](retention.md#retention-labels) para marcar o conteúdo como um **registro** ou um **registro regulatório**. A diferença entre esses dois são explicadas na próxima seção. Você pode publicar esses rótulos para que os usuários e administradores possam aplicá-los manualmente ao conteúdo ou aplicar automaticamente esses rótulos ao conteúdo que você deseja marcar como um registro ou um registro regulatório.
 
 Usando rótulos de retenção para declarar registros, você pode implementar uma estratégia única e consistente para o gerenciamento de registros em seu ambiente Microsoft 365.
 

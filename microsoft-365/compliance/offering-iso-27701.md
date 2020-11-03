@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e156a8dc71dc9aca4a5d608b29307f4d36f0ec6b
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 697124400ab869825a0d7e46357566c82b1583b3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208133"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845039"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>PIMS (Sistema de Gerenciamento de Informações de Privacidade) do ISO/IEC 27701
 
@@ -33,9 +33,9 @@ O novo padrão internacional [ISO/IEC 27701 Sistema de Gerenciamento de Informa�
 
 Esperar que os fornecedores certifiquem-se em relação ao PIMS será eficaz para estabelecer práticas de privacidade responsáveis por fornecedores e parceiros, independentemente do tamanho da sua organização. O ISO/IEC 27701 aborda os três principais desafios de conformidade:
 
-- **Muitos requisitos regulamentares para manipular**: a reconciliação de vários requisitos regulamentares por meio do uso de um conjunto de controles operacionais universais permite uma implementação consistente e eficiente.
-- **Caro demais para auditar cada regulamentação**: auditores, tanto internos quanto de terceiros, podem avaliar a conformidade usando um conjunto de controle universal dentro de um único ciclo de auditoria.
-- **A promessa de conformidade sem evidência é potencialmente arriscada**: acordos comercias que envolvem a movimentação de informações pessoais podem garantir a certificação de conformidade.
+- **Muitos requisitos regulamentares para manipular** : a reconciliação de vários requisitos regulamentares por meio do uso de um conjunto de controles operacionais universais permite uma implementação consistente e eficiente.
+- **Caro demais para auditar cada regulamentação** : auditores, tanto internos quanto de terceiros, podem avaliar a conformidade usando um conjunto de controle universal dentro de um único ciclo de auditoria.
+- **A promessa de conformidade sem evidência é potencialmente arriscada** : acordos comercias que envolvem a movimentação de informações pessoais podem garantir a certificação de conformidade.
 
 ## <a name="too-many-regulatory-requirements-to-juggle"></a>Muitos requisitos regulamentares para manipular
 
@@ -83,8 +83,8 @@ Independentemente do tamanho da sua organização e se for uma controladora ou p
 - Power BI incorporado
 - Agentes virtuais do Power
 - Microsoft Stream
-- Especialistas em ameaças da Microsoft
-- Proteção avançada contra ameaças do Windows Defender
+- Especialistas em Ameaças da Microsoft
+- Microsoft Defender para Ponto de Extremidade
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
