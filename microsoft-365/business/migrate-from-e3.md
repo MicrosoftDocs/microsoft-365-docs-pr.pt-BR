@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business Premium do Office 365 E3.
-ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295281"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842151"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migrando do Office 365 E3 para a Microsoft 365 Business Premium 
 
@@ -51,7 +51,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 | StaffHub    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png) | 
 | Gerenciador de clientes do Outlook, MileIQ    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Proteção contra Ameaças**        | | | 
-| Office 365 plano de proteção avançada contra ameaças (ATP) 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não está incluído, mas pode ser adicionado em | 
+| Defender para Office 365 plano 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**        | | | 
 | Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
 | **Gerenciamento de dispositivos e aplicativos**        | | |
@@ -95,7 +95,7 @@ Se você atualizou todas as pessoas em sua organização para o Microsoft 365 Bu
 
 Você também pode concluir estas etapas na página dispositivos:
   
-1. No centro de administração, na navegação à esquerda, vá para **Devices** \> **políticas**de dispositivos.
+1. No centro de administração, na navegação à esquerda, vá para **Devices** \> **políticas** de dispositivos.
     
 2. Na página **políticas de dispositivo** , escolha **Adicionar**.
     
@@ -122,7 +122,7 @@ O Microsoft 365 Business Premium tem um limite de armazenamento de 50 GB, pois u
 
 ### <a name="threat-protection"></a>Proteção contra Ameaças
 
-Após a migração para o Microsoft 365 Business Premium, você tem o Office 365 ATP. Confira [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) para obter uma visão geral. Para configurar, consulte [Configurar links de segurança ATP](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [Configurar anexos de segurança ATP](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)e configurar o [anti-phishing da ATP](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
+Após a migração para o Microsoft 365 Business Premium, você tem o defender para Office 365. Consulte [Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) para obter uma visão geral. Para configurar, consulte [Configurar links seguros](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [Configurar anexos seguros](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)e configurar o anti-phishing [no defender para Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 

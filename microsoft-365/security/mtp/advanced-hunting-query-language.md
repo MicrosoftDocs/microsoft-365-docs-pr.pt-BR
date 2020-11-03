@@ -1,5 +1,5 @@
 ---
-title: Conheça a linguagem de consulta de busca avançada no Microsoft Threat Protection
+title: Saiba mais sobre o idioma de consulta de busca avançada no Microsoft 365 defender
 description: Crie sua primeira consulta de busca de ameaças e saiba mais sobre os operadores comuns e outros aspectos da linguagem de consulta de busca avançada
 keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, idioma, aprendizado, primeira consulta, telemetria, eventos, telemetria, detecções personalizadas, esquema, Kusto, operadores, tipos de dados, download do PowerShell, exemplo de consulta
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 09f0a5437c3ae3b54fa086d93e475e4881c2d4bf
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: bb3caff642e752cb6d3941b697820fbad69ae23c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431046"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841971"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
@@ -32,7 +32,7 @@ ms.locfileid: "48431046"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 A caça avançada baseia-se na [linguagem de consulta Kusto](https://docs.microsoft.com/azure/kusto/query/). Você pode usar os operadores e instruções do Kusto para construir consultas que localizem informações em um [esquema](advanced-hunting-schema-tables.md)especializado. Para entender melhor esses conceitos, execute a primeira consulta.
 
@@ -137,7 +137,7 @@ Você acabou de executar a primeira consulta e ter uma ideia geral de seus compo
 | `makeset` |  Retornar uma matriz dinâmica (JSON) do conjunto de valores distintos que Expr assume no grupo. |
 | `find` | Localizar linhas que correspondam a um predicado em um conjunto de tabelas. |
 
-Para ver um exemplo instantâneo desses operadores, execute-os na seção **começar**, na caça avançada.
+Para ver um exemplo instantâneo desses operadores, execute-os na seção **começar** , na caça avançada.
 
 ## <a name="understand-data-types"></a>Entender tipos de dados
 
@@ -155,9 +155,9 @@ Para saber mais sobre esses tipos de dados, [Leia sobre os tipos de dados escala
 
 ## <a name="get-help-as-you-write-queries"></a>Obter ajuda durante a criação de consultas
 Aproveite as funcionalidades a seguir para escrever rapidamente as consultas:
-- **Sugestão**automática — à medida que você escreve consultas, a busca avançada fornece sugestões do IntelliSense. 
-- **Árvore de esquema**— uma representação de esquema que inclui a lista de tabelas e suas colunas é fornecida ao lado da área de trabalho. Para saber mais, passe o mouse sobre um item. Clique duas vezes em um item para inseri-lo no editor de consultas.
-- **[Referência de esquema](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**: referência no portal com descrições de tabela e coluna, bem como tipos de eventos suportados ( `ActionType` valores) e consultas de exemplo
+- **Sugestão** automática — à medida que você escreve consultas, a busca avançada fornece sugestões do IntelliSense. 
+- **Árvore de esquema** — uma representação de esquema que inclui a lista de tabelas e suas colunas é fornecida ao lado da área de trabalho. Para saber mais, passe o mouse sobre um item. Clique duas vezes em um item para inseri-lo no editor de consultas.
+- **[Referência de esquema](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** : referência no portal com descrições de tabela e coluna, bem como tipos de eventos suportados ( `ActionType` valores) e consultas de exemplo
 
 ## <a name="work-with-multiple-queries-in-the-editor"></a>Trabalhar com várias consultas no editor
 Você pode usar o editor de consultas para experimentar várias consultas. Para usar várias consultas:

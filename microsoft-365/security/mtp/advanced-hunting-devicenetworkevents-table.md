@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6d962d558246c60d1910a8c574bbb52bdd10b926
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: a1a1dd5bbf39a3d95a01cc27169cf3987f5c788e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429930"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842661"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429930"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 
 

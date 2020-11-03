@@ -1,6 +1,6 @@
 ---
-title: Lidar com falsos positivos ou falsos negativos no ar no Microsoft Threat Protection
-description: Algo estava perdido ou foi detectado incorretamente pelo ar na proteção contra ameaças da Microsoft? Saiba como enviar falsos positivos ou falsos negativos para a Microsoft para análise.
+title: Lidar com falsos positivos ou falsos negativos no ar no Microsoft 365 defender
+description: Algo estava perdido ou erroneamente detectado pelo ar no Microsoft 365 defender? Saiba como enviar falsos positivos ou falsos negativos para a Microsoft para análise.
 keywords: automatizado, investigação, alerta, gatilho, ação, correção, falso positivo, falso negativo
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ecfd1bb9e5ff548c08aea322d12d626fa7fb6120
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 92ad4a96665a5355bce7e3546f8c52779f770927
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429630"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843727"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Lidar com falsos positivos/negativos em recursos de investigação e resposta automatizados
 
@@ -34,9 +34,9 @@ ms.locfileid: "48429630"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-Os [recursos de investigação e resposta automatizados](mtp-autoir.md) na proteção contra ameaças da Microsoft perdem ou detectam incorretamente algo? Há etapas que você pode executar para corrigi-lo. Você pode:
+Os [recursos de investigação e de resposta automatizados](mtp-autoir.md) no Microsoft 365 defender perdem ou detectam incorretamente algo? Há etapas que você pode executar para corrigi-lo. Você pode:
 
 - [Relatar um falso positivo/negativo para a Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);
 
@@ -48,17 +48,17 @@ Use este artigo como uma guia.
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Relatar um falso positivo/negativo para a Microsoft para análise
 
-|Item perdido ou detectado incorretamente |Fornecer manutenção  |O que fazer  |
+|Item perdido ou detectado incorretamente |Serviço  |O que fazer  |
 |---------|---------|---------|
-|-Mensagem de email <br/>-Anexo de email <br/>-URL em uma mensagem de email<br/>-URL em um arquivo do Office      |[Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft para verificação](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
-|Arquivo ou aplicativo em um dispositivo    |[Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)         |[Enviar um arquivo para a Microsoft para análise de malware](https://www.microsoft.com/wdsi/filesubmission)         |
+|-Mensagem de email <br/>-Anexo de email <br/>-URL em uma mensagem de email<br/>-URL em um arquivo do Office      |[Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft para verificação](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
+|Arquivo ou aplicativo em um dispositivo    |[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection)         |[Enviar um arquivo para a Microsoft para análise de malware](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Ajustar um alerta para impedir que falsos positivos sejam recorrentes
 
-|Cenário |Fornecer manutenção |O que fazer |
+|Cenário |Serviço |O que fazer |
 |--------|--------|--------|
-|-Um alerta é disparado por uso legítimo <br/>-Um alerta é impreciso    |[Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
-|Um arquivo, um endereço IP, uma URL ou um domínio é tratado como um malware em um dispositivo, mesmo que seja seguro|[Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) |[Criar um indicador personalizado com uma ação "permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
+|-Um alerta é disparado por uso legítimo <br/>-Um alerta é impreciso    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
+|Um arquivo, um endereço IP, uma URL ou um domínio é tratado como um malware em um dispositivo, mesmo que seja seguro|[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection) |[Criar um indicador personalizado com uma ação "permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Desfazer uma ação de correção executada em um dispositivo
@@ -80,11 +80,11 @@ Se uma ação de correção foi realizada em um dispositivo (como um dispositivo
 
 5. No modo de exibição detalhes da investigação, selecione a guia **ações** .
 
-6. Selecione um item com status **concluído**e procure um link, como **aprovado**, na coluna **decisões** . Isso abre um submenu com mais detalhes sobre a ação.
+6. Selecione um item com status **concluído** e procure um link, como **aprovado** , na coluna **decisões** . Isso abre um submenu com mais detalhes sobre a ação.
 
 7. Para desfazer a ação, selecione **excluir correção**.
 
 ## <a name="see-also"></a>Confira também
 
 - [Exibir os detalhes e resultados de uma investigação automatizada](mtp-autoir-results.md)
-- [Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft](advanced-hunting-overview.md)
+- [Busca pró-ativa de ameaças com busca avançada no Microsoft 365 defender](advanced-hunting-overview.md)

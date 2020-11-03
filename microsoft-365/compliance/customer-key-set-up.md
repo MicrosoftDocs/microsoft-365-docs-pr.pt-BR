@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: be7aacf180cf8ffc59a490279083aeb2aa6a0567
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: 69e12d46ae4106a399a8eeff49ebbe0f2a3055e2
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48768969"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841282"
 ---
 # <a name="set-up-customer-key"></a>Configurar a chave do cliente
 
@@ -27,13 +27,13 @@ Com a chave do cliente, você controla as chaves de criptografia da sua organiza
 Você deve configurar o Azure antes de poder usar a chave do cliente para o Office 365. Este tópico descreve as etapas que você precisa seguir para criar e configurar os recursos do Azure necessários e, em seguida, fornece as etapas para configurar a chave do cliente no Office 365. Depois de concluir a instalação do Azure, determine a política e, portanto, quais teclas serão atribuídas a caixas de correio e arquivos em sua organização. Caixas de correio e arquivos para os quais você não atribui uma política usarão políticas de criptografia controladas e gerenciadas pela Microsoft. Para obter mais informações sobre a chave do cliente ou para uma visão geral, consulte [Service Encryption with Customer Key in Office 365](customer-key-overview.md).
   
 > [!IMPORTANT]
-> É altamente recomendável seguir as práticas recomendadas neste tópico. Eles são chamados de **Tip** e **importante** . A chave do cliente dá controle sobre as chaves de criptografia raiz cujo escopo pode ser tão grande quanto sua organização inteira. Isso significa que os erros feitos com essas chaves podem ter um impacto amplo e podem resultar em interrupções de serviço ou perda irrevogável dos dados.
+> É altamente recomendável seguir as práticas recomendadas neste tópico. Eles são chamados de **Tip** e **importante**. A chave do cliente dá controle sobre as chaves de criptografia raiz cujo escopo pode ser tão grande quanto sua organização inteira. Isso significa que os erros feitos com essas chaves podem ter um impacto amplo e podem resultar em interrupções de serviço ou perda irrevogável dos dados.
   
 ## <a name="before-you-set-up-customer-key"></a>Antes de configurar a chave do cliente
 
-Antes de começar, verifique se você tem o licenciamento apropriado para sua organização e se sua conta está faturada e não é paga por um cartão de crédito. A chave do cliente no Microsoft 365 é oferecida no Office 365 E5 ou no SKU de conformidade avançada. Para entender os conceitos e os procedimentos deste tópico, revise a documentação do [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Além disso, familiarize-se com os termos usados no Azure, por exemplo, [locatário](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)).
+Antes de começar, verifique se você tem o licenciamento apropriado para sua organização. A partir de 1º de abril de 2020, a chave de cliente no Office 365 é oferecida no Office 365 e5, M365 e5, M365 E5 conformidade e M365 E5 proteção de informações & SKUs de governança. Office 365 a SKU de conformidade avançada não está mais disponível para novas licenças do aquisição. As licenças de conformidade avançada existentes do Office 365 continuarão a ser suportadas.
 
-Para entender os conceitos e os procedimentos deste tópico, revise a documentação do [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Além disso, familiarize-se com os termos usados no Azure, por exemplo, o [locatário do Azure ad](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant).
+Antes de começar, verifique se você tem o licenciamento apropriado para sua organização e se sua conta está faturada e não é paga por um cartão de crédito. Para entender os conceitos e os procedimentos deste tópico, revise a documentação do [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Além disso, familiarize-se com os termos usados no Azure, por exemplo, o [locatário do Azure ad](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant).
 
 O FastTrack é usado apenas para coletar as informações de locatário e configuração de serviço necessárias usadas para registrar-se na chave do cliente. As ofertas de chave do cliente são publicadas via FastTrack para que você e nossos parceiros enviem as informações necessárias usando o mesmo método. O FastTrack também facilita o arquivamento dos dados que você fornece na oferta.
   
@@ -55,7 +55,7 @@ Você concluirá a maioria dessas tarefas, conectando-se remotamente ao Azure Po
 
 - [Enviar uma solicitação para ativar a chave do cliente para o Office 365](#submit-a-request-to-activate-customer-key-for-office-365)
 
-Depois de criar as duas novas assinaturas do Azure, você precisará enviar a solicitação de oferta de chave do cliente apropriada, concluindo um formulário da Web hospedado no portal Microsoft FastTrack. **A equipe do FastTrack não fornece assistência com a chave do cliente. O Office simplesmente usa o portal do FastTrack para permitir que você envie o formulário e ajude-nos a acompanhar as ofertas relevantes para a chave do cliente** .
+Depois de criar as duas novas assinaturas do Azure, você precisará enviar a solicitação de oferta de chave do cliente apropriada, concluindo um formulário da Web hospedado no portal Microsoft FastTrack. **A equipe do FastTrack não fornece assistência com a chave do cliente. O Office simplesmente usa o portal do FastTrack para permitir que você envie o formulário e ajude-nos a acompanhar as ofertas relevantes para a chave do cliente**.
 
 - [Criar um cofre de chaves Premium do Azure em cada assinatura](#create-a-premium-azure-key-vault-in-each-subscription)
 
@@ -110,7 +110,7 @@ Para enviar uma oferta para ativar a chave do cliente, conclua estas etapas:
   
 1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, faça logon no [portal do Microsoft FastTrack](https://fasttrack.microsoft.com/).
 
-2. Quando estiver conectado, navegue até o **painel** .
+2. Quando estiver conectado, navegue até o **painel**.
 
 3. Escolha **implantar** na barra de navegação **ou** selecione **Exibir todos os recursos de implantação** no cartão de informações **implantar** e revise a lista de ofertas atuais.
 
@@ -120,9 +120,9 @@ Para enviar uma oferta para ativar a chave do cliente, conclua estas etapas:
 
    - **Arquivos do SharePoint Online, do onedrive e do teams:** Escolha a **ajuda da chave de criptografia solicitar para o SharePoint e o onedrive** .
 
-5. Após revisar os detalhes da oferta, escolha **continuar para a etapa 2** .
+5. Após revisar os detalhes da oferta, escolha **continuar para a etapa 2**.
 
-6. Preencha todos os detalhes aplicáveis e as informações solicitadas sobre o formulário de oferta. Preste bastante atenção às suas seleções para quais responsáveis da sua organização você deseja autorizar a aprovar a destruição permanente e irreversível de chaves e dados de criptografia. Depois de concluir o formulário, escolha **Enviar** .
+6. Preencha todos os detalhes aplicáveis e as informações solicitadas sobre o formulário de oferta. Preste bastante atenção às suas seleções para quais responsáveis da sua organização você deseja autorizar a aprovar a destruição permanente e irreversível de chaves e dados de criptografia. Depois de concluir o formulário, escolha **Enviar**.
 
 ### <a name="register-azure-subscriptions-to-use-a-mandatory-retention-period"></a>Registrar assinaturas do Azure para usar um período de retenção obrigatório
 
@@ -175,7 +175,7 @@ Para cada serviço do Microsoft 365 com o qual você usará a chave do cliente, 
   
 Use uma Convenção de nomenclatura para os principais cofres que reflitam o uso pretendido da política de criptografia de dados com a qual você irá associar os cofres. Consulte a seção práticas recomendadas abaixo para obter recomendações de Convenção de nomenclatura.
   
-Crie um conjunto separado e emparelhado de cofres para cada política de criptografia de dados. Para o Exchange Online, o escopo de uma política de criptografia de dados é escolhido quando você atribui a política à caixa de correio. Uma caixa de correio pode ter apenas uma política atribuída, e você pode criar até 50 políticas. Para o SharePoint Online, o escopo de uma política é todos os dados dentro de uma organização em um local geográfico ou _geo_ .
+Crie um conjunto separado e emparelhado de cofres para cada política de criptografia de dados. Para o Exchange Online, o escopo de uma política de criptografia de dados é escolhido quando você atribui a política à caixa de correio. Uma caixa de correio pode ter apenas uma política atribuída, e você pode criar até 50 políticas. Para o SharePoint Online, o escopo de uma política é todos os dados dentro de uma organização em um local geográfico ou _geo_.
 
 A criação de compartimentos de chave também requer a criação de grupos de recursos do Azure, pois os principais cofres precisam de capacidade de armazenamento (embora muito pequeno) e do registro em log de compartimento de chaves, se habilitado, também gera dados armazenados. Como prática recomendada, a Microsoft recomenda o uso de administradores separados para gerenciar cada grupo de recursos, com a administração centralizada com o conjunto de administradores que gerenciará todos os recursos de chave do cliente relacionados.
   
@@ -279,7 +279,7 @@ Onde:
   > [!TIP]
   > Chaves de nome usando uma Convenção de nomenclatura semelhante, conforme descrito acima para os principais cofres. Dessa forma, em ferramentas que mostram apenas o nome da chave, a cadeia de caracteres é autodescritivo.
   
-- Se você pretende proteger a chave com um HSM, certifique-se de especificar o **HSM** como o valor do parâmetro _Destination_ , caso contrário, especifique **software** .
+- Se você pretende proteger a chave com um HSM, certifique-se de especificar o **HSM** como o valor do parâmetro _Destination_ , caso contrário, especifique **software**.
 
 Por exemplo,
   

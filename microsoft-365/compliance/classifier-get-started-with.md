@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador da Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo fornecendo amostras de ti para ver. Este artigo mostra como criar e treinar um classificador personalizado e como retreiná-los para aumentar a precisão.
-ms.openlocfilehash: 4c9f5dae702c71fe7f2da1ccbc0364e7bdd15b0e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 4475456e7116acbc705a3121079391a571fcca8a
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636980"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841228"
 ---
 # <a name="get-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -44,7 +44,7 @@ Os classificadores são um recurso de conformidade do Microsoft 365 E5 ou e5. Vo
 Para acessar classificadores na interface do usuário: 
 
 - o administrador global precisa aceitar o locatário para criar classificadores personalizados.
-- a função de administrador de conformidade ou o administrador de dados de conformidade é necessário para treinar um classificador.
+- a função de administrador de conformidade, a função de investigação de dados ou o administrador de dados de conformidade é necessário para treinar um classificador.
 
 Você precisará de contas com essas permissões para usar classificadores nestes cenários:
 

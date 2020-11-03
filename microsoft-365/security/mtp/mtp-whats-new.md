@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 82b79389420520c637b0b526c178e515c6c54cd1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1765210cc9d67d66c7a1eb830b4dd79f9b2f1898
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201010"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843595"
 ---
 # <a name="whats-new-in-microsoft-365-security"></a>O que há de novo no Microsoft 365 Security
 
@@ -32,7 +32,7 @@ ms.locfileid: "48201010"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 
 

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business Premium para ajudar a proteger seus dados em PCs, telefones e tablets.
-ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 587d80c27f867a387c901d23f4ec05f3c5905bf6
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357309"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843479"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Recursos de segurança e conformidade do Microsoft 365 Business Premium
 
@@ -63,9 +63,9 @@ Você pode gerenciar muitos dos recursos de segurança do Microsoft 365 Business
 
 Recursos avançados no Microsoft 365 Business Premium estão disponíveis para ajudá-lo a proteger sua empresa contra ameaças e proteger as informações confidenciais.
   
-- **[Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
+- **[Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
-    A proteção avançada contra ameaças (ATP) ajuda a proteger sua empresa contra ataques sofisticados de phishing e ransomware, projetados para comprometer informações de funcionários ou clientes. Os recursos incluem:
+    O Microsoft defender para Office 365 ajuda a proteger sua empresa contra ataques sofisticados de phishing e ransomware, projetado para comprometer informações de funcionários ou clientes. Os recursos incluem:
     
   - Análise de conexão sofisticada e análise com alimentação de AI para detectar e descartar mensagens perigosas.
     
@@ -125,4 +125,4 @@ Sim, esses recursos estão disponíveis em todos os mercados onde o Microsoft 36
     
     ![No painel de navegação esquerdo do centro de administração do Microsoft 365, escolha centros de administração.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Escolha ** &amp; conformidade de segurança** para acessar o &amp; centro de conformidade de segurança.
+3. Escolha **&amp; conformidade de segurança** para acessar o &amp; centro de conformidade de segurança.

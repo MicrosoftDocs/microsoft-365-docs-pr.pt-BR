@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 Business Premium, um serviço de assinatura que inclui os aplicativos de produtividade do Office e a proteção avançada para a sua empresa contra ameaças cibernéticas.
-ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138219"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842171"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Visão geral do Microsoft 365 Business Premium
 
@@ -71,11 +71,11 @@ O Microsoft 365 Business Premium ajuda a proteger seus dados em cada uma dessas 
 
 O Microsoft 365 Business Premium ajuda na **defesa contra ameaças** ao:
 
-- Examinar links em emails e documentos em tempo real para bloquear sites inseguros (links de segurança ATP).
+- Examinar links em emails e documentos em tempo real para bloquear sites não seguros (links seguros).
 
-- Executar uma análise avançada de anexos de email em um ambiente de área restrita para detectar malwares recentemente desenvolvidos (anexos perigosos). 
+- Executar uma análise avançada de anexos de email em um ambiente de área restrita para detectar malware recentemente desenvolvidas (anexos seguros). 
 
-- Habilitar políticas anti-phishing que usam modelos de aprendizagem de máquina e detecção de representação para oferecer proteção contra ataques avançados (inteligência anti-reflexo do ATP). 
+- Habilitar políticas anti-phishing que usam modelos de aprendizado de máquina e detecção de representação para oferecer proteção contra ataques avançados (anti-phishing no defender para Office 365 Intelligence). 
 
 - Configurar políticas avançadas que desabilitam o acesso de locais não confiáveis ou ignoram a autenticação multifatorial de locais confiáveis, como sua rede do Office (Azure MFA, incluindo IPs confiáveis e acesso condicional). 
 

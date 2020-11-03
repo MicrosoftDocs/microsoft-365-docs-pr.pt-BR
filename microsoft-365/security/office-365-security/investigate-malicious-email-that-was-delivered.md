@@ -19,19 +19,19 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 120cc32a2736858a0f0d99ab37f1d51c70a6071c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7677c1741a173c0528504f0fad67439608845f64
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201908"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842935"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigue emails mal-intencionados que foram entregues no Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-A [proteção avançada contra ameaças do Office 365](office-365-atp.md) permite investigar as atividades que colocam as pessoas da sua organização em risco e realizar ações para proteger sua organização. Por exemplo, se você fizer parte da equipe de segurança da sua organização, poderá encontrar e investigar mensagens de email suspeitas que foram entregues. Você pode fazer isso usando o [Explorador de ameaças (ou detecções em tempo real)](threat-explorer.md).
+[O Microsoft defender para Office 365](office-365-atp.md) permite investigar as atividades que colocam as pessoas de sua organização em risco e realizar ações para proteger sua organização. Por exemplo, se você fizer parte da equipe de segurança da sua organização, poderá encontrar e investigar mensagens de email suspeitas que foram entregues. Você pode fazer isso usando o [Explorador de ameaças (ou detecções em tempo real)](threat-explorer.md).
 
 > [!NOTE]
 > Vá para o artigo de correção [aqui](remediate-malicious-email-delivered-office-365.md).
@@ -40,7 +40,7 @@ A [proteção avançada contra ameaças do Office 365](office-365-atp.md) permit
 
 Verifique se os seguintes requisitos são atendidos:
 
-- Sua organização tem a [proteção avançada contra ameaças do Office 365](office-365-atp.md) e as [licenças são atribuídas aos usuários](../../admin/manage/assign-licenses-to-users.md).
+- Sua organização tem o [Microsoft defender para Office 365](office-365-atp.md) e as [licenças são atribuídas aos usuários](../../admin/manage/assign-licenses-to-users.md).
 
 - o [log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md) está ativado para sua organização.
 
@@ -56,7 +56,7 @@ Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baix
 
 |Atividade|Grupo de função|Função prévia necessária?|
 |---|---|---|
-|Usar o explorador de ameaças (e detecções em tempo real) para analisar ameaças |Administrador Global <br> Administrador de Segurança <br> Leitor de segurança|Não|
+|Usar o explorador de ameaças (e detecções em tempo real) para analisar ameaças |Administrador Global <br> Administrador de Segurança <br> Leitor de segurança|Não|
 |Usar o explorador de ameaças (e detecções em tempo real) para exibir cabeçalhos para mensagens de email, bem como para visualizar e baixar mensagens de email em quarentena|Administrador Global <br> Administrador de Segurança <br>Leitor de segurança|Não|
 |Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio|Administrador Global <br>Administrador de Segurança <br> Leitor de segurança <br> Visualização|Sim|
 |
@@ -71,7 +71,7 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
 > [!NOTE]
 > Pesquisas padrão no Explorer não incluem atualmente itens zapped.  Isso se aplica a todos os modos de exibição, por exemplo, malware ou phishing. Para incluir itens do zapped, você precisa adicionar uma "ação de entrega" definida para incluir "removido por ZAP". Se você incluir todas as opções, verá todos os resultados da ação de entrega, incluindo os itens do zapped.
 
-1. **Navegue até Gerenciador de ameaças**: Vá para [https://protection.office.com](https://protection.office.com) e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro de conformidade de segurança &amp; .
+1. **Navegue até Gerenciador de ameaças** : Vá para [https://protection.office.com](https://protection.office.com) e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro de conformidade de segurança &amp; .
 
 2. No início rápido da navegação à esquerda, escolha Gerenciador de **Gerenciamento de ameaças** \> **Explorer**.
 
@@ -79,17 +79,17 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
 
     Você pode observar a nova coluna **especial de ações** . Esse recurso é destinado a informar aos administradores o resultado do processamento de um email. A coluna **especial ações** pode ser acessada no mesmo lugar que a **ação de entrega** e o local de **entrega**. Ações especiais podem ser atualizadas no final da linha do tempo de email do explorador de ameaças, que é um novo recurso destinado a tornar a experiência de busca melhor para administradores.
 
-3. **Modos de exibição no explorador de ameaças**: no menu **Exibir** , escolha **todos os emails**.
+3. **Modos de exibição no explorador de ameaças** : no menu **Exibir** , escolha **todos os emails**.
 
     ![Menu Exibir do explorador de ameaças e email-malware, Phish, envios e todas as opções de email, também malware de conteúdo.](../../media/tp-InvestigateMalEmail-viewmenu.png)
 
     No momento, o modo de exibição de *malware* é o padrão e captura emails onde uma ameaça de malware é detectada. O modo de *Phish* funciona da mesma maneira, para phishing.
 
-    No entanto, *todas as* exibições de email listam todos os emails recebidos pela organização, se as ameaças foram detectadas ou não. Como você pode imaginar, esta é uma grande quantidade de dados, que é o motivo pelo qual este modo de exibição mostra um espaço reservado que faz com que um filtro seja aplicado. (Este modo de exibição está disponível somente para clientes ATP P2.)
+    No entanto, *todas as* exibições de email listam todos os emails recebidos pela organização, se as ameaças foram detectadas ou não. Como você pode imaginar, esta é uma grande quantidade de dados, que é o motivo pelo qual este modo de exibição mostra um espaço reservado que faz com que um filtro seja aplicado. (Este modo de exibição está disponível somente para clientes do defender for Office 365 P2.)
 
     O *modo de exibição envios* mostra todos os emails enviados por administradores ou usuários que foram relatados à Microsoft.
 
-4. **Pesquisar e filtrar no explorador de ameaças**: os filtros aparecem na parte superior da página na barra de pesquisa para ajudar os administradores na sua investigação. Observe que vários filtros podem ser aplicados ao mesmo tempo e vários valores separados por vírgula adicionados a um filtro para restringir a pesquisa. Lembre-se:
+4. **Pesquisar e filtrar no explorador de ameaças** : os filtros aparecem na parte superior da página na barra de pesquisa para ajudar os administradores na sua investigação. Observe que vários filtros podem ser aplicados ao mesmo tempo e vários valores separados por vírgula adicionados a um filtro para restringir a pesquisa. Lembre-se:
 
     - Os filtros correspondem exatamente à maioria das condições de filtro.
     - O filtro de assunto usa uma consulta contém.
@@ -97,9 +97,9 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
     - O domínio da URL, o caminho da URL e o domínio da URL e os filtros de caminho não exigem um protocolo para filtrar.
     - Você deve clicar no ícone atualizar sempre que alterar os valores de filtro para obter resultados relevantes.
 
-5. **Filtros avançados**: com esses filtros, você pode criar consultas complexas e filtrar seu conjunto de dados. Clicar em *filtros avançados* abre um submenu com opções.
+5. **Filtros avançados** : com esses filtros, você pode criar consultas complexas e filtrar seu conjunto de dados. Clicar em *filtros avançados* abre um submenu com opções.
 
-   A filtragem avançada é uma ótima adição aos recursos de pesquisa. Um Boolean **não** filtrado foi introduzido no *destinatário*, *remetente* e *domínio do remetente* para permitir que os administradores investiguem excluindo valores. Essa opção aparece em o parâmetro Selection não *contém nenhum de*. **Não** permitirá que os administradores excluam as caixas de correio de alerta, as caixas de correio de resposta padrão de suas investigações e sejam úteis para casos em que os administradores pesquisam um assunto específico (Subject = "attention"), onde o destinatário pode ser definido como *nenhum de defaultmail \@ contoso.com*. Este é um valor exato de pesquisa.
+   A filtragem avançada é uma ótima adição aos recursos de pesquisa. Um Boolean **não** filtrado foi introduzido no *destinatário* , *remetente* e *domínio do remetente* para permitir que os administradores investiguem excluindo valores. Essa opção aparece em o parâmetro Selection não *contém nenhum de*. **Não** permitirá que os administradores excluam as caixas de correio de alerta, as caixas de correio de resposta padrão de suas investigações e sejam úteis para casos em que os administradores pesquisam um assunto específico (Subject = "attention"), onde o destinatário pode ser definido como *nenhum de defaultmail \@ contoso.com*. Este é um valor exato de pesquisa.
 
    ![Os destinatários-' contém nenhum de ' filtro avançado '.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
@@ -107,7 +107,7 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
 
    ![A opção filtragem por horas para reduzir a quantidade de dados que as equipes de segurança precisam processar e cuja duração mais curta é de 30 minutos.](../../media/tp-InvestigateMalEmail-FilterbyHours.png)
 
-6. **Campos no Gerenciador de ameaças**: o explorador de ameaças expõe muito mais informações de email relacionadas à segurança, como *ação de entrega*, *local de entrega*, *ação especial*, *direcionalização*, *substituições*e *ameaça de URL*. Também permite que a equipe de segurança da sua organização investigue com maior certeza.
+6. **Campos no Gerenciador de ameaças** : o explorador de ameaças expõe muito mais informações de email relacionadas à segurança, como *ação de entrega* , *local de entrega* , *ação especial* , *direcionalização* , *substituições* e *ameaça de URL*. Também permite que a equipe de segurança da sua organização investigue com maior certeza.
 
     A *ação de entrega* é a ação realizada em um email devido a políticas ou detecções existentes. Veja a seguir as possíveis ações que um email pode executar:
 
@@ -116,7 +116,7 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
     - **Bloqueado** – quaisquer mensagens de email em quarentena, que falharam ou foram descartadas. (Isso é completamente inacessível pelo usuário.)
     - **Substituído** – qualquer email onde anexos mal-intencionados são substituídos por arquivos. txt que indicam que o anexo foi mal-intencionado
 
-    **Local de entrega**: o filtro de local de entrega está disponível para ajudar os administradores a entender onde o email mal-intencionado suspeito terminou e quais ações foram tomadas nele. Os dados resultantes podem ser exportados para a planilha. Os locais de entrega possíveis são:
+    **Local de entrega** : o filtro de local de entrega está disponível para ajudar os administradores a entender onde o email mal-intencionado suspeito terminou e quais ações foram tomadas nele. Os dados resultantes podem ser exportados para a planilha. Os locais de entrega possíveis são:
 
     - **Caixa de entrada ou pasta** – o email está na caixa de entrada ou em uma pasta específica, de acordo com suas regras de email.
     - **Local ou externo** – a caixa de correio não existe na nuvem, mas está no local.
@@ -126,9 +126,9 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
     - **Falha** – o email não pôde chegar à caixa de correio.
     - **Descartado** – o email foi perdido em algum lugar no fluxo de emails.
 
-    **Direcionalidade**: essa opção permite que sua equipe de operações de segurança filtre pelo ' Direction ' que um email provém ou esteja em andamento. Os valores de direcionalização são de *entrada*, de *saída*e de *intra-org* (correspondentes a emails que chegam à sua organização, de fora, enviados à sua organização ou enviados internamente para sua organização, respectivamente). Essas informações podem ajudar as equipes de operações de segurança a falsificação e representação, porque uma incompatibilidade entre o valor de direcionalidade (ex. *Entrada*) e o domínio do remetente (que *parece* ser um domínio interno) será evidente! O valor de direcionalidade é separado e pode ser diferente do rastreamento de mensagens. Os resultados podem ser exportados para a planilha.
+    **Direcionalidade** : essa opção permite que sua equipe de operações de segurança filtre pelo ' Direction ' que um email provém ou esteja em andamento. Os valores de direcionalização são de *entrada* , de *saída* e de *intra-org* (correspondentes a emails que chegam à sua organização, de fora, enviados à sua organização ou enviados internamente para sua organização, respectivamente). Essas informações podem ajudar as equipes de operações de segurança a falsificação e representação, porque uma incompatibilidade entre o valor de direcionalidade (ex. *Entrada* ) e o domínio do remetente (que *parece* ser um domínio interno) será evidente! O valor de direcionalidade é separado e pode ser diferente do rastreamento de mensagens. Os resultados podem ser exportados para a planilha.
 
-    **Substitui**: Este filtro utiliza informações que aparecem na guia detalhes do email e usa-a para expor onde as políticas organizacionais ou de usuário, para permitir e bloquear emails, foram *substituídas*. O aspecto mais importante sobre esse filtro é que ele ajuda a equipe de segurança da sua organização a ver quantos emails suspeitos foram entregues devido à configuração. Isso proporciona a eles uma oportunidade de modificar os bloqueios e, conforme necessário. Esse conjunto de resultados desse filtro pode ser exportado para a planilha.
+    **Substitui** : Este filtro utiliza informações que aparecem na guia detalhes do email e usa-a para expor onde as políticas organizacionais ou de usuário, para permitir e bloquear emails, foram *substituídas*. O aspecto mais importante sobre esse filtro é que ele ajuda a equipe de segurança da sua organização a ver quantos emails suspeitos foram entregues devido à configuração. Isso proporciona a eles uma oportunidade de modificar os bloqueios e, conforme necessário. Esse conjunto de resultados desse filtro pode ser exportado para a planilha.
 
     ****
 
@@ -141,13 +141,13 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
     |Bloqueado pela política de usuário|O email foi impedido de entrega para a caixa de correio, conforme indicado pela política de usuário.|
     |
 
-    **Ameaça de URL**: o campo de ameaça de URL foi incluído na guia *detalhes* de um email para indicar a ameaça apresentada por uma URL. As ameaças apresentadas por uma URL podem incluir *malware*, *phishing*ou *spam*, e uma URL sem *ameaça* informará *nenhuma* na seção ameaças.
+    **Ameaça de URL** : o campo de ameaça de URL foi incluído na guia *detalhes* de um email para indicar a ameaça apresentada por uma URL. As ameaças apresentadas por uma URL podem incluir *malware* , *phishing* ou *spam* , e uma URL sem *ameaça* informará *nenhuma* na seção ameaças.
 
-7. **Exibição de linha do tempo de email**: sua equipe de operações de segurança pode precisar aprofundar-se nos detalhes de email para investigar mais. A linha do tempo de email permite que os administradores exibam ações realizadas em um email da entrega para a entrega. Para exibir uma linha do tempo de email, clique no assunto de uma mensagem de email e clique em linha do tempo de email. (Ele aparece entre outros títulos no painel, como resumo ou detalhes). Esses resultados podem ser exportados para a planilha.
+7. **Exibição de linha do tempo de email** : sua equipe de operações de segurança pode precisar aprofundar-se nos detalhes de email para investigar mais. A linha do tempo de email permite que os administradores exibam ações realizadas em um email da entrega para a entrega. Para exibir uma linha do tempo de email, clique no assunto de uma mensagem de email e clique em linha do tempo de email. (Ele aparece entre outros títulos no painel, como resumo ou detalhes). Esses resultados podem ser exportados para a planilha.
 
-    A linha do tempo de email será aberta para uma tabela que mostra todos os eventos Delivery e post-Delivery para o email. Se não houver mais ações no email, você verá um único evento para a entrega original que declara um resultado, como *bloqueado*, com um veredicto como *Phish*. Os administradores podem exportar toda a linha do tempo de email, incluindo todos os detalhes na guia e email (como assunto, remetente, destinatário, rede e ID da mensagem). A linha do tempo de email reduz a randomização porque há menos tempo gasto na verificação de locais diferentes para tentar entender os eventos que ocorreram desde que o email chegou. Quando vários eventos ocorrem ou próximos ao mesmo tempo em um email, esses eventos aparecem em um modo de exibição de linha do tempo.
+    A linha do tempo de email será aberta para uma tabela que mostra todos os eventos Delivery e post-Delivery para o email. Se não houver mais ações no email, você verá um único evento para a entrega original que declara um resultado, como *bloqueado* , com um veredicto como *Phish*. Os administradores podem exportar toda a linha do tempo de email, incluindo todos os detalhes na guia e email (como assunto, remetente, destinatário, rede e ID da mensagem). A linha do tempo de email reduz a randomização porque há menos tempo gasto na verificação de locais diferentes para tentar entender os eventos que ocorreram desde que o email chegou. Quando vários eventos ocorrem ou próximos ao mesmo tempo em um email, esses eventos aparecem em um modo de exibição de linha do tempo.
 
-8. **Visualizar/baixar**: o Gerenciador de ameaças dá à equipe de operações de segurança os detalhes de que eles precisam para investigar emails suspeitos. Sua equipe de operações de segurança pode:
+8. **Visualizar/baixar** : o Gerenciador de ameaças dá à equipe de operações de segurança os detalhes de que eles precisam para investigar emails suspeitos. Sua equipe de operações de segurança pode:
 
     - [Verifique a ação e o local de entrega](#check-the-delivery-action-and-location).
 
@@ -200,8 +200,8 @@ A **linha do tempo de email** é um campo no explorador de ameaças que facilita
 
 [Corrigir emails mal-intencionados entregues no Office 365](remediate-malicious-email-delivered-office-365.md)
 
-[Proteção Avançada contra Ameaças do Office 365](office-365-ti.md)
+[Microsoft defender para Office 365](office-365-ti.md)
 
 [Proteção contra ameaças no Office 365](protect-against-threats.md)
 
-[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
+[Exibir relatórios do defender para Office 365](view-reports-for-atp.md)

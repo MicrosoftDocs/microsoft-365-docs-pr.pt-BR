@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 563972c458e77d96cf075f048dcee027bf29bc95
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 9a1a0204f1c79ad1eab7d62adf45022d1d5bc035
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399392"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842793"
 ---
 # <a name="security-hurdles-you-can-sail-over--one-architects-viewpoint"></a>Obstáculos de segurança que você pode sailr, o ponto de vista de um arquiteto
 
@@ -55,7 +55,7 @@ Para obter uma configuração recomendada, confira [configurações de acesso de
 
 Muitas equipes de segurança ainda estão usando as práticas recomendadas de segurança tradicionais criadas para todo o mundo local, incluindo a manutenção de uma "segurança de perímetro de rede" e a tentativa de "forçar" as ferramentas e os controles de segurança no local para as soluções de nuvem. Esses controles não foram projetados para a nuvem, são ineficazes e atrapalham a adoção de recursos de nuvem modernos. Processos e ferramentas que funcionam para uma abordagem de segurança de perímetro de rede comprovadamente são ineficientes, obstrutivos para recursos de nuvem e não permitem aproveitar os recursos de segurança modernas e automatizados.
 
-Você pode Sail essa barreira mudando as estratégias de defesa para a proteção gerenciada em nuvem, investigação e correção automatizadas, testes automáticos de caneta, proteção avançada contra ameaças e análise de incidentes. Os clientes que usam as soluções modernas de gerenciamento de dispositivos implementaram o gerenciamento automatizado, o patching padronizado, o antivírus, a aplicação de políticas e a proteção de aplicativos em todos os dispositivos (seja um smartphone, computador pessoal, laptop ou Tablet). Isso elimina a necessidade de uma VPN, o Microsoft System Center Configuration Manager (SCCM) e as políticas de grupo do Active Directory. Isso, combinado com políticas de acesso condicional, oferece um controle e visibilidade eficientes, bem como o acesso simplificado aos recursos, independentemente de onde seus usuários estão operando.
+Você pode Sail esse obstáculo mudando as estratégias de defesa para a proteção gerenciada em nuvem, investigação e correção automatizadas, testes automáticos de caneta, defender para Office 365 e análise de incidentes. Os clientes que usam as soluções modernas de gerenciamento de dispositivos implementaram o gerenciamento automatizado, o patching padronizado, o antivírus, a aplicação de políticas e a proteção de aplicativos em todos os dispositivos (seja um smartphone, computador pessoal, laptop ou Tablet). Isso elimina a necessidade de uma VPN, o Microsoft System Center Configuration Manager (SCCM) e as políticas de grupo do Active Directory. Isso, combinado com políticas de acesso condicional, oferece um controle e visibilidade eficientes, bem como o acesso simplificado aos recursos, independentemente de onde seus usuários estão operando.
 
 ## <a name="strive-for-best-together-security-tools"></a>Buscar as melhores ferramentas de segurança
 
@@ -79,7 +79,7 @@ Para ajudar você a desmarcar essas barreiras, a Microsoft acessou vários recur
 
 |Recurso   |Mais informações  |
 |---------|---------|
-|[Principais tarefas para as equipes de segurança darem suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md)      | Se você achar que, de repente, o suporte a uma força de trabalho em casa, este artigo ajuda você a aumentar rapidamente a segurança. Ele inclui as principais tarefas recomendadas com base no seu plano de licenciamento.    |
+|[Principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md)      | Se você achar que, de repente, o suporte a uma força de trabalho em casa, este artigo ajuda você a aumentar rapidamente a segurança. Ele inclui as principais tarefas recomendadas com base no seu plano de licenciamento.    |
 |[Microsoft 365 Security para os responsáveis pelas decisões de negócios](../security/Microsoft-365-security-for-bdm.md)    | Quando você tem tempo para um plano mais abrangente, este artigo inclui recomendações que abrangem o Microsoft 365, priorizado por superfície de ataque. Ele vem inclusive com uma planilha que você pode usar para classificar o licenciamento e a área (como identidade, proteção contra ameaças e monitoramento).  |
 |[Recomendações de arquitetura de segurança da Microsoft](https://docs.microsoft.com/security/compass/compass)    | Se você for um arquiteto de segurança, certifique-se de ver as recomendações de segurança organizadas por disciplina, incluindo identidade, rede e operações de segurança.   |
 |[Recomendações de operações de segurança da Microsoft](https://docs.microsoft.com/security/compass/security-operations-videos-and-decks)|Conheça as recomendações da Microsoft para configurar e executar um Security Operations Center (SOC) |

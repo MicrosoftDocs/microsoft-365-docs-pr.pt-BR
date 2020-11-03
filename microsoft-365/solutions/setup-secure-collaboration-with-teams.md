@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft Teams para proteger seus dados com base em sua confidencialidade
-ms.openlocfilehash: ef49e788805139bf82fa5b1b43d2a87323640820
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 5cf4937a79fdf33e160432c740504ec84d196585
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527703"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843535"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configurar a colaboração segura com o Microsoft 365
 
@@ -62,7 +62,7 @@ Para configurar o Collabration seguro, você usa estas funcionalidades e recurso
 
 | Produto ou componente | Capcidade ou recurso | Licenças |
 |:-------|:-----|:-------|
-| Proteção Avançada contra Ameaças do Office 365 | Anexos seguros de ATP para SPO, OneDrive e Teams; Documentos seguros de ATP; Links seguros de ATP para o Teams    | Microsoft 365 E1, E3 e e5 |
+| Microsoft defender para Office 365 | Anexos seguros para o SPO, o OneDrive e o Microsoft Teams; Documentos seguros; Links seguros para o Teams    | Microsoft 365 E1, E3 e e5 |
 | SharePoint    | Políticas de compartilhamento de arquivos e sites, permissões de compartilhamento de site, links de compartilhamento, solicitações de acesso, configurações de compartilhamento de convidado de site | Microsoft 365 E1, E3 e e5 |
 | Microsoft Teams   | Acesso de convidados, equipes privadas, canais privados | Microsoft 365 E1, E3 e e5 |
 | Conformidade com o Microsoft 365  | Rótulos de confidencialidade    | Microsoft 365 E3 e E5 |
@@ -74,7 +74,7 @@ Para gerenciar o acesso a informações com diferentes sensitivities, desenvolve
 ![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
 
 
-Esses níveis-de *linha de base*, *confidenciais*e *altamente confidenciais* aumentam gradualmente as proteções que ajudam a evitar o supercompartilhamento e o possível vazamento de informações, conforme mostrado na tabela a seguir.
+Esses níveis-de *linha de base* , *confidenciais* e *altamente confidenciais* aumentam gradualmente as proteções que ajudam a evitar o supercompartilhamento e o possível vazamento de informações, conforme mostrado na tabela a seguir.
 
 ||**Camada de linha de base**|**Camada confidencial**|**Camada altamente confidencial**|
 |:--|:-----------|:------------|:-------------------|
@@ -115,7 +115,7 @@ Dependendo da sensibilidade das informações que estão sendo compartilhadas, v
 
 - [Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados](best-practices-anonymous-sharing.md)
 - [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](share-limit-accidental-exposure.md)
-- [Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
+- [Criar um ambiente seguro de compartilhamento de convidados](create-secure-guest-sharing-environment.md)
 
 Se você tiver um projeto importante com uma organização parceira, poderá usar o gerenciamento de qualificação do Azure para gerenciar os convidados dessa organização em uma equipe que você configurou para o projeto. Consulte [criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
 

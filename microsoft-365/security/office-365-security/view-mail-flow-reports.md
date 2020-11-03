@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: 801463877db2e022ab84c3187367587c61f71090
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: a7e298a2cc3a5a33fbf4ed281d0ddd52b026096d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600574"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842979"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
@@ -32,7 +32,7 @@ ms.locfileid: "48600574"
 
 Além dos relatórios de fluxo de emails disponíveis no painel de [fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade com segurança &, vários relatórios de fluxo de email adicionais estão disponíveis no painel de relatórios para ajudá-lo a monitorar sua organização do Microsoft 365.
 
-Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de [conformidade & de segurança](https://office.protection.com) acessando **Reports** o \> **painel**relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
+Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de [conformidade & de segurança](https://office.protection.com) acessando **Reports** o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
 
 ![Painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -48,7 +48,7 @@ Para exibir o relatório, abra o [centro de conformidade & segurança](https://p
 
 Os gráficos a seguir estão disponíveis no modo de exibição relatório:
 
-- **Exibir dados por: fluxo de email**: Este gráfico mostra o número de mensagens de entrada e de saída organizadas por:
+- **Exibir dados por: fluxo de email** : Este gráfico mostra o número de mensagens de entrada e de saída organizadas por:
 
   - **Total**
   - **Da Internet sem um conector**
@@ -59,7 +59,7 @@ Os gráficos a seguir estão disponíveis no modo de exibição relatório:
 
   ![Exibir dados por fluxo de emails no relatório do conector](../../media/connector-report-view-data-by-mail-flow.png)
 
-- **Exibir dados por: uso de TLS**: Este gráfico mostra a porcentagem de uso da versão do protocolo TLS para o fluxo de emails.
+- **Exibir dados por: uso de TLS** : Este gráfico mostra a porcentagem de uso da versão do protocolo TLS para o fluxo de emails.
 
   Para isolar os dados no gráfico, use a opção **Mostrar dados do** controle para selecionar uma das seguintes opções:
 
@@ -79,12 +79,12 @@ Se você clicar em **Exibir tabela de detalhes** em um modo de exibição de rel
 - **Date**
 - **Direção e nome do conector**
 - **Tipo de conector**
-- **TLS forçado?**: o valor **true** ou **false**.
+- **TLS forçado?** : o valor **true** ou **false**.
 - **Sem TLS** (porcentagem)
 - **TLS 1,0** (porcentagem)
 - **TLS 1,1** (porcentagem)
 - **TLS 1,2** (porcentagem)
-- **Volume**: o número de mensagens.
+- **Volume** : o número de mensagens.
 
 Se você clicar em **filtros** em um modo de exibição de tabela detalhes, poderá especificar um intervalo de datas com **data de início** e data de **término**.
 
@@ -102,17 +102,17 @@ Para exibir o relatório, abra o [centro de conformidade & segurança](https://p
 
 Os gráficos a seguir estão disponíveis no modo de exibição relatório:
 
-- **Exibir dados por: regras** \> de transporte do Exchange **Dividir em: direção**: Este gráfico mostra o número de mensagens de **entrada** e de **saída** que foram afetadas por regras de transporte.
+- **Exibir dados por: regras** \> de transporte do Exchange **Dividir em: direção** : Este gráfico mostra o número de mensagens de **entrada** e de **saída** que foram afetadas por regras de transporte.
 
-- **Exibir dados por: regras** \> de transporte do Exchange **Dividir em: severidade**: Este gráfico mostra o número de **alta gravidade** e **severidade média**e mensagens de **baixa gravidade** . Você define o nível de severidade como uma ação na regra (**auditar esta regra com nível de severidade** ou _SetAuditSeverity_). Para obter mais informações, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
+- **Exibir dados por: regras** \> de transporte do Exchange **Dividir em: severidade** : Este gráfico mostra o número de **alta gravidade** e **severidade média** e mensagens de **baixa gravidade** . Você define o nível de severidade como uma ação na regra ( **auditar esta regra com nível de severidade** ou _SetAuditSeverity_ ). Para obter mais informações, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
-- **Exibir dados por: regras** \> de transporte do Exchange DLP **Divisão por: direção**: Este gráfico mostra o número de mensagens de **entrada** e de **saída** que foram afetadas pelas regras de transporte de prevenção de perda de dados (DLP). Você pode refinar ainda mais o gráfico selecionando uma das seguintes opções:
+- **Exibir dados por: regras** \> de transporte do Exchange DLP **Divisão por: direção** : Este gráfico mostra o número de mensagens de **entrada** e de **saída** que foram afetadas pelas regras de transporte de prevenção de perda de dados (DLP). Você pode refinar ainda mais o gráfico selecionando uma das seguintes opções:
 
   - **Mostrar dados de: todas as regras de transporte DLP**
   - **Mostrar dados de: usuários comprometidos**
   - **Mostrar dados de: baixo volume de conteúdo detectado Patriot lei americano**
 
-- **Exibir dados por: regras** \> de transporte do Exchange DLP **Divisão por: direção**: este modo de exibição mostra o número de **alta** gravidade e **severidade média**e mensagens de **baixa gravidade** que foram afetadas pelas regras de transporte DLP. Você pode refinar ainda mais o gráfico selecionando uma das seguintes opções:
+- **Exibir dados por: regras** \> de transporte do Exchange DLP **Divisão por: direção** : este modo de exibição mostra o número de **alta** gravidade e **severidade média** e mensagens de **baixa gravidade** que foram afetadas pelas regras de transporte DLP. Você pode refinar ainda mais o gráfico selecionando uma das seguintes opções:
 
   - **Mostrar dados de: todas as regras de transporte DLP**
   - **Mostrar dados de: usuários comprometidos**
@@ -128,28 +128,28 @@ Se você clicar em **filtros** em um modo de exibição de relatório, poderá m
 
 ### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Exibição da tabela de detalhes para o relatório de regras de transporte do Exchange
 
-Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+Se você clicar em **Exibir tabela de detalhes** , as informações mostradas dependem do gráfico que você estava observando:
 
-- **Exibir dados por: regras de transporte do Exchange**:
+- **Exibir dados por: regras de transporte do Exchange** :
 
   - **Date**
   - **Regra de transporte**
-  - **Subject**
+  - **Assunto**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direction**
+  - **Direção**
 
-- **Exibir dados por: regras de transporte do Exchange DLP**:
+- **Exibir dados por: regras de transporte do Exchange DLP** :
 
   - **Date**
   - **Política de DLP**
   - **Regra de transporte**
-  - **Subject**
+  - **Assunto**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direction**
+  - **Direção**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -171,18 +171,18 @@ Para exibir o relatório, abra o [centro de conformidade & segurança](https://p
 
 Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
-- **Mostrar dados para: métodos de encaminhamento**: os seguintes métodos são mostrados:
+- **Mostrar dados para: métodos de encaminhamento** : os seguintes métodos são mostrados:
 
-  - **Regra de transporte**: também conhecida como [regras de fluxo de emails](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules).
-  - **Regra de caixa de correio**: também conhecida como [regras de caixa de entrada](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59).
+  - **Regra de transporte** : também conhecida como [regras de fluxo de emails](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules).
+  - **Regra de caixa de correio** : também conhecida como [regras de caixa de entrada](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59).
 
   ![Exibição de métodos de encaminhamento no relatório de encaminhamento](../../media/forwarding-report-forwarding-methods.png)
 
-- **Mostrar dados para: encaminhar domínios**: este modo de exibição mostra os domínios de destinatário que são os destinos para encaminhamento.
+- **Mostrar dados para: encaminhar domínios** : este modo de exibição mostra os domínios de destinatário que são os destinos para encaminhamento.
 
   ![Exibição de domínios de encaminhamento no relatório de encaminhamento](../../media/forwarding-report-forwarding-domains.png)
 
-- **Mostrar dados para: encaminhadores**: os seguintes encaminhadores são mostrados:
+- **Mostrar dados para: encaminhadores** : os seguintes encaminhadores são mostrados:
 
   - **Regra de transporte**
   - A caixa de correio que contém a regra de caixa de entrada de encaminhamento.
@@ -195,11 +195,11 @@ Se você clicar em **filtros** em um modo de exibição de relatório, poderá e
 
 Se você clicar em **Exibir tabela de detalhes** em um modo de exibição de relatório, as seguintes informações serão exibidas:
 
-- **Encaminhadores**: a **regra de transporte** de valor ou a caixa de correio que contém a regra de caixa de entrada de encaminhamento.
-- **Tipo de encaminhamento**: a **regra de caixa de correio** de valor ou a **regra de transporte**.
+- **Encaminhadores** : a **regra de transporte** de valor ou a caixa de correio que contém a regra de caixa de entrada de encaminhamento.
+- **Tipo de encaminhamento** : a **regra de caixa de correio** de valor ou a **regra de transporte**.
 - **Nome do destinatário**
 - **Domínio do destinatário**
-- **Detalhes**: Este é o valor de GUID da regra de fluxo de emails ou o valor RuleIdentity da regra de caixa de entrada.
+- **Detalhes** : Este é o valor de GUID da regra de fluxo de emails ou o valor RuleIdentity da regra de caixa de entrada.
 - **Count**
 - **Primeira data de encaminhamento**
 
@@ -210,7 +210,7 @@ Para voltar para o modo de exibição relatórios, clique em **Exibir relatório
 ## <a name="mailflow-status-report"></a>Relatório de status do fluxo
 
 O **relatório de status do fluxo** é semelhante ao [relatório de email enviado e recebido](#sent-and-received-email-report), com informações adicionais sobre o email permitido ou bloqueado na borda. Este é o único relatório que contém as informações de proteção de borda e mostra o quanto o email é bloqueado antes de ser permitido ao serviço para avaliação pelo Exchange Online Protection (EOP). É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **fluxo relatório de status**. Para ir diretamente para o **relatório de status de fluxo de emails**, abra <https://protection.office.com/mailflowStatusReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **fluxo relatório de status**. Para ir diretamente para o **relatório de status de fluxo de emails** , abra <https://protection.office.com/mailflowStatusReport> .
 
 ![Widget relatório de status do fluxo no painel relatórios](../../media/mail-flow-status-report-widget.png)
 
@@ -218,14 +218,14 @@ Para exibir o relatório, abra o [centro de conformidade & segurança](https://p
 
 Quando você abre o relatório, a guia **tipo** é selecionada por padrão. Por padrão, este modo de exibição contém um gráfico e uma tabela de dados que é configurada com os seguintes filtros:
 
-- **Data**: os últimos 7 dias.
-- **Direção**:
+- **Data** : os últimos 7 dias.
+- **Direção** :
 
   - **Entrada**
   - **Saída**
-  - **Intra-org**: essa contagem é para mensagens dentro de um locatário, ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de **entrada** e **saída**)
+  - **Intra-org** : essa contagem é para mensagens dentro de um locatário, ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de **entrada** e **saída** )
 
-- **Tipo**:
+- **Tipo** :
 
   - **Boa mensagem**
   - **Malware**
@@ -240,7 +240,7 @@ Você pode alterar esses filtros clicando em **Filtrar** ou clicando em um valor
 
 A tabela de dados contém as seguintes informações:
 
-- **Direction**
+- **Direção**
 - **Tipo**
 - **24 horas**
 - **3 dias**
@@ -248,14 +248,14 @@ A tabela de dados contém as seguintes informações:
 - **15 dias**
 - **30 dias**
 
-Se você clicar em **escolher uma categoria para obter mais detalhes**, poderá selecionar os seguintes valores:
+Se você clicar em **escolher uma categoria para obter mais detalhes** , poderá selecionar os seguintes valores:
 
-- **Email de phishing**: esta seleção leva você para o [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report).
-- **Malware em email**: esta seleção leva você para o [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report).
-- **Detecções de spam**: esta seleção leva você para o [relatório de detecções de spam](view-email-security-reports.md#spam-detections-report).
-- **Bloqueio de spam bloqueado**: esta seleção leva você para o [relatório de detecções de spam](view-email-security-reports.md#spam-detections-report).
+- **Email de phishing** : esta seleção leva você para o [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report).
+- **Malware em email** : esta seleção leva você para o [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report).
+- **Detecções de spam** : esta seleção leva você para o [relatório de detecções de spam](view-email-security-reports.md#spam-detections-report).
+- **Bloqueio de spam bloqueado** : esta seleção leva você para o [relatório de detecções de spam](view-email-security-reports.md#spam-detections-report).
 
-**Exportar**:
+**Exportar** :
 
 Para o modo de exibição de detalhes, você só pode exportar dados por um dia. Portanto, se você quiser exportar dados por 7 dias, precisará de sete diferentes ações de exportação.
 
@@ -275,7 +275,7 @@ A tabela de dados contém as mesmas informações do **tipo** de exibição.
 
 A **escolha uma categoria para obter detalhes sobre** as seleções e o comportamento disponíveis são os mesmos que o modo de exibição de **tipo** .
 
-**Exportar**:
+**Exportar** :
 
 Para o modo de exibição de detalhes, você só pode exportar dados por um dia. Portanto, se você quiser exportar dados por 7 dias, precisará de sete diferentes ações de exportação.
 
@@ -289,17 +289,17 @@ O modo de exibição do **funil** mostra como os recursos de proteção contra a
 
 Se você clicar na guia **funil** , por padrão, este modo de exibição contém um gráfico e uma tabela de dados que é configurada com os seguintes filtros:
 
-- **Data**: os últimos 7 dias.
+- **Data** : os últimos 7 dias.
 
-- **Direção**:
+- **Direção** :
 
   - **Entrada**
   - **Saída**
-  - **Intra-org**: essa contagem é para mensagens enviadas dentro de um locatário; ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de entrada e saída).
+  - **Intra-org** : essa contagem é para mensagens enviadas dentro de um locatário; ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de entrada e saída).
 
 O modo de exibição de agregação e o modo de exibição de tabela de dados permitem 90 dias de filtragem.
 
-Se você clicar em **filtro**, poderá filtrar tanto o gráfico quanto a tabela de dados.
+Se você clicar em **filtro** , poderá filtrar tanto o gráfico quanto a tabela de dados.
 
 Este gráfico mostra a contagem de emails organizada por:
 
@@ -312,42 +312,42 @@ Este gráfico mostra a contagem de emails organizada por:
 - **Email após arquivo e URL acionamento**<sup>1</sup>
 - **Email detectado como benigno após a proteção após a entrega (URL clique em proteção de tempo)**
 
-<sup>1</sup> somente o Office 365 ATP
+<sup>1</sup> defender apenas para o Office 365
 
-Para exibir o email filtrado por EOP ou ATP separadamente, clique no valor na legenda do gráfico.
+Para exibir o email filtrado pelo EOP ou defender para Office 365 separadamente, clique no valor na legenda do gráfico.
 
 A tabela de dados contém as informações a seguir, mostradas em ordem decrescente de data:
 
 - **Date**
 - **Email total**
 - **Proteção de borda** 
-- **Anti-malware, reputação de arquivos, bloqueio de tipo de arquivo**:
-  - **Reputação do arquivo**: mensagens filtradas devido à identificação de um arquivo anexado por outros clientes da Microsoft.
-  - **Bloqueio de tipo de arquivo**: mensagens filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.      
+- **Anti-malware, reputação de arquivos, bloqueio de tipo de arquivo** :
+  - **Reputação do arquivo** : mensagens filtradas devido à identificação de um arquivo anexado por outros clientes da Microsoft.
+  - **Bloqueio de tipo de arquivo** : mensagens filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.      
 - **Anti-Phish, reputação da URL, representação da marca,** anti-falsificação:
-  - **Reputação da URL**: mensagens filtradas devido à identificação da URL por outros clientes da Microsoft.
-  - **Representação de marca**: mensagens filtradas devido à mensagem vindo de remetentes de marca conhecidos.
-  - **Anti-falsificação**: mensagens filtradas devido à mensagem que está tentando falsificar um domínio ao qual o destinatário pertence ou um domínio que não é proprietário do remetente da mensagem.  
-- **Anti-spam, filtragem de email em massa**:
-  - **Filtragem de email em massa**: mensagens filtradas devido a uma tentativa de entrega de email em massa para seus destinatários. 
-- **Personificação de usuário e domínio (ATP)**:
-  - **Representação do usuário**: mensagens filtradas devido a uma tentativa de representar um usuário (remetente da mensagem) que está definido nas configurações de proteção de representação de uma política anti-phishing.
-  - **Representação de domínio**: mensagens filtradas devido a uma tentativa de representar um domínio definido nas configurações de proteção de representação de uma política anti-phishing. 
-- **Arquivo e URL acionamento (ATP)**:
-  - **Acionamento de arquivo**: mensagens filtradas por uma política de anexos seguros.
-  - **URL acionamento**: mensagem filtrada por uma política de links seguros.  
-- **Proteção de pós-entrega e zap (ATP) ou zap (EOP)**: zap indica exclusão automática em zero hora.
+  - **Reputação da URL** : mensagens filtradas devido à identificação da URL por outros clientes da Microsoft.
+  - **Representação de marca** : mensagens filtradas devido à mensagem vindo de remetentes de marca conhecidos.
+  - **Anti-falsificação** : mensagens filtradas devido à mensagem que está tentando falsificar um domínio ao qual o destinatário pertence ou um domínio que não é proprietário do remetente da mensagem.  
+- **Anti-spam, filtragem de email em massa** :
+  - **Filtragem de email em massa** : mensagens filtradas devido a uma tentativa de entrega de email em massa para seus destinatários. 
+- **Personificação de usuário e domínio (defender para Office 365)** :
+  - **Representação do usuário** : mensagens filtradas devido a uma tentativa de representar um usuário (remetente da mensagem) que está definido nas configurações de proteção de representação de uma política anti-phishing.
+  - **Representação de domínio** : mensagens filtradas devido a uma tentativa de representar um domínio definido nas configurações de proteção de representação de uma política anti-phishing. 
+- **Arquivo e URL acionamento (defender para Office 365)** :
+  - **Acionamento de arquivo** : mensagens filtradas por uma política de anexos seguros.
+  - **URL acionamento** : mensagem filtrada por uma política de links seguros.  
+- **Proteção de pós-entrega e zap (ATP) ou zap (EOP)** : zap indica exclusão automática em zero hora.
 
 Se você selecionar uma linha na tabela de dados, uma divisão adicional das contagens de email será mostrada no submenu.
 
-**Exportar**:
+**Exportar** :
 
-Depois de clicar em **Exportar** em **Opções**, você pode selecionar um dos seguintes valores:
+Depois de clicar em **Exportar** em **Opções** , você pode selecionar um dos seguintes valores:
 
 - **Resumo (com dados dos últimos 90 dias no máximo)**
 - **Detalhes (com dados nos últimos 30 dias)**
 
-Em **Data**, escolha um intervalo e clique em **aplicar**. Os dados dos filtros atuais serão exportados para um arquivo. csv.
+Em **Data** , escolha um intervalo e clique em **aplicar**. Os dados dos filtros atuais serão exportados para um arquivo. csv.
 
 Cada arquivo. csv exportado está limitado a 150.000 linhas. Se os dados contiverem mais de 150.000 linhas, vários arquivos. csv serão criados.
 
@@ -359,27 +359,27 @@ O **modo de exibição técnico** é semelhante ao modo de exibição do **funil
 
 Se você clicar na guia **Tech View** , por padrão, este modo de exibição contém um gráfico e uma tabela de dados que é configurada com os seguintes filtros:
 
-- **Data**: os últimos 7 dias.
+- **Data** : os últimos 7 dias.
 
-- **Direção**:
+- **Direção** :
 
   - **Entrada**
   - **Saída**
-  - **Intra-org**: essa contagem é para mensagens dentro de um locatário, ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de entrada e saída)
+  - **Intra-org** : essa contagem é para mensagens dentro de um locatário, ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de entrada e saída)
 
 O modo de exibição de agregação e o modo de exibição de tabela de dados permitem 90 dias de filtragem.
 
-Se você clicar em **filtro**, poderá filtrar tanto o gráfico quanto a tabela de dados.
+Se você clicar em **filtro** , poderá filtrar tanto o gráfico quanto a tabela de dados.
 
 Este gráfico mostra as mensagens organizadas nas seguintes categorias:
 
 - **Email total**
 - **Permitir borda, borda filtrada**
-- **Não é malware, detecção de anexos seguros (ATP), detecção de mecanismo Antimalware, bloco de regras**
+- **Não é malware, detecção de anexos seguros (defender para Office 365), detecção de mecanismo Antimalware, bloco de regras**
 - **Não Phish, falha DMARC, detecção de personificação, detecção de falsificação, detecção de phishing**
-- **Nenhuma detecção com a URL acionamento, detecção de acionamento de URL (ATP)**
+- **Nenhuma detecção com a URL acionamento, detecção de acionamento de URL (defender para Office 365)**
 - **Não spam, spam**
-- **Email não mal-intencionado, detecção de links seguros (ATP), ZAP**
+- **Email não mal-intencionado, detecção de links seguros (defender para Office 365), ZAP**
 
 Ao passar o mouse sobre uma categoria no gráfico, você pode ver o número de mensagens nessa categoria.
 
@@ -388,10 +388,10 @@ A tabela de dados contém as informações a seguir, mostradas em ordem decresce
 - **Date**
 - **Email total**
 - **Borda filtrada**
-- **Mecanismo Antimalware, anexos seguros, regra filtrada**:
-  - **Regra filtrada**: mensagens filtradas devido a regras de fluxo de emails (também conhecidas como regras de transporte).
-- **DMARC, representação, falsificação, phishing filtrado**:
-  - **DMARC**: mensagens filtradas devido à falha da mensagem de verificação de autenticação do DMARC. 
+- **Mecanismo Antimalware, anexos seguros, regra filtrada** :
+  - **Regra filtrada** : mensagens filtradas devido a regras de fluxo de emails (também conhecidas como regras de transporte).
+- **DMARC, representação, falsificação, phishing filtrado** :
+  - **DMARC** : mensagens filtradas devido à falha da mensagem de verificação de autenticação do DMARC. 
 - **Detecção de URL acionamento**
 - **Filtrado por antispam**
 - **ZAP removido**
@@ -399,14 +399,14 @@ A tabela de dados contém as informações a seguir, mostradas em ordem decresce
 
 Se você selecionar uma linha na tabela de dados, uma divisão adicional das contagens de email será mostrada no submenu.
 
-**Exportar**:
+**Exportar** :
 
-Ao clicar em **Exportar**, em **Opções** , você pode selecionar um dos seguintes valores:
+Ao clicar em **Exportar** , em **Opções** , você pode selecionar um dos seguintes valores:
 
 - **Resumo (com dados dos últimos 90 dias no máximo)**
 - **Detalhes (com dados nos últimos 30 dias)**
 
-Em **Data**, escolha um intervalo e clique em **aplicar**. Os dados dos filtros atuais serão exportados para um arquivo. csv.
+Em **Data** , escolha um intervalo e clique em **aplicar**. Os dados dos filtros atuais serão exportados para um arquivo. csv.
 
 Cada arquivo. csv exportado está limitado a 150.000 linhas. Se os dados contiverem mais de 150.000 linhas, vários arquivos. csv serão criados.
 
@@ -426,26 +426,26 @@ Para exibir o relatório, abra o [centro de conformidade & segurança](https://p
 
 Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
-- **Divisão por: digite**: o gráfico mostra todas as categorias disponíveis:
+- **Divisão por: digite** : o gráfico mostra todas as categorias disponíveis:
 
   - **Total**
   - **Boa mensagem**
   - **Malware (anti-malware)** (EOP)
   - **Detecções de spam**
   - **Mensagens de regra**
-  - **Malware avançado** (Office 365 ATP)
+  - **Malware avançado** (Microsoft defender para Office 365)
 
   Ao passar o mouse sobre um dia (ponto de dados) no gráfico, você pode ver detalhes desse dia.
 
   ![Exibição de tipo no relatório de email enviado e recebido](../../media/sent-and-received-email-report-type-view.png)
 
-- **Divisão por: direção**: o gráfico mostra os dados **total**, de **entrada**e de **saída** . Ao passar o mouse sobre um dia (ponto de dados) no gráfico, você pode ver detalhes desse dia.
+- **Divisão por: direção** : o gráfico mostra os dados **total** , de **entrada** e de **saída** . Ao passar o mouse sobre um dia (ponto de dados) no gráfico, você pode ver detalhes desse dia.
 
   ![Exibição de direção no relatório de email enviado e recebido](../../media/sent-and-received-email-report-direction-view.png)
 
-- **Aprofundar por** \> **Malware (Antimalware)**: esta seleção leva você para as [detecções de malware no relatório de email](view-email-security-reports.md#malware-detections-in-email-report).
+- **Aprofundar por** \> **Malware (Antimalware)** : esta seleção leva você para as [detecções de malware no relatório de email](view-email-security-reports.md#malware-detections-in-email-report).
 
-- **Aprofundar por** \> **Detecções de spam)**: esta seleção leva você para o [relatório de detecções de spam](view-email-security-reports.md#spam-detections-report).
+- **Aprofundar por** \> **Detecções de spam)** : esta seleção leva você para o [relatório de detecções de spam](view-email-security-reports.md#spam-detections-report).
 
 Se você clicar em **filtros** em um modo de exibição de relatório, poderá modificar os resultados com os seguintes filtros:
 
@@ -461,7 +461,7 @@ Se você clicar em **Exibir tabela de detalhes** na tela **dividir por: direçã
 
 - **Data (UTC)**
 - **Tipo**
-- **Direction**
+- **Direção**
 - **Contagem de mensagem**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
@@ -488,7 +488,7 @@ Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 - **Mostrar dados para \> destinatários de email principais**
 - **Mostrar dados para \> os principais destinatários de spam**
 - **Mostrar dados para \> Principais destinatários de malware** (EOP)
-- **Mostrar dados para \> Principais destinatários de malware (ATP)** (Office 365 ATP)
+- **Mostrar dados para \> destinatários de malware principais (defender para Office 365)** 
 
 A composição do gráfico de pizza é alterada com base nessas seleções.
 
@@ -500,7 +500,7 @@ Se você clicar em **filtros** em um modo de exibição de relatório, poderá e
 
 ### <a name="details-table-view-for-the-top-senders-and-recipient-report"></a>Exibição da tabela de detalhes para os principais remetentes e o relatório de destinatários
 
-Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+Se você clicar em **Exibir tabela de detalhes** , as informações mostradas dependem do gráfico que você estava observando:
 
 - **Mostrar dados para os \> principais remetentes de email**
 
@@ -522,9 +522,9 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
   - **Principais destinatários de malware**
   - **Count**
 
-- **Mostrar dados para \> Principais destinatários de malware (ATP)** (Office 365 ATP)
+- **Mostrar dados para \> destinatários de malware principais (defender para Office 365)** 
 
-  - **Principais destinatários de malware (ATP)**
+  - **Principais destinatários de malware (defender para Office 365)**
   - **Count**
 
 Se você clicar em **filtros** em um modo de exibição de tabela detalhes, poderá especificar um intervalo de datas com **data de início** e data de **término**.
@@ -555,4 +555,4 @@ Para obter mais informações, consulte [permissões no Exchange Online](https:/
 
 [Exibir relatórios de segurança de email no centro de conformidade & segurança](view-email-security-reports.md)
 
-[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
+[Exibir relatórios do Microsoft defender para Office 365](view-reports-for-atp.md)

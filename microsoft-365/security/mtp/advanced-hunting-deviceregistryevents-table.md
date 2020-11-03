@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 4d70176e7dbbb6963565c0b6c38699cb09b5cd9b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1f7df85838654473fea593b235785b4320ea7164
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429894"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842670"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429894"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 A `DeviceRegistryEvents` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre a criação e a modificação de entradas do registro. Use essa referência para criar consultas que retornam informações dessa tabela.
 

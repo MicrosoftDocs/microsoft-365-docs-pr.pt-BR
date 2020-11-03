@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c0bd20ee9b100fcdc53ebf2e5d755ca38c6df545
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 40ee2b6a68438cf703daa2337483bb44d8cbeca9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197746"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841845"
 ---
 # <a name="additional-protection-apis"></a>APIs de proteção adicionais
 
@@ -32,13 +32,13 @@ ms.locfileid: "48197746"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 >[!IMPORTANT] 
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-Os seguintes recursos fornecem mais informações sobre outras APIs disponíveis para fluxos de trabalho na proteção contra ameaças da Microsoft:
+Os seguintes recursos fornecem mais informações sobre outras APIs disponíveis para fluxos de trabalho no Microsoft 365 defender:
 
-- [Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
-- [Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/office/office-365-management-api/)
-- [Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security/api-introduction)
+- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
+- [Microsoft defender para Office 365](https://docs.microsoft.com/office/office-365-management-api/)
+- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/api-introduction)

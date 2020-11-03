@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58c29d37d4f7deab17b2c24bfd7fb74e5ba9cb45
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 36d7fde77ae8a6280dae26e5a0f7a75537bf28d4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600560"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841867"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Vários relatórios estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) para ajudá-lo a ver como os recursos de segurança de email, como os recursos antispam, Antimalware e de criptografia no Microsoft 365 estão protegendo sua organização. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando **Reports** o \> **painel**relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
+Vários relatórios estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) para ajudá-lo a ver como os recursos de segurança de email, como os recursos antispam, Antimalware e de criptografia no Microsoft 365 estão protegendo sua organização. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando **Reports** o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
 
 ![Painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -51,13 +51,13 @@ Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtr
 
 - **Data de início** e **data de término**
 
-- **Suspeito**: a conta de usuário enviou emails suspeitos e está correndo o risco de ser restrito a enviar emails.
+- **Suspeito** : a conta de usuário enviou emails suspeitos e está correndo o risco de ser restrito a enviar emails.
 
-- **Restricted**: a conta de usuário foi restrita ao envio de emails devido a padrões altamente suspeitos.
+- **Restricted** : a conta de usuário foi restrita ao envio de emails devido a padrões altamente suspeitos.
 
 ![Exibição de relatório no relatório de usuários comprometidos](../../media/compromised-users-report-activity-view.png)
 
-Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
+Se você clicar em **Exibir tabela de detalhes** , poderá ver os seguintes detalhes:
 
 - **Hora de criação**
 - **ID de usuário**
@@ -83,48 +83,48 @@ Para saber mais sobre criptografia, confira [criptografia de email no Microsoft 
 
 Você pode usar os seguintes filtros no gráfico:
 
-- **Exibir dados por: relatório de criptografia de mensagens** e **dividir por: método**de criptografia: os seguintes métodos de criptografia estão disponíveis:
+- **Exibir dados por: relatório de criptografia de mensagens** e **dividir por: método** de criptografia: os seguintes métodos de criptografia estão disponíveis:
 
   - **Criptografia por usuário**
   - **Criptografia por política**
 
-  Se você clicar em **filtros**, poderá modificar o gráfico com os seguintes filtros:
+  Se você clicar em **filtros** , poderá modificar o gráfico com os seguintes filtros:
 
   - **Data de início** e **data de término**
   - Método de criptografia.
   - Modelo de criptografia.
 
-- **Exibir dados por: relatório de criptografia de mensagens** e **dividir por: modelo**de criptografia: os seguintes métodos de criptografia estão disponíveis:
+- **Exibir dados por: relatório de criptografia de mensagens** e **dividir por: modelo** de criptografia: os seguintes métodos de criptografia estão disponíveis:
 
   - **Não encaminhar**
   - **Criptografar apenas**
   - **OME anterior**
   - **Personalizados**
 
-  Se você clicar em **filtros**, poderá modificar o gráfico com os seguintes filtros:
+  Se você clicar em **filtros** , poderá modificar o gráfico com os seguintes filtros:
 
   - **Data de início** e **data de término**
   - Método de criptografia
   - Modelo de criptografia
 
-- **Exibir dados por: 5 principais domínios de destinatário**: este modo de exibição mostra um gráfico de pizza com contagens de mensagens enviadas para os cinco domínios de destinatários principais.
+- **Exibir dados por: 5 principais domínios de destinatário** : este modo de exibição mostra um gráfico de pizza com contagens de mensagens enviadas para os cinco domínios de destinatários principais.
 
-  Se você clicar em **filtros**, poderá selecionar uma **data de início** e uma **data de término**.
+  Se você clicar em **filtros** , poderá selecionar uma **data de início** e uma **data de término**.
 
 ### <a name="details-table-view-for-the-encryption-report"></a>Exibição da tabela de detalhes para o relatório de criptografia
 
-Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+Se você clicar em **Exibir tabela de detalhes** , as informações mostradas dependem do gráfico que você estava observando:
 
-- **Dividir em: método de criptografia** ou **dividir por: modelo de criptografia**: as seguintes informações são mostradas:
+- **Dividir em: método de criptografia** ou **dividir por: modelo de criptografia** : as seguintes informações são mostradas:
 
   - **Date**
   - **Endereço do remetente**.
   - **Modelo de criptografia**
   - **Método de criptografia**
   - **Endereço do destinatário**
-  - **Subject**
+  - **Assunto**
 
-- **Exibir dados por: cinco domínios principais de destinatários**:
+- **Exibir dados por: cinco domínios principais de destinatários** :
 
   - **Date**
   - **Domínio do destinatário**
@@ -160,13 +160,13 @@ Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtr
 
 ![Exibição de relatório no relatório de detecção de malware no email](../../media/malware-detections-report-view.png)
 
-Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
+Se você clicar em **Exibir tabela de detalhes** , poderá ver os seguintes detalhes:
 
 - **Date**
 - **Endereço do remetente**.
 - **Endereço do destinatário**
-- **ID da mensagem**: disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem e deve ser exclusivo. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
-- **Subject**
+- **ID da mensagem** : disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem e deve ser exclusivo. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
+- **Assunto**
 - **Filename**
 - **Nome do malware**
 
@@ -192,18 +192,18 @@ Para obter mais informações sobre proteção antispam, consulte [proteção an
 
 Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
-- **Dividir por: ação**: os seguintes tipos de eventos são mostrados:
+- **Dividir por: ação** : os seguintes tipos de eventos são mostrados:
 
   - **Conteúdo de spam filtrado**
   - **Bloqueio de IP de spam**
   - **Bloco de envelope de spam**
-  - **Filtro de DBEB de spam**: bloqueio de borda baseado em diretório (DBEB)
+  - **Filtro de DBEB de spam** : bloqueio de borda baseado em diretório (DBEB)
 
   Ao passar o mouse sobre um dia (ponto de dados) no gráfico, você pode ver quantos itens foram bloqueados naquele dia, bem como os itens que foram categorizados.
 
   ![Exibição de ação no relatório de detecções de spam](../../media/spam-detections-report-action-view.png)
 
-- Dividido **por: direção**: as seguintes direções são exibidas:
+- Dividido **por: direção** : as seguintes direções são exibidas:
 
   - **Entrada**
   - **Saída**
@@ -225,7 +225,7 @@ Se você clicar em **Exibir tabela de detalhes** em qualquer modo de exibição 
 - **Endereço do destinatário**
 - **Tipo de evento**
 - **Ação**
-- **Subject**
+- **Assunto**
 
 Se você clicar em **filtros** em uma tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -257,7 +257,7 @@ Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtr
 
 ![Exibição de relatório no relatório de detecções de spoof](../../media/spoof-detections-report-view.png)
 
-Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
+Se você clicar em **Exibir tabela de detalhes** , poderá ver os seguintes detalhes:
 
 - **Date**
 - **Remetente falsificado**
@@ -270,24 +270,24 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 
 ## <a name="threat-protection-status-report"></a>Relatório de status de proteção contra ameaças
 
-O relatório de **status de proteção contra ameaças** está disponível no EOP e no Office 365 ATP; no entanto, os relatórios contêm dados diferentes. Por exemplo, os clientes do EOP podem exibir informações sobre malware detectado no email, mas não informações sobre [arquivos mal-intencionados detectados pela ATP para SharePoint, onedrive ou Microsoft Teams](atp-for-spo-odb-and-teams.md).
+O relatório de **status de proteção contra ameaças** está disponível no EOP e no Microsoft defender para Office 365; no entanto, os relatórios contêm dados diferentes. Por exemplo, os clientes do EOP podem exibir informações sobre malware detectado no email, mas não informações sobre [arquivos mal-intencionados detectados pela ATP para SharePoint, onedrive ou Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
-O relatório fornece a contagem de mensagens de email com conteúdo mal-intencionado, como arquivos ou endereços de sites (URLs) que foram bloqueados pelo Mecanismo Antimalware, [exclusão automática de zero-hora (zap)](zero-hour-auto-purge.md)e recursos de ATP, como [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing do ATP](set-up-anti-phishing-policies.md). Você pode usar essas informações para identificar tendências ou determinar se as políticas da organização precisam de ajuste. É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
+O relatório fornece a contagem de mensagens de email com conteúdo mal-intencionado, como arquivos ou endereços de sites (URLs) que foram bloqueados pelo Mecanismo Antimalware, [exclusão automática de zero horas (zap)](zero-hour-auto-purge.md)e recursos do defender para Office 365, como [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing](set-up-anti-phishing-policies.md). Você pode usar essas informações para identificar tendências ou determinar se as políticas da organização precisam de ajuste. É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
 
 Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **status de proteção contra ameaças**. Para ir diretamente para o relatório, abra uma das seguintes URLs:
 
-- Office 365 ATP: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
+- Microsoft defender para Office 365: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
 - EOP <https://protection.office.com/reportv2?id=TPSAggregateReport>
 
 ![Widget status de proteção contra ameaças no painel relatórios](../../media/threat-protection-status-report-widget.png)
 
-Por padrão, o gráfico mostra os dados dos últimos 7 dias. Se você clicar em **filtros**, poderá selecionar um intervalo de data de 90 dias (as assinaturas de avaliação podem ser limitadas a 30 dias). O modo de exibição tabela de detalhes permite a filtragem por 30 dias.
+Por padrão, o gráfico mostra os dados dos últimos 7 dias. Se você clicar em **filtros** , poderá selecionar um intervalo de data de 90 dias (as assinaturas de avaliação podem ser limitadas a 30 dias). O modo de exibição tabela de detalhes permite a filtragem por 30 dias.
 
 ### <a name="report-view-for-the-threat-protection-status-report"></a>Exibição de relatório para o relatório de status de proteção contra ameaças
 
 Os seguintes modos de exibição estão disponíveis:
 
-- **Exibir dados por: visão geral**: as seguintes informações de detecção são exibidas:
+- **Exibir dados por: visão geral** : as seguintes informações de detecção são exibidas:
 
   - **Malware de email**
   - **Phishing de email**
@@ -295,14 +295,14 @@ Os seguintes modos de exibição estão disponíveis:
 
   ![Visão geral do relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-overview-view.png)
 
-- **Exibir dados por: conteúdo \> Malware**<sup>1</sup>: as seguintes informações são mostradas para organizações do Office 365 ATP:
+- **Exibir dados por: conteúdo \> Malware**<sup>1</sup>: as informações a seguir são mostradas para as organizações do Microsoft Defender para Office 365:
 
-  - **Mecanismo Antimalware**: captura de arquivos mal-intencionados no SharePoint Online, no onedrive e no Microsoft Teams por anti-malware.
-  - **Arquivo acionamento**: acionamento de arquivos mal-intencionados no SharePoint Online, no onedrive e no Microsoft Teams por anexos seguros.
+  - **Mecanismo Antimalware** : captura de arquivos mal-intencionados no SharePoint Online, no onedrive e no Microsoft Teams por anti-malware.
+  - **Arquivo acionamento** : acionamento de arquivos mal-intencionados no SharePoint Online, no onedrive e no Microsoft Teams por anexos seguros.
 
   ![Exibição de malware de conteúdo no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-content-malware-view.png)
 
-- **Exibir dados por: substituição de mensagens**: as seguintes informações de motivo de substituição são exibidas:
+- **Exibir dados por: substituição de mensagens** : as seguintes informações de motivo de substituição são exibidas:
 
   - **Ignorar local**
   - **Permissão de IP**
@@ -316,17 +316,17 @@ Os seguintes modos de exibição estão disponíveis:
 
   ![Exibição de substituição de mensagens no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-message-override-view.png)
 
-- **Divida por: tecnologia de detecção** e **exibir dados por: \> Phish de email**: as informações a seguir são exibidas:
+- **Divida por: tecnologia de detecção** e **exibir dados por: \> Phish de email** : as informações a seguir são exibidas:
 
-  - **Reputação de URL gerada por ATP**<sup>: reputação</sup>de URL mal-intencionado gerada a partir de ATP detonations em outros clientes da ATP.
-  - **Filtro avançado de Phish**: sinais de phishing baseados no Machine Learning.
-  - **Falha antifalsificação do DMARC**: falha na autenticação do DMARC nas mensagens.
-  - **Anti-spoof-intra-org**: o remetente está tentando falsificar o domínio do destinatário.
-  - **Antifalsificação-domínio externo**: o remetente está tentando falsificar outro domínio.
-  - **Representação da marca**: representação de marcas conhecidas com base nos remetentes.
+  - **Reputação de URL gerada por ATP**<sup>: reputação</sup>de URL mal-intencionado gerada a partir do defender para Office 365 detonations em outros clientes do Office 365.
+  - **Filtro avançado de Phish** : sinais de phishing baseados no Machine Learning.
+  - **Falha antifalsificação do DMARC** : falha na autenticação do DMARC nas mensagens.
+  - **Anti-spoof-intra-org** : o remetente está tentando falsificar o domínio do destinatário.
+  - **Antifalsificação-domínio externo** : o remetente está tentando falsificar outro domínio.
+  - **Representação da marca** : representação de marcas conhecidas com base nos remetentes.
   - **Representação de domínio**<sup>1</sup>: representação de domínios pertencentes ao cliente ou definição.
-  - **Reputação da URL do EOP**: reputação de URL mal-intencionado.
-  - **Filtro de phishing geral**: sinais de phishing com base em regras de analista. 
+  - **Reputação da URL do EOP** : reputação de URL mal-intencionado.
+  - **Filtro de phishing geral** : sinais de phishing com base em regras de analista. 
   - **Outros**
   - **Phish zap**<sup>2</sup>: mensagens de phishing de limpeza automática de zero hora.
   - **URL acionamento**<sup>1</sup>
@@ -334,11 +334,11 @@ Os seguintes modos de exibição estão disponíveis:
 
   ![Exibição de tecnologia de detecção para email de phishing no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
 
-- **Divida por: tecnologia de detecção** e **exibir dados por: \> malware de email**: as informações a seguir são exibidas:
+- **Divida por: tecnologia de detecção** e **exibir dados por: \> malware de email** : as informações a seguir são exibidas:
 
   - **Reputação de arquivo gerado por ATP**<sup>: toda</sup>a reputação de arquivos mal-intencionados gerada pela ATP detonations.
   - **Mecanismo anti-malware**<sup>1</sup>: detecção de mecanismos antimalware.
-  - **Bloqueio de tipo de arquivo de política Antimalware**: Estas são mensagens de email filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.
+  - **Bloqueio de tipo de arquivo de política Antimalware** : Estas são mensagens de email filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.
   - **Arquivo acionamento**<sup>1</sup>: o arquivo acionamento captura por anexos seguros.  
   - **Reputação de arquivos mal-intencionados**
   - **Malware zap**<sup>2</sup>
@@ -346,7 +346,7 @@ Os seguintes modos de exibição estão disponíveis:
 
   ![Exibição de tecnologia de detecção para malware no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-malware-detection-tech-view.png)
 
-- **Divida por: tipo de política** e **exibir dados por: \> Phish de emails** ou **exibir dados por: \> malware de email**: as seguintes informações são mostradas:
+- **Divida por: tipo de política** e **exibir dados por: \> Phish de emails** ou **exibir dados por: \> malware de email** : as seguintes informações são mostradas:
 
   - **Anti-malware**
   - **Anexo seguro**<sup>1</sup>
@@ -357,7 +357,7 @@ Os seguintes modos de exibição estão disponíveis:
 
   ![Modo de exibição tipo de política para email de phishing no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-phishing-policy-type-view.png)
 
-- **Dividir em: status de entrega** e **exibir dados por: \> Phish de emails** ou **exibir dados por: \> malware de email**: as informações a seguir são exibidas:
+- **Dividir em: status de entrega** e **exibir dados por: \> Phish de emails** ou **exibir dados por: \> malware de email** : as informações a seguir são exibidas:
 
   - **Falha na entrega**
   - **Abandonado**
@@ -371,46 +371,46 @@ Os seguintes modos de exibição estão disponíveis:
 
   ![Exibição do status de entrega para email de phishing no relatório de status de proteção contra ameaças](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
 
-<sup>1</sup> somente o Office 365 ATP
+<sup>1</sup> defender apenas para o Office 365
 
 <sup>2</sup> a limpeza automática de zero horas (zap) não está disponível no EOP autônomo (funciona apenas em caixas de correio do Exchange Online).
 
-Se você clicar em **filtros**, os filtros disponíveis dependerão do gráfico que você estava examinando:
+Se você clicar em **filtros** , os filtros disponíveis dependerão do gráfico que você estava examinando:
 
-Para ** \> malware de conteúdo**, você pode modificar o relatório por **data de início** e **data de término**e o valor de **detecção** .
+Para **\> malware de conteúdo** , você pode modificar o relatório por **data de início** e **data de término** e o valor de **detecção** .
 
-Para **substituição de mensagens**, você pode modificar o relatório com os seguintes filtros:
+Para **substituição de mensagens** , você pode modificar o relatório com os seguintes filtros:
 
 - **Data de início** e **data de término**
 - **Motivo da substituição**
-- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
+- **Marca** : filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
 - **Domínio**
 
 Para todos os outros modos de exibição, você pode modificar o relatório com os seguintes filtros:
 
 - **Data de início** e **data de término**
 - **Detecção**
-- **Protegido por**: **ATP** ou **EOP**
-- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
+- **Protegido por** : **ATP** ou **EOP**
+- **Marca** : filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
 - **Domínio**
 
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>Exibição da tabela de detalhes para o relatório de status de proteção contra ameaças
 
-Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+Se você clicar em **Exibir tabela de detalhes** , as informações mostradas dependem do gráfico que você estava observando:
 
-- **Exibir dados por: conteúdo \> Malware**:
+- **Exibir dados por: conteúdo \> Malware** :
 
   - **Date**
   - **Location**
   - **Direcionado por**
   - **Nome do malware**
 
-Se você clicar em **filtros** neste modo de exibição, poderá modificar o relatório por **data de início** e data de **término**e o valor de **detecção** .
+Se você clicar em **filtros** neste modo de exibição, poderá modificar o relatório por **data de início** e data de **término** e o valor de **detecção** .
 
-- **Exibir dados por: substituição de mensagem**:
+- **Exibir dados por: substituição de mensagem** :
 
   - **Date**
-  - **Subject**
+  - **Assunto**
   - **Sender**
   - **Destinatários**
   - **Detectado por**
@@ -422,16 +422,16 @@ Se você clicar em **filtros** neste modo de exibição, poderá modificar o rel
 
 - **Data de início** e **data de término**
 - **Motivo da substituição**
-- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
+- **Marca** : filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
 - **Domínio**
 - **Destinatários** (Observe que essa propriedade Filterable só está disponível no modo de exibição tabela de detalhes)
 
-**Exibir dados por: visão geral**: não há botão **Exibir tabela detalhes** disponível.
+**Exibir dados por: visão geral** : não há botão **Exibir tabela detalhes** disponível.
 
 - Todos os outros gráficos:
 
   - **Date**
-  - **Subject**
+  - **Assunto**
   - **Sender**
   - **Destinatários**
   - **Detectado por**
@@ -439,12 +439,12 @@ Se você clicar em **filtros** neste modo de exibição, poderá modificar o rel
   - **Origem de comprometimento**
   - **Marcas**
 
-Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+Se você clicar em **filtros** , poderá modificar o relatório com os seguintes filtros:
 
 - **Data de início** e **data de término**
 - **Detecção**
-- **Protegido por** (somente o Office 365 ATP): **ATP** ou **EOP**
-- **Marca**: filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
+- **Protegido por** : **Defender para Office 365** ou **EOP**
+- **Marca** : filtrar por marca para retornar usuários ou grupos que tiveram uma marca específica aplicada. Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
 - **Domínio**
 - **Destinatários** (Observe que essa propriedade Filterable só está disponível no modo de exibição tabela de detalhes)
 
@@ -460,7 +460,7 @@ Ao passar o mouse sobre uma fatia no gráfico de pizza, você pode ver o nome de
 
 ![Exibição de relatório de malware superior](../../media/top-malware-report-view.png)
 
-Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
+Se você clicar em **Exibir tabela de detalhes** , poderá ver os seguintes detalhes:
 
 - **Principais malware**
 - **Count**
@@ -469,7 +469,7 @@ Se você clicar em **filtros** no modo de exibição relatório ou tabela de det
 
 ## <a name="url-threat-protection-report"></a>Relatório de proteção contra ameaças de URL
 
-O **relatório de proteção contra ameaças de URL** está disponível na proteção avançada contra ameaças (ATP) do Office 365. Para saber mais, confira [relatório de proteção contra ameaças de URL](view-reports-for-atp.md#url-threat-protection-report).
+O **relatório de proteção contra ameaças de URL** está disponível no Microsoft defender para Office 365. Para saber mais, confira [relatório de proteção contra ameaças de URL](view-reports-for-atp.md#url-threat-protection-report).
 
 ## <a name="user-reported-messages-report"></a>Relatório de mensagens relatadas pelo usuário
 
@@ -518,4 +518,4 @@ Se você não estiver vendo dados nos seus relatórios, verifique se as suas pol
 
 [Exibir relatórios de fluxo de emails no centro de conformidade & segurança](view-mail-flow-reports.md)
 
-[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
+[Exibir relatórios do defender para Office 365](view-reports-for-atp.md)

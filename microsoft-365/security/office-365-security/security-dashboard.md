@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: 1bef6d0496c39d5157bbc40893d2710e89d1c734
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f7576de9db1403c3c010b2fd826866ec11a7e20a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200068"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843619"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
@@ -57,7 +57,7 @@ As informações que você verá no Resumo de gerenciamento de ameaças depende 
 |---|---|
 |Mensagens de malware bloqueadas<br/>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br><br><br><br>|Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br>Malware de dia zero bloqueado<br>Mensagens de phishing avançadas detectadas<br>URLs mal-intencionadas bloqueadas|
 
-Para exibir ou acessar o widget Resumo de gerenciamento de ameaças, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports).
+Para exibir ou acessar o widget Resumo de gerenciamento de ameaças, você deve ter permissões para exibir os relatórios do defender for Office 365. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios do defender for Office 365?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports).
 
 ## <a name="threat-protection-status"></a>Status de proteção contra ameaças
 
@@ -65,14 +65,14 @@ O widget status de proteção contra ameaças mostra a eficácia da proteção c
 
 ![Widget status de proteção contra ameaças](../../media/tpswidget.png)
 
-Os detalhes dependem de sua assinatura do Microsoft 365 incluir o [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) com ou sem o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
+Os detalhes dependem de sua assinatura do Microsoft 365 incluir o [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) com ou sem [o Microsoft Defender para Office 365](office-365-atp.md).
 
 |Se sua assinatura incluir...|Você verá estes detalhes|
 |---|---|
-|EOP mas não Office 365 ATP|Email mal-intencionado detectado e bloqueado pelo EOP.<br><br> Consulte [relatório de status de proteção contra ameaças (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Office 365 ATP|Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e pelo Office 365 ATP<br><br>Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos ATP (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)).<br><br>Consulte [relatório de status de proteção contra ameaças (ATP)](view-reports-for-atp.md#threat-protection-status-report).|
+|EOP mas não o Microsoft defender para Office 365|Email mal-intencionado detectado e bloqueado pelo EOP.<br><br> Consulte [relatório de status de proteção contra ameaças (EOP)](view-email-security-reports.md#threat-protection-status-report).|
+|Microsoft defender para Office 365|Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e defender para Office 365<br><br>Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos do defender para Office 365 (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing no defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)).<br><br>Consulte [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).|
 
-Para exibir ou acessar o widget status de proteção contra ameaças, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)
+Para exibir ou acessar o widget status de proteção contra ameaças, você deve ter permissões para exibir os relatórios do defender for Office 365. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios do defender for Office 365?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
 ## <a name="global-weekly-threat-detections"></a>Detecções semanais globais de ameaças
 
@@ -86,7 +86,7 @@ As métricas são calculadas conforme descrito na tabela a seguir:
 |---|---|
 |Mensagens verificadas|Número de mensagens de email verificadas multiplicadas pelo número de destinatários|
 |Ameaças interrompidas|Número de mensagens de email identificadas como contendo malware multiplicado pelo número de destinatários|
-|Bloqueado por [ATP](office-365-atp.md)|Número de mensagens de email bloqueadas por ATP multiplicado pelo número de destinatários|
+|Bloqueado pelo [defender para Office 365 ](office-365-atp.md)|Número de mensagens de email bloqueadas pelo defender para Office 365 multiplicadas pelo número de destinatários|
 |Removido após a entrega|Número de mensagens removidas por [limpeza automática de zero hora](zero-hour-auto-purge.md) multiplicado pelo número de destinatários|
 
 ## <a name="malware"></a>Malware
@@ -105,7 +105,7 @@ Por exemplo, você pode ver que as mensagens de email de phishing estão sendo e
 
 ## <a name="threat-investigation-and-response"></a>Investigação e resposta a ameaças
 
-Se a assinatura de sua organização incluir o  [plano de proteção avançada contra ameaças do Office 365](office-365-ti.md), o painel de segurança tem uma seção que inclui investigação avançada de ameaças e ferramentas de resposta. Essas ferramentas incluem [investigação automatizada e recursos de resposta](automated-investigation-response-office.md). A investigação e a resposta automatizadas podem ser úteis em cenários como [endereçar contas de usuário comprometidas rapidamente](address-compromised-users-quickly.md).
+Se a assinatura de sua organização incluir o  [Microsoft defender para Office 365 plano 2](office-365-ti.md), o painel de segurança tem uma seção que inclui a investigação avançada de ameaças e ferramentas de resposta. Essas ferramentas incluem [investigação automatizada e recursos de resposta](automated-investigation-response-office.md). A investigação e a resposta automatizadas podem ser úteis em cenários como [endereçar contas de usuário comprometidas rapidamente](address-compromised-users-quickly.md).
 
 Para saber mais, confira [introdução ao uso de investigação e resposta automatizadas (Air) no Office 365](office-365-air.md).
 
@@ -115,9 +115,9 @@ Próximo à parte inferior do painel de segurança está uma seção de **tendê
 
 ![A seção tendências resume as tendências de fluxo de emails da organização](../../media/trends.png)
 
-E, se a assinatura de sua organização incluir o [plano 2 avançado de proteção contra ameaças do Office 365](office-365-ti.md), você também terá um relatório **recente de alertas de gerenciamento de ameaças** nesta seção que permite que sua equipe de segurança exiba e execute ações sobre alertas de segurança de alta prioridade.
+E, se a assinatura de sua organização incluir o [defender para Office 365 plano 2](office-365-ti.md), você também terá um relatório **recente de alertas de gerenciamento de ameaças** nesta seção que permite que sua equipe de segurança exiba e execute ações em alertas de segurança de alta prioridade.
 
-Para exibir ou acessar o widget email enviado e recebido, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports).
+Para exibir ou acessar o widget email enviado e recebido, você deve ter permissões para exibir os relatórios do defender for Office 365. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios do defender for Office 365?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports).
 
 Para exibir ou acessar o widget alertas de gerenciamento de ameaças recentes, você deve ter permissões para exibir alertas. Para saber mais, veja [permissões RBAC necessárias para exibir alertas](../../compliance/alert-policies.md#rbac-permissions-required-to-view-alerts).
 
@@ -125,8 +125,8 @@ Para exibir ou acessar o widget alertas de gerenciamento de ameaças recentes, v
 
 [Exibir relatórios de segurança de email no centro de conformidade & segurança](view-email-security-reports.md)
 
-[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
+[Exibir relatórios do Microsoft defender para Office 365](view-reports-for-atp.md)
 
-[Proteção Avançada contra Ameaças do Office 365](office-365-atp.md)
+[Defender para Office 365](office-365-atp.md)
 
 [Investigação e resposta contra ameaças do Office 365](office-365-ti.md)

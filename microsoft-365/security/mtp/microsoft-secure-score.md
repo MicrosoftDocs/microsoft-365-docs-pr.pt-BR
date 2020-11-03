@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ea580ad6b7bb7cc905a299e473f23a4c74fb289e
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: a41e05f54a8ba94752c6df91628a2200367ac0f3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294779"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843835"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -76,7 +76,7 @@ Por exemplo, uma ação de melhoria diz que você obtém 10 pontos protegendo to
 
 ### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
 
-No momento, há recomendações para o Microsoft 365 (incluindo o Exchange Online), o Active Directory do Azure, o Microsoft defender ATP, o Azure ATP e o Cloud app Security. As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou como atenuação alternativa.
+No momento, há recomendações para o Microsoft 365 (incluindo o Exchange Online), o Azure Active Directory, o Microsoft defender para ponto de extremidade, o Microsoft defender para identidade e o Cloud app Security. As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou como atenuação alternativa.
 
 ### <a name="security-defaults"></a>Padrões de segurança
 
@@ -109,7 +109,7 @@ Com acesso de leitura e gravação, você pode fazer alterações e interagir di
 
 Com acesso somente leitura, não é possível editar o status ou as anotações de uma ação de melhoria, editar zonas de pontuação ou editar comparações personalizadas.
 
-* Administrador do Helpdesk
+* Administrador da assistência técnica
 * Administrador de usuários
 * Administrador de serviço
 * Leitor de segurança

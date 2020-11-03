@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Saiba mais sobre as etapas de configuração para o Microsoft 365 Business Premium, em assinatura, para adicionar um domínio e usuários, para configurar as políticas de segurança e muito mais.
-ms.openlocfilehash: 8ec01a58d1a15d5c4aa1cef8b81518b474630d8b
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: 46370166a9d5e8c9308b8947513e631c159f0b86
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841121"
+ms.locfileid: "48842121"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 
@@ -48,7 +48,7 @@ A maioria das etapas de configuração pode ser feita na configuração interati
 
    - **[Adicione seu domínio](set-up.md#add-your-domain-to-personalize-sign-in)** (se você comprou seu domínio durante a [inscrição](sign-up.md), esta etapa já foi feita.)
 
-   - **Adicionar usuários** . Você pode adicionar usuários de uma das três maneiras:
+   - **Adicionar usuários**. Você pode adicionar usuários de uma das três maneiras:
         - Na [configuração interativa](set-up.md#add-users-in-the-wizard).
         - Use a sincronização de diretórios para [Adicionar usuários usando o Azure ad Connect](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) se você tiver um Active Directory local.
         - Você também pode [Adicionar usuários posteriormente](add-users-m365b.md) no centro de administração.
@@ -61,7 +61,7 @@ A maioria das etapas de configuração pode ser feita na configuração interati
   Além das configurações de segurança no assistente de instalação, você pode aumentar a segurança adicionando as seguintes configurações:
 
 - **Proteção contra malware de email**
-- **Anti-phishing ATP**
+- **Anti-phishing no defender para Office 365**
 - **Arquivamento do Exchange Online**
 - **Proteção de informações do Azure (Plan1** )
 

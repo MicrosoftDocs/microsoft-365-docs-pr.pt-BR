@@ -1,6 +1,6 @@
 ---
-title: Executar as simulações de ataque de proteção contra ameaças da Microsoft
-description: Execute as simulações de ataque para seu projeto piloto de proteção contra ameaças da Microsoft para ver como elas se desdobram e foram rapidamente corrigidas.
+title: Executar as simulações de ataque do Microsoft 365 defender
+description: Execute as simulações de ataque para seu projeto piloto do Microsoft 365 defender para ver como elas se desdobram e foram rapidamente corrigidas.
 keywords: Simulação de ataque piloto de proteção de ameaças da Microsoft, execução da simulação de ataque piloto do Microsoft Threat Protection, simular ataque no Microsoft Threat Protection, projeto piloto de proteção contra ameaças da Microsoft, segurança da CyberSource, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,41 +20,41 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 50b74cf46999c3ad52f536ba0dfe07508c993a39
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 700bd7a3f4ba8d152cf66a27c0f66aa375872698
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447078"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842057"
 ---
-# <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Executar as simulações de ataque de proteção contra ameaças da Microsoft  
+# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Executar as simulações de ataque do Microsoft 365 defender  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Planejar seu projeto piloto de proteção contra ameaças da Microsoft" />
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Planejar seu projeto piloto do Microsoft 365 defender" />
       <br/>Planta </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto" />
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
       <br/>Preparar </a><br>
     </td>
     <td align="center"bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Executar as simulações de ataque de proteção contra ameaças da Microsoft" />
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Executar as simulações de ataque do Microsoft 365 defender" />
       <br/>Simular ataque </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Feche e resuma seu piloto de proteção contra ameaças da Microsoft" />
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Feche e resuma seu piloto do Microsoft 365 defender" />
       <br/>Fechar e resumir </a><br>
     </td>
   </tr>
@@ -76,7 +76,7 @@ ms.locfileid: "48447078"
 
 Você está atualmente na fase de simulação de ataque.
 
-Após preparar seu ambiente piloto, é hora de testar o gerenciamento de incidentes da proteção contra ameaças da Microsoft e os recursos de investigação e correção automatizados. Ajudaremos você a simular um ataque sofisticado que aproveita as técnicas avançadas para ocultar da detecção. O ataque enumera as sessões de SMB (bloco de mensagens de servidor) abertas em controladores de domínio e recupera endereços IP recentes de dispositivos de usuários. Essa categoria de ataques geralmente não inclui arquivos descartados no dispositivo da vítima: eles ocorrem exclusivamente na memória. Eles "vivem do terreno" usando as ferramentas de sistema e administrativas existentes e injetam seu código em processos do sistema para ocultar sua execução, tal comportamento permite que eles causem a detecção e persistam no dispositivo.
+Após preparar seu ambiente piloto, é hora de testar o gerenciamento de incidentes do Microsoft 365 defender e os recursos de investigação e correção automatizados. Ajudaremos você a simular um ataque sofisticado que aproveita as técnicas avançadas para ocultar da detecção. O ataque enumera as sessões de SMB (bloco de mensagens de servidor) abertas em controladores de domínio e recupera endereços IP recentes de dispositivos de usuários. Essa categoria de ataques geralmente não inclui arquivos descartados no dispositivo da vítima: eles ocorrem exclusivamente na memória. Eles "vivem do terreno" usando as ferramentas de sistema e administrativas existentes e injetam seu código em processos do sistema para ocultar sua execução, tal comportamento permite que eles causem a detecção e persistam no dispositivo.
 
 Nesta simulação, nosso cenário de exemplo começa com um script do PowerShell. Um usuário pode ser levado para executar um script. Ou o script pode ser executado a partir de uma conexão remota para outro computador a partir de um dispositivo previamente infectado, o invasor que está tentando se mover mais tarde na rede. A detecção desses scripts pode ser difícil porque os administradores também costumam executar scripts remotamente para realizar várias atividades administrativas.
 
@@ -92,13 +92,13 @@ Durante a simulação, o ataque injeta shellcode em um processo aparentemente in
 
 Como você já configurou o ambiente piloto durante a fase de preparação, verifique se você tem dois dispositivos para este cenário: um dispositivo de teste e um controlador de domínio.
 
-1.  Verifique se o seu locatário [ativou a proteção contra ameaças](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)da Microsoft contra ameaças da Microsoft.
+1.  Verifique se o seu locatário [ativou o Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
 
 2.  Verifique a configuração do controlador de domínio de teste:
 
     - O dispositivo é executado com o Windows Server 2008 R2 ou uma versão posterior.
-    - O controlador de domínio de teste para a [proteção avançada contra ameaças do Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) e habilitar o [gerenciamento remoto](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager).    
-    - Verifique se a [integração do Azure ATP e do Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/aatp-integration) foi habilitada.
+    - O controlador de domínio de teste para o [Microsoft defender para identidade](https://docs.microsoft.com/azure/security-center/security-center-wdatp) e habilitar o [gerenciamento remoto](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager).    
+    - Verifique se a [integração do Microsoft defender for Identity e do Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/aatp-integration) foi habilitada.
     - Um usuário de teste é criado em seu domínio – nenhuma permissão de administrador é necessária.
 
 3.  Verifique a configuração do dispositivo de teste:
@@ -109,7 +109,7 @@ Como você já configurou o ambiente piloto durante a fase de preparação, veri
     
     1.  [Ative o Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Se você estiver tendo problemas para habilitar o Windows Defender Antivirus, consulte este [tópico de solução de problemas](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy).
     
-    1.  Verifique se o dispositivo de teste está [integrado ao Microsoft defender Advanced Threat Protection (MDATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
+    1.  Verifique se o dispositivo de teste está [integrado ao Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
 Se você usar um locatário existente e implementar grupos de dispositivos, crie um grupo de dispositivos dedicado para o dispositivo de teste e empurre-o para o nível superior na configuração UX.
 
@@ -175,7 +175,7 @@ Mudando para o ponto de vista do analista do SOC, agora você pode começar a in
 
 ### <a name="investigate-the-attack-as-a-single-incident"></a>Investigue o ataque como um único incidente
 
-A proteção contra ameaças da Microsoft correlaciona a análise e agrega todos os alertas e investigações relacionados de produtos diferentes em uma entidade de incidente. Fazendo isso, a proteção contra ameaças da Microsoft mostra uma história de ataque mais ampla, permitindo que o analista do SOC entenda e responda a ameaças complexas.
+O Microsoft 365 defender correlaciona a análise e agrega todos os alertas e investigações relacionados de produtos diferentes em uma entidade de incidente. Fazendo isso, o Microsoft 365 defender mostra uma história de ataque mais ampla, permitindo que o analista do SOC entenda e responda a ameaças complexas.
 
 Os alertas gerados durante essa simulação estão associados à mesma ameaça e, como resultado, são automaticamente agregados como um único incidente.
 
@@ -189,11 +189,11 @@ Para exibir o incidente:
 
     ![Captura de tela da página incidentes onde os alertas gerados são agregados durante a simulação](../../media/mtp/fig4.png)
 
-    Os alertas que aparecem no painel podem ser filtrados com base nos recursos de serviço: Azure ATP, segurança do aplicativo Cloud da Microsoft, Microsoft defender ATP, proteção contra ameaças da Microsoft e Office ATP.  
+    Os alertas que aparecem no painel podem ser filtrados com base nos recursos de serviço: Microsoft defender para identidade, Microsoft Cloud app Security, Microsoft defender para ponto de extremidade, Microsoft 365 defender e Microsoft defender para Office 365.  
 
 3.  Selecione **abrir página de incidente** para obter mais informações sobre o incidente.
 
-    Na página **incidente** , você pode ver todos os alertas e informações relacionadas ao incidente. As informações incluem as entidades e os ativos envolvidos no alerta, a fonte de detecção dos alertas (Azure ATP, EDR) e o motivo pelo qual foram vinculados. A revisão da lista de alertas de incidentes mostra a progressão do ataque. Nesse modo de exibição, você pode ver e investigar os alertas individuais.
+    Na página **incidente** , você pode ver todos os alertas e informações relacionadas ao incidente. As informações incluem as entidades e os ativos envolvidos no alerta, a fonte de detecção dos alertas (Microsoft defender para identidade, EDR) e o motivo pelo qual foram vinculados. A revisão da lista de alertas de incidentes mostra a progressão do ataque. Nesse modo de exibição, você pode ver e investigar os alertas individuais.
 
     Você também pode clicar em **gerenciar incidente** no menu direito, marcar o incidente, atribuí-lo a si mesmo e adicionar comentários.
 
@@ -207,23 +207,23 @@ Para exibir o incidente:
 Vamos examinar alguns dos alertas gerados durante o ataque simulado.
 
 >[!NOTE]
->Vamos examinar apenas alguns alertas gerados durante o ataque simulado. Dependendo da versão do Windows e dos produtos de proteção contra ameaças da Microsoft executados em seu dispositivo de teste, você poderá ver mais alertas que aparecem em uma ordem um pouco diferente.
+>Vamos examinar apenas alguns alertas gerados durante o ataque simulado. Dependendo da versão do Windows e dos produtos do Microsoft 365 defender em execução no seu dispositivo de teste, você poderá ver mais alertas que aparecem em uma ordem um pouco diferente.
 
 ![Captura de tela dos alertas gerados](../../media/mtp/fig6.png) 
 
 
-**Alerta: injeção de processo suspeito observada (origem: Microsoft defender ATP EDR)**
+**Alerta: injeção de processo suspeito observada (origem: Microsoft defender para ponto de extremidade EDR)**
 
 Os invasores avançados usam métodos sofisticados e furtivos para persistir na memória e ocultar as ferramentas de detecção. Uma técnica comum é operar de dentro de um processo de sistema confiável, em vez de um executável mal-intencionado, dificultando as ferramentas de detecção e as operações de segurança para identificar o código mal-intencionado.
 
-Para permitir que os analistas do SOC confiram esses ataques avançados, os sensores de memória profundas no Microsoft defender ATP fornecem visibilidade sem precedentes em uma variedade de técnicas de injeção de código de processo cruzado. A figura a seguir mostra como o Microsoft defender ATP foi detectado e alertado na tentativa de injetar código para <i>notepad.exe</i>.
+Para permitir que os analistas do SOC confiram esses ataques avançados, os sensores de memória profundas no Microsoft defender para o ponto de extremidade fornecem uma visibilidade sem precedentes em uma variedade de técnicas de injeção de código de processo cruzado. A figura a seguir mostra como o defender para ponto de extremidade foi detectado e alertado na tentativa de injetar código para <i>notepad.exe</i>.
 
 ![Captura de tela do alerta de injeção de código potencialmente mal-intencionado](../../media/mtp/fig7.png) 
 
 
-**Alerta: comportamento inesperado observado por um processo executado sem argumentos de linha de comando (origem: Microsoft defender ATP EDR)**
+**Alerta: comportamento inesperado observado por um processo executado sem argumentos de linha de comando (origem: Microsoft defender para ponto de extremidade EDR)**
 
-As detecções do Microsoft defender ATP freqüentemente direcionam o atributo mais comum de uma técnica de ataque. Esse método garante a durabilidade e eleva a barra para que os atacantes alternem para táticas mais recentes.
+As detecções do Microsoft defender for Endpoint geralmente direcionam o atributo mais comum de uma técnica de ataque. Esse método garante a durabilidade e eleva a barra para que os atacantes alternem para táticas mais recentes.
 
 Empregamos algoritmos de aprendizado em larga escala para estabelecer o comportamento normal de processos comuns dentro de uma organização e em todo o mundo e observar quando esses processos mostram comportamentos anormais. Esses comportamentos anormais geralmente indicam que códigos estranhos foram introduzidos e estão sendo executados em um processo de outra confiança.
 
@@ -242,17 +242,17 @@ A figura a seguir exibe a página de detalhes do endereço IP selecionado (clica
 ![Captura de tela da página detalhes do endereço IP](../../media/mtp/fig9.png)
 
 
-**Alerta: reconhecimento de endereço IP e de usuário (SMB) (origem: ATP do Azure)**
+**Alerta: reconhecimento de endereço IP e de usuário (SMB) (origem: Microsoft defender para identidade)**
 
 A enumeração usando protocolo SMB permite que os invasores obtenham informações recentes de logon do usuário que os ajuda a se moverem mais tarde através da rede para acessar uma conta específica.
 
 Nessa detecção, um alerta é disparado quando a enumeração de sessão SMB é executada em um controlador de domínio.
 
-![Captura de tela do alerta ATP do Azure para reconhecimento de endereço IP e de usuário](../../media/mtp/fig10.png) 
+![Captura de tela do alerta do Microsoft defender for Identity para reconhecimento de endereço IP e de usuário](../../media/mtp/fig10.png) 
 
 
-### <a name="review-the-device-timeline-microsoft-defender-atp"></a>Examinar a linha do tempo do dispositivo [Microsoft defender ATP]
-Após explorar os vários alertas neste incidente, navegue de volta para a página de incidente que você investigou anteriormente. Selecione a guia **dispositivos** na página incidente para examinar os dispositivos envolvidos neste incidente como relatado pelo Microsoft defender ATP e Azure ATP.
+### <a name="review-the-device-timeline-microsoft-defender-for-endpoint"></a>Examinar a linha do tempo do dispositivo [Microsoft defender para ponto de extremidade]
+Após explorar os vários alertas neste incidente, navegue de volta para a página de incidente que você investigou anteriormente. Selecione a guia **dispositivos** na página incidente para examinar os dispositivos envolvidos neste incidente como relatado pelo Microsoft defender for Endpoint e pelo Microsoft defender para identidade.
 
 Selecione o nome do dispositivo em que o ataque foi conduzido, para abrir a página de entidade desse dispositivo específico. Nessa página, você pode ver alertas que foram disparados e eventos relacionados.
 
@@ -281,7 +281,7 @@ Selecione o nome do usuário para abrir a página de perfil do usuário, onde a 
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BzwB]
 
-Navegue de volta para o incidente no portal da central de segurança do Microsoft 365. A guia **investigações** na página **incidente** mostra as investigações automatizadas que foram acionadas pelo Azure ATP e pelo Microsoft defender ATP. A captura de tela abaixo exibe apenas a investigação automatizada disparada pelo Microsoft defender ATP. Por padrão, o Microsoft defender ATP corrige automaticamente os artefatos encontrados na fila, o que exige correção.
+Navegue de volta para o incidente no portal da central de segurança do Microsoft 365. A guia **investigações** na página **incidente** mostra as investigações automatizadas que foram acionadas pelo Microsoft defender for Identity e pelo Microsoft defender para ponto de extremidade. A captura de tela abaixo exibe apenas a investigação automatizada disparada pelo defender para ponto de extremidade. Por padrão, o defender para ponto de extremidade corrige automaticamente os artefatos encontrados na fila, o que exige correção.
 
 ![Captura de tela de investigações automatizadas relacionadas ao incidente](../../media/mtp/fig14.png)
 
@@ -296,7 +296,7 @@ Selecione o alerta que disparou uma investigação para abrir a página **detalh
 
 ![Captura de tela da página de detalhes de investigação](../../media/mtp/fig15.png)
 
-Durante a investigação automatizada, o Microsoft defender ATP identificou o processo de notepad.exe, que foi injetado como um dos artefatos que exigem correção. O Microsoft defender ATP interrompe automaticamente a injeção de processo suspeita como parte da correção automatizada. 
+Durante a investigação automatizada, o Microsoft defender para ponto de extremidade identificou o processo de notepad.exe, que foi injetado como um dos artefatos que exigem correção. O defender for Endpoint interrompe automaticamente a injeção de processo suspeita como parte da correção automatizada. 
 
 Você pode ver <i>notepad.exe</i> desaparecer da lista de processos em execução no dispositivo de teste.
 
@@ -323,13 +323,13 @@ Isso envolve a simulação de ataque para o gerenciamento de incidentes e os cen
 ### <a name="hunting-environment-requirements"></a>Requisitos de ambiente de caça
 Há uma única caixa de correio e dispositivo internos necessários para este cenário. Você também precisará de uma conta de email externa para enviar a mensagem de teste.
 
-1.  Verifique se o seu locatário [ativou a proteção contra ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
+1.  Verifique se o seu locatário [ativou o Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
 2.  Identificar uma caixa de correio de destino a ser usada para receber emails.
-    a.  Esta caixa de correio deve ser monitorada pelo Office 365 ATP b.  O dispositivo do requisito 3 precisa acessar esta caixa de correio
+    a.  Esta caixa de correio deve ser monitorada pelo Microsoft defender para Office 365 b.  O dispositivo do requisito 3 precisa acessar esta caixa de correio
 3.  Configurar um dispositivo de teste: a.  Verifique se você está usando a versão 1903 ou posterior do Windows 10.
     b.  Ingresse o dispositivo de teste no domínio de teste.
     c.  [Ative o Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Se você estiver tendo problemas para habilitar o Windows Defender Antivirus, consulte [Este tópico de solução de problemas](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy).
-    d.  [Integração com o Microsoft defender Advanced Threat Protection (MDATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
+    d.  [Integração com o Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
 ### <a name="run-the-simulation"></a>Executar a simulação
 1.  A partir de uma conta de email externa, envie um email para a caixa de correio identificada na etapa 2 da seção requisitos do ambiente de teste. Incluir um anexo que será permitido por meio de qualquer política de filtro de email existente.  Este arquivo não precisa ser mal-intencionado ou executável. Os tipos de arquivo sugeridos são <i>. pdf</i>, <i>. exe</i> (se permitido) ou documento do Office, como um arquivo do Word.
@@ -405,7 +405,7 @@ A consulta a seguir também inclui uma linha adicional "| **Project-Rename Email
 
 6.  Em seguida, use o valor **SHA256** da tabela **EmailAttachmentInfo** para localizar **DeviceFileEvents** (ações de arquivo que ocorreram no ponto de extremidade) desse hash.  O campo comum aqui será o hash SHA256 para o anexo.
 
-    A tabela resultante agora inclui detalhes do ponto de extremidade (Microsoft defender ATP), como nome do dispositivo, qual ação foi realizada (neste caso, filtrados para incluir apenas eventos filecreated) e onde o arquivo foi armazenado. O nome da conta associado ao processo também será incluído.
+    A tabela resultante agora inclui detalhes do ponto de extremidade (Microsoft defender para ponto de extremidade), como o nome do dispositivo, qual ação foi realizada (neste caso, filtrados para incluir apenas eventos filecreated) e onde o arquivo foi armazenado. O nome da conta associado ao processo também será incluído.
 
     ```console
     EmailEvents 
@@ -461,7 +461,7 @@ As detecções personalizadas executarão a consulta de acordo com a frequência
 
     ![Captura de tela da página Criar regra de detecção, onde você pode executar uma verificação antivírus quando um alerta é disparado para ajudar a lidar com ameaças](../../media/mtp/fig25.png) 
 
-5.  Selecione o escopo da regra de alerta. Como essa consulta envolve dispositivos, os grupos de dispositivos são relevantes nessa detecção personalizada de acordo com o contexto ATP do Microsoft defender.  Ao criar uma detecção personalizada que não inclua dispositivos como entidades impactadas, o escopo não se aplica.  
+5.  Selecione o escopo da regra de alerta. Como essa consulta envolve dispositivos, os grupos de dispositivos são relevantes nessa detecção personalizada de acordo com o contexto do Microsoft defender para ponto de extremidade. Ao criar uma detecção personalizada que não inclua dispositivos como entidades impactadas, o escopo não se aplica.  
 
     ![Captura de tela da página Criar regra de detecção, onde você pode definir o escopo da regra de alerta para gerenciar suas expectativas para os resultados que verá](../../media/mtp/fig26.png) 
 
@@ -479,19 +479,19 @@ Nessa página, você pode selecionar a regra de detecção, que abrirá uma pág
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>Treinamento adicional de busca avançada em exercícios
 
-Para saber mais sobre a busca avançada, os webcasts a seguir vão orientá-lo nos recursos de busca avançada dentro da MTP (proteção contra ameaças da Microsoft) para criar consultas entre pilar, pivotar para entidades e criar detecções personalizadas e ações de correção.
+Para saber mais sobre a busca avançada, os seguintes webcasts orientarão você pelos recursos de busca avançada no Microsoft 365 defender para criar consultas entre pilar, pivotar para entidades e criar ações personalizadas e ações de correção.
 
 >[!NOTE]
 >Prepare-se com sua própria conta do GitHub para executar as consultas de busca em seu ambiente de laboratório de teste piloto.  
 
 |  Título  |  Descrição  |  Baixar MP4  |  Assista ao YouTube  |  Arquivo CSL a ser usado  |
 |:-----|:-----|:-----|:-----|:-----|
-| Episódio 1: conceitos básicos do KQL | Abordaremos as noções básicas de recursos avançados de busca na proteção contra ameaças da Microsoft. Saiba mais sobre dados de busca avançada disponíveis e sintaxe e operadores básicos de KQL. | [ MP4](https://aka.ms/MTP15JUL20_MP4) | [YouTube](https://youtu.be/0D9TkGjeJwM) | [Episódio 1: arquivo CSL no git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
+| Episódio 1: conceitos básicos do KQL | Abordaremos as noções básicas de recursos avançados de busca no Microsoft 365 defender. Saiba mais sobre dados de busca avançada disponíveis e sintaxe e operadores básicos de KQL. | [ MP4](https://aka.ms/MTP15JUL20_MP4) | [YouTube](https://youtu.be/0D9TkGjeJwM) | [Episódio 1: arquivo CSL no git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | Episódio 2: junções | Continuaremos aprendendo sobre dados em busca avançada e como ingressar em uma tabela. Saiba mais sobre as nuances interna, externa, exclusiva e semijoins, e as nuances do Kusto innerunique join. | [MP4](https://aka.ms/MTP22JUL20_MP4) | [YouTube](https://youtu.be/LMrO6K5TWOU) | [Episódio 2: arquivo CSL no git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
 | Episódio 3: Resumindo, dinamizando e visualizando dados|Agora que podemos filtrar, manipular e participar de dados, é hora de começar a resumir, quantificar, dinamizar e Visualizar. Neste episódio, abordaremos o operador resumido e alguns dos cálculos que podem ser executados ao se aprofundar em tabelas adicionais no esquema de busca avançada. Nós transformamos nossos conjuntos de gráficos em gráficos que podem ajudar a melhorar a análise. | [MP4](https://aka.ms/MTP29JUL20_MP4) | [YouTube](https://youtu.be/UKnk9U1NH6Y) | [Episódio 3: arquivo CSL no git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
-| Episódio 4: Vamos procurar! Aplicando KQL ao rastreamento de incidentes|Tempo para controlar alguma atividade de atacante! Neste episódio, usaremos nossa compreensão aprimorada do KQL e busca avançada no Microsoft Threat Protection para rastrear um ataque. Saiba algumas das dicas e truques usados no campo para acompanhar a atividade do atacante, incluindo o ABCs do cybersecurity e como aplicá-las à resposta de incidentes. | [MP4](https://aka.ms/MTP5AUG20_MP4) | [YouTube](https://youtu.be/2EUxOc_LNd8) | [Episódio 4: arquivo CSL no git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl) |
+| Episódio 4: Vamos procurar! Aplicando KQL ao rastreamento de incidentes|Tempo para controlar alguma atividade de atacante! Neste episódio, usaremos nossa compreensão aprimorada do KQL e da busca avançada no Microsoft 365 defender para rastrear um ataque. Saiba algumas das dicas e truques usados no campo para acompanhar a atividade do atacante, incluindo o ABCs do cybersecurity e como aplicá-las à resposta de incidentes. | [MP4](https://aka.ms/MTP5AUG20_MP4) | [YouTube](https://youtu.be/2EUxOc_LNd8) | [Episódio 4: arquivo CSL no git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl) |
 
 ## <a name="next-step"></a>Próxima etapa
-|![Fase de fechamento e Resumo](../../media/mtp/close.png) <br>[Fase de fechamento e Resumo](mtp-pilot-close.md) | Analise o resultado do piloto da proteção contra ameaças da Microsoft, apresente-os aos seus participantes e siga a próxima etapa.
+|![Fase de fechamento e Resumo](../../media/mtp/close.png) <br>[Fase de fechamento e Resumo](mtp-pilot-close.md) | Analise o resultado do seu piloto do Microsoft 365 defender, apresente-o aos seus participantes e siga a próxima etapa.
 |:-----|:-----|
 

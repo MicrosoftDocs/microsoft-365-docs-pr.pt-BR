@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Use o Microsoft defender para Office 365 junto com a proteção avançada contra ameaças do Microsoft defender para obter informações mais detalhadas sobre ameaças contra seus dispositivos e conteúdo de email.
+description: Use o Microsoft defender para Office 365 junto com o Microsoft defender para ponto de extremidade para obter informações mais detalhadas sobre as ameaças contra seus dispositivos e conteúdo de email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c95e15c3cf16547843f9d2976dbf9df0d5747c0
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 6b8bec8d3ebe52de9b4e1b919b2aceee20b5b5b0
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309232"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842351"
 ---
-# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-advanced-threat-protection"></a>Usar o Microsoft defender para Office 365 junto com a proteção avançada contra ameaças do Microsoft defender
+# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Usar o Microsoft defender para Office 365 junto com o Microsoft defender para ponto de extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -41,9 +41,9 @@ A imagem a seguir mostra a aparência da guia **dispositivos** para que a integr
 Neste exemplo, você pode ver que os destinatários da mensagem de email detectado têm quatro dispositivos e um tem um alerta. Clicar no link de um dispositivo abre sua página no centro de segurança do Microsoft defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
 > [!TIP]
-> **[Saiba mais sobre o centro de segurança do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (também mencionado como o portal ATP do Microsoft defender).
+> **[Saiba mais sobre a central de segurança do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (também conhecida como Microsoft defender para o portal de ponto de extremidade).
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 - Sua organização deve ter o Microsoft defender para Office 365 (ou o Office 365 E5) e o Microsoft defender para ponto de extremidade.
     
@@ -59,15 +59,15 @@ A integração do Microsoft defender para Office 365 com o Microsoft defender pa
     
 2. No painel de navegação, escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer**.<br>![Gerenciador no menu de gerenciamento de ameaças](../../media/ThreatMgmt-Explorer-nav.png)<br>
     
-3. No canto superior direito da tela, escolha configurações de **WDATP**.
+3. No canto superior direito da tela, escolha **defender para configurações de ponto de extremidade**.
     
-4. Na caixa de diálogo conexão do Microsoft defender para ponto de extremidade, ative **conectar ao Windows ATP**.<br>![Conexão de ponto de extremidade do Microsoft defender](../../media/Explorer-WDATPConnection-dialog.png)<br>
+4. Na caixa de diálogo conexão do Microsoft defender para ponto de extremidade, ative **conectar ao Microsoft defender para ponto de extremidade**.<br>![Conexão de ponto de extremidade do Microsoft defender](../../media/Explorer-WDATPConnection-dialog.png)<br>
     
 5. Vá para o centro de segurança do Microsoft defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
-6. Na barra de navegação, escolha **configurações**. Em seguida, em **geral**, escolha **recursos avançados**.
+6. Na barra de navegação, escolha **configurações**. Em seguida, em **geral** , escolha **recursos avançados**.
 
-7. Role para baixo até a **conexão do Office 365 Threat Intelligence**e ative a conexão.<br/>![Conexão do Office 365 Threat Intelligence](../../media/mdatp-oatptoggle.png)<br>
+7. Role para baixo até a **conexão do Office 365 Threat Intelligence** e ative a conexão.<br/>![Conexão do Office 365 Threat Intelligence](../../media/mdatp-oatptoggle.png)<br>
 
 ## <a name="related-articles"></a>Artigos relacionados
 
@@ -75,4 +75,4 @@ A integração do Microsoft defender para Office 365 com o Microsoft defender pa
   
 [Microsoft defender para Office 365](office-365-atp.md)
   
-[Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection)
+[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection)

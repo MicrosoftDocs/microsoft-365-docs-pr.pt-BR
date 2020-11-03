@@ -1,5 +1,5 @@
 ---
-title: Marcas de usuário no Office 365 ATP
+title: Marcas de usuário no Microsoft defender para Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,25 +14,25 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Office 365 ATP Plan 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Office 365 ATP para identificar rapidamente os usuários marcados.
-ms.openlocfilehash: 475bf976a71fb688df8db9ac25f3b397c078d79a
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+description: Os administradores podem saber como identificar grupos específicos de usuários com marcas de usuário no Microsoft defender para Office 365 plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft defender para Office 365 para identificar rapidamente os usuários marcados.
+ms.openlocfilehash: fcc13a04ed603712bb2a45ccaadbaf161702c502
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417277"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842875"
 ---
-# <a name="user-tags-in-office-365-atp"></a>Marcas de usuário no Office 365 ATP
+# <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft defender para Office 365
 
 > [!NOTE]
 > O recurso de marcas de usuário está em visualização, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
-As marcas de usuário são identificadores de grupos específicos de usuários no [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md). Há dois tipos de marcas de usuário:
+Marcas de usuário são identificadores para grupos específicos de usuários no [defender para Office 365](office-365-atp.md). Há dois tipos de marcas de usuário:
 
-- **Marcas de sistema**: atualmente, [contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) é o único tipo de marca do sistema.
-- **Marcas personalizadas**: você mesmo cria essas marcas de usuário.
+- **Marcas de sistema** : atualmente, [contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) é o único tipo de marca do sistema.
+- **Marcas personalizadas** : você mesmo cria essas marcas de usuário.
 
-Se sua organização tiver o plano de ATP 2 do Office 365 (incluído na sua assinatura ou como um complemento), você poderá criar marcas de usuário personalizadas além de usar a marca de contas de prioridade.
+Se sua organização tiver o defender para Office 365 plano 2 (incluído na sua assinatura ou como um complemento), você poderá criar marcas de usuário personalizadas além de usar a marca de contas de prioridade.
 
 Após aplicar marcas de sistema ou marcas personalizadas aos usuários, você pode usar essas marcas como filtros em alertas, relatórios e investigações:
 
@@ -47,7 +47,7 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **marcas do usuário** , abra <https://protection.office.com/userTags> .
 
-- Para criar, modificar ou remover **marcas de usuário personalizadas**, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** no centro de conformidade de & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+- Para criar, modificar ou remover **marcas de usuário personalizadas** , você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** no centro de conformidade de & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
 - Para configurar contas de prioridade (marcas de sistema), você precisa ser um [administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) ou um [administrador do Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator).
 
@@ -61,9 +61,9 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
 3. O assistente **criar marca** é aberto em uma nova saída. Na página **definir marca** , defina as seguintes configurações:
 
-   - **Name**: Insira um nome exclusivo e descritivo para a marca. Este é o valor que você verá e usará.
+   - **Name** : Insira um nome exclusivo e descritivo para a marca. Este é o valor que você verá e usará.
 
-   - **Descrição**: Insira uma descrição opcional para a marca.
+   - **Descrição** : Insira uma descrição opcional para a marca.
 
    Quando terminar, clique em **Avançar**.
 
@@ -109,8 +109,8 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
 ## <a name="use-the-security-center-to-remove-user-tags"></a>Usar a central de segurança para remover marcas de usuário
 
-**Observação**: não é possível remover a marca de **conta de prioridade** interna.
+**Observação** : não é possível remover a marca de **conta de prioridade** interna.
 
 1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> **User tags**.
 
-2. Na página **marcas de usuário** que é aberta, selecione a marca de usuário que você deseja remover, clique em **excluir marca**e selecione **Sim, remova** o aviso exibido.
+2. Na página **marcas de usuário** que é aberta, selecione a marca de usuário que você deseja remover, clique em **excluir marca** e selecione **Sim, remova** o aviso exibido.

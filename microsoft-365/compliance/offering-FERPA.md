@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 89f7e0ca95144e783b70e23c21008dcc46328522
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 668a92bf57e61d68d07a2d40e4405cc7bd111580
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208453"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843113"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Lei de privacidade e direitos educacionais da família (FERPA)
 
@@ -51,7 +51,7 @@ Os serviços para os quais a Microsoft concorda em ser designados como uma "esco
 - [Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - O Power BI, o PowerApps e a automatização de energia (anteriormente Microsoft Flow) como um serviço autônomo ou como incluídos em um plano ou pacote de marca do Office 365
 - Azure DevOps Services
-- Windows Defender ATP
+- Microsoft Defender para Ponto de Extremidade 
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -68,9 +68,9 @@ Esta legislação federal dos EUA exige a proteção da privacidade dos registro
 - [Registro Federal: FERPA última regra](https://aka.ms/ferpa-reg) (dezembro de 2011)
 - [Diretrizes gerais do FERPA para pais](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/parents.html)
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Usar o gerente de conformidade da Microsoft para avaliar seus riscos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Use o Gerenciador de Conformidade da Microsoft para avaliar o risco
 
-O [Gerenciador de conformidade da Microsoft](compliance-manager.md) é um recurso do centro de conformidade da [Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. O gerente de conformidade oferece um modelo Premium para criar uma avaliação para esta regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de conformidade. Saiba como [criar avaliações no Gerenciador de conformidade](compliance-manager-assessments.md).
+O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e executar ações para ajudar a reduzir os riscos. O Gerenciador de Conformidade oferece um modelo premium para criar uma avaliação para essa regulamentação. Encontre o modelo na página **modelos de avaliação** no Gerenciador de Conformidade. Saiba como [criar avaliações no Compliance Manager](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Recursos
 

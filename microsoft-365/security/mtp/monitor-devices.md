@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b84ca774e1b9bd0bca51b8ee21f6a06f2fde5b4
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 92760ef14fb1192e4462bab656e22f3595f9b449
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430616"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843859"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de dispositivos no centro de segurança do Microsoft 365
 
@@ -33,11 +33,11 @@ Mantenha seus dispositivos seguros, atualizados e identifique as possíveis amea
 
 ## <a name="view-device-alerts"></a>Exibir alertas de dispositivo
 
-Obtenha alertas atualizados sobre a atividade de violação e outras ameaças em seus dispositivos do Microsoft defender ATP (disponível com uma licença E5). O Microsoft 365 Security Center monitora efetivamente esses alertas em um nível alto usando seu fluxo de trabalho preferido.
+Obtenha alertas atualizados sobre a atividade de violação e outras ameaças em seus dispositivos do Microsoft defender para o ponto de extremidade (disponível com uma licença E5). O Microsoft 365 Security Center monitora efetivamente esses alertas em um nível alto usando seu fluxo de trabalho preferido.
 
 ### <a name="monitor-high-impact-alerts"></a>Monitorar alertas de alto impacto
 
-Cada alerta ATP do Microsoft defender tem uma severidade correspondente (alto, médio, baixo ou informativo). Isso indica impacto potencial para a sua rede se não for deixado autônomo.  
+Cada alerta do Microsoft defender for Endpoint tem uma severidade correspondente (alto, médio, baixo ou informativo). Isso indica impacto potencial para a sua rede se não for deixado autônomo.  
 
 Use o cartão de **severidade de alerta de dispositivo** para se concentrar especificamente nos alertas que são mais graves e podem exigir resposta imediata. Neste cartão, você pode exibir mais informações no portal da central de segurança do Microsoft defender.
 
@@ -45,7 +45,7 @@ Use o cartão de **severidade de alerta de dispositivo** para se concentrar espe
 
 ### <a name="understand-sources-of-alerts"></a>Entender fontes de alertas
 
-O Microsoft defender ATP aproveita dados de uma ampla variedade de sensores de segurança e fontes de inteligência para gerar alertas. Por exemplo, ele pode usar informações de detecção do Microsoft Defender Antivirus e antimalware de terceiros. Ele também pode usar sua própria inteligência de ameaças personalizada fornecida por meio da API do serviço Web.
+O Microsoft defender for Endpoint aproveita os dados de uma ampla variedade de sensores de segurança e fontes de inteligência para gerar alertas. Por exemplo, ele pode usar informações de detecção do Microsoft Defender Antivirus e antimalware de terceiros. Ele também pode usar sua própria inteligência de ameaças personalizada fornecida por meio da API do serviço Web.
 
 O cartão de fontes de **detecção de alerta de dispositivo** mostra a distribuição de alertas por fonte. Acompanhar a atividade relacionada a determinadas fontes, particularmente suas fontes personalizadas. Você também pode usar o cartão para se concentrar nos alertas provenientes de sensores que não estão configurados para bloquear automaticamente atividades ou componentes mal-intencionados.
 
@@ -55,7 +55,7 @@ Neste cartão, você pode exibir mais informações no portal da central de segu
 
 ### <a name="understand-the-types-of-threats-that-trigger-alerts"></a>Compreender os tipos de ameaças que acionam alertas
 
-O Microsoft defender ATP classifica cada alerta em uma categoria que representa um determinado estágio na cadeia de ataque ou no tipo de componente de ameaça. Por exemplo, uma atividade de ameaça detectada pode ser categorizada como "movimento lateral" para indicar que houve uma tentativa de acessar outros dispositivos na rede. A atividade provavelmente ocorreu depois que os invasores obtiveram um destaque inicial. Quando detectada, um componente de ameaça pode ser classificado amplamente como malware ou especificamente como um tipo de ameaça específico. As especificações incluem ransomware, furto de credencial ou outros tipos de softwares mal-intencionados ou indesejados.
+O Microsoft defender para ponto de extremidade classifica cada alerta em uma categoria que representa um determinado estágio na cadeia de ataque ou no tipo de componente de ameaça. Por exemplo, uma atividade de ameaça detectada pode ser categorizada como "movimento lateral" para indicar que houve uma tentativa de acessar outros dispositivos na rede. A atividade provavelmente ocorreu depois que os invasores obtiveram um destaque inicial. Quando detectada, um componente de ameaça pode ser classificado amplamente como malware ou especificamente como um tipo de ameaça específico. As especificações incluem ransomware, furto de credencial ou outros tipos de softwares mal-intencionados ou indesejados.
 
 O cartão de **categorias de ameaça de dispositivo** mostra a distribuição de alertas nessas categorias. Use essas informações para identificar a atividade de ameaças, como tentativas de roubo de credenciais, que geralmente têm um impacto maior do que as tentativas de engenharia social. Você também pode monitorar ameaças potencialmente destrutivas, como ransomware.
 
@@ -69,7 +69,7 @@ O cartão de **status de alerta de dispositivo** indica o número de alertas que
 
 ### <a name="monitor-classification-of-resolved-alerts"></a>Monitorar a classificação de alertas resolvidos
 
-Ao resolver um alerta ATP do Microsoft defender, sua equipe de segurança pode especificar se um alerta foi verificado como:
+Ao resolver um alerta do Microsoft defender para ponto de extremidade, sua equipe de segurança pode especificar se um alerta foi verificado como:
 
 * Um alerta verdadeiro que identifica atividade de violação real ou componentes de ameaça
 * Um alerta falso que foi detectado incorretamente uma atividade normal
@@ -86,12 +86,12 @@ Além de classificar se um alerta é verdadeiro ou falso durante a resolução, 
 
 O cartão de **determinação de alerta de dispositivo** mostra a determinação fornecida para cada alerta.
 
-* **Apt**: ameaça persistente avançada, indicando que a atividade detectada ou o componente de ameaça faz parte de uma violação sofisticada projetada para obter uma brecha na rede afetada  
-* **Malware**: arquivo ou código mal-intencionado
-* **Equipe de segurança**: atividade normal realizada pela equipe de segurança
-* **Teste de segurança**: atividade ou componentes projetados para simular ameaças reais e que devem disparar sensores de segurança e gerar alertas
-* **Software indesejado**: aplicativos e outros softwares que não são considerados mal-intencionados, mas que, de outra forma, violam os padrões de política ou de uso aceitáveis
-* **Outros**: qualquer outra determinação que não esteja nos tipos fornecidos
+* **Apt** : ameaça persistente avançada, indicando que a atividade detectada ou o componente de ameaça faz parte de uma violação sofisticada projetada para obter uma brecha na rede afetada  
+* **Malware** : arquivo ou código mal-intencionado
+* **Equipe de segurança** : atividade normal realizada pela equipe de segurança
+* **Teste de segurança** : atividade ou componentes projetados para simular ameaças reais e que devem disparar sensores de segurança e gerar alertas
+* **Software indesejado** : aplicativos e outros softwares que não são considerados mal-intencionados, mas que, de outra forma, violam os padrões de política ou de uso aceitáveis
+* **Outros** : qualquer outra determinação que não esteja nos tipos fornecidos
 
 Neste cartão, você pode exibir mais informações na central de segurança do Microsoft defender.
 
@@ -162,9 +162,9 @@ O cartão de **Regras de redução de superfície de ataque** fornece uma visão
 
 A barra superior do cartão mostra o número total de dispositivos que estão nos seguintes modos de implantação:
 
-* **Modo de bloqueio**: dispositivos com pelo menos uma regra configurada para bloquear a atividade detectada
-* **Modo de auditoria**: dispositivos sem regras definidas para bloquear a atividade detectada, mas tem pelo menos um conjunto de regras para auditar a atividade detectada  
-* **Off**: dispositivos com todas as regras ASR desativados
+* **Modo de bloqueio** : dispositivos com pelo menos uma regra configurada para bloquear a atividade detectada
+* **Modo de auditoria** : dispositivos sem regras definidas para bloquear a atividade detectada, mas tem pelo menos um conjunto de regras para auditar a atividade detectada  
+* **Off** : dispositivos com todas as regras ASR desativados
 
 A parte inferior do cartão mostra as configurações da regra em todos os seus dispositivos. Cada barra indica o número de dispositivos que estão configurados para bloquear, auditar a detecção ou que a regra foi completamente desativada.
 
@@ -176,10 +176,10 @@ Para exibir informações detalhadas sobre detecções de regra ASR em sua rede,
 
 O gráfico na parte superior da página mostra as detecções com as detecções de empilhamento de tempo que foram bloqueadas ou auditadas. A tabela na parte inferior lista as detecções mais recentes. Confira as seguintes informações na tabela para entender a natureza das detecções:
 
-* **Arquivo detectado**: o arquivo, normalmente um script ou documento, cujo conteúdo disparou a atividade de ataque suspeito
-* **Regra**: nome que descreve as atividades de ataque que a regra foi projetada para capturar. Leia sobre regras de ASR existentes
-* **Aplicativo de origem**: o aplicativo que carregou ou executou o conteúdo que está disparando a atividade de ataque suspeita. Pode ser um aplicativo legítimo, como navegador da Web, um aplicativo do Office ou uma ferramenta do sistema, como o PowerShell
-* **Publisher**: o fornecedor que liberou o aplicativo de origem
+* **Arquivo detectado** : o arquivo, normalmente um script ou documento, cujo conteúdo disparou a atividade de ataque suspeito
+* **Regra** : nome que descreve as atividades de ataque que a regra foi projetada para capturar. Leia sobre regras de ASR existentes
+* **Aplicativo de origem** : o aplicativo que carregou ou executou o conteúdo que está disparando a atividade de ataque suspeita. Pode ser um aplicativo legítimo, como navegador da Web, um aplicativo do Office ou uma ferramenta do sistema, como o PowerShell
+* **Publisher** : o fornecedor que liberou o aplicativo de origem
 
 ### <a name="review-device-asr-rule-settings"></a>Examinar as configurações de regra ASR do dispositivo
 
@@ -207,7 +207,7 @@ A tabela lista todos os nomes de arquivo detectados por suas regras de redução
 
 Para obter uma lista dos arquivos selecionados com seus caminhos completos para exclusão, selecione **obter caminhos de exclusão**.
 
-Logs para a regra ASR **Bloquear credenciais roubando do subsistema de autoridade de segurança local do Windows (lsass.exe)** Capture o aplicativo de origem **lsass.exe**. É um arquivo de sistema normal, mas é capturado como o arquivo detectado. Como resultado, a lista gerada de caminhos de exclusão incluirá esse arquivo. Para excluir o arquivo que disparou essa regra em vez de **lsass.exe**, use o caminho para o aplicativo de origem em vez do arquivo detectado.
+Logs para a regra ASR **Bloquear credenciais roubando do subsistema de autoridade de segurança local do Windows (lsass.exe)** Capture o aplicativo de origem **lsass.exe**. É um arquivo de sistema normal, mas é capturado como o arquivo detectado. Como resultado, a lista gerada de caminhos de exclusão incluirá esse arquivo. Para excluir o arquivo que disparou essa regra em vez de **lsass.exe** , use o caminho para o aplicativo de origem em vez do arquivo detectado.
 
 Para localizar o aplicativo de origem, execute a seguinte [consulta de busca avançada](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) para esta regra específica (identificada por ID de regra 9e6c4e1f-7d60-472F-ba1a-a39ef669e4b2):
 

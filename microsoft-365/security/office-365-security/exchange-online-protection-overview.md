@@ -14,12 +14,12 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como o Exchange Online Protection (EOP) pode ajudar a proteger sua organização de email local em ambientes autônomos e híbridos.
-ms.openlocfilehash: f99954ec280eeb8c84e6183cea9ad0b9fee63507
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a8b30a475e6865916c74f08c4d927662f658a096
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202898"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842399"
 ---
 # <a name="exchange-online-protection-overview"></a>Visão geral do Exchange Online Protection
 
@@ -28,9 +28,9 @@ ms.locfileid: "48202898"
 
 O proteção do Exchange Online (EOP) é o serviço de filtragem baseado em nuvem que ajuda a proteger sua organização contra spam e malware. O EOP está incluído em todas as organizações do Microsoft 365 com caixas de correio do Exchange Online. No entanto, o EOP também está disponível nos seguintes cenários locais:
 
-- **Em um cenário autônomo: o**EOP fornece proteção de email baseada em nuvem para sua organização local do Exchange ou para qualquer outra solução de email SMTP local.
+- **Em um cenário autônomo: o** EOP fornece proteção de email baseada em nuvem para sua organização local do Exchange ou para qualquer outra solução de email SMTP local.
 
-- **Em uma implantação híbrida: o**EOP pode ser configurado para proteger seu ambiente de email e controlar o roteamento de email quando você tem uma combinação de caixas de correio locais e em nuvem.
+- **Em uma implantação híbrida: o** EOP pode ser configurado para proteger seu ambiente de email e controlar o roteamento de email quando você tem uma combinação de caixas de correio locais e em nuvem.
 
 Nesses cenários, o EOP pode simplificar o gerenciamento de seu ambiente de email e aliviar muitos dos ônus que acompanham a manutenção de hardware e software locais.
 
@@ -58,11 +58,11 @@ Para obter mais informações, consulte [ordem e precedência de proteção de e
 
 Os planos de assinatura disponíveis do EOP são:
 
-- **EOP autônomo**: você se inscreve no EOP para proteger sua organização de email local.
+- **EOP autônomo** : você se inscreve no EOP para proteger sua organização de email local.
 
-- **Recursos do EOP no Exchange Online**: qualquer assinatura que inclua o Exchange Online (autônomo ou como parte do Microsoft 365) usa o EOP para proteger suas caixas de correio do Exchange Online.
+- **Recursos do EOP no Exchange Online** : qualquer assinatura que inclua o Exchange Online (autônomo ou como parte do Microsoft 365) usa o EOP para proteger suas caixas de correio do Exchange Online.
 
-- **Exchange Enterprise CAL com serviços**: se você tiver uma organização do Exchange no local onde comprou o Exchange Enterprise CAL adicional com licenças de serviços, o EOP faz parte dos serviços incluídos.
+- **Exchange Enterprise CAL com serviços** : se você tiver uma organização do Exchange no local onde comprou o Exchange Enterprise CAL adicional com licenças de serviços, o EOP faz parte dos serviços incluídos.
 
 Para obter informações sobre requisitos, limites importantes e disponibilidade de recursos em todos os planos de assinatura do EOP, consulte a [Descrição do serviço de proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
@@ -80,7 +80,7 @@ EOP realiza balanceamento de carga entre data centers, mas apenas dentro de uma 
 
 - Na Europa, Oriente Médio e África (EMEA), todas as caixas de correio do Exchange Online são localizadas nos data centers da EMEA e todas as mensagens são roteadas através de data centers da EMEA para filtragem do EOP.
 
-- No Pacífico Asiático (Ásia), todas as caixas de correio do Exchange Online estão localizadas em datacenters da Ásia e as mensagens são roteadas atualmente através de datacenters da Ásia para filtragem do EOP.
+- No Asia-Pacific (na EOP), todas as caixas de correio do Exchange Online estão localizadas em datacenters da linha da Pacífico e as mensagens são roteadas por meio de datacenters da rota para filtragem do.
 
 - Nas Américas, os serviços são distribuídos nos seguintes locais:
 
@@ -96,7 +96,7 @@ EOP realiza balanceamento de carga entre data centers, mas apenas dentro de uma 
 
 O conteúdo da Ajuda para administradores do EOP é composta pelas seguintes categorias de primeiro nível:
 
-- [Configure o EOP, o dia 1, para administradores de ATP do office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide): Configurando as ferramentas de proteção e detecção do EOP no centro de proteção avançada contra ameaças do Office 365.
+- [Configure o EOP, o dia 1, para administradores do Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide): Configurando as ferramentas de proteção e detecção do EOP no núcleo do Microsoft defender para Office 365.
 
 - [Recursos do EOP](eop-features.md): fornece uma lista de recursos disponíveis no EOP.
 

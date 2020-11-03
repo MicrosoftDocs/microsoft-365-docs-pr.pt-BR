@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: a7d79684a085072e1af113bc0466ab26574ab904
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: d63994778762968962b2a32f026dbb81af39b664
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779220"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843811"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
@@ -35,7 +35,7 @@ Para tornar a pontuação segura da Microsoft um melhor representante da postura
 
 ## <a name="october-2020"></a>Outubro de 2020
 
-### <a name="remove-improvement-action-related-to-microsoft-defender-advanced-threat-protection"></a>Remover ação de melhoria relacionada à proteção avançada contra ameaças do Microsoft defender
+### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Remover ação de melhoria relacionada ao Microsoft defender para ponto de extremidade
 
 - Definir a verificação de conteúdo da Web do aplicativo Windows Store SmartScreen do Microsoft defender
 
@@ -54,8 +54,8 @@ No momento, a pontuação segura de identidade e a API do Graph adotarão o novo
 ## <a name="updated-improvement-actions"></a>Ações de aprimoramento atualizadas
 
 - Foram adicionadas ações de melhoria do Azure Active Directory
-- Foram adicionadas ações aprimoradas para proteção avançada contra ameaças do Azure
-- Suporte para recomendações de segurança de [Gerenciamento de vulnerabilidades](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) do Microsoft Defender ATP &
+- Foram adicionadas ações de melhoria de identidade para o Microsoft defender
+- Suporte para recomendações de segurança de [Gerenciamento de vulnerabilidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) do Microsoft defender for Endpoint &
     - Todas as recomendações de segurança lançadas fornecidas pelo TVM estão disponíveis agora
 
 ## <a name="updated-interface-and-functionality"></a>Interface e funcionalidade atualizadas

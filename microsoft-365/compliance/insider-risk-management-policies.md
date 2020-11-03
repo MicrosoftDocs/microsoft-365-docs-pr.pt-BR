@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9ff029904a34291f4131f2013ffe30b73aa3233c
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 722f0bfe18e5e7375da17f6fc6ebdb7f32676488
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208777"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842805"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -27,12 +27,12 @@ As políticas de gerenciamento de risco do insider determinam quais usuários es
 
 O **painel de políticas** permite ver rapidamente as políticas em sua organização e o status atual dos alertas associados a cada política.
 
-- **Nome da política**: o nome atribuído à política no assistente de política.
-- **Alertas ativos**: o número de alertas ativos para cada política.
-- **Alertas confirmados**: o número total de alertas que resultaram em casos da política nos últimos 365 dias.
-- **Ações executadas em alertas**: o número total de alertas que foram confirmados ou descartados pelos últimos 365 dias.
-- **Eficácia da política**: a porcentagem determinada pelo total de alertas confirmados dividido pelo total de ações realizadas em alertas (que é a soma dos alertas que foram confirmados ou ignorados no último ano).
-- **Ativo**: o status da ocorrência, *Sim* ou *não*.
+- **Nome da política** : o nome atribuído à política no assistente de política.
+- **Alertas ativos** : o número de alertas ativos para cada política.
+- **Alertas confirmados** : o número total de alertas que resultaram em casos da política nos últimos 365 dias.
+- **Ações executadas em alertas** : o número total de alertas que foram confirmados ou descartados pelos últimos 365 dias.
+- **Eficácia da política** : a porcentagem determinada pelo total de alertas confirmados dividido pelo total de ações realizadas em alertas (que é a soma dos alertas que foram confirmados ou ignorados no último ano).
+- **Ativo** : o status da ocorrência, *Sim* ou *não*.
 
 ![Painel de política de gerenciamento de risco do insider](../media/insider-risk-policy-dashboard.png)
 
@@ -77,7 +77,7 @@ Consulte o artigo [criar, testar e ajustar uma política de DLP](create-test-tun
 
 A proteção de dados e a prevenção de vazamentos de dados para usuários em sua organização podem depender de sua posição, nível de acesso a informações confidenciais ou histórico de riscos. Os vazamentos de dados podem incluir o supercompartilhamento acidental de informações altamente confidenciais fora de sua organização ou roubo de dados com más intenções. Em conjunto com uma política de prevenção de perda de dados (DLP) atribuída, este modelo inicia a pontuação de detecções em tempo real de atividades suspeitas e resulta em uma maior probabilidade de alertas de risco e alertas do insider com níveis de severidade mais altos. Prioridade os usuários são definidos em [grupos de usuários de prioridade](insider-risk-management-settings.md#priority-user-groups-preview) configurados na área configurações de gerenciamento de risco do insider.
 
-Assim como com o **modelo vazamentos de dados gerais**, você deve atribuir uma política de DLP para acionar indicadores na política de risco do insider para alertas de alta gravidade em sua organização. Siga as diretrizes de política de vazamento de dados acima ao criar uma política usando esse modelo. Além disso, você precisará atribuir grupos de usuários de prioridade criados nos grupos de usuários de prioridade de **Gerenciamento de risco do insider**  >  **Settings**  >  **Priority user groups** à política.
+Assim como com o **modelo vazamentos de dados gerais** , você deve atribuir uma política de DLP para acionar indicadores na política de risco do insider para alertas de alta gravidade em sua organização. Siga as diretrizes de política de vazamento de dados acima ao criar uma política usando esse modelo. Além disso, você precisará atribuir grupos de usuários de prioridade criados nos grupos de usuários de prioridade de **Gerenciamento de risco do insider**  >  **Settings**  >  **Priority user groups** à política.
 
 ### <a name="data-leaks-by-disgruntled-users-preview"></a>Vazamentos de dados por usuários descontentes (visualização)
 
@@ -87,23 +87,23 @@ Ao usar esse modelo, você também deve configurar um conector de RH da Microsof
 
 ### <a name="general-security-policy-violations-preview"></a>Violações de política de segurança geral (versão prévia)
 
-Em muitas organizações, os usuários têm permissões para instalar o software em seus dispositivos ou para modificar as configurações do dispositivo para ajudar com suas tarefas. Inadvertidamente ou com más intenções, os usuários podem instalar malware ou desabilitar recursos de segurança importantes que ajudam a proteger informações em seus dispositivos ou em seus recursos de rede. Este modelo de política usa alertas de segurança da proteção avançada contra ameaças do Microsoft defender (ATP) para começar a pontuação dessas atividades e detecção de foco e alertas para esta área de risco. Use este modelo para fornecer informações sobre violações de política de segurança em cenários quando os usuários podem ter um histórico de violações de política de segurança que podem ser um indicador de risco de insider.
+Em muitas organizações, os usuários têm permissões para instalar o software em seus dispositivos ou para modificar as configurações do dispositivo para ajudar com suas tarefas. Inadvertidamente ou com más intenções, os usuários podem instalar malware ou desabilitar recursos de segurança importantes que ajudam a proteger informações em seus dispositivos ou em seus recursos de rede. Este modelo de política usa alertas de segurança do Microsoft defender para o ponto de extremidade para começar a pontuação dessas atividades e detecção de foco e alertas para esta área de risco. Use este modelo para fornecer informações sobre violações de política de segurança em cenários quando os usuários podem ter um histórico de violações de política de segurança que podem ser um indicador de risco de insider.
 
-Você precisará ter o Microsoft defender ATP configurado em sua organização e habilitar o Microsoft defender ATP para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o Microsoft defender ATP para integração do gerenciamento de risco do Insider, consulte [configurar recursos avançados no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
+Você precisará ter o Microsoft defender para ponto de extremidade configurado em sua organização e habilitar o defender for Endpoint para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o defender for Endpoint para integração do gerenciamento de risco do Insider, consulte [Configure Advanced Features in defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
 
 ### <a name="security-policy-violations-by-departing-users-preview"></a>Violações de política de segurança por parte dos usuários (visualização)
 
-A desativação de usuários, independentemente de termos positivos ou negativos, pode ser um risco maior para violações de política de segurança. Para ajudar a proteger contra violações de segurança inadvertidas ou mal-intencionadas para a parte dos usuários, este modelo de política usa os alertas do Microsoft defender ATP para fornecer informações sobre atividades relacionadas à segurança. Essas atividades incluem o usuário que está instalando malware ou outros aplicativos potencialmente prejudiciais e desativando os recursos de segurança em seus dispositivos. Os indicadores de política são ativados depois que os usuários têm uma data de demissão ou de término importada do Microsoft 365 HR Connector como um evento de acionamento.
+A desativação de usuários, independentemente de termos positivos ou negativos, pode ser um risco maior para violações de política de segurança. Para ajudar a proteger contra violações de segurança inadvertidas ou mal-intencionadas para a parte dos usuários, este modelo de política usa o defender para alertas de ponto de extremidade para fornecer informações sobre atividades relacionadas à segurança. Essas atividades incluem o usuário que está instalando malware ou outros aplicativos potencialmente prejudiciais e desativando os recursos de segurança em seus dispositivos. Os indicadores de política são ativados depois que os usuários têm uma data de demissão ou de término importada do Microsoft 365 HR Connector como um evento de acionamento.
 
 Ao usar esse modelo, você deve configurar um conector de RH da Microsoft 365 para importar periodicamente informações de data de demissão e de término para usuários em sua organização. Consulte o artigo [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
 
-Você precisará ter o Microsoft defender ATP configurado em sua organização e habilitar o Microsoft defender ATP para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o Microsoft defender ATP para integração do gerenciamento de risco do Insider, consulte [configurar recursos avançados no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
+Você precisará ter o Microsoft defender para ponto de extremidade configurado em sua organização e habilitar o defender for Endpoint para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o defender for Endpoint para integração do gerenciamento de risco do Insider, consulte [Configure Advanced Features in defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
 
 ### <a name="security-policy-violations-by-priority-users-preview"></a>Violações de política de segurança por usuários de prioridade (prévia)
 
-A proteção contra violações de segurança para usuários em sua organização pode depender de sua posição, nível de acesso a informações confidenciais ou histórico de riscos. Como as violações de segurança por usuários prioritários podem ter um impacto de baixo tamanho nas áreas críticas da sua organização, esse modelo de política inicia a pontuação nesses indicadores e usa os alertas do Microsoft defender ATP para fornecer informações sobre atividades relacionadas à segurança para esses usuários. Podem incluir a prioridade dos usuários que instalam malware ou outros aplicativos potencialmente prejudiciais e desabilitando recursos de segurança em seus dispositivos. Prioridade os usuários são definidos em grupos de usuários de prioridade configurados na área configurações de gerenciamento de risco do insider.
+A proteção contra violações de segurança para usuários em sua organização pode depender de sua posição, nível de acesso a informações confidenciais ou histórico de riscos. Como as violações de segurança por usuários prioritários podem ter um impacto de baixo tamanho nas áreas críticas da sua organização, esse modelo de política inicia a pontuação nesses indicadores e usa o Microsoft defender para alertas de ponto de extremidade para fornecer informações sobre atividades relacionadas à segurança para esses usuários. Podem incluir a prioridade dos usuários que instalam malware ou outros aplicativos potencialmente prejudiciais e desabilitando recursos de segurança em seus dispositivos. Prioridade os usuários são definidos em grupos de usuários de prioridade configurados na área configurações de gerenciamento de risco do insider.
 
-Você precisará ter o Microsoft defender ATP configurado em sua organização e habilitar o Microsoft defender ATP para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o Microsoft defender ATP para integração do gerenciamento de risco do Insider, consulte [configurar recursos avançados no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center). Além disso, você precisará atribuir grupos de usuários de prioridade criados nos grupos de usuários de prioridade de **Gerenciamento de risco do insider**  >  **Settings**  >  **Priority user groups** à política.
+Você precisará ter o Microsoft defender para ponto de extremidade configurado em sua organização e habilitar o defender for Endpoint para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o defender for Endpoint para integração do gerenciamento de risco do Insider, consulte [Configure Advanced Features in defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center). Além disso, você precisará atribuir grupos de usuários de prioridade criados nos grupos de usuários de prioridade de **Gerenciamento de risco do insider**  >  **Settings**  >  **Priority user groups** à política.
 
 ### <a name="security-policy-violations-by-disgruntled-users-preview"></a>Violações de política de segurança por usuários descontentes (visualização)
 
@@ -111,7 +111,7 @@ Os usuários que experimentarem os aeroestresse podem ser um risco maior para vi
 
 Ao usar esse modelo, você também deve configurar um conector de RH da Microsoft 365 para importar periodicamente notificações de melhoria de desempenho, status de análise de desempenho ruim ou informações de alteração de nível de trabalho para usuários em sua organização. Consulte o artigo [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
 
-Você também precisará ter o Microsoft defender ATP configurado em sua organização e habilitar o Microsoft defender ATP para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o Microsoft defender ATP para integração do gerenciamento de risco do Insider, consulte [configurar recursos avançados no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
+Você também precisará ter o Microsoft defender para ponto de extremidade configurado em sua organização e habilitar o defender for Endpoint para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Para obter mais informações sobre como configurar o defender for Endpoint para integração do gerenciamento de risco do Insider, consulte [Configure Advanced Features in defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
 
 ### <a name="offensive-language-in-email"></a>Idioma ofensivo no email
 
@@ -132,10 +132,10 @@ A tabela a seguir lista os eventos de acionamento e os pré-requisitos para pol�
 | Vazamentos de dados gerais | Atividade de política de perda de dados que cria um alerta de alta gravidade | Política de DLP configurada para alertas de alta gravidade |
 | Vazamentos de dados por usuários de prioridade | Atividade de política de perda de dados que cria um alerta de alta gravidade | Política de DLP configurada para alertas de alta gravidade <br><br> Grupos de usuários de prioridade definidos nas configurações de risco do insider |
 | Vazamentos de dados por usuários descontentes | Melhoria do desempenho, desempenho ruim ou indicadores de alteração no nível do trabalho do conector de RH | Conector de RH da Microsoft 365 configurado para indicadores de insatisfeito |
-| Violações de política de segurança geral | Evasion defensiva de controles de segurança ou softwares indesejados detectados pelo Microsoft defender ATP | Assinatura ATP do Microsoft defender ativa <br><br> Integração do Microsoft defender ATP com o centro de conformidade da Microsoft 365 configurado |
-| Violações de política de segurança por parte dos usuários | Indicadores de data de demissão ou demissão do conector de RH | Conector de RH da Microsoft 365 configurado para indicadores de data de término e demissão <br><br> Assinatura ATP do Microsoft defender ativa <br><br> Integração do Microsoft defender ATP com o centro de conformidade da Microsoft 365 configurado |
-| Violações de política de segurança por usuários de prioridade | Evasion defensiva de controles de segurança ou softwares indesejados detectados pelo Microsoft defender ATP | Assinatura ATP do Microsoft defender ativa <br><br> Integração do Microsoft defender ATP com o centro de conformidade da Microsoft 365 configurado <br><br> Grupos de usuários de prioridade definidos nas configurações de risco do insider |
-| Violações de política de segurança por usuário descontente | Melhoria do desempenho, desempenho ruim ou indicadores de alteração no nível do trabalho do conector de RH | Conector de RH da Microsoft 365 configurado para indicadores de insatisfeito <br><br> Assinatura ATP do Microsoft defender ativa <br><br> Integração do Microsoft defender ATP com o centro de conformidade da Microsoft 365 configurado |
+| Violações de política de segurança geral | Evasion defensiva de controles de segurança ou softwares indesejados detectados pelo Microsoft defender para ponto de extremidade | Assinatura ativa do Microsoft defender para ponto de extremidade <br><br> Integração do Microsoft defender for Endpoint com o centro de conformidade da Microsoft 365 configurado |
+| Violações de política de segurança por parte dos usuários | Indicadores de data de demissão ou demissão do conector de RH | Conector de RH da Microsoft 365 configurado para indicadores de data de término e demissão <br><br> Assinatura ativa do Microsoft defender para ponto de extremidade <br><br> Integração do Microsoft defender for Endpoint com o centro de conformidade da Microsoft 365 configurado |
+| Violações de política de segurança por usuários de prioridade | Evasion defensiva de controles de segurança ou softwares indesejados detectados pelo Microsoft defender para ponto de extremidade | Assinatura ativa do Microsoft defender para ponto de extremidade <br><br> Integração do Microsoft defender for Endpoint com o centro de conformidade da Microsoft 365 configurado <br><br> Grupos de usuários de prioridade definidos nas configurações de risco do insider |
+| Violações de política de segurança por usuário descontente | Melhoria do desempenho, desempenho ruim ou indicadores de alteração no nível do trabalho do conector de RH | Conector de RH da Microsoft 365 configurado para indicadores de insatisfeito <br><br> Assinatura ativa do Microsoft defender para ponto de extremidade <br><br> Integração do Microsoft defender for Endpoint com o centro de conformidade da Microsoft 365 configurado |
 | Idioma ofensivo no email | Profanação, ameaças ou idioma assédio em mensagens de email | Assinatura ativa do Exchange Online |
 
 ## <a name="prioritize-content-in-policies"></a>Priorizar o conteúdo nas políticas
@@ -146,9 +146,9 @@ Por exemplo, sua organização tem um site dedicado do SharePoint para um projet
 
 Ao criar uma política de gerenciamento de risco do insider no assistente de política, você pode escolher entre as seguintes prioridades:
 
-- **Sites do SharePoint**: qualquer atividade associada a todos os tipos de arquivo em sites do SharePoint definidos é atribuída uma pontuação de risco maior. 
-- **Tipos de informações confidenciais**: qualquer atividade associada ao conteúdo que contenha [tipos de informações confidenciais](sensitive-information-type-entity-definitions.md) é atribuída uma pontuação de risco maior.
-- **Rótulos de sensibilidade**: qualquer atividade associada ao conteúdo que tenha [Rótulos de confidencialidade](sensitivity-labels.md) específicos aplicados recebe uma pontuação de risco mais alta.
+- **Sites do SharePoint** : qualquer atividade associada a todos os tipos de arquivo em sites do SharePoint definidos é atribuída uma pontuação de risco maior. 
+- **Tipos de informações confidenciais** : qualquer atividade associada ao conteúdo que contenha [tipos de informações confidenciais](sensitive-information-type-entity-definitions.md) é atribuída uma pontuação de risco maior.
+- **Rótulos de sensibilidade** : qualquer atividade associada ao conteúdo que tenha [Rótulos de confidencialidade](sensitivity-labels.md) específicos aplicados recebe uma pontuação de risco mais alta.
 
 ## <a name="create-a-new-policy"></a>Criar uma nova política
 
@@ -159,9 +159,9 @@ Conclua as seguintes etapas para criar uma nova política:
 1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **políticas** .
 2. Selecione **criar política** para abrir o assistente de política
 3. Na página **nova política de riscos de insider** , preencha os seguintes campos:
-    - **Nome (obrigatório)**: Insira um nome amigável para a política.
-    - **Descrição (opcional)**: Insira uma descrição para a política.
-    - **Escolher modelo de política (obrigatório)**: selecione um dos [modelos de política](insider-risk-management-policies.md#policy-templates) para definir os tipos de indicadores de risco são monitorados pela política.
+    - **Nome (obrigatório)** : Insira um nome amigável para a política.
+    - **Descrição (opcional)** : Insira uma descrição para a política.
+    - **Escolher modelo de política (obrigatório)** : selecione um dos [modelos de política](insider-risk-management-policies.md#policy-templates) para definir os tipos de indicadores de risco são monitorados pela política.
 
     >[!IMPORTANT]
     >A maioria dos modelos de política tem pré-requisitos que devem ser configurados para que a política Gere alertas relevantes. Se você não tiver configurado os pré-requisitos de política aplicáveis, confira [introdução ao gerenciamento de riscos do insider](insider-risk-management-configure.md#step-3-configure-prerequisites-for-templates).
@@ -169,9 +169,9 @@ Conclua as seguintes etapas para criar uma nova política:
 4. Selecione **Avançar** para continuar.
 5. Na página **usuários** , selecione **Adicionar usuário ou grupo** ou **escolha prioridade grupos de usuários** para definir quais usuários ou grupos de usuários de prioridade estão incluídos na política, dependendo do modelo de política que você selecionou. Marque a caixa **de seleção todos os usuários e grupos habilitados para email,** se aplicável (se você não tiver selecionado um modelo com prioridade de usuário). Selecione **Avançar** para continuar.
 6. Na página **especificar qual conteúdo priorizar (opcional)** , você pode atribuir as fontes a serem priorizadas para maiores pontuações de risco. No entanto, algumas atividades não gerarão nenhum alerta, a menos que o conteúdo relacionado contenha tipos de informações confidenciais internas ou personalizadas ou tenha sido especificado como uma prioridade nesta página:
-    - **Sites do SharePoint**: selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
-    - **Tipo de informação confidencial**: selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
-    - **Rótulos de sensibilidade**: selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
+    - **Sites do SharePoint** : selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - **Tipo de informação confidencial** : selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
+    - **Rótulos de sensibilidade** : selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 7. Selecione **Avançar** para continuar.
 8. Na página **selecionar indicadores de política** , você verá os [indicadores](insider-risk-management-settings.md#indicators) definidos como disponíveis na página indicadores de configurações de **risco do insider**  >  **Indicators** . Se você selecionou um modelo de *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** para habilitar os indicadores de disparo para a política. Selecione os indicadores que você deseja aplicar à política. Se preferir não usar as configurações de limite de política padrão para esses indicadores, desabilite o **uso de limiares padrão recomendados pela Microsoft** e insira os valores de limite para cada indicador selecionado. Se você tiver selecionado pelo menos um indicador do *Office* ou *dispositivo* , selecione os **aceleradores de Pontuação de risco** conforme apropriado. Os aumentos de Pontuação de risco só se aplicam aos indicadores selecionados.
 
@@ -193,15 +193,15 @@ Conclua as seguintes etapas para gerenciar uma política existente:
 2. No painel de políticas, selecione a política que você deseja gerenciar.
 3. Na página detalhes da política, selecione **Editar política**
 4. No assistente de política, não é possível editar os seguintes campos:
-    - **Nome**: o nome amigável da política
-    - **Escolha modelo de política**: o modelo usado para definir os tipos de indicadores de risco monitorados pela política.
+    - **Nome** : o nome amigável da política
+    - **Escolha modelo de política** : o modelo usado para definir os tipos de indicadores de risco monitorados pela política.
 5. Insira uma nova descrição para a política no campo **Descrição** . 
 6. Selecione **Avançar** para continuar.
 7. Na página **usuários** , selecione **Adicionar usuário ou grupo** ou **escolha prioridade grupos de usuários** para definir quais usuários ou grupos de usuários de prioridade estão incluídos na política, dependendo do modelo de política que você selecionou. Marque a caixa **de seleção todos os usuários e grupos habilitados para email,** se aplicável (se você não tiver selecionado um modelo com prioridade de usuário). Selecione **Avançar** para continuar.
 8. Na página **especificar qual conteúdo priorizar (opcional)** , você pode atribuir as fontes a serem priorizadas para maiores pontuações de risco. No entanto, algumas atividades não gerarão nenhum alerta, a menos que o conteúdo relacionado contenha tipos de informações confidenciais internas ou personalizadas ou tenha sido especificado como uma prioridade nesta página:
-    - **Sites do SharePoint**: selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
-    - **Tipo de informação confidencial**: selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
-    - **Rótulos de sensibilidade**: selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
+    - **Sites do SharePoint** : selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - **Tipo de informação confidencial** : selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
+    - **Rótulos de sensibilidade** : selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 9. Selecione **Avançar** para continuar.
 10. Na página **selecionar indicadores de política** , você verá os [indicadores](insider-risk-management-settings.md#indicators) definidos como disponíveis na página indicadores de configurações de **risco do insider**  >  **Indicators** . Se você selecionou um modelo de *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** para habilitar os indicadores de disparo para a política. Selecione os indicadores que você deseja aplicar à política. Se preferir não usar as configurações de limite de política padrão para esses indicadores, desabilite o **uso de limiares padrão recomendados pela Microsoft** e insira os valores de limite para cada indicador selecionado. Se você tiver selecionado pelo menos um indicador do *Office* ou *dispositivo* , selecione os **aceleradores de Pontuação de risco** conforme apropriado. Os aumentos de Pontuação de risco só se aplicam aos indicadores selecionados.
 

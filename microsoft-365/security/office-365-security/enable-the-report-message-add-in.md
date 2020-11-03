@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o suplemento de mensagem de relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: b061d9db44b08a65b59481035c055a1b75eb6e3c
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: d760aa5d58e628872682131efae9d9c3b3c46734
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600364"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842447"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
@@ -35,7 +35,7 @@ O suplemento de mensagem de relatório para o Outlook e o Outlook na Web (anteri
 
 Por exemplo, suponha que as pessoas estejam relatando muitas mensagens como phishing. Essas informações são superfícies no [painel de segurança](security-dashboard.md) e em outros relatórios. A equipe de segurança da sua organização pode usar essas informações como indicação de que as políticas anti-phishing podem precisar ser atualizadas. Ou, se as pessoas estiverem relatando muitas mensagens que foram sinalizadas como lixo eletrônico como não sendo lixo eletrônico usando o suplemento de mensagem de relatório, a equipe de segurança da sua organização poderá precisar ajustar [políticas antispam](configure-your-spam-filter-policies.md).
 
-Além disso, se sua organização estiver usando o [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) ou o [plano 2](office-365-ti.md), o suplemento de mensagem de relatório fornecerá a equipe de segurança da sua organização com informações úteis que podem ser usadas para analisar e atualizar as políticas de segurança.
+Além disso, se sua organização estiver usando o [Microsoft defender para Office 365 plano 1](office-365-atp.md) ou [plano 2](office-365-ti.md), o suplemento de mensagem de relatório fornecerá informações úteis para a equipe de segurança da sua organização que podem ser usadas para analisar e atualizar as políticas de segurança.
 
 Os administradores podem habilitar o suplemento de mensagem de relatório para a organização, e os usuários individuais podem instalá-lo para si mesmos.
 
@@ -101,7 +101,7 @@ Para saber como usar o suplemento, confira [usar o suplemento de mensagem de rel
 
    ![Implantar uma nova página de suplemento](../../media/NewAddInScreen2.png)
 
-4. Na página **selecionar suplemento** que aparece, clique na caixa de **pesquisa** , insira uma mensagem de **relatório**e clique em ícone de pesquisa de **pesquisa** ![ ](../../media/search-icon.png) . Na lista de resultados, encontre **mensagem de relatório** e clique em **Adicionar**.
+4. Na página **selecionar suplemento** que aparece, clique na caixa de **pesquisa** , insira uma mensagem de **relatório** e clique em ícone de pesquisa de **pesquisa** ![ ](../../media/search-icon.png) . Na lista de resultados, encontre **mensagem de relatório** e clique em **Adicionar**.
 
    ![Selecionar resultados de pesquisa de suplemento](../../media/NewAddInScreen3.png)
 
@@ -109,17 +109,17 @@ Para saber como usar o suplemento, confira [usar o suplemento de mensagem de rel
 
 6. Na página **Configurar Suplemento** exibida, defina as seguintes configurações:
 
-   - **Usuários atribuídos**: selecione um dos seguintes valores:
+   - **Usuários atribuídos** : selecione um dos seguintes valores:
 
      - **Todos** (padrão)
      - **Usuários/grupos específicos**
      - **Só eu**
 
-   - **Método de implantação**: selecione um dos seguintes valores:
+   - **Método de implantação** : selecione um dos seguintes valores:
 
-     - **Fixo (padrão)**: o suplemento é implantado automaticamente para os usuários especificados, e eles não podem removê-lo.
-     - **Disponível**: os usuários podem instalar o suplemento em **casa** \> **Get de suplementos** do \> **administrador**.
-     - **Opcional**: o suplemento é implantado automaticamente para os usuários especificados, mas eles podem optar por removê-lo.
+     - **Fixo (padrão)** : o suplemento é implantado automaticamente para os usuários especificados, e eles não podem removê-lo.
+     - **Disponível** : os usuários podem instalar o suplemento em **casa** \> **Get de suplementos** do \> **administrador**.
+     - **Opcional** : o suplemento é implantado automaticamente para os usuários especificados, mas eles podem optar por removê-lo.
 
    ![Configurar página de suplemento](../../media/configure-add-in.png)
 

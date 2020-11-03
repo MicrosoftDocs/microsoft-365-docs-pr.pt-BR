@@ -24,12 +24,12 @@ description: Saiba como adquirir um complemento para adicionar mais funcionalida
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: e73a3430dbcded25a15fad19815106a72798d8e8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cfbce7efa1c80d9e5da8390c183233a6f2a12eb7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638382"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842815"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Comprar ou editar um suplemento
 
@@ -234,7 +234,7 @@ Para saber mais sobre complementos do Skype for Business, veja [Licenciamento do
 |**Complemento**|**Disponível nessas assinaturas**|
 |:-----|:-----|
 |Sistema de Proteção de Dados do Cliente  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
-|[Proteção avançada contra ameaças do Office 365 online](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
+|[Microsoft defender para Office 365](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
 |[Arquivamento do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=691157) <br/> | Microsoft 365 Business Basic  <br/>  Microsoft 365 Business Standard  <br/>  Office 365 Enterprise E1  <br/>  Office 365 Enterprise F1  <br/> |
 |Microsoft MyAnalytics  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
 |Conformidade Avançada do Office 365  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
