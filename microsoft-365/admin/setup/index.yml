@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 5410037edbd61f67147745f3c15fabe3f358177d
-  ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+  ms.openlocfilehash: 844307c6874a6b4e48cd13b599ca4e25dd59945e
+  ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/01/2020
-  ms.locfileid: "47324407"
+  ms.lasthandoff: 11/03/2020
+  ms.locfileid: "48841394"
 landingContent:
 - title: Inscreva-se
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
     links:
     - text: Inscreva-se no Microsoft Business Premium
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-- title: Configuração dirigida
+- title: Configuração guiada
   linkLists:
   - linkListType: overview
     links:

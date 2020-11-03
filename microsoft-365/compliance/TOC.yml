@@ -266,6 +266,8 @@
           href: dlp-sensitivity-label-as-condition.md
         - name: Usar as políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft
           href: dlp-use-policies-non-microsoft-cloud-apps.md
+        - name: Condições e exceções da política DLP (pré-visualização)
+          href: dlp-conditions-and-exceptions.md
 - name: Gerenciar a governança de informações
   items:
     - name: Gerenciar seus dados

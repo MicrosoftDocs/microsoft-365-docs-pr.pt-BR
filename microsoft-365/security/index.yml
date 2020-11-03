@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 7c7928db46f7aed25076d6d83d6e3a0d08c1114f
-  ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+  ms.openlocfilehash: 2f716c0220f9fb85dd52e214aabc0df02ca4b222
+  ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/17/2020
-  ms.locfileid: "47956204"
+  ms.lasthandoff: 11/03/2020
+  ms.locfileid: "48847687"
 landingContent:
 - title: Proteção contra Ameaças da Microsoft
   linkLists:
@@ -42,13 +42,13 @@ landingContent:
     links:
     - text: Proteja sua força de trabalho remota
       url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: Azure ATP
+- title: Microsoft Defender para Identidade
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Azure ATP?
+    - text: O que é o Microsoft Defender para Identidade?
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
-    - text: Arquitetura ATP do Azure
+    - text: Arquitetura do Microsoft Defender para Identidade
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
 - title: Office 365 ATP
   linkLists:
