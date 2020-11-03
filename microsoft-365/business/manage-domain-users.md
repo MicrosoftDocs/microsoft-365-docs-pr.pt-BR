@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Sincronizar usuários controlados pelo domínio com o Microsoft 365 for Business.
-ms.openlocfilehash: 9495d893eb6870ef7c417a78f921296bfc0e6705
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: b40a995a1723808d2fd171c534e9131a891840ba
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306440"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841350"
 ---
 # <a name="synchronize-domain-users-to-microsoft-365"></a>Sincronizar os usuários do domínio com o Microsoft 365
 
@@ -36,23 +36,23 @@ ms.locfileid: "47306440"
 
 Antes de sincronizar os usuários e computadores do domínio do Active Directory local, revise [preparar para a sincronização de diretório para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/prepare-for-directory-synchronization). Em particular:
 
-   - Verifique se não há duplicatas no diretório para os seguintes atributos: **mail**, **proxyAddresses**e **userPrincipalName**. Esses valores devem ser exclusivos e qualquer duplicatas deve ser removida.
+   - Verifique se não há duplicatas no diretório para os seguintes atributos: **mail** , **proxyAddresses** e **userPrincipalName** . Esses valores devem ser exclusivos e qualquer duplicatas deve ser removida.
    
    - Recomendamos que você configure o atributo **userPrincipalName** (UPN) para cada conta de usuário local para corresponder ao endereço de email principal que corresponde ao usuário licenciado 365 da Microsoft. Por exemplo: *Mary.Shelley@contoso.com* em vez de *Mary@contoso. local*
    
-   - Se o domínio do Active Directory terminar em um sufixo não roteável, como. *local* ou *. LAN*, em vez de um sufixo roteável na Internet, como *. com* ou *. org*, ajuste o sufixo UPN das contas de usuário local primeiro, conforme descrito em [preparar um domínio não roteável para a sincronização de diretórios](https://docs.microsoft.com/microsoft-365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
+   - Se o domínio do Active Directory terminar em um sufixo não roteável, como. *local* ou *. LAN* , em vez de um sufixo roteável na Internet, como *. com* ou *. org* , ajuste o sufixo UPN das contas de usuário local primeiro, conforme descrito em [preparar um domínio não roteável para a sincronização de diretórios](https://docs.microsoft.com/microsoft-365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
-A **execução IdFix** na etapa quatro (4) abaixo também garantirá que o Active Directory local está pronto para a sincronização de dir.
+A **execução IdFix** na etapa quatro (4) abaixo também garantirá que o Active Directory local está pronto para a sincronização de diretórios.
 
 ## <a name="2-install-and-configure-azure-ad-connect"></a>2. instalar e configurar o Azure AD Connect
 
 Para sincronizar os usuários, grupos e contatos do Active Directory local para o Active Directory do Azure, instale o Azure Active Directory Connect e configure a sincronização de diretórios. 
 
- 1. No centro de administração, em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> selecionar **configuração** no painel de navegação esquerdo.
+ 1. No [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecione **configuração** no painel de navegação esquerdo.
 
- 2. Em **entrada e segurança**, escolha **Exibir**  em **sincronizar usuários do diretório da sua organização**.
+ 2. Em **entrada e segurança** , escolha **Exibir**  em **sincronizar usuários do diretório da sua organização** .
 
- 3. Na página **sincronizar usuários do diretório da organização** , escolha **introdução**.
+ 3. Na página **sincronizar usuários do diretório da organização** , escolha **introdução** .
 
  4. Na primeira etapa, execute IdFix Tool para preparar a sincronização de diretórios.
 
@@ -61,9 +61,9 @@ Para sincronizar os usuários, grupos e contatos do Active Directory local para 
 
 Confira [Configurar a sincronização de diretórios para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) para saber mais.
 
-Ao configurar suas opções para o Azure AD Connect, recomendamos que você habilite a **sincronização de senha**, o **logon único contínuo**e o recurso **write-back de senha** , que também é suportado no Microsoft 365 for Business.
+Ao configurar suas opções para o Azure AD Connect, recomendamos que você habilite a **sincronização de senha** , o **logon único contínuo** e o recurso **write-back de senha** , que também é suportado no Microsoft 365 for Business.
 
 > [!NOTE]
 > Há algumas etapas adicionais para o Write-back de senha além da caixa de seleção no Azure AD Connect. Para obter mais informações, consulte [como fazer: configurar o Write-back de senha](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). 
 
-Se você quiser gerenciar dispositivos Windows 10 associados ao domínio também, confira [habilitar dispositivos Windows 10 associados ao domínio para que sejam gerenciados pelo Microsoft 365 Business Premium](manage-windows-devices.md) para configurar uma associação híbrida do Azure AD. 
+Se você também quiser gerenciar dispositivos Windows 10 associados ao domínio, confira [habilitar dispositivos Windows 10 associados ao domínio para que sejam gerenciados pelo Microsoft 365 Business Premium](manage-windows-devices.md) para configurar uma associação híbrida do Azure AD. 

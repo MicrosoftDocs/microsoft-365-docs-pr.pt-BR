@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade da experiência do Microsoft 365 aplicativos Health-Technology.
-ms.openlocfilehash: 4242a9b665bc7292232cc15ee0f1ec37915fb1ac
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 9497118f4ebfb1cb2b64670638ce939da21eb261
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804764"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841184"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Integridade de aplicativos da Microsoft 365 – experiências tecnológicas
 
-Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com métricas sobre como as pessoas usam o Microsoft 365 aplicativos e as experiências de tecnologia de suporte. A pontuação reflete o desempenho da sua organização&#39;s para categorias de pessoas e experiência tecnológica e compara sua pontuação com organizações como a sua. A categoria trabalho em equipe é parte das medidas que se enquadram em experiências de pessoas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md) para saber mais.
+Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com métricas sobre como as pessoas usam o Microsoft 365 aplicativos e as experiências de tecnologia de suporte. A pontuação reflete o desempenho da sua organização&#39;s para categorias de pessoas e experiência tecnológica e compara sua pontuação com organizações como a sua. A categoria de integridade do aplicativo faz parte das medidas que se enquadram em experiências de pessoas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md) para saber mais.
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Por que sua organização&#39;a pontuação de integridade dos aplicativos Microsoft 365 é importante
 

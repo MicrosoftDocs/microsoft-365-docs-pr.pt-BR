@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: a73632a1-62c8-4a13-8115-913773b30f93
 description: Saiba como solucionar problemas com o aplicativo de modelo de análise de uso do Microsoft 365.
-ms.openlocfilehash: 4696dd0c5140cdc110781c226819fc64a90fae1b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: bf8e4ece7b1e310d91f418f5388cae9aa27f2aa7
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402029"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841430"
 ---
 # <a name="troubleshooting-microsoft-365-usage-analytics"></a>Solucionando problemas de análise de uso do Microsoft 365
 
@@ -54,9 +54,9 @@ Explore a seguinte lista de mensagens de erro para obter ajuda com os problemas 
 
  **Código de erro:** 423 
   
- **Onde você verá esta mensagem:** No Power BI quando você estiver se conectando ao aplicativo de modelo de análise de uso do Microsoft 365 ou ao chamar diretamente as APIs de relatórios da Microsoft 365. 
+ **Onde você verá esta mensagem:** No Power BI, quando você está se conectando ao aplicativo de modelo de análise de uso do Microsoft 365 ou ao chamar diretamente as APIs de relatórios do Microsoft 365. 
   
- **Causa:** Quando você [optar por ver dados no aplicativo de modelo](enable-usage-analytics.md) a partir do centro de administração, o sistema Microsoft 365 começa a gerar dados de uso históricos para sua organização. Dependendo do tamanho do seu locatário, este passo pode levar entre 2 e 48 horas. 
+ **Causa:** Quando você [optar por ver dados no aplicativo de modelo](enable-usage-analytics.md) a partir do centro de administração, o sistema Microsoft 365 começa a gerar dados de uso históricos para sua organização. Dependendo do tamanho do seu locatário, essa etapa pode levar de duas horas a 48 horas. 
   
  **Para corrigir isso:** Seja paciente, mas se a mensagem não mudar para **seus dados estiver pronta** até 3 dias desde o início, [entre em contato com o suporte da Microsoft 365 para empresas](../contact-support-for-business-products.md).
   
@@ -64,9 +64,9 @@ Explore a seguinte lista de mensagens de erro para obter ajuda com os problemas 
 
  **Código de erro:** 400 
   
- **Onde você verá esta mensagem:** No Power BI quando você estiver se conectando ao aplicativo de modelo de análise de uso do Microsoft 365 ou ao chamar diretamente as APIs de relatórios da Microsoft 365. 
+ **Onde você verá esta mensagem:** No Power BI, quando você está se conectando ao aplicativo de modelo de análise de uso do Microsoft 365 ou ao chamar diretamente as APIs de relatórios do Microsoft 365. 
   
- **Causa:** A ID do locatário é um guid e tem que estar no formato xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. Se você inserir qualquer outra sequência na caixa de entrada do locatário, você receberá esse erro. 
+ **Causa:** A ID do locatário é um GUID e deve estar no formato XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX. Se você inserir qualquer outra cadeia de caracteres na caixa de entrada do locatário, receberá esse erro. 
   
  **Para corrigir esse erro:** Vá para o centro de administração de \> **relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">uso</a> e localize o bloco de análise de uso do Microsoft 365 na página de painel principal. A ID do locatário está listada no bloco. Você pode copiá-lo daqui e colá-lo na caixa de diálogo para se conectar ao aplicativo de modelo. 
   
@@ -98,7 +98,7 @@ Código de erro: 302
   
  **Causa:** O código de autorização falhou porque o usuário que tentou se conectar ao aplicativo de modelo não tem o nível certo de autorização para acessar esses dados. 
   
- **Para corrigir esse erro:** Forneça as credenciais de um usuário que seja um **administrador global**, **administrador do Exchange**, **administrador do Skype for Business**, administrador **do SharePoint**, **leitor global** ou **leitor de relatórios** para se conectar ao aplicativo de modelo. Consulte [sobre funções de administrador](../add-users/about-admin-roles.md) para obter mais informações. 
+ **Para corrigir esse erro:** Forneça as credenciais de um usuário que seja um **administrador global** , **administrador do Exchange** , **administrador do Skype for Business** , administrador **do SharePoint** , **leitor global** ou **leitor de relatórios** para se conectar ao aplicativo de modelo. Consulte [sobre funções de administrador](../add-users/about-admin-roles.md) para obter mais informações. 
   
 ## <a name="refresh-failed"></a>Falha na atualização
 

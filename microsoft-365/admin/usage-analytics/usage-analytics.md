@@ -19,29 +19,28 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obtenha uma visão geral de como sua organização está adotando os serviços do Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: fecaed3aa9fc2d0990cb3e7b416cee1bfab21d7e
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d7e9e6cf945134df54221bb8a03ef83d1a8851cc
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948623"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841382"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
----
 
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Visão geral da análise de uso do Microsoft 365
 
-Use a análise de uso do Microsoft 365 no Power BI para obter informações sobre como sua organização está adotando os vários serviços no Microsoft 365 para se comunicar e colaborar. Você pode visualizar e analisar os dados de uso do Microsoft 365, criar relatórios personalizados e compartilhar os insights dentro da sua organização e obter informações sobre como regiões ou departamentos específicos usam o Microsoft 365.
+Use a análise de uso do Microsoft 365 no Power BI para obter informações sobre como sua organização está adotando os vários serviços no Microsoft 365. Você pode visualizar e analisar os dados de uso do Microsoft 365, criar relatórios personalizados e compartilhar os insights em sua organização. Você também pode obter informações sobre como regiões ou departamentos específicos estão usando o Microsoft 365.
   
-A análise de uso do Microsoft 365 é um aplicativo de modelo que oferece acesso a um painel predefinido que oferece uma visão de vários produtos dos últimos 12 meses e contém vários relatórios predefinidos. Cada relatório fornece informações específicas sobre o uso. As informações específicas do usuário estão disponíveis para o último mês completo do calendário.
+A análise de uso do Microsoft 365 oferece acesso a um painel predefinido que oferece uma visão de vários produtos dos últimos 12 meses e contém vários relatórios pré-criados. Cada relatório fornece informações específicas sobre o uso. As informações específicas do usuário estão disponíveis para o último mês completo do calendário.
   
-O [modelo de dados](usage-analytics-data-model.md) que alimenta o aplicativo de modelo inclui atributos de usuário do Active Directory, permitindo a capacidade de dinamizar determinados relatórios. Os seguintes atributos do Active Directory estão incluídos: local, departamento e organização. 
+O [modelo de dados](usage-analytics-data-model.md) que alimenta o aplicativo de modelo inclui atributos de usuário do Active Directory, permitindo a capacidade de dinamizar determinados relatórios. Os seguintes atributos do Active Directory são incluídos: local, departamento e organização. 
   
 Consulte [Habilitar análise de uso do Microsoft 365](enable-usage-analytics.md) para iniciar a coleta de dados. 
   
 A análise de uso do Microsoft 365 contém vários relatórios detalhados nas seções a seguir. 
 
-Você pode acessar relatórios detalhados para cada área selecionando as tabelas de dados. Você pode exibir todos os relatórios predefinidos selecionando as guias na parte inferior do site, depois de exibir os relatórios. Para obter instruções mais detalhadas, leia como [navegar e usar os relatórios da análise de uso do microsoft 365](navigate-and-utilize-reports.md) e [Personalizar os relatórios na análise de uso do Microsoft 365](customize-reports.md).
+Você pode acessar relatórios detalhados para cada área selecionando as tabelas de dados. Você pode exibir todos os relatórios predefinidos selecionando as guias na parte inferior do site. Para obter instruções mais detalhadas, leia como [navegar e usar os relatórios](navigate-and-utilize-reports.md) e [Personalizar os relatórios](customize-reports.md).
 
 ## <a name="executive-summary"></a>Resumo executivo
 
@@ -51,7 +50,7 @@ Este resumo permite que você entenda rapidamente os padrões de uso no Office e
 
 ![Imagem do resumo executivo de uso do Microsoft 365.](../../media/office365usage-exec-summary.png)
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O relatório de visão geral do Microsoft 365 contém os seguintes relatórios. Você pode exibi-las escolhendo a guia na parte superior da página de relatório. Todos os valores do mês mostrados na seção superior do relatório referem-se ao último mês completo.
 
@@ -93,7 +92,7 @@ Para compartilhar os painéis com outras pessoas, Confira mais em [compartilhar 
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>Quem pode se conectar à análise de uso do Microsoft 365?
 
-Você deve ser um **administrador global**, administrador do **Exchange**, **administrador do Skype for Business**, **administrador do SharePoint**, **leitor global** ou **leitor de relatórios** para estabelecer a conexão com o aplicativo de modelo. Consulte [sobre funções de administrador](../add-users/about-admin-roles.md) para obter mais informações.
+Você deve ser um **administrador global** , administrador do **Exchange** , **administrador do Skype for Business** , **administrador do SharePoint** , **leitor global** ou **leitor de relatórios** para estabelecer a conexão com o aplicativo de modelo. Consulte [sobre funções de administrador](../add-users/about-admin-roles.md) para obter mais informações.
 
 ### <a name="who-can-customize-the-usage-analytics-reports"></a>Quem pode personalizar os relatórios de análise de uso?
 

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Saiba como obter um relatório de atividades do Microsoft Forms usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: 78b09edfbfeb83c056af16787085b7c4cfe93fc6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 843548e77067c7598cfa78ba6fac985237f6f62c
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949199"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841108"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de formulários
 
@@ -36,10 +36,10 @@ Por exemplo, você pode entender a atividade de cada usuário licenciado para us
 
 ## <a name="how-to-get-to-the-forms-activity-report"></a>Como obter o relatório de atividades de formulários
 
-1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
+1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No menu suspenso **selecionar um relatório** , selecione atividade de **formulários** \> **activity**.
+2. No menu suspenso **selecionar um relatório** , selecione atividade de **formulários** \> **activity** .
 
 ## <a name="interpret-the-forms-activity-report"></a>Interpretar o relatório de atividades de formulários
 

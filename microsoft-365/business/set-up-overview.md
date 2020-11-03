@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Saiba mais sobre as etapas de configuração para o Microsoft 365 Business Premium, em assinatura, para adicionar um domínio e usuários, para configurar as políticas de segurança e muito mais.
-ms.openlocfilehash: fa9c02fa9546437c83b9cc6c1f1e6e0d723ec868
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 8ec01a58d1a15d5c4aa1cef8b81518b474630d8b
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306460"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841121"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 
@@ -40,21 +40,21 @@ Assista a um pequeno vídeo sobre a configuração do Microsoft 365 Business Pre
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-A maioria das etapas de configuração pode ser feita no assistente de configuração, mas as outras opções também são listadas.
+A maioria das etapas de configuração pode ser feita na configuração interativa, mas as outras opções também são listadas.
 
 ## <a name="step-1-add-your-domain-and-users"></a>Etapa 1: adicionar seu domínio e seus usuários
 
    - **[Adicione seu domínio](set-up.md#add-your-domain-to-personalize-sign-in)** (se você comprou seu domínio durante a [inscrição](sign-up.md), esta etapa já foi feita.)
 
-   - **Adicionar usuários**. Você pode adicionar usuários de uma das três maneiras:
-        - No [Assistente](set-up.md#add-users-in-the-wizard).
+   - **Adicionar usuários** . Você pode adicionar usuários de uma das três maneiras:
+        - Na [configuração interativa](set-up.md#add-users-in-the-wizard).
         - Use a sincronização de diretórios para [Adicionar usuários usando o Azure ad Connect](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) se você tiver um Active Directory local.
         - Você também pode [Adicionar usuários posteriormente](add-users-m365b.md) no centro de administração.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Etapa 2: configurar políticas de segurança e configurar dispositivos 
 
-  - Use o [Assistente de configuração](set-up.md#protect-your-organization) para configurar as políticas de dispositivos. 
+  - Use a [instalação interativa](set-up.md#protect-your-organization) para configurar as políticas de dispositivos. 
   - Você também pode adicionar mais ou editá-los mais tarde no [centro de administração](view-policies-and-devices.md) e no [portal do Intune](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
   - O assistente de configuração também definirá as configurações básicas de proteção contra ameaças e prevenção contra perda de dados.
   
@@ -63,15 +63,15 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
 - **Proteção contra malware de email**
 - **Anti-phishing ATP**
 - **Arquivamento do Exchange Online**
-- **Proteção de informações do Azure (Plan1**)
+- **Proteção de informações do Azure (Plan1** )
 
 Para começar, consulte [aumentar a proteção contra ameaças](increase-threat-protection.md) e [configurar recursos de conformidade](set-up-compliance.md).
 
-Confira também [as 10 maneiras principais de proteger o Microsoft 365 Business Premium](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para um roteiro de práticas recomendadas de segurança.
+Confira também [as 10 maneiras principais de proteger o Microsoft 365 Business Premium](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) para um mapa de viagens de práticas recomendadas de segurança.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Etapa 3: configurar e gerenciar dispositivos Windows 10
 
-Depois de executar o assistente de configuração, você desejará proctectr todos os computadores windwos 10 em sua organização.
+Depois de concluir a instalação interativa, você vai querer proteger todos os computadores com Windows 10 em sua organização.
   
 - O Windows 10 pro é um [pré-requisito](pre-requisites-for-data-protection.md) para o Microsoft 365 Business Premium, mas se você tiver o Windows 7 Pro, Windows 8 Pro ou Windows 8,1 Pro, sua assinatura lhe contitulará uma [atualização para o Windows 10 pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
 - Siga as etapas em [proteger PCs Windows 10](secure-win-10-pcs.md) para configurar políticas para dispositivos Windows 10.
