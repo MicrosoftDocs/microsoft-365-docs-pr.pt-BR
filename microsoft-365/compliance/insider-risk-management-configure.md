@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: e8d30706895774986bc68936bd84c303a6460ece
-ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
+ms.openlocfilehash: 684e21a8288aee72f6170d54ffc86af3bcb0ece0
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787507"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846259"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -57,7 +57,7 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 
 | **Default management role assignments for this role** | **Permissões de função** |
 | :---- | :---------------- |
-| **Gerenciamento de riscos internos** | Use esse grupo de funções para gerenciar o gerenciamento de riscos do insider para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas e investigadores designados, você pode configurar permissões de gerenciamento de risco do insider em um único grupo. Esse grupo de função contém todas as funções de permissão de gerenciamento de risco do insider. Essa configuração é a maneira mais fácil de começar rapidamente com o gerenciamento de risco do insider e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados.|
+| **Gerenciamento de risco do insider** | Use esse grupo de funções para gerenciar o gerenciamento de riscos do insider para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas e investigadores designados, você pode configurar permissões de gerenciamento de risco do insider em um único grupo. Esse grupo de função contém todas as funções de permissão de gerenciamento de risco do insider. Essa configuração é a maneira mais fácil de começar rapidamente com o gerenciamento de risco do insider e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados.|
 | **Administrador de gerenciamento de risco do insider** | Use esse grupo de funções para configurar inicialmente o gerenciamento de riscos de insider e depois para separar os administradores de risco internos em um grupo definido.  Os usuários desse grupo de funções podem criar, ler, atualizar e excluir políticas de gerenciamento de risco do Insider, configurações globais e atribuições de grupos de função. |
 | **Analistas de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como analistas de caso de risco do insider. Os usuários desse grupo de funções podem acessar todos os modelos de alerta, casos e avisos de gerenciamento de risco do insider. Eles não podem acessar o Gerenciador de conteúdo de risco do insider. |
 | **Investigadores de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como investigadores de dados de risco do insider. Os usuários desse grupo de funções podem acessar todos os alertas de gerenciamento de risco do Insider, ocorrências, modelos de avisos e o Gerenciador de conteúdo. |
@@ -71,15 +71,15 @@ Conclua as seguintes etapas para adicionar usuários a um grupo de funções de 
 
 1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
 
-2. No centro de &amp; conformidade de segurança, acesse **permissões** . Selecione o link para exibir e gerenciar funções no Office 365.
+2. No centro de &amp; conformidade de segurança, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
 
-3. Selecione o grupo de funções de gerenciamento de risco do insider ao qual você deseja adicionar usuários e, em seguida, selecione **Editar grupo de função** .
+3. Selecione o grupo de funções de gerenciamento de risco do insider ao qual você deseja adicionar usuários e, em seguida, selecione **Editar grupo de função**.
 
-4. Selecione **escolher Membros** no painel de navegação esquerdo e, em seguida, selecione **Editar** .
+4. Selecione **escolher Membros** no painel de navegação esquerdo e, em seguida, selecione **Editar**.
 
 5. Selecione **Adicionar** e marque a caixa de seleção de todos os usuários que você deseja adicionar ao grupo de funções.
 
-6. Selecione **Adicionar** e, em seguida, selecione **concluído** .
+6. Selecione **Adicionar** e, em seguida, selecione **concluído**.
 
 7. Selecione **salvar** para adicionar os usuários ao grupo de funções. Selecione **fechar** para concluir as etapas.
 
@@ -93,7 +93,7 @@ Para obter instruções passo a passo para ativar a auditoria, consulte [Ativar 
 
 A maioria dos modelos de gerenciamento de risco do insider tem pré-requisitos que devem ser configurados para indicadores de política para gerar alertas de atividade relevantes. Configure os pré-requisitos apropriados dependendo das políticas que você planeja configurar para sua organização.
 
-Se você estiver configurando uma política usando o *idioma ofensivo no modelo de política de email* , você pode ignorar esta etapa e ir diretamente para a **etapa 4** .
+Se você estiver configurando uma política usando o *idioma ofensivo no modelo de política de email* , você pode ignorar esta etapa e ir diretamente para a **etapa 4**.
 
 ### <a name="configure-microsoft-365-hr-connector"></a>Configurar o conector de RH da Microsoft 365
 
@@ -118,7 +118,7 @@ As políticas de DLP ajudam a identificar os usuários a ativar a pontuação de
 >Verifique se você concluiu o seguinte:
 >
 >- Você entende e configurou corretamente os usuários no escopo nas políticas de gerenciamento de risco do DLP e do insider para produzir a cobertura de política que você espera.
->- Certifique-se de que a configuração **relatórios de incidentes** na política de DLP para gerenciamento de risco do insider usada com esses modelos esteja configurada para alertas de nível de severidade *alto* . Os alertas de gerenciamento de risco do insider não serão gerados de políticas DLP com o conjunto de campos **relatórios de incidentes** em *baixo* ou *médio* .
+>- Certifique-se de que a configuração **relatórios de incidentes** na política de DLP para gerenciamento de risco do insider usada com esses modelos esteja configurada para alertas de nível de severidade *alto* . Os alertas de gerenciamento de risco do insider não serão gerados de políticas DLP com o conjunto de campos **relatórios de incidentes** em *baixo* ou *médio*.
 
 Uma política de DLP é necessária ao usar os seguintes modelos de política:
 
@@ -165,10 +165,10 @@ Antes de configurar uma política, defina as seguintes configurações de risco 
     - [Detecções de anomalias](insider-risk-management-settings.md#anomaly-detections)
     - [Detecções de idiomas ofensivos](insider-risk-management-settings.md#offensive-language-detections)
     - [Nível do alerta de volume](insider-risk-management-settings.md#alert-volume)
-    - [Status de alerta de proteção avançada contra ameaças do Microsoft 365 defender](insider-risk-management-settings.md#microsoft-defender-advanced-threat-protection-preview)
+    - [Status de alerta do Microsoft defender for Endpoint](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview)
     - [Configurações de domínio](insider-risk-management-settings.md#domains-preview)
 6. Na página **Exportar alertas** , habilite a exportação de informações de alerta de risco do insider usando as APIs de gerenciamento do Office 365, se necessário.
-7. Na página **grupos de usuários de prioridade** , crie um grupo de usuários de prioridade e adicione usuários se não criados na **etapa 3** .
+7. Na página **grupos de usuários de prioridade** , crie um grupo de usuários de prioridade e adicione usuários se não criados na **etapa 3**.
 8. Na página **fluxos** automáticos de energia, configure um fluxo de modelos de fluxo de risco do insider ou crie um novo fluxo. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#power-automate-flows-preview) para obter orientações passo a passo.
 9. Na **página de ativos de prioridade** , configure os ativos de prioridade para usar os dados do controle físico e da plataforma de acesso importados pelo conector símbolos físico. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#priority-physical-assets-preview) para obter orientações passo a passo.
 10. Na página **Microsoft Teams** , habilite a integração do Microsoft Teams com o gerenciamento de risco do insider para criar automaticamente uma equipe para colaboração de casos ou usuários. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#microsoft-teams-preview) para obter orientações passo a passo.
@@ -194,9 +194,9 @@ As políticas de gerenciamento de risco do insider incluem usuários atribuídos
 4. Selecione **Avançar** para continuar.
 5. Na página **usuários** , selecione **Adicionar usuário ou grupo** ou **escolha prioridade grupos de usuários** para definir quais usuários ou grupos de usuários de prioridade estão incluídos na política, dependendo do modelo de política que você selecionou. Marque a caixa **de seleção todos os usuários e grupos habilitados para email,** se aplicável (se você não tiver selecionado um modelo com prioridade de usuário). Selecione **Avançar** para continuar.
 6. Na página **especificar qual conteúdo priorizar (opcional)** , você pode atribuir as fontes a serem priorizadas para maiores pontuações de risco. No entanto, algumas atividades não gerarão nenhum alerta, a menos que o conteúdo relacionado contenha tipos de informações confidenciais internas ou personalizadas ou tenha sido especificado como uma prioridade nesta página:
-    - **Sites do SharePoint** : selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"* .
-    - **Tipo de informação confidencial** : selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"* .
-    - **Rótulos de sensibilidade** : selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"* .
+    - **Sites do SharePoint** : selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - **Tipo de informação confidencial** : selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
+    - **Rótulos de sensibilidade** : selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 7. Selecione **Avançar** para continuar.
 8. Na página **selecionar indicadores de política** , você verá os [indicadores](insider-risk-management-settings.md#indicators) definidos como disponíveis na página indicadores de configurações de **risco do insider**  >  **Indicators** . Se você selecionou um modelo de *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** para habilitar os indicadores de disparo para a política. Selecione os indicadores que você deseja aplicar à política. Se preferir não usar as configurações de limite de política padrão para esses indicadores, desabilite o **uso de limiares padrão recomendados pela Microsoft** e insira os valores de limite para cada indicador selecionado. Se você tiver selecionado pelo menos um indicador do *Office* ou *dispositivo* , selecione os **aceleradores de Pontuação de risco** conforme apropriado. Os aumentos de Pontuação de risco só se aplicam aos indicadores selecionados.
 

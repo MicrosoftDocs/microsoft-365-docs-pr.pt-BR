@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5944439da4c4df9253e5c6d67944ccc1a7339e71
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: b2aa72dea55d4c75f6e73161e07cf0a9bb5ecf1c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199767"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846269"
 ---
 # <a name="plan-for-insider-risk-management"></a>Planejar o gerenciamento de riscos internos
 
@@ -65,7 +65,7 @@ Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser e
 
 - Ao usar o **roubo de dados por** meio do modelo de usuários, você deve configurar um conector de RH da Microsoft 365 para importar periodicamente informações de recisão e de data de término para usuários em sua organização. Consulte o artigo [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
 - Ao usar modelos de **vazamentos de dados** , você deve configurar pelo menos uma política de prevenção de perda de dados (DLP) para definir informações confidenciais em sua organização e receber alertas de risco do insider para alertas de política de DLP de alta gravidade. Consulte o artigo [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
-- Ao usar modelos de **violação de política de segurança** , você deve habilitar a proteção avançada contra ameaças do Microsoft defender (ATP) para integração de gerenciamento de risco do insider na central de segurança do defender para importar alertas de violação de segurança. Consulte o artigo [configurar recursos avançados no Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features) para obter orientações passo a passo para habilitar a integração do Microsoft defender ATP com o gerenciamento de risco do insider.
+- Ao usar modelos de **violação de política de segurança** , você deve habilitar o Microsoft defender para o ponto de extremidade da integração de gerenciamento de risco do insider no defender para importar alertas de violação de segurança. Consulte o artigo [configurar recursos avançados no Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features) para obter orientações passo a passo para habilitar o defender para integração de ponto de extremidade com o gerenciamento de risco do insider.
 - Ao usar modelos de **usuário descontentes** , você deve configurar um conector de RH da Microsoft 365 para importar periodicamente informações de status de desempenho ou rebaixamento para usuários em sua organização. Consulte o artigo [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
 
 ## <a name="test-with-a-small-group-of-users-in-a-production-environment"></a>Teste com um pequeno grupo de usuários em um ambiente de produção

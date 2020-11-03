@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a76bae70adeb07d9ea0574a25bac14f89a0a790d
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 5533284d4a3f55a51b3017a64e4c353b4ec71352
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262212"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846223"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
 
@@ -53,5 +53,5 @@ Conexões limitadas | Por padrão, as atualizações em conexões limitadas (com
  ### <a name="additional-security-policies"></a>Políticas de segurança adicionais
 
  Essas políticas são adicionadas para aumentar a segurança de setores altamente regulamentados. 
- - **Monitoramento de segurança**: a Microsoft monitorará dispositivos usando a [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Se uma ameaça for detectada, a Microsoft irá notificar o cliente, isolar o dispositivo e retificar o problema remotamente. 
- - **Disable PowerShell v2**: a Microsoft removeu o PowerShell V2 em agosto de 2017. Este recurso foi desabilitado em todos os dispositivos de área de trabalho gerenciada da Microsoft. Para obter mais informações sobre essa alteração, consulte [Windows PowerShell 2,0 Preterition](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).
+ - **Monitoramento de segurança** : a Microsoft monitorará dispositivos usando [o Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Se uma ameaça for detectada, a Microsoft irá notificar o cliente, isolar o dispositivo e retificar o problema remotamente. 
+ - **Disable PowerShell v2** : a Microsoft removeu o PowerShell V2 em agosto de 2017. Este recurso foi desabilitado em todos os dispositivos de área de trabalho gerenciada da Microsoft. Para obter mais informações sobre essa alteração, consulte [Windows PowerShell 2,0 Preterition](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).

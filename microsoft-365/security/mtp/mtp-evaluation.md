@@ -1,6 +1,6 @@
 ---
-title: Avaliar Proteção contra Ameaças da Microsoft
-description: Configure seu laboratório de avaliação de proteção contra ameaças da Microsoft ou seu ambiente piloto para experimentar e experimentar a solução de segurança projetada para proteger dispositivos, identidade, dados e aplicativos em sua organização.
+title: Avaliar o Microsoft 365 defender
+description: Configure seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto para experimentar e experimentar a solução de segurança projetada para proteger dispositivos, identidade, dados e aplicativos em sua organização.
 keywords: Avaliação de proteção contra ameaças da Microsoft, experimente a proteção contra ameaças da Microsoft, avalie a proteção contra ameaças da Microsoft, laboratório de avaliação de proteção contra ameaças da Microsoft, piloto de proteção contra ameaças da Microsoft, segurança persistente avançada, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, caça avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,31 +20,31 @@ ms.collection:
 - m365solution-overview
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: d3f63c8ac4ba82a80c365dce564bbd8d3dd4da4b
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: d6c96f7720344721bb2786dc130c490a5a8ea657
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447114"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846479"
 ---
-# <a name="create-a-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Criar um laboratório de avaliação do Microsoft Threat Protection ou ambiente piloto 
+# <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Criar um laboratório de avaliação do Microsoft 365 defender ou um ambiente piloto 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-O objetivo de criar este laboratório de avaliação ou ambiente piloto é ilustrar os recursos de proteção de ameaças abrangentes e integrados da Microsoft. Experimente como essa solução de segurança inteligente detecta, impede, investiga automaticamente e responde a ameaças avançadas de sua organização. 
+O objetivo de criar este laboratório de avaliação ou ambiente piloto é ilustrar os recursos abrangentes e integrados do Microsoft 365 defender. Experimente como essa solução de segurança inteligente detecta, impede, investiga automaticamente e responde a ameaças avançadas de sua organização. 
 
-Este guia orienta as etapas para iniciar a avaliação de proteção contra ameaças da Microsoft com base nos caminhos de implantação recomendados. O objetivo é ajudá-lo a configurar a solução de segurança em um ambiente de laboratório com uma conta de avaliação ou em um ambiente piloto em produção com uma licença completa. Preparar o laboratório de avaliação ou o ambiente piloto pode ajudá-lo a apresentar casos de uso da operação de segurança para tomadores de decisões em sua organização. Quando você terminar de executar as simulações de ataque e estiver satisfeito com os resultados, você pode implantá-lo e operacionalá-lo completamente em sua organização com a ajuda dos profissionais de vendas ou especialistas da Microsoft em sua organização. 
+Este guia orienta as etapas para iniciar sua avaliação do Microsoft 365 defender com base nos caminhos de implantação recomendados. O objetivo é ajudá-lo a configurar a solução de segurança em um ambiente de laboratório com uma conta de avaliação ou em um ambiente piloto em produção com uma licença completa. Preparar o laboratório de avaliação ou o ambiente piloto pode ajudá-lo a apresentar casos de uso da operação de segurança para tomadores de decisões em sua organização. Quando você terminar de executar as simulações de ataque e estiver satisfeito com os resultados, você pode implantá-lo e operacionalá-lo completamente em sua organização com a ajuda dos profissionais de vendas ou especialistas da Microsoft em sua organização. 
 
 Este guia ajudará você a:
 - Configurar seu servidor de laboratório e computadores
 - Configurar o Active Directory com usuários e grupos
-- Configurar e configurar o Azure ATP, o Office ATP, o Microsoft defender ATP e o Microsoft Cloud app Security
+- Configurar e configurar o Microsoft defender para identidade, Microsoft defender para Office 365, Microsoft defender para ponto de extremidade e Microsoft Cloud app Security
 - Configurar políticas locais para seu servidor e computadores
-- Imitar um ataque de ameaça para gerar um incidente de teste ou alerta na proteção contra ameaças da Microsoft
+- Imitar um ataque de ameaça para gerar um incidente de teste ou alerta no Microsoft 365 defender
 
 >[!IMPORTANT]
 >Para obter resultados ideais, siga as instruções de configuração do laboratório o mais próximo possível.
@@ -52,37 +52,37 @@ Este guia ajudará você a:
 
 ## <a name="deployment-phases"></a>Fases de implantação
 
-Há três fases na criação de um ambiente de laboratório de avaliação do Microsoft Threat Protection e sua implantação:
+Há três fases na criação de um ambiente de laboratório de avaliação do Microsoft 365 defender e sua implantação:
 
 |Fase | Descrição | 
 |:-------|:-----|
-| ![Fase 1: preparar](../../media/prepare.png)<br>[Fase 1: preparar](prepare-mtpeval.md)| Saiba o que você precisa considerar ao implantar a proteção contra ameaças da Microsoft em um laboratório de avaliação ou ambiente piloto: <br><br>– Participantes e aprovação <br> -Considerações de ambiente <br>– Acesso <br>-Configuração do Azure Active Directory <br> -Ordem de configuração
-|  ![Fase 2: configuração](../../media/setup.png) <br>[Fase 2: configuração](setup-mtpeval.md)|  Siga as etapas iniciais para acessar a central de segurança do Microsoft 365 para configurar seu laboratório de avaliação do Microsoft Threat Protection ou ambiente piloto. Você será orientado para:<br><br>-Inscrever-se no Microsoft 365 E5 Trial <br>  -Configurar domínio<br>-Atribuir licenças do Microsoft 365 e5<br>– Concluir o assistente de configuração no portal|
-|  ![Fase 3: configurar o & integrado](../../media/config-onboard.png) <br>[Fase 3: configurar o & integrado](config-mtpeval.md) | Configure cada pilar de proteção contra ameaças e pontos de extremidade integrados da Microsoft. Você será orientado para:<br><br>– Configurar a proteção avançada contra ameaças do Office 365<br>– Configurar o Microsoft Cloud app Security<br>– Configurar a proteção avançada contra ameaças do Azure<br>– Configurar a proteção avançada contra ameaças do Microsoft defender 
+| ![Fase 1: preparar](../../media/prepare.png)<br>[Fase 1: preparar](prepare-mtpeval.md)| Saiba o que você precisa considerar ao implantar o Microsoft 365 defender em um laboratório de avaliação ou ambiente piloto: <br><br>– Participantes e aprovação <br> -Considerações de ambiente <br>– Acesso <br>-Configuração do Azure Active Directory <br> -Ordem de configuração
+|  ![Fase 2: configuração](../../media/setup.png) <br>[Fase 2: configuração](setup-mtpeval.md)|  Siga as etapas iniciais para acessar a central de segurança do Microsoft 365 para configurar o laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto. Você será orientado para:<br><br>-Inscrever-se no Microsoft 365 E5 Trial <br>  -Configurar domínio<br>-Atribuir licenças do Microsoft 365 e5<br>– Concluir o assistente de configuração no portal|
+|  ![Fase 3: configurar o & integrado](../../media/config-onboard.png) <br>[Fase 3: configurar o & integrado](config-mtpeval.md) | Configure cada Microsoft 365 defender pilar e pontos de extremidade integrados. Você será orientado para:<br><br>– Configurar o Microsoft defender para Office 365<br>– Configurar o Microsoft Cloud app Security<br>– Configurar o Microsoft defender para identidade<br>– Configurar o Microsoft defender para ponto de extremidade
 
 
 ## <a name="in-scope"></a>No escopo
 
 As seguintes tarefas estão no escopo deste guia:
 -   Configurar o Azure Active Directory
--   Configurar a proteção contra ameaças da Microsoft
+-   Configurar o Microsoft 365 defender
     -   Inscreva-se no Microsoft 365 E5 Trial ou use sua licença completa se estiver executando um piloto
     -   Configurar domínio
     -   Atribuir licenças do Microsoft 365 e5
     -   Concluindo o assistente de configuração no portal
--   Configurar todos os pilares de proteção contra ameaças da Microsoft com base nas práticas recomendadas
-    -   Proteção Avançada contra Ameaças do Office 365
-    -   Proteção Avançada contra Ameaças do Azure
+-   Configurar todos os pilares do Microsoft 365 defender com base nas práticas recomendadas
+    -   Microsoft defender para Office 365
+    -   Microsoft Defender para Identidade
     -   Segurança no aplicativo na nuvem da Microsoft
-    -   Proteção avançada contra ameaças do Microsoft Defender
+    -   Microsoft Defender para Ponto de Extremidade
 
 ## <a name="out-of-scope"></a>Fora do escopo
 
 Os itens a seguir estão fora do escopo deste guia de implantação:
 
--   Configuração de soluções de terceiros que podem ser integradas à proteção contra ameaças da Microsoft
+-   Configuração de soluções de terceiros que podem ser integradas ao Microsoft 365 defender
 -   Teste de penetração no ambiente de produção
 
 ## <a name="next-step"></a>Próxima etapa
 ![Fase 1: preparar](../../media/prepare.png) <br>[Fase 1: preparar](prepare-mtpeval.md) 
-<br> Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto
+<br> Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 28d4fc196e75a1a7a27cbe2a0f6804646002354f
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: f9c26e7e4af99174c5723b44c59d7279ca93afa5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464069"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846443"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -59,7 +59,7 @@ Para dar tempo para realizar essas tarefas, recomendamos implementar as polític
 |        |[Exigir aplicativos aprovados e proteção de aplicativos](#require-approved-apps-and-app-protection)|Impõe proteção de aplicativos móveis para telefones e tablets usando iOS, iPadOS ou Android.|
 |        |[Definir políticas de conformidade do dispositivo](#define-device-compliance-policies)|Uma política para cada plataforma.|
 |        |[Exigir PCs compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento do Intune de PCs usando o Windows ou o MacOS.|
-|**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio*ou *alto*](#require-mfa-based-on-sign-in-risk)| |
+|**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo* , *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)| |
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para ambos os PCs (Windows ou MacOS) e telefones ou tablets (iOS, iPadOS ou Android).|
 |**Altamente controlado**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
 | | | |
@@ -100,7 +100,7 @@ Depois que os usuários estiverem registrados, você poderá exigir a MFA de ent
 
 1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais.
 2. Na lista de serviços do Azure, escolha **Azure Active Directory**.
-3. Na lista **gerenciar** , escolha **segurança**e, em seguida, escolha **acesso condicional**.
+3. Na lista **gerenciar** , escolha **segurança** e, em seguida, escolha **acesso condicional**.
 4. Escolha **nova política** e digite o nome da nova política.
 
 As tabelas a seguir descrevem as configurações de política de acesso condicional para exigir a MFA com base no risco de entrada.
@@ -109,9 +109,9 @@ Na seção **assignments** :
 
 |Configuração|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Usuários e grupos|Incluir| **Selecione usuários e grupos > usuários e grupos**: selecionar grupos específicos contendo contas de usuário direcionadas. |Comece com o grupo que inclui as contas de usuário piloto.|
-||Excluir| **Usuários e grupos**: Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
-|Ações ou aplicativos de nuvem| **Os aplicativos de nuvem > incluem** | **Selecionar aplicativos**: selecione os aplicativos para os quais você deseja aplicar essa política. Por exemplo, selecione Exchange Online.||
+|Usuários e grupos|Incluir| **Selecione usuários e grupos > usuários e grupos** : selecionar grupos específicos contendo contas de usuário direcionadas. |Comece com o grupo que inclui as contas de usuário piloto.|
+||Excluir| **Usuários e grupos** : Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
+|Ações ou aplicativos de nuvem| **Os aplicativos de nuvem > incluem** | **Selecionar aplicativos** : selecione os aplicativos para os quais você deseja aplicar essa política. Por exemplo, selecione Exchange Online.||
 |Condições| | |Configurar condições específicas para seu ambiente e necessidades.|
 ||Risco de entrada||Confira as orientações na tabela a seguir.|
 |||||
@@ -138,7 +138,7 @@ Na seção **controles de acesso** :
 
 Escolha **selecionar** para salvar as configurações de **concessão** .
 
-Por fim, selecione **ativado** para **habilitar política**e, em seguida, escolha **criar**.
+Por fim, selecione **ativado** para **habilitar política** e, em seguida, escolha **criar**.
 
 Considere também usar a ferramenta [e se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
 
@@ -152,9 +152,9 @@ Na seção **assignments** :
 
 |Configuração|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Usuários e grupos|Incluir| **Selecione usuários e grupos > usuários e grupos**: selecionar grupos específicos contendo contas de usuário direcionadas. |Comece com o grupo que inclui as contas de usuário piloto.|
-||Excluir| **Usuários e grupos**: Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
-|Ações ou aplicativos de nuvem|**Os aplicativos de nuvem > incluem**| **Selecionar aplicativos**: selecione os aplicativos correspondentes aos clientes que não dão suporte à autenticação moderna.||
+|Usuários e grupos|Incluir| **Selecione usuários e grupos > usuários e grupos** : selecionar grupos específicos contendo contas de usuário direcionadas. |Comece com o grupo que inclui as contas de usuário piloto.|
+||Excluir| **Usuários e grupos** : Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
+|Ações ou aplicativos de nuvem|**Os aplicativos de nuvem > incluem**| **Selecionar aplicativos** : selecione os aplicativos correspondentes aos clientes que não dão suporte à autenticação moderna.||
 |Condições| **Aplicativos cliente** | Escolha **Sim** para **Configurar** <br> Limpar as marcas de seleção de **navegador** e **aplicativos móveis e clientes de desktop** | |
 ||||
 
@@ -168,7 +168,7 @@ Na seção **controles de acesso** :
 
 Escolha **selecionar** para salvar as configurações de **concessão** .
 
-Por fim, selecione **ativado** para **habilitar política**e, em seguida, escolha **criar**.
+Por fim, selecione **ativado** para **habilitar política** e, em seguida, escolha **criar**.
 
 Considere usar a ferramenta [e se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
 
@@ -192,13 +192,13 @@ Na segunda seção de **atribuições** :
 
 | Tipo | Propriedades | Valores                  | Action |
 |:-----|:-----------|:------------------------|:------|
-| Access | **Permitir acesso** |  | Selecionar  |
+| Acesso | **Permitir acesso** |  | Selecionar  |
 |      |     | **Requer a alteração de senha** | Verificar  |
 |||||
 
 Escolha **concluído** para salvar as configurações de **acesso** .
 
-Por fim, selecione **ativado** para **impor política**e, em seguida, escolha **salvar**.
+Por fim, selecione **ativado** para **impor política** e, em seguida, escolha **salvar**.
 
 Considere usar a ferramenta [e se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
 
@@ -282,9 +282,9 @@ Para obter uma orientação passo a passo sobre a criação de políticas de con
 
 ### <a name="recommended-settings-for-windows-10-and-later"></a>Configurações recomendadas para Windows 10 e posterior
 
-As configurações a seguir são recomendadas para computadores que executam o Windows 10 e posterior, conforme configurado na **etapa 2: configurações de conformidade**do processo de criação de políticas.
+As configurações a seguir são recomendadas para computadores que executam o Windows 10 e posterior, conforme configurado na **etapa 2: configurações de conformidade** do processo de criação de políticas.
 
-Para obter **integridade do dispositivo > regras de avaliação do serviço de atestado de integridade do Windows**, Confira esta tabela.
+Para obter **integridade do dispositivo > regras de avaliação do serviço de atestado de integridade do Windows** , Confira esta tabela.
 
 |Propriedades|Valor|Action|
 |:---------|:-----|:----|
@@ -293,11 +293,11 @@ Para obter **integridade do dispositivo > regras de avaliação do serviço de a
 |Exigir integridade de código|Precisa| Selecionar |
 ||||
 
-Para **Propriedades de dispositivo**, especifique os valores apropriados para as versões do sistema operacional com base em suas políticas de segurança e de ti.
+Para **Propriedades de dispositivo** , especifique os valores apropriados para as versões do sistema operacional com base em suas políticas de segurança e de ti.
 
-Para obter conformidade com o **Gerenciador de configurações**, selecione **exigir**.
+Para obter conformidade com o **Gerenciador de configurações** , selecione **exigir**.
 
-Para **segurança do sistema**, Confira esta tabela.
+Para **segurança do sistema** , Confira esta tabela.
 
 |Tipo|Propriedades|Valor|Action|
 |:---|:---------|:-----|:----|
@@ -319,11 +319,11 @@ Para **segurança do sistema**, Confira esta tabela.
 ||Proteção em tempo real|Precisa|Selecionar <br>Compatível apenas com a área de trabalho do Windows 10|
 |||||
 
-**Microsoft Defender ATP**
+**Microsoft Defender para Ponto de Extremidade**
 
 |Tipo|Propriedades|Valor|Action|
 |:---|:---------|:-----|:----|
-|Regras de proteção avançada contra ameaças do Microsoft defender|Exigir que o dispositivo esteja no ou abaixo da Pontuação de risco da máquina|Médio|Selecionar|
+|Microsoft defender para regras de ponto de extremidade|Exigir que o dispositivo esteja no ou abaixo da Pontuação de risco da máquina|Médio|Selecionar|
 |||||
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Exigir computadores compatíveis (mas telefones e tablets não compatíveis)
@@ -334,22 +334,22 @@ Para exigir computadores compatíveis:
 
 1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais.
 2. Na lista de serviços do Azure, escolha **Azure Active Directory**.
-3. Na lista **gerenciar** , escolha **segurança**e, em seguida, escolha **acesso condicional**.
+3. Na lista **gerenciar** , escolha **segurança** e, em seguida, escolha **acesso condicional**.
 4. Escolha **nova política** e digite o nome da nova política.
 
-5. Em **assignments**, escolha **Users and Groups** e inclua a quem você deseja aplicar a política. Também excluir seu grupo de exclusão de acesso condicional.
+5. Em **assignments** , escolha **Users and Groups** e inclua a quem você deseja aplicar a política. Também excluir seu grupo de exclusão de acesso condicional.
 
-6. Em **assignments**, escolha **aplicativos de nuvem ou ações**.
+6. Em **assignments** , escolha **aplicativos de nuvem ou ações**.
 
-7. Para **incluir**, escolha **selecionar aplicativos > selecione**e, em seguida, selecione os aplicativos desejados na lista de **aplicativos de nuvem** . Por exemplo, selecione Exchange Online. Escolha **selecionar** quando concluído.
+7. Para **incluir** , escolha **selecionar aplicativos > selecione** e, em seguida, selecione os aplicativos desejados na lista de **aplicativos de nuvem** . Por exemplo, selecione Exchange Online. Escolha **selecionar** quando concluído.
 
-8. Para exigir que computadores compatíveis (mas com telefones e tablets não compatíveis), em **assignments**, escolha **condições > plataformas de dispositivos**. Selecione **Sim** para **Configurar**. Escolha  **Selecionar plataformas de dispositivo**, selecione **Windows** e **MacOS**e, em seguida, escolha **concluído**.
+8. Para exigir que computadores compatíveis (mas com telefones e tablets não compatíveis), em **assignments** , escolha **condições > plataformas de dispositivos**. Selecione **Sim** para **Configurar**. Escolha  **Selecionar plataformas de dispositivo** , selecione **Windows** e **MacOS** e, em seguida, escolha **concluído**.
 
-9. Em **controles de acesso**, escolha **conceder** .
+9. Em **controles de acesso** , escolha **conceder** .
 
 10. Escolha **conceder acesso** e marque **exigir que o dispositivo seja marcado como em conformidade**. Para vários controles, selecione **exigir todos os controles selecionados**. Quando concluir, escolha **selecionar**. 
 
-10. Selecione **ativado** para **habilitar a política**e, em seguida, escolha **criar**.
+10. Selecione **ativado** para **habilitar a política** e, em seguida, escolha **criar**.
 
 >[!Note]
 >Certifique-se de que o dispositivo está em conformidade antes de habilitar esta política. Caso contrário, você pode ter bloqueado e não poderá alterar essa política até que sua conta de usuário tenha sido adicionada ao grupo de exclusão de acesso condicional.
@@ -361,20 +361,20 @@ Para exigir a conformidade de todos os dispositivos:
 
 1. Acesse o [Portal do Azure](https://portal.azure.com) e entre com suas credenciais.
 2. Na lista de serviços do Azure, escolha **Azure Active Directory**.
-3. Na lista **gerenciar** , escolha **segurança**e, em seguida, escolha **acesso condicional**.
+3. Na lista **gerenciar** , escolha **segurança** e, em seguida, escolha **acesso condicional**.
 4. Escolha **nova política** e digite o nome da nova política.
 
-5. Em **assignments**, escolha **Users and Groups** e inclua a quem você deseja aplicar a política. Também excluir seu grupo de exclusão de acesso condicional.
+5. Em **assignments** , escolha **Users and Groups** e inclua a quem você deseja aplicar a política. Também excluir seu grupo de exclusão de acesso condicional.
 
-6. Em **assignments**, escolha **aplicativos de nuvem ou ações**.
+6. Em **assignments** , escolha **aplicativos de nuvem ou ações**.
 
-7. Para **incluir**, escolha **selecionar aplicativos > selecione**e, em seguida, selecione os aplicativos desejados na lista de **aplicativos de nuvem** . Por exemplo, selecione Exchange Online. Escolha **selecionar** quando concluído.
+7. Para **incluir** , escolha **selecionar aplicativos > selecione** e, em seguida, selecione os aplicativos desejados na lista de **aplicativos de nuvem** . Por exemplo, selecione Exchange Online. Escolha **selecionar** quando concluído.
 
-8. Em **controles de acesso**, escolha **conceder** .
+8. Em **controles de acesso** , escolha **conceder** .
 
 9. Escolha **conceder acesso** e marque **exigir que o dispositivo seja marcado como em conformidade**. Para vários controles, selecione **exigir todos os controles selecionados**. Quando concluir, escolha **selecionar**. 
 
-10. Selecione **ativado** para **habilitar a política**e, em seguida, escolha **criar**.
+10. Selecione **ativado** para **habilitar a política** e, em seguida, escolha **criar**.
 
 >[!Note]
 >Certifique-se de que o dispositivo está em conformidade antes de habilitar esta política. Caso contrário, você pode ter bloqueado e não poderá alterar essa política até que sua conta de usuário tenha sido adicionada ao grupo de exclusão de acesso condicional.

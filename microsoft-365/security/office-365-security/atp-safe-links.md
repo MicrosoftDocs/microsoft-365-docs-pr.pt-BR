@@ -25,34 +25,34 @@ search.appverid:
 - ZPP160
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
-description: Neste artigo, os administradores podem saber mais sobre a proteção de links seguros na proteção avançada contra ameaças do Office 365 (ATP) para proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
-ms.openlocfilehash: 45936cabf012c5f40080f3bbfee224aec9593d30
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+description: Neste artigo, os administradores podem saber mais sobre a proteção de links seguros no defender para Office 365 para proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
+ms.openlocfilehash: 869cb2f330b81481a2a0a013564853274654d0ef
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806721"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846051"
 ---
-# <a name="safe-links-in-office-365-atp"></a>Links seguros no Office 365 ATP
+# <a name="safe-links-in-microsoft-defender-for-office-365"></a>Links seguros no Microsoft defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Este artigo destina-se a clientes comerciais que têm a [proteção avançada contra ameaças (ATP) do Office 365](office-365-atp.md). Se você estiver usando o Outlook.com, a família Microsoft 365 ou o Microsoft 365 Personal, e estiver procurando informações sobre o Safelinks no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se a clientes comerciais que têm [o Microsoft defender para Office 365](office-365-atp.md). Se você estiver usando o Outlook.com, a família Microsoft 365 ou o Microsoft 365 Personal, e estiver procurando informações sobre o Safelinks no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Links seguros é um recurso da [proteção avançada contra ameaças do Office 365](office-365-atp.md) que oferece verificação de URL e regravação de mensagens de email de entrada no fluxo de emails e verificação de URLs e links em mensagens de email e em outros locais. A verificação de links seguros ocorre além da proteção regular antispam [e antimalware](anti-spam-and-anti-malware-protection.md) em mensagens de email de entrada no Exchange Online Protection (EOP). A verificação de links seguros pode ajudar a proteger sua organização contra links mal-intencionados que são usados em phishing e outros ataques.
+Links seguros é um recurso do [defender para Office 365](office-365-atp.md) que oferece verificação de URL e regravação de mensagens de email de entrada no fluxo de emails e verificação de URLs e links em mensagens de email e em outros locais. A verificação de links seguros ocorre além da proteção regular antispam [e antimalware](anti-spam-and-anti-malware-protection.md) em mensagens de email de entrada no Exchange Online Protection (EOP). A verificação de links seguros pode ajudar a proteger sua organização contra links mal-intencionados que são usados em phishing e outros ataques.
 
 A proteção de links seguros está disponível nos seguintes locais:
 
-- **Mensagens de email** : a proteção de links seguros para links em mensagens de email é controlada por políticas de links seguros. Não há nenhuma política de links seguros padrão, **portanto, para obter a proteção de links seguros em mensagens de email, você precisa criar uma ou mais políticas de links seguros** . Para obter instruções, consulte [set up Safe links Policies in ATP](set-up-atp-safe-links-policies.md).
+- **Mensagens de email** : a proteção de links seguros para links em mensagens de email é controlada por políticas de links seguros. Não há nenhuma política de links seguros padrão, **portanto, para obter a proteção de links seguros em mensagens de email, você precisa criar uma ou mais políticas de links seguros**. Para obter instruções, consulte [set up Safe links Policies in Microsoft defender for Office 365](set-up-atp-safe-links-policies.md).
 
   Para obter mais informações sobre proteção de links seguros para mensagens de email, consulte a seção [configurações de links seguros para mensagens de email](#safe-links-settings-for-email-messages) mais adiante neste artigo.
 
-- **Microsoft Teams** (atualmente em versão prévia): a proteção de links seguros para links em conversas de equipes, chats de grupo ou de canais também é controlada por políticas de links seguros. Não há nenhuma política de links seguros padrão, **portanto, para obter a proteção de links seguros no Teams, você precisa criar uma ou mais políticas de links seguros** .
+- **Microsoft Teams** (atualmente em versão prévia): a proteção de links seguros para links em conversas de equipes, chats de grupo ou de canais também é controlada por políticas de links seguros. Não há nenhuma política de links seguros padrão, **portanto, para obter a proteção de links seguros no Teams, você precisa criar uma ou mais políticas de links seguros**.
 
   Para obter mais informações sobre proteção de links seguros no Teams, consulte a seção [configurações de links seguros para o Microsoft Teams](#safe-links-settings-for-microsoft-teams) mais adiante neste tópico.
 
-- **Aplicativos do office 365** : a proteção de links seguros para aplicativos do Office 365 está disponível em APS de área de trabalho, móvel e Web com suporte. Você **configura** a proteção de links seguros para aplicativos do Office 365 na configuração global que estão **fora** de políticas de links seguros. Para obter instruções, consulte [Configure Global Settings for Safe links Settings in Office 365 ATP](configure-global-settings-for-safe-links.md).
+- **Aplicativos do office 365** : a proteção de links seguros para aplicativos do Office 365 está disponível em APS de área de trabalho, móvel e Web com suporte. Você **configura** a proteção de links seguros para aplicativos do Office 365 na configuração global que estão **fora** de políticas de links seguros. Para obter instruções, consulte [Configure Global Settings for Safe links Settings in Microsoft defender for Office 365](configure-global-settings-for-safe-links.md).
 
   No entanto, a proteção de links seguros para aplicativos do Office 365 só é **aplicada** a usuários que estão incluídos em políticas de links seguros ativas. Se um usuário não estiver incluído em uma política de links seguros ativa, o usuário não terá proteção de links seguros em aplicativos do Office 365 com suporte.
 
@@ -71,7 +71,7 @@ Este artigo inclui descrições detalhadas dos seguintes tipos de configuraçõe
   - [Configurações de links seguros para aplicativos do Office 365](#safe-links-settings-for-office-365-apps)
   - [Lista "bloquear as seguintes URLs" para links seguros](#block-the-following-urls-list-for-safe-links)
 
-A tabela a seguir descreve cenários para links seguros no Microsoft 365 e no Office 365 organizações que incluem ATP (em outras palavras, a falta de licenciamento nunca é um problema nos exemplos).
+A tabela a seguir descreve os cenários de links seguros no Microsoft 365 e nas organizações do Office 365 que incluem o defender para Office 365 (em outras palavras, a falta de licenciamento nunca é um problema nos exemplos).
 
 ****
 
@@ -91,7 +91,7 @@ Depois que os links seguros reescrevem uma URL, a URL permanece reconfigurada, m
 
 As configurações em políticas de links seguros que se aplicam a mensagens de email são descritas na lista a seguir:
 
-- **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas nas mensagens** : habilita ou desabilita a verificação de links seguros em mensagens de email. O valor recomendado está **ativado** . Ativar essa configuração resulta nas seguintes ações.
+- **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas nas mensagens** : habilita ou desabilita a verificação de links seguros em mensagens de email. O valor recomendado está **ativado**. Ativar essa configuração resulta nas seguintes ações.
 
   - A verificação de links seguros está habilitada no Outlook (C2R) no Windows.
   - As URLs são reescritas e os usuários são roteados por meio de proteção de links seguros quando eles clicam em URLs em mensagens.
@@ -152,7 +152,7 @@ Em um nível alto, veja como a proteção de links seguros funciona em URLs nas 
 > [!IMPORTANT]
 > A partir de março de 2020, esse recurso está em versão prévia e está disponível somente para membros do programa de adoção de tecnologia do Microsoft Teams (toque). Para obter informações sobre o cronograma de lançamento, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams).
 
-Habilite ou desabilite a proteção de links seguros para o Microsoft Teams em políticas de links seguros. Especificamente, você usa a configuração **selecionar a ação para URLs desconhecidas ou potencialmente mal-intencionadas dentro da Microsoft Teams** . O valor recomendado está **ativado** .
+Habilite ou desabilite a proteção de links seguros para o Microsoft Teams em políticas de links seguros. Especificamente, você usa a configuração **selecionar a ação para URLs desconhecidas ou potencialmente mal-intencionadas dentro da Microsoft Teams** . O valor recomendado está **ativado**.
 
 As configurações a seguir em políticas de links seguros que se aplicam a links em mensagens de email também se aplicam a links no Teams:
 
@@ -180,7 +180,7 @@ Em um nível alto, veja como a proteção de links seguros funciona para URLs no
 
 1. Um usuário inicia o aplicativo Teams.
 
-2. O Microsoft 365 verifica se a organização do usuário inclui o Office 365 ATP e se o usuário está incluído em uma política ativa de links seguros onde a proteção para o Microsoft Teams está habilitada.
+2. O Microsoft 365 verifica se a organização do usuário inclui o Microsoft defender para Office 365 e se o usuário está incluído em uma política ativa de links seguros onde a proteção para o Microsoft Teams está habilitada.
 
 3. As URLs são validadas no momento de clique para o usuário em chats, chats de grupo, canais e guias.
 
@@ -204,11 +204,11 @@ Você configura a proteção de links seguros para aplicativos do Office 365 nas
 
 As seguintes configurações de links seguros estão disponíveis para os aplicativos do Office 365:
 
-- **Aplicativos do office 365** : habilita ou desabilita a verificação de links seguros em aplicativos do Office 365 com suporte. O valor padrão e recomendado está **ativado** .
+- **Aplicativos do office 365** : habilita ou desabilita a verificação de links seguros em aplicativos do Office 365 com suporte. O valor padrão e recomendado está **ativado**.
 
 - **Não rastrear quando os usuários clicarem em links seguros** : habilita ou desabilita o armazenamento de links seguros clique em dados para URLs clicados nas versões do desktop do Word, Excel, PowerPoint e Visio. O valor recomendado está **desativado** , o que significa que os cliques do usuário são controlados.
 
-- **Não permitir que os usuários cliquem por meio de links seguros para a URL original** : permite ou impede que os usuários cliquem na [página de aviso](#warning-pages-from-safe-links) para a URL original nas versões de área de trabalho Word, Excel, PowerPoint e Visio. O valor padrão e recomendado está **ativado** .
+- **Não permitir que os usuários cliquem por meio de links seguros para a URL original** : permite ou impede que os usuários cliquem na [página de aviso](#warning-pages-from-safe-links) para a URL original nas versões de área de trabalho Word, Excel, PowerPoint e Visio. O valor padrão e recomendado está **ativado**.
 
 Para definir as configurações de links seguros para aplicativos do Office 365, consulte [Configurar proteção de links seguros para aplicativos do office 365](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center).
 

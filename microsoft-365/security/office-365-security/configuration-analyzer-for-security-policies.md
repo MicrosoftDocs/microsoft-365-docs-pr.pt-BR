@@ -17,14 +17,14 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar o analisador de configuração para encontrar e corrigir as políticas de segurança que estão abaixo das políticas de segurança predefinidas de proteção padrão e proteção estrita.
-ms.openlocfilehash: ac70b7fa2b2d0ecc65cf81ea4e5e5f2e807f2467
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 1429bddc5ae5f8409ad4f3593f7ea236b13f854c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326574"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846467"
 ---
-# <a name="configuration-analyzer-for-protection-policies-in-eop-and-office-365-atp"></a>Analisador de configuração para políticas de proteção no EOP e no Office 365 ATP
+# <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Analisador de configuração para políticas de proteção no EOP e Microsoft defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,27 +36,27 @@ O analisador de configuração no centro de conformidade & segurança fornece um
 
 Os seguintes tipos de políticas são analisados pelo analisador de configuração:
 
-- **Políticas de proteção do Exchange Online (EOP)**: isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
+- **Políticas de proteção do Exchange Online (EOP)** : isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
   
   - [Políticas antispam](configure-your-spam-filter-policies.md).
   - [Diretivas Antimalware](configure-anti-malware-policies.md).
   - [EOP regras anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
 
-- **Políticas de proteção avançada contra ameaças (ATP) do office 365**: inclui organizações com as assinaturas do Microsoft 365 E5 ou do Office 365 ATP Add-on:
+- **Políticas do Microsoft defender para Office 365** : isso inclui organizações com as assinaturas do complemento Microsoft 365 E5 ou defender para Office 365:
 
-  - Políticas anti-phishing da ATP, que incluem:
+  - Políticas anti-phishing no Microsoft defender para Office 365, que incluem:
 
     - As mesmas [configurações de spoof](set-up-anti-phishing-policies.md#spoof-settings) que estão disponíveis nas políticas anti-phishing do EOP.
-    - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
-    - [Limites avançados de phishing](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
+    - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+    - [Limites avançados de phishing](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
   - [Políticas de links seguros](set-up-atp-safe-links-policies.md).
 
   - [Políticas de anexos seguros](set-up-atp-safe-attachments-policies.md).
 
-Os valores de configuração de política **padrão** e **estrito** usados como linhas de base são descritos em [configurações recomendadas para a segurança do EOP e do Office 365 ATP](recommended-settings-for-eop-and-office365-atp.md).
+Os valores de configuração de política **padrão** e **estrito** usados como linhas de base são descritos em [configurações recomendadas para a segurança do EOP e do Microsoft defender para Office 365](recommended-settings-for-eop-and-office365-atp.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página do **analisador de configuração** , use <https://protection.office.com/configurationAnalyzer> .
 
@@ -76,15 +76,15 @@ Os valores de configuração de política **padrão** e **estrito** usados como 
 
 ## <a name="use-the-configuration-analyzer-in-the-security--compliance-center"></a>Usar o analisador de configuração no centro de conformidade & segurança
 
-No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **analisador de configuração**de política de gerenciamento de ameaças.
+No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **analisador de configuração** de política de gerenciamento de ameaças.
 
 ![Widget analisador de configuração na página política de gerenciamento de ameaças \>](../../media/configuration-analyzer-widget.png)
 
 O analisador de configuração tem duas guias principais:
 
-- **Configurações e recomendações**: escolha padrão ou estrito e Compare essas configurações com as políticas de segurança existentes. Nos resultados, você pode ajustar os valores de suas configurações para colocá-los no mesmo nível que o padrão ou estrito.
+- **Configurações e recomendações** : escolha padrão ou estrito e Compare essas configurações com as políticas de segurança existentes. Nos resultados, você pode ajustar os valores de suas configurações para colocá-los no mesmo nível que o padrão ou estrito.
 
-- **Histórico e análise de descompasso de configuração**: este modo de exibição permite que você rastreie alterações de política ao longo do tempo.
+- **Histórico e análise de descompasso de configuração** : este modo de exibição permite que você rastreie alterações de política ao longo do tempo.
 
 ### <a name="setting-and-recommendations-tab-in-the-configuration-analyzer"></a>Guia configuração e recomendações no analisador de configuração
 
@@ -97,32 +97,32 @@ Por padrão, a coluna **grupo de políticas/nome da configuração** contém uma
 - **Antispam**
 - **Anti-phishing**
 - **Anti-malware**
-- **Anexos seguros de ATP** (se sua assinatura incluir ATP)
-- **Links seguros de ATP** (se sua assinatura incluir ATP)
+- **Anexos seguros de ATP** (se sua assinatura incluir o Microsoft defender para Office 365)
+- **Links seguros de ATP** (se sua assinatura incluir o Microsoft defender para Office 365)
 
 No modo de exibição padrão, tudo é recolhido. Ao lado de cada política, há um resumo dos resultados da comparação de suas políticas (que você pode modificar) e as configurações nas políticas correspondentes para os perfis de proteção padrão ou estrito (que você não pode modificar). Você verá as seguintes informações para o perfil de proteção para o qual você está comparando:
 
-- **Verde**: todas as configurações de todas as políticas existentes são pelo menos tão seguras quanto o perfil de proteção.
-- **Âmbar**: um pequeno número de configurações nas políticas existentes não é tão seguro quanto o perfil de proteção.
-- **Vermelho**: um número significativo de configurações nas políticas existentes não é tão seguro quanto o perfil de proteção. Isso pode ser algumas configurações em muitas políticas ou muitas configurações em uma política.
+- **Verde** : todas as configurações de todas as políticas existentes são pelo menos tão seguras quanto o perfil de proteção.
+- **Âmbar** : um pequeno número de configurações nas políticas existentes não é tão seguro quanto o perfil de proteção.
+- **Vermelho** : um número significativo de configurações nas políticas existentes não é tão seguro quanto o perfil de proteção. Isso pode ser algumas configurações em muitas políticas ou muitas configurações em uma política.
 
 Para comparações favoráveis, você verá o texto: **todas as configurações seguem** \<**Standard** or **Strict**\> **recomendações**. Caso contrário, você verá o número de configurações recomendadas a serem alteradas.
 
-Se você expandir o **nome de configuração e grupo de políticas**, todas as políticas e as configurações associadas em cada política específica que exigem atenção são reveladas. Ou você pode expandir um tipo específico de política (por exemplo, **antispam**) para ver apenas essas configurações nesses tipos de políticas que exigem sua atenção.
+Se você expandir o **nome de configuração e grupo de políticas** , todas as políticas e as configurações associadas em cada política específica que exigem atenção são reveladas. Ou você pode expandir um tipo específico de política (por exemplo, **antispam** ) para ver apenas essas configurações nesses tipos de políticas que exigem sua atenção.
 
 Se a comparação não tiver recomendações de melhoria (verde), a expansão da política não revela nada. Se houver qualquer número de recomendações de aperfeiçoamento (âmbar ou vermelho), as configurações que exigem atenção são reveladas e as informações correspondentes são reveladas nas seguintes colunas:
 
 - O nome da configuração que requer sua atenção. Por exemplo, na captura de tela anterior, é o **limite de email em massa** em uma política antispam.
 
-- **Política**: o nome da política afetada que contém a configuração.
+- **Política** : o nome da política afetada que contém a configuração.
 
-- **Aplicado a**: o número de usuários aos quais as políticas afetadas são aplicadas.
+- **Aplicado a** : o número de usuários aos quais as políticas afetadas são aplicadas.
 
-- **Configuração atual**: o valor atual da configuração.
+- **Configuração atual** : o valor atual da configuração.
 
-- **Última modificação**: a data em que a política foi modificada pela última vez.
+- **Última modificação** : a data em que a política foi modificada pela última vez.
 
-- **Recomendações**: o valor da configuração no perfil de proteção padrão ou estrita. Para alterar o valor da configuração na política para corresponder ao valor recomendado no perfil de proteção, clique em **adotar**. Se a alteração for bem-sucedida, você verá a mensagem: as **recomendações foram adotadas com êxito**. Clique em **Atualizar** para ver o número reduzido de recomendações e a remoção da linha de configuração/política específica dos resultados.
+- **Recomendações** : o valor da configuração no perfil de proteção padrão ou estrita. Para alterar o valor da configuração na política para corresponder ao valor recomendado no perfil de proteção, clique em **adotar**. Se a alteração for bem-sucedida, você verá a mensagem: as **recomendações foram adotadas com êxito**. Clique em **Atualizar** para ver o número reduzido de recomendações e a remoção da linha de configuração/política específica dos resultados.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>Análise de descompasso de configuração e guia histórico no analisador de configuração
 

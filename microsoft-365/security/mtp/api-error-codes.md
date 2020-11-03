@@ -1,6 +1,6 @@
 ---
-title: Códigos de erro da API REST de proteção de ameaças comuns da Microsoft
-description: Saiba mais sobre os códigos de erro comuns da API REST de proteção contra ameaças da Microsoft
+title: Códigos de erro comuns da API REST do Microsoft 365 defender
+description: Saiba mais sobre os códigos de erro comuns da API REST do Microsoft 365 defender
 keywords: API, erro, códigos, erros comuns, MTP, códigos de erro de API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,25 +19,25 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 81375b919b52ff895e5ec7014feb747b1a0eae65
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aceb376662f2b27397aa2332f8929a57d5a3ee03
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201334"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846003"
 ---
-# <a name="common-microsoft-threat-protection-rest-api-error-codes"></a>Códigos de erro da API REST de proteção de ameaças comuns da Microsoft
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Códigos de erro comuns da API REST do Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 >[!IMPORTANT] 
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-Os códigos de erro listados na tabela a seguir podem ser retornados por uma operação em qualquer uma das APIs de proteção contra ameaças da Microsoft.
+Os códigos de erro listados na tabela a seguir podem ser retornados por uma operação em qualquer uma das APIs do Microsoft 365 defender.
 
 Cada resposta de erro contém uma mensagem de erro, que pode ajudar a resolver o problema.
 

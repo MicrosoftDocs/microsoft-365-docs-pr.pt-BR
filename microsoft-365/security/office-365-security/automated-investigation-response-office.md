@@ -21,12 +21,12 @@ description: Obter uma visão geral dos recursos de investigação e resposta au
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: d63ba8a6d3ffb653b30448a973e1cd862631d350
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 316e2e30e5865e068f20d151cd0b081a96ee853f
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447102"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845967"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Uma visão geral da investigação e resposta automatizadas (AIR) no Microsoft defender para Office 365
 
@@ -73,7 +73,7 @@ Se sua organização gerencia seus alertas de segurança por meio de um sistema 
 
 ## <a name="security-playbooks"></a>Guias de segurança
 
-Os guias de segurança são políticas de back-end que estão no coração de automação no Microsoft defender para Office 365 e proteção contra ameaças da Microsoft. Os guias estratégicos de segurança fornecidos no AIR são baseados em cenários comuns de segurança do mundo real e desenvolvidos com base nos comentários das equipes de operações de segurança. Um guia de segurança é iniciado automaticamente quando alertas específicos são disparados em sua organização. Depois que o alerta é acionado, o manual associado é executado pelo sistema de investigação e resposta automatizada. As etapas de investigação por meio da análise do alerta com base no manual de alerta específico, em todos os metadados associados (incluindo mensagens de email, usuários, assuntos, remetentes, etc.). Com base nas conclusões do guia estratégico, o AIR recomenda um conjunto de ações que a equipe de segurança de sua organização pode executar para controlar e reduzir a ameaça. 
+Os guias de segurança são políticas de back-end que estão no coração de automação no Microsoft defender para Office 365 e Microsoft 365 defender. Os guias estratégicos de segurança fornecidos no AIR são baseados em cenários comuns de segurança do mundo real e desenvolvidos com base nos comentários das equipes de operações de segurança. Um guia de segurança é iniciado automaticamente quando alertas específicos são disparados em sua organização. Depois que o alerta é acionado, o manual associado é executado pelo sistema de investigação e resposta automatizada. As etapas de investigação por meio da análise do alerta com base no manual de alerta específico, em todos os metadados associados (incluindo mensagens de email, usuários, assuntos, remetentes, etc.). Com base nas conclusões do guia estratégico, o AIR recomenda um conjunto de ações que a equipe de segurança de sua organização pode executar para controlar e reduzir a ameaça. 
 
 Os guias de segurança que você receberá com o AIR são projetados para lidar com as ameaças mais frequentes que as organizações encontram atualmente com o email. Eles são baseados na entrada de operações de segurança e em equipes de resposta a incidentes, incluindo pessoas que ajudam a defender o Microsoft e os ativos de nossos clientes.
 
@@ -118,7 +118,7 @@ Em seguida, várias etapas de investigação e busca de ameaças são executadas
 - Mensagens de email semelhantes são identificadas por pesquisas de clusters de email.
 - O sinal é compartilhado com outras plataformas, como [o Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
 - É possível determinar se qualquer usuário clicou por links mal-intencionados em mensagens de email suspeitas.
-- Uma verificação é feita na proteção do Exchange Online ([EOP](exchange-online-protection-overview.md)) e no Office 365 Advanced Threat Protection ([ATP](office-365-atp.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
+- Uma verificação é feita na proteção do Exchange Online ([EOP](exchange-online-protection-overview.md)) e ([Microsoft Defender para Office 365](office-365-atp.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
 - Uma verificação é feita para ver se um usuário foi comprometido. Esta verificação utiliza sinais no Office 365, no [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security)e no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlacionando qualquer anomalia relacionada à atividade do usuário.
 
 Durante a fase de caça, riscos e ameaças são atribuídos a várias etapas de busca. 
@@ -143,7 +143,7 @@ Semelhante aos guias estratégicos acionados por um alerta, as investigações a
 
 Recursos de ar no Microsoft defender para Office 365 incluem [relatórios & detalhes](air-view-investigation-results.md) que as equipes de operações de segurança podem usar para monitorar e lidar com ameaças. Mas você também pode integrar recursos de ar com outras soluções. Os exemplos incluem um sistema de gerenciamento de eventos e informações de segurança (SIEM), um sistema de gerenciamento de casos ou uma solução de relatórios personalizada. Esses tipos de integrações podem ser feitos usando a [API de atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
 
-Por exemplo, recentemente, uma organização configurou uma maneira de sua equipe de operações de segurança exibir alertas de phishing relatados pelo usuário que já foram processados pelo AIR. Sua solução integra alertas relevantes com o servidor SIEM da organização e seu sistema de gerenciamento de casos. A solução reduz muito o número de falsos positivos para que a equipe de operações de segurança possa concentrar seu tempo e esforço em ameaças reais. Para saber mais sobre essa solução personalizada, confira [blog da comunidade técnica: aprimore a eficácia do seu SoC com o Office 365 ATP e a API de gerenciamento do O365](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185).
+Por exemplo, recentemente, uma organização configurou uma maneira de sua equipe de operações de segurança exibir alertas de phishing relatados pelo usuário que já foram processados pelo AIR. Sua solução integra alertas relevantes com o servidor SIEM da organização e seu sistema de gerenciamento de casos. A solução reduz muito o número de falsos positivos para que a equipe de operações de segurança possa concentrar seu tempo e esforço em ameaças reais. Para saber mais sobre essa solução personalizada, consulte [blog da comunidade técnica: aprimore a eficácia do seu SoC com o Microsoft defender para Office 365 e a API de gerenciamento do O365](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185).
 
 ## <a name="next-steps"></a>Próximas etapas
 

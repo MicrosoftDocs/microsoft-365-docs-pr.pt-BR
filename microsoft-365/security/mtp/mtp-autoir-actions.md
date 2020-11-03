@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 22a40e3c0c804800f2de02e705d1dfec6e296db0
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: ed0b9afa576f65d33cd9a49dfacd96ffaf173d28
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429606"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846527"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Aprovar ou rejeitar ações pendentes após uma investigação automatizada
 
@@ -34,12 +34,12 @@ ms.locfileid: "48429606"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 Quando uma investigação automatizada é executada, pode resultar em uma ou mais [ações de correção ](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) que exigem aprovação para prosseguir. Por exemplo, um cluster de mensagens de email pode precisar ser excluído, ou talvez seja necessário remover um arquivo em quarentena. É importante aprovar (ou rejeitar) ações pendentes o mais rápido possível, para que suas investigações automatizadas possam prosseguir e ser concluídas a tempo. 
 
 > [!TIP]
-> Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! Veja [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
+> Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados no Microsoft 365 defender, vamos nos lembrar! Confira [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft 365 defender](mtp-autoir-report-false-positives-negatives.md).
 
 Ações pendentes podem ser revisadas e aprovadas usando a [central de ações](#review-a-pending-action-in-the-action-center) ou o [modo de exibição detalhes da investigação](#review-a-pending-action-in-the-investigation-details-view).
 
@@ -52,9 +52,9 @@ Ações pendentes podem ser revisadas e aprovadas usando a [central de ações](
 
 2. No painel de navegação, escolha **Central de Ações**. 
 
-3. Em Central de Ações, na guia **Pendente**, selecione um item na lista. 
+3. Em Central de Ações, na guia **Pendente** , selecione um item na lista. 
 
-    - Se você selecionar um item na coluna**número da investigação **, a página detalhes da investigação será aberta. Nessa página, você pode checar os resultados da investigação e aprovar ou rejeitar a ação recomendada.
+    - Se você selecionar um item na coluna **número da investigação** , a página detalhes da investigação será aberta. Nessa página, você pode checar os resultados da investigação e aprovar ou rejeitar a ação recomendada.
  
     - Se você selecionar uma linha na lista, um submenu será aberto, onde serão mostradas informações sobre esse item. <br/>![Aprovar ou rejeitar uma ação](../../media/air-actioncenter-itemselected.png)<br/>Use os links para exibir um alerta ou uma investigação associada e aprovar ou rejeitar a ação.
 
@@ -62,7 +62,7 @@ Ações pendentes podem ser revisadas e aprovadas usando a [central de ações](
 
 ![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
-1. Na página [detalhes da investigação](mtp-autoir-results.md), selecione a guia **Ações pendentes** (ou **Ações**). Os itens pendentes estarão listados aqui.
+1. Na página [detalhes da investigação](mtp-autoir-results.md), selecione a guia **Ações pendentes** (ou **Ações** ). Os itens pendentes estarão listados aqui.
 
 2. Selecione um item na lista e, em seguida, escolha **Aprovar** ou **Rejeitar**.
 

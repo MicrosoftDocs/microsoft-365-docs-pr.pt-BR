@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Obtenha uma visão geral da integração do servidor de gerenciamento de eventos e informações de segurança (SIEM) com seus serviços e aplicativos em nuvem da Microsoft 365
-ms.openlocfilehash: 6d657990417cab2a8cbb1b03b8b79a65c095d1a5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0e582333615d11c500b114225435903cea386ade
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202197"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846395"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Integração do servidor de gerenciamento de eventos e informações de segurança (SIEM) com serviços e aplicativos do Microsoft 365
 
@@ -52,13 +52,13 @@ Um servidor SIEM pode receber dados de uma ampla variedade de serviços e aplica
 
 |Serviço ou aplicativo Microsoft 365|Entradas/métodos do servidor SIEM|Recursos para saber mais|
 |---|---|---|
-|[Proteção Avançada contra Ameaças do Office 365](office-365-atp.md)|Logs de auditoria|[Integração do SIEM com a proteção avançada contra ameaças do Office 365](siem-integration-with-office-365-ti.md)|
-|[Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <br/>API REST|[Extrair alertas para suas ferramentas SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
-|[Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com o Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/siem)|
+|[Microsoft defender para Office 365](office-365-atp.md)|Logs de auditoria|[Integração do SIEM com o Microsoft defender para Office 365](siem-integration-with-office-365-ti.md)|
+|[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <br/>API REST|[Extrair alertas para suas ferramentas SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
+|[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com o Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/siem)|
 |
 
 > [!TIP]
-> Dê uma olhada no [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview). O Azure Sentinel vem com conectores para soluções da Microsoft. Esses conectores estão disponíveis "prontos para uso" e fornecem integração em tempo real. Você pode usar o Azure Sentinel com suas soluções de proteção contra ameaças da Microsoft e serviços do Microsoft 365, incluindo o Office 365, o Azure AD, o Azure ATP, o Microsoft Cloud app Security e muito mais.
+> Dê uma olhada no [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview). O Azure Sentinel vem com conectores para soluções da Microsoft. Esses conectores estão disponíveis "prontos para uso" e fornecem integração em tempo real. Você pode usar o Azure Sentinel com o Microsoft 365 defender Solutions e os serviços do Microsoft 365, incluindo o Office 365, o Azure AD, o Microsoft defender para identidade, o Microsoft Cloud app Security e muito mais.
 
 ### <a name="audit-logging-must-be-turned-on"></a>O log de auditoria deve estar ativado
 
@@ -70,6 +70,6 @@ Certifique-se de que o log de auditoria está ativado antes de configurar a inte
 
 ## <a name="more-resources"></a>Mais recursos
 
-[Integrar soluções de segurança na central de segurança do Azure](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
+[Integrar soluções de segurança no Azure defender *](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
 [Integrar alertas da API de Segurança do Microsoft Graph com um SIEM](https://docs.microsoft.com/graph/security-integration)

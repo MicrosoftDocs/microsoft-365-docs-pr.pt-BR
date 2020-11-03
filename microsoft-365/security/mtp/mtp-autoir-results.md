@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 83a897438b9da88287574ff576fab9b2f6b30236
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 183435596706855479c49abc34358c85dccb0da4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430794"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846503"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -34,9 +34,9 @@ ms.locfileid: "48430794"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-Quando uma investigação automatizada ocorrer na Proteção Contra Ameaças da Microsoft, os detalhes dessa investigação estarão disponíveis durante e após o processo de investigação automática. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
+Quando uma investigação automatizada ocorre no Microsoft 365 defender, os detalhes da investigação estão disponíveis durante e após o processo de investigação automatizada. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
 
 ![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
@@ -48,13 +48,13 @@ Você pode abrir a exibição de detalhes da investigação usando um destes mé
 
 ### <a name="select-an-item-in-the-action-center"></a>Selecionar um item na central de Ações
 
-Use a central de ações para exibir as ações que estão pendentes (na guia **Pendente**) ou que já foram aprovadas (na guia **Histórico**). 
+Use a central de ações para exibir as ações que estão pendentes (na guia **Pendente** ) ou que já foram aprovadas (na guia **Histórico** ). 
 
 1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
 
 2. No painel de navegação, escolha **Central de ações**. 
 
-3. Na guia **Pendente**ou **Histórico**, selecione um item. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá aprovar (ou rejeitar) ações pendentes.
+3. Na guia **Pendente** ou **Histórico** , selecione um item. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá aprovar (ou rejeitar) ações pendentes.
 
 ### <a name="open-an-investigation-from-an-incident-details-page"></a>Abrir uma investigação em uma página de detalhes do incidente
 
@@ -66,7 +66,7 @@ Use uma página de detalhes do incidente para exibir informações detalhadas so
 
 3. Selecione um item na lista para abrir a exibição de detalhes do incidente.<br/>![Detalhes do incidente](../../media/mtp-incidentdetails-tabs.png)
 
-4. Na guia **Investigações**, selecione uma investigação na lista.
+4. Na guia **Investigações** , selecione uma investigação na lista.
 
 ## <a name="investigation-details"></a>Detalhes da investigação
 
@@ -74,7 +74,7 @@ Use o modo de exibição de detalhes da investigação para ver as atividades an
 
 ![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
-Na exibição de detalhes da investigação, você pode ver as informações nas guias **Gráfico de Investigação**, **Alertas**, **Dispositivos**, **Identidades**, **Principais descobertas**, **Entidades**,**Log** e **Ações pendentes**, descritas na tabela a seguir.
+Na exibição de detalhes da investigação, você pode ver as informações nas guias **Gráfico de Investigação** , **Alertas** , **Dispositivos** , **Identidades** , **Principais descobertas** , **Entidades** , **Log** e **Ações pendentes** , descritas na tabela a seguir.
 
 |Guia    |Descrição |
 |--------|--------|
