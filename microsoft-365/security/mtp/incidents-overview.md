@@ -1,5 +1,5 @@
 ---
-title: Visão geral de incidentes na Proteção contra Ameaças da Microsoft
+title: Visão geral de incidentes no Microsoft 365 defender
 description: Investigue os incidentes vistos em dispositivos, usuários e caixas de correio.
 keywords: incidentes, alertas, investigar, correlação, ataque, máquinas, dispositivos, usuários, identidades, identidade, caixa de correio, email, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
@@ -21,35 +21,35 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3c50bbfbfdad85283f6e366a32c126958467f4a0
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: e5ac3e9a02c333d3168c328aa6ad5532c48af99e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431106"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846683"
 ---
-# <a name="incidents-overview-in-microsoft-threat-protection"></a>Visão geral de incidentes na Proteção contra Ameaças da Microsoft
+# <a name="incidents-overview-in-microsoft-365-defender"></a>Visão geral de incidentes no Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 
 
 Os incidentes são baseados em alertas relacionados. Os alertas são criados quando um evento ou uma atividade mal-intencionados são vistos na sua rede. Alertas individuais fornecem pistas valiosas sobre um ataque contínuo. No entanto, os ataques geralmente empregam vários vetores e técnicas para realizar uma violação. Piecing pistas individuais juntas podem ser desafiadores e demorados.
 
-Este breve vídeo fornece uma visão geral de incidentes na proteção contra ameaças da Microsoft.
+Este breve vídeo fornece uma visão geral de incidentes no Microsoft 365 defender.
 <br>
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-Um incidente é uma coleção de alertas correlacionados que compõem a história de um ataque. Eventos mal-intencionados e suspeitos encontrados em diferentes entidades de dispositivo, usuário e caixa de correio na rede são agregados automaticamente pela proteção contra ameaças da Microsoft. Agrupar alertas relacionados em um incidente oferece aos defensores de segurança uma visão abrangente de um ataque. 
+Um incidente é uma coleção de alertas correlacionados que compõem a história de um ataque. Eventos mal-intencionados e suspeitos encontrados em entidades diferentes de dispositivo, usuário e caixa de correio na rede são agregados automaticamente pelo Microsoft 365 defender. Agrupar alertas relacionados em um incidente oferece aos defensores de segurança uma visão abrangente de um ataque. 
 
 Por exemplo, os defensores de segurança podem ver onde o ataque começou, quais táticas foram usadas e o quanto o ataque entrou na rede. Eles também podem ver o escopo do ataque, como quantos dispositivos, usuários e caixas de correio foram impactados, quão severo o impacto era e outros detalhes sobre entidades afetadas.
 
-Se for habilitada, a proteção contra ameaças da Microsoft poderá investigar e resolver automaticamente os alertas individuais por meio de automação e inteligência artificial. Os defensores de segurança também podem realizar etapas adicionais de correção para resolver o ataque diretamente do modo de exibição incidentes. 
+Se for habilitada, o Microsoft 365 defender poderá investigar e resolver automaticamente os alertas individuais por meio de automação e inteligência artificial. Os defensores de segurança também podem realizar etapas adicionais de correção para resolver o ataque diretamente do modo de exibição incidentes. 
 
 Os incidentes dos últimos 30 dias são mostrados na fila de incidentes. A partir daqui, os defensores de segurança podem ver quais incidentes devem ser priorizados com base no nível de risco e outros fatores. 
 

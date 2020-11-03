@@ -1,6 +1,6 @@
 ---
-title: Ações de correção após as investigações automatizadas no Microsoft Threat Protection
-description: Obter uma visão geral das ações de correção que seguem as investigações automatizadas no Microsoft Threat Protection
+title: Ações de correção após investigações automatizadas no Microsoft 365 defender
+description: Obter uma visão geral das ações de correção que seguem as investigações automatizadas no Microsoft 365 defender
 keywords: automatizado, investigação, alerta, gatilho, ação, correção
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -21,27 +21,27 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 5106ef34f11cb43d74fa993fcdb820d6a5dce86f
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 71cdf2d1b9a40e9cfbf487ca8596a0c2b09475d1
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429462"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847206"
 ---
-# <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Ações de correção após as investigações automatizadas no Microsoft Threat Protection
+# <a name="remediation-actions-following-automated-investigations-in-microsoft-365-defender"></a>Ações de correção após investigações automatizadas no Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 
 ## <a name="remediation-actions"></a>Ações de correção
 
-Durante e após uma investigação automatizada da proteção contra ameaças da Microsoft, as ações de correção são identificadas para itens mal-intencionados ou suspeitos. Alguns tipos de ações de correção são executadas em dispositivos, também chamados de pontos de extremidade. Outras ações de correção são executadas no conteúdo do email. Investigações automatizadas concluídas depois que as ações de correção são tomadas, aprovadas ou rejeitadas.
+Durante e após uma investigação automatizada no Microsoft 365 defender, as ações de correção são identificadas para itens mal-intencionados ou suspeitos. Alguns tipos de ações de correção são executadas em dispositivos, também chamados de pontos de extremidade. Outras ações de correção são executadas no conteúdo do email. Investigações automatizadas concluídas depois que as ações de correção são tomadas, aprovadas ou rejeitadas.
 
-A tabela a seguir resume as ações de correção que atualmente têm suporte na proteção contra ameaças da Microsoft: 
+A tabela a seguir resume as ações de correção que atualmente têm suporte no Microsoft 365 defender: 
 
 |Ações de correção de dispositivo (ponto de extremidade)  |Ações de correção de email  |
 |---------|---------|
@@ -57,14 +57,14 @@ A tabela a seguir lista os possíveis verditos e resultados:
 
 |Verdito    |Área    |Resultados|
 |------|------|------|
-|Mal-intencionado    |Dispositivos (pontos de extremidade)    |As ações de correção são realizadas automaticamente (supondo que os [grupos de dispositivos](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) da sua organização estejam definidos para **corrigir ameaças automaticamente**)|
+|Mal-intencionado    |Dispositivos (pontos de extremidade)    |As ações de correção são realizadas automaticamente (supondo que os [grupos de dispositivos](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) da sua organização estejam definidos para **corrigir ameaças automaticamente** )|
 |Mal-intencionado    |Conteúdo do email (URLs ou anexos) | As ações de correção recomendadas estão aguardando aprovação|
 |Suspeito    |Conteúdo de dispositivos ou emails |As ações de correção recomendadas estão aguardando aprovação|
 |Nenhuma ameaça encontrada    |Conteúdo de dispositivos ou emails    |Nenhuma ação de correção é necessária|
 
 > [!IMPORTANT]
 > Se as ações de correção serão realizadas automaticamente ou apenas após a aprovação dependerá de determinadas configurações, como as políticas de grupo de dispositivos da sua organização. Para saber mais, confira os seguintes artigos:
-> - [Configurar os recursos de investigação e resposta automatizados no Microsoft Threat Protection](mtp-configure-auto-investigation-response.md)
+> - [Configurar recursos de investigação e resposta automatizados no Microsoft 365 defender](mtp-configure-auto-investigation-response.md)
 > - [Como as ameaças são corrigidas nos dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 ## <a name="next-steps"></a>Próximas etapas

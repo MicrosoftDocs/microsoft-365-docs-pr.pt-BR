@@ -1,5 +1,5 @@
 ---
-title: Função AssignedIPAddresses () em busca avançada para a proteção contra ameaças da Microsoft
+title: Função AssignedIPAddresses () em busca avançada no Microsoft 365 defender
 description: Saiba como usar a função AssignedIPAddresses () para obter os endereços IP mais recentes atribuídos a um dispositivo
 keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, fileprofile, perfil de arquivo, função, enriquecimento
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 462a4884e2b17f9ae75ea3bdc1531b180dcc5934
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: cb9dffca148c95f284a6a7e920f3a08a839b748d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430122"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847639"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430122"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 Use a `AssignedIPAddresses()` função nas suas consultas de [busca avançada](advanced-hunting-overview.md) para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo. Se você especificar um argumento timestamp, essa função obterá os endereços IP mais recentes no horário especificado. 
 
@@ -54,8 +54,8 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Argumentos
 
-- **x**— `DeviceId` ou `DeviceName` Value identificando o dispositivo
-- valor **y**– `Timestamp` (DateTime) instruindo a função para obter os endereços IP atribuídos mais recentes de um horário específico. Se não for especificado, a função retornará os endereços IP mais recentes.
+- **x** — `DeviceId` ou `DeviceName` Value identificando o dispositivo
+- valor **y** – `Timestamp` (DateTime) instruindo a função para obter os endereços IP atribuídos mais recentes de um horário específico. Se não for especificado, a função retornará os endereços IP mais recentes.
 
 ## <a name="examples"></a>Exemplos
 

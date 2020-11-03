@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar a prevenção contra perda de dados do Endpoint (EPDLP) da Microsoft 365.
-ms.openlocfilehash: 682996c084f4dce888aaff517ad84d335ed92206
-ms.sourcegitcommit: bd36c88e731e3fee2a3a5cb3564fdc94f11bab94
+ms.openlocfilehash: 95c470a3dfc90f9c7b9a36d282c016781e4e13a8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769660"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847185"
 ---
 # <a name="using-endpoint-data-loss-prevention-preview"></a>Usando a prevenção contra perda de dados do EndPoint (visualização)
 
@@ -94,7 +94,7 @@ Para usar essa restrição, você precisará configurar três partes importantes
 
 2. Adicione os navegadores que não têm permissão para acessar determinados itens confidenciais quando ocorre uma correspondência de política DLP.
 
-3. Configure as políticas DLP para definir os tipos de itens confidenciais para os quais o carregamento deve ser restrito a esses lugares, ativando **Carregar nos serviços de nuvem** e **Acesso a partir do navegador não permitido** .
+3. Configure as políticas DLP para definir os tipos de itens confidenciais para os quais o carregamento deve ser restrito a esses lugares, ativando **Carregar nos serviços de nuvem** e **Acesso a partir do navegador não permitido**.
 
 Você pode continuar a adicionar novos serviços, aplicativos e políticas para estender e aprimorar suas restrições para atender às suas necessidades de negócios e proteger dados confidenciais. 
 
@@ -117,21 +117,21 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 1. Abra a página [Prevenção de perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
 
-2. Escolha **Criar políticas (visualização)** .
+2. Escolha **Criar políticas (visualização)**.
 
-3. Para esse cenário, escolha **Privacidade** , em seguida **Dados de informações de identificação pessoal (PII) dos EUA** e escolha **Próximo** .
+3. Para esse cenário, escolha **Privacidade** , em seguida **Dados de informações de identificação pessoal (PII) dos EUA** e escolha **Próximo**.
 
-4. Alterne o campo **Status** para desativado em todos os locais, exceto os **Dispositivos** .  Escolha **Próximo** .
+4. Alterne o campo **Status** para desativado em todos os locais, exceto os **Dispositivos**.  Escolha **Próximo**.
 
-5. Aceite a seleção padrão **Revisar e personalizar as configurações do modelo** e escolha **Próximo** .
+5. Aceite a seleção padrão **Revisar e personalizar as configurações do modelo** e escolha **Próximo**.
 
-6. Aceite os valores padrão de **Ações de proteção** e escolha **Próximo** .
+6. Aceite os valores padrão de **Ações de proteção** e escolha **Próximo**.
 
-7. Selecione **Auditoria ou restringir atividades em dispositivos de Windows** e deixe as ações definidas como **Somente auditar** . Escolha **Próximo** .
+7. Selecione **Auditoria ou restringir atividades em dispositivos de Windows** e deixe as ações definidas como **Somente auditar**. Escolha **Próximo**.
 
-8. Aceite o valor padrão **Eu quero testá-lo primeiro** e escolha **Mostrar dicas de política enquanto estiver no modo de teste** . Escolha **Próximo** .
+8. Aceite o valor padrão **Eu quero testá-lo primeiro** e escolha **Mostrar dicas de política enquanto estiver no modo de teste**. Escolha **Próximo**.
 
-9. Examine as configurações e escolha **Enviar** .
+9. Examine as configurações e escolha **Enviar**.
 
 10. A nova política DLP será exibida na lista de políticas.
 
@@ -147,18 +147,18 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** que você criou no cenário 1.
 
-3. Escolha **Editar política (visualização)** .
+3. Escolha **Editar política (visualização)**.
 
-4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA** .
+4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
 
-5. Role para baixo até a seção **Relatório de incidentes** e configure **Envie um alerta para administradores quando uma correspondência de regra ocorrer** para **No** . Os alertas de email serão enviados automaticamente para o administrador e qualquer pessoa que você adicionar à lista de destinatários. 
+5. Role para baixo até a seção **Relatório de incidentes** e configure **Envie um alerta para administradores quando uma correspondência de regra ocorrer** para **No**. Os alertas de email serão enviados automaticamente para o administrador e qualquer pessoa que você adicionar à lista de destinatários. 
 
    > [!div class="mx-imgBorder"]
    > ![turn-on-incident-reports](../media/endpoint-dlp-2-using-dlp-incident-reports.png)
    
-6. Para fins deste cenário, escolha **Enviar alerta sempre que uma atividade corresponder à regra** .
+6. Para fins deste cenário, escolha **Enviar alerta sempre que uma atividade corresponder à regra**.
 
-7. Escolha **Salvar** .
+7. Escolha **Salvar**.
 
 8. Mantenha todas as suas configurações anteriores escolhendo **Próximo** e **Enviar** as alterações de política.
 
@@ -172,18 +172,18 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** que você criou no cenário 1.
 
-3. Escolha **Editar política (visualização)** .
+3. Escolha **Editar política (visualização)**.
 
-4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA** .
+4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
 
-5. Role a tela para baixo até a seção **Auditoria ou restringir atividades nos dispositivos do Windows** e para cada atividade defina a ação correspondente para **Bloquear com substituir** .
+5. Role a tela para baixo até a seção **Auditoria ou restringir atividades nos dispositivos do Windows** e para cada atividade defina a ação correspondente para **Bloquear com substituir**.
 
    > [!div class="mx-imgBorder"]
    > ![definir o bloco com substituir ação](../media/endpoint-dlp-6-using-dlp-set-blocked-with-override.png)
    
-6. Escolha **Salvar** .
+6. Escolha **Salvar**.
 
-7. Repita as etapas 4-7 para o **Alto volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA** .
+7. Repita as etapas 4-7 para o **Alto volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
 
 8. Mantenha todas as suas configurações anteriores escolhendo **Próximo** e **Enviar** as alterações de política.
 
@@ -203,7 +203,7 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
-- [Proteção Avançada contra Ameaças do Microsoft Defender (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Ferramentas e métodos de integração para computadores Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Associados a Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)

@@ -1,5 +1,5 @@
 ---
-title: Gerenciar incidentes na Proteção contra Ameaças da Microsoft
+title: Gerenciar incidentes no Microsoft 365 defender
 description: Saiba como atribuir, atualizar o status,
 keywords: incidente, incidentes, alertas, alertas correlacionados, atribuir, atualizar, status, gerenciar, classificação, microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
@@ -21,24 +21,24 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c599343233e7e29589bc4e3d1cda01da505b16f1
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 29f55d99dd3acd26ae305c03b533e2ca9bb61f2a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430556"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846647"
 ---
-# <a name="manage-incidents-in-microsoft-threat-protection"></a>Gerenciar incidentes na Proteção contra Ameaças da Microsoft
+# <a name="manage-incidents-in-microsoft-365-defender"></a>Gerenciar incidentes no Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 
 
-Gerenciar incidentes é fundamental para garantir que as ameaças sejam contidas e tratadas. No Proteção contra Ameaças da Microsoft, você tem acesso ao gerenciamento de incidentes em dispositivos, usuários e caixas de correio. 
+Gerenciar incidentes é fundamental para garantir que as ameaças sejam contidas e tratadas. No Microsoft 365 defender, você tem acesso ao gerenciamento de incidentes em dispositivos, usuários e caixas de correio. 
 
 
 Você pode gerenciar incidentes selecionando um deles da **fila de incidentes**. 
@@ -64,7 +64,7 @@ Caso um incidente ainda não tenha sido atribuído, você poderá selecionar **A
 
 ## <a name="set-status-and-classification"></a>Definir o status e a classificação
 ### <a name="incident-status"></a>Status do incidente
-Você pode categorizar os incidentes (como **Ativo**ou **Resolvido**) alterando o status deles durante sua investigação. Isso ajuda você a organizar e a gerenciar a maneira como sua equipe é capaz de responder a incidentes.
+Você pode categorizar os incidentes (como **Ativo** ou **Resolvido** ) alterando o status deles durante sua investigação. Isso ajuda você a organizar e a gerenciar a maneira como sua equipe é capaz de responder a incidentes.
 
 Por exemplo, seu analista de SOC pode analisar os incidentes **Ativos** urgentes do dia e decidir atribuí-los a si mesmo para investigação.
 

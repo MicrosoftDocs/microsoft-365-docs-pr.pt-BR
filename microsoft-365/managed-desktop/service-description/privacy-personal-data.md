@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 33a2bf0b85b9b8561a5dcf32eae6e4cd0cb53765
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 294a3c6c54e28fa03ff6264898e7763325f78c3e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950479"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847763"
 ---
 # <a name="privacy-and-personal-data"></a>Privacidade e dados pessoais
 
@@ -56,7 +56,7 @@ O Microsoft Managed desktop usa estes dados:
 |---------|---------|
 |Dados do Azure Active Directory     | Usado em relatórios criados para administradores de locatários, que estão disponíveis no portal de administração de área de trabalho gerenciada da Microsoft.        |
 |Dados do Intune     | Usado em relatórios criados para administradores de locatários, que estão disponíveis no portal de administração de área de trabalho gerenciada da Microsoft.        |
-|Proteção Avançada contra Ameaças do Microsoft Defender (ATP)     |  Usado para lidar com ameaças de segurança detectadas em dispositivos registrados pelo centro de operações de segurança (SOC) da área de trabalho gerenciada da Microsoft.  |
+|Microsoft Defender para Ponto de Extremidade     |  Usado para lidar com ameaças de segurança detectadas em dispositivos registrados pelo centro de operações de segurança (SOC) da área de trabalho gerenciada da Microsoft.  |
 |Dados de diagnóstico do Windows     |Usada para determinar o status de atualização de dispositivos gerenciados, bem como para fornecer e aprimorar a oferta de ti de serviço (ITaaS) do Microsoft Managed desktop.         |
 |Dados de contato do administrador     | Usado pela área de trabalho gerenciada da Microsoft para se comunicar com administradores de locatários.        |
 
@@ -73,7 +73,7 @@ A área de trabalho gerenciada da Microsoft processa essas entidades para fornec
 - Dados do locatário
 - Recursos do Azure Active Directory
 - Dados de política e configuração
-- Metadados ATP do Microsoft defender
+- Metadados do Microsoft defender para ponto de extremidade
 - Dados de diagnóstico do Windows
 - Dados de uso de produtos e serviços
 
@@ -87,9 +87,9 @@ Para obter mais informações sobre as regiões que o Azure usa para armazenamen
 
 Os dados do Intune podem ser armazenados em algumas regiões diferentes, como Europa (Irlanda) e Europa Ocidental (Países Baixos). O administrador de ti cria uma conta de locatário e escolhe o país onde os dados serão armazenados quando eles se inscreverem inicialmente nos serviços do Intune. Para obter uma lista de locais de datacenter usados pelo Intune, consulte [Microsoft Intune: onde estão os dados do meu cliente?](http://intunedatacentermap.azurewebsites.net/). Para obter mais informações sobre o armazenamento de dados e uso pelo Intune, confira [coleta de dados no Intune](https://docs.microsoft.com/intune/privacy-data-collect).
 
-### <a name="microsoft-defender-advanced-threat-protection"></a>Proteção avançada contra ameaças do Microsoft Defender
+### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
 
-Os dados de proteção avançada contra ameaças (ATP) do Microsoft defender podem ser armazenados em algumas regiões diferentes. Por esse motivo, o Microsoft defender ATP opera nos datacenters do Microsoft Azure na União Européia, no Reino Unido e nos Estados Unidos, conforme mencionado no [Microsoft defender ATP — locais de armazenamento de dados](http://intunedatacentermap.azurewebsites.net/). Para obter mais informações sobre o armazenamento de dados e uso pelo Microsoft defender ATP, consulte [que dados o Microsoft defender ATP coleta?](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
+Os dados do Microsoft defender para pontos de extremidade podem ser armazenados em algumas regiões diferentes. Por esse motivo, o defender para ponto de extremidade opera nos datacenters do Microsoft Azure na União Européia, no Reino Unido e nos Estados Unidos, conforme mencionado no [Microsoft defender para ponto de extremidade — locais de armazenamento de dados](http://intunedatacentermap.azurewebsites.net/). Para obter mais informações sobre o armazenamento de dados e uso pelo defender para ponto de extremidade, consulte [que dados o Microsoft defender para o ponto de extremidade coleta?](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
 
 ### <a name="windows-10"></a>Windows 10
 
@@ -138,5 +138,5 @@ Além disso, use as orientações a seguir para exercitar o DSRs para os serviç
 
 - [Azure Active Directory](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure?view=o365-worldwide)
 - [Microsoft Intune](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-intune?view=o365-worldwide)
-- [Microsoft Defender ATP](https:/docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [Microsoft defender para ponto de extremidade](https:/docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 - [Windows 10](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance)

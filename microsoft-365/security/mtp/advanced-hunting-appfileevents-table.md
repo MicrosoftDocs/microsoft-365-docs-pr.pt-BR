@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 5cab6e3fe7a3b4b74989dde360c03d58e0bad46f
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1a7f523e96c0a46c29098f7e5bb2fbb83a4db4bb
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430146"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847651"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430146"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 A `AppFileEvents` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre atividades relacionadas a arquivos em aplicativos de nuvem e serviços monitorados pelo Microsoft Cloud app Security. Use essa referência para criar consultas que retornam informações dessa tabela.
 

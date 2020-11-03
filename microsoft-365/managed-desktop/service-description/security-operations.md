@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 15a62da1222fc55d50dfd4c3b2f0e7ba4a0554eb
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 5698e2a88adf3d2bae84a82e0e001132293e36be
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778607"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847711"
 ---
 # <a name="security-operations-in-microsoft-managed-desktop"></a>Operações de segurança na área de trabalho gerenciada da Microsoft
 
@@ -41,4 +41,4 @@ O SOC fornece os seguintes serviços:
     - Recovery
     - Atividade pós-incidente
 - Os clientes do Microsoft Managed desktop estão qualificados para se inscrever no serviço de especialistas em ameaças da Microsoft. O SOC liaises com esse serviço para entender melhor as ameaças complexas que afetam sua organização, incluindo consultas de alerta, dispositivos potencialmente comprometidos, causa básica de uma conexão de rede suspeita e inteligência adicional contra ameaças em relação à contínua execução de campanhas persistentes avançadas. Para obter mais informações, consulte [especialistas em ameaças da Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts).
-- O processo de gerenciamento de ameaças e vulnerabilidades usa alguns dos serviços da Microsoft para ajudar a informar as recomendações da sua organização para proteção contra ameaças. O SOC consome dados de seu centro de segurança de proteção avançada contra ameaças do Microsoft defender e de fontes de dados de vulnerabilidade relevantes dentro e fora da Microsoft para descobrir vulnerabilidades e configurações incorretas e fornecer relatórios acionáveis.
+- O processo de gerenciamento de ameaças e vulnerabilidades usa alguns dos serviços da Microsoft para ajudar a informar as recomendações da sua organização para proteção contra ameaças. O SOC consome dados da central de segurança do Microsoft defender for Endpoint e de fontes de dados de vulnerabilidade relevantes dentro e fora da Microsoft para descobrir vulnerabilidades e configurações incorretas e fornecer relatórios acionáveis.

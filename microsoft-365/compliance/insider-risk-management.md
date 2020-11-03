@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 289f0763d6a7e887946a5672fde5341f79f96855
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 82a7d1c9eec13d87fa45b12b072e9712ccd267c2
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816856"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847807"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de risco do insider no Microsoft 365
 
@@ -146,7 +146,7 @@ As comunicações de usuário para usuário são, em geral, uma fonte de violaç
 
 ## <a name="intentional-or-unintentional-security-policy-violations-preview"></a>Violações de política de segurança intencional ou não intencional (visualização)
 
-Os usuários normalmente têm um grande grau de controle ao gerenciar seus dispositivos no local de trabalho moderno. Isso pode incluir permissões para instalar ou desinstalar aplicativos necessários no desempenho de suas tarefas ou a capacidade de desabilitar temporariamente os recursos de segurança de dispositivos. Se essa atividade é inadvertida, acidental ou mal-intencionada, essa conduta pode representar risco à sua organização e é importante identificar e agir para minimizar. Para ajudar a identificar essas atividades de segurança arriscadas, os seguintes modelos de violação de política de segurança de gerenciamento de risco do insider classificam indicadores de risco de segurança e usam os alertas da proteção avançada contra ameaças da Microsoft defender (ATP) para fornecer ideias para atividades relacionadas à segurança:
+Os usuários normalmente têm um grande grau de controle ao gerenciar seus dispositivos no local de trabalho moderno. Isso pode incluir permissões para instalar ou desinstalar aplicativos necessários no desempenho de suas tarefas ou a capacidade de desabilitar temporariamente os recursos de segurança de dispositivos. Se essa atividade é inadvertida, acidental ou mal-intencionada, essa conduta pode representar risco à sua organização e é importante identificar e agir para minimizar. Para ajudar a identificar essas atividades de segurança arriscadas, os seguintes modelos de violação de política de segurança de gerenciamento de risco do insider classificam indicadores de risco de segurança e usam o Microsoft defender para alertas de ponto de extremidade para fornecer ideias para atividades relacionadas à segurança:
 
 - [Violações de política de segurança geral (versão prévia)](insider-risk-management-policies.md#general-security-policy-violations-preview)
 - [Violações de política de segurança por parte dos usuários (visualização)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)

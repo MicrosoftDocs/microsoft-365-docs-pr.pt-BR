@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8ced46ea30c7225fd3e5c8f1309ef482542e51b2
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: de0bc092c35c7f48c562da8d4218f7a638abe1d5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445778"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847775"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Funções e responsabilidades da Área de Trabalho Gerenciada da Microsoft
 
@@ -33,7 +33,7 @@ Função ou responsabilidade | Descrição
 Gerenciamento de política MDM | A Microsoft aplicará as políticas MDM de acordo com as práticas recomendadas e considerará as solicitações de alterações na política. Também alteraremos o locatário conforme prescrito nas [políticas de dispositivos](../service-description/device-policies.md).
 suporte ao usuário | Fornecemos suporte ao usuário para dispositivos, Windows e para o pacote de produtos do Microsoft 365 para todos os usuários registrados por meio do aplicativo Get Help pré-instalado em todos os dispositivos de área de trabalho gerenciada da Microsoft. 
 Suporte do serviço de desktop gerenciado da Microsoft | A Microsoft fornecerá suporte ao seu departamento de ti por meio de uma equipe de operações de área de trabalho gerenciada da Microsoft. Esta equipe oferecerá suporte técnico para solução de problemas, solicitações de alteração e gerenciamento de incidentes para o ambiente de área de trabalho gerenciada da Microsoft do cliente. Para obter mais informações, consulte [Administração de suporte para a área de trabalho gerenciada da Microsoft](../working-with-managed-desktop/admin-support.md).
-Monitoramento de segurança | A Microsoft monitorará seus dispositivos de área de trabalho gerenciada da Microsoft usando o Microsoft defender ATP. Se o SOC (centro de operações de segurança) do Microsoft Managed desktop detectar uma ameaça, você será notificado, isolando o dispositivo e corrigirá o problema remotamente. Para obter mais informações, consulte [segurança](../service-description/security.md).
+Monitoramento de segurança | A Microsoft monitorará seus dispositivos de área de trabalho gerenciada da Microsoft usando o Microsoft defender para ponto de extremidade. Se o SOC (centro de operações de segurança) do Microsoft Managed desktop detectar uma ameaça, você será notificado, isolando o dispositivo e corrigirá o problema remotamente. Para obter mais informações, consulte [segurança](../service-description/security.md).
 Monitoramento e gerenciamento de atualização | Monitoramos ativamente seus dispositivos de área de trabalho gerenciada da Microsoft para garantir que as atualizações de qualidade e recursos mais recentes estejam instaladas para o Microsoft Windows e o Microsoft Office. Para obter mais informações, consulte [como as atualizações são tratadas](../service-description/updates.md).
 Agrupamento de usuários e dispositivos | A equipe de operações de área de trabalho gerenciada da Microsoft criará e gerenciará grupos de usuários e dispositivos necessários como parte das operações de ti. Nenhuma alteração de associação ou configuração é permitida nesses grupos. A alteração desses grupos pode levar à configuração inesperada de dispositivos e à perda de funcionalidade. Para qualquer problema ou dúvida em torno desses grupos, os administradores de ti podem entrar em contato com as operações de área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [Administração de suporte para a área de trabalho gerenciada da Microsoft](../working-with-managed-desktop/admin-support.md).
 

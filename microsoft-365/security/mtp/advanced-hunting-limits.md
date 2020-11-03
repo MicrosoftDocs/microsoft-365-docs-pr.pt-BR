@@ -1,5 +1,5 @@
 ---
-title: Cotas de busca avançada e parâmetros de uso no Microsoft Threat Protection
+title: Cotas de busca avançada e parâmetros de uso no Microsoft 365 defender
 description: Entenda vários parâmetros de uso e cotas (limites de serviço) que mantêm o serviço de busca avançada responsivo
 keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, Search, Query, telemetria, Schema, Kusto, limite de CPU, limite de consulta, recursos, resultados máximos, cota, parâmetros, alocação
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 192fb47aafdd20bd5e1f0774a64ec3215f1203d1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bab63d9e5939f87f6a1edbf62d256b82552e4fe9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636900"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847363"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>Cotas de busca avançada e parâmetros de uso
 
@@ -32,7 +32,7 @@ ms.locfileid: "48636900"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 Para manter o serviço em desempenho e resposta, a busca avançada define várias cotas e parâmetros de uso (também conhecidos como "limites de serviço"). Essas cotas e parâmetros se aplicam às consultas executadas manualmente e por [regras de detecção personalizadas](custom-detection-rules.md). Os clientes que executam várias consultas regularmente acompanham o consumo e [aplicam práticas recomendadas de otimização](advanced-hunting-best-practices.md) para minimizar as interrupções.
 

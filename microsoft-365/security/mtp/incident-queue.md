@@ -1,6 +1,6 @@
 ---
-title: Priorizar Incidentes na Proteção contra Ameaças da Microsoft
-description: Saiba como priorizar incidentes na fila de incidentes na Proteção contra Ameaças da Microsoft
+title: Priorizar incidentes no Microsoft 365 defender
+description: Saiba como priorizar incidentes da fila de incidentes no Microsoft 365 defender
 keywords: incidente, fila, visão geral, dispositivos, identidades, usuários, caixa de correio, email, incidentes
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -21,24 +21,24 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 382cfd374c40d0c5a0dd7d7705281bd56263d8b8
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: f681d02cc4af8bd56ba945a3d944798e545bf93c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430818"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846707"
 ---
-# <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Priorizar Incidentes na Proteção contra Ameaças da Microsoft
+# <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 
 
-A Proteção contra Ameaças da Microsoft aplica a análise de correlação e agrega todas as investigações e alertas relacionados de diferentes produtos em um incidente. A Proteção contra Ameaças da Microsoft também disparará alertas exclusivos em atividades que só podem ser identificadas como mal-intencionadas, tendo em conta a visibilidade de ponta a ponta que a Proteção contra Ameaças da Microsoft tem em todo o estado e pacote de produtos. Ao fazer isso, a Proteção contra Ameaças da Microsoft conta a história mais completa do ataque, permitindo que um analista de operações de segurança entenda e lide com ameaças complexas em toda a organização.
+O Microsoft 365 defender aplica a análise de correlação e agrega todos os alertas e investigações relacionados de produtos diferentes em um único incidente. O Microsoft 365 defender também dispara alertas exclusivos em atividades que só podem ser identificados como mal-intencionados, dada a visibilidade de ponta a ponta que a Microsoft 365 defender tem em toda a imobiliária e pacote de produtos. Fazendo isso, o Microsoft 365 defender narra a história de ataque mais ampla, permitindo que um analista de operações de segurança entenda e lide com ameaças complexas em toda a organização.
 
 
 A **Fila de incidentes** exibe um conjunto de incidentes sinalizados de vários dispositivos, usuários e caixas de correio. Isso ajuda a classificar incidentes e criar uma decisão de resposta de segurança cibernética embasada.
@@ -75,7 +75,7 @@ Filtre para ver somente os incidentes com mais de um alerta. Isso pode ser uma i
 
 
 ### <a name="multiple-service-sources"></a>Várias fontes de serviço 
-Filtrar para exibir somente incidentes com alertas de diferentes fontes (Microsoft Defender ATP, Microsoft Cloud App Security, Azure ATP, Office 365 ATP)
+Filtro para ver apenas incidentes que contêm alertas de diferentes fontes (Microsoft defender for Endpoint, Microsoft Cloud app Security, Microsoft defender para identidade, Microsoft defender para Office 365)
 ### <a name="service-sources"></a>Fontes de serviço
 Ao escolher uma fonte específica, é possível se concentrar em incidentes com pelo menos um alerta da fonte escolhida. 
 

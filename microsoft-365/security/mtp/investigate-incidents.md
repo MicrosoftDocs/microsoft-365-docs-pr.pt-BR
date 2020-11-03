@@ -1,5 +1,5 @@
 ---
-title: Investigar incidentes na Proteção contra Ameaças da Microsoft
+title: Investigue incidentes no Microsoft 365 defender
 description: Analisar incidentes relacionados a dispositivos, usuários e caixas de correio.
 keywords: incidente, incidentes, computadores, dispositivos, usuários, identidades, correio, email, caixa de correio, investigação, gráfico, evidência
 search.product: eADQiWindows 10XVcnh
@@ -21,33 +21,33 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 7a4e901c016d55115eb79001ff2fc42d2340f8f2
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: a6cdf55b33c91a33675bb4909c0cb08e8561d212
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430592"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846743"
 ---
-# <a name="investigate-incidents-in-microsoft-threat-protection"></a>Investigar incidentes na Proteção contra Ameaças da Microsoft
+# <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigue incidentes no Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
 
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-A proteção contra ameaças da Microsoft agrega todos os alertas, ativos, investigações e evidências relacionados a todos os seus dispositivos, usuários e caixas de correio para fornecer uma visão abrangente de toda a amplitude de um ataque.
+O Microsoft 365 defender agrega todos os alertas, ativos, investigações e evidências relacionados em seus dispositivos, usuários e caixas de correio para dar a você uma visão abrangente de todo um ataque.
 
 Investigue os alertas que afetam a sua rede, entenda o que cada um significa e agrupe as evidências associadas aos incidentes para planejar uma correção eficaz.
 
 ## <a name="investigate-an-incident"></a>Investigar um incidente
 
-1. Selecionar um incidente na fila de incidentes. <BR> Isso abre um painel lateral e fornece uma visualização de informações importantes como status, gravidade, categorias e entidades afetadas.
+1. Selecionar um incidente na fila de incidentes. <BR> Um painel lateral abre e oferece uma visualização de informações importantes, como status, gravidade, categorias e entidades impactadas.
 
     ![Imagem do painel lateral do incidente](../../media/incident-side-panel.png)
 
-2. Selecione **Abrir página do incidente**. <BR> Isso abre a página Incidente, com mais informações detalhadas do incidente, comentários e ações, guias (visão geral, alertas, dispositivos, usuários, investigações, evidências).
+2. Selecione **Abrir página do incidente**. <BR> Isso abre a página de incidentes onde você encontrará mais detalhes de incidentes de informações, comentários e ações, guias (visão geral, alertas, dispositivos, usuários, investigações, evidências).
 
 3. Examine os alertas, dispositivos, usuários e outras entidades envolvidas no incidente.
 
@@ -57,7 +57,7 @@ A página da visão geral oferece uma imagem instantânea das principais coisas 
 
 ![Imagem da página da visão geral dos incidentes](../../media/incidents-overview.png)
 
-As categorias de ataque oferecem uma visualização numérica e visual do quão avançado o ataque progrediu em relação ao kill chain. Assim como ocorre com outros produtos de segurança da Microsoft, a Proteção contra Ameaças da Microsoft está alinhada à estrutura [MITRE ATT&CK&trade;](https://attack.mitre.org/).
+As categorias de ataque oferecem uma visão visual e numérica da forma como o ataque evoluiu em relação à cadeia de Kill. Da mesma forma que outros produtos de segurança da Microsoft, o Microsoft 365 defender é alinhado à estrutura [Mitre ATT&CK &trade; ](https://attack.mitre.org/) .
 
 A seção escopo fornece uma lista dos principais ativos afetados que fazem parte desse incidente. Se houver informações específicas sobre esse ativo, como nível de risco, prioridade de investigação, além de qualquer marcação nos ativos, também virão à tona nesta seção.
 
@@ -69,11 +69,11 @@ Essa visão geral pode ajudar na triagem inicial do incidente, fornecendo ideias
 
 ## <a name="alerts"></a>Alertas
 
-Você pode ver todos os alertas relacionados ao incidente e outras informações sobre eles, como gravidade, entidades envolvidas no alerta, a origem dos alertas (Azure ATP, Microsoft Defender ATP, Office 365 ATP) e o motivo pelo qual eles foram vinculados.
+Você pode exibir todos os alertas relacionados ao incidente e outras informações sobre eles, como gravidade, entidades que estavam envolvidas no alerta, a fonte dos alertas (Microsoft defender para identidade, Microsoft defender para ponto de extremidade, Microsoft defender para Office 365) e o motivo pelo qual foram vinculados.
 
 ![Imagem da página de alertas de incidente](../../media/incident-alerts.png)
 
-Por padrão, os alertas são classificados em ordem cronológica, para exibir primeiro como o ataque se desenvolveu. Clicar em cada alerta o redirecionará à página de alerta relevante, para realizar uma investigação detalhada desse alerta.
+Por padrão, os alertas são classificados em ordem cronológica, para exibir primeiro como o ataque se desenvolveu. Ao clicar em cada alerta, você será direcionado para a página alerta relevante, onde poderá realizar uma investigação profunda desse alerta.
 
 ## <a name="devices"></a>Dispositivos
 
@@ -95,21 +95,21 @@ Ao clicar no nome do usuário, você será direcionado para a página do Cloud A
 
 ## <a name="mailboxes"></a>Caixas de correio
 
-Investigue os usuários identificados como parte ou relacionados a um determinado incidente. Para uma investigação com mais detalhes, clicar no alerta relacionado ao email abrirá a Proteção Avançada contra Ameaças do Office 365, onde será possível executar ações de correção.
+Investigue os usuários identificados como parte ou relacionados a um determinado incidente. Para realizar um trabalho mais investigativo, selecionar o alerta relacionado ao email abrirá o Microsoft defender para Office 365, onde você poderá realizar ações de correção.
 
 ![Imagem da guia Caixas de correio de um incidente](../../media/incident-mailboxes.png)
 
 ## <a name="investigations"></a>Investigações
 
-Selecione **investigações** para ver todas as investigações automatizadas disparadas por alertas neste incidente. As investigações irão executar ações de correção ou aguardar a aprovação de ações do analista, dependendo da configuração das investigações automatizadas a serem executadas no Microsoft Defender ATP e na Proteção Avançada contra Ameaças do Office 365.
+Selecione **investigações** para ver todas as investigações automatizadas disparadas por alertas neste incidente. As investigações executarão ações de correção ou aguardarão a aprovação de ações do analista, dependendo de como você configurou suas investigações automatizadas para executar no Microsoft defender para o ponto de extremidade e o defender para Office 365.
 
 ![Imagem da guia Investigações de um incidente](../../media/incident-investigations.png)
 
-Clique em uma investigação para navegar até a página Detalhes da investigação e obter informações completas sobre o status da investigação e da correção. Caso haja ações pendentes para aprovação como parte da investigação, elas aparecerão na guia Ações pendentes. Execute uma ação como parte da correção de incidentes.
+Clique em uma investigação para navegar até a página Detalhes da investigação e obter informações completas sobre o status da investigação e da correção. Se houver ações pendentes para aprovação como parte da investigação, elas serão exibidas na guia ações pendentes. Executar ação como parte da correção de incidentes.
 
 ## <a name="evidence"></a>Evidências
 
-A Proteção contra Ameaças da Microsoft investiga automaticamente todos os eventos e entidades suspeitas com suporte dos incidentes nos alertas, fornecendo a você respostas automáticas e informações sobre arquivos, processos, serviços, emails e muito mais. Isso ajuda a detectar e bloquear rapidamente ameaças potenciais no incidente.
+O Microsoft 365 defender investiga automaticamente todos os eventos com suporte de incidentes e entidades suspeitas nos alertas, fornecendo respostas automáticas e informações sobre arquivos, processos, serviços, emails e muito mais importantes. Isso ajuda a detectar e bloquear rapidamente ameaças potenciais no incidente.
 
 ![Imagem da guia Evidências de um incidente](../../media/incident-evidence.png)
 

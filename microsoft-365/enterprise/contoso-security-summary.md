@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a contoso usa os recursos de segurança do Microsoft 365 para empresas.
-ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 8d62dba96ecf19f0dc31af2cf5a2d85257ca19d5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754227"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847101"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Resumo do Microsoft 365 for Enterprise Security para a Contoso Corporation
 
@@ -89,9 +89,9 @@ Para seguir as práticas recomendadas de segurança e a Microsoft 365 para requi
 
   A Contoso está usando o [Windows Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) para proteção contra malware e gerenciamento antimalware para PCs e dispositivos com o Windows 10 Enterprise.
 
-- Garanta a segurança do fluxo de emails e o log de auditoria de caixa de correio com a Proteção Avançada contra Ameaças do Office 365 
+- Fluxo de email seguro e log de auditoria de caixa de correio com o Microsoft defender para Office 365 
 
-  A Contoso está usando a Proteção do Exchange Online e a [Proteção Avançada contra Ameaças do Office 365 (ATP)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) para proteger contra malware desconhecido, vírus e URLs mal-intencionadas enviadas por emails.
+  A Contoso está usando o Exchange Online Protection e o [defender para Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) para proteger contra malware, vírus e URLs mal-intencionadas desconhecidos transmitidos por emails.
 
   A contoso também habilitou o log de auditoria de caixa de correio para identificar quem efetua login nas caixas de correio do usuário, envia mensagens e outras atividades realizadas pelo proprietário da caixa de correio, por um usuário delegado ou por um administrador.
 
@@ -127,9 +127,9 @@ Para seguir as práticas recomendadas de segurança e a Microsoft 365 para requi
 
 ## <a name="security-management"></a>Gerenciamento de segurança
 
-- Painel central de segurança para TI com a Central de Segurança do Azure
+- Painel central de segurança para ti com o Azure defender *
 
-  A contoso usa a [central de segurança do Azure](https://azure.microsoft.com/services/security-center/) para apresentar uma visão unificada de proteção contra ameaças e segurança, gerenciar políticas de segurança em suas cargas de trabalho e responder a cyberattacks.
+  A contoso usa o [Azure defender *](https://azure.microsoft.com/services/security-center/) para apresentar uma visão unificada da proteção contra ameaças e segurança, gerenciar políticas de segurança em suas cargas de trabalho e responder a cyberattacks.
 
 - Painel central de segurança para os usuários com a Central de Segurança do Windows Defender
 

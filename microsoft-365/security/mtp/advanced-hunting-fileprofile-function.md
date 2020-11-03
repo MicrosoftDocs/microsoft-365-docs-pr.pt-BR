@@ -1,5 +1,5 @@
 ---
-title: Função fileprofile () em busca avançada para a proteção contra ameaças da Microsoft
+title: Função fileprofile () em busca avançada para o Microsoft 365 defender
 description: Saiba como usar o fileprofile () para enriquecer informações sobre arquivos em seus resultados de consulta de busca avançada
 keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, fileprofile, perfil de arquivo, função, enriquecimento
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e99e545b5578b5eff8c19345dc672f735e4f7bd2
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 31959ed146df52aa6568f7aa60617b74ab8dd4db
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430580"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847447"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430580"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 A `FileProfile()` função é uma função de enriquecimento em [busca avançada](advanced-hunting-overview.md) que adiciona os dados a seguir a arquivos encontrados pela consulta.
 
@@ -63,8 +63,8 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>Argumentos
 
-- **x**— coluna de ID de arquivo para usar: `SHA1` ,, `SHA256` `InitiatingProcessSHA1` ou `InitiatingProcessSHA256` ; função usa `SHA1` se não especificado
-- **y**– limitar o número de registros a enriquecer, 1-1000; função usa 100 se não especificado
+- **x** — coluna de ID de arquivo para usar: `SHA1` ,, `SHA256` `InitiatingProcessSHA1` ou `InitiatingProcessSHA256` ; função usa `SHA1` se não especificado
+- **y** – limitar o número de registros a enriquecer, 1-1000; função usa 100 se não especificado
 
 ## <a name="examples"></a>Exemplos
 

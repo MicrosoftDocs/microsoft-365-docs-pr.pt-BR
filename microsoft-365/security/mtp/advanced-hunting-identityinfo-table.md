@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 38a7e6600c682b1edef5320ef4de296b5943952d
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 0b21d23cfc97576304e949c597301716c72e6871
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430474"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847435"
 ---
 # <a name="identityinfo"></a>IdentityInfo
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430474"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 A `IdentityInfo` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre contas de usuário obtidas de vários serviços, incluindo o Active Directory do Azure. Use essa referência para criar consultas que retornam informações dessa tabela.
 

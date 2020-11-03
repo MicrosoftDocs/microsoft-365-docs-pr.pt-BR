@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 60467f0ed3cf7aa75481cb3bb49f954c32bf2e7d
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 23ec0ef33294bb532229c8f736ab5b6a5d000d4e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681391"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845235"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -79,7 +79,7 @@ Para habilitar as funcionalidades do Microsoft 365 para seus trabalhadores remot
 |:-------|:-----|:-------|
 | MFA imposta com padrões de segurança   | Proteja-se contra os dispositivos e identidades comprometidos exigindo uma segunda forma de autenticação para as entradas. O padrão de segurança exige MFA para todas as contas de usuário.   | Microsoft 365 E3 ou E5 |
 | MFA imposta com Acesso Condicional| Exija MFA com base nas propriedades da entrada com políticas de Acesso Condicional.    | Microsoft 365 E3 ou E5 | 
-| MFA imposta com Acesso Condicional baseado em risco   | Exija a MFA com base no risco do logon do usuário com a Proteção Avançada contra Ameaças do Azure. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 | 
+| MFA imposta com Acesso Condicional baseado em risco   | Exija MFA com base no risco de o usuário entrar no Microsoft Defender para Identidade. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 | 
 | Redefinição de Senha por autoatendimento (SSPR)    | Permita que os usuários redefinam ou desbloqueiem suas contas ou senhas.  | Microsoft 365 E3 ou E5 |
 | Proxy do Aplicativo Azure AD    | Forneça acesso remoto seguro para aplicativos baseados na web hospedados em servidores da intranet.   | Exige uma assinatura paga do Azure paga |
 | VPN de Ponto a Site do Azure   | Criar uma conexão segura do dispositivo de um trabalhador remoto para sua intranet por meio de uma rede virtual do Azure.   | Exige uma assinatura paga do Azure paga |

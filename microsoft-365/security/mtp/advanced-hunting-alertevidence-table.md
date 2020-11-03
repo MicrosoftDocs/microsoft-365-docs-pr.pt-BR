@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 7f6a4f7592e6a8fde0b7ae6269f07ce7f76a5730
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 549eed005e06a7d52ce2f881820ae9fdeffdfea7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430158"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847675"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -32,9 +32,9 @@ ms.locfileid: "48430158"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-A `AlertEvidence` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre várias entidades (arquivos, endereços IP, URLs, usuários ou dispositivos) associados a alertas do Microsoft defender ATP, Office 365 ATP, Microsoft Cloud app Security e Azure ATP. Use essa referência para criar consultas que retornam informações dessa tabela.
+A `AlertEvidence` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre várias entidades — arquivos, endereços IP, URLs, usuários ou dispositivos associados a alertas do Microsoft defender para ponto de extremidade, Microsoft defender para Office 365, Microsoft Cloud app Security e Microsoft defender para identidade. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: O roteiro para configurar o software cliente e servidor para o Microsoft 365.
-ms.openlocfilehash: 94412ca4a7665807368ae33a0e50dc928445c8b7
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: d51aead9a50df3acace94526824cfa08fc083a01
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655954"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847149"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Roteiro de software de cliente e servidor para o Microsoft 365
 
@@ -89,7 +89,7 @@ Em muitas organizações grandes e pequenas, você pode usar uma combinação de
 - Devem ser atualizadas com as últimas atualizações de segurança e correções de suporte. Em alguns casos, essas atualizações são liberadas mensalmente.
 - Não estão otimizadas para aproveitar as tecnologias de nuvem da Microsoft e ajudar você a transformar seus negócios digitalmente.
 - Não incluem novos aplicativos de produtividade, como o Microsoft Teams.
-- Não incluem os recursos de segurança mais recentes, como a Proteção Avançada contra Ameaças do Exchange.
+- Não inclua os recursos de segurança mais recentes, como o Exchange e o defender para Office 365.
 
 O Microsoft 365 for Enterprise inclui versões baseadas em nuvem dos serviços do Office Server que usam algumas das mesmas ferramentas que as versões locais do software de servidor do Office, como navegadores da Web e o cliente do Outlook. Esses serviços são continuamente atualizados para segurança, sem o envolvimento da equipe de TI, economizando o tempo necessário para manutenção e atualização dos servidores locais. Esses serviços também possuem melhorias nos novos recursos que não estão presentes no software do servidor do Office.
 

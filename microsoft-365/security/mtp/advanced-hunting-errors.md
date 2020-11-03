@@ -1,5 +1,5 @@
 ---
-title: Lidar com erros na busca avançada para a proteção contra ameaças da Microsoft
+title: Manipular erros na busca avançada do Microsoft 365 defender
 description: Entender os erros exibidos ao usar a busca avançada
 keywords: caça avançada, busca de ameaças, busca de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, esquema, Kusto, tempo limite, recursos, erros, erro desconhecido, limites, cota, parâmetro, alocação
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 8b9c46e312d28c7a08efbfa74f96dc33b90fee0a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a5379db66034ecfe537f7d9effdd83f6c41bfd58
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636888"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846887"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Manipular erros de busca avançada
 

@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48fd80aca01ab3bf5665a53e5538cc450320cf6b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8590f73b32e452c9d34d179db12c4db978df8e4d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197912"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846695"
 ---
 # <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>Entender as campanhas e as técnicas de ataque mais recentes com a análise de ameaças 
 
@@ -31,4 +31,4 @@ As ameaças da CyberSource estão se tornando mais frequentes e sofisticadas. É
 
 A **análise de ameaças** é um conjunto de relatórios interativos publicados assim como ameaças emergentes – novas técnicas, campanhas de ataque e epidemias de malware são identificadas. Os relatórios ajudam a avaliar o impacto das ameaças ao seu ambiente e fornece as ações recomendadas a serem confinadas, aumentar a resiliência organizacional e evitar ameaças específicas.
 
-[Saiba mais sobre a análise de ameaças no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).  
+[Saiba mais sobre a análise de ameaças no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).  

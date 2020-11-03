@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 06a82fda31e602ed2feb53d00e8839daf801bf7e
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: a9f983cebfbed1482fca7e44b77c200cbd9574ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277505"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847113"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio de locatário cruzado (versão prévia)
 
@@ -533,7 +533,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
 
 - **Problema: o Cloud MailUsers com bloqueio de proxyAddress SMTP não proprietário Sra move o plano de fundo.** Ao criar objetos MailUser de locatário de destino, você deve garantir que todos os endereços de proxy SMTP pertençam à organização de locatário de destino. Se uma proxyAddress SMTP existir no usuário de email de destino que não pertença ao locatário local, a conversão do MailUser para a caixa de correio será impedida. Isso se deve à nossa garantia de que os objetos de caixa de correio só podem enviar emails de domínios para os quais o locatário é autoritativo (domínios reivindicados pelo locatário): 
 - 
-   - Ao sincronizar usuários do no local usando o Azure AD Connect, configure os objetos do MailUser no local com o ExternalEmailAddress apontando para o locatário de origem onde a caixa de correio existe (laran@contoso \. onmicrosoft.com) e você carimba o PrimarySmtpAddress como um domínio que reside no locatário de destino (Lara. Newton@northwind \. com). Esses valores são sincronizados com o locatário, e um usuário de email apropriado é provisionado e está pronto para a migração. Um objeto de exemplo é mostrado aqui.
+   - Ao sincronizar os usuários no local usando o Azure AD Connect, configure os objetos do MailUser no local com o ExternalEmailAddress apontando para o locatário de origem onde a caixa de correio existe (laran@contoso \. onmicrosoft.com) e você carimba o PrimarySmtpAddress como um domínio que reside no locatário de destino (Lara.Newton@northwind \. com). Esses valores são sincronizados com o locatário, e um usuário de email apropriado é provisionado e está pronto para a migração. Um objeto de exemplo é mostrado aqui.
      ```powershell
      target/AADSynced user] PS C> Get-MailUser laran | select ExternalEmailAddress, EmailAddresses   
      ExternalEmailAddress               EmailAddresses 
@@ -644,8 +644,8 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
    | Centro de negócios da Microsoft                         |
    | Microsoft MyAnalytics (Completo)                      |
    | Descoberta Eletrônica Avançada do Office 365                    |
-   | Proteção contra Ameaças do Office 365 Advanced (Plano 1)    |
-   | Proteção contra Ameaças do Office 365 Advanced (Plano 2)    |
+   | Microsoft defender para Office 365 (plano 1)    |
+   | Microsoft defender para Office 365 (plano 2)    |
    | Privileged Access Management para Office 365           |
    | Outlook Customer Manager                          |
    | Criptografia Premium no Office 365                  |

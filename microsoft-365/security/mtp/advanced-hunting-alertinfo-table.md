@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 739ee33b162c1e701603a17e59f0d0c2611c064c
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 7672d974666a381a48da15e0917a46c97df88895
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430170"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847663"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -32,11 +32,11 @@ ms.locfileid: "48430170"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 
 
-A `AlertInfo` tabela no esquema de [caça avançada](advanced-hunting-overview.md) contém informações sobre os alertas do Microsoft defender ATP, Office 365 ATP, Microsoft Cloud app Security e Azure ATP. Use essa referência para criar consultas que retornam informações dessa tabela.
+A `AlertInfo` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre os alertas do Microsoft defender para o ponto de extremidade, Microsoft defender para Office 365, Microsoft Cloud app Security e Microsoft defender para identidade. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b124e4c4d120d981766493034aba9bc6eefa7d9c
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 1ebe91e94b286e7d9a1b46b7fd7abf625881a6a9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446554"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847797"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -34,7 +34,7 @@ Se está adicionando novas soluções ao centro de [conformidade da Microsoft 36
 
 
 > [!TIP]
-> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Novidades da Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
+> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[O que há de novo no Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
 
 ## <a name="august-2020"></a>Agosto de 2020
@@ -53,10 +53,10 @@ Vários recursos novos e aprimorados atingiram a visualização pública neste m
     - Violações de política de segurança por usuários de prioridade
     - Violações de política de segurança por usuários descontentes
 
-- A integração com [o Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) permite que você importe e filtre os alertas do Microsoft defender ATP para atividades detectadas por políticas criadas a partir dos novos modelos de política de violação de segurança. Há também uma configuração de [risco do insider](insider-risk-management-settings.md#microsoft-defender-advanced-threat-protection-preview) relacionada, onde você pode escolher importar alertas de segurança para o gerenciamento de risco do insider com base no status de triagem de alerta do Microsoft defender ATP.
+- A integração com [o Microsoft defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) permite importar e filtrar os alertas de ponto de extremidade do Microsoft defender para atividades detectadas por políticas criadas a partir dos novos modelos de política de violação de segurança. Há também uma configuração de [risco do insider](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview) relacionada, onde você pode escolher importar alertas de segurança para o gerenciamento de risco do insider com base no status de triagem de alerta do Microsoft defender para ponto de extremidade.
 
     > [!NOTE]
-    > Para aproveitar a integração do Microsoft defender ATP (incluindo os novos modelos de violação de política de segurança), você precisará ter o Microsoft defender ATP configurado em sua organização. Você também precisará habilitar o Microsoft defender ATP para a integração do gerenciamento de risco do insider [configurando recursos avançados no Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
+    > Para aproveitar a integração do Microsoft defender for Endpoint (incluindo os novos modelos de violação de política de segurança), você precisará ter o Microsoft defender para ponto de extremidade configurado em sua organização. Você também precisará habilitar o Microsoft defender para o ponto de extremidade da integração de gerenciamento de risco do insider [configurando recursos avançados no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center).
  
 - Personalizar limites do indicador ao [criar uma política](insider-risk-management-policies.md#create-a-new-policy).
 - Configurar [grupos de usuários de prioridade](insider-risk-management-settings.md#priority-user-groups-preview) para definir usuários em sua organização cuja atividade requer uma inspeção mais detalhada com base em fatores como sua posição, nível de acesso a informações confidenciais ou histórico de riscos.
@@ -150,7 +150,7 @@ Faça um tour de vídeo...
 O pode trazer mais aprimoramentos para os classificadores estagiários:
 
 - Uma correção com base em seus comentários: quando você propaga e treina um classificador personalizado, não é mais necessário inserir manualmente URLs de site do SharePoint e caminhos de pasta. Agora você pode escolher em uma lista de preenchimento de sites e pastas.
-- Novo recurso: ao criar um rótulo de confidencialidade e configurar as definições de rotulação automática para os aplicativos do Office, você pode aplicar automaticamente (ou recomendar que os usuários se apliquem) o rótulo ao conteúdo que corresponde aos classificadores estagiários. [Saiba Mais](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
+- Novo recurso: ao criar um rótulo de confidencialidade e configurar as definições de rotulação automática para os aplicativos do Office, você pode aplicar automaticamente (ou recomendar que os usuários se apliquem) o rótulo ao conteúdo que corresponde aos classificadores estagiários. [Saiba mais](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
 
 ### <a name="communication-compliance-yammer-support-is-here"></a>Conformidade de comunicação: o suporte do Yammer está aqui
 
@@ -320,7 +320,7 @@ Aqui está um resumo das novas soluções que você encontrará. Fique atento pa
 > Essas soluções estão localizadas somente no centro de conformidade da Microsoft 365. Eles não podem ser gerenciados no centro de conformidade & segurança do Office 365.
 <br/>
 
-|**Nova solução**|**Descrição**|**Saiba Mais**|
+|**Nova solução**|**Descrição**|**Saiba mais**|
 |:-----|:-----|:-----|
 |Pontuação de conformidade da Microsoft (visualização) <br/>|Criado a partir do [Gerenciador de conformidade](compliance-manager-overview.md), a pontuação de conformidade é um recurso autônomo com um design mais simples e mais fácil, que ajuda você a compreender e aprimorar a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. <br/>|[Visão geral da Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md)|
 |Catálogo de soluções (versão prévia) <br/>|O catálogo de soluções é seu ponto de partida para descoberta, aprendizado e rápida introdução às soluções de gerenciamento de conformidade e risco. O catálogo é organizado em três categorias de conformidade, cada uma contendo detalhes sobre as soluções que compõem essa categoria. As categorias incluem proteção de informações & governança, gerenciamento de risco do insider e resposta de & de descoberta <br/>|[Visão geral do catálogo de soluções (versão prévia)](microsoft-365-solution-catalog.md)|
@@ -336,7 +336,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 > Alguns recursos ainda estão disponíveis somente no centro de conformidade & segurança do Office 365 – eles estão indicados abaixo. Mas estamos trabalhando para visualizar isso no centro de conformidade da Microsoft 365, portanto, fique atento às atualizações. 
 <br/>
 
-|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba Mais**|
+|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba mais**|
 |:-----|:-----|:-----|:-----|
 |Descoberta Eletrônica Avançada|descoberta eletrônica avançada > de descoberta eletrônica <br/> https://protection.office.com/advancedediscoverycases |> de descoberta eletrônica avançada <br/> https://compliance.microsoft.com/advancedediscovery | [Visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) |
 |Políticas de alerta|Alertas > políticas de alerta <br/> https://protection.office.com/alertpolicies |No momento, as políticas de alerta são gerenciadas apenas no centro de conformidade & segurança do Office 365. |[Políticas de alerta no centro de conformidade e segurança](alert-policies.md) |
@@ -366,7 +366,7 @@ Está imaginando por que ele está silencioso no lançamento frontal este mês? 
 ### <a name="new-encryption-options-for-sensitivity-labels"></a>Novas opções de criptografia para rótulos de confidencialidade 
 
 Ao configurar a criptografia para um rótulo de confidencialidade, agora você tem duas opções que permitem aos usuários atribuir permissões ao aplicarem manualmente o rótulo a emails e documentos:<br>
-- Ao aplicar o rótulo ao **email do Outlook**, os usuários podem impor restrições equivalentes à opção não encaminhar. Os destinatários poderão ler a mensagem, mas não encaminhar, imprimir ou copiar o conteúdo.
-- Ao aplicar o rótulo a **arquivos do Word, PowerPoint e Excel**, os usuários serão solicitados a atribuir permissões de acesso a usuários e grupos específicos.
+- Ao aplicar o rótulo ao **email do Outlook** , os usuários podem impor restrições equivalentes à opção não encaminhar. Os destinatários poderão ler a mensagem, mas não encaminhar, imprimir ou copiar o conteúdo.
+- Ao aplicar o rótulo a **arquivos do Word, PowerPoint e Excel** , os usuários serão solicitados a atribuir permissões de acesso a usuários e grupos específicos.
 
 Vá para [restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md#let-users-assign-permissions) para saber mais.

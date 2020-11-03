@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: cb2aad70b8ba6ccd9075513b5f383ede42ebd6c0
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: ff81b6e1a290d928d68cb43b455713183d24f75b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295123"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846635"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar a postura de segurança com a pontuação segura da Microsoft
 
@@ -38,7 +38,7 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 
 * Identity (contas do Azure Active Directory & funções)
 * Dados (proteção de informações da Microsoft)
-* Dispositivo (Microsoft defender ATP, conhecido como [Pontuação segura da Microsoft para dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
+* Dispositivo (Microsoft defender para ponto de extremidade, conhecido como [Pontuação segura da Microsoft para dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * Aplicativo (aplicativos de email e de nuvem, incluindo o Office 365 e o Microsoft Cloud app Security)
 * Infraestrutura (sem ações de melhoria por enquanto)
 
@@ -57,9 +57,9 @@ Além disso, se você selecionar o botão **incluir** ao lado da sua pontuação
 
 Veja a seguir as pontuações que você pode adicionar ao seu modo de exibição de sua pontuação geral para fornecer uma visão mais completa de sua pontuação geral:
 
-- **Pontuação planejada**: mostrar a pontuação projetada quando as ações planejadas são concluídas
-- **Pontuação da licença atual**: mostrar a pontuação que pode ser obtida com sua licença atual da Microsoft
-- **Pontuação atingível**: mostrar a pontuação que pode ser obtida com suas licenças da Microsoft e a aceitação de riscos atual
+- **Pontuação planejada** : mostrar a pontuação projetada quando as ações planejadas são concluídas
+- **Pontuação da licença atual** : mostrar a pontuação que pode ser obtida com sua licença atual da Microsoft
+- **Pontuação atingível** : mostrar a pontuação que pode ser obtida com suas licenças da Microsoft e a aceitação de riscos atual
 
 Este modo de exibição é parecido se você incluiu todos os modos de exibição de Pontuação possíveis:
 

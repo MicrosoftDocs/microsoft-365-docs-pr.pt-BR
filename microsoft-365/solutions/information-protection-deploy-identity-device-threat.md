@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Evitar violações de dados pessoais com serviços de proteção de identidade, dispositivo e ameaça do Microsoft 365.
-ms.openlocfilehash: e084036860f5d15a14ca6c75305583b86a5fc53f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 321b60efbdabe62b14502df4a16dd2dcec4b9cef
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398686"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847173"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Usar a proteção de identidade, dispositivo e ameaça para a regulamentação de privacidade de dados
 
@@ -70,12 +70,12 @@ Use o [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/micro
 - Exigir dispositivos móveis para bloqueio na inatividade.
 - Exigir dispositivos móveis para apagar em várias falhas de entrada.
 
-Use o [Exchange Online Protection e a proteção avançada contra ameaças do Office 365 (ATP)](../security/office-365-security/office-365-atp.md) para a categoria **proteger contra ameaças** , com a qual você pode:
+Use o [Exchange Online Protection e o Microsoft defender para Office 365](../security/office-365-security/office-365-atp.md) para a categoria **proteger contra ameaças** , com a qual você pode:
 
 - Habilitar autenticação de remetente (SPF, DMARC e DKIM).
-- Configure as políticas anti-phishing da proteção avançada contra ameaças (ATP) do Office 365.
-- Implementar anexos seguros de ATP.
-- Implementar links de ATP seguros.
+- Configure as políticas anti-phishing do Microsoft defender para Office 365.
+- Implementar anexos seguros.
+- Implementar links seguros.
 - Implementar políticas de detecção e resposta de malware.
 - Implementar políticas de spam de saída e de entrada.
 
@@ -83,6 +83,6 @@ Use o [Exchange Online Protection e a proteção avançada contra ameaças do Of
 
 - [Identidade comum e políticas de acesso ao dispositivo](../security/office-365-security/identity-access-policies.md)
 - [Proteção contra ameaças no Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [Anexos Seguros da ATP](../security/office-365-security/atp-safe-attachments.md)
-- [Links Seguros de ATP](../security/office-365-security/atp-safe-links.md)
-- [Documentos Seguros da ATP](../security/office-365-security/safe-docs.md)
+- [Anexos Seguros](../security/office-365-security/atp-safe-attachments.md)
+- [Links Seguros](../security/office-365-security/atp-safe-links.md)
+- [Documentos Seguros](../security/office-365-security/safe-docs.md)
