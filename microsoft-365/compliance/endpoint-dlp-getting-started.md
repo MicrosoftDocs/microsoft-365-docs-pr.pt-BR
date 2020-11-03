@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 82ba434d1874ce57abcf0bcc4b60858e0e2ccbf8
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 95446e15e656e3c1aa658f897863608311b350e0
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779209"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842035"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)
 
@@ -110,7 +110,7 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
 
 1. Abra o [Centro de conformidade do Microsoft](https://compliance.microsoft.com).
 
-2. Abra a página de configurações do Centro de conformidade e escolha **Integrar dispositivos** . 
+2. Abra a página de configurações do Centro de conformidade e escolha **Integrar dispositivos**. 
 
    > [!div class="mx-imgBorder"]
    > ![habilite o gerenciamento de dispositivos](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
@@ -118,11 +118,11 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
    > [!NOTE]
    > Enquanto a integração de dispositivos geralmente leva cerca de 60 segundos para que seja habilitada, aguarde até 30 minutos antes de se envolver com o suporte da Microsoft.
 
-3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos** . A lista estará vazia até você integrar os dispositivos.
+3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. A lista estará vazia até você integrar os dispositivos.
 
 4. Escolha **Integração** para iniciar o processo de integração.
 
-5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote** .
+5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
 
    > [!div class="mx-imgBorder"]
    > ![método de implantação](../media/endpoint-dlp-getting-started-3-deployment-method.png)
@@ -146,16 +146,16 @@ Neste cenário, o Microsoft Defender para Ponto de Extremidade já está implant
 
 1. Abra o [Centro de conformidade do Microsoft](https://compliance.microsoft.com).
 
-2. Abra a página de configurações do Centro de conformidade e escolha **Habilitar o monitoramento de dispositivos** .
+2. Abra a página de configurações do Centro de conformidade e escolha **Habilitar o monitoramento de dispositivos**.
 
-3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos** . Você deverá ver a lista de dispositivos que já estão relatando para o Microsoft Defender para Ponto de Extremidade.
+3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. Você deverá ver a lista de dispositivos que já estão relatando para o Microsoft Defender para Ponto de Extremidade.
 
    > [!div class="mx-imgBorder"]
    > ![gerenciamento de dispositivos](../media/endpoint-dlp-getting-started-2-device-management.png)
    
 4. Escolha **Integração** , caso precise integrar dispositivos adicionais.
 
-5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote** .
+5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
 
 6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos do Microsoft Defender para Ponto de Extremidade que correspondem ao pacote de implantação selecionado na etapa 5:
 
@@ -165,7 +165,7 @@ Neste cenário, o Microsoft Defender para Ponto de Extremidade já está implant
     - Integrar computadores com Windows 10 usando um script local
     - Integrar computadores não persistentes da VDI (infraestrutura de desktop virtual).
 
-Uma vez que o ponto de extremidade está integrado, ele deve estar visível na tabela **Dispositivos** e começar a relatar logs de atividades de auditoria para o **Explorador de atividades** .
+Uma vez que o ponto de extremidade está integrado, ele deve estar visível na tabela **Dispositivos** e começar a relatar logs de atividades de auditoria para o **Explorador de atividades**.
 
 > [!NOTE]
 >Esta experiência está na imposição da licença. Sem a licença necessária, os dados não estarão visíveis nem acessíveis.
@@ -191,7 +191,7 @@ Agora que você tem dispositivos integrados e pode exibir os dados de atividade 
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
-- [Proteção Avançada contra Ameaças do Microsoft Defender (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Ferramentas e métodos de integração para computadores Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Dispositivos associados ao Microsoft Azure AD](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
