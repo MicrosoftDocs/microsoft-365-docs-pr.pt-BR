@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender a aplicar as configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: a624d48944965c217fb8547e4f09da0ec388e615
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e Microsoft defender para Office 365
+ms.openlocfilehash: 38a03727f91878f356d8bc0dc618c711bfc500bb
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830532"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845727"
 ---
-# <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Políticas de segurança predefinidas no EOP e no Office 365 ATP
+# <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e Microsoft defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -59,31 +59,31 @@ As condições e exceções disponíveis são:
 
 ### <a name="policies-in-preset-security-policies"></a>Políticas em políticas de segurança predefinidas
 
-As políticas de segurança predefinidas usam as políticas correspondentes dos vários recursos de proteção no EOP e no Office 365 ATP. Essas políticas são criadas _depois_ que você atribui as políticas de segurança predefinidas de **proteção padrão** ou **proteção estrita** aos usuários. Você não pode modificar essas políticas.
+As políticas de segurança predefinidas usam as políticas correspondentes dos vários recursos de proteção no EOP e do Microsoft defender para Office 365. Essas políticas são criadas _depois_ que você atribui as políticas de segurança predefinidas de **proteção padrão** ou **proteção estrita** aos usuários. Você não pode modificar essas políticas.
 
 - **Políticas de proteção do Exchange Online (EOP)** : isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
   
-  - [Políticas antispam](configure-your-spam-filter-policies.md) chamadas política de **segurança predefinida padrão** e **política de segurança predefinida restrita** .
-  - [Diretivas Antimalware](configure-anti-malware-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida restrita** .
+  - [Políticas antispam](configure-your-spam-filter-policies.md) chamadas política de **segurança predefinida padrão** e **política de segurança predefinida restrita**.
+  - [Diretivas Antimalware](configure-anti-malware-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida restrita**.
   - [EOP políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings) chamadas política de **segurança** predefinida padrão e **política de segurança predefinida restrita** (configurações de spoof).
 
-- **Políticas de proteção avançada contra ameaças (ATP) do office 365** : inclui organizações com as assinaturas do Microsoft 365 E5 ou do Office 365 ATP Add-on:
+- **Políticas do Microsoft defender para Office 365** : isso inclui organizações com as assinaturas do complemento Microsoft 365 E5 ou defender para Office 365:
 
-  - Diretivas antiphishing da ATP chamadas de **política de segurança predefinida padrão** e **política de segurança predefinida estrita** , que incluem:
+  - Políticas anti-phishing no Microsoft defender para Office 365 chamada política de **segurança predefinida padrão** e **política de segurança predefinida estrita** , que incluem:
 
     - As mesmas [configurações de spoof](set-up-anti-phishing-policies.md#spoof-settings) que estão disponíveis nas políticas anti-phishing do EOP.
-    - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
-    - [Limites avançados de phishing](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
+    - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+    - [Limites avançados de phishing](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
-  - [Políticas de links seguros](set-up-atp-safe-links-policies.md) chamada **política de segurança predefinida padrão** e **política de segurança predefinida estrita** .
+  - [Políticas de links seguros](set-up-atp-safe-links-policies.md) chamada **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
 
-  - [Políticas de anexos seguros](set-up-atp-safe-attachments-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida estrita** .
+  - [Políticas de anexos seguros](set-up-atp-safe-attachments-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
 
-Observe que você pode aplicar proteções do EOP a diferentes usuários do que as proteções ATP.
+Observe que você pode aplicar proteções do EOP a diferentes usuários do que o Microsoft defender para as proteções do Office 365.
 
 ### <a name="policy-settings-in-preset-security-policies"></a>Configurações de política em políticas de segurança predefinidas
 
-Você não pode modificar as configurações de política nos perfis de proteção. Os valores de configuração de política **padrão** e **estrito** são descritos em [configurações recomendadas para a segurança do EOP e do Office 365 ATP](recommended-settings-for-eop-and-office365-atp.md).
+Você não pode modificar as configurações de política nos perfis de proteção. Os valores de configuração de política **padrão** e **estrito** são descritos em [configurações recomendadas para o EOP e o Microsoft defender para segurança 365 do Office](recommended-settings-for-eop-and-office365-atp.md).
 
 ### <a name="order-of-precedence-for-preset-security-policies-and-other-policies"></a>Ordem de precedência para políticas de segurança predefinidas e outras políticas
 
@@ -121,11 +121,11 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
 1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **políticas de segurança predefinidas** da política de gerenciamento de ameaças.
 
-2. Em **proteção padrão** ou **proteção estrita** , clique em **Editar** .
+2. Em **proteção padrão** ou **proteção estrita** , clique em **Editar**.
 
 3. O assistente **aplicar proteção padrão** ou **aplicar proteção estrita** é iniciado. Nas **proteções do EOP aplicam** -se à etapa, identifique os destinatários internos aos quais as [proteções do EOP](#policies-in-preset-security-policies) se aplicam:
 
-   1. Clique em **Adicionar uma condição** . Na lista suspensa exibida, selecione uma condição em **aplicado se** :
+   1. Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se** :
 
       - **Os destinatários são**
       - **Os destinatários são membros de**
@@ -139,23 +139,23 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
       Repita a etapa anterior para adicionar valores à condição e repita essa etapa quantas vezes forem necessárias ou até que você fique sem condições.
 
-   4. Para adicionar uma exceção, clique em **Adicionar uma condição** . Na lista suspensa exibida, selecione uma condição em **exceto quando** . As configurações e o comportamento são exatamente como as condições.
+   4. Para adicionar uma exceção, clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **exceto quando**. As configurações e o comportamento são exatamente como as condições.
 
-   Quando terminar, clique em **Avançar** .
+   Quando terminar, clique em **Avançar**.
 
-4. Se sua organização tiver o Office 365 ATP, você será levado para as **proteções de ATP aplicam** -se à etapa para identificar os destinatários internos aos quais as [proteções do Office 365 ATP](#policies-in-preset-security-policies) se aplicam.
+4. Se sua organização tiver o Microsoft defender para Office 365, você será levado para as **proteções ATP se aplicarem** à etapa para identificar os destinatários internos aos quais as [proteções do Microsoft Defender para Office 365](#policies-in-preset-security-policies) são aplicadas.
 
    As configurações e o comportamento são exatamente como as **proteções do EOP se aplicam à** etapa.
 
-   Quando terminar, clique em **Avançar** .
+   Quando terminar, clique em **Avançar**.
 
-5. Na etapa **confirmar** , verifique suas seleções e clique em **confirmar** .
+5. Na etapa **confirmar** , verifique suas seleções e clique em **confirmar**.
 
 ### <a name="use-the-security--compliance-center-to-modify-the-assignments-of-preset-security-policies"></a>Usar o centro de conformidade de & de segurança para modificar as atribuições de políticas de segurança predefinidas
 
 As etapas para modificar a atribuição da política de segurança de **proteção padrão** ou **proteção estrita** são as mesmas de quando você [atribuiu inicialmente as políticas de segurança predefinidas aos usuários](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users).
 
-Para desabilitar a **proteção padrão** ou políticas de segurança de **proteção estrita** e, ao mesmo tempo, preservar as condições e exceções existentes, deslize a opção para **desabilitado** . Para habilitar as políticas, deslize a opção para **habilitado** .
+Para desabilitar a **proteção padrão** ou políticas de segurança de **proteção estrita** e, ao mesmo tempo, preservar as condições e exceções existentes, deslize a opção para **desabilitado**. Para habilitar as políticas, deslize a opção para **habilitado**.
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 

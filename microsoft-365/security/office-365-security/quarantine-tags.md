@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Os administradores podem aprender a usar as marcas de quarentena para controlar o que os usuários podem fazer com as mensagens em quarentena.
-ms.openlocfilehash: 89f03795d8f12b3df3e5090648c5a6c8b64c322a
-ms.sourcegitcommit: 676479f1e65492b44c4d0316a765f55ae9fae374
+ms.openlocfilehash: e50d7eea4cec3c87231dda855725b1e901f5fa33
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819735"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845691"
 ---
 # <a name="quarantine-tags"></a>Marcas de quarentena
 
@@ -68,11 +68,11 @@ Você cria e atribui as marcas de quarentena no centro de conformidade & seguran
 
 ## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>Etapa 1: criar marcas de quarentena no centro de conformidade e segurança &
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena** .
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
 
-2. Na página **marcas de quarentena** , selecione **adicionar marca personalizada** .
+2. Na página **marcas de quarentena** , selecione **adicionar marca personalizada**.
 
-3. O assistente **novo marcador** é aberto. Na página **nome da marca** , insira um nome curto, mas exclusivo, no campo **nome da marca** . Você precisará identificar e selecionar a marca pelo nome em etapas futuras. Quando terminar, clique em **Avançar** .
+3. O assistente **novo marcador** é aberto. Na página **nome da marca** , insira um nome curto, mas exclusivo, no campo **nome da marca** . Você precisará identificar e selecionar a marca pelo nome em etapas futuras. Quando terminar, clique em **Avançar**.
 
 4. Na página **acesso a mensagens de destinatário** , selecione um dos seguintes valores:
    - **Sem acesso**
@@ -96,11 +96,11 @@ Você cria e atribui as marcas de quarentena no centro de conformidade & seguran
 
    Essas permissões e seus efeitos nas mensagens em quarentena e nas notificações de spam do usuário final são descritos na seção [detalhes da permissão de marca de quarentena](#quarantine-tag-permission-details) mais adiante neste artigo.
 
-   Quando terminar, clique em **Avançar** .
+   Quando terminar, clique em **Avançar**.
 
 5. Na página de **Resumo** exibida, revise suas configurações. Você pode clicar em **Editar** em cada configuração para modificá-la.
 
-   Quando tiver concluído, clique em **Enviar** .
+   Quando tiver concluído, clique em **Enviar**.
 
 6. Clique em **concluído** na página de confirmação exibida.
 
@@ -229,7 +229,7 @@ Em recursos de proteção _com suporte_ que colocadas em quarentena mensagens ou
 |Recurso|Marcas de quarentena suportadas?|Marcas de quarentena padrão usadas|
 |---|:---:|---|
 |[Políticas antispam](configure-your-spam-filter-policies.md): <ul><li>**Spam** ( _spam_ )</li><li>**Spam de alta confiança** ( _HighConfidenceSpamAction_ )</li><li>**Email de phishing** ( _PhishSpamAction_ )</li><li>**Email de phishing de alta confiança** ( _HighConfidencePhishAction_ )</li><li>**Email em massa** ( _BulkSpamAction_ )</li></ul>|Sim|<ul><li>DefaultSpamTag (acesso completo)</li><li>DefaultHighConfSpamTag (acesso completo)</li><li>DefaultPhishTag (acesso completo)</li><li>DefaultHighConfPhishTag (sem acesso)</li><li>DefaultBulkTag (acesso completo)</li></ul>
-|Políticas anti-phishing: <ul><li>[Proteção de inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) ( _AuthenticationFailAction_ )</li><li>[Proteção de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies):<sup>\*</sup> <ul><li>**Se o email for enviado por um usuário representado** ( _TargetedUserProtectionAction_ )</li><li>**Se o email for enviado por um domínio representado** ( _TargetedDomainProtectionAction_ )</li><li>Inteligência de caixa de **correio** \> **Se o email for enviado por um usuário representado** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|Não|n/d|
+|Políticas anti-phishing: <ul><li>[Proteção de inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) ( _AuthenticationFailAction_ )</li><li>[Proteção de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**Se o email for enviado por um usuário representado** ( _TargetedUserProtectionAction_ )</li><li>**Se o email for enviado por um domínio representado** ( _TargetedDomainProtectionAction_ )</li><li>Inteligência de caixa de **correio** \> **Se o email for enviado por um usuário representado** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|Não|n/d|
 |[Políticas Antimalware](configure-anti-malware-policies.md): todas as mensagens detectadas são sempre colocadas em quarentena.|Não|n/d|
 |[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)|Não|n/d|
 |[Regras de fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (também conhecidas como regras de transporte) com a ação: **entregar a mensagem para a quarentena hospedada** ( _quarentena_ ).|Não|n/d|
@@ -243,7 +243,7 @@ Se você estiver satisfeito com as permissões de usuário final fornecidas pela
 
 Instruções completas para a criação e modificação de políticas antispam são descritas em [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> e selecione **anti-spam** . Ou abra <https://protection.office.com/antispam> .
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> e selecione **anti-spam**. Ou abra <https://protection.office.com/antispam> .
 
 2. Encontre e selecione uma política antispam existente para editar ou crie uma nova política antispam.
 
@@ -255,7 +255,7 @@ Instruções completas para a criação e modificação de políticas antispam s
   
    ![Seleções de marca de quarentena em uma política antispam](../../media/quarantine-tags-in-anti-spam-policies.png)
 
-5. Quando concluir, clique em **Salvar** .
+5. Quando concluir, clique em **Salvar**.
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>Atribuir marcas de quarentena em políticas antispam no PowerShell
 
@@ -304,9 +304,9 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Set-H
 
 As configurações globais para marcas de quarentena permitem que você personalize as notificações de spam do usuário final que são enviadas aos destinatários das mensagens que foram colocadas em quarentena. Para obter mais informações sobre essas notificações, consulte [end-user spam Notifications](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena** .
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
 
-2. Na página **marcas de quarentena** , selecione **configurações globais** .
+2. Na página **marcas de quarentena** , selecione **configurações globais**.
 
 3. No submenu **configurações de notificação de quarentena** que é aberto, defina algumas ou todas as configurações a seguir:
 
@@ -318,7 +318,7 @@ As configurações globais para marcas de quarentena permitem que você personal
 
    - **Escolher idioma** : as notificações de spam do usuário final já estão localizadas com base nas configurações de idioma do destinatário. Você pode especificar texto personalizado em diferentes idiomas para o **nome de exibição** e os valores de **aviso de isenção de responsabilidade** .
 
-     Selecione pelo menos um idioma na primeira caixa de idioma e clique em **Adicionar** . Você pode selecionar vários idiomas clicando em **Adicionar** após cada um. Uma caixa de idioma de seção mostra todos os idiomas que você selecionou:
+     Selecione pelo menos um idioma na primeira caixa de idioma e clique em **Adicionar**. Você pode selecionar vários idiomas clicando em **Adicionar** após cada um. Uma caixa de idioma de seção mostra todos os idiomas que você selecionou:
 
      ![Idiomas selecionados na segunda caixa de idioma nas configurações de notificação de quarentena global das marcas de quarentena](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
@@ -340,7 +340,7 @@ As configurações globais para marcas de quarentena permitem que você personal
 
 ## <a name="view-quarantine-tags-in-the-security--compliance-center"></a>Exibir as marcas de quarentena no centro de conformidade e segurança &
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena** .
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
 
 - Para exibir as configurações de marcas de quarentena internas ou personalizadas, selecione a marca de quarentena na lista (não marque a caixa de seleção).
 
@@ -384,9 +384,9 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 
   Se a marca de quarentena estiver sendo usada, [substitua a marca de quarentena atribuída antes de](#step-2-assign-a-quarantine-tag-to-supported-features) removê-la.
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena** .
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
 
-2. Na página **marcas de quarentena** , selecione a marca de quarentena personalizada que você deseja remover e clique em **excluir marca** .
+2. Na página **marcas de quarentena** , selecione a marca de quarentena personalizada que você deseja remover e clique em **excluir marca**.
 
 3. Clique em **remover marca** na caixa de diálogo de confirmação que aparece.
 

@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: Acelere o planejamento e a configuração do Microsoft 365 ou do Office 365 com guias de configuração.
-ms.openlocfilehash: 215f51af1fc553ef0710565af0a7c25111de8328
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 7024494de231e5adcce4bb91414b5f7bb3349f88
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48493692"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844087"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Guias de configuração para os serviços Microsoft 365 e Office 365
 
@@ -135,12 +135,12 @@ O [supervisor de implantação do AD FS](https://aka.ms/adfsguidance) oferece or
 
 ## <a name="guides-for-security-and-compliance"></a>Guias de segurança e conformidade
 
-### <a name="microsoft-defender-advanced-threat-protection-atp-advisor"></a>Supervisor de proteção avançada contra ameaças do Microsoft defender (ATP)
+### <a name="microsoft-defender-for-endpoint-advisor"></a>Microsoft defender para o Endpoint Advisor
 
-O [Microsoft defender Advanced Threat Protection Advisor](https://aka.ms/mdatpsetup) fornece instruções que ajudarão sua rede corporativa a prevenir, detectar, investigar e responder a ameaças avançadas. Faça uma avaliação informada da vulnerabilidade da sua organização e decida quais pacotes de implantação e métodos de configuração são melhor. 
+O [Microsoft defender for Endpoint Advisor](https://aka.ms/mdatpsetup) fornece instruções que ajudarão sua rede corporativa a prevenir, detectar, investigar e responder a ameaças avançadas. Faça uma avaliação informada da vulnerabilidade da sua organização e decida quais pacotes de implantação e métodos de configuração são melhor. 
 
 >[!NOTE]
->Uma licença de volume da Microsoft é necessária para o Microsoft defender ATP.
+>Uma licença de volume da Microsoft é necessária para o Microsoft defender para ponto de extremidade.
 
 ### <a name="exchange-online-protection-setup-guide"></a>Guia de instalação do Exchange Online Protection
 
@@ -148,9 +148,9 @@ O Microsoft proteção do Exchange Online (EOP) é um serviço de filtragem de e
 
 Use o [Guia de instalação do Exchange Online Protection](https://aka.ms/EOPguidance) para configurar o EOP selecionando quais das três situações de implantação &mdash; caixas de correio locais, híbrida (combinação de caixas de correio locais e de nuvem) ou todas as caixas de correio na nuvem &mdash; se ajustam à sua organização. O guia fornece informações e recursos para configurar e revisar o licenciamento do usuário, atribuir permissões no centro de administração do Microsoft 365 e configurar as políticas antimalware e spam da sua organização no centro de conformidade e segurança do &. 
 
-### <a name="office-365-advanced-threat-protection-advisor"></a>Supervisor de proteção avançada contra ameaças do Office 365
+### <a name="microsoft-defender-for-office-365-advisor"></a>Microsoft defender para Office 365 Advisor
 
-O [supervisor de proteção avançada contra ameaças do Office 365](https://aka.ms/oatpsetup) protege sua organização contra ameaças mal-intencionadas que seu ambiente pode encontrar através de mensagens de email, links e ferramentas de colaboração de terceiros. Este guia fornece os recursos e informações para ajudá-lo a preparar e identificar o plano de proteção avançada contra ameaças para atender às necessidades da sua organização. 
+O [Microsoft defender para Office 365 Advisor](https://aka.ms/oatpsetup) protege sua organização contra ameaças mal-intencionadas que seu ambiente pode encontrar por meio de mensagens de email, links e ferramentas de colaboração de terceiros. Este guia fornece os recursos e informações para ajudá-lo a preparar e identificar o plano do defender for Office 365 para atender às necessidades da sua organização. 
 
 ### <a name="microsoft-information-protection-setup-guide"></a>Guia de instalação do Microsoft Information Protection
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra falsificação no Exchange Online Protection (EOP).
-ms.openlocfilehash: 3b1a30541c46383284203eee61d8b6679ac3b493
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: a5b0484e41e3df7a7b6ad16e69a4f7062b19b554
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445706"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844387"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Perguntas frequentes sobre a proteção antifalsificação
 
@@ -45,11 +45,9 @@ Quando a Microsoft habilitou este recurso no 2018, ocorreram alguns falsos posit
 
 A própria Microsoft primeiro adotou os novos requisitos de autenticação de email várias semanas antes de implantá-lo para os clientes. Embora tenha havido dificuldades no início, elas diminuíram gradualmente.
 
-## <a name="is-spoof-intelligence-available-to-microsoft-365-customers-without-atp"></a>A inteligência de falsificação está disponível para clientes da Microsoft 365 sem ATP?
+## <a name="is-spoof-intelligence-available-to-microsoft-365-customers-without-defender-for-office-365"></a>A inteligência de falsificação está disponível para clientes da Microsoft 365 sem o defender para Office 365?
 
 Sim. A partir de outubro de 2018, a inteligência de falsificação está disponível para todas as organizações com caixas de correio no Exchange Online e organizações EOP autônomas sem caixas de correio do Exchange Online.
-
-A tecnologia antifalsificação estava inicialmente disponível apenas na proteção avançada contra ameaças do Office 365. Por exemplo, assinaturas do Microsoft E5 ou Complementos ATP.
 
 ## <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Como relatar mensagens de spam ou não spam para a Microsoft?
 
@@ -73,12 +71,12 @@ Infelizmente, não. Os invasores se adaptarão ao uso de outras técnicas (por e
 
 Quase todos os grandes serviços de email implementam verificações tradicionais de SPF, DKIM e DMARC. Alguns serviços têm outras verificações mais estritas, mas poucos vão até o EOP para bloquear emails não autenticados e tratá-los como mensagens falsificadas. No entanto, o setor está se tornando mais atento a problemas com emails não autenticados, especialmente devido ao problema de phishing.
 
-## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Ainda precisa habilitar a configuração avançada de filtro de spam "registro SPF: falha de hardware" (_MarkAsSpamSpfRecordHardFail_) se eu habilitar a antifalsificação?
+## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Ainda precisa habilitar a configuração avançada de filtro de spam "registro SPF: falha de hardware" ( _MarkAsSpamSpfRecordHardFail_ ) se eu habilitar a antifalsificação?
 
-Não. Essa configuração de ASF não é mais necessária. A proteção antifalsificação considera a falha de hardware SPF e um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** (_MarkAsSpamSpfRecordHardFail_), provavelmente obterá mais falsos positivos.
+Não. Essa configuração de ASF não é mais necessária. A proteção antifalsificação considera a falha de hardware SPF e um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** ( _MarkAsSpamSpfRecordHardFail_ ), provavelmente obterá mais falsos positivos.
 
 Recomendamos que você desabilite esse recurso, pois ele não fornecerá praticamente nenhum benefício adicional para detectar spam ou mensagens de phishing e, em vez disso, geraria quase todos os falsos positivos. Para obter mais informações, consulte [Configurações avançadas de filtro de spam (ASF) no EOP](advanced-spam-filtering-asf-options.md).
 
 ## <a name="does-sender-rewriting-scheme-help-fix-forwarded-email"></a>A ajuda do esquema de reconfiguração do remetente corrige emails encaminhados?
 
-O SRS corrige apenas parcialmente o problema dos emails encaminhados. Ao reescrever o **email SMTP de**, o SRS pode garantir que a mensagem encaminhada passe SPF no próximo destino. No entanto, como a antifalsificação baseia-se no endereço **de** em combinação com o domínio de assinatura ou **email de** DKIM (ou outros sinais), não é suficiente impedir que emails enviados do SRS sejam marcados como falsificados.
+O SRS corrige apenas parcialmente o problema dos emails encaminhados. Ao reescrever o **email SMTP de** , o SRS pode garantir que a mensagem encaminhada passe SPF no próximo destino. No entanto, como a antifalsificação baseia-se no endereço **de** em combinação com o domínio de assinatura ou **email de** DKIM (ou outros sinais), não é suficiente impedir que emails enviados do SRS sejam marcados como falsificados.

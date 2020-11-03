@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: ed91ca8a2300cf69cb78ae24ad61e9aebb4dcc85
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 9aaeb5323900e65de47015b8cb28abf967694ea3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429414"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844795"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
@@ -52,7 +52,7 @@ A central de segurança do Microsoft 365 inclui:
 
 * **Página inicial** – obtenha uma visão geral da integridade geral da segurança da sua organização.
 * **Incidentes** – Veja a maior história de um ataque conectando os pontos vistos em alertas individuais em entidades. Você saberá exatamente onde um ataque começou, quais dispositivos são afetados, quem foi afetado e onde a ameaça foi feita.
-* **Alertas** – tenha maior visibilidade em todos os alertas em seu ambiente do Microsoft 365. Inclui alertas do Microsoft Cloud app Security, Office 365 ATP, Azure Active Directory, Azure ATP e Microsoft defender ATP. Disponível para clientes E3 e e5.  
+* **Alertas** – tenha maior visibilidade em todos os alertas em seu ambiente do Microsoft 365. Inclui alertas do Microsoft Cloud app Security, Microsoft defender para Office 365, Azure Active Directory, Microsoft defender para identidade e Microsoft defender para ponto de extremidade. Disponível para clientes E3 e e5.  
 * **Central de ações** -reduza o volume de alertas que sua equipe de segurança deve resolver manualmente, permitindo que sua equipe de operações de segurança se concentre em ameaças mais sofisticadas e outras iniciativas de alto valor.
 * **Relatórios** – obtenha os detalhes e as informações de que você precisa para proteger melhor seus usuários, dispositivos, aplicativos e muito mais.
 * **Classificação de segurança** – melhore a postura geral de segurança com o Microsoft Secure Score. Esta página fornece um resumo de recursos de segurança e recursos diferentes que você habilitou e inclui recomendações para as áreas a serem aprimoradas.

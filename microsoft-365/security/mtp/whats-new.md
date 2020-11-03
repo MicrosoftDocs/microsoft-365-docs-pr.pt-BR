@@ -1,6 +1,6 @@
 ---
-title: Novidades da Proteção contra Ameaças da Microsoft
-description: Lista os novos recursos e funcionalidades do Microsoft Threat Protection
+title: O que há de novo no Microsoft 365 defender
+description: Lista os novos recursos e funcionalidades no Microsoft 365 defender
 keywords: o que há de novo no Microsoft Threat Protection, GA, geralmente disponível, recursos, disponível, novo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 1b3cc273b61fcdff3c01b30c9ef64619a0e7a368
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 5214f7c399ab511ec16231e4dda97a2c33b37668
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430392"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844699"
 ---
-# <a name="whats-new-in-microsoft-threat-protection"></a>Novidades da Proteção contra Ameaças da Microsoft
+# <a name="whats-new-in-microsoft-365-defender"></a>O que há de novo no Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-Os recursos a seguir estão disponíveis em geral (GA) na versão mais recente do Microsoft Threat Protection.
+Os recursos a seguir estão disponíveis em geral (GA) na versão mais recente do Microsoft 365 defender.
 
 RSS feed: seja notificado quando esta página for atualizada copiando e colando a seguinte URL no seu leitor de feed:
 ```http

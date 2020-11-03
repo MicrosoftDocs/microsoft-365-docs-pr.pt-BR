@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como o SharePoint Online detecta vírus em arquivos que os usuários carregam e impedem que os usuários baixem ou sincronizem os arquivos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38d6111fe665e0af79cbd93f534b1058881ff76c
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: f774c9afd0988c504d6207b0e71ee9561312e6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327982"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844231"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Proteção de vírus interna no SharePoint Online, no OneDrive e no Microsoft Teams
 
@@ -65,9 +65,9 @@ Veja o que acontece:
 
 Os clientes de sincronização do OneDrive não baixarão arquivos que contenham vírus. O cliente de sincronização exibirá uma notificação informando que o arquivo não pode ser sincronizado.
 
-## <a name="extended-capabilities-with-office-365-advanced-threat-protection"></a>Recursos estendidos com a proteção avançada contra ameaças do Office 365
+## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Recursos estendidos com o Microsoft defender para Office 365
 
-As organizações 365 da Microsoft que têm a [proteção avançada contra ameaças do Office 365 (ATP)](office-365-atp.md) incluídas na assinatura ou compradas como um complemento podem habilitar a ATP para SharePoint, onedrive e Microsoft Teams para relatórios e proteção avançados. Para obter mais informações, consulte [ATP para SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-and-teams.md).
+As organizações 365 da Microsoft que têm [o Microsoft defender para Office 365](office-365-atp.md) incluído em sua assinatura ou comprada como um complemento podem habilitar a ATP para SharePoint, onedrive e Microsoft Teams para relatórios e proteção avançados. Para obter mais informações, consulte [ATP para SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
 ## <a name="more-information"></a>Mais informações
 

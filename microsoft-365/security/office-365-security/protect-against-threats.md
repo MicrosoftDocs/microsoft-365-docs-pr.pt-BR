@@ -19,48 +19,48 @@ ms.collection:
 - m365initiative-m365-defender
 description: Os administradores podem saber mais sobre a proteção contra ameaças no Microsoft 365 e configurar como usá-la para sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 614d396fae2666baaa55f42323b68f93a08d2d92
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: f6ac5b67d589db57d449ba61f07668b10b32706d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430926"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845715"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Aqui está um guia de início rápido que divide a configuração da proteção avançada contra ameaças em partes. Se você é novo em recursos de proteção contra ameaças no Office 365, não tem certeza de onde começar, ou se você aprende melhor *fazendo*isso, use este guia como uma lista de verificação e um ponto de partida.
+Aqui está um guia de início rápido que divide a configuração do defender para Office 365 em partes. Se você é novo em recursos de proteção contra ameaças no Office 365, não tem certeza de onde começar, ou se você aprende melhor *fazendo* isso, use este guia como uma lista de verificação e um ponto de partida.
 
 > [!IMPORTANT]
 > **As configurações iniciais recomendadas são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades específicas da sua organização**. Aguarde aproximadamente 30 minutos para que as políticas ou as alterações funcionem da mesma forma por meio do datacenter.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Assinaturas
 
 Os recursos de proteção contra ameaças estão incluídos em *todas as* assinaturas do Microsoft ou do Office 365; no entanto, algumas assinaturas têm recursos avançados. A tabela a seguir lista os recursos de proteção incluídos neste artigo junto com os requisitos mínimos de assinatura.
 
 > [!TIP]
-> Observe que, além das instruções para ativar a auditoria, *as etapas* iniciam o anti-malware, o anti-phishing e o antispam, que são marcados como parte do Office 365 proteção do Exchange Online (**EOP**). Isso pode parecer estranho em um artigo avançado de proteção contra ameaças, até que você lembre que a proteção avançada contra ameaças (**ATP**) contém e se baseia no EOP.
+> Observe que, além das instruções para ativar a auditoria, *as etapas* iniciam o anti-malware, o anti-phishing e o antispam, que são marcados como parte do Office 365 proteção do Exchange Online ( **EOP** ). Isso pode parecer estranho em um artigo do defender para Office 365, até que você se lembre (o **defender para Office 365** ) contém e cria o EOP.
 
 ****
 
 |Tipo de proteção|Requisito de assinatura|
 |---|---|
 |Log de auditoria (para fins de relatórios)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)|
-|Proteção antimalware|[Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) (**EOP**)|
+|Proteção antimalware|[Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) ( **EOP** )|
 |Proteção anti-phishing|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Proteção antispam|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Limpeza automática de zero horas (para email)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|Proteção contra URLs e arquivos mal-intencionados em emails e documentos do Office (links seguros e anexos seguros)|[Proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (**ATP**)|
-|Ativar a ATP para cargas de trabalho do SharePoint, OneDrive e Microsoft Teams|[ATP](atp-for-spo-odb-and-teams.md)|
-|Proteção anti-phishing avançada|[ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Proteção contra URLs e arquivos mal-intencionados em emails e documentos do Office (links seguros e anexos seguros)|[Microsoft defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Ativar a ATP para cargas de trabalho do SharePoint, OneDrive e Microsoft Teams|[Defender para Office 365 ](atp-for-spo-odb-and-teams.md)|
+|Proteção anti-phishing avançada|[Defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Funções e permissões
 
-Para configurar as políticas de ATP, você deve ter uma função apropriada no [centro de conformidade de & de segurança](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). Confira a tabela abaixo para funções que podem executar essas ações.
+Para configurar as políticas do defender for Office 365, você deve receber uma função apropriada no [centro de conformidade & segurança](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). Confira a tabela abaixo para funções que podem executar essas ações.
 
 ****
 
@@ -81,7 +81,7 @@ Inicie o log de auditoria no início. Você precisará de **auditoria para reali
 
 A [proteção Antimalware](anti-malware-protection.md) está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management**  >  **Policy**  >  **anti-malware**de política de gerenciamento de ameaças.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management**  >  **Policy**  >  **anti-malware** de política de gerenciamento de ameaças.
 
 2. Clique duas vezes na política **padrão** e, em seguida, escolha **configurações**.
 
@@ -97,17 +97,15 @@ Para saber mais sobre opções de política Antimalware, consulte [Configure ant
 
 ## <a name="part-2---anti-phishing-protection"></a>Parte 2-proteção contra phishing
 
-[Anti-phishing]
+A [proteção contra phishing](anti-phishing-protection.md) está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description). A proteção contra phishing avançada está disponível no [defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
-A [proteção contra phishing](anti-phishing-protection.md) está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description). A proteção contra phishing avançada está disponível na [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
-
-O procedimento a seguir descreve como configurar uma política anti-phishing do ATP. As etapas são semelhantes à configuração de uma política anti-phishing (sem ATP).
+O procedimento a seguir descreve como configurar uma política anti-phishing no Microsoft defender para Office 365. As etapas são semelhantes à configuração de uma política anti-phishing no EOP.
 
 1. No [centro de conformidade & segurança](https://protection.office.com), escolha política de **Gerenciamento de ameaças**  >  **Policy**  >  **ATP anti-phishing**.
 
 2. Clique em **política padrão**.
 
-3. Na seção **representação** , clique em **Editar**e especifique as seguintes configurações:
+3. Na seção **representação** , clique em **Editar** e especifique as seguintes configurações:
 
    - Na guia **Adicionar usuários para proteger** *, ative a* proteção. Em seguida, adicione usuários, como os membros da diretoria da sua organização, seu CEO, CFO e outros líderes seniores. (Você pode digitar um endereço de email individual ou clicar para exibir uma lista.)
 
@@ -121,7 +119,7 @@ O procedimento a seguir descreve como configurar uma política anti-phishing do 
 
    - **Salve** na guia **revisar suas configurações** depois de revisar suas configurações.
 
-4. Na seção **spoof** , clique em **Editar**e especifique as seguintes configurações:
+4. Na seção **spoof** , clique em **Editar** e especifique as seguintes configurações:
 
    - Na guia **configurações de filtro de falsificação** , verifique se a proteção contra falsificação está ativada.
 
@@ -131,17 +129,17 @@ O procedimento a seguir descreve como configurar uma política anti-phishing do 
 
 5. Feche a página de configurações de política padrão.
 
-Para saber mais sobre suas opções de política anti-phishing, consulte [Configure ATP anti-phishing Policies](configure-atp-anti-phishing-policies.md).
+Para saber mais sobre suas opções de política anti-phishing, consulte [Configure anti-phishing Policies in Microsoft defender for Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="part-3---anti-spam-protection"></a>Parte 3-proteção antispam
 
 A [proteção](anti-spam-protection.md) antispam está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management**  >  **Policy**  >  **anti-spam**de política de gerenciamento de ameaças.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management**  >  **Policy**  >  **anti-spam** de política de gerenciamento de ameaças.
 
 2. Na guia **Personalizar** , ative as configurações personalizadas.
 
-3. Expanda **política de filtro de spam padrão**, clique em **Editar política**e especifique as seguintes configurações:
+3. Expanda **política de filtro de spam padrão** , clique em **Editar política** e especifique as seguintes configurações:
 
    - Na seção **ações de spam e em massa** , defina o limite para um valor de 5 ou 6.
 
@@ -151,15 +149,15 @@ A [proteção](anti-spam-protection.md) antispam está disponível em assinatura
 
 Para saber mais sobre suas opções de política antispam, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
-## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-office-365-atp"></a>Parte 4-proteção contra URLs e arquivos mal-intencionados (links seguros e anexos seguros no Office 365 ATP)
+## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>Parte 4-proteção contra URLs e arquivos mal-intencionados (links seguros e anexos seguros no defender para Office 365)
 
-A proteção de horário de clique de URLs e arquivos mal-intencionados está disponível em assinaturas que incluem a [proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP). Ela é configurada por meio de [anexos seguros](atp-safe-attachments.md) e políticas de [links seguros](atp-safe-links.md) .
+A proteção de horário de clique de URLs e arquivos mal-intencionados está disponível em assinaturas que incluem [o Microsoft defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Ela é configurada por meio de [anexos seguros](atp-safe-attachments.md) e políticas de [links seguros](atp-safe-links.md) .
 
-### <a name="safe-attachments-policies-in-office-365-atp"></a>Políticas de anexos seguros no Office 365 ATP
+### <a name="safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Políticas de anexos seguros no Microsoft defender para Office 365
 
 Para configurar [anexos seguros](atp-safe-attachments.md), crie pelo menos uma política de links seguros.
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha a política de **Gerenciamento de ameaças**  >  **Policy**  >  e**anexos seguros de ATP**e clique em **criar**.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha a política de **Gerenciamento de ameaças**  >  **Policy**  >  e **anexos seguros de ATP** e clique em **criar**.
 
 2. No assistente de **nova política de anexos seguros** que aparece, defina as seguintes configurações:
 
@@ -171,19 +169,19 @@ Para configurar [anexos seguros](atp-safe-attachments.md), crie pelo menos uma p
 
      Clique em **Avançar**.
 
-3. Na página **aplicado a** , clique em **Adicionar uma condição**, escolha **aplicado se: o domínio do destinatário é**, clique em **Adicionar**, selecione seu domínio ou domínios, clique em **Adicionar**, em **concluído**e em **Avançar**.
+3. Na página **aplicado a** , clique em **Adicionar uma condição** , escolha **aplicado se: o domínio do destinatário é** , clique em **Adicionar** , selecione seu domínio ou domínios, clique em **Adicionar** , em **concluído** e em **Avançar**.
 
 4. Revise suas configurações e clique em **concluir**.
 
-### <a name="safe-links-policies-in-office-365-atp"></a>Políticas de links seguros no Office 365 ATP
+### <a name="safe-links-policies-in-microsoft-defender-for-office-365"></a>Políticas de links seguros no Microsoft defender para Office 365
 
 Para configurar [links seguros](atp-safe-links.md), revise e edite suas configurações globais para links seguros e crie pelo menos uma política de links seguros.
 
-1. No [centro de conformidade do & de segurança](https://protection.office.com), escolha links seguros de ATP da política de gerenciamento de **ameaças**  >  **Policy**  >  **ATP Safe Links**e clique em **configurações globais**e defina as seguintes configurações:
+1. No [centro de conformidade do & de segurança](https://protection.office.com), escolha links seguros de ATP da política de gerenciamento de **ameaças**  >  **Policy**  >  **ATP Safe Links** e clique em **configurações globais** e defina as seguintes configurações:
 
    - Verify **use Safe links in: os aplicativos do Office 365** estão ativados: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
-   - **Não rastrear quando os usuários clicarem em links seguros**: desativar esta configuração para rastrear cliques do usuário: desativar ![ ](../../media/scc-toggle-off.png) .
-   - **Não permitir que os usuários cliquem em links seguros para a URL original**: Verifique se esta configuração está ativada: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Não rastrear quando os usuários clicarem em links seguros** : desativar esta configuração para rastrear cliques do usuário: desativar ![ ](../../media/scc-toggle-off.png) .
+   - **Não permitir que os usuários cliquem em links seguros para a URL original** : Verifique se esta configuração está ativada: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
    Quando concluir, clique em **Salvar**.
 
@@ -194,8 +192,8 @@ Para configurar [links seguros](atp-safe-links.md), revise e edite suas configur
    - Na caixa **nome** , digite um nome, como `Safe Links` e clique em **Avançar**.
 
    - Na página **configurações** , defina as seguintes configurações:
-     - **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens**: escolha **ativado**.
-     - **Selecione a ação para URLs desconhecidas ou potencialmente mal-intencionadas no Microsoft Teams**: escolha **ativada**.
+     - **Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens** : escolha **ativado**.
+     - **Selecione a ação para URLs desconhecidas ou potencialmente mal-intencionadas no Microsoft Teams** : escolha **ativada**.
      - **Aplicar links seguros a mensagens de email enviadas dentro da organização**
      - **Aguarde a conclusão da verificação de URL antes de entregar a mensagem**
      - **Aplicar links seguros a mensagens de email enviadas dentro da organização**
@@ -203,7 +201,7 @@ Para configurar [links seguros](atp-safe-links.md), revise e edite suas configur
 
      Clique em **Avançar**
 
-4. Na página **aplicado a** , clique em **Adicionar uma condição**, escolha **aplicado se: o domínio do destinatário é**, clique em **Adicionar**, selecione seu domínio ou domínios, clique em **Adicionar**, em **concluído**e em **Avançar**.
+4. Na página **aplicado a** , clique em **Adicionar uma condição** , escolha **aplicado se: o domínio do destinatário é** , clique em **Adicionar** , selecione seu domínio ou domínios, clique em **Adicionar** , em **concluído** e em **Avançar**.
 
 5. Revise suas configurações e clique em **concluir**.
 
@@ -211,12 +209,12 @@ Para saber mais, confira [Configurar políticas de Links Seguros](set-up-atp-saf
 
 ## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Parte 5: verificar a ATP para SharePoint, OneDrive e Microsoft Teams está ativado
 
-Cargas de trabalho como o SharePoint, o OneDrive e o Microsoft Teams são criadas para colaboração. O uso de ATP ajuda no bloqueio e na detecção de arquivos identificados como mal-intencionados em sites de equipe e bibliotecas de documentos. Você pode ler mais sobre como isso funciona [aqui](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams).
+Cargas de trabalho como o SharePoint, o OneDrive e o Microsoft Teams são criadas para colaboração. O uso do defender para Office 365 ajuda no bloqueio e na detecção de arquivos identificados como mal-intencionados em sites de equipe e bibliotecas de documentos. Você pode ler mais sobre como isso funciona [aqui](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams).
 
 > [!IMPORTANT]
 > **Antes de iniciar esse procedimento, certifique-se de que o log de auditoria já esteja ativado para seu ambiente do Microsoft 365**. Isso geralmente é feito por alguém que tenha a função de logs de auditoria atribuída no Exchange Online. Para obter mais informações, consulte [Ativar ou desativar a pesquisa de log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md)!
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha a política de **Gerenciamento de ameaças**  >  **Policy**  >  e**anexos seguros de ATP**e clique em **configurações globais**.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha a política de **Gerenciamento de ameaças**  >  **Policy**  >  e **anexos seguros de ATP** e clique em **configurações globais**.
 
 2. Verifique se a **opção Ativar ATP para SharePoint, onedrive e Microsoft Teams** está ativada para a direita: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) e clique em **salvar**.
 
@@ -260,7 +258,7 @@ Para saber mais sobre alertas, confira [criar alertas de atividade no centro de 
 > Quando terminar de configurar o, use estes links para iniciar investigações de carga de trabalho:
 >
 >- [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
->- [Usar o centro de conformidade de & de segurança para gerenciar arquivos em quarentena](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files)
+>- [Usar o centro de conformidade de & de segurança para gerenciar arquivos em quarentena](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
 >- [O que fazer quando um arquivo mal-intencionado é encontrado no SharePoint Online, no OneDrive ou no Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 >- [Gerenciar arquivos e mensagens em quarentena como um administrador no Microsoft 365](manage-quarantined-messages-and-files.md)
 
@@ -286,7 +284,7 @@ Depois de configurar os recursos de proteção contra ameaças, certifique-se de
 
 |O que fazer|Recursos para saber mais|
 |---|---|
-|Veja como os recursos de proteção contra ameaças estão trabalhando para sua organização exibindo relatórios|[Painel de segurança](security-dashboard.md)<br/>[Relatórios de segurança de email](view-email-security-reports.md)<br/>[Relatórios para o Office 365 ATP](view-reports-for-atp.md)<br/>[Explorador de Ameaças](threat-explorer.md)|
+|Veja como os recursos de proteção contra ameaças estão trabalhando para sua organização exibindo relatórios|[Painel de segurança](security-dashboard.md)<br/>[Relatórios de segurança de email](view-email-security-reports.md)<br/>[Relatórios do Microsoft defender para Office 365](view-reports-for-atp.md)<br/>[Explorador de Ameaças](threat-explorer.md)|
 |Revisar e revisar periodicamente suas políticas de proteção contra ameaças, conforme necessário|[Classificação de segurança](../mtp/microsoft-secure-score.md)<br/>[Relatórios inteligentes e insights](reports-and-insights-in-security-and-compliance.md)<br/>[Investigação de ameaças e recursos de resposta da Microsoft 365](keep-users-safe-with-office-365-ti.md)|
 |Assista a novos recursos e atualizações de serviço|[Opções de lançamento direcionado e padrão](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Centro de Mensagens](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Descrições de serviço](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
-|Saiba mais sobre as configurações de segurança padrão e rígidas para o EOP e a ATP|[Configurações recomendadas para o EOP e a segurança ATP do Office 365](recommended-settings-for-eop-and-office365-atp.md)|
+|Saiba mais sobre as configurações de segurança padrão e rígidas para o EOP e o defender para Office 365|[Configurações recomendadas para a segurança do EOP e do Microsoft defender para Office 365](recommended-settings-for-eop-and-office365-atp.md)|

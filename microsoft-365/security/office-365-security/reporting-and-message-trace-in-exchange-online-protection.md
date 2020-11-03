@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para os administradores do Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: 86f4e18430324ed95f036f93746d826225ec3b2f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9a8eb8e35ef73eb27604eef4bf701982b1d51710
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196394"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845547"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Relatórios e rastreamento de mensagens no EOP
 
@@ -30,13 +30,13 @@ Nas organizações do Microsoft 365 com caixas de correio em organizações do E
 
 ## <a name="usage-reports"></a>Relatórios de uso
 
-**Atividade de grupos do microsoft 365**: exibir informações sobre o número de grupos do Microsoft 365 que são criados e usados.
+**Atividade de grupos do microsoft 365** : exibir informações sobre o número de grupos do Microsoft 365 que são criados e usados.
 
-**Atividade de email**: exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda sua organização e por usuários específicos.
+**Atividade de email** : exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda sua organização e por usuários específicos.
 
-**Uso do aplicativo de email**: exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo, e as versões do Outlook que estão se conectando.
+**Uso do aplicativo de email** : exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo, e as versões do Outlook que estão se conectando.
 
-**Uso da caixa de correio**: exibir informações sobre o armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
+**Uso da caixa de correio** : exibir informações sobre o armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
 
 Veja os seguintes recursos para obter mais informações:
 
@@ -52,11 +52,11 @@ Veja os seguintes recursos para obter mais informações:
 
 Esses relatórios aprimorados fornecem uma experiência de relatório interativa para administradores do EOP, que inclui informações de resumo e a capacidade de aprofundar para obter mais detalhes.
 
-**Proteção avançada contra ameaças (ATP)**: exibir informações sobre links seguros e anexos seguros que fazem parte da ATP.
+**Defender para Office 365** : exibir informações sobre links seguros e anexos seguros que fazem parte do Microsoft defender para Office 365.
 
-**EOP**: exibir informações sobre detecções de malware, email falsificado, detecções de spam e fluxo de emails para e da sua organização.
+**EOP** : exibir informações sobre detecções de malware, email falsificado, detecções de spam e fluxo de emails para e da sua organização.
 
-[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)
+[Exibir relatórios do defender para Office 365](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Relatórios personalizados usando o Microsoft Graph
 

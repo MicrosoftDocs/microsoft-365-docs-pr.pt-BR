@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-office365
 description: Durante e após uma investigação automatizada no Microsoft 365, você pode exibir os resultados e as principais descobertas.
 ms.date: 09/29/2020
-ms.openlocfilehash: 18da168615ce7e570bcdc9149ac14fe72b8eda4f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9640ec9429f1c8317c6526976b2fe24c1137115a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447054"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844567"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Detalhes e resultados de uma investigação automatizada no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Quando uma [investigação automatizada](office-365-air.md) ocorre na [proteção avançada contra ameaças do Office 365](office-365-atp.md), os detalhes sobre essa investigação estão disponíveis durante e após o processo de investigação automatizado. Se você tiver as permissões necessárias, poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes.
+Quando uma [investigação automatizada](office-365-air.md) ocorre no [Microsoft Defender para Office 365](office-365-atp.md), os detalhes da investigação estão disponíveis durante e após o processo de investigação automatizada. Se você tiver as permissões necessárias, poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes.
 
 ## <a name="investigation-status"></a>Status de investigação
 
@@ -42,15 +42,15 @@ O status de investigação indica o progresso das análises e ações. À medida
 |---|---|
 |Iniciando| A investigação foi disparada e está aguardando para começar a executar.|
 |Em execução| O processo de investigação foi iniciado e está em andamento. Esse estado também ocorre quando [ações pendentes](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) são aprovadas.|
-|Nenhuma ameaça encontrada| A investigação terminou e nenhuma ameaça (conta de usuário, mensagem de email, URL ou arquivo) foi identificada. <br/><br/>**Dica**: se você suspeita de que algo foi perdido (como falso negativo), você pode tomar medidas usando o [Explorador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
-|Ameaça Encontrada|A investigação automatizada encontrou problemas, mas não há nenhuma ação de correção específica para resolver esses problemas.<br/><br/> O status de ameaças encontradas pode ocorrer quando algum tipo de atividade de usuário foi identificada, mas nenhuma ação de limpeza está disponível. Os exemplos incluem qualquer uma das atividades de usuário a seguir: <br/>– Evento de [prevenção de perda de dados](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP) <br/>-Um email enviando anomalias <br/>-Malware enviado <br/>– Phishing enviado<br/>A investigação não encontrou URLs maliciosas, arquivos ou mensagens de email a serem corrigidas, e nenhuma atividade de caixa de correio para correção, como desativar regras de encaminhamento ou delegação. <br/><br/>**Dica**: se você suspeita de que algo foi perdido (como falso negativo), é possível investigar e tomar medidas usando o [Explorador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
-|Encerrado pelo sistema| A investigação parou. Uma investigação pode ser interrompida por vários motivos:<br/>– As ações pendentes da investigação expiraram. Ações pendentes expiraram após esperar a aprovação por uma semana. <br/>-Há muitas ações. Por exemplo, se houver muitos usuários clicando em URLs mal-intencionadas, ele poderá exceder a capacidade de investigação de executar todos os analisadores, portanto, a investigação será interrompida. <br/><br/>**Dica**: se uma investigação for interrompida antes da tomada de ações, tente usar o [Gerenciador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) para encontrar e resolver ameaças.|
+|Nenhuma ameaça encontrada| A investigação terminou e nenhuma ameaça (conta de usuário, mensagem de email, URL ou arquivo) foi identificada. <br/><br/>**Dica** : se você suspeita de que algo foi perdido (como falso negativo), você pode tomar medidas usando o [Explorador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
+|Ameaça Encontrada|A investigação automatizada encontrou problemas, mas não há nenhuma ação de correção específica para resolver esses problemas.<br/><br/> O status de ameaças encontradas pode ocorrer quando algum tipo de atividade de usuário foi identificada, mas nenhuma ação de limpeza está disponível. Os exemplos incluem qualquer uma das atividades de usuário a seguir: <br/>– Evento de [prevenção de perda de dados](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP) <br/>-Um email enviando anomalias <br/>-Malware enviado <br/>– Phishing enviado<br/>A investigação não encontrou URLs maliciosas, arquivos ou mensagens de email a serem corrigidas, e nenhuma atividade de caixa de correio para correção, como desativar regras de encaminhamento ou delegação. <br/><br/>**Dica** : se você suspeita de que algo foi perdido (como falso negativo), é possível investigar e tomar medidas usando o [Explorador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
+|Encerrado pelo sistema| A investigação parou. Uma investigação pode ser interrompida por vários motivos:<br/>– As ações pendentes da investigação expiraram. Ações pendentes expiraram após esperar a aprovação por uma semana. <br/>-Há muitas ações. Por exemplo, se houver muitos usuários clicando em URLs mal-intencionadas, ele poderá exceder a capacidade de investigação de executar todos os analisadores, portanto, a investigação será interrompida. <br/><br/>**Dica** : se uma investigação for interrompida antes da tomada de ações, tente usar o [Gerenciador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) para encontrar e resolver ameaças.|
 |Ação Pendente| A investigação encontrou uma ameaça, como um email mal-intencionado, uma URL maliciosa ou uma configuração de caixa de correio arriscada e uma ação para corrigir que a ameaça está aguardando [aprovação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).<br/><br/>O estado de ação pendente é disparado quando qualquer ameaça com uma ação correspondente é encontrada. No entanto, a lista de ações pendentes pode aumentar à medida que uma investigação é executada. Verifique o [log de investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) para ver se outros itens ainda estão pendentes de conclusão.|
-|Remediado| A investigação terminou e todas as ações foram aprovadas (totalmente corrigidas).<br/><br/>**Observação**: as ações de correção aprovadas podem ter erros que impedem a tomada de ações. Independentemente se as ações de correção foram concluídas com êxito, o status de investigação não é alterado. Verifique o [log de investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) para obter resultados detalhados.|
+|Remediado| A investigação terminou e todas as ações foram aprovadas (totalmente corrigidas).<br/><br/>**Observação** : as ações de correção aprovadas podem ter erros que impedem a tomada de ações. Independentemente se as ações de correção foram concluídas com êxito, o status de investigação não é alterado. Verifique o [log de investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) para obter resultados detalhados.|
 |Parcialmente corrigido| A investigação resultou em ações de correção, e algumas foram aprovadas e concluídas. Outras ações ainda estão [pendentes](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).|
-|Falhou| Pelo menos um analisador de investigação teve um problema em que não foi possível concluir corretamente. <br/><br/>**Observação**: se uma investigação falhar após a aprovação das ações de correção, as ações de correção ainda poderão ter sido bem-sucedida. Verifique o [log de investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) para obter resultados detalhados.|
-|Em fila por limitação| Uma investigação está sendo mantida em uma fila. Quando outras investigações forem concluídas, as investigações em fila começarão. A limitação ajuda a evitar um desempenho de serviço ruim. <br/><br/>**Dica**: as ações pendentes podem limitar a quantidade de novas investigações que podem ser executadas. Certifique-se de [aprovar (ou rejeitar) ações pendentes](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions).|
-|Terminada pela limitação| Se uma investigação for mantida na fila por muito tempo, ela será interrompida. <br/><br/>**Dica**: você pode [iniciar uma investigação do explorador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).|
+|Falhou| Pelo menos um analisador de investigação teve um problema em que não foi possível concluir corretamente. <br/><br/>**Observação** : se uma investigação falhar após a aprovação das ações de correção, as ações de correção ainda poderão ter sido bem-sucedida. Verifique o [log de investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) para obter resultados detalhados.|
+|Em fila por limitação| Uma investigação está sendo mantida em uma fila. Quando outras investigações forem concluídas, as investigações em fila começarão. A limitação ajuda a evitar um desempenho de serviço ruim. <br/><br/>**Dica** : as ações pendentes podem limitar a quantidade de novas investigações que podem ser executadas. Certifique-se de [aprovar (ou rejeitar) ações pendentes](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions).|
+|Terminada pela limitação| Se uma investigação for mantida na fila por muito tempo, ela será interrompida. <br/><br/>**Dica** : você pode [iniciar uma investigação do explorador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).|
 |
 
 ## <a name="view-details-of-an-investigation"></a>Exibir detalhes de uma investigação
@@ -87,7 +87,7 @@ Determinados tipos de alertas disparam investigação automatizada no Microsoft 
 
 5. Selecione um item na lista. Um submenu abre, com detalhes sobre o alerta e links para informações adicionais e ações.
 
-6. Revise as informações no submenu e, dependendo do alerta específico, execute uma ação, como **resolver**, **suprimir**ou **notificar os usuários**.
+6. Revise as informações no submenu e, dependendo do alerta específico, execute uma ação, como **resolver** , **suprimir** ou **notificar os usuários**.
 
     - **Resolver** é equivalente a fechar um alerta
 
@@ -107,8 +107,8 @@ A página de investigações automatizadas mostra as investigações da organiza
 
 Você pode:
 
-- Navegue diretamente para uma investigação (selecione uma **ID de investigação**).
-- Aplicar filtros. Escolha um **tipo de investigação**, **intervalo de tempo**, **status**ou uma combinação desses.
+- Navegue diretamente para uma investigação (selecione uma **ID de investigação** ).
+- Aplicar filtros. Escolha um **tipo de investigação** , **intervalo de tempo** , **status** ou uma combinação desses.
 - Exporte os dados para um arquivo. csv.
 
 ### <a name="investigation-graph"></a>Gráficos de investigação
@@ -164,7 +164,7 @@ A contagem de emails identificada na guia email representa atualmente a soma tot
 
 O Explorer e o AIR contam mensagens de email por destinatário, porque os locais de segurança verdicts, Actions e Delivery variam de acordo com cada destinatário. Portanto, um email original enviado a três usuários conta como um total de três mensagens de email em vez de um email. Pode haver casos em que um email é contado duas ou mais vezes, como quando um email tem várias ações nele, ou quando há várias cópias do email quando todas as ações ocorrem. Por exemplo, um email de malware detectado na entrega pode resultar em um email bloqueado (em quarentena) e um email substituído (arquivo de ameaça substituído por um arquivo de aviso e, em seguida, entregue à caixa de correio do usuário). Como há literalmente duas cópias do email no sistema, ambas podem ser contadas em contagens de cluster.
 
-As contagens de email são calculadas no momento da investigação e algumas contagens são recalculadas quando você abre submenus de investigação (com base em uma consulta subjacente). As contagens de email mostradas para os clusters de email na guia email e o valor de quantidade de email mostrado no submenu de cluster são calculados no momento da investigação e não são alterados. A contagem de email mostrada na parte inferior da guia email do submenu de cluster de emails e a contagem de mensagens de email exibidas no Explorer refletem mensagens de email recebidas após a análise inicial da investigação. Portanto, um cluster de emails que mostra uma quantidade original de 10 mensagens de email mostraria uma lista de emails de 15 a cinco mensagens de email que chegam entre a fase de análise de investigação e quando o administrador revisa a investigação.  Da mesma forma, investigações antigas podem começar a ter contagens maiores do que as consultas do Explorer, já que ATP P2 expira dados após 7 dias para tentativas e 30 dias para licenças pagas.  Mostrar as contagens históricas e atuais de contagem em modos de exibição diferentes é feita para indicar o impacto do email no momento da investigação e o impacto atual até o momento em que a correção é executada.
+As contagens de email são calculadas no momento da investigação e algumas contagens são recalculadas quando você abre submenus de investigação (com base em uma consulta subjacente). As contagens de email mostradas para os clusters de email na guia email e o valor de quantidade de email mostrado no submenu de cluster são calculados no momento da investigação e não são alterados. A contagem de email mostrada na parte inferior da guia email do submenu de cluster de emails e a contagem de mensagens de email exibidas no Explorer refletem mensagens de email recebidas após a análise inicial da investigação. Portanto, um cluster de emails que mostra uma quantidade original de 10 mensagens de email mostraria uma lista de emails de 15 a cinco mensagens de email que chegam entre a fase de análise de investigação e quando o administrador revisa a investigação.  Da mesma forma, investigações antigas podem começar a ter contagens maiores do que as consultas do Explorer, pois o defender for Office 365 P2 expira dados após 7 dias para tentativas e 30 dias para licenças pagas.  Mostrar as contagens históricas e atuais de contagem em modos de exibição diferentes é feita para indicar o impacto do email no momento da investigação e o impacto atual até o momento em que a correção é executada.
 
 Por exemplo, considere o cenário a seguir. O primeiro cluster de três mensagens de email foi considerado como phishing. Outro cluster de mensagens semelhantes com o mesmo IP e assunto foi encontrado e considerado mal-intencionado, pois alguns deles foram identificados como phishing durante a detecção inicial.
 
@@ -198,13 +198,13 @@ Na guia **computadores** , você pode ver todas as máquinas identificadas como 
 
 ![Página da máquina de investigação de ar](../../media/air-investigationmachinepage.png)
 
-Como parte de alguns guias estratégicos, o AIR correlaciona ameaças de email a dispositivos (por exemplo, malware zapped). Por exemplo, uma investigação passa um hash de arquivo mal-intencionado no [Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+Como parte de alguns guias estratégicos, o AIR correlaciona ameaças de email a dispositivos (por exemplo, malware zapped). Por exemplo, uma investigação passa um hash de arquivo mal-intencionado no [Microsoft defender para o ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
 ) para investigar. Isso permite a investigação automatizada de máquinas relevantes para seus usuários, para ajudar a garantir que as ameaças sejam tratadas na nuvem e nos seus pontos de extremidade.
 
 Você pode:
 
 - Obtenha uma visão geral das máquinas e ameaças atuais encontradas.
-- Selecione uma máquina para abrir um modo de exibição que nas [investigações ATP do Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) defender relacionadas na central de segurança do Microsoft defender.
+- Selecione uma máquina para abrir um modo de exibição que nas [investigações do Microsoft defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) relacionadas no centro de segurança do Microsoft defender.
 
 ### <a name="entity-investigation"></a>Investigação de entidade
 
@@ -249,7 +249,7 @@ Você pode:
 |Investigação anormal de malware e spam de saída|Detectar malware, phishing ou spam da organização e de saída provenientes de usuários em sua organização|
 |Investigação de domínio do remetente|Verificação sob demanda da reputação do domínio do [gráfico de segurança inteligente da Microsoft](https://www.microsoft.com/security/operations/intelligence) e de fontes de inteligência de ameaças externas|
 |Investigação de IP do remetente| Verificação por demanda da reputação de IP do [gráfico de segurança inteligente da Microsoft](https://www.microsoft.com/security/operations/intelligence) e de fontes de inteligência de ameaças externas|
-|Investigação de cliques de URL| Investigue os cliques de usuários protegidos por [links seguros no Office 365 ATP](atp-safe-links.md) em sua organização|
+|Investigação de cliques de URL| Investigue os cliques de usuários protegidos por [links seguros no Microsoft defender para Office 365](atp-safe-links.md) em sua organização|
 |Investigação de reputação de URL|Verificação sob demanda na reputação da URL do [gráfico de segurança inteligente da Microsoft](https://www.microsoft.com/security/operations/intelligence) e de fontes de inteligência de ameaças externas|
 |Investigação de atividades do usuário|Analisar anomalias de atividades do usuário no [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|
 |Extração de indicadores de email relatados pelo usuário|Extrair indicadores do cabeçalho, do corpo e do conteúdo de [emails relatados pelo usuário](enable-the-report-message-add-in.md) para investigação|
@@ -275,4 +275,4 @@ Você pode:
 
 - [Revisar e aprovar ações pendentes](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)
 
-- [Saiba mais sobre a investigação e a resposta automatizadas no Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Saiba mais sobre a investigação e a resposta automatizadas no Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

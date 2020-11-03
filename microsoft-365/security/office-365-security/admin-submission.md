@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: 5d4123acaf3c9891f9aeb8028173f3071c260935
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: 1ca1dc5e740aa5aa03a4c8b0c138eadb55c08a20
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806755"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844639"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -52,17 +52,17 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Relatar conteúdo suspeito para a Microsoft
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio** .
+1. No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
 
 2. Use um novo submenu de **envio** que parece enviar a mensagem, a URL ou o anexo, conforme descrito nas seções a seguir.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Enviar um email questionável à Microsoft
 
-1. Na seção **tipo de objeto** , selecione **email** . Na seção **formato de envio** , use uma das seguintes opções:
+1. Na seção **tipo de objeto** , selecione **email**. Na seção **formato de envio** , use uma das seguintes opções:
 
    - **ID da mensagem de rede** : Este é um valor de GUID que está disponível no cabeçalho **X-MS-Exchange-Organization-Network-Message-ID** na mensagem.
 
-   - **Arquivo** : clique em **escolher arquivo** . Na caixa de diálogo que é aberta, localize e selecione o arquivo. eml ou. msg e clique em **abrir** .
+   - **Arquivo** : clique em **escolher arquivo**. Na caixa de diálogo que é aberta, localize e selecione o arquivo. eml ou. msg e clique em **abrir**.
 
 2. Na seção **destinatários** , especifique um ou mais destinatários em relação à qual você gostaria de executar uma verificação de política. A verificação de política determinará se o email ignorará a verificação por causa de políticas de usuário ou organização.
 
@@ -70,11 +70,11 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
    - **Não deve ter sido bloqueado**
 
-   - **Deveriam ter sido bloqueados** : selecione **spam** , **phishing** ou **malware** . Se você não tiver certeza, use a melhor avaliação.
+   - **Deveriam ter sido bloqueados** : selecione **spam** , **phishing** ou **malware**. Se você não tiver certeza, use a melhor avaliação.
 
 4. Se o filtro tiver sido ignorado devido às políticas após o envio, você verá informações sobre essa política.
 
-   Se o filtro não tiver sido ignorado devido a uma ou mais políticas, a verificação será concluída em vários minutos. Você verá informações adicionais sobre o envio clicando no link status. Isso inclui os resultados da verificação de política e a veredicto de nova verificação. Observação isso não executa o email por meio da pilha de filtragem completa do Office 365 ATP novamente, mas executa uma verificação parcial com base em determinados atributos do email, da URL ou do arquivo.
+   Se o filtro não tiver sido ignorado devido a uma ou mais políticas, a verificação será concluída em vários minutos. Você verá informações adicionais sobre o envio clicando no link status. Isso inclui os resultados da verificação de política e a veredicto de nova verificação. Observação isso não executa o email por meio da pilha de filtragem completa do Microsoft defender para Office 365 novamente, mas executa uma verificação parcial com base em determinados atributos do email, da URL ou do arquivo.
 
 5. Quando tiver concluído, clique no botão **Enviar** .
 
@@ -82,13 +82,13 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
 
-1. Na seção **tipo de objeto** , selecione **URL** . Na caixa exibida, digite a URL completa (por exemplo, `https://www.fabrikam.com/marketing.html` ).
+1. Na seção **tipo de objeto** , selecione **URL**. Na caixa exibida, digite a URL completa (por exemplo, `https://www.fabrikam.com/marketing.html` ).
 
 2. Na seção **motivo da envio** , selecione uma das seguintes opções:
 
    - **Não deve ter sido bloqueado**
 
-   - **Deveria ter sido bloqueado** : selecione **phishing** ou **malware** .
+   - **Deveria ter sido bloqueado** : selecione **phishing** ou **malware**.
 
 3. Quando tiver concluído, clique no botão **Enviar** .
 
@@ -96,9 +96,9 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Enviar um arquivo suspeito para a Microsoft
 
-1. Na seção **tipo de objeto** , selecione **anexo** .
+1. Na seção **tipo de objeto** , selecione **anexo**.
 
-2. Clique em **escolher arquivo** . Na caixa de diálogo que é aberta, localize e selecione o arquivo e clique em **abrir** .
+2. Clique em **escolher arquivo**. Na caixa de diálogo que é aberta, localize e selecione o arquivo e clique em **abrir**.
 
 3. Na seção **motivo da envio** , selecione uma das seguintes opções:
 
@@ -112,7 +112,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="view-admin-submissions"></a>Exibir envios de administradores
 
-No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio** .
+No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
 
 Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **ID de envio** (um valor de GUID que é atribuído a cada envio) inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
@@ -126,9 +126,9 @@ Para alterar os critérios de filtro, clique no botão **ID de envio** e escolha
 
 ![Opções de filtro para envios de administradores](../../media/admin-submission-email-filter-options.png)
 
-Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **dados do gráfico** ou **tabela** . Na caixa de diálogo exibida, salve o arquivo. csv.
+Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **dados do gráfico** ou **tabela**. Na caixa de diálogo exibida, salve o arquivo. csv.
 
-Abaixo do gráfico, há três guias: **email** (padrão), **URL** e **anexo** .
+Abaixo do gráfico, há três guias: **email** (padrão), **URL** e **anexo**.
 
 ### <a name="view-admin-email-submissions"></a>Exibir envios de email de administração
 
@@ -186,7 +186,7 @@ Se você tiver implantado o [suplemento de mensagem de relatório](enable-the-re
 
 1. No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças.
 
-2. Selecione a guia envios de **usuário** e clique em **novo envio** .
+2. Selecione a guia envios de **usuário** e clique em **novo envio**.
 
 Você pode clicar no botão **Opções de coluna** próximo à parte inferior da página para adicionar ou remover colunas da exibição:
 
@@ -211,7 +211,7 @@ Para alterar os critérios de filtro, clique no botão **remetente** e escolha u
 
 ![Opções de filtro para envios de usuários](../../media/user-submissions-filter-options.png)
 
-Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **dados do gráfico** ou **tabela** . Na caixa de diálogo exibida, salve o arquivo. csv.
+Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **dados do gráfico** ou **tabela**. Na caixa de diálogo exibida, salve o arquivo. csv.
 
 ## <a name="view-user-submissions-to-the-custom-mailbox"></a>Exibir envios de usuários para a caixa de correio personalizada
 
@@ -232,7 +232,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 
 Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e filtrar por **enviado** , inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
-Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **dados do gráfico** ou **tabela** . Na caixa de diálogo exibida, salve o arquivo. csv.
+Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **dados do gráfico** ou **tabela**. Na caixa de diálogo exibida, salve o arquivo. csv.
 
 ## <a name="undo-user-submissions"></a>Desfazer envios de usuários
 

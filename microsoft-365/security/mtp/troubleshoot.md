@@ -1,6 +1,6 @@
 ---
-title: À procura de soluções para os problemas de serviço da Proteção contra Ameaças da Microsoft
-description: Encontre soluções e contorne problemas conhecidos da Proteção contra Ameaças da Microsoft
+title: Solucionar problemas do Microsoft 365 defender Service
+description: Encontre soluções e contornos para problemas conhecidos do Microsoft 365 defender
 keywords: solução de problemas da proteção contra ameaças da Microsoft, solução de problemas, ATP, problemas, complemento, página de configurações do Azure
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,35 +19,35 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bcf5b79fcd2fdf0a5af5648e6f6b7ea65d69594c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 16cb1116f400c8d0a83ccc4cac23da06cd1be2a4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201281"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844663"
 ---
-# <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>À procura de soluções para os problemas de serviço da Proteção contra Ameaças da Microsoft
+# <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Solucionar problemas do Microsoft 365 defender Service
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-Esta seção aborda os problemas que podem surgir quando você usa o serviço de Proteção contra Ameaças da Microsoft.
+Esta seção aborda os problemas que podem surgir quando você usa o serviço Microsoft 365 defender.
 
 
-## <a name="i-dont-see-microsoft-threat-protection-content"></a>Não vejo o conteúdo da proteção contra ameaças da Microsoft
+## <a name="i-dont-see-microsoft-365-defender-content"></a>Não vejo o conteúdo do Microsoft 365 defender
 Se você não vir recursos no painel de navegação, como incidentes, central de ações ou busca em seu portal, você precisará verificar se o seu locatário tem as licenças apropriadas. 
 
 Para obter mais informações, confira [Pré-requisitos](prerequisites.md).
 
-## <a name="azure-atp-alerts-are-not-showing-up-in-the-microsoft-threat-protection-incidents"></a>Os alertas ATP do Azure não estão aparecendo nos incidentes da Proteção contra Ameaças da Microsoft
-Se você tiver o Azure ATP implantado em seu ambiente, mas não estiver vendo os alertas ATP do Azure como parte dos incidentes de Proteção contra Ameaças da Microsoft, você precisará verificar se o Microsoft Cloud app Security e a integração ATP do Azure estão habilitados. 
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Os alertas do Microsoft defender for Identity não estão aparecendo nos incidentes do Microsoft 365 defender
+Se você tiver o Microsoft defender para identidade implantado em seu ambiente, mas não estiver vendo o defender para alertas de identidade como parte dos incidentes do Microsoft 365 defender, será necessário garantir que o Microsoft Cloud app Security e o defender para integração de identidade estejam habilitados. 
 
-Para obter mais informações, consulte [ integração da ATP do Azure](https://docs.microsoft.com/cloud-app-security/aatp-integration).
+Para obter mais informações, consulte [Microsoft defender para integração de identidades](https://docs.microsoft.com/cloud-app-security/aatp-integration).
 
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Onde está a página de configurações para ativar o serviço?
-Para ativar a proteção contra ameaças da Microsoft, acesse **configurações** do painel de navegação na central de segurança do Microsoft 365. Esse item de navegação só será visível se você tiver as [permissões e as licenças de pré-requisito](mtp-enable.md#check-license-eligibility-and-required-permissions).
+Para ativar o Microsoft 365 defender, acesse **configurações** do painel de navegação na central de segurança do Microsoft 365. Esse item de navegação só será visível se você tiver as [permissões e as licenças de pré-requisito](mtp-enable.md#check-license-eligibility-and-required-permissions).
  
 

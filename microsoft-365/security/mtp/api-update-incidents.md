@@ -1,6 +1,6 @@
 ---
 title: Atualizar a API de incidentes
-description: Saiba como atualizar incidentes usando a API de proteção contra ameaças da Microsoft
+description: Saiba como atualizar incidentes usando a API do Microsoft 365 defender
 keywords: atualização, API, incidente
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8ad47453c7163bfac99c17f42986b818cdca603f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3f77980863b0c232166d736a6b557444df98c8ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203608"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844831"
 ---
 # <a name="update-incidents-api"></a>Atualizar a API de incidentes
 
@@ -32,7 +32,7 @@ ms.locfileid: "48203608"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 >[!IMPORTANT] 
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -49,12 +49,12 @@ Atualiza as propriedades de um incidente existente.
 
 
 ## <a name="permissions"></a>Permissões
-Uma das seguintes permissões é necessária para chamar esta API. Para saber mais, incluindo como escolher permissões, confira [acessar as APIs de proteção contra ameaças da Microsoft](api-access.md).
+Uma das seguintes permissões é necessária para chamar esta API. Para saber mais, incluindo como escolher permissões, consulte [Access The Microsoft 365 defender APIs](api-access.md).
 
 Tipo de permissão |   Permissão  |   Nome para exibição da permissão
 :---|:---|:---
 Aplicativo |   Incident. ReadWrite. All |    ' Ler e gravar todos os incidentes '
-Delegado (conta corporativa ou de estudante) | Incident. ReadWrite | ' Ler e gravar incidentes '
+Delegada (conta corporativa ou de estudante) | Incident. ReadWrite | ' Ler e gravar incidentes '
 
 >[!NOTE]
 > Ao obter um token usando as credenciais do usuário:
@@ -71,7 +71,7 @@ PATCH /api/incidents/{id}
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
+Autorização | String | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 

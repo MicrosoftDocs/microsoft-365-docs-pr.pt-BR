@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: ab7087355ce8ee41616f63a7b466a0d5d0fc7b0f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: e933769b6bce9eb10765fb2b58025445432bed18
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446460"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845463"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção anti-phishing
 
@@ -33,15 +33,15 @@ Embora a Microsoft 365 tenha uma variedade de recursos antiphishing habilitados 
 
 Se a conta de um destinatário foi comprometida como resultado da mensagem de phishing, siga as etapas em [responder a uma conta de email comprometida no Microsoft 365](responding-to-a-compromised-email-account.md).
 
-Se sua assinatura incluir a proteção avançada contra ameaças (ATP), você poderá usar o [Office 365 Threat Intelligence](office-365-ti.md) para identificar outros usuários que também receberam a mensagem de phishing. Você tem opções adicionais para bloquear mensagens de phishing:
+Se sua assinatura incluir o Microsoft defender para Office 365, você poderá usar o [Office 365 Threat Intelligence](office-365-ti.md) para identificar outros usuários que também receberam a mensagem de phishing. Você tem opções adicionais para bloquear mensagens de phishing:
 
-- [Links seguros no Office 365 ATP](set-up-atp-safe-links-policies.md)
+- [Links seguros no Microsoft defender para Office 365](set-up-atp-safe-links-policies.md)
 
-- [Anexos seguros no Office 365 ATP](set-up-atp-safe-attachments-policies.md)
+- [Anexos seguros no Microsoft defender para Office 365](set-up-atp-safe-attachments-policies.md)
 
-- [Políticas anti-phishing no Office 365 ATP](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo**, **mais agressivo**ou **mais agressivo**.
+- [Políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo** , **mais agressivo** ou **mais agressivo**.
 
-Verifique se esses recursos ATP estão ativados.
+Verifique se esses recursos do defender for Office 365 estão ativados.
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Relatar a mensagem de phishing para a Microsoft
 
@@ -59,9 +59,9 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
 - Para mensagens que terminam em quarentena por engano, ou para mensagens permitidas pelo, recomendamos que você pesquise essas mensagens no [Gerenciador de ameaças e nas detecções em tempo real](threat-explorer.md). Você pode pesquisar por remetente, destinatário ou ID da mensagem. Após localizar a mensagem, acesse os detalhes clicando no assunto. Para uma mensagem em quarentena, procure ver o que é a "tecnologia de detecção", para que você possa usar o método apropriado para substituir. Para obter uma mensagem permitida, procure ver qual política permitiu a mensagem. 
 
-- Emails falsificados são marcados como phishing na ATP. Às vezes, a falsificação é benigna e, às vezes, os usuários não a querem colocar em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md). Depois de revisar e fazer as substituições necessárias, você pode ter certeza de [Configurar a inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) para **colocar em quarentena** mensagens suspeitas em vez de entregá-las na pasta lixo eletrônico do usuário.
+- Email falsificado está marcado como phishing no defender para Office 365. Às vezes, a falsificação é benigna e, às vezes, os usuários não a querem colocar em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md). Depois de revisar e fazer as substituições necessárias, você pode ter certeza de [Configurar a inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) para **colocar em quarentena** mensagens suspeitas em vez de entregá-las na pasta lixo eletrônico do usuário.
 
-- Você pode repetir a etapa acima para representação (domínio ou usuário). O relatório de representação é encontrado **Threat Management** em \> **Dashboard** \> **insights**do painel de gerenciamento de ameaças.
+- Você pode repetir a etapa acima para representação (domínio ou usuário). O relatório de representação é encontrado **Threat Management** em \> **Dashboard** \> **insights** do painel de gerenciamento de ameaças.
 
 - Revise periodicamente o [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).
 

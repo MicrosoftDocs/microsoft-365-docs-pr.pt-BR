@@ -1,6 +1,6 @@
 ---
-title: Preparar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft
-description: Preparar o desligamento de pessoas, cronogramas, considerações de ambiente e ordem de adoção ao configurar seu laboratório de avaliação do Microsoft Threat Protection ou ambiente piloto
+title: Prepare seu ambiente de laboratório de avaliação do Microsoft 365 defender
+description: Preparar a aprovação de stakeholder, cronogramas, considerações de ambiente e ordem de adoção ao configurar seu laboratório de avaliação do Microsoft 365 defender ou ambiente piloto
 keywords: Versão de avaliação de MTP, preparação piloto de MTP, Prep para executar um projeto piloto do MTP, executar um projeto do MTP do piloto, implantar, preparar, acionista, linha do tempo, ambiente, ponto de extremidade, servidor, gerenciamento, adoção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,39 +18,39 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 79e30ee6fd68148543a63377d89fe2955f276f24
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: a255c74db030325ba22c2095fba732a93b8c269c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446726"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844843"
 ---
-# <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto
+# <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-A criação de um laboratório de avaliação de proteção contra ameaças da Microsoft ou ambiente piloto e sua implantação é um processo de três fases:
+Criar um laboratório de avaliação do Microsoft 365 defender ou um ambiente piloto e implantá-lo é um processo de três fases:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Preparar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab environment" title="Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
       <br/>Fase 1: preparar </a><br>
     </td>
      <td align="center"  >
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Configurar seu laboratório de avaliação do Microsoft Threat Protection ou ambiente piloto" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab environment" title="Configurar o laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
       <br/>Fase 2: configuração </a><br>
         </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval">
-        <img src="../../media/config-onboard.png" alt="Configure each Microsoft Threat Protection pillar" title="Configure cada pilar de proteção contra ameaças da Microsoft e integração de seus pontos de extremidade" />
+        <img src="../../media/config-onboard.png" alt="Configure each Microsoft 365 Defender pillar" title="Configure cada pilar do Microsoft 365 defender e integração de seus pontos de extremidade" />
       <br/>Fase 3: configurar o & integrado</a><br>
 </td>
   </tr>
@@ -70,10 +70,10 @@ A criação de um laboratório de avaliação de proteção contra ameaças da M
 Você está atualmente na fase de preparação.
 
 
-A preparação é fundamental para qualquer implantação bem-sucedida. Esta seção orientará você sobre o que você precisa considerar ao se preparar para criar um laboratório de avaliação ou ambiente piloto para sua implantação do Microsoft Threat Protection.
+A preparação é fundamental para qualquer implantação bem-sucedida. Esta seção orientará você sobre o que você precisa considerar ao se preparar para criar um laboratório de avaliação ou ambiente piloto para sua implantação do Microsoft 365 defender.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Saiba mais sobre os requisitos de licenciamento, hardware e software e outras definições de configuração para provisionar e usar a proteção contra ameaças da Microsoft. Confira os requisitos mínimos para a [proteção contra ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [Microsoft defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [Microsoft Cloud app Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
+Saiba mais sobre os requisitos de licenciamento, hardware e software e outras definições de configuração para provisionar e usar o Microsoft 365 defender. Confira os requisitos mínimos para o [microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Microsoft defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Microsoft defender para identidade](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [Microsoft Cloud app Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Participantes e aprovação
 Identifique todos os participantes que estão envolvidos no projeto e que talvez precisem ser desligados, revisados ou permaneçam informados, seja para avaliação ou executando um projeto piloto.
@@ -98,7 +98,7 @@ Adicione participantes à tabela abaixo, conforme apropriado para sua organizaç
 | Insira o nome e o email | **Analista de segurança** *um representante da equipe do CDOC que pode fornecer comentários sobre os recursos de detecção, a experiência do usuário e a utilidade geral dessa alteração de uma perspectiva de operações de segurança.* | I      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Preparar o Azure Active Directory
-Pule esta etapa se você já tiver habilitado a sincronização entre o Active Directory e o Active Directory do Azure no local. Analise a documentação de práticas recomendadas existentes no Azure Active Directory. As etapas a seguir são otimizadas para avaliar ou executar um projeto piloto de proteção contra ameaças da Microsoft.
+Pule esta etapa se você já tiver habilitado a sincronização entre o Active Directory e o Active Directory do Azure no local. Analise a documentação de práticas recomendadas existentes no Azure Active Directory. As etapas a seguir são otimizadas para avaliar ou executar um projeto piloto do Microsoft 365 defender.
 
 1. Vá para o portal [do Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) > **Azure ad Connect**. 
 ![Imagem da página do portal do Azure Active Directory](../../media/mtp-eval-1.png) <br> 
@@ -128,16 +128,16 @@ Agora você pode [Adicionar usuários e grupos ao Active Directory](https://docs
 
 
 ## <a name="configuration-order"></a>Ordem de configuração
-A tabela a seguir indica a ordem que a Microsoft recomenda para configurar os componentes de proteção contra ameaças da Microsoft para sua implantação de laboratório de avaliação ou de ambiente piloto.
+A tabela a seguir indica a ordem que a Microsoft recomenda para configurar os componentes do Microsoft 365 defender para o laboratório de avaliação ou implantação de ambiente piloto.
 
 | Componente                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Classificação da ordem de configuração |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Proteção Avançada contra Ameaças do Office 365| O Office 365 ATP salvaguarda sua organização contra ameaças mal-intencionadas que foram causadas por mensagens de email, links (URLs) e ferramentas de colaboração. <br> [Saiba Mais.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
-|Proteção Avançada contra Ameaças do Azure|O Azure ATP usa sinais do Active Directory para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações maliciosas mal-intencionadas direcionadas para sua organização. <br> [Saiba mais](https://docs.microsoft.com/azure-advanced-threat-protection/).| duas |
+|Microsoft defender para Office 365|O Microsoft defender para Office 365 protege sua organização contra ameaças mal-intencionadas, representadas por mensagens de email, links (URLs) e ferramentas de colaboração. <br> [Saiba Mais.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
+|Microsoft Defender para Identidade|O Microsoft defender para identidade usa sinais do Active Directory para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas intencionais direcionadas para sua organização. <br> [Saiba mais](https://docs.microsoft.com/azure-advanced-threat-protection/).| duas |
 |Segurança no aplicativo na nuvem da Microsoft| O Microsoft Cloud app Security é um CASB (agente de segurança de acesso à nuvem) que opera em várias nuvens. Ele oferece visibilidade avançada, controle sobre a viagem de dados e análises sofisticadas para identificar e combater o ciberataques em todos os seus serviços de nuvem. <br> [Saiba mais](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3D                   |
-|Proteção avançada contra ameaças do Microsoft Defender | Os recursos de detecção e resposta de ponto de extremidade da ATP do Microsoft Defender fornecem detecções avançadas de ataques quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
+|Microsoft Defender para Ponto de Extremidade | Os recursos de detecção e resposta do Microsoft defender para pontos de extremidade de ponto de extremidade fornecem detecções de ataques avançados quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Próxima etapa
-|![Fase 2: configuração](../../media/setup.png) <br>[Fase 2: configuração](setup-mtpeval.md) | Configurar o laboratório de avaliação de proteção contra ameaças da Microsoft ou o ambiente piloto
+|![Fase 2: configuração](../../media/setup.png) <br>[Fase 2: configuração](setup-mtpeval.md) | Configurar o laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto
 |:-------|:-----|
 

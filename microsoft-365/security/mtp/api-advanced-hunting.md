@@ -1,6 +1,6 @@
 ---
 title: APIs de busca avançada
-description: Saiba como executar consultas de busca avançada usando a API de proteção contra ameaças da Microsoft
+description: Saiba como executar consultas de busca avançada usando a API do Microsoft 365 defender
 keywords: Caça avançada, APIs, API, MTP
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: dd7b02200e370588bbb9470a3d7e897b30234ead
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c43d263009578af6280ffdc780ab0f9a174a3b97
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197804"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844027"
 ---
 # <a name="advanced-hunting-apis"></a>APIs de busca avançada
 
@@ -32,7 +32,7 @@ ms.locfileid: "48197804"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 >[!IMPORTANT] 
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -46,12 +46,12 @@ ms.locfileid: "48197804"
 
 
 ## <a name="permissions"></a>Permissões
-Uma das seguintes permissões é necessária para chamar esta API. Para saber mais, incluindo como escolher permissões, confira [acessar as APIs de proteção contra ameaças da Microsoft](api-access.md)
+Uma das seguintes permissões é necessária para chamar esta API. Para saber mais, incluindo como escolher permissões, consulte [Access The Microsoft 365 defender APIs](api-access.md)
 
 Tipo de permissão |   Permissão  |   Nome para exibição da permissão
 :---|:---|:---
 Aplicativo |   AdvancedHunting. Read. All |  ' Executar consultas avançadas '
-Delegado (conta corporativa ou de estudante) | AdvancedHunting. Read | ' Executar consultas avançadas '
+Delegada (conta corporativa ou de estudante) | AdvancedHunting. Read | ' Executar consultas avançadas '
 
 >[!Note]
 > Ao obter um token usando as credenciais do usuário:
@@ -82,7 +82,7 @@ Se tiver êxito, este método retornará 200 OK e o objeto _QueryResponse_ no co
 
 O objeto Response é dividido como 3 partes (Propriedades):<br>
 1) ```Stats``` – Estatísticas de desempenho da consulta.<br>
-2) ```Schema``` – O esquema da resposta, uma lista de pares de tipo de nome para cada coluna. <br>
+2) ```Schema``` – O esquema da resposta, uma lista de pares de Name-Type de cada coluna. <br>
 3) ```Results``` – Uma lista de eventos de busca avançados.
 
 ## <a name="example"></a>Exemplo
@@ -168,4 +168,4 @@ Veja a seguir um exemplo da resposta.
 ```
 
 ## <a name="related-topic"></a>Tópico relacionado
-- [Acessar as APIs de proteção contra ameaças da Microsoft](api-access.md)
+- [Acessar as APIs do Microsoft 365 defender](api-access.md)

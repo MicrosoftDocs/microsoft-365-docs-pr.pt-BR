@@ -1,6 +1,6 @@
 ---
-title: Licença e termos de uso da API de proteção contra ameaças da Microsoft
-description: Descrição da licença e dos termos de uso de APIs no Microsoft Threat Protection
+title: Licença e termos de uso do Microsoft 365 defender APIs
+description: Descrição da licença e dos termos de uso de APIs no Microsoft 365 defender
 keywords: API, APIs, licença, termos, APIs, ofício, avisos, código de conduta
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d76992108fb3cda82bd9ad9886a2886f70695788
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e88b59ea28f9e71c677c25d95edc2f91cc2e56d4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203666"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844891"
 ---
-#  <a name="microsoft-threat-protection-apis-license-and-terms-of-use"></a>Licença e termos de uso da API de proteção contra ameaças da Microsoft
+#  <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Licença e termos de uso do Microsoft 365 defender APIs
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 >[!IMPORTANT] 
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -39,7 +39,7 @@ ms.locfileid: "48203666"
 
 ## <a name="apis"></a>APIs
 
- As APIs de proteção contra ameaças da Microsoft são regidas pela [licença e termos de uso da API da Microsoft](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
+ As APIs do Microsoft 365 defender são regidas pela [licença e termos de uso da API da Microsoft](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 
 ### <a name="throttling-limits"></a>Redução dos limites
 

@@ -13,20 +13,20 @@ MS.collection: ''
 search.appverid: MET150
 description: Correção de ameaças
 appliesto:
-- Microsoft Threat Protection
-ms.openlocfilehash: a7c1f6f89f5414f5fc6ef8dd59d2894195e75f7f
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+- Microsoft 365 Defender
+ms.openlocfilehash: af34b171cb213836d47edb2fb2905fb75341b02f
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774054"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845595"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Corrigir emails mal-intencionados entregues no Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Correção significa tomar uma ação prescrita contra uma ameaça. Emails maliciosos enviados para sua organização podem ser limpos pelo sistema, por meio de exclusão automática de zero horas (ZAP) ou por equipes de segurança por meio de ações de correção, como *mover para a caixa de entrada* , *mover para o lixo eletrônico* , *mover para itens excluídos* , *exclusão reversível* ou *exclusão de hardware* . A proteção avançada contra ameaças do Office (Office ATP) P2/E5 permite que as equipes de segurança remediam ameaças em email e funcionalidade de colaboração através da investigação manual e automatizada.
+Correção significa tomar uma ação prescrita contra uma ameaça. Emails maliciosos enviados para sua organização podem ser limpos pelo sistema, por meio de exclusão automática de zero horas (ZAP) ou por equipes de segurança por meio de ações de correção, como *mover para a caixa de entrada* , *mover para o lixo eletrônico* , *mover para itens excluídos* , *exclusão reversível* ou *exclusão de hardware*. O Microsoft defender para Office 365 P2/E5 permite que as equipes de segurança remediam ameaças em email e a funcionalidade de colaboração através da investigação manual e automatizada.
 
 > [!NOTE]
 > Para corrigir emails mal-intencionados, as equipes de segurança precisam da função de *pesquisa e limpeza* atribuída a eles. A atribuição de função é feita através de permissões no centro de conformidade e segurança.
@@ -44,10 +44,10 @@ Para fazer coisas como exibir cabeçalhos de mensagem ou baixar conteúdo de ema
 |Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio|Administrador Global <br>Administrador de Segurança <br> Leitor de segurança <br> Visualização|Sim|
 
 > [!NOTE]
-> Preview é uma *função* , não um *grupo de função* . A função Preview deve ser adicionada a um grupo de função existente para o Office 365. A *função de administrador global* é atribuída no [centro de administração do Microsoft 365](https://admin.microsoft.com). As funções de administrador de segurança e leitor de segurança são atribuídas nos [centros de segurança e conformidade](https://protection.office.com). Para saber mais sobre funções e permissões, consulte [permissões nos centros de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+> Preview é uma *função* , não um *grupo de função*. A função Preview deve ser adicionada a um grupo de função existente para o Office 365. A *função de administrador global* é atribuída no [centro de administração do Microsoft 365](https://admin.microsoft.com). As funções de administrador de segurança e leitor de segurança são atribuídas nos [centros de segurança e conformidade](https://protection.office.com). Para saber mais sobre funções e permissões, consulte [permissões nos centros de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
 
 > [!NOTE]
-> Os administradores podem executar a ação necessária em emails, mas para obter essas ações aprovadas, eles devem ter a função de *pesquisa e limpeza* atribuída a eles por meio de permissões **de centro de conformidade e segurança**  >  **Permissions** .
+> Os administradores podem executar a ação necessária em emails, mas para obter essas ações aprovadas, eles devem ter a função de *pesquisa e limpeza* atribuída a eles por meio de permissões **de centro de conformidade e segurança**  >  **Permissions**.
 
 ## <a name="manual-and-automated-remediation"></a>Correção manual e automatizada
 
@@ -73,7 +73,7 @@ Ações **automatizadas de investigação e resposta** são acionadas por alerta
 
 ![Email com malware na página "Zapped" mostrando a hora da execução de zap.](../../media/tp-RemediationArticle3.png)
 
-Todas as correções (aprovação direta ou aprovação em duas etapas) que foram criadas no Gerenciador de ameaças, bem como as ações aprovadas provenientes de investigações automatizadas, são exibidas na central de ações. Acessá-los por meio do painel de navegação esquerdo em **revisar**  >  **central de ações** .
+Todas as correções (aprovação direta ou aprovação em duas etapas) que foram criadas no Gerenciador de ameaças, bem como as ações aprovadas provenientes de investigações automatizadas, são exibidas na central de ações. Acessá-los por meio do painel de navegação esquerdo em **revisar**  >  **central de ações**.
 
 ![A central de ações com uma lista de ameaças por data e severidade.](../../media/tp-RemediationArticle4.png)
 

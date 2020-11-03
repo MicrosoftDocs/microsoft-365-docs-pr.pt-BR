@@ -1,6 +1,6 @@
 ---
-title: Acesso de parceiros por meio das APIs de proteção contra ameaças da Microsoft
-description: Saiba como criar um aplicativo AAD para obter acesso programático à proteção contra ameaças da Microsoft em nome de seus clientes
+title: Acesso de parceiros por meio das APIs do Microsoft 365 defender
+description: Saiba como criar um aplicativo AAD para obter acesso programático ao Microsoft 365 defender em nome de seus clientes
 keywords: parceiro, Access, API, multilocatário, consentimento, token de acesso, aplicativo
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,36 +19,36 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ae9e5ae158c95ae52112f7bc16559559230a20e8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: eb40d5d2d82f57be225515ad0aa566038397bbbd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203702"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844979"
 ---
-# <a name="partner-access-through-microsoft-threat-protection-apis"></a>Acesso de parceiros por meio das APIs de proteção contra ameaças da Microsoft
+# <a name="partner-access-through-microsoft-365-defender-apis"></a>Acesso de parceiros por meio das APIs do Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 >[!IMPORTANT] 
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 
-Esta página descreve como criar um aplicativo AAD para obter acesso programático à proteção contra ameaças da Microsoft em nome de seus clientes.
+Esta página descreve como criar um aplicativo AAD para obter acesso programático ao Microsoft 365 defender em nome de seus clientes.
 
-A proteção contra ameaças da Microsoft expõe muito de seus dados e ações por meio de um conjunto de APIs de programação. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos de proteção contra ameaças da Microsoft. O acesso à API requer autenticação do OAuth 2.0. Para obter mais informações, consulte [fluxo de código de autorização do OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+O Microsoft 365 defender expõe grande parte de seus dados e ações por meio de um conjunto de APIs de programação. Essas APIs ajudarão você a automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft 365 defender. O acesso à API requer autenticação do OAuth 2.0. Para obter mais informações, consulte [fluxo de código de autorização do OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
 Em geral, você precisará executar as seguintes etapas para usar as APIs:
 - Criar um aplicativo AAD **de vários locatários** .
-- Obtenha autorização (consentimento) pelo administrador do cliente para seu aplicativo para acessar os recursos de proteção contra ameaças da Microsoft necessários.
+- Obtenha autorização (consentimento) pelo administrador do cliente para seu aplicativo para acessar os recursos do Microsoft 365 defender de que ele precisa.
 - Obtenha um token de acesso usando este aplicativo.
-- Use o token para acessar a API de proteção contra ameaças da Microsoft.
+- Use o token para acessar a API do Microsoft 365 defender.
 
-As etapas a seguir orientam como criar um aplicativo AAD, obter um token de acesso para a proteção contra ameaças da Microsoft e validar o token.
+As etapas a seguir orientam como criar um aplicativo AAD, obter um token de acesso para o Microsoft 365 defender e validar o token.
 
 ## <a name="create-the-multi-tenant-app"></a>Criar o aplicativo multilocatário
 
@@ -69,12 +69,12 @@ As etapas a seguir orientam como criar um aplicativo AAD, obter um token de aces
     ![Imagem do registro do aplicativo parceiro do Microsoft Azure](../../media/atp-api-new-app-partner.png)
 
 
-4. Permita que seu aplicativo acesse a proteção contra ameaças da Microsoft e atribua-o com o conjunto mínimo de permissões necessárias para a conclusão da integração.
+4. Permita que seu aplicativo acesse o Microsoft 365 defender e atribua-o com o conjunto mínimo de permissões necessárias para a conclusão da integração.
 
-   - Na página do aplicativo, clique em **permissões de API**  >  **Adicionar**APIs de permissão  >  **minha organização usa** > digite **proteção contra ameaças da Microsoft** e clique em **proteção contra ameaças da Microsoft**.
+   - Na página do aplicativo, clique em **permissões de API**  >  **Adicionar** APIs de permissão  >  **minha organização usa** > digite **Microsoft 365 defender** e clique em **Microsoft 365 defender**.
 
    >[!NOTE]
-   >A proteção contra ameaças da Microsoft não aparece na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparece.
+   >O Microsoft 365 defender não aparece na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparece.
 
    ![Imagem de acesso à API e seleção de API](../../media/apis-in-my-org-tab.PNG)
    
@@ -98,10 +98,10 @@ As etapas a seguir orientam como criar um aplicativo AAD, obter um token de aces
 
 6. Adicione um segredo ao aplicativo.
 
-    - Clique em **certificados & segredos**, adicione descrição ao segredo e clique em **Adicionar**.
+    - Clique em **certificados & segredos** , adicione descrição ao segredo e clique em **Adicionar**.
 
     >[!IMPORTANT]
-    > Depois de selecionar **Adicionar**, **Copie o valor de segredo gerado**. Você não poderá recuperar após sair!
+    > Depois de selecionar **Adicionar** , **Copie o valor de segredo gerado**. Você não poderá recuperar após sair!
 
     ![Imagem da chave de criação de aplicativo](../../media/webapp-create-key2.png)
 
@@ -113,7 +113,7 @@ As etapas a seguir orientam como criar um aplicativo AAD, obter um token de aces
 
 8. Adicione o aplicativo ao locatário do cliente.
 
-    Você precisa que seu aplicativo seja aprovado em cada locatário do cliente onde você pretende usá-lo. Isso se deve ao fato de o aplicativo interagir com o aplicativo proteção contra ameaças da Microsoft em nome de seu cliente.
+    Você precisa que seu aplicativo seja aprovado em cada locatário do cliente onde você pretende usá-lo. Isso se deve ao fato de o aplicativo interagir com o aplicativo Microsoft 365 defender em nome de seu cliente.
 
     Um usuário com **administrador global** do locatário do cliente precisa clicar no link de consentimento e aprovar o aplicativo.
 
@@ -203,7 +203,7 @@ return $token
 - Abrir uma janela de comando
 - Definir CLIENT_ID para sua ID de aplicativo do Azure
 - Definir CLIENT_SECRET como seu segredo de aplicativo do Azure
-- Defina TENANT_ID para a ID do locatário do Azure do cliente que deseja usar seu aplicativo para acessar o aplicativo de proteção contra ameaças da Microsoft
+- Defina TENANT_ID para a ID do locatário do Azure do cliente que deseja usar seu aplicativo para acessar o aplicativo Microsoft 365 defender
 - Execute o comando abaixo:
 
 ```
@@ -222,14 +222,14 @@ Verificação de sanidade para garantir que você recebeu um token correto:
 
 - Copiar/colar no [JWT](https://jwt.ms) o token obtido na etapa anterior para decodificá-lo
 - Validar você obtém uma declaração "Roles" com as permissões desejadas
-- Na captura de tela a seguir, você pode ver um token decodificado adquirido de um aplicativo com várias permissões para a proteção contra ameaças da Microsoft:
+- Na captura de tela abaixo, você pode ver um token decodificado adquirido de um aplicativo com várias permissões para o Microsoft 365 defender:
 - A declaração "tid" é a ID do locatário à qual o token pertence.
 
 ![Imagem da validação do token](../../media/webapp-decoded-token.png)
 
-## <a name="use-the-token-to-access-microsoft-threat-protection-api"></a>Usar o token para acessar a API de proteção contra ameaças da Microsoft
+## <a name="use-the-token-to-access-microsoft-365-defender-api"></a>Usar o token para acessar a API do Microsoft 365 defender
 
-- Escolha a API que você deseja usar, para saber mais, confira [APIs de proteção contra ameaças da Microsoft compatíveis](api-supported.md)
+- Escolha a API que você deseja usar, para obter mais informações, consulte [supported Microsoft 365 defender APIs](api-supported.md)
 - Definir o cabeçalho de autorização na solicitação HTTP que você envia para "portador {token}" (o portador é o esquema de autorização)
 - O tempo de expiração do token é de 1 hora (você pode enviar mais de uma solicitação com o mesmo token)
 
@@ -248,6 +248,6 @@ Verificação de sanidade para garantir que você recebeu um token correto:
 
 ## <a name="related-topics"></a>Tópicos relacionados 
 
-- [Acessar as APIs de proteção contra ameaças da Microsoft](api-access.md)
-- [Acesso à proteção contra ameaças da Microsoft com contexto de aplicativo](api-create-app-web.md)
-- [Acesso à proteção contra ameaças da Microsoft com contexto de usuário](api-create-app-user-context.md)
+- [Acessar as APIs do Microsoft 365 defender](api-access.md)
+- [Acessar o Microsoft 365 defender com contexto de aplicativo](api-create-app-web.md)
+- [Acessar o Microsoft 365 defender com contexto de usuário](api-create-app-user-context.md)

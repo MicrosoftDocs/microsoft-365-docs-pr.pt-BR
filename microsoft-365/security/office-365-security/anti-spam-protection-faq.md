@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra spam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 2bf2808cc0da6124a0377b52dc46f88b2c8a69e0
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: d2505eea572e512b306cf26c7a57d1dc1b705c0b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445730"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844459"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
@@ -59,7 +59,7 @@ Depois que você se inscrever no serviço e adicionar seu domínio, a filtragem 
 
 Para mais informações, confira os seguintes tópicos:
 
-[Configurações recomendadas para o EOP e a segurança ATP do Office 365](recommended-settings-for-eop-and-office365-atp.md)
+[Configurações recomendadas para a segurança do EOP e do Microsoft defender para Office 365](recommended-settings-for-eop-and-office365-atp.md)
 
 [Configurar a filtragem de conexão no EOP](configure-the-connection-filter-policy.md)
 
@@ -105,9 +105,9 @@ Você pode enviar uma notificação para um endereço de email especificado quan
 
 Sim. Embora seja recomendável que você aponte seu registro MX para a Microsoft, percebemos que há razões de negócios legítimas para encaminhar seu email para outro lugar que não seja a Microsoft.
 
-- **Entrada**: altere seus registros MX para apontar para o provedor de terceiros e redirecione as mensagens para o EOP para processamento adicional. Para obter mais informações, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+- **Entrada** : altere seus registros MX para apontar para o provedor de terceiros e redirecione as mensagens para o EOP para processamento adicional. Para obter mais informações, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-- **Outbound**: Configure o roteamento de host inteligente da Microsoft 365 para o provedor de terceiros de destino.
+- **Outbound** : Configure o roteamento de host inteligente da Microsoft 365 para o provedor de terceiros de destino.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>A Microsoft tem alguma documentação sobre como eu posso me proteger contra golpes de phishing?
 

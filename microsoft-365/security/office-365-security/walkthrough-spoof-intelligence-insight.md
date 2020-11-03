@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como a compreensão da inteligência de falsificação funciona, incluindo como determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fc934491606a53ebfb4bae4f46ab9e1ee93467b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 5995095e442bbcd07ddf4538b67be6e1b14fd8f1
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198566"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844207"
 ---
-# <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough-visão geral da inteligência de fraudes ATP no Microsoft 365
+# <a name="walkthrough---defender-for-office-365-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough-defender for Office 365 Insight Intelligence percepção no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Nas organizações Microsoft 365 com a proteção avançada contra ameaças (ATP), você pode usar a compreensão de inteligência de falsificação para determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados. Ao permitir que eles enviem mensagens falsificadas, você pode reduzir o risco de qualquer falso positivo para os seus usuários. Você também pode usar a compreensão de inteligência de falsificação para monitorar e gerenciar os pares de domínio permitidos para fornecer uma camada adicional de segurança e impedir que mensagens não seguras cheguem à sua organização.
+Nas organizações do Microsoft 365 com o defender para Office 365, você pode usar a compreensão de inteligência de falsificação para determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados. Ao permitir que eles enviem mensagens falsificadas, você pode reduzir o risco de qualquer falso positivo para os seus usuários. Você também pode usar a compreensão de inteligência de falsificação para monitorar e gerenciar os pares de domínio permitidos para fornecer uma camada adicional de segurança e impedir que mensagens não seguras cheguem à sua organização.
 
 Se você for novo para [relatórios e insights no centro de conformidade e segurança &](reports-and-insights-in-security-and-compliance.md), poderá ajudar a ver como você pode navegar facilmente de um painel para uma compreensão e ações recomendadas.
 
@@ -49,7 +49,7 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
   - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
   - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Você habilita e desabilita a inteligência de spoof em políticas anti-phishing da ATP. Para obter mais informações, consulte [Configure ATP anti-phishing Policies in Microsoft 365](configure-atp-anti-phishing-policies.md).
+- Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no Microsoft defender para Office 365. Para obter mais informações, consulte [Configure anti-phishing Policies in Microsoft defender for Office 365 in microsoft 365](configure-atp-anti-phishing-policies.md).
 
 - Nas organizações do Microsoft 365 com caixas de correio do Exchange Online e em proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar a inteligência de spoof para monitorar e gerenciar remetentes que está enviando mensagens não autenticadas. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
 
@@ -59,9 +59,9 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
 2. Na linha **insights** , procure um dos seguintes itens:
 
-   - O **spoof Intelligence está habilitado**: a percepção é denominada **domínios falsificados que falharam na autenticação dos últimos 30 dias**. É o padrão.
+   - O **spoof Intelligence está habilitado** : a percepção é denominada **domínios falsificados que falharam na autenticação dos últimos 30 dias**. É o padrão.
 
-   - A **inteligência de falsificação está desabilitada**: a percepção em chamado **habilitar proteção contra falsificação**e clicar nele permite habilitar a inteligência de falsificação.
+   - A **inteligência de falsificação está desabilitada** : a percepção em chamado **habilitar proteção contra falsificação** e clicar nele permite habilitar a inteligência de falsificação.
 
 3. A percepção do painel mostra as informações como esta:
 
@@ -83,17 +83,17 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
    Os **pares de domínios suspeitos** incluem:
 
-   - **Falsificação de alta confiança**: a Microsoft 365 recebeu sinais fortes que esses domínios são suspeitos, com base nos padrões de envio históricos e na pontuação de reputação dos domínios. O Microsoft 365 é altamente seguro de que os domínios estão falsificando e que as mensagens enviadas desses domínios têm menos probabilidade de ser legítimas.
+   - **Falsificação de alta confiança** : a Microsoft 365 recebeu sinais fortes que esses domínios são suspeitos, com base nos padrões de envio históricos e na pontuação de reputação dos domínios. O Microsoft 365 é altamente seguro de que os domínios estão falsificando e que as mensagens enviadas desses domínios têm menos probabilidade de ser legítimas.
 
-   - **Falsificação de confiança moderada**: a Microsoft 365 recebeu sinais moderados de que esses domínios são suspeitos, com base nos padrões de envio históricos e na pontuação de reputação dos domínios. O Office 365 está razoavelmente seguro de que os domínios estão falsificando e que as mensagens enviadas desses domínios são legítimas. Esse Bucket tem uma chance maior de conter falsos positivos (FPs) do que o Bucket de falsificação de alta confiança.
+   - **Falsificação de confiança moderada** : a Microsoft 365 recebeu sinais moderados de que esses domínios são suspeitos, com base nos padrões de envio históricos e na pontuação de reputação dos domínios. O Office 365 está razoavelmente seguro de que os domínios estão falsificando e que as mensagens enviadas desses domínios são legítimas. Esse Bucket tem uma chance maior de conter falsos positivos (FPs) do que o Bucket de falsificação de alta confiança.
 
-   - **Pares de domínios não suspeitos** (inclui **falsificação**reposta): a falsificação reposta são domínios que falharam nas verificações de autenticação explícitas [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md)), mas passaram nossas verificações de autenticação de email implícito ([autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, a Microsoft 365 resmeteu o email em seu nome e nenhuma ação de anti-falsificação foi tomada na mensagem.
+   - **Pares de domínios não suspeitos** (inclui **falsificação** reposta): a falsificação reposta são domínios que falharam nas verificações de autenticação explícitas [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md)), mas passaram nossas verificações de autenticação de email implícito ( [autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, a Microsoft 365 resmeteu o email em seu nome e nenhuma ação de anti-falsificação foi tomada na mensagem.
 
 ### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>Exibir informações detalhadas sobre pares de domínio suspeitos da compreensão da inteligência de falsificação
 
 1. Na percepção de inteligência de falsificação, clique em qualquer um dos pares de domínio (alto, moderado ou cogatado).
 
-   A página de **informações sobre spoof Intelligence** aparece mostrando uma lista de remetentes que estão enviando emails não autenticados para sua organização. As informações nesta página ajudam a determinar se as mensagens falsificadas são autorizadas ou se você precisa tomar mais ações. Você pode classificar as informações por contagem de mensagens, a data em que a falsificação foi detectada pela última vez e muito mais. (Clique em cabeçalhos de coluna, como **contagem de mensagens** ou **última vista**, por exemplo).
+   A página de **informações sobre spoof Intelligence** aparece mostrando uma lista de remetentes que estão enviando emails não autenticados para sua organização. As informações nesta página ajudam a determinar se as mensagens falsificadas são autorizadas ou se você precisa tomar mais ações. Você pode classificar as informações por contagem de mensagens, a data em que a falsificação foi detectada pela última vez e muito mais. (Clique em cabeçalhos de coluna, como **contagem de mensagens** ou **última vista** , por exemplo).
 
 2. Selecione um item na tabela para abrir um painel de detalhes que contenha informações avançadas sobre o par de domínio, incluindo por que detectamos isso, o que você precisa fazer, um resumo de domínio, dados de WhoIs sobre o remetente e emails semelhantes que vimos no seu locatário do mesmo remetente. A partir daqui, você também pode optar por adicionar ou remover o par de domínio da lista de remetentes confiáveis do **AllowedToSpoof** .
 

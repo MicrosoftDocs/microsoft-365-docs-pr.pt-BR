@@ -1,6 +1,6 @@
 ---
-title: Hello World para a API REST de proteção contra ameaças da Microsoft
-description: Saiba como criar um aplicativo e usar um token para acessar as APIs de proteção contra ameaças da Microsoft
+title: Hello World para a API REST do Microsoft 365 defender
+description: Saiba como criar um aplicativo e usar um token para acessar as APIs do Microsoft 365 defender
 keywords: aplicativo, token, Access, AAD, aplicativo, registro de aplicativo, PowerShell, script, administrador global, permissão
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,20 +19,20 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: cdf3f6a0c007763d2772233b1a299d59c931b2e5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: bd4f7e5485d67cf74477900ae2cc5c77f1a6ee41
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201322"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844039"
 ---
-# <a name="hello-world-for-microsoft-threat-protection-rest-api"></a>Hello World para a API REST de proteção contra ameaças da Microsoft 
+# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Hello World para a API REST do Microsoft 365 defender 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 >[!IMPORTANT] 
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -58,12 +58,12 @@ Para o estágio de registro de aplicativo, você deve ter uma função de **admi
 
 3. No formulário de registro, escolha um nome para o aplicativo e, em seguida, selecione **registrar**.
 
-4. Permitir que seu aplicativo acesse o Microsoft defender ATP e atribuí-lo a permissão de **todos os incidentes** :
+4. Permitir que seu aplicativo acesse o Microsoft defender para ponto de extremidade e atribuí-lo a permissão de **todos os incidentes** :
 
-   - Na página do aplicativo, selecione **permissões de API**  >  **Adicionar APIs de permissão**  >  **minha organização usa** > digite **proteção contra ameaças da Microsoft** e selecione na **proteção contra ameaças da Microsoft**.
+   - Na página do aplicativo, selecione **permissões de API**  >  **Adicionar APIs de permissão**  >  **minha organização usa** > digite **Microsoft 365 defender** e selecione no **Microsoft 365 defender**.
 
    >[!NOTE]
-   >A proteção contra ameaças da Microsoft não aparece na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparece.
+   >O Microsoft 365 defender não aparece na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparece.
 
    ![Imagem de acesso à API e seleção de API](../../media/apis-in-my-org-tab.PNG)
 
@@ -87,10 +87,10 @@ Para o estágio de registro de aplicativo, você deve ter uma função de **admi
 
 6. Adicione um segredo ao aplicativo.
 
-    - Selecione **certificados & segredos**, adicione descrição ao segredo e selecione **Adicionar**.
+    - Selecione **certificados & segredos** , adicione descrição ao segredo e selecione **Adicionar**.
 
     >[!IMPORTANT]
-    > Depois de selecionar **Adicionar**, **Copie o valor de segredo gerado**. Você não poderá recuperar após sair!
+    > Depois de selecionar **Adicionar** , **Copie o valor de segredo gerado**. Você não poderá recuperar após sair!
 
     ![Imagem da chave de criação de aplicativo](../../media/webapp-create-key2.png)
 
@@ -105,8 +105,8 @@ Terminado! Você registrou com êxito um aplicativo.
 
 ### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a>Etapa 2: obter um token usando o aplicativo e usar esse token para acessar a API.
 
--   Copie o script abaixo para o PowerShell ISE ou para um editor de texto e salve-o como "**Get-Token.ps1**"
--   Executar esse script gerará um token e o salvará na pasta de trabalho com o nome "**Latest-token.txt**".
+-   Copie o script abaixo para o PowerShell ISE ou para um editor de texto e salve-o como " **Get-Token.ps1** "
+-   Executar esse script gerará um token e o salvará na pasta de trabalho com o nome " **Latest-token.txt** ".
 
 ```
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
@@ -188,6 +188,6 @@ Você terminou! Você acabou de fazer o êxito:
 
 
 ## <a name="related-topic"></a>Tópico relacionado
-- [Acessar as APIs de proteção contra ameaças da Microsoft](api-access.md)
-- [Acesso à proteção contra ameaças da Microsoft com contexto de aplicativo](api-create-app-web.md)
-- [Acesso à proteção contra ameaças da Microsoft com contexto de usuário](api-create-app-user-context.md)
+- [Acessar as APIs do Microsoft 365 defender](api-access.md)
+- [Acessar o Microsoft 365 defender com contexto de aplicativo](api-create-app-web.md)
+- [Acessar o Microsoft 365 defender com contexto de usuário](api-create-app-user-context.md)

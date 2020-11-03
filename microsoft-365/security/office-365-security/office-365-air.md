@@ -21,12 +21,12 @@ description: Comece a usar os recursos de investigação e resposta automatizado
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 340fc4851043ff917eaff6f237c3ad7d5810a4cb
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 54dbd419380c18e23119887c93a71885c6f9ce7d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430914"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845799"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365
 
@@ -62,7 +62,7 @@ Em um nível alto, um alerta é disparado e um guia de segurança inicia uma inv
     Como as ações de correção pendentes são aprovadas (ou rejeitadas), a investigação automatizada é concluída.
 
 > [!NOTE]
-> No Office 365 ATP, nenhuma ação de correção é executada automaticamente. As ações de correção só serão tomadas mediante a aprovação da equipe de segurança da sua organização. 
+> No Microsoft defender para Office 365, nenhuma ação de correção é executada automaticamente. As ações de correção só serão tomadas mediante a aprovação da equipe de segurança da sua organização. 
 
 Durante e após um processo de investigação automatizado, a equipe de segurança pode fazer o seguinte:
 

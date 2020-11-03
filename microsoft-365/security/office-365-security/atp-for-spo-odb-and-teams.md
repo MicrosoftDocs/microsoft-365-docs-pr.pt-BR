@@ -21,19 +21,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Saiba mais sobre a proteção avançada contra ameaças do Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams.
-ms.openlocfilehash: e536809c74abbe87e1250acda3f3922180cfae97
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Saiba mais sobre o Microsoft defender para Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams.
+ms.openlocfilehash: 7b007671a7fecb3ae074fd07ce38d17fb025f6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446258"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844327"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP para SharePoint, OneDrive e Microsoft Teams
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-ATP para SharePoint, OneDrive e Microsoft Teams no [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md) fornece uma camada adicional de proteção para arquivos que já foram verificados no momento do carregamento pelo [mecanismo de detecção de vírus comum no Microsoft 365](virus-detection-in-spo.md). ATP para SharePoint, OneDrive e Microsoft Teams ajuda a detectar e bloquear arquivos existentes identificados como mal-intencionados em sites de equipe e bibliotecas de documentos.
+ATP para SharePoint, OneDrive e Microsoft Teams no [Microsoft defender para Office 365](office-365-atp.md) fornece uma camada adicional de proteção para arquivos que já foram verificados no momento do carregamento pelo [mecanismo de detecção de vírus comum no Microsoft 365](virus-detection-in-spo.md). ATP para SharePoint, OneDrive e Microsoft Teams ajuda a detectar e bloquear arquivos existentes identificados como mal-intencionados em sites de equipe e bibliotecas de documentos.
 
 ATP para SharePoint, OneDrive e Microsoft Teams não está habilitado por padrão. Para ativá-la, confira [Ativar ATP para SharePoint, onedrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
@@ -59,14 +59,14 @@ Para saber mais sobre a experiência do usuário quando um arquivo foi detectado
 
 ## <a name="view-information-about-malicious-files-detected-by-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Exibir informações sobre arquivos mal-intencionados detectados pela ATP para SharePoint, OneDrive e Microsoft Teams
 
-Arquivos identificados como mal-intencionados por ATP aparecerão em [relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md) e no [Explorer (e detecções em tempo real)](threat-explorer.md).
+Os arquivos identificados como mal-intencionados pelo Microsoft defender para Office 365 aparecerão nos [relatórios do Microsoft defender para office 365](view-reports-for-atp.md) e no [Explorer (e detecções em tempo real)](threat-explorer.md).
 
-A partir de maio de 2018, quando um arquivo é identificado como mal-intencionado por ATP, o arquivo também está disponível em quarentena. Para obter mais informações, consulte [usar o centro de conformidade de & de segurança para gerenciar arquivos em quarentena](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files).
+A partir de maio de 2018, quando um arquivo é identificado como mal-intencionado pelo Microsoft defender para Office 365, o arquivo também está disponível em quarentena. Para obter mais informações, consulte [usar o centro de conformidade de & de segurança para gerenciar arquivos em quarentena](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files).
 
 ## <a name="keep-these-points-in-mind"></a>Mantenha esses pontos em mente
 
-- A ATP não examinará todos os arquivos de um único arquivo no SharePoint Online, no OneDrive for Business ou no Microsoft Teams. Este é o comportamento padrão do produto. Os arquivos são verificados de forma assíncrona. O processo usa eventos de atividade de compartilhamento e convidados junto com heurística inteligente e sinais de ameaça para identificar arquivos mal-intencionados.
+- O defender for Office 365 não examinará todos os arquivos do SharePoint Online, do OneDrive for Business ou do Microsoft Teams. Este é o comportamento padrão do produto. Os arquivos são verificados de forma assíncrona. O processo usa eventos de atividade de compartilhamento e convidados junto com heurística inteligente e sinais de ameaça para identificar arquivos mal-intencionados.
 
-- Certifique-se de que seus sites do SharePoint estão configurados para usar a [experiência moderna](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). A proteção ATP aplica se a experiência moderna ou o modo de exibição clássico é usado; no entanto, os indicadores visuais que um arquivo está bloqueado estão disponíveis apenas na experiência moderna.
+- Certifique-se de que seus sites do SharePoint estão configurados para usar a [experiência moderna](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). O defender for Office 365 Protection aplica se a experiência moderna ou o modo de exibição clássico é usado; no entanto, os indicadores visuais que um arquivo está bloqueado estão disponíveis apenas na experiência moderna.
 
-- ATP para SharePoint, OneDrive e Microsoft Teams é parte da estratégia geral de proteção contra ameaças da sua organização, que inclui proteção antispam e antimalware no Exchange Online Protection (EOP), bem como links seguros e anexos seguros no Office 365 ATP. Para saber mais, confira [proteger contra ameaças no Office 365](protect-against-threats.md).
+- ATP para SharePoint, OneDrive e Microsoft Teams é parte da estratégia geral de proteção contra ameaças da sua organização, que inclui proteção antispam e antimalware no Exchange Online Protection (EOP), bem como links seguros e anexos seguros no Microsoft defender para Office 365. Para saber mais, confira [proteger contra ameaças no Office 365](protect-against-threats.md).

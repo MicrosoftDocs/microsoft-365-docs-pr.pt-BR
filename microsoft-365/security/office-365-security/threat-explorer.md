@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ae2c53f12465fd1d6ef5c5e4bd24309467be008
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: a6123306c1d707a3eeab5c5dd67ed25bebb71965
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769371"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845668"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
-Se sua organização tem a [proteção avançada contra ameaças do office 365](office-365-atp.md) (Office 365 ATP) e você tem as [permissões necessárias](#required-licenses-and-permissions), você tem as detecções do **Explorer** ou do **tempo real** (anteriormente conhecida como *relatórios em tempo real* , [consulte What ' s New](#new-features-in-threat-explorer-and-real-time-detections)!). No centro de conformidade & segurança, vá para **Gerenciamento de ameaças** e escolha as detecções do **Explorer** _ou_ **em tempo real** .
+Se sua organização tem o [Microsoft defender para Office 365](office-365-atp.md)e você tem as [permissões necessárias](#required-licenses-and-permissions), você tem as detecções do **Explorer** ou do **tempo real** (anteriormente conhecida como *relatórios em tempo real* , [consulte What ' s New](#new-features-in-threat-explorer-and-real-time-detections)!). No centro de conformidade & segurança, vá para **Gerenciamento de ameaças** e escolha as detecções do **Explorer** _ou_ **em tempo real**.
 
-|Com o plano ATP 2, você vê:|Com o plano ATP 1, você vê:|
+|Com o Microsoft defender para Office 365 plano 2, você vê:|Com o Microsoft defender para Office 365 plano 1, você vê:|
 |---|---|
 |![Explorador de ameaças](../../media/threatmgmt-explorer.png)|![Detecções em tempo real](../../media/threatmgmt-realtimedetections.png)|
 |
@@ -42,27 +42,27 @@ Com esse relatório, você pode:
 
 - [Consulte malware detectado pelos recursos de segurança do Microsoft 365](#see-malware-detected-in-email-by-technology)
 - [Exibir dados sobre URLs de phishing e clicar em veredicto](#view-data-about-phishing-urls-and-click-verdict)
-- [Iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer](#start-automated-investigation-and-response) (apenas plano ATP 2)
+- [Iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer](#start-automated-investigation-and-response) (defender para Office 365 Plan 2 apenas)
 - ... [Investigue emails mal-intencionados e muito mais](#more-ways-to-use-explorer-or-real-time-detections)!
 
 
 ## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Aprimoramentos de experiência para o explorador de ameaças e detecções em tempo real
 
-## <a name="tags-in-threat-explorer"></a>Marcas no explorador de ameaças
+### <a name="tags-in-threat-explorer"></a>Marcas no explorador de ameaças
 
 > [!NOTE]
 > O recurso de marcas de usuário está em visualização, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o Microsoft 365 Roadmap.
 
-Marcas de usuário são identificadores para grupos específicos de usuários no Microsoft defender para Office 365. Para obter mais informações sobre marcas, licenciamento e configuração de marcas, leia mais aqui: [marcas de usuário no Office 365 ATP](user-tags.md).
+Marcas de usuário são identificadores para grupos específicos de usuários no Microsoft defender para Office 365. Para obter mais informações sobre marcas, licenciamento e configuração de marcas, consulte [User Tags in defender for Office 365](user-tags.md).
 
-No explorador de ameaças, você poderá ver informações sobre marcas de usuário nas seguintes experiências:
+No explorador de ameaças, você pode ver informações sobre marcas de usuário nas seguintes experiências:
 
 #### <a name="email-grid-view"></a>Exibição de grade de email
 
 A coluna marcas mostrada na grade de emails contém todas as marcas que foram aplicadas às caixas de correio de remetentes ou destinatários. Por padrão, marcas de sistema como contas de prioridade são mostradas primeiro.
 
 > [!div class="mx-imgBorder"]
-> ![Marcas de filtro](../../media/tags-grid.png)
+> ![Filtrar marcas no modo de exibição de grade de email](../../media/tags-grid.png)
 
 #### <a name="filtering"></a>Filtragem
 Agora, temos marcas como um filtro para que você possa procurar apenas por contas de prioridade ou em cenários de marcas de usuário específicos (e até mesmo excluir resultados com determinadas marcas como parte dessa experiência). A combinação desses com os vários outros filtros que fornecemos ajuda você a reduzir o escopo da investigação
@@ -123,7 +123,7 @@ Além da identificação de todos os eventos Delivery e post-Delivery, a exibiç
 
 Hoje, apresentamos o local de entrega dentro da grade de email e do submenu de email. No futuro, o campo local de entrega será renomeado para o local de entrega original. Além disso, também vamos apresentar outro campo chamado local de entrega mais recente.
 
-O local de entrega original forneceria mais informações sobre onde um email foi entregue inicialmente. O local de entrega mais recente incluiria local onde um email pode ter redirecionado após ações do sistema, como ações de ZAP ou de administração, como **mover para itens excluídos** . O local de entrega mais recente destina-se a informar aos administradores sobre a última postagem de local conhecida da mensagem ou qualquer ação de sistema/administrador. Por design, ele não inclui nenhuma ação relacionada ao usuário final no email. Por exemplo: se um usuário excluir uma mensagem ou mover a mensagem para arquivo morto/PST, o local de "entrega" da mensagem não será atualizado. No entanto, se uma ação do sistema tiver atualizado o local (por exemplo, ZAP resultando em um email movendo para quarentena), você verá o local de entrega mais recente como quarentena.
+O local de entrega original forneceria mais informações sobre onde um email foi entregue inicialmente. O local de entrega mais recente incluiria local onde um email pode ter redirecionado após ações do sistema, como ações de ZAP ou de administração, como **mover para itens excluídos**. O local de entrega mais recente destina-se a informar aos administradores sobre a última postagem de local conhecida da mensagem ou qualquer ação de sistema/administrador. Por design, ele não inclui nenhuma ação relacionada ao usuário final no email. Por exemplo: se um usuário excluir uma mensagem ou mover a mensagem para arquivo morto/PST, o local de "entrega" da mensagem não será atualizado. No entanto, se uma ação do sistema tiver atualizado o local (por exemplo, ZAP resultando em um email movendo para quarentena), você verá o local de entrega mais recente como quarentena.
 
 > [!div class="mx-imgBorder"]
 > ![Locais de entrega atualizados](../../media/Updated_Delivery_Location.png)
@@ -196,6 +196,16 @@ Como parte do aprimoramento do processo de caça, fizemos algumas atualizações
 - [Atualização no processo de atualização](#update-in-the-refresh-process)
 - [Detalhamento de gráfico para adicionar a filtros](#chart-drilldown-to-add-to-filters)
 - [Atualizações de informações do produto](#in-product-information-updates)
+
+### <a name="filter-by-user-tags"></a>Filtrar por marcas de usuário
+
+Agora, você pode classificar e filtrar por marcas de usuário ou de sistema personalizado, para entender rapidamente o escopo de ameaças. Confira [marcas de usuário no Office 365 ATP](user-tags.md) para saber mais.
+
+> [!IMPORTANT]
+> A filtragem e classificação por marcas de usuário estão atualmente em visualização pública.
+> Ela pode ser modificada substancialmente antes de ser lançada comercialmente. A Microsoft não oferece garantias, expressas ou implícitas, com relação às informações fornecidas sobre ela.
+
+![Coluna marcas no Explorer](../../media/threat-explorer-tags.png)
 
 ### <a name="timezone-improvements"></a>Melhorias de fuso horário
 
@@ -345,7 +355,7 @@ Suponha que você queira ver o malware detectado no email, pela tecnologia Micro
 
 1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real** ). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha malware de **email**  >  **Malware** .
+2. No menu **Exibir** , escolha malware de **email**  >  **Malware**.
 
    > [!div class="mx-imgBorder"]
    > ![Menu Exibir para Explorer](../../media/ExplorerViewEmailMalwareMenu.png)
@@ -372,12 +382,12 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
 1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real** ). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha phishing de **email**  >  **Phish** .
+2. No menu **Exibir** , escolha phishing de **email**  >  **Phish**.
 
    > [!div class="mx-imgBorder"]
-   > ![Menu Exibir para Explorer](../../media/ExplorerViewEmailPhishMenu.png)
+   > ![Menu Exibir para Explorer no contexto de phishing](../../media/ExplorerViewEmailPhishMenu.png)
 
-3. Clique em **remetente** e, em seguida, escolha **URLs**  >  **clique em veredicto** .
+3. Clique em **remetente** e, em seguida, escolha **URLs**  >  **clique em veredicto**.
 
 4. Selecione uma ou mais opções, como **bloqueado** e **substituído** e, em seguida, clique no botão **Atualizar** que está na mesma linha que as opções para aplicar esse filtro. (Não atualize a janela do navegador.)
 
@@ -422,7 +432,7 @@ Suponha que você queira ver as mensagens de email que os usuários em sua organ
 2. No menu **Exibir** , escolha **Email**  >  **envios** de email.
 
    > [!div class="mx-imgBorder"]
-   > ![Menu Exibir para Explorer](../../media/explorer-view-menu-email-user-reported.png)
+   > ![Menu Exibir para Explorer para emails](../../media/explorer-view-menu-email-user-reported.png)
 
 3. Clique em **remetente** e, em seguida, escolha tipo de **Basic**  >  **relatório** básico.
 
@@ -431,12 +441,12 @@ Suponha que você queira ver as mensagens de email que os usuários em sua organ
    > [!div class="mx-imgBorder"]
    > ![Phishing relatado pelo usuário](../../media/EmailUserReportedReportType.png)
 
-O relatório é atualizado para mostrar dados sobre mensagens de email que as pessoas em sua organização relataram como uma tentativa de phishing. Você pode usar essas informações para realizar mais análises e, se necessário, ajustar as [políticas de anti-phishing da ATP](configure-atp-anti-phishing-policies.md).
+O relatório é atualizado para mostrar dados sobre mensagens de email que as pessoas em sua organização relataram como uma tentativa de phishing. Você pode usar essas informações para realizar uma análise adicional e, se necessário, ajustar suas [políticas de anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="start-automated-investigation-and-response"></a>Iniciar investigação e resposta automatizadas
 
 > [!NOTE]
-> Os recursos de investigação e resposta automatizados estão disponíveis no **office 365 ATP Plan 2** e no **Office 365 E5** .
+> Os recursos de investigação e resposta automatizados estão disponíveis no **Microsoft defender para Office 365 plano 2** e no **Office 365 E5**.
 
 (Novo!) A [investigação e a resposta automatizadas](automated-investigation-response-office.md) podem salvar sua equipe de operações de segurança muito tempo e esforço na investigação e redução do cyberattacks. Além de configurar alertas que podem acionar um guia de segurança, você pode iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer.
 
@@ -454,11 +464,11 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
-Você deve ter o [Office 365 ATP](office-365-atp.md) para obter as detecções do Explorer ou em tempo real.
+Você deve ter [o Microsoft defender para Office 365](office-365-atp.md) para obter as detecções do Explorer ou em tempo real.
 
-- O Explorer está incluído no plano 2 do Office 365 ATP.
-- O relatório de detecções em tempo real está incluído no plano 1 de ATP do Office 365.
-- Planejar a atribuição de licenças para todos os usuários que devem estar protegidos pelo Office 365 ATP. (As detecções de Explorer ou em tempo real mostram dados de detecção para usuários licenciados.)
+- O Explorer está incluído no defender para Office 365 plano 2.
+- O relatório de detecções em tempo real está incluído no defender para Office 365 plano 1.
+- Planejar a atribuição de licenças para todos os usuários que devem ser protegidos pelo defender para Office 365. (As detecções de Explorer ou em tempo real mostram dados de detecção para usuários licenciados.)
 
 Para exibir e usar as detecções do Explorer ou em tempo real, você deve ter as permissões apropriadas, como aquelas concedidas a um administrador de segurança ou leitor de segurança.
 
@@ -482,9 +492,9 @@ Para saber mais sobre funções e permissões, confira os seguintes recursos:
 
 ## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>Algumas diferenças entre o Gerenciador de ameaças e as detecções em tempo real
 
-- O relatório de **detecções em tempo real** está disponível no Office 365 ATP Plan 1, enquanto o **Explorador de ameaças** está disponível no Office 365 ATP Plan 2.
+- O relatório de **detecções em tempo real** está disponível no defender para Office 365 plano 1, enquanto o **Explorador de ameaças** está disponível no defender para Office 365 plano 2.
 - O relatório de **detecções em tempo real** permite que você visualize detecções em tempo real. O **Gerenciador de ameaças** também faz isso, mas também permite que você exiba detalhes adicionais de um determinado ataque.
 - Um modo de exibição de **todos os emails** está disponível no **Explorador de ameaças** (e não está no relatório de **detecções em tempo real** ).
-- Mais recursos de filtragem e ações disponíveis estão incluídos no **Explorador de ameaças** .
+- Mais recursos de filtragem e ações disponíveis estão incluídos no **Explorador de ameaças**.
 
-Para obter mais detalhes, consulte a [Descrição do serviço do Office 365 ATP: disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+Para obter mais detalhes, consulte [Microsoft defender para Office 365 descrição do serviço: disponibilidade de recursos nos planos do defender para office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).

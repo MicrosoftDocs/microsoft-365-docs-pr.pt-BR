@@ -19,13 +19,13 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre os recursos de proteção contra phishing no Exchange Online Protection (EOP) e a proteção avançada contra ameaças do Office 365 (Office 365 ATP).
-ms.openlocfilehash: ca8b41c46a2d903edf0beae1de2334bd8c8d1e78
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Os administradores podem saber mais sobre os recursos de proteção contra phishing no Exchange Online Protection (EOP) e Microsoft defender para Office 365.
+ms.openlocfilehash: 51c539a47f1c137dbacbfaaf63212e1bb115860c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446947"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844507"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Proteção contra phishing no Microsoft 365
 
@@ -42,27 +42,27 @@ ms.locfileid: "48446947"
 
 - **Ransomware** que criptografa seus dados e exige que o pagamento seja descriptografado quase sempre inicia em mensagens de phishing. A proteção anti-phishing não pode ajudar você a descriptografar arquivos criptografados, mas pode ajudar a detectar as mensagens de phishing iniciais que estão associadas à campanha de ransomware. Para obter mais informações sobre a recuperação de um ataque de ransomware, confira [recuperar de um ataque de ransomware no Microsoft 365](recover-from-ransomware.md).
 
-Com a crescente complexidade dos ataques, é ainda difícil para os usuários treinados identificar mensagens de phishing sofisticadas. Felizmente, o Exchange Online Protection (EOP) e os recursos adicionais no Office 365 Advanced Threat Protection (Office 365 ATP) podem ajudar.
+Com a crescente complexidade dos ataques, é ainda difícil para os usuários treinados identificar mensagens de phishing sofisticadas. Felizmente, o Exchange Online Protection (EOP) e os recursos adicionais no Microsoft defender para Office 365 podem ajudar.
 
 ## <a name="anti-phishing-protection-in-eop"></a>Proteção contra phishing no EOP
 
-EOP (ou seja, as organizações Microsoft 365 sem ATP) contêm recursos que podem ajudar a proteger sua organização contra ameaças de phishing:
+EOP (ou seja, as organizações Microsoft 365 sem o Microsoft defender para Office 365) contêm recursos que podem ajudar a proteger sua organização contra ameaças de phishing:
 
-- **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, consulte [Configure spoof Intelligence in EOP](learn-about-spoof-intelligence.md).
+- **Inteligência contra falsificação** : Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, consulte [Configure spoof Intelligence in EOP](learn-about-spoof-intelligence.md).
 
-- **Políticas anti-phishing no EOP**: ativar ou desativar a inteligência de falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta lixo eletrônico ou quarentena). Para obter mais informações, consulte [Configure anti-phishing Policies in EOP](configure-anti-phishing-policies-eop.md).
+- **Políticas anti-phishing no EOP** : ativar ou desativar a inteligência de falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta lixo eletrônico ou quarentena). Para obter mais informações, consulte [Configure anti-phishing Policies in EOP](configure-anti-phishing-policies-eop.md).
 
-- **Autenticação de email implícita**: o EOP aprimora as verificações de autenticação de email padrão para emails de entrada ([SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md)) com reputação de remetente, histórico de remetente, histórico de destinatários, análise comportamental e outras técnicas avançadas para ajudar a identificar remetentes falsificados. Para obter mais informações, confira [Autenticação de email no Microsoft 365](email-validation-and-authentication.md).
+- **Autenticação de email implícita** : o EOP aprimora as verificações de autenticação de email padrão para emails de entrada ( [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md)) com reputação de remetente, histórico de remetente, histórico de destinatários, análise comportamental e outras técnicas avançadas para ajudar a identificar remetentes falsificados. Para obter mais informações, confira [Autenticação de email no Microsoft 365](email-validation-and-authentication.md).
 
-## <a name="additional-anti-phishing-protection-in-office-365-atp"></a>Proteção contra phishing adicional no Office 365 ATP
+## <a name="additional-anti-phishing-protection-in-microsoft-defender-for-office-365"></a>Proteção contra phishing adicional no Microsoft defender para Office 365
 
-O Office 365 ATP contém recursos adicionais e mais avançados de anti-phishing:
+O Microsoft defender para Office 365 contém recursos adicionais e mais avançados de anti-phishing:
 
-- **Políticas anti-phishing do ATP**: criar novas políticas personalizadas, definir configurações de antipersonificação (proteger usuários e domínios de personificação), configurações de inteligência de caixa de correio e limites de phishing avançados ajustável. Para obter mais informações, consulte [Configure ATP anti-phishing Policies in Microsoft 365](configure-atp-anti-phishing-policies.md). Para obter mais informações sobre as diferenças entre as políticas anti-phishing e as políticas anti-phishing da ATP, consulte [anti-phishing Policies in Microsoft 365](set-up-anti-phishing-policies.md).
+- **Políticas anti-phishing no Microsoft defender para Office 365** : criar novas políticas personalizadas, definir configurações de antipersonificação (proteger usuários e domínios de personificação), configurações de inteligência de caixa de correio e limites de phishing avançados ajustável. Para obter mais informações, consulte [Configure anti-phishing Policies in Microsoft defender for Office 365](configure-atp-anti-phishing-policies.md). Para obter mais informações sobre as diferenças entre políticas anti-phishing no EOP e políticas anti-phishing no defender para Office 365, consulte [políticas anti-phishing no Microsoft 365](set-up-anti-phishing-policies.md).
 
-- **Modos de exibição de campanha**: aprendizado de máquina e outros heurísticos identificam e analisam mensagens envolvidas em ataques de phishing coordenados em todo o serviço e sua organização. Para obter mais informações, consulte [Campaign views in Office 365 ATP](campaigns.md).
+- **Modos de exibição de campanha** : aprendizado de máquina e outros heurísticos identificam e analisam mensagens envolvidas em ataques de phishing coordenados em todo o serviço e sua organização. Para obter mais informações, consulte [Campaign views in Microsoft defender for Office 365](campaigns.md).
 
-- **Simulador de ataques**: os administradores podem criar mensagens de phishing falsas e enviá-las aos usuários internos como uma ferramenta de educação. Para obter mais informações, consulte o [simulador de ataques no Office 365 ATP](attack-simulator.md).
+- **Simulador de ataques** : os administradores podem criar mensagens de phishing falsas e enviá-las aos usuários internos como uma ferramenta de educação. Para obter mais informações, consulte [o simulador de ataques no Microsoft defender para Office 365](attack-simulator.md).
 
 ## <a name="other-anti-phishing-resources"></a>Outros recursos de anti-phishing
 

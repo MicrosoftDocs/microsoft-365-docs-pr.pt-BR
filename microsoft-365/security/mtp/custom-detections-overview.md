@@ -1,5 +1,5 @@
 ---
-title: Visão geral das detecções personalizadas no Microsoft Threat Protection
+title: Visão geral das detecções personalizadas no Microsoft 365 defender
 description: Entender como você pode usar a busca avançada para criar detecções personalizadas e gerar alertas
 keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção contra ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, Kusto, Microsoft 365, proteção contra ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 28d6cca20c8b386d5e6f7f39b80264a39f88ec55
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fe2b9f1b52fa2c8d9031bb58597992f3dda91520
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199460"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843907"
 ---
 # <a name="custom-detections-overview"></a>Visão geral de detecções personalizadas
 
@@ -30,7 +30,7 @@ ms.locfileid: "48199460"
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
 Com detecções personalizadas, você pode monitorar e responder de forma proativa vários eventos e Estados do sistema, incluindo a suspeita de falha da atividade e os pontos de extremidade configurados incorretamente. Isso é possível por regras de detecção personalizáveis que disparam alertas automaticamente e ações de resposta.
 

@@ -1,6 +1,6 @@
 ---
-title: Pré-requisitos da proteção contra ameaças da Microsoft
-description: Saiba mais sobre os requisitos de licenciamento, hardware e software, além de outras configurações para proteção contra ameaças da Microsoft
+title: Pré-requisitos do Microsoft 365 defender
+description: Saiba mais sobre os requisitos de licenciamento, hardware e software e outras definições de configuração para o Microsoft 365 defender
 keywords: requisitos, pré-requisitos, hardware, software, navegador, MTP, M365, licença, e5, a5, EMS, compra
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,38 +19,38 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 50ca606a6bef9cec528b6b0ef78142f050e37c51
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 415cdb79a6aa9371ee2f07de579cfb2f873f1acb
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195486"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844771"
 ---
-# <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
+# <a name="microsoft-365-defender-prerequisites"></a>Pré-requisitos do Microsoft 365 defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Proteção contra Ameaças da Microsoft
+- Microsoft 365 defender
 
-Saiba mais sobre licenciamento e outros requisitos para provisionamento e uso da [proteção contra ameaças da Microsoft](microsoft-threat-protection.md).
+Saiba mais sobre licenciamento e outros requisitos para provisionamento e uso [do Microsoft 365 defender](microsoft-threat-protection.md).
 
 ## <a name="licensing-requirements"></a>Requisitos de licença
-Qualquer uma dessas licenças oferece acesso aos recursos de proteção contra ameaças da Microsoft no centro de segurança do Microsoft 365 sem custo adicional:
+Qualquer uma dessas licenças oferece acesso aos recursos do Microsoft 365 defender no centro de segurança da Microsoft 365 sem custo adicional:
 
 - Microsoft 365 E5 ou a5
 - Segurança da Microsoft 365 E5 Security ou a5
 - Windows 10 Enterprise E5 ou a5
 - Enterprise Mobility + Security (EMS) E5 ou a5 
 - Office 365 E5 ou a5
-- Proteção Avançada contra Ameaças do Microsoft Defender
-- Proteção Avançada contra Ameaças do Azure 
-- Microsoft Cloud App Security
-- Proteção contra Ameaças do Office 365 Advanced (Plano 2)
+- Microsoft Defender para Ponto de Extremidade
+- Microsoft Defender para Identidade 
+- Segurança no aplicativo na nuvem da Microsoft
+- Defender para Office 365 (plano 2)
 
 > [!NOTE]
-> As licenças de avaliação do Office 365 atualmente não oferecem acesso à proteção contra ameaças da Microsoft.
+> As licenças de avaliação do Office 365 atualmente não oferecem acesso ao Microsoft 365 defender.
 
 Para obter mais informações, [consulte o Microsoft 365 Enterprise Service Plans](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise).
 
@@ -63,19 +63,19 @@ Vá para o centro de administração do Microsoft 365 ([admin.Microsoft.com](htt
 > Você precisa ser atribuído à função de **administrador de cobrança** ou **leitor global** [no Azure ad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para poder ver as informações de licença. Se tiver problemas de acesso, entre em contato com um administrador global.
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
-Você deve ser um **administrador global** ou um **administrador de segurança** no Azure Active Directory para ativar a proteção contra ameaças da Microsoft. Para obter a lista de funções necessárias para usar a proteção contra ameaças da Microsoft e informações sobre como o acesso a dados é regulamentado, leia sobre o [Gerenciamento de acesso à proteção contra ameaças da Microsoft](mtp-permissions.md).
+Você deve ser um **administrador global** ou um **administrador de segurança** no Azure Active Directory para ativar o Microsoft 365 defender. Para obter a lista de funções necessárias para usar o Microsoft 365 defender e informações sobre como o acesso a dados é regulamentado, leia sobre como [gerenciar o acesso ao Microsoft 365 defender](mtp-permissions.md).
 
 ## <a name="browser-requirements"></a>Requisitos de navegador
-Acessar a proteção contra ameaças da Microsoft na central de segurança do Microsoft 365 usando o Microsoft Edge, o Internet Explorer 11 ou qualquer navegador da Web compatível com HTML 5.
+Acesse o Microsoft 365 defender na central de segurança do Microsoft 365 usando o Microsoft Edge, o Internet Explorer 11 ou qualquer navegador da Web compatível com HTML 5.
 
 ## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Disponibilidade para nós GCC, GCC alta e outras instituições governamentais americanas
-No momento, a proteção contra ameaças da Microsoft *não* está disponível para:
+No momento, o Microsoft 365 defender *não* está disponível para:
 - GCC (nuvem da Comunidade do governo dos EUA)
 - Nuvem de comunidade do governo dos EUA (GCC alta)
 - Departamento de defesa dos EUA
 - Todas as instituições governamentais dos EUA com licenças comerciais
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral da Proteção contra Ameaças da Microsoft](microsoft-threat-protection.md)
-- [Habilitar a Proteção contra Ameaças da Microsoft](mtp-enable.md)
+- [Visão geral do Microsoft 365 defender](microsoft-threat-protection.md)
+- [Ativar o Microsoft 365 defender](mtp-enable.md)
 - [Gerenciar acesso e permissões](mtp-permissions.md)
