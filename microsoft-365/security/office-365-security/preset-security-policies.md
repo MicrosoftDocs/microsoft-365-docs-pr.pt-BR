@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a aplicar as configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: 8431d36779069b0b289a2533fbd6b85abee24536
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: a624d48944965c217fb8547e4f09da0ec388e615
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326538"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830532"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Políticas de segurança predefinidas no EOP e no Office 365 ATP
 
@@ -44,40 +44,40 @@ Além disso, a ordem de precedência é importante se várias diretivas de segur
 
 Um perfil determina o nível de proteção. Os seguintes perfis estão disponíveis:
 
-- **Proteção padrão**: um perfil de proteção de linha de base adequado para a maioria dos usuários.
-- **Proteção estrita**: um perfil de proteção mais agressivo para usuários selecionados (metas de alto valor ou usuários com prioridade).
+- **Proteção padrão** : um perfil de proteção de linha de base adequado para a maioria dos usuários.
+- **Proteção estrita** : um perfil de proteção mais agressivo para usuários selecionados (metas de alto valor ou usuários com prioridade).
 
 Você usa regras com condições e exceções que determinam a quem os perfis estão ou não são aplicados.
 
-Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
+Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_ ). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_ ).
 
 As condições e exceções disponíveis são:
 
-- **Os destinatários são**: caixas de correio, usuários de email ou contatos de email em sua organização.
-- **Os destinatários são membros de**: grupos na sua organização.
-- **Os domínios de destinatário são**: domínios aceitos que são configurados no Microsoft 365.
+- **Os destinatários são** : caixas de correio, usuários de email ou contatos de email em sua organização.
+- **Os destinatários são membros de** : grupos na sua organização.
+- **Os domínios de destinatário são** : domínios aceitos que são configurados no Microsoft 365.
 
 ### <a name="policies-in-preset-security-policies"></a>Políticas em políticas de segurança predefinidas
 
 As políticas de segurança predefinidas usam as políticas correspondentes dos vários recursos de proteção no EOP e no Office 365 ATP. Essas políticas são criadas _depois_ que você atribui as políticas de segurança predefinidas de **proteção padrão** ou **proteção estrita** aos usuários. Você não pode modificar essas políticas.
 
-- **Políticas de proteção do Exchange Online (EOP)**: isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
+- **Políticas de proteção do Exchange Online (EOP)** : isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
   
-  - [Políticas antispam](configure-your-spam-filter-policies.md) chamadas política de **segurança predefinida padrão** e **política de segurança predefinida restrita**.
-  - [Diretivas Antimalware](configure-anti-malware-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida restrita**.
+  - [Políticas antispam](configure-your-spam-filter-policies.md) chamadas política de **segurança predefinida padrão** e **política de segurança predefinida restrita** .
+  - [Diretivas Antimalware](configure-anti-malware-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida restrita** .
   - [EOP políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings) chamadas política de **segurança** predefinida padrão e **política de segurança predefinida restrita** (configurações de spoof).
 
-- **Políticas de proteção avançada contra ameaças (ATP) do office 365**: inclui organizações com as assinaturas do Microsoft 365 E5 ou do Office 365 ATP Add-on:
+- **Políticas de proteção avançada contra ameaças (ATP) do office 365** : inclui organizações com as assinaturas do Microsoft 365 E5 ou do Office 365 ATP Add-on:
 
-  - Diretivas antiphishing da ATP chamadas de **política de segurança predefinida padrão** e **política de segurança predefinida estrita**, que incluem:
+  - Diretivas antiphishing da ATP chamadas de **política de segurança predefinida padrão** e **política de segurança predefinida estrita** , que incluem:
 
     - As mesmas [configurações de spoof](set-up-anti-phishing-policies.md#spoof-settings) que estão disponíveis nas políticas anti-phishing do EOP.
     - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [Limites avançados de phishing](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [Políticas de links seguros](set-up-atp-safe-links-policies.md) chamada **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
+  - [Políticas de links seguros](set-up-atp-safe-links-policies.md) chamada **política de segurança predefinida padrão** e **política de segurança predefinida estrita** .
 
-  - [Políticas de anexos seguros](set-up-atp-safe-attachments-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida estrita**.
+  - [Políticas de anexos seguros](set-up-atp-safe-attachments-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida estrita** .
 
 Observe que você pode aplicar proteções do EOP a diferentes usuários do que as proteções ATP.
 
@@ -98,7 +98,7 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
 ## <a name="assign-preset-security-policies-to-users"></a>Atribuir políticas de segurança predefinidas aos usuários
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança predefinidas** , use <https://protection.office.com/presetSecurityPolicies> .
 
@@ -114,17 +114,18 @@ Em outras palavras, as configurações da política de **proteção estrita** su
   - Para acesso somente leitura às políticas de segurança predefinidas, você precisa ser membro de um dos seguintes grupos de função:
 
     - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Leitor global** no [centro de conformidade e segurança &](permissions-in-the-security-and-compliance-center.md).
     - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Usar o centro de conformidade de & de segurança para atribuir políticas de segurança predefinidas aos usuários
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **políticas de segurança predefinidas**da política de gerenciamento de ameaças.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **políticas de segurança predefinidas** da política de gerenciamento de ameaças.
 
-2. Em **proteção padrão** ou **proteção estrita**, clique em **Editar**.
+2. Em **proteção padrão** ou **proteção estrita** , clique em **Editar** .
 
 3. O assistente **aplicar proteção padrão** ou **aplicar proteção estrita** é iniciado. Nas **proteções do EOP aplicam** -se à etapa, identifique os destinatários internos aos quais as [proteções do EOP](#policies-in-preset-security-policies) se aplicam:
 
-   1. Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se**:
+   1. Clique em **Adicionar uma condição** . Na lista suspensa exibida, selecione uma condição em **aplicado se** :
 
       - **Os destinatários são**
       - **Os destinatários são membros de**
@@ -138,23 +139,23 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
       Repita a etapa anterior para adicionar valores à condição e repita essa etapa quantas vezes forem necessárias ou até que você fique sem condições.
 
-   4. Para adicionar uma exceção, clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **exceto quando**. As configurações e o comportamento são exatamente como as condições.
+   4. Para adicionar uma exceção, clique em **Adicionar uma condição** . Na lista suspensa exibida, selecione uma condição em **exceto quando** . As configurações e o comportamento são exatamente como as condições.
 
-   Quando terminar, clique em **Avançar**.
+   Quando terminar, clique em **Avançar** .
 
 4. Se sua organização tiver o Office 365 ATP, você será levado para as **proteções de ATP aplicam** -se à etapa para identificar os destinatários internos aos quais as [proteções do Office 365 ATP](#policies-in-preset-security-policies) se aplicam.
 
    As configurações e o comportamento são exatamente como as **proteções do EOP se aplicam à** etapa.
 
-   Quando terminar, clique em **Avançar**.
+   Quando terminar, clique em **Avançar** .
 
-5. Na etapa **confirmar** , verifique suas seleções e clique em **confirmar**.
+5. Na etapa **confirmar** , verifique suas seleções e clique em **confirmar** .
 
 ### <a name="use-the-security--compliance-center-to-modify-the-assignments-of-preset-security-policies"></a>Usar o centro de conformidade de & de segurança para modificar as atribuições de políticas de segurança predefinidas
 
 As etapas para modificar a atribuição da política de segurança de **proteção padrão** ou **proteção estrita** são as mesmas de quando você [atribuiu inicialmente as políticas de segurança predefinidas aos usuários](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users).
 
-Para desabilitar a **proteção padrão** ou políticas de segurança de **proteção estrita** e, ao mesmo tempo, preservar as condições e exceções existentes, deslize a opção para **desabilitado**. Para habilitar as políticas, deslize a opção para **habilitado**.
+Para desabilitar a **proteção padrão** ou políticas de segurança de **proteção estrita** e, ao mesmo tempo, preservar as condições e exceções existentes, deslize a opção para **desabilitado** . Para habilitar as políticas, deslize a opção para **habilitado** .
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 
