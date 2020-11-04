@@ -11,25 +11,25 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 6e4038982f396bbd427273225c2a3d1a9f866252
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d87a52bc6aca2f033a6e0d26a8c9c0e167908759
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948121"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906960"
 ---
 # <a name="topic-center-overview-preview"></a>Visão geral do centro de tópicos (versão prévia)
 
 > [!Note] 
-> O conteúdo deste artigo é para a visualização privada do Project Cortex. [Saiba mais sobre o Project Cortex](https://aka.ms/projectcortex).
+> O conteúdo deste artigo é para a visualização privada do Project Cortex. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
 
 O tópico central é um site moderno do SharePoint que serve como um centro de conhecimento para sua organização. Ele é criado durante [a configuração do Knowledge Management](set-up-knowledge-network.md) no centro de administração do Microsoft 365.
 
-Por meio do centro de tópicos, os usuários com as permissões adequadas podem fazer o seguinte:
+O tópico central tem uma Home Page padrão onde você pode ver os tópicos aos quais você foi conectado ou sugerido para ser conectado. Os usuários com as permissões adequadas também podem:
 
-- Confirmar ou rejeitar tópicos descobertos
 - Criar uma nova página de tópico
-- Editar uma página de tópico existente
+- Confirmar ou rejeitar tópicos sugeridos
+- Editar e publicar alterações em uma página de tópico
 
 > [!Note] 
 > Você pode saber mais sobre cada tarefa em [trabalhar com os tópicos no centro de tópicos](work-with-topics.md).
@@ -44,14 +44,26 @@ Seu centro de tópicos é criado durante a configuração do gerenciamento de co
 
 2. Na página **conectar pessoas a conhecimento** , na seção **noções básicas** , confira endereço do **centro de tópicos** para a URL do site.
 
-## <a name="permissions-to-use-the-topic-center"></a>Permissões para usar o centro de tópicos
+## <a name="home-page"></a>Home page
 
-Para trabalhar no centro de tópicos, você precisa ter as permissões necessárias. Seu administrador pode atribuir essas permissões aos usuários durante a [configuração de gerenciamento de conhecimento](set-up-knowledge-network.md)ou os novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md) por um administrador por meio do centro de administração do Microsoft 365.
+Para ver o tópico central, você precisa ter permissões para exibir tópicos e a experiência do tópico. Seu administrador pode atribuir essas permissões aos usuários durante a [configuração de gerenciamento de conhecimento](set-up-knowledge-network.md)ou os novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md) por um administrador por meio do centro de administração do Microsoft 365.
+
+Na Home Page 
+- **Exibir tópicos** : Exibir experiências de tópico. Portanto, você pode ver os tópicos da organização e fazer comentários sobre tópicos onde você esteve conectado:
+1. Conexões sugeridas-estes são os tópicos onde minha conexão foi sugerida
+2. Conexões confirmadas: estes são os tópicos onde estou afixado no tópico ou confirmei que meus tópicos de conexão serão movidos da seção sugerida para confirmada quando eu confirmar uma conexão sugerida.
+Depois que eu estiver fixado, as edições na página de tópico podem ser feitas para fazer a conexão.
+
+- **Criar e editar tópicos** : o novo tópico está disponível e você pode editar páginas
+
+
+## <a name="permissions-to-use-the-manage-topics-capability-topic-center"></a>Permissões para usar o tópico Gerenciar tópicos de recurso de recursos
+
+Para trabalhar na seção Gerenciar tópicos do centro da tópicos, você precisa ter as permissões necessárias. Seu administrador pode atribuir essas permissões aos usuários durante a [configuração de gerenciamento de conhecimento](set-up-knowledge-network.md)ou os novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md) por um administrador por meio do centro de administração do Microsoft 365.
 
 Os usuários do centro de tópicos podem receber dois conjuntos de permissões:
 
-- **Criar e editar tópicos**: criar novos tópicos ou atualizar conteúdo do tópico, como descrição, documentos e pessoas associadas. Atribua essa permissão aos especialistas no assunto, que estão configurados com as páginas de tópicos de revisão.
-- **Gerenciar tópicos**: Use o painel de tópicos para analisar os tópicos em toda a organização. Os usuários podem executar ações como confirmar e rejeitar tópicos não confirmados.
+- **Gerenciar tópicos** : Use o painel de tópicos para analisar os tópicos em toda a organização. Os usuários podem executar ações como confirmar e rejeitar tópicos não confirmados.
 
 Um usuário pode ter os dois conjuntos de permissões ou somente um se necessário. 
 

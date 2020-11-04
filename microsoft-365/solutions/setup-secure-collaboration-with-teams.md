@@ -11,27 +11,29 @@ ms.collection:
 - M365-collaboration
 - m365solution-securecollab
 - m365solution-overview
-ms.custom: ''
+ms.custom:
+- M365solutions
+- seo-marvel-jun2020
 f1.keywords: NOCSH
-description: Saiba como configurar o Microsoft Teams para proteger seus dados com base em sua confidencialidade
-ms.openlocfilehash: 5cf4937a79fdf33e160432c740504ec84d196585
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Saiba como configurar a colaboração de conteúdo seguro no Microsoft Teams para proteger seus dados com base em sua confidencialidade.
+ms.openlocfilehash: 310605d0db84e33be1d5fdc925fadcfcdf9dddaf
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843535"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906794"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configurar a colaboração segura com o Microsoft 365
 
 Ser capaz de compartilhar facilmente as informações com as pessoas certas, impedindo o supercompartilhamento é fundamental para o sucesso de uma organização. Isso inclui ser capaz de compartilhar dados confidenciais com segurança apenas com aqueles que devem ter acesso a ele. Dependendo do projeto, isso pode incluir o compartilhamento de dados confidenciais com pessoas de fora da sua organização.
 
-Esta orientação de solução inclui dois componentes para ajudá-lo a:
+Esta guia de solução de colaboração inclui dois componentes para ajudá-lo a:
 - Implantar o Microsoft Teams com o nível certo de proteção para cada projeto
 - Configurar o compartilhamento externo com as configurações de segurança apropriadas para cada projeto
 
 ![Implantar o Microsoft Teams com a proteção apropriada e configurar o compartilhamento externo com as configurações de segurança apropriadas](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
-Se as ferramentas de colaboração versáteis e fáceis de usar não estiverem disponíveis, os usuários costumam colaborar enviando documentos por email. Esse é um método de colaboração tedioso e sujeito a erros e pode aumentar o risco de compartilhamento inadequado de informações. Se as pessoas acharem as informações de compartilhamento muito difíceis, elas podem reverter o uso de produtos de consumidor que não são controlados por ela. Isso pode representar um risco ainda maior.
+Se as ferramentas de colaboração de conteúdo versáteis e fáceis de usar não estiverem disponíveis, os usuários irão colaborar com os documentos por email. Esse é um método de colaboração tedioso e sujeito a erros e pode aumentar o risco de compartilhamento inadequado de informações. Se as pessoas acharem as informações de compartilhamento muito difíceis, elas podem reverter o uso de produtos de consumidor que não são controlados por ela. Isso pode representar um risco ainda maior.
 
 Com o Microsoft 365, você pode implantar o Teams com uma variedade de configurações que ajudam a:
 
@@ -60,9 +62,9 @@ Para todos os cenários citados acima, você pode usar o Microsoft Teams para ar
 
 Para configurar o Collabration seguro, você usa estas funcionalidades e recursos da Microsoft 365.
 
-| Produto ou componente | Capcidade ou recurso | Licenças |
+| Produto ou componente | Capcidade ou recurso | Licenciamento |
 |:-------|:-----|:-------|
-| Microsoft defender para Office 365 | Anexos seguros para o SPO, o OneDrive e o Microsoft Teams; Documentos seguros; Links seguros para o Teams    | Microsoft 365 E1, E3 e e5 |
+| Microsoft Defender para Office 365 | Anexos seguros para o SPO, o OneDrive e o Microsoft Teams; Documentos seguros; Links seguros para o Teams    | Microsoft 365 E1, E3 e e5 |
 | SharePoint    | Políticas de compartilhamento de arquivos e sites, permissões de compartilhamento de site, links de compartilhamento, solicitações de acesso, configurações de compartilhamento de convidado de site | Microsoft 365 E1, E3 e e5 |
 | Microsoft Teams   | Acesso de convidados, equipes privadas, canais privados | Microsoft 365 E1, E3 e e5 |
 | Conformidade com o Microsoft 365  | Rótulos de confidencialidade    | Microsoft 365 E3 e E5 |

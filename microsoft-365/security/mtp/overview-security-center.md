@@ -1,6 +1,6 @@
 ---
-title: Visão geral da central de segurança do Microsoft 365
-description: Descreve a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos e aplicativos da Microsoft.
+title: Visão geral-centro de segurança da Microsoft 365
+description: Descreve o monitoramento e o gerenciamento da segurança em suas identidades, dados, dispositivos e aplicativos da Microsoft com a segurança do Microsoft 365.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, identidades, dados, dispositivos, aplicativos
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -16,12 +16,13 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 9aaeb5323900e65de47015b8cb28abf967694ea3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 97dece3f3c732686cff885923532af14b6106b48
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844795"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906831"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 

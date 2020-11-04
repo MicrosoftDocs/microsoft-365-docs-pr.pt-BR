@@ -1,5 +1,5 @@
 ---
-title: Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
+title: Atualize seu Office 2010 para a Microsoft 365-Microsoft 365 admin
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -16,16 +16,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.custom:
+- fwlink 824861; CampaignID
+- O365_Comm_SR_UpgradeOffice
+- seo-marvel-may2020
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
-description: Saiba como atualizar seus usuários para o cliente do Office mais recente.
-ms.openlocfilehash: 40160dc5590144a1132971368da70c6f36ed460c
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+description: Saiba mais sobre como atualizar o Microsoft Office para o cliente Office mais recente para usuários em sua organização.
+ms.openlocfilehash: 596dfc8f4a005d01c0bf330243bf1fb3c639f97e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456311"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906436"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
 
@@ -47,7 +50,7 @@ Confira o [roteiro de fim do suporte do Office 2010](https://docs.microsoft.com/
 
  Se você não for um administrador e tiver um produto [da família Microsoft 365](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) , consulte [como](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) faço para atualizar o Office para obter informações sobre como atualizar sua versão de uso inicial do Office.
 
-## <a name="get-ready-to-upgrade"></a>Prepare-se para atualizar
+## <a name="get-ready-to-upgrade-to-microsoft-365"></a>Prepare-se para atualizar para o Microsoft 365
 
 Como administrador, você pode controlar qual versão do Office as pessoas da sua organização podem instalar. É altamente recomendável que você ajude os usuários em sua organização a executar versões mais antigas do Office, como o Office 2010, o Office 2013 ou a atualização do Office 2016 para a versão mais recente para aproveitar seus aprimoramentos de segurança e produtividade.
 

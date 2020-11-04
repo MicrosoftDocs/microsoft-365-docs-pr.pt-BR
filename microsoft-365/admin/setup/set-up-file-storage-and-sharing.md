@@ -19,6 +19,7 @@ ms.custom:
 - IT_Networking
 - TRN_M365B
 - OKR_SMB_Videos
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -27,27 +28,27 @@ search.appverid:
 - ODB150
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
-description: Saiba como usar o OneDrive e um site de equipe para armazenamento e compartilhamento de arquivos.
-ms.openlocfilehash: e6722dc7460a63878ba7fc6a15f6c384ca37e136
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+description: Saiba como usar o OneDrive e um site de equipe para o armazenamento do Microsoft 365 e o compartilhamento de arquivos do Microsoft 365.
+ms.openlocfilehash: cc6a7a45fda65073dc9b0cd15a844ec9aefca794
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350356"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906388"
 ---
-# <a name="set-up-file-storage-and-sharing"></a>Configurar o armazenamento e o compartilhamento de arquivos
+# <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Configurar o compartilhamento e o armazenamento de arquivos no Microsoft 365
 
 Uma das melhores maneiras de configurar o armazenamento e o compartilhamento de arquivos para sua empresa é usar o OneDrive e um site de equipe juntos. Isso é ideal se você tem uma empresa pequena com poucos funcionários.
 
-Assista a um pequeno vídeo sobre onde armazenar arquivos no Microsoft 365.<br><br>
+Assista a um pequeno vídeo sobre como armazenar arquivos na nuvem do Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
 Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="where-you-can-store-documents-in-microsoft-365"></a>Onde você pode armazenar documentos no Microsoft 365
+## <a name="microsoft-365-document-storage-and-management"></a>"Armazenamento e gerenciamento de documentos do Microsoft 365"
 
-- O OneDrive foi projetado para uso individual, com o compartilhamento ocasional de arquivos. 
+- O OneDrive foi projetado para uso individual, com o compartilhamento ocasional de arquivos.
 
 - Um site de equipe é projetado para compartilhar e colaborar em arquivos regularmente. Um site de equipe é ideal para armazenar arquivos que têm Propriedade compartilhada em que várias pessoas possuem os arquivos e podem colaborar neles. Crie uma equipe da Microsoft para adicionar um site de equipe. [Saiba mais em criar uma equipe no Microsoft Teams](https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b).
 
@@ -72,7 +73,7 @@ Aqui estão as recomendações para o que armazenar em cada local quando você u
 
 Cada pessoa em sua empresa que tenha uma licença do Microsoft 365 atribuída (e o SharePoint Online selecionado) Obtém o armazenamento em nuvem do OneDrive. Eles podem armazenar arquivos relacionados aos negócios aqui para acesso de qualquer dispositivo e estão disponíveis somente para esse usuário. Por exemplo, é possível armazenar um rascunho de proposta, suas anotações de reunião ou uma demonstração que será apresentada.
   
-Os funcionários também podem compartilhar arquivos e pastas do OneDrive. Se um funcionário estiver ausente ou sair da empresa, outras pessoas poderão acessar arquivos compartilhados armazenados no OneDrive.
+Os funcionários também podem compartilhar arquivos e pastas do OneDrive. Se um funcionário estiver ausente ou sair da empresa, outras pessoas poderão acessar arquivos compartilhados armazenados no OneDrive (compartilhamento de pastas da equipe do OneDrive).
   
 Veja como cada pessoa em sua equipe pode configurar o OneDrive e compartilhar arquivos.
 
@@ -157,11 +158,11 @@ Aqui estão algumas dicas para obter o máximo do OneDrive ou do seu site de equ
   
 ### <a name="file-storage-and-collaboration-recommendations-for-other-types-of-small-businesses"></a>Recomendações para colaboração e armazenamento de arquivos para outros tipos de pequenas empresas
 
-- **Empresa único**: Use o onedrive para armazenar seus próprios arquivos e compartilhá-los com os clientes em uma base caso a caso.
+- **Empresa único** : Use o onedrive para armazenar seus próprios arquivos e compartilhá-los com os clientes em uma base caso a caso.
 
-- **Copropriedades**: os dois proprietários usam o onedrive e compartilham arquivos de frente e para trás.
+- **Copropriedades** : os dois proprietários usam o onedrive e compartilham arquivos de frente e para trás.
 
-- **Empresas com clientes externos ou parceiros que precisam acessar arquivos**: Crie um novo site de equipe para armazenar e compartilhar documentos destinados a um cliente específico. Configure o site para permitir acesso apenas ao cliente. Você não precisa se preocupar que um cliente terá acesso acidentalmente às informações destinadas a outro cliente.
+- **Empresas com clientes externos ou parceiros que precisam acessar arquivos** : Crie um novo site de equipe para armazenar e compartilhar documentos destinados a um cliente específico. Configure o site para permitir acesso apenas ao cliente. Você não precisa se preocupar que um cliente terá acesso acidentalmente às informações destinadas a outro cliente.
 
 ### <a name="keep-private-files-private"></a>Manter a privacidade de arquivos particulares
 

@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: 6d7a09ca9c515494eaf18ea144b7f67ce0003890
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: c0dfef0860e5729a135a142383bdb60aa9d310be
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131753"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906246"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -62,15 +62,15 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 1. No centro de administração, **vá até funções funções** > **Roles** para exibir todas as funções de administrador disponíveis para sua organização.
 2. Selecione a função de administrador à qual você deseja atribuir o usuário.
 3. Selecione **Administradores atribuídos** > **Adicionar**.
-4. Digite o nome de **exibição** do usuário ou o nome de **usuário**e, em seguida, selecione o usuário na lista de sugestões.
+4. Digite o nome de **exibição** do usuário ou o nome de **usuário** e, em seguida, selecione o usuário na lista de sugestões.
 5. Adicione vários usuários até que você tenha concluído.
-6. Selecione **salvar**e o usuário será adicionado à lista de administradores atribuídos.
+6. Selecione **salvar** e o usuário será adicionado à lista de administradores atribuídos.
 
 ### <a name="assign-a-user-to-an-admin-role-from-active-users"></a>Atribuir um usuário a uma função de administrador de usuários ativos
 
 1. No centro de administração, vá para **Users** a > página [usuários ativos](https://go.microsoft.com/fwlink/p/?linkid=834822) do usuário.
 
-2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **gerenciar funções**.
+2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções** , selecione **gerenciar funções**.
 
 3. Selecione a função de administrador que você deseja atribuir ao usuário. Se você não vir a função que está procurando, selecione **Mostrar tudo** na parte inferior da lista.
 
@@ -80,7 +80,7 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **Editar**. 
+2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções** , selecione **Editar**. 
 
     Se você não vir a opção **Editar** , não terá permissão para editar e não poderá atribuir funções de administrador a outras pessoas. Peça a um administrador global em sua empresa para atribuir funções para você. Em uma pequena empresa, o proprietário da empresa (a pessoa que comprou sua assinatura) é um administrador global. Em uma grande empresa, as principais pessoas no departamento de ti são administradores globais.
 
@@ -92,7 +92,7 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **Editar**.
+2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções** , selecione **Editar**.
 
     Se você não vir a opção **Editar** , não terá permissão para editar e não poderá atribuir funções de administrador a outras pessoas. Peça a um administrador global em sua empresa para atribuir funções para você. Em uma pequena empresa, o proprietário da empresa (a pessoa que comprou sua assinatura) é um administrador global. Em uma grande empresa, as principais pessoas no departamento de ti são administradores globais.
 
@@ -108,9 +108,14 @@ Use as instruções a seguir para atribuir funções a dezenas de usuários.
 
 ::: moniker range="o365-worldwide"
 
-## <a name="check-your-permissions"></a>Verificar suas permissões
+## <a name="check-admin-roles-in-your-organization"></a>Verificar funções de administrador em sua organização
 
 Você pode não ter as permissões corretas para atribuir funções de administrador a outros usuários. Verifique se você tem as permissões corretas ou peça a outro administrador para atribuir funções para você.
+
+Você pode verificar as permissões de função de administrador de duas maneiras diferentes:
+
+- Você pode acessar os detalhes do usuário e procurar em **funções** na página **conta** .
+- Ou você pode ir para **funções** e selecionar a função de administrador e selecionar administradores atribuídos para ver quais usuários estão atribuídos.
 
 ::: moniker-end
 

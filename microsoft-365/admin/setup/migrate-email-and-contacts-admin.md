@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_smb
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - MET150
@@ -26,25 +27,25 @@ search.appverid:
 - MOL140
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
-description: 'Saiba como importar contatos, calendários, emails do Gmail ou de outro provedor de email para o Microsoft 365. '
-ms.openlocfilehash: 4cc7a68929bdcc4cb79f3c7b78e07023a8952f81
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Saiba como importar contatos, calendários e emails do Gmail ou de outro provedor de email e migrá-los para o Microsoft 365.
+ms.openlocfilehash: eb82711bc8fb431c6e29272b601b898566446f02
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779004"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906376"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Migrar email e contatos para o Microsoft 365
 
-Importe ou copie emails do Gmail ou de outro provedor de email para o Microsoft 365.
+Importe ou migre emails do Gmail ou de outro provedor de email para o Microsoft 365.
   
  **Quer ajuda com isso?**  [Entre em contato com o suporte da Microsoft 365 para empresas](../contact-support-for-business-products.md) . 
   
 Você precisa usar uma versão do Outlook instalada na sua área de trabalho para esta tarefa. O Outlook está incluído na maioria dos [planos](https://go.microsoft.com/fwlink/p/?LinkId=723731)do Microsoft 365.
   
-### <a name="import-from-gmail"></a>Importar do gmail
+### <a name="migrate-gmail-to-microsoft-365"></a>Migrar do Gmail para o Microsoft 365
 
-Siga estas etapas para importar email, contatos e calendário do Gmail para o Outlook com o Microsoft 365:
+Siga estas etapas para importar ou migrar emails, contatos e calendário do Gmail para o Outlook com o Microsoft 365:
   
 - [Importar o Gmail para o Outlook](https://support.microsoft.com/office/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7)
     
@@ -54,7 +55,7 @@ Siga estas etapas para importar email, contatos e calendário do Gmail para o Ou
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a>Importar do Outlook (área de trabalho)
+### <a name="import-outlook-pst-files-to-microsoft-365-desktop"></a>Importar arquivos pst do Outlook para o Microsoft 365 (Desktop)
 
 Siga estas etapas para exportar emails, contatos e calendários do Outlook para um arquivo. pst e, em seguida, importe esse arquivo para o Outlook com o Microsoft 365:
   
@@ -88,6 +89,4 @@ Precisa de etapas mais detalhadas? Consulte [Adicionar uma conta](https://suppor
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>Várias caixas de correio: os administradores podem importar email, contatos e calendários em massa para a Microsoft 365
 
-Dependendo do sistema de email de origem, você pode escolher entre vários métodos de migração em massa. Leia [maneiras de migrar várias contas de email para a Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) para decidir qual método funciona para você. 
-  
-
+Dependendo do sistema de email de origem, você pode escolher entre vários métodos de migração em massa. Leia [maneiras de migrar várias contas de email para a Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) para decidir qual método funciona para você.

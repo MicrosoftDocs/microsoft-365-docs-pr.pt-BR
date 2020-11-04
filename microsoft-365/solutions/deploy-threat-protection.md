@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2d1316927124b1ce03910190922fa0804853ae4b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 1bf06c605290dc94f64da6c2aabca3683c234c9a
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845271"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906746"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Implantar recursos de proteção contra ameaças no Microsoft 365
 
@@ -54,7 +54,7 @@ A ilustração a seguir mostra um caminho recomendado para implantar esses recur
 |---------|---------|
 |Autenticação multifatorial e acesso condicional     |Proteger contra identidades e dispositivos comprometidos. Comece com esta proteção porque é fundamental. A configuração recomendada neste guia inclui a proteção de identidade do Azure AD como pré-requisito.     |
 |Microsoft Defender para Identidade     |  Uma solução de segurança baseada em nuvem que aproveita seus sinais do Active Directory local para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas intencionais direcionadas para sua organização. Concentre-se no Microsoft defender para obter a identidade seguinte porque ela protege sua infraestrutura de nuvem e local, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos.       | 
-|Microsoft defender para Office 365     | Protege sua organização contra ameaças mal-intencionadas, feitas por mensagens de email, links (URLs) e ferramentas de colaboração. Proteções para malware, phishing, falsificação e outros tipos de ataque. A configuração do Microsoft defender para Office 365 é recomendada em seguida porque o controle de alterações, a migração das configurações do sistema responsável e outras considerações podem levar mais tempo para ser implantado. <br><br>Observação: Certifique-se de configurar os recursos de proteção contra ameaças que estão incluídos em todas as assinaturas do Office 365 (proteção do Exchange Online).       |
+|Microsoft Defender para Office 365     | Protege sua organização contra ameaças mal-intencionadas, feitas por mensagens de email, links (URLs) e ferramentas de colaboração. Proteções para malware, phishing, falsificação e outros tipos de ataque. A configuração do Microsoft defender para Office 365 é recomendada em seguida porque o controle de alterações, a migração das configurações do sistema responsável e outras considerações podem levar mais tempo para ser implantado. <br><br>Observação: Certifique-se de configurar os recursos de proteção contra ameaças que estão incluídos em todas as assinaturas do Office 365 (proteção do Exchange Online).       |
 |Microsoft Defender para Ponto de Extremidade    | Uma plataforma do Endpoint Protection que ajuda a impedir, detectar, investigar e responder a ameaças avançadas.  O defender for Endpoint pode levar algum tempo para implantar, mas a configuração pode ser feita em paralelo com outros recursos.   |
 |Segurança no aplicativo na nuvem da Microsoft     |   Um agente de segurança de acesso à nuvem para descoberta, investigação e governança. Você pode habilitar o Microsoft Cloud app Security antecipadamente para começar a coletar dados e insights. Implementar informações e outras proteções direcionadas em seus aplicativos SaaS envolve o planejamento e pode levar mais tempo.       | 
 
@@ -77,5 +77,3 @@ Para garantir que sua organização tenha a melhor proteção possível, configu
 Seus recursos de proteção contra ameaças podem ser configurados em paralelo, portanto, se você tiver várias equipes de segurança de rede responsáveis por diferentes serviços, eles podem configurar os recursos de proteção da sua organização ao mesmo tempo. O diagrama a seguir ilustra o processo de alto nível para a implantação de recursos de proteção contra ameaças. 
 
 ![Processo de implantação de recursos de proteção contra ameaças](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 
-
-

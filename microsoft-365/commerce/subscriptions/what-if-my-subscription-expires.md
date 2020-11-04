@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: 77b65931056ca504d6f3efd7ca86560496495f5d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b09f56fefb7791af012c9dab2ba4e5684b9bf89f
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646866"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906818"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
@@ -203,6 +203,10 @@ Neste ponto, não é possível reativar a assinatura. No entanto, como administr
 > [!NOTE]
 > A adição de uma nova assinatura do mesmo tipo que foi desprovisionada não restaura os dados associados à assinatura desprovisionada.
 
+
+> [!NOTE]
+> Se uma licença de CSP for suspensa, não haverá período de cortesia de 30 dias e os serviços serão desabilitados imediatamente. Os dados serão excluídos após 90 dias se o locatário não for reativado adicionando uma nova licença.
+
 ### <a name="what-happens-when-my-trial-ends"></a>O que acontece quando minha avaliação termina?
 
 Quando a avaliação terminar, você não poderá continuar usando o Microsoft 365 gratuitamente. Você tem algumas opções:
@@ -237,3 +241,4 @@ Quando a avaliação terminar, você não poderá continuar usando o Microsoft 3
 [Cancelar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (artigo) \
 [Renovar o Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (artigo) \
 [Reativar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (artigo)
+

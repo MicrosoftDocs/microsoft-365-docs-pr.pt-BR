@@ -15,13 +15,13 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração com convidados no Microsoft Teams.
-ms.openlocfilehash: 7a2259358d6976184d393980b2b7c0320c3bb171
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração de tarefa, conversa e documentação com convidados no Microsoft Teams.
+ms.openlocfilehash: b4eea473f03441144a0236ec53dcecde9080fc7a
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48409043"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906854"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -54,7 +54,7 @@ Para definir as configurações de relação organizacional
 
 Observe as configurações na seção **restrições de colaboração** . Certifique-se de que os domínios dos convidados com os quais você deseja colaborar não estão bloqueados.
 
-Se você trabalha com convidados de várias organizações, convém restringir sua capacidade de acessar dados de diretório. Isso impedirá que você veja quem mais é um convidado no diretório. Para fazer isso, em **restrições de acesso de usuário convidado**, selecione **os usuários convidados têm acesso limitado às propriedades e à associação de configurações de objetos de diretório** ou **o acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório**.
+Se você trabalha com convidados de várias organizações, convém restringir sua capacidade de acessar dados de diretório. Isso impedirá que você veja quem mais é um convidado no diretório. Para fazer isso, em **restrições de acesso de usuário convidado** , selecione **os usuários convidados têm acesso limitado às propriedades e à associação de configurações de objetos de diretório** ou **o acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório**.
 
 ## <a name="teams-guest-access-settings"></a>Configurações de acesso de convidados do teams
 
@@ -68,7 +68,7 @@ Para definir as configurações de acesso de convidado do Teams
 
 1. Entre no Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com).
 2. No painel de navegação esquerdo, clique em **Mostrar tudo**.
-3. Em **Centros de administração**, clique em **Teams**.
+3. Em **Centros de administração** , clique em **Teams**.
 4. No centro de administração do Microsoft Teams, no painel de navegação esquerdo, expanda **configurações de toda a organização** e clique em **acesso de convidado**.
 5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
 6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
@@ -104,7 +104,7 @@ Se você quiser permitir o compartilhamento de arquivos e pastas com pessoas nã
 
 Para definir as configurações de compartilhamento no nível da organização do SharePoint
 
-1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, em **centros de administração**, clique em **SharePoint**.
+1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, em **centros de administração** , clique em **SharePoint**.
 2. No centro de administração do SharePoint, no painel de navegação esquerdo, expanda **políticas** e clique em **compartilhamento**.
 3. Verifique se o compartilhamento externo do SharePoint está definido como **qualquer pessoa** ou **novo convidado existente**.
 4. Caso tenha feito alterações, clique em **Salvar**.
@@ -128,7 +128,7 @@ Escolha qualquer um dos seguintes tipos de link que serão selecionados por padr
 Para definir as configurações de link padrão no nível da organização do SharePoint
 
 1. Navegue até a página de compartilhamento no centro de administração do SharePoint.
-2. Em **links de arquivo e pasta**, selecione o link de compartilhamento padrão que você deseja usar.
+2. Em **links de arquivo e pasta** , selecione o link de compartilhamento padrão que você deseja usar.
 3. Caso tenha feito alterações, clique em **Salvar**.
 
 ## <a name="create-a-team"></a>Criar uma equipe
@@ -147,7 +147,7 @@ Vamos convidar os usuários mais tarde. Em seguida, é importante verificar as c
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Configurações de compartilhamento no nível do site do SharePoint
 
-Verifique as configurações de compartilhamento no nível do site para garantir que elas permitam o tipo de acesso que você deseja para essa equipe. Por exemplo, se você definir as configurações de nível de organização como **qualquer pessoa**, mas quiser que todos os convidados autentiquem essa equipe, verifique se as configurações de compartilhamento no nível do site estão definidas para **convidados novos e existentes**.
+Verifique as configurações de compartilhamento no nível do site para garantir que elas permitam o tipo de acesso que você deseja para essa equipe. Por exemplo, se você definir as configurações de nível de organização como **qualquer pessoa** , mas quiser que todos os convidados autentiquem essa equipe, verifique se as configurações de compartilhamento no nível do site estão definidas para **convidados novos e existentes**.
 
 ![Captura de tela das configurações de compartilhamento de site externo do SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
@@ -166,14 +166,14 @@ As configurações de compartilhamento de convidados agora estão configuradas p
 Para convidar usuários internos para uma equipe
 1. Na equipe, clique em **mais opções** ( **\*\*\*** ) e, em seguida, clique em **Adicionar membro**.
 2. Digite o nome da pessoa que você deseja convidar.
-3. Clique em **Adicionar**e, em seguida, clique em **fechar**.
+3. Clique em **Adicionar** e, em seguida, clique em **fechar**.
 
 Para convidar convidados para uma equipe
 1. Na equipe, clique em **mais opções** ( **\*\*\*** ) e, em seguida, clique em **Adicionar membro**.
 2. Digite o endereço de email do convidado que você deseja convidar.
 3. Clique em **Editar informações de convidado**.
 4. Digite o nome completo do convidado e clique na marca de seleção.
-5. Clique em **Adicionar**e, em seguida, clique em **fechar**.
+5. Clique em **Adicionar** e, em seguida, clique em **fechar**.
 
 ## <a name="see-also"></a>Confira também
 
@@ -181,7 +181,7 @@ Para convidar convidados para uma equipe
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
+[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)
 

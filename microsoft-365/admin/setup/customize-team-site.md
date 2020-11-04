@@ -1,5 +1,5 @@
 ---
-title: Personalizar o site de equipe para armazenamento e compartilhamento de arquivos-SharePoint Online
+title: Personalizar um site de equipe do SharePoint para armazenamento e compartilhamento de arquivos
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -17,19 +17,20 @@ ms.collection:
 ms.custom:
 - IT_Networking
 - seo-marvel-apr2020
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
-description: Neste artigo, você aprenderá como personalizar, organizar e gerenciar seu site de equipe para armazenamento e compartilhamento de arquivos.
-ms.openlocfilehash: f2c59607d006cd6e5529d9e5ffb3d2f6eead6edf
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Saiba como personalizar, organizar e gerenciar seu site de equipe do SharePoint com bibliotecas de documentos, listas e hubs.
+ms.openlocfilehash: 3eb09f0b0160333e3b17ebc5f02424ba3d24a13c
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644562"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906484"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Personalizar seu site de equipe para armazenamento e compartilhamento de arquivos
 
@@ -39,7 +40,7 @@ Se você tiver uma pequena empresa com alguns funcionários, uma das melhores ma
   
 [Criar um site de equipe no SharePoint](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)
   
-Aqui estão algumas ideias e links para ajudá-lo a personalizar, organizar e gerenciar seu site de equipe. 
+Aqui estão algumas ideias e links para ajudá-lo a personalizar, organizar e gerenciar seu site de equipe.
   
  
 ## <a name="customize-your-team-site"></a>Personalizar seu site de equipe
@@ -60,7 +61,7 @@ Para saber mais sobre as configurações do site de equipe, confira [gerenciar s
   
 ## <a name="work-with-document-libraries"></a>Trabalhar com bibliotecas de documentos
 
-Um site de equipe inclui uma biblioteca de documentos que você pode começar a usar imediatamente. 
+Um site de equipe inclui uma biblioteca de documentos que você pode começar a usar imediatamente para armazenamento de arquivos e gerenciamento de documentos.
 
 Para começar a carregar, confira [carregar uma pasta ou arquivos para uma biblioteca de documentos](https://support.microsoft.com/office/eb18fcba-c953-4d45-8d90-8da66edeacdb)
    
@@ -70,7 +71,7 @@ Para obter informações sobre como criar modos de exibição de bibliotecas par
   
 ## <a name="work-with-lists-to-organize-data"></a>Trabalhar com listas para organizar dados
 
-O SharePoint inclui muitos modelos para listas que você pode adicionar ao seu site, como uma lista de links, um calendário, contatos ou tarefas. 
+O SharePoint inclui muitos modelos para listas que você pode adicionar ao seu site, como uma lista de links, um calendário, contatos ou tarefas.
   
 Saiba como [criar uma lista no SharePoint](https://support.microsoft.com/office/0D397414-D95F-41EB-ADDD-5E6EFF41B083#ID0EAAGAAA=Online).
   
@@ -82,7 +83,7 @@ Assista a um vídeo sobre como adicionar calendários ao seu site, confira [cria
 
 ## <a name="organize-sites-into-hubs"></a>Organizar sites em hubs
 
-O site de equipe compartilha quase tudo com todos os membros do grupo associado ao site. Se quiser ter um site separado para clientes específicos, você pode criar sites de equipe adicionais e gerenciá-los usando sites de Hub do SharePoint. Veja mais informações. 
+O site de equipe compartilha quase tudo com todos os membros do grupo associado ao site. Se quiser ter um site separado para clientes específicos, você pode criar sites de equipe adicionais e gerenciá-los usando sites de Hub do SharePoint. Veja mais informações.
   
 Os sites de Hub permitem que você adicione e associe sites. Para saber mais, confira [o que é um site do Hub do SharePoint?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f).
   
@@ -92,7 +93,7 @@ Para saber como adicionar sites a um site do Hub, confira [associar um site do S
   
 ## <a name="sharing-files-with-the-team"></a>Compartilhamento de arquivos com a equipe
 
-Enquanto o armazenamento e a organização são um início, o compartilhamento com sua equipe e clientes externos também é importante. Aqui estão alguns links para tópicos que irão ajudá-lo a gerenciar usuários e compartilhar seus dados. 
+Enquanto o armazenamento de arquivos e o gerenciamento de documentos são iniciados, o compartilhamento com sua equipe e clientes externos também é importante. Aqui estão alguns links para tópicos que irão ajudá-lo a gerenciar usuários e compartilhar seus dados.
   
 Para compartilhamento de arquivos com sua equipe, consulte [compartilhar arquivos ou pastas do SharePoint no Microsoft 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
   
@@ -100,7 +101,7 @@ Para entender o compartilhamento fora da sua equipe, confira [visão geral do co
   
 ## <a name="managing-users-and-groups"></a>Gerenciando usuários e grupos
 
-Ao gerenciar seu site de equipe, talvez seja necessário adicionar ou remover usuários. Aqui estão informações para ajudá-lo a entender, adicionar e gerenciar usuários no site de equipe. 
+Ao gerenciar seu site de equipe, talvez seja necessário adicionar ou remover usuários. Aqui estão informações para ajudá-lo a entender, adicionar e gerenciar usuários no site de equipe.
   
 Assista a um vídeo sobre grupos com [entender e gerenciar grupos](https://support.microsoft.com/office/9c1037b7-de0b-41cd-b8f0-79a95aac854d). 
   
@@ -119,6 +120,3 @@ Saiba como lidar com solicitações de acesso com a [configuração e o gerencia
   - [Configurar o Office no Windows Phone com o Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
     
 - [Saiba mais sobre como usar o OneDrive](https://go.microsoft.com/fwlink/?LinkID=511458).
-    
-
-

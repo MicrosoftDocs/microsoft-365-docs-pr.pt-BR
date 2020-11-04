@@ -1,6 +1,6 @@
 ---
 title: Princípios de design de arquitetura do Microsoft 365 Enterprise
-description: Descrição.
+description: Saiba mais sobre a arquitetura do Microsoft Enterprise de especialistas em identidade, cybersecurity e rede.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -10,14 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 0d50b553094b5b57554c72a83b20231b7d90e660
-ms.sourcegitcommit: 371249d3dde12092b820cd11ed3e02b31e88636a
+ms.openlocfilehash: 9ae00853b97cf503c87b92327b8b2c401baa6ec6
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/04/2020
-ms.locfileid: "48897184"
+ms.locfileid: "48906948"
 ---
 # <a name="microsoft-365-enterprise-architecture-design-principles"></a>Princípios de design de arquitetura do Microsoft 365 Enterprise
 
@@ -25,7 +26,7 @@ Compreender os principais princípios necessários para compreender a rede, a id
 
 | Possu | Assunto | Sobre o especialista |
 |---------|---------|---------|
-|![Foto Alex Shteynberg](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)   |    [Identidade](identity-design-principles.md)     | Alex Shteynberg, arquiteto técnico principal do centro de tecnologia da Microsoft Nova York da Microsoft, leva um passo a descrever os princípios de orientação e os tópicos de linha de base em torno da identidade das organizações corporativas que adotam o Microsoft 365 e o Azure em [identidade e posterior](identity-design-principles.md). |
-| ![Foto Kozetta Garrett](../media/solutions-architecture-center/kozeta-garrett-security.jpg)   |     [Segurança](security-design-principles.md)    |  Kozeta Garrett, cybersecurity arquiteto da Microsoft, descreve os principais desafios de segurança que ele encontra em organizações corporativas e recomenda as abordagens que podem ser realizadas nos [obstáculos de segurança que você pode Sail](security-design-principles.md).  |
-| ![Foto Fisher de Ed](../media/solutions-architecture-center/ed-fisher-networking.jpg)    |       [Rede](networking-design-principles.md)  |   Ed Fisher, Security & arquiteto de conformidade da Microsoft, descreve como otimizar sua rede para a conectividade em nuvem, evitando as armadilhas mais comuns na [rede (para a nuvem)](networking-design-principles.md).       |
+|![Alex Shteynberg na arquitetura de identidade corporativa](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)   |    [Identidade](identity-design-principles.md)     | Alex Shteynberg, arquiteto técnico principal do centro de tecnologia da Microsoft Nova York da Microsoft, leva um passo a descrever os princípios de orientação e os tópicos de linha de base em torno da identidade das organizações corporativas que adotam o Microsoft 365 e o Azure em [identidade e posterior](identity-design-principles.md). |
+| ![Kozetta Garrett nos princípios de design de segurança](../media/solutions-architecture-center/kozeta-garrett-security.jpg)   |     [Segurança](security-design-principles.md)    |  Kozeta Garrett, cybersecurity arquiteto da Microsoft, descreve os principais desafios de segurança que ele encontra em organizações corporativas e recomenda as abordagens que podem ser realizadas nos [obstáculos de segurança que você pode Sail](security-design-principles.md).  |
+| ![Ed Fisher sobre os princípios de design de rede](../media/solutions-architecture-center/ed-fisher-networking.jpg)    |       [Rede](networking-design-principles.md)  |   Ed Fisher, Security & arquiteto de conformidade da Microsoft, descreve como otimizar sua rede para a conectividade em nuvem, evitando as armadilhas mais comuns na [rede (para a nuvem)](networking-design-principles.md).       |
 |    |         |         |

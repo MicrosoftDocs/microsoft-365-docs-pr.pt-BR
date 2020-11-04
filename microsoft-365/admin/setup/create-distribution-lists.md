@@ -1,5 +1,5 @@
 ---
-title: Criar grupos de distribuição no centro de administração do Microsoft 365
+title: Criar grupos de distribuição
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -13,24 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
-description: Envie um email para um grupo de pessoas sem ter que digitar o nome de um destinatário individual criando distribuição (lista).
-ms.openlocfilehash: eaa1051c83f64a6a20d3f27eb17f2a0fef5f2b12
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.custom:
+- seo-marvel-may2020
+- AdminSurgePortfolio
+description: Saiba como criar grupos de distribuição ou listas no centro de administração do Microsoft 365 para que você possa enviar emails a um grupo sem precisar digitar o nome de cada destinatário.
+ms.openlocfilehash: c206e3eaa7987ba90d54daa55ae069d188908a0b
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779888"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906364"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Criar grupos de distribuição no centro de administração do Microsoft 365
   
-Usado quando você deseja enviar emails para grupo de pessoas sem precisar digitar o nome de um destinatário individual, os grupos de distribuição são organizados por um assunto de discussão específico (como "marketing") ou por usuários que compartilham trabalho comum que exige que eles se comuniquem com frequência. Elas são organizadas por um assunto específico (como "Marketing") ou por usuários que compartilham um trabalho comum que requer uma comunicação frequente.Também oferecem uma maneira de encaminhar emails automaticamente para vários endereços de email.
-  
+Usado quando você deseja enviar emails a um grupo de pessoas sem precisar digitar o nome de um destinatário individual, os grupos de distribuição (listas de distribuição) são organizados por um assunto específico de discussão (como "marketing") ou por usuários que compartilham trabalho comum que exige que eles se comuniquem com frequência. Elas são organizadas por um assunto específico (como "Marketing") ou por usuários que compartilham um trabalho comum que requer uma comunicação frequente.Também oferecem uma maneira de encaminhar emails automaticamente para vários endereços de email.
+
 Os grupos de distribuição são chamados de listas de distribuição.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/e8747233-4f1c-4bf4-81cf-2a4ea9ccd80d?autoplay=false]
@@ -61,16 +63,16 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
     
 2. Selecione **grupos** \> **grupos** no painel de navegação à esquerda e, em seguida, selecione **Adicionar um grupo**. 
       
-3. No campo **escolher um tipo de grupo** , escolha **distribuição**e, em seguida, escolha **Avançar**.
+3. No campo **escolher um tipo de grupo** , escolha **distribuição** e, em seguida, escolha **Avançar**.
   
 4. Insira um nome, descrição e alias de email para o novo grupo e escolha se você deseja que pessoas de fora da sua organização enviem emails para o grupo. 
     
 5. Pressione **Adicionar** para criar um grupo e, em seguida, revise o grupo e escolha **fechar**. 
     
-6. Para adicionar usuários ao grupo de distribuição, consulte [Adicionar um usuário ou contato a um grupo de distribuição](../email/add-user-or-contact-to-distribution-list.md).
+6. Para adicionar usuários à sua lista de distribuição, consulte [Adicionar um usuário ou contato a um grupo de distribuição](../email/add-user-or-contact-to-distribution-list.md).
     
 Confira como usar o grupo no Outlook 2016 e no Outlook na Web no tópico [usar grupos de contatos (anteriormente listas de distribuição) no Outlook](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) . 
   
-Confira [problemas no grupo de distribuição](https://docs.microsoft.com/office365/troubleshoot/groups/distribution-list-issues) para obter ajuda com problemas no grupo de distribuição. 
+Confira [problemas no grupo de distribuição](https://docs.microsoft.com/office365/troubleshoot/groups/distribution-list-issues) para obter ajuda com problemas de lista de distribuição. 
   
 

@@ -1,6 +1,6 @@
 ---
 title: Centro de soluções e arquitetura da Microsoft 365
-description: Obtenha a orientação técnica de que você precisa para entender, planejar e implementar soluções integradas da Microsoft 365 para colaboração moderna e segura.
+description: Orientações técnicas para entender, planejar e implementar soluções integradas do Microsoft 365 para o planejamento de recursos corporativos e colaboração segura.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -12,16 +12,16 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 1f9d2d1a8a1c346214fa58f0f6095683bee0b24f
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 61947c940a5079574954344ab72d86594ac3ba48
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46520964"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906198"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura da Microsoft 365
 
-Este centro de soluções e arquitetura reúne as orientações técnicas de que você precisa para entender, planejar e implementar soluções integradas da Microsoft 365 para colaboração moderna e segura e compatível. Neste centro, você encontrará:
+Este centro de soluções e arquitetura reúne as orientações técnicas de que você precisa para entender, planejar e implementar soluções integradas do Microsoft 365 para o planejamento de recursos corporativos e colaboração moderna e segura e compatível. Neste centro, você encontrará:
 
 ![](https://docs.microsoft.com/office/media/icons/blocks-blue.png) **[diretrizes de solução básica](foundation-solutions-overview.md)** de blocos essas soluções oferecem uma orientação completa para um problema específico de negócios ou necessidades. Eles orientam você através de conceitos e recursos e ajudam a fazer as escolhas que levam a um resultado final funcional, desde o planejamento à implementação até a adoção. 
 
@@ -30,11 +30,11 @@ Este centro de soluções e arquitetura reúne as orientações técnicas de que
 - [Implantar proteção contra ameaças no Microsoft 365](deploy-threat-protection.md)
 - [Implantar a proteção de informações para os regulamentos de privacidade de dados](information-protection-deploy.md)
 
-![objetos da ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **[solução de carga de trabalho e orientações de cenário](workload-solutions-scenarios-overview.md)** esses cenários e soluções ajudam a realizar um objetivo específico de negócios. Você pode adicioná-los às soluções fundamentais para adicionar recursos ao seu ambiente.
+![objetos da ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **[solução de carga de trabalho e orientações de cenário](workload-solutions-scenarios-overview.md)**  esses cenários e soluções ajudam a realizar um objetivo específico de negócios. Você pode adicioná-los às soluções fundamentais para adicionar recursos ao seu ambiente.
 
-![Símbolos de regra e de nuvem ](https://docs.microsoft.com/office/media/icons/cloud-architecture2.png) a **[solução e as ilustrações de arquitetura](productivity-illustrations.md)** ou baixe estas ilustrações para entender os recursos do Microsoft 365 e a arquitetura dos serviços de nuvem do Microsoft 365.
+![Símbolos de regra e de nuvem ](https://docs.microsoft.com/office/media/icons/cloud-architecture2.png) a **[solução e as ilustrações de arquitetura](productivity-illustrations.md)**  ou baixe estas ilustrações para entender os recursos do Microsoft 365 e a arquitetura dos serviços de nuvem do Microsoft 365.
 
-![Práticas recomendadas faixa ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **[de opções específicas do setor](industry-specific-guidance-overview.md)** encontre as práticas recomendadas para o seu setor: Finanças, saúde e educação.
+![Práticas recomendadas faixa ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **[de opções específicas do setor](industry-specific-guidance-overview.md)**  encontre as práticas recomendadas para o seu setor: Finanças, saúde e educação.
 
-![Layout/navegação os ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[princípios de design](design-principles.md)** entendem os principais princípios que você precisa para entender as arquiteturas de rede, identidade, segurança e multinacionais.
+![Layout/navegação os ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[princípios de design](design-principles.md)**  entendem os principais princípios que você precisa para entender as arquiteturas de rede, identidade, segurança e multinacionais.
 

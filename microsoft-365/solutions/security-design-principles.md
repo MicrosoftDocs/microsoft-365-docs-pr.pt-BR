@@ -1,6 +1,6 @@
 ---
-title: Obstáculos de segurança que você pode sailr, o ponto de vista de um arquiteto
-description: Descrição.
+title: Planejamento de recursos corporativos da Microsoft 365-arquitetura cybersecurity
+description: Saiba como superar desafios de segurança na arquitetura do Microsoft Enterprise do Kozeta Garrett, cybersecurity arquiteto da Microsoft.
 ms.author: bcarter
 author: brendacarter
 manager: bcarter
@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 9a1a0204f1c79ad1eab7d62adf45022d1d5bc035
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 454db3da5c37035cb3146e437761eff0f953b642
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842793"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906972"
 ---
 # <a name="security-hurdles-you-can-sail-over--one-architects-viewpoint"></a>Obstáculos de segurança que você pode sailr, o ponto de vista de um arquiteto
 

@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
-description: Saiba como reativar sua assinatura quando ela expirar ou se a Microsoft a desabilitar ou se você a cancelar no meio.
-ms.openlocfilehash: cbd5fbc5bd6423f6583701682e63ed93206b562e
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+description: Saiba como reativar sua assinatura quando ela expirar, estiver desabilitada ou cancelada.
+ms.openlocfilehash: 36d82699f6eb0c1cd4a1c404d7b030a865111d03
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324287"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906770"
 ---
 # <a name="reactivate-your-subscription"></a>Reativar sua assinatura
 
@@ -38,11 +38,11 @@ ms.locfileid: "47324287"
 
 ::: moniker-end
 
-Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você a tiver cancelado no meio de um termo de assinatura, você poderá reativá-lo no centro de administração.
+Você pode reativar sua assinatura no centro de administração se: a assinatura expirou, foi desabilitada pela Microsoft ou se você a cancelou no meio de um termo de assinatura.
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global ou de cobrança para reativar uma assinatura. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador global ou de cobrança para reativar uma assinatura. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 **Não é um administrador?** Entre em contato com a administração para reativar sua assinatura.
 
@@ -51,9 +51,9 @@ Você deve ser um administrador global ou de cobrança para reativar uma assinat
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na guia **produtos** , encontre a assinatura que você deseja reativar. Selecione **mais ações** (três pontos) e, em seguida, selecione **reativar esta assinatura**. \
-    Se você não vir **reativar esta assinatura**, [entre em contato com o suporte](../../admin/contact-support-for-business-products.md).
-3. No painel **reativar esta assinatura** , selecione um método de pagamento na lista suspensa ou selecione **Adicionar método de pagamento**.
+2. Na página **Produtos** , encontre a assinatura que quer reativar. Selecione **mais ações** (três pontos) e, em seguida, selecione **reativar esta assinatura**. \
+    Se você não vir **reativar esta assinatura** , [entre em contato com o suporte](../../admin/contact-support-for-business-products.md).
+3. No painel **Reativar esta assinatura** , selecione um método de pagamento na lista suspensa ou selecione **Adicionar método de pagamento**.
 4. Selecione **Salvar**.
 
 ::: moniker-end

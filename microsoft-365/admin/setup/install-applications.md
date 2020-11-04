@@ -13,32 +13,34 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: d0653266-31db-4f6a-a804-d34b667c16bf
-description: 'Saiba como configurar aplicativos do Office em seu Mac, computador ou dispositivos móveis. '
-ms.openlocfilehash: e48725a6e4997d6891cb3876d1b0ba07966d416b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.custom:
+- seo-marvel-may2020
+- AdminSurgePortfolio
+description: Agora que você configurou o Microsoft 365, saiba como instalar aplicativos individuais do Office em seu Mac, computador ou dispositivos móveis e configurar o email no Outlook.
+ms.openlocfilehash: 07a347894946ee1f71f43f729d0e2e5401e36933
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779016"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906448"
 ---
 # <a name="install-office-applications"></a>Instalar aplicativos do Office
 
-Agora que você configurou o Microsoft 365, é possível configurar os aplicativos do Office em seu Mac, computador ou dispositivos móveis.
+Agora que você configurou o Microsoft 365, é possível instalar aplicativos individuais do Office em seu Mac, computador ou dispositivos móveis.
   
 Siga estes links para obter informações sobre como:
   
-- Instalar aplicativos do Office: [instalar o Office em seu PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+- Instalar aplicativos do Office:  [instalar o Office em seu PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
 - Configurar dispositivos móveis: [Microsoft 365 Mobile setup-Help](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 
 - Configurar email no Outlook: [Windows](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) ou [Mac](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac)
  
-- [Atualizar os usuários para os aplicativos mais recentes do Office](upgrade-users-to-latest-office-client.md) 
+- [Atualizar os usuários para os aplicativos mais recentes](upgrade-users-to-latest-office-client.md) 
 
 ::: moniker range="o365-21vianet"
 

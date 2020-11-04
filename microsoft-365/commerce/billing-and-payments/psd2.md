@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: A partir de 14 de setembro de 2019, os bancos nos 31 países da área econômica européia são necessários para verificar a identidade da pessoa que fez uma compra online antes que o pagamento possa ser processado.
+description: A partir de 14 de setembro de 2019, os bancos nos 31 países da área econômica européia são necessários para verificar a identidade da pessoa que está fazendo uma compra online antes que o pagamento possa ser processado. "
 keywords: política de serviços de pagamento 2, autenticação de cliente forte, autenticação multifator
-ms.openlocfilehash: fc8784949cdacea10957660c99795b4ade0f9f7a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d6564a8c6d31bd0758f1084e7ee9b6857aed034e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638418"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906604"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>Diretiva 2 de serviços de pagamento e autenticação sólida de cliente para clientes comerciais
 
-A partir de 14 de setembro de 2019, os bancos nos 31 países da área econômica européia são necessários para verificar a identidade da pessoa que fez uma compra online antes que o pagamento possa ser processado. Essa verificação requer a autenticação multifator para ajudar a garantir que suas compras online estejam seguras e protegidas. A data deste requisito de verificação será atrasada para alguns países. 
+A partir de 14 de setembro de 2019, os bancos nos 31 países da área econômica européia são necessários para verificar a identidade da pessoa que fez uma compra online antes que o pagamento possa ser processado. Essa verificação requer a autenticação multifator para ajudar a garantir que suas compras online estejam seguras e protegidas. A data deste requisito de verificação será atrasada para alguns países.
 
 Para obter mais informações, consulte [perguntas frequentes sobre a política de serviços de pagamento 2 e autenticação de clientes fortes da Microsoft](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication).
 

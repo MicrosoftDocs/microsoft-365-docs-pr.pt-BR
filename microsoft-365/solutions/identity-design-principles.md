@@ -1,6 +1,6 @@
 ---
-title: 'Para identificar e além disso: o ponto de vista de um arquiteto'
-description: Descrição.
+title: Planejamento de recursos corporativos da Microsoft 365-arquitetura de segurança
+description: Saiba mais sobre as principais estratégias de design do Microsoft Enterprise Architecture da Alex Shteynberg, arquiteto principal técnico da Microsoft.
 ms.author: bcarter
 author: brendacarter
 manager: bcarter
@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: fc975610e24980c6a552179359bb643eb9ac040c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e691b47a2d508064243886957ac491088df2f8ae
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845247"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906890"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Para identificar e além disso: o ponto de vista de um arquiteto
 
@@ -134,9 +135,9 @@ Se você concordar com essa definição expandida de autorização, precisará i
 - [Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/identity-protection/) 
 - [Microsoft Defender para Identidade](https://docs.microsoft.com/azure-advanced-threat-protection/)
 - [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
+- [Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 - MCAS ( [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/) )
-- [Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide)
+- [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide)
 - [Microsoft Intune](https://docs.microsoft.com/mem/intune/)
 - [Proteção de informações da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) (MIP)
 - [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/) 
@@ -284,7 +285,7 @@ Da perspectiva da delegação de administrador, a maioria dos logs de atividades
 
 Diagrama de alto nível:
 
-![diagrama de alto nível do fluxo de logs](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
+![diagrama de fontes de log para um programa de segurança e conformidade](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
 
 O diagrama acima representa recursos internos para enviar logs para o Hub de eventos e/ou o armazenamento do Azure e/ou a análise de logs do Azure. Nem todos os sistemas incluem essa opção pronta para uso. Mas há outras abordagens para enviar esses logs para o mesmo repositório. Por exemplo, confira [protegendo suas equipes com o Azure Sentinel](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761).
 
