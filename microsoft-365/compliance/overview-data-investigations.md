@@ -18,14 +18,19 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-mar2020
 description: Neste artigo, você aprenderá sobre a ferramenta de investigações de dados (visualização) no Microsoft 365. A ferramenta de investigações de dados ajuda a avaliar e corrigir os dados derramamento.
-ms.openlocfilehash: 21241ad36278bc75a8363b9aeefeaf4caec783b5
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: f3e08ca602d9d131cd25d234c96c660f0b9639aa
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285987"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906926"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Visão geral das investigações de dados (prévia) no Microsoft 365
+
+> [!IMPORTANT]
+> Após muito deliberation e discussões com nossos clientes, decidimos não liberar a ferramenta de investigações de dados para a disponibilidade geral. Como resultado, removeremos essa ferramenta e todos os dados associados aos casos de investigações de dados existentes em 31 de dezembro de 2020.  Para gerenciar investigações de dados em sua organização, recomendamos que você use os principais casos de descoberta eletrônica. Se você precisar pesquisar e remover conteúdo do Microsoft 365, confira os seguintes artigos: 
+> - [série de soluções de descoberta eletrônica: cenário de derramamento de dados-pesquisa e limpeza](data-spillage-scenariosearch-and-purge.md)
+> - [Pesquisar e excluir mensagens de email](search-for-and-delete-messages-in-your-organization.md)
 
 Um despejo de dados ocorre quando um documento que contém conteúdo confidencial, confidencial ou mal-intencionado é liberado em um ambiente não confiável. Quando um despejo de dados é detectado, é importante conter rapidamente o ambiente, avaliar o tamanho e os locais do derramamento, examinar as atividades do usuário em torno dele e, em seguida, excluir os dados derramados do serviço. Usando a nova ferramenta de investigações de dados (visualização), você pode pesquisar dados confidenciais, mal-intencionados ou incorretos no Office 365, investigar o que aconteceu e tomar as medidas apropriadas para corrigir o derramamento.  
 
