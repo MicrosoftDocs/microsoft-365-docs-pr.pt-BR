@@ -2,7 +2,7 @@
 title: Relatar emails de lixo eletrônico e phishing no Outlook na Web
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as opções internas de lixo eletrônico, não lixo eletrônico e relatório de email de phishing no Outlook na Web (Outlook Web App) no Exchange Online e como desabilitar essas opções de relatórios para os usuários.
-ms.openlocfilehash: 076f2858e84359d788714dc5d7e8bdb972b2c2ee
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: ebf266f3bb825a5ef81a3cd2b5d2bceb270fc260
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48351072"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877368"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Relatar emails de lixo eletrônico e phishing no Outlook na Web no Exchange Online
 
@@ -128,9 +128,9 @@ Para verificar se você habilitou ou desabilitou com êxito os relatórios de li
   Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
   ```
 
-- Abra a caixa de correio de um usuário afetado no Outlook na Web, selecione uma mensagem na caixa de entrada, clique em **lixo** \> **eletrônico** e verifique se o aviso para relatar a mensagem à Microsoft é ou não é exibido.<sup>\*</sup>
+- Abra a caixa de correio de um usuário afetado no Outlook na Web, selecione uma mensagem na caixa de entrada, clique em **lixo** \> **eletrônico** e verifique se o aviso para relatar a mensagem à Microsoft é ou não é exibido. <sup>\*</sup>
 
-- Abra a caixa de correio de um usuário afetado no Outlook na Web, selecione uma mensagem na pasta lixo eletrônico, clique em **lixo** \> **eletrônico** e verifique se o aviso para relatar a mensagem à Microsoft é ou não é exibido.<sup>\*</sup>
+- Abra a caixa de correio de um usuário afetado no Outlook na Web, selecione uma mensagem na pasta lixo eletrônico, clique em **lixo** \> **eletrônico** e verifique se o aviso para relatar a mensagem à Microsoft é ou não é exibido. <sup>\*</sup>
 
 <sup>\*</sup> Os usuários podem ocultar a solicitação para relatar a mensagem enquanto estiver relatando a mensagem. Para verificar essa configuração no Outlook na Web:
 

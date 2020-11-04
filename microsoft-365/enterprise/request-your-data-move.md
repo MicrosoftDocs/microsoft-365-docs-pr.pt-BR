@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Os clientes existentes do Office 365 devem enviar uma solicitação antes do prazo final para que seu país tenha seus dados de serviços do Microsoft 365 movidos para a nova geografia.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f8f25fcaf3e8beb59ca43ad260e2636cf0c4949
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: b6ad699830389ef405b005bf8675a2bd0fb4f20b
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361934"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877250"
 ---
 # <a name="how-to-request-your-data-move"></a>Como solicitar a migração dos dados
 
@@ -44,14 +44,14 @@ Os clientes Microsoft 365 qualificados podem solicitar a migração de todos os 
 |África do Sul  <br/> |25 de julho de 2019  <br/> |30 de junho de 2020  <br/> |
 |Suíça, Liechtenstein  <br/> |10 de dezembro de 2019  <br/> |30 de junho de 2020  <br/> |
 |Noruega  <br/> |15 de abril de 2020  <br/> |31 de outubro de 2020  <br/> |
-|Alemanha  <br/> |Liga  <br/> |Liga  <br/> |
+|Alemanha  <br/> |1 de novembro de 2020  <br/> |30 de abril de 2021  <br/> |
 
 ## <a name="how-to-request-a-move"></a>Como solicitar uma movimentação
 
-Os clientes qualificados verão uma página no [centro de administração do Microsoft 365](https://aka.ms/365admin), que lhes permitirá solicitar que seus principais dados do cliente sejam movidos para sua nova região de datacenter.  
+Os clientes qualificados verão uma página no centro de administração do Microsoft 365, que lhes permitirá solicitar que seus principais dados do cliente sejam movidos para sua nova região de datacenter.  
   
-Para acessar a página no centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **configurações**e clique em **configurações da organização**.
-Selecione o **perfil de organização**da guia e, em seguida, selecione a opção **Data Residency**.
+Para acessar a página no centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **configurações** e clique em **configurações da organização**.
+Selecione o **perfil de organização** da guia e, em seguida, selecione a opção **Data Residency**.
   
 Você não verá esta seção se o seu locatário não estiver qualificado para o programa Microsoft 365 move.  Se sua organização tiver requisitos de residência de dados e você precisar solicitar migração, marque a caixa de seleção e **salve**.
   

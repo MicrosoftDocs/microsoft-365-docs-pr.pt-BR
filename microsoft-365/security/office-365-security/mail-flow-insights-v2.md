@@ -2,7 +2,7 @@
 title: Insights de fluxo de email no painel de fluxo de emails
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Os administradores podem saber mais sobre as ideias e os relatórios disponíveis no painel de fluxo de emails no centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9ac8b8b0d346d78af252a9e427d0ef2b1a4c4ea
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: d252b9d898d4ee5a0df854a871f821c2b02bb482
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769013"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877772"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
@@ -76,6 +76,6 @@ Para obter mais informações sobre permissões no centro de conformidade & segu
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Onde encontrar o painel de fluxo de emails
 
-Abra o centro de conformidade do & de segurança em <https://protection.office.com> , expanda **fluxo de email** e selecione **painel** .
+Abra o centro de conformidade do & de segurança em <https://protection.office.com> , expanda **fluxo de email** e selecione **painel**.
 
 Para ir diretamente para o painel de fluxo de emails, abra <https://protection.office.com/mailflow/dashboard> .

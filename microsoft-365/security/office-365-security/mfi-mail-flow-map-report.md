@@ -2,7 +2,7 @@
 title: Mapa de fluxo de email
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o mapa de fluxo de emails no painel de fluxo de emails no centro de conformidade de & de segurança para visualizar e controlar como o email flui para e de sua organização sobre os conectores e sem usar conectores.
-ms.openlocfilehash: 74cabb7f7b34be6248d18d71565c8a9729d7e38b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fc03f05db77c40dbf726692e6fb6069d587a5ffc
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199366"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877760"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>Mapa de fluxo de emails no centro de conformidade de & de segurança
 
@@ -37,11 +37,11 @@ Clicar no widget **mapa de fluxo de emails** o levará para o relatório de **ma
 
 Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
-- **Show data for: Overview**: Este é basicamente uma visão maior do widget. Se você passar o mouse sobre uma cor específica, o número de mensagens será exibido para esse tipo de conector.
+- **Show data for: Overview** : Este é basicamente uma visão maior do widget. Se você passar o mouse sobre uma cor específica, o número de mensagens será exibido para esse tipo de conector.
 
   ![Exibição de visão geral no relatório de mapa de fluxo de emails](../../media/mfi-mail-flow-map-report-overview.png)
 
-- **Mostrar dados de: Detail**: este modo de exibição mostra detalhes sobre os conectores e domínios de destino. Os principais remetentes e domínios de destinatário são listados e o restante é colocado em **outros**. Se você passar o mouse sobre uma cor e seção específica, o número de mensagens será exibido.
+- **Mostrar dados de: Detail** : este modo de exibição mostra detalhes sobre os conectores e domínios de destino. Os principais remetentes e domínios de destinatário são listados e o restante é colocado em **outros**. Se você passar o mouse sobre uma cor e seção específica, o número de mensagens será exibido.
 
   ![Exibição de detalhes no relatório de mapa de fluxo de emails](../../media/mfi-mail-flow-map-report-detail.png)
 
@@ -56,7 +56,7 @@ Os insights relacionados são mostrados abaixo do mapa de fluxo de emails, se es
 Se você clicar em **Exibir tabela de detalhes** em um modo de exibição de relatório, as seguintes informações serão exibidas:
 
 - **Date**
-- **Category**
+- **Categoria**
 - **Conector/provedor de serviços terceirizado**
 - **Domínio do remetente/destinatário**
 - **Contagem de mensagem**

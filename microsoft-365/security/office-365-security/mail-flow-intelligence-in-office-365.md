@@ -2,7 +2,7 @@
 title: Inteligência de fluxo de emails
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
-ms.openlocfilehash: 0d73ea1fe64cda3c3f29f7bd437bba4e93f37529
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 461d9bfa91d88b8bbec52d5aad6ec7a2e534bc96
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198498"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877796"
 ---
-# <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de e-mails no EOP
+# <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de emails no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -81,7 +81,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
   - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente de email local da **retransmissão interna** para **autoritativa**. Para obter instruções, consulte [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-  **Observação**: normalmente, essas alterações levam entre 30 minutos e uma hora para entrar em vigor. Após uma hora, verifique se você não receberá mais o erro.
+  **Observação** : normalmente, essas alterações levam entre 30 minutos e uma hora para entrar em vigor. Após uma hora, verifique se você não receberá mais o erro.
 
 - Se o erro for da organização de seu parceiro (por exemplo, um provedor de serviços de nuvem de terceiros), você precisará entrar em contato com seu parceiro para corrigir o problema.
 

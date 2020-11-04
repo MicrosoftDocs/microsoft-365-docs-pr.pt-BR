@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f681d02cc4af8bd56ba945a3d944798e545bf93c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4369d51ed740af652be632ba0b8752c708d6c719
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846707"
+ms.locfileid: "48877214"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "48846707"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 
 
@@ -46,9 +46,9 @@ A **Fila de incidentes** exibe um conjunto de incidentes sinalizados de vários 
 
 ![Imagem da fila de incidentes](../../media/incidents-queue.png) 
 
-Por padrão, a fila no centro de segurança do Microsoft 365 exibe os incidentes vistos nos últimos 30 dias, com o incidente mais recente exibido na parte superior da lista, ajudando a visualizar os incidentes mais recentes primeiro.
+Por padrão, a fila na central de segurança do Microsoft 365 exibe incidentes vistos nos últimos 30 dias. O incidente mais recente fica na parte superior da lista para que você possa vê-lo primeiro.
 
-A fila de incidentes expõe colunas personalizáveis que fornecem visibilidade de diferentes características do incidente ou das entidades contidas, ajudando a tomar uma decisão embasada sobre a priorização de incidentes a serem tratados.
+A fila de incidentes expõe colunas personalizáveis que lhe dão visibilidade de diferentes características do incidente ou das entidades contidas. Isso ajuda você a tomar decisões informadas sobre a priorização de incidentes para lidar.
 
 Para obter visibilidade adicional em um relance, o nome automático de incidentes gera nomes de incidentes com base em atributos de alerta como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
 
@@ -57,33 +57,18 @@ Por exemplo: *incidente de vários estágios em vários pontos de extremidade re
 > [!NOTE]
 > Incidentes que existiam antes da distribuição da nomeação automática de incidentes não terão o nome alterado.
 
-A fila de incidentes também expõe várias opções de filtragem que, quando aplicadas, permitem a escolha de executar uma visão geral de todos os incidentes existentes em seu ambiente ou de se concentrar em um cenário ou ameaça específica. A aplicação de filtros na fila de incidentes pode ajudar a determinar qual incidente exige atenção imediata. 
+A fila de incidentes também expõe várias opções de filtragem, que, quando aplicadas, permitem que você realize uma ampla varredura de todos os incidentes existentes no seu ambiente ou decida se concentrar em um cenário ou ameaça específico. A aplicação de filtros na fila de incidentes pode ajudar a determinar qual incidente exige atenção imediata. 
 
 ## <a name="available-filters"></a>Filtros disponíveis
 
-### <a name="status"></a>Status
-Você pode optar por limitar a lista de incidentes exibidos com base em seu status para ver quais estão ativos ou resolvidos.
-
-### <a name="severity"></a>Gravidade
-A gravidade de um incidente indica o impacto que pode ter em seus ativos. Quanto maior a gravidade, maior o impacto e, normalmente, exige atenção imediata. 
-
-### <a name="assigned-to-owner"></a>Atribuído a (proprietário)
-Você pode optar por filtrar a lista selecionando não atribuir a ninguém ou os que estão atribuídos a você.
-
-### <a name="multiple-alerts"></a>Vários alertas 
-Filtre para ver somente os incidentes com mais de um alerta. Isso pode ser uma indicação de um ataque que é mais complexo ou progredido no kill chain. 
-
-
-### <a name="multiple-service-sources"></a>Várias fontes de serviço 
-Filtro para ver apenas incidentes que contêm alertas de diferentes fontes (Microsoft defender for Endpoint, Microsoft Cloud app Security, Microsoft defender para identidade, Microsoft defender para Office 365)
-### <a name="service-sources"></a>Fontes de serviço
-Ao escolher uma fonte específica, é possível se concentrar em incidentes com pelo menos um alerta da fonte escolhida. 
-
-### <a name="multiple-categories"></a>Várias categorias 
-Você pode optar por ver apenas os incidentes que estão mapeados em várias categorias do kill chain e que podem causar mais danos. 
+### <a name="assigned-to"></a>Atribuído a
+Você pode optar por mostrar alertas que são atribuídos a você ou aqueles tratados pela automação.
 
 ### <a name="categories"></a>Categorias
-Escolha categorias específicas para se concentrar em uma etapa específica no kill chain
+Escolha categorias para se concentrar em táticas, técnicas ou componentes de ataque específicos vistos. 
+
+### <a name="classification"></a>Classificação
+Filtrar incidentes com base nas classificações de conjunto dos alertas relacionados. Os valores incluem alertas verdadeiros, falsos alertas ou não definidos.
 
 ### <a name="data-sensitivity"></a>Confidencialidade de dados
 Alguns ataques se concentram no direcionamento para exfiltrar dados confidenciais ou valiosos. Ao aplicar um filtro para ver se os dados confidenciais estão envolvidos no incidente, você pode determinar rapidamente se as informações confidenciais estão potencialmente comprometidas e priorizar o tratamento desses incidentes.
@@ -91,13 +76,40 @@ Alguns ataques se concentram no direcionamento para exfiltrar dados confidenciai
 >[!NOTE]
 >Só é aplicável se a Proteção de Informações da Microsoft estiver ativada.
 
+### <a name="device-group"></a>Grupo de dispositivos
+Filtrar por grupos de dispositivos definidos.
+
+### <a name="investigation-state"></a>Estado de investigação
+Filtrar incidentes pelo status de investigação automatizada. 
+
+### <a name="multiple-categories"></a>Várias categorias 
+Você pode optar por ver apenas os incidentes que foram mapeados para várias categorias e podem possivelmente causar mais danos. 
+
+### <a name="multiple-service-sources"></a>Várias fontes de serviço 
+Filtro para ver apenas incidentes que contenham alertas de fontes diferentes (Microsoft defender para ponto de extremidade, Microsoft Cloud app Security, Microsoft defender para identidade, Microsoft defender para Office 365).
+
+### <a name="os-platform"></a>Plataforma do sistema operacional
+Limitar o modo de exibição fila de incidentes por sistema operacional.
+
+### <a name="service-sources"></a>Fontes de serviço
+Ao escolher uma fonte específica, é possível se concentrar em incidentes com pelo menos um alerta da fonte escolhida. 
+
+### <a name="severity"></a>Severity
+A gravidade de um incidente indica o impacto que ele pode ter em seus ativos. Quanto maior a gravidade, maior o impacto e normalmente requer a atenção mais imediata. 
+
+### <a name="status"></a>Status
+Você pode optar por limitar a lista de incidentes exibidos com base em seu status para ver quais estão ativos ou resolvidos.
+
+>[!IMPORTANT]
+>Os filtros de classificação, grupo de dispositivos, estado de investigação e plataforma de SO atualmente só estão disponíveis na visualização pública.
+
 
 ## <a name="next-steps"></a>Próximas etapas
 Após determinar qual incidente requer a prioridade mais alta, você pode continuar a fazer um trabalho mais investigativo em um incidente.
 - [Investigar incidentes](investigate-incidents.md)
 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="see-also"></a>Confira também
 - [Visão geral dos incidentes](incidents-overview.md)
 - [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)

@@ -2,7 +2,7 @@
 title: Enviar mensagens manualmente para a Microsoft para análise
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails em bom estado marcados como inválidos ou incorretos) para a Microsoft para análise.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6673dc7e7ac263ea9f734c002d0ffac410fadc07
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 68a0921f85e5b916cd53ebe84e4ea7d35e39967e
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202192"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877700"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente para a Microsoft para análise
 
@@ -48,9 +48,9 @@ Se você receber uma mensagem que passa pelo filtro de spam que deve ter sido id
 
 1. Crie uma nova mensagem de email em branco com um dos seguintes destinatários:
 
-   - **Lixo eletrônico**: `junk@office365.microsoft.com`
+   - **Lixo eletrônico** : `junk@office365.microsoft.com`
 
-   - **Phishing**: `phish@office365.microsoft.com`
+   - **Phishing** : `phish@office365.microsoft.com`
 
 2. Arraste e solte a mensagem de lixo eletrônico ou phishing na nova mensagem. Isso salvará o lixo eletrônico ou a mensagem de phishing como um anexo na nova mensagem. Não copie e cole o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os cabeçalhos da mensagem).
 

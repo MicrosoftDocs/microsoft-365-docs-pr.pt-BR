@@ -2,7 +2,7 @@
 title: Visão geral sobre novos usuários encaminhando email
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem aprender a usar os novos usuários que estão encaminhando informações de email no centro de conformidade de & de segurança para investigar quando os usuários de sua organização estão encaminhando mensagens para novos domínios.
-ms.openlocfilehash: 42f8c536f8a8a1421d97726c7af432c01d053b05
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: af66a84efbd4c0b8f1ccdacf4b71d1caca1c3929
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200650"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877520"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Novos usuários encaminhando informações de email no centro de conformidade e segurança &
 
@@ -35,7 +35,7 @@ Quando você clica no widget, um submenu aparece onde você pode encontrar mais 
 
 ![Submenu de detalhes que aparece depois de clicar nos novos usuários encaminhando informações sobre o envio de email](../../media/mfi-new-users-forwarding-email-details.png)
 
-Você também pode acessar essa página de detalhes ao selecionar a percepção depois de clicar em **Exibir tudo** na área de **recomendações de & principais** em (painel de**relatórios** \> **Dashboard** ou <https://protection.office.com/insightdashboard> ).
+Você também pode acessar essa página de detalhes ao selecionar a percepção depois de clicar em **Exibir tudo** na área de **recomendações de & principais** em (painel de **relatórios** \> **Dashboard** ou <https://protection.office.com/insightdashboard> ).
 
 Você pode clicar no link **Confira o relatório associado com a percepção** para acessar o **relatório de alterações de encaminhamento** conforme descrito na próxima seção.
 
@@ -59,11 +59,11 @@ Este relatório não está disponível diretamente no [painel de fluxo de emails
 
 Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
-- **Mostrar dados de: novos usuários de encaminhamento**:
+- **Mostrar dados de: novos usuários de encaminhamento** :
 
   ![Novo modo de exibição de usuários de encaminhamento no relatório de alterações de encaminhamento](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
-- **Mostrar dados para: novos domínios de encaminhamento**:
+- **Mostrar dados para: novos domínios de encaminhamento** :
 
   ![Exibição de novos domínios encaminhados no relatório de alterações de encaminhamento](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
@@ -71,20 +71,20 @@ Se você clicar em **filtros** em um modo de exibição de relatório, poderá e
 
 ### <a name="details-table-view-for-the-forwarding-modifications-report"></a>Exibição da tabela de detalhes para o relatório de alterações de encaminhamento
 
-Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+Se você clicar em **Exibir tabela de detalhes** , as informações mostradas dependem do gráfico que você estava observando:
 
-- **Mostrar dados de: novos usuários de encaminhamento**:
+- **Mostrar dados de: novos usuários de encaminhamento** :
 
-  - **Name**: o endereço de email do remetente.
+  - **Name** : o endereço de email do remetente.
   - **Tipo de encaminhamento**
   - **Endereço do destinatário**
   - **Detalhes**
   - **Count**
   - **Primeira data de encaminhamento**
 
-- **Mostrar dados para: novos domínios de encaminhamento**:
+- **Mostrar dados para: novos domínios de encaminhamento** :
 
-  - **Name**: o domínio de email do remetente.
+  - **Name** : o domínio de email do remetente.
   - **Tipo de encaminhamento**
   - **Endereço do destinatário**
   - **Detalhes**
@@ -95,13 +95,13 @@ Se você clicar em **filtros** em um modo de exibição de tabela detalhes, pode
 
 Se você selecionar uma linha da tabela, um submenu de **detalhes** aparecerá com as seguintes informações:
 
-- **Nome**: Este é o endereço de email do remetente (da exibição **Mostrar dados para: novos usuários de encaminhamento** ) ou o domínio de email do remetente (do **Mostrar dados para: novo** modo de exibição de domínios de encaminhamento).
+- **Nome** : Este é o endereço de email do remetente (da exibição **Mostrar dados para: novos usuários de encaminhamento** ) ou o domínio de email do remetente (do **Mostrar dados para: novo** modo de exibição de domínios de encaminhamento).
 - **Tipo de encaminhamento**
 - **Recipient**
 - **Detalhes**
 - **Count**
 - **Data de início**
-- **Recomendação**: aqui, você pode clicar no link para gerenciar o usuário no centro de administração do Microsoft 365.
+- **Recomendação** : aqui, você pode clicar no link para gerenciar o usuário no centro de administração do Microsoft 365.
 
 ![Submenu de detalhes da tabela detalhes do novo modo de exibição de usuários de encaminhamento no relatório de alterações de encaminhamento](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf5481584031469b459d5662f75e32fd9a793a94
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: d7deb2068db9f15f31a04c45564b966af90d2e2b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816754"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846291"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -102,7 +102,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
   Para saber mais, confira [Desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
-- Como mencionado anteriormente, o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet Exchange Online, que é **Search-UnifiedAuditLog** . Isso significa que você pode usar esse cmdlet para pesquisar o log de auditoria, em vez de usar a página **pesquisa de log de Auditoria** no Centro de Conformidade e Segurança. Você precisa executar esse cmdlet no PowerShell remoto conectado à sua organização do Exchange Online. Para saber mais, confira [Search-UnifiedAuditLog](https://go.microsoft.com/fwlink/p/?linkid=834776).
+- Como mencionado anteriormente, o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet Exchange Online, que é **Search-UnifiedAuditLog**. Isso significa que você pode usar esse cmdlet para pesquisar o log de auditoria, em vez de usar a página **pesquisa de log de Auditoria** no Centro de Conformidade e Segurança. Você precisa executar esse cmdlet no PowerShell remoto conectado à sua organização do Exchange Online. Para saber mais, confira [Search-UnifiedAuditLog](https://go.microsoft.com/fwlink/p/?linkid=834776).
 
   Para obter informações sobre como exportar os resultados da pesquisa retornados pelo cmdlet **Search-UnifiedAuditLog** para um arquivo CSV, confira a seção "Dicas para exportar e exibir o log de auditoria" em [Exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log).
 
@@ -112,7 +112,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
   |Serviço ou recurso do Microsoft 365|30 minutos|24 horas|
   |:-----|:-----:|:-----:|
-  |Proteção Avançada contra Ameaças e Inteligência contra Ameaças|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Defender para Office 365 e Inteligência Contra Ameaças|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Azure Active Directory (eventos de logon do usuário)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Azure Active Directory (eventos de administração)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Prevenção contra Perda de Dados|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
@@ -139,6 +139,9 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
 ## <a name="search-the-audit-log"></a>Pesquisar o log de auditoria
 
+> [!NOTE]
+> No momento, estamos investigando um problema em que as atividades do Azure Active Directory não estão disponíveis na ferramenta de pesquisa de log de auditoria. Este problema começou por volta de 26 de outubro de 2020. Essas atividades incluem atividades de administração de usuário do Azure Active Directory, atividades de administração de grupo, atividades de administração de aplicativo, atividades de administração de função e atividades de administração de diretório. Forneceremos uma atualização quando o problema for resolvido.
+    
 A seguir, veja o processo para pesquisar o log de auditoria do Office 365. 
 
 [Etapa 1: Executar uma pesquisa de log de auditoria](#step-1-run-an-audit-log-search)
@@ -158,9 +161,9 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
 2. Entre usando sua conta de trabalho ou da escola.
 
-3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisar** e, em seguida, clique em **Pesquisa de Log de Auditoria** .
+3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisar** e, em seguida, clique em **Pesquisa de Log de Auditoria**.
 
-    É exibida a página **Pesquisa de log de auditoria** .
+    É exibida a página **Pesquisa de log de auditoria**.
 
     ![Configure os critérios e clique em Pesquisar para executar o relatório](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
 
@@ -176,7 +179,7 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
    1. **Data de início** e **Data de término** : Os últimos sete dias são selecionados por padrão. Selecione um intervalo de datas e horas para exibir os eventos ocorridos durante esse período. A data e a hora são apresentadas no formato UTC (Tempo Universal Coordenado). O intervalo de datas máximo que você pode especificar é de 90 dias. Um erro será exibido se o período selecionado for superior a 90 dias.
 
       > [!TIP]
-      > Se você estiver usando o intervalo máximo de datas de 90 dias, selecione a hora atual para a **Data de início** . Caso contrário, você receberá um erro afirmando que a data de início é anterior à data de término. Se você tiver ativado a auditoria nos últimos 90 dias, o intervalo máximo de datas não poderá começar antes da data em que a auditoria foi ativada.
+      > Se você estiver usando o intervalo máximo de datas de 90 dias, selecione a hora atual para a **Data de início**. Caso contrário, você receberá um erro afirmando que a data de início é anterior à data de término. Se você tiver ativado a auditoria nos últimos 90 dias, o intervalo máximo de datas não poderá começar antes da data em que a auditoria foi ativada.
 
    1. **Usuários** : Clique nessa caixa e selecione um ou mais usuários para os quais deseja exibir resultados. As entradas do log de auditoria para a atividade selecionada realizada pelos usuários que você seleciona nessa caixa são exibidas na lista de resultados. Deixe essa caixa em branco para retornar entradas para todos os usuários (e contas de serviço) na sua organização.
 
@@ -192,7 +195,7 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
 5. Clique em **Pesquisar** para executar a pesquisa usando seus critérios de pesquisa. 
 
-   Os resultados da pesquisa são carregados e, depois de alguns momentos, são exibidos em **Resultados** . Quando a pesquisa estiver concluída, o número de resultados encontrados será exibido. Um máximo de 5.000 eventos serão exibidos no painel **Resultados** em incrementos de 150 eventos. Se mais de 5.000 eventos atenderem aos critérios de pesquisa, os 5.000 mais recentes serão exibidos.
+   Os resultados da pesquisa são carregados e, depois de alguns momentos, são exibidos em **Resultados**. Quando a pesquisa estiver concluída, o número de resultados encontrados será exibido. Um máximo de 5.000 eventos serão exibidos no painel **Resultados** em incrementos de 150 eventos. Se mais de 5.000 eventos atenderem aos critérios de pesquisa, os 5.000 mais recentes serão exibidos.
 
    ![O número de resultados é exibido após a conclusão da pesquisa](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
 
@@ -202,17 +205,17 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
   ![Clique no nome do grupo de atividade para selecionar todas as atividades](../media/3cde97cb-6f35-47c0-8612-ecd9c6ac36a3.png)
 
-- É necessário selecionar **Mostrar resultados para todas as atividades** , na lista **Atividades** para exibir eventos do log de auditoria de administradores do Exchange. Os eventos desse log de auditoria exibem um nome de cmdlet (por exemplo, **Set-Mailbox** ) na coluna **Atividade** dos resultados. Para obter mais informações, clique na guia **Atividades auditadas** neste tópico e, em seguida, clique em **Atividades de administração do Exchange** .
+- É necessário selecionar **Mostrar resultados para todas as atividades** , na lista **Atividades** para exibir eventos do log de auditoria de administradores do Exchange. Os eventos desse log de auditoria exibem um nome de cmdlet (por exemplo, **Set-Mailbox** ) na coluna **Atividade** dos resultados. Para obter mais informações, clique na guia **Atividades auditadas** neste tópico e, em seguida, clique em **Atividades de administração do Exchange**.
 
-  Da mesma forma, existem algumas atividades de auditoria que não possuem um item correspondente na lista **Atividades** . Se souber o nome da operação dessas atividades, você poderá procurar todas as atividades e, em seguida, filtrar os resultados, digitando o nome da operação na caixa da coluna **Atividade** . Confira a [Etapa 3: filtrar os resultados da pesquisa](#step-3-filter-the-search-results) para saber mais sobre como filtrar os resultados.
+  Da mesma forma, existem algumas atividades de auditoria que não possuem um item correspondente na lista **Atividades**. Se souber o nome da operação dessas atividades, você poderá procurar todas as atividades e, em seguida, filtrar os resultados, digitando o nome da operação na caixa da coluna **Atividade**. Confira a [Etapa 3: filtrar os resultados da pesquisa](#step-3-filter-the-search-results) para saber mais sobre como filtrar os resultados.
 
 - Clique em **Limpar** para limpar os critérios de pesquisa atuais. O intervalo de datas retorna para os últimos sete dias padrão. Você também pode clicar em **Limpar tudo para mostrar resultados de todas as atividades** para cancelar todas as atividades selecionadas.
 
-- Se 5.000 resultados forem encontrados, você poderá supor que existam provavelmente mais de 5.000 eventos que corresponderam aos critérios de pesquisa. É possível restringir os critérios de pesquisa e executar a pesquisa novamente para retornar menos resultados ou exportar todos os resultados da pesquisa selecionando **Exportar resultados** \> **Baixar todos os resultados** .
+- Se 5.000 resultados forem encontrados, você poderá supor que existam provavelmente mais de 5.000 eventos que corresponderam aos critérios de pesquisa. É possível restringir os critérios de pesquisa e executar a pesquisa novamente para retornar menos resultados ou exportar todos os resultados da pesquisa selecionando **Exportar resultados** \> **Baixar todos os resultados**.
 
 ### <a name="step-2-view-the-search-results"></a>Etapa 2: Exibir os resultados da pesquisa
 
-Os resultados de uma pesquisa de log de auditoria são exibidos em **Resultados** , na página **Pesquisa de log de auditoria** . Conforme mencionado anteriormente, um máximo de 5.000 eventos (mais recentes) é exibido em incrementos de 150 eventos. Para exibir mais eventos, use a barra de rolagem no painel **Resultados** ou pressione **Shift+End** para exibir os próximos 150 eventos.
+Os resultados de uma pesquisa de log de auditoria são exibidos em **Resultados** , na página **Pesquisa de log de auditoria**. Conforme mencionado anteriormente, um máximo de 5.000 eventos (mais recentes) é exibido em incrementos de 150 eventos. Para exibir mais eventos, use a barra de rolagem no painel **Resultados** ou pressione **Shift+End** para exibir os próximos 150 eventos.
 
 Os resultados contêm as seguintes informações sobre cada evento retornado pela pesquisa:
 
@@ -225,7 +228,7 @@ Os resultados contêm as seguintes informações sobre cada evento retornado pel
 
 - **Usuário** : O usuário (ou a conta de serviço) que realizou a ação que disparou o evento.
 
-- **Atividade** : A atividade realizada pelo usuário. Esse valor corresponde às atividades que você selecionou na lista suspensa **Atividades** . Para um evento do log de auditoria de administradores do Exchange, o valor nessa coluna é um cmdlet do Exchange.
+- **Atividade** : A atividade realizada pelo usuário. Esse valor corresponde às atividades que você selecionou na lista suspensa **Atividades**. Para um evento do log de auditoria de administradores do Exchange, o valor nessa coluna é um cmdlet do Exchange.
 
 - **Item** : O objeto que foi criado ou modificado como resultado da atividade correspondente. Por exemplo, o arquivo que foi exibido ou modificado ou a conta do usuário que foi atualizada. Nem todas as atividades têm um valor nesta coluna.
 
@@ -236,7 +239,7 @@ Os resultados contêm as seguintes informações sobre cada evento retornado pel
 
 #### <a name="view-the-details-for-a-specific-event"></a>Exibir os detalhes de um evento específico
 
-É possível visualizar mais detalhes sobre o evento clicando no registro de evento na lista de resultados da pesquisa. É exibida uma página **Detalhes** que contém as propriedades detalhadas do registro do evento. As propriedades exibidas dependem do serviço em que o evento ocorre. Para exibir esses detalhes, clique em **Mais informações** . Para obter descrições, confira [Propriedades detalhadas no log de auditoria](detailed-properties-in-the-office-365-audit-log.md).
+É possível visualizar mais detalhes sobre o evento clicando no registro de evento na lista de resultados da pesquisa. É exibida uma página **Detalhes** que contém as propriedades detalhadas do registro do evento. As propriedades exibidas dependem do serviço em que o evento ocorre. Para exibir esses detalhes, clique em **Mais informações**. Para obter descrições, confira [Propriedades detalhadas no log de auditoria](detailed-properties-in-the-office-365-audit-log.md).
 
 ![Clique em Mais informações para exibir as propriedades detalhadas do registro de eventos do log de auditoria](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
 
@@ -248,7 +251,7 @@ Para filtrar os resultados:
 
 1. Execute uma pesquisa de logs de auditoria.
 
-2. Quando os resultados forem exibidos, clique em **Filtrar resultados** .
+2. Quando os resultados forem exibidos, clique em **Filtrar resultados**.
 
    Caixas de palavras-chave são exibidas em cada cabeçalho de coluna.
 
@@ -256,10 +259,10 @@ Para filtrar os resultados:
 
    ![Digite uma palavra no filtro para exibir os eventos que correspondam ao filtro](../media/542dc323-a997-402c-934b-cc5e218e50bc.png)
 
-4. Para limpar um filtro, clique em **X** na caixa de filtro ou clique em **Ocultar filtragem** .
+4. Para limpar um filtro, clique em **X** na caixa de filtro ou clique em **Ocultar filtragem**.
 
 > [!TIP]
-> Para exibir eventos do log de auditoria de administradores do Exchange, digite um **-** (traço) na caixa de filtro **Atividade** . Isto exibirá nomes de cmdlets, que aparecem na coluna **Atividade** para eventos de administradores do Exchange. Em seguida, você pode classificar os nomes de cmdlets em ordem alfabética.
+> Para exibir eventos do log de auditoria de administradores do Exchange, digite um **-** (traço) na caixa de filtro **Atividade**. Isto exibirá nomes de cmdlets, que aparecem na coluna **Atividade** para eventos de administradores do Exchange. Em seguida, você pode classificar os nomes de cmdlets em ordem alfabética.
 
 ### <a name="step-4-export-the-search-results-to-a-file"></a>Etapa 4: Exportar os resultados da pesquisa para um arquivo
 
@@ -269,9 +272,9 @@ Para filtrar os resultados:
 
 2. Clique em **Exportar resultados** e selecione uma das seguintes opções:
 
-   - **Salvar resultados carregados** : Escolha essa opção para exportar somente as entradas exibidas em **Resultados** , na página **Pesquisa de log de auditoria** . O arquivo CSV baixado contém as mesmas colunas (e dados) exibidos na página (Data, Usuário, Atividade, Item e Detalhes). Uma coluna extra (chamado **Mais** ) é incluída no arquivo CSV que contém mais informações da entrada do log de auditoria. Como você está exportando os mesmos resultados que estão carregados (e visíveis) na página **Pesquisa de log de auditoria** , no máximo 5.000 entradas são exportadas.
+   - **Salvar resultados carregados** : Escolha essa opção para exportar somente as entradas exibidas em **Resultados** , na página **Pesquisa de log de auditoria**. O arquivo CSV baixado contém as mesmas colunas (e dados) exibidos na página (Data, Usuário, Atividade, Item e Detalhes). Uma coluna extra (chamado **Mais** ) é incluída no arquivo CSV que contém mais informações da entrada do log de auditoria. Como você está exportando os mesmos resultados que estão carregados (e visíveis) na página **Pesquisa de log de auditoria** , no máximo 5.000 entradas são exportadas.
 
-   - **Baixar todos os resultados** Escolha essa opção para exportar todas as entradas do log de auditoria que correspondem aos critérios de pesquisa. Para um grande conjunto de resultados de pesquisa, escolha essa opção para baixar todas as entradas do log de auditoria, além das 5.000 registros de auditoria que podem ser exibidos na página de **Pesquisa de log de auditoria** . Essa opção baixa os dados brutos do log de auditoria para um arquivo CSV e contém informações adicionais da entrada do log de auditoria em uma coluna chamada **AuditData** . O download do arquivo poderá ser mais demorado se você escolher essa opção de exportação, pois o arquivo pode ser muito maior do que o baixado com a outra opção.
+   - **Baixar todos os resultados** Escolha essa opção para exportar todas as entradas do log de auditoria que correspondem aos critérios de pesquisa. Para um grande conjunto de resultados de pesquisa, escolha essa opção para baixar todas as entradas do log de auditoria, além das 5.000 registros de auditoria que podem ser exibidos na página de **Pesquisa de log de auditoria**. Essa opção baixa os dados brutos do log de auditoria para um arquivo CSV e contém informações adicionais da entrada do log de auditoria em uma coluna chamada **AuditData**. O download do arquivo poderá ser mais demorado se você escolher essa opção de exportação, pois o arquivo pode ser muito maior do que o baixado com a outra opção.
 
      > [!IMPORTANT]
      > É possível baixar no máximo 50 mil entradas para um arquivo CSV de uma única pesquisa de logs de auditoria. Se 50 mil entradas forem baixadas para o arquivo CSV, você poderá supor que existem provavelmente mais de 50 mil eventos que corresponderam aos critérios de pesquisa. Para exportar mais do que esse limite, tente usar um intervalo de datas para reduzir o número de entradas do log de auditoria. Talvez seja necessário executar várias pesquisas com intervalos de datas menores para exportar mais de 50 mil entradas.
@@ -284,7 +287,7 @@ Para filtrar os resultados:
 
   Depois de dividir a coluna **AuditData** , você pode filtrar a coluna **Operações** para exibir as propriedades detalhadas de um tipo específico de atividade.
 
-- A opção **Baixar todos os resultados** baixa os dados brutos do log de auditoria em um arquivo CSV. Esse arquivo contém nomes de coluna diferentes (CreationDate, userIds, Operação, AuditData) que o arquivo que será baixado se você selecionar a opção **Salvar resultados carregados** . Os valores nos dois arquivos CSV diferentes para a mesma atividade também podem ser diferentes. Por exemplo, a atividade da coluna **Ação** no arquivo CSV e pode ter um valor diferente do nome "amigável" que é exibido na coluna **Atividade** da página **Pesquisa de log de auditoria** . Por exemplo, MailboxLogin vs. Usuário conectado à caixa de correio.
+- A opção **Baixar todos os resultados** baixa os dados brutos do log de auditoria em um arquivo CSV. Esse arquivo contém nomes de coluna diferentes (CreationDate, userIds, Operação, AuditData) que o arquivo que será baixado se você selecionar a opção **Salvar resultados carregados**. Os valores nos dois arquivos CSV diferentes para a mesma atividade também podem ser diferentes. Por exemplo, a atividade da coluna **Ação** no arquivo CSV e pode ter um valor diferente do nome "amigável" que é exibido na coluna **Atividade** da página **Pesquisa de log de auditoria**. Por exemplo, MailboxLogin vs. Usuário conectado à caixa de correio.
 
 - Quando você baixa todos os resultados de uma consulta de pesquisa que contém eventos de diferentes serviços, a coluna **AuditData** do arquivo CSV contém propriedades diferentes, dependendo do serviço no qual a ação foi realizada. Por exemplo, as entradas do Exchange e os logs de auditoria do Azure AD incluem uma propriedade chamada **ResultStatus** que indica se a ação teve êxito ou não. Essa propriedade não está incluída para eventos do SharePoint. Da mesma forma, os eventos do SharePoint têm uma propriedade que identifica a URL do site para atividades relacionadas a arquivos pastas. Para atenuar esse comportamento, considere usar diferentes pesquisas para exportar os resultados de atividades de um único serviço.
 
@@ -477,7 +480,7 @@ Ambos eventos FilePreviewed e FileAccessed indicam que a chamada de um usuário 
 
 #### <a name="the-appsharepoint-user-in-audit-records"></a>O usuário app\@sharepoint em registros de auditoria
 
-Nos registros de auditoria para algumas atividades de arquivo (e outras atividades relacionadas ao SharePoint), você pode perceber que o usuário que executou a atividade (identificado nos campos Usuário e ID do usuário) é app@sharepoint. Isso indica que o "usuário" que executou a atividade é um aplicativo. Nesse caso, o aplicativo recebeu permissões no SharePoint para executar ações em toda a organização (como pesquisar em um site do SharePoint ou em uma conta do OneDrive) em nome de um usuário, administrador ou serviço. Esse processo de conceder permissões a um aplicativo é chamado de acesso *Somente Aplicativo do SharePoint* . Isso indica que a autenticação apresentada ao SharePoint para executar uma ação foi realizada por um aplicativo, em vez de um usuário. É por isso que o usuário app@sharepoint é identificado em determinados registros de auditoria. Para obter mais informações, confira [Conceder acesso usando Somente Aplicativo do SharePoint](https://docs.microsoft.com/sharepoint/dev/solution-guidance/security-apponly-azureacs).
+Nos registros de auditoria para algumas atividades de arquivo (e outras atividades relacionadas ao SharePoint), você pode perceber que o usuário que executou a atividade (identificado nos campos Usuário e ID do usuário) é app@sharepoint. Isso indica que o "usuário" que executou a atividade é um aplicativo. Nesse caso, o aplicativo recebeu permissões no SharePoint para executar ações em toda a organização (como pesquisar em um site do SharePoint ou em uma conta do OneDrive) em nome de um usuário, administrador ou serviço. Esse processo de conceder permissões a um aplicativo é chamado de acesso *Somente Aplicativo do SharePoint*. Isso indica que a autenticação apresentada ao SharePoint para executar uma ação foi realizada por um aplicativo, em vez de um usuário. É por isso que o usuário app@sharepoint é identificado em determinados registros de auditoria. Para obter mais informações, confira [Conceder acesso usando Somente Aplicativo do SharePoint](https://docs.microsoft.com/sharepoint/dev/solution-guidance/security-apponly-azureacs).
 
 Por exemplo, app@sharepoint é frequentemente identificado como o usuário dos eventos "Consulta de pesquisa realizada" e "Arquivo acessado". Isso ocorre porque um aplicativo com acesso Somente Aplicativo do SharePoint em sua organização realiza consultas de pesquisa e acessa arquivos ao aplicar políticas de retenção a sites e contas do OneDrive.
 
@@ -663,7 +666,7 @@ A tabela a seguir lista as atividades que podem ser registradas pelo log de audi
 |Mensagens copiadas para outra pasta|Copiar|Uma mensagem foi copiada para outra pasta.|
 |Criação de item de caixa de correio|Criar|Um item é criado nas pastas Calendário, Contatos, Anotações ou Tarefas da caixa de correio. Por exemplo, uma nova solicitação de reunião é criada. Criar, enviar ou receber uma mensagem não é auditada. Criar pastas de caixa de correio também não é uma ação auditada.|
 |Criada nova regra da caixa de entrada do Outlook Web App|New-InboxRule|Um proprietário da caixa de correio ou outro usuário com acesso à caixa de correio criou uma regra da caixa de entrada do Outlook Web App.|
-|Mensagens excluídas da pasta Itens Excluídos|SoftDelete|Uma mensagem foi permanentemente excluída ou foi excluída da pasta Itens Excluídos. Esses itens são movidos para a pasta Itens Recuperáveis. As mensagens também são movidas para a pasta Itens Recuperáveis quando um usuário as seleciona e pressiona **Shift+Delete** .|
+|Mensagens excluídas da pasta Itens Excluídos|SoftDelete|Uma mensagem foi permanentemente excluída ou foi excluída da pasta Itens Excluídos. Esses itens são movidos para a pasta Itens Recuperáveis. As mensagens também são movidas para a pasta Itens Recuperáveis quando um usuário as seleciona e pressiona **Shift+Delete**.|
 |Mensagem rotulada como um registro|ApplyRecordLabel|Uma mensagem foi classificada como um registro. Isso ocorre quando um rótulo de retenção que classifica o conteúdo como um registro é automaticamente aplicado a uma mensagem.|
 |Mensagens movidas para outra pasta|Mover|Uma mensagem foi movida para outra pasta.|
 |Mensagens movidas para a pasta Itens Excluídos|MoveToDeletedItems|Uma mensagem foi excluída e movida para a pasta Itens Excluídos.|
@@ -809,7 +812,7 @@ Você pode pesquisar o log de auditoria das atividades de usuários e de adminis
 
 ### <a name="microsoft-teams-healthcare-activities"></a>Atividades do Microsoft Teams Healthcare
 
-Se a sua organização estiver usando o [aplicativo Patients ](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) do Microsoft Teams, você poderá pesquisar o log de auditoria para atividades relacionadas ao uso do aplicativo Patients. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Patients, um grupo de atividades adicionais para essas atividades estará disponível na lista seletora **Atividades** .
+Se a sua organização estiver usando o [aplicativo Patients ](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) do Microsoft Teams, você poderá pesquisar o log de auditoria para atividades relacionadas ao uso do aplicativo Patients. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Patients, um grupo de atividades adicionais para essas atividades estará disponível na lista seletora **Atividades**.
 
 ![Atividades do Microsoft Teams Healthcare na lista seletora Atividades](../media/TeamsHealthcareAuditActivities.png)
 
@@ -817,20 +820,20 @@ Para obter uma descrição das atividades do aplicativos Patients, confira [Logs
 
 ### <a name="microsoft-teams-shifts-activities"></a>Atividades de Turnos do Microsoft Teams
 
-Se sua organização estiver usando o aplicativo Turnos no Microsoft Teams, você poderá pesquisar o log de auditoria por atividades relacionadas ao uso do aplicativo Turnos. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Turnos, um grupo de atividades adicionais para essas atividades estará disponível na lista de seleção **Atividades** .
+Se sua organização estiver usando o aplicativo Turnos no Microsoft Teams, você poderá pesquisar o log de auditoria por atividades relacionadas ao uso do aplicativo Turnos. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Turnos, um grupo de atividades adicionais para essas atividades estará disponível na lista de seleção **Atividades**.
 
 Para obter uma descrição das atividades do aplicativo Turnos, confira [Pesquisar eventos no log de auditoria no Microsoft Teams](https://docs.microsoft.com/microsoftteams/audit-log-events#shifts-in-teams-activities).
 
 ### <a name="yammer-activities"></a>Atividades do Yammer
 
-A tabela a seguir lista as atividades de usuários e de administradores no Yammer que estejam conectados ao log de auditoria. Para retornar atividades relacionadas ao Yammer no log de auditoria, escolha **Mostrar resultados para todas as atividades** na lista **Atividades** . Use as caixas de intervalo de datas e a lista de **Usuários** para restringir os resultados da pesquisa.
+A tabela a seguir lista as atividades de usuários e de administradores no Yammer que estejam conectados ao log de auditoria. Para retornar atividades relacionadas ao Yammer no log de auditoria, escolha **Mostrar resultados para todas as atividades** na lista **Atividades**. Use as caixas de intervalo de datas e a lista de **Usuários** para restringir os resultados da pesquisa.
 
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
 |Política de retenção de dados alterada|SoftDeleteSettingsUpdated|O administrador verificado atualiza a configuração da política de retenção de dados da rede para Exclusão Irreversível ou Exclusão Temporária. Somente administradores verificados podem realizar essa operação.|
 |Configuração de rede alterada|NetworkConfigurationUpdated|O administrador de rede ou administrador verificado altera as configurações da rede do Yammer. Isso inclui a definição do intervalo de exportação de dados e de habilitação do chat.|
 |Configurações de perfil de rede alteradas|ProcessProfileFields|O administrador de rede ou verificado altera as informações que aparecem em perfis de membro para a rede de usuários da rede.|
-|Modo de Conteúdo Particular modificado|SupervisorAdminToggled|O administrador verificado ativa ou desativa o *Modo de Conteúdo Particular* . Esse modo permite que um administrador visualize postagens em grupos particulares e visualize mensagens particulares entre usuários individuais (ou grupos de usuários). Somente administradores verificados podem realizar essa operação.|
+|Modo de Conteúdo Particular modificado|SupervisorAdminToggled|O administrador verificado ativa ou desativa o *Modo de Conteúdo Particular*. Esse modo permite que um administrador visualize postagens em grupos particulares e visualize mensagens particulares entre usuários individuais (ou grupos de usuários). Somente administradores verificados podem realizar essa operação.|
 |Configurações de segurança alteradas|NetworkSecurityConfigurationUpdated|O administrador verificado atualiza as configurações de segurança da rede do Yammer. Isso inclui a definição de políticas de expiração de senha e restrições de endereços IP. Somente administradores verificados podem realizar essa operação.|
 |Arquivo criado|FileCreated|O usuário carrega um arquivo.|
 |Grupo criado|GroupCreation|O usuário cria um grupo.|
@@ -913,7 +916,7 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Link de resumo criado|GetSummaryLink|O proprietário do formulário cria links de resumo para compartilhar resultados.|
 |Link de resumo excluído|DeleteSummaryLink|O proprietário do formulário exclui o link de resultados de resumo.|
 |Formulário de status de phishing atualizado|UpdatePhishingStatus|Este evento é registrado sempre que o valor detalhado para o status de segurança interna for alterado, independentemente de isso ter alterado o estado de segurança final (por exemplo, o formulário agora está Fechado ou Aberto). Isso significa que você pode ver eventos duplicados sem uma alteração final do estado de segurança. Os valores de status possíveis para este evento são:<br/>- Derrubar <br/>- Retirado por Administrador <br/>- Administrador Desbloqueado <br/>- Auto Bloqueado <br/>- Auto Desbloqueado <br/>- Relatado pelo Cliente <br/>- Redefinir Relatado pelo Cliente|
-|Status de phishing do usuário atualizado|UpdateUserPhishingStatus|Este evento é registrado sempre que o valor do status de segurança do usuário é alterado. O valor do status do usuário no registro de auditoria é **Confirmado como Phisher** quando o usuário criou um formulário de phishing que foi removido pela equipe de segurança do Microsoft Online. Se um administrador desbloquear o usuário, o valor do status do usuário é definido como **Redefinir como Usuário Normal** .|
+|Status de phishing do usuário atualizado|UpdateUserPhishingStatus|Este evento é registrado sempre que o valor do status de segurança do usuário é alterado. O valor do status do usuário no registro de auditoria é **Confirmado como Phisher** quando o usuário criou um formulário de phishing que foi removido pela equipe de segurança do Microsoft Online. Se um administrador desbloquear o usuário, o valor do status do usuário é definido como **Redefinir como Usuário Normal**.|
 |Convite do Forms Pro enviado|ProInvitation|O usuário clica para ativar uma avaliação do Pro.|
 |Configuração do formulário atualizado|UpdateFormSetting|O proprietário do formulário atualiza a configuração de um formulário. <br><br>A propriedade FormSettingName:string indica o nome e o novo valor da configuração.|
 |Configuração de usuário atualizada|UpdateUserSetting|O proprietário do formulário atualiza a configuração de um usuário. <br><br>A propriedade UserSettingName:string indica o nome e o novo valor da configuração|
@@ -923,7 +926,7 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 
 #### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>Atividades do Forms realizadas por coautores e respondentes anônimos
 
-Os formulários oferecem suporte à colaboração quando os formulários são projetados e ao analisar as respostas. Um colaborador de formulário é conhecido como um *coautor* . Os coautores podem fazer tudo o que um proprietário de formulário pode fazer, exceto excluir ou mover um formulário. O Forms também permite criar um formulário que pode ser respondido anonimamente. Isso significa que o respondente não precisa estar conectado à sua organização para responder a um formulário.
+Os formulários oferecem suporte à colaboração quando os formulários são projetados e ao analisar as respostas. Um colaborador de formulário é conhecido como um *coautor*. Os coautores podem fazer tudo o que um proprietário de formulário pode fazer, exceto excluir ou mover um formulário. O Forms também permite criar um formulário que pode ser respondido anonimamente. Isso significa que o respondente não precisa estar conectado à sua organização para responder a um formulário.
 
 A tabela a seguir descreve as atividades e informações de auditoria no registro de auditoria para atividades executadas por coautores e respondentes anônimos.
 
@@ -974,13 +977,13 @@ O log de auditoria de administradores do Exchange (que está habilitado por padr
 
 Aqui estão algumas dicas para pesquisar atividades de administração do Exchange ao pesquisar o log de auditoria:
 
-- Para retornar entradas do log de auditoria de administradores do Exchange, você precisa selecionar **Mostrar resultados para todas as atividades** na lista de **Atividades** . Use as caixas de intervalo de datas e a lista de **Usuários** para restringir os resultados da pesquisa para cmdlets executados por um administrador específico do Exchange dentro de um intervalo de datas específico.
+- Para retornar entradas do log de auditoria de administradores do Exchange, você precisa selecionar **Mostrar resultados para todas as atividades** na lista de **Atividades**. Use as caixas de intervalo de datas e a lista de **Usuários** para restringir os resultados da pesquisa para cmdlets executados por um administrador específico do Exchange dentro de um intervalo de datas específico.
 
-- Para exibir eventos do log de auditoria de administradores do Exchange, filtre os resultados da pesquisa e digite um **-** (traço) na caixa de filtro **Atividade** . São mostrados os nomes de cmdlets, que são exibidos na coluna **Atividade** para eventos de administradores do Exchange. Em seguida, você pode classificar os nomes de cmdlets em ordem alfabética.
+- Para exibir eventos do log de auditoria de administradores do Exchange, filtre os resultados da pesquisa e digite um **-** (traço) na caixa de filtro **Atividade**. São mostrados os nomes de cmdlets, que são exibidos na coluna **Atividade** para eventos de administradores do Exchange. Em seguida, você pode classificar os nomes de cmdlets em ordem alfabética.
 
   ![Digite um traço na caixa Atividades para filtrar os eventos de administração do Exchange](../media/7628e7aa-6263-474a-a28b-2dcf5694bb27.png)
 
-- Para obter informações sobre qual cmdlet foi executado, quais parâmetros e valores de parâmetros foram usados e quais objetos foram afetados, você pode exportar os resultados da pesquisa selecionando a opção **Baixar todos os resultados** . Para saber mais, confira [Exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).
+- Para obter informações sobre qual cmdlet foi executado, quais parâmetros e valores de parâmetros foram usados e quais objetos foram afetados, você pode exportar os resultados da pesquisa selecionando a opção **Baixar todos os resultados**. Para saber mais, confira [Exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).
 
 - Você também pode usar o comando `Search-UnifiedAuditLog -RecordType ExchangeAdmin` no PowerShell do Exchange Online para retornar somente registros de auditoria do log de auditoria de administradores do Exchange. Pode levar até 30 minutos após a execução de um cmdlet do Exchange para que a entrada do log de auditoria correspondente seja retornada nos resultados da pesquisa. Para saber mais, confira [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog). Para obter informações sobre como exportar os resultados da pesquisa retornados pelo cmdlet **Search-UnifiedAuditLog** para um arquivo CSV, confira a seção "Dicas para exportar e exibir o log de auditoria" em [Exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log).
 
@@ -996,7 +999,7 @@ Aqui estão algumas dicas para pesquisar atividades de administração do Exchan
 
 **Quais são os diferentes serviços do Microsoft 365 que atualmente são auditados?**
 
-Os serviços mais usados, como o Exchange Online, o SharePoint Online, o OneDrive for Business, o Azure Active Directory, o Microsoft Teams, o Dynamics 365, a Proteção Avançada Contra Ameaças e o Power BI são auditados. Confira o [Início deste artigo](search-the-audit-log-in-security-and-compliance.md) para obter uma lista de serviços que são auditados.
+Os serviços mais usados ​​como Exchange Online, Microsoft Office SharePoint Online, Microsoft OneDrive for Business, Azure Active Directory, Microsoft Teams, Dynamics 365, Defender para Office 365 e Power BI são auditados. Confira o [Início deste artigo](search-the-audit-log-in-security-and-compliance.md) para obter uma lista de serviços que são auditados.
 
 **Quais atividades são auditadas por serviço de auditoria no Office 365?**
 

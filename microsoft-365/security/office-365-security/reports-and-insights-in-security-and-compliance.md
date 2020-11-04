@@ -2,7 +2,7 @@
 title: Relatórios inteligentes, insights-centro de conformidade & segurança da Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: deniseb
+ms.author: siosulli
 author: denisebmsft
 manager: dansimp
 ms.date: ''
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os relatórios inteligentes e insights disponíveis no centro de conformidade do & de segurança e como usá-los para exibir e explorar dados e realizar ações rápidas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6a73e93de79f346fb1bce8da23e25194d202191
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 384ae51a514c31c659ce80f30e0b8c09976ec44b
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845511"
+ms.locfileid: "48877344"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Relatórios inteligentes e insights no Centro de Conformidade e Segurança
 

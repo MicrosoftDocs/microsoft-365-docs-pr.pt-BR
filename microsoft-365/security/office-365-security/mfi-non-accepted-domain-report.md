@@ -2,7 +2,7 @@
 title: Relatório de domínio não aceito no painel de fluxo de emails
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar mensagens de sua organização local onde o domínio do remetente não está configurado no Microsoft 365.
-ms.openlocfilehash: d05489ec4a6d670fc89b5d943b3e7061506b6fe8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 06acacb79c826cb465b3fd28086a7df9d64eabdc
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199320"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877712"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Relatório de domínio não aceito no centro de conformidade e segurança &
 
@@ -35,7 +35,7 @@ O Microsoft 365 pode reduzir essas mensagens se houver dados que comprovam que a
 
 Ao clicar no gráfico no widget **domínio não aceito** , você será direcionado para o relatório de **domínio não aceito** .
 
-Por padrão, a atividade de todos os conectores afetados é mostrada. Se você clicar em **Mostrar dados para**, poderá selecionar um conector específico na lista suspensa.
+Por padrão, a atividade de todos os conectores afetados é mostrada. Se você clicar em **Mostrar dados para** , poderá selecionar um conector específico na lista suspensa.
 
 Se você passar o mouse sobre um ponto de dados (dia) no gráfico, verá o número total de mensagens do conector.
 
@@ -49,7 +49,7 @@ Se você clicar em **Exibir tabela de detalhes** em um modo de exibição de rel
 - **Nome do conector de entrada**
 - **Domínio do remetente**
 - **Contagem de mensagem**
-- **Mensagens de exemplo**: as IDs de mensagem de uma amostra de mensagens afetadas.
+- **Mensagens de exemplo** : as IDs de mensagem de uma amostra de mensagens afetadas.
 
 Se você clicar em **filtros** em um modo de exibição de tabela detalhes, poderá especificar um intervalo de datas com **data de início** e data de **término**.
 
@@ -61,7 +61,7 @@ Quando você seleciona uma linha na tabela, um submenu aparece com as seguintes 
 - **Nome do conector de entrada**
 - **Domínio do remetente**
 - **Contagem de mensagem**
-- **Exemplos de mensagens**: você pode clicar em **Exibir mensagens de amostra** para ver os resultados de [rastreamento](message-trace-scc.md) de mensagens para um exemplo de mensagens afetadas.
+- **Exemplos de mensagens** : você pode clicar em **Exibir mensagens de amostra** para ver os resultados de [rastreamento](message-trace-scc.md) de mensagens para um exemplo de mensagens afetadas.
 
 ![Submenu de detalhes depois de selecionar uma linha no modo de exibição de tabela detalhes no relatório de domínio não aceito](../../media/mfi-non-accepted-domain-report-details-flyout.png)
 

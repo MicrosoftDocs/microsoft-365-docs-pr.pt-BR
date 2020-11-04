@@ -2,7 +2,7 @@
 title: Relatar emails de lixo eletrônico e phishing no Outlook para iOS e Android
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as opções internas de lixo eletrônico, não lixo eletrônico e relatório de email de phishing no Outlook para iOS e Android.
-ms.openlocfilehash: 23668a762301ee442bc805e62863079ee7ae6076
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 1c842ac5349f9c2804c637fa4c5598b06e8f489f
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350850"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877286"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Relatar emails de lixo eletrônico e phishing no Outlook para iOS e Android no Exchange Online
 
@@ -54,7 +54,7 @@ Para mensagens na caixa de entrada ou qualquer outra pasta de email, exceto lixo
 
    ![Relatar emails de lixo eletrônico ou phishing](../../media/Android-report-junk-or-phishing.png)
 
-4. Na caixa de diálogo exibida, você pode escolher **relatar** ou **não agradecer**. Ao selecionar **não graças**, se você tiver tocado **lixo** , a mensagem será movida para a pasta lixo eletrônico, se você **tiver tocado a** mensagem é movida para a pasta itens excluídos. Selecione **relatório** para também enviar uma cópia da mensagem para a Microsoft.
+4. Na caixa de diálogo exibida, você pode escolher **relatar** ou **não agradecer**. Ao selecionar **não graças** , se você tiver tocado **lixo** , a mensagem será movida para a pasta lixo eletrônico, se você **tiver tocado a** mensagem é movida para a pasta itens excluídos. Selecione **relatório** para também enviar uma cópia da mensagem para a Microsoft.
 
    ![Relatar opções de relatório de email de lixo eletrônico ou phishing](../../media/Android-junk-email-reporting-options.png)
 

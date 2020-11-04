@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Saiba mais sobre o Microsoft 365 Multi-Geo, como a funcionalidade multigeográfica funciona e quais localizações geográficas estão disponíveis para armazenar dados.
-ms.openlocfilehash: 1924141b86ba3e1c16e4760e0f40d61b6f47ce69
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a8eba731fac16e56ef66ac0a905de521dfa7a6c8
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687170"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877226"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Plano do Microsoft 365 Multi-Geo
 
@@ -30,7 +30,7 @@ Em uma configuração de várias regiões, o locatário do Microsoft 365 consist
 
 Vejamos alguns termos chave da multigeografia que o ajudarão a entender os conceitos básicos da configuração:
 
--   **Locatário** – A representação de uma organização no Microsoft 365 que normalmente possui um ou mais domínios associados à ela (por exemplo: https://contoso.sharepoint.com). 
+-   **Locatário** – A representação de uma organização no Microsoft 365 que normalmente possui um ou mais domínios associados à ela (por exemplo: https://contoso.sharepoint.com). 
 
 -   **Localizações geográficas** – Localizações geográficas disponíveis para hospedar os dados em um locatário do Microsoft 365.
 
@@ -73,7 +73,7 @@ Se os usuários serão sincronizados com um sistema do Active Directory local ao
 
 A administração de um locatário multigeográfico pode variar de um locatário que não seja de multigeografia, pois muitos dos serviços e configurações do SharePoint e do OneDrive detectam a multigeografia. Recomendamos que leia [Administrar um ambiente multigeográfico](administering-a-multi-geo-environment.md) antes de prosseguir com a configuração.
 
-Leia em [Experiência do usuário em um ambiente multigeográfico](multi-geo-user-experience.md) detalhes sobre a experiência dos usuários finais em um ambiente multigeográfico.
+Leia a [experiência do usuário em um ambiente multigeográfico](multi-geo-user-experience.md) para obter detalhes sobre a experiência dos seus usuários finais em um ambiente multigeográfico.
 
 Para obter mais detalhes sobre a experiência do Teams em um locatário do Microsoft 365 Multi-Geo, consulte [Experiência do Teams em um local multigeográfico habilitado do Microsoft 365 OneDrive e do SharePoint Online](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
 

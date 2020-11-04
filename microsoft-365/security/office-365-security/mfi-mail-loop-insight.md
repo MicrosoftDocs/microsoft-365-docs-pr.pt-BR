@@ -2,7 +2,7 @@
 title: Visão geral sobre correção de possíveis loop de email
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar a correção de possíveis loops de email no painel de fluxo de emails no centro de conformidade de & de segurança para identificar e corrigir loops de email em sua organização.
-ms.openlocfilehash: e868c020ae307ba490e85e5803f94a67a1a94057
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 15ad5c467d18ce3038bcb05db798a9b5a7c3e391
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198440"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877496"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Correção de possíveis informações de loop de email no centro de conformidade e segurança &
 
@@ -34,10 +34,10 @@ A **correção de possíveis loops de email** na área **recomendada para você*
 Quando você clica em **Exibir detalhes** no widget, um submenu aparece com mais informações:
 
 - **Domínio**
-- **Número de mensagens**: você pode clicar em **Exibir exemplos de mensagens** para ver os resultados do [rastreamento](message-trace-scc.md) de mensagens para um exemplo das mensagens que foram afetadas pelo loop.
-- **Tipo de domínio**"por exemplo, autoritativo ou não autoritativo.
-- **Registro MX**: o host (**servidor de email**) e os valores de **prioridade** do registro MX do domínio.
-- **Motivo do loop** e **como corrigir**: tentaremos identificar os cenários de loop de email mais comuns e fornecer as ações recomendadas (se disponível) para corrigir o loop.
+- **Número de mensagens** : você pode clicar em **Exibir exemplos de mensagens** para ver os resultados do [rastreamento](message-trace-scc.md) de mensagens para um exemplo das mensagens que foram afetadas pelo loop.
+- **Tipo de domínio** "por exemplo, autoritativo ou não autoritativo.
+- **Registro MX** : o host ( **servidor de email** ) e os valores de **prioridade** do registro MX do domínio.
+- **Motivo do loop** e **como corrigir** : tentaremos identificar os cenários de loop de email mais comuns e fornecer as ações recomendadas (se disponível) para corrigir o loop.
 
 ![Submenu de detalhes que aparece depois de clicar em Exibir detalhes na correção de possíveis loops de emails](../../media/mfi-fix-possible-mail-loop-details.png)
 

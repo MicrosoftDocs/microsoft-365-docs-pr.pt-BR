@@ -2,7 +2,7 @@
 title: Visão geral sobre regras de correção de fluxo reduzido de email
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -14,12 +14,12 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender como usar a correção de regras de fluxo de emails lentos no centro de conformidade de & de segurança para identificar e corrigir regras de fluxo de emails ineficientes ou desfeitas (também conhecidas como regras de transporte) em sua organização.
-ms.openlocfilehash: 2f9a35534ab4377cff164b38eeb66dd55c48d5b9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6a2a3c42eadf3c621b34d2a21344eafd2618e669
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199260"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877532"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Correção de regras de fluxo de email lentos no centro de conformidade e segurança &
 
@@ -40,10 +40,10 @@ Você pode usar essa notificação para ajudá-lo a identificar e ajustar as reg
 
 Quando você clica em **Exibir detalhes** no widget, um submenu aparece com mais informações:
 
-- **Regra**: você pode passar o mouse sobre o resumo para ver todas as condições, exceções e ações da regra. Você pode clicar no resumo para editar a regra no centro de administração do Exchange (Eat).
-- **Número de mensagens avaliadas**: você pode clicar em **Exibir exemplos de mensagens** para ver os resultados do [rastreamento](message-trace-scc.md) de mensagens para um exemplo das mensagens que foram afetadas pela regra.
+- **Regra** : você pode passar o mouse sobre o resumo para ver todas as condições, exceções e ações da regra. Você pode clicar no resumo para editar a regra no centro de administração do Exchange (Eat).
+- **Número de mensagens avaliadas** : você pode clicar em **Exibir exemplos de mensagens** para ver os resultados do [rastreamento](message-trace-scc.md) de mensagens para um exemplo das mensagens que foram afetadas pela regra.
 - **Tempo médio gasto em cada mensagem**
-- **Tempo médio gasto em uma mensagem**: o valor intermediário que separa a metade superior da metade inferior dos dados de tempo.
+- **Tempo médio gasto em uma mensagem** : o valor intermediário que separa a metade superior da metade inferior dos dados de tempo.
 
 ![Submenu de detalhes que aparece depois de clicar em Exibir detalhes na visão de regras de fluxo de emails de correção lenta](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 

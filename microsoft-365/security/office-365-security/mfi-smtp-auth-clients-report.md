@@ -2,7 +2,7 @@
 title: Relatórios de clientes de autenticação SMTP percepção e relatório no painel de fluxo de emails
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar a percepção e o relatório de autenticação SMTP no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar remetentes de email em sua organização que usam SMTP autenticado (autenticação SMTP) para enviar mensagens de email.
-ms.openlocfilehash: 7ca673e5ecc92c28996a976c26a38ae570f16203
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 54798dfcad50c263705b027c879fdf71d0dabfba
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199236"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877556"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Clientes de autenticação SMTP percepção e relatório no centro de conformidade e segurança &
 
@@ -45,11 +45,11 @@ Por padrão, o relatório mostra os dados dos últimos 7 dias, mas os dados est�
 
 A seção visão geral contém os seguintes gráficos:
 
-- **Exibir dados por: enviando o volume**: por padrão, o gráfico mostra o número de mensagens de cliente de autenticação SMTP que foram enviadas de todos os domínios (**Mostrar dados de: todos os domínios do remetente** estão selecionados por padrão). Você pode filtrar os resultados em um domínio de remetente específico clicando em **Mostrar dados para** e selecionando o domínio do remetente na lista suspensa. Se você focalizar um ponto de dados específico (dia), o número de mensagens será exibido.
+- **Exibir dados por: enviando o volume** : por padrão, o gráfico mostra o número de mensagens de cliente de autenticação SMTP que foram enviadas de todos os domínios ( **Mostrar dados de: todos os domínios do remetente** estão selecionados por padrão). Você pode filtrar os resultados em um domínio de remetente específico clicando em **Mostrar dados para** e selecionando o domínio do remetente na lista suspensa. Se você focalizar um ponto de dados específico (dia), o número de mensagens será exibido.
 
   ![Enviando o modo de exibição de volume no relatório de clientes de autenticação SMTP no centro de conformidade & segurança](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
 
-- **Exibir dados por: uso de TLS**: o gráfico mostra a porcentagem de uso de TLS para todas as mensagens de cliente de autenticação SMTP durante o período de tempo selecionado. Este gráfico permite identificar e executar ações sobre usuários e contas de sistema que ainda estão usando versões mais antigas do TLS.
+- **Exibir dados por: uso de TLS** : o gráfico mostra a porcentagem de uso de TLS para todas as mensagens de cliente de autenticação SMTP durante o período de tempo selecionado. Este gráfico permite identificar e executar ações sobre usuários e contas de sistema que ainda estão usando versões mais antigas do TLS.
 
   ![Modo de exibição de uso de TLS no relatório de clientes de autenticação SMTP no centro de conformidade & segurança](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
 
@@ -59,16 +59,16 @@ Clique em **solicitar relatório** para receber uma versão mais detalhada do re
 
 ### <a name="details-table-view-for-the-smtp-auth-clients-report"></a>Exibição da tabela de detalhes para o relatório de clientes de autenticação SMTP
 
-Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+Se você clicar em **Exibir tabela de detalhes** , as informações mostradas dependem do gráfico que você estava observando:
 
-- **Exibir dados por: enviando volume**: as informações a seguir são mostradas em uma tabela:
+- **Exibir dados por: enviando volume** : as informações a seguir são mostradas em uma tabela:
 
   - **Endereço do remetente**.
   - **Contagem de mensagem**
 
   Se você selecionar uma linha, os mesmos detalhes serão mostrados em um submenu.
 
-- **Exibir dados por: uso de TLS**: as seguintes informações são mostradas em uma tabela:
+- **Exibir dados por: uso de TLS** : as seguintes informações são mostradas em uma tabela:
 
   - **Endereço do remetente**.
   - **TLS 1.0%**<sup>\*</sup>

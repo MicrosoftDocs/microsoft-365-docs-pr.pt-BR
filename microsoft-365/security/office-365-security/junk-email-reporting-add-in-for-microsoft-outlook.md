@@ -2,7 +2,7 @@
 title: Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Saiba como instalar e usar o suplemento relatório de lixo eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing à Microsoft.
-ms.openlocfilehash: 096bd83c53149360e6cdd3ba8e73aacce5b1106f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6e4c16ed8efd781a6e8ecea422fe55fb6723209c
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199680"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877544"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook
 
@@ -48,11 +48,11 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 
 1. Para mensagens na caixa de entrada ou em qualquer outra pasta de email, exceto lixo eletrônico, use qualquer um dos seguintes métodos para relatar mensagens de spam e phishing:
 
-   - Selecione a mensagem ou abra a mensagem. Na guia **página inicial** ou **mensagem** na faixa de opções, clique em **lixo eletrônico**e selecione **relatar como lixo eletrônico** ou **relatório como phishing**.
+   - Selecione a mensagem ou abra a mensagem. Na guia **página inicial** ou **mensagem** na faixa de opções, clique em **lixo eletrônico** e selecione **relatar como lixo eletrônico** ou **relatório como phishing**.
 
      ![Relatar emails de lixo eletrônico ou phishing da faixa de opções](../../media/junk-email-reporting-ribbon.png)
 
-   - Clique com o botão direito do mouse na mensagem, selecione **lixo eletrônico**e, em seguida, selecione **relatar como lixo eletrônico** ou **relatório como phishing**.
+   - Clique com o botão direito do mouse na mensagem, selecione **lixo eletrônico** e, em seguida, selecione **relatar como lixo eletrônico** ou **relatório como phishing**.
 
      ![Relatar emails de lixo eletrônico ou phishing do clique com o botão direito](../../media/junk-email-reporting-right-click.png)
 
@@ -77,11 +77,11 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 
 1. Na pasta lixo eletrônico, use qualquer um dos seguintes métodos para relatar falsos positivos de spam ou mensagens de phishing:
 
-   - Selecione a mensagem ou abra a mensagem. Na guia **página inicial** ou de **mensagem** na faixa de opções, clique em **não lixo eletrônico**e selecione **relatar como não lixo eletrônico** ou **relatar como phishing**.
+   - Selecione a mensagem ou abra a mensagem. Na guia **página inicial** ou de **mensagem** na faixa de opções, clique em **não lixo eletrônico** e selecione **relatar como não lixo eletrônico** ou **relatar como phishing**.
 
      ![Relatar não é lixo eletrônico ou email de phishing da faixa de opções na pasta lixo eletrônico](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
-   - Clique com o botão direito do mouse na mensagem, clique em **lixo eletrônico**e selecione **relatar como não lixo eletrônico** ou **relatar como phishing**.
+   - Clique com o botão direito do mouse na mensagem, clique em **lixo eletrônico** e selecione **relatar como não lixo eletrônico** ou **relatar como phishing**.
 
      ![Relatar emails não spam ou phishing do clique com o botão direito na pasta lixo eletrônico](../../media/junk-email-reporting-junk-folder-right-click.png)
 
@@ -108,8 +108,8 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 
 - Vá para <https://www.microsoft.com/download/details.aspx?id=18275> e baixe o arquivo. msi apropriado para sua versão do Office para um local que seja fácil de encontrar:
 
-  - **32**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
-  - **64**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **32** bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **64** bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
 - Para o Outlook 2013 ou posterior, o único pré-requisito é o Microsoft .NET Framework 2,0. No Windows 10, você não instala o .NET Framework 2,0 a partir de um download.
 
@@ -172,7 +172,7 @@ Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opç
 
 Para verificar se você instalou com êxito o suplemento relatório de lixo eletrônico, execute qualquer uma das seguintes etapas no Outlook:
 
-- Selecione a mensagem ou abra a mensagem. Na guia **página inicial** ou de **mensagem** na faixa de opções, clique em **lixo eletrônico**e verifique se as seguintes opções estão disponíveis:
+- Selecione a mensagem ou abra a mensagem. Na guia **página inicial** ou de **mensagem** na faixa de opções, clique em **lixo eletrônico** e verifique se as seguintes opções estão disponíveis:
 
   - **Relatar como lixo eletrônico**
   - **Relatar como phishing**
@@ -181,7 +181,7 @@ Para verificar se você instalou com êxito o suplemento relatório de lixo elet
 
   ![Relatar emails de lixo eletrônico ou phishing da faixa de opções](../../media/junk-email-reporting-ribbon.png)
 
-- Clique com o botão direito do mouse na mensagem, selecione **lixo eletrônico**e verifique se as seguintes opções estão disponíveis:
+- Clique com o botão direito do mouse na mensagem, selecione **lixo eletrônico** e verifique se as seguintes opções estão disponíveis:
 
   - **Relatar como lixo eletrônico**
   - **Relatar como phishing**
@@ -209,27 +209,27 @@ Para verificar se você instalou com êxito o suplemento relatório de lixo elet
 
 Após fechar o Outlook, use qualquer um dos seguintes procedimentos para desinstalar o suplemento relatório de lixo eletrônico:
 
-- **Painel de controle**: Pressione a tecla Windows + R. Na caixa de diálogo **executar** que é aberta, insira `control appwiz.cpl` e clique em **OK**.
+- **Painel de controle** : Pressione a tecla Windows + R. Na caixa de diálogo **executar** que é aberta, insira `control appwiz.cpl` e clique em **OK**.
 
   Localize e selecione o **suplemento relatório de lixo eletrônico da Microsoft** na lista e clique em **desinstalar**.
 
-- **Pacote do Windows Installer**: encontre ou baixe o arquivo. msi apropriado e clique duas vezes nele.
+- **Pacote do Windows Installer** : encontre ou baixe o arquivo. msi apropriado e clique duas vezes nele.
 
-  - **32**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **32** bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
-  - **64**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **64** bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
   Na caixa de diálogo exibida, selecione **remover suplemento relatório de lixo eletrônico da Microsoft para Outlook** e clique em **Avançar**.
 
-- **Modo silencioso**: encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando, substitua \<PathToFile\> o local do arquivo. msi e execute um dos seguintes comandos:
+- **Modo silencioso** : encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando, substitua \<PathToFile\> o local do arquivo. msi e execute um dos seguintes comandos:
 
-  - **32**bits:
+  - **32** bits:
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
     ```
 
-  - **64**bits:
+  - **64** bits:
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
@@ -263,7 +263,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
 
 1. Verifique ou defina a `LoggingLevel` chave do registro com o valor "Verbose":
 
-   - o **Outlook de 32 bits em Windows de 32 bits**:
+   - o **Outlook de 32 bits em Windows de 32 bits** :
 
      ```text
      Windows Registry Editor Version 5.00
@@ -272,7 +272,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
      "LoggingLevel"="Verbose"
      ```
 
-   - o **Outlook de 32 bits em Windows de 64 bits**:
+   - o **Outlook de 32 bits em Windows de 64 bits** :
 
      ```text
      Windows Registry Editor Version 5.00
@@ -281,7 +281,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
      "LoggingLevel"="Verbose"
      ```
 
-   - **64-bit Outlook**:
+   - **64-bit Outlook** :
 
      ```text
      Windows Registry Editor Version 5.00
