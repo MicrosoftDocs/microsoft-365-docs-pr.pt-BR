@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar e publicar automaticamente os rótulos de retenção para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: cb8b6840085a1a044c0bcb7bf8b09c5776a31e0e
-ms.sourcegitcommit: 31f25790b37dfb740530017ef1701db0c5134829
+ms.openlocfilehash: 9a4b19bd30201f5a5ff75b49ec384b451526b91b
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48740265"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877298"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -99,7 +99,7 @@ Ao criar uma política de aplicação automática, selecione um rótulo de reten
 
 1. No [Centro de Conformidade do Microsoft 365 ](https://compliance.microsoft.com/), navegue até um dos seguintes locais:
     
-    - Se você estiver usando o gerenciamento de registros: **Governança de Informações**:
+    - Se você estiver usando o gerenciamento de registros: **Governança de Informações** :
         - **Soluções** > **Gerenciamento de Registros** guia  > **Políticas de Rótulo** > **Aplicar rótulo automaticamente**
     
     - Se você não estiver usando o gerenciamento de registros:
@@ -128,7 +128,7 @@ Você pode aplicar os rótulos de retenção automaticamente ao conteúdo quando
 
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>Aplicar automaticamente rótulos a conteúdo com tipos específicos de informações confidenciais
 
-Ao criar rótulos de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política que quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura os números dos EUA ITIN, SSN e passaporte da categoria **Privacidade** e **Modelo de dados de Informações de Identificação Pessoal (PII) dos EUA**:
+Ao criar políticas de rótulo de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política de quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura os números dos EUA ITIN, SSN e passaporte da categoria **Privacidade** e **Modelo de dados de Informações de Identificação Pessoal (PII) dos EUA** :
 
 ![Modelos de política com tipos de informações confidenciais](../media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
 
@@ -136,7 +136,7 @@ Para obter mais informações sobre os tipos de informações confidenciais, con
 
 Após selecionar um modelo de política, você pode adicionar ou remover quaisquer tipos de informações confidenciais e pode alterar a contagem de instâncias e a precisão da correspondência. Na captura de tela de exemplo mostrada a seguir, um rótulo de retenção será automaticamente aplicado apenas quando:
   
-- O tipo de informações confidenciais detectadas tiver uma precisão de correspondência (ou um nível de confiança) de pelo menos 75. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão com maior precisão de correspondência requer mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão com precisão de correspondência inferior requer menos evidências. Quanto menor for a precisão de correspondência **min**, mais fácil será que o conteúdo corresponda à condição.
+- O tipo de informações confidenciais detectadas tiver uma precisão de correspondência (ou um nível de confiança) de pelo menos 75. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão com maior precisão de correspondência requer mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão com precisão de correspondência inferior requer menos evidências. Quanto menor for a precisão de correspondência **min** , mais fácil será que o conteúdo corresponda à condição.
 
 - O conteúdo contém entre uma e nove instâncias de qualquer um destes três tipos de informações confidenciais. Você pode excluir o valor **a** para que ele se transforme em **Qualquer**.
 
@@ -174,7 +174,7 @@ Consultas de exemplos:
 > [!NOTE]
 > A capacidade de reter e excluir gravações de reunião de equipes é distribuída na visualização e não funciona antes de as gravações serem salvas no Microsoft OneDrive ou no Microsoft Office SharePoint Online. Para saber mais, confira[Usar o OneDrive for Business e o SharePoint Online ou Stream para gravações de reunião](https://docs.microsoft.com/MicrosoftTeams/tmr-meeting-recording-change).
 
-Para identificar as gravações de reunião do Microsoft Teams que estão armazenadas nas contas do OneDrive do usuário ou no SharePoint, especifique o seguinte para o **Editor de consulta palavra-chave**:
+Para identificar as gravações de reunião do Microsoft Teams que estão armazenadas nas contas do OneDrive do usuário ou no SharePoint, especifique o seguinte para o **Editor de consulta palavra-chave** :
 
 ``` 
 ProgID:Media AND ProgID:Meeting
@@ -182,24 +182,24 @@ ProgID:Media AND ProgID:Meeting
 
 Para esse rótulo de retenção, você também deve publicá-lo em contas do Microsoft OneDrive ou sites do Microsoft Office SharePoint Online relevantes dos usuários, criando uma política de rótulo. Na maioria das vezes, as gravações de reunião são salvas no Microsoft OneDrive, mas para reuniões do canal, elas são salvas no Microsoft Office SharePoint Online.
 
-Depois de salvar a política de aplicação automática:
+Depois de ter salvo a política de rótulo de retenção de aplicação automática:
 
 1. Selecionar **Políticas de rótulos** guia > **Publicar rótulos**
 
-2. Quando for pedido para selecionar um rótulo, escolha o rótulo que você criou com a consulta KQL para identificar as gravações de reunião do Teams.
+2. Quando solicitado a selecionar um rótulo, escolha o mesmo rótulo que você selecionou para a política de aplicação automática que identifica as gravações de reuniões do Microsoft Teams.
 
-3. Quando for solicitado o local, escolha **Sites do Microsoft Office SharePoint Online** e **Contas do Microsoft OneDrive**. Em seguida, você pode manter o padrão de **Todas**ou especificar locais individuais, como incluir ou excluir contas específicas do Microsoft OneDrive.
+3. Quando for solicitado o local, escolha **Sites do Microsoft Office SharePoint Online** e **Contas do Microsoft OneDrive**. Em seguida, você pode manter o padrão de **Todas** ou especificar locais individuais, como incluir ou excluir contas específicas do Microsoft OneDrive.
 
 4. Conclua o assistente e salve essa política de rótulo.
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
 
-Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **Currículos**, **SourceCode**, **Assédio Direcionado**, **Profanação** e **Ameaças**:
+Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **Currículos** , **SourceCode** , **Assédio Direcionado** , **Profanação** e **Ameaças** :
 
 ![Escolha classificador treinável](../media/retention-label-classifers.png)
 
 > [!CAUTION]
-> Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não use esse classificador interno e se você estiver usando-o no momento, você deve migrar seus processos de negócios para fora dele. É recomendável usar os classificadores internos **Assédio Direcionado**, **Profanidade**e **Ameaças**.
+> Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não use esse classificador interno e se você estiver usando-o no momento, você deve migrar seus processos de negócios para fora dele. É recomendável usar os classificadores internos **Assédio Direcionado** , **Profanidade** e **Ameaças**.
 
 Para aplicar um rótulo automaticamente usando essa opção, os sites e as caixas de correio do SharePoint devem conter pelo menos 10 MB de dados.
 
@@ -236,4 +236,4 @@ Algumas configurações não podem ser alteradas depois que o rótulo ou políti
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Confira [Usar rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint](auto-apply-retention-labels-scenario.md) para um exemplo de cenário que usa uma política de aplicação automática com propriedades gerenciadas no SharePoint, e retenção baseada em evento para iniciar o período de retenção.
+Confira [Usar rótulos de retenção para gerenciar o ciclo de vida de documentos armazenados no Microsoft Office SharePoint Online](auto-apply-retention-labels-scenario.md) para ver um cenário de exemplo que usa uma política de rótulo de retenção de aplicação automática com propriedades gerenciadas no Microsoft Office SharePoint Online e retenção baseada em eventos para iniciar o período de retenção.
