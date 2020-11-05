@@ -13,18 +13,18 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 2f716c0220f9fb85dd52e214aabc0df02ca4b222
-  ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+  ms.openlocfilehash: be575abfe658c77c0346b20efe77e1d52bc49918
+  ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/03/2020
-  ms.locfileid: "48847687"
+  ms.lasthandoff: 11/04/2020
+  ms.locfileid: "48906806"
 landingContent:
-- title: Proteção contra Ameaças da Microsoft
+- title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é a Proteção contra Ameaças da Microsoft?
+    - text: O que é o Microsoft 365 Defender?
       url: mtp/microsoft-threat-protection.md
     - text: Centro de segurança do Microsoft 365
       url: mtp/overview-security-center.md
@@ -50,27 +50,27 @@ landingContent:
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: Arquitetura do Microsoft Defender para Identidade
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Office 365 ATP
+- title: Defender para Office 365
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Office 365?
+    - text: O que é o Defender para Office 365?
       url: office-365-security/office-365-atp.md
-    - text: Descrição do serviço ATP do Office 365
+    - text: Descrição do serviço do Defender para Office 365
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Microsoft Defender ATP
+- title: Defender para Ponto de Extremidade
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Microsoft Defender ATP?
+    - text: O que é o Microsoft Defender para Ponto de Extremidade?
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
     - text: Visão geral dos recursos
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Central de Segurança do Azure
+- title: Azure Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é a Central de Segurança do Azure?
+    - text: O que é o Azure Defender?
       url: https://docs.microsoft.com/azure/security-center/security-center-intro
     - text: Recursos com suporte
       url: https://docs.microsoft.com/azure/security-center/security-center-services
