@@ -15,13 +15,13 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
-description: Neste artigo, você aprenderá sobre as opções disponíveis para criar um ambiente de compartilhamento de convidados seguro no Microsoft 365.
-ms.openlocfilehash: 3ca7dba7c22f1eaa24f1285e42aa3f4caaf70b65
-ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
+description: Saiba mais sobre as opções disponíveis para criar um ambiente seguro de compartilhamento para convidados no Microsoft 365, fornecendo acesso de convidado para uma colaboração aperfeiçoada.
+ms.openlocfilehash: e9dcb55deb5fc7ecd4230fdbcc8da9f881e90481
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787546"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906758"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -51,15 +51,15 @@ Neste exemplo, configuraremos a autenticação multifator para convidados usando
 Configurar a autenticação multifator para convidados
 
 1. Vá para [Políticas de acesso condicional do Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade).
-2. No **Acesso Condicional | Na folha Políticas** , clique em **Nova política** .
+2. No **Acesso Condicional | Na folha Políticas** , clique em **Nova política**.
 3. No campo **Nome** , digite um nome.
-4. Em **Atribuições** , clique em **Usuários e grupos** .
-5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos** .
-6. Em **Atribuições** , clique em **Aplicativos de nuvem ou ações** .
-7. Na lâmina **Aplicativos de nuvem ou ações** , selecione **Todos os aplicativos de nuvem** na guia **Incluir** .
-8. Em **Controles de acesso** , clique em **Conceder** .
-9. Na folha **Conceder** , marque a caixa de seleção **Exigir autenticação multifator** , e, em seguida, clique em **Selecionar** .
-10. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar** .
+4. Em **Atribuições** , clique em **Usuários e grupos**.
+5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos**.
+6. Em **Atribuições** , clique em **Aplicativos de nuvem ou ações**.
+7. Na lâmina **Aplicativos de nuvem ou ações** , selecione **Todos os aplicativos de nuvem** na guia **Incluir**.
+8. Em **Controles de acesso** , clique em **Conceder**.
+9. Na folha **Conceder** , marque a caixa de seleção **Exigir autenticação multifator** , e, em seguida, clique em **Selecionar**.
+10. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar**.
 
 Agora, o convidado será solicitado a se inscrever na autenticação multifator para que possam acessar conteúdo, sites ou equipes compartilhados.
 
@@ -77,32 +77,32 @@ Para criar os termos de uso do Azure AD
 
 1. Entre no Azure como Administrador Global, Administrador de Segurança ou Administrador de Acesso Condicional.
 2. Navegue até [Termos de uso](https://aka.ms/catou).
-3. Clique em **Novos termos** .
+3. Clique em **Novos termos**.
 
    ![Captura de tela das configurações dos novos termos de uso do Azure Active Directory](../media/azure-ad-guest-terms-of-use.png)
 
-4. Digite um **Nome** e um **Nome de exibição** .
+4. Digite um **Nome** e um **Nome de exibição**.
 6. Em **Documento Termos de uso** , navegue até o arquivo PDF que você criou e selecione-o.
 7. Selecione o idioma para o documento de termos de uso.
-8. Definir **Exigir que os usuários expandam os Termos de uso** , como **Ativado** .
-9. Em **Acesso Condicional** , na lista **Impor com o modelo de política de Acesso Condicional** , escolha **Criar política de acesso condicional mais tarde** .
-10. Clique em **Criar** .
+8. Definir **Exigir que os usuários expandam os Termos de uso** , como **Ativado**.
+9. Em **Acesso Condicional** , na lista **Impor com o modelo de política de Acesso Condicional** , escolha **Criar política de acesso condicional mais tarde**.
+10. Clique em **Criar**.
 
 Depois de criar os termos de uso, a próxima etapa é criar uma política de acesso condicional que exibe os termos de uso para os usuários convidados.
 
 Para criar uma política de acesso condicional:
 
 1. Vá para [Políticas de acesso condicional do Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade).
-2. No **Acesso Condicional | Na folha Políticas** , clique em **Nova política** .
+2. No **Acesso Condicional | Na folha Políticas** , clique em **Nova política**.
 3. Na caixa **Nome** , digite um nome.
-4. Em **Atribuições** , clique em **Usuários e grupos** .
-5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos** .
-6. Em **tarefas** , clique em **Aplicativos de nuvem ou ações** .
-7. Na guia **Incluir** , selecione **Selecionar aplicativos** e, em seguida, clique em **Selecionar** .
-8. Na folha **Selecionar** , selecione **Microsoft Teams** , **Office 365 SharePoint Online** e **Outlook Groups** e, em seguida, clique em **Selecionar** .
-9. Em **Controles de acesso** , clique em **Conceder** .
-10. Na folha **Conceder** , selecione **Temos de uso de convidado** e, em seguida, clique em **Selecionar** .
-11. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar** .
+4. Em **Atribuições** , clique em **Usuários e grupos**.
+5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos**.
+6. Em **tarefas** , clique em **Aplicativos de nuvem ou ações**.
+7. Na guia **Incluir** , selecione **Selecionar aplicativos** e, em seguida, clique em **Selecionar**.
+8. Na folha **Selecionar** , selecione **Microsoft Teams** , **Office 365 SharePoint Online** e **Outlook Groups** e, em seguida, clique em **Selecionar**.
+9. Em **Controles de acesso** , clique em **Conceder**.
+10. Na folha **Conceder** , selecione **Temos de uso de convidado** e, em seguida, clique em **Selecionar**.
+11. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar**.
 
 Agora, na primeira vez que um usuário convidado tentar acessar o conteúdo ou uma equipe ou um site em sua organização, será necessário aceitar os termos de uso.
 
@@ -122,28 +122,28 @@ As revisões de acesso podem ser organizadas em programas. Um programa é um agr
 Para criar um programa
 
 1. Entre no portal do Azure e abra a página [Governança de Identidade](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade).
-2. No menu à esquerda, clique em **Programas** .
-3. Clique em **Novo Programa** .
-4. Digite um  **Nome** e uma **Descrição** .
-5. Clique em **Criar** .
+2. No menu à esquerda, clique em **Programas**.
+3. Clique em **Novo Programa**.
+4. Digite um  **Nome** e uma **Descrição**.
+5. Clique em **Criar**.
 
 Depois de criar o programa, pode-se criar uma revisão de acesso de convidado e associá-la com o programa.
 
 Configurar uma revisão de acesso de usuário convidado
 
-1. Na página [Governança de Identidade](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade), no menu à esquerda, clique em **Revisões de acesso** .
-2. Clique em **Novas revisões de acesso** .
+1. Na página [Governança de Identidade](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade), no menu à esquerda, clique em **Revisões de acesso**.
+2. Clique em **Novas revisões de acesso**.
 
    ![Captura de tela das configurações de revisão de acesso do Azure Active Directory](../media/azure-ad-create-access-review.png)
 
 3. Na caixa **Nome** , digite um nome.
-4. Por **Frequência** , escolha **Trimestral** .
+4. Por **Frequência** , escolha **Trimestral**.
 5. Para **Fim** , escolha **Nunca.**
-6. Em **Escopo** , escolha **Somente usuários convidados** .
-7. Clique em **Grupo** , selecione os grupos que você deseja incluir na revisão de acesso e, em seguida, clique em **Selecionar** .
-8. Em **Programas** , clique em **Vincular ao programa** .
+6. Em **Escopo** , escolha **Somente usuários convidados**.
+7. Clique em **Grupo** , selecione os grupos que você deseja incluir na revisão de acesso e, em seguida, clique em **Selecionar**.
+8. Em **Programas** , clique em **Vincular ao programa**.
 9. Na folha **Selecionar um programa** , escolha **Programa de revisão de acesso de convidado**
-10. Clique em **Iniciar** .
+10. Clique em **Iniciar**.
 
 Uma revisão de acesso separada é criada para cada grupo que você especificar. Os proprietários de cada grupo receberão um email trimestral para aprovar ou negar o acesso de convidados aos seus grupos.
 
@@ -164,30 +164,30 @@ Para grupos e equipes do Microsoft 365, isso é feito com uma política de acess
 Para restringir os convidados ao acesso apenas pela web para grupos e equipes
 
 1. Vá para [Políticas de acesso condicional do Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade).
-2. Na folha **Acesso Condicional – Políticas** , clique em **Nova Política** .
+2. Na folha **Acesso Condicional – Políticas** , clique em **Nova Política**.
 3. Na caixa **Nome** , digite um nome.
-4. Em **Atribuições** , clique em **Usuários e grupos** .
-5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos** .
-6. Em **tarefas** , clique em **Aplicativos de nuvem ou ações** .
-7. Na guia **Incluir** , selecione **Selecionar aplicativos** e, em seguida, clique em **Selecionar** .
-8. Na folha **Selecionar** , selecione **Microsoft Teams** e **Outlook Groups** e clique em **Selecionar** .
-9. Em **Tarefas** , clique em **Condições** .
-10. Na folha **Condições** , clique em **Aplicativos cliente** .
-11. Na folha **Aplicativos cliente** , clique em **Sim** para **Configurar** e selecione **Aplicativos móveis e clientes de desktop** , **Clientes Exchange ActiveSync** e configurações de **outros clientes** . Desmarque a caixa de seleção **Navegador** .
+4. Em **Atribuições** , clique em **Usuários e grupos**.
+5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos**.
+6. Em **tarefas** , clique em **Aplicativos de nuvem ou ações**.
+7. Na guia **Incluir** , selecione **Selecionar aplicativos** e, em seguida, clique em **Selecionar**.
+8. Na folha **Selecionar** , selecione **Microsoft Teams** e **Outlook Groups** e clique em **Selecionar**.
+9. Em **Tarefas** , clique em **Condições**.
+10. Na folha **Condições** , clique em **Aplicativos cliente**.
+11. Na folha **Aplicativos cliente** , clique em **Sim** para **Configurar** e selecione **Aplicativos móveis e clientes de desktop** , **Clientes Exchange ActiveSync** e configurações de **outros clientes**. Desmarque a caixa de seleção **Navegador**.
 
     ![Captura de tela das configurações de aplicativos cliente de acesso condicional do Azure Active Directory](../media/azure-ad-conditional-access-client-mobile.png)
 
-12. Clique em **Concluído** .
-13. Em **Controles de acesso** , clique em **Conceder** .
-14. Na folha **Conceder** , selecione **Exigir que o dispositivo seja marcado como em conformidade** e **Exigir o Dispositivo adicionado ao Azure AD híbrido** .
-15. Em **Para vários controles** , selecione **Exigir um dos controles selecionados** e, em seguida, clique em **Selecionar** .
-16. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar** .
+12. Clique em **Concluído**.
+13. Em **Controles de acesso** , clique em **Conceder**.
+14. Na folha **Conceder** , selecione **Exigir que o dispositivo seja marcado como em conformidade** e **Exigir o Dispositivo adicionado ao Azure AD híbrido**.
+15. Em **Para vários controles** , selecione **Exigir um dos controles selecionados** e, em seguida, clique em **Selecionar**.
+16. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar**.
 
 Para restringir os convidados ao acesso online para o Microsoft Office SharePoint Online
 
-1. No [Centro de Administração do SharePoint Online](https://admin.microsoft.com/sharepoint), expanda **Políticas** e clique em **Controle de acesso** .
-2. Clique em **Dispositivos não gerenciados** .
-3. Selecione a opção **Permitir acesso limitado apenas pela web** e clique em **Salvar** .
+1. No [Centro de Administração do SharePoint Online](https://admin.microsoft.com/sharepoint), expanda **Políticas** e clique em **Controle de acesso**.
+2. Clique em **Dispositivos não gerenciados**.
+3. Selecione a opção **Permitir acesso limitado apenas pela web** e clique em **Salvar**.
 
 Observe que essa configuração no Centro de administração do SharePoint Online cria uma política de acesso condicional de suporte no Microsoft Azure Active Directory.
 
@@ -198,17 +198,17 @@ Exigir que os convidados autentiquem de forma regular pode reduzir a possibilida
 Para configurar uma política de tempo limite de sessão de convidado
 
 1. Vá para [Políticas de acesso condicional do Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade).
-2. Na folha **Acesso condicional – Políticas** , clique em **Nova Política** .
-3. Na caixa **Nome** , digite *Tempo limite de sessão de convidado* .
-4. Em **Atribuições** , clique em **Usuários e grupos** .
-5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos** .
-6. Em **tarefas** , clique em **Aplicativos de nuvem ou ações** .
-7. Na guia **Incluir** , selecione **Selecionar aplicativos** e, em seguida, clique em **Selecionar** .
-8. Na folha **Selecionar** , selecione **Microsoft Teams** , **Office 365 SharePoint Online** e **Outlook Groups** e, em seguida, clique em **Selecionar** .
-9. Em **Controles de acesso** , clique em **Sessão** .
-10. Na folha **Sessão** , selecione **Frequência de entrada** .
-11. Selecione **1** e **Dias** para o período de tempo e, em seguida, clique em **Selecionar** .
-12. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar** .
+2. Na folha **Acesso condicional – Políticas** , clique em **Nova Política**.
+3. Na caixa **Nome** , digite *Tempo limite de sessão de convidado*.
+4. Em **Atribuições** , clique em **Usuários e grupos**.
+5. Na lâmina **Usuários e grupos** , selecione **Selecionar usuários e grupos** , marque a caixa de seleção **Todos os convidados e usuários externos**.
+6. Em **tarefas** , clique em **Aplicativos de nuvem ou ações**.
+7. Na guia **Incluir** , selecione **Selecionar aplicativos** e, em seguida, clique em **Selecionar**.
+8. Na folha **Selecionar** , selecione **Microsoft Teams** , **Office 365 SharePoint Online** e **Outlook Groups** e, em seguida, clique em **Selecionar**.
+9. Em **Controles de acesso** , clique em **Sessão**.
+10. Na folha **Sessão** , selecione **Frequência de entrada**.
+11. Selecione **1** e **Dias** para o período de tempo e, em seguida, clique em **Selecionar**.
+12. Na folha **Novo** , em **Habilitar política** , clique em **Ativar** e, em seguida, clique em **Criar**.
 
 ## <a name="create-a-sensitive-information-type-for-a-highly-sensitive-project"></a>Criar um tipo de informação confidencial para um projeto altamente confidencial.
 
@@ -218,13 +218,13 @@ Você pode criar tipos de informações confidenciais personalizados para ajudar
 
 Criar um tipo de informação confidencial
 
-1. No [Centro de Conformidade do Microsoft 365r](https://compliance.microsoft.com), na navegação à esquerda, expanda **Classificação** e, em seguida, clique em **Tipos de informação de confidencialidade** .
-2. Clique em **Criar** .
-3. Para **Nome** e **Descrição** , digite **Projeto Saturno** e, em seguida, clique em **Avançar** .
-4. Clique em **Adicionar um elemento** .
+1. No [Centro de Conformidade do Microsoft 365r](https://compliance.microsoft.com), na navegação à esquerda, expanda **Classificação** e, em seguida, clique em **Tipos de informação de confidencialidade**.
+2. Clique em **Criar**.
+3. Para **Nome** e **Descrição** , digite **Projeto Saturno** e, em seguida, clique em **Avançar**.
+4. Clique em **Adicionar um elemento**.
 5. Em **Detectar conteúdo contendo lista** , selecione **Palavras-chave** e, em seguida, digite *Projeto Saturno* na caixa de palavra-chave.
-6. Clique em **Avançar** e em **Concluir** .
-7. Se você quiser testar o tipo de informação confidencial, clique em **Não** .
+6. Clique em **Avançar** e em **Concluir**.
+7. Se você quiser testar o tipo de informação confidencial, clique em **Não**.
 
 ### <a name="more-information"></a>Mais informações
 
@@ -237,22 +237,22 @@ Se você estiver usando rótulos de confidencialidade em sua organização, voc�
 Para criar uma política de rotulagem automática
 
 1. Abra o [Centro de administração de conformidade do Microsoft 365](https://compliance.microsoft.com).
-2. No painel de navegação esquerdo, clique em **Proteção de informações** .
-3. Na guia **Rotulagem automática** , clique em **Criar política de rotulagem automática** .
-4. Na página **Escolha as informações às quais deseja que este rótulo seja aplicado** , escolha **Personalizado** e clique em **Avançar** .
-5. Digite um nome e uma descrição para a política e clique em **Avançar** .
-6. Na página **Escolha os locais onde deseja aplicar o rótulo** , ative os **sites do Microsoft Office SharePoint Online** e clique em **Escolher sites** .
-7. Adicione os URLs dos sites onde deseja ativar a rotulagem automática e clique em **Concluído** .
-8. Clique em **Avançar** .
-9. Na página **Configurar regras comuns ou avançadas** , escolha **Regras comuns** e clique em **Avançar** .
-10. Na página **Definir regras para conteúdo em todos os locais** , clique em **Nova regra** .
-11. Na página **Nova regra** , dê um nome à regra, clique em **Adicionar condição** e, a seguir, clique em **Conteúdo contém tipos de informações confidenciais** .
-12. Clique em **Adicionar** , clique em **Tipos de informações confidenciais** , escolha os tipos de informações confidenciais que deseja usar, clique em **Adicionar** e clique em **Salvar** .
-13. Clique em **Avançar** .
-14. Clique em **Escolher um rótulo** , selecione o rótulo que deseja usar e clique em **Adicionar** .
-15. Clique em **Avançar** .
-16. Deixe a política no modo de simulação e clique em **Avançar** .
-17. Clique em **Criar política** e, a seguir, clique em **Concluído** .
+2. No painel de navegação esquerdo, clique em **Proteção de informações**.
+3. Na guia **Rotulagem automática** , clique em **Criar política de rotulagem automática**.
+4. Na página **Escolha as informações às quais deseja que este rótulo seja aplicado** , escolha **Personalizado** e clique em **Avançar**.
+5. Digite um nome e uma descrição para a política e clique em **Avançar**.
+6. Na página **Escolha os locais onde deseja aplicar o rótulo** , ative os **sites do Microsoft Office SharePoint Online** e clique em **Escolher sites**.
+7. Adicione os URLs dos sites onde deseja ativar a rotulagem automática e clique em **Concluído**.
+8. Clique em **Avançar**.
+9. Na página **Configurar regras comuns ou avançadas** , escolha **Regras comuns** e clique em **Avançar**.
+10. Na página **Definir regras para conteúdo em todos os locais** , clique em **Nova regra**.
+11. Na página **Nova regra** , dê um nome à regra, clique em **Adicionar condição** e, a seguir, clique em **Conteúdo contém tipos de informações confidenciais**.
+12. Clique em **Adicionar** , clique em **Tipos de informações confidenciais** , escolha os tipos de informações confidenciais que deseja usar, clique em **Adicionar** e clique em **Salvar**.
+13. Clique em **Avançar**.
+14. Clique em **Escolher um rótulo** , selecione o rótulo que deseja usar e clique em **Adicionar**.
+15. Clique em **Avançar**.
+16. Deixe a política no modo de simulação e clique em **Avançar**.
+17. Clique em **Criar política** e, a seguir, clique em **Concluído**.
 
 Com a política em vigor, quando um usuário digita "Projeto Saturno" em um documento, a política de rotulagem automática aplicará automaticamente o rótulo especificado ao verificar o arquivo.
 
@@ -266,26 +266,26 @@ Você pode usar a [prevenção contra perda de dados (DLP)](https://docs.microso
 
 Para criar uma regra DLP
 
-1. No centro de administração de conformidade do Microsoft 365, vá para a [página de prevenção contra perda de dados](https://compliance.microsoft.com/datalossprevention).
-2. Clique em **Criar política** .
-3. Escolha **Personalizado** e clique em **Avançar** .
-4. Digite um nome para a política e clique em **Avançar** .
-5. Na página **Locais para aplicar a política** , desative todas as configurações, exceto **sites do Microsoft Office SharePoint Online** e **contas do Microsoft OneDrive** e clique em **Avançar** .
-6. Na página **Definir configurações de política** , clique em **Avançar** .
+1. No centro de administração de conformidade do Microsoft 365, vá até a [página de prevenção contra perda de dados](https://compliance.microsoft.com/datalossprevention).
+2. Clique em **Criar política**.
+3. Escolha **Personalizado** e clique em **Avançar**.
+4. Digite um nome para a política e clique em **Avançar**.
+5. Na página **Locais para aplicar a política** , desative todas as configurações, exceto **sites do Microsoft Office SharePoint Online** e **contas do OneDrive** e clique em **Avançar**.
+6. Na página **Definir configurações de política** , clique em **Avançar**.
 7. Na página **Personalizar regras DLP avançadas** , clique em **Criar regra** e digite um nome para a regra.
-8. Em **Condições** , clique em **Adicionar condição** e escolha **Conteúdo contém** .
-9. Clique em **Adicionar** , escolha **Rótulos de confidencialidade** , escolha os rótulos que deseja usar e clique em **Adicionar** .
+8. Em **Condições** , clique em **Adicionar condição** e escolha **Conteúdo contém**.
+9. Clique em **Adicionar** , escolha **Rótulos de confidencialidade** , escolha os rótulos que deseja usar e clique em **Adicionar**.
 
    ![Captura de tela das opções de condições, tipos de informações confidenciais, rótulos de confidencialidade e rótulos de retenção.](../media/limit-accidental-exposure-dlp-conditions.png)
 
-10. Em **Ações** , clique em **Adicionar uma ação** e escolha **Restringir o acesso ou criptografar o conteúdo em locais do Microsoft 365** .
-11. Marque a caixa de seleção **Restringir o acesso ou criptografar o conteúdo em locais do Microsoft 365** e escolha a opção **Somente pessoas fora de sua organização** .
+10. Em **Ações** , clique em **Adicionar uma ação** e escolha **Restringir o acesso ou criptografar o conteúdo em locais do Microsoft 365**.
+11. Marque a caixa de seleção **Restringir o acesso ou criptografar o conteúdo em locais do Microsoft 365** e escolha a opção **Somente pessoas fora de sua organização**.
 
       ![Captura de tela das opções de ação da regra DLP](../media/dlp-remove-guest-access-sensitive-files.png)
 
-12. Clique em **Salvar** e clique em **Avançar** .
-13. Escolha suas opções de teste e clique em **Avançar** .
-14. Clique em **Enviar** e, em seguida, clique em **Concluído** .
+12. Clique em **Salvar** e em **Avançar**.
+13. Escolha suas opções de teste e clique em **Avançar**.
+14. Clique em **Enviar** e, em seguida, clique em **Concluído**.
 
 É importante observar que esta política não remove o acesso se o convidado for membro do site ou da equipe como um todo. Se você planeja ter documentos altamente confidenciais em um site ou uma equipe com membros convidados, considere o uso de [canais privados no Teams](https://support.microsoft.com/office/de3e20b0-7494-439c-b7e5-75899ebe6a0e)e apenas permita os membros de sua organização nos canais privados.
 

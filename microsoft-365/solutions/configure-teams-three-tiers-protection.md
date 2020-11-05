@@ -1,5 +1,5 @@
 ---
-title: Configurar equipes com três camadas de proteção
+title: Configurar o Teams com três camadas de segurança para compartilhamento de arquivos
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -18,14 +18,15 @@ ms.collection:
 - m365solution-scenario
 ms.custom:
 - Ent_Architecture
+- seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
-description: Recomendações de configuração para proteger arquivos no Microsoft Teams.
-ms.openlocfilehash: e1ec598bede2419abc19db2dbe3fd3ff63d8f583
-ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
+description: Saiba como configurar o Teams para melhorar a segurança de compartilhamento de arquivos usando três camadas de proteção, equilibrando a segurança com a facilidade de colaboração.
+ms.openlocfilehash: 5a3449294c6e64355961d10d84750c53715366ef
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594925"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906878"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Configurar equipes com três camadas de proteção
 
@@ -53,7 +54,7 @@ A tabela a seguir resume as configurações de cada camada. Use estas configura�
 |Equipe privada ou pública|Público|Private|Private|Private|
 |Quem tem acesso?|Todas as pessoas na organização, incluindo usuários B2B.|Somente membros da equipe. Outras pessoas podem solicitar acesso ao site associado.|Somente membros da equipe.|Somente membros da equipe.|
 |Canais privados|Proprietários e membros podem criar canais privados|Proprietários e membros podem criar canais privados|Somente proprietários podem criar canais privados|Somente proprietários podem criar canais privados|
-|Acesso de convidado no nível do site|**Convidados novos e existentes** (padrão).|**Convidados novos e existentes** (padrão).|**Convidados novos e existentes** ou **Somente pessoas da sua organização**, dependendo das necessidades da equipe.|**Convidados novos e existentes** ou **Somente pessoas da sua organização**, dependendo das necessidades da equipe.|
+|Acesso de convidado no nível do site|**Convidados novos e existentes** (padrão).|**Convidados novos e existentes** (padrão).|**Convidados novos e existentes** ou **Somente pessoas da sua organização** , dependendo das necessidades da equipe.|**Convidados novos e existentes** ou **Somente pessoas da sua organização** , dependendo das necessidades da equipe.|
 |Configurações de compartilhamento de site|**Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site**.|**Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site**.|**Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site**.|**Somente os proprietários do site podem compartilhar arquivos, pastas e o site**.<br>Solicitações de acesso **Desativadas**.|
 |Acesso a dispositivos não gerenciados no nível do site|**Acesso total a partir de aplicativos da área de trabalho, aplicativos móveis e da Web** (padrão).|**Acesso total a partir de aplicativos da área de trabalho, aplicativos móveis e da Web** (padrão).|**Permitir acesso limitado, somente na Web**.|**Bloquear acesso**.|
 |Tipo de link de compartilhamento padrão|**Somente pessoas da sua organização**|**Somente pessoas da sua organização**|**Pessoas específicas**|**Pessoas com acesso existente**|
