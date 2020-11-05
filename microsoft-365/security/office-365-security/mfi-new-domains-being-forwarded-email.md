@@ -10,20 +10,22 @@ ms.topic: conceptual
 ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
-description: Os administradores podem aprender a usar os novos domínios que estão sendo encaminhados para o centro de administração do Exchange para investigar quando os usuários de sua organização estão encaminhando mensagens para domínios externos que nunca foram encaminhadas para o.
-ms.openlocfilehash: 7dfdd63a9358b1057313962bc21424a325d7bc52
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+description: Os administradores podem aprender a usar os novos domínios que estão sendo encaminhados para a percepção de email no painel de fluxo de emails no centro de conformidade de & de segurança para investigar quando seus usuários estão encaminhando mensagens para domínios externos que nunca foram encaminhadas para o.
+ms.openlocfilehash: f2d8c9229062cbef0ad90b3d0fd843d6588a08dc
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877736"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920556"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Novos domínios que estão sendo encaminhados informações de email no centro de conformidade e segurança &
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Embora você possa ter motivos comerciais válidos para encaminhar mensagens de email para destinatários externos em domínios específicos, é suspeito quando os usuários em sua organização começam a encaminhar mensagens para domínios externos, e ninguém já encaminharia mensagens para esses domínios antes (novos domínios). Essa condição pode indicar que as contas de usuário estão comprometidas. Se você suspeitar que as contas foram comprometidas, confira [responder a uma conta de email comprometida](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
+Há motivos comerciais válidos para encaminhar mensagens de email para destinatários externos em domínios específicos. No entanto, é suspeito quando os usuários em sua organização começam a encaminhar mensagens para um domínio em que ninguém em sua organização tenha encaminhado mensagens para (um novo domínio).
+
+Essa condição pode indicar que as contas de usuário estão comprometidas. Se você suspeitar que as contas foram comprometidas, confira [responder a uma conta de email comprometida](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
 
 Os **novos domínios que estão sendo encaminhados** informações de email no [centro de conformidade e segurança &](https://protection.office.com) o notifica quando os usuários de sua organização estão encaminhando mensagens para novos domínios.
 

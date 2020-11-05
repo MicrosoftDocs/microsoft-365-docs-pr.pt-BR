@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre a inteligência de falsificação na proteção do Exchange Online (EOP), onde você pode permitir ou bloquear remetentes falsificados específicos.
-ms.openlocfilehash: 4ebc32a6c87c58edcceb0d57ee8d55be43f2dd20
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4d40dae9518b451affc11c6666ee8f7454eceff3
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841823"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920639"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Configurar o spoof Intelligence no EOP
 
@@ -181,7 +181,7 @@ Você pode definir as configurações de inteligência de spoofing na política 
 
 - [Configure as políticas anti-phishing no EOP](configure-anti-phishing-policies-eop.md).
 
-- [Configure as políticas anti-phishing no Microsoft defender para Office 365 no microsoft 365](configure-atp-anti-phishing-policies.md).
+- [Configure as políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 

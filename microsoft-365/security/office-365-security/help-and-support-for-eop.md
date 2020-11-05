@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
-ms.openlocfilehash: c305f2e63d668a163bb82f5a4712cbdddc6f9259
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dd68200b7a3723adc7ccba899c0cc88031891197
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202718"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920425"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
@@ -28,7 +28,7 @@ Nas organizações do Microsoft 365 com caixas de correio em organizações do E
 
 ## <a name="self-support-options"></a>Opções de auto-suporte
 
-Ao fazer logon, o centro de administração do Microsoft 365 fornece informações sobre o status dos serviços da sua organização. Além disso, a seção integridade do serviço mostra o status atual dos seus serviços, os detalhes sobre as interrupções e as interrupções e lista os tempos de manutenção planejados. O centro de administração do Microsoft 365 também fornece informações sobre problemas conhecidos e resoluções esperadas. Se você for afetado por um evento de todo o serviço, deverá ver um alerta de comunicação (normalmente acompanhado por um ícone de sino). Recomendamos que leia e realize as ações apropriadas em todos os itens. Para obter mais informações sobre a área de integridade do serviço, consulte [integridade e continuidade de serviço](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity). Você também pode encontrar mais ajuda sozinho usando as ferramentas, fóruns e sites da comunidade listados aqui.
+Ao fazer logon, o centro de administração do Microsoft 365 fornece informações sobre o status dos serviços da sua organização. Além disso, a seção integridade do serviço mostra o status atual dos seus serviços, os detalhes sobre as interrupções e as interrupções e lista os tempos de manutenção planejados. O centro de administração do Microsoft 365 também fornece informações sobre problemas conhecidos e resoluções esperadas. Se você for afetado por um evento de todo o serviço, deverá ver um alerta de comunicação (normalmente acompanhado por um ícone de sino). Recomendamos que leia e realize as ações apropriadas em todos os itens. Para obter mais informações sobre a área de integridade do serviço, consulte [integridade e continuidade de serviço](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity). Você pode encontrar mais ajuda por conta própria usando as ferramentas, fóruns e sites da Comunidade listados aqui.
 
 [Visão geral do produto para a Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
@@ -42,7 +42,7 @@ Ao fazer logon, o centro de administração do Microsoft 365 fornece informaçõ
 
 ## <a name="assisted-support-from-microsoft"></a>Suporte assistido da Microsoft
 
-Você pode obter ajuda da Microsoft iniciando uma nova solicitação de serviço no centro de administração do Microsoft 365 ou ligando para o telefone. Assinantes do Premier Support têm mais opções de suporte.
+Você pode obter ajuda da Microsoft iniciando uma nova solicitação de serviço no centro de administração do Microsoft 365 ou ligando para o telefone. Os assinantes de suporte Premier têm opções de suporte extra.
 
 ### <a name="support-for-microsoft-premier-support-subscribers"></a>Suporte para assinantes do Microsoft Premier Support
 
@@ -62,7 +62,7 @@ Para obter mais informações sobre como o suporte Premier pode ajudar sua organ
 
 1. Faça logon no centro de administração do Microsoft 365.
 
-2. Para problemas gerais de produto vá em **Suporte** \> **Solicitar Suporte ao Cliente** \> **Ligar para o suporte técnico**.
+2. Para problemas gerais de produtos, vá para **suporte** \> solicitar suporte técnico **para chamadas de suporte ao cliente** \> **Call technical support**.
 
    Para perguntas antes de comprar a sua EOP ou perguntas sobre cobrança e assinaturas, vá em **Suporte** \> **Solicitar Suporte ao Cliente** \> **Ligar para o suporte de cobrança e assinatura**.
 

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b5bb99ed4b8cee7ea920679e20f69c7a0e002d26
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c5b8cae9e4eabcb2b3c6a7eb76971784193a221d
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843631"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920497"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Ativar o Microsoft 365 defender
 
@@ -32,7 +32,7 @@ ms.locfileid: "48843631"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 O [Microsoft 365 defender](microsoft-threat-protection.md) unifica seu processo de resposta a incidentes por meio da integração de recursos importantes no Microsoft defender para ponto de extremidade, Microsoft defender para Office 365, Microsoft Cloud app Security e Microsoft defender para identidade. Essa experiência unificada adiciona recursos avançados que podem acessados no centro de segurança do Microsoft 365.
 
@@ -69,7 +69,7 @@ O Microsoft 365 defender armazenará e processará dados no [mesmo local usado p
 Selecione **precisa de ajuda?** no centro de segurança do Microsoft 365 para entrar em contato com o suporte da Microsoft sobre o provisionamento do Microsoft 365 defender em um local diferente de data center. 
 
 >[!NOTE]
->O Microsoft defender for Endpoint provisiona automaticamente nos data centers da União Europeia (UE) quando ativado pelo Azure defender *. O Microsoft 365 defender será automaticamente provisionado no mesmo Data Center da UE para clientes que tenham provisionado o defender para ponto de extremidade dessa maneira. 
+>O Microsoft defender for Endpoint provisiona automaticamente nos data centers da União Europeia (UE) quando ativado pelo Azure defender. O Microsoft 365 defender será automaticamente provisionado no mesmo Data Center da UE para clientes que tenham provisionado o defender para ponto de extremidade dessa maneira. 
 
 ### <a name="confirm-that-the-service-is-on"></a>Confirmar se o serviço está ativado
 Depois que o serviço é provisionado, ele adiciona:

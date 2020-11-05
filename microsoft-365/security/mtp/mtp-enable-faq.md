@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bfb58cb043f2bc641245814c41e389ddcdbfdefa
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 3dae9f208f5bb08d694322eb9f7cff35986930da
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842411"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920485"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Perguntas frequentes ao ativar o Microsoft 365 defender
 
@@ -32,7 +32,7 @@ ms.locfileid: "48842411"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 Leia as respostas para as perguntas mais frequentes sobre a ativação do [Microsoft 365 defender](microsoft-threat-protection.md), incluindo as licenças e permissões necessárias, a implantação de serviços de suporte e as configurações iniciais.
 
@@ -44,7 +44,7 @@ Os clientes com as seguintes licenças não E5 podem usar o Microsoft 365 defend
 
 - Microsoft Defender para Ponto de Extremidade
 - Microsoft Defender para Identidade
-- Segurança no aplicativo na nuvem da Microsoft
+- Microsoft Cloud App Security
 - Defender para Office 365 (plano 2)
  
 Para obter uma lista completa de licenças compatíveis, [Leia os requisitos de licenciamento](prerequisites.md#licensing-requirements).
@@ -59,7 +59,7 @@ Para otimizar as experiências do Microsoft 365 defender, recomendamos implantar
 O Microsoft 365 defender seleciona automaticamente um local ideal para o Data Center em que os dados consolidados são processados e armazenados. Se você tiver o Microsoft defender para ponto de extremidade, ele selecionará o mesmo local usado pelo defender para Endpoint.
 
 >[!NOTE]
->O Microsoft defender for Endpoint provisiona automaticamente nos data centers da União Europeia (UE) quando ativado pelo Azure defender *. O Microsoft 365 defender será automaticamente provisionado no mesmo Data Center da UE para clientes que tenham provisionado o Microsoft defender para ponto de extremidade dessa maneira. 
+>O Microsoft defender for Endpoint provisiona automaticamente nos data centers da União Europeia (UE) quando ativado pelo Azure defender. O Microsoft 365 defender será automaticamente provisionado no mesmo Data Center da UE para clientes que tenham provisionado o Microsoft defender para ponto de extremidade dessa maneira. 
 
 O local do Data Center é mostrado antes e depois que o serviço é provisionado na página de configurações do Microsoft 365 defender ( **configurações > Microsoft 365 defender** ). Se você preferir usar outro local de data center, selecione **precisa de ajuda?** no centro de segurança do Microsoft 365 para entrar em contato com o suporte da Microsoft.
 

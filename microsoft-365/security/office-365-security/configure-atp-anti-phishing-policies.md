@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis nas organizações com o Microsoft defender para Office 365.
-ms.openlocfilehash: 9e07107c302f83b71a97517b11e71eac81f84f6b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: ecc68a8dc050a5f08c6982b023861e0ea8976775
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845919"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920651"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft defender para Office 365
 
@@ -159,9 +159,9 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
      - **Endereço de email** :
 
-        - Clique na caixa e role pela lista de usuários para selecionar.
-        - Clique na caixa e comece a digitar para filtrar a lista e selecione um usuário.
-        - Para remover uma entrada, clique em **remover** ![ ícone ](../../media/scc-remove-icon.png) de remoção no usuário.
+       - Clique na caixa e role pela lista de usuários para selecionar.
+       - Clique na caixa e comece a digitar para filtrar a lista e selecione um usuário.
+       - Para remover uma entrada, clique em **remover** ![ ícone ](../../media/scc-remove-icon.png) de remoção no usuário.
 
      - **Nome** : esse valor é preenchido com base no endereço de email selecionado, mas você pode alterá-lo.
 
@@ -170,15 +170,15 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
      Para editar uma entrada existente, selecione o usuário protegido na lista.
 
      > [!NOTE]
-     > Você pode inserir no máximo 60 usuários no centro de conformidade & segurança ou no PowerShell.
-       
+     > Você pode ter no máximo 60 usuários em todas as políticas anti-phishing. Em outras palavras, você pode ter 60 usuários protegidos em uma política, 12 usuários protegidos em 5 políticas, etc.
+
    - **Adicionar domínios para proteger** : Configure uma ou ambas as configurações a seguir:
 
      - **Incluir automaticamente os domínios que** possuo: o valor padrão é **desativado**. Para ativá-la, deslize o botão para **Ativar.**
      - **Incluir domínios personalizados** : o valor padrão é **desativado**. Para ativá-la, deslize o **botão para ativar e,** na caixa **adicionar domínios** , digite o nome do domínio (por exemplo, contoso.com), pressione Enter e repita conforme necessário.
 
      > [!NOTE]
-     > Você pode inserir no máximo 50 domínios no centro de conformidade & segurança ou no PowerShell.
+     > Você pode ter no máximo 50 domínios em todas as políticas anti-phishing. Em outras palavras, você pode ter 50 usuários protegidos em uma política, 10 usuários protegidos em 5 políticas, etc.
 
    - **Ações** : clique em **Editar**
 
@@ -193,12 +193,12 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
      - **Se o email for enviado por um domínio representado** : Configure uma das ações a seguir para mensagens em que o remetente falsificado está em um dos domínios protegidos que você especificou em **adicionar domínios para proteger** :
 
-     - **Não aplicar nenhuma ação**
-     - **Redirecionar mensagem para outros endereços de email**
-     - **Mover mensagem para a pasta Lixo Eletrônico**
-     - **Colocar a mensagem em quarentena**
-     - **Entregar a mensagem e adicionar outros endereços à linha Cco**
-     - **Excluir a mensagem antes de ser entregue**
+       - **Não aplicar nenhuma ação**
+       - **Redirecionar mensagem para outros endereços de email**
+       - **Mover mensagem para a pasta Lixo Eletrônico**
+       - **Colocar a mensagem em quarentena**
+       - **Entregar a mensagem e adicionar outros endereços à linha Cco**
+       - **Excluir a mensagem antes de ser entregue**
 
    - Clique em **Ativar dicas de segurança de representação** e configure qualquer uma das seguintes configurações:
 
@@ -267,7 +267,6 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
      - Você pode clicar em **Editar** em cada seção para saltar de volta para a página relevante.
      - Você pode ativar ou **desativar** as **seguintes** configurações diretamente nesta página:
-
        - **Habilitar proteção contra falsificação**
        - **Habilitar o recurso de remetente não autenticado**
 

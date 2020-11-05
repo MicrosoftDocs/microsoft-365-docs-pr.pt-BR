@@ -14,12 +14,12 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender como usar a correção de regras de fluxo de emails lentos no centro de conformidade de & de segurança para identificar e corrigir regras de fluxo de emails ineficientes ou desfeitas (também conhecidas como regras de transporte) em sua organização.
-ms.openlocfilehash: 6a2a3c42eadf3c621b34d2a21344eafd2618e669
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: f51c5a577fc6d9c52e35a5217cae4ae94c546c9d
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877532"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920543"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Correção de regras de fluxo de email lentos no centro de conformidade e segurança &
 
@@ -32,7 +32,9 @@ Regras de fluxo de emails ineficientes (também conhecidas como regras de transp
 - Condições que usam a correspondência de padrão de expressão regular (Regex) complexa.
 - Condições que usam a verificação de conteúdo em anexos.
 
-A **correção de regras de fluxo de emails lentos** na área **recomendada para você** do [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de segurança & conformidade](https://protection.office.com) avisa quando uma regra de fluxo de emails demora muito para ser concluída. Essa percepção aparece apenas após a condição ser detectada (se você não tiver loops de email, não verá a percepção).
+A **correção de regras de fluxo de emails lentos** na área **recomendada para você** do [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de segurança & conformidade](https://protection.office.com) avisa quando uma regra de fluxo de emails demora muito para ser concluída.
+
+Essa percepção aparece apenas após a condição ser detectada (se você não tiver loops de email, não verá a percepção).
 
 Você pode usar essa notificação para ajudá-lo a identificar e ajustar as regras de fluxo de emails para ajudar a reduzir os atrasos de fluxo de emails.
 
@@ -47,8 +49,8 @@ Quando você clica em **Exibir detalhes** no widget, um submenu aparece com mais
 
 ![Submenu de detalhes que aparece depois de clicar em Exibir detalhes na visão de regras de fluxo de emails de correção lenta](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-Para obter mais informações sobre condições e exceções nas regras de fluxo de email no Exchange Online, consulte [Mail Flow Rules and exceptions (predicates) no Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
+Para obter mais informações sobre as condições e exceções nas regras de fluxo de emails, consulte [Mail Flow Rule Conditions and exceptions (predicates) no Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="see-also"></a>Confira também
 
 Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

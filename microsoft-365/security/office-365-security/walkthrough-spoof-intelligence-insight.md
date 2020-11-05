@@ -16,25 +16,27 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender como a compreensão da inteligência de falsificação funciona, incluindo como determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados.
+description: Os administradores podem aprender como funciona a compreensão da inteligência de falsificação. Eles podem determinar rapidamente quais remetentes estão enviando emails legitimamente para suas organizações de domínios que não passam por verificações de autenticação de email (SPF, DKIM ou DMARC).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5995095e442bbcd07ddf4538b67be6e1b14fd8f1
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 89a31c6df7c9b6e02f52ea414ceb6334427feab1
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844207"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920473"
 ---
-# <a name="walkthrough---defender-for-office-365-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough-defender for Office 365 Insight Intelligence percepção no Microsoft 365
+# <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Walkthrough-visão geral da inteligência de falsificação no Microsoft defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Nas organizações do Microsoft 365 com o defender para Office 365, você pode usar a compreensão de inteligência de falsificação para determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados. Ao permitir que eles enviem mensagens falsificadas, você pode reduzir o risco de qualquer falso positivo para os seus usuários. Você também pode usar a compreensão de inteligência de falsificação para monitorar e gerenciar os pares de domínio permitidos para fornecer uma camada adicional de segurança e impedir que mensagens não seguras cheguem à sua organização.
+Nas organizações Microsoft 365 com o defender para Office 365, você pode usar a compreensão de inteligência de falsificação para determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados (mensagens de domínios que não passam verificações de SPF, DKIM ou DMARC).
 
-Se você for novo para [relatórios e insights no centro de conformidade e segurança &](reports-and-insights-in-security-and-compliance.md), poderá ajudar a ver como você pode navegar facilmente de um painel para uma compreensão e ações recomendadas.
+Ao permitir que remetentes conhecidos enviem mensagens falsificadas de locais conhecidos, você pode reduzir falsos positivos (bons emails marcados como defeituosos). Ao monitorar os remetentes falsificados permitidos, você fornece uma camada adicional de segurança para impedir que mensagens não seguras cheguem à sua organização.
 
-Este passo a passo é um dos vários para o centro de conformidade de & de segurança. Para sobre como navegar por relatórios e insights, consulte as orientações na seção Tópicos relacionados.
+Para obter mais informações sobre relatórios e informações, consulte [relatórios e insights no centro de conformidade de & de segurança](reports-and-insights-in-security-and-compliance.md).
+
+Este passo a passo é um dos vários para o centro de conformidade de & de segurança. Para sobre como navegar por relatórios e insights, consulte as orientações na seção [Tópicos relacionados](#related-topics) .
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -49,9 +51,9 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
   - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
   - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no Microsoft defender para Office 365. Para obter mais informações, consulte [Configure anti-phishing Policies in Microsoft defender for Office 365 in microsoft 365](configure-atp-anti-phishing-policies.md).
+- Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no Microsoft defender para Office 365. Para obter mais informações, consulte [Configure anti-phishing Policies in Microsoft defender for Office 365](configure-atp-anti-phishing-policies.md).
 
-- Nas organizações do Microsoft 365 com caixas de correio do Exchange Online e em proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar a inteligência de spoof para monitorar e gerenciar remetentes que está enviando mensagens não autenticadas. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
+- Para usar o spoof Intelligence para monitorar e gerenciar remetentes que estão enviando mensagens não autenticadas, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Abrir a percepção de compreensão da falsificação no centro de conformidade & segurança
 
@@ -60,7 +62,6 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 2. Na linha **insights** , procure um dos seguintes itens:
 
    - O **spoof Intelligence está habilitado** : a percepção é denominada **domínios falsificados que falharam na autenticação dos últimos 30 dias**. É o padrão.
-
    - A **inteligência de falsificação está desabilitada** : a percepção em chamado **habilitar proteção contra falsificação** e clicar nele permite habilitar a inteligência de falsificação.
 
 3. A percepção do painel mostra as informações como esta:
@@ -69,43 +70,59 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
    Esta percepção tem dois modos:
 
-   - **Modo de percepção**. Se você tiver uma política de falsificação habilitada, a percepção mostrará quantas mensagens foram impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
+   - **Modo de percepção** : se a inteligência de falsificação estiver habilitada, a percepção mostrará quantas mensagens foram impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
 
-   - **Se Mode**. Se você não tiver uma política de falsificação habilitada, a percepção mostrará a você quantos emails  *teriam*  sido afetados por nossos recursos de inteligência de fraude nos últimos 30 dias.
+   - **E se modo** : se a inteligência de falsificação estiver desabilitada, a percepção mostrará quantas mensagens *teriam* sido impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
 
    De qualquer forma, os domínios falsificados exibidos na percepção são separados em duas categorias: **pares de domínios suspeitos** e **pares de domínios não suspeitos**. Essas categorias são subdivididas em três buckets diferentes para revisão.
 
    Um **par de domínio** é uma combinação do endereço de e da infraestrutura de envio:
 
-   - O endereço de é o endereço de email do remetente que é exibido em clientes de email. Esse endereço identifica o autor do email. Ou seja, a caixa de correio da pessoa ou sistema responsável por escrever a mensagem. Esse endereço também é conhecido como o `5322.From` endereço.
+   - O endereço de é o endereço de email do remetente que é exibido na caixa de em clientes de email. Esse endereço também é conhecido como o `5322.From` endereço.
 
    - A infraestrutura de envio, ou remetente, é o domínio organizacional da pesquisa de DNS inversa (registro PTR) do endereço IP de envio. Se o endereço IP de envio não tiver um registro PTR, o remetente será identificado pelo IP de envio com a máscara de sub-rede 255.255.255.0 em notação CIDR (/24). Por exemplo, se o endereço IP for 192.168.100.100, o endereço IP completo do remetente será 192.168.100.100/24.
 
    Os **pares de domínios suspeitos** incluem:
 
-   - **Falsificação de alta confiança** : a Microsoft 365 recebeu sinais fortes que esses domínios são suspeitos, com base nos padrões de envio históricos e na pontuação de reputação dos domínios. O Microsoft 365 é altamente seguro de que os domínios estão falsificando e que as mensagens enviadas desses domínios têm menos probabilidade de ser legítimas.
+   - **Falsificação de alta confiança** : com base nos padrões de envio históricos e na pontuação de reputação dos domínios, temos certeza de que os domínios estão falsificando, e as mensagens desses domínios provavelmente serão mal-intencionadas.
 
-   - **Falsificação de confiança moderada** : a Microsoft 365 recebeu sinais moderados de que esses domínios são suspeitos, com base nos padrões de envio históricos e na pontuação de reputação dos domínios. O Office 365 está razoavelmente seguro de que os domínios estão falsificando e que as mensagens enviadas desses domínios são legítimas. Esse Bucket tem uma chance maior de conter falsos positivos (FPs) do que o Bucket de falsificação de alta confiança.
+   - **Falsificação de confiança moderada** : com base nos padrões de envio históricos e na pontuação de reputação dos domínios, temos certeza de que os domínios estão sendo falsificados e que as mensagens enviadas desses domínios são legítimas. Falsos positivos são mais prováveis nesta categoria do que a falsificação de alta confiança.
 
-   - **Pares de domínios não suspeitos** (inclui **falsificação** reposta): a falsificação reposta são domínios que falharam nas verificações de autenticação explícitas [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md)), mas passaram nossas verificações de autenticação de email implícito ( [autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, a Microsoft 365 resmeteu o email em seu nome e nenhuma ação de anti-falsificação foi tomada na mensagem.
+   - **Pares de domínios não suspeitos** (inclui **falsificação** renovada): o domínio falhou nas verificações de autenticação de email explícitas [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md)). No entanto, o domínio passou por nossas verificações de autenticação de email implícito ([autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, nenhuma ação anti-falsificação foi tomada na mensagem.
 
 ### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>Exibir informações detalhadas sobre pares de domínio suspeitos da compreensão da inteligência de falsificação
 
 1. Na percepção de inteligência de falsificação, clique em qualquer um dos pares de domínio (alto, moderado ou cogatado).
 
-   A página de **informações sobre spoof Intelligence** aparece mostrando uma lista de remetentes que estão enviando emails não autenticados para sua organização. As informações nesta página ajudam a determinar se as mensagens falsificadas são autorizadas ou se você precisa tomar mais ações. Você pode classificar as informações por contagem de mensagens, a data em que a falsificação foi detectada pela última vez e muito mais. (Clique em cabeçalhos de coluna, como **contagem de mensagens** ou **última vista** , por exemplo).
+   A página **informações sobre spoof Intelligence** aparece. A página mostra uma lista de remetentes que estão enviando emails não autenticados para sua organização.
 
-2. Selecione um item na tabela para abrir um painel de detalhes que contenha informações avançadas sobre o par de domínio, incluindo por que detectamos isso, o que você precisa fazer, um resumo de domínio, dados de WhoIs sobre o remetente e emails semelhantes que vimos no seu locatário do mesmo remetente. A partir daqui, você também pode optar por adicionar ou remover o par de domínio da lista de remetentes confiáveis do **AllowedToSpoof** .
+   Essas informações ajudam a determinar se as mensagens falsificadas são autorizadas ou se você precisa tomar mais ações.
+
+   Você pode classificar as informações por contagem de mensagens, a data em que a falsificação foi detectada pela última vez e muito mais.
+
+2. Selecione um item na tabela para abrir um painel de detalhes que contenha informações avançadas sobre o par de domínio. As informações incluem:
+   - Por que detectamos isso.
+   - O que você precisa fazer.
+   - Um resumo de domínio.
+   - Dados de WhoIs sobre o remetente.
+   - Mensagens semelhantes que vimos no seu locatário do mesmo remetente.
+
+   A partir daqui, você também pode optar por adicionar ou remover o par de domínio da lista de remetentes confiáveis do **AllowedToSpoof** .
 
    ![Captura de tela de um domínio no painel de detalhes do spoof Intelligence Insight](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
 
-### <a name="add-or-remove-a-domain-from-the-allowedtospoof-safe-sender-list"></a>Adicionar ou remover um domínio da lista de remetentes confiáveis do AllowedToSpoof
+### <a name="add-or-remove-a-domain-from-the-allowedtospoof-list"></a>Adicionar ou remover um domínio da lista AllowedToSpoof
 
-Você adiciona ou remove um domínio da lista de remetentes confiáveis do AllowedToSpoof ao examinar o par de domínios no painel de detalhes da percepção de inteligência de falsificação. Basta definir a opção de alternância.
+Você adiciona ou remove um domínio da lista AllowedToSpoof (remetente seguro) no painel de detalhes da compreensão de inteligência de spoof para o par de domínio. Basta definir a opção de alternância.
 
-Isso modifica a combinação exclusiva de par de domínio do domínio falsificado e da infraestrutura de envio e não fornece cobertura para todo o domínio falsificado ou para a infraestrutura de envio isoladamente.
+Permitir um par de domínios permite apenas a combinação do domínio falsificado *e* da infraestrutura de envio. Ele não permite o envio de emails do domínio falsificado de qualquer fonte, nem permite o envio de emails da infraestrutura de envio para qualquer domínio.
 
-Por exemplo, se você adicionar o seguinte par de domínios à lista de permissões de remetente "AllowedToSpoof":  *domínio falsificado*  "gmail.com" e de *envio de infraestrutura* "TMS *. MX.com",* somente os emails desse par de domínio poderão ser falsificados. Outros remetentes que tentam falsificar "gmail.com" e outros domínios que "tms.mx.com" tentam falsificar continuarão a ser protegidos por spoof Intelligence.
+Por exemplo, você permite que o seguinte par de domínio envie mensagens falsificadas para sua organização:
+
+- *Domínio falsificado* : gmail.com "
+- *Infraestrutura de envio* `tms.mx.com` :
+
+Somente os emails desse par de domínio poderão ser falsificados. Outros remetentes tentando falsificar o gmail.com não são permitidos. As mensagens em outros domínios de tms.mx.com são verificadas por inteligência de falsificação.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

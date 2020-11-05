@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma retenção associada a uma caixa de descoberta eletrônica principal para preservar o conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: bf04fd0f0637247e4637b5d3fce82f911ca51f0e
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d2c9c02f7530c58975ddf99289a3a0872788146a
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546877"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920325"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -42,7 +42,7 @@ Para criar uma retenção de descoberta eletrônica associada a um caso de desco
   
 1. Acesse [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre usando as credenciais da conta de usuário que receberam as permissões de descoberta eletrônica apropriadas.
 
-2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo**e, em seguida, clique em **descoberta eletrônica > Core**.
+2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo** e, em seguida, clique em **descoberta eletrônica > Core**.
 
 3. Na página de **descoberta eletrônica principal** , selecione o caso para o qual você deseja criar a retenção e clique em **abrir caso**.
 
@@ -56,11 +56,11 @@ Para criar uma retenção de descoberta eletrônica associada a um caso de desco
 
     ![Escolher os locais de conteúdo para colocar em espera](../media/a59e4265-9151-4dbf-913f-6a4ab8db06b4.png)
   
-   a. **Locais da caixa de correio** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente para especificar as caixas de correio a serem colocadas em espera. Use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição (para colocar uma retenção nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode colocar uma retenção na caixa de correio associada para uma equipe da Microsoft, um grupo do Office 365 ou um grupo do Yammer. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
+   1. **Locais da caixa de correio** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente para especificar as caixas de correio a serem colocadas em espera. Use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição (para colocar uma retenção nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode colocar uma retenção na caixa de correio associada para uma equipe da Microsoft, um grupo do Office 365 ou um grupo do Yammer. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher** e em **concluído**.
 
-   b. **Locais de sites** -clique em **escolher sites** e clique em **escolher sites** novamente para especificar as contas do SharePoint e do onedrive para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para uma equipe da Microsoft, um grupo do Office 365 ou um grupo do Yammer. Clique em **escolher**e em **concluído**.
+   1. **Locais de sites** -clique em **escolher sites** e clique em **escolher sites** novamente para especificar as contas do SharePoint e do onedrive para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para uma equipe da Microsoft, um grupo do Office 365 ou um grupo do Yammer. Clique em **escolher** e em **concluído**.
   
-   c. **Pastas públicas do Exchange.** Mova o controle de alternância de alternância ![ ](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
+   1. **Pastas públicas do Exchange.** Mova o controle de alternância de alternância ![ ](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
 
    > [!NOTE]
    > Você deve adicionar pelo menos um local de conteúdo à isenção. Caso contrário, os estáticas de retenção de descoberta eletrônica mostrarão que nenhum item está em espera.
@@ -71,9 +71,9 @@ Para criar uma retenção de descoberta eletrônica associada a um caso de desco
 
     ![Criar uma retenção baseada em consulta com condições](../media/d587b58e-d05c-4ac0-b0fe-09019e4f1063.png)
   
-    a. Na caixa em **palavras-chave**, digite uma consulta de pesquisa para que apenas o conteúdo que atende aos critérios de pesquisa seja preservado. Você pode especificar palavras-chave, propriedades de mensagens de email ou propriedades do documento, como nomes de arquivos. Você também pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou ou** **não**.
+    1. Na caixa em **palavras-chave** , digite uma consulta de pesquisa para que apenas o conteúdo que atende aos critérios de pesquisa seja preservado. Você pode especificar palavras-chave, propriedades de mensagens de email ou propriedades do documento, como nomes de arquivos. Você também pode usar consultas mais complexas que usam um operador Boolean, como **e** , **ou ou** **não**.
 
-    b. Clique em **Adicionar condições** para adicionar uma ou mais condições para restringir a consulta de pesquisa para a isenção. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executada quando você cria a retenção. Por exemplo, você pode especificar um intervalo de datas para que os documentos de email ou de site criados dentro do intervalo de datas sejam colocados em espera. Uma condição é conectada logicamente à consulta de palavra-chave (especificada na caixa **palavras-chave** ) pelo operador **and** . Isso significa que os itens precisam satisfazer a consulta de palavra-chave e a condição a ser preservada.
+    1. Clique em **Adicionar condições** para adicionar uma ou mais condições para restringir a consulta de pesquisa para a isenção. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executada quando você cria a retenção. Por exemplo, você pode especificar um intervalo de datas para que os documentos de email ou de site criados dentro do intervalo de datas sejam colocados em espera. Uma condição é conectada logicamente à consulta de palavra-chave (especificada na caixa **palavras-chave** ) pelo operador **and** . Isso significa que os itens precisam satisfazer a consulta de palavra-chave e a condição a ser preservada.
 
     Para obter mais informações sobre como criar uma consulta de pesquisa e usar condições, consulte [keyword queries and Search Conditions for Content Search](keyword-queries-and-search-conditions.md).
 
@@ -123,13 +123,13 @@ Aqui estão alguns outros pontos a serem lembrados ao pesquisar locais em reten�
 
 - Se várias isenções de descoberta eletrônica forem colocadas em um único local em um caso de descoberta eletrônica e você selecionar para pesquisar locais em espera, o número máximo de palavras-chave para essa consulta de pesquisa será de 500. Isso ocorre porque a pesquisa combina todas as retenções baseadas em consulta usando o operador **or** . Se houver mais de 500 palavras-chave nas consultas de retenção combinada e na consulta de pesquisa, todo o conteúdo da caixa de correio será pesquisado, e não apenas o conteúdo que corresponda às isenções de caso baseados em consulta.
 
-- Se um controle de descoberta eletrônica tiver um status de **ativação**, você ainda poderá pesquisar os locais em espera enquanto a retenção estiver sendo ativada.
+- Se um controle de descoberta eletrônica tiver um status de **ativação** , você ainda poderá pesquisar os locais em espera enquanto a retenção estiver sendo ativada.
 
 ## <a name="preserve-content-in-microsoft-teams"></a>Preservar conteúdo no Microsoft Teams
 
 As conversas que fazem parte de um canal do Microsoft Teams são armazenadas na caixa de correio que está associada à equipe da Microsoft. Da mesma forma, os arquivos que os membros da equipe compartilham em um canal são armazenados no site do SharePoint da equipe. Portanto, você precisa colocar a caixa de correio da equipe e o site do SharePoint em retenção de descoberta eletrônica para preservar conversas e arquivos em um canal.
 
-Como alternativa, as conversas que fazem parte da lista de chat no Microsoft Teams (chamadas de *1:1 chats* ou *1: N chats de grupo*) são armazenadas nas caixas de correio dos usuários que participam do chat. Os arquivos que os usuários compartilham em conversas de chat são armazenados na conta do OneDrive do usuário que compartilha o arquivo. Portanto, você precisa adicionar as caixas de correio de usuários individuais e as contas do OneDrive a uma retenção de descoberta eletrônica para preservar conversas e arquivos na lista de chat. É uma boa ideia colocar uma retenção nas caixas de correio dos membros de uma equipe da Microsoft, além de colocar a caixa de correio e o site em espera da equipe.
+Como alternativa, as conversas que fazem parte da lista de chat no Microsoft Teams (chamadas de *1:1 chats* ou *1: N chats de grupo* ) são armazenadas nas caixas de correio dos usuários que participam do chat. Os arquivos que os usuários compartilham em conversas de chat são armazenados na conta do OneDrive do usuário que compartilha o arquivo. Portanto, você precisa adicionar as caixas de correio de usuários individuais e as contas do OneDrive a uma retenção de descoberta eletrônica para preservar conversas e arquivos na lista de chat. É uma boa ideia colocar uma retenção nas caixas de correio dos membros de uma equipe da Microsoft, além de colocar a caixa de correio e o site em espera da equipe.
 
 A partir de fevereiro de 2020, ativamos a capacidade de preservar o conteúdo em canais privados. Como os bate-papos de canal privado são armazenados nas caixas de correio dos participantes do bate-papo, colocar uma caixa de correio de usuário em retenção de descoberta eletrônica preservará chats de canal privado. Além disso, se uma caixa de correio de usuário foi colocada em retenção de descoberta eletrônica antes de fevereiro de 2020, a retenção será automaticamente aplicada às mensagens de canal privado armazenadas nessa caixa de correio. A preservação de arquivos compartilhados em canais privados também é suportada.
 
@@ -163,7 +163,7 @@ Lembre-se do seguinte ao colocar o Teams e os grupos do Office 365 em uma reten�
     ```
 
     > [!NOTE]
-    > Para executar o cmdlet **Get-UnifiedGroup**, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser membro de um grupo de funções atribuído à função de Destinatários Somente Leitura. 
+    > Para executar o cmdlet **Get-UnifiedGroup** , é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser membro de um grupo de funções atribuído à função de Destinatários Somente Leitura. 
   
 - Quando a caixa de correio de um usuário é pesquisada, qualquer equipe ou grupo do Office 365 do qual o usuário é membro não será pesquisado. Da mesma forma, quando você coloca uma equipe ou um grupo do Office 365 em retenção de descoberta eletrônica, somente a caixa de correio de grupo e o site de grupo são colocados em espera. As caixas de correio e os sites do OneDrive for Business de membros do grupo não são colocados em espera, a menos que você os adicione explicitamente ao bloqueio de descoberta eletrônica. Portanto, se você tiver que colocar uma equipe ou um grupo do Office 365 em espera por um motivo legal, considere adicionar as caixas de correio e as contas do OneDrive de membros da equipe ou do grupo na mesma isenção.
 
@@ -174,7 +174,7 @@ Lembre-se do seguinte ao colocar o Teams e os grupos do Office 365 em uma reten�
     ```
 
     > [!NOTE]
-    > Para executar o cmdlet **Get-UnifiedGroupLinks**, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser um membro de um grupo de funções atribuído à função Destinatários Somente Leitura.
+    > Para executar o cmdlet **Get-UnifiedGroupLinks** , é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser um membro de um grupo de funções atribuído à função Destinatários Somente Leitura.
 
 ## <a name="onedrive-accounts"></a>Contas do OneDrive
 
@@ -187,19 +187,19 @@ Para coletar uma lista das URLs para os sites do OneDrive for Business em sua or
 
 Depois que uma caixa de correio, um site do SharePoint ou uma conta do OneDrive for removido de uma descoberta eletrônica, uma *retenção de atraso* será aplicada. Isso significa que a remoção real da retenção está atrasada por 30 dias para evitar que os dados sejam excluídos permanentemente (removidos) de um local de conteúdo. Isso dá aos administradores uma oportunidade de Pesquisar ou recuperar conteúdo que será removido depois que uma retenção de descoberta eletrônica for removida. Os detalhes de como o atraso de espera funciona para caixas de correio e sites são diferentes.
 
-- **Caixas de correio:** Uma retenção de atraso é feita em uma caixa de correio na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção de descoberta eletrônica foi removida. Especificamente, uma retenção de atraso é aplicada a uma caixa de correio quando o assistente de pasta gerenciada define uma das seguintes propriedades de caixa de correio como **true**:
+- **Caixas de correio:** Uma retenção de atraso é feita em uma caixa de correio na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção de descoberta eletrônica foi removida. Especificamente, uma retenção de atraso é aplicada a uma caixa de correio quando o assistente de pasta gerenciada define uma das seguintes propriedades de caixa de correio como **true** :
 
    - **DelayHoldApplied:** Essa propriedade se aplica a conteúdo relacionado a email (gerado por pessoas que usam o Outlook e o Outlook na Web) que está armazenado na caixa de correio de um usuário.
 
    - **DelayReleaseHoldApplied:** Essa propriedade se aplica a conteúdo baseado em nuvem (gerado por aplicativos que não são do Outlook, como o Microsoft Teams, o Microsoft Forms e o Microsoft Yammer) que é armazenado na caixa de correio de um usuário. Os dados de nuvem gerados por um aplicativo da Microsoft geralmente são armazenados em uma pasta oculta da caixa de correio de um usuário.
 
-   Quando uma espera de atraso é colocada na caixa de correio (quando qualquer uma das propriedades anteriores é definida como **true**), a caixa de correio ainda é considerada em espera por uma duração de retenção ilimitada, como se a caixa de correio estivesse em retenção de litígio. Após 30 dias, o atraso esperado expira e o Microsoft 365 tentará automaticamente remover o atraso de espera (definindo a propriedade DelayHoldApplied ou DelayReleaseHoldApplied como **false**) para que a retenção seja removida. Após qualquer uma dessas propriedades ser definida como **false**, os itens correspondentes marcados para remoção serão removidos na próxima vez que a caixa de correio for processada pelo assistente de pasta gerenciada.
+   Quando uma espera de atraso é colocada na caixa de correio (quando qualquer uma das propriedades anteriores é definida como **true** ), a caixa de correio ainda é considerada em espera por uma duração de retenção ilimitada, como se a caixa de correio estivesse em retenção de litígio. Após 30 dias, o atraso esperado expira e o Microsoft 365 tentará automaticamente remover o atraso de espera (definindo a propriedade DelayHoldApplied ou DelayReleaseHoldApplied como **false** ) para que a retenção seja removida. Após qualquer uma dessas propriedades ser definida como **false** , os itens correspondentes marcados para remoção serão removidos na próxima vez que a caixa de correio for processada pelo assistente de pasta gerenciada.
 
    Para saber mais, confira [Gerenciar caixas de correios em retenção por atraso](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold).
 
 - **Sites do SharePoint e do onedrive:** Qualquer conteúdo do SharePoint ou do OneDrive que esteja sendo mantido na biblioteca de retenção de preservação não é excluído durante o período de espera de atraso de 30 dias após a remoção de um site de uma descoberta eletrônica. Isso é semelhante ao que acontece quando um site é liberado de uma política de retenção. Além disso, você não pode excluir manualmente esse conteúdo na biblioteca de retenção de preservação durante o período de espera de 30 dias. 
 
-   Para obter mais informações, consulte [liberando uma política de retenção](retention.md#releasing-a-retention-policy).
+   Para obter mais informações, consulte [liberando uma política de retenção](retention.md#releasing-a-policy-for-retention).
 
 Uma retenção de atraso também é aplicada aos locais de conteúdo em espera quando você fecha um caso de descoberta eletrônica principal, pois as isenções são desativadas quando um caso é fechado. Para obter mais informações sobre como fechar uma ocorrência, consulte [fechar, reabrir e excluir uma caixa de descoberta eletrônica principal](close-reopen-delete-core-ediscovery-cases.md).
 
@@ -207,7 +207,7 @@ Uma retenção de atraso também é aplicada aos locais de conteúdo em espera q
 
 A tabela a seguir lista os limites de ocorrências de descoberta eletrônica e isenções de caso.
 
-  |**Descrição do limite**|**Limite**|
+  | Descrição do limite | Limite |
   |:-----|:-----|
   |Número máximo de casos para uma organização  <br/> |Sem limite  <br/> |
   |Número máximo de suspensões de descoberta eletrônica para uma organização  <br/> |10.000  <br/> |
@@ -217,4 +217,9 @@ A tabela a seguir lista os limites de ocorrências de descoberta eletrônica e i
   |||
 
    > [!NOTE]
-   > <sup>1</sup> para exibir uma lista de mais de 1.000 casos, isenções, pesquisas ou exportações, você pode usar o cmdlet do PowerShell de segurança & conformidade do Office 365 correspondente:<br/> [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase) <br/> [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)<br/> [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
+   > <sup>1</sup> para exibir uma lista de mais de 1.000 casos, isenções, pesquisas ou exportações, você pode usar o cmdlet do PowerShell de segurança & conformidade do Office 365 correspondente:
+   >
+   > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
+   > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
+   > - [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)
+   > - [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)

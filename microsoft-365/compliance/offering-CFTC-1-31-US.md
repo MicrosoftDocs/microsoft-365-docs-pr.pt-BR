@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 73d52a91620bc0bd50a310c4085fa821fab80da2
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: bff804e726a62563621b11932e590ffcb631835a
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416351"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920393"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Comissão de negócios de futuro de mercadorias (CFTC) de regra 1.31 (c-d) Estados Unidos
 
@@ -41,11 +41,11 @@ Para avaliar a conformidade do Azure com a regra do CFTC 1.31 (c-d), a Microsoft
 
 ### <a name="microsoft-office-365"></a>Microsoft Office 365
 
-Para avaliar a compatibilidade do Office 365 com a regra do CFTC 1.31 (c-d), a Microsoft contratou uma importante empresa de advocacia independente especializada em problemas de regulamentação, Covington &ndo o nó LLP. No relatório resultante, [arquivando no Microsoft Office 365, a retenção de dados e a conformidade com a regra 17a-4](https://go.microsoft.com/fwlink/?linkid=830440), Covington validado que o [Office 365 com bloqueio de preservação](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) inclui recursos de arquivamento que permitem aos clientes regulamentados armazenar dados de uma maneira que os ajuda a cumprir os requisitos do CFTC para a retenção de registros.
+Para avaliar a compatibilidade do Office 365 com a regra do CFTC 1.31 (c-d), a Microsoft contratou uma importante empresa de advocacia independente especializada em problemas de regulamentação, Covington &ndo o nó LLP. No relatório resultante, [arquivando no Microsoft Office 365, a retenção de dados e a conformidade com a regra 17a-4](https://go.microsoft.com/fwlink/?linkid=830440), Covington validado que o [Office 365 com bloqueio de preservação](retention-preservation-lock.md) inclui recursos de arquivamento que permitem aos clientes regulamentados armazenar dados de uma maneira que os ajuda a cumprir os requisitos do CFTC para a retenção de registros.
 
 O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, incluindo email, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas de retenção de mensagens globais ou detalhadas para armazenar dados por um período definido e além de um formato não regravável e não apagável.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/o365-compliance-framework)

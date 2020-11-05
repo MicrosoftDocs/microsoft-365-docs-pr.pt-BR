@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a contoso usa os recursos de segurança do Microsoft 365 para empresas.
-ms.openlocfilehash: 8d62dba96ecf19f0dc31af2cf5a2d85257ca19d5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a72a770029328eaddf76cbe1b2039386c50c2750
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847101"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920413"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Resumo do Microsoft 365 for Enterprise Security para a Contoso Corporation
 
@@ -127,9 +127,9 @@ Para seguir as práticas recomendadas de segurança e a Microsoft 365 para requi
 
 ## <a name="security-management"></a>Gerenciamento de segurança
 
-- Painel central de segurança para ti com o Azure defender *
+- Painel central de segurança para ti com o Azure defender
 
-  A contoso usa o [Azure defender *](https://azure.microsoft.com/services/security-center/) para apresentar uma visão unificada da proteção contra ameaças e segurança, gerenciar políticas de segurança em suas cargas de trabalho e responder a cyberattacks.
+  A contoso usa o [Azure defender](https://azure.microsoft.com/services/security-center/) para apresentar uma visão unificada da proteção contra ameaças e segurança, gerenciar políticas de segurança em suas cargas de trabalho e responder a cyberattacks.
 
 - Painel central de segurança para os usuários com a Central de Segurança do Windows Defender
 

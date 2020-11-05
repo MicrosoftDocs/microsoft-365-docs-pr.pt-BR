@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Os administradores podem saber mais sobre o relatório de mensagens de encaminhamento automático no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 01a094b8531672708fc024e8ed0c5833786dbb0c
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 28cb593d56d0b0054c8c8cbe4596d4f7df6442ab
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877784"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920591"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Informações de encaminhamento automático de mensagens no centro de conformidade & segurança
 
@@ -35,7 +35,7 @@ Quando você clica no número de mensagens no widget, um painel de submenu apare
 
   - **Por regras de fluxo de emails**
   - **Por regras de caixa de entrada**
-  - **Pelo encaminhamento SMTP** : Este é o encaminhamento automático que os administradores podem configurar em uma caixa de correio, conforme descrito em [Configure e-mail Forwarding for a Mailbox](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
+  - **Pelo encaminhamento SMTP** : Este método indica o encaminhamento automático que os administradores podem configurar em uma caixa de correio, conforme descrito em [Configure e-mail Forwarding for a Mailbox](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
   - Um link para o [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) para obter mais detalhes.
 
 - **Encaminhar mensagens automaticamente por domínios e usuários** :

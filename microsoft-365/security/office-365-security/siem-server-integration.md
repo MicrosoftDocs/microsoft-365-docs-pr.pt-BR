@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Obtenha uma visão geral da integração do servidor de gerenciamento de eventos e informações de segurança (SIEM) com seus serviços e aplicativos em nuvem da Microsoft 365
-ms.openlocfilehash: 0e582333615d11c500b114225435903cea386ade
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 17e21d19463187744afe855b2304ac71956545d2
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846395"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919753"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Integração do servidor de gerenciamento de eventos e informações de segurança (SIEM) com serviços e aplicativos do Microsoft 365
 
@@ -52,7 +52,7 @@ Um servidor SIEM pode receber dados de uma ampla variedade de serviços e aplica
 
 |Serviço ou aplicativo Microsoft 365|Entradas/métodos do servidor SIEM|Recursos para saber mais|
 |---|---|---|
-|[Microsoft defender para Office 365](office-365-atp.md)|Logs de auditoria|[Integração do SIEM com o Microsoft defender para Office 365](siem-integration-with-office-365-ti.md)|
+|[Microsoft Defender para Office 365](office-365-atp.md)|Logs de auditoria|[Integração do SIEM com o Microsoft defender para Office 365](siem-integration-with-office-365-ti.md)|
 |[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <br/>API REST|[Extrair alertas para suas ferramentas SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com o Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/siem)|
 |
@@ -70,6 +70,6 @@ Certifique-se de que o log de auditoria está ativado antes de configurar a inte
 
 ## <a name="more-resources"></a>Mais recursos
 
-[Integrar soluções de segurança no Azure defender *](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
+[Integrar soluções de segurança no Azure defender](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
 [Integrar alertas da API de Segurança do Microsoft Graph com um SIEM](https://docs.microsoft.com/graph/security-integration)
