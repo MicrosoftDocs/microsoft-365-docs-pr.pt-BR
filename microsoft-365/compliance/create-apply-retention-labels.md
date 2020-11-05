@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar e publicar rótulos de retenção para que você possa aplicá-los em aplicativos para manter o que precisa e excluir o que não
-ms.openlocfilehash: e1504bf4dda8ee2e9f78f84c147bb4f3ebc22887
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: e13da466e10a347270d4b1097d36476d974557a7
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48773992"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920335"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Criar rótulos de retenção e aplicá-los em aplicativos
 
@@ -65,15 +65,15 @@ Onde você cria e configura seus rótulos de retenção depende se você está u
     - Se você não estiver usando o gerenciamento de registros:
        - **Soluções** > **Governança de Informações** >  guia **Rótulos** > + **Criar um Rótulo**
     
-    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo** . 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
 
 2. Siga as instruções do assistente. Se você estiver usando o gerenciamento de registros:
     
     - Para saber mais sobre os descritores de plano de arquivo, confira [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md)
     
-    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios** . Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
+    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
 
-3. Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar o rótulo automaticamente ou salvar o rótulo: selecione **Basta salvar o rótulo para agora** e, em seguida, selecione **Concluído** .
+3. Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar o rótulo automaticamente ou salvar o rótulo: selecione **Basta salvar o rótulo para agora** e, em seguida, selecione **Concluído**.
 
 4. Repita essas etapas para criar mais rótulos.
 
@@ -91,7 +91,7 @@ Publique os rótulos de retenção para que eles possam ser aplicados pelos usu�
     - Se você não estiver usando o gerenciamento de registros:
         - **Soluções** > **Governança de Informações** >  guia **Políticas de Rótulo** > **Publicar Rótulos**
     
-    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo** . 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
 
 2. Siga as instruções do assistente.
     
@@ -272,7 +272,11 @@ When you edit a retention label or retention label policy, and the retention lab
 
 Some settings can't be changed after the label or policy is created and saved, which include:
 - The retention settings except the retention period, unless you've configured the label to retain or delete the content based on when it was created.
-- The option to classify as a record.
+- The option to mark items as a record.
+
+## Locking the policy to prevent changes
+
+If you need to ensure that that no one can turn off the policy, delete the policy, or make it less restrictive, see [Use Preservation Lock to restrict changes to retention policies and retention label policies](retention-preservation-lock.md).
 
 ## Next steps
 
