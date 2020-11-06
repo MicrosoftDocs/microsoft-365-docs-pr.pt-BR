@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 56d849a7abcbe480d82200cc7841d42e9c189762
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 347266f71dada3de1bbd9b1434cb1e6628249147
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795100"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931919"
 ---
 # <a name="readiness-assessment-tool"></a>Ferramenta de avaliação de prontidão
 
@@ -22,7 +22,7 @@ Para uma experiência mais suave possível quando você se inscreve na área de 
 
 A ferramenta verifica as configurações no Microsoft Endpoint Manager (especificamente, Microsoft Intune), Azure Active Directory (Azure AD) e Microsoft 365 para garantir que elas funcionarão com a área de trabalho gerenciada da Microsoft. A área de trabalho gerenciada da Microsoft retém os dados associados a essas verificações por 12 meses após a última vez que você executa um check-in em sua organização do AD do Azure (locatário). Após 12 meses, retida-a na forma de não identificado.  Você pode optar por excluir os dados que coletamos.
 
-Qualquer pessoa com pelo menos a função de administrador do Intune poderá executar essa ferramenta, mas três das verificações ([conectores de certificado](readiness-assessment-fix.md#certificate-connectors), [autenticação multifator](readiness-assessment-fix.md#multi-factor-authentication)e [redefinição de senha de autoatendimento](readiness-assessment-fix.md#self-service-password-reset)) exigem permissões adicionais.
+Qualquer pessoa com pelo menos a função de administrador do Intune poderá executar essa ferramenta, mas duas das verificações ([conectores de certificado](readiness-assessment-fix.md#certificate-connectors) e [autenticação multifator](readiness-assessment-fix.md#multi-factor-authentication) exigem permissões adicionais.
  
 A ferramenta de avaliação verifica estes itens:
 
