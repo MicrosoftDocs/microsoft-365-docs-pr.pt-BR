@@ -296,8 +296,8 @@
           href: create-apply-retention-labels.md
         - name: Aplicar um rótulo de retenção ao conteúdo automaticamente
           href: apply-retention-labels-automatically.md
-        - name: Respeitar a Regra 17a-4 da SEC
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: Bloquear políticas para restringir mudanças
+          href: retention-preservation-lock.md
         - name: Criar rótulos de retenção com o PowerShell
           href: bulk-create-publish-labels-using-powershell.md
         - name: Iniciar a retenção quando ocorrer um evento
@@ -426,6 +426,8 @@
           href: declare-records.md
         - name: Usar o controle de versão do registro
           href: record-versioning.md
+        - name: Recursos para requisitos regulamentares
+          href: retention-regulatory-requirements.md
 - name: Gerenciar a Descoberta Eletrônica
   items:
     - name: Descoberta eletrônica no Microsoft 365
@@ -531,6 +533,8 @@
               href: data-spillage-scenariosearch-and-purge.md
             - name: Preservar destinatários Cco para pesquisa
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+            - name: Descriptografia em ferramentas de descoberta eletrônica
+              href: ediscovery-decryption.md
             - name: Solucionar problemas comuns de Descoberta Eletrônica
               href: ediscovery-troubleshooting-common-issues.md
             - name: Repetir uma pesquisa com falha
@@ -660,7 +664,9 @@
               href: permissions-filtering-for-content-search.md
             - name: Configurar limites de conformidade
               href: set-up-compliance-boundaries.md
-            - name: Procurar atividades de Descoberta Eletrônica no log de auditoria
+            - name: Descriptografia em ferramentas de descoberta eletrônica
+              href: ediscovery-decryption.md
+            - name: Procurar atividades de descoberta eletrônica no log de auditoria
               href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: Solucionar problemas do AzCopy
               href: troubleshooting-azcopy.md
