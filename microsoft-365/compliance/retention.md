@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 50bbe9d80b7b0a1b9fa346fd6e5abc8971dadcfb
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 0dfccef331c279354f066ebffa80143d43192472
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804754"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920521"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -55,11 +55,11 @@ Essas configurações de retenção funcionam com o conteúdo que poupa os demai
 
 ## <a name="how-retention-settings-work-with-content-in-place"></a>Como funcionam as configurações de retenção com conteúdo no local
 
-Quando o conteúdo tiver as configurações de retenção atribuídas a ele, esse conteúdo permanecerá no local original. As pessoas podem continuar a trabalhar com seus documentos ou emails como se nada tivesse mudado. Porém, se elas editarem ou excluírem o conteúdo incluído na política de retenção, uma cópia do conteúdo será retida automaticamente no momento em que você aplicou as configurações de retenção.
+Quando o conteúdo tiver as configurações de retenção atribuídas a ele, esse conteúdo permanecerá no local original. As pessoas podem continuar a trabalhar com seus documentos ou emails como se nada tivesse mudado. Porém, se elas editarem ou excluírem o conteúdo incluído na política de retenção, uma cópia do conteúdo será retida automaticamente.
   
-- Para sites do Microsoft Office SharePoint Online e do OneDrive: a cópia é retida na biblioteca de **Retenção para Preservação** .
+- Para sites do Microsoft Office SharePoint Online e do OneDrive: a cópia é retida na biblioteca de **Retenção para Preservação**.
 
-- Para as caixas de correio do Exchange: a cópia é mantida na pasta **Itens Recuperáveis** . 
+- Para as caixas de correio do Exchange: a cópia é mantida na pasta **Itens Recuperáveis**. 
 
 - Para as mensagens do Teams e do Yammer: a cópia é mantida em uma pasta oculta chamada **SubstrateHolds** como uma subpasta na pasta **Itens Recuperáveis** do Exchange.
 
@@ -77,7 +77,7 @@ Para obter informações mais detalhadas sobre como funcionam as configurações
 
 ## <a name="retention-policies-and-retention-labels"></a>Políticas de retenção e rótulos de retenção
 
-Você pode usar as políticas de retenção e os rótulos de retenção para atribuir as suas configurações de retenção ao conteúdo. 
+Você pode usar tanto as políticas de retenção quanto os rótulos de retenção para atribuir as suas configurações de retenção ao conteúdo. 
 
 Use uma política de retenção para atribuir as mesmas configurações de retenção para o conteúdo em um site ou nível de caixa de correio e usar um rótulo de retenção para atribuir configurações de retenção a um nível de item (pasta, documento, email).
 
@@ -110,38 +110,8 @@ As políticas de retenção podem ser aplicadas aos seguintes locais:
 - Mensagens privadas do Yammer
 
 Você pode aplicar uma única política de forma eficaz a vários locais ou a locais ou usuários específicos.
-    
-Aplicar uma política a todo o conteúdo ou ao conteúdo que atende condições específicas, por exemplo, como palavras-chave ou [tipos de informações confidenciais](sensitive-information-type-entity-definitions.md).
 
-#### <a name="use-preservation-lock-to-comply-with-regulatory-requirements"></a>Usar o Bloqueio de Preservação para atender aos requisitos regulamentares
-
-Algumas organizações talvez precisem cumprir regras definidas por órgãos regulamentadores, como a Regra 17a-4 da Securities and Exchange Commission (SEC), que exige que após uma política de retenção ser ativada, ela não pode ser desativada ou se tornar menos restritiva. 
-
-O Bloqueio de Preservação garante que sua organização possa atender a requisitos regulatórios porque bloqueia uma política de retenção para que ninguém, incluindo o administrador, possa desativar a política, excluir a política ou torná-la menos restritiva.
-  
-Quando uma política de retenção está bloqueada:
-
-- Ninguém pode desligá-lo
-- Locais podem ser adicionados, mas não removidos
-- O conteúdo sujeito à política não pode ser modificado ou excluído durante o período de retenção
-- Você pode estender um período de retenção, mas não reduzi-lo
-
-Em resumo, uma política de retenção bloqueada pode ser aumentada ou estendida, mas não poderá ser reduzida ou desativada.
-  
-> [!IMPORTANT]
-> Antes de bloquear uma política de retenção, é fundamental que você entenda o impacto e confirme se ela é necessária para a sua organização atender aos requisitos normativos. Os administradores não poderão desabilitar ou excluir uma política de retenção após a aplicação do bloqueio de preservação.
-
-Aplique o Bloqueio de Preservação após a política de retenção ser criada, usando o PowerShell. As instruções estão incluídas em [Criar e configurar políticas de retenção](create-retention-policies.md).
-
-#### <a name="releasing-a-retention-policy"></a>Como liberar uma política de retenção
-
-Desde que sua política de retenção não tenha um Bloqueio de Preservação, você pode desativar ou excluir uma política de retenção a qualquer momento. 
-
-Quando você faz isso, todo o conteúdo do SharePoint ou do OneDrive que está sendo mantido na biblioteca de retenção de preservação não é excluído imediata e permanentemente. Em vez disso, para ajudar a evitar a perda acidental de dados, há um período de cortesia de 30 dias, durante o qual a expiração de conteúdo dessa política não acontece na biblioteca de retenção para preservação para que você possa restaurar todo o conteúdo de lá, se necessário. Além disso, não é possível excluir manualmente esse conteúdo durante o período de cortesia.
-
-Você também pode ativar a política de retenção novamente durante o período de cortesia e nenhum conteúdo será excluído para essa política.
-
-O período de cortesia de 30 dias no SharePoint e no OneDrive corresponde à retenção por atraso de 30 dias no Exchange. Para saber mais, confira [Gerenciar caixas de correios em retenção por atraso](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold).
+Os itens herdam as configurações de retenção do contêiner especificado na política de retenção. Em seguida, eles são movidos para fora desse contêiner quando a política está configurada para manter o conteúdo, uma cópia desse item é mantida no local seguro da carga de trabalho. No entanto, as configurações de retenção não viajam com o conteúdo em seu novo local. Se necessário, use os rótulos de retenção em vez das políticas de retenção.
 
 ### <a name="retention-labels"></a>Rótulos de retenção
 
@@ -252,7 +222,7 @@ Voce pode fazer uma busca detalhada usando o [explorador de conteúdo](data-clas
 > [!TIP]
 >Considere o uso de algumas das outras ideias de classificação de dados, como classificadores treináveis e tipos de informações confidenciais, para ajudar você a identificar o conteúdo que pode ser necessário reter, excluir, ou gerenciar como registros.
 
-O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel** , e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo** . Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
+O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel** , e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo**. Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
 - [Exibir os relatórios de governança de dados](view-the-data-governance-reports.md)
 - [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
 - [Exibir a atividade de rótulos de documentos](view-label-activity-for-documents.md)
@@ -273,7 +243,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Recursos|Política de retenção |Rótulo de retenção|
 |:-----|:-----|:-----|:-----|
 |Configurações de retenção que podem reter e excluir, somente reter ou somente excluir |Sim |Sim |
-|Cargas de trabalho com suporte: <br />- Exchange <br />- Microsoft Office SharePoint Online <br />- OneDrive <br />- Grupos do Microsoft 365 <br />- Skype for Business <br />- Teams<br />- Yammer|<br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim | <br /> Sim, exceto as pastas públicas <br /> Sim <br /> Sim <br /> Sim <br /> Não <br /> Não <br /> Não |
+|Cargas de trabalho com suporte: <br />- Exchange <br />- Microsoft Office SharePoint Online <br />- OneDrive <br />- Grupos do Microsoft 365 <br />- Skype for Business <br />- Teams<br />- Yammer|<br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim | <br /> Sim, exceto as pastas públicas <br /> Sim <br /> Sim <br /> Sim <br /> Não <br /> Não <br /> Não |
 |Retenção aplicada automaticamente | Sim | Sim |
 |Retenção aplicada com base em condições <br /> - tipos de informações confidenciais, consultas de KQL, classificadores de treinamento| Não | Sim |
 |Retenção aplicada manualmente | Não | Sim |
@@ -311,13 +281,31 @@ Explicação para os quatro níveis diferentes:
     
 3. **A inclusão explícita prevalece sobre a inclusão implícita.** Isso significa que: 
     
-    1. Se um rótulo de retenção com configurações de retenção for atribuídos manualmente por um usuário a um item, como um email do Exchange ou um documento do OneDrive, esse rótulo de retenção tem precedência sobre uma política de retenção atribuída no nível do site ou da caixa de correio e um rótulo de retenção padrão atribuído à biblioteca de documentos. Por exemplo, se o rótulo de retenção explícito estiver configurado para reter o conteúdo por dez anos, mas uma política de retenção atribuída ao site está configurada para reter conteúdo por apenas cinco anos, o rótulo de retenção tem precedência. Os rótulos de retenção de aplicação automática são considerados implícitos, não explícitos, pois são aplicados automaticamente pelo Microsoft 365.
+    1. Se um rótulo de retenção com configurações de retenção for atribuídos manualmente por um usuário a um item, como um email do Exchange ou um documento do OneDrive, esse rótulo de retenção tem precedência sobre uma política de retenção atribuída no nível do site ou da caixa de correio e um rótulo de retenção padrão atribuído à biblioteca de documentos. Por exemplo, se o rótulo de retenção explícito estiver configurado para reter o conteúdo por dez anos, mas uma política de retenção atribuída ao site está configurada para reter conteúdo por apenas cinco anos, o rótulo de retenção tem precedência.
     
     2. Se uma política de retenção incluir um local específico, como a caixa de correio de um usuário específico ou conta OneDrive, essa política de retenção terá precedência sobre outra política de retenção que se aplica a caixas de correio de todos os usuários ou contas do OneDrive, mas não incluirá especificamente essa caixa de correio do usuário.
     
 4. **O período de exclusão mais curto tem precedência.** Da mesma forma, se o conteúdo estiver sujeito a várias configurações de retenção que excluem conteúdo sem um período de retenção, esse conteúdo será excluído ao fim do período de retenção mais curto. 
 
 Por fim, uma política de retenção ou um rótulo de retenção não pode excluir permanentemente qualquer conteúdo que esteja em espera para Descoberta Eletrônica. Quando a retenção for liberada, o conteúdo estará novamente qualificado para o processo de limpeza no local seguro para a carga de trabalho.
+
+## <a name="use-preservation-lock-to-restrict-changes-to-policies"></a>Use o Bloqueio de Preservação para restringir alterações às políticas
+
+Algumas organizações talvez precisem cumprir regras definidas por órgãos regulamentadores, como a Regra 17a-4 da Securities and Exchange Commission (SEC), que exige que após uma política de retenção ser ativada, ela não pode ser desativada ou se tornar menos restritiva. 
+
+O Bloqueio de Preservação garante que sua organização possa atender a requisitos regulatórios porque bloqueia uma política de retenção para que ninguém, incluindo o administrador, possa desativar a política, excluir a política ou torná-la menos restritiva.
+  
+Você aplica o Bloqueio de Preservação depois que a política de retenção ou política de rótulo de retenção for criada. Para obter mais informações e instruções, confira [Usar Bloqueio de Preservação para restringir as alterações nas políticas de retenção e políticas de rótulo de retenção](retention-preservation-lock.md).
+
+## <a name="releasing-a-policy-for-retention"></a>Lançar uma política de retenção
+
+Caso as suas políticas para retenção não tenham um Bloqueio de Preservação, você pode excluir suas políticas a qualquer momento, o que desabilita eficazmente as configurações de retenção aplicadas anteriormente. Você também pode manter a política, mas alterar o status do local para desativado.
+ 
+Quando você executa uma destas ações, todo o conteúdo do SharePoint ou do OneDrive que está sendo mantido na biblioteca de Retenção de Preservação não é imediatamente excluído. Em vez disso, para ajudar a evitar a perda acidental de dados, há um período de cortesia de 30 dias, durante o qual a expiração de conteúdo dessa política não acontece na biblioteca de retenção para preservação para que você possa restaurar todo o conteúdo de lá, se necessário. Além disso, não é possível excluir manualmente esse conteúdo durante o período de cortesia.
+
+Você pode alterar o status do local de volta para o que estava durante o período de cortesia e nenhum conteúdo será excluído para essa política.
+
+O período de cortesia de 30 dias no SharePoint e no OneDrive corresponde à retenção por atraso de 30 dias no Exchange. Para saber mais, confira [Gerenciar caixas de correios em retenção por atraso](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold).
 
 ## <a name="auditing-retention-configuration"></a>Configuração de retenção de auditoria
 
@@ -413,7 +401,7 @@ Se você configurou sites do SharePoint para políticas de tipo de conteúdo ou 
 
 - [Limites do SharePoint Online](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 - [Limites e especificações para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
-- [Cumprir com a Regra 17a-4 da SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+- [Recursos para ajudá-lo a atender aos requisitos normativos para o controle de informações e o gerenciamento de registros](retention-regulatory-requirements.md)
 
 ## <a name="next-steps"></a>Próximas etapas
 
