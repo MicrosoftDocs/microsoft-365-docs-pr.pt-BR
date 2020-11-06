@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Usando a central de segurança do Microsoft 365 ou o centro de conformidade da Microsoft 365, você pode gerenciar as permissões centralmente para todas as tarefas relacionadas à segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ad17933592b860fb81e469fd55a454c90b71320
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0f7dcddd7070f95ae61b17b9623dfcbab4a62e5f
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845751"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920627"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Permissões novo centro de segurança do Microsoft 365 e no centro de conformidade do Microsoft 365
 
@@ -103,8 +103,8 @@ Os usuários com essa função possuem permissões para gerenciar recursos relac
 |**Microsoft Defender para Ponto de Extremidade e EDR**|Atribuir funções. <br/><br/> Gerenciar grupos de computadores. <br/><br/> Configurar a detecção de ameaças do ponto de extremidade e a correção automatizada. <br/><br/> Exibir, investigar e responder a alertas.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Exibe informações de usuário, dispositivo, registro, configuração e aplicativo. <br/><br/> **Não** pode fazer alterações no Intune.|
 |[**Segurança no Aplicativo na Nuvem**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Adicionar administradores, adicionar políticas e configurações, carregar logs e executar ações de governança.|
-|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (em breve)|Exibir políticas de segurança, exibir estados de segurança, editar políticas de segurança, exibir alertas e recomendações, ignorar alertas e recomendações.|
-|[*Integridade do serviço do Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Exibir a integridade de serviços do Office 365.|
+|[**Azure Defender**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (em breve)|Exibir políticas de segurança, exibir estados de segurança, editar políticas de segurança, exibir alertas e recomendações, ignorar alertas e recomendações.|
+|[**Integridade do serviço do Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Exibir a integridade de serviços do Office 365.|
 |
 
 ### <a name="security-operator"></a>Operador de segurança
@@ -140,8 +140,8 @@ Os usuários com esta função têm acesso global somente leitura em recursos re
 |**Microsoft Defender para Ponto de Extremidade e EDR**|Exibir e investigar alertas.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Exibe informações de usuário, dispositivo, registro, configuração e aplicativo. <br/><br/> **Não** pode fazer alterações no Intune.|
 |[**Segurança no Aplicativo na Nuvem**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Usar permissões somente leitura para exibir informações. <br/><br/> Gerenciar Alertas.|
-|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Exibir recomendações e alertas. <br/><br/> Exibir políticas de segurança. <br/><br/> Exibir estados de segurança, mas sem poder fazer alterações.|
-|[*Integridade do serviço do Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Exibir a integridade de serviços do Office 365.|
+|[**Azure Defender**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Exibir recomendações e alertas. <br/><br/> Exibir políticas de segurança. <br/><br/> Exibir estados de segurança, mas sem poder fazer alterações.|
+|[**Integridade do serviço do Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Exibir a integridade de serviços do Office 365.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Os administradores globais podem gerenciar as funções no Azure Active Directory
