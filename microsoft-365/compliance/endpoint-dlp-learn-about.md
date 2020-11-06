@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade da Microsoft 365 (visualização)
+title: Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365 (visualização)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -18,13 +18,13 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: 'A prevenção contra perda de dados do ponto de extremidade da Microsoft 365 estende o monitoramento de atividades de arquivo e ações de proteção para os pontos de extremidade desse arquivo. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: cbf4a53658885102226d2b874180f5cc5f264a91
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: 'A prevenção de perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para ponto de extremidade. Os arquivos tornam-se visíveis nas soluções do Centro de conformidade do Microsoft 365 '
+ms.openlocfilehash: 3dedf8f3134dbdd00c45e6b0aed741a3b3173984
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841857"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931965"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade da Microsoft 365 (visualização)
 
@@ -55,7 +55,8 @@ Há alguns conceitos adicionais que você precisa saber antes de mergulhar no En
 
 O gerenciamento de dispositivos é a funcionalidade que habilita o conjunto de telemetria de dispositivos e a reúne para as soluções do Centro de conformidade do Microsoft 365, como Endpoint DLP e [gerenciamento de risco interno](insider-risk-management.md). Será necessário integrar todos os dispositivos que você deseja usar como locais nas políticas DLP.
 
-![habilitar o gerenciamento de dispositivos](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+> [!div class="mx-imgBorder"]
+> ![habilite o gerenciamento de dispositivos](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
 A integração e a remoção são manipuladas por meio de scripts que você baixa no centro de gerenciamento de dispositivos. O centro tem scripts personalizados para cada um desses métodos de implantação:
 
@@ -65,17 +66,19 @@ A integração e a remoção são manipuladas por meio de scripts que você baix
 - Gerenciamento de dispositivos móveis/Microsoft Intune
 - Scripts de integração VDI para máquinas não persistentes
 
-![página de integração de dispositivos](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
+> [!div class="mx-imgBorder"]
+> ![página de integração de dispositivos](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
 
- Use os procedimentos no [Introdução ao Microsoft 365 Endpoint DLP](endpoint-dlp-getting-started.md) a dispositivos integrados.
+ Use os procedimentos no [Introdução ao Microsoft 365 Endpoint DPL](endpoint-dlp-getting-started.md) para dispositivos integrados.
 
-Se você tiver dispositivos integrados por meio do [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), esses dispositivos serão mostrados automaticamente na lista de dispositivos.
+Se você tiver dispositivos integrados por meio do [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), esses dispositivos aparecerão automaticamente na lista de dispositivos.
 
-![lista de dispositivos gerenciados](../media/endpoint-dlp-learn-about-2-device-list.png)
+> [!div class="mx-imgBorder"]
+> ![lista de dispositivos gerenciados](../media/endpoint-dlp-learn-about-2-device-list.png)
 
-### <a name="viewing-endpoint-dlp-data"></a>Exibir dados de DLP do Endpoint
+### <a name="viewing-endpoint-dlp-data"></a>Exibir dados de DLP do ponto de extremidade
 
- O Endpoint DLP monitora a atividade do tipo MIME do OM baseado na atividade, portanto, as atividades serão capturadas, mesmo que a extensão de arquivo seja alterada. Na visualização pública, ela observa todos:
+ O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, portanto, as atividades serão capturadas mesmo se a extensão do arquivo for alterada. Na visualização pública, ela observa todos:
 
 - Arquivos do Word
 - Arquivos do PowerPoint
@@ -83,21 +86,24 @@ Se você tiver dispositivos integrados por meio do [Microsoft Defender para Pont
 - Arquivos PDF
 - Arquivos .csv
 - Arquivos .tsv
-- Arquivos C
-- Arquivos de classe
-- Arquivos CPP
-- Arquivos CS
-- Arquivos H
-- Arquivos Java
+- Arquivos .txt
+- Arquivos .rtf
+- Arquivos .c
+- Arquivos .class
+- Arquivos .cpp
+- Arquivos .cs
+- Arquivos .h
+- Arquivos .java
 
 > [!NOTE]
-> Os arquivos .txt e de código-fonte não são auditados por padrão, a DLP os avalia em relação às políticas aplicadas e as ações do usuário são auditadas ou bloqueadas de acordo.
+> O DLP de ponto de extremidade avalia os arquivos de todos os tipos acima em relação à política de DLP e aplica as ações de proteção de acordo. Todos os arquivos que correspondem a uma política DLP são auditados para todas as ações com suporte, mesmo se não forem bloqueadas. Além disso, a atividade de arquivo realizada em qualquer arquivo do Word, PowerPoint, Excel, PDF e .csv é auditado por padrão, independentemente da existência de uma política DLP ou da correspondência desses arquivos.
 
-Após a integração de um dispositivo, as informações sobre as atividades auditadas fluem no explorador de atividades mesmo antes de você configurar e implantar as políticas DLP que têm dispositivos como um local.
+Após a integração de um dispositivo, as informações sobre atividades auditadas fluem para o Gerenciador de atividade mesmo antes de você configurar e implantar qualquer política de DLP que tenha dispositivos como local.
 
-![eventos do Endpoint DLP no explorador de atividades](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
+> [!div class="mx-imgBorder"]
+> ![eventos do DLP do ponto de extremidade no gerenciador de atividades](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
 
-O Endpoint DLP coleta informações abrangentes sobre atividades auditadas.
+O DLP do ponto de extremidade coleta informações abrangentes sobre a atividade auditada.
 
 Por exemplo, se um arquivo for copiado para uma mídia USB removível, você verá esses atributos nos detalhes da atividade:
 
@@ -126,7 +132,8 @@ Por exemplo, se um arquivo for copiado para uma mídia USB removível, você ver
 - modelo do dispositivo de mídia removível
 - número de série do dispositivo de mídia removível
 
-![copiar para atributos de atividades USB](../media/endpoint-dlp-learn-about-5-activity-attributes.png)
+> [!div class="mx-imgBorder"]
+> ![copiar para atributos de atividades USB](../media/endpoint-dlp-learn-about-5-activity-attributes.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 
