@@ -15,19 +15,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber como identificar grupos específicos de usuários com marcas de usuário no Microsoft defender para Office 365 plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft defender para Office 365 para identificar rapidamente os usuários marcados.
-ms.openlocfilehash: fcc13a04ed603712bb2a45ccaadbaf161702c502
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9c83a323a3116b3da61a133c7fb449978ca13841
+ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842875"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48945313"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft defender para Office 365
 
 > [!NOTE]
 > O recurso de marcas de usuário está em visualização, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
-Marcas de usuário são identificadores para grupos específicos de usuários no [defender para Office 365](office-365-atp.md). Há dois tipos de marcas de usuário:
+Marcas de usuário são identificadores para grupos específicos de usuários no [Microsoft defender para Office 365](office-365-atp.md). Há dois tipos de marcas de usuário:
 
 - **Marcas de sistema** : atualmente, [contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) é o único tipo de marca do sistema.
 - **Marcas personalizadas** : você mesmo cria essas marcas de usuário.
@@ -43,7 +43,7 @@ Após aplicar marcas de sistema ou marcas personalizadas aos usuários, você po
 
 Este artigo explica como configurar marcas de usuário no centro de conformidade de & de segurança. Não há cmdlets no centro de conformidade & segurança para gerenciar marcas de usuário.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **marcas do usuário** , abra <https://protection.office.com/userTags> .
 
