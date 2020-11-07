@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar e publicar automaticamente os rótulos de retenção para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 5833684c729876315ce3866a8af52d79b924caef
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: c1c18f5445b326ad7353d8c534940d3db69a3f24
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920015"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931975"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -180,17 +180,8 @@ Para identificar as gravações de reunião do Microsoft Teams que estão armaze
 ProgID:Media AND ProgID:Meeting
 ```
 
-Para esse rótulo de retenção, você também deve publicá-lo em contas do Microsoft OneDrive ou sites do Microsoft Office SharePoint Online relevantes dos usuários, criando uma política de rótulo. Na maioria das vezes, as gravações de reunião são salvas no Microsoft OneDrive, mas para reuniões do canal, elas são salvas no Microsoft Office SharePoint Online.
+Na maioria das vezes, as gravações de reuniões são salvas no Microsoft OneDrive. Mas para reuniões de canal, eles são salvos no Microsoft Office SharePoint Online.
 
-Depois de ter salvo a política de rótulo de retenção de aplicação automática:
-
-1. Selecionar **Políticas de rótulos** guia > **Publicar rótulos**
-
-2. Quando solicitado a selecionar um rótulo, escolha o mesmo rótulo que você selecionou para a política de aplicação automática que identifica as gravações de reuniões do Microsoft Teams.
-
-3. Quando for solicitado o local, escolha **Sites do Microsoft Office SharePoint Online** e **Contas do Microsoft OneDrive**. Em seguida, você pode manter o padrão de **Todas** ou especificar locais individuais, como incluir ou excluir contas específicas do Microsoft OneDrive.
-
-4. Conclua o assistente e salve essa política de rótulo.
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
 
@@ -216,7 +207,7 @@ Quando você aplica rótulos de retenção automaticamente, pode levar até sete
 
 Se os rótulos esperados não aparecerem após sete dias, verifique o **Status** da política de aplicação automática selecionando-a na página **Políticas de rótulo** na central de conformidade. Se você vir o status de **Desligado (Erro)** e nos detalhes dos locais, verá uma mensagem de que está demorando mais do que o esperado para implantar a política (para Microsoft Office SharePoint Online) ou para tentar reimplantar a política (para Microsoft OneDrive), tente executar o comando Windows PowerShell [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) para tentar novamente a distribuição da política:
 
-1. [Conectar-se ao Centro de Conformidade e Segurança do Windows PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [Conectar-se ao Windows PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Execute o seguinte comando:
     
@@ -232,9 +223,9 @@ Algumas configurações não podem ser alteradas depois que o rótulo ou políti
 - As configurações de retenção, exceto o período de retenção, a menos que você tenha configurado o rótulo para reter ou excluir o conteúdo com base em quando ele foi criado.
 - A opção para marcar os itens como um registro.
 
-## <a name="locking-the-policy-to-prevent-changes"></a>Bloqueando a política para evitar alterações
+## <a name="locking-the-policy-to-prevent-changes"></a>Bloquear a política para evitar alterações
 
-Se você precisar garantir que ninguém possa desativar a política, excluir a política ou torná-la menos restritiva, confira [Usar Bloqueio de Preservação para restringir as alterações nas políticas de retenção e políticas de rótulo de retenção](retention-preservation-lock.md).
+Se você precisar garantir que ninguém pode desabilitar a política, excluí-la ou torná-la menos restritiva, confira [Usar Bloqueio de Preservação para restringir alterações nas políticas de retenção e nas políticas de rótulo de retenção](retention-preservation-lock.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

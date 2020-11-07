@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: os cenários mais comuns de ameaças e ataques enfrentados pelas organizações para seus ambientes Microsoft 365 e as ações recomendadas para reduzir esses riscos.
-ms.openlocfilehash: b359b16042d419a06096a48ddcbc50affbcc4cd6
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 64f4491db3dc4ef18411b166fb23c4388383dae2
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843123"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944293"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Segurança da Microsoft 365 para responsáveis por decisões de negócios (BDMs)
 
@@ -30,6 +30,8 @@ Este artigo é organizado por prioridade de trabalho, começando com a proteçã
 [![Imagem em miniatura planilha recomendações de segurança do Microsoft 365 BDM](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
 A Microsoft fornece a ferramenta de Pontuação segura no seu locatário para analisar automaticamente a postura de segurança com base em suas atividades regulares, atribuir uma pontuação e fornecer recomendações de melhoria de segurança. Antes de executar as ações recomendadas neste artigo, anote sua pontuação e recomendações atuais. As ações recomendadas neste artigo aumentarão sua pontuação. O objetivo não é atingir a pontuação máxima, mas ter em mente as oportunidades de proteger seu ambiente de uma maneira que não afete negativamente a produtividade dos seus usuários. Confira a [Pontuação segura da Microsoft](mtp/microsoft-secure-score.md).
+
+![Siga estas etapas para reduzir os riscos para sua empresa.](../media/security/security-for-bdms-overview.png)
 
 Mais uma coisa antes de começarmos. . . Certifique-se de [ativar o log de auditoria](../compliance/search-the-audit-log-in-security-and-compliance.md). Você precisará desses dados mais tarde, no caso de você precisar investigar um incidente ou uma violação. 
 
