@@ -68,6 +68,11 @@
           items:
             - name: Trabalhar com Serviços de consultoria da Microsoft
               href: get-ready/apps-MCS.md
+        - name: Usar a ferramenta de avaliação de prontidão
+          href: get-ready/readiness-assessment-tool.md
+          items:
+            - name: Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
+              href: get-ready/readiness-assessment-fix.md
     - name: Introdução à Área de Trabalho Gerenciada da Microsoft
       href: get-started/index.md
       items:
