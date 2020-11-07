@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar e publicar automaticamente os rótulos de retenção para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 9a4b19bd30201f5a5ff75b49ec384b451526b91b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 5833684c729876315ce3866a8af52d79b924caef
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877298"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920015"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -224,8 +224,6 @@ Se os rótulos esperados não aparecerem após sete dias, verifique o **Status**
     Set-RetentionCompliancePolicy -Identity <policy name> -RetryDistribution
    ```
 
-
-
 ## <a name="updating-retention-labels-and-their-policies"></a>Atualizar os rótulos de retenção e suas políticas
 
 Se você editar um rótulo de retenção ou política de aplicação automática e o rótulo de retenção já estiver aplicado ao conteúdo, as configurações atualizadas serão aplicadas automaticamente a esse conteúdo, além do conteúdo recentemente rotulado.
@@ -233,6 +231,10 @@ Se você editar um rótulo de retenção ou política de aplicação automática
 Algumas configurações não podem ser alteradas depois que o rótulo ou política é criado e salvo, que incluem:
 - As configurações de retenção, exceto o período de retenção, a menos que você tenha configurado o rótulo para reter ou excluir o conteúdo com base em quando ele foi criado.
 - A opção para marcar os itens como um registro.
+
+## <a name="locking-the-policy-to-prevent-changes"></a>Bloqueando a política para evitar alterações
+
+Se você precisar garantir que ninguém possa desativar a política, excluir a política ou torná-la menos restritiva, confira [Usar Bloqueio de Preservação para restringir as alterações nas políticas de retenção e políticas de rótulo de retenção](retention-preservation-lock.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

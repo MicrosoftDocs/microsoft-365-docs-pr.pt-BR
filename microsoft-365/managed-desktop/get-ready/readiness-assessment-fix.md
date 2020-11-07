@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c28353698dd372e14d5ec51b92eb4c0c051c92a4
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: 642de80e1a133f212b7afb6774d9aab2eeaabdbf
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931907"
+ms.locfileid: "48941404"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Correção de problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -26,7 +26,7 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
 |Recomendações    | Siga as etapas na ferramenta ou neste artigo para obter a melhor experiência com o registro e para os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar o primeiro dispositivo.        |
 |Não está pronto | *O registro falhará se você não corrigir esses problemas.* Siga as etapas na ferramenta ou neste artigo para resolvê-los.        |
-|Erro | A função de diretor do Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+|Error | A função de diretor do Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 
 ## <a name="microsoft-intune-settings"></a>Configurações do Microsoft Intune
 
@@ -308,20 +308,20 @@ Os padrões de segurança estão ativados. Desative os padrões de segurança e 
 
 ### <a name="self-service-password-reset"></a>Redefinição de senha de autoatendimento
 
-A redefinição de senha de autoatendimento (SSPR) deve estar habilitada para todos os usuários. Se não for, as contas do serviço de área de trabalho gerenciada da Microsoft não funcionarão. Para obter mais informações, consulte [tutorial: permitir que os usuários desbloqueiem suas contas ou redefinam senhas usando a redefinição de senha de autoatendimento do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+A redefinição de senha de autoatendimento (SSPR) deve estar habilitada para todos os usuários, excluindo as contas do serviço de área de trabalho gerenciada Para obter mais informações, consulte [tutorial: permitir que os usuários desbloqueiem suas contas ou redefinam senhas usando a redefinição de senha de autoatendimento do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
 
 **Recomendações**
 
-Certifique-se de que a configuração **selecionada** SSPR inclui dispositivos de área de trabalho gerenciada da Microsoft.
+Verifique se a configuração **selecionada** SSPR inclui dispositivos de área de trabalho gerenciada da Microsoft, mas exclui as contas de serviço de área de trabalho gerenciada da Microsoft. As contas de serviço de área de trabalho gerenciada da Microsoft não podem funcionar como esperado quando o SSPR está habilitado.  
 
 
 ### <a name="standard-user-role"></a>Função de usuário padrão
 
-Os usuários de área de trabalho gerenciada da Microsoft devem ser usuários padrão sem privilégios de administrador local. Eles receberão uma função de usuário padrão quando iniciarem o dispositivo de área de trabalho gerenciada da Microsoft.
+Além dos usuários que recebem as funções do Azure AD do administrador global e do administrador de dispositivos, os usuários da área de trabalho gerenciada da Microsoft serão usuários padrão sem privilégios de administrador local. Todos os outros usuários receberão uma função de usuário padrão quando iniciarem o dispositivo de área de trabalho gerenciada da Microsoft.
 
 **Recomendações**
 
-Os usuários de área de trabalho gerenciada da Microsoft não devem ter privilégios de administrador local antes da inscrição.
+Os usuários da área de trabalho gerenciada da Microsoft não terão privilégios de administrador local em seus dispositivos de área de trabalho gerenciados da Microsoft após o registro.
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
 

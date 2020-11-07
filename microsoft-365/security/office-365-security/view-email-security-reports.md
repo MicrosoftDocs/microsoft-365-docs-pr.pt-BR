@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36d7fde77ae8a6280dae26e5a0f7a75537bf28d4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fafb499e40c0014a85c9566b3e5aadf2751202a1
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841867"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941470"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -336,7 +336,7 @@ Os seguintes modos de exibição estão disponíveis:
 
 - **Divida por: tecnologia de detecção** e **exibir dados por: \> malware de email** : as informações a seguir são exibidas:
 
-  - **Reputação de arquivo gerado por ATP**<sup>: toda</sup>a reputação de arquivos mal-intencionados gerada pela ATP detonations.
+  - **Reputação de arquivo gerado por ATP**<sup>: toda a reputação de</sup>arquivos mal-intencionados gerada pelo defender para Office 365 detonations.
   - **Mecanismo anti-malware**<sup>1</sup>: detecção de mecanismos antimalware.
   - **Bloqueio de tipo de arquivo de política Antimalware** : Estas são mensagens de email filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.
   - **Arquivo acionamento**<sup>1</sup>: o arquivo acionamento captura por anexos seguros.  

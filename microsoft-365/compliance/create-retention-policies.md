@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 6b30c5689981adaf3eb7f4893a8acf0398ca2339
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: 4e4ced42424abe024a1230c24814c420a59ed3dc
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774025"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919983"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -63,11 +63,11 @@ Quando você tem mais de uma política de retenção, e quando você também usa
 
 ### <a name="retention-policy-for-teams-locations"></a>Política de retenção para locais do Teams
 
-1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção** .
+1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção**.
 
 2. Selecione **Nova política de retenção** para iniciar o assistente Criar política de retenção, e a nomeie.
 
-3. Para a página **Escolher locais para aplicar a política** , selecione um ou ambos os locais para o Teams: **Mensagem de canal do Teams** e **chats do Teams** .
+3. Para a página **Escolher locais para aplicar a política** , selecione um ou ambos os locais para o Teams: **Mensagem de canal do Teams** e **chats do Teams**.
 
    Para as **Mensagens de canal do Teams** , estão incluídas mensagens de canais padrão, mas não de [canais privados](https://docs.microsoft.com/microsoftteams/private-channels). No momento, canais privados não são suportados pelas políticas de retenção.
 
@@ -83,7 +83,7 @@ Para mais informações sobre as políticas de retenção para o Teams, confira 
 
 #### <a name="additional-retention-policy-needed-to-support-teams"></a>Adicionais políticas de retenção necessárias para oferecer suporte ao Teams
 
-O Teams é muito mais que apenas chats e mensagens de canal. Se você tiver equipes criadas a partir de um grupo do Microsoft 365 (antigo Grupo do Office 365), deverá configurar uma política de retenção que inclui o grupo do Microsoft 365 usando o local **Grupos do Microsoft 365** . Essa política de retenção se aplica ao conteúdo da caixa de correio do grupo, site e arquivos.
+O Teams é muito mais que apenas chats e mensagens de canal. Se você tiver equipes criadas a partir de um grupo do Microsoft 365 (antigo Grupo do Office 365), deverá configurar uma política de retenção que inclui o grupo do Microsoft 365 usando o local **Grupos do Microsoft 365**. Essa política de retenção se aplica ao conteúdo da caixa de correio do grupo, site e arquivos.
 
 Se você tiver um site da equipe que não está conectado a um grupo do Microsoft 365, você precisará de uma política de retenção que inclui os locais dos **sites do SharePoint** ou das **contas do OneDrive** locais para manter e excluir arquivos no Teams:
 
@@ -103,7 +103,7 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
 >
 > Para usar esse recurso, sua rede do Yammer deve ser [Modo Nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode), não no modo híbrido.
 
-1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção** .
+1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção**.
 
 2. Selecione **Nova política de retenção** para criar uma nova política de retenção.
 
@@ -113,7 +113,7 @@ Se você tiver um site da equipe que não está conectado a um grupo do Microsof
     
     Não selecione **Usar as configurações avançadas de retenção** porque essa opção não tem suporte para os locais do Yammer. 
 
-4. Na página **Escolher locais** , selecione **Deixe-me escolher locais específicos** . Em seguida, alterne em um ou em ambos os locais do Yammer: **Mensagens da comunidade do Yammer** e **mensagens particulares do Yammer** .
+4. Na página **Escolher locais** , selecione **Deixe-me escolher locais específicos**. Em seguida, alterne em um ou em ambos os locais do Yammer: **Mensagens da comunidade do Yammer** e **mensagens particulares do Yammer**.
     
     Por padrão, todas as comunidades e todos os usuários são selecionados, mas você pode refinar isso especificando as comunidades e os usuários a serem incluídos ou excluídos.
     
@@ -127,7 +127,7 @@ Para mais informações a respeito do funcionamento das políticas de retenção
 
 #### <a name="additional-retention-policies-needed-to-support-yammer"></a>Políticas de retenção adicionais necessárias para apoiar o Yammer
 
-O Yammer é mais do que somente mensagens e mensagens privadas em uma comunidade. Para reter e excluir as mensagens de email da sua rede do Yammer, configure uma política de retenção adicional que inclua quaisquer grupos do Microsoft 365 que são utilizados pelo Yammer, utilizando o local **Grupos do Microsoft 365** . 
+O Yammer é mais do que somente mensagens e mensagens privadas em uma comunidade. Para reter e excluir as mensagens de email da sua rede do Yammer, configure uma política de retenção adicional que inclua quaisquer grupos do Microsoft 365 que são utilizados pelo Yammer, utilizando o local **Grupos do Microsoft 365**. 
 
 Para manter e excluir arquivos armazenados no Yammer, você precisa de uma política de retenção que inclua localizações de **sites do SharePoint** ou **contas do OneDrive** :
 
@@ -147,7 +147,7 @@ Use as instruções a seguir para políticas de retenção que se aplicam a qual
 - Grupos do Microsoft 365
 - Skype for Business
 
-1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção** .
+1. No [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), selecione **Políticas** > **Retenção**.
 
 2. Selecione **Nova política de retenção** para iniciar o assistente Criar política de retenção, e a nomeie.
 
@@ -171,7 +171,7 @@ O local **email do Exchange** oferece suporte à retenção de emails, calendár
 
 Os itens de email a seguir são incluídos: mensagens de email (inclui rascunhos) com todos os anexos, tarefas e itens de calendário quando eles têm uma data de término e anotações. Os contatos, as tarefas e os itens de calendário que não têm uma data de término não são incluídos. Os outros itens armazenados em uma caixa de correio, como as mensagens salvas no Skype e no Teams, não são incluídos com esse local. Esses itens têm seus próprios locais de retenção.
 
-Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365** .
+Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365**.
 
 O local **Pastas públicas do Exchange** aplica as configurações de retenção a todas as pastas públicas e não pode ser aplicado no nível de pasta ou caixa de correio.
 
@@ -181,7 +181,7 @@ Quando você escolhe o local **sites do SharePoint** , a política de retenção
 
 Embora a política de retenção seja aplicada no nível do site, apenas os documentos têm configurações de retenção aplicadas a eles. As configurações de retenção não se aplicam às estruturas de organização que incluem bibliotecas, listas e pastas no site.
 
-Ao especificar os locais para os sites do SharePoint ou contas do OneDrive, não será preciso ter permissões para acessar os sites e nenhuma validação será feita ao especificar a URL na página **Editar locais** . No entanto, os sites do Microsoft Office SharePoint Online que você especifica são verificados para ver se existem no final do assistente. Se essa verificação falhar, uma mensagem será exibida informando que a validação falhou para a URL inserida, e o assistente não criará a política de retenção até que a verificação de validação seja aprovada. Se você vir esta mensagem, volte ao assistente para alterar a URL ou remover o site da política de retenção.
+Ao especificar os locais para os sites do SharePoint ou contas do OneDrive, não será preciso ter permissões para acessar os sites e nenhuma validação será feita ao especificar a URL na página **Editar locais**. No entanto, os sites do Microsoft Office SharePoint Online que você especifica são verificados para ver se existem no final do assistente. Se essa verificação falhar, uma mensagem será exibida informando que a validação falhou para a URL inserida, e o assistente não criará a política de retenção até que a verificação de validação seja aprovada. Se você vir esta mensagem, volte ao assistente para alterar a URL ou remover o site da política de retenção.
 
 > [!NOTE]
 > Os sites do Microsoft Office SharePoint Online devem ser indexados para que as configurações de retenção sejam aplicadas. No entanto, se os itens nas bibliotecas de documentos do Microsoft Office SharePoint Online forem configurados para não aparecer nos resultados da pesquisa, essa configuração não excluirá os itens das configurações de retenção.
@@ -194,7 +194,7 @@ Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, con
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Informações de configuração do Grupos do Microsoft 365
 
-Para reter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo Grupo Office 365), use o local **Grupos do Microsoft 365** . Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Além disso, embora o local **E-mail do Exchange** permita inicialmente especificar uma caixa de correio de grupo a ser incluída ou excluída, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
+Para reter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo Grupo Office 365), use o local **Grupos do Microsoft 365**. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Além disso, embora o local **E-mail do Exchange** permita inicialmente especificar uma caixa de correio de grupo a ser incluída ou excluída, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
 
 Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio do grupo e o site de equipes, se um site de equipes tiver sido selecionado no momento em que o grupo foi criado ou adicionado posteriormente ao grupo. Os arquivos armazenados no site de equipes são cobertos por este local, mas não os chats do Teams ou as mensagens do canal do Teams que têm seus próprios locais de política de retenção.
 
@@ -204,7 +204,7 @@ Diferentemente de um email do Exchange, você não pode ativar ou desativar o st
 
 ![Escolha o local do Skype para políticas de retenção](../media/skype-location-retention-policies.png)
 
-Ao selecionar **Escolher usuário** , você pode incluir rapidamente todos os usuários, selecionando a caixa **Selecionar todos** . No entanto, é importante compreender que cada usuário conta como uma inclusão específica na política. Portanto, se você incluir 1.000 usuários selecionando a caixa **Selecionar todos** , é a mesma coisa que selecionar manualmente 1.000 usuários para incluir, que é o número máximo suportado pelo Skype for Business.
+Ao selecionar **Escolher usuário** , você pode incluir rapidamente todos os usuários, selecionando a caixa **Selecionar todos**. No entanto, é importante compreender que cada usuário conta como uma inclusão específica na política. Portanto, se você incluir 1.000 usuários selecionando a caixa **Selecionar todos** , é a mesma coisa que selecionar manualmente 1.000 usuários para incluir, que é o número máximo suportado pelo Skype for Business.
 
 Lembre-se de que o **Histórico da conversa** , uma pasta no Outlook, é um recurso que nada tem a ver com o recurso de arquivamento do Skype. O **Histórico da conversa** pode ser desativado pelo usuário final, mas o arquivamento para o Skype é feito armazenando-se uma cópia das conversas do Skype em uma pasta oculta que é inacessível ao usuário, mas disponível para Descoberta Eletrônica.
 
@@ -214,15 +214,15 @@ Ao escolher as configurações de retenção e exclusão de conteúdo em sua pol
 
 - Somente reter
 
-    Para essa configuração, escolha **Reter itens por um período específico** e **No final do período de retenção: não fazer nada** . Ou marque **Reter itens para sempre** .
+    Para essa configuração, escolha **Reter itens por um período específico** e **No final do período de retenção: não fazer nada**. Ou marque **Reter itens para sempre**.
 
 - Reter e excluir
 
-    Para essa configuração, escolha **Reter itens por um período específico** e **No final do período de retenção: excluir itens automaticamente** .
+    Para essa configuração, escolha **Reter itens por um período específico** e **No final do período de retenção: excluir itens automaticamente**.
 
 - Somente excluir
 
-    Para essa configuração, escolha **Excluir itens somente quando eles atingirem um determinado tempo** .
+    Para essa configuração, escolha **Excluir itens somente quando eles atingirem um determinado tempo**.
 
 ### <a name="retaining-content-for-a-specific-period-of-time"></a>Reter o conteúdo por um período específico
 
@@ -252,7 +252,7 @@ Portanto, antes de adicionar uma política de retenção pela primeira vez, e es
 
 ### <a name="a-policy-that-applies-to-entire-locations"></a>Uma política aplicável a locais inteiros
 
-Ao escolher locais, com exceção do Skype for Business, a configuração padrão é **Todos** quando o status do local é **Ativado** .
+Ao escolher locais, com exceção do Skype for Business, a configuração padrão é **Todos** quando o status do local é **Ativado**.
 
 Quando uma política de retenção se aplica a qualquer combinação de locais inteiros, não há limite para o número de destinatários, sites, contas, grupos, etc., que a política pode incluir.
 
@@ -285,40 +285,8 @@ Para usar a configuração opcional para definir o escopo de suas configuraçõe
 
 Se você editar uma política de retenção e os itens já estiverem sujeitos às configurações originais da sua política de retenção, as configurações atualizadas serão aplicadas automaticamente a esses itens, além dos itens identificados recentemente.
 
-Geralmente, essa atualização é bastante rápida, mas pode levar vários dias. Quando a replicação da política nos locais do Microsoft 365 estiver concluída, você verá o status da política de retenção no Centro de Conformidade do Microsoft 365 mudar de **Ativado (Pendente)** para **Ativado (Sucesso)** .
+Geralmente, essa atualização é bastante rápida, mas pode levar vários dias. Quando a replicação da política nos locais do Microsoft 365 estiver concluída, você verá o status da política de retenção no Centro de Conformidade do Microsoft 365 mudar de **Ativado (Pendente)** para **Ativado (Sucesso)**.
 
-## <a name="lock-a-retention-policy-by-using-powershell"></a>Bloquear uma política de retenção usando o Windows PowerShell
+## <a name="locking-the-policy-to-prevent-changes"></a>Bloqueando a política para evitar alterações
 
-Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservação](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) para atender aos requisitos normativos. Como os administradores não podem desabilitar ou excluir uma política de retenção após a aplicação de um bloqueio de preservação, a habilitação desse recurso não está disponível na interface do usuário para proteger contra configurações acidentais.
-
-Todas as políticas de retenção, com qualquer configuração, oferecem suporte ao Bloqueio de Preservação. No entanto, ao usar os comandos do PowerShell a seguir, você perceberá que o parâmetro **Carga de trabalho** sempre exibirá **o Exchange, o SharePoint, o OneDriveForBusines, o Skype, o ModernGroup** em vez de refletir as cargas de trabalho reais configuradas na política. Isso é apenas um problema de exibição.
-
-1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
-
-2. Liste suas políticas de retenção e encontre o nome da política que quer bloquear executando [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy). Por exemplo:
-
-   ![Lista de políticas de retenção no PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
-
-3. Para colocar um Bloqueio de Preservação em uma política de retenção, execute o cmdlet [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) com o nome da política de retenção e o parâmetro *RestrictiveRetention* definido como verdadeiro:
-
-    ```powershell
-    Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true
-    ```
-
-    Por exemplo:
-
-    ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
-
-     Quando solicitado, leia e reconheça as restrições que vêm com esta configuração digitando **S** :
-
-   ![Solicitar confirmação que deseja bloquear uma política de retenção no PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
-
-O Bloqueio de Preservação agora está localizado na política de retenção. Para confirmar, execute o `Get-RetentionCompliancePolicy` novamente, mas especifique o nome da política de retenção e exiba os parâmetros da política:
-
-```powershell
-Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl
-```
-
-Você deverá ver que o **RestrictiveRetention** está definido como **Verdadeiro** . Por exemplo:
-
-![Bloquear a política com todos os parâmetros mostrados no PowerShell](../media/retention-policy-preservation-lock-locked-policy.PNG)
+Se você precisar garantir que ninguém possa desativar a política, excluir a política ou torná-la menos restritiva, confira [Usar Bloqueio de Preservação para restringir as alterações nas políticas de retenção e políticas de rótulo de retenção](retention-preservation-lock.md).

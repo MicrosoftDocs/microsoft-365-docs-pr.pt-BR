@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6123306c1d707a3eeab5c5dd67ed25bebb71965
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6a1aff37cc845e09be332b853aa938cb66fdb43f
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845668"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941482"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -53,7 +53,7 @@ Com esse relatório, você pode:
 > [!NOTE]
 > O recurso de marcas de usuário está em visualização, não está disponível para todos e está sujeito a alterações. Para obter informações sobre o cronograma de lançamento, confira o Microsoft 365 Roadmap.
 
-Marcas de usuário são identificadores para grupos específicos de usuários no Microsoft defender para Office 365. Para obter mais informações sobre marcas, licenciamento e configuração de marcas, consulte [User Tags in defender for Office 365](user-tags.md).
+Marcas de usuário são identificadores para grupos específicos de usuários no Microsoft defender para Office 365. Para obter mais informações sobre marcas, licenciamento e configuração de marcas, consulte [User Tags](user-tags.md).
 
 No explorador de ameaças, você pode ver informações sobre marcas de usuário nas seguintes experiências:
 
@@ -199,7 +199,7 @@ Como parte do aprimoramento do processo de caça, fizemos algumas atualizações
 
 ### <a name="filter-by-user-tags"></a>Filtrar por marcas de usuário
 
-Agora, você pode classificar e filtrar por marcas de usuário ou de sistema personalizado, para entender rapidamente o escopo de ameaças. Confira [marcas de usuário no Office 365 ATP](user-tags.md) para saber mais.
+Agora, você pode classificar e filtrar por marcas de usuário ou de sistema personalizado, para entender rapidamente o escopo de ameaças. Confira [marcas de usuário](user-tags.md) para saber mais.
 
 > [!IMPORTANT]
 > A filtragem e classificação por marcas de usuário estão atualmente em visualização pública.

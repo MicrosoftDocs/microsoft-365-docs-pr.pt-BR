@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Saiba mais sobre os modos de exibição de campanha no Microsoft defender para Office 365.
-ms.openlocfilehash: 7ee4f724295994a402a006906412c5d84bab5095
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 181b6ce5859dd5146512fe854c983b6b9096d8c6
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845931"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941350"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Modos de exibição de campanha no Microsoft defender para Office 365
 
@@ -60,11 +60,8 @@ Os modos de exibição de campanha estão disponíveis no [centro de conformidad
 Você também pode obter modos de exibição de campanha de:
 
 - **Gerenciamento** \> de ameaças **Explorer** \> **Exibir** \> **Campanhas**
-
 - **Gerenciamento** \> de ameaças **Explorer** \> **Exibir** \> **Todos os emails** \> Guia **campanha**
-
 - **Gerenciamento** \> de ameaças **Explorer** \> **Exibir** \> **Phish** \> Guia **campanha**
-
 - **Gerenciamento** \> de ameaças **Explorer** \> **Exibir** \> **Malware** \> Guia **campanha**
 
 Para acessar modos de exibição de campanha, você precisa ser membro dos grupos de função de **Gerenciamento da organização** , **administrador de segurança** ou leitor de **segurança** no centro de conformidade de & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
@@ -89,12 +86,10 @@ O restante da página Visão geral mostra as seguintes informações na guia **c
 - **Tipo** : esse valor é **Phish** ou **malware**.
 
 - **Subtipo** : esse valor contém mais detalhes sobre a campanha. Por exemplo:
-
   - **Phish** : quando disponível, a marca que está sendo enphishingada por esta campanha. Por exemplo,,,,, `Microsoft` `365` `Unknown` `Outlook` ou `DocuSign` .
-
   - **Malware** : por exemplo, `HTML/PHISH` ou `HTML/<MalwareFamilyName>` .
 
-Quando disponível, a marca que está sendo enphishingada por esta campanha. Quando a detecção é orientada pela tecnologia ATP, o prefixo **ATP-** é adicionado ao valor de subtipo.
+  Quando disponível, a marca que está sendo enphishingada por esta campanha. Quando a detecção é orientada pela tecnologia do defender para Office 365, o prefixo **ATP-** é adicionado ao valor de subtipo.
 
 - **Destinatários** : o número de usuários que foram alvos desta campanha.
 
@@ -123,7 +118,6 @@ Para filtrar mais detalhadamente o modo de exibição, você pode fazer uma úni
 As propriedades de campanha disponíveis são descritas na lista a seguir:
 
 - Básica
-
   - **Tipo de campanha** : selecione **malware** ou **phishing**. Limpar as seleções tem o mesmo resultado que selecionar ambos.
   - **Nome da campanha**
   - **Subtipo de campanha**
@@ -139,17 +133,13 @@ As propriedades de campanha disponíveis são descritas na lista a seguir:
   - **Substituições de sistema**
 
 - Advanced
-
   - **ID de mensagem da Internet** : disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
-  
   - **ID da mensagem de rede** : um valor de GUID que está disponível no campo de cabeçalho **X-MS-Exchange-Organization-Network-Message-ID** no cabeçalho da mensagem.
-  
   - **IP do remetente**
-  
   - **Attachment SHA256** : para localizar o valor de hash SHA256 de um arquivo no Windows, execute o seguinte comando em um prompt de comando: `certutil.exe -hashfile "<Path>\<Filename>" SHA256` .
-  
+
   - **ID do cluster**
-  
+
   - **ID da política de alerta**
 
 - URLs
@@ -187,7 +177,6 @@ Na parte superior do modo de exibição detalhes da campanha, as seguintes infor
 - **Iniciado** e **finalizado** : a data de início e a data de término da campanha. Observe que essas datas podem ser estendidas além das datas de filtro selecionadas na página Visão geral.
 
 - **Impacto** : Esta seção contém os seguintes dados para o filtro de intervalo de datas que você selecionou (ou que você selecionou na linha do tempo):
-  
   - O número total de destinatários.
   - O número de mensagens que foram "caixa de entrada" (isto é, entregues na caixa de entrada, e não na pasta lixo eletrônico).
   - Quantos usuários clicaram na carga da URL na mensagem de phishing.
@@ -215,9 +204,7 @@ Se passar o mouse sobre uma faixa horizontal no diagrama, você verá o número 
 O diagrama contém as seguintes informações:
 
 - **IPs do remetente**
-
 - **Domínios do remetente**
-
 - **Verdicts de filtro** : os valores de veredicto estão relacionados à verdicts de filtragem phishing e spam disponível conforme descrito em [cabeçalhos de mensagens antispam](anti-spam-message-headers.md). Os valores disponíveis são descritos na tabela a seguir:
 
   ****
@@ -241,7 +228,6 @@ O diagrama contém as seguintes informações:
   <sup>\*\*</sup> Revise suas políticas antispam, pois essas mensagens devem ser colocadas em quarentena, não entregues.
 
 - **Locais de entrega** : provavelmente você desejará investigar as mensagens que foram entregues aos destinatários (tanto para a caixa de entrada quanto para a pasta lixo eletrônico), mesmo se os usuários não clicar na URL de carga na mensagem. Você também pode remover as mensagens em quarentena da quarentena. Para obter mais informações, consulte [mensagens de email em quarentena no EOP](quarantine-email-messages.md).
-
   - **Pasta excluída**
   - **Abandonado**
   - **Externo** : o destinatário está localizado em sua organização de email local em ambientes híbridos.
@@ -264,13 +250,9 @@ Quando uma mensagem de phishing é entregue para a caixa de entrada de um destin
 Se um usuário clicou na URL de carga na mensagem de phishing, as ações são exibidas na área de **cliques da URL** do diagrama no modo de exibição detalhes da campanha.
 
 - **Permitido**
-
 - **BlockPage** : o destinatário clicou na URL de carga, mas seu acesso ao site mal-intencionado foi bloqueado por uma política de [links seguros](atp-safe-links.md) em sua organização.
-
 - **BlockPageOverride** : o destinatário clicou na URL da carga de mensagens, os links seguros tentaram interrompê-los, mas eles tinham permissão para substituir o bloco. Inspecione suas [políticas de links seguros](set-up-atp-safe-links-policies.md) para ver por que os usuários têm permissão para substituir os links de segurança veredicto e continuar no site mal-intencionado.
-
 - **PendingDetonationPage** : os anexos seguros no Microsoft defender para Office 365 estão no processo de abertura e investigação da URL de carga em um ambiente de computador virtual.
-
 - **PendingDetonationPageOverride** : o destinatário tinha permissão para substituir o processo de acionamento de carga e abrir a URL sem aguardar os resultados.
 
 ### <a name="tabs"></a>Guias
@@ -281,14 +263,12 @@ As guias no modo de exibição detalhes da campanha permitem investigar ainda ma
 > As informações exibidas nas guias são controladas pelo intervalo de datas sombreado na linha do tempo, conforme descrito na seção [informações da campanha](#campaign-information) .
 
 - **Cliques de URL** : se os usuários não clicar na URL de carga na mensagem, esta seção ficará em branco. Se um usuário conseguir clicar na URL, os seguintes valores serão preenchidos:
-
   - **Usuário**<sup>\*</sup>
   - **URL**<sup>\*</sup>
   - **Horário de clique**
   - **Clique em veredicto**
 
 - **IPs do remetente**
-
   - **IP do remetente**<sup>\*</sup>
   - **Contagem total**
   - **Caixa de entrada**
@@ -296,7 +276,6 @@ As guias no modo de exibição detalhes da campanha permitem investigar ainda ma
   - **SPF aprovado** : o remetente foi autenticado pela [estrutura de política de remetente (SPF)](how-office-365-uses-spf-to-prevent-spoofing.md). Um remetente que não transmite validação de SPF indica um remetente não autenticado ou a mensagem está falsificando um remetente legítimo.
 
 - **Remetentes**
-
   - **Remetente** : Este é o endereço do remetente real no comando mail SMTP from, que não é necessariamente o endereço de email que os usuários vêem em seus clientes de email.
   - **Contagem total**
   - **Caixa de entrada**
@@ -305,14 +284,12 @@ As guias no modo de exibição detalhes da campanha permitem investigar ainda ma
   - **DMARC passado** : o remetente foi autenticado por [autenticação de mensagens baseadas em domínio, relatórios e conformidade (DMARC)](use-dmarc-to-validate-email.md). Um remetente que não aprova a validação do DMARC indica um remetente não autenticado ou a mensagem está falsificando um remetente legítimo.
 
 - **Anexos**
-
   - **Filename**
   - **SHA256**
   - **Família de malware**
   - **Contagem total**
 
 - **URL**
-
   - **URL**<sup>\*</sup>
   - **Contagem total**
 
@@ -323,5 +300,4 @@ As guias no modo de exibição detalhes da campanha permitem investigar ainda ma
 Os botões no modo de exibição de detalhes da campanha permitem usar os recursos do Explorador de Ameaças para investigar ainda mais a campanha.
 
 - **Explorar campanhas** : abre uma nova guia de pesquisa do Explorador de Ameaças usando o valor **ID da campanha** como filtro de pesquisa.
-
 - **Explorar mensagens de caixa de entrada** : abre uma nova guia de pesquisa do explorador de ameaças usando a **ID de campanha** e o **local de entrega: caixa de entrada** como o filtro de pesquisa.
