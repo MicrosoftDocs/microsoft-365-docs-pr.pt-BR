@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo, se você usa uma revisão de disposição ou o conteúdo é excluído automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: a0fd71aa1eb7c0a7eff97e783f4b0dfb8a50a915
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: dfea1cfece8a9faccced134cf30923527bd241f5
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262224"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941362"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -40,7 +40,7 @@ Para acessar a guia **Disposição** no Centro de conformidade do Microsoft 365,
 Para conceder aos usuários a função de Gerenciamento de Disposição necessária, você pode adicioná-los a um desses grupos de função padrão ou criar um grupo de função personalizada (por exemplo, chamado "Revisores de disposição") e conceder a esse grupo a função de Gerenciamento de Disposição.  
 
 > [!NOTE]
-> Até mesmo um administrador global precisa ter a função de**Gerenciamento de Disposição**. 
+> Até mesmo um administrador global precisa ter a função de **Gerenciamento de Disposição**. 
 
 Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
@@ -64,7 +64,7 @@ Quando uma revisão de disposição é disparada no final do período de retenç
   
 - As pessoas que você escolher receberão uma notificação por email com o conteúdo a ser revisado. Esses revisores podem ser usuários individuais ou grupos de segurança habilitados para email. As notificações são enviadas semanalmente.
     
-- Os revisores vão para a guia **Disposição**, no Centro de conformidade do Microsoft 365, para revisar o conteúdo e decidir se desejam ou não excluí-lo permanentemente, estender o período de retenção ou aplicar um rótulo de retenção diferente.
+- Os revisores vão para a guia **Disposição** , no Centro de conformidade do Microsoft 365, para revisar o conteúdo e decidir se desejam ou não excluí-lo permanentemente, estender o período de retenção ou aplicar um rótulo de retenção diferente.
 
 Uma revisão de disposição pode incluir conteúdo nas caixas de correio do Exchange, sites do SharePoint, contas do OneDrive e grupos do Microsoft 365. O conteúdo que aguarda uma revisão de disposição nesses locais é excluído apenas após um revisor optar por excluir permanentemente o conteúdo.
 
@@ -75,7 +75,7 @@ Você pode ver uma visão geral de todas as disposições pendentes na guia **Vi
 
 ![Disposições pendentes na visão geral do Gerenciamento de registros](../media/dispositions-overview.png)
 
-Ao selecionar **Exibir todas as disposições pendentes**, você será levado à página **Disposição**. Por exemplo:
+Ao selecionar **Exibir todas as disposições pendentes** , você será levado à página **Disposição**. Por exemplo:
 
 ![Página Disposições no Centro de conformidade do Microsoft 365](../media/disposition-tab.png)
 
@@ -92,7 +92,7 @@ Da página **Definir configurações de retenção** para um rótulo de retenç�
 
 ![Configurações de retenção para um rótulo](../media/disposition-review-option.png)
  
-Depois de selecionar esta opção **Disparar uma revisão de disposição**, especifique os revisores de disposição na próxima página do assistente:
+Depois de selecionar esta opção **Disparar uma revisão de disposição** , especifique os revisores de disposição na próxima página do assistente:
 
 ![Especificando revisores de disposição](../media/disposition-reviewers.png)
 
@@ -132,10 +132,12 @@ Os itens mostrados na guia **Itens descartados** de rótulos de registro serão 
 
 > [!NOTE]
 > Esta funcionalidade baseia-se em informações do[Log de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) e, portanto, exige que a auditoria seja [habilitada e pesquisável](turn-audit-log-search-on-or-off.md), para que os eventos correspondentes sejam capturados.
-    
+
+Para auditoria, pesquise o **Arquivo excluído marcado como um registro**.
+
 ## <a name="filter-and-export-the-views"></a>Filtrar e exportar os modos de exibição
 
-Quando você seleciona um rótulo de retenção na página **Disposição**, a guia **Disposição pendente** (se aplicável) e a guia **Itens descartados** permitem filtrar os modos de exibição para facilitar a localização de itens. 
+Quando você seleciona um rótulo de retenção na página **Disposição** , a guia **Disposição pendente** (se aplicável) e a guia **Itens descartados** permitem filtrar os modos de exibição para facilitar a localização de itens. 
 
 Para as disposições pendentes, o intervalo de tempo se baseia na data de vencimento. Para itens descartados, o intervalo de tempo se baseia na data de exclusão.
   

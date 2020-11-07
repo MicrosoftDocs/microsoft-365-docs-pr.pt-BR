@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d7deb2068db9f15f31a04c45564b966af90d2e2b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2254fb9fd47b1554064194b815ff4d19b2d33472
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846291"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941448"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -438,7 +438,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |Arquivo excluído|FileDeleted|O usuário exclui um documento de um site.|
 |Arquivo excluído da Lixeira|FileDeletedFirstStageRecycleBin|O usuário exclui um arquivo da lixeira de um site.|
 |Arquivo excluído da Lixeira de segundo estágio|FileDeletedSecondStageRecycleBin|O usuário exclui um arquivo da lixeira de segundo estágio de um site.|
-|Rótulos de política de conformidade excluídos|ComplianceRecordDelete|Foi excluído um documento marcado como um registro. Um documento é considerado um registro quando o rótulo de retenção, que marca o conteúdo como um registro, é aplicado ao documento.|
+|Arquivo excluído marcado como um registro|RecordDelete|Foi excluído um documento marcado como um registro. Um documento é considerado um registro quando o rótulo de retenção, que marca o conteúdo como um registro, é aplicado ao documento.|
 |Incompatibilidade de confidencialidade em documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento em um site protegido com um rótulo de sensibilidade e o documento possui um rótulo de sensibilidade de prioridade mais alta que o rótulo de sensibilidade aplicado ao site. Por exemplo, um documento chamado Confidencial é carregado em um site chamado Geral. <br/><br/> Esse evento não é acionado se o documento tiver um rótulo de sensibilidade de prioridade mais baixo que o rótulo de sensibilidade aplicado ao site. Por exemplo, um documento chamado Geral é carregado em um site chamado Confidencial. Para obter mais informações sobre a prioridade dos rótulos de sensibilidade, consulte [Prioridade de rótulo (questões do pedido)](sensitivity-labels.md#label-priority-order-matters).|
 |Malware detectado no arquivo|FileMalwareDetected|O mecanismo de antivírus do SharePoint detecta malwares em um arquivo.|
 |Check-out de arquivo descartado|FileCheckOutDiscarded|O usuário descarta (ou desfaz) um arquivo de check-out. Isso significa que todas as alterações feitas nesse arquivo durante o check-out serão descartadas, e não serão salvas na versão do documento localizada na biblioteca de documentos.|

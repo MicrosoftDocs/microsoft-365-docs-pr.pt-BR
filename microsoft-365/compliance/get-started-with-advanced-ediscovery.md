@@ -17,18 +17,17 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: 64c8681a47c21a7a6bfa9d67677405f74d75a96f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 59537499ed52f44a9d32b8921fd297c5cd7c0d3f
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398490"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944329"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Introdução à Descoberta Eletrônica Avançada
 
-A descoberta eletrônica avançada no Microsoft 365 fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar dados que respondem às investigações internas e externas da sua organização. Nada é necessário para implantar a descoberta eletrônica avançada, mas há algumas tarefas de pré-requisito que um administrador de ti e um gerente de descoberta eletrônica precisam concluir para que sua organização possa começar a criar e usar casos de descoberta eletrônica avançados para gerenciar suas investigações.
+A descoberta eletrônica avançada no Microsoft 365 fornece um [fluxo de trabalho de ponta a ponta](overview-ediscovery-20.md#advanced-ediscovery-architecture) para preservar, coletar, analisar, analisar e exportar dados que respondem às investigações internas e externas da sua organização. Nada é necessário para implantar a descoberta eletrônica avançada, mas há algumas tarefas de pré-requisito que um administrador de ti e um gerente de descoberta eletrônica precisam concluir para que sua organização possa começar a criar e usar casos de descoberta eletrônica avançados para gerenciar suas investigações.
 
 Este artigo discute as etapas necessárias para configurar a descoberta eletrônica avançada. Isso inclui garantir que o licenciamento apropriado seja necessário para acessar a descoberta eletrônica avançada e adicionar os responsáveis às ocorrências, bem como atribuir permissões à equipe jurídica e de investigação para que eles possam acessar e gerenciar casos. Este artigo também fornece uma visão geral de alto nível do uso de casos para gerenciar o fluxo de trabalho de descoberta eletrônica avançada de uma investigação legal.
 
@@ -110,7 +109,7 @@ A próxima etapa é criar um caso e começar a usar a descoberta eletrônica ava
 
 1. Acesse [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre usando as credenciais da conta de usuário que receberam as permissões de descoberta eletrônica apropriadas. Os membros do grupo de função gerenciamento da organização também podem criar casos de descoberta eletrônica avançados.
 
-2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo**e, em seguida, clique em **descoberta eletrônica > avançado**.
+2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo** e, em seguida, clique em **descoberta eletrônica > avançado**.
 
 3. Na página **descoberta eletrônica avançada** , clique na guia **ocorrências** e, em seguida, clique em **criar uma ocorrência**.
 
@@ -120,11 +119,11 @@ A próxima etapa é criar um caso e começar a usar a descoberta eletrônica ava
 
    O novo caso é criado e a guia **configurações** no novo caso é exibida. 
 
-6. No bloco **acesso & permissões** na guia **configurações** , clique em **selecionar**e, em seguida, clique em **Atualizar**.
+6. No bloco **acesso & permissões** na guia **configurações** , clique em **selecionar** e, em seguida, clique em **Atualizar**.
 
 7. Clique em **Atualizar**.
 
-8. Na página **gerenciar esse** submenu de caso, em **gerenciar Membros**, clique em **Adicionar** para adicionar membros ao caso.
+8. Na página **gerenciar esse** submenu de caso, em **gerenciar Membros** , clique em **Adicionar** para adicionar membros ao caso.
 
 9. Na lista de pessoas, marque a caixa de seleção ao lado dos nomes das pessoas que você deseja adicionar ao caso. Conforme explicado anteriormente, certifique-se de que as pessoas adicionadas ao caso tenham sido atribuídas às permissões de descoberta eletrônica apropriadas.
 
@@ -144,7 +143,7 @@ Para começar a usar a descoberta eletrônica avançada, aqui está um fluxo de 
 
    - Os dados da caixa de correio do Exchange do responsáveis, da conta do OneDrive e de qualquer grupo do Microsoft Teams ou do Yammer para os quais o responsáveis é membro podem ser "marcados" como dados do custodial no caso.
   
-   - Os dados dos responsáveis são reindexados (por um processo chamado *indexação avançada*). Isso ajuda a otimizar a pesquisa para ele na próxima etapa.
+   - Os dados dos responsáveis são reindexados (por um processo chamado *indexação avançada* ). Isso ajuda a otimizar a pesquisa para ele na próxima etapa.
   
    - Você pode colocar um bloqueio nos dados dos responsáveis. Isso preserva os dados que podem ser relevantes para o caso durante a investigação.
   

@@ -20,16 +20,16 @@ search.appverid:
 ms.assetid: ''
 description: Este artigo fornece uma visão geral da descoberta eletrônica avançada no Microsoft 365, uma ferramenta para investigações internas e externas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a43d8a7f0b1803b374839d8ed0d7d82c6adace
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 95c864b9e2222000b1114ae42dbbb5705228d531
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399050"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944339"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
-A solução de descoberta eletrônica avançada no Microsoft 365 baseia-se nos recursos de descoberta eletrônica e análise existentes no Office 365. Essa nova solução, chamada de *descoberta eletrônica avançada*, fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Também permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal para se comunicarem com os responsáveis envolvidos em um caso. 
+A solução de descoberta eletrônica avançada no Microsoft 365 baseia-se nos recursos de descoberta eletrônica e análise existentes no Office 365. Essa nova solução, chamada de *descoberta eletrônica avançada* , fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Também permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal para se comunicarem com os responsáveis envolvidos em um caso. 
 
 > [!NOTE]
 > A descoberta eletrônica avançada requer uma assinatura empresarial do Office 365 ou do Microsoft 365 e5. Para obter mais informações sobre licenciamento de descoberta eletrônica avançada, consulte [o guia de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-ediscovery).
@@ -44,27 +44,35 @@ O fluxo de trabalho interno de descoberta eletrônica avançada se alinha com o 
 
 Em um nível alto, veja como a descoberta eletrônica avançada é compatível com o fluxo de trabalho do EDRM:
 
-- **Identificador.** Após identificar as possíveis pessoas de interesse em uma investigação, você poderá adicioná-las como responsáveis (também chamados de *responsáveis por dados*, pois elas podem ter informações relevantes para a investigação) a uma ocorrência de descoberta eletrônica avançada. Depois que os usuários são adicionados como responsáveis, é fácil preservar, coletar e revisar documentos de responsáveis.
+- **Identificador.** Após identificar as possíveis pessoas de interesse em uma investigação, você poderá adicioná-las como responsáveis (também chamados de *responsáveis por dados* , pois elas podem ter informações relevantes para a investigação) a uma ocorrência de descoberta eletrônica avançada. Depois que os usuários são adicionados como responsáveis, é fácil preservar, coletar e revisar documentos de responsáveis.
 
 - **Preservação.** Para preservar e proteger dados relevantes para uma investigação, a descoberta eletrônica avançada permite que você coloque um controle legal nas fontes de dados associadas aos responsáveis em um caso. Você também pode colocar dados não custodial em espera. A descoberta eletrônica avançada também tem um fluxo de trabalho de comunicações interno para que você possa enviar notificações de retenção legal para os responsáveis e controlar suas confirmações.
 
 - **Coletânea.** Após identificar (e preservar) as fontes de dados relevantes para a investigação, você pode usar a ferramenta de pesquisa interna na pesquisa de descoberta eletrônica avançada e coletar dados ao vivo das fontes de dados do custodial (e fontes de dados não-custodial, se aplicável) que podem ser relevantes para o caso.
 
-- **Processe.** Após coletar todos os dados relevantes para o caso, a próxima etapa será processá-lo para revisão e análise mais detalhada. Na descoberta eletrônica avançada, os dados no local que você identificou na fase de coleta são copiados para um local de armazenamento do Azure (chamado de *conjunto de revisão*), que fornece uma exibição estática dos dados de caso. 
- 
+- **Processe.** Após coletar todos os dados relevantes para o caso, a próxima etapa será processá-lo para revisão e análise mais detalhada. Na descoberta eletrônica avançada, os dados no local que você identificou na fase de coleta são copiados para um local de armazenamento do Azure (chamado de *conjunto de revisão* ), que fornece uma exibição estática dos dados de caso. 
+
 - **Exame.** Depois que os dados forem adicionados a um conjunto de revisão, você poderá exibir documentos específicos e executar outras consultas para reduzir os dados para o que é mais relevante para o caso. Além disso, pode anotar e marcar documentos específicos.
- 
+
 - **Analisa.** A descoberta eletrônica avançada fornece uma ferramenta de análise integrada que ajuda você a buscar mais dados do conjunto de revisão que você determinar não é relevante para a investigação. Além de reduzir o volume de dados relevantes, a descoberta eletrônica avançada também ajuda você a salvar os custos de análise jurídica, permitindo que você organize o conteúdo para tornar o processo de revisão mais fácil e eficiente.
 
 - **Produção** e **apresentação.** Quando estiver pronto, você pode exportar documentos de um conjunto de revisão para análise jurídica. Você pode exportar documentos em seu formato nativo ou em um formato especificado pelo EDRM para que eles possam ser importados para aplicativos de revisão de terceiros.
 
-## <a name="advanced-ediscovery-workflow"></a>Fluxo de trabalho de descoberta eletrônica avançada
+## <a name="advanced-ediscovery-architecture"></a>Arquitetura de descoberta eletrônica avançada
 
-As seções a seguir descrevem cada etapa no fluxo de trabalho interno na descoberta eletrônica avançada. A captura de tela a seguir mostra a guia **página inicial** de uma ocorrência chamada *responsabilidade do produto 2019002*. Observação as guias de fluxo de trabalho na parte superior da página são sequenciadas para alinhar-se com o processo EDRM. 
+Este é um diagrama avançado de arquitetura de descoberta eletrônica que mostra o fluxo de trabalho de ponta a ponta em um ambiente de Geografia único e em um ambiente multigeográfico e o fluxo de dados de ponta a ponta que é alinhado com o EDRM.
+
+[![Cartaz de modelo: arquitetura de descoberta eletrônica avançada no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[Baixar como um arquivo PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf)
+
+[Baixar como um arquivo do Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)
 
 Para obter mais informações sobre o fluxo de trabalho de ponta a ponta na descoberta eletrônica avançada, consulte este [vídeo da Microsoft mecânica](https://go.microsoft.com/fwlink/?linkid=2066133).
 
-![Guias em descoberta eletrônica avançada seguem o fluxo de trabalho do EDRM](../media/aedisco-homepage-1.png)
+As seções a seguir descrevem cada etapa no fluxo de trabalho interno na descoberta eletrônica avançada.
 
 ## <a name="managing-custodians-and-non-custodial-data-sources"></a>Gerenciando os responsáveis e as fontes de dados não custodial
 
@@ -80,7 +88,7 @@ Ao adicionar um membro a um caso, você pode colocar uma retenção em dados de 
 
 ## <a name="indexing-custodian-data"></a>Indexando dados de responsáveis
 
-Quando você adiciona um Objecte as fontes de dados do custodial correspondentes a um caso, qualquer item parcialmente indexado de uma fonte de dados do responsáveis é re-indexado por um processo chamado *indexação avançada*. Isso permite que o conteúdo do custodial, como imagens, tipos de arquivo não suportados, e outro conteúdo potencialmente não indexado seja totalmente pesquisável quando você executar pesquisas para coletar dados para o caso. Use a guia **processamento** para monitorar o status de erros de indexação avançada e de processamento de correção usando um processo chamado *correção de erros*. Para obter mais informações, consulte [corrigir erros de processamento em descoberta eletrônica avançada](processing-data-for-case.md).
+Quando você adiciona um Objecte as fontes de dados do custodial correspondentes a um caso, qualquer item parcialmente indexado de uma fonte de dados do responsáveis é reindexado por um processo chamado *indexação avançada*. Isso permite que o conteúdo do custodial, como imagens, tipos de arquivo não suportados, e outro conteúdo potencialmente não indexado seja totalmente pesquisável quando você executar pesquisas para coletar dados para o caso. Use a guia **processamento** para monitorar o status de erros de indexação avançada e de processamento de correção usando um processo chamado *correção de erros*. Para obter mais informações, consulte [corrigir erros de processamento em descoberta eletrônica avançada](processing-data-for-case.md).
 
 ## <a name="collecting-case-data"></a>Coletar dados de ocorrência
 

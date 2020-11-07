@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Recursos para ajudá-lo a atender aos requisitos normativos para o controle de informações e o gerenciamento de registros.
-ms.openlocfilehash: 2aa413400d9d60b759b35d04175b674cedb0a733
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: f8641af2ec839c9ed3f4d029b4f6de52fe7033e3
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930184"
+ms.locfileid: "48941416"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>Requisitos regulatórios para o controle de informações e o gerenciamento de registros
 
@@ -36,9 +36,9 @@ Esses recursos estão disponíveis para download na página [Recursos de Proteç
 
 Cargas de trabalho aplicáveis: Microsoft Office SharePoint Online, Microsoft OneDrive, Microsoft Teams, Exchange e Skype for Business
 
-Lançado em outubro de 2020, este relatório foi produzido em parceria com a Cohasset Associates, Inc. (Cohasset) para avaliar as capacidades dos serviços Microsoft 365 para gravação, armazenamento e gerenciamento de requisitos para registros eletrônicos, conforme especificado por:  
+Lançado em novembro de 2020, este relatório foi produzido em parceria com a Cohasset Associates, Inc. (Cohasset) para avaliar os recursos dos serviços do Microsoft 365 para gravação, armazenamento e gerenciamento de requisitos de registros eletrônicos, conforme especificado por:  
 
-- Títulos e Comissão do Exchange (SEC) em 17CFR §240.17a-4 (f), que regula membros de troca, corretores ou negociantes.  
+- 17 CFR § 240.17 a-4 (f) da Securities and Exchange Commission (SEC), que regula os membros, agentes ou associados da bolsa.  
 
 - Regulamentação 4511(c) da Financial Industry Regulatory Authority (FINRA), que difere o formato e os requisitos de mídia da Regulamentação 17a-4(f) da SEC.  
 

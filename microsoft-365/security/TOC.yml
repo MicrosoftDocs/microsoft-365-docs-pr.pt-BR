@@ -290,8 +290,10 @@
     - name: Segurança do Office 365
       href: ./office-365-security/index.md
       items:
-        - name: Visão geral
+        - name: Visão Geral
           items:
+            - name: Roteiro de segurança
+              href: ./office-365-security/security-roadmap.md
             - name: Proteção do Exchange Online
               items:
                 - name: Visão geral do Exchange Online Protection
@@ -318,8 +320,6 @@
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: Novo Centro de segurança do Microsoft 365
               href: ./mtp/overview-security-center.md
-            - name: Roteiro de segurança
-              href: ./office-365-security/security-roadmap.md
             - name: Explorador de Ameaças (e detecções em tempo real)
               href: ./office-365-security/threat-explorer.md
             - name: Visão geral do AIR
@@ -376,7 +376,9 @@
               href: ./office-365-security/siem-server-integration.md
             - name: Integração do SIEM com o Defender para Office 365
               href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: Configurar políticas anti-phishing
+            - name: Segurança por padrão
+              href: ./office-365-security/secure-by-default.md
+            - name: Configurar políticas anti-phishing da ATP
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Configurar políticas antimalware
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -459,9 +461,15 @@
               href: ./office-365-security/preset-security-policies.md
             - name: Analisador de configuração para políticas de segurança predefinidas
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
-            - name: Simulador de Ataque no Defender para Office 365
+            - name: Simulador de Ataques no Defender para Office 365
               href: ./office-365-security/attack-simulator.md
-            - name: Configurações recomendadas para a configuração do EOP e do Defender para Office 365 Security
+            - name: Simular um ataque de phishing com treinamento de simulação de Ataque
+              href: ./office-365-security/attack-simulation-training.md
+            - name: Criar um conteúdo personalizado para treinamento de simulação de Ataque
+              href: ./office-365-security/attack-simulation-training-payloads.md
+            - name: Obter insights por meio do treinamento de simulação de Ataque
+              href: ./office-365-security/attack-simulation-training-insights.md
+            - name: Configurações recomendadas para configurar o EOP e o Defender para segurança do Office 365
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Práticas recomendadas para a configuração do EOP
               href: ./office-365-security/best-practices-for-configuring-eop.md
