@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre como o EOP e o Office 365 protegem você com spam, phishing e prevenção contra malware adicionando uma dica de segurança à parte superior de emails.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3da52a8ef2913c30c281fec74f92142847e29792
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0e204021bfd79dabd4abdeefaa990da50915eaf0
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201978"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948440"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
 
@@ -47,14 +47,6 @@ A dica de segurança — uma mensagem codificada por cores — avisará você so
     ![Captura de tela que mostra uma dica de segurança verde.](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
 
     Além de mensagens não seguras, também Informaremos sobre mensagens válidas de remetentes que confiamos com uma dica de segurança verde. Uma dica de segurança verde em um email significa que verificamos o remetente da mensagem e verificamos se ela é segura. A Microsoft mantém esta lista de remetentes confiáveis que inclui organizações financeiras e outras que são freqüentemente falsificadas ou representadas.
-
-- Emails não filtrados (dica de segurança cinza).
-
-    ![Captura de tela que mostra uma dica de segurança cinza.](../../media/c4d0cf8f-08e9-4c84-beee-1d9e0b022e0a.png)
-
-    Também avisaremos quando ignoramos a verificação de um email porque ele é proveniente de um remetente em sua lista de remetentes confiáveis ou se existe uma regra de fluxo de emails para ignorar a filtragem.
-
-    A dica de segurança cinza também aparece quando imagens externas são bloqueadas, ou seja, a mensagem está na sua caixa de entrada e não parece ser spam, mas contém imagens externas que você não optou por baixar.
 
 ## <a name="working-with-safety-tips"></a>Trabalhar com dicas de segurança
 

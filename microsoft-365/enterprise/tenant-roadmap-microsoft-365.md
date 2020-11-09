@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: O roteiro para configurar seus locatários para o Microsoft 365.
-ms.openlocfilehash: 038d9b0d94b84d184f0d9d9b250d0ee4d2c19de9
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: d2640a036eedda0b0962a15a03dcf0211ea0209b
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753961"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948392"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Roteiro do locatário para o Microsoft 365
 
@@ -33,7 +33,7 @@ Para preparar o locatário para usuários, grupos, licenças e aplicativos de nu
 
 Após garantir que sua rede seja otimizada para acessar o Microsoft 365 para os funcionários remotos e locais, suas próximas tarefas grandes estão planejando e, em seguida, configurando o Microsoft 365 locatário para nomes de domínio DNS, serviços comuns e para essa infraestrutura de identidade que oferece suporte à entrada de usuário segura.
 
-### <a name="plan"></a>Plano
+### <a name="plan"></a>Planejar
 
 Para planejar sua implementação de locatário:
 
@@ -66,9 +66,9 @@ Com o Microsoft 365 Multi-Geo, sua organização pode expandir sua presença no 
 
 Para obter mais informações, consulte [Microsoft 365 multigeo](microsoft-365-multi-geo.md).
 
-## <a name="manage-multiple-microsoft-365-tenant"></a>Gerenciar vários Microsoft 365 locatário 
+## <a name="manage-multiple-microsoft-365-tenants"></a>Gerenciar vários locatários do Microsoft 365 
 
-Embora ter um único locatário para o seu oganization seja ideal, você pode ser uma das muitas organizações que têm vários locatários. Os motivos podem incluir fusões e aquisições, você deseja o isolamento administrativo ou ter um recurso descentralizado.
+Embora ter um único locatário para seu oganization seja ideal, você pode ser uma das muitas organizações que possuem vários locatários. Os motivos podem incluir fusões e aquisições, você deseja o isolamento administrativo ou ter um recurso descentralizado.
 
 Se você tiver vários locatários do Microsoft 365, consulte estes artigos para obter mais informações sobre:
 

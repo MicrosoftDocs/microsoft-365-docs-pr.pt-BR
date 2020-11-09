@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Saiba mais sobre os modos de exibição de campanha no Microsoft defender para Office 365.
-ms.openlocfilehash: 181b6ce5859dd5146512fe854c983b6b9096d8c6
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 1e5754e077d4c1b8f685b5dea1f8a59985e08a13
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941350"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948476"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Modos de exibição de campanha no Microsoft defender para Office 365
 
@@ -115,9 +115,9 @@ A filtragem mais básica que você pode fazer é a data/hora de início e a data
 
 Para filtrar mais detalhadamente o modo de exibição, você pode fazer uma única propriedade com vários valores, clicando no botão **tipo de campanha** , fazendo sua seleção e, em seguida, clicando em **Atualizar**.
 
-As propriedades de campanha disponíveis são descritas na lista a seguir:
+As propriedades de campanha filtradas que estão disponíveis no botão **tipo de campanha** são descritas na lista a seguir:
 
-- Básica
+- **Básico** :
   - **Tipo de campanha** : selecione **malware** ou **phishing**. Limpar as seleções tem o mesmo resultado que selecionar ambos.
   - **Nome da campanha**
   - **Subtipo de campanha**
@@ -127,23 +127,26 @@ As propriedades de campanha disponíveis são descritas na lista a seguir:
   - **Assunto**
   - **Nome do arquivo anexo**
   - **Família de malware**
+  - **Marcas** : usuários ou grupos que tiveram a marca de usuário especificada aplicada (incluindo contas de prioridade). Para obter mais informações sobre marcas de usuário, consulte [User Tags](user-tags.md).
+  - **Substituições de sistema**
   - **Ação de entrega**
+  - **Ação adicional**
+  - **Directionality**
   - **Tecnologia de detecção**
-  - **Marcas**
+  - **Local de entrega original**
+  - **Local de entrega mais recente**
   - **Substituições de sistema**
 
-- Advanced
+- **Avançado** :
   - **ID de mensagem da Internet** : disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
   - **ID da mensagem de rede** : um valor de GUID que está disponível no campo de cabeçalho **X-MS-Exchange-Organization-Network-Message-ID** no cabeçalho da mensagem.
   - **IP do remetente**
   - **Attachment SHA256** : para localizar o valor de hash SHA256 de um arquivo no Windows, execute o seguinte comando em um prompt de comando: `certutil.exe -hashfile "<Path>\<Filename>" SHA256` .
-
   - **ID do cluster**
-
   - **ID da política de alerta**
+  - **Sinal de URL ZAP**
 
-- URLs
-
+- **URLs** :
   - **Domínio da URL**
   - **Caminho e domínio da URL**
   - **URL**

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 6d0f090f9931e88566e37b038cc30375657019c3
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 4667f84cc3a2e34e6b5e85640c84f090d0b0f1df
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487667"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948464"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -71,9 +71,9 @@ A maioria das organizações tem requisitos específicos sobre segurança e prot
 
 Cada setor também tem seu próprio conjunto de normas especializadas. Em vez de fornecer uma lista de todas as opções de segurança possíveis ou uma recomendação por segmento do setor ou função de trabalho, as recomendações foram fornecidas para três camadas diferentes de segurança e proteção que podem ser aplicadas com base na granularidade das suas necessidades.
 
-- **Proteção de linha de base**: Recomendamos que você estabeleça um padrão mínimo para proteger os dados, bem como as identidades e dispositivos que acessam seus dados. Você pode seguir estas recomendações de linha de base para fornecer uma proteção padrão forte que atenda às necessidades de muitas organizações.
-- **Proteção confidencial**: alguns clientes têm um subconjunto de dados que devem ser protegidos em níveis mais altos ou podem exigir que todos os dados sejam protegidos em um nível mais alto. Você pode aplicar maior proteção a todos ou a conjuntos de dados específicos no seu ambiente do Microsoft 365. É recomendável proteger identidades e dispositivos que acessam dados confidenciais com níveis compatíveis de segurança.  
-- **Altamente regulamentado**: algumas organizações podem ter uma pequena quantidade de dados altamente classificados, constituindo segredos comerciais ou dados regulamentados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos.
+- **Proteção de linha de base** : Recomendamos que você estabeleça um padrão mínimo para proteger os dados, bem como as identidades e dispositivos que acessam seus dados. Você pode seguir estas recomendações de linha de base para fornecer uma proteção padrão forte que atenda às necessidades de muitas organizações.
+- **Proteção confidencial** : alguns clientes têm um subconjunto de dados que devem ser protegidos em níveis mais altos ou podem exigir que todos os dados sejam protegidos em um nível mais alto. Você pode aplicar maior proteção a todos ou a conjuntos de dados específicos no seu ambiente do Microsoft 365. É recomendável proteger identidades e dispositivos que acessam dados confidenciais com níveis compatíveis de segurança.  
+- **Altamente regulamentado** : algumas organizações podem ter uma pequena quantidade de dados altamente classificados, constituindo segredos comerciais ou dados regulamentados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos.
 
 ![Cone de segurança-todos os clientes > alguns clientes > clientes específicos. Aplicativo amplo para aplicativos específicos](../../media/microsoft-365-policies-configurations/M365-idquality-threetiers.png)
 
@@ -194,9 +194,7 @@ A Microsoft recomenda que você não crie conjuntos de políticas que se aplique
 3. Configure as políticas de acesso condicional para usuários convidados e externos.
 4. Configure as políticas de acesso condicional para aplicativos de nuvem do Microsoft 365, como o Microsoft Teams, o Exchange Online e o SharePoint.
 
-<!--
-After you have configured identity and device access, see the [Azure AD feature deployment guide](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2) for a phased checklist of additional features to consider and [Azure AD Identity Governance](https://docs.microsoft.com/azure/active-directory/governance/) to protect, monitor, and audit access.  
---> 
+Depois de configurar a identidade e o acesso ao dispositivo, consulte o [Guia de implantação de recursos do Azure ad](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2) para obter uma lista de verificação de recursos adicionais a serem considerados e o [controle de identidade do Azure ad](https://docs.microsoft.com/azure/active-directory/governance/) para proteger, monitorar e auditar o acesso.  
 
 ## <a name="next-step"></a>Próxima etapa
 

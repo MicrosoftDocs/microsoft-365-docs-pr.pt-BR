@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a1aff37cc845e09be332b853aa938cb66fdb43f
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 561e4c62922a4da0789111de5c3be7844bb83692
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941482"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948488"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -45,7 +45,6 @@ Com esse relatório, você pode:
 - [Iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer](#start-automated-investigation-and-response) (defender para Office 365 Plan 2 apenas)
 - ... [Investigue emails mal-intencionados e muito mais](#more-ways-to-use-explorer-or-real-time-detections)!
 
-
 ## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Aprimoramentos de experiência para o explorador de ameaças e detecções em tempo real
 
 ### <a name="tags-in-threat-explorer"></a>Marcas no explorador de ameaças
@@ -65,6 +64,7 @@ A coluna marcas mostrada na grade de emails contém todas as marcas que foram ap
 > ![Filtrar marcas no modo de exibição de grade de email](../../media/tags-grid.png)
 
 #### <a name="filtering"></a>Filtragem
+
 Agora, temos marcas como um filtro para que você possa procurar apenas por contas de prioridade ou em cenários de marcas de usuário específicos (e até mesmo excluir resultados com determinadas marcas como parte dessa experiência). A combinação desses com os vários outros filtros que fornecemos ajuda você a reduzir o escopo da investigação
 
 [![Marcas ](../../media/tags-filter-normal.png) de filtro](../../media/tags-filter-normal.png#lightbox)
@@ -113,11 +113,11 @@ Na guia detalhes do submenu de email >, agora você poderá ver a ameaça espec�
 
 Além da identificação de todos os eventos Delivery e post-Delivery, a exibição de linha do tempo também fornece informações sobre a ameaça identificada nesse ponto de tempo para um subconjunto desses eventos. Também fornece mais informações sobre ações adicionais (por exemplo, ZAP, correção manual) juntamente com o resultado dessa ação. O modo de exibição linha do tempo contém informações sobre a entrega original e, em seguida, quaisquer eventos de post-Delivery executados em um email.
 
--   Fonte: pode ser administrador/sistema/usuário com base em qual era a origem do evento.
--   Evento: isso inclui eventos de nível superior, como entrega original, correção manual, ZAP, envios e entrega dinâmica.
--   Ação: isso abrange a ação específica que foi realizada como parte de ZAP ou ação de administrador (por exemplo, exclusão reversível).
--   Ameaças: aborda as ameaças (malware, Phish, spam) identificadas nesse momento.
--   Resultado/detalhes: aborda mais informações sobre o resultado da ação, se ela foi executada como parte da ação ZAP/administrador.
+- Fonte: pode ser administrador/sistema/usuário com base em qual era a origem do evento.
+- Evento: isso inclui eventos de nível superior, como entrega original, correção manual, ZAP, envios e entrega dinâmica.
+- Ação: isso abrange a ação específica que foi realizada como parte de ZAP ou ação de administrador (por exemplo, exclusão reversível).
+- Ameaças: aborda as ameaças (malware, Phish, spam) identificadas nesse momento.
+- Resultado/detalhes: aborda mais informações sobre o resultado da ação, se ela foi executada como parte da ação ZAP/administrador.
 
 ### <a name="original-and-latest-delivery-location"></a>Local de entrega original e mais recente
 
@@ -170,15 +170,15 @@ Substituições de sistema são um método de fazer exceções para o local de e
 
 O conjunto de melhorias voltadas para os dados de URL e de URL são:
 
- - Mostrando a URL de clique completo (incluindo qualquer parâmetro de consulta que faça parte da URL) na seção cliques no submenu URL. No momento, mostramos o domínio e o caminho da URL na barra de título. Estamos estendendo essas informações para mostrar a URL completa.
+- Mostrando a URL de clique completo (incluindo qualquer parâmetro de consulta que faça parte da URL) na seção cliques no submenu URL. No momento, mostramos o domínio e o caminho da URL na barra de título. Estamos estendendo essas informações para mostrar a URL completa.
 
- - Corrige nos filtros de URL (URL vs domínio de URL vs domínio de URL e caminho): fizemos atualizações em torno de mensagens que contêm uma URL/clique em veredicto. Como parte desse, habilitamos o suporte para pesquisas que não eram de protocolo (ou seja, você pode pesquisar uma URL diretamente sem http). Por padrão, a pesquisa de URL mapeia para http, a menos que explicitamente especificado. Por exemplo:
+- Corrige nos filtros de URL (URL vs domínio de URL vs domínio de URL e caminho): fizemos atualizações em torno de mensagens que contêm uma URL/clique em veredicto. Como parte desse, habilitamos o suporte para pesquisas que não eram de protocolo (ou seja, você pode pesquisar uma URL diretamente sem http). Por padrão, a pesquisa de URL mapeia para http, a menos que explicitamente especificado. Por exemplo:
 
-   1. Pesquise e sem o `http://` prefixo nos campos de filtro "URL", "domínio de URL" e "domínio de URL e caminho". Esse comportamento é consistente e deve mostrar o mesmo resultado.
+  1. Pesquise e sem o `http://` prefixo nos campos de filtro "URL", "domínio de URL" e "domínio de URL e caminho". Esse comportamento é consistente e deve mostrar o mesmo resultado.
 
-   1. Procure o `https://` prefixo em "URL". Quando não estiver presente, o `http://` prefixo será assumido.
+  1. Procure o `https://` prefixo em "URL". Quando não estiver presente, o `http://` prefixo será assumido.
 
-   1. `/` no início e no final dos campos "caminho de URL", "domínio de URL", "URL de domínio e caminho" será ignorado. `/` no final do campo "URL" será ignorado.
+  1. `/` no início e no final dos campos "caminho de URL", "domínio de URL", "URL de domínio e caminho" será ignorado. `/` no final do campo "URL" será ignorado.
 
 ### <a name="phish-confidence-level"></a>Nível de confiança de phishing
 
@@ -247,12 +247,13 @@ Você também será capaz de exportar a lista de usuários direcionados até um 
 > [!div class="mx-imgBorder"]
 > ![Principais usuários direcionados](../../media/Top_Targeted_Users.png)
 
-
 ### <a name="exchange-transport-rules"></a>Regras de transporte do Exchange
+
 Como parte do enriquecimento de dados, você também deve ser capaz de ver todas as diferentes regras de transporte que foram aplicadas a uma mensagem. Essas informações estarão presentes no modo de exibição de grade de email (para exibir isso, selecione opções de coluna na grade e Adicionar regra de transporte do Exchange das opções de coluna na grade), bem como submenu de detalhes no email.
 Você poderá ver o GUID, bem como o nome das regras de transporte que foram aplicadas à mensagem. Além disso, você poderá pesquisar as mensagens usando o nome da regra de transporte. Essa seria uma pesquisa "contém", o que significa que você também poderá pesquisar usando pesquisas parciais.
 
 #### <a name="important-note"></a>Observação importante:
+
 A pesquisa e o nome da disponibilidade do ETR dependeriam da função específica que foi atribuída a você. Você precisará ter uma das seguintes funções/permissões para exibir os nomes e a pesquisa do ETR.  Se você não tiver uma das funções a seguir atribuídas a você, não poderá ver os nomes das regras de transporte e pesquisar as mensagens usando os nomes ETR. No entanto, você poderá ver as informações de rótulo e GUID do ETR nos detalhes do email. Suas outras experiências em relação à exibição de registros em grades de email, submenus de email, filtros e exportação não são impactadas.
 
 - EXO-prevenção de perda de dados: ALL

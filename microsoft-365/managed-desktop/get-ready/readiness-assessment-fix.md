@@ -1,5 +1,5 @@
 ---
-title: Correção de problemas encontrados pela ferramenta de avaliação de prontidão
+title: Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 description: Ações detalhadas a serem tomadas para cada problema que a ferramenta encontrar
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 642de80e1a133f212b7afb6774d9aab2eeaabdbf
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: c342ea9f662d883883755d2f67e5c25ffabddf83
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941404"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948404"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Correção de problemas encontrados pela ferramenta de avaliação de prontidão
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
 Para cada verificação, a ferramenta relatará um dos quatro resultados possíveis:
 
@@ -242,7 +242,7 @@ Você tem uma política de "anel de atualização" voltada para todos os disposi
 
 **Recomendações**
 
-Certifique-se de que todas as políticas de anel de atualização que você excluiu o grupo de **trabalho** do Azure Para obter etapas, consulte [Manage Windows 10 software updates no Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure). Os **dispositivos de área de trabalho moderna – todos os** grupos do Azure ad são um grupo dinâmico que criamos quando você se inscreve na área de trabalho gerenciada da Microsoft, portanto, você terá que voltar a excluir esse grupo após o registro.
+Certifique-se de que qualquer política de anel de atualização que você tenha excluído os **dispositivos de área de trabalho modernos-todos os** grupos do Azure AD. Se você tiver atribuído o grupo de usuários do Azure AD a essas políticas, certifique-se de que todas as políticas de anel de atualização que você tenha excluído também o grupo de trabalho do Microsoft Azure Active Directory que inclui os usuários da área **de** trabalho gerenciada da Microsoft. Para obter etapas, consulte [Manage Windows 10 software updates no Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure). Tanto os **dispositivos de área de trabalho moderna – todos os** **grupos do Azure** Active Directory são atribuídos aos grupos que criamos quando você se inscreve na área de trabalho gerenciada da Microsoft, portanto, você precisa retornar para excluir esse grupo após o registro.
 
 
 ## <a name="azure-active-directory-settings"></a>Configurações do Azure Active Directory
