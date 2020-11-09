@@ -44,9 +44,9 @@ No mundo de hoje, manter os dados e as comunicações seguras é uma prioridade,
 
 É uma configuração segura, que inclui o Microsoft 365 Business Premium, para que você possa:
 
-- Conte com as ferramentas de colaboração e produtividade corporativas confiáveis, como o Outlook, o Word, o Excel e outros produtos do Office.
-- Proteja seus arquivos de trabalho em todos os seus dispositivos iOS, Android e Windows 10 com segurança de nível empresarial que é fácil de gerenciar.
-- Aplique proteção extra a contas de usuário e identidade.
+- Contar com as ferramentas de colaboração e produtividade corporativas confiáveis, como o Outlook, o Word, o Excel e outros produtos do Office.
+- Proteger seus arquivos de trabalho em todos os seus dispositivos iOS, Android e Windows 10 com segurança de nível empresarial que é fácil de gerenciar.
+- Aplicar proteção extra a contas de usuário e identidade.
 
 ![O Microsoft 365 Business Premium protege as ferramentas de produtividade, ferramentas de colaboração, armazenamento de arquivos, email, dispositivos e identidade](../media/M365-WhatIsIt-SecurityFocus.png)
 
@@ -79,7 +79,7 @@ Depois de configurar o ambiente seguro da Microsoft 365, você pode usar as segu
 | ![um site de comunicação do SharePoint](../media/sm-m365-democracy-teams-collab.png) | ![uma reunião online](../media/m365-democracy-teams-meetings.png) |
 | Colabore com equipes de principais funcionários, de todos os funcionários e parceiros, ou de fornecedores. [Criar uma equipe](create-teams-for-collaboration.md) | Agende uma reunião com áudio, vídeo e compartilhamento com o Microsoft Teams. [Configurar uma reunião](set-up-meetings.md) |
 
-| Criptografe ou rotule emails confidenciais | Criar um site de comunicação |
+| Criptografar ou rotular emails confidenciais | Criar um site de comunicação |
 | ------------- | ------------- |
 | ![Email criptografado e rotulado](../media/sm-m365-campaign-email-encrypt.png) | ![um site de comunicações do SharePoint](../media/sm-m365-democracy-comms-site.png) |
 | Use criptografia e rótulos de confidencialidade para proteger emails que contenham informações confidenciais. [Enviar email criptografado](send-encrypted-email.md) | Compartilhe eventos, mensagens, imagens e muito mais com a sua equipe em um site de comunicações internas criado com o SharePoint. [Criar seu site](create-communications-site.md) |
