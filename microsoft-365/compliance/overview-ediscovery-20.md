@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: ''
 description: Este artigo fornece uma visão geral da descoberta eletrônica avançada no Microsoft 365, uma ferramenta para investigações internas e externas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 95c864b9e2222000b1114ae42dbbb5705228d531
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: 2ef61c8c60cb2cd7114798969dce14c7dce0a2fd
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944339"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951146"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
@@ -72,11 +72,13 @@ Este é um diagrama avançado de arquitetura de descoberta eletrônica que mostr
 
 Para obter mais informações sobre o fluxo de trabalho de ponta a ponta na descoberta eletrônica avançada, consulte este [vídeo da Microsoft mecânica](https://go.microsoft.com/fwlink/?linkid=2066133).
 
-As seções a seguir descrevem cada etapa no fluxo de trabalho interno na descoberta eletrônica avançada.
+As seções a seguir descrevem cada etapa no fluxo de trabalho interno na descoberta eletrônica avançada. A captura de tela a seguir mostra a guia **visão geral** de um caso chamado *2020.11.03-contoso v. fabrikam*.
+
+![Guias no fluxo de trabalho de descoberta eletrônica avançado interno](../media/AeD-Case-Screenshot1.png)
 
 ## <a name="managing-custodians-and-non-custodial-data-sources"></a>Gerenciando os responsáveis e as fontes de dados não custodial
 
-Use a guia **fontes** para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse no caso e outras fontes de dados que podem não estar associadas a um. Ao adicionar qualificações ou fontes de dados não-custodial, você pode rapidamente realizar ações como colocar um bloqueio legal em fontes de dados não-custodial, comunicar-se com os responsáveis e Pesquisar fontes de dados de usuários não custodial para coletar conteúdo relevante para o caso. À medida que o caso avança, é fácil adicionar novos responsáveis ou fontes de dados não custodial ou liberá-los do caso. Para obter mais informações, consulte [trabalhar com os responsáveis na descoberta eletrônica avançada](managing-custodians.md).
+Use a guia **fontes de dados** para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse no caso e outras fontes de dados que podem não estar associadas a um. Ao adicionar qualificações ou fontes de dados não-custodial, você pode rapidamente realizar ações como colocar um bloqueio legal em fontes de dados não-custodial, comunicar-se com os responsáveis e Pesquisar fontes de dados de usuários não custodial para coletar conteúdo relevante para o caso. À medida que o caso avança, é fácil adicionar novos responsáveis ou fontes de dados não custodial ou liberá-los do caso. Para obter mais informações, consulte [trabalhar com os responsáveis na descoberta eletrônica avançada](managing-custodians.md).
 
 ## <a name="managing-legal-hold-notifications"></a>Gerenciando notificações de retenção legal
 
@@ -84,7 +86,7 @@ Use a guia **comunicações** para gerenciar o processo de comunicação com os 
 
 ## <a name="managing-content-preservation"></a>Gerenciando preservação de conteúdo
 
-Ao adicionar um membro a um caso, você pode colocar uma retenção em dados de custodial. Use a guia **isenções** para gerenciar a retenção criada ao adicionar os responsáveis e para gerenciar outros bloqueios legais associados ao caso; por exemplo, você pode identificar e colocar uma retenção em fontes de dados não custodial. Você também pode editar qualquer isenção no caso e torná-lo um bloqueio baseado em consulta para preservar apenas o conteúdo que corresponde à consulta. Por exemplo, você pode adicionar um intervalo de datas à isenção para que apenas o conteúdo criado em uma data específica seja rangedo em preservado. Você também pode obter estatísticas sobre o conteúdo que está em espera, remover a retenção após ela não ser mais relevante para o caso ou excluí-la. Para obter mais informações, consulte [gerenciar isenções na descoberta eletrônica avançada](managing-holds.md).
+Ao adicionar um membro a um caso, você pode colocar uma retenção em dados de custodial. Use a guia **reter** para gerenciar a retenção criada ao adicionar os responsáveis e para gerenciar outros bloqueios legais associados ao caso; por exemplo, você pode identificar e colocar uma retenção em fontes de dados não custodial. Você também pode editar qualquer isenção no caso e torná-lo um bloqueio baseado em consulta para preservar apenas o conteúdo que corresponde à consulta. Por exemplo, você pode adicionar um intervalo de datas à isenção para que apenas o conteúdo criado em uma data específica seja rangedo em preservado. Você também pode obter estatísticas sobre o conteúdo que está em espera, remover a retenção após ela não ser mais relevante para o caso ou excluí-la. Para obter mais informações, consulte [gerenciar isenções na descoberta eletrônica avançada](managing-holds.md).
 
 ## <a name="indexing-custodian-data"></a>Indexando dados de responsáveis
 

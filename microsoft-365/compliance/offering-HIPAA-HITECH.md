@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a6605f7d8561532121e54f02b579de26879baa1a
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 6e0f8e2661692930469aff85e0a7eeef2dd647e0
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305235"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948382"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -51,10 +51,11 @@ Os serviços de nuvem corporativa da Microsoft também são cobertos por avalia�
 
 Para saber como a nuvem da Microsoft ajuda os clientes a oferecer suporte à HIPAA e aos requisitos de alta tecnologia, visite as [histórias de clientes da Microsoft](https://customers.microsoft.com).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Segurança no aplicativo na nuvem da Microsoft
+- [Nuvem da Microsoft para Serviços de Saúde](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
 - Serviço Microsoft Healthcare bot
 - Microsoft Stream
 - Serviços Profissionais da Microsoft: Premier e no Local para Azure, Dynamics 365, Intune e para clientes de médias empresas e corporativos do Microsoft 365 para empresas.
@@ -109,8 +110,8 @@ O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso
 ## <a name="resources"></a>Recursos
 
 - [Regra HIPAA Omnibus](https://aka.ms/HIPAA-omnibus) (as regulamentações finais – modificando regras do HIPAA)
-- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
+- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Noções básicas sobre a conformidade HIPAA com o Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 de maio de 2016)
 - [Exemplo de Blueprint do HITRUST do Azure HIPAA](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)

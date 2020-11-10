@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora, você pode aplicar políticas de DLP a chats e canais do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 58a96cea3a45fb640b06e09debd35dd005b15a32
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 22f279eaccaed20984a59b9b3ae5655df00b2ae3
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024721"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951056"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção de perda de dados e Microsoft Teams
 
@@ -69,7 +69,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 2. Escolha política de **prevenção contra perda de dados**  >  **Policy**.
 
-3. Selecione uma política e ao lado de **configurações de política**, escolha **Editar**.
+3. Selecione uma política e ao lado de **configurações de política** , escolha **Editar**.
 
 4. Crie uma nova regra ou edite uma regra existente para a política.<br/>![Editando uma regra para uma política](../media/dlp-teams-editrule.png)<br/>
 
@@ -89,7 +89,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 2. Escolha política de **prevenção contra perda de dados**  >  **Policy**.
 
-3. Selecione uma política e examine os valores em **locais**. Se você vir **chat de equipes e mensagens de canal**, tudo pronto. Caso contrário, clique em **Editar**.<br/>![Locais para política existente](../media/dlp-teams-editexistingpolicy.png)<br/>
+3. Selecione uma política e examine os valores em **locais**. Se você vir **chat de equipes e mensagens de canal** , tudo pronto. Caso contrário, clique em **Editar**.<br/>![Locais para política existente](../media/dlp-teams-editexistingpolicy.png)<br/>
 
 4. Na coluna **status** , ative a política para chat de **equipes e mensagens de canal**.<br/>![DLP para bate-papos e canais do teams](../media/dlp-teams-addteamschatschannels.png)<br/>
 
@@ -111,21 +111,46 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 4. Na guia **nomear sua política** , especifique um nome e uma descrição para a política e, em seguida, escolha **Avançar**.
 
-5. Na guia **escolher locais** , mantenha a configuração padrão de todos os locais ou selecione **deixe-me escolher locais específicos**e, em seguida, escolha **Avançar**.<br/>Se você escolher locais específicos, selecione-os para a política de DLP e, em seguida, escolha **Avançar**.<br/>![Locais de política de DLP](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
+5. Na guia **escolher locais** , mantenha a configuração padrão de todos os locais ou selecione **deixe-me escolher locais específicos** e, em seguida, escolha **Avançar**.<br/>Se você escolher locais específicos, selecione-os para a política de DLP e, em seguida, escolha **Avançar**.<br/>![Locais de política de DLP](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
     > Se você quiser garantir que documentos que contenham informações confidenciais não sejam compartilhados inadequadamente no Microsoft Teams, certifique-se de que os **sites do SharePoint** e as **contas do onedrive** estejam ativados, junto com **as mensagens de chat e de canal do teams**.
 
 <br/>
 
-6. Na guia **configurações de política** , em **Personalizar o tipo de conteúdo que você deseja proteger**, mantenha as configurações simples padrão ou escolha **usar configurações avançadas**e, em seguida, escolha **Avançar**. Se você escolher configurações avançadas, você pode criar ou editar regras para sua política. (Para obter ajuda com isso, consulte [configurações simples vs. configurações avançadas](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).)
+6. Na guia **configurações de política** , em **Personalizar o tipo de conteúdo que você deseja proteger** , mantenha as configurações simples padrão ou escolha **usar configurações avançadas** e, em seguida, escolha **Avançar**. Se você escolher configurações avançadas, você pode criar ou editar regras para sua política. (Para obter ajuda com isso, consulte [configurações simples vs. configurações avançadas](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).)
 
-7.  Na guia **configurações de política** , em **o que você deseja fazer se detectarmos informações confidenciais?**, revise as configurações. (Aqui você pode optar por manter [dicas de política padrão e notificações por email](use-notifications-and-policy-tips.md)ou personalizá-las.)<br/>![Configurações de política de DLP com dicas e notificações](../media/dlp-teams-policysettings-tipsemails.png)<br/>Quando terminar de revisar ou editar as configurações, escolha **Avançar**.
+7.  Na guia **configurações de política** , em **o que você deseja fazer se detectarmos informações confidenciais?** , revise as configurações. (Aqui você pode optar por manter [dicas de política padrão e notificações por email](use-notifications-and-policy-tips.md)ou personalizá-las.)<br/>![Configurações de política de DLP com dicas e notificações](../media/dlp-teams-policysettings-tipsemails.png)<br/>Quando terminar de revisar ou editar as configurações, escolha **Avançar**.
 
-8. Na guia **configurações de política** , em **você deseja ativar a política ou testar as tarefas primeiro?**, escolha se deseja ativar a política, [testá-la primeiro](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)ou mantê-la desativada por enquanto e, em seguida, escolha **Avançar**.<br/>![Especificar se a política será ativada](../media/dlp-teams-policysettings-turnonnow.png)<br/>
+8. Na guia **configurações de política** , em **você deseja ativar a política ou testar as tarefas primeiro?** , escolha se deseja ativar a política, [testá-la primeiro](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)ou mantê-la desativada por enquanto e, em seguida, escolha **Avançar**.<br/>![Especificar se a política será ativada](../media/dlp-teams-policysettings-turnonnow.png)<br/>
 
 9. Na guia **examinar suas configurações** , revise as configurações da nova política. Escolha **Editar** para fazer alterações. Quando tiver terminado, escolha **criar**.
 
 Aguarde aproximadamente uma hora para que sua nova política funcione de forma em seu data center e sincronize com as contas de usuário.
+
+## <a name="prevent-external-access-to-sensitive-documents"></a>Impedir o acesso externo a documentos confidenciais
+
+Para garantir que documentos do SharePoint que contenham informações confidenciais não possam ser acessados por convidados externos do SharePoint ou do teams por padrão, selecione o seguinte:
+
+- Você pode garantir que os documentos estejam protegidos até que o DLP examine e marque-os como seguros para compartilhar [marcando novos arquivos como confidenciais por padrão](https://docs.microsoft.com/sharepoint/sensitive-by-default)
+- Estrutura de política de DLP recomendada
+    - **Condições**
+        - O conteúdo contém qualquer um desses tipos de informações confidenciais: [selecionar tudo que se aplica]
+        - O conteúdo é compartilhado da Microsoft 365 com pessoas de fora da minha organização
+        <br/>![Condições de DLP para detectar o compartilhamento externo de conteúdo confidencial](../media/dlp-teams-external-sharing/external-condition.png)<br/>
+
+
+    - **Ações**
+        - Restringir o acesso ao conteúdo para usuários externos
+        - Notificar os usuários com dicas de política e email
+        - Enviar relatórios de incidentes ao administrador    
+        <br/>![Ação DLP para bloquear o compartilhamento externo de conteúdo confidencial](../media/dlp-teams-external-sharing/external-action.png)<br/>
+
+Política de DLP em ação ao tentar compartilhar um documento no SharePoint que contém informações confidenciais com um convidado externo:
+<br/>![Compartilhamento externo bloqueado](../media/dlp-teams-external-sharing/external-sharing-blocked.png)<br/>
+
+
+Política de DLP em ação quando o convidado tenta abrir um documento no Teams com bloqueio externo:
+<br/>![Acesso externo bloqueado](../media/dlp-teams-external-sharing/external-access-blocked.png)<br/>
 
 ## <a name="related-articles"></a>Artigos relacionados
 

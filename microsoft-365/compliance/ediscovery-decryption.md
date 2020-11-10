@@ -15,34 +15,36 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como as ferramentas de descoberta eletrônica da Microsoft 365 tratam documentos criptografados anexados a mensagens de email.
-ms.openlocfilehash: b7c1dc20b8e400b9880cc00a88a2d23a4b6d1979
-ms.sourcegitcommit: 751dc531f0410ee075c179efe409a01664483ee2
+ms.openlocfilehash: 3a4a094f1da28c9a017836c099507f5af739b0b9
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48925579"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951114"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>Descriptografia nas ferramentas de eDiscovery da Microsoft 365
 
-As organizações usam a tecnologia de criptografia para proteger o conteúdo confidencial dentro de sua organização e garantir que apenas as pessoas certas tenham acesso a esse conteúdo. As organizações usam vários tipos de criptografia, tanto as tecnologias de criptografia da Microsoft quanto as tecnologias de terceiros para atender aos requisitos de segurança e proteger suas informações confidenciais.
+A criptografia é uma parte importante da estratégia de proteção de arquivos e proteção de informações. As organizações de todos os tipos usam a tecnologia de criptografia para proteger o conteúdo confidencial dentro de sua organização e garantir que apenas as pessoas certas tenham acesso a esse conteúdo.
 
-Até hoje, gerenciar o conteúdo criptografado no fluxo de trabalho de descoberta eletrônica no Microsoft 365 requer manipulação especial de itens criptografados, dependendo do tipo de criptografia usada e do estágio específico no fluxo de trabalho. Isso foi obtido principalmente com a descriptografia do conteúdo da mensagem de email quando ele foi exportado de pesquisas de conteúdo, casos de descoberta eletrônica principais e casos de descoberta eletrônica avançada. O conteúdo criptografado com tecnologias de criptografia da Microsoft não pôde ser visualizado até ser exportado. Na descoberta eletrônica avançada, o conteúdo criptografado foi sinalizado com um erro de processamento, o que exigia que você baixe o item criptografado, descriptografe-o e, em seguida, carregue o arquivo descriptografado para um conjunto de revisão.
+Para executar tarefas comuns de descoberta eletrônica em conteúdo criptografado, os gerentes de descoberta eletrônica precisavam descriptografar o conteúdo da mensagem de email quando ele foi exportado de pesquisas de conteúdo, casos de descoberta eletrônica principais e casos de descoberta eletrônica O conteúdo criptografado com tecnologias de criptografia da Microsoft não estava disponível para revisão até depois de ser exportado.
 
-Para facilitar o gerenciamento de conteúdo criptografado no fluxo de trabalho de descoberta eletrônica, as ferramentas do Microsoft 365 eDiscovery podem descriptografar arquivos criptografados anexados a mensagens de email e enviados no Exchange Online. Antes desse novo recurso, somente o conteúdo de uma mensagem de email protegida pelo gerenciamento de direitos (e arquivos não anexados) foi descriptografado. Agora, se um arquivo criptografado com uma tecnologia de criptografia da Microsoft estiver anexado a uma mensagem de email que corresponda aos critérios de pesquisa, o arquivo criptografado será descriptografado quando os resultados da pesquisa forem preparados para visualização. Isso permite que os gerentes de descoberta eletrônica exibam o conteúdo de anexos de email criptografados ao visualizar os resultados da pesquisa.
+Para facilitar o gerenciamento de conteúdo criptografado no fluxo de trabalho de descoberta eletrônica, as ferramentas de eDiscovery da Microsoft 365 agora incorporam a descriptografia de arquivos criptografados anexados a mensagens de email e enviados no Exchange Online. Antes desse novo recurso, somente o conteúdo de uma mensagem de email protegida pelo gerenciamento de direitos (e arquivos não anexados) foi descriptografado. Agora, se um arquivo criptografado com uma tecnologia de criptografia da Microsoft estiver anexado a uma mensagem de email que corresponda aos critérios de pesquisa, o arquivo criptografado será descriptografado quando os resultados da pesquisa forem preparados para revisão. Isso permite que os gerentes de descoberta eletrônica exibam o conteúdo de anexos de email criptografados ao visualizar os resultados da pesquisa e examiná-los assim que forem adicionados a uma análise definida na descoberta eletrônica avançada.
+
+> [!NOTE]
+> Em breve, as ferramentas de eDiscovery da Microsoft 365 suportarão documentos criptografados armazenados no SharePoint Online e no OneDrive for Business.
 
 ## <a name="supported-encryption-technologies"></a>Tecnologias de criptografia suportadas
 
-As ferramentas do Microsoft eDiscovery dão suporte a itens criptografados com tecnologias de criptografia da Microsoft. Essas tecnologias incluem a criptografia de mensagem do Office, a proteção de informações da Microsoft (rótulos de confidencialidade) e o Azure Rights Management. Para obter mais informações sobre as tecnologias de criptografia da Microsoft, consulte [Encryption](encryption.md). Não há suporte para o conteúdo criptografado por tecnologias de criptografia de terceiros. Isso não inclui nenhum suporte ao visualizar ou exportar conteúdo criptografado com tecnologias que não sejam da Microsoft.
+As ferramentas do Microsoft eDiscovery dão suporte a itens criptografados com tecnologias de criptografia da Microsoft. Essas tecnologias incluem a criptografia de mensagem do Office, a proteção de informações da Microsoft (em breve) e o Azure Rights Management. Para obter mais informações sobre as tecnologias de criptografia da Microsoft, consulte [Encryption](encryption.md). Não há suporte para o conteúdo criptografado por tecnologias de criptografia de terceiros. Isso não inclui nenhum suporte ao visualizar ou exportar conteúdo criptografado com tecnologias que não sejam da Microsoft.
 
 ## <a name="ediscovery-activities-that-support-encrypted-items"></a>atividades de descoberta eletrônica que dão suporte a itens criptografados
 
 A tabela a seguir identifica as tarefas executadas nas ferramentas de descoberta eletrônica do Microsoft 365 que dão suporte à descriptografia de arquivos criptografados anexados a email massages. As tarefas de suporte podem ser executadas em um arquivo criptografado anexado a uma mensagem de email que corresponda aos critérios de uma pesquisa. Um valor de "N/A" indica que a função não está disponível na ferramenta de descoberta eletrônica correspondente.
 
-|tarefa de descoberta eletrônica  |Pesquisa de Conteúdo  |Descoberta Eletrônica Central  |Descoberta Eletrônica Avançada  |
+|tarefa de descoberta eletrônica  |Pesquisa de conteúdo  |Descoberta Eletrônica Central  |Descoberta Eletrônica Avançada  |
 |:---------|:---------|:---------|:---------|
-|Pesquisar conteúdo em arquivos criptografados     |Não      |Não      |Não      |
+|Pesquisar conteúdo em arquivos criptografados     |Sim      |Sim      |Sim      |
 |Visualizar arquivos criptografados     |Sim      |Sim     |Sim       |
 |Revisar arquivos criptografados em um conjunto de revisão    |Não disponível      |Não disponível        | Sim        |
 |Exportar arquivos criptografados    |Sim       |Sim  |Sim    |
