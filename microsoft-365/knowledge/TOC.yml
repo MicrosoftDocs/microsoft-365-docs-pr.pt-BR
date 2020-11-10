@@ -11,6 +11,6 @@
 - name: Introdução à instalação
   items:
     - name: Configurar o gerenciamento de conhecimento
-      href: set-up-knowledge-network.md
+      href: set-up-topic-experiences.md
     - name: Gerenciar sua rede de gerenciamento de conhecimento
-      href: manage-knowledge-network.md
+      href: topic-experiences-discovery.md
