@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 4e4ced42424abe024a1230c24814c420a59ed3dc
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 3b68de3594e4a31040a6ee0698c3c600490bd5d9
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919983"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950946"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -169,9 +169,9 @@ Use as instruções a seguir para políticas de retenção que se aplicam a qual
 
 O local **email do Exchange** oferece suporte à retenção de emails, calendários e outros itens de caixa de correio dos usuários, aplicando as configurações de retenção no nível de uma caixa de correio.
 
-Os itens de email a seguir são incluídos: mensagens de email (inclui rascunhos) com todos os anexos, tarefas e itens de calendário quando eles têm uma data de término e anotações. Os contatos, as tarefas e os itens de calendário que não têm uma data de término não são incluídos. Os outros itens armazenados em uma caixa de correio, como as mensagens salvas no Skype e no Teams, não são incluídos com esse local. Esses itens têm seus próprios locais de retenção.
+Para obter informações detalhadas sobre quais itens são incluídos e excluídos quando você define as configurações de retenção do Exchange, confira [O que está incluído para retenção e exclusão](retention-policies-exchange.md#whats-included-for-retention-and-deletion)
 
-Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365**.
+Observe que, embora um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclui o local do **Email do Exchange** não inclui conteúdo nas caixas de correio do grupo Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365**.
 
 O local **Pastas públicas do Exchange** aplica as configurações de retenção a todas as pastas públicas e não pode ser aplicado no nível de pasta ou caixa de correio.
 
@@ -179,12 +179,9 @@ O local **Pastas públicas do Exchange** aplica as configurações de retenção
 
 Quando você escolhe o local **sites do SharePoint** , a política de retenção pode reter e excluir documentos em sites de comunicação do SharePoint, sites de equipe que não estão conectados por grupos do Microsoft 365 e sites clássicos. Os sites de equipe conectados por grupos do Microsoft 365 não possuem suporte com essa opção. Use o local **Grupos do Microsoft 365** que se aplica ao conteúdo da caixa de correio, sites e arquivos do grupo.
 
-Embora a política de retenção seja aplicada no nível do site, apenas os documentos têm configurações de retenção aplicadas a eles. As configurações de retenção não se aplicam às estruturas de organização que incluem bibliotecas, listas e pastas no site.
+Embora a política de retenção seja aplicada no nível do site, apenas os documentos têm configurações de retenção aplicadas a eles. Para obter informações detalhadas sobre o que está incluído e excluído quando você define as configurações de retenção do Microsoft Office SharePoint Online e do OneDrive, confira [O que está incluído para a retenção e a exclusão](retention-policies-sharepoint.md#whats-included-for-retention-and-deletion). 
 
-Ao especificar os locais para os sites do SharePoint ou contas do OneDrive, não será preciso ter permissões para acessar os sites e nenhuma validação será feita ao especificar a URL na página **Editar locais**. No entanto, os sites do Microsoft Office SharePoint Online que você especifica são verificados para ver se existem no final do assistente. Se essa verificação falhar, uma mensagem será exibida informando que a validação falhou para a URL inserida, e o assistente não criará a política de retenção até que a verificação de validação seja aprovada. Se você vir esta mensagem, volte ao assistente para alterar a URL ou remover o site da política de retenção.
-
-> [!NOTE]
-> Os sites do Microsoft Office SharePoint Online devem ser indexados para que as configurações de retenção sejam aplicadas. No entanto, se os itens nas bibliotecas de documentos do Microsoft Office SharePoint Online forem configurados para não aparecer nos resultados da pesquisa, essa configuração não excluirá os itens das configurações de retenção.
+Ao especificar os locais para os sites do Microsoft Office SharePoint Online ou contas do OneDrive, não será preciso ter permissões para acessar os sites e nenhuma validação será feita ao especificar a URL na página **Editar locais**. No entanto, os sites do Microsoft Office SharePoint Online que você especifica são verificados para ver se existem no final do assistente. Se essa verificação falhar, uma mensagem será exibida informando que a validação falhou para a URL inserida, e o assistente não criará a política de retenção até que a verificação de validação seja aprovada. Se você vir esta mensagem, volte ao assistente para alterar a URL ou remover o site da política de retenção.
 
 Para especificar contas individuais do OneDrive para incluir ou excluir o URL tem o seguinte formato: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
 
@@ -287,6 +284,6 @@ Se você editar uma política de retenção e os itens já estiverem sujeitos à
 
 Geralmente, essa atualização é bastante rápida, mas pode levar vários dias. Quando a replicação da política nos locais do Microsoft 365 estiver concluída, você verá o status da política de retenção no Centro de Conformidade do Microsoft 365 mudar de **Ativado (Pendente)** para **Ativado (Sucesso)**.
 
-## <a name="locking-the-policy-to-prevent-changes"></a>Bloqueando a política para evitar alterações
+## <a name="locking-the-policy-to-prevent-changes"></a>Bloquear a política para evitar alterações
 
-Se você precisar garantir que ninguém possa desativar a política, excluir a política ou torná-la menos restritiva, confira [Usar Bloqueio de Preservação para restringir as alterações nas políticas de retenção e políticas de rótulo de retenção](retention-preservation-lock.md).
+Se você precisar garantir que ninguém pode desabilitar a política, excluí-la ou torná-la menos restritiva, confira [Usar Bloqueio de Preservação para restringir alterações nas políticas de retenção e nas políticas de rótulo de retenção](retention-preservation-lock.md).

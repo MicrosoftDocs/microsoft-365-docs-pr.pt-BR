@@ -11,12 +11,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral do gerenciamento de conhecimento no Project Cortex.
-ms.openlocfilehash: d422b54bb7991fb5fd61465cd0428ab586d10bf5
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 27ce6457f2329ccaa4738d6868b4f2051c0c0a51
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906936"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988837"
 ---
 # <a name="knowledge-management-overview-preview"></a>Visão geral do gerenciamento de conhecimento (versão prévia)
 
@@ -75,7 +75,7 @@ Os controles de administrador no centro de administração do Microsoft 365 perm
 - Controlar quais usuários podem confirmar ou rejeitar tópicos no centro de tópicos.
 - Controlar quais usuários podem criar e editar tópicos no centro de tópicos.
 
-Consulte [gerenciar sua rede de conhecimento](manage-knowledge-network.md) para obter mais informações. 
+Consulte [gerenciar sua rede de conhecimento](topic-experiences-discovery.md) para obter mais informações. 
 
 ## <a name="topic-curation--feedback"></a>Opinião sobre & de tópicos
 
@@ -87,5 +87,5 @@ Além disso, os usuários com permissões adequadas podem marcar itens como a co
 
 
 ## <a name="see-also"></a>Confira também
-[Configurar o gerenciamento de conhecimento](set-up-knowledge-network.md)</br>
+[Configurar o gerenciamento de conhecimento](set-up-topic-experiences.md)</br>
 [Visão geral do centro de tópicos](topic-center-overview.md)

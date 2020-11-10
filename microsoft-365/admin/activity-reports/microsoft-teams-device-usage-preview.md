@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha informações sobre os aplicativos do Microsoft Teams usados em sua organização obtendo o relatório de uso do aplicativo Microsoft Teams dos relatórios do Microsoft 365.
-ms.openlocfilehash: deda550b3ffc4209f718d36a3010605edbc1102b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 928ba7bbe4d4753499e71b347baffafa7441f5b5
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636968"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988523"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de dispositivos do Microsoft Teams
 
@@ -37,7 +37,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
  
 ## <a name="how-to-get-to-the-microsoft-teams-app-usage-report"></a>Como gerar o relatório de uso do aplicativo Microsoft Teams
 
-1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>. 
+1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>. 
 2. Na página inicial do painel, clique no botão **Exibir mais** no cartão de atividades do Microsoft Teams.
   
 ## <a name="interpret-the-microsoft-teams-app-usage-report"></a>Interpretar o relatório de uso do aplicativo Microsoft Teams
@@ -61,5 +61,4 @@ Você também pode exportar os dados do relatório para um arquivo. csv do Excel
 |Web  <br/> |Selecionado se o usuário estava ativo no cliente da Web do teams em dispositivos.|
 |Data da última atividade (UTC)  <br/> |A última data (UTC) que o usuário participou em uma atividade do teams.  <br/> |
 |É licenciado|Selecionado se o usuário está licenciado para usar o Microsoft Teams.|
-|Atividade total do teams|Número total de atividades do teams durante o período de tempo selecionado. |
 |||

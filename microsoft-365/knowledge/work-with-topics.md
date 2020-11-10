@@ -11,12 +11,12 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d2fd3df200ab350ca3e6595402bab17034d960a7
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 464a926b99cceeb652756ad6d1456c5e17d2a925
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906914"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988733"
 ---
 # <a name="work-with-topics-in-the-topic-center-preview"></a>Trabalhar com tópicos no centro de tópicos (versão prévia)
 
@@ -28,7 +28,7 @@ No centro de tópicos, um gerente de conhecimento pode examinar os tópicos que 
 
 ## <a name="requirements"></a>Requirements
 
-Para trabalhar no centro de tópicos, você precisa ter as permissões necessárias. Seu administrador pode adicionar você durante [a configuração do gerenciamento de conhecimento](set-up-knowledge-network.md)ou novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md).
+Para trabalhar no centro de tópicos, você precisa ter as permissões necessárias. Seu administrador pode adicionar você durante [a configuração do gerenciamento de conhecimento](set-up-topic-experiences.md)ou novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md).
 
 Os usuários do centro de tópicos podem receber dois conjuntos de permissões:
 
@@ -72,7 +72,7 @@ Para revisar um tópico confirmado:
 3. Você pode rejeitá-lo muito
 
 ## <a name="review-published-topics"></a>Analisar tópicos publicados
-Os tópicos publicados foram editados de modo que as informações do speific sempre apareçam para as pessoas que confiarão na página. Tópicos criados manualmente são exibidos aqui.
+Tópicos publicados foram editados de modo que as informações específicas sempre apareçam para qualquer pessoa que encontre a página. Tópicos criados manualmente são exibidos aqui.
 
    
 ## <a name="create-a-new-topic"></a>Criar um novo tópico
@@ -101,7 +101,7 @@ Para criar um novo tópico:
 
     ![Nova página de tópico](../media/content-understanding/k-new-topic-page.png)
     
-3. Se você precisar adicionar outros componentes à página, como texto, imagens, WebParts, links, etc., selecione o ícone de tela no meio da página para localizar e adicioná-los.
+3. Se você precisar adicionar outros componentes à página, como texto, imagens, Web Parts, links, etc., selecione o ícone de tela no meio da página para localizar e adicioná-los.
 
     ![Adicionar itens à página](../media/content-understanding/static-icon.png)
 

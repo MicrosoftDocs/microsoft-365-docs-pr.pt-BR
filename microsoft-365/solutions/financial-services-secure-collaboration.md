@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Aprenda como as instituições de serviços financeiros podem manter a conformidade de segurança financeira e colaborar com eficácia usando o Microsoft 365 e o Microsoft Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: 8bc9e965029414dadc39757b926949f3f60afc16
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 7192b29d09acb23df368e2458fac62c18bbbadb2
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906902"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988709"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
@@ -164,7 +164,7 @@ O Microsoft 365 permite que todas as organizações identifiquem dados confidenc
 * **Proteção de Informações da Microsoft (MIP)** para classificação baseada no usuário e classificação automatizada de dados confidenciais.
 * **Prevenção contra Perda de Dados do Office 365 (DLP)** para identificação automatizada de dados confidenciais usando tipos de dados confidenciais (em outras palavras, expressões regulares) e imposição de políticas e palavras-chave.
 
-A **[Proteção de Informações da Microsoft (MIP)](../compliance/protect-information.md)** permite que as organizações classifiquem documentos e emails de maneira inteligente usando rótulos de confidencialidade. Os rótulos de confidencialidade podem ser aplicados manualmente pelos usuários a documentos em aplicativos do Microsoft Office e a emails no Outlook. Os rótulos podem aplicar marcações de documentos, proteção por criptografia e imposição de gerenciamento de direitos automaticamente. Os rótulos de confidencialidade também podem ser aplicados automaticamente, configurando políticas que usam palavras-chave e tipos de dados confidenciais (como números de cartão de crédito, números de previdência social e números de identidade) para localizar e classificar automaticamente dados confidenciais.
+A **[Proteção de Informações da Microsoft (MIP)](../compliance/information-protection.md)** permite que as organizações classifiquem documentos e emails de maneira inteligente usando rótulos de confidencialidade. Os rótulos de confidencialidade podem ser aplicados manualmente pelos usuários a documentos em aplicativos do Microsoft Office e a emails no Outlook. Os rótulos podem aplicar marcações de documentos, proteção por criptografia e imposição de gerenciamento de direitos automaticamente. Os rótulos de confidencialidade também podem ser aplicados automaticamente, configurando políticas que usam palavras-chave e tipos de dados confidenciais (como números de cartão de crédito, números de previdência social e números de identidade) para localizar e classificar automaticamente dados confidenciais.
 
 Além disso, a Microsoft fornece "classificadores treináveis" que usam modelos de aprendizado de máquina para identificar dados confidenciais com base no conteúdo, em vez de simplesmente através da correspondência de padrões ou dos elementos contidos no conteúdo. Um classificador aprende como identificar um tipo de conteúdo observando vários exemplos do conteúdo a ser classificado. O treinamento de um classificador começa com exemplos de conteúdo em uma categoria específica. Depois de aprender com esses exemplos, o modelo é testado, dando-lhe uma combinação de exemplos correspondentes e não correspondentes. O classificador prevê se um determinado exemplo se enquadra na categoria ou não. Uma pessoa então confirma os resultados, classificando os positivos, negativos, falsos positivos e falsos negativos para ajudar a aumentar a precisão das previsões do classificador. Quando o classificador treinado é publicado, ele processa o conteúdo no SharePoint Online, Exchange Online e OneDrive for Business da Microsoft e classifica automaticamente o conteúdo.
 

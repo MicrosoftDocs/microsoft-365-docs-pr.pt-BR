@@ -11,19 +11,19 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d87a52bc6aca2f033a6e0d26a8c9c0e167908759
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 39a851ed3613057c7b3b931a94a79fed235d277a
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906960"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988825"
 ---
 # <a name="topic-center-overview-preview"></a>Visão geral do centro de tópicos (versão prévia)
 
 > [!Note] 
 > O conteúdo deste artigo é para a visualização privada do Project Cortex. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
 
-O tópico central é um site moderno do SharePoint que serve como um centro de conhecimento para sua organização. Ele é criado durante [a configuração do Knowledge Management](set-up-knowledge-network.md) no centro de administração do Microsoft 365.
+O tópico central é um site moderno do SharePoint que serve como um centro de conhecimento para sua organização. Ele é criado durante [a configuração do Knowledge Management](set-up-topic-experiences.md) no centro de administração do Microsoft 365.
 
 O tópico central tem uma Home Page padrão onde você pode ver os tópicos aos quais você foi conectado ou sugerido para ser conectado. Os usuários com as permissões adequadas também podem:
 
@@ -36,7 +36,7 @@ O tópico central tem uma Home Page padrão onde você pode ver os tópicos aos 
 
 ## <a name="where-is-the-topic-center"></a>Onde está o tópico central
 
-Seu centro de tópicos é criado durante a configuração do gerenciamento de conhecimento. Após a conclusão da instalação, um administrador pode encontrar a URL na [página Gerenciamento da central de conhecimento](manage-knowledge-network.md).
+Seu centro de tópicos é criado durante a configuração do gerenciamento de conhecimento. Após a conclusão da instalação, um administrador pode encontrar a URL na [página Gerenciamento da central de conhecimento](topic-experiences-discovery.md).
 
 1. No centro de administração do Microsoft 365, selecione **Configurar** no painel de navegação e, na seção **conhecimento organizacional** , selecione **conectar pessoas a conhecimento**.
 
@@ -46,7 +46,7 @@ Seu centro de tópicos é criado durante a configuração do gerenciamento de co
 
 ## <a name="home-page"></a>Home page
 
-Para ver o tópico central, você precisa ter permissões para exibir tópicos e a experiência do tópico. Seu administrador pode atribuir essas permissões aos usuários durante a [configuração de gerenciamento de conhecimento](set-up-knowledge-network.md)ou os novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md) por um administrador por meio do centro de administração do Microsoft 365.
+Para ver o tópico central, você precisa ter permissões para exibir tópicos e a experiência do tópico. Seu administrador pode atribuir essas permissões aos usuários durante a [configuração de gerenciamento de conhecimento](set-up-topic-experiences.md)ou os novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md) por um administrador por meio do centro de administração do Microsoft 365.
 
 Na Home Page 
 - **Exibir tópicos** : Exibir experiências de tópico. Portanto, você pode ver os tópicos da organização e fazer comentários sobre tópicos onde você esteve conectado:
@@ -59,7 +59,7 @@ Depois que eu estiver fixado, as edições na página de tópico podem ser feita
 
 ## <a name="permissions-to-use-the-manage-topics-capability-topic-center"></a>Permissões para usar o tópico Gerenciar tópicos de recurso de recursos
 
-Para trabalhar na seção Gerenciar tópicos do centro da tópicos, você precisa ter as permissões necessárias. Seu administrador pode atribuir essas permissões aos usuários durante a [configuração de gerenciamento de conhecimento](set-up-knowledge-network.md)ou os novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md) por um administrador por meio do centro de administração do Microsoft 365.
+Para trabalhar na seção Gerenciar tópicos do centro da tópicos, você precisa ter as permissões necessárias. Seu administrador pode atribuir essas permissões aos usuários durante a [configuração de gerenciamento de conhecimento](set-up-topic-experiences.md)ou os novos usuários podem ser [adicionados posteriormente](give-user-permissions-to-the-topic-center.md) por um administrador por meio do centro de administração do Microsoft 365.
 
 Os usuários do centro de tópicos podem receber dois conjuntos de permissões:
 

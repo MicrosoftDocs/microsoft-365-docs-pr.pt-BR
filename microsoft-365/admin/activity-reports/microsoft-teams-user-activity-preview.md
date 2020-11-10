@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como obter o relatório de atividades do usuário do Microsoft Teams e obtenha informações sobre a atividade do teams em sua organização.
-ms.openlocfilehash: 8ce29b43e6238883470d1159ad1d22fefca88792
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b85f073a2916b646a5a03e62913de44b410ca058
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637062"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988465"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams
 
@@ -35,7 +35,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
  
 ## <a name="how-to-get-to-the-microsoft-teams-user-activity-report"></a>Como gerar o relatório de atividade de usuários do Microsoft Teams
 
-1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
+1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 2. Na página inicial do painel, clique no botão **Exibir mais** no cartão de atividades do Microsoft Teams.
 
 ## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Interpretar o relatório de atividade de usuários do Microsoft Teams
@@ -44,7 +44,7 @@ Você pode exibir a atividade do usuário no relatório do teams escolhendo a gu
 
 Selecione **escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
 
-Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. O formato exportado para hora de **áudio**, tempo de **vídeo** e **tempo de compartilhamento de tela** segue o formato de duração ISO8601.
+Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. O formato exportado para hora de **áudio** , tempo de **vídeo** e **tempo de compartilhamento de tela** segue o formato de duração ISO8601.
 
 |Item|Descrição|
 |:-----|:-----|
@@ -59,5 +59,5 @@ Você também pode exportar os dados do relatório para um arquivo. csv do Excel
 |As reuniões organizadas como AdHoc <br/> |O número de reuniões não agendadas no calendário que o usuário organizou durante o período de tempo especificado. <br/>|
 |Reuniões organizadas agendadas  <br/> |O número de reuniões agendadas que um usuário organizou durante o período de tempo especificado.  <br/> |
 |É licenciado |Selecionado se o usuário está licenciado para usar o Microsoft Teams.|
-|Outra atividade|o usuário é considerado ativo, mas tem um valor zero para as mensagens de chat, 1:1 chamadas, mensagens de canal, reuniões totais e valores de métrica organizados em reuniões. Exemplos de ações são quando um usuário abre uma postagem de mensagem de canal, mas não responde ou quando uma mensagem privada é recebida e é lida, mas não respondida. |
+|Outra atividade|O usuário está ativo, mas realizou outras atividades do que os tipos de ação expostos oferecidos no relatório (enviando ou respondendo a mensagens de canal e mensagens de chat, agendando ou participando de 1:1 chamadas e reuniões). Exemplos de ações são quando um usuário altera o status do teams ou a mensagem de status do teams ou abre uma postagem de mensagem de canal, mas não responde. |
 |||

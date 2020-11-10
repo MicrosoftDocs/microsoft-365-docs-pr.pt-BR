@@ -11,24 +11,24 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como conceder aos usuários permissões para executar tarefas no centro de tópicos
-ms.openlocfilehash: b920c6e444eda7b33b8ec71e1bfa4d3ee5b220b6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 62cf8affdcb154de20b1d31950fc69b92965b036
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949721"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988789"
 ---
 # <a name="give-user-permissions-to-the-topic-center-preview"></a>Conceder permissões ao usuário para o centro de tópicos (versão prévia)
 
 > [!Note] 
 > O conteúdo deste artigo é para a visualização privada do Project Cortex. [Saiba mais sobre o Project Cortex](https://aka.ms/projectcortex) 
 
-Para trabalhar no centro de tópicos, você precisa ter as permissões necessárias. Seu administrador pode atribuir essas permissões aos usuários durante [a configuração de gerenciamento de conhecimento](set-up-knowledge-network.md)ou os novos usuários podem ser adicionados posteriormente.
+Para trabalhar no centro de tópicos, você precisa ter as permissões necessárias. Seu administrador pode atribuir essas permissões aos usuários durante [a configuração de gerenciamento de conhecimento](set-up-topic-experiences.md)ou os novos usuários podem ser adicionados posteriormente.
 
 Os usuários do centro de tópicos podem receber dois conjuntos de permissões:
 
-- **Criar e editar tópicos**: criar novos tópicos ou atualizar conteúdo do tópico, como descrição, documentos e pessoas associadas
-- **Gerenciar tópicos**: Use o painel de gerenciamento de tópicos para analisar os tópicos em toda a organização. Os usuários podem executar ações como confirmar e rejeitar tópicos não confirmados.
+- **Criar e editar tópicos** : criar novos tópicos ou atualizar conteúdo do tópico, como descrição, documentos e pessoas associadas
+- **Gerenciar tópicos** : Use o painel de gerenciamento de tópicos para analisar os tópicos em toda a organização. Os usuários podem executar ações como confirmar e rejeitar tópicos não confirmados.
 
 Um usuário pode ter os dois conjuntos de permissões ou somente um se necessário. 
 
@@ -37,19 +37,19 @@ Se um usuário não recebe permissões durante a instalação, um administrador 
 Para conceder a um usuário permissões para gerenciar tópicos:
 
 1. No centro de administração do Microsoft 365, no painel de navegação, selecione **Configurar**.
-2. Na seção **conhecimento organizacional** , em **conectar pessoas a conhecimento**, selecione **Exibir**.
+2. Na seção **conhecimento organizacional** , em **conectar pessoas a conhecimento** , selecione **Exibir**.
 3. Na página **conectar pessoas a conhecimento** , selecione **gerenciar**.
 4. Na página **rede de conhecimento** , selecione a guia **permissões de tópico** .
-5. Na guia **permissões de tópico** , em **quem pode gerenciar tópicos**, selecione **Exibir**.
+5. Na guia **permissões de tópico** , em **quem pode gerenciar tópicos** , selecione **Exibir**.
 6.  Na página **quem pode gerenciar tópicos** , adicione o usuário à caixa **somente usuários selecionados ou grupos de segurança** .
 7. Após adicionar o usuário, selecione **Adicionar**.
-3. Em **quem pode criar e editar tópicos**, selecione **Exibir**.
+3. Em **quem pode criar e editar tópicos** , selecione **Exibir**.
 4. Adicione o usuário à caixa **somente usuários selecionados ou grupos de segurança** .
 5. Clique em **Adicionar**.
 
 Para conceder a um usuário permissões para criar e editar tópicos:
 
-1. Na guia **permissões de tópico** , em **quem pode criar e editar tópicos**, selecione **Exibir**.
+1. Na guia **permissões de tópico** , em **quem pode criar e editar tópicos** , selecione **Exibir**.
 2. Adicione o usuário à caixa **somente usuários selecionados ou grupos de segurança** .
 3. Clique em **Adicionar**.
 

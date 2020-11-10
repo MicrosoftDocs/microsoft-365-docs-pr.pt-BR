@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Implantar os recursos de segurança e conformidade do Microsoft 365 e proteger suas informações pessoais.
-ms.openlocfilehash: 97c34ca236ea4be98b9412518788630732259d5a
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: f17568c5a19446644cfb7ee64aac3e0f9eae5793
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377146"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988477"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -65,7 +65,7 @@ Para ajudá-lo a começar a usar um esquema de proteção de informações no Mi
 
 ## <a name="managing-information-protection-in-microsoft-365"></a>Gerenciando a proteção de informações no Microsoft 365
 
-[As soluções de proteção de informações](../compliance/protect-information.md) da Microsoft incluem vários recursos integrados no Microsoft 365, Microsoft Azure e Microsoft Windows. No Microsoft 365, as soluções de proteção de informações incluem:
+[As soluções de proteção de informações](../compliance/information-protection.md) da Microsoft incluem vários recursos integrados no Microsoft 365, Microsoft Azure e Microsoft Windows. No Microsoft 365, as soluções de proteção de informações incluem:
 
 - [Criptografia de serviço com a chave do cliente](../compliance/customer-key-overview.md)
 - [Tipos de informações confidenciais](../compliance/what-the-sensitive-information-types-look-for.md) (descrito no [artigo avaliar riscos de privacidade de dados e identificar itens confidenciais](information-protection-deploy-assess.md))
@@ -144,7 +144,7 @@ Ao criar [Rótulos de confidencialidade](../compliance/sensitivity-labels-teams-
 Use as configurações de rótulo a seguir para ajudar a proteger o conteúdo desses contêineres:
 
 - Privacidade (pública ou privada) dos sites do Microsoft 365 Group-Connected Teams
-- Acesso de usuário externo
+- Acesso de usuários externos
 - Acesso de dispositivos não gerenciados
 
 Para privacidade de dados, para impedir o compartilhamento externo para contêineres que serão usados para armazenar conteúdo com dados pessoais confidenciais, marque os arquivos que contêm os dados como privados e exijam dispositivos gerenciados.
