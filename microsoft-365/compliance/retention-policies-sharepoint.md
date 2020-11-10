@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: 258cc8e777ca39d2528e520ff5634086bff302c7
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 84191cf7df1c8382b336ecce47c50ca24bc2aede
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804536"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951104"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -38,18 +38,22 @@ Para outras cargas de trabalho, confira:
 
 ## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
 
-Todos os arquivos armazenados em sites do Microsoft Office SharePoint Online ou Microsoft OneDrive podem ser retidos aplicando uma política de retenção ou rótulo de retenção.
+Todos os arquivos armazenados em sites do Microsoft Office SharePoint Online ou Microsoft OneDrive podem ser retidos aplicando uma política de retenção ou rótulo de retenção. 
 
 Os seguintes arquivos podem ser excluídos:
 
-- Quando você usa uma política de retenção: Todos os arquivos em bibliotecas de documentos, que incluem quaisquer bibliotecas de documentos do Microsoft Office SharePoint Online criadas automaticamente, como **Ativos de Sites** .
+- Quando você usa uma política de retenção: Todos os arquivos em bibliotecas de documentos, que incluem quaisquer bibliotecas de documentos do Microsoft Office SharePoint Online criadas automaticamente, como **Ativos de Sites**.
     
 - Quando você usa rótulos de retenção: Todos os arquivos em todas as bibliotecas de documentos e todos os arquivos no nível raiz que não estão em uma pasta.
     
-    Ao usar uma [consulta KQL com uma política de aplicação automática para um rótulo de retenção](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties), você pode excluir bibliotecas de documentos usando a seguinte entrada: `NOT(DocumentLink:"<URL to document library>")`
+> [!TIP]
+> Ao usar uma [consulta com uma política de aplicação automática para um rótulo de retenção](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties), você pode excluir bibliotecas de documentos usando a seguinte entrada: `NOT(DocumentLink:"<URL to document library>")`
 
+As configurações de retenção não se aplicam às estruturas de organização que incluem bibliotecas, listas e pastas. Nem para itens nas listas do sistema, que são listas ocultas usadas pelo SharePoint para gerenciar o sistema e incluem o catálogo de página mestra, o catálogo de soluções e as fontes de dados.
 
-## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive
+Para políticas de retenção e políticas de aplicação automática: Sites do SharePoint devem ser indexados para que as configurações de retenção sejam aplicadas. No entanto, se os itens nas bibliotecas de documentos do Microsoft Office SharePoint Online forem configurados para não aparecer nos resultados da pesquisa, essa configuração não excluirá os itens das configurações de retenção.
+
+## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>Como funciona a retenção para o SharePoint e o OneDrive
 
 Para oferecer suporte à retenção, o Microsoft Office SharePoint Online e o Microsoft OneDrive criam uma Biblioteca de Retenção para Preservação, se não houver uma. Você pode ver essa biblioteca na página **Conteúdo do site** no site de nível superior do conjunto de sites. A maioria dos usuários não poderá ver a biblioteca de Retenção para Preservação porque ela só fica visível para os administradores do conjunto de sites.
   
