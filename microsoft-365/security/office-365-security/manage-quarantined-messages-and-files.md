@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários na proteção do Exchange Online (EOP). Os administradores nas organizações com o Microsoft defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
-ms.openlocfilehash: b6f6f47dc227d3bada425d02784a8aff5da8b3d3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9d58f8c08d994e5e9736c8223239b54e52c4edab
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842923"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951042"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -127,14 +127,6 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
    Depois de ter inserido os critérios da pesquisa, clique em ![Atualizar botão](../../media/scc-quarantine-refresh.png) **Atualizar** para filtrar os resultados.
 
 Depois de encontrar uma mensagem específica em quarentena, selecione a mensagem para exibir detalhes sobre ela e execute uma ação (por exemplo: exibir, liberar, fazer download ou excluir a mensagem).
-
-#### <a name="export-message-results"></a>Exporte os resultados da mensagem 
-
-1. Selecione as mensagens que você está interessado e clique em **Exportar resultados**.
-
-2. Clique em **Sim** na mensagem de confirmação que avisa para manter a janela do navegador aberta.
-
-3. Quando a exportação estiver pronta, você poderá nomear e escolher o local de download do arquivo .csv.
 
 #### <a name="view-quarantined-message-details"></a>Exiba detalhes da mensagem em quarentena
 
@@ -255,14 +247,6 @@ Em organizações com o defender para Office 365, os administradores podem geren
    - **Tipo de política**
 
 Depois de encontrar um arquivo em quarentena específico, selecione o arquivo para exibir os detalhes sobre ele e execute a ação nele (por exemplo, exibir, liberar, baixar ou excluir a mensagem).
-
-#### <a name="export-file-results"></a>Exportar resultados de arquivo
-
-1. Selecione os arquivos nos quais você está interessado e clique em **Exportar resultados**.
-
-2. Clique em **Sim** na mensagem de confirmação que avisa para manter a janela do navegador aberta.
-
-3. Quando a exportação estiver pronta, você poderá nomear e escolher o local de download do arquivo .csv.
 
 #### <a name="view-quarantined-file-details"></a>Exibir detalhes de arquivo em quarentena
 
