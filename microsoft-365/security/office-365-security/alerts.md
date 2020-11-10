@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba mais sobre como usar os recursos de alerta no centro de conformidade & segurança do Office 365 para exibir e gerenciar alertas, incluindo o gerenciamento de alertas avançados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8867732611af275b45b14dc0894e24ed4c89d062
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: a29da0a76ff1b681c87182ff55b787327a969607
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447042"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984883"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>Alertas no centro de conformidade & segurança
 
@@ -40,7 +40,7 @@ Os alertas estão no centro de conformidade & segurança. Confira aqui como aces
 
 ### <a name="to-go-directly-to-the-security--compliance-center"></a>Para ir diretamente para o centro de conformidade & segurança
 
-1. Acesse [https://protection.office.com](https://protection.office.com).
+1. Vá para <https://protection.office.com>.
 
 2. Entre usando sua conta de trabalho ou da escola.
 
@@ -52,7 +52,7 @@ Os alertas estão no centro de conformidade & segurança. Confira aqui como aces
 
 2. Clique no inicializador de aplicativos no canto superior esquerdo e, em seguida, clique em **segurança & conformidade**.
 
-    Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico.
+   Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico.
 
 3. No painel esquerdo, clique em **alertas** para ver os recursos de alerta.
 
@@ -64,6 +64,6 @@ A tabela a seguir descreve as ferramentas que estão disponíveis em **alertas**
 
 |Ferramenta|Descrição|
 |---|---|
-|[Gerenciar alertas](../../compliance/create-activity-alerts.md)|Use os alertas de atividade para enviar notificações por email para si mesmo ou para outros administradores quando os usuários executarem atividades específicas no Office 365. Os alertas de atividade são semelhantes à pesquisa de eventos no log de auditoria, exceto pelo fato de que você enviará uma mensagem de email quando um evento que você criou um alerta para ocorrer.|
-|[Gerenciar alertas avançados ](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Use o recurso **Gerenciar alertas avançados** do Office 365 Cloud app Security para configurar políticas que podem alertá-lo sobre atividades suspeitas e anormais no Office 365. Depois de alertar, você pode investigar situações que são potencialmente problemáticas e, se necessário, tomar medidas para resolver problemas de segurança.|
+|[Gerenciar alertas](../../compliance/create-activity-alerts.md)|Use os alertas de atividade para enviar notificações por email para si mesmo ou para outros administradores quando os usuários executarem atividades específicas no Microsoft 365. Os alertas de atividade são semelhantes à pesquisa de eventos no log de auditoria, exceto pelo fato de que você enviará uma mensagem de email quando um evento que você criou um alerta para ocorrer.|
+|[Gerenciar alertas avançados](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Use o recurso **Gerenciar alertas avançados** do Microsoft 365 Cloud app Security para configurar políticas que podem alertá-lo sobre atividades suspeitas e anormais no Microsoft 365. Depois de alertar, você pode investigar situações que são potencialmente problemáticas e, se necessário, tomar medidas para resolver problemas de segurança.|
 |
