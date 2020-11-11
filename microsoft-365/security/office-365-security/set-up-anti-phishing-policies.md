@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft defender para Office 365.
-ms.openlocfilehash: c1254ccdc678bd25c2d3481b0a43cca5ff9816c0
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: b54f452fb984f61913f2ade53ad45ed169a43832
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919771"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993349"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -97,7 +97,7 @@ As seguintes configurações de spoof estão disponíveis em políticas anti-phi
   > [!NOTE]
   >
   > - A proteção contra falsificação é habilitada por padrão na política anti-phishing padrão e em qualquer nova política anti-phishing personalizada que você criar.
-  > 
+  >
   > - Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Microsoft 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
   Para mensagens de remetentes falsificados bloqueados, você também pode especificar a ação a ser tomada nas mensagens:
@@ -158,7 +158,10 @@ As configurações de representação a seguir estão disponíveis apenas em pol
   Você pode usar usuários protegidos para adicionar endereços de email de remetente internos e externos para proteção contra representação. Esta lista de **remetentes** que são protegidos da representação do usuário é diferente da lista de **destinatários** aos quais a política se aplica (todos os destinatários da política padrão; destinatários específicos conforme configurados na configuração **aplica-se a à** , na seção [configurações de política](#policy-settings) ).
 
   > [!NOTE]
-  > O número máximo de usuários protegidos (endereços de email do remetente) que você pode definir em todas as políticas anti-phishing é 60. Em outras palavras, você pode ter 60 usuários protegidos em uma política, 12 usuários protegidos em 5 políticas, etc.
+  >
+  > - Em cada política anti-phishing, você pode especificar um máximo de 60 usuários protegidos (endereços de email do remetente). Você não pode especificar o mesmo usuário protegido em várias políticas.
+  >
+  > - A proteção de representação do usuário não funciona se o remetente e o destinatário tiverem sido comunicados anteriormente por email. Se o remetente e o destinatário nunca tiverem sido comunicados por email, a mensagem será identificada como uma tentativa de representação.
 
   Por padrão, nenhum endereço de email do remetente é configurado para proteção de representação nos **usuários para** proteção. Portanto, por padrão, nenhum endereço de email do remetente é coberto pela proteção de representação, seja na política padrão ou em políticas personalizadas.
 
@@ -167,7 +170,7 @@ As configurações de representação a seguir estão disponíveis apenas em pol
 - **Domínios a serem protegidos** : impede que os domínios especificados sejam representados **no domínio do remetente da mensagem**. Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios de parceiros). Esta lista de **domínios de remetentes** que são protegidos contra representação é diferente da lista de **destinatários** aos quais a política se aplica (todos os destinatários da política padrão; destinatários específicos conforme configurados na configuração **aplica-se a à** , na seção [configurações de política](#policy-settings) ).
 
   > [!NOTE]
-  > O número máximo de domínios protegidos que você pode definir em todas as políticas anti-phishing é de 50. Em outras palavras, você pode ter 50 domínios protegidos em uma política, 10 domínios protegidos em 5 políticas, etc.
+  > O número máximo de domínios protegidos que você pode definir em todas as políticas anti-phishing é de 50.
 
   Por padrão, nenhum domínio de remetente é configurado para proteção de representação em **domínios para proteção**. Portanto, por padrão, nenhum domínio remetente é coberto pela proteção de representação, seja na política padrão ou em políticas personalizadas.
 

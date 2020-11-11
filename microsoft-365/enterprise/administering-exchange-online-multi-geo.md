@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: Saiba como administrar as configurações multigeográficas do Exchange Online no seu ambiente do Microsoft 365 com o PowerShell.
-ms.openlocfilehash: ea7090cd65634138f9677960beab7770825a6e86
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: c9219d29a1fdae68075d296404a6c2aeab30f1aa
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950671"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993371"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Administrar caixas de correio do Exchange Online em um ambiente multigeográfico
 
@@ -93,11 +93,11 @@ Get-OrganizationConfig | Select DefaultMailboxRegion
 
 O cmdlet **Get-Mailbox** no Exchange Online PowerShell exibe as seguintes propriedades relacionadas às áreas multigeográficas nas caixas de correio:
 
-- **Banco de dados**: As 3 primeiras letras do nome do banco de dados correspondem ao código geográfico, o que determina onde a caixa de correio está localizada no momento. Para Caixas de Correio com Arquivo Online a propriedade **ArchiveDatabase** deve ser usada.
+- **Banco de dados** : As 3 primeiras letras do nome do banco de dados correspondem ao código geográfico, o que determina onde a caixa de correio está localizada no momento. Para Caixas de Correio com Arquivo Online a propriedade **ArchiveDatabase** deve ser usada.
 
-- **MailboxRegion**: Especifica o código da localização geográfica que foi definida pelo administrador (sincronizado do **PreferredDataLocation** no Azure AD).
+- **MailboxRegion** : Especifica o código da localização geográfica que foi definida pelo administrador (sincronizado do **PreferredDataLocation** no Azure AD).
 
-- **MailboxRegionLastUpdateTime**: Indica quando o MailboxRegion foi atualizado (automaticamente ou manualmente).
+- **MailboxRegionLastUpdateTime** : Indica quando o MailboxRegion foi atualizado (automaticamente ou manualmente).
 
 Para ver as propriedades de uma caixa de correio, use a seguinte sintaxe:
 
@@ -160,21 +160,39 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 >   - O número de caixas de correio sendo movidas.
 >   - Disponibilidade de recursos de movimentação.
 
-### <a name="move-disabled-mailboxes-that-are-on-litigation-hold"></a>Mover caixas de correio desabilitadas que estão em Retenção de Litígio
+### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Mover uma caixa de correio inativa para uma geografia específica
 
-Caixas de correio desabilitadas em Retenção de Litígio são preservadas para fins de descoberta eletrônica não podem ser movidas alterando seu valor **PreferredDataLocation** no estado desabilitado. Para mover uma caixa de correio desabilitada em retenção de litígio:
+Você não pode mover caixas de correio inativas que são preservadas para fins de conformidade (por exemplo, caixas de correio em retenção de litígio) alterando o valor de **PreferredDataLocation** . Para mover uma caixa de correio inativa para uma geografia diferente, siga estas etapas:
 
-1. Atribua temporariamente uma licença à caixa de correio.
+1. Recupere a caixa de correio inativa. Para obter instruções, consulte [recuperar uma caixa de correio inativa](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox).
 
-2. Altere o **PreferredDataLocation**.
+2. Impedir que o assistente de pasta gerenciada processe a caixa de correio recuperada substituindo \<MailboxIdentity\> com o nome, alias, conta ou endereço de email da caixa de correio e executando o seguinte comando no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell):
 
-3. Remova a licença da caixa de correio depois de ser movida para a localização geográfica selecionada para colocá-la novamente no estado desabilitado.
+    ```powershell
+    Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
+    ```
+
+3. Atribua uma licença do **Exchange Online plano 2** à caixa de correio recuperada. Esta etapa é necessária para colocar a caixa de correio novamente em retenção de litígio. Para obter instruções, consulte [assign licenses to Users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+
+4. Configure o valor **PreferredDataLocation** na caixa de correio conforme descrito na seção anterior.
+
+5. Após confirmar que a caixa de correio foi movida para a nova localização geográfica, coloque a caixa de correio recuperada novamente em retenção de litígio. Para obter instruções, consulte [colocar uma caixa de correio em retenção de litígio](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold).
+
+6. Depois de verificar se a retenção de litígio está no local, permita que o assistente de pasta gerenciada processe a caixa de correio novamente substituindo o \<MailboxIdentity\> nome, alias, conta ou endereço de email da caixa de correio e executando o seguinte comando no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell):
+
+    ```powershell
+    Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
+    ```
+
+7. Torne a caixa de correio inativa novamente removendo a conta de usuário que está associada à caixa de correio. Para obter instruções, consulte [excluir um usuário da sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user). Esta etapa também libera a licença do Exchange Online Plan 2 para outros usos.
+
+**Observação** : ao mover uma caixa de correio inativa para um local geográfico diferente, você pode afetar os resultados da pesquisa de conteúdo ou a capacidade de Pesquisar a caixa de correio a partir do local geográfico anterior. Para obter mais informações, consulte [pesquisa e exportação de conteúdo em ambientes multigeográfico](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments).
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Criar novas caixas de correio em nuvem em uma localização geográfica específica
 
 Para criar uma nova caixa de correio em uma localização geográfica específica, é preciso seguir uma destas etapas:
 
-- Configurar o valor **PreferredDataLocation** conforme descrito na seção anterior *antes* da caixa de correio ser criada no Exchange Online. Por exemplo, configure valor **PreferredDataLocation** em um usuário antes de atribuir uma licença.
+- Configure o valor **PreferredDataLocation** conforme descrito na seção anterior [mover uma caixa de correio de nuvem existente para uma localização geográfica específica](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) *antes* de criar a caixa de correio no Exchange Online. Por exemplo, configure o valor **PreferredDataLocation** em um usuário antes de atribuir uma licença.
 
 - Atribuir uma licença e definir o valor **PreferredDataLocation** ao mesmo tempo.
 
@@ -190,7 +208,7 @@ Este exemplo cria uma nova conta de usuário para Elizabeth Brunner com os segui
 - Nome: Elizabeth
 - Sobrenome: Brunner
 - Nome para exibição: Elizabeth Brunner
-- Senha: gerada aleatoriamente e mostrada nos resultados do comando (porque não estamos usando o parâmetro *Senha*)
+- Senha: gerada aleatoriamente e mostrada nos resultados do comando (porque não estamos usando o parâmetro *Senha* )
 - Licença: `contoso:ENTERPRISEPREMIUM` (E5)
 - Local: Austrália (AUS)
 
@@ -201,7 +219,7 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 Para obter mais informações de como criar novas contas de usuário e encontrar os valores LicenseAssignment no Azure AD PowerShell, consulte [Criar contas de usuário com o PowerShell](create-user-accounts-with-microsoft-365-powershell.md) e [Exibir licenças e serviços com o PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md).
 
 > [!NOTE]
-> Se você estiver usando o PowerShell do Exchange Online para habilitar uma caixa de correio e precisar que a caixa de correio seja criada diretamente na localização geográfica especificada em **PreferredDataLocation**, será necessário usar um cmdlet do Exchange Online como **Enable-Mailbox** ou **New-Mailbox** diretamente no serviço de nuvem. Se você usar o cmdlet **Enable-RemoteMailbox** no Exchange PowerShell local, a caixa de correio será criada na localização geográfica central.
+> Se você estiver usando o PowerShell do Exchange Online para habilitar uma caixa de correio e precisar que a caixa de correio seja criada diretamente na localização geográfica especificada em **PreferredDataLocation** , será necessário usar um cmdlet do Exchange Online como **Enable-Mailbox** ou **New-Mailbox** diretamente no serviço de nuvem. Se você usar o cmdlet **Enable-RemoteMailbox** no Exchange PowerShell local, a caixa de correio será criada na localização geográfica central.
 
 ## <a name="onboard-existing-on-premises-mailboxes-in-a-specific-geo-location"></a>Integração de caixas de correio locais existentes em uma localização geográfica específica
 

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis nas organizações com o Microsoft defender para Office 365.
-ms.openlocfilehash: ecc68a8dc050a5f08c6982b023861e0ea8976775
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 7665d0dc475909d04da209aa6c1cd6b12378f8a9
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920651"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993383"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft defender para Office 365
 
@@ -54,7 +54,7 @@ Todas as organizações do Microsoft defender para Office 365 têm uma política
 
 Para aumentar a eficácia da proteção contra phishing no Microsoft defender para Office 365, você pode criar políticas anti-phishing personalizadas com configurações mais rigorosas que são aplicadas a usuários ou grupos de usuários específicos.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **anti-phishing do ATP** , use <https://protection.office.com/antiphishing> .
 
@@ -170,7 +170,10 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
      Para editar uma entrada existente, selecione o usuário protegido na lista.
 
      > [!NOTE]
-     > Você pode ter no máximo 60 usuários em todas as políticas anti-phishing. Em outras palavras, você pode ter 60 usuários protegidos em uma política, 12 usuários protegidos em 5 políticas, etc.
+     >
+     > - Em cada política anti-phishing, você pode especificar um máximo de 60 usuários protegidos (endereços de email do remetente). Você não pode especificar o mesmo usuário protegido em várias políticas.
+     >
+     > - A proteção de representação do usuário não funciona se o remetente e o destinatário tiverem sido comunicados anteriormente por email. Se o remetente e o destinatário nunca tiverem sido comunicados por email, a mensagem será identificada como uma tentativa de representação.
 
    - **Adicionar domínios para proteger** : Configure uma ou ambas as configurações a seguir:
 
@@ -178,7 +181,7 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
      - **Incluir domínios personalizados** : o valor padrão é **desativado**. Para ativá-la, deslize o **botão para ativar e,** na caixa **adicionar domínios** , digite o nome do domínio (por exemplo, contoso.com), pressione Enter e repita conforme necessário.
 
      > [!NOTE]
-     > Você pode ter no máximo 50 domínios em todas as políticas anti-phishing. Em outras palavras, você pode ter 50 usuários protegidos em uma política, 10 usuários protegidos em 5 políticas, etc.
+     > Você pode ter no máximo 50 domínios em todas as políticas anti-phishing.
 
    - **Ações** : clique em **Editar**
 
