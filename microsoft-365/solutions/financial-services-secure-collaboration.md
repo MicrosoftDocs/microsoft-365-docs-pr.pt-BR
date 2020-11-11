@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Aprenda como as instituições de serviços financeiros podem manter a conformidade de segurança financeira e colaborar com eficácia usando o Microsoft 365 e o Microsoft Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: 7192b29d09acb23df368e2458fac62c18bbbadb2
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 2e0148a89a811fb910237469c42e136d0c744087
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988709"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993395"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
@@ -45,7 +45,16 @@ No setor de serviços financeiros, é necessária uma consideração cuidadosa p
 * Estabelecer muros éticos com barreiras de informação
 * Proteger-se contra exfiltração de dados e riscos internos
 
-Como parceiro da Microsoft, a Protiviti contribuiu e forneceu feedback material para este artigo.
+Como parceiro da Microsoft, a Protiviti contribuiu e forneceu comentário material para este artigo.
+
+As seguintes ilustrações baixáveis complementam este artigo. O Woodgrove Bank e a Contoso são usados para demonstrar como os recursos descritos neste artigo podem ser aplicados para atender aos requisitos normativos comuns dos serviços financeiros. Sinta-se à vontade para adaptar essas ilustrações para seu próprio uso. 
+
+**Ilustrações da Proteção de Informações e Conformidade do Microsoft 365**
+
+| Item | Descrição |
+|:-----|:-----|
+|[![Pôster do modelo: recursos de conformidade e proteção de informações do Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Baixar como um PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [baixar como um Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Atualizado: outubro de 2020|Contém: <ul><li>  Proteção de informações e prevenção contra perda de dados da Microsoft</li><li>Políticas de retenção e rótulos de retenção </li><li>Barreiras de informações</li><li>Conformidade em comunicações</li><li>Gerenciamento de riscos internos.</li><li>Inclusão de dados de terceiros</li>|
+
 
 ## <a name="empower-organizational-and-employee-productivity-by-using-microsoft-365-and-teams"></a>Fortaleça a produtividade dos funcionários e da organização usando o Microsoft 365 e o Teams
 

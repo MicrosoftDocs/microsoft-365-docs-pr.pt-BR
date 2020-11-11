@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a560193bf7ee2911b90332f84eef2d60027cbbf9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1cb707c47594b59bcb762aac5c25eaa03b33dbf1
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198354"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988571"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -46,7 +46,7 @@ Aqui, você verá cartões para as seguintes soluções:
 
 - [Prevenção contra perda de dados](data-loss-prevention-policies.md): detecta conteúdo confidencial conforme é usado e compartilhado em toda a sua organização, na nuvem e nos dispositivos e ajuda a evitar a perda acidental de dados.
 - [Governança de informações](manage-information-governance.md): gerencia seu ciclo de vida do conteúdo usando soluções para importar, armazenar e classificar dados críticos para os negócios, para que você possa manter o que precisa e excluir o que não faz.
-- [Proteção de informações](protect-information.md): descobre, classifica e protege conteúdo confidencial e crítico de negócios em todo o ciclo de vida em toda a organização.
+- [Proteção de informações](information-protection.md): descobre, classifica e protege conteúdo confidencial e crítico de negócios em todo o ciclo de vida em toda a organização.
 - [Gerenciamento de registros](records-management.md): usa a classificação inteligente para automatizar e simplificar o agendamento de retenção para registros regulatórios, legais e críticos de negócios em sua organização.
 
 ## <a name="insider-risk-management-section"></a>Seção Gerenciamento de riscos do insider
@@ -93,14 +93,14 @@ Se você estiver procurando por uma solução de conformidade existente e ela ai
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- **Visite o Microsoft Compliance Manager**, que ajuda a entender o estado de conformidade da sua organização com normas e padrões importantes. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Gerenciador de conformidade](compliance-manager.md).
+- **Visite o Microsoft Compliance Manager** , que ajuda a entender o estado de conformidade da sua organização com normas e padrões importantes. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Gerenciador de conformidade](compliance-manager.md).
 
 - **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do insider](insider-risk-management.md).
 
 - **Saiba mais e crie políticas de conformidade de comunicação** para identificar e corrigir rapidamente as violações de política de código de conduta corporativo. Consulte [conformidade de comunicação](communication-compliance.md).
 
-- **Microsoft Information Protection**, saiba como a Microsoft 365 Solutions ajuda você a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
+- **Microsoft Information Protection** , saiba como a Microsoft 365 Solutions ajuda você a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
     - **Familiarize-se com e configure o Microsoft Cloud app Security**. Veja [início rápido: introdução ao Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).
     - **Introdução aos classificadores**. Classificar conteúdo e, em seguida, rotulá-lo para que possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. Confira [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md).
 
-- **Visite seu catálogo de soluções do Microsoft 365 com frequência**e Leia novas soluções para ajudá-lo com suas necessidades de conformidade. Entre em [https://compliance.microsoft.com](https://compliance.microsoft.com) e selecione **Catálogo** no painel de navegação esquerdo.
+- **Visite seu catálogo de soluções do Microsoft 365 com frequência** e Leia novas soluções para ajudá-lo com suas necessidades de conformidade. Entre em [https://compliance.microsoft.com](https://compliance.microsoft.com) e selecione **Catálogo** no painel de navegação esquerdo.
