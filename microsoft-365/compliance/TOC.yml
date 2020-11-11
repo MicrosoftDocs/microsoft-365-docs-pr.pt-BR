@@ -487,9 +487,11 @@
               href: de-duplication-in-ediscovery-search-results.md
             - name: Diferenças entre os resultados estimados e reais da pesquisa
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
-        - name: Executar scripts do PowerShell da pesquisa de conteúdo
+            - name: Descriptografia em ferramentas de Descoberta Eletrônica
+              href: ediscovery-decryption.md
+        - name: Scripts do PowerShell de pesquisa de conteúdo
           items:
-            - name: Usar a pesquisa de conteúdo para determinadas coleções
+            - name: Utilize a pesquisa de conteúdo para determinadas coleções
               href: use-content-search-for-targeted-collections.md
             - name: Pesquisar na caixa de correio e na conta do OneDrive uma lista de usuários
               href: search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md
