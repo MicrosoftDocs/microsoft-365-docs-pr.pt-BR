@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Saiba mais sobre o Office 365 Alemanha.
-ms.openlocfilehash: b0b370399cc7687f3c564903d01bd07f447dc16a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8b999ecbd2e429ad8a60fa60de1ad3a06664f085
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843325"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995852"
 ---
 # <a name="learn-about-office-365-germany"></a>Saiba mais sobre o Office 365 Germany
 
@@ -43,7 +43,7 @@ Os clientes precisam ter deslocado e o isolamento do Office 365 Alemanha imposto
 
 As ofertas do plano do Office 365 Alemanha são alinhadas com as ofertas globais o máximo possível nesse ambiente isolado. As exclusões incluem planos relacionados ao Yammer, planos que estão se aproximando do fim da vida e planos disponíveis por meio de programas sem fins lucrativos. O Office 365 e5, o SPE e outros serviços estarão disponíveis após a disponibilidade geral do Office 365 Alemanha. 
   
-Os seguintes serviços e recursos estão disponíveis em alguns [planos de assinatura do Office 365 Germany](https://go.microsoft.com/fwlink/p/?linkid=839016). Além disso, confira o [Termos de Serviços Online](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
+Os seguintes serviços e recursos estão disponíveis em alguns [planos de assinatura do Office 365 Germany](https://go.microsoft.com/fwlink/p/?linkid=839016). Além disso, confira o [Termos de Serviços Online](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
   
 - Microsoft 365 aplicativos para Enterprise, Office 2016 e Office 2013<sup>1</sup>. Observe que o Office 2013 requer o [uso da autenticação moderna do office 365 com clientes do Office](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
     
@@ -73,7 +73,7 @@ Os seguintes serviços e recursos estão disponíveis em alguns [planos de assin
     
 - Advanced eDiscovery
     
-- Microsoft defender para Office 365
+- Microsoft Defender para Office 365
     
 - Office 365 Threat Intelligence
     
@@ -85,7 +85,7 @@ Os seguintes serviços e recursos estão disponíveis em alguns [planos de assin
     
 - Delve
     
-<sup>1</sup> Os planos do Office 365 Alemanha incluem aplicativos de software cliente que são instalados e executados no dispositivo do usuário final ("aplicativos de software cliente"), como os aplicativos do Microsoft 365 para empresas, Office 2013 e Office 2016. Aplicativos de software cliente não operam exclusivamente em datacenters da Alemanha e permitem que um usuário final acesse serviços online que não são [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Para fins do seu contrato com a Microsoft, aplicativos de software cliente não são [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Compromissos alemães de residência de dados e controle de acesso pela entidade de confiança de dados alemã somente se aplicam aos [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
+<sup>1</sup> Os planos do Office 365 Alemanha incluem aplicativos de software cliente que são instalados e executados no dispositivo do usuário final ("aplicativos de software cliente"), como os aplicativos do Microsoft 365 para empresas, Office 2013 e Office 2016. Aplicativos de software cliente não operam exclusivamente em datacenters da Alemanha e permitem que um usuário final acesse serviços online que não são [Serviços Online alemães](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Para fins do seu contrato com a Microsoft, aplicativos de software cliente não são [Serviços Online alemães](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Compromissos alemães de residência de dados e controle de acesso pela entidade de confiança de dados alemã somente se aplicam aos [Serviços Online alemães](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
   
 ## <a name="general-information"></a>Informações gerais
 
