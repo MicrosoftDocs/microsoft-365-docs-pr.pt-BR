@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: dee0f3e586c49c25daafe999d065e743babf020e
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 9c3416f415c43377669b2c032e10696343c4416f
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779115"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988453"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -48,13 +48,13 @@ Assista a este vídeo para obter uma visão geral: sobre como você pode usar os
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso** .
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso** .
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **Relatórios** \> **Uso**.
 
 ::: moniker-end
 
@@ -96,10 +96,14 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
   
 - [Uso de aplicativos de email](email-apps-usage.md)
 
-- [Atividade do Forms](forms-activity.md)
+- [Atividade do Forms](forms-activity-ww.md)
 
-- [Atividade do Forms Pro](forms-pro-activity.md)
+- [Atividade do Forms para o Governo dos EUA](forms-activity.md)
+
+- [Atividade do Dynamics 365 Customer Voice](forms-pro-activity-ww.md)
   
+- [Atividade do Dynamics 365 Customer Voice para o Governo dos EUA](forms-pro-activity.md)
+
 - [Grupos do Microsoft 365](office-365-groups.md)
   
 - [Atividade de usuários do OneDrive for Business](onedrive-for-business-activity-ww.md)
@@ -206,7 +210,7 @@ Se quiser ocultar informações de nível do usuário ao gerar seus relatórios,
   
 1. No centro de administração, vá para a página **Configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Serviços&amp; suplementos</a>.
 
-2. Selecione **Relatórios** . 
+2. Selecione **Relatórios**. 
   
 3. No painel **relatórios** , selecione as opções desejadas e, em seguida, salve suas alterações.
   
