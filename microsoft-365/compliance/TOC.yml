@@ -82,7 +82,7 @@
 - name: Gerenciar a proteção de informações
   items:
     - name: 'Conheça seus dados, proteja seus dados, evite a perda de dados'
-      href: protect-information.md
+      href: information-protection.md
     - name: Tipos de informações confidenciais
       items:
         - name: 'Definições da entidade de tipo de informações confidenciais '
