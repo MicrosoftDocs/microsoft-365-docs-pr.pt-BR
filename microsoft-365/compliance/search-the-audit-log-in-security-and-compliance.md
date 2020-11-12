@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2254fb9fd47b1554064194b815ff4d19b2d33472
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: ded01bc262cd1bb2fbabcd237278447e486d109a
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941448"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999505"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -140,9 +140,9 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 ## <a name="search-the-audit-log"></a>Pesquisar o log de auditoria
 
 > [!NOTE]
-> No momento, estamos investigando um problema em que as atividades do Azure Active Directory não estão disponíveis na ferramenta de pesquisa de log de auditoria. Este problema começou por volta de 26 de outubro de 2020. Essas atividades incluem atividades de administração de usuário do Azure Active Directory, atividades de administração de grupo, atividades de administração de aplicativo, atividades de administração de função e atividades de administração de diretório. Forneceremos uma atualização quando o problema for resolvido.
+> Houve um problema com as atividades do Azure Active Directory indisponíveis na ferramenta de pesquisa de log de auditoria de 22 de outubro de 2020 a 6 de novembro de 2020. Essas atividades incluem atividades de administração de usuário do Azure Active Directory, atividades de administração de grupo, atividades de administração de aplicativo, atividades de administração de função e atividades de administração de diretório. Os eventos ausentes para o período de impacto estarão disponíveis nos próximos dias e deve levar até 20 de novembro de 2020 para serem concluídos. Em alguns casos, os clientes podem notar a duplicata dos dados de eventos para eventos gerados entre 26 de outubro de 2020 e 05 de novembro de 2020.
     
-A seguir, veja o processo para pesquisar o log de auditoria do Office 365. 
+Este é o processo para pesquisar o log de auditoria no Microsoft Office 365.
 
 [Etapa 1: Executar uma pesquisa de log de auditoria](#step-1-run-an-audit-log-search)
 

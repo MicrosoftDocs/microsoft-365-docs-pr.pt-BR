@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: 503235ad2ee35760a03cb2427d1e84f5f3639b9f
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 7bf9a7151f8df45716ab032dd3c62a33f4f5adc8
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379219"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999391"
 ---
 # <a name="know-your-data---data-classification-overview"></a>Conheça seus dados - visão geral da classificação de dados
 
@@ -39,7 +39,7 @@ Você também gerencia esses recursos na página de classificação de dados:
 - [classificadores treináveis](classifier-learn-about.md)
 - [tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
 
-Você pode encontrar a classificação de dados no **Centro de conformidade do Microsoft 365** ou no **Centro de segurança do Microsoft 365** > **Classificação**  >  ** Classificação de Dados**.
+Você pode encontrar a classificação de dados no **Centro de conformidade do Microsoft 365** ou no **Centro de segurança do Microsoft 365** > **Classificação**  >  **Classificação de Dados**.
 
 Faça um tour em vídeo de nossos recursos de classificação de dados.
 
@@ -49,12 +49,7 @@ A classificação de dados verificará seu conteúdo confidencial e conteúdo ro
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Toda conta que acessa e usa a classificação de dados deve ter uma licença atribuída a partir de uma destas assinaturas:
-
-- Microsoft 365 (E5/A5)
-- Office 365 (E5)
-- Complemento de Conformidade Avançada (E5)
-- Complemento Avançado de Inteligência contra Ameaças (E5)
+Várias assinaturas diferentes oferecem suporte ao Ponto de extremidade da DLP. Para ver as opções de licenciamento para o Ponto de extremidade da DLP, confira [Licenciamento de Proteção de Informações para orientação](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection). 
 
 ### <a name="permissions"></a>Permissões
 
