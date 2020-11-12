@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0310226bba62995a6e72178fcf1fd2e96f462944
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 9a0878e513b48b7c6d5ca95cc9399918e1998af0
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304811"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995894"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -31,10 +31,10 @@ O Regulamento Geral sobre a Proteção de Dados (RGPD) introduz novas regras par
 
 Definições úteis para os termos do RGPD usados neste documento:
 
-- **Controlador de Dados (Controlador**): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
-- **Dados pessoais e entidade de dados**: qualquer informação relacionada a uma pessoa natural identificada ou identificável (entidade de dados); uma pessoa natural identificável é uma que pode ser identificada, direta ou indiretamente.  
+- **Controlador de Dados (Controlador** ): uma pessoa jurídica, uma autoridade pública, uma agência ou outro corpo que, isoladamente ou em conjunto com outras pessoas, determina a finalidade e o meio de processamento de dados pessoais.  
+- **Dados pessoais e entidade de dados** : qualquer informação relacionada a uma pessoa natural identificada ou identificável (entidade de dados); uma pessoa natural identificável é uma que pode ser identificada, direta ou indiretamente.  
 - **Processador:** uma pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que processa dados pessoais em nome do controlador.  
-- **Dados do cliente**: dados produzidos e armazenados nas operações do dia a dia para o funcionamento do seu negócio.
+- **Dados do cliente** : dados produzidos e armazenados nas operações do dia a dia para o funcionamento do seu negócio.
 
 ## <a name="what-is-the-gdpr"></a>O que é o RGPD?
 
@@ -210,7 +210,7 @@ Os Termos de RGPD da Microsoft refletem os compromissos obrigatórios dos proces
 
 **Em que base a Microsoft facilita a transferência de dados pessoais fora da UE?**
 
-A Microsoft tem usado por extenso as Cláusulas Contratuais Padrão (também conhecidas como as Cláusulas Modelo) como base para a transferência de dados dos serviços online corporativos. As Cláusulas Contratuais Padrão são termos padrão fornecidos pela Comissão Europeia, que podem ser usados para transferir dados de fora da área europeia de maneira compatível. A Microsoft incorporou as Cláusulas Contratuais Padrão em todos os acordos de licenciamento por volume pelos [Termos de Serviços Online](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). O Grupo de Trabalho do Artigo 29 concluiu que a implementação das Cláusulas Contratuais Padrão da Microsoft é compatível. E quando o Escudo de Privacidade UE-EUA ficou disponível, a Microsoft foi a primeira empresa a certificar. Confira a[Certificação de Escudo de Privacidade da Microsoft](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)e leia os [Termos de Serviços Online](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). O Escudo de Privacidade da UE ajuda os clientes que desejam transferir seus dados para os Estados Unidos, de uma maneira coerente com as obrigações de proteção de dados.
+A Microsoft tem usado por extenso as Cláusulas Contratuais Padrão (também conhecidas como as Cláusulas Modelo) como base para a transferência de dados dos serviços online corporativos. As Cláusulas Contratuais Padrão são termos padrão fornecidos pela Comissão Europeia, que podem ser usados para transferir dados de fora da área europeia de maneira compatível. A Microsoft incorporou as Cláusulas Contratuais Padrão em todos os acordos de licenciamento por volume pelos [Termos de Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). O Grupo de Trabalho do Artigo 29 concluiu que a implementação das Cláusulas Contratuais Padrão da Microsoft é compatível. E quando o Escudo de Privacidade UE-EUA ficou disponível, a Microsoft foi a primeira empresa a certificar. Confira a[Certificação de Escudo de Privacidade da Microsoft](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)e leia os [Termos de Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). O Escudo de Privacidade da UE ajuda os clientes que desejam transferir seus dados para os Estados Unidos, de uma maneira coerente com as obrigações de proteção de dados.
 
 **Quais são as outras ofertas de conformidade da Microsoft?**
 
@@ -220,12 +220,12 @@ Por ser uma empresa global com clientes em quase todos os países do mundo, a Mi
 
 O RGPD impõe uma ampla variedade de requisitos às organizações que coletam ou processam dados pessoais, incluindo um requisito para atender a seis princípios principais:
 
-- *Transparência*,*imparcialidade* e *legalidade* no gerenciamento e no uso de dados pessoais. Você precisará ser claro com as pessoas sobre como você está usando dados pessoais e também precisará de uma "base legal" para processar esses dados.
-- Limitar o processamento de dados pessoais a finalidades *especificadas*, *explícitas* e *legítimas*. Você não poderá reutilizar ou divulgar dados pessoais para fins que não sejam "compatíveis" com a finalidade para a qual os dados foram originalmente coletados.
+- *Transparência* , *imparcialidade* e *legalidade* no gerenciamento e no uso de dados pessoais. Você precisará ser claro com as pessoas sobre como você está usando dados pessoais e também precisará de uma "base legal" para processar esses dados.
+- Limitar o processamento de dados pessoais a finalidades *especificadas* , *explícitas* e *legítimas*. Você não poderá reutilizar ou divulgar dados pessoais para fins que não sejam "compatíveis" com a finalidade para a qual os dados foram originalmente coletados.
 - *Minimizar a coleta e o armazenamento de dados pessoais* que são adequados e relevantes para o propósito desejado.
 - Garantindo a *precisão de dados pessoais* e permitindo que eles sejam *apagados ou retificados*. Você precisará tomar medidas para garantir que os dados pessoais que você possui sejam precisos e possam ser corrigidos se ocorrerem erros.
 - *Limitando o armazenamento de dados pessoais*. Será necessário garantir que os dados pessoais sejam retidos apenas pelo tempo necessário para alcançar o propósito para o qual os dados foram coletados.
-- Garantindo *segurança*, *integridade* e *confidencialidade de dados pessoais*. Sua organização deve tomar medidas para manter os dados pessoais protegidos por meio de medidas de segurança técnica e organizacional.
+- Garantindo *segurança* , *integridade* e *confidencialidade de dados pessoais*. Sua organização deve tomar medidas para manter os dados pessoais protegidos por meio de medidas de segurança técnica e organizacional.
 
 Você precisará entender as obrigações específicas da sua organização com o RGPD, e como as atenderá, embora a Microsoft esteja disponível para te ajudar em sua jornada.
 

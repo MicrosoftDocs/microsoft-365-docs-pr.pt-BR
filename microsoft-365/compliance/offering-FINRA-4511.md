@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dc4adef382724ce4176f2b5f779218d62b6079e0
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 2ba5dc4726f359545d59de7387fc62a3fe897588
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919685"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995884"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Regra de autoridade de regulamentação do setor financeiro (FINRA) 4511 (c) Estados Unidos
 
@@ -45,13 +45,11 @@ Cohasset validou que o [armazenamento de blob imutável do Azure](https://docs.m
 
 Os fornecedores de software e parceiros com cargas de trabalho confidenciais agora podem confiar no armazenamento de BLOBs imutáveis do Azure como uma solução de nuvem de compras de um único ponto para a retenção de registros e armazenamento imutável. As instituições financeiras agora podem criar seus próprios aplicativos aproveitando esses recursos, enquanto permanecem em conformidade.
 
-## <a name="microsoft-office-365"></a>Microsoft Office 365
+## <a name="microsoft-365"></a>Microsoft 365
 
-Para avaliar a conformidade do Office 365 com a regra do FINRA 4511 (c), a Microsoft manteve uma importante empresa de advocacia independente especializada em problemas de regulamentação, Covington &ndo o nó LLP. No relatório resultante, arquivando no Microsoft Office 365, a retenção de dados e a conformidade com a regra 17a-4, Covington validado que o [Office 365 com bloqueio de preservação](retention-preservation-lock.md) inclui recursos de arquivamento que permitem aos clientes regulamentados, incluindo os corretores, armazenar dados de forma que eles estejam em conformidade com os requisitos do FINRA para a retenção de registros.
+Para obter os requisitos do [FINRA 4511 (c)](retention-regulatory-requirements.md#sec-17a-4f-finra-4511c-and-cftc-131c-d) , Cohasset validado que a Microsoft 365 inclui recursos de arquivamento que permitem aos clientes regulamentados, incluindo os revendedores, armazenar dados de forma que os ajudem a cumprir os requisitos da SEC para a retenção de registros. Os recursos de retenção no Microsoft 365 ajudam a preservar uma ampla variedade de dados, incluindo emails, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Microsoft 365 permite que os clientes definam políticas globais ou granulares de retenção de mensagens para armazenar dados por um período definido e além de um formato não-regravável e não apagável.
 
-O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, incluindo email, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas de retenção de mensagens globais ou detalhadas para armazenar dados por um período definido e além de um formato não regravável e não apagável.
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
