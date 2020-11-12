@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade de conteúdo – pessoas experiências.
-ms.openlocfilehash: 87f89af527e2a1b843a9b70fbef590b69d920f7d
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 5cdbe0cbb683715a19b182d0781fe238d026a400
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804592"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999423"
 ---
 # <a name="content-collaboration--people-experiences"></a>Colaboração de conteúdo – experiências de pessoas
 
@@ -32,7 +32,7 @@ A pontuação de produtividade ajuda você a transformar como o trabalho é feit
 
 ## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Por que a sua organização&#39;Pontuação de colaboração de conteúdo é importante
 
-Um pilar fundamental para a produtividade organizacional é como as pessoas colaboram em arquivos. Com o conteúdo do Microsoft 365, as pessoas acessam, criar, modificar e colaborar no conteúdo com outras pessoas de qualquer local. A pesquisa mostra que, quando as pessoas colaboram com arquivos online, cada pessoa salva uma média de 100 minutos por semana. Veja a [evidência](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+Um pilar fundamental para a produtividade organizacional é como as pessoas colaboram em arquivos. Com o conteúdo do Microsoft 365, as pessoas acessam, criar, modificar e colaborar no conteúdo com outras pessoas de qualquer local. A pesquisa mostra que, quando as pessoas colaboram com arquivos online, cada pessoa salva uma média de 100 minutos por semana. [Veja a evidência](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
 ## <a name="how-we-calculate-the-content-collaboration-score"></a>Como calculamos a pontuação de colaboração de conteúdo
 
@@ -81,7 +81,7 @@ Os tipos considerados para essas informações incluem arquivos do Word, Excel, 
 
 Gráfico de visualizações de tendências mostra a linha de tendência das principais métricas da chave de percepção para leitores, criadores e colaboradores, nos últimos 180 dias. Cada ponto de dados no gráfico é um agregado de atividade nos últimos 28 dias. Cada ponto de dados criador fornece uma contagem de todas as pessoas que foram marcadas como criadores nos últimos 28 dias para cada data no eixo x.
 
-:::image type="content" source="../../media/trendvisualization.jpg" alt-text="Principais insights da Pontuação de colaboração de comunicação.":::
+:::image type="content" source="../../media/trendvisualization.jpg" alt-text="Gráfico com tendências para colaboração principal de colaboração.":::
 
 ### <a name="scoring-framework"></a>Estrutura de Pontuação
 
@@ -93,7 +93,7 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
 
 ### <a name="creating-files-to-onedrive-or-sharepoint"></a>Criando arquivos para o OneDrive ou o SharePoint
 
-:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Principais insights da Pontuação de colaboração de comunicação.":::
+:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Gráfico que mostra o número de pessoas que criam arquivos no OneDrive ou no SharePoint":::
 
 1. **Cabeçalho:** Realça a porcentagem de pessoas ativas em aplicativos do Microsoft 365 Office que criam arquivos no OneDrive ou no SharePoint.
 2. **Corpo:** Fornece informações sobre o valor de criação de conteúdo no OneDrive e no SharePoint.
@@ -109,7 +109,7 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
 
 ### <a name="use-of-attachments-in-email"></a>Uso de anexos em email
 
-:::image type="content" source="../../media/emailattachments.png" alt-text="Principais insights da Pontuação de colaboração de comunicação.":::
+:::image type="content" source="../../media/emailattachments.png" alt-text="Uso de anexos de email.":::
 
 1. **Cabeçalho:** Realça a porcentagem de pessoas que usam anexos em emails que não foram salvos no OneDrive ou no SharePoint.
 2. **Corpo:** Fornece informações sobre o valor de compartilhamento de links para arquivos online a partir de uma perspectiva de colaboração e segurança.
@@ -127,7 +127,7 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
 
 ### <a name="sharing-of-online-files"></a>Compartilhamento de arquivos online
 
-:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Principais insights da Pontuação de colaboração de comunicação.":::
+:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Gráfico que mostra o número de pessoas que compartilham os arquivos online.":::
 
 1. **Cabeçalho:** Realça a porcentagem de pessoas que têm acesso ao OneDrive ou ao SharePoint que estão compartilhando arquivos externamente.
 2. **Corpo:** Fornece informações sobre os administradores&#39; a capacidade de alterar as configurações de compartilhamento de arquivos na organização para habilitar o nível de colaboração mais adequado para sua organização.
@@ -142,7 +142,7 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
 
 ### <a name="intensity-of-files-collaborated-on"></a>Intensidade de arquivos colaborados
 
-:::image type="content" source="../../media/intensityofcollab.png" alt-text="Principais insights da Pontuação de colaboração de comunicação.":::
+:::image type="content" source="../../media/intensityofcollab.png" alt-text="Gráfico mostrando quantos arquivos foram mais colaborados.":::
 
 1. **Cabeçalho:** Isso realça t a porcentagem de pessoas que têm acesso ao OneDrive ou ao SharePoint que estão colaborando em 4 ou mais arquivos.
 2. **Corpo:** Isso fornece informações sobre como as pessoas podem aproveitar os arquivos online para uma melhor colaboração.
@@ -164,7 +164,7 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
 
 ### <a name="network-performance-strength-for-onedrive-and-sharepoint"></a>Nível de desempenho de rede para o OneDrive e o SharePoint
 
-:::image type="content" source="../../media/networkperfstrength.png" alt-text="Principais insights da Pontuação de colaboração de comunicação.":::
+:::image type="content" source="../../media/networkperfstrength.png" alt-text="Gráfico mostrando o desempenho da rede para o OneDrive e o SharePoint.":::
 
 1. **Cabeçalho:** Realça a porcentagem de dispositivos de todos os testados que têm uma conexão de rede ruim com o OneDrive e o SharePoint. 
 2. **Corpo:** Fornece informações sobre por que o desempenho da conexão de rede é importante para a colaboração. 

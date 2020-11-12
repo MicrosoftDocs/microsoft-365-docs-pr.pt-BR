@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 2b25d2b290723378f0e7ec286a0928add997ea39
-  ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+  ms.openlocfilehash: 6064ee5c086f99ff3d5bc4c04ed4d29b87429255
+  ms.sourcegitcommit: ca733da1ed919b286a93068b560608e82f8def05
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 10/09/2020
-  ms.locfileid: "48398698"
+  ms.lasthandoff: 11/10/2020
+  ms.locfileid: "48990524"
 highlightedContent:
   items:
   - title: Capacitar trabalhadores remotos
@@ -100,7 +100,7 @@ productDirectory:
     links:
     - url: compliance/compliance-quick-tasks.md
       text: Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
-    - url: compliance/protect-information.md
+    - url: compliance/information-protection.md
       text: Gerenciar a proteção de informações
     - url: compliance/manage-information-governance.md
       text: Gerenciar a governança de informações
@@ -229,6 +229,8 @@ additionalContent:
         url: /Kaizala
       - text: Microsoft Stream
         url: /stream/
+      - text: SharePoint Syntex
+        url: contentunderstanding/index.md
       - text: Yammer
         url: /yammer/yammer-landing-page
     - title: Skype for Business
