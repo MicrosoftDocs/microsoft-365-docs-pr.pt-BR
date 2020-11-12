@@ -167,11 +167,11 @@ Use as instruções a seguir para políticas de retenção que se aplicam a qual
 
 #### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Informações de configuração para o email do Exchange e para as pastas públicas do Exchange
 
-O local **email do Exchange** oferece suporte à retenção de emails, calendários e outros itens de caixa de correio dos usuários, aplicando as configurações de retenção no nível de uma caixa de correio.
+O local do **email do Exchange** oferece suporte à retenção de emails, calendários e outros itens de caixa de correio dos usuários, aplicando as configurações de retenção no nível de uma caixa de correio.
 
 Para obter informações detalhadas sobre quais itens são incluídos e excluídos quando você define as configurações de retenção do Exchange, confira [O que está incluído para retenção e exclusão](retention-policies-exchange.md#whats-included-for-retention-and-deletion)
 
-Observe que, embora um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclui o local do **Email do Exchange** não inclui conteúdo nas caixas de correio do grupo Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365**.
+Observe que, embora um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclui todo o local do **Email do Exchange** não inclui conteúdo nas caixas de correio do grupo Microsoft 365. Para reter o conteúdo nessas caixas de correio, selecione o local **Grupos do Microsoft 365**.
 
 O local **Pastas públicas do Exchange** aplica as configurações de retenção a todas as pastas públicas e não pode ser aplicado no nível de pasta ou caixa de correio.
 

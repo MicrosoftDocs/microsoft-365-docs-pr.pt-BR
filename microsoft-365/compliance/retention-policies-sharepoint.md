@@ -44,14 +44,14 @@ Os seguintes arquivos podem ser excluídos:
 
 - Quando você usa uma política de retenção: Todos os arquivos em bibliotecas de documentos, que incluem quaisquer bibliotecas de documentos do Microsoft Office SharePoint Online criadas automaticamente, como **Ativos de Sites**.
     
-- Quando você usa rótulos de retenção: Todos os arquivos em todas as bibliotecas de documentos e todos os arquivos no nível raiz que não estão em uma pasta.
+- Quando você usa rótulos de retenção: todos os arquivos em todas as bibliotecas de documentos e todos os arquivos no nível raiz que não estão em uma pasta.
     
 > [!TIP]
 > Ao usar uma [consulta com uma política de aplicação automática para um rótulo de retenção](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties), você pode excluir bibliotecas de documentos usando a seguinte entrada: `NOT(DocumentLink:"<URL to document library>")`
 
 As configurações de retenção não se aplicam às estruturas de organização que incluem bibliotecas, listas e pastas. Nem para itens nas listas do sistema, que são listas ocultas usadas pelo SharePoint para gerenciar o sistema e incluem o catálogo de página mestra, o catálogo de soluções e as fontes de dados.
 
-Para políticas de retenção e políticas de aplicação automática: Sites do SharePoint devem ser indexados para que as configurações de retenção sejam aplicadas. No entanto, se os itens nas bibliotecas de documentos do Microsoft Office SharePoint Online forem configurados para não aparecer nos resultados da pesquisa, essa configuração não excluirá os itens das configurações de retenção.
+Para políticas de retenção e políticas de aplicação automática: sites do SharePoint devem ser indexados para que as configurações de retenção sejam aplicadas. No entanto, se os itens nas bibliotecas de documentos do Microsoft Office SharePoint Online forem configurados para não aparecer nos resultados da pesquisa, essa configuração não excluirá os itens das configurações de retenção.
 
 ## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>Como funciona a retenção para o SharePoint e o OneDrive
 

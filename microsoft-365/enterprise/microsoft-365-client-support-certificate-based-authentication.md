@@ -16,24 +16,32 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, encontre detalhes sobre o suporte do aplicativo cliente do Microsoft 365 para autenticação baseada em certificado.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 49ed1e329e83b73441c89de9a142bfb9dcac5395
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: 2f2f5acb88e49cf7a81bd5e89c0c9c85feea6672
+ms.sourcegitcommit: 86e878849a8bdd456cee6a3f49939d26223fb626
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806689"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48997798"
 ---
 # <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Suporte ao aplicativo cliente Microsoft 365: autenticação baseada em certificado
 
 *Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
-A autenticação baseada em certificado permite que você autentique no Azure Active Directory com um certificado de cliente em dispositivos Windows, Android ou iOS. A configuração desse recurso elimina a necessidade de inserir uma combinação de nome de usuário e senha em determinados emails e aplicativos do Microsoft Office em seu dispositivo móvel.
+A autenticação moderna é um termo abrangente para uma combinação de métodos de autenticação e autorização. Entre eles:
+
+- Métodos de autenticação: autenticação multifator; Autenticação baseada em certificado do cliente.
+
+- Métodos de autorização: implementação da Microsoft de autorização aberta (OAuth).
+
+A autenticação moderna é habilitada por meio do uso de uma biblioteca de autenticação, como ADAL ou MSAL. A autenticação moderna é o que os clientes usam para autenticar e autorizar o acesso aos recursos do Microsoft 365. A autenticação moderna aproveita o OAuth e fornece um mecanismo seguro para que os clientes acessem os serviços do Microsoft 365, sem exigir acesso às credenciais do usuário. Ao entrar, o usuário é autenticado diretamente com o Active Directory do Azure e recebe um par de tokens de acesso/atualização em retorno. O token de acesso concede ao cliente acesso aos recursos apropriados no Microsoft 365 locatário. Um token de atualização é usado para obter um novo par de tokens de acesso ou de atualização quando o token de acesso atual expira.
+
+A autenticação moderna oferece suporte a diferentes mecanismos de autenticação, como a autenticação baseada em certificado. Os clientes nos dispositivos Windows, Android ou iOS podem usar a autenticação baseada em certificado (CBA) para autenticar no Azure Active Directory usando um certificado de cliente no dispositivo. Em vez de um nome de usuário/senha típico, o certificado é usado para obter um par de tokens de acesso/atualização do Azure Active Directory.
 
 Saiba mais sobre [a autenticação baseada em certificado](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started).
 
 ## <a name="supported-clients--platforms"></a>Plataformas de & de clientes com suporte
 
-As versões mais recentes dos seguintes clientes e plataformas dão suporte à autenticação baseada em certificado. Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System Requirements for Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
+As versões mais recentes dos seguintes clientes e plataformas dão suporte à autenticação baseada em certificado ao entrar em contas do Active Directory do Azure no cliente (por exemplo, ao adicionar uma conta ao aplicativo). Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System Requirements for Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
 <br>
 <br>
 
@@ -45,10 +53,10 @@ As versões mais recentes dos seguintes clientes e plataformas dão suporte à a
 | Portal da empresa | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
 | Consome | Liga | Liga | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
 | Delve | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Borda | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
+| Borda | ![Com suporte](../media/check-mark.png)* | ![Com suporte](../media/check-mark.png)* | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Excel | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Administração do Exchange Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Formulários | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
+| Forms | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
 | Administração do Office 365 | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |  |
 | Kaizala | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
 | Office Lens| ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
@@ -74,10 +82,17 @@ As versões mais recentes dos seguintes clientes e plataformas dão suporte à a
 | Teams | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Liga |
 | To Do | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
 | Visio | Não disponível | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Quadro de comunicações | Liga | Liga | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
+| Whiteboard | Liga | Liga | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
 | Word | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Análise de local de trabalho | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
 | Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Liga | Não disponível | Liga |
+
+> [!IMPORTANT]
+> O Edge for iOS e Android oferece suporte à autenticação baseada em certificado durante a conta de adição de fluxos. O Edge for iOS e Android não oferece suporte à autenticação baseada em certificado ao realizar autenticação em sites da Web, que normalmente são sites da intranet. Neste cenário, um usuário navega até um site (geralmente na intranet) onde o site exige que o usuário autentique por meio de um certificado. Isso não envolve a autenticação moderna e não utiliza uma biblioteca de autenticação da Microsoft. Isso se deve à limitação do iOS: o iOS impede que aplicativos de terceiros acessem o chaveiro do sistema onde os certificados estão armazenados (somente aplicativos Apple e o [controlador Safari WebView](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) pode acessar o keychain do sistema).
+
+ 
+
+Como a borda conta com Webkit, a borda não consegue acessar o chaveiro do sistema e apresenta ao usuário a opção de certificado. Isso, infelizmente, é o design devido à arquitetura da Apple.
 
 ## <a name="supported-powershell-modules"></a>Módulos do PowerShell suportados
 

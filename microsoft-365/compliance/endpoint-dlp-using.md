@@ -17,17 +17,17 @@ ms.collection:
 - SPO_Content
 search.appverid:
 - MET150
-description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar a prevenção contra perda de dados do Endpoint (EPDLP) da Microsoft 365.
-ms.openlocfilehash: 95c470a3dfc90f9c7b9a36d282c016781e4e13a8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
+ms.openlocfilehash: 6de6443dc0d276c862db43963ac28bd762e3756f
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847185"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984915"
 ---
-# <a name="using-endpoint-data-loss-prevention-preview"></a>Usando a prevenção contra perda de dados do EndPoint (visualização)
+# <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
-Este artigo o orienta em três situações em que você cria e modifica uma política DLP que usa dispositivos como um local.
+Este artigo o conduz por três cenários em que você cria e modifica uma política DLP que usa dispositivos como um local.
 
 ## <a name="dlp-settings"></a>Configurações de DLP
 
