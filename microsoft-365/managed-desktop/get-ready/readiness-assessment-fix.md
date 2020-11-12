@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c342ea9f662d883883755d2f67e5c25ffabddf83
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: b77313a18a5744549e492de991e282bc34dbb6da
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948404"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002412"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -214,7 +214,7 @@ Revise os aplicativos que você deseja que seus usuários do Microsoft Managed d
 
 **Recomendações**
 
-Você deve preparar um inventário dos aplicativos que você deseja que seus usuários de área de trabalho gerenciada da Microsoft tenham. Verifique se esses aplicativos podem ser implantados pelo Intune. Para obter mais informações, consulte [aplicativos na área de trabalho gerenciada da Microsoft](apps.md).
+Você deve preparar um inventário dos aplicativos que você deseja que seus usuários de área de trabalho gerenciada da Microsoft tenham. Como esses aplicativos devem ser implantados pelo Intune, avalie a reutilização de aplicativos existentes do Intune. Considere usar o portal da empresa (Confira [instalar o portal da empresa do Intune em dispositivos](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/company-portal) e a página de status de registro (ESP) para distribuir aplicativos aos seus usuários. Para obter mais informações, consulte [aplicativos na área de trabalho gerenciada da Microsoft](apps.md) e [experiência de primeira execução com o AutoPilot e a página status do registro](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/esp-first-run).
 
 Você pode solicitar ao representante da sua conta da Microsoft uma consulta no Microsoft Endpoint Configuration Manager para identificar os aplicativos que estão prontos para migrar para o Intune ou que precisam de ajuste.
 
@@ -289,9 +289,8 @@ Os usuários com determinadas funções de segurança devem ter os atribuídos n
 
 **Recomendações**
 
-Se você tiver qualquer uma dessas funções atribuídas em sua organização do Azure AD, certifique-se de que elas também tenham essas funções atribuídas no Microsoft defender para ponto de extremidade. Caso contrário, os administradores com essas funções não poderão acessar o portal de administração.
+Se você tiver usuários atribuídos a qualquer uma dessas funções em sua organização do Azure AD, verifique se eles também têm essas funções atribuídas no Microsoft defender para ponto de extremidade. Caso contrário, os administradores com essas funções não poderão acessar o portal de administração.
 
-- Leitor de segurança
 - Operador de segurança
 - Leitor global
 
@@ -308,7 +307,7 @@ Os padrões de segurança estão ativados. Desative os padrões de segurança e 
 
 ### <a name="self-service-password-reset"></a>Redefinição de senha de autoatendimento
 
-A redefinição de senha de autoatendimento (SSPR) deve estar habilitada para todos os usuários, excluindo as contas do serviço de área de trabalho gerenciada Para obter mais informações, consulte [tutorial: permitir que os usuários desbloqueiem suas contas ou redefinam senhas usando a redefinição de senha de autoatendimento do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+A redefinição de senha de autoatendimento (SSPR) deve estar habilitada para todos os usuários da área de trabalho gerenciada da Microsoft, excluindo contas de serviço de desktop gerenciado Para obter mais informações, consulte [tutorial: permitir que os usuários desbloqueiem suas contas ou redefinam senhas usando a redefinição de senha de autoatendimento do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
 
 **Recomendações**
 
@@ -325,11 +324,11 @@ Os usuários da área de trabalho gerenciada da Microsoft não terão privilégi
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
 
-### <a name="onedrive-for-business"></a>OneDrive for Business
+### <a name="onedrive"></a>OneDrive
 
 A configuração **permitir sincronização somente em computadores associados a domínios específicos** entrará em conflito com a área de trabalho gerenciada da Microsoft.
 
 **Recomendações**
 
-Você está usando a configuração **permitir sincronização somente em computadores associados a domínios específicos** . Essa configuração não funcionará com a área de trabalho gerenciada da Microsoft. Desabilite essa configuração e configure o OneDrive for Business para usar uma política de acesso condicional. Consulte [planejar uma implantação de acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) para obter ajuda.
+Você está usando a configuração **permitir sincronização somente em computadores associados a domínios específicos** . Essa configuração não funcionará com a área de trabalho gerenciada da Microsoft. Desabilite essa configuração e configure o OneDrive para usar uma política de acesso condicional. Consulte [planejar uma implantação de acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) para obter ajuda.
 

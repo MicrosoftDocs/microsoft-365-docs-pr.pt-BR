@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: Saiba o que fazer se você tiver um domínio não routale associado aos seus usuários locais antes de sincronizar com o Microsoft 365.
-ms.openlocfilehash: 835beffb77c495179991fbb4388ecd9ee804ec91
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 21344cb0d495691a96867d401a5262fbbcfd02d4
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695306"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002376"
 ---
 # <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>Preparar um domínio não roteável para sincronização de diretórios
 Ao sincronizar seu diretório local com o Microsoft 365, você precisa ter um domínio verificado no Azure Active Directory (Azure AD). Somente os nomes principais de usuário (UPN) associados ao domínio local são sincronizados. No entanto, qualquer UPN que contenha um domínio não roteável, por exemplo. local (como billa@contoso. local), será sincronizado com um domínio. onmicrosoft.com (como billa@contoso.onmicrosoft.com). 
@@ -42,7 +42,7 @@ O Azure AD Connect sincroniza o UPN e a senha dos usuários para que os usuário
   
 ### <a name="change-your-primary-domain"></a>**Alterar seu domínio primário**
 
-Altere o domínio primário para um domínio verificado no Microsoft 365, por exemplo, contoso.com. Todos os usuários que têm o domínio contoso. local é atualizado para o contoso.com. Para obter instruções, consulte [How Domain Rename Works](https://go.microsoft.com/fwlink/p/?LinkId=624174). Esse é um processo muito envolvido, no entanto, e uma solução mais fácil é descrita na seção a seguir.
+Altere o domínio primário para um domínio verificado no Microsoft 365, por exemplo, contoso.com. Todos os usuários que têm o domínio contoso. local é atualizado para o contoso.com. Esse é um processo muito envolvido, no entanto, e uma solução mais fácil é descrita na seção a seguir.
   
 ### <a name="add-upn-suffixes-and-update-your-users-to-them"></a>**Adicionar sufixos UPN e atualizar seus usuários para eles**
 
@@ -60,7 +60,7 @@ Depois de atualizar os UPNs para usar o domínio verificado, você estará pront
     
     ![Escolha domínios e relações de confiança do Active Directory.](../media/46b6e007-9741-44af-8517-6f682e0ac974.png)
   
-2. Na janela **domínios e relações de confiança do Active Directory** , clique com o botão direito em **domínios e relações de confiança do Active Directory**e escolha **Propriedades**.
+2. Na janela **domínios e relações de confiança do Active Directory** , clique com o botão direito em **domínios e relações de confiança do Active Directory** e escolha **Propriedades**.
     
     ![Clique com o botão direito em domínios e relações de confiança do Active Directory e escolha Propriedades](../media/39d20812-ffb5-4ba9-8d7b-477377ac360d.png)
   
