@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-office365
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre o recurso de anexos seguros no Microsoft defender para Office 365.
-ms.openlocfilehash: 031760c58ae18ca7dec1ecd1c1c7f870633e87fd
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: d758db46f53be46d8213794f90bf8c462f9135e8
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844279"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020946"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Anexos seguros no Microsoft defender para Office 365
 
@@ -40,10 +40,10 @@ A tabela a seguir descreve os cenários de anexos seguros no Microsoft 365 e no 
 
 |Cenário|Resultado|
 |---|---|
-|A organização do Microsoft 365 E5 não tem políticas de anexos seguros configuradas.|Pat não está protegido por anexos seguros. <br/><br/> Um administrador deve criar pelo menos uma política de anexos seguros para que a proteção de anexos seguros seja ativada. Além disso, as condições da política devem incluir Pat se Pat estiver protegido por anexos seguros.|
-|A organização de Lee tem uma política de anexos seguros que se aplica apenas a funcionários financeiros. Lee é membro do departamento de vendas.|Lee não é protegido por anexos seguros. <br/><br/> Os funcionários de Finanças são protegidos por anexos seguros, mas os funcionários de vendas (e outros funcionários) não.|
-|Ontem, um administrador na organização de Jean criou uma política de anexos seguros que se aplica a todos os funcionários. Hoje em dia, Jean recebeu uma mensagem de email que incluía um anexo.|Jean é protegido por anexos seguros. <br/><br/> Normalmente, leva cerca de 30 minutos para que uma nova política entre em vigor.|
-|A organização de Carla tem políticas de anexos seguros de longa duração para todas as pessoas na organização. Carla recebe um email com um anexo e encaminha a mensagem para destinatários externos.|O Chis é protegido por anexos seguros. <br/><br/> Se os destinatários externos também têm políticas de anexos seguros em sua organização, as mensagens encaminhadas estão sujeitas a essas políticas.|
+|A organização do Microsoft 365 E5 não tem políticas de anexos seguros configuradas.|Pat não está protegido por anexos seguros. <p> Um administrador deve criar pelo menos uma política de anexos seguros para que a proteção de anexos seguros seja ativada. Além disso, as condições da política devem incluir Pat se Pat estiver protegido por anexos seguros.|
+|A organização de Lee tem uma política de anexos seguros que se aplica apenas a funcionários financeiros. Lee é membro do departamento de vendas.|Lee não é protegido por anexos seguros. <p> Os funcionários de Finanças são protegidos por anexos seguros, mas os funcionários de vendas (e outros funcionários) não.|
+|Ontem, um administrador na organização de Jean criou uma política de anexos seguros que se aplica a todos os funcionários. Hoje em dia, Jean recebeu uma mensagem de email que incluía um anexo.|Jean é protegido por anexos seguros. <p> Normalmente, leva cerca de 30 minutos para que uma nova política entre em vigor.|
+|A organização de Carla tem políticas de anexos seguros de longa duração para todas as pessoas na organização. Carla recebe um email com um anexo e encaminha a mensagem para destinatários externos.|O Chis é protegido por anexos seguros. <p> Se os destinatários externos também têm políticas de anexos seguros em sua organização, as mensagens encaminhadas estão sujeitas a essas políticas.|
 |
 
 A verificação de anexos seguros ocorre na mesma região onde seus dados do Microsoft 365 residem. Para obter mais informações sobre a geografia do datacenter, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All)
@@ -65,11 +65,11 @@ Esta seção descreve as configurações em políticas de anexos confiáveis:
 
   |Opção|Efeito|Use quando quiser:|
   |---|---|---|
-  |**Desativar**|Os anexos não são verificados em busca de malware por anexos seguros. As mensagens ainda são verificadas em busca de malware por [proteção Antimalware no EOP](anti-malware-protection.md).|Desligar a verificação para destinatários selecionados. <br/><br/> Evitar atrasos desnecessários no roteamento de email interno. <br/><br/> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros para destinatários que recebem apenas mensagens de remetentes confiáveis.**|
-  |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado. <br/><br/> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Veja onde o malware detectado entra em sua organização.|
-  |**Bloquear**|Impede que mensagens com anexos de malware detectados sejam entregues. <br/><br/> As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <br/><br/> Bloqueia automaticamente instâncias futuras das mensagens e dos anexos. <br/><br/> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <br/><br/> Esse é o valor padrão e o valor recomendado em políticas de segurança padrão e estritas [predefinidas](preset-security-policies.md).|
-  |**Replace**|Remove anexos detectados de malware. <br/><br/> Notifica os destinatários de que os anexos foram removidos. <br/><br/>  As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <br/><br/> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Aumente a visibilidade dos destinatários que os anexos foram removidos devido à detecção de malware.|
-  |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaços reservados até que a verificação de anexos seguros seja concluída. <br/><br/> Para obter detalhes, consulte a seção [entrega dinâmica em políticas de anexos seguros](#dynamic-delivery-in-safe-attachments-policies) , posteriormente neste tópico.|Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados <br/> <br/> Habilitar destinatários para visualizar anexos no modo de segurança enquanto a verificação está ocorrendo|
+  |**Desativar**|Os anexos não são verificados em busca de malware por anexos seguros. As mensagens ainda são verificadas em busca de malware por [proteção Antimalware no EOP](anti-malware-protection.md).|Desligar a verificação para destinatários selecionados. <p> Evitar atrasos desnecessários no roteamento de email interno. <p> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros para destinatários que recebem apenas mensagens de remetentes confiáveis.**|
+  |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Veja onde o malware detectado entra em sua organização.|
+  |**Bloquear**|Impede que mensagens com anexos de malware detectados sejam entregues. <p> As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <p> Bloqueia automaticamente instâncias futuras das mensagens e dos anexos. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <p> Esse é o valor padrão e o valor recomendado em políticas de segurança padrão e estritas [predefinidas](preset-security-policies.md).|
+  |**Replace**|Remove anexos detectados de malware. <p> Notifica os destinatários de que os anexos foram removidos. <p>  As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Aumente a visibilidade dos destinatários que os anexos foram removidos devido à detecção de malware.|
+  |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaços reservados até que a verificação de anexos seguros seja concluída. <p> Para obter detalhes, consulte a seção [entrega dinâmica em políticas de anexos seguros](#dynamic-delivery-in-safe-attachments-policies) , posteriormente neste tópico.|Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados <br/> <br/> Habilitar destinatários para visualizar anexos no modo de segurança enquanto a verificação está ocorrendo|
   |
 
 - **Redirecionar o anexo na detecção: habilitar o redirecionamento** e **enviar o anexo para o seguinte endereço de email** : para **Bloquear** , **monitorar** ou **substituir** ações, envie mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.

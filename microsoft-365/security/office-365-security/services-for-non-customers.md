@@ -16,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários.
-ms.openlocfilehash: e9389d52ee1d6c1c0bbab8630778749a6ed6005f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 478f94d2ed1a03253168486d48fb2b2df57a6a5e
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199572"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021020"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Serviços para não clientes enviando emails para a Microsoft 365
 
@@ -36,9 +36,9 @@ Esta visão geral fornece informações sobre os benefícios que fornecemos à s
 
 ****
 
-|Serviço|Benefícios|
+|Fornecer manutenção|Benefícios|
 |---|---|
-|Este conteúdo da ajuda online|Lhe <br/> Um ponto de partida para qualquer dúvida relacionada ao envio de comunicações para usuários do EOP. <br/><br/> O inclui um guia online simples com nossas políticas e requisitos. <br/><br/> Uma visão geral dos filtros de lixo eletrônico e tecnologias de autenticação empregadas pela Microsoft.|
+|Este conteúdo da ajuda online|Lhe <ul><li>Um ponto de partida para qualquer dúvida relacionada ao envio de comunicações para usuários do EOP.</li><li>O inclui um guia online simples com nossas políticas e requisitos.</li><li>Uma visão geral dos filtros de lixo eletrônico e tecnologias de autenticação empregadas pela Microsoft.</li><ul>|
 |[Suporte da Microsoft](#microsoft-support)|Fornece suporte a auto-ajuda e escalonamento para problemas de entrega.|
 |[Portal de deslista de IPS antispam](#anti-spam-ip-delist-portal)|Uma ferramenta para enviar a solicitação de deslistação de IP. Antes de enviar essa solicitação, é responsabilidade do remetente garantir que qualquer email proveniente do IP em questão não seja abusiva ou mal-intencionada.|
 |[Relatórios de abuso e spam para lixo eletrônico originado do Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Mantém spam e outras mensagens indesejadas enviadas do Exchange Online e truncando a Internet e seu sistema de email.|

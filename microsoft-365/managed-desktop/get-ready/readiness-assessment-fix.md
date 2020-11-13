@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b77313a18a5744549e492de991e282bc34dbb6da
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 0459de8974fe6bae98e6984fd7dc65afeb04b4e7
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002412"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021080"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -29,6 +29,8 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Error | A função de diretor do Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 
 ## <a name="microsoft-intune-settings"></a>Configurações do Microsoft Intune
+
+Você pode acessar as configurações do Intune no centro de [Administração](https://endpoint.microsoft.com)do Microsoft Endpoint Manager.
 
 ### <a name="autopilot-deployment-profile"></a>Perfil de implantação do piloto automático
 
@@ -247,6 +249,7 @@ Certifique-se de que qualquer política de anel de atualização que você tenha
 
 ## <a name="azure-active-directory-settings"></a>Configurações do Azure Active Directory
 
+Você pode acessar as configurações do Azure Active Directory no [portal do Azure](https://portal.azure.com).
 
 ### <a name="ad-hoc-subscriptions"></a>Assinaturas ad hoc
 
@@ -326,7 +329,7 @@ Os usuários da área de trabalho gerenciada da Microsoft não terão privilégi
 
 ### <a name="onedrive"></a>OneDrive
 
-A configuração **permitir sincronização somente em computadores associados a domínios específicos** entrará em conflito com a área de trabalho gerenciada da Microsoft.
+A configuração **permitir sincronização somente em computadores associados a domínios específicos** entrará em conflito com a área de trabalho gerenciada da Microsoft. Você pode acessar as configurações do OneDrive no [centro de administração](https://admin.onedrive.com)do onedrive.
 
 **Recomendações**
 
