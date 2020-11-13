@@ -18,19 +18,19 @@ search.appverid:
 - MOE150
 - MET150
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: 51ec75cc8d8ae554ea9cbef3a9ea2aa18171e70a
-ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
+ms.openlocfilehash: bd7b4f78d37feddd7c66322460a6532a77045ba2
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950990"
+ms.locfileid: "48988663"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>A Auditoria Avançada no Microsoft 365
 
-A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) no Microsoft 365 fornece às organizações COM visibilidade em muitos tipos de atividades auditadas em muitos serviços diferentes no Microsoft 365. A Auditoria Avançada ajuda as organizações a conduzir investigações forenses e de conformidade, aumentando a retenção de log de auditoria necessária para conduzir um investigação, fornecendo acesso a eventos cruciais que ajudam a determinar o escopo do comprometimento e acesso mais rápido à API da Atividade de Gestão do Office 365.
+A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) no Microsoft 365 fornece às organizações visibilidade em muitos tipos de atividades auditadas em diversos serviços no Microsoft 365. A Auditoria Avançada ajuda as organizações a conduzir investigações forenses e de conformidade, aumentando a retenção de log de auditoria necessária para conduzir uma investigação, fornecendo acesso a eventos cruciais que ajudam a determinar o escopo de comprometimento e acesso mais rápido à API de Atividade de Gestão do Office 365.
 
 > [!NOTE]
-> A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 E5 ou do Microsoft 365 Enterprise E5. Além disso, uma licença de Microsoft 365 E5 Compliance ou do E5 Descoberta Eletrônica e Complemento de Auditoria podem ser atribuídos aos usuários quando o licenciamento por usuário for necessário para os recursos de Auditoria Avançada, como é o caso da retenção a longo termo dos logs de auditoria e do acesso a eventos cruciais de investigações. Para mais informações sobre licenciamento, confira [Orientação de licenciamento do Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
+> A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 E5/G5 ou do Microsoft 365 Enterprise E5/G5. Além disso, uma licença do Microsoft 365 E5 Compliance, ou do complemento de Auditoria e Descoberta Eletrônica do E5 podem ser atribuídos aos usuários quando o licenciamento por usuário for necessário para os recursos de Auditoria Avançada, como é o caso da retenção a longo termo dos logs de auditoria e do acesso a eventos cruciais de investigações. Para mais informações sobre licenciamento, confira [Orientação de licenciamento do Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
 
 Este artigo fornece uma visão geral dos recursos de Auditoria Avançada.
 
@@ -157,12 +157,12 @@ O novo complemento de retenção de log de auditoria de dez anos estará dispon�
 
 **O que acontecerá com os dados do log de auditoria da minha organização se eu criar uma política de retenção de log de auditoria de dez anos, o recurso for lançado para disponibilidade geral, mas antes da licença complementar necessária estar disponível no início de 2021?**
 
-Todos os dados de log de auditoria abrangidos por uma política de retenção de log de auditoria de dez anos que você cria depois da disponibilidade geral serão mantidos por dez anos. Quando a licença complementar de retenção do log de auditoria de dez anos estiver disponível no início de 2021, você precisará comprar licenças de complemento para os usuários os quais os dados de auditoria estão sendo retidos por uma política de retenção existente de dez anos. Além disso, após a licença complementar estar disponível no início de 2021, o licenciamento apropriado será aplicado quando você criar novas políticas de retenção de log de auditoria de dez anos.
+Todos os dados de log de auditoria cobertos por uma política de retenção de log de auditoria de dez anos que você criar após a disponibilidade geral serão retidos por dez anos. Quando o acréscimo de retenção de log de auditoria de dez anos estiver disponível no início de 2021, será necessário comprar licenças adicionais para usuários que os dados de auditoria estão retidos por uma política de retenção de auditoria existente de dez anos. Além disso, uma vez que a licença de ação esteja disponível no início de 2021, o licenciamento apropriado será aplicado quando você criar uma nova retenção de log de auditoria de dez anos.
 
-**Os novos eventos da Auditoria Avançada estão disponíveis na API da Atividade de Gerenciamento do Office 365?**
+**Os novos eventos da Auditoria Avançada estão disponíveis na API da Atividade de Gestão do Office 365?**
 
-Sim. Desde que os registros de auditoria sejam gerados para os usuários com a licença adequada, você poderá acessá-los por meio da API da Atividade de Gerenciamento do Office 365.
+Sim. Desde que os registros de auditoria sejam gerados para os usuários com a licença adequada, será possível acessá-los por meio da API da Atividade de Gestão do Office 365.
 
 **Maior largura de banda significa melhor latência ou SLA mais alto?**
 
-No momento, a alta largura de banda fornece um pipeline melhor, especialmente para organizações com um alto volume de sinais de auditoria e padrões de consumo significativos. Uma maior largura de banda pode levar a uma latência melhor. No entanto, não há um SLA associado à alta largura de banda. As latências padrão são documentadas e essas latências não mudam com o lançamento da Auditoria Avançada.
+Neste momento, a alta largura de banda fornece um pipeline melhor, especialmente para organizações com um alto volume de sinais de auditoria e padrões de consumo significativos. Mais largura de banda pode levar a uma melhor latência. Mas não há um SLA associado à alta largura de banda. As latências padrão são documentadas, e essas latências não mudam com o lançamento da Auditoria Avançada.

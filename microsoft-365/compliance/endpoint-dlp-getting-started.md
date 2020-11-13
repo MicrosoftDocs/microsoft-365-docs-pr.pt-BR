@@ -1,5 +1,5 @@
 ---
-title: Introdução à prevenção contra perda de dados de ponto de extremidade do Microsoft 365 (visualização)
+title: Introdução à prevenção contra perda de dados do Microsoft 365 Endpoint
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -18,17 +18,17 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 95446e15e656e3c1aa658f897863608311b350e0
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Configure a prevenção contra perda de dados do Microsoft 365 Endpoint para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
+ms.openlocfilehash: 8f4b1b04aadbb639f6c7daeeb564c10abd7737b2
+ms.sourcegitcommit: ca733da1ed919b286a93068b560608e82f8def05
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842035"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48990546"
 ---
-# <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)
+# <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
-A prevenção contra perda de dados de ponto de extremidade do Microsoft (Endpoint DLP) faz parte do pacote de recursos de prevenção contra perda de dados (DLP) da Microsoft 365, que você pode usar para descobrir e proteger itens confidenciais em todos os serviços do Microsoft 365. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, confira [Visão geral de prevenção contra perda de dados](data-loss-prevention-policies.md). Para saber mais sobre o Endpoint DLP, confira [Saber mais sobre a prevenção contra perda de dados do ponto de extremidade (visualização)](endpoint-dlp-learn-about.md)
+A prevenção contra perda de dados do Microsoft Endpoint (DLP do ponto de extremidade) faz parte do pacote de recursos de prevenção contra perda de dados (DLP) da Microsoft 365, que você pode usar para descobrir e proteger itens confidenciais em todos os serviços do Microsoft 365. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, confira [Visão geral de prevenção contra perda de dados](data-loss-prevention-policies.md). Para saber mais sobre o Endpoint DLP, confira [Saber mais sobre a prevenção contra perda de dados do ponto de extremidade (visualização)](endpoint-dlp-learn-about.md)
 
 O Microsoft Endpoint DLP permite monitorar dispositivos Windows 10 e detectar quando itens confidenciais são usados e compartilhados. Isso dá a você a visibilidade e o controle necessários para garantir que eles sejam usados e protegidos corretamente, e para ajudar a evitar o comportamento arriscado que possa comprometer.
 
@@ -44,6 +44,7 @@ Antes de começar a usar o Endpoint DLP, confirme seu [Assinatura do Microsoft 3
 - Conformidade do Microsoft 365 A5
 - Governança e Proteção de Informações do Microsoft 365 E5
 - Governança e Proteção de Informações do Microsoft 365 A5
+
 
 ### <a name="permissions"></a>Permissões
 
@@ -95,6 +96,8 @@ Certifique-se de que os dispositivos Windows 10 que você pretende implantar o E
 4. Todos os dispositivos devem ser associados ao [Azure Active Directory (Microsoft Azure AD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) ou ingressado no Azure AD Híbrido.
 
 5. Instalar o navegador Microsoft Chromium Edge no dispositivo do ponto de extremidade para impor ações de política para a atividade carregar na nuvem. Confira, [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
+
+6. Se você está no Canal Empresarial Mensal das versões 2004-2008 do Microsoft 365 Apps, há um problema conhecido com o DLP do ponto de extremidade classificando o conteúdo do Office, e você precisa atualizar para a versão 2009 ou posterior. Confira [Histórico de atualização do Microsoft 365 Apps (relacionado por data)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date) para as versões atuais. Para saber mais sobre esse problema, confira a seção Pacote do Office de [notas de versão do Canal Atual em 2020](https://docs.microsoft.com/officeupdates/current-channel#version-2010-october-27).
 
 ## <a name="onboarding-devices-into-device-management"></a>Dispositivos de integração no gerenciamento de dispositivos
 
