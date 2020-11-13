@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os limites de caso, limites de indexação e limites de pesquisa em vigor para a solução de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 7d676b568c7e4cddedeff02c62b4645619d53357
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: abc93acb5f32ea1fdae607d8e1053adc59ad6cea
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446248"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020958"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -63,9 +63,9 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 |Número máximo de caixas de correio ou sites que podem ser pesquisados em uma única pesquisa.  <br/> |Sem limite  <br/> |
 |Número máximo de pesquisas que podem ser executadas ao mesmo tempo.  <br/> |Sem limite  <br/> | 
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo.  <br/> |10   <br/> | 
-|Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de correio**: 10.000<br/>**Sites**: 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>2</sup> <br/> |
-|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **, \* um** ou **conjunto \* **. <br/> |3D  <br/> |  
-|Máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano **próximo** .  <br/> |10.000 <sup>3</sup> <br/> |
+|Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de correio** : 10.000<br/>**Sites** : 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>2</sup> <br/> |
+|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo * *One \** _ ou _*set \**_. <br/> |3D  <br/> |  
+|Número máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador _ *Near* * Boolean.  <br/> |10.000 <sup>3</sup> <br/> |
 |Número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.   <br/> |100  <br/> |
 |Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1,000  <br/> |
 |Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1000 caixas de correio que contenham itens que correspondam à consulta de pesquisa, somente as primeiras caixas de correio de 1.000 com a maioria dos resultados estarão disponíveis para visualização.<br/> |1,000  <br/> |
@@ -79,15 +79,27 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 ## <a name="viewer-limits"></a>Limites do Visualizador
 
 |**Descrição do limite**|**Limite**|
-  |:-----|:-----|
-  |Tamanho máximo do arquivo do Excel que pode ser exibido no visualizador nativo.  <br/> |4 MB  <br/> |
+|:-----|:-----|
+|Tamanho máximo do arquivo do Excel que pode ser exibido no visualizador nativo.  <br/> |4 MB  <br/> |
+|||
+
+## <a name="export-limits"></a>Limites de exportação
+
+|**Descrição do limite**|**Limite**|
+|:-----|:-----|
+|Tamanho máximo de uma única exportação.|3 milhões documentos ou 100 GB, o que for menor|
+|Quantidade máxima de dados em um único dia. | 2 TB |
+|Máximo de exportações simultâneas em sua organização. | 10 <sup>4</sup> |
+|Máximo de exportações simultâneas por usuário. | 3D |
+|Tamanho máximo de um único arquivo PST. | 10 GB |
+|Máximo de exportações simultâneas por conjunto de análise. | 1  |
 |||
 
 ## <a name="review-set-download-limits"></a>Analisar limites de download de conjunto
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
-|Tamanho total do arquivo ou número máximo de documentos baixados de um conjunto de revisão.  <br/> |3 MB ou 50 documentos <sup>4</sup>|
+|Tamanho total do arquivo ou número máximo de documentos baixados de um conjunto de revisão.  <br/> |3 MB ou 50 documentos <sup>5</sup>|
 |||
 
 <br/>
@@ -96,6 +108,7 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 > [!NOTE]
 > <sup>1</sup> qualquer item que exceda um limite de arquivo único aparecerá como um erro de processamento.<br/>
 > <sup>2</sup> ao pesquisar os locais do SharePoint e do onedrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados de acordo com esse limite.<br/>
-> <sup>3</sup> para consultas que não são de frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, **o \* tempo** pode ser expandido para **"tempo ou temporizador ou horários, ou para a caixa de entrada ou para o relógio ou..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase.<br/>
-> <sup>4</sup> este limite se aplica ao download de documentos selecionados a partir de um conjunto de revisão. Ela não se aplica à exportação de documentos a partir de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte [exportar dados de caso na descoberta eletrônica avançada](exporting-data-ediscover20.md). <br/>
+> <sup>3</sup> para consultas que não são de frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, **time \* *_ pode expandir para _* "hora ou temporizador ou horários ou Timex ou timeboxes ou..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase.<br/>
+> <sup>4</sup> esse limite é compartilhado em todas as ferramentas de descoberta eletrônica. Isso significa que exportações simultâneas na pesquisa de conteúdo, a descoberta eletrônica principal e a descoberta eletrônica avançada são aplicadas a esse limite. <br/>
+> <sup>5</sup> este limite se aplica ao download de documentos selecionados a partir de um conjunto de revisão. Ela não se aplica à exportação de documentos a partir de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte [exportar dados de caso na descoberta eletrônica avançada](exporting-data-ediscover20.md). <br/>
 

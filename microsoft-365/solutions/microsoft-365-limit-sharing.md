@@ -11,6 +11,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 search.appverid:
 - SPO160
 - MET150
@@ -18,12 +19,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Saiba mais sobre as opções para limitar ou desabilitar o compartilhamento no Microsoft 365.
-ms.openlocfilehash: 7ed9cc499e16de835c6ba96eb19bcc28a144b68b
-ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
+ms.openlocfilehash: 504d2b5dd72aead266697d273395e371ad6f5846
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48651413"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030036"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Limitar o compartilhamento no Microsoft 365
 
@@ -35,9 +36,9 @@ Os métodos de compartilhamento de arquivos são listados na tabela a seguir. Cl
 |:-------------|:----------|:-------------|
 |[Grupo ou equipe do Microsoft 365](#microsoft-365-group-or-team)|As pessoas com acesso a uma equipe do Microsoft Teams ou ao grupo do Microsoft 365 têm acesso à edição de arquivos no site associado do SharePoint.|Se o grupo ou a equipe for privada, o compartilhamento de convites para se juntar à equipe vai para o proprietário para aprovação. Os administradores podem desabilitar o acesso de convidados ou usar rótulos de confidencialidade para impedir o acesso de pessoas de fora da organização.|
 |[Site do Microsoft Office SharePoint Online](#sharepoint-site)|Os usuários podem ter acesso de proprietário, membro ou visitante em um site do SharePoint e terão esse nível de acesso a arquivos no site.|As permissões de site podem ser restringidas para que somente proprietários de site possam compartilhar o site. Os administradores podem configurar um site para somente leitura ou bloquear o acesso inteiramente.|
-|[Compartilhar com pessoas específicas](#sharing-with-specific-people)|Os membros do site e as pessoas com permissões de edição podem conceder permissões diretas a arquivos e pastas ou compartilhá-los usando links de *pessoas específicas*.|As permissões de site podem ser restringidas para que somente proprietários de sites possam compartilhar arquivos e pastas. Nesse caso, o acesso direto e o compartilhamento de link*pessoas específicas* por membros do site vai para o proprietário do site para aprovação.|
+|[Compartilhar com pessoas específicas](#sharing-with-specific-people)|Os membros do site e as pessoas com permissões de edição podem conceder permissões diretas a arquivos e pastas ou compartilhá-los usando links de *pessoas específicas*.|As permissões de site podem ser restringidas para que somente proprietários de sites possam compartilhar arquivos e pastas. Nesse caso, o acesso direto e o compartilhamento de link *pessoas específicas* por membros do site vai para o proprietário do site para aprovação.|
 |[Compartilhamento de convidados do SharePoint](#sharepoint-guest-sharing)|Os proprietários e membros do site do SharePoint podem compartilhar arquivos e pastas com pessoas de fora da organização.|O compartilhamento de convidados pode ser desabilitado para toda a organização ou para sites individuais.|
-|[*Pessoas na sua organização* links de compartilhamento](#people-in-your-organization-sharing-links)|Os proprietários e membros do site do SharePoint podem compartilhar arquivos usando links *pessoas em sua organização*, que funcionam para todos dentro da organização.|Os links*Pessoas da sua organização* podem ser desabilitados no nível do site.|
+|[*Pessoas na sua organização* links de compartilhamento](#people-in-your-organization-sharing-links)|Os proprietários e membros do site do SharePoint podem compartilhar arquivos usando links *pessoas em sua organização* , que funcionam para todos dentro da organização.|Os links *Pessoas da sua organização* podem ser desabilitados no nível do site.|
 |[Criar sites, grupos e equipes](#create-sites-groups-and-teams)|Por padrão, os usuários podem criar novos sites, grupos e equipes a partir dos quais podem compartilhar conteúdo.|Os administradores podem restringir as pessoas que podem criar sites, grupos e equipes.|
 |[Email](#email)|As pessoas que têm acesso a um arquivo podem enviá-lo para outras pessoas por e-mail.|Os administradores podem criptografar arquivos usando rótulos de confidencialidade para impedi-los de compartilhar com pessoas não autorizadas.|
 |[Baixar ou copiar arquivo](#download-or-file-copy)|As pessoas que têm acesso a um arquivo podem baixá-lo ou copiá-lo e compartilhá-lo com outras pessoas fora do escopo do Microsoft 365.|Os administradores podem criptografar arquivos usando rótulos de confidencialidade para impedi-los de compartilhar com pessoas não autorizadas.|
@@ -57,7 +58,7 @@ Se você deseja limitar o compartilhamento em um grupo do Microsoft 365 ou equip
 Se você quiser impedir o acesso de convidados nas equipes, é possível desativar o compartilhamento de convidados no centro de administração do Teams.
 
 Para desativar o compartilhamento de convidados para o Teams
-1. No centro de administração do Teams, expanda **Configurações para toda a organização**, em seguida, clique em **Acesso de convidado**.
+1. No centro de administração do Teams, expanda **Configurações para toda a organização** , em seguida, clique em **Acesso de convidado**.
 2. Desabilite **Permitir acesso de convidados no Teams**.
 3. Clique em **Salvar**.
 
@@ -65,8 +66,8 @@ Se você quiser impedir o acesso de convidado em grupos do Microsoft 365, é pos
 
 Para desativar o compartilhamento de convidados no Microsoft 365 Groups
 1. No Centro de administração do Microsoft 365, clique em **Configurações** e depois clique em **Configurações da Organização**.
-2. Na guia **Serviços**, clique em **Microsoft 365 Groups**.
-3. Desmarque as caixas de seleções **Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo**e **Permita que os proprietários de grupos adicionem pessoas de fora da sua organização a grupos**.
+2. Na guia **Serviços** , clique em **Microsoft 365 Groups**.
+3. Desmarque as caixas de seleções **Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo** e **Permita que os proprietários de grupos adicionem pessoas de fora da sua organização a grupos**.
 4. Clique em **Salvar alterações**.
 
     ![A captura de tela do compartilhamento de configurações do Microsoft 365 Groups no Centro de administração do Microsoft 365](../media/office-365-groups-guest-settings-off.png)
@@ -79,7 +80,7 @@ Você pode limitar o compartilhamento de convidados a usuários de domínios esp
 Para permitir o compartilhamento de convites apenas de domínios especificados
 1. Na página Visão geral do Azure Active Directory, clique em **relações organizacionais**.
 2. Clique em **Configurações**.
-3. Em **restrições de colaboração**, marque **negar convites aos domínios especificados** ou **permitir convites apenas para os domínios especificados**, e digite os domínios que você deseja usar.
+3. Em **restrições de colaboração** , marque **negar convites aos domínios especificados** ou **permitir convites apenas para os domínios especificados** , e digite os domínios que você deseja usar.
 4. Clique em **Salvar**.
 
     ![Captura de tela das configurações de restrições de colaboração do Azure Active Directory](../media/azure-ad-allow-only-specified-domains.png)
@@ -90,7 +91,7 @@ Só é possível limitar o compartilhamento de sites do SharePoint aos propriet�
 
 Para limitar o compartilhamento de sites aos proprietários
 1. No site, clique no ícone de engrenagem e, em seguida, clique em **permissões de site**.
-2. Em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+2. Em **Configurações de Compartilhamento** , clique em **Alterar configurações de compartilhamento**.
 3. Selecione **Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site**.
 4. Clique em **Salvar**.
 
@@ -100,16 +101,16 @@ Você pode impedir que os usuários que não são membros do site solicitem aces
 
 Para desativar as solicitações de acesso
 1. No site, clique no ícone de engrenagem e, em seguida, clique em **permissões de site**.
-2. Em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+2. Em **Configurações de Compartilhamento** , clique em **Alterar configurações de compartilhamento**.
 3. Desabilite **Permitir solicitações de acesso** e clique em **Salvar**.
 
 Para limitar o compartilhamento de sites a domínios específicos, permita ou bloqueie domínios para o site.
 
 Para limitar o compartilhamento do site por domínio
-1. No centro de administração do SharePoint, em **sites**, clique **sites ativos**.
+1. No centro de administração do SharePoint, em **sites** , clique **sites ativos**.
 2. Clique no site que você deseja configurar.
-3. Na guia **Políticas**, em **Compartilhamento externo** clique **Editar**.
-4. Em **Configurações avançadas para compartilhamento externo**, marque **Limitar compartilhamento por domínio**.
+3. Na guia **Políticas** , em **Compartilhamento externo** clique **Editar**.
+4. Em **Configurações avançadas para compartilhamento externo** , marque **Limitar compartilhamento por domínio**.
 5. Adicione os domínios que deseja permitir ou bloquear e, em seguida, clique em **Salvar**.
 6. Clique em **Salvar**.
 
@@ -129,7 +130,7 @@ Se desejar limitar o compartilhamento de um site ou de seu conteúdo, você pode
 
 Para limitar o compartilhamento de sites, arquivos e pastas aos proprietários
 1. No site, clique no ícone de engrenagem e, em seguida, clique em **permissões de site**.
-2. Em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+2. Em **Configurações de Compartilhamento** , clique em **Alterar configurações de compartilhamento**.
 3. Selecione **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.
 4. Clique em **Salvar**.
 
@@ -140,41 +141,41 @@ Para limitar o compartilhamento de sites, arquivos e pastas aos proprietários
 Se você quiser impedir o compartilhamento de pastas e arquivos do SharePoint ou do OneDrive com pessoas de fora da sua organização, é possível desativar o compartilhamento de convidados para toda a organização ou para um site individual.
 
 Para desativar o compartilhamento de convidados do SharePoint para a sua organização
-1. No centro de administração do SharePoint, em **Políticas**, clique em **Compartilhamento**.
-2. Em **Compartilhamento externo**, arraste o controle deslizante do SharePoint para baixo para **Somente as pessoas da sua organização**.
+1. No centro de administração do SharePoint, em **Políticas** , clique em **Compartilhamento**.
+2. Em **Compartilhamento externo** , arraste o controle deslizante do SharePoint para baixo para **Somente as pessoas da sua organização**.
 3. Clique em **Salvar**.
 
     ![Captura de tela das configurações de compartilhamento no nível da organização do SharePoint definidas como Qualquer Pessoa](../media/sharepoint-tenant-sharing-off.png)
 
 
 Para desativar o compartilhamento de convidados para um site
-1. No centro de administração do SharePoint, em **sites**, clique **sites ativos**.
+1. No centro de administração do SharePoint, em **sites** , clique **sites ativos**.
 2. Clique no site que você deseja configurar.
-3. Na guia **Políticas**, em **Compartilhamento externo** clique **Editar**.
-4. Em **Compartilhamento externo**, escolha **Somente as pessoas da sua organização**e, em seguida, clique em **Salvar**.
+3. Na guia **Políticas** , em **Compartilhamento externo** clique **Editar**.
+4. Em **Compartilhamento externo** , escolha **Somente as pessoas da sua organização** e, em seguida, clique em **Salvar**.
 
     ![Captura de tela das configurações de compartilhamento no nível do site do SharePoint definidas para Somente as pessoas da sua organização](../media/sharepoint-site-external-sharing-settings-off.png)
 
 Se você deseja permitir o compartilhamento com pessoas de fora da sua organização, mas deseja garantir que todos sejam autenticados, é possível desativar os links *Todos* (compartilhamento anônimo) para toda a organização ou para um site individual.
 
 Para desativar os links *Todos* no nível da organização
-1. No centro de administração do SharePoint, em **Políticas**, clique em **Compartilhamento**.
-2. Em **Compartilhamento externo**, arraste o controle deslizante do SharePoint para baixo para **Convidados novos e existentes**.
+1. No centro de administração do SharePoint, em **Políticas** , clique em **Compartilhamento**.
+2. Em **Compartilhamento externo** , arraste o controle deslizante do SharePoint para baixo para **Convidados novos e existentes**.
 3. Clique em **Salvar**.
 
     ![Captura de tela das configurações de compartilhamento no nível de organização do SharePoint definidas como Convidados novos e existentes](../media/sharepoint-guest-sharing-new-existing-guests.png)
 
 Para desativar os links para *Qualquer pessoa* de um site
-1. No centro de administração do SharePoint, em **sites**, clique **sites ativos**.
+1. No centro de administração do SharePoint, em **sites** , clique **sites ativos**.
 2. Clique no site que você deseja configurar.
-3. Na guia **Políticas**, em **Compartilhamento externo** clique **Editar**.
-4. Em **Compartilhamento externo**, escolha **Convidados novos e existentes**e, em seguida, clique em **Salvar**.
+3. Na guia **Políticas** , em **Compartilhamento externo** clique **Editar**.
+4. Em **Compartilhamento externo** , escolha **Convidados novos e existentes** e, em seguida, clique em **Salvar**.
 
     ![Captura de tela das configurações de compartilhamento no nível do site do SharePoint definidas como Configurações novas e existentes](../media/sharepoint-site-external-sharing-settings-new-existing-guests.png)
 
 ## <a name="people-in-your-organization-sharing-links"></a>Links de compartilhamento *Pessoas na sua organização*
 
-Por padrão, os membros de um site podem compartilhar arquivos e pastas com outras pessoas da sua organização, usando o link*pessoas na sua organização*. Você pode desabilitar os links *Pessoas em sua organização* usando o PowerShell:
+Por padrão, os membros de um site podem compartilhar arquivos e pastas com outras pessoas da sua organização, usando o link *pessoas na sua organização*. Você pode desabilitar os links *Pessoas em sua organização* usando o PowerShell:
 
 `Set-SPOSite -Identity <site> -DisableCompanyWideSharingLinks`
 

@@ -11,18 +11,19 @@ ms.collection:
 - M365-collaboration
 - m365solution-securecollab
 - m365solution-scenario
+- m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como configurar aplicativos da Microsoft 365 como o Teams, o OneDrive e o SharePoint para colaboração com pessoas de fora da sua organização.
-ms.openlocfilehash: 9a15ea06cec6982977ec88edf5ee95b35591a33c
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 60789041abca98769fa25e2f299ee2d7eebe0726
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906984"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49029976"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
 

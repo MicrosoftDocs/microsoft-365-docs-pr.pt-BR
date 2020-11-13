@@ -11,17 +11,18 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá sobre as práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados.
-ms.openlocfilehash: afbd2cf5e2e522228987941977fd53b8562aa9d7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: eeee1ca0ddbb37525c86f44a3d02ab95de20e9fc
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845367"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030060"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados
 

@@ -22,20 +22,20 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a identificar, monitorar e proteger automaticamente as informações confidenciais da sua organização no Office 365.
-ms.openlocfilehash: d1b82f1e5581e1d24284a549f3c9572e0f8343a3
-ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
+ms.openlocfilehash: 0817d48879fccbefcda22d677c85a250dc017dd0
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48984935"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999486"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
 > [!NOTE]
-> Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para a Conformidade Avançada do Office 365, disponível como uma opção independente e está incluso na Conformidade do Office 365 E5 e no Microsoft 365 E5. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
+> Os recursos de prevenção contra perda de dados foram recentemente adicionados ao bate-papo do Microsoft Teams e mensagens de canal para usuários licenciados para a Conformidade Avançada do Office 365, que está disponível como uma opção autônoma e está incluído no Office 365 E5 e Microsoft 365 E5 Compliance. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes de Licenciamento de Serviços de Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
-Para estar em conformidade com padrões de negócios e regulamentações do setor, as organizações precisam proteger as informações confidenciais e evitar sua divulgação acidental. Informação confidencial inclui dados financeiros ou informações de identificação pessoal (PII), como números de cartão de crédito, números de CPF ou registros de saúde. Com uma política DLP no Centro de Conformidade &amp; Segurança do Office 365, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
+Para cumprir os padrões de negócios e regulamentações do setor, as organizações devem proteger informações confidenciais e evitar sua divulgação inadvertida. As informações confidenciais podem incluir dados financeiros ou informações de identificação pessoal (PII), como números de cartão de crédito, números de previdência social ou registros de saúde. Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança do Microsoft 365, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
   
 Com uma política de DLP, você pode:
   
@@ -49,17 +49,17 @@ Com uma política de DLP, você pode:
     
 - **Monitorar e proteger informações confidenciais nas versões da área de trabalho do Excel, PowerPoint e Word.**
     
-    Assim como no Exchange Online, no SharePoint Online e no OneDrive for Business, esses programas da área de trabalho do Office incluem os mesmos recursos para identificar informações confidenciais e aplicar políticas de DLP. A DLP oferece monitoramento contínuo, quando as pessoas compartilham conteúdo nestes programas do Office.
+    Assim como no Exchange Online, Microsoft Office SharePoint Online e Microsoft OneDrive for Business, esses programas de área de trabalho do Office incluem os mesmos recursos para identificar informações confidenciais e aplicar políticas de DLP. A DLP fornece monitoramento contínuo quando as pessoas compartilham conteúdo nesses programas do Office.
     
-- **Ajude os usuários a manter a conformidade sem interromper o fluxo de trabalho.**
+- **Ajude os usuários a aprender como manter a conformidade sem interromper o fluxo de trabalho.**
     
-    Você pode instruir os usuários sobre políticas de DLP e ajudá-los a permanecer em conformidade sem bloquear seu trabalho. Por exemplo, se um usuário tentar compartilhar um documento que contém informações confidenciais, uma política de DLP pode enviar uma notificação por email e mostrar uma dica de política no contexto da biblioteca de documentos que permite substituir a política se ele tivere uma justificativa de negócios. As mesmas dicas de política também aparecem no Outlook na Web, no Outlook, no Excel, no PowerPoint e no Word.
+    Você pode educar seus usuários sobre as políticas de DLP e ajudá-los a permanecer em conformidade sem bloquear seu trabalho. Por exemplo, se um usuário tentar compartilhar um documento contendo informações confidenciais, uma política de DLP pode enviar uma notificação por email e mostrar a eles uma dica de política no contexto da biblioteca de documentos que permite que eles substituam a política se eles tiverem uma justificação de negócios. As mesmas dicas de política também aparecem no Outlook na web, Outlook, Excel, PowerPoint e Word.
     
-- **Visualizar relatórios de DLP que mostrem conteúdo que corresponda às políticas de DLP da sua organização.**
+- **Exibir alertas e relatórios de DLP mostrando o conteúdo que corresponde às políticas de DLP da organização**
     
-    Para avaliar como a sua organização está em conformidade com uma política DLP, você pode ver o número de correspondências de cada política e regra ao longo do tempo. Se uma política de DLP permite que os usuários substituam uma dica de política e relatem um falso positivo, você também pode exibir o que os usuários relataram.
+    Para exibir alertas e metadados relacionados às políticas DLP, você pode usar o [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md). Também pode ser exibido os relatórios de correspondência de política para avaliar como a organização está cumprindo uma política DLP. Se uma política de DLP permite que os usuários substituam uma dica de política e relatem um falso positivo, também pode ser exibido o que os usuários relataram
     
-Você cria e gerencia as políticas DLP na página de Prevenção contra perda de dados no Centro de conformidade do Microsoft 365.
+Você cria e gerencia políticas DLP na página Prevenção Contra Perda de Dados no Centro de conformidade do Microsoft 365.
   
 ![Página de prevenção contra perda de dados no Centro de Conformidade &amp; Segurança do Office 365](../media/943fd01c-d7aa-43a9-846d-0561321a405e.png)
   
@@ -196,13 +196,15 @@ Esta é a aparência de uma dica de política em uma conta do OneDrive for Busin
 
  Para saber mais sobre as notificações de usuário e as dicas de política em políticas DLP, confira [Usar notificações e dicas de política](use-notifications-and-policy-tips.md).
 
-#### <a name="incident-reports"></a>Relatórios de incidentes
+#### <a name="alerts-and-incident-reports"></a>Relatórios de alertas e Incidentes
 
-Quando uma regra é correspondida, você pode enviar um relatório de incidentes ao responsável pela conformidade (ou qualquer pessoa que você escolher) com detalhes sobre o evento. Esse relatório inclui informações sobre o item que foi correspondido, o conteúdo real que correspondeu à regra e o nome da pessoa que modificou o conteúdo por último. Para mensagens de email, o relatório também inclui a mensagem original como anexo que corresponde a uma política DLP.
+Quando uma regra é correspondida, você pode enviar um email de alerta ao responsável pela conformidade (ou a qualquer pessoa(s) que você escolher) com os detalhes do alerta. O email de alerta carregará um link do [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md) que o responsável pela conformidade pode acessar para exibir os detalhes do alerta e eventos. O painel contém detalhes do evento que acionou o alerta junto com detalhes da política DLP combinada e o conteúdo confidencial detectado.
+
+Além disso, também pode ser enviado um relatório de incidentes com detalhes do evento. Este relatório inclui informações sobre o item que foi correspondido, o conteúdo real que correspondeu à regra e o nome da pessoa que modificou o conteúdo pela última vez. Para mensagens de email, o relatório também inclui a mensagem original como anexo que corresponde a uma política DLP.
   
-![Página para configurar relatórios de incidente](../media/31c6da0e-981c-415e-91bf-d94ca391a893.png)
+![Página para configurar relatórios de incidente](../media/Alerts-and-incident-report.png)
 
-O DLP verifica os e-mails de forma diferente da dos itens do SharePoint Online ou do OneDrive for Business. No SharePoint Online e no OneDrive for Business, o DLP verifica os itens existentes, bem como os novos, e gera um relatório de incidente sempre que uma correspondência é encontrada. No Exchange Online, a DLP verifica apenas novas mensagens de email e gera um relatório se houver uma correspondência de política. A DLP * *_não_* _ examina ou corresponde a itens de email existentes armazenados em uma caixa de correio ou arquivo.
+A DLP verifica o email de maneira diferente dos itens do Microsoft Office SharePoint Online ou Microsoft OneDrive for Business. No Microsoft Office SharePoint Online e no Microsoft OneDrive for Business, a DLP verifica os itens existentes e também os novos e gera um alerta e relatório de incidentes sempre que uma correspondência é encontrada. No Exchange Online, a DLP verifica apenas novas mensagens de email e gera um relatório se houver uma correspondência de política. A DLP * *_não_* _ examina ou corresponde a itens de email existentes armazenados em uma caixa de correio ou arquivo.
   
 ## <a name="grouping-and-logical-operators"></a>Operadores de agrupamento e lógicos
 

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Saiba como os administradores podem configurar e usar um conector de dados para importar e arquivar dados da ferramenta de chat do Bloomberg para o Microsoft 365.
-ms.openlocfilehash: 3a00e74d138810c4f9bc2ca851696a8c39b9f082
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 18635e6f197d954ae90c32bf5e3ae1ea8193f06d
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408751"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002356"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Configurar um conector para arquivar dados do Instant Bloomberg
 
@@ -52,7 +52,7 @@ Algumas das etapas de implementação necessárias para arquivar dados instantâ
 
 - Configurar um site Bloomberg SFTP (protocolo de transferência segura de arquivos). Depois de trabalhar com o Bloomberg para configurar o site SFTP, os dados do Bloomberg imediato são carregados para o site do SFTP todos os dias. O conector que você cria na etapa 2 se conecta a esse site SFTP e transfere os dados de chat para caixas de correio do Microsoft 365. O SFTP também criptografa os dados de chat do Bloomberg que são enviados para caixas de correio durante o processo de transferência.
 
-  Para obter informações sobre o Bloomberg SFTP (também chamado *de BB-SFTP*):
+  Para obter informações sobre o Bloomberg SFTP (também chamado *de BB-SFTP* ):
 
   - Consulte o documento "padrões de conectividade SFTP" no [suporte do Bloomberg](https://www.bloomberg.com/professional/support/documentation/).
 
@@ -74,13 +74,13 @@ Algumas das etapas de implementação necessárias para arquivar dados instantâ
 
 A primeira etapa é obter uma cópia das chaves públicas para SSH (Secure Shell) e PGP (boa privacidade). Use essas chaves na etapa 2 para configurar o site do Bloomberg SFTP para permitir que o conector (que você criou na etapa 3) se conecte ao site SFTP e transfira os dados de chat do Bloomberg para o Microsoft 365 caixas de correio. Você também obtém um endereço IP nesta etapa, que você usa ao configurar o site do Bloomberg SFTP.
 
-1. Vá para <https://compliance.microsoft.com> e clique em **conectores de dados**do  >  **Bloomberg imediato**.
+1. Vá para <https://compliance.microsoft.com> e clique em **conectores de dados** do  >  **Bloomberg imediato**.
 
 2. Na página descrição do produto do **Bloomberg instantâneo** , clique em **Adicionar conector**
 
 3. Na página **termos de serviço** , clique em **aceitar**.
 
-4. No **site adicionar credenciais para Bloomberg SFTP** , em etapa 1, clique na **chave de download SSH**, **baixar a chave PGP**e baixar links de **endereço IP** para salvar uma cópia de cada arquivo no computador local. Esses arquivos contêm os seguintes itens que são usados para configurar o site do Bloomberg SFTP na etapa 2:
+4. No **site adicionar credenciais para Bloomberg SFTP** , em etapa 1, clique na **chave de download SSH** , **baixar a chave PGP** e baixar links de **endereço IP** para salvar uma cópia de cada arquivo no computador local. Esses arquivos contêm os seguintes itens que são usados para configurar o site do Bloomberg SFTP na etapa 2:
 
    - Chave pública SSH: essa chave é usada para configurar o Secure Shell (SSH) para habilitar um logon remoto seguro quando o conector se conecta ao site do Bloomberg SFTP.
 
@@ -101,7 +101,7 @@ A próxima etapa é usar as chaves públicas SSH e PGP e o endereço IP obtido n
 
 A última etapa é criar um conector de Bloomberg instantâneo no centro de conformidade da Microsoft 365. O conector usa as informações que você fornece para se conectar ao site do Bloomberg SFTP e transferir mensagens de chat para as caixas de correio de usuário correspondentes no Microsoft 365.
 
-1. Vá para <https://compliance.microsoft.com> e clique em **conectores de dados**do  >  **Bloomberg imediato**.
+1. Vá para <https://compliance.microsoft.com> e clique em **conectores de dados** do  >  **Bloomberg imediato**.
 
 2. Na página descrição do produto do **Bloomberg instantâneo** , clique em **Adicionar conector**
 
@@ -117,11 +117,13 @@ A última etapa é criar um conector de Bloomberg instantâneo no centro de conf
 
     - **Porta SFTP:** O número da porta para o site Bloomberg SFTP. O conector usa essa porta para se conectar ao site SFTP.
 
-5. Na página de **mapeamento do usuário** , habilite o mapeamento automático de usuários e forneça mapeamento de usuário personalizado conforme necessário
+5. Na página **Selecionar tipos de dados a importar** , selecione os tipos de dados necessários a serem importados de **mensagens**
+
+6. Na página de **mapeamento do usuário** , habilite o mapeamento automático de usuários e forneça mapeamento de usuário personalizado conforme necessário
 
    > [!NOTE]
    > O conector importa os itens de mensagem de chat para a caixa de correio de um usuário específico. Uma nova pasta chamada **InstantBloomberg** é criada na caixa de correio do usuário específico e os itens serão importados para ela. O conector faz usando o valor da propriedade *CorporateEmailAddress* . Cada mensagem de chat contém essa propriedade e a propriedade é preenchida com o endereço de email de cada participante da mensagem de chat. Além do mapeamento automático de usuários usando o valor da propriedade *CorporateEmailAddress* , você também pode definir o mapeamento personalizado carregando um arquivo de mapeamento CSV. O arquivo de mapeamento deve conter o UUID do Bloomberg e o endereço da caixa de correio do Microsoft 365 correspondente para cada usuário. Se você habilitar o mapeamento automático de usuários e fornecer um mapeamento personalizado, para cada item de chat, o conector examinará primeiro o arquivo de mapeamento personalizado. Se não encontrar um usuário válido do Microsoft 365 que corresponda ao UUID do Bloomberg de um usuário, o conector usará a propriedade *CorporateEmailAddress* do item de chat. Se o conector não localizar um usuário válido do Microsoft 365 no arquivo de mapeamento personalizado ou na propriedade *CorporateEmailAddress* do item de chat, o item não será importado.
 
-6. Clique em **Avançar**, revise suas configurações e clique em **preparar** para criar o conector.
+7. Clique em **Avançar** , revise suas configurações e clique em **preparar** para criar o conector.
 
-7. Vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+8. Vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.

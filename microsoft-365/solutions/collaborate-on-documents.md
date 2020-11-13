@@ -11,17 +11,18 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá como colaborar com convidados em um documento no SharePoint e no OneDrive.
-ms.openlocfilehash: 022811be642a79c07c632cefcc67a27f19e3af4f
-ms.sourcegitcommit: 39af527404cb06e05c5aa4550dbec39aec133016
+ms.openlocfilehash: e3492732756aecb176eb21f0bdfd0d394013975e
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48422600"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030000"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Colaborar com convidados em um documento
 
@@ -54,7 +55,7 @@ Para definir configurações de colaboração externa
 
 Observe as configurações na seção **restrições de colaboração** . Certifique-se de que os domínios dos convidados com os quais você deseja colaborar não estão bloqueados.
 
-Se você trabalha com convidados de várias organizações, convém restringir sua capacidade de acessar dados de diretório. Isso impedirá que você veja quem mais é um convidado no diretório. Para fazer isso, em **restrições de acesso de usuário convidado**, selecione **os usuários convidados têm acesso limitado às propriedades e à associação de configurações de objetos de diretório** ou **o acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório**.
+Se você trabalha com convidados de várias organizações, convém restringir sua capacidade de acessar dados de diretório. Isso impedirá que você veja quem mais é um convidado no diretório. Para fazer isso, em **restrições de acesso de usuário convidado** , selecione **os usuários convidados têm acesso limitado às propriedades e à associação de configurações de objetos de diretório** ou **o acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório**.
 
 ## <a name="sharepoint-organization-level-sharing-settings"></a>Configurações de compartilhamento no nível da organização do SharePoint
 
@@ -71,8 +72,8 @@ Para o SharePoint, escolha a configuração mais permissiva que será necessári
 
 Para definir as configurações de compartilhamento no nível da organização do SharePoint
 
-1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, em **centros de administração**, clique em **SharePoint**.
-2. No centro de administração do SharePoint, no painel de navegação esquerdo, em **políticas**, clique em **compartilhamento**.
+1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, em **centros de administração** , clique em **SharePoint**.
+2. No centro de administração do SharePoint, no painel de navegação esquerdo, em **políticas** , clique em **compartilhamento**.
 3. Certifique-se de que o compartilhamento externo do SharePoint ou do OneDrive está definido como **qualquer pessoa** ou **convidado novo e existente**. (Observe que a configuração do OneDrive não pode ser mais permissiva do que a configuração do SharePoint.)
 4. Caso tenha feito alterações, clique em **Salvar**.
 
@@ -94,7 +95,7 @@ Escolha um link de qualquer um dos seguintes tipos, que é selecionado por padr�
 Para definir as configurações de link padrão no nível da organização do SharePoint e do OneDrive
 
 1. Navegue até a página de compartilhamento no centro de administração do SharePoint.
-2. Em **links de arquivo e pasta**, selecione o link de compartilhamento padrão que você deseja usar.
+2. Em **links de arquivo e pasta** , selecione o link de compartilhamento padrão que você deseja usar.
 3. Caso tenha feito alterações, clique em **Salvar**.
 
 Para definir a permissão para o link de compartilhamento, em **escolha a permissão selecionada por padrão para links de compartilhamento.**
