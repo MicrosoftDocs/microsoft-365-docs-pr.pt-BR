@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para pontos de extremidade. Os arquivos ficam visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: 966e201acb8038d85f0d06c0800c9845fd79097e
-ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
+ms.openlocfilehash: 0f69261cb5617c7d6de7900b85a5a254a04bc45e
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48984925"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999450"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do Microsoft 365 Endpoint
 
@@ -96,9 +96,17 @@ Se você tiver dispositivos integrados por meio do [Microsoft Defender para Pont
 - Arquivos .java
 
 > [!NOTE]
-> O DLP de ponto de extremidade avalia os arquivos de todos os tipos acima em relação à política de DLP e aplica as ações de proteção de acordo. Todos os arquivos que correspondem a uma política DLP recebem auditoria de todas as ações com suporte, mesmo que não estejam bloqueadas. Além disso, a atividade de arquivo realizada em qualquer arquivo do Word, PowerPoint, Excel, PDF e .csv é auditado por padrão, independentemente da existência de uma política DLP ou da correspondência desses arquivos.
+> O Endpoint DLP avalia arquivos de todos os tipos acima em relação à política DLP e aplica ações de proteção em conformidade. Todos os arquivos que correspondem a uma política DLP são auditados para todas as ações suportadas, mesmo que não estejam bloqueados. Além disso, a atividade de arquivos realizada em qualquer arquivo Word, PowerPoint, Excel, PDF e .csv é auditada por padrão, independente da existência de uma política DLP ou se ela corresponde a esses arquivos.
 
-Após a integração de um dispositivo, as informações sobre atividades auditadas fluem para o Gerenciador de atividade mesmo antes de você configurar e implantar qualquer política de DLP que tenha dispositivos como local.
+Você pode visualizar os alertas relacionados às políticas DLP aplicadas em dispositivos de ponto de extremidade indo até o Painel de Gerenciamento de Alertas [DLP](dlp-configure-view-alerts-policies.md).
+
+![Informações sobre alertas](../media/Alert-info-1.png)
+
+Você também pode visualizar detalhes do evento associado com metadados ricos no mesmo painel
+
+![informações do evento](../media/Event-info-1.png)
+
+Depois que um dispositivo é integrado, as informações sobre as atividades auditadas fluem para o Gerenciador de atividade antes mesmo de configurar e implantar qualquer política DLP que tenha dispositivos como local.
 
 > [!div class="mx-imgBorder"]
 > ![eventos do DLP do ponto de extremidade no gerenciador de atividades](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
