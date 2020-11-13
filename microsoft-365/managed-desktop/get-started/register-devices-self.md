@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 225cb8b74a50fa8308cc14e8ad35283e6a7aa044
-ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
+ms.openlocfilehash: 48c69a71a98e381123a8f87acc20a34eb6e99806
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48279563"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071484"
 ---
 # <a name="register-new-devices-yourself"></a>Registre novos dispositivos por conta própria
 
@@ -47,6 +47,8 @@ Você pode usar o script [Get-WindowsAutoPilotInfo.ps1](https://www.powershellga
 1.  Abra um prompt do PowerShell com direitos administrativos.
 2.  Sejam `Install-Script -Name Get-WindowsAutoPilotInfo`
 3.  Sejam `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+4.  Executar `powershell -ExecutionPolicy restricted` para evitar a execução de scripts não restritos subsequentes.
+
 
 #### <a name="flash-drive-method"></a>Método de unidade flash
 
@@ -83,8 +85,8 @@ No [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), selecione **di
 
 Siga estas etapas:
 
-1. Em **upload de arquivo**, forneça um caminho para o arquivo CSV que você criou anteriormente.
-3. Selecione **registrar dispositivos**. O sistema adicionará os dispositivos à sua lista de dispositivos na **lâmina de dispositivos**, marcada como **registro pendente**. O registro geralmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo aparecerá como **pronto para o usuário** , o que significa que ele está pronto e esperando que um usuário comece a usar o.
+1. Em **upload de arquivo** , forneça um caminho para o arquivo CSV que você criou anteriormente.
+3. Selecione **registrar dispositivos**. O sistema adicionará os dispositivos à sua lista de dispositivos na **lâmina de dispositivos** , marcada como **registro pendente**. O registro geralmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo aparecerá como **pronto para o usuário** , o que significa que ele está pronto e esperando que um usuário comece a usar o.
 
 
 Você pode monitorar o progresso do registro de dispositivo na página principal. Os Estados possíveis relatados incluem:
@@ -119,7 +121,6 @@ Você também poderá aplicar a imagem sozinho, se preferir. Para começar, entr
 > Antes de entregar o dispositivo ao usuário, verifique se você obteve e aplicou as [licenças apropriadas](../get-ready/prerequisites.md) para esse usuário.
 
 Se todas as licenças forem aplicadas, você poderá preparar [seus usuários para usar dispositivos](get-started-devices.md)e o usuário poderá iniciar o dispositivo e prosseguir com a experiência de instalação do Windows.
-
 
 
 

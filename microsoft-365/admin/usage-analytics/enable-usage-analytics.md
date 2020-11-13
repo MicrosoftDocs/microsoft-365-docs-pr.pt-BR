@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Saiba como iniciar a coleta de dados para o seu locatário usando o aplicativo de modelo de análise de uso do Microsoft 365 no Power BI.
-ms.openlocfilehash: 347256fa7acaae18cd31f0c8c6b7eca20ad2e9dd
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: cda5931e81f7ea13208825afa658f1c672a2f326
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941326"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071450"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Habilitar análise de uso do Microsoft 365
 
@@ -92,7 +92,7 @@ Para iniciar o aplicativo de modelo, você deve ser um **administrador global** 
   
 8. Depois que o aplicativo de modelo é instanciado, o painel de análise de uso do Microsoft 365 estará disponível no Power BI na Web. O carregamento inicial do painel levará entre 2 e 30 minutos.
   
-Os agregados de nível do locatário estarão disponíveis em todos os relatórios. Os **detalhes no nível do usuário só ficarão disponíveis após o 1º ou o 15º dia do mês do calendário após o recebimento**. Isso afetará todos os relatórios da atividade do usuário. Consulte [navegar e usar os relatórios no Microsoft 365 análise de uso](navigate-and-utilize-reports.md) para obter dicas sobre como exibir e usar esses relatórios.
+Os agregados de nível de locatário estarão disponíveis em todos os relatórios após a sua entrada. Os **detalhes no nível do usuário só ficarão disponíveis em torno do quinto do próximo mês do calendário depois de optar por** participar. Isso afetará todos os relatórios da atividade do usuário (consulte [navegar e usar a análise de uso dos relatórios no Microsoft 365](navigate-and-utilize-reports.md) para obter dicas sobre como exibir e usar esses relatórios).
     
 ## <a name="make-the-collected-data-anonymous"></a>Tornar os dados coletados anônimos
 

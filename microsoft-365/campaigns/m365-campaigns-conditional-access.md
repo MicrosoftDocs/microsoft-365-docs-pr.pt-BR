@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como exigir a MFA e configurar as políticas de acesso condicional para o Microsoft 365 for Business.
-ms.openlocfilehash: 917fb52eb5034c3dda28c277b9e86e04db6cac62
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 5908a36f09753cd8f66169c6a67be45c748807b7
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527193"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071496"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Exigir autenticação multifator e configurar políticas de acesso condicional
 
@@ -71,16 +71,16 @@ Para exigir que todos os usuários entrem com uma segunda forma de ID:
 
 ## <a name="set-up-baseline-policies"></a>Configurar políticas de linha de base
 
-1. Vá para [portal do Azure](https://portal.azure.com)e navegue até acesso **condicional do Azure Active Directory** \> **Conditional Access**.
-    
-    As políticas de linha de base estão listadas na página e você pode ver que **exigir MFA para administradores** e **proteção do usuário final** já está habilitada após a conclusão das etapas em [exigir MFA](#require-mfa).
+1. Vá para o [portal do Azure](https://portal.azure.com)e navegue até o acesso condicional **do Azure Active Directory** \> **Conditional Access** para criar uma **nova política**.
 
-    ![Página que lista as políticas de linha de base para acesso condicional.](../media/casettings.png)
-2. Consulte as seguintes instruções específicas para cada política:
-
-    - [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-    - [Exigir MFA para usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
-    - [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+Consulte as seguintes instruções específicas para cada política: <br>
+    - [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
+    - [Exigir MFA para usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
+    - [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
     - [Exigir MFA para gerenciamento de serviços](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+    
+> [!NOTE]
+> As políticas de visualização não existem mais e os usuários precisarão criar suas próprias políticas.
+
 
 Você pode configurar políticas adicionais, como exigir aplicativos cliente aprovados. Para obter mais informações, consulte a [documentação de acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/).

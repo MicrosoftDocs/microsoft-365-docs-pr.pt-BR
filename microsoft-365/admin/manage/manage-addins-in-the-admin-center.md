@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como usar suplementos centralizados para implantar suplementos para usuários e grupos em sua organização.
-ms.openlocfilehash: 6339858871834637c0b8fdd1b16c17b534026de9
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 5521b01e059ca8ae4a97ecb094f9aa1198263701
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48207881"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071472"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 
@@ -58,7 +58,7 @@ Considere a possibilidade de excluir um suplemento se ninguém estiver usando ma
 
 Você também pode excluir um suplemento implantado.
 
-1. No centro de administração, vá para a página **configurações**de  >  **&** de suplementos.
+1. No centro de administração, vá para a página **configurações** de  >  **&** de suplementos.
 
      > [!NOTE]
     > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para seção implantação centralizada em aplicativos de **configurações**  >  **integradas**. Na parte superior da página **aplicativos integrados** , escolha **suplementos**.
@@ -73,7 +73,7 @@ Você também pode excluir um suplemento implantado.
 
 Pós-implantação, os administradores também podem gerenciar o acesso do usuário a suplementos.
 
-1. No centro de administração, vá para a página **configurações**de  >  **&** de suplementos.
+1. No centro de administração, vá para a página **configurações** de  >  **&** de suplementos.
 
      > [!NOTE]
     > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para seção implantação centralizada em aplicativos de **configurações**  >  **integradas**. Na parte superior da página **aplicativos integrados** , escolha **suplementos**.
@@ -133,6 +133,9 @@ Isso não impede que um administrador use a implantação centralizada para atri
   
 Para impedir que um usuário entre com uma conta da Microsoft, você pode restringir o logon para usar apenas a conta organizacional. Para obter mais informações, consulte [identidade, autenticação e autorização no Office 2016](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx).  
 
+> [!NOTE]
+> Impedir que os usuários acessem a Office Store também os impedirá de [Sideload dos suplementos do Office para teste](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
+
 ## <a name="more-about-the-end-user-experience-with-add-ins"></a>Saiba mais sobre a experiência do usuário final com suplementos
 
 Depois de implantar um suplemento, os usuários finais podem começar a usá-lo em seus aplicativos do Office (Confira [começar a usar o suplemento do Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). O suplemento aparece em todas as plataformas compatíveis com o suplemento.
@@ -141,11 +144,11 @@ Se o suplemento suportar comandos de suplemento, os comandos serão exibidos na 
 
 ![Faixa de opções do Office com citações de pesquisa](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   
-Se o suplemento implantado não oferecer suporte a comandos de suplemento ou se você quiser exibir todos os suplementos implantados, poderá exibi-los por meio **de meus**suplementos. 
+Se o suplemento implantado não oferecer suporte a comandos de suplemento ou se você quiser exibir todos os suplementos implantados, poderá exibi-los por meio **de meus** suplementos. 
   
 ### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a>No Word 2016, no Excel 2016 ou no PowerPoint 2016
 
-1. Selecione **Inserir \> meus**suplementos. 
+1. Selecione **Inserir \> meus** suplementos. 
     
 2. Selecione a guia **Administração gerenciada** na janela suplementos do Office. 
     

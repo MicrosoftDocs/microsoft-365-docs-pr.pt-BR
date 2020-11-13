@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: f1b1a8f03b7a11a0467826281bc2b789140dbcee
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 7e40a5eb7144fef3d330e0e8fc3c711af15d4c49
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327041"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071438"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>Etapas para registrar dispositivos de parceiros
 
@@ -46,7 +46,7 @@ Depois de estabelecer a relação com seus clientes, você pode aproveitar o Par
 >[!NOTE]
 > Você deve ter recebido esse arquivo. csv com sua compra de dispositivo. Se você não recebeu um arquivo. csv, pode criar um por conta própria seguindo as etapas em [adicionando dispositivos ao Windows AutoPilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell). O script do Windows PowerShell é diferente daquele usado para o [portal de administração de área de trabalho gerenciada da Microsoft](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/register-devices-self?view=o365-worldwide#obtain-the-hardware-hash). Os parceiros devem usar o [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) para registrar dispositivos para dispositivos de área de trabalho gerenciada da Microsoft no Partner Center.
 
-Se você receber uma mensagem de erro ao tentar carregar o arquivo. csv, verifique o formato do arquivo. Você pode usar somente o hash de hardware ou o nome do OEM, o número de série e o modelo (na ordem da coluna) ou a ID do produto Windows. Você também pode usar o arquivo. csv de exemplo fornecido pelo link próximo a **Adicionar dispositivos** para criar uma lista de dispositivos. 
+Se você receber uma mensagem de erro ao tentar carregar o arquivo. csv, verifique o formato do arquivo. Certifique-se de que a ordem da coluna corresponde à que está descrita em [usar os perfis de piloto automático do Windows em novos dispositivos para personalizar a experiência de uso inicial do cliente](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account). Você também pode usar o arquivo. csv de exemplo fornecido pelo link próximo a **Adicionar dispositivos** para criar uma lista de dispositivos. 
 
 Para obter mais informações sobre o AutoPilot em cenários de parceiros, consulte [Adicionar dispositivos à conta de um cliente](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account).
 
