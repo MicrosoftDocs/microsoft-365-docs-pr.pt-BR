@@ -238,10 +238,8 @@
               href: dlp-configure-endpoints-sccm.md
             - name: Integrar dispositivos Windows 10 usando um script local
               href: dlp-configure-endpoints-script.md
-            - name: Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure).
+            - name: Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)
               href: dlp-configure-endpoints-vdi.md
-        - name: Introdução às recomendações de política DLP
-          href: get-started-with-dlp-policy-recommendations.md
         - name: Introdução à política DLP padrão
           href: get-started-with-the-default-dlp-policy.md
         - name: Criar uma política DLP com base em um modelo
@@ -342,6 +340,8 @@
               href: archive-twitter-data-with-sample-connector.md
         - name: Conectores de dados Globanet
           items:
+            - name: CellTrust
+              href: archive-celltrust-data.md
             - name: Cisco Jabber
               href: archive-ciscojabberonmssql-data.md
             - name: EML
@@ -350,11 +350,17 @@
               href: archive-fxconnect-data.md
             - name: Jive
               href: archive-jive-data.md
+            - name: Banco de dados MS SQL
+              href: archive-mssqldatabaseimporter-data.md
             - name: Pivot
               href: archive-pivot-data.md
+            - name: Reuters Dealing
+              href: archive-reutersdealing-data.md
             - name: Reuters Eikon
               href: archive-reuterseikon-data.md
-            - name: Margem de atraso da Descoberta Eletrônica
+            - name: Reuters FX
+              href: archive-reutersfx-data.md
+            - name: Descoberta eletrônica da Slack
               href: archive-slack-data.md
             - name: Symphony
               href: archive-symphony-data.md
@@ -366,6 +372,8 @@
               href: archive-webexteams-data.md
             - name: Workplace do Facebook
               href: archive-workplacefromfacebook-data.md
+            - name: XIP
+              href: archive-xip-data.md
             - name: XSLT/XML
               href: archive-xslt-xml-data.md
             - name: Reuniões do Zoom
@@ -1011,7 +1019,7 @@
               href: gdpr-dpia-azure.md
             - name: Dynamics 365
               href: gdpr-dpia-dynamics.md
-            - name: Suporte da Microsoft e Serviços Profissionais
+            - name: Suporte e Serviços Profissionais da Microsoft
               href: gdpr-dpia-prof-services.md
             - name: Office 365
               href: gdpr-dpia-office365.md
