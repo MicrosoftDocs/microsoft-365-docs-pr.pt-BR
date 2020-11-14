@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6e0f8e2661692930469aff85e0a7eeef2dd647e0
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: bdfb99531035054e0d6a27bc2c8b82c7f641ff2d
+ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948382"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071937"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -114,5 +114,5 @@ O[Gerenciador de Conformidade da Microsoft](compliance-manager.md) é um recurso
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Noções básicas sobre a conformidade HIPAA com o Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 de maio de 2016)
-- [Exemplo de Blueprint do HITRUST do Azure HIPAA](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
+- [Exemplo de Blueprint do HITRUST do Azure HIPAA](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -17,20 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Defina as permissões e funções de usuário do Microsoft Compliance Manager e configure o teste automatizado de ações. Gerenciar histórico de usuários e filtrar o modo de exibição do painel.
-ms.openlocfilehash: 141ddc8ac371b1a36c69ee79b5438408f8da19e8
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: d6dd7263779ae7f3e9366c0984360c191a62d5e8
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791889"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072886"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
-**Neste artigo:** Este artigo ajuda você a configurar o Gerenciador de conformidade. Saiba como **acessar** o Gerenciador de conformidade, **definir funções e permissões** e configurar **testes automáticos de ações de melhoria** . Mostre o **painel do Gerenciador de conformidade** e entenda as páginas principais: a página ações de melhoria, a página soluções, a página avaliações e a página modelos de avaliação.
+**Neste artigo:** Este artigo ajuda você a configurar o Gerenciador de conformidade. Saiba como **acessar** o Gerenciador de conformidade, **definir funções e permissões** e configurar **testes automáticos de ações de melhoria**. Mostre o **painel do Gerenciador de conformidade** e entenda as páginas principais: a página ações de melhoria, a página soluções, a página avaliações e a página modelos de avaliação.
 
 ## <a name="who-can-access-compliance-manager"></a>Quem pode acessar o gerente de conformidade
 
-O Gerenciador de conformidade está disponível para organizações com o Office 365 e as licenças do Microsoft 365. A disponibilidade de avaliação e os recursos de gerenciamento dependem do contrato de licenciamento.  [Exibir detalhes da descrição do serviço](https://go.microsoft.com/fwlink/?linkid=2132371).
+O Gerenciador de conformidade está disponível para organizações com o Office 365 e as licenças do Microsoft 365 e para clientes moderados da nuvem da Comunidade do governo dos EUA (GCC). A disponibilidade de avaliação e os recursos de gerenciamento dependem do contrato de licenciamento.  [Exibir detalhes da descrição do serviço](https://go.microsoft.com/fwlink/?linkid=2132371).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -61,13 +61,13 @@ Para definir permissões e atribuir funções de dentro do centro de conformidad
 
 4. No painel do submenu desse grupo, selecione **Editar** no cabeçalho **Membros** .
 
-5. Selecione **escolher Membros** . Será exibida outra janela de submenu.
+5. Selecione **escolher Membros**. Será exibida outra janela de submenu.
 
 6. Selecione **+ Adicionar** para escolher um ou mais usuários para adicionar ao grupo.
 
 7. Marque a caixa de seleção ao lado dos nomes que você deseja adicionar e, em seguida, selecione o botão **Adicionar** na parte inferior.
 
-8. Quando você terminar de atribuir usuários, selecione **concluído** , selecione **salvar** e **Fechar** .
+8. Quando você terminar de atribuir usuários, selecione **concluído** , selecione **salvar** e **Fechar**.
 
 ##### <a name="more-about-the-office-365-secruity--compliance-center"></a>Saiba mais sobre o centro de conformidade do Office 365 secruity &
 
@@ -110,7 +110,7 @@ O administrador global da sua organização pode alterar as configurações para
 
 1. Selecione **configurações** na navegação à esquerda de qualquer lugar no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
-2. Na página configurações, selecione **Gerenciador de conformidade** .
+2. Na página configurações, selecione **Gerenciador de conformidade**.
 
 3. Selecione **teste automatizado** na navegação à esquerda.
 
@@ -132,7 +132,7 @@ As configurações de histórico do usuário também permitem reatribuir todas a
 
 1. Selecione configurações na navegação à esquerda de qualquer lugar no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
-2. Na página configurações, selecione **Gerenciador de conformidade** .
+2. Na página configurações, selecione **Gerenciador de conformidade**.
 
 3. Selecione **gerenciar histórico de usuários** na navegação à esquerda.
 
@@ -150,13 +150,13 @@ O relatório reflete o status da ação de melhoria em sua data de criação. N�
 
 1. Selecione **configurações** na navegação à esquerda de qualquer lugar no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
-2. Na página configurações, selecione **Gerenciador de conformidade** .
+2. Na página configurações, selecione **Gerenciador de conformidade**.
 
 3. Selecione **gerenciar histórico de usuários** na navegação à esquerda.
 
 4. Encontre o usuário pretendido pesquisando os endereços de email da lista ou selecionando **Pesquisar** e inserindo o endereço de email do usuário.
 
-5. No menu suspenso **selecionar** , escolha **Exportar relatório** .
+5. No menu suspenso **selecionar** , escolha **Exportar relatório**.
 
 6. Depois que o arquivo do Excel do seu relatório for gerado, você poderá abri-lo e salvá-lo em sua máquina local.
 
@@ -168,19 +168,19 @@ Você pode reatribuir ações de melhoria de um usuário para outro. Quando voc�
 
 1. Selecione **configurações** na navegação à esquerda de qualquer lugar no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
-2. Na página configurações, selecione **Gerenciador de conformidade** .
+2. Na página configurações, selecione **Gerenciador de conformidade**.
 
 3. Selecione **gerenciar histórico de usuários** na navegação à esquerda.
 
 4. Encontre um usuário pesquisando os endereços de email da lista ou selecionando **Pesquisar** e inserindo o endereço de email desse usuário.
 
-5. No menu suspenso **selecionar** , escolha **reatribuir ações de aperfeiçoamento** . O painel de submenu **ações de aprimoramento de reatribuição** será exibido.
+5. No menu suspenso **selecionar** , escolha **reatribuir ações de aperfeiçoamento**. O painel de submenu **ações de aprimoramento de reatribuição** será exibido.
 
 6. No campo **Pesquisar usuários** , digite o nome ou o endereço de email do usuário *para* o qual você deseja atribuir as ações de aprimoramento.
 
-7. Quando você vir o nome do usuário pretendido em **que as ações de aperfeiçoamento serão atribuídas** , selecione o usuário e, em seguida, selecione **atribuir ações** .
+7. Quando você vir o nome do usuário pretendido em **que as ações de aperfeiçoamento serão atribuídas** , selecione o usuário e, em seguida, selecione **atribuir ações**.
 
-8. Quando a reatribuição estiver concluída, você verá uma mensagem de confirmação no painel de submenus confirmando que todas as ações de aprimoramento do usuário anterior foram reatribuídas ao novo usuário. Se você receber um aviso de falha de reatribuição, feche a janela e tente novamente. Para fechar o painel de submenu, selecione **concluído** .
+8. Quando a reatribuição estiver concluída, você verá uma mensagem de confirmação no painel de submenus confirmando que todas as ações de aprimoramento do usuário anterior foram reatribuídas ao novo usuário. Se você receber um aviso de falha de reatribuição, feche a janela e tente novamente. Para fechar o painel de submenu, selecione **concluído**.
 
 O novo destinatário recebe um email que foi atribuído a uma ação de melhoria. O email contém um link direto para a página de detalhes da ação de aprimoramento.
  
@@ -195,15 +195,15 @@ Para excluir o histórico de um usuário, siga as etapas abaixo:
 
 1. Selecione **configurações** na navegação à esquerda de qualquer lugar no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
-2. Na página configurações, selecione **Gerenciador de conformidade** .
+2. Na página configurações, selecione **Gerenciador de conformidade**.
 
 3. Selecione **gerenciar histórico de usuários** na navegação à esquerda.
 
 4. Encontre um usuário pesquisando os endereços de email da lista ou selecionando **Pesquisar** e inserindo o endereço de email desse usuário.
 
-5. No menu suspenso **selecionar** , escolha **Excluir Histórico** .
+5. No menu suspenso **selecionar** , escolha **Excluir Histórico**.
 
-6. Uma janela é exibida solicitando que você confirme a exclusão permanente do histórico do usuário. Para continuar com a exclusão, selecione **Excluir Histórico** . Para sair sem excluir o histórico, selecione **Cancelar** .
+6. Uma janela é exibida solicitando que você confirme a exclusão permanente do histórico do usuário. Para continuar com a exclusão, selecione **Excluir Histórico**. Para sair sem excluir o histórico, selecione **Cancelar**.
 
 7. Você chegará à página **gerenciar histórico de usuários** com uma mensagem de confirmação na parte superior de que o histórico do usuário foi excluído.
 
@@ -243,14 +243,14 @@ Você pode filtrar o modo de exibição do painel para ver apenas os itens relac
 Para aplicar filtros:
 
 1. Selecione **filtro** no lado superior direito do painel.
-2. Selecione seus critérios de filtro no painel de submenu **filtros** e selecione **aplicar** .
+2. Selecione seus critérios de filtro no painel de submenu **filtros** e selecione **aplicar**.
 
 Depois de aplicar um filtro, você verá sua pontuação ajustada em tempo real. A porcentagem de Pontuação de conformidade e as informações de divisão, e as ações e soluções de melhoria, agora pertencem apenas aos dados cobertos por seus critérios de filtro. Se você sair do Gerenciador de conformidade, sua exibição filtrada permanecerá quando você entrar novamente.
 
 Para remover filtros:
 
 - No cabeçalho **filtros aplicados** acima da Pontuação de conformidade, selecione o **X** ao lado do filtro individual que você deseja remover; ou
-- Selecione **filtro** no lado superior direito do painel e, em seguida, no painel de submenu **filtros** , selecione **limpar filtros** .
+- Selecione **filtro** no lado superior direito do painel e, em seguida, no painel de submenu **filtros** , selecione **limpar filtros**.
 
 ## <a name="improvement-actions-page"></a>Página ações de melhoria
 
@@ -264,7 +264,7 @@ A página ações de melhoria mostra todas as ações de aperfeiçoamento gerenc
 
 Se você tiver uma longa lista de ações na página ações de aprimoramento, talvez seja útil filtrar o modo de exibição. Selecione **filtro** no canto superior direito da lista ações. Quando o painel de submenu **filtros** for exibido, selecione seus critérios com base em regulamentos e padrões, solução e grupo. Você também pode personalizar o modo de exibição selecionando **Agrupar** no canto superior direito. No menu suspenso, selecione para exibir por grupo, solução, categoria, tipo de ação ou status.
 
-O modo de exibição padrão para esta página não mostra ações de aperfeiçoamento com um status de teste de **aprovado** . Para exibir ações que passaram no teste, marque a caixa **aprovado** no painel de submenu filtros. Somente as ações com um status de teste de contagem **passada** em relação à sua pontuação. Algumas ações podem mostrar um **rótulo de atualização pendente.** Saiba mais sobre [atualizações para ações de melhoria](compliance-manager-improvement-actions.md#accepting-updates-to-improvement-actions).
+O modo de exibição padrão para esta página não mostra ações de aperfeiçoamento com um status de teste de **aprovado**. Para exibir ações que passaram no teste, marque a caixa **aprovado** no painel de submenu filtros. Somente as ações com um status de teste de contagem **passada** em relação à sua pontuação. Algumas ações podem mostrar um **rótulo de atualização pendente.** Saiba mais sobre [atualizações para ações de melhoria](compliance-manager-improvement-actions.md#accepting-updates-to-improvement-actions).
 
 A página ações de melhoria mostra os seguintes pontos de dados para cada ação de melhoria:
 
@@ -312,7 +312,7 @@ Há duas maneiras de executar uma ação nesta tela:
 
 1. Na linha da sua solução pretendida, na coluna **ações restantes** , selecione o número de hiperlink. Você verá um modo de exibição filtrado da tela ações de melhoria mostrando ações de aperfeiçoamento não testadas para essa solução.
 
-2. Na linha da sua solução pretendida, na coluna **Abrir solução** , selecione **abrir** . Você verá a solução ou o local nos centros de segurança e conformidade do Microsoft 365 e do Office 365, onde você pode executar a ação recomendada.
+2. Na linha da sua solução pretendida, na coluna **Abrir solução** , selecione **abrir**. Você verá a solução ou o local nos centros de segurança e conformidade do Microsoft 365 e do Office 365, onde você pode executar a ação recomendada.
 
 ## <a name="assessments-page"></a>Página de avaliações
 

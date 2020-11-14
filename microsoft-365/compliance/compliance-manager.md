@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O gerente de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: d7136368a1c9726d1a77a0c99e717b98e1920242
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 4508f07b0077d409de1ac033de67d20d1c3f2a7e
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791797"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072930"
 ---
 # <a name="microsoft-compliance-manager"></a>Gerente de conformidade da Microsoft
 
@@ -30,7 +30,7 @@ ms.locfileid: "48791797"
 
 ## <a name="whats-new-the-ga-release-of-compliance-manager"></a>O que há de novo: o lançamento de GA do gerente de conformidade
 
-O Gerenciador de conformidade agora está disponível no mercado (GA) como uma solução de gerenciamento de conformidade de ponta a ponta dentro do [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md). Com esta versão, o Gerenciador de conformidade conclui a transição do local anterior no portal de confiança do serviço Microsoft.
+O Gerenciador de conformidade agora está disponível no mercado (GA) como uma solução de gerenciamento de conformidade de ponta a ponta dentro do [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md). Com esta versão, o Gerenciador de conformidade conclui a transição do local anterior no portal de confiança do serviço Microsoft. O Gerenciador de conformidade também está disponível para clientes moderados da Comunidade governamental dos EUA (GCC).
 
 O que começou como a visualização pública da Pontuação de conformidade evoluiu para uma ferramenta centralizada com recursos aprimorados de gerenciamento de conformidade e maior facilidade de uso.  O lançamento de GA oferece uma coleção maior de avaliações pré-configuradas para ajudá-lo a dimensionar suas atividades de conformidade.
 

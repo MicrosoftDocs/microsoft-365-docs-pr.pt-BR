@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 7abfbe101508d24e58464ff38b14ab87447001f0
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: d26e33efea09c2afb33c2b5e5ade264cb8bfaee6
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379305"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072940"
 ---
 # <a name="learn-about-classifiers-preview"></a>Saiba mais sobre classificadores (visualização)
 
@@ -68,10 +68,10 @@ Os rótulos de confidencialidade podem usar classificadores como condições, co
 A Microsoft 365 vem com cinco classificadores pré-qualificados:
 
 > [!CAUTION]
-> Estamos preterindo o classificador de **idiomas ofensivos** antes de produzir um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. É recomendável usar os classificadores treinados **contra ameaças**, **profanação**e **assédio** .
+> Estamos preterindo o classificador de **idiomas ofensivos** antes de produzir um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. É recomendável usar os classificadores treinados **contra ameaças** , **profanação** e **assédio** .
 
-- **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato
-- **Código-fonte**: detecta itens que contêm um conjunto de instruções e instruções escritas nas principais linguagens de programação de computador usadas no github
+- **Currículos** : detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato
+- **Código-fonte** : detecta itens que contêm um conjunto de instruções e instruções escritas nas principais linguagens de programação de computador usadas no github
     - Código
     - C
     - C#
@@ -99,9 +99,9 @@ A Microsoft 365 vem com cinco classificadores pré-qualificados:
 > [!NOTE]
 > O código-fonte é treinado para detectar quando a maior parte do texto é o código-fonte. Ele não detecta o texto do código-fonte que é intercalado com texto sem formatação.
 
-- **Assédio**: detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas à conduta ofensiva direcionando uma ou várias pessoas com base nas seguintes características: corrida, étnica, Religion, origem nacional, sexo, orientação sexual, idade, deficiência
-- **Profanação**: detecta uma categoria específica de itens de texto de idioma ofensivo que contêm expressões que constrangim a maioria das pessoas
-- **Ameaça**: detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas a ameaças para confirmar a violência ou danos físicos ou danos a uma pessoa ou a uma propriedade
+- **Assédio** : detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas à conduta ofensiva direcionando uma ou várias pessoas com base nas seguintes características: corrida, étnica, Religion, origem nacional, sexo, orientação sexual, idade, deficiência
+- **Profanação** : detecta uma categoria específica de itens de texto de idioma ofensivo que contêm expressões que constrangim a maioria das pessoas
+- **Ameaça** : detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas a ameaças para confirmar a violência ou danos físicos ou danos a uma pessoa ou a uma propriedade
 
 Eles aparecem no modo de exibição de classificação de dados do **centro de conformidade da Microsoft 365**  >  **(visualização)**  >  **classificadores estagiários** com o status de `Ready to use` .
 
@@ -113,9 +113,6 @@ Eles aparecem no modo de exibição de classificação de dados do **centro de c
 ### <a name="custom-classifiers"></a>Classificadores personalizados
 
 Quando os classificadores treinados não atenderem às suas necessidades, você poderá criar e treinar seus próprios classificadores. Há muito mais trabalho envolvido na criação de suas próprias, mas eles serão muito mais adequados às suas necessidades de organizações.
-
-> [!IMPORTANT]
-> Por padrão, apenas o usuário que cria um classificador personalizado pode treinar e revisar previsões feitas por esse classificador. Se quiser que outras pessoas possam treinar e revisar previsões de classificador, confira [fornecer aos outros direitos de treinamento e revisão](classifier-get-started-with.md#give-others-train-and-review-rights).
 
 #### <a name="process-flow-for-creating-custom-classifiers"></a>Fluxo do processo de criação de classificadores personalizados
 

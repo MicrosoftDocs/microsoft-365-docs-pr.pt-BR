@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use o guia de início rápido do Gerenciador de conformidade para ajudá-lo na sua jornada de compreensão, configuração e uso do Gerenciador de conformidade.
-ms.openlocfilehash: 895f03482c0af9603aa96d907d7339a853ef5e9d
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 9f24a0495b7d453b70a28ad54d76ccf835000ed6
+ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791787"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071965"
 ---
 # <a name="compliance-manager-quickstart"></a>QuickStart do Gerenciador de Conformidade
 
@@ -43,6 +43,7 @@ Nossa [página de visão geral do Gerenciador de conformidade](compliance-manage
 - [Filtrar o modo de exibição do painel](compliance-manager-setup.md#filtering-your-dashboard-view)
 - [Saiba mais sobre ações de melhoria](compliance-manager-setup.md#improvement-actions-page)
 - [Entender avaliações](compliance-manager.md#assessments)
+- [Fazer uma verificação rápida do seu ambiente usando o gerente de configuração de conformidade da Microsoft](compliance-manager-mcca.md)
 
 ## <a name="ramping-up-configure-compliance-manager-to-manage-your-compliance-activities"></a>Crescimento: Configure o Gerenciador de conformidade para gerenciar suas atividades de conformidade
 

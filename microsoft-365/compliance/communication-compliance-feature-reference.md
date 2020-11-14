@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 9cb1afe0d8983943b83661880b4b41a6138703ad
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: e8ce5a144c7361cd483a903dc3e287a4a51a508b
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930204"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073068"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -58,7 +58,7 @@ Dependendo de como você deseja gerenciar políticas e alertas de comunicação,
 
 Escolha uma destas opções de grupo de funções ao configurar a conformidade de comunicação:
 
-|**Função**|**Permissões de função**|
+|**Default management role assignments for this role**|**Permissões do grupo de funções**|
 |:-----|:-----|
 | **Conformidade de comunicação** | Use esse grupo de funções para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas, investigadores e visualizadores designados, você pode configurar as permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente a conformidade com comunicações e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados. |
 | **Administração de conformidade de comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e mais tarde para segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de funções podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a este grupo de funções não podem exibir alertas de mensagem. |
@@ -241,7 +241,7 @@ A proteção da privacidade dos usuários que têm correspondências de polític
 
 Para usuários com uma correspondência de conformidade de comunicação, você pode escolher uma das configurações a seguir nas **configurações de conformidade de comunicação** :
 
-- **Mostrar versões de nomes de usuário anônimos** : os nomes de usuários são anônimos para impedir que administradores, analistas, investigadores de dados e revisores vejam quem está associado aos alertas de política. Por exemplo, um "Taylor de cortesia" do usuário apareceria com um pseudonym aleatório, como "AnonIS8-988" em todas as áreas da experiência de conformidade de comunicação. A escolha dessa configuração anonymizes todos os usuários com correspondências de política atuais e anteriores e se aplicam a todas as políticas. As informações de perfil de usuário nos detalhes de alerta de conformidade de comunicação não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuários são exibidos ao adicionar novos usuários às políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que têm correspondências de política atuais ou antigas.
+- **Mostrar versões anonimato de nomes de** usuário: os nomes de usuários são anônimos para impedir que os usuários no grupo de função de *analista de conformidade de comunicação* vejam quem está associado aos alertas de política. Os usuários no grupo de função do *investigador de conformidade de comunicação* sempre verão nomes de usuário, e não as versões anonimato. Por exemplo, um "Taylor de cortesia" do usuário apareceria com um pseudonym aleatório, como "AnonIS8-988" em todas as áreas da experiência de conformidade de comunicação. A escolha dessa configuração anonymizes todos os usuários com correspondências de política atuais e anteriores e se aplicam a todas as políticas. As informações de perfil de usuário nos detalhes de alerta de conformidade de comunicação não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuários são exibidos ao adicionar novos usuários às políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que têm correspondências de política atuais ou antigas.
 - **Não mostrar versões de nomes de usuário anônimos** : os nomes de usuários são exibidos para todas as correspondências de política atuais e anteriores para alertas de conformidade de comunicação. As informações de perfil de usuário (o nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas de conformidade de comunicação.
 
 ## <a name="notice-templates"></a>Modelos de aviso

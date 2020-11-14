@@ -8,19 +8,19 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: daniha
+ms.author: siosulli
 author: DaniHalfin
 manager: dansimp
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: dc921215ef8e1e1a1a187a5b8be46916c30d5f2c
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 5d0a5563de2443e5af0f3b7efda0947d4f669cee
+ms.sourcegitcommit: e03bc2945e63f7f2638257e530056ae9283b45d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920275"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49070895"
 ---
 # <a name="data-processor-service-for-windows-enterprise-breach-notification-under-the-gdpr"></a>Serviço de processamento de dados da notificação de violação do Windows Enterprise sob o GDPR
 

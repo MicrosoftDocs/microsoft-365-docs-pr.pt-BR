@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador da Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo fornecendo amostras de ti para ver. Este artigo mostra como criar e treinar um classificador personalizado e como retreiná-los para aumentar a precisão.
-ms.openlocfilehash: f0d3659c1ee03fe69a5513f24d15b295400a24dc
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 9fe50f7faada77492fd93a86d0c3549cc8e1d361
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906342"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072960"
 ---
 # <a name="get-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -53,7 +53,7 @@ Você precisará de contas com essas permissões para usar classificadores neste
 - Cenário de política de conformidade de comunicação: administração de gerenciamento de risco do Insider, administrador de análise de supervisão 
 
 > [!IMPORTANT]
-> Por padrão, apenas o usuário que cria um classificador personalizado pode treinar e revisar previsões feitas por esse classificador. Se quiser que outras pessoas possam treinar e revisar previsões de classificador, confira [fornecer aos outros direitos de treinamento e revisão](#give-others-train-and-review-rights).
+> Por padrão, apenas o usuário que cria um classificador personalizado pode treinar e revisar previsões feitas por esse classificador.
 
 ## <a name="prepare-for-a-custom-trainable-classifier"></a>Preparar-se para um classificador treinado personalizado 
 
@@ -156,21 +156,3 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
 20. Publicar o classificador.
 
 21. Depois de publicado, o classificador estará disponível como uma condição na [rotulação automática do Office com rótulos de sensibilidade](apply-sensitivity-label-automatically.md), [aplicar automaticamente a política de rótulo de retenção com base em uma condição](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels) e em [conformidade de comunicação](communication-compliance.md).
-
-## <a name="give-others-train-and-review-rights"></a>Fornecer aos outros direitos de treinamento e revisão
-
-Use este procedimento para dar a outras permissões para treinar, revisar e ajustar seu classificador treinado personalizado.  
- 
-1. Como criador do classificador, um administrador global de administração ou descoberta eletrônica conecta-se ao centro de conformidade usando o PowerShell usando os procedimentos em [conectar-se ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps&preserve-view=true).
-
-2. Execute este comando:
-
-   ```powershell
-   Add-ComplianceCaseMember -Case "<classifier name>" -Member "<user or role group>"
-   ```
-   
-   Por exemplo:
-   
-   `Add-ComplianceCaseMember -Case "Financial Contract Classifier" -Member johnevans@contoso.com`
-
-   Você pode executar esse comando várias vezes para adicionar vários usuários. Observe que você só pode adicionar grupos de função do Exchange Online Protection (EOP) e não grupos de função do Azure.
