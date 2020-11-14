@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: f9c26e7e4af99174c5723b44c59d7279ca93afa5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 19e121ce3f85dc31c3bf81c4750300c4016b1222
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846443"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072766"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -35,8 +35,9 @@ Este guia discute como implantar as políticas recomendadas em um ambiente provi
 
 O diagrama a seguir ilustra o conjunto de políticas recomendado. Ele mostra qual camada de proteção cada política se aplica e se as políticas se aplicam a PCs ou telefones e tablets ou a ambas as categorias de dispositivos. Ele também indica onde você configura essas políticas.
 
-[ ![ Políticas comuns para configurar a identidade e o acesso ao dispositivo](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
- [consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+[![Políticas comuns para configurar a identidade e o acesso ao dispositivo](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+
+[Veja uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 Veja um resumo do PDF de uma página com links para as políticas individuais:
 
@@ -107,7 +108,7 @@ As tabelas a seguir descrevem as configurações de política de acesso condicio
 
 Na seção **assignments** :
 
-|Configuração|Propriedades|Valores|Anotações|
+|Setting|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
 |Usuários e grupos|Incluir| **Selecione usuários e grupos > usuários e grupos** : selecionar grupos específicos contendo contas de usuário direcionadas. |Comece com o grupo que inclui as contas de usuário piloto.|
 ||Excluir| **Usuários e grupos** : Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
@@ -129,7 +130,7 @@ Aplique as configurações de nível de risco com base no nível de proteção q
 
 Na seção **controles de acesso** :
 
-|Configuração|Propriedades|Valores|Action|
+|Setting|Propriedades|Valores|Action|
 |:---|:---------|:-----|:----|
 |Conceder|**Grant access**| | Selecionar |
 |||**Exigir autenticação multifator**| Verificar |
@@ -150,7 +151,7 @@ Confira [Este artigo](../../enterprise/microsoft-365-client-support-modern-authe
 
 Na seção **assignments** :
 
-|Configuração|Propriedades|Valores|Anotações|
+|Setting|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
 |Usuários e grupos|Incluir| **Selecione usuários e grupos > usuários e grupos** : selecionar grupos específicos contendo contas de usuário direcionadas. |Comece com o grupo que inclui as contas de usuário piloto.|
 ||Excluir| **Usuários e grupos** : Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
@@ -160,7 +161,7 @@ Na seção **assignments** :
 
 Na seção **controles de acesso** :
 
-|Configuração|Propriedades|Valores|Action|
+|Setting|Propriedades|Valores|Action|
 |:---|:---------|:-----|:----|
 |Conceder|**Bloquear acesso**| | Selecionar |
 ||**Exigir todos os controles selecionados** ||Selecionar|
@@ -192,7 +193,7 @@ Na segunda seção de **atribuições** :
 
 | Tipo | Propriedades | Valores                  | Action |
 |:-----|:-----------|:------------------------|:------|
-| Acesso | **Permitir acesso** |  | Selecionar  |
+| Acessar | **Permitir acesso** |  | Selecionar  |
 |      |     | **Requer a alteração de senha** | Verificar  |
 |||||
 

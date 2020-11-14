@@ -15,34 +15,30 @@ ms.collection:
 - commerce
 - Adm_NonTOC
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-ms.assetid: 0199dd39-7c46-4875-af9b-588df3a9afea
 ROBOTS: NOINDEX
 description: Saiba como resgatar uma chave de produto do Microsoft 365 Business Standard comprada em uma loja de varejo.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 9dcf38937e6140f1b0b20688d1dac0a9f3962cbe
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1c647efaa880096a9fc7713aa28960d563eff69d
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638358"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072742"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Insira sua chave do produto para o Microsoft 365 Business Standard
 
-Se você comprou o Microsoft 365 Business Standard de uma loja de varejo, este artigo ajuda você a ativar sua assinatura. 
+Se você comprou o Microsoft 365 Business Standard de uma loja de varejo, este artigo ajuda você a ativar sua assinatura.
   
  **Precisa de mais alguma coisa?**
- **Para obter ajuda com a família microsoft 365 ou o microsoft 365 Personal**, consulte [usando chaves de produto com o Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
+ **Para obter ajuda com a família microsoft 365 ou o microsoft 365 Personal** , consulte [usando chaves de produto com o Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
  **Cliente de licenciamento por volume?** Se você comprou o Microsoft 365 for Business por meio de um [programa de licença aberta da Microsoft](https://go.microsoft.com/fwlink/p/?LinkID=613298), consulte o artigo, [digite a chave do produto comprada da Microsoft aberta](purchases-from-microsoft-open.md).
   
 ## <a name="activate-a-new-subscription"></a>Ativar uma nova assinatura
 
-1. Vá até <a href="https://go.microsoft.com/fwlink/p/?LinkId=839911" target="_blank">Office.com/SetupKey</a>.
+1. Acesse <a href="https://go.microsoft.com/fwlink/p/?LinkId=839911" target="_blank">https://microsoft365.com/setupbusiness</a>.
 
 2. Insira a chave do produto e, em seguida, selecione **Avançar**.
 
@@ -59,7 +55,7 @@ Se você comprou o Microsoft 365 Business Standard de uma loja de varejo, este a
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>Estender a data de expiração ou adicionar uma licença a uma assinatura existente
 
-Para usar uma chave do produto (Product Key) para estender a data de expiração ou adicionar uma licença à sua assinatura atual do Microsoft 365 Business Standard, você precisa de uma chave nova e não usada para o mesmo plano do Microsoft 365. Inserir sua chave de produto do Microsoft 365 original não funcionará porque uma chave que já foi resgatada não pode ser usada novamente. Consulte [adicionar licenças ou estender uma assinatura paga para usar uma chave do produto (Product Key](licenses/add-licenses-using-product-key.md)).
+Para estender a data de expiração ou adicionar uma licença à sua assinatura atual do Microsoft 365 Business Standard, use uma chave nova e não usada para o mesmo plano do Microsoft 365. Inserir sua chave de produto do Microsoft 365 original não funcionará porque uma chave que já foi resgatada não pode ser usada novamente. Consulte [adicionar licenças ou estender uma assinatura paga para usar uma chave do produto (Product Key](licenses/add-licenses-using-product-key.md)).
 
 ## <a name="whats-next"></a>O que vem a seguir?
 

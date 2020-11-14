@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Veja o status de integridade dos serviços do Microsoft 365 antes de ligar para o suporte para ver se há uma interrupção ativa do serviço.
-ms.openlocfilehash: 20e19072e1a851fba20e556be696146b8ad57a2f
-ms.sourcegitcommit: 392f60efa0921c64ac1462dd63985cd156e6498a
+ms.openlocfilehash: b1819e455732d142c563f598433c410b0ae60882
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48134070"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072754"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Como verificar a integridade do serviço Microsoft 365
 
@@ -39,7 +39,8 @@ ms.locfileid: "48134070"
 
 Você pode exibir a integridade de seus serviços da Microsoft, incluindo o Office na Web, o Yammer, o Microsoft Dynamics CRM e os serviços de nuvem de gerenciamento de dispositivo móvel, na página **integridade do serviço** no centro de [administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339). Se tiver problemas com um serviço em nuvem, poderá verificar a integridade do serviço para determinar se é um problema conhecido com uma resolução em andamento, antes de chamar o suporte ou perder tempo na solução de problemas.
 
-Se você não conseguir entrar no portal de serviço, poderá usar a [página status do serviço](https://status.office365.com) para verificar se há problemas conhecidos, impedindo o login no locatário.
+Se você não conseguir entrar no centro de administração, poderá usar a [página status do serviço](https://status.office365.com) para verificar se há problemas conhecidos, impedindo o login no locatário.  Inscreva-se para nos seguir em [@MSFT365status](https://twitter.com/MSFT365Status) no Twitter para ver informações sobre determinados eventos.
+
   
 ### <a name="how-to-check-service-health"></a>Como verificar a integridade do serviço
 
@@ -50,7 +51,7 @@ Se você não conseguir entrar no portal de serviço, poderá usar a [página st
   
 2. Se você não estiver usando o novo centro de administração, na **Home** Page, marque a opção **Experimente o novo centro de administração** alternar no canto superior direito.
 
-3. Para exibir a integridade do serviço, no centro de administração, **Health**vá para  >  **integridade do serviço**de integridade ou selecione o cartão de **integridade do serviço** no **painel inicial**. O cartão de painel indica se há um problema de serviço ativo e links para a página de **integridade do serviço** detalhada.
+3. Para exibir a integridade do serviço, no centro de administração, **Health** vá para  >  **integridade do serviço** de integridade ou selecione o cartão de **integridade do serviço** no **painel inicial**. O cartão de painel indica se há um problema de serviço ativo e links para a página de **integridade do serviço** detalhada.
   
 4. Na página **integridade do serviço** , o estado de integridade de cada serviço de nuvem é mostrado em um formato de tabela.
 
@@ -62,11 +63,11 @@ Para filtrar o modo de exibição para serviços que estão experimentando um in
 
 A guia **histórico** mostra o histórico de incidentes e avisos que foram resolvidos.
 
-Se você estiver enfrentando um problema com um serviço do Microsoft 365 e não vê-lo listado na página **integridade do serviço** , fale conosco selecionando **relatar um problema**e preenchimento de forma curta. Examinaremos os dados relacionados e os relatórios de outras organizações para ver o grau de disseminação do problema e se ele se originou com nosso serviço. Se tiver feito isso, vamos adicioná-lo como um novo incidente ou comunicado na página **integridade do serviço** , onde você pode controlar a resolução. Se você não vê-lo aparece na lista em cerca de 30 minutos, considere o suporte de contato para resolver o problema.
+Se você estiver enfrentando um problema com um serviço do Microsoft 365 e não vê-lo listado na página **integridade do serviço** , fale conosco selecionando **relatar um problema** e preenchimento de forma curta. Examinaremos os dados relacionados e os relatórios de outras organizações para ver o grau de disseminação do problema e se ele se originou com nosso serviço. Se tiver feito isso, vamos adicioná-lo como um novo incidente ou comunicado na página **integridade do serviço** , onde você pode controlar a resolução. Se você não vê-lo aparece na lista em cerca de 30 minutos, considere o suporte de contato para resolver o problema.
 
-Para personalizar a exibição dos serviços exibidos no painel, selecione **Preferences**  >  **modo de exibição personalizado**preferências e desmarque as caixas de seleção dos serviços que você deseja filtrar do modo de exibição do painel de integridade do serviço. Certifique-se de que a caixa de seleção está marcada para cada serviço que você deseja monitorar.    
+Para personalizar a exibição dos serviços exibidos no painel, selecione **Preferences**  >  **modo de exibição personalizado** preferências e desmarque as caixas de seleção dos serviços que você deseja filtrar do modo de exibição do painel de integridade do serviço. Certifique-se de que a caixa de seleção está marcada para cada serviço que você deseja monitorar.    
 
-Para inscrever-se para receber notificações por email de novos incidentes que afetam as alterações de locatário e de status **Preferences**de um incidente ativo, selecione  >  **emails**de preferências, clique em **enviar-me notificações do serviço Heath no email**e especifique:
+Para inscrever-se para receber notificações por email de novos incidentes que afetam as alterações de locatário e de status **Preferences** de um incidente ativo, selecione  >  **emails** de preferências, clique em **enviar-me notificações do serviço Heath no email** e especifique:
 
 - Até dois endereços de email.
 - Se você deseja notificações para incidentes ou comunicados
@@ -103,7 +104,7 @@ Como as explicações de integridade do serviço são postadas em tempo real, el
   
 1. Acesse [Tradutor](https://www.bing.com/translator/).
 
-2. Na página **Integridade do Serviço**, selecione um incidente ou aviso. Em **Mostrar Detalhes**, copie o texto sobre o problema.
+2. Na página **Integridade do Serviço** , selecione um incidente ou aviso. Em **Mostrar Detalhes** , copie o texto sobre o problema.
 
 3. No Tradutor, cole o texto e escolha **Traduzir**.
 
