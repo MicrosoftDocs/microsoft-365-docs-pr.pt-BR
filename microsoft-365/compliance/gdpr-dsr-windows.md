@@ -8,35 +8,35 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: daniha
+ms.author: siosulli
 author: DaniHalfin
 manager: dansimp
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 916ee45dae92d14c78b92bb16b6dca7c455bf803
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: e4065fc992305976a1309b05a473e15e1f03f09c
+ms.sourcegitcommit: e03bc2945e63f7f2638257e530056ae9283b45d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304895"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49070875"
 ---
-# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Serviço de processador de dados das Solicitações do Titular de Dados do Windows Enterprise para o GDPR e o CCPA 
+# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Serviço dp processador de dados das Solicitações do Titular de Dados do Windows Enterprise para o GDPR e o CCPA 
 
 >[!NOTE]
->Este tópico se destina aos participantes do serviço de processador de dados do programa de visualização prévia do Windows Enterprise e requer a aceitação dos termos de uso específicos. Para saber mais sobre o programa e concordar com os termos de uso, acesse [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
+>Este tópico se destina aos participantes do serviço do processador de dados para o programa de visualização do Windows Enterprise e requer a aceitação de termos de uso específicos. Para saber mais sobre o programa e concordar com os termos de uso, confira [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Introdução às DSRs (Solicitações de Titulares de Dados) 
-O RGPD (Regulamento Geral sobre a Proteção de Dados) da União Europeia concede o direito às pessoas (reconhecidas na regulamentação como _titulares de dados_) de gerenciar os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecidos como _controladores de dados_ ou apenas _controladores_). Os dados pessoais são definidos nas linhas gerais no RGPD como todos os dados relacionados a uma pessoa física identificada ou identificável. O GDPR fornece às entidades de dados direitos específicos a seus dados pessoais. Esses direitos incluem obter cópias, solicitar alterações, restringir o processamento, excluir ou receber os dados em um formato eletrônico para que eles possam ser passados para outro controlador. Uma solicitação formal feita por uma entidade de dados a um controlador para executar uma ação em seus dados pessoais é chamada neste documento de _Solicitação de Direitos da Entidade de Dados _ ou DSR. 
+O RGPD (Regulamento Geral sobre a Proteção de Dados) da União Europeia concede o direito às pessoas (reconhecidas na regulamentação como _titulares de dados_ ) de gerenciar os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecidos como _controladores de dados_ ou apenas _controladores_ ). Os dados pessoais são definidos nas linhas gerais no RGPD como todos os dados relacionados a uma pessoa física identificada ou identificável. O GDPR fornece às entidades de dados direitos específicos a seus dados pessoais. Esses direitos incluem obter cópias, solicitar alterações, restringir o processamento, excluir ou receber os dados em um formato eletrônico para que eles possam ser passados para outro controlador. Uma solicitação formal feita por uma entidade de dados a um controlador para executar uma ação em seus dados pessoais é chamada neste documento de _Solicitação de Direitos da Entidade de Dados_ ou DSR. 
 
 Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do GDPR, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais. O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
 
 O guia descreve como usar os produtos, serviços e ferramentas administrativas da Microsoft para ajudar os nossos clientes controladores a encontrar dados pessoais e agir em relação a eles para responder a DSRs. Especificamente, isso inclui como localizar, acessar e agir em dados pessoais que residem na nuvem da Microsoft. Veja aqui uma breve visão geral dos processos descritos neste guia: 
 
-1. **Acessar**: recupere os dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados. 
-2. **Excluir**: remova permanentemente os dados pessoais que residem na nuvem da Microsoft. 
-3. **Exportar**: forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para o titular dos dados. Os dados pessoais do CCPA são quaisquer informações relacionadas a uma pessoa identificada ou identificável.
+1. **Acessar** : recupere os dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados. 
+2. **Excluir** : remova permanentemente os dados pessoais que residem na nuvem da Microsoft. 
+3. **Exportar** : forneça uma cópia eletrônica (em um formato legível por máquina) dos dados pessoais para o titular dos dados. Os dados pessoais do CCPA são quaisquer informações relacionadas a uma pessoa identificada ou identificável.
 
 Os dados pessoais do CCPA são quaisquer informações relacionadas a uma pessoa, identificável ou não. Não há nenhuma distinção entre funções profissionais, públicas ou privadas de uma pessoa. O termo definido "informações pessoais" se alinha aproximadamente aos "dados pessoais" do RGPD. No entanto, o CCPA também inclui dados da família e do domicílio. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
 
@@ -48,9 +48,9 @@ A lista a seguir fornece as definições dos termos que são relevantes para est
 
 * _Controlador_ — a pessoa física ou jurídica, autoridade pública, órgão ou outra entidade que, sozinha ou em conjunto com terceiros, determina os fins e os meios do processamento de dados pessoais, onde tais fins e meios são determinados por lei da União ou Estado-Membro, o controlador ou os critérios específicos para sua indicação podem ser fornecidos por lei da União ou Estado-Membro. 
 
-* _Dados pessoais e titular dos dados_— qualquer informação relativa a uma pessoa natural identificada ou identificável (“titular dos dados”); uma pessoa natural identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou um ou mais fatores específicos de natureza física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa natural. 
+* _Dados pessoais e titular dos dados_ — qualquer informação relativa a uma pessoa natural identificada ou identificável (“titular dos dados”); uma pessoa natural identificável é aquela que pode ser identificada, direta ou indiretamente, especialmente por referência a um identificador, como nome, um número de identificação, dados de localização, um identificador online ou um ou mais fatores específicos de natureza física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa natural. 
 
-* _Processador_— é uma pessoa física ou jurídica, autoridade pública, agência ou outro órgão que processa dados pessoais em nome do controlador. 
+* _Processador_ — é uma pessoa física ou jurídica, autoridade pública, agência ou outro órgão que processa dados pessoais em nome do controlador. 
 
 * _Dados do Cliente_ — Todos os dados, incluindo texto, som, vídeo ou arquivos de imagem e software que são fornecidos para a Microsoft, por ou em nome de um cliente, através do uso do serviço corporativo. 
 
