@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para pontos de extremidade. Os arquivos ficam visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: 0f69261cb5617c7d6de7900b85a5a254a04bc45e
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: e469872dac19db08f7b525c8a5ada725c75bfa10
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999450"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072970"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do Microsoft 365 Endpoint
 
@@ -145,15 +145,15 @@ Por exemplo, se um arquivo for copiado para uma mídia USB removível, você ver
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Agora que você aprendeu sobre o Endpoint DLP, as próximas etapas são:
+Agora que você aprendeu sobre o Ponto de extremidade da Prevenção contra perda de dados, as próximas etapas são:
 
-1) [Introdução à prevenção contra perda de dados do Microsoft EndPoint (visualização)](endpoint-dlp-getting-started.md)
-2) [Usar a prevenção contra perda de dados do Microsoft EndPoint (visualização)](endpoint-dlp-using.md)
+1) [Introdução à prevenção contra perda de dados do ponto de extremidade da Microsoft](endpoint-dlp-getting-started.md)
+2) [Usar a prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Confira também
 
-- [Introdução à prevenção contra perda de dados do Microsoft EndPoint (visualização)](endpoint-dlp-getting-started.md)
-- [Usar a prevenção contra perda de dados do Microsoft EndPoint (visualização)](endpoint-dlp-using.md)
+- [Introdução à prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-getting-started.md)
+- [Usar a prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-using.md)
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)

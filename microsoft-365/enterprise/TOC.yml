@@ -467,10 +467,10 @@
               href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
             - name: Project Server 2010
               href: project-server-2010-end-of-support.md
-- name: Segurança
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
 - name: Conformidade
-  href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+  href: ../compliance/index.yml
+- name: Segurança
+  href: ../security/index.yml
 - name: Serviços de nuvem
   items:
     - name: Roteiro
@@ -562,9 +562,9 @@
           href: use-windows-powershell-to-create-reports-in-microsoft-365.md
         - name: Referências de Cmdlet para serviços do Microsoft 365
           href: cmdlet-references-for-microsoft-365-services.md
-        - name: Recursos da comunidade do PowerShell
+        - name: Recursos da comunidade do Windows PowerShell
           href: microsoft-365-powershell-community-resources.md
-    - name: 'Gerenciar contas de usuário, licenças e grupos com o PowerShell'
+    - name: 'Gerenciar contas de usuário, licenças e grupos com o Windows PowerShell'
       href: manage-user-accounts-and-licenses-with-microsoft-365-powershell.md
       items:
         - name: Contas de usuário
@@ -581,6 +581,8 @@
               href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
             - name: Bloquear
               href: block-user-accounts-with-microsoft-365-powershell.md
+            - name: Senhas
+              href: manage-passwords-with-microsoft-365-powershell.md
         - name: Licenças e serviços
           items:
             - name: Exibir licenças e serviços
@@ -602,7 +604,9 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: Grupos
           items:
-            - name: Manter associação a um grupo de segurança
+            - name: Gerenciar grupos de segurança
+              href: manage-security-groups-with-microsoft-365-powershell.md
+            - name: Manter afiliação a um grupo de segurança
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: Gerenciar grupos do Microsoft 365
               href: manage-microsoft-365-groups-with-powershell.md
@@ -723,10 +727,6 @@
       href: contoso-info-protect.md
     - name: Resumo de segurança
       href: contoso-security-summary.md
-- name: Conformidade do Microsoft 365
-  href: ../compliance/index.yml
-- name: Segurança do Microsoft 365
-  href: ../security/index.yml
 - name: Arquitetura e soluções do Microsoft 365
   href: ../solutions/index.yml
 - name: Gerenciamento de Continuidade de Negócios Empresariais (EBCM) com serviços de nuvem

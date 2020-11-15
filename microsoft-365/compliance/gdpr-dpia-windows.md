@@ -8,24 +8,24 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: daniha
+ms.author: siosulli
 author: DaniHalfin
 manager: dansimp
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 5d30440d0051f4ec678effac657808853c7a6515
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: a31ccc8cab6995e0647e397be4b869e48da599b4
+ms.sourcegitcommit: e03bc2945e63f7f2638257e530056ae9283b45d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304996"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49070885"
 ---
-# <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-data-processor-service-for-windows-enterprise"></a>Avaliação do impacto da proteção de dados: orientação aos controladores de dados que usam o serviço de processador de dados da Microsoft do Windows Enterprise
+# <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-data-processor-service-for-windows-enterprise"></a>Avaliação do Impacto da Proteção de Dados: orientação aos Controladores de dados que Usam o serviço de processador de dados da Microsoft do Windows Enterprise
 
 >[!NOTE]
->Este tópico se destina aos participantes do serviço de processador de dados do programa de visualização prévia do Windows Enterprise e requer a aceitação de termos de uso específicos. Para saber mais sobre o programa e concordar com os termos de uso, acesse [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
+>Este tópico é destinado a participantes do serviço de processador de dados para o programa de pré-visualização do Windows Enterprise e requer a aceitação de termos de uso específicos. Para saber mais sobre o programa e concordar com os termos de uso, confira [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
 
 O Regulamento Geral sobre a Proteção de Dados (GDPR) exige que os controladores preparem uma Avaliação de Impacto de Proteção de Dados (DPIA) para operações que 'provavelmente resultariam em alto risco para os direitos e a liberdade de pessoas físicas'. Não há nada de inerente no serviço de processador de dados para o próprio Windows Enterprise que requeira necessariamente a criação de um DPIA por um controlador de dados que o utilize. Em vez disso, se for necessário, um DPIA dependerá dos detalhes e do contexto de como o controlador de dados implementa, configura e usa o serviço de processador de dados do Windows Enterprise. 
 

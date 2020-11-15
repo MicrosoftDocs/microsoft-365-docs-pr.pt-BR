@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 0dfccef331c279354f066ebffa80143d43192472
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: bedf82d9d53ef14755651d5994e6c5c269cf5d6e
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920521"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073132"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -204,14 +204,7 @@ Um email ou um documento do pode ter apenas um único rótulo de retenção atri
     
 - Se houver várias regras que atribuem um rótulo de aplicação automática e o conteúdo atender às condições de várias regras, o rótulo de retenção da regra mais antiga (por data de criação) será atribuído.
     
-Para entender como e por que um rótulo de retenção é aplicado, em vez de outro, é bom compreender a diferença entre atribuir explicitamente ou implicitamente um rótulo:
-
-- Os rótulos de retenção aplicados a uma política de rótulo são explicitamente atribuídos
-- Os rótulos de retenção aplicados automaticamente de uma política de aplicação automática são atribuídos implicitamente
-
-Um rótulo de retenção atribuído explicitamente tem precedência sobre um rótulo de retenção atribuído implicitamente. Para saber mais, confira a seção [Os princípios de retenção ou o que tem precedência](retention.md#the-principles-of-retention-or-what-takes-precedence) nesta página.
-
-Para o Microsoft Office SharePoint Online, os rótulos de retenção também podem ser atribuídos implicitamente quando se configura um rótulo padrão para todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do Microsoft Office SharePoint Online. Para este cenário, um rótulo aplicado automaticamente tem precedência sobre um rótulo padrão, mas para compreender totalmente todos os resultados ao usar um rótulo padrão, confira as informações em [Aplicando um rótulo de retenção padrão a todo o conteúdo em uma biblioteca do Microsoft Office SharePoint Online, pasta ou seção de conjunto de documentos](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set). 
+Para compreender todos os resultados ao usar um rótulo padrão, confira as informações na seção [Aplicando um rótulo de retenção padrão a todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do Microsoft Office SharePoint Online](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
 
 #### <a name="monitoring-retention-labels"></a>Monitorar rótulos de retenção
 
