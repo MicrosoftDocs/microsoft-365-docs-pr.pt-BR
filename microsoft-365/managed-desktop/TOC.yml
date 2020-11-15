@@ -59,9 +59,11 @@
           href: get-ready/authentication.md
         - name: Preparar unidades mapeadas
           href: get-ready/mapped-drives.md
-        - name: Prepare certificados e perfis de rede
+        - name: Preparar certificados e perfis de rede
           href: get-ready/certs-wifi-lan.md
-        - name: Prepare recursos de impressão
+        - name: Pré-requisitos para contas de convidados
+          href: get-ready/guest-accounts.md
+        - name: Preparar recursos de impressão
           href: get-ready/printing.md
         - name: Prepare os aplicativos
           href: get-ready/apps.md
