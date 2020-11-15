@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados do Microsoft 365 Endpoint para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 8f4b1b04aadbb639f6c7daeeb564c10abd7737b2
-ms.sourcegitcommit: ca733da1ed919b286a93068b560608e82f8def05
+ms.openlocfilehash: 3f29d8e49daa6dd4f0900e0e92123306c799c6ee
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48990546"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999413"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
@@ -173,7 +173,14 @@ Uma vez que o ponto de extremidade está integrado, ele deve estar visível na t
 > [!NOTE]
 >Esta experiência está na imposição da licença. Sem a licença necessária, os dados não estarão visíveis nem acessíveis.
 
-### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>Exibir dados de Endpoint DLP no explorador de atividades
+### <a name="viewing-endpoint-dlp-alerts-in-dlp-alerts-management-dashboard"></a>Exibir alertas de prevenção contra perda de dados (DLP) do ponto de extremidade no painel de Gerenciamento de Alertas de DLP
+
+1. Abra a Página de prevenção contra perda de dados no Centro de conformidade do Microsoft 365 e escolha Alertas.
+
+2. Confira os procedimentos em [Como configurar e exibir alertas para suas políticas de DLP](dlp-configure-view-alerts-policies.md) para exibir alertas das políticas de DLP do ponto de extremidade.
+
+
+### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>Exibir dados de DLP do ponto de extremidade no explorador de atividades
 
 1. Abra a [Página de classificação de dados](https://compliance.microsoft.com/dataclassification?viewid=overview) do seu domínio no Centro de conformidade do Microsoft 365 e escolha o Explorador de atividades.
 
