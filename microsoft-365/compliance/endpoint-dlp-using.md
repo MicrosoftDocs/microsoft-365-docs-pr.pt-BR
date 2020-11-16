@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
-ms.openlocfilehash: 6de6443dc0d276c862db43963ac28bd762e3756f
-ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
+ms.openlocfilehash: 64cdfeab4b527dd3b84e7586d1419e5bf8b383df
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48984915"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073100"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
@@ -31,7 +31,7 @@ Este artigo o conduz por três cenários em que você cria e modifica uma polít
 
 ## <a name="dlp-settings"></a>Configurações de DLP
 
-Antes de começar, você deve configurar suas configurações de DLP, aplicadas a todas as políticas DLP para dispositivos. Você deve configurá-los se pretende criar políticas que impõem:
+Antes de começar, defina suas configurações de DLP, aplicadas a todas as políticas DLP para dispositivos. Configure-as se pretende criar políticas que impõem:
 
 - restrições de saída de nuvem
 - restrições de aplicativos não permitidos
@@ -45,9 +45,9 @@ Ou
 
 ### <a name="file-path-exclusions"></a>Exclusões de caminho de arquivo
 
-Talvez você queira excluir determinados caminhos de monitoramento DLP, alertas DLP e imposição de política de DLP em seus dispositivos porque eles são muito barulhentos ou não contêm arquivos nos quais você está interessado. Os arquivos nesses locais não serão auditados e os arquivos criados ou modificados nesses locais não estarão sujeitos à imposição da política de DLP. Você pode configurar exclusões de caminho nas configurações DLP.
+Talvez você queira excluir certos caminhos do monitoramento DLP, alertas DLP e aplicações de política DLP de seus dispositivos porque eles são muito ruidosos ou não contêm arquivos de seu interesse. Os arquivos nesses locais não serão auditados e todos os arquivos criados ou modificados nesses locais não estarão sujeitos à aplicação da política DLP. É possível configurar exclusões de caminho nas configurações de DLP.
 
-Você pode usar essa lógica para construir seus caminhos de exclusão:
+Use essa lógica para construir seus caminhos de exclusão:
 
 - Caminho de arquivo válido que termina com "\", o que significa somente os arquivos da pasta. <br/>Por exemplo: C:\Temp\
 
@@ -65,30 +65,30 @@ Você pode usar essa lógica para construir seus caminhos de exclusão:
 
 ### <a name="service-domains"></a>Domínios de serviço
 
-Você pode adicionar domínios a essa lista à qual o Edge Chromium se reforçará a impor a política de restrição de acesso de carregamento de nuvem do Endpoint DLP. 
+Adicione domínios a esta lista aos quais o Edge Chromium se referirá ao aplicar a restrição de acesso de carregamento na nuvem da política DLP de Ponto de Extremidade. 
 
-Se o modo de lista estiver definido como **Bloquear** , o usuário não poderá carregar itens confidenciais para esses domínios. Quando uma ação de carregamento é bloqueada porque um item corresponde a uma política DLP, a DLP gera um aviso ou bloqueia o carregamento do item confidenciais.
+Se o modo de lista for definido como **Bloquear** , o usuário não poderá carregar itens confidenciais para esses domínios. Quando uma ação de carregamento for bloqueada devido a um item corresponde a uma política DLP, a DLP irá gerar um aviso ou bloqueará o carregamento do item confidencial.
 
 Se o modo de lista estiver definido como **Permitir** , os usuários poderão carregar itens confidenciais * *_apenas_* _ a esses domínios, e carregar o acesso a todos os outros domínios não será permitido.
 
 ### <a name="unallowed-apps"></a>Aplicativos não permitidos
 
-Quando a configuração de _ *Acesso a uma política por meio de aplicativos e navegadores não permitidos* estiver ativada e os usuários tentarem usar esses aplicativos para acessar um arquivo protegido, a atividade será permitida, bloqueada, ou bloqueada mas com os usuários podendo substituir a restrição. Todas as atividades são auditadas e estão disponíveis para revisão no explorador de atividades.
+Quando a configuração de _ *Acesso por navegadores e aplicativos não permitidos* * de uma política estiver ativada e os usuários tentarem usar esses aplicativos para acessar um arquivo protegido, a atividade será permitida ou bloqueada, ou bloqueada com os usuários podendo ignorar a restrição. Todas as atividades são auditadas e disponibilizadas para revisão no explorador de atividades.
 
 ### <a name="unallowed-browsers"></a>Navegadores não permitidos
 
-Adicione navegadores, identificados por seus nomes executáveis, que serão impedidos de acessar arquivos que correspondam às condições de uma política de DLP, em que a restrição de upload para serviços de nuvem está definida para bloquear ou para substituição de bloqueio. Quando estes navegadores estiverem bloqueados de acessar um arquivo, os usuários finais verão uma notificação do sistema solicitando que eles abram o arquivo por meio do Edge Chromium.
+Adicione navegadores, identificados por seus nomes executáveis, que serão impedidos de acessar arquivos que correspondam às condições de uma política DLP aplicada quando a restrição de carregamento para serviços em nuvem estiver definida para bloquear ou ignorar o bloqueio. Quando esses navegadores são impedidos de acessar um arquivo, os usuários finais verão uma notificação do sistema solicitando que abram o arquivo através do Edge Chromium.
 
 [!IMPORTANT]
 Não inclua o caminho para o executável, apenas o nome do executável (por exemplo, browser.exe).
 
-## <a name="tying-dlp-settings-together"></a>Como ligar as configurações da DLP
+## <a name="tying-dlp-settings-together"></a>Como ligar as configurações de DLP
 
-Com o Endpoint DPL e o navegador Edge Chromium, você pode restringir o compartilhamento não voluntariado de itens confidenciais a serviços e aplicativos na nuvem não permitidos. Edge Chromium entende quando um item é restrito por uma política de Endpoint DLP e impõe restrições de acesso.
+Com a DLP de Ponto de Extremidade e o navegador da Web Edge Chromium, restrinja o compartilhamento não intencional de itens confidenciais a aplicativos e serviços em nuvem não permitidos. O Edge Chromium entende quando um item é restringido por uma política DLP de Ponto de Extremidade e impõe restrições de acesso.
 
-Quando você usa o Endpoint DLP como um local em uma política DLP corretamente configurada e o navegador Edge Chromium, os navegadores não permitidos que você definiu nestas configurações serão impedidos de acessar os itens confidenciais que correspondem a seus controles de política de DLP. Em vez disso, os usuários serão redirecionados para usar o Edge Chromium e o Edge Chromium, com o entendimento das restrições impõe a DLP, poderá bloquear ou restringir atividades quando as condições na política DLP forem atendidas.
+Ao usar a DLP de Ponto de Extremidade, como um local em uma política DLP configurada corretamente, e o navegador Edge Chromium, os navegadores não permitidos definidos nessas configurações serão impedidos de acessar os itens confidenciais que correspondem aos seus controles de política DLP. Em vez disso, os usuários serão redirecionados para usar o Edge Chromium, que com o entendimento das restrições impostas pela DLP, poderá bloquear ou restringir atividades quando as condições da política de DLP forem atendidas.
 
-Para usar essa restrição, você precisará configurar três partes importantes:
+Para usar essa restrição, será necessário configurar três partes importantes:
 
 1. Especifique os locais (serviços, domínios e endereços IP) que deseja impedir que os itens confidenciais sejam compartilhados.
 
@@ -100,12 +100,12 @@ Você pode continuar a adicionar novos serviços, aplicativos e políticas para 
 
 Essa configuração ajudará a garantir a segurança dos seus dados, além de evitar restrições desnecessárias, que impedem ou impedem que os usuários acessem e compartilhem itens não confidenciais.
 
-## <a name="endpoint-dlp-policy-scenarios"></a>Cenários de política do Endpoint DLP
+## <a name="endpoint-dlp-policy-scenarios"></a>Cenários de política da DLP de Ponto de Extremidade
 
-Para ajudar você a se familiarizar com os recursos d Endpoint DLP e como eles são emergem nas políticas de DLP, juntamos alguns cenários que você pode seguir. Todo o conteúdo do Endpoint será dobrado no conjunto de conteúdo de DLP principal quando o Endpoint DLP ficar disponível.
+Para ajudar a se familiarizar com os recursos da DLP de Ponto de Extremidade e como eles aparecem nas políticas DLP, reunimos alguns cenários para você seguir. Todo o conteúdo da DLP de Ponto de Extremidade será incluído no conteúdo principal da DLP definido quando a DLP de Ponto de Extremidade estiver disponível em geral.
 
 > [!IMPORTANT]
-> Esses cenários do Endpoint DLP não são os procedimentos oficiais para criar e ajustar as políticas DLP. Confira os tópicos a seguir quando você precisar trabalhar com políticas de DLP em situações gerais:
+> Esses cenários DLP de Ponto de Extremidade não são os procedimentos oficiais para criar e ajustar políticas DLP. Confira os tópicos a seguir quando precisar trabalhar com as políticas DLP em situações gerais:
 >- [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 >- [Introdução à política DLP padrão](get-started-with-the-default-dlp-policy.md)
 >- [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
@@ -113,15 +113,15 @@ Para ajudar você a se familiarizar com os recursos d Endpoint DLP e como eles s
 
 ### <a name="scenario-1-create-a-policy-from-a-template-audit-only"></a>Cenário 1: Criar uma política a partir de um modelo, somente auditoria
 
-Esses cenários exigem que você já tenha dispositivos integrados e relatados no Explorador de atividades. Se ainda não tiver integrado os dispositivos, confira [Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)](endpoint-dlp-getting-started.md).
+Esses cenários exigem que você já tenha dispositivos integrados e relatórios no Explorador de atividades. Se você ainda não integrou dispositivos, confira [Introdução à prevenção contra perda de dados do Ponto de Extremidade](endpoint-dlp-getting-started.md).
 
-1. Abra a página [Prevenção de perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
+1. Abra a página [Prevenção contra perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
 
-2. Escolha **Criar políticas (visualização)**.
+2. Escolha **Criar política**.
 
-3. Para esse cenário, escolha **Privacidade** , em seguida **Dados de informações de identificação pessoal (PII) dos EUA** e escolha **Próximo**.
+3. Para esse cenário, escolha **Privacidade** , em seguida, **Dados de Informações de Identificação Pessoal (PII) dos EUA** e escolha **Próximo**.
 
-4. Alterne o campo **Status** para desativado em todos os locais, exceto os **Dispositivos**.  Escolha **Próximo**.
+4. Alterne o campo **Status** para desativado em todos os locais, exceto em **Dispositivos**. Escolha **Próximo**.
 
 5. Aceite a seleção padrão **Revisar e personalizar as configurações do modelo** e escolha **Próximo**.
 
@@ -135,9 +135,9 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 10. A nova política DLP será exibida na lista de políticas.
 
-11. Verificar o Explorador de atividade para obter pontos de extremidade monitorados. Defina o filtro local para dispositivos e adicione a política, em seguida, filtre por nome da política para ver o impacto dessa política. Confira [Começar a usar o explorador de atividades](data-classification-activity-explorer.md) se necessário.
+11. Verifique o Explorador de atividades para dados dos pontos de extremidade monitorados. Defina o filtro de localização para dispositivos e adicione a política, em seguida, filtre por nome de política para ver o impacto desta política. Se necessário, confira, [Introdução ao explorador de atividades](data-classification-activity-explorer.md).
 
-12. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
+12. Tente compartilhar um teste que contenha o conteúdo que acionará a condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém de fora da sua organização. Isso deve acionar a política.
 
 13. Verifique o Explorador de atividades para obter o evento.
 
@@ -145,13 +145,13 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 1. Abra a página [Prevenção de perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
 
-2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** que você criou no cenário 1.
+2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** criadas cenário 1.
 
-3. Escolha **Editar política (visualização)**.
+3. Escolha **Editar política**.
 
 4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
 
-5. Role para baixo até a seção **Relatório de incidentes** e configure **Envie um alerta para administradores quando uma correspondência de regra ocorrer** para **No**. Os alertas de email serão enviados automaticamente para o administrador e qualquer pessoa que você adicionar à lista de destinatários. 
+5. Role para baixo até a seção **Relatórios de incidentes** e defina **Enviar um alerta aos administradores quando ocorrer uma correspondência de regra** como **Ativado**. Os Alertas de email serão enviados automaticamente ao administrador e a qualquer pessoa que você adicionar à lista de destinatários. 
 
    > [!div class="mx-imgBorder"]
    > ![turn-on-incident-reports](../media/endpoint-dlp-2-using-dlp-incident-reports.png)
@@ -162,7 +162,7 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 8. Mantenha todas as suas configurações anteriores escolhendo **Próximo** e **Enviar** as alterações de política.
 
-9. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
+9. Tente compartilhar um teste que contenha o conteúdo que acionará a condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém de fora da sua organização. Isso deve acionar a política.
 
 10. Verifique o Explorador de atividades para obter o evento.
 
@@ -170,9 +170,9 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 1. Abra a página [Prevenção de perda de dados](https://compliance.microsoft.com/datalossprevention?viewid=policies).
 
-2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** que você criou no cenário 1.
+2. Escolha as políticas de **Dados de Informações de Identificação Pessoal (PII) dos EUA** criadas cenário 1.
 
-3. Escolha **Editar política (visualização)**.
+3. Escolha **Editar política**.
 
 4. Vá para a página **Regras avançadas de DLP** e edite o **Baixo volume de conteúdo detectado nas Informações de Identificação Pessoal dos EUA**.
 
@@ -187,9 +187,9 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 8. Mantenha todas as suas configurações anteriores escolhendo **Próximo** e **Enviar** as alterações de política.
 
-9. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
+9. Tente compartilhar um teste que contenha o conteúdo que acionará a condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém de fora da sua organização. Isso deve acionar a política.
 
-   Você verá um pop-up assim no dispositivo do cliente:
+   Você verá um pop-up desse tipo no dispositivo do cliente:
 
    > [!div class="mx-imgBorder"]
    > ![cliente dlp do ponto de extremidade bloqueado na notificação de substituição](../media/endpoint-dlp-3-using-dlp-client-blocked-override-notification.png)
@@ -198,8 +198,8 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 
 ## <a name="see-also"></a>Confira também
 
-- [Saiba mais sobre a prevenção contra perda de dados do EndPoint (visualização)](endpoint-dlp-learn-about.md)
-- [Introdução à prevenção contra perda de dados do Endpoint (visualização)](endpoint-dlp-getting-started.md)
+- [Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)
+- [Introdução à Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-getting-started.md)
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
