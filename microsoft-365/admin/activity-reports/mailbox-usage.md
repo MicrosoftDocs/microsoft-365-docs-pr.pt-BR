@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: Saiba como obter o relatório de uso de caixa de correio para saber mais sobre as atividades dos usuários com uma caixa de correio de usuário.
-ms.openlocfilehash: 0b0c57bda813e1600866513df86b7c973dcdffdc
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 8d942f507c1e3102f909fb33eb16e00f7ebf05ea
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949127"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126562"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>Relatórios da Microsoft 365 no centro de administração-uso da caixa de correio
 
@@ -35,10 +35,10 @@ O **relatório de uso da caixa de correio** fornece informações sobre os usuá
  
 ## <a name="how-to-get-to-the-mailbox-usage-report"></a>Como obter o relatório de uso da caixa de correio
 
-1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
+1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
-    
-2. No menu suspenso **selecionar um relatório** , selecione uso da **Exchange** \> **caixa de correio**do Exchange.
+2. Selecione **Exibir mais** em **usuários ativos – serviços do Microsoft 365**. 
+3. Na lista suspensa **usuários ativos** , selecione uso da caixa de correio do **Exchange** \> **Mailbox usage**.
   
 ## <a name="interpret-the-mailbox-usage-report"></a>Interpretar o relatório de uso da caixa de correio
 
@@ -57,4 +57,3 @@ Para ter uma noção do **uso da caixa de correio** da organização, analise os
 |9.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando o link de **exportação** .  <br/> |
 |||
    
-

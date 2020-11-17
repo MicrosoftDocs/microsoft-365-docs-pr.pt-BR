@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a configuração de segurança por padrão no Exchange Online Protection (EOP)
-ms.openlocfilehash: 50d1c64e4d8343fdb9b25bfcbeee5d988ddc6b8a
-ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
+ms.openlocfilehash: d4345134e98ae204f73dfb51a0abf5136590a24c
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48945325"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126656"
 ---
 # <a name="secure-by-default-in-office-365"></a>Seguro por padrão no Office 365
 
@@ -49,16 +49,13 @@ Como a Microsoft deseja manter nossos clientes seguros por padrão, alguns locat
 
 Mais informações sobre essas substituições podem ser encontradas em [criar listas de remetentes seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365).
 
-A segurança por padrão aqui não é uma configuração que possa ser ativada ou desativada, mas o modo como nossa filtragem funciona para manter mensagens potencialmente perigosas ou indesejadas fora de suas caixas de correio. O malware e o Phish de alta confiança devem ser enviados para a quarentena. Somente os administradores podem gerenciar mensagens que foram colocadas em quarentena como malware ou phishing de alta confiança e também podem relatar falsos positivos para a Microsoft. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no EOP](manage-quarantined-messages-and-files.md)
+A segurança por padrão aqui não é uma configuração que possa ser ativada ou desativada, mas o modo como nossa filtragem funciona para manter mensagens potencialmente perigosas ou indesejadas fora de suas caixas de correio. Malware e phishing de alta confiança devem ser enviados para a quarentena. Somente os administradores podem gerenciar mensagens que foram colocadas em quarentena como malware ou phishing de alta confiança e também podem relatar falsos positivos para a Microsoft. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no EOP](manage-quarantined-messages-and-files.md)
 
 ## <a name="exceptions"></a>Exceptions
 
-As substituições que serão ignoradas por todos os filtros incluem:
+A única substituição que permite que a mensagem de phishing de alta confiança seja ignorada é as regras de fluxo de email do Exchange (também conhecidas como regras de transporte). Para usar regras de fluxo de email para ignorar a filtragem, confira [usar regras de fluxo de emails para definir o SCL em mensagens](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
 
-- Regras de fluxo de transporte do Exchange (ETR)/mail. Use regras de fluxo de emails para definir o nível de confiança de spam (SCL) em mensagens no EOP.
-- Lista de permissões/bloqueios de locatários: gerenciar URLs e arquivos na lista de permissões/bloqueios de locatários.
-
-Esses tipos de substituições são úteis para:
+Substituições só devem ser usadas para:
 
 - Simulações de phishing: ataques simulados podem ajudá-lo a identificar usuários vulneráveis antes que um ataque real afete sua organização.
 - Segurança/caixas de correio do SecOps: caixas de correio dedicadas usadas pelo Security Teams para obter mensagens não filtradas (tanto boas quanto ruins). O Microsoft Teams pode então revisar para ver se eles contêm conteúdo mal-intencionado.

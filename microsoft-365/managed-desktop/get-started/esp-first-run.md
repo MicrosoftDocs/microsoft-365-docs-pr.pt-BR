@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7337dd28f7940256d1753cd4c0b6309406fab2d1
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 5e2340c7c0bf00165bb43740d3d095b5b0402fc0
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305265"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126620"
 ---
 # <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Experiência da primeira execução com o piloto automático e a página de status do registro
 
@@ -34,7 +34,7 @@ Depois que os dispositivos são registrados com o serviço, você pode habilitar
 O Microsoft Managed desktop usa essas configurações no perfil do piloto automático usado para os dispositivos de seus usuários:
 
 
-|Configuração  |Valor  |
+|Setting  |Valor  |
 |---------|---------|
 |Modo de implantação |  Controlado pelo usuário       |
 |Ingressar no Azure AD como     |  Azure AD Unido       |
@@ -56,7 +56,7 @@ O Microsoft Managed desktop usa essas configurações no perfil do piloto autom�
 O Microsoft Managed desktop usa estas configurações para a experiência de página de status de registro:
 
 
-|Configuração  |Valor  |
+|Setting  |Valor  |
 |---------|---------|
 |Mostrar progresso da configuração de aplicativo e perfil     | Sim        |
 |Mostrar um erro quando a instalação levar mais tempo do que o número especificado de minutos     |  60       |
@@ -95,7 +95,7 @@ Se a configuração usada pelo Microsoft Managed desktop não corresponder exata
 
 ### <a name="autopilot-settings-change"></a>Alteração das configurações do AutoPilot
 
-Você pode querer solicitar um modelo de nome de dispositivo diferente. No entanto, você não pode alterar o modo de implantação, ingressar no Azure como, configurações de privacidade ou tipo de conta de usuário.
+Você pode querer solicitar um modelo de nome de dispositivo diferente. No entanto, você não pode alterar o modo de implantação, ingressar no Azure AD como, configurações de privacidade ou tipo de conta de usuário.
 
 ### <a name="enrollment-status-page-settings-change"></a>Alteração das configurações da página de status do registro
 

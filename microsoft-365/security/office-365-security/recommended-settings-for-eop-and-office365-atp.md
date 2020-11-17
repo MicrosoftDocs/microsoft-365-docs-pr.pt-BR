@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e do defender para Office 365? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras que você obtém se usa também o defender para o Office 365?
-ms.openlocfilehash: bc91ba58c9dc14954f638853ad24fcf7a26684e3
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: bcad3609f5f73ac538ae9d1a0964ecc8e176003e
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123460"
+ms.locfileid: "49126632"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Configurações recomendadas para a segurança do EOP e do Microsoft defender para Office 365
 
@@ -189,11 +189,11 @@ Observe que essas são as mesmas configurações disponíveis nas configuraçõe
 
 ****
 
-|Nome do recurso de segurança|Padrão|Impede|Comment|
-|---|---|---|---|
-|**Habilitar a proteção contra falsificação** <p> _EnableAntispoofEnforcement_|Habilitado <p> `$true`|Habilitado <p> `$true`||
-|**Habilitar remetente não autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente no Outlook para remetentes falsificados não identificados. Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md).|
-|**Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para pastas de lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar a mensagem em quarentena** <p> `Quarantine`|Essa configuração se aplica a remetentes bloqueados na [inteligência de falsificação](learn-about-spoof-intelligence.md).|
+|Nome do recurso de segurança|Padrão|Padrão|Impede|Comment|
+|---|---|---|---|---|
+|**Habilitar a proteção contra falsificação** <p> _EnableAntispoofEnforcement_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|**Habilitar remetente não autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente no Outlook para remetentes falsificados não identificados. Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md).|
+|**Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para pastas de lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para pastas de lixo eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar a mensagem em quarentena** <p> `Quarantine`|Essa configuração se aplica a remetentes bloqueados na [inteligência de falsificação](learn-about-spoof-intelligence.md).|
 |
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurações avançadas em políticas anti-phishing no Microsoft defender para Office 365

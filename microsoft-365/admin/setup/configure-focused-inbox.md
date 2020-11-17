@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 'Aprenda a configurar a Caixa de Entrada Destaques para todos ou usuários específicos da sua organização. '
-ms.openlocfilehash: eaf2c7623c81b24670a7b512c6311f0af036b255
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 76a449295b7a2ad0cc1c82488a131a3a89fe41fc
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644598"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123424"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Configurar a Caixa de Entrada Destaques para todos na sua organização
 
   Se você é responsável por configurar como o e-mail funciona para TODOS em uma empresa, este artigo é para você!  Ele explica como personalizá-lo ou desativá-lo para a sua empresa e responde a perguntas sobre [Perguntas frequentes](#faq-for-focused-inbox).  <br/> Se você quiser desligar a Caixa de Entrada Destaques por si mesmo, confira [Desativar a Caixa de Entrada Destaques](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2).  
-   
+
 Se quiser garantir que seus usuários recebam mensagens de email específicas de negócios, por exemplo, do RH ou da folha de pagamentos, você pode configurar a Caixa de Entrada Destaques para que essas mensagens alcancem o modo de exibição Destaques. Você também pode controlar se os usuários da sua organização veem a Caixa de Entrada Destaques nas caixas de correio deles.
   
 ## <a name="turn-focused-inbox-on-or-off-in-your-organization"></a>Ativar ou desativar a Caixa de Entrada Destaques na sua organização
@@ -42,31 +42,31 @@ Usar o PowerShell para ativar ou desativar a Caixa de Entrada Destaques para tod
 O exemplo a seguir do PowerShell **desativa** a Caixa de Entrada Destaques na organização. No entanto, ele não bloqueia a disponibilidade do recurso para os usuários; ou seja, eles ainda poderão reativar a Caixa de Entrada Destaques em cada um dos respectivos clientes. 
   
 1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=396554).
-    
+
 2. Você deve ter permissões para poder realizar esses procedimentos. Para ver quais são as permissões necessárias, confira a entrada "Regras de transporte" no artigo [Permissões de política e conformidade de mensagens](https://go.microsoft.com/fwlink/p/?LinkId=829796).
-    
+
 3. Execute o cmdlet **Get-OrganizationConfig**. 
-    
+
  ``` PowerShell
 Get-OrganizationConfig
  ```
 
 4. Procure **FocusedInboxOn** para ver a configuração atual: 
-    
+
     ![Resposta do PowerShell no estado da Caixa de Entrada Destaques.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. Execute o cmdlet a seguir para desativar a Caixa de Entrada Destaques.
-    
+
  ``` PowerShell
  Set-OrganizationConfig -FocusedInboxOn $false
  ```
 
 6. Execute o cmdlet **Get-OrganizationConfig** novamente e você verá que FocusedInboxOn está definido como $false, o que significa que ele está desativado. 
-    
+
  **Para ativar a Caixa de Entrada Destaques:**
   
 - Na Etapa 5 acima, execute o cmdlet a seguir para ativar a Caixa de Entrada Destaques.
-    
+
  ``` PowerShell
  Set-OrganizationConfig -FocusedInboxOn $true
  ```
@@ -88,27 +88,27 @@ Quando um usuário decide começar a usar a Caixa de Entrada Destaques, o Email 
 Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na organização Contoso. No entanto, ele não bloqueia a disponibilidade do recurso para ele. Se ele quiser, ainda poderá reativar a Caixa de Entrada Destaques em cada um dos próprios clientes. 
   
 1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=396554).
-    
+
 2. Você precisa ter permissões antes de executar estes procedimentos. Para ver quais permissões são necessárias, confira a entrada "Regras de transporte" no tópico Permissões de política e conformidade de mensagens.
-    
+
 3. Execute o cmdlet **Get-FocusedInbox**, por exemplo: 
-    
+
  ``` PowerShell
  Get-FocusedInbox -Identity <tim@contoso.com>
  ```
 
 4. Procure FocusedInboxOn para ver a configuração atual:
-    
+
     ![Resposta do PowerShell no estado da Caixa de Entrada Destaques.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. Execute o cmdlet a seguir para desativar a Caixa de Entrada Destaques.
-    
+
  ``` PowerShell
  Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $false
  ```
 
 6. OU, execute o cmdlet a seguir para ativá-la:
-    
+
  ``` PowerShell
  Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $true
  ```
@@ -116,23 +116,26 @@ Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na or
 ## <a name="use-the-ui-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Use a interface do usuário para criar uma regra de transporte para direcionar mensagens de e-mail ao modo de exibição Destaques para todos os usuários
 
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
-    
+
 2. Navegue até **Regras de** \> **fluxo de mensagens**. Clique em ![Ícone Adicionar EAC](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif) e clique em **Criar uma nova regra...**. 
-    
-3. Quando concluir a criação da nova regra, clique em **Salvar** para iniciá-la. 
-    
+
+3. Quando concluir a criação da nova regra, clique em **Salvar** para iniciá-la.
+
     A imagem a seguir mostra um exemplo em que todas as mensagens com o assunto "Departamento da Folha de Pagamento" são entregues na Caixa de Entrada Destaques.
-    
+
     ![folha de pagamento focusedinbox](../../media/focusedinbox-transport-rule.PNG)
+
+> [!NOTE]
+> Neste exemplo, o texto do valor de cabeçalho da mensagem é **X-MS-Exchange-Organization-BypassFocusedInbox**.
   
-## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Use o PowerShell para criar uma regra de transporte para direcionar mensagens de e-mail ao modo de exibição Destaques para todos os usuários
+## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Use o PowerShell para criar uma regra de transporte para direcionar mensagens de email ao modo de exibição Destaques para todos os usuários
 
 1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=396554).
-    
+
 2. Você deve ter permissões para poder realizar esses procedimentos. Para ver quais são as permissões necessárias, confira a entrada "Regras de transporte" no artigo [Permissões de política e conformidade de mensagens](https://go.microsoft.com/fwlink/p/?LinkId=829796).
 
 3. Execute o comando a seguir para permitir que todas as mensagens do "Departamento da Folha de Pagamento", por exemplo, sejam entregues na Caixa de Entrada Destaques.
-    
+
  ``` PowerShell
  New-TransportRule -Name <name_of_the_rule> -From "Payroll Department" -SetHeaderName "X-MS-Exchange-Organization-BypassFocusedInbox" -SetHeaderValue "true"
  ```
@@ -143,15 +146,15 @@ Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na or
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
-Você pode verificar os cabeçalhos das mensagens de email para conferir se elas estão chegando na Caixa de Entrada por ignorar a regra de transporte da Caixa de Entrada Destaques. Escolha uma mensagem de email de uma caixa de correio na sua organização que tenha a regra de transporte da Caixa de Entrada Destaques aplicada. Examine os cabeçalhos marcados na mensagem e você verá o cabeçalho **X-MS-Exchange-Organization-BypassFocusedInbox: true**. Isso significa que a regra está sendo ignorada. Confira o artigo [Exibir as informações de cabeçalho de Internet por uma mensagem de e-mail](https://go.microsoft.com/fwlink/p/?LinkId=822530) para obter mais informações sobre como encontrar as informações de cabeçalho. 
- 
+Você pode verificar os cabeçalhos das mensagens de email para conferir se elas estão chegando na Caixa de Entrada por ignorar a regra de transporte da Caixa de Entrada Destaques. Escolha uma mensagem de email de uma caixa de correio na sua organização que tenha a regra de transporte da Caixa de Entrada Destaques aplicada. Examine os cabeçalhos marcados na mensagem e você verá o cabeçalho **X-MS-Exchange-Organization-BypassFocusedInbox: true**. Isso significa que a regra está sendo ignorada. Confira o artigo [Exibir as informações de cabeçalho de Internet por uma mensagem de e-mail](https://go.microsoft.com/fwlink/p/?LinkId=822530) para obter mais informações sobre como encontrar as informações de cabeçalho.
+
 ## <a name="turn-onoff-clutter"></a>Ativar/desativar o Clutter
- 
+
 Recebemos relatórios informando que o Email secundário subitamente parou de funcionar para alguns usuários. Se isso acontecer, será possível habilitá-lo novamente para usuários específicos. Veja [Configuração do Email secundário para sua organização](../email/configure-clutter.md).
- 
+
 ## <a name="faq-for-focused-inbox"></a>Perguntas frequentes sobre a Caixa de Entrada Destaques
 
-Aqui estão respostas para Perguntas frequentes sobre a Caixa de Entrada Destaques. 
+Aqui estão respostas para Perguntas frequentes sobre a Caixa de Entrada Destaques.
 
 ### <a name="can-i-control-how-i-roll-out-focused-inbox-in-my-organization"></a>Posso controlar como distribuir a Caixa de Entrada Destaque na minha organização?
 
@@ -183,10 +186,10 @@ Não. É possível desabilitar o Email Secundário para uma caixa de correio exp
 
 Há dois estados associados à Caixa de Entrada Destaques.
   
-- **Nível da Organização**: estado da Caixa de Entrada Destaques e um carimbo de data/hora de última atualização associado. 
-    
+- **Nível da Organização**: estado da Caixa de Entrada Destaques e um carimbo de data/hora de última atualização associado.
+
 - **Nível da Caixa de Correio**: estado da Caixa de Entrada Destaques e um carimbo de data/hora de última atualização associado. 
-    
+
 ### <a name="how-does-outlook-decide-to-show-the-focused-inbox-experience-with-these-two-states"></a>Como o Outlook decide mostrar a experiência da Caixa de Entrada Destaques com esses dois estados?
 
 O Outlook decide mostrar a experiência escolhendo cmdlet que tem o carimbo de data/hora mais recente. Por padrão, ambos os carimbos são "nulos" e, nesse caso, o recurso é habilitado.

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a6e3e7cc0404a56e4d69da69b95aa95fa6795dd5
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 9ec6f73996b2626ef62d33435ed88fb08dfc1a16
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002216"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126574"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de Área de Trabalho Gerenciada da Microsoft
 
@@ -37,7 +37,7 @@ Aplicativos Win32 |    O Teams não é fornecido com o dispositivo, mas é empac
 Aplicativos Web |  O Yammer, o Office em um navegador, o Delve, o fluxo, o StaffHub, o PowerApps e o Planner não são fornecidos com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
 
 
-## <a name="windows-10-enterprise-e3-or-e5"></a>Windows 10 Enterprise E3 ou e5
+## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>Windows 10 Enterprise E5 ou E3 com Microsoft defender para ponto de extremidade
 
  |
  --- | ---
@@ -49,5 +49,5 @@ Microsoft Defender para Ponto de Extremidade |    O Microsoft Managed desktop us
  |
  --- | ---
 Mobilidade corporativa + segurança E3<br>Azure Active Directory Premium P2 |    Você pode usar todos os recursos do Enterprise Mobility + Security E3 e o Azure Active Directory Premium P2 para gerenciar dispositivos MDM.
-Microsoft Cloud App Security |  Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.
+Segurança no aplicativo na nuvem da Microsoft |  Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.
 Proteção de informações do Azure P2  | Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.
