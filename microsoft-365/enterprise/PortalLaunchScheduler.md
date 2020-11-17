@@ -17,18 +17,18 @@ search.appverid:
 - SPO160
 - MET150
 description: Este artigo descreve como você pode iniciar seu portal usando o Agendador de lançamento do portal
-ms.openlocfilehash: 6a191cf323e180fa77614eb09bae4185228a5029
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: a7a007fdd95638109830a8e3689232060f2b9d8b
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087662"
+ms.locfileid: "49123578"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>Iniciar o portal usando o Agendador de lançamento do portal
 
 Um portal é um site do SharePoint na intranet que tem um grande número de visualizadores de site que consomem o conteúdo dele. Iniciar seu portal em ondas é uma parte importante da garantia de que os usuários tenham uma experiência suave e de baixo desempenho acessando um novo portal do SharePoint Online. 
 
-A inicialização em ondas é uma maneira principal de distribuir seu portal, conforme detalhado no [planejamento do plano de distribuição de lançamento do portal no SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). O Agendador de lançamento do portal foi projetado para ajudá-lo a seguir uma abordagem de distribuição ondulada por fases, gerenciando os redirecionamentos para o novo Portal. Durante cada uma das ondas, você pode coletar comentários do usuário e monitorar o desempenho durante cada onda de implantação. Isso tem a vantagem de apresentar lentamente o portal, dando a você a opção de pausar e resolver problemas antes de prosseguir com a próxima onda e, por fim, garantir uma experiência positiva para seus usuários. 
+A inicialização em ondas é uma maneira principal de distribuir seu portal, conforme detalhado no [planejamento do plano de distribuição de lançamento do portal no SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). O Agendador de lançamento do portal foi projetado para ajudá-lo a seguir uma abordagem de distribuição ondulada por fases, gerenciando os redirecionamentos para o novo Portal. Durante cada uma das ondas, você pode coletar comentários do usuário e monitorar o desempenho durante cada onda de implantação. Isso tem a vantagem de apresentar lentamente o portal, dando a você a opção de pausar e resolver problemas antes de prosseguir com a próxima onda e, por fim, garantir uma experiência positiva para seus usuários. 
 
 Há dois tipos de redirecionamento: 
 - bidirecional: iniciar um novo portal moderno do SharePoint Online para substituir um portal clássico ou moderno do SharePoint existente 
