@@ -13,13 +13,13 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Implemente os recursos de Governança de Informações da Microsoft no Microsoft 365 para controlar seus dados e atender aos requisitos normativos ou de conformidade.
-ms.openlocfilehash: c85fd74f0e3259c40f16bc2faa766b3313239134
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+description: Implementar recursos de Governança de Informações da Microsoft para controlar seus dados para conformidade ou requisitos regulatórios.
+ms.openlocfilehash: 6b06de54f18ce4081c3b13d108a5c0ceae6d24a7
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071462"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087110"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Governança de Informações da Microsoft no Microsoft 365
 
@@ -29,7 +29,7 @@ Use os recursos da Governança de Informações da Microsoft (às vezes, abrevia
 
 ![Controle seus dados: governança de informações e gerenciamento de registros](../media/information-governance-records-management.png)
 
-Deseja proteger seus dados? Confira [Proteção de Informações da Microsoft no Microsoft 365](information-protection.md).
+Procurando proteger seus dados? Confira [Proteção de Informações da Microsoft no Microsoft 365](information-protection.md).
 
 ## <a name="information-governance"></a>Governança de informações
 

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3703216c28a5122f163e646942d3fac651e0ef29
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: d1d657c7dc004bc587a8934292b6117ac4e023a0
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920315"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087325"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -92,12 +92,12 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
   
 4. Na página **pesquisa de conteúdo** , selecione uma pesquisa. 
   
-5. No painel de detalhes, em **Exportar resultados para um computador** , clique em **Iniciar exportação**.
+5. No painel de detalhes, em **Exportar resultados para um computador**, clique em **Iniciar exportação**.
   
     > [!NOTE]
     > Se os resultados de uma pesquisa tiverem mais de 7 dias, você precisará atualizá-los. Se isso acontecer, cancele a exportação, clique em **Atualizar resultados de pesquisa** no painel de detalhes para a pesquisa selecionada e inicie a exportação novamente após os resultados serem atualizados.  
   
-6. Na página **exportar os resultados da pesquisa** , em **Opções de saída** , escolha uma das seguintes opções:
+6. Na página **exportar os resultados da pesquisa** , em **Opções de saída**, escolha uma das seguintes opções:
   
     - Todos os itens, excluindo aqueles que têm formato não reconhecido, são criptografados ou não foram indexados por outros motivos
   
@@ -107,11 +107,11 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
   
     Consulte a seção [mais informações](#more-information) para obter uma descrição sobre como os itens parcialmente indexados são exportados. Para obter mais informações sobre itens parcialmente indexados, confira [itens parcialmente indexados na pesquisa de conteúdo](partially-indexed-items-in-content-search.md).
   
-7. Em **exportar conteúdo do Exchange como** , escolha uma das seguintes opções:
+7. Em **exportar conteúdo do Exchange como**, escolha uma das seguintes opções:
   
     - **Um arquivo PST para cada caixa de correio:** Exporta um arquivo PST para cada caixa de correio de usuário que contém os resultados da pesquisa. Os resultados da caixa de correio de arquivo morto do usuário são incluídos no mesmo arquivo PST. Essa opção reproduz a estrutura de pastas da caixa de correio da caixa de correio de origem.
   
-    - **Um arquivo PST contendo todas as mensagens:** Exporta um único arquivo PST (chamado *Exchange. pst* ) que contém os resultados da pesquisa de todas as caixas de correio de origem incluídas na pesquisa. Essa opção reproduz a estrutura de pastas da caixa de correio para cada mensagem.
+    - **Um arquivo PST contendo todas as mensagens:** Exporta um único arquivo PST (chamado *Exchange. pst*) que contém os resultados da pesquisa de todas as caixas de correio de origem incluídas na pesquisa. Essa opção reproduz a estrutura de pastas da caixa de correio para cada mensagem.
   
     - **Um arquivo PST contendo todas as mensagens em uma única pasta:** Exporta os resultados da pesquisa para um único arquivo PST onde todas as mensagens estão localizadas em uma única pasta de nível superior. Essa opção permite que os revisores revisem itens em ordem cronológica (os itens são classificados por data de envio) sem precisar navegar na estrutura de pastas da caixa de correio original de cada item.
   
@@ -128,9 +128,9 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
   
 10. Clique na caixa de seleção **exportar arquivos em uma pasta compactada (zipada)** para exportar os resultados da pesquisa para pastas compactadas. Essa opção está disponível somente quando você opta por exportar itens do Exchange como mensagens individuais e quando os resultados da pesquisa incluem documentos do SharePoint ou do OneDrive. Essa opção é usada principalmente para contornar o limite de caracteres de 260 em nomes de caminho de arquivo do Windows quando os itens são exportados. Consulte "nomes de dados dos itens exportados" na seção [mais informações](#more-information) . 
   
-11. Clique em **Iniciar exportação**.
-  
-    Os resultados da pesquisa são preparados para download, o que significa que eles estão sendo carregados para o local de armazenamento do Azure na nuvem da Microsoft. Quando os resultados da pesquisa estiverem prontos para download, o link **Baixar resultados exportados** será exibido em **Exportar resultados para um computador** no painel de detalhes. 
+11. Clique em **Iniciar exportação**. Os resultados da pesquisa são preparados para download, o que significa que eles estão sendo carregados em um local de armazenamento do Azure na nuvem da Microsoft. Isso pode levar alguns minutos.
+
+Consulte a próxima seção para obter instruções para baixar os resultados de pesquisa exportados.
   
 ## <a name="step-2-download-the-search-results"></a>Etapa 2: baixar os resultados da pesquisa
 
@@ -138,34 +138,23 @@ A próxima etapa é baixar os resultados da pesquisa do local de armazenamento d
   
 Conforme explicado anteriormente, você pode aumentar a velocidade de download Configurando uma configuração do registro do Windows no computador que você usa para exportar os resultados da pesquisa. Para obter mais informações, consulte [aumentar a velocidade de download ao exportar resultados de pesquisa de descoberta eletrônica do Office 365](increase-download-speeds-when-exporting-ediscovery-results.md).
   
-1. No painel de detalhes da pesquisa para a qual você iniciou a exportação, em **Exportar resultados para um computador** , clique em **Baixar resultados exportados**.
+1. Na página **pesquisa de conteúdo** , clique na guia **Exportar** . 
   
-    A janela **baixar resultados exportados** é exibida e contém as seguintes informações sobre os resultados da pesquisa que serão baixados para o seu computador. 
+   Talvez seja necessário clicar em **Atualizar** para atualizar a lista de trabalhos de exportação para que ele mostre o trabalho de exportação que você criou. Os trabalhos de exportação têm o mesmo nome da pesquisa correspondente com o **_Export** acrescentado ao nome da pesquisa.
   
-    - O número de itens que serão baixados.
-  
-    - O tamanho total estimado dos itens que serão baixados.
-  
-    - Se serão exportados itens indexados ou não indexados. Itens não indexados são itens que têm um formato reconhecido, são criptografados ou não foram indexados por outros motivos. Para saber mais, confira [Unindexed items in Content Search](partially-indexed-items-in-content-search.md).
-  
-    - Se as versões dos documentos do SharePoint serão baixadas.
-  
-    - O status do processo de preparação de exportação. Você pode começar a baixar os resultados da pesquisa mesmo se a preparação dos dados não tiver sido concluída.
-  
-2. Em **Exportar chave** , clique em **Copiar para a área de transferência**. Use essa chave na etapa 5 para baixar os resultados da pesquisa.
-  
-    > [!NOTE]
-    > Como qualquer pessoa pode instalar e iniciar a Ferramenta de Exportação de Descoberta Eletrônica e, em seguida, usar essa chave para baixar os resultados da pesquisa, tenha o cuidado de proteger essa chave exatamente como faria com senhas ou outras informações relacionadas à segurança. 
-  
-3. Clique em **Baixar resultados**.
+2. Selecione o trabalho de exportação que você criou na etapa 1.
 
-4. Se você for solicitado a instalar a **ferramenta de exportação de descoberta eletrônica** , clique em **instalar**.
+3. Na página de menu, em **Exportar chave**, clique em **copiar para área de transferência**. Use essa chave na etapa 6 para baixar os resultados da pesquisa.
+  
+4. Clique em **Baixar resultados**.
 
-5. Na **ferramenta de exportação de descoberta eletrônica** , faça o seguinte:
+5. Se você for solicitado a instalar a **ferramenta de exportação de descoberta eletrônica**, clique em **instalar**.
+
+6. Na **ferramenta de exportação de descoberta eletrônica**, faça o seguinte:
 
    ![Ferramenta de exportação de descoberta eletrônica](../media/eDiscoveryExportTool.png)
 
-   1. Cole a chave de exportação que você copiou na etapa 2 na caixa apropriada.
+   1. Cole a chave de exportação que você copiou na etapa 3 na caixa apropriada.
   
    2. Clique em **Procurar** para especificar o local onde deseja baixar os arquivos de resultado da pesquisa.
   
@@ -268,7 +257,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
 
     Observe também que, no exemplo anterior (quando você exporta itens indexados e parcialmente indexados ou você exporta apenas itens indexados), o relatório de **Resumo de exportação** incluído nos resultados de pesquisa exportados listaria 1.000 itens estimados e 1.000 itens baixados pelos mesmos motivos que foram descritos anteriormente. 
 
-- Se a pesquisa de que você está exportando os resultados for uma pesquisa de locais de conteúdo específicos ou de todos os locais de conteúdo em sua organização, somente os itens parcialmente de locais de conteúdo que contêm itens que correspondam aos critérios de pesquisa serão exportados. Em outras palavras, se nenhum resultado de pesquisa for encontrado em uma caixa de correio ou site, todos os itens parcialmente indexados na caixa de correio ou site não serão exportados. O motivo disso é que exportar itens parcialmente indexados de muitos locais na organização pode aumentar a probabilidade de erros de exportação e aumentar o tempo necessário para exportar e baixar os resultados da pesquisa.
+- Se a pesquisa de que você está exportando os resultados for uma pesquisa de locais de conteúdo específicos ou de todos os locais de conteúdo em sua organização, somente os itens parciais de locais de conteúdo que contêm itens que correspondam aos critérios de pesquisa serão exportados. Em outras palavras, se nenhum resultado de pesquisa for encontrado em uma caixa de correio ou site, todos os itens parcialmente indexados na caixa de correio ou site não serão exportados. O motivo disso é que exportar itens parcialmente indexados de muitos locais na organização pode aumentar a probabilidade de erros de exportação e aumentar o tempo necessário para exportar e baixar os resultados da pesquisa.
 
     Para exportar itens parcialmente indexados de todos os locais de conteúdo para uma pesquisa, configure a pesquisa para retornar todos os itens (removendo palavras-chave da consulta de pesquisa) e exporte apenas itens parcialmente indexados quando exportar os resultados da pesquisa.
 

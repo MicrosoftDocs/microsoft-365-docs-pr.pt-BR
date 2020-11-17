@@ -8,14 +8,15 @@ audience: admin
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.service: ''
+ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 318497b8b1815b281eff7d781820616c9be9d5ed
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 96ffa22880aa9bcb70c0f7159ac7587c911b375b
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321236"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087350"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>Importar um conjunto de termos usando um formato baseado em SKOS
 

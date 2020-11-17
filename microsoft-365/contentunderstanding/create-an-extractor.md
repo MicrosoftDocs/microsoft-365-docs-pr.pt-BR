@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Aprenda como criar um extrator no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 260486c128ce76c31fe5f4a0994b4e103687b829
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 99d2a4602c03d8a7207736ea17ed500626ce43ac
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338644"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087458"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Criar um extrator no Microsoft SharePoint Syntex
 
@@ -25,9 +26,9 @@ ms.locfileid: "48338644"
 
 </br> 
 
-Antes ou depois de criar um modelo de classificador para automatizar a identificação e classificação de tipos de documentos específicos, você pode optar por adicionar extratores ao seu modelo para extrair informações específicas desses documentos. Por exemplo, você pode desejar que seu modelo não apenas identifique todos os documentos de *Renovação do Contrato* adicionados à sua biblioteca de documentos, mas também exiba a *Data de Início do Serviço * para cada documento como um valor de coluna em a biblioteca de documentos.
+Antes ou depois de criar um modelo de classificador para automatizar a identificação e classificação de tipos de documentos específicos, você pode optar por adicionar extratores ao seu modelo para extrair informações específicas desses documentos. Por exemplo, você pode desejar que seu modelo não apenas identifique todos os documentos de *Renovação do Contrato* adicionados à sua biblioteca de documentos, mas também exiba a *Data de Início do Serviço* para cada documento como um valor de coluna em a biblioteca de documentos.
 
-É necessário criar um extrator para cada entidade no documento que se deseja extrair. No nosso exemplo, desejamos extrair a  **Data de Início do Serviço**  para cada documento de  **Renovação de Contrato**  que é identificado pelo modelo. Queremos ter uma visão na biblioteca de documentos de todos os documentos de  **Renovação de Contrato ** , com uma coluna que mostra o valor da data de **Início do Serviço** de cada documento. 
+É necessário criar um extrator para cada entidade no documento que se deseja extrair. No nosso exemplo, desejamos extrair a  **Data de Início do Serviço**  para cada documento de  **Renovação de Contrato**  que é identificado pelo modelo. Queremos ter uma visão na biblioteca de documentos de todos os documentos de  **Renovação de Contrato** , com uma coluna que mostra o valor da data de **Início do Serviço** de cada documento. 
 
 > [!NOTE]
 > Para criar um extrator, você utiliza os mesmos arquivos que carregou anteriormente para treinar o classificador. 
@@ -105,7 +106,7 @@ Se a explicação não contém informações suficientes para localizar os dados
 
 Muitas vezes, a incompatibilidade é uma indicação de que a explicação que fornecemos não proporcionou informações suficientes para extrair o valor da data de início do serviço para corresponder aos nossos arquivos rotulados. Você pode precisar editá-lo ou acrescentar outra explicação.
 
-Para nosso exemplo, observe que o texto *data de Início do Serviço de * sempre precede o valor real. Para ajudar a identificar a Data de Início do Serviço, você precisa criar uma explicação de frase.
+Para nosso exemplo, observe que o texto *data de Início do Serviço de* sempre precede o valor real. Para ajudar a identificar a Data de Início do Serviço, você precisa criar uma explicação de frase.
 
 1. Na seção Explicação, selecione **Novo**, e então digite um nome (por exemplo, *Sequencia de Prefixo*).
 2. Para o Tipo, selecione **Lista de frases**.

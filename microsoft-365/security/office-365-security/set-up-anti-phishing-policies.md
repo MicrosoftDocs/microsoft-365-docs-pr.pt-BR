@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft defender para Office 365.
-ms.openlocfilehash: b54f452fb984f61913f2ade53ad45ed169a43832
-ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+ms.openlocfilehash: c728a69a3b0841219e4f9b546e80e71b2cf89151
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993349"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123626"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -65,19 +65,19 @@ O restante deste artigo descreve as configurações disponíveis em políticas a
 
 As configurações de política a seguir estão disponíveis em políticas anti-phishing no EOP e no Microsoft defender para Office 365:
 
-- **Name** : não é possível renomear a política anti-phishing padrão, mas você pode nomear e renomear políticas personalizadas que você criou.
+- **Name**: não é possível renomear a política anti-phishing padrão, mas você pode nomear e renomear políticas personalizadas que você criou.
 
 - **Descrição** Não é possível adicionar uma descrição à política anti-phishing padrão, mas você pode adicionar e alterar a descrição das políticas personalizadas criadas.
 
-- **Aplicado a** : identifica destinatários internos aos quais a política anti-phishing se aplica. Esse valor é necessário em políticas personalizadas e não está disponível na política padrão (a política padrão se aplica a todos os destinatários).
+- **Aplicado a**: identifica destinatários internos aos quais a política anti-phishing se aplica. Esse valor é necessário em políticas personalizadas e não está disponível na política padrão (a política padrão se aplica a todos os destinatários).
 
-  Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_ ). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_ ).
+  Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
-  - O **destinatário é** : uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
-  - **O destinatário é um membro de** : um ou mais grupos em sua organização.
-  - **O domínio do destinatário é** : um ou mais dos domínios aceitos configurados no Microsoft 365.
+  - O **destinatário é**: uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
+  - **O destinatário é um membro de**: um ou mais grupos em sua organização.
+  - **O domínio do destinatário é**: um ou mais dos domínios aceitos configurados no Microsoft 365.
 
-  - **Exceto quando** : exceções da regra. As configurações e o comportamento são exatamente semelhantes às condições:
+  - **Exceto quando**: exceções da regra. As configurações e o comportamento são exatamente semelhantes às condições:
 
     - **O destinatário é**
     - **O destinatário é um membro de**
@@ -92,7 +92,7 @@ Falsificação é quando o endereço de em uma mensagem de email (o endereço do
 
 As seguintes configurações de spoof estão disponíveis em políticas anti-phishing no EOP e no Microsoft defender para Office 365:
 
-- **Proteção contra falsificação** : habilita ou desabilita a proteção contra falsificação. Recomendamos que você deixe-o habilitado. Você usa a **política de inteligência de spoof** para permitir ou bloquear remetentes internos e externos falsificados específicos. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
+- **Proteção contra falsificação**: habilita ou desabilita a proteção contra falsificação. Recomendamos que você deixe-o habilitado. Você usa a **política de inteligência de spoof** para permitir ou bloquear remetentes internos e externos falsificados específicos. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
 
   > [!NOTE]
   >
@@ -102,15 +102,15 @@ As seguintes configurações de spoof estão disponíveis em políticas anti-phi
 
   Para mensagens de remetentes falsificados bloqueados, você também pode especificar a ação a ser tomada nas mensagens:
 
-  - **Mover mensagem para a pasta de lixo eletrônico** : Este é o valor padrão. A mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
+  - **Mover mensagem para a pasta de lixo eletrônico**: Este é o valor padrão. A mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-  - **Colocar a mensagem em quarentena** : envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre a quarentena, consulte os seguintes artigos:
+  - **Colocar a mensagem em quarentena**: envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre a quarentena, consulte os seguintes artigos:
 
     - [Quarentena no Microsoft 365](quarantine-email-messages.md)
     - [Gerenciar arquivos e mensagens em quarentena como um administrador no Microsoft 365](manage-quarantined-messages-and-files.md)
     - [Localizar e liberar mensagens em quarentena como um usuário no Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-- **Remetente não autenticado** : Confira as informações na próxima seção.
+- **Remetente não autenticado**: Confira as informações na próxima seção.
 
 ### <a name="unauthenticated-sender"></a>Remetente não autenticado
 
@@ -140,7 +140,7 @@ Para obter mais informações, consulte [identificar mensagens suspeitas no Outl
 Esta seção descreve as configurações de política que estão disponíveis somente em políticas anti-phishing no Microsoft defender para Office 365.
 
 > [!NOTE]
-> Por padrão, as configurações exclusivas no defender para Office 365 não estão configuradas ou ativadas, mesmo na política padrão. Para aproveitar esses recursos, é necessário habilitá-los e configurá-los na política anti-phishing padrão ou criar e configurar políticas anti-phishing personalizadas.
+> A política anti-phishing padrão no Microsoft defender para Office 365 fornece [proteção contra falsificação](set-up-anti-phishing-policies.md#spoof-settings) e inteligência de caixa de correio para todos os destinatários. No entanto, os outros recursos de [proteção de representação](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) disponíveis e [Configurações avançadas](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365) não estão configurados ou habilitados na política padrão. Para habilitar todos os recursos de proteção, modifique a política anti-phishing padrão ou crie políticas anti-phishing adicionais.
 
 ### <a name="impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurações de representação em políticas anti-phishing no Microsoft defender para Office 365
 
@@ -153,7 +153,7 @@ Caso contrário, um domínio representado pode ser considerado legítimo (domín
 
 As configurações de representação a seguir estão disponíveis apenas em políticas anti-phishing no Microsoft defender para Office 365:
 
-- **Usuários a serem protegidos** : impede que os endereços de email internos ou externos especificados sejam representados **como remetentes de mensagens**. Por exemplo, você recebe uma mensagem de email do vice-presidente de sua empresa solicitando que você envie algumas informações internas da empresa. Você faria isso? Muitas pessoas enviariam a resposta sem pensar.
+- **Usuários a serem protegidos**: impede que os endereços de email internos ou externos especificados sejam representados **como remetentes de mensagens**. Por exemplo, você recebe uma mensagem de email do vice-presidente de sua empresa solicitando que você envie algumas informações internas da empresa. Você faria isso? Muitas pessoas enviariam a resposta sem pensar.
 
   Você pode usar usuários protegidos para adicionar endereços de email de remetente internos e externos para proteção contra representação. Esta lista de **remetentes** que são protegidos da representação do usuário é diferente da lista de **destinatários** aos quais a política se aplica (todos os destinatários da política padrão; destinatários específicos conforme configurados na configuração **aplica-se a à** , na seção [configurações de política](#policy-settings) ).
 
@@ -167,7 +167,7 @@ As configurações de representação a seguir estão disponíveis apenas em pol
 
   Quando você adiciona endereços de email internos ou externos à lista de **usuários para proteger** , as mensagens desses **remetentes** estão sujeitas às verificações de proteção de representação. A mensagem será verificada quanto à representação **se** a mensagem for enviada a um **destinatário** ao qual a política se aplica (todos os destinatários da política padrão; **Aplicado a** destinatários em políticas personalizadas). Se a representação for detectada no endereço de email do remetente, as ações de proteções de representação para os usuários serão aplicadas à mensagem (o que fazer com a mensagem, se mostrar dicas de segurança de usuários representados, etc.).
 
-- **Domínios a serem protegidos** : impede que os domínios especificados sejam representados **no domínio do remetente da mensagem**. Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios de parceiros). Esta lista de **domínios de remetentes** que são protegidos contra representação é diferente da lista de **destinatários** aos quais a política se aplica (todos os destinatários da política padrão; destinatários específicos conforme configurados na configuração **aplica-se a à** , na seção [configurações de política](#policy-settings) ).
+- **Domínios a serem protegidos**: impede que os domínios especificados sejam representados **no domínio do remetente da mensagem**. Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios de parceiros). Esta lista de **domínios de remetentes** que são protegidos contra representação é diferente da lista de **destinatários** aos quais a política se aplica (todos os destinatários da política padrão; destinatários específicos conforme configurados na configuração **aplica-se a à** , na seção [configurações de política](#policy-settings) ).
 
   > [!NOTE]
   > O número máximo de domínios protegidos que você pode definir em todas as políticas anti-phishing é de 50.
@@ -176,36 +176,36 @@ As configurações de representação a seguir estão disponíveis apenas em pol
 
   Quando você adiciona domínios à lista de **domínios para proteger** , as mensagens de **remetentes nesses domínios** estão sujeitas às verificações de proteção de representação. A mensagem será verificada quanto à representação **se** a mensagem for enviada a um **destinatário** ao qual a política se aplica (todos os destinatários da política padrão; **Aplicado a** destinatários em políticas personalizadas). Se a representação for detectada no domínio do remetente, as ações de proteção de representação para domínios serão aplicadas à mensagem (o que fazer com a mensagem, se mostrará as dicas de segurança de usuários representados, etc.).
 
-- **Ações para usuários ou domínios protegidos** : escolha a ação a ser realizada em mensagens de entrada que contenham tentativas de representação em relação aos usuários protegidos e domínios protegidos na política. Você pode especificar ações diferentes para representação de usuários protegidos vs. representação de domínios protegidos:
+- **Ações para usuários ou domínios protegidos**: escolha a ação a ser realizada em mensagens de entrada que contenham tentativas de representação em relação aos usuários protegidos e domínios protegidos na política. Você pode especificar ações diferentes para representação de usuários protegidos vs. representação de domínios protegidos:
 
   - **Não aplicar nenhuma ação**
 
-  - **Redirecionar mensagem para outros endereços de email** : envia a mensagem para os destinatários especificados, e não para os destinatários pretendidos.
+  - **Redirecionar mensagem para outros endereços de email**: envia a mensagem para os destinatários especificados, e não para os destinatários pretendidos.
 
-  - **Mover mensagem para a pasta lixo eletrônico** : a mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
+  - **Mover mensagem para a pasta lixo eletrônico**: a mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-    - **Colocar a mensagem em quarentena** : envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre a quarentena, consulte os seguintes artigos:
+    - **Colocar a mensagem em quarentena**: envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre a quarentena, consulte os seguintes artigos:
 
     - [Quarentena no Microsoft 365](quarantine-email-messages.md)
     - [Gerenciar arquivos e mensagens em quarentena como um administrador no Microsoft 365](manage-quarantined-messages-and-files.md)
     - [Localizar e liberar mensagens em quarentena como um usuário no Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-  - **Entregar a mensagem e adicionar outros endereços à linha Cco** : entregar a mensagem aos destinatários pretendidos e entregar silenciosamente a mensagem aos destinatários especificados.
+  - **Entregar a mensagem e adicionar outros endereços à linha Cco**: entregar a mensagem aos destinatários pretendidos e entregar silenciosamente a mensagem aos destinatários especificados.
 
-  - **Excluir a mensagem antes de ser entregue** : exclui silenciosamente a mensagem inteira, incluindo todos os anexos.
+  - **Excluir a mensagem antes de ser entregue**: exclui silenciosamente a mensagem inteira, incluindo todos os anexos.
 
-- **Dicas de segurança** : habilita ou desabilita as seguintes dicas de segurança de representação que irão aparecer mensagens que falham em verificações de representação:
+- **Dicas de segurança**: habilita ou desabilita as seguintes dicas de segurança de representação que irão aparecer mensagens que falham em verificações de representação:
 
-  - **Usuários representados** : o endereço de contém um usuário protegido.
-  - **Domínios representados** : o endereço de contém um domínio protegido.
-  - **Caracteres incomuns** : o endereço de contém conjuntos de caracteres usuais (por exemplo, símbolos matemáticos e texto ou uma mistura de letras maiúsculas e minúsculas) em um remetente ou domínio protegido.
+  - **Usuários representados**: o endereço de contém um usuário protegido.
+  - **Domínios representados**: o endereço de contém um domínio protegido.
+  - **Caracteres incomuns**: o endereço de contém conjuntos de caracteres usuais (por exemplo, símbolos matemáticos e texto ou uma mistura de letras maiúsculas e minúsculas) em um remetente ou domínio protegido.
 
   > [!NOTE]
   > Mesmo quando as dicas de segurança de representação estiverem desativadas, você poderá usar uma regra de fluxo de emails (também conhecida como regra de transporte) para adicionar um cabeçalho de mensagem chamado **X-MS-Exchange-EnableFirstContactSafetyTip** a mensagens. Dicas de segurança específicas serão exibidas notificando os destinatários de que geralmente não recebem emails do remetente ou em casos em que o destinatário recebe um email pela primeira vez do remetente.
 
-- **Inteligência de caixa de correio** : habilita ou desabilita a inteligência artificial (ai) que determina os padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda o AI a distinguir entre emails legítimos e falsificados desses contatos. O Mailbox Intelligence só está disponível para caixas de correio do Exchange Online.
+- **Inteligência de caixa de correio**: habilita ou desabilita a inteligência artificial (ai) que determina os padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda o AI a distinguir entre emails legítimos e falsificados desses contatos. O Mailbox Intelligence só está disponível para caixas de correio do Exchange Online.
 
-- **Proteção de representação baseada em inteligência de caixa de correio** : habilita ou desabilita os resultados de representação avançada com base no mapa de remetentes individuais de cada usuário. Esta inteligência permite que a Microsoft 365 Personalize a detecção de representação de usuário e manipule melhor os falsos positivos. Quando a representação do usuário é detectada, você pode definir uma ação específica a ser executada na mensagem:
+- **Proteção de representação baseada em inteligência de caixa de correio**: habilita ou desabilita os resultados de representação avançada com base no mapa de remetentes individuais de cada usuário. Esta inteligência permite que a Microsoft 365 Personalize a detecção de representação de usuário e manipule melhor os falsos positivos. Quando a representação do usuário é detectada, você pode definir uma ação específica a ser executada na mensagem:
 
   - **Não aplicar nenhuma ação**
   - **Redirecionar mensagem para outros endereços de email**
@@ -214,18 +214,18 @@ As configurações de representação a seguir estão disponíveis apenas em pol
   - **Entregar a mensagem e adicionar outros endereços à linha Cco**
   - **Excluir a mensagem antes de ser entregue**
 
-- **Remetentes e domínios confiáveis** : exceções às configurações de proteção de representação. As mensagens dos domínios remetentes e remetentes especificados nunca são classificadas como ataques baseados na representação pela política. Em outras palavras, a ação para remetentes protegidos, domínios protegidos ou proteção de inteligência de caixa de correio não é aplicada a esses remetentes confiáveis ou domínios de remetente. O limite máximo para essas listas é de aproximadamente 1000 entradas.
+- **Remetentes e domínios confiáveis**: exceções às configurações de proteção de representação. As mensagens dos domínios remetentes e remetentes especificados nunca são classificadas como ataques baseados na representação pela política. Em outras palavras, a ação para remetentes protegidos, domínios protegidos ou proteção de inteligência de caixa de correio não é aplicada a esses remetentes confiáveis ou domínios de remetente. O limite máximo para essas listas é de aproximadamente 1000 entradas.
 
 ### <a name="advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Limites avançados de phishing em políticas anti-phishing no Microsoft defender para Office 365
 
 Os seguintes limites avançados de phishing estão disponíveis apenas em políticas anti-phishing no Microsoft defender para Office 365. Esses limites controlam a sensibilidade para aplicar modelos de aprendizado de máquina às mensagens para determinar uma veredicto de phishing:
 
-- **1-padrão** : Este é o valor padrão. A gravidade da ação tomada na mensagem depende do grau de confiança de que a mensagem é phishing (baixa, média, alta ou muito alta confiança). Por exemplo, as mensagens identificadas como phishing com um nível muito elevado de confiança têm as ações mais severas aplicadas, enquanto as mensagens identificadas como phishing com um baixo grau de confiança têm menos ações aplicadas.
+- **1-padrão**: Este é o valor padrão. A gravidade da ação tomada na mensagem depende do grau de confiança de que a mensagem é phishing (baixa, média, alta ou muito alta confiança). Por exemplo, as mensagens identificadas como phishing com um nível muito elevado de confiança têm as ações mais severas aplicadas, enquanto as mensagens identificadas como phishing com um baixo grau de confiança têm menos ações aplicadas.
 
-- **2-agressivo** : as mensagens identificadas como phishing com um alto grau de confiança são tratadas como se tivessem sido identificadas com um nível muito alto de confiança.
+- **2-agressivo**: as mensagens identificadas como phishing com um alto grau de confiança são tratadas como se tivessem sido identificadas com um nível muito alto de confiança.
 
-- **3-mais agressivo** : as mensagens que são identificadas como phishing com um grau de confiança médio ou alto são tratadas como se tivessem sido identificadas com um grau muito alto de confiança.
+- **3-mais agressivo**: as mensagens que são identificadas como phishing com um grau de confiança médio ou alto são tratadas como se tivessem sido identificadas com um grau muito alto de confiança.
 
-- **4-mais agressivo** : as mensagens identificadas como phishing com um nível de confiança baixo, médio ou alto são tratadas como se tivessem sido identificadas com um grau muito alto de confiança.
+- **4-mais agressivo**: as mensagens identificadas como phishing com um nível de confiança baixo, médio ou alto são tratadas como se tivessem sido identificadas com um grau muito alto de confiança.
 
 A chance de falsos positivos (boas mensagens marcadas como ruins) aumenta à medida que você aumenta essa configuração. Para obter informações sobre as configurações recomendadas, consulte [política anti-phishing no Microsoft defender para Office 365 Settings](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365).

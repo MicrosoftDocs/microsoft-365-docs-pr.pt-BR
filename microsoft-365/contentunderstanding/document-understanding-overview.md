@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Obtenha uma visão geral da compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 1265dfa06db323e23d63a044a1a95a6b67c525cf
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: b26ed9a9ed9b8d1f332ccf14377660e634349b3d
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333553"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087362"
 ---
 # <a name="document-understanding-overview"></a>Visão geral da compreensão de documentos
 

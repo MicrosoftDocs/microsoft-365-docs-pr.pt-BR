@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: f39b374926ef714a32cfce4a625cc1387bb68097
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: f214c1fcfa8a68695ca0c32a9807972a71ba7612
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104463"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087156"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -55,7 +55,7 @@ Para obter uma lista completa dos filtros e detalhes do campo, consulte [Filters
 
 5. Selecione o controle **filtros** para abrir a página **filtros** de detalhes.
 
-6. Selecione uma ou mais caixas de seleção para Habilitar filtros para esses alertas. Você pode escolher entre vários filtros, incluindo *Data*, *remetente*, *assunto/título*, *classificadores*e muito mais.
+6. Selecione uma ou mais caixas de seleção para Habilitar filtros para esses alertas. Você pode escolher entre vários filtros, incluindo *Data*, *remetente*, *assunto/título*, *classificadores* e muito mais.
 
 7. Se quiser salvar o filtro selecionado como o filtro padrão, selecione **salvar como padrão**. Se você quiser usar este filtro como um filtro salvo, selecione **concluído**.
 
@@ -81,7 +81,7 @@ As políticas de conformidade de comunicação verificam e agrupam automaticamen
 
 6. Selecione uma ou mais mensagens para controles de ação de correção para essas mensagens.
 
-7. Selecione **resolver**, **notificar**, **escalonar**ou **baixar** para aplicar a ação às mensagens duplicadas selecionadas como o filtro padrão.
+7. Selecione **resolver**, **notificar**, **escalonar** ou **baixar** para aplicar a ação às mensagens duplicadas selecionadas como o filtro padrão.
 
 8. Selecione **fechar** após concluir as ações de correção nas mensagens.
 
@@ -101,8 +101,8 @@ Não importa onde você comece a revisar os alertas ou a filtragem que você con
 
 Depois de analisar as noções básicas da mensagem, é hora de abrir uma mensagem para examinar os detalhes e determinar as ações de correção posteriores. Selecione uma mensagem para exibir as informações completas de cabeçalho e corpo da mensagem. Vários modos de exibição diferentes estão disponíveis para ajudá-lo a decidir o curso de ação adequado:
 
-- **Modo**de exibição de origem: este modo de exibição é o modo de exibição de mensagem padrão normalmente visto na maioria das plataformas de mensagens baseadas na Web. As informações de cabeçalho são formatadas no estilo normal e o corpo da mensagem suporta arquivos gráficos incorporados e texto com quebra automática de palavra.
-- **Modo**de exibição de texto: a visualização de texto exibe um modo de exibição somente texto numerado de linha da mensagem e inclui a palavra-chave realce para termos correspondentes na política de conformidade de comunicação associada. A palavra-chave realce pode ajudá-lo a verificar rapidamente as mensagens longas para a área de interesse. Os arquivos inseridos não são exibidos e a numeração de linhas desse modo de exibição é útil para fazer referência a detalhes pertinentes entre vários revisores.
+- **Modo** de exibição de origem: este modo de exibição é o modo de exibição de mensagem padrão normalmente visto na maioria das plataformas de mensagens baseadas na Web. As informações de cabeçalho são formatadas no estilo normal e o corpo da mensagem suporta arquivos gráficos incorporados e texto com quebra automática de palavra.
+- **Exibição de texto**: o modo de exibição de texto exibe um modo de exibição somente texto numerado de linha da mensagem e inclui o realce de uma palavra-chave em mensagens e anexos para termos correspondentes na política de conformidade de comunicação associada. A palavra-chave realce pode ajudá-lo a examinar rapidamente mensagens longas e anexos para a área de interesse. Em alguns casos, o texto realçado pode ser apenas em anexos para as condições de política de correspondência de mensagens. Os arquivos inseridos não são exibidos e a numeração de linhas desse modo de exibição é útil para fazer referência a detalhes pertinentes entre vários revisores.
 - **Modo de anotações**: este modo de exibição permite que os revisores adicionem anotações diretamente na mensagem que são salvas no modo de exibição da mensagem.
 - **Histórico do usuário**: o modo de exibição de histórico do usuário exibe todos os outros alertas gerados por qualquer política de conformidade de comunicação para o usuário que está enviando a mensagem.
 - **Exibição de detalhes da mensagem**: modo de exibição avançado de metadados de mensagens e informações de configuração.
@@ -117,11 +117,11 @@ Agora que você analisou os detalhes da mensagem para o alerta, é possível esc
 - **Resolver**: selecionar o controle **resolver** imediatamente remove a mensagem da fila de **alertas pendentes** e nenhuma ação adicional pode ser executada na mensagem. Ao selecionar **resolver**, você já fechou o alerta sem mais classificação e não pode ser reaberto para futuras ações. Todas as mensagens resolvidas são exibidas na guia **resolvido** .
 - **Falso positivo**: você sempre pode resolver uma mensagem como falso positivo em qualquer ponto durante o fluxo de trabalho de revisão de mensagens. False positivo significa que o alerta não era acionável ou que o alerta foi gerado incorretamente pelo processo de alerta. A mensagem não pode ser reaberta e todas as mensagens falsas positivas são exibidas na guia **resolvido** .
 - **Automatização de energia (visualização)**: usar um fluxo automatizado de energia para automatizar tarefas de processo para uma mensagem de alerta. Por padrão, a conformidade de comunicação inclui o *Gerenciador de notificações quando um usuário tem um* modelo de fluxo de alerta de conformidade de comunicação que os revisores podem usar para automatizar o processo de notificação para usuários com alertas de mensagem. Para obter mais informações sobre como criar e gerenciar fluxos automatizados de energia na conformidade de comunicação, consulte o artigo de [referência do recurso de conformidade de comunicação](communication-compliance-feature-reference.md#power-automate-flows-preview) .
-- **Marcar como**: marcar a mensagem como *compatível*, *não compatível*ou como *questionável* , pois ela se relaciona com as políticas e os padrões da sua organização. A adição de marcas e comentários de marcação ajuda você a filtrar alertas de política para escalonamento ou como parte de outros processos de revisão internos. Após a conclusão da marcação, você também pode optar por resolver a mensagem para movê-la para fora da fila de revisão pendente.
+- **Marcar como**: marcar a mensagem como *compatível*, *não compatível* ou como *questionável* , pois ela se relaciona com as políticas e os padrões da sua organização. A adição de marcas e comentários de marcação ajuda você a filtrar alertas de política para escalonamento ou como parte de outros processos de revisão internos. Após a conclusão da marcação, você também pode optar por resolver a mensagem para movê-la para fora da fila de revisão pendente.
 - **Notificar**: você pode usar o controle **Notify** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso apropriado configurado na área **configurações de conformidade de comunicação** e selecione **Enviar** para enviar por email um lembrete para o usuário que enviou a mensagem e para resolver o problema.
 - **Escalonar**: usando o controle **escalonar** , você pode escolher quem mais em sua organização deve revisar a mensagem. Escolha em uma lista de revisores configurados na política de conformidade de comunicação para enviar uma notificação por email solicitando uma revisão adicional do alerta de mensagem. O revisor selecionado pode usar um link na notificação por email para ir diretamente para os itens escalonados a eles para revisão.
 - **Escalonar para investigação**: usando o **escalonamento para controle de investigação** , você pode criar um novo [caso de descoberta eletrônica avançada](overview-ediscovery-20.md) para mensagens simples ou múltiplas. Você fornecerá um nome e anotações para o novo caso e o usuário que enviou a mensagem que corresponde à política será automaticamente atribuído como o responsável da ocorrência. Você não precisa de nenhuma permissão adicional para gerenciar o caso. Criar uma ocorrência não resolve ou cria uma nova marca para a mensagem. Você pode selecionar um total de 100 mensagens ao criar um caso de descoberta eletrônica avançada durante o processo de correção. As mensagens em todos os canais de comunicação monitorados pela conformidade com comunicações têm suporte. Por exemplo, você pode selecionar 50 chats do Microsoft Teams, 25 mensagens de email do Exchange Online e 25 mensagens do Yammer ao abrir um novo caso de descoberta eletrônica avançada para um usuário.
-- **Melhorar a classificação (visualização)**: os alertas criados a partir de um tipo de classificador as correspondências podem precisar de comentários para ajudar a minimizar positivos falsos em sua organização. Use o controle **aprimorar classificação** para fornecer comentários sobre se a classificação de conformidade de comunicação for válida ou para sugerir outros classificadores de uso para esse tipo de correspondência. Você pode confirmar que os classificadores são uma *coincidência* ou *não uma correspondência*ou sugerem que outros classificadores estagiários para associar a esse tipo de atividade de alerta no futuro.
+- **Melhorar a classificação (visualização)**: os alertas criados a partir de um tipo de classificador as correspondências podem precisar de comentários para ajudar a minimizar positivos falsos em sua organização. Use o controle **aprimorar classificação** para fornecer comentários sobre se a classificação de conformidade de comunicação for válida ou para sugerir outros classificadores de uso para esse tipo de correspondência. Você pode confirmar que os classificadores são uma *coincidência* ou *não uma correspondência* ou sugerem que outros classificadores estagiários para associar a esse tipo de atividade de alerta no futuro.
 
     1. Selecione uma mensagem na lista de alerta.
     2. Escolha as reticências e selecione **melhorar a classificação**.

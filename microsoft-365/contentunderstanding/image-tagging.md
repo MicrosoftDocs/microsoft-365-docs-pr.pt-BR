@@ -7,15 +7,16 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre a marcação de imagens no SharePoint Syntex
-ms.openlocfilehash: c6d7513db2fd6aadabe5d813f3b49073a8f8c933
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 3eaf72659cf14f05943159a6e7cd2d357a9f5e88
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413729"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087614"
 ---
 # <a name="image-tagging-in-sharepoint-syntex"></a>Marcação de imagem no SharePoint Syntex
 
@@ -47,7 +48,7 @@ Para ativar ou desativar a marcação de imagem
 
 4. Na guia **Marcação de imagem**, clique em **Editar**.
 
-5. Opte por permitir a **marcação básica** ou **desabilite**a marcação.
+5. Opte por permitir a **marcação básica** ou **desabilite** a marcação.
 
 6. Clique em **Salvar**.
 

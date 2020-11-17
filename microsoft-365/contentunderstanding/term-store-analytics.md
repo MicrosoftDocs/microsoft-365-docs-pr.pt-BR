@@ -8,17 +8,18 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
-ms.openlocfilehash: 75bd60aab424bdf391038a95055a6660ef2ceecc
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: bd5d0b180a95239b1a3ac7b85ae0ada57f098293
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322206"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087269"
 ---
 # <a name="term-store-reports"></a>Relatórios do repositório de termos
 
-Você pode acessar relatórios do repositório de termos no Centro de administração do SharePoint. Expanda **Relatórios**e, em seguida, clique em **Serviços de conteúdo**.
+Você pode acessar relatórios do repositório de termos no Centro de administração do SharePoint. Expanda **Relatórios** e, em seguida, clique em **Serviços de conteúdo**.
 
 Os relatórios a seguir estão disponíveis:
 

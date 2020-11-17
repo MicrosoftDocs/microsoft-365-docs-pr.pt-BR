@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: 'Resumo: conectar-se a todos os serviços do Microsoft 365 usando uma única janela do PowerShell.'
-ms.openlocfilehash: 04be916f745e2bde70554045340fc8ec03f87413
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 4128e360a3664d3a61559139bc4e6e346418fa61
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754311"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087022"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Conectar-se a todos os serviços do Microsoft 365 usando uma única janela do PowerShell
 
@@ -109,7 +109,7 @@ Siga estas etapas para se conectar a todos os serviços em uma única janela do 
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
+   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
 5. Execute esses comandos para se conectar ao Skype for Business Online. Um aviso sobre o aumento do valor de `WSMan NetworkDelayms` aparecerá na primeira vez que você se conectar. Ignore isto.
@@ -157,7 +157,7 @@ Siga estas etapas para se conectar a todos os serviços em uma única janela do 
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Módulo do Azure Active Directory Windows PowerShell para Graph
 
-Aqui estão os comandos para todos os serviços *exceto &amp; Centro de Conformidade de Segurança * em um único bloco quando você usa o Azure Active Directory Windows PowerShell para módulo Graph. Especifique o nome do host de domínio e execute-os todos ao mesmo tempo.
+Aqui estão os comandos para todos os serviços *exceto &amp; Centro de Conformidade de Segurança* em um único bloco quando você usa o Azure Active Directory Windows PowerShell para módulo Graph. Especifique o nome do host de domínio e execute-os todos ao mesmo tempo.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -174,7 +174,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Aqui estão os comandos para todos os serviços *exceto Exchange Online * em um único bloco quando você usa o Azure Active Directory Windows PowerShell para o módulo Graph. Especifique o nome do host de domínio e o UPN para a entrada e execute-os todos ao mesmo tempo.
+Aqui estão os comandos para todos os serviços *exceto Exchange Online* em um único bloco quando você usa o Azure Active Directory Windows PowerShell para o módulo Graph. Especifique o nome do host de domínio e o UPN para a entrada e execute-os todos ao mesmo tempo.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -194,7 +194,7 @@ Connect-MicrosoftTeams -Credential $credential
 
 ### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Módulo Microsoft Azure Active Directory para Windows PowerShell
 
-Aqui estão os comandos para todos os serviços * exceto &amp; Centro de Conformidade de Segurança * em um único bloco quando você usa o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do host de domínio e execute-os todos de uma vez.
+Aqui estão os comandos para todos os serviços *exceto &amp; Centro de Conformidade de Segurança* em um único bloco quando você usa o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do host de domínio e execute-os todos de uma vez.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -211,7 +211,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Aqui estão os comandos para todos os serviços * exceto Exchange Online * em um único bloco quando você usa o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do host de domínio e o UPN para a entrada e execute-os todos de uma vez.
+Aqui estão os comandos para todos os serviços *exceto Exchange Online* em um único bloco quando você usa o Módulo Microsoft Azure Active Directory para Windows PowerShell. Especifique o nome do host de domínio e o UPN para a entrada e execute-os todos de uma vez.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -232,7 +232,7 @@ Connect-MicrosoftTeams -Credential $credential
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Use o Windows PowerShell do Azure Active Directory para o módulo do Graph
 
-Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365 * exceto &amp; Centro de Conformidade de Segurança * quando você usa a autenticação multifator com o Azure Active Directory Windows PowerShell para módulo Graph.
+Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365 *exceto &amp; Centro de Conformidade de Segurança* quando você usa a autenticação multifator com o Azure Active Directory Windows PowerShell para módulo Graph.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -252,7 +252,7 @@ Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-Aqui estão todos os comandos em um único bloco para conectar a vários serviços Microsoft 365 * exceto Exchange Online * com autenticação multifator quando você usa o Azure Active Directory Windows PowerShell para módulo Graph.
+Aqui estão todos os comandos em um único bloco para conectar a vários serviços Microsoft 365 *exceto Exchange Online* com autenticação multifator quando você usa o Azure Active Directory Windows PowerShell para módulo Graph.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -274,7 +274,7 @@ Connect-MicrosoftTeams
 ```
 ### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Módulo Microsoft Azure Active Directory para Windows PowerShell
 
-Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365 * exceto &amp; Centro de Conformidade de Segurança * quando você usa autenticação multifator com o Módulo Microsoft Azure Active Directory para Windows PowerShell.
+Aqui estão todos os comandos em um único bloco para se conectar a vários serviços do Microsoft 365 *exceto &amp; Centro de Conformidade de Segurança* quando você usa autenticação multifator com o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -294,7 +294,7 @@ Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-Aqui estão todos os comandos em um único bloco para se conectar a vários serviços Microsoft 365 * exceto Exchange Online * quando você usa autenticação multifator com o Módulo Microsoft Azure Active Directory para Windows PowerShell.
+Aqui estão todos os comandos em um único bloco para se conectar a vários serviços Microsoft 365 *exceto Exchange Online* quando você usa autenticação multifator com o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"

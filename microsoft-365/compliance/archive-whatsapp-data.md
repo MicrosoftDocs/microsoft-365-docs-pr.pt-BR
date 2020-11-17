@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de Telemensagem para importar e arquivar dados de WhatsApp no Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: a8a3465ca3f728290b69cf9b6c5d0820daf00221
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2600356fc2628d5832f93f7dbe4fc247d8812410
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199154"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087178"
 ---
 # <a name="set-up-a-connector-to-archive-whatsapp-data"></a>Configurar um conector para arquivar dados de WhatsApp
 
 Use o conector de Telemensagem no centro de conformidade da Microsoft 365 para importar e arquivar chamadas, chats, anexos, arquivos e mensagens excluídas do WhatsApp. Depois de configurar e configurar um conector, ele se conecta à conta de Telemensagem de sua organização uma vez por dia e importa a comunicação móvel de funcionários usando o WhatsApp Phone Archiver ou telemessage WhatsApp Cloud Archiver para caixas de correio no Microsoft 365.
 
-Depois que os dados do WhatsApp são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo e políticas de retenção da Microsoft 365 a Verizon Data. Por exemplo, você pode pesquisar mensagens do WhatsApp usando a pesquisa de conteúdo ou associar a caixa de correio que contém as mensagens do WhatsApp a um funcionário em uma ocorrência de descoberta eletrônica avançada. O uso de um conector WhatsApp para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Depois que os dados do WhatsApp são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo e políticas de retenção do Microsoft 365 a dados do WhatsApp. Por exemplo, você pode pesquisar mensagens do WhatsApp usando a pesquisa de conteúdo ou associar a caixa de correio que contém as mensagens do WhatsApp a um funcionário em uma ocorrência de descoberta eletrônica avançada. O uso de um conector WhatsApp para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 ## <a name="overview-of-archiving-whatsapp-data"></a>Visão geral do arquivamento de dados do WhatsApp
 

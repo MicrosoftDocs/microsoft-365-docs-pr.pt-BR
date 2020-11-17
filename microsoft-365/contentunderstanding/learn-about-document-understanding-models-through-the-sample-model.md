@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Saiba mais sobre os modelos de compreensão de documentos por meio do modelo de exemplo
-ms.openlocfilehash: 75e17c8075fa381c68b6f85e0dfbe96e5d2ad557
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 664b0ad7cb00a4570fbe8a4bd8a2c6f319cf8800
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321260"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087374"
 ---
 # <a name="learn-about-document-understanding-models-through-a-sample-model"></a>Saiba mais sobre os modelos de compreensão de documentos por meio de um modelo de exemplo
 

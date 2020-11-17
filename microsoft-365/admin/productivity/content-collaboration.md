@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade de conteúdo – pessoas experiências.
-ms.openlocfilehash: 5cdbe0cbb683715a19b182d0781fe238d026a400
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 99f5a897dc372a45be31a8c01379c6fe4c980de9
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999423"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123436"
 ---
 # <a name="content-collaboration--people-experiences"></a>Colaboração de conteúdo – experiências de pessoas
 
-A pontuação de produtividade ajuda você a transformar como o trabalho é feito com métricas sobre como as pessoas usam os aplicativos do Microsoft 365 e as experiências tecnológicas que dão suporte a eles. A pontuação reflete a sua organização&#39;o desempenho de pessoas e experiências tecnológicas e compara sua pontuação com organizações como a sua. Colaboração de conteúdo é uma das medidas que se enquadram em experiências de pessoas. Confira a  [visão geral da Pontuação de produtividade](productivity-score.md).
+A pontuação de produtividade ajuda você a transformar como o trabalho é feito com métricas sobre como as pessoas usam os aplicativos do Microsoft 365 e as experiências tecnológicas que dão suporte a eles. A pontuação reflete a sua organização&#39;o desempenho de pessoas e experiências tecnológicas e compara sua pontuação com organizações como a sua. Colaboração de conteúdo é uma das medidas que se enquadram em experiências de pessoas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md).
 
 ## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Por que a sua organização&#39;Pontuação de colaboração de conteúdo é importante
 
@@ -140,25 +140,25 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
         - Denominador: o número total de pessoas que tiveram acesso ao OneDrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias
 4. **Link para recursos:** Selecione este link para exibir o conteúdo da ajuda.
 
-### <a name="intensity-of-files-collaborated-on"></a>Intensidade de arquivos colaborados
+### <a name="number-of-files-collaborated-on"></a>Número de arquivos colaborados em
 
 :::image type="content" source="../../media/intensityofcollab.png" alt-text="Gráfico mostrando quantos arquivos foram mais colaborados.":::
 
-1. **Cabeçalho:** Isso realça t a porcentagem de pessoas que têm acesso ao OneDrive ou ao SharePoint que estão colaborando em 4 ou mais arquivos.
+1. **Cabeçalho:** Isso realça a porcentagem de pessoas que têm acesso ao OneDrive ou ao SharePoint que estão colaborando em 4 ou mais arquivos.
 2. **Corpo:** Isso fornece informações sobre como as pessoas podem aproveitar os arquivos online para uma melhor colaboração.
 3. **Visualização:** Isso mostra uma distribuição das pessoas que têm acesso ao OneDrive ou ao SharePoint, com base no número de arquivos nos quais eles colaboram. Isso é mostrado através das quatro categorias a seguir (para cada, a parte azul da barra e a fração representam a porcentagem de pessoas que têm acesso ao OneDrive ou ao SharePoint que se enquadram nessa categoria):
       - **Sem colaboração:**
         - **Numerador:** O número de pessoas que não estão colaborando em nenhum arquivo nos últimos 28 dias
-        - **Denominador:** O número total de pessoas que têm acesso ao OneDrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias
+        - **Denominador:** O número total de pessoas que têm acesso ao OneDrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias.
       - **Colaboração em arquivos 1-3:**
         - **Numerador:** O número de pessoas que estão colaborando em 1-3 arquivos nos últimos 28 dias
-        - **Denominador:** O número total de pessoas que tiveram acesso ao OneDrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias
+        - **Denominador:** O número total de pessoas que tiveram acesso ao OneDrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias.
       - **Colaboração em arquivos 4-10:**
         - **Numerador:** O número de pessoas que estão colaborando em 4-10 arquivos nos últimos 28 dias
-        - **Denominador: o** número total de pessoas que tiveram acesso ao onedrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias
+        - **Denominador: o** número total de pessoas que tiveram acesso ao onedrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias.
       - **Colaboração em 11 ou mais arquivos:**
         - **Numerador:** O número de pessoas colaborando em 11 ou mais arquivos nos últimos 28 dias
-        - **Denominador:** O número total de pessoas que tiveram acesso ao OneDrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias
+        - **Denominador:** O número total de pessoas que tiveram acesso ao OneDrive ou ao SharePoint por pelo menos 1 dos últimos 28 dias.
         
 4. **Link para recursos:** Selecione este link para exibir o conteúdo da ajuda.
 
@@ -169,11 +169,11 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
 1. **Cabeçalho:** Realça a porcentagem de dispositivos de todos os testados que têm uma conexão de rede ruim com o OneDrive e o SharePoint. 
 2. **Corpo:** Fornece informações sobre por que o desempenho da conexão de rede é importante para a colaboração. 
 3. **Visualização:** mostra uma porcentagem de dispositivos com níveis diferentes de desempenho de conectividade de rede em relação ao onedrive e ao SharePoint:
-      - **80-100 (melhor)** : a parte verde escura (colorida) da barra representa a porcentagem de dispositivos com o melhor desempenho.
-      - **60-80** : a parte verde (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho de rede entre 60-80. 
-      - **40-60** : a parte laranja (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho de rede entre 40-60. 
-      - **20-40** : a parte vermelha (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho da rede entre 20-40. 
-      - **0-20** : a parte vermelha escura (colorida) da barra representa a porcentagem de dispositivos com a pior Pontuação de desempenho da rede entre 0-20. 
+      - **80-100 (melhor)**: a parte verde escura (colorida) da barra representa a porcentagem de dispositivos com o melhor desempenho.
+      - **60-80**: a parte verde (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho de rede entre 60-80. 
+      - **40-60**: a parte laranja (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho de rede entre 40-60. 
+      - **20-40**: a parte vermelha (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho da rede entre 20-40. 
+      - **0-20**: a parte vermelha escura (colorida) da barra representa a porcentagem de dispositivos com a pior Pontuação de desempenho da rede entre 0-20. 
 
 ### <a name="people-in-your-organization"></a>Somente pessoas em sua organização
 
@@ -183,12 +183,12 @@ As seguintes colunas são apresentadas na tabela no nível do usuário:
 
 - **Username**  é o endereço de email do usuário.
 - **Nome para exibição**  é o nome completo do usuário.
-- **Data da última atividade**  refere-se à última vez em que o usuário realizou uma atividade relacionada a qualquer um dos insights dentro da colaboração de conteúdo nos últimos 28 dias
-- **Departamento:** O usuário&#39;s, conforme definido no Azure Active Directory (AAD)
-- **Empresa:** A empresa do usuário&#39;s, conforme definido no AAD
-- **País:** O usuário&#39;s país, conforme definido no AAD
-- **Estado:** O estado do usuário&#39;s, conforme definido no AAD
-- **Cidade:** O usuário&#39;s cidade, conforme definido no AAD
+- **Data da última atividade**  refere-se à última vez em que o usuário realizou uma atividade relacionada a qualquer um dos insights dentro da colaboração de conteúdo nos últimos 28 dias.
+- **Departamento:** O usuário&#39;s, conforme definido no Azure Active Directory (AAD).
+- **Empresa:** A empresa do usuário&#39;s, conforme definido no AAD.
+- **País:** O usuário&#39;s país, conforme definido no AAD.
+- **Estado:** O estado do usuário&#39;s, conforme definido no AAD.
+- **Cidade:** O usuário&#39;s City, conforme definido no AAD.
 - **Onedrive:** Valor booliano que indica se a pessoa teve acesso ao Tor OneDrive por pelo menos 1 dos últimos 28 dias.
 - **SharePoint:** Valor booliano que indica se a pessoa teve acesso no SharePoint por pelo menos 1 dos últimos 28 dias.
 - **Arquivos do Office acessados:** Valor booliano que indica se a pessoa acessou arquivos por meio do Microsoft Word, Excel, PowerPoint ou OneNote nos últimos 28 dias.

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Você pode criar e usar um modelo para economizar tempo e padronizar as configurações ao adicionar vários usuários.
-ms.openlocfilehash: 92d3bd68a57291586da27eb2d578a26c53d20d78
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: aef5085da603c38b37544b76c5336c9bfe4edd24
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245852"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123412"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Criar e usar um modelo para adicionar usuários
 
@@ -33,7 +33,7 @@ Você pode criar e usar um modelo para economizar tempo e padronizar as configur
 
 ## <a name="create-a-template"></a>Criar um modelo
 
-Os modelos são fáceis de criar &mdash; é possível selecionar **os**  >  **Active users**  >  **modelos de usuário**ativos dos usuários e, em seguida, selecionar **Adicionar um modelo** na lista suspensa ou adicionar um novo usuário e quando terminar, você terá a opção de salvar a entrada como um modelo.
+Os modelos são fáceis de criar &mdash; é possível selecionar **os**  >  **Active users**  >  **modelos de usuário** ativos dos usuários e, em seguida, selecionar **Adicionar um modelo** na lista suspensa ou adicionar um novo usuário e quando terminar, você terá a opção de salvar a entrada como um modelo.
 
 Quando você cria um modelo após adicionar um usuário, os valores escolhidos para as seguintes configurações são salvos no modelo:
 
@@ -43,8 +43,8 @@ Quando você cria um modelo após adicionar um usuário, os valores escolhidos p
 - Local da licença
 - Opções de licença
 - Opções de aplicativo
-- Função
-- A maioria das informações de perfil, como **perfil de trabalho**, **Departamento**, **escritório**, **telefone comercial**e **endereço** 
+- Role
+- A maioria das informações de perfil, como **perfil de trabalho**, **Departamento**, **escritório**, **telefone comercial** e **endereço** 
 
 As informações a seguir são específicas do usuário e não são salvas no modelo:
 
@@ -64,23 +64,23 @@ Para usar um modelo existente para adicionar um usuário:
 
 1. No centro de administração, selecione usuários ativos do **usuário**  >  **Active users**.
 
-2. Selecione **modelos de usuário**e, em seguida, selecione um modelo na lista suspensa. (A lista conterá apenas os modelos criados, e não os criados por outros administradores.)
+2. Selecione **modelos de usuário** e, em seguida, selecione um modelo na lista suspensa. (A lista conterá apenas os modelos criados, e não os criados por outros administradores.)
 
- > [!NOTE]
- > Você também pode usar um modelo para adicionar um usuário selecionando **modelos de usuário**  >  **gerenciar modelos**, selecionando um modelo e, em seguida, selecionando **usar modelo**.
+   > [!NOTE]
+   > Você também pode usar um modelo para adicionar um usuário selecionando **modelos de usuário**  >  **gerenciar modelos**, selecionando um modelo e, em seguida, selecionando **usar modelo**.
 
 3. Siga as etapas para criar um usuário a partir do modelo selecionado.
 
-> [!NOTE]
-> Se você tiver licenças insuficientes disponíveis para um usuário que você adicionar e suas informações de pagamento estiverem disponíveis, tentaremos comprar outra licença usando suas informações de pagamento existentes. Se suas informações de pagamento não estiverem disponíveis, o usuário será criado como um usuário não licenciado.
+   > [!NOTE]
+   > Se você tiver licenças insuficientes disponíveis para um usuário que você adicionar e suas informações de pagamento estiverem disponíveis, tentaremos comprar outra licença usando suas informações de pagamento existentes. Se suas informações de pagamento não estiverem disponíveis, o usuário será criado como um usuário não licenciado.
 
 ## <a name="manage-templates"></a>Gerenciar modelos
 
-Você pode excluir facilmente modelos que não são mais necessários e adicionar novos. Para excluir um modelo:
+Só é possível excluir modelos que você não precisa mais e adicionar novos. Para excluir um modelo:
 
 1. No centro de administração, selecione usuários ativos do **usuário**  >  **Active users**.
 
-2. Selecione **modelos**e, em seguida, selecione **gerenciar modelos** na lista suspensa.
+2. Selecione **modelos** e, em seguida, selecione **gerenciar modelos** na lista suspensa.
 
 3. Uma lista de modelos será exibida. Você pode excluir um modelo executando qualquer um dos seguintes procedimentos:
     - Selecione um ou mais modelos e, em seguida, selecione **excluir**. 

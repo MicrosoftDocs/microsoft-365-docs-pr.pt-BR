@@ -14,16 +14,16 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)
-ms.openlocfilehash: 2be48f42c8529334b55b311e6f202d9f3b25ff9e
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 4fc12645ccd6a022e4ef4ebe849ac91ba431129b
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295521"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087074"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)
 
-A ferramenta de teste de conectividade de rede 365 da Microsoft está localizada em <https://connectivity.office.com> . É uma ferramenta do adjunct para as informações de avaliação de rede e insights de rede disponíveis no centro de administração do Microsoft 365 sob o **| ** Menu de conectividade.
+A ferramenta de teste de conectividade de rede 365 da Microsoft está localizada em <https://connectivity.office.com> . É uma ferramenta do adjunct para as informações de avaliação de rede e insights de rede disponíveis no centro de administração do Microsoft 365 sob o **|** Menu de conectividade.
 
 ![Ferramenta de teste de conectividade](../media/m365-mac-perf/m365-mac-perf-test-tool-page.png)
 
@@ -217,7 +217,7 @@ Mostra a variação de UDP medida, que deve ser menor do que **30ms**.
 
 Testamos a conectividade HTTP do local do escritório do usuário para todos os pontos de extremidade de rede do Microsoft 365 necessários. Eles são publicados em [https://aka.ms/o365ip](https://aka.ms/o365ip) . Uma visão da rede é mostrada para qualquer ponto de extremidade de rede necessário que não possa ser conectado.
 
-A conectividade é bloqueada por um servidor proxy, firewall ou outro dispositivo de segurança de rede no perímetro de rede corporativa ou em uso como um proxy de nuvem.
+A conectividade pode ser bloqueada por um servidor proxy, um firewall ou outro dispositivo de segurança de rede no perímetro da rede corporativa. A conectividade com a porta TCP 80 é testada com uma solicitação HTTP e a conectividade com a porta TCP 443 é testada com uma solicitação HTTPS. Se não houver resposta, o FQDN será marcado como uma falha. Se houver um código de resposta HTTP 407, o FQDN será marcado como uma falha. Se houver um código de resposta HTTP 403, verificaremos o atributo de servidor da resposta e, se ele aparenta ser um servidor proxy, marcamos isso como uma falha. Você pode simular os testes que executamos com a ferramenta de linha de comando do Windows curl.exe.
 
 Testamos o certificado SSL em cada ponto de extremidade de rede do Microsoft 365 necessário, que está na categoria otimizar ou permitir, conforme definido em [https://aka.ms/o365ip](https://aka.ms/o365ip) . Se algum teste não localizar um certificado SSL da Microsoft, a rede criptografada conectada deve ter sido interceptada por um dispositivo de rede intermediário. Uma visão da rede é mostrada em qualquer ponto de extremidade de rede criptografada interceptada.
 

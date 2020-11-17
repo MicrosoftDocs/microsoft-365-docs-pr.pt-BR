@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade da experiência do Microsoft 365 aplicativos Health-Technology.
-ms.openlocfilehash: 9497118f4ebfb1cb2b64670638ce939da21eb261
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: c38f2109ed41377cfccb9838c95dbfbebbfd322a
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841184"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123506"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Integridade de aplicativos da Microsoft 365 – experiências tecnológicas
 
-Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com métricas sobre como as pessoas usam o Microsoft 365 aplicativos e as experiências de tecnologia de suporte. A pontuação reflete o desempenho da sua organização&#39;s para categorias de pessoas e experiência tecnológica e compara sua pontuação com organizações como a sua. A categoria de integridade do aplicativo faz parte das medidas que se enquadram em experiências de pessoas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md) para saber mais.
+Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com métricas sobre como as pessoas usam o Microsoft 365 aplicativos e as experiências de tecnologia de suporte. A pontuação reflete o desempenho da sua organização&#39;s para categorias de pessoas e experiência tecnológica e compara sua pontuação com organizações como a sua. A categoria de integridade do aplicativo faz parte das medidas que se enquadram em experiências tecnológicas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md) para saber mais.
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Por que sua organização&#39;a pontuação de integridade dos aplicativos Microsoft 365 é importante
 
@@ -59,7 +59,7 @@ As informações consideradas para isso incluem o canal, a compilação e a vers
 
 O gráfico a seguir mostra o número de dispositivos no canal de atualização recomendado nos últimos 180 dias. O ponto de dados no gráfico de linhas é um agregado de atividade para os últimos 28 dias.
 
-:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="Visualização principal da visão geral para aplicativos Microsoft 365.":::
+:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="Gráfico que mostra a tendência de dispositivos que executam o canal de atualização recomendado.":::
 
 ### <a name="scoring-framework"></a>Estrutura de Pontuação
 
@@ -71,7 +71,7 @@ Também fornecemos informações de suporte que ajudam você a obter visibilidad
 
 ### <a name="devices-on-current-channel-and-running-supported-versions"></a>Dispositivos no canal atual e executando versões compatíveis
 
-:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="Visualização principal da visão geral para aplicativos Microsoft 365.":::
+:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="Gráfico mostrando o número de dispositivos no canal atual, com suporte.":::
 
 1. **Cabeçalho:**  Realça a porcentagem de dispositivos no canal atual executando versões compatíveis dos aplicativos do Microsoft 365
 1. **Corpo:**  Fornece informações sobre o valor de dispositivos que executam aplicativos Microsoft 365 em um canal recomendado.
@@ -82,7 +82,7 @@ Também fornecemos informações de suporte que ajudam você a obter visibilidad
 
 ### <a name="devices-running-latest-and-supported-versions"></a>Dispositivos executando versões mais recentes e com suporte
 
-:::image type="content" source="../../media/device-supported-versions.png" alt-text="Visualização principal da visão geral para aplicativos Microsoft 365.":::
+:::image type="content" source="../../media/device-supported-versions.png" alt-text="Gráfico mostrando o número de dispositivos que executam as versões mais recentes e com suporte dos aplicativos.":::
 
 1. **Cabeçalho:**  Realça a porcentagem de dispositivos que executam versões e dispositivos compatíveis executando as versões mais recentes.
 1. **Corpo:**  Fornece informações sobre o valor que está executando dispositivos em canais recomendados e versões suportadas/mais recentes.
@@ -99,7 +99,7 @@ Também fornecemos informações de suporte que ajudam você a obter visibilidad
 
 Este gráfico mostra a linha de tendência dos dispositivos que executam versões suportadas e versões mais recentes dos aplicativos da Microsoft 365 nos últimos 180 dias.
 
-:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Visualização principal da visão geral para aplicativos Microsoft 365.":::
+:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Gráfico que Showa quantos dispositivos executam suporte e versões mais recentes de aplicativos ao longo do tempo.":::
 
 ## <a name="people-in-your-organization"></a>Somente pessoas em sua organização
 

@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Use a taxonomia do repositório de termos ao criar um extrator no seu modelo de compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: f7219f6facc1d29242f7bd52743da92e13de3b89
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 0008dd02ef46401e9f0c9414b8363cff034c18eb
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337272"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087316"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>Aproveitar a taxonomia do repositório de termos ao criar um extrator
 
@@ -27,7 +28,7 @@ ms.locfileid: "48337272"
 
 Ao criar um extrator no modelo de compreensão de documentos no SharePoint Syntex, você pode aproveitar a taxonomia do repositório de termos dos [serviços de metadados gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms) para exibir os termos preferenciais para os dados que você extrai.  
 
-Por exemplo, o modelo identifica e classifica todos os documentos de **Contrato** que são carregados na biblioteca de documentos.  Além disso, o modelo também extrai um valor de **Serviços contratados** de cada contrato e o exibirá em uma coluna no modo de exibição de biblioteca. Entre os vários valores dos Serviços contratados nos contratos, há vários valores mais antigos que a sua empresa não usa mais e foi renomeado. Por exemplo, todas as referências aos termos de serviços contratados *Design*, *Gráficos*ou *Topografia* devem agora ser chamados *Criativo*. Sempre que seu modelo extrai um dos termos desatualizados de um documento de contrato, você quer que ele exiba o termo atual - Criativo - no modo de exibição da biblioteca. No exemplo a seguir, enquanto treina o modelo, vemos que um documento de exemplo contém o termo desatualizado *Design*.
+Por exemplo, o modelo identifica e classifica todos os documentos de **Contrato** que são carregados na biblioteca de documentos.  Além disso, o modelo também extrai um valor de **Serviços contratados** de cada contrato e o exibirá em uma coluna no modo de exibição de biblioteca. Entre os vários valores dos Serviços contratados nos contratos, há vários valores mais antigos que a sua empresa não usa mais e foi renomeado. Por exemplo, todas as referências aos termos de serviços contratados *Design*, *Gráficos* ou *Topografia* devem agora ser chamados *Criativo*. Sempre que seu modelo extrai um dos termos desatualizados de um documento de contrato, você quer que ele exiba o termo atual - Criativo - no modo de exibição da biblioteca. No exemplo a seguir, enquanto treina o modelo, vemos que um documento de exemplo contém o termo desatualizado *Design*.
 
    ![Repositório de termos](../media/content-understanding/design.png)</br>
 
@@ -45,7 +46,7 @@ Para disponibilizar o campo de metadados gerenciados para seleção quando você
    ![Serviços contratados](../media/content-understanding/contract-services.png)</br>
 
 
-Depois de aplicar seu modelo à biblioteca de documentos, quando os documentos forem carregados na biblioteca, a coluna de *Serviços criativos* exibirá o termo preferido (*Criativo*) quando o extrator encontrar qualquer um dos valores de sinônimos (*Design*, *Gráficos*e *Topografia*).
+Depois de aplicar seu modelo à biblioteca de documentos, quando os documentos forem carregados na biblioteca, a coluna de *Serviços criativos* exibirá o termo preferido (*Criativo*) quando o extrator encontrar qualquer um dos valores de sinônimos (*Design*, *Gráficos* e *Topografia*).
 
    ![Coluna de serviços contratados](../media/content-understanding/creative.png)</br>
 

@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Saiba como aplicar um modelo publicado a uma biblioteca de documentos do SharePoint
-ms.openlocfilehash: 771b0f451d404c6e90f62091ca466bfaf34bae39
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 0ca58e863d42d41b634978f53f55201a10a5ed93
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338668"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087482"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Aplicar um modelo de compreensão de documento no Microsoft SharePoint Syntex
 
@@ -43,9 +44,9 @@ Para aplicar o modelo a uma biblioteca de documentos do SharePoint:
     ![Selecionar um Site](../media/content-understanding/site-search.png)</br>
 
     > [!NOTE]
-    > Você deve ter permissões de *Gerenciar Lista * ou direitos de*Editar* na biblioteca de documentos para a qual você está aplicando o modelo.</br>
+    > Você deve ter permissões de *Gerenciar Lista* ou direitos de *Editar* na biblioteca de documentos para a qual você está aplicando o modelo.</br>
 
-3. Depois de selecionar o site, selecione a biblioteca de documentos à qual você deseja aplicar o modelo. No exemplo, selecione a biblioteca de documentos do*Documento* do site de*Acompanhamento de Caso da Contoso*. </br>
+3. Depois de selecionar o site, selecione a biblioteca de documentos à qual você deseja aplicar o modelo. No exemplo, selecione a biblioteca de documentos do *Documento* do site de *Acompanhamento de Caso da Contoso*. </br>
 
     ![Selecionar uma biblioteca de documentos](../media/content-understanding/select-doc-library.png)</br>
 
@@ -72,7 +73,7 @@ O modelo identifica todos os arquivos com o tipo de conteúdo associado do model
 Enquanto um modelo aplicado processa todos os arquivos carregados na biblioteca de documentos após a aplicação, você também pode fazer o seguinte para executar o modelo em arquivos que já existem na biblioteca de documentos antes do modelo aplicado:
 
 1. Na biblioteca de documentos, selecione os arquivos que você deseja processar por seu modelo.
-2. Depois de selecionar seus arquivos, **Classificar e extrair**aparecerá na faixa de opções da biblioteca de documentos. Selecione **Classificar e extrair**.
+2. Depois de selecionar seus arquivos, **Classificar e extrair** aparecerá na faixa de opções da biblioteca de documentos. Selecione **Classificar e extrair**.
 3. Os arquivos selecionados serão adicionados à fila a ser processada.
 
       ![Classificar e extrair](../media/content-understanding/extract-classify.png)</br> 
