@@ -15,24 +15,24 @@ description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: d5732d84fba6355b2ae00e41ef544dec7ded6861
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643674"
 ---
-# <a name="contact-support-for-brazil"></a>Contatar o suporte do Brasil
+# <a name="contact-support-for-brazil"></a>Contate o suporte do Brasil
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-0800 762 1146
+0800-762-1146
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Português: Mon-Fri 9 AM-5 P.M.
+Português: Segunda a sexta, das 9h às 17h
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
@@ -42,6 +42,6 @@ Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo:
 
-0800 047 4958 (chamada gratuita local)
+0800 047 4958 (chamada local gratuita)
 
-11 4700 1999 (se aplicam encargos de chamada local)
+11 4700 1999 (Aplicam-se encargos de chamada local)
