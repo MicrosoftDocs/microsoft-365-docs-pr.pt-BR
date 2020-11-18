@@ -18,165 +18,145 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 47f4ceeebd50784b1880a028ebe2698012c406da
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 503b7a6a6b3ad6394293e9f70dbdd336f6bee9dd
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844819"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131304"
 ---
-# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a><span data-ttu-id="30395-104">Configurar seu ambiente de laboratório de avaliação do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="30395-104">Set up your Microsoft 365 Defender trial lab environment</span></span> 
+# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a><span data-ttu-id="403f4-104">Configurar seu ambiente de laboratório de avaliação do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="403f4-104">Set up your Microsoft 365 Defender trial lab environment</span></span> 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="30395-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="30395-105">**Applies to:**</span></span>
-- <span data-ttu-id="30395-106">Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="30395-106">Microsoft 365 Defender</span></span> 
+<span data-ttu-id="403f4-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="403f4-105">**Applies to:**</span></span>
+- <span data-ttu-id="403f4-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="403f4-106">Microsoft 365 Defender</span></span> 
 
 
-<span data-ttu-id="30395-107">Criar um laboratório de avaliação do Microsoft 365 defender ou um ambiente piloto e implantá-lo é um processo de três fases:</span><span class="sxs-lookup"><span data-stu-id="30395-107">Creating a Microsoft 365 Defender trial lab or pilot environment and deploying it is a three-phase process:</span></span>
+<span data-ttu-id="403f4-107">Criar um laboratório de avaliação do Microsoft 365 defender ou um ambiente piloto e implantá-lo é um processo de três fases:</span><span class="sxs-lookup"><span data-stu-id="403f4-107">Creating a Microsoft 365 Defender trial lab or pilot environment and deploying it is a three-phase process:</span></span>
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
-      <br/><span data-ttu-id="30395-109">Fase 1: preparar </a></span><span class="sxs-lookup"><span data-stu-id="30395-109">Phase 1: Prepare </a></span></span><br>
-    </td>
-     <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab or pilot environment" title="Configurar o laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
-      <br/><span data-ttu-id="30395-111">Fase 2: configuração </a></span><span class="sxs-lookup"><span data-stu-id="30395-111">Phase 2: Setup </a></span></span><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="
-Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender trial lab or pilot environment and onboard your endpoints" title="
-Configure cada pilar do Microsoft 365 defender para seu laboratório de avaliação do Microsoft 365 defender ou seu ambiente piloto e integração de seus pontos de extremidade" />
-      <br/><span data-ttu-id="30395-113">Fase 3: configurar o & integrado </a></span><span class="sxs-lookup"><span data-stu-id="30395-113">Phase 3: Configure & Onboard </a></span></span><br>
-</td>
+|<span data-ttu-id="403f4-108">[![Fase 1: preparar](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)</span><span class="sxs-lookup"><span data-stu-id="403f4-108">[![Phase 1: Prepare](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)</span></span><br/>[<span data-ttu-id="403f4-109">Fase 1: preparar</span><span class="sxs-lookup"><span data-stu-id="403f4-109">Phase 1: Prepare</span></span>](prepare-mtpeval.md) |![Fase 2: configurar](../../media/phase-diagrams/setup.png)<br/><span data-ttu-id="403f4-111">Fase 2: configurar</span><span class="sxs-lookup"><span data-stu-id="403f4-111">Phase 2: Set up</span></span> |<span data-ttu-id="403f4-112">[![Fase 3: integração](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)</span><span class="sxs-lookup"><span data-stu-id="403f4-112">[![Phase 3: Onboard](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)</span></span><br/>[<span data-ttu-id="403f4-113">Fase 3: integração</span><span class="sxs-lookup"><span data-stu-id="403f4-113">Phase 3: Onboard</span></span>](config-mtpeval.md) | <span data-ttu-id="403f4-114">[![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)</span><span class="sxs-lookup"><span data-stu-id="403f4-114">[![Back to pilot](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)</span></span><br/>[<span data-ttu-id="403f4-115">Voltar ao manual do piloto</span><span class="sxs-lookup"><span data-stu-id="403f4-115">Back to pilot playbook</span></span>](mtp-pilot.md) |
+|--|--|--|--|
+||<span data-ttu-id="403f4-116">*Você está aqui!*</span><span class="sxs-lookup"><span data-stu-id="403f4-116">*You are here!*</span></span>  | | |
 
 
-  </tr>
-</table>
+<span data-ttu-id="403f4-117">Você está atualmente na fase de configuração.</span><span class="sxs-lookup"><span data-stu-id="403f4-117">You're currently in the set up phase.</span></span> <span data-ttu-id="403f4-118">Execute as etapas iniciais para acessar o centro de segurança do Microsoft 365 e configure seu laboratório de avaliação ou ambiente piloto.</span><span class="sxs-lookup"><span data-stu-id="403f4-118">Take the initial steps to access Microsoft 365 Security Center then set up your trial lab or pilot environment.</span></span>
 
-<span data-ttu-id="30395-114">Você está atualmente na fase de configuração.</span><span class="sxs-lookup"><span data-stu-id="30395-114">You're currently in the set up phase.</span></span> <span data-ttu-id="30395-115">Execute as etapas iniciais para acessar o centro de segurança do Microsoft 365 e configure seu laboratório de avaliação ou ambiente piloto.</span><span class="sxs-lookup"><span data-stu-id="30395-115">Take the initial steps to access Microsoft 365 Security Center then set up your trial lab or pilot environment.</span></span>
-
-<span data-ttu-id="30395-116">Inscreva-se para uma assinatura do Office 365 ou do Azure Active Directory para gerar um locatário *. onmicrosoft.com* que você pode usar para se inscrever na sua licença do Microsoft 365 e5.</span><span class="sxs-lookup"><span data-stu-id="30395-116">Sign up for an Office 365 or Azure Active Directory subscription to generate a *.onmicrosoft.com* tenant that you can use to sign up for your Microsoft 365 E5 license.</span></span> 
+<span data-ttu-id="403f4-119">Inscreva-se para uma assinatura do Office 365 ou do Azure Active Directory para gerar um locatário *. onmicrosoft.com* que você pode usar para se inscrever na sua licença do Microsoft 365 e5.</span><span class="sxs-lookup"><span data-stu-id="403f4-119">Sign up for an Office 365 or Azure Active Directory subscription to generate a *.onmicrosoft.com* tenant that you can use to sign up for your Microsoft 365 E5 license.</span></span> 
 
 >[!NOTE]
-><span data-ttu-id="30395-117">Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de avaliação do Office 365 E5 ou de criação do locatário piloto.</span><span class="sxs-lookup"><span data-stu-id="30395-117">If you already have an existing Office 365 or Azure Active Directory subscription, you can skip the Office 365 E5 trial or pilot tenant creation steps.</span></span>
+><span data-ttu-id="403f4-120">Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de avaliação do Office 365 E5 ou de criação do locatário piloto.</span><span class="sxs-lookup"><span data-stu-id="403f4-120">If you already have an existing Office 365 or Azure Active Directory subscription, you can skip the Office 365 E5 trial or pilot tenant creation steps.</span></span>
 
-<span data-ttu-id="30395-118">Nesta fase, você será orientado a:</span><span class="sxs-lookup"><span data-stu-id="30395-118">In this phase, you'll be guided to:</span></span>
-- <span data-ttu-id="30395-119">Criar um locatário de avaliação do Office 365 e5</span><span class="sxs-lookup"><span data-stu-id="30395-119">Create an Office 365 E5 trial tenant</span></span>
-- <span data-ttu-id="30395-120">Habilitar a assinatura de avaliação do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="30395-120">Enable Microsoft 365 trial subscription</span></span>
+<span data-ttu-id="403f4-121">Nesta fase, você será orientado a:</span><span class="sxs-lookup"><span data-stu-id="403f4-121">In this phase, you'll be guided to:</span></span>
+- <span data-ttu-id="403f4-122">Criar um locatário de avaliação do Office 365 e5</span><span class="sxs-lookup"><span data-stu-id="403f4-122">Create an Office 365 E5 trial tenant</span></span>
+- <span data-ttu-id="403f4-123">Habilitar a assinatura de avaliação do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="403f4-123">Enable Microsoft 365 trial subscription</span></span>
 
 
-## <a name="create-an-office-365-e5-trial-tenant"></a><span data-ttu-id="30395-121">Criar um locatário de avaliação do Office 365 e5</span><span class="sxs-lookup"><span data-stu-id="30395-121">Create an Office 365 E5 trial tenant</span></span>
+## <a name="create-an-office-365-e5-trial-tenant"></a><span data-ttu-id="403f4-124">Criar um locatário de avaliação do Office 365 e5</span><span class="sxs-lookup"><span data-stu-id="403f4-124">Create an Office 365 E5 trial tenant</span></span>
 >[!NOTE]
-><span data-ttu-id="30395-122">Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de criação do locatário de avaliação do Office 365 e5.</span><span class="sxs-lookup"><span data-stu-id="30395-122">If you already have an existing Office 365 or Azure Active Directory subscription, you can skip the Office 365 E5 trial tenant creation steps.</span></span>
+><span data-ttu-id="403f4-125">Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de criação do locatário de avaliação do Office 365 e5.</span><span class="sxs-lookup"><span data-stu-id="403f4-125">If you already have an existing Office 365 or Azure Active Directory subscription, you can skip the Office 365 E5 trial tenant creation steps.</span></span>
 
-1. <span data-ttu-id="30395-123">Vá para o [portal de produto do Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) e selecione **avaliação gratuita**.</span><span class="sxs-lookup"><span data-stu-id="30395-123">Go to the [Office 365 E5 product portal](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) and select **Free trial**.</span></span>
+1. <span data-ttu-id="403f4-126">Vá para o [portal de produto do Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) e selecione **avaliação gratuita**.</span><span class="sxs-lookup"><span data-stu-id="403f4-126">Go to the [Office 365 E5 product portal](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) and select **Free trial**.</span></span>
 
    ![Página de avaliação gratuita de imagem of_Office 365 e5](../../media/mtp-eval-9.png)
   
-2. <span data-ttu-id="30395-125">Conclua o registro de avaliação inserindo seu endereço de email (pessoal ou corporativo).</span><span class="sxs-lookup"><span data-stu-id="30395-125">Complete the trial registration by entering your email address (personal or corporate).</span></span> <span data-ttu-id="30395-126">Clique em **configurar conta**.</span><span class="sxs-lookup"><span data-stu-id="30395-126">Click **Set up account**.</span></span>
+2. <span data-ttu-id="403f4-128">Conclua o registro de avaliação inserindo seu endereço de email (pessoal ou corporativo).</span><span class="sxs-lookup"><span data-stu-id="403f4-128">Complete the trial registration by entering your email address (personal or corporate).</span></span> <span data-ttu-id="403f4-129">Clique em **configurar conta**.</span><span class="sxs-lookup"><span data-stu-id="403f4-129">Click **Set up account**.</span></span>
 
    ![Página de configuração de registro de avaliação 365 E5 de imagem of_Office](../../media/mtp-eval-10.png)
 
-3. <span data-ttu-id="30395-128">Preencha seu nome, sobrenome, número de telefone comercial, nome da empresa, tamanho da empresa e país ou região.</span><span class="sxs-lookup"><span data-stu-id="30395-128">Fill in your first name, last name, business phone number, company name, company size, and country or region.</span></span>  
+3. <span data-ttu-id="403f4-131">Preencha seu nome, sobrenome, número de telefone comercial, nome da empresa, tamanho da empresa e país ou região.</span><span class="sxs-lookup"><span data-stu-id="403f4-131">Fill in your first name, last name, business phone number, company name, company size, and country or region.</span></span>  
 
    ![Imagem of_Office 365 E5 página de configuração de registro de avaliação para solicitar o nome, telefone e detalhes da empresa](../../media/mtp-eval-11.png)
    
    > [!NOTE]
-   > <span data-ttu-id="30395-130">O país ou a região definida aqui determina a região do Data Center em que o Office 365 será hospedado.</span><span class="sxs-lookup"><span data-stu-id="30395-130">The country or region you set here determines the data center region your Office 365 will be hosted.</span></span>
+   > <span data-ttu-id="403f4-133">O país ou a região definida aqui determina a região do Data Center em que o Office 365 será hospedado.</span><span class="sxs-lookup"><span data-stu-id="403f4-133">The country or region you set here determines the data center region your Office 365 will be hosted.</span></span>
   
-4. <span data-ttu-id="30395-131">Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada.</span><span class="sxs-lookup"><span data-stu-id="30395-131">Choose your verification preference: through a text message or call.</span></span> <span data-ttu-id="30395-132">Clique em **enviar código de verificação**.</span><span class="sxs-lookup"><span data-stu-id="30395-132">Click **Send Verification Code**.</span></span> 
+4. <span data-ttu-id="403f4-134">Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada.</span><span class="sxs-lookup"><span data-stu-id="403f4-134">Choose your verification preference: through a text message or call.</span></span> <span data-ttu-id="403f4-135">Clique em **enviar código de verificação**.</span><span class="sxs-lookup"><span data-stu-id="403f4-135">Click **Send Verification Code**.</span></span> 
 
    ![Imagem of_Office 365 E5 página de configuração de registro de avaliação solicitando preferência de verificação](../../media/mtp-eval-12.png)
 
-5. <span data-ttu-id="30395-134">Defina o nome de domínio personalizado para o seu locatário e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="30395-134">Set the custom domain name for your tenant, then click **Next**.</span></span>
+5. <span data-ttu-id="403f4-137">Defina o nome de domínio personalizado para o seu locatário e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="403f4-137">Set the custom domain name for your tenant, then click **Next**.</span></span>
 
    ![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode configurar seu nome de domínio personalizado](../../media/mtp-eval-13.png)
  
-6. <span data-ttu-id="30395-136">Configure a primeira identidade, que será um administrador global para o locatário.</span><span class="sxs-lookup"><span data-stu-id="30395-136">Set up the first identity, which will be a Global Administrator for the tenant.</span></span> <span data-ttu-id="30395-137">Insira o **nome** e a **senha**.</span><span class="sxs-lookup"><span data-stu-id="30395-137">Fill in **Name** and **Password**.</span></span> <span data-ttu-id="30395-138">Clique em **inscrever-se**.</span><span class="sxs-lookup"><span data-stu-id="30395-138">Click **Sign up**.</span></span>
+6. <span data-ttu-id="403f4-139">Configure a primeira identidade, que será um administrador global para o locatário.</span><span class="sxs-lookup"><span data-stu-id="403f4-139">Set up the first identity, which will be a Global Administrator for the tenant.</span></span> <span data-ttu-id="403f4-140">Insira o **nome** e a **senha**.</span><span class="sxs-lookup"><span data-stu-id="403f4-140">Fill in **Name** and **Password**.</span></span> <span data-ttu-id="403f4-141">Clique em **inscrever-se**.</span><span class="sxs-lookup"><span data-stu-id="403f4-141">Click **Sign up**.</span></span>
 
    ![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode definir sua identidade comercial](../../media/mtp-eval-14.png)
 
-7. <span data-ttu-id="30395-140">Clique em **ir para configuração** para concluir o provisionamento do locatário de avaliação do Office 365 e5.</span><span class="sxs-lookup"><span data-stu-id="30395-140">Click **Go to Setup** to complete the Office 365 E5 trial tenant provisioning.</span></span>
+7. <span data-ttu-id="403f4-143">Clique em **ir para configuração** para concluir o provisionamento do locatário de avaliação do Office 365 e5.</span><span class="sxs-lookup"><span data-stu-id="403f4-143">Click **Go to Setup** to complete the Office 365 E5 trial tenant provisioning.</span></span>
 
    ![Imagem da página de configuração do registro de avaliação do Office 365 E5 solicitando o clique no botão configuração do Go](../../media/mtp-eval-15.png)
 
-8. <span data-ttu-id="30395-142">Conecte seu domínio corporativo ao locatário do Office 365.</span><span class="sxs-lookup"><span data-stu-id="30395-142">Connect your corporate domain to the Office 365 tenant.</span></span> <span data-ttu-id="30395-143">Opcion Escolha **conectar um domínio que você já possui** e digite o nome do seu domínio.</span><span class="sxs-lookup"><span data-stu-id="30395-143">[Optional] Choose **Connect a domain you already own** and type in your domain name.</span></span> <span data-ttu-id="30395-144">Clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="30395-144">Click **Next**.</span></span>
+8. <span data-ttu-id="403f4-145">Conecte seu domínio corporativo ao locatário do Office 365.</span><span class="sxs-lookup"><span data-stu-id="403f4-145">Connect your corporate domain to the Office 365 tenant.</span></span> <span data-ttu-id="403f4-146">Opcion Escolha **conectar um domínio que você já possui** e digite o nome do seu domínio.</span><span class="sxs-lookup"><span data-stu-id="403f4-146">[Optional] Choose **Connect a domain you already own** and type in your domain name.</span></span> <span data-ttu-id="403f4-147">Clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="403f4-147">Click **Next**.</span></span>
 
    ![Página de configuração de imagem of_Office 365 E5 onde você deve personalizar sua entrada e email](../../media/mtp-eval-16.png)
  
-9. <span data-ttu-id="30395-146">Adicione um registro TXT ou MX para validar a propriedade do domínio.</span><span class="sxs-lookup"><span data-stu-id="30395-146">Add a TXT or MX record to validate the domain ownership.</span></span> <span data-ttu-id="30395-147">Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **verificar**.</span><span class="sxs-lookup"><span data-stu-id="30395-147">Once you’ve added the TXT or MX record to your domain, select **Verify**.</span></span>
+9. <span data-ttu-id="403f4-149">Adicione um registro TXT ou MX para validar a propriedade do domínio.</span><span class="sxs-lookup"><span data-stu-id="403f4-149">Add a TXT or MX record to validate the domain ownership.</span></span> <span data-ttu-id="403f4-150">Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **verificar**.</span><span class="sxs-lookup"><span data-stu-id="403f4-150">Once you’ve added the TXT or MX record to your domain, select **Verify**.</span></span>
 
    ![Página de imagem of_Office 365 E5 onde você deve adicionar um TXT do registro MX para verificar seu domínio](../../media/mtp-eval-17.png)
  
-10. <span data-ttu-id="30395-149">Opcion Criar mais contas de usuário para o locatário.</span><span class="sxs-lookup"><span data-stu-id="30395-149">[Optional] Create more user accounts for your tenant.</span></span> <span data-ttu-id="30395-150">Você pode ignorar essa etapa clicando em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="30395-150">You can skip this step by clicking **Next**.</span></span>
+10. <span data-ttu-id="403f4-152">Opcion Criar mais contas de usuário para o locatário.</span><span class="sxs-lookup"><span data-stu-id="403f4-152">[Optional] Create more user accounts for your tenant.</span></span> <span data-ttu-id="403f4-153">Você pode ignorar essa etapa clicando em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="403f4-153">You can skip this step by clicking **Next**.</span></span>
 
     ![Página de configuração de imagem of_Office 365 E5 onde você pode adicionar mais usuários](../../media/mtp-eval-18.png)
  
-11. <span data-ttu-id="30395-152">Opcion Baixar aplicativos do Office.</span><span class="sxs-lookup"><span data-stu-id="30395-152">[Optional] Download Office apps.</span></span> <span data-ttu-id="30395-153">Clique em **Avançar** para ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="30395-153">Click **Next** to skip this step.</span></span> 
+11. <span data-ttu-id="403f4-155">Opcion Baixar aplicativos do Office.</span><span class="sxs-lookup"><span data-stu-id="403f4-155">[Optional] Download Office apps.</span></span> <span data-ttu-id="403f4-156">Clique em **Avançar** para ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="403f4-156">Click **Next** to skip this step.</span></span> 
 
     ![Página de imagem of_Office 365 E5 onde você pode instalar seus aplicativos do Office](../../media/mtp-eval-19.png)
 
-12. <span data-ttu-id="30395-155">Opcion Migrar mensagens de email.</span><span class="sxs-lookup"><span data-stu-id="30395-155">[Optional] Migrate email messages.</span></span> <span data-ttu-id="30395-156">Novamente, você pode ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="30395-156">Again, you can skip this step.</span></span>
+12. <span data-ttu-id="403f4-158">Opcion Migrar mensagens de email.</span><span class="sxs-lookup"><span data-stu-id="403f4-158">[Optional] Migrate email messages.</span></span> <span data-ttu-id="403f4-159">Novamente, você pode ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="403f4-159">Again, you can skip this step.</span></span>
 
     ![Image of_Office 365 E5 onde você pode definir se deseja migrar mensagens de email ou não](../../media/mtp-eval-20.png)
  
-13. <span data-ttu-id="30395-158">Escolha serviços online.</span><span class="sxs-lookup"><span data-stu-id="30395-158">Choose online services.</span></span> <span data-ttu-id="30395-159">Selecione **Exchange** e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="30395-159">Select **Exchange** and click **Next**.</span></span> 
+13. <span data-ttu-id="403f4-161">Escolha serviços online.</span><span class="sxs-lookup"><span data-stu-id="403f4-161">Choose online services.</span></span> <span data-ttu-id="403f4-162">Selecione **Exchange** e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="403f4-162">Select **Exchange** and click **Next**.</span></span> 
 
     ![Imagem of_Office 365 E5 onde você pode escolher seus serviços online](../../media/mtp-eval-21.png)
 
-14. <span data-ttu-id="30395-161">Adicionar registros MX, CNAME e TXT ao seu domínio.</span><span class="sxs-lookup"><span data-stu-id="30395-161">Add MX, CNAME, and TXT records to your domain.</span></span> <span data-ttu-id="30395-162">Quando concluído, selecione **verificar**.</span><span class="sxs-lookup"><span data-stu-id="30395-162">When completed, select **Verify**.</span></span>
+14. <span data-ttu-id="403f4-164">Adicionar registros MX, CNAME e TXT ao seu domínio.</span><span class="sxs-lookup"><span data-stu-id="403f4-164">Add MX, CNAME, and TXT records to your domain.</span></span> <span data-ttu-id="403f4-165">Quando concluído, selecione **verificar**.</span><span class="sxs-lookup"><span data-stu-id="403f4-165">When completed, select **Verify**.</span></span>
 
     ![Imagem of_Office 365 E5 aqui você pode adicionar seus registros DNS](../../media/mtp-eval-22.png)
  
-15. <span data-ttu-id="30395-164">Parabéns, você concluiu o provisionamento do seu locatário do Office 365.</span><span class="sxs-lookup"><span data-stu-id="30395-164">Congratulations, you have completed the provisioning of your Office 365 tenant.</span></span>
+15. <span data-ttu-id="403f4-167">Parabéns, você concluiu o provisionamento do seu locatário do Office 365.</span><span class="sxs-lookup"><span data-stu-id="403f4-167">Congratulations, you have completed the provisioning of your Office 365 tenant.</span></span>
 
     ![Página de confirmação de conclusão da instalação da of_Office 365 e5](../../media/mtp-eval-23.png)
 
-## <a name="enable-microsoft-365-trial-subscription"></a><span data-ttu-id="30395-166">Habilitar a assinatura de avaliação do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="30395-166">Enable Microsoft 365 trial subscription</span></span>
+## <a name="enable-microsoft-365-trial-subscription"></a><span data-ttu-id="403f4-169">Habilitar a assinatura de avaliação do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="403f4-169">Enable Microsoft 365 trial subscription</span></span>
 
 >[!NOTE]
-><span data-ttu-id="30395-167">Inscrever-se em uma avaliação oferece 25 licenças de usuário para usar por mês.</span><span class="sxs-lookup"><span data-stu-id="30395-167">Signing up for a trial gives you 25 user licenses to use for a month.</span></span> <span data-ttu-id="30395-168">Consulte [tentar ou comprar uma assinatura do M365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) para obter detalhes.</span><span class="sxs-lookup"><span data-stu-id="30395-168">See [Try or Buy an M365 subscription](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) for details.</span></span>
+><span data-ttu-id="403f4-170">Inscrever-se em uma avaliação oferece 25 licenças de usuário para usar por mês.</span><span class="sxs-lookup"><span data-stu-id="403f4-170">Signing up for a trial gives you 25 user licenses to use for a month.</span></span> <span data-ttu-id="403f4-171">Consulte [tentar ou comprar uma assinatura do M365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) para obter detalhes.</span><span class="sxs-lookup"><span data-stu-id="403f4-171">See [Try or Buy an M365 subscription](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) for details.</span></span>
 
-1. <span data-ttu-id="30395-169">No [centro de administração do Microsoft 365](https://admin.microsoft.com/), clique em **cobrança** e navegue até **serviços de compra**.</span><span class="sxs-lookup"><span data-stu-id="30395-169">From [Microsoft 365 Admin Center](https://admin.microsoft.com/), click **Billing** and then navigate to **Purchase services**.</span></span>
+1. <span data-ttu-id="403f4-172">No [centro de administração do Microsoft 365](https://admin.microsoft.com/), clique em **cobrança** e navegue até **serviços de compra**.</span><span class="sxs-lookup"><span data-stu-id="403f4-172">From [Microsoft 365 Admin Center](https://admin.microsoft.com/), click **Billing** and then navigate to **Purchase services**.</span></span>
 
-2. <span data-ttu-id="30395-170">Selecione **Microsoft 365 E5** e clique em **Iniciar avaliação gratuita**.</span><span class="sxs-lookup"><span data-stu-id="30395-170">Select **Microsoft 365 E5** and click **Start free trial**.</span></span> 
+2. <span data-ttu-id="403f4-173">Selecione **Microsoft 365 E5** e clique em **Iniciar avaliação gratuita**.</span><span class="sxs-lookup"><span data-stu-id="403f4-173">Select **Microsoft 365 E5** and click **Start free trial**.</span></span> 
 
    ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita](../../media/mtp-eval-24.png)
 
-3. <span data-ttu-id="30395-172">Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada.</span><span class="sxs-lookup"><span data-stu-id="30395-172">Choose your verification preference: through a text message or call.</span></span> <span data-ttu-id="30395-173">Depois de decidir, insira o número de telefone, selecione o **texto me** ou **telefonar para mim** , dependendo da seleção.</span><span class="sxs-lookup"><span data-stu-id="30395-173">Once you have decided, enter the phone number, select **Text me** or **Call me** depending on your selection.</span></span>
+3. <span data-ttu-id="403f4-175">Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada.</span><span class="sxs-lookup"><span data-stu-id="403f4-175">Choose your verification preference: through a text message or call.</span></span> <span data-ttu-id="403f4-176">Depois de decidir, insira o número de telefone, selecione o **texto me** ou **telefonar para mim** , dependendo da seleção.</span><span class="sxs-lookup"><span data-stu-id="403f4-176">Once you have decided, enter the phone number, select **Text me** or **Call me** depending on your selection.</span></span>
 
    ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita solicitando detalhes do contato para enviar código para provar que você não é um robô](../../media/mtp-eval-25.png)
  
-4. <span data-ttu-id="30395-175">Insira o código de verificação e clique em **iniciar sua avaliação gratuita**.</span><span class="sxs-lookup"><span data-stu-id="30395-175">Enter the verification code and click **Start your free trial**.</span></span>
+4. <span data-ttu-id="403f4-178">Insira o código de verificação e clique em **iniciar sua avaliação gratuita**.</span><span class="sxs-lookup"><span data-stu-id="403f4-178">Enter the verification code and click **Start your free trial**.</span></span>
 
    ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita onde você pode preencher o código de verificação o sistema enviado para provar que você não é um robô](../../media/mtp-eval-26.png)
 
-5. <span data-ttu-id="30395-177">Clique em **tentar agora** para confirmar sua avaliação do Microsoft 365 e5.</span><span class="sxs-lookup"><span data-stu-id="30395-177">Click **Try now** to confirm your Microsoft 365 E5 trial.</span></span>
+5. <span data-ttu-id="403f4-180">Clique em **tentar agora** para confirmar sua avaliação do Microsoft 365 e5.</span><span class="sxs-lookup"><span data-stu-id="403f4-180">Click **Try now** to confirm your Microsoft 365 E5 trial.</span></span>
 
    ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita onde você deve registrar o botão experimentar agora para iniciar](../../media/mtp-eval-27.png)
  
-6. <span data-ttu-id="30395-179">Vá para o **centro de administração do Microsoft 365**  >  **usuários**  >  **ativos**.</span><span class="sxs-lookup"><span data-stu-id="30395-179">Go to the **Microsoft 365 Admin Center** > **Users** > **Active users**.</span></span> <span data-ttu-id="30395-180">Selecione sua conta de usuário, selecione **gerenciar licenças de produto** e troque a licença do Office 365 E5 para a **Microsoft 365 E5**.</span><span class="sxs-lookup"><span data-stu-id="30395-180">Select your user account, select **Manage product licenses** , then swap the license from Office 365 E5 to **Microsoft 365 E5**.</span></span> <span data-ttu-id="30395-181">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="30395-181">Click **Save**.</span></span>
+6. <span data-ttu-id="403f4-182">Vá para o **centro de administração do Microsoft 365**  >  **usuários**  >  **ativos**.</span><span class="sxs-lookup"><span data-stu-id="403f4-182">Go to the **Microsoft 365 Admin Center** > **Users** > **Active users**.</span></span> <span data-ttu-id="403f4-183">Selecione sua conta de usuário, selecione **gerenciar licenças de produto** e troque a licença do Office 365 E5 para a **Microsoft 365 E5**.</span><span class="sxs-lookup"><span data-stu-id="403f4-183">Select your user account, select **Manage product licenses**, then swap the license from Office 365 E5 to **Microsoft 365 E5**.</span></span> <span data-ttu-id="403f4-184">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="403f4-184">Click **Save**.</span></span>
 
    ![Imagem of_Microsoft 365 página de centro de administração onde você pode selecionar a licença do Microsoft 365 e5](../../media/mtp-eval-28.png)
  
-7. <span data-ttu-id="30395-183">Selecione a conta de administrador global novamente e, em seguida, clique em **gerenciar nome de usuário**.</span><span class="sxs-lookup"><span data-stu-id="30395-183">Select the global administrator account again then click **Manage username**.</span></span>
+7. <span data-ttu-id="403f4-186">Selecione a conta de administrador global novamente e, em seguida, clique em **gerenciar nome de usuário**.</span><span class="sxs-lookup"><span data-stu-id="403f4-186">Select the global administrator account again then click **Manage username**.</span></span>
 
    ![Imagem of_Microsoft 365 página de centro de administração onde você pode selecionar Account e gerenciar username](../../media/mtp-eval-29.png)
 
-8. <span data-ttu-id="30395-185">Opcion Altere o domínio de *onmicrosoft.com* para seu próprio domínio, dependendo do que você escolheu nas etapas anteriores.</span><span class="sxs-lookup"><span data-stu-id="30395-185">[Optional] Change the domain from *onmicrosoft.com* to your own domain—depending on what you chose on the previous steps.</span></span> <span data-ttu-id="30395-186">Clique em **Salvar alterações**.</span><span class="sxs-lookup"><span data-stu-id="30395-186">Click **Save changes**.</span></span>
+8. <span data-ttu-id="403f4-188">Opcion Altere o domínio de *onmicrosoft.com* para seu próprio domínio, dependendo do que você escolheu nas etapas anteriores.</span><span class="sxs-lookup"><span data-stu-id="403f4-188">[Optional] Change the domain from *onmicrosoft.com* to your own domain—depending on what you chose on the previous steps.</span></span> <span data-ttu-id="403f4-189">Clique em **Salvar alterações**.</span><span class="sxs-lookup"><span data-stu-id="403f4-189">Click **Save changes**.</span></span>
 
    ![Imagem of_Microsoft 365 página de centro de administração onde você pode alterar sua preferência de domínio](../../media/mtp-eval-30.png)
 
 
 
-## <a name="next-step"></a><span data-ttu-id="30395-188">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="30395-188">Next step</span></span>
-|<span data-ttu-id="30395-189">![Fase 3: configurar o & integrado](../../media/config-onboard.png)</span><span class="sxs-lookup"><span data-stu-id="30395-189">![Phase 3: Configure & Onboard](../../media/config-onboard.png)</span></span> <br>[<span data-ttu-id="30395-190">Fase 3: configurar o & integrado</span><span class="sxs-lookup"><span data-stu-id="30395-190">Phase 3: Configure & Onboard</span></span>](config-mtpeval.md) | <span data-ttu-id="30395-191">Configure cada pilar do Microsoft 365 defender para seu laboratório de avaliação do Microsoft 365 defender ou ambiente piloto e integração dos pontos de extremidade.</span><span class="sxs-lookup"><span data-stu-id="30395-191">Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender trial lab or pilot environment and onboard your endpoints.</span></span>
+## <a name="next-step"></a><span data-ttu-id="403f4-191">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="403f4-191">Next step</span></span>
+|[<span data-ttu-id="403f4-192">Fase 3: configurar o & integrado</span><span class="sxs-lookup"><span data-stu-id="403f4-192">Phase 3: Configure & Onboard</span></span>](config-mtpeval.md) | <span data-ttu-id="403f4-193">Configure cada pilar do Microsoft 365 defender para seu laboratório de avaliação do Microsoft 365 defender ou ambiente piloto e integração dos pontos de extremidade.</span><span class="sxs-lookup"><span data-stu-id="403f4-193">Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender trial lab or pilot environment and onboard your endpoints.</span></span>
 |:-------|:-----|
