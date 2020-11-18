@@ -23,28 +23,28 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: b09f56fefb7791af012c9dab2ba4e5684b9bf89f
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: c191b2fa795614a272b28cedae8d23693933dc95
+ms.sourcegitcommit: 0badd6a7af803a52c7c46a4374211cb89307eacf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906818"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135974"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
-Se sua assinatura terminar, pois ela expira ou porque você decide cancelar — seu acesso aos serviços do Microsoft 365, aplicativos e dados do cliente passam por vários Estados antes que a assinatura seja totalmente desativada ou *desprovisionada*. Se você estiver ciente desse progresso, você ficará mais preparado para retornar sua assinatura para um estado ativo antes que seja muito tarde ou, se você sair do Microsoft 365, faça backup dos seus dados antes que ele seja excluído.
+Se sua assinatura terminar, pois ela expira ou porque você decide cancelar — seu acesso aos serviços do Microsoft 365, aplicativos e dados do cliente passam por vários Estados antes que a assinatura seja totalmente desativada ou *excluída*. Se você estiver ciente desse progresso, você ficará mais preparado para retornar sua assinatura para um estado ativo antes que seja muito tarde ou, se você sair do Microsoft 365, faça backup dos seus dados antes que ele seja excluído.
 
 Leia as informações importantes antes de entrar em contato com o [suporte do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>O que acontece com os dados quando uma assinatura expira?
 
-- Se sua assinatura expirar, ela passará pelos seguintes estágios: expirado/desabilitado/desprovisionado. O estágio expirado é iniciado imediatamente após a assinatura atingir sua data de término.
+- Se sua assinatura expirar, ela passará pelos seguintes estágios: expirado/desabilitado/excluído. O estágio expirado é iniciado imediatamente após a assinatura atingir sua data de término.
 - Se você desativar a cobrança recorrente em sua assinatura anual, ela passará pelos mesmos estágios de uma assinatura expirada. O primeiro estágio começa é o aniversário da assinatura anual, não começando na data em que você desativou a configuração de cobrança recorrente da assinatura.
 - Se você cancelar sua assinatura mensal, ela será desabilitada imediatamente (na data de cancelamento). Isso significa que seus usuários perderão o acesso aos ativos do Microsoft 365 imediatamente e apenas os administradores terão acesso aos dados nos próximos 90 dias.
 
 A tabela a seguir explica o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business expira.
 
-| **Active**                                                             | **Expirado <br/> (30 dias \* )**                                                | **Desabilitado <br/> (90 dias \* )**                                               | **Desprovisionada**                                                                         |
+| Ativo | Expirado <br/>(30 dias \* ) | Desabilitado <br/>(90 dias \* ) | Deleted |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Dados acessíveis a todos*                                               | *Dados acessíveis a todos*                                                     | *Dados acessíveis somente para administradores*                                             | **Dados excluídos o <br/> Azure Active Directory foi removido, se não estiver sendo usado por outros serviços** |
 | Os usuários têm acesso normal ao Microsoft 365, arquivos e aplicativos   | Os usuários têm acesso normal ao Microsoft 365, arquivos e aplicativos              | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                                     |
@@ -192,16 +192,16 @@ Nesse estado, seu acesso diminui significativamente. Os usuários não podem ent
 
 Como administrador global ou de cobrança, você pode [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Microsoft 365 com todos os dados do cliente intactos. Se você optar por não reativar, [faça backup dos dados](back-up-data-before-switching-plans.md).
 
-### <a name="state-deprovisioned"></a>Estado: desprovisionado
+### <a name="state-deleted"></a>Estado: excluído
   
- **O que esperar:** Se você não reativar sua assinatura enquanto ela estiver em cortesia ou estiver desabilitada, a assinatura será desprovisionada.
+ **O que esperar:** Se você não reativar sua assinatura enquanto ela estiver em cortesia ou estiver desabilitada, a assinatura será excluída.
   
 Administradores e usuários não têm mais acesso aos serviços ou aplicativos do Office que vieram com a assinatura. Todos os dados do cliente, de dados de usuários para documentos e emails, são excluídos permanentemente e não são recuperáveis.
   
 Neste ponto, não é possível reativar a assinatura. No entanto, como administrador global ou de cobrança, você ainda pode acessar o centro de administração para gerenciar outras assinaturas ou comprar novas assinaturas para atender às suas necessidades de negócios.
   
 > [!NOTE]
-> A adição de uma nova assinatura do mesmo tipo que foi desprovisionada não restaura os dados associados à assinatura desprovisionada.
+> A adição de uma nova assinatura do mesmo tipo que foi excluída não restaura os dados que foram associados à assinatura excluída.
 
 
 > [!NOTE]
