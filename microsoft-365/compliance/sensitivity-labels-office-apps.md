@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a56ed063a639c0037102df8729362ebb4cca94f5
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: de005e40cf346c8dd6e02e0394272a97b186920f
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087034"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131104"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -59,7 +59,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Fornecer ajuda para um link para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Visualização: [canal beta e canal atual (visualização)](https://office.com/insider)           | 16.42 +     | 2.42 + | 16.0.13328 + | Em revisão |
+|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010 +           | 16.42 +     | 2.42 + | 16.0.13328 + | Em revisão |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004 + | 16.35 +   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |

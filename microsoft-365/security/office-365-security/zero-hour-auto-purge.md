@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre como a limpeza automática de zero horas (ZAP) pode mover retroativamente as mensagens entregues em uma caixa de correio do Exchange Online para a pasta de lixo eletrônico ou quarentena que estão retroativamente de spam ou phishing.
-ms.openlocfilehash: e59d93285dd75a749739b8247c156c19533ce2b1
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fd5186bc40d2d80097e6292d86ea113a41e0dd52
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845439"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131136"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Limpeza automática de zero horas (ZAP) no Exchange Online
 
@@ -55,15 +55,15 @@ O malware ZAP é habilitado por padrão em políticas antimalware. Para obter ma
 
 ### <a name="phish-zap"></a>Phish de phishing
 
-Para **mensagens de leitura ou não lidas** que são identificadas como Phish após a entrega, o resultado de zap depende da ação que é configurada para um veredicto de filtragem de **email de phishing** na política antispam aplicável. As ações de filtragem de veredicto disponíveis para o Phish e seus possíveis resultados de ZAP são descritos na lista a seguir:
+Para **mensagens de leitura ou não lidas** que são identificadas como phishing após a entrega, o resultado de zap depende da ação que é configurada para um veredicto de filtragem de **email de phishing** na política antispam aplicável. As ações de filtragem veredicto por phishing e seus possíveis resultados de ZAP são descritos na lista a seguir:
 
-- **Adicionar cabeçalho X** , **preceder a linha de assunto com o texto** : zap não realiza nenhuma ação na mensagem.
+- **Adicionar cabeçalho X**, **preceder a linha de assunto com o texto**: zap não realiza nenhuma ação na mensagem.
 
-- **Mover mensagem para o lixo eletrônico** : zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
+- **Mover mensagem para o lixo eletrônico**: zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-- **Redirecionar mensagem para endereço de email** , **Excluir mensagem** , **mensagem de quarentena** : zap coloca a mensagem em quarentena.
+- **Redirecionar mensagem para endereço de email**, **Excluir mensagem**, **mensagem de quarentena**: zap coloca a mensagem em quarentena.
 
-Por padrão, o phishing ZAP está habilitado em políticas antispam, e a ação padrão para o filtro de filtragem de **email de phishing** veredicto é uma **mensagem em quarentena** , o que significa que o Phish zap coloca a mensagem por padrão.
+Por padrão, o phishing ZAP está habilitado em políticas antispam, e a ação padrão para o filtro de filtragem de **email de phishing** veredicto é uma **mensagem em quarentena**, o que significa que o Phish zap coloca a mensagem por padrão.
 
 Para obter mais informações sobre a configuração do filtro de spam verdicts, consulte [Configure anti-spam Policies in Microsoft 365](configure-your-spam-filter-policies.md).
 
@@ -71,13 +71,13 @@ Para obter mais informações sobre a configuração do filtro de spam verdicts,
 
 Para **mensagens não lidas** identificadas como spam após a entrega, o resultado de zap depende da ação configurada para o veredicto de filtragem de **spam** na política antispam aplicável. As ações de filtragem de veredicto para spam e seus possíveis resultados de ZAP são descritas na lista a seguir:
 
-- **Adicionar cabeçalho X** , **preceder a linha de assunto com o texto** : zap não realiza nenhuma ação na mensagem.
+- **Adicionar cabeçalho X**, **preceder a linha de assunto com o texto**: zap não realiza nenhuma ação na mensagem.
 
-- **Mover mensagem para o lixo eletrônico** : zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
+- **Mover mensagem para o lixo eletrônico**: zap move a mensagem para a pasta lixo eletrônico, contanto que a regra de lixo eletrônico esteja habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-- **Redirecionar mensagem para endereço de email** , **Excluir mensagem** , **mensagem de quarentena** : zap coloca a mensagem em quarentena. Os usuários finais podem exibir e gerenciar suas próprias mensagens em quarentena de spam.
+- **Redirecionar mensagem para endereço de email**, **Excluir mensagem**, **mensagem de quarentena**: zap coloca a mensagem em quarentena. Os usuários finais podem exibir e gerenciar suas próprias mensagens em quarentena de spam.
 
-Por padrão, o lixo de spam está habilitado em políticas antispam, e a ação padrão para o veredicto de filtragem de **spam** é **mover a mensagem para a pasta lixo eletrônico** , o que significa que o lixo de spam move as mensagens **não lidas** para a pasta lixo eletrônico por padrão.
+Por padrão, o lixo de spam está habilitado em políticas antispam, e a ação padrão para o veredicto de filtragem de **spam** é **mover a mensagem para a pasta lixo eletrônico**, o que significa que o lixo de spam move as mensagens **não lidas** para a pasta lixo eletrônico por padrão.
 
 Para obter mais informações sobre a configuração do filtro de spam verdicts, consulte [Configure anti-spam Policies in Microsoft 365](configure-your-spam-filter-policies.md).
 
@@ -105,7 +105,7 @@ Remetentes confiáveis, regras de fluxo de emails ou bloqueio e permitir configu
 
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>E se uma mensagem for movida para outra pasta (por exemplo, regras de caixa de entrada)?
 
-ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde que a mesma ação, ou mais forte, ainda não tenha sido aplicada. Por exemplo, se a política de phishing estiver definida como quarentena e o usuário ou administrador já tiver desenviado o email, a quarentena executará uma ação para colocar em quarentena o arquivo.
+ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde que a mesma ação, ou mais forte, ainda não tenha sido aplicada. Por exemplo, se a política anti-phishing estiver definida como quarentena e a mensagem já estiver no lixo eletrônico, o ZAP executará uma ação para colocar em quarentena a mensagem.
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>Como o ZAP afeta caixas de correio em espera?
 

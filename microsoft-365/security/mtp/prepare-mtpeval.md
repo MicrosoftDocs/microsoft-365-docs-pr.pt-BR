@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: a255c74db030325ba22c2095fba732a93b8c269c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7149524de868a3670807556f5f423ba0ee4a772a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844843"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131212"
 ---
 # <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto
 
@@ -31,41 +31,13 @@ ms.locfileid: "48844843"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 Criar um laboratório de avaliação do Microsoft 365 defender ou um ambiente piloto e implantá-lo é um processo de três fases:
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab environment" title="Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
-      <br/>Fase 1: preparar </a><br>
-    </td>
-     <td align="center"  >
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab environment" title="Configurar o laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
-      <br/>Fase 2: configuração </a><br>
-        </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval">
-        <img src="../../media/config-onboard.png" alt="Configure each Microsoft 365 Defender pillar" title="Configure cada pilar do Microsoft 365 defender e integração de seus pontos de extremidade" />
-      <br/>Fase 3: configurar o & integrado</a><br>
-</td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-  </tr>
-</table>
+|![Fase 1: preparar](../../media/phase-diagrams/prepare.png)<br/>Fase 1: preparar |[![Fase 2: configurar](../../media/phase-diagrams/setup.png)](setup-mtpeval.md)<br/>[Fase 2: configurar](setup-mtpeval.md) |[![Fase 3: integração](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[Fase 3: integração](config-mtpeval.md) | [![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Voltar ao manual do piloto](mtp-pilot.md) |
+|--|--|--|--|
+|*Você está aqui!* | || |
 
 Você está atualmente na fase de preparação.
 
@@ -132,7 +104,7 @@ A tabela a seguir indica a ordem que a Microsoft recomenda para configurar os co
 
 | Componente                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Classificação da ordem de configuração |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-|Microsoft defender para Office 365|O Microsoft defender para Office 365 protege sua organização contra ameaças mal-intencionadas, representadas por mensagens de email, links (URLs) e ferramentas de colaboração. <br> [Saiba Mais.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
+|Microsoft Defender para Office 365|O Microsoft Defender para Office 365 protege sua organização contra ameaças maliciosas representadas por mensagens de email, links (URLs) e ferramentas de colaboração. <br> [Saiba Mais.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
 |Microsoft Defender para Identidade|O Microsoft defender para identidade usa sinais do Active Directory para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas intencionais direcionadas para sua organização. <br> [Saiba mais](https://docs.microsoft.com/azure-advanced-threat-protection/).| duas |
 |Segurança no aplicativo na nuvem da Microsoft| O Microsoft Cloud app Security é um CASB (agente de segurança de acesso à nuvem) que opera em várias nuvens. Ele oferece visibilidade avançada, controle sobre a viagem de dados e análises sofisticadas para identificar e combater o ciberataques em todos os seus serviços de nuvem. <br> [Saiba mais](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3D                   |
 |Microsoft Defender para Ponto de Extremidade | Os recursos de detecção e resposta do Microsoft defender para pontos de extremidade de ponto de extremidade fornecem detecções de ataques avançados quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    

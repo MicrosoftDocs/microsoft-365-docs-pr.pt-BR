@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: 59537499ed52f44a9d32b8921fd297c5cd7c0d3f
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: 13a4bfac34201e81ba13b76791e097891409dd0b
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944329"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130836"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Introdução à Descoberta Eletrônica Avançada
 
@@ -68,7 +68,7 @@ Conclua as seguintes etapas para adicionar usuários ao grupo de funções Geren
 
 3. Na página do submenu Gerenciador de descoberta eletrônica, clique em **Editar** ao lado da seção **Gerenciador de descoberta eletrônica** .
 
-4. Na página **escolher Gerenciador de descoberta eletrônica** no assistente editar grupo de funções, clique em **escolher Gerenciador de descoberta**.
+4. Na página **escolher Gerenciador de descoberta eletrônica** no assistente editar grupo de funções, clique em **escolher Gerenciador de descoberta eletrônica**.
 
 5. Clique em **Adicionar** e marque a caixa de seleção de todos os usuários que você deseja adicionar ao grupo de funções.
 
@@ -107,7 +107,7 @@ Para obter mais informações sobre como configurar e usar o modelo de detecçã
 
 A próxima etapa é criar um caso e começar a usar a descoberta eletrônica avançada. Conclua as etapas a seguir para criar um caso e adicionar membros. O usuário que cria o caso é automaticamente adicionado como um membro.
 
-1. Acesse [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre usando as credenciais da conta de usuário que receberam as permissões de descoberta eletrônica apropriadas. Os membros do grupo de função gerenciamento da organização também podem criar casos de descoberta eletrônica avançados.
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre com uma conta de usuário que tenha recebido as permissões de descoberta eletrônica apropriadas. Os membros do grupo de função gerenciamento da organização também podem criar casos de descoberta eletrônica avançados.
 
 2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo** e, em seguida, clique em **descoberta eletrônica > avançado**.
 
@@ -117,13 +117,13 @@ A próxima etapa é criar um caso e começar a usar a descoberta eletrônica ava
 
 5. Clique em **salvar** para criar o caso.
 
-   O novo caso é criado e a guia **configurações** no novo caso é exibida. 
+   O novo caso é criado e a guia **configurações** no novo caso é exibida.
 
 6. No bloco **acesso & permissões** na guia **configurações** , clique em **selecionar** e, em seguida, clique em **Atualizar**.
 
 7. Clique em **Atualizar**.
 
-8. Na página **gerenciar esse** submenu de caso, em **gerenciar Membros** , clique em **Adicionar** para adicionar membros ao caso.
+8. Na página **gerenciar esse** submenu de caso, em **gerenciar Membros**, clique em **Adicionar** para adicionar membros ao caso.
 
 9. Na lista de pessoas, marque a caixa de seleção ao lado dos nomes das pessoas que você deseja adicionar ao caso. Conforme explicado anteriormente, certifique-se de que as pessoas adicionadas ao caso tenham sido atribuídas às permissões de descoberta eletrônica apropriadas.
 
@@ -143,7 +143,7 @@ Para começar a usar a descoberta eletrônica avançada, aqui está um fluxo de 
 
    - Os dados da caixa de correio do Exchange do responsáveis, da conta do OneDrive e de qualquer grupo do Microsoft Teams ou do Yammer para os quais o responsáveis é membro podem ser "marcados" como dados do custodial no caso.
   
-   - Os dados dos responsáveis são reindexados (por um processo chamado *indexação avançada* ). Isso ajuda a otimizar a pesquisa para ele na próxima etapa.
+   - Os dados dos responsáveis são reindexados (por um processo chamado *indexação avançada*). Isso ajuda a otimizar a pesquisa para ele na próxima etapa.
   
    - Você pode colocar um bloqueio nos dados dos responsáveis. Isso preserva os dados que podem ser relevantes para o caso durante a investigação.
   
@@ -161,18 +161,18 @@ Para começar a usar a descoberta eletrônica avançada, aqui está um fluxo de 
 
 3. **[Adicione dados a um conjunto de revisão](add-data-to-review-set.md)**. Depois de configurar e verificar se uma pesquisa retorna os dados desejados, a próxima etapa é adicionar os resultados da pesquisa a um conjunto de revisão. Quando você adiciona dados a um conjunto de revisão, os itens são copiados do seu local original para um local seguro de armazenamento do Azure. Os dados são reindexados novamente para otimizá-los para pesquisas completas e rápidas durante a revisão e análise de itens no conjunto de revisão. Além disso, você também pode [Adicionar dados que não sejam do Office 365 em um conjunto de revisão](load-non-office-365-data-into-a-review-set.md).
 
-   Há também um tipo especial de análise configurada para a qual você pode adicionar dados, chamado de *análise de conversa*. Esses tipos de conjuntos de análise fornecem recursos de reconstrução de conversa para reconstruir, revisar e exportar conversas encadeadas como as do Microsoft Teams. Para obter mais informações, consulte [revisar conversas na descoberta eletrônica avançada](conversation-review-sets.md).
+   Há também um tipo especial de análise configurada para a qual você pode adicionar dados, chamado de *análise de conversa*. Esses tipos de conjuntos de revisão fornecem recursos de reconstrução de conversa para reconstruir, revisar e exportar conversas encadeadas, como as do Microsoft Teams. Para obter mais informações, consulte [revisar conversas na descoberta eletrônica avançada](conversation-review-sets.md).
 
 4. **Revise e analise os dados em um conjunto de revisão**. Agora que os dados estão em um conjunto de revisão, você pode usar uma ampla variedade de ferramentas e recursos para exibir e analisar os dados de caso com o objetivo de reduzir o conjunto de dados para o que é mais relevante para o caso que está investigando. Veja a seguir uma lista de algumas ferramentas e recursos que você pode usar durante esse processo.
 
    - [Exibir documentos](view-documents-in-review-set.md). Isso inclui exibir os metadados para cada documento em um conjunto de revisão e exibir o documento em sua versão nativa ou versão de texto.
 
-   - [Criar consultas e filtros](review-set-search.md). Você cria consultas de pesquisa usando uma variedade de critérios de pesquisa (incluindo a capacidade de Pesquisar todas as [Propriedades de metadados do arquivo](document-metadata-fields-in-advanced-ediscovery.md)) para refinar e analisar os dados do caso para o que é mais relevante para o caso. Você também pode usar o configure Set Filters para aplicar rapidamente condições adicionais aos resultados de uma consulta de pesquisa para refinar ainda mais esses resultados. 
+   - [Criar consultas e filtros](review-set-search.md). Você cria consultas de pesquisa usando uma variedade de critérios de pesquisa (incluindo a capacidade de Pesquisar todas as [Propriedades de metadados do arquivo](document-metadata-fields-in-advanced-ediscovery.md)) para refinar e analisar os dados do caso para o que é mais relevante para o caso. Você também pode usar o configure Set Filters para aplicar rapidamente condições adicionais aos resultados de uma consulta de pesquisa para refinar ainda mais esses resultados.
 
    - [Criar e usar marcas](tagging-documents.md). Você pode aplicar marcas a documentos em um conjunto de revisão para identificar quais estão respondendo (ou não respondendo ao caso) e, em seguida, use essas marcas ao criar consultas de pesquisa para incluir ou excluir os documentos marcados. Você também pode marcar para determinar quais documentos serão exportados.
 
    - [Anotar e redigir documentos](view-documents-in-review-set.md#annotate-view). Você pode usar a ferramenta de anotação em uma revisão para anotar documentos e redigir conteúdo em documentos como produto de trabalho. Geramos uma versão em PDF de um documento anotado ou redigido durante a revisão para reduzir o risco de exportação da versão nativa não redigida do documento.
 
-   - [Analisar dados de caso](analyzing-data-in-review-set.md). A funcionalidade de análise na descoberta eletrônica avançada é poderosa. Depois de executar a análise nos dados no conjunto de revisão, realizamos análises como a detecção de duplicidades, encadeamento de email e temas que podem ajudar a reduzir o volume de documentos que você precisa examinar. Também geramos relatórios de análise que resumem o resultado da execução da análise. Como explicado anteriormente, a execução de análise também executa [o modelo de detecção de privilégio advogado-cliente](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model).
+   - [Analisar dados de caso](analyzing-data-in-review-set.md). A funcionalidade de análise na descoberta eletrônica avançada é poderosa. A descoberta eletrônica avançada fornece várias ferramentas para analisar os documentos para reduzir ainda mais o volume de documentos a serem analisados em um conjunto de análise. Também geramos relatórios de análise que resumem o resultado da execução da análise. Como explicado anteriormente, a execução de análise também executa [o modelo de detecção de privilégio advogado-cliente](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model).
 
 5. **Exportar e baixar dados de caso**. Uma etapa final após coletar, revisar e analisar os dados do caso é exportá-lo para a descoberta eletrônica avançada para análise externa ou para análise por pessoas de fora da equipe de investigação. A exportação de dados é um processo de duas etapas. A primeira etapa é [Exportar](export-documents-from-review-set.md) dados do conjunto de revisão e copiá-los para um local de armazenamento do Azure diferente (um fornecido pela Microsoft ou um gerenciado por sua organização). Em seguida, use o Azure Storage Explorer para [baixar](download-export-jobs.md) os dados para um computador local. Além dos arquivos de dados exportados, o contém o pacote de exportação também contém um relatório de exportação, um relatório de resumo e um relatório de erros.

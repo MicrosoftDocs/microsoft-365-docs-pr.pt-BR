@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: 0ab0a636cb70d98aa7c17ffe6aaec66ae1f4ecc7
-ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
+ms.openlocfilehash: 6d862f0ed6d6bbea56cb2bb79fee69a044e4fede
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48945337"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130788"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -57,15 +57,15 @@ Regras de fluxo de emails no Exchange Online e autônomo EOP usam condições e 
 
 O exemplo a seguir supõe que você precisa de emails do contoso.com para ignorar a filtragem de spam. Para fazer isso, defina as seguintes configurações:
 
-1. **Condição** : **o domínio do remetente** \> **é** \> contoso.com.
+1. **Condição**: **o domínio do remetente** \> **é** \> contoso.com.
 
 2. Configure qualquer uma das seguintes configurações:
 
-   - **Condição de regra de fluxo de emails** : **um cabeçalho** \> **de mensagem inclui qualquer uma destas palavras** \> **nome do cabeçalho** : valor do `Authentication-Results` \> **cabeçalho** : `dmarc=pass` ou `dmarc=bestguesspass` .
+   - **Condição de regra de fluxo de emails**: **um cabeçalho** \> **de mensagem inclui qualquer uma destas palavras** \> **nome do cabeçalho**: valor do `Authentication-Results` \> **cabeçalho**: `dmarc=pass` ou `dmarc=bestguesspass` .
 
      Esta condição verifica o status de autenticação de email do domínio de envio de email para garantir que o domínio de envio não está sendo falsificado. Para obter mais informações sobre autenticação de email, consulte [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md).
 
-   - **Lista de permissões de IP** : especifique o endereço IP de origem ou o intervalo de endereços na política de filtro de conexão.
+   - **Lista de permissões de IP**: especifique o endereço IP de origem ou o intervalo de endereços na política de filtro de conexão.
   
      Use essa configuração se o domínio de envio não usar a autenticação de email. Seja o mais restritivo possível quando se trata dos endereços IP de origem na lista de IPs permitidos. Recomendamos um intervalo de endereços IP de/24 ou menos (menos é melhor). Não use intervalos de endereços IP que pertençam aos serviços de consumidor (por exemplo, outlook.com) ou infraestruturas compartilhadas.
 
@@ -77,17 +77,17 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
    >
    > - Se você permitir um endereço IP que está atrás de um gateway NAT (conversão de endereço de rede), precisará saber os servidores envolvidos no pool NAT para saber o escopo da lista de IPs permitidos. Os endereços IP e os participantes de NAT podem alterar. Você precisa verificar periodicamente suas entradas da lista de IPs permitidos como parte de seus procedimentos de manutenção padrão.
 
-3. **Condições opcionais** :
+3. **Condições opcionais**:
 
-   - **O remetente** \> **é interno/externo** \> **Fora da organização** : essa condição é implícita, mas é possível usá-la para considerar os servidores de email locais que podem não estar configurados corretamente.
+   - **O remetente** \> **é interno/externo** \> **Fora da organização**: essa condição é implícita, mas é possível usá-la para considerar os servidores de email locais que podem não estar configurados corretamente.
 
    - **O assunto ou corpo** \> **assunto ou corpo inclui qualquer uma destas palavras** \> \<keywords\>: Se você pode restringir ainda mais as mensagens por palavras-chave ou frases na linha de assunto ou no corpo da mensagem, você pode usar essas palavras como uma condição.
 
-4. **Ação** : Configure ambas as ações na regra:
+4. **Ação**: Configure ambas as ações na regra:
 
    a. **Modificar as propriedades** \> da mensagem **definir o nível de confiança de spam (SCL)** \> **Ignorar a filtragem de spam**.
 
-   b. **Modificar as propriedades** \> da mensagem **definir um cabeçalho de mensagem** : **defina o cabeçalho da mensagem** \<CustomHeaderName\> **com o valor** \<CustomHeaderValue\> .
+   b. **Modificar as propriedades** \> da mensagem **definir um cabeçalho de mensagem**: **defina o cabeçalho da mensagem** \<CustomHeaderName\> **com o valor** \<CustomHeaderValue\> .
 
       Por exemplo, `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`. Se você tiver mais de um domínio na regra, você pode personalizar o texto do cabeçalho conforme apropriado.
 
@@ -105,7 +105,7 @@ Quando as mensagens ignoram a filtragem de spam devido à lista de remetentes co
 
 Se você não pode usar regras de fluxo de emails conforme descrito anteriormente, a melhor opção é adicionar o servidor de email de origem ou servidores à lista de IPs permitidos na política de filtro de conexão. Para obter detalhes, consulte [Configure Connection Filtering in EOP](configure-the-connection-filter-policy.md).
 
-**Observações** :
+**Observações**:
 
 - É importante que você mantenha o número de endereços IP permitidos no mínimo, portanto, evite usar intervalos de endereços IP inteiros sempre que possível.
 
@@ -130,7 +130,7 @@ O limite máximo para essas listas é de aproximadamente 1000 entradas; no entan
 
 ## <a name="considerations-for-bulk-email"></a>Considerações para email em massa
 
-Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e um conteúdo de mensagem. O envelope da mensagem contém informações necessárias para transmitir e entregar a mensagem entre os servidores SMTP. O conteúdo da mensagem contém os campos de cabeçalho da mensagem (coletivamente chamados de *cabeçalho da mensagem* ) e o corpo da mensagem. O envelope da mensagem é descrito em RFC 5321, e o cabeçalho da mensagem é descrito em RFC 5322. Os destinatários nunca veem o envelope de mensagem real porque é gerado pelo processo de transmissão de mensagens e, na verdade, não faz parte da mensagem.
+Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e um conteúdo de mensagem. O envelope da mensagem contém informações necessárias para transmitir e entregar a mensagem entre os servidores SMTP. O conteúdo da mensagem contém os campos de cabeçalho da mensagem (coletivamente chamados de *cabeçalho da mensagem*) e o corpo da mensagem. O envelope da mensagem é descrito em RFC 5321, e o cabeçalho da mensagem é descrito em RFC 5322. Os destinatários nunca veem o envelope de mensagem real porque é gerado pelo processo de transmissão de mensagens e, na verdade, não faz parte da mensagem.
 
 - O `5321.MailFrom` Endereço (também conhecido como o endereço **de email de** remetente, o remetente P1 ou o remetente do envelope) é o endereço de email que é usado na transmissão SMTP da mensagem. Esse endereço de email geralmente é registrado no campo de cabeçalho de **retorno de caminho** no cabeçalho da mensagem (embora seja possível que o remetente designe um endereço de email de **devolução** diferente). Se a mensagem não puder ser entregue, ela é o destinatário da notificação de falha na entrega (também conhecida como notificação de falha na entrega ou mensagem de devolução).
 

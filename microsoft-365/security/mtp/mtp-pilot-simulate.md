@@ -20,59 +20,21 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 700bd7a3f4ba8d152cf66a27c0f66aa375872698
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fac3a79f1522e5e7777b2b54bce2b8bd695f8d7a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842057"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131340"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Executar as simulações de ataque do Microsoft 365 defender  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-**Aplica-se a:**
-- Microsoft 365 defender
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Planejar seu projeto piloto do Microsoft 365 defender" />
-      <br/>Planta </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
-      <br/>Preparar </a><br>
-    </td>
-    <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Executar as simulações de ataque do Microsoft 365 defender" />
-      <br/>Simular ataque </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Feche e resuma seu piloto do Microsoft 365 defender" />
-      <br/>Fechar e resumir </a><br>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-    <td valign="top" style="width:25%; border:0;">
-
-</td>
-  </tr>
-</table>
+|[![Planejamento](../../media/phase-diagrams/1-planning.png)](mtp-pilot-plan.md)<br/>[Planejamento](mtp-pilot-plan.md) |[![Preparar](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[Preparação](prepare-mtpeval.md) | ![Simular ameaças](../../media/phase-diagrams/3-simluate.png)<br/>Simular ameaças| [![Fechar e resumir](../../media/phase-diagrams/4-summary.png)](mtp-pilot-close.md)<br/>[Fechar e resumir](mtp-pilot-close.md)|
+|--|--|--|--|
+|| |*Você está aqui!* | |
 
 Você está atualmente na fase de simulação de ataque.
 
@@ -369,9 +331,9 @@ Há uma única caixa de correio e dispositivo internos necessários para este ce
 
     1.  Examine os resultados e veja se é possível identificar o email que você abriu.  Pode levar até 2 horas para que a mensagem apareça na busca avançada. Se o ambiente de email for grande e houver muitos resultados, talvez você queira usar a **opção Mostrar filtros** para localizar a mensagem. 
 
-   No exemplo, o email foi enviado de uma conta do Yahoo. Clique no **+** ícone ao lado de **yahoo.com** sob a seção SenderFromDomain e, em seguida, clique em **aplicar** para adicionar o domínio selecionado à consulta.  Use a conta de domínio ou de email que foi usada para enviar a mensagem de teste na etapa 1 da execução da simulação para filtrar os resultados.  Execute novamente a consulta para obter um conjunto de resultados menor para verificar se você vê a mensagem da simulação.
+           No exemplo, o email foi enviado de uma conta do Yahoo. Clique no **+** ícone ao lado de **yahoo.com** sob a seção SenderFromDomain e, em seguida, clique em **aplicar** para adicionar o domínio selecionado à consulta.  Use a conta de domínio ou de email que foi usada para enviar a mensagem de teste na etapa 1 da execução da simulação para filtrar os resultados.  Execute novamente a consulta para obter um conjunto de resultados menor para verificar se você vê a mensagem da simulação.
    
-        ![Screenshot of the filters. Use filters to narrow down the search, and find what you’re looking for faster.](../../media/mtp/fig20.png) 
+        ![Captura de tela dos filtros. Use filtros para restringir a pesquisa e encontre o que você está procurando mais rapidamente.](../../media/mtp/fig20.png) 
 
         ```console
         EmailEvents 
@@ -394,7 +356,7 @@ Há uma única caixa de correio e dispositivo internos necessários para este ce
 
 5.  Em seguida, inclua as informações sobre o anexo (como: nome de arquivo, hashes) para o conjunto de resultados. Para fazer isso, ingresse na tabela **EmailAttachmentInfo** . Os campos comuns a serem usados para ingressar, neste caso, são **NetworkMessageId** e **RecipientObjectId**.
 
-A consulta a seguir também inclui uma linha adicional "| **Project-Rename EmailTimestamp = timestamp ",** que ajudará a identificar qual carimbo de data/hora estava relacionado ao email versus carimbos de data/hora relacionados às ações de arquivo que você adicionará na próxima etapa.
+    A consulta a seguir também inclui uma linha adicional "| **Project-Rename EmailTimestamp = timestamp ",** que ajudará a identificar qual carimbo de data/hora estava relacionado ao email versus carimbos de data/hora relacionados às ações de arquivo que você adicionará na próxima etapa.
 
     ```console
     EmailEvents 
@@ -473,9 +435,9 @@ As detecções personalizadas executarão a consulta de acordo com a frequência
 
     ![Captura de tela da página de regras de detecção que exibe a regra e os detalhes de execução](../../media/mtp/fig27b.png) 
 
-Nessa página, você pode selecionar a regra de detecção, que abrirá uma página de detalhes. 
+    Nessa página, você pode selecionar a regra de detecção, que abrirá uma página de detalhes. 
 
-    ![Screenshot of the email attachments page where you can see the status of the rule execution, triggered alerts and actions, edit the detection, and so on](../../media/mtp/fig28.png) 
+    ![Captura de tela da página de anexos de email onde você pode ver o status da execução da regra, alertas e ações disparados, editar a detecção e assim por diante](../../media/mtp/fig28.png) 
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>Treinamento adicional de busca avançada em exercícios
 

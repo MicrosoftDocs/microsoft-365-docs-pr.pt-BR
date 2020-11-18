@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 350904022ec86acdbebf109dd5946598643aea83
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 50f334a055a5bd974f9ea1f39c8fa38d44be9c26
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843655"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131217"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Execute seu projeto piloto do Microsoft 365 defender 
 
@@ -33,7 +33,7 @@ ms.locfileid: "48843655"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 Para determinar efetivamente o benefício e a adoção do Microsoft 365 defender, você pode executar um projeto piloto. Antes de habilitar o Microsoft 365 defender em seu ambiente de produção e iniciar seus casos de uso, é melhor planejar determinar as tarefas a serem realizadas para o projeto piloto e definir os critérios de sucesso. 
 
@@ -56,7 +56,7 @@ Com a solução integrada do Microsoft 365 defender, os profissionais de seguran
 
 A linha do tempo de exemplo a seguir varia de acordo com os recursos corretos em seu ambiente. Algumas detecções e fluxos de trabalho podem precisar de mais tempo de aprendizagem do que os outros.
 
-![Linha do tempo de amostra na execução de um piloto do Microsoft 365 defender](../../media/pilotimeline.png)
+![Linha do tempo de amostra na execução de um piloto do Microsoft 365 defender](../../media/phase-diagrams/pilot-phases.png)
 
 >[!IMPORTANT]
 >Para obter resultados ideais, siga as instruções do piloto o mais próximo possível.
@@ -68,11 +68,11 @@ Há quatro fases na execução de um piloto do Microsoft 365 defender:
 
 |Fase | Descrição | 
 |:-------|:-----|
-| ![Planejamento](../../media/mtp/plan.png)<br>[Planejamento](mtp-pilot-plan.md)| Saiba o que você precisa considerar antes de executar o projeto piloto do Microsoft 365 defender: <br><br>-Escopo <br> – Casos de uso <br>- Requisitos <br>– Plano de teste <br> -Critérios de êxito <br> -Scorecard 
-| ![Preparação](../../media/mtp/prep.png) <br>[Preparação](mtp-evaluation.md)|  Acesse o centro de segurança do Microsoft 365 para configurar seu ambiente piloto do Microsoft 365 defender. Você será orientado para:<br><br>– Identificar os participantes e a aprovação de busca para o seu piloto <br> -Considerações de ambiente <br>– Acesso <br>-Configuração do Azure Active Directory <br> -Ordem de configuração <br> -Inscrever-se no Microsoft 365 E5 Trial <br> -Configurar domínio <br>-Atribuir licenças do Microsoft 365 e5 <br> – Concluir o assistente de configuração no portal|
-| ![Simulação de ataque](../../media/mtp/run-sim.png) <br>[Simulação de ataque](mtp-pilot-simulate.md) | Para simular um ataque, você será orientado a:<br><br>– Verificar os requisitos do ambiente de teste <br>– Executar a simulação <br>– Investigue um incidente <br>-resolver o incidente 
-| ![Fechamento e Resumo](../../media/mtp/close.png) <br>[Fechamento e Resumo](mtp-pilot-close.md) | Quando você chegar ao final do processo, será orientado para:<br><br>-Passar pela saída final<br>-Apresentar sua saída para seus participantes <br>– Fornecer comentários <br>-Siga as próximas etapas 
+| [Planejamento](mtp-pilot-plan.md)<br> aproximadamente 1 dia| Saiba o que você precisa considerar antes de executar o projeto piloto do Microsoft 365 defender: <br><br>-Escopo <br> – Casos de uso <br>- Requisitos <br>– Plano de teste <br> -Critérios de êxito <br> -Scorecard 
+| [Preparação](mtp-evaluation.md) <br>~ 2 dias|  Acesse o centro de segurança do Microsoft 365 para configurar seu ambiente piloto do Microsoft 365 defender. Você será orientado para:<br><br>– Identificar os participantes e a aprovação de busca para o seu piloto <br> -Considerações de ambiente <br>– Acesso <br>-Configuração do Azure Active Directory <br> -Ordem de configuração <br> -Inscrever-se no Microsoft 365 E5 Trial <br> -Configurar domínio <br>-Atribuir licenças do Microsoft 365 e5 <br> – Concluir o assistente de configuração no portal|
+| [Simulação de ataque](mtp-pilot-simulate.md) <br>~ 2 dias| Para simular um ataque, você será orientado a:<br><br>– Verificar os requisitos do ambiente de teste <br>– Executar a simulação <br>– Investigue um incidente <br>-resolver o incidente 
+| [Fechamento e Resumo](mtp-pilot-close.md) <br>aproximadamente 1 dia| Quando você chegar ao final do processo, será orientado para:<br><br>-Passar pela saída final<br>-Apresentar sua saída para seus participantes <br>– Fornecer comentários <br>-Siga as próximas etapas 
 
 ## <a name="next-step"></a>Próxima etapa
-|![Fase de planejamento](../../media/mtp/plan.png) <br>[Fase de planejamento](mtp-pilot-plan.md) | Planejar seu projeto piloto do Microsoft 365 defender 
+|[Fase de planejamento](mtp-pilot-plan.md) | Planejar seu projeto piloto do Microsoft 365 defender 
 |:-------|:-----|

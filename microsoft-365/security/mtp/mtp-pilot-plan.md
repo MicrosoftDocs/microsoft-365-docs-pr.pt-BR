@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: ec2bfe52308231577e4f2749e1f4cdf24a36f604
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4420342f964564305bb113c45ee0e3107f8a822e
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846015"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130976"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>Planejando seu projeto piloto do Microsoft 365 defender 
 
@@ -33,46 +33,11 @@ ms.locfileid: "48846015"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Planejar seu projeto piloto do Microsoft 365 defender" />
-      <br/>Plano</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Prepare seu laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto" />
-      <br/>Preparar</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Executar as simulações de ataque do Microsoft 365 defender" />
-     <br/>Simular ameaças</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Feche e resuma seu piloto do Microsoft 365 defender" />
-     <br/>Fechar e resumir</a><br>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
+- Microsoft 365 Defender
 
-</td>    
-    <td valign="top" style="width:25%; border:0;">
-
-</td>
-  </tr>
-</table>
+|![Planejamento](../../media/phase-diagrams/1-planning.png)<br/>Planejamento|[![Preparar](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[Preparação](prepare-mtpeval.md) | [![Simular ameaças](../../media/phase-diagrams/3-simluate.png)](mtp-pilot-simulate.md)<br/>[Simular ameaças](mtp-pilot-simulate.md) | [![Fechar e resumir](../../media/phase-diagrams/4-summary.png)](mtp-pilot-close.md)<br/>[Fechar e resumir](mtp-pilot-close.md)|
+|--|--|--|--|
+|*Você está aqui!*| | | |
 
 Você está atualmente na fase de planejamento.
 
@@ -104,7 +69,7 @@ Os casos de uso representam instruções sobre como a ferramenta que está sendo
 
 Tenha em mente que esses casos de uso devem ser criados dentro dos parâmetros do escopo definido. Se, por exemplo, o escopo de teste não incluir uma avaliação de ferramentas como o Microsoft Cloud app Security, os casos que dependem dele como uma fonte de dados não devem ser criados.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Na lista de casos de uso, você pode começar a criar requisitos. Os requisitos incluem recursos que uma ferramenta deve ter para satisfazer os casos de uso. Esses requisitos podem ser divididos em categorias como configuração e manutenção, suporte para integrações e requisitos específicos de recursos, como a capacidade de busca e a capacidade de criar alertas personalizados.
 
@@ -120,7 +85,7 @@ O critério de sucesso é, basicamente, a barra definida para medir o que você 
 
 Uma maneira de reunir todos os elementos de seu plano pode ser criar um scorecard. Veja um exemplo de Scorecard abaixo:
 
-| Caso de uso | Requirements | Requisitos de configuração | Plano de teste | Resultado esperado | Status do teste | Pontuação | Observações |
+| Caso de uso | Requisitos | Requisitos de configuração | Plano de teste | Resultado esperado | Status do teste | Pontuação | Observações |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |Gerenciamento de incidentes|-Microsoft 365 defender  </br></br>– Microsoft defender para identidade </br></br>– Microsoft defender para ponto de extremidade </br></br>– Segurança do aplicativo do Microsoft Cloud (opcional)|Consulte os [pré-requisitos](https://aka.ms/mtp-trial-lab) para preparação, configuração e configuração para obter detalhes |[Simular ameaças](mtp-pilot-simulate.md) <br></br>[Investigue o incidente](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Os investigadores podem entender o escopo e o impacto do incidente e gerenciar o incidente||||
 |AutoIR|-Microsoft 365 defender </br></br>– Microsoft defender para identidade </br></br>– Microsoft defender para ponto de extremidade |Consulte os [pré-requisitos](https://aka.ms/mtp-trial-lab) para preparação, configuração e configuração para obter detalhes <br>Habilitar AutoIR  |[Simular ameaças](mtp-pilot-simulate.md) <br></br>[Investigação automatizada](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Alertas e incidentes são corrigidos automaticamente pelo Microsoft 365 defender||||

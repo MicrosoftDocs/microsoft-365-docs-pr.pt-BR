@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a configuração de segurança por padrão no Exchange Online Protection (EOP)
-ms.openlocfilehash: d4345134e98ae204f73dfb51a0abf5136590a24c
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: 9f676dcd89f0322792bd40e06879b9758082d94e
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126656"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131092"
 ---
 # <a name="secure-by-default-in-office-365"></a>Seguro por padrão no Office 365
 
@@ -41,7 +41,7 @@ As organizações 365 da Microsoft com caixas de correio no Exchange Online são
 1. Email com malware suspeito será automaticamente colocado em quarentena e os destinatários serão notificados. Consulte [Configure anti-malware Policies in EOP](configure-anti-malware-policies.md).
 1. O email de phishing identificado como "alta confiança" será tratado de acordo com a ação da política antispam. Consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
-Como a Microsoft deseja manter nossos clientes seguros por padrão, alguns locatários substituídos não são aplicados para phishing ou golpe de alta confiança. Essas substituições incluem:
+Como a Microsoft deseja manter nossos clientes seguros por padrão, alguns locatários substituídos não são aplicados a malware ou phishing de alta confiança. Essas substituições incluem:
 
 - Listas de remetentes permitidos ou listas de domínios permitidos (políticas antispam)
 - Remetentes confiáveis do Outlook

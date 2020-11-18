@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75370cbbdfbc59bf8e9334d1e11d8b92c5c97e61
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 1b2fd7a18589932d56ea39722b48462d2a6eac2f
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087746"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131196"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -334,7 +334,7 @@ Os seguintes modos de exibição estão disponíveis:
   - **Reputação da URL do EOP**: reputação de URL mal-intencionado.
   - **Filtro de phishing geral**: sinais de phishing com base em regras de analista.
   - **Outros**
-  - **Phish zap**<sup>2</sup>: mensagens de phishing de limpeza automática de zero hora.
+  - **Phish zap**<sup>2</sup>: limpeza automática de zero hora de mensagens de phishing.
   - **URL acionamento**<sup>1</sup>
   - **Representação de usuário**<sup>1</sup>: representação de usuários definidos por administrador ou aprendidos por meio da inteligência de caixa de correio.
 

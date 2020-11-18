@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: e933769b6bce9eb10765fb2b58025445432bed18
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c495be3f5a90ca96f9a7a05513df9438f88910ad
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845463"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131316"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção anti-phishing
 
@@ -39,7 +39,7 @@ Se sua assinatura incluir o Microsoft defender para Office 365, você poderá us
 
 - [Anexos seguros no Microsoft defender para Office 365](set-up-atp-safe-attachments-policies.md)
 
-- [Políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo** , **mais agressivo** ou **mais agressivo**.
+- [Políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo**, **mais agressivo** ou **mais agressivo**.
 
 Verifique se esses recursos do defender for Office 365 estão ativados.
 
@@ -51,13 +51,13 @@ Relatar mensagens de phishing é útil para ajustar os filtros usados para prote
 
 Você pode examinar os cabeçalhos da mensagem de phishing para ver se há algo que você pode fazer sozinho para evitar que mais mensagens de phishing sejam recebidas. Em outras palavras, examinar os cabeçalhos das mensagens pode ajudá-lo a identificar quaisquer configurações na sua organização que foram responsáveis por permitir as mensagens de phishing no.
 
-Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antispam-Report** nos cabeçalhos da mensagem para obter indicações de spam ignorado ou filtragem de phishing no valor de filtragem de spam veredicto (SFV). As mensagens que ignoram a filtragem terão uma entrada do `SCL:-1` , o que significa que uma de suas configurações permitia essa mensagem substituindo o spam ou phishing verdicts que foram determinados pelo serviço. Para obter mais informações sobre como obter cabeçalhos de mensagem e a lista completa de todos os cabeçalhos de mensagens antispam e anti-phishing disponíveis, consulte [anti-spam de cabeçalhos de mensagens no Microsoft 365](anti-spam-message-headers.md).
+Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antispam-Report** nos cabeçalhos da mensagem para obter indicações de filtragem ignorada de spam ou phishing no valor de filtragem de spam veredicto (SFV). As mensagens que ignoram a filtragem terão uma entrada do `SCL:-1` , o que significa que uma de suas configurações permitia essa mensagem substituindo os verdicts de spam ou phishing que foram determinados pelo serviço. Para obter mais informações sobre como obter cabeçalhos de mensagem e a lista completa de todos os cabeçalhos de mensagens antispam e anti-phishing disponíveis, consulte [anti-spam de cabeçalhos de mensagens no Microsoft 365](anti-spam-message-headers.md).
 
 ## <a name="best-practices-to-stay-protected"></a>Práticas recomendadas para permanecer protegidas
 
 - Mensalmente, execute a [Pontuação segura](../mtp/microsoft-secure-score.md) para avaliar as configurações de segurança da sua organização.
 
-- Para mensagens que terminam em quarentena por engano, ou para mensagens permitidas pelo, recomendamos que você pesquise essas mensagens no [Gerenciador de ameaças e nas detecções em tempo real](threat-explorer.md). Você pode pesquisar por remetente, destinatário ou ID da mensagem. Após localizar a mensagem, acesse os detalhes clicando no assunto. Para uma mensagem em quarentena, procure ver o que é a "tecnologia de detecção", para que você possa usar o método apropriado para substituir. Para obter uma mensagem permitida, procure ver qual política permitiu a mensagem. 
+- Para mensagens que terminam em quarentena por engano, ou para mensagens permitidas pelo, recomendamos que você pesquise essas mensagens no [Gerenciador de ameaças e nas detecções em tempo real](threat-explorer.md). Você pode pesquisar por remetente, destinatário ou ID da mensagem. Após localizar a mensagem, acesse os detalhes clicando no assunto. Para uma mensagem em quarentena, procure ver o que é a "tecnologia de detecção", para que você possa usar o método apropriado para substituir. Para obter uma mensagem permitida, procure ver qual política permitiu a mensagem.
 
 - Email falsificado está marcado como phishing no defender para Office 365. Às vezes, a falsificação é benigna e, às vezes, os usuários não a querem colocar em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md). Depois de revisar e fazer as substituições necessárias, você pode ter certeza de [Configurar a inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) para **colocar em quarentena** mensagens suspeitas em vez de entregá-las na pasta lixo eletrônico do usuário.
 
@@ -65,7 +65,7 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
 - Revise periodicamente o [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).
 
-- Alguns clientes acidentalmente permitem mensagens de phishing por meio da colocação de seus próprios domínios na lista permitir remetente ou permitir domínio em políticas antispam. Embora essa configuração permita algumas mensagens legítimas, também permitirá mensagens mal-intencionadas que normalmente serão bloqueadas pelos filtros spam e/ou phishing. Em vez de permitir o domínio, você deve corrigir o problema subjacente.
+- Alguns clientes acidentalmente permitem mensagens de phishing por meio da colocação de seus próprios domínios na lista permitir remetente ou permitir domínio em políticas antispam. Embora essa configuração permita algumas mensagens legítimas, também permitirá mensagens mal-intencionadas que, normalmente, serão bloqueadas pelos filtros spam e/ou phishing. Em vez de permitir o domínio, você deve corrigir o problema subjacente.
 
   A melhor maneira de lidar com mensagens legítimas bloqueadas pelo Microsoft 365 (falsos positivos) que envolvem remetentes em seu domínio é configurar completamente e completamente os registros SPF, DKIM e DMARC no DNS para _todos os_ seus domínios de email:
 
@@ -74,8 +74,8 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
   - Use a falha de hardware ( \- tudo) para garantir que os remetentes não autorizados sejam rejeitados por sistemas de email configurados para fazer isso. Você pode usar a [inteligência de falsificação](learn-about-spoof-intelligence.md) para ajudar a identificar remetentes que estejam usando seu domínio para que você possa incluir remetentes de terceiros autorizados em seu registro SPF.
 
   Para obter instruções de configuração, consulte:
-  
-  - [Configurar o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+
+  - [Configurar o SPF para ajudar a prevenir falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   - [Usar o DKIM para validar emails enviados de seu domínio personalizado](use-dkim-to-validate-outbound-email.md)
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar no Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c57689cc6e626b62ae976bac9f9771205431bc8a
-ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
+ms.openlocfilehash: afc01ea88e9a2de6550741dcaac105ef764a752f
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48370397"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131126"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de descoberta eletrônica
 
@@ -219,6 +219,8 @@ Os filtros de permissões de pesquisa também permitem que você controle onde o
     |JPN  <br/> |Pacífico Asiático  <br/> |
     |IND  <br/> |Pacífico Asiático  <br/> |
     |LAM  <br/> |Unidos  <br/> |
+    |ASSIM  <br/> |Europa |
+    |BRA  <br/> |Data centers da América do Norte |
     |||
 
    Se você não especificar o parâmetro **Region** para um filtro de permissões de pesquisa, a região principal do SharePoint da organização será pesquisada. Os resultados da pesquisa são exportados para o datacenter mais próximo.
