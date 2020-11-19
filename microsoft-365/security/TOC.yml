@@ -169,7 +169,9 @@
                       href: mtp/advanced-hunting-alertinfo-table.md
                     - name: AppFileEvents
                       href: mtp/advanced-hunting-appfileevents-table.md
-                    - name: DeviceEvents
+                    - name: CloudAppEvents
+                      href: mtp/advanced-hunting-cloudappevents-table.md
+                    - name: Eventos do dispositivo
                       href: mtp/advanced-hunting-deviceevents-table.md
                     - name: DeviceFileCertificateInfo
                       href: mtp/advanced-hunting-devicefilecertificateinfo-table.md
@@ -430,8 +432,6 @@
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
             - name: Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: Marcas de usuário no Defender para Office 365
-              href: ./office-365-security/user-tags.md
             - name: S/MIME
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
               items:
