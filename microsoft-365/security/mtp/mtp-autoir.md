@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: d17bd49206bcdef9f60a4873c642179165753887
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2b8872288291adc0b9fc5e1c1541f885711df230
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843679"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356698"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Investigação e resposta automatizadas no Microsoft 365 defender
 
@@ -34,7 +34,10 @@ ms.locfileid: "48843679"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
+
+> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+>
 
 Como os alertas de segurança são disparados, a equipe de operações de segurança pode examinar os alertas e realizar etapas para proteger sua organização. Priorizar e investigar alertas pode consumir muito tempo, especialmente quando novos alertas continuam chegando enquanto uma investigação está em andamento. As equipes de operações de segurança podem se sentir sobrecarregadas pelo simples volume de ameaças que devem ser monitoradas e protegidas. Os recursos de investigação e resposta automatizados, com auto-recuperação, no Microsoft 365 defender podem ajudar.
 
@@ -46,7 +49,7 @@ No Microsoft 365 defender, a investigação e a resposta automatizadas com recur
 - [Investigação e correção automatizadas no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 - [Investigação e resposta automatizadas no Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
 - [Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
+- [Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
  
 Este artigo descreve como funciona a investigação e a resposta automatizadas. Para configurar esses recursos, consulte [Configure Automated Investigation and Response Capabilities in Microsoft 365 defender](mtp-configure-auto-investigation-response.md).
 
@@ -70,9 +73,9 @@ Um alerta disparado cria um incidente, que pode iniciar uma investigação autom
 |Entidades |Serviços de proteção contra ameaças  |
 |---------|---------|
 |Dispositivos (também chamados de pontos de extremidade)     |[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Microsoft Defender para Identidade](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
-|Conteúdo de email (arquivos e mensagens nas caixas de correio)     |[Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
+|Conteúdo de email (arquivos e mensagens nas caixas de correio)     |[Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-Cada investigação gera verdicts ( *mal-intencionado* , *suspeito* ou *nenhuma ameaça encontrada* ) para cada evidência investigada. Dependendo do tipo de ameaça e veredicto resultante, as ações de correção ocorrerão automaticamente ou após a aprovação da equipe de operações de segurança da sua organização. As ações pendentes e concluídas estão listadas na [Central de ações](mtp-action-center.md).
+Cada investigação gera verdicts (*mal-intencionado*, *suspeito* ou *nenhuma ameaça encontrada*) para cada evidência investigada. Dependendo do tipo de ameaça e veredicto resultante, as ações de correção ocorrerão automaticamente ou após a aprovação da equipe de operações de segurança da sua organização. As ações pendentes e concluídas estão listadas na [Central de ações](mtp-action-center.md).
 
 Enquanto uma investigação está em execução, quaisquer outros alertas relacionados que surgirem são adicionados à investigação até que ela seja concluída. Se uma entidade incriminada for vista em outro lugar, a investigação automatizada expandirá seu escopo para incluir essa entidade, e um manual geral de segurança será executado. 
 

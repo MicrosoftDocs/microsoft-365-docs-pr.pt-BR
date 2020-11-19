@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Saiba como o treinamento de simulação de ataque no Microsoft 365 Security Center afeta os funcionários e obter informações sobre os resultados de simulação e treinamento.
-ms.openlocfilehash: 80b8c275d1d64dd3dbd6509309fb88cd641734e3
-ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
+ms.openlocfilehash: 6a8ee15f14475a1cebb169ab49bdb0f490c81345
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950978"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357346"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Obter insights por meio do treinamento de simulação de Ataque
 
@@ -54,4 +54,4 @@ A seção de ações recomendadas detalha as recomendações, conforme disponív
 
 ## <a name="related-links"></a>Links relacionados
 
-**Simulador de ataque** [crie uma simulação de ataque de phishing](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide) e [crie uma carga para treinar suas pessoas](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training-payloads?view=o365-worldwide)
+**Simulador de ataque** [crie uma simulação de ataque de phishing](attack-simulation-training.md) e [crie uma carga para treinar suas pessoas](attack-simulation-training-payloads.md)

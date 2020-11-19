@@ -14,21 +14,23 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: b88a06a61f1f7664f9c2e39ceba09df427f97454
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 824864ffd69a1f885c56a55957fc369fec4f640a
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844687"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357292"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Pontuação superior nos testes do setor
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+>
 
 O [Microsoft 365 defender](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) Technologies é consistentemente elevado em testes independentes, demonstrando a força de seus recursos de proteção de ameaças empresariais. A Microsoft pretende ser transparente sobre essas pontuações de teste. Esta página resume os resultados e fornece análise.
 
-## <a name="microsoft-365-defender"></a>Microsoft 365 defender
+## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
 [O Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) é um pacote de defesa unificado do Enterprise Defense. Ele coordena nativamente a detecção, a prevenção, a investigação e a resposta entre os pontos de extremidade, as identidades, os emails e os aplicativos para fornecer proteção integrada contra ataques sofisticados.
 

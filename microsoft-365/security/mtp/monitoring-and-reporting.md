@@ -17,17 +17,19 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e434f6088fa1cd08e6b14e3808007e89f32b83a3
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: d52c401c4b2e995e5ec18895c158f77ce0fce746
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431034"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356878"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Monitorar e exibir relatórios no centro de segurança do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+>
 
 O centro de segurança do Microsoft 365 fornece um resumo de status de proteção e segurança em seu ambiente do Microsoft 365.
 
@@ -42,7 +44,7 @@ Por padrão, os cartões são agrupados nessas categorias:
 * [Dispositivos](monitor-devices.md) -computadores, telefones celulares e outros dispositivos
 * [Aplicativos](monitor-apps.md) -programas e serviços online anexados
 
-Alterne para **Agrupar por tópico**para reorganizar os cartões e agrupá-los nos seguintes tópicos:
+Alterne para **Agrupar por tópico** para reorganizar os cartões e agrupá-los nos seguintes tópicos:
 
 * Cartões de **risco** que realçam entidades, como contas e dispositivos, que podem estar em risco. Esses cartões também realçam possíveis fontes de risco, como novas campanhas de ameaças e aplicativos de nuvem privilegiados  
 * **Tendências de detecção** -cartões que realçam novas detecções de ameaças, anomalias e violações de política

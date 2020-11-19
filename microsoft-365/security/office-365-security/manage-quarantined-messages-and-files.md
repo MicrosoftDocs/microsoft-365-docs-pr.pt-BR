@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários na proteção do Exchange Online (EOP). Os administradores nas organizações com o Microsoft defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
-ms.openlocfilehash: 94dfc8503d61c16aadc8e9d0ccfd295e2684fbba
-ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
+ms.openlocfilehash: fed05ee202e4352200a80516e0ec1b62c8421178
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349275"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357128"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -165,7 +165,7 @@ Após selecionar uma mensagem, você tem várias opções para o que fazer com a
   - Escolha uma das seguintes opções:
     - **Liberar mensagens para todos os destinatários**
     - **Liberar mensagens para destinatários específicos**
-    - **Liberar mensagens para outras pessoas**
+    - **Liberar mensagens para outras pessoas**: Observe que não há suporte para a liberação de mensagens de malware para pessoas que não sejam destinatários originais. 
 
   Quando terminar, clique em **Liberar mensagens**.
 
@@ -189,7 +189,7 @@ Após selecionar uma mensagem, você tem várias opções para o que fazer com a
 
   - **Tipo de objeto**: **email** (padrão), **URL** ou **anexo**.
 
-  - **Formato de envio**: **ID de mensagem de rede** (padrão, com o valor correspondente na caixa ID de mensagem de **rede** ) ou **arquivo** (navegue até um arquivo. eml ou. msg local). Observe que, se você selecionar **arquivo** e, em seguida, selecionar **ID de mensagem de rede**, o valor inicialmente será desperdido.
+  - **Formato de envio**: **ID de mensagem de rede** (padrão, com o valor correspondente na caixa ID de mensagem de **rede** ) ou **arquivo** (navegue até um arquivo. eml ou. msg local). Observe que, se você selecionar **arquivo** e selecionar **ID de mensagem de rede**, o valor inicial será desperdido.
 
   - **Destinatários**: digite no leasing um destinatário original da mensagem ou clique em **selecionar tudo** para identificar todos os destinatários. Você também pode clicar em **selecionar todos** e, em seguida, remover seletivamente destinatários individuais.
 
@@ -208,7 +208,7 @@ Quando você seleciona várias mensagens que estão em quarentena na lista (até
   > [!NOTE]
   > Considere o seguinte cenário: john@gmail.com envia uma mensagem para faith@contoso.com e john@subsidiary.contoso.com. O Gmail bifurcates esta mensagem em duas cópias que são direcionadas para quarentena como phishing no Microsoft. Um administrador libera essas duas mensagens para o admin@contoso.com. A primeira mensagem liberada que alcança a caixa de correio de administrador é entregue. A segunda mensagem liberada é identificada como entrega duplicada e é ignorada. A mensagem será identificada como duplicatas se elas tiverem a mesma ID de mensagem e o tempo de recebimento.
 
-- **Excluir mensagens**: depois de clicar em **Sim** no aviso que é exibido, a mensagem é imediatamente excluída sem ser enviada aos destinatários originais.
+- **Excluir mensagens**: depois de clicar em **Sim** no aviso que aparece, as mensagens são excluídas imediatamente sem serem enviadas aos destinatários originais.
 
 Quando terminar, clique em **Fechar**.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 defender
+title: Microsoft 365 Defender
 description: O Microsoft 365 defender é uma solução de proteção de ameaças coordenada projetada para proteger dispositivos, identidades, dados e aplicativos
 keywords: Introdução à proteção contra ameaças da Microsoft, segurança da CyberSource, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
@@ -19,22 +19,23 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: a8d25ba0b36ad6ba1651ffe19e3e2f6e241548c7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 573f30dc3d8a43a337a4333dbaf05baf916857fa
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843799"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357894"
 ---
-# <a name="microsoft-365-defender"></a>Microsoft 365 defender
+# <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-
+> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+>
 
 O Microsoft 365 defender é um pacote de defesa de negócios unificado de pré e pós-violação que coordena nativamente a detecção, prevenção, investigação e resposta entre pontos de extremidade, identidades, email e aplicativos para oferecer proteção integrada contra ataques sofisticados.
 
@@ -90,4 +91,4 @@ Os recursos entre produtos do Microsoft 365 defender incluem:
 ## <a name="get-started"></a>Introdução
 Os requisitos de licenciamento do Microsoft 365 defender devem ser atendidos para que você possa habilitar o serviço na central de segurança da Microsoft 365 em [Security.Microsoft.com](https://security.microsoft.com). Para obter mais informações, leia:
 - [Requisitos de licenciamento](prerequisites.md#licensing-requirements)
-- [Ativar o Microsoft 365 defender](mtp-enable.md)
+- [Ativar o Microsoft 365 Defender](mtp-enable.md)

@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores da China usando o Office 365 operado pela 21Vianet podem aprender a usar o proteção do Exchange Online (EOP) autônomo para proteger suas caixas de correio locais.
-ms.openlocfilehash: eb17b25db93aa50c6c390b5f79cdbd707762a0f9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9b91abec8d258df2b549cee1d538d2f65d2974ab
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202478"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356890"
 ---
 # <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Proteger caixas de correio locais na China com o EOP autônomo
 
@@ -36,7 +36,7 @@ ms.locfileid: "48202478"
 > [!NOTE]
 > Este artigo aplica-se somente ao Office 365 operado pela 21Vianet na China.
 
-Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no local, ainda poderá proteger as caixas de correio com o Exchange Online Protection (EOP). Para configurar conectores, sua conta deve ser um administrador global ou um administrador da empresa do Exchange (o grupo de funções Gerenciamento da organização). Para obter informações sobre como as permissões do Office 365 se relacionam às permissões do Exchange, consulte [atribuindo funções de administrador no Office 365 operado pela 21vianet](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet). Se todas as suas caixas de correio do Exchange estiverem no local, siga estas etapas para configurar o serviço EOP.
+Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no local, ainda poderá proteger as caixas de correio com o Exchange Online Protection (EOP). Para configurar conectores, sua conta deve ser um administrador global ou um administrador da empresa do Exchange (o grupo de funções Gerenciamento da organização). Para obter informações sobre como as permissões do Office 365 se relacionam às permissões do Exchange, consulte [atribuindo funções de administrador no Office 365 operado pela 21vianet](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet&preserve-view=true). Se todas as suas caixas de correio do Exchange estiverem no local, siga estas etapas para configurar o serviço EOP.
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Etapa 1: usar o centro de administração do Microsoft 365 para adicionar e verificar seu domínio
 
@@ -45,7 +45,7 @@ Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no l
 2. Siga as etapas no portal para adicionar os registros DNS aplicáveis ao seu provedor de Hospedagem de DNS, a fim de verificar a propriedade do domínio.
 
 > [!TIP]
-> [Adicione seu domínio e seus usuários ao office 365 operado pela 21vianet](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet) e [crie registros DNS para o Office 365 ao gerenciar seus registros DNS](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet) são recursos úteis para referência à medida que você adiciona seu domínio ao serviço e configura o DNS.
+> [Adicione seu domínio e seus usuários ao office 365 operado pela 21vianet](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet&preserve-view=true) e [crie registros DNS para o Office 365 ao gerenciar seus registros DNS](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet&preserve-view=true) são recursos úteis para referência à medida que você adiciona seu domínio ao serviço e configura o DNS.
 
 ### <a name="step-2-add-recipients-and-configure-the-domain-type"></a>Etapa 2: Adicionar destinatários e configurar o tipo de domínio
 

@@ -20,19 +20,19 @@ description: Saiba como integrar a investigação e a resposta automatizadas com
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: 8b08b441ca468b5efa1c4c003c636de2a43b3e7d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7b0b0570624b2e0dd40d40b178951a747698afe2
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844540"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357458"
 ---
 # <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>Usar a API de atividade de gerenciamento para soluções de relatórios personalizadas ou de terceiros
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Com [o Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp), você obtém [informações detalhadas sobre investigações automatizadas](air-view-investigation-results.md). No entanto, algumas organizações também usam uma solução de relatório personalizada ou de terceiros. Se sua organização quiser integrar as informações sobre investigações automatizadas a essa solução, você poderá usar a API da atividade de gerenciamento do Office 365.
+Com [o Microsoft defender para Office 365](office-365-atp.md), você obtém [informações detalhadas sobre investigações automatizadas](air-view-investigation-results.md). No entanto, algumas organizações também usam uma solução de relatório personalizada ou de terceiros. Se sua organização quiser integrar as informações sobre investigações automatizadas a essa solução, você poderá usar a API da atividade de gerenciamento do Office 365.
 
 Use os seguintes recursos para configurar isso:
 
@@ -46,8 +46,8 @@ Use os seguintes recursos para configurar isso:
 |[Esquema da API da Atividade de Gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|Obtenha uma visão geral do [esquema comum](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) e do [Defender for Office 365 e o esquema de resposta e investigação de ameaças](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) para saber mais sobre tipos específicos de dados disponíveis por meio da API de atividade de gerenciamento do Office 365.|
 |
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-- [Microsoft defender para Office 365](office-365-atp.md)
+- [Microsoft Defender para Office 365](office-365-atp.md)
 
 - [Investigação e resposta automatizadas no Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

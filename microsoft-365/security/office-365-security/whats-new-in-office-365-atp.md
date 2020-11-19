@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 5aa1d5fe14f6213931e089c2f97fcf06c96397b3
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 01a5e374396b1f7ef79dff436cd9ecc4e0c4abf1
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131138"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357232"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>O que há de novo no Microsoft defender para Office 365
 
@@ -41,11 +41,11 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft defende
 > [!TIP]
 > Ainda não tem o Microsoft defender para Office 365? [Entre em contato com vendas para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
-## <a name="november-2020"></a>Novembro de 2020 
+## <a name="november-2020"></a>Novembro de 2020
 
 - Limites de exportação atualizados em revisar > central de ações > correção de envio de email e log de ações (defender para Office 365 plano 2)
 
-## <a name="septemberoctober-2020"></a>Setembro/outubro de 2020 
+## <a name="septemberoctober-2020"></a>Setembro/outubro de 2020
 
 - [Verificar suas políticas usando o analisador de configuração](configuration-analyzer-for-security-policies.md)
 - [Substituir manualmente o filtro verdicts usando a lista de permissões/bloqueios de locatários](tenant-allow-block-list.md)
@@ -53,27 +53,27 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft defende
 - Ameaças de URL do revelar no [Explorador de ameaças](threat-explorer.md#threats-in-urls) (malware, Phish, spam ou nenhum) (defender para Office 365 plano 2)
 - [Aprimoramentos da experiência de busca do explorador de ameaças](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) com atualizações relacionadas a ameaças, ações adicionais, locais de entrega e exibição de linha do tempo atualizada (defender para Office 365 plano 2)
 
-## <a name="julyaugust-2020"></a>Julho/agosto de 2020 
+## <a name="julyaugust-2020"></a>Julho/agosto de 2020
 
 - [Aprimoramentos de experiência para a experiência de busca](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Microsoft defender para Office 365 plano 1 ou plano 2)
 - [Aplicar facilmente as configurações recomendadas usando políticas de segurança predefinidas](preset-security-policies.md) 
 
 ## <a name="marchapril-2020"></a>Março de abril de 2020
 
-- Agora, a capacidade de [lidar com contas de usuário comprometidas com investigação e resposta automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) está disponível. (Microsoft defender para Office 365 plano 2)
+- Agora, a capacidade de [lidar com contas de usuário comprometidas com investigação e resposta automatizadas](address-compromised-users-quickly.md) está disponível. (Microsoft defender para Office 365 plano 2)
 
 ## <a name="januaryfebruary-2020"></a>Janeiro/fevereiro de 2020
 
 - [Disponibilidade geral de modos de exibição de campanha no Microsoft defender para office 365](campaigns.md) (Microsoft defender para Office 365 plano 2)
 - Aprimoramentos no [Gerenciador de ameaças](threat-explorer.md) para permitir que as equipes de operações de segurança pesquisem e filtrem vários campos ao [investigar emails](investigate-malicious-email-that-was-delivered.md): (Microsoft defender para Office 365 plano 2)
-    - Local de entrega e ações especiais
-    - Direcionalidade (entrada, saída ou intra-org)
-    - Avançado não filtra (são opções de filtragem avançadas que incluem o não contém, não inclui, etc.)
-    - Filtros de tempo granulares (dia, hora, meia hora) 
+  - Local de entrega e ações especiais
+  - Direcionalidade (entrada, saída ou intra-org)
+  - Avançado não filtra (são opções de filtragem avançadas que incluem o não contém, não inclui, etc.)
+  - Filtros de tempo granulares (dia, hora, meia hora)
 
 - O widget **incidentes** agora é o widget **central de ações** . (Para exibir seus widgets de segurança, no centro de conformidade de & de segurança, vá para **Gerenciamento**  >  de ameaças **Revisão**.) (Microsoft defender para Office 365 plano 2)
 
-- [Documentos seguros no Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(versão prévia)**
+- [Documentos seguros no Microsoft 365](safe-docs.md) **(versão prévia)**
 
 ## <a name="december-2019"></a>Dezembro de 2019
 

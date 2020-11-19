@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cb4d1a4c4632763506fd2d3b05431acb9233f744
-ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
+ms.openlocfilehash: 57164e08128080f90cb3985b3a3f887521f4c3d5
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071959"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126594"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)
 

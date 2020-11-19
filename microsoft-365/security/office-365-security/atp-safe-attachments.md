@@ -19,18 +19,18 @@ ms.collection:
 - m365initiative-defender-office365
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre o recurso de anexos seguros no Microsoft defender para Office 365.
-ms.openlocfilehash: d758db46f53be46d8213794f90bf8c462f9135e8
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: da3949a4520c52c7f5685efd109f8c976305ea06
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49020946"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357196"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Anexos seguros no Microsoft defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Anexos seguros no [Microsoft defender para Office 365](office-365-atp.md) fornece uma camada adicional de proteção para anexos de email que já foram verificados pela [proteção Antimalware no Exchange Online Protection (EOP)](anti-malware-protection.md). Especificamente, os anexos seguros usam um ambiente virtual para verificar anexos em mensagens de email antes de serem entregues aos destinatários (um processo conhecido como _acionamento_ ).
+Anexos seguros no [Microsoft defender para Office 365](office-365-atp.md) fornece uma camada adicional de proteção para anexos de email que já foram verificados pela [proteção Antimalware no Exchange Online Protection (EOP)](anti-malware-protection.md). Especificamente, os anexos seguros usam um ambiente virtual para verificar anexos em mensagens de email antes de serem entregues aos destinatários (um processo conhecido como _acionamento_).
 
 A proteção de anexos seguros para mensagens de email é controlada por políticas de anexos seguros. Não há nenhuma política de anexos seguros padrão, **portanto, para obter a proteção de anexos seguros, você precisa criar uma ou mais políticas de anexos seguros**. Para obter instruções, confira [Configurar políticas de anexos seguros no defender para Office 365](set-up-atp-safe-attachments-policies.md).
 
@@ -59,7 +59,7 @@ A verificação de anexos seguros ocorre na mesma região onde seus dados do Mic
 
 Esta seção descreve as configurações em políticas de anexos confiáveis:
 
-- **Anexos seguros resposta desconhecida de malware** : essa configuração controla a ação para verificação de malware de anexos seguros em mensagens de email. As opções disponíveis são descritas na tabela a seguir:
+- **Anexos seguros resposta desconhecida de malware**: essa configuração controla a ação para verificação de malware de anexos seguros em mensagens de email. As opções disponíveis são descritas na tabela a seguir:
 
   ****
 
@@ -69,24 +69,24 @@ Esta seção descreve as configurações em políticas de anexos confiáveis:
   |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Veja onde o malware detectado entra em sua organização.|
   |**Bloquear**|Impede que mensagens com anexos de malware detectados sejam entregues. <p> As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <p> Bloqueia automaticamente instâncias futuras das mensagens e dos anexos. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <p> Esse é o valor padrão e o valor recomendado em políticas de segurança padrão e estritas [predefinidas](preset-security-policies.md).|
   |**Replace**|Remove anexos detectados de malware. <p> Notifica os destinatários de que os anexos foram removidos. <p>  As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Aumente a visibilidade dos destinatários que os anexos foram removidos devido à detecção de malware.|
-  |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaços reservados até que a verificação de anexos seguros seja concluída. <p> Para obter detalhes, consulte a seção [entrega dinâmica em políticas de anexos seguros](#dynamic-delivery-in-safe-attachments-policies) , posteriormente neste tópico.|Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados <br/> <br/> Habilitar destinatários para visualizar anexos no modo de segurança enquanto a verificação está ocorrendo|
+  |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaços reservados até que a verificação de anexos seguros seja concluída. <p> Para obter detalhes, consulte a seção [entrega dinâmica em políticas de anexos seguros](#dynamic-delivery-in-safe-attachments-policies) , posteriormente neste tópico.|Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados. <p> Permite que os destinatários visualizem anexos no modo de segurança enquanto a verificação está ocorrendo.|
   |
 
-- **Redirecionar o anexo na detecção: habilitar o redirecionamento** e **enviar o anexo para o seguinte endereço de email** : para **Bloquear** , **monitorar** ou **substituir** ações, envie mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.
+- **Redirecionar o anexo na detecção: habilitar o redirecionamento** e **enviar o anexo para o seguinte endereço de email**: para **Bloquear**, **monitorar** ou **substituir** ações, envie mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.
 
   A recomendação para as configurações de política padrão e estrita é habilitar o redirecionamento. Para obter mais informações, consulte [configurações de anexos seguros](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings).
 
-- **Aplicar a seleção acima se a verificação de malware para anexos expirar ou ocorrer erro** : a ação especificada por **anexos seguros a resposta desconhecida** é tomada em mensagens, mesmo quando a verificação de anexos seguros não pode ser concluída. Sempre Selecione esta opção se você selecionar **habilitar redirecionamento**. Caso contrário, as mensagens poderão ser perdidas.
+- **Aplicar a seleção acima se a verificação de malware para anexos expirar ou ocorrer erro**: a ação especificada por **anexos seguros a resposta desconhecida** é tomada em mensagens, mesmo quando a verificação de anexos seguros não pode ser concluída. Sempre Selecione esta opção se você selecionar **habilitar redirecionamento**. Caso contrário, as mensagens poderão ser perdidas.
 
-- **Filtros de destinatário** : você precisa especificar as condições e exceções de destinatário que determinam a quem a política se aplica. Você pode usar essas propriedades para condições e exceções:
+- **Filtros de destinatário**: você precisa especificar as condições e exceções de destinatário que determinam a quem a política se aplica. Você pode usar essas propriedades para condições e exceções:
 
   - **O destinatário é**
   - **O domínio do destinatário é**
   - **O destinatário é um membro de**
 
-  Você só pode usar uma condição ou uma exceção uma vez, mas a condição ou exceção pode conter vários valores. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_ ). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_ ).
+  Você só pode usar uma condição ou uma exceção uma vez, mas a condição ou exceção pode conter vários valores. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
-- **Prioridade** : se você criar várias políticas, poderá especificar a ordem em que elas serão aplicadas. Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
+- **Prioridade**: se você criar várias políticas, poderá especificar a ordem em que elas serão aplicadas. Duas políticas não podem ter a mesma prioridade, e o processamento da política será interrompido após a primeira política ser aplicada.
 
   Para obter mais informações sobre a ordem de precedência e como várias políticas são avaliadas e aplicadas, confira [Ordem e precedência da proteção de email](how-policies-and-protections-are-combined.md).
 

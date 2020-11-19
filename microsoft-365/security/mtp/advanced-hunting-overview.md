@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 627791e9dc3d4bf18047a05734a4e275152d19da
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: bab055036a8e7fdcf88329413c9fd86269af2aaa
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845027"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357215"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Busca pró-ativa de ameaças com busca avançada no Microsoft 365 defender
 
@@ -33,7 +33,10 @@ ms.locfileid: "48845027"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
+
+> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+>
 
 A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar eventos de forma proativa em sua rede para localizar indicadores de ameaça e entidades. O acesso flexível aos dados permite uma busca irrestrita para ameaças conhecidas e potenciais.
 <p></p>
@@ -45,7 +48,7 @@ Você pode usar as mesmas consultas de busca de ameaças para criar regras de de
 Esse recurso é semelhante à [busca avançada no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview). Disponível na central de segurança do Microsoft 365, esse recurso oferece suporte a consultas que verificam um conjunto de dados mais amplo de:
 
 - Microsoft Defender para Ponto de Extremidade
-- Microsoft defender para Office 365
+- Microsoft Defender para Office 365
 - Segurança no aplicativo na nuvem da Microsoft
 - Microsoft Defender para Identidade
 
@@ -70,8 +73,8 @@ Para usar a busca avançada ou outros recursos [do Microsoft 365 defender](micro
 ## <a name="data-freshness-and-update-frequency"></a>Atualização de dados e frequência de atualização
 Dados de busca avançada podem ser categorizados em dois tipos distintos, cada um consolidado de forma diferente.
 
-- **Dados de evento ou atividade** — preenche tabelas sobre alertas, eventos de segurança, eventos do sistema e avaliações de rotina. A busca avançada recebe esses dados quase imediatamente após os sensores que os coletam com êxito para transmiti-los para os serviços de nuvem correspondentes. Por exemplo, você pode consultar dados de eventos de sensores saudáveis em estações de trabalho ou controladores de domínio quase imediatamente após estarem disponíveis no Microsoft defender for Endpoint e Microsoft defender para identidade.
-- **Dados da entidade** — preenche tabelas com informações sobre usuários e dispositivos. Esses dados são provenientes de fontes de dados relativamente estáticas e fontes dinâmicas, como entradas do Active Directory e logs de eventos. Para fornecer dados atualizados, as tabelas são atualizadas com qualquer informação nova a cada 15 minutos, adicionando linhas que podem não estar totalmente preenchidas. A cada 24 horas, os dados são consolidados para inserir um registro que contém o conjunto de dados mais recente e mais abrangente sobre cada entidade.
+- **Dados de evento ou atividade**— preenche tabelas sobre alertas, eventos de segurança, eventos do sistema e avaliações de rotina. A busca avançada recebe esses dados quase imediatamente após os sensores que os coletam com êxito para transmiti-los para os serviços de nuvem correspondentes. Por exemplo, você pode consultar dados de eventos de sensores saudáveis em estações de trabalho ou controladores de domínio quase imediatamente após estarem disponíveis no Microsoft defender for Endpoint e Microsoft defender para identidade.
+- **Dados da entidade**— preenche tabelas com informações sobre usuários e dispositivos. Esses dados são provenientes de fontes de dados relativamente estáticas e fontes dinâmicas, como entradas do Active Directory e logs de eventos. Para fornecer dados atualizados, as tabelas são atualizadas com qualquer informação nova a cada 15 minutos, adicionando linhas que podem não estar totalmente preenchidas. A cada 24 horas, os dados são consolidados para inserir um registro que contém o conjunto de dados mais recente e mais abrangente sobre cada entidade.
 
 ## <a name="time-zone"></a>Fuso horário
 As informações de tempo em busca avançada estão no fuso horário UTC.

@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a configuração de segurança por padrão no Exchange Online Protection (EOP)
-ms.openlocfilehash: 9f676dcd89f0322792bd40e06879b9758082d94e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 23c0cad2b96b3a2002f235db7739b903cf862366
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131092"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357858"
 ---
 # <a name="secure-by-default-in-office-365"></a>Seguro por padrão no Office 365
 
@@ -47,7 +47,7 @@ Como a Microsoft deseja manter nossos clientes seguros por padrão, alguns locat
 - Remetentes confiáveis do Outlook
 - Lista de permissões de IP (filtragem de conexão)
 
-Mais informações sobre essas substituições podem ser encontradas em [criar listas de remetentes seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365).
+Mais informações sobre essas substituições podem ser encontradas em [criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
 
 A segurança por padrão aqui não é uma configuração que possa ser ativada ou desativada, mas o modo como nossa filtragem funciona para manter mensagens potencialmente perigosas ou indesejadas fora de suas caixas de correio. Malware e phishing de alta confiança devem ser enviados para a quarentena. Somente os administradores podem gerenciar mensagens que foram colocadas em quarentena como malware ou phishing de alta confiança e também podem relatar falsos positivos para a Microsoft. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no EOP](manage-quarantined-messages-and-files.md)
 

@@ -17,18 +17,18 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 653bd90fb68eb42423d5f32633736bba4b5943b4
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 7e8104e234bd1b724bc62fb1a9b401ab83a2bcb4
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464307"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357522"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger sites e arquivos do SharePoint
 
 Este artigo descreve como implementar a identidade recomendada e as políticas de acesso a dispositivos para proteger o SharePoint e o OneDrive for Business. Este guia é baseado nas [políticas comuns de acesso de dispositivo e identidade](identity-access-policies.md).
 
-Essas recomendações são baseadas em três camadas diferentes de segurança e proteção para arquivos do SharePoint que podem ser aplicadas com base na granularidade das suas necessidades: **Baseline**, **sensitive**e **High Regulation**. Você pode saber mais sobre essas camadas de segurança e os sistemas operacionais de cliente recomendados, mencionados por essas recomendações na [visão geral](microsoft-365-policies-configurations.md).
+Essas recomendações são baseadas em três camadas diferentes de segurança e proteção para arquivos do SharePoint que podem ser aplicadas com base na granularidade das suas necessidades: **Baseline**, **sensitive** e **High Regulation**. Você pode saber mais sobre essas camadas de segurança e os sistemas operacionais de cliente recomendados, mencionados por essas recomendações na [visão geral](microsoft-365-policies-configurations.md).
 
 Além de implementar essas orientações, não deixe de configurar os sites do SharePoint com a quantidade certa de proteção, incluindo a definição de permissões apropriadas para conteúdo confidencial e altamente regulamentado.
 
@@ -47,17 +47,18 @@ As novas políticas implementam a proteção de dispositivos para conteúdos con
 A tabela a seguir lista as políticas que você precisa analisar e atualizar ou criar novas para o SharePoint. O link de políticas comuns para as instruções de configuração associadas no artigo [Common Identity and Device Access Policies](identity-access-policies.md) .
 
 |Nível de Proteção|Políticas|Mais informações|
-|:---------------|:-------|:----------------|
+|---|---|---|
 |**Baseline**|[Exigir MFA quando o risco de entrada for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint na atribuição de aplicativos em nuvem.|
-|        |[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o SharePoint na atribuição de aplicativos em nuvem.|
-|        |[Aplicar políticas de proteção de dados do aplicativo](identity-access-policies.md#apply-app-data-protection-policies)|Certifique-se de que todos os aplicativos recomendados estão incluídos na lista de aplicativos. Certifique-se de atualizar a política para cada plataforma (iOS, Android, Windows).|
-|        |[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Incluir o SharePoint na lista de aplicativos em nuvem.|
-|        |[Usar restrições impostas pelo aplicativo no SharePoint](#use-app-enforced-restrictions-in-sharepoint)|Adicione essa nova política. Isso informa ao Azure Active Directory (Azure AD) para usar as configurações especificadas no SharePoint. Essa política se aplica a todos os usuários, mas afeta apenas o acesso aos sites incluídos nas políticas de acesso do SharePoint.|
+||[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o SharePoint na atribuição de aplicativos em nuvem.|
+||[Aplicar políticas de proteção de dados do aplicativo](identity-access-policies.md#apply-app-data-protection-policies)|Certifique-se de que todos os aplicativos recomendados estão incluídos na lista de aplicativos. Certifique-se de atualizar a política para cada plataforma (iOS, Android, Windows).|
+||[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Incluir o SharePoint na lista de aplicativos em nuvem.|
+||[Usar restrições impostas pelo aplicativo no SharePoint](#use-app-enforced-restrictions-in-sharepoint)|Adicione essa nova política. Isso informa ao Azure Active Directory (Azure AD) para usar as configurações especificadas no SharePoint. Essa política se aplica a todos os usuários, mas afeta apenas o acesso aos sites incluídos nas políticas de acesso do SharePoint.|
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint nas atribuições de aplicativos em nuvem.|
-|         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Inclua o SharePoint na lista de aplicativos em nuvem.|
+||[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Inclua o SharePoint na lista de aplicativos em nuvem.|
 ||[Política de controle de acesso do SharePoint](#sharepoint-access-control-policies): permitir acesso somente ao navegador para sites específicos do SharePoint de dispositivos não gerenciados.|Isso impede a edição e o download de arquivos. Use o PowerShell para especificar sites.|
 |**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint na atribuição de aplicativos em nuvem.|
 ||[Política de controle de acesso do SharePoint](#use-app-enforced-restrictions-in-sharepoint): bloquear o acesso a sites do SharePoint específicos de dispositivos não gerenciados.|Use o PowerShell para especificar sites.|
+|
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint"></a>Usar restrições impostas pelo aplicativo no SharePoint
 
@@ -98,4 +99,3 @@ Configure as políticas de acesso condicional para:
 
 - [Microsoft Teams](teams-access-policies.md)
 - [Exchange Online](secure-email-recommended-policies.md)
-

@@ -14,19 +14,19 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos de investigação e resposta automatizados no Microsoft defender para Office 365 plano 2.
-ms.openlocfilehash: 0da065bea17796d09de771a767991804afb5335b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 80e4529f864d83d2a1711007f0f095de39955e68
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844591"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357900"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Endereçar contas de usuário comprometidas com investigação e resposta automatizadas
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[O Microsoft defender para Office 365 plano 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) inclui recursos avançados de [investigação e resposta automatizada](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (Air). Esses recursos podem economizar sua equipe de operações de segurança muito tempo e esforço lidando com ameaças. A Microsoft continua a melhorar os recursos de segurança. Recentemente, os recursos de ar foram aprimorados para incluir um guia de segurança de usuário comprometido (atualmente em versão prévia). Leia este artigo para saber mais sobre o guia de segurança de usuário comprometido. E veja a velocidade da postagem do blog [para detectar e responder ao escopo do usuário e limitar o escopo de violação com o Microsoft defender para Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) para obter mais detalhes.
+[O Microsoft defender para Office 365 plano 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) inclui recursos avançados de [investigação e resposta automatizada](office-365-air.md) (Air). Esses recursos podem economizar sua equipe de operações de segurança muito tempo e esforço lidando com ameaças. A Microsoft continua a melhorar os recursos de segurança. Recentemente, os recursos de ar foram aprimorados para incluir um guia de segurança de usuário comprometido (atualmente em versão prévia). Leia este artigo para saber mais sobre o guia de segurança de usuário comprometido. E veja a velocidade da postagem do blog [para detectar e responder ao escopo do usuário e limitar o escopo de violação com o Microsoft defender para Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) para obter mais detalhes.
 
 ![Investigação automatizada para um usuário comprometido](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -59,7 +59,7 @@ Quando uma conta de usuário é comprometida, os alertas são acionados. E, em a
 - [Exibir detalhes sobre investigações automatizadas](#view-details-about-automated-investigations)
 
 > [!IMPORTANT]
-> Você deve ter as permissões apropriadas para executar as tarefas a seguir. Confira [as permissões necessárias para usar os recursos de ar](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities).
+> Você deve ter as permissões apropriadas para executar as tarefas a seguir. Confira [as permissões necessárias para usar os recursos de ar](office-365-air.md#required-permissions-to-use-air-capabilities).
 
 ### <a name="view-and-investigate-restricted-users"></a>Exibir e investigar usuários restritos
 
@@ -73,31 +73,32 @@ Você tem algumas opções para navegar para uma lista de usuários restritos. P
 
    ![Widget outros alertas](/microsoft-365/media/office365atp-otheralertswidget.jpg)
 
-   Isso abre a lista de usuários restritos.<br/>![Usuários restritos no Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
+   Isso abre a lista de usuários restritos.
 
-4. Selecione uma conta de usuário na lista para exibir detalhes e executar ação, como [liberar o usuário restrito](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam).
+   ![Usuários restritos no Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
+
+4. Selecione uma conta de usuário na lista para exibir detalhes e executar ação, como [liberar o usuário restrito](removing-user-from-restricted-users-portal-after-spam.md).
 
 ### <a name="view-details-about-automated-investigations"></a>Exibir detalhes sobre investigações automatizadas
 
 Quando uma investigação automatizada começou, você poderá ver seus detalhes e resultados no centro de conformidade & segurança. Vá para **Threat management**  >  **investigações** de gerenciamento de ameaças e selecione uma investigação para exibir seus detalhes.
 
-Para saber mais, confira [Exibir detalhes de uma investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results).
+Para saber mais, confira [Exibir detalhes de uma investigação](air-view-investigation-results.md).
 
 ## <a name="keep-the-following-points-in-mind"></a>Tenha em mente os seguintes pontos
 
 - **Fique em cima dos alertas**. Como você sabe, quanto mais tempo um compromisso não for detectado, maior será o potencial de impacto e custo amplos para sua organização, clientes e parceiros. A detecção antecipada e a resposta oportuna são fundamentais para reduzir as ameaças e, especialmente, quando a conta de um usuário é comprometida.
 
-- **A automação auxilia, mas não substitui, sua equipe de operações de segurança**. Os recursos de investigação e resposta automatizados podem detectar um usuário comprometido logo no início, mas sua equipe de operações de segurança provavelmente precisará participar e realizar algumas investigações e remediação. Precisa de ajuda para isso? Consulte [revisar e aprovar ações](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air#review-and-approve-actions).
+- **A automação auxilia, mas não substitui, sua equipe de operações de segurança**. Os recursos de investigação e resposta automatizados podem detectar um usuário comprometido logo no início, mas sua equipe de operações de segurança provavelmente precisará participar e realizar algumas investigações e remediação. Precisa de ajuda para isso? Consulte [revisar e aprovar ações](air-review-approve-pending-completed-actions.md).
 
 - **Não confie em um alerta de login suspeito como seu único indicador**. Quando uma conta de usuário é comprometida, ela pode ou não disparar um alerta de login suspeito. Às vezes, é a série de atividades que ocorrem após o comprometimento de uma conta que dispara um alerta. Quer saber mais sobre os alertas? Consulte [políticas de alerta](https://docs.microsoft.com/microsoft-365/compliance/alert-policies).
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Revise as permissões necessárias para usar os recursos de ar](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities)
+- [Revise as permissões necessárias para usar os recursos de ar](office-365-air.md#required-permissions-to-use-air-capabilities)
 
-- [Encontre e investigue emails mal-intencionados no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered?view=o365-worldwide)
+- [Encontre e investigue emails mal-intencionados no Office 365](investigate-malicious-email-that-was-delivered.md)
 
 - [Saiba mais sobre o AIR no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 - [Visite o mapa do Microsoft 365 para ver o que está chegando em breve e distribuir](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-

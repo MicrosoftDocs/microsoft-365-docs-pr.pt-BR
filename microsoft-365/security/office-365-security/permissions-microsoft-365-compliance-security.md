@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Usando a central de segurança do Microsoft 365 ou o centro de conformidade da Microsoft 365, você pode gerenciar as permissões centralmente para todas as tarefas relacionadas à segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f7dcddd7070f95ae61b17b9623dfcbab4a62e5f
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: a6c0ceee2b07dd93affc75fae1111aad9d7f5198
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920627"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357870"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Permissões novo centro de segurança do Microsoft 365 e no centro de conformidade do Microsoft 365
 
@@ -172,7 +172,7 @@ Ao atribuir um usuário a uma das funções de administrador de conformidade ou 
 
 |Serviço Microsoft 365|Informações sobre a função|
 |---|---|
-|Funções de administrador no Office 365 e Microsoft 365 para planos de negócios|[Funções de administrador do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
+|Funções de administrador no Office 365 e Microsoft 365 para planos de negócios|[Funções de administrador do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Azure AD (Azure Active Directory) e Azure AD Identity Protection|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Defender para Identidade|[grupos de funções do Microsoft Defender para Identidade](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Proteção de Informações do Azure|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|

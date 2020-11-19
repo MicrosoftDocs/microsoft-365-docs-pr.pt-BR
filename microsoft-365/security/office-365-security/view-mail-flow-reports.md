@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: 807166ea0c6ea8a26716bc7017387499382c9e7e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 840b9920fc3f994140702eae0bf5ddbdeac4b465
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131328"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357918"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
@@ -541,7 +541,7 @@ Para exibir e usar os relatórios, você precisa ser membro do grupo de função
 
   – Gerenciamento de organização-administrador de segurança (você também pode fazer isso no [centro de administração do Azure Active Directory](https://aad.portal.azure.com) -leitor de segurança
 
-  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
 - No Exchange Online, você precisa ser membro de um dos grupos de função a seguir:
 

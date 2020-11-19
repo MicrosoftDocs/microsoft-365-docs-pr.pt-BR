@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem aprender a usar os novos domínios que estão sendo encaminhados para a percepção de email no painel de fluxo de emails no centro de conformidade de & de segurança para investigar quando seus usuários estão encaminhando mensagens para domínios externos que nunca foram encaminhadas para o.
-ms.openlocfilehash: f2d8c9229062cbef0ad90b3d0fd843d6588a08dc
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: a72ffd001ea22972d9dc6c00af8a4dd7881386b7
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920556"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356938"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Novos domínios que estão sendo encaminhados informações de email no centro de conformidade e segurança &
 
@@ -25,7 +25,7 @@ ms.locfileid: "48920556"
 
 Há motivos comerciais válidos para encaminhar mensagens de email para destinatários externos em domínios específicos. No entanto, é suspeito quando os usuários em sua organização começam a encaminhar mensagens para um domínio em que ninguém em sua organização tenha encaminhado mensagens para (um novo domínio).
 
-Essa condição pode indicar que as contas de usuário estão comprometidas. Se você suspeitar que as contas foram comprometidas, confira [responder a uma conta de email comprometida](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
+Essa condição pode indicar que as contas de usuário estão comprometidas. Se você suspeitar que as contas foram comprometidas, confira [responder a uma conta de email comprometida](responding-to-a-compromised-email-account.md).
 
 Os **novos domínios que estão sendo encaminhados** informações de email no [centro de conformidade e segurança &](https://protection.office.com) o notifica quando os usuários de sua organização estão encaminhando mensagens para novos domínios.
 

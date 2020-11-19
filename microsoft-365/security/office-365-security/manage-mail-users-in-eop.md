@@ -1,5 +1,5 @@
 ---
-title: Gerenciar usuários de e-mail no EOP autônomo
+title: Gerenciar usuários de email no EOP autônomo
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Saiba mais sobre como gerenciar usuários de email na proteção do Exchange Online (EOP), incluindo o uso da sincronização de diretórios, da Eat e do PowerShell para gerenciar usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56e6f8955b5993fb4b5064aa92cdde80a4c67ffe
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3c3e69def731a85c0dccffdcb5620560dcf00052
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201778"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356722"
 ---
-# <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de e-mail no EOP autônomo
+# <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de email no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,7 +34,7 @@ O método recomendado para criar e gerenciar usuários de email no EOP autônomo
 
 Para organizações EOP autônomas com um pequeno número de usuários, você pode adicionar e gerenciar usuários de email no centro de administração do Exchange (Eat) ou no EOP PowerShell autônomo, conforme descrito neste tópico.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para abrir o centro de administração do Exchange (Eat), confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
@@ -63,7 +63,7 @@ Para organizações EOP autônomas com um pequeno número de usuários, você po
 
    - **Sobrenome**
 
-   - <sup>\*</sup>**Nome para exibição**: por padrão, essa caixa mostra os valores das **caixas nome**, **iniciais**e **sobrenome** . Você pode aceitar esse valor ou alterá-lo. O valor deve ser exclusivo e ter um comprimento máximo de 64 caracteres.
+   - <sup>\*</sup>**Nome para exibição**: por padrão, essa caixa mostra os valores das **caixas nome**, **iniciais** e **sobrenome** . Você pode aceitar esse valor ou alterá-lo. O valor deve ser exclusivo e ter um comprimento máximo de 64 caracteres.
 
    - <sup>\*</sup>**Alias**: Insira um alias exclusivo, usando até 64 caracteres, para o usuário
 
@@ -258,11 +258,11 @@ No EOP autônomo, a sincronização de diretórios está disponível para client
 
 - A sincronização de diretório é recomendada para uso com os seguintes recursos:
 
-  - Listas **de remetentes seguros do Outlook e listas de remetentes bloqueados**: quando sincronizado com o serviço, essas listas terão precedência sobre a filtragem de spam no serviço. Isso permite que os usuários gerenciem sua própria lista de remetentes confiáveis e a lista de remetentes bloqueados com entradas de domínio e remetentes individuais. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes).
+  - Listas **de remetentes seguros do Outlook e listas de remetentes bloqueados**: quando sincronizado com o serviço, essas listas terão precedência sobre a filtragem de spam no serviço. Isso permite que os usuários gerenciem sua própria lista de remetentes confiáveis e a lista de remetentes bloqueados com entradas de domínio e remetentes individuais. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).
 
   - **Bloqueio de borda baseado em diretório (DBEB)**: para obter mais informações sobre o DBEB, confira [usar o bloqueio de borda baseado em diretório para rejeitar mensagens enviadas a destinatários inválidos](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking).
 
-  - **Acesso de usuário final à quarentena**: para acessar suas mensagens em quarentena, os destinatários devem ter uma ID de usuário e senha válidas no serviço. Para obter mais informações sobre quarentena, consulte [Localizar e liberar mensagens em quarentena como um usuário](https://docs.microsoft.com/microsoft-365/security/office-365-security/find-and-release-quarantined-messages-as-a-user).
+  - **Acesso de usuário final à quarentena**: para acessar suas mensagens em quarentena, os destinatários devem ter uma ID de usuário e senha válidas no serviço. Para obter mais informações sobre quarentena, consulte [Localizar e liberar mensagens em quarentena como um usuário](find-and-release-quarantined-messages-as-a-user.md).
 
   - **Regras de fluxo de emails (também conhecidas como regras de transporte)**: quando você usa a sincronização de diretório, os usuários e grupos existentes do Active Directory são carregados automaticamente para a nuvem e você pode criar regras de fluxo de email que se destinam a usuários e/ou grupos específicos sem precisar adicioná-los manualmente no serviço. Observe que os [grupos dinâmicos de distribuição](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) não podem ser sincronizados através da sincronização de diretório.
 

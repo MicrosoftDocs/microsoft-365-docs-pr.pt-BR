@@ -17,18 +17,19 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 97dece3f3c732686cff885923532af14b6106b48
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 70fd278dd4cdeadd5e8911705ac3f87d981a3de0
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906831"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356866"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
+> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+>
 Gerenciar a segurança de sua empresa para proteger-se contra um panorama de ameaças em constante evolução traz muitos desafios. Você pode ter muitas soluções de segurança com vários lugares para configurar vários controles. Você pode se empenhar em saber quais são os controles mais eficientes e o que apresentará novos desafios para a sua força de funcionários. Pode ser difícil para as equipes de segurança encontrar o equilíbrio certo de segurança e produtividade.
 
 Insira o centro de segurança do Microsoft 365-a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos, aplicativos e infraestrutura da Microsoft. Aqui você pode facilmente exibir a integridade de segurança da sua organização, agir para configurar dispositivos, usuários e aplicativos e obter alertas sobre atividades suspeitas. A central de segurança do Microsoft 365 destina-se a ajudar os administradores de segurança e as operações de segurança a gerenciar e proteger sua organização.

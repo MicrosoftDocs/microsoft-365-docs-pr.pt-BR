@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem aprender a usar os novos usuários que estão encaminhando informações de email no centro de conformidade de & de segurança para investigar quando os usuários de sua organização estão encaminhando mensagens para novos domínios.
-ms.openlocfilehash: af66a84efbd4c0b8f1ccdacf4b71d1caca1c3929
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 22bbd762b221fae151a489aa1e9485dfc7baf06a
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877520"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357268"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Novos usuários encaminhando informações de email no centro de conformidade e segurança &
 
@@ -25,7 +25,7 @@ ms.locfileid: "48877520"
 
 É suspeito quando novas contas de usuário em sua organização começam a encaminhar mensagens de email para domínios externos de repente.
 
-Os **novos domínios que estão sendo encaminhados** informações de email no [centro de conformidade e segurança &](https://protection.office.com) notifica você quando os usuários recém-criados em sua organização estão encaminhando mensagens para domínios externos. Essa condição pode indicar que contas de administrador comprometidas foram usadas para criar novos usuários. Se você suspeitar que as contas foram comprometidas, confira [responder a uma conta de email comprometida](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
+Os **novos domínios que estão sendo encaminhados** informações de email no [centro de conformidade e segurança &](https://protection.office.com) notifica você quando os usuários recém-criados em sua organização estão encaminhando mensagens para domínios externos. Essa condição pode indicar que contas de administrador comprometidas foram usadas para criar novos usuários. Se você suspeitar que as contas foram comprometidas, confira [responder a uma conta de email comprometida](responding-to-a-compromised-email-account.md).
 
 Essa percepção aparece somente quando o problema é detectado e aparece na página de [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) .
 
@@ -59,11 +59,11 @@ Este relatório não está disponível diretamente no [painel de fluxo de emails
 
 Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
-- **Mostrar dados de: novos usuários de encaminhamento** :
+- **Mostrar dados de: novos usuários de encaminhamento**:
 
   ![Novo modo de exibição de usuários de encaminhamento no relatório de alterações de encaminhamento](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
-- **Mostrar dados para: novos domínios de encaminhamento** :
+- **Mostrar dados para: novos domínios de encaminhamento**:
 
   ![Exibição de novos domínios encaminhados no relatório de alterações de encaminhamento](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
@@ -71,20 +71,20 @@ Se você clicar em **filtros** em um modo de exibição de relatório, poderá e
 
 ### <a name="details-table-view-for-the-forwarding-modifications-report"></a>Exibição da tabela de detalhes para o relatório de alterações de encaminhamento
 
-Se você clicar em **Exibir tabela de detalhes** , as informações mostradas dependem do gráfico que você estava observando:
+Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
 
-- **Mostrar dados de: novos usuários de encaminhamento** :
+- **Mostrar dados de: novos usuários de encaminhamento**:
 
-  - **Name** : o endereço de email do remetente.
+  - **Name**: o endereço de email do remetente.
   - **Tipo de encaminhamento**
   - **Endereço do destinatário**
   - **Detalhes**
   - **Count**
   - **Primeira data de encaminhamento**
 
-- **Mostrar dados para: novos domínios de encaminhamento** :
+- **Mostrar dados para: novos domínios de encaminhamento**:
 
-  - **Name** : o domínio de email do remetente.
+  - **Name**: o domínio de email do remetente.
   - **Tipo de encaminhamento**
   - **Endereço do destinatário**
   - **Detalhes**
@@ -95,13 +95,13 @@ Se você clicar em **filtros** em um modo de exibição de tabela detalhes, pode
 
 Se você selecionar uma linha da tabela, um submenu de **detalhes** aparecerá com as seguintes informações:
 
-- **Nome** : Este é o endereço de email do remetente (da exibição **Mostrar dados para: novos usuários de encaminhamento** ) ou o domínio de email do remetente (do **Mostrar dados para: novo** modo de exibição de domínios de encaminhamento).
+- **Nome**: Este é o endereço de email do remetente (da exibição **Mostrar dados para: novos usuários de encaminhamento** ) ou o domínio de email do remetente (do **Mostrar dados para: novo** modo de exibição de domínios de encaminhamento).
 - **Tipo de encaminhamento**
-- **Recipient**
+- **Recipiente**
 - **Detalhes**
 - **Count**
 - **Data de início**
-- **Recomendação** : aqui, você pode clicar no link para gerenciar o usuário no centro de administração do Microsoft 365.
+- **Recomendação**: aqui, você pode clicar no link para gerenciar o usuário no centro de administração do Microsoft 365.
 
 ![Submenu de detalhes da tabela detalhes do novo modo de exibição de usuários de encaminhamento no relatório de alterações de encaminhamento](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

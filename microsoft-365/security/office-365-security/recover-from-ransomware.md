@@ -14,12 +14,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Os administradores do Microsoft 365 podem aprender a se recuperar de um ataque de ransomware.
-ms.openlocfilehash: de1cddbdf1c2b3ffeb8fd74a8f0d31e815eb1b70
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: a1369e64821902e3c2a3061acd1bbebeeb6c85ac
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920603"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357092"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Recuperar de um ataque de ransomware no Microsoft 365
 
@@ -76,7 +76,7 @@ Se essas opções não funcionarem, você poderá experimentar o [Windows Defend
 
 Após concluir a etapa anterior para remover a carga de ransomware do seu ambiente (que impedirá que o ransomware Criptografe ou remova seus arquivos), você poderá usar o histórico de [arquivos](https://support.microsoft.com/help/17128) no Windows 10 e no Windows 8,1 ou na proteção do sistema no Windows 7 para tentar recuperar seus arquivos e pastas locais.
 
-**Observações** :
+**Observações**:
 
 - Um ransomware também criptografará ou excluirá as versões de backup, portanto, não será possível usar o histórico de arquivos ou a proteção do sistema para restaurar arquivos. Se isso acontecer, você precisará usar backups em unidades ou dispositivos externos que não foram afetados pelo ransomware ou pelo OneDrive, conforme descrito na próxima seção.
 
@@ -148,7 +148,7 @@ Se o seu país não estiver listado, pergunte às agências de cumprimento de le
 
 - [Habilitar ou desabilitar macros em arquivos do Office](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [Configurações recomendadas para a segurança do EOP e do Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp)
+- [Configurações recomendadas para a segurança do EOP e do Microsoft defender para Office 365](recommended-settings-for-eop-and-office365-atp.md)
 
 - [Uma atualização valioso: a segurança da próxima geração no Windows 10 comprova resistente contra epidemias de ransomware no 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 

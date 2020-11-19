@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: Este artigo descreve como você pode iniciar seu portal usando o Agendador de lançamento do portal
-ms.openlocfilehash: a7a007fdd95638109830a8e3689232060f2b9d8b
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: e5e5850fa7e74f3e3b342e9bb28d17f65b491664
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123578"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356662"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>Iniciar o portal usando o Agendador de lançamento do portal
 
@@ -34,7 +34,7 @@ Há dois tipos de redirecionamento:
 - bidirecional: iniciar um novo portal moderno do SharePoint Online para substituir um portal clássico ou moderno do SharePoint existente 
 - redirecionamento de página temporário: Inicie um novo portal moderno do SharePoint Online com nenhum portal do SharePoint existente
 
-O Agendador de lançamento do portal só está disponível para iniciar portais modernos do SharePoint Online, como sites de comunicação e sites de equipe modernos. Os lançamentos devem ser agendados pelo menos 7 dias antes. O número de ondas necessárias é determinado pelo número esperado de usuários. Antes de agendar um lançamento de portal, a [ferramenta diagnóstico de página para SharePoint](https://aka.ms/perftool) deve ser executada para verificar se a Home Page no portal está íntegra. No final do lançamento do portal, todos os usuários com permissões para o site poderão acessar o novo site. 
+O Agendador de lançamento do portal só está disponível para iniciar portais modernos do SharePoint Online (por exemplo, sites de comunicação). Os lançamentos devem ser agendados pelo menos 7 dias antes. O número de ondas necessárias é determinado pelo número esperado de usuários. Antes de agendar um lançamento de portal, a [ferramenta diagnóstico de página para SharePoint](https://aka.ms/perftool) deve ser executada para verificar se a Home Page no portal está íntegra. No final do lançamento do portal, todos os usuários com permissões para o site poderão acessar o novo site. 
 
 Para obter mais informações sobre como iniciar um portal bem-sucedido, siga os princípios básicos, as práticas e as recomendações detalhadas sobre como [criar, iniciar e manter um portal saudável](https://docs.microsoft.com/sharepoint/portal-health). 
 
@@ -45,7 +45,7 @@ Para obter mais informações sobre como iniciar um portal bem-sucedido, siga os
 1. [Baixe o Shell de Gerenciamento do SharePoint Online mais recente](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > Se você instalou uma versão anterior do Shell de Gerenciamento do SharePoint Online, vá até Adicionar ou remover programas e desinstale o "Shell de Gerenciamento do SharePoint Online".<br>Na página Centro de Downloads, selecione seu idioma e clique no botão Download. Você deverá escolher entre baixar um arquivo x64 e x86 .msi. Baixe o arquivo x64 se estiver executando a versão de 64 bits do Windows ou o arquivo x86 se estiver executando a versão de 32 bits. Se você não souber, consulte [Qual versão do sistema operacional Windows estou executando?](https://support.microsoft.com/help/13443/windows-which-operating-system). Depois de baixar o arquivo, execute-o e siga as etapas do assistente de configuração.
+    > Se você instalou uma versão anterior do Shell de Gerenciamento do SharePoint Online, vá até Adicionar ou remover programas e desinstale o "Shell de Gerenciamento do SharePoint Online". <br>Na página Centro de downloads, selecione seu idioma e clique no botão Download. Você deverá escolher entre baixar um arquivo x64 e x86 .msi. Baixe o arquivo x64 se estiver executando a versão de 64 bits do Windows ou o arquivo x86 se estiver executando a versão de 32 bits. Se você não souber, consulte [Qual versão do sistema operacional Windows estou executando?](https://support.microsoft.com/help/13443/windows-which-operating-system). Depois de baixar o arquivo, execute-o e siga as etapas do assistente de configuração.
 
 2. Conecte-se ao SharePoint como um [administrador global ou administrador do SharePoint](/sharepoint/sharepoint-admin-role) no Microsoft 365. Para saber como, consulte [Introdução ao Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -66,9 +66,11 @@ O número de ondas necessárias depende do tamanho esperado do lançamento.
 - 30K + 100.000 usuários: 5 ondas
 - Mais de 100.000 usuários: 5 ondas e contate a equipe de conta da Microsoft
 
-### <a name="steps-for-bi-directional-redirection"></a>Etapas para redirecionamento bidirecional
+### <a name="steps-for-bidirectional-redirection"></a>Etapas para redirecionamento bidirecional
 
-O redirecionamento bidirecional envolve a inicialização de um novo portal moderno do SharePoint Online para substituir um portal clássico ou moderno do SharePoint existente. Os usuários em ondas ativas serão redirecionados para o novo site, independentemente de eles navegarem para o site antigo ou novo. Os usuários em uma onda não iniciada que tentar acessar o novo site serão redirecionados de volta para o site antigo até que a onda seja iniciada. Se você tiver administradores ou proprietários que precisam acessar os sites antigos e novos sem serem redirecionados, verifique se estão listados usando o `WaveOverrideUsers` parâmetro. 
+O redirecionamento bidirecional envolve a inicialização de um novo portal moderno do SharePoint Online para substituir um portal clássico ou moderno do SharePoint existente. Os usuários em ondas ativas serão redirecionados para o novo site, independentemente de eles navegarem para o site antigo ou novo. Os usuários em uma onda não iniciada que tentar acessar o novo site serão redirecionados de volta para o site antigo até que a onda seja iniciada. 
+
+Se você tiver administradores ou proprietários que precisam acessar os sites antigos e novos sem serem redirecionados, verifique se estão listados usando o `WaveOverrideUsers` parâmetro. Só há suporte para redirecionamento entre a Home Page padrão no site antigo e a Home Page padrão no novo site.
 
 Para migrar usuários de um site do SharePoint existente para um novo site do SharePoint de uma maneira em estágios:
 

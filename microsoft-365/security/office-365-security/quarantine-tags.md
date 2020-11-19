@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Os administradores podem aprender a usar as marcas de quarentena para controlar o que os usuários podem fazer com as mensagens em quarentena.
-ms.openlocfilehash: e50d7eea4cec3c87231dda855725b1e901f5fa33
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e194aabf57a1a105f01d8d34815312d3c2fa153d
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845691"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357642"
 ---
 # <a name="quarantine-tags"></a>Marcas de quarentena
 
@@ -44,19 +44,19 @@ As permissões individuais disponíveis e o que está incluído ou não incluíd
 
 |Permissão|Sem acesso|Acesso limitado|Acesso completo|
 |---|:---:|:---:|:---:|
-|**Permitir remetente** ( _PermissionToAllowSender_ )|||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Bloquear remetente** ( _PermissionToBlockSender_ )||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Excluir** ( _PermissionToDelete_ )||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Visualização** ( _PermissionToPreview_ )||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Permitir que os destinatários liberem uma mensagem da quarentena** ( _PermissionToRelease_ )|||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Permitir que os destinatários solicitem uma mensagem a ser liberada da quarentena** ( _PermissionToRequestRelease_ )||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|**Permitir remetente** (_PermissionToAllowSender_)|||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Bloquear remetente** (_PermissionToBlockSender_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Excluir** (_PermissionToDelete_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Visualização** (_PermissionToPreview_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Permitir que os destinatários liberem uma mensagem da quarentena** (_PermissionToRelease_)|||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Permitir que os destinatários solicitem uma mensagem a ser liberada da quarentena** (_PermissionToRequestRelease_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |
 
 Se você não gostar das permissões padrão nos grupos de permissão predefinidos, poderá usar permissões personalizadas ao criar ou modificar as marcas de quarentena personalizadas. Para obter mais informações sobre o que cada permissão faz, consulte a seção [detalhes da permissão de marca de quarentena](#quarantine-tag-permission-details) mais adiante neste artigo.
 
 Você cria e atribui as marcas de quarentena no centro de conformidade & segurança ou no PowerShell (PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio do Exchange Online; EOP PowerShell autônomo em organizações do EOP sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **marcas de quarentena** , abra <https://protection.office.com/quarantineTags> .
 
@@ -83,12 +83,12 @@ Você cria e atribui as marcas de quarentena no centro de conformidade & seguran
 
    Para especificar permissões personalizadas, selecione **Definir acesso específico (avançado)** e defina as seguintes configurações:
 
-     - **Selecione a preferência de ação de liberação** : selecione um dos seguintes valores:
-       - **Nenhuma ação de versão** : Este é o valor padrão.
+     - **Selecione a preferência de ação de liberação**: selecione um dos seguintes valores:
+       - **Nenhuma ação de versão**: Este é o valor padrão.
        - **Permitir que os destinatários liberem uma mensagem da quarentena**
        - **Permitir que os destinatários solicitem uma mensagem a ser liberada da quarentena**
 
-     - **Selecionar ações adicionais os destinatários podem executar em mensagens em quarentena** : selecione alguns, todos ou nenhum dos seguintes valores:
+     - **Selecionar ações adicionais os destinatários podem executar em mensagens em quarentena**: selecione alguns, todos ou nenhum dos seguintes valores:
        - **Delete**
        - **Visualização**
        - **Permitir remetente**
@@ -178,19 +178,19 @@ O valor padrão para todos os parâmetros não utilizados é que `$false` você 
 
 Os exemplos a seguir mostram como criar objetos Permission que correspondam aos grupos de permissões predefinidas:
 
-- **Sem acesso** :
+- **Sem acesso**:
 
   ```powershell
   $NoAccess = New-QuarantinePermissions
   ```
 
-- **Acesso limitado** :
+- **Acesso limitado**:
 
   ```powershell
   $LimitedAccess = New-QuarantinePermissions -PermissionToBlockSender $true -PermissionToDelete $true -PermissionToPreview $true -PermissionToRequestRelease $true
   ```
 
-- **Acesso completo** :
+- **Acesso completo**:
 
   ```powershell
   $FullAccess = New-QuarantinePermissions -PermissionToAllowSender $true -PermissionToBlockSender $true -PermissionToDelete $true -PermissionToPreview $true -PermissionToRelease $true
@@ -228,11 +228,11 @@ Em recursos de proteção _com suporte_ que colocadas em quarentena mensagens ou
 
 |Recurso|Marcas de quarentena suportadas?|Marcas de quarentena padrão usadas|
 |---|:---:|---|
-|[Políticas antispam](configure-your-spam-filter-policies.md): <ul><li>**Spam** ( _spam_ )</li><li>**Spam de alta confiança** ( _HighConfidenceSpamAction_ )</li><li>**Email de phishing** ( _PhishSpamAction_ )</li><li>**Email de phishing de alta confiança** ( _HighConfidencePhishAction_ )</li><li>**Email em massa** ( _BulkSpamAction_ )</li></ul>|Sim|<ul><li>DefaultSpamTag (acesso completo)</li><li>DefaultHighConfSpamTag (acesso completo)</li><li>DefaultPhishTag (acesso completo)</li><li>DefaultHighConfPhishTag (sem acesso)</li><li>DefaultBulkTag (acesso completo)</li></ul>
-|Políticas anti-phishing: <ul><li>[Proteção de inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) ( _AuthenticationFailAction_ )</li><li>[Proteção de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**Se o email for enviado por um usuário representado** ( _TargetedUserProtectionAction_ )</li><li>**Se o email for enviado por um domínio representado** ( _TargetedDomainProtectionAction_ )</li><li>Inteligência de caixa de **correio** \> **Se o email for enviado por um usuário representado** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|Não|n/d|
+|[Políticas antispam](configure-your-spam-filter-policies.md): <ul><li>**Spam** (_spam_)</li><li>**Spam de alta confiança** (_HighConfidenceSpamAction_)</li><li>**Email de phishing** (_PhishSpamAction_)</li><li>**Email de phishing de alta confiança** (_HighConfidencePhishAction_)</li><li>**Email em massa** (_BulkSpamAction_)</li></ul>|Sim|<ul><li>DefaultSpamTag (acesso completo)</li><li>DefaultHighConfSpamTag (acesso completo)</li><li>DefaultPhishTag (acesso completo)</li><li>DefaultHighConfPhishTag (sem acesso)</li><li>DefaultBulkTag (acesso completo)</li></ul>
+|Políticas anti-phishing: <ul><li>[Proteção de inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) (_AuthenticationFailAction_)</li><li>[Proteção de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**Se o email for enviado por um usuário representado** (_TargetedUserProtectionAction_)</li><li>**Se o email for enviado por um domínio representado** (_TargetedDomainProtectionAction_)</li><li>Inteligência de caixa de **correio** \> **Se o email for enviado por um usuário representado** (_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|Não|n/d|
 |[Políticas Antimalware](configure-anti-malware-policies.md): todas as mensagens detectadas são sempre colocadas em quarentena.|Não|n/d|
 |[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)|Não|n/d|
-|[Regras de fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (também conhecidas como regras de transporte) com a ação: **entregar a mensagem para a quarentena hospedada** ( _quarentena_ ).|Não|n/d|
+|[Regras de fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (também conhecidas como regras de transporte) com a ação: **entregar a mensagem para a quarentena hospedada** (_quarentena_).|Não|n/d|
 |
 
 <sup>\*</sup> As configurações de proteção de representação estão disponíveis somente em políticas anti-phishing no Microsoft defender para Office 365.
@@ -251,7 +251,7 @@ Instruções completas para a criação e modificação de políticas antispam s
   
 4. Se você tiver selecionado a **mensagem de quarentena** para a ação de um veredicto de filtragem de spam disponível, a caixa **aplicar marca de política de quarentena** estará disponível para que você selecione a marca de quarentena para esse veredicto.
 
-   **Observação** : quando você cria uma nova política, um valor de marca de quarentena em branco para um veredicto de filtragem de spam indica que a marca de quarentena padrão para o veredicto é usada. Quando você edita a política mais tarde, os valores em branco são substituídos pelos nomes de marca de quarentena padrão atuais, conforme descrito na tabela anterior.
+   **Observação**: quando você cria uma nova política, um valor de marca de quarentena em branco para um veredicto de filtragem de spam indica que a marca de quarentena padrão para o veredicto é usada. Quando você edita a política mais tarde, os valores em branco são substituídos pelos nomes de marca de quarentena padrão atuais, conforme descrito na tabela anterior.
   
    ![Seleções de marca de quarentena em uma política antispam](../../media/quarantine-tags-in-anti-spam-policies.png)
 
@@ -265,7 +265,7 @@ Se preferir usar o PowerShell para atribuir marcas de quarentena em políticas a
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**Observações** :
+**Observações**:
 
 - O valor padrão para o parâmetro _HighConfidencePhishAction_ é Quarantine, portanto, você não precisa definir a ação de quarentena para detecções de phishing de alta confiança em novas políticas antispam. Para todos os outros verdicts de filtragem de spam em políticas antispam novas ou existentes, a marca de quarentena só será efetiva se o valor da ação for Quarantine. Para ver os valores de ação em políticas antispam existentes, execute o seguinte comando:
 
@@ -310,19 +310,19 @@ As configurações globais para marcas de quarentena permitem que você personal
 
 3. No submenu **configurações de notificação de quarentena** que é aberto, defina algumas ou todas as configurações a seguir:
 
-   - **Usar o logotipo da minha empresa** : Selecione essa opção para substituir o logotipo padrão da Microsoft que é usado na parte superior das notificações de spam do usuário final. Antes de fazer isso, você precisa seguir as instruções em [Personalizar o tema do Microsoft 365 para sua organização](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) para carregar seu logotipo personalizado.
+   - **Usar o logotipo da minha empresa**: Selecione essa opção para substituir o logotipo padrão da Microsoft que é usado na parte superior das notificações de spam do usuário final. Antes de fazer isso, você precisa seguir as instruções em [Personalizar o tema do Microsoft 365 para sua organização](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) para carregar seu logotipo personalizado.
 
      A captura de tela a seguir mostra um logotipo personalizado em uma notificação de spam do usuário final:
 
      ![Um logotipo personalizado em uma notificação de spam do usuário final](../../media/quarantine-tags-esn-customization-logo.png)
 
-   - **Escolher idioma** : as notificações de spam do usuário final já estão localizadas com base nas configurações de idioma do destinatário. Você pode especificar texto personalizado em diferentes idiomas para o **nome de exibição** e os valores de **aviso de isenção de responsabilidade** .
+   - **Escolher idioma**: as notificações de spam do usuário final já estão localizadas com base nas configurações de idioma do destinatário. Você pode especificar texto personalizado em diferentes idiomas para o **nome de exibição** e os valores de **aviso de isenção de responsabilidade** .
 
      Selecione pelo menos um idioma na primeira caixa de idioma e clique em **Adicionar**. Você pode selecionar vários idiomas clicando em **Adicionar** após cada um. Uma caixa de idioma de seção mostra todos os idiomas que você selecionou:
 
      ![Idiomas selecionados na segunda caixa de idioma nas configurações de notificação de quarentena global das marcas de quarentena](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
-   - **Nome para exibição** : Personalize o nome de exibição do remetente usado em notificações de spam do usuário final.
+   - **Nome para exibição**: Personalize o nome de exibição do remetente usado em notificações de spam do usuário final.
 
      Para cada idioma adicionado, selecione o idioma na segunda caixa de idioma (não clique no X) e insira o valor de texto desejado na caixa **nome para exibição** .
 
@@ -372,7 +372,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 
 ## <a name="remove-quarantine-tags-in-the-security--compliance-center"></a>Remover as marcas de quarentena no centro de conformidade & segurança
 
-**Observações** :
+**Observações**:
 
 - Não é possível remover as marcas de quarentena internas.
 
@@ -412,11 +412,11 @@ As permissões individuais incluídas em grupos de permissões predefinidas est�
 
 Se a marca de quarentena atribuir as permissões **sem acesso** (sem permissões), os usuários ainda receberão alguns recursos de linha de base:
 
-- **Detalhes da mensagem em quarentena** : o botão **exibir cabeçalho da mensagem** está sempre disponível.
+- **Detalhes da mensagem em quarentena**: o botão **exibir cabeçalho da mensagem** está sempre disponível.
 
   ![Botões disponíveis nos detalhes da mensagem em quarentena se a marca de quarentena fornecer permissões de sem acesso ao usuário](../../media/quarantine-tags-quarantined-message-details-no-access.png)
 
-- **Notificações de spam do usuário final** : o botão de **revisão** que leva o usuário para a mensagem em quarentena está sempre disponível.
+- **Notificações de spam do usuário final**: o botão de **revisão** que leva o usuário para a mensagem em quarentena está sempre disponível.
 
   ![Botões disponíveis na notificação de spam do usuário final se a marca de quarentena fornecer permissões de sem acesso ao usuário](../../media/quarantine-tags-esn-no-access.png)
 
@@ -424,7 +424,7 @@ Se a marca de quarentena atribuir as permissões **sem acesso** (sem permissões
 
 Se a marca de quarentena atribuir as permissões de **acesso limitado** , os usuários receberão os seguintes recursos:
 
-- **Detalhes da mensagem em quarentena** : os seguintes botões estão disponíveis:
+- **Detalhes da mensagem em quarentena**: os seguintes botões estão disponíveis:
   - **Versão de solicitação**
   - **Exibir cabeçalho de mensagem**
   - **Visualizar mensagem**
@@ -433,7 +433,7 @@ Se a marca de quarentena atribuir as permissões de **acesso limitado** , os usu
 
   ![Botões disponíveis nos detalhes da mensagem em quarentena se a marca de quarentena fornecer permissões de acesso limitado ao usuário](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
 
-- **Notificações de spam para o usuário final** : os seguintes botões estão disponíveis:
+- **Notificações de spam para o usuário final**: os seguintes botões estão disponíveis:
   - **Bloquear remetente**
   - **Examinar**
 
@@ -443,7 +443,7 @@ Se a marca de quarentena atribuir as permissões de **acesso limitado** , os usu
 
 Se a marca de quarentena atribuir as permissões de **acesso completo** (todas as permissões disponíveis), os usuários receberão os seguintes recursos:
 
-- **Detalhes da mensagem em quarentena** : os seguintes botões estão disponíveis:
+- **Detalhes da mensagem em quarentena**: os seguintes botões estão disponíveis:
   - **Mensagem de liberação**
   - **Exibir cabeçalho de mensagem**
   - **Visualizar mensagem**
@@ -453,7 +453,7 @@ Se a marca de quarentena atribuir as permissões de **acesso completo** (todas a
 
   ![Botões disponíveis nos detalhes da mensagem em quarentena se a marca de quarentena fornecer permissões de acesso total ao usuário](../../media/quarantine-tags-quarantined-message-details-full-access.png)
 
-- **Notificações de spam para o usuário final** : os seguintes botões estão disponíveis:
+- **Notificações de spam para o usuário final**: os seguintes botões estão disponíveis:
   - **Bloquear remetente**
   - **Lançar**
   - **Examinar**
@@ -467,68 +467,68 @@ Se a marca de quarentena atribuir as permissões de **acesso completo** (todas a
 
 #### <a name="allow-sender-permission"></a>Permitir permissão de remetente
 
-A permissão de **remetente permitir** ( _PermissionToAllowSender_ ) controla o acesso ao botão que permite que os usuários adicionem convenientemente o remetente da mensagem em quarentena à sua lista de remetentes seguros.
+A permissão de **remetente permitir** (_PermissionToAllowSender_) controla o acesso ao botão que permite que os usuários adicionem convenientemente o remetente da mensagem em quarentena à sua lista de remetentes seguros.
 
-- **Detalhes da mensagem em quarentena** :
+- **Detalhes da mensagem em quarentena**:
   - **Permitir** permissão de remetente habilitado: o botão **permitir remetente** está disponível.
   - Permissão para **permitir remetente** desabilitada: o botão **permitir remetente** não está disponível.
 
-- **Notificações de spam do usuário final** : sem efeito.
+- **Notificações de spam do usuário final**: sem efeito.
 
-Para mais informações sobre a lista de remetentes confiáveis, consulte [impedir que remetentes confiáveis sejam bloqueados](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) e [usar o PowerShell do Exchange Online para configurar a coleção de lista segura em uma caixa de correio](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
+Para mais informações sobre a lista de remetentes confiáveis, consulte [impedir que remetentes confiáveis sejam bloqueados](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) e [usar o PowerShell do Exchange Online para configurar a coleção de lista segura em uma caixa de correio](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
 #### <a name="block-sender-permission"></a>Permissão bloquear remetente
 
-A permissão **bloquear remetente** ( _PermissionToBlockSender_ ) controla o acesso ao botão que permite que os usuários adicionem convenientemente o remetente da mensagem em quarentena à sua lista de remetentes bloqueados.
+A permissão **bloquear remetente** (_PermissionToBlockSender_) controla o acesso ao botão que permite que os usuários adicionem convenientemente o remetente da mensagem em quarentena à sua lista de remetentes bloqueados.
 
-- **Detalhes da mensagem em quarentena** :
+- **Detalhes da mensagem em quarentena**:
   - Permissão **bloquear remetente** habilitada: o botão **bloquear remetente** está disponível.
   - Permissão **bloquear remetente** desabilitada: o botão **bloquear remetente** não está disponível.
 
-- **Notificações de spam do usuário final** :
+- **Notificações de spam do usuário final**:
   - Permissão **bloquear remetente** desabilitada: o botão **bloquear remetente** não está disponível.
   - Permissão **bloquear remetente** habilitada: o botão **bloquear remetente** está disponível.
 
-Para obter mais informações sobre a lista de remetentes bloqueados, consulte [bloquear mensagens de alguém](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) e [usar o PowerShell do Exchange Online para configurar o conjunto de listas seguras em uma caixa de correio](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
+Para obter mais informações sobre a lista de remetentes bloqueados, consulte [bloquear mensagens de alguém](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) e [usar o PowerShell do Exchange Online para configurar o conjunto de listas seguras em uma caixa de correio](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
 #### <a name="delete-permission"></a>Permissão de exclusão
 
-A permissão de **exclusão** ( _PermissionToDelete_ ) controla a capacidade de os usuários excluírem suas mensagens (mensagens nas quais o usuário é um destinatário) da quarentena.
+A permissão de **exclusão** (_PermissionToDelete_) controla a capacidade de os usuários excluírem suas mensagens (mensagens nas quais o usuário é um destinatário) da quarentena.
 
-- **Detalhes da mensagem em quarentena** :
+- **Detalhes da mensagem em quarentena**:
   - Permissão **excluir** habilitada: o botão **remover da quarentena** está disponível.
   - Permissão **excluir** desabilitada: o botão **remover da quarentena** não está disponível.
 
-- **Notificações de spam do usuário final** : sem efeito.
+- **Notificações de spam do usuário final**: sem efeito.
 
 #### <a name="preview-permission"></a>Permissão prévia
 
-A permissão de **Visualização** ( _PermissionToPreview_ ) controla a capacidade de os usuários visualizarem suas mensagens em quarentena.
+A permissão de **Visualização** (_PermissionToPreview_) controla a capacidade de os usuários visualizarem suas mensagens em quarentena.
 
-- **Detalhes da mensagem em quarentena** :
+- **Detalhes da mensagem em quarentena**:
   - Permissão de **Visualização** habilitada: o botão **Visualizar mensagem** está disponível.
   - Permissão de **Visualização** desabilitada: o botão **Visualizar mensagem** não está disponível.
 
-- **Notificações de spam do usuário final** : sem efeito.
+- **Notificações de spam do usuário final**: sem efeito.
 
 #### <a name="allow-recipients-to-release-a-message-from-quarantine-permission"></a>Permitir que os destinatários liberem uma mensagem da permissão de quarentena
 
-O **permitir que os destinatários liberem uma mensagem da** permissão de quarentena ( _PermissionToRelease_ ) controla a capacidade dos usuários de liberar mensagens em quarentena diretamente e sem a aprovação de um administrador.
+O **permitir que os destinatários liberem uma mensagem da** permissão de quarentena (_PermissionToRelease_) controla a capacidade dos usuários de liberar mensagens em quarentena diretamente e sem a aprovação de um administrador.
 
-- **Detalhes da mensagem em quarentena** :
+- **Detalhes da mensagem em quarentena**:
   - Permissão habilitada: o botão **liberar mensagem** está disponível.
   - Permissão desabilitada: o botão **liberar mensagem** não está disponível.
   
-- **Notificações de spam do usuário final** :
+- **Notificações de spam do usuário final**:
   - Permissão habilitada: o botão **liberar** está disponível.
   - Permissão desabilitada: o botão de **versão** não está disponível.
 
 #### <a name="allow-recipients-to-request-a-message-to-be-released-from-quarantine-permission"></a>Permitir que os destinatários solicitem uma mensagem a ser liberada da permissão de quarentena
 
-O **permitir que os destinatários solicitem uma mensagem a ser liberada da** permissão de quarentena ( _PermissionToRequestRelease_ ) controla a capacidade dos usuários de _solicitar_ o lançamento de suas mensagens em quarentena. A mensagem é liberada somente depois que um administrador aprova a solicitação.
+O **permitir que os destinatários solicitem uma mensagem a ser liberada da** permissão de quarentena (_PermissionToRequestRelease_) controla a capacidade dos usuários de _solicitar_ o lançamento de suas mensagens em quarentena. A mensagem é liberada somente depois que um administrador aprova a solicitação.
 
-- **Detalhes da mensagem em quarentena** :
+- **Detalhes da mensagem em quarentena**:
   - Permissão habilitada: o botão **liberar versão** está disponível.
   - Permissão desabilitada: o botão **liberar versão** não está disponível.
 
-- **Notificações de spam do usuário final** : o botão **liberar** não está disponível.
+- **Notificações de spam do usuário final**: o botão **liberar** não está disponível.
