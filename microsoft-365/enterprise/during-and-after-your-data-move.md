@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Movimentações de dados são operações de back-end que ocorrem quando a Microsoft transfere serviços e dados associados para seu locatário para uma nova Geografia de datacenter.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63536a46e28f264f49e8071710221b0847f62414
-ms.sourcegitcommit: 86e878849a8bdd456cee6a3f49939d26223fb626
+ms.openlocfilehash: ca3159aeb951fb0cb3bf3aba953979dabc6ba024
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48997786"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349251"
 ---
 # <a name="during-and-after-your-data-move"></a>Durante e após a migração dos dados
 
@@ -46,6 +46,7 @@ Assista ao centro de mensagens do Microsoft 365 para confirmação quando se mov
 |Suíça, Liechtenstein  <br/> |1º de julho de 2022  <br/> |
 |Noruega  <br/> |1 de novembro de 2022  <br/> |
 |Alemanha  <br/> |1 de maio de 2023  <br/> |
+|Brasil  <br/> |1º de junho de 2023  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
@@ -84,7 +85,7 @@ Depois de concluir a movimentação de seus dados do SharePoint Online, você po
     
 - Estamos removendo as cópias de trans-codificadas do datacenter anterior e as transcodificando novamente no novo datacenter.
     
-### <a name="search"></a>Pesquisar
+### <a name="search"></a>Pesquisa
 
 Durante a transferência dos dados do SharePoint Online, migramos o índice de pesquisa e as configurações de pesquisa para um novo local. Até que tenhamos **concluído** a movimentação de seus dados do SharePoint Online, continuamos a atender seus usuários do índice no local original. No novo local, a pesquisa inicia automaticamente o rastreamento do conteúdo após a conclusão da movimentação de seus dados do SharePoint Online. A partir deste ponto e em diante, atendemos aos seus usuários a partir do índice migrado. Alterações no conteúdo que ocorreram após a migração não estão incluídas no índice migrado até que o rastreamento as escolha. A maioria dos clientes não percebe que os resultados estão menos atualizados logo após a conclusão da movimentação de seus dados do SharePoint Online, mas alguns clientes podem ter uma atualização reduzida nas primeiras 24-48 horas 
   

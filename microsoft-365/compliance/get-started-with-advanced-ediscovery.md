@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: 13a4bfac34201e81ba13b76791e097891409dd0b
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: dd3ddb3e5ef3a46fc0b7b4925b639975167c15d2
+ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130836"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350719"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Introdução à Descoberta Eletrônica Avançada
 

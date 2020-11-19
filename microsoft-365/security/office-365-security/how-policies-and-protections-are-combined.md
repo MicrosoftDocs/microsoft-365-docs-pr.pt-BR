@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a ordem de proteção de aplicativos na proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: 9bff44a0c9964c60f5b8b5c0afdfe6d29ee6da93
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c6a89e35f1cce0532f206b5ac5dbfd4a1aedda9d
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843599"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349263"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
 
@@ -34,7 +34,7 @@ Em geral, uma política aplicada a uma mensagem é identificada no cabeçalho **
 
 Há dois fatores principais que determinam qual política é aplicada a uma mensagem:
 
-- **A prioridade do tipo de proteção de email** : essa ordem não é configurável e é descrita na tabela a seguir:
+- **A prioridade do tipo de proteção de email**: essa ordem não é configurável e é descrita na tabela a seguir:
 
   ****
 
@@ -44,15 +44,15 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
   |duas|Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no EOP](learn-about-spoof-intelligence.md)|
-  |0,5<sup>\*</sup>|Representação de usuário (domínios protegidos)|UIMP|[Configurar políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md)|
-  |6<sup>\*</sup>|Representação de domínio (usuários protegidos)|DIMP|[Configurar políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md)|
+  |0,5<sup>\*</sup>|Representação de usuário (usuários protegidos)|UIMP|[Configurar políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md)|
+  |6<sup>\*</sup>|Representação de domínio (domínios protegidos)|DIMP|[Configurar políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md)|
   |7 |Spam|GATO: SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |8 |Em massa|GATO: EM MASSA|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |
 
   <sup>\*</sup> Esses recursos estão disponíveis apenas em políticas anti-phishing no Microsoft defender para Office 365.
 
-- **A prioridade da política** : para cada tipo de proteção (anti-spam, Antimalware, anti-phishing, etc.), há uma política padrão que se aplica a todos, mas você pode criar políticas personalizadas que se aplicam a usuários específicos. Cada política personalizada tem um valor de prioridade que determina a ordem em que as políticas são aplicadas. A política padrão é sempre aplicada por último.
+- **A prioridade da política**: para cada tipo de proteção (anti-spam, Antimalware, anti-phishing, etc.), há uma política padrão que se aplica a todos, mas você pode criar políticas personalizadas que se aplicam a usuários específicos. Cada política personalizada tem um valor de prioridade que determina a ordem em que as políticas são aplicadas. A política padrão é sempre aplicada por último.
 
   Se um usuário estiver definido em várias políticas do mesmo tipo, somente a política com a prioridade mais alta será aplicada a eles. Qualquer política remanescente desse tipo não será avaliada para o usuário (incluindo a política padrão).
 

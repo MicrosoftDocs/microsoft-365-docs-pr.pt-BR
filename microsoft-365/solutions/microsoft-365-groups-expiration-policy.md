@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba mais sobre as políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: 8fc9c48d5a86c68eabd4139ad0a2d0dc1e83da0f
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4b283bcc9f4e54462a71b9aee70d6312b9f127d6
+ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377218"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350707"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -34,7 +34,7 @@ Quando um grupo expira, ele é "excluído de forma reversível", o que significa
 Os administradores podem especificar um período de expiração e qualquer grupo inativo que atinja o final do período, e que não seja renovado, será excluído. (Isso inclui as equipes arquivadas.) O período de expiração começa quando o grupo é criado ou na data da última renovar. Os proprietários de grupo receberão automaticamente um email antes da expiração, permitindo que eles renovem o grupo para outro intervalo de expiração. Os usuários do teams verão as notificações persistentes no Teams.
 
 Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer uma das ações a seguir irá renovar automaticamente um grupo:
-- SharePoint – exibir, editar, baixar, mover, compartilhar ou carregar arquivos.
+- SharePoint – exibir, editar, baixar, mover, compartilhar ou carregar arquivos. (Exibir uma página do SharePoint não conta como uma ação para renovação automática).
 - Outlook-ingressar no grupo, ler ou gravar mensagem de grupo do grupo e como uma mensagem (Outlook na Web).
 - Teams – visitando um canal do teams.
 
@@ -48,7 +48,7 @@ Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer 
 
 ## <a name="who-can-configure-and-use-the-microsoft-365-groups-expiration-policy"></a>Quem pode configurar e usar a política de expiração de grupos do Microsoft 365?
 
-|Função|O que eles podem fazer|
+|Role|O que eles podem fazer|
 |---------|---------|
 |Administrador global do Office 365 (no Azure, o administrador da empresa), administrador do usuário|Criar, ler, atualizar ou excluir as configurações da política de expiração do Microsoft 365 groups.|
 |Usuário|Renovar ou [restaurar](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) um grupo do Microsoft 365 de sua propriedade|

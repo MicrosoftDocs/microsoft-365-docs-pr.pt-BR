@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, encontre detalhes sobre o suporte do aplicativo cliente do Microsoft 365 para autenticação baseada em certificado.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 57ced47c268f4d0515acb26aa8f705fa6e9ae0f9
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: fde124fcefdf3b949ec35a3b2ed99b15ee36f85e
+ms.sourcegitcommit: 2beefb695cead03cc21d6066f589572d3ae029aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999379"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349675"
 ---
 # <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Suporte ao aplicativo cliente Microsoft 365: autenticação baseada em certificado
 
@@ -29,8 +29,8 @@ ms.locfileid: "48999379"
 
 A autenticação moderna é um termo abrangente para uma combinação de métodos de autenticação e autorização. Entre eles:
 
-- **Métodos de autenticação** : autenticação multifator; Autenticação baseada em certificado do cliente.
-- **Métodos de autorização** : implementação da Microsoft de autorização aberta (OAuth).
+- **Métodos de autenticação**: autenticação multifator; Autenticação baseada em certificado do cliente.
+- **Métodos de autorização**: implementação da Microsoft de autorização aberta (OAuth).
 
 A autenticação moderna é habilitada por meio do uso de uma biblioteca de autenticação, como a ADAL (biblioteca de autenticação do Active Directory) ou a biblioteca de autenticação da Microsoft (MSAL). A autenticação moderna é o que os clientes usam para autenticar e autorizar o acesso aos recursos do Microsoft 365. A autenticação moderna aproveita o OAuth e fornece um mecanismo seguro para que os clientes acessem os serviços do Microsoft 365, sem exigir acesso às credenciais do usuário. Ao entrar, o usuário é autenticado diretamente com o Active Directory do Azure e recebe um par de tokens de acesso/atualização em retorno. O token de acesso concede ao cliente acesso aos recursos apropriados no Microsoft 365 locatário. Um token de atualização é usado para obter um novo par de tokens de acesso ou de atualização quando o token de acesso atual expira.
 
@@ -47,15 +47,15 @@ As versões mais recentes dos seguintes clientes e plataformas dão suporte à a
 | Clientes | Android | iOS | Mac| Windows 10 <br> Aplicativos modernos| Windows 10 <br> Desktop |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | Administrador do Azure Active Directory | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Acesso | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Access | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
 | Administrador do Azure | N/D | N/D | N/D | N/D | N/D |
 | Portal da empresa | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
-| Consome | Liga | Liga | N/A | ![Com suporte](../media/check-mark.png) | N/D |
+| Consome | Liga | Liga | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Delve | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
 | Borda<sup>1</sup> | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | ![Com suporte](../media/check-mark.png) |
 | Excel | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Administração do Exchange Online | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Forms | N/D | N/D | N/D | N/D | N/D |
+| Formulários | N/D | N/D | N/D | N/D | N/D |
 | Administração do Office 365 | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |  |
 | Kaizala | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
 | Office Lens| ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
@@ -76,18 +76,18 @@ As versões mais recentes dos seguintes clientes e plataformas dão suporte à a
 | SharePoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
 | Administração do SharePoint Online | Liga | Liga | N/D | N/D | N/D |
 | Notas auto-adesivas | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) | N/D |
-| Fluxo | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
+| Stream | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
 | Sway | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Teams | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Liga |
 | To Do | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
-| Visio | N/A | ![Com suporte](../media/check-mark.png) | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Whiteboard | Liga | Liga | N/A | ![Com suporte](../media/check-mark.png) | N/D |
+| Visio | N/D | ![Com suporte](../media/check-mark.png) | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Quadro de comunicações | Liga | Liga | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Word | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Análise de local de trabalho | N/D | N/D | N/D | N/D | N/D |
-| Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Liga | N/A | Liga |
+| Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Liga | N/D | Liga |
 
 >[!NOTE]
-><sup>1</sup> Edge para IOS e Android oferece suporte à autenticação baseada em certificado durante a conta de adição de fluxos. O Edge for iOS e Android não oferece suporte à autenticação baseada em certificado ao realizar autenticação em sites da Web, que normalmente são sites da intranet. <br><br>  Neste cenário, um usuário navega até um site (geralmente na intranet) onde o site exige que o usuário autentique por meio de um certificado. Isso não envolve a autenticação moderna e não utiliza uma biblioteca de autenticação da Microsoft. Isso se deve à limitação do iOS: o iOS impede que aplicativos de terceiros acessem o chaveiro do sistema onde os certificados estão armazenados (somente aplicativos Apple e o [controlador Safari WebView](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) pode acessar o keychain do sistema). <br><br> Como a borda conta com Webkit, a borda não consegue acessar o chaveiro do sistema e apresenta ao usuário a opção de certificado. Isso, infelizmente, é o design devido à arquitetura da Apple.
+><sup>1</sup> Edge para IOS e Android oferece suporte à autenticação baseada em certificado durante a conta de adição de fluxos. O Edge for iOS e Android não oferece suporte à autenticação baseada em certificado ao realizar autenticação em sites da Web, que normalmente são sites da intranet. <br><br>  Neste cenário, um usuário navega até um site (geralmente na intranet) onde o site exige que o usuário autentique por meio de um certificado. Isso não envolve a autenticação moderna e não utiliza uma biblioteca de autenticação da Microsoft. Isso se deve à limitação do iOS: o iOS impede que aplicativos de terceiros acessem o chaveiro do sistema onde os certificados estão armazenados (somente aplicativos Apple e o [controlador Safari WebView](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) pode acessar o keychain do sistema). <br><br> Como a borda depende da estrutura [WebKit](https://developer.apple.com/documentation/webkit) para processamento de sites, Edge não é possível acessar a cadeia de chaves do sistema e apresentar ao usuário uma opção de certificado. Isso, infelizmente, é o design devido à arquitetura da Apple.
 
 ## <a name="supported-powershell-modules"></a>Módulos do PowerShell suportados
 

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Os clientes existentes do Office 365 devem enviar uma solicitação antes do prazo final para que seu país tenha seus dados de serviços do Microsoft 365 movidos para a nova geografia.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6ad699830389ef405b005bf8675a2bd0fb4f20b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 216cd3b0cb55cbbe6be89945b98a01ae469ec4e2
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877250"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349227"
 ---
 # <a name="how-to-request-your-data-move"></a>Como solicitar a migração dos dados
 
@@ -45,6 +45,7 @@ Os clientes Microsoft 365 qualificados podem solicitar a migração de todos os 
 |Suíça, Liechtenstein  <br/> |10 de dezembro de 2019  <br/> |30 de junho de 2020  <br/> |
 |Noruega  <br/> |15 de abril de 2020  <br/> |31 de outubro de 2020  <br/> |
 |Alemanha  <br/> |1 de novembro de 2020  <br/> |30 de abril de 2021  <br/> |
+|Brasil  <br/> |18 de novembro de 2020  <br/> |31 de maio de 2021  <br/> |
 
 ## <a name="how-to-request-a-move"></a>Como solicitar uma movimentação
 

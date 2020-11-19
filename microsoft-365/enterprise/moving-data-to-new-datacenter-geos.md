@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre o novo Office 365 datacenter GEOS e como usar a opção de residência de dados para solicitar uma movimentação de seus dados principais para uma nova geografia.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17b8d5c828a8c528aba180c260510345e77226d5
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 6c5e63a973ca6fdf6aaaaca884df306ff790c325
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333707"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349239"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>Movendo dados principais para o novo Microsoft 365 datacenter GEOS
 
@@ -38,16 +38,17 @@ Os clientes existentes que têm seus dados principais de cliente armazenados em 
 |:-----|:-----|:-----|:-----|
 |**Japão**| Ásia/Pacífico | Japão | Dezembro de 2014 |
 |**Austrália, Nova Zelândia, Fiji**| Ásia/Pacífico | Austrália | Março de 2015 |
-|**Índia **| Ásia/Pacífico | Índia | Outubro de 2015 |
+|**Índia**| Ásia/Pacífico | Índia | Outubro de 2015 |
 |**Canadá**| Estados Unidos | Canadá | Maio de 2016 |
 |**Reino Unido**| União Europeia | Reino Unido | Setembro de 2016 |
 |**Coreia do Sul**| Ásia/Pacífico | Coreia do Sul | Abril de 2017 |
-|**França **| União Europeia | França | Março de 2018 |
+|**França**| União Europeia | França | Março de 2018 |
 |**Emirados Árabes Unidos**| União Europeia | Emirados Árabes Unidos | Junho de 2019 |
 |**África do Sul**| União Europeia | África do Sul | Julho de 2019 |
 |**Suíça, Liechtenstein**| União Europeia | Suíça | Dezembro de 2019 |
 |**Alemanha**| União Europeia | Alemanha | Dezembro de 2019 |
 |**Noruega**| União Europeia | Noruega | Abril de 2020 |
+|**Brasil**| Américas | Brasil | Novembro de 2020 |
 
 A partir de 1º de outubro de 2020 clientes com uma assinatura do Office 365 Education incluída no locatário não estão qualificados para migração.
 

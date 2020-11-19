@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: conceptual
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 400c2373ea9c1f6c19e5481c620a657df2c22aa8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7b2d5b380f71a31302a54cedb6076e6fca54fa86
+ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842141"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350741"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -94,7 +94,7 @@ Uma política de alerta consiste nas configurações e condições a seguir.
 
   Quando ocorre uma atividade que corresponde às condições da política de alerta, o alerta gerado é marcado com a categoria definida nesta configuração. Isso permite que você rastreie e gerencie alertas que tenham a mesma configuração de categoria na página **exibir alertas** no centro de conformidade e segurança, pois é possível classificar e filtrar alertas com base na categoria.
 
-- **Severidade de alerta** -semelhante à categoria de alerta, você atribui um atributo de gravidade ( **baixo** , **médio** , **alto** ou **informativo** ) a políticas de alerta. Como a categoria de alerta, quando ocorre uma atividade que corresponde às condições da política de alerta, o alerta gerado é marcado com o mesmo nível de gravidade definido para a política de alerta. Novamente, isso permite que você rastreie e gerencie alertas com a mesma configuração de gravidade na página **exibir alertas** . Por exemplo, você pode filtrar a lista de alertas para que apenas os alertas com uma severidade **alta** sejam exibidos.
+- **Severidade de alerta** -semelhante à categoria de alerta, você atribui um atributo de gravidade (**baixo**, **médio**, **alto** ou **informativo**) a políticas de alerta. Como a categoria de alerta, quando ocorre uma atividade que corresponde às condições da política de alerta, o alerta gerado é marcado com o mesmo nível de gravidade definido para a política de alerta. Novamente, isso permite que você rastreie e gerencie alertas com a mesma configuração de gravidade na página **exibir alertas** . Por exemplo, você pode filtrar a lista de alertas para que apenas os alertas com uma severidade **alta** sejam exibidos.
 
     > [!TIP]
     > Ao configurar uma política de alerta, considere a atribuição de uma severidade maior às atividades que podem resultar em conseqüências severamente negativas, como a detecção de malware após a entrega aos usuários, a exibição de dados confidenciais ou classificados, o compartilhamento de dados com usuários externos ou outras atividades que podem resultar em perda de dados ou ameaças de segurança. Isso pode ajudar você a priorizar alertas e as ações tomadas para investigar e resolver as causas subjacentes.
@@ -134,7 +134,7 @@ A tabela também indica o plano do governo dos EUA do Office 365 Enterprise e do
 |**Volume incomum de exclusão de arquivo**|Gera um alerta quando um número excepcionalmente grande de arquivos é excluído no SharePoint ou no OneDrive dentro de um curto período de tempo. Essa política tem uma configuração de severidade **média** .|Governança de informações|E5/G5, defender para Office 365 P2 ou assinatura de complemento do Microsoft 365 e5|
 |**Aumento incomum no email relatado como phishing**|Gera um alerta quando há um aumento significativo no número de pessoas em sua organização usando o suplemento de mensagem de relatório no Outlook para relatar mensagens como email de phishing. Essa política tem uma configuração de **alta** gravidade. Para obter mais informações sobre esse suplemento, confira [usar o suplemento de mensagem de relatório](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).|Gerenciamento de ameaças|Licença de complemento E5/G5 ou defender para Office 365 P2|
 |**Phishing de representação de usuário entregue à caixa de entrada/pasta**<sup>1,</sup><sup>2</sup>|Gera um alerta quando a Microsoft detecta que um administrador ou substituição de usuário permitiu a entrega de uma mensagem de phishing de personificação do usuário para a caixa de entrada (ou outra pasta acessível pelo usuário) de uma caixa de correio. Exemplos de substituições incluem uma regra de caixa de entrada ou de fluxo de emails que permite mensagens de um remetente ou domínio específico ou uma política antispam que permite mensagens de remetentes ou domínios específicos. Essa política tem uma configuração de severidade **média** .|Gerenciamento de ameaças|Licença de complemento E5/G5 ou defender para Office 365 P2|
-|**Usuário impedido de enviar email**|Gera um alerta quando alguém em sua organização não tem permissão para enviar emails de saída. Isso geralmente ocorre quando uma conta é comprometida e o usuário é listado na página **usuários restritos** no centro de conformidade do & de segurança. (Para acessar essa página, vá para **Gerenciamento de ameaças > Revisar > usuários restritos** ). Essa política tem uma configuração de **alta** gravidade. Para obter mais informações sobre usuários restritos, consulte [removendo um usuário, domínio ou endereço IP de uma lista de bloqueios após o envio de email de spam](https://docs.microsoft.com/office365/securitycompliance/removing-user-from-restricted-users-portal-after-spam).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
+|**Usuário impedido de enviar email**|Gera um alerta quando alguém em sua organização não tem permissão para enviar emails de saída. Isso geralmente ocorre quando uma conta é comprometida e o usuário é listado na página **usuários restritos** no centro de conformidade do & de segurança. (Para acessar essa página, vá para **Gerenciamento de ameaças > Revisar > usuários restritos**). Essa política tem uma configuração de **alta** gravidade. Para obter mais informações sobre usuários restritos, consulte [removendo um usuário, domínio ou endereço IP de uma lista de bloqueios após o envio de email de spam](https://docs.microsoft.com/office365/securitycompliance/removing-user-from-restricted-users-portal-after-spam).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
 |||||
 
 > [!NOTE]
@@ -263,7 +263,7 @@ Para ver a qual categoria uma política de alerta padrão é atribuída, confira
 
 Após os alertas terem sido gerados e exibidos na página **exibir alertas** no centro de conformidade e segurança, você pode fazer a triagem, investigar e resolvê-los. Veja algumas tarefas que você pode executar para gerenciar alertas.
 
-- **Atribua um status a alertas.** Você pode atribuir um dos seguintes status a alertas: **ativo** (o valor padrão), **investigando** , **resolvido** ou **Descartado**. Em seguida, você pode filtrar essa configuração para exibir alertas com a mesma configuração de status. Essa configuração de status pode ajudar a acompanhar o processo de gerenciamento de alertas.
+- **Atribua um status a alertas.** Você pode atribuir um dos seguintes status a alertas: **ativo** (o valor padrão), **investigando**, **resolvido** ou **Descartado**. Em seguida, você pode filtrar essa configuração para exibir alertas com a mesma configuração de status. Essa configuração de status pode ajudar a acompanhar o processo de gerenciamento de alertas.
 
 - **Exibir detalhes do alerta.** Você pode selecionar um alerta para exibir uma página de submenu com detalhes sobre o alerta. As informações detalhadas dependem da política de alerta correspondente, mas normalmente incluem o seguinte: nome da operação real que disparou o alerta (como um cmdlet), uma descrição da atividade que disparou o alerta, o usuário (ou a lista de usuários) que disparou o alerta e o nome (e o link para) da política de alerta correspondente.
 
@@ -281,7 +281,7 @@ Após os alertas terem sido gerados e exibidos na página **exibir alertas** no 
 
 - **Suprimir notificações por email.** Você pode desativar (ou suprimir) notificações por email da página de menu de um alerta. Quando você suprimir notificações por email, a Microsoft não enviará notificações quando atividades ou eventos que corresponderem às condições da política de alerta. Mas os alertas serão disparados quando as atividades realizadas pelos usuários atenderem às condições da política de alerta. Você também pode desativar as notificações por email editando a política de alerta.
 
-- **Resolver alertas.** Você pode marcar um alerta como resolvido na página do menu de alerta (que define o status do alerta como **resolvido** ). A menos que você altere o filtro, os alertas resolvidos não são exibidos na página **exibir alertas** .
+- **Resolver alertas.** Você pode marcar um alerta como resolvido na página do menu de alerta (que define o status do alerta como **resolvido**). A menos que você altere o filtro, os alertas resolvidos não são exibidos na página **exibir alertas** .
 
 ## <a name="viewing-cloud-app-security-alerts"></a>Exibindo alertas do Cloud app Security
 
