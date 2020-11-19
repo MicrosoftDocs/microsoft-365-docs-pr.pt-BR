@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Determine onde os dados de cliente do Microsoft 365 estão armazenados em todo o mundo
-ms.openlocfilehash: e450468b54bdbce0e6c01dd3b935922836ab9f90
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 4fd3f480ef2ad3389e9a959695b9654badbda27f
+ms.sourcegitcommit: 0badd6a7af803a52c7c46a4374211cb89307eacf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48493680"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135986"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -31,7 +31,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 As tabelas abaixo mostram onde os dados do cliente são armazenados em repouso para os serviços do Microsoft 365 em todos os locais de nuvem global da Microsoft. Expanda o local do endereço de cobrança do seu país/região para descobrir onde os dados do cliente de cada serviço seriam armazenados.
 
-Os clientes devem visualizar as informações de localização de dados específicos do locatário no seu Microsoft 365 Admin Center em **Configurações | Configurações da organização | Perfil da Organização | Localização dos dados **.
+Os clientes devem visualizar as informações de localização de dados específicos do locatário no seu Microsoft 365 Admin Center em **Configurações | Configurações da organização | Perfil da Organização | Localização dos dados**.
 
 Os locatários do novo Microsoft 365 são padronizados numa localização geográfica baseada no país/região onde a transação da primeira assinatura do locatário foi realizada.
 
@@ -127,6 +127,7 @@ Para data centers específicos de país/região, o seguinte define as cidades on
 | País/Região | Cidade |
 | --- | --- |
 | Austrália | Sydney, Melbourne |
+| Brasil | Rio, Campinas |
 | Canadá | Cidade de Quebec, Toronto |
 | União Europeia | Áustria (Viena), Finlândia (Helsinque), França (Paris, Marseille), Irlanda (Dublin), Países Baixos (Amsterdã) |
 | França | Paris, Marseille |
@@ -892,19 +893,19 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 
 | Serviço | Local |
 | --- | --- |
-| Exchange Online | Geografia Global 3 – Américas |
-| OneDrive for Business | Geografia Global 3 – Américas |
-| SharePoint Online | Geografia Global 3 – Américas |
+| Exchange Online | Brasil |
+| OneDrive for Business | Brasil |
+| SharePoint Online | Brasil |
 | Skype for Business | Estados Unidos |
-| Microsoft Teams | Estados Unidos |
-| Office Online &amp; Mobile | Geografia Global 3 – Américas |
-| EOP | Geografia Global 3 – Américas |
+| Microsoft Teams | Brasil |
+| Office Online &amp; Mobile | Brasil |
+| EOP | Brasil |
 | Intune | Estados Unidos |
-| MyAnalytics | Geografia Global 3 – Américas |
+| MyAnalytics | Brasil |
 | Planner | Estados Unidos |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
-| Serviços do OneNote | Geografia Global 3 – Américas |
+| Serviços do OneNote | Brasil |
 | Stream | Estados Unidos |
 | Quadro de comunicações | Estados Unidos |
 | Formulários | Estados Unidos |
@@ -2912,7 +2913,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -5437,7 +5438,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
