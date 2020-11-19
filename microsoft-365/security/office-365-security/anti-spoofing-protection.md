@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
-ms.openlocfilehash: 631c38a49b3e1fa5217545449c522ccc9cf0d913
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 57d6dc8d9c1935578db15abdbb3e17e72bb64257
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844411"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130824"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -39,11 +39,11 @@ Quando se trata de proteger os usuários, a Microsoft leva a sério a ameaça de
 
 As seguintes tecnologias antifalsificação estão disponíveis na EOP:
 
-- **Inteligência contra falsificação** : Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
+- **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
 
-- **Políticas antiphishing** : Na EOP, a política interna antiphishing permite ativar ou desativar a inteligência contra falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta Lixo Eletrônico ou para a quarentena). As políticas anti-phishing avançadas disponíveis no Microsoft Defender para Office 365 também contêm configurações anti-usurpação de identidade (remetentes e domínios protegidos), configurações de inteligência de caixa de correio e limites de phishing avançados ajustáveis. Para obter mais informações, confira [Políticas antiphishing](set-up-anti-phishing-policies.md) no Microsoft 365.
+- **Políticas antiphishing**: Na EOP, a política interna antiphishing permite ativar ou desativar a inteligência contra falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta Lixo Eletrônico ou para a quarentena). As políticas anti-phishing avançadas disponíveis no Microsoft Defender para Office 365 também contêm configurações anti-usurpação de identidade (remetentes e domínios protegidos), configurações de inteligência de caixa de correio e limites de phishing avançados ajustáveis. Para obter mais informações, confira [Políticas antiphishing](set-up-anti-phishing-policies.md) no Microsoft 365.
 
-- **Autenticação de email** : Um componente integrante de qualquer esforço antifalsificação é o uso de autenticação de email (também conhecida como validação de email) pelos registros SPF, DKIM e DMARC no DNS. Você pode configurar esses registros para seus domínios, para que os sistemas de email de destino possam verificar a validade das mensagens que afirmam ser de remetentes em seus domínios. Para mensagens de entrada, o Microsoft 365 requer autenticação de email para domínios do remetente. Para obter mais informações, confira [Autenticação de email no Microsoft 365](email-validation-and-authentication.md).
+- **Autenticação de email**: Um componente integrante de qualquer esforço antifalsificação é o uso de autenticação de email (também conhecida como validação de email) pelos registros SPF, DKIM e DMARC no DNS. Você pode configurar esses registros para seus domínios, para que os sistemas de email de destino possam verificar a validade das mensagens que afirmam ser de remetentes em seus domínios. Para mensagens de entrada, o Microsoft 365 requer autenticação de email para domínios do remetente. Para obter mais informações, confira [Autenticação de email no Microsoft 365](email-validation-and-authentication.md).
 
 A partir de outubro de 2018, a proteção anti-falsificação está disponível em EOP.
 
@@ -55,7 +55,7 @@ A EOP analisa e bloqueia mensagens que não podem ser autenticadas pela combina�
 
 As mensagens falsificadas têm as seguintes implicações negativas para os usuários:
 
-- **Mensagens falsificadas enganam os usuários** : Uma mensagem falsificada pode induzir o destinatário a clicar em um link e expor suas credenciais, baixar malware ou responder a uma mensagem com conteúdo confidencial (o que é conhecido como comprometimento de email empresarial ou BEC).
+- **Mensagens falsificadas enganam os usuários**: Uma mensagem falsificada pode induzir o destinatário a clicar em um link e expor suas credenciais, baixar malware ou responder a uma mensagem com conteúdo confidencial (o que é conhecido como comprometimento de email empresarial ou BEC).
 
   A seguinte mensagem é um exemplo de phishing que usa o remetente falsificado msoutlook94@service.outlook.com:
 
@@ -69,7 +69,7 @@ As mensagens falsificadas têm as seguintes implicações negativas para os usu�
 
   A mensagem parece legítima, mas o remetente é falso.
 
-- **Os usuários confundem mensagens reais com mensagens falsas** : Mesmo os usuários que conhecem phishing podem ter dificuldade em perceber as diferenças entre mensagens reais e falsificadas.
+- **Os usuários confundem mensagens reais com mensagens falsas**: Mesmo os usuários que conhecem phishing podem ter dificuldade em perceber as diferenças entre mensagens reais e falsificadas.
 
   A seguinte mensagem é um exemplo de uma mensagem real de redefinição de senha da conta de Segurança da Microsoft:
 
@@ -81,7 +81,7 @@ As mensagens falsificadas têm as seguintes implicações negativas para os usu�
 
 A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 
-- **Falsificação dentro da organização** : Também conhecida como falsificação _self-to-self_. Por exemplo:
+- **Falsificação dentro da organização**: Também conhecida como falsificação _self-to-self_. Por exemplo:
 
   - O remetente e o destinatário estão no mesmo domínio:
     > De: humberto@contoso.com <br/> Para: michelle@contoso.com
@@ -104,7 +104,7 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 
   - SFTY é o nível de segurança da mensagem. 9 indica phishing, .11 indica falsificação dentro da organização.
 
-- **Falsificação entre domínios** : Os domínios do remetente e do destinatário são diferentes e não têm relação entre si (também conhecidos como domínios externos). Por exemplo:
+- **Falsificação entre domínios**: Os domínios do remetente e do destinatário são diferentes e não têm relação entre si (também conhecidos como domínios externos). Por exemplo:
     > De: humberto@contoso.com <br/> Para: michelle@tailspintoys.com
 
   As mensagens reprovadas na [autenticação composta](email-validation-and-authentication.md#composite-authentication) devido à falsificação entre domínios contêm os seguintes valores de cabeçalhos:
@@ -133,11 +133,11 @@ Sabe-se que as listas de endereçamento (também conhecidas como listas de discu
 
 Por exemplo, Gabriela Laureano (glaureano@contoso.com) está interessada em observar pássaros, ingressa na lista de endereçamento birdwatchers@fabrikam.com e envia a seguinte mensagem à lista:
 
-> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <br/><br/>Alguém quer conferir esta semana a vista do Monte Rainier?
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier?
 
 O servidor da lista de endereçamento recebe a mensagem, modifica seu conteúdo e a repete aos membros da lista. A mensagem repetida tem o mesmo endereço De (glaureano@contoso.com), mas uma marca é adicionada à linha de assunto e um rodapé é adicionado à parte inferior da mensagem. Esse tipo de modificação é comum em listas de endereçamento, e pode resultar em falsos positivos para falsificação.
 
-> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <br/><br/> Alguém quer conferir esta semana a vista do Monte Rainier? <br/><br/> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier? <p> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
 
 Para ajudar as mensagens da lista de endereçamento a passarem nas verificações antifalsificação, execute as seguintes etapas com base no controle da lista de endereçamento:
 

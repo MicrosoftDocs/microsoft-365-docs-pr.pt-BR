@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os usuários podem aprender como exibir e gerenciar mensagens em quarentena no Exchange Online Protection (EOP) que deveriam ter sido entregues a eles.
-ms.openlocfilehash: 2a8e37dc430af5b3d3c47179c721d83832f01184
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 48c727c442ee6f861499f1a72c687f7b3457c594
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600340"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130846"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Localizar e liberar mensagens em quarentena como usuário no EOP
 
@@ -54,27 +54,16 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
 2. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. Os valores padrão são marcados com um asterisco (<sup>\*</sup>):
 
    - **Recebido**<sup>\*</sup>
-
    - **Remetente**<sup>\*</sup>
-
    - **Assunto**<sup>\*</sup>
-
    - **Motivo da quarentena**<sup>\*</sup>
-
    - **Lançado?**<sup>\*</sup>
-
    - **Tipo de política**<sup>\*</sup>
-
    - **Expira**<sup>\*</sup>
-
    - **Recipiente**
-
    - **ID da mensagem**
-
    - **Nome da política**
-
    - **Tamanho**
-
    - **Direção**
 
    Quando você terminar, clique em **Salvar**, ou clique em **Definido como padrão**.
@@ -82,29 +71,21 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
 3. Para filtrar os resultados, clique em **Filtro**. Os filtros disponíveis são:
 
    - **Hora que expira**: filtre as mensagens assim que elas saírem da quarentena:
-
      - **Hoje**
-
      - **Próximos 2 dias**
-
      - **Próximas 7 semanas**
-
      - **Personalizado**: Insira uma **Data de início** e uma **Data de término**.
 
    - **Hora recebida**: Insira uma **Data de início** e uma **Data de término**.
 
    - **Motivo da quarentena**:
-
      - **Em massa**
-
      - **Spam**
-
      - **Golpe**
-     
+
    - **Tipo de Política**: Filtre mensagens por tipo de política:
      - **Política Anti-phish**:
-     - **Política de filtro de conteúdo hospedado**
-     
+     - **Política de filtro de conteúdo hospedado** (política antispam)
 
    Para limpar o filtro, clique em **Limpar**. Para ocultar o submenu do filtro, clique novamente em **Filtro**.
 
@@ -113,7 +94,7 @@ Como usuário, você pode exibir, liberar e excluir mensagens em quarentena em q
    - **ID da mensagem**: o identificador globalmente exclusivo da mensagem. Se você selecionar uma mensagem na lista, o valor da **ID da mensagem** será exibido no painel **Detalhes** que é exibido. Os administradores podem usar [Rastreamento da mensagem](message-trace-scc.md) para localizar mensagens e seus valores da ID da mensagem correspondentes.
 
    - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
-   
+
    - **Nome da política**: Use o nome completo da política da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
    - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
@@ -165,9 +146,7 @@ Depois de selecionar uma mensagem, você tem opções para o que fazer com as me
 - **Exibir cabeçalho da mensagem**: escolha este link para visualizar o texto do cabeçalho da mensagem. Para analisar os valores e campos de cabeçalho em detalhes, copie o texto do cabeçalho da mensagem para a área de transferência e, em seguida, escolha **Analisador de Cabeçalhos de Mensagens da Microsoft** para acessar o Analisar de Conectividade Remota (clique com o botão direito e escolha **Abrir em uma nova guia** se não quiser deixar o Microsoft 365 para concluir essa tarefa). Cole o cabeçalho da mensagem na página na seção Analisador do cabeçalho da mensagem e escolha **Analisar cabeçalhos**:
 
 - **Visualizar mensagem**: no painel de submenu que é exibido, escolha uma das seguintes opções:
-
   - **Visualização da fonte**: mostra a versão HTML do corpo da mensagem com todos os links desabilitados.
-  
   - **Visualização do texto**: mostra o corpo da mensagem em texto sem formatação.
 
 - **Mensagem de download**: no painel de submenu que é exibido, clique em **Compreendo os riscos de baixar esta mensagem** para salvar uma cópia local da mensagem no formato .eml.
