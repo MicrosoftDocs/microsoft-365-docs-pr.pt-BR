@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1af320ee6151036000e4e8c6fedc4d9152411283
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: bf8672ee6c3332ea6f8522f5086d72e58d1b9048
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530230"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371485"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>Configurações que podem ser alteradas – Área de Trabalho Gerenciada da Microsoft
 
@@ -22,7 +22,7 @@ O Microsoft Managed desktop implanta configurações e políticas que são aplic
 
 As configurações que podem ser configuradas no Microsoft Managed desktop concedem aos administradores de ti uma maneira de personalizar e implantar as configurações exclusivas de sua organização e necessidades de negócios. Essas configurações são adicionais às configurações e políticas de configuração de dispositivo gerenciadas pela área de trabalho gerenciada da Microsoft.  
 
-Alterações de configuração configuráveis são feitas na nuvem e aplicadas a seus dispositivos de área de trabalho gerenciada da Microsoft em grupos de implantação definidos. Esse processo é semelhante à forma como o Microsoft Managed desktop gerencia alterações nas configurações e políticas do configuruation de dispositivos definidas e gerenciadas pelo serviço. Usando o mesmo processo que o Microsoft Managed desktop usa para implantar alterações, você continua a mover sua organização para frente, usando práticas modernas de gerenciamento de ti.
+Alterações de configuração configuráveis são feitas na nuvem e aplicadas a seus dispositivos de área de trabalho gerenciada da Microsoft em grupos de implantação definidos. Esse processo é semelhante à forma como o Microsoft Managed desktop gerencia alterações nas configurações de dispositivo e políticas definidas e gerenciadas pelo serviço. Usando o mesmo processo que o Microsoft Managed desktop usa para implantar alterações, você continua a mover sua organização para frente, usando práticas modernas de gerenciamento de ti.
 
 ## <a name="when-to-use-configurable-settings"></a>Quando usar as configurações configuráveis?
 
@@ -64,7 +64,7 @@ Você configura e testa alterações no portal de administração de área de tr
 Todas as configurações configuráveis são gerenciadas usando o portal de administração do Microsoft Managed desktop. Para obter mais informações, consulte [implantar alterações](config-setting-deploy.md). 
 
 **Etapa 5 – controlar alterações** – acompanhar o progresso de suas alterações no status de implantação. Para cada configuração, você pode:
-- **Acompanhar progresso** – rastreie o status após implantar a alteração. O status será alterado para **em andamento**e, em seguida, **concluído**ou **falha**. Se uma implantação falhar, uma solicitação de suporte será aberta automaticamente para operações de área de trabalho gerenciada da Microsoft para investigar o problema.  
+- **Acompanhar progresso** – rastreie o status após implantar a alteração. O status será alterado para **em andamento** e, em seguida, **concluído** ou **falha**. Se uma implantação falhar, uma solicitação de suporte será aberta automaticamente para operações de área de trabalho gerenciada da Microsoft para investigar o problema.  
 - **Confira a versão implantada** : cada alteração implantada tem um número de versão.
 - **Reverter alterações** – reverter uma alteração interrompe a implantação atual e reverte todos os grupos para as últimas alterações implantadas em todos os grupos. Você está retornando para o último valor de configuração em boas condições.
 - **Validar alterações** – após a conclusão da implantação, valide as alterações aplicadas conforme o esperado.  

@@ -14,12 +14,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 para empresas.
-ms.openlocfilehash: eef22b372df36a4e5d14351df342268c195d04ce
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 4b17f87008f47d45737fcdbe67d5c8425d4f5530
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356986"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371607"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 for Enterprise para a Contoso Corporation
 
@@ -69,9 +69,9 @@ Confira os seguintes artigos para saber mais:
 
 Confira estas configurações e cenários de ti adicionais:
 
-- [COVID-19 resposta e infraestrutura para uma força de obra híbrida](../solutions/contoso-hybrid-workforce.md)
+- [COVID-19 resposta e infraestrutura para trabalho remoto e local](../solutions/contoso-remote-onsite-work.md)
 
-  Saiba como a contoso atualizou sua infraestrutura de acesso remoto para o COVID-19 Pandemic e sua nova infraestrutura de instalações e atualizações para uma força de obra híbrida.
+  Saiba como a contoso atualizou sua infraestrutura de acesso remoto para o COVID-19 Pandemic e sua nova infraestrutura de instalações e atualizações para trabalho remoto e local.
 
 - [Equipe para um projeto confidencial](../solutions/contoso-team-for-top-secret-project.md)
 

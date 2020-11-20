@@ -16,23 +16,23 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 2bb6bff5fae661d755ea19dbb5af8ca62fbacbd8
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 34e0f3cf1ae382dcb256887557af18556d52a7df
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130854"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357882"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou um cliente independente do Exchange Online Protection (EOP), ou organizações sem as caixas de correio do Exchange Online, as mensagens de e-mail de entrada serão automaticamente protegidas contra spam por EOP. A EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) como parte da defesa geral da sua organização contra spams. Para obter mais informações, consulte [Proteção antispam](anti-spam-protection.md).
+Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas da Proteção do Exchange Online (EOP) sem caixas de correio no Exchange Online, as mensagens de email de entrada são automaticamente protegidas contra spam pela EOP. A EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) como parte da defesa geral de sua organização contra spam. Para obter mais informações, confira [Proteção antispam](anti-spam-protection.md).
 
-Os administradores podem visualizar, editar e configurar (mas não excluir) a política antispam padrão. Para maior granularidade, também é possível criar políticas antispam personalizadas aplicadas a determinados usuários, grupos ou domínios na sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
+Os administradores podem exibir, editar e configurar (mas não excluir) a política antispam padrão. Para uma maior granularidade, você também pode criar políticas antispam personalizadas que se aplicam a usuários, grupos ou domínios específicos em sua organização. As políticas personalizadas sempre têm precedência sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Você pode configurar políticas anti-spam no Centro de Conformidade e Segurança ou no PowerShell (organizações do Exchange Online PowerShell para Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
+Você pode configurar políticas antispam no Centro de Conformidade e Segurança ou no PowerShell ( PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio no Exchange Online; PowerShell autônomo da EOP para organizações sem caixas de correio no Exchange Online).
 
 Os elementos básicos de uma política antispam são:
 
@@ -42,26 +42,26 @@ Os elementos básicos de uma política antispam são:
 A diferença entre esses dois elementos não é óbvia quando você gerencia as políticas antispam no Centro de Segurança e Conformidade:
 
 - Ao criar uma política antispam, na verdade, você está criando uma regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo, usando o mesmo nome para ambas.
-- Ao modificar uma política antispam, as configurações relacionadas a nome, prioridade, habilitado ou desabilitado, e filtros de destinatário modificam a regra do filtro de spam. Todas as demais configurações modificam a política de filtro de spam associada.
+- Quando você modifica uma política antispam, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra do filtro de spam. Todas as outras configurações modificam a política de filtro de spam associada.
 - Ao remover uma política antispam, a regra de filtro de spam e a política de filtro de spam associada são removidas.
 
-No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, confira a seção [Usar o PowerShell do Exchange Online ou o PowerShell do EOP autônomo para configurar políticas antispam](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) mais adiante neste tópico.
+No PowerShell do Exchange Online ou no PowerShell autônomo da EOP, você gerencia a política e a regra separadamente. Para obter mais informações, confira a seção [Usar o PowerShell do Exchange Online ou o PowerShell autônomo da EOP para configurar as políticas antispam](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) mais adiante neste tópico.
 
 Cada organização tem uma política antispam interna denominada Padrão com estas propriedades:
 
 - A política é aplicada a todos os destinatários da organização, mesmo que não haja nenhuma regra de filtro de spam (filtros de destinatário) associada à política.
-- A política tem o valor de prioridade personalizado **Menor**, que não pode ser modificado (a política é sempre aplicada por último). As políticas personalizadas que você cria, sempre têm uma prioridade mais alta.
+- A política tem o valor de prioridade personalizado **Menor** que não pode ser modificada (a política é sempre aplicada por último). Todas as políticas personalizadas que você cria sempre têm uma prioridade maior.
 - A política é a padrão (a propriedade **IsDefault** tem o valor `True`), e não é possível excluir a política padrão.
 
 Para aumentar a eficácia da filtragem de spam, crie políticas antispam personalizadas com configurações mais estritas aplicadas a usuários específicos ou a grupos de usuários.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
+- Você abre o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao PowerShell autônomo da EOP, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+- Você precisa ter permissões atribuídas antes de poder executar os procedimentos deste tópico:
 
   - Para adicionar, modificar e excluir políticas anti-spam, você precisa ser membro de um dos seguintes grupos de funções:
 
@@ -85,11 +85,11 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
 3. No submenu **Nova política de filtro de spam** que é aberto, defina as seguintes configurações:
 
-   - **Nome**: insira um nome exclusivo e descritivo para a política. Não use os seguintes caracteres: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.
+   - **Nome**: insira um nome descritivo e exclusivo para a política. Não use os seguintes caracteres: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.
 
-      Caso você tenha criado anteriormente alguma política antispam no EAC (Centro de administração do Exchange) que contenha esses caracteres, renomeie a política no PowerShell. Para obter instruções, confira a seção [Usar o PowerShell para modificar regras de filtro de spam](#use-powershell-to-modify-spam-filter-rules) mais adiante neste tópico.
+      Se você criou anteriormente políticas antispam no Centro de administração do Exchange (EAC) que contém esses caracteres, deve renomear a política antispam no PowerShell. Para obter instruções, confira a seção [Usar PowerShell para modificar regras de filtro de spam](#use-powershell-to-modify-spam-filter-rules), mais adiante neste tópico.
 
-   - **Descrição**: digite uma descrição opcional para a política.
+   - **Descrição**: insira uma descrição opcional para a política.
 
 4. (Opcional) Expanda a seção **Ações de spam e em massa** e verifique ou defina as seguintes configurações:
 
@@ -108,7 +108,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
      ****
 
-     |<span>|Spam|Alto<br/>confiança<br/>spam|Phishing<br/>email|Alto<br/>confiança<br/>phishing<br/>email|Em massa<br/>email|
+     |Ação|Spam|Alto<br/>confiança<br/>spam|Phishing<br/>email|Alto<br/>confiança<br/>phishing<br/>email|Em massa<br/>email|
      |---|:---:|:---:|:---:|:---:|:---:|
      |**Mover mensagem para a pasta Lixo Eletrônico**: a mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
      |**Adicionar cabeçalho X**: adiciona um cabeçalho X ao cabeçalho da mensagem e entrega a mensagem à caixa de correio. <p> Digite o nome do campo do cabeçalho X (não o valor) posteriormente na caixa **Adicionar o texto do cabeçalho X**. <p> Para vereditos de **Spam** e de **Spam de alta confiança**, a mensagem é movida para a pasta Lixo eletrônico.<sup>1,2</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|

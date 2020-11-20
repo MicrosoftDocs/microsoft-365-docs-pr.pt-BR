@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Descreve como se preparar para provisionar usuários para a Microsoft 365 usando a sincronização de diretórios e os benefícios de longo prazo de usar esse método.
-ms.openlocfilehash: b74310b0f444da118699c5ad5fbb68b15519b830
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: e49cc4472b47320650d8a0ca90395b69ae5b6df7
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48773980"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371619"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Preparar-se para a sincronização de diretórios com o Microsoft 365
 
@@ -127,7 +127,7 @@ Os atributos que você precisa preparar estão listados aqui:
     Observe que os caracteres inválidos se aplicam aos caracteres após o delimitador de tipo e ":", de modo que SMTP:User@contso.com seja permitido, mas SMTP:user:M@contoso.com não.
 
     > [!IMPORTANT]
-    > Todos os endereços SMTP (Simple Mail Transport Protocol) devem estar em conformidade com os padrões de mensagens de email. Se houver endereços indesejados ou duplicados, consulte o tópico de ajuda [removendo endereços de proxy duplicados e indesejados no Exchange](https://go.microsoft.com/fwlink/?LinkId=293860).
+    > Todos os endereços SMTP (Simple Mail Transport Protocol) devem estar em conformidade com os padrões de mensagens de email. Remova endereços duplicados ou indesejados se existirem.
 
 - **sAMAccountName**
 
@@ -170,7 +170,7 @@ Os atributos que você precisa preparar estão listados aqui:
 
 ## <a name="3-prepare-the-userprincipalname-attribute"></a>3. Prepare o atributo userPrincipalName
 
-O Active Directory é projetado para permitir que os usuários finais em sua organização entrem em seu diretório usando **sAMAccountName** ou **userPrincipalName** . Da mesma forma, os usuários finais podem entrar no Microsoft 365 usando o nome principal do usuário (UPN) de sua conta corporativa ou de estudante. A sincronização de diretório tenta criar novos usuários no Azure Active Directory usando o mesmo UPN que está no AD DS. O UPN é formatado como um endereço de email.
+O Active Directory é projetado para permitir que os usuários finais em sua organização entrem em seu diretório usando **sAMAccountName** ou **userPrincipalName**. Da mesma forma, os usuários finais podem entrar no Microsoft 365 usando o nome principal do usuário (UPN) de sua conta corporativa ou de estudante. A sincronização de diretório tenta criar novos usuários no Azure Active Directory usando o mesmo UPN que está no AD DS. O UPN é formatado como um endereço de email.
 
 No Microsoft 365, o UPN é o atributo padrão usado para gerar o endereço de email. É fácil obter **userPrincipalName** (no AD DS e no Azure AD) e o endereço de email principal no **proxyAddresses** definido como valores diferentes. Quando estão definidas como valores diferentes, pode haver confusão para administradores e usuários finais.
 

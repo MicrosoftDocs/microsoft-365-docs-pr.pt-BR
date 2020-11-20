@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 5adf57c2397c4de3c5ea8622a2a9be7207ebf152
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 66e4e5c305947f90f935563a3baf0592ce42480a
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379291"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371665"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
@@ -37,7 +37,7 @@ Cada uma das funções abaixo pode ser atribuída para fornecer diferentes níve
 |Administrador Global     | Os administradores com essa função terão **permissões de leitura e gravação para todos os recursos** no portal de administração de área de trabalho gerenciada da Microsoft.         |
 |Leitor global     | Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal de administração de área de trabalho gerenciada da Microsoft.         |
 |Administrador de serviço do Intune     |  Os administradores com essa função terão **permissões de leitura e gravação para recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.       |
-|Administrador de suporte de serviço     | Os administradores com essa função terão **permissões de leitura e gravação para recursos não relacionados à segurança** no portal de administração de área de trabalho gerenciada da Microsoft.         |
+|Administrador de suporte de serviço     | Os administradores com essa função terão **permissões somente leitura para recursos não relacionados às** permissões de segurança e **gravação para gerenciar solicitações de suporte** no portal de administração de área de trabalho gerenciada da Microsoft.         |
 |Administrador de segurança | Os administradores com essa função terão **permissões somente leitura para todos os recursos** e **permissões de gravação para recursos relacionados à segurança** no Microsoft Managed desktop no portal de administração. |
 |Leitor de segurança |Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal de administração de área de trabalho gerenciada da Microsoft.|
 
