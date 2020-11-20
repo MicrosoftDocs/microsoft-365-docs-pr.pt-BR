@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Certifique-se de ter habilitado todos os recursos do Microsoft 365 para maximizar a produtividade do trabalhador remoto e manter o acesso seguro aos seus servidores, dados e nuvem.
-ms.openlocfilehash: b886341adc49ba728856dc39786e926ebfadd3ef
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 6cf956d7d7e895dc328c8551f98e78d0fc42d86c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906734"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357032"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -112,4 +112,6 @@ Use essas etapas para proteger e otimizar o acesso aos servidores e serviços em
 
 [![Os passos para capacitar os trabalhadores remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-Para obter as informações mais recentes da Microsoft sobre o suporte de trabalhadores remotos, consulte o site [Habilitando o trabalho híbrido com o Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
+Para obter as informações mais recentes da Microsoft sobre o suporte de trabalhadores remotos, confira o site [Habilitando o trabalho híbrido com o Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
+
+Para ver como uma organização multinacional fictícia, mas representativa, capacitou seus funcionários remotos, confira a [resposta e infraestrutura da Contoso à COVID-19 para uma força de trabalho híbrida](contoso-hybrid-workforce.md).
