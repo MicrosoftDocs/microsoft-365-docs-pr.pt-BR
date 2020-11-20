@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendimento.
-ms.openlocfilehash: 7a5b52c0378e4d8f2a48ce7cdb56fb1901c25472
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a94a474bf2a5c506f4e6ed02659cd10d371fb779
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546601"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367150"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
@@ -39,12 +39,12 @@ Seu administrador tem um modo de exibição somente leitura em qualquer assinatu
 
 Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendimento que você comprou.
 
-1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
 2. Na guia **produtos** , selecione o ícone de filtro e, em seguida, selecione **autoatendimento**.
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Como comprar mais ou reduzir licenças
 
-1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
 2. Na guia **produtos** , selecione a assinatura para a qual você deseja comprar mais ou reduzir licenças.
 3. Escolha **comprar licenças** ou **remover licenças**.
 4. No painel direito, na caixa **total de licenças** , insira o número total de licenças que você deseja para esta assinatura e, em seguida, escolha **salvar**. Por exemplo, se você tem licenças 100 e deseja adicionar mais 5, digite 105.
@@ -53,17 +53,17 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendimen
 
 ### <a name="to-assign-licenses"></a>Para atribuir licenças
 
-1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
+1. No centro de administração, vá para a **Billing**  >  página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
 2. Escolha a assinatura para a qual você deseja atribuir licenças.
 3. Escolha **atribuir licenças**.
 4. No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
     > [!NOTE]
     > Você só pode atribuir licenças a pessoas em sua organização.
-5. Escolha **atribuir**e, em seguida, escolha **fechar**.
+5. Escolha **atribuir** e, em seguida, escolha **fechar**.
 
 ### <a name="to-unassign-licenses"></a>Para cancelar a atribuição de licenças
 
-1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
+1. No centro de administração, vá para a **Billing**  >  página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
 2. Escolha o produto para o qual você deseja cancelar a atribuição de licenças.
 3. Escolha os usuários dos quais você deseja cancelar a atribuição de licenças.
 4. Escolha **Cancelar atribuição de licenças**.
@@ -71,36 +71,36 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendimen
 
 ## <a name="cancel-a-subscription"></a>Cancelar uma assinatura
 
-1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
-2. Na guia **produtos** , encontre a assinatura que você deseja cancelar. Selecione **mais ações** (três pontos) e, em seguida, selecione **cancelar assinatura**.
-3. No painel **cancelar assinatura** , escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça comentários que você tenha.
-4. Clique em **Salvar**.
+1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+2. Na guia **Produtos**, encontre a assinatura que deseja cancelar. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Cancelar assinatura**.
+3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça comentários que você tenha.
+4. Selecione **Salvar**.
 
 ## <a name="manage-your-payment-details"></a>Gerenciar os detalhes de pagamento
 
 1. No centro de administração, vá para a página perfis de cobrança **de faturas**  >  **& pagamentos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> .
 2. Selecione um perfil de cobrança na lista.
-3. Na página detalhes do perfil de cobrança, em **método de pagamento**, escolha uma das seguintes opções: \
+3. Na página detalhes do perfil de cobrança, em **método de pagamento**, escolha uma das seguintes opções:
     - Se você quiser atualizar um método de pagamento existente, selecione **Editar**.
     - Se você deseja adicionar uma nova forma de pagamento, selecione **substituir**.
 4. No painel direito, insira os detalhes do cartão e, em seguida, escolha **salvar**.
 
 ### <a name="update-an-existing-payment-method"></a>Atualizar uma forma de pagamento existente
 
-1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **cobrança** de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">contas & pagamentos</a> .
 2. Na guia **métodos de pagamento** , escolha um método de pagamento existente na lista.
 3. No painel direito, escolha **Editar**. Você pode alterar o código de segurança, a data de vencimento, o nome do cartão e o endereço.
 4. Faça as alterações necessárias e, em seguida, escolha **salvar**.
 
 ### <a name="add-a-new-payment-method"></a>Adicionar uma nova forma de pagamento
 
-1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **cobrança** de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">contas & pagamentos</a> .
 2. Na guia **métodos de pagamento** , escolha **Adicionar um método de pagamento**.
 3. No painel **Adicionar um método de pagamento** , insira as informações para o novo método de pagamento e, em seguida, escolha **Adicionar**.
 
 ## <a name="view-your-invoices"></a>Exibir suas faturas
 
-1. No centro de administração, vá para a página **cobranças**de faturas  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos</a> .
+1. No centro de administração, vá para a página **cobranças** de faturas  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos</a> .
 2. Na guia **faturas** , selecione a fatura que você deseja exibir. Se nenhuma fatura estiver visível, altere os **últimos 3 meses** para os **últimos seis meses** ou **especifique um intervalo de datas**.
 
 ## <a name="need-help-contact-us"></a>Precisa de ajuda? Entre em contato conosco.

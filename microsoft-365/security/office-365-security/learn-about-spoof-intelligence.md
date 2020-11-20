@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre a inteligência de falsificação na proteção do Exchange Online (EOP), onde você pode permitir ou bloquear remetentes falsificados específicos.
-ms.openlocfilehash: 4d40dae9518b451affc11c6666ee8f7454eceff3
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 62964550be161b16767595890872055b56586f1d
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920639"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367126"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Configurar o spoof Intelligence no EOP
 
@@ -51,9 +51,9 @@ A inteligência de falsificação e, especificamente, a política de inteligênc
 
 Você pode gerenciar a inteligência de falsificação no centro de conformidade & segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam** , use <https://protection.office.com/antispam>. Para ir diretamente para a página **anti-phishing** , use <https://protection.office.com/antiphishing> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>. Para ir diretamente para a página **anti-phishing** , use <https://protection.office.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -89,47 +89,47 @@ Você pode gerenciar a inteligência de falsificação no centro de conformidade
 
 4. Em **decidir se esses remetentes têm permissão para falsificar o** submenu de usuários exibido, selecione uma das seguintes guias:
 
-   - **Seus domínios** : remetentes que falsificam usuários em seus domínios internos.
-   - **Domínios externos** : remetentes que falsificam usuários em domínios externos.
+   - **Seus domínios**: remetentes que falsificam usuários em seus domínios internos.
+   - **Domínios externos**: remetentes que falsificam usuários em domínios externos.
 
-5. Clique em ![ expandir ícone ](../../media/scc-expand-icon.png) na coluna **permitido para falsificação?** . Escolha **Sim** para permitir o remetente falsificado ou escolha **não** para marcar a mensagem como falsificada. A ação é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **mover mensagem para a pasta lixo eletrônico** ). Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
+5. Clique em ![ expandir ícone ](../../media/scc-expand-icon.png) na coluna **permitido para falsificação?** . Escolha **Sim** para permitir o remetente falsificado ou escolha **não** para marcar a mensagem como falsificada. A ação é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **mover mensagem para a pasta lixo eletrônico**). Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
 
    ![Captura de tela mostrando o submenu de remetentes falsificados e se o remetente tem permissão para falsificar](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
    As colunas e os valores que você vê são explicados na lista a seguir:
 
-   - **Usuário falsificado** : a conta de usuário que está sendo falsificada. Este é o remetente da mensagem no endereço de (também conhecido como o `5322.From` endereço) que é mostrado nos clientes de email. A validade desse endereço não é verificada por SPF.
+   - **Usuário falsificado**: a conta de usuário que está sendo falsificada. Este é o remetente da mensagem no endereço de (também conhecido como o `5322.From` endereço) que é mostrado nos clientes de email. A validade desse endereço não é verificada por SPF.
 
      - Na guia **domínios** , o valor contém um único endereço de email ou, se o servidor de email de origem estiver falsificando várias contas de usuário, ele conterá **mais de um**.
 
      - Na guia **domínios externos** , o valor contém o domínio do usuário falsificado, e não o endereço de email completo.
 
-   - **Infraestrutura de envio** : o domínio encontrado em uma pesquisa de DNS inversa (registro PTR) do endereço IP do servidor de email de origem ou o endereço IP, se a fonte não tiver um registro PTR.
+   - **Infraestrutura de envio**: o domínio encontrado em uma pesquisa de DNS inversa (registro PTR) do endereço IP do servidor de email de origem ou o endereço IP, se a fonte não tiver um registro PTR.
 
      Para obter mais informações sobre fontes de mensagens e remetentes de mensagens, consulte [uma visão geral dos padrões de mensagens de email](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards).
 
-   - **n º de mensagens** : o número de mensagens da infraestrutura de envio para sua organização que contêm o remetente falsificado especificado ou remetentes nos últimos 30 dias.
+   - **n º de mensagens**: o número de mensagens da infraestrutura de envio para sua organização que contêm o remetente falsificado especificado ou remetentes nos últimos 30 dias.
 
-   - **n º de reclamações de usuários** : reclamações arquivadas pelos usuários em relação a esse remetente nos últimos 30 dias. As reclamações geralmente estão na forma de envios de lixo eletrônico para a Microsoft.
+   - **n º de reclamações de usuários**: reclamações arquivadas pelos usuários em relação a esse remetente nos últimos 30 dias. As reclamações geralmente estão na forma de envios de lixo eletrônico para a Microsoft.
 
-   - **Resultado da autenticação** : um dos seguintes valores:
+   - **Resultado da autenticação**: um dos seguintes valores:
 
-      - **Aprovado** : o remetente passou por verificações de autenticação de email do remetente (SPF ou DKIM).
-      - **Falha** : o remetente falhou EOP verificações de autenticação do remetente.
-      - **Desconhecido** : o resultado dessas verificações não é conhecido.
+      - **Aprovado**: o remetente passou por verificações de autenticação de email do remetente (SPF ou DKIM).
+      - **Falha**: o remetente falhou EOP verificações de autenticação do remetente.
+      - **Desconhecido**: o resultado dessas verificações não é conhecido.
 
-   - **Decisão definida por** : mostra quem determinou se a infraestrutura de envio tem permissão para falsificar o usuário:
+   - **Decisão definida por**: mostra quem determinou se a infraestrutura de envio tem permissão para falsificar o usuário:
 
        - **Política de inteligência de spoof** (automática)
        - **Administrador** (manual)
 
-   - **Última vista** : a última data em que uma mensagem foi recebida da infraestrutura de envio que contém o usuário falsificado.
+   - **Última vista**: a última data em que uma mensagem foi recebida da infraestrutura de envio que contém o usuário falsificado.
 
-   - **Permitido para falsificar?** : os valores que você vê aqui são:
+   - **Permitido para falsificar?**: os valores que você vê aqui são:
 
-     - **Sim** : as mensagens da combinação de usuário falsificado e infraestrutura de envio são permitidas e não são tratadas como email falsificado.
+     - **Sim**: as mensagens da combinação de usuário falsificado e infraestrutura de envio são permitidas e não são tratadas como email falsificado.
 
-     - **No** : as mensagens da combinação de usuário falsificado e infraestrutura de envio são marcadas como falsificadas. A ação é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **mover mensagem para a pasta lixo eletrônico** ). Consulte a próxima seção para obter mais informações.
+     - **No**: as mensagens da combinação de usuário falsificado e infraestrutura de envio são marcadas como falsificadas. A ação é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **mover mensagem para a pasta lixo eletrônico**). Consulte a próxima seção para obter mais informações.
 
      - **Alguns usuários** (apenas **a guia Domínios** ): uma infraestrutura de envio está falsificando vários usuários, onde alguns usuários falsificados são permitidos e outros não. Use a guia **detalhada** para ver os endereços específicos.
 

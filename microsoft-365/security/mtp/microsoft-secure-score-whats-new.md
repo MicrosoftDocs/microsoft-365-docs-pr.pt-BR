@@ -20,18 +20,26 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: d63994778762968962b2a32f026dbb81af39b664
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0ba3d7a5e46f7e0f8677ce2844c5551bf70739e3
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843811"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367102"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md).
+
+## <a name="november-2020"></a>Novembro de 2020
+
+### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas 3 ações de melhoria relacionadas aos serviços para o Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
+
+- Corrigir o caminho de serviço sem cotação para os serviços do Windows
+- Alterar o caminho do executável do serviço para um local protegido comum
+- Alterar a conta de serviço para evitar a senha em cache no registro do Windows
 
 ## <a name="october-2020"></a>Outubro de 2020
 

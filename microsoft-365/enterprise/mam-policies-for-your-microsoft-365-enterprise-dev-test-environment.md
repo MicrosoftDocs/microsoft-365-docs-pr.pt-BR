@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/09/2019
+ms.date: 11/19/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -14,12 +14,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para adicionar políticas de conformidade de dispositivo do Intune ao seu ambiente de teste do Microsoft 365 for Enterprise.
-ms.openlocfilehash: c1de822e5a97416bd0c672d88f2902d8986638c8
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: d42c9a603ca581941cb5a8f30b9ecd9d6f780759
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487407"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367090"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-for-enterprise-test-environment"></a>Políticas de conformidade de dispositivo para seu ambiente de teste do Microsoft 365 for Enterprise
 
@@ -48,40 +48,31 @@ Se você quiser configurar as políticas de MAM em uma empresa simulada, siga as
 
 ## <a name="phase-2-create-a-device-compliance-policy-for-windows-10-devices"></a>Fase 2: criar uma política de conformidade de dispositivo para dispositivos Windows 10
 
-Nesta fase, crie uma política de conformidade de dispositivo para dispositivos Windows 10.
-  
-1. Vá para o [centro de administração do microsoft 365](https://admin.microsoft.com) e entre na sua assinatura de laboratório de teste do Microsoft 365 com sua conta de administrador global.
-1. Em uma nova guia do navegador, abra o portal do Azure em [https://portal.azure.com](https://portal.azure.com) .
-1. Na caixa de pesquisa do portal do Azure, insira o **Intune**e, em seguida, selecione **Intune**.
-1. Se você vir uma mensagem de **Gerenciamento de dispositivo ainda não habilitada** no painel do **Microsoft Intune** , selecione-a. No painel **autoridade de gerenciamento de dispositivo móvel** , selecione **autoridade MDM do Intune**e selecione **escolher**.
-1. Atualize a guia do navegador.
-1. No painel de navegação esquerdo, selecione **grupos**.
-1. No painel **grupos-todos os grupos** , selecione **+ novo grupo**.
-1. No painel de **grupo** , selecione **Microsoft 365** ou **segurança** para **tipo de grupo?**, insira **usuários do dispositivo gerenciados do Windows 10** em **nome**, selecione **atribuído** em **tipo de associação**e, em seguida, selecione **criar**.
-1. Selecione **Microsoft Intune**.
-1. No painel do **Microsoft Intune** , na lista **tarefas rápidas** , selecione **criar uma política de conformidade**.
-1. No painel **perfis de política de conformidade** , selecione **criar política**.
-1. No painel **criar política** , em **nome**, digite **Windows 10**. Em **plataforma**, selecione **Windows 10 e posterior**, selecione **OK** no painel **política de conformidade do Windows 10** e, em seguida, selecione **criar**.
-1. Selecione **perfis de política de conformidade**e, em seguida, selecione o nome da política do **Windows 10** .
-1. No painel do **Windows 10** , selecione **atribuições**e selecione **grupos para incluir**.
-1. No painel **Selecionar grupos para incluir** , selecione o grupo **usuários do dispositivo gerenciado do Windows 10** e selecione **selecionar**.
-1. Selecione **salvar**, selecione **Microsoft Intune-visão geral**e, em seguida, selecione **aplicativos cliente** no painel de navegação à esquerda.
-1. No painel **aplicativos cliente** , selecione **aplicativos**e, em seguida, selecione **Adicionar**.
-1. No painel **Adicionar aplicativo** , selecione **tipo de aplicativo**e, em seguida, selecione **Windows 10** no **Microsoft 365 Suite**.
-1. No painel **Adicionar aplicativo** , selecione **informações do pacote de aplicativos**.
-1. No painel de **informações do pacote de aplicativos** , digite **Microsoft 365 aplicativos para empresas** em **nome do pacote** e **Descrição do pacote**e, em seguida, selecione **OK**.
-1. No painel **Adicionar aplicativo** , selecione **Configurar pacote de aplicativos**e, em seguida, selecione **OK**.
-1. No painel **Adicionar aplicativo** , selecione **configurações de pacote de aplicativos**.
-1. Em **canal de atualização**, selecione **Enterprise semestral**e, em seguida, selecione **OK**.
-1. No painel **Adicionar aplicativo** , selecione **Adicionar**.
+Nesta fase, você cria uma política de conformidade de dispositivo para dispositivos Windows 10. Esta fase usa o Microsoft Intune e o [centro de administração do gerente de ponto de extremidade da Microsoft](https://go.microsoft.com/fwlink/?linkid=2109431) para adicionar um grupo e criar uma política de conformidade.
 
-Agora você tem uma política de conformidade de dispositivo para testar os aplicativos selecionados na política de conformidade de dispositivo do **Windows 10** e para os membros do grupo de **usuários de dispositivos gerenciados do Windows 10** . Observe que a seleção do **Microsoft 365** como o tipo de grupo cria recursos adicionais.
+1. Vá para o [centro de administração do microsoft 365](https://admin.microsoft.com)e entre na sua assinatura de laboratório de teste do Microsoft 365 com sua conta de administrador global. Selecione o centro de administração do **Gerenciador de pontos de extremidade** . O [centro de administração do Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) é aberto.
+
+    Se uma mensagem semelhante à **que você ainda não habilitou o gerenciamento de dispositivos** for exibida, selecione o Intune como autoridade de MDM. Para obter as etapas específicas, consulte [set the Mobile Device Management Authority](/mem/intune/fundamentals/mdm-authority-set).
+
+    O centro de administração do Endpoint Manager enfoca o gerenciamento de dispositivos e o gerenciamento de aplicativos. Para obter um tour desse centro de administração, consulte [tutorial: passo a passo do Intune no Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager).
+
+2. Em **grupos**, adicione um novo **Microsoft 365** ou grupo de **segurança** chamado **usuários gerenciados do dispositivo Windows 10**, com um tipo de associação **atribuído** . Nas próximas etapas, você atribuirá sua política de conformidade a esse grupo. 
+
+    Para obter as etapas específicas e informações sobre o **Microsoft 365** ou grupos de **segurança** , consulte [Add groups to organizar Users and Devices](/mem/intune/fundamentals/groups-add).
+
+3. Em **dispositivos**, crie uma política de conformidade do Windows 10. Atribua essa política ao grupo de **usuários do dispositivo do Windows 10 gerenciado** que você criou.
+
+    Em sua política, você pode bloquear senhas simples, exigir um firewall, exigir que o serviço Microsoft Defender Antimalware esteja em execução e muito mais. Uma política de conformidade normalmente inclui as configurações básicas ou o mínimo que cada dispositivo deve ter.
+
+    Para obter as etapas específicas e obter informações sobre as configurações de conformidade disponíveis que você pode configurar, consulte [usar políticas de conformidade para definir regras para dispositivos que você gerencia](/mem/intune/protect/device-compliance-get-started).
+
+Quando terminar, você tem uma política de conformidade de dispositivo para testar Membros no grupo de **usuários de dispositivos gerenciados do Windows 10** .
   
 ## <a name="next-step"></a>Próxima etapa
 
 Explore recursos de [Gerenciamento de dispositivos móveis](m365-enterprise-test-lab-guides.md#mobile-device-management) e recursos adicionais em seu ambiente de teste.
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 [Guias de laboratório de teste do Microsoft 365 for Enterprise](m365-enterprise-test-lab-guides.md).
   

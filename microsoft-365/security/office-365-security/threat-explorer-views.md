@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba como usar o Gerenciador de ameaças e o relatório de detecções em tempo real para investigar e responder a ameaças no centro de &amp; conformidade de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83fa2d89c74b5ec1e2de7e65457313f20bbf2681
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: f9412350384c0b2092c376db371e93fa5295c454
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844315"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367184"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Modos de exibição no Gerenciador de ameaças e detecções em tempo real
 
@@ -98,7 +98,7 @@ Para exibir esse relatório, no Explorer (ou detecções em tempo real), escolha
 
 Clique em **remetente** para abrir a lista de opções de exibição. Use esta lista para exibir informações por remetente, destinatários, tipo de relatório (a determinação do usuário de que o email era lixo eletrônico, não lixo eletrônico ou Phish) e muito mais.
 
-Por exemplo, para exibir informações sobre mensagens de email relatadas como tentativas de phishing **Sender** , clique em  >  **tipo de relatório** do remetente, selecione **phishing** e clique no botão atualizar.
+Por exemplo, para exibir informações sobre mensagens de email relatadas como tentativas de phishing **Sender**, clique em  >  **tipo de relatório** do remetente, selecione **phishing** e clique no botão atualizar.
 
 ![Phishing selecionado para o filtro de tipo de relatório](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
@@ -113,9 +113,9 @@ Selecione um item na lista para exibir detalhes adicionais.
 Para exibir esse relatório, no Explorer, escolha **Exibir**  >  **email**  >  **todos os emails**. Este modo de exibição mostra uma visão detalhada da atividade de email, incluindo emails identificados como mal-intencionados devido a phishing ou malware, bem como todos os emails não-mal-intencionados (emails, spam e emails em massa normais).
 
 > [!NOTE]
-> Se você receber um erro que leia **muitos dados a serem exibidos** , adicione um filtro e, se necessário, restrinja o intervalo de datas que você está exibindo.
+> Se você receber um erro que leia **muitos dados a serem exibidos**, adicione um filtro e, se necessário, restrinja o intervalo de datas que você está exibindo.
 
-Para aplicar um filtro, escolha **remetente** , selecione um item na lista e clique no botão atualizar. No nosso exemplo, usamos a **tecnologia de detecção** como um filtro (há várias opções disponíveis). Exibir informações por remetente, domínio do remetente, destinatários, assunto, nome do arquivo de anexo, família de malware, status de proteção (ações executadas por seus recursos e políticas de proteção contra ameaças no Office 365), tecnologia de detecção (como o malware foi detectado) e muito mais.
+Para aplicar um filtro, escolha **remetente**, selecione um item na lista e clique no botão atualizar. No nosso exemplo, usamos a **tecnologia de detecção** como um filtro (há várias opções disponíveis). Exibir informações por remetente, domínio do remetente, destinatários, assunto, nome do arquivo de anexo, família de malware, status de proteção (ações executadas por seus recursos e políticas de proteção contra ameaças no Office 365), tecnologia de detecção (como o malware foi detectado) e muito mais.
 
 ![Exibir dados sobre o email detectado por tecnologia de detecção](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png)
 

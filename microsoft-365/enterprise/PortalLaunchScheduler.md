@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: Este artigo descreve como você pode iniciar seu portal usando o Agendador de lançamento do portal
-ms.openlocfilehash: e5e5850fa7e74f3e3b342e9bb28d17f65b491664
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 7e488caba5e4df47bb3f51f195e093891565d95c
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356662"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367196"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>Iniciar o portal usando o Agendador de lançamento do portal
 
@@ -34,7 +34,7 @@ Há dois tipos de redirecionamento:
 - bidirecional: iniciar um novo portal moderno do SharePoint Online para substituir um portal clássico ou moderno do SharePoint existente 
 - redirecionamento de página temporário: Inicie um novo portal moderno do SharePoint Online com nenhum portal do SharePoint existente
 
-O Agendador de lançamento do portal só está disponível para iniciar portais modernos do SharePoint Online (por exemplo, sites de comunicação). Os lançamentos devem ser agendados pelo menos 7 dias antes. O número de ondas necessárias é determinado pelo número esperado de usuários. Antes de agendar um lançamento de portal, a [ferramenta diagnóstico de página para SharePoint](https://aka.ms/perftool) deve ser executada para verificar se a Home Page no portal está íntegra. No final do lançamento do portal, todos os usuários com permissões para o site poderão acessar o novo site. 
+O Agendador de lançamento do portal só está disponível para iniciar portais modernos do SharePoint Online, por exemplo, sites de comunicação e sites de equipe modernos. Os lançamentos devem ser agendados pelo menos 7 dias antes. O número de ondas necessárias é determinado pelo número esperado de usuários. Antes de agendar um lançamento de portal, a [ferramenta diagnóstico de página para SharePoint](https://aka.ms/perftool) deve ser executada para verificar se a Home Page no portal está íntegra. No final do lançamento do portal, todos os usuários com permissões para o site poderão acessar o novo site. 
 
 Para obter mais informações sobre como iniciar um portal bem-sucedido, siga os princípios básicos, as práticas e as recomendações detalhadas sobre como [criar, iniciar e manter um portal saudável](https://docs.microsoft.com/sharepoint/portal-health). 
 
@@ -70,7 +70,7 @@ O número de ondas necessárias depende do tamanho esperado do lançamento.
 
 O redirecionamento bidirecional envolve a inicialização de um novo portal moderno do SharePoint Online para substituir um portal clássico ou moderno do SharePoint existente. Os usuários em ondas ativas serão redirecionados para o novo site, independentemente de eles navegarem para o site antigo ou novo. Os usuários em uma onda não iniciada que tentar acessar o novo site serão redirecionados de volta para o site antigo até que a onda seja iniciada. 
 
-Se você tiver administradores ou proprietários que precisam acessar os sites antigos e novos sem serem redirecionados, verifique se estão listados usando o `WaveOverrideUsers` parâmetro. Só há suporte para redirecionamento entre a Home Page padrão no site antigo e a Home Page padrão no novo site.
+Só há suporte para redirecionamento entre a Home Page padrão no site antigo e a Home Page padrão no novo site. Se você tiver administradores ou proprietários que precisam acessar os sites antigos e novos sem serem redirecionados, verifique se estão listados usando o `WaveOverrideUsers` parâmetro. Se você tiver administradores ou proprietários que precisam acessar os sites antigos e novos sem serem redirecionados, verifique se estão listados usando o `WaveOverrideUsers` parâmetro. Só há suporte para redirecionamento entre a Home Page padrão no site antigo e a Home Page padrão no novo site.
 
 Para migrar usuários de um site do SharePoint existente para um novo site do SharePoint de uma maneira em estágios:
 
