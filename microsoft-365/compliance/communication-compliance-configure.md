@@ -20,18 +20,18 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b9d7655377b1bb5ff4810fd469efd092bd7a5f67
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: d41965741bc02876cde7e99904194c9f5787202a
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072920"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357186"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
 Use as políticas de conformidade de comunicação para identificar as comunicações do usuário para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de conformidade de comunicação podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md). Se você quiser rever como a contoso configurou rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams, Exchange Online e comunicações do Yammer, confira este [estudo de caso](communication-compliance-case-study.md).
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="subscriptions-and-licensing"></a>Assinaturas e licenciamento
 
 Antes de começar a manter a conformidade de comunicação, você deve confirmar sua [assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) e quaisquer Complementos. Para acessar e usar a conformidade de comunicação, sua organização deve ter uma das seguintes assinaturas ou Complementos:
 
@@ -190,10 +190,10 @@ Para obter mais informações sobre como configurar o Yammer no modo nativo, con
     
     - Escolha se você deseja incluir tipos de informações confidenciais. Esta etapa é onde você pode selecionar os tipos de informações confidenciais padrão e personalizadas. Escolha de tipos de informações confidenciais personalizados existentes ou dicionários de palavras-chave personalizados no assistente de política de conformidade de comunicação. Você pode criar esses itens antes de executar o assistente, se necessário. Você também pode criar novos tipos de informações confidenciais de dentro do assistente de política de conformidade de comunicação.
     
-    - Escolha se você deseja habilitar classificadores. Os classificadores podem detectar linguagem e imagens inadequadas enviadas ou recebidas no corpo de mensagens de email ou outros tipos de texto. Você pode escolher os seguintes classificadores internos: *ameaça* , *profanação* , *assédio dirigido* , *imagens adultas* , *imagens Racy* e *imagens do Gory*.
+    - Escolha se você deseja habilitar classificadores. Os classificadores podem detectar linguagem e imagens inadequadas enviadas ou recebidas no corpo de mensagens de email ou outros tipos de texto. Você pode escolher os seguintes classificadores internos: *ameaça*, *profanação*, *assédio dirigido*, *imagens adultas*, *imagens Racy* e *imagens do Gory*.
 
       > [!CAUTION]
-      > Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos usar os classificadores internos **contra ameaças** , **obscenas** e de **assédio direcionado** .
+      > Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos usar os classificadores internos **contra ameaças**, **obscenas** e de **assédio direcionado** .
 
     - Defina a porcentagem de comunicação a ser revisada.
     

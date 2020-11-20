@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 684e21a8288aee72f6170d54ffc86af3bcb0ece0
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9c8d9dbc0087f1b7311863ea63e578bad3040249
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846259"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357430"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -31,7 +31,7 @@ Use políticas de gerenciamento de risco do insider para identificar atividades 
 
 Para obter mais informações sobre como as políticas de risco do insider podem ajudá-lo a gerenciar riscos em sua organização, consulte [Insider Risk Management in Microsoft 365](insider-risk-management.md).
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="subscriptions-and-licensing"></a>Assinaturas e licenciamento
 
 Antes de começar a usar o gerenciamento de risco do Insider, você deve confirmar sua [assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) e outros Complementos. Para acessar e usar o gerenciamento de risco do Insider, sua organização deve ter uma das seguintes assinaturas ou Complementos:
 
@@ -170,7 +170,7 @@ Antes de configurar uma política, defina as seguintes configurações de risco 
 6. Na página **Exportar alertas** , habilite a exportação de informações de alerta de risco do insider usando as APIs de gerenciamento do Office 365, se necessário.
 7. Na página **grupos de usuários de prioridade** , crie um grupo de usuários de prioridade e adicione usuários se não criados na **etapa 3**.
 8. Na página **fluxos** automáticos de energia, configure um fluxo de modelos de fluxo de risco do insider ou crie um novo fluxo. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#power-automate-flows-preview) para obter orientações passo a passo.
-9. Na **página de ativos de prioridade** , configure os ativos de prioridade para usar os dados do controle físico e da plataforma de acesso importados pelo conector símbolos físico. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#priority-physical-assets-preview) para obter orientações passo a passo.
+9. Na **página de ativos de prioridade**, configure os ativos de prioridade para usar os dados do controle físico e da plataforma de acesso importados pelo conector símbolos físico. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#priority-physical-assets-preview) para obter orientações passo a passo.
 10. Na página **Microsoft Teams** , habilite a integração do Microsoft Teams com o gerenciamento de risco do insider para criar automaticamente uma equipe para colaboração de casos ou usuários. Consulte o artigo [Guia de introdução às configurações de gerenciamento de risco do insider](insider-risk-management-settings.md#microsoft-teams-preview) para obter orientações passo a passo.
 11. Selecione **salvar** para habilitar essas configurações para suas políticas de risco do insider.
 
@@ -181,9 +181,9 @@ As políticas de gerenciamento de risco do insider incluem usuários atribuídos
 1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **políticas** .
 2. Selecione **criar política** para abrir o assistente de política.
 3. Na página **nova política de riscos de insider** , preencha os seguintes campos:
-    - **Nome (obrigatório)** : Insira um nome amigável para a política.
-    - **Descrição (opcional)** : Insira uma descrição para a política.
-    - **Escolher modelo de política (obrigatório)** : selecione um dos [modelos de política](insider-risk-management-policies.md#policy-templates) para definir os tipos de indicadores de risco são monitorados pela política.
+    - **Nome (obrigatório)**: Insira um nome amigável para a política.
+    - **Descrição (opcional)**: Insira uma descrição para a política.
+    - **Escolher modelo de política (obrigatório)**: selecione um dos [modelos de política](insider-risk-management-policies.md#policy-templates) para definir os tipos de indicadores de risco são monitorados pela política.
 
     >[!IMPORTANT]
     >A maioria dos modelos de política tem pré-requisitos que devem ser configurados para que a política Gere alertas relevantes. Se você não tiver configurado os pré-requisitos de política aplicáveis, consulte a **etapa 3** acima.
@@ -194,9 +194,9 @@ As políticas de gerenciamento de risco do insider incluem usuários atribuídos
 4. Selecione **Avançar** para continuar.
 5. Na página **usuários** , selecione **Adicionar usuário ou grupo** ou **escolha prioridade grupos de usuários** para definir quais usuários ou grupos de usuários de prioridade estão incluídos na política, dependendo do modelo de política que você selecionou. Marque a caixa **de seleção todos os usuários e grupos habilitados para email,** se aplicável (se você não tiver selecionado um modelo com prioridade de usuário). Selecione **Avançar** para continuar.
 6. Na página **especificar qual conteúdo priorizar (opcional)** , você pode atribuir as fontes a serem priorizadas para maiores pontuações de risco. No entanto, algumas atividades não gerarão nenhum alerta, a menos que o conteúdo relacionado contenha tipos de informações confidenciais internas ou personalizadas ou tenha sido especificado como uma prioridade nesta página:
-    - **Sites do SharePoint** : selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
-    - **Tipo de informação confidencial** : selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
-    - **Rótulos de sensibilidade** : selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
+    - **Sites do SharePoint**: selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint que você deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - **Tipo de informação confidencial**: selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
+    - **Rótulos de sensibilidade**: selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 7. Selecione **Avançar** para continuar.
 8. Na página **selecionar indicadores de política** , você verá os [indicadores](insider-risk-management-settings.md#indicators) definidos como disponíveis na página indicadores de configurações de **risco do insider**  >  **Indicators** . Se você selecionou um modelo de *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** para habilitar os indicadores de disparo para a política. Selecione os indicadores que você deseja aplicar à política. Se preferir não usar as configurações de limite de política padrão para esses indicadores, desabilite o **uso de limiares padrão recomendados pela Microsoft** e insira os valores de limite para cada indicador selecionado. Se você tiver selecionado pelo menos um indicador do *Office* ou *dispositivo* , selecione os **aceleradores de Pontuação de risco** conforme apropriado. Os aumentos de Pontuação de risco só se aplicam aos indicadores selecionados.
 
@@ -212,4 +212,4 @@ As políticas de gerenciamento de risco do insider incluem usuários atribuídos
 
 Após concluir essas etapas para criar sua primeira política de gerenciamento de risco do Insider, você começará a receber alertas de indicadores de atividade após cerca de 24 horas. Configure as políticas adicionais conforme necessário usando as orientações da etapa 4 deste artigo ou as etapas em [criar uma nova política de risco de insider](insider-risk-management-policies.md#create-a-new-policy).
 
-Para saber mais sobre como investigar alertas de risco do insider e o **painel alertas** , confira [alertas de gerenciamento de risco do insider](insider-risk-management-alerts.md).
+Para saber mais sobre como investigar alertas de risco do insider e o **painel alertas**, confira [alertas de gerenciamento de risco do insider](insider-risk-management-alerts.md).

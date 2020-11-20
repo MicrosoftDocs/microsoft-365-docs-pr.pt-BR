@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 7b2d5b380f71a31302a54cedb6076e6fca54fa86
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: b6a1689ab475b9518c290bf3db03d2144610bf8b
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350741"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367174"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -33,7 +33,7 @@ Você pode usar a política de alerta e as ferramentas de painel de alerta nos c
 As políticas de alerta permitem que você categorize os alertas disparados por uma política, aplique a política a todos os usuários em sua organização, defina um nível de limite para quando um alerta for disparado e decida se receberá notificações por email quando os alertas forem acionados. Há também uma página **exibir alertas** no centro de conformidade e segurança, onde você pode exibir e filtrar alertas, definir um status de alerta para ajudá-lo a gerenciar alertas e, em seguida, ignorar alertas após ter resolvido ou resolvido o incidente subjacente.
 
 > [!NOTE]
-> As políticas de alerta estão disponíveis para organizações com o Microsoft 365 Enterprise, o Office 365 Enterprise ou o Office 365 Brasil E1/F1/G1, E3/G3 ou E5/G5 assinatura. A funcionalidade avançada só está disponível para organizações com uma assinatura do E5/G5 ou para organizações que possuem uma assinatura E1/F1/G1 ou E3 e um Microsoft defender para Office 365 P2 ou uma assinatura do Microsoft 365 E5 conformidade ou Microsoft 365 E5 eDiscovery e auditoria de Complementos. A funcionalidade que requer uma assinatura do E5/G5 ou complemento é realçada neste tópico. Observe também que as políticas de alerta estão disponíveis nos ambientes do Office 365 GCC, GCC High e DoD US governamentais.
+> As políticas de alerta estão disponíveis para organizações com o Microsoft 365 Enterprise, o Office 365 Enterprise ou o Office 365 Brasil E1/F1/G1, E3/G3 ou E5/G5 assinatura. A funcionalidade avançada só está disponível para organizações com uma assinatura do E5/G5 ou para organizações que possuem uma assinatura E1/F1/G1 ou E3 e um Microsoft defender para Office 365 P2 ou uma assinatura do Microsoft 365 E5 ou uma assinatura de complemento de descoberta eletrônica E5 e de auditoria. A funcionalidade que requer uma assinatura do E5/G5 ou complemento é realçada neste tópico. Observe também que as políticas de alerta estão disponíveis nos ambientes do Office 365 GCC, GCC High e DoD US governamentais.
 
 ## <a name="how-alert-policies-work"></a>Como funcionam as políticas de alerta
 
