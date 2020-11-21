@@ -18,23 +18,22 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre como o EOP e o Office 365 protegem você com spam, phishing e prevenção contra malware adicionando uma dica de segurança à parte superior de emails.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e204021bfd79dabd4abdeefaa990da50915eaf0
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: e36887e2bb0146c86a8a4f1526f1e712a38b46ba
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948440"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376614"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
 O Exchange Online Protection (EOP) e o Microsoft 365 protegem você com spam, phishing e prevenção contra malware. Hoje, alguns desses ataques são tão bem criados que parecem legítimos. Enviar mensagens para a pasta lixo eletrônico nem sempre é suficiente. Agora, quando você verificar seu email no Outlook ou no Outlook na Web ou em qualquer cliente de email, o EOP verifica automaticamente o remetente e adiciona uma dica de segurança à parte superior do email.
 
 As dicas de segurança no Outlook não dependem de qual versão do Outlook você está usando, pois a dica de segurança está quebrada aberta e inserida diretamente no corpo da mensagem. Isso significa que a dica de segurança será mostrada em qualquer cliente de email que você estiver usando. Ele é feito no nível de filtro de email e não é renderizado no nível do cliente de email, portanto, não apenas ele aparece em qualquer versão do Outlook, também aparece em qualquer cliente de email.
 
-A dica de segurança — uma mensagem codificada por cores — avisará você sobre mensagens potencialmente prejudiciais. A maioria das mensagens em sua caixa de entrada não terá uma dica de segurança. Você só as verá quando o EOP e o Microsoft 365 tiverem informações necessárias para ajudar a evitar spam, phishing e ataques de malware. Se as dicas de segurança aparecerem em sua caixa de entrada, você poderá usar os exemplos a seguir para saber mais sobre cada tipo de dica de segurança.
+A dica de segurança – uma mensagem codificada por cores – avisará você sobre mensagens potencialmente prejudiciais. A maioria das mensagens em sua caixa de entrada não terá uma dica de segurança. Você só as verá quando o EOP e o Microsoft 365 tiverem informações necessárias para ajudar a evitar spam, phishing e ataques de malware. Se as dicas de segurança aparecerem em sua caixa de entrada, você poderá usar os exemplos a seguir para saber mais sobre cada tipo de dica de segurança.
 
 - Email suspeito (dica de segurança vermelha).
 
