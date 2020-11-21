@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Defina as permissões e funções de usuário do Microsoft Compliance Manager e configure o teste automatizado de ações. Gerenciar histórico de usuários e filtrar o modo de exibição do painel.
-ms.openlocfilehash: d6dd7263779ae7f3e9366c0984360c191a62d5e8
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: bcb75943df88578b30063d8e35877cb2e3e6250b
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072886"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376552"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -30,7 +30,7 @@ ms.locfileid: "49072886"
 
 ## <a name="who-can-access-compliance-manager"></a>Quem pode acessar o gerente de conformidade
 
-O Gerenciador de conformidade está disponível para organizações com o Office 365 e as licenças do Microsoft 365 e para clientes moderados da nuvem da Comunidade do governo dos EUA (GCC). A disponibilidade de avaliação e os recursos de gerenciamento dependem do contrato de licenciamento.  [Exibir detalhes da descrição do serviço](https://go.microsoft.com/fwlink/?linkid=2132371).
+O Gerenciador de conformidade está disponível para organizações com o Office 365 e as licenças do Microsoft 365, e para os clientes da nuvem da Comunidade do governo dos EUA (GCC) moderado e GCC alto. A disponibilidade de avaliação e os recursos de gerenciamento dependem do contrato de licenciamento.  [Exibir detalhes da descrição do serviço](https://go.microsoft.com/fwlink/?linkid=2132371).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -51,6 +51,9 @@ O Gerenciador de conformidade usa um modelo de permissão RBAC (controle de aces
 
 A pessoa que detém a função de administrador global para sua organização pode definir permissões de usuário no centro de conformidade da Microsoft 365, bem como no Azure Active Directory (Azure AD).
 
+> [!NOTE]
+> Os clientes na Comunidade governamental americana (GCC) ambientes altos só podem definir permissões e funções de usuário para o Gerenciador de conformidade no Azure AD. Veja abaixo as instruções do Azure AD e as definições de tipo de função.
+
 Para definir permissões e atribuir funções de dentro do centro de conformidade da Microsoft 365, siga as etapas abaixo:
 
 1. Selecione **permissões** na navegação à esquerda de qualquer lugar no [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
@@ -67,7 +70,7 @@ Para definir permissões e atribuir funções de dentro do centro de conformidad
 
 7. Marque a caixa de seleção ao lado dos nomes que você deseja adicionar e, em seguida, selecione o botão **Adicionar** na parte inferior.
 
-8. Quando você terminar de atribuir usuários, selecione **concluído** , selecione **salvar** e **Fechar**.
+8. Quando você terminar de atribuir usuários, selecione **concluído**, selecione **salvar** e **Fechar**.
 
 ##### <a name="more-about-the-office-365-secruity--compliance-center"></a>Saiba mais sobre o centro de conformidade do Office 365 secruity &
 
@@ -98,6 +101,9 @@ A tabela abaixo mostra as funções permitidas por cada função no Gerenciador 
 
 As configurações do Gerenciador de conformidade no centro de conformidade da Microsoft 365 permitem habilitar e desabilitar o teste automático das ações de melhoria. As configurações também permitem que você gerencie os dados dos usuários associados às ações de melhoria, incluindo a capacidade de reatribuir ações de aperfeiçoamento a um usuário diferente.  Somente as pessoas com um administrador global ou função de administrador do gerente de conformidade podem acessar as configurações do Gerenciador de conformidade.
 
+> [!NOTE]
+> O recurso de teste automatizado não está disponível para clientes em ambientes GCC elevados porque a pontuação segura não está disponível nesses ambientes. Os clientes com GCC altos precisarão implementar e testar manualmente suas ações de melhoria.
+
 ### <a name="set-up-automated-testing"></a>Configurar testes automatizados
 
 Algumas ações de melhoria no Gerenciador de conformidade também são monitoradas pela [Pontuação segura da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score). Você pode configurar o teste automatizado de ações que são monitoradas em conjunto, o que significa que quando uma ação é testada e atualizada na pontuação segura, esses resultados são sincronizados com as mesmas ações no gerente de conformidade e contam em direção à sua pontuação de conformidade.
@@ -116,7 +122,7 @@ O administrador global da sua organização pode alterar as configurações para
 
 4. Selecione o botão aplicável para ativar o teste automático para todas as ações de aprimoramento, desative-a para todas as ações ou ative por ação individual.
 
-5. Se você selecionar **Ativar por ação de aprimoramento** , uma lista mostrará todas as ações de aprimoramento disponíveis para escolher.  Marque a caixa ao lado de qualquer ação que você deseja testar automaticamente.
+5. Se você selecionar **Ativar por ação de aprimoramento**, uma lista mostrará todas as ações de aprimoramento disponíveis para escolher.  Marque a caixa ao lado de qualquer ação que você deseja testar automaticamente.
 
 6. Selecione **salvar** para salvar suas configurações. Você receberá uma mensagem de confirmação na parte superior da tela que a seleção foi salva. Se você receber um aviso de falha, tente novamente.
 
@@ -178,7 +184,7 @@ Você pode reatribuir ações de melhoria de um usuário para outro. Quando voc�
 
 6. No campo **Pesquisar usuários** , digite o nome ou o endereço de email do usuário *para* o qual você deseja atribuir as ações de aprimoramento.
 
-7. Quando você vir o nome do usuário pretendido em **que as ações de aperfeiçoamento serão atribuídas** , selecione o usuário e, em seguida, selecione **atribuir ações**.
+7. Quando você vir o nome do usuário pretendido em **que as ações de aperfeiçoamento serão atribuídas**, selecione o usuário e, em seguida, selecione **atribuir ações**.
 
 8. Quando a reatribuição estiver concluída, você verá uma mensagem de confirmação no painel de submenus confirmando que todas as ações de aprimoramento do usuário anterior foram reatribuídas ao novo usuário. Se você receber um aviso de falha de reatribuição, feche a janela e tente novamente. Para fechar o painel de submenu, selecione **concluído**.
 
@@ -233,8 +239,8 @@ Esta seção realça soluções com ações de melhoria que podem afetar positiv
 
 Esta seção oferece uma visão mais detalhada da sua pontuação de duas maneiras diferentes:
 
-- **Categories** : mostra a porcentagem de sua pontuação geral nas categorias de proteção de dados, como "proteger informações" ou "gerenciar dispositivos".
-- **Avaliações** : mostra a porcentagem do seu progresso no gerenciamento de Avaliações para padrões específicos de conformidade e proteção de dados, normas ou leis, como RGPD ou NIST 800-53.
+- **Categories**: mostra a porcentagem de sua pontuação geral nas categorias de proteção de dados, como "proteger informações" ou "gerenciar dispositivos".
+- **Avaliações**: mostra a porcentagem do seu progresso no gerenciamento de Avaliações para padrões específicos de conformidade e proteção de dados, normas ou leis, como RGPD ou NIST 800-53.
 
 ### <a name="filtering-your-dashboard-view"></a>Filtrando o modo de exibição do painel
 
@@ -268,13 +274,13 @@ O modo de exibição padrão para esta página não mostra ações de aperfeiço
 
 A página ações de melhoria mostra os seguintes pontos de dados para cada ação de melhoria:
 
-- **Pontos obtidos** : o número de pontos alcançados do total disponível por meio da conclusão da ação
-- **Regulamentos** : as regulamentações ou padrões referentes à ação
-- **Grupo** : o grupo ao qual você atribuiu a ação
-- **Soluções** : a solução onde você pode ir para executar a ação
-- **Avaliações** : as avaliações que contêm a ação
-- **Categorias** : a categoria de proteção de dados relacionada (como proteger informações, gerenciar dispositivos etc.)
-- **Status do teste** :
+- **Pontos obtidos**: o número de pontos alcançados do total disponível por meio da conclusão da ação
+- **Regulamentos**: as regulamentações ou padrões referentes à ação
+- **Grupo**: o grupo ao qual você atribuiu a ação
+- **Soluções**: a solução onde você pode ir para executar a ação
+- **Avaliações**: as avaliações que contêm a ação
+- **Categorias**: a categoria de proteção de dados relacionada (como proteger informações, gerenciar dispositivos etc.)
+- **Status do teste**:
     - **Nenhum** – nenhuma atualização de status registrada
     - **Não avaliado** -o teste não foi iniciado
     - **Aprovado** -implementação testada com êxito
@@ -320,18 +326,18 @@ A página avaliações lista todas as [avaliações](compliance-manager-assessme
 
 A página avaliações resume as principais informações sobre cada avaliação:
 
-- **Avaliação** : nome da avaliação
-- **Status** :
+- **Avaliação**: nome da avaliação
+- **Status**:
     - **Concluído** -todos os controles têm um status de "Passed", ou pelo menos um é passado e o restante estão "fora do escopo"
     - **Incompleto** – pelo menos um controle tem um status de "falha"
     - **Nenhum** -todos os controles não foram testados
     - **Em andamento** – as ações de melhoria têm qualquer outro status, incluindo "em andamento", "crédito parcial" ou "não detectada
-- **Progresso da avaliação** : a porcentagem do trabalho realizado em direção à conclusão, conforme medido pelo número de controles testados com êxito
-- **Suas ações de melhoria** : o número de ações concluídas para satisfazer a implementação de seus controles
-- **Ações da Microsoft** : o número de ações concluídas para satisfazer a implementação de controles da Microsoft
-- **Grupo** : nome do grupo ao qual a avaliação pertence
-- **Produto** : serviço Microsoft 365 associado
-- **Regulamentação** : o padrão normativo, política ou legislação que se aplica à avaliação
+- **Progresso da avaliação**: a porcentagem do trabalho realizado em direção à conclusão, conforme medido pelo número de controles testados com êxito
+- **Suas ações de melhoria**: o número de ações concluídas para satisfazer a implementação de seus controles
+- **Ações da Microsoft**: o número de ações concluídas para satisfazer a implementação de controles da Microsoft
+- **Grupo**: nome do grupo ao qual a avaliação pertence
+- **Produto**: serviço Microsoft 365 associado
+- **Regulamentação**: o padrão normativo, política ou legislação que se aplica à avaliação
 
 ### <a name="filtering-your-assessments-view"></a>Filtrando o modo de exibição de avaliações
 

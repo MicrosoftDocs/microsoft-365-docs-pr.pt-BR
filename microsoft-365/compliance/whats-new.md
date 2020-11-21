@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf019e15b1d5b915c58325c7d7c6f160acffe03e
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 27228f37673eee64ae44de9b88b7505d1958c05f
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988849"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376604"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -37,13 +37,84 @@ Se está adicionando novas soluções ao centro de [conformidade da Microsoft 36
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Novidades no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
 
+## <a name="october-2020"></a>Outubro de 2020
+
+### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
+
+[Suporte a idiomas CJK](ediscovery-cjk-support.md). A descoberta eletrônica avançada agora oferece suporte a idiomas de conjunto de caracteres de byte duplo, coletivamente conhecidos como idiomas CJK (inclui chinês simplificado, chinês tradicional, japonês e coreano). Eles podem ser usados em vários cenários de conjunto de revisão avançados.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+- [Escopo do rótulo](sensitivity-labels.md#label-scopes). Ao criar um rótulo de confidencialidade, você verá uma nova opção para definir o escopo do rótulo. Essa opção permite que você configure rótulos apenas para arquivos e emails, contêineres (como sites e equipes do SharePoint) ou ambos.
+- [Marcação de conteúdo dinâmico](sensitivity-labels-office-apps.md#dynamic-markings-with-variables). Ao configurar a marcação de conteúdo para um rótulo de confidencialidade, agora você pode usar as variáveis dinâmicas, como `${Item.Label}` e `${Item.Location}` na cadeia de caracteres de texto do cabeçalho, rodapé ou marca d' água.
+
+## <a name="september-2020"></a>Setembro de 2020
+
+### <a name="spotlight-compliance-manager"></a>Spotlight: gerente de conformidade
+
+Anunciado no Ignite este ano, a pontuação de conformidade é remarcada como [gerente de conformidade](compliance-manager.md). Esta versão completa a transição da Home Page anterior do Gerenciador de conformidade no portal de confiança do serviço e apresenta uma solução de gerenciamento de conformidade de ponta a ponta no centro de conformidade da Microsoft 365.
+
+Assista ao vídeo abaixo para saber como o Gerenciador de conformidade pode ajudar a simplificar o modo como sua organização gerencia a conformidade.
+<br>
+<br>
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FGYZ]
+
+### <a name="advanced-audit"></a>Auditoria Avançada
+
+- Nova retenção de 10 anos de logs de auditoria ajuda a oferecer suporte a investigações de longa duração e responder a obrigações normativas, legais e internas.
+- [Três novos eventos cruciais](advanced-audit.md#access-to-crucial-events-for-investigations). Os novos eventos a seguir podem ajudá-lo a investigar possíveis violações e determinar o escopo de comprometimento: Send, SearchQueryInitiatedExchange e SearchQueryInitiatedSharePoint.
+
+### <a name="communication-compliance"></a>Conformidade em comunicações
+
+- [Grupos de função atualizados](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance). Os grupos de funções de conformidade de comunicação agora correspondem à estrutura do grupo de função disponível para a solução de gerenciamento de risco do insider
+- [Painel de relatórios](communication-compliance-feature-reference.md#reports-preview). Seu local central para exibir todos os relatórios de conformidade de comunicação. Os widgets de relatório fornecem uma visão rápida das ideias mais comumente necessárias para uma avaliação geral do status das atividades de conformidade de comunicação.
+- [Fluxos automatizados de energia](communication-compliance-feature-reference.md#power-automate-flows-preview). Configurar fluxos para automatizar tarefas para alertas e usuários, notificar os gerentes quando os usuários acionarem alertas e muito mais.
+- [Ação de remediação aprimorar a classificação](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action). Alertas que contenham itens que correspondam aos classificadores estagiários podem se beneficiar de comentários para ajudar a minimizar falsos positivos em sua organização. A opção **melhorar classificação** permite que você forneça comentários se os itens detectados correspondem ao classificador configurado na política de conformidade de comunicação relacionada. Você pode até mesmo sugerir outros classificadores para associar ao item para melhorar a precisão de correspondência para futuros alertas.
+
+### <a name="data-connectors"></a>Conectores de dados
+
+- [Novos conectores de dados de terceiros](archiving-third-party-data.md#third-party-data-connectors). 25 novos conectores de dados, incluindo 14 conectores de Globanet e 8 de telemessage.
+- [Conector símbolos físico](import-physical-badging-data.md). Importe dados de símbolos físicos, como eventos de acesso físico bruto do funcionário ou qualquer alarme de acesso físico gerado pelo sistema símbolos da sua organização. Os exemplos incluem entradas para edifícios, salas de servidor ou data centers. Os dados do símbolos físico podem ser usados pela solução de gerenciamento de riscos Insider para ajudar a proteger sua organização contra atividades mal-intencionadas ou roubo de dados dentro da organização.
+
+### <a name="insider-risk-management"></a>Gerenciamento de risco interno
+
+- [Integração do Microsoft Teams](insider-risk-management-settings.md#microsoft-teams-preview). Quando a integração com o Microsoft Teams é ativada nas configurações de risco do Insider, você pode coordenar e colaborar com outros participantes no Teams em tarefas, como compartilhamento e armazenamento seguro de dados relacionados a casos individuais, controle e revisão de atividades de resposta de analistas e investigadores e muito mais.
+- [Fluxos automatizados de energia](insider-risk-management-settings.md#power-automate-flows-preview). Configurar fluxos para automatizar tarefas importantes para casos e usuários, como recuperar as informações de usuário, alerta e caso para compartilhar com partes interessadas e outros aplicativos, automatizar ações como postar em anotações de casos e muito mais.
+- [Explorador de atividade](insider-risk-management-alerts.md#activity-explorer-preview). Disponível ao revisar alertas, o explorador de atividade fornece investigadores e analistas com uma ferramenta analítica abrangente para a busca detalhada de cada alerta. Revise rapidamente uma linha do tempo de uma atividade arriscada detectada e identifique e filtre todas as atividades de risco associadas a alertas.
+
+### <a name="retention-policies-and-retention-labels"></a>Políticas de retenção e rótulos de retenção
+
+- [Suporte para o Yammer](retention-policies-yammer.md). Agora você pode usar as políticas de retenção para reter e excluir mensagens de comunidade do Yammer e mensagens privadas.
+- [Aplicar rótulos às gravações de reuniões do teams](apply-retention-labels-automatically.md#microsoft-teams-meeting-recordings). Ao criar uma política de rotulação automática, use o editor de consulta de palavra-chave para identificar as gravações de reunião do teams que estão armazenadas nas contas do OneDrive dos usuários ou no SharePoint.
+
+### <a name="records-management"></a>Gerenciamento de registros
+
+[Suporte para registros normativos](declare-records.md#how-to-display-the-option-to-mark-content-as-a-regulatory-record). A classificação de um rótulo como registro normativo aumenta as restrições colocadas no conteúdo ao qual o rótulo é aplicado e limita as ações de gerenciamento disponíveis para o próprio rótulo. Por exemplo, após ser aplicada ao conteúdo, ninguém, nem mesmo um administrador global, pode remover o rótulo. [Saiba mais](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked) sobre quais ações são permitidas e bloqueadas para registros normativos.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+[Suporte para clientes do governo dos EUA](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description). Os rótulos de confidencialidade agora têm suporte para clientes GCC, GCC High e DoD, apenas para o cliente e scanner de rotulação Unificação de proteção de informações do Azure.
+
+### <a name="trainable-classifiers"></a>Classificadores de treinamento
+
+Novos recursos de retreinamento e feedback ajudam a melhorar a precisão e a minimizar as correspondências falsas positivas para todos os classificadores personalizados e alguns classificadores pré-qualificados. Esse fluxo permite que você forneça comentários sobre se os itens correspondem a determinados classificadores, sugerem que outros classificadores são associados a itens e retreinam classificadores para refinar e melhorar a precisão da correspondência.
+
+Esse novo recurso está incluído nos seguintes recursos:
+
+> [!NOTE]
+> Para todos os recursos, se você fornecer pelo menos 30 respostas de comentários, criaremos uma versão retreinada desse classificador que pode ser revisada. Se houver uma melhoria, você poderá republicar o classificador.
+
+- [Classificadores estagiários](classifier-learn-about.md#retraining-classifiers). Para melhorar a precisão dos classificadores publicados, você pode fornecer comentários sobre se os itens detectados correspondem ao classificador.
+- [Conformidade com comunicação](classifier-how-to-retrain-comms-compliance.md). A nova ação melhorar a correção de **classificação** permite que você forneça comentários se um item de um alerta de conformidade de comunicação corresponde ao classificador configurado na política de conformidade de comunicação.
+- [Gerenciador de conteúdo](classifier-how-to-retrain-content-explorer.md). Se você configurar uma política de rotulação automática de retenção para aplicar automaticamente rótulos às mensagens de email que correspondam a classificadores estagiários, você pode usar o Gerenciador de conteúdo para revisar os itens rotulados e fornecer comentários se os itens correspondem ao classificador.
+
 ## <a name="august-2020"></a>Agosto de 2020
 
 ### <a name="spotlight-insider-risk-and-communication-compliance-updates"></a>Spotlight: atualizações de conformidade de risco e comunicação do insider
 
 Vários recursos novos e aprimorados atingiram a visualização pública neste mês:
 
-**Gerenciamento de risco interno**
+**Gerenciamento de risco do insider**
 
 - Confira nossos seis novos [modelos de política](insider-risk-management-policies.md#policy-templates):
     - Vazamentos de dados por usuários de prioridade
@@ -101,7 +172,7 @@ A atividade de administração relacionada à retenção agora está gravada e d
 Para ajudá-lo a entender quais soluções de conformidade são usadas para proteger e controlar os dados confidenciais da sua organização, criamos duas novas páginas de aterrissagem com visões gerais de como as soluções funcionam juntas para atingir essas metas, incluindo links para documentos relacionados, para que você possa se aprofundar.
 
 [Proteção de informações da Microsoft no Microsoft 365](information-protection.md)<br>
-[Governança de informações da Microsoft no Microsoft 365](manage-Information-governance.md)
+[Governança de Informações da Microsoft no Microsoft 365](manage-Information-governance.md)
 
 ### <a name="advanced-ediscovery-add-non-custodial-data-sources-to-your-cases"></a>Descoberta eletrônica avançada: adicionar fontes de dados não custodial a seus casos
 
@@ -326,7 +397,7 @@ Aqui está um resumo das novas soluções que você encontrará. Fique atento pa
 |Catálogo de soluções (versão prévia) <br/>|O catálogo de soluções é seu ponto de partida para descoberta, aprendizado e rápida introdução às soluções de gerenciamento de conformidade e risco. O catálogo é organizado em três categorias de conformidade, cada uma contendo detalhes sobre as soluções que compõem essa categoria. As categorias incluem proteção de informações & governança, gerenciamento de risco do insider e resposta de & de descoberta <br/>|[Visão geral do catálogo de soluções (versão prévia)](microsoft-365-solution-catalog.md)|
 |Conformidade de comunicação (visualização) <br/>|A conformidade com comunicações faz parte da nova categoria de gerenciamento de riscos do insider que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. A solução estende os recursos de políticas de supervisão no Office 365, apresentando vários aprimoramentos novos, como modelos inteligentes, fluxos de trabalho de correção flexíveis e ideias acionáveis. <br/>|[Conformidade de comunicação no Microsoft 365 (versão prévia)](communication-compliance.md)|
 |Classificação de dados (prévia) <br/>|Nossa nova página de classificação de dados contém ideias poderosas e ferramentas para ajudá-lo a descobrir e avaliar como as informações e os rótulos confidenciais são usados em conteúdo em toda a organização. Examine o conteúdo que contém informações confidenciais ou tenha rótulos aplicados, explore a atividade de etiquetas nos locais do Microsoft 365, crie tipos de informações confidenciais personalizados e muito mais.<br/>|[Visão geral da classificação de dados (visualização)](data-classification-overview.md)|
-|Classificadores estagiários (visualização) <br/>|Essa nova ferramenta poderosa usa o nosso mecanismo de aprendizado de máquina para ajudar a identificar categorias de conteúdo em sua organização, como documentos regulatórios ou contratos de funcionários. Depois de criado, os classificadores podem ser usados em várias soluções de conformidade para detectar conteúdo relacionado e classificá-lo, protegê-lo, mantê-lo e muito mais.<br/>|[Saiba mais sobre classificadores treináveis (visualização)](classifier-learn-about.md)|
+|Classificadores de treinamento (visualização) <br/>|Essa nova ferramenta poderosa usa o nosso mecanismo de aprendizado de máquina para ajudar a identificar categorias de conteúdo em sua organização, como documentos regulatórios ou contratos de funcionários. Depois de criado, os classificadores podem ser usados em várias soluções de conformidade para detectar conteúdo relacionado e classificá-lo, protegê-lo, mantê-lo e muito mais.<br/>|[Saiba mais sobre classificadores treináveis (visualização)](classifier-learn-about.md)|
 
 #### <a name="updated-compliance-solutions"></a>Soluções de conformidade atualizadas
 
@@ -353,20 +424,8 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 |Importar arquivos PST|Governança de informações > importar arquivos PST <br/> https://protection.office.com/importV2 |Guia importar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Visão geral da importação dos arquivos PST da sua organização](importing-pst-files-to-office-365.md)|
 |Explorador de atividade de rótulo|Gerenciador de atividade de > de governança de informações <br/> https://protection.office.com/labelexplorer |Classificação de dados > guia Explorador de atividade <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Exibir atividade do seu conteúdo rotulado (visualização)](data-classification-activity-explorer.md)|
 |Rótulos de retenção e políticas de rótulo |Guias de > de classificação > rótulos e políticas de rótulo <br/> https://protection.office.com/retentionlabels |Guias de controle de > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [Visão geral de rótulos de retenção](retention.md)|
-|Políticas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Saiba mais sobre as políticas de retenção e rótulos de retenção](retention.md)|
+|Políticas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)|
 |Tipos de informações confidenciais|Classificação > tipos de informações confidenciais <br/> https://protection.office.com/sensitivetypes |Guia tipos de informações confidenciais > classificação de dados <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)|
 |Rótulos de confidencialidade e políticas de rótulo|Rótulos de classificação > de sensibilidade > rótulos e políticas de rótulo <br/> https://protection.office.com/sensitivity |Guias de proteção de informações > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md) |
 |Garantia do serviço|Garantia do serviço <br/> https://protection.office.com/serviceassurance/dashboard |No momento, os recursos de garantia de serviço só podem ser acessados no centro de conformidade & segurança do Office 365. |[Garantia de serviço no Centro de Conformidade e Segurança](service-assurance.md)|
 |Supervisão|Supervisão <br/> https://protection.office.com/supervisoryreviewv2 |Conformidade em comunicações <br/> https://compliance.microsoft.com/supervisoryreview |[Conformidade de comunicação no Microsoft 365 (versão prévia)](communication-compliance.md) |
-
-## <a name="september-2019"></a>Setembro de 2019
-
-Está imaginando por que ele está silencioso no lançamento frontal este mês? Temos uma cabeça para a criação de soluções de conformidade novas e inovadoras que serão anunciadas no [Microsoft Ignite](https://www.microsoft.com/ignite) em novembro. Fique atento!
-
-### <a name="new-encryption-options-for-sensitivity-labels"></a>Novas opções de criptografia para rótulos de confidencialidade 
-
-Ao configurar a criptografia para um rótulo de confidencialidade, agora você tem duas opções que permitem aos usuários atribuir permissões ao aplicarem manualmente o rótulo a emails e documentos:<br>
-- Ao aplicar o rótulo ao **email do Outlook** , os usuários podem impor restrições equivalentes à opção não encaminhar. Os destinatários poderão ler a mensagem, mas não encaminhar, imprimir ou copiar o conteúdo.
-- Ao aplicar o rótulo a **arquivos do Word, PowerPoint e Excel** , os usuários serão solicitados a atribuir permissões de acesso a usuários e grupos específicos.
-
-Vá para [restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md#let-users-assign-permissions) para saber mais.

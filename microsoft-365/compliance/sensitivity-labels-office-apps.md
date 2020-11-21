@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: de005e40cf346c8dd6e02e0394272a97b186920f
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 415f9345c3634adf62c42b9e13192be5ad7ea795
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131104"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371689"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -215,7 +215,7 @@ No entanto, a conta de convidado automática não é criada imediatamente devido
 
 Os aplicativos do Office aplicam a marcação e a criptografia de conteúdo com um rótulo de confidencialidade de forma diferente, dependendo do aplicativo usado.
 
-| Aplicativo | Marcação de conteúdo | Criptografia |
+| App | Marcação de conteúdo | Criptografia |
 | --- | --- | --- |
 | Word, Excel, PowerPoint em todas as plataformas | Imediatamente | Imediatamente |
 | Outlook para PC e Mac | Após o Exchange Online enviar o email | Imediatamente |
@@ -258,6 +258,41 @@ Ao configurar um rótulo de confidencialidade para marcações de conteúdo, voc
 
 > [!NOTE]
 > A sintaxe dessas variáveis diferencia maiúsculas de minúsculas.
+
+#### <a name="setting-different-visual-markings-for-word-excel-powerpoint-and-outlook"></a>Definição de marcações visuais diferentes para Word, Excel, PowerPoint e Outlook
+
+Como variável adicional, você pode configurar marcações visuais por tipo de aplicativo do Office usando uma instrução de variável "If. app" na sequência de texto e identificar o tipo de aplicativo usando os valores **Word**, **Excel**, **PowerPoint** ou **Outlook**. Você também pode abreviar esses valores, o que será necessário se você quiser especificar mais de um na mesma instrução If. app.
+
+> [!NOTE]
+> Para fins de integridade, as instruções do Outlook são incluídas, embora atualmente com suporte apenas pelo cliente de rotulação unificado de proteção de informações do Azure.
+
+Use a seguinte sintaxe:
+
+```
+${If.App.<application type>}<your visual markings text> ${If.End}
+```
+
+Da mesma forma que as outras marcações visuais dinâmicas, a sintaxe diferencia maiúsculas de minúsculas.
+
+Exemplos:
+
+- **Definir texto de cabeçalho somente para documentos do Word:**
+
+    `${If.App.Word}This Word document is sensitive ${If.End}`
+
+    Somente em cabeçalhos de documento do Word, o rótulo aplica o texto do cabeçalho "este documento do Word é confidencial". Nenhum texto de cabeçalho é aplicado a outros aplicativos do Office.
+
+- **Definir texto de rodapé para Word, Excel e Outlook e texto de rodapé diferente para o PowerPoint:**
+
+    `${If.App.WXO}This content is confidential. ${If.End}${If.App.PowerPoint}This presentation is confidential. ${If.End}`
+
+    No Word, no Excel e no Outlook, o rótulo aplica o texto do rodapé "este conteúdo é confidencial". No PowerPoint, o rótulo aplica o texto do rodapé "esta apresentação é confidencial".
+
+- **Definir texto de marca d' água específica para Word e PowerPoint e, em seguida, texto de marca d' água para Word, Excel e PowerPoint:**
+
+    `${If.App.WP}This content is ${If.End}Confidential`
+
+    No Word e PowerPoint, o rótulo aplica o texto de marca d' água "este conteúdo é confidencial". No Excel, o rótulo aplica o texto de marca d' água "confidencial". No Outlook, o rótulo não aplica qualquer texto de marca d' água porque as marcas d' água como marcas visuais não são suportadas pelo Outlook.
 
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 

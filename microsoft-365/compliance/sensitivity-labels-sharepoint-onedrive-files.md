@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 84628cdf1e56bfcdf72bc5aca7aed61eba6a7782
-ms.sourcegitcommit: 2beefb695cead03cc21d6066f589572d3ae029aa
+ms.openlocfilehash: 0feb98c6a0040ad67b4607062abdf0be5b5fbdb8
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349687"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376324"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -62,7 +62,7 @@ Você sempre tem a opção de desabilitar rótulos de confidencialidade para arq
 
 Se você estiver protegendo documentos no SharePoint usando o gerenciamento de direitos de informação (IRM) do SharePoint, verifique a seção [Gerenciamento de direitos de informação (IRM) e rótulos de confidencialização do SharePoint](#sharepoint-information-rights-management-irm-and-sensitivity-labels) nesta página. 
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Esses novos recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
@@ -218,6 +218,26 @@ Para obter os GUIDs de seus rótulos de confidencialidade, use o cmdlet [Get-Lab
     ``` 
 
 Para obter mais informações sobre como usar propriedades gerenciadas, consulte [gerenciar o esquema de pesquisa no SharePoint](https://docs.microsoft.com/sharepoint/manage-search-schema).
+
+## <a name="remove-encryption-for-a-labeled-document"></a>Remover a criptografia de um documento rotulado
+
+Pode haver raras ocasiões em que um administrador do SharePoint precisa remover a criptografia de um documento armazenado no SharePoint. Qualquer usuário que tenha o [direito de uso de gerenciamento de direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) de exportação ou controle total atribuído a eles para esse documento pode remover a criptografia que foi aplicada pelo serviço de gerenciamento de direitos do Azure da proteção de informações do Azure. Por exemplo, os usuários com um desses direitos de uso podem substituir um rótulo que aplica criptografia a um rótulo sem criptografia. Como alternativa, um [superusuário](https://docs.microsoft.com/azure/information-protection/configure-super-users) pode baixar o arquivo e salvar uma cópia local sem a criptografia.
+
+Como alternativa, um administrador global ou [administrador do SharePoint](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) pode executar o cmdlet [Unlock-SPOSensitivityLabelEncryptedFile](https://docs.microsoft.com/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) , que remove o rótulo de confidencialidade e a criptografia. Este cmdlet é executado mesmo que o administrador não tenha permissões de acesso para o site ou arquivo, ou se o serviço Azure Rights Management não estiver disponível. 
+
+Por exemplo:
+
+```powershell
+Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"
+```
+
+Requisitos:
+
+- SharePoint Online Management Shell versão 16.0.20616.12000 ou posterior.
+
+- A criptografia foi aplicada por um rótulo de confidencialidade com configurações de criptografia definidas pelo administrador (as configurações de rótulo [atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now) ). Não há suporte para a [criptografia de chave dupla](encryption-sensitivity-labels.md#double-key-encryption) para este cmdlet.
+
+O texto de justificativa é adicionado ao [evento de auditoria](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) do rótulo de **confidencialidade removido do arquivo**, e a ação de descriptografia também é registrada no [log de uso de proteção da proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/log-analyze-usage).
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>Como desabilitar rótulos de confidencialidade para o SharePoint e o OneDrive (recusar)
 

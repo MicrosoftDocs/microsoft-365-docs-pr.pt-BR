@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Encontre respostas para perguntas frequentes sobre o Gerenciador de conformidade da Microsoft, que ajuda as organizações a simplificar e automatizar avaliações de risco.
-ms.openlocfilehash: 91b5957d843a2e3fba22a1a9f1e630fbfede8713
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 9bf20b74e26f1231630d4a45856813177deb55c7
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087064"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376532"
 ---
 # <a name="compliance-manager-frequently-asked-questions"></a>Perguntas frequentes sobre o Gerenciador de conformidade
 
@@ -73,7 +73,7 @@ O Gerenciador de conformidade é uma solução de ponta a ponta no centro de con
 
 ## <a name="are-there-licensing-requirements-for-using-compliance-manager"></a>Há requisitos de licenciamento para usar o Gerenciador de conformidade?
 
-Sim. A versão GA do gerente de conformidade contém novos termos de licenciamento. Todas as organizações com o Office 365 e as licenças do Microsoft 365 e clientes moderados da Comunidade governamental americana (GCC) têm acesso ao Gerenciador de conformidade. No entanto, as avaliações disponíveis para sua organização e o modo de gerenciamento de modelos de avaliação dependem do contrato de licenciamento. Visite a [orientação de licenciamento da Microsoft 365 para segurança e conformidade](https://go.microsoft.com/fwlink/?linkid=2132371) para obter detalhes.
+Sim. A versão GA do gerente de conformidade contém novos termos de licenciamento. Todas as organizações com o Office 365 e as licenças do Microsoft 365, e clientes da Comunidade do governo dos EUA (GCC) moderada e GCC alta, têm acesso ao Gerenciador de conformidade. No entanto, as avaliações disponíveis para sua organização e o modo de gerenciamento de modelos de avaliação dependem do contrato de licenciamento. Visite a [orientação de licenciamento da Microsoft 365 para segurança e conformidade](https://go.microsoft.com/fwlink/?linkid=2132371) para obter detalhes.
 
 ## <a name="if-i-have-a-high-score-does-it-mean-im-fully-compliant"></a>Se eu tiver uma pontuação alta, isso significa que estou totalmente em conformidade?
 

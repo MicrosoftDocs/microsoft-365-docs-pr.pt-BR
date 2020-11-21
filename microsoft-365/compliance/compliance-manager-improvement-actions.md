@@ -14,16 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como executar a implementação e os testes nos controles do Gerenciador de conformidade da Microsoft. Atribuir trabalho, documentação de armazenamento e relatórios de exportação.
-ms.openlocfilehash: 99b08ca1336c3f347764230896af47fe1486d4b2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4b7ece89752a2c3e54a0a69bade2f489feacd0c3
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204272"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376522"
 ---
 # <a name="assign-and-complete-improvement-actions-in-compliance-manager"></a>Atribuir e concluir ações de aperfeiçoamento no gerente de conformidade
 
-**Neste artigo:** Este artigo explica como **gerenciar seu fluxo de trabalho de conformidade** com ações aprimoradas. Saiba como **atribuir ações de melhoria** para implementação e teste, **gerenciar atualizações**e exportar **relatórios**.
+**Neste artigo:** Este artigo explica como **gerenciar seu fluxo de trabalho de conformidade** com ações aprimoradas. Saiba como **atribuir ações de melhoria** para implementação e teste, **gerenciar atualizações** e exportar **relatórios**.
 
 ## <a name="manage-compliance-workflows-with-improvement-actions"></a>Gerenciar fluxos de trabalho de conformidade com ações de melhoria
 
@@ -56,7 +56,7 @@ Depois de identificar o destinatário apropriado, certifique-se de que ele tenha
 
 2. No painel de atalho editar status, selecione a caixa **atribuído a** para mostrar uma lista de **pessoas sugerida** dos usuários. Você pode selecionar o usuário na lista ou digitar o endereço de email da pessoa à qual deseja atribuí-lo.
 
-3. Selecione **salvar e fechar**. O usuário atribuído receberá um email explicando que a ação de aprimoramento foi atribuída a eles, com um link direto para a ação de aprimoramento.
+3. Selecione **salvar e fechar**. O usuário atribuído receberá um email explicando que a ação de aprimoramento foi atribuída a eles, com um link direto para a ação de aprimoramento. (Observação: os clientes grandes da Comunidade do governo dos EUA (GCC) não receberão um email quando as ações forem atribuídas a eles.)
 
 O usuário atribuído pode então executar as ações recomendadas.
 
@@ -69,7 +69,7 @@ A seção **notas e documentação** contém campos para documentos carregados, 
 #### <a name="uploaded-documents"></a>Documentos carregados
 
 - Selecione **gerenciar documentos** para carregar qualquer arquivo relevante.
-- Quando o painel gerenciar documentos for aberto, selecione **Adicionar documento**e, em seguida, selecione o arquivo do seu sistema. Tipos de arquivo aceitos:
+- Quando o painel gerenciar documentos for aberto, selecione **Adicionar documento** e, em seguida, selecione o arquivo do seu sistema. Tipos de arquivo aceitos:
     - Documentos (. doc,. xls,. ppt,. txt,. pdf)
     - Imagens (. jpg,. png)
     - Vídeo (. mkv)

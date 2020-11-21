@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O gerente de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: 4508f07b0077d409de1ac033de67d20d1c3f2a7e
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 7bff6a2a7a150a08b98fe7a92cd71d266df9fda7
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072930"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376542"
 ---
 # <a name="microsoft-compliance-manager"></a>Gerente de conformidade da Microsoft
 
@@ -30,7 +30,7 @@ ms.locfileid: "49072930"
 
 ## <a name="whats-new-the-ga-release-of-compliance-manager"></a>O que há de novo: o lançamento de GA do gerente de conformidade
 
-O Gerenciador de conformidade agora está disponível no mercado (GA) como uma solução de gerenciamento de conformidade de ponta a ponta dentro do [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md). Com esta versão, o Gerenciador de conformidade conclui a transição do local anterior no portal de confiança do serviço Microsoft. O Gerenciador de conformidade também está disponível para clientes moderados da Comunidade governamental dos EUA (GCC).
+O Gerenciador de conformidade agora está disponível no mercado (GA) como uma solução de gerenciamento de conformidade de ponta a ponta dentro do [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md). Com esta versão, o Gerenciador de conformidade conclui a transição do local anterior no portal de confiança do serviço Microsoft. O Gerenciador de conformidade também está disponível para clientes da Comunidade governamental dos EUA (GCC) moderado e GCC elevado.
 
 O que começou como a visualização pública da Pontuação de conformidade evoluiu para uma ferramenta centralizada com recursos aprimorados de gerenciamento de conformidade e maior facilidade de uso.  O lançamento de GA oferece uma coleção maior de avaliações pré-configuradas para ajudá-lo a dimensionar suas atividades de conformidade.
 
@@ -83,9 +83,9 @@ Um controle é um requisito de regulamentação, padrão ou política. Ele defin
 
 O Gerenciador de conformidade rastreia os seguintes tipos de controle:
 
-1. **Controles gerenciados pela Microsoft** : controles para serviços de nuvem da Microsoft, que a Microsoft é responsável por implementar
-2. **Seus controles** : às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
-3. **Controles compartilhados** : são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
+1. **Controles gerenciados pela Microsoft**: controles para serviços de nuvem da Microsoft, que a Microsoft é responsável por implementar
+2. **Seus controles**: às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
+3. **Controles compartilhados**: são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
 
 ##### <a name="learn-more"></a>Saiba mais
 
@@ -99,11 +99,11 @@ Uma avaliação é o agrupamento de controles de uma regulamentação, padrão o
 
 As avaliações têm vários componentes:
 
-- **Serviços no escopo** : o conjunto específico de serviços Microsoft aplicável à avaliação
+- **Serviços no escopo**: o conjunto específico de serviços Microsoft aplicável à avaliação
 - **Controles gerenciados** pela Microsoft: controles para serviços de nuvem da Microsoft, que a Microsoft implementa em seu nome
-- **Seus controles** : às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
-- **Controles compartilhados** : são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
-- **Pontuação de avaliação** : mostra seu progresso em obter o total de pontos possíveis de ações na avaliação que são gerenciados pela sua organização e pela Microsoft
+- **Seus controles**: às vezes chamados de controles gerenciados pelo cliente, estes são controles implementados e gerenciados pela sua organização
+- **Controles compartilhados**: são controles que a sua organização e a Microsoft compartilham a responsabilidade de implementar
+- **Pontuação de avaliação**: mostra seu progresso em obter o total de pontos possíveis de ações na avaliação que são gerenciados pela sua organização e pela Microsoft
 
 Ao criar avaliações, você as atribuirá a um grupo. Você pode configurar grupos de qualquer forma que seja mais lógica para sua organização. Por exemplo, você pode agrupar avaliações por ano de auditoria, região, solução, equipes dentro da sua organização ou alguma outra maneira. Depois de criar grupos, você pode [filtrar seu painel do Gerenciador de conformidade](compliance-manager-setup.md#filtering-your-dashboard-view) para exibir sua pontuação por um ou mais grupos.
 

@@ -17,17 +17,17 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: Saiba mais sobre os limites em vigor para o recurso de pesquisa de conteúdo no centro de conformidade & segurança no Office 365, como o número máximo de pesquisas simultâneas.
-ms.openlocfilehash: 678f3c9613096291b5c27d89ac2d756148dd7608
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: d43f0772c587dbdb49abdf9cf59fe02446f3d3a7
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269380"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371521"
 ---
 # <a name="limits-for-content-search-in-the-security--compliance-center"></a>Limites de pesquisa de conteúdo no centro de conformidade de & de segurança
 
 > [!NOTE]
-> Os limites neste tópico são diferentes dos limites atuais para descoberta eletrônica in-loco no Exchange Online e no centro de descoberta eletrônica no SharePoint Online.
+> Os limites neste tópico são diferentes dos limites atuais para In-Place eDiscovery no Exchange Online e para o centro de descoberta eletrônica no SharePoint Online.
   
 Vários limites são aplicados ao recurso de pesquisa de conteúdo no centro de conformidade de & de segurança. Isso inclui pesquisas executadas na página de **pesquisa de conteúdo** e pesquisas associadas a uma ocorrência de descoberta eletrônica. Esses limites ajudam a manter a integridade e a qualidade dos serviços fornecidos para as organizações. Também há limites relacionados à indexação de mensagens de email no Exchange Online para pesquisa. Não é possível modificar os limites de pesquisa de conteúdo ou de indexação de email, mas você deve estar ciente deles para que você possa levar esses limites em consideração ao planejar, executar e solucionar problemas de pesquisa de conteúdo.
   
@@ -35,7 +35,7 @@ Vários limites são aplicados ao recurso de pesquisa de conteúdo no centro de 
 
 A tabela a seguir lista os limites de pesquisa no centro de conformidade e segurança &.
   
-|**Descrição do limite**|**Limite**|
+| Descrição do limite | Limite |
 |:-----|:-----|
 |O número máximo de caixas de correio ou sites que podem ser pesquisados em uma única pesquisa de conteúdo  <br/> |Sem limite <sup>1</sup> <br/> |
 |O número máximo de pesquisas de conteúdo que podem ser executadas ao mesmo tempo em sua organização.  <br/> |até  <br/> |
@@ -52,6 +52,7 @@ A tabela a seguir lista os limites de pesquisa no centro de conformidade e segur
 |Número máximo de variantes retornadas ao usar um curinga de prefixo para pesquisar uma frase exata em uma consulta de pesquisa ou ao usar um caractere curinga de prefixo e o operador booliano **próximo** .  <br/> |10.000 <sup>3</sup> <br/> |
 |O número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo,  `time*` ,  `one*` ou  `set*` .  <br/> |3D  <br/> |
 |O número máximo de caixas de correio em uma pesquisa de conteúdo que você pode excluir itens em uma ação de "pesquisa e limpeza" (usando o comando **New-ComplianceSearchAction-Purge** ). Se a pesquisa de conteúdo para a qual você está fazendo uma ação de limpeza tiver mais caixas de correio de origem do que esse limite, a ação de limpeza falhará. Para obter mais informações sobre pesquisa e limpeza, confira [Pesquisar e excluir mensagens de email em sua organização](search-for-and-delete-messages-in-your-organization.md).  <br/> |50.000  <br/> |
+|O número máximo de caixas de correio em uma pesquisa de conteúdo para a qual você pode exportar itens. Se a pesquisa de conteúdo que você está exportando tiver mais caixas de correio de origem do que esse limite, a exportação falhará. Para obter mais informações, consulte [Exportar resultados de pesquisa de conteúdo](export-search-results.md).  <br/> |100.000  <br/> |
 
 > [!NOTE]
 > <sup>1</sup> embora você possa Pesquisar um número ilimitado de caixas de correio em uma única pesquisa, só é possível baixar os resultados da pesquisa exportados de um máximo de 100.000 caixas de correio usando a ferramenta de exportação de descoberta eletrônica no centro de conformidade & segurança do Office 365 ou no centro de conformidade do Microsoft 365. Para baixar os resultados da pesquisa de mais de 100.000 caixas de correio, é necessário usar o PowerShell do centro de conformidade & segurança. Para obter mais informações e um script de exemplo, consulte [exportando resultados de mais de 100.000 caixas de correio](export-search-results.md#exporting-results-from-more-than-100000-mailboxes). <br/><br/> <sup>2</sup> ao pesquisar os locais do SharePoint e do onedrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados são contados em relação a esse limite. <br/><br/> <sup>3</sup> para consultas que não são de frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo,  `"time*"` pode expandir para  `"time OR timer OR times OR timex OR timeboxed OR …"` . 10.000 é o número máximo de variantes à qual a palavra pode ser expandida, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase. 
@@ -60,14 +61,14 @@ A tabela a seguir lista os limites de pesquisa no centro de conformidade e segur
 
 A tabela a seguir descreve os limites de indexação que podem resultar em uma mensagem de email sendo retornada como um item não indexado ou um item parcialmente indexado nos resultados de uma pesquisa de conteúdo.
   
-|**Limite de indexação**|**Observações**|**Descrição**|
+| Limite de indexação | Valor máximo | Descrição |
 |:-----|:-----|:-----|
 |Tamanho máximo do anexo|150 MB  <br/> |O tamanho máximo de um anexo de email que será analisado para indexação. Qualquer anexo maior do que esse limite não será analisado para indexação, e a mensagem com o anexo será marcada como parcialmente indexada.  <br/> <br/>**Observação:** A análise é o processo em que o serviço de indexação extrai texto do anexo, remove caracteres desnecessários, como pontuação e espaços, e divide o texto em palavras (em um processo chamado geração de tokens), que são armazenados no índice.           |
 |Número máximo de anexos  <br/> |250  <br/> |O número máximo de arquivos anexados a uma mensagem de email que será analisado para indexação. Se uma mensagem tiver mais de 250 anexos, os primeiros 250 anexos serão analisados e indexados, e a mensagem será marcada como parcialmente indexada porque tinha anexos adicionais que não foram analisados.  <br/> |
 |Profundidade máxima do anexo  <br/> |até  <br/> |O número máximo de anexos aninhados que são analisados. Por exemplo, se uma mensagem de email tiver outra mensagem anexada a ela e a mensagem anexada tiver um documento do Word anexado, o documento do Word e a mensagem anexada serão indexados. Esse comportamento vai continuar até 30 anexos aninhados.  <br/> |
 |Número máximo de imagens anexadas  <br/> |,0  <br/> |Uma imagem anexada a uma mensagem de email é ignorada pelo analisador e não é indexado.  <br/> |
 |Tempo máximo gasto na análise de um item  <br/> |30 segundos  <br/> |Um máximo de 30 segundos é gasto em análise de um item para indexação. Se o tempo de análise exceder 30 segundos, o item será marcado como parcialmente indexado.  <br/> |
-|Saída de análise máxima  <br/> |2 milhões de caracteres  <br/> |A quantidade máxima de saída de texto do analisador indexado. Por exemplo, se o analisador extrair 8 milhões caracteres de um documento, somente os primeiros 2 milhões de caracteres serão indexados.  <br/> |
+|Saída de análise máxima  <br/> |2 milhões de caracteres  <br/> |A quantidade máxima de saída de texto do analisador indexado. Por exemplo, se o analisador extrair 8 milhões caracteres de um documento, somente os primeiros 2 milhões caracteres serão indexados.  <br/> |
 |Tokens de anotação máximo  <br/> |2 milhões  <br/> |Quando uma mensagem de email é indexada, cada palavra é anotada com instruções de processamento diferentes que especificam como essa palavra deve ser indexada. Cada conjunto de instruções de processamento é chamado de token de anotação. Para manter a qualidade do serviço no Office 365, há um limite de 2 milhões tokens de anotação para uma mensagem de email.  <br/> |
 |Tamanho máximo do corpo no índice  <br/> |67 milhões caracteres  <br/> |O número total de caracteres no corpo de uma mensagem de email e todos os seus anexos. Quando uma mensagem de email é indexada, todo o texto no corpo da mensagem e em todos os anexos é concatenado em uma única cadeia de caracteres. O tamanho máximo dessa cadeia de caracteres indexada é de 67 milhões caracteres.  <br/> |
 |Máximo de tokens exclusivos no corpo  <br/> |1 milhão  <br/> |Como explicado anteriormente, os tokens são o resultado da extração de texto do conteúdo, da remoção de Pontuação e de espaços e da divisão em palavras (chamados Tokens) que são armazenadas no índice. Por exemplo, a frase  `"cat, mouse, bird, dog, dog"` contém 5 tokens. Mas apenas 4 desses tokens são exclusivos. Há um limite de 1 milhão tokens exclusivos por mensagem de email, o que ajuda a evitar que o índice fique muito grande com tokens aleatórios.  <br/> |
