@@ -171,8 +171,8 @@
       items:
         - name: Soluções da Microsoft 365 para a Contoso Corporation
           href: contoso-case-study-solutions.md
-        - name: A reação COVID-19 e a infraestrutura de uma força de trabalho híbrida
-          href: contoso-hybrid-workforce.md
+        - name: Suporte e resposta ao COVID-19 para o trabalho remoto e local
+          href: contoso-remote-onsite-work.md
         - name: Equipe isolada para um projeto confidencial
           href: contoso-team-for-top-secret-project.md
         - name: Migração de voz no Teams
