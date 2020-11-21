@@ -19,16 +19,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados do Microsoft 365 Endpoint para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 6ba3b83d634f946f818890a732a83166f346162d
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 8211ffbe3a84c0ee9fb4cb4c22d4dcea7f906a78
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073090"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371597"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
-A prevenção contra perda de dados do Microsoft Endpoint (Endpoint DLP) faz parte do pacote de recursos de prevenção contra perda de dados (DLP) do Microsoft 365 que você pode usar para descobrir e proteger itens confidenciais nos serviços do Microsoft 365. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, confira [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md). Para saber mais sobre o Endpoint DLP, confira [Saber mais sobre a prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)
+A prevenção contra perda de dados do Microsoft Endpoint (DLP do ponto de extremidade) faz parte do pacote de recursos de prevenção contra perda de dados (DLP) da Microsoft 365, que você pode usar para descobrir e proteger itens confidenciais em todos os serviços do Microsoft 365. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, confira [Visão geral de prevenção contra perda de dados](data-loss-prevention-policies.md). Para saber mais sobre a prevenção contra perda de dados do ponto de extremidade, confira [Saiba mais sobre a prevenção contra perda de dados do Ponto de extremidade](endpoint-dlp-learn-about.md)
 
 A Prevenção contra perda de dados do Ponto de extremidade da Microsoft permite monitorar dispositivos Windows 10 e detectar quando itens confidenciais são usados ​​e compartilhados. Isso lhe dá a visibilidade e o controle de que você precisa para garantir que eles sejam usados ​​e protegidos adequadamente e para ajudar a prevenir comportamentos de risco que podem comprometê-los.
 
@@ -105,7 +105,7 @@ Você deve habilitar o monitoramento de dispositivo e integrar os seus pontos de
 
 Quando quiser integrar dispositivos que ainda não foram integrados, você fará o download do script apropriado e o implantará nesses dispositivos. Siga o [Procedimento de dispositivos integrados](endpoint-dlp-getting-started.md#onboarding-devices).
 
-Se você já tiver dispositivos integrados ao [Microsoft Defender para Ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/), eles já aparecerão na lista de dispositivos gerenciados. Siga o [Procedimento Com dispositivos integrados ao Microsoft Defender para Ponto de Extremidade](endpoint-dlp-getting-started.md#with-devices-onboarded-into-microsoft-defender-for- endpoint).
+Se você já tiver dispositivos integrados ao [Microsoft Defender para Ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/), eles já aparecerão na lista de dispositivos gerenciados. Siga o [Procedimento Com dispositivos integrados ao Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started?view=o365-worldwide&source=docs#with-devices-onboarded-into-microsoft-defender-for-endpoint).
 
 ### <a name="onboarding-devices"></a>Dispositivos de integração
 
