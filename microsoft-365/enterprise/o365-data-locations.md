@@ -16,29 +16,30 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Determine onde os dados de cliente do Microsoft 365 estão armazenados em todo o mundo
-ms.openlocfilehash: 4fd3f480ef2ad3389e9a959695b9654badbda27f
-ms.sourcegitcommit: 0badd6a7af803a52c7c46a4374211cb89307eacf
+ms.openlocfilehash: 6ad35082cbed602325e2a32edb825a17b5cb9f4a
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49135986"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376510"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
 -->
 
-# <a name="where-your-microsoft-365-customer-data-is-stored"></a>Onde os dados de cliente do Microsoft 365 estão armazenados
+# <a name="where-your-microsoft-365-customer-data-is-stored"></a>Onde os dados do cliente do Microsoft 365 são armazenados
 
-As tabelas abaixo mostram onde os dados do cliente são armazenados em repouso para os serviços do Microsoft 365 em todos os locais de nuvem global da Microsoft. Expanda o local do endereço de cobrança do seu país/região para descobrir onde os dados do cliente de cada serviço seriam armazenados.
+As tabelas abaixo mostram onde os dados do cliente são armazenados em repouso para os serviços do Microsoft 365 em todos os locais de nuvem global da Microsoft. Expanda a localização do seu país/região de endereço de cobrança para descobrir onde os dados do cliente para cada serviço seriam armazenados.
 
-Os clientes devem visualizar as informações de localização de dados específicos do locatário no seu Microsoft 365 Admin Center em **Configurações | Configurações da organização | Perfil da Organização | Localização dos dados**.
+Se a sua empresa estiver localizada na União Europeia, confira [localizações de dados da União Europeia](EU-data-storage-locations.md) para obter mais informações. 
+
+Os clientes devem visualizar as informações sobre localização de dados específicos do locatário no Centro de Administração do Microsoft 365 em **Configurações | Configurações da organização | Perfil da Organização | Localização de dados**.
 
 Os locatários do novo Microsoft 365 são padronizados numa localização geográfica baseada no país/região onde a transação da primeira assinatura do locatário foi realizada.
 
 Obtenha informações sobre os compromissos contratuais para o local de armazenamento dos dados do cliente em repouso no [Termos do Microsoft Online Services (OST)](https://go.microsoft.com/fwlink/p/?LinkId=2098215).
 
 Para locais dos dados do Azure Active Directory, acesse [Mapa de Dados do AAD](https://go.microsoft.com/fwlink/p/?linkid=2092972).
-
 
 Se o endereço de cobrança do cliente estiver fora da Europa e o cliente tiver uma assinatura do Office 365 Education, não obstante a seção “Localização dos dados do cliente em repouso para os principais serviços online” do OST, a Microsoft poderá fornecer o locatário do Office 365 do cliente, transferir dados do cliente e armazenar dados do cliente em qualquer lugar na Europa ou América do Norte.  Se o endereço de cobrança do cliente estiver na Europa e o cliente tiver uma assinatura do Office 365 Education, apesar da seção “Localização dos dados do cliente em repouso para os principais serviços online” do OST, a Microsoft poderá fornecer o locatário do Office 365 do cliente, transferir dados do cliente e armazenar dados do cliente em qualquer lugar na União Europeia.
 
@@ -153,12 +154,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -254,7 +255,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -387,7 +388,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 ## <a name="argentina"></a>Argentina
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Local |
+| Serviço | Localização |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -417,7 +418,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -513,7 +514,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -585,12 +586,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -753,12 +754,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -926,7 +927,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -969,12 +970,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1065,12 +1066,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1257,12 +1258,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1281,12 +1282,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1305,12 +1306,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1425,12 +1426,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1905,12 +1906,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1934,7 +1935,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Austrália |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Austrália |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Austrália |
@@ -2025,12 +2026,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2121,7 +2122,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -2313,12 +2314,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2577,12 +2578,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2654,7 +2655,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Índia |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Índia |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Índia |
@@ -2673,12 +2674,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2913,7 +2914,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
+| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -2961,12 +2962,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2990,7 +2991,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Coreia do Sul |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Coreia do Sul |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Coreia do Sul |
@@ -3057,7 +3058,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -3081,12 +3082,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3345,12 +3346,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3369,12 +3370,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3441,12 +3442,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3633,12 +3634,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3753,12 +3754,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3801,12 +3802,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3825,12 +3826,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3897,12 +3898,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3926,7 +3927,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Austrália |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Austrália |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Austrália |
@@ -4017,12 +4018,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4041,12 +4042,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4065,12 +4066,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4137,7 +4138,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -4161,12 +4162,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4190,7 +4191,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4233,12 +4234,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4305,12 +4306,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4329,12 +4330,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4449,7 +4450,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -4737,12 +4738,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4929,12 +4930,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5025,12 +5026,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5145,12 +5146,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5289,12 +5290,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5313,7 +5314,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -5361,12 +5362,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5385,12 +5386,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5433,12 +5434,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Ásia Pacífico |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5457,12 +5458,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5553,7 +5554,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -5601,12 +5602,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5793,12 +5794,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5817,7 +5818,7 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
@@ -5841,12 +5842,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5889,12 +5890,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5913,12 +5914,12 @@ Os novos locatários do Microsoft 365 têm como padrão a área geográfica base
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
 | SharePoint Online | Geografia Global 2 – Pacífico Asiático |
 | Skype for Business | Geografia Global 2 – Pacífico Asiático |
-| Microsoft Teams | Geografia Global 2 – Pacífico Asiático |
+| Microsoft Teams | Geografia Global 2 – Ásia Pacífico |
 | Office Online &amp; Mobile | Geografia Global 2 – Pacífico Asiático |
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planner | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Ásia Pacífico |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
