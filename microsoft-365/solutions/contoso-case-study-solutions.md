@@ -30,7 +30,7 @@ O objetivo geral da Contoso para o Microsoft 365 Enterprise é acelerar a transf
 
 Primeiramente, saiba mais sobre a[Contoso Corporation](../enterprise/contoso-overview.md), suas filiais em todo o mundo e as considerações de design que foram abordadas quando ela implantou o Microsoft 365 para grandes empresas.
 
-Em seguida, veja como a Contoso usou o Microsoft 365 para essas soluções e cenários:
+Em seguida, veja como a Contoso usou o Microsoft 365 para estas soluções e cenários:
 
 - [A reação COVID-19 e a infraestrutura de uma força de trabalho híbrida](contoso-hybrid-workforce.md)
 
