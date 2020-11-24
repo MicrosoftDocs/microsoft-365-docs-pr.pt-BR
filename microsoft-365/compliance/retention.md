@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: bedf82d9d53ef14755651d5994e6c5c269cf5d6e
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 5ceec4ed45286afa14004dcfcb9476040df9a5ec
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073132"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385267"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -38,7 +38,7 @@ Para a maioria das organizações, o volume e a complexidade dos dados aumentam 
     
 - **Ajudar a sua organização a compartilhar conhecimento de maneira eficaz e ser mais ágil** garantindo que seus usuários trabalhem apenas com conteúdo atual e relevante para eles. 
     
-As configurações de retenção que você configura podem ajudá-lo a atingir todos esses objetivos. O gerenciamento de conteúdo requer duas ações:
+As configurações de retenção que você configurar podem ajudá-lo a atingir todos esses objetivos. O gerenciamento de conteúdo normalmente requer duas ações:
   
 - **Reter** conteúdo para que ele não seja excluído permanentemente antes do fim do período de retenção. 
     
@@ -81,7 +81,7 @@ Você pode usar tanto as políticas de retenção quanto os rótulos de retenç�
 
 Use uma política de retenção para atribuir as mesmas configurações de retenção para o conteúdo em um site ou nível de caixa de correio e usar um rótulo de retenção para atribuir configurações de retenção a um nível de item (pasta, documento, email).
 
-Por exemplo, se todos os documentos em um site do Microsoft Office SharePoint Online devem ser mantidos por cinco anos, é mais eficiente fazer isso com uma política de retenção do que aplicar o mesmo rótulo de retenção a todos os documentos nesse site. No entanto, se alguns documentos desse site devem ser mantidos por 5 anos e outros forem retidos por 10 anos, uma política de retenção não poderá fazer isso. Quando você precisar especificar configurações de retenção no nível de item, use os rótulos de retenção. 
+Por exemplo, se todos os documentos em um site do Microsoft Office SharePoint Online devem ser mantidos por 5 anos, é mais eficiente fazer isso com uma política de retenção do que aplicar o mesmo rótulo de retenção a todos os documentos nesse site. No entanto, se alguns documentos desse site devem ser mantidos por 5 anos e outros forem retidos por 10 anos, uma política de retenção não poderá fazer isso. Quando você precisar especificar configurações de retenção no nível de item, use os rótulos de retenção. 
 
 Diferentemente das políticas de retenção, as configurações de retenção de rótulos de retenção permanecem com o conteúdo, caso ele seja copiado ou movido para um local diferente do Microsoft 365. Além disso, os rótulos de retenção têm os seguintes recursos para os quais as políticas de retenção não têm suporte: 
  
@@ -111,6 +111,8 @@ As políticas de retenção podem ser aplicadas aos seguintes locais:
 
 Você pode aplicar uma única política de forma eficaz a vários locais ou a locais ou usuários específicos.
 
+Para o início do período de retenção, você pode escolher quando o conteúdo foi criado ou com suporte apenas para arquivos e os locais do SharePoint, do OneDrive e dos Grupos do Microsoft 365, quando o conteúdo foi modificado pela última vez.
+
 Os itens herdam as configurações de retenção do contêiner especificado na política de retenção. Em seguida, eles são movidos para fora desse contêiner quando a política está configurada para manter o conteúdo, uma cópia desse item é mantida no local seguro da carga de trabalho. No entanto, as configurações de retenção não viajam com o conteúdo em seu novo local. Se necessário, use os rótulos de retenção em vez das políticas de retenção.
 
 ### <a name="retention-labels"></a>Rótulos de retenção
@@ -138,7 +140,7 @@ Com os rótulos de retenção, você pode:
 
 - **Inicie o período de retenção a partir do momento em que o conteúdo foi rotulado** para documentos em sites do Microsoft Office SharePoint Online e contas do OneDrive e para itens de email com exceção dos itens do calendário. Se você aplicar um rótulo de retenção com essa configuração em um item de calendário, o período de retenção será iniciado a partir do momento em que ele for enviado.
 
-- **Iniciar o período de retenção quando um evento ocorrer** , como funcionários saem da organização ou os contratos expiram.
+- **Iniciar o período de retenção quando um evento ocorrer**, como funcionários saem da organização ou os contratos expiram.
 
 - **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
 
@@ -215,7 +217,7 @@ Voce pode fazer uma busca detalhada usando o [explorador de conteúdo](data-clas
 > [!TIP]
 >Considere o uso de algumas das outras ideias de classificação de dados, como classificadores treináveis e tipos de informações confidenciais, para ajudar você a identificar o conteúdo que pode ser necessário reter, excluir, ou gerenciar como registros.
 
-O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel** , e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo**. Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
+O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel**, e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo**. Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
 - [Exibir os relatórios de governança de dados](view-the-data-governance-reports.md)
 - [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
 - [Exibir a atividade de rótulos de documentos](view-label-activity-for-documents.md)
@@ -243,7 +245,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Presença da interface de usuário para usuários finais | Não | Sim |
 |Persiste se o conteúdo for movido | Não | Sim, em seu locatário do Microsoft 365 |
 |Declarar um item como um registro| Não | Sim |
-|Iniciar o período de retenção: <br /> - Quando os itens foram criados ou modificados pela última vez<br /> - Quando rotulada ou baseada em um evento | <br />Sim <br />Não | <br />Sim <br /> Sim |
+|Iniciar o período de retenção ao rotular ou com base em um evento | Não | Sim |
 |Revisão de disposição | Não| Sim |
 |Prova de disposição por até 7 anos | Não |Sim, quando o item é declarado um registro|
 |Auditoria de atividades administrativas| Sim | Sim|

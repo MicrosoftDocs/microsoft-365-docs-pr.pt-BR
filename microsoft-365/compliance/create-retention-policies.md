@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas com mais eficiência. Mantenha o que deseja e descarte o que não queira.
-ms.openlocfilehash: bcf0ef5aa76113102013bc20fca02e6d516c3203
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 4479731af4787a6ef77dc48d27e5dfb60834d9c5
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376574"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385247"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -193,7 +193,7 @@ Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, con
 
 Para manter ou excluir o conteúdo de um Grupo do Microsoft 365 (antigo Grupo do Office 365), use o local do **Grupos do Microsoft 365**. Embora um Grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local de **Email do Exchange** não incluirá conteúdo nas caixas de correio do Grupo do Microsoft 365. Além disso, embora o local de **Email do Exchange** permita inicialmente especificar um grupo de caixa de correio para ser incluído ou excluído, ao tentar salvar a política de retenção, você recebe um erro informando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
 
-Uma política de retenção aplicada ao Grupo do Microsoft 365 inclui a caixa de correio do grupo e o site de equipe do SharePoint. Os arquivos armazenados no site de equipes do SharePoint são abordados neste local, mas não nas mensagens de canal ou chats do Teams que têm seus próprios locais de política de retenção.
+Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio e o site de equipe do SharePoint. Os arquivos armazenados no site de equipes do SharePoint são cobertos por este local, mas não os chats do Teams ou as mensagens do canal do Teams que têm seus próprios locais de política de retenção.
 
 ### <a name="configuration-information-for-skype-for-business"></a>Informações de configuração do Skype for Business
 
@@ -227,7 +227,7 @@ Ao configurar uma política de retenção, você opta por reter os itens por um 
 
 Ao configurar uma política de retenção, você pode optar por reter conteúdo indefinidamente ou por um número específico de dias, meses ou anos. O período de retenção é calculado a partir da idade do conteúdo, não do momento em que a política de retenção foi aplicada.
 
-Para o início do período de retenção, você também pode escolher quando o conteúdo foi criado ou com suporte apenas para arquivos e os locais do SharePoint, do OneDrive e do Office 365, quando o conteúdo foi modificado pela última vez.
+Para o início do período de retenção, você pode escolher quando o conteúdo foi criado ou com suporte apenas para arquivos e os locais do SharePoint, do OneDrive e dos Grupos do Office 365 quando o conteúdo foi modificado pela última vez.
 
 Exemplos:
 
@@ -279,6 +279,9 @@ Para usar a configuração opcional para definir o escopo de suas configuraçõe
 > Neste cenário, desative o local se não quiser a configuração **Todos** para o local esteja sujeita à política de retenção. Como alternativa, especifique exclusões a serem isentas da política.
 
 ## <a name="updating-retention-policies"></a>Atualizar políticas de retenção
+
+Algumas configurações não podem ser alteradas depois que o rótulo de retenção é criado e salvo, que incluem:
+- O nome da política de retenção e as configurações de retenção, exceto o período de retenção, e quando começar o período de retenção.
 
 Se você editar uma política de retenção e os itens já estiverem sujeitos às configurações originais da sua política de retenção, as configurações atualizadas serão aplicadas automaticamente a esses itens, além dos itens identificados recentemente.
 
