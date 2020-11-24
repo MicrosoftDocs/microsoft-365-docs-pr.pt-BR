@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Criar e publicar automaticamente os rótulos de retenção para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: c1c18f5445b326ad7353d8c534940d3db69a3f24
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+description: Criar rótulos de retenção e políticas de rotulação automáticas, para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
+ms.openlocfilehash: ebfd088dd6dc3205f02e563e31f6fb25372608ad
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931975"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385257"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -99,7 +99,7 @@ Ao criar uma política de aplicação automática, selecione um rótulo de reten
 
 1. No [Centro de Conformidade do Microsoft 365 ](https://compliance.microsoft.com/), navegue até um dos seguintes locais:
     
-    - Se você estiver usando o gerenciamento de registros: **Governança de Informações** :
+    - Se você estiver usando o gerenciamento de registros: **Governança de Informações**:
         - **Soluções** > **Gerenciamento de Registros** guia  > **Políticas de Rótulo** > **Aplicar rótulo automaticamente**
     
     - Se você não estiver usando o gerenciamento de registros:
@@ -128,7 +128,7 @@ Você pode aplicar os rótulos de retenção automaticamente ao conteúdo quando
 
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>Aplicar automaticamente rótulos a conteúdo com tipos específicos de informações confidenciais
 
-Ao criar políticas de rótulo de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política de quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura os números dos EUA ITIN, SSN e passaporte da categoria **Privacidade** e **Modelo de dados de Informações de Identificação Pessoal (PII) dos EUA** :
+Ao criar políticas de rótulo de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política de quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura os números dos EUA ITIN, SSN e passaporte da categoria **Privacidade** e **Modelo de dados de Informações de Identificação Pessoal (PII) dos EUA**:
 
 ![Modelos de política com tipos de informações confidenciais](../media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
 
@@ -136,14 +136,18 @@ Para obter mais informações sobre os tipos de informações confidenciais, con
 
 Após selecionar um modelo de política, você pode adicionar ou remover quaisquer tipos de informações confidenciais e pode alterar a contagem de instâncias e a precisão da correspondência. Na captura de tela de exemplo mostrada a seguir, um rótulo de retenção será automaticamente aplicado apenas quando:
   
-- O tipo de informações confidenciais detectadas tiver uma precisão de correspondência (ou um nível de confiança) de pelo menos 75. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão com maior precisão de correspondência requer mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão com precisão de correspondência inferior requer menos evidências. Quanto menor for a precisão de correspondência **min** , mais fácil será que o conteúdo corresponda à condição.
+- O tipo de informações confidenciais detectadas tiver uma precisão de correspondência (ou um nível de confiança) de pelo menos 75. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão com maior precisão de correspondência requer mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão com precisão de correspondência inferior requer menos evidências. Quanto menor for a precisão de correspondência **min**, mais fácil será que o conteúdo corresponda à condição.
 
 - O conteúdo contém entre uma e nove instâncias de qualquer um destes três tipos de informações confidenciais. Você pode excluir o valor **a** para que ele se transforme em **Qualquer**.
 
 Para obter mais informações sobre essas opções, confira as diretrizes a seguir na documentação da DLP [Regras de ajuste para torná-las mais fáceis ou difíceis de corresponder aos](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
     
 ![Opções para identificar tipos de informações confidenciais](../media/de255881-f596-4c8d-8359-e974e3a0819a.png)
-  
+
+Para considerar ao usar tipos de informações confidenciais para aplicar automaticamente os rótulos de retenção:
+
+- Os itens novos e modificados podem ser rotulados automaticamente.
+
 #### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>Aplicar rótulos automaticamente a conteúdos com palavras-chave ou propriedades pesquisáveis
 
 Você pode aplicar automaticamente os rótulos ao conteúdo usando uma consulta que inclui palavras ou frases específicas, ou valores de propriedades pesquisáveis. Você pode refinar a consulta usando os operadores de pesquisa AND, OR e NOT.
@@ -152,29 +156,77 @@ Você pode aplicar automaticamente os rótulos ao conteúdo usando uma consulta 
 
 Para obter mais informações sobre a sintaxe de consulta que usa a Linguagem de Consulta de Palavra-chave (KQL), consulte [Referência de sintaxe da Linguagem de Consulta de Palavra-chave (KQL) no MSDN](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference).
 
-Observe que os rótulos baseados em consulta usam o índice de pesquisa para identificar conteúdo. Para obter mais informações sobre as propriedades pesquisáveis que você pode usar, consulte:
+As políticas de aplicação automática baseadas em consulta usam o mesmo índice de pesquisa de conteúdo de descoberta eletrônica para identificar o conteúdo. Para obter mais informações sobre as propriedades pesquisáveis que você pode usar, consulte [Consultas de palavra-chave e critérios de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
 
-- [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md)
-- [Visão geral de propriedades rastreadas e gerenciadas no SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+Alguns pontos a considerar ao usar palavras-chave ou propriedades pesquisáveis para aplicar automaticamente os rótulos de retenção:
 
-> [!NOTE]
-> Embora as propriedades gerenciadas do SharePoint ofereçam suporte a aliases, não os use quando configurar seus rótulos de retenção. Especifique sempre o nome real da propriedade gerenciada, por exemplo, RefinableString01.
+- Os itens novos, modificados e existentes serão rotulados automaticamente para SharePoint, OneDrive e Exchange.
+
+- Para SharePoint, propriedades rastreadas e propriedades personalizadas não têm suporte para essas consultas KQL e você deve usar apenas propriedades gerenciadas predefinidas. No entanto, você pode usar mapeamentos no nível do locatário com as propriedades gerenciadas predefinidas habilitadas como refinadores por padrão (RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09, and RefinableDouble00-09). Para obter mais informações, confira [Visão geral de propriedades rastreadas e gerenciadas no SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)e para obter instruções, confira [Criar uma nova propriedade gerenciada](https://docs.microsoft.com/sharepoint/manage-search-schema#create-a-new-managed-property).
+
+- Caso mapeie uma propriedade personalizada para uma das propriedades de refinamento, espere 24 horas antes de usá-la em sua consulta KQL para um rótulo de retenção.
+
+- Embora as propriedades gerenciadas do SharePoint possam ser renomeadas usando alias, não use-as para consultas KQL em suas etiquetas. Especifique sempre o nome real da propriedade gerenciada, por exemplo, RefinableString01.
+
+- Para procurar valores que contenham espaços ou caracteres especiais, use aspas duplas (`" "`) para conter a frase, por exemplo, `subject:"Financial Statements"`.
+
+- Use a propriedade *DocumentLink*, em vez de *Path* para corresponder um item com base em sua URL. 
+
+- Não há suporte a pesquisas de caracteres curinga de sufixo (como `*cat`) ou pesquisas de subcadeias de caracteres curinga (como `*cat*`). No entanto, as pesquisas curinga de prefixo (como `cat*`) têm suporte.
+
+- Lembre-se de que os itens parcialmente indexados podem ser responsáveis por não rotular os itens que você está esperando ou rotular os itens que você espera que sejam excluídos do rotulamento quando você usa o operador NOT. Para obter mais informações, consulte [Itens parcialmente indexados na Pesquisa de Conteúdo](partially-indexed-items-in-content-search.md).
+
 
 Consultas de exemplos:
 
 | Workload | Exemplo |
 |:-----|:-----|
-|Exchange   | `subject:"Quarterly Financials"` |
+|Exchange   | `subject:"Financial Statements"` |
 |Exchange   | `recipients:garthf@contoso.com` |
-|Microsoft Office SharePoint Online | `contenttype:contract` |
-|SharePoint | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract`|
+|Microsoft Office SharePoint Online | `contenttype:document` |
+|SharePoint | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:document`|
+|Exchange ou SharePoint | `"customer information" OR "private"`|
+
+Exemplos mais complexos:
+
+A consulta a seguir para o SharePoint identifica documentos do Word ou planilhas do Excel quando esses arquivos contêm as palavras-chave **senha**, **senhas** ou **PW**:
+
+```
+(password OR passwords OR pw) AND (filetype:doc* OR filetype:xls*)
+```
+
+A consulta a seguir para o Exchange identifica todos os documentos do Word ou PDFs que contenham a palavra **NDA** ou a frase **contrato de não divulgação** quando esses documentos estiverem anexados a um email:
+
+```
+(nda OR "non disclosure agreement") AND (attachmentnames:.doc* OR attachmentnames:.pdf)
+```
+
+A consulta a seguir para o SharePoint identifica documentos que contenham um número de cartão de crédito: 
+
+```
+sensitivetype:"credit card number"
+```
+
+A consulta a seguir contém algumas palavras-chave comuns para ajudá-lo a identificar documentos ou emails que contenham conteúdo legal:
+
+```
+ACP OR (Attorney Client Privilege*) OR (AC Privilege)
+```
+
+A consulta a seguir contém palavras-chave comuns para ajudá-lo a identificar documentos ou emails para recursos humanos: 
+
+```
+(resume AND staff AND employee AND salary AND recruitment AND candidate)
+```
+
+Observe que este exemplo final usa a melhor prática de sempre incluir operadores entre palavras-chave. Um espaço entre palavras-chave ou duas expressões do tipo propriedade: valor equivale a um AND. Ao adicionar operadores sempre, fica mais fácil ver que essa consulta de exemplo identificará somente o conteúdo que contém todas essas palavras-chave, em vez de conteúdo que contenha qualquer uma das palavras-chave. Caso pretenda identificar o conteúdo que contenha qualquer uma das palavras-chave, especifique OR em vez de AND. Como mostra este exemplo, quando você especifica sempre os operadores, é mais fácil interpretar a consulta corretamente. 
 
 ##### <a name="microsoft-teams-meeting-recordings"></a>Gravações de reunião do Microsoft Teams
 
 > [!NOTE]
-> A capacidade de reter e excluir gravações de reunião de equipes é distribuída na visualização e não funciona antes de as gravações serem salvas no Microsoft OneDrive ou no Microsoft Office SharePoint Online. Para saber mais, confira[Usar o OneDrive for Business e o SharePoint Online ou Stream para gravações de reunião](https://docs.microsoft.com/MicrosoftTeams/tmr-meeting-recording-change).
+> A capacidade de reter e excluir gravações de reunião do Teams está em versão prévia e não funciona antes de as gravações serem salvas no Microsoft OneDrive ou no Microsoft Office SharePoint Online. Para saber mais, confira[Usar o OneDrive for Business e o SharePoint Online ou Stream para gravações de reunião](https://docs.microsoft.com/MicrosoftTeams/tmr-meeting-recording-change).
 
-Para identificar as gravações de reunião do Microsoft Teams que estão armazenadas nas contas do OneDrive do usuário ou no SharePoint, especifique o seguinte para o **Editor de consulta palavra-chave** :
+Para identificar as gravações de reunião do Microsoft Teams que estão armazenadas nas contas do OneDrive do usuário ou no SharePoint, especifique o seguinte para o **Editor de consulta palavra-chave**:
 
 ``` 
 ProgID:Media AND ProgID:Meeting
@@ -185,12 +237,12 @@ Na maioria das vezes, as gravações de reuniões são salvas no Microsoft OneDr
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Aplicar rótulos automaticamente ao conteúdo usando classificadores treináveis
 
-Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **Currículos** , **SourceCode** , **Assédio Direcionado** , **Profanação** e **Ameaças** :
+Ao escolher a opção de um classificador treinado, você pode selecionar um dos classificadores internos ou um classificador personalizado. Os classificadores internos incluem **Currículos**, **SourceCode**, **Assédio Direcionado**, **Profanação** e **Ameaças**:
 
 ![Escolha classificador treinável](../media/retention-label-classifers.png)
 
 > [!CAUTION]
-> Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não use esse classificador interno e se você estiver usando-o no momento, você deve migrar seus processos de negócios para fora dele. É recomendável usar os classificadores internos **Assédio Direcionado** , **Profanidade** e **Ameaças**.
+> Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não use esse classificador interno e se você estiver usando-o no momento, você deve migrar seus processos de negócios para fora dele. É recomendável usar os classificadores internos **Assédio Direcionado**, **Profanidade** e **Ameaças**.
 
 Para aplicar um rótulo automaticamente usando essa opção, os sites e as caixas de correio do SharePoint devem conter pelo menos 10 MB de dados.
 
@@ -198,6 +250,10 @@ Para saber mais sobre esses classificadores treináveis, confira [Saiba mais sob
 
 > [!TIP]
 > Se você usar classificadores treináveis para o Exchange, confira [Como treinar novamente um classificador no explorador de conteúdo (visualização)](classifier-how-to-retrain-content-explorer.md) lançado recentemente.
+
+Para considerar quando usar classificadores de treinamento para aplicar automaticamente os rótulos de retenção:
+
+- Os itens novos e modificados podem ser rotulados automaticamente e os itens existentes dos últimos seis meses.
 
 ## <a name="how-long-it-takes-for-retention-labels-to-take-effect"></a>Quanto tempo demora para os rótulos de retenção entrarem em vigor
 
@@ -220,7 +276,7 @@ Se os rótulos esperados não aparecerem após sete dias, verifique o **Status**
 Se você editar um rótulo de retenção ou política de aplicação automática e o rótulo de retenção já estiver aplicado ao conteúdo, as configurações atualizadas serão aplicadas automaticamente a esse conteúdo, além do conteúdo recentemente rotulado.
 
 Algumas configurações não podem ser alteradas depois que o rótulo ou política é criado e salvo, que incluem:
-- As configurações de retenção, exceto o período de retenção, a menos que você tenha configurado o rótulo para reter ou excluir o conteúdo com base em quando ele foi criado.
+- O rótulo de retenção e o nome da política, além das configurações de retenção, exceto o período de retenção. No entanto, você não pode alterar o período de retenção quando o período de retenção se baseia em quando os itens eram rotulados.
 - A opção para marcar os itens como um registro.
 
 ## <a name="locking-the-policy-to-prevent-changes"></a>Bloquear a política para evitar alterações

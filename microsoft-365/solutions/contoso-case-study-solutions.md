@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 para grandes empresas.
-ms.openlocfilehash: 8ba1661a2a4257409b7622b6d78dca4bcd103929
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 66040bdd64e83d796e6d045aad2f512898452c50
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357690"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371631"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Soluções da Microsoft 365 para a Contoso Corporation
 
@@ -30,11 +30,11 @@ O objetivo geral da Contoso para o Microsoft 365 Enterprise é acelerar a transf
 
 Primeiramente, saiba mais sobre a[Contoso Corporation](../enterprise/contoso-overview.md), suas filiais em todo o mundo e as considerações de design que foram abordadas quando ela implantou o Microsoft 365 para grandes empresas.
 
-Em seguida, veja como a Contoso usou o Microsoft 365 para estas soluções e cenários:
+Em seguida, veja como a Contoso usou o Microsoft 365 para essas soluções e cenários:
 
-- [A reação COVID-19 e a infraestrutura de uma força de trabalho híbrida](contoso-hybrid-workforce.md)
+- [Infraestrutura e suporte ao COVID-19 para o trabalho remoto e local](contoso-remote-onsite-work.md)
 
-- [Equipe isolada para um projeto confidencial](contoso-team-for-top-secret-project.md)
+- [Uma equipe isolada para um projeto confidencial](contoso-team-for-top-secret-project.md)
 
 - [Migração dos seus usuários locais para o Teams, para uma comunicação, colaboração e voz unificadas](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
 
