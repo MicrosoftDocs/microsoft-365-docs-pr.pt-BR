@@ -1,5 +1,5 @@
 ---
-title: Analisar ameaças detectadas e tomar medidas
+title: Examine as ameaças detectadas e execute ações
 f1.keywords: NOCSH
 ms.author: sharik
 author: SKjerland
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Saiba como revisar e gerenciar ameaças detectadas pelo Microsoft Defender Antivirus em seus dispositivos Windows 10.
-ms.openlocfilehash: 21830b91bfbb88fdd5d5139ee07c4dfb35f5b875
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: ffdf5cffb50d6145d6059233e0850839f4dfb582
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376672"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385235"
 ---
-# <a name="review-detected-threats-and-take-action"></a>Analisar ameaças detectadas e tomar medidas
+# <a name="review-detected-threats-and-take-action"></a>Examine as ameaças detectadas e execute ações
 
 Assim que um arquivo mal-intencionado ou software é detectado, o Microsoft Defender Antivirus o bloqueia e impede sua execução. E com a proteção fornecida na nuvem ativada, as ameaças recentemente detectadas são adicionadas ao mecanismo de antivírus e antimalware para que os outros dispositivos e usuários também estejam protegidos.
 
@@ -58,7 +58,7 @@ O procedimento a seguir se aplica aos clientes que têm o Microsoft 365 Business
 
 ## <a name="manage-threat-detections-on-the-active-threats-page"></a>Gerenciar detecções de ameaças na página de **ameaças ativas**
 
-O procedimento a seguir se aplica aos clientes que têm o Microsoft 365 Business. Os [dispositivos Windows 10 devem ser protegidos](/microsoft-365/business/secure-win-10-pcs) e [registrados no Intune](/mem/intune/enrollment/windows-enrollment-methods).
+O procedimento a seguir se aplica aos clientes que têm o Microsoft 365 Business Premium. Os [dispositivos Windows 10 devem ser protegidos](/microsoft-365/business/secure-win-10-pcs) e [registrados no Intune](/mem/intune/enrollment/windows-enrollment-methods).
 
 > [!NOTE]
 > A página do **Microsoft Defender Antivirus** e as **ameaças ativas** estão sendo distribuídas em fases, portanto, talvez você não tenha acesso imediato a elas.
