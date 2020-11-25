@@ -1,6 +1,6 @@
 ---
 title: Priorizar incidentes no Microsoft 365 defender
-description: Saiba como priorizar incidentes da fila de incidentes no Microsoft 365 defender
+description: Saiba como filtrar incidentes da fila de incidentes no Microsoft 365 defender
 keywords: incidente, fila, visão geral, dispositivos, identidades, usuários, caixa de correio, email, incidentes
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4369d51ed740af652be632ba0b8752c708d6c719
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: e587004fbb3bc6defab985cea9b427f64b3aab35
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877214"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409250"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 defender
 
@@ -38,7 +38,7 @@ ms.locfileid: "48877214"
 
 
 
-O Microsoft 365 defender aplica a análise de correlação e agrega todos os alertas e investigações relacionados de produtos diferentes em um único incidente. O Microsoft 365 defender também dispara alertas exclusivos em atividades que só podem ser identificados como mal-intencionados, dada a visibilidade de ponta a ponta que a Microsoft 365 defender tem em toda a imobiliária e pacote de produtos. Fazendo isso, o Microsoft 365 defender narra a história de ataque mais ampla, permitindo que um analista de operações de segurança entenda e lide com ameaças complexas em toda a organização.
+O Microsoft 365 defender aplica a análise de correlação e agrega todos os alertas e investigações relacionados de produtos diferentes em um único incidente. O Microsoft 365 defender também dispara alertas exclusivos em atividades que só podem ser identificados como mal-intencionados, dada a visibilidade de ponta a ponta que a Microsoft 365 defender tem em toda a imobiliária e pacote de produtos. Este modo de exibição fornece ao analista de operações de segurança a história de ataque mais ampla, o que ajuda a entender melhor e lidar com ameaças complexas em toda a organização.
 
 
 A **Fila de incidentes** exibe um conjunto de incidentes sinalizados de vários dispositivos, usuários e caixas de correio. Isso ajuda a classificar incidentes e criar uma decisão de resposta de segurança cibernética embasada.
@@ -100,8 +100,7 @@ A gravidade de um incidente indica o impacto que ele pode ter em seus ativos. Qu
 ### <a name="status"></a>Status
 Você pode optar por limitar a lista de incidentes exibidos com base em seu status para ver quais estão ativos ou resolvidos.
 
->[!IMPORTANT]
->Os filtros de classificação, grupo de dispositivos, estado de investigação e plataforma de SO atualmente só estão disponíveis na visualização pública.
+
 
 
 ## <a name="next-steps"></a>Próximas etapas
