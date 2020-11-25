@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 27228f37673eee64ae44de9b88b7505d1958c05f
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 1d4583e5216a369801c48a47b488a35fc4e62b37
+ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376604"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "49407335"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -93,7 +93,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de conformidade pode ajud
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
-[Suporte para clientes do governo dos EUA](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description). Os rótulos de confidencialidade agora têm suporte para clientes GCC, GCC High e DoD, apenas para o cliente e scanner de rotulação Unificação de proteção de informações do Azure.
+[Suporte para clientes do governo dos EUA](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description). Os rótulos de confidencialidade agora têm suporte para clientes GCC, GCC High e DoD, apenas para o cliente e scanner de rotulação Unificação de proteção de informações do Azure.
 
 ### <a name="trainable-classifiers"></a>Classificadores de treinamento
 
@@ -114,7 +114,7 @@ Esse novo recurso está incluído nos seguintes recursos:
 
 Vários recursos novos e aprimorados atingiram a visualização pública neste mês:
 
-**Gerenciamento de risco do insider**
+**Gerenciamento de risco interno**
 
 - Confira nossos seis novos [modelos de política](insider-risk-management-policies.md#policy-templates):
     - Vazamentos de dados por usuários de prioridade

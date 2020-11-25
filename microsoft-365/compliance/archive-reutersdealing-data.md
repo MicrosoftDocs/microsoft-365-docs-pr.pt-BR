@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar Reuters lidando com dados do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: bd3eefb1054d8ef9302ffa6f94ddce740bd55a70
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 6b1b1421944e139b0e5051e99dafb4fba9e126ba
+ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002724"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "49407305"
 ---
-# <a name="set-up-a-connector-to-archive-reuters-dealing-data-preview"></a>Configurar um conector para arquivar Reuters lidando com dados (visualização)
+# <a name="set-up-a-connector-to-archive-reuters-dealing-data"></a>Configurar um conector para arquivar Reuters lidando com dados
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma de negociação do Reuters para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector de atendimento [Reuters](https://globanet.com/reuters-dealing/) que é configurado para capturar itens da fonte de dados de terceiros (regularmente) e importá-los para o Microsoft 365. O conector converte as comunicações da conta de lidando do Reuters em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -63,7 +63,7 @@ A primeira etapa é acessar a página **conectores de dados** no Microsoft 365 e
 
 A segunda etapa é configurar o conector de lidando do Reuters no Globanet site do Merge1. Para obter informações sobre como configurar o conector de atendimento do Reuters, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Reuters%20Dealing%20User%20Guide%20.pdf).
 
-Depois de clicar em **salvar & concluir** , a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
+Depois de clicar em **salvar & concluir**, a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
@@ -71,13 +71,13 @@ Para mapear usuários e concluir a configuração do conector no centro de confo
 
 1. No **mapa Reuters lidando com usuários para a página usuários do Microsoft 365** , habilite o mapeamento de usuário automático.
 
-   Reuters lidar com itens inclua uma propriedade chamada *email* , que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
+   Reuters lidar com itens inclua uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
 2. Na página **consentimento do administrador** , clique no botão **fornecer consentimento** . Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
 
     Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para fornecer o consentimento do administrador, você deve estar conectado com as credenciais de um administrador global do Microsoft 365 e aceitar a solicitação de consentimento. Se você não estiver conectado como um administrador global, poderá ir para [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entrar usando as credenciais de administrador global para aceitar a solicitação.
 
-3. Clique em **Avançar** , revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+3. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
 ## <a name="step-4-monitor-the-reuters-dealing-connector"></a>Etapa 4: monitorar o conector de lidando do Reuters
 
@@ -87,7 +87,7 @@ Depois de criar o conector de lidando do Reuters, você pode visualizar o status
 
 2. Clique na guia **conectores** e selecione o conector de **lidando do Reuters** para exibir a página de submenu, que contém as propriedades e informações sobre o conector.
 
-3. Em **status do conector com origem** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
+3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

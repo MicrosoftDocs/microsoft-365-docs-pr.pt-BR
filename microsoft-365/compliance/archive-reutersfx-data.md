@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados FX do Reuters do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: ae2e36d2d51a22a8d2db1677634a7d66bde7c5c4
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: eb85b2987455902ee960c16c9c10ed6be7fa9392
+ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002729"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "49407285"
 ---
-# <a name="set-up-a-connector-to-archive-reuters-fx-data-preview"></a>Configurar um conector para arquivar dados FX do Reuters (visualização)
+# <a name="set-up-a-connector-to-archive-reuters-fx-data"></a>Configurar um conector para arquivar dados FX do Reuters
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma Reuters FX para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector [Reuters FX](https://globanet.com/reuters-fx/) que é configurado para capturar itens da fonte de dados de terceiros (regularmente) e importá-los para o Microsoft 365. O conector converte as taxas de moedas e FX da conta Reuters FX em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -63,7 +63,7 @@ A primeira etapa é acessar a página **conectores de dados** no Microsoft 365 e
 
 A segunda etapa é configurar o conector Reuters FX no site do Globanet Merge1. Para obter informações sobre como configurar o conector Reuters FX, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Reuters%20FX%20User%20Guide%20.pdf).
 
-Depois de clicar em **salvar & concluir** , a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
+Depois de clicar em **salvar & concluir**, a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
@@ -71,13 +71,13 @@ Para mapear usuários e concluir a configuração do conector no centro de confo
 
 1. Na página **mapear usuários do Reuters FX para usuários do Microsoft 365** , habilite o mapeamento automático do usuário.
 
-   Os itens Reuters FX incluem uma propriedade chamada *email* , que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
+   Os itens Reuters FX incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
 2. Na página **consentimento do administrador** , clique no botão **fornecer consentimento** . Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
 
     Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para fornecer o consentimento do administrador, você deve estar conectado com as credenciais de um administrador global do Microsoft 365 e aceitar a solicitação de consentimento. Se você não estiver conectado como um administrador global, poderá ir para [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entrar usando as credenciais de administrador global para aceitar a solicitação.
 
-3. Clique em **Avançar** , revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+3. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
 ## <a name="step-4-monitor-the-reuters-fx-connector"></a>Etapa 4: monitorar o conector Reuters FX
 
@@ -87,7 +87,7 @@ Depois de criar o conector Reuters FX, você pode visualizar o status do conecto
 
 2. Clique na guia **conectores** e selecione o conector **Reuters FX** para exibir a página de menu suspenso, que contém as propriedades e informações sobre o conector.
 
-3. Em **status do conector com origem** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
+3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

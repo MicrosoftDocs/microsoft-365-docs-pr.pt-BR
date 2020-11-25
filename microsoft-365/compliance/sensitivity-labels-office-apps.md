@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 415f9345c3634adf62c42b9e13192be5ad7ea795
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: b616a25f4e130f7b73b82e80bf82136c229d5efd
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371689"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409198"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -62,11 +62,15 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010 +           | 16.42 +     | 2.42 + | 16.0.13328 + | Em revisão |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004 + | 16.35 +   | Em revisão   | Em revisão         | Em revisão                                                        |
-|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
+|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Sim <sup>\*</sup>                                                        |
 |[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009 +                                  | Visualização para Word e PowerPoint: distribuindo para o [canal atual (visualização)](https://office.com/insider) | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |Suporte para [salvamento automático](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) e [coautoria](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) em documentos rotulados e protegidos | Em revisão | Em revisão | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
+
+**Footnote**
+
+<sup>\*</sup> No momento, não inclui texto de justificativa para remover um rótulo ou diminuir o nível de classificação
 
 ### <a name="sensitivity-label-capabilities-in-outlook"></a>Recursos de rótulo de confidencialidade no Outlook
 
@@ -80,10 +84,11 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Em revisão                     | Em revisão                 | Em revisão         | Em revisão           | Em revisão               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
-|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Em revisão               |
+|[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Sim               |
 |[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Em revisão               |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009 +                      | Em revisão                    | Em revisão           | Em revisão               | Sim |
 |
+
 
 ## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Cliente de rotulagem interno do Office e outras soluções de rótulo
 
@@ -199,7 +204,7 @@ Além de restringir o acesso aos usuários em sua própria organização, você 
 
 Se os usuários externos não tiverem uma conta no Azure Active Directory, você poderá criar uma conta de convidado para eles em seu locatário. Para o endereço de email, você pode especificar qualquer endereço de email que já esteja usando. Por exemplo, seu endereço do gmail. Essa conta de convidado também pode ser usada para acessar um documento compartilhado no SharePoint ou no OneDrive quando você tiver [habilitado rótulos de sensibilidade para arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
-Os usuários externos também podem usar uma conta da Microsoft para documentos criptografados quando usam o Microsoft 365 aplicativos ([anteriormente conhecido como aplicativos do Office 365](https://docs.microsoft.com/deployoffice/name-change)) no Windows e agora no Android (versão 13029 +) e IOS (versão 1385219 +). Esse recurso ainda não tem suporte para o macOS. Por exemplo, alguém compartilha um documento criptografado com eles, e as configurações de criptografia especificam o endereço de email do gmail. Este usuário pode criar sua própria conta da Microsoft que usa o endereço de email do gmail. Depois, após entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para obter um exemplo passo a passo desse cenário, consulte [abrindo e editando o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
+Os usuários externos também podem usar uma conta da Microsoft para documentos criptografados quando usam o Microsoft 365 aplicativos ([anteriormente conhecido como aplicativos do Office 365](https://docs.microsoft.com/deployoffice/name-change)) no Windows e com suporte recém-instalado no MacOS (versão 16.42 +), Android (versão 13029 +) e IOS (versão 2.42 +). Por exemplo, alguém compartilha um documento criptografado com eles, e as configurações de criptografia especificam o endereço de email do gmail. Este usuário pode criar sua própria conta da Microsoft que usa o endereço de email do gmail. Depois, após entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para obter um exemplo passo a passo desse cenário, consulte [abrindo e editando o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
 
 > [!NOTE]
 > O endereço de email da conta da Microsoft deve corresponder ao endereço de email especificado para restringir o acesso às configurações de criptografia.
@@ -234,7 +239,7 @@ Os cenários que incluem a aplicação de um rótulo de confidencialidade fora d
 
 - Dados de rótulo e criptografados exportados do Power BI
 
-- Segurança no aplicativo na nuvem da Microsoft
+- Microsoft Cloud App Security
 
 Para esses cenários, usando seus aplicativos do Office, um usuário com rotulação interna pode aplicar as marcações de conteúdo do rótulo, removendo ou substituindo temporariamente o rótulo atual e reaplicando o rótulo original.
 

@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados do banco de dados MS SQL. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: 6e3a4a79845539745bec233acbfaeff22f4ad4a9
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 576ba38616b9a6a9c1b0e7c78c5e8d03c5a0e9df
+ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002727"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "49407295"
 ---
-# <a name="set-up-a-connector-to-archive-data-from-ms-sql-database-preview"></a>Configurar um conector para arquivar dados do banco de dados MS SQL (versão prévia)
+# <a name="set-up-a-connector-to-archive-data-from-ms-sql-database"></a>Configurar um conector para arquivar dados do banco de dados MS SQL
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados do banco de dados MS SQL para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector do Microsoft SQL Database Importer configurado para capturar itens de um banco de dados usando um arquivo de configuração XML e importar esses itens para o Microsoft 365. O conector converte o conteúdo do banco de dados MS SQL para um formato de mensagem de email e, em seguida, importa esses itens para caixas de correio de usuário no Microsoft 365.
 
@@ -63,19 +63,19 @@ A primeira etapa é acessar a página **conectores de dados** no centro de confo
 
 A segunda etapa é configurar o conector do Microsoft SQL Database Importer no site do Merge1. Para obter informações sobre como configurar o importador de banco de dados MS SQL, consulte [Merge1 de terceiros](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20MS%20SQL%20Database%20Importer%20User%20Guide%20.pdf).
 
-Depois de clicar em **salvar & concluir** , a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
+Depois de clicar em **salvar & concluir**, a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
 Para mapear usuários e concluir a configuração do conector, siga estas etapas:
 
-1. Na página **mapear usuários do banco de dados do MS SQL para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens do banco de dados MS SQL incluem uma propriedade chamada *email* , que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
+1. Na página **mapear usuários do banco de dados do MS SQL para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens do banco de dados MS SQL incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
 2. Na página **consentimento do administrador** , clique no botão **fornecer consentimento** . Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
 
    Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para fornecer o consentimento do administrador, você deve estar conectado com as credenciais de um administrador global do Microsoft 365 e aceitar a solicitação de consentimento. Se você não estiver conectado como um administrador global, poderá ir para [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entrar usando as credenciais de administrador global para aceitar a solicitação.
 
-3. Clique em **Avançar** , revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+3. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
 ## <a name="step-4-monitor-the-ms-sql-database-importer-connector"></a>Etapa 4: monitorar o conector do Microsoft SQL Database Importer
 
@@ -85,7 +85,7 @@ Depois de criar o conector de importador de banco de dados MS SQL, você pode vi
 
 2. Clique na guia **conectores** e selecione o conector de **importador** de **banco de dados MS SQL** para exibir a página de submenu, que contém as propriedades e informações sobre o conector.
 
-3. Em **status do conector com origem** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
+3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
