@@ -141,6 +141,8 @@
                       href: mtp/advanced-hunting-shared-queries.md
                     - name: 'Buscar em dispositivos, e-mails, aplicativos e identidades'
                       href: mtp/advanced-hunting-query-emails-devices.md
+                    - name: Caçar o ransomware
+                      href: mtp/advanced-hunting-find-ransomware.md
                     - name: Transição do Defender para Ponto de Extremidade
                       href: mtp/advanced-hunting-migrate-from-mdatp.md
                 - name: Trabalhar com os resultados da consulta
