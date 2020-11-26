@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Saiba mais sobre as etapas básicas de solução de problemas que você pode executar para resolver problemas comuns na descoberta eletrônica do Office 365.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5c9d917306c1a4ffd0dd1e11e1dd87c135e94f05
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a2db7fac04f29587f451b8feff5b641624e0cf45
+ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545949"
+ms.lasthandoff: 11/26/2020
+ms.locfileid: "49422860"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica
 
@@ -113,25 +113,25 @@ Ao exportar os resultados da pesquisa de descoberta eletrônica ou de pesquisa d
 
 ### <a name="resolution"></a>Resolução
 
-1. Tente usar as etapas identificadas no artigo [aumentar as velocidades de download](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
-
-2. Se você ainda tiver problemas, conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
+1. Conecte-se ao [PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
    ```
 
-3. Encontre a quantidade de dados a serem baixados nos parâmetros SearchResults e SearchStatistics.
+2. Encontre a quantidade de dados a serem baixados nos parâmetros SearchResults e SearchStatistics.
 
-4. Execute o seguinte comando:
+3. Execute o seguinte comando:
 
    ```powershell
    Get-ComplianceSearchAction | FL
    ```
 
-5. No campo resultados, localize os dados que foram exportados e exiba os erros encontrados.
+4. No campo resultados, localize os dados que foram exportados e exiba os erros encontrados.
 
-6. Verifique o arquivo Trace. log localizado no diretório em que você exportou o conteúdo para qualquer erro.
+5. Verifique o arquivo Trace. log localizado no diretório em que você exportou o conteúdo para qualquer erro.
+
+6. Se você ainda tiver problemas, considere dividir as pesquisas que retornam um grande conjunto de resultados em pesquisas menores. Por exemplo, você pode usar intervalos de datas em consultas de pesquisa para retornar um conjunto menor de resultados que podem ser baixados mais rapidamente.
 
 ## <a name="errorissue-internal-server-error-500-occurred"></a>Erro/problema: ocorreu o erro interno do servidor (500)
 

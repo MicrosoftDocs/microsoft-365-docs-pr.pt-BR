@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: 'Saiba como definir opções para exportar os resultados da descoberta eletrônica avançada, incluindo o procedimento para especificar parâmetros para um lote de exportação. '
-ms.openlocfilehash: 4d94b7d1f1d475916e7b0b44a98dd878a1bd5fde
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 252a4a52cc505914b379ea2c0fbfd832ca18deeb
+ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615995"
+ms.lasthandoff: 11/26/2020
+ms.locfileid: "49422880"
 ---
 # <a name="export-results-in-advanced-ediscovery-classic"></a>Exportar resultados na descoberta eletrônica avançada (clássico)
 
@@ -60,26 +60,26 @@ Por exemplo, suponha que um caso foi importado e seus dados analisados. Para rec
 ## <a name="set-up-batch-export-parameters"></a>Configurar parâmetros de exportação em lote
 <a name="BK_SetUpExport"> </a>
 
-A ferramenta de exportação de descoberta eletrônica é usada para exportar resultados de pesquisa de descoberta eletrônica avançada para seu computador local. Para aumentar a produtividade da transferência de dados e acelerar o processo de exportação, você pode definir uma configuração do registro do Windows no computador que você usa para exportar os resultados da pesquisa. Se quiser aumentar a velocidade de download, configure a configuração do registro antes de configurar os parâmetros de exportação. Para obter mais informações, consulte [aumentar a velocidade de download ao exportar resultados de pesquisa de descoberta eletrônica do Office 365](increase-download-speeds-when-exporting-ediscovery-results.md).
+A ferramenta de exportação de descoberta eletrônica é usada para exportar resultados de pesquisa de descoberta eletrônica avançada para seu computador local.
   
-1. Em descoberta eletrônica avançada, selecione um caso e clique em **Configurar** **exportação** \> .
+1. Em descoberta eletrônica avançada, selecione um caso e **Export** clique em \> **Configurar** exportação.
     
     - Na lista **Exportar lote** , selecione o nome do lote ou exportar os resultados para exportar o lote 01 (o lote padrão). 
     
     - Para exportar resultados para novos arquivos que você adicionou a um caso existente, continue com seu lote atual. Para criar uma sessão no lote, selecione o mesmo número de lote e clique em **criar sessão de exportação** você pode usar essa opção para exportar os mesmos parâmetros que o lote anterior, de forma incremental. 
     
-    - Para exportar para um novo lote, clique em **Adicionar** ![ícone](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png)de adição e insira um novo nome em **lote** (ou aceite o padrão) e uma descrição na **Descrição em lote**. Clique em **OK**.
+    - Para exportar para um novo lote, clique em **Adicionar** ![ ícone de adição ](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) e insira um novo nome em **lote** (ou aceite o padrão) e uma descrição na **Descrição em lote**. Clique em **OK**.
     
-    - Para editar um nome de lote ou descrição, selecione o nome **em lote de exportação**, clique em](../media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png) **Editar** ![ícone de edição e modifique os campos.
+    - Para editar um nome de lote ou descrição, selecione o nome em **lote de exportação**, clique em **Editar** ![ ícone de edição ](../media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png) e modifique os campos.
     
       > [!NOTE]
       > Depois de executar sessões para um lote de exportação, elas não podem ser excluídas. Além disso, apenas alguns parâmetros podem ser editados depois que a primeira sessão é executada. 
   
-    - Para criar um lote de exportação duplicado, escolha o **lote** ![de exportação duplicado crie](../media/3f6d5f59-e842-4946-a493-473528af0119.jpg) um ícone de lote de exportação duplicado e insira um nome e uma descrição para o lote duplicado no painel. 
+    - Para criar um lote de exportação duplicado, escolha o **lote de exportação** duplicado ![ crie um ícone de lote de exportação duplicado ](../media/3f6d5f59-e842-4946-a493-473528af0119.jpg) e insira um nome e uma descrição para o lote duplicado no painel. 
     
-    - Para excluir um lote de exportação, escolha **excluir** ![excluir um ícone](../media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)de lote de exportação.
+    - Para excluir um lote de exportação, escolha **excluir** ![ excluir um ícone de lote de exportação ](../media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg) .
     
-    - Para exibir o histórico de um lote, escolha **Batch history** ![o ícone](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
+    - Para exibir o histórico de um lote, escolha o ícone histórico de exibição do **histórico de lotes** ![ ](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg) .
     
 2. Em **população**, selecione **incluir somente os arquivos acima da classificação de recorte de relevância** e/ou **refinar lote de exportação** se quiser ajustar as configurações para o lote de exportação. 
     
@@ -149,7 +149,7 @@ A ferramenta de exportação de descoberta eletrônica é usada para exportar re
     
       - **Anexo exclusivo no nível do conjunto de emails**: Arquivos de anexo exclusivos dentro do caso de email especificado.
     
-   - Em**Micellaneous**, você pode optar por **tratar anexos como documentos**, **tratar emails como documentos**ou **expandir para incluir arquivos da família**. Ao escolher **expandir para incluir arquivos da família**, para cada arquivo sinalizado para revisão, todos os arquivos da mesma família também serão sinalizados.
+   - Em **Micellaneous**, você pode optar por **tratar anexos como documentos**, **tratar emails como documentos** ou **expandir para incluir arquivos da família**. Ao escolher **expandir para incluir arquivos da família**, para cada arquivo sinalizado para revisão, todos os arquivos da mesma família também serão sinalizados.
     
 7. Escolha **salvar** para salvar as configurações. 
     
@@ -169,7 +169,7 @@ A ferramenta de exportação de descoberta eletrônica é usada para exportar re
   
 11. Na **ferramenta de exportação de descoberta eletrônica**:
     
-    -  Em **colar a assinatura de acesso compartilhado que será usada para se conectar à fonte**, Cole a chave de exportação que youcopied para a área de transferência na etapa 7.
+    -  Em **colar a assinatura de acesso compartilhado que será usada para se conectar à fonte**, Cole a chave de exportação que você copiou para a área de transferência na etapa 7.
     
     - Clique em **procurar** para selecionar o local de destino para armazenar os arquivos de exportação baixados na máquina local. 
     
@@ -190,7 +190,7 @@ A tabela a seguir lista os arquivos de saída que são gerados quando você exec
 |Entrada ou arquivos nativos  <br/> |Pasta de arquivo  <br/> |Pasta que contém os arquivos nativos e de entrada dos arquivos exportados.  <br/> |
 |Exportar lista  <br/> |xlsx  <br/> |Metadados de arquivos exportados no formato xlsx. Os campos nos arquivos são de acordo com o modelo de usuário selecionado para exportação. Se necessário, vários arquivos são criados, cada um contém linhas de 100 150K. Se um determinado valor contiver mais caracteres do que uma célula do Excel pode conter (atualmente, o limite é de 32.767 caracteres), o valor será cortado para o comprimento máximo permitido. Se um valor for cortado, a cor de plano de fundo da célula será vermelha para indicar isso ao usuário. " Participantes de email "é um exemplo de um campo que pode exceder o limite de tamanho, se o email foi enviado para uma distribuição grande. Confira [Exportar campos de relatório](export-report-fields-in-advanced-ediscovery.md) para obter detalhes sobre os campos de saída.  <br/> |
 |Carregar arquivo  <br/> |Limit  <br/> |Metadados de arquivos exportados no formato CSV para carregar em um aplicativo diferente. Os campos nos arquivos são de acordo com o modelo de usuário selecionado para exportação.  <br/> |
-|Indicador de êxito  <br/> |txt  <br/> |Criado somente ao exportar para um blob do Azure de terceiros. Se a exportação tiver êxito completamente, o arquivo será criado. No caso de falha, ou o sucesso parcial, o arquivo não será criado. O arquivo será criado na pasta raiz, permitindo o rastreamento automático em diferentes status de lotes/sessões de exportação. Este é um arquivo vazio. O nome é: TenantId_CaseId_ExternalCaseId_CaseName_ExportBatchId_SessionId_DateTime. txt.  <br/> |
+|Indicador de êxito  <br/> |txt  <br/> |Criado somente ao exportar para um blob do Azure de terceiros. Se a exportação tiver êxito completamente, o arquivo será criado. No caso de falha, ou o sucesso parcial, o arquivo não será criado. O arquivo será criado na pasta raiz, permitindo o rastreamento automático em diferentes status de lotes/sessões de exportação. Este é um arquivo vazio. O nome é: TenantId_CaseId_ExternalCaseId_CaseName_ExportBatchId_SessionId_DateTime.txt.  <br/> |
    
 ## <a name="see-also"></a>Também consulte
 
@@ -198,9 +198,6 @@ A tabela a seguir lista os arquivos de saída que são gerados quando você exec
   
 [Exibindo histórico de lotes e exportando resultados passados](view-batch-history-and-export-past-results.md)
   
-[Configuração rápida da descoberta eletrônica avançada](quick-setup-for-advanced-ediscovery.md)
+[Instalação rápida para Descoberta Eletrônica Avançada](quick-setup-for-advanced-ediscovery.md)
 
 [Campos do relatório de exportação](export-report-fields-in-advanced-ediscovery.md)
-  
-[Aumentar a velocidade de download ao exportar resultados de pesquisa de descoberta eletrônica do Office 365](increase-download-speeds-when-exporting-ediscovery-results.md)
-

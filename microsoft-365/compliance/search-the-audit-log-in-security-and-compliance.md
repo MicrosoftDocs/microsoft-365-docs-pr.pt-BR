@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aa47cc0c460e77a6faadd5cb2ff7d46c62ed88ab
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: b27ba2ff9343599dc35b1bae8cd5656197497bea
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376650"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409262"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -438,8 +438,8 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |Arquivo excluído|FileDeleted|O usuário exclui um documento de um site.|
 |Arquivo excluído da Lixeira|FileDeletedFirstStageRecycleBin|O usuário exclui um arquivo da lixeira de um site.|
 |Arquivo excluído da Lixeira de segundo estágio|FileDeletedSecondStageRecycleBin|O usuário exclui um arquivo da lixeira de segundo estágio de um site.|
-|Arquivo excluído marcado como um registro|RecordDelete|Um documento marcado como registro foi excluído. Um documento é considerado um registro quando uma etiqueta de retenção que marca o conteúdo como um registro é aplicada ao documento.|
-|Incompatibilidade de confidencialidade em documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento em um site protegido com um rótulo de sensibilidade e o documento tem um rótulo de sensibilidade de prioridade maior do que o rótulo de sensibilidade aplicado ao site. Por exemplo, um documento rotulado como Confidencial será carregado em um site rotulado como Geral. <br/><br/> Esse evento não será disparado se o documento tiver um rótulo de sensibilidade de prioridade mais baixa do que a etiqueta de sensibilidade aplicada ao site. Por exemplo, um documento rotulado como Geral é carregado para um site rotulado como Confidencial. Para obter mais informações sobre a prioridade de rótulos de sensibilidade, confira [Prioridade de rótulo (questões sobre o pedido)](sensitivity-labels.md#label-priority-order-matters).|
+|Arquivo excluído marcado como um registro|RecordDelete|Um documento ou email que foi marcado como registro foi excluído. Um item é considerado um registro quando um rótulo de retenção que marca os itens como um registro é aplicado ao conteúdo.|
+|Incompatibilidade de confidencialidade de documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento em um site protegido com um rótulo de sensibilidade e o documento tem um rótulo de sensibilidade de prioridade maior do que o rótulo de sensibilidade aplicado ao site. Por exemplo, um documento rotulado como Confidencial será carregado em um site rotulado como Geral. <br/><br/> Esse evento não será disparado se o documento tiver um rótulo de sensibilidade de prioridade mais baixa do que a etiqueta de sensibilidade aplicada ao site. Por exemplo, um documento rotulado como Geral é carregado para um site rotulado como Confidencial. Para obter mais informações sobre a prioridade de rótulos de sensibilidade, confira [Prioridade de rótulo (questões sobre o pedido)](sensitivity-labels.md#label-priority-order-matters).|
 |Malware detectado no arquivo|FileMalwareDetected|O mecanismo de antivírus do SharePoint detecta malwares em um arquivo.|
 |Check-out de arquivo descartado|FileCheckOutDiscarded|O usuário descarta (ou desfaz) um arquivo de check-out. Isso significa que todas as alterações feitas nesse arquivo durante o check-out serão descartadas, e não serão salvas na versão do documento localizada na biblioteca de documentos.|
 |Arquivo baixado|FileDownloaded|O usuário baixa um documento de um site.|
@@ -872,7 +872,7 @@ A tabela a seguir lista as atividades no Gerenciador de conteúdo que estão con
 
 ### <a name="quarantine-activities"></a>Atividades de quarentena
 
-A tabela a seguir lista as atividades de quarentena que podem ser pesquisadas no log de auditoria do. Para obter mais informações sobre quarentena, confira o artigo [Quarentena de mensagens de email no Office 365](../security/office-365-security/quarantine-email-messages.md).
+A tabela a seguir lista as atividades de quarentena que podem ser pesquisadas no log de auditoria. Para obter mais informações sobre quarentena, confira [Quarentena de mensagens de email no Office 365](../security/office-365-security/quarantine-email-messages.md).
 
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
