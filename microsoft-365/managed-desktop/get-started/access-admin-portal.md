@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 66e4e5c305947f90f935563a3baf0592ce42480a
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: deeced350ad867a374a486967c2cbd278ba91710
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371665"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519324"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
@@ -59,7 +59,7 @@ Cada uma das funções abaixo pode ser atribuída para fornecer diferentes níve
 Se você precisar de ajuda para atribuir funções do Azure Active Directory, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 
 Para facilitar o gerenciamento das funções internas, um grupo de segurança foi criado para cada função personalizada (por exemplo, "funções de área de trabalho moderna – gerente de segurança"). Para atribuir usuários a um dos grupos de segurança, siga estas etapas:
-1.  Vá para o portal do Azure e navegue até a folha do Azure Active Directory.
+1.  Vá para o portal do Gerenciador de pontos de extremidade da Microsoft
 2.  Selecione grupos no lado esquerdo.
 3.  Procure funções de local de trabalho moderno e selecione o grupo associado à função que você deseja atribuir. 
 4.  Selecione Membros no lado esquerdo e, em seguida, selecione + Adicionar Membros na barra de comandos.

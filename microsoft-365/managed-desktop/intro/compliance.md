@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7674777214cb5684bb02039f739458352bc701ad
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 65d1d18037a10cd36c3be9498a4373fa67b6afd9
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262274"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519605"
 ---
 # <a name="compliance"></a>Conformidade
 
@@ -24,17 +24,17 @@ Quando você usa o Microsoft Managed desktop IT como serviço, a Microsoft forne
 
 A área de trabalho gerenciada da Microsoft obteve as seguintes certificações:
 
-- [Padrões de gerenciamento de segurança de informações ISO 27001 (ISMS)](../../compliance/offering-ISO-27001.md)
-- [Sistema de gerenciamento de informações de privacidade ISO 27701 (PIMS)](../../compliance/offering-iso-27701.md)
-- [Código ISO 27017 de prática para controles de segurança de informações](../../compliance/offering-ISO-27017.md)
-- [Código de prática ISO 27018 para proteção de dados pessoais na nuvem](../../compliance/offering-ISO-27018.md)
-- [Padrões de sistemas de gerenciamento de qualidade ISO 9001](../../compliance/offering-ISO-9001.md)
-- [Gerenciamento de serviços de tecnologia de Informação ISO 20000-1](../../compliance/offering-ISO-20000-1-2011.md)
-- [Padrão de gerenciamento de continuidade de negócios ISO 22301](../../compliance/offering-ISO-22301.md)
-- [Atestado STAR do Cloud Security Alliance (CSA)](../../compliance/offering-CSA-STAR-Attestation.md)
-- [Certificação STAR do Cloud Security Alliance (CSA)](../../compliance/offering-CSA-Star-Certification.md)
-- [Controles de organização de serviço (SOC) 1, 2, 3](../../compliance/offering-SOC.md)
-- [Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)](../../compliance/offering-PCI-DSS.md)
+- [Padrões de gerenciamento de segurança de informações ISO 27001 (ISMS)](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
+- [Sistema de gerenciamento de informações de privacidade ISO 27701 (PIMS)](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
+- [Código ISO 27017 de prática para controles de segurança de informações](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
+- [Código de prática ISO 27018 para proteção de dados pessoais na nuvem](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)
+- [Padrões de sistemas de gerenciamento de qualidade ISO 9001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-9001)
+- [Gerenciamento de serviços de tecnologia de Informação ISO 20000-1](https://docs.microsoft.com/compliance/regulatory/offering-ISO-20000-1-2011)
+- [Padrão de gerenciamento de continuidade de negócios ISO 22301](https://docs.microsoft.com/compliance/regulatory/offering-ISO-22301)
+- [Atestado STAR do Cloud Security Alliance (CSA)](https://docs.microsoft.com/compliance/regulatory/offering-CSA-STAR-Attestation)
+- [Certificação STAR do Cloud Security Alliance (CSA)](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
+- [Controles de organização de serviço (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
+- [Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Relatórios de auditor e certificados de conformidade
 

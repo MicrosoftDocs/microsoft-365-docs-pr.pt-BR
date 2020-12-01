@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Como a privacidade é protegida com a pontuação de produtividade.
-ms.openlocfilehash: 8686c7c86249a408fe8d4fda14c2ae23a168cafe
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: c88886e9d1470bda48d023b77472e7dd296508a0
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999401"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519348"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Controles de privacidade para Pontuação de produtividade
 
@@ -54,7 +54,7 @@ Para exibir toda a pontuação de produtividade, incluindo métricas de nível d
 
 Atribua a função leitor de relatórios a qualquer pessoa responsável pelo gerenciamento de alterações e pela adoção. Essa função dá acesso à experiência completa, incluindo métricas de nível de locatário e detalhes de nível de usuário.
 
-O relatório experiências de pessoas contém detalhes de atividade por usuário para cada página de detalhes de categoria. Atribuir uma função personalizada chamada leitor de relatórios de Resumo de uso (disponível Iniciando em 29 de outubro de 2020) para permitir o acesso apenas às métricas de agregação das experiências de pessoas. Essa função terá que ser atribuída por meio dos cmdlets do PowerShell até que se torne atribuível do centro de administração da Microsoft em 11/15/2020.
+O relatório experiências de pessoas contém detalhes de atividade por usuário para cada página de detalhes de categoria. Atribuir uma função personalizada chamada leitor de relatórios de Resumo de uso (disponível Iniciando em 29 de outubro de 2020) para permitir o acesso apenas às métricas de agregação das experiências de pessoas. Essa função terá que ser atribuída por meio dos cmdlets do PowerShell até que se torne atribuível do centro de administração da Microsoft mais tarde este ano.
 
 Para atribuir a função leitor de relatórios de Resumo de uso com o PowerShell:
 
@@ -62,6 +62,7 @@ Para atribuir a função leitor de relatórios de Resumo de uso com o PowerShell
 
 ```powershell
 Connect-AzureAD
+Enable-AzureADDirectoryRole -RoleTemplateId '75934031-6c7e-415a-99d7-48dbd49e875e'
 $role=Get-AzureADDirectoryRole -Filter "roleTemplateId eq '75934031-6c7e-415a-99d7-48dbd49e875e'"
 Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId
 $u=Get-AzureADUser -ObjectId <user upn>

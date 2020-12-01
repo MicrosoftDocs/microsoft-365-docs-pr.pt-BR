@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 347266f71dada3de1bbd9b1434cb1e6628249147
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: e2d1c68c3fe963c957e4c3e18fce441b92c96bf1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931919"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519816"
 ---
 # <a name="readiness-assessment-tool"></a>Ferramenta de avaliação de prontidão
 
@@ -22,7 +22,7 @@ Para uma experiência mais suave possível quando você se inscreve na área de 
 
 A ferramenta verifica as configurações no Microsoft Endpoint Manager (especificamente, Microsoft Intune), Azure Active Directory (Azure AD) e Microsoft 365 para garantir que elas funcionarão com a área de trabalho gerenciada da Microsoft. A área de trabalho gerenciada da Microsoft retém os dados associados a essas verificações por 12 meses após a última vez que você executa um check-in em sua organização do AD do Azure (locatário). Após 12 meses, retida-a na forma de não identificado.  Você pode optar por excluir os dados que coletamos.
 
-Qualquer pessoa com pelo menos a função de administrador do Intune poderá executar essa ferramenta, mas duas das verificações ([conectores de certificado](readiness-assessment-fix.md#certificate-connectors) e [autenticação multifator](readiness-assessment-fix.md#multi-factor-authentication) exigem permissões adicionais.
+Qualquer pessoa com pelo menos a função de administrador do Intune poderá executar essa ferramenta, mas duas das verificações ([políticas de acesso condicional](readiness-assessment-fix.md#conditional-access-policies) e [autenticação multifator](readiness-assessment-fix.md#multi-factor-authentication) exigem permissões adicionais.
  
 A ferramenta de avaliação verifica estes itens:
 

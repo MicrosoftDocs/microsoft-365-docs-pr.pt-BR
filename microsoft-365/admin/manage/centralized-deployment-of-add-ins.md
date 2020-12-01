@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: af7a127d438e81d6ecd025b6a71b9d7e5df2ecc8
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 04c5f9090ca788f00f2d17d3af59e8022195e9be
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681619"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519360"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -45,7 +45,7 @@ Pode levar até 24 horas para que um suplemento seja exibido para o cliente para
   
 ## <a name="requirements"></a>Requirements
 
-A implantação centralizada de suplementos requer que os usuários estejam usando o Microsoft 365 aplicativos para Microsoft 365 para empresas ou o Microsoft 365 para empresas (e estejam conectados ao Office usando a respectiva ID organizacional) e tenham caixas de correio ativas do Exchange Online e do Exchange Online. Seu diretório de assinatura deve ser ou federado no Azure Active Directory.
+A implantação centralizada de suplementos exige que os usuários estejam usando os SKUs do Microsoft 365 Enterprise: E3/E5/F3 ou SKUs de negócios: Business Standard, Business Standard, Business Premium (e estejam conectados ao Office usando a respectiva ID organizacional) e que tenham o Exchange Online e caixas de correio ativas do Exchange Online. Seu diretório de assinatura deve ser ou federado no Azure Active Directory.
 Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o [Verificador de compatibilidade de implantação centralizado](#centralized-deployment-compatibility-checker).
 
 A Implantação Centralizada não é compatível com:
@@ -55,17 +55,17 @@ A Implantação Centralizada não é compatível com:
 - Implantação de suplemento em uma caixa de correio local do Exchange
 - Implantação de suplemento no SharePoint  
 - Aplicativos do teams
-- Implantação de suplementos do COM (Component Object Model) ou VSTO (Visual Studio Tools para Office)
-- Implantações do Microsoft 365 que não incluem o Exchange, como os aplicativos do Microsoft 365 para empresas
+- Implantação de suplementos do COM (Component Object Model) ou do Visual Studio Tools for Office (VSTO).
+- Implantações do Microsoft 365 que não incluem o Exchange Online, como SKUs: Microsoft 365 aplicativos for Business e Microsoft 365 aplicativos para empresas.
 
 ### <a name="office-requirements"></a>Requisitos do Office
 
 - Para suplementos do Word, Excel e PowerPoint, seus usuários devem estar usando um dos seguintes:
-  - Em um dispositivo do Windows, versão 1704 ou posterior de aplicativos do Microsoft 365 para o Microsoft 365 para empresas ou Microsoft 365 para empresas.
+  - Em um dispositivo do Windows, versão 1704 ou posterior do Microsoft 365 Enterprise SKUs: E3/E5/F3 ou SKUs de negócios: Business Basic, Business Standard, Business Premium.
   - Em um Mac, versão 15,34 ou posterior.
 
 - Para o Outlook, seus usuários devem estar usando um dos seguintes: 
-  - Versão 1701 ou posterior dos aplicativos da Microsoft 365 para o Microsoft 365 para empresas ou o Microsoft 365 para empresas.
+  - Versão 1701 ou posterior do Microsoft 365 Enterprise SKUs: E3/E5/F3 ou SKUs de negócios: Business Basic, Business Standard, Business Premium.
   - Versão 1808 ou posterior do Office Professional Plus 2019 ou Office Standard 2019.
   - Versão 16.0.4494.1000 ou posterior do Office Professional Plus 2016 (MSI) ou Office Standard 2016 (MSI)\*
   - Versão 15.0.4937.1000 ou posterior do Office Professional Plus 2013 (MSI) ou Office Standard 2013 (MSI)\*
@@ -74,20 +74,6 @@ A Implantação Centralizada não é compatível com:
 - Versão 2.2.145 ou posterior do Outlook Mobile para Android 
     
     * As versões MSI do Outlook mostram os suplementos instalados pelo administrador na faixa de opções do Outlook apropriada, e não na seção "meus suplementos".
-    
-
-#### <a name="find-out-if-microsoft-365-apps-for-enterprise-is-installed"></a>Descubra se o Microsoft 365 aplicativos para empresas está instalado
-
-Para usar o Microsoft 365 aplicativos para empresas, um usuário deve ter uma conta do Microsoft 365 e deve ter sido atribuída uma licença. Para obter mais informações, consulte [Overview of Microsoft 365 Apps for Enterprise](https://go.microsoft.com/fwlink/p/?linkid=846328).
-
-A maneira mais simples de detectar se um usuário tem o Microsoft 365 aplicativos para Enterprise instalado e o está usando recentemente é usar o relatório de ativações do Microsoft Office, que está disponível no centro de administração do Microsoft 365. O relatório fornece uma lista de todos os usuários que ativaram o Microsoft 365 aplicativos para empresas nos últimos sete dias, 30 dias, 90 dias ou 180 dias. Para fins de implantação centralizada, as ativações da área de trabalho para Windows ou Mac são as colunas importantes no relatório. É possível exportar o relatório para Excel. Para obter mais informações sobre o relatório, consulte [microsoft 365 Reports no centro de administração-ativações do Microsoft Office](../activity-reports/microsoft-office-activations.md).
-  
-Se não quiser usar o relatório de ativações, você pode pedir a um usuário para abrir um aplicativo do Office, como o Word, em sua máquina e, em seguida, escolher conta de **arquivo** \> **Account**. Em **informações do produto**, você deve ver o **produto de assinatura** e **a Microsoft 365 para empresas**ou o Microsoft 365 Business Premium, semelhante ao que é mostrado na imagem a seguir.
-
-![Informações de produto em um aplicativo do Office](../../media/product-information-microsoft-365-enterprise.png)
-  
-Para obter ajuda com os aplicativos do Microsoft 365 para empresas, consulte [dicas de solução de problemas para aplicativos da microsoft 365 para empresas](https://go.microsoft.com/fwlink/p/?linkid=846339).
-
 
 ### <a name="exchange-online-requirements"></a>Requisitos do Exchange Online
 

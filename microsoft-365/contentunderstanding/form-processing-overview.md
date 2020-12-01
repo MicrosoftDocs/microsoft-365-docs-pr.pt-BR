@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Saiba mais sobre o processamento de formulário no SharePoint Syntex
-ms.openlocfilehash: 6c2cb2ee3c1fc621e7814f4603ad2e6f0b891701
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: a1429d93d6716fe5db31f0da2a77a68dcf98cd6e
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087398"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519665"
 ---
 # <a name="form-processing-overview"></a>Visão geral do processamento de formulário
 
@@ -35,8 +35,6 @@ Por exemplo, você pode criar um modelo de processamento de formulário que iden
 ![Modo de exibição da biblioteca de documentos](../media/content-understanding/doc-lib-done.png)</br>  
 
 Você usa arquivos de exemplo para treinar seu modelo e definir as informações a serem extraídas do seu formulário. O layout do seu documento é aprendido treinando o seu modelo. Você só precisa de cinco documentos de formulário para começar. O Construtor AI analisará seus arquivos de exemplo para pares de chave/valor e você também pode identificar manualmente os que podem não ter sido detectados.  O Construtor AI permite testar a precisão do modelo em seus arquivos de exemplo.
-
-Você precisa de no mínimo cinco documentos de formulário para começar. A construção de AI analisa os arquivos de exemplo para pares de chave/valor e identifica manualmente aqueles que podem não ter sido detectados.  O Construtor AI permite testar a precisão do modelo em seus arquivos de exemplo.
 
 Depois de treinar e publicar seu modelo, ele cria um [Fluxo do Power Automate](https://docs.microsoft.com/power-automate/getting-started). O fluxo será executado quando um arquivo for carregado na biblioteca de documentos do SharePoint e extrairá os dados identificados no modelo. Os dados extraídos serão exibidos em colunas no modo de exibição da biblioteca de documentos do seu modelo.
 
