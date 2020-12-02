@@ -17,117 +17,117 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar e publicar rótulos de retenção para que você possa aplicá-los em aplicativos para manter o que precisa e excluir o que não
-ms.openlocfilehash: ea67d5942f5134e4e34c3add9bdfc48771201e2d
-ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
+ms.openlocfilehash: dfe507283304f1b1a7ded1740df043174987a398
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385183"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519852"
 ---
-# <a name="create-retention-labels-and-apply-them-in-apps"></a><span data-ttu-id="77953-103">Criar rótulos de retenção e aplicá-los em aplicativos</span><span class="sxs-lookup"><span data-stu-id="77953-103">Create retention labels and apply them in apps</span></span>
+# <a name="create-retention-labels-and-apply-them-in-apps"></a><span data-ttu-id="82cc0-103">Criar rótulos de retenção e aplicá-los em aplicativos</span><span class="sxs-lookup"><span data-stu-id="82cc0-103">Create retention labels and apply them in apps</span></span>
 
-><span data-ttu-id="77953-104">*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*</span><span class="sxs-lookup"><span data-stu-id="77953-104">*[Microsoft 365 licensing guidance for security & compliance](https://aka.ms/ComplianceSD).*</span></span>
+><span data-ttu-id="82cc0-104">*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*</span><span class="sxs-lookup"><span data-stu-id="82cc0-104">*[Microsoft 365 licensing guidance for security & compliance](https://aka.ms/ComplianceSD).*</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="77953-105">Esse cenário é compatível com todas as configurações de rótulo de retenção, inclusive [registros regulatórios](records-management.md#records).</span><span class="sxs-lookup"><span data-stu-id="77953-105">This scenario is supported for all retention label configurations, including [regulatory records](records-management.md#records).</span></span>
+> <span data-ttu-id="82cc0-105">Esse cenário é compatível com todas as configurações de rótulo de retenção, inclusive [registros regulatórios](records-management.md#records).</span><span class="sxs-lookup"><span data-stu-id="82cc0-105">This scenario is supported for all retention label configurations, including [regulatory records](records-management.md#records).</span></span>
 
-<span data-ttu-id="77953-106">Use as informações a seguir para ajudá-lo a criar e publicar [rótulos de retenção](retention.md)e, em seguida, aplicá-los a documentos e emails.</span><span class="sxs-lookup"><span data-stu-id="77953-106">Use the following information to help you create and publish [retention labels](retention.md), and then apply them to documents and emails.</span></span>
+<span data-ttu-id="82cc0-106">Use as informações a seguir para ajudá-lo a criar e publicar [rótulos de retenção](retention.md)e, em seguida, aplicá-los a documentos e emails.</span><span class="sxs-lookup"><span data-stu-id="82cc0-106">Use the following information to help you create and publish [retention labels](retention.md), and then apply them to documents and emails.</span></span>
 
-<span data-ttu-id="77953-107">Os rótulos de retenção ajudam você a manter o que é necessário e a excluir o que não o é no nível de item (documento ou email).</span><span class="sxs-lookup"><span data-stu-id="77953-107">Retention labels help you retain what you need and delete what you don't at the item level (document or email).</span></span> <span data-ttu-id="77953-108">Eles também são usados para declarar um item como um registro como parte de uma solução de [gerenciamento de registros](records-management.md) para seus dados do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="77953-108">They are also used to declare an item as a record as part of a [records management](records-management.md) solution for your Microsoft 365 data.</span></span>
+<span data-ttu-id="82cc0-p101">Os rótulos de retenção ajudam você a manter o que é necessário e a excluir o que não há no nível de item (documento ou email). Eles também são usados para declarar um item como registro como parte de um [gerenciamento de registros](records-management.md) solução para seus dados do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p101">Retention labels help you retain what you need and delete what you don't at the item level (document or email). They are also used to declare an item as a record as part of a [records management](records-management.md) solution for your Microsoft 365 data.</span></span>
 
-<span data-ttu-id="77953-109">Disponibilizar os rótulos de retenção para as pessoas em sua organização para que eles possam classificar o conteúdo é um processo de duas etapas:</span><span class="sxs-lookup"><span data-stu-id="77953-109">Making retention labels available to people in your organization so that they can classify content is a two-step process:</span></span> 
+<span data-ttu-id="82cc0-109">Disponibilizar os rótulos de retenção para as pessoas em sua organização para que eles possam classificar o conteúdo é um processo de duas etapas:</span><span class="sxs-lookup"><span data-stu-id="82cc0-109">Making retention labels available to people in your organization so that they can classify content is a two-step process:</span></span> 
 
-1. <span data-ttu-id="77953-110">Crie os rótulos de retenção.</span><span class="sxs-lookup"><span data-stu-id="77953-110">Create the retention labels.</span></span>
+1. <span data-ttu-id="82cc0-110">Crie os rótulos de retenção.</span><span class="sxs-lookup"><span data-stu-id="82cc0-110">Create the retention labels.</span></span>
 
-2. <span data-ttu-id="77953-111">Publique os rótulos de retenção usando uma política de rótulos de retenção.</span><span class="sxs-lookup"><span data-stu-id="77953-111">Publish the retention labels by using a retention label policy.</span></span>
+2. <span data-ttu-id="82cc0-111">Publique os rótulos de retenção usando uma política de rótulos de retenção.</span><span class="sxs-lookup"><span data-stu-id="82cc0-111">Publish the retention labels by using a retention label policy.</span></span>
   
 ![Diagrama de funções e tarefas para rótulos](../media/4082bc7d-c04c-4b9a-8a26-7f12565d3311.png)
 
-<span data-ttu-id="77953-113">Use as instruções a seguir para as duas etapas de administrador.</span><span class="sxs-lookup"><span data-stu-id="77953-113">Use the following instructions for the two admin steps.</span></span>
+<span data-ttu-id="82cc0-113">Use as instruções a seguir para as duas etapas de administrador.</span><span class="sxs-lookup"><span data-stu-id="82cc0-113">Use the following instructions for the two admin steps.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="77953-114">Antes de começar</span><span class="sxs-lookup"><span data-stu-id="77953-114">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="82cc0-114">Antes de começar</span><span class="sxs-lookup"><span data-stu-id="82cc0-114">Before you begin</span></span>
 
-<span data-ttu-id="77953-115">O administrador global da sua organização tem permissões completas para criar e editar os rótulos de retenção e suas políticas.</span><span class="sxs-lookup"><span data-stu-id="77953-115">The global admin for your organization has full permissions to create and edit retention labels and their policies.</span></span> <span data-ttu-id="77953-116">Se você não estiver entrando como um administrador global, confira [Permissões necessárias para criar e gerenciar políticas e rótulos de retenção](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).</span><span class="sxs-lookup"><span data-stu-id="77953-116">If you aren't signing in as a global admin, see [Permissions required to create and manage retention policies and retention labels](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).</span></span>
+<span data-ttu-id="82cc0-p102">O administrador global da sua organização tem permissões completas para criar e editar rótulos de retenção e suas políticas. Se você não estiver entrando como um administrador global, consulte [Permissões necessárias para criar e gerenciar as políticas e rótulos de retenção](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).</span><span class="sxs-lookup"><span data-stu-id="82cc0-p102">The global admin for your organization has full permissions to create and edit retention labels and their policies. If you aren't signing in as a global admin, see [Permissions required to create and manage retention policies and retention labels](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).</span></span>
 
-## <a name="how-to-create-and-publish-retention-labels"></a><span data-ttu-id="77953-117">Como criar e publicar rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="77953-117">How to create and publish retention labels</span></span>
+## <a name="how-to-create-and-publish-retention-labels"></a><span data-ttu-id="82cc0-117">Como criar e publicar rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="82cc0-117">How to create and publish retention labels</span></span>
 
-<span data-ttu-id="77953-118">Primeiro, crie seu rótulo de retenção.</span><span class="sxs-lookup"><span data-stu-id="77953-118">First, create your retention labels.</span></span> <span data-ttu-id="77953-119">Em seguida, crie uma política de rótulo para tornar os rótulos disponíveis para aplicar nos aplicativos.</span><span class="sxs-lookup"><span data-stu-id="77953-119">Then create a label policy to make the labels available to apply in apps.</span></span>
+<span data-ttu-id="82cc0-p103">Primeiro, crie seus rótulos de retenção. Em seguida, crie uma política de rótulo para tornar os rótulos disponíveis para aplicar nos aplicativos.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p103">First, create your retention labels. Then create a label policy to make the labels available to apply in apps.</span></span>
 
-<span data-ttu-id="77953-120">Onde você cria e configura seus rótulos de retenção depende se você está usando o gerenciamento de registros ou não.</span><span class="sxs-lookup"><span data-stu-id="77953-120">Where you create and configure your retention labels depend on whether you're using records management or not.</span></span> <span data-ttu-id="77953-121">São fornecidas instruções para ambos os cenários.</span><span class="sxs-lookup"><span data-stu-id="77953-121">Instructions are provided for both scenarios.</span></span>
+<span data-ttu-id="82cc0-p104">Onde você cria e configura seus rótulos de retenção depende se você está usando o gerenciamento de registros ou não. São fornecidas instruções para ambos os cenários.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p104">Where you create and configure your retention labels depend on whether you're using records management or not. Instructions are provided for both scenarios.</span></span>
 
-### <a name="step-1-create-retention-labels"></a><span data-ttu-id="77953-122">Etapa 1: Crie rótulos de retenção.</span><span class="sxs-lookup"><span data-stu-id="77953-122">Step 1: Create retention labels</span></span>
+### <a name="step-1-create-retention-labels"></a><span data-ttu-id="82cc0-122">Etapa 1: Crie rótulos de retenção.</span><span class="sxs-lookup"><span data-stu-id="82cc0-122">Step 1: Create retention labels</span></span>
 
-1. <span data-ttu-id="77953-123">No [Centro de Conformidade do Microsoft 365 ](https://compliance.microsoft.com/), navegue até um dos seguintes locais:</span><span class="sxs-lookup"><span data-stu-id="77953-123">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
+1. <span data-ttu-id="82cc0-123">No [Centro de Conformidade do Microsoft 365 ](https://compliance.microsoft.com/), navegue até um dos seguintes locais:</span><span class="sxs-lookup"><span data-stu-id="82cc0-123">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
     
-    - <span data-ttu-id="77953-124">Se você estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="77953-124">If you are using records management:</span></span>
-        - <span data-ttu-id="77953-125">**Soluções** > **Gerenciamento de Registros** >  guia **Plano de Arquivos** > **+ Criar um Rótulo** > **Rótulo de Retenção**</span><span class="sxs-lookup"><span data-stu-id="77953-125">**Solutions** > **Records management** > **File plan** tab > **+ Create a label** > **Retention label**</span></span>
+    - <span data-ttu-id="82cc0-124">Se você estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="82cc0-124">If you are using records management:</span></span>
+        - <span data-ttu-id="82cc0-125">**Soluções** > **Gerenciamento de Registros** >  guia **Plano de Arquivos** > **+ Criar um Rótulo** > **Rótulo de Retenção**</span><span class="sxs-lookup"><span data-stu-id="82cc0-125">**Solutions** > **Records management** > **File plan** tab > **+ Create a label** > **Retention label**</span></span>
         
-    - <span data-ttu-id="77953-126">Se você não estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="77953-126">If you are not using records management:</span></span>
-       - <span data-ttu-id="77953-127">**Soluções** > **Governança de Informações** >  guia **Rótulos** > + **Criar um Rótulo**</span><span class="sxs-lookup"><span data-stu-id="77953-127">**Solutions** > **Information governance** > **Labels** tab > + **Create a label**</span></span>
+    - <span data-ttu-id="82cc0-126">Se você não estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="82cc0-126">If you are not using records management:</span></span>
+       - <span data-ttu-id="82cc0-127">**Soluções** > **Governança de informações** > **Rótulos** guia > + **Criar um rótulo**</span><span class="sxs-lookup"><span data-stu-id="82cc0-127">**Solutions** > **Information governance** > **Labels** tab > + **Create a label**</span></span>
     
-    <span data-ttu-id="77953-128">Não vê a opção imediatamente?</span><span class="sxs-lookup"><span data-stu-id="77953-128">Don't immediately see your option?</span></span> <span data-ttu-id="77953-129">Primeiro, selecione **Mostrar Tudo**.</span><span class="sxs-lookup"><span data-stu-id="77953-129">First select **Show all**.</span></span> 
+    <span data-ttu-id="82cc0-p105">Não vê essa opção imediatamente? Primeiro, selecione **Mostrar tudo**.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p105">Don't immediately see your option? First select **Show all**.</span></span> 
 
-2. <span data-ttu-id="77953-130">Siga as instruções do assistente.</span><span class="sxs-lookup"><span data-stu-id="77953-130">Follow the prompts in the wizard.</span></span> <span data-ttu-id="77953-131">Se você estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="77953-131">If you are using records management:</span></span>
+2. <span data-ttu-id="82cc0-p106">Siga as instruções do assistente. Se você estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="82cc0-p106">Follow the prompts in the wizard. If you are using records management:</span></span>
     
-    - <span data-ttu-id="77953-132">Para saber mais sobre os descritores de plano de arquivo, confira [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md)</span><span class="sxs-lookup"><span data-stu-id="77953-132">For information about the file plan descriptors, see [Use file plan to manage retention labels](file-plan-manager.md)</span></span>
+    - <span data-ttu-id="82cc0-132">Para saber mais sobre os descritores de plano de arquivo, consulte [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md).</span><span class="sxs-lookup"><span data-stu-id="82cc0-132">For information about the file plan descriptors, see [Use file plan to manage retention labels](file-plan-manager.md).</span></span>
     
-    - <span data-ttu-id="77953-133">Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**.</span><span class="sxs-lookup"><span data-stu-id="77953-133">To use the retention label to declare records, select **Mark items as records**, or **Mark items as regulatory records**.</span></span> <span data-ttu-id="77953-134">Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).</span><span class="sxs-lookup"><span data-stu-id="77953-134">For more information, see [Configuring retention labels to declare records](declare-records.md#configuring-retention-labels-to-declare-records).</span></span>
+    - <span data-ttu-id="82cc0-p107">Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, consulte [Configurar rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).</span><span class="sxs-lookup"><span data-stu-id="82cc0-p107">To use the retention label to declare records, select **Mark items as records**, or **Mark items as regulatory records**. For more information, see [Configuring retention labels to declare records](declare-records.md#configuring-retention-labels-to-declare-records).</span></span>
 
-3. <span data-ttu-id="77953-135">Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar o rótulo automaticamente ou salvar o rótulo: selecione **Basta salvar o rótulo para agora** e, em seguida, selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="77953-135">After you have created the label and you see the options to publish the label, auto-apply the label, or just save the label: Select **Just save the label for now**, and then select **Done**.</span></span>
+3. <span data-ttu-id="82cc0-135">Depois de criar o rótulo, você verá as opções para publicar o rótulo, aplicar o rótulo automaticamente ou apenas salvar o rótulo: selecione **Basta salvar o rótulo por agora** e, em seguida, selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="82cc0-135">After you have created the label and you see the options to publish the label, auto-apply the label, or just save the label: Select **Just save the label for now**, and then select **Done**.</span></span>
 
-4. <span data-ttu-id="77953-136">Repita essas etapas para criar mais rótulos.</span><span class="sxs-lookup"><span data-stu-id="77953-136">Repeat these steps to create more labels.</span></span>
+4. <span data-ttu-id="82cc0-136">Repita essas etapas para criar mais rótulos.</span><span class="sxs-lookup"><span data-stu-id="82cc0-136">Repeat these steps to create more labels.</span></span>
 
-<span data-ttu-id="77953-137">Para editar um rótulo existente, selecione-o e, em seguida, selecione **Editar rótulo** para iniciar o Assistente do editor de retenção que permite alterar as descrições de rótulo e quaisquer [configurações qualificadas](#updating-retention-labels-and-their-policies) na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="77953-137">To edit an existing label, select it, and then select the **Edit label** option to start the Edit retention wizard that lets you change the label descriptions and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
+<span data-ttu-id="82cc0-137">Para editar um rótulo existente, selecione-o e, em seguida, selecione **Editar rótulo** para iniciar o Assistente do editor de retenção que permite alterar as descrições de rótulo e quaisquer [configurações qualificadas](#updating-retention-labels-and-their-policies) na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="82cc0-137">To edit an existing label, select it, and then select the **Edit label** option to start the Edit retention wizard that lets you change the label descriptions and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
 
-### <a name="step-2-publish-retention-labels"></a><span data-ttu-id="77953-138">Etapa 2: Publique os rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="77953-138">Step 2: Publish retention labels</span></span>
+### <a name="step-2-publish-retention-labels"></a><span data-ttu-id="82cc0-138">Etapa 2: Publique os rótulos de retenção</span><span class="sxs-lookup"><span data-stu-id="82cc0-138">Step 2: Publish retention labels</span></span>
 
-<span data-ttu-id="77953-139">Publique os rótulos de retenção para que eles possam ser aplicados pelos usuários em aplicativos, como o Microsoft Office SharePoint Online e o Outlook.</span><span class="sxs-lookup"><span data-stu-id="77953-139">Publish retention labels so that they can be applied by users in apps, such as SharePoint and Outlook.</span></span>
+<span data-ttu-id="82cc0-139">Publique os rótulos de retenção para que eles possam ser aplicados pelos usuários em aplicativos, como o Microsoft Office SharePoint Online e o Outlook.</span><span class="sxs-lookup"><span data-stu-id="82cc0-139">Publish retention labels so that they can be applied by users in apps, such as SharePoint and Outlook.</span></span>
 
-1. <span data-ttu-id="77953-140">No [Centro de conformidade do Microsoft 365 ](https://compliance.microsoft.com/), navegue até um dos seguintes locais:</span><span class="sxs-lookup"><span data-stu-id="77953-140">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
+1. <span data-ttu-id="82cc0-140">No [Centro de conformidade do Microsoft 365 ](https://compliance.microsoft.com/), navegue até um dos seguintes locais:</span><span class="sxs-lookup"><span data-stu-id="82cc0-140">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
     
-    - <span data-ttu-id="77953-141">Se você estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="77953-141">If you are using records management:</span></span>
-        - <span data-ttu-id="77953-142">**Soluções** > **Gerenciamento de Registros** > > guia **Políticas de Rótulo** > **Publicar Rótulos**</span><span class="sxs-lookup"><span data-stu-id="77953-142">**Solutions** > **Records management** > > **Label policies** tab > **Publish labels**</span></span>
+    - <span data-ttu-id="82cc0-141">Se você estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="82cc0-141">If you are using records management:</span></span>
+        - <span data-ttu-id="82cc0-142">**Soluções** > **Gerenciamento de Registros** > > guia **Políticas de Rótulo** > **Publicar Rótulos**</span><span class="sxs-lookup"><span data-stu-id="82cc0-142">**Solutions** > **Records management** > > **Label policies** tab > **Publish labels**</span></span>
     
-    - <span data-ttu-id="77953-143">Se você não estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="77953-143">If you are not using records management:</span></span>
-        - <span data-ttu-id="77953-144">**Soluções** > **Governança de Informações** >  guia **Políticas de Rótulo** > **Publicar Rótulos**</span><span class="sxs-lookup"><span data-stu-id="77953-144">**Solutions** > **Information governance** > **Label policies** tab > **Publish labels**</span></span>
+    - <span data-ttu-id="82cc0-143">Se você não estiver usando o gerenciamento de registros:</span><span class="sxs-lookup"><span data-stu-id="82cc0-143">If you are not using records management:</span></span>
+        - <span data-ttu-id="82cc0-144">**Soluções** > **Governança de informações** > **Políticas de rótulo** guia > **Publicar rótulos**</span><span class="sxs-lookup"><span data-stu-id="82cc0-144">**Solutions** > **Information governance** > **Label policies** tab > **Publish labels**</span></span>
     
-    <span data-ttu-id="77953-145">Não vê a opção imediatamente?</span><span class="sxs-lookup"><span data-stu-id="77953-145">Don't immediately see your option?</span></span> <span data-ttu-id="77953-146">Primeiro, selecione **Mostrar Tudo**.</span><span class="sxs-lookup"><span data-stu-id="77953-146">First select **Show all**.</span></span> 
+    <span data-ttu-id="82cc0-p108">Não vê essa opção imediatamente? Primeiro, selecione **Mostrar tudo**.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p108">Don't immediately see your option? First select **Show all**.</span></span> 
 
-2. <span data-ttu-id="77953-147">Siga as instruções do assistente.</span><span class="sxs-lookup"><span data-stu-id="77953-147">Follow the prompts in the wizard.</span></span>
+2. <span data-ttu-id="82cc0-147">Siga as instruções do assistente.</span><span class="sxs-lookup"><span data-stu-id="82cc0-147">Follow the prompts in the wizard.</span></span>
     
-    <span data-ttu-id="77953-148">Para obter informações sobre os locais suportados pelos rótulos de retenção, confira a seção[Rótulos e locais de retenção](retention.md#retention-label-policies-and-locations).</span><span class="sxs-lookup"><span data-stu-id="77953-148">For information about the locations supported by retention labels, see the [Retention labels and locations](retention.md#retention-label-policies-and-locations) section.</span></span> 
+    <span data-ttu-id="82cc0-148">Para obter informações sobre os locais com suporte de rótulos de retenção, consulte [Rótulos e locais de retenção](retention.md#retention-label-policies-and-locations).</span><span class="sxs-lookup"><span data-stu-id="82cc0-148">For information about the locations supported by retention labels, see [Retention labels and locations](retention.md#retention-label-policies-and-locations).</span></span> 
 
-<span data-ttu-id="77953-149">Para editar uma política de rótulo de retenção existente (o tipo de política é **Publicar**), selecione-a e, em seguida, selecione a opção **Editar** para iniciar a política de retenção de edição.</span><span class="sxs-lookup"><span data-stu-id="77953-149">To edit an existing retention label policy (the policy type is **Publish**), select it, and then select the **Edit** option to start the Edit retention policy.</span></span> <span data-ttu-id="77953-150">Esse assistente permite alterar a descrição da política e as [configurações elegíveis](#updating-retention-labels-and-their-policies) na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="77953-150">This wizard lets you change the policy description and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
+<span data-ttu-id="82cc0-p109">Para editar uma política de rótulo de retenção existente, (o tipo de política é **Publicar**), selecione-a e, em seguida, selecione a opção **Editar** para iniciar a política de retenção. Esse assistente permite alterar as descrições da política e quaisquer [configurações elegíveis](#updating-retention-labels-and-their-policies) na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p109">To edit an existing retention label policy (the policy type is **Publish**), select it, and then select the **Edit** option to start the Edit retention policy. This wizard lets you change the policy description and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
 
 
-## <a name="when-retention-labels-become-available-to-apply"></a><span data-ttu-id="77953-151">Quando os rótulos de retenção se tornam disponíveis para aplicar</span><span class="sxs-lookup"><span data-stu-id="77953-151">When retention labels become available to apply</span></span>
+## <a name="when-retention-labels-become-available-to-apply"></a><span data-ttu-id="82cc0-151">Quando os rótulos de retenção se tornam disponíveis para aplicar</span><span class="sxs-lookup"><span data-stu-id="82cc0-151">When retention labels become available to apply</span></span>
 
-<span data-ttu-id="77953-152">Se você publicar os rótulos de retenção no SharePoint ou no OneDrive, os rótulos geralmente serão exibidos para os usuários finais selecionarem dentro de um dia.</span><span class="sxs-lookup"><span data-stu-id="77953-152">If you publish retention labels to SharePoint or OneDrive, those labels  typically appear for end users to select within one day.</span></span> <span data-ttu-id="77953-153">No entanto, espere até sete dias.</span><span class="sxs-lookup"><span data-stu-id="77953-153">However, allow up to seven days.</span></span> 
+<span data-ttu-id="82cc0-p110">Se você publicar os rótulos de retenção no SharePoint ou no OneDrive, esses rótulos geralmente serão exibidos para os usuários finais para selecionarem dentro de um dia. No entanto, espere até sete dias.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p110">If you publish retention labels to SharePoint or OneDrive, those labels  typically appear for end users to select within one day. However, allow up to seven days.</span></span> 
 
-<span data-ttu-id="77953-154">Se você publicar rótulos de retenção no Exchange, pode levar até sete dias para que esses rótulos de retenção apareçam para os usuários finais, e a caixa de correio deve conter pelo menos 10 MB de dados.</span><span class="sxs-lookup"><span data-stu-id="77953-154">If you publish retention labels to Exchange, it can take up to seven days for those retention labels to appear for end users, and the mailbox must contain at least 10 MB of data.</span></span>
+<span data-ttu-id="82cc0-154">Se você publicar rótulos de retenção no Exchange, pode levar até sete dias para que esses rótulos de retenção apareçam para os usuários finais, e a caixa de correio deve conter pelo menos 10 MB de dados.</span><span class="sxs-lookup"><span data-stu-id="82cc0-154">If you publish retention labels to Exchange, it can take up to seven days for those retention labels to appear for end users, and the mailbox must contain at least 10 MB of data.</span></span>
 
-<span data-ttu-id="77953-155">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="77953-155">For example:</span></span>
+<span data-ttu-id="82cc0-155">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="82cc0-155">For example:</span></span>
   
-![Diagrama de quando os rótulos manuais entram em vigor](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
+![Diagrama de quando os rótulos manuais entrarão em vigor](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 
-<span data-ttu-id="77953-157">Se os rótulos não aparecerem após sete dias, verifique o **Status** da política de rótulos selecionando-o na página **Políticas de rótulos** no centro de conformidade.</span><span class="sxs-lookup"><span data-stu-id="77953-157">If the labels don't appear after seven days, check the **Status** of the label policy by selecting it from the **Label policies** page in the compliance center.</span></span> <span data-ttu-id="77953-158">Se você vir o status de **Desligado (Erro)** e nos detalhes dos locais, verá uma mensagem de que está demorando mais do que o esperado para implantar a política (para Microsoft Office SharePoint Online) ou para tentar reimplantar a política (para Microsoft OneDrive), tente executar o comando Windows PowerShell [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) para tentar novamente a distribuição da política:</span><span class="sxs-lookup"><span data-stu-id="77953-158">If you see the status of **Off (Error)** and in the details for the locations see a message that it's taking longer than expected to deploy the policy (for SharePoint) or to try redeploying the policy (for OneDrive), try running the [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell command to retry the policy distribution:</span></span>
+<span data-ttu-id="82cc0-p111">Se os rótulos não aparecerem após sete dias, verifique o **Status** da política de risco selecionando-a na página **Políticas de rótulo** no centro de conformidade. Se você vir o status de **Desligado (Erro)** e nos detalhes dos locais ver uma mensagem que está levando mais tempo que o esperado para implantar a política (para o SharePoint) ou tentar reimplantar a política (para OneDrive), tente executar [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy), um comando do PowerShell, para repetir a distribuição de política:</span><span class="sxs-lookup"><span data-stu-id="82cc0-p111">If the labels don't appear after seven days, check the **Status** of the label policy by selecting it from the **Label policies** page in the compliance center. If you see the status of **Off (Error)** and in the details for the locations see a message that it's taking longer than expected to deploy the policy (for SharePoint) or to try redeploying the policy (for OneDrive), try running [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy), a PowerShell command, to retry the policy distribution:</span></span>
 
-1. [<span data-ttu-id="77953-159">Conectar-se ao Centro de Conformidade e Segurança do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="77953-159">Connect to Security & Compliance Center PowerShell</span></span>](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [<span data-ttu-id="82cc0-159">Conectar-se ao Centro de Conformidade e Segurança do PowerShell</span><span class="sxs-lookup"><span data-stu-id="82cc0-159">Connect to Security & Compliance Center PowerShell</span></span>](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
-2. <span data-ttu-id="77953-160">Execute o seguinte comando:</span><span class="sxs-lookup"><span data-stu-id="77953-160">Run the following command:</span></span>
+2. <span data-ttu-id="82cc0-160">Execute o seguinte comando:</span><span class="sxs-lookup"><span data-stu-id="82cc0-160">Run the following command:</span></span>
     
     ``` PowerShell
     Set-RetentionCompliancePolicy -Identity <policy name> -RetryDistribution
    ```
 
-### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a><span data-ttu-id="77953-161">Como verificar o status dos rótulos de retenção publicados no Exchange</span><span class="sxs-lookup"><span data-stu-id="77953-161">How to check on the status of retention labels published to Exchange</span></span>
+### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a><span data-ttu-id="82cc0-161">Como verificar o status dos rótulos de retenção publicados no Exchange</span><span class="sxs-lookup"><span data-stu-id="82cc0-161">How to check on the status of retention labels published to Exchange</span></span>
 
-<span data-ttu-id="77953-162">No Exchange Online, os rótulos são disponibilizados para os usuários finais por um processo que é executado a cada sete dias.</span><span class="sxs-lookup"><span data-stu-id="77953-162">In Exchange Online, retention labels are made available to end users by a process that runs every seven days.</span></span> <span data-ttu-id="77953-163">Usando o PowerShell, você pode ver quando esse processo foi executado pela última vez e, portanto, identificar quando ele será executado novamente.</span><span class="sxs-lookup"><span data-stu-id="77953-163">By using PowerShell, you can see when this process last ran and therefore identify when it will run again.</span></span>
+<span data-ttu-id="82cc0-p112">No Exchange Online, os rótulos de retenção são disponibilizados para os usuários finais por um processo executado a cada sete dias. Usando o Powershell, você pode ver quando esse processo foi executado pela última vez e, assim, identificar quando ele será executado novamente.</span><span class="sxs-lookup"><span data-stu-id="82cc0-p112">In Exchange Online, retention labels are made available to end users by a process that runs every seven days. By using PowerShell, you can see when this process last ran and therefore identify when it will run again.</span></span>
   
-1. <span data-ttu-id="77953-164">[Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=799773).</span><span class="sxs-lookup"><span data-stu-id="77953-164">[Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=799773).</span></span>
+1. <span data-ttu-id="82cc0-164">[Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=799773).</span><span class="sxs-lookup"><span data-stu-id="82cc0-164">[Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=799773).</span></span>
     
-2. <span data-ttu-id="77953-165">Execute estes comandos.</span><span class="sxs-lookup"><span data-stu-id="77953-165">Run these commands.</span></span>
+2. <span data-ttu-id="82cc0-165">Execute estes comandos.</span><span class="sxs-lookup"><span data-stu-id="82cc0-165">Run these commands.</span></span>
     
    ```powershell
    $logProps = Export-MailboxDiagnosticLogs <user> -ExtendedProperties
@@ -157,6 +157,8 @@ Use the following sections to learn how published retention labels can be applie
 
 In addition, when you use [SharePoint Syntex](../contentunderstanding/index.md) and publish retention labels to SharePoint locations, you can [apply a retention label to a document understanding model](../contentunderstanding/apply-a-retention-label-to-a-model.md) so that identified documents are automatically labeled.
 
+After content is labeled, see the following information to understand when the applied label can be removed or changed: [Only one retention label at a time](retention.md#only-one-retention-label-at-a-time).
+
 ### Manually apply retention labels 
 
 End users, as well as administrators, can manually apply retention labels from the following locations:  
@@ -180,16 +182,26 @@ To label an item in the Outlook desktop client, select the item. On the **Home**
 You can also right-click an item, click **Assign Policy** in the context menu, and then choose the retention label. 
 
 After the retention label is applied, you can view that retention label and what action it takes at the top of the item. If an email has a retention label applied that has an associated retention period, you can see at a glance when the email expires.
+
+##### Applying a default retention label to an Outlook folder
+
+You can apply retention labels to Outlook folders as a default label that can be inherited by messages in that folder. Right-click the folder, select **Properties**, the **Policy** tab, and select the retention label you want to use as that folder's default retention label.
+
+When you use a a standard retention label as your default label for an Outlook folder:
   
-You can also apply retention labels to folders, in which case:
-  
-- All items in the folder automatically get the same retention label, **except** for items that have had a retention label applied explicitly to them. Explicitly labeled items keep their existing retention label. For more information, see [The principles of retention, or what takes precedence?](retention.md#the-principles-of-retention-or-what-takes-precedence) section on this page. 
-    
-- If you change or remove the default retention label for a folder, the retention label's also changed or removed for all items in the folder, **except** items with explicitly assigned retention labels. 
-    
-- If you move an item with a default retention label from one folder to another folder with a different default retention label, the item gets the new default retention label.
-    
-- If you move an item with a default retention label from one folder to another folder with no default retention label, the old default retention label is removed.
+- All unlabeled items in the folder have this retention label applied.
+
+- The inheritance flows to any child folders and items inherit the label from their nearest folder.
+
+- Items that are already labeled retain their retention label, unless it was applied by a different default label.
+
+- If you change or remove the default retention label for the folder: Existing retention labels applied to items in that folder are also changed or removed only if those labels were applied by a default label.
+
+- If you move an item with a default retention label from one folder to another folder with a different default retention label: The item gets the new default retention label.
+
+- If you move an item with a default retention label from one folder to another folder with no default retention label: The old default retention label is removed.
+
+When labels are applied that aren't standard retention labels but mark items as [records (or regulatory records)](records-management.md#records), these labels can only be manually changed or removed.
 
 #### Applying retention labels in Outlook on the web
 
@@ -201,7 +213,7 @@ After the retention label is applied, you can view that retention label and what
   
 ![Label assigned to email in Outlook on the web](../media/16f6c91b-5eab-4574-9d13-6d12be00a783.png)
   
-As with Outlook on the web, you can also apply retention labels to folders. 
+As with the desktop version of Outlook on the web, you can also apply retention labels to folders. Right-click the folder, select **Assign policy**, and change **Use parent folder policy** to the retention label you want to use as that folder's default retention label.
 
 #### Applying retention labels in OneDrive and SharePoint
 
@@ -234,25 +246,31 @@ Then, create one or more label policies that contain the labels and policy setti
 
 This method requires retention labels to be published to a retention label policy.
 
-In addition to enabling people to apply a retention label to individual documents, you can also apply a default retention label to a SharePoint library, folder, or document set, so that all documents in that location inherit the default retention label. Although the same label is applied, each document will be retained and deleted separately, according to the start of the retention period setting in the label. 
+In addition to letting people apply a retention label to individual documents, you can also apply a default retention label to a SharePoint library, folder, or document set. In this scenario, documents in that location can inherit your selected default retention label. Although the same label is applied, each document will be retained and deleted separately, according to the start of the retention period setting in the label. 
   
-For a document library, the default label configuration is done on the **Library settings** page for a document library. When you choose the default retention label, you can also choose to apply it to existing items in the library. 
+For a document library, the default label configuration is done on the **Library settings** page for a document library. When you choose the default retention label, you can also choose to apply it to existing items in the library.
   
 For example, if you have a retention label for marketing materials, and you know a specific document library contains only that type of content, you can make the **Marketing Materials** retention label the default label for all documents in that library.
   
 ![Apply label option on library Settings page](../media/0787d651-63dc-43b4-8768-716a5ecc64ec.png)
-  
-If you apply a default retention label to existing items in the library, folder, or document set:
-  
-- All items in the library, folder, or document set automatically get the same retention label, **except** for items that already have a retention label applied to them.
-    
-- If you change or remove the default retention label for a library, folder, or document set, the retention label is also changed or removed for all items in the library, folder, or document set, **except** items that were manually labeled.
-    
-- If you move an item with a default retention label from one site collection, library, folder, or document set to another site collection, library, folder, or document set that has a different label, the item keeps its existing default retention label, even if the new location has a different default retention label. If the item does not have a label before moving, it will take on the default retention label of the new location.
 
-**Records:** If you apply a default record label to a library, folder, or document set, then a record label is applied to all the individual items within those locations. When you move a new item into a location with a record label, that item is labeled a record. However, if you change the default retention label to a label that doesn't declare content as a record, that action does not remove the record label from the individual items; those items retain their record label. Only a site collection admin can explicitly remove or change the retention label of record items.
+#### Label behavior when you use a default label for SharePoint
 
-For more information about retention labels that declare content as a record, see [Records](records-management.md#records).
+For standard retention labels that you apply as a default retention label to a library, folder, or document set:
+
+- All new, unlabeled items in the container will have this retention label applied.
+
+- For folders, the inheritance flows to any child folders and items inherit the label from their nearest folder.
+
+- If you selected the option to apply the default label to existing items: Items that are already labeled retain their retention label, unless it was applied by a different default label.
+    
+- If you change the default retention label for the container: Existing retention labels applied to items in that container are changed only if you selected the option to apply the default label to existing items and those labels were applied by a default label.
+
+- If you remove the default retention label for the container: Items retain their labels.
+    
+- If you move an item with a default retention label applied from one container to another container: The item keeps its existing default retention label, even if the new location has a different default retention label. Only if you then change the default label for this new location can the moved item inherit the default label from its current location.
+
+When labels are applied that aren't standard retention labels but mark items as [records (or regulatory records)](records-management.md#records), these labels can only be manually changed or removed.
 
 ### Automatically applying a retention label to email by using rules
 
@@ -276,7 +294,7 @@ Some settings can't be changed after the label or policy is created and saved, w
 
 ## Locking the policy to prevent changes
 
-If you need to ensure that that no one can turn off the policy, delete the policy, or make it less restrictive, see [Use Preservation Lock to restrict changes to retention policies and retention label policies](retention-preservation-lock.md).
+If you need to ensure that no one can turn off the policy, delete the policy, or make it less restrictive, see [Use Preservation Lock to restrict changes to retention policies and retention label policies](retention-preservation-lock.md).
 
 ## Next steps
 

@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 0bce37e2ad20ddde556608a72d7df3a1879ae427
-  ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+  ms.openlocfilehash: 1884e0a4946546f4f51aa8afc2476bbdd9d4346c
+  ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/11/2020
-  ms.locfileid: "48993327"
+  ms.lasthandoff: 12/01/2020
+  ms.locfileid: "49519312"
 landingContent:
 - title: Gerenciar proteção de informação e governança
   linkLists:
@@ -69,13 +69,11 @@ landingContent:
     - text: Gerente de Conformidade
       url: compliance-manager.md
     - text: Plano de ação de conformidade GDPR
-      url: gdpr-action-plan.md
-    - text: Proteção de Informações para RGPD
-      url: office-365-info-protection-for-gdpr-overview.md
+      url: https://docs.microsoft.com/compliance/regulatory/gdpr-action-plan
     - text: Plano de ação de conformidade ISO
-      url: iso-action-plan.md
+      url: https://docs.microsoft.com/compliance/regulatory/iso-action-plan
     - text: Plano de ação de conformidade NIST
-      url: nist-action-plan.md
+      url: https://docs.microsoft.com/compliance/regulatory/nist-action-plan
 - title: Implantar soluções de conformidade
   linkLists:
   - linkListType: how-to-guide
