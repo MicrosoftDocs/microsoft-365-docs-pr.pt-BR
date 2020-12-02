@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade da experiência de pessoas.
-ms.openlocfilehash: f40984b3c053dcb976c901830bf796e3b7297f2d
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: e37d5ff0377163bea270b1d16e8b4fddae9099b4
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804776"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551858"
 ---
 # <a name="mobility--people-experiences"></a>Mobilidade – experiências de pessoas
 
-Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com métricas sobre como as pessoas usam o Microsoft 365 aplicativos e as experiências de tecnologia de suporte. A pontuação reflete o desempenho da sua organização&#39;s para categorias de pessoas e experiência tecnológica e compara sua pontuação com organizações como a sua. A categoria trabalho em equipe é parte das medidas que se enquadram em experiências de pessoas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md) para saber mais.
+Pontuação de produtividade oferece suporte à jornada para transformação digital com insights sobre como sua organização usa o Microsoft 365 e sua tecnologia. A pontuação da sua organização reflete as medidas de experiência de pessoas e tecnologias e pode ser comparada a benchmarks de organizações expandidas semelhantes em tamanho do seu. A categoria de mobilidade faz parte das experiências de pessoas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md) para saber mais.
 
 ## <a name="why-your-organization39s-mobility-score-matters"></a>Por que sua organização&#39;Pontuação de mobilidade é importante
 
@@ -56,19 +56,20 @@ A Microsoft 365 permite que as pessoas trabalhem com flexibilidade entre aplicat
 
 #### <a name="trend-visualization-of-the-primary-insight"></a>Visualização de tendências da visão principal
 
-:::image type="content" source="../../media/mobility-primary.png" alt-text="Gráfico mostrando a principal visão da produtividade – as pessoas enfrentam pontuações.":::
+:::image type="content" source="../../media/mobility-primary.png" alt-text="Gráfico mostrando o número de pessoas que usam mais de uma plataforma versus hora.":::
 
 Este gráfico mostra a linha de tendência, onde o numerador é o número de pessoas que usaram aplicativos, nos últimos 180 dias. Cada ponto de dados no gráfico de linhas é um agregado de atividade para os últimos 28 dias. Cada ponto de dados fornece uma contagem de todas as pessoas que usam um aplicativo em pelo menos duas plataformas nos últimos 28 dias para cada data no eixo x.
 
 ### <a name="scoring-framework"></a>Estrutura de Pontuação
 
-A pontuação de mobilidade mede se as pessoas estão usando o Microsoft 365 apps-Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer e Skype-entre as diferentes plataformas – desktop, Web e dispositivos móveis.
+A pontuação de mobilidade para sua organização mede em nível de organização (agregado) se as pessoas estão usando o Microsoft 365 apps-Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer e Skype-nas diferentes plataformas – desktop, Web e dispositivos móveis.
+As pontuações não são fornecidas no nível do usuário individual.
 
 ## <a name="explore-how-your-org-works-across-platforms-and-locations"></a>Explorar como sua organização funciona em plataformas e locais
 
 ### <a name="use-of-outlook-across-platforms"></a>Uso do Outlook entre plataformas
 
-:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="Gráfico mostrando a principal visão da produtividade – as pessoas enfrentam pontuações.":::
+:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="Gráfico que mostra quantas pessoas estão usando o Outlook em várias plataformas.":::
 
 1. **Cabeçalho:** Mostra a porcentagem de pessoas ativas no Outlook que estão usando o Outlook em várias plataformas.
 2. **Corpo:** Fornece informações sobre o valor de usar o Outlook em dispositivos móveis para ajudar a permanecer conectado de qualquer lugar no email.
@@ -89,7 +90,7 @@ A pontuação de mobilidade mede se as pessoas estão usando o Microsoft 365 app
 
 ### <a name="use-of-teams-across-platforms"></a>Uso do teams nas plataformas
 
-:::image type="content" source="../../media/teams-across-platforms.png" alt-text="Gráfico mostrando a principal visão da produtividade – as pessoas enfrentam pontuações.":::
+:::image type="content" source="../../media/teams-across-platforms.png" alt-text="Gráfico que mostra quantas pessoas estão usando o Microsoft Teams em mais de uma única plataforma.":::
 
 1. **Cabeçalho:** Mostra a porcentagem de pessoas que estão ativas no Microsoft Teams que o estão usando em várias plataformas.
 2. **Corpo:** Fornece informações sobre o valor de usar o Microsoft Teams em dispositivos móveis para ajudar as pessoas a se manter atualizado sobre as mensagens enquanto trabalham em qualquer local.
@@ -110,7 +111,7 @@ A pontuação de mobilidade mede se as pessoas estão usando o Microsoft 365 app
 
 ### <a name="use-of-microsoft-365-apps-across-platforms"></a>Uso de aplicativos do Microsoft 365 nas plataformas
 
-:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="Gráfico mostrando a principal visão da produtividade – as pessoas enfrentam pontuações.":::
+:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="Gráfico que mostra o número de pessoas que usam o Microsoft 365 aplicativos em várias plataformas ou plataformas únicas.":::
 
 1. **Cabeçalho:** Mostra a porcentagem de pessoas ativas em aplicativos do Microsoft 365 (Word, Excel, PowerPoint e OneNote) em várias plataformas.
 2. **Corpo:** Fornece informações sobre o valor de fornecer às pessoas em sua organização a flexibilidade de acessar seus arquivos de qualquer lugar.
@@ -123,7 +124,7 @@ A pontuação de mobilidade mede se as pessoas estão usando o Microsoft 365 app
 
 ### <a name="remote-work"></a>Trabalho remoto
 
-:::image type="content" source="../../media/remotework-trend.png" alt-text="Gráfico mostrando a principal visão da produtividade – as pessoas enfrentam pontuações.":::
+:::image type="content" source="../../media/remotework-trend.png" alt-text="Gráfico que mostra quantas pessoas estão trabalhando remotamente, no local ou ambas.":::
 
 1. **Cabeçalho:** Mostra a porcentagem de pessoas que trabalham apenas de casa ou local fora da rede da empresa&#39;s.
 2. **Corpo:** Realça a importância de facilitar o trabalho remoto para pessoas sem acesso aos escritórios físicos da organização&#39;s.

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Normalmente parte de uma solução de gerenciamento de registros, em que você pode configurar um rótulo de retenção para iniciar o período de retenção com base em um evento identificado.
-ms.openlocfilehash: 1572995909f370c5c3a544cb3f85e20c35629f88
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: cf8ce1dc2ca77e2ba028d0c35f58cd0ab419b32d
+ms.sourcegitcommit: 5ce64d510b15c6e2df32b78e6086f77156731e3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816864"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477620"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Iniciar a retenção quando um evento ocorrer
 
@@ -95,7 +95,7 @@ Para criar e configurar seu rótulo de retenção, use as instruções de [Criar
 
 Um tipo de evento é uma descrição geral de um evento que você quer associar a um rótulo.
 
-Os tipos de evento padrão têm o **(tipo de evento)** depois do nome na lista suspensa, para facilitar a identificação, além disso, você também pode ver e criar o tipo de evento na aba **Gerenciamento de registros** > ** Eventos** > **Gerenciar tipos de eventos**.
+Os tipos de evento padrão têm o **(tipo de evento)** depois do nome na lista suspensa, para facilitar a identificação, além disso, você também pode ver e criar o tipo de evento na aba **Gerenciamento de registros** > **Eventos** > **Gerenciar tipos de eventos**.
 
 A retenção impulsionada por eventos requer configurações de retenção que:
   
@@ -143,8 +143,9 @@ Quando uma instância específica desse tipo de evento ocorre — como, por exem
 
 ![Criar um evento para disparar o início da retenção de rótulos de retenção com base em eventos](../media/create-event-records-management.png)
 
+Até 1 milhão eventos têm suporte por locatário.
 
-### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Etapa 6: Escolher o mesmo tipo de evento usado pelo rótulo na Etapa 2
+### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Etapa 6: Escolher o mesmo tipo de evento usado pelo rótulo na etapa 2
 
 Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo de retenção na Etapa 2. Por exemplo, se você selecionou **Vida útil do produto** como seu tipo de evento para as configurações de rótulo, selecione **Vida útil do produto** quando criar o evento. Somente o conteúdo com os rótulos de retenção aplicados a esse tipo de evento terá o período de retenção ativado.
 

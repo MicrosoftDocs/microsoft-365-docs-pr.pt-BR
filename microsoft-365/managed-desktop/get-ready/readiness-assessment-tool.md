@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e2d1c68c3fe963c957e4c3e18fce441b92c96bf1
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 491422126f7d159689e7995b69bef0f395491dcb
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519816"
+ms.locfileid: "49527704"
 ---
 # <a name="readiness-assessment-tool"></a>Ferramenta de avaliação de prontidão
 
@@ -22,7 +22,7 @@ Para uma experiência mais suave possível quando você se inscreve na área de 
 
 A ferramenta verifica as configurações no Microsoft Endpoint Manager (especificamente, Microsoft Intune), Azure Active Directory (Azure AD) e Microsoft 365 para garantir que elas funcionarão com a área de trabalho gerenciada da Microsoft. A área de trabalho gerenciada da Microsoft retém os dados associados a essas verificações por 12 meses após a última vez que você executa um check-in em sua organização do AD do Azure (locatário). Após 12 meses, retida-a na forma de não identificado.  Você pode optar por excluir os dados que coletamos.
 
-Qualquer pessoa com pelo menos a função de administrador do Intune poderá executar essa ferramenta, mas duas das verificações ([políticas de acesso condicional](readiness-assessment-fix.md#conditional-access-policies) e [autenticação multifator](readiness-assessment-fix.md#multi-factor-authentication) exigem permissões adicionais.
+Qualquer pessoa com pelo menos a função de administrador do Intune poderá executar essa ferramenta, mas duas das verificações ([políticas de acesso condicional](readiness-assessment-fix.md#conditional-access-policies) e [autenticação multifator](readiness-assessment-fix.md#multifactor-authentication) exigem permissões adicionais.
  
 A ferramenta de avaliação verifica estes itens:
 
@@ -39,7 +39,7 @@ A ferramenta de avaliação verifica estes itens:
 |Página de status do registro     | Confirma se a página de status do registro não está habilitada      |
 |Registro do Intune     | Verifica se os dispositivos Windows 10 em sua organização do Azure AD estão registrados automaticamente no Intune         |
 |Microsoft Store para empresas     | Confirma se o Microsoft Store para empresas está habilitado e sincronizado com o Intune        |
-|Autenticação multifator | Verifica se a autenticação multifator não é aplicada às contas de serviço de área de trabalho gerenciada da Microsoft.
+|Autenticação de vários fatores | Verifica se a autenticação multifator não é aplicada às contas de serviço de área de trabalho gerenciada da Microsoft.
 |Scripts do PowerShell     | Verifica se os scripts do Windows PowerShell *não* estão atribuídos de uma maneira que direcione dispositivos de área de trabalho gerenciada da Microsoft    |
 |Região     | Verifica se a sua região é compatível com a área de trabalho gerenciada da Microsoft        |
 |Linhas de base de segurança     | Verifica se o perfil da linha de base de segurança não tem como destino todos os usuários ou todos os dispositivos (as diretivas de linha de base de segurança *não* devem ser direcionadas a dispositivos da Microsoft gerenciado       |
@@ -55,7 +55,7 @@ A ferramenta de avaliação verifica estes itens:
 |Assinaturas "ad hoc" para roaming de estado empresarial     | Aconselha a verificar uma configuração que (se definida como "false") pode impedir que o roaming de estado corporativo funcione corretamente  |
 |Roaming de Estado da Empresa     | Aconselha a verificar se o roaming de estado corporativo está habilitado       |
 |Licenças     | Verifica se você obteve as [licenças](prerequisites.md#more-about-licenses) necessárias         |
-|Autenticação multifator     | Verifica se a autenticação multifator não é aplicada a todos os usuários (a autenticação multifator não deve ser aplicada acidentalmente às contas de serviço de área de trabalho gerenciada da Microsoft).|
+|Autenticação de vários fatores     | Verifica se a autenticação multifator não é aplicada a todos os usuários (a autenticação multifator não deve ser aplicada acidentalmente às contas de serviço de área de trabalho gerenciada da Microsoft).|
 |Nomes de contas de segurança   | Verifica se nenhum nome de usuário está em conflito com aqueles que a área de trabalho gerenciada da Microsoft reserva para seu próprio uso        |
 |Funções de administrador de segurança     | Confirma se os usuários com o leitor de segurança, o operador de segurança ou as funções de leitor global receberam essas funções no Microsoft defender para ponto de extremidade         |
 |Padrões de segurança | Verifica se a sua organização do Azure AD tem padrões de segurança habilitados no Azure Active Directory |
@@ -78,4 +78,8 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
 |Recomendações    | Siga as etapas na ferramenta para obter a melhor experiência com o registro e os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar o primeiro dispositivo.        |
 |Não está pronto | O *registro falhará* se você não corrigir esses problemas. Siga as etapas na ferramenta para resolvê-los.        |
-|Erro | A função de diretor do Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+|Error | A função de diretor do Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+
+## <a name="after-enrollment"></a>Após o registro
+
+Após concluir o registro na área de trabalho gerenciada da Microsoft, lembre-se de retornar e ajustar determinadas configurações do Intune e do Azure AD. Para obter detalhes, consulte [ajustar as configurações após o registro](../get-started/conditional-access.md).

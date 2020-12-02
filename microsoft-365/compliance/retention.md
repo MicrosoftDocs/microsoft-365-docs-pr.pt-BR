@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 5ceec4ed45286afa14004dcfcb9476040df9a5ec
-ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
+ms.openlocfilehash: e2833d966fb8a1fcc15cbeb02b781d9c0325b9c1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385267"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519372"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -131,20 +131,20 @@ Em todos esses casos, os rótulos de retenção permitem aplicar configurações
   
 Com os rótulos de retenção, você pode:
   
-- **Habilitar as pessoas em sua organização a aplicar um rótulo manualmente** ao conteúdo no Outlook e Outlook na Web, OneDrive, SharePoint e em grupos do Microsoft 365. Geralmente, os usuários sabem com que tipo de conteúdo estão trabalhando, para que eles possam classificá-lo e ter as configurações de retenção apropriadas aplicadas. 
+- **Permita que pessoas em sua organização apliquem um rótulo de retenção manualmente** ao conteúdo no Outlook e no Outlook na Web, no OneDrive, no SharePoint e Grupos do Microsoft 365. Os usuários geralmente sabem melhor o tipo de conteúdo com o qual estão trabalhando; portanto, podem classificá-lo e aplicar a política apropriada. 
     
-- **Aplique automaticamente os rótulos de retenção ao conteúdo** que corresponder a condições específicas, por exemplo, quando o conteúdo apresenta: 
+- **Aplique automaticamente os rótulos de retenção ao conteúdo** se ele corresponder a condições específicas, por exemplo, quando o conteúdo contém: 
     - Tipos específicos de informações confidenciais.
     - Palavras-chave específicas que correspondem a uma consulta criada por você.
     - Correspondências padrão para um classificador treinável.
 
-- **Inicie o período de retenção a partir do momento em que o conteúdo foi rotulado** para documentos em sites do Microsoft Office SharePoint Online e contas do OneDrive e para itens de email com exceção dos itens do calendário. Se você aplicar um rótulo de retenção com essa configuração em um item de calendário, o período de retenção será iniciado a partir do momento em que ele for enviado.
+- **Inicie o período de retenção a partir do momento em que o conteúdo foi rotulado** para documentos em sites do SharePoint e contas do OneDrive e para itens de email com exceção dos itens do calendário. Se você aplicar um rótulo de retenção com essa configuração em um item de calendário, o período de retenção será iniciado a partir do momento em que ele for enviado.
 
-- **Iniciar o período de retenção quando um evento ocorrer**, como funcionários saem da organização ou os contratos expiram.
+- **Iniciar o período de retenção quando um evento ocorrer**, por exemplo, funcionários saem da organização ou os contratos expiram.
 
-- **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
+- **Aplique um rótulo de retenção padrão a uma biblioteca de documentos, pasta ou conjunto de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
 
-Além disso, os rótulos de retenção são compatíveis com o [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços da Microsoft 365. Você pode usar um rótulo de retenção para marcar os itens como um registro. Quando isso acontece e o conteúdo permanece no Microsoft 365, o rótulo impõe restrições adicionais ao conteúdo que pode ser necessário por motivos regulatórios. Para saber mais, confira [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).
+Além disso, os rótulos de retenção oferecem suporte a [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços do Microsoft 365. Você pode usar um rótulo de retenção para marcar os itens como um registro. Quando isso acontece e o conteúdo permanece no Microsoft 365, o rótulo insere restrições sobre o conteúdo que pode ser necessário por motivos regulatórios. Para saber mais, consulte [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).
 
 Os rótulos de retenção, diferentemente dos [rótulos de sensibilidade](sensitivity-labels.md), não persistirão se o conteúdo for transferido fora do Microsoft 365.
 
@@ -152,7 +152,7 @@ Não há limite para o número de rótulos de retenção com suporte para um loc
 
 #### <a name="classifying-content-without-applying-any-actions"></a>Classificação do conteúdo sem aplicar ações
 
-Embora o principal objetivo de rótulos de retenção seja reter ou excluir o conteúdo, você também pode usar os rótulos de retenção sem ativar qualquer retenção ou outras ações. Nesse caso, você pode usar um rótulo de retenção simplesmente como um rótulo de texto, sem aplicar ações.
+Embora o principal objetivo de rótulos de retenção seja reter ou excluir o conteúdo, você também pode usar os rótulos de retenção sem ativar qualquer retenção ou outras ações. Nesse caso, você pode usar o rótulo de retenção simplesmente como um rótulo de texto, sem impor quaisquer ações.
   
 Por exemplo, você pode criar e aplicar um rótulo de retenção chamado "Revisar mais tarde" sem ações e usar esse rótulo para localizar esse conteúdo mais tarde.
   
@@ -160,13 +160,13 @@ Por exemplo, você pode criar e aplicar um rótulo de retenção chamado "Revisa
 
 #### <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de retenção como condição em uma política DLP
 
-Você pode especificar um rótulo de retenção como uma condição em uma política de prevenção contra perda de dados (DLP) para documentos no Microsoft Office SharePoint Online. Por exemplo, configure uma política DLP para evitar que os documentos sejam compartilhados fora da organização se eles tiverem um rótulo de retenção especificado aplicado a ele.
+Você pode especificar um rótulo de retenção como uma condição em uma política de prevenção contra perda de dados (DLP) para documentos no SharePoint. Por exemplo, configure uma política DLP para evitar que os documentos sejam compartilhados fora da organização se eles tiverem um rótulo de retenção especificado aplicado a ele.
 
-Para saber mais, confira [Usar um rótulo de retenção como condição em uma política DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
+Para saber mais, consulte [Usar um rótulo de retenção como condição em uma política DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
 
 #### <a name="retention-labels-and-policies-that-apply-them"></a>Rótulos de retenção e políticas que os aplicam
 
-Os rótulos de retenção são blocos de construção independentes e reutilizáveis. O objetivo principal da política de rótulos de retenção é agrupar um conjunto desses rótulos e especificar os locais em que você deseja que eles sejam exibidos. Em seguida, os administradores e os usuários podem aplicar esses rótulos ao conteúdo desses locais.
+Os rótulos de retenção são blocos de construção independentes e reutilizáveis. O objetivo principal de uma política de rótulos de retenção é agrupar um conjunto de rótulos de retenção e especificar os locais nos quais você deseja exibi-los. Em seguida, os administradores e os usuários podem aplicar esses rótulos ao conteúdo desses locais.
   
 ![Diagrama de rótulos, políticas de rótulos e locais](../media/eee42516-adf0-4664-b5ab-76727a9a3511.png)
   
@@ -180,7 +180,7 @@ Quando você publica rótulos de retenção, eles são incluídos em uma políti
 
 Além das políticas de rótulo de retenção, você também pode criar uma ou mais políticas de aplicação automática, cada uma com um único rótulo de retenção. Com essa política, um rótulo de retenção é aplicado automaticamente quando as condições especificadas na política são atendidas. 
 
-#### <a name="retention-label-policies-and-locations"></a>Políticas de rótulo de retenção e locais
+#### <a name="retention-label-policies-and-locations"></a>Políticas e locais de rótulo de retenção
 
 É possível publicar tipos diferentes de rótulos de retenção em locais diferentes, dependendo do que o rótulo faz.
   
@@ -190,23 +190,32 @@ Além das políticas de rótulo de retenção, você também pode criar uma ou m
 |Aplicada automaticamente com base em tipos de informações confidenciais ou classificadores treináveis  <br/> |Exchange (somente para todas as caixas de correio), SharePoint, OneDrive  <br/> |
 |Aplicado automaticamente com base em uma consulta  <br/> |Exchange, SharePoint, OneDrive, Grupos do Microsoft 365  <br/> |
    
-No Exchange, os rótulos de retenção de aplicação automática são aplicados somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens da caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis aplicam-se a todas as caixas de correio. Não é possível selecionar caixas de correio específicas.
+No Exchange, os rótulos de retenção de aplicação automática são aplicados somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens na caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis para todas as caixas de correio; não é possível selecionar caixas de correio específicas.
   
-As pastas públicas do Exchange, Skype, Teams e as mensagens do Yammer não oferecem suporte a rótulos de retenção. Para reter e excluir conteúdo desses locais, use políticas de retenção.
+As pastas públicas do Exchange, as mensagens do Skype, Teams e Yammer não oferecem suporte a rótulos de retenção. Para manter e excluir conteúdo desses locais, use políticas de retenção.
 
 #### <a name="only-one-retention-label-at-a-time"></a>Apenas um rótulo de retenção por vez
 
-Um email ou um documento do pode ter apenas um único rótulo de retenção atribuído a ele por vez:
-  
-- Para rótulos de retenção atribuídos manualmente por administradores ou usuários finais, as pessoas podem remover ou alterar o rótulo de retenção que foi atribuído.
+Um email ou um documento pode ter apenas um único rótulo de retenção atribuído a ele por vez. Um rótulo de retenção pode ser aplicado [manualmente](create-apply-retention-labels.md#manually-apply-retention-labels) por um usuário final ou administrador ou automaticamente usando um dos seguintes métodos:
+
+- [Aplicar política de rótulo automaticamente](apply-retention-labels-automatically.md)
+- [Documento entendendo o modelo do SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)
+- [Rótulo padrão para SharePoint](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) ou [Outlook](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)
+- [Regras do Outlook](create-apply-retention-labels.md#automatically-applying-a-retention-label-to-email-by-using-rules)
+
+Para rótulos de retenção padrão (eles não marcam itens como [registro ou registro regulatório](records-management.md#records)):
+
+- Os administradores e os usuários finais podem alterar ou remover manualmente um rótulo de retenção existente que é aplicado ao conteúdo. 
+
+- Quando o conteúdo já tem um rótulo de retenção aplicado, o rótulo existente não será removido automaticamente ou substituído por outro rótulo de retenção com uma possível exceção: o rótulo existente foi aplicado como um rótulo padrão.
     
-- Se o conteúdo tiver um rótulo de aplicação automática atribuído, esse rótulo poderá ser substituído por um rótulo de retenção publicado.
-    
-- Se o conteúdo tiver um rótulo de retenção publicado, um rótulo de aplicação automática não poderá substituí-lo.
-    
-- Se houver várias regras que atribuem um rótulo de aplicação automática e o conteúdo atender às condições de várias regras, o rótulo de retenção da regra mais antiga (por data de criação) será atribuído.
-    
-Para compreender todos os resultados ao usar um rótulo padrão, confira as informações na seção [Aplicando um rótulo de retenção padrão a todo o conteúdo em uma biblioteca, pasta ou conjunto de documentos do Microsoft Office SharePoint Online](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
+    Para obter mais informações sobre o comportamento de rótulos quando aplicados usando um rótulo padrão:
+    - Rótulo padrão para o SharePoint: [Comportamento de rótulo ao usar um rótulo padrão para o SharePoint](create-apply-retention-labels.md#label-behavior-when-you-use-a-default-label-for-sharepoint)
+    - Rótulo padrão para o Outlook: [Aplicando um rótulo de retenção padrão a uma pasta do Outlook](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)
+
+- Se houver várias políticas de rótulo de aplicação automática que podem aplicar um rótulo de retenção, e o conteúdo atender às condições de várias políticas, o rótulo de retenção da política de rótulo de aplicação automática mais antiga (por data de criação) será atribuído.
+
+Quando os rótulos de retenção marcam os itens como um registro ou um registro normativo, esses rótulos nunca são alterados automaticamente. Somente os administradores do contêiner podem alterar ou remover manualmente os rótulos de retenção que marcam itens como um registro, mas não registros normativos. Para saber mais, consulte [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).
 
 #### <a name="monitoring-retention-labels"></a>Monitorar rótulos de retenção
 

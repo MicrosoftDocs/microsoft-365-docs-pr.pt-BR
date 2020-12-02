@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber como identificar grupos específicos de usuários com marcas de usuário no Microsoft defender para Office 365 plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft defender para Office 365 para identificar rapidamente os usuários marcados.
-ms.openlocfilehash: 14ebcebeb8081a2de341fd06facabd9f7d55b119
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: 136de95addae7dcd48de2c6ac1f30ce67714817c
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123614"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552014"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft defender para Office 365
 
@@ -66,9 +66,9 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
    Quando terminar, clique em **Avançar**.
 
-4. Na página **atribuir caixas de correio** , execute uma das seguintes etapas:
+4. Na página **atribuir usuários** , execute uma das seguintes etapas:
 
-   - Clique em **adicionar caixas de correio**. Na saída exibida, execute uma das seguintes etapas para adicionar usuários individuais ou grupos:
+   - Clique em **Adicionar usuários**. Na saída exibida, execute uma das seguintes etapas para adicionar usuários individuais ou grupos:
      - Clique na caixa e role pela lista para selecionar um usuário ou grupo.
      - Clique na caixa e comece a digitar para filtrar a lista e selecione um usuário ou grupo.
      - Para adicionar valores adicionais, clique em uma área vazia na caixa.

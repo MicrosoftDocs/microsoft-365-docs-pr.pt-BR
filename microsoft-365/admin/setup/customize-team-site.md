@@ -2,8 +2,8 @@
 title: Personalizar um site de equipe do SharePoint para armazenamento e compartilhamento de arquivos
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: sharik
+author: SKjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: Saiba como personalizar, organizar e gerenciar seu site de equipe do SharePoint com bibliotecas de documentos, listas e hubs.
-ms.openlocfilehash: 3eb09f0b0160333e3b17ebc5f02424ba3d24a13c
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 3ef82cecf22226380fbb18492a7630aa023b4036
+ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906484"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49525528"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Personalizar seu site de equipe para armazenamento e compartilhamento de arquivos
 
@@ -85,7 +85,7 @@ Assista a um vídeo sobre como adicionar calendários ao seu site, confira [cria
 
 O site de equipe compartilha quase tudo com todos os membros do grupo associado ao site. Se quiser ter um site separado para clientes específicos, você pode criar sites de equipe adicionais e gerenciá-los usando sites de Hub do SharePoint. Veja mais informações.
   
-Os sites de Hub permitem que você adicione e associe sites. Para saber mais, confira [o que é um site do Hub do SharePoint?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f).
+Os sites de Hub permitem que você adicione e associe sites. Para obter mais informações, consulte [o que é um site de Hub do SharePoint?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f).
   
 Pronto para criar um site de Hub, consulte [criar um site de Hub no SharePoint Online](/sharepoint/create-hub-site).
   
@@ -93,11 +93,11 @@ Para saber como adicionar sites a um site do Hub, confira [associar um site do S
   
 ## <a name="sharing-files-with-the-team"></a>Compartilhamento de arquivos com a equipe
 
-Enquanto o armazenamento de arquivos e o gerenciamento de documentos são iniciados, o compartilhamento com sua equipe e clientes externos também é importante. Aqui estão alguns links para tópicos que irão ajudá-lo a gerenciar usuários e compartilhar seus dados.
+Enquanto o armazenamento de arquivos e o gerenciamento de documentos são iniciados, o compartilhamento com sua equipe e clientes externos também é importante. Os artigos a seguir o ajudarão a gerenciar usuários e a compartilhar seus dados:
   
-Para compartilhamento de arquivos com sua equipe, consulte [compartilhar arquivos ou pastas do SharePoint no Microsoft 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
+- Para compartilhamento de arquivos com sua equipe, consulte [compartilhar arquivos ou pastas do SharePoint no Microsoft 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
   
-Para entender o compartilhamento fora da sua equipe, confira [visão geral do compartilhamento externo](/sharepoint/external-sharing-overview).
+- Para entender o compartilhamento fora da sua equipe, confira [visão geral do compartilhamento externo](/sharepoint/external-sharing-overview).
   
 ## <a name="managing-users-and-groups"></a>Gerenciando usuários e grupos
 
@@ -109,9 +109,9 @@ Para adicionar usuários a um grupo do Microsoft 365, confira [Adicionar usuári
   
 Saiba como lidar com solicitações de acesso com a [configuração e o gerenciamento de solicitações de acesso](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3).
   
-## <a name="here-are-more-topics-you-might-be-interested-in"></a>Veja outros tópicos que podem ser de seu interesse
+## <a name="here-are-more-articles-you-might-be-interested-in"></a>Veja mais artigos nos quais você pode estar interessado
 
-- **Configurar aplicativos do Office em tablets e telefone**. É preciso que isso seja feito para que você possa editar arquivos armazenados no site de equipe pelo telefone ou tablet. Se não instalar os aplicativos do Office no telefone ou tablet, você poderá exibir os arquivos no site de equipe, mas não editá-los. 
+- **Configurar aplicativos do Office em tablets e telefone**. Você deve fazer isso para editar arquivos que estão armazenados no site de equipe de seu Tablet ou telefone. Se não instalar os aplicativos do Office no telefone ou tablet, você poderá exibir os arquivos no site de equipe, mas não editá-los. 
     
   - [Instalar e configurar o Office em um Android com o Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     

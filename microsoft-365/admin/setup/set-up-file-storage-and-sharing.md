@@ -2,8 +2,8 @@
 title: Configurar o armazenamento e o compartilhamento de arquivos
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: sharik
+author: SKjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Saiba como usar o OneDrive e um site de equipe para o armazenamento do Microsoft 365 e o compartilhamento de arquivos do Microsoft 365.
-ms.openlocfilehash: cc6a7a45fda65073dc9b0cd15a844ec9aefca794
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: aa85789b950965a33c07214b5eaebf827ed8cc92
+ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906388"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49525564"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Configurar o compartilhamento e o armazenamento de arquivos no Microsoft 365
 
@@ -117,7 +117,7 @@ Aqui estão as etapas para adicionar arquivos:
   
 5. Você pode excluir os arquivos de seu computador. Na próxima etapa, [sincronize os arquivos online com seu PC ou Mac](#sync-online-files-with-your-pc-or-mac), você vai criar um novo local para esses arquivos no seu computador.
 
-    Se você tiver muitos arquivos ou arquivos grandes para carregar para seu site de equipe, leia estas dicas sobre [Como carregar arquivos grandes ou muitos arquivos para uma biblioteca](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242).
+    Se você tiver vários arquivos ou arquivos grandes para carregar em seu site de equipe, leia essas dicas sobre como [carregar grandes ou muitos arquivos em uma biblioteca](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242).
 
     Se precisar de mais espaço de armazenamento, confira [Alterar o espaço de armazenamento de sua assinatura](../../commerce/add-storage-space.md).
 
@@ -158,11 +158,11 @@ Aqui estão algumas dicas para obter o máximo do OneDrive ou do seu site de equ
   
 ### <a name="file-storage-and-collaboration-recommendations-for-other-types-of-small-businesses"></a>Recomendações para colaboração e armazenamento de arquivos para outros tipos de pequenas empresas
 
-- **Empresa único** : Use o onedrive para armazenar seus próprios arquivos e compartilhá-los com os clientes em uma base caso a caso.
+- **Empresa único**: Use o onedrive para armazenar seus próprios arquivos e compartilhá-los com os clientes em uma base caso a caso.
 
-- **Copropriedades** : os dois proprietários usam o onedrive e compartilham arquivos de frente e para trás.
+- **Copropriedades**: os dois proprietários usam o onedrive e compartilham arquivos de frente e para trás.
 
-- **Empresas com clientes externos ou parceiros que precisam acessar arquivos** : Crie um novo site de equipe para armazenar e compartilhar documentos destinados a um cliente específico. Configure o site para permitir acesso apenas ao cliente. Você não precisa se preocupar que um cliente terá acesso acidentalmente às informações destinadas a outro cliente.
+- **Empresas com clientes externos ou parceiros que precisam acessar arquivos**: Crie um novo site de equipe para armazenar e compartilhar documentos destinados a um cliente específico. Configure o site para permitir acesso apenas ao cliente. Você não precisa se preocupar que um cliente terá acesso acidentalmente às informações destinadas a outro cliente.
 
 ### <a name="keep-private-files-private"></a>Manter a privacidade de arquivos particulares
 

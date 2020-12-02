@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: be2fc8e41e3b53923b0297f30dfb102bbabd7489
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 1e133c0d4a875fc9735cc8a92e42b6ffeee6dd5f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877262"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527740"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -60,9 +60,12 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 1. Na seção **tipo de objeto** , selecione **email**. Na seção **formato de envio** , use uma das seguintes opções:
 
-   - **ID da mensagem de rede** : Este é um valor de GUID que está disponível no cabeçalho **X-MS-Exchange-Organization-Network-Message-ID** na mensagem.
+   - **ID da mensagem de rede**: Este é um valor de GUID que está disponível no cabeçalho **X-MS-Exchange-Organization-Network-Message-ID** na mensagem.
 
-   - **Arquivo** : clique em **escolher arquivo**. Na caixa de diálogo que é aberta, localize e selecione o arquivo. eml ou. msg e clique em **abrir**.
+   - **Arquivo**: clique em **escolher arquivo**. Na caixa de diálogo que é aberta, localize e selecione o arquivo. eml ou. msg e clique em **abrir**.
+   
+   > [!NOTE]
+   > Os administradores com o defender para Office 365 plano 1 ou o plano 2 podem enviar mensagens com o antigo a 30 dias. Outros administradores poderão voltar 7 dias.
 
 2. Na seção **destinatários** , especifique um ou mais destinatários em relação à qual você gostaria de executar uma verificação de política. A verificação de política determinará se o email ignorará a verificação por causa de políticas de usuário ou organização.
 
@@ -70,13 +73,9 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
    - **Não deve ter sido bloqueado**
 
-   - **Deveriam ter sido bloqueados** : selecione **spam** , **phishing** ou **malware**. Se você não tiver certeza, use a melhor avaliação.
+   - **Deveriam ter sido bloqueados**: selecione **spam**, **phishing** ou **malware**. Se você não tiver certeza, use a melhor avaliação.
 
-4. Se o filtro tiver sido ignorado devido às políticas após o envio, você verá informações sobre essa política.
-
-   Se o filtro não tiver sido ignorado devido a uma ou mais políticas, a verificação será concluída em vários minutos. Você verá informações adicionais sobre o envio clicando no link status. Isso inclui os resultados da verificação de política e a veredicto de nova verificação. Observação isso não executa o email por meio da pilha de filtragem completa do Microsoft defender para Office 365 novamente, mas executa uma verificação parcial com base em determinados atributos do email, da URL ou do arquivo.
-
-5. Quando tiver concluído, clique no botão **Enviar** .
+4. Quando tiver concluído, clique no botão **Enviar** .
 
 ![Exemplo de envio de URL](../../media/submission-flyout-email.PNG)
 
@@ -88,7 +87,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
    - **Não deve ter sido bloqueado**
 
-   - **Deveria ter sido bloqueado** : selecione **phishing** ou **malware**.
+   - **Deveria ter sido bloqueado**: selecione **phishing** ou **malware**.
 
 3. Quando tiver concluído, clique no botão **Enviar** .
 
@@ -104,7 +103,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
    - **Não deve ter sido bloqueado**
 
-   - **Deveria ter sido bloqueado** : o **malware** é a única opção e é selecionado automaticamente..
+   - **Deveria ter sido bloqueado**: o **malware** é a única opção e é selecionado automaticamente..
 
 4. Quando tiver concluído, clique no botão **Enviar** .
 
@@ -137,7 +136,7 @@ Clique na guia **email** .
 Você pode clicar no botão **Opções de coluna** próximo à parte inferior da página para adicionar ou remover colunas da exibição:
 
 - **Date**
-- **ID de envio** : um valor de GUID que é atribuído a cada envio.
+- **ID de envio**: um valor de GUID que é atribuído a cada envio.
 - **Enviado por**<sup>\*</sup>
 - **Assunto**<sup>\*</sup>
 - **Sender**
@@ -145,10 +144,19 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 - **Tipo de envio**
 - **Motivo da entrega**
 - **Estado**<sup>\*</sup>
-- **Tipo de controle**
-- **Fonte de controle**
 
   <sup>\*</sup> Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
+
+#### <a name="admin-submission-rescan-details"></a>Detalhes do novo envio de administrador
+
+As mensagens enviadas nos envios de administradores são verificadas novamente e os resultados são exibidos no submenu detalhes:
+
+- Se houve uma falha na autenticação de email do remetente no momento da entrega.
+- Informações sobre qualquer ocorrência de política que possa ter afetado ou substituído o veredicto de uma mensagem.
+- Resultados atuais do acionamento para ver se as URLs ou os arquivos contidos na mensagem foram mal-intencionados ou não.
+- Comentários de conséries.
+
+Se uma substituição foi encontrada, a verificação deve ser concluída em vários minutos. Se não houvesse um problema na entrega ou na autenticação de emails não ter sido afetada por uma substituição, os comentários dos comquemres podem levar até um dia.
 
 ### <a name="view-admin-url-submissions"></a>Exibir envios de URL de administração
 
@@ -204,7 +212,7 @@ Próximo à parte superior da página, você pode inserir uma data de início, u
 Para alterar os critérios de filtro, clique no botão **remetente** e escolha um dos seguintes valores:
 
 - **Domínio do remetente**
-- **Assunto**
+- **Subject**
 - **Enviado por**
 - **Tipo de envio**
 - **IP do remetente**

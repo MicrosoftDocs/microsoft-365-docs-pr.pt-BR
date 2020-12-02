@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d41965741bc02876cde7e99904194c9f5787202a
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: a3c9aabd370117c085574144ff9450e74ae277c7
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357186"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527520"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -45,6 +45,7 @@ Antes de começar a manter a conformidade de comunicação, você deve confirmar
 - Assinatura do Microsoft 365 G5 + o suplemento de conformidade do Microsoft 365 G5
 - Assinatura do Microsoft 365 G5 + o complemento de gerenciamento de risco do Microsoft 365 G5 Insider
 - Assinatura do Office 365 Enterprise E5 (versão paga ou de avaliação)
+- Assinatura do Office 365 a5 (versão paga ou de avaliação)
 - Assinatura do Office 365 Enterprise E3 + o complemento avançado de conformidade do Office 365 (não está mais disponível para novas assinaturas, consulte observação)
 
 Os usuários incluídos nas políticas de conformidade de comunicação devem receber uma das licenças acima.
@@ -52,7 +53,7 @@ Os usuários incluídos nas políticas de conformidade de comunicação devem re
 >[!IMPORTANT]
 >O Office 365 Advanced Compliance não é mais vendido como uma assinatura autônoma. Quando as assinaturas atuais expiram, os clientes devem fazer a transição para uma das assinaturas acima, que contêm o mesmo ou outros recursos de conformidade.
 
-Se você não tiver um plano existente do Office 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente ou [inscrever-se em uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Office 365 Enterprise e5.
+Se você não tiver um plano existente do Office 365 Enterprise E5 e quiser tentar a conformidade de comunicação, poderá [Adicionar o Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente ou [inscrever-se para uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Office 365 Enterprise e5.
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>Etapa 1 (obrigatório): Habilitar permissões para conformidade de comunicação
 
@@ -125,10 +126,10 @@ Para obter instruções passo a passo para ativar a auditoria, consulte [Ativar 
 
 Use o gráfico a seguir para ajudá-lo a configurar grupos na sua organização para políticas de conformidade de comunicação:
 
-| Membro de política | Grupos com suporte | Grupos sem suporte |
+| **Membro de política** | **Grupos com suporte** | **Grupos sem suporte** |
 |:-----|:-----|:-----|
-|Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
-| Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
+|Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
+| Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
   
 Quando você atribui um grupo de distribuição na política, a política monitora todos os emails e chats de equipe de cada usuário no grupo de distribuição. Quando você atribui um grupo do Microsoft 365 na política, a política monitora todos os emails e chats de equipes enviados para esse grupo, não os emails e chats individuais recebidos por cada membro do grupo.
 

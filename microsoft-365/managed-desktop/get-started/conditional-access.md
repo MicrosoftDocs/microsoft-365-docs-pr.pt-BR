@@ -1,5 +1,5 @@
 ---
-title: Ajuste o acesso condicional
+title: Ajustar as configurações após o registro
 description: Como excluir determinadas contas da Microsoft
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -9,29 +9,36 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8844c50f5faba609b3f5f53adc5ab45ba1dbaa74
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 76a73372cc7517c3241390e58c28b0b02bffd664
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529678"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527692"
 ---
-# <a name="adjust-conditional-access"></a>Ajuste o acesso condicional
+# <a name="adjust-settings-after-enrollment"></a>Ajustar as configurações após o registro
 
-Se você usar políticas de [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) em sua organização, será necessário defini-las para excluir determinadas contas, de modo que a área de trabalho gerenciada da Microsoft possa funcionar corretamente.
+Após concluir o registro na área de trabalho gerenciada da Microsoft, você precisará ajustar determinadas configurações do Microsoft Intune e do Azure Active Directory (Azure AD) para permitir o gerenciamento e manter a segurança. Defina as configurações a seguir para excluir os grupos do Azure AD que contêm os usuários e dispositivos da área de trabalho gerenciada da Microsoft. Para obter etapas para excluir grupos, consulte [acesso condicional: usuários e grupos](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users).
 
-Para fazer isso, siga estas etapas:
+## <a name="microsoft-intune-settings"></a>Configurações do Microsoft Intune
 
-1. Consulte a seção "etapas de reversão" de [como: planejar sua implantação de acesso condicional no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access#rollback-steps).
-2. Siga as etapas para excluir o grupo de *contas de serviço de área de trabalho moderna* para todas as políticas.
+- Perfil de implantação do piloto automático: excluir os **dispositivos de área de trabalho moderna-todos os**  grupos do Azure AD. Para obter etapas, consulte [registrar dispositivos Windows no Intune usando o Windows AutoPilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot).
+- Políticas de acesso condicional: excluir o grupo de **contas de serviço de área de trabalho moderna** do Azure AD. Para obter etapas, consulte [acesso condicional: usuários e grupos](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups).
+- Autenticação multifator: Certifique-se de que quaisquer políticas de acesso condicional que exijam autenticação multifator exclua o grupo de **serviços de área de trabalho** do Azure AD. Para obter mais informações, consulte [políticas de acesso condicional](../get-ready/readiness-assessment-fix.md#conditional-access-policies) e [acesso condicional: exigir MFA para todos os usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
+- Linha de base de segurança: excluir os **dispositivos de área de trabalho moderna-todos os**  grupos do Azure AD. Para obter etapas, consulte [usar linhas de base de segurança para configurar dispositivos Windows 10 no Intune](https://docs.microsoft.com/mem/intune/protect/security-baselines).
+- Anel de atualização do Windows 10: excluir os **dispositivos de área de trabalho moderna-todos os**  grupos do Azure AD. Para obter etapas, consulte [Manage Windows 10 software updates no Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure).
 
 
-Se você tiver alguma dificuldade com acesso condicional, entre em contato com o [suporte](../working-with-managed-desktop/admin-support.md)de administração.
+## <a name="azure-active-directory-settings"></a>Configurações do Azure Active Directory
+
+Redefinição de senha de autoatendimento: escolha configuração **selecionada** e, em seguida, selecione **dispositivos de área de trabalho moderna-todos os** grupos do Azure AD. Para obter mais informações, consulte [tutorial: permitir que os usuários desbloqueiem suas contas ou redefinam senhas usando a redefinição de senha de autoatendimento do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+
+
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
 
 1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
-2. Ajustar o acesso condicional (este tópico)
+2. Ajustar as configurações após o registro (este artigo)
 3. [Atribuir licenças](assign-licenses.md)
 4. [Implantar o Portal da Empresa do Intune](company-portal.md)
 5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)

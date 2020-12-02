@@ -20,12 +20,12 @@ description: Aprenda a verificar seu domínio e criar registros DNS em qualquer 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 6c2359cbf2da24fa7e2cd579d61216d948e0cb83
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bc22dbd3a050516f518c9ddc9ccf5a3af9c76f12
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645366"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519288"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Adicionar registros DNS para conectar seu domínio
 
@@ -162,7 +162,7 @@ Exemplo: `_sip._tls`
 ##### <a name="priority-weight-and-port-br"></a>Prioridade, Espessura e Porta <br>
 Se o seu provedor de hospedagem não oferecer esses campos para registros SRV, você deve especificá-los no campo **Destino** do registro. (Observação: dependendo do seu provedor de hospedagem, o campo **Destino** pode ter outro nome, como: **Conteúdo**, **Endereço IP** ou **Host de Destino**.) 
 
-Para adicionar esses valores, crie uma única cadeia de caracteres, separando os valores com espaços e * às vezes terminando com um ponto* (verifique com o seu provedor se não tiver certeza). Os valores devem ser incluídos nesta ordem: Prioridade, Peso, Porta, Destino. 
+Para adicionar esses valores, crie uma única cadeia de caracteres, separando os valores com espaços e *às vezes terminando com um ponto* (verifique com o seu provedor se não tiver certeza). Os valores devem ser incluídos nesta ordem: Prioridade, Peso, Porta, Destino. 
 
 - Exemplo 1: `100 1 443 sipdir.online.lync.com.`
 - Exemplo 2: `100 1 443 sipdir.online.lync.com`

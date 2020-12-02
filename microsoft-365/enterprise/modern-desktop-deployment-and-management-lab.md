@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 65c251b2cd161687eb0a2e9c7ece29f453fcaae8
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 4ee3663e326dc5a7fbefce06a696cca6a4b060a9
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519617"
+ms.locfileid: "49527450"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows e do Office
 
@@ -36,7 +36,7 @@ O laboratório fornece um ambiente de laboratório provisionado automaticamente,
 
   - NOVO! Windows 10 Enterprise, versão 20H2
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, Versão 2002
+  - Microsoft Endpoint Configuration Manager, versão 2010 *
   - Kit de Avaliação e Implantação do Windows para Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -94,7 +94,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* Use uma ampla largura de banda para baixar esse conteúdo para aprimorar sua experiência de download e permitir 30-45 minutos para o provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 300 GB de espaço livre em disco. Para obter o desempenho ideal, são recomendados 32 GB de memória disponível. O laboratório expira em fevereiro de 2020. Uma nova versão será publicada antes da expiração.
+* A versão da linha de base instalada 2002 pode ser atualizada para a versão 2010 usando a atualização no console. Use uma largura de banda abrangente para baixar esse conteúdo para aprimorar sua experiência de download e permitir 30-45 minutos de provisionamento automático. O ambiente de laboratório requer um mínimo de QLE2662 de memória disponível e 150GB de espaço livre em disco. Para obter o desempenho ideal, 32 GB de memória disponível e 300 GB de espaço livre são recomendados. O laboratório expira em 7 de fevereiro de 2021. Uma nova versão será publicada antes da expiração.
 
 ## <a name="additional-guidance"></a>Orientações adicionais
 

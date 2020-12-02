@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Este artigo fornece as diretrizes mais recentes para otimizar a conectividade de rede do Microsoft 365 com segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8036a4759f959a075ad0398e823116491e128c0b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a6f104f53abd0a9aa2376b09c93af96d7f8178e8
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847007"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519734"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Princípios de conectividade de rede do Microsoft 365
 
@@ -67,7 +67,7 @@ O objetivo principal no design de rede deve ser minimizar a latência, reduzindo
   
 Identificar o tráfego de rede do Microsoft 365 é o primeiro passo para diferenciar esse tráfego do tráfego de rede genérico vinculado à Internet. A conectividade do Microsoft 365 pode ser otimizada implementando uma combinação de abordagens, como otimização de rota de rede, regras de firewall, configurações de proxy do navegador e bypass de dispositivos de inspeção de rede para certos pontos de extremidade.
   
-Diretrizes de otimização anterior do Microsoft 365 divididos em pontos de extremidade do Microsoft 365 em duas categorias, **Necessário** e **Opcional**. Como os pontos de extremidade foram adicionados para dar suporte a novos recursos e serviços do Microsoft 365, reorganizamos os pontos de extremidade do Microsoft 365 em três categorias: **Otimizar** , **Permitir** e **Padrão**. As diretrizes de cada categoria se aplicam a todos os pontos de extremidade da categoria, facilitando a compreensão e a implementação de otimizações.
+Diretrizes de otimização anterior do Microsoft 365 divididos em pontos de extremidade do Microsoft 365 em duas categorias, **Necessário** e **Opcional**. Como os pontos de extremidade foram adicionados para dar suporte a novos recursos e serviços do Microsoft 365, reorganizamos os pontos de extremidade do Microsoft 365 em três categorias: **Otimizar**, **Permitir** e **Padrão**. As diretrizes de cada categoria se aplicam a todos os pontos de extremidade da categoria, facilitando a compreensão e a implementação de otimizações.
   
 Para obter mais informações sobre as categorias e os métodos de otimização do ponto de extremidade do Microsoft 365, confira a seção [Novas categorias de ponto de extremidade do Office 365](microsoft-365-network-connectivity-principles.md#BKMK_Categories).
   
@@ -157,13 +157,13 @@ Os pontos de extremidade do Office 365 representam um conjunto variado de endere
   
 Nas diretrizes anteriores para o gerenciamento de tráfego do Microsoft 365, os pontos de extremidade eram organizados em duas categorias, **Necessário** e **Opcional**. Os pontos de extremidade de cada categoria exigiam otimizações diferentes dependendo da criticalidade do serviço e muitos clientes enfrentaram desafios ao justificar a aplicação das mesmas otimizações de rede à lista completa de URLs e endereços IP do Office 365.
   
-No novo modelo, os pontos de extremidade são separados em três categorias, **Otimizar** , **Permitir** e **Padrão** , fornecendo uma tabela dinâmica baseada em prioridade sobre onde você deve focar os esforços de otimização de rede para obter os melhores aperfeiçoamentos de desempenho e retorno sobre o investimento. Os pontos de extremidade são consolidados nas categorias acima, com base na sensibilidade da experiência efetiva do usuário à qualidade da rede, volume e envelope de desempenho dos cenários e facilidade de implementação. As otimizações recomendadas podem ser aplicadas da mesma forma em todos os pontos de extremidade de uma determinada categoria.
+No novo modelo, os pontos de extremidade são separados em três categorias, **Otimizar**, **Permitir** e **Padrão**, fornecendo uma tabela dinâmica baseada em prioridade sobre onde você deve focar os esforços de otimização de rede para obter os melhores aperfeiçoamentos de desempenho e retorno sobre o investimento. Os pontos de extremidade são consolidados nas categorias acima, com base na sensibilidade da experiência efetiva do usuário à qualidade da rede, volume e envelope de desempenho dos cenários e facilidade de implementação. As otimizações recomendadas podem ser aplicadas da mesma forma em todos os pontos de extremidade de uma determinada categoria.
   
 - **Otimizar** os pontos de extremidades é necessário para a conectividade com todos os serviços do Microsoft 365 e representa mais de 75% da largura de banda, conexões e volume de dados do Office 365. Esses pontos de extremidade representam os cenários do Office 365 mais confidenciais para o desempenho, latência e disponibilidade da rede. Todos os pontos de extremidade estão hospedados em datacenters da Microsoft. A taxa de alteração para os pontos de extremidade nesta categoria deve ser muito menor do que para os pontos de extremidade nas outras duas categorias. Essa categoria inclui um pequeno conjunto (na ordem de aproximadamente 10) de URLs principais e um conjunto de sub-redes IP dedicadas às cargas de trabalho principais do Office 365, como o Exchange Online, o SharePoint Online, o Skype for Business Online e o Microsoft Teams.
 
     Uma lista condensada de pontos de extremidade críticos muito definidos deve ajudar você a planejar e implementar otimizações de rede de alto valor para esses destinos de maneira mais rápida e fácil.
 
-    Exemplos de *Otimizar*  pontos de extremidade incluem *https://outlook.office365.com* , *https://\<tenant\>.sharepoint.com* e *https://\<tenant\>-my.sharepoint.com*.
+    Exemplos de *Otimizar*  pontos de extremidade incluem *https://outlook.office365.com*, *https://\<tenant\>.sharepoint.com* e *https://\<tenant\>-my.sharepoint.com*.
 
     Os métodos de otimização incluem:
 
@@ -228,7 +228,7 @@ Uma abordagem holística para a segurança aprimorada deve incluir o seguinte:
   - Garante a saída local do tráfego do Microsoft 365
 - Os aperfeiçoamentos podem ser abordados incrementalmente conforme descrito na seção de [Otimização incremental](microsoft-365-network-connectivity-principles.md#BKMK_IncOpt). Algumas técnicas de otimização podem oferecer melhores taxas de custo/benefício, dependendo de sua arquitetura de rede, e você deve escolher otimizações que fazem mais sentido para sua organização.
 
-Para obter mais informações sobre segurança e conformidade com o Microsoft 365, confira o artigo [segurança do Microsoft 365](https://docs.microsoft.com/microsoft-365/security) e [segurança do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance).
+Para obter mais informações sobre o Centro de segurança do Microsoft 365, confira o artigo [Centro de segurança do Microsoft 365](https://docs.microsoft.com/microsoft-365/security) e [Centro de conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance).
   
 ## <a name="incremental-optimization"></a>Otimização incremental
 <a name="BKMK_IncOpt"> </a>

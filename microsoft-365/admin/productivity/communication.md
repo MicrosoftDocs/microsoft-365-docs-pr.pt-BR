@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade da experiência de pessoas de comunicação.
-ms.openlocfilehash: ba2e69659f49c90d3b65e56e54b3026c7c9ff36a
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: a6fccdcc7f6440195bb83949ee294bbb4fe5ce7f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123437"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527496"
 ---
 # <a name="communication--people-experiences"></a>Comunicação – experiências de pessoas
 
@@ -119,9 +119,9 @@ Também fornecemos informações que ajudam você a obter visibilidade de como a
 2. **Corpo:** Fornece informações sobre o valor de uso de mensagens de canal no Microsoft Teams
 3. **Visualização:** Divide o uso de mensagens de chat e de canal:
       - **Pessoas que enviam mensagens de chat:** A parte colorida e a fração representam o uso de mensagens de chat dentro de pessoas que enviaram mensagens no Microsoft Teams. A fração é construída de:
-        - **Numerador:** Pessoas que enviaram mensagens de chat no Microsoft Teams nos últimos 28 dias
-        - **Denominador:** Pessoas enviaram mensagens no Microsoft Teams nos últimos 28 dias
-      - **Pessoas que enviam mensagens de chat:** A parte colorida e a fração representam o uso de mensagens de canal dentro de pessoas que enviam mensagens no Microsoft Teams. A fração é construída de:
+        - **Numerador:** Pessoas que enviaram mensagens de chat no Microsoft Teams nos últimos 28 dias.
+        - **Denominador:** Pessoas que enviaram mensagens no Microsoft Teams nos últimos 28 dias.
+      - **Pessoas enviando mensagens de canal:** A parte colorida e a fração representam o uso de mensagens de canal dentro de pessoas que enviam mensagens no Microsoft Teams. A fração é construída de:
         - **Numerador:** Pessoas que enviaram mensagens de chat no Microsoft Teams nos últimos 28 dias.
         - **Denominador:** Pessoas que enviaram mensagens no Microsoft Teams nos últimos 28 dias.
 4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos agrupados e outro conteúdo de ajuda relacionado.

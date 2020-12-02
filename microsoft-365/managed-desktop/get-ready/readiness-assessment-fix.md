@@ -1,5 +1,5 @@
 ---
-title: Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
+title: Correção de problemas encontrados pela ferramenta de avaliação de prontidão
 description: Ações detalhadas a serem tomadas para cada problema que a ferramenta encontrar
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0459de8974fe6bae98e6984fd7dc65afeb04b4e7
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: f23209568fcfc2db4a22dbb034890c5a25e21bf7
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021080"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527728"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Correção de problemas encontrados pela ferramenta de avaliação de prontidão
 
 Para cada verificação, a ferramenta relatará um dos quatro resultados possíveis:
 
@@ -141,7 +141,7 @@ Os dispositivos Windows 10 em sua organização do Azure AD devem ser registrado
 
 **Recomendações**
 
-Certifique-se de que o escopo de usuário MDM está definido como **alguns** ou **todos** , não **nenhum**. Se você escolher **alguns** , volte após o registro e selecione o **local de trabalho moderno – todos os** grupos do Azure ad para **grupos**.
+Certifique-se de que o escopo de usuário MDM está definido como **alguns** ou **todos**, não **nenhum**. Se você escolher **alguns**, volte após o registro e selecione o **local de trabalho moderno – todos os** grupos do Azure ad para **grupos**.
 
 
 ### <a name="microsoft-store-for-business"></a>Microsoft Store para empresas
@@ -152,7 +152,7 @@ Usamos a Microsoft Store para empresas para que você possa baixar o portal da e
 
 A Microsoft Store para empresas não está habilitada ou não está sincronizada com o Intune. Para obter mais informações, consulte [como gerenciar aplicativos comprados por volume da Microsoft Store para empresas com o Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business) e [instalar o portal da empresa do Intune em dispositivos](../get-started/company-portal.md).
 
-### <a name="multi-factor-authentication"></a>Autenticação multifator
+### <a name="multifactor-authentication"></a>Autenticação de vários fatores
 
 A autenticação multifator não deve ser aplicada acidentalmente às contas de serviço de área de trabalho gerenciada da Microsoft.
 
