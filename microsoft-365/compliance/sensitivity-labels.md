@@ -22,12 +22,12 @@ description: Use rótulos de sensibilidade da estrutura Microsoft Information Pr
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: e881a9178e6b4d4cf703c329dea6f50acb0393c5
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: 62f9cd4eb2056843cae9d68de5803afd422f8560
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371643"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527600"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -35,7 +35,7 @@ ms.locfileid: "49371643"
 
 Para realizar o trabalho, as pessoas da sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo não fica mais atrás de um firewall, ele pode circular em qualquer lugar, em dispositivos, aplicativos e serviços. E quando estiver em roaming, você quer fazê-lo de uma maneira segura e protegida que atenda às políticas de negócios e conformidade da sua organização.
 
-Os rótulos de confidencialidade da estrutura da Proteção de Informações da Microsoft permitem classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas.
+Os rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft permitem classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas.
 
 Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na guia **Página Inicial** na faixa de opções. Neste exemplo, o rótulo aplicado exibe na barra de status:
 
@@ -52,17 +52,17 @@ Você pode usar rótulos de confidencialidade para:
   
 - **Impor configurações de proteção, como criptografia ou marcas d'água no conteúdo rotulado.** Por exemplo, os usuários podem aplicar um rótulo confidencial a um documento ou email, e esse rótulo pode criptografar o conteúdo e aplicar uma marca d'água confidencial.
 
-- **Proteger o conteúdo nos aplicativos do Office em diferentes plataformas e dispositivos.** Para obter uma lista de aplicativos com suporte, confira [Usar rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
+- **Proteja o conteúdo nos aplicativos do Office em diferentes plataformas e dispositivos.** Para obter uma lista de aplicativos com suporte, confira [Uso de rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
 
-- **Proteger o conteúdo em aplicativos e serviços de terceiros** usando o Microsoft Cloud App Security. Com o Cloud App Security, você pode detectar, classificar, rotular e proteger o conteúdo em aplicativos e serviços de terceiros, como SalesForce, Box ou Dropbox, mesmo que eles não leiam nem ofereçam suporte a rótulos de confidencialidade.
+- **Proteger o conteúdo em aplicativos e serviços de terceiros** usando o Microsoft Cloud App Security. Com o Cloud App Security, você pode detectar, classificar, rotular e proteger o conteúdo em serviços e aplicativos de terceiros, como SalesForce, Box ou Dropbox, mesmo que o aplicativo ou serviço de terceiros não leia nem ofereça suporte a rótulos de confidencialidade.
 
-- **Proteger contêineres** que incluem o Teams, grupos do Microsoft 365 e sites do SharePoint. Por exemplo, defina configurações de privacidade, acesso de usuário externo e acesso de dispositivos não gerenciados.
+- **Proteja contêineres** que incluem o Teams, grupos do Microsoft 365 e sites do Microsoft Office SharePoint Online. Por exemplo, defina as configurações de privacidade, acesso de usuário externo e compartilhamento externo e acesso de dispositivos não gerenciados.
 
-- **Estender rótulos de confidencialidade a aplicativos e serviços de terceiros.** Usando o SDK de Proteção de Informações da Microsoft, os aplicativos de terceiros podem ler rótulos de confidencialidade e aplicar configurações de proteção.
+- **Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros.** Usando o SDK de Proteção de informações da Microsoft, os aplicativos e os serviços de terceiros podem ler os rótulos de confidencialidade e aplicar as configurações de proteção.
 
-- **Classificar o conteúdo sem usar configurações de proteção.** Você também pode simplesmente atribuir uma classificação ao conteúdo (por exemplo, um adesivo) que permanece e se movimenta com o conteúdo à medida que ele é usado e compartilhado. Você pode usar essa classificação para gerar relatórios de uso e ver dados de atividade do conteúdo confidencial. Com base nessas informações, você sempre pode optar por aplicar as configurações de proteção posteriormente.
+- **Classificar conteúdo sem usar nenhuma configuração de proteção.** Você também pode simplesmente atribuir uma classificação ao conteúdo (como uma etiqueta) que se mantém e se desloca com o conteúdo conforme ele é usado e compartilhado. Você pode usar essa classificação para gerar relatórios de uso e ver dados de atividade para seu conteúdo confidencial. Com base nessas informações, você pode optar por aplicar as configurações de proteção mais tarde.
 
-Em todos esses casos, os rótulos de confidencialidade do Microsoft 365 podem ajudar você a adotar as ações certas no conteúdo certo. Com os rótulos de confidencialidade, você pode classificar dados em toda a organização e impor configurações de proteção com base nessa classificação.
+Em todos esses casos, os rótulos de confidencialidade no Microsoft 365 podem ajudá-o a executar as ações diretamente no conteúdo certo. Com os rótulos de confidencialidade, você pode classificar dados em toda a organização e impor configurações de proteção com base nessa classificação.
 
 ## <a name="what-a-sensitivity-label-is"></a>O que é um rótulo de confidencialidade
 
@@ -72,34 +72,32 @@ Quando você atribui um rótulo de sensibilidade a um documento ou e-mail, isso 
 
 - **Texto não criptografado.** Como o rótulo é armazenado em texto não criptografado nos metadados do conteúdo, aplicativos e serviços de terceiros podem lê-lo e aplicar suas próprias ações de proteção, se necessário.
 
-- **Persistente.** Após um rótulo de confidencialidade ser aplicado ao conteúdo, ele é armazenado nos metadados do email ou do documento. Isso significa que o rótulo vai junto com o conteúdo, incluindo as configurações de proteção, e se torna a base para aplicar e impor políticas.
+- **Persistente.** Depois de aplicar um rótulo de confidencialidade ao conteúdo, o rótulo é armazenado nos metadados desse email ou documento. Isso significa que o rótulo acompanha o conteúdo, incluindo as configurações de proteção, e esses dados tornam-se a base para a aplicação e imposição de políticas.
 
 Em aplicativos do Office, um rótulo de confidencialidade simplesmente aparece como uma marca em um email ou documento.
 
-Cada item que oferece suporte a rótulos de confidencialidade pode ter um único rótulo de confidencialidade aplicado a ele. Documentos e emails podem ter um rótulo de confidencialidade e um [rótulo de confidencialidade](retention.md#retention-labels) aplicados a eles.
+Cada item que oferece suporte a rótulos de confidencialidade pode ter um único rótulo de confidencialidade aplicado a ele. Documentos e emails podem ter um rótulo de confidencialidade e uma [marca de retenção](retention.md#retention-labels) aplicado a eles.
 
 > [!div class="mx-imgBorder"]
 > ![Rótulo de confidencialidade aplicado a um email](../media/Sensitivity-label-on-email.png)
 
 ## <a name="what-sensitivity-labels-can-do"></a>O que rótulos de confidencialidade podem fazer
 
-Depois que um rótulo de confidencialidade é aplicado a um email ou documento, todas as configurações de proteção definidas para esse rótulo são aplicadas. Com um rótulo de confidencialidade, você pode:
+Depois que um rótulo de confidencialidade é aplicado a um email ou documento, todas as definições de proteção definidas para esse rótulo são aplicadas no conteúdo. Com um rótulo de confidencialidade, você pode:
 
-- **Criptografar** apenas emails ou emails e documentos. Você pode escolher quais ações determinados usuários ou grupos possuem permissões para executar e a duração das permissões. Por exemplo, você pode optar por permitir que os usuários de um grupo específico de outra organização tenham permissões para analisar o conteúdo por apenas sete dias depois que ele for rotulado. Como alternativa, em vez de atribuir permissões definidas pelo administrador, você pode permitir que os usuários atribuam permissões ao conteúdo quando eles aplicam o rótulo. 
+- **Criptografar** apenas emails ou emails e documentos. Você pode escolher quais ações determinados usuários ou grupos possuem permissões para executar e a duração das permissões. Por exemplo, você pode optar por permitir que os usuários de um grupo específico de outra organização tenham permissões para revisar o conteúdo por apenas sete dias depois que o mesmo for rotulado. Como alternativa, em vez de atribuir permissões definidas pelo administrador, você pode permitir que os usuários atribuam permissões ao conteúdo quando eles aplicam o rótulo. 
     
     Para obter mais informações sobre as configurações de **Criptografia** quando você cria ou edita um rótulo de confidencialidade, consulte [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](encryption-sensitivity-labels.md).
 
-- **Marcar o conteúdo** quando usar aplicativos do Office, adicionando marcas d'água, cabeçalhos, rodapés a emails ou documentos que tenham o rótulo aplicado. As marcas d’água podem ser aplicadas a documentos, mas não a emails. Exemplo de cabeçalho e marca d'água:
+- **Marque o conteúdo** quando usar aplicativos do Office, adicionando marcas d’água, cabeçalhos ou rodapés a emails ou documentos que tenham o rótulo aplicado. As marcas d’água podem ser aplicadas a documentos, mas não a emails. Exemplo de cabeçalho e marca d' água:
     
-    ![Marca d'água e cabeçalho aplicados ao documento](../media/Sensitivity-label-watermark-header.png)
+    ![Marca-d'água e cabeçalho aplicados ao documento](../media/Sensitivity-label-watermark-header.png)
     
     Precisa verificar quando as marcações de conteúdo são aplicadas? Confira [Quando os aplicativos do Office aplicam a marcação e criptografia de conteúdo](sensitivity-labels-office-apps.md#when-office-apps-apply-content-marking-and-encryption).
     
-    Alguns, mas nem todos os aplicativos oferecem suporte a marcações dinâmicas usando variáveis. Por exemplo, insira o nome do rótulo ou o nome do documento no cabeçalho, rodapé ou marca d’água. Para saber mais, confira [Marcações dinâmicas com variáveis](sensitivity-labels-office-apps.md#dynamic-markings-with-variables).
+    Alguns, mas nem todos os aplicativos oferecem suporte a marcações dinâmicas usando variáveis. Por exemplo, insira o nome do rótulo ou o nome do documento no cabeçalho, rodapé ou marca d'água. Para saber mais, confira [marcações dinâmicas com variáveis](sensitivity-labels-office-apps.md#dynamic-markings-with-variables).
     
-    Embora você possa configurar um nome da fonte personalizado para essas marcações de conteúdo e uma ampla gama de cores de fonte que incluem personalizado por código RGB, essas configurações são suportadas apenas pelo [cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2). A menos que você use esse cliente para aplicar rótulos de confidencialidade, não use a configuração de fonte personalizada e selecione uma das seguintes cores: preto, amarelo, azul, verde e vermelho.
-
-    Comprimentos da cadeia de caracteres: as marcas d'água são limitadas a 255 caracteres. Os cabeçalhos e rodapés estão limitados a 1024 caracteres, exceto no Excel. O Excel tem um limite total de 255 caracteres para cabeçalhos e rodapés, mas esse limite inclui caracteres que não estão visíveis, como códigos de formatação. Se esse limite for alcançado, a cadeia de caracteres inserida não será exibida no Excel.
+    Comprimentos de cadeias de caracteres: as marcas d' água estão limitadas a 255 caracteres. Os cabeçalhos e rodapés estão limitados a 1024 caracteres, exceto no Excel. O Excel tem um limite total de 255 caracteres para cabeçalhos e rodapés, mas esse limite inclui caracteres que não estão visíveis, como códigos de formatação. Se esse limite for alcançado, a cadeia de caracteres inserida não será exibida no Excel.
 
 - **Proteja o conteúdo em contêineres, como sites e grupos**, quando você habilita a capacidade de [usar rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](sensitivity-labels-teams-groups-sites.md).
     
