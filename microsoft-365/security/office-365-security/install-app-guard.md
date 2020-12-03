@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Obtenha o mais recente em isolamento baseado em hardware. Impedir que os ataques atuais e emergentes, como exploits ou links mal-intencionados, prejudiquem a produtividade do funcionário e a segurança da empresa.
-ms.openlocfilehash: c9b31ff91521b6badda31b6eb3202f370769a0fd
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 075006bb8f000dbbda2fd564e0c7cf83c1a15129
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021068"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561430"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard para Office (visualização pública) para administradores
 
@@ -29,8 +29,8 @@ ms.locfileid: "49021068"
 
 **Aplica-se a:** Word, Excel e PowerPoint para Microsoft 365, Windows 10 Enterprise
 
->[!IMPORTANT]
->Algumas informações estão relacionadas a um produto de pré-lançamento que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> Algumas informações estão relacionadas a um produto de pré-lançamento que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 O Microsoft defender Application Guard para Office (Application Guard para Office) ajuda a impedir que arquivos não confiáveis acessem recursos confiáveis, mantendo sua empresa segura contra ataques novos e emergentes. Este artigo orienta os administradores na configuração de dispositivos para uma visualização do Application Guard para Office. Ele fornece informações sobre os requisitos do sistema e as etapas de instalação para habilitar o Application Guard para Office em um dispositivo.
 
@@ -38,15 +38,15 @@ O Microsoft defender Application Guard para Office (Application Guard para Offic
 
 ### <a name="minimum-hardware-requirements"></a>Requisitos mínimos de hardware
 
-* **CPU** : 64 bits, 4 núcleos (físico ou virtual), extensões de virtualização (Intel VT-x ou AMD-V), Core i5 equivalente ou superior recomendado
-* **Memória física** : 8 GB de RAM
-* **Disco rígido** : 10 GB de espaço livre na unidade do sistema (SSD recomendado)
+* **CPU**: 64 bits, 4 núcleos (físico ou virtual), extensões de virtualização (Intel VT-x ou AMD-V), Core i5 equivalente ou superior recomendado
+* **Memória física**: 8 GB de RAM
+* **Disco rígido**: 10 GB de espaço livre na unidade do sistema (SSD recomendado)
 
 ### <a name="minimum-software-requirements"></a>Requisitos mínimos de software
 
-* **Windows 10** : Windows 10 Enterprise Edition, Client Build Version 2004 (20H1) Build 19041
-* **Office** : Office beta Channel Build versão 2008 16.0.13212 ou posterior
-* **Pacote de atualização** : atualizações de segurança mensais cumulativas do Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
+* **Windows 10**: Windows 10 Enterprise Edition, Client Build Version 2004 (20H1) Build 19041
+* **Office**: Office beta Channel Build versão 2008 16.0.13212 ou posterior
+* **Pacote de atualização**: atualizações de segurança mensais cumulativas do Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
 
 Para requisitos de sistema detalhados, consulte [requisitos do sistema para o Microsoft defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard). Para saber mais sobre as compilações do Office Insider Preview, consulte Introdução à implantação do Office Insider [Compilations](https://insider.office.com/business/deploy).
 
@@ -90,7 +90,7 @@ Esta etapa garante que os dados necessários para identificar e corrigir problem
 
    ![Menu Iniciar](../../media/ag05-diagnostic.png)
 
-2. Em **configurações do Windows** , selecione **privacidade**.
+2. Em **configurações do Windows**, selecione **privacidade**.
 
    ![Menu configurações do Windows](../../media/ag06-diagnostic.png)
 

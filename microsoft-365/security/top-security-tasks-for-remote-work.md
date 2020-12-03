@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: 8f170079a5542f703376139cdd6ec4550712d0fd
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: df6d837c31244efb1b6cea804972601acdb5dc17
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944362"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558533"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -42,17 +42,17 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 
 |Etapa|Tarefas|Todos os planos empresariais do Office 365|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
-|1|[Habilitar a MFA (autenticação multifator do Azure)](#1-enable-azure-multi-factor-authentication-mfa)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|duas|[Proteção contra ameaças](#2-protect-against-threats)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3D|[Configurar o Microsoft defender para Office 365](#3-configure-microsoft-defender-for-office-365)|||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1 |[Habilitar a MFA (autenticação multifator do Azure AD)](#1-enable-azure-ad-multi-factor-authentication-mfa)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2 |[Proteção contra ameaças](#2-protect-against-threats)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3 |[Configurar o Microsoft defender para Office 365](#3-configure-microsoft-defender-for-office-365)|||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[Configurar o Microsoft defender para identidade](#4-configure-microsoft-defender-for-identity)|||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5 |[Ativar o Microsoft 365 Defender](#5-turn-on-microsoft-365-defender)|||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5 |[Ativar o Microsoft 365 defender](#5-turn-on-microsoft-365-defender)|||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[Configurar a proteção de aplicativos móveis do Intune para telefones e tablets](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Configurar a MFA e o acesso condicional para convidados, incluindo a proteção de aplicativos do Intune](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[Registrar PCs no gerenciamento de dispositivos e exigir computadores compatíveis](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |9 |[Otimizar sua rede para conectividade de nuvem](#9-optimize-your-network-for-cloud-connectivity)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |10 |[Treinar usuários](#10-train-users)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|11|[Introdução ao Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security)|||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|11 |[Introdução ao Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security)|||![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |12 |[Monitorar ameaças e tomar ações](#12-monitor-for-threats-and-take-action)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
 
@@ -60,7 +60,7 @@ Antes de começar, verifique sua pontuação de segurança do [microsoft 365](ht
 
 ![Captura de tela da Pontuação segura da Microsoft](../media/secure-score.png)
 
-## <a name="1-enable-azure-multi-factor-authentication-mfa"></a>1: habilitar a MFA (autenticação multifator do Azure)
+## <a name="1-enable-azure-ad-multi-factor-authentication-mfa"></a>1: habilitar a MFA (autenticação multifator do Azure AD)
 
 A melhor coisa que você pode fazer para melhorar a segurança de funcionários que trabalham em casa é ativar a MFA. Se você ainda não tem processos no lugar, trate isso como um piloto de emergência e certifique-se de que você tem suporte para pessoas prontas para ajudar os funcionários que se encontram presas. Como provavelmente, você não pode distribuir dispositivos de segurança de hardware, usar aplicativos de autenticação de biometria e Smartphone do Windows Hello como o Microsoft Authenticator.
 
@@ -70,7 +70,7 @@ A aplicação dessas políticas levará apenas alguns minutos, mas estará prepa
 
 ****
 
-|Plano|Recomendação|
+|Planejar|Recomendação|
 |---|---|
 |Microsoft 365 Plans (sem o Azure AD P1 ou P2)|[Habilitar os padrões de segurança no Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Os padrões de segurança no Microsoft Azure Active Directory incluem a MFA para usuários e administradores.|
 |Microsoft 365 E3 (com o Azure AD P1)|Use [políticas de Acesso Condicional Comuns](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) para configurar as seguintes políticas: <br/>- [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br/>- [Exigir MFA para todos os usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br/> - [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)|
@@ -112,7 +112,7 @@ Você precisará trabalhar com seu administrador do Exchange Online e administra
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: configurar o Microsoft defender para identidade
 
-O [Microsoft Defender para Identidade](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) é uma solução de segurança baseada em nuvem que aproveita os sinais do Active Directory local para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. Concentre-se nesse próximo porque ele protege sua infraestrutura local e de nuvem, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos.
+O [Microsoft defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) é uma solução de segurança baseada em nuvem que aproveita seus sinais do Active Directory local para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas intencionais direcionadas para sua organização. Concentre-se nesse próximo porque ele protege sua infraestrutura local e de nuvem, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos.
 
 - Consulte [Microsoft defender for Identity QuickStarts](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) para obter a configuração rapidamente
 - Assista [ao vídeo: introdução ao Microsoft defender para identidade](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)

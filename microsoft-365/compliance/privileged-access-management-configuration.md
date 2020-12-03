@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: Use este artigo para saber mais sobre como habilitar e configurar o gerenciamento de acesso privilegiado no Office 365.
-ms.openlocfilehash: d75a8944cdacb6df2d6ee6570c0ce327d0e7ae00
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 6018d3b842dcadb60208e6ab53707a50e26f9d35
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341199"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49560869"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Introdução ao gerenciamento de acesso privilegiado
 
@@ -85,7 +85,7 @@ Depois que a aprovação for concedida, o usuário solicitante poderá executar 
 
 2. No centro de administração, vá para **grupos**  >  **Adicionar um grupo**.
 
-3. Selecione **grupo de segurança habilitado para email** e preencha os **campos nome**, endereço de **email do grupo**e **Descrição** do novo grupo.
+3. Selecione **grupo de segurança habilitado para email** e preencha os **campos nome**, endereço de **email do grupo** e **Descrição** do novo grupo.
 
 4. Salve o grupo. Pode levar alguns minutos para que o grupo seja totalmente configurado e apareça no centro de administração do Microsoft 365.
 
@@ -101,7 +101,7 @@ Depois que a aprovação for concedida, o usuário solicitante poderá executar 
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
+2. No centro de administração, acesse **configurações**  >  **org** Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Habilite o controle **exigir aprovações para tarefas privilegiadas** .
 
@@ -120,7 +120,7 @@ Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccou
 Exemplo:
 
 ```PowerShell
-Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
+Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', 'sys2@fabrikamorg.onmicrosoft.com')
 ```
 
 >[!NOTE]
@@ -136,7 +136,7 @@ Você pode criar e configurar até 30 políticas de acesso privilegiado para sua
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
+2. No centro de administração, acesse **configurações**  >  **org** Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -182,7 +182,7 @@ As solicitações de acesso privilegiado são válidas por até 24 horas após o
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando suas credenciais.
 
-2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
+2. No centro de administração, acesse **configurações**  >  **org** Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -222,11 +222,11 @@ Após a criação de uma solicitação de aprovação, o status da solicitação
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) com suas credenciais.
 
-2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
+2. No centro de administração, acesse **configurações**  >  **org** Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
-4. Selecione **Exibir** para filtrar solicitações enviadas por status **pendente**, **aprovado**, **negado**ou de **Lockbox do cliente** .
+4. Selecione **Exibir** para filtrar solicitações enviadas por status **pendente**, **aprovado**, **negado** ou de **Lockbox do cliente** .
 
 #### <a name="in-exchange-management-powershell"></a>No PowerShell de gerenciamento do Exchange
 
@@ -250,7 +250,7 @@ Quando uma solicitação de aprovação é criada, os membros do grupo de aprova
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) com suas credenciais.
 
-2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
+2. No centro de administração, acesse **configurações**  >  **org** Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -292,7 +292,7 @@ Se ele não for mais necessário em sua organização, você poderá excluir uma
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
+2. No centro de administração, acesse **configurações**  >  **org** Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -318,7 +318,7 @@ Se necessário, você pode desabilitar o gerenciamento de acesso privilegiado pa
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) com as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
+2. No centro de administração, acesse **configurações**  >  **org** Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Habilitar as **aprovações de controle de acesso privilegiado** .
 

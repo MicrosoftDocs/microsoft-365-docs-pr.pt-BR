@@ -2,8 +2,8 @@
 title: Pesquisa e marcação
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: ITPro
@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: Na descoberta eletrônica avançada, o módulo de pesquisa e marcação permite pesquisar, Visualizar e organizar os documentos em seu caso. Atualmente, este módulo está no beta.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eba95f4832e674bae0a26d3fa8466b0118a9715d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 7afa106d07e60dfc297b90c25965dafeeb7337a7
+ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818890"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49562928"
 ---
 # <a name="search-and-tagging"></a>Pesquisa e marcação
 
@@ -35,7 +35,7 @@ Depois de processar documentos em um caso de descoberta eletrônica avançada (e
 
 A tabela a seguir lista as propriedades que você pode pesquisar usando uma consulta de palavra-chave KQL. Como alternativa, você pode usar um cartão de condição para na ferramenta de pesquisa de descoberta eletrônica avançada para adicionar uma condição (para propriedades selecionadas) a uma consulta de pesquisa.
 
-|**Propriedade**|**Descrição**|
+|**Property**|**Descrição**|
 |:-----|:-----|
 |**caselabel** <br/> | O nome da marca criada/aplicada quando um documento é marcado. <br/> |
 |**custódia** <br/> | Os responsáveis associados a um documento; sujeito a limitações. <br/> |
@@ -64,9 +64,9 @@ A tabela a seguir lista as propriedades que você pode pesquisar usando uma cons
 |**relevancetag_ [TagName]**\*\* <br/> | Se um item tiver sido marcado manualmente para relevância, a marca definida por [TagName]. <br/> |
 |||
 
-\*Disponível somente se o módulo de temas tiver sido executado.
+\* Disponível somente se o módulo de temas tiver sido executado.
 
-\*\*Disponível somente se o módulo de relevância tiver sido executado.
+\*\* Disponível somente se o módulo de relevância tiver sido executado.
 
 Como alternativa, você pode usar um cartão de condição na ferramenta de pesquisa de descoberta eletrônica avançada para adicionar uma condição (para propriedades selecionadas) a uma consulta de pesquisa. A captura de tela a seguir mostra as condições que podem ser adicionadas a uma consulta. A coluna **grupo** indica se a propriedade se aplica a emails, documentos de site ou ambos (indicados pelo valor *comum*). Essa coluna também identifica as propriedades pesquisáveis que estão disponíveis após a execução do módulo de relevância.
 

@@ -19,30 +19,30 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 49ae35d68b0d0ebf627e44e5912d4a1bb7b712c0
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: f1edc1a66763562b233455609f3381e3f4fbfa98
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123484"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561466"
 ---
 # <a name="microsoft-productivity-score"></a>Pontuação de produtividade da Microsoft 
 
-Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com ideias sobre como as pessoas usam o Microsoft 365 e as experiências tecnológicas que dão suporte a eles. A pontuação reflete o desempenho da sua organização contra experiências de pessoas e tecnologia e compara sua pontuação com organizações como a sua.
+Pontuação de produtividade oferece suporte à jornada para transformação digital com o insights sobre como sua organização usa o Microsoft 365 e as experiências tecnológicas que dão suporte a ele. A pontuação da sua organização reflete as medidas de experiência de pessoas e tecnologias e pode ser comparada a benchmarks de organizações similares em tamanho para o seu.
 
-A pontuação inclui:
+Ele fornece:
 
-- **Métricas** para ajudá-lo a ver como as pessoas estão usando produtos Microsoft 365 para colaborar, comunicar e trabalhar entre plataformas.
-- **Informações sobre os** dados para ajudá-lo a identificar oportunidades para melhorar a produtividade e a satisfação dos funcionários.
-- **Ações recomendadas** que você pode executar para ajudar as pessoas da sua organização a usar os produtos do Microsoft 365 com eficiência para que todos possam realizar o melhor trabalho.
+- **Métricas** para ajudá-lo a ver onde você está na jornada de transformação digital.
+- **Informações sobre os** dados para ajudá-lo a identificar oportunidades para melhorar a produtividade e a satisfação em sua organização.
+- **Ações recomendadas** que você pode executar para ajudar sua organização a usar os produtos do Microsoft 365 com eficiência.
 
-Fornecemos dados, ideias e recomendações em duas áreas: 
+Fornecemos métricas, ideias e recomendações em duas áreas: 
 
-- **Experiências de pessoas:** Mede o modo como as pessoas colaboram com o conteúdo, como usam os produtos do Microsoft 365 para se comunicar e se usam o Microsoft 365 em várias plataformas. 
+- **Experiências de pessoas:** Quantifica o modo como a organização trabalha usando categorias do Microsoft 365 como colaboração de conteúdo, mobilidade, comunicação, reuniões e trabalho em equipe.  
 
-    Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo e a liberdade de trabalhar em qualquer dispositivo torna-se mais produtiva e satisfeita. A capacidade de se comunicar de forma flexível torna as pessoas mais eficientes, capazes de formar melhores relacionamentos, tornando sua organização mais unificada. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+    Para cada uma das categorias mencionadas, examinamos a pesquisa pública para identificar algumas práticas recomendadas e os benefícios associados na forma de eficácia organizacional. Por exemplo, [Forrester] (a https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf pesquisa mostrou que quando as pessoas colaboram e compartilham conteúdo na nuvem (em vez de enviar anexos por email), elas podem economizar até 100 minutos por semana. Além disso, quantificamos o uso dessas práticas recomendadas em sua organização para ajudá-lo a ver onde você está na jornada de transformação digital. 
 
-- **Experiências tecnológicas:** A produtividade da sua equipe depende da tecnologia confiável e de boa execução, bem como do uso eficiente do Microsoft 365. O [Endpoint Analytics](https://aka.ms/endpointanalytics) ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software. As ações recomendadas ajudam a corrigir esses problemas. O Microsoft 365 Network Connectivity insights ajudará você a solucionar problemas de connectivty para sua organização.
+- **Experiências tecnológicas:** Sua organização depende da tecnologia confiável e de boa execução, bem como o uso eficiente do Microsoft 365. O [Endpoint Analytics](https://aka.ms/endpointanalytics) ajuda a entender como sua organização pode ser afetada por problemas de desempenho e integridade com seu hardware e software. O Microsoft 365 aplicativos Health ajuda a entender se os dispositivos da sua organização estão executando aplicativos da Microsoft 365 em canais recomendados.
 
 Veja [o que é o Endpoint Analytics](https://docs.microsoft.com/mem/analytics/overview) para obter uma visão geral e os detalhes dos pré-requisitos. Para saber mais sobre o Microsoft 365 insights de conectividade de rede, leia [a visão geral da conectividade de rede](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
   
@@ -63,22 +63,22 @@ A pontuação da produtividade baseia-se nas pontuações combinadas de suas cat
 - Integridade de aplicativos do Microsoft 365 (100 pontos)
 - **Total possível = 800 pontos**
  
- Em cada categoria de pontuação, identificamos padrões para as principais atividades que são indicadores de como as pessoas usam os produtos da Microsoft 365 para colaborar, comunicar e trabalhar entre plataformas. Fornecemos visualizações de 28 dias e 180 dias das principais atividades. Também fornecemos métricas de suporte que não fazem parte do cálculo de pontuação, mas são importantes para ajudá-lo a identificar comportamentos e configurações subjacentes que você pode resolver.
+ Em cada categoria de pontuação, quantificamos os principais indicadores de como sua organização está usando o Microsoft 365 em sua jornada em relação à transformação digital. Fornecemos visualizações de 28 dias e 180 dias das principais atividades. Também fornecemos métricas de suporte que não fazem parte do cálculo de pontuação, mas são importantes para ajudá-lo a identificar as estatísticas de uso e as configurações de base que você pode resolver.
 
 ### <a name="products-included-in-productivity-score"></a>Produtos incluídos na pontuação de produtividade 
 
 Pontuação de produtividade inclui dados do Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer e Skype.
 
-Sua pontuação é atualizada diariamente e reflete as ações do usuário concluídas no último 28 (incluindo o dia atual).
+A pontuação da sua organização é atualizada diariamente e reflete as ações do usuário concluídas no último 28 (incluindo o dia atual).
 
 
 ## <a name="pre-requisites"></a>Pré-requisitos 
 
-Para os dados de pessoas experiências, você precisa de uma assinatura do Microsoft 365 for Business ou do Office 365 para empresas. Para dados de análise de ponto de extremidade para seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização por meio do gerenciamento de dispositivos e aplicativos. Depois de ter o Intune, você pode ativar a análise de ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o Microsoft Intune. 
+Para os dados de pessoas experiências, você precisa de uma assinatura do Microsoft 365 for Business ou do Office 365 para empresas. Para dados de análise de ponto de extremidade para seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização por meio do gerenciamento de dispositivos e aplicativos. Depois de ter o Intune, você pode ativar a análise de ponto de extremidade dentro da experiência do Intune. Saiba mais sobre [o Microsoft Intune](https://docs.microsoft.com/mem/intune/). 
 > [!NOTE]
 > Não é necessário ter uma licença para a análise do local de trabalho para obter os recursos de Pontuação de produtividade.
 
-Para exibir a pontuação de produtividade da sua organização, você deve ter uma das seguintes funções: 
+A pontuação de produtividade só está disponível no centro de administração do Microsoft 365 e só pode ser acessada por profissionais de ti que tenham uma das seguintes funções:  
 
 - Administrador global 
 - Administradores do Exchange
@@ -88,17 +88,21 @@ Para exibir a pontuação de produtividade da sua organização, você deve ter 
 - Leitor global 
 - Leitor de relatórios 
 
+Observe que as informações só devem ser usadas para a transformação digital adicional usando o Microsoft 365 e, portanto, devem ser compartilhadas com critério. 
+
+A Microsoft tem o compromisso de proteger a privacidade individual. Este [documento de privacidade](privacy.md)  explica os controles que fornecemos a você, como administrador de ti da sua organização, para garantir que as informações sejam acionáveis enquanto não comprometem a confiança que você coloca na Microsoft.
+
 Você pode acessar a experiência da página inicial do Microsoft 365 admin em **relatórios** de  >  **produtividade**.
 
-## <a name="interpreting-productivity-score"></a>Interpretação da Pontuação de produtividade 
+## <a name="interpreting-your-organizations-productivity-score"></a>Interpretação da Pontuação de produtividade da sua organização 
 
-A Home Page de Pontuação de produtividade mostra a pontuação total e o histórico de Pontuação e a principal percepção de cada categoria.
+A Home Page de Pontuação de produtividade mostra a pontuação total e o histórico de pontuação da sua organização e a principal percepção de cada categoria.
 
 :::image type="content" source="../../media/prodscore-landing.png" alt-text="Página de Pontuação de produtividade nos relatórios.":::
 
-**Sua pontuação** é mostrada como um valor de porcentagem e em pontos. Você pode ver seus pontos no numerador e os pontos máximos possíveis no denominador.
+**A pontuação da sua organização** é mostrada como um valor de porcentagem e em pontos. Você pode ver seus pontos no numerador e os pontos máximos possíveis no denominador.
 
-Os **benchmarks de ponto** permitem comparar sua pontuação com organizações como a sua. O benchmark de ponto das categorias de experiências de pessoas é calculado como a média de medidas dentro de um conjunto de organizações semelhantes. O conjunto de organizações é composto por organizações em sua região com um número semelhante de usuários licenciados, tipos de licenças, setor e gestão com o Microsoft 365. 
+Os **benchmarks de ponto** permitem comparar a pontuação da sua organização com organizações como a sua. O benchmark de ponto das categorias de experiências de pessoas é calculado como a média de medidas dentro de um conjunto de organizações semelhantes. O conjunto de organizações é composto por organizações em sua região com um número semelhante de usuários licenciados, tipos de licenças, setor e gestão com o Microsoft 365. 
 
 O benchmark ponto de extremidade da análise do Endpoint inclui destinos para o desempenho de inicialização do dispositivo e a configuração de software recomendada com base em valores medianos agregados em todos os locatários.
 
@@ -126,13 +130,13 @@ As páginas de detalhes são:
 
 O relatório de continuidade de negócios é um relatório de inteligência de trabalho em tempo limitado disponível para todos os clientes da Microsoft 365 para ajudá-los a guiar suas organizações durante esse tempo desafiador.  
 
-Este relatório ajuda os líderes de negócios a entender: 
+Este relatório ajuda as organizações a entender: 
 
 - Como a colaboração e a comunicação são afetadas pela mudança para o trabalho remoto. 
 
 - O impacto no equilíbrio de vida útil como as pessoas se ajustam para trabalhar de casa. 
 
-- Se as reuniões remotas oferecerem suporte à tomada de decisão eficaz.
+- Se as reuniões remotas dão suporte à tomada de decisões efetiva.
 
 [Saiba mais sobre o relatório de continuidade de negócios](https://aka.ms/bcrps)
 
@@ -140,4 +144,4 @@ Este relatório ajuda os líderes de negócios a entender:
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 
-Compartilhe suas opiniões sobre a pontuação de produtividade e suas ideias sobre como aprimorá-la. Use as seções de **comentários** dentro do produto e/ou acesse a equipe de Pontuação de produtividade em ProductivityScorePreview@service.microsoft.com.
+Compartilhe suas opiniões sobre a pontuação de produtividade e suas ideias sobre como aprimorá-la. Use as seções de **comentários** dentro do produto e/ou acesse a equipe de Pontuação de produtividade em prodscorefeedback@microsoft.com.

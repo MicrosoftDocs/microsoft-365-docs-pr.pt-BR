@@ -16,14 +16,14 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
+description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de & de segurança para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bc137a7390961e2b6abe049aead2b238cb9d3a16
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 021810a4d64dc3a8d9089a3b7174a1b5f536745a
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021116"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561394"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -289,7 +289,7 @@ Esses novos recursos estão descritos abaixo.
 
 ### <a name="preview-email-header-and-download-email-body"></a>Visualizar o cabeçalho de email e baixar o corpo do email
 
-A capacidade de Visualizar um cabeçalho de email e baixar o corpo do email são novos recursos disponíveis no explorador de ameaças. Os administradores poderão analisar os cabeçalhos/mensagens de email baixados para ameaças. Como o download de mensagens de email pode arriscar a exposição de informações, esse processo é controlado pelo controle de acesso baseado em funções (RBAC). Uma nova função, *Visualização* , deve ser adicionada a outro grupo de função (como operações de segurança ou administrador de segurança) para conceder a capacidade de baixar emails e Visualizar cabeçalhos em todas as mensagens de email exibir.
+A capacidade de Visualizar um cabeçalho de email e baixar o corpo do email são novos recursos disponíveis no explorador de ameaças. Os administradores poderão analisar os cabeçalhos/mensagens de email baixados para ameaças. Como o download de mensagens de email pode arriscar a exposição de informações, esse processo é controlado pelo controle de acesso baseado em funções (RBAC). Uma nova função, *Visualização*, deve ser adicionada a outro grupo de função (como operações de segurança ou administrador de segurança) para conceder a capacidade de baixar emails e Visualizar cabeçalhos em todas as mensagens de email exibir.
 
 Mas o Explorer (e as detecções em tempo real) também adiciona novos campos criados para fornecer uma imagem mais completa de onde suas mensagens de email estão no terreno. Parte da meta dessa alteração é tornar a busca mais fácil para pessoas de operações de segurança, mas o resultado líquido é saber o local das mensagens de email de problemas em um relance.
 
@@ -318,13 +318,13 @@ E aqui está o que o usuário pode ver e o que eles não podem:
 
 O local de entrega mostra os resultados das políticas e detecções que executam post-Delivery. Ele está vinculado a uma ação de entrega. Este campo foi adicionado para dar informações sobre a ação tomada quando um email de problema é encontrado. Estes são os possíveis valores de local de entrega:
 
-- **Caixa de entrada ou pasta** : o email está na caixa de entrada ou uma pasta (de acordo com suas regras de email).
-- **Local ou externo** : a caixa de correio não existe na nuvem, mas está no local.
-- **Pasta de lixo eletrônico** : o email está na pasta lixo eletrônico de um usuário.
-- **Pasta itens excluídos** : o email na pasta itens excluídos de um usuário.
-- **Quarantine** : o email em quarentena e não está na caixa de correio de um usuário.
-- **Falha** : o email não pôde chegar à caixa de correio.
-- **Descartado** : o email é perdido em algum lugar no fluxo de emails.
+- **Caixa de entrada ou pasta**: o email está na caixa de entrada ou uma pasta (de acordo com suas regras de email).
+- **Local ou externo**: a caixa de correio não existe na nuvem, mas está no local.
+- **Pasta de lixo eletrônico**: o email está na pasta lixo eletrônico de um usuário.
+- **Pasta itens excluídos**: o email na pasta itens excluídos de um usuário.
+- **Quarantine**: o email em quarentena e não está na caixa de correio de um usuário.
+- **Falha**: o email não pôde chegar à caixa de correio.
+- **Descartado**: o email é perdido em algum lugar no fluxo de emails.
 
 ### <a name="email-timeline"></a>Linha do tempo de email
 
@@ -354,7 +354,7 @@ Você pode obter o mesmo local no relatório de detecções em tempo real da seg
 
 Suponha que você queira ver o malware detectado no email, pela tecnologia Microsoft 365. Para fazer isso, use o [>](threat-explorer-views.md#email--malware) modo de exibição de malware de email do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real** ). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
 2. No menu **Exibir** , escolha malware de **email**  >  **Malware**.
 
@@ -381,7 +381,7 @@ Suponha que você queira ver as tentativas de phishing por meio de URLs no email
 
 Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de phishing, use a exibição de [Email > Phish](threat-explorer-views.md#email--phish) do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real** ). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
 2. No menu **Exibir** , escolha phishing de **email**  >  **Phish**.
 
@@ -415,20 +415,20 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
 Dentro dos submenus de email ou URL, principais cliques e em nossas experiências de filtragem, você verá diferentes valores de clique como parte de sua experiência de busca. Veja a seguir os valores possíveis de Click verdicts e sua interpretação:
 
-- **Nenhum** : não foi possível capturar o veredicto para a URL. O usuário pode ter clicado através da URL.
-- **Permitido** : o usuário tem permissão para navegar até a URL.
-- **Bloqueado** : o usuário foi impedido de navegar para a URL.
-- **Veredicto pendente** : o usuário foi apresentado com a página de acionamento pendente.
-- **Bloqueado, substituído** : o usuário foi impedido de navegar para a URL; no entanto, o usuário overrode o bloco para navegar até a URL.
-- **Veredicto pendente ignorada** : o usuário foi apresentado com a página acionamento; no entanto, o usuário overrode a página para navegar até a URL.
-- **Erro** : o usuário foi apresentado com a página de erro. Isso também pode significar que houve um erro ao capturar o veredicto.
-- **Falha** : houve uma exceção desconhecida ao capturar o veredicto. O usuário pode ter clicado através da URL.
+- **Nenhum**: não foi possível capturar o veredicto para a URL. O usuário pode ter clicado através da URL.
+- **Permitido**: o usuário tem permissão para navegar até a URL.
+- **Bloqueado**: o usuário foi impedido de navegar para a URL.
+- **Veredicto pendente**: o usuário foi apresentado com a página de acionamento pendente.
+- **Bloqueado, substituído**: o usuário foi impedido de navegar para a URL; no entanto, o usuário overrode o bloco para navegar até a URL.
+- **Veredicto pendente ignorada**: o usuário foi apresentado com a página acionamento; no entanto, o usuário overrode a página para navegar até a URL.
+- **Erro**: o usuário foi apresentado com a página de erro. Isso também pode significar que houve um erro ao capturar o veredicto.
+- **Falha**: houve uma exceção desconhecida ao capturar o veredicto. O usuário pode ter clicado através da URL.
 
 ## <a name="review-email-messages-reported-by-users"></a>Analisar mensagens de email relatadas por usuários
 
 Suponha que você queira ver as mensagens de email que os usuários em sua organização relataram como lixo eletrônico, não lixo eletrônico ou phishing usando o [suplemento de mensagem de relatório para Outlook e Outlook na Web](enable-the-report-message-add-in.md). Para fazer isso, use a exibição de [Email > envios](threat-explorer-views.md#email--submissions) do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real** ). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
 2. No menu **Exibir** , escolha **Email**  >  **envios** de email.
 
@@ -437,7 +437,7 @@ Suponha que você queira ver as mensagens de email que os usuários em sua organ
 
 3. Clique em **remetente** e, em seguida, escolha tipo de **Basic**  >  **relatório** básico.
 
-4. Selecione uma opção, como **Phish** , e clique no botão **Atualizar** .
+4. Selecione uma opção, como **Phish**, e clique no botão **Atualizar** .
 
    > [!div class="mx-imgBorder"]
    > ![Phishing relatado pelo usuário](../../media/EmailUserReportedReportType.png)
@@ -473,7 +473,7 @@ Você deve ter [o Microsoft defender para Office 365](office-365-atp.md) para ob
 
 Para exibir e usar as detecções do Explorer ou em tempo real, você deve ter as permissões apropriadas, como aquelas concedidas a um administrador de segurança ou leitor de segurança.
 
-- Para o centro de conformidade de segurança &amp; , você deve ter uma das seguintes funções atribuídas:
+- Para o centro de conformidade & segurança, você deve ter uma das seguintes funções atribuídas:
 
   - Gerenciamento de Organização
   - Administrador de segurança (pode ser atribuído no centro de administração do Azure Active Directory [https://aad.portal.azure.com](https://aad.portal.azure.com) )
@@ -488,7 +488,7 @@ Para exibir e usar as detecções do Explorer ou em tempo real, você deve ter a
 
 Para saber mais sobre funções e permissões, confira os seguintes recursos:
 
-- [Permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md)
+- [Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)
 - [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
 ## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>Algumas diferenças entre o Gerenciador de ameaças e as detecções em tempo real

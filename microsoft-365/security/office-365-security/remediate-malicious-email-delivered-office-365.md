@@ -14,19 +14,19 @@ search.appverid: MET150
 description: Correção de ameaças
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 5568a296697c7cdbbada333d45f498a2876603f9
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: 4adabe3e85b2bff26167bfad92a9a7fcbf24e58e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350729"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561276"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Corrigir emails mal-intencionados entregues no Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Correção significa tomar uma ação prescrita contra uma ameaça. Emails maliciosos enviados para sua organização podem ser limpos pelo sistema, por meio de exclusão automática de zero horas (ZAP) ou por equipes de segurança por meio de ações de correção, como *mover para a caixa de entrada*, *mover para o lixo eletrônico*, *mover para itens excluídos*, *exclusão reversível* ou *exclusão de hardware*. O Microsoft defender para Office 365 P2/E5 permite que as equipes de segurança remediam ameaças em email e a funcionalidade de colaboração através da investigação manual e automatizada.
+Correção significa tomar uma ação prescrita contra uma ameaça. Emails maliciosos enviados para sua organização podem ser limpos pelo sistema, por meio de limpeza automática de zero horas (ZAP) ou por equipes de segurança por meio de ações de correção, como *mover para a caixa de entrada*, *mover para o lixo eletrônico*, *mover para itens excluídos*, *exclusão reversível* ou *exclusão de hardware*. O Microsoft defender para Office 365 P2/E5 permite que as equipes de segurança remediam ameaças em email e a funcionalidade de colaboração através da investigação manual e automatizada.
 
 > [!NOTE]
 > Para corrigir emails mal-intencionados, as equipes de segurança precisam da função de *pesquisa e limpeza* atribuída a eles. A atribuição de função é feita através de permissões no centro de conformidade e segurança.

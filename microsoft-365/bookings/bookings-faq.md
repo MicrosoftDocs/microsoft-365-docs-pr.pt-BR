@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Perguntas frequentes sobre o Microsoft bookings.
-ms.openlocfilehash: 40605cfc7e5d30e12cd34a463a76e8d9c324efc7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 47bb71476c3fd0b32f9be3e71b188bef6efe2498
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445446"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561550"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Perguntas frequentes sobre o Microsoft bookings
 
@@ -29,7 +29,7 @@ As reservas são um serviço online, portanto, você não precisa baixar nada. B
 
 ### <a name="who-has-access-to-microsoft-bookings"></a>Quem tem acesso aos Microsoft bookings?
 
-As reservas estão disponíveis e ativas por padrão para clientes do Microsoft 365 Business Premium, a3, a5, E3 e E5 em todo o mundo. As reservas também estão disponíveis no Office 365 operado pela 21Vianet.
+As reservas estão disponíveis e ativas por padrão para o Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, a5, E3 e E5 clientes em todo o mundo. As reservas também estão disponíveis no Office 365 operado pela 21Vianet.
 
 ### <a name="will-my-customers-see-my-personal-or-business-calendar"></a>Meus clientes irão ver meu calendário pessoal ou comercial?
 
@@ -37,7 +37,7 @@ Seus clientes só verão o calendário de livros que você publicou online para 
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>Como os usuários finais acessam o aplicativo de reservas?
 
-Qualquer um que esteja licenciado para o Microsoft 365 Business Premium, a3, a5, E3, E5 ou adicionado como membro da equipe nas funções de administrador ou de visualização pode acessar reservas no seletor de aplicativos na experiência da Web do Microsoft 365. Há também um aplicativo complementar disponível para iOS e Android.
+Qualquer pessoa licenciada para o Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, a5, E3, E5 ou adicionada como membro da equipe nas funções de administrador ou de visualização pode acessar reservas no seletor de aplicativos na experiência da Web do Microsoft 365. Há também um aplicativo complementar disponível para iOS e Android.
 
 ### <a name="can-i-use-bookings-in-my-own-web-site"></a>Posso usar reservas no meu site?
 
@@ -49,9 +49,9 @@ Sim. Fornecemos um link para sua página de reserva dentro da guia **página de 
 
 ### <a name="can-our-it-department-control-whether-end-users-can-access-bookings"></a>Nosso departamento de ti pode controlar se os usuários finais podem acessar reservas?
 
-As reservas estão disponíveis no Business Premium, M365 a3/a5 e em locatários E3/E5 por padrão, mas os administradores podem desativá-la no centro de administração do Microsoft 365, caso escolham. Para fazer isso, [siga estas instruções](turn-bookings-on-or-off.md).
+As reservas estão disponíveis no Microsoft 365 Business Premium, Microsoft 365 Business Standard, M365 a3/a5 e os locatários E3/E5 por padrão, mas os administradores podem desativá-lo no centro de administração do Microsoft 365, caso escolham. Para fazer isso, [siga estas instruções](turn-bookings-on-or-off.md).
 
-Se um cliente quiser desabilitar o acesso a reservas de determinadas licenças qualificadas em seus locatários, eles poderão usar uma política de grupo para restringir as licenças ou implementar uma diretiva de caixa de correio do OWA que restrinja quem pode criar novos calendários de livros.
+Se um cliente quiser desabilitar o acesso a reservas de determinadas licenças qualificadas em seus locatários, eles poderão usar uma política de grupo para restringir as licenças ou implementar uma política de caixa de correio do OWA que restrinja quem pode criar novos calendários de livros.
 
 Se você usar uma política de caixa de correio do OWA para desabilitar o acesso a reservas, todos os usuários terão uma licença de livros, no entanto, quando tentarem acessar o aplicativo, eles só serão bem-sucedidos se fizerem parte da política ou se tiverem sido adicionados a um calendário de livros existente como equipe. Detalhes [aqui](turn-bookings-on-or-off.md) na seção "permitir que apenas usuários selecionados criem calendários".
 
@@ -114,7 +114,7 @@ As reservas são uma solução ideal para clientes corporativos e de pequenas em
 
 ### <a name="how-do-i-get-microsoft-bookings"></a>Como posso obter o Microsoft bookings?
 
-As reservas estão disponíveis no Microsoft 365 para clientes com licenças Premium, a3, a5, E3 e e5, juntamente com um aplicativo complementar iOS e Android. As reservas não estão disponíveis como um aplicativo autônomo. O Outlook Web App ou o Outlook na Web deve estar habilitado para usar reservas, pois armazena dados no Outlook.
+As reservas estão disponíveis no Microsoft 365 para clientes com licenças do Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, a5, E3 e e5, juntamente com um aplicativo complementar iOS e Android. As reservas não estão disponíveis como um aplicativo autônomo. O Outlook Web App ou o Outlook na Web deve estar habilitado para usar reservas, pois armazena dados no Outlook.
 
 Uma licença de livros oferece funcionalidade completa para o produto, incluindo a criação e o gerenciamento de calendários. Também permite que os usuários exibam e editem calendários existentes, quando esses usuários são adicionados como funcionários em uma função de administrador ou de um visualizador.
 
@@ -172,9 +172,9 @@ Uma configuração chamada de **lead time máximo** determina o que está mais l
 
 ### <a name="how-does-bookings-work-across-time-zones"></a>Como as reservas funcionam em fusos horários?
 
-Todos os horários estão no fuso horário comercial (seu fuso horário local) por padrão. Isso significa que qualquer configuração configurada para um calendário de livros, como o horário de trabalho, será exibida neste fuso horário. A página de autoatendimento tem a capacidade de exibir todos os horários dos compromissos no fuso horário do usuário final, que pode ser desativado, se desejado.Se **sempre mostrar os intervalos de tempo no fuso horário de negócios** permanecer desmarcado na guia página de livros, as pessoas que visitarem a página verão os intervalos de tempo em seus próprios fusos horários locais.
+Todos os horários estão no fuso horário comercial (seu fuso horário local) por padrão. Isso significa que qualquer configuração configurada para um calendário de livros, como o horário de trabalho, será exibida neste fuso horário. A página de autoatendimento tem a capacidade de exibir todos os horários dos compromissos no fuso horário do usuário final, que pode ser desativado, se desejado. Se **sempre mostrar os intervalos de tempo no fuso horário de negócios** permanecer desmarcado na guia página de livros, as pessoas que visitarem a página verão os intervalos de tempo em seus próprios fusos horários locais.
 
-:::image type="content" source="media/bookings-faq-region.png" alt-text="Agendamento em reservas":::
+:::image type="content" source="media/bookings-faq-region.png" alt-text="Configurações de região e fuso horário":::
 
 Não há provisão para definir o fuso horário para a equipe em reservas. O fuso horário da equipe e, portanto, o horário comercial, estará no fuso horário comercial.
 
@@ -202,7 +202,7 @@ Sim, temos uma funcionalidade de catálogos de grupo que permite várias pessoas
 
 Sim. Há uma caixa de seleção na guia página de reserva no aplicativo Web: **exigir uma conta do Microsoft 365 ou do Office 365 de minha organização para o livro**. Marcar essa caixa de seleção restringe o acesso a páginas de autoatendimento apenas àqueles que estão dentro do seu locatário. O calendário de livros que se encontra dentro do aplicativo Web para criação e gerenciamento só pode ser acessado por usuários adicionados como equipe à página com funções de administrador ou de visualizador.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Agendamento em reservas":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Controle de acesso de página de reserva em reservas":::
 
 ### <a name="how-frequently-does-the-home-page-update"></a>Com que frequência a página inicial é atualizada?
 
@@ -250,7 +250,7 @@ Cada calendário de livros é mantido de forma independente. Não há um modo de
 
 O acesso ao aplicativo Web de reservas envolve autenticação por meio da autenticação regular do Azure Active Directory (AAD). A página de reservas de autoatendimento pode ser disponibilizada para todos com o link da página da Web. No entanto, quando a configuração **exigir uma conta do Microsoft 365 ou do Office 365 da minha organização para o** livro está selecionada, a página é restrita para uso no locatário do Microsoft 365 (usando a autenticação do AAD).
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Agendamento em reservas":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Controle de acesso de página de reserva em reservas":::
 
 ### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>Os dados do cliente deixam o sistema de produção por algum motivo?
 
@@ -303,18 +303,20 @@ Para que as reservas sejam sincronizadas corretamente com os calendários dos me
 
 1. Entre no Microsoft 365 e selecione **Outlook** no inicializador de aplicativos.
 
-   ![Imagem do Outlook no inicializador de aplicativos](../media/bookings-applauncher-outlook.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagem do Outlook no inicializador de aplicativos](../media/bookings-applauncher-outlook.png)
 
 1. Na parte superior da página, selecione **compartilhar** \> **calendário**.
 
    ![Imagem do menu de compartilhamento de calendário](../media/bookings-share-calendar.png)
 
-1. Na seção **pessoas dentro da sua organização** , selecione a caixa suspensa ao lado de **minha organização**e, em seguida, selecione **pode exibir quando estou ocupado**.
+1. Na seção **pessoas dentro da sua organização** , selecione a caixa suspensa ao lado de **minha organização** e, em seguida, selecione **pode exibir quando estou ocupado**.
 
-> [!NOTE]
-> Essa configuração compartilha suas informações de disponibilidade com reservas e outros usuários em sua organização. Ele não inclui nenhuma outra informação, como o tipo de compromisso agendado, com quem você agendou o compromisso ou o local.
+   > [!NOTE]
+   > Essa configuração compartilha suas informações de disponibilidade com reservas e outros usuários em sua organização. Ele não inclui nenhuma outra informação, como o tipo de compromisso agendado, com quem você agendou o compromisso ou o local.
 
-   ![Imagem da tela de compartilhamento de calendário com o pode exibir quando estou ocupado habilitado](../media/bookings-view-busy.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagem da tela de compartilhamento de calendário com o pode exibir quando estou ocupado habilitado](../media/bookings-view-busy.png)
 
 1. Selecione **Concluído**.
 
@@ -335,7 +337,7 @@ Se um funcionário saiu da sua empresa e você os removeu da sua organização d
 
 Para verificar se você tem mais de um calendário, no menu à esquerda, selecione a seta suspensa ao lado do nome da sua empresa e, em seguida, selecione **abrir**. Se você tiver apenas um calendário, verá apenas a opção para adicionar um calendário de reserva. Este exemplo mostra que há um segundo calendário chamado "contoso CO".
 
-   ![Imagem de escolher uma tela de calendário com um segundo calendário mostrado](../media/bookings-choose-calendar.png)
+![Imagem de escolher uma tela de calendário com um segundo calendário mostrado](../media/bookings-choose-calendar.png)
 
 ### <a name="theres-a-syncing-error-we-cant-identify"></a>Há um erro de sincronização que não pode ser identificado
 

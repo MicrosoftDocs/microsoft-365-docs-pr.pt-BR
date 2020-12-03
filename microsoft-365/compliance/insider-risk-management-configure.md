@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 9c8d9dbc0087f1b7311863ea63e578bad3040249
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 793f51146dc85dc1c6750e82301d0e1206187ad9
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357430"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558195"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -92,8 +92,6 @@ Para obter instruções passo a passo para ativar a auditoria, consulte [Ativar 
 ## <a name="step-3-configure-prerequisites-for-templates"></a>Etapa 3: configurar pré-requisitos para modelos
 
 A maioria dos modelos de gerenciamento de risco do insider tem pré-requisitos que devem ser configurados para indicadores de política para gerar alertas de atividade relevantes. Configure os pré-requisitos apropriados dependendo das políticas que você planeja configurar para sua organização.
-
-Se você estiver configurando uma política usando o *idioma ofensivo no modelo de política de email* , você pode ignorar esta etapa e ir diretamente para a **etapa 4**.
 
 ### <a name="configure-microsoft-365-hr-connector"></a>Configurar o conector de RH da Microsoft 365
 

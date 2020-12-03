@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Saiba como fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
-ms.openlocfilehash: 17202bb35e6d5e7d40b135f65467aef111aad070
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 19769c827284000e1ad0e86e3666d9980322b6a9
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645102"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49560845"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
 
@@ -73,14 +73,15 @@ Como administrador, você pode alterar seu endereço de email alternativo para r
 
 1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>.
 
-2. No cabeçalho, selecione o ícone do seu perfil e, em seguida, selecione **minha conta**.
+2. No cabeçalho, selecione o ícone do seu perfil e, em seguida, selecione **Exibir conta**.
 
-3. À esquerda, selecione **informações pessoais**.
+3. À esquerda, selecione **informações de segurança**.
 
-4. No cartão de **detalhes do contato** , selecione **Editar**.
+4. Na seção email, selecione **alterar**
 
-5. Edite o endereço na caixa **email alternativo** e, em seguida, selecione **salvar**.
+5. Edite o endereço na caixa **email alternativo** e, em seguida, selecione **Avançar**.
 
+6. Insira o código enviado para o endereço de email alternativo e selecione **OK** para verificar a alteração.
 Para saber mais sobre como alterar outras informações de perfil, confira [alterar suas preferências de contato](change-contact-preferences.md) ou [alterar seu idioma de exibição](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b.aspx).
   
 ### <a name="email-signatures"></a>Assinaturas de email

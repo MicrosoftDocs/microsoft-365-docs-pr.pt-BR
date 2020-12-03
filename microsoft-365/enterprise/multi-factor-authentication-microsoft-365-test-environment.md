@@ -16,18 +16,18 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 description: Configurar a autenticação multifator usando mensagens de texto enviadas a um telefone inteligente no seu ambiente de teste do Microsoft 365 for Enterprise.
-ms.openlocfilehash: f41fe7ad933f85c4b44a1e90529a998651412191
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 4c59405c1ce59cafaf0309e2314e5cbfa4eb080a
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487135"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558437"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>Autenticação multifator para seu ambiente de teste do Microsoft 365 for Enterprise
 
 *Este guia de laboratório de teste pode ser usado para ambientes de teste corporativos do Microsoft 365 para Enterprise e Office 365.*
 
-Para obter um nível adicional de segurança para entrar no Microsoft 365 ou qualquer serviço ou aplicativo que usa o locatário do Azure AD para sua assinatura, você pode habilitar a autenticação multifator do Azure, que requer mais do que apenas um nome de usuário e senha para verificar uma conta.
+Para obter um nível adicional de segurança para entrar no Microsoft 365 ou qualquer serviço ou aplicativo que usa o locatário do Azure AD para sua assinatura, você pode habilitar a autenticação multifator do Azure AD, que requer mais do que apenas um nome de usuário e senha para verificar uma conta.
 
 Com a autenticação multifator, os usuários precisam confirmar uma chamada telefônica, digitar um código de verificação enviado em uma mensagem de texto ou verificar a autenticação com um aplicativo em seus dispositivos inteligentes após a inserção correta de suas senhas. Eles podem entrar somente após esse segundo fator de autenticação ser satisfeito.
   
@@ -110,11 +110,11 @@ Em seguida, crie um novo grupo chamado MFAUsers e adicione a ele 3 conta de usu�
 
 1. Na guia **centro de administração do Microsoft 365** , selecione **grupos** na navegação à esquerda e, em seguida, selecione **grupos**.
 2. Selecione **Adicionar um grupo**.
-3. No painel **escolher um tipo de grupo** , selecione **segurança**e, em seguida, selecione **Avançar**.
-4. No painel **Configurar o básico** , selecione **Criar grupo**e, em seguida, selecione **Fechar**.
-5. No painel **revisar e concluir a adição de grupo** , insira **MFAUsers**e, em seguida, selecione **Avançar**.
+3. No painel **escolher um tipo de grupo** , selecione **segurança** e, em seguida, selecione **Avançar**.
+4. No painel **Configurar o básico** , selecione **Criar grupo** e, em seguida, selecione **Fechar**.
+5. No painel **revisar e concluir a adição de grupo** , insira **MFAUsers** e, em seguida, selecione **Avançar**.
 6. Na lista de grupos, selecione o grupo **MFAUsers** .
-7. No painel **MFAUsers** , selecione **Membros**e, em seguida, selecione **Exibir todos e gerenciar Membros**.
+7. No painel **MFAUsers** , selecione **Membros** e, em seguida, selecione **Exibir todos e gerenciar Membros**.
 8. No painel **MFAUsers** , selecione **adicionar membros**, selecione a conta **usuário 3** e, em seguida, selecione **salvar**  >  **fechar**  >  **fechar**.
 
 Em seguida, crie uma política de acesso condicional para exigir a autenticação multifator para os membros do grupo MFAUsers.
@@ -127,8 +127,8 @@ Em seguida, crie uma política de acesso condicional para exigir a autenticaçã
 6. Na guia **incluir** do painel **usuários e grupos** , selecione Selecionar **usuários e grupos**  >  **usuários e grupos**  >  **selecionar**.
 7. No painel **selecionar** , selecione o grupo **MFAUsers** **e selecione**  >  **concluído**.
 8. Na seção **controles de acesso** do painel **novo** , selecione **conceder**.
-9. No painel **conceder** , selecione **exigir autenticação multifator**e selecione **selecionar**.
-10. No painel **novo** , selecione **Ativar** para **habilitar política**e, em seguida, selecione **criar**.
+9. No painel **conceder** , selecione **exigir autenticação multifator** e selecione **selecionar**.
+10. No painel **novo** , selecione **Ativar** para **habilitar política** e, em seguida, selecione **criar**.
 11. Feche as guias **portal do Azure** e **centro de administração do Microsoft 365** .
 
 Para testar esta política, saia e entre com a conta do usuário 3. Você deve ser solicitado a configurar a MFA. Isso demonstra que a política MFAUsers está sendo aplicada.

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: A mobilidade básica e a segurança fazem parte dos planos do Microsoft 365.
-ms.openlocfilehash: b9568d0aad03fc3c8a5c81d02f98f5b238124a82
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: 8724b3dccbdb5949190ceda4b804b9f1f2a5d4b2
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930160"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561490"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Escolha entre mobilidade básica e segurança ou Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "48930160"
  
 A mobilidade básica e a segurança e o Intune estão incluídos em vários planos, descritos na tabela a seguir.
 
-|**Planejar**|**Mobilidade básica e segurança**|**Microsoft Intune**|
+| Planejar | Mobilidade básica e segurança | Microsoft Intune |
 |:-----|:-----|:-----|
 |Aplicativos do Microsoft 365|Sim|Não|
 |Microsoft 365 Business Basic|Sim|Não|
@@ -64,11 +64,11 @@ O Microsoft Intune e a mobilidade básica e segurança interna dão a você a ca
 >[!NOTE]
 >Você pode gerenciar usuários e seus dispositivos móveis usando o Intune e mobilidade básica e segurança na mesma organização de Microsoft 365 Business Standard, *Configurando a mobilidade básica e segurança primeiro e, em seguida, adicionando o Microsoft Intune*. Isso permite que você escolha mobilidade básica e segurança ou a solução mais rica de recursos do Intune. Atribua uma licença do Intune para habilitar os recursos do Intune.
 
-|**Área de recursos**|**Destaques do recurso**|**Mobilidade básica e segurança**|**Microsoft Intune**|
+| Área de recurso | Destaques do recurso | Mobilidade básica e segurança | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
 |Tipos de dispositivo|Gerenciar plataformas de sistema operacional diferentes e variantes do modo de gerenciamento principal. |Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>Mac OS, iPad OS|
 |Conformidade do dispositivo|Definir e gerenciar políticas de segurança, como bloqueio de PIN de nível de dispositivo e detecção de jailbreak. |Limitações no Android 9 e dispositivos posteriores. Veja [detalhes](capabilities.md). |Sim|
-|Acesso condicional com base na conformidade do dispositivo |Impedir que dispositivos não compatíveis acessem emails e dados corporativos da nuvem. |Sem suporte no Windows 10.<br/>Limitado para controlar o acesso ao Exchange Online, SharePoint Online e Outlook. |Não |
+|Acesso condicional com base na conformidade do dispositivo |Impedir que dispositivos não compatíveis acessem emails e dados corporativos da nuvem. |Sem suporte no Windows 10.<br/>Limitado para controlar o acesso ao Exchange Online, SharePoint Online e Outlook. |Sim |
 |Configuração do dispositivo  |Definir configurações de dispositivo (por exemplo, desabilitar a câmera)|Conformidade do dispositivo|Definir e gerenciar políticas de segurança, como bloqueio de PIN de nível de dispositivo e detecção de jailbreak. |Limitações no Android 9 e dispositivos posteriores. Veja [detalhes](capabilities.md). |Sim|
  |Conjunto limitado de configurações. |Sim|
 |Perfis de email  |Provisione um perfil de email nativo no dispositivo. |Sim|Sim|

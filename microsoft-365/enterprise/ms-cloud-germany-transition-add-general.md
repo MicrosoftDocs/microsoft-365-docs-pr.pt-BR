@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: informações gerais adicionais sobre os serviços ao migrar do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 6fa09165f8aaa68e0f9fc567d96a4e53baaa594e
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 93692200f2519dbc647bb4e81b4bd8c646815858
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551777"
+ms.locfileid: "49558425"
 ---
 # <a name="additional-general-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Informações gerais adicionais para a migração do Microsoft Cloud Alemanha
 
@@ -49,14 +49,14 @@ Há três pré-condições para atualizar sua autoridade de entrada:
 
 Um aplicativo pode ser qualquer um dos seguintes:
 
-- Aplicativo de página única (SPA)
-- Aplicativo Web que entra nos usuários
-- Aplicativo Web que chama APIs da Web
-- API Web protegida
-- API Web que chama APIs da Web
-- Aplicativo da área de trabalho
-- Aplicativo daemon
-- Aplicativo móvel
+- [Aplicativo de página única (SPA)](https://docs.microsoft.com/azure/active-directory/develop/scenario-spa-overview)
+- [Aplicativo Web que entra nos usuários](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-sign-user-overview)
+- [Aplicativo Web que chama APIs da Web](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-call-api-overview)
+- [API Web protegida](https://docs.microsoft.com/azure/active-directory/develop/scenario-protected-web-api-overview)
+- [API Web que chama APIs da Web](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-api-call-api-overview)
+- [Aplicativo da área de trabalho](https://docs.microsoft.com/azure/active-directory/develop/scenario-desktop-overview)
+- [Aplicativo daemon](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-overview)
+- [Aplicativo móvel](https://docs.microsoft.com/azure/active-directory/develop/scenario-mobile-overview)
  
 > [!NOTE] 
 > Quando um aplicativo alterna para usar `login.microsoftonline.com` como sua autoridade, os tokens serão assinados por essa nova autoridade. Se você hospedar qualquer aplicativo de recurso chamado por outros aplicativos, será necessário permitir a validação de token LAX. Isso significa que seu aplicativo precisa permitir tokens assinados pelo Azure AD Alemanha e pelas nuvens públicas do Azure AD. Essa validação de token LAX é necessária até que todos os aplicativos clientes que ligam seu serviço sejam totalmente migrados para a nuvem pública do Azure AD. Após a migração, o aplicativo de recurso precisa apenas aceitar tokens assinados pela nuvem pública do Azure AD.
@@ -76,10 +76,10 @@ Um aplicativo pode ser qualquer um dos seguintes:
 
 5. Atualizar parâmetros de ambiente para serem `AzurePublic` (em vez de `AzureGermany` ) em ferramentas administrativas e scripts para:
 
-    - Azure PowerShell
-    - PowerShell do Azure AD (MSOnline)
-    - PowerShell do Azure AD (AzureAD)
-    - CLI do Azure
+    - [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.8.0&viewFallbackFrom=azurermps-5.6.0)
+    - [PowerShell do Azure AD (MSOnline)](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    - [PowerShell do Azure AD (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+    - [CLI do Azure](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)
  
 **E os aplicativos que eu publicar?**
 

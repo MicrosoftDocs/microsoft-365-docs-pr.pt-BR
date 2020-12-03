@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a contoso usa os recursos de proteção de informações no Microsoft 365 for Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: a1aa08a20d284d3a003f4a406c37f2107ce19bd1
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 7cc51110a0bc4c87e57e71b2ddb42aa0dbaa288d
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754593"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558499"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -34,7 +34,7 @@ A contoso realizou uma análise de seus dados e determinou os seguintes níveis 
 
 | Nível 1: linha de base | Nível 2: Confidencial | Nível 3: altamente controlado |
 |:-------|:-----|:-----|
-| Os dados são criptografados e estão disponíveis somente para usuários autenticados.<BR> <BR> Fornecido para todos os dados armazenados no local e em armazenamento baseado em nuvem e cargas de trabalho. Os dados são criptografados enquanto residem no serviço e em trânsito entre os dispositivos de cliente e serviço. <BR><BR>Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados.<BR> <BR> A autenticação forte inclui a Autenticação Multifator do Microsoft Azure (MFA) com a validação de SMS. A prevenção contra perda de dados garante que as informações confidenciais ou críticas não trafegam fora da nuvem da Microsoft.<BR><BR>Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria.<BR><BR>Os níveis mais altos de criptografia de dados em repouso e na nuvem, em conformidade com os regulamentos regionais, combinados a MFA com cartões inteligentes, auditoria e alerta granulares.<BR> <BR>Exemplos de dados de nível 3 são informações pessoais de cliente e de parceiro, especificações de engenharia de produto e técnicas de fabricação proprietárias.  |
+| Os dados são criptografados e estão disponíveis somente para usuários autenticados.<BR> <BR> Fornecido para todos os dados armazenados no local e em armazenamento baseado em nuvem e cargas de trabalho. Os dados são criptografados enquanto residem no serviço e em trânsito entre os dispositivos de cliente e serviço. <BR><BR>Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados.<BR> <BR> A autenticação forte inclui a MFA (autenticação multifator) do Azure AD com a validação do SMS. A prevenção contra perda de dados garante que as informações confidenciais ou críticas não trafegam fora da nuvem da Microsoft.<BR><BR>Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria.<BR><BR>Os níveis mais altos de criptografia de dados em repouso e na nuvem, em conformidade com os regulamentos regionais, combinados a MFA com cartões inteligentes, auditoria e alerta granulares.<BR> <BR>Exemplos de dados de nível 3 são informações pessoais de cliente e de parceiro, especificações de engenharia de produto e técnicas de fabricação proprietárias.  |
 ||||
 
 ## <a name="contoso-information-policies"></a>Políticas de informações da contoso

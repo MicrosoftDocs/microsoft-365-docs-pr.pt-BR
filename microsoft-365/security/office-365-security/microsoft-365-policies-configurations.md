@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 993dd1ed66ca5bc6635c0eadf2dc7345ab84b57d
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 0144e9478e74e252e0c4ccc0c902df376129c388
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356914"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558281"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -110,7 +110,7 @@ O Azure AD fornece um pacote completo de recursos de gerenciamento de identidade
 
 |Capcidade ou recurso|Descrição|Licenças|
 |---|---|---|
-|[MFA (Autenticação Multifator)](/azure/active-directory/authentication/concept-mfa-howitworks)|A MFA exige que os usuários forneçam duas formas de verificação, como a senha de um usuário, além de uma notificação do aplicativo Microsoft Authenticator ou de uma chamada telefônica. A MFA reduz muito o risco de que as credenciais roubadas podem ser usadas para acessar seu ambiente. A Microsoft 365 usa o serviço de autenticação multifator do Azure para os logins baseados em MFA.|Microsoft 365 E3 ou E5|
+|[MFA (Autenticação Multifator)](/azure/active-directory/authentication/concept-mfa-howitworks)|A MFA exige que os usuários forneçam duas formas de verificação, como a senha de um usuário, além de uma notificação do aplicativo Microsoft Authenticator ou de uma chamada telefônica. A MFA reduz muito o risco de que as credenciais roubadas podem ser usadas para acessar seu ambiente. A Microsoft 365 usa o serviço de autenticação multifator do Azure AD para entradas baseadas em MFA.|Microsoft 365 E3 ou E5|
 |[Acesso condicional](/azure/active-directory/conditional-access/overview)|O Azure AD avalia as condições de entrada do usuário e usa políticas de acesso condicional para determinar o acesso permitido. Por exemplo, neste guia, mostraremos como criar uma política de acesso condicional para exigir a conformidade do dispositivo para acessar dados confidenciais. Isso reduz muito o risco de que um hacker com seu próprio dispositivo e credenciais roubadas possa acessar seus dados confidenciais. Ele também protege dados confidenciais nos dispositivos, porque os dispositivos devem atender a requisitos específicos de integridade e segurança.|Microsoft 365 E3 ou E5|
 |[Grupos do Azure AD](/azure/active-directory/fundamentals/active-directory-manage-groups)|As políticas de acesso condicional, gerenciamento de dispositivos com o Intune e até mesmo permissões para arquivos e sites em sua organização dependem da atribuição para contas de usuário ou grupos do Azure AD. Recomendamos que você crie grupos do Azure AD que correspondam aos níveis de proteção que você está implementando. Por exemplo, sua equipe executiva é provavelmente metas de valor mais alto para hackers. Portanto, faz sentido adicionar as contas de usuário desses funcionários a um grupo do Azure AD e atribuir esse grupo a políticas de acesso condicional e outras políticas que impõem um nível mais alto de proteção para o Access.|Microsoft 365 E3 ou E5|
 |[Registro do dispositivo](/azure/active-directory/devices/overview)|Você inscreve um dispositivo no Azure AD para criar uma identidade para o dispositivo. Essa identidade é usada para autenticar o dispositivo quando um usuário entra e para aplicar as políticas de acesso condicional que exigem computadores associados ou em conformidade com o domínio. Para este guia, usamos o registro de dispositivos para registrar automaticamente os computadores Windows associados ao domínio. O registro de dispositivo é um pré-requisito para gerenciar dispositivos com o Intune.|Microsoft 365 E3 ou E5|

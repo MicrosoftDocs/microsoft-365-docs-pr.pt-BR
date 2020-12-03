@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como exigir a MFA e configurar as políticas de acesso condicional para o Microsoft 365 for Business.
-ms.openlocfilehash: 5908a36f09753cd8f66169c6a67be45c748807b7
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+ms.openlocfilehash: 08a77615d6801eef52465c450c2559a9d786befb
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071496"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558269"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Exigir autenticação multifator e configurar políticas de acesso condicional
 
@@ -45,7 +45,7 @@ No momento, as políticas de linha de base incluem o seguinte:
     - **Bloquear autenticação herdada** — aplicativos cliente mais antigos e alguns aplicativos novos não usam protocolos de autenticação mais recentes, mais seguros. Esses aplicativos antigos podem ignorar as políticas de acesso condicional e obter acesso não autorizado ao seu ambiente. Esta política bloqueia o acesso de clientes que não dão suporte ao acesso condicional. 
     - **Requer MFA para gerenciamento de serviços** — requer a autenticação multifator para acessar ferramentas de gerenciamento, incluindo o portal do Azure (onde você configura as políticas de linha de base). 
 
-A Microsoft recomenda que você habilite todas essas políticas de linha de base. Após a habilitação dessas políticas, os administradores e os usuários serão solicitados a registrar a autenticação multifator do Azure.
+A Microsoft recomenda que você habilite todas essas políticas de linha de base. Após a habilitação dessas políticas, os administradores e os usuários serão solicitados a registrar a autenticação multifator do Azure AD.
 
 Para obter mais informações sobre essas políticas, consulte [o que são políticas de linha de base](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)?
 

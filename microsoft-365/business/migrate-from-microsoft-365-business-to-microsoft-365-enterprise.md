@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba como mover sua empresa da Microsoft 365 Business Premium para a Microsoft 365 E3.
-ms.openlocfilehash: 3f840a27cdcf50bba7710681135f6c2e241ad14b
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 3f1bb9591e1bd2bac49326325ce6c8c2d6778497
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367046"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558229"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Migrar do Microsoft 365 Business Premium para o Microsoft 365 E3
 
@@ -62,7 +62,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Mic
 | Recursos de redução de superfície de ataque    | [Confira esta lista](#threat-protection) | Gerenciamento corporativo de isolamento baseado em hardware para o Microsoft Edge | 
 | Defender para Office 365 plano 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**        | | | 
-| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure AD (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Descoberta do Cloud app, integridade do Azure AD Connect    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Azure AD Office 365 aplicativos únicos Sign-On (SSO): 10 aplicativos por usuário (Galeria de aplicativos SaaS como Salesforce) * | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Azure AD Premium 1 SSO: sem limite (aplicativos locais por meio do proxy de aplicativo do Azure AD e aplicativos não-Galeria usando Self-Service modelos de integração de aplicativos)    |     | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
@@ -80,7 +80,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Mic
 | **Conformidade**        | | | 
 | Arquivamento ilimitado de email    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Gerenciador de Conformidade    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
-| Descoberta eletrônica    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
+| Descoberta Eletrônica    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Bloqueio in-loco e retenção de litígio    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 | Marcas de retenção e políticas de retenção do MRM (gerenciamento de registros de mensagens)    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Microsoft 365 E3](../media/check-mark.png) | 
 ||||

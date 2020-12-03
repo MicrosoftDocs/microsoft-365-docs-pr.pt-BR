@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os recursos de investigação e resposta contra ameaças no Microsoft defender para Office 365 Plan.
-ms.openlocfilehash: 6dba883a910306b548f1880be00ad45207da27dd
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7ae61e7ea70d8be5c31ec12443c8943f6e54bcf4
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845787"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561250"
 ---
 # <a name="threat-investigation-and-response"></a>Investigação e resposta a ameaças
 
@@ -33,12 +33,13 @@ ms.locfileid: "48845787"
 
 
 Os recursos de investigação e resposta contra ameaças no [Microsoft defender para Office 365](office-365-atp.md) ajudam os analistas de segurança e administradores a proteger os usuários do Microsoft 365 da sua organização por:
+
 - Facilitando a identificação, o monitoramento e a compreensão do cyberattacks
 - Ajudando a resolver rapidamente as ameaças no Exchange Online, no SharePoint Online, no OneDrive for Business e no Microsoft Teams
 - Fornecer informações e conhecimento para ajudar as operações de segurança a evitar o cyberattacks em sua organização
 - O emprego de [investigação e resposta automatizadas no Office 365](automated-investigation-response-office.md) para ameaças críticas baseadas em email
-    
-Os recursos de investigação e resposta contra ameaças fornecem informações sobre ameaças e ações de resposta relacionadas que estão disponíveis no &amp; centro de conformidade de segurança. Essas informações podem ajudar a equipe de segurança da sua organização a proteger os usuários contra ataques baseados em email ou arquivos. Os recursos ajudam a monitorar sinais e coletar dados de várias fontes, como atividade do usuário, autenticação, email, computadores comprometidos e incidentes de segurança. Os tomadores de decisões de negócios e sua equipe de operações de segurança podem usar essas informações para entender e responder a ameaças em relação à sua organização e proteger sua propriedade intelectual.
+
+Os recursos de investigação e resposta contra ameaças fornecem informações sobre ameaças e ações de resposta relacionadas que estão disponíveis no centro de conformidade de & de segurança. Essas informações podem ajudar a equipe de segurança da sua organização a proteger os usuários contra ataques baseados em email ou arquivos. Os recursos ajudam a monitorar sinais e coletar dados de várias fontes, como atividade do usuário, autenticação, email, computadores comprometidos e incidentes de segurança. Os tomadores de decisões de negócios e sua equipe de operações de segurança podem usar essas informações para entender e responder a ameaças em relação à sua organização e proteger sua propriedade intelectual.
 
 ## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>Familiarize-se com as ferramentas de investigação e resposta contra ameaças
 
@@ -53,19 +54,19 @@ Recursos de investigação e resposta contra ameaças no centro de conformidade 
 ### <a name="threat-dashboard"></a>Painel de ameaças
 
 Use o painel de ameaças (isso também é conhecido como [painel de segurança](security-dashboard.md)) para ver rapidamente quais ameaças foram tratadas e como uma maneira visual de relatar aos responsáveis pelas decisões de negócios como os serviços 365 da Microsoft estão protegendo sua empresa.
-  
+
 ![Painel de ameaças](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
-  
-Para exibir e usar esse painel, no centro de &amp; conformidade de segurança, vá para o painel **Gerenciamento de ameaças** \> **Dashboard**.
-  
+
+Para exibir e usar esse painel, no centro de conformidade & segurança, vá para o painel **Gerenciamento de ameaças** \> **Dashboard**.
+
 ### <a name="threat-explorer"></a>Explorador de Ameaças
 
 Use o [Explorador de ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças, confira o volume de ataques ao longo do tempo e analise os dados por famílias de ameaças, infraestrutura de atacante e muito mais. O Gerenciador de ameaças (também mencionado como Explorer) é o local inicial para o fluxo de trabalho de investigação de qualquer analista de segurança.
 
 ![Explorador de ameaças](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
-  
-Para exibir e usar esse relatório, no centro de &amp; conformidade de segurança, vá para Gerenciador de **Gerenciamento de ameaças** \> **Explorer**.
-  
+
+Para exibir e usar esse relatório, no centro de conformidade & segurança, vá para Gerenciador de **Gerenciamento de ameaças** \> **Explorer**.
+
 ### <a name="incidents"></a>Incidentes
 
 Use a lista incidentes (isso também é chamado de investigações) para ver uma lista de incidentes de segurança de vôo. Os incidentes são usados para rastrear ameaças como mensagens de email suspeitas e para realizar mais investigações e correções.
@@ -101,7 +102,7 @@ O Microsoft defender para Office 365 usa o controle de acesso baseado em funçã
 > [!TIP]
 > Embora algumas funções, como administrador de segurança, possam ser atribuídas no centro de conformidade & segurança, considere o uso do centro de administração do Microsoft 365 ou do Azure Active Directory. Para obter informações sobre funções, grupos de funções e permissões, consulte os seguintes recursos:
 >
-> - [Permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md)
+> - [Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)
 >
 > - [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 

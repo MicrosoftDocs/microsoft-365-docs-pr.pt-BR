@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business Premium do Office 365 E3.
-ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: eebf78c24ed4bfd1a4fc2d843f37aebbe3d35e31
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842151"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558239"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migrando do Office 365 E3 para a Microsoft 365 Business Premium 
 
@@ -53,7 +53,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 | **Proteção contra Ameaças**        | | | 
 | Defender para Office 365 plano 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não está incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**        | | | 
-| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| Redefinição de senha de autoatendimento para contas híbridas do Azure Active Directory (Azure AD), autenticação multifator do Azure AD (MFA), acesso condicional, write-back de senha para identidades locais|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
 | **Gerenciamento de dispositivos e aplicativos**        | | |
 | Microsoft Intune, piloto automático do Windows|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | Ativação de computador compartilhado|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png)| 

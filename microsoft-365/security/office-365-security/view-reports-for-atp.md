@@ -17,14 +17,14 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Encontre e use relatórios do Microsoft defender para Office 365 no centro de &amp; conformidade de segurança.
+description: Encontre e use relatórios do Microsoft defender para Office 365 no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8885eea2168cc40c497f6fa1066ae020dda7fd7c
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 5efaef018c78bd161c9cde81af36be92173479ae
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087698"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561722"
 ---
 # <a name="view-reports-for-microsoft-defender-for-office-365"></a>Exibir relatórios do Microsoft defender para Office 365
 
@@ -35,7 +35,7 @@ As organizações do Microsoft defender for Office 365 (por exemplo, assinaturas
 
 ![O painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="defender-for-office-365-file-types-report"></a>Relatório de tipos de arquivo do Defender for Office 365
+## <a name="defender-for-office-365-file-types-report"></a>Relatório de tipos de arquivo do defender for Office 365
 
 O relatório de **relatórios de tipos de arquivo do defender for Office 365** mostra o tipo de arquivos detectados como mal-intencionados por [anexos seguros](atp-safe-attachments.md).
 
@@ -110,7 +110,7 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
   - **Endereço do remetente**.
   - **ID da mensagem**
   - **Arquivo**
-  - **Assunto**
+  - **Subject**
 
   Se você clicar em **filtros**, poderá modificar os resultados com os seguintes filtros:
 
@@ -119,7 +119,7 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
 
 Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
 
-## <a name="defender-for-office-365-message-disposition-report"></a>Relatório de disposição de mensagens do Defender for Office 365
+## <a name="defender-for-office-365-message-disposition-report"></a>Relatório de disposição de mensagens do defender for Office 365
 
 O relatório de **disposição de mensagens ATP** mostra as ações que foram tomadas para mensagens de email que foram detectadas como tendo conteúdo mal-intencionado.
 
@@ -179,7 +179,7 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
   - **Endereço do remetente**.
   - **ID da mensagem**
   - **Arquivo**
-  - **Assunto**
+  - **Subject**
 
   Se você clicar em **filtros**, poderá modificar os resultados com os seguintes filtros:
 
@@ -338,7 +338,7 @@ Além dos relatórios descritos neste tópico, vários outros relatórios estão
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Quais permissões são necessárias para exibir os relatórios do defender for Office 365?
 
-Para exibir e usar os relatórios descritos neste tópico, **você deve ter uma função apropriada atribuída para o centro de conformidade de segurança &amp; e o centro de administração do Exchange**.
+Para exibir e usar os relatórios descritos neste tópico, **você deve ter uma função apropriada atribuída para o centro de conformidade & segurança e o centro de administração do Exchange**.
 
 - Para o centro de conformidade & segurança, você deve ter uma das seguintes funções atribuídas:
 

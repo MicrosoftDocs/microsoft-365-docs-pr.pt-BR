@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Use o Microsoft defender para Office 365 junto com o Microsoft defender para ponto de extremidade para obter informações mais detalhadas sobre as ameaças contra seus dispositivos e conteúdo de email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f668aa1234509789dacd2b018b94f1bfbc79e2c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8a598dce3a8049d97d43b742477ca8f7a2bfeadb
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357774"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561214"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Usar o Microsoft defender para Office 365 junto com o Microsoft defender para ponto de extremidade
 
@@ -47,7 +47,7 @@ Neste exemplo, você pode ver que os destinatários da mensagem de email detecta
 
 - Sua organização deve ter o Microsoft defender para Office 365 (ou o Office 365 E5) e o Microsoft defender para ponto de extremidade.
     
-- Você deve ser um administrador global ou ter uma função de administrador de segurança (como administrador de segurança) atribuída [no &amp; centro de conformidade de segurança](https://protection.office.com). (Consulte [permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md))
+- Você deve ser um administrador global ou ter uma função de administrador de segurança (como administrador de segurança) atribuída no [centro de conformidade & segurança](https://protection.office.com). (Consulte [permissões no centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md))
     
 - Você deve ter acesso ao [Explorer (ou às detecções em tempo real)](threat-explorer.md) no centro de segurança & conformidade e no centro de segurança do Microsoft defender.
     
@@ -73,6 +73,6 @@ A integração do Microsoft defender para Office 365 com o Microsoft defender pa
 
 [Recursos de investigação e resposta contra ameaças no Office 365](office-365-ti.md)
   
-[Microsoft Defender para Office 365](office-365-atp.md)
+[Microsoft defender para Office 365](office-365-atp.md)
   
-[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection)
+[Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection)

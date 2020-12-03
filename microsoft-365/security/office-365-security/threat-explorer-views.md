@@ -14,14 +14,14 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Saiba como usar o Gerenciador de ameaças e o relatório de detecções em tempo real para investigar e responder a ameaças no centro de &amp; conformidade de segurança.
+description: Saiba mais sobre como usar o Gerenciador de ameaças e o relatório de detecções em tempo real para investigar e responder a ameaças no centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9412350384c0b2092c376db371e93fa5295c454
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 551425bf3e6b2c4fbb429dd6698b4f85e30d1ebe
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367184"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561226"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Modos de exibição no Gerenciador de ameaças e detecções em tempo real
 
@@ -30,7 +30,7 @@ ms.locfileid: "49367184"
 
 ![Explorador de Ameaças](../../media/ThreatExplorerFirstOpened.png)
 
-O [Gerenciador de ameaças](threat-explorer.md) (e o relatório de detecções em tempo real) é uma ferramenta poderosa e quase em tempo real para ajudar as equipes de operações de segurança a investigar e responder a ameaças no centro de conformidade de segurança &amp; . O Explorer (e o relatório de detecções em tempo real) exibe informações sobre o malware e phishing suspeitos em emails e arquivos no Office 365, bem como outras ameaças e riscos de segurança à sua organização.
+O [Gerenciador de ameaças](threat-explorer.md) (e o relatório de detecções em tempo real) é uma ferramenta poderosa e quase em tempo real para ajudar as equipes de operações de segurança a investigar e responder a ameaças no centro de conformidade e segurança &. O Explorer (e o relatório de detecções em tempo real) exibe informações sobre o malware e phishing suspeitos em emails e arquivos no Office 365, bem como outras ameaças e riscos de segurança à sua organização.
 
 - Se você tiver [o Microsoft defender para Office 365](office-365-atp.md) plano 2, você terá o Explorer.
 - Se você tiver o Microsoft defender para Office 365 plano 1, você terá detecções em tempo real.

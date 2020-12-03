@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade da experiência do Microsoft 365 aplicativos Health-Technology.
-ms.openlocfilehash: c38f2109ed41377cfccb9838c95dbfbebbfd322a
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: a84e919ce01775b8791ed7a1992464e4f52c7234
+ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123506"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49562938"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Integridade de aplicativos da Microsoft 365 – experiências tecnológicas
 
-Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com métricas sobre como as pessoas usam o Microsoft 365 aplicativos e as experiências de tecnologia de suporte. A pontuação reflete o desempenho da sua organização&#39;s para categorias de pessoas e experiência tecnológica e compara sua pontuação com organizações como a sua. A categoria de integridade do aplicativo faz parte das medidas que se enquadram em experiências tecnológicas. Confira a [visão geral da Pontuação de produtividade](productivity-score.md) para saber mais.
+A pontuação de produtividade fornece informações sobre a jornada de transformação digital da sua organização por meio do uso do Microsoft 365 e das experiências tecnológicas que dão suporte a ela. A pontuação da sua organização reflete medidas de experiência de pessoas e tecnologia e pode ser comparada a benchmarks de organizações similares às suas. A categoria de integridade do aplicativo faz parte das medidas que se enquadram em experiências tecnológicas. Para saber mais, confira a [visão geral da Pontuação de produtividade](productivity-score.md) e leia a [declaração de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Por que sua organização&#39;a pontuação de integridade dos aplicativos Microsoft 365 é importante
 
@@ -101,11 +101,11 @@ Este gráfico mostra a linha de tendência dos dispositivos que executam versõe
 
 :::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Gráfico que Showa quantos dispositivos executam suporte e versões mais recentes de aplicativos ao longo do tempo.":::
 
-## <a name="people-in-your-organization"></a>Somente pessoas em sua organização
+## <a name="devices-in-your-organization"></a>Dispositivos em sua organização
 
 Esta seção ajuda você a atuar sobre as métricas nas quais você deseja se concentrar fornecendo informações relevantes a todas as métricas para experiências de tecnologia de integridade de aplicativos Microsoft 365.
 
-As seguintes colunas são apresentadas na tabela no nível do usuário:
+As seguintes colunas são apresentadas na tabela no nível de canal/versão:
 
 - **Canal** : canal atual de aplicativos do Microsoft 365 nos dispositivos.
 - **Status:**   Aplicativos da Microsoft 365 suporte ao estado dos dispositivos com base no canal e na versão atuais.
