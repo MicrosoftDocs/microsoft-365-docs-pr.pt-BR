@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Defina as permissões e funções de usuário do Microsoft Compliance Manager e configure o teste automatizado de ações. Gerenciar histórico de usuários e filtrar o modo de exibição do painel.
-ms.openlocfilehash: bcb75943df88578b30063d8e35877cb2e3e6250b
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 9a09e12457d39e2f4aab99d3bec68b77c1a3a975
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376552"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572390"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -72,7 +72,7 @@ Para definir permissões e atribuir funções de dentro do centro de conformidad
 
 8. Quando você terminar de atribuir usuários, selecione **concluído**, selecione **salvar** e **Fechar**.
 
-##### <a name="more-about-the-office-365-secruity--compliance-center"></a>Saiba mais sobre o centro de conformidade do Office 365 secruity &
+##### <a name="more-about-the-office-365-security--compliance-center"></a>Saiba mais sobre o centro de conformidade & segurança do Office 365
 
 Saiba mais sobre [permissões no centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Os administradores podem aprender a usar as marcas de quarentena para controlar o que os usuários podem fazer com as mensagens em quarentena.
-ms.openlocfilehash: e194aabf57a1a105f01d8d34815312d3c2fa153d
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 68f28e2dff3bdeada2685ef6806489f5e57f5daf
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357642"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572664"
 ---
 # <a name="quarantine-tags"></a>Marcas de quarentena
 
@@ -56,15 +56,13 @@ Se você não gostar das permissões padrão nos grupos de permissão predefinid
 
 Você cria e atribui as marcas de quarentena no centro de conformidade & segurança ou no PowerShell (PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio do Exchange Online; EOP PowerShell autônomo em organizações do EOP sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **marcas de quarentena** , abra <https://protection.office.com/quarantineTags> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Para exibir, criar, modificar ou remover marcas de quarentena, você precisa ser membro de um dos grupos de função a seguir:
-  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+- Para exibir, criar, modificar ou remover as marcas de quarentena, você precisa ser membro das funções de **Gerenciamento da organização** ou **administrador de segurança** no centro de conformidade de & de [segurança](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>Etapa 1: criar marcas de quarentena no centro de conformidade e segurança &
 
@@ -131,13 +129,13 @@ A ordem e os valores necessários para cada permissão individual em grupos de p
 
 |Permissão|Sem acesso|Acesso limitado|Acesso completo|
 |---|:---:|:---:|:---:|
-|PermissionToAllowSender|,0|,0|1|
-|PermissionToBlockSender|,0|1|1|
-|PermissionToDelete|,0|1|1|
+|PermissionToAllowSender|,0|,0|1 |
+|PermissionToBlockSender|,0|1 |1 |
+|PermissionToDelete|,0|1 |1 |
 |PermissionToDownload<sup>\*</sup>|,0|,0|,0|
-|PermissionToPreview|,0|1|1|
-|PermissionToRelease<sup>\*\*</sup>|,0|,0|1|
-|PermissionToRequestRelease<sup>\*\*</sup>|,0|1|,0|
+|PermissionToPreview|,0|1 |1 |
+|PermissionToRelease<sup>\*\*</sup>|,0|,0|1 |
+|PermissionToRequestRelease<sup>\*\*</sup>|,0|1 |,0|
 |PermissionToViewHeader<sup>\*</sup>|,0|,0|,0|
 |Valor binário|00000000|01101010|11101100|
 |Valor decimal a ser usado|,0|106|236|
@@ -455,7 +453,7 @@ Se a marca de quarentena atribuir as permissões de **acesso completo** (todas a
 
 - **Notificações de spam para o usuário final**: os seguintes botões estão disponíveis:
   - **Bloquear remetente**
-  - **Lançar**
+  - **Liberar**
   - **Examinar**
 
   ![Botões disponíveis na notificação de spam do usuário final, se a marca de quarentena fornecer permissões de acesso total ao usuário](../../media/quarantine-tags-esn-full-access.png)
@@ -491,7 +489,7 @@ A permissão **bloquear remetente** (_PermissionToBlockSender_) controla o acess
 
 Para obter mais informações sobre a lista de remetentes bloqueados, consulte [bloquear mensagens de alguém](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) e [usar o PowerShell do Exchange Online para configurar o conjunto de listas seguras em uma caixa de correio](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
-#### <a name="delete-permission"></a>Permissão de exclusão
+#### <a name="delete-permission"></a>Excluir permissão
 
 A permissão de **exclusão** (_PermissionToDelete_) controla a capacidade de os usuários excluírem suas mensagens (mensagens nas quais o usuário é um destinatário) da quarentena.
 

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis nas organizações com o Microsoft defender para Office 365.
-ms.openlocfilehash: 7665d0dc475909d04da209aa6c1cd6b12378f8a9
-ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+ms.openlocfilehash: ae8c87a0bfb7f975328d8283f0b62aa12c1d5e2b
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993383"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572400"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft defender para Office 365
 
@@ -35,8 +35,8 @@ Para obter informações sobre como configurar o mais limitado em políticas ant
 
 Os elementos básicos de uma política anti-phishing são:
 
-- **A política de anti-golpe** : especifica as proteções de phishing a serem habilitadas ou desabilitadas e as ações para aplicar as opções.
-- **A regra anti-Phish** : especifica a prioridade e os filtros de destinatário (com quem a política se aplica) para uma política de anti-phishing.
+- **A política de anti-golpe**: especifica as proteções de phishing a serem habilitadas ou desabilitadas e as ações para aplicar as opções.
+- **A regra anti-Phish**: especifica a prioridade e os filtros de destinatário (com quem a política se aplica) para uma política de anti-phishing.
 
 A diferença entre esses dois elementos não é óbvia quando você gerencia políticas anti-phishing no centro de conformidade & segurança:
 
@@ -49,28 +49,28 @@ No PowerShell do Exchange Online, você gerencia a política e a regra separadam
 Todas as organizações do Microsoft defender para Office 365 têm uma política anti-phishing interna chamada Office365 antiphishing default que tem estas propriedades:
 
 - A política é aplicada a todos os destinatários na organização, mesmo que não haja uma regra de anti-phishing (filtros de destinatário) associada à política.
-- A política tem o valor de prioridade personalizado **Menor** , que não pode ser modificado (a política é sempre aplicada por último). As políticas personalizadas que você cria, sempre têm uma prioridade mais alta.
+- A política tem o valor de prioridade personalizado **Menor**, que não pode ser modificado (a política é sempre aplicada por último). As políticas personalizadas que você cria, sempre têm uma prioridade mais alta.
 - A política é a padrão (a propriedade **IsDefault** tem o valor `True`), e não é possível excluir a política padrão.
 
 Para aumentar a eficácia da proteção contra phishing no Microsoft defender para Office 365, você pode criar políticas anti-phishing personalizadas com configurações mais rigorosas que são aplicadas a usuários ou grupos de usuários específicos.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **anti-phishing do ATP** , use <https://protection.office.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa receber permissões antes de executar os procedimentos deste artigo:
+- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+  - Para adicionar, modificar e excluir políticas anti-phishing, você precisa ser membro dos grupos de função de gerenciamento da **organização** ou de **administrador de segurança** .
+  - Para acesso somente leitura às políticas anti-phishing, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** <sup>\*</sup> .
 
-  - Para adicionar, modificar e excluir políticas anti-phishing, você precisa ser membro de um dos grupos de função a seguir:
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Observações**:
 
-  - Para acesso somente leitura às políticas anti-phishing, você precisa ser membro de um dos grupos de função a seguir:
-
-    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso <sup>\*</sup> .
+  - <sup>\*</sup> No centro de conformidade & segurança, o acesso somente leitura permite que os usuários exibam as configurações de políticas anti-phishing personalizadas. Somente leitura os usuários não podem ver as configurações na política anti-phishing padrão.
 
 - Para nossas configurações recomendadas para políticas anti-phishing no Microsoft defender para Office 365, consulte [anti-phishing Policy in defender for office 365 Settings](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365).
 
@@ -90,21 +90,21 @@ Ao criar uma política anti-phishing, você só poderá especificar o nome da po
 
 3. O assistente para **criar uma nova política** de anti-phishing é aberto. Na página **nomear sua política** , defina as seguintes configurações:
 
-   - **Nome** : insira um nome exclusivo e descritivo para a política.
+   - **Nome**: insira um nome exclusivo e descritivo para a política.
 
-   - **Descrição** : digite uma descrição opcional para a política.
+   - **Descrição**: digite uma descrição opcional para a política.
 
    Quando terminar, clique em **Avançar**.
 
 4. Na página **aplicado a** que aparece, identifique os destinatários internos aos quais a política se aplica.
 
-   Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_ ). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_ ).
+   Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
-   Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se** :
+   Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se**:
 
-   - **O destinatário é** : especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
-   - **O destinatário é um membro de** : especifica um ou mais grupos na sua organização.
-   - **O domínio do destinatário é** : especifica destinatários em um ou mais dos domínios aceitos configurados na organização.
+   - **O destinatário é**: especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
+   - **O destinatário é um membro de**: especifica um ou mais grupos na sua organização.
+   - **O domínio do destinatário é**: especifica destinatários em um ou mais dos domínios aceitos configurados na organização.
 
    Após selecionar a condição, uma lista suspensa correspondente aparecerá com uma **destas** caixas.
 
@@ -142,7 +142,7 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
    - Depois de clicar em **Editar** em uma seção, as configurações disponíveis são apresentadas em um formato de assistente, mas você pode saltar dentro das páginas em qualquer ordem, e você pode clicar em **salvar** em qualquer página (ou **Cancelar** ou **fechar** ![ o ícone fechar ](../../media/scc-remove-icon.png) para retornar à página **editar sua política \<name\>** (não é necessário visitar a última página do assistente para salvar ou sair).
 
-4. **Configuração de política** : clique em **Editar** para modificar as mesmas configurações que estavam disponíveis quando você [criou a política](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) na seção anterior:
+4. **Configuração de política**: clique em **Editar** para modificar as mesmas configurações que estavam disponíveis quando você [criou a política](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) na seção anterior:
 
    - **Nome**
    - **Descrição**
@@ -151,19 +151,19 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
    Quando tiver terminado, clique em **salvar** em qualquer página.
 
-5. **Representação** : clique em **Editar** para modificar os remetentes protegidos e os domínios protegidos na política. Essas configurações são uma condição para a política que identifica remetentes falsificados a serem procurados (individualmente ou por domínio) no endereço de das mensagens de entrada. Para obter mais informações, consulte [configurações de representação em políticas anti-phishing no Microsoft defender para Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
+5. **Representação**: clique em **Editar** para modificar os remetentes protegidos e os domínios protegidos na política. Essas configurações são uma condição para a política que identifica remetentes falsificados a serem procurados (individualmente ou por domínio) no endereço de das mensagens de entrada. Para obter mais informações, consulte [configurações de representação em políticas anti-phishing no Microsoft defender para Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
-   - **Adicionar usuários para proteger** : o valor padrão é **desativado**. Para ativá-la, deslize o botão de alternância para **ativado** e, em seguida, clique no botão **Adicionar usuário** que aparece.
+   - **Adicionar usuários para proteger**: o valor padrão é **desativado**. Para ativá-la, deslize o botão de alternância para **ativado** e, em seguida, clique no botão **Adicionar usuário** que aparece.
 
      No submenu **Adicionar usuário** exibido, configure os seguintes valores:
 
-     - **Endereço de email** :
+     - **Endereço de email**:
 
        - Clique na caixa e role pela lista de usuários para selecionar.
        - Clique na caixa e comece a digitar para filtrar a lista e selecione um usuário.
        - Para remover uma entrada, clique em **remover** ![ ícone ](../../media/scc-remove-icon.png) de remoção no usuário.
 
-     - **Nome** : esse valor é preenchido com base no endereço de email selecionado, mas você pode alterá-lo.
+     - **Nome**: esse valor é preenchido com base no endereço de email selecionado, mas você pode alterá-lo.
 
      Quando tiver terminado, clique em **salvar** em qualquer página.
 
@@ -175,17 +175,17 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
      >
      > - A proteção de representação do usuário não funciona se o remetente e o destinatário tiverem sido comunicados anteriormente por email. Se o remetente e o destinatário nunca tiverem sido comunicados por email, a mensagem será identificada como uma tentativa de representação.
 
-   - **Adicionar domínios para proteger** : Configure uma ou ambas as configurações a seguir:
+   - **Adicionar domínios para proteger**: Configure uma ou ambas as configurações a seguir:
 
      - **Incluir automaticamente os domínios que** possuo: o valor padrão é **desativado**. Para ativá-la, deslize o botão para **Ativar.**
-     - **Incluir domínios personalizados** : o valor padrão é **desativado**. Para ativá-la, deslize o **botão para ativar e,** na caixa **adicionar domínios** , digite o nome do domínio (por exemplo, contoso.com), pressione Enter e repita conforme necessário.
+     - **Incluir domínios personalizados**: o valor padrão é **desativado**. Para ativá-la, deslize o **botão para ativar e,** na caixa **adicionar domínios** , digite o nome do domínio (por exemplo, contoso.com), pressione Enter e repita conforme necessário.
 
      > [!NOTE]
      > Você pode ter no máximo 50 domínios em todas as políticas anti-phishing.
 
-   - **Ações** : clique em **Editar**
+   - **Ações**: clique em **Editar**
 
-     - **Se o email for enviado por um usuário representado** : Configure uma das ações a seguir para mensagens em que o remetente falsificado é um dos usuários protegidos que você especificou em **Adicionar usuários para proteger** :
+     - **Se o email for enviado por um usuário representado**: Configure uma das ações a seguir para mensagens em que o remetente falsificado é um dos usuários protegidos que você especificou em **Adicionar usuários para proteger**:
 
        - **Não aplicar nenhuma ação**
        - **Redirecionar mensagem para outros endereços de email**
@@ -194,7 +194,7 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
        - **Entregar a mensagem e adicionar outros endereços à linha Cco**
        - **Excluir a mensagem antes de ser entregue**
 
-     - **Se o email for enviado por um domínio representado** : Configure uma das ações a seguir para mensagens em que o remetente falsificado está em um dos domínios protegidos que você especificou em **adicionar domínios para proteger** :
+     - **Se o email for enviado por um domínio representado**: Configure uma das ações a seguir para mensagens em que o remetente falsificado está em um dos domínios protegidos que você especificou em **adicionar domínios para proteger**:
 
        - **Não aplicar nenhuma ação**
        - **Redirecionar mensagem para outros endereços de email**
@@ -205,19 +205,19 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
    - Clique em **Ativar dicas de segurança de representação** e configure qualquer uma das seguintes configurações:
 
-     - **Mostrar dica para usuários representados** : o valor padrão é **desativado**. Para ativá-la, deslize o botão para **Ativar.**
-     - **Mostrar dica para domínios representados** : o valor padrão é **desativado**. Para ativá-la, deslize o botão para **Ativar.**
-     - **Mostrar dica para caracteres incomuns** : o valor padrão está **desativado**. Para ativá-la, deslize o botão para **Ativar.**
+     - **Mostrar dica para usuários representados**: o valor padrão é **desativado**. Para ativá-la, deslize o botão para **Ativar.**
+     - **Mostrar dica para domínios representados**: o valor padrão é **desativado**. Para ativá-la, deslize o botão para **Ativar.**
+     - **Mostrar dica para caracteres incomuns**: o valor padrão está **desativado**. Para ativá-la, deslize o botão para **Ativar.**
 
      Quando concluir, clique em **Salvar**.
 
-   - **Inteligência de caixa de correio** :
+   - **Inteligência de caixa de correio**:
 
-     - **Habilitar o Mailbox Intelligence?** : o valor padrão é **ativado**. Para desativá-la, deslize o botão de alternância para **desativado**.
+     - **Habilitar o Mailbox Intelligence?**: o valor padrão é **ativado**. Para desativá-la, deslize o botão de alternância para **desativado**.
 
-     - **Habilitar proteção de representação baseada em inteligência de caixa de correio?** : essa configuração só estará disponível se **habilitar inteligência de caixa de correio?** estiver **ativado**.
+     - **Habilitar proteção de representação baseada em inteligência de caixa de correio?**: essa configuração só estará disponível se **habilitar inteligência de caixa de correio?** estiver **ativado**.
 
-       Em **se o email for enviado por um usuário representado** , você poderá especificar uma das ações a seguir para executar as mensagens que falham na inteligência de caixa de correio (as mesmas ações que estão disponíveis para usuários protegidos e domínios protegidos):
+       Em **se o email for enviado por um usuário representado**, você poderá especificar uma das ações a seguir para executar as mensagens que falham na inteligência de caixa de correio (as mesmas ações que estão disponíveis para usuários protegidos e domínios protegidos):
 
        - **Não aplicar nenhuma ação**
        - **Redirecionar mensagem para outros endereços de email**
@@ -226,17 +226,17 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
        - **Entregar a mensagem e adicionar outros endereços à linha Cco**
        - **Excluir a mensagem antes de ser entregue**
 
-   - **Adicionar remetentes e domínios confiáveis** : especifique exceções para a política:
+   - **Adicionar remetentes e domínios confiáveis**: especifique exceções para a política:
 
-     - **Remetentes confiáveis** :
+     - **Remetentes confiáveis**:
 
        - Clique na caixa e role pela lista de usuários para selecionar.
        - Clique na caixa e comece a digitar para filtrar a lista e selecione um usuário.
        - Para remover uma entrada, clique em **remover** ![ ícone ](../../media/scc-remove-icon.png) de remoção no usuário.
 
-     - **Domínios confiáveis** : Insira o nome do domínio (por exemplo, contoso.com), pressione Enter e repita conforme necessário.
+     - **Domínios confiáveis**: Insira o nome do domínio (por exemplo, contoso.com), pressione Enter e repita conforme necessário.
 
-   - **Revise suas configurações** : em vez de clicar em cada etapa individual, as configurações são exibidas em um resumo.
+   - **Revise suas configurações**: em vez de clicar em cada etapa individual, as configurações são exibidas em um resumo.
 
      - Você pode clicar em **Editar** em cada seção para saltar de volta para a página relevante.
      - Você pode ativar ou **desativar** as **seguintes** configurações diretamente nesta página:
@@ -248,25 +248,25 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
    Quando tiver terminado, clique em **salvar** em qualquer página.
 
-6. **Spoof** : clique em **Editar** para ativar ou desativar a inteligência de falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e configurar a ação a ser aplicada às mensagens de remetentes falsificados bloqueados. Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
+6. **Spoof**: clique em **Editar** para ativar ou desativar a inteligência de falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e configurar a ação a ser aplicada às mensagens de remetentes falsificados bloqueados. Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
 
    Observe que essas mesmas configurações também estão disponíveis em políticas anti-phishing no EOP.
 
-   - **Falsificação de configurações de filtro** : o valor padrão é **ativado** e recomendamos que você o deixe ligado. Para desativá-la, deslize o botão de alternância para **desativado**. Para obter mais informações, consulte [Configure spoof Intelligence in EOP](learn-about-spoof-intelligence.md).
+   - **Falsificação de configurações de filtro**: o valor padrão é **ativado** e recomendamos que você o deixe ligado. Para desativá-la, deslize o botão de alternância para **desativado**. Para obter mais informações, consulte [Configure spoof Intelligence in EOP](learn-about-spoof-intelligence.md).
 
      > [!NOTE]
      > Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Microsoft 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-   - **Habilitar o recurso de remetente não autenticado** : o valor padrão é **ativado**. Para desativá-la, deslize o botão de alternância para **desativado**.
+   - **Habilitar o recurso de remetente não autenticado**: o valor padrão é **ativado**. Para desativá-la, deslize o botão de alternância para **desativado**.
 
-   - **Ações** : Especifique a ação a ser executada em mensagens que falham na inteligência de spoof:
+   - **Ações**: Especifique a ação a ser executada em mensagens que falham na inteligência de spoof:
 
-     **Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio** :
+     **Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio**:
 
      - **Mover mensagem para pastas de lixo eletrônico dos destinatários**
      - **Colocar a mensagem em quarentena**
 
-   - **Revise suas configurações** : em vez de clicar em cada etapa individual, as configurações são exibidas em um resumo.
+   - **Revise suas configurações**: em vez de clicar em cada etapa individual, as configurações são exibidas em um resumo.
 
      - Você pode clicar em **Editar** em cada seção para saltar de volta para a página relevante.
      - Você pode ativar ou **desativar** as **seguintes** configurações diretamente nesta página:
@@ -275,16 +275,16 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
    Quando tiver terminado, clique em **salvar** em qualquer página.
 
-7. **Configurações avançadas** : clique em **Editar** para configurar os limites avançados de phishing. Para obter mais informações, consulte [limites avançados de phishing em políticas anti-phishing no Microsoft defender para Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
+7. **Configurações avançadas**: clique em **Editar** para configurar os limites avançados de phishing. Para obter mais informações, consulte [limites avançados de phishing em políticas anti-phishing no Microsoft defender para Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
-   - **Limites de phishing avançados** : selecione um dos seguintes valores:
+   - **Limites de phishing avançados**: selecione um dos seguintes valores:
 
    - **1-padrão** (este é o valor padrão).
    - **2-agressivo**
    - **3-mais agressivo**
    - **4-mais agressivo**
 
-   - **Revise suas configurações** : clique em **Editar** para voltar para a página de **limiares de phishing avançados** .
+   - **Revise suas configurações**: clique em **Editar** para voltar para a página de **limiares de phishing avançados** .
 
    Quando tiver terminado, clique em **salvar** em qualquer uma das páginas.
 
@@ -332,7 +332,7 @@ Para obter mais informações sobre a ordem de precedência e como várias polí
 
 Políticas anti-phishing personalizadas são exibidas na ordem em que são processadas (a primeira política tem o valor de **prioridade** 0). A política anti-phishing padrão chamada do Office365 antiphish padrão tem o valor de prioridade personalizado **mais baixo** e não pode ser alterada.
 
- **Observação** : no centro de conformidade & segurança, você só pode alterar a prioridade da política anti-phishing após criá-la. No PowerShell, você pode substituir a prioridade padrão ao criar a regra anti-Phish (que pode afetar a prioridade das regras existentes).
+ **Observação**: no centro de conformidade & segurança, você só pode alterar a prioridade da política anti-phishing após criá-la. No PowerShell, você pode substituir a prioridade padrão ao criar a regra anti-Phish (que pode afetar a prioridade das regras existentes).
 
 Para alterar a prioridade de uma política, clique em **aumentar** a prioridade ou **diminuir a prioridade** nas propriedades da política (não é possível modificar diretamente o número de **prioridade** no centro de conformidade do & de segurança). Alterar a prioridade de uma política faz sentido se você tiver várias políticas.
 
@@ -344,7 +344,7 @@ Para alterar a prioridade de uma política, clique em **aumentar** a prioridade 
 
    - A política anti-phishing personalizada com o valor de **prioridade** **0** tem apenas o botão **diminuir prioridade** disponível.
 
-   - A política anti-phishing personalizada com o menor valor de **prioridade** (por exemplo, **3** ) tem apenas o botão **aumentar prioridade** disponível.
+   - A política anti-phishing personalizada com o menor valor de **prioridade** (por exemplo, **3**) tem apenas o botão **aumentar prioridade** disponível.
 
    - Se você tiver três ou mais políticas anti-phishing personalizadas, as políticas entre os valores de prioridade mais alta e mais baixa terão os botões **aumentar prioridade** e **diminuir prioridade** disponíveis.
 
@@ -391,14 +391,14 @@ A criação de uma política anti-phishing no PowerShell é um processo de duas 
 1. Criar a política de anti-phishing.
 2. Crie a regra anti-Phish que especifica a política de anti-phishing à qual a regra se aplica.
 
- **Observações** :
+ **Observações**:
 
 - Você pode criar uma nova regra anti-phishing e atribuir uma política anti-phishing existente e não associada a ela. Uma regra anti-Phish não pode ser associada a mais de uma política de phishing.
 
 - Você pode definir as seguintes configurações em novas políticas anti-phishing no PowerShell que não estão disponíveis no centro de conformidade & de segurança até que a política seja criada:
 
-  - Crie a nova política como desabilitada ( _habilitada_ `$false` no cmdlet **New-AntiPhishRule** ).
-  - Definir a prioridade da política durante a criação ( _prioridade_ _\<Number\>_ ) no cmdlet **New-AntiPhishRule** ).
+  - Crie a nova política como desabilitada (_habilitada_ `$false` no cmdlet **New-AntiPhishRule** ).
+  - Definir a prioridade da política durante a criação (_prioridade_ _\<Number\>_ ) no cmdlet **New-AntiPhishRule** ).
 
 - Uma nova política de Phish que você cria no PowerShell não fica visível no centro de conformidade & segurança até que você atribua a política a uma regra anti-phishing.
 
@@ -570,7 +570,7 @@ Este exemplo define a prioridade da regra chamada Marketing Department como 2. T
 Set-AntiPhishRule -Identity "Marketing Department" -Priority 2
 ```
 
-**Observações** :
+**Observações**:
 
 - Para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Priority_ no cmdlet **New-AntiPhishRule** .
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca0bfb7ba91f86fee187cfe3445c0dd6c8d4ad56
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a14f5a22795fc08b76165466d8e44ee38d8a2d81
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845487"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572628"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas de anexos seguros no Microsoft defender para Office 365
 
@@ -39,8 +39,8 @@ Você pode configurar políticas de anexos seguros no centro de conformidade do 
 
 Os elementos básicos de uma política de anexos seguros são:
 
-- **A política de anexo seguro** : especifica as ações para detecções de malware desconhecidas, se enviar mensagens com anexos de malware para um endereço de email especificado e se deseja entregar mensagens caso a verificação de anexos seguros não possa ser concluída.
-- **A regra de anexo seguro** : especifica a prioridade e os filtros de destinatário (a qual a política se aplica).
+- **A política de anexo seguro**: especifica as ações para detecções de malware desconhecidas, se enviar mensagens com anexos de malware para um endereço de email especificado e se deseja entregar mensagens caso a verificação de anexos seguros não possa ser concluída.
+- **A regra de anexo seguro**: especifica a prioridade e os filtros de destinatário (a qual a política se aplica).
 
 A diferença entre esses dois elementos não é óbvia quando você gerencia políticas de anexos seguros no centro de conformidade de & de segurança:
 
@@ -59,10 +59,16 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Para exibir, criar, modificar e excluir políticas de anexos seguros, você precisa ser membro de um dos grupos de função a seguir:
+- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+  - Para criar, modificar e excluir políticas de anexos seguros, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** .
+  - Para acesso somente leitura a políticas de anexos seguros, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
-  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+
+  **Observações**:
+
+  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para obter as configurações recomendadas para políticas de anexos seguros, consulte [configurações de anexos seguros](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings).
 
@@ -78,41 +84,41 @@ A criação de uma política de anexos seguros personalizada no centro de confor
 
 3. O assistente de **nova política de anexos seguros** é aberto. Na página **nomear sua política** , defina as seguintes configurações:
 
-   - **Nome** : insira um nome exclusivo e descritivo para a política.
+   - **Nome**: insira um nome exclusivo e descritivo para a política.
 
-   - **Descrição** : digite uma descrição opcional para a política.
+   - **Descrição**: digite uma descrição opcional para a política.
 
    Quando terminar, clique em **Avançar**.
 
 4. Na página **configurações** que aparece, defina as seguintes configurações:
 
-   - **Resposta de malware desconhecido de anexos seguros** : selecione um dos seguintes valores:
+   - **Resposta de malware desconhecido de anexos seguros**: selecione um dos seguintes valores:
 
-     - **Off** : normalmente não é recomendável esse valor.
+     - **Off**: normalmente não é recomendável esse valor.
      - **Monitorar**
-     - **Bloquear** : Este é o valor padrão e o valor recomendado em políticas de segurança padrão e estritas [predefinidas](preset-security-policies.md).
+     - **Bloquear**: Este é o valor padrão e o valor recomendado em políticas de segurança padrão e estritas [predefinidas](preset-security-policies.md).
      - **Replace**
      - **Entrega dinâmica (recurso de visualização)**
 
      Esses valores são explicados em [configurações de política de anexos seguros](atp-safe-attachments.md#safe-attachments-policy-settings).
 
-   - **Envie o anexo para o seguinte endereço de email** : para os valores de ação **Bloquear** , **monitorar** ou **substituir** , você pode selecionar **habilitar redirecionamento** para enviar mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.
+   - **Envie o anexo para o seguinte endereço de email**: para os valores de ação **Bloquear**, **monitorar** ou **substituir**, você pode selecionar **habilitar redirecionamento** para enviar mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.
 
      A recomendação para as configurações de política padrão e estrita é habilitar o redirecionamento. Para obter mais informações, consulte [configurações de anexos seguros](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings).
 
-   - **Aplicar a seleção acima se a verificação de malware para anexos expirar ou ocorrer erro** : a ação especificada por **anexos seguros a resposta desconhecida** é tomada em mensagens, mesmo quando a verificação de anexos seguros não pode ser concluída. Sempre Selecione esta opção se você selecionar **redirecionamento habilitado**. Caso contrário, as mensagens poderão ser perdidas.
+   - **Aplicar a seleção acima se a verificação de malware para anexos expirar ou ocorrer erro**: a ação especificada por **anexos seguros a resposta desconhecida** é tomada em mensagens, mesmo quando a verificação de anexos seguros não pode ser concluída. Sempre Selecione esta opção se você selecionar **redirecionamento habilitado**. Caso contrário, as mensagens poderão ser perdidas.
 
    Quando terminar, clique em **Avançar**.
 
 5. Na página **aplicado a** que aparece, identifique os destinatários internos aos quais a política se aplica.
 
-   Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_ ). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_ ).
+   Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
-   Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se** :
+   Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se**:
 
-   - **O destinatário é** : especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
-   - **O destinatário é um membro de** : especifica um ou mais grupos na sua organização.
-   - **O domínio do destinatário é** : Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização. 
+   - **O destinatário é**: especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
+   - **O destinatário é um membro de**: especifica um ou mais grupos na sua organização.
+   - **O domínio do destinatário é**: Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização. 
 
    Após selecionar a condição, uma lista suspensa correspondente aparecerá com uma **destas** caixas.
 
@@ -170,7 +176,7 @@ Para obter mais informações sobre a ordem de precedência e como várias polí
 
 As políticas de anexos seguros são exibidas na ordem em que são processadas (a primeira política tem o valor de **prioridade** 0).
 
-**Observação** : no centro de conformidade & segurança, você só pode alterar a prioridade da política de anexos seguros após criá-la. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de anexo seguro (que pode afetar a prioridade das regras existentes).
+**Observação**: no centro de conformidade & segurança, você só pode alterar a prioridade da política de anexos seguros após criá-la. No PowerShell, você pode substituir a prioridade padrão ao criar a regra de anexo seguro (que pode afetar a prioridade das regras existentes).
 
 Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
 
@@ -182,7 +188,7 @@ Para alterar a prioridade de uma política, mova a política para cima ou para b
 
    - A política de anexos seguros com o valor de **prioridade** **0** tem apenas o botão **diminuir prioridade** disponível.
 
-   - A política de anexos seguros com o menor valor de **prioridade** (por exemplo, **3** ) tem apenas o botão **aumentar prioridade** disponível.
+   - A política de anexos seguros com o menor valor de **prioridade** (por exemplo, **3**) tem apenas o botão **aumentar prioridade** disponível.
 
    - Se você tiver três ou mais políticas de anexos confiáveis, as políticas entre os valores de prioridade mais alta e mais baixa terão os botões **aumentar prioridade** e **diminuir prioridade** disponíveis.
 
@@ -215,13 +221,13 @@ A criação de uma política de anexos seguros no PowerShell é um processo de d
 1. Criar a política de anexo seguro.
 2. Crie a regra de anexo seguro que especifica a política de anexo seguro à qual a regra se aplica.
 
- **Observações** :
+ **Observações**:
 
 - Você pode criar uma nova regra de anexo seguro e atribuir uma política de anexo segura existente e não associada a ela. Uma regra de anexo seguro não pode ser associada a mais de uma política de anexo seguro.
 
 - Você pode definir as seguintes configurações em novas políticas de anexo seguro no PowerShell que não estão disponíveis no centro de conformidade & de segurança até que a política seja criada:
-  - Crie a nova política como desabilitada ( _habilitada_ `$false` no cmdlet **New-SafeAttachmentRule** ).
-  - Definir a prioridade da política durante a criação ( _prioridade_ _\<Number\>_ ) no cmdlet **New-SafeAttachmentRule** ).
+  - Crie a nova política como desabilitada (_habilitada_ `$false` no cmdlet **New-SafeAttachmentRule** ).
+  - Definir a prioridade da política durante a criação (_prioridade_ _\<Number\>_ ) no cmdlet **New-SafeAttachmentRule** ).
 
 - Uma nova política de anexo segura que você cria no PowerShell não fica visível no centro de conformidade & segurança até que você atribua a política a uma regra de anexo seguro.
 
@@ -388,7 +394,7 @@ Este exemplo define a prioridade da regra chamada Marketing Department como 2. T
 Set-SafeAttachmentRule -Identity "Marketing Department" -Priority 2
 ```
 
-**Observação** : para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Priority_ no cmdlet **New-SafeAttachmentRule** .
+**Observação**: para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Priority_ no cmdlet **New-SafeAttachmentRule** .
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [set-SafeAttachmentRule](https://docs.microsoft.com/powershell/module/exchange/set-safeattachmentrule).
 

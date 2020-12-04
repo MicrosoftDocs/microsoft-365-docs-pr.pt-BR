@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a configurar entradas de URL na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: eb9dcc5b239aae1366a0a2e0eebd68b3f0082e6b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1aae54ffd6026a7fc131017a10f9676d96be9b69
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202334"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572629"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na Lista de Permissões/Bloqueios de Locatários
 
@@ -52,23 +52,22 @@ Este tópico descreve como configurar entradas na lista de permissões/bloqueios
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+  - Para adicionar e remover valores da lista de permissões/bloqueios de locatário, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** .
+  - Para acesso somente leitura à lista de permissões/bloqueios de locatário, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
-  - Para adicionar e remover valores da lista de permissões/bloqueios de locatário, você precisa ser membro de um dos seguintes grupos de função:
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Observações**:
 
-  - Para acesso somente leitura à lista de permissões/bloqueios de locatário, você precisa ser membro de um dos seguintes grupos de função:
-
-    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para criar entradas de URL na lista de permissões/bloqueios de locatários
 
 Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da URL da seção [lista de permissões/bloqueios de locatário](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste tópico.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Na página **lista de permissões/bloqueios de locatários** , verifique se a guia **URLs** está selecionada e clique em **Adicionar**
 
@@ -92,7 +91,7 @@ Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da U
 
 ## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para exibir entradas na lista de permissões/bloqueios de locatários
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Selecione a guia **URLs** .
 
@@ -120,13 +119,13 @@ Clique em **filtro**. No submenu de **filtro** que aparece, configure qualquer u
 
 Quando tiver concluído, clique em **aplicar**.
 
-Para limpar filtros existentes, clique em **Filtrar**e, no submenu de **filtro** que aparece, clique em **limpar filtros**.
+Para limpar filtros existentes, clique em **Filtrar** e, no submenu de **filtro** que aparece, clique em **limpar filtros**.
 
 ## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para modificar as entradas na lista de permissões/bloqueios de locatários
 
 Você não pode modificar o próprio valor de URL. Em vez disso, você precisa excluir a entrada e recriá-la.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Selecione a guia **URLs** .
 
@@ -150,7 +149,7 @@ Você não pode modificar o próprio valor de URL. Em vez disso, você precisa e
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para remover entradas da lista de permissões/bloqueios de locatários
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Selecione a guia **URLs** .
 
