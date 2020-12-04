@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a configurar a filtragem de conexão na proteção do Exchange Online (EOP) para permitir ou bloquear emails de servidores de email.
-ms.openlocfilehash: 95e178e34c944c13cd99e4d4a0e9f30ed083842c
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: a2a755516f029f5d72016e9ea8fcb87a997d5065
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318247"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572820"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem da conexão
 
@@ -43,23 +43,22 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 > [!NOTE]
 > A lista de IPs permitidos, a lista segura e a lista de IPs bloqueados são uma parte de sua estratégia geral para permitir ou bloquear emails em sua organização. Para obter mais informações, consulte [criar listas de remetentes confiáveis](create-safe-sender-lists-in-office-365.md) e [criar listas de remetentes bloqueados](create-block-sender-lists-in-office-365.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+  - Para modificar a política de filtro de conexão padrão, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** .
+  - Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
-  - Para modificar a política de filtro de conexão padrão, você precisa ser membro de um dos seguintes grupos de função:
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Observações**:
 
-  - Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro de um dos seguintes grupos de função:
-
-    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para localizar os endereços IP de origem dos servidores de email (remetentes) que você deseja permitir ou bloquear, você pode verificar o campo de cabeçalho IP de conexão (**CIP**) no cabeçalho da mensagem. Para exibir um cabeçalho de mensagem em vários clientes de email, confira [exibir cabeçalhos de mensagens da Internet no Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c).
 
@@ -69,7 +68,7 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
 ## <a name="use-the-security--compliance-center-to-modify-the-default-connection-filter-policy"></a>Usar o centro de conformidade de & de segurança para modificar a política de filtro de conexão padrão
 
-1. No centro de conformidade & segurança e vá para **Threat management** \> **Policy** \> **anti-spam**da política de gerenciamento de ameaças.
+1. No centro de conformidade & segurança e vá para **Threat management** \> **Policy** \> **anti-spam** da política de gerenciamento de ameaças.
 
 2. Na página **configurações antispam** , expanda política de **filtro de conexão** clicando em ![ expandir ícone ](../../media/scc-expand-icon.png) e, em seguida, clique em **Editar política**.
 
@@ -97,7 +96,7 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
 ## <a name="use-the-security--compliance-center-to-view-the-default-connection-filter-policy"></a>Usar o centro de conformidade de & de segurança para exibir a política de filtro de conexão padrão
 
-1. No centro de conformidade & segurança e vá para **Threat management** \> **Policy** \> **anti-spam**da política de gerenciamento de ameaças.
+1. No centro de conformidade & segurança e vá para **Threat management** \> **Policy** \> **anti-spam** da política de gerenciamento de ameaças.
 
 2. Na página **configurações antispam** , clique na lista suspensa ao lado da política padrão chamada **diretiva de filtro de conexão**.
 

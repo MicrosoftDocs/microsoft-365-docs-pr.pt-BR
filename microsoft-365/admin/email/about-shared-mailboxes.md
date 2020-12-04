@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: d0e0888a71e2a017b3934caa67f8d53ffb787fe7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: cc94ae30edcc7a8307328230989dc4a883732b0e
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445694"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568289"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 
@@ -42,7 +42,7 @@ Antes [de criar uma caixa de correio compartilhada](create-a-shared-mailbox.md),
 
 - **Usuários externos:** Você não pode permitir que pessoas de fora da sua empresa (como pessoas com uma conta do Gmail) acessem sua caixa de correio compartilhada. Se quiser fazer isso, crie um grupo do Outlook. Para saber mais, confira [criar um grupo do Microsoft 365 no centro de administração](../create-groups/create-groups.md).
 
--  **Use com o Outlook:** Além de usar o Outlook na Web do seu navegador para acessar caixas de correio compartilhadas, você também pode usar o aplicativo Outlook para iOS ou o aplicativo Outlook para Android. Para saber mais, confira <a href="https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook Mobile</a>. Outra opção é criar um grupo para sua caixa de correio compartilhada. Para saber mais, confira [comparar grupos](../create-groups/compare-groups.md).  
+- **Use com o Outlook:** Além de usar o Outlook na Web do seu navegador para acessar caixas de correio compartilhadas, você também pode usar o aplicativo Outlook para iOS ou o aplicativo Outlook para Android. Para saber mais, confira [Adicionar uma caixa de correio compartilhada ao Outlook Mobile](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f). Outra opção é criar um grupo para sua caixa de correio compartilhada. Para saber mais, confira [comparar grupos](../create-groups/compare-groups.md).
 
 - **Criptografia:** Você não pode criptografar emails enviados de uma caixa de correio compartilhada. Isso ocorre porque uma caixa de correio compartilhada não tem seu próprio contexto de segurança (nome de usuário/senha), portanto, não pode ser atribuída a uma chave. Se mais de uma pessoa for um membro e elas enviarem/receberem emails criptografados com suas próprias chaves, outros membros poderão ler o email e outras podem não, dependendo de qual chave pública o email foi criptografado.
 

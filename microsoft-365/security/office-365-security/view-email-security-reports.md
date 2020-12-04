@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 038f310d8690652a3aefb2eab5ac01f76986d210
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 1ab78f17cd5689f9110227762c149d3691433179
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357930"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572556"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -122,7 +122,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
   - **Modelo de criptografia**
   - **Método de criptografia**
   - **Endereço do destinatário**
-  - **Assunto**
+  - **Subject**
 
 - **Exibir dados por: cinco domínios principais de destinatários**:
 
@@ -166,7 +166,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 - **Endereço do remetente**.
 - **Endereço do destinatário**
 - **ID da mensagem**: disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem e deve ser exclusivo. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
-- **Assunto**
+- **Subject**
 - **Filename**
 - **Nome do malware**
 
@@ -229,7 +229,7 @@ Se você clicar em **Exibir tabela de detalhes** em qualquer modo de exibição 
 - **Endereço do destinatário**
 - **Tipo de evento**
 - **Ação**
-- **Assunto**
+- **Subject**
 
 Se você clicar em **filtros** em uma tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -418,7 +418,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 - **Exibir dados por: substituição de mensagem**:
 
   - **Date**
-  - **Assunto**
+  - **Subject**
   - **Sender**
   - **Destinatários**
   - **Detectado por**
@@ -437,7 +437,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 - Todos os outros gráficos:
 
   - **Date**
-  - **Assunto**
+  - **Subject**
   - **Sender**
   - **Destinatários**
   - **Detectado por**
@@ -498,19 +498,16 @@ Para exibir esse relatório, no [centro de conformidade & segurança](https://pr
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Quais permissões são necessárias para exibir esses relatórios?
 
-Para exibir e usar os relatórios, você precisa ser membro do grupo de função especificado no centro de conformidade e segurança & **e** no Exchange Online.
+Para exibir e usar os relatórios descritos neste tópico, você precisa ser membro de um dos seguintes grupos de função no centro de conformidade de & de segurança:
 
-- No centro de conformidade & segurança, você precisa ser membro de um dos seguintes grupos de função:
+- **Organization Management**
+- **Administrador de segurança**
+- **Leitor de segurança**
+- **Leitor global**
 
-  – Gerenciamento de organização-administrador de segurança (você também pode fazer isso no [centro de administração do Azure Active Directory](https://aad.portal.azure.com) -leitor de segurança
+Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
-
-- No Exchange Online, você precisa ser membro de um dos grupos de função a seguir:
-
-  – Gerenciamento de organização – gerenciamento de organização somente de exibição-somente os destinatários do gerenciamento de conformidade
-
-Para obter mais informações, consulte [permissões no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo) e [gerenciar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
+**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não estiverem mostrando dados?
 

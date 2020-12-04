@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e Microsoft defender para Office 365
-ms.openlocfilehash: 38a03727f91878f356d8bc0dc618c711bfc500bb
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e968f7ea768ac8a0b402c28f3830a52b44afa342
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845727"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572772"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e Microsoft defender para Office 365
 
@@ -44,32 +44,32 @@ Além disso, a ordem de precedência é importante se várias diretivas de segur
 
 Um perfil determina o nível de proteção. Os seguintes perfis estão disponíveis:
 
-- **Proteção padrão** : um perfil de proteção de linha de base adequado para a maioria dos usuários.
-- **Proteção estrita** : um perfil de proteção mais agressivo para usuários selecionados (metas de alto valor ou usuários com prioridade).
+- **Proteção padrão**: um perfil de proteção de linha de base adequado para a maioria dos usuários.
+- **Proteção estrita**: um perfil de proteção mais agressivo para usuários selecionados (metas de alto valor ou usuários com prioridade).
 
 Você usa regras com condições e exceções que determinam a quem os perfis estão ou não são aplicados.
 
-Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_ ). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_ ).
+Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
 As condições e exceções disponíveis são:
 
-- **Os destinatários são** : caixas de correio, usuários de email ou contatos de email em sua organização.
-- **Os destinatários são membros de** : grupos na sua organização.
-- **Os domínios de destinatário são** : domínios aceitos que são configurados no Microsoft 365.
+- **Os destinatários são**: caixas de correio, usuários de email ou contatos de email em sua organização.
+- **Os destinatários são membros de**: grupos na sua organização.
+- **Os domínios de destinatário são**: domínios aceitos que são configurados no Microsoft 365.
 
 ### <a name="policies-in-preset-security-policies"></a>Políticas em políticas de segurança predefinidas
 
 As políticas de segurança predefinidas usam as políticas correspondentes dos vários recursos de proteção no EOP e do Microsoft defender para Office 365. Essas políticas são criadas _depois_ que você atribui as políticas de segurança predefinidas de **proteção padrão** ou **proteção estrita** aos usuários. Você não pode modificar essas políticas.
 
-- **Políticas de proteção do Exchange Online (EOP)** : isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
+- **Políticas de proteção do Exchange Online (EOP)**: isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
   
   - [Políticas antispam](configure-your-spam-filter-policies.md) chamadas política de **segurança predefinida padrão** e **política de segurança predefinida restrita**.
   - [Diretivas Antimalware](configure-anti-malware-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida restrita**.
   - [EOP políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings) chamadas política de **segurança** predefinida padrão e **política de segurança predefinida restrita** (configurações de spoof).
 
-- **Políticas do Microsoft defender para Office 365** : isso inclui organizações com as assinaturas do complemento Microsoft 365 E5 ou defender para Office 365:
+- **Políticas do Microsoft defender para Office 365**: isso inclui organizações com as assinaturas do complemento Microsoft 365 E5 ou defender para Office 365:
 
-  - Políticas anti-phishing no Microsoft defender para Office 365 chamada política de **segurança predefinida padrão** e **política de segurança predefinida estrita** , que incluem:
+  - Políticas anti-phishing no Microsoft defender para Office 365 chamada política de **segurança predefinida padrão** e **política de segurança predefinida estrita**, que incluem:
 
     - As mesmas [configurações de spoof](set-up-anti-phishing-policies.md#spoof-settings) que estão disponíveis nas políticas anti-phishing do EOP.
     - [Configurações de representação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
@@ -104,28 +104,21 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+- Você precisa receber permissões antes de executar os procedimentos deste artigo:
 
-  - Para configurar políticas de segurança predefinidas, você precisa ser membro de um dos grupos de função a seguir:
+  - Para configurar políticas de segurança predefinidas, você precisa ser membro das funções de **Gerenciamento da organização** ou **administrador de segurança** no centro de [conformidade de segurança &](permissions-in-the-security-and-compliance-center.md).
 
-    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
-
-  - Para acesso somente leitura às políticas de segurança predefinidas, você precisa ser membro de um dos seguintes grupos de função:
-
-    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-    - **Leitor global** no [centro de conformidade e segurança &](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Para acesso somente leitura às políticas de segurança predefinidas, você precisa ser membro do grupo de função **leitor global** no [centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Usar o centro de conformidade de & de segurança para atribuir políticas de segurança predefinidas aos usuários
 
 1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **políticas de segurança predefinidas** da política de gerenciamento de ameaças.
 
-2. Em **proteção padrão** ou **proteção estrita** , clique em **Editar**.
+2. Em **proteção padrão** ou **proteção estrita**, clique em **Editar**.
 
 3. O assistente **aplicar proteção padrão** ou **aplicar proteção estrita** é iniciado. Nas **proteções do EOP aplicam** -se à etapa, identifique os destinatários internos aos quais as [proteções do EOP](#policies-in-preset-security-policies) se aplicam:
 
-   1. Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se** :
+   1. Clique em **Adicionar uma condição**. Na lista suspensa exibida, selecione uma condição em **aplicado se**:
 
       - **Os destinatários são**
       - **Os destinatários são membros de**

@@ -1,5 +1,5 @@
 ---
-title: Governança em primeiro lugar
+title: Criar seu plano de governança de colaboração
 ms.reviewer: mmclean
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,15 +14,15 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Governança em primeiro lugar
-ms.openlocfilehash: 7f6104997028434b9c8aeab946ac6e1f06a61c84
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Saiba como criar seu plano de governança de colaboração
+ms.openlocfilehash: 2fb2db16df3c83347831f4ea3489835e5037bbec
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377420"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568277"
 ---
-# <a name="governance-first"></a>Governança em primeiro lugar
+# <a name="create-your-collaboration-governance-plan"></a>Criar seu plano de governança de colaboração
 
 É sempre melhor começar sua migração para o Microsoft 365 com uma visão clara:
 
@@ -34,9 +34,9 @@ ms.locfileid: "48377420"
 
 Uma instrução de visão clara fornece orientação crítica para as desvantagens de decisão inevitável que você precisará pensar em seu plano de governança. O grau de formalidade e a profundidade para a qual você precisa documentar o plano de governança devem alinhar-se com os resultados que você deseja obter. A visão, portanto, oferece uma estrutura para o contexto e o investimento em governança.
 
-A nuvem do Microsoft 365 cria novos paradigmas para tecnologias que dão suporte à empresa. Esses novos paradigmas alteram a forma como essas tecnologias são adotadas, gerenciadas e controladas. 
+A Microsoft 365 cria novos paradigmas para tecnologias que dão suporte à empresa. Esses novos paradigmas alteram a forma como essas tecnologias são adotadas, gerenciadas e controladas. 
 
-O Microsoft 365 Governance deve complementar as políticas existentes que regem os ambientes locais.  No entanto, como a nuvem permite que as novas oportunidades sejam compatíveis com os negócios, é importante entender essas oportunidades e pensar em uma abordagem de governança que cria um equilíbrio apropriado entre as metas do usuário, os riscos de negócios e os requisitos normativos e da indústria.
+O Microsoft 365 Governance deve complementar as políticas existentes que regem os ambientes locais. No entanto, como a nuvem permite que as novas oportunidades sejam compatíveis com os negócios, é importante entender essas oportunidades e pensar em uma abordagem de governança que cria um equilíbrio apropriado entre as metas do usuário, os riscos de negócios e os requisitos normativos e da indústria.
 
 Pensar em primeiro lugar significa iniciar sua jornada para a nuvem com algumas decisões importantes para a melhor posição para o sucesso geral. Algumas destas decisões incluem:
 
@@ -58,11 +58,11 @@ O planejamento de governança para o Microsoft 365 é garantir que você esteja 
 
 - **Garantia** de resultados – direcionar sites ou proprietários de equipe capacitados na direção certa para obter resultados de negócios. A garantia de resultados é amplamente voltada para fornecer orientações para autores de conteúdo e sites, grupos e proprietários de equipe, garantindo que o treinamento adequado esteja disponível para garantir que eles saibam como fazer as boas opções para obter os resultados desejados dentro de práticas e padrões organizacionais gerais.
 
-O planejamento de governança deve vir primeiro, mas a governança precisa ser algo que você re-visita continuamente em um processo repetitivo. À medida que seu imóvel de dados muda com o tempo, você desejará revisitar suas decisões de governança para adaptar às necessidades de negócios em alteração e disponibilidade de recursos. Você pode achar que precisa de mais supervisão para garantir a conformidade. Você pode achar que precisa de menos supervisão para incentivar o aplicativo mais criativo dos recursos principais. Você pode achar que as funções e responsabilidades precisam ser atualizadas para refletir as alterações na solução ou as alterações em como os usuários estão usando aplicativos diferentes.
+O planejamento de governança deve vir primeiro, mas a governança precisa ser algo que você reveja continuamente em um processo repetitivo. À medida que seu imóvel de dados muda com o tempo, você desejará revisitar suas decisões de governança para adaptar às necessidades de negócios em alteração e disponibilidade de recursos. Você pode achar que precisa de mais supervisão para garantir a conformidade. Você pode achar que precisa de menos supervisão para incentivar o aplicativo mais criativo dos recursos principais. Você pode achar que as funções e responsabilidades precisam ser atualizadas para refletir as alterações na solução ou as alterações em como os usuários estão usando aplicativos diferentes.
 
-Por exemplo, um dos principais recursos de capacitação do Microsoft 365 é a capacidade de trabalhar facilmente em colaboração com usuários externos e organizações. Algumas organizações em alguns setores escolhem bloquear todo o compartilhamento externo. Outras permitem o compartilhamento externo em cenários específicos ou com organizações específicas. Não há decisão de governança adequada ou incorreta quando se trata de compartilhamento externo – e há muitos cenários diferentes nos quais você pode Habilitar configurações diferentes no Microsoft 365 para permitir o compartilhamento em alguns casos e bloqueá-los em outros. No entanto, se você estiver começando a jornada de um ambiente local para a nuvem, é importante pensar em decisões de compartilhamento externo e entender os benefícios e riscos associados às diferentes opções disponíveis.
+Por exemplo, um dos principais recursos de capacitação do Microsoft 365 é a capacidade de trabalhar facilmente em colaboração com pessoas de fora da sua organização. Algumas organizações em alguns setores escolhem bloquear todo o compartilhamento externo. Outras permitem o compartilhamento externo em cenários específicos ou com organizações específicas. Não há decisão de governança adequada ou incorreta quando se trata de compartilhamento externo – e há muitos cenários diferentes nos quais você pode Habilitar configurações diferentes no Microsoft 365 para permitir o compartilhamento em alguns casos e bloqueá-los em outros. No entanto, se você estiver começando a jornada de um ambiente local para a nuvem, é importante pensar em decisões de compartilhamento externo e entender os benefícios e riscos associados às diferentes opções disponíveis.
 
-## <a name="why-think-about-governance-first"></a>Por que pensar primeiro?
+## <a name="think-about-governance-first"></a>Considere a governança primeiro
 
 Seu investimento no Microsoft 365 é apenas tão bom quanto o valor do conteúdo e das experiências que você habilita, portanto, a idéia de controle no início da sua jornada garante que você não se bloqueie ou habilite muito antes de ter tido a oportunidade de entender e avaliar as implicações de cada decisão. Há vários "botões e discagens" você pode ativar o centro de administração do Microsoft 365 e para sites e equipes individuais. Um plano de governança eficaz é fundamental para atingir as metas de negócios, mas a governança é o equilíbrio de riscos com benefícios. Se bloquearmos tudo, as pessoas encontrarão uma maneira de contornar as regras se precisarem fazê-lo para realizar o trabalho.
 
@@ -98,7 +98,7 @@ Trabalhe com as principais decisões de governança – mas não tente tomar tod
 
 Além do compartilhamento externo, discutido anteriormente, outra decisão importante para cada organização é como provisionar sites e grupos. Por exemplo, considere a seguinte situação:
 
-- Como é muito fácil para os usuários criarem grupos do Microsoft 365, convém abrir a criação de grupo para que ele não seja inundado com solicitações para criá-los em nome de outras pessoas. Para evitar "proliferação de grupo", você pode criar um fluxo de trabalho personalizado que envia um email com governança, treinamento e outras informações para criadores de grupo logo depois que o grupo é criado. (Por exemplo, "você acabou de criar um site/equipe, Comunidade, etc.--aqui estão suas responsabilidades e links para treinamento...") Por outro lado, dependendo da sua empresa, no entanto, você pode querer controlar quem tem a capacidade de criar grupos.
+- Como é muito fácil para os usuários criarem grupos do Microsoft 365, convém abrir a criação de grupo para que ele não seja inundado com solicitações para criá-los em nome de outras pessoas. Para evitar "proliferação de grupo", você pode criar um fluxo de trabalho personalizado que envia um email com governança, treinamento e outras informações para criadores de grupo logo depois que o grupo é criado. (Por exemplo, "você acabou de criar um site/equipe, Comunidade, etc.--aqui estão suas responsabilidades e links para treinamento...") Por outro lado, dependendo da sua empresa, você pode querer controlar quem tem a capacidade de criar grupos.
 
 - Se quiser controlar como os sites do SharePoint são criados, você pode ocultar o link **criar site** na página inicial do SharePoint. Criar um formulário personalizado ou criar um design de site personalizado e um script de site para automatizar o provisionamento de novos sites modernos do SharePoint usando uma estrutura de site predefinida que pode incluir links para suas práticas recomendadas de governança e treinamento.
 
@@ -130,7 +130,7 @@ Em última análise, o sucesso de seus esforços de planejamento de governança 
 
 - Você deve criar uma certificação e uma nova certificação para proprietários de site e de equipe?
 
-- Você pode criar um programa Microsoft 365 campeões para sua organização? Além disso, considere participar do programa de especialistas da Microsoft 365 em todo o mundo para obter ideias e abordagens para seu próprio programa de campeões e para se conectar com pessoas com interesses e líderes de idéias de dentro e ao redor da Microsoft.
+- Você pode criar um programa Microsoft 365 campeões para sua organização? Além disso, considere participar do [programa de especialistas da Microsoft 365](https://aka.ms/O365Champions) em todo o mundo para obter ideias e abordagens para seu próprio programa de campeões e para se conectar com pessoas com interesses e líderes de idéias de dentro e ao redor da Microsoft.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -139,3 +139,5 @@ Em última análise, o sucesso de seus esforços de planejamento de governança 
 [Visão geral de governança do SharePoint](https://docs.microsoft.com/sharepoint/governance-overview)
 
 [Planejar a governança de organização e ciclo de vida para serviços de grupos](plan-organization-lifecycle-governance.md)
+
+[Colaboração de arquivos no SharePoint com o Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)

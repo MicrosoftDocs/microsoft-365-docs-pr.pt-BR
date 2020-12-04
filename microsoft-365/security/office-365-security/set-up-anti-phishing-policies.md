@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft defender para Office 365.
-ms.openlocfilehash: a02d69b278420d814871df8eebdd6efcdf5d8e7f
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 839d76c1e07b457f671f1f0eccd0a9160e4039a3
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376335"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568562"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -200,11 +200,10 @@ As configurações de representação a seguir estão disponíveis apenas em pol
   - **Domínios representados**: o endereço de contém um domínio protegido.
   - **Caracteres incomuns**: o endereço de contém conjuntos de caracteres usuais (por exemplo, símbolos matemáticos e texto ou uma mistura de letras maiúsculas e minúsculas) em um remetente ou domínio protegido.
 
-> [!IMPORTANT]
->
-> Mesmo quando as dicas de segurança de representação estiverem desativadas, **é recomendável** usar uma regra de fluxo de emails (também conhecida como regra de transporte) para adicionar um cabeçalho de mensagem chamado **X-MS-Exchange-EnableFirstContactSafetyTip** a mensagens. Dicas de segurança específicas serão exibidas notificando os destinatários de que geralmente não recebem emails do remetente ou em casos em que o destinatário recebe um email pela primeira vez do remetente.
->:::image type="content" source="../../media/Urja_FirstContactEmail-Set-us-anti-phish-pol-safetyTip-ImpersonationProtection-MultipleRecipients.png" alt-text="O texto da dica de segurança para proteção de representação com vários destinatários.":::
-<p>
+  > [!IMPORTANT]
+  >
+  > Mesmo quando as dicas de segurança de representação estiverem desativadas, **recomendamos** que você use uma regra de fluxo de emails (também conhecida como regra de transporte) para adicionar um cabeçalho de mensagem chamado **X-MS-Exchange-EnableFirstContactSafetyTip** com o valor **Enable** to messages. Uma dica de segurança notificará os destinatários pela primeira vez em que receber uma mensagem do remetente ou, caso contrário, não receberá mensagens do remetente.
+  > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="O texto da dica de segurança para proteção de representação com vários destinatários.":::
 
 - **Inteligência de caixa de correio**: habilita ou desabilita a inteligência artificial (ai) que determina os padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda o AI a distinguir entre emails legítimos e falsificados desses contatos. O Mailbox Intelligence só está disponível para caixas de correio do Exchange Online.
 

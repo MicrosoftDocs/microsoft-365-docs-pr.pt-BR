@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: 1e133c0d4a875fc9735cc8a92e42b6ffeee6dd5f
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 0c01afff2e9e5a656099192f3867bb3a6f1cee23
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527740"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568585"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -60,10 +60,10 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 1. Na seção **tipo de objeto** , selecione **email**. Na seção **formato de envio** , use uma das seguintes opções:
 
-   - **ID da mensagem de rede**: Este é um valor de GUID que está disponível no cabeçalho **X-MS-Exchange-Organization-Network-Message-ID** na mensagem.
+   - **ID de mensagem de rede**: Este é um valor de GUID que está disponível no cabeçalho **x-MS-Exchange-Organization-Network-Message-ID** na mensagem ou no cabeçalho **x-MS-Office365-Filtering-ID** em mensagens em quarentena.
 
    - **Arquivo**: clique em **escolher arquivo**. Na caixa de diálogo que é aberta, localize e selecione o arquivo. eml ou. msg e clique em **abrir**.
-   
+
    > [!NOTE]
    > Os administradores com o defender para Office 365 plano 1 ou o plano 2 podem enviar mensagens com o antigo a 30 dias. Outros administradores poderão voltar 7 dias.
 
@@ -244,7 +244,7 @@ Para exportar os resultados, clique em **Exportar** próximo à parte superior d
 
 ## <a name="undo-user-submissions"></a>Desfazer envios de usuários
 
-Quando um usuário envia um email suspeito para a caixa de correio personalizada, o usuário e o administrador não têm uma opção para desfazer o envio. Se o usuário quiser recuperar o email, ele estará disponível para recuperação nas pastas itens excluídos ou lixo eletrônico. 
+Quando um usuário envia um email suspeito para a caixa de correio personalizada, o usuário e o administrador não têm uma opção para desfazer o envio. Se o usuário quiser recuperar o email, ele estará disponível para recuperação nas pastas itens excluídos ou lixo eletrônico.
 
 ### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>Enviar mensagens para a Microsoft a partir da caixa de correio personalizada
 

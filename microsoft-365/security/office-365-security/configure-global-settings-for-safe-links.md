@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a exibir e definir as configurações globais (a lista e proteção dos seguintes URLs para aplicativos do Office 365) para links seguros no Microsoft defender para Office 365.
-ms.openlocfilehash: 655fba35bf3675bfd571c8e4923a00fbeba85304
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2793985e6289b26baad268925cbf9c5e9a89dce9
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842423"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572424"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Definir configurações globais para links seguros no Microsoft defender para Office 365
 
@@ -50,10 +50,16 @@ Você pode definir as configurações de links seguros globais no centro de conf
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Para exibir e definir as configurações globais de links seguros, você precisa ser membro de um dos grupos de função a seguir:
+- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+  - Para definir as configurações globais de links seguros, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** .
+  - Para acesso somente leitura às configurações globais de links seguros, você precisa ser membro dos grupos de função **leitor global** ou leitor de **segurança** .
 
-  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+
+  **Observações**:
+
+  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para obter os valores recomendados para as configurações globais de links seguros, consulte [configurações de links seguros](recommended-settings-for-eop-and-office365-atp.md#safe-links-settings).
 
@@ -114,11 +120,11 @@ Proteção de links seguros para aplicativos do Office 365 aplica-se a documento
 
 2. Na **política de links seguros de sua organização** que aparece, defina as seguintes configurações na seção **configurações que se aplicam ao conteúdo exceto o email** :
 
-   - **Aplicativos do office 365** : Verifique se a opção Alternar está à direita para habilitar links seguros para aplicativos do Office 365 suportados: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Aplicativos do office 365**: Verifique se a opção Alternar está à direita para habilitar links seguros para aplicativos do Office 365 suportados: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
-   - **Não rastrear quando os usuários clicarem em links seguros** : mover a opção para a esquerda para rastrear os cliques do usuário relacionados a URLs bloqueadas em aplicativos do Office 365 com suporte: ![ desativar ](../../media/scc-toggle-off.png) .
+   - **Não rastrear quando os usuários clicarem em links seguros**: mover a opção para a esquerda para rastrear os cliques do usuário relacionados a URLs bloqueadas em aplicativos do Office 365 com suporte: ![ desativar ](../../media/scc-toggle-off.png) .
 
-   - **Não permita que os usuários cliquem através de links seguros para a URL original** : Verifique se o botão de alternância está à direita para impedir que os usuários cliquem no URL bloqueado original em aplicativos do Office 365 com suporte: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Não permita que os usuários cliquem através de links seguros para a URL original**: Verifique se o botão de alternância está à direita para impedir que os usuários cliquem no URL bloqueado original em aplicativos do Office 365 com suporte: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
    Quando concluir, clique em **Salvar**.
 
@@ -146,7 +152,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AtpPol
 
 Para verificar se você configurou com êxito as configurações globais para links seguros (a lista de **seguintes URLs** e as configurações de proteção de aplicativos do Office 365), execute qualquer uma das seguintes etapas:
 
-- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> , **links seguros de ATP** , clique em **configurações globais** e verifique as configurações na saída que aparece.
+- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> , **links seguros de ATP**, clique em **configurações globais** e verifique as configurações na saída que aparece.
 
 - No PowerShell do Exchange Online ou do Exchange Online Protection, execute o seguinte comando e verifique as configurações:
 

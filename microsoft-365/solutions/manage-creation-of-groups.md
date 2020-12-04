@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Saiba como controlar quais usuários podem criar grupos do Microsoft 365.
-ms.openlocfilehash: 44e858286377350f82050b8a1814f761dad9c2fd
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: e3424a9cc916c9464478fbe4411bbbf7b971d989
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377303"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572616"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Gerenciar quem pode criar grupos do Microsoft 365
 
@@ -31,39 +31,26 @@ Por padrão, todos os usuários podem criar grupos do Microsoft 365. Essa é a a
 Se sua empresa requer que você restrinja quem pode criar grupos, faça isso seguindo os procedimentos deste artigo. Quando você limita quem pode criar um grupo, ele afeta todos os serviços que dependem de grupos para acesso, incluindo:
 
 - Outlook
-    
 - SharePoint
-    
 - Yammer
-    
 - Microsoft Teams
-
 - Microsoft Stream
-
 - Planner
-    
 - PowerBI (clássico)
-    
 - Projeto para a Web/mapa
-    
-Você pode restringir a criação de grupos do Microsoft 365 aos membros de um determinado grupo de segurança. Para configurar isso, use o Windows PowerShell. Este artigo orienta você pelas etapas necessárias.
-  
-As etapas neste artigo não impedem que os membros de determinadas funções criem grupos. Os administradores globais do Office 365 podem criar grupos por meio de qualquer meio, como o centro de administração do Microsoft 365, o Planner, o Teams, o Exchange e o SharePoint Online. Outras funções podem criar grupos por meio limitado, listados abaixo.
-        
-  - Administrador do Exchange: centro de administração do Exchange, Azure AD
-    
-  - Suporte à camada 1 do parceiro: centro de administração do Microsoft 365, centro de administração do Exchange, Azure AD
-    
-  - Suporte à camada 2 do parceiro: centro de administração do Microsoft 365, centro de administração do Exchange, Azure AD
-    
-  - Gravadores de diretório: Azure AD
 
-  - Administrador do SharePoint: centro de administração do SharePoint, Azure AD
-  
-  - Administrador do teams Service: centro de administração do Microsoft Teams, Azure AD
-  
-  - Administrador de gerenciamento de usuários: centro de administração do Microsoft 365, Yammer, Azure AD
-     
+Você pode restringir a criação de grupos do Microsoft 365 aos membros de um determinado grupo de segurança. Para configurar isso, use o Windows PowerShell. Este artigo orienta você pelas etapas necessárias.
+
+As etapas neste artigo não impedem que os membros de determinadas funções criem grupos. Os administradores globais do Office 365 podem criar grupos por meio de qualquer meio, como o centro de administração do Microsoft 365, o Planner, o Teams, o Exchange e o SharePoint Online. Outras funções podem criar grupos por meio limitado, listados abaixo.
+
+- Administrador do Exchange: centro de administração do Exchange, Azure AD
+- Suporte à camada 1 do parceiro: centro de administração do Microsoft 365, centro de administração do Exchange, Azure AD
+- Suporte à camada 2 do parceiro: centro de administração do Microsoft 365, centro de administração do Exchange, Azure AD
+- Gravadores de diretório: Azure AD
+- Administrador do SharePoint: centro de administração do SharePoint, Azure AD
+- Administrador do teams Service: centro de administração do Microsoft Teams, Azure AD
+- Administrador de gerenciamento de usuários: centro de administração do Microsoft 365, Yammer, Azure AD
+
 Se você for um membro de uma dessas funções, poderá criar grupos do Microsoft 365 para usuários restritos e atribuir o usuário como o proprietário do grupo.
 
 ## <a name="licensing-requirements"></a>Requisitos de licença
@@ -72,7 +59,7 @@ Para gerenciar quem cria grupos, as seguintes pessoas precisam de licenças do A
 
 - O administrador que configura essas definições de criação de grupos
 - Os membros do grupo de segurança que têm permissão para criar grupos
- 
+
 > [!NOTE]
 > Consulte [atribuir ou remover licenças no portal do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) para obter mais detalhes sobre como atribuir licenças do Azure.
 
@@ -87,18 +74,18 @@ Somente um grupo de segurança em sua organização pode ser usado para controla
 Os administradores nas funções listadas acima não precisam ser membros desse grupo: Eles retêm a capacidade de criar grupos.
 
 > [!IMPORTANT]
-> Certifique-se de usar um **grupo de segurança** para restringir quem pode criar grupos. Não há suporte para o uso de um grupo do Microsoft 365. 
-    
+> Certifique-se de usar um **grupo de segurança** para restringir quem pode criar grupos. Não há suporte para o uso de um grupo do Microsoft 365.
+
 1. No centro de administração, vá para a [página grupos](https://admin.microsoft.com/adminportal/home#/groups).
 
 2. Clique em **Adicionar um grupo**.
 
 3. Escolha **segurança** como o tipo de grupo. Lembre-se do nome do grupo! Você precisará disso posteriormente.
-  
+
 4. Conclua a configuração do grupo de segurança, adicionando pessoas ou outros grupos de segurança que você deseja poder criar grupos na sua organização.
-    
+
 Para obter instruções detalhadas, consulte [criar, editar ou excluir um grupo de segurança no centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
- 
+
 ## <a name="step-2-run-powershell-commands"></a>Etapa 2: Executar comandos do PowerShell
 
 Você deve usar a versão de visualização do [PowerShell do Azure Active Directory para Graph (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (nome do módulo **AzureADPreview**) para alterar a configuração de acesso de convidados em nível de Grupo:
@@ -115,7 +102,7 @@ Substitua *\<SecurityGroupName\>* pelo nome do grupo de segurança que você cri
 
 `$GroupName = "Group Creators"`
 
-Salve o arquivo como GroupCreators.ps1. 
+Salve o arquivo como GroupCreators.ps1.
 
 Na janela do PowerShell, navegue até o local onde você salvou o arquivo (digite "CD <FileLocation> ").
 
@@ -127,14 +114,14 @@ e [entre com sua conta de administrador](https://docs.microsoft.com/microsoft-36
 
 ```PowerShell
 $GroupName = "<SecurityGroupName>"
-$AllowGroupCreation = "False"
+$AllowGroupCreation = $False"
 
 Connect-AzureAD
 
 $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
 if(!$settingsObjectID)
 {
-      $template = Get-AzureADDirectorySettingTemplate | Where-object {$_.displayname -eq "group.unified"}
+    $template = Get-AzureADDirectorySettingTemplate | Where-object {$_.displayname -eq "group.unified"}
     $settingsCopy = $template.CreateDirectorySetting()
     New-AzureADDirectorySetting -DirectorySetting $settingsCopy
     $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
@@ -145,7 +132,7 @@ $settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
 
 if($GroupName)
 {
-    $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
+  $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
 }
  else {
 $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
@@ -162,24 +149,24 @@ A última linha do script exibirá as configurações atualizadas:
 Se no futuro você quiser alterar o grupo de segurança usado, poderá executar novamente o script com o nome do novo grupo de segurança.
 
 Se você deseja desativar a restrição de criação de grupo e novamente permitir que todos os usuários criem grupos, defina $GroupName como "" e $AllowGroupCreation como "true" e execute novamente o script.
-    
+
 ## <a name="step-3-verify-that-it-works"></a>Etapa 3: Verifique se funciona
 
 As alterações podem levar trinta minutos ou mais para entrar em vigor. Você pode verificar as novas configurações fazendo o seguinte:
 
 1. Entre no Microsoft 365 com uma conta de usuário de alguém que não tenha a capacidade de criar grupos. Ou seja, eles não são membros do grupo de segurança que você criou ou de um administrador.
-    
-2. Selecione o bloco do **Planner** . 
-    
-3. No Planner, selecione **novo plano** no painel de navegação à esquerda para criar um plano. 
-  
+
+2. Selecione o bloco do **Planner** .
+
+3. No Planner, selecione **novo plano** no painel de navegação à esquerda para criar um plano.
+
 4. Você deve obter uma mensagem informando que o plano e a criação de grupos estão desabilitados.
 
 Tente o mesmo procedimento novamente com um membro do grupo de segurança.
 
 > [!NOTE]
 > Se os membros do grupo de segurança não puderem criar grupos, verifique se eles não estão sendo bloqueados por meio da [política de caixa de correio do OWA](https://go.microsoft.com/fwlink/?linkid=852135).
-    
+
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Introdução ao Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)

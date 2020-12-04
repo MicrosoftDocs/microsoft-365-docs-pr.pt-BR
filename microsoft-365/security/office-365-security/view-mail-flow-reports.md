@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: 840b9920fc3f994140702eae0bf5ddbdeac4b465
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 701735374e03f2afb91323ceb4b3fbf30988bdcd
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357918"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572796"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
@@ -134,22 +134,22 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 
   - **Date**
   - **Regra de transporte**
-  - **Assunto**
+  - **Subject**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direção**
+  - **Direction**
 
 - **Exibir dados por: regras de transporte do Exchange DLP**:
 
   - **Date**
   - **Política de DLP**
   - **Regra de transporte**
-  - **Assunto**
+  - **Subject**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direção**
+  - **Direction**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -240,7 +240,7 @@ Você pode alterar esses filtros clicando em **Filtrar** ou clicando em um valor
 
 A tabela de dados contém as seguintes informações:
 
-- **Direção**
+- **Direction**
 - **Tipo**
 - **24 horas**
 - **3 dias**
@@ -463,7 +463,7 @@ Se você clicar em **Exibir tabela de detalhes** na tela **dividir por: direçã
 
 - **Data (UTC)**
 - **Tipo**
-- **Direção**
+- **Direction**
 - **Contagem de mensagem**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
@@ -535,19 +535,16 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Quais permissões são necessárias para exibir esses relatórios?
 
-Para exibir e usar os relatórios, você precisa ser membro do grupo de função especificado no centro de conformidade e segurança & **e** no Exchange Online.
+Para exibir e usar os relatórios descritos neste tópico, você precisa ser membro de um dos seguintes grupos de função no centro de conformidade de & de segurança:
 
-- No centro de conformidade & segurança, você precisa ser membro de um dos seguintes grupos de função:
+- **Organization Management**
+- **Administrador de segurança**
+- **Leitor de segurança**
+- **Leitor global**
 
-  – Gerenciamento de organização-administrador de segurança (você também pode fazer isso no [centro de administração do Azure Active Directory](https://aad.portal.azure.com) -leitor de segurança
+Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
-
-- No Exchange Online, você precisa ser membro de um dos grupos de função a seguir:
-
-  – Gerenciamento de organização – gerenciamento de organização somente de exibição-somente os destinatários do gerenciamento de conformidade
-
-Para obter mais informações, consulte [permissões no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo) e [gerenciar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
+**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como funciona a compreensão da inteligência de falsificação. Eles podem determinar rapidamente quais remetentes estão enviando emails legitimamente para suas organizações de domínios que não passam por verificações de autenticação de email (SPF, DKIM ou DMARC).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 89a31c6df7c9b6e02f52ea414ceb6334427feab1
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 6f5ebd0fd42d17354eeb1e03c946ac5446c3667c
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920473"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572736"
 ---
 # <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Walkthrough-visão geral da inteligência de falsificação no Microsoft defender para Office 365
 
@@ -44,12 +44,13 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
   Você pode exibir a percepção de inteligência de falsificação de mais de um painel no centro de conformidade & segurança. Independentemente de qual painel você está vendo, a percepção fornece os mesmos detalhes e permite que você realize rapidamente as mesmas tarefas.
 
-- Você precisa receber permissões antes de executar os procedimentos deste tópico. Para usar o spoof Intelligence percepção, você precisa ser membro de um dos seguintes grupos de função:
+- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+  - **Organization Management**
+  - **Administrador de segurança**
+  - **Leitor de segurança**
+  - **Leitor global**
 
-  - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
-  - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 - Você habilita e desabilita a inteligência de spoof em políticas anti-phishing no Microsoft defender para Office 365. Para obter mais informações, consulte [Configure anti-phishing Policies in Microsoft defender for Office 365](configure-atp-anti-phishing-policies.md).
 
@@ -61,8 +62,8 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
 2. Na linha **insights** , procure um dos seguintes itens:
 
-   - O **spoof Intelligence está habilitado** : a percepção é denominada **domínios falsificados que falharam na autenticação dos últimos 30 dias**. É o padrão.
-   - A **inteligência de falsificação está desabilitada** : a percepção em chamado **habilitar proteção contra falsificação** e clicar nele permite habilitar a inteligência de falsificação.
+   - O **spoof Intelligence está habilitado**: a percepção é denominada **domínios falsificados que falharam na autenticação dos últimos 30 dias**. É o padrão.
+   - A **inteligência de falsificação está desabilitada**: a percepção em chamado **habilitar proteção contra falsificação** e clicar nele permite habilitar a inteligência de falsificação.
 
 3. A percepção do painel mostra as informações como esta:
 
@@ -70,9 +71,9 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
    Esta percepção tem dois modos:
 
-   - **Modo de percepção** : se a inteligência de falsificação estiver habilitada, a percepção mostrará quantas mensagens foram impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
+   - **Modo de percepção**: se a inteligência de falsificação estiver habilitada, a percepção mostrará quantas mensagens foram impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
 
-   - **E se modo** : se a inteligência de falsificação estiver desabilitada, a percepção mostrará quantas mensagens *teriam* sido impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
+   - **E se modo**: se a inteligência de falsificação estiver desabilitada, a percepção mostrará quantas mensagens *teriam* sido impactadas por nossos recursos de inteligência de fraude nos últimos 30 dias.
 
    De qualquer forma, os domínios falsificados exibidos na percepção são separados em duas categorias: **pares de domínios suspeitos** e **pares de domínios não suspeitos**. Essas categorias são subdivididas em três buckets diferentes para revisão.
 
@@ -84,9 +85,9 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
    Os **pares de domínios suspeitos** incluem:
 
-   - **Falsificação de alta confiança** : com base nos padrões de envio históricos e na pontuação de reputação dos domínios, temos certeza de que os domínios estão falsificando, e as mensagens desses domínios provavelmente serão mal-intencionadas.
+   - **Falsificação de alta confiança**: com base nos padrões de envio históricos e na pontuação de reputação dos domínios, temos certeza de que os domínios estão falsificando, e as mensagens desses domínios provavelmente serão mal-intencionadas.
 
-   - **Falsificação de confiança moderada** : com base nos padrões de envio históricos e na pontuação de reputação dos domínios, temos certeza de que os domínios estão sendo falsificados e que as mensagens enviadas desses domínios são legítimas. Falsos positivos são mais prováveis nesta categoria do que a falsificação de alta confiança.
+   - **Falsificação de confiança moderada**: com base nos padrões de envio históricos e na pontuação de reputação dos domínios, temos certeza de que os domínios estão sendo falsificados e que as mensagens enviadas desses domínios são legítimas. Falsos positivos são mais prováveis nesta categoria do que a falsificação de alta confiança.
 
    - **Pares de domínios não suspeitos** (inclui **falsificação** renovada): o domínio falhou nas verificações de autenticação de email explícitas [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md)). No entanto, o domínio passou por nossas verificações de autenticação de email implícito ([autenticação composta](email-validation-and-authentication.md#composite-authentication)). Como resultado, nenhuma ação anti-falsificação foi tomada na mensagem.
 
@@ -119,7 +120,7 @@ Permitir um par de domínios permite apenas a combinação do domínio falsifica
 
 Por exemplo, você permite que o seguinte par de domínio envie mensagens falsificadas para sua organização:
 
-- *Domínio falsificado* : gmail.com "
+- *Domínio falsificado*: gmail.com "
 - *Infraestrutura de envio* `tms.mx.com` :
 
 Somente os emails desse par de domínio poderão ser falsificados. Outros remetentes tentando falsificar o gmail.com não são permitidos. As mensagens em outros domínios de tms.mx.com são verificadas por inteligência de falsificação.

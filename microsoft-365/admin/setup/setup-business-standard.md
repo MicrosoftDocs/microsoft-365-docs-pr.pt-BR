@@ -25,28 +25,16 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Standard.
-ms.openlocfilehash: e69a3c75d77a8b4721558e72526a068df643f284
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 61ba3b0a8a753c9c441fc5a2ffa66b63da9af675
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644550"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572412"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Configurar o Microsoft Business Standard
 
-Assista a um vídeo curto sobre como configurar o Microsoft 365 Business Standard.<br><br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ELKR]
-
-Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
-  
- *Essas etapas são para empresas e [ atividades sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) que possuam o **[Plano Microsoft 365 Business Standard.](https://go.microsoft.com/fwlink/p/?LinkId=627220)**_
-
-Assista a um vídeo curto sobre como configurar o Microsoft 365 Business Standard (antes conhecido como Office 365 Business Premium).<br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/913be1ad-bae1-40c0-9ded-15bb477b828b]
-
-Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-to-personalize-sign-in"></a>Adicione seu domínio para personalizar o login
 
@@ -56,7 +44,7 @@ Ao comprar o Microsoft 365 Business Standard, você tem a opção de usar um dom
 
 1. Acesse [Centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de administrador global. 
 
-2. Escolha _*Vá para a instalação** para iniciar o assistente.
+2. Clique em **Ir para a Configuração** pra iniciar o assistente.
 
 3. Na página **Instalar aplicativos do Office**, você pode, opcionalmente, instalar os aplicativos no seu próprio computador.
     
@@ -93,7 +81,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
   
 1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [Alterar os servidores de nomes para configurar o Office 365 com qualquer registrador de domínio](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
 
-    - Se você possui registros DNS existentes, por exemplo, um site existente, mas seu organizador DNS está ativado para [conexão com o domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), clique em **Adicionar registros para mim**. Na página **Escolha seus serviços on-line**, aceite todos os padrões, clique em **Avançar**e clique em **Autorizar** na página do organizador DNS.
+    - Se você possui registros DNS existentes, por exemplo, um site existente, mas seu organizador DNS está ativado para [conexão com o domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), clique em **Adicionar registros para mim**. Na página **Escolha seus serviços on-line**, aceite todos os padrões, clique em **Avançar** e clique em **Autorizar** na página do organizador DNS.
     - Se você possui registros DNS existentes com outros organizadores DNS (não habilitados para conexão ao domínio), convém gerenciar seus próprios registros DNS para garantir que os serviços existentes fiquem conectados. Consulte [noções básicas de domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
 
 2. Siga as etapas no assistente e o e-mail e outros serviços serão configurados para você.
@@ -112,7 +100,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
 
     Se você tiver acabado de instalar o Outlook, na página inicial, selecione **Avançar**.
 
-2. Escolha **Arquivo** \>**Informações **\>** Adicionar Conta**.
+2. Escolha **Arquivo** \>**Informações**\>**Adicionar Conta**.
 
 3. Digite seu endereço de e-mail do Microsoft e selecione **conectar**.
 
@@ -146,7 +134,7 @@ Você também pode usar o centro de administração do Exchange para importar e-
 
 O Microsoft 365 não inclui um site público para a sua empresa. Se quiser configurar um, considere usar um parceiro da Microsoft, como o GoDaddy ou o WIX.
   
-1. No Centro de Administração, vá para **Recursos** e selecione**Site público**.
+1. No Centro de Administração, vá para **Recursos** e selecione **Site público**.
 
 2. Selecione **Saiba mais** em uma das opções e depois inscreva-se com um parceiro de site e use as ferramentas dele para configurar e projetar seu site.
 

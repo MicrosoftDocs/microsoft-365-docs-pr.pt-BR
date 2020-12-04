@@ -1,5 +1,5 @@
 ---
-title: Solução de problemas de e-mail enviados para o Microsoft 365
+title: Solução de problemas de emails enviados para o Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo fornece informações sobre como solucionar problemas com o envio de emails para as caixas de entrada no Microsoft 365 & práticas recomendadas para envio de email em massa para os clientes da Microsoft 365.
-ms.openlocfilehash: 52b4bb333a92dcaa21f45977b3d59a96053a69c2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 895f2651529cd46968d053fefac10cb22b6a5d86
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201720"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568549"
 ---
-# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Solução de problemas de e-mail enviados para o Microsoft 365
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Solução de problemas de emails enviados para o Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -51,9 +51,7 @@ Para obter instruções sobre como criar e manter registros DNS, incluindo o reg
 Podemos não aceitar emails de remetentes que falham em uma pesquisa de DNS reverso. Em alguns casos, os remetentes legítimos se anunciam incorretamente como um IP que não é roteável pela Internet ao tentar abrir uma conexão com o EOP. Os endereços IP reservados para redes privadas (não roteáveis) incluem:
 
 - 192.168.0.0/16 (ou 192.168.0.0-192.168.255.255)
-
 - 10.0.0.0/8 (ou 10.0.0.0-10.255.255.255)
-
 - 172.16.0.0/11 (ou 172.16.0.0-172.31.255.255)
 
 ## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Você recebeu uma notificação de falha na entrega (NDR) ao enviar emails para um usuário no Office 365
