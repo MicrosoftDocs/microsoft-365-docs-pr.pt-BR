@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Neste artigo, saiba como expandir sua presença do Microsoft 365 para várias regiões geográficas com o Microsoft 365 multigeográfico.
-ms.openlocfilehash: 10f941549fd4899d5b3a14c97e6f301339702722
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: cf5f655e2b205001c6c16ed05abc33d68324ff15
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171321"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580692"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -52,7 +52,8 @@ Aqui estão os principais termos usados na descrição do Microsoft 365 Multi-Ge
 
 O Microsoft 365 Multi-Geo está disponível como um complemento para os seguintes planos de assinatura do Microsoft 365 para os clientes da EA, com um mínimo de 250 assinaturas do Microsoft 365 em seus locatários e um mínimo de 5% desses usuários usando várias regiões. Entre em contato com a equipe de conta Microsoft para obter mais detalhes.
 
-- Microsoft 365 F1, E1, E3 ou E5
+- Microsoft 365 F1, F3, E3 ou e5
+- Office 365 F3, E1, E3 ou e5
 - Exchange Online Plano 1 ou Plano 2
 - OneDrive for Business Plano 1 ou Plano 2
 - SharePoint Online Plano 1 ou Plano 2

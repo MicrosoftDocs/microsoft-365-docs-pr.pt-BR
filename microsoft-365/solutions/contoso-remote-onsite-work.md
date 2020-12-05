@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso Corporation respondeu ao COVID-19 Pandemic e desenvolveu sua infraestrutura de instalação e atualização de software para trabalho remoto e local.
-ms.openlocfilehash: 8e25b399d7acd2cb3486283623d29315eac9491e
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: d04b4efcdd4dd04315ad37311cdd2cfbc2e64e88
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371742"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580668"
 ---
 # <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Resposta e suporte do COVID-19 da Contoso para trabalho remoto e local
 
@@ -45,7 +45,7 @@ Depois que as alterações iniciais foram feitas para dar suporte à maioria dos
 
 - Sempre remoto.
 - Sempre no local.
-- Uma combinação de remoto e local.
+- Uma combinação de local e remoto.
 
 Os recursos de identidade, segurança e conformidade do Microsoft 365 foram projetados para nenhuma confiança e para funcionar independentemente do local do usuário e do dispositivo. Para obter mais informações, consulte [zero Trust](https://www.microsoft.com/security/business/zero-trust).
 

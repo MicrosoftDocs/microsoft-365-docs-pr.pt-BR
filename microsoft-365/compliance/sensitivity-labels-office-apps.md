@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb1918d2d6b39d01cf6340276c8d8ee00a5e1670
-ms.sourcegitcommit: ad0a63aa94cbfa686bf1ecbfec0152bb8e0e35af
+ms.openlocfilehash: 685228823c87eff975fabd2dd398c1b67be8eeef
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49413049"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580734"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -63,7 +63,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004 + | 16.35 +   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Sim <sup>\*</sup>                                                        |
-|[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
+|[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Visualização: [canal beta](https://office.com/insider)             | Visualização: [canal beta](https://office.com/insider)         | Em revisão   | Em revisão         | Em revisão                                            
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009 +                                  | Visualização para Word e PowerPoint: distribuindo para o [canal atual (visualização)](https://office.com/insider) | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |Suporte para [salvamento automático](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) e [coautoria](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) em documentos rotulados e protegidos | Em revisão | Em revisão | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
@@ -84,8 +84,8 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Em revisão                     | Em revisão                 | Em revisão         | Em revisão           | Em revisão               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
+|[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Visualização: [canal beta](https://office.com/insider)                        | 16.43 +                     | 4.57.0 +            | 4.2037.4 +                | Sim                |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Sim               |
-|[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão                       | Em revisão                    | Em revisão           | Em revisão               | Em revisão               |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009 +                      | Em revisão                    | Em revisão           | Em revisão               | Sim |
 |
 
@@ -239,7 +239,7 @@ Os cenários que incluem a aplicação de um rótulo de confidencialidade fora d
 
 - Dados de rótulo e criptografados exportados do Power BI
 
-- Microsoft Cloud App Security
+- Segurança no aplicativo na nuvem da Microsoft
 
 Para esses cenários, usando seus aplicativos do Office, um usuário com rotulação interna pode aplicar as marcações de conteúdo do rótulo, removendo ou substituindo temporariamente o rótulo atual e reaplicando o rótulo original.
 
@@ -263,6 +263,29 @@ Ao configurar um rótulo de confidencialidade para marcações de conteúdo, voc
 
 > [!NOTE]
 > A sintaxe dessas variáveis diferencia maiúsculas de minúsculas.
+
+## <a name="require-users-to-apply-a-label-to-their-email-and-documents"></a>Exigir que os usuários apliquem um rótulo aos seus emails e documentos
+
+> [!IMPORTANT]
+> Também conhecido como rotulação obrigatória, nem todos os aplicativos em todas as plataformas oferecem suporte à configuração de política de **exigir que os usuários apliquem um rótulo aos seus emails e documentos**.
+> 
+> O [cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app) oferece suporte a rotulamento obrigatório e rótulo interno para aplicativos do Office, Confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) nesta página.
+
+Quando essa configuração de política é selecionada, os usuários atribuídos à política devem selecionar e aplicar um rótulo de confidencialidade sob os seguintes cenários:
+
+- Para o cliente de rotulação unificado de proteção de informações do Azure:
+    - Para documentos (Word, Excel, PowerPoint): quando um documento sem rótulo é salvo ou os usuários fecham o documento.
+    - Para emails (Outlook): no momento, os usuários enviam uma mensagem sem rótulo.
+
+- Para rotular interno para aplicativos do Office:
+    - Para documentos ((Word, Excel, PowerPoint): quando um documento sem rótulo é aberto ou salvo.
+    - Para emails (Outlook): no momento, os usuários enviam uma mensagem de email sem rótulo.
+
+Informações adicionais para rotulamento interno:
+
+- Quando os usuários são solicitados a adicionar um rótulo de confidencialidade porque eles abrem um documento sem rótulo, eles podem adicionar um rótulo ou optar por abrir o documento no modo somente leitura.
+
+- Quando o rótulo obrigatório estiver em vigor, os usuários não poderão remover os rótulos de confidencialidade dos documentos, mas podem alterar um rótulo existente.
 
 #### <a name="setting-different-visual-markings-for-word-excel-powerpoint-and-outlook"></a>Definição de marcações visuais diferentes para Word, Excel, PowerPoint e Outlook
 
@@ -298,6 +321,7 @@ Exemplos:
     `${If.App.WP}This content is ${If.End}Confidential`
 
     No Word e PowerPoint, o rótulo aplica o texto de marca d' água "este conteúdo é confidencial". No Excel, o rótulo aplica o texto de marca d' água "confidencial". No Outlook, o rótulo não aplica qualquer texto de marca d' água porque as marcas d' água como marcas visuais não são suportadas pelo Outlook.
+>>>>>>> a51fef4b19dc23a23a161de3e8333dcd7527540b
 
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: 9497dfb5793ddbfc3d6845ec1efba91ad972ea38
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2d60a8312be070d3f56cfef7cfb93e6c5da32991
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646650"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580632"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir senha de um usuário individual para nunca expirar
 
@@ -107,6 +107,9 @@ Run one of the following commands:
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
     ```
 
+> [!WARNING]
+> As contas de usuário configuradas com o `-PasswordPolicies DisablePasswordExpiration` parâmetro ainda envelhecem com base no `pwdLastSet` atributo. Com base no `pwdLastSet` atributo, se você alterar a expiração para `-PasswordPolicies None` , todas as senhas com um pwdLastSet com mais de 90 dias exigirão que o usuário as altere na próxima vez em que entrar. Essa alteração pode afetar um grande número de usuários.
+
 ### <a name="set-a-password-to-expire"></a>Definir uma senha para expirar
 
 Execute um dos seguintes comandos:
@@ -122,9 +125,6 @@ Execute um dos seguintes comandos:
     ```powershell
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
     ```
-
-> [!WARNING]
-> As contas de usuário configuradas com o `-PasswordPolicies DisablePasswordExpiration` parâmetro ainda envelhecem com base no `pwdLastSet` atributo de conta de usuário. Por exemplo, se você definir senhas do usuário para nunca expirar e, em seguida, 90 ou mais dias, as senhas ainda expirarem. Com base no `pwdLastSet` atributo de conta de usuário, para contas de usuário configuradas com o `-PasswordPolicies None` parâmetro, todas as senhas com `pwdLastSet` mais de 90 dias exigem que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

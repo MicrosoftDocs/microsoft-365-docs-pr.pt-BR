@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: A mobilidade básica e a segurança fazem parte dos planos do Microsoft 365.
-ms.openlocfilehash: 8724b3dccbdb5949190ceda4b804b9f1f2a5d4b2
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 75fef5bd70d7b8926d31b80f16952aa996bc625c
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561490"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580656"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Escolha entre mobilidade básica e segurança ou Intune
 
@@ -69,8 +69,7 @@ O Microsoft Intune e a mobilidade básica e segurança interna dão a você a ca
 |Tipos de dispositivo|Gerenciar plataformas de sistema operacional diferentes e variantes do modo de gerenciamento principal. |Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>Mac OS, iPad OS|
 |Conformidade do dispositivo|Definir e gerenciar políticas de segurança, como bloqueio de PIN de nível de dispositivo e detecção de jailbreak. |Limitações no Android 9 e dispositivos posteriores. Veja [detalhes](capabilities.md). |Sim|
 |Acesso condicional com base na conformidade do dispositivo |Impedir que dispositivos não compatíveis acessem emails e dados corporativos da nuvem. |Sem suporte no Windows 10.<br/>Limitado para controlar o acesso ao Exchange Online, SharePoint Online e Outlook. |Sim |
-|Configuração do dispositivo  |Definir configurações de dispositivo (por exemplo, desabilitar a câmera)|Conformidade do dispositivo|Definir e gerenciar políticas de segurança, como bloqueio de PIN de nível de dispositivo e detecção de jailbreak. |Limitações no Android 9 e dispositivos posteriores. Veja [detalhes](capabilities.md). |Sim|
- |Conjunto limitado de configurações. |Sim|
+|Configuração do dispositivo  |Definir configurações de dispositivo (por exemplo, desabilitar a câmera)|Conjunto limitado de configurações.|Sim|Conformidade do dispositivo|Definir e gerenciar políticas de segurança, como bloqueio de PIN de nível de dispositivo e detecção de jailbreak. |Limitações no Android 9 e dispositivos posteriores. Veja [detalhes](capabilities.md). |Sim|
 |Perfis de email  |Provisione um perfil de email nativo no dispositivo. |Sim|Sim|
 |Perfis WiFi |Provisionar um perfil WiFi nativo no dispositivo. |Não|Sim|
 |Perfis VPN |Provisionar um perfil VPN nativo no dispositivo. |Não|Sim|
