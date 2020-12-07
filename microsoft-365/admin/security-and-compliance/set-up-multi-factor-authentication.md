@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para a sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 1bbca8efe09655195605f0610f92c8f66486b940
-ms.sourcegitcommit: 09518b7c9146cda7fd42839ee644ad418d48491a
+ms.openlocfilehash: db858cbd4242a096261942fd12b911ecff43f71f
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49001496"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558205"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
 
@@ -42,7 +42,7 @@ Com base no seu conhecimento de [MFA (autenticação multifator) e seu suporte n
 - Você deve ser um administrador Global para gerenciar a MFA. Para obter mais informações, confira o artigo [Sobre funções de administrador](../add-users/about-admin-roles.md).
 - Se você tiver a MFA herdada por usuário, [Desative a MFA herdada por usuário](#turn-off-legacy-per-user-mfa).
 - Se você tem clientes do Office 2013 em dispositivos Windows, [ative a Autenticação moderna para clientes do Office 2013](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication).
-- Avançado: se você tiver serviços de diretório de terceiros com o AD FS (Serviços de Federação do Active Directory), configure o Servidor do Azure MFA. Confira [cenários avançados com a Autenticação Multifator do Azure e soluções VPN de terceiros](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) para obter mais informações.
+- Avançado: se você tiver serviços de diretório de terceiros com o AD FS (Serviços de Federação do Active Directory), configure o Servidor do Azure MFA. Confira [cenários avançados com a Autenticação Multifator do Microsoft Azure Active Directory e soluções VPN de terceiros](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) para obter mais informações.
 
 ## <a name="turn-security-defaults-on-or-off"></a>Ativar ou desativar o padrão de Segurança
 
@@ -53,7 +53,7 @@ Se a sua assinatura for nova, os padrões de Segurança já poderão estar habil
 Habilite ou desabilite as opções de segurança no painel de **Propriedades** para o Azure Active Directory (Azure AD) no portal do Azure.
 
 1. Acessar o [Centro de administração do Microsoft 365](https://admin.microsoft.com) com credenciais de administrador global.
-2. Na barra de navegação à esquerda, escolha **Mostrar Tudo** e em **Centro de administração** , escolha **Azure Active Directory**.
+2. Na barra de navegação à esquerda, escolha **Mostrar Tudo** e em **Centro de administração**, escolha **Azure Active Directory**.
 3. No **centro de administração do Azure Active Directory** escolha **Azure Active Directory** \> **Propriedades**.
 4. Na parte inferior da página, clique em **Gerenciar Padrões de segurança**.
 5. Clique em **Sim** para habilitar os padrões de segurança ou **Não** para desabilitar o padrão de segurança e, em seguida, escolha **Salvar**.
@@ -84,14 +84,14 @@ Para obter mais informações sobre o Azure Active Directory P1 e P2, confira [P
 Para a maioria das assinaturas, a autenticação moderna é ativada automaticamente mas, se você comprou a sua assinatura há muito tempo, ela pode não ser. Isso deve ser habilitado antes da MFA funcionar de forma adequada com os aplicativos do Office.
 
 1. No Centro de administração do Microsoft 365, na barra de navegação esquerda, escolha **Configurações** \> **Configurações da organização**.
-1. Na guia **Serviços** , escolha **Autenticação moderna** e no painel **Autenticação moderna** , certifique-se de que a opção **Habilitar a Autenticação moderna** esteja selecionada. Escolha **Salvar alterações**.
+1. Na guia **Serviços**, escolha **Autenticação moderna** e no painel **Autenticação moderna**, certifique-se de que a opção **Habilitar a Autenticação moderna** esteja selecionada. Escolha **Salvar alterações**.
 
 ### <a name="turn-off-legacy-per-user-mfa"></a>Desabilitar a MFA herdada por usuário
 
 Se você já habilitou a MFA por usuário, é necessário desabilitá-lo antes de habilitar o padrão de segurança.
 
 1. No Centro de administração do Microsoft 365, na barra de navegação esquerda, escolha **Usuários** \> **Usuários ativos**.
-1. Na página **Usuários ativos** , escolha **Autenticação multifator**.
+1. Na página **Usuários ativos**, escolha **Autenticação multifator**.
 1. Na página da autenticação multifator, selecione cada usuário e defina o status de autenticação multifator como **Desabilitado**.
 
 ## <a name="next-steps"></a>Próximas etapas

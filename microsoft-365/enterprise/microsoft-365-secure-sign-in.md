@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: Exija que seus usuários se conectem com segurança usando a autenticação multifator (MFA) e outros recursos.
-ms.openlocfilehash: a3a63dfc06f5470c2151cd2ff140ad5dee19b0ce
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 8426d902ff8be8541b5d770af6d34cdf71868047
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446072"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558521"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Proteger as entradas do usuário ao locatário do seu Microsoft 365
 
@@ -52,7 +52,7 @@ A MFA exige que as entradas do usuário estejam sujeitas a uma verificação adi
 
 ![A senha correta, mais uma verificação adicional, resulta em uma entrada bem-sucedida](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-A primeira etapa para usar a MFA é ***exigi-lo para todas as contas de administrador***, também conhecidas como contas privilegiadas.
+A primeira etapa para usar a MFA é **exigi-lo para todas as contas de administrador**, também conhecidas como contas privilegiadas.
 
 Além dessa primeira etapa, a Microsoft recomenda a MFA para todos os usuários.
 
@@ -67,7 +67,7 @@ Há três maneiras de exigir que seus administradores ou usuários usem a MFA co
 
 ### <a name="security-defaults"></a>Padrões de segurança
 
-Os padrões de segurança são um novo recurso para assinaturas pagas ou de avaliação do Microsoft 365 e Office 365 criadas após 21 de outubro de 2019. Essas assinaturas têm padrões de segurança ativados, o que ***exige que todos os seus usuários usem a MFA com o aplicativo Microsoft Authenticator***.
+Os padrões de segurança são um novo recurso para assinaturas pagas ou de avaliação do Microsoft 365 e Office 365 criadas após 21 de outubro de 2019. Essas assinaturas têm padrões de segurança ativados, o que _*_exige que todos os seus usuários usem a MFA com o aplicativo Microsoft Authenticator_*_.
  
 Os usuários têm 14 dias para se registrar na MFA com o aplicativo Microsoft Authenticator em seus smartphones, que começa na primeira vez em que eles entram depois de os padrões de segurança terem sido habilitados. Após 14 dias, o usuário não poderá entrar até que o registro da MFA seja concluído.
 
@@ -102,7 +102,7 @@ Esta tabela mostra os resultados da habilitação da MFA com padrões de seguran
 
 | Método | Habilitado | Desabilitado | Método de autenticação adicional |
 |:-------|:-----|:-------|:-------|
-| **Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
+| _ *Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
 | **Políticas de Acesso Condicional** | Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança  | Especificado pelo usuário durante o registro da MFA  |
 ||||
 
@@ -133,7 +133,7 @@ Com a Azure AD Identity Protection, você pode:
 |Funcionalidade|Descrição|
 |:---------|:---------|
 | Determinar e administrar possíveis vulnerabilidades nas identidades da organização | O Azure AD usa o aprendizado de máquina para detectar anomalias e atividades suspeitas, como entrada e pós-entradas. Ao usar esses dados, o Azure AD Identity Protection gera relatórios e alertas que ajudam você a avaliar os problemas e a tomar medidas.|
-|Detectar ações suspeitas relacionadas às identidades da organização e responder a essas suspeitas automaticamente|Você pode configurar políticas de risco que respondem automaticamente a problemas detectados quando um nível de risco específico tiver sido alcançado. Essas políticas, além de outros controles de Acesso Condicional fornecidos pelo Azure AD e pelo Microsoft Intune, podem bloquear automaticamente o acesso ou tomar ações corretivas, como redefinições de senha e a imposição de Autenticação Multifator do Azure para as próximas entradas. |
+|Detectar ações suspeitas relacionadas às identidades da organização e responder a essas suspeitas automaticamente|Você pode configurar políticas de risco que respondem automaticamente a problemas detectados quando um nível de risco específico tiver sido alcançado. Essas políticas, além de outros controles de Acesso Condicional fornecidos pelo Microsoft Azure Active Directory e pelo Microsoft Intune, podem bloquear automaticamente o acesso ou tomar ações corretivas, como redefinições de senha e a imposição de Autenticação Multifator do Microsoft Azure Active Directory para as próximas entradas. |
 | Investigar incidentes suspeitos e resolvê-los com medidas administrativas | Você pode investigar eventos de risco usando informações sobre o incidente de segurança. Fluxos básicos de trabalho estão disponíveis para controlar investigações e iniciar ações de correção, como a redefinição de senhas. |
 |||
 
@@ -146,7 +146,7 @@ Consulte as [etapas para habilitar a Azure AD Identity Protection](https://docs.
 - [MFA do Microsoft 365](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
 - [Roteiro da identidade do Microsoft 365](identity-roadmap-microsoft-365.md)
 - [Vídeos de treinamento do Microsoft Azure Active Directory da Azure Academy](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
-- [Configurar a política de registro da Autenticação Multifator do Azure](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+- [Configurar a política de registro da Autenticação Multifator do Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Configurações de identidade e acesso a dispositivos](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="next-step"></a>Próxima etapa
