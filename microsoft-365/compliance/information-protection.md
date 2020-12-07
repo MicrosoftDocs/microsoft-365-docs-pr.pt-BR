@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Implemente a Proteção de Informações da Microsoft (MIP) para ajudá-lo a proteger informações confidenciais onde elas ficam ou trafegam.
-ms.openlocfilehash: 4c8f4af11779cd8b3df043bc92187625c41f4ac9
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 4afc73b5a2cefe88d2e3af5fd6665ec64e5c0ee3
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519806"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568313"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de Informações da Microsoft no Microsoft 365
 
@@ -37,6 +37,9 @@ Os recursos de MIP estão incluídos na Conformidade do Microsoft 365 e fornecem
 Para obter informações sobre como controlar seus dados, confira [Governança de Informações da Microsoft no Microsoft 365](manage-Information-governance.md).
 
 ## <a name="know-your-data"></a>Conheça seus dados
+
+> [!NOTE]
+> Para obter informações sobre como classificar e rotular dados no Azure Purview, atualmente em pré-visualização, confira [Rotular automaticamente seu conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
 
 Para entender o panorama de dados e identificar dados importantes em ambiente híbrido, use os seguintes recursos:
  
@@ -62,6 +65,7 @@ Para aplicar ações de proteção flexíveis que incluem criptografia, restriç
 |[Verificação de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)| Descobre, rotula e protege informações confidenciais que estão em repositórios de dados locais | [Configurar e instalar a verificação de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)| Descobre, rotula e protege informações confidenciais que estão em repositórios de dados na nuvem | [Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |[SDK de Proteção de Informações da Microsoft](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros  <br /><br /> Cenário de exemplo: [definir e obter um rótulo de confidencialidade (C++ )](https://docs.microsoft.com/information-protection/develop/quick-file-set-get-label-cpp) |[Instalação e configuração do SDK MIP (Proteção de Informações da Microsoft)](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)|
+
 
 ## <a name="prevent-data-loss"></a>Evita a perda de dados
 

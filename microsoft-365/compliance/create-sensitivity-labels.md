@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 9fc130a15229f7d464ed8336c3ae37d1af367ed3
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 10d677eb328ee002e187b098fa44b09372b59f72
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073110"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568323"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -53,7 +53,7 @@ O administrador global da sua organização tem permissões completas para criar
     - Centro de Conformidade e Segurança:
         - **Rótulos de confidencialidade** > **de Classificação**
 
-2. Na página de **Rótulos** , selecione **+ Criar um rótulo** para iniciar o assistente “Novo rótulo de confidencialidade”. 
+2. Na página de **Rótulos**, selecione **+ Criar um rótulo** para iniciar o assistente “Novo rótulo de confidencialidade”. 
     
     Por exemplo, no Centro de Conformidade do Microsoft 365:
     
@@ -61,13 +61,15 @@ O administrador global da sua organização tem permissões completas para criar
     
     Observação: por padrão, os locatários não têm nenhum rótulo e é preciso criá-los. Os rótulos na imagem de exemplo mostram rótulos padrão que foram [migrados do sistema de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
-3. Na página **Definir o escopo deste rótulo** , as opções selecionadas determinam o escopo do rótulo para as configurações que você pode definir e onde eles estarão visíveis quando forem publicados:
+3. Na página **Definir o escopo deste rótulo**, as opções selecionadas determinam o escopo do rótulo para as configurações que você pode definir e onde eles estarão visíveis quando forem publicados:
     
     ![Escopos para rótulos de confidencialidade](../media/sensitivity-labels-scopes.png)
     
     - Se **Arquivos e emails** estiver selecionado, você pode definir as configurações neste assistente que se aplicam a aplicativos que oferecem suporte a rótulos de confidencialidade, como Office Word e Outlook. Se essa opção não for selecionada, o assistente exibe a primeira página dessas configurações, mas você não pode configurá-las e os rótulos não estarão disponíveis para os usuários selecionarem nesses aplicativos.
     
     - Se **Grupos e sites** for selecionado, você pode definir as configurações neste assistente que se aplicam a grupos do Microsoft 365 e sites do Microsoft Teams e Microsoft Office SharePoint Online. Se essa opção não for selecionada, o assistente exibirá a primeira página dessas configurações, mas você não pode configurá-las e os rótulos não estarão disponíveis para os usuários selecionarem para grupos e site.
+    
+    Para obter informações sobre o escopo de ativos do **Azure Purview (pré-visualização)**, confira [Rotular automaticamente o conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
 
 4. Siga as solicitações do assistente para as configurações do rótulo.
     
@@ -77,11 +79,11 @@ O administrador global da sua organização tem permissões completas para criar
 
 6. Quando você tiver criado todos os rótulos necessários, examine a ordem deles e, se necessário, mova-os para cima ou para baixo. Para alterar a ordem de um rótulo, selecione **...** para **Mais ações** e depois selecione **Mover para cima** ou **Mover para baixo**. Para saber mais, confira [Prioridade de rótulo (a ordem importa)](sensitivity-labels.md#label-priority-order-matters) nas informações gerais.
 
-Para editar um rótulo existente, selecione-o e depois selecione o botão **Editar rótulo** :
+Para editar um rótulo existente, selecione-o e depois selecione o botão **Editar rótulo**:
 
 ![Botão Editar rótulo para editar um rótulo de sensibilidade](../media/edit-sensitivity-label-full.png)
 
-Este botão inicia o assistente **Editar rótulo de confidencialidade** , que permite alterar todas as configurações de rótulo na etapa 4.
+Este botão inicia o assistente **Editar rótulo de confidencialidade**, que permite alterar todas as configurações de rótulo na etapa 4.
 
 Não exclua um rótulo se não estiver ciente do impacto dessa exclusão sobre os usuários. Para obter mais informações, confira a seção [Como remover e excluir rótulos](#removing-and-deleting-labels). 
 
@@ -91,7 +93,7 @@ Não exclua um rótulo se não estiver ciente do impacto dessa exclusão sobre o
 Até que você publique seus rótulos, eles não estarão disponíveis para seleção em aplicativos ou em serviços. Para publicar os rótulos, eles dever ser [adicionados a uma política de rótulos](#publish-sensitivity-labels-by-creating-a-label-policy).
 
 > [!IMPORTANT]
-> Na guia **Rótulos** , não selecione a guia **Publicar rótulos** (ou o botão **Publicar rótulo** ao editar um rótulo), a menos que você precise criar uma nova política de rótulo. Você precisará de várias políticas de rótulo somente se os usuários precisarem de rótulos diferentes ou configuracoes de política diferentes. Tenha como objetivo ter o menor número de rótulos possível—não é incomum ter apenas uma politica de rótulo para a organização.
+> Na guia **Rótulos**, não selecione a guia **Publicar rótulos** (ou o botão **Publicar rótulo** ao editar um rótulo), a menos que você precise criar uma nova política de rótulo. Você precisará de várias políticas de rótulo somente se os usuários precisarem de rótulos diferentes ou configuracoes de política diferentes. Tenha como objetivo ter o menor número de rótulos possível—não é incomum ter apenas uma politica de rótulo para a organização.
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
@@ -99,9 +101,9 @@ As configurações adicionais de rótulo estão disponíveis com o cmdlet [Set-L
 
 Por exemplo:
 
-- Use o parâmetro *LocaleSettings* para implantações multinacionais, assim os usuários podem ver o nome do rótulo e a dica de ferramenta no idioma local. A [seguinte seção](#example-configuration-to-configure-a-sensitivity-label-for-different-languages) tem um exemplo de configuração que especifica o nome do rótulo e o texto da dica de ferramenta em francês, italiano e alemão.
+- Use o parâmetro *LocaleSettings* para implantações multinacionais, assim os usuários podem ver o nome do rótulo e a dica de ferramenta no idioma local. A[seguinte seção](#example-configuration-to-configure-a-sensitivity-label-for-different-languages) tem um exemplo de configuração que especifica o nome do rótulo e o texto da dica de ferramenta em francês, italiano e alemão.
 
-- Só para o cliente com rótulo unificado da Proteção de Informações do Microsoft Azure, é que você também pode especificar [configurações avançadas](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem a definição de uma cor de rótulo e a aplicação de uma propriedade personalizada quando um rótulo é aplicado. Para obter a lista completa, confira [Configurações avançadas disponíveis para rótulos](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels) da guia de administração deste cliente.
+- Apenas para o cliente de rotulagem unificada do Proteção de Informações do Azure, especifique [configurações avançadas](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem definir uma cor de rótulo e aplicar uma propriedade personalizada quando um rótulo é aplicado. Para obter a lista completa, confira [Configurações avançadas disponíveis para rótulos](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels) da guia de administração deste cliente.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>Configuração de exemplo para configurar um rótulo de configurar em idiomas diferentes
 
@@ -164,9 +166,11 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 5. Siga as notificações para definir as configurações de política.
     
-    As configurações de política que você vê correspondem ao escopo dos rótulos que você selecionou. Por exemplo, se você selecionou rótulos que têm apenas o escopo **Arquivos e emails** , não verá as configurações de política **Aplicar este rótulo por padrão a grupos e sites** e **Exigir que os usuários apliquem um rótulo a seus grupos e sites**.
+    As configurações de política que você vê correspondem ao escopo dos rótulos que você selecionou. Por exemplo, se você selecionou rótulos que têm apenas o escopo **Arquivos e emails**, não verá as configurações de política **Aplicar este rótulo por padrão a grupos e sites** e **Exigir que os usuários apliquem um rótulo a seus grupos e sites**.
     
     Para obter mais informações sobre essas configurações, confira o link [O que as políticas de rótulos podem fazer](sensitivity-labels.md#what-label-policies-can-do) no resumo de informações e use a Ajuda do assistente para configurações individuais.
+    
+    Para rótulos configurados para ativos do **Azure Purview (pré-visualização)**: esses rótulos não têm nenhuma configuração de política associada.
 
 7. Repita essas etapas se precisar de configurações de política diferentes para usuários ou escopos diferentes. Por exemplo, você deseja rótulos adicionais para um grupo de usuários ou um rótulo padrão diferente para um subconjunto de usuários. Ou, se você configurou rótulos para diferentes escopos.
 
@@ -174,11 +178,11 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 Concluir o assistente publica automaticamente a política de rótulo. Para fazer alterações em uma política publicada, basta editá-la. Não há uma ação específica de publicação ou republicação para selecionar.
 
-Para editar uma política de rótulo existente, selecione-a e, em seguida, selecione o botão **Editar Política** : 
+Para editar uma política de rótulo existente, selecione-a e, em seguida, selecione o botão **Editar Política**: 
 
 ![Editar um rótulo de confidencialidade](../media/edit-sensitivity-label-policy-full.png)
 
-Esse botão dá início ao assistente **Criar política** , que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
+Esse botão dá início ao assistente **Criar política**, que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
 
 Os usuários conseguem ver os novos rótulos em seus aplicativos do Office dentro de uma hora. No entanto, é preciso aguardar 24 horas para que as alterações de rótulos existentes sejam replicadas para todos os usuários e serviços.
 
