@@ -59,11 +59,11 @@
           href: get-ready/authentication.md
         - name: Preparar unidades mapeadas
           href: get-ready/mapped-drives.md
-        - name: Preparar certificados e perfis de rede
+        - name: Prepare certificados e perfis de rede
           href: get-ready/certs-wifi-lan.md
         - name: Pré-requisitos para contas de convidados
           href: get-ready/guest-accounts.md
-        - name: Preparar recursos de impressão
+        - name: Prepare recursos de impressão
           href: get-ready/printing.md
         - name: Prepare os aplicativos
           href: get-ready/apps.md
@@ -82,7 +82,7 @@
           href: get-started/access-admin-portal.md
         - name: Adicione e verifique contatos do administrador no portal do Administrador
           href: get-started/add-admin-contacts.md
-        - name: Ajuste o acesso condicional
+        - name: Ajustar as configurações após o registro
           href: get-started/conditional-access.md
         - name: Atribua licenças
           href: get-started/assign-licenses.md
