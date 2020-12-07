@@ -320,7 +320,7 @@
                   href: ./office-365-security/quarantine-email-messages.md
                 - name: Relatórios de auditoria no EOP autônomo
                   href: ./office-365-security/auditing-reports-in-eop.md
-            - name: Defender para Office 365
+            - name: O que é o Defender para Office 365?
               href: ./office-365-security/office-365-atp.md
             - name: Novidades no Defender para Office 365
               href: office-365-security/whats-new-in-office-365-atp.md
@@ -527,7 +527,7 @@
               href: ./office-365-security/campaigns.md
             - name: Investigar emails mal-intencionados
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: Exibir relatórios no Centro de Conformidade e Segurança
+            - name: Exibir os relatórios do Defender para Office 365 no Centro de Conformidade e Segurança
               href: ./office-365-security/view-reports-for-atp.md
             - name: Exibir os detalhes e resultados de uma investigação automatizada
               href: ./office-365-security/air-view-investigation-results.md
