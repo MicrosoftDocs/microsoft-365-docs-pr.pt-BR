@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 65d1d18037a10cd36c3be9498a4373fa67b6afd9
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: d47757e8e9b36baf060c86436bd7840ded7c324d
+ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519605"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586668"
 ---
 # <a name="compliance"></a>Conformidade
 
-Quando você usa o Microsoft Managed desktop IT como serviço, a Microsoft fornece um conjunto abrangente de ofertas de conformidade. Esse esforço ajuda sua organização a cumprir os vários requisitos de conformidade.
+Ao usar a área de trabalho gerenciada da Microsoft, a Microsoft fornece um conjunto abrangente de ofertas de conformidade. Esse esforço ajuda sua organização a cumprir os vários requisitos de conformidade.
 
 ## <a name="compliance-coverage"></a>Cobertura de conformidade
 
@@ -35,6 +35,9 @@ A área de trabalho gerenciada da Microsoft obteve as seguintes certificações:
 - [Certificação STAR do Cloud Security Alliance (CSA)](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
 - [Controles de organização de serviço (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
 - [Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
+- [Health Insurance Portability and Accountability Act (HIPAA)](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
+- [Consultor programa de segurança de informações governamentais da Austrália (IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
+
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Relatórios de auditor e certificados de conformidade
 
@@ -45,4 +48,4 @@ Você pode encontrar informações relevantes, incluindo o controle e os requisi
 
 ## <a name="shared-responsibility"></a>Responsabilidade compartilhada
 
-A conformidade para os serviços de nuvem é uma responsabilidade compartilhada entre provedores de serviço de nuvem e seus clientes. Para saber mais, confira [responsabilidades compartilhadas da computação em nuvem](https://gallery.technet.microsoft.com/Shared-Responsibilities-81d0ff91) na galeria do TechNet.
+A conformidade para os serviços de nuvem é uma responsabilidade compartilhada entre provedores de serviço de nuvem e seus clientes. Para saber mais, confira [responsabilidades compartilhadas da computação em nuvem](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility).

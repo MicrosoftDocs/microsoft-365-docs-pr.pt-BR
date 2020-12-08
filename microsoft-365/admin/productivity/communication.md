@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade da experiência de pessoas de comunicação.
-ms.openlocfilehash: 54764c54bc4f36b1edd9d8dd3480921d2f8490bb
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+ms.openlocfilehash: de73957ffad27ddac9b5e18cd6da7becd2239a59
+ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562950"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49585311"
 ---
 # <a name="communication--people-experiences"></a>Comunicação – experiências de pessoas
 
@@ -44,22 +44,25 @@ A Microsoft 365 fornece às pessoas a flexibilidade para ajustar o estilo de com
 
 :::image type="content" source="../../media/primaryinsight.png" alt-text="Visão principal dos modos de comunicação.":::
 
-1. **Cabeçalho:** Fornece a principal métrica de pessoas usando mais de um modo de comunicação, ou seja,
-      - Envio de emails pelo Exchange
-      - Envio de mensagens por meio do teams
-      - Lançamento em comunidades no Yammer
+1. **Cabeçalho:** Fornece a principal métrica de pessoas usando mais de um modo de comunicação, a saber:
 
-    Essa métrica de chave é mostrada como uma porcentagem de todas as pessoas que estão usando duas ou mais do Exchange, do Microsoft Teams ou do Yammer. 
+   - Envio de emails pelo Exchange
+   - Envio de mensagens por meio do teams
+   - Lançamento em comunidades no Yammer
 
-2. **Corpo:** Fornece mais informações sobre como a flexibilidade nos modos de comunicação é valiosa para as pessoas da sua organização
+   Essa métrica de chave é mostrada como uma porcentagem de todas as pessoas que estão usando duas ou mais do Exchange, do Microsoft Teams ou do Yammer. 
+
+2. **Corpo:** Fornece mais informações sobre como a flexibilidade nos modos de comunicação é valiosa para as pessoas da sua organização.
+
 3. **Visualização do estado atual:**
-    - Barra horizontal onde a parte azul representa a porcentagem expressa no cabeçalho
-    - Realça o (numerador/denominador) usado para calcular a porcentagem expressa no cabeçalho:
-      - **Numerador**: n º de pessoas usando mais de um modo de comunicação nos últimos 28 dias
-      - **Denominador**: n º de pessoas marcadas como habilitadas para mais de um produto de comunicação nos últimos 28 dias
-    - O valor de **benchmark de ponto** da métrica chave também é mostrado como uma porcentagem
 
-1. **Exibir recursos de comunicação:** Clique aqui para inscrever todo o conteúdo de suporte na forma de vídeos/artigos relacionados à comunicação. Dentre eles, você pode navegar até a lista de reprodução personalizada para comunicação e, em seguida, para todas as categorias de Pontuação de produtividade.
+   - Barra horizontal onde a parte azul representa a porcentagem expressa no cabeçalho
+   - Realça o (numerador/denominador) usado para calcular a porcentagem expressa no cabeçalho:
+     - **Numerador**: n º de pessoas usando mais de um modo de comunicação nos últimos 28 dias
+     - **Denominador**: n º de pessoas marcadas como habilitadas para mais de um produto de comunicação nos últimos 28 dias
+   - O valor de **benchmark de ponto** da métrica chave também é mostrado como uma porcentagem
+
+4. **Exibir recursos de comunicação:** Clique aqui para inscrever todo o conteúdo de suporte na forma de vídeos/artigos relacionados à comunicação. Dentre eles, você pode navegar até a lista de reprodução personalizada para comunicação e, em seguida, para todas as categorias de Pontuação de produtividade.
 
 #### <a name="trend-visualization-of-primary-insight"></a>Visualização de tendências da visão principal
 
@@ -81,33 +84,49 @@ Também fornecemos informações que ajudam você a obter visibilidade de como s
 
 :::image type="content" source="../../media/howpeoplecommunicate.png" alt-text="! [Divisão de modos de comunicação.]":::
 
-1. **Cabeçalho:** Realça o objetivo da visão de fornecer uma análise detalhada dos diferentes modos de comunicação sendo considerados na comunicação
-2. **Corpo:** Fornece informações sobre o valor de uso de modos diferentes para o compartilhamento de conhecimento
+1. **Cabeçalho:** Realça a meta da visão de fornecer uma divisão detalhada dos diferentes modos de comunicação considerados na comunicação.
+
+2. **Corpo:** Fornece informações sobre o valor de uso de modos diferentes para o compartilhamento de conhecimento.
+
 3. **Visualização:** A divisão representa o uso de cada modo. A parte colorida e a fração de cada barra representam o número de pessoas que enviam emails, mensagens ou postagens da Comunidade como uma porcentagem do número de pessoas habilitadas para esse modo:
-      - **Pessoas enviando emails:** A parte colorida e a fração representam a porcentagem de usuários habilitados para o Exchange que estão enviando emails. Essa fração é construída de:
-          - **Numerador**: pessoas enviando emails nos últimos 28 dias
-          - **Denominador**: pessoas habilitadas para o Exchange nos últimos 28 dias
-      - **Pessoas enviando mensagens no Microsoft Teams:** A parte colorida e a fração representam a porcentagem de usuários habilitados para o Microsoft Teams que estão enviando mensagens. Essa fração é construída de:
-          - **Numerador**: pessoas que enviam mensagens no Microsoft Teams nos últimos 28 dias.
-          - **Denominador**: pessoas habilitadas para o Microsoft Teams nos últimos 28 dias.
-      - **Postagens de pessoas em comunidades:** A parte colorida e a fração representam a porcentagem de usuários habilitados para o Yammer que estão sendo lançados nas comunidades. Essa fração é construída de:
-          - **Numerador:** Pessoas postadas nas comunidades do Yammer nos últimos 28 dias.
-          - **Denominador:** Pessoas habilitadas para o Yammer nos últimos 28 dias.
+
+   - **Pessoas enviando emails:** A parte colorida e a fração representam a porcentagem de usuários habilitados para o Exchange que estão enviando emails. Essa fração é construída de:
+   
+     - **Numerador**: pessoas que enviam emails nos últimos 28 dias.
+     - **Denominador**: pessoas habilitadas para o Exchange nos últimos 28 dias.
+     
+   - **Pessoas enviando mensagens no Microsoft Teams:** A parte colorida e a fração representam a porcentagem de usuários habilitados para o Microsoft Teams que estão enviando mensagens. Essa fração é construída de:
+   
+     - **Numerador**: pessoas que enviam mensagens no Microsoft Teams nos últimos 28 dias.
+     - **Denominador**: pessoas habilitadas para o Microsoft Teams nos últimos 28 dias.
+     
+   - **Postagens de pessoas em comunidades:** A parte colorida e a fração representam a porcentagem de usuários habilitados para o Yammer que estão sendo lançados nas comunidades. Essa fração é construída de:
+   
+     - **Numerador:** Pessoas postadas nas comunidades do Yammer nos últimos 28 dias.
+     - **Denominador:** Pessoas habilitadas para o Yammer nos últimos 28 dias.
+          
 4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos agrupados e outro conteúdo de ajuda relacionado.
 
 ### <a name="mentions-in-emails"></a>@mentions em emails
 
 :::image type="content" source="../../media/emailmentions.png" alt-text="! [Emails com menção.]":::
 
-1. **Cabeçalho:** Realça o aumento na taxa de resposta para novos threads de email iniciados nos últimos 28 dias em que contêm @mentions
+1. **Cabeçalho:** Realça o aumento na taxa de resposta para novos threads de email iniciados nos últimos 28 dias em que contêm @mentions.
+
 2. **Corpo:** Fornece informações sobre o valor de uso de @mentions em emails. Além disso, as pessoas que usam o @mentions são expressas como uma porcentagem de todos os usuários que enviaram um email nos últimos 28 dias.
+
 3. **Visualização:** Divide a taxa de resposta para novos threads de email com base no fato de eles terem ou não @mentionsdos:
-      - **Respostas a emails com \@ menção:** a parte colorida e a fração representam a taxa de resposta para novos threads de email contendo @mentions. Essa fração é construída de:
-          - **Numerador:** Novos threads de email contendo @mentions que foram iniciados e receberam uma resposta nos últimos 28 dias.
-          - **Denominador:** Novos threads de email contendo @mentions que foram iniciados nos últimos 28 dias
-      - **Respostas a emails sem \@ menção:** a parte colorida e a fração representam a taxa de resposta para novos threads de email contendo @mentions. Essa fração é construída de:
-          - **Numerador:** Novos threads de email que não contêm @mentions, que foram iniciados e também receberam uma resposta nos últimos 28 dias.
-          - **Denominador:** Novos threads de email que não contêm @mentions que foram iniciados nos últimos 28 dias.
+
+   - **Respostas a emails com \@ menção:** a parte colorida e a fração representam a taxa de resposta para novos threads de email contendo @mentions. Essa fração é construída de:
+   
+     - **Numerador:** Novos threads de email contendo @mentions que foram iniciados e receberam uma resposta nos últimos 28 dias.
+     - **Denominador:** Novos threads de email contendo @mentions que foram iniciados nos últimos 28 dias.
+     
+   - **Respostas a emails sem \@ menção:** a parte colorida e a fração representam a taxa de resposta para novos threads de email contendo @mentions. Essa fração é construída de:
+   
+     - **Numerador:** Novos threads de email que não contêm @mentions, que foram iniciados e também receberam uma resposta nos últimos 28 dias.
+     - **Denominador:** Novos threads de email que não contêm @mentions que foram iniciados nos últimos 28 dias.
+     
 4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos agrupados e outro conteúdo de ajuda relacionado.
 
 
@@ -115,27 +134,38 @@ Também fornecemos informações que ajudam você a obter visibilidade de como s
 
 :::image type="content" source="../../media/teamsmessages.png" alt-text="! [Tipos de mensagem do teams.]":::
 
-1. **Cabeçalho:** Realça as pessoas que enviaram mensagens de canal como uma porcentagem de pessoas que enviaram qualquer tipo de mensagem (incluindo mensagens de chat e canal) nos últimos 28 dias
-2. **Corpo:** Fornece informações sobre o valor de uso de mensagens de canal no Microsoft Teams
+1. **Cabeçalho:** Realça as pessoas que enviaram mensagens de canal como uma porcentagem de pessoas que enviaram qualquer tipo de mensagem (incluindo mensagens de chat e canal) nos últimos 28 dias.
+
+2. **Corpo:** Fornece informações sobre o valor de uso de mensagens de canal no Microsoft Teams.
+
 3. **Visualização:** Divide o uso de mensagens de chat e de canal:
+
       - **Pessoas que enviam mensagens de chat:** A parte colorida e a fração representam o uso de mensagens de chat dentro de pessoas que enviaram mensagens no Microsoft Teams. A fração é construída de:
+      
         - **Numerador:** Pessoas que enviaram mensagens de chat no Microsoft Teams nos últimos 28 dias.
         - **Denominador:** Pessoas que enviaram mensagens no Microsoft Teams nos últimos 28 dias.
+        
       - **Pessoas enviando mensagens de canal:** A parte colorida e a fração representam o uso de mensagens de canal dentro de pessoas que enviam mensagens no Microsoft Teams. A fração é construída de:
+      
         - **Numerador:** Pessoas que enviaram mensagens de chat no Microsoft Teams nos últimos 28 dias.
         - **Denominador:** Pessoas que enviaram mensagens no Microsoft Teams nos últimos 28 dias.
+        
 4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos agrupados e outro conteúdo de ajuda relacionado.
 
 ### <a name="questions-and-answers-in-yammer"></a>Perguntas e respostas no Yammer
 
 :::image type="content" source="../../media/yammerqsandas.png" alt-text="[Perguntas e respostas no Yammer]"::: 
 
-1. **Cabeçalho:** Realça as postagens marcadas como perguntas no Yammer que receberam uma resposta marcada como &quot; a melhor resposta &quot; como uma porcentagem de todas as postagens marcadas como perguntas no Yammer nos últimos 28 dias
+1. **Cabeçalho:** Realça as postagens marcadas como perguntas no Yammer que receberam uma resposta marcada como &quot; a melhor resposta &quot; como uma porcentagem de todas as postagens marcadas como perguntas sobre o Yammer nos últimos 28 dias.
+
 2. **Corpo:** Fornece informações sobre o valor de uso de perguntas e respostas no Yammer para compartilhar o conhecimento.
+
 3. **Visualização:** O divide o uso do recurso perguntas e respostas em sua organização:
-      - **Perguntas:** A parte colorida da barra e o número associado representa o número total de postagens marcadas como perguntas nos últimos 28 dias.
-      - **Perguntas com respostas:** A parte colorida da barra e o número associado representa o número de postagens marcadas como perguntas e recebidas respostas nos últimos 28 dias.
-      - **Perguntas com melhores respostas:** A parte colorida da barra e o número associado representa o número de postagens que foram marcadas como perguntas e também recebeu a &quot; melhor resposta &quot; nos últimos 28 dias.
+
+   - **Perguntas:** A parte colorida da barra e o número associado representa o número total de postagens marcadas como perguntas nos últimos 28 dias.
+   - **Perguntas com respostas:** A parte colorida da barra e o número associado representa o número de postagens marcadas como perguntas e recebidas respostas nos últimos 28 dias.
+   - **Perguntas com melhores respostas:** A parte colorida da barra e o número associado representa o número de postagens que foram marcadas como perguntas e também recebeu a &quot; melhor resposta &quot; nos últimos 28 dias.
+      
 4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos agrupados e outro conteúdo de ajuda relacionado.
 
 ## <a name="related-content"></a>Conteúdo relacionado

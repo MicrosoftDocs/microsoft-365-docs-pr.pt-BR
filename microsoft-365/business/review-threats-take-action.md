@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Saiba como revisar e gerenciar ameaças detectadas pelo Microsoft Defender Antivirus em seus dispositivos Windows 10.
-ms.openlocfilehash: ffdf5cffb50d6145d6059233e0850839f4dfb582
-ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
+ms.openlocfilehash: 41465cb81850415a7b490b6af7f0ec66c724ca68
+ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385235"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588512"
 ---
 # <a name="review-detected-threats-and-take-action"></a>Examine as ameaças detectadas e execute ações
 
@@ -42,7 +42,7 @@ Você tem várias opções para exibir informações específicas sobre detecç�
 
 - A página **dispositivos ativos** no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Consulte [gerenciar detecções de ameaças na página de dispositivos ativos](#manage-threat-detections-on-the-active-devices-page) neste artigo.
 - A página **ameaças ativas** no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Consulte [gerenciar detecções de ameaças na página de ameaças ativas](#manage-threat-detections-on-the-active-threats-page) neste artigo.
-- A página **antivírus** no <a href="https://endpoint.microsoft.com" target="_blank">Microsoft Endpoint Manager</a>. Consulte [gerenciar detecções de ameaças no Microsoft Endpoint Manager](#manage-threat-detections-in-microsoft-endpoint-manager) neste artigo.
+- A página **antivírus** no <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">Microsoft Endpoint Manager</a>. Consulte [gerenciar detecções de ameaças no Microsoft Endpoint Manager](#manage-threat-detections-in-microsoft-endpoint-manager) neste artigo.
 
 Para saber mais, confira [ameaças detectadas pelo Microsoft Defender Antivirus](threats-detected-defender-av.md).
 
@@ -88,7 +88,7 @@ Ao exibir detalhes sobre ameaças ou dispositivos específicos, você verá reco
 
 Você pode usar o Microsoft Endpoint Manager para gerenciar detecções de ameaças. Os dispositivos Windows 10 devem ser [registrados no Intune](/mem/intune/enrollment/windows-enrollment-methods) (parte do Microsoft Endpoint Manager).
 
-1. Vá para o centro de administração do Microsoft Endpoint Manager em <a href="https://endpoint.microsoft.com" target="_blank">https://endpoint.microsoft.com</a> e entre.
+1. Vá para o centro de administração do Microsoft Endpoint Manager em <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">https://endpoint.microsoft.com</a> e entre.
 
 2. No painel de navegação, selecione **segurança do ponto de extremidade**.
 
