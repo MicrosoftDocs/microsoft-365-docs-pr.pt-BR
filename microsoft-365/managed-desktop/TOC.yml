@@ -125,9 +125,6 @@
           items:
             - name: Relatório do inventário do dispositivo
               href: working-with-managed-desktop/device-inventory-report.md
-        - name: Trabalhe com percepções
-          href: working-with-managed-desktop/insights.md
-          items:
             - name: Percepções de uso
               href: working-with-managed-desktop/usage-insights.md
             - name: Percepções de confiabilidade
