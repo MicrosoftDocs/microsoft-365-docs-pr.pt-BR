@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Documentação da Área de Trabalho Gerenciada da Microsoft
-summary: A Área de Trabalho Gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseados em nuvem da Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de TI para se concentrarem nas principais necessidades comerciais.
+summary: A Área de Trabalho Gerenciada da Microsoft é uma solução única de ITaaS que combina o gerenciamento de pontos de extremidade e o monitoramento de segurança, de uma forma que dá aos usuários uma experiência segura e produtiva de dispositivo que os profissionais de TI podem confiar.
 metadata:
   title: Documentação da Área de Trabalho Gerenciada da Microsoft
   description: A Área de Trabalho Gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseados em nuvem da Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de TI para se concentrarem nas principais necessidades comerciais.
@@ -9,13 +9,13 @@ metadata:
   ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.date: 07/13/2020
-  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
-  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.date: 12/04/2020
+  ms.openlocfilehash: 59d8d4ae0986af58c086ea08f486feca5cb23f71
+  ms.sourcegitcommit: 9d5ddfc856926ce6919498c9c42a7421fef78328
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/05/2020
-  ms.locfileid: "46564138"
+  ms.lasthandoff: 12/04/2020
+  ms.locfileid: "49576770"
 landingContent:
 - title: Sobre a Área de Trabalho Gerenciada da Microsoft
   linkLists:
@@ -31,23 +31,35 @@ landingContent:
       url: get-ready/index.md
     - text: Comece
       url: get-started/index.md
-    - text: Trabalhe com a Área de Trabalho Gerenciada da Microsoft
+    - text: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
       url: /microsoft-365/managed-desktop/working-with-managed-desktop/
-- title: Novos artigos e postagens de blog
+- title: Artigos e postagens de blog
   linkLists:
-  - linkListType: whats-new
+  - linkListType: learn
     links:
-    - text: '[Roadmap] Seu Roteiro completo para a Área de Trabalho Gerenciada da Microsoft'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
-    - text: '[Whitepaper] Estude: Demanda crescente para a Área de trabalho gerenciada'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
-    - text: '[E-book] Agrade sua empresa com um local de trabalho moderno'
-      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
-- title: Vídeos
+    - text: '[Blog] Os dispositivos de área de trabalho são os novos "petiscos gratuitos"'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/workplace-devices-are-the-new-free-snacks/ba-p/1675936
+    - text: '[White Paper] Estudo: a Área de Trabalho Gerenciada da Microsoft poupa tempo e custos'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/study-microsoft-managed-desktop-saves-time-and-costs/ba-p/1403408
+    - text: '[White Paper] a Área de Trabalho Gerenciada da Microsoft pode Ajudar a Melhorar o Envolvimento'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/microsoft-managed-desktop-can-help-boost-engagement/ba-p/1031932
+    - text: '[White Paper] o SA Power Networks implementa a Área de Trabalho Gerenciada da Microsoft para satisfazer as necessidades dos usuários em evolução'
+      url: https://customers.microsoft.com/story/832888-sa-power-networks-case-study-energy-microsoft-managed-desktop
+- title: Benefícios e destaques
   linkLists:
   - linkListType: video
     links:
-    - text: Aprenda sobre os benefícios da Área de Trabalho Gerenciada da Microsoft com o diretor de engenharia do Grupo Lloyds Banking.
+    - text: Área de Trabalho Gerenciada da Microsoft – Experiência de administração de TI
+      url: https://www.youtube.com/watch?v=UQ8VRSysUXw&feature=youtu.be
+    - text: Quais são as grandes novidades da Área de Trabalho Gerenciada da Microsoft
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4yjfL
+    - text: Área de Trabalho Gerenciada da Microsoft – Experiências de dispositivos fantásticos
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE41urx?autoplay=false
+    - text: Área de Trabalho Gerenciada da Microsoft – Operações de segurança
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: Área de Trabalho Gerenciada da Microsoft – Processo de alteração e lançamento
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: The Shiproom / IGM / Episódio 29 – Priorizando a experiência do usuário com segurança
+      url: https://www.youtube.com/watch?v=im11J9C1MTA&feature=youtu.be
+    - text: 'The Shiproom / Lloyds Banking Group / Episódio 25 – Liderança em meio às rápidas transformações '
       url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
-    - text: Destaques da Área de Trabalho Gerenciada da Microsoft na conferência anual Ignite
-      url: /microsoft-365/managed-desktop/service-description

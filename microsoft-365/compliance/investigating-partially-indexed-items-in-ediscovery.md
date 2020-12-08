@@ -18,24 +18,24 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como gerenciar itens parcialmente indexados (ou não indexados) do Exchange, SharePoint e OneDrive for Business em sua organização.
-ms.openlocfilehash: bbf234e2051cd103d1b99ab75b8e5c15365762a9
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 132a174f0c163c75939b75906baa3833c6387fa7
+ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919993"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588558"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Investigar itens parcialmente indexados na descoberta eletrônica
 
 Uma pesquisa de descoberta eletrônica que você executa do centro de conformidade da Microsoft 365 inclui automaticamente itens parcialmente indexados nos resultados estimados da pesquisa quando você executa uma pesquisa. Itens parcialmente indexados são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive for Business que por algum motivo não foram completamente indexados para pesquisa. A maioria das mensagens de email e documentos de site são indexados com êxito porque estão dentro dos [limites de indexação para mensagens de email](limits-for-content-search.md#indexing-limits-for-email-messages). No entanto, alguns itens podem exceder esses limites de indexação e serão parcialmente indexados. Aqui estão outras razões pelas quais os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados quando você executa uma pesquisa de descoberta eletrônica:
   
-- As mensagens de email têm um arquivo anexado sem um manipulador válido, como arquivos de imagem; Esta é a causa mais comum de itens de email parcialmente indexados
+- As mensagens de email têm um arquivo anexado sem um manipulador válido, como arquivos de imagem; Essa é a causa mais comum de itens de email parcialmente indexados.
 
-- Muitos arquivos anexados a uma mensagem de email
+- Muitos arquivos anexados a uma mensagem de email.
 
-- Um arquivo anexado a uma mensagem de email é muito grande
+- Um arquivo anexado a uma mensagem de email é muito grande.
 
-- O tipo de arquivo tem suporte para indexação, mas ocorreu um erro de indexação para um arquivo específico
+- O tipo de arquivo é compatível com a indexação, mas ocorreu um erro de indexação com um arquivo específico.
 
 Embora varie, a maioria dos clientes da organização tem menos de 1% do conteúdo por volume e menos de 12% do conteúdo por tamanho parcialmente indexado. O motivo para a diferença entre o volume versus o tamanho é que os arquivos maiores têm uma maior probabilidade de conteúdo que não pode ser completamente indexado.
   
@@ -45,10 +45,10 @@ Após executar uma pesquisa de descoberta eletrônica, o número total e o taman
   
 - Se um item for parcialmente indexado e corresponder à consulta de pesquisa, ele será incluído na contagem (e no tamanho) dos itens de resultado de pesquisa e dos itens parcialmente indexados. No entanto, quando os resultados da mesma pesquisa são exportados, o item é incluído somente com o conjunto de resultados de pesquisa; Ele não está incluído como um item parcialmente indexado.
 
-- Se você especificar um intervalo de datas para uma consulta de pesquisa (incluindo-a na consulta de palavra-chave ou usando uma condição), qualquer item parcialmente indexado que não coincida com o intervalo de datas não será incluído na contagem de itens parcialmente indexados. Somente os itens parcialmente indexados que estão no intervalo de datas são incluídos na contagem de itens parcialmente indexados.
+- Se você especificar um intervalo de datas para uma consulta de pesquisa (incluindo-a na consulta de palavra-chave ou usando uma condição), qualquer item parcialmente indexado que não coincida com o intervalo de datas não será incluído na contagem de itens parcialmente indexados. Somente os itens parcialmente indexados que estão no intervalo de datas são incluídos na contagem de itens indexados.
 
-> [!NOTE]
-> Os itens parcialmente indexados localizados nos sites do SharePoint e do OneDrive *não são* incluídos na estimativa de itens parcialmente indexados que são exibidos nas estatísticas detalhadas da pesquisa. No entanto, os itens parcialmente indexados podem ser exportados quando você exporta os resultados de uma pesquisa de descoberta eletrônica. Por exemplo, se você só pesquisa sites, o número estimado de itens parcialmente indexados será zero.
+  > [!NOTE]
+  > Os itens parcialmente indexados localizados nos sites do SharePoint e do OneDrive *não são* incluídos na estimativa de itens parcialmente indexados que são exibidos nas estatísticas detalhadas da pesquisa. No entanto, os itens parcialmente indexados podem ser exportados quando você exporta os resultados de uma pesquisa de descoberta eletrônica. Por exemplo, se você só pesquisa sites, o número estimado de itens parcialmente indexados será zero.
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>Calculando a taxa de itens parcialmente indexados em sua organização
 
@@ -87,7 +87,7 @@ Quando você exporta os resultados da pesquisa de descoberta eletrônica ou um r
   
 ## <a name="errors-related-to-partially-indexed-items"></a>Erros relacionados a itens parcialmente indexados
 
-Marcas de erro são comparadas de duas partes de informação, o erro e o tipo de arquivo. Por exemplo, neste par erro/filetype:
+Marcas de erro são comparadas de duas partes de informação, o erro e o tipo de arquivo. Por exemplo, neste par de erro/tipo de arquivo:
 
 ```text
  parseroutputsize_xls
@@ -97,7 +97,7 @@ Marcas de erro são comparadas de duas partes de informação, o erro e o tipo d
   
 Veja a seguir uma lista de erros de indexação e uma descrição da possível causa do erro.
   
-|**Marca de erro**|**Descrição**|
+| Marca de erro | Descrição |
 |:-----|:-----|
 | `attachmentcount` <br/> |Uma mensagem de email tinha muitos anexos e alguns desses anexos não foram processados.  <br/> |
 | `attachmentdepth` <br/> |O recuperador de conteúdo e o analisador de documentos encontraram muitos níveis de anexos aninhados dentro de outros anexos. Alguns desses anexos não foram processados.  <br/> |
@@ -108,7 +108,7 @@ Veja a seguir uma lista de erros de indexação e uma descrição da possível c
 | `parserencrypted` <br/> |O conteúdo do anexo ou da mensagem de email é criptografado, e o Microsoft 365 não pôde decodificar o conteúdo.  <br/> |
 | `parsererror` <br/> |Ocorreu um erro desconhecido durante a análise. Isso normalmente resulta de um bug de software ou uma falha de serviço.  <br/> |
 | `parserinputsize` <br/> |Um anexo era muito grande para o analisador manipular, e a análise desse anexo não aconteceu ou não foi concluída.  <br/> |
-| `parsermalformed` <br/> |Um anexo foi malformado e não pôde ser manipulado pelo analisador. Esse resultado pode ser de formatos de arquivo antigos, arquivos criados por software incompatível ou vírus que fingim ser algo diferente de alegado.  <br/> |
+| `parsermalformed` <br/> |Um anexo foi malformado e não pôde ser manipulado pelo analisador. Esse resultado pode ser devido a formatos de arquivo antigos, arquivos criados por software incompatível ou vírus que fingir ser algo diferente de alegado.  <br/> |
 | `parseroutputsize` <br/> |A saída da análise de um anexo era muito grande e teve de ser truncada.  <br/> |
 | `parserunknowntype` <br/> |Um anexo tinha um tipo de arquivo que o Microsoft 365 não pôde detectar.  <br/> |
 | `parserunsupportedtype` <br/> |Um anexo tinha um tipo de arquivo que o Office 365 pode detectar, mas não há suporte para a análise desse tipo de arquivo.  <br/> |
@@ -167,7 +167,7 @@ As etapas a seguir mostram como executar um script do PowerShell que pesquisa to
   }
 ```
 
-2. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627084).
+2. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://go.microsoft.com/fwlink/p/?linkid=627084).
 
 3. Em segurança & centro de conformidade do PowerShell, vá para a pasta onde você salvou o script na etapa 1 e execute o script; por exemplo:
 
