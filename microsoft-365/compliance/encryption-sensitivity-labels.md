@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3856b92126d660ed0cdbfd1280d778ac9f072424
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: b862cbffcc4268876444618f7c2708c04b63630e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446117"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561712"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
@@ -43,15 +43,15 @@ Quando um documento ou email é criptografado, o acesso ao conteúdo é restrito
 Por fim, como administrador, quando você configura um rótulo de confidencialidade para aplicar criptografia, há duas opções a escolher:
 
 - **Atribuir permissões agora**, para que assim você possa determinar exatamente quais usuários podem obter quais permissões de conteúdo com esse rótulo.
-- **Let users assign permissions** when they apply the label to content. This way, you can allow people in your organization some flexibility that they might need to collaborate and get their work done.
+- **Permitir que os usuários atribuam permissões** quando aplicam o rótulo ao conteúdo. Dessa forma, você pode conceder a pessoas em sua organização uma certa flexibilidade que elas possam precisar para colaborar e realizar o trabalho.
 
 As configurações de criptografia estão disponíveis quando você [cria um rótulo de confidencialidade](create-sensitivity-labels.md) no Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365 ou Centro de Conformidade e segurança.
 
 ## <a name="understand-how-the-encryption-works"></a>Entenda como funciona a criptografia
 
-Encryption uses the Azure Rights Management service (Azure RMS) from Azure Information Protection. This protection solution uses encryption, identity, and authorization policies. To learn more, see [What is Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) from the Azure Information Protection documentation. 
+A criptografia usa o serviço Azure Rights Management (Azure RMS) da Proteção de Informações do Azure. Esta solução de proteção usa política de criptografia, identidade e autorização. Para saber mais, confira [O que é o Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) na documentação da Proteção de Informações do Azure. 
 
-When you use this encryption solution, the **super user** feature ensures that authorized people and services can always read and inspect the data that has been encrypted for your organization. If necessary, the encryption can then be removed or changed. For more information, see [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users).
+Quando você usa essa solução de criptografia, o **recurso de superusuário** garante que as pessoas e os serviços autorizados possam sempre ler e inspecionar os dados criptografados para a sua organização. Se necessário, a criptografia poderá ser removida ou alterada. Para saber mais, confira [Configurar os superusuários para a Proteção de Informações do Azure, serviços de descoberta ou recuperação de dados](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
 ## <a name="how-to-configure-a-label-for-encryption"></a>Como configurar um rótulo para criptografia
 
@@ -85,7 +85,7 @@ No entanto, conteúdo pode já estar criptografado. Por exemplo, outro usuário 
 
 A tabela a seguir identifica o que acontece com uma criptografia existente quando um rótulo de confidencialidade é aplicado ao conteúdo:
 
-| |**Criptografia: não selecionada**|**Criptografia: Configurada**|**Criptografia: remover**|
+| | Criptografia: não selecionada | Criptografia: Configurada | Criptografia: remover |
 |:-----|:-----|:-----|:-----|
 |**Permissões especificadas por um usuário**|A criptografia original é preservada|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
 |**Modelo de proteção**|A criptografia original é preservada|A criptografia de novo rótulo é aplicada|A criptografia original é removida|
@@ -276,7 +276,7 @@ Para rotulagem interna, os usuários visualizam a mesma caixa de diálogo se sel
 
 - Windows: guia **Arquivo** > **Informações** > **Proteger Documento** > **Restringir Acesso** > **Acesso Restrito**
 
-- Mac: guia **Revisar** > **Proteção** > **Permissões** > **Acesso Restrito**
+- MacOS: guia **Análise** > **Proteção** > **Permissões** > **Acesso Restrito**
 
 ## <a name="example-configurations-for-the-encryption-settings"></a>Exemplos de configurações para as configurações de criptografia
 
@@ -290,7 +290,7 @@ Esse rótulo é exibido apenas no Outlook e no Outlook na Web, e você deve usar
 
 Os usuários digitam o endereço de email do Gmail na caixa **Para**.  Em seguida, eles selecionam o rótulo e a opção Não Encaminhar é adicionada automaticamente ao email. O resultado é que os destinatários não podem encaminhar o email, imprimi-lo, copiá-lo ou salvá-lo fora da caixa de correio usando a opção **Salvar Como**.
 
-1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** selecione**Permitir que os usuários atribuam permissões ao aplicar o rótulo**.
+1. Na página **Criptografia**: Para **Atribuir permissões agora ou permitir que os usuários decidam?** selecione **Permitir que os usuários atribuam permissões ao aplicar o rótulo**.
 
 2. Marque a caixa de seleção: **No Outlook, impor restrições equivalentes à opção Não Encaminhar**.
 
@@ -360,7 +360,7 @@ Use essa configuração somente quando não precisar restringir quem pode abrir 
 
 5. Clique em **Selecionar permissões**.
 
-6. No painel **Escolher permissões**, marque a caixa suspensa, selecione as permissões que você quer, e selecione**Salvar**.
+6. No painel **Escolher permissões**, marque a caixa suspensa, selecione as permissões que você quer, e selecione **Salvar**.
 
 7. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
 
@@ -384,6 +384,8 @@ Criptografar seus documentos e emails mais confidenciais ajuda a garantir que so
 - A funcionalidade [Salvamento Automático](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) nos aplicativos do Office (Windows, Mac, Android e iOS) está desabilitada para arquivos criptografados. Os usuários visualizam uma mensagem informando que o arquivos tem permissões restritas que devem ser removidas antes de ativar o Salvamento Automático.
 
 - Os arquivos criptografados podem demorar mais para abrir nos aplicativos do Office (Windows, Mac, Android e iOS).
+
+- Se um rótulo que aplica criptografia for adicionado usando um aplicativo do Office quando o documento for [retirado no Microsoft Office SharePoint Online](https://support.microsoft.com/office/check-out-check-in-or-discard-changes-to-files-in-a-library-7e2c12a9-a874-4393-9511-1378a700f6de) e o usuário descartar o check-out, o documento permanecerá rotulado e criptografado.
 
 - As seguintes ações para arquivos criptografados não são compatíveis com os aplicativos do Office (Windows, Mac, Android e iOS) e os usuários veem uma mensagem de erro informando que algo deu errado. No entanto, as funcionalidades do SharePoint podem ser usadas como alternativa:
 

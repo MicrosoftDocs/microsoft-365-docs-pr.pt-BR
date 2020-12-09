@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Resumo: crie sites de equipe do SharePoint Online públicos, privados, confidenciais e altamente confidenciais em um ambiente de desenvolvimento/teste de campanha política.'
-ms.openlocfilehash: 1ae147cef3f7c946946d10fe50a7c23bd9e61a2e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d6fe2067e51e47fed4bd90e1a1fa6c898034a6d7
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203150"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561190"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política
 
@@ -46,9 +46,9 @@ Nesta fase, você deve criar os rótulos para os diferentes níveis de seguranç
     
 2. Na guia **Microsoft Office Home**, clique no bloco **Administração**.
     
-3. Na nova guia **Centro de Administração da Microsoft 365** do navegador, clique em **Centros de administração > Segurança&amp; e Conformidade**.
+3. Na nova guia **Centro de Administração da Microsoft 365** do navegador, clique em **Centros de administração > Segurança e Conformidade**.
     
-4. Na nova guia **Início – Segurança &amp;e Conformidade** do navegador, clique em **Classificações > Rótulos**.
+4. Na nova guia **Início – Segurança e Conformidade** do navegador, clique em **Classificações > Rótulos**.
     
 5. No painel **Início > Rótulos**, clique em **Criar um rótulo**.
     
@@ -174,7 +174,7 @@ Para criar um site de equipe do SharePoint Online isolado de nível confidencial
     
 12. Na caixa de diálogo **Configurações de Solicitação de Acesso**, desmarque as caixas de seleção **Permitir que membros compartilhem o site e arquivos e pastas individuais** e **Permitir que membros convidem outras pessoas para o grupo de membros do site**, digite **ITAdmin1 @**<your organization name> **.onmicrosoft.com** em **Enviar todas as solicitações para acesso** e clique em **OK**.
     
-13. Clique em **Membros da campanha de marketing ** na lista.
+13. Clique em **Membros da campanha de marketing** na lista.
     
 14. Na página **Pessoas e Grupos**, clique em **Novo**.
     
@@ -196,7 +196,7 @@ Para criar um site de equipe do SharePoint Online isolado de nível confidencial
     
 Aqui estão os resultados da configuração de permissões:
   
-- O grupo do SharePoint **Membros da campanha de marketing ** contém apenas o grupo **Funcionários sênior e estratégicos** (que contém as contas de usuário Candidato, ChiefOfStaff e Strategic1), o grupo **Marketing de campanha** (que contém a conta de administrador global), o grupo **Equipe de análise** (que contém a conta de usuário DataScientist1) e a conta de usuário **Regular1 **.
+- O grupo do SharePoint **Membros da campanha de marketing** contém apenas o grupo **Funcionários sênior e estratégicos** (que contém as contas de usuário Candidato, ChiefOfStaff e Strategic1), o grupo **Marketing de campanha** (que contém a conta de administrador global), o grupo **Equipe de análise** (que contém a conta de usuário DataScientist1) e a conta de usuário **Regular1**.
     
 - O grupo do SharePoint **Marketing de campanha – Proprietários** contém apenas o grupo **Equipe de TI** (que contém apenas as contas de usuário ITAdmin1 e ITAdmin2).
     
@@ -216,11 +216,11 @@ Em seguida, configure a pasta de documentos do site de equipe de marketing de ca
     
 4. Em **Configurações – Aplicar Rótulo**, selecione **Confidencial** e clique em **Salvar**.
     
-Em seguida, configure uma política de DLP (prevenção de perda de dados) que notifica os usuários quando eles compartilham um documento em um site de equipe do SharePoint Online com o rótulo Confidencial fora da organização. Essa política de DLP se aplicará a recursos no site de marketing da campanha.
+Em seguida, configure uma política de DLP (prevenção de perda de dados) que notifica os usuários quando eles compartilham um documento em um site de equipe do Microsoft SharePoint Online com o rótulo Confidencial fora da organização. Essa política de DLP se aplicará a recursos no site de marketing da campanha.
   
-1. Na guia **Microsoft Office Home** no navegador, clique no bloco **Segurança&amp; Conformidade**.
+1. Na guia **Microsoft Office Home** no navegador, clique no bloco **Segurança e Conformidade**.
     
-2. Na nova guia **Segurança e&amp; Conformidade** no navegador, clique em **Prevenção de perda de dados > Política**.
+2. Na nova guia **Segurança e Conformidade** no navegador, clique em **Prevenção de perda de dados > Política**.
     
 3. No painel **Prevenção de perda de dados**, clique em **+ Criar uma política**.
     
@@ -304,7 +304,7 @@ Para criar um site de equipe do SharePoint Online isolado no nível altamente co
     
 Aqui estão os resultados da configuração de permissões:
   
-- O grupo **Membros estratégicos da campanha** do SharePoint contém apenas o grupo **Funcionários sênior e estratégicos** (que contém apenas as contas de usuário Candidato, ChiefOfStaff e Strategic1) e o grupo ** Estratégia da campanha** (que contém a conta de usuário de administrador global).
+- O grupo **Membros estratégicos da campanha** do SharePoint contém apenas o grupo **Funcionários sênior e estratégicos** (que contém apenas as contas de usuário Candidato, ChiefOfStaff e Strategic1) e o grupo **Estratégia da campanha** (que contém a conta de usuário de administrador global).
     
 - O grupo do SharePoint **Estratégia da campanha – Proprietários** contém apenas o grupo **Equipe de TI** (que contém apenas as contas de usuário ITAdmin1 e ITAdmin2).
     
@@ -328,9 +328,9 @@ Em seguida, configure uma política de DLP que bloqueia os usuários quando eles
   
 1. Se necessário, use um navegador no seu computador local e entre no centro de administração ([https://admin.microsoft.com](https://admin.microsoft.com)) com uma conta com a função de Administrador de Segurança ou Administrador da Empresa.
     
-2. Na guia **Página Inicial do Microsoft Office** no navegador, clique no bloco **Segurança e Conformidade**.
+2. Na guia **Microsoft Office Home** no navegador, clique no bloco **Segurança e Conformidade**.
     
-3. Na nova guia **Segurança e&amp; Conformidade** no navegador, clique em **Prevenção de perda de dados > Política**.
+3. Na nova guia **Segurança e Conformidade** no navegador, clique em **Prevenção de perda de dados > Política**.
     
 4. No painel **Prevenção de perda de dados**, clique em **+ Criar uma política**.
     
@@ -376,7 +376,7 @@ Depois, configure a Proteção de Informações do Azure com uma nova política 
     
 2. Em uma guia separada do navegador, vá para o Portal do Azure ([https://portal.azure.com](https://portal.azure.com)).
     
-4. No painel de pesquisa, digite **informações**e, em seguida, clique em **Proteção de Informações do Azure**.
+4. No painel de pesquisa, digite **informações** e, em seguida, clique em **Proteção de Informações do Azure**.
 
 5. Clique em **Rótulos**.
     
@@ -404,7 +404,7 @@ Depois, configure a Proteção de Informações do Azure com uma nova política 
     
 17. Digite **CampaignStrategy** em **Nome** e **Documentos no Site de equipe de estratégia de campanha** em **Descrição**.
     
-18. Clique em **Selecionar usuários ou grupos que obtêm essa política > Usuário/Grupos**e selecione **Funcionários sênior e estratégicos**.
+18. Clique em **Selecionar usuários ou grupos que obtêm essa política > Usuário/Grupos** e selecione **Funcionários sênior e estratégicos**.
     
 19. Clique em **Selecionar > OK**.
 

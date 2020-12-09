@@ -12,21 +12,21 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Aprenda como as instituições de serviços financeiros podem manter a conformidade de segurança financeira e colaborar com eficácia usando o Microsoft 365 e o Microsoft Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: cf485ec673c2f53d1b088c24be950dfe98c71276
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: ff4ce29e42ea3a8a5619f514373041c1e8c3e138
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376638"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558473"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
 ## <a name="introduction"></a>Introdução
-As instituições de serviços financeiros superam quase todos os negócios comerciais em sua demanda por controles rigorosos de segurança, conformidade e governança. A proteção de dados, identidades, dispositivos e aplicativos não é apenas crítica para seus negócios, está sujeita a requisitos de conformidade e diretrizes de órgãos reguladores, como a SEC (Comissão de Valores Mobiliários) dos EUA, FINRA (Autoridade Reguladora do Setor Financeiro), FFIEC (Conselho Federal de Análise das Instituições Financeiras) e CFTC (Comissão de Negociação de Futuros de Commodities). Além disso, as instituições financeiras estão sujeitas a leis como Dodd-Frank e Sarbanes-Oxley Act de 2002.
+As instituições de serviços financeiros superam quase todas as empresas comerciais em demanda por rigorosos controles de segurança, conformidade e governança. A proteção de dados, identidades, dispositivos e aplicativos não é apenas fundamental para os negócios, está sujeita aos requisitos e diretrizes de conformidade de órgãos reguladores dos EUA, como a SEC (Comissão de Títulos e Câmbio dos Estados Unidos), a FINRA (Autoridade Regulatória da Indústria Financeira), o FFIEC (Conselho Federal de Exame de Instituições Financeiras) e a CFTC (Comissão de Negociação de Futuros de Commodities). Além disso, as instituições financeiras estão sujeitas a leis como a Dodd-Frank e a Sarbanes-Oxley de 2002.
 
-No clima atual de maior vigilância de segurança, preocupações com riscos internos e violações de dados públicos, os clientes também exigem altos níveis de segurança de suas instituições financeiras para que possam confiar seus dados pessoais e ativos bancários.
+No clima atual de maior vigilância à segurança e preocupações com riscos internos e violações de dados públicos, os clientes também exigem altos níveis de segurança de suas instituições financeiras, a fim de confiar neles seus dados pessoais e ativos bancários.
 
-Historicamente, a necessidade de controles abrangentes afetou e restringiu diretamente os sistemas e plataformas de TI que as instituições financeiras usam para habilitar a colaboração interna e externamente. Hoje, os funcionários de serviços financeiros precisam de uma plataforma de colaboração moderna que seja fácil de adotar e usar. Mas os serviços financeiros não podem negociar a flexibilidade de colaborar com usuários, equipes e departamentos de controles de segurança e conformidade que impõem políticas para proteger usuários e sistemas de TI contra ameaças.
+Historicamente, a necessidade de controles abrangentes impactou e restringiu diretamente os sistemas e plataformas de TI que as instituições financeiras usam para permitir a colaboração interna e externa. Hoje, os funcionários de serviços financeiros precisam de uma plataforma de colaboração moderna e que seja fácil de adotar e usar. Mas os serviços financeiros não podem trocar a flexibilidade de colaborar entre usuários, equipes e departamentos pelos controles de segurança e conformidade que impõem políticas para proteger usuários e sistemas de TI contra ameaças.
 
 No setor de serviços financeiros, é necessária uma consideração cuidadosa para a configuração e implantação de ferramentas de colaboração e controles de segurança, incluindo:
 - Avaliação de risco de cenários comuns de colaboração organizacional e processos comerciais
@@ -35,7 +35,7 @@ No setor de serviços financeiros, é necessária uma consideração cuidadosa p
 - Requisitos de conformidade regulamentar
 - Outros riscos operacionais
 
-**O Microsoft 365 é um ambiente de nuvem de trabalho moderno que pode enfrentar os desafios contemporâneos que as organizações de serviços financeiros enfrentam. A colaboração segura e flexível em toda a empresa é combinada com controles e aplicação de políticas para aderir a estruturas rigorosa de conformidade regulamentar.** Este artigo descreve como a plataforma Microsoft 365 ajuda os serviços financeiros a migrar para uma plataforma de colaboração moderna, enquanto ajuda a manter os dados e sistemas seguros e em conformidade com os regulamentos:
+**O Microsoft 365 é um ambiente em nuvem no local de trabalho moderno que pode enfrentar os desafios contemporâneos para as organizações de serviços financeiros. A colaboração segura e flexível em toda a empresa é combinada com controles e aplicação de políticas para aderir a estruturas rigorosas de conformidade regulamentar.** Este artigo descreve como a plataforma do Microsoft 365 ajuda os serviços financeiros a migrar para uma moderna plataforma de colaboração, ajudando a manter dados e sistemas seguros e em conformidade com os regulamentos:
 
 * Impulsione a produtividade dos funcionários e da organização usando o Microsoft 365 e o Microsoft Teams
 * Proteja a colaboração moderna usando o Microsoft 365 
@@ -45,11 +45,11 @@ No setor de serviços financeiros, é necessária uma consideração cuidadosa p
 * Estabelecer muros éticos com barreiras de informação
 * Proteger-se contra exfiltração de dados e riscos internos
 
-Como parceiro da Microsoft, a Protiviti contribuiu e forneceu feedback material para este artigo.
+Como parceiro da Microsoft, a Protiviti contribuiu e forneceu comentário material para este artigo.
 
-As seguintes ilustrações para baixar complementam este artigo. O Woodgrove Bank e a Contoso são usados ​​para demonstrar como os recursos descritos neste artigo podem ser aplicados para atender aos requisitos regulamentares comuns de serviços financeiros. Sinta-se à vontade para adaptar essas ilustrações para seu próprio uso. 
+As seguintes ilustrações baixáveis complementam este artigo. O Woodgrove Bank e a Contoso são usados para demonstrar como os recursos descritos neste artigo podem ser aplicados para atender aos requisitos normativos comuns dos serviços financeiros. Sinta-se à vontade para adaptar essas ilustrações para seu próprio uso. 
 
-**Ilustrações de conformidade e proteção de informações do Microsoft 365**
+**Ilustrações da Proteção de Informações e Conformidade do Microsoft 365**
 
 | Item | Descrição |
 |:-----|:-----|
@@ -121,7 +121,7 @@ _*_A proteção do acesso às informações do cliente, documentos financeiros e
 
 O Microsoft 365 fornece uma plataforma de identidade segura no [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/), onde as identidades são armazenadas centralmente e gerenciadas com segurança. O Azure AD, juntamente com uma série de serviços de segurança relacionados ao Microsoft 365, constitui a base para fornecer aos funcionários o acesso necessário para trabalhar com segurança, além de proteger a organização contra ameaças.
 
-[A MFA (Autenticação Multifator do Azure)](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-mfa-get-started) é incorporada à plataforma e fornece uma prova adicional de autenticação para ajudar a confirmar a identidade do usuário ao acessar dados e aplicativos financeiros confidenciais. A MFA do Azure requer pelo menos duas formas de autenticação, como uma senha e um dispositivo móvel conhecido. Ela tem suporte a várias opções de autenticação de dois fatores, incluindo:
+[A MFA (Autenticação Multifator do Microsoft Azure Active Directory)](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-mfa-get-started) é incorporada à plataforma e fornece uma prova adicional de autenticação para ajudar a confirmar a identidade do usuário ao acessar dados e aplicativos financeiros confidenciais. A MFA do Azure requer pelo menos duas formas de autenticação, como uma senha e um dispositivo móvel conhecido. Ela tem suporte a várias opções de autenticação de dois fatores, incluindo:
 
 - O aplicativo Microsoft Authenticator
 - Um código de acesso único entregue via SMS
