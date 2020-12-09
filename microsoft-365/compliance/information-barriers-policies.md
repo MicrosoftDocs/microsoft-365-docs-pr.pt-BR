@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Saiba como definir políticas para barreiras de informações no Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ffeb1f1ca3296390fa10a636d3806127095712f8
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: ed4c9caba59eee9f01bdb1db3bafba91bac78437
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941426"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604221"
 ---
 # <a name="define-information-barrier-policies"></a>Definir políticas de barreira de informações
 
@@ -68,12 +68,14 @@ Além das [licenças e permissões necessárias](information-barriers.md#require
 
 - Pesquisa de diretório com escopo-antes de definir a primeira política de barreira de informações da sua organização, você deve [habilitar a pesquisa de diretório com escopo no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search). Aguarde pelo menos 24 horas depois de habilitar a pesquisa de diretório com escopo antes de configurar ou definir as políticas de barreira de informações.
 
+- As políticas de EXO License-IB funcionam somente se os usuários de destino tiverem sido atribuídos a uma licença do EXO.
+
 - Log de auditoria-para pesquisar o status de um aplicativo de política, o log de auditoria deve estar ativado. É recomendável fazer isso antes de começar a definir segmentos ou políticas. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
-- Nenhuma política de catálogo de endereços – antes de definir e aplicar as políticas de barreira de informações, certifique-se de que não haja nenhuma política do catálogo de endereços do Exchange. As barreiras de informação são baseadas nas políticas do catálogo de endereços, mas os dois tipos de políticas não são compatíveis. Se você tiver essas políticas, certifique-se de [remover primeiro as políticas do catálogo de endereços](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) . Quando as políticas de barreira de informações são habilitadas e você tem o catálogo de endereços hierárquico habilitado, todos os usuários * *_que não estão incluídos_* _ em um segmento de barreira de informações verão o [Catálogo de endereços hierárquicos](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) no Exchange Online.
+- Nenhuma política de catálogo de endereços – antes de definir e aplicar as políticas de barreira de informações, certifique-se de que não haja nenhuma política do catálogo de endereços do Exchange. As barreiras de informação são baseadas nas políticas do catálogo de endereços, mas os dois tipos de políticas não são compatíveis. Se você tiver essas políticas, certifique-se de [remover primeiro as políticas do catálogo de endereços](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) . Quando as políticas de barreira de informações são habilitadas e você tem o catálogo de endereços hierárquico habilitado, todos os usuários **_que não estão incluídos_* _ em um segmento de barreira de informações verão o [Catálogo de endereços hierárquicos](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) no Exchange Online.
 
 - Atualmente, as políticas de barreira de informações são definidas e gerenciadas no centro de conformidade & segurança do Office 365 usando cmdlets do PowerShell. Embora vários exemplos sejam fornecidos neste artigo, você precisará estar familiarizado com os cmdlets e parâmetros do PowerShell. Você também precisará do módulo do Azure PowerShell.
-    - [Conectar-se ao Centro de Conformidade e Segurança do Windows PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+    - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
     - [Instalar o módulo do Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - Consentimento do administrador para barreiras de informações no Microsoft Teams-quando suas políticas estão em vigor, as barreiras de informação podem remover pessoas de sessões de chat que não deveriam estar. Isso ajuda a garantir que sua organização permaneça em conformidade com políticas e regulamentações. Use o procedimento a seguir para permitir que as políticas de barreira de informações funcionem conforme o esperado no Microsoft Teams. 
@@ -90,7 +92,7 @@ Além das [licenças e permissões necessárias](information-barriers.md#require
 
    2. Quando solicitado, entre usando sua conta corporativa ou de estudante para o Office 365.
 
-   3. Na caixa de diálogo _ *permissões solicitadas* *, revise as informações e, em seguida, escolha **aceitar**.
+   3. Na caixa de diálogo _ *permissões solicitadas**, revise as informações e, em seguida, escolha **aceitar**.
 
 Quando todos os pré-requisitos forem atendidos, prossiga para a próxima seção.
 
@@ -116,7 +118,7 @@ Além da sua lista inicial de políticas, faça uma lista de segmentos para sua 
 > [!IMPORTANT]
 > Um usuário só pode estar em um segmento.
 
-Determine quais atributos dos dados de diretório da sua organização você usará para definir segmentos. Você pode usar *Department* , *memberOf* ou qualquer um dos atributos com suporte. Certifique-se de que você tem valores no atributo que você selecionou para os usuários. [Consulte a lista de atributos com suporte para barreiras de informações](information-barriers-attributes.md).
+Determine quais atributos dos dados de diretório da sua organização você usará para definir segmentos. Você pode usar *Department*, *memberOf* ou qualquer um dos atributos com suporte. Certifique-se de que você tem valores no atributo que você selecionou para os usuários. [Consulte a lista de atributos com suporte para barreiras de informações](information-barriers-attributes.md).
 
 > [!IMPORTANT]
 > **Antes de prosseguir para a próxima seção, certifique-se de que os dados do diretório têm valores para atributos que você pode usar para definir segmentos**. Se os dados do diretório não tiverem valores para os atributos que você deseja usar, as contas de usuário devem ser atualizadas para incluir essas informações antes de prosseguir com as barreiras de informação. Para obter ajuda com isso, consulte os seguintes recursos:<br/>- [Configurar propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
@@ -129,7 +131,7 @@ A definição de segmentos não afeta os usuários; Ele apenas define o estágio
 
     |Sintaxe   |Exemplo  |
     |---------|---------|
-    |`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"`     |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>Neste exemplo, um segmento chamado *HR* é definido usando *HR* , um valor no atributo *Department* . A parte **-EQ** do cmdlet se refere a "igual a". (Como alternativa, você pode usar **-ne** para significar "não é igual a". Consulte [usar "igual a" e "não é igual a" em definições de segmento](#using-equals-and-not-equals-in-segment-definitions).        |
+    |`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"`     |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>Neste exemplo, um segmento chamado *HR* é definido usando *HR*, um valor no atributo *Department* . A parte **-EQ** do cmdlet se refere a "igual a". (Como alternativa, você pode usar **-ne** para significar "não é igual a". Consulte [usar "igual a" e "não é igual a" em definições de segmento](#using-equals-and-not-equals-in-segment-definitions).        |
 
     Após executar cada cmdlet, você verá uma lista de detalhes sobre o novo segmento. Os detalhes incluem o tipo do segmento, que o criou ou modificou pela última vez, e assim por diante. 
 
@@ -150,7 +152,7 @@ No exemplo a seguir, estamos definindo um segmento de forma que "departamento se
 |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>Observe que, neste exemplo, a definição de segmento inclui um parâmetro "Equals" indicado como **-EQ**. 
   |
 
-Você também pode definir segmentos usando um parâmetro "not Equals", indicado como **-ne** , conforme mostrado na tabela a seguir:
+Você também pode definir segmentos usando um parâmetro "not Equals", indicado como **-ne**, conforme mostrado na tabela a seguir:
 
 |Sintaxe  |Exemplo  |
 |---------|---------|
@@ -180,7 +182,7 @@ Com sua lista de segmentos de usuário e as políticas de barreira de informaç�
 - [Cenário 2: permitir que um segmento se comunique apenas com um outro segmento](#scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment)
 
 > [!IMPORTANT]
-> **Certifique-se de que ao definir políticas, você não atribua mais de uma política a um segmento**. Por exemplo, se você definir uma política para um segmento chamado *vendas* , não defina uma política adicional para *vendas*.<p>Além disso, conforme você define as políticas de barreira de informações, certifique-se de definir essas políticas como inativas até que você esteja pronto para aplicá-las. A definição de políticas (ou edição) não afeta os usuários até que essas políticas sejam definidas como status ativo e, em seguida, aplicadas.
+> **Certifique-se de que ao definir políticas, você não atribua mais de uma política a um segmento**. Por exemplo, se você definir uma política para um segmento chamado *vendas*, não defina uma política adicional para *vendas*.<p>Além disso, conforme você define as políticas de barreira de informações, certifique-se de definir essas políticas como inativas até que você esteja pronto para aplicá-las. A definição de políticas (ou edição) não afeta os usuários até que essas políticas sejam definidas como status ativo e, em seguida, aplicadas.
 
 (Consulte [exemplo: políticas de barreira de informações da Contoso](#contosos-information-barrier-policies) neste artigo.)
 

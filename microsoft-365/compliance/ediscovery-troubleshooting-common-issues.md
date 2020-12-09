@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Saiba mais sobre as etapas básicas de solução de problemas que você pode executar para resolver problemas comuns na descoberta eletrônica do Office 365.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2db7fac04f29587f451b8feff5b641624e0cf45
-ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
+ms.openlocfilehash: 4f1bad23705729c15976959a3902501f05da7600
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49422860"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602032"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica
 
@@ -52,14 +52,13 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
    > |Nome|RecipientType|
    > |---|---|
    > |Alias, usuário|MailUser|
-   > |Alias, usuário|Usuário|
+   > |Alias, usuário|User|
 
 3. Se vários usuários forem retornados, localize e corrija o objeto conflitante.
 
 ## <a name="errorissue-search-fails-on-specific-locations"></a>Erro/problema: a pesquisa falha em locais específicos
 
-Uma pesquisa de descoberta eletrônica ou conteúdo pode resultar no seguinte erro:
->Esta pesquisa foi concluída com erros (#).  Você gostaria de repetir a pesquisa nos locais com falha?
+Uma pesquisa de descoberta eletrônica ou conteúdo pode resultar no seguinte erro: `This search completed with (#) errors.  Would you like to retry the search on the failed locations?`
 
 ![Falha na captura de tela de erro de local específico da pesquisa](../media/edisc-tshoot-specific-location-search-fails.png)
 
@@ -194,6 +193,14 @@ erro de distribuição de política de retenção de caso de descoberta eletrôn
    ```
 
 4. Entrar em contato com o Suporte da Microsoft.
+
+## <a name="error-the-condition-specified-using-http-conditional-headers-is-not-met"></a>Erro: "a condição especificada usando cabeçalho (s) condicional HTTP não é atendida"
+
+Ao baixar os resultados da pesquisa usando a ferramenta de exportação de descoberta eletrônica, é possível que você possa receber o seguinte erro: `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` este é um erro transitório, que geralmente ocorre no local de armazenamento do Azure.
+
+### <a name="resolution"></a>Resolução
+
+Para resolver esse problema, tente [baixar novamente os resultados da pesquisa](export-search-results.md#step-2-download-the-search-results), o que irá reiniciar a ferramenta de exportação de descoberta eletrônica.
 
 ## <a name="see-also"></a>Confira também
 

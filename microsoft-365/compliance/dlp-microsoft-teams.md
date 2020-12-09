@@ -15,17 +15,17 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora, você pode aplicar políticas de DLP a chats e canais do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 22f279eaccaed20984a59b9b3ae5655df00b2ae3
-ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
+ms.openlocfilehash: 4903056a9a7e7ae74a8ada52bd491f2b8efe771e
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48951056"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604355"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção de perda de dados e Microsoft Teams
 
 > [!NOTE]
-> Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para a Conformidade Avançada do Office 365, disponível como uma opção independente e está incluso na Conformidade do Office 365 E5 e no Microsoft 365 E5. O Office 365 e o Microsoft 365 E3 incluem o DLP Protection para SharePoint Online, OneDrive e Exchange Online. Isso também inclui arquivos compartilhados por meio do teams porque o Teams usa o SharePoint Online e o OneDrive para compartilhar arquivos.
+> Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para o Office 365 E5/a5, Microsoft 365 E5/a5, Microsoft 365 Information Protection and Governance ou Office 365 Advanced Compliance. O Office 365 e o Microsoft 365 E3 incluem o DLP Protection para SharePoint Online, OneDrive e Exchange Online. Isso também inclui arquivos compartilhados por meio do teams porque o Teams usa o SharePoint Online e o OneDrive para compartilhar arquivos.
 O suporte para proteção DLP no Teams chat requer e5.
 Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
@@ -69,7 +69,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 2. Escolha política de **prevenção contra perda de dados**  >  **Policy**.
 
-3. Selecione uma política e ao lado de **configurações de política** , escolha **Editar**.
+3. Selecione uma política e ao lado de **configurações de política**, escolha **Editar**.
 
 4. Crie uma nova regra ou edite uma regra existente para a política.<br/>![Editando uma regra para uma política](../media/dlp-teams-editrule.png)<br/>
 
@@ -89,7 +89,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 2. Escolha política de **prevenção contra perda de dados**  >  **Policy**.
 
-3. Selecione uma política e examine os valores em **locais**. Se você vir **chat de equipes e mensagens de canal** , tudo pronto. Caso contrário, clique em **Editar**.<br/>![Locais para política existente](../media/dlp-teams-editexistingpolicy.png)<br/>
+3. Selecione uma política e examine os valores em **locais**. Se você vir **chat de equipes e mensagens de canal**, tudo pronto. Caso contrário, clique em **Editar**.<br/>![Locais para política existente](../media/dlp-teams-editexistingpolicy.png)<br/>
 
 4. Na coluna **status** , ative a política para chat de **equipes e mensagens de canal**.<br/>![DLP para bate-papos e canais do teams](../media/dlp-teams-addteamschatschannels.png)<br/>
 
@@ -117,11 +117,11 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 <br/>
 
-6. Na guia **configurações de política** , em **Personalizar o tipo de conteúdo que você deseja proteger** , mantenha as configurações simples padrão ou escolha **usar configurações avançadas** e, em seguida, escolha **Avançar**. Se você escolher configurações avançadas, você pode criar ou editar regras para sua política. (Para obter ajuda com isso, consulte [configurações simples vs. configurações avançadas](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).)
+6. Na guia **configurações de política** , em **Personalizar o tipo de conteúdo que você deseja proteger**, mantenha as configurações simples padrão ou escolha **usar configurações avançadas** e, em seguida, escolha **Avançar**. Se você escolher configurações avançadas, você pode criar ou editar regras para sua política. (Para obter ajuda com isso, consulte [configurações simples vs. configurações avançadas](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).)
 
-7.  Na guia **configurações de política** , em **o que você deseja fazer se detectarmos informações confidenciais?** , revise as configurações. (Aqui você pode optar por manter [dicas de política padrão e notificações por email](use-notifications-and-policy-tips.md)ou personalizá-las.)<br/>![Configurações de política de DLP com dicas e notificações](../media/dlp-teams-policysettings-tipsemails.png)<br/>Quando terminar de revisar ou editar as configurações, escolha **Avançar**.
+7.  Na guia **configurações de política** , em **o que você deseja fazer se detectarmos informações confidenciais?**, revise as configurações. (Aqui você pode optar por manter [dicas de política padrão e notificações por email](use-notifications-and-policy-tips.md)ou personalizá-las.)<br/>![Configurações de política de DLP com dicas e notificações](../media/dlp-teams-policysettings-tipsemails.png)<br/>Quando terminar de revisar ou editar as configurações, escolha **Avançar**.
 
-8. Na guia **configurações de política** , em **você deseja ativar a política ou testar as tarefas primeiro?** , escolha se deseja ativar a política, [testá-la primeiro](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)ou mantê-la desativada por enquanto e, em seguida, escolha **Avançar**.<br/>![Especificar se a política será ativada](../media/dlp-teams-policysettings-turnonnow.png)<br/>
+8. Na guia **configurações de política** , em **você deseja ativar a política ou testar as tarefas primeiro?**, escolha se deseja ativar a política, [testá-la primeiro](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)ou mantê-la desativada por enquanto e, em seguida, escolha **Avançar**.<br/>![Especificar se a política será ativada](../media/dlp-teams-policysettings-turnonnow.png)<br/>
 
 9. Na guia **examinar suas configurações** , revise as configurações da nova política. Escolha **Editar** para fazer alterações. Quando tiver terminado, escolha **criar**.
 

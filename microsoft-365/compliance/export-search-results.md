@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade da Microsoft 365 para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48f5cab4c25199873c795cdfb9afac54f4f402a0
-ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
+ms.openlocfilehash: a697f5cf81022bf8d8122d0dd57c07ba8a578f0a
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49422870"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602048"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -345,6 +345,8 @@ Quaisquer mensagens de email protegidas por direitos (protegidas por RMS) inclu�
 
 ### <a name="miscellaneous"></a>Diversos
   
+- Ao baixar os resultados da pesquisa usando a ferramenta de exportação de descoberta eletrônica, é possível que você possa receber o seguinte erro: `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` este é um erro transitório, que geralmente ocorre no local de armazenamento do Azure. Para resolver esse problema, tente [baixar novamente os resultados da pesquisa](#step-2-download-the-search-results), o que irá reiniciar a ferramenta de exportação de descoberta eletrônica.
+
 - Todos os resultados da pesquisa e os relatórios de exportação estão incluídos em uma pasta que tem o mesmo nome que a Pesquisa de Conteúdo. As mensagens de email que foram exportadas estão localizadas em uma pasta chamada **Exchange**. Os documentos estão localizados em uma pasta chamada **SharePoint**.
 
 - Os metadados do sistema de arquivos para documentos nos sites do SharePoint e do OneDrive for Business são mantidos quando os documentos são exportados para o computador local. Isso significa as propriedades do documento, tais como data de criação e última modificação, não são alteradas quando os documentos são exportados.
