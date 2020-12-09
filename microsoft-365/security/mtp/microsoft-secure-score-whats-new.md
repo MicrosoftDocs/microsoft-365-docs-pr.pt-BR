@@ -20,22 +20,26 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6d1358da465bd7e31ca7b234f140aa8e48bb7508
-ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
+ms.openlocfilehash: 4b25f701aca24563dc4f1a15f78a80e1e2064367
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49373990"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604378"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md).
+Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md)
 
 A pontuação segura da Microsoft pode ser encontrada em https://security.microsoft.com/securescore na [central de segurança do Microsoft 365](overview-security-center.md).
 
 ## <a name="november-2020"></a>Novembro de 2020
+
+### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Foi removida a capacidade de criar tíquetes do ServiceNow por meio de Pontuação segura 
+
+A capacidade de criar ingressos do ServiceNow por meio de Pontuação segura, indo para **compartilhar > o ServiceNow** não está mais disponível. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
 ### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas 3 ações de melhoria relacionadas aos serviços para o Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
 
@@ -77,7 +81,7 @@ No momento, a pontuação segura de identidade e a API do Graph adotarão o novo
 * Gerenciar em direção às suas metas futuras usando pontuações de Pontuação e ações planejadas
 * E muito mais!
 
-## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
+## <a name="we-want-to-hear-from-you"></a>Queremos ouvir de você
 
 Se você tiver problemas, fale conosco postando na Comunidade [segurança, privacidade & conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . Estamos monitorando a Comunidade e forneceremos ajuda.
 

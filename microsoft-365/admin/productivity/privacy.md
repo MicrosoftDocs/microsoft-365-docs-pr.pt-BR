@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Como a privacidade é protegida com a pontuação de produtividade.
-ms.openlocfilehash: db123042761b07ed64dd2dd94e783d65205e1460
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: ceb19fcb7bbf2f6a58e38684604ed3b0dac2a5d4
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561502"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604321"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Controles de privacidade para Pontuação de produtividade
 
@@ -42,13 +42,13 @@ Os controles fornecem:
 
 Para exibir toda a pontuação de produtividade, você precisa ser uma das seguintes funções de administrador:
 
-- Administrador global
+- Administração global
 - Administradores do Exchange
 - Administrador do SharePoint
 - Administrador do Skype for Business
-- Administrador de equipes
-- Leitor global
-- Leitor de relatórios
+- Administrador do Teams
+- Leitor Global
+- Leitor de Relatórios
 - Leitor de relatórios de Resumo de uso
 
 Atribua a função leitor de relatórios ou relatórios de Resumo de uso a qualquer pessoa responsável pelo gerenciamento de alterações e pela adoção, mas não necessariamente um administrador de ti. Essa função concede a eles acesso à experiência completa de Pontuação de produtividade no centro de administração do Microsoft 365.
@@ -73,7 +73,7 @@ Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
 
 ## <a name="capability-to-opt-out-of-people-experiences"></a>Capacidade de recusar experiências de pessoas
 
-Você também pode recusar a área experiências de pessoas de Pontuação de produtividade. Se você recusar, ninguém da sua organização poderá exibir essas métricas, e sua organização será removida de qualquer cálculo que envolve comunicação, reuniões, trabalho em equipe, colaboração de conteúdo e mobilidade.
+Você também pode recusar a área experiências de pessoas de Pontuação de produtividade. Se você recusar, ninguém da sua organização poderá exibir essas métricas, e sua organização será removida de qualquer cálculo que envolve comunicação, reuniões, trabalho em equipe, colaboração de conteúdo e mobilidade. Você precisa ser um administrador global para que sua organização saia dos relatórios de experiências de pessoas.
 
 Para aceitar:
 

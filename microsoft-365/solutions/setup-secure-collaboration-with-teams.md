@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Saiba como configurar a colaboração de conteúdo seguro no Microsoft Teams para proteger seus dados com base em sua confidencialidade.
-ms.openlocfilehash: 310605d0db84e33be1d5fdc925fadcfcdf9dddaf
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 4f2e157025f00660e77ba3377221368e37e45445
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906794"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602068"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configurar a colaboração segura com o Microsoft 365
 
@@ -60,11 +60,11 @@ As informações que são fundamentais para o sucesso da sua organização ou t�
 
 Para todos os cenários citados acima, você pode usar o Microsoft Teams para armazenar, compartilhar e colaborar com as informações. 
 
-Para configurar o Collabration seguro, você usa estas funcionalidades e recursos da Microsoft 365.
+Para configurar a colaboração segura, você usa estas funcionalidades e recursos da Microsoft 365.
 
-| Produto ou componente | Capcidade ou recurso | Licenciamento |
+| Produto ou componente | Capcidade ou recurso | Licenças |
 |:-------|:-----|:-------|
-| Microsoft Defender para Office 365 | Anexos seguros para o SPO, o OneDrive e o Microsoft Teams; Documentos seguros; Links seguros para o Teams    | Microsoft 365 E1, E3 e e5 |
+| Microsoft defender para Office 365 | Anexos seguros para o SPO, o OneDrive e o Microsoft Teams; Documentos seguros; Links seguros para o Teams    | Microsoft 365 E1, E3 e e5 |
 | SharePoint    | Políticas de compartilhamento de arquivos e sites, permissões de compartilhamento de site, links de compartilhamento, solicitações de acesso, configurações de compartilhamento de convidado de site | Microsoft 365 E1, E3 e e5 |
 | Microsoft Teams   | Acesso de convidados, equipes privadas, canais privados | Microsoft 365 E1, E3 e e5 |
 | Conformidade com o Microsoft 365  | Rótulos de confidencialidade    | Microsoft 365 E3 e E5 |
@@ -76,9 +76,9 @@ Para gerenciar o acesso a informações com diferentes sensitivities, desenvolve
 ![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
 
 
-Esses níveis-de *linha de base* , *confidenciais* e *altamente confidenciais* aumentam gradualmente as proteções que ajudam a evitar o supercompartilhamento e o possível vazamento de informações, conforme mostrado na tabela a seguir.
+Esses níveis-de *linha de base*, *confidenciais* e *altamente confidenciais* aumentam gradualmente as proteções que ajudam a evitar o supercompartilhamento e o possível vazamento de informações, conforme mostrado na tabela a seguir.
 
-||**Camada de linha de base**|**Camada confidencial**|**Camada altamente confidencial**|
+|-|**Camada de linha de base**|**Camada confidencial**|**Camada altamente confidencial**|
 |:--|:-----------|:------------|:-------------------|
 |Equipe pública ou privada|Ambos|Private|Private|
 |Compartilhamento não autenticado|Blocked|Blocked|Blocked|

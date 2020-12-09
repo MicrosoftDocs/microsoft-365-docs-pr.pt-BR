@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e42c65fdb4d409c1da7b85fbe7eca13170b9b974
-ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
+ms.openlocfilehash: 950daef315ef27fe5d6bc40528eb0104974c8c00
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49409218"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604390"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à pontuação segura da Microsoft
 
@@ -44,14 +44,6 @@ Adicionando 6 ações de melhoria relacionadas a contas para o Microsoft defende
 - Defina "duração mínima da senha" como "1 ou mais dia (s)"
 - Desabilitar a conta de administrador interna
 - Desabilitar a conta de convidado interna
-
-### <a name="november-2020"></a>Novembro de 2020
-
-#### <a name="removing-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Removendo a capacidade de criar tíquetes do ServiceNow por meio de Pontuação segura 
-
-A capacidade de criar ingressos do ServiceNow por meio de Pontuação segura, indo para **compartilhar > o ServiceNow** será removido.
-
-O período de visualização do conector do ServiceNow está terminando. Esse recurso não estará mais disponível até o final de 2020. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

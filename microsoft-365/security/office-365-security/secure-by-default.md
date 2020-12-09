@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a configuração de segurança por padrão no Exchange Online Protection (EOP)
-ms.openlocfilehash: 54000d351463ba90751f1f27638fb52847cf05ce
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 758d2169d80630a38c0b498e8c1848568e5ec941
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558497"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602026"
 ---
 # <a name="secure-by-default-in-office-365"></a>Seguro por padrão no Office 365
 
@@ -40,6 +40,8 @@ As organizações 365 da Microsoft com caixas de correio no Exchange Online são
 
 - Email com malware suspeito será automaticamente colocado em quarentena e os destinatários serão notificados. Consulte [Configure anti-malware Policies in EOP](configure-anti-malware-policies.md).
 - Os emails identificados como phishing de alta confiança serão manipulados de acordo com a ação da política antispam. Consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
+
+Para obter mais informações sobre o EOP, consulte [Exchange Online Protection Overview](exchange-online-protection-overview.md).
 
 Como a Microsoft deseja manter nossos clientes seguros por padrão, alguns locatários substituídos não são aplicados a malware ou phishing de alta confiança. Essas substituições incluem:
 
@@ -65,5 +67,5 @@ Você deve considerar apenas o uso de substituições nos seguintes cenários:
 
 - Simulações de phishing: ataques simulados podem ajudá-lo a identificar usuários vulneráveis antes que um ataque real afete sua organização.
 - Segurança/caixas de correio do SecOps: caixas de correio dedicadas usadas pelo Security Teams para obter mensagens não filtradas (tanto boas quanto ruins). O Microsoft Teams pode então revisar para ver se eles contêm conteúdo mal-intencionado.
-- Filtros de terceiros: alguns fornecedores terceirizados recomendarão a desativação do EOP (SCL =-1), pois o filtro de terceiros gerenciará a filtragem de email. A Microsoft não recomenda desativar o EOP como EOP é necessário para o defender para Office 365. Em vez disso, a recomendação aqui é ativar a [filtragem avançada de conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+- Filtros de terceiros: alguns fornecedores terceirizados recomendarão a desativação do EOP (SCL =-1), pois o filtro de terceiros gerenciará a filtragem de email. A Microsoft não recomenda desativar o EOP como EOP é necessário para [o Microsoft defender para Office 365](office-365-atp.md). Em vez disso, a recomendação aqui é ativar a [filtragem avançada de conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 - Falsos positivos: Talvez você queira permitir temporariamente determinadas mensagens que ainda estão sendo analisadas pela Microsoft [por meio de envios de administrador](admin-submission.md). Assim como ocorre com todas as substituições, é recomendável que elas sejam temporárias.

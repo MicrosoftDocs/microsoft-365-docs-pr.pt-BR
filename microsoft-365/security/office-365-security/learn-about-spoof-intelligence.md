@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre a inteligência de falsificação na proteção do Exchange Online (EOP), onde você pode permitir ou bloquear remetentes falsificados específicos.
-ms.openlocfilehash: 9168d43e6e5544ad3454729afc8140642deba0ef
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: bc8ae2664acf96ea6cd4c20c2f9195db9b75b3da
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572724"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602098"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Configurar o spoof Intelligence no EOP
 
@@ -65,8 +65,8 @@ Você pode gerenciar a inteligência de falsificação no centro de conformidade
 
   **Observações**:
 
-  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
-  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para obter as configurações recomendadas para a inteligência de falsificação, confira [configurações de política anti-phishing padrão do EOP](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 
@@ -103,7 +103,7 @@ Você pode gerenciar a inteligência de falsificação no centro de conformidade
 
      - Na guia **domínios externos** , o valor contém o domínio do usuário falsificado, e não o endereço de email completo.
 
-   - **Infraestrutura de envio**: o domínio encontrado em uma pesquisa de DNS inversa (registro PTR) do endereço IP do servidor de email de origem ou o endereço IP, se a fonte não tiver um registro PTR.
+   - **Infraestrutura de envio**: o domínio encontrado em uma pesquisa de DNS inversa (registro PTR) do endereço IP do servidor de email de origem. Se o endereço IP de origem não tiver um registro PTR, a infraestrutura de envio será identificada como \<source IP\> /24 (por exemplo, 192.168.100.100/24).
 
      Para obter mais informações sobre fontes de mensagens e remetentes de mensagens, consulte [uma visão geral dos padrões de mensagens de email](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards).
 
@@ -112,22 +112,18 @@ Você pode gerenciar a inteligência de falsificação no centro de conformidade
    - **n º de reclamações de usuários**: reclamações arquivadas pelos usuários em relação a esse remetente nos últimos 30 dias. As reclamações geralmente estão na forma de envios de lixo eletrônico para a Microsoft.
 
    - **Resultado da autenticação**: um dos seguintes valores:
-
       - **Aprovado**: o remetente passou por verificações de autenticação de email do remetente (SPF ou DKIM).
       - **Falha**: o remetente falhou EOP verificações de autenticação do remetente.
       - **Desconhecido**: o resultado dessas verificações não é conhecido.
 
    - **Decisão definida por**: mostra quem determinou se a infraestrutura de envio tem permissão para falsificar o usuário:
-
        - **Política de inteligência de spoof** (automática)
        - **Administrador** (manual)
 
    - **Última vista**: a última data em que uma mensagem foi recebida da infraestrutura de envio que contém o usuário falsificado.
 
    - **Permitido para falsificar?**: os valores que você vê aqui são:
-
      - **Sim**: as mensagens da combinação de usuário falsificado e infraestrutura de envio são permitidas e não são tratadas como email falsificado.
-
      - **No**: as mensagens da combinação de usuário falsificado e infraestrutura de envio são marcadas como falsificadas. A ação é controlada pela política anti-phishing padrão ou políticas anti-phishing personalizadas (o valor padrão é **mover mensagem para a pasta lixo eletrônico**). Consulte a próxima seção para obter mais informações.
 
      - **Alguns usuários** (apenas **a guia Domínios** ): uma infraestrutura de envio está falsificando vários usuários, onde alguns usuários falsificados são permitidos e outros não. Use a guia **detalhada** para ver os endereços específicos.
