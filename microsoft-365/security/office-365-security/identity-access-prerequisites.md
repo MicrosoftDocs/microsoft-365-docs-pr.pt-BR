@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 67835f4140179c69b5e0f2cd0287e656dd4c49ad
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: bd0b4efb1281d467a61e4aee792b507f0ca44181
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558545"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616555"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar as políticas de acesso de dispositivo e identidade
 
@@ -38,7 +38,7 @@ Antes de implementar as políticas recomendadas de identidade e acesso de dispos
 - Híbrido com autenticação de passagem (PTA)
 - Fica
 
-A tabela a seguir detalha os recursos de pré-requisito e sua configuração que se aplicam a todos os modelos de identidade, exceto quando observado. 
+A tabela a seguir detalha os recursos de pré-requisito e sua configuração que se aplicam a todos os modelos de identidade, exceto quando observado.
 
 |Configuração|Exceptions|
 |---|:---:|
@@ -76,7 +76,7 @@ Também recomendamos que os dispositivos de propriedade da organização sejam p
 
 ### <a name="recommended-email-clients"></a>Clientes de email recomendados
 
-Os seguintes clientes de email dão suporte a autenticação moderna e acesso condicional. 
+Os seguintes clientes de email dão suporte a autenticação moderna e acesso condicional.
 
 |Plataforma|Cliente|Versão/Notas|
 |---|---|---|
@@ -116,9 +116,9 @@ Para edições do Microsoft 365 ou do Office 365 que não suportam acesso condic
 
 Veja algumas recomendações adicionais:
 
-- Use o [Azure ad Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) para reduzir o número de contas administrativas persistentes. 
-- [Use o gerenciamento de acesso privilegiado](../../compliance/privileged-access-management-overview.md) para proteger sua organização contra violações que podem usar contas de administrador privilegiadas existentes com acesso à posição para dados confidenciais ou acesso a definições de configuração críticas. 
-- Criar e usar contas separadas às quais as [funções de administrador do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) são atribuídas *apenas para administração*. Os administradores devem ter sua própria conta de usuário para uso regular não administrativo e só usar uma conta administrativa, quando necessário, para concluir uma tarefa associada à função ou função de trabalho. 
+- Use o [Azure ad Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) para reduzir o número de contas administrativas persistentes.
+- [Use o gerenciamento de acesso privilegiado](../../compliance/privileged-access-management-overview.md) para proteger sua organização contra violações que podem usar contas de administrador privilegiadas existentes com acesso à posição para dados confidenciais ou acesso a definições de configuração críticas.
+- Criar e usar contas separadas às quais as [funções de administrador do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) são atribuídas *apenas para administração*. Os administradores devem ter sua própria conta de usuário para uso regular não administrativo e só usar uma conta administrativa, quando necessário, para concluir uma tarefa associada à função ou função de trabalho.
 - Siga [as práticas recomendadas](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices) para proteger contas privilegiadas no Azure AD.
 
 ## <a name="next-step"></a>Próxima etapa

@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre as opções de governança de ciclo de vida para ferramentas de colaboração no Microsoft 365
-ms.openlocfilehash: 706f1aaecf22c4088d4539c208fef68320c5e710
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4d779701d241fc7178ab759063be1b8cdf2e960c
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377182"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613015"
 ---
 # <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Planejar a administração da organização e do ciclo de vida de grupos do Microsoft 365 e do Microsoft Teams
 
@@ -74,3 +74,9 @@ Depois de definir os grupos para expirar:
 - Qualquer grupo excluído pode ser restaurado dentro de 30 dias pelos proprietários do grupo ou pelo administrador.
 
 As políticas de expiração são uma boa maneira de limitar a proliferação de grupos, assegurando que os grupos que não estão mais em uso sejam excluídos. Se você deseja criar uma política de expiração de grupo, consulte [política de expiração de grupo do Microsoft 365](microsoft-365-groups-expiration-policy.md).
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md)

@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de risco interno
+title: Saiba mais sobre o gerenciamento de riscos internos
 description: Saiba como ajudar a minimizar o risco em sua organização com o gerenciamento de risco do insider no Microsoft 365.
 keywords: Microsoft 365, risco de insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
@@ -15,14 +15,14 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 82a7d1c9eec13d87fa45b12b072e9712ccd267c2
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: bd228675cfe5f0443064053a0c6e18968524df7e
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847807"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613417"
 ---
-# <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de risco do insider no Microsoft 365
+# <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Saiba mais sobre o gerenciamento de risco do insider no Microsoft 365
 
 O gerenciamento de riscos do Insider é uma solução de conformidade no Microsoft 365 que ajuda a minimizar os riscos internos, permitindo que você detecte, investigue e atue em atividades mal-intencionadas e inadvertidas em sua organização. As políticas de risco do insider permitem que você defina os tipos de riscos para identificar e detectar em sua organização, incluindo a ação em casos e encaminhar casos para a descoberta eletrônica avançada da Microsoft, se necessário. Os analistas de risco em sua organização podem tomar as ações apropriadas rapidamente para garantir que os usuários estejam em conformidade com os padrões de conformidade da sua organização.
 
@@ -48,10 +48,10 @@ O gerenciamento de riscos do insider usa toda a amplitude de serviços e indicad
 
 O gerenciamento de riscos do insider está centralizado em torno dos seguintes princípios:
 
-- **Transparência** : Equilibre a privacidade do usuário em relação ao risco da organização com a arquitetura de privacidade de design.
-- **Configurável** : políticas configuráveis com base em grupos de negócios, geográficos e setores.
-- **Integrado** : fluxo de trabalho integrado entre as soluções de conformidade da Microsoft 365.
-- **Acionável** : fornece ideias para habilitar notificações de usuário, investigações de dados e investigações de usuários.
+- **Transparência**: Equilibre a privacidade do usuário em relação ao risco da organização com a arquitetura de privacidade de design.
+- **Configurável**: políticas configuráveis com base em grupos de negócios, geográficos e setores.
+- **Integrado**: fluxo de trabalho integrado entre as soluções de conformidade da Microsoft 365.
+- **Acionável**: fornece ideias para habilitar notificações de usuário, investigações de dados e investigações de usuários.
 
 ## <a name="workflow"></a>Fluxo de trabalho
 
@@ -105,9 +105,9 @@ Os [casos](insider-risk-management-cases.md) são criados para alertas que exige
 
 Selecionar um caso no painel de casos abre o caso de investigação e análise. Esta etapa é o coração do fluxo de trabalho de gerenciamento de risco do insider. Esta área é onde as atividades de risco, as condições da política, os detalhes dos alertas e os detalhes do usuário são sintetizadas em um modo de exibição integrado para revisores. As ferramentas de investigação principal nessa área são:
 
-- **Atividade do usuário** : a atividade do usuário é exibida automaticamente em um gráfico interativo que plota atividades ao longo do tempo e por nível de risco para atividades de risco atuais ou antigas. Os revisores podem filtrar e exibir rapidamente todo o histórico de riscos para o usuário e analisar atividades específicas para obter mais detalhes.
-- **Gerenciador de conteúdo** : todos os arquivos de dados e mensagens de email associados às atividades de alerta são automaticamente capturados e exibidos no Gerenciador de conteúdo. Os revisores podem filtrar e exibir arquivos e mensagens por fonte de dados, tipo de arquivo, marcas, conversa e muitos outros atributos.
-- **Anotações de caso** : os revisores podem fornecer anotações para uma ocorrência na seção notas de caso. Essa lista consolida todas as anotações em um modo de exibição central e inclui informações de revisor e data de envio.
+- **Atividade do usuário**: a atividade do usuário é exibida automaticamente em um gráfico interativo que plota atividades ao longo do tempo e por nível de risco para atividades de risco atuais ou antigas. Os revisores podem filtrar e exibir rapidamente todo o histórico de riscos para o usuário e analisar atividades específicas para obter mais detalhes.
+- **Gerenciador de conteúdo**: todos os arquivos de dados e mensagens de email associados às atividades de alerta são automaticamente capturados e exibidos no Gerenciador de conteúdo. Os revisores podem filtrar e exibir arquivos e mensagens por fonte de dados, tipo de arquivo, marcas, conversa e muitos outros atributos.
+- **Anotações de caso**: os revisores podem fornecer anotações para uma ocorrência na seção notas de caso. Essa lista consolida todas as anotações em um modo de exibição central e inclui informações de revisor e data de envio.
 
 ![Investigação de gerenciamento de risco do insider](../media/insider-risk-investigate.png)
 
@@ -117,9 +117,9 @@ Após os casos serem investigados, os revisores podem agir rapidamente para reso
 
 Nas situações mais sérias, talvez você precise compartilhar as informações do caso de gerenciamento de risco do insider com outros revisores ou serviços em sua organização. O gerenciamento de riscos do insider está totalmente integrado a outras soluções de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta.
 
-- **Descoberta eletrônica avançada** : o escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
-- **Servicenow (visualização)** : o servicenow é uma plataforma de computação em nuvem popular que ajuda as organizações a gerenciar fluxos de trabalho digitais para operações empresariais. O gerenciamento de risco do insider oferece suporte ao compartilhamento de alertas de casos com o serviço do ServiceNow e permite que você crie incidentes e altere solicitações relacionadas a casos de risco do insider. Para saber mais sobre como compartilhar informações de alerta com o ServiceNow, confira [compartilhar um caso com o servicenow](insider-risk-management-cases.md#share-the-case).
-- **Integração de APIs de gerenciamento do Office 365 (versão prévia)** : o gerenciamento de risco do insider oferece suporte à exportação de informações de alerta para serviços de gerenciamento de eventos e informações de segurança por meio das APIs de gerenciamento do Office 365 Ter acesso a informações de alerta na plataforma o mais adequado para os processos de risco da sua organização oferece maior flexibilidade na forma de agir em atividades de risco. Para saber mais sobre como exportar informações de alerta com as APIs de gerenciamento do Office 365, confira [Exportar alertas](insider-risk-management-settings.md#export-alerts-preview).
+- **Descoberta eletrônica avançada**: o escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
+- **Servicenow (visualização)**: o servicenow é uma plataforma de computação em nuvem popular que ajuda as organizações a gerenciar fluxos de trabalho digitais para operações empresariais. O gerenciamento de risco do insider oferece suporte ao compartilhamento de alertas de casos com o serviço do ServiceNow e permite que você crie incidentes e altere solicitações relacionadas a casos de risco do insider. Para saber mais sobre como compartilhar informações de alerta com o ServiceNow, confira [compartilhar um caso com o servicenow](insider-risk-management-cases.md#share-the-case).
+- **Integração de APIs de gerenciamento do Office 365 (versão prévia)**: o gerenciamento de risco do insider oferece suporte à exportação de informações de alerta para serviços de gerenciamento de eventos e informações de segurança por meio das APIs de gerenciamento do Office 365 Ter acesso a informações de alerta na plataforma o mais adequado para os processos de risco da sua organização oferece maior flexibilidade na forma de agir em atividades de risco. Para saber mais sobre como exportar informações de alerta com as APIs de gerenciamento do Office 365, confira [Exportar alertas](insider-risk-management-settings.md#export-alerts-preview).
 
 >[!NOTE]
 >Obrigado por seus comentários e suporte durante a visualização do conector do ServiceNow. Decidimos encerrar a visualização do conector do ServiceNow e o suporte de descontinuação no gerenciamento de risco do insider em 30 de novembro de 2020. Estamos avaliando ativamente métodos alternativos para fornecer aos clientes a integração do ServiceNow no gerenciamento de risco do insider.

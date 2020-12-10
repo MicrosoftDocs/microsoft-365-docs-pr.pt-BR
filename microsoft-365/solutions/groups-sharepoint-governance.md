@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre as interações de configurações entre os grupos do Microsoft 365 e o SharePoint
-ms.openlocfilehash: e8d4189c2d945d5a6d2aa78bd7ea980a77360ce0
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: a00e863fead8e74cf0f169471ebb36f9539ed103
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377552"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613485"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>Configurações de interações entre o Microsoft 365 grupos e o SharePoint
 
@@ -48,6 +48,10 @@ Algumas configurações dos grupos do Microsoft 365 e do SharePoint no Microsoft
 |Política de expiração de grupo|Especifica um período de tempo após o qual os grupos que não são ativamente usados serão excluídos automaticamente.|Quando o grupo é excluído, o site associado do SharePoint também é excluído. O conteúdo protegido por políticas de retenção é mantido.|Use as políticas de expiração para evitar a desorganização de grupos e sites não utilizados.|
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
+[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 
 [Colaborar com pessoas de fora da sua organização](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 

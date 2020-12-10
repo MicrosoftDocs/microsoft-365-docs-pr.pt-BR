@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: b4468bfc7ef4b6f76d44b328f4e5b6d61d7f06ac
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 0a9c09e33eb8fd5d03fcbdf44701544e656673d2
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357834"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615151"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -41,7 +41,7 @@ O diagrama a seguir ilustra o conjunto de políticas recomendado. Ele mostra qua
 
 Veja um resumo do PDF de uma página com links para as políticas individuais:
 
-[![Imagem em miniatura para proteção de identidade e dispositivo para o folheto do Microsoft 365](../../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [Exibir como um PDF](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)
+[![Imagem em miniatura para proteção de identidade e dispositivo para o folheto do Microsoft 365](../../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br> [Exibir como um PDF](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)
 
 O restante deste artigo descreve como configurar essas políticas.
 
@@ -107,7 +107,7 @@ As tabelas a seguir descrevem as configurações de política de acesso condicio
 
 Na seção **assignments** :
 
-|Setting|Propriedades|Valores|Anotações|
+|Configuração|Propriedades|Valores|Anotações|
 |---|---|---|---|
 |Usuários e grupos|Incluir|**Selecione usuários e grupos > usuários e grupos**: selecionar grupos específicos contendo contas de usuário direcionadas.|Comece com o grupo que inclui as contas de usuário piloto.|
 ||Excluir|**Usuários e grupos**: Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
@@ -129,7 +129,7 @@ Aplique as configurações de nível de risco com base no nível de proteção q
 
 Na seção **controles de acesso** :
 
-|Setting|Propriedades|Valores|Action|
+|Configuração|Propriedades|Valores|Action|
 |---|---|---|---|
 |Conceder|**Grant access**||Selecionar|
 |||**Exigir autenticação multifator**|Verificar|
@@ -150,17 +150,17 @@ Confira [Este artigo](../../enterprise/microsoft-365-client-support-modern-authe
 
 Na seção **assignments** :
 
-|Setting|Propriedades|Valores|Anotações|
+|Configuração|Propriedades|Valores|Anotações|
 |---|---|---|---|
 |Usuários e grupos|Incluir|**Selecione usuários e grupos > usuários e grupos**: selecionar grupos específicos contendo contas de usuário direcionadas.|Comece com o grupo que inclui as contas de usuário piloto.|
 ||Excluir|**Usuários e grupos**: Selecione seu grupo de exceções de acesso condicional; contas de serviço (identidades de aplicativos).|A associação deve ser modificada de acordo com a necessidade e temporária.|
 |Ações ou aplicativos de nuvem|**Os aplicativos de nuvem > incluem**|**Selecionar aplicativos**: selecione os aplicativos correspondentes aos clientes que não dão suporte à autenticação moderna.||
-|Condições|**Aplicativos cliente**|Escolha **Sim** para **Configurar** <br/> Limpar as marcas de seleção de **navegador** e **aplicativos móveis e clientes de desktop**||
+|Condições|**Aplicativos cliente**|Escolha **Sim** para **Configurar** <p> Limpar as marcas de seleção de **navegador** e **aplicativos móveis e clientes de desktop**||
 |
 
 Na seção **controles de acesso** :
 
-|Setting|Propriedades|Valores|Action|
+|Configuração|Propriedades|Valores|Action|
 |---|---|---|---|
 |Conceder|**Bloquear acesso**||Selecionar|
 ||**Exigir todos os controles selecionados**||Selecionar|
@@ -275,7 +275,7 @@ Você deve criar uma política para cada PC, telefone ou plataforma Tablet:
 - Windows 8,1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivos, faça logon no [centro de administração do Microsoft Endpoint Manager](https://endpoint.microsoft.com) com suas credenciais de administrador e, em seguida, navegue até políticas de políticas de conformidade de **dispositivos**  >  **Compliance policies**  >  **Policies**. Selecione **criar política**.
+Para criar políticas de conformidade de dispositivos, faça logon no [centro de administração do Microsoft Endpoint Manager](https://endpoint.microsoft.com) com suas credenciais de administrador e, em seguida, navegue até políticas de políticas de conformidade de **dispositivos** \>  \> . Selecione **criar política**.
 
 Para que as políticas de conformidade do dispositivo sejam implantadas, elas devem ser atribuídas a grupos de usuários. Você atribui uma política depois de criá-la e salvá-la. No centro de administração, selecione a política e, em seguida, selecione **atribuições**. Após selecionar os grupos para os quais você deseja receber a política, selecione **salvar** para salvar a atribuição de grupo e implantar a política.
 
@@ -302,22 +302,22 @@ Para **segurança do sistema**, Confira esta tabela.
 
 |Tipo|Propriedades|Valor|Action|
 |---|---|---|---|
-|Password|Exigir uma senha para desbloquear dispositivos móveis|Precisa|Selecionar|
+|Senha|Exigir uma senha para desbloquear dispositivos móveis|Precisa|Selecionar|
 ||Senhas simples|Bloquear|Selecionar|
 ||Tipo de senha|Padrão do dispositivo|Selecionar|
 ||Tamanho mínimo da senha|6 |Tipo|
-||Máximo de minutos de inatividade antes que a senha seja necessária|15 |Tipo <br/> Essa configuração tem suporte para o Android versões 4,0 e superior ou o KNOX 4,0 e superior. Para dispositivos iOS, ele é compatível com iOS 8,0 e superior.|
+||Máximo de minutos de inatividade antes que a senha seja necessária|15 |Tipo <p> Essa configuração tem suporte para o Android versões 4,0 e superior ou o KNOX 4,0 e superior. Para dispositivos iOS, ele é compatível com iOS 8,0 e superior.|
 ||Vencimento da senha (dias)|41|Tipo|
 ||Número de senhas anteriores para evitar reutilização|5 |Tipo|
 ||Exigir senha quando o dispositivo retornar do estado ocioso (móvel e Holographic)|Precisa|Disponível para Windows 10 e posterior|
 |Criptografia|Criptografia do armazenamento de dados no dispositivo|Precisa|Selecionar|
 |Segurança do dispositivo|Firewall|Precisa|Selecionar|
 ||Antivírus|Precisa|Selecionar|
-||AntiSpyware|Precisa|Selecionar <br/> Esta configuração requer uma solução anti-spyware registrada com a central de segurança do Windows.|
+||AntiSpyware|Precisa|Selecionar <p> Esta configuração requer uma solução anti-spyware registrada com a central de segurança do Windows.|
 |Defender|Microsoft Defender Antimalware|Precisa|Selecionar|
-||Versão mínima do Microsoft Defender Antimalware||Tipo <br/> Compatível apenas com a área de trabalho do Windows 10. A Microsoft recomenda as versões não mais do que cinco atrás da versão mais recente.|
+||Versão mínima do Microsoft Defender Antimalware||Tipo <p> Compatível apenas com a área de trabalho do Windows 10. A Microsoft recomenda as versões não mais do que cinco atrás da versão mais recente.|
 ||Assinatura do Microsoft Defender Antimalware atualizada|Precisa|Selecionar|
-||Proteção em tempo real|Precisa|Selecionar <br/> Compatível apenas com a área de trabalho do Windows 10|
+||Proteção em tempo real|Precisa|Selecionar <p> Compatível apenas com a área de trabalho do Windows 10|
 |
 
 #### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade

@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Segurança no Office 365, da EOP para o defender for Office 365 Plans 1 e 2, configurações de segurança padrão vs. estrito e muito mais. Entenda o que você tem e como proteger suas propriedades.
-ms.openlocfilehash: 008488149a403fdafef9de0b0f64a9a43616debe
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 84d7dcfc68ce78bfde92f3d7096cd4104355ce94
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357750"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616243"
 ---
 # <a name="office-365-security-overview"></a>Visão geral da segurança do Office 365
 
@@ -124,16 +124,16 @@ Esta referência rápida o ajudará a entender quais recursos vêm com cada assi
 
 |Defender para Office 365 plano 1|Defender para Office 365 plano 2|
 |---|---|
-|Capacidade de configuração, proteção e detecção: <ul><li>[Anexos Seguros](atp-safe-attachments.md)</li><li>[Links Seguros](atp-safe-links.md)</li><li>[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Proteção contra phishing no defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecções em tempo real](threat-explorer.md)</li></ul>|Recursos do defender para Office 365 plano 1<br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:</li><li>[Controladores de Ameaças](threat-trackers.md)</li><li>[Explorador de Ameaças](threat-explorer.md)</li><li>[Resposta e investigação automatizadas](office-365-air.md)</li><li>[Simulador de Ataque](attack-simulator.md)</li></ul>|
+|Capacidade de configuração, proteção e detecção: <ul><li>[Anexos Seguros](atp-safe-attachments.md)</li><li>[Links Seguros](atp-safe-links.md)</li><li>[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Proteção contra phishing no defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecções em tempo real](threat-explorer.md)</li></ul>|Recursos do defender para Office 365 plano 1 <p> ---mais--- <p> Recursos de automação, investigação, correção e formação educacional: <ul><li>[Controladores de Ameaças](threat-trackers.md)</li><li>[Explorador de Ameaças](threat-explorer.md)</li><li>[Resposta e investigação automatizadas](office-365-air.md)</li><li>[Simulador de Ataque](attack-simulator.md)</li></ul>|
 |
 
 - O Microsoft defender para Office 365 plano 2 está incluído no Office 365 e5, no Office 365 a5 e no Microsoft 365 e5.
 
-- O Microsoft Defender para Office 365 Plano 1 está incluído no Microsoft 365 Business Premium.
+- O Microsoft defender para Office 365 plano 1 está incluído no Microsoft 365 Business Premium.
 
 - O Microsoft defender para Office 365 plano 1 e o defender para Office 365 plano 2 estão disponíveis como um complemento para determinadas assinaturas. Para saber mais, veja outro link [disponibilidade de recursos nos planos do Microsoft defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
-- O recurso [Documentos Seguros](safe-docs.md) está disponível apenas para usuários com as licenças Microsoft 365 E5 ou Microsoft 365 E5 Security (não incluídas nos planos Microsoft Defender para Office 365).
+- O recurso [documentos seguros](safe-docs.md) só está disponível para usuários com licenças de segurança do Microsoft 365 E5 ou Microsoft 365 E5 (não incluídos nos planos do Microsoft defender para Office 365).
 
 - Se sua assinatura atual não incluir o Microsoft defender para Office 365 e você quiser, [entre em contato com a venda para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644)e descubra como o Microsoft defender para Office 365 pode trabalhar em sua organização.
 

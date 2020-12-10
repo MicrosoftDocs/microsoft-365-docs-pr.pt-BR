@@ -12,12 +12,13 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 61947c940a5079574954344ab72d86594ac3ba48
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ROBOTS: NOINDEX
+ms.openlocfilehash: 2da8d423f2fcebdf7a2663dee8cadfd92f82803a
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906198"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613637"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura da Microsoft 365
 

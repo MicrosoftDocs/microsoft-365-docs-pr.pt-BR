@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft defender para Office 365.
-ms.openlocfilehash: 839d76c1e07b457f671f1f0eccd0a9160e4039a3
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 9d3c8c0bf2b1c440892a1099d3d0812d95027156
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568562"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615763"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -129,7 +129,6 @@ Para impedir que o ponto de interrogação ou por meio da marca seja adicionado 
 - Permitir que o remetente falsifique na política de inteligência de falsificação. Esta ação impedirá que a marca via seja exibida em mensagens do remetente quando a identificação de remetente não autenticado estiver desabilitada. Para obter instruções, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
 
 - [Configurar a autenticação de email](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) para o domínio do remetente.
-  
   - Para o ponto de interrogação na foto, SPF ou DKIM do remetente são os mais importantes.
   - Para a marca via, confirme se o domínio na assinatura DKIM ou o endereço **de email from** corresponde (ou é um subdomínio de) no endereço de.
 

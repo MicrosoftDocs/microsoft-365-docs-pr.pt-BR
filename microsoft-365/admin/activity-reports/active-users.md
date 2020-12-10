@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Saiba como obter um relatório de usuários ativos usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365 e saiba quantas licenças de produto estão sendo usadas.
-ms.openlocfilehash: 162e818e96f6301cf0ec31580950be1ae19a0f35
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0f5d113bf17d338c52f998db45a8626a6636a996
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636990"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611335"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Relatórios do Microsoft 365 no centro de administração-usuários ativos
 
@@ -37,9 +37,9 @@ Por exemplo, você pode usar o relatório de **Usuários Ativos** para descobrir
 
 ## <a name="how-to-get-to-the-active-users-report"></a>Como acessar o relatório Usuários Ativos
 
-1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
+1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
-2. Selecione **Office 365** \> **usuários ativos** do Office 365 na lista suspensa. 
+2. Selecione  \> **usuários ativos** do Office 365 na lista suspensa. 
 
 ## <a name="interpret-the-active-users-report"></a>Interpretar o relatório Usuários Ativos
 
@@ -49,7 +49,7 @@ Por exemplo, você pode usar o relatório de **Usuários Ativos** para descobrir
 |1.  <br/> |O relatório **Usuários Ativos** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você exibir um dia específico no relatório, a tabela (7) mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |
 |3.  <br/> |O gráfico **Usuários Ativos** mostra usuários ativos diariamente no período de referência separados por produto.  <br/> O gráfico **Serviços** mostra a contagem de usuários por tipo de atividade e serviço.  <br/> |
-|4.  <br/> | No gráfico **Usuários Ativos**, o eixo X mostra o período de referência selecionado, e o eixo Y exibe o usuários ativos diariamente separados e classificados por cores pelo tipo de licença.  <br/>  No gráfico de atividades **Serviços**, o eixo X exibe os serviços individuais para os quais seus usuários estão autorizados no período de tempo determinado, e o eixo Y é o número de usuários por status da atividade, classificados por cores pelo status da atividade.  <br/> |
+|4.  <br/> | No gráfico **usuários ativos** , o eixo x mostra o período de tempo de relatórios selecionado e o eixo y exibe os usuários ativos diários separados e codificados por tipo de licença.  <br/>  No gráfico de atividades **Serviços**, o eixo X exibe os serviços individuais para os quais seus usuários estão autorizados no período de tempo determinado, e o eixo Y é o número de usuários por status da atividade, classificados por cores pelo status da atividade.  <br/> |
 |5.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> |
 |6.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando a **exportação** ![ exportar seus dados para um link de arquivo do Excel ](../../media/816a224b-6ca7-4967-a135-4f6427f64dc8.JPG) . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |7.  <br/> |Você pode alterar quais informações são exibidas na tabela com controles de coluna.  <br/> Se sua assinatura for operada pela 21Vianet, você não verá o Yammer. <br/> <br/> |

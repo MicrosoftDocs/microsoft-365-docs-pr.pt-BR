@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Durante e após uma investigação automatizada no Microsoft 365, você pode exibir os resultados e as principais descobertas.
 ms.date: 11/05/2020
-ms.openlocfilehash: 4dc74987619c3f958c874927af6e4240b9d7e154
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 2018f008e043f36cd41047185f305209fcb725d7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357280"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615139"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Detalhes e resultados de uma investigação automatizada no Microsoft 365
 
@@ -53,13 +53,13 @@ O status de investigação indica o progresso das análises e ações. À medida
 
 ## <a name="view-details-of-an-investigation"></a>Exibir detalhes de uma investigação
 
-1. Vá para o centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ) e entre.
+1. Vá para o centro de conformidade e segurança & ( <https://protection.office.com> ) e entre.
 
 2. Execute uma das seguintes ações:
 
-    - Vá para o painel de **Gerenciamento de ameaças** \> **Dashboard**. Isso leva você para o [painel de segurança](security-dashboard.md). Os widgets do AIR aparecem na parte superior do [painel de segurança](security-dashboard.md). Selecione um widget, como o **Resumo de investigações**.
+    - Vá para o painel de **Gerenciamento de ameaças** \> . Isso leva você para o [painel de segurança](security-dashboard.md). Os widgets do AIR aparecem na parte superior do [painel de segurança](security-dashboard.md). Selecione um widget, como o **Resumo de investigações**.
 
-    - Vá para investigações de **Gerenciamento de ameaças** \> **Investigations**.
+    - Vá para investigações de **Gerenciamento de ameaças** \> .
 
     Qualquer um dos métodos o leva a uma lista de investigações.
 
@@ -77,9 +77,9 @@ Determinados tipos de alertas disparam investigação automatizada no Microsoft 
 
 Use o procedimento a seguir para exibir detalhes sobre um alerta que está associado a uma investigação automatizada.
 
-1. Vá para o centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ) e entre.
+1. Vá para o centro de conformidade e segurança & ( <https://protection.office.com> ) e entre.
 
-2. Vá para investigações de **Gerenciamento de ameaças** \> **Investigations**.
+2. Vá para investigações de **Gerenciamento de ameaças** \> .
 
 3. Na lista de investigações, selecione um item na coluna **ID** .
 

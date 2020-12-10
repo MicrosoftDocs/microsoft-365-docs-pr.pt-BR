@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Microsoft defender para Office 365 plano 2.
-ms.openlocfilehash: 7dc5c0ba2e320e3f140d26e79e5c2e4a8fde79d7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9a1fdb4bec5168dfcd816dbce7da01f930e38ae1
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844555"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615187"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Exibir ações de correção pendentes ou concluídas após uma investigação automatizada no Office 365
 
@@ -39,17 +39,17 @@ Ao exibir os [detalhes de uma investigação](air-view-investigation-results.md)
 > [!IMPORTANT]
 > As permissões apropriadas são necessárias para aprovar ou rejeitar ações de correção. Confira [as permissões necessárias para usar os recursos de ar](office-365-air.md#required-permissions-to-use-air-capabilities).
 
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
+1. Acesse <https://protection.office.com> e entre. Isso leva você para o centro de conformidade de & de segurança.
 
-2. Vá para investigações de **Gerenciamento de ameaças**  >  **Investigations**.
+2. Vá para investigações de **Gerenciamento de ameaças** \> .
 
-3. Na lista de investigações, selecione um item na coluna **ID** . 
+3. Na lista de investigações, selecione um item na coluna **ID** .
 
 4. Selecione a guia **ações** .
 
 5. Selecione um item na lista. (Isso ativa os botões aprovar e rejeitar).
 
-6. Revise as informações disponíveis para o (s) item (ns) que você selecionou e, em seguida, aprove ou rejeite a (s) ação (ões). 
+6. Revise as informações disponíveis para o (s) item (ns) que você selecionou e, em seguida, aprove ou rejeite a (s) ação (ões).
    - **Aprovar** permite que a correção seja iniciada.
    - **Rejeitar** não realiza mais nenhuma ação
 

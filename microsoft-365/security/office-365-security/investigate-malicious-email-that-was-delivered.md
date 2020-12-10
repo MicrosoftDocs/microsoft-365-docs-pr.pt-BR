@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a411e221d49a30a103de6e0f169588d13c387443
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: f3fd2e5c0f75de9a1b942e8f0baa8e9d44843de4
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561323"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616519"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigue emails mal-intencionados que foram entregues no Office 365
 
@@ -62,7 +62,7 @@ Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baix
 |
 
 > [!NOTE]
-> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global é atribuída ao centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro de conformidade do & de segurança [https://protection.office.com](https://protection.office.com) . Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global é atribuída ao centro de administração do Microsoft 365 ( <https://admin.microsoft.com> ), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro de conformidade do & de segurança <https://protection.office.com> . Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Localizar emails suspeitos que foram entregues
 
@@ -71,9 +71,9 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
 > [!NOTE]
 > Pesquisas padrão no Explorer não incluem atualmente itens zapped.  Isso se aplica a todos os modos de exibição, por exemplo, malware ou phishing. Para incluir itens do zapped, você precisa adicionar uma "ação de entrega" definida para incluir "removido por ZAP". Se você incluir todas as opções, verá todos os resultados da ação de entrega, incluindo os itens do zapped.
 
-1. **Navegue até Gerenciador de ameaças**: Vá para [https://protection.office.com](https://protection.office.com) e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro de conformidade & segurança.
+1. **Navegue até Gerenciador de ameaças**: Vá para <https://protection.office.com> e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro de conformidade & segurança.
 
-2. No início rápido da navegação à esquerda, escolha Gerenciador de **Gerenciamento de ameaças** \> **Explorer**.
+2. No início rápido da navegação à esquerda, escolha Gerenciador de **Gerenciamento de ameaças** \> .
 
     ![Explorer com ação de entrega e campos de local de entrega.](../../media/ThreatExFields.PNG)
 

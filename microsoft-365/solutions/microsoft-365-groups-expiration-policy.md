@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba mais sobre as políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: 4b283bcc9f4e54462a71b9aee70d6312b9f127d6
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: d55cc7fff939cb07ae2eba92de411e8f0d088885
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350707"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613649"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -55,7 +55,7 @@ Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer 
 
 ## <a name="how-to-set-the-expiration-policy"></a>Como definir a política de expiração
 
-Conforme observado acima, a expiração é desativada por padrão. Um administrador precisará habilitar a política de expiração e definir as propriedades para que ela entre em vigor. Para habilitá-lo, vá para a expiração de grupos **do Azure Active Directory**  >  **Groups**  >  **Expiration**. Aqui você pode definir o tempo de vida do grupo padrão e especificar até que ponto de antecedência você deseja que a primeira e a segunda notificações de expiração acessem o proprietário do grupo.
+Conforme observado acima, a expiração é desativada por padrão. Um administrador precisará habilitar a política de expiração e definir as propriedades para que ela entre em vigor. Para habilitá-lo, vá para a expiração de grupos **do Azure Active Directory**  >    >  . Aqui você pode definir o tempo de vida do grupo padrão e especificar até que ponto de antecedência você deseja que a primeira e a segunda notificações de expiração acessem o proprietário do grupo.
 
 O tempo de vida do grupo é especificado em dias e pode ser definido como 180, 365 ou como um valor personalizado que você especificar. O valor personalizado deve ser pelo menos 30 dias.
 
@@ -81,7 +81,11 @@ Se, por algum motivo, nenhum dos proprietários ou administradores renovar o gru
 
 Se você tiver um grupo que não mais planeja usar, mas deseja manter seu conteúdo, consulte [grupos de arquivos, equipes e Yammer](end-life-cycle-groups-teams-sites-yammer.md) para obter informações sobre como exportar informações de diferentes serviços de grupos.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 
 [Visão geral de políticas de retenção](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)
 

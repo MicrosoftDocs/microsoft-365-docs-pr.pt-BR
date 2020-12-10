@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos de investigação e resposta automatizados no Microsoft defender para Office 365 plano 2.
-ms.openlocfilehash: 80e4529f864d83d2a1711007f0f095de39955e68
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 19c9bad33263178f92c6fe523b44497cf38ebd53
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357900"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616723"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Endereçar contas de usuário comprometidas com investigação e resposta automatizadas
 
@@ -63,11 +63,11 @@ Quando uma conta de usuário é comprometida, os alertas são acionados. E, em a
 
 ### <a name="view-and-investigate-restricted-users"></a>Exibir e investigar usuários restritos
 
-Você tem algumas opções para navegar para uma lista de usuários restritos. Por exemplo, no centro de conformidade & segurança, você pode ir para **Gerenciamento de ameaças**  >  **examinar**  >  **usuários restritos**. O procedimento a seguir descreve a navegação usando o painel de **alertas** , que é uma boa maneira de ver vários tipos de alertas que podem ter sido acionados.
+Você tem algumas opções para navegar para uma lista de usuários restritos. Por exemplo, no centro de conformidade & segurança, você pode ir para **Gerenciamento de ameaças** \> **examinar** \> **usuários restritos**. O procedimento a seguir descreve a navegação usando o painel de **alertas** , que é uma boa maneira de ver vários tipos de alertas que podem ter sido acionados.
 
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre.
+1. Acesse <https://protection.office.com> e entre.
 
-2. No painel de navegação, escolha **Alerts**  >  **painel** de alerta.
+2. No painel de navegação, escolha  \> **painel** de alerta.
 
 3. No widget **outros alertas** , escolha **usuários restritos**.
 
@@ -81,7 +81,7 @@ Você tem algumas opções para navegar para uma lista de usuários restritos. P
 
 ### <a name="view-details-about-automated-investigations"></a>Exibir detalhes sobre investigações automatizadas
 
-Quando uma investigação automatizada começou, você poderá ver seus detalhes e resultados no centro de conformidade & segurança. Vá para **Threat management**  >  **investigações** de gerenciamento de ameaças e selecione uma investigação para exibir seus detalhes.
+Quando uma investigação automatizada começou, você poderá ver seus detalhes e resultados no centro de conformidade & segurança. Vá para  \> **investigações** de gerenciamento de ameaças e selecione uma investigação para exibir seus detalhes.
 
 Para saber mais, confira [Exibir detalhes de uma investigação](air-view-investigation-results.md).
 

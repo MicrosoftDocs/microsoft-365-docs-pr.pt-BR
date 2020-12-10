@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: c495be3f5a90ca96f9a7a05513df9438f88910ad
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 8a2c63d499317427b921d7786dd60b3ad4f18c42
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131316"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615379"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção anti-phishing
 
@@ -61,7 +61,7 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
 - Email falsificado está marcado como phishing no defender para Office 365. Às vezes, a falsificação é benigna e, às vezes, os usuários não a querem colocar em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md). Depois de revisar e fazer as substituições necessárias, você pode ter certeza de [Configurar a inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) para **colocar em quarentena** mensagens suspeitas em vez de entregá-las na pasta lixo eletrônico do usuário.
 
-- Você pode repetir a etapa acima para representação (domínio ou usuário). O relatório de representação é encontrado **Threat Management** em \> **Dashboard** \> **insights** do painel de gerenciamento de ameaças.
+- Você pode repetir a etapa acima para representação (domínio ou usuário). O relatório de representação é encontrado  em \>  \> **insights** do painel de gerenciamento de ameaças.
 
 - Revise periodicamente o [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).
 
@@ -75,7 +75,7 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
   Para obter instruções de configuração, consulte:
 
-  - [Configurar o SPF para ajudar a prevenir falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  - [Configurar o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   - [Usar o DKIM para validar emails enviados de seu domínio personalizado](use-dkim-to-validate-outbound-email.md)
 

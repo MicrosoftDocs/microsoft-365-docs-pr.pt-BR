@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra falsificação no Exchange Online Protection (EOP).
-ms.openlocfilehash: a5b0484e41e3df7a7b6ad16e69a4f7062b19b554
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: f567c7bc0c6a6efed7621cec86c5db4e616290b7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844387"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616726"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Perguntas frequentes sobre a proteção antifalsificação
 
@@ -71,12 +71,12 @@ Infelizmente, não. Os invasores se adaptarão ao uso de outras técnicas (por e
 
 Quase todos os grandes serviços de email implementam verificações tradicionais de SPF, DKIM e DMARC. Alguns serviços têm outras verificações mais estritas, mas poucos vão até o EOP para bloquear emails não autenticados e tratá-los como mensagens falsificadas. No entanto, o setor está se tornando mais atento a problemas com emails não autenticados, especialmente devido ao problema de phishing.
 
-## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Ainda precisa habilitar a configuração avançada de filtro de spam "registro SPF: falha de hardware" ( _MarkAsSpamSpfRecordHardFail_ ) se eu habilitar a antifalsificação?
+## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Ainda precisa habilitar a configuração avançada de filtro de spam "registro SPF: falha de hardware" (_MarkAsSpamSpfRecordHardFail_) se eu habilitar a antifalsificação?
 
-Não. Essa configuração de ASF não é mais necessária. A proteção antifalsificação considera a falha de hardware SPF e um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** ( _MarkAsSpamSpfRecordHardFail_ ), provavelmente obterá mais falsos positivos.
+Não. Essa configuração de ASF não é mais necessária. A proteção antifalsificação considera a falha de hardware SPF e um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** (_MarkAsSpamSpfRecordHardFail_), provavelmente obterá mais falsos positivos.
 
 Recomendamos que você desabilite esse recurso, pois ele não fornecerá praticamente nenhum benefício adicional para detectar spam ou mensagens de phishing e, em vez disso, geraria quase todos os falsos positivos. Para obter mais informações, consulte [Configurações avançadas de filtro de spam (ASF) no EOP](advanced-spam-filtering-asf-options.md).
 
 ## <a name="does-sender-rewriting-scheme-help-fix-forwarded-email"></a>A ajuda do esquema de reconfiguração do remetente corrige emails encaminhados?
 
-O SRS corrige apenas parcialmente o problema dos emails encaminhados. Ao reescrever o **email SMTP de** , o SRS pode garantir que a mensagem encaminhada passe SPF no próximo destino. No entanto, como a antifalsificação baseia-se no endereço **de** em combinação com o domínio de assinatura ou **email de** DKIM (ou outros sinais), não é suficiente impedir que emails enviados do SRS sejam marcados como falsificados.
+O SRS corrige apenas parcialmente o problema dos emails encaminhados. Ao reescrever o **email SMTP de**, o SRS pode garantir que a mensagem encaminhada passe SPF no próximo destino. No entanto, como a antifalsificação baseia-se no endereço **de** em combinação com o domínio de assinatura ou **email de** DKIM (ou outros sinais), não é suficiente impedir que emails enviados do SRS sejam marcados como falsificados.

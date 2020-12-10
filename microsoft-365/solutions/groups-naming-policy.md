@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Saiba como criar uma política de nomenclatura para os grupos do Microsoft 365.
-ms.openlocfilehash: 55faf5c61d577b35b34923efc7b65457fe46de29
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 15fcbace737398c6edd2062e72622e8551ebd222
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377600"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613497"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Política de nomenclatura de grupos do Microsoft 365
 
@@ -45,7 +45,7 @@ O uso da política de nomenclatura do Azure AD para grupos do Microsoft 365 requ
 
 Isso também é necessário para o administrador que cria a política de nomenclatura de grupos.
 
-## <a name="prefix-suffix-naming-policy"></a>Política de nomenclatura de sufixo de prefixo
+## <a name="prefix-suffix-naming-policy"></a>Política de nomenclatura Prefix-Suffix
 
 Os prefixos e sufixos podem ser cadeias de caracteres fixas ou atributos de usuário.
 
@@ -108,7 +108,7 @@ Nenhuma pesquisa de subcadeias de caracteres é executada; especificamente, uma 
 
 Alguns administradores são isentos dessas políticas, em todas as cargas de trabalho de grupo e pontos de extremidade, para que eles possam criar grupos com essas palavras bloqueadas e com as convenções de nomenclatura desejadas. Veja a seguir a lista de funções de administrador isentas da política de nomeação de grupo.
 
-- Administrador global
+- Administração global
 
 - Suporte da camada 1 do parceiro
 
@@ -132,5 +132,9 @@ Para configurar uma política de nomenclatura:
 ![Captura de tela das configurações de política de nomenclatura de grupos no Azure Active Directory](../media/groups-naming-policy-azure.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
+[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 
 [Cmdlets do Azure Active Directory para definição de configurações de grupo](https://go.microsoft.com/fwlink/?linkid=868341)

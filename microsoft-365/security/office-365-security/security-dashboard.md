@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: b49422621e70d597251cd342559e59ffa0e128f6
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 6a2669e3e36ee9238de99014a6c899df75204726
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877320"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615811"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
@@ -40,7 +40,7 @@ Assista ao vídeo para obter uma visão geral e leia este artigo para saber mais
 
 Dependendo da assinatura que a sua organização inclui, o painel de segurança inclui vários widgets, como Resumo de gerenciamento de ameaças, status de proteção contra ameaças, detecções semanais globais de ameaças, malware e muito mais, conforme descrito nas seções a seguir.
 
-Para exibir o painel de segurança, no [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md), vá para o painel **Gerenciamento de ameaças** \> **Dashboard**.
+Para exibir o painel de segurança, no [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md), vá para o painel **Gerenciamento de ameaças** \> .
 
 > [!NOTE]
 > Você deve ser um administrador global, um administrador de segurança ou um leitor de segurança para exibir o painel de segurança. Alguns widgets exigem permissões adicionais para exibir. Para saber mais, confira [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
@@ -55,7 +55,7 @@ As informações que você verá no Resumo de gerenciamento de ameaças depende 
 
 |Office 365 E3|Office 365 E5|
 |---|---|
-|Mensagens de malware bloqueadas<br/>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br><br><br><br>|Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br>Malware de dia zero bloqueado<br>Mensagens de phishing avançadas detectadas<br>URLs mal-intencionadas bloqueadas|
+|Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br><br><br><br>|Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br>Malware de dia zero bloqueado<br>Mensagens de phishing avançadas detectadas<br>URLs mal-intencionadas bloqueadas|
 
 Para exibir ou acessar o widget Resumo de gerenciamento de ameaças, você deve ter permissões para exibir os relatórios do defender for Office 365. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios do defender for Office 365?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports).
 
@@ -69,8 +69,8 @@ Os detalhes dependem de sua assinatura do Microsoft 365 incluir o [Exchange Onli
 
 |Se sua assinatura incluir...|Você verá estes detalhes|
 |---|---|
-|EOP mas não o Microsoft defender para Office 365|Email mal-intencionado detectado e bloqueado pelo EOP.<br><br> Consulte [relatório de status de proteção contra ameaças (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Microsoft Defender para Office 365|Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e defender para Office 365<br><br>Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos do defender para Office 365 (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing no defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)).<br><br>Consulte [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).|
+|EOP mas não o Microsoft defender para Office 365|Email mal-intencionado detectado e bloqueado pelo EOP.<p> Consulte [relatório de status de proteção contra ameaças (EOP)](view-email-security-reports.md#threat-protection-status-report).|
+|Microsoft defender para Office 365|Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e defender para Office 365 <p> Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos do defender para Office 365 (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing no defender para Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)). <p> Consulte [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).|
 
 Para exibir ou acessar o widget status de proteção contra ameaças, você deve ter permissões para exibir os relatórios do defender for Office 365. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios do defender for Office 365?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
@@ -127,6 +127,6 @@ Para exibir ou acessar o widget alertas de gerenciamento de ameaças recentes, v
 
 [Exibir relatórios do Microsoft defender para Office 365](view-reports-for-atp.md)
 
-[Defender para Office 365](office-365-atp.md)
+[O que é o Defender para Office 365?](office-365-atp.md)
 
 [Investigação e resposta contra ameaças do Office 365](office-365-ti.md)

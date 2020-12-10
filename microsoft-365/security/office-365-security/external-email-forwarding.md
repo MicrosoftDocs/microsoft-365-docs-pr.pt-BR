@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 59e2c938c70dd8e3060fd85d084acbe8f79856ad
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: bbe341899599d5092db0b0961add5a9825eca3b4
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806620"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616591"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Controlar o encaminhamento de email externo automático no Microsoft 365
 
@@ -31,24 +31,24 @@ Os seguintes tipos de encaminhamento automático estão disponíveis no Microsof
 
 - Os usuários podem configurar [regras de caixa de entrada](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) para encaminhar mensagens automaticamente para remetentes externos (deliberadamente ou como resultado de uma conta comprometida).
 
-- Os administradores podem configurar o [encaminhamento de caixa de correio](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (também conhecido como _encaminhamento SMTP_ ) para encaminhar mensagens automaticamente para destinatários externos.
+- Os administradores podem configurar o [encaminhamento de caixa de correio](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (também conhecido como _encaminhamento SMTP_) para encaminhar mensagens automaticamente para destinatários externos.
 
 Você pode usar as políticas de filtro de spam de saída para controlar o encaminhamento automático para destinatários externos. Três configurações estão disponíveis:
 
-- **Automático** : o encaminhamento externo automático está bloqueado. O encaminhamento automático de mensagens interno continuará funcionando. Esta é a configuração padrão.
+- **Automático**: o encaminhamento externo automático está bloqueado. O encaminhamento automático de mensagens interno continuará funcionando. Esta é a configuração padrão.
 
-- **Ativado** : o encaminhamento externo automático é permitido e não é restrito.
+- **Ativado**: o encaminhamento externo automático é permitido e não é restrito.
 
-- **Off** : o encaminhamento externo automático está desabilitado e resultará em uma notificação de falha na entrega (também conhecida como NDR ou mensagem de devolução) para o remetente.
+- **Off**: o encaminhamento externo automático está desabilitado e resultará em uma notificação de falha na entrega (também conhecida como NDR ou mensagem de devolução) para o remetente.
 
 Para obter instruções sobre como definir essas configurações, consulte [Configure Outbound spam Filtering in EOP](configure-the-outbound-spam-policy.md).
 
 > [!NOTE]
-> 
+>
 > - Desabilitar o encaminhamento automático desabilita qualquer regra de caixa de entrada (usuários) ou de caixa de correio (admins) que redireciona mensagens para endereços externos.
-> 
+>
 > - O encaminhamento automático de mensagens entre usuários internos não é afetado pelas configurações em políticas de filtro de spam de saída.
-> 
+>
 > - Você pode ver informações sobre os usuários que estão encaminhando mensagens automaticamente para destinatários externos no [relatório de mensagens de encaminhamento automático](mfi-auto-forwarded-messages-report.md).
 
 ## <a name="how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls"></a>Como as configurações da política de filtro de spam de saída funcionam com outros controles de encaminhamento automáticos de email

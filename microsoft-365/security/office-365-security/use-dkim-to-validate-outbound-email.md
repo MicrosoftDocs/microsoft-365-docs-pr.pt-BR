@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a usar o e-mail Identificado DomainKeys (DKIM) com o Microsoft 365 para garantir que as mensagens enviadas de seu domínio personalizado sejam confiadas pelos sistemas de e-mail de destino.
-ms.openlocfilehash: 66f352b6c3a5d3b3beff3043a3f0d1a435d1e5d1
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: f8ae6334a078d635de069d2fe7af351ad42d8df3
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560879"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615355"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Usar o DKIM para validar emails enviados de seu domínio personalizado
 
@@ -90,7 +90,7 @@ Já que tanto o número de bits 1024 e o 2048 têm suporte para chaves DKIM, ess
    1. [Conecte-se às cargas de trabalho do Office 365 pelo PowerShell ](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (O cmdlet é proveniente do Exchange Online.)
    1. Execute o seguinte comando:
 
-      ```powershell 
+      ```powershell
       Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
       ```
 
@@ -131,7 +131,7 @@ Para configurar o DKIM, execute estas etapas:
 Para cada domínio para o qual você deseja adicionar uma assinatura de DKIM no DNS, é preciso publicar dois registros CNAME.
 
 > [!NOTE]
-> Se você ainda não leu o artigo, pode ter perdido essas informações de conexão do Windows PowerShell que estão prestes a economizar tempo: [Conectar-se às cargas de trabalho do Office 365 por meio do Windows PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (O cmdlet é proveniente do Exchange Online.) 
+> Se você ainda não leu o artigo, pode ter perdido essas informações de conexão do Windows PowerShell que estão prestes a economizar tempo: [Conectar-se às cargas de trabalho do Office 365 por meio do Windows PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (O cmdlet é proveniente do Exchange Online.)
 
 Execute os seguintes comandos para criar os registros do seletor:
 
@@ -254,7 +254,7 @@ Aguarde alguns minutos antes de prosseguir com essas etapas para confirmar que v
 
 Se em algum momento no futuro você decidir adicionar outro domínio personalizado e quiser habilitar o DKIM para o novo domínio, deve executar as etapas deste artigo para cada domínio. Especificamente, execute todas as etapas em [O que é necessário fazer para configurar manualmente o DKIM](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365).
 
-## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>Desabilitar a política de assinatura do DKIM para um domínio personalizado 
+## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>Desabilitar a política de assinatura do DKIM para um domínio personalizado
 <a name="DisableDKIMSigningPolicy"> </a>
 
 Desabilitar a política de assinatura não desabilita completamente o DKIM. Após um período de tempo, o Microsoft 365 aplicará automaticamente a política padrão ao seu domínio. Para saber mais, confira [Comportamento padrão do DKIM e do Microsoft 365](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior).
@@ -336,7 +336,7 @@ Neste exemplo, para obter este resultado:
    > remetente@**contoso.com**
 
    > d=**contoso.com**
-   
+
 ## <a name="identify-domains-that-do-not-send-email"></a>Identificar domínios que não enviam email
 
 As organizações devem declarar explicitamente se um domínio não envia email especificando `v=DKIM1; p=`estes domínios no registro DKIM. Isto sugere aos servidores receptores de email que não há chaves públicas válidas para o domínio, e que qualquer email que declara ser desse domínio deve ser rejeitada. Você deve fazer isto para cada domínio e subdomínio usando um DKIM curinga.

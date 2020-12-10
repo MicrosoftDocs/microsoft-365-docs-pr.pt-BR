@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a configurar entradas de URL na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: 1aae54ffd6026a7fc131017a10f9676d96be9b69
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 0fdfa23ba22b240032e7a6888948de180aa0f6ae
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572629"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614959"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na Lista de Permissões/Bloqueios de Locatários
 
@@ -38,7 +38,7 @@ Este tópico descreve como configurar entradas na lista de permissões/bloqueios
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **lista de permissões/bloqueios de locatários** , use <https://protection.office.com/tenantAllowBlockList> .
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **lista de permissões/bloqueios de locatários** , use <https://protection.office.com/tenantAllowBlockList> .
 
 - Os valores de URL disponíveis são descritos na [sintaxe da URL para a seção lista de permissões/bloqueios de locatário](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste tópico.
 
@@ -60,14 +60,14 @@ Este tópico descreve como configurar entradas na lista de permissões/bloqueios
 
   **Observações**:
 
-  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
-  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para criar entradas de URL na lista de permissões/bloqueios de locatários
 
 Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da URL da seção [lista de permissões/bloqueios de locatário](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste tópico.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para  \>  \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Na página **lista de permissões/bloqueios de locatários** , verifique se a guia **URLs** está selecionada e clique em **Adicionar**
 
@@ -91,7 +91,7 @@ Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da U
 
 ## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para exibir entradas na lista de permissões/bloqueios de locatários
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para  \>  \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Selecione a guia **URLs** .
 
@@ -125,7 +125,7 @@ Para limpar filtros existentes, clique em **Filtrar** e, no submenu de **filtro*
 
 Você não pode modificar o próprio valor de URL. Em vez disso, você precisa excluir a entrada e recriá-la.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para  \>  \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Selecione a guia **URLs** .
 
@@ -149,7 +149,7 @@ Você não pode modificar o próprio valor de URL. Em vez disso, você precisa e
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para remover entradas da lista de permissões/bloqueios de locatários
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
+1. No centro de conformidade & segurança, vá para  \>  \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 
 2. Selecione a guia **URLs** .
 
@@ -296,7 +296,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
   - test.com/q=contoso.com
   - www.contoso.com
   - www. contoso. com/q = a@contoso. com
-  
+
 - **Correspondência de bloco**:
 
   - contoso.com
@@ -324,7 +324,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
   - contoso.com
   - test.com/contoso.com
   - www.contoso.com/abc
-  
+
 #### <a name="scenario-right-wildcard-at-top-of-path"></a>Cenário: caractere curinga à direita na parte superior do caminho
 
 **Entrada**: `contoso.com/a/*`
@@ -341,7 +341,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
   - contoso.com/a
   - www.contoso.com
   - www. contoso. com/q = a@contoso. com
-  
+
 #### <a name="scenario-left-tilde"></a>Cenário: til esquerdo
 
 **Entrada**: `~contoso.com`

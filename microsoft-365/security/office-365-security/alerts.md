@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba mais sobre como usar os recursos de alerta no centro de conformidade & segurança do Office 365 para exibir e gerenciar alertas, incluindo o gerenciamento de alertas avançados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a29da0a76ff1b681c87182ff55b787327a969607
-ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
+ms.openlocfilehash: a40e880315b49620c372cf09416457c1bcaa00e7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48984883"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615043"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>Alertas no centro de conformidade & segurança
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Saiba mais sobre os rastreadores de ameaças, incluindo novos rastreadores dignos de importância, para ajudar sua organização a se manter informado sobre segurança.
-ms.openlocfilehash: e173bb2b4ee6e7c54c7414c7f102d8c4d1d06641
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 551f5704337ef8989fd1568854822bc1d9d4c14b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568451"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615451"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Rastreadores de ameaça-novidade e digno de sessão
 
@@ -46,7 +46,7 @@ A maioria das páginas de rastreador inclui os números de tendência atualizado
 
 Os rastreadores são apenas alguns dos vários recursos excelentes que você obtém com o [Microsoft defender para Office 365 plano 2](office-365-ti.md). Os rastreadores de ameaças incluem [Noteworth rastreadores](#noteworthy-trackers), [rastreadores de tendências](#trending-trackers), [consultas rastreadas](#tracked-queries)e [consultas salvas](#saved-queries).
 
-Para exibir e usar seus rastreadores de ameaças para sua organização, vá para o centro de conformidade de & de segurança ( [https://protection.office.com](https://protection.office.com) ) e escolha gerenciamento de ameaças de gerenciamento de **ameaças** \> **Threat tracker**.
+Para exibir e usar seus rastreadores de ameaças para sua organização, vá para o centro de conformidade de & de segurança ( <https://protection.office.com> ) e escolha gerenciamento de ameaças de gerenciamento de **ameaças** \> .
 
 > [!NOTE]
 > Para usar rastreadores de ameaças, você deve ser um administrador global, administrador de segurança ou leitor de segurança. Consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
@@ -103,6 +103,6 @@ O novo filtro de ameaça notável realça os itens que foram detectados recentem
 
 - Certifique-se de que a equipe de segurança tenha as funções e permissões corretas atribuídas. Você deve ser um administrador global ou ter a função de administrador de segurança ou de pesquisa e de limpeza atribuída no centro de conformidade & segurança. Consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Observe os novos rastreadores a serem exibidos no seu ambiente do Microsoft 365. Quando estiver disponível, você encontrará [aqui](https://protection.office.com/)seus rastreadores. Vá para **Gerenciamento** de ameaças de gerenciamento de ameaça \> **Threat trackers**.
+- Observe os novos rastreadores a serem exibidos no seu ambiente do Microsoft 365. Quando estiver disponível, você encontrará [aqui](https://protection.office.com/)seus rastreadores. Vá para **Gerenciamento** de ameaças de gerenciamento de ameaça \> .
 
 - Se ainda não tiver feito isso, saiba mais sobre e configurar o [Microsoft defender para Office 365](office-365-atp.md) para sua organização, incluindo [links seguros](atp-safe-links.md) e [anexos seguros](atp-safe-attachments.md).

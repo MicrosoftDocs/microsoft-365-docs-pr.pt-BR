@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Resumo: Crie assinaturas de teste do Office 365 e Enterprise Mobility + Security (EMS) com usuários e grupos para um ambiente de desenvolvimento/teste de campanha política.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 80454477bc55ab54ae7edf14ded5b4fa49fe1530
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1fac15cc0b2a512745e0538ec689bd5f17555419
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203354"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614901"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
 
@@ -68,7 +68,7 @@ Nesta fase, você cria e configura os grupos do Azure AD para a sua empresa.
 
 Primeiro, crie um conjunto de grupos para uma campanha política com o Portal do Azure.
 
-1. Em uma guia separada no navegador, vá ao Portal do Azure em [https://portal.azure.com](https://portal.azure.com). Se necessário, entre com as credenciais da conta de administrador global da sua assinatura de avaliação do Office 365 E5.
+1. Em uma guia separada no navegador, vá ao Portal do Azure em <https://portal.azure.com>. Se necessário, entre com as credenciais da conta de administrador global da sua assinatura de avaliação do Office 365 E5.
 
 2. No Portal do Azure, clique em **Azure Active Directory > Usuários e grupos > Todos os grupos**.
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as configurações avançadas de filtro de spam (ASF) que estão disponíveis em políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: f9295de6fb524cff16394d305ca9247d9f7ce07b
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 3ac2b45cc03327f47bd73efe54e78312cbda4bb6
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49020922"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615247"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Configurações avançadas de filtro de spam (ASF) no EOP
 
@@ -50,25 +50,25 @@ As seções a seguir descrevem as opções e as configurações de ASF que estã
 
 Para cada configuração de ASF, as seguintes opções estão disponíveis em políticas antispam:
 
-- **Ativado** : o ASF adiciona o campo de cabeçalho X correspondente à mensagem e marca a mensagem como **spam** (SCL 5 ou 6 para [aumentar as configurações de Pontuação de spam](#increase-spam-score-settings)) ou spam de **alta confiança** (SCL 9 para [Marcar como configurações de spam](#mark-as-spam-settings)).
+- **Ativado**: o ASF adiciona o campo de cabeçalho X correspondente à mensagem e marca a mensagem como **spam** (SCL 5 ou 6 para [aumentar as configurações de Pontuação de spam](#increase-spam-score-settings)) ou spam de **alta confiança** (SCL 9 para [Marcar como configurações de spam](#mark-as-spam-settings)).
 
-- **Off** : a configuração de ASF está desabilitada. Este é o valor padrão e recomendamos que você não o altere.
+- **Off**: a configuração de ASF está desabilitada. Este é o valor padrão e recomendamos que você não o altere.
 
-- **Test** : o ASF adiciona o campo de cabeçalho X correspondente à mensagem. O que acontece com a mensagem é determinado pelo valor de **Opções do modo de teste** ( *TestModeAction* ):
+- **Test**: o ASF adiciona o campo de cabeçalho X correspondente à mensagem. O que acontece com a mensagem é determinado pelo valor de **Opções do modo de teste** (*TestModeAction*):
 
-  - **None** : a entrega de mensagens não é afetada pela detecção de ASF. A mensagem ainda está sujeita a outros tipos de filtragem e regras no EOP.
+  - **None**: a entrega de mensagens não é afetada pela detecção de ASF. A mensagem ainda está sujeita a outros tipos de filtragem e regras no EOP.
 
-  - **Adicionar texto do cabeçalho x padrão ( *AddXHeader* )** : o valor X-header `X-CustomSpam: This message was filtered by the custom spam filter option` é adicionado à mensagem. Você pode usar esse valor em regras de caixa de entrada ou regras de fluxo de emails (também conhecidas como regras de transporte) para afetar a entrega da mensagem.
+  - **Adicionar texto do cabeçalho x padrão (*AddXHeader*)**: o valor X-header `X-CustomSpam: This message was filtered by the custom spam filter option` é adicionado à mensagem. Você pode usar esse valor em regras de caixa de entrada ou regras de fluxo de emails (também conhecidas como regras de transporte) para afetar a entrega da mensagem.
 
-  - **Enviar mensagem Cco ( *BccMessage* )** : os endereços de email especificados (o valor do parâmetro *TestModeBccToRecipients* no PowerShell) são adicionados ao campo Cco da mensagem e a mensagem é entregue aos destinatários Cco adicionais. No centro de conformidade & segurança, você separa vários endereços de email por ponto-e-vírgula (;). No PowerShell, você separa vários endereços de email por vírgulas.
+  - **Enviar mensagem Cco (*BccMessage*)**: os endereços de email especificados (o valor do parâmetro *TestModeBccToRecipients* no PowerShell) são adicionados ao campo Cco da mensagem e a mensagem é entregue aos destinatários Cco adicionais. No centro de conformidade & segurança, você separa vários endereços de email por ponto-e-vírgula (;). No PowerShell, você separa vários endereços de email por vírgulas.
 
-  **Observações** :
+  **Observações**:
 
   - O modo de teste não está disponível para as seguintes configurações ASF:
 
-    - **Filtragem de ID de remetente condicional: falha de hardware** ( *MarkAsSpamFromAddressAuthFail* )
-    - **Inspersão de NDR** ( *MarkAsSpamNdrBackscatter* )
-    - **Registro SPF: falha de hardware** ( *MarkAsSpamSpfRecordHardFail* )
+    - **Filtragem de ID de remetente condicional: falha de hardware** (*MarkAsSpamFromAddressAuthFail*)
+    - **Inspersão de NDR**(*MarkAsSpamNdrBackscatter*)
+    - **Registro SPF: falha de hardware** (*MarkAsSpamSpfRecordHardFail*)
 
   - A mesma ação de modo de teste é aplicada a *todas* as configurações de ASF definidas para **testar**. Você não pode configurar ações de modo de teste diferentes para diferentes configurações de ASF.
 
@@ -100,9 +100,9 @@ As configurações ASF a seguir definem o SCL das mensagens detectadas para 9, q
 |**Marcas de objeto em HTML** <p> *MarkAsSpamObjectTagsInHtml*|As mensagens que contêm `<object>` marcas HTML são marcadas como spam de alta confiança. <p> Essa marca permite que plug-ins ou aplicativos sejam executados em uma janela HTML.|`X-CustomSpam: Object tag in html`|
 |**Marcas de inserção em HTML** <p> *MarkAsSpamEmbedTagsInHtml*|A mensagem que contém `<embed>` marcas HTML são marcadas como spam de alta confiança. <p> Essa marca permite a incorporação de diferentes tipos de documentos em um documento HTML (por exemplo, sons, vídeos ou imagens).|`X-CustomSpam: Embed tag in html`|
 |**Marca de Formulároo em HTML** <p> *MarkAsSpamFormTagsInHtml*|As mensagens que contêm `<form>` marcas HTML são marcadas como spam de alta confiança. <p> Essa marca é usada para criar formulários de site. Os anúncios de email geralmente incluem essa marca para solicitar informações do destinatário.|`X-CustomSpam: Form tag in html`|
-|**Erros da web em HTML** <p> *MarkAsSpamWebBugsInHtml*|Um *Web bug* (também conhecido como um *Web beacon* ) é um elemento gráfico (geralmente, como um pixel de um pixel) que é usado em mensagens de email para determinar se a mensagem foi lida pelo destinatário. <p> As mensagens que contêm Web bugs são marcadas como spam de alta confiança. <p> Boletins informativos legítimos podem usar Web bugs, embora muitas considerem essa invasão de privacidade. |`X-CustomSpam: Web bug`|
+|**Erros da web em HTML** <p> *MarkAsSpamWebBugsInHtml*|Um *Web bug* (também conhecido como um *Web beacon*) é um elemento gráfico (geralmente, como um pixel de um pixel) que é usado em mensagens de email para determinar se a mensagem foi lida pelo destinatário. <p> As mensagens que contêm Web bugs são marcadas como spam de alta confiança. <p> Boletins informativos legítimos podem usar Web bugs, embora muitas considerem essa invasão de privacidade. |`X-CustomSpam: Web bug`|
 |**Aplicar lista de palavras sensíveis** <p> *MarkAsSpamSensitiveWordList*|A Microsoft mantém uma lista dinâmica, mas não editável, de palavras associadas a mensagens potencialmente ofensivas. <p> As mensagens que contêm palavras da lista de palavras confidenciais no assunto ou no corpo da mensagem são marcadas como spam de alta confiança.|`X-CustomSpam: Sensitive word in subject/body`|
 |**Registro SPF: falha grave** <p> *MarkAsSpamSpfRecordHardFail*|As mensagens enviadas de um endereço IP não especificado no registro SPF (Sender Policy Framework) do SPF no DNS para o domínio de email de origem são marcadas como spam de alta confiança. <p> O modo de teste não está disponível para esta configuração.|`X-CustomSpam: SPF Record Fail`|
 |**Filtragem de ID por remetente condicional: falha grave** <p> *MarkAsSpamFromAddressAuthFail*|Mensagens que a verificação de falha grave de ID de remetente condicional são marcadas como spam. <p> Essa configuração combina uma verificação de SPF com uma verificação de ID de remetente para ajudar a proteger contra cabeçalhos de mensagens que contêm remetentes falsificados. <p> O modo de teste não está disponível para esta configuração.|`X-CustomSpam: SPF From Record Fail`|
-|**Backscatter NDR** <p> *MarkAsSpamNdrBackscatter*|*Dispersa* são notificações de falha na entrega inúteis (também conhecidas como NDRs ou mensagens de devolução) causadas por remetentes falsificados em mensagens de email. Para obter mais informações, consulte [mensagens de inspersão e EOP](backscatter-messages-and-eop.md). <p> Não é necessário definir essa configuração nos seguintes ambientes, pois os NDRs legítimos são entregues e a inspersão é marcada como spam: <ul><li>Microsoft 365 organizações com caixas de correio do Exchange Online.</li><li>Organizações de email locais onde você encaminha emails de *saída* por meio do EOP.</li></ul><br/> Em ambientes autônomos do EOP que protegem os emails de entrada para caixas de correio locais, ativar ou desativar essa configuração tem o seguinte resultado: <ul><li> **Ativado** : os NDRs legítimos são entregues e a inspersão é marcada como spam.</li><li>**Off** : NDRs legítimos e dispersa passam por filtragem de spam normal. Os NDRs mais legítimos serão entregues ao remetente da mensagem original. Algumas, mas não todas, o dispersão são marcadas como spam de alta confiança. Por definição, o dispersão só pode ser entregue ao remetente falsificado, e não ao remetente original.</li></ul><br/> O modo de teste não está disponível para esta configuração.|`X-CustomSpam: Backscatter NDR`|
+|**Backscatter NDR** <p> *MarkAsSpamNdrBackscatter*|*Dispersa* são notificações de falha na entrega inúteis (também conhecidas como NDRs ou mensagens de devolução) causadas por remetentes falsificados em mensagens de email. Para obter mais informações, consulte [mensagens de inspersão e EOP](backscatter-messages-and-eop.md). <p> Não é necessário definir essa configuração nos seguintes ambientes, pois os NDRs legítimos são entregues e a inspersão é marcada como spam: <ul><li>Microsoft 365 organizações com caixas de correio do Exchange Online.</li><li>Organizações de email locais onde você encaminha emails de *saída* por meio do EOP.</li></ul> <p> Em ambientes autônomos do EOP que protegem os emails de entrada para caixas de correio locais, ativar ou desativar essa configuração tem o seguinte resultado: <ul><li> **Ativado**: os NDRs legítimos são entregues e a inspersão é marcada como spam.</li><li>**Off**: NDRs legítimos e dispersa passam por filtragem de spam normal. Os NDRs mais legítimos serão entregues ao remetente da mensagem original. Algumas, mas não todas, o dispersão são marcadas como spam de alta confiança. Por definição, o dispersão só pode ser entregue ao remetente falsificado, e não ao remetente original.</li></ul> <p> O modo de teste não está disponível para esta configuração.|`X-CustomSpam: Backscatter NDR`|
 |

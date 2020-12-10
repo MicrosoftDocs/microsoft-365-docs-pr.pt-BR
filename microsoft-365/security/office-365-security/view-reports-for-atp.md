@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-office365
 description: Encontre e use relatórios do Microsoft defender para Office 365 no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a237049c9ebbccf1c01feeb21129496e16d437b2
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 2818362eea4071430bb2c784ceb0ce0eeb970a79
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572484"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615571"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Exibir relatórios do defender for Office 365 no painel relatórios no centro de conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-As organizações do Microsoft defender for Office 365 (por exemplo, assinaturas do Microsoft 365 E5 ou Microsoft defender para Office 365 plano 1 ou Microsoft defender para Office 365 plano 2) contêm uma variedade de relatórios relacionados à segurança. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando **Reports** o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
+As organizações do Microsoft defender for Office 365 (por exemplo, assinaturas do Microsoft 365 E5 ou Microsoft defender para Office 365 plano 1 ou Microsoft defender para Office 365 plano 2) contêm uma variedade de relatórios relacionados à segurança. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando  o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
 
 ![O painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -41,7 +41,7 @@ O relatório de **relatórios de tipos de arquivo do defender for Office 365** m
 
  O modo de exibição de agregação do relatório permite 90 dias de filtragem, enquanto o modo de exibição de detalhes permite apenas 10 dias de filtragem.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **defender para tipos de arquivo do Office 365**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPFileReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **defender para tipos de arquivo do Office 365**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPFileReport> .
 
 ![O widget tipos de arquivo do defender for Office 365 no painel relatórios](../../media/atp-file-types-report-widget.png)
 
@@ -123,7 +123,7 @@ Para voltar para o modo de exibição relatórios, clique em **Exibir relatório
 
 O relatório de **disposição de mensagens ATP** mostra as ações que foram tomadas para mensagens de email que foram detectadas como tendo conteúdo mal-intencionado.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **defender para Office 365 disposição de mensagem**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPMessageReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **defender para Office 365 disposição de mensagem**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPMessageReport> .
 
 ![Widget disposição de mensagens do defender for Office 365 no painel relatórios](../../media/atp-message-disposition-report-widget.png)
 
@@ -211,7 +211,7 @@ O **relatório de latência de email** mostra um modo de exibição de agregaç�
 
 A latência do lado do cliente e da rede não estão incluídas.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione relatório de **latência de email**. Para ir diretamente para o relatório, abra <https://protection.office.com/mailLatencyReport?viewid=P50> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione relatório de **latência de email**. Para ir diretamente para o relatório, abra <https://protection.office.com/mailLatencyReport?viewid=P50> .
 
 ![Widget relatório de latência de email no painel relatórios](../../media/mail-latency-report-widget.png)
 
@@ -264,7 +264,7 @@ O relatório de **status de proteção contra ameaças** é um modo de exibiçã
 
 O **relatório de proteção de ameaças de URL** fornece as exibições de resumo e tendência para ameaças detectadas e ações tomadas em cliques de URL como parte de [links seguros](atp-safe-links.md). Este relatório não terá clique em dados de usuários em que a política de links seguros aplicada tenha a opção **não rastrear os cliques do usuário** selecionada.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione relatório de **proteção de URL**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione relatório de **proteção de URL**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
 
 ![Widget relatório de proteção de URL no painel relatórios](../../media/url-protection-report-widget.png)
 
@@ -347,7 +347,7 @@ Para exibir e usar os relatórios descritos neste tópico, você precisa ser mem
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não estiverem mostrando dados?
 
@@ -356,5 +356,5 @@ Se você não estiver vendo dados nos seus relatórios do defender for Office 36
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Relatórios inteligentes e insights no Centro de Conformidade e Segurança](reports-and-insights-in-security-and-compliance.md)
-  
+
 [Permissões de função (Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

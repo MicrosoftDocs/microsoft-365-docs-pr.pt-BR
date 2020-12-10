@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: 'Resumo: Configure um site de equipe do SharePoint Online isolado do restante da organização no seu ambiente de desenvolvimento/teste do Microsoft 365.'
-ms.openlocfilehash: e21dccb9ef535bb997d6e62b70e5576bf531041c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6e056cd1d930d13e1ae20f8f8d0cdc9aa886f17e
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199656"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616483"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Site de equipe do SharePoint Online isolado no seu ambiente de desenvolvimento/teste
 
@@ -35,9 +35,7 @@ Os sites de equipe do SharePoint Online no Microsoft 365 são locais para colabo
 Acesso aos sites de equipe do SharePoint Online e o que os usuários podem fazer são controlados pelos grupos do SharePoint e níveis de permissão. Por padrão, os sites do SharePoint Online têm três níveis de acesso:
 
 - **Membros**, que podem exibir, criar e modificar recursos no site.
-
 - **Proprietários**, que têm controle total do site, incluindo a capacidade de alterar permissões.
-
 - **Visitantes**, que só podem exibir recursos no site.
 
 Este artigo orienta você pela configuração de um site de equipe do SharePoint Online isolado para um projeto de pesquisa secreto chamado projeto x. Os requisitos de acesso são:
@@ -135,15 +133,15 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Resultados
 
-- O grupo de acesso projeto x-Members contém as contas de usuário designer de líder e pesquisadora líder
+- O grupo de acesso de ProjectX-Members contém as contas de usuário de designer de cliente potencial e pesquisador principal
 
-- O grupo de acesso projeto x-admins contém a conta de administrador global para sua assinatura de avaliação
+- O grupo de acesso de ProjectX-Admins contém a conta de administrador global para sua assinatura de avaliação
 
-- O grupo de acesso projeto x-visualizadores contém a conta de usuário VP de desenvolvimento
+- O grupo de acesso de ProjectX-Viewers contém a conta de usuário VP de desenvolvimento
 
 A Figura 1 mostra os grupos de acesso e sua associação.
 
-**Figura 1**
+**Figura 1**:
 
 ![Os grupos do Microsoft 365 e seus membros para um site de grupo do SharePoint Online isolado](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
 
@@ -151,7 +149,7 @@ A Figura 1 mostra os grupos de acesso e sua associação.
 
 Para criar um site de equipe do SharePoint Online para o projeto x, faça o seguinte:
 
-1. Usando um navegador no computador local (configuração leve) ou em CLIENT1 (configuração corporativa simulada), entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando sua conta de administrador global.
+1. Usando um navegador no computador local (configuração leve) ou em CLIENT1 (configuração corporativa simulada), entre no centro de administração do Microsoft 365 ( <https://admin.microsoft.com> ) usando sua conta de administrador global.
 
 2. Na lista de blocos, clique em **SharePoint**.
 
@@ -197,11 +195,11 @@ Para criar um site de equipe do SharePoint Online para o projeto x, faça o segu
 
 Estes são os resultados da configuração das permissões:
 
-- O grupo de membros do projeto x do SharePoint contém apenas o grupo de acesso projeto x-Members (que contém apenas as contas de usuário do designer de clientes e do pesquisador principal) e o grupo projeto x (que contém apenas a conta de usuário administrador global).
+- O grupo de membros do projeto x do SharePoint contém apenas o grupo de acesso ProjectX-Members (que contém apenas as contas de usuário de designer de cliente potencial e pesquisador principal) e o grupo projeto x (que contém apenas a conta de usuário de administrador global).
 
-- O grupo de proprietários do projeto x do SharePoint contém apenas o grupo de acesso projeto x-admins (que contém apenas a conta de usuário de administrador global).
+- O grupo de proprietários do projeto x do SharePoint contém apenas o grupo de acesso ProjectX-Admins (que contém apenas a conta de usuário de administrador global).
 
-- O grupo visitantes do projeto x do SharePoint contém apenas o grupo de acesso projeto x-visualizadores (que contém apenas a conta de usuário VP de desenvolvimento).
+- O grupo visitantes do projeto x do SharePoint contém apenas o grupo de acesso ProjectX-Viewers (que contém apenas a conta de usuário VP de desenvolvimento).
 
 - Os membros não podem modificar as permissões no nível do site (isso só pode ser feito por membros do grupo Projeto X-Administradores).
 
@@ -219,7 +217,7 @@ Agora, vamos demonstrar o acesso usando a conta de usuário do designer de clien
 
 2. Clique no nome do administrador global e clique em **Sair**.
 
-3. Entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando o nome da conta do designer líder e sua senha.
+3. Entre no centro de administração do Microsoft 365 ( <https://admin.microsoft.com> ) usando o nome da conta do designer líder e sua senha.
 
 4. Na lista de blocos, clique em **SharePoint**.
 
@@ -249,7 +247,7 @@ Agora, vamos demonstrar o acesso usando a conta de usuário do designer de clien
 
 Agora, vamos demonstrar o acesso usando a conta de usuário do VP de desenvolvimento:
 
-1. Entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando o nome da conta de VP de desenvolvimento e sua senha.
+1. Entre no centro de administração do Microsoft 365 ( <https://admin.microsoft.com> ) usando o nome da conta de VP de desenvolvimento e sua senha.
 
 2. Na lista de blocos, clique em **SharePoint**.
 
@@ -265,7 +263,7 @@ Agora, vamos demonstrar o acesso usando a conta de usuário do VP de desenvolvim
 
 Agora vamos demonstrar o acesso a uma conta de usuário que não tem permissões:
 
-1. Entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando o nome da conta do usuário 3 e sua senha.
+1. Entre no centro de administração do Microsoft 365 ( <https://admin.microsoft.com> ) usando o nome da conta do usuário 3 e sua senha.
 
 2. Na lista de blocos, clique em **SharePoint**.
 

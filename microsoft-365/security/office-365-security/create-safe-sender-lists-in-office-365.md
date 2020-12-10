@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: 6d862f0ed6d6bbea56cb2bb79fee69a044e4fede
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 71c413cdf3f9a189420c33953d7bce41362ab6a9
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130788"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616627"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -66,7 +66,7 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
      Esta condição verifica o status de autenticação de email do domínio de envio de email para garantir que o domínio de envio não está sendo falsificado. Para obter mais informações sobre autenticação de email, consulte [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC](use-dmarc-to-validate-email.md).
 
    - **Lista de permissões de IP**: especifique o endereço IP de origem ou o intervalo de endereços na política de filtro de conexão.
-  
+
      Use essa configuração se o domínio de envio não usar a autenticação de email. Seja o mais restritivo possível quando se trata dos endereços IP de origem na lista de IPs permitidos. Recomendamos um intervalo de endereços IP de/24 ou menos (menos é melhor). Não use intervalos de endereços IP que pertençam aos serviços de consumidor (por exemplo, outlook.com) ou infraestruturas compartilhadas.
 
    > [!IMPORTANT]

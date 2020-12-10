@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra spam no Exchange Online Protection (EOP).
-ms.openlocfilehash: d2505eea572e512b306cf26c7a57d1dc1b705c0b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 21c70f1942703b8e5f3f4d96b136aff46afcc32b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844459"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615427"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
@@ -105,9 +105,9 @@ Você pode enviar uma notificação para um endereço de email especificado quan
 
 Sim. Embora seja recomendável que você aponte seu registro MX para a Microsoft, percebemos que há razões de negócios legítimas para encaminhar seu email para outro lugar que não seja a Microsoft.
 
-- **Entrada** : altere seus registros MX para apontar para o provedor de terceiros e redirecione as mensagens para o EOP para processamento adicional. Para obter mais informações, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+- **Entrada**: altere seus registros MX para apontar para o provedor de terceiros e redirecione as mensagens para o EOP para processamento adicional. Para obter mais informações, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-- **Outbound** : Configure o roteamento de host inteligente da Microsoft 365 para o provedor de terceiros de destino.
+- **Outbound**: Configure o roteamento de host inteligente da Microsoft 365 para o provedor de terceiros de destino.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>A Microsoft tem alguma documentação sobre como eu posso me proteger contra golpes de phishing?
 
@@ -124,7 +124,7 @@ As diretrizes apresentadas abaixo são as práticas recomendas para o envio de m
 - **O domínio de email de origem deve resolver no DNS.**
 
   Por exemplo, se o remetente for user@fabrikam, o domínio fabrikam será resolvido para o endereço IP 192.0.43.10.
-  
+
   Se um domínio de envio não tiver nenhum registro A e nenhum registro MX no DNS, o serviço encaminhará a mensagem por seu pool de entrega de risco mais alto, independentemente de o conteúdo da mensagem ser spam ou não. Para obter mais informações sobre o pool de entrega de risco mais alto, consulte [pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).
 
 - **O eServer de email de saída deve ter uma entrada de DNS reverso (PTR).**
@@ -155,11 +155,11 @@ As diretrizes apresentadas abaixo são as práticas recomendas para o envio de m
 
   O corpo da mensagem deve ter uma indicação clara da oferta, serviço ou produto. Por exemplo, se um remetente estiver enviando uma mala direta para a empresa Contoso, veja a seguir como deverão ficar os campos De e Assunto:
 
-  > De: marketing@contoso.com <br/> Assunto: Novo catálogo atualizado para a temporada de Natal!
+  > De: marketing@contoso.com <br> Assunto: Novo catálogo atualizado para a temporada de Natal!
 
   Veja a seguir é um exemplo do que não fazer, porque isso não é descritivo:
 
-  > De: usuário@hotmail.com <br/> Assunto: Catálogos
+  > De: usuário@hotmail.com <br> Assunto: Catálogos
 
 - **Se for enviar uma mala direta para vários destinatários e a mensagem estiver em formato de boletim informativo, deve haver uma maneira de cancelar a assinatura na parte inferior da mensagem.**
 

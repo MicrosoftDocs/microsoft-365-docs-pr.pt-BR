@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Os usuários precisam receber permissões no centro de conformidade & segurança da Microsoft 365 antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d586684d44545f7aea94c30f5474b1fe5fa4651
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1bf8da85a0e090a9d74934ea5084f547d6a8794f
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202802"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616603"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Conceder aos usuários acesso ao Centro de Conformidade e Segurança
 
@@ -53,13 +53,13 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
 
 3. Na página de propriedades do grupo de funções, em **Membros**, clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.gif) de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
 
-4. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar \> ** e em **OK**.
+4. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar \>** e em **OK**.
 
 5. Quando concluir, clique em **Salvar**.
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o PowerShell do centro de conformidade & a segurança para conceder acesso a outro usuário ao centro de conformidade & segurança
 
-1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Use a seguinte sintaxe:
 
@@ -81,7 +81,7 @@ Para problemas detalhados de sintaxe e parâmetro, consulte [Add-RoleGroupMember
 
 Para verificar se você obteve com êxito o acesso ao centro de conformidade de & de segurança, faça uma das seguintes etapas:
 
-- No centro de conformidade & segurança, acesse **permissões** e selecione o grupo de função. No submenu de detalhes que é aberto, verifique os membros do grupo de função. 
+- No centro de conformidade & segurança, acesse **permissões** e selecione o grupo de função. No submenu de detalhes que é aberto, verifique os membros do grupo de função.
 
 - Em segurança & o PowerShell do centro de conformidade, substitua \<RoleGroupName\> o nome do grupo de função e execute o seguinte comando:
 

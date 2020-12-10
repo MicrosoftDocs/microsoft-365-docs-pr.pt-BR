@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 685228823c87eff975fabd2dd398c1b67be8eeef
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+ms.openlocfilehash: 3a8d0181b7a17922f788605953fc9af3ca450d6d
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580734"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613615"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -52,7 +52,7 @@ Recursos adicionais estão disponíveis quando você instala o cliente de rotula
 
 Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de rótulo de confidencialidade também é compatível com o [aplicativo do Office](https://www.microsoft.com/en-us/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/).
 
-|Recursos                                                                                                        |Windows Desktop |Área de trabalho Mac |iOS    |Android      |Web                                                         |
+|Funcionalidade                                                                                                        |Windows Desktop |Área de trabalho Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[Aplicar, alterar ou remover manualmente o rótulo](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
@@ -74,7 +74,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 
 ### <a name="sensitivity-label-capabilities-in-outlook"></a>Recursos de rótulo de confidencialidade no Outlook
 
-|Recursos                                                                                                        |Outlook na área de trabalho do Windows |Área de trabalho do Outlook no Mac  |Outlook no iOS |Outlook no Android |Outlook na Web |
+|Funcionalidade                                                                                                        |Outlook na área de trabalho do Windows |Área de trabalho do Outlook no Mac  |Outlook no iOS |Outlook no Android |Outlook na Web |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
 |[Aplicar, alterar ou remover manualmente o rótulo](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
 |[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Sim               |
@@ -138,7 +138,7 @@ Se você precisar converter modelos de proteção existentes para rótulos, use 
 
 Os rótulos de confidencialidade configurados para aplicar criptografia removem a complexidade dos usuários para especificar suas próprias configurações de criptografia. Em muitos aplicativos do Office, essas configurações de criptografia individuais ainda podem ser configuradas manualmente por usuários usando as opções de gerenciamento de direitos de informação (IRM). Por exemplo, para aplicativos do Windows:
 
-- Para um documento: **arquivo** de proteção de informações de arquivo restringir o  >  **Info**  >  **Protect Document**  >  **acesso**
+- Para um documento: **arquivo** de proteção de informações de arquivo restringir o  >    >    >  **acesso**
 - para um email: na guia **opções** > **criptografar** 
   
 Quando o usuário rotula inicialmente um documento ou um email, eles podem sempre substituir suas definições de configuração de rótulo por suas próprias configurações de criptografia. Por exemplo:
@@ -254,12 +254,12 @@ Ao configurar um rótulo de confidencialidade para marcações de conteúdo, voc
 
 | Variável | Descrição | Exemplo quando o rótulo é aplicado |
 | -------- | ----------- | ------- |
-| `${Item.Label}` | Nome de exibição do rótulo atual | **Geral**|
-| `${Item.Name}` | Nome do arquivo atual ou assunto do email | **Sales.docx** |
-| `${Item.Location}` | O caminho atual e o nome do arquivo do documento ou o assunto do email de um email | **\\\Sales\2020\Q3\Report.docx**|
-| `${User.Name}` | Nome de exibição do usuário atual  | **Richard Simone** |
-| `${User.PrincipalName}` | UPN (nome principal do usuário) do Azure AD do usuário atual | **rsimone \@ contoso.com** |
-| `${Event.DateTime}` | Data e hora atuais para o fuso horário local | **8/10/2020 1:30 PM** |
+| `${Item.Label}` | Nome para exibição do rótulo aplicado| **Geral**|
+| `${Item.Name}` | Nome do arquivo ou assunto de email do conteúdo que está sendo rotulado | **Sales.docx** |
+| `${Item.Location}` | Caminho e nome de arquivo do documento que está sendo rotulado ou o assunto do email para um email que está sendo rotulado | **\\\Sales\2020\Q3\Report.docx**|
+| `${User.Name}` | Nome para exibição do usuário que está aplicando o rótulo| **Richard Simone** |
+| `${User.PrincipalName}` | Nome principal de usuário do Azure AD (UPN) do usuário que está aplicando o rótulo | **rsimone \@ contoso.com** |
+| `${Event.DateTime}` | Data e hora em que o conteúdo é rotulado, no fuso horário local do usuário que está aplicando o rótulo | **8/10/2020 1:30 PM** |
 
 > [!NOTE]
 > A sintaxe dessas variáveis diferencia maiúsculas de minúsculas.
@@ -321,7 +321,7 @@ Exemplos:
     `${If.App.WP}This content is ${If.End}Confidential`
 
     No Word e PowerPoint, o rótulo aplica o texto de marca d' água "este conteúdo é confidencial". No Excel, o rótulo aplica o texto de marca d' água "confidencial". No Outlook, o rótulo não aplica qualquer texto de marca d' água porque as marcas d' água como marcas visuais não são suportadas pelo Outlook.
->>>>>>> a51fef4b19dc23a23a161de3e8333dcd7527540b
+
 
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 

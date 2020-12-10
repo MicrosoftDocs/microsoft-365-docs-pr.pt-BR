@@ -13,12 +13,12 @@ ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 1e9f5e21655e55f711997defcb7ace0319ff4be6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 46aa454ff709e9b17c3b18992757a9a4c3a51247
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197532"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616747"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
@@ -41,7 +41,7 @@ O rastreamento de mensagens no centro de conformidade & segurança aprimora o ra
 
 1. Abra o centro de conformidade & segurança em <https://protection.office.com> .
 
-2. Expanda **fluxo de email**e selecione **rastreamento de mensagens**.
+2. Expanda **fluxo de email** e selecione **rastreamento de mensagens**.
 
 ## <a name="message-trace-page"></a>Página rastreamento de mensagens
 
@@ -66,7 +66,10 @@ Os valores padrão são **todos os remetentes** e **todos os destinatários**, m
 - **Para estas pessoas**: clique neste campo para selecionar um ou mais destinatários em sua organização.
 
 > [!NOTE]
-> Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas (por exemplo, `*@contoso.com` ), mas não é possível usar várias entradas curinga no mesmo campo ao mesmo tempo. <br/><br/> Você pode colar vários remetentes ou listas de destinatários separados por ponto-e-vírgula ( `;` ). espaços ( `\s` ), retornos de carro ( `\r` ) ou linhas de próximo ( `\n` ).
+>
+> - Você também pode digitar os endereços de email de remetentes e destinatários externos. Há suporte para curingas (por exemplo, `*@contoso.com` ), mas não é possível usar várias entradas curinga no mesmo campo ao mesmo tempo.
+>
+> - Você pode colar vários remetentes ou listas de destinatários separados por ponto-e-vírgula ( `;` ). espaços ( `\s` ), retornos de carro ( `\r` ) ou linhas de próximo ( `\n` ).
 
 ### <a name="time-range"></a>Intervalo de tempo
 
@@ -108,7 +111,7 @@ Você pode deixar o valor padrão **todos** selecionado ou pode selecionar um do
 
 - **Obtendo status:** A mensagem foi recebida recentemente pelo Microsoft 365, mas nenhum outro dado de status ainda está disponível. Verifique novamente em alguns minutos.
 
-**Observação**: os valores **pendentes,** em **quarentena**e o **filtro como spam** só estão disponíveis para pesquisas com menos de 10 dias. Além disso, pode haver um atraso de 5 a 10 minutos entre o status de entrega real e relatado.
+**Observação**: os valores **pendentes,** em **quarentena** e o **filtro como spam** só estão disponíveis para pesquisas com menos de 10 dias. Além disso, pode haver um atraso de 5 a 10 minutos entre o status de entrega real e relatado.
 
 #### <a name="message-id"></a>ID da mensagem
 
@@ -134,7 +137,7 @@ Os tipos de relatórios disponíveis são:
 
 - **Resumo**: disponível se o intervalo de tempo for inferior a 10 dias e não requer opções de filtragem adicionais. Os resultados estão disponíveis quase imediatamente após você clicar em **Pesquisar**. O relatório retorna até 20000 resultados.
 
-- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo: **To these people** **por essas pessoas**, ou **ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \* @contoso. com). O relatório de resumo avançado retorna até 50000 resultados. O relatório estendido retorna até 1000 resultados.
+- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo:  **por essas pessoas**, ou **ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \* @contoso. com). O relatório de resumo avançado retorna até 50000 resultados. O relatório estendido retorna até 1000 resultados.
 
 **Observações**:
 
@@ -160,7 +163,7 @@ O relatório de Resumo contém as seguintes informações:
 
 - **Date**: a data e a hora em que a mensagem foi recebida pelo serviço, usando o fuso horário UTC configurado.
 
-- **Remetente**: o endereço de email do remetente (*alias* @ *domínio*de alias).
+- **Remetente**: o endereço de email do remetente ( @ *domínio* de alias).
 
 - **Destinatário**: o endereço de email do destinatário ou dos destinatários. Para uma mensagem enviada para vários destinatários, há uma linha por destinatário. Se o destinatário for um grupo de distribuição, um grupo dinâmico de distribuição ou um grupo de segurança habilitado para email, o grupo será o primeiro destinatário e, em seguida, cada membro do grupo estará em uma linha separada.
 
@@ -174,7 +177,7 @@ Você pode clicar nos cabeçalhos de coluna para classificar os resultados pelos
 
 Você pode clicar em **filtrar resultados** para filtrar os resultados por uma ou mais colunas.
 
-Você pode exportar os resultados depois de ter selecionado uma ou mais linhas clicando em **Exportar resultados** e, em seguida, selecionando **exportar todos os resultados**, **Exportar resultados carregados**ou **Exportar selecionados**.
+Você pode exportar os resultados depois de ter selecionado uma ou mais linhas clicando em **Exportar resultados** e, em seguida, selecionando **exportar todos os resultados**, **Exportar resultados carregados** ou **Exportar selecionados**.
 
 #### <a name="find-related-records-for-this-message"></a>Localizar registros relacionados para esta mensagem
 
@@ -236,7 +239,7 @@ Disponível (concluído) relatórios de resumo aprimorados estão disponíveis n
 
 - **origin_timestamp** <sup>*</sup> : a data e a hora em que a mensagem foi inicialmente recebida pelo serviço, usando o fuso horário UTC configurado.
 
-- **sender_address**: o endereço de email do remetente (domínio do*alias* @ *domain*).
+- **sender_address**: o endereço de email do remetente (domínio do *alias* @ ).
 
 - **Recipient_status**: o status da entrega da mensagem para o destinatário. Se a mensagem foi enviada para vários destinatários, mostrará todos os destinatários e o status correspondente de cada um, no formato: \<*email address*\> ## \<*status*\> . Por exemplo:
 
@@ -260,9 +263,9 @@ Disponível (concluído) relatórios de resumo aprimorados estão disponíveis n
 
 - **connector_id**: o nome do conector de origem ou de destino. Para obter mais informações sobre conectores no Exchange Online, consulte [Configure Mail Flow using Connectors in Office 365](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-- **delivery_priority** <sup>*</sup> : se a mensagem foi enviada com prioridade **alta**, **baixa**ou **normal** .
+- **delivery_priority** <sup>*</sup> : se a mensagem foi enviada com prioridade **alta**, **baixa** ou **normal** .
 
-<sup>*</sup>Essas propriedades estão disponíveis somente em relatórios de resumo aprimorados.
+<sup>*</sup> Essas propriedades estão disponíveis somente em relatórios de resumo aprimorados.
 
 ### <a name="extended-reports"></a>Relatórios estendidos
 

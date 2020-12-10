@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Saiba como simular ataques de phishing e treine seus usuários sobre prevenção de phishing com treinamento de simulação de ataque no Microsoft defender para Office 365.
-ms.openlocfilehash: b9b8a431fc28942f5e11bc7ce2e805ca082cf36b
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: 8f5f457f60c81fe961282f33bb8c37f4d9e27aab
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944414"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616099"
 ---
 # <a name="simulate-a-phishing-attack"></a>Simular um ataque de phishing
 
@@ -58,8 +58,8 @@ As cargas têm vários pontos de dados para ajudá-lo a escolher:
 - A **taxa de clique** considera quantas pessoas clicaram nesta carga.
 - A **taxa de comprometimento prevista** prevê a porcentagem de pessoas que serão comprometidas por essa carga com base em dados históricos para esta carga nos clientes do Microsoft defender para Office 365.
 - **Simulações iniciadas** conta o número de vezes que essa carga foi usada em outras simulações.
-- A **complexidade** , disponível através de **filtros** , é calculada com base no número de indicadores dentro da carga que apontam os destinos em que eles estão sendo um ataque. Mais indicadores levam a uma complexidade mais baixa.
-- **Fonte** , disponível através de **filtros** , indica se a carga foi criada em seu locatário ou faz parte do catálogo de carga (global) da Microsoft.
+- A **complexidade**, disponível através de **filtros**, é calculada com base no número de indicadores dentro da carga que apontam os destinos em que eles estão sendo um ataque. Mais indicadores levam a uma complexidade mais baixa.
+- **Fonte**, disponível através de **filtros**, indica se a carga foi criada em seu locatário ou faz parte do catálogo de carga (global) da Microsoft.
 
 ![Carga selecionada dentro do treinamento de simulação de ataque no centro de segurança do Microsoft 365](../../media/attack-sim-preview-select-payload.png)
 
@@ -69,11 +69,11 @@ Se quiser criar sua própria carga, leia [criar uma carga de treinamento de simu
 
 ## <a name="audience-targeting"></a>Segmentação por público-alvo
 
-Agora é hora de selecionar o público da simulação. Você pode optar por **incluir todos os usuários em sua organização** ou **incluir apenas usuários e grupos específicos**. 
+Agora é hora de selecionar o público da simulação. Você pode optar por **incluir todos os usuários em sua organização** ou **incluir apenas usuários e grupos específicos**.
 
 Ao optar por **incluir apenas usuários e grupos específicos** , você pode:
 
-- **Adicione usuários** , que permite que você aproveite a pesquisa para seu locatário, bem como recursos avançados de pesquisa e filtragem, como direcionar os usuários que não foram direcionados a uma simulação nos últimos 3 meses.
+- **Adicione usuários**, que permite que você aproveite a pesquisa para seu locatário, bem como recursos avançados de pesquisa e filtragem, como direcionar os usuários que não foram direcionados a uma simulação nos últimos 3 meses.
   ![Filtragem de usuário no treinamento de simulação de ataque no centro de segurança do Microsoft 365](../../media/attack-sim-preview-user-targeting.png)
 - **Import from CSV** permite que você importe um conjunto predefinido de usuários para esta simulação.
 
@@ -94,7 +94,7 @@ Nas próximas etapas, você precisará **Adicionar treinamentos** se optar por s
 
 ## <a name="launch-details-and-review"></a>Detalhes e análise do lançamento
 
-Agora que tudo está configurado, você pode iniciar essa simulação imediatamente ou agendá-la para uma data posterior. Você também precisará escolher quando terminar esta simulação. Vamos parar a captura da interação com essa simulação após o horário selecionado. 
+Agora que tudo está configurado, você pode iniciar essa simulação imediatamente ou agendá-la para uma data posterior. Você também precisará escolher quando terminar esta simulação. Vamos parar a captura da interação com essa simulação após o horário selecionado.
 
 **Habilitar a entrega de fuso horário que reconhece a região** para entregar mensagens de ataque simuladas a seus funcionários durante as horas de trabalho com base em sua região.
 

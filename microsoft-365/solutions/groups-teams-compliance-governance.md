@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre as opções de conformidade para o Microsoft 365 grupos, equipes e colaboração do SharePoint.
-ms.openlocfilehash: 0383b0728d9b8ea12ce75de8bf0e250932d14ae5
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: e1ca6e638b2d44ae3b04e2a0f13222424e89714d
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377528"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613625"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Opções de conformidade para o Microsoft 365 grupos, equipes e colaboração do SharePoint
 
@@ -40,7 +40,7 @@ A tabela a seguir fornece uma referência rápida para os controles de conformid
 |Proteção de informações|||
 ||Evitar a perda de informações confidenciais|[Visão geral da prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
 ||Proteger informações confidenciais no chat.|[Prevenção de perda de dados e Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)|
-||Definir as informações confidenciais da sua organização|[Tipos personalizados de informações confidenciais](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)|
+||Definir as informações confidenciais da sua organização|[Personalizar tipos de informação confidencial](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)|
 |Segmentação de usuário|||
 ||Restringir a comunicação entre segmentos de usuário|[Barreiras de informações](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)|
 
@@ -99,7 +99,7 @@ A DLP no Teams pode ajudar a proteger informações confidenciais em mensagens d
 
 Se você tiver informações confidenciais exclusivas para sua organização, como nomes de código de projeto, você pode criar seus próprios tipos de informações confidenciais e aplicá-las às políticas de DLP para proteger o conteúdo em grupos, equipes e SharePoint.
 
-- [Tipos personalizados de informações confidenciais](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)
+- [Personalizar tipos de informação confidencial](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)
 
 ## <a name="user-segmentation"></a>Segmentação de usuário
 
@@ -113,8 +113,10 @@ Com as barreiras de informações, você pode segmentar seus dados e usuários p
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
+[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md)
+
 [Segurança e conformidade para o Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
 
 [Proteger informações](https://docs.microsoft.com/microsoft-365/compliance/protect-information)
-
-

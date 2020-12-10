@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 01a5e374396b1f7ef79dff436cd9ecc4e0c4abf1
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: d219895767919c2a0658f8b83150fe6edde01b5b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357232"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615547"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>O que há de novo no Microsoft defender para Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "49357232"
 
 **Aplica-se a:**
 
-- [Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft defender para Office 365](office-365-atp.md)
 
 Este artigo lista os novos recursos na versão mais recente do Microsoft defender para Office 365. Os recursos que estão atualmente em versão prévia são indicados **(visualização)**.
 
@@ -56,7 +56,7 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft defende
 ## <a name="julyaugust-2020"></a>Julho/agosto de 2020
 
 - [Aprimoramentos de experiência para a experiência de busca](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Microsoft defender para Office 365 plano 1 ou plano 2)
-- [Aplicar facilmente as configurações recomendadas usando políticas de segurança predefinidas](preset-security-policies.md) 
+- [Aplicar facilmente as configurações recomendadas usando políticas de segurança predefinidas](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>Março de abril de 2020
 
@@ -71,7 +71,7 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft defende
   - Avançado não filtra (são opções de filtragem avançadas que incluem o não contém, não inclui, etc.)
   - Filtros de tempo granulares (dia, hora, meia hora)
 
-- O widget **incidentes** agora é o widget **central de ações** . (Para exibir seus widgets de segurança, no centro de conformidade de & de segurança, vá para **Gerenciamento**  >  de ameaças **Revisão**.) (Microsoft defender para Office 365 plano 2)
+- O widget **incidentes** agora é o widget **central de ações** . (Para exibir seus widgets de segurança, no centro de conformidade de & de segurança, vá para **Gerenciamento** \> de ameaças **Revisão**.) (Microsoft defender para Office 365 plano 2)
 
 - [Documentos seguros no Microsoft 365](safe-docs.md) **(versão prévia)**
 
@@ -105,7 +105,7 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft defende
 
 - [Exibir dados sobre URLs de phishing e clicar em veredicto](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Microsoft defender para Office 365 plano 1 ou plano 2)
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender para Office 365 Plano 1 e Plano 2
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft defender para Office 365 plano 1 e plano 2
 
 Você sabia que o Microsoft defender para Office 365 está disponível em dois planos? [Saiba mais sobre o que cada plano inclui](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 

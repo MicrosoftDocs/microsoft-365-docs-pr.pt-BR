@@ -11,14 +11,14 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Saiba como criar uma carga personalizada para o treinamento de simulação de ataque no Microsoft defender para Office 365.
-ms.openlocfilehash: ffb5397d9b39a35b4cb8bd0fdb3301cd156896e1
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: a8366e6cbf703ef1e1a14e216ada71200668cd14
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944432"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616267"
 ---
-# <a name="create-a-custom-payload-for-attack-simulation-training"></a>Criar uma carga personalizada para treinamento de simulação de ataque
+# <a name="create-a-custom-payload-for-attack-simulation-training"></a>Criar um conteúdo personalizado para treinamento de simulação de Ataque
 
 A Microsoft oferece um catálogo de carga robusto para várias técnicas de engenharia social para emparelhar com seu treinamento de simulação de ataque. No entanto, talvez você queira criar cargas personalizadas que funcionem melhor para sua organização. O seguinte descreve como criar uma carga no treinamento de simulação de ataque através do Microsoft defender para Office 365.
 
@@ -60,7 +60,7 @@ Adicione uma descrição personalizada para descrever o indicador e clique no qu
 
 ## <a name="review-payload"></a>Examinar carga
 
-Você terminou de criar sua carga. Agora é hora de revisar os detalhes e ver uma visualização da sua carga. A visualização incluirá todos os indicadores que você criou. Você pode editar cada parte da carga desta etapa. Depois de satisfeito, **envie** sua carga. 
+Você terminou de criar sua carga. Agora é hora de revisar os detalhes e ver uma visualização da sua carga. A visualização incluirá todos os indicadores que você criou. Você pode editar cada parte da carga desta etapa. Depois de satisfeito, **envie** sua carga.
 
 > [!IMPORTANT]
 > As cargas que você criou terão o **locatário** definido como sua fonte. Ao selecionar as cargas, certifique-se de que o **locatário** não foi filtrado.

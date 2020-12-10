@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Correção de ameaças
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 4adabe3e85b2bff26167bfad92a9a7fcbf24e58e
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 742f19c4051b2cab3311562f688da51975bd3c48
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561276"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615883"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Corrigir emails mal-intencionados entregues no Office 365
 
@@ -40,7 +40,7 @@ Os administradores podem executar a ação necessária em emails, mas para obter
 A busca *manual* ocorre quando o Security Teams identifica ameaças manualmente usando os recursos de pesquisa e filtragem no Gerenciador de ameaças. A correção manual de email pode ser acionada por qualquer modo de exibição de email (*malware*, *phishing* ou *todos os emails*) após a identificação de um conjunto de emails que precisam ser corrigidos.
 
 > [!div class="mx-imgBorder"]
-> [![Caça manual no Office 365 Threat Explorer por data. ](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
+> [![Caça manual no Office 365 Threat Explorer por data.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
 
 As equipes de segurança podem usar o explorador de ameaças para selecionar emails de várias maneiras:
 
@@ -59,12 +59,12 @@ Depois que os emails são selecionados por meio do Gerenciador de ameaças, voc�
 Ações **automatizadas de investigação e resposta** são acionadas por alertas ou por equipes de operações de segurança do explorador de ameaças. Eles podem incluir ações de correção recomendadas que devem ser aprovadas por uma equipe de operações de segurança. Essas ações são incluídas na guia **ação** da investigação automatizada.
 
 > [!div class="mx-imgBorder"]
-> [![Email com malware na página "Zapped" mostrando a hora da execução de zap. ](../../media/tp-RemediationArticle3.png)](../../media/tp-RemediationArticle3.png#lightbox)
+> [![Email com malware na página "Zapped" mostrando a hora da execução de zap.](../../media/tp-RemediationArticle3.png)](../../media/tp-RemediationArticle3.png#lightbox)
 
-Todas as correções (aprovação direta ou aprovação em duas etapas) que foram criadas no Gerenciador de ameaças, bem como as ações aprovadas provenientes de investigações automatizadas, são exibidas na central de ações. Acessá-los por meio do painel de navegação esquerdo em **revisar**  >  **central de ações**.
+Todas as correções (aprovação direta ou aprovação em duas etapas) que foram criadas no Gerenciador de ameaças, bem como as ações aprovadas provenientes de investigações automatizadas, são exibidas na central de ações. Acessá-los por meio do painel de navegação esquerdo em **revisar** \> **central de ações**.
 
 > [!div class="mx-imgBorder"]
-> [![A central de ações com uma lista de ameaças por data e severidade. ](../../media/tp-RemediationArticle4.png)](../../media/tp-RemediationArticle4.png#lightbox)
+> [![A central de ações com uma lista de ameaças por data e severidade.](../../media/tp-RemediationArticle4.png)](../../media/tp-RemediationArticle4.png#lightbox)
 
 A central de ações mostra todas as ações de correção dos últimos 30 dias. As ações realizadas pelo Gerenciador de ameaças são listadas pelo nome que a equipe de operações de segurança forneceu quando a correção foi criada. Ações tomadas por meio de investigações automatizadas têm títulos que começam com o alerta relacionado que disparou a investigação, como "zap email cluster...."
 
@@ -73,7 +73,7 @@ Abra qualquer item de correção para exibir detalhes sobre ele, incluindo o nom
 - Guia **envio de email** : exibe o número de emails enviados por meio do explorador de ameaças ou investigações automatizadas a serem corrigidos. Esses emails podem ser acionáveis ou não acionáveis.
 
   > [!div class="mx-imgBorder"]
-  > [![A central de ações com ameaças acionáveis e não acionáveis. ](../../media/tp-RemediationArticle5.png)](../../media/tp-RemediationArticle5.png#lightbox)
+  > [![A central de ações com ameaças acionáveis e não acionáveis.](../../media/tp-RemediationArticle5.png)](../../media/tp-RemediationArticle5.png#lightbox)
 
   - **Acionável**: os emails nos seguintes locais de caixa de correio na nuvem podem ser afetados e movidos:
     - Caixa de Entrada
@@ -108,7 +108,7 @@ Abra qualquer item de correção para exibir detalhes sobre ele, incluindo o nom
   A imagem a seguir mostra a aparência de um envio na central de ações. Uma correção pode conter vários envios. Se várias ações forem aprovadas por meio de uma investigação automatizada, cada ação de email ou de cluster de emails aparecerá na mesma correção que um envio diferente.
 
   > [!div class="mx-imgBorder"]
-  > [![Painel de submenu de cluster de email de zap. ](../../media/tp-RemediationArticle6.png)](../../media/tp-RemediationArticle6.png#lightbox)
+  > [![Painel de submenu de cluster de email de ZAP.](../../media/tp-RemediationArticle6.png)](../../media/tp-RemediationArticle6.png#lightbox)
 
   Selecione um item de envio de email para mostrar os detalhes dessa correção, como a consulta (quando a correção é acionada por meio de investigações automatizadas ou explorador de ameaças por meio da seleção de uma consulta) e dos horários de início e término da correção. Também exibe uma lista de mensagens que foram enviadas para correção. Como as mensagens são movidas para o período de retenção do explorador de ameaças, as mensagens desaparecem dessa lista. A lista também mostra mensagens individuais que são remediable.
 
@@ -129,7 +129,7 @@ Abra qualquer item de correção para exibir detalhes sobre ele, incluindo o nom
   - **Falha**: a ação desejada em emails do remediable falhou. Por exemplo: um administrador deseja remover emails de caixas de correio, portanto, o administrador executa a ação de excluir emails de forma reversível. Se um email do remediable ainda for encontrado na caixa de correio após a ação ser executada, o status será mostrado como falha.
 
   Selecione qualquer item no log de ações para exibir detalhes de correção. Se os detalhes dizem "êxito" ou "não encontrado na caixa de correio", esse item já foi removido da caixa de correio. Às vezes, há um erro do sistema durante a correção. Nesses casos, é uma boa ideia tentar novamente a correção.
-  
+
   No caso de corrigir grandes lotes, você também pode exportar as mensagens enviadas para correção via envio de email e mensagens que foram corrigidas por meio de logs de ação. O limite de exportação aumentou para 100 mil registros.
 
   Correção é uma poderosa ferramenta para reduzir as ameaças e lidar com emails suspeitos. Ele ajuda a manter uma organização segura.

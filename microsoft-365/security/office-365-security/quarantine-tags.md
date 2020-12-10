@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Os administradores podem aprender a usar as marcas de quarentena para controlar o que os usuários podem fazer com as mensagens em quarentena.
-ms.openlocfilehash: 68f28e2dff3bdeada2685ef6806489f5e57f5daf
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 498a5f45fa62481f7f4f8dfe5ece8a51a038f99a
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572664"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616003"
 ---
 # <a name="quarantine-tags"></a>Marcas de quarentena
 
@@ -58,7 +58,7 @@ Você cria e atribui as marcas de quarentena no centro de conformidade & seguran
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **marcas de quarentena** , abra <https://protection.office.com/quarantineTags> .
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página de **marcas de quarentena** , abra <https://protection.office.com/quarantineTags> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -161,7 +161,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [New-Quaran
 Para criar uma marca de quarentena usando o parâmetro _EndUserQuarantinePermissionsValue_ , siga estas etapas:
 
 R. Armazenar um objeto de permissões de quarentena em uma variável usando o cmdlet **New-QuarantinePermissions** .
-<br/>
+
+<p>
+
 A.b.c.. Use a variável como o valor _EndUserQuarantinePermissions_ no comando **New-QuarantineTag** .
 
 ##### <a name="step-a-store-a-quarantine-permissions-object-in-a-variable"></a>Etapa A: armazenar um objeto de permissões de quarentena em uma variável
@@ -246,11 +248,11 @@ Instruções completas para a criação e modificação de políticas antispam s
 2. Encontre e selecione uma política antispam existente para editar ou crie uma nova política antispam.
 
 3. No submenu detalhes da política, expanda a seção **spam e ações em massa** .
-  
+
 4. Se você tiver selecionado a **mensagem de quarentena** para a ação de um veredicto de filtragem de spam disponível, a caixa **aplicar marca de política de quarentena** estará disponível para que você selecione a marca de quarentena para esse veredicto.
 
    **Observação**: quando você cria uma nova política, um valor de marca de quarentena em branco para um veredicto de filtragem de spam indica que a marca de quarentena padrão para o veredicto é usada. Quando você edita a política mais tarde, os valores em branco são substituídos pelos nomes de marca de quarentena padrão atuais, conforme descrito na tabela anterior.
-  
+
    ![Seleções de marca de quarentena em uma política antispam](../../media/quarantine-tags-in-anti-spam-policies.png)
 
 5. Quando concluir, clique em **Salvar**.
@@ -516,7 +518,7 @@ O **permitir que os destinatários liberem uma mensagem da** permissão de quare
 - **Detalhes da mensagem em quarentena**:
   - Permissão habilitada: o botão **liberar mensagem** está disponível.
   - Permissão desabilitada: o botão **liberar mensagem** não está disponível.
-  
+
 - **Notificações de spam do usuário final**:
   - Permissão habilitada: o botão **liberar** está disponível.
   - Permissão desabilitada: o botão de **versão** não está disponível.

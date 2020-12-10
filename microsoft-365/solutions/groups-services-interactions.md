@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Interações de serviços de grupos
-ms.openlocfilehash: 235a897314a784ba3bb1ac50fe8bdfe9986a70d3
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 6d5681b11cdbd837f784b6c8364cce23f964b167
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377624"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613221"
 ---
 # <a name="groups-services-interactions"></a>Interações de serviços de grupos
 
@@ -95,7 +95,7 @@ A experiência da restrição de criação de grupo varia entre aplicativos e se
 |Planner|**Novo plano** explica que a criação do grupo foi desativada e oferece para adicionar o plano a um grupo existente|
 |Projeto para a Web e o mapa|Menu **Criar grupo** explica que a criação do grupo é restrita e sugere o uso de um grupo existente.|
 |SharePoint|Ainda é possível criar um site de equipe que não esteja conectado a um grupo.|
-|Fluxo|A opção **grupo** não aparece no **Menu criar**.|
+|Stream|A opção **grupo** não aparece no **Menu criar**.|
 |Teams|O usuário não pode criar uma equipe com um novo grupo, mas ainda pode criar uma equipe que utiliza um grupo existente.<br><br>**Criar um botão de equipe** é substituído por **criar equipe de um grupo**.|
 |Yammer|**Criar uma** opção de grupo é removida da navegação de grupos principais/comunidades.|
 
@@ -113,7 +113,7 @@ A tabela a seguir fornece uma visão geral das interações de grupos do Microso
 |:---|:---|:---|:---|:---|
 |Azure AD|Associação, controles de grupo, convidados|Sim|Sim|Sim|
 |Exchange|Calendário, caixa de correio|Sim|Sim|Sim|
-|Formulários|Formulário|Sim|Não|Não|
+|Forms|Formulário|Sim|Não|Não|
 |OneNote|Bloco de anotações|Sim|Não|Não|
 |Planner|Quadro de tarefas|Não|Sim|Sim|
 |Aplicativo de aplicativos de energia|App|Sim|Não|Não|
@@ -123,7 +123,7 @@ A tabela a seguir fornece uma visão geral das interações de grupos do Microso
 |Project para a Web|Plano de projeto|Sim|Sim|Não|
 |Roteiro|Roteiro|Sim|Sim|Não|
 |SharePoint|Site|Sim|Sim|Sim|
-|Fluxo|Canal, vídeo|Sim|Sim|Sim|
+|Stream|Canal, vídeo|Sim|Sim|Sim|
 |Teams|Equipe|Não|Sim|Sim|
 |Yammer|Group|Sim|Sim|Sim|
 
@@ -235,7 +235,7 @@ Não, a caixa de correio e o calendário não podem ser alterados para um grupo 
 
 Sim, a exclusão da caixa de correio no Exchange excluirá o grupo, bem como os serviços e o conteúdo associados ao grupo.
 
-## <a name="forms"></a>Formulários
+## <a name="forms"></a>Forms
 
 Os formulários fornecem pesquisas e testes baseados na Web.
 
@@ -566,7 +566,7 @@ Não, o próprio site é associado ao grupo, no entanto, o conteúdo pode ser mo
 
 Sim, a exclusão do site no SharePoint excluirá os serviços e o conteúdo associados ao grupo e ao grupo.
 
-## <a name="stream"></a>Fluxo
+## <a name="stream"></a>Stream
 
 O Microsoft Stream é uma plataforma de hospedagem e compartilhamento de vídeo.
 
@@ -639,4 +639,10 @@ Não, o grupo do Yammer só pode ser associado ao grupo do Microsoft 365 ao qual
 **Excluir o grupo do Yammer exclui o grupo do Microsoft 365?**
 
 Sim, a exclusão do grupo no Yammer excluirá o grupo da Microsoft e o conteúdo e serviços associados ao grupo relacionados.
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 

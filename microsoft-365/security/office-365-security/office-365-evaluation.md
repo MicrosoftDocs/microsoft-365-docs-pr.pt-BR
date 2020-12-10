@@ -17,19 +17,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12b6499822f8ed97ace8468054f219361d925332
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+ms.openlocfilehash: b5b095a1d75ead0f963a71d816e7d879b7cd3697
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562982"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614793"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
->[!IMPORTANT]
->Avaliar o Microsoft defender para Office 365 em breve estará na visualização pública esta versão de visualização é fornecida sem um contrato de nível de serviço. Alguns recursos podem não ter suporte ou podem ter recursos restritos.
+> [!IMPORTANT]
+> Avaliar o Microsoft defender para Office 365 em breve estará na visualização pública. Esta versão de visualização é fornecida sem um contrato de nível de serviço. Alguns recursos podem não ter suporte ou podem ter recursos restritos.
 
 A condução de uma avaliação de produto de segurança abrangente pode ajudar a fornecer decisões informadas sobre atualizações e compras. Ele ajuda a experimentar os recursos do produto de segurança para avaliar como ele pode ajudar sua equipe de operações de segurança em suas tarefas diárias.
 
@@ -73,7 +73,7 @@ Se você não tiver uma dessas licenças, será necessário obter uma licença d
 
 Para obter uma licença de avaliação do Microsoft defender para o Office 365, você precisa ter a função de **administrador de cobrança** ou a **função de administrador global**. Solicitar permissão de alguém que tenha a função de administrador global. [Saiba mais sobre assinaturas e licenças](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
 
-Assim que você tiver a função apropriada, o caminho recomendado é obter uma licença de avaliação do Microsoft defender para Office 365 (plano 2) no centro de administração do Microsoft 365 acessando os serviços de cobrança > compra. A avaliação inclui uma avaliação gratuita de 30 dias para 25 licenças. [Obtenha uma versão de avaliação do Microsoft defender para Office 365 (plano 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA). 
+Assim que você tiver a função apropriada, o caminho recomendado é obter uma licença de avaliação do Microsoft defender para Office 365 (plano 2) no centro de administração do Microsoft 365 acessando os serviços de cobrança > compra. A avaliação inclui uma avaliação gratuita de 30 dias para 25 licenças. [Obtenha uma versão de avaliação do Microsoft defender para Office 365 (plano 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA).
 
 Você terá uma janela de 30 dias com a avaliação para monitorar e relatar ameaças avançadas. Você também terá a opção de comprar uma assinatura paga se quiser obter os recursos completos do defender for Office 365.
 
@@ -81,13 +81,14 @@ Você terá uma janela de 30 dias com a avaliação para monitorar e relatar ame
 
 As funções do Exchange Online são necessárias para configurar o defender para Office 365 no modo de avaliação. As seguintes funções são necessárias:
 
-|Tarefas | Role |
-|-----| -----|
-| Obter uma avaliação gratuita ou comprar o Microsoft defender para Office 365 (plano 2)| Função de administrador de cobrança ou função de administrador global|
-| Criar política de avaliação| Função de domínios remotos e aceitos; Função de administrador de segurança|
-| Editar política de avaliação | Função de domínios remotos e aceitos; Função de administrador de segurança |
-| Excluir política de avaliação | Função de domínios remotos e aceitos; Função de administrador de segurança |
-|Exibir relatório de avaliação | Função de administrador de segurança ou de leitor de segurança|
+|Tarefas|Role|
+|---|---|
+|Obter uma avaliação gratuita ou comprar o Microsoft defender para Office 365 (plano 2)|Função de administrador de cobrança ou função de administrador global|
+|Criar política de avaliação|Função de domínios remotos e aceitos; Função de administrador de segurança|
+|Editar política de avaliação|Função de domínios remotos e aceitos; Função de administrador de segurança|
+|Excluir política de avaliação|Função de domínios remotos e aceitos; Função de administrador de segurança |
+|Exibir relatório de avaliação|Função de administrador de segurança ou de leitor de segurança|
+|
 
 ### <a name="enhanced-filtering"></a>Filtragem avançada
 
@@ -107,7 +108,7 @@ Você precisa preparar os detalhes correspondentes que precisará para configura
 
 Os cenários de roteamento de email suportados incluem:
 
-- **Parceiro de terceiros e/ou provedor de serviços no local**: o conector de entrada que você deseja avaliar usa um provedor de terceiros e/ou você está usando uma solução para segurança de email local.  
+- **Parceiro de terceiros e/ou provedor de serviços no local**: o conector de entrada que você deseja avaliar usa um provedor de terceiros e/ou você está usando uma solução para segurança de email local.
 - **Microsoft Exchange Online Protection somente**: o locatário que você deseja avaliar usa o Office 365 para segurança de email e os pontos de registro de troca de email (MX) para a Microsoft.
 
 ### <a name="email-security-gateway"></a>Gateway de segurança de email
@@ -152,9 +153,9 @@ Seu relatório de avaliação do Microsoft defender para Office 365 é gerado um
 
 Se você tiver um gateway existente, convém ignorar a filtragem porque ele ativará a filtragem avançada para conectores e alterará o endereço IP do remetente de entrada. Para ignorar, navegue até o centro de administração do Exchange e crie uma política de SCL-1 (se você ainda não tiver um). Para obter detalhes sobre os componentes de regra e como eles funcionam, consulte regras de fluxo de emails (regras de transporte) no Exchange Online.
 
-## <a name="evaluate-capabilities"></a>Avaliar recursos
+## <a name="evaluate-capabilities"></a>Avaliar as funcionalidades
 
-Após a geração do relatório de avaliação, confira quantos links avançados de ameaça, anexos avançados de ameaças e possíveis inpersonas foram identificados nos espaços de trabalho de email e colaboração em sua organização.  
+Após a geração do relatório de avaliação, confira quantos links avançados de ameaça, anexos avançados de ameaças e possíveis inpersonas foram identificados nos espaços de trabalho de email e colaboração em sua organização.
 
 Quando a avaliação expirar, você poderá continuar a acessar o relatório por 90 dias. No entanto, não coletaremos mais informações. Se você quiser continuar usando o Microsoft defender para Office 365 após a expiração do teste, certifique-se [de comprar uma assinatura paga do Microsoft defender para Office 365 (plano 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA).
 

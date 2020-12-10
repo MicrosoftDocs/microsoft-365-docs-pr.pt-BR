@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de & de segurança para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 021810a4d64dc3a8d9089a3b7174a1b5f536745a
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 4328bfc52497f911c57256f8366b3742523b17b0
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561394"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615559"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -67,7 +67,7 @@ A coluna marcas mostrada na grade de emails contém todas as marcas que foram ap
 
 Agora, temos marcas como um filtro para que você possa procurar apenas por contas de prioridade ou em cenários de marcas de usuário específicos (e até mesmo excluir resultados com determinadas marcas como parte dessa experiência). A combinação desses com os vários outros filtros que fornecemos ajuda você a reduzir o escopo da investigação
 
-[![Marcas ](../../media/tags-filter-normal.png) de filtro](../../media/tags-filter-normal.png#lightbox)
+[![Marcas de filtro](../../media/tags-filter-normal.png)](../../media/tags-filter-normal.png#lightbox)
 
 > [!div class="mx-imgBorder"]
 > ![Marcas não de filtro](../../media/tags-filter-not.png)
@@ -149,7 +149,7 @@ Ações adicionais consistem nas ações que foram aplicadas postar a entrega do
 > - Haverá novos campos e valores para tecnologias de detecção e ações adicionais (especialmente para cenários ZAP). Avaliar suas consultas salvas e consultas rastreadas existentes para garantir que elas funcionem com os novos valores.
 
 > [!div class="mx-imgBorder"]
-> ![Additional_Actions](../../media/Additional_Actions.png)
+> ![Ações adicionais no Explorer](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Substituições de sistema
 
@@ -161,10 +161,10 @@ Substituições de sistema são um método de fazer exceções para o local de e
 - Bloqueado pela política da organização: quando as equipes de segurança da organização definem regras de fluxo de emails ou políticas para bloquear remetentes, domínios, idiomas de mensagens ou IPs de origem para usuários em sua organização. Isso também pode ser para um conjunto de usuários ou para toda a organização.
 - Extensão de arquivo bloqueada pela política org: quando uma extensão de tipo de arquivo é bloqueada pelas equipes de segurança de uma organização por meio das configurações de política antimalware. Esses valores agora serão exibidos nos detalhes do email para ajudar nas investigações. As equipes do SecOPS também podem filtrar as extensões de arquivo bloqueados usando o avançado recurso de filtragem.
 
-[![System_Overrides ](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
+[![Substituições de sistema no Explorer](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> ![System_Overrides_Grid](../../media/System_Overrides_Grid.png)
+> ![O sistema substitui a grade no Explorer](../../media/System_Overrides_Grid.png)
 
 ### <a name="improvements-around-url-and-clicks-experience"></a>Aprimoramentos em relação à URL e cliques
 
@@ -184,7 +184,7 @@ O conjunto de melhorias voltadas para os dados de URL e de URL são:
 
 O nível de confiança de phishing ajuda a identificar o grau de confiança, com o qual um email foi Categorizado como phishing. Os dois valores possíveis são High e normal. Nos estágios iniciais, esse filtro estará disponível somente no modo de exibição de Phish do explorador de ameaças.
 
-[![Phish_Confidence_Level ](../../media/Phish_Confidence_Level.png)](../../media/Phish_Confidence_Level.png#lightbox)
+[![Nível de confiança de phishing no Explorer](../../media/Phish_Confidence_Level.png)](../../media/Phish_Confidence_Level.png#lightbox)
 
 ### <a name="zap-url-signal"></a>Sinal de URL ZAP
 
@@ -354,14 +354,14 @@ Você pode obter o mesmo local no relatório de detecções em tempo real da seg
 
 Suponha que você queira ver o malware detectado no email, pela tecnologia Microsoft 365. Para fazer isso, use o [>](threat-explorer-views.md#email--malware) modo de exibição de malware de email do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( <https://protection.office.com> ), escolha Gerenciador de **Gerenciamento de ameaças** \>  (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha malware de **email**  >  **Malware**.
+2. No menu **Exibir** , escolha malware de **email** \> .
 
    > [!div class="mx-imgBorder"]
    > ![Menu Exibir para Explorer](../../media/ExplorerViewEmailMalwareMenu.png)
 
-3. Clique em **remetente** e escolha tecnologia **Basic** de  >  **detecção** básica.
+3. Clique em **remetente** e escolha tecnologia  de \> **detecção** básica.
 
    Agora, suas tecnologias de detecção estão disponíveis como filtros para o relatório.
 
@@ -381,14 +381,14 @@ Suponha que você queira ver as tentativas de phishing por meio de URLs no email
 
 Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de phishing, use a exibição de [Email > Phish](threat-explorer-views.md#email--phish) do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( <https://protection.office.com> ), escolha Gerenciador de **Gerenciamento de ameaças** \>  (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha phishing de **email**  >  **Phish**.
+2. No menu **Exibir** , escolha phishing de **email** \> .
 
    > [!div class="mx-imgBorder"]
    > ![Menu Exibir para Explorer no contexto de phishing](../../media/ExplorerViewEmailPhishMenu.png)
 
-3. Clique em **remetente** e, em seguida, escolha **URLs**  >  **clique em veredicto**.
+3. Clique em **remetente** e, em seguida, escolha **URLs** \> **clique em veredicto**.
 
 4. Selecione uma ou mais opções, como **bloqueado** e **substituído** e, em seguida, clique no botão **Atualizar** que está na mesma linha que as opções para aplicar esse filtro. (Não atualize a janela do navegador.)
 
@@ -428,14 +428,14 @@ Dentro dos submenus de email ou URL, principais cliques e em nossas experiência
 
 Suponha que você queira ver as mensagens de email que os usuários em sua organização relataram como lixo eletrônico, não lixo eletrônico ou phishing usando o [suplemento de mensagem de relatório para Outlook e Outlook na Web](enable-the-report-message-add-in.md). Para fazer isso, use a exibição de [Email > envios](threat-explorer-views.md#email--submissions) do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( <https://protection.office.com> ), escolha Gerenciador de **Gerenciamento de ameaças** \>  (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha **Email**  >  **envios** de email.
+2. No menu **Exibir** , escolha  \> **envios** de email.
 
    > [!div class="mx-imgBorder"]
    > ![Menu Exibir para Explorer para emails](../../media/explorer-view-menu-email-user-reported.png)
 
-3. Clique em **remetente** e, em seguida, escolha tipo de **Basic**  >  **relatório** básico.
+3. Clique em **remetente** e, em seguida, escolha tipo de  \> **relatório** básico.
 
 4. Selecione uma opção, como **Phish**, e clique no botão **Atualizar** .
 
@@ -476,14 +476,14 @@ Para exibir e usar as detecções do Explorer ou em tempo real, você deve ter a
 - Para o centro de conformidade & segurança, você deve ter uma das seguintes funções atribuídas:
 
   - Gerenciamento de Organização
-  - Administrador de segurança (pode ser atribuído no centro de administração do Azure Active Directory [https://aad.portal.azure.com](https://aad.portal.azure.com) )
+  - Administrador de segurança (isso pode ser atribuído no centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )
   - Leitor de segurança
 
-- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) ou com cmdlets do PowerShell (Confira [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):
+- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no centro de administração do Exchange ( <https://admin.protection.outlook.com/ecp/> ) ou no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell):
 
   - Gerenciamento de Organização
-  - Gerenciamento de Organização Somente para Exibição
-  - Função de Destinatários Somente para Exibição
+  - Gerenciamento de Organização Somente Exibição
+  - Destinatários Somente para Exibição
   - Gerenciamento de Conformidade
 
 Para saber mais sobre funções e permissões, confira os seguintes recursos:

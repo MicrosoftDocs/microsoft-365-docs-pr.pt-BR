@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Saiba como obter um relatório de ativação do Office para saber quais usuários ativaram a assinatura do Office e identifique os usuários que podem precisar de mais ajuda.
-ms.openlocfilehash: 228d8a6437cecfad8e7600a354ca31ddd6b0e6c4
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 1af022053735fb9b1b8fe382c44bbe9cc11058a5
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949139"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611407"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Relatórios do Microsoft 365 no centro de administração-ativações do Microsoft Office
 
@@ -37,10 +37,10 @@ O relatório Ativação do Office oferece uma visão de quais usuários têm a a
   
 ## <a name="how-to-get-to-the-office-activations-report"></a>Como obter o relatório de ativações do Office
 
-1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
+1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No menu suspenso **selecionar um relatório** , selecione as ativações **do Office 365** \> **Activations**. 
+2. No menu suspenso **selecionar um relatório** , selecione as ativações **do Office 365** \> . 
   
 ## <a name="interpret-the-office-activations-report"></a>Interpretação do relatório de ativações do Office
 
@@ -56,7 +56,7 @@ Você pode analisar as ativações do Office na sua organização olhando os gr�
 |4   <br/> |O gráfico **Usuários** mostra a contagem de usuários que estão habilitados e quais usuários ativaram a assinatura do Office em computadores e dispositivos.  <br/> |
 |5   <br/> | No gráfico **Ativações**, o eixo Y é a contagem de ativações do Office.  <br/>  Já no gráfico **Usuários**, ele é a atividade do usuário de ativar o Office.  <br/>  O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse relatório específico.  <br/> |
 |6   <br/> |Você pode filtrar gráficos que vê selecionando um item na legenda. Por exemplo, no gráfico de **ativações** , selecione **sistema operacional Windows**, **Mac os**, **Windows 10 Mobile**, **Ios** ou **Android** para ver apenas as informações relacionadas a cada uma. Ao alterar essa seleção, as informações da tabela não mudam. <br/> ![Dados de ativação para dispositivos](../../media/59d3ec6e-2a6e-4b21-8aac-c73038c47b9f.png)  <br/> |
-|7   <br/> | A tabela mostra um detalhamento das ativações do Office no nível do usuário. Esta é a lista de todos os usuários com o produto Office atribuído a eles. Você pode adicionar mais colunas à tabela.  <br/> ![Ativações do Office colunas disponíveis](../../media/410a4baa-cef8-4676-bf7c-02a907a3a575.png)<br/> **Nome de usuário** é o endereço de email do usuário.  <br/> **Nome para exibição** é o nome completo, se o usuário.  <br/> **Licenças de produto** são os produtos atribuídos a esse usuário.  <br/> **Última data de ativação** refere-se à data em que o usuário ativou o Office em um computador ou dispositivo.  <br/> O **uso da ativação de computador compartilhado** é true se o usuário usou o Office por meio da ativação de computador compartilhado. <br/> O **Windows** refere-se ao número de áreas de trabalho do Windows em que o usuário ativou o Office.  <br/> **Mac** refere-se ao número de áreas de trabalho Mac em que o usuário ativou o Office.  <br/> O **Windows 10 Mobile** refere-se ao número de dispositivos móveis Windows 10 em que o usuário ativou o Office.  <br/> o **Ios** se refere ao número de dispositivos IOS em que o usuário ativou o Office.  <br/> O **Android** refere-se ao número de dispositivos Android em que o usuário ativou o Office.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **ocultar detalhes do usuário na seção relatórios** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
+|7   <br/> | A tabela mostra um detalhamento das ativações do Office no nível do usuário. Esta é a lista de todos os usuários com o produto Office atribuído a eles. Você pode adicionar mais colunas à tabela.  <br/> ![Ativações do Office colunas disponíveis](../../media/410a4baa-cef8-4676-bf7c-02a907a3a575.png)<br/> **Nome de usuário** é o endereço de email do usuário.  <br/> **Nome para exibição** é o nome completo do usuário.  <br/> **Licenças de produto** são os produtos atribuídos a esse usuário.  <br/> **Última data de ativação** refere-se à data em que o usuário ativou o Office em um computador ou dispositivo.  <br/> O **uso da ativação de computador compartilhado** é true se o usuário usou o Office por meio da ativação de computador compartilhado. <br/> O **Windows** refere-se ao número de áreas de trabalho do Windows em que o usuário ativou o Office.  <br/> **Mac** refere-se ao número de áreas de trabalho Mac em que o usuário ativou o Office.  <br/> O **Windows 10 Mobile** refere-se ao número de dispositivos móveis Windows 10 em que o usuário ativou o Office.  <br/> o **Ios** se refere ao número de dispositivos IOS em que o usuário ativou o Office.  <br/> O **Android** refere-se ao número de dispositivos Android em que o usuário ativou o Office.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **ocultar detalhes do usuário na seção relatórios** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
 |||
    
 

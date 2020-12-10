@@ -1,5 +1,5 @@
 ---
-title: Conformidade em comunicações
+title: Saiba mais sobre a conformidade em comunicações
 description: Saiba mais sobre conformidade de comunicação no Microsoft 365
 f1.keywords:
 - NOCSH
@@ -20,14 +20,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: a3e51463f85e05c223bf9a88555f18f66f1f2057
-ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
+ms.openlocfilehash: 837f4b82e016159d8887b6501b7458e879321443
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071979"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613103"
 ---
-# <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
+# <a name="learn-about-communication-compliance-in-microsoft-365"></a>Saiba mais sobre conformidade de comunicação no Microsoft 365
 
 A conformidade com comunicações é uma solução de risco Insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e agir em mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams, Yammer ou comunicações de terceiros em sua organização e tomar as ações apropriadas para garantir que eles estejam em conformidade com os padrões de mensagens da sua organização.
 
@@ -71,40 +71,40 @@ A conformidade de comunicação no Microsoft 365 oferece vários recursos import
 
 Modelos inteligentes personalizáveis na conformidade de comunicação permitem que você aplique o Machine Learning para detectar com inteligência as violações de comunicação em sua organização.
 
-- **Modelos pré-configurados personalizáveis** : novos modelos de política ajudam a lidar com os riscos de comunicação mais comuns. A criação da diretiva inicial e a atualização de acompanhamento são agora mais rápida com o predefinido e com o antiassédio, informações confidenciais e modelos de conformidade normativa pré-definidos.
-- **Novo suporte de aprendizado de máquina** : a ameaça interna, assédio, profanação e [classificadores](classifier-get-started-with.md) de imagem ajudam a reduzir falsos positivos em mensagens verificadas, poupando o tempo dos revisores durante o processo de investigação e correção.
-- **Melhor Construtor de condições** : a configuração de condições de política agora é simplificada em uma única experiência integrada no assistente de política, reduzindo a confusão em como as condições são aplicadas para políticas.
+- **Modelos pré-configurados personalizáveis**: novos modelos de política ajudam a lidar com os riscos de comunicação mais comuns. A criação da diretiva inicial e a atualização de acompanhamento são agora mais rápida com o predefinido e com o antiassédio, informações confidenciais e modelos de conformidade normativa pré-definidos.
+- **Novo suporte de aprendizado de máquina**: a ameaça interna, assédio, profanação e [classificadores](classifier-get-started-with.md) de imagem ajudam a reduzir falsos positivos em mensagens verificadas, poupando o tempo dos revisores durante o processo de investigação e correção.
+- **Melhor Construtor de condições**: a configuração de condições de política agora é simplificada em uma única experiência integrada no assistente de política, reduzindo a confusão em como as condições são aplicadas para políticas.
 
 ### <a name="flexible-remediation-workflows"></a>Fluxos de trabalho de correção flexíveis
 
 Os fluxos de trabalho de correção internos permitem que você identifique rapidamente e execute ações em mensagens com correspondências de política em sua organização. Os seguintes novos recursos aumentam a eficiência das atividades de investigação e correção:
 
-- **Fluxo de trabalho de correção flexível** : o novo fluxo de trabalho de correção ajuda a realizar ações rapidamente sobre as correspondências de políticas, incluindo novas opções para encaminhar mensagens para outros revisores e enviar notificações por email aos usuários com correspondências de política.
-- **Encadeamento de conversa** : agora, as mensagens são agrupadas visualmente pela mensagem original e por todas as mensagens de resposta associadas, dando a você um contexto melhor durante a investigação e as ações de correção.
-- **Realce de palavras-chave** : termos de política de correspondência as condições são realçadas no modo de exibição de texto da mensagem para ajudar os revisores a localizar e corrigir os alertas de política rapidamente.
-- **Detecção de duplicidades exatas e próximas** : além da verificação de termos exatas que correspondam a políticas de conformidade de comunicação, os grupos de detecção de duplicidades próximos, termos e mensagens parecidas em conjunto para ajudar a acelerar o processo de revisão.
-- **Novos filtros** : investigue e corrija alertas de política mais rapidamente com filtros de mensagem para vários campos, incluindo remetente, destinatário, data, domínios e muito mais.
-- **Visualizações de mensagens aprimoradas** : as ações de investigação e correção agora são mais rápidas com novas exibições de fonte de mensagens, de texto e de anotações. Os anexos de mensagem agora são visíveis para fornecer contexto completo ao realizar ações de correção.
-- **Exibição de histórico do usuário** : o modo de exibição histórico de todas as atividades de correção de mensagens do usuário, como notificações e escalonamentos passados para correspondências de política, agora fornece aos revisores mais contexto durante o processo de fluxo de trabalho de correção. As instâncias de primeira vez ou de repetição das correspondências de política para usuários são agora arquivadas e facilmente visíveis.
-- **Notificação de padrão detectada (visualização)** : muitas ações importunas e anti-intimidaçãos ocorrem ao longo do tempo e envolvem instâncias de ocorrências do mesmo comportamento por um usuário. A nova notificação de padrão detectada exibida nos detalhes de alerta ajuda a gerar atenção para esses alertas e esse tipo de comportamento.
+- **Fluxo de trabalho de correção flexível**: o novo fluxo de trabalho de correção ajuda a realizar ações rapidamente sobre as correspondências de políticas, incluindo novas opções para encaminhar mensagens para outros revisores e enviar notificações por email aos usuários com correspondências de política.
+- **Encadeamento de conversa**: agora, as mensagens são agrupadas visualmente pela mensagem original e por todas as mensagens de resposta associadas, dando a você um contexto melhor durante a investigação e as ações de correção.
+- **Realce de palavras-chave**: termos de política de correspondência as condições são realçadas no modo de exibição de texto da mensagem para ajudar os revisores a localizar e corrigir os alertas de política rapidamente.
+- **Detecção de duplicidades exatas e próximas**: além da verificação de termos exatas que correspondam a políticas de conformidade de comunicação, os grupos de detecção de duplicidades próximos, termos e mensagens parecidas em conjunto para ajudar a acelerar o processo de revisão.
+- **Novos filtros**: investigue e corrija alertas de política mais rapidamente com filtros de mensagem para vários campos, incluindo remetente, destinatário, data, domínios e muito mais.
+- **Visualizações de mensagens aprimoradas**: as ações de investigação e correção agora são mais rápidas com novas exibições de fonte de mensagens, de texto e de anotações. Os anexos de mensagem agora são visíveis para fornecer contexto completo ao realizar ações de correção.
+- **Exibição de histórico do usuário**: o modo de exibição histórico de todas as atividades de correção de mensagens do usuário, como notificações e escalonamentos passados para correspondências de política, agora fornece aos revisores mais contexto durante o processo de fluxo de trabalho de correção. As instâncias de primeira vez ou de repetição das correspondências de política para usuários são agora arquivadas e facilmente visíveis.
+- **Notificação de padrão detectada (visualização)**: muitas ações importunas e anti-intimidaçãos ocorrem ao longo do tempo e envolvem instâncias de ocorrências do mesmo comportamento por um usuário. A nova notificação de padrão detectada exibida nos detalhes de alerta ajuda a gerar atenção para esses alertas e esse tipo de comportamento.
 
 ### <a name="actionable-insights"></a>Informações acionáveis
 
 Novos painéis interativos para alertas, correspondências de política, ações e tendências ajudam a exibir rapidamente o status de alertas pendentes e resolvidos em sua organização.
 
-- **Alertas inteligentes proativos** : alertas para correspondências de política que exigem atenção imediata incluem novos painéis de itens pendentes classificados por gravidade e novas notificações automáticas de email enviadas a revisores designados.
-- **Painéis interativos** : novos painéis exibem correspondências de política, ações pendentes e resolvidas e tendências por usuários e políticas.
-- **Suporte de auditoria** : um log completo de atividades de política e revisão é facilmente exportado do centro de conformidade da Microsoft 365 para ajudar a oferecer suporte a solicitações de análise de auditoria.
+- **Alertas inteligentes proativos**: alertas para correspondências de política que exigem atenção imediata incluem novos painéis de itens pendentes classificados por gravidade e novas notificações automáticas de email enviadas a revisores designados.
+- **Painéis interativos**: novos painéis exibem correspondências de política, ações pendentes e resolvidas e tendências por usuários e políticas.
+- **Suporte de auditoria**: um log completo de atividades de política e revisão é facilmente exportado do centro de conformidade da Microsoft 365 para ajudar a oferecer suporte a solicitações de análise de auditoria.
 
 ## <a name="integration-with-microsoft-365-services"></a>Integração com serviços do Microsoft 365
 
 As políticas de conformidade de comunicação verificam e capturam mensagens em vários canais de comunicação para ajudá-lo a analisar e corrigir problemas de conformidade rapidamente:
 
-- **Microsoft Teams** : comunicações de chat para canais públicos e privados do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Você precisará adicionar manualmente usuários individuais, grupos de distribuição ou canais específicos do Microsoft Teams quando selecionar usuários e grupos para supervisionar em uma política de conformidade de comunicação.
-- **Exchange Online** : todas as caixas de correio hospedadas no [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) na sua organização do Microsoft 365 estão qualificadas para verificação. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente para monitoramento e em relatórios de conformidade. O Exchange Online agora é um canal de origem opcional e não é mais necessário em políticas de conformidade de comunicação.
-- **Yammer** : mensagens privadas e conversas públicas da Comunidade no [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page) são suportadas em políticas de conformidade de comunicação. O Yammer é um canal opcional e deve estar no [modo nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) para suportar a verificação de mensagens e anexos.
-- **Skype for Business online** : as políticas de conformidade de comunicação dão suporte à verificação de comunicações de chat e anexos associados no [Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online).
-- **Fontes de terceiros** : você pode examinar mensagens de [fontes de terceiros](archiving-third-party-data.md) para dados importados em caixas de correio em sua organização do Microsoft 365. A conformidade de comunicação oferece suporte a conexões com várias plataformas populares, incluindo Bloomberg instantâneo e outros.
+- **Microsoft Teams**: comunicações de chat para canais públicos e privados do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Você precisará adicionar manualmente usuários individuais, grupos de distribuição ou canais específicos do Microsoft Teams quando selecionar usuários e grupos para supervisionar em uma política de conformidade de comunicação.
+- **Exchange Online**: todas as caixas de correio hospedadas no [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) na sua organização do Microsoft 365 estão qualificadas para verificação. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente para monitoramento e em relatórios de conformidade. O Exchange Online agora é um canal de origem opcional e não é mais necessário em políticas de conformidade de comunicação.
+- **Yammer**: mensagens privadas e conversas públicas da Comunidade no [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page) são suportadas em políticas de conformidade de comunicação. O Yammer é um canal opcional e deve estar no [modo nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) para suportar a verificação de mensagens e anexos.
+- **Skype for Business online**: as políticas de conformidade de comunicação dão suporte à verificação de comunicações de chat e anexos associados no [Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online).
+- **Fontes de terceiros**: você pode examinar mensagens de [fontes de terceiros](archiving-third-party-data.md) para dados importados em caixas de correio em sua organização do Microsoft 365. A conformidade de comunicação oferece suporte a conexões com várias plataformas populares, incluindo Bloomberg instantâneo e outros.
 
 Para saber mais sobre o suporte de canal de mensagens em políticas de conformidade de comunicação, confira [tipos de comunicação com suporte](communication-compliance-feature-reference.md#supported-communication-types).
 
@@ -125,38 +125,38 @@ Nesta etapa de fluxo de trabalho, você identifica seus requisitos de conformida
 
 Você pode escolher entre os seguintes modelos de política no centro de conformidade da Microsoft 365:
 
-- **Idioma ofensivo ou ameaçador** : Use este modelo para criar rapidamente uma política que usa classificadores internos para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
-- **Informações confidenciais** : Use este modelo para criar uma política de verificação de comunicações contendo tipos de informações confidenciais definidos ou palavras-chave para ajudar a garantir que dados importantes não sejam compartilhados com pessoas que não deveriam ter acesso.
-- **Conformidade normativa** : Use este modelo para criar uma política para verificar as comunicações de referências a termos financeiros padrão associados a padrões normativos.
-- **Política personalizada** : Use este modelo para configurar canais de comunicação específicos, condições de detecção individuais e a quantidade de conteúdo a ser monitorado e revisado em sua organização.
+- **Idioma ofensivo ou ameaçador**: Use este modelo para criar rapidamente uma política que usa classificadores internos para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
+- **Informações confidenciais**: Use este modelo para criar uma política de verificação de comunicações contendo tipos de informações confidenciais definidos ou palavras-chave para ajudar a garantir que dados importantes não sejam compartilhados com pessoas que não deveriam ter acesso.
+- **Conformidade normativa**: Use este modelo para criar uma política para verificar as comunicações de referências a termos financeiros padrão associados a padrões normativos.
+- **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, condições de detecção individuais e a quantidade de conteúdo a ser monitorado e revisado em sua organização.
 
 ### <a name="investigate"></a>Investigar
 
 Nesta etapa, você tem uma visão mais profunda dos problemas detectados como correspondentes às políticas de conformidade de comunicação. Esta etapa inclui as seguintes ações disponíveis no centro de conformidade da Microsoft 365:
 
-- **Alertas** : quando uma mensagem corresponde a uma condição de política, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se uma caixa de descoberta eletrônica avançada é atribuída e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
-- **Gerenciamento de problemas** : para cada alerta, você pode tomar medidas investigativas para ajudar a corrigir o problema detectado na mensagem.
-- **Revisão de documentos** : durante a investigação de um problema, você pode usar vários modos de exibição da mensagem para ajudar a avaliar corretamente o problema detectado. Os modos de exibição incluem um resumo de conversa, somente texto, anotações e detalhes da conversa de comunicação.
-- **Revisão do histórico de atividades do usuário** : exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações e escalonamentos passados, para correspondências de política.
-- **Filtros** : Use filtros como remetente, destinatário, data e assunto para restringir rapidamente os alertas de mensagem que você deseja examinar.
+- **Alertas**: quando uma mensagem corresponde a uma condição de política, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se uma caixa de descoberta eletrônica avançada é atribuída e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
+- **Gerenciamento de problemas**: para cada alerta, você pode tomar medidas investigativas para ajudar a corrigir o problema detectado na mensagem.
+- **Revisão de documentos**: durante a investigação de um problema, você pode usar vários modos de exibição da mensagem para ajudar a avaliar corretamente o problema detectado. Os modos de exibição incluem um resumo de conversa, somente texto, anotações e detalhes da conversa de comunicação.
+- **Revisão do histórico de atividades do usuário**: exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações e escalonamentos passados, para correspondências de política.
+- **Filtros**: Use filtros como remetente, destinatário, data e assunto para restringir rapidamente os alertas de mensagem que você deseja examinar.
 
 ### <a name="remediate"></a>Corrigir
 
 A próxima etapa é corrigir problemas de conformidade de comunicação que você investigou usando as seguintes opções:
 
-- **Resolver** : após revisar um problema, você pode remediar resolvendo o alerta. A resolução de um alerta remove-o da fila de alerta pendente, e a ação é preservada como uma entrada na fila resolvida para a política de correspondência. Os alertas são resolvidos automaticamente após a marcação do alerta como falso positivo, envio de um aviso para um usuário sobre o alerta ou abertura de um novo caso para o alerta.
-- **Marcar uma mensagem** : como parte da resolução de um problema, é possível marcar a mensagem detectada como compatível, não compatível ou como questionável, pois ela se relaciona com as políticas e os padrões da sua organização. A marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos.
-- **Notificar o usuário** : frequentemente, os usuários violam acidentalmente ou inadvertidamente uma política de conformidade de comunicação. Você pode usar o recurso Notify para fornecer um aviso de aviso ao usuário e resolver o problema.
-- **Escalonar para outro revisor** : às vezes, o revisor inicial de um problema precisa de entrada de outros revisores para ajudar a resolver o incidente. Você pode escalonar facilmente os problemas de mensagem para revisores em outras áreas da organização como parte do processo de resolução.
-- **Mark como um falso positivo** : as mensagens detectadas incorretamente como correspondências de políticas de conformidade irão, ocasionalmente, passar para o processo de revisão. Você pode marcar esses tipos de alerta como falsos positivos e resolver automaticamente o problema.
-- **Remover mensagem no Teams (visualização)** : as mensagens inadequadas podem ser removidas da exibição nos canais do Microsoft Teams ou em mensagens de chat pessoais e de grupo. As mensagens inadequadas que são removidas são substituídas por uma notificação de que a mensagem foi removida para uma violação de política.
-- **Escalonar para investigação** : nas situações mais sérias, talvez seja necessário compartilhar informações de conformidade de comunicação com outros revisores em sua organização. A conformidade com comunicação é totalmente integrada a outros recursos de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta. O escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
+- **Resolver**: após revisar um problema, você pode remediar resolvendo o alerta. A resolução de um alerta remove-o da fila de alerta pendente, e a ação é preservada como uma entrada na fila resolvida para a política de correspondência. Os alertas são resolvidos automaticamente após a marcação do alerta como falso positivo, envio de um aviso para um usuário sobre o alerta ou abertura de um novo caso para o alerta.
+- **Marcar uma mensagem**: como parte da resolução de um problema, é possível marcar a mensagem detectada como compatível, não compatível ou como questionável, pois ela se relaciona com as políticas e os padrões da sua organização. A marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos.
+- **Notificar o usuário**: frequentemente, os usuários violam acidentalmente ou inadvertidamente uma política de conformidade de comunicação. Você pode usar o recurso Notify para fornecer um aviso de aviso ao usuário e resolver o problema.
+- **Escalonar para outro revisor**: às vezes, o revisor inicial de um problema precisa de entrada de outros revisores para ajudar a resolver o incidente. Você pode escalonar facilmente os problemas de mensagem para revisores em outras áreas da organização como parte do processo de resolução.
+- **Mark como um falso positivo**: as mensagens detectadas incorretamente como correspondências de políticas de conformidade irão, ocasionalmente, passar para o processo de revisão. Você pode marcar esses tipos de alerta como falsos positivos e resolver automaticamente o problema.
+- **Remover mensagem no Teams (visualização)**: as mensagens inadequadas podem ser removidas da exibição nos canais do Microsoft Teams ou em mensagens de chat pessoais e de grupo. As mensagens inadequadas que são removidas são substituídas por uma notificação de que a mensagem foi removida para uma violação de política.
+- **Escalonar para investigação**: nas situações mais sérias, talvez seja necessário compartilhar informações de conformidade de comunicação com outros revisores em sua organização. A conformidade com comunicação é totalmente integrada a outros recursos de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta. O escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
 
 ### <a name="monitor"></a>Monitorar
 
 Manter o controle e o gerenciamento de problemas de conformidade identificados por políticas de conformidade de comunicação abrange todo o processo de fluxo de trabalho. À medida que os alertas são gerados e as ações de investigação e correção são implementadas, as políticas existentes podem precisar de análise e atualizações, e novas políticas podem precisar ser criadas.
 
-- **Monitorar e relatar** : usar widgets do painel de conformidade de comunicação, exportar logs e eventos registrados nos logs de auditoria unificada para avaliar continuamente e aprimorar a postura de conformidade.
+- **Monitorar e relatar**: usar widgets do painel de conformidade de comunicação, exportar logs e eventos registrados nos logs de auditoria unificada para avaliar continuamente e aprimorar a postura de conformidade.
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 

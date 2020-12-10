@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários na proteção do Exchange Online (EOP). Os administradores nas organizações com o Microsoft defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
-ms.openlocfilehash: fed05ee202e4352200a80516e0ec1b62c8421178
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8f4ca5caef9bf244315db2271011126ad4d7976e
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357128"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616771"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -99,10 +99,10 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
      - **Spam**
      - **Phishing de alta confiança**
 
-   - **Tipo de Política**: Filtre mensagens por tipo de política:
+   - **Tipo de política**: filtrar mensagens por tipo de política:
      - **Política Antimalware**
      - **Política de anexos seguros**
-     - **Política Anti-phish**:
+     - **Política de anti-golpe**
      - **Política de filtro de conteúdo hospedado** (política antispam)
      - **Regra de transporte**
 
@@ -118,12 +118,12 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
 
    - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
 
-   - **Nome da política**: Use o nome completo da política da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
+   - **Nome da política**: Use o nome de política completo da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
    - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
 
    - **Assunto**: use todo o assunto da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
-  
+
    - **Nome da política**: o nome da política responsável por colocar a mensagem em quarentena.
 
    Depois de ter inserido os critérios da pesquisa, clique em ![Atualizar botão](../../media/scc-quarantine-refresh.png) **Atualizar** para filtrar os resultados.
@@ -165,7 +165,7 @@ Após selecionar uma mensagem, você tem várias opções para o que fazer com a
   - Escolha uma das seguintes opções:
     - **Liberar mensagens para todos os destinatários**
     - **Liberar mensagens para destinatários específicos**
-    - **Liberar mensagens para outras pessoas**: Observe que não há suporte para a liberação de mensagens de malware para pessoas que não sejam destinatários originais. 
+    - **Liberar mensagens para outras pessoas**: Observe que não há suporte para a liberação de mensagens de malware para pessoas que não sejam destinatários originais.
 
   Quando terminar, clique em **Liberar mensagens**.
 

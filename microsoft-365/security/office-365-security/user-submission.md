@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar spam e emails de phishing relatados pelos usuários.
-ms.openlocfilehash: 31249ab930c44d84f27efac95d8e57bd88d9742f
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 7064e2d26722c433d33fe2f983484a40fa33c1e6
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130894"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615619"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -63,7 +63,7 @@ Depois de verificar se a caixa de correio atende a todos os pré-requisitos apli
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **envios de usuários** , use <https://protection.office.com/userSubmissionsReportMessage> .
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **envios de usuários** , use <https://protection.office.com/userSubmissionsReportMessage> .
 
 - Para modificar a configuração dos envios de usuários, você precisa ser membro de um dos grupos de função a seguir:
 
@@ -72,7 +72,7 @@ Depois de verificar se a caixa de correio atende a todos os pré-requisitos apli
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Usar o centro de conformidade de & de segurança para configurar a caixa de correio de envios de usuários
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **envios do usuário** da política de gerenciamento de ameaças.
+1. No centro de conformidade & segurança, vá para  \>  \> **envios do usuário** da política de gerenciamento de ameaças.
 
 2. Na página **envios de usuários** que aparece, selecione uma das seguintes opções:
 
@@ -99,7 +99,7 @@ Depois de verificar se a caixa de correio atende a todos os pré-requisitos apli
         - Caixa de **correio personalizada**: na caixa exibida, insira o endereço de email de uma caixa de correio do Exchange Online existente. Os grupos de distribuição não são permitidos. Use essa opção se quiser que a mensagem apenas vá para a equipe de operações de segurança ou de administração para análise primeiro. As mensagens não irão para a Microsoft, a menos que o administrador a encaminhe.
 
         > [!NOTE]
-        > As organizações governamentais dos EUA (GCC, GCC-H e DoD) só podem configurar a **caixa de correio personalizada**. As outras duas opções estão desativadas. 
+        > As organizações governamentais dos EUA (GCC, GCC-H e DoD) só podem configurar a **caixa de correio personalizada**. As outras duas opções estão desativadas.
 
       Quando tiver concluído, clique em **confirmar**.
 

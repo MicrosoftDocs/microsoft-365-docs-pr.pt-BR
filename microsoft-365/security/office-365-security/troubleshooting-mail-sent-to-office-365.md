@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo fornece informações sobre como solucionar problemas com o envio de emails para as caixas de entrada no Microsoft 365 & práticas recomendadas para envio de email em massa para os clientes da Microsoft 365.
-ms.openlocfilehash: 895f2651529cd46968d053fefac10cb22b6a5d86
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 8b7c008f827a579e234d8a8feab008d36ecfe064
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568549"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615392"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Solução de problemas de emails enviados para o Microsoft 365
 
@@ -92,11 +92,11 @@ O assunto deve ser um breve resumo do que a mensagem está sobre, e o corpo da m
 
 Correto:
 
-> De: marketing@shoppershandbag.com <br/> Assunto: Catálogo atualizado para a temporada de Natal!
+> De: marketing@shoppershandbag.com <br> Assunto: Catálogo atualizado para a temporada de Natal!
 
 Incorreto:
 
-> De: someone@outlook.com <br/> Assunto: Catálogos
+> De: someone@outlook.com <br> Assunto: Catálogos
 
 Quanto mais fácil você fizer isso para que as pessoas saibam quem é e o que você está fazendo, menos dificuldade você terá de fornecer pela maioria dos filtros de spam.
 

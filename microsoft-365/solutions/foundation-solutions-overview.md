@@ -12,12 +12,13 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 3d8ee3dd32810adf967f45e54e38e71301c60e07
-ms.sourcegitcommit: 371249d3dde12092b820cd11ed3e02b31e88636a
+ROBOTS: NOINDEX
+ms.openlocfilehash: 666ff0b9a3abb82af1eba12d5d17d025cfc9bff5
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48897216"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613603"
 ---
 # <a name="microsoft-365-foundation-solutions-overview"></a>Visão geral das soluções do Microsoft 365 Foundation
 

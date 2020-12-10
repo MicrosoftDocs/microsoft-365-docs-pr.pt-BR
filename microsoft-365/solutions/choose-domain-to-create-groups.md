@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 description: Saiba como escolher o domínio a ser usado ao criar grupos do Microsoft 365 Configurando políticas de endereços de email usando o PowerShell.
-ms.openlocfilehash: bb6137a3dfce17bc9c94648e5ea9e12ec2776195
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 1e56268c3994b1ac822869d154be826326039bfc
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377432"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612935"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Escolha o domínio a ser usado ao criar grupos do Microsoft 365
 
@@ -119,5 +119,9 @@ Há mais algumas coisas que você precisa saber:
 - É possível configurar um limite máximo de 100 políticas de endereço de email para uma organização.
     
 ## <a name="related-articles"></a>Artigos relacionados
+
+[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 
 [Criar um grupo do Microsoft 365 no centro de administração](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)

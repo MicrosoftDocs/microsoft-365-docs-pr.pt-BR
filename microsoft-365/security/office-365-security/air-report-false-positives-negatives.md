@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom:
 - autoir
-ms.openlocfilehash: 27edc44145e7b61768d9caf00a3f308e8561d708
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 0fe8891f5ea6af215791c5f4321a93667a9d58f0
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357394"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616171"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados
 
@@ -34,7 +34,7 @@ ms.locfileid: "49357394"
 
 
 **Aplica-se a:**
-- Microsoft Defender para Office 365
+- Microsoft defender para Office 365
 
 Os [recursos de investigação e resposta automatizados (Air) do Office 365](automated-investigation-response-office.md) perdem ou detectou erroneamente algo? Há etapas que você pode executar para corrigi-lo. Você pode:
 
@@ -79,9 +79,9 @@ Com o Gerenciador de ameaças, a equipe de operações de segurança pode encont
 
 Na central de ações, você pode ver ações de correção que foram tomadas e possivelmente desfazer a ação.
 
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade & segurança.
+1. Acesse <https://protection.office.com> e entre. Isso leva você para o centro de conformidade & segurança.
 
-2. Vá para investigações de **Gerenciamento de ameaças**  >  **Investigations**.
+2. Vá para investigações de **Gerenciamento de ameaças** \> .
 
 3. Na lista de investigações, selecione o ícone **abrir na nova janela** ao lado da ID de um item.
 
@@ -93,6 +93,6 @@ Na central de ações, você pode ver ações de correção que foram tomadas e 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Microsoft Defender para Office 365](office-365-atp.md)
+[Microsoft defender para Office 365](office-365-atp.md)
 
 [AR no Microsoft defender para Office 365](office-365-air.md)

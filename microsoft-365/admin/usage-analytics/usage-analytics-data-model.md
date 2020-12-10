@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Saiba como a análise de uso se conecta a uma API e fornece tendências mensais de uso de vários serviços da Microsoft 365.  '
-ms.openlocfilehash: 9d13d979e64a68aaffb3582ad6b09ab901843cd4
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: d7b3e7e9467a57f913f069c48249e82b5958aabb
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841370"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611443"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Modelo de dados de análise de uso do Microsoft 365
 
@@ -153,7 +153,7 @@ Esta tabela fornece dados de adoção mês a mês em termos de habilitação, at
 |Produto  <br/> |Nome dos produtos para os quais as informações de uso são resumidas. O valor da Microsoft 365 na coluna produto representa a atividade em qualquer um dos produtos  <br/> |
 |Período de tempo  <br/> |Valor do mês. Haverá uma linha por produto por mês nos últimos 12 meses, incluindo o mês corrente parcial.  <br/> |
 |EnabledUsers  <br/> |Número de usuários habilitados para usar o produto para o valor do quadro de horários, se um usuário tiver sido habilitado para a parte do mês, ele ainda será contado.  <br/> |
-|ActiveUsers  <br/> |Número de usuários que executaram uma atividade intencional no produto para o valor do quadro de horários.  <br/> Um usuário é contado como ativo para um produto em um mês específico se ele tiver executado uma das principais atividades no produto. As principais atividades estão disponíveis na tabela **Atividade de produtos do locatário** .  <br/> |
+|ActiveUsers  <br/> |Número de usuários que executaram uma atividade intencional no produto para o valor do quadro de horários.  <br/> Um usuário é contado como ativo para um produto em um mês específico se ele tiver executado uma das principais atividades no produto. As principais atividades estão disponíveis na tabela **Atividade de produtos do locatário**.  <br/> |
 |CumulativeActiveUsers  <br/> |Número de usuários que estão habilitados para usar um produto e que usaram o produto até o mês-prazo pelo menos uma vez desde o início da coleta de dados no novo sistema de uso.  <br/> |
 |MoMReturningUsers  <br/> |Número de usuários que estão ativos no mês-prazo e que também estavam ativos no mês anterior.  <br/> |
 |FirstTimeUsers  <br/> |Número de usuários que ficaram ativos no prazo pela primeira vez desde a coleta de dados, no novo sistema de uso.  <br/> Um usuário é contado como usuário iniciante em um mês específico se detectarmos sua atividade pela primeira vez desde o início do conjunto de dados neste novo sistema de relatórios. Uma vez contado como um usuário de primeira vez, mesmo que esse usuário tenha uma grande diferença em suas atividades, elas nunca serão contadas novamente como um usuário de primeira vez  <br/> |
@@ -215,8 +215,8 @@ Essa tabela consiste em dados de resumo mensal sobre o uso ou a atividade de sit
 |DocumentCount  <br/> |O número total de documentos existentes no site ao fim do prazo.  <br/> |
 |Diplaned  <br/> |Armazenamento total usado somado em todos os sites ao fim do prazo.  <br/> |
 |Activity  <br/> |Número de sites que gravaram os vários tipos de atividade do arquivo (qualquer/arquivos ativos/arquivos compartilhados EXT/INT/arquivos sincronizados).  <br/> Representa qualquer atividade de arquivo que foi executada.  <br/> |
-|SitesWithOwnerActivities  <br/> |Número de sites ativos, em que o proprietário do site executou uma determinada atividade de arquivo nos próprios sites.  <br/> |
-|SitesWithNonOwnerActivities  <br/> |Número de sites ativos somados para o mês, onde os usuários, que não o proprietário do site, realizaram uma determinada atividade de arquivo nos sites.  <br/> |
+|SitesWithOwnerActivities  <br/> |Número de sites ativos, em que o proprietário do site executou uma determinada atividade de arquivo nos próprios sites. Você pode obter o proprietário do site a partir do comando **Get-sposite** do PowerShell. Esta é a pessoa responsável pelo site.   <br/> |
+|SitesWithNonOwnerActivities  <br/> |Número de sites ativos somados para o mês, onde os usuários, que não o proprietário do site, realizaram uma determinada atividade de arquivo nos sites. Você pode obter o proprietário do site a partir do comando **Get-sposite** do PowerShell. Esta é a pessoa responsável pelo site. <br/> |
 |ActivityTotalSites  <br/> |Número de sites que registraram qualquer atividade durante o prazo. Se um site que teve atividade anterior no prazo, e foi excluído até o final do prazo, ela ainda seria contado no total do site ativo para esse prazo.  <br/> |
 |Período de tempo  <br/> |Esta coluna tem o valor de data. Usada como relação Muitos para um para a tabela Calendário.  <br/> |
 |Data do Conteúdo  <br/> |Se o prazo mostrar o mês atual, esse valor representará a última data do mês atual para o qual os dados estão disponíveis.  <br/> Se o prazo mostrar o mês anterior, esse valor representará a última data do mês do prazo.  <br/> |

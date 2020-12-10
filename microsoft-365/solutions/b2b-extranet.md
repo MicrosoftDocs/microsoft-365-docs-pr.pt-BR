@@ -2,7 +2,7 @@
 title: Crie uma extranet B2B com convidados gerenciados
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Saiba como criar um site de extranet B2B ou uma equipe com usuários convidados gerenciados de uma organização de parceiro.
-ms.openlocfilehash: b052598f86072776f69e538c70a6bd56d79c3f81
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+description: Saiba como criar um site de extranet B2B ou uma equipe com convidados gerenciados de uma organização de parceiro.
+ms.openlocfilehash: cfb7cc4310cb83f9ce7761c95f021724b7d75faf
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030048"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613591"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Crie uma extranet B2B com convidados gerenciados
 
 Você pode usar o [Gerenciamento de direitos do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) para criar uma extranet B2B para colaborar com uma organização parceira que usa o Azure Active Directory. Isso permite que os usuários se autoregistrem no site da extranet ou na equipe e recebam acesso por meio de um fluxo de trabalho de aprovação.
 
-Com esse método de compartilhamento de recursos para colaboração, a organização de parceiros pode ajudar a manter e aprovar os usuários convidados em suas finalidades, reduzindo a carga no departamento de ti e permitindo que eles sejam mais familiarizados com o contrato de colaboração para gerenciar o acesso do usuário.
+Com esse método de compartilhamento de recursos para colaboração, a organização parceira pode ajudar a manter e aprovar os convidados em suas finalidades, reduzindo o ônus no departamento de ti e permitindo que eles sejam mais familiarizados com o contrato de colaboração para gerenciar o acesso de usuários.
 
 Este artigo percorre as etapas para criar um pacote de recursos (neste caso, um site ou uma equipe) que você pode compartilhar com uma organização de parceiro por meio de um modelo de registro de acesso de autoatendimento. 
 
@@ -57,7 +57,7 @@ Para adicionar uma organização conectada
 6. Clique em **Adicionar diretório + domínio**.
 7. Digite o domínio da organização que você deseja conectar e clique em **Adicionar**.
 8. Clique em **conectar** e, em seguida, clique em **Avançar: patrocinadores**.
-9. Adicione pessoas da sua organização ou da organização à qual você está se conectando para quem deseja aprovar o acesso para usuários convidados.
+9. Adicione pessoas da sua organização ou da organização à qual você está se conectando para quem deseja aprovar o acesso para convidados.
 10. Clique em **Avançar: revisar + criar**.
 11. Revise as configurações escolhidas e clique em **criar**.
 
@@ -92,15 +92,15 @@ Para criar um pacote de acesso
 2. Clique em **pacotes do Access** e, em seguida, clique em **novo pacote do Access**.
 3. Digite um nome e uma descrição para o pacote do Access e, em seguida, clique em **Avançar: funções de recurso**.
 4. Escolha os recursos do catálogo que você deseja usar para a extranet.
-5. Para cada recurso, na coluna **função** , escolha a função de usuário que você deseja conceder aos usuários convidados que usam a extranet.
+5. Para cada recurso, na coluna **função** , escolha a função de usuário que você deseja conceder aos convidados que usam a extranet.
 6. Clique em **Avançar: solicitações**.
-7. Em **usuários que podem solicitar acesso** , escolha **os usuários que não estão no diretório**.
+7. Em **usuários que podem solicitar acesso**, escolha **os usuários que não estão no diretório**.
 8. Certifique-se de que a opção **específico organizações conectadas** esteja selecionada e clique em **adicionar diretórios**.
 9. Escolha a organização conectada que você adicionou anteriormente e clique em **selecionar**
-10. Em **aprovação** , escolha **Sim** para **exigir aprovação**.
-11. Em **primeiro aprovador** , escolha um dos patrocinadores que você adicionou anteriormente ou escolha um usuário específico.
+10. Em **aprovação**, escolha **Sim** para **exigir aprovação**.
+11. Em **primeiro aprovador**, escolha um dos patrocinadores que você adicionou anteriormente ou escolha um usuário específico.
 12. Clique em **Adicionar fallback** e selecione um Aprovador de fallback.
-13. Em **habilitar** , escolha **Sim**.
+13. Em **habilitar**, escolha **Sim**.
 14. Clique em **Avançar: ciclo de vida**.
 15. Escolha as configurações de análise de validade e acesso que você deseja usar e clique em **Avançar: revisar + criar**.
 16. Revise suas configurações e clique em **criar**.
@@ -112,7 +112,7 @@ Se você estiver fazendo parcerias com uma organização de grande porte, talvez
 Para definir um pacote do Access para oculto
 1. No Azure AD Identity Governance, clique em **pacotes do Access** e, em seguida, clique em seu pacote do Access.
 2. Na página **visão geral** , clique em **Editar**.
-3. Em **Propriedades** , escolha **Sim** para **oculto** e clique em **salvar**.
+3. Em **Propriedades**, escolha **Sim** para **oculto** e clique em **salvar**.
 
    ![Captura de tela de uma tela Editar propriedades do pacote de acesso](../media/identity-governance-access-package-hidden.png)
 
@@ -130,4 +130,4 @@ Depois de copiar o link, você poderá compartilhá-lo com seu contato na organi
 
 ## <a name="see-also"></a>Confira também
 
-[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
+[Criar um ambiente seguro de compartilhamento de convidados](create-secure-guest-sharing-environment.md)

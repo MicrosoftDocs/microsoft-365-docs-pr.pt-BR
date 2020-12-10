@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e Microsoft defender para Office 365
-ms.openlocfilehash: e968f7ea768ac8a0b402c28f3830a52b44afa342
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: fb613916ec375214b33b8b842c6817561920715d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572772"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616039"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e Microsoft defender para Office 365
 
@@ -62,7 +62,7 @@ As condições e exceções disponíveis são:
 As políticas de segurança predefinidas usam as políticas correspondentes dos vários recursos de proteção no EOP e do Microsoft defender para Office 365. Essas políticas são criadas _depois_ que você atribui as políticas de segurança predefinidas de **proteção padrão** ou **proteção estrita** aos usuários. Você não pode modificar essas políticas.
 
 - **Políticas de proteção do Exchange Online (EOP)**: isso inclui as organizações do Microsoft 365 com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online:
-  
+
   - [Políticas antispam](configure-your-spam-filter-policies.md) chamadas política de **segurança predefinida padrão** e **política de segurança predefinida restrita**.
   - [Diretivas Antimalware](configure-anti-malware-policies.md) chamadas **política de segurança predefinida padrão** e **política de segurança predefinida restrita**.
   - [EOP políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings) chamadas política de **segurança** predefinida padrão e **política de segurança predefinida restrita** (configurações de spoof).
@@ -100,9 +100,9 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança predefinidas** , use <https://protection.office.com/presetSecurityPolicies> .
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança predefinidas** , use <https://protection.office.com/presetSecurityPolicies> .
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Para se conectar ao Windows PowerShell do Exchange Online, confira [Conectar ao Windows PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Você precisa receber permissões antes de executar os procedimentos deste artigo:
 
@@ -112,7 +112,7 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Usar o centro de conformidade de & de segurança para atribuir políticas de segurança predefinidas aos usuários
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **políticas de segurança predefinidas** da política de gerenciamento de ameaças.
+1. No centro de conformidade & segurança, vá para  \>  \> **políticas de segurança predefinidas** da política de gerenciamento de ameaças.
 
 2. Em **proteção padrão** ou **proteção estrita**, clique em **Editar**.
 

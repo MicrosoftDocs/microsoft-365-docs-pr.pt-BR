@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
-ms.openlocfilehash: dd68200b7a3723adc7ccba899c0cc88031891197
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 3d11abee08fa3fdd7dfb659bd90e29908f9e4bda
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920425"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614853"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
@@ -76,13 +76,13 @@ A Microsoft fornece números de telefone locais ou chamadas gratuitas para supor
 
 |País ou região|Perguntas sobre cobrança e pré-aquisição|Perguntas para Suporte Técnico|
 |---|---|---|
-|Brasil|Chamada gratuita: 08007621146 <br/> Local: 1147001999|Idem|
-|França|Chamada gratuita: 0805 540 594 <br/> Local: 01 57 32 42 97|Idem|
-|Alemanha|Chamada gratuita: 0800 589 2332 <br/>  Local: 069 380 789 508|Idem|
-|Japão|Chamada gratuita: 0120-628860 <br/> Local: 343326257|Chamada gratuita: 0120-996680 <br/> Local: 357679793|
-|Coreia|Chamada gratuita: 080-495-0880 <br/> Local: 234831937|Idem|
-|Espanha|Chamada gratuita: 900 814 197 <br/> Local: 912 718 160|Idem|
-|Reino Unido|Chamada gratuita: 0800 032 6417 <br/> Local: 0203 450 6455|Idem|
+|Brasil|Chamada gratuita: 08007621146 <br> Local: 1147001999|Idem|
+|França|Chamada gratuita: 0805 540 594 <br> Local: 01 57 32 42 97|Idem|
+|Alemanha|Chamada gratuita: 0800 589 2332 <br>  Local: 069 380 789 508|Idem|
+|Japão|Chamada gratuita: 0120-628860 <br> Local: 343326257|Chamada gratuita: 0120-996680 <br> Local: 357679793|
+|Coreia|Chamada gratuita: 080-495-0880 <br> Local: 234831937|Idem|
+|Espanha|Chamada gratuita: 900 814 197 <br> Local: 912 718 160|Idem|
+|Reino Unido|Chamada gratuita: 0800 032 6417 <br> Local: 0203 450 6455|Idem|
 |Estados Unidos|Chamada gratuita: 1-877-913-2707|Chamada gratuita: 1-800-865-9408|
 |
 

@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Saiba como instalar e usar o suplemento relatório de lixo eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing à Microsoft.
-ms.openlocfilehash: 6e4c16ed8efd781a6e8ecea422fe55fb6723209c
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 6f08c72ae797825695c443848429dcfd2cd485a2
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877544"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616423"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook
 
@@ -70,7 +70,7 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 
    - Movido para a pasta lixo eletrônico se ele foi relatado como spam.
    - Excluído se foi relatado como phishing.
-   
+
    Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-non-spam-and-phishing-messages-from-the-junk-email-folder"></a>Use o suplemento relatório de lixo eletrônico para relatar mensagens que não são spam e phishing da pasta lixo eletrônico
@@ -209,11 +209,11 @@ Para verificar se você instalou com êxito o suplemento relatório de lixo elet
 
 Após fechar o Outlook, use qualquer um dos seguintes procedimentos para desinstalar o suplemento relatório de lixo eletrônico:
 
-- **Painel de controle** : Pressione a tecla Windows + R. Na caixa de diálogo **executar** que é aberta, insira `control appwiz.cpl` e clique em **OK**.
+- **Painel de controle**: Pressione a tecla Windows + R. Na caixa de diálogo **executar** que é aberta, insira `control appwiz.cpl` e clique em **OK**.
 
   Localize e selecione o **suplemento relatório de lixo eletrônico da Microsoft** na lista e clique em **desinstalar**.
 
-- **Pacote do Windows Installer** : encontre ou baixe o arquivo. msi apropriado e clique duas vezes nele.
+- **Pacote do Windows Installer**: encontre ou baixe o arquivo. msi apropriado e clique duas vezes nele.
 
   - **32** bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
@@ -221,7 +221,7 @@ Após fechar o Outlook, use qualquer um dos seguintes procedimentos para desinst
 
   Na caixa de diálogo exibida, selecione **remover suplemento relatório de lixo eletrônico da Microsoft para Outlook** e clique em **Avançar**.
 
-- **Modo silencioso** : encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando, substitua \<PathToFile\> o local do arquivo. msi e execute um dos seguintes comandos:
+- **Modo silencioso**: encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando, substitua \<PathToFile\> o local do arquivo. msi e execute um dos seguintes comandos:
 
   - **32** bits:
 
@@ -263,7 +263,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
 
 1. Verifique ou defina a `LoggingLevel` chave do registro com o valor "Verbose":
 
-   - o **Outlook de 32 bits em Windows de 32 bits** :
+   - o **Outlook de 32 bits em Windows de 32 bits**:
 
      ```text
      Windows Registry Editor Version 5.00
@@ -272,7 +272,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
      "LoggingLevel"="Verbose"
      ```
 
-   - o **Outlook de 32 bits em Windows de 64 bits** :
+   - o **Outlook de 32 bits em Windows de 64 bits**:
 
      ```text
      Windows Registry Editor Version 5.00
@@ -281,7 +281,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
      "LoggingLevel"="Verbose"
      ```
 
-   - **64-bit Outlook** :
+   - **64-bit Outlook**:
 
      ```text
      Windows Registry Editor Version 5.00

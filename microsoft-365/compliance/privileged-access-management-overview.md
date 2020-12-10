@@ -1,12 +1,13 @@
 ---
-title: Gerenciamento de acesso privilegiado
-f1.keywords:
-- NOCSH
+title: Saiba mais sobre o gerenciamento de acesso privilegiado
+description: Este artigo fornece uma visão geral sobre o gerenciamento de acesso privilegiado no Microsoft 365, incluindo as respostas para perguntas frequentes.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: overview
+f1.keywords:
+- NOCSH
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -19,16 +20,14 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
-ms.assetid: ''
-description: Este artigo fornece uma visão geral sobre o gerenciamento de acesso privilegiado no Microsoft 365, incluindo as respostas para perguntas frequentes.
-ms.openlocfilehash: a1bcf1fbe767b4657be8a8ebcc8bf7b101c498d8
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: dc7c6807e8c89b4146784e5be7f57472777a4c84
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341229"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613325"
 ---
-# <a name="privileged-access-management"></a>Gerenciamento de acesso privilegiado
+# <a name="learn-about-privileged-access-management"></a>Saiba mais sobre o gerenciamento de acesso privilegiado
 
 O gerenciamento de acesso privilegiado permite o controle de acesso granular sobre tarefas administrativas privilegiadas no Office 365. Ele pode ajudar a proteger sua organização contra violações que usam contas de administrador privilegiadas existentes com acesso à dados confidenciais ou acesso a definições de configuração crítica. O gerenciamento de acesso privilegiado requer que os usuários solicitem acesso just-in-time para concluir tarefas privilegiadas e privilegiadas por meio de um fluxo de trabalho de aprovação com e sem limite de tempo. Essa configuração oferece aos usuários o acesso apenas suficiente para executar a tarefa em mãos, sem risco de exposição de dados confidenciais ou definições de configuração crítica. Habilitar o gerenciamento de acesso privilegiado no Microsoft 365 permite que sua organização opere com nenhum privilégio de pé e forneça uma camada de defesa contra vulnerabilidades de acesso administrativo.
 
