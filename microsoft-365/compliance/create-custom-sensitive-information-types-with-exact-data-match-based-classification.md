@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 229eb733af85ea5f450969c6d70709cfadcb8f06
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: b120e2bffa4554fb435fe8de2e22d6de2f851544
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681769"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604333"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
 [Tipos de informações confidenciais personalizadas](custom-sensitive-info-types.md) são usadas para ajudar a identificar itens confidenciais para que você possa evitar que sejam compartilhados inadvertidamente ou inadequadamente. Você define um tipo de informações confidenciais personalizada com base em:
 
 - padrões
-- evidência de palavra-chave, como *funcionário*, * alça de preenchimento* ou *ID*
+- evidência de palavra-chave, como *funcionário*, *alça de preenchimento* ou *ID*
 - proximidade de um caractere da evidência em um padrão específico
 - níveis de confiança
 
@@ -102,11 +102,13 @@ Organizar e configurar a classificação baseada em EDM envolve:
       - Até 32 colunas (campos) por fonte de dados
       - Até 5 colunas (campos) marcadas como pesquisáveis
 
-2. Estruture os dados confidenciais no arquivo .csv, de modo que a primeira linha inclui os nomes dos campos usados na classificação baseada em EDM. Você pode ter nomes de campo no arquivo .csv, como "CPF", "data de nascimento", "nome", "sobrenome". Os nomes de cabeçalhos de coluna não podem conter espaços ou sublinhados. Por exemplo, o arquivo .csv de amostra que usamos neste artigo é denominado *PatientRecords.csv* e suas colunas incluem *PatientID*, *MRN*, * LastName*, *FirstName*, *SSN* e mais.
+2. Estruture os dados confidenciais no arquivo .csv, de modo que a primeira linha inclui os nomes dos campos usados na classificação baseada em EDM. Você pode ter nomes de campo no arquivo .csv, como "CPF", "data de nascimento", "nome", "sobrenome". Os nomes de cabeçalhos de coluna não podem conter espaços ou sublinhados. Por exemplo, o arquivo .csv de amostra que usamos neste artigo é denominado *PatientRecords.csv* e suas colunas incluem *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* e mais.
+
+3. Preste atenção ao formato dos campos de dados confidenciais. Em particular, os campos que podem conter vírgulas no conteúdo (por exemplo, um endereço com o valor "Seattle,WA") seriam analisados como dois campos separados quando analisados pela ferramenta EDM. Para evitar isso, certifique-se de que esses campos estejam entre aspas simples ou duplas na tabela de dados confidenciais. Se os campos com vírgulas também podem conter espaços, você precisará criar um Tipo de Informação Confidencial personalizado compatível com o formato correspondente (por exemplo, uma cadeia de caracteres de várias palavras com vírgulas e espaços) para garantir que a cadeia de caracteres corresponde corretamente quando o documento for verificado.
 
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>Definir o esquema para seu banco de dados de informações confidenciais
 
-3. Defina o esquema para o banco de dados de informações confidenciais no formato XML (semelhante ao nosso exemplo a seguir). Nomeie esse arquivo de esquema como **edm.xml** e configure-o de forma que, para cada coluna no banco de dados, haja uma linha que use a sintaxe: 
+1. Defina o esquema para o banco de dados de informações confidenciais no formato XML (semelhante ao nosso exemplo a seguir). Nomeie esse arquivo de esquema como **edm.xml** e configure-o de forma que, para cada coluna no banco de dados, haja uma linha que use a sintaxe: 
 
       `\<Field name="" searchable=""/\>`.
 
@@ -387,7 +389,7 @@ Se você não quiser expor o seu arquivo de dados confidenciais de texto não cr
 
 #### <a name="prerequisites"></a>Pré-requisitos
 
-- uma conta corporativa ou de estudante do Microsoft 365 que será adicionada ao grupo de segurança**EDM\_DataUploaders**
+- uma conta corporativa ou de estudante do Microsoft 365 que será adicionada ao grupo de segurança **EDM\_DataUploaders**
 - um computador com Windows 10 ou Windows Server 2016 com o .NET versão 4.6.2 para executar o EDMUploadAgent
 - um diretório no computador de carregamento para o:
     -  EDMUploadAgent
@@ -640,4 +642,3 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 - [Visão geral das políticas DLP](data-loss-prevention-policies.md)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 - [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)
-

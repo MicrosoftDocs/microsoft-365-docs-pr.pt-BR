@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Certifique-se de ter habilitado todos os recursos do Microsoft 365 para maximizar a produtividade do trabalhador remoto e manter o acesso seguro aos seus servidores, dados e nuvem.
-ms.openlocfilehash: 833f0351c3eb78afb7218ea1c1c51151d70bb608
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: c6f17f2a80fa37abe43ceabc7a06c86c80eeadbd
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371497"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616351"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -99,7 +99,17 @@ Para critérios de segurança e conformidade, confira [Implantar segurança e co
 
 [![Pôster Capacitar trabalhadores remotos](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
 
-Também é possível descarregar este pôster no formato [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) e imprimi-lo em papel tamanho carta, legal, ou tabloide (11 x 17).
+Você também pode baixar este cartaz nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) ou [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) e imprimi-lo em papel tamanho carta, legal, ou tabloide (11 x 17).
+
+## <a name="provide-remote-working-for-all-of-your-workers"></a>Fornecer trabalho remoto para todos os seus funcionários
+
+Você pode permitir que todos os seus funcionários permaneçam produtivos em qualquer lugar com estes dispositivos:
+
+- Um dispositivo moderno, como um laptop Surface e Windows 10, que possui os recursos, a segurança e o desempenho para acessar os aplicativos e serviços em nuvem do Microsoft 365 diretamente pela web.
+
+- Qualquer dispositivo, incluindo laptops ou desktops mais antigos usados em casa, que podem acessar aplicativos e serviços em nuvem da Microsoft 365 indiretamente por meio de um desktop virtual [baseado em Windows 10 de rápida implantação](empower-people-to-work-remotely-remote-access.md#deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices). Essa opção oferece alto desempenho, forte segurança e gerenciamento simplificado de TI.
+
+## <a name="next-steps"></a>Próximas etapas
 
 Use essas etapas para proteger e otimizar o acesso aos servidores e serviços em nuvem da sua organização e maximizar a produtividade do seu trabalhador remoto.
 

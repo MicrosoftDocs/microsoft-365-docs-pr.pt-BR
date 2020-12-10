@@ -1,5 +1,5 @@
 ---
-title: Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
+title: Aplicar automaticamente uma etiqueta de confidencialidade ao conteúdo no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -15,19 +15,22 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 2cfe509e61737cde77dbf865d4d56d9e7f8d0d33
-ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
+description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
+ms.openlocfilehash: 15b841f857eee1861a39a3d0e2e27025fadb90f4
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "49407345"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568477"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Ao criar um rótulo de confidencialidade, você pode atribuir automaticamente esse rótulo ao conteúdo quando ele corresponder às condições especificadas.
+> [!NOTE]
+> Para informações sobre a aplicação automática de uma etiqueta de confidencialidade no Azure Purview (visualização), veja [Automaticamente rotular seu conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+
+Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente esse rótulo a arquivos e emails quando ele corresponder às condições que você especificar.
 
 A capacidade de aplicar rótulos de confidencialidade automaticamente ao conteúdo é importante porque:
 
@@ -37,9 +40,11 @@ A capacidade de aplicar rótulos de confidencialidade automaticamente ao conteú
 
 - Os usuários não precisam mais conhecer as suas políticas. Em vez disso, eles podem se concentrar no próprio trabalho.
 
-Há dois métodos diferentes para aplicar automaticamente um rótulo de confidencialidade:
+Quando o conteúdo é rotulado manualmente, esse rótulo nunca será substituído pela rotulagem automática. No entanto, a etiquetagem automática pode substituir uma [etiqueta de prioridade mais baixa](sensitivity-labels.md#label-priority-order-matters) que foi aplicada automaticamente.
 
-- **Rotulagem do lado do cliente quando os usuários editam documentos ou redigirem (além de responder ou encaminhar) emails**: Use um rótulo configurado para rotular automaticamente os aplicativos do Office (Word, Excel, PowerPoint e Outlook). 
+Há dois métodos diferentes para aplicar automaticamente um rótulo de confidencialidade ao conteúdo no Microsoft 365::
+
+- **Rotulagem do lado do cliente quando os usuários editam documentos ou compõem (além de responder ou encaminhar) emails**: Use um rótulo configurado para rotular automaticamente os aplicativos do Office (Word, Excel, PowerPoint e Outlook). 
     
     Este método suporta a recomendação de um rótulo para os usuários, bem como a aplicação automática de um rótulo. Mas em ambos os casos, o usuário decide se aceita ou rejeita o rótulo, para ajudar a garantir a rotulagem correta do conteúdo. Essa rotulagem do lado do cliente possui um atraso mínimo para os documentos, pois o rótulo pode ser aplicado mesmo antes de o documento ser salvo. No entanto, nem todos os aplicativos cliente oferecem suporte à rotulagem automática. Esse recurso é suportado pelo cliente de rotulagem unificada da Proteção de Informações do Azure e por [algumas versões do Office](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps). 
     
@@ -73,9 +78,9 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
 
 Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamento dos dois métodos complementares de rotulagem automática:
 
-|Recurso ou comportamento|Configuração do rótulo: Rotulagem automática para aplicativos do Office |Política: Rotulagem automática|
+|Recurso ou comportamento|Definição da etiqueta: Auto-rotulagem para arquivos e emails  |Política: Rotulagem automática|
 |:-----|:-----|:-----|
-|Dependência de aplicativos|Sim |Não \* |
+|Dependência de aplicativos|[Sim](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) |Não \* |
 |Restringir por local|Não |Sim |
 |Condições: Classificadores de treinamento|Sim |Não |
 |Condições: Opções de compartilhamento e opções adicionais para email|Não |Sim |
@@ -87,9 +92,6 @@ Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamen
 |Rótulo de email de entrada|Não |Sim (criptografia não aplicada) |
 
 \* A rotulação automática não está disponível em todas as regiões. Se o locatário não oferecer suporte a essa funcionalidade, a guia de rotulamento automático não ficará visível no centro de rotulamento de administrador.
-
-> [!NOTE]
-> Quando o conteúdo é rotulado manualmente, esse rótulo nunca será substituído pela rotulagem automática. No entanto, as políticas de rotulagem automática podem substituir um [rótulo de prioridade mais baixa](sensitivity-labels.md#label-priority-order-matters) que foi aplicado usando rotulagem automática para aplicativos do Office.
 
 ## <a name="how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label"></a>Como várias condições são avaliadas quando elas se aplicam a mais de um rótulo
 
@@ -111,7 +113,7 @@ As configurações de rotulagem automática para aplicativos do Office estão di
 
 ![Opções de escopo do rótulo de confidencialidade para arquivos e emails](../media/filesandemails-scope-options-sensitivity-label.png)
 
-Conforme você avança no assistente, você vê a página de **Rotulagem automática** para aplicativos do Office, onde pode escolher em uma lista de tipos de informações confidenciais ou classificadores treináveis:
+Ao passar pelo assistente, você verá a página **Auto-rotulagem para arquivos e emails** onde você pode escolher entre uma lista de tipos de informações confidenciais ou classificadores treináveis:
 
 ![Condições de rótulos para rotulagem automática em aplicativos do Office](../media/sensitivity-labels-conditions.png)
 
