@@ -2,6 +2,7 @@
 title: Configuração do SharePoint Syntex
 ms.author: mikeplum
 author: MikePlumleyMSFT
+ms.reviewer: ssquires
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,12 +11,12 @@ ms.collection: enabler-strategic
 search.appverid: MET150
 localization_priority: Priority
 description: Configure a compreensão de conteúdo no Projeto Cortex
-ms.openlocfilehash: dfbcc8e41a28e3107b58ac6b8d471e3a2a08d036
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 1abcc71200642de3f74a92e83299e079ffffb038
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087566"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604255"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Configuração do SharePoint Syntex
 
@@ -23,12 +24,12 @@ Os administradores podem usar o Centro de administração do Microsoft 365 para 
 
 Considere o seguinte antes de começar:
 
-- Which SharePoint sites will you enable form processing? All of them, some, or select sites?
+- Em quais sites do SharePoint você vai ativar o processamento de formulários? Todos, alguns ou sites selecionados?
 - Qual será o nome do seu centro de conteúdo padrão?
 
 É possível alterar suas configurações após a configuração inicial no Centro de administração do Microsoft 365.
 
-Prior to setup, make sure to plan for the best way to set up and configure content understanding in your environment. For example, you need to make considerations about the following names of:
+Antes da configuração, certifique-se de planejar a melhor maneira de estabelecer e configurar a compreensão de conteúdo no seu ambiente. Por exemplo, você precisa levar em consideração os seguintes nomes de:
 
 - Sites do SharePoint que você deseja ativar o processamento de formulários - todos, alguns ou sites selecionados
 - Seu centro de conteúdo e o nome do administrador do site principal
@@ -51,7 +52,7 @@ Como administrador, também é possível fazer alterações nas configurações 
     > [!div class="mx-imgBorder"]
     > ![Iniciar a instalação](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
-4. On the **Configure Form Processing** page, you can choose if you want to let users be able to create form processing models in specific SharePoint document libraries. A menu option will be available in the document library ribbon to **Create a form processing model** in SharePoint document libraries in which it is enabled.
+4. Na página **Configurar Processamento de Formulário**, você pode escolher se quer permitir que os usuários sejam capazes de criar modelos de processamento de formulários em bibliotecas específicas de documentos do SharePoint. Uma opção de menu estará disponível na faixa de opções da biblioteca de documentos para **Criar um modelo de processamento de formulário** nas bibliotecas de documentos do SharePoint nas quais ele está ativado.
  
      Para **Quais bibliotecas do SharePoint devem exibir a opção para criar um modelo de processamento de formulário**, você pode selecionar:</br>
       - **Todas as bibliotecas do SharePoint** para torná-lo disponível em todas as bibliotecas do SharePoint em sua organização.</br>
@@ -68,18 +69,18 @@ Como administrador, também é possível fazer alterações nas configurações 
 
     1. Para **Nome do site**, digite o nome que você quer dar ao site do centro de conteúdo.
     
-    1. The **Site address** will show the URL for your site, based on what you selected for the site name. If you want to change it, click **Edit**.
+    1. O **Endereço do site** mostrará o URL do seu site, baseado no que você selecionou para o nome do site. Se você desejar mudá-lo, clique em **Editar**.
 
        > [!div class="mx-imgBorder"]
        > ![Criar centro de conteúdo](../media/content-understanding/admin-cu-create-cc.png)</br>
 
        Selecione **Avançar**.
 
-6. On the **Review and finish** page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select **Activate**.
+6. Na página **Revisão e acabamento**, você pode olhar para a configuração selecionada e escolher fazer alterações. Se estiver satisfeito com as suas seleções, selecione **Ativar**.
 
 7. Na página de confirmação, clique em **Concluído**.
 
-8. You'll be returned to your **Automate content understanding** page. From this page, you can select **Manage** to make any changes to your configuration settings. 
+8. Você retornará à sua página **Compreensão automatizada de conteúdo**. A partir desta página, é possível selecionar **Gerenciar** para fazer quaisquer alterações em suas configurações. 
 
 ## <a name="assign-licenses"></a>Atribua licenças
 
@@ -93,7 +94,7 @@ Atribuição de licenças:
 
 3. Selecione **Atribuir mais**.
 
-4. Select **SharePoint Syntex**. Under **Apps**, make sure **Common Data Service for SharePoint Syntex**, **SharePoint Syntex**, and **SharePoint Syntex - SPO type** are all selected.
+4. Selecione **SharePoint Syntex**. Em **Aplicativos**, certifique-se de que **Common Data Service para o SharePoint Syntex**, **SharePoint Syntex** e **SharePoint Syntex - tipo de SPO** estão todos selecionados.
 
     > [!div class="mx-imgBorder"]
     > ![Licenças do SharePoint Syntex no Centro de administração do Microsoft 365](../media/content-understanding/sharepoint-syntex-licenses.png)
@@ -102,7 +103,7 @@ Atribuição de licenças:
 
 ## <a name="ai-builder-credits"></a>Créditos do Construtor de IA
 
-If you have 300 or more SharePoint Syntex licenses for SharePoint Syntex in your organization, you will be allocated one million AI Builder credits. If you have fewer than 300 licenses, you must purchase AI Builder credits in order to use forms processing.
+Se você tiver 300 ou mais licenças do SharePoint Syntex para o SharePoint Syntex na sua organização, você receberá um milhão de créditos do Construtor de IA. Se você tiver menos de 300 licenças, você deve comprar créditos do Construtor de IA para usar o processamento de formulários.
 
 Você pode estimar a capacidade correta do Construtor de IA com a [calculadora do Construtor de IA](https://powerapps.microsoft.com/ai-builder-calculator).
 

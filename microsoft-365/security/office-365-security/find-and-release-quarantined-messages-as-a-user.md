@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os usuários podem aprender como exibir e gerenciar mensagens em quarentena no Exchange Online Protection (EOP) que deveriam ter sido entregues a eles.
-ms.openlocfilehash: 48c727c442ee6f861499f1a72c687f7b3457c594
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 038d3326df2572f792f1cfc7efa6ad6d03e0a602
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130846"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611359"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Localizar e liberar mensagens em quarentena como usuário no EOP
 
@@ -148,8 +148,6 @@ Depois de selecionar uma mensagem, você tem opções para o que fazer com as me
 - **Visualizar mensagem**: no painel de submenu que é exibido, escolha uma das seguintes opções:
   - **Visualização da fonte**: mostra a versão HTML do corpo da mensagem com todos os links desabilitados.
   - **Visualização do texto**: mostra o corpo da mensagem em texto sem formatação.
-
-- **Mensagem de download**: no painel de submenu que é exibido, clique em **Compreendo os riscos de baixar esta mensagem** para salvar uma cópia local da mensagem no formato .eml.
 
 - **Remover da quarentena**: depois de clicar em **Sim** no aviso que é exibido, a mensagem é imediatamente excluída.
 

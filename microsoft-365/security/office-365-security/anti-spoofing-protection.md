@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
-ms.openlocfilehash: 57d6dc8d9c1935578db15abdbb3e17e72bb64257
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: cae99cce070e6dc362dc678c153074fee53ca6a6
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130824"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616711"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -84,13 +84,13 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 - **Falsificação dentro da organização**: Também conhecida como falsificação _self-to-self_. Por exemplo:
 
   - O remetente e o destinatário estão no mesmo domínio:
-    > De: humberto@contoso.com <br/> Para: michelle@contoso.com
+    > De: humberto@contoso.com <br> Para: michelle@contoso.com
 
   - O remetente e o destinatário estão em subdomínios do mesmo domínio:
-    > De: laura@marketing.fabrikam.com <br/> Para: julia@engineering.fabrikam.com
+    > De: laura@marketing.fabrikam.com <br> Para: julia@engineering.fabrikam.com
 
   - O remetente e o destinatário estão em domínios diferentes que pertencem à mesma organização (ou seja, os dois domínios estão configurados como [domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) na mesma organização):
-    > De: remetente @ microsoft.com <br/> Para: destinatário @ bing.com
+    > De: remetente @ microsoft.com <br> Para: destinatário @ bing.com
 
     Os espaços são usados nos endereços de email para impedir a coleta de spambots.
 
@@ -105,7 +105,7 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
   - SFTY é o nível de segurança da mensagem. 9 indica phishing, .11 indica falsificação dentro da organização.
 
 - **Falsificação entre domínios**: Os domínios do remetente e do destinatário são diferentes e não têm relação entre si (também conhecidos como domínios externos). Por exemplo:
-    > De: humberto@contoso.com <br/> Para: michelle@tailspintoys.com
+    > De: humberto@contoso.com <br> Para: michelle@tailspintoys.com
 
   As mensagens reprovadas na [autenticação composta](email-validation-and-authentication.md#composite-authentication) devido à falsificação entre domínios contêm os seguintes valores de cabeçalhos:
 
@@ -133,11 +133,11 @@ Sabe-se que as listas de endereçamento (também conhecidas como listas de discu
 
 Por exemplo, Gabriela Laureano (glaureano@contoso.com) está interessada em observar pássaros, ingressa na lista de endereçamento birdwatchers@fabrikam.com e envia a seguinte mensagem à lista:
 
-> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier?
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br> **Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier?
 
 O servidor da lista de endereçamento recebe a mensagem, modifica seu conteúdo e a repete aos membros da lista. A mensagem repetida tem o mesmo endereço De (glaureano@contoso.com), mas uma marca é adicionada à linha de assunto e um rodapé é adicionado à parte inferior da mensagem. Esse tipo de modificação é comum em listas de endereçamento, e pode resultar em falsos positivos para falsificação.
 
-> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier? <p> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <p> Alguém quer conferir esta semana a vista do Monte Rainier? <p> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
 
 Para ajudar as mensagens da lista de endereçamento a passarem nas verificações antifalsificação, execute as seguintes etapas com base no controle da lista de endereçamento:
 
