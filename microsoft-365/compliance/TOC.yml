@@ -18,8 +18,32 @@
       href: compliance-extensibility.md
 - name: Gerenciar riscos internos
   items:
+    - name: Soluções de risco interno do Microsoft 365
+      href: insider-risk-solution-overview.md
+    - name: Conformidade de comunicações
+      items:
+        - name: Visão Geral
+          href: communication-compliance-solution-overview.md
+        - name: Saiba mais sobre a conformidade em comunicações
+          href: communication-compliance.md
+        - name: Planejar a conformidade em comunicações
+          href: communication-compliance-plan.md
+        - name: Introdução à conformidade de comunicação
+          href: communication-compliance-configure.md
+        - name: Investigar e corrigir alertas de conformidade em comunicações
+          href: communication-compliance-investigate-remediate.md
+        - name: Referência de recurso para a conformidade em comunicações
+          href: communication-compliance-feature-reference.md
+        - name: Estudo de caso - A Contoso configura rapidamente uma política de idiomas ofensiva
+          href: communication-compliance-case-study.md
+        - name: Políticas de supervisão no Office 365
+          href: supervision-policies.md
+        - name: Configurar políticas de supervisão no Office 365
+          href: configure-supervision-policies.md
     - name: Gerenciamento de risco interno
       items:
+        - name: Visão Geral
+          href: insider-risk-management-solution-overview.md
         - name: Saiba mais sobre o gerenciamento de riscos internos
           href: insider-risk-management.md
         - name: Planejar o gerenciamento de riscos internos
@@ -40,27 +64,12 @@
           href: insider-risk-management-users.md
         - name: Criar modelos de aviso de riscos internos
           href: insider-risk-management-notices.md
-    - name: Conformidade em comunicações
-      items:
-        - name: Saiba mais sobre a conformidade em comunicações
-          href: communication-compliance.md
-        - name: Planejar a conformidade em comunicações
-          href: communication-compliance-plan.md
-        - name: Introdução à conformidade de comunicação
-          href: communication-compliance-configure.md
-        - name: Investigar e corrigir alertas de conformidade em comunicações
-          href: communication-compliance-investigate-remediate.md
-        - name: Referência de recurso para a conformidade em comunicações
-          href: communication-compliance-feature-reference.md
-        - name: Estudo de caso - A Contoso configura rapidamente uma política de idiomas ofensiva
-          href: communication-compliance-case-study.md
-        - name: Políticas de supervisão no Office 365
-          href: supervision-policies.md
-        - name: Configurar políticas de supervisão no Office 365
-          href: configure-supervision-policies.md
     - name: Barreiras de informações
-      href: information-barriers.md
       items:
+        - name: Visão Geral
+          href: information-barriers-solution-overview.md
+        - name: Saiba mais sobre as informações específicas do idioma
+          href: information-barriers.md
         - name: Definir políticas de barreira de informações
           href: information-barriers-policies.md
         - name: Atributos das políticas de barreira de informações
@@ -71,6 +80,8 @@
           href: information-barriers-edit-segments-policies.md
     - name: Gerenciamento de acesso privilegiado
       items:
+        - name: Visão Geral
+          href: privileged-access-management-solution-overview.md
         - name: Saiba mais sobre o gerenciamento de acesso privilegiado
           href: privileged-access-management-overview.md
         - name: Introdução ao gerenciamento de acesso privilegiado
@@ -497,7 +508,7 @@
               href: ediscovery-decryption.md
         - name: Scripts do PowerShell de pesquisa de conteúdo
           items:
-            - name: Utilize a pesquisa de conteúdo para determinadas coleções
+            - name: Usar a pesquisa de conteúdo para determinadas coleções
               href: use-content-search-for-targeted-collections.md
             - name: Pesquisar na caixa de correio e na conta do OneDrive uma lista de usuários
               href: search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md

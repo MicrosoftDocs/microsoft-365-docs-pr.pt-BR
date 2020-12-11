@@ -2,7 +2,7 @@
 title: Referência de configurações de compartilhamento de convidados do Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: 184962b1de8d1dccf86541dba302ca9de26989c2
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 0c734d1046a1c2d180c8102187b8cf07de7dc4dc
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030072"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613039"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -46,10 +46,10 @@ O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. A
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
 |As permissões de usuários convidados são limitadas|Sim|Essa configuração afeta as tarefas de diretório que um convidado pode executar.|
-|Somente administradores e usuários na função emissor do convite convidado podem convidar|Sim|Quando definido como **Sim** , os administradores podem convidar convidados por meio do Azure AD e por experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Quando definido como **Não** , não podem.|
-|Membros podem convidar|Sim|Quando definido como **Sim** , os membros do Azure AD podem convidar convidados por meio do Azure AD. Quando definido como **Não** , não podem. Quando definido como **Sim** , os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário. Quando definido como **Não** , os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário, mas os proprietários devem ser administradores globais para aprovar. <br><br>Observe que a frase **Membros podem convidar** se refere aos membros no Azure AD (em vez de convidados) e não aos membros do site ou do grupo no Microsoft 365. <br><br>Isso é idêntico à configuração **Permitir que usuários adicionem novos convidados à organização** na Segurança e Privacidade no Microsoft 365.|
-|Os convidados podem convidar|Sim|Quando definido como **Sim** , os convidados no diretório podem convidar outros convidados para colaborar em recursos do Azure AD e em arquivos e pastas no SharePoint e no OneDrive. Quando definido como **Não** , não podem. <br><br>Observe que **Permitir que usuários externos encontrem contas de usuários no diretório digitando o endereço de email em correspondência exata** deve ser habilitada no centro de administração do SharePoint para convidados compartilharem arquivos e pastas com outros convidados.|
-|Habilitar senha de uso único por email para convidados (versão prévia)|Não|Quando definido como **Sim** , os convidados sem um MSA ou uma conta corporativa ou de estudante podem [autenticar com o Azure ad usando uma senha de uso único](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode). Quando definido como **Não** , os usuários precisam criar uma Conta Microsoft para autenticação. Essa configuração deve ser definida como **Sim** na [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) para funcionar.|
+|Somente administradores e usuários na função emissor do convite convidado podem convidar|Sim|Quando definido como **Sim**, os administradores podem convidar convidados por meio do Azure AD e por experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Quando definido como **Não**, não podem.|
+|Membros podem convidar|Sim|Quando definido como **Sim**, os membros do Azure AD podem convidar convidados por meio do Azure AD. Quando definido como **Não**, não podem. Quando definido como **Sim**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário. Quando definido como **Não**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário, mas os proprietários devem ser administradores globais para aprovar. <br><br>Observe que a frase **Membros podem convidar** se refere aos membros no Azure AD (em vez de convidados) e não aos membros do site ou do grupo no Microsoft 365. <br><br>Isso é idêntico à configuração **Permitir que usuários adicionem novos convidados à organização** na Segurança e Privacidade no Microsoft 365.|
+|Os convidados podem convidar|Sim|Quando definido como **Sim**, os convidados no diretório podem convidar outros convidados para colaborar em recursos do Azure AD e em arquivos e pastas no SharePoint e no OneDrive. Quando definido como **Não**, não podem. <br><br>Observe que **Permitir que usuários externos encontrem contas de usuários no diretório digitando o endereço de email em correspondência exata** deve ser habilitada no centro de administração do SharePoint para convidados compartilharem arquivos e pastas com outros convidados.|
+|Habilitar senha de uso único por email para convidados (versão prévia)|Não|Quando definido como **Sim**, os convidados sem um MSA ou uma conta corporativa ou de estudante podem [autenticar com o Azure ad usando uma senha de uso único](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode). Quando definido como **Não**, os usuários precisam criar uma Conta Microsoft para autenticação. Essa configuração deve ser definida como **Sim** na [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) para funcionar.|
 |Restrições de colaboração|Permitir o envio de convites para qualquer domínio|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração afeta as experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Você pode permitir ou bloquear domínios em um nível mais granular usando a filtragem de domínios no SharePoint ou Teams.|
 
 Essas configurações afetam como os usuários são convidados ao diretório. Elas não afetam o compartilhamento com convidados que já estão no diretório.
@@ -68,7 +68,7 @@ O Centro de administração do Microsoft 365 tem configurações no nível da or
 
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
-|Permitir que os usuários adicionem novos convidados à organização|Habilitado|Quando definido como **Sim** , os membros do Azure AD podem convidar convidados por meio do Azure AD. Quando definido como **Não** , não podem. Quando definido como **Sim** , os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário. Quando definido como **Não** , os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário, mas os proprietários devem ser administradores globais para aprovar. <br><br>Observe que a frase **Membros podem convidar** se refere aos membros no Azure AD (em vez de convidados) e não aos membros do site ou do grupo no Microsoft 365. <br><br>Isso é idêntico à configuração **Membros podem convidar** nas configurações das relações organizacionais do Azure Active Directory.|
+|Permitir que os usuários adicionem novos convidados à organização|Habilitado|Quando definido como **Sim**, os membros do Azure AD podem convidar convidados por meio do Azure AD. Quando definido como **Não**, não podem. Quando definido como **Sim**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário. Quando definido como **Não**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário, mas os proprietários devem ser administradores globais para aprovar. <br><br>Observe que a frase **Membros podem convidar** se refere aos membros no Azure AD (em vez de convidados) e não aos membros do site ou do grupo no Microsoft 365. <br><br>Isso é idêntico à configuração **Membros podem convidar** nas configurações das relações organizacionais do Azure Active Directory.|
 
 ### <a name="microsoft-365-groups"></a>Grupos do Microsoft 365
 
@@ -78,14 +78,14 @@ O Centro de administração do Microsoft 365 tem configurações no nível da or
 
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
-|Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo|Habilitado|Quando definida como **Habilitado** , convidados podem acessar o conteúdo de grupos. Quando definido como **Desabilitado** , eles não podem. Essa configuração deve estar **Habilitada** para qualquer cenário em que os usuários convidados estejam interagindo com o Teams ou grupos do Microsoft 365.|
-|Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos|Ativado|Quando está **Habilitado** , proprietários dos grupos do Microsoft 365 ou do Teams podem convidar novos convidados ao grupo. Quando está **Desabilitado** , os proprietários só poderão convidar convidados que já estejam no diretório.|
+|Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo|Habilitado|Quando definida como **Habilitado**, convidados podem acessar o conteúdo de grupos. Quando definido como **Desabilitado**, eles não podem. Essa configuração deve estar **Habilitada** para qualquer cenário em que os convidados estejam interagindo com o Teams ou Grupos do Microsoft 365.|
+|Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos|Ativado|Quando está **Habilitado**, proprietários dos grupos do Microsoft 365 ou do Teams podem convidar novos convidados ao grupo. Quando está **Desabilitado**, os proprietários só poderão convidar convidados que já estejam no diretório.|
 
 Essas configurações estão no nível da organização. Confira o artigo [Criar configurações de um grupo específico](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group) para obter informações sobre como alterar essas configurações no nível de grupo usando o PowerShell.
 
 ## <a name="teams"></a>Teams
 
-A chave de acesso principal de convidado do Teams, **Permitir o acesso de convidado no Teams** , deve estar **Habilitada** para que as outras configurações de convidado estejam disponíveis.
+A chave de acesso principal de convidado do Teams, **Permitir o acesso de convidado no Teams**, deve estar **Habilitada** para que as outras configurações de convidado estejam disponíveis.
 
 **Função do Administrador:** Administrador de Serviços do Teams
 
@@ -107,7 +107,7 @@ A chave de acesso principal de convidado do Teams, **Permitir o acesso de convid
 
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
-|Fazer chamadas privadas|Habilitado|Quando está **Habilitado** , os convidados podem fazer chamadas de ponto a ponto no Teams. Quando está **Desabilitado** , não podem.|
+|Fazer chamadas privadas|Habilitado|Quando está **Habilitado**, os convidados podem fazer chamadas de ponto a ponto no Teams. Quando está **Desabilitado**, não podem.|
 
 ### <a name="guest-meeting"></a>Reunião de convidados
 
@@ -117,9 +117,9 @@ A chave de acesso principal de convidado do Teams, **Permitir o acesso de convid
 
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
-|Permitir vídeo IP|Habilitado|Quando está **Habilitado** , os convidados podem usar vídeos em suas chamadas e reuniões. Quando está **Desabilitado** , não podem.|
-|Modo de compartilhamento de tela|Tela inteira|Quando está **Desabilitado** , os convidados não podem compartilhar suas telas no Teams. Quando definido como **Aplicativo único** , os convidados só podem compartilhar um único aplicativo na tela. Quando estiver definido como **Tela inteira** , os convidados podem optar por compartilhar um aplicativo ou sua tela inteira.|
-|Permitir Reunir Agora|Habilitado|Quando está **Habilitado** , os convidados podem usar o recurso Reunir Agora no Teams. Quando está **Desabilitado** , não podem.|
+|Permitir vídeo IP|Habilitado|Quando está **Habilitado**, os convidados podem usar vídeos em suas chamadas e reuniões. Quando está **Desabilitado**, não podem.|
+|Modo de compartilhamento de tela|Tela inteira|Quando está **Desabilitado**, os convidados não podem compartilhar suas telas no Teams. Quando definido como **Aplicativo único**, os convidados só podem compartilhar um único aplicativo na tela. Quando estiver definido como **Tela inteira**, os convidados podem optar por compartilhar um aplicativo ou sua tela inteira.|
+|Permitir Reunir Agora|Habilitado|Quando está **Habilitado**, os convidados podem usar o recurso Reunir Agora no Teams. Quando está **Desabilitado**, não podem.|
 
 ### <a name="guest-messaging"></a>Sistema de mensagens de convidado
 
@@ -129,14 +129,14 @@ A chave de acesso principal de convidado do Teams, **Permitir o acesso de convid
 
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
-|Editar mensagens enviadas|Habilitado|Quando está **Habilitado** , os convidados podem editar mensagens que já foram enviadas. Quando está **Desabilitado** , não podem.|
-|Excluir mensagens enviadas|Habilitado|Quando está **Habilitado** , os convidados podem excluir mensagens que já foram enviadas. Quando está **Desabilitado** , não podem.|
-|Chat|Habilitado|Quando está **Habilitado** , os convidados podem usar o chat no Teams. Quando está **Desabilitado** , não podem.|
-|Usar Giphys em conversas|Habilitado|Quando está **Habilitado** , os convidados podem usar o Giphys nas conversas. Quando está **Desabilitado** , não podem.|
-|Classificação de conteúdo Giphy|Moderado|Quando definido como **Permitir todo o conteúdo** , os convidados podem inserir todos os Giphys em chats, independentemente da classificação de conteúdo. Quando estiver definido como **Moderado** , os convidados podem inserir Giphys nos chats, mas o conteúdo adulto será restringido de forma moderada. Quando definido como **Estrito** , os convidados podem inserir Giphys em chats, mas o conteúdo adulto não poderá ser inserido.|
-|Usar Memes em conversas|Habilitado|Quando está **Habilitado** , os convidados podem usar memes nas conversas. Quando está **Desabilitado** , não podem.|
-|Figurinha do usuário em conversas|Habilitado|Quando está **Habilitado** , os convidados podem usar figurinhas nas conversas. Quando está **Desabilitada** , não podem.|
-|Permitir leitura avançada na exibição de mensagens|Habilitado|Quando está **Habilitado** , os convidados podem exibir mensagens na leitura avançada. Quando está **Desabilitada** , não podem.|
+|Editar mensagens enviadas|Habilitado|Quando está **Habilitado**, os convidados podem editar mensagens que já foram enviadas. Quando está **Desabilitado**, não podem.|
+|Excluir mensagens enviadas|Habilitado|Quando está **Habilitado**, os convidados podem excluir mensagens que já foram enviadas. Quando está **Desabilitado**, não podem.|
+|Chat|Habilitado|Quando está **Habilitado**, os convidados podem usar o chat no Teams. Quando está **Desabilitado**, não podem.|
+|Usar Giphys em conversas|Habilitado|Quando está **Habilitado**, os convidados podem usar o Giphys nas conversas. Quando está **Desabilitado**, não podem.|
+|Classificação de conteúdo Giphy|Moderado|Quando definido como **Permitir todo o conteúdo**, os convidados podem inserir todos os Giphys em chats, independentemente da classificação de conteúdo. Quando estiver definido como **Moderado**, os convidados podem inserir Giphys nos chats, mas o conteúdo adulto será restringido de forma moderada. Quando definido como **Estrito**, os convidados podem inserir Giphys em chats, mas o conteúdo adulto não poderá ser inserido.|
+|Usar Memes em conversas|Habilitado|Quando está **Habilitado**, os convidados podem usar memes nas conversas. Quando está **Desabilitado**, não podem.|
+|Figurinha do usuário em conversas|Habilitado|Quando está **Habilitado**, os convidados podem usar figurinhas nas conversas. Quando está **Desabilitada**, não podem.|
+|Permitir leitura avançada na exibição de mensagens|Habilitado|Quando está **Habilitado**, os convidados podem exibir mensagens na leitura avançada. Quando está **Desabilitada**, não podem.|
 
 ## <a name="sharepoint-and-onedrive-organization-level"></a>SharePoint e OneDrive (nível da organização)
 
@@ -167,7 +167,7 @@ Como o OneDrive é uma hierarquia de sites no SharePoint, as configurações de 
 |:-----|:-----|:-----|
 |Limitar o compartilhamento externo por domínio|Desabilitado|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração afeta todos os sites do SharePoint e do OneDrive na organização.|
 |Convidados devem entrar com a mesma conta que receberam os convites de compartilhamento.|Desabilitado|Impede que os convidados resgatem os convites de compartilhamento de sites usando um endereço de email diferente do envio do convite.<br><br>[A integração do SharePoint e do OneDrive com o Azure AD B2B (versão prévia)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) não usa essa configuração porque todos os convidados são adicionados ao diretório com base no endereço de email do envio do convite. Endereços de email alternativos não podem ser usados para acessar o site.|
-|Permitir que convidados compartilhem itens que não pertencem a eles|Habilitado|Quando está **Habilitado** , os convidados podem compartilhar itens que eles não possuem com outros usuários ou convidados. Quando está **Desabilitado** , não podem. Os convidados sempre poderão compartilhar itens que têm controle completo.|
+|Permitir que convidados compartilhem itens que não pertencem a eles|Habilitado|Quando está **Habilitado**, os convidados podem compartilhar itens que eles não possuem com outros usuários ou convidados. Quando está **Desabilitado**, não podem. Os convidados sempre poderão compartilhar itens que têm controle completo.|
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>Configurações de link para o arquivo e pasta do SharePoint e do OneDrive
 
@@ -194,20 +194,20 @@ Se quer limitar quem pode compartilhar com os convidados no SharePoint e no OneD
 
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
-|Permitir que somente os usuários em grupos de segurança selecionados compartilhem com usuários externos autenticados|Desabilitado|Quando está **Habilitado** , somente as pessoas dos grupos de segurança especificados podem compartilhar com usuários externos. Somente links de *Pessoas específicas* estão disponíveis. *Qualquer pessoa* compartilhando está efetivamente desabilito a não ser que **Permitir que apenas usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos** também esteja **Habilitado**.|
-|Permitir que apenas os usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos.|Desabilitado|Quando está **Habilitado** , somente as pessoas dos grupos de segurança especificados podem compartilhar com convidados. Os links *Qualquer pessoa* e *Pessoas específicas* estão disponíveis.|
+|Permitir que somente os usuários em grupos de segurança selecionados compartilhem com usuários externos autenticados|Desabilitado|Quando **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com pessoas de fora da organização. Somente links de *Pessoas específicas* estão disponíveis. *Qualquer pessoa* compartilhando está efetivamente desabilito a não ser que **Permitir que apenas usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos** também esteja **Habilitado**.|
+|Permitir que apenas os usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos.|Desabilitado|Quando está **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com convidados. Os links *Qualquer pessoa* e *Pessoas específicas* estão disponíveis.|
 
-Essas duas configurações podem ser usadas ao mesmo tempo. Se um usuário tiver um grupo de segurança especificado para as duas configurações, o nível de permissão maior prevalecerá ( *Qualquer pessoa* mais *Usuário específico* ). Os grupos de segurança aninhados têm suporte.
+Essas duas configurações podem ser usadas ao mesmo tempo. Se um usuário tiver um grupo de segurança especificado para as duas configurações, o nível de permissão maior prevalecerá (*Qualquer pessoa* mais *Usuário específico*). Os grupos de segurança aninhados têm suporte.
 
 ## <a name="sharepoint-site-level"></a>SharePoint (nível do site)
 
 **Função do Administrador:** administrador do SharePoint
 
-Como essas configurações estão sujeitas às configurações de toda a organização do SharePoint, a configuração de compartilhamento efetiva do site poderá mudar se a configuração no nível da organização mudar. Se escolher uma configuração aqui e o nível da organização for definido posteriormente como um valor mais restritivo, esse site funcionará nesse valor mais restritivo. Por exemplo, se escolher **Qualquer pessoa** e a configuração no nível da organização for configurada posteriormente como **Convidados novos e existentes** , então esse site permitirá convidados novos e existentes. Se a configuração no nível da organização for definida novamente como **Qualquer pessoa** , esse site permitirá novamente os links para *Qualquer pessoa*.
+Como essas configurações estão sujeitas às configurações de toda a organização do SharePoint, a configuração de compartilhamento efetiva do site poderá mudar se a configuração no nível da organização mudar. Se escolher uma configuração aqui e o nível da organização for definido posteriormente como um valor mais restritivo, esse site funcionará nesse valor mais restritivo. Por exemplo, se escolher **Qualquer pessoa** e a configuração no nível da organização for configurada posteriormente como **Convidados novos e existentes**, então esse site permitirá convidados novos e existentes. Se a configuração no nível da organização for definida novamente como **Qualquer pessoa**, esse site permitirá novamente os links para *Qualquer pessoa*.
 
 ### <a name="site-sharing"></a>Compartilhamento do site
 
-Você pode definir as permissões de compartilhamento de convidado para cada site do SharePoint. Essa configuração se aplica ao compartilhamento do site e ao compartilhamento de arquivo e pasta. (O compartilhamento de *Qualquer pessoa* não está disponível no compartilhamento do site. Se escolher **Qualquer pessoa** , os usuários poderão compartilhar arquivos e pastas usando os links para *Qualquer pessoa* e o site em si com convidados novos e existentes.
+Você pode definir as permissões de compartilhamento de convidado para cada site do SharePoint. Essa configuração se aplica ao compartilhamento do site e ao compartilhamento de arquivo e pasta. (O compartilhamento de *Qualquer pessoa* não está disponível no compartilhamento do site. Se escolher **Qualquer pessoa**, os usuários poderão compartilhar arquivos e pastas usando os links para *Qualquer pessoa* e o site em si com convidados novos e existentes.
 
 **Navegação:** Centro de administração do SharePoint > sites ativos > selecione site > guia políticas > Editar compartilhamento externo
 

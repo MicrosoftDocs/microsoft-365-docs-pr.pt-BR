@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Implemente a Proteção de Informações da Microsoft (MIP) para ajudá-lo a proteger informações confidenciais onde elas ficam ou trafegam.
-ms.openlocfilehash: 4afc73b5a2cefe88d2e3af5fd6665ec64e5c0ee3
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 59f57c920f2b753994f2335a6f2ed9ac5b7b77d1
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568313"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613083"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de Informações da Microsoft no Microsoft 365
 
@@ -40,6 +40,10 @@ Para obter informações sobre como controlar seus dados, confira [Governança d
 
 > [!NOTE]
 > Para obter informações sobre como classificar e rotular dados no Azure Purview, atualmente em pré-visualização, confira [Rotular automaticamente seu conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+> 
+> Para obter informações sobre esta nova versão, confira o post do blog [Proteção de Informações da Microsoft e Visualização do Microsoft Azure: Melhor Juntos](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481).
+
+
 
 Para entender o panorama de dados e identificar dados importantes em ambiente híbrido, use os seguintes recursos:
  

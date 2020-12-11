@@ -29,7 +29,7 @@
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: setup-secure-collaboration-with-teams.md
         - name: Etapa 1. Configurar três camadas de proteção com o Microsoft Teams
           items:
@@ -71,7 +71,7 @@
               href: microsoft-365-guest-settings.md
     - name: Implantar proteção contra ameaças no Microsoft 365
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: deploy-threat-protection.md
         - name: Etapas para implantar a proteção contra ameaças
           href: deploy-threat-protection-configure.md
@@ -169,6 +169,18 @@
           href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Conformidade
       items:
+        - name: Soluções de risco interno no Microsoft 365
+          items:
+            - name: Visão Geral
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/insider-risk-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Conformidade de comunicações
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Gerenciamento de risco interno
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Barreiras de informações
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/information-barriers-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Gerenciamento de acesso privilegiado
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Planos de ação de conformidade regulatória
           items:
             - name: ISO - Plano de ação recomendado
@@ -179,6 +191,8 @@
               href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: GDPR - Plano de ação recomendado
               href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Estudo de caso de conformidade da Contoso
+          href: 'https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-case-study?view=o365-worldwide?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Estudos de caso da Contoso
       items:
         - name: Soluções da Microsoft 365 para a Contoso Corporation

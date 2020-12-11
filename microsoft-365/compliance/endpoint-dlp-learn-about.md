@@ -18,23 +18,23 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para pontos de extremidade. Os arquivos ficam visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: e469872dac19db08f7b525c8a5ada725c75bfa10
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para os pontos de extremidade. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
+ms.openlocfilehash: 457701a514159e54e932db3e4ad04a7428165fdc
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072970"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604311"
 ---
-# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do Microsoft 365 Endpoint
+# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
 
-Use a prevenção contra perda de dados (DLP) do Microsoft 365 para monitorar as ações que estão sendo executadas em itens que você determinou como confidenciais e para ajudar a evitar o compartilhamento não intencional desses itens. Para obter mais informações sobre DLP, confira [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md).
+Você pode usar a prevenção contra perda de dados (DLP) da Microsoft 365 para monitorar as ações que estão sendo executadas em itens que você concluiu a ser sensível e para ajudar a evitar o compartilhamento não intencional desses itens. Para mais informações sobre a DLP, confira [Visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md).
 
-A **Prevenção contra perda de dados** (DLP do ponto de extremidade) estende os recursos de monitoramento e proteção de atividades do DLP a itens confidenciais que estão nos dispositivos Windows 10. Uma vez que os dispositivos são integrados nas soluções do Centro de conformidade do Microsoft 365, as informações sobre o que os usuários estão fazendo com itens confidenciais ficam visíveis no [explorador de atividades](data-classification-activity-explorer.md) e você pode aplicar ações de proteção nesses itens através de [políticas DLP](create-test-tune-dlp-policy.md).
+**A prevenção contra perda de dados de pontos de extremidade** (Endpoint DLP) estende os recursos de proteção e monitoramento de atividades da DLP para itens confidenciais que estão em dispositivos Windows 10. Depois que os dispositivos estiverem integrados às soluções de conformidade do Microsoft 365, as informações sobre o que os usuários estão fazendo com itens confidenciais serão visíveis no [explorador de atividades](data-classification-activity-explorer.md) e você poderá aplicar ações de proteção a esses itens por meio das [políticas DLP](create-test-tune-dlp-policy.md).
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>Atividades do ponto de extremidade que você pode monitorar e executar
 
-O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários realizam em itens confidenciais em dispositivos que executam o Windows 10. Isso inclui:
+O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10. Isso inclui:
 
 
 |atividade no item |auditável/restringivel  |
@@ -53,14 +53,14 @@ Há alguns conceitos adicionais que você precisa saber antes de mergulhar no En
 
 ### <a name="enabling-device-management"></a>Habilitar o gerenciamento de dispositivos
 
-O gerenciamento de dispositivos é a funcionalidade que permite a coleção de telemetria de dispositivos e as traz para as soluções do Centro de conformidade do Microsoft 365, como DLP do ponto de extremidade e [Gerenciamento de risco interno](insider-risk-management.md). Será necessário integrar todos os dispositivos que deseja usar como locais nas políticas DLP.
+O gerenciamento de dispositivos é a funcionalidade que habilita o conjunto de telemetria de dispositivos e a reúne para as soluções do Centro de conformidade do Microsoft 365, como Endpoint DLP e [gerenciamento de risco interno](insider-risk-management.md). Será necessário integrar todos os dispositivos que você deseja usar como locais nas políticas DLP.
 
 > [!div class="mx-imgBorder"]
 > ![habilite o gerenciamento de dispositivos](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
-A integração e a remoção são tratadas através de scripts baixados do Centro de gerenciamento de dispositivos. O centro tem scripts personalizados para cada um desses métodos de implantação:
+A integração e a remoção são manipuladas por meio de scripts que você baixa no centro de gerenciamento de dispositivos. O centro tem scripts personalizados para cada um desses métodos de implantação:
 
-- script local (até 10 computadores)
+- script local (até 10 máquinas)
 - Política de grupo
 - System Center Configuration Manager (versão 1610 ou posterior)
 - Gerenciamento de dispositivos móveis/Microsoft Intune
@@ -69,16 +69,16 @@ A integração e a remoção são tratadas através de scripts baixados do Centr
 > [!div class="mx-imgBorder"]
 > ![página de integração de dispositivos](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
 
- Use os procedimentos no [Introdução ao Microsoft 365 Endpoint DPL](endpoint-dlp-getting-started.md) para dispositivos integrados.
+ Use os procedimentos no [Introdução ao Microsoft 365 Endpoint DLP](endpoint-dlp-getting-started.md) a dispositivos integrados.
 
 Se você tiver dispositivos integrados por meio do [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), esses dispositivos aparecerão automaticamente na lista de dispositivos.
 
 > [!div class="mx-imgBorder"]
 > ![lista de dispositivos gerenciados](../media/endpoint-dlp-learn-about-2-device-list.png)
 
-### <a name="viewing-endpoint-dlp-data"></a>Exibir dados de DLP do Ponto de Extremidade
+### <a name="viewing-endpoint-dlp-data"></a>Exibir dados de DLP do Endpoint
 
- O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, de modo que as atividades serão capturadas mesmo que a extensão do arquivo seja alterada. Na visualização pública, são vistos todos:
+ O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, portanto, as atividades serão capturadas mesmo se a extensão do arquivo for alterada. Neste momento, os seguintes tipos de arquivos são compatíveis:
 
 - Arquivos do Word
 - Arquivos do PowerPoint
@@ -96,9 +96,9 @@ Se você tiver dispositivos integrados por meio do [Microsoft Defender para Pont
 - Arquivos .java
 
 > [!NOTE]
-> O Endpoint DLP avalia arquivos de todos os tipos acima em relação à política DLP e aplica ações de proteção em conformidade. Todos os arquivos que correspondem a uma política DLP são auditados para todas as ações suportadas, mesmo que não estejam bloqueados. Além disso, a atividade de arquivos realizada em qualquer arquivo Word, PowerPoint, Excel, PDF e .csv é auditada por padrão, independente da existência de uma política DLP ou se ela corresponde a esses arquivos.
+> O DLP de ponto de extremidade avalia os arquivos de todos os tipos acima em relação à política de DLP e aplica as ações de proteção de acordo. Todos os arquivos que correspondem a uma política DLP são auditados para todas as ações com suporte, mesmo se não forem bloqueadas. Além disso, a atividade de arquivo realizada em qualquer arquivo de Word, PowerPoint, Excel, PDF e .csv é auditado por padrão, independentemente da existência de uma política DLP ou da correspondência desses arquivos.
 
-Você pode visualizar os alertas relacionados às políticas DLP aplicadas em dispositivos de ponto de extremidade indo até o Painel de Gerenciamento de Alertas [DLP](dlp-configure-view-alerts-policies.md).
+Visualize os alertas relacionados às políticas DLP aplicadas em dispositivos de ponto de extremidade no [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md).
 
 ![Informações sobre alertas](../media/Alert-info-1.png)
 
@@ -106,12 +106,12 @@ Você também pode visualizar detalhes do evento associado com metadados ricos n
 
 ![informações do evento](../media/Event-info-1.png)
 
-Depois que um dispositivo é integrado, as informações sobre as atividades auditadas fluem para o Gerenciador de atividade antes mesmo de configurar e implantar qualquer política DLP que tenha dispositivos como local.
+Após a integração de um dispositivo, as informações sobre as atividades auditadas fluem no explorador de atividades mesmo antes de você configurar e implantar as políticas DLP que têm dispositivos como um local.
 
 > [!div class="mx-imgBorder"]
 > ![eventos do DLP do ponto de extremidade no gerenciador de atividades](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
 
-O DLP do ponto de extremidade coleta informações abrangentes sobre a atividade auditada.
+O Endpoint DLP coleta informações abrangentes sobre atividades auditadas.
 
 Por exemplo, se um arquivo for copiado para uma mídia USB removível, você verá esses atributos nos detalhes da atividade:
 
@@ -145,7 +145,7 @@ Por exemplo, se um arquivo for copiado para uma mídia USB removível, você ver
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Agora que você aprendeu sobre o Ponto de extremidade da Prevenção contra perda de dados, as próximas etapas são:
+Agora que você aprendeu sobre o Endpoint DLP, as próximas etapas são:
 
 1) [Introdução à prevenção contra perda de dados do ponto de extremidade da Microsoft](endpoint-dlp-getting-started.md)
 2) [Usar a prevenção contra perda de dados do Ponto de extremidade da Microsoft](endpoint-dlp-using.md)
