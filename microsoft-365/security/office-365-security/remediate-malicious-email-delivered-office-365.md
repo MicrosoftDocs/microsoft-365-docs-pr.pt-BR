@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Correção de ameaças
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 742f19c4051b2cab3311562f688da51975bd3c48
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 67b27102ff9319e334b5ff1e006fe49f14d3f1ed
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615883"
+ms.locfileid: "49620570"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Corrigir emails mal-intencionados entregues no Office 365
 
@@ -33,7 +33,7 @@ Correção significa tomar uma ação prescrita contra uma ameaça. Emails malic
 
 ## <a name="what-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar
 
-Os administradores podem executar a ação necessária em emails, mas para obter essas ações aprovadas, eles devem ter a função de *pesquisa e limpeza* atribuída a eles por meio de permissões de **segurança do centro de conformidade &** \> **Permissions**. Sem a função "pesquisa e limpeza" adicionada a um dos grupos de função, elas não podem executar a ação.
+Os administradores podem executar a ação necessária em emails, mas para obter essas ações aprovadas, eles devem ter a função de *pesquisa e limpeza* atribuída a eles por meio de permissões de **segurança do centro de conformidade &** \> . Sem a função "pesquisa e limpeza" adicionada a um dos grupos de função, eles não poderão executar a ação.
 
 ## <a name="manual-and-automated-remediation"></a>Correção manual e automatizada
 

@@ -14,28 +14,28 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 1e2624fea7a93013e4b4de2dd4ede4144000f075
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 63eab8c44651bfc2865e9bf6c577c1ebe13381fc
+ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073078"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49624761"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio de locatário cruzado (versão prévia)
 
-Anteriormente, quando um locatário do Exchange Online precisava mover caixas de correio para outro locatário no mesmo serviço do Exchange Online, ele teria que externamente-las completamente para o local e, em seguida, integrá-las a um novo locatário. Com o novo recurso de migração de caixa de correio de vários locatários, os administradores de locatários nos locatários de origem e de destino podem mover caixas de correio entre os locatários com dependências de infra-estrutura mínimas em seus sistemas locais. Isso remove a necessidade de externamente e caixas de correio integradas.
+Anteriormente, quando um locatário do Exchange Online precisava mover caixas de correio para outro locatário no mesmo serviço do Exchange Online, ele teria que externamente-las completamente para o local e, em seguida, integrá-las a um novo locatário. Com o novo recurso de migração de caixa de correio de vários locatários, os administradores de locatários nos locatários de origem e de destino podem mover caixas de correio entre os locatários com dependências de infra-estrutura mínimas em seus sistemas locais. Isso remove a necessidade de caixas de correio desintegradas e integradas.
 
 Normalmente, durante mesclagens ou divestitures, você precisa da capacidade de mover os usuários e o conteúdo para um novo locatário. Quando o administrador de locatário de destino executa a movimentação, ela é chamada de movimentação de recepção, semelhante às migrações de integração local para a nuvem.
 
 As movimentações de caixa de correio do Exchange entre locatários são totalmente autoatendidas por administradores de locatários, usando interfaces conhecidas que podem ser inseridas em scripts nos fluxos de trabalho maiores necessários para fazer a transição de usuários para sua nova organização. Os administradores podem usar o `New-MigrationBatch` cmdlet, disponível por meio da função de gerenciamento mover caixas de correio, para executar movimentações entre locatários. O processo de movimentação inclui verificações de autorização de locatário durante a sincronização e a finalização da caixa de correio. 
  
-Os usuários que estão migrando devem estar presentes no sistema de locatário do Exchange Online como MailUsers, marcados com atributos específicos para habilitar movimentações entre locatários. O sistema falhará em movimentações para usuários que não estejam configurados corretamente no locatário de destino. 
+Os usuários que estão migrando devem estar presentes no sistema de locatário do Exchange Online como MailUsers, marcados com atributos específicos para habilitar movimentações entre locatários. O sistema falhará em movimentações para usuários que não estejam configurados corretamente no locatário de destino.  
 
 Quando as movimentações são concluídas, a caixa de correio do sistema de origem é convertida em MailUser e o targetAddress (mostrado como ExternalEmailAddress no Exchange) é marcado com o endereço de roteamento para o locatário de destino. Esse processo deixa o MailUser herdado no locatário de origem e permite um período de coexistência e roteamento de email. Quando o processo de negócios permitir, o locatário de origem poderá remover o MailUser de origem ou convertê-lo em um contato de email. 
 
 Há suporte para as migrações de caixa de correio do Exchange entre locatários em locatários apenas híbridos ou em nuvem, ou qualquer combinação dos dois.
 
-Este artigo descreve o processo de movimentações de caixa de correio de locatários cruzados e fornece orientação sobre como preparar locatários de origem e de destino para a movimentação de conteúdo. 
+Este artigo descreve o processo de movimentações de caixa de correio de locatários cruzados e fornece orientação sobre como preparar locatários de origem e de destino para a movimentação de conteúdo.  
 
 ## <a name="preparing-source-and-target-tenants"></a>Preparar locatários de origem e de destino
 
@@ -99,26 +99,29 @@ Prepare o locatário de origem:
 
     | Parâmetro | Valor | Obrigatório ou opcional
     |---------------------------------------------|-----------------|--------------|
-    | -ResourceTenantDomain                       | Domínio do locatário de origem, como a Fabrikam \. onmicrosoft.com. | Obrigatório |
+    | -ResourceTenantDomain                       | Domínio do locatário de origem, como fabrikam.onmicrosoft.com. | Obrigatório |
     | -ResourceTenantAdminEmail                   | Endereço de email do administrador do locatário de origem. Este é o administrador do locatário de origem que será consentido no uso do aplicativo de migração de caixa de correio enviado do administrador de destino. Esse é o administrador que receberá o convite de email para o aplicativo. | Obrigatório |
-    | -TargetTenantDomain                         | Domínio de locatário de destino, como contoso \. onmicrosoft.com. | Obrigatório |
+    | -TargetTenantDomain                         | Domínio do locatário de destino, como contoso.onmicrosoft.com. | Obrigatório |
     | -ResourceTenantId                           | ID da organização do locatário de origem (GUID). | Obrigatório |
     | -SubscriptionId                             | A assinatura do Azure a ser usada para criar recursos. | Obrigatório |
     | -O resourcegroup                              | Nome do grupo de recursos do Azure que contém ou conterá o cofre de chaves. | Obrigatório |
     | -Keyvaultname                               | Instância do Azure Key Vault que armazenará seu certificado/segredo de aplicativo de migração de caixa de correio. | Obrigatório |
     | -CertificateName                            | Nome do certificado ao gerar ou pesquisar o certificado no cofre de chaves. | Obrigatório |
     | -CertificateSubject                         | Nome do requerente do certificado do Azure Key Vault, como CN = contoso_fabrikam. | Obrigatório |
-    | -ExistingApplicationId                      | Aplicativo de migração de email a ser usado se um já tiver sido criado. | Opcional |
+    | -ExistingApplicationId                      | Aplicativo de migração de email a ser usado se um já tiver sido criado. | Optional |
     | -AzureAppPermissions                        | As permissões exigidas para o aplicativo de migração de caixa de correio, como o Exchange ou o MSGraph (Exchange para mover caixas de correio, MSGraph para usar este aplicativo para enviar um convite de link de consentimento para o locatário de recursos). | Obrigatório |
-    | -UseAppAndCertGeneratedForSendingInvitation | Parâmetro para usar o aplicativo criado para migração a ser usado para enviar o convite de consentimento para o administrador do locatário de origem. Se não estiver presente, solicitará as credenciais do administrador de destino para se conectar ao Gerenciador de convites do Azure e enviará o convite como administrador de destino. | Opcional |
-    | -KeyVaultAuditStorageAccountName            | A conta de armazenamento onde os logs de auditoria do Key Vault serão armazenados. | Opcional |
-    | -KeyVaultAuditStorageResourceGroup          | O grupo de recursos que contém a conta de armazenamento para armazenar logs de auditoria de compartimento de chave. | Opcional |
+    | -UseAppAndCertGeneratedForSendingInvitation | Parâmetro para usar o aplicativo criado para migração a ser usado para enviar o convite de consentimento para o administrador do locatário de origem. Se não estiver presente, solicitará as credenciais do administrador de destino para se conectar ao Gerenciador de convites do Azure e enviará o convite como administrador de destino. | Optional |
+    | -KeyVaultAuditStorageAccountName            | A conta de armazenamento onde os logs de auditoria do Key Vault serão armazenados. | Optional |
+    | -KeyVaultAuditStorageResourceGroup          | O grupo de recursos que contém a conta de armazenamento para armazenar logs de auditoria de compartimento de chave. | Optional |
     ||||
+
+    >[!Note]
+    > Verifique se você instalou o módulo do Azure AD PowerShell antes de executar os scripts. Consulte ![ aqui ](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0) para obter etapas de instalação
 
 6. O script fará uma pausa e solicitará que você aceite ou concorde com o aplicativo de migração de caixa de correio do Exchange que foi criado durante esse processo. Veja um exemplo.
 
     ```powershell
-    PS C:\Users\Admin\scripts\T2TMovesV2> .\SetupCrossTenantRelationshipForTargetTenant.ps1 -ResourceTenantDomain contoso.onmicrosoft.com -ResourceTenantAdminEmail admin@contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ResourceTenantId ksagjid39-ede2-4d2c-98ae-874709325b00 -SubscriptionId e4ssd05d-a327-49ss-849a-sd0932439023 -ResourceGroup "Cross-TenantMoves" -KeyVaultName "Cross-TenantMovesVault" -CertificateName "Contoso-Fabrikam-cert" -CertificateSubject "CN=Contoso_Fabrikam" -AzureAppPermissions Exchange, MSGraph -UseAppAndCertGeneratedForSendingInvitation -KeyVaultAuditStorageAccountName "t2tstorageaccount" -KeyVaultAuditStorageResourceGroup "Demo"
+    PS C:\PowerShell\> .\SetupCrossTenantRelationshipForTargetTenant.ps1 -ResourceTenantDomain contoso.onmicrosoft.com -ResourceTenantAdminEmail admin@contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ResourceTenantId ksagjid39-ede2-4d2c-98ae-874709325b00 -SubscriptionId e4ssd05d-a327-49ss-849a-sd0932439023 -ResourceGroup "Cross-TenantMoves" -KeyVaultName "Cross-TenantMovesVault" -CertificateName "Contoso-Fabrikam-cert" -CertificateSubject "CN=Contoso_Fabrikam" -AzureAppPermissions Exchange, MSGraph -UseAppAndCertGeneratedForSendingInvitation -KeyVaultAuditStorageAccountName "t2tstorageaccount" -KeyVaultAuditStorageResourceGroup "Demo"
 
     cmdlet Get-Credential at command pipeline position 1
     Supply values for the following parameters:
@@ -137,14 +140,14 @@ Prepare o locatário de origem:
     https://login.microsoftonline.com/contoso.onmicrosoft.com/adminconsent?client_id=6fea6ssd-0753-404d-wer5-c71a154d675c&redirect_uri=https://office.com
     Application details to be registered in organization relationship: ApplicationId: [ 6fes8en4-sjo3-406d-ad35-sldkfjiew993 ]. KeyVault secret Id: [ https://cross-tenantmovesvault.vault.azure.net:443/certificates/Contoso-Fabrikam-cert/ksdfj843nt8476h84c288c5a3fb8ec5fdb08 ]. These values are available in variables $AppId and $CertificateId respectively
     Please consent to the application for fabrikam.onmicrosoft.com before sending invitation to admin@contoso.onmicrosoft.com:
-    ``` 
+    ```  
 
 7. Uma URL será exibida na sessão remota do PowerShell. Copie o link fornecido para o consentimento do locatário e cole-o em um navegador da Web.
 
 8. Entre com suas credenciais de administrador global. Quando a tela a seguir for apresentada, selecione **aceitar**.
 
     :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="Caixa de diálogo aceitar permissões":::
-    
+
 9. Volte para a sessão remota do PowerShell e pressione ENTER para continuar.
 
 10. O script irá configurar os objetos de instalação restantes. Veja um exemplo.
@@ -173,7 +176,7 @@ A configuração do administrador de destino está concluída!
 
 3. No centro de administração do Microsoft 365 ou em uma sessão remota do PowerShell, crie um ou mais grupos de segurança habilitados para email para controlar a lista de caixas de correio permitidas pelo locatário de destino para pull (mover) do locatário de origem para o locatário de destino. Você não precisa preencher este grupo com antecedência, mas pelo menos um grupo deve ser fornecido para executar as etapas de configuração (script). Não há suporte para grupos aninhados. 
 
-4. Baixe o script de SetupCrossTenantRelationshipForTargetResource.ps1 para a configuração de locatário de origem do repositório do GitHub [aqui](https://github.com/microsoft/cross-tenant/releases/tag/Preview). 
+4. Baixe o script de SetupCrossTenantRelationshipForTargetResource.ps1 para a configuração de locatário de origem do repositório do GitHub aqui: [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) . 
 
 5. Crie uma conexão do PowerShell remoto para o locatário de origem com suas permissões de administrador do Exchange. As permissões de administrador global não são necessárias para configurar o locatário de origem, somente o locatário de destino por causa do processo de criação de aplicativos do Azure.
 
@@ -184,12 +187,12 @@ A configuração do administrador de destino está concluída!
     | Parâmetro | Valor |
     |-----|------|
     | -SourceMailboxMovePublishedScopes | Grupo de segurança habilitado para email criado pelo locatário de origem para as identidades/caixas de correio que estão no escopo para a migração. |
-    | -ResourceTenantDomain | Nome do domínio do locatário de origem, como a Fabrikam \. onmicrosoft.com. |
-    | -TargetTenantDomain | Nome do domínio do locatário de destino, como contoso \. onmicrosoft.com. |
+    | -ResourceTenantDomain | Nome de domínio do locatário de origem, como fabrikam.onmicrosoft.com. |
+    | -TargetTenantDomain | Nome do domínio do locatário de destino, como contoso.onmicrosoft.com. |
     | -ApplicationId | ID de aplicativo do Azure (GUID) do aplicativo usado para migração. ID de aplicativo disponível por meio de seu portal do Azure (Azure AD, aplicativos corporativos, nome do aplicativo, ID do aplicativo) ou incluído em seu email de convite.  |
-    | -TargetTenantId | ID do locatário do locatário de destino. Por exemplo, a ID de locatário do Azure AD do \. locatário onmicrosoft.com da contoso. |
+    | -TargetTenantId | ID do locatário do locatário de destino. Por exemplo, a ID de locatário do Azure AD do locatário contoso.onmicrosoft.com. |
     |||
-    
+
     Veja um exemplo.
     ```powershell
     SetupCrossTenantRelationshipForResourceTenant.ps1 -SourceMailboxMovePublishedScopes "MigScope","MyGroup" -ResourceTenantDomain contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ApplicationId sdf5e87sa-0753-dd88-ad35-c71a15cs8e44c -TargetTenantId 4sdkfo933-3904-sd93-bf9a-sdi39402834
@@ -215,7 +218,7 @@ Get-OrganizationRelationship <source tenant organization name> | fl name, Domain
 Veja um exemplo:
 
 ```powershell
-PS C:\Users\Admin\scripts\T2TMovesV2> Get-OrganizationRelationship fabrikam_contoso_1178 | fl name, DomainNames, MailboxMoveEnabled, MailboxMoveCapability
+PS C:\PowerShell\> Get-OrganizationRelationship fabrikam_contoso_1178 | fl name, DomainNames, MailboxMoveEnabled, MailboxMoveCapability
 
 Name                  : fabrikam_contoso_1123
 DomainNames           : {sd0933me9f-9304-s903-s093-s093mfi903m4}
@@ -235,7 +238,7 @@ Get-MigrationEndpoint "<fabrikam_contoso_1123> | fl Identity, RemoteTenant, Appl
 Veja um exemplo.
 
 ```powershell
-PS C:\Users\Admin\scripts\T2TMovesV2> Get-MigrationEndpoint fabrikam_contoso_1123 | fl Identity, RemoteTenant, ApplicationId, AppSecretKeyVaultUrl
+PS C:\PowerShell\> Get-MigrationEndpoint fabrikam_contoso_1123 | fl Identity, RemoteTenant, ApplicationId, AppSecretKeyVaultUrl
 
 
 Identity             : fabrikam_contoso_1123
@@ -254,10 +257,11 @@ Verifique se o objeto relationship da organização foi criado e configurado com
 ```powershell
 Get-OrganizationRelationship | fl name, MailboxMoveEnabled, MailboxMoveCapability, MailboxMovePublishedScopes, OAuthApplicationId
 ```
+
 Veja um exemplo.
 
 ```powershell
-PS C:\Users\Admin\scripts\T2TMovesV2> Get-OrganizationRelationship | fl name, MailboxMoveEnabled, MailboxMoveCapability, MailboxMovePublishedScopes, OAuthApplicationId
+PS C:\PowerShell\> Get-OrganizationRelationship | fl name, MailboxMoveEnabled, MailboxMoveCapability, MailboxMovePublishedScopes, OAuthApplicationId
 
 
 Name                       : fabrikam_contoso_001
@@ -296,16 +300,16 @@ Você deve garantir que os seguintes objetos e atributos estejam definidos na or
     | Alias                 | LaraN                                                                                                                    |
     | RecipientType         | MailUser                                                                                                                 |
     | RecipientTypeDetails  | MailUser                                                                                                                 |
-    | UserPrincipalName     | LaraN@northwintraders \. onmicrosoft.com                                                                                    |
-    | PrimarySmtpAddress    | Lara \. Newton@northwind.com                                                                                                |
-    | ExternalEmailAddress  | SMTP: LaraN@contoso \. onmicrosoft.com                                                                                       |
+    | UserPrincipalName     | LaraN@northwintraders.onmicrosoft.com                                                                                    |
+    | PrimarySmtpAddress    | Lara.Newton@northwind.com                                                                                                |
+    | ExternalEmailAddress  | SMTP:LaraN@contoso.onmicrosoft.com                                                                                       |
     | ExchangeGuid          | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                     |
     | LegacyExchangeDN      | /o = First Organization/ou = grupo administrativo do Exchange                                                                   |
     |                       | (FYDIBOHF23SPDLT)/cn = Recipients/cn = 74e5385fce4b46d19006876949855035Lara                                                  |
     | EmailAddresses        | X500:/o = First Organization/ou = grupo administrativo do Exchange (FYDIBOHF23SPDLT)/cn = Recipients/cn = d11ec1a2cacd4f81858c8190  |
     |                       | 7273f1f9-Lara                                                                                                            |
-    |                       | SMTP: LaraN@northwindtraders \. onmicrosoft.com                                                                              |
-    |                       | SMTP: Lara \. Newton@northwind.com                                                                                           |
+    |                       | smtp:LaraN@northwindtraders.onmicrosoft.com                                                                              |
+    |                       | SMTP:Lara.Newton@northwind.com                                                                                           |
     |||
 
    Exemplo de objeto de caixa de correio de **origem** :
@@ -315,13 +319,13 @@ Você deve garantir que os seguintes objetos e atributos estejam definidos na or
    | Alias                 | LaraN                                                                    |
    | RecipientType         | UserMailbox                                                              |
    | RecipientTypeDetails  | UserMailbox                                                              |
-   | UserPrincipalName     | LaraN@contoso \. onmicrosoft.com                                            |
-   | PrimarySmtpAddress    | Lara \. Newton@contoso.com                                                  |
+   | UserPrincipalName     | LaraN@contoso.onmicrosoft.com                                            |
+   | PrimarySmtpAddress    | Lara.Newton@contoso.com                                                  |
    | ExchangeGuid          | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                     |
    | LegacyExchangeDN      | /o = First Organization/ou = grupo administrativo do Exchange                   |
    |                       | (FYDIBOHF23SPDLT)/cn = Recipients/cn = d11ec1a2cacd4f81858c81907273f1f9Lara  |
-   | EmailAddresses        | SMTP: LaraN@contoso \. onmicrosoft.com 
-   |                       | SMTP: Lara \. Newton@contoso.com          |
+   | EmailAddresses        | smtp:LaraN@contoso.onmicrosoft.com 
+   |                       | SMTP:Lara.Newton@contoso.com          |
    |||
 
    - Atributos adicionais podem ser incluídos na gravação híbrida do Exchange. Caso contrário, elas deverão ser incluídas. 
@@ -338,6 +342,7 @@ Você deve garantir que os seguintes objetos e atributos estejam definidos na or
     $ELCValue = 0 
     if ($source.LitigationHoldEnabled) {$ELCValue = $ELCValue + 8} if ($source.SingleItemRecoveryEnabled) {$ELCValue = $ELCValue + 16} if ($ELCValue -gt 0) {Set-ADUser -Server $domainController -Identity $destination.SamAccountName -Replace @{msExchELCMailboxFlags=$ELCValue}} 
     ```
+
 3. Os locatários de destino não híbridos podem modificar a cota na pasta itens recuperáveis para o MailUsers antes da migração executando o seguinte comando para habilitar a retenção de litígio no objeto MailUser e aumentar a cota para 100 GB: `Set-MailUser -EnableLitigationHoldForMigration $TRUE` . Observação isso não funcionará para locatários no híbrido.
 
 4. Os usuários na organização de destino devem ser licenciados com assinaturas apropriadas do Exchange Online aplicáveis à organização. Você pode aplicar uma licença com antecedência de uma movimentação de caixa de correio, mas somente depois que o destino MailUser estiver configurado corretamente com o ExchangeGUID e endereços de proxy. A aplicação de uma licença antes da aplicação de ExchangeGUID resultará em uma nova caixa de correio configurada na organização de destino. 
@@ -345,40 +350,41 @@ Você deve garantir que os seguintes objetos e atributos estejam definidos na or
     > [!Note]
     > Quando você aplica uma licença a uma caixa de correio ou a um objeto MailUser, todos os tipos de SMTP proxyAddresses são depurados para garantir que somente os domínios verificados estão incluídos na matriz EmailAddress do Exchange. 
 
-5. Você deve garantir que o MailUser de destino não tenha ExchangeGuid anterior que não corresponda à ExchangeGuid de origem. Isso pode ocorrer se o MEU de destino tiver sido licenciado anteriormente para o Exchange Online e configurado uma caixa de correio. Se o MailUser de destino tiver sido licenciado anteriormente para ou tivesse um ExchangeGuid que não corresponde ao ExchangeGuid de origem, você precisará executar uma limpeza do MEU de nuvem. Para essas MEUs de nuvem, você pode executar o `Set-User <identity> -PermanentlyClearPreviousMailboxInfo` comando. 
+5. Você deve garantir que o MailUser de destino não tenha ExchangeGuid anterior que não corresponda à ExchangeGuid de origem. Isso pode ocorrer se o MEU de destino tiver sido licenciado anteriormente para o Exchange Online e configurado uma caixa de correio. Se o MailUser de destino tiver sido licenciado anteriormente para ou tivesse um ExchangeGuid que não corresponde ao ExchangeGuid de origem, você precisará executar uma limpeza do MEU de nuvem. Para essas MEUs de nuvem, você pode executar o `Set-User <identity> -PermanentlyClearPreviousMailboxInfo` comando.  
 
     > [!Caution]
-    > Esse processo é irreversível. Se o objeto tiver uma caixa de correio do softDeleted, ele não poderá ser restaurado após esse ponto. Depois de desmarcada, no entanto, você pode sincronizar o ExchangeGuid correto para o objeto de destino e Sra conectará a caixa de correio de origem à caixa de correio de destino recém-criada. (Faça referência ao blog EHLO no novo parâmetro.) 
- 
+    > Esse processo é irreversível. Se o objeto tiver uma caixa de correio do softDeleted, ele não poderá ser restaurado após esse ponto. Depois de desmarcada, no entanto, você pode sincronizar o ExchangeGuid correto para o objeto de destino e Sra conectará a caixa de correio de origem à caixa de correio de destino recém-criada. (Faça referência ao blog EHLO no novo parâmetro.)  
+
     Encontre objetos que foram previamente caixas de correio usando esse comando.
 
     ```powershell
     Get-User <identity> | select Name, *recipient* | ft -a**.
     ```
+
     Veja um exemplo. 
 
     ```powershell
-    PS demo> get-user John@northwindtraders.com |select name, *recipient*| ft -AutoSize 
- 
-    Name        PreviousRecipientTypeDetails     RecipientType RecipientTypeDetails 
-    ----       ---------------------------- ------------- -------------------- 
-    John       UserMailbox                  MailUser      MailUser 
-    ```   
- 
+    PS demo> get-user John@northwindtraders.com |select name, *recipient*| ft -AutoSize  
+
+    Name        PreviousRecipientTypeDetails     RecipientType RecipientTypeDetails  
+    ----       ---------------------------- ------------- --------------------  
+    John       UserMailbox                  MailUser      MailUser  
+    ```  
+
     Limpe a caixa de correio excluída por software usando este comando.
 
-    ````
+    ```powershell
     Set-User <identity> -PermanentlyClearPreviousMailboxInfo
-    ```` 
+    ```
 
     Veja um exemplo.
 
     ```powershell
     PS demo> Set-User John@northwindtraders.com -PermanentlyClearPreviousMailboxInfo Confirm 
     Are you sure you want to perform this action? 
-    Delete all existing information about user “John@northwindtraders.com"?. This operation will clear existing values from Previous home MDB and Previous Mailbox GUID of the user. After deletion, reconnecting to the previous mailbox that existed in the cloud will not be possible and any content it had will be unrecoverable PERMANENTLY. 
+    Delete all existing information about user “John@northwindtraders.com"?. This operation will clear existing values from Previous home MDB and Previous Mailbox GUID of the user. After deletion, reconnecting to the previous mailbox that existed in the cloud will not be possible and any content it had will be unrecoverable PERMANENTLY.  
     Do you want to continue? 
-    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"): Y 
+    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"): Y  
     ```
 
 ## <a name="perform-mailbox-migrations"></a>Executar migrações de caixa de correio
@@ -402,29 +408,29 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 > O endereço de email no arquivo CSV deve ser aquele especificado no locatário de destino, não no locatário de origem.
 
 O envio em lote de migração também é compatível com o novo centro de administração do Exchange ao selecionar a opção de locatário cruzado.
- 
+
 #### <a name="update-on-premises-mailusers"></a>Atualizar o MailUsers local
 
-Depois que a caixa de correio é movida da origem para o destino, você deve garantir que os usuários de email locais, tanto de origem quanto de destino, sejam atualizados com o novo targetAddress. Nos exemplos, o targetDeliveryDomain usado na movimentação é **contoso \. onmicrosoft.com**. Atualize os usuários de email com este targetAddress.
- 
-## <a name="frequently-asked-questions"></a>Perguntas frequentes
- 
-**Precisamos atualizar o RemoteMailboxes na origem no local após a movimentação?**
- 
-Sim, você deve atualizar o targetAddress (RemoteRoutingAddress/ExternalEmailAddress) dos usuários do local de origem quando a caixa de correio do locatário de origem for movida para o locatário de destino.  Embora o roteamento de email possa seguir as indicações entre vários usuários de email com targetAddresses diferentes, pesquisas de disponibilidade para usuários de email devem direcionar o local do usuário de caixa de correio. Pesquisas de disponibilidade não causarão vários redirecionamentos. 
- 
-**O conteúdo da pasta de chat do teams migram vários locatários?** 
+Depois que a caixa de correio é movida da origem para o destino, você deve garantir que os usuários de email locais, tanto de origem quanto de destino, sejam atualizados com o novo targetAddress. Nos exemplos, o targetDeliveryDomain usado na movimentação é **contoso.onmicrosoft.com**. Atualize os usuários de email com este targetAddress.
 
-Não, o conteúdo da pasta de chat do Teams não migra o locatário cruzado. 
- 
-**Como posso ver apenas as movimentações que são movimentações entre locatários, e não minha integração e remoções de remoção?**
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
+**Precisamos atualizar o RemoteMailboxes na origem no local após a movimentação?**
+
+Sim, você deve atualizar o targetAddress (RemoteRoutingAddress/ExternalEmailAddress) dos usuários do local de origem quando a caixa de correio do locatário de origem for movida para o locatário de destino.  Embora o roteamento de email possa seguir as indicações entre vários usuários de email com targetAddresses diferentes, pesquisas de disponibilidade para usuários de email devem direcionar o local do usuário de caixa de correio. Pesquisas de disponibilidade não causarão vários redirecionamentos. 
+
+**O conteúdo da pasta de chat do teams migram vários locatários?**  
+
+Não, o conteúdo da pasta de chat do Teams não migra o locatário cruzado.  
+
+**Como posso ver apenas as movimentações que são movimentações entre locatários, e não minha integração e desativação**
 
 Use o `-flags` parâmetro. Veja um exemplo.
 
 ```powershell
-Get-MoveRequest -Flags "CrossTenant" 
+Get-MoveRequest -Flags "CrossTenant"  
 ```
- 
+
 **Você pode fornecer scripts de exemplo para copiar atributos usados no teste?**
 
 > [!Note]
@@ -509,7 +515,7 @@ As permissões de caixa de correio incluem enviar em nome de e acesso à caixa d
 Veja um exemplo da saída da permissão de caixa de correio antes de mover. 
 
 ```powershell
-PS C:\DEMO Get-SourceMailboxPermission testuser_7 |ft -AutoSize User, AccessRights, IsInherited, Deny
+PS C:\PowerShell\> Get-SourceMailboxPermission testuser_7 |ft -AutoSize User, AccessRights, IsInherited, Deny
 User                                             AccessRights                                                            IsInherited Deny
 ----                                             ------------                                                            ----------- ----
 NT AUTHORITY\SELF                                {FullAccess, ReadPermission}                                            False       False
@@ -518,7 +524,7 @@ TestUser_8@SourceCompany.onmicrosoft.com         {FullAccess}                   
 Veja um exemplo da saída da permissão de caixa de correio após a movimentação. 
 
 ```powershell
-C:\DEMO> Get-TargetMailboxPermission testuser_7 | ft -AutoSize User, AccessRights, IsInherited, Deny
+PS C:\PowerShell\> Get-TargetMailboxPermission testuser_7 | ft -AutoSize User, AccessRights, IsInherited, Deny
 User                                             AccessRights                                                            IsInherited Deny
 ----                                             ------------                                                            ----------- ----
 NT AUTHORITY\SELF                                {FullAccess, ReadPermission}                                            False       FalseTestUser_8@TargetCompany.onmicrosoft.com         {FullAccess}                                                            False       False
@@ -526,14 +532,48 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
  
 > [!Note]
 > Não há suporte para permissões de caixa de correio e calendário entre locatários. Você deve organizar entidades e representantes em lotes de movimentação consolidada para que essas caixas de correio conectadas sejam transformadas ao mesmo tempo do locatário de origem. 
- 
-## <a name="known-issues"></a>Problemas conhecidos 
+
+**Qual proxy X500 deve ser adicionado aos endereços de proxy do MailUser de destino para habilitar a migração?**  
+
+A migração de caixa de correio de locatários exige que o valor LegacyExchangeDN do objeto de caixa de correio de origem seja carimbado como um endereço de email X500 no objeto MailUser de destino.  
+
+Exemplo:  
+```powershell
+LegacyExchangeDN value on source mailbox is:  
+/o=First Organization/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara  
+
+so the x500 email address to be added to target MailUser object would be:  
+x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9-Lara  
+```
+
+> [!Note]  
+> Além desse proxy X500, você precisará copiar todos os proxies X500 da caixa de correio na origem para a caixa de correio no destino.  
+
+**O Azure Key Vault é necessário e quando as transações são feitas?**  
+
+Sim, uma assinatura do Azure é necessária para usar o Key Vault para armazenar o certificado para autorizar a migração. Diferentemente das migrações que usam o nome de usuário & senha para autenticar a fonte, as migrações de caixa de correio de locatário cruzado usam o OAuth e este certificado como o segredo/credencial. O acesso ao cofre de chave deve ser mantido em todas as migrações de caixa de correio à medida que é acessado uma vez no início e após o final da migração, bem como uma vez a cada 24 horas durante os horários de sincronização incremental. Você pode revisar os detalhes de custos de AKV [aqui]( https://azure.microsoft.com/en-us/pricing/details/key-vault/).  
+
+**Você tem alguma recomendação para lotes?**  
+
+Não exceda 2000 caixas de correio por lote. É altamente recomendável enviar lotes duas semanas antes da data de recortar, pois não há impacto nos usuários finais durante a sincronização. Se você precisar de diretrizes para as quantidades de caixas de correio em 50.000, poderá chegar à lista de distribuição de comentários da engenharia em crosstenantmigrationpreview@service.microsoft.com.
+
+**O que acontece se eu usar a criptografia de serviço com a chave do cliente?**
+
+A caixa de correio será descriptografada antes da movimentação. Verifique se a chave do cliente está configurada no locatário de destino, caso ainda seja necessária. Confira [aqui](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview) para obter mais informações.  
+
+**Qual é o tempo estimado de migração?**
+
+Para ajudá-lo a planejar sua migração, a tabela presente [aqui](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) mostra as diretrizes sobre quando esperar migrações de caixa de correio em massa ou migrações individuais para concluir. Essas estimativas se baseiam em uma análise de dados de migrações de clientes anteriores. Como cada ambiente é exclusivo, sua velocidade de migração exata pode variar.  
+
+Lembre-se de que esse recurso está atualmente em versão prévia e o SLA e os níveis de serviço aplicáveis não se aplicam a problemas de desempenho ou disponibilidade durante o status de visualização desse recurso.
+
+## <a name="known-issues"></a>Problemas conhecidos  
 
 -  **Problema: os arquivos mortos expandidos automáticos não podem ser migrados.** O recurso de migração entre locatários suporta migrações da caixa de correio principal e caixa de correio de arquivo morto para um usuário específico. No entanto, se o usuário na fonte tiver um arquivo morto de expansão automática – o que significa mais de uma caixa de correio de arquivo morto, o recurso não poderá migrar os arquivos adicionais.
 
 - **Problema: o Cloud MailUsers com bloqueio de proxyAddress SMTP não proprietário Sra move o plano de fundo.** Ao criar objetos MailUser de locatário de destino, você deve garantir que todos os endereços de proxy SMTP pertençam à organização de locatário de destino. Se uma proxyAddress SMTP existir no usuário de email de destino que não pertença ao locatário local, a conversão do MailUser para a caixa de correio será impedida. Isso se deve à nossa garantia de que os objetos de caixa de correio só podem enviar emails de domínios para os quais o locatário é autoritativo (domínios reivindicados pelo locatário): 
-- 
-   - Ao sincronizar os usuários no local usando o Azure AD Connect, configure os objetos do MailUser no local com o ExternalEmailAddress apontando para o locatário de origem onde a caixa de correio existe (laran@contoso \. onmicrosoft.com) e você carimba o PrimarySmtpAddress como um domínio que reside no locatário de destino (Lara.Newton@northwind \. com). Esses valores são sincronizados com o locatário, e um usuário de email apropriado é provisionado e está pronto para a migração. Um objeto de exemplo é mostrado aqui.
+
+   - Ao sincronizar os usuários no local usando o Azure AD Connect, você provisiona objetos do MailUser no local com o ExternalEmailAddress apontando para o locatário de origem onde a caixa de correio existe (laran@contoso.onmicrosoft.com) e carimba o PrimarySMTPAddress como um domínio que reside no locatário de destino (Lara.Newton@northwind.com). Esses valores são sincronizados com o locatário, e um usuário de email apropriado é provisionado e está pronto para a migração. Um objeto de exemplo é mostrado aqui.
      ```powershell
      target/AADSynced user] PS C> Get-MailUser laran | select ExternalEmailAddress, EmailAddresses   
      ExternalEmailAddress               EmailAddresses 
@@ -542,13 +582,13 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
      ```
 
    > [!Note]
-   > O endereço *contoso. onmicrosoft \. com* *não* está presente na matriz emailaddresss/proxyAddresses.
+   > O endereço *contoso.onmicrosoft.com* *não* está presente na matriz EmailAddresses/proxyAddresses.
 
 - **Problema: os objetos MailUser com endereços SMTP "externos" primários são modificados/redefinidos para os domínios "internos" da empresa afirmados**
 
-   Os objetos MailUser são ponteiros para caixas de correio não locais. No caso de migrações de caixa de correio de locatário cruzado, usamos objetos MailUser para representar a caixa de correio de origem (da perspectiva da organização de destino) ou a caixa de correio de destino (da perspectiva da organização de origem). O MailUsers terá um ExternalEmailAddress (targetAddress) que aponta para o endereço SMTP da caixa de correio real (ProxyTest \@ fabrikam \. onmicrosoft.com) e endereço primarySMTP que representa o endereço SMTP exibido do usuário da caixa de correio no diretório. Algumas organizações optam por exibir o endereço SMTP principal como um endereço SMTP externo, não como um endereço de propriedade/verificado pelo locatário local (como fabrikam.com em vez de contoso.com).  No entanto, depois que um objeto de plano do serviço do Exchange é aplicado ao MailUser via operações de licenciamento, o endereço SMTP principal é modificado para ser exibido como um domínio verificado pela organização local (contoso.com). Há dois motivos possíveis:
+   Os objetos MailUser são ponteiros para caixas de correio não locais. No caso de migrações de caixa de correio de locatário cruzado, usamos objetos MailUser para representar a caixa de correio de origem (da perspectiva da organização de destino) ou a caixa de correio de destino (da perspectiva da organização de origem). O MailUsers terá um ExternalEmailAddress (targetAddress) que aponta para o endereço SMTP da caixa de correio real (ProxyTest@fabrikam.onmicrosoft.com) e endereço primarySMTP que representa o endereço SMTP exibido do usuário da caixa de correio no diretório. Algumas organizações optam por exibir o endereço SMTP principal como um endereço SMTP externo, não como um endereço de propriedade/verificado pelo locatário local (como fabrikam.com em vez de contoso.com).  No entanto, depois que um objeto de plano do serviço do Exchange é aplicado ao MailUser via operações de licenciamento, o endereço SMTP principal é modificado para ser exibido como um domínio verificado pela organização local (contoso.com). Há dois motivos possíveis:
    
-   - Quando qualquer plano de serviço do Exchange é aplicado a um MailUser, o processo do Azure AD começa a impor o scrubbing de proxy para garantir que a organização local não possa enviar emails, falsificar ou email de outro locatário. Qualquer endereço SMTP em um objeto Recipient com estes planos de serviço será removido se o endereço não for verificado pela organização local. Como é o caso no exemplo, o \. domínio com do FABIKAM não é verificado pelo locatário do \. onmicrosoft.com da Contoso, portanto, a depuração remove esse \. domínio com da Fabrikam. Se quiser persistir esse domínio externo no MailUser, antes da migração ou após a migração, você precisará alterar seus processos de migração para retirar as licenças após a conclusão da movimentação ou antes da movimentação para garantir que os usuários tenham a marca externa esperada aplicada. Você precisará garantir que o objeto de caixa de correio seja devidamente licenciado para não afetar o serviço de email.<br/><br/>Um script de exemplo para remover os planos de serviço em um MailUser no \. locatário da Contoso onmicrosoft.com é mostrado aqui.
+   - Quando qualquer plano de serviço do Exchange é aplicado a um MailUser, o processo do Azure AD começa a impor o scrubbing de proxy para garantir que a organização local não possa enviar emails, falsificar ou email de outro locatário. Qualquer endereço SMTP em um objeto Recipient com estes planos de serviço será removido se o endereço não for verificado pela organização local. Como é o caso no exemplo, o domínio Fabikam.com não é verificado pelo locatário contoso.onmicrosoft.com, portanto, a depuração remove esse domínio fabrikam.com. Se quiser persistir esse domínio externo no MailUser, antes da migração ou após a migração, você precisará alterar seus processos de migração para retirar as licenças após a conclusão da movimentação ou antes da movimentação para garantir que os usuários tenham a marca externa esperada aplicada. Você precisará garantir que o objeto de caixa de correio seja devidamente licenciado para não afetar o serviço de email.<br/><br/>Um script de exemplo para remover os planos de serviço em um MailUser no locatário do Contoso.onmicrosoft.com é mostrado aqui.
 
     ```powershell
     $LO = New-MsolLicenseOptions -AccountSkuId "contoso:ENTERPRISEPREMIUM" DisabledPlans 
