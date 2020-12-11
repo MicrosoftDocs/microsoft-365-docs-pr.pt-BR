@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 927b85a5c2ef14313acd5c1637f561342d71ccc0
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: c1232e8e839837fc5564909322c90f634f1c6fa9
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527566"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614925"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -79,7 +79,7 @@ Ativar rótulos de confidencialidade para contêineres significa que agora você
     
     Quando apenas este escopo é selecionado para o rótulo, o rótulo não será exibido em aplicativos do Office que oferecem suporte a rótulos de confidencialidade e não pode ser aplicado a arquivos e emails. Ter essa separação de rótulos pode ser útil para usuários e administradores, mas também pode aumentar a complexidade da implantação de rótulos.
     
-    Por exemplo, você precisa revisar cuidadosamente sua [ordem de etiqueta](sensitivity-labels.md#label-priority-order-matters)porque o Microsoft Office SharePoint Online detecta quando um documento etiquetado é carregado em um site rotulado. Nesse cenário, um evento de auditoria e um email são gerados automaticamente quando o documento tem um rótulo de confidencialidade de prioridade mais alta do que o rótulo do site. Para obter mais informações, consulte a seção [Atividades de rótulo de confidencialidade de auditoria](#auditing-sensitivity-label-activities) nesta página. 
+    Por exemplo, você precisa revisar cuidadosamente seu [pedido de rótulo](sensitivity-labels.md#label-priority-order-matters)porque o SharePoint detecta quando um documento rotulado é carregado em um site rotulado. Nesse cenário, um evento de auditoria e um email são gerados automaticamente quando o documento tem um rótulo de confidencialidade de prioridade mais alta do que o rótulo do site. Para obter mais informações, confira a seção [Atividades de rótulo de confidencialidade de auditoria](#auditing-sensitivity-label-activities) nesta página. 
 
 2. Em seguida, na página **Definir configurações de proteção para grupos e sites**, selecione uma ou ambas as opções disponíveis:
     

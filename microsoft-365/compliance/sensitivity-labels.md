@@ -18,16 +18,16 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Use rótulos de sensibilidade da estrutura Microsoft Information Protection para classificar e proteger conteúdo sensível com criptografia e marcas d'água.
+description: Use rótulos de confidencialidade da MIP (Proteção de Informações da Microsoft) para classificar e proteger conteúdo confidencial.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 86ca60c2b128f8cf7468a2e435179c45294f4743
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+ms.openlocfilehash: c012b422e5c1452bf6ccd58e0743509a2cf07f32
+ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580724"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49624783"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -50,33 +50,37 @@ Para aplicar rótulos de confidencialidade, os usuários devem ter entrado com s
 
 Você pode usar rótulos de confidencialidade para:
   
-- **Impor configurações de proteção, como criptografia ou marcas d'água no conteúdo rotulado.** Por exemplo, os usuários podem aplicar um rótulo confidencial a um documento ou email, e esse rótulo pode criptografar o conteúdo e aplicar uma marca d'água confidencial.
+- **Forneça configurações de proteção que incluam criptografia e marcações de conteúdo.** Por exemplo, aplique um rótulo "Confidencial" a um documento ou email, e esse rótulo criptografa o conteúdo e aplica uma marca d' água "Confidencial". As marcações de conteúdo incluem cabeçalhos e rodapés, bem como marcas d' água, e a criptografia também pode restringir quais ações as pessoas autorizadas podem realizar no conteúdo.
 
-- **Proteja o conteúdo nos aplicativos do Office em diferentes plataformas e dispositivos.** Para obter uma lista de aplicativos com suporte, confira [Uso de rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
+- **Proteja o conteúdo nos aplicativos do Office em diferentes plataformas e dispositivos.** Suportado pelo Word, Excel, PowerPoint e Outlook nos aplicativos da área de trabalho do Office e no Office na Web. Suportado no Windows, macOS, iOS e Android.
 
 - **Proteger o conteúdo em aplicativos e serviços de terceiros** usando o Microsoft Cloud App Security. Com o Cloud App Security, você pode detectar, classificar, rotular e proteger o conteúdo em serviços e aplicativos de terceiros, como SalesForce, Box ou Dropbox, mesmo que o aplicativo ou serviço de terceiros não leia nem ofereça suporte a rótulos de confidencialidade.
 
 - **Proteja contêineres** que incluem o Teams, grupos do Microsoft 365 e sites do Microsoft Office SharePoint Online. Por exemplo, defina as configurações de privacidade, acesso de usuário externo e compartilhamento externo e acesso de dispositivos não gerenciados.
 
+- **Estenda os rótulos de confidencialidade ao Power BI**: quando você ativa essa funcionalidade, é possível aplicar e exibir rótulos no Power BI e proteger os dados quando eles forem salvos fora do serviço.
+
 - **Estenda os rótulos de confidencialidade aos ativos no Azure Purview**: ao ativar esse recurso, atualmente em pré-visualização, você pode aplicar os rótulos de confidencialidade aos ativos, como colunas SQL, arquivos Armazenamento de Blobs do Azure e muito mais. 
 
 - **Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros.** Usando o SDK de Proteção de informações da Microsoft, os aplicativos e os serviços de terceiros podem ler os rótulos de confidencialidade e aplicar as configurações de proteção.
 
-- **Classificar conteúdo sem usar nenhuma configuração de proteção.** Você também pode simplesmente atribuir uma classificação ao conteúdo (como uma etiqueta) que se mantém e se desloca com o conteúdo conforme ele é usado e compartilhado. Você pode usar essa classificação para gerar relatórios de uso e ver dados de atividade para seu conteúdo confidencial. Com base nessas informações, você pode optar por aplicar as configurações de proteção mais tarde.
+- **Classificar conteúdo sem usar nenhuma configuração de proteção.** Você também pode simplesmente atribuir um rótulo como resultado da classificação do conteúdo. Isso oferece aos usuários um mapeamento visual da classificação para os nomes de rótulos da sua organização e pode usar os rótulos para gerar relatórios de uso e ver os dados de atividades do seu conteúdo confidencial. Com base nessas informações, você pode optar por aplicar as configurações de proteção mais tarde.
 
 Em todos esses casos, os rótulos de confidencialidade no Microsoft 365 podem ajudá-o a executar as ações diretamente no conteúdo certo. Com os rótulos de confidencialidade, você pode classificar dados em toda a organização e impor configurações de proteção com base nessa classificação.
 
+Para saber mais sobre esses e outros cenários compatíveis com rótulos de confidencialidade, confira [Cenários comuns de rótulos de confidencialidade](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels). Novos recursos estão sendo desenvolvidos o tempo todo que oferecem suporte a rótulos de confidencialidade, então você também pode achar útil conferir o [Roteiro da Microsoft 365](https://aka.ms/MIPC/Roadmap).
+
 ## <a name="what-a-sensitivity-label-is"></a>O que é um rótulo de confidencialidade
 
-Quando você atribui um rótulo de sensibilidade a um documento ou e-mail, isso é como um carimbo aplicado ao conteúdo, qual seja:
+Quando você atribui um rótulo de confidencialidade a um conteúdo, isso é como um carimbo aplicado e é:
 
-- **Personalizável.** Você pode criar categorias para diferentes níveis de conteúdo confidencial em sua organização, como Pessoal, Público, Geral, Confidencial e Altamente Confidencial.
+- **Personalizável.** Específico para sua organização e necessidades comerciais, você pode criar categorias para diferentes níveis de conteúdo confidencial na sua organização. Por exemplo, Pessoal, Público, Geral, Confidencial e Altamente Confidencial.
 
-- **Texto não criptografado.** Como o rótulo é armazenado em texto não criptografado nos metadados do conteúdo, aplicativos e serviços de terceiros podem lê-lo e aplicar suas próprias ações de proteção, se necessário.
+- **Texto não criptografado.** Como um rótulo é armazenado em texto não criptografado nos metadado para arquivos e emails, aplicativos e serviços de terceiros podem lê-lo e aplicar suas próprias ações de proteção, se necessário.
 
-- **Persistente.** Depois de aplicar um rótulo de confidencialidade ao conteúdo, o rótulo é armazenado nos metadados desse email ou documento. Isso significa que o rótulo acompanha o conteúdo, incluindo as configurações de proteção, e esses dados tornam-se a base para a aplicação e imposição de políticas.
+- **Persistente.** Como o rótulo é armazenado nos metadados para arquivos e emails, o rótulo fica se move com o conteúdo, não importa onde ele esteja salvo ou armazenado. A identificação de rótulos exclusivos torna-se a base para a aplicação e a imposição das políticas que você configura.
 
-Em aplicativos do Office, um rótulo de confidencialidade simplesmente aparece como uma marca em um email ou documento.
+Quando visualizado pelos usuários, um rótulo de confidencialidade é exibido como uma etiqueta nos aplicativos que eles usam e podem ser facilmente integrados aos fluxos de trabalho existentes.
 
 Cada item que oferece suporte a rótulos de confidencialidade pode ter um único rótulo de confidencialidade aplicado a ele. Documentos e emails podem ter um rótulo de confidencialidade e uma [marca de retenção](retention.md#retention-labels) aplicado a eles.
 
@@ -85,9 +89,9 @@ Cada item que oferece suporte a rótulos de confidencialidade pode ter um único
 
 ## <a name="what-sensitivity-labels-can-do"></a>O que rótulos de confidencialidade podem fazer
 
-Depois que um rótulo de confidencialidade é aplicado a um email ou documento, todas as definições de proteção definidas para esse rótulo são aplicadas no conteúdo. Com um rótulo de confidencialidade, você pode:
+Depois que um rótulo de confidencialidade é aplicado a um email ou documento, todas as definições de proteção definidas para esse rótulo são aplicadas no conteúdo. Você pode configurar um rótulo de confidencialidade para:
 
-- **Criptografar** apenas emails ou emails e documentos. Você pode escolher quais ações determinados usuários ou grupos possuem permissões para executar e a duração das permissões. Por exemplo, você pode optar por permitir que os usuários de um grupo específico de outra organização tenham permissões para revisar o conteúdo por apenas sete dias depois que o mesmo for rotulado. Como alternativa, em vez de atribuir permissões definidas pelo administrador, você pode permitir que os usuários atribuam permissões ao conteúdo quando eles aplicam o rótulo. 
+- **Criptografe** emails e documentos para impedir que pessoas não autorizadas acessem esses dados. Além disso, você pode escolher quais ações determinados usuários ou grupos têm permissões para executar e por quanto tempo. Por exemplo, você pode optar por permitir que todos os usuários na sua organização modifiquem um documento, enquanto um grupo específico de outra organização só poderá visualizá-lo. Como alternativa, em vez de atribuir permissões definidas pelo administrador, você pode permitir que os usuários atribuam permissões ao conteúdo quando eles aplicam o rótulo. 
     
     Para obter mais informações sobre as configurações de **Criptografia** quando você cria ou edita um rótulo de confidencialidade, consulte [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](encryption-sensitivity-labels.md).
 
@@ -167,7 +171,7 @@ Depois de criar os rótulos de confidencialidade, você precisa publicá-los par
 
 Diferentemente de rótulos de retenção, que são publicados em locais como todas as caixas de correio do Exchange, os rótulos de confidencialidade são publicados para usuários ou grupos. Os aplicativos que oferecem suporte a rótulos de confidencialidade podem então exibi-los para esses usuários e grupos como rótulos aplicados ou como rótulos que eles podem aplicar.
 
-Com uma política de rótulos, você pode:
+Ao configurar uma política de rótulo, você pode:
 
 - **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados para qualquer usuário específico ou grupo de segurança habilitado para email, grupo de distribuição ou grupo do Microsoft 365 (que podem ter [associação dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)) no Azure AD.
 
@@ -269,5 +273,5 @@ Você também pode saber mais sobre [soluções de parceiro que estão integrada
 
 ## <a name="deployment-guidance"></a>Guia de implantação
 
-Para planejamento de implantação e orientação que inclui informações de licenciamento, permissões, estratégia de implantação e uma lista de recursos para cenários suportados e documentação do usuário final, consulte [Primeiros passos com rótulos de confidencialidade](get-started-with-sensitivity-labels.md).
+Para planejamento de implantação e orientação que inclui informações de licenciamento, permissões, estratégia de implantação, uma lista de cenários suportados e documentação do usuário final, confira [Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md).
 
