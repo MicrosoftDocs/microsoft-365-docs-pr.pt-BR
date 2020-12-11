@@ -15,20 +15,20 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Saiba como os administradores podem configurar e usar um conector nativo para importar dados do Twitter para o Microsoft 365.
-ms.openlocfilehash: 15434899eb90f26205907c474b8d2238db536948
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: b4eadc58393df651505287f9238f43a1db0563a8
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255838"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620257"
 ---
 # <a name="set-up-a-connector-to-archive-twitter-data-preview"></a>Configurar um conector para arquivar dados do Twitter (versão prévia)
 
 Use um conector no centro de conformidade da Microsoft 365 para importar e arquivar dados do Twitter para o Microsoft 365. Depois de configurar e configurar o conector, ele se conecta à conta do Twitter da sua organização (em uma base agendada), converte o conteúdo de um item em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Microsoft 365.
 
-Depois que os dados do Twitter são importados, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria e políticas de retenção da Microsoft 365 para os dados do Twitter. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio ou atribuída a uma política de retenção, os dados do Twitter são preservados. Você pode pesquisar dados de terceiros usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados do Twitter estão armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Twitter no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Após a importação dos dados do Twitter, é possível aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento de In-Place, auditoria e políticas de retenção da Microsoft 365 para os dados do Twitter. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio ou atribuída a uma política de retenção, os dados do Twitter são preservados. Você pode pesquisar dados de terceiros usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados do Twitter estão armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Twitter no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
-Após a importação dos dados do Twitter, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, conformidade de comunicação e políticas de retenção da Microsoft 365 para os dados armazenados na caixa de correio. Por exemplo, você pode pesquisar dados do Twitter usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Twitter no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Após a importação dos dados do Twitter, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento de In-Place, auditoria, conformidade de comunicação e políticas de retenção da Microsoft 365 para os dados armazenados na caixa de correio. Por exemplo, você pode pesquisar dados do Twitter usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Twitter no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 ## <a name="prerequisites-for-setting-up-a-connector-for-twitter"></a>Pré-requisitos para configurar um conector para o Twitter
 
@@ -44,8 +44,6 @@ Conclua os pré-requisitos a seguir antes de configurar e configurar um conector
 
     > [!NOTE]
     > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Microsoft 365 não é compatível com os conectores no centro de conformidade do & de segurança.
-
-- Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global e aceite a solicitação.
 
 - O usuário que configura o conector do Twitter no centro de conformidade da Microsoft 365 (na etapa 5) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções  [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
@@ -65,7 +63,7 @@ Durante a conclusão desta etapa (seguindo as instruções passo a passo), você
 
 ## <a name="step-2-deploy-connector-web-service-from-github-repository-to-your-azure-account"></a>Etapa 2: implantar o serviço Web do conector do repositório do GitHub em sua conta do Azure
 
-A próxima etapa é implantar o código-fonte do aplicativo do conector do Twitter que usará a API do Twitter para se conectar à sua conta do Twitter e extrair os dados para que você possa importá-lo para o Microsoft 365. O conector do Twitter implantado para sua organização carregará os itens da conta do Twitter da sua organização para o local de armazenamento do Azure criado nesta etapa. Após criar um conector do Twitter no centro de conformidade da Microsoft 365 (na etapa 5), o serviço de importação do Office 365 copiará os dados do Twitter do local de armazenamento do Azure para uma caixa de correio no Microsoft 365. Conforme explicado anteriormente na seção [pré-requisitos](#prerequisites-for-setting-up-a-connector-for-twitter) , você deve ter uma assinatura válida do Azure para criar uma conta de armazenamento do Azure.
+A próxima etapa é implantar o código-fonte do aplicativo do conector do Twitter que usará a API do Twitter para se conectar à sua conta do Twitter e extrair os dados para que você possa importá-lo para o Microsoft 365. O conector do Twitter implantado para sua organização carregará os itens da conta do Twitter da sua organização para o local de armazenamento do Azure criado nesta etapa. Após criar um conector do Twitter no centro de conformidade da Microsoft 365 (na etapa 5), o serviço de importação do Microsoft 365 copiará os dados do Twitter do local de armazenamento do Azure para uma caixa de correio no Microsoft 365. Conforme explicado anteriormente na seção [pré-requisitos](#prerequisites-for-setting-up-a-connector-for-twitter) , você deve ter uma assinatura válida do Azure para criar uma conta de armazenamento do Azure.
 
 Para implantar o código-fonte do aplicativo do conector do Twitter:
 
@@ -121,7 +119,7 @@ Durante a conclusão desta etapa (seguindo as instruções passo a passo), você
 
 ## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a>Etapa 5: configurar um conector do Twitter no centro de conformidade da Microsoft 365
 
-A etapa final é configurar o conector do Twitter no centro de conformidade da Microsoft 365 que irá importar dados da conta do Twitter da sua organização para uma caixa de correio especificada no Microsoft 365. Após concluir esta etapa, o serviço de importação do Office 365 começará a importar dados da conta do Twitter da sua organização para a Microsoft 365.
+A etapa final é configurar o conector do Twitter no centro de conformidade da Microsoft 365 que irá importar dados da conta do Twitter da sua organização para uma caixa de correio especificada no Microsoft 365. Após concluir esta etapa, o serviço de importação do Microsoft 365 começará a importar dados da conta do Twitter da sua organização para a Microsoft 365.
 
 Para obter instruções detalhadas, consulte [configurar um conector do Twitter no centro de conformidade do Microsoft 365](deploy-twitter-connector.md#step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center). 
 

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados EML do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: edf9673d19340179f992f830da4256556e8d04e5
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 7c8649565df4e08fbdbdaf9c1cba0d890eb54b52
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816806"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620438"
 ---
 # <a name="set-up-a-connector-to-archive-eml-data"></a>Configurar um conector para arquivar dados EML
 
@@ -49,13 +49,13 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 A primeira etapa é acessar a página **conectores de dados** no centro de conformidade da Microsoft 365 e criar um conector para dados EML.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados**  >  **EML** .
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados**  >  **EML**.
 
-2. Na página de descrição do produto **EML** , clique em **Adicionar conector** .
+2. Na página de descrição do produto **EML** , clique em **Adicionar conector**.
 
-3. Na página **termos de serviço** , clique em **aceitar** .
+3. Na página **termos de serviço** , clique em **aceitar**.
 
-4. Insira um nome exclusivo que identifique o conector e clique em **Avançar** .
+4. Insira um nome exclusivo que identifique o conector e clique em **Avançar**.
 
 5. Entre em sua conta do Merge1 para configurar o conector.
 
@@ -63,19 +63,15 @@ A primeira etapa é acessar a página **conectores de dados** no centro de confo
 
 A segunda etapa é configurar o conector EML no site do Globanet Merge1. Para obter informações sobre como configurar o conector de EML, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20EML%20User%20Guide%20.pdf).
 
-Depois de clicar em **salvar & concluir** , a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
+Depois de clicar em **salvar & concluir**, a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
 Para mapear usuários e concluir a configuração do conector no centro de conformidade do Microsoft 365, siga estas etapas:
 
-1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens de origem EML incluem uma propriedade chamada *email* , que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens EML serão importados para a caixa de correio desse usuário.
+1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens de origem EML incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens EML serão importados para a caixa de correio desse usuário.
 
-2. Na página **consentimento do administrador** , clique em **fornecer consentimento** . Você será redirecionado para o site da Microsoft. Clique em **aceitar** para fornecer o consentimento.
-
-   Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para fornecer o consentimento do administrador, você deve estar conectado com as credenciais de um administrador global do Microsoft 365 e aceitar a solicitação de consentimento. Se você não estiver conectado como um administrador global, poderá ir para [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entrar usando as credenciais de administrador global para aceitar a solicitação.
-
-3. Clique em **Avançar** , revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+2. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
 ## <a name="step-4-monitor-the-eml-connector"></a>Etapa 4: monitorar o conector EML
 
@@ -85,7 +81,7 @@ Depois de criar o conector EML, você pode visualizar o status do conector no ce
 
 2. Clique na guia **conectores** e selecione o conector **EML** para exibir a página de submenu. Esta página contém as propriedades e as informações sobre o conector.
 
-3. Em **status do conector com origem** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre os dados que foram importados para a nuvem da Microsoft.
+3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre os dados que foram importados para a nuvem da Microsoft.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de Telemensagem para importar e arquivar dados do SMS da rede do TELUS no Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 49178d50550df64df77f92dfa5725ec02432aab7
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8df1d7d9787e118144cb9e0a55c66bdd1e766194
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196718"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620267"
 ---
 # <a name="set-up-a-connector-to-archive-telus-network-data"></a>Configurar um conector para arquivar dados de rede do TELUS
 
@@ -53,8 +53,6 @@ Algumas das etapas de implementação necessárias para arquivar dados de rede d
 
 - Seus funcionários devem ter telefones móveis de propriedade corporativa e responsáveis corporativos na rede móvel do theTELUS. O arquivamento de mensagens no Microsoft 365 não está disponível para funcionários de propriedade ou para trazer seus próprios dispositivos (BYOD).
 
-- Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Você precisará fornecer esse consentimento ao criar o conector. Para concordar com essa solicitação, [acesse a página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais do Microsoft 365 global admin e aceite a solicitação. Você precisa concluir esta etapa para poder criar com êxito o conector de rede do TELUS.
-
 - O usuário que cria um conector de rede TELUS deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Isso é necessário para adicionar conectores na página **conectores de dados** no centro de conformidade do Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
 ## <a name="create-a-telus-network-connector"></a>Criar um conector de rede do TELUS
@@ -77,13 +75,9 @@ Depois de concluir os pré-requisitos descritos na seção anterior, você pode 
 
 6. Na página **mapeamento de usuário** , habilite mapeamento automático de usuário e clique em **Avançar**. Caso você precise de mapeamento personalizado, carregue um arquivo CSV e clique em **Avançar**.
 
-7. Forneça o consentimento do administrador e clique em **Avançar**.
+7. Revise suas configurações e clique em **concluir** para criar o conector.
 
-   Para fornecer o consentimento do administrador, você deve estar conectado com as credenciais de um administrador global do Office 365 e aceitar a solicitação de consentimento. Se você não estiver conectado como um administrador global, poderá ir para [esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) e entrar usando as credenciais de administrador global para aceitar a solicitação.
-
-8. Revise suas configurações e clique em **concluir** para criar o conector.
-
-9. Vá até a guia conectores na página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+8. Vá até a guia conectores na página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

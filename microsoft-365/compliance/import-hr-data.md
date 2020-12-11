@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: beebb4a6fba9baf2770bee7e3bd7a7b5a0fed0b1
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 756851b848822fa801493b2832368ccb2a1a0b51
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816664"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620237"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
@@ -32,8 +32,6 @@ Configurar um conector para dados de RH que as políticas de gerenciamento de ri
 - Determine quais cenários e dados de RH serão importados para o Microsoft 365. Isso ajudará a determinar quantos arquivos CSV e conectores de RH você precisará criar, e como gerar e estruturar os arquivos CSV. Os dados de RH que você importou são determinados pelas políticas de gerenciamento de risco do insider que você deseja implementar. Para obter mais informações, consulte a etapa 1.
 
 - Determine como recuperar ou exportar os dados do sistema de RH da sua organização (e regularmente) e adicioná-los aos arquivos CSV que você criou na etapa 1. O script executado na etapa 4 carregará os dados de RH nos arquivos CSV para a nuvem da Microsoft.
-
-- Sua organização deve ter o consentimento para permitir que o serviço de importação do Office 365 acesse os dados da sua organização. Para concordar com essa solicitação, [acesse a página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Microsoft 365 e aceite a solicitação. Você precisa concluir esta etapa para poder criar com êxito o conector de RH na etapa 3.
 
 - O usuário que cria o conector de RH na etapa 3 deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um novo grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
@@ -203,11 +201,11 @@ Com base nos sistemas de RH da sua organização e como você irá exportar dado
 
 A próxima etapa é criar e registrar um novo aplicativo no Azure Active Directory (Azure AD). O aplicativo corresponderá ao conector de RH que você criou na etapa 3. A criação deste aplicativo permitirá que o Azure AD autentique o conector de RH quando executado e tente acessar sua organização. Este aplicativo também será usado para autenticar o script executado na etapa 4 para carregar seus dados de RH na nuvem da Microsoft. Durante a criação deste aplicativo do Azure AD, certifique-se de salvar as informações a seguir. Esses valores serão usados na etapa 3 e na etapa 4.
 
-- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente* )
+- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente*)
 
-- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente* )
+- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente*)
 
-- ID do locatário (também chamado de *ID de diretório* )
+- ID do locatário (também chamado de *ID de diretório*)
 
 Para obter instruções detalhadas sobre a criação de um aplicativo no Azure AD, consulte [registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
@@ -219,29 +217,29 @@ Depois de concluir esta etapa, certifique-se de copiar o ID do trabalho que é g
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Na página **conectores de dados** em **RH** , clique em **Exibir** .
+2. Na página **conectores de dados** em **RH**, clique em **Exibir**.
 
-3. Na página **personalizada de RH** , clique em **Adicionar conector** .
+3. Na página **personalizada de RH** , clique em **Adicionar conector**.
 
-4. Na página **Configurar a conexão** , faça o seguinte e clique em **Avançar** :
+4. Na página **Configurar a conexão** , faça o seguinte e clique em **Avançar**:
 
    1. Digite ou cole a ID de aplicativo do Azure AD para o aplicativo do Azure que você criou na etapa 2.
 
    1. Digite um nome para o conector de RH.
 
-5. Na página cenários de RH, selecione um ou mais cenários de RH para os quais você deseja importar dados e, em seguida, clique em **Avançar** .
+5. Na página cenários de RH, selecione um ou mais cenários de RH para os quais você deseja importar dados e, em seguida, clique em **Avançar**.
 
-6. Na página método de mapeamento de arquivos, selecione uma das opções a seguir e clique em **Avançar** .
+6. Na página método de mapeamento de arquivos, selecione uma das opções a seguir e clique em **Avançar**.
 
-   - **Carregar um arquivo de exemplo** . Se você selecionar essa opção, clique em **carregar arquivo de exemplo** para carregar o arquivo CSV que você preparou na etapa 1. Essa opção permite que você selecione rapidamente nomes de coluna no arquivo CSV de uma lista suspensa para mapeá-los para os tipos de dados dos cenários de RH selecionados anteriormente.
+   - **Carregar um arquivo de exemplo**. Se você selecionar essa opção, clique em **carregar arquivo de exemplo** para carregar o arquivo CSV que você preparou na etapa 1. Essa opção permite que você selecione rapidamente nomes de coluna no arquivo CSV de uma lista suspensa para mapeá-los para os tipos de dados dos cenários de RH selecionados anteriormente.
 
    OU
 
-   - **Forneça manualmente os detalhes do mapeamento** . Se você selecionar essa opção, será necessário digitar o nome das colunas no arquivo CSV para mapeá-las para os tipos de dados dos cenários de RH selecionados anteriormente.
+   - **Forneça manualmente os detalhes do mapeamento**. Se você selecionar essa opção, será necessário digitar o nome das colunas no arquivo CSV para mapeá-las para os tipos de dados dos cenários de RH selecionados anteriormente.
 
 7. Na página detalhes do mapeamento de arquivos, execute um dos seguintes procedimentos, dependendo se você carregou um arquivo CSV de exemplo e se está configurando o conector para um único cenário de RH ou para vários cenários. Se você carregou um arquivo de exemplo, não precisará digitar os nomes das colunas. Você os escolhe em uma lista suspensa.
 
-    - Se você selecionou um cenário de RH único na etapa anterior, digite os nomes de cabeçalho de coluna (também chamados de *parâmetros* ) do arquivo CSV que você criou na etapa 1 em cada uma das caixas apropriadas. Os nomes de coluna que você digita não diferenciam maiúsculas de minúsculas, mas não se esqueça de incluir espaços se os nomes de coluna no arquivo CSV incluírem espaços. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de parâmetro no arquivo CSV. Por exemplo, a captura de tela a seguir mostra os nomes de parâmetro do arquivo CSV de exemplo para o cenário de renovação de RH do funcionário mostrado na etapa 1.
+    - Se você selecionou um cenário de RH único na etapa anterior, digite os nomes de cabeçalho de coluna (também chamados de *parâmetros*) do arquivo CSV que você criou na etapa 1 em cada uma das caixas apropriadas. Os nomes de coluna que você digita não diferenciam maiúsculas de minúsculas, mas não se esqueça de incluir espaços se os nomes de coluna no arquivo CSV incluírem espaços. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de parâmetro no arquivo CSV. Por exemplo, a captura de tela a seguir mostra os nomes de parâmetro do arquivo CSV de exemplo para o cenário de renovação de RH do funcionário mostrado na etapa 1.
 
     - Se você tiver selecionado vários tipos de dados na etapa acima, precisará inserir o nome de coluna de identificador que identificará o tipo de dados de RH no arquivo CSV. Depois de inserir o nome da coluna identificador, digite o valor que identifica esse tipo de dados de RH e digite os nomes de cabeçalho de coluna para tipos de dados selecionados dos arquivos CSV que você criou na etapa 1 em cada uma das caixas apropriadas para cada tipo de dados selecionado. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de coluna no arquivo CSV.
 
@@ -255,7 +253,7 @@ Depois de concluir esta etapa, certifique-se de copiar o ID do trabalho que é g
 
    1. **Link para script de amostra.** Clique no link **aqui** para ir para o site do GitHub para acessar o script de exemplo (o link abre uma nova janela). Mantenha essa janela aberta para que você possa copiar o script na etapa 4. Como alternativa, é possível indicar o destino ou copiar a URL para que você possa acessá-la novamente quando executar o script. Este link também está disponível na página do submenu conector.
 
-9. Clique em **Concluído** .
+9. Clique em **Concluído**.
 
    O novo conector é exibido na lista na guia **conectores** .
 
@@ -263,7 +261,7 @@ Depois de concluir esta etapa, certifique-se de copiar o ID do trabalho que é g
 
    ![Página de menu do novo conector de RH](../media/HRConnectorWizard7.png)
 
-Se ainda não tiver feito isso, você poderá copiar os valores para a **ID do aplicativo do Azure** e a **ID do trabalho do conector** . Você precisará deles para executar o script na próxima etapa. Você também pode baixar o script da página do menu de atalho (ou baixá-lo usando o link na próxima etapa.)
+Se ainda não tiver feito isso, você poderá copiar os valores para a **ID do aplicativo do Azure** e a **ID do trabalho do conector**. Você precisará deles para executar o script na próxima etapa. Você também pode baixar o script da página do menu de atalho (ou baixá-lo usando o link na próxima etapa.)
 
 Você também pode clicar em **Editar** para alterar a ID do aplicativo do Azure ou os nomes de cabeçalho de coluna definidos na página **mapeamento de arquivo** .
 
@@ -321,13 +319,13 @@ Depois de criar o conector de RH e executar o script para carregar seus dados de
 
    ![Página de submenu do conector de RH com propriedades e status](../media/HRConnectorFlyout1.png)
 
-3. Em **andamento** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft. 
+3. Em **andamento**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft. 
 
    ![Arquivo de log do conector de RH exibe linhas de número do arquivo CSV que foram carregadas](../media/HRConnectorLogFile.png)
 
    O `RecordsSaved` campo indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver quatro linhas, o valor dos `RecordsSaved` campos será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
 
-Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação** . Você pode baixar o script e seguir as etapas para executar o script.
+Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação**. Você pode baixar o script e seguir as etapas para executar o script.
 
 ## <a name="optional-step-6-schedule-the-script-to-run-automatically"></a>Opcion Etapa 6: agendar o script para ser executado automaticamente
 
@@ -335,15 +333,15 @@ Para verificar se os dados de RH mais recentes da sua organização estão dispo
 
 Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o script automaticamente todos os dias.
 
-1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas** .
+1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas**.
 
 2. Clique no aplicativo **Agendador de tarefas** para abri-lo.
 
-3. Na seção **ações** , clique em **criar tarefa** .
+3. Na seção **ações** , clique em **criar tarefa**.
 
-4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector de RH** . Você também pode adicionar uma descrição opcional.
+4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector de RH**. Você também pode adicionar uma descrição opcional.
 
-5. Em **Opções de segurança** , faça o seguinte:
+5. Em **Opções de segurança**, faça o seguinte:
 
    1. Determine se o script deve ser executado somente quando você estiver conectado ao computador ou executá-lo quando estiver conectado ou não.
 
@@ -351,11 +349,11 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
 6. Selecione a guia **acionadores** , clique em **novo** e faça o seguinte:
 
-   1. Em **configurações** , selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
+   1. Em **configurações**, selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
 
-   1. Em **Configurações avançadas** , certifique-se de que a caixa de seleção **habilitado** esteja marcada.
+   1. Em **Configurações avançadas**, certifique-se de que a caixa de seleção **habilitado** esteja marcada.
 
-   1. Clique em **OK** .
+   1. Clique em **OK**.
 
 7. Selecione a guia **ações** , clique em **novo** e faça o seguinte:
 

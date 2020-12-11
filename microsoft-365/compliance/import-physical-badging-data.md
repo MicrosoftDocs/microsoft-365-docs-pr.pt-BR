@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados do sistema físico do símbolos da sua organização para o Microsoft 365. Isso permite que você use esses dados nas políticas de gerenciamento de risco do insider para ajudá-lo a detectar acesso a seus prédios físicos por usuários específicos que podem indicar uma possível ameaça interna à sua organização.
-ms.openlocfilehash: 71f43d8e6abd53454b6c81d811d0dca2e8b08388
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 7e745b42d0df79f5c39f9fa02cb1b63f164ec2a5
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816644"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620127"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>Configurar um conector para importar dados de símbolos físicos (versão prévia)
 
@@ -39,8 +39,6 @@ A configuração de um conector de símbolos físico consiste nas seguintes tare
 
 ## <a name="before-you-set-up-the-connector"></a>Antes de configurar o conector
 
-- Sua organização deve ter o consentimento para permitir que o serviço de importação do Office 365 acesse os dados da sua organização. Para concordar com essa solicitação, [acesse a página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Microsoft 365 e aceite a solicitação. Você precisa concluir esta etapa para poder criar com êxito o conector símbolos físico na etapa 3.
-
 - O usuário que cria o conector símbolos físico na etapa 3 deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um novo grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
 - Você precisa determinar como recuperar ou exportar os dados do sistema de símbolos físico da sua organização (em uma base diária) e criar um arquivo JSON descrito na etapa 2. O script executado na etapa 4 enviará os dados do arquivo JSON para o ponto de extremidade da API.
@@ -51,11 +49,11 @@ A configuração de um conector de símbolos físico consiste nas seguintes tare
 
 A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directory (Azure AD). O aplicativo corresponderá ao conector físico do símbolos que você criou na etapa 3. A criação deste aplicativo permitirá que o Azure AD autentique a solicitação de envio por push para o Payload JSON contendo dados de símbolos físicos. Durante a criação deste aplicativo do Azure AD, certifique-se de salvar as informações a seguir. Esses valores serão usados nas etapas posteriores.
 
-- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente* )
+- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente*)
 
-- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente* )
+- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente*)
 
-- ID do locatário (também chamado de *ID de diretório* )
+- ID do locatário (também chamado de *ID de diretório*)
 
 Para obter instruções detalhadas sobre a criação de um aplicativo no Azure AD, consulte [registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
@@ -137,11 +135,11 @@ A próxima etapa é criar um conector de símbolos físico no centro de conformi
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados** no painel de navegação esquerdo.
 
-2. Na página **conectores de dados** em **símbolos físico** , clique em **Exibir** .
+2. Na página **conectores de dados** em **símbolos físico**, clique em **Exibir**.
 
-3. Na página **símbolos físico** , clique em **Adicionar conector** .
+3. Na página **símbolos físico** , clique em **Adicionar conector**.
 
-4. Na página **credenciais de autenticação** , faça o seguinte e clique em **Avançar** :
+4. Na página **credenciais de autenticação** , faça o seguinte e clique em **Avançar**:
   
    1. Digite ou cole a ID de aplicativo do Azure AD para o aplicativo do Azure que você criou na etapa 1.
   
@@ -155,7 +153,7 @@ A próxima etapa é criar um conector de símbolos físico no centro de conformi
 
    A página de status também contém um link para o script. Consulte este script para entender como postar o arquivo JSON no ponto de extremidade da API.
 
-7. Clique em **Concluído** .
+7. Clique em **Concluído**.
 
    O novo conector é exibido na lista na guia **conectores** .
 
@@ -222,13 +220,13 @@ Depois de criar o conector de símbolos físico e enviar seus dados de símbolos
 
    ![Página de submenu de status do conector símbolos físico](..\media\PhysicalBadgingStatusFlyout.png)
 
-3. Em **última importação** , clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft.
+3. Em **última importação**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre cada vez que o script é executado e carrega os dados do arquivo CSV para a nuvem da Microsoft.
 
    ![Arquivo de log físico do conector símbolos exibe linhas de número do arquivo JSON que foram carregadas](..\media\PhysicalBadgingConnectorLogFile.png)
 
    O campo **RecordsSaved** indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver quatro linhas, o valor dos campos **RecordsSaved** será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
 
-Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação** . Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
+Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação**. Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
 
 ## <a name="optional-step-6-schedule-the-script-to-run-automatically"></a>Opcion Etapa 6: agendar o script para ser executado automaticamente
 
@@ -236,15 +234,15 @@ Para garantir que os dados de símbolos físicos mais recentes da sua organizaç
 
 Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o script automaticamente todos os dias.
 
-1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas** .
+1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de tarefas**.
 
 2. Clique no aplicativo **Agendador de tarefas** para abri-lo.
 
-3. Na seção **ações** , clique em **criar tarefa** .
+3. Na seção **ações** , clique em **criar tarefa**.
 
-4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector símbolos físico** . Você também pode adicionar uma descrição opcional.
+4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector símbolos físico**. Você também pode adicionar uma descrição opcional.
 
-5. Em **Opções de segurança** , faça o seguinte:
+5. Em **Opções de segurança**, faça o seguinte:
 
    1. Determine se o script deve ser executado somente quando você estiver conectado ao computador ou executá-lo quando estiver conectado ou não.
 
@@ -252,11 +250,11 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
 6. Selecione a guia **acionadores** , clique em **novo** e faça o seguinte:
 
-   1. Em **configurações** , selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
+   1. Em **configurações**, selecione a opção **diariamente** e, em seguida, escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
 
-   2. Em **Configurações avançadas** , certifique-se de que a caixa de seleção **habilitado** esteja marcada.
+   2. Em **Configurações avançadas**, certifique-se de que a caixa de seleção **habilitado** esteja marcada.
 
-   3. Clique em **OK** .
+   3. Clique em **OK**.
 
 7. Selecione a guia **ações** , clique em **novo** e faça o seguinte:
 

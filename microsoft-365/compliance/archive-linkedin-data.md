@@ -15,22 +15,20 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Saiba como os administradores podem configurar & usar um conector nativo para importar dados de uma página da empresa do LinkedIn para o Microsoft 365.
-ms.openlocfilehash: 00e4d233efa6ee86111e3497063ad1276b5df041
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: 42183be3663fbf4b55eadde2173b492feeae5373
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255808"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49619977"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Configurar um conector para arquivar dados do LinkedIn
 
 Use um conector no centro de conformidade da Microsoft 365 para importar e arquivar dados das páginas da empresa do LinkedIn. Depois de configurar e configurar um conector, ele se conecta à conta da página específica da empresa do LinkedIn uma vez a cada 24 horas. O conector converte as mensagens postadas na página da empresa em uma mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Microsoft 365.
 
-Depois que os dados da página da empresa do LinkedIn são armazenados em uma caixa de correio, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria e políticas de retenção da Microsoft 365 para dados do LinkedIn. Por exemplo, você pode pesquisar esses itens usando a pesquisa de conteúdo ou associar a caixa de correio de armazenamento a um funcionário em uma caixa de descoberta eletrônica avançada. A criação de um conector para importar e arquivar dados do LinkedIn no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Depois que os dados da página da empresa do LinkedIn são armazenados em uma caixa de correio, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento de In-Place, auditoria e políticas de retenção da Microsoft 365 para dados do LinkedIn. Por exemplo, você pode pesquisar esses itens usando a pesquisa de conteúdo ou associar a caixa de correio de armazenamento a um funcionário em uma caixa de descoberta eletrônica avançada. A criação de um conector para importar e arquivar dados do LinkedIn no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
-## <a name="give-consent-assign-roles-and-verify-credentials"></a>Conceder consentimento, atribuir funções e verificar credenciais
-
-- Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse a página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Microsoft 365 e aceite a solicitação.
+## <a name="assign-roles-and-verify-credentials"></a>Atribuir funções e verificar credenciais
 
 - O usuário que cria um conector de página da empresa do LinkedIn deve receber a função de exportação de importação de caixa de correio no Exchange Online. Isso é necessário para adicionar conectores na página **conectores de dados** no centro de conformidade do Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
@@ -60,9 +58,7 @@ Depois que os dados da página da empresa do LinkedIn são armazenados em uma ca
 
 7. Na página **escolher local de armazenamento** , clique na caixa, selecione o endereço de email de uma caixa de correio do Microsoft 365 em que os itens do LinkedIn serão importados e clique em **Avançar**. Os itens são importados para a pasta caixa de entrada nesta caixa de correio.
 
-8. Em **fornecer consentimento do administrador**, clique em **fornecer consentimento** e siga as etapas. Você deve ser um administrador global para fornecer consentimento para o serviço de importação do Office 365 para acessar dados em sua organização.
-
-9. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
+8. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
 
 Depois de criar o conector, você pode voltar para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector (selecione **Atualizar** , se necessário, para atualizar a lista de conectores). O valor na coluna **status** está **aguardando para iniciar**. É necessário ter até 24 horas para que o processo inicial de importação seja iniciado. Após a primeira vez que o conector é executado e importa os itens do LinkedIn, o conector é executado uma vez a cada 24 horas e importa os novos itens que são criados na página da empresa do LinkedIn nas últimas 24 horas.
 

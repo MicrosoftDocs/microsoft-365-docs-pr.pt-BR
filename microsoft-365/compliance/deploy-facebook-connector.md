@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector nativo para importar e arquivar páginas de negócios do Facebook para o Microsoft 365. Depois que esses dados são importados para a Microsoft 365, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de Facebook da sua organização.
-ms.openlocfilehash: 065a5c6a1276c1ce37aa48137caf6627e76c8db0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b771c50eb5c2eb5f99269f1f399d27043ebee6bb
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200856"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49619947"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Implantar um conector para arquivar dados de páginas de negócios do Facebook
 
@@ -116,7 +116,7 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
    ![Concluir a seção QuickStart](../media/FBCimage30.png)
 
-7. No painel de navegação esquerdo em **logon do Facebook**, clique em **configurações**e adicione o URI de redirecionamento OAuth na caixa **URIs de redirecionamento OAuth válidos** . Use o formato ** \<connectorserviceuri> /views/FacebookOAuth**, em que o valor de CONNECTORSERVICEURI é a URL do serviço de aplicativo do Azure para sua organização; por exemplo, `https://fbconnector.azurewebsites.net` .
+7. No painel de navegação esquerdo em **logon do Facebook**, clique em **configurações** e adicione o URI de redirecionamento OAuth na caixa **URIs de redirecionamento OAuth válidos** . Use o formato **\<connectorserviceuri> /views/FacebookOAuth**, em que o valor de CONNECTORSERVICEURI é a URL do serviço de aplicativo do Azure para sua organização; por exemplo, `https://fbconnector.azurewebsites.net` .
 
    ![Adicione o URI de redirecionamento OAuth à caixa URIs de redirecionamento OAuth válidos](../media/FBCimage31.png)
 
@@ -124,7 +124,7 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
    ![Clique em Adicionar produtos e em * * WebHooks](../media/FBCimage32.png)
 
-9. Adicione URL de retorno de chamada de WebHooks e adicione um token de verificação. O formato da URL de retorno de chamada, use o formato ** <connectorserviceuri> /API/FbPageWebhook**, em que o valor de CONNECTORSERVICEURI é a URL do serviço de aplicativo do Azure para sua organização; por exemplo `https://fbconnector.azurewebsites.net` .
+9. Adicione URL de retorno de chamada de WebHooks e adicione um token de verificação. O formato da URL de retorno de chamada, use o formato **<connectorserviceuri> /API/FbPageWebhook**, em que o valor de CONNECTORSERVICEURI é a URL do serviço de aplicativo do Azure para sua organização; por exemplo `https://fbconnector.azurewebsites.net` .
 
    O token de verificação deve ser semelhante a uma senha forte. Copie o token de verificação para um arquivo de texto ou outro local de armazenamento.
 
@@ -226,8 +226,6 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
 12. Na página **escolher local de armazenamento** , digite o endereço de email da caixa de correio do Microsoft 365 para o qual os itens do Facebook serão importados e clique em **Avançar**.
 
-13. Em **fornecer consentimento do administrador**, clique em **fornecer consentimento** e siga as etapas. Você deve ser um administrador global para fornecer consentimento para o serviço de importação do Office 365 para acessar dados em sua organização.
+13. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
 
-14. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
-
-15. No centro de conformidade, vá para a página **conectores de dados** e clique na guia **conectores** para ver o andamento do processo de importação.
+14. No centro de conformidade, vá para a página **conectores de dados** e clique na guia **conectores** para ver o andamento do processo de importação.

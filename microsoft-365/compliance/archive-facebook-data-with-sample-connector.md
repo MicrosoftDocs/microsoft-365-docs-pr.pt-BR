@@ -15,18 +15,18 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Saiba como configurar & usar um conector no centro de conformidade da Microsoft 365 para importar dados de arquivo morto de & de páginas de negócios do Facebook para o Microsoft 365.
-ms.openlocfilehash: 747f98ff084eaa8536c10b2f4edefcc20d11d7f9
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: db1d11f461125e7ea1d749fd273f8bc8622a8d77
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255848"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620428"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Configurar um conector para arquivar dados do Facebook (visualização)
 
 Use um conector no centro de conformidade da Microsoft 365 para importar e arquivar dados de páginas de negócios do Facebook para a Microsoft 365. Depois de configurar e configurar o conector, ele se conecta à página de negócios do Facebook (de acordo com o agendamento), converte o conteúdo de itens do Facebook em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Microsoft 365.
 
-Após a importação dos dados do Facebook, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, conformidade de comunicação e políticas de retenção da Microsoft 365 para os dados do Facebook. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio ou atribuída a uma política de retenção, os dados do Facebook são preservados. Você pode pesquisar dados de terceiros usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados do Facebook são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Facebook no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Depois que os dados do Facebook são importados, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento de In-Place, auditoria, conformidade de comunicação e políticas de retenção da Microsoft 365 para os dados do Facebook. Por exemplo, quando uma caixa de correio é colocada em retenção de litígio ou atribuída a uma política de retenção, os dados do Facebook são preservados. Você pode pesquisar dados de terceiros usando a pesquisa de conteúdo ou associar a caixa de correio onde os dados do Facebook são armazenados com um funcionário em uma caixa de descoberta eletrônica avançada. O uso de um conector para importar e arquivar dados do Facebook no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
 ## <a name="prerequisites-for-setting-up-a-connector-for-facebook-business-pages"></a>Pré-requisitos para configurar um conector para páginas de negócios do Facebook
 
@@ -42,8 +42,6 @@ Conclua os pré-requisitos a seguir antes de configurar e configurar um conector
 
     > [!NOTE]
     > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Microsoft 365 não é compatível com os conectores no centro de conformidade do & de segurança.
-
-- Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global e aceite a solicitação.
 
 - O usuário que configura o conector personalizado no centro de conformidade da Microsoft 365 (na etapa 5) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções  [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
@@ -109,7 +107,7 @@ Durante a conclusão desta etapa (seguindo as instruções passo a passo), você
 
 ## <a name="step-5-set-up-a-facebook-business-pages-connector-in-the-microsoft-365-compliance-center"></a>Etapa 5: configurar um conector de páginas de negócios do Facebook no centro de conformidade da Microsoft 365
 
-A etapa final é configurar o conector no centro de conformidade da Microsoft 365 que importará dados de suas páginas de negócios do Facebook para uma caixa de correio especificada no Microsoft 365. Após concluir esta etapa, o serviço de importação do Office 365 começará a importar dados de suas páginas de negócios do Facebook para a Microsoft 365.
+A etapa final é configurar o conector no centro de conformidade da Microsoft 365 que importará dados de suas páginas de negócios do Facebook para uma caixa de correio especificada no Microsoft 365. Após concluir esta etapa, o serviço de importação 365 da Microsoft começará a importar dados de suas páginas de negócios do Facebook para a Microsoft 365.
 
 Para obter instruções passo a passo, consulte [etapa 5: configurar um conector do Facebook no centro de conformidade da Microsoft 365](deploy-facebook-connector.md#step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center). 
 

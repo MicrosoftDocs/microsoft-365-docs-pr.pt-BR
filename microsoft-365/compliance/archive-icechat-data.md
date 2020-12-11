@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados da ferramenta de chat ICE para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: cd56e98aadc2b7328b733939ecc8951413309ba5
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 590f9b3b119ee261ec2ff6c4b5196bd9fea42697
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408761"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620398"
 ---
 # <a name="set-up-a-connector-to-archive-ice-chat-data"></a>Configurar um conector para arquivar dados de chat de gelo
 
@@ -45,8 +45,6 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 Algumas das etapas de implementação necessárias para arquivar dados de chat de gelo são externas para o Microsoft 365 e devem ser concluídas para que você possa criar o conector no centro de conformidade.
 
-- Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Office 365 e aceite a solicitação. Você deve concluir esta etapa antes de poder criar com êxito o conector de chat ICE na etapa 3.
-
 - O chat de gelo cobra de seus clientes uma taxa de conformidade externa. Sua organização deve entrar em contato com o grupo de vendas de chat de gelo para discutir e para assinar o contrato de serviços de dados de chat de gelo, que você pode obter em [https://www.theice.com/publicdocs/agreements/ICE\_Data\_Services\_Agreement.pdf](https://www.theice.com/publicdocs/agreements/ICE\_Data\_Services\_Agreement.pdf) . Este contrato é entre o chat de gelo e sua organização e não envolve a Microsoft. Depois de configurar um site de chat de gelo do ICE na etapa 2, o chat de gelo fornece as credenciais de FTP diretamente para sua organização. Em seguida, você deve fornecer essas credenciais à Microsoft ao configurar o conector na etapa 3.
 
 - Você deve configurar um site de bate-papo SFTP do ICE antes de criar o conector na etapa 3. Depois de trabalhar com o chat ICE para configurar o site SFTP, os dados de um chat de gelo são carregados no site do SFTP todos os dias. O conector que você cria na etapa 3 se conecta a esse site SFTP e transfere os dados de chat para caixas de correio do Microsoft 365. O SFTP também criptografa os dados de chat de gelo enviados às caixas de correio durante o processo de transferência.
@@ -65,7 +63,7 @@ A primeira etapa é obter uma cópia das chaves públicas para SSH (Secure Shell
 
 4. Na página **termos de serviço** , clique em **aceitar**.
 
-5. Na página **Adicionar credenciais para o site de bate-papo do Ice** em etapa 1, clique na **chave de download SSH**, **baixar a chave PGP**e baixar links de **endereço IP** para salvar uma cópia de cada arquivo no computador local. Esses arquivos contêm os itens a seguir que são usados para configurar o site do chat do ICE na etapa 2:
+5. Na página **Adicionar credenciais para o site de bate-papo do Ice** em etapa 1, clique na **chave de download SSH**, **baixar a chave PGP** e baixar links de **endereço IP** para salvar uma cópia de cada arquivo no computador local. Esses arquivos contêm os itens a seguir que são usados para configurar o site do chat do ICE na etapa 2:
 
    - Chave pública SSH: essa chave é usada para configurar o SSH seguro para habilitar um logon remoto seguro quando o conector se conecta ao site do chat do ICE SFTP.
 

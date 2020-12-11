@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector nativo para importar e arquivar dados do Twitter para o Microsoft 365. Depois que esses dados são importados para a Microsoft 365, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados do Twitter da sua organização.
-ms.openlocfilehash: 01c4901544e47cd1c361a132e144440f00bd8504
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0dd996802964b2a2fc58d26e23af57193c89ee8c
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200824"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49619907"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data"></a>Implantar um conector para arquivar dados do Twitter
 
@@ -122,7 +122,7 @@ Este artigo contém o processo passo a passo para implantar um conector que usa 
 
    - Marque a caixa de seleção para permitir que o aplicativo conector entre no Twitter.
    
-   - Adicione o URI de redirecionamento OAuth usando o seguinte formato: ** \<connectorserviceuri> /views/TwitterOAuth**, onde o valor de *connectorserviceuri* é a URL do serviço de aplicativo do Azure para sua organização; por exemplo, https://twitterconnector.azurewebsites.net/Views/TwitterOAuth .
+   - Adicione o URI de redirecionamento OAuth usando o seguinte formato: **\<connectorserviceuri> /views/TwitterOAuth**, onde o valor de *connectorserviceuri* é a URL do serviço de aplicativo do Azure para sua organização; por exemplo, https://twitterconnector.azurewebsites.net/Views/TwitterOAuth .
 
     ![Permitir que o aplicativo conector entre no Twitter e adicione o URI de redirecionamento OAuth](../media/TCimage32.png)
 
@@ -198,8 +198,6 @@ O aplicativo de desenvolvedor do Twitter agora está pronto para uso.
 
 12. Na página **escolher local de armazenamento** , digite o endereço de email da caixa de correio do Microsoft 365 para o qual os itens do Twitter serão importados e clique em **Avançar**.
 
-13. Em **fornecer consentimento do administrador**, clique em **fornecer consentimento** e siga as etapas. Você deve ser um administrador global para fornecer consentimento para o serviço de importação do Office 365 para acessar dados em sua organização.
+13. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
 
-14. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
-
-15. No centro de conformidade, vá para a página **conectores de dados** e clique na guia **conectores** para ver o andamento do processo de importação.
+14. No centro de conformidade, vá para a página **conectores de dados** e clique na guia **conectores** para ver o andamento do processo de importação.
