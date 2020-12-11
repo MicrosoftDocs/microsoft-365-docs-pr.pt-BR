@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização global fictícia, mas representativa, adotou o Microsoft 365 para grandes empresas.
-ms.openlocfilehash: 66040bdd64e83d796e6d045aad2f512898452c50
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: 1e06da623a9d580d71823ab030976b213a9e7022
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371631"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620546"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Soluções da Microsoft 365 para a Contoso Corporation
 
@@ -34,7 +34,8 @@ Em seguida, veja como a Contoso usou o Microsoft 365 para essas soluções e cen
 
 - [Infraestrutura e suporte ao COVID-19 para o trabalho remoto e local](contoso-remote-onsite-work.md)
 
-- [Uma equipe isolada para um projeto confidencial](contoso-team-for-top-secret-project.md)
+- [Equipe isolada para um projeto confidencial](contoso-team-for-top-secret-project.md)
 
 - [Migração dos seus usuários locais para o Teams, para uma comunicação, colaboração e voz unificadas](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
 
+- [Configure uma política de linguagem ofensiva para o Microsoft Teams, Exchange e para as comunicações do Yammer](../compliance/communication-compliance-case-study.md).

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use o Bloqueio de Preservação com políticas de retenção e políticas de rótulo de retenção para ajudá-lo a atender aos requisitos normativos e proteger contra administradores não autorizados.
-ms.openlocfilehash: 6f6cfc5bef9b93af08fcc9b703b29facb9a7c576
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 9890c73495bd14ea7264f3314f6313254ef1bf6b
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920682"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612983"
 ---
 # <a name="use-preservation-lock-to-restrict-changes-to-retention-policies-and-retention-label-policies"></a>Use o Bloqueio de Preservação para restringir as alterações para políticas de retenção e políticas de rótulo de retenção
 
@@ -28,18 +28,27 @@ ms.locfileid: "48920682"
 
 O Bloqueio de Preservação trava uma política de retenção ou uma política de rótulo de retenção para que ninguém, incluindo um administrador global, possa desativar a política, excluir a política ou torná-la menos restritiva. Essa configuração pode ser necessária para atender aos requisitos regulatórios e ajudar a proteger contra administradores não autorizados.
 
-Quando uma política de retenção estiver bloqueada:
+Quando uma política de retenção está bloqueada:
 
-- Ninguém pode desligá-lo
+- Ninguém pode desabilitar a política ou excluí-la
 - Locais podem ser adicionados, mas não removidos
-- Você pode estender um período de retenção, mas não reduzi-lo
+- Você pode estender o período de retenção, mas não reduzi-lo
+
+Quando uma política de rótulo de retenção está bloqueada:
+
+- Ninguém pode desabilitar a política ou excluí-la
+- Locais podem ser adicionados, mas não removidos
+- Rótulos podem ser adicionados, mas não removidos
 
 Em resumo, uma política de retenção bloqueada pode ser aumentada ou estendida, mas não poderá ser reduzida ou desativada.
-  
+
 > [!IMPORTANT]
 > Antes de bloquear uma política de retenção, é fundamental que você entenda o impacto e confirme se ela é necessária para a sua organização atender aos requisitos normativos. Por exemplo, pode ser necessário atender aos requisitos normativos. Os administradores não poderão desabilitar ou excluir uma política de retenção após a aplicação do bloqueio de preservação.
 
 Configure o Bloqueio de Preservação após criar uma [política de retenção](create-retention-policies.md) ou uma política de rótulo de retenção que você [publicar](create-apply-retention-labels.md) ou [aplicar automaticamente](apply-retention-labels-automatically.md). 
+
+> [!NOTE]
+> O bloqueio de uma política de rótulo não impede que um administrador reduza o período de retenção em um rótulo que esteja incluído na política de bloqueio. Esse requisito, com outras restrições, pode ser atendido ao configurar um rótulo para marcar itens como um [registro regulatório](records-management.md#records).
 
 ## <a name="how-to-lock-a-retention-policy-or-retention-label-policy"></a>Como bloquear uma política de retenção ou uma política de rótulo de retenção
 
@@ -63,7 +72,7 @@ Todas as políticas de retenção, com qualquer configuração, oferecem suporte
     
     ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
-     Quando solicitado, leia e reconheça as restrições que vêm com esta configuração digitando **S** :
+     Quando solicitado, leia e reconheça as restrições que vêm com esta configuração digitando **S**:
     
    ![Solicitar confirmação que deseja bloquear uma política de retenção no PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
