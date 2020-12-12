@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de spam de saída na proteção do Exchange Online (EOP).
-ms.openlocfilehash: 237703d9ad6ed652a3feb4dda57a7af0e99240f7
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 0deafe2817c3e10371b02349aca2612af090af65
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614935"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659697"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Configurar a filtragem de spam de saída no EOP
 
@@ -51,7 +51,7 @@ A diferença entre esses dois elementos não é óbvia quando você gerencia pol
 - Quando você modifica uma política, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra de filtro de spam de saída. Todas as outras configurações modificam a política de filtro de spam de saída associada.
 - Quando você remover uma política, a regra de filtro de spam de saída e a política de filtro de spam de saída associada serão removidas.
 
-No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção [usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar políticas de spam de saída](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) , posteriormente neste tópico.
+No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção [usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar políticas de spam de saída](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) mais adiante neste artigo.
 
 Todas as organizações têm uma política interna de spam de saída chamada Default que tem estas propriedades:
 
@@ -61,13 +61,13 @@ Todas as organizações têm uma política interna de spam de saída chamada Def
 
 Para aumentar a eficácia da filtragem de spam de saída, você pode criar políticas personalizadas de spam de saída com configurações mais rígidas que são aplicadas a usuários ou grupos de usuários específicos.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
   - Para adicionar, modificar e excluir políticas de spam de saída, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** .
   - Para acesso somente leitura às políticas de spam de saída, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
@@ -158,7 +158,7 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
      - **Nenhuma ação, somente alerta**: as notificações por email são enviadas.
 
-6. Opcion Expanda a seção de **encaminhamento automático** para controlar o encaminhamento automático de emails de usuários para remetentes externos. Para obter mais informações sobre o encaminhamento automático, consulte [Configure e-mail Forwarding](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding).
+6. Opcion Expanda a seção de **encaminhamento automático** para controlar o encaminhamento automático de emails de usuários para remetentes externos. Para obter mais informações, consulte [controlar o encaminhamento de email externo automático no Microsoft 365](external-email-forwarding.md).
 
    > [!NOTE]
    >
@@ -166,7 +166,7 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
    >
    > - Essas configurações se aplicam apenas às caixas de correio baseadas em nuvem.
    >
-   > - Quando o encaminhamento automático estiver desabilitado, o destinatário receberá uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno) se os remetentes externos enviarem emails para uma caixa de correio que tenha encaminhamento no local. Se o email for enviado por um remetente interno, o remetente receberá a notificação de falha na entrega.
+   > - Quando o encaminhamento automático estiver desabilitado, o destinatário receberá uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno) se os remetentes externos enviarem emails para uma caixa de correio que tenha encaminhamento no local. Se a mensagem for enviada por um remetente interno **e** o método de encaminhamento for o [encaminhamento de caixa de correio](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (também conhecido como _encaminhamento SMTP_), o remetente interno receberá a notificação de falha na entrega. O remetente interno não receberá uma notificação se o encaminhamento ocorrer devido a uma regra de caixa de entrada.
 
    Os valores disponíveis são:
 
@@ -396,7 +396,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-Hosted
 
 ### <a name="use-powershell-to-modify-outbound-spam-filter-policies"></a>Usar o PowerShell para modificar as políticas de filtro de spam de saída
 
-As mesmas configurações estão disponíveis quando você modifica uma política de filtro de malware no PowerShell quando cria a política, conforme descrito na seção [etapa 1: usar o PowerShell para criar uma política de filtro de spam de saída](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) , anteriormente neste tópico.
+As mesmas configurações estão disponíveis quando você modifica uma política de filtro de malware no PowerShell quando cria a política, conforme descrito na seção [etapa 1: usar o PowerShell para criar uma política de filtro de spam de saída](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) , anteriormente neste artigo.
 
 > [!NOTE]
 > Não é possível renomear uma política de filtro de spam de saída (o cmdlet **set-HostedOutboundSpamFilterPolicy** não tem nenhum parâmetro _Name_ ). Ao renomear uma política de spam de saída no centro de conformidade & segurança, você estará apenas renomeando a _regra_ de filtro de spam de saída.
@@ -413,7 +413,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Hosted
 
 A única configuração que não está disponível quando você modifica uma regra de filtro de spam de saída no PowerShell é o parâmetro _habilitado_ que permite criar uma regra desabilitada. Para habilitar ou desabilitar regras de filtro de spam de saída existentes, consulte a próxima seção.
 
-Caso contrário, nenhuma configuração adicional estará disponível quando você modificar uma regra de filtro de spam de saída no PowerShell. As mesmas configurações estão disponíveis quando você cria uma regra, conforme descrito na seção [etapa 2: usar o PowerShell para criar uma regra de filtro de spam de saída](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) , anteriormente neste tópico.
+Caso contrário, nenhuma configuração adicional estará disponível quando você modificar uma regra de filtro de spam de saída no PowerShell. As mesmas configurações estão disponíveis quando você cria uma regra, conforme descrito na seção [etapa 2: usar o PowerShell para criar uma regra de filtro de spam de saída](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) , anteriormente neste artigo.
 
 Para modificar uma regra de filtro de spam de saída, use esta sintaxe:
 

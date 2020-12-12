@@ -18,23 +18,23 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre os tipos de endereços de email que são aceitos ou rejeitados pela proteção do Exchange Online (EOP) e o Outlook.com para ajudar a evitar phishing.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e0afd05c80bb4de665d23b17c7089631dad93c78
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 25fbca8fa5d264a212ac25e2035bffde0819383d
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196054"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659649"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Como o EOP valida o endereço de para impedir o phishing
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Os ataques de phishing são uma ameaça constante para qualquer organização de email. Além de usar [endereços de email de remetente falsificados (forjados)](anti-spoofing-protection.md), os invasores freqüentemente usam valores no endereço de que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Exchange Online Protection (EOP) e o Outlook.com agora exigem mensagens de entrada para incluir um endereço de conformidade da RFC, conforme descrito neste tópico. Essa imposição foi habilitada em novembro de 2017.
+Os ataques de phishing são uma ameaça constante para qualquer organização de email. Além de usar [endereços de email de remetente falsificados (forjados)](anti-spoofing-protection.md), os invasores freqüentemente usam valores no endereço de que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Exchange Online Protection (EOP) e o Outlook.com agora exigem mensagens de entrada para incluir um endereço de conformidade da RFC, conforme descrito neste artigo. Essa imposição foi habilitada em novembro de 2017.
 
 **Observações**:
 
-- Se você receber emails regularmente de organizações malformadas de endereços conforme descrito neste tópico, incentive essas organizações a atualizar seus servidores de email para cumprir com os padrões de segurança modernos.
+- Se você receber emails regularmente de organizações malformadas de endereços conforme descrito neste artigo, incentive essas organizações a atualizar seus servidores de email para cumprir com os padrões de segurança modernos.
 
 - O campo de remetente relacionado (usado por enviar em nome e listas de email) não é afetado por esses requisitos. Para obter mais informações, consulte a seguinte postagem [de blog: o que queremos dizer quando nos referimos ao "remetente" de um email?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/).
 
@@ -44,7 +44,7 @@ Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e um co
 
 - O `5321.MailFrom` Endereço (também conhecido como o endereço **de email de** remetente, o remetente P1 ou o remetente do envelope) é o endereço de email que é usado na transmissão SMTP da mensagem. Esse endereço de email geralmente é registrado no campo de cabeçalho de **retorno de caminho** no cabeçalho da mensagem (embora seja possível que o remetente designe um endereço de email de **devolução** diferente).
 
-- O `5322.From` (também conhecido como o endereço de ou o remetente P2) é o endereço de email no campo **de cabeçalho de** e é o endereço de email do remetente que é exibido em clientes de email. O endereço de é o foco dos requisitos neste tópico.
+- O `5322.From` (também conhecido como o endereço de ou o remetente P2) é o endereço de email no campo **de cabeçalho de** e é o endereço de email do remetente que é exibido em clientes de email. O endereço de é o foco dos requisitos neste artigo.
 
 O endereço de é definido detalhadamente em várias RFCs (por exemplo, as seções RFC 5322 3.2.3, 3,4 e 3.4.1 e [RFC 3696](https://tools.ietf.org/html/rfc3696)). Há muitas variações no endereçamento e o que é considerado válido ou inválido. Para simplificar, recomendamos o seguinte formato e definições:
 

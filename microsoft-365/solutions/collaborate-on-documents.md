@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá como colaborar com convidados em um documento no SharePoint e no OneDrive.
-ms.openlocfilehash: bb97beaacf6a433e4fc5c38a897327d1e359ffb1
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 1b2fe003902b69e4c0c58852af67862ce6f2eb34
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613509"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663506"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Colaborar com convidados em um documento
 
@@ -34,15 +34,13 @@ Este vídeo mostra as etapas de configuração descritas neste documento.</br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE450Vt?autoplay=false]
 
-## <a name="azure-organizational-relationships-settings"></a>Configurações de relações organizacionais do Azure
+## <a name="azure-external-collaboration-settings"></a>Configurações de colaboração externa do Azure
 
-O compartilhamento no Microsoft 365 é regido no seu nível mais alto pelas [configurações de relações organizacionais no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, essa configuração substituirá as configurações de compartilhamento que você configurar no Microsoft 365.
+O compartilhamento no Microsoft 365 é regido em seu nível mais alto pelas [configurações de colaboração externa B2B no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, essa configuração substituirá as configurações de compartilhamento que você configurar no Microsoft 365.
 
-Verifique as configurações de relações organizacionais para garantir que o compartilhamento com convidados não seja bloqueado.
+Verifique as configurações de colaboração externa B2B para garantir que o compartilhamento com convidados não seja bloqueado.
 
 ![Captura de tela da página de configurações das Relações Organizacionais do Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
-
-Para definir as configurações de relação organizacional
 
 Para definir configurações de colaboração externa
 
@@ -109,11 +107,11 @@ Para definir permissões para links que permitem o compartilhamento com qualquer
 
 1. Nos **seguintes links podem conceder estas permissões:** Subpainel, 
     1. Na lista suspensa **arquivos** , 
-        1. Selecione **Exibir e editar** se quiser permitir que usuários não autenticados façam alterações nos arquivos.
-        2. Selecione **Exibir** se você não quiser que usuários não autenticados façam alterações nos arquivos.
+        - Selecione **Exibir e editar** se quiser permitir que usuários não autenticados façam alterações nos arquivos.
+        - Selecione **Exibir** se você não quiser que usuários não autenticados façam alterações nos arquivos.
     2. Na lista suspensa **pastas** ,
-        1. Selecione **Exibir, editar e carregar** se quiser permitir que usuários não autenticados façam alterações nas pastas.
-        2. Selecione **Exibir** se você não quiser que usuários não autenticados façam alterações nas pastas.
+        - Selecione **Exibir, editar e carregar** se quiser permitir que usuários não autenticados façam alterações nas pastas.
+        - Selecione **Exibir** se você não quiser que usuários não autenticados façam alterações nas pastas.
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Configurações de compartilhamento no nível do site do SharePoint
 

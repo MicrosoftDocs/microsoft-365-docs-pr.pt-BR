@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2cca4850227716fe5f7d7d21f3220b46e9761420
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: e858ae1fc564fdcacbe181930ae1489d131965e7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561178"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659673"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -69,9 +69,7 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 | [Livro de superfície 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8GB de RAM | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
 | [Superfície 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 GB/Intel Core m3/8 RAM | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
 | [Superfície do laptop go](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 12 de outubro de 2022 | 12 de outubro de 2025 |
-| [Laptop de superfície 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 16 de outubro de 2020 | 16 de outubro de 2023 |
 | [Laptop de superfície 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
-| [Surface pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 16 de outubro de 2020 | 16 de outubro de 2023 |
 | [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
 
 Além disso, o dispositivo também deve atender a estes critérios:     

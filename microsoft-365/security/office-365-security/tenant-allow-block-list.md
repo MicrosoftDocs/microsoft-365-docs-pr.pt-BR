@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a configurar entradas de URL na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: 0fdfa23ba22b240032e7a6888948de180aa0f6ae
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 4bf5e2e29a9f48c434be527a2447ca4bf98c4208
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614959"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659993"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na Lista de Permissões/Bloqueios de Locatários
 
@@ -28,7 +28,7 @@ ms.locfileid: "49614959"
 
 
 > [!NOTE]
-> Os recursos descritos neste tópico estão em visualização, estão sujeitos a alterações e não estão disponíveis em todas as organizações.
+> Os recursos descritos neste artigo estão em visualização, estão sujeitos a alterações e não estão disponíveis em todas as organizações.
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você pode discordar do veredicto de filtragem EOP. Por exemplo, uma boa mensagem pode ser marcada como ruim (falso positivo) ou uma mensagem inválida pode ser permitida por meio de (falso negativo).
 
@@ -36,11 +36,11 @@ A lista de permissões/bloqueios de locatários no centro de conformidade do & d
 
 Este tópico descreve como configurar entradas na lista de permissões/bloqueios de locatário no centro de conformidade & segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; autônomo do EOP PowerShell para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **lista de permissões/bloqueios de locatários** , use <https://protection.office.com/tenantAllowBlockList> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **lista de permissões/bloqueios de locatários** , use <https://protection.office.com/tenantAllowBlockList> .
 
-- Os valores de URL disponíveis são descritos na [sintaxe da URL para a seção lista de permissões/bloqueios de locatário](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste tópico.
+- Os valores de URL disponíveis são descritos na [sintaxe de URL da seção lista de permissões/bloqueios de locatários](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste artigo.
 
 - A lista de permissões/bloqueios de locatários permite um máximo de 500 entradas para URLs.
 
@@ -52,7 +52,7 @@ Este tópico descreve como configurar entradas na lista de permissões/bloqueios
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
   - Para adicionar e remover valores da lista de permissões/bloqueios de locatário, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** .
   - Para acesso somente leitura à lista de permissões/bloqueios de locatário, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
@@ -65,7 +65,7 @@ Este tópico descreve como configurar entradas na lista de permissões/bloqueios
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para criar entradas de URL na lista de permissões/bloqueios de locatários
 
-Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da URL da seção [lista de permissões/bloqueios de locatário](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste tópico.
+Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da URL da seção [lista de permissões/bloqueios de locatários](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste artigo.
 
 1. No centro de conformidade & segurança, vá para  \>  \> **listas de permissões/bloqueios de locatários** de política de gerenciamento de ameaça.
 

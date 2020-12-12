@@ -15,18 +15,15 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Saiba como adicionar um membro a um grupo, remover membro do grupo e gerenciar o status do proprietário do grupo no centro de administração do Microsoft 365.
-ms.openlocfilehash: a8739b6cd2005598acbfccbaff6131235ec480ee
-ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
+ms.openlocfilehash: 34c026bced5563e07a1ae0d13f4c691cfaf3f624
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753308"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663238"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Adicionar ou remover membros dos grupos do Microsoft 365 usando o centro de administração
 
@@ -37,11 +34,11 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
   
 ## <a name="add-a-member-to-a-group-in-the-admin-center"></a>Adicionar um membro a um grupo no centro de administração
 
-1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .  
+1. No centro de administração, vá para a página [**grupos ativos**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecione um nome de grupo.
+2. Clique em um nome de grupo.
 
-3. No painel de detalhes, na guia **Membros** , selecione **Exibir todos e gerenciar Membros**e, em seguida, selecione **adicionar membros**.
+3. No painel de detalhes, na guia **Membros** , selecione **Exibir todos e gerenciar Membros** e, em seguida, selecione **adicionar membros**.
 
 4. Pesquisar ou selecionar o nome do membro que você deseja adicionar.
 
@@ -49,9 +46,9 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 
 ## <a name="add-a-group-to-a-member-in-the-admin-center"></a>Adicionar um grupo a um membro no centro de administração
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.  
+1. No centro de administração, vá para a página [**usuários ativos**](https://admin.microsoft.com/Adminportal/Home?#/users) .  
 
-2. Selecione um usuário.
+2. Clique em um usuário.
 
 3. No painel de detalhes, na guia **conta** , selecione **gerenciar grupos**.
 
@@ -62,11 +59,11 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 ## <a name="remove-a-member-from-a-group-in-the-admin-center"></a>Remover um membro de um grupo no centro de administração
 
 > [!NOTE]
-> Quando você remove um membro de um grupo privado, leva cinco minutos para que a pessoa seja bloqueada no grupo, depois que as alterações em associação são totalmente replicadas entre os controladores de domínio.
+> Quando você remove um membro de um grupo privado, leva cinco minutos para a pessoa ser bloqueada do grupo.
 
-1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
+1. No centro de administração, vá para a página [**grupos ativos**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecione um nome de grupo.
+2. Clique em um nome de grupo.
 
 3. No painel de detalhes, na guia **Membros** , selecione **Exibir todos e gerenciar Membros**.
 
@@ -80,23 +77,23 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
   
 ### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Promover um membro ao status do proprietário no centro de administração
 
-1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
+1. No centro de administração, vá para a página [**grupos ativos**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecione um nome de grupo.
+2. Clique em um nome de grupo.
 
 3. No painel de detalhes, na guia **Membros** , selecione **Exibir todos os proprietários e gerenciá**-los.
 
-4. Procure um membro ou selecione **Adicionar proprietários**.
+4. Selecione **Adicionar proprietários**.
 
 5. Marque a caixa de seleção ao lado do nome do membro que você deseja adicionar.
 
-6. Selecione **salvar**e **fechar**.
+6. Selecione **salvar** e **fechar**.
 
 ### <a name="remove-owner-status-in-the-admin-center"></a>Remover o status do proprietário no centro de administração
 
-1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
+1. No centro de administração, vá para a página [**grupos ativos**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecione um nome de grupo.
+2. Clique em um nome de grupo.
 
 3. No painel de detalhes, na guia **Membros** , selecione **Exibir todos os proprietários e gerenciá**-los.
 
@@ -108,7 +105,7 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 - [Gerenciar grupos dinamicamente no Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=847632): confira a seção "Como posso gerenciar a associação de um grupo dinamicamente?"
 
-- Para adicionar centenas ou milhares de usuários a grupos, use o [Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191).
+- Para adicionar centenas ou milhares de usuários a grupos, use o [Add-UnifiedGroupLinks](https://docs.microsoft.com/powershell/module/exchange/add-unifiedgrouplinks).
 
 - [Atribuir um novo proprietário a um grupo órfão](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 

@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 59106567e18895f5983b692bbdd03c6853b92341
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5469143e0a924478e0bbb7285ac607095d4a169f
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845835"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659721"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -32,11 +32,11 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, as
 
 No entanto, há também configurações antispam específicas que os administradores podem configurar em caixas de correio individuais no Exchange Online:
 
-- **Habilitar ou desabilitar a regra de lixo eletrônico** : a regra de lixo eletrônico é uma regra de caixa de entrada oculta chamada regra de lixo eletrônico habilitada por padrão em todas as caixas de correio. A regra de lixo eletrônico controla os seguintes recursos:
+- **Habilitar ou desabilitar a regra de lixo eletrônico**: a regra de lixo eletrônico é uma regra de caixa de entrada oculta chamada regra de lixo eletrônico habilitada por padrão em todas as caixas de correio. A regra de lixo eletrônico controla os seguintes recursos:
 
   - **Mover mensagens para a pasta lixo eletrônico com base nas políticas** antispam: quando uma política antispam é configurada com a ação **mover mensagem para a pasta lixo eletrônico** para uma veredicto de filtragem de spam, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico após a mensagem ser entregue à caixa de correio. Para obter mais informações sobre a filtragem de spam verdicts em políticas antispam, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md). Da mesma forma, se a limpeza automática de zero horas (ZAP) determina que uma mensagem entregue é spam ou phishing, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico para **mover a mensagem para a pasta lixo eletrônico** filtragem spam veredicto ações. Para obter mais informações sobre ZAP, confira [exclusão automática de zero horas (zap) no Exchange Online](zero-hour-auto-purge.md).
 
-  - **Configurações de lixo eletrônico que os usuários configuram para si mesmos no Outlook ou no Outlook na Web** : o _conjunto_ de listas seguras é a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados em cada caixa de correio. As entradas nessas listas determinam se a regra de lixo eletrônico move a mensagem para a caixa de entrada ou para a pasta lixo eletrônico. Os usuários podem configurar a coleção de lista segura para sua própria caixa de correio no Outlook ou no Outlook na Web (anteriormente conhecido como Outlook Web App). Os administradores podem configurar a coleção de lista segura na caixa de correio de qualquer usuário.
+  - **Configurações de lixo eletrônico que os usuários configuram para si mesmos no Outlook ou no Outlook na Web**: o _conjunto_ de listas seguras é a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados em cada caixa de correio. As entradas nessas listas determinam se a regra de lixo eletrônico move a mensagem para a caixa de entrada ou para a pasta lixo eletrônico. Os usuários podem configurar a coleção de lista segura para sua própria caixa de correio no Outlook ou no Outlook na Web (anteriormente conhecido como Outlook Web App). Os administradores podem configurar a coleção de lista segura na caixa de correio de qualquer usuário.
 
 Quando a regra de lixo eletrônico está habilitada na caixa de correio, o EOP é capaz de mover mensagens para a pasta lixo eletrônico com base na ação de filtro de spam veredicto **mover mensagem para a pasta lixo** eletrônico ou para a lista de remetentes bloqueados na caixa de correio e impedir que mensagens sejam entregues à pasta lixo eletrônico (com base na lista de remetentes confiáveis na caixa de correio)
 
@@ -45,13 +45,13 @@ Quando a regra de lixo eletrônico está habilitada na caixa de correio, o EOP �
 Os administradores podem usar o PowerShell do Exchange Online para desabilitar, habilitar e exibir o status da regra de lixo eletrônico em caixas de correio. Os administradores também podem usar o PowerShell do Exchange Online para configurar entradas na coleção de lista segura em caixas de correio (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados).
 
 > [!NOTE]
-> As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis irão ignorar a filtragem de conexão como parte do EOP (o SCL é-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção  [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , posteriormente neste tópico. Filtragem de política, filtragem de conteúdo e o defender para Office 365 as verificações ainda serão aplicadas às mensagens.
+> As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis irão ignorar a filtragem de conexão como parte do EOP (o SCL é-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção  [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , mais adiante neste artigo. Filtragem de política, filtragem de conteúdo e o defender para Office 365 as verificações ainda serão aplicadas às mensagens.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Você só pode usar o PowerShell do Exchange Online para fazer os procedimentos neste artigo. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa ter permissões para poder executar estes procedimentos. Especificamente, você precisará da função de **destinatários de email** (atribuída aos grupos de função **Gerenciamento da organização** , gerenciamento de **destinatários** e **destinatários de email personalizados** por padrão) ou à função **Opções do usuário** (atribuída aos grupos de funções Gerenciamento da **organização** e **suporte técnico** por padrão). Para adicionar usuários a grupos de funções no Exchange Online, confira [modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que um usuário com permissões padrão pode executar esses mesmos procedimentos em suas próprias caixas de correio, desde que eles tenham [acesso ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
+- Você precisa receber permissões no Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisará da função de **destinatários de email** (atribuída aos grupos de função **Gerenciamento da organização**, gerenciamento de **destinatários** e **destinatários de email personalizados** por padrão) ou à função **Opções do usuário** (atribuída aos grupos de funções Gerenciamento da **organização** e **suporte técnico** por padrão). Para adicionar usuários a grupos de funções no Exchange Online, confira [modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que os usuários com permissões padrão podem executar esses mesmos procedimentos em suas próprias caixas de correio, desde que eles tenham [acesso ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
 
 - Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
@@ -86,7 +86,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 >
 > - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar o comando anterior. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SilentlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 >
-> - Mesmo que você desabilite a regra de lixo eletrônico, o filtro de lixo eletrônico do Outlook (dependendo de como ela é configurada) também pode determinar se uma mensagem é spam e se pode mover mensagens para a caixa de entrada ou pasta de lixo eletrônico com base no seu próprio spam veredicto e a coleção SafeList na caixa de correio. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
+> - Mesmo que você desabilite a regra de lixo eletrônico, o filtro de lixo eletrônico do Outlook (dependendo de como ela é configurada) também pode determinar se uma mensagem é spam e se pode mover mensagens para a caixa de entrada ou pasta de lixo eletrônico com base no seu próprio spam veredicto e a coleção SafeList na caixa de correio. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste artigo.
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
@@ -112,7 +112,7 @@ A coleção de lista segura em uma caixa de correio inclui a lista de remetentes
 |_TrustedSendersAndDomains_<sup>\*</sup>|**Não mover email desses remetentes para a pasta lixo eletrônico**|
 |
 
-<sup>\*</sup>**Observações** :
+<sup>\*</sup>**Observações**:
 
 - No Exchange Online, **as entradas de domínio** na lista de remetentes confiáveis ou no parâmetro _TrustedSendersAndDomains_ não são reconhecidas, portanto, somente use endereços de email. Em EOP autônomos com sincronização de diretório, as entradas de domínio não são sincronizadas por padrão, mas você pode habilitar a sincronização para domínios. Para obter mais informações, consulte [KB3019657](https://support.microsoft.com/help/3019657).
 
@@ -150,9 +150,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 >
 > - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar os comandos anteriores. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SilentlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 >
-> - Mesmo se a regra de lixo eletrônico estiver desabilitada na caixa de correio, você ainda poderá configurar a coleção de listas seguras e o filtro de lixo eletrônico do Outlook poderá mover mensagens para a caixa de entrada ou para a pasta lixo eletrônico. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
+> - Mesmo se a regra de lixo eletrônico estiver desabilitada na caixa de correio, você ainda poderá configurar a coleção de listas seguras e o filtro de lixo eletrônico do Outlook poderá mover mensagens para a caixa de entrada ou para a pasta lixo eletrônico. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste artigo.
 >
-> - O filtro de lixo eletrônico do Outlook tem configurações de coleção de listas seguras adicionais (por exemplo, **adicionar automaticamente pessoas que eu email à lista de remetentes confiáveis** ). Para obter mais informações, consulte [usar filtros de lixo eletrônico para controlar quais mensagens você vê](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077).
+> - O filtro de lixo eletrônico do Outlook tem configurações de coleção de listas seguras adicionais (por exemplo, **adicionar automaticamente pessoas que eu email à lista de remetentes confiáveis**). Para obter mais informações, consulte [usar filtros de lixo eletrônico para controlar quais mensagens você vê](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077).
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
@@ -174,9 +174,9 @@ Para verificar se você configurou com êxito a coleção de lista segura em uma
 
 Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o Microsoft 365 aplicativos para Enterprise, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030) e [como implantar configurações de lixo eletrônico, como a lista de remetentes confiáveis, usando a política de grupo](https://support.microsoft.com/help/2252421).
 
-Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas opções de opções de lixo eletrônico **doméstica** \> **Junk** \> **Junk E-Mail Options** \> **Options** , o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
+Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas opções de opções de lixo eletrônico **doméstica** \>  \>  \> , o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
 
-Quando o filtro de lixo eletrônico do Outlook é definido como **baixo** ou **alto** , o filtro de lixo eletrônico do Outlook usa sua própria tecnologia de Filtro SmartScreen para identificar e mover spam para a pasta lixo eletrônico. Essa classificação de spam é separada do nível de confiança de spam (SCL) determinado pelo EOP. Na verdade, o Outlook ignora o SCL de EOP (a menos que EOP marcou a mensagem para ignorar a filtragem de spam) e usa seus próprios critérios para determinar se a mensagem é spam. Obviamente, é possível que o veredicto de spam do EOP e do Outlook seja o mesmo. Para obter mais informações sobre essas configurações, consulte [alterar o nível de proteção no filtro de lixo eletrônico](https://support.microsoft.com/office/e89c12d8-9d61-4320-8c57-d982c8d52f6b).
+Quando o filtro de lixo eletrônico do Outlook é definido como **baixo** ou **alto**, o filtro de lixo eletrônico do Outlook usa sua própria tecnologia de Filtro SmartScreen para identificar e mover spam para a pasta lixo eletrônico. Essa classificação de spam é separada do nível de confiança de spam (SCL) determinado pelo EOP. Na verdade, o Outlook ignora o SCL de EOP (a menos que EOP marcou a mensagem para ignorar a filtragem de spam) e usa seus próprios critérios para determinar se a mensagem é spam. Obviamente, é possível que o veredicto de spam do EOP e do Outlook seja o mesmo. Para obter mais informações sobre essas configurações, consulte [alterar o nível de proteção no filtro de lixo eletrônico](https://support.microsoft.com/office/e89c12d8-9d61-4320-8c57-d982c8d52f6b).
 
 > [!NOTE]
 > Em novembro de 2016, a Microsoft parou de produzir atualizações de definição de spam para os filtros SmartScreen no Exchange e no Outlook. As definições existentes de spam do SmartScreen foram deixadas no local, mas sua eficácia provavelmente será prejudicada ao longo do tempo. Para obter mais informações, consulte [Substituição do suporte para SmartScreen no Outlook e no Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/deprecating-support-for-smartscreen-in-outlook-and-exchange/ba-p/605332).

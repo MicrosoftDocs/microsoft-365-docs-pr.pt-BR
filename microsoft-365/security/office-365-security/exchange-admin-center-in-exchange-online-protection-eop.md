@@ -1,5 +1,5 @@
 ---
-title: Centro de administração do Exchange no EOP standalone
+title: Centro de administração do Exchange no EOP autônomo
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,14 +16,14 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a interface de gerenciamento da Web no proteção autônoma do Exchange Online (EOP).
-ms.openlocfilehash: 732991befa9084b62c152295d10a2bbf94bc36ec
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fc76ecd6dafcf9453a0c6de14917c96c950f8370
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202946"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659661"
 ---
-# <a name="exchange-admin-center-in-standalone-eop"></a>Centro de administração do Exchange no EOP standalone
+# <a name="exchange-admin-center-in-standalone-eop"></a>Centro de administração do Exchange no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -54,7 +54,7 @@ Clientes autônomos do EOP podem acessar o Eat usando os seguintes métodos:
 
 Esta seção descreve os elementos da interface do usuário encontrados no EAC.
 
-![EOP-AdminCenter](../../media/EOP-AdminCenter.png)
+![O centro de administração do Exchange no Exchange Online Protection](../../media/EOP-AdminCenter.png)
 
 ### <a name="feature-pane"></a>Painel de recursos
 
@@ -107,16 +107,12 @@ Quando você seleciona um objeto na exibição de lista, informações sobre ess
 
 ### <a name="me-tile-and-help"></a>Bloco Eu e Ajuda
 
-O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No **Help** ![ menu suspenso do ícone ajuda da ajuda ](../../media/ITPro-EAC-HelpIcon.gif) , é possível executar as seguintes ações:
+O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No  ![ menu suspenso do ícone ajuda da ajuda ](../../media/ITPro-EAC-HelpIcon.gif) , você pode executar as seguintes ações:
 
 - **Ajuda**: clique ![ no ícone ajuda ](../../media/ITPro-EAC-HelpIcon.gif) para exibir o conteúdo da ajuda online.
-
 - **Feedback**: deixar comentários.
-
 - **Comunidade**: poste uma pergunta para localizar respostas nos fóruns da Comunidade.
-
 - **Desabilitar bolha de ajuda**: a bolha de ajuda exibe a ajuda contextual para os campos quando você cria ou edita um objeto. Você pode desativar a bolha de Ajuda ou ativá-la se tiver sido desabilitada.
-
 - **Show Command Logging**: uma nova janela é aberta e mostra os comandos equivalentes do PowerShell com base no que você configurou no Eat.
 
 ## <a name="supported-browsers"></a>Navegadores com suporte

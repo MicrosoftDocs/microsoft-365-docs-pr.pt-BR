@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários na proteção do Exchange Online (EOP). Os administradores nas organizações com o Microsoft defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
-ms.openlocfilehash: 8f4ca5caef9bf244315db2271011126ad4d7976e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 5f4d63576e57ac50abe1ec1eb378221c4d457280
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616771"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659981"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -44,14 +44,21 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões antes de gerenciar a quarentena como um administrador. As permissões são controladas pela função de **quarentena** no centro de conformidade de & de segurança. Por padrão, essa função é atribuída aos grupos de função **Gerenciamento da organização** (administradores globais), **administrador de quarentena** e administrador de **segurança** no centro de conformidade do & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
+  - Para executar a ação em mensagens em quarentena para todos os usuários, você precisa ser membro dos grupos de função de **Gerenciamento da organização**, **administrador de segurança** ou **administrador de quarentena** <sup>\*</sup> .
+  - Para acesso somente leitura a mensagens em quarentena para todos os usuários, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
+
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+
+  **Observações**:
+
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  - <sup>\*</sup> Os membros do grupo de função **administrador de quarentena** também precisam ser membros do grupo de função **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) para fazer procedimentos de quarentena no PowerShell do Exchange Online.
 
 - As mensagens em quarentena são mantidas por um período de tempo padrão antes de serem excluídas automaticamente:
-
   - 30 dias para mensagens em quarentena por políticas antispam (spam, phishing e email em massa). Este é o valor padrão e máximo. Para configurar (reduzir) esse valor, consulte [Configure anti-spam Policies](configure-your-spam-filter-policies.md).
-
   - 15 dias para mensagens que contenham malware.
-
   - 15 dias para arquivos colocados em quarentena pela ATP para SharePoint, OneDrive e Microsoft Teams no defender para Office 365.
 
   Quando uma mensagem expira da quarentena, não é possível recuperá-la.
@@ -99,10 +106,10 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
      - **Spam**
      - **Phishing de alta confiança**
 
-   - **Tipo de política**: filtrar mensagens por tipo de política:
+   - **Tipo de Política**: Filtre mensagens por tipo de política:
      - **Política Antimalware**
      - **Política de anexos seguros**
-     - **Política de anti-golpe**
+     - **Política Anti-phish**:
      - **Política de filtro de conteúdo hospedado** (política antispam)
      - **Regra de transporte**
 
@@ -118,7 +125,7 @@ Você exibir e gerenciar mensagens em quarentena no centro de conformidade e seg
 
    - **Endereço de e-mail do remetente**: o endereço de e-mail de um único remetente.
 
-   - **Nome da política**: Use o nome de política completo da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
+   - **Nome da política**: Use o nome completo da política da mensagem. A pesquisa não diferencia maiúsculas de minúsculas.
 
    - **Endereço de e-mail do destinatário**: o endereço de e-mail de um único destinatário.
 

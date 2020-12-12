@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba como impedir que convidados sejam adicionados a um grupo específico
-ms.openlocfilehash: 99e78932b29d25054922b56fcadb608a7dfca432
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 8bee26bf5ec323536ca1ac6f25ce96927634cee7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613051"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49660043"
 ---
 # <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Impedir que convidados sejam adicionados a um grupo do Microsoft 365 específico ou a uma equipe do Microsoft Teams
 
@@ -30,7 +30,7 @@ Se você usar rótulos de confidencialidade em sua organização, recomendamos u
 
 ## <a name="change-group-settings-using-microsoft-powershell"></a>Alterar as configurações de grupo usando o Microsoft PowerShell
 
-Você também pode impedir a adição de novos convidados a grupos individuais usando o PowerShell.
+Você também pode impedir a adição de novos convidados a grupos individuais usando o PowerShell. (Lembre-se de que o site do SharePoint associado à equipe tem [controles de compartilhamento de convidados separados](https://docs.microsoft.com/sharepoint/change-external-sharing-site).)
 
 Você deve usar a versão de visualização do [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (nome do módulo **AzureADPreview**) para alterar a configuração de acesso de convidados em nível de Grupo:
 

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber como identificar grupos específicos de usuários com marcas de usuário no Microsoft defender para Office 365 plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft defender para Office 365 para identificar rapidamente os usuários marcados.
-ms.openlocfilehash: 136de95addae7dcd48de2c6ac1f30ce67714817c
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: ad06bf90f1ecb93d671bfcad6fad0b4f2a952cb2
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49552014"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663602"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft defender para Office 365
 
@@ -44,19 +44,27 @@ Após aplicar marcas de sistema ou marcas personalizadas aos usuários, você po
 
 Este artigo explica como configurar marcas de usuário no centro de conformidade de & de segurança. Não há cmdlets no centro de conformidade & segurança para gerenciar marcas de usuário.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **marcas do usuário** , abra <https://protection.office.com/userTags> .
 
-- Para criar, modificar ou remover **marcas de usuário personalizadas**, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** no centro de conformidade de & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
+  - Para criar, modificar e excluir marcas de usuário, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** .
+  - Para adicionar e remover membros de marcas de usuário existentes, você precisa ser membro dos grupos de função de **Gerenciamento da organização**, **administrador de segurança** ou operador de **segurança**
+  - Para acesso somente leitura às marcas do usuário, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
-- Para configurar contas de prioridade (marcas de sistema), você precisa ser um [administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) ou um [administrador do Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator).
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-  Você também pode gerenciar e monitorar contas de prioridade no centro de administração do Microsoft 365. Para obter instruções, consulte [gerenciar e monitorar contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts).
+  **Observações**:
+
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O gerenciamento de marcas de usuário é controlado pelas funções **leitor de marca**, **colaborador** e **Gerenciador de marcas** .
+
+- Você também pode gerenciar e monitorar contas de prioridade no centro de administração do Microsoft 365. Para obter instruções, consulte [gerenciar e monitorar contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts).
 
 ## <a name="use-the-security-center-to-create-user-tags"></a>Usar a central de segurança para criar marcas de usuário
 
-1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> **User tags**.
+1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> .
 
 2. Na página **marcas de usuário** que é aberta, clique em **criar marca**.
 
@@ -87,7 +95,7 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
 ## <a name="use-the-security-center-to-view-user-tags"></a>Usar a central de segurança para exibir marcas de usuário
 
-1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> **User tags**.
+1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> .
 
 2. Na página **marcas de usuário** que é aberta, selecione a marca de usuário que você deseja exibir (não clique na caixa de seleção).
 
@@ -97,7 +105,7 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
 ## <a name="use-the-security-center-to-modify-user-tags"></a>Usar a central de segurança para modificar marcas de usuário
 
-1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> **User tags**.
+1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> .
 
 2. Na página **marcas de usuário** que é aberta, selecione a marca de usuário que você deseja exibir e clique em **Editar marca**.
 
@@ -109,6 +117,6 @@ Este artigo explica como configurar marcas de usuário no centro de conformidade
 
 **Observação**: não é possível remover a marca de **conta de prioridade** interna.
 
-1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> **User tags**.
+1. Na central de segurança, vá para as marcas de usuário do gerenciamento de **ameaças** \> .
 
 2. Na página **marcas de usuário** que é aberta, selecione a marca de usuário que você deseja remover, clique em **excluir marca** e selecione **Sim, remova** o aviso exibido.

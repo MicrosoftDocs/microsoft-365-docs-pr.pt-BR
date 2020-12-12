@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: 0c01afff2e9e5a656099192f3867bb3a6f1cee23
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 7327768780e5db16e09e2b709c9c11344573c404
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568585"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659820"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -36,7 +36,7 @@ Ao enviar um email, você receberá informações sobre qualquer política que p
 
 Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Microsoft, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **envio** , use <https://protection.office.com/reportsubmission> .
 
@@ -46,13 +46,13 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
   - **Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-    Observe que a associação ao grupo de funções é necessária para [Exibir envios de usuários para a caixa de correio personalizada](#view-user-submissions-to-the-custom-mailbox) , conforme descrito mais adiante neste tópico.
+    Observe que a associação ao grupo de funções é necessária para [Exibir envios de usuários para a caixa de correio personalizada](#view-user-submissions-to-the-custom-mailbox) , conforme descrito mais adiante neste artigo.
 
 - Para obter mais informações sobre como os usuários podem enviar mensagens e arquivos para a Microsoft, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Relatar conteúdo suspeito para a Microsoft
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
+1. No centro de conformidade & segurança, vá para  \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
 
 2. Use um novo submenu de **envio** que parece enviar a mensagem, a URL ou o anexo, conforme descrito nas seções a seguir.
 
@@ -111,7 +111,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="view-admin-submissions"></a>Exibir envios de administradores
 
-No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
+No centro de conformidade & segurança, vá para  \> **envios** de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
 
 Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **ID de envio** (um valor de GUID que é atribuído a cada envio) inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
@@ -192,7 +192,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 
 Se você tiver implantado o [suplemento de mensagem de relatório](enable-the-report-message-add-in.md)ou se as pessoas usarem [relatórios internos no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), você poderá ver quais usuários estão relatando na guia **envios** de usuários.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças.
+1. No centro de conformidade & segurança, vá para  \> **envios** de gerenciamento de ameaças.
 
 2. Selecione a guia envios de **usuário** e clique em **novo envio**.
 
@@ -212,7 +212,7 @@ Próximo à parte superior da página, você pode inserir uma data de início, u
 Para alterar os critérios de filtro, clique no botão **remetente** e escolha um dos seguintes valores:
 
 - **Domínio do remetente**
-- **Subject**
+- **Assunto**
 - **Enviado por**
 - **Tipo de envio**
 - **IP do remetente**
@@ -225,7 +225,7 @@ Para exportar os resultados, clique em **Exportar** próximo à parte superior d
 
 **Se** você [configurou uma caixa de correio personalizada](user-submission.md) para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **envios** de gerenciamento de ameaças.
+1. No centro de conformidade & segurança, vá para  \> **envios** de gerenciamento de ameaças.
 
 2. Selecione a guia **caixa de correio personalizada** .
 

@@ -9,12 +9,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bd775e201f5fec556941ae0e8e7b025744da0419
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 322a46ce48cce4d080e51f482178462934d5c8f2
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529428"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659709"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 
@@ -22,7 +22,7 @@ ms.locfileid: "46529428"
 
 <!--Application addendum -->
  
-O Microsoft Managed desktop exige que possamos gerenciar dispositivos usando uma abordagem específica para garantir o desempenho, a confiabilidade e a capacidade de manutenção dos dispositivos. Se você tiver certeza de que a abordagem realizada pela Microsoft Managed desktop para as áreas abaixo não funcionará, você poderá solicitar uma [exceção ao plano de serviço](customizing.md).
+O Microsoft Managed desktop exige que possamos gerenciar dispositivos usando uma abordagem específica para garantir o desempenho, a confiabilidade e a capacidade de manutenção dos dispositivos.
 
 
 |Área de gerenciamento  |Abordagem da área de trabalho gerenciada da Microsoft  |
@@ -35,12 +35,10 @@ O Microsoft Managed desktop exige que possamos gerenciar dispositivos usando uma
 |Segurança da rede     | Consulte [segurança de rede](security.md#network-security)        |
 |Segurança de informações     |  Consulte [segurança de informações](security.md#information-security)       |
 |Recuperação de dados     | OneDrive for Business        |
-|Produtividade principal     | Microsoft 365 Apps para Grandes Empresas    |
+|Produtividade principal     | Microsoft 365 Apps para empresas    |
 |Navegador     | Microsoft Edge        |
 
 
 
 
-A área de trabalho gerenciada da Microsoft pode monitorar outros softwares em execução em dispositivos gerenciados. Se isso afetar negativamente a segurança, o desempenho ou a confiabilidade do sistema, talvez seja necessário solicitar uma exceção ao plano de serviço.
-
-
+A área de trabalho gerenciada da Microsoft pode monitorar outros softwares em execução em dispositivos gerenciados. Se isso afetar negativamente o gerenciamento de dispositivos, a segurança de dispositivos, o desempenho ou a confiabilidade, você poderá precisar solicitar uma [exceção para o plano de serviço](customizing.md).
