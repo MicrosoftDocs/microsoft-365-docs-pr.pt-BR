@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Os administradores podem aprender a exibir e pesquisar o log de auditoria do administrador no Exchange Online Protection (EOP) autônomo.
-ms.openlocfilehash: 9fe2c742083cde1ca36f6a04cd357a473a10aeac
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c65c09efa0f90fc9b63d635dae598b24d93ea714
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196538"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659436"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>Exibir o log de auditoria de administradores no EOP autônomo
 
@@ -32,26 +32,26 @@ O log de auditoria de administrador registra ações específicas, com base nos 
 >
 > - O log de auditoria de administrador é habilitado por padrão e não pode ser desabilitado.
 >
-> - O log de auditoria do administrador não registra ações com base nos cmdlets que começam com os verbos **Get**, **Search**ou **Test**.
+> - O log de auditoria do administrador não registra ações com base nos cmdlets que começam com os verbos **Get**, **Search** ou **Test**.
 >
 > - As entradas do log de auditoria são armazenadas por 90 dias. Quando uma entrada é mais antiga que 90 dias, ela é excluída
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para abrir o centro de administração do Exchange, confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
 - Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa da função logs de auditoria ou de logs de auditoria somente para exibição, que são atribuídos aos grupos de função ComplianceManagement, gerenciamento (administradores globais) e SecurityAdministrator por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- Você precisa receber permissões na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisa da **função logs de auditoria** ou de **logs de auditoria somente para exibição** , que são atribuídos aos grupos de função de gerenciamento de **organização**, gerenciamento de **conformidade** e **administrador de segurança** por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
+- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste artigo, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
 > Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
 
 ## <a name="use-the-eac-to-view-the-admin-audit-log"></a>Use o Eat para exibir o log de auditoria de administrador
 
-1. No Eat, vá para auditoria de **Gerenciamento de conformidade** \> **Auditing**e, em seguida, escolha **executar o relatório de log de auditoria do administrador**.
+1. No Eat, vá para auditoria de **Gerenciamento de conformidade** \> e, em seguida, escolha **executar o relatório de log de auditoria do administrador**.
 
 2. Na página **Pesquisar alterações nos grupos de funções de administrador** que é aberta, escolha uma **data de início** e uma **data de término** (o intervalo padrão é as duas últimas semanas) e, em seguida, escolha **Pesquisar**. Todas as alterações de configuração feitas durante o período especificado são exibidas e podem ser classificadas com as seguintes informações:
 
@@ -112,7 +112,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Search-Adm
 
 ### <a name="view-details-of-audit-log-entries"></a>Exibir detalhes de entradas de log de auditoria
 
-O cmdlet **Search-AdminAuditLog** retorna os campos descritos na seção [conteúdo do log de auditoria](#audit-log-contents) mais adiante neste tópico. Dos campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **modificados**, contêm informações adicionais que não são retornadas por padrão.
+O cmdlet **Search-AdminAuditLog** retorna os campos descritos na seção [conteúdo do log de auditoria](#audit-log-contents) mais adiante neste artigo. Dos campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **modificados**, contêm informações adicionais que não são retornadas por padrão.
 
 Para exibir o conteúdo dos campos **CmdletParameters** e **ModifiedProperties**, siga as etapas na sequência.
 

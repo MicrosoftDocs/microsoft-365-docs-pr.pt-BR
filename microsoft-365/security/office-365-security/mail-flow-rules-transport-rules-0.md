@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização.
-ms.openlocfilehash: 11bf2af56c6e85c868e2e0726736f624e196805c
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 6bbf50b1a99b6691e959f6dcd4cfce33686a0014
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021044"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659189"
 ---
 # <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>Regras de fluxo de email (regras de transporte) no EOP autônomo
 
@@ -56,19 +56,19 @@ O vídeo a seguir fornece uma demonstração da configuração de regras de flux
 
 Um regra de fluxo de emails é formada por condições, exceções, ações e propriedades:
 
-- **Condições** : identifique as mensagens às quais você deseja aplicar as ações. Algumas condições examinam campos de cabeçalhos de mensagens (por exemplo, os campos Para, De ou Cc). Outras condições examinam propriedades de mensagens (por exemplo, assunto, corpo, anexos, tamanho e classificação da mensagem). A maioria das condições exige que você especifique um operador de comparação (por exemplo, igual a, diferente de ou contém) e um valor a ser correspondido. Se não houver condições ou exceções, a regra será aplicada a todas as mensagens.
+- **Condições**: identifique as mensagens às quais você deseja aplicar as ações. Algumas condições examinam campos de cabeçalhos de mensagens (por exemplo, os campos Para, De ou Cc). Outras condições examinam propriedades de mensagens (por exemplo, assunto, corpo, anexos, tamanho e classificação da mensagem). A maioria das condições exige que você especifique um operador de comparação (por exemplo, igual a, diferente de ou contém) e um valor a ser correspondido. Se não houver condições ou exceções, a regra será aplicada a todas as mensagens.
 
 Para obter mais informações sobre as condições de regra de fluxo de emails no EOP autônomo, consulte [Mail Flow Rule Conditions and exceptions (predicates) no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
-- **Exceções** : opcionalmente, identifique as mensagens às quais as ações não devem se aplicar. Os mesmos identificadores de mensagens disponíveis nas condições também estão disponíveis nas exceções. As exceções substituem as condições e impedem que as ações da regra sejam aplicadas a uma mensagem, mesmo que a mensagem atenda a todas as condições configuradas.
+- **Exceções**: opcionalmente, identifique as mensagens às quais as ações não devem se aplicar. Os mesmos identificadores de mensagens disponíveis nas condições também estão disponíveis nas exceções. As exceções substituem as condições e impedem que as ações da regra sejam aplicadas a uma mensagem, mesmo que a mensagem atenda a todas as condições configuradas.
 
-- **Ações** : especifique o que fazer às mensagens que correspondam às condições da regra e não correspondem a nenhuma das exceções. Há muitas ações disponíveis, como rejeitar, excluir ou redirecionar mensagens, incluir destinatários adicionais, incluir prefixos no assunto da mensagem ou inserir avisos de isenção legal no corpo da mensagem.
+- **Ações**: especifique o que fazer às mensagens que correspondam às condições da regra e não correspondem a nenhuma das exceções. Há muitas ações disponíveis, como rejeitar, excluir ou redirecionar mensagens, incluir destinatários adicionais, incluir prefixos no assunto da mensagem ou inserir avisos de isenção legal no corpo da mensagem.
 
 Para obter mais informações sobre ações de regra de fluxo de emails disponíveis em EOP autônomos, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
-- **Propriedades** : especifique outras configurações de regras que não sejam condições, exceções ou ações. Por exemplo, quando a regra deve ser aplicada, se devemos impor ou testar a regra e o período em que a regra é ativa.
+- **Propriedades**: especifique outras configurações de regras que não sejam condições, exceções ou ações. Por exemplo, quando a regra deve ser aplicada, se devemos impor ou testar a regra e o período em que a regra é ativa.
 
-  Para obter mais informações, confira a seção [Propriedades de regras de fluxo de email](#mail-flow-rule-properties) neste tópico.
+  Para obter mais informações, consulte a seção [Propriedades da regra de fluxo de email](#mail-flow-rule-properties) neste artigo.
 
 ### <a name="multiple-conditions-exceptions-and-actions"></a>Várias condições, exceções e ações
 
@@ -104,7 +104,7 @@ A tabela a seguir descreve as propriedades das regras que estão disponíveis na
 
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>Como as regras de fluxo de emails são aplicadas a mensagens
 
-Todas as mensagens que fluem por sua organização são avaliadas pelas regras de fluxo de emails habilitadas para a sua organização. As regras são processadas na ordem listada na página de regras de **fluxo de emails** \> **Rules** no Eat ou com base no valor do parâmetro _Priority_ correspondente no PowerShell.
+Todas as mensagens que fluem por sua organização são avaliadas pelas regras de fluxo de emails habilitadas para a sua organização. As regras são processadas na ordem listada na página de regras de **fluxo de emails** \>  no Eat ou com base no valor do parâmetro _Priority_ correspondente no PowerShell.
 
 Cada regra também oferece a opção de parar o processamento de outras quando é encontrada correspondência com a regra. Esta configuração é importante para as mensagens que atendem às condições em várias regras de fluxo de emails (qual regra você deseja aplicar à mensagem? Todas? Apenas uma?).
 
@@ -116,14 +116,14 @@ Existem vários tipos de mensagens que transitam por uma organização. A tabela
 
 |Existem vários tipos de mensagens que transitam por uma organização. A tabela a seguir mostra quais tipos de mensagens podem ser processados por regras de transporte.|Tipo de mensagem|
 |---|---|
-|**Mensagens regulares** : mensagens que contêm um único corpo de mensagem em formato Rich Text (RTF), HTML ou texto sem formatação, ou um conjunto de corpos de mensagens ou de várias partes ou alternativo.|Sim|
-|**Criptografia de mensagem do office 365** : mensagens criptografadas pela criptografia de mensagem do Office 365 no Office 365. Para saber mais informações, consulte [Criptografia no Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem criptografada, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou Opcional; o padrão é Opcional). Para obter mais informações, consulte [definir regras para criptografar ou descriptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).|
+|**Mensagens regulares**: mensagens que contêm um único corpo de mensagem em formato Rich Text (RTF), HTML ou texto sem formatação, ou um conjunto de corpos de mensagens ou de várias partes ou alternativo.|Sim|
+|**Criptografia de mensagem do office 365**: mensagens criptografadas pela criptografia de mensagem do Office 365 no Office 365. Para saber mais informações, consulte [Criptografia no Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem criptografada, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou Opcional; o padrão é Opcional). Para obter mais informações, consulte [definir regras para criptografar ou descriptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).|
 |**Mensagens criptografadas em S/MIME**|As regras podem apenas acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> As regras com condições que exigem a inspeção do conteúdo da mensagem ou ações que modificam o conteúdo da mensagem não podem ser processadas.|
-|**Mensagens protegidas por RMS** : mensagens que tinham uma política do Active Directory Rights Management Services (AD RMS) ou do Azure Rights Management (RMS) aplicada.|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem protegida por RMS, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou opcional; o padrão é opcional).|
-|**Mensagens com assinatura limpa** : mensagens que foram assinadas, mas não foram criptografadas.|Sim|
-|**Mensagens de um** : mensagens criadas ou processadas pelo serviço de Unificação de mensagens, como caixa postal, fax, notificações de chamadas não atendidas e mensagens criadas ou encaminhadas usando o Microsoft Outlook Voice Access.|Sim|
-|**Mensagens anônimas** : mensagens enviadas por remetentes anônimos.|Sim|
-|**Ler relatórios** : relatórios gerados em resposta às solicitações de confirmação de leitura pelos remetentes. Os relatórios de leitura têm uma classe de mensagem de `IPM.Note*.MdnRead` ou `IPM.Note*.MdnNotRead` .|Sim|
+|**Mensagens protegidas por RMS**: mensagens que tinham uma política do Active Directory Rights Management Services (AD RMS) ou do Azure Rights Management (RMS) aplicada.|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem protegida por RMS, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou opcional; o padrão é opcional).|
+|**Mensagens com assinatura limpa**: mensagens que foram assinadas, mas não foram criptografadas.|Sim|
+|**Mensagens de um**: mensagens criadas ou processadas pelo serviço de Unificação de mensagens, como caixa postal, fax, notificações de chamadas não atendidas e mensagens criadas ou encaminhadas usando o Microsoft Outlook Voice Access.|Sim|
+|**Mensagens anônimas**: mensagens enviadas por remetentes anônimos.|Sim|
+|**Ler relatórios**: relatórios gerados em resposta às solicitações de confirmação de leitura pelos remetentes. Os relatórios de leitura têm uma classe de mensagem de `IPM.Note*.MdnRead` ou `IPM.Note*.MdnNotRead` .|Sim|
 |
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?

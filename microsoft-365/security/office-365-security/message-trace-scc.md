@@ -13,12 +13,12 @@ ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 46aa454ff709e9b17c3b18992757a9a4c3a51247
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 455a1e22ff67ec47e1a6292c962d2a276ec54a64
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616747"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658983"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
@@ -85,7 +85,7 @@ O valor padrão é **2 dias**, mas você pode especificar intervalos de data/hor
 
   Por 10 dias ou menos, os resultados estão disponíveis instantaneamente como um relatório de **Resumo** . Se você especificar um intervalo de tempo que é um pouco maior do que 10 dias, os resultados serão atrasados, já que estão disponíveis apenas como um arquivo CSV que pode ser baixado ( **Resumo avançado** ou relatórios **estendidos** ).
 
-  Para obter mais informações sobre os diferentes tipos de relatórios, consulte a seção [escolher tipo de relatório](#choose-report-type) neste tópico.
+  Para obter mais informações sobre os diferentes tipos de relatórios, consulte a seção [escolher tipo de relatório](#choose-report-type) neste artigo.
 
   **Observação**: o resumo avançado e os relatórios estendidos são preparados usando dados de rastreamento de mensagem arquivados e pode levar várias horas para que o relatório fique disponível para download. Dependendo de quantos outros administradores também tiverem enviado solicitações de relatório ao mesmo tempo, você também pode notar um atraso antes de o processamento começar para sua solicitação em fila.
 
@@ -185,7 +185,7 @@ Registros de mensagens relacionados são registros que compartilhavam a mesma ID
 
 Após selecionar a caixa de seleção de uma linha, você pode encontrar registros relacionados para a mensagem clicando no botão **Localizar relacionado** exibido ou selecionando **mais opções** ![ mais ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **localizar registros relacionados para esta mensagem**.
 
-Para obter mais informações sobre a ID da mensagem, consulte a seção ID da mensagem anteriormente neste tópico.
+Para obter mais informações sobre a ID da mensagem, consulte a seção ID da mensagem anteriormente neste artigo.
 
 #### <a name="message-trace-details"></a>Detalhes de rastreamento de mensagem
 
@@ -225,7 +225,7 @@ Os detalhes de rastreamento de mensagem contêm as seguintes informações adici
 
 - **Mais informações**: Esta seção contém os seguintes detalhes:
 
-  - **ID da mensagem**: esse valor é descrito na seção [ID da mensagem](#message-id) anteriormente neste tópico. Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
+  - **ID da mensagem**: esse valor é descrito na seção [ID da mensagem](#message-id) anteriormente neste artigo. Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
 
   - **Tamanho da mensagem**
 
@@ -253,7 +253,7 @@ Disponível (concluído) relatórios de resumo aprimorados estão disponíveis n
 
 - **TOTAL_BYTES**: o tamanho da mensagem em bytes, incluindo os anexos.
 
-- **message_id**: esse valor é descrito na seção [ID da mensagem](#message-id) anteriormente neste tópico. Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
+- **message_id**: esse valor é descrito na seção [ID da mensagem](#message-id) anteriormente neste artigo. Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
 
 - **network_message_id**: um valor de ID de mensagem exclusivo que persiste em todas as cópias da mensagem que podem ser criadas devido ao bifurcação ou à expansão do grupo de distribuição. Um valor de exemplo é `1341ac7b13fb42ab4d4408cf7f55890f` .
 

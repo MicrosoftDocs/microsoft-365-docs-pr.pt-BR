@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Os administradores podem saber como configurar o proteção do Exchange Online (EOP) autônomo para proteger ambientes de email locais.
-ms.openlocfilehash: ab34d715bd8196bb2376926402f6a88018d1d7ae
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 2d63057e77e6965616e19452de824a94ba0ccda8
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615667"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659412"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Configurar seu serviço EOP autônomo
 
@@ -29,7 +29,7 @@ ms.locfileid: "49615667"
 Este tópico explica como configurar o proteção do Exchange Online autônomo (EOP). Se você foi direcionado do Assistente de domínios do Office 365, volte para o Assistente de domínios do Office 365 se você não quiser usar o Proteção do Exchange Online. Se você quiser mais informações sobre como configurar conectores, confira [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
 > [!NOTE]
-> Este tópico assume que você tenha caixas de correio locais e que você queira protegê-las com a EOP, o que é conhecido como cenário autônomo. Se você deseja hospedar todas as suas caixas de correio na nuvem com o Exchange Online, não precisa concluir todas as etapas deste tópico. Vá para [comparar planos do Exchange Online](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) para inscrever-se e comprar caixas de correio na nuvem.
+> Este tópico assume que você tenha caixas de correio locais e que você queira protegê-las com a EOP, o que é conhecido como cenário autônomo. Se você deseja hospedar todas as suas caixas de correio na nuvem com o Exchange Online, não é necessário concluir todas as etapas neste artigo. Vá para [comparar planos do Exchange Online](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) para inscrever-se e comprar caixas de correio na nuvem.
 >
 > Se você quiser hospedar algumas de suas caixas de correio no local e algumas na nuvem, isso se chama cenário híbrido. Ele requer configurações de fluxo de email mais avançadas. As [implantações híbridas do Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid) explicam o fluxo de email híbrido e têm links para recursos que mostram como configurá-lo.
 
@@ -37,11 +37,11 @@ Este tópico explica como configurar o proteção do Exchange Online autônomo (
 
 - Tempo estimado para a conclusão da tarefa: 1 hora
 
-- Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa da função de domínios remotos e aceitos, que é atribuída aos grupos de função MailFlowAdministrator e gerenciamento (administradores globais) por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- Você precisa receber permissões na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisa da função de **domínios remotos e aceitos** , que é atribuída aos grupos de funções **Gerenciamento de organização** (administradores globais) e **administrador de fluxo de emails** por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
 - Se você ainda não se inscreveu na EOP, visite [Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection) para comprar ou experimentar o serviço.
 
-- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
+- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste artigo, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
 > Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).

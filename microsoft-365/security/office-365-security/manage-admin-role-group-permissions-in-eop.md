@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Os administradores podem saber como atribuir ou remover permissões no centro de administração do Exchange (Eat) na proteção do Exchange Online.
-ms.openlocfilehash: fb1e0979b77c38d852f35817e01135af888eac68
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4a1353963e5e3eadc1a07f8b4aa3a765b06c86ec
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201896"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659287"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Gerenciar grupos de funções no EOP autônomo
 
@@ -28,15 +28,15 @@ Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas d
 
 Para obter mais informações sobre funções e grupos de funções, consulte [permissões em EOP autônomo](feature-permissions-in-eop.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para abrir o centro de administração do Exchange (Eat), confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
 - Para abrir o EOP PowerShell autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa da função de gerenciamento de função, que é atribuída ao grupo de função gerenciamento (administradores globais) por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- Você precisa receber permissões na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisará da função de **Gerenciamento de função** , que é atribuída ao grupo de função de **Gerenciamento da organização** por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
+- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste artigo, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
 > Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
@@ -45,15 +45,15 @@ Para obter mais informações sobre funções e grupos de funções, consulte [p
 
 ### <a name="use-the-eac-to-view-role-groups"></a>Usar o Eat para exibir grupos de função
 
-1. No Eat, acesse funções de administrador de **permissões** \> **Admin roles**. Todos os grupos de função da sua organização estão listados aqui.
+1. No Eat, acesse funções de administrador de **permissões** \> . Todos os grupos de função da sua organização estão listados aqui.
 
-2. Selecione um grupo de função. O painel de detalhes mostra o **nome**, a **Descrição**, as **funções atribuídas**e **gerenciado pelo** grupo de função. Você também pode ver essas informações clicando em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) .
+2. Selecione um grupo de função. O painel de detalhes mostra o **nome**, a **Descrição**, as **funções atribuídas** e **gerenciado pelo** grupo de função. Você também pode ver essas informações clicando em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) .
 
 ### <a name="use-the-eac-to-create-role-groups"></a>Usar o Eat para criar grupos de função
 
 Ao criar um novo grupo de função, você pode configurar todas as configurações por conta própria (durante a criação do grupo ou após). Ou você pode copiar um grupo de função existente e modificá-lo.
 
-1. No Eat, vá para funções de administrador de **permissões** \> **Admin roles**e execute uma das seguintes etapas:
+1. No Eat, vá para funções de administrador de **permissões** \> e execute uma das seguintes etapas:
 
    - **Crie manualmente um novo grupo de funções**: clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) .
 
@@ -65,15 +65,15 @@ Ao criar um novo grupo de função, você pode configurar todas as configuraçõ
 
     - **Descrição**: Insira uma descrição opcional para o grupo de função.
 
-    - **Funções**: clique em **Adicionar** ![ ícone de adicionar ](../../media/ITPro-EAC-AddIcon.png) ou **remover** ![ITPro-EAC-RemoveIcon.gif](../../media/ITPro-EAC-RemoveIcon.gif) para selecionar ou modificar as funções atribuídas ao grupo de funções.
+    - **Funções**: clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.png) de adicionar ou **remover** ![ ícone Remover ](../../media/ITPro-EAC-RemoveIcon.gif) para selecionar ou modificar as funções atribuídas ao grupo de funções.
 
-    - **Membros**: clique em **Adicionar** ![ ícone de adicionar ](../../media/ITPro-EAC-AddIcon.png) ou **remover** ![ITPro-EAC-RemoveIcon.gif](../../media/ITPro-EAC-RemoveIcon.gif) para modificar a associação ao grupo de funções.
+    - **Membros**: clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.png) de adicionar ou **remover** ![ ícone Remover ](../../media/ITPro-EAC-RemoveIcon.gif) para modificar a associação ao grupo de funções.
 
 3. Quando tiver terminado, clique em **salvar** para criar o grupo de função.
 
 ### <a name="use-the-eac-to-modify-role-groups"></a>Use o Eat para modificar grupos de função
 
-No Eat, vá para funções de administrador de **permissões** \> **Admin roles**, selecione o grupo de função que você deseja modificar e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) .
+No Eat, vá para funções de administrador de **permissões** \> , selecione o grupo de função que você deseja modificar e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) .
 
 As mesmas opções estão disponíveis quando você modifica grupos de função como quando você cria grupos de função. Você pode:
 
@@ -87,7 +87,7 @@ As mesmas opções estão disponíveis quando você modifica grupos de função 
 
 #### <a name="use-the-eac-modify-the-list-of-members-in-role-groups"></a>Usar o Eat modificar a lista de membros nos grupos de função
 
-1. No Eat, vá para funções de administrador de **permissões** \> **Admin roles**, selecione o grupo de função que você deseja modificar e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) .
+1. No Eat, vá para funções de administrador de **permissões** \> , selecione o grupo de função que você deseja modificar e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) .
 
 2. Na página de propriedades do grupo de funções que é aberta, na seção **Membros** , execute uma das seguintes etapas:
 
@@ -104,7 +104,7 @@ As mesmas opções estão disponíveis quando você modifica grupos de função 
 
 Não é possível remover grupos de função internos, mas você pode remover grupos de função personalizados que você criou.
 
-1. No Eat, acesse funções de administrador de **permissões** \> **Admin roles**.
+1. No Eat, acesse funções de administrador de **permissões** \> .
 
 2. Selecione o grupo de função que você deseja remover e clique em **excluir** ![ excluir ícone ](../../media/ITPro-EAC-DeleteIcon.png) .
 
@@ -241,7 +241,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-Rol
 
 Para verificar se você copiou um grupo de funções com êxito, execute uma das seguintes etapas:
 
-- No Eat, vá para funções de administrador de **permissões** \> **Admin roles**e verifique se o grupo de função está listado (ou não listado). Selecione o grupo de funções e verifique as configurações no painel de detalhes ou clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) para verificar as configurações.
+- No Eat, vá para funções de administrador de **permissões** \> e verifique se o grupo de função está listado (ou não listado). Selecione o grupo de funções e verifique as configurações no painel de detalhes ou clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) para verificar as configurações.
 
 - No PowerShell do Exchange Online, substitua o \<Role Group Name\> nome do grupo de função e execute o seguinte comando para verificar se o grupo de função existe (ou não existe) e verifique as configurações:
 

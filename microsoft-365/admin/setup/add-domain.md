@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Adicione seu domínio ao Microsoft 365 no centro de administração do Microsoft 365 adicionando um registro DNS no seu host DNS. O assistente de instalação orienta você durante o processo.
-ms.openlocfilehash: 3a4cd31a37eb01570f58e9cdb83940640768a273
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3e7463bd4cf6b7836a9770421e0b8ce597524a67
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644610"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658046"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Adicionar um domínio ao Microsoft 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "48644610"
 
 ::: moniker-end
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](domains-faq.yml)**. 
   
  *Para adicionar, modificar ou remover domínios, você **deve** ser um **administrador global** de um [plano comercial ou empresarial](https://products.office.com/business/office). Essas alterações afetam todo o locatário, *os administradores personalizados* ou *os usuários regulares* não poderão fazer essas alterações.*  
 
@@ -75,7 +75,7 @@ ms.locfileid: "48644610"
 
 ::: moniker-end
     
-2. Vá para a página de domínios de **configurações**  >  **Domains** . 
+2. Vá para a página de domínios de **configurações**  >   . 
 
 3. Selecione **Adicionar domínio**.
     
@@ -110,7 +110,7 @@ Siga as etapas abaixo para adicionar um registro personalizado para um site ou s
 
 1. Entre no centro de administração da Microsoft em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-2. Vá para a página de domínios de **configurações**   >  **Domains** .
+2. Vá para a página de domínios de **configurações**   >   .
 
 3. Selecione um domínio na página **Domínios**. 
     
@@ -151,7 +151,7 @@ Se você tiver um site que usa com a empresa, ele continuará funcionando onde e
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Perguntas frequentes sobre domínios](domains-faq.md)
+[Perguntas frequentes sobre domínios](domains-faq.yml)
 
 [O que é um domínio?](../get-help-with-domains/what-is-a-domain.md)
 

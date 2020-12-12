@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em WiX para a Microsoft.
-ms.openlocfilehash: ee236a9178092bb8fd14a9615c2ac5911b1ecc87
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 01317f7e2da87b532c93f12269fd65b7d4fe2dd6
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645654"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656874"
 ---
 # <a name="create-dns-records-at-wix-for-microsoft"></a>Criar registros DNS no WiX para Microsoft
 
-Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se o WiX for o seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email, Skype for Business Online e assim por diante.
 
@@ -180,8 +180,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
    | Serviço | Protocolo | Nome | Peso | Porta | Target | Prioridade | TTL |
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-   |sip  |tls  |Preenchido automaticamente |1  |443   |sipdir.online.lync.com |100 |1 Hour |
-   |sipfed|tcp |Preenchido automaticamente|1 |5061 |sipfed.online.lync.com|100 | 1 Hour |
+   |sip  |tls  |Preenchido automaticamente |1   |443   |sipdir.online.lync.com |100 |1 Hour |
+   |sipfed|tcp |Preenchido automaticamente|1  |5061 |sipfed.online.lync.com|100 | 1 Hour |
    
 5. Selecione o botão **salvar DNS** na parte superior do editor de DNS. 
     

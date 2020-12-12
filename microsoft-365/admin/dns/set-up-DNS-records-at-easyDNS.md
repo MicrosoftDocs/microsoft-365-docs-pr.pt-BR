@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em easyDNS para a Microsoft.
-ms.openlocfilehash: 4909a02ec56fc9720a2636e822da0339e89bccf8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a971a722f071ef5df9ce0fba387cfacfeb409f5b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645546"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656814"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>Criar registros DNS no easyDNS para Microsoft
 
-[Verifique as perguntas frequentes sobre domínios ](../setup/domains-faq.md) se não encontrar o que você está procurando. 
+[Verifique as perguntas frequentes sobre domínios ](../setup/domains-faq.yml) se não encontrar o que você está procurando. 
   
 Você precisará adicionar todos os seguintes registros DNS no site do registrador para rotear emails para a Microsoft, usar seu domínio para o Teams e o Skype for Business e assim por diante.
   
@@ -140,8 +140,8 @@ Observação: os registros SRV não estão disponíveis no momento no easyDNS ' 
     
     |**SERVIÇO**|**PROTOCOLO**|**HOST**|**PRI**|**WGT**|**PORTA**|**TARGET (deve terminar com um ".")**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
-    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
+    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
+    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
    
 5. Selecione **Avançar**. 
     

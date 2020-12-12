@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração de tarefa, conversa e documentação com convidados no Microsoft Teams.
-ms.openlocfilehash: 7f00acb7b7b58169d6a66bfa4cabdc5a3035f67f
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: cc962e22bde70220e07f805b0a7a83c111886369
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030024"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659601"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -36,15 +36,15 @@ Este vídeo mostra as etapas de configuração descritas neste documento.</br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
 
-## <a name="azure-organizational-relationships-settings"></a>Configurações de relações organizacionais do Azure
+## <a name="azure-external-collaboration-settings"></a>Configurações de colaboração externa do Azure
 
-O compartilhamento no Microsoft 365 é regido no seu nível mais alto pelas [configurações de relações organizacionais no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, essa configuração substituirá as configurações de compartilhamento que você configurar no Microsoft 365.
+O compartilhamento no Microsoft 365 é regido em seu nível mais alto pelas [configurações de colaboração externa B2B no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, essa configuração substituirá as configurações de compartilhamento que você configurar no Microsoft 365.
 
-Verifique as configurações de relações organizacionais para garantir que o compartilhamento com convidados não seja bloqueado.
+Verifique as configurações de colaboração externa de B2B para garantir que o compartilhamento com convidados não seja bloqueado.
 
 ![Captura de tela da página de configurações das Relações Organizacionais do Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
-Para definir as configurações de relação organizacional
+Para definir configurações de colaboração externa
 
 1. Faça logon no Azure Active Directory em [https://aad.portal.azure.com](https://aad.portal.azure.com) .
 2. No painel de navegação esquerdo, clique em **Azure Active Directory**.
@@ -55,7 +55,7 @@ Para definir as configurações de relação organizacional
 
 Observe as configurações na seção **restrições de colaboração** . Certifique-se de que os domínios dos convidados com os quais você deseja colaborar não estão bloqueados.
 
-Se você trabalha com convidados de várias organizações, convém restringir sua capacidade de acessar dados de diretório. Isso impedirá que você veja quem mais é um convidado no diretório. Para fazer isso, em **restrições de acesso de usuário convidado** , selecione **os usuários convidados têm acesso limitado às propriedades e à associação de configurações de objetos de diretório** ou **o acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório**.
+Se você trabalha com convidados de várias organizações, convém restringir sua capacidade de acessar dados de diretório. Isso impedirá que você veja quem mais é um convidado no diretório. Para fazer isso, em **restrições de acesso de usuário convidado**, selecione **os usuários convidados têm acesso limitado às propriedades e à associação de configurações de objetos de diretório** ou **o acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório**.
 
 ## <a name="teams-guest-access-settings"></a>Configurações de acesso de convidados do teams
 
@@ -69,10 +69,12 @@ Para definir as configurações de acesso de convidado do Teams
 
 1. Entre no Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com).
 2. No painel de navegação esquerdo, clique em **Mostrar tudo**.
-3. Em **Centros de administração** , clique em **Teams**.
+3. Em **Centros de administração**, clique em **Teams**.
 4. No centro de administração do Microsoft Teams, no painel de navegação esquerdo, expanda **configurações de toda a organização** e clique em **acesso de convidado**.
 5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
 6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
+
+Depois que o acesso de convidados do teams estiver ativado, você pode, opcionalmente, controlar o acesso de convidados a equipes individuais e seus sites associados do SharePoint usando rótulos de confidencialidade. Para obter mais informações, consulte [usar rótulos de sensibilidade para proteger o conteúdo no Microsoft Teams, microsoft 365 Groups e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
 > Pode levar até vinte e quatro horas para que as configurações de convidados do teams se tornem ativas depois de ativá-la.
@@ -105,7 +107,7 @@ Se você quiser permitir o compartilhamento de arquivos e pastas com pessoas nã
 
 Para definir as configurações de compartilhamento no nível da organização do SharePoint
 
-1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, em **centros de administração** , clique em **SharePoint**.
+1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, em **centros de administração**, clique em **SharePoint**.
 2. No centro de administração do SharePoint, no painel de navegação esquerdo, expanda **políticas** e clique em **compartilhamento**.
 3. Verifique se o compartilhamento externo do SharePoint está definido como **qualquer pessoa** ou **novo convidado existente**.
 4. Caso tenha feito alterações, clique em **Salvar**.
@@ -129,7 +131,7 @@ Escolha qualquer um dos seguintes tipos de link que serão selecionados por padr
 Para definir as configurações de link padrão no nível da organização do SharePoint
 
 1. Navegue até a página de compartilhamento no centro de administração do SharePoint.
-2. Em **links de arquivo e pasta** , selecione o link de compartilhamento padrão que você deseja usar.
+2. Em **links de arquivo e pasta**, selecione o link de compartilhamento padrão que você deseja usar.
 3. Caso tenha feito alterações, clique em **Salvar**.
 
 ## <a name="create-a-team"></a>Criar uma equipe
@@ -148,10 +150,9 @@ Vamos convidar os usuários mais tarde. Em seguida, é importante verificar as c
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Configurações de compartilhamento no nível do site do SharePoint
 
-Verifique as configurações de compartilhamento no nível do site para garantir que elas permitam o tipo de acesso que você deseja para essa equipe. Por exemplo, se você definir as configurações de nível de organização como **qualquer pessoa** , mas quiser que todos os convidados autentiquem essa equipe, verifique se as configurações de compartilhamento no nível do site estão definidas para **convidados novos e existentes**.
+Verifique as configurações de compartilhamento no nível do site para garantir que elas permitam o tipo de acesso que você deseja para essa equipe. Por exemplo, se você definir as configurações de nível de organização como **qualquer pessoa**, mas quiser que todos os convidados autentiquem essa equipe, verifique se as configurações de compartilhamento no nível do site estão definidas para **convidados novos e existentes**.
 
 ![Captura de tela das configurações de compartilhamento de site externo do SharePoint](../media/sharepoint-site-external-sharing-settings.png)
-
 
 Para definir configurações de compartilhamento no nível do site
 1. No centro de administração do SharePoint, no painel de navegação esquerdo, expanda **sites** e clique em **sites ativos**.

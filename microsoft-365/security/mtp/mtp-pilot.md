@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 50f334a055a5bd974f9ea1f39c8fa38d44be9c26
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: f01e918d35ce77d9239c200355c7b4c48c9e2b84
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131217"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659311"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Execute seu projeto piloto do Microsoft 365 defender 
 
@@ -35,7 +35,13 @@ ms.locfileid: "49131217"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Para determinar efetivamente o benefício e a adoção do Microsoft 365 defender, você pode executar um projeto piloto. Antes de habilitar o Microsoft 365 defender em seu ambiente de produção e iniciar seus casos de uso, é melhor planejar determinar as tarefas a serem realizadas para o projeto piloto e definir os critérios de sucesso. 
+
+Este guia ajuda você a executar um projeto piloto, fornecendo ponteiros para garantir que você tenha um plano bem estruturado, orienta você usando o recurso de simulação de ataque e, finalmente, concluindo o piloto com a chave para que você reflita e documente os resultados.
+
+![Fases na execução de um piloto do Microsoft 365 defender](../../media/pilotphases.png)
+
+
+A execução de um piloto ajuda a determinar efetivamente o benefício do adoptiing Microsoft 365 defender. Antes de habilitar o Microsoft 365 defender em seu ambiente de produção e iniciar seus casos de uso, é melhor planejar determinar as tarefas a serem realizadas para o projeto piloto e definir os critérios de sucesso. 
 
 
 ## <a name="how-to-use-this-pilot-playbook"></a>Como usar este guia estratégico piloto
@@ -52,7 +58,7 @@ O Microsoft 365 defender é um pacote de defesa unificado do Enterprise Defense,
 
 Com a solução integrada do Microsoft 365 defender, os profissionais de segurança podem unir os sinais de ameaça que o Microsoft defender para ponto de extremidade, o Microsoft defender para Office 365, o Microsoft defender para identidade e o Microsoft Cloud app Security recebem, e determinar o escopo completo e o impacto da ameaça, como ele entrou no ambiente, o que é afetado e como ele está afetando a organização. O Microsoft 365 defender realiza ações automáticas para impedir ou interromper o ataque e a AutoCorreção de caixas de correio, pontos de extremidade e identidades de usuários afetados. Consulte a [visão geral do Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) para obter detalhes.
 
-![Fases na execução de um piloto do Microsoft 365 defender](../../media/pilotphases.png)
+
 
 A linha do tempo de exemplo a seguir varia de acordo com os recursos corretos em seu ambiente. Algumas detecções e fluxos de trabalho podem precisar de mais tempo de aprendizagem do que os outros.
 

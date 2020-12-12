@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ab78f17cd5689f9110227762c149d3691433179
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: e98e59d39744d67427a272f456a03fc123034aa7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572556"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659472"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Vários relatórios estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) para ajudá-lo a ver como os recursos de segurança de email, como os recursos antispam, Antimalware e de criptografia no Microsoft 365 estão protegendo sua organização. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando **Reports** o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
+Vários relatórios estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) para ajudá-lo a ver como os recursos de segurança de email, como os recursos antispam, Antimalware e de criptografia no Microsoft 365 estão protegendo sua organização. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando  o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
 
 ![Painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -45,7 +45,7 @@ O relatório **usuários comprometidos** mostra o número de contas de usuário 
 
 O modo de exibição de agregação mostra os dados dos últimos 90 dias e o modo de exibição de detalhes mostra os dados dos últimos 30 dias.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **usuários comprometidos**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=CompromisedUsers> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **usuários comprometidos**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=CompromisedUsers> .
 
 Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtros** e selecionando um ou mais dos seguintes valores:
 
@@ -75,7 +75,7 @@ O **relatório de criptografia** está disponível em EOP (inscrições com caix
 
 O modo de exibição agregado permite a filtragem dos últimos 90 dias, enquanto o modo de exibição de detalhes permite filtragem por 10 dias.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **relatório de criptografia**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=EncryptionReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **relatório de criptografia**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=EncryptionReport> .
 
 Para saber mais sobre criptografia, confira [criptografia de email no Microsoft 365](../../compliance/email-encryption.md).
 
@@ -122,7 +122,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
   - **Modelo de criptografia**
   - **Método de criptografia**
   - **Endereço do destinatário**
-  - **Subject**
+  - **Assunto**
 
 - **Exibir dados por: cinco domínios principais de destinatários**:
 
@@ -148,7 +148,7 @@ O relatório **detecções de malware no email** mostra informações sobre dete
 
  O filtro de exibição agregada permite 90 dias, enquanto o filtro da tabela detalhes permite apenas 10 dias.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **detecções de malware no email**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MalwareDetections> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **detecções de malware no email**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MalwareDetections> .
 
 ![Detecções de malware no widget de email no painel relatórios](../../media/malware-detections-widget.png)
 
@@ -166,7 +166,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 - **Endereço do remetente**.
 - **Endereço do destinatário**
 - **ID da mensagem**: disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem e deve ser exclusivo. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
-- **Subject**
+- **Assunto**
 - **Filename**
 - **Nome do malware**
 
@@ -186,7 +186,7 @@ O relatório **detecções de spam** mostra mensagens de email de spam que foram
 
 O modo de exibição agregado permite filtragem de 90 dias, enquanto a tabela detalhes permite a filtragem de 10 dias.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **detecções de spam**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SpamDetections> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **detecções de spam**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SpamDetections> .
 
 ![Widget detecções de spam no painel relatórios](../../media/spam-detections-report-widget.png)
 
@@ -229,7 +229,7 @@ Se você clicar em **Exibir tabela de detalhes** em qualquer modo de exibição 
 - **Endereço do destinatário**
 - **Tipo de evento**
 - **Ação**
-- **Subject**
+- **Assunto**
 
 Se você clicar em **filtros** em uma tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -245,7 +245,7 @@ O relatório de **detecções falsas** mostra quantas mensagens de email de fals
 
 O modo de exibição de agregação do relatório permite 90 dias de filtragem, enquanto o modo de exibição de detalhes permite apenas dez dias de filtragem.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **detecções falsas**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SpoofMailReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **detecções falsas**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SpoofMailReport> .
 
 ![Widget detecções de spoof no painel relatórios](../../media/spoof-detections-widget.png)
 
@@ -280,7 +280,7 @@ O relatório fornece a contagem de mensagens de email com conteúdo mal-intencio
 
 **Observação**: é importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **status de proteção contra ameaças**. Para ir diretamente para o relatório, abra uma das seguintes URLs:
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **status de proteção contra ameaças**. Para ir diretamente para o relatório, abra uma das seguintes URLs:
 
 - Microsoft defender para Office 365: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
 - EOP <https://protection.office.com/reportv2?id=TPSAggregateReport>
@@ -418,7 +418,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 - **Exibir dados por: substituição de mensagem**:
 
   - **Date**
-  - **Subject**
+  - **Assunto**
   - **Sender**
   - **Destinatários**
   - **Detectado por**
@@ -437,7 +437,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 - Todos os outros gráficos:
 
   - **Date**
-  - **Subject**
+  - **Assunto**
   - **Sender**
   - **Destinatários**
   - **Detectado por**
@@ -458,7 +458,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 
 O relatório de **malware superior** mostra os vários tipos de malware detectados pela [proteção Antimalware no EOP](anti-malware-protection.md).
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **malware superior**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=TopMalware> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **malware superior**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=TopMalware> .
 
 ![Widget malware superior no painel relatórios](../../media/top-malware-report-widget.png)
 
@@ -487,7 +487,7 @@ Os detalhes estão disponíveis para cada mensagem, incluindo o motivo da entreg
 
 Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), siga um destes procedimentos:
 
-- Vá para o painel **Gerenciamento** \> **Dashboard** \> **de ameaças mensagens relatadas pelo usuário**.
+- Vá para o painel **Gerenciamento** \>  \> **de ameaças mensagens relatadas pelo usuário**.
 
 - Vá para **Gerenciamento de ameaças** \> **revise** \> **mensagens relatadas pelo usuário**.
 
@@ -498,7 +498,7 @@ Para exibir esse relatório, no [centro de conformidade & segurança](https://pr
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Quais permissões são necessárias para exibir esses relatórios?
 
-Para exibir e usar os relatórios descritos neste tópico, você precisa ser membro de um dos seguintes grupos de função no centro de conformidade de & de segurança:
+Para exibir e usar os relatórios descritos neste artigo, você precisa ser membro de um dos seguintes grupos de função no centro de conformidade de & de segurança:
 
 - **Organization Management**
 - **Administrador de segurança**
@@ -507,7 +507,7 @@ Para exibir e usar os relatórios descritos neste tópico, você precisa ser mem
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não estiverem mostrando dados?
 

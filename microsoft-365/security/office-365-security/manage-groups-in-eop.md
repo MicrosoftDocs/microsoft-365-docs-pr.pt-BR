@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Administradores no proteção autônoma do Exchange Online (EOP) as organizações podem aprender a criar, modificar e remover grupos de distribuição e grupos de segurança habilitados para email no centro de administração do Exchange (Eat) e no PowerShell autônomo do Exchange Online Protection (EOP).
-ms.openlocfilehash: a395c0738093a00c0225aea22a6e556863eebee5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 5ff7c61d51ded039b06d1faa98ba6390939b3413
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201872"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658840"
 ---
 # <a name="manage-groups-in-eop"></a>Gerenciar grupos no EOP
 
@@ -40,17 +40,17 @@ Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de c
 
 Você pode gerenciar grupos no centro de administração do Exchange (Eat) e no PowerShell do EOP autônomo.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para abrir o centro de administração do Exchange, confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
 - Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Ao gerenciar grupos no EOP PowerShell autônomo, você pode encontrar limitação. Os procedimentos do PowerShell neste tópico usam um método de processamento em lotes que resulta em um atraso de propagação de alguns minutos antes que os resultados dos comandos fiquem visíveis.
+- Ao gerenciar grupos no EOP PowerShell autônomo, você pode encontrar limitação. Os procedimentos do PowerShell neste artigo usam um método de processamento em lotes que resulta em um atraso de propagação de alguns minutos antes que os resultados dos comandos fiquem visíveis.
 
-- Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa da função grupos de distribuição, que é atribuída aos grupos de função gerenciamento (administradores globais) e RecipientManagement por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- Você precisa receber permissões na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisará da função **grupos de distribuição** , que é atribuída aos grupos de funções **Gerenciamento da organização** e gerenciamento de **destinatários** por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
+- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste artigo, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
 > Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
@@ -59,7 +59,7 @@ Você pode gerenciar grupos no centro de administração do Exchange (Eat) e no 
 
 ### <a name="use-the-eac-to-create-groups"></a>Usar o Eat para criar grupos
 
-1. No Eat, vá para grupos de **destinatários** \> **Groups**.
+1. No Eat, vá para grupos de **destinatários** \> .
 
 2. Clique em **novo** ![ ícone novo ](../../media/ITPro-EAC-AddIcon.png) e selecione uma das seguintes opções:
 
@@ -93,7 +93,7 @@ Você pode gerenciar grupos no centro de administração do Exchange (Eat) e no 
 
 ### <a name="use-the-eac-to-modify-distribution-groups"></a>Usar o Eat para modificar grupos de distribuição
 
-1. No Eat, vá para grupos de **destinatários** \> **Groups**.
+1. No Eat, vá para grupos de **destinatários** \> .
 
 2. Na lista de grupos, selecione o grupo de distribuição ou grupo de segurança habilitado para email que você deseja modificar e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-AddIcon.png) .
 
@@ -133,7 +133,7 @@ Para remover um membro, selecione-o e clique em **remover** ![ ícone Remover ](
 
 ### <a name="use-the-eac-to-remove-groups"></a>Usar o Eat para remover grupos
 
-1. No Eat, vá para grupos de **destinatários** \> **Groups**.
+1. No Eat, vá para grupos de **destinatários** \> .
 
 2. Na lista de grupos, selecione o grupo de distribuição que você deseja remover e clique em **remover** ![ ícone de remoção ](../../media/ITPro-EAC-RemoveIcon.gif) .
 
@@ -229,7 +229,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-EOP
 
 Para verificar se você criou, modificou ou removeu com êxito um grupo de distribuição ou um grupo de segurança habilitado para email, execute uma das seguintes etapas:
 
-- No Eat, vá para grupos de **destinatários** \> **Groups**. Verifique se o grupo está listado (ou não listado) e verifique o valor do **tipo de grupo** . Selecione o grupo e visualize as informações no painel de detalhes ou clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-AddIcon.png) para exibir as configurações.
+- No Eat, vá para grupos de **destinatários** \> . Verifique se o grupo está listado (ou não listado) e verifique o valor do **tipo de grupo** . Selecione o grupo e visualize as informações no painel de detalhes ou clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-AddIcon.png) para exibir as configurações.
 
 - Em EOP autônomo do PowerShell, execute o seguinte comando para verificar se o grupo está listado (ou não está listado):
 

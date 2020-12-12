@@ -12,19 +12,19 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
-ms.openlocfilehash: 3d11abee08fa3fdd7dfb659bd90e29908f9e4bda
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 7551a792c1d9c10cf5c655dade04bb5606b75f04
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614853"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658690"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os recursos de suporte técnico listados neste tópico irão ajudá-lo a encontrar respostas se você estiver tendo dificuldades com o EOP. A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os recursos de suporte técnico listados neste artigo irão ajudá-lo a encontrar respostas se você estiver tendo dificuldades com o EOP. A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
 
 ## <a name="self-support-options"></a>Opções de auto-suporte
 
@@ -62,7 +62,7 @@ Para obter mais informações sobre como o suporte Premier pode ajudar sua organ
 
 1. Faça logon no centro de administração do Microsoft 365.
 
-2. Para problemas gerais de produtos, vá para **suporte** \> solicitar suporte técnico **para chamadas de suporte ao cliente** \> **Call technical support**.
+2. Para problemas gerais de produtos, vá para **suporte** \> solicitar suporte técnico **para chamadas de suporte ao cliente** \> .
 
    Para perguntas antes de comprar a sua EOP ou perguntas sobre cobrança e assinaturas, vá em **Suporte** \> **Solicitar Suporte ao Cliente** \> **Ligar para o suporte de cobrança e assinatura**.
 

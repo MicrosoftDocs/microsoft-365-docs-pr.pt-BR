@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Freenom para a Microsoft.
-ms.openlocfilehash: 2fc2407193d41d6e0526aacad0b2b558f1b21bdb
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b958a69d1dad9a0b56cf954d12cd42e40d6d4fea
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646182"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657870"
 ---
 # <a name="create-dns-records-at-freenom-for-microsoft"></a>Criar registros DNS no Freenom para Microsoft
 
-[Verifique as perguntas frequentes sobre domínios ](../setup/domains-faq.md) se não encontrar o que você está procurando. 
+[Verifique as perguntas frequentes sobre domínios ](../setup/domains-faq.yml) se não encontrar o que você está procurando. 
   
 > [!CAUTION]
 > O site do Freenom não dá suporte a registros SRV, o que significa que vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Independentemente do Microsoft Plan que você usa, há limitações de serviço significativas e você pode querer mudar para um provedor de Hospedagem de DNS diferente. 
@@ -53,7 +53,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![Login do Freenom](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecione **Serviços**e, em seguida, selecione **meus domínios**.
+2. Selecione **Serviços** e, em seguida, selecione **meus domínios**.
     
     ![Freenom selecionar serviços e meus domínios](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
@@ -112,7 +112,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Login do Freenom](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecione **Serviços**e, em seguida, selecione **meus domínios**.
+2. Selecione **Serviços** e, em seguida, selecione **meus domínios**.
     
     ![Freenom selecionar serviços e meus domínios](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
@@ -120,7 +120,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Freenom selecionar Gerenciar domínio](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Definir o nome serve para o seu domínio para os servidores de nomes padrão do Freenom. Selecione **ferramentas de gerenciamento**e, em seguida, selecione **nameservers**.
+4. Definir o nome serve para o seu domínio para os servidores de nomes padrão do Freenom. Selecione **ferramentas de gerenciamento** e, em seguida, selecione **nameservers**.
     
     ![Configuração de nameservers do Freenom](../../media/a6ae877a-c248-42b9-bae9-210a80cd01e7.png)
   
@@ -157,7 +157,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Login do Freenom](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecione **Serviços**e, em seguida, selecione **meus domínios**.
+2. Selecione **Serviços** e, em seguida, selecione **meus domínios**.
     
     ![Freenom selecionar serviços e meus domínios](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
@@ -203,7 +203,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Login do Freenom](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecione **Serviços**e, em seguida, selecione **meus domínios**.
+2. Selecione **Serviços** e, em seguida, selecione **meus domínios**.
     
     ![Freenom selecionar serviços e meus domínios](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   

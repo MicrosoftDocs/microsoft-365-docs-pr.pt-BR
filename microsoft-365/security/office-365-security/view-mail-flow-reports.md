@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: 701735374e03f2afb91323ceb4b3fbf30988bdcd
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 1ededf2d0d693c537c159c52d00deb03f278b4b2
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572796"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659460"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
@@ -32,7 +32,7 @@ ms.locfileid: "49572796"
 
 Além dos relatórios de fluxo de emails disponíveis no painel de [fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade com segurança &, vários relatórios de fluxo de email adicionais estão disponíveis no painel de relatórios para ajudá-lo a monitorar sua organização do Microsoft 365.
 
-Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de [conformidade & de segurança](https://office.protection.com) acessando **Reports** o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
+Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de [conformidade & de segurança](https://office.protection.com) acessando  o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
 
 ![Painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -40,7 +40,7 @@ Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-vie
 
 O **relatório do conector** mostra a atividade de fluxo de emails nos [conectores de entrada e saída](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) que estão configurados para sua organização.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **relatório do conector**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ConnectorReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **relatório do conector**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ConnectorReport> .
 
 ![Widget relatório do conector no painel relatórios](../../media/connector-report-widget.png)
 
@@ -94,7 +94,7 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 
 O **relatório** de regras de transporte do Exchange mostra o efeito das regras de fluxo de emails (também conhecidas como regras de transporte) em mensagens de entrada e de saída em sua organização.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione regra de **transporte do Exchange**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ETRRuleReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione regra de **transporte do Exchange**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ETRRuleReport> .
 
 ![Widget regra de transporte do Exchange no painel relatórios](../../media/transport-rule-report-widget.png)
 
@@ -134,22 +134,22 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
 
   - **Date**
   - **Regra de transporte**
-  - **Subject**
+  - **Assunto**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direction**
+  - **Direção**
 
 - **Exibir dados por: regras de transporte do Exchange DLP**:
 
   - **Date**
   - **Política de DLP**
   - **Regra de transporte**
-  - **Subject**
+  - **Assunto**
   - **Endereço do remetente**.
   - **Endereço do destinatário**
   - **Severidade**
-  - **Direction**
+  - **Direção**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
 
@@ -163,7 +163,7 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 
 O **relatório de encaminhamento** mostra as mensagens automaticamente encaminhadas de sua organização para domínios externos de caixas de correio do Exchange Online. As mensagens encaminhadas podem representar um risco de segurança ou de conformidade e podem indicar uma conta comprometida.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **relatório de encaminhamento**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MailFlowForwarding> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **relatório de encaminhamento**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MailFlowForwarding> .
 
 ![Widget de encaminhamento de relatório no painel relatórios](../../media/forwarding-report-widget.png)
 
@@ -210,7 +210,7 @@ Para voltar para o modo de exibição relatórios, clique em **Exibir relatório
 ## <a name="mailflow-status-report"></a>Relatório de status do fluxo
 
 O **relatório de status do fluxo** é semelhante ao [relatório de email enviado e recebido](#sent-and-received-email-report), com informações adicionais sobre o email permitido ou bloqueado na borda. Este é o único relatório que contém as informações de proteção de borda e mostra o quanto o email é bloqueado antes de ser permitido ao serviço para avaliação pelo Exchange Online Protection (EOP). É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **fluxo relatório de status**. Para ir diretamente para o **relatório de status de fluxo de emails**, abra <https://protection.office.com/mailflowStatusReport> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **fluxo relatório de status**. Para ir diretamente para o **relatório de status de fluxo de emails**, abra <https://protection.office.com/mailflowStatusReport> .
 
 ![Widget relatório de status do fluxo no painel relatórios](../../media/mail-flow-status-report-widget.png)
 
@@ -240,7 +240,7 @@ Você pode alterar esses filtros clicando em **Filtrar** ou clicando em um valor
 
 A tabela de dados contém as seguintes informações:
 
-- **Direction**
+- **Direção**
 - **Tipo**
 - **24 horas**
 - **3 dias**
@@ -420,7 +420,7 @@ O relatório de **email enviado e recebido** é um relatório inteligente que mo
 
 O modo de exibição de agregação e o modo de exibição de detalhes do relatório permitem que 90 dias de filtragem.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **email enviado e recebido**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SentAndReceivedMailATP> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **email enviado e recebido**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SentAndReceivedMailATP> .
 
 ![Widget email enviado e recebido no painel relatórios](../../media/sent-and-received-email-report-widget.png)
 
@@ -463,7 +463,7 @@ Se você clicar em **Exibir tabela de detalhes** na tela **dividir por: direçã
 
 - **Data (UTC)**
 - **Tipo**
-- **Direction**
+- **Direção**
 - **Contagem de mensagem**
 
 Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
@@ -478,7 +478,7 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 
 O relatório de **remetentes e destinatários principais** é um gráfico de pizza mostrando seus principais remetentes e destinatários de email.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **os principais remetentes e destinatários**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=TopSenderRecipientsATP> .
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **os principais remetentes e destinatários**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=TopSenderRecipientsATP> .
 
 ![Widget principais remetentes e destinatários no painel relatórios](../../media/top-senders-and-recipients-widget.png)
 
@@ -535,7 +535,7 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Quais permissões são necessárias para exibir esses relatórios?
 
-Para exibir e usar os relatórios descritos neste tópico, você precisa ser membro de um dos seguintes grupos de função no centro de conformidade de & de segurança:
+Para exibir e usar os relatórios descritos neste artigo, você precisa ser membro de um dos seguintes grupos de função no centro de conformidade de & de segurança:
 
 - **Organization Management**
 - **Administrador de segurança**
@@ -544,7 +544,7 @@ Para exibir e usar os relatórios descritos neste tópico, você precisa ser mem
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

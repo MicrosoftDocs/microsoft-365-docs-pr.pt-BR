@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
 description: Aprenda a verificar seu domínio e a configurar registros DNS para emails, Lync e outros serviços no Google Domains para a Microsoft.
-ms.openlocfilehash: 417fe89bd408eba4d3b14ecb3e38af6beed196cf
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a20b08d92814865cee5b169cb435b898a6b068ac
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646086"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657858"
 ---
 # <a name="create-dns-records-at-google-domains-for-microsoft"></a>Criar registros DNS no site Google Domains para a Microsoft
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se você usa o Google Domains como provedor de hospedagem DNS, realize os procedimentos deste artigo para verificar o domínio e configurar registros DNS para email, Lync e outros serviços.
   
@@ -53,7 +53,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
 1. Selecione **Entrar**.
     
-2. Em seguida, insira suas credenciais de login e selecione novamente**Entrar**.
+2. Em seguida, insira suas credenciais de login e selecione novamente **Entrar**.
     
 2. Na página **Meus domínios**, localize o domínio que você deseja usar com a Microsoft e selecione o link **GERENCIAR** ao lado dele. No painel de navegação esquerdo, selecione **DNS**.
     
@@ -96,7 +96,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 2. Selecione **Entrar**.
     
-3. Em seguida, insira suas credenciais de login e selecione novamente**Entrar**.
+3. Em seguida, insira suas credenciais de login e selecione novamente **Entrar**.
 4. Na página **Domínios**, na seção **Domínio**, escolha **Configurar DNS** para o domínio que você deseja editar.
     
     > [!IMPORTANT]
@@ -181,13 +181,13 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
   
 1. Para iniciar, vá até a página do seu domínio no Google Domains usando [este link](https://domains.google.com/registrar). Você será solicitado a entrar. Para fazer isso:
     
 1. Selecione **Entrar**.
     
-2. Em seguida, insira suas credenciais de login e selecione novamente**Entrar**.
+2. Em seguida, insira suas credenciais de login e selecione novamente **Entrar**.
     
 3. Na página **Domínios**, na seção **Domínio**, escolha **Configurar DNS** para o domínio que você deseja editar. 
     
@@ -226,7 +226,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 2. Selecione **Entrar**.
     
-3. Em seguida, insira suas credenciais de login e selecione novamente**Entrar**.
+3. Em seguida, insira suas credenciais de login e selecione novamente **Entrar**.
     
 4. Na página **Domínios**, na seção **Domínio**, escolha **Configurar DNS** para o domínio que você deseja editar. 
     

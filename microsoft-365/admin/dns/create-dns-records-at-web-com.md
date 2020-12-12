@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em web.com para a Microsoft.
-ms.openlocfilehash: 25df88e05e96e2394628bf89c8cc07af2d0eac1e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 943070f3790f532a0cc686270e0ecdea08f802fd
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645750"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656886"
 ---
 # <a name="create-dns-records-at-webcom-for-microsoft"></a>Criar registros DNS no web.com para Microsoft
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se o web.com for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email, Skype for Business Online e assim por diante.
   
@@ -84,7 +84,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
 3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
 
   
-4. Na página **nomes de domínio** , em **texto (registros txt)**, clique em **editar registros txt**e selecione os valores na tabela a seguir. 
+4. Na página **nomes de domínio** , em **texto (registros txt)**, clique em **editar registros txt** e selecione os valores na tabela a seguir. 
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:----|
@@ -127,16 +127,16 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
 
-4. Em **servidores de email (registros MX)**, clique em **editar registros MX**e selecione os valores na tabela a seguir. 
+4. Em **servidores de email (registros MX)**, clique em **editar registros MX** e selecione os valores na tabela a seguir. 
     
     |**Prioridade**|**TTL**|**Servidor de email**|
     |:-----|:-----|:-----|
-    |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) |
+    |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) |
    
 
 5. Selecione **Salvar**.
   
-6. Se houver outros registros MX listados na seção **registros MX** , marque a caixa de seleção ao lado do registro em **excluir**e selecione **salvar**. 
+6. Se houver outros registros MX listados na seção **registros MX** , marque a caixa de seleção ao lado do registro em **excluir** e selecione **salvar**. 
   
 7. Na tela de confirmação, selecione **salvar alterações**. 
 
@@ -152,7 +152,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 
 4. Adicione o primeiro dos seis registros CNAME.
     
-    Em **aliases de host (registros CNAME)**, clique em **editar registros CNAME**e selecione os valores da tabela a seguir.
+    Em **aliases de host (registros CNAME)**, clique em **editar registros CNAME** e selecione os valores da tabela a seguir.
     
     
     |**Alias**|**TTL**|**Refere-se ao Nome do host**|**Outro host**|
@@ -184,7 +184,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
 
   
-4. Na página **nomes de domínio** , em **texto (registros txt)**, clique em **editar registros txt**e selecione os valores na tabela a seguir.   
+4. Na página **nomes de domínio** , em **texto (registros txt)**, clique em **editar registros txt** e selecione os valores na tabela a seguir.   
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:-----|
@@ -211,12 +211,12 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 4. Adicione o primeiro dos dois registros SRV.
 
-    Em **serviço (Registros SRV)**, clique em **Editar Registros SRV**e selecione os valores na tabela a seguir. 
+    Em **serviço (Registros SRV)**, clique em **Editar Registros SRV** e selecione os valores na tabela a seguir. 
         
     |**Serviço**|**Protocolo**|**TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip |_tls |3600 | 100|1 |443 |sipfed.online.lync.com  |
-    |_sipfederationtls |_tcp |3600 |100 |1 |5061 | sipfed.online.lync.com |
+    |_sip |_tls |3600 | 100|1  |443 |sipfed.online.lync.com  |
+    |_sipfederationtls |_tcp |3600 |100 |1  |5061 | sipfed.online.lync.com |
 
   
 5. Adicione o outro registro SRV escolhendo os valores da segunda linha da tabela. 

@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Saiba como verificar sua propriedade de email e domínio para assumir o controle de um locatário não gerenciado no Microsoft 365
-ms.openlocfilehash: 9ae09a4b88887664a0615128bcddc48ad6f57118
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 28359908576260218459d13b8c1c1b662b9a2c8f
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645054"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658058"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Executar um administrador interno tomada
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
 
 Se você é um administrador e deseja assumir o controle de um locatário não gerenciado criado por uma inscrição de usuário de autoatendimento, é possível fazer isso com um administrador de tomada interno.
 
@@ -41,7 +41,7 @@ Se você é um administrador e deseja assumir o controle de um locatário não g
 > [!NOTE]
 > Se o autoatendimento estiver habilitado em seu locatário, os usuários poderão assinar serviços gratuitos, como o Power BI, por conta própria. Essas etapas pressupõem que uma assinatura de usuário de autoatendimento tenha criado o locatário não gerenciado que você deseja assumir como administrador. Na primeira etapa, você cria um contexto de usuário no locatário não gerenciado, usando o Power BI para ilustrar o caminho do tomada de administração.
 
-1. Para se inscrever no Power bi, vá para o [site do Power bi](https://powerbi.com) e selecione **iniciar liberação**gratuita  >  de**inicialização** (na caixa compartilhar com o Power bi pro). 
+1. Para se inscrever no Power bi, vá para o [site do Power bi](https://powerbi.com) e selecione **iniciar liberação** gratuita  >  de **inicialização** (na caixa compartilhar com o Power bi pro). 
 
 2. Inscreva-se em uma conta de usuário que usa o nome de domínio da sua organização (como `powerbiadmin@contoso.com` ). Se sua conta já estiver em uso, entre usando sua senha atual.
 

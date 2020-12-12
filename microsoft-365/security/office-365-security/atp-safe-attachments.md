@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-office365
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre o recurso de anexos seguros no Microsoft defender para Office 365.
-ms.openlocfilehash: d38f95991a1d310e8a894a32e06b5891ebb498a9
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 07e44885a3813ce625c6a853f4070d644a392ded
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616675"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659187"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Anexos seguros no Microsoft defender para Office 365
 
@@ -65,11 +65,11 @@ Esta seção descreve as configurações em políticas de anexos confiáveis:
 
   |Opção|Efeito|Use quando quiser:|
   |---|---|---|
-  |**Desativar**|Os anexos não são verificados em busca de malware por anexos seguros. As mensagens ainda são verificadas em busca de malware por [proteção Antimalware no EOP](anti-malware-protection.md).|Desligar a verificação para destinatários selecionados. <p> Evitar atrasos desnecessários no roteamento de email interno. <p> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros para destinatários que recebem apenas mensagens de remetentes confiáveis.**|
+  |**Desabilitado**|Os anexos não são verificados em busca de malware por anexos seguros. As mensagens ainda são verificadas em busca de malware por [proteção Antimalware no EOP](anti-malware-protection.md).|Desligar a verificação para destinatários selecionados. <p> Evitar atrasos desnecessários no roteamento de email interno. <p> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros para destinatários que recebem apenas mensagens de remetentes confiáveis.**|
   |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Veja onde o malware detectado entra em sua organização.|
   |**Bloquear**|Impede que mensagens com anexos de malware detectados sejam entregues. <p> As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <p> Bloqueia automaticamente instâncias futuras das mensagens e dos anexos. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <p> Esse é o valor padrão e o valor recomendado em políticas de segurança padrão e estritas [predefinidas](preset-security-policies.md).|
   |**Replace**|Remove anexos detectados de malware. <p> Notifica os destinatários de que os anexos foram removidos. <p>  As mensagens são [colocadas em quarentena](manage-quarantined-messages-and-files.md) onde somente os administradores (não os usuários finais) podem revisar, liberar ou excluir as mensagens. <p> A entrega de mensagens seguras pode ser atrasada devido à verificação de anexos seguros.|Aumente a visibilidade dos destinatários que os anexos foram removidos devido à detecção de malware.|
-  |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaços reservados até que a verificação de anexos seguros seja concluída. <p> Para obter detalhes, consulte a seção [entrega dinâmica em políticas de anexos seguros](#dynamic-delivery-in-safe-attachments-policies) , posteriormente neste tópico.|Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados. <p> Permite que os destinatários visualizem anexos no modo de segurança enquanto a verificação está ocorrendo.|
+  |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaços reservados até que a verificação de anexos seguros seja concluída. <p> Para obter detalhes, consulte a seção [entrega dinâmica em políticas de anexos seguros](#dynamic-delivery-in-safe-attachments-policies) , mais adiante neste artigo.|Evitar atrasos de mensagem ao proteger destinatários de arquivos mal-intencionados. <p> Permite que os destinatários visualizem anexos no modo de segurança enquanto a verificação está ocorrendo.|
   |
 
 - **Redirecionar o anexo na detecção: habilitar o redirecionamento** e **enviar o anexo para o seguinte endereço de email**: para **Bloquear**, **monitorar** ou **substituir** ações, envie mensagens que contenham anexos de malware para o endereço de email interno ou externo especificado para análise e investigação.

@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Yahoo! Small Business para a Microsoft.
-ms.openlocfilehash: 3c6bc44baef4924133ea2308189662dd53399689
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 47b3b1f3a6e889d067d0166f872725aa3812a7b4
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645594"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656898"
 ---
 # <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>Criar registros DNS no Yahoo! Small Business para o Microsoft
 
- **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se o Yahoo! Small Business tiver sido seu provedor de hospedagem DNS, você deve estar ciente de que seu provedor agora é a Aabaco Small Business.
   
@@ -45,7 +45,7 @@ Você deve criar sua conta do Aabaco antes de poder [criar registros DNS](../get
     
     ![Selecionar configurar sua conta do Aabaco Small Business](../../media/d708f272-d42f-40a1-9aaf-d05d8cfd55cf.png)
   
-2. Forneça o Email/ID do Yahoo do Yahoo! Small Business **email/yahoo ID**e, em seguida, **não sou um robô**.
+2. Forneça o Email/ID do Yahoo do Yahoo! Small Business **email/yahoo ID** e, em seguida, **não sou um robô**.
     
     ![Select I am not a robot](../../media/ded4b5dd-4e04-4baa-ae31-8426b5799151.png)
   
@@ -71,7 +71,7 @@ Você deve criar sua conta do Aabaco antes de poder [criar registros DNS](../get
   
     ![The Choose your password page](../../media/cc592345-72d1-4a41-9410-a1f3345cfd1d.png)
   
-7. Selecione **eu concordo com os termos e condições**e selecione **criar senha**.
+7. Selecione **eu concordo com os termos e condições** e selecione **criar senha**.
     
     ![Selecione criar senha](../../media/434aa6a3-076e-4abf-a9cf-31145786e819.png)
   

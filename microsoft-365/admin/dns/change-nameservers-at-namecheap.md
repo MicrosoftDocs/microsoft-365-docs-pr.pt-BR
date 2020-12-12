@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Saiba como configurar seu domínio personalizado da Microsoft com o Namecheap se quiser que a Microsoft gerencie seus registros DNS. '
-ms.openlocfilehash: e305abb7768b286dbd24336c1dab39d919f9a0ac
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0dec28c99bd49d3ba558e11afac8142c7df96591
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646446"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657979"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-namecheap"></a>Alterar os nameservers para configurar o Microsoft com o Namecheap
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**.
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**.
   
 Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS para você. Se preferir, [gerencie todos os registros DNS da Microsoft em Namecheap](create-dns-records-at-namecheap.md).
   

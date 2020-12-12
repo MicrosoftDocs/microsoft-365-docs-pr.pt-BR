@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4b2c53ee8535c2e99acb83060a2ee04d8f5033db
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 57b49e49a20ee9e088301e90590c19cfabf89a2b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754511"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658936"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 
@@ -60,8 +60,9 @@ Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo d
 |Livro de superfície 2| 256 GB/Intel i5/8 GB de RAM | Nenhum | **16 de novembro de 2022** |
 |Ir para a superfície| 128 GB/Intel 4415Y/8GB de RAM | Nenhum | **2 de agosto de 2023** |
 |Laptop de superfície| 256 GB/Intel i5/8 GB de RAM | Nenhum | **20 de maio de 2022** |
+|Laptop de superfície 2| 128 GB/Intel i5/8 GB de RAM | Nenhum | **16 de outubro de 2023** |
 |Surface pro| 256 GB/Intel i5/8 GB de RAM | Nenhum | **15 de junho de 2022** |
-
+|Surface pro 6| 128 GB/Intel i5/8 GB de RAM | Nenhum | **16 de outubro de 2023** |
 
 Além disso, o dispositivo também deve:
 

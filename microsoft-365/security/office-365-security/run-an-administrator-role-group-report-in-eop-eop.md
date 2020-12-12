@@ -14,12 +14,12 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no proteção do Exchange Online (EOP) autônomo. Este relatório registra quando um administrador adiciona ou remove membros dos grupos de função de administrador.
-ms.openlocfilehash: 95b216b41d1c83ba36bcc00e1f571e08c8bd1f73
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: cd7ca13a3d863240a0f2608ed13321cbe3d50ad2
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920615"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659225"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Executar um relatório de grupo de função de administrador no EOP autônomo
 
@@ -30,11 +30,11 @@ Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas d
 
 Quando você executa um relatório de grupo de funções de administrador no centro de administração do Exchange (Eat), as entradas são exibidas como resultados de pesquisa e incluem os grupos de função afetados, quem alterou a associação do grupo de função e quando e quais foram feitas as atualizações de associação. Use esse relatório para monitorar as alterações nas permissões administrativas atribuídas aos usuários da sua organização.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para abrir o centro de administração do Exchange, confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa dos logs de auditoria ou View-Only função de logs de auditoria, que são atribuídos aos grupos de função ComplianceManagement, gerenciamento (administradores globais) e SecurityAdministrator por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- Você precisa receber permissões na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisa da **função logs de auditoria** ou de **logs de auditoria somente para exibição** , que são atribuídos aos grupos de função de gerenciamento de **organização**, gerenciamento de **conformidade** e **administrador de segurança** por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
 - Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste artigo, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
@@ -45,13 +45,13 @@ Quando você executa um relatório de grupo de funções de administrador no cen
 
 Execute o relatório do grupo de funções de administrador para localizar as alterações nos grupos de função de gerenciamento em um determinado período de tempo.
 
-1. No Eat, vá para auditoria de **Gerenciamento de conformidade** \> **Auditing** e, em seguida, escolha **executar um relatório de grupo de função de administrador**.
+1. No Eat, vá para auditoria de **Gerenciamento de conformidade** \> e, em seguida, escolha **executar um relatório de grupo de função de administrador**.
 
 2. Na página **Pesquisar alterações nos grupos de funções de administrador** que é aberta, defina as seguintes configurações:
 
-   - **Data de início** e **data de término** : Insira um intervalo de datas. Por padrão, o relatório procura alterações feitas nos grupos de funções do administrador nas duas últimas semanas.
+   - **Data de início** e **data de término**: Insira um intervalo de datas. Por padrão, o relatório procura alterações feitas nos grupos de funções do administrador nas duas últimas semanas.
 
-   - **Selecionar grupos de função** : por padrão, todos os grupos de função são pesquisados. Para filtrar os resultados por grupos de função específicos, clique em **Selecionar grupos de função**. Na caixa de diálogo exibida, selecione um grupo de função e clique em **Adicionar->**. Repita essa etapa quantas vezes for necessário e clique em **OK** quando terminar.
+   - **Selecionar grupos de função**: por padrão, todos os grupos de função são pesquisados. Para filtrar os resultados por grupos de função específicos, clique em **Selecionar grupos de função**. Na caixa de diálogo exibida, selecione um grupo de função e clique em **Adicionar->**. Repita essa etapa quantas vezes for necessário e clique em **OK** quando terminar.
 
 3. Quando tiver concluído, clique em **Pesquisar**.
 
@@ -65,7 +65,7 @@ Se você executou com sucesso um relatório de grupo de funções do administrad
 
 Quando os membros são adicionados ou removidos de um grupo de funções, os resultados da pesquisa exibidos no painel de detalhes indicam que a associação de grupo de funções foi atualizada e lista os membros atuais. Os resultados não informam explicitamente qual usuário foi adicionado ou removido.
 
-Para determinar se um usuário foi adicionado ou removido, você terá que comparar duas entradas separadas no relatório. Por exemplo, vamos observar as entradas de log a seguir do grupo de funções de **HelpDesk** :
+Para determinar se um usuário foi adicionado ou removido, você terá que comparar duas entradas separadas no relatório. Por exemplo, vamos observar as entradas de log a seguir do grupo de funções de **HelpDesk**:
 
 > 1/27/2018 4:43 PM <br> Administrador <br> Membros atualizados: Administrator;annb,florencef;pilarp <br> 2/06/2018 10:09 AM <br> Administrador <br> Membros atualizados: Administrator;annb;florencef;pilarp;tonip <br> 2/19/2018 2:12 PM <br> Administrador <br> Membros atualizados: Administrator;annb;florencef;tonip
 
@@ -89,11 +89,11 @@ Search-AdminAuditLog - Cmdlets <cmdlet 1, cmdlet 2, ...> -Parameters <parameter 
 
 Esse exemplo realiza uma pesquisa em todas as entradas de log de auditoria com os seguintes critérios:
 
-- **Data de início** : 08/04/2018
-- **Data de término** : 10/03/2018
-- **IDs de usuário** : `davids` , `chrisd` , `kima`
-- **Cmdlets** : **Set-Mailbox**
-- **Parâmetros** : _ProhibitSendQuota_ , _ProhibitSendReceiveQuota_ , _IssueWarningQuota_ , _MaxSendSize_ , _MaxReceiveSize_
+- **Data de início**: 08/04/2018
+- **Data de término**: 10/03/2018
+- **IDs de usuário**: `davids` , `chrisd` , `kima`
+- **Cmdlets**: **Set-Mailbox**
+- **Parâmetros**: _ProhibitSendQuota_, _ProhibitSendReceiveQuota_, _IssueWarningQuota_, _MaxSendSize_, _MaxReceiveSize_
 
 ```PowerShell
 Search-AdminAuditLog -Cmdlets Set-Mailbox -Parameters ProhibitSendQuota,ProhibitSendReceiveQuota,IssueWarningQuota,MaxSendSize,MaxReceiveSize -StartDate 08/04/2018 -EndDate 10/03/2018 -UserIds davids,chrisd,kima
@@ -101,9 +101,9 @@ Search-AdminAuditLog -Cmdlets Set-Mailbox -Parameters ProhibitSendQuota,Prohibit
 
 Este exemplo pesquisa alterações efetuadas em uma caixa de correio específica. Isso será útil se você estiver solucionando problemas ou precisar fornecer informações para uma investigação. Os seguintes critérios são usados:
 
-- **Data de início** : 05/01/2018
-- **Data de término** : 10/03/2018
-- **ID do objeto** : contoso.com/users/DavidS
+- **Data de início**: 05/01/2018
+- **Data de término**: 10/03/2018
+- **ID do objeto**: contoso.com/users/DavidS
 
 ```PowerShell
 Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso.com/Users/DavidS
@@ -115,9 +115,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Search-Adm
 
 ### <a name="view-details-of-audit-log-entries"></a>Exibir detalhes de entradas de log de auditoria
 
-O cmdlet **Search-AdminAuditLog** retorna os campos descritos no [conteúdo do log de auditoria](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents). Desses campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **ModifiedProperties** , contêm informações adicionais que não podem ser exibidas por padrão.
+O cmdlet **Search-AdminAuditLog** retorna os campos descritos no [conteúdo do log de auditoria](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents). Desses campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **ModifiedProperties**, contêm informações adicionais que não podem ser exibidas por padrão.
 
-Para exibir o conteúdo dos campos **CmdletParameters** e **ModifiedProperties** , siga as etapas na sequência. Ou, você pode usar o procedimento em **usar o Exchange Online PowerShell para pesquisar entradas de log de auditoria e enviar resultados para um destinatário** mais adiante neste artigo para criar um arquivo XML.
+Para exibir o conteúdo dos campos **CmdletParameters** e **ModifiedProperties**, siga as etapas na sequência. Ou, você pode usar o procedimento em **usar o Exchange Online PowerShell para pesquisar entradas de log de auditoria e enviar resultados para um destinatário** mais adiante neste artigo para criar um arquivo XML.
 
 Esse procedimento usa os seguintes conceitos:
 

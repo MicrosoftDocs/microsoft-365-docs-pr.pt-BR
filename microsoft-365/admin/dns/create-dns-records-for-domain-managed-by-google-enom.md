@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Saiba como acessar o eNom e criar o DNS por meio da página de domínios do Google.
-ms.openlocfilehash: 37fa8836b7511d51ef2dcb137f36d62eebc36443
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3294be667653c568fbbd1a911bcfab9b6ea7788b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645606"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656850"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Criar registros DNS quando o domínio for gerenciado pelo Google (eNom)
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Para migrar suas contas de email para a Microsoft, você precisa criar um registro DNS no seu registrador de domínio.
   
@@ -75,7 +75,7 @@ Você pode acessar o eNom e criar o DNS, através da página de **domínios** do
     
     ![Google-Apps-eNom-configure-1-5](../../media/08b74652-8cdb-4560-a5fd-0899f86deee8.png)
   
-9. Na página ** _domain_name_*_, na seção _* registros do host** , selecione **Editar**.
+9. Na página **_domain_name_*_, na seção _* registros do host** , selecione **Editar**.
     
     ![Google-Apps-eNom-configure-1-6](../../media/d54fec18-b9d1-4796-8397-0393c964eade.png)
   

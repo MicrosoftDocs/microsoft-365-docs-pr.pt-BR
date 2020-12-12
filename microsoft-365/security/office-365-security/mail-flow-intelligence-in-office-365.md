@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
-ms.openlocfilehash: 461d9bfa91d88b8bbec52d5aad6ec7a2e534bc96
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 5339bf2117a87cd940c4b96b3d00b7b8ba78a1da
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877796"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658852"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de emails no EOP
 
@@ -27,7 +27,7 @@ ms.locfileid: "48877796"
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você geralmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para rotear mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas são colocadas em fila no Microsoft 365. O Microsoft 365 continuará a entregar a entrega de cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará, e a mensagem será retornada ao remetente original em uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno).
 
-O Microsoft 365 gera um erro quando uma mensagem não pode ser entregue usando um conector. Os erros mais comuns e suas soluções são descritos neste tópico. Coletivamente, os erros de enfileiramento e notificação para mensagens não entregues enviadas via conectores são conhecidos como _inteligência de fluxo de emails_.
+O Microsoft 365 gera um erro quando uma mensagem não pode ser entregue usando um conector. Os erros mais comuns e suas soluções são descritos neste artigo. Coletivamente, os erros de enfileiramento e notificação para mensagens não entregues enviadas via conectores são conhecidos como _inteligência de fluxo de emails_.
 
 ## <a name="error-code-450-44312-dns-query-failed"></a>Código de erro: 450 4.4.312 de consulta DNS falhou
 
@@ -71,7 +71,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
   - No [centro de administração do Exchange (Eat)](https://docs.microsoft.com/Exchange/exchange-admin-center), desabilite ou exclua o conector que entrega emails do Microsoft 365 para seu ambiente de email local:
 
-    1. No Eat, vá para conectores de **fluxo de emails** \> **Connectors**.
+    1. No Eat, vá para conectores de **fluxo de emails** \> .
 
     2. Selecione o conector com o valor **de do** **Office 365** e o valor **para para** o **servidor de email da sua organização** e execute uma das seguintes etapas:
 
@@ -81,7 +81,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
   - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente de email local da **retransmissão interna** para **autoritativa**. Para obter instruções, consulte [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-  **Observação** : normalmente, essas alterações levam entre 30 minutos e uma hora para entrar em vigor. Após uma hora, verifique se você não receberá mais o erro.
+  **Observação**: normalmente, essas alterações levam entre 30 minutos e uma hora para entrar em vigor. Após uma hora, verifique se você não receberá mais o erro.
 
 - Se o erro for da organização de seu parceiro (por exemplo, um provedor de serviços de nuvem de terceiros), você precisará entrar em contato com seu parceiro para corrigir o problema.
 

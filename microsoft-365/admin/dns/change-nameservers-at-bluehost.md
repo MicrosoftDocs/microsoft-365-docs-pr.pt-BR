@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 7712b6af-329c-43a0-af7b-c4e4c1befb0e
 description: 'Saiba como você pode configurar a Microsoft para gerenciar seus registros DNS em Bluehost. '
-ms.openlocfilehash: c15ba11e0df57deaef61309f5bc6d1b2a60645b8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 78b138a501054a573c2b36cc486dda833be7ae35
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646458"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658003"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-bluehost"></a>Alterar os nameservers para configurar o Microsoft com o Bluehost
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS para você. Se preferir, [gerencie todos os registros DNS em Bluehost](create-dns-records-at-bluehost.md).
   
@@ -139,7 +139,7 @@ Para concluir a configuração do seu domínio com a Microsoft, altere os regist
 ### <a name="if-there-are-nameservers-already-listed"></a>Se HOUVER nameservers listados
 
 > [!CAUTION]
-> Follow these steps only if you have existing nameservers other than the four correct nameservers. (Ou seja, exclua somente os nameservers atuais que  *não*  sejam denominados **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com**ou **NS4.bdm.microsoftonline.com**.) 
+> Follow these steps only if you have existing nameservers other than the four correct nameservers. (Ou seja, exclua somente os nameservers atuais que  *não*  sejam denominados **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com** ou **NS4.bdm.microsoftonline.com**.) 
   
 1. Se houver outros nameservers listados na área, exclua cada um deles selecionando-os e pressionando a tecla **Delete** no teclado. 
     

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e Microsoft defender para Office 365
-ms.openlocfilehash: fb613916ec375214b33b8b842c6817561920715d
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: a77201835652fb36822fbc603f5211c1f7a9521b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616039"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659223"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e Microsoft defender para Office 365
 
@@ -98,17 +98,19 @@ Em outras palavras, as configurações da política de **proteção estrita** su
 
 ## <a name="assign-preset-security-policies-to-users"></a>Atribuir políticas de segurança predefinidas aos usuários
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+### <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança predefinidas** , use <https://protection.office.com/presetSecurityPolicies> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança predefinidas** , use <https://protection.office.com/presetSecurityPolicies> .
 
 - Para se conectar ao Windows PowerShell do Exchange Online, confira [Conectar ao Windows PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa receber permissões antes de executar os procedimentos deste artigo:
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
+  - Para configurar políticas de segurança predefinidas, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** .
+  - Para acesso somente leitura às políticas de segurança predefinidas, você precisa ser membro do grupo de função **leitor global** .
 
-  - Para configurar políticas de segurança predefinidas, você precisa ser membro das funções de **Gerenciamento da organização** ou **administrador de segurança** no centro de [conformidade de segurança &](permissions-in-the-security-and-compliance-center.md).
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-  - Para acesso somente leitura às políticas de segurança predefinidas, você precisa ser membro do grupo de função **leitor global** no [centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+  **Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Usar o centro de conformidade de & de segurança para atribuir políticas de segurança predefinidas aos usuários
 

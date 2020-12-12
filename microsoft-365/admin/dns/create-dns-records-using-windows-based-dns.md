@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNS baseado em Windows para Microsoft.
-ms.openlocfilehash: 471aa0323bd59b09c672431ef39bb33f5c89b555
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8202ffe10b4a0ff9c94d863d92fc55c47ebb38d3
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645570"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656838"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Criar registros DNS para a Microsoft usando DNS baseado no Windows
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
    
 Se você hospedar seus próprios registros DNS usando um DNS baseado no Windows, siga as etapas neste artigo para configurar seus registros para email, Skype for Business Online e assim por diante.
   
@@ -39,7 +39,7 @@ Para começar, você precisa [localizar seus registros DNS no DNS baseado no Win
 Problemas com o fluxo de emails ou outros problemas após a adição de registros DNS, consulte [solucionar problemas após alterar seu nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Localize seus registros DNS no DNS baseado no Windows
-<a name="BKMK_find_your_dns_1"> </a> Vá para a página que tem os registros DNS do seu domínio. Se você estiver trabalhando no Windows Server 2008, vá para **Iniciar**  >  **executar**. Se você estiver trabalhando no Windows Server 2012, pressione a tecla Windows e **r**. Digite **dnsmgmnt. msc**e, em seguida, selecione **OK**. No Gerenciador DNS, expanda ** \<DNS server name\> \> zonas de pesquisa direta  **. Selecionar seu domínio. Você está pronto para criar os registros DNS.
+<a name="BKMK_find_your_dns_1"></a> Vá para a página que tem os registros DNS do seu domínio. Se você estiver trabalhando no Windows Server 2008, vá para **Iniciar**  >  **executar**. Se você estiver trabalhando no Windows Server 2012, pressione a tecla Windows e **r**. Digite **dnsmgmnt. msc** e, em seguida, selecione **OK**. No Gerenciador DNS, expanda **\<DNS server name\> \> zonas de pesquisa direta**. Selecionar seu domínio. Você está pronto para criar os registros DNS.
    
 ## <a name="add-mx-record"></a>Adicionar registro MX
 <a name="BKMK_add_MX"> </a>
@@ -68,7 +68,7 @@ Adicione os registros CNAME necessários para a Microsoft. Se houver registros C
     - Nome do host: descoberta automática
     - Tipo: 
     - Cnameendereço: autodiscover.outlook.com
-- Selecione **O**K.
+- Selecione **O** K.
 
 Adicione o registro CNAME SIP. 
 - Na página Gerenciador DNS para o domínio, vá para **ação** \> **CNAME (CNAME)**. 
@@ -193,7 +193,7 @@ Verifique seu domínio no Microsoft.
 - Volte para a Microsoft e siga as etapas abaixo para solicitar uma verificação de verificação. A verificação procura o registro TXT adicionado na etapa anterior. Quando encontrar o registro TXT correto, o domínio será verificado.  
 1. No centro de administração, vá para a página **Configurar** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> .
 2. Na página **domínios** , na coluna **ação** para o domínio que você está verificando, selecione **Iniciar configuração**. 
-3. Na página **confirmar que você é o proprietário do domínio** , selecione **concluído, verificar agora**e, na caixa de diálogo de confirmação, selecione **concluir**. 
+3. Na página **confirmar que você é o proprietário do domínio** , selecione **concluído, verificar agora** e, na caixa de diálogo de confirmação, selecione **concluir**. 
    
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

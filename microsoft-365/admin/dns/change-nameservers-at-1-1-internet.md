@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Saiba como você pode configurar o Office 365 operado pela 21Vianet para gerenciar seus registros DNS, quando 1&1 Internet é o provedor de Hospedagem de DNS.
-ms.openlocfilehash: 8a783be20d2f8dbdb26e9826018f911289b35235
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b363718c7d1d1845117f44317ae9e6b24e9a2e28
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646554"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658027"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Alterar os nameservers para configurar o Microsoft 365 com 1&1 IONOS
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Siga estas instruções se desejar que a Microsoft 365 gerencie seus registros DNS do Microsoft 365 para você. Se preferir, [gerencie todos os seus registros DNS do Microsoft 365 em 1&1 IONOS](create-dns-records-at-1-1-internet.md).) 
   
@@ -66,7 +66,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 0:42)](https://support.m
 |TXT  <br/> |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX* <br/> **Observação**: Este é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
-7. Selecione **salvar**e **salve** novamente. 
+7. Selecione **salvar** e **salve** novamente. 
     
 8. Na caixa de diálogo **Editar configurações de DNS** , selecione **Sim**.
     

@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9c0812e0-908b-4b41-a64b-77f0dbd3db7a
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Dreamhost para a Microsoft.
-ms.openlocfilehash: 8ab617fd5d63b292a85289d2d51a0ae0fd3b26be
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2faf7cae1fd9a0f9308e303c0588958e56b223e1
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646194"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658118"
 ---
 # <a name="create-dns-records-at-dreamhost-for-microsoft"></a>Criar registros DNS no Dreamhost para Microsoft
 
- Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se o DreamHost for seu provedor de Hospedagem de DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email, Lync e assim por diante.
  
@@ -52,7 +52,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![Dreamhost-BP-configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Na página **painel** , selecione **domínios**e, em seguida, **gerenciar domínios**.
+2. Na página **painel** , selecione **domínios** e, em seguida, **gerenciar domínios**.
     
     ![Dreamhost-BP-configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   
@@ -111,7 +111,7 @@ Siga as etapas abaixo.
     
     ![Dreamhost-BP-configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Na página **painel** , selecione **email**e, em seguida, **personalizado MX**.
+2. Na página **painel** , selecione **email** e, em seguida, **personalizado MX**.
     
     ![Dreamhost-BP-configure-2-1](../../media/58478679-4018-49cc-9d83-371dc5fa4a22.png)
   
@@ -153,7 +153,7 @@ Siga as etapas abaixo.
     
     ![Dreamhost-BP-configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Na página **painel** , selecione **domínios**e, em seguida, **gerenciar domínios**.
+2. Na página **painel** , selecione **domínios** e, em seguida, **gerenciar domínios**.
     
     ![Dreamhost-BP-configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   
@@ -196,7 +196,7 @@ Siga as etapas abaixo.
     
     ![Dreamhost-BP-configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Na página **painel** , selecione **domínios**e, em seguida, **gerenciar domínios**.
+2. Na página **painel** , selecione **domínios** e, em seguida, **gerenciar domínios**.
     
     ![Dreamhost-BP-configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   
@@ -232,7 +232,7 @@ Siga as etapas abaixo.
     
     ![Dreamhost-BP-configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Na página **painel** , selecione **domínios**e, em seguida, **gerenciar domínios**.
+2. Na página **painel** , selecione **domínios** e, em seguida, **gerenciar domínios**.
     
     ![Dreamhost-BP-configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   

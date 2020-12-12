@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de emails (regras de transporte) para identificar e filtrar emails em massa (emails cinza) na proteção do Exchange Online (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f88358973648846d650700bb5939c052851c789
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: b029e805147218551ba6ff80fb5abfda3fbfef7f
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615631"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658632"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Usar regras de fluxo de email para filtrar emails em massa no EOP
 
@@ -34,13 +34,15 @@ Se quiser mais opções para filtrar emails em massa, você poderá criar regras
 
 Este tópico explica como criar essas regras de fluxo de email no centro de administração do Exchange (Eat) e no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Você precisa ter permissões para poder executar estes procedimentos:
+- Você precisa receber permissões no Exchange Online ou na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisa da função de **regras de transporte** , que é atribuída ao **Gerenciamento de organização**, gerenciamento de **conformidade** (administradores globais) e grupos de função de **Gerenciamento de registros** por padrão.
 
-  - No Exchange Online, consulte o entrada "fluxo de email" em [permissões de recurso no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/feature-permissions).
+  Para mais informações, confira os seguintes tópicos:
 
-  - Em EOP autônomo, você precisa da função de regras de transporte, que é atribuída às funções gerenciamento, ComplianceManagement e RecordsManagement por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+  - [Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+  - [Permissões no EOP autônomo](feature-permissions-in-eop.md)
+  - [Usar o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - Para abrir o Eat no Exchange Online, confira [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center). Para abrir o Eat no EOP autônomo, confira [centro de administração do Exchange no EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
@@ -149,7 +151,7 @@ Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-Tr
 
 Para verificar se você configurou regras de fluxo de email para filtrar emails em massa, execute uma das seguintes etapas:
 
-- No Eat, vá para regras de **fluxo de emails** \> **Rules** \> Selecione a regra \> clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) e verifique as configurações.
+- No Eat, vá para regras de **fluxo de emails** \>  \> Selecione a regra \> clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) e verifique as configurações.
 
 - No PowerShell, substitua o \<Rule Name\> nome da regra e execute o seguinte comando para verificar as configurações:
 

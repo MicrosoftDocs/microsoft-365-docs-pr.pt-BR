@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Saiba mais sobre como gerenciar usuários de email na proteção do Exchange Online (EOP), incluindo o uso da sincronização de diretórios, da Eat e do PowerShell para gerenciar usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3c3e69def731a85c0dccffdcb5620560dcf00052
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: a8258a63fe0fbf4a6b5641fbdef213f25de2e4dd
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356722"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658828"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de email no EOP autônomo
 
@@ -30,9 +30,9 @@ Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de c
 > [!NOTE]
 > Quando você cria um usuário de email, a conta de usuário correspondente está disponível no centro de administração do Microsoft 365. Ao criar uma conta de usuário no centro de administração do Microsoft 365, você não pode usar essa conta para criar um usuário de email.
 
-O método recomendado para criar e gerenciar usuários de email no EOP autônomo é usar a sincronização de diretórios, conforme descrito na seção [usar a sincronização de diretórios para gerenciar usuários de email](#use-directory-synchronization-to-manage-mail-users) mais adiante neste tópico.
+O método recomendado para criar e gerenciar usuários de email no EOP autônomo é usar a sincronização de diretório, conforme descrito na seção [usar a sincronização de diretório para gerenciar usuários de email](#use-directory-synchronization-to-manage-mail-users) mais adiante neste artigo.
 
-Para organizações EOP autônomas com um pequeno número de usuários, você pode adicionar e gerenciar usuários de email no centro de administração do Exchange (Eat) ou no EOP PowerShell autônomo, conforme descrito neste tópico.
+Para organizações EOP autônomas com um pequeno número de usuários, você pode adicionar e gerenciar usuários de email no centro de administração do Exchange (Eat) ou no PowerShell autônomo do EOP, conforme descrito neste artigo.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
@@ -42,9 +42,9 @@ Para organizações EOP autônomas com um pequeno número de usuários, você po
 
 - Ao criar usuários de email no EOP PowerShell, você pode encontrar limitação. Além disso, os cmdlets do EOP PowerShell usam um método de processamento em lotes que resulta em um atraso de propagação de alguns minutos antes que os resultados dos comandos fiquem visíveis.
 
-- Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa das funções de criação de destinatário de email (criar) e de destinatários de email (modificar), que são atribuídas aos grupos de função gerenciamento (administradores globais) e RecipientManagement por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- Você precisa receber permissões na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisará das funções de **criação de destinatário de email** (criar) e de destinatários de **email** (modificar), que são atribuídas aos grupos de funções de gerenciamento da **organização** (administradores globais) e de **Gerenciamento de destinatários** por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
+- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste artigo, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
 > Está com problemas? Peça ajuda nos fóruns do Exchange. Visite o fórum do [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
@@ -53,7 +53,7 @@ Para organizações EOP autônomas com um pequeno número de usuários, você po
 
 ### <a name="use-the-eac-to-create-mail-users"></a>Usar o Eat para criar usuários de email
 
-1. No Eat, vá para **Recipients** \> **contatos** de destinatários
+1. No Eat, vá para  \> **contatos** de destinatários
 
 2. Clique em **novo** ![ ícone novo ](../../media/ITPro-EAC-AddIcon.png) . Na página **novo usuário de email** que é aberta, defina as seguintes configurações. As configurações marcadas com um <sup>\*</sup> são obrigatórias.
 

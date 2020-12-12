@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre como a limpeza automática de zero horas (ZAP) pode mover retroativamente as mensagens entregues em uma caixa de correio do Exchange Online para a pasta de lixo eletrônico ou quarentena que estão retroativamente de spam ou phishing.
-ms.openlocfilehash: fd5186bc40d2d80097e6292d86ea113a41e0dd52
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 7b43fb46adacfe1e9f1e7e622122df90e747ff44
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131136"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659424"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Limpeza automática de zero horas (ZAP) no Exchange Online
 
@@ -97,7 +97,7 @@ Você deve seguir o processo de relatório normal para [falsos positivos](report
 
 ### <a name="what-if-i-use-the-quarantine-folder-instead-of-the-junk-mail-folder"></a>E se eu usar a pasta quarentena em vez da pasta lixo eletrônico?
 
-O ZAP executará uma ação em uma mensagem com base na configuração de suas políticas antispam, conforme descrito anteriormente neste tópico.
+O ZAP executará uma ação em uma mensagem com base na configuração de suas políticas antispam, conforme descrito anteriormente neste artigo.
 
 ### <a name="what-if-im-using-safe-senders-mail-flow-rules-or-allowedblocked-sender-lists"></a>E se eu estiver usando remetentes confiáveis, regras de fluxo de email ou listas de remetentes permitidos/bloqueados?
 

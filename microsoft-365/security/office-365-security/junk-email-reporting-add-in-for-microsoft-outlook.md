@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Saiba como instalar e usar o suplemento relatório de lixo eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing à Microsoft.
-ms.openlocfilehash: 6f08c72ae797825695c443848429dcfd2cd485a2
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 4345066ec180b5d7fe5ff8b537a3cd057f60c31c
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616423"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658864"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook
 
@@ -33,9 +33,9 @@ O suplemento relatório de lixo eletrônico para o Microsoft Outlook permite que
 
 Este tópico explica como instalar e usar o suplemento relatório de lixo eletrônico.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Para instalar o suplemento relatório de lixo eletrônico, confira a seção [instalar o suplemento relatório de lixo eletrônico](#install-the-junk-email-reporting-add-in) mais adiante neste tópico.
+- Para instalar o suplemento relatório de lixo eletrônico, confira a seção [instalar o suplemento relatório de lixo eletrônico](#install-the-junk-email-reporting-add-in) mais adiante neste artigo.
 
 - O suplemento relatório de lixo eletrônico funciona com as seguintes versões do Outlook:
 
