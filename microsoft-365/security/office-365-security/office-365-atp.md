@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender para Office 365
+title: Obter o Microsoft Defender para Office 365
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -20,14 +20,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: O Microsoft Defender para Office 365 inclui anexos seguros, links seguros, ferramentas anti-phishing avançadas, ferramentas de relatórios e recursos de inteligência de ameaças.
-ms.openlocfilehash: 11b6445e17fc870c2999ddb56715b0c5cee5b5fc
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 86e738fa9390cc40b06c10a27f3198715bb991fd
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357702"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614805"
 ---
-# <a name="microsoft-defender-for-office-365"></a>Microsoft Defender para Office 365
+# <a name="microsoft-defender-for-office-365"></a>Obter o Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -72,7 +72,7 @@ A tabela a seguir resume o que está incluído em cada plano.
 
 |Plano 1 do Microsoft Defender para Office 365|Plano 2 do Microsoft Defender para Office 365|
 |---|---|
-|<br/>Capacidade de configuração, proteção e detecção: <ul><li>[Anexos Seguros](atp-safe-attachments.md)</li><li>[Links Seguros](atp-safe-links.md)</li><li>[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Anti-phishing no Defender para proteção do Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecções em tempo real](threat-explorer.md)</li></ul>|Recursos do Microsoft Defender para Office 365 Plano 1<br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:</li><li>[Controladores de Ameaças](threat-trackers.md)</li><li>[Explorador de Ameaças](threat-explorer.md)</li><li>[Resposta e investigação automatizadas](office-365-air.md)</li><li>[Simulador de Ataque](attack-simulator.md)</li></ul>|
+|Capacidade de configuração, proteção e detecção: <ul><li>[Anexos Seguros](atp-safe-attachments.md)</li><li>[Links Seguros](atp-safe-links.md)</li><li>[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Anti-phishing no Defender para proteção do Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecções em tempo real](threat-explorer.md)</li></ul>|Recursos do Microsoft Defender para Office 365 Plano 1 <br>---mais---<br> Recursos de automação, investigação, correção e formação educacional:<ul><li>[Controladores de Ameaças](threat-trackers.md)</li><li>[Explorador de Ameaças](threat-explorer.md)</li><li>[Resposta e investigação automatizadas](office-365-air.md)</li><li>[Simulador de Ataque](attack-simulator.md)</li><li>[Modos de Exibição de Campanha](campaigns.md)</li></ul>|
 |
 
 - O Microsoft Defender para Office 365 Plano 2 está incluído no Office 365 E5, Office 365 A5, Microsoft 365 E5 Security e Microsoft 365 E5.
@@ -87,7 +87,7 @@ A tabela a seguir resume o que está incluído em cada plano.
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Configurar politicas do Microsoft Defender para Office 365
 
-Com o Microsoft Defender para Office 365, a equipe de segurança da sua organização pode configurar a proteção definindo políticas no Centro de Conformidade e Segurança (Vá para [https://protection.office.com](https://protection.office.com) > **Gerenciamento de ameaças** > **Política**.)
+Com o Microsoft Defender para Office 365, a equipe de segurança da sua organização pode configurar a proteção definindo políticas no Centro de Conformidade e Segurança (Vá para <https://protection.office.com> \> **Política de gerenciamento de** \> **ameaças**.)
 
 > [!TIP]
 > Para obter uma lista rápida de políticas a serem definidas, confira [Proteção contra ameaças](protect-against-threats.md).
@@ -106,7 +106,7 @@ As políticas definidas para a sua organização determinam o comportamento e o 
 
 ## <a name="view-microsoft-defender-for-office-365-reports"></a>Exibir relatórios do Microsoft Defender para Office 365
 
-O Microsoft Defender para Office 365 inclui um [painel de relatórios](view-reports-for-atp.md) avançado para monitorar o desempenho do Defender for Office 365. Você pode acessá-lo em **Relatórios** > **Painel** no Centro de Segurança e Conformidade.
+O Microsoft Defender para Office 365 inclui um [painel de relatórios](view-reports-for-atp.md) avançado para monitorar o desempenho do Defender for Office 365. É possível acessá-lo em **Relatórios** \> **Painel** no Centro de Segurança e Conformidade.
 
 Os relatórios são atualizados em tempo real, fornecendo as informações mais recentes. Esses relatórios também fornecem recomendações e alertam você sobre ameaças iminentes. Os relatórios predefinidos incluem o seguinte:
 

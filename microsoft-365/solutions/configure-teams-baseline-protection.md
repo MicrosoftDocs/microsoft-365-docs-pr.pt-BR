@@ -3,7 +3,7 @@ title: Configurar equipes com proteção de linha de base
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com um nível de linha de base de proteção.
-ms.openlocfilehash: 76b60a61812c4d30884825b41ee7220d6686b58b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 16f37175c3aa7b420745e6126de1aa96368d618a
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845295"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613437"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Configurar equipes com proteção de linha de base
 
@@ -51,7 +51,7 @@ Para definir as configurações de acesso de convidado do Teams
 
 1. Entre no Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com).
 2. Na barra de navegação esquerda, clique em **Mostrar tudo**.
-3. Em **Centros de administração** , clique em **Teams**.
+3. Em **Centros de administração**, clique em **Teams**.
 4. No Centro de administração do Teams, na navegação à esquerda, expanda **Configurações para toda a organização** e clique em **Acesso de convidado**.
 5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
 6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
@@ -67,8 +67,8 @@ Para reduzir o risco de compartilhar acidentalmente arquivos ou pastas com pesso
 
 Para alterar o link de compartilhamento padrão
 1. Abra o [Centro de Administração do SharePoint](https://admin.microsoft.com/sharepoint).
-2. Em **Políticas** , clique em **Compartilhamento**.
-3. Em **Links de arquivos e pastas** , selecione **Somente as pessoas da sua organização**.
+2. Em **Políticas**, clique em **Compartilhamento**.
+3. Em **Links de arquivos e pastas**, selecione **Somente as pessoas da sua organização**.
 4. Clique em **Salvar**.
 
 Para obter a melhor experiência de compartilhamento de convidados, recomendamos também que você habilite a [Integração do SharePoint e do OneDrive com o B2B do Azure AD](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
@@ -87,14 +87,14 @@ Para atualizar as configurações de compartilhamento de site
 1. Na barra de ferramentas da equipe, clique em **Arquivos**.
 2. Clique em **Abrir no SharePoint**.
 3. Na barra de ferramentas do site do SharePoint, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
-4. No painel **Permissões do site** , em **Configurações de compartilhamento** , clique em **Alterar configurações de compartilhamento**.
-5. Em **Compartilhar permissões** , escolha **Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site** e, em seguida, clique em **Salvar**.
+4. No painel **Permissões do site**, em **Configurações de compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+5. Em **Compartilhar permissões**, escolha **Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site** e, em seguida, clique em **Salvar**.
 
 ## <a name="additional-protections"></a>Proteções adicionais
 
 O Microsoft 365 oferece métodos adicionais para proteger seu conteúdo. Considere se as seguintes opções ajudariam a melhorar a segurança da sua organização.
 
-- Fazer com que seus usuários convidados concordem com os [termos de uso](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
+- Faça com que os convidados concordem com os [termos de uso](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
 - Configurar uma [política de tempo limite de sessão](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) para convidados.
 - Criar [tipos de informações confidenciais](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) e usar a [proteção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) para definir políticas de acesso a informações confidenciais.
 

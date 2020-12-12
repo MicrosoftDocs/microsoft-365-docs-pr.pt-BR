@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Saiba como configurar uma autenticação de mensagem baseada em domínio, relatórios e conformidade (DMARC) para validar as mensagens enviadas da sua organização.
-ms.openlocfilehash: 4ff2c93e420957714815100243a6502e7ea087a7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9dd97b1fc60f0b6198bb6c55af291c7dd103ac5d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446366"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615331"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Usar DMARC para validar emails
 
@@ -191,7 +191,7 @@ Você pode implementar o DMARC gradualmente sem causar impacto no restante de se
 3. Solicitar que sistemas de email externos rejeitem as mensagens que não passam na verificação do DMARC
 
     A etapa final é implementar uma política de rejeição. Uma política de rejeição é um registro TXT do DMARC que tem a política definida como reject (p=reject). Ao fazer isto, você pede aos receptores do DMARC que não aceitem as mensagens que falham na verificação.
-    
+
 4. Como configurar DMARC para subdomínio?
 
 DMARC é implementado por meio da publicação de uma política como um registro TXT no DNS e é hierárquico (por exemplo, uma política publicada para contoso.com será aplicada a sub.domain.contonos.com, a menos que uma política diferente seja explicitamente definida para o subdomínio). Isso é útil para que as organizações possam especificar um número menor de registros DMARC de alto nível para uma ampla cobertura. Cuidado deve ser tomado para configurar registros DMARC explícitos de subdomínio, onde você não quer que os subdomínios herdem o registro DMARC do domínio de nível superior.
@@ -249,7 +249,7 @@ Quer mais informações sobre o DMARC? Estes recursos podem ajudar.
 
 - [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md) inclui a sintaxe e os campos de cabeçalho usados pelo Microsoft 365 para verificações de DMARC.
 
-- Faça a [DMARC Training Series](https://www.m3aawg.org/activities/training/dmarc-training-series) do M <sup>3</sup>AAWG (Messaging, Malware, Mobile Anti-Abuse Working Group).
+- Faça a [Série de Treinamento DMARC](https://www.m3aawg.org/activities/training/dmarc-training-series) do M<sup>3</sup>AAWG (Sistema de Mensagens de Malware e Grupo de Trabalho Anti-Abuso de Mensagens, Malware).
 
 - Use a lista de verificação em [dmarcian](https://space.dmarcian.com/deployment/).
 

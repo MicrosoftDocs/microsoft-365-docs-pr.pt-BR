@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: 9c3416f415c43377669b2c032e10696343c4416f
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: d2c5b4f67d93500f7341463a01313271d182dc38
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988453"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611343"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -90,9 +90,13 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
     
 - [Uso de caixa de correio](mailbox-usage.md)
     
-- [Ativações do Office](microsoft-office-activations.md)
+- [Ativações do Office](microsoft-office-activations-ww.md)
 
-- [Usuários ativos](active-users.md)
+- [Ativações do Office para o Governo dos EUA](microsoft-office-activations.md)
+
+- [Usuários Ativos](active-users-ww.md)
+
+- [Usuários Ativos para o Governo dos EUA](active-users.md)
   
 - [Uso de aplicativos de email](email-apps-usage.md)
 
@@ -104,7 +108,9 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
   
 - [Atividade do Dynamics 365 Customer Voice para o Governo dos EUA](forms-pro-activity.md)
 
-- [Grupos do Microsoft 365](office-365-groups.md)
+- [Grupos do Microsoft 365](office-365-groups-ww.md)
+
+- [Grupos do Microsoft 365 para o Governo dos EUA](office-365-groups.md)
   
 - [Atividade de usuários do OneDrive for Business](onedrive-for-business-activity-ww.md)
 
@@ -114,9 +120,11 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
 
 - [Utilização do OneDrive for Business pelo Governo dos EUA](onedrive-for-business-usage.md)
 
-- [Uso dos Aplicativos do Microsoft 365](microsoft365-apps-usage.md)
+- [Uso do Microsoft 365 Apps](microsoft365-apps-usage-ww.md)
+
+- [Uso do Microsoft 365 Apps para o Governo dos EUA](microsoft365-apps-usage.md)
   
-- [Uso do site do SharePoint](sharepoint-site-usage-ww.md)
+- [Uso do site do Microsoft Office SharePoint Online](sharepoint-site-usage-ww.md)
 
 - [Utilização do site do SharePoint pelo Governo dos EUA](sharepoint-site-usage.md)
   
@@ -203,6 +211,8 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
 Use os relatórios de serviço para pesquisar o nível de uso de um determinado usuário. Por exemplo, para descobrir a quantidade de armazenamento de caixa de correio que um usuário específico consumiu, abra o relatório de uso da caixa de correio e classifique os usuários por nome. Caso tenha milhares de usuários, exporte o relatório para o Excel a fim de filtrar a lista rapidamente.
   
 Não é possível gerar um relatório no qual você insere contas de usuários e obtém uma lista com os serviços e a quantidade que eles estão usando.
+
+Há situações em que os novos usuários aparecem como **desconhecido**. Isso geralmente ocorre devido a atrasos ocasionais na criação de perfis de usuário.  
   
 ## <a name="hide-user-details-in-the-reports"></a>Ocultar detalhes do usuário nos relatórios
 
@@ -212,7 +222,7 @@ Se quiser ocultar informações de nível do usuário ao gerar seus relatórios,
 
 2. Selecione **Relatórios**. 
   
-3. No painel **relatórios** , selecione as opções desejadas e, em seguida, salve suas alterações.
+3. No painel **relatórios**, selecione as opções desejadas e, em seguida, salve suas alterações.
   
 A sua lista de usuários terá a seguinte aparência:
   

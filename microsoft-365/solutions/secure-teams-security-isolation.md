@@ -3,7 +3,7 @@ title: Configurar uma equipe com isolamento de segurança
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 localization_priority: Priority
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: 46bc63bab52bf75dc7c215510d49b4d985ff07c3
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: c7230f23a21804530863f125003e4db0eaeeeb60
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487477"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616291"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -50,7 +50,7 @@ Assista a esse vídeo para obter uma visão geral do processo de implementação
 
 [![Pôster do Microsoft Teams com isolamento de segurança](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
-Também é possível pode baixar este pôster no formato [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) e imprimi-lo em papel tamanho carta, ofício ou tablóide (11 x 17).
+Também é possível descarregar este pôster nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) ou [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) e imprimi-lo em papel tamanho carta, legal, ou tabloide (11 x 17).
 
 ## <a name="initial-protections"></a>Proteções iniciais
 

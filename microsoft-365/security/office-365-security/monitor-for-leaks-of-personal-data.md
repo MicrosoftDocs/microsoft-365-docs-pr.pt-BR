@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
-ms.openlocfilehash: 67cce80435aa0f01f496ec67d617f0a2dfff8ec8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a212067d75ab3d9e195e3d869e0a6ae7d1ed4d01
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202694"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616375"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -117,7 +117,6 @@ A segunda política bloqueia os downloads de arquivos em dispositivos não geren
 Em breve, os seguintes tipos de atributos estarão disponíveis para o Cloud App Security:
 
 - Tipos de informações confidenciais
-
 - Rótulos unificados no Microsoft 365 e na Proteção de Informações do Azure
 
 ### <a name="cloud-app-security-dashboard"></a>Painel do Cloud App Security
@@ -142,69 +141,24 @@ Mais informações:
 
 Alerta quando um arquivo que contém um número de cartão de crédito é compartilhado em um aplicativo de nuvem aprovado.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>Controle</strong></th>
-<th align="left"><strong>Configurações</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Tipo de política</td>
-<td align="left">Política de arquivo</td>
-</tr>
-<tr class="even">
-<td align="left">Modelo de política</td>
-<td align="left">Sem modelo</td>
-</tr>
-<tr class="odd">
-<td align="left">Severidade da política</td>
-<td align="left">Alta</td>
-</tr>
-<tr class="even">
-<td align="left">Categoria</td>
-<td align="left">DLP</td>
-</tr>
-<tr class="odd">
-<td align="left">Configurações de Filtro</td>
-<td align="left"><p>Nível de acesso = Público (Internet), público, externo</p>
-<p>Aplicativo = &lt;selecionar aplicativos&gt; (use essa configuração caso pretenda limitar o monitoramento a aplicativos SaaS específicos)</p></td>
-</tr>
-<tr class="even">
-<td align="left">Aplicar a</td>
-<td align="left">Todos os arquivos, todos os proprietários</td>
-</tr>
-<tr class="odd">
-<td align="left">Inspeção de conteúdo</td>
-<td align="left"><p>Inclui os arquivos que correspondam a uma expressão presente: "Todos os países: finanças: número do cartão de crédito"</p>
-<p>Não exige contexto relevante: não selecionado (isso corresponde a palavras-chave e expressões regulares)</p>
-<p>Inclui arquivos com pelo menos uma correspondência</p>
-<p>Remover a máscara dos quatro últimos caracteres da violação: selecionado</p></td>
-</tr>
-<tr class="even">
-<td align="left">Alertas</td>
-<td align="left"><p>Criar um alerta para cada arquivo correspondente: selecionado</p>
-<p>Limite diário de alerta: 1.000</p>
-<p>Selecionar um alerta como email: selecionado</p>
-<p>Para: infosec@contoso.com</p></td>
-</tr>
-<tr class="odd">
-<td align="left">Gestão</td>
-<td align="left"><p>Microsoft OneDrive for Business</p>
-<p>Tornar particular: selecionar "Remover usuários externos"</p>
-<p>Todas as outras configurações: não selecionadas</p>
-<p>Microsoft SharePoint Online</p>
-<p>Tornar particular: selecionar "Remover usuários externos"</p>
-<p>Todas as outras configurações: não selecionadas</p></td>
-</tr>
-</tbody>
-</table>
+****
+
+|Controle|Configurações|
+|---|---|
+|Tipo de política|Política de arquivo|
+|Modelo de política|Sem modelo|
+|Severidade da política|Alta|
+|Categoria|DLP|
+|Configurações de Filtro|Nível de acesso = Público (Internet), público, externo <p> Aplicativos = \<select apps\>(use esta configuração se quiser limitar o monitoramento a aplicativos SaaS específicos)|
+|Aplicar a|Todos os arquivos, todos os proprietários|
+|Inspeção de conteúdo|Inclui os arquivos que correspondam a uma expressão presente: "Todos os países: finanças: número do cartão de crédito" <p> Não exige contexto relevante: não selecionado (isso corresponde a palavras-chave e expressões regulares) <p> Inclui arquivos com pelo menos uma correspondência <p> Remover a máscara dos quatro últimos caracteres da violação: selecionado|
+|Alertas|Criar um alerta para cada arquivo correspondente: selecionado <p> Limite diário de alerta: 1.000 <p> Selecionar um alerta como email: selecionado <p> Para: infosec@contoso.com|
+|Gestão|Microsoft OneDrive for Business <p> Tornar particular: selecionar "Remover usuários externos" <p> Todas as outras configurações: não selecionadas <p> Microsoft SharePoint Online <p> Tornar particular: selecionar "Remover usuários externos" <p> Todas as outras configurações: não selecionadas|
+|
 
 Políticas semelhantes:
 
 - Detectar compartilhamento de arquivos que contêm informações de identificação pessoal: endereço de email
-
 - Detectar compartilhamento de arquivos que contêm informações de identificação pessoal: número do passaporte
 
 ### <a name="detect-customer-or-hr-data-in-box-or-onedrive-for-business"></a>Detectar clientes ou dados de RH no Box ou no OneDrive for Business
@@ -214,64 +168,23 @@ Alerta quando um arquivo rotulado como "Dados do cliente" ou "Dados de RH" é ca
 Observações:
 
 - o monitoramento do Box exige configurar um conector com o SDK do conector de API.
-
 - Essa política exige funcionalidades que estão atualmente em visualização privada.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>Controle</strong></th>
-<th align="left"><strong>Configurações</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Tipo de política</td>
-<td align="left">Política de atividade</td>
-</tr>
-<tr class="even">
-<td align="left">Modelo de política</td>
-<td align="left">Sem modelo</td>
-</tr>
-<tr class="odd">
-<td align="left">Severidade da política</td>
-<td align="left">Alta</td>
-</tr>
-<tr class="even">
-<td align="left">Categoria</td>
-<td align="left">Controle de Compartilhamento</td>
-</tr>
-<tr class="odd">
-<td align="left">Atuar em</td>
-<td align="left">Atividade única</td>
-</tr>
-<tr class="even">
-<td align="left">Configurações de Filtro</td>
-<td align="left"><p>Tipo de atividade = carregar arquivo</p>
-<p>Aplicativo = Microsoft OneDrive for Business e Box</p>
-<p>Rótulo de classificação (atualmente em visualização privada): Proteção de Informações do Azure = Dados do cliente, Recursos humanos: dados de salário; Recursos humanos: dados do funcionário</p></td>
-</tr>
-<tr class="odd">
-<td align="left">Alertas</td>
-<td align="left"><p>Criar um alerta: selecionado</p>
-<p>Limite diário de alerta: 1.000</p>
-<p>Selecionar um alerta como email: selecionado</p>
-<p>Para: infosec@contoso.com</p></td>
-</tr>
-<tr class="even">
-<td align="left">Gestão</td>
-<td align="left"><p>Todos os aplicativos</p>
-<p>Colocar o usuário em quarentena: selecionar</p>
-<p>Todas as outras configurações: não selecionadas</p>
-<p>Office 365</p>
-<p>Colocar o usuário em quarentena: selecionar</p>
-<p>Todas as outras configurações: não selecionadas</p></td>
-</tr>
-</tbody>
-</table>
+****
+
+|Controle|Configurações|
+|---|---|
+|Tipo de política|Política de atividade|
+|Modelo de política|Sem modelo|
+|Severidade da política|Alta|
+|Categoria|Controle de Compartilhamento|
+|Atuar em|Atividade única|
+|Configurações de Filtro|Tipo de atividade = carregar arquivo <p> Aplicativo = Microsoft OneDrive for Business e Box <p> Rótulo de classificação (atualmente em visualização privada): Proteção de Informações do Azure = Dados do cliente, Recursos humanos: dados de salário; Recursos humanos: dados do funcionário|
+|Alertas|Criar um alerta: selecionado <p> Limite diário de alerta: 1.000 <p> Selecionar um alerta como email: selecionado <p> Para: infosec@contoso.com|
+|Gestão|Todos os aplicativos <p> Colocar o usuário em quarentena: selecionar <p> Todas as outras configurações: não selecionadas <p> Office 365 <p> Colocar o usuário em quarentena: selecionar <p> Todas as outras configurações: não selecionadas|
+|
 
 Políticas semelhantes:
 
 - Detectar grandes downloads de dados do cliente ou de RH – alerta quando for detectada uma grande quantidade de arquivos que contêm dados de clientes ou de RH sendo baixada por um único usuário, dentro de um curto período.
-
 - Detectar o compartilhamento de dados de clientes e de RH – alerta quando os arquivos com dados de clientes ou de RH são compartilhados.

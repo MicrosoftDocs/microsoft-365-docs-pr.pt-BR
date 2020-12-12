@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo descreve como atualizar um registro de Serviço de Nome de Domínio (DNS) para que você possa usar a Sender Policy Framework (SPF) com seu domínio personalizado no Office 365.
-ms.openlocfilehash: ce8a982b875632ad58b34ae240c02b507c4656fe
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 137937b106be9ce0cf782a84b988913e2c6dac4b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021056"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615715"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Configure o SPF para ajudar a evitar falsificações
 
@@ -69,11 +69,11 @@ Reúna essas informações:
    |---|---|---|---|
    |1|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF começam com esse valor|`v=spf1`|
    |2|Exchange Online|Comum|`include:spf.protection.outlook.com`|
-   |3|Somente Exchange Online dedicado|Incomum|`ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com`|
+   |3|Somente Exchange Online dedicado|Incomum|`ip4:23.103.224.0/19` <br> `ip4:206.191.224.0/19` <br> `ip4:40.103.0.0/16` <br> `include:spf.protection.outlook.com`|
    |4|Office 365 Alemanha, Microsoft Cloud Alemanha apenas|Incomum|`include:spf.protection.outlook.de`|
-   |5|Sistema de email de terceiros|Incomum|`include:<domain_name>`  <br/> Onde \<domain_name\> é o domínio do sistema de email de terceiros.|
-   |6|Sistema de emails local. Por exemplo, o Exchange Online Protection mais outro sistema de email|Incomum|Use um destes procedimentos para cada sistema de email adicional: <br> `ip4:<IP_address>` <br/> `ip6:<IP_address>` <br/> `include:<domain_name>` <br/> Onde \<IP_address\> e \<domain_name\> são o endereço IP e o domínio do sistema de emails que enviam emails em nome de seu domínio.|
-   |7|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF terminam com esse valor|`<enforcement rule>` <br/> Este pode ser um dos vários valores. Recomendamos o valor ``-all`. ' |
+   |5|Sistema de email de terceiros|Incomum|`include:<domain_name>` <p> O \<domain_name\> é o domínio do sistema de email de terceiros.|
+   |6|Sistema de emails local. Por exemplo, o Proteção do Exchange Online mais outro sistema de email|Incomum|Use um destes procedimentos para cada sistema de email adicional: <p> `ip4:<IP_address>` <br> `ip6:<IP_address>` <br> `include:<domain_name>` <p> O \<IP_address\> e o \<domain_name\> são o endereço IP e o domínio do sistema de emails que enviam emails em nome de seu domínio.|
+   |7|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF terminam com esse valor|`<enforcement rule>` <p> Este pode ser um dos vários valores. Recomendamos o valor `-all`|
    |
 
 2. Se ainda não tiver feito isso, crie seu registro TXT SPF usando a sintaxe da tabela.
