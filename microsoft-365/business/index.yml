@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 099b9b21e133ce3c9ffc708bb242c9f2603fd520
-  ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+  ms.openlocfilehash: 7242da8ec406df383a12b984ae7585c0e5c1a91d
+  ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "48195462"
+  ms.lasthandoff: 12/11/2020
+  ms.locfileid: "49658459"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -53,7 +53,7 @@ conceptualContent:
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
       itemType: reference
       text: Descrição de serviço
-    - url: support/microsoft-365-business-faqs.md
+    - url: support/microsoft-365-business-faqs.yml
       itemType: reference
       text: Perguntas frequentes
   - title: Configurar o Microsoft 365 Business Premium
