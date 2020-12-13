@@ -2,8 +2,8 @@
 title: Exportar dados de caso na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: Admin
@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
 description: Entenda as diretrizes para exportar dados de ocorrência de descoberta eletrônica e resultados para revisão usando o processo de exportação na descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef717ca82962417856c65cae605c445971b27256
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 52546e9107e0a1524a32c4c85c896a47dd66b35c
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936408"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662856"
 ---
 # <a name="export-case-data-in-advanced-ediscovery-classic"></a>Exportar dados de caso na descoberta eletrônica avançada (clássico)
 
@@ -42,7 +42,7 @@ O processo de exportação em descoberta eletrônica avançada permite a exporta
 
 [Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
-[Exportação de resultados](export-results-in-advanced-ediscovery.md)
+[Exportação de resultados ](export-results-in-advanced-ediscovery.md)
   
 [Exibindo históricos de lote e exportação de resultados](view-batch-history-and-export-past-results.md)
 

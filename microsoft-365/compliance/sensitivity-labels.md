@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: c012b422e5c1452bf6ccd58e0743509a2cf07f32
-ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
+ms.openlocfilehash: 61bb7afedbbafb1272c3dfdbbecd0ede9777effe
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/11/2020
-ms.locfileid: "49624783"
+ms.locfileid: "49655573"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -109,11 +109,11 @@ Depois que um rótulo de confidencialidade é aplicado a um email ou documento, 
     
     Você não pode definir as configurações de proteção para grupos e sites até ativar esse recurso. Essa configuração de rótulo não resulta em documentos ou emails sendo automaticamente rotulados, mas em vez disso, as configurações de rótulo protegem o conteúdo, controlando o acesso ao contêiner onde o conteúdo pode ser armazenado. Essas configurações incluem configurações de privacidade, acesso de usuário externo e acesso de dispositivos não gerenciados.
 
-- **Aplique o rótulo automaticamente nos aplicativos do Office ou recomende um rótulo.** Escolha quais tipos de informações confidenciais deseja rotular, e o rótulo poderá ser aplicado automaticamente ou será solicitado aos usuários que apliquem o rótulo recomendado. Caso recomende um rótulo, um texto de alerta escolhido por você será exibido. Por exemplo:
+- **Aplicar o rótulo automaticamente a arquivos e emails ou recomendar um rótulo.** Escolha quais tipos de informações confidenciais deseja rotular, e o rótulo poderá ser aplicado automaticamente ou será solicitado aos usuários que apliquem o rótulo recomendado. Caso recomende um rótulo, um texto de alerta escolhido por você será exibido. Por exemplo:
     
     ![Solicitar confirmação antes de atribuir a um rótulo necessário](../media/Sensitivity-label-Prompt-for-required-label.png)
     
-    Para obter mais informações sobre as configurações de **Rótulo automático para aplicativos do Office** quando você cria ou edita um rótulo de confidencialidade, consulte [Aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md).
+    Para obter mais informações sobre o **rotulamento automático de arquivos e emails configurações do** quando você cria ou edita um rótulo de sensibilidade, confira [aplicar um rótulo de sensibilidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md) para os aplicativos do Office e [rotular os dados automaticamente no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
 
 ### <a name="label-scopes"></a>Escopos de rótulo
 
@@ -274,4 +274,3 @@ Você também pode saber mais sobre [soluções de parceiro que estão integrada
 ## <a name="deployment-guidance"></a>Guia de implantação
 
 Para planejamento de implantação e orientação que inclui informações de licenciamento, permissões, estratégia de implantação, uma lista de cenários suportados e documentação do usuário final, confira [Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md).
-

@@ -2,8 +2,8 @@
 title: Definir configurações de caso e de locatário na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: Saiba mais sobre as configurações de rótulos, módulos cruzados e locatários que você pode definir no nível do caso na descoberta eletrônica avançada.
-ms.openlocfilehash: 6b0030e30e5e3a4f4c77fbcb5fcbd75bf63c1ea8
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e2f46a9339e2c134be505138aac6886cb1a2dd9a
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936418"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663046"
 ---
 # <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>Definir configurações de caso e de locatário em descoberta eletrônica avançada (clássico)
 
@@ -68,7 +68,7 @@ O log de eventos fornece metadados sobre o processamento de descoberta eletrôni
   
 1. Abra **configurações e utilitários** clicando no ícone **engrenagem** . 
     
-2. Na guia ** \> configurações do locatário configurações e utilitários** , selecione **log de eventos**. Os dados do log de eventos são exibidos.
+2. Na guia **\> configurações do locatário configurações e utilitários** , selecione **log de eventos**. Os dados do log de eventos são exibidos.
     
   - Para filtrar a saída de log por um caso, selecione o caso na lista **ocorrências** . 
     
@@ -84,7 +84,7 @@ As informações de sistema de versão de descoberta eletrônica avançada e tar
   
 1. Abra **configurações e utilitários** clicando no ícone **engrenagem** . 
     
-2. Na guia ** \> configurações do locatário configurações e utilitários** , selecione **informações do sistema**. As informações de versão são exibidas.
+2. Na guia **\> configurações do locatário configurações e utilitários** , selecione **informações do sistema**. As informações de versão são exibidas.
     
 A exibição pode ser atualizada clicando no ícone **Atualizar** abaixo das informações do locatário. 
   

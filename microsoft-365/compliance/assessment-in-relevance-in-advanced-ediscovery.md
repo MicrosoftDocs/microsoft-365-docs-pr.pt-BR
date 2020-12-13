@@ -2,8 +2,8 @@
 title: Entender a avaliação em relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 09/14/2017
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Obtenha uma visão geral do estágio de avaliação e sua função para determinar a riqueza de problemas durante o treinamento de relevância no Microsoft 365 Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: afd4f1f549d52652ac02cfa410efc507ece58910
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 28bbe15a6e3f5611041cf446bd053f59de395d54
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818410"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663076"
 ---
 # <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Entender a avaliação em relevância na descoberta eletrônica avançada (clássica)
 
@@ -52,7 +52,7 @@ Cada problema tem sua própria riqueza, margem atual de erro e, como resultado, 
 Você pode aceitar as recomendações de relevância ou ajustar a margem de erro atual de acordo com suas necessidades. A margem de erro atual padrão é determinada para a recuperação em igual ou acima de 75%.
   
 > [!NOTE]
-> O estágio de avaliação pode ser ignorado, na guia ** \> controle de relevância** no modo de exibição expandido para um problema, desmarcando a caixa de seleção de **avaliação** por problema e, em seguida, para "todos os problemas". No entanto, como resultado, não haverá estatísticas para esse problema. > limpar a caixa de seleção de **avaliação** só pode ser feita antes da avaliação ser realizada. Onde houver vários problemas em um caso, a avaliação será ignorada somente se a caixa de seleção estiver desmarcada para cada problema 
+> O estágio de avaliação pode ser ignorado, na guia **\> controle de relevância** no modo de exibição expandido para um problema, desmarcando a caixa de seleção de **avaliação** por problema e, em seguida, para "todos os problemas". No entanto, como resultado, não haverá estatísticas para esse problema. > limpar a caixa de seleção de **avaliação** só pode ser feita antes da avaliação ser realizada. Onde houver vários problemas em um caso, a avaliação será ignorada somente se a caixa de seleção estiver desmarcada para cada problema 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -2,8 +2,8 @@
 title: Exibir resultados de análise na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: Entenda onde exibir os resultados do processo de análise na descoberta eletrônica avançada, incluindo as definições das opções de tarefa exibidas.
-ms.openlocfilehash: 24a4b0685ec5dc82aff0b1f0de81080a62e49776
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 64c91cb5929a7a74e53d653faff98d5792d3f131
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936944"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663250"
 ---
 # <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Exibir resultados de análise na descoberta eletrônica avançada (clássico)
 

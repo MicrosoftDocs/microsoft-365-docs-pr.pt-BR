@@ -14,16 +14,15 @@ search.appverid:
 - MOE150
 - MET150
 description: Notas de versão para a classificação de dados.
-ms.openlocfilehash: 71d8e8e4fffddc4c9373a2bdd37d4509337ec231
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 2b9302cfa49f9445d3cbeb5109aef70e0c8d8f7f
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127136"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663036"
 ---
 # <a name="data-classification-release-notes"></a>Notas de versão de classificação de dados
 
-Examine estas notas de versão para ter a melhor experiência com a classificação de dados.
 
 ## <a name="exchange-mailbox-count"></a>Contagem de caixa de correio do Exchange
 
@@ -32,7 +31,7 @@ Você observará que uma pequena dica de ferramenta é exibida quando você deta
 
 ## <a name="rendering-of-encrypted-documents"></a>Processamento de documentos criptografados
 
-Os arquivos do SharePoint, Exchange e OneDrive que estão criptografados não serão renderizados no Gerenciador de conteúdo. Esse é um problema sensível que exige um equilíbrio entre a necessidade de ver o conteúdo do arquivo no Gerenciador de conteúdo e a necessidade de manter o conteúdo criptografado. Com as permissões concedidas pelo **Visualizador de lista do Gerenciador de conteúdo **e **Visualizador de conteúdo do Gerenciador de conteúdo** grupos de funções, você verá uma exibição de lista dos arquivos, os metadados do arquivo e um link que você pode usar para acessar o conteúdo pelo cliente da Web.
+Os arquivos do SharePoint, Exchange e OneDrive que estão criptografados não serão renderizados no explorador de conteúdos. Esse é um problema sensível que exige um equilíbrio entre a necessidade de ver o conteúdo do arquivo no Gerenciador de conteúdo e a necessidade de manter o conteúdo criptografado. Com as permissões concedidas pelo **Visualizador de lista do Gerenciador de conteúdo** e **Visualizador de conteúdo do Gerenciador de conteúdo** grupos de funções, você verá uma exibição de lista dos arquivos, os metadados do arquivo e um link que você pode usar para acessar o conteúdo pelo cliente da Web.
 
 ## <a name="supported-characters-in-retention-label-names-in-sharepoint-search"></a>Caracteres com suporte em nomes de rótulo de retenção na pesquisa do SharePoint
 

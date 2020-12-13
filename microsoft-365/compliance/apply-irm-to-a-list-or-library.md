@@ -21,12 +21,12 @@ ms.collection:
 - SPO_Content
 description: Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a controlar e proteger arquivos baixados de listas ou bibliotecas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: de0105bf61b4abbddd938a4ec7286c1919bf3985
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 0c61b7c6f13208b6c017b5ed65c667203abade42
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948479"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663096"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>Aplicar o gerenciamento de direitos de informação (IRM) a uma lista ou biblioteca
 
@@ -35,15 +35,15 @@ Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a 
 ## <a name="administrator-preparations-before-applying-irm"></a>Preparações do administrador antes de aplicar o IRM
 
 - O serviço Azure Rights Management (Azure RMS) da proteção de informações do Azure e o equivalente local, o Active Directory Rights Management Services (AD RMS), oferecem suporte ao gerenciamento de direitos de informação para sites. Nenhuma instalação separada ou adicional é necessária.
-    
-- Antes de aplicar o IRM a uma lista ou biblioteca, ele deve primeiro ser habilitado por um administrador do site.
-    
+
+- Antes de aplicar o IRM a uma lista ou biblioteca, você precisa habilitar o IRM para seu site. Você precisará de permissões de administrador para habilitar o IRM.
+
 - Para aplicar o IRM a uma lista ou biblioteca, você deve ter permissões de administrador para a lista ou biblioteca.
-    
-- Se você estiver usando o SharePoint Online, os usuários poderão experimentar tempos limite ao baixar arquivos maiores protegidos por IRM. Se isso acontecer, aplique a proteção de IRM usando os programas do Office e armazene arquivos maiores em uma biblioteca do SharePoint que não use o IRM.
-    
+
+- Se você estiver usando o SharePoint Online, os usuários poderão experimentar tempos limite ao baixar arquivos maiores protegidos por IRM. Para evitar tempos limite, use os programas do Office para aplicar a proteção de IRM e armazene arquivos maiores em uma biblioteca do SharePoint que não use o IRM.
+
 > [!NOTE]
-> Se você estiver usando o SharePoint Server 2013, um administrador de servidor deverá instalar os protetores em todos os servidores Web front-end para cada tipo de arquivo que as pessoas em sua organização quiserem proteger usando o IRM. 
+> Se você estiver usando o SharePoint Server 2013, um administrador de servidor deverá instalar os protetores em todos os servidores Web front-end para cada tipo de arquivo que as pessoas em sua organização quiserem proteger usando o IRM.
   
 ## <a name="apply-irm-to-a-list-or-library"></a>Aplicar o IRM a uma lista ou biblioteca
 <a name="__toc256598179"> </a>
@@ -51,32 +51,32 @@ Você pode usar o gerenciamento de direitos de informação (IRM) para ajudar a 
 ![Configurações de gerenciamento de direitos de informação](../media/1b708102-9c90-42b0-b255-ef0e72d0be88.png)
   
 1. Vá para a lista ou biblioteca para a qual você deseja configurar o IRM.
-    
-2. Na faixa de opções, clique na guia **biblioteca** e, em seguida, clique em **configurações da biblioteca**. (Se você estiver trabalhando em uma lista, clique na guia **lista** e, em seguida, clique em **configurações de lista**).
+
+2. Na faixa de opções, selecione a guia **biblioteca** e, em seguida, selecione **configurações da biblioteca**. (Se você estiver trabalhando em uma lista, selecione a guia **lista** e, em seguida, selecione **definições de lista**).
     
     ![Botões de configurações da biblioteca do SharePoint na faixa de opções](../media/cdf718fa-d792-40fc-8026-00c3b80b9e05.png)
   
-3. Em **permissões e gerenciamento**, clique em **Gerenciamento de direitos de informação**. Se o link de gerenciamento de direitos de informação não aparecer, o IRM pode não estar habilitado para seu site. Entre em contato com o administrador do servidor para ver se é possível habilitar o IRM para seu site. O link de gerenciamento de direitos de informação não aparece para bibliotecas de imagens.
-    
-4. Na página **configurações de gerenciamento de direitos de informação** , marque a caixa de seleção **restringir a permissão para documentos nesta biblioteca ao baixar** , para aplicar permissão restrita a documentos baixados dessa lista ou biblioteca. 
-    
-5. Na caixa **criar um título de política de permissão** , digite um nome descritivo para a política que você pode usar posteriormente para diferenciar essa política de outras políticas. Por exemplo, você pode digitar **confidencial da empresa** se estiver aplicando permissão restrita a uma lista ou biblioteca que conterá documentos da empresa confidenciais. 
-    
+3. Em **permissões e gerenciamento**, selecione **Gerenciamento de direitos de informação**. Se o link de gerenciamento de direitos de informação não aparecer, o IRM pode não estar habilitado para seu site. Entre em contato com o administrador do servidor para ver se é possível habilitar o IRM para seu site. O link de **Gerenciamento de direitos de informação** não aparece para bibliotecas de imagens.
+
+4. Na página **configurações de gerenciamento de direitos de informação** , marque a caixa de seleção **restringir a permissão para documentos nesta biblioteca ao baixar** , para aplicar permissão restrita a documentos que os usuários baixem dessa lista ou biblioteca.
+
+5. Na caixa **criar um título de política de permissão** , digite um nome descritivo para a política. Use um nome que ajuda a identificar essa política de outras políticas. Por exemplo, use **confidencial da empresa** para aplicar permissões restritas a uma lista ou biblioteca que contém documentos confidenciais da empresa.
+
 6. Na caixa **Adicionar uma descrição de política de permissão** , digite uma descrição que será exibida para pessoas que usam esta lista ou biblioteca que explica como elas devem lidar com os documentos nesta lista ou biblioteca. Por exemplo, você pode digitar **discutir o conteúdo deste documento somente com outros funcionários** se quiser restringir o acesso às informações desses documentos a funcionários internos. 
-    
-7. Para aplicar restrições adicionais aos documentos nesta lista ou biblioteca, clique em **Mostrar opções**e siga um destes procedimentos:
-    
+
+7. Para aplicar restrições adicionais aos documentos nesta lista ou biblioteca, selecione **Mostrar opções** e siga um destes procedimentos:
+
 |**Para fazer isso:**|**Faça o seguinte:**|
 |:-----|:-----|
-|Permitir que as pessoas imprimam documentos desta lista ou biblioteca  <br/> |Marque a caixa de seleção **permitir que os visualizadores imprimam** .  <br/> |
-|Permita que as pessoas com pelo menos a permissão Exibir itens executem código incorporado ou macros em um documento.  <br/> |Selecione a caixa de seleção **permitir que os visualizadores executem scripts e leitor de tela para funcionar em documentos baixados** .  <br/> Se você selecionar essa opção, os usuários poderão executar o código para extrair o conteúdo de um documento.           |
-|Selecione essa opção se você quiser restringir o acesso ao conteúdo para um período especificado de tempo. Se você selecionar essa opção, as licenças de publicação de pessoas para acessar o conteúdo expirarão após o número de dias especificado e as pessoas serão solicitadas a retornar ao servidor para verificar suas credenciais e baixar uma nova cópia.  <br/> |Marque a caixa de seleção **após download, os direitos de acesso ao documento expirarão após estes números de dias (1-365)** e, em seguida, especifique o número de dias nos quais você deseja que o documento seja exibido.  <br/> |
-| Impedir que as pessoas carreguem documentos que não dão suporte ao IRM para esta lista ou biblioteca.  <br/>  Se você selecionar essa opção, as pessoas não poderão carregar nenhum dos seguintes tipos de arquivo:  <br/>  Tipos de arquivo que não têm protetores de IRM correspondentes instalados em todos os servidores Web front-end.  <br/>  Tipos de arquivo que o SharePoint Server 2010 não pode descriptografar.  <br/>  Tipos de arquivo que estão protegidos por IRM em outro programa  <br/> |Marque a caixa de seleção não **permitir que os usuários carreguem documentos que não dão suporte ao IRM** .  <br/> |
-|Remover permissões restritas dessa lista ou biblioteca em uma data específica.  <br/> |Marque a caixa de seleção **parar de restringir o acesso à biblioteca em** e selecione a data desejada.  <br/> |
-|Controle o intervalo em que as credenciais são armazenadas em cache para o programa licenciado para abrir o documento.  <br/> |Selecione a caixa de seleção **os usuários devem verificar suas credenciais usando este intervalo (dias)** e, em seguida, insira o intervalo para as credenciais de cache em número de dias.  <br/> |
-|Permitir proteção de grupo para que os usuários possam compartilhar com membros do mesmo grupo.  <br/> |Selecione **permitir proteção de grupo**e digite o nome do grupo para compartilhamento.  <br/> |
-   
-8. Após concluir a seleção das opções desejadas, clique em **OK**.
+|Permitir que as pessoas imprimam documentos desta lista ou biblioteca|Marque a caixa de seleção **permitir que os visualizadores imprimam** .|
+|Permita que as pessoas com pelo menos a permissão Exibir itens executem código incorporado ou macros em um documento.|Selecione a caixa de seleção **permitir que os visualizadores executem scripts e leitor de tela para funcionar em documentos baixados** . Se você selecionar essa opção, os usuários poderão executar o código para extrair o conteúdo de um documento.           |
+|Selecione essa opção se você quiser restringir o acesso ao conteúdo para um período especificado de tempo. Se você selecionar essa opção, as licenças de publicação de pessoas para acessar o conteúdo expirarão após o número de dias especificado e as pessoas serão solicitadas a retornar ao servidor para verificar suas credenciais e baixar uma nova cópia.|Marque a caixa de seleção **após download, os direitos de acesso ao documento expirarão após estes números de dias (1-365)** e, em seguida, especifique o número de dias nos quais você deseja que o documento seja exibido.|
+| Impedir que as pessoas carreguem documentos que não dão suporte ao IRM para esta lista ou biblioteca. Se você selecionar essa opção, as pessoas não poderão carregar nenhum dos seguintes tipos de arquivo: tipos de arquivo que não têm protetores de IRM correspondentes instalados em todos os servidores Web front-end. Tipos de arquivo que o SharePoint Server 2010 não pode descriptografar. Tipos de arquivo que são protegidos por IRM em outro programa.|Marque a caixa de seleção não **permitir que os usuários carreguem documentos que não dão suporte ao IRM** .|
+|Remover permissões restritas dessa lista ou biblioteca em uma data específica.|Marque a caixa de seleção **parar de restringir o acesso à biblioteca em** e selecione a data desejada.|
+|Controle o intervalo em que as credenciais são armazenadas em cache para o programa licenciado para abrir o documento.|Selecione a caixa de seleção **os usuários devem verificar suas credenciais usando este intervalo (dias)** e, em seguida, insira o intervalo para as credenciais de cache em número de dias.|
+|Permitir proteção de grupo para que os usuários possam compartilhar com membros do mesmo grupo.|Selecione **permitir proteção de grupo** e digite o nome do grupo para compartilhamento.|
+
+8. Após concluir a seleção das opções desejadas, selecione **OK**.
   
 ## <a name="what-is-information-rights-management"></a>O que é gerenciamento de direitos de informação?
 <a name="__toc256598175"> </a>
@@ -135,10 +135,10 @@ Os tipos de restrições que são aplicadas a um arquivo quando ele é baixado d
   
 |**Permissões**|**Permissões de IRM**|
 |:-----|:-----|
-|Gerenciar permissões, gerenciar site da Web  <br/> |**Controle total** (conforme definido pelo programa cliente): essa permissão geralmente permite que um usuário leia, edite, copie, salve e modifique permissões de conteúdo gerenciado por direitos.  <br/> |
-|Editar itens, gerenciar listas, adicionar e personalizar páginas  <br/> |**Editar**, **copiar**e **salvar**: um usuário pode imprimir um arquivo somente se a caixa de seleção **permitir que os usuários imprimam documentos** estiver marcada na página Configurações de gerenciamento de direitos de informação para a lista ou biblioteca.  <br/> |
-|Exibir Itens  <br/> |**Leitura**: um usuário pode ler o documento, mas não pode copiar nem modificar seu conteúdo. Um usuário pode imprimir somente se a caixa de seleção **permitir que os usuários imprimam documentos** estiver marcada na página Configurações de gerenciamento de direitos de informação da lista ou biblioteca.  <br/> |
-|Outros  <br/> |Nenhuma outra permissão corresponde diretamente às permissões de IRM.  <br/> |
+|Gerenciar permissões, gerenciar site da Web|**Controle total** (conforme definido pelo programa cliente): essa permissão geralmente permite que um usuário leia, edite, copie, salve e modifique permissões de conteúdo gerenciado por direitos.|
+|Editar itens, gerenciar listas, adicionar e personalizar páginas|**Editar**, **copiar** e **salvar**: um usuário pode imprimir um arquivo somente se a caixa de seleção **permitir que os usuários imprimam documentos** estiver marcada na página Configurações de gerenciamento de direitos de informação para a lista ou biblioteca.|
+|Exibir Itens|**Leitura**: um usuário pode ler o documento, mas não pode copiar nem modificar seu conteúdo. Um usuário pode imprimir somente se a caixa de seleção **permitir que os usuários imprimam documentos** estiver marcada na página Configurações de gerenciamento de direitos de informação da lista ou biblioteca.|
+|Outros|Nenhuma outra permissão corresponde diretamente às permissões de IRM.|
    
 Ao habilitar o IRM para uma lista ou biblioteca no SharePoint Server 2013, você só pode proteger tipos de arquivo nessa lista ou biblioteca para a qual um protetor está instalado em todos os servidores Web front-end. Um protetor é um programa que controla a criptografia e a descriptografia de arquivos gerenciados por direitos de um formato de arquivo específico. O SharePoint inclui protetores para os seguintes tipos de arquivo:
   

@@ -2,8 +2,8 @@
 title: Exportar resultados na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: 'Saiba como definir opções para exportar os resultados da descoberta eletrônica avançada, incluindo o procedimento para especificar parâmetros para um lote de exportação. '
-ms.openlocfilehash: 252a4a52cc505914b379ea2c0fbfd832ca18deeb
-ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
+ms.openlocfilehash: 2929b183c7c0f3f132cc40738c18e2b4859a49a6
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49422880"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662906"
 ---
 # <a name="export-results-in-advanced-ediscovery-classic"></a>Exportar resultados na descoberta eletrônica avançada (clássico)
 
@@ -62,7 +62,7 @@ Por exemplo, suponha que um caso foi importado e seus dados analisados. Para rec
 
 A ferramenta de exportação de descoberta eletrônica é usada para exportar resultados de pesquisa de descoberta eletrônica avançada para seu computador local.
   
-1. Em descoberta eletrônica avançada, selecione um caso e **Export** clique em \> **Configurar** exportação.
+1. Em descoberta eletrônica avançada, selecione um caso e  clique em \> **Configurar** exportação.
     
     - Na lista **Exportar lote** , selecione o nome do lote ou exportar os resultados para exportar o lote 01 (o lote padrão). 
     

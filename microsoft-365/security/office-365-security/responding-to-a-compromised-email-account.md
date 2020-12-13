@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
-ms.openlocfilehash: 2830fd10b633e094c92fd98fe61ce678a4da842b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 5d5e5360e9851aee8eab27fc7c39e266e0332411
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200114"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659880"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
@@ -105,11 +105,11 @@ Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](https://
 
 1. Abra o Centro de administração do Microsoft 365 em <https://admin.microsoft.com>
 
-2. Vá até**Usuários** \> **Usuários ativos**. Encontre a conta do usuário em questão e o selecione (linha) sem marcar a caixa de seleção.
+2. Vá até **Usuários** \> **Usuários ativos**. Encontre a conta do usuário em questão e o selecione (linha) sem marcar a caixa de seleção.
 
 3. Nos detalhes que aparecem no meni desdobrável, selecione a guia **Email do Outlook**.
 
-4. Se o valor na seção **Encaminhamento de e-mail** for **Aplicado**, clique em ** Gerenciar encaminhamento de e-mail **. No menu desdobrável **Gerenciar encaminhamento de e-mail** que aparece, desmarque **Encaminhar todos os e-mails enviados para esta caixa de correio** e clique em **Salvar alterações **.
+4. Se o valor na seção **Encaminhamento de e-mail** for **Aplicado**, clique em **Gerenciar encaminhamento de e-mail**. No menu desdobrável **Gerenciar encaminhamento de e-mail** que aparece, desmarque **Encaminhar todos os e-mails enviados para esta caixa de correio** e clique em **Salvar alterações**.
 
 ### <a name="step-3-disable-any-suspicious-inbox-rules"></a>Etapa 3 Desabilite todas as regras de caixa de entrada suspeitas
 
@@ -132,20 +132,20 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 > [!IMPORTANT]
 > Você pode impedir que a conta suspeita de estar comprometida inicie sessão, até considerar que é seguro reativar o acesso.
 
-1. Abra o Centro de administração do Microsoft 365 e vá até **Usuários** \> ** Usuários ativos **.
+1. Abra o Centro de administração do Microsoft 365 e vá até **Usuários** \> **Usuários ativos**.
 
-2. Encontre e selecione a conta do usuário, clique no ![ícone Mais ](../../media/ITPro-EAC-MoreOptionsIcon.png) e selecione ** Editar status de login **.
+2. Encontre e selecione a conta do usuário, clique no ![ícone Mais ](../../media/ITPro-EAC-MoreOptionsIcon.png) e selecione **Editar status de login**.
 
 3. No painel **Bloquear login** que aparece, selecione **Bloquear a assinatura deste usuário** e clique em **Salvar alterações**.
 
-4. Abra o Centro de administração do Exchange (EAC) em <admin.protection.outlook.com/ecp/> e vá para ** Destinatários > Caixas de correio **.
+4. Abra o Centro de administração do Exchange (EAC) em <admin.protection.outlook.com/ecp/> e vá para **Destinatários > Caixas de correio**.
 
 5. Encontre e selecione o usuário. No painel de detalhes, execute as seguintes etapas:
 
    - Na seção **Recursos de telefone e voz**, execute as seguintes etapas:
 
-     - Selecione **Desativar Exchange ActiveSync** e clique em ** Sim ** no aviso que aparece.
-     - Selecione **Desabilitar OWA para Dispositivos** e clique em ** Sim ** no aviso que aparece.
+     - Selecione **Desativar Exchange ActiveSync** e clique em **Sim** no aviso que aparece.
+     - Selecione **Desabilitar OWA para Dispositivos** e clique em **Sim** no aviso que aparece.
 
    - Na seção **Conectividade de e-mail** para Outlook na Web, clique em **Desativar** e clique em **Sim** no aviso que aparece.
 
@@ -158,7 +158,7 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 
 2. No Centro de administração do Microsoft 365, execute as seguintes etapas:
 
-   1. Vá até**Usuários** \> **Usuários ativos**.
+   1. Vá até **Usuários** \> **Usuários ativos**.
    2. Encontre e selecione a conta do usuário, clique no ![ícone Mais](../../media/ITPro-EAC-MoreOptionsIcon.png) e selecione **Gerenciar funções**.
    3. Remova todas as funções administrativas atribuídas à conta. Quando terminar, clique em **Salvar alterações**.
 
@@ -166,8 +166,8 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 
    Selecione **Permissões**, selecione cada grupo de função na lista e procure a conta do usuário na seção **Membros** do menu desdobrável de detalhes que aparece. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
 
-   a. Clique em **Editar** próximo a ** Membros **.
-   b. No menu desdobrável **Editando Escolher membros** que aparece, clique em ** Editar **.
+   a. Clique em **Editar** próximo a **Membros**.
+   b. No menu desdobrável **Editando Escolher membros** que aparece, clique em **Editar**.
    c. No menu desdobrável **Escolher membros** que aparece, selecione a conta do usuário e clique em **Remover**. Quando terminar, clique em **Concluído**, **Salvar** e depois em **Fechar**.
 
 4. Na EAC em <admin.protection.outlook.com/ecp/>, execute os seguintes passos:

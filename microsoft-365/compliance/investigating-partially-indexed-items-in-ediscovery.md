@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 1/26/2018
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
@@ -17,13 +17,13 @@ search.appverid:
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como gerenciar itens parcialmente indexados (ou não indexados) do Exchange, SharePoint e OneDrive for Business em sua organização.
-ms.openlocfilehash: 94dc568aa889e76241ef7bd48e3dedaba9b92f2f
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+description: Saiba como gerenciar itens parcialmente indexados (também chamados de itens não indexados) do Exchange, SharePoint e OneDrive for Business em sua organização.
+ms.openlocfilehash: 6a2a1d042c52a445538903fd7db9fc54305e6c13
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602058"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655445"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Investigar itens parcialmente indexados na descoberta eletrônica
 
@@ -45,7 +45,7 @@ Após executar uma pesquisa de descoberta eletrônica, o número total e o taman
   
 - Se um item for parcialmente indexado e corresponder à consulta de pesquisa, ele será incluído na contagem (e no tamanho) dos itens de resultado de pesquisa e dos itens parcialmente indexados. No entanto, quando os resultados da mesma pesquisa são exportados, o item é incluído somente com o conjunto de resultados de pesquisa; Ele não está incluído como um item parcialmente indexado.
 
-- Se você especificar um intervalo de datas para uma consulta de pesquisa (incluindo-a na consulta de palavra-chave ou usando uma condição), qualquer item parcialmente indexado que não coincida com o intervalo de datas não será incluído na contagem de itens parcialmente indexados. Somente os itens parcialmente indexados que estão no intervalo de datas são incluídos na contagem de itens indexados.
+- Se você especificar um intervalo de datas para uma consulta de pesquisa (incluindo-a na consulta de palavra-chave ou usando uma condição), qualquer item parcialmente indexado que não coincida com o intervalo de datas não será incluído na contagem de itens parcialmente indexados. Itens parcialmente indexados que ocorrem no intervalo de datas são incluídos na contagem de itens indexados.
 
   > [!NOTE]
   > Os itens parcialmente indexados localizados nos sites do SharePoint e do OneDrive *não são* incluídos na estimativa de itens parcialmente indexados que são exibidos nas estatísticas detalhadas da pesquisa. No entanto, os itens parcialmente indexados podem ser exportados quando você exporta os resultados de uma pesquisa de descoberta eletrônica. Por exemplo, se você só pesquisa sites, o número estimado de itens parcialmente indexados será zero.

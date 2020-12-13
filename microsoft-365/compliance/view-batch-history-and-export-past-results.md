@@ -2,8 +2,8 @@
 title: Exibir histórico de lote e exportar resultados passados na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: Saiba como exibir informações detalhadas para as sessões de lote de exportação selecionadas e como desfazer a última sessão de exportação na descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b142c5d582b9a7bb84dd518325369e4b1adccf69
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 054fa4a88d8c61751b4064b3535de66881655631
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936184"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663270"
 ---
 # <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>Exibir histórico de lote e exportar resultados passados em descoberta eletrônica avançada (clássico)
 
@@ -35,7 +35,7 @@ A seção a seguir descreve as opções adicionais para a exibição em lotes e 
 
 A caixa de diálogo Exportar histórico fornece informações detalhadas sobre as sessões de lote de exportação selecionadas e também oferece a capacidade de desfazer a última sessão.
   
-1. Em ** \> Configurar exportação**, selecione o nome do lote na lista suspensa **Exportar lote** . 
+1. Em **\> Configurar exportação**, selecione o nome do lote na lista suspensa **Exportar lote** . 
     
 2. À direita do nome do lote de exportação, selecione o ícone do **histórico de lotes** : 
     
@@ -65,7 +65,7 @@ A caixa de diálogo Exportar histórico fornece informações detalhadas sobre a
 
 [Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
-[Exportação de resultados](export-results-in-advanced-ediscovery.md)
+[Exportação de resultados ](export-results-in-advanced-ediscovery.md)
 
 [Campos do relatório de exportação](export-report-fields-in-advanced-ediscovery.md)
 

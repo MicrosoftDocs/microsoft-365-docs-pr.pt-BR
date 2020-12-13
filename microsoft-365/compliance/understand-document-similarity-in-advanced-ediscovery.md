@@ -2,8 +2,8 @@
 title: Entender a similaridade de documentos na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 09/14/2017
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
 description: Revisar como o valor de similaridade do documento, o nível mínimo de aparência de dois arquivos a serem considerados quase duplicados, funciona na descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 939e9ad6cb193e2019fe84f1e0d3482eebac721c
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 22eb27e7afdc6ad37ea6fdcba9b64298906f1c35
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936636"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663310"
 ---
 # <a name="understand-document-similarity-in-advanced-ediscovery-classic"></a>Entender a similaridade de documentos na descoberta eletrônica avançada (clássica)
 

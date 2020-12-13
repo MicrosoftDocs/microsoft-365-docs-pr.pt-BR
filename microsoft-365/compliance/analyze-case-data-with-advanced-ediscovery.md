@@ -2,8 +2,8 @@
 title: Analisar dados de caso com descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: Admin
@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
 description: 'Obtenha uma visão geral do processo de análise, que permite definir parâmetros, opções de execução e exibir resultados, no Microsoft 365 Advanced eDiscovery. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5a3dc8d9bb6568545bbe0868a673fd0090f12e8
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 27b3c6d77ddbfc9d5c7ae7a727a403d93af70b35
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818480"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663168"
 ---
 # <a name="analyze-case-data-with-advanced-ediscovery-classic"></a>Analisar dados de caso com descoberta eletrônica avançada (clássico)
 

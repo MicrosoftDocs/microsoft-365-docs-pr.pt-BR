@@ -2,8 +2,8 @@
 title: Usar o módulo de relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: Saiba mais sobre o módulo de relevância na descoberta eletrônica avançada, incluindo um fluxo de trabalho e diretrizes e etapas para treinamento e análise de arquivo.
-ms.openlocfilehash: 8d5cbfff2b205ba785cda269bb09560b2a813f3c
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 0319ac378fb891d96437f53931213429b111d61d
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936604"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663280"
 ---
 # <a name="use-the-relevance-module-in-advanced-ediscovery-classic"></a>Usar o módulo de relevância na descoberta eletrônica avançada (clássico)
 
@@ -46,7 +46,7 @@ Na descoberta eletrônica avançada, o módulo de relevância inclui o treinamen
     
 - **Cálculo em lote**: a descoberta eletrônica avançada Obtém os critérios de relevância acumulados e aprendidos, aplica-os a todo o conjunto de arquivos e gera pontuações de relevância para cada arquivo.
     
-- **Decide**@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @
+- @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @
     
 - **Test**: os resultados de descoberta eletrônica avançada podem ser testados para verificar a validade e a eficácia do processamento avançado de descoberta eletrônica.
     
@@ -90,7 +90,7 @@ Veja a seguir uma visão geral das diretrizes de treinamento e análise de relev
     
 ## <a name="steps-in-relevance-training"></a>Etapas no treinamento de relevância
 
-Na guia ** \> controle de relevância** , a descoberta eletrônica avançada fornece recomendações sobre como proceder no processamento, com as próximas etapas a seguir. As implicações são descritas abaixo quando cada uma das etapas a seguir é recomendada no processo de treinamento de relevância. 
+Na guia **\> controle de relevância** , a descoberta eletrônica avançada fornece recomendações sobre como proceder no processamento, com as próximas etapas a seguir. As implicações são descritas abaixo quando cada uma das etapas a seguir é recomendada no processo de treinamento de relevância. 
   
 - Marcação/continuação de marcação: marcação de arquivo e classificação de relevância executada por um especialista para cada arquivo e problema em um exemplo.
     

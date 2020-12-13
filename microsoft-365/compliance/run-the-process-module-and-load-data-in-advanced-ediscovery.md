@@ -2,8 +2,8 @@
 title: Executar o módulo de processo e carregar dados na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
 description: Saiba como usar o centro de &amp; conformidade de segurança para acessar a descoberta eletrônica avançada e executar o módulo de processo para um caso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 011a8448c36ac9f4726f13471c548b7bb2427000
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 64172c0198418dbb0ba4d01a5adbd5aaef4c3a3b
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936154"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662827"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>Executar o módulo de processo e carregar dados na descoberta eletrônica avançada (clássico)
 
@@ -44,11 +44,11 @@ Execute as etapas a seguir para executar o processo.
   
 1. [Abrir a segurança &amp; Centro de conformidade](go-to-the-securitycompliance-center.md) . 
     
-2. Vá para ** &amp; ** \> **descoberta eletrônica** de investigação e clique em **ir para descoberta eletrônica avançada**.
+2. Vá para **&amp;** \> **descoberta eletrônica** de investigação e clique em **ir para descoberta eletrônica avançada**.
     
 3. Em descoberta eletrônica avançada, selecione o caso apropriado na página **casos** exibidos e clique em **ir para o caso**.
     
-4. Na **configuração preparar** \> **processo** \> **Setup**, selecione um contêiner na lista de contêineres disponíveis.
+4. Na **configuração preparar** \> **processo** \> , selecione um contêiner na lista de contêineres disponíveis.
     
     ![Clique em processar para adicionar os resultados da pesquisa ao caso](../media/50bdc55c-d378-4881-b302-31ef785fa359.png)
   
@@ -78,7 +78,7 @@ Execute as etapas a seguir para executar o processo.
     
 6. Para começar, clique em **processar**. Quando concluído, os resultados do processo são exibidos.
     
-7. Opcion Se for necessário atribuir fontes de dados a um determinado, você poderá adicionar e editar os nomes **dos responsáveis pelo** \> **Gerenciamento** e atribuir os responsáveis pela **Custodians** \> **atribuição**de responsáveis. 
+7. Opcion Se for necessário atribuir fontes de dados a um determinado, você poderá adicionar e editar os nomes **dos responsáveis pelo** \> **Gerenciamento** e atribuir os responsáveis pela  \> **atribuição** de responsáveis. 
     
 Se você adicionar à ocorrência, então poderá processar novamente.
   

@@ -2,8 +2,8 @@
 title: Definir problemas e atribuir usuários na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Saiba como adicionar ou editar um problema, incluindo a atribuição de usuários a ele ou a exclusão de um problema para um caso de descoberta eletrônica na descoberta eletrônica avançada.
-ms.openlocfilehash: 3e1366962393b6e1bb3605472b4f635fbcf6e4bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1bdcb6f6562b0a431f1645d4006b3392d90a9f87
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630654"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663066"
 ---
 # <a name="define-issues-and-assign-users-in-advanced-ediscovery-classic"></a>Definir problemas e atribuir usuários na descoberta eletrônica avançada (clássico)
 
@@ -31,7 +31,7 @@ Na descoberta eletrônica avançada, um ou mais problemas podem ser definidos em
   
 ## <a name="adding-or-editing-an-issue-and-assigning-users"></a>Adicionando ou editando um problema e atribuindo usuários
 
-1. Na \> guia **configuração \> de relevância de relevância** selecione **problemas**.
+1. Na guia **\> configuração de relevância de relevância** \> selecione **problemas**.
     
     ![Problemas de instalação de relevância](../media/dfd8f9ef-b167-4ed9-980e-00ae98a97169.png)
   
@@ -66,7 +66,7 @@ Na descoberta eletrônica avançada, um ou mais problemas podem ser definidos em
 
 Os problemas podem ser excluídos (ou seja, removidos do banco de dados) imediatamente após serem definidos e nenhum trabalho real foi feito para esse problema. 
   
-1. Na guia **configuração \> de relevância de relevância** , selecione **problemas**.
+1. Na guia **\> configuração de relevância de relevância** , selecione **problemas**.
     
 2. Selecione o problema a ser excluído do banco de dados e clique em **excluir**.
     

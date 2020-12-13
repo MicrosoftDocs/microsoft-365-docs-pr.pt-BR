@@ -2,8 +2,8 @@
 title: Marcação e avaliação na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 09/14/2017
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: Revise as etapas para executar o treinamento de avaliação, incluindo arquivos de marcação e revisar os resultados da avaliação na descoberta eletrônica avançada.
-ms.openlocfilehash: 57e4e8da0dbeec5e1dba384ae0e62ffb6b3bb03a
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: c8c6f82e7cfb3e2eddcc482039582ea27a702494
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936688"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663456"
 ---
 # <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Marcação e avaliação na descoberta eletrônica avançada (clássica)
 
@@ -32,7 +32,7 @@ Esta seção descreve o procedimento para o módulo de avaliação de relevânci
   
 ## <a name="performing-assessment-training-and-analysis"></a>Realizando treinamento e análise de avaliação
 
-1. Na guia ** \> controle de relevância** , clique em **avaliação** para iniciar a avaliação de caso. 
+1. Na guia **\> controle de relevância** , clique em **avaliação** para iniciar a avaliação de caso. 
     
     Por exemplo, neste procedimento, um conjunto de avaliação de amostra de 500 arquivos é criado e a guia **marca** é exibida, que contém o painel de marcação, o conteúdo do arquivo exibido e outras opções de marcação. 
     
@@ -50,7 +50,7 @@ Esta seção descreve o procedimento para o módulo de avaliação de relevânci
     ![Controle de relevância - avaliação](../media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
   
     > [!TIP]
-    > Por padrão, recomendamos que você prossiga para a próxima etapa padrão quando o indicador de progresso da avaliação do problema tiver sido concluído, indicando que o exemplo de avaliação foi revisado e que os arquivos relevantes suficientes foram marcados. > caso contrário, se você quiser exibir os resultados da guia **rastrear** e controlar a margem de erro e a próxima etapa, clique em **Modificar** adjacente à **próxima etapa**, selecione **continuar avaliação**e clique em **OK**. 
+    > Por padrão, recomendamos que você prossiga para a próxima etapa padrão quando o indicador de progresso da avaliação do problema tiver sido concluído, indicando que o exemplo de avaliação foi revisado e que os arquivos relevantes suficientes foram marcados. > caso contrário, se você quiser exibir os resultados da guia **rastrear** e controlar a margem de erro e a próxima etapa, clique em **Modificar** adjacente à **próxima etapa**, selecione **continuar avaliação** e clique em **OK**. 
   
 1. Clique em **Modificar** à direita da caixa de seleção de **avaliação** para exibir e especificar os parâmetros de avaliação por problema. Uma caixa de diálogo de **nível de avaliação** para cada problema é exibida, conforme mostrado no exemplo a seguir: 
     
@@ -121,7 +121,7 @@ Quando a riqueza é muito baixa, o número de arquivos de avaliação adicionais
 Na ausência de estabilização com base Estatistica, haverá resultados com um nível inferior de precisão e nível de confiança. No entanto, esses resultados podem ser usados para localizar arquivos relevantes quando você não precisa saber a porcentagem de arquivos relevantes encontrados. Da mesma forma, esse status pode ser usado para treinar problemas com uma riqueza inferior, em que as pontuações de relevância podem acelerar o acesso a arquivos relevantes para um problema específico.
   
 > [!TIP]
-> Na guia ** \> controle de relevância** , exibição de problema expandido, as seguintes opções de exibição estão disponíveis: > a próxima etapa recomendada, como **próxima etapa: a marcação** pode ser ignorada (por problema) clicando no botão **Modificar** à direita e selecionando uma etapa diferente na **próxima etapa**. Quando o indicador de progresso da avaliação não for concluído, a avaliação será a próxima opção recomendada para marcar mais arquivos de avaliação e aumentar a precisão das estatísticas. > você pode alterar a margem de erro e avaliar seu impacto, clicando em **Modificar**e, na **caixa de diálogo nível de avaliação**, alterando a **margem de erro de destino para obter estimativas de cancelamento**e clicando em **atualizar valores**. Além disso, nessa caixa de diálogo, você pode exibir opções avançadas clicando em **avançado**. > você pode exibir estatísticas de nível de avaliação adicionais e seu impacto clicando em **Exibir**. Na caixa de diálogo resultados detalhados exibidos, as estatísticas estão disponíveis por questão, quando há pelo menos 500 arquivos de avaliação marcados e pelo menos 18 arquivos são marcados conforme relevante para o problema. 
+> Na guia **\> controle de relevância** , exibição de problema expandido, as seguintes opções de exibição estão disponíveis: > a próxima etapa recomendada, como **próxima etapa: a marcação** pode ser ignorada (por problema) clicando no botão **Modificar** à direita e selecionando uma etapa diferente na **próxima etapa**. Quando o indicador de progresso da avaliação não for concluído, a avaliação será a próxima opção recomendada para marcar mais arquivos de avaliação e aumentar a precisão das estatísticas. > você pode alterar a margem de erro e avaliar seu impacto, clicando em **Modificar** e, na **caixa de diálogo nível de avaliação**, alterando a **margem de erro de destino para obter estimativas de cancelamento** e clicando em **atualizar valores**. Além disso, nessa caixa de diálogo, você pode exibir opções avançadas clicando em **avançado**. > você pode exibir estatísticas de nível de avaliação adicionais e seu impacto clicando em **Exibir**. Na caixa de diálogo resultados detalhados exibidos, as estatísticas estão disponíveis por questão, quando há pelo menos 500 arquivos de avaliação marcados e pelo menos 18 arquivos são marcados conforme relevante para o problema. 
   
 ## <a name="see-also"></a>Também consulte
 

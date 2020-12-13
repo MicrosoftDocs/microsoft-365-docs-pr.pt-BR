@@ -2,8 +2,8 @@
 title: Usar utilitários da Descoberta Eletrônica Avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: Saiba mais sobre os utilitários em descoberta eletrônica avançada, incluindo log de caso, dados claros, erros de processo, modificação de relevância e análise de transparência.
-ms.openlocfilehash: 4283bc7bea509c8a01fb45c433964230a5256f8a
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 745b81609d73ec88525c3348cc4d582c7d5d7b30
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936614"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663290"
 ---
 # <a name="use-advanced-ediscovery-classic-utilities"></a>Usar utilitários da Descoberta Eletrônica Avançada (clássica)
 
@@ -38,7 +38,7 @@ O arquivo de log também pode ser baixado no computador do cliente. A opção de
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia ** \> utilitários de configurações e utilitários** , selecione ** \> a configuração de log de caso**.
+2. Na guia **\> utilitários de configurações e utilitários** , selecione **\> a configuração de log de caso**.
     
 3. Selecione o **nível de log** da seguinte maneira: 
     
@@ -57,7 +57,7 @@ Se for necessário excluir ou reinicializar os dados da ocorrência, a instânci
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia ** \> utilitários de configurações e utilitários** , selecione **limpar \> configuração de dados**.
+2. Na guia **\> utilitários de configurações e utilitários** , selecione **limpar \> configuração de dados**.
     
 3. Selecione uma opção para que as informações sejam inicializadas:
     
@@ -77,7 +77,7 @@ Esta seção descreve como ignorar ou reverter uma amostra de relevância.
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia ** \> utilitários de configurações e utilitários** , selecione **Modificar relevância**.
+2. Na guia **\> utilitários de configurações e utilitários** , selecione **Modificar relevância**.
     
 3. Selecione dentre as opções: 
     
@@ -99,7 +99,7 @@ Em um cenário de caso de vários problemas, um relatório de análise de transp
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia ** \> utilitários de configurações e utilitários** , selecione ** \> configuração de análise de transparência**.
+2. Na guia **\> utilitários de configurações e utilitários** , selecione **\> configuração de análise de transparência**.
     
 3. Em * * ID de arquivo * *, insira a ID de arquivo do arquivo a ser processado.
     

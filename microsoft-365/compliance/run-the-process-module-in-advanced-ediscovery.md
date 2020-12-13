@@ -2,8 +2,8 @@
 title: Executar o módulo de processo na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: Saiba mais sobre as diretrizes para preparar arquivos de caso de dados para análise com descoberta eletrônica avançada.
-ms.openlocfilehash: 5130bea7da8922fd7e98d07696ffde3930d2ce41
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 3773833d9d0af993b4ccb35bcd18276800c4081f
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936194"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662806"
 ---
 # <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>Executar o módulo de processo na descoberta eletrônica avançada (clássico)
 
-Os arquivos de caso são carregados na descoberta eletrônica avançada durante o processo de **preparação** \> **Process**. 
+Os arquivos de caso são carregados na descoberta eletrônica avançada durante o processo de **preparação** \> . 
   
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 

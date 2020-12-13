@@ -2,8 +2,8 @@
 title: Treinamento de marcação e relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 09/14/2017
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância de descoberta eletrônica avançada.
-ms.openlocfilehash: 56ce30754e04d4a2adcf854093e603f93be5ae36
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: d576b0a907a4c12eabe4f3cba9846de670b0ee12
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936667"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663446"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada (clássico)
 
@@ -34,7 +34,7 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
   
 ## <a name="performing-relevance-training"></a>Realizando treinamento de relevância
 
-1. Na guia ** \> marca de relevância** , o painel de marcação é exibido por padrão no painel esquerdo e os arquivos de exemplo são exibidos, um de cada vez para marcação. 
+1. Na guia **\> marca de relevância** , o painel de marcação é exibido por padrão no painel esquerdo e os arquivos de exemplo são exibidos, um de cada vez para marcação. 
     
     ![Painel Marca de Relevância](../media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
   
@@ -76,9 +76,9 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
     
 ## <a name="working-with-the-sample-files-list"></a>Trabalhar com a lista de arquivos de exemplo
 
-A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo de treinamento e realizar várias ações em um ou mais arquivos. Na guia **Relevance** \> **marca** de relevância, o painel esquerdo **arquivos de exemplo** exibe uma lista de arquivos de amostra para processamento com processos de avaliação, treinamento, acompanhamento e inconsistências. 
+A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo de treinamento e realizar várias ações em um ou mais arquivos. Na guia  \> **marca** de relevância, o painel esquerdo **arquivos de exemplo** exibe uma lista de arquivos de amostra para processamento com processos de avaliação, treinamento, acompanhamento e inconsistências. 
   
-1. Na guia ** \> marca de relevância** , selecione os arquivos de exemplo na lista suspensa painel esquerdo. Os arquivos de exemplo estão listados no painel esquerdo. 
+1. Na guia **\> marca de relevância** , selecione os arquivos de exemplo na lista suspensa painel esquerdo. Os arquivos de exemplo estão listados no painel esquerdo. 
     
     ![Lista de arquivos de exemplo de Marca de Relevância](../media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
   
@@ -90,13 +90,13 @@ A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo 
     
   - Navegue entre arquivos no exemplo atual usando as opções de barra de menu inferior. Além disso, os atalhos de teclado de navegação estão disponíveis:
     
-    Para navegar até o primeiro arquivo do exemplo: Shift + Ctrl +\<
+    Para navegar até o primeiro arquivo do exemplo: Shift + Ctrl + \<
     
-    Para navegar para o arquivo anterior no exemplo: Shift +\<
+    Para navegar para o arquivo anterior no exemplo: Shift + \<
     
-    Para navegar até o próximo arquivo no exemplo: Shift +\>
+    Para navegar até o próximo arquivo no exemplo: Shift + \>
     
-    Para navegar até o último arquivo no exemplo: Shift + Ctrl +\>
+    Para navegar até o último arquivo no exemplo: Shift + Ctrl + \>
     
 ## <a name="see-also"></a>Também consulte
 

@@ -2,8 +2,8 @@
 title: Descoberta Eletrônica Avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: fd53438a-a760-45f6-9df4-861b50161ae4
 description: Saiba como a descoberta eletrônica avançada pode ajudá-lo a analisar dados, simplificar as revisões de documentos e tomar decisões para descoberta eletrônica eficiente.
-ms.openlocfilehash: 231064266a2498ec2eb8845da325fba6e5cfeb76
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f8ada5d377e72516ea42d8c5dc5680573daec717
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649708"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662816"
 ---
 # <a name="advanced-ediscovery-classic"></a>Descoberta Eletrônica Avançada (clássica)
 

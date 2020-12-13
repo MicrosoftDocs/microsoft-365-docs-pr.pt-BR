@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: 0c734d1046a1c2d180c8102187b8cf07de7dc4dc
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 997ce1375660f1a0e87d0babe647caada09e9e93
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613039"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663650"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -208,6 +208,8 @@ Como essas configurações estão sujeitas às configurações de toda a organiz
 ### <a name="site-sharing"></a>Compartilhamento do site
 
 Você pode definir as permissões de compartilhamento de convidado para cada site do SharePoint. Essa configuração se aplica ao compartilhamento do site e ao compartilhamento de arquivo e pasta. (O compartilhamento de *Qualquer pessoa* não está disponível no compartilhamento do site. Se escolher **Qualquer pessoa**, os usuários poderão compartilhar arquivos e pastas usando os links para *Qualquer pessoa* e o site em si com convidados novos e existentes.
+
+Se o site tiver um rótulo de sensibilidade aplicado, esse rótulo poderá controlar as configurações de compartilhamento externo. Para mais informações, veja [Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 **Navegação:** Centro de administração do SharePoint > sites ativos > selecione site > guia políticas > Editar compartilhamento externo
 

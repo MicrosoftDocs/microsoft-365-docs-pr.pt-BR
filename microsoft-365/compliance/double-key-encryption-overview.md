@@ -4,7 +4,7 @@ description: Perguntas frequentes sobre a criptografia de chave dupla para o Mic
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 09/22/2020
+ms.date: 12/11/2020
 ms.topic: conceptual
 ms.service: information-protection
 audience: Admin
@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 98c61e66155e21624e8ecba460ebc3041e72ada5
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 32686e76018d8b6a361ea99e6b00271b9547ed95
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277647"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663056"
 ---
 # <a name="double-key-encryption-frequently-asked-questions"></a>Perguntas frequentes sobre a criptografia de duas teclas
 
@@ -33,7 +33,7 @@ O DKE ajuda você a atender aos requisitos normativos de várias regulamentaçõ
 
 ## <a name="can-i-use-double-key-encryption-with-microsoft-office-built-in-sensitivity-labeling"></a>Posso usar a criptografia de duas teclas com o rótulo de confidencialidade interno do Microsoft Office?
 
-Você precisará usar o cliente de rotulação unificada de proteção de informações do Azure para proteger documentos com criptografia de chave dupla. No momento, não é possível usar o rótulo de confidencialidade interno do Microsoft Office. 
+Você precisará usar o cliente de rotulação unificada de proteção de informações do Azure para proteger documentos com criptografia de chave dupla. No momento, não é possível usar o rótulo de confidencialidade interno do Microsoft Office.
 
 ## <a name="what-microsoft-365-apps-can-i-use-with-dke"></a>O que os aplicativos da Microsoft 365 podem usar com o DKE?
 

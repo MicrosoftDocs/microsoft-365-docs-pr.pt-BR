@@ -2,8 +2,8 @@
 title: Testar análise de relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 09/14/2017
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 description: Saiba como usar a guia teste após o cálculo de lote em descoberta eletrônica avançada para testar, comparar e validar a qualidade geral do processamento.
-ms.openlocfilehash: c5a885b3483b9ce319fffefa55037c0c2c8f3c85
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e408d79aac8015da210f983b7b388ace84fc383a
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936204"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663414"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Testar análise de relevância na descoberta eletrônica avançada (clássica)
 
@@ -48,7 +48,7 @@ Esse teste fornece estatísticas e uma comparação entre o conjunto de revisão
     
     ![Resultados de “Test the Rest” de relevância](../media/46e6898a-f929-4fd0-88d9-6f91d04b6ce2.png)
   
-3. Em **nome do teste**e **Descrição**, digite o nome e a descrição.
+3. Em **nome do teste** e **Descrição**, digite o nome e a descrição.
     
 4. Na lista **tipo de teste** , selecione **testar o restante**
     
