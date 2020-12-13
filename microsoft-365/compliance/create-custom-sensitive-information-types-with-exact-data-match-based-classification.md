@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b120e2bffa4554fb435fe8de2e22d6de2f851544
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: a5fa261f1e0db5c8ed66dfdebdca764976fe3130
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604333"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658668"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -37,7 +37,7 @@ ms.locfileid: "49604333"
 
 Mas e se você quiser um tipo personalizado de informações confidenciais que usa valores de dados exatos, em vez de corresponder apenas a padrões genéricos? Com a classificação baseada em Exact Data Match (EDM), você pode criar um tipo personalizado de informações confidenciais que é criada para:
 
-- ser dinâmico e atualizável
+- ser dinâmica e facilmente atualizada
 - ser mais escalonável
 - resultar em menos falso-positivos
 - trabalhar com dados confidenciais estruturados
@@ -122,7 +122,7 @@ Organizar e configurar a classificação baseada em EDM envolve:
       ```xml
       <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
             <DataStore name="PatientRecords" description="Schema for patient records" version="1">
-                  <Field name="PatientID" searchable="true" />
+                  <Field name="PatientID" searchable="true" caseInsensitive="true" ignoredDelimiters="-,/,*,#,^" />
                   <Field name="MRN" searchable="true" />
                   <Field name="FirstName" />
                   <Field name="LastName" />
@@ -134,6 +134,39 @@ Organizar e configurar a classificação baseada em EDM envolve:
             </DataStore>
       </EdmSchema>
       ```
+
+##### <a name="configurable-match-using-the-caseinsensitive-and-ignoreddelimiters-fields"></a>Correspondência configurável usando os campos caseInsensitive e ignoredDelimiters
+
+As amostras XML acima usam os campos `caseInsensitive` e `ignoredDelimiters`. 
+
+Quando você incluir o campo ***caseInsensitive** _ definido para o valor de `true` em sua definição de esquema o EDM não excluirá um item baseado em diferenças de maiúsculas para o campo `PatientID`. Dessa forma, o EDM verá `PatientID` _ *FOO-1234** e **fOo-1234** como idênticos.
+
+Quando você incluir o campo **_ignoreDelimiters_*com os caracteres suportados, o EDM ignorará aqueles caracteres no `PatientID`. Assim, o EDM verá `PatientID`_* FOO-1234** e `PatientID`**FOO#1234** como idênticos. O sinalizador `ignoredDelimiters` dá suporte a qualquer caractere não alfanumérico, aqui estão alguns exemplos:
+- \.
+- \-
+- \/
+- \_
+- \*
+- \^
+- \#
+- \!
+- \?
+- \[
+- \]
+- \{
+- \}
+- \\
+- \~
+- \; 
+
+- O sinalizador `ignoredDelimiters` não tem suporte para:
+- caracteres de 0 a 9
+- A-Z
+- a-z
+- \"
+- \,
+
+Nesse exemplo, onde `caseInsensitive` e `ignoredDelimiters` são usados, o EDM veria **FOO-1234** e **fOo#1234** como idênticos e classificaria o item como tipo de informação confidencial do registro do paciente. 
 
 4. Conectar ao centro de Conformidade e Segurança usando os procedimentos em [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
@@ -265,6 +298,9 @@ Nesse exemplo, observe que:
 
 Se você quiser fazer alterações em seu arquivo **edm.xml**, como alterar quais os campos usados para a classificação baseada em EDM, siga estas etapas:
 
+> [!TIP]
+> Você pode alterar seu esquema EDM e o arquivo de dados para tirar vantagem de **correspondência configurável**. Quando configurado, o EDM ignorará as diferenças de maiúsculas e alguns delimitadores quando avalia um item. Isso facilita a definição do seu esquema XML e de arquivos de dados confidenciais. Para saber mais, confira [Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável](sit-modify-edm-schema-configurable-match.md).
+
 1. Edite seu arquivo **edm.xml** (este é o arquivo discutido na seção [Definir o esquema](#define-the-schema-for-your-database-of-sensitive-information) deste artigo).
 
 2. Conectar ao centro de Conformidade e Segurança usando os procedimentos em [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
@@ -317,66 +353,6 @@ Se você quiser fazer alterações em seu arquivo **edm.xml**, como alterar quai
       > [!TIP]
       >  Se você deseja que suas alterações ocorram sem confirmação, na Etapa 2, use este cmdlet: Remove-DlpEdmSchema -Identity patientrecords -Confirm: $ false
 
-
-<!-- salt notes
-need two salting procedures, one for onestep from the externally facing and another for two step, on an internal machine then the upload from the external machine
-
-- create A  folder put the edmupload agent and, csv and salt file there, run all processes there
-- 
-- stuff you need to have first: DataStoreName, /DataFile name (csv file)  /Hashlocation
-
-- salt can be randomly generated by Microsoft or can be provided by the customer. If provided by the customer it must follow  format of 64 character, and can contain only letters or 0-9 characters.  Use a website to generate a valid salt value.
- 
-- can run EDMuploadagent.exe from PS or Windows cmd window . tested on Windows Server 2016 or Windows 10 and dot net version 4.6.2
-
-when defiuning the schema file the searchable fields must be either an out of box SIT or custom SIT, only 5 fields )column headings) can be searchable
-
-1. From outbound access device from the cmd prompt run EdmUploadAgent.exe /Authorize -  
-2. data store schema must have already been uploaded
-3.  create hash first then do upload
-4. EdmUploadAgent.exe /CreateHash /DataFile (where the data file is ) E:\emd\test\data\schema32_1000000,csv /HashLocation  (where to store it) E:\edm\tat\hash this makes the salt file and the hash file as output
-5. next is upload EdmUploadAgent.exe /UploadHash /DataStoreName (found in the Schema file DataSore name="FOO" /HashFile (path to hash file locaztion and file name /HashLocation path to hash)  for example
-1.EdmUploadAgent/exe /UploadHash /DataStoreName schema321 /HashFile E:\edm\test\hash\schema32_10000000.EdmHash /HashLocation E:\edm\test\hash  -this one  uses MSFT generated salt, so no need to provide
-
-Salt is an optional parameter so if yo uwant to use a custom salt add /salt and the salt value if salt file not copied to the outbound machine 
-
-OR copy both files hash and salt to the same directory and the commmand will get both
-
-
-OR do it in single step hash, salt ulopad
-
-!! once they download the updated upload agent they will always have SALT, there is no going back.
-
-
-all in one step: EdmUploadAgent.exe /UploadData /DataStoreName schema321 /DataFile E:\edm\test\data\schema32_10000.csv /HashLocation E:\edm\test\hash
-
-tshooting/check status cmd
-
-
-
-Once it gets to completed the admin can start using it in the custom SIT
-
-they have to get their own custom SALT
-
-just copy SALT over in a secure fashion
-
-
-
-
-
-
-
-
-
-
-1.
-6.
-7.
-1.  
-
-
- -->
-
 ### <a name="part-2-hash-and-upload-the-sensitive-data"></a>Parte 2: hash e carregamento de dados confidenciais
 
 Nessa fase, você configura um grupo de segurança personalizado e uma conta de usuário, e configura a ferramenta do agente de carregamento do EDM. Depois, use a ferramenta para o hash com valor salt dos dados confidenciais e carregue-los.
@@ -410,11 +386,21 @@ Esse computador deve ter acesso direto ao seu locatário do Microsoft 365.
 >[!NOTE]
 > Antes de iniciar este procedimento, certifique-se de que você é membro do grupo de segurança **EDM\_DataUploaders**.
 
+> [!TIP]
+> Opcionalmente, você pode executar uma validação contra o arquivo CSV antes de carregar executando:
+>
+>`EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
+>
+>Para obter mais informações sobre todos os parâmetros suportados do EdmUploadAgent.exe >execute parâmetros suportados
+>
+> `EdmUploadAgent.exe /?`
+
+
 #### <a name="links-to-edm-upload-agent-by-subscription-type"></a>Links para o agente de carregamento EDM por tipo de assinatura
 
-- [Comercial + GCC](https://go.microsoft.com/fwlink/?linkid=2088639)
-- [GCC-High](https://go.microsoft.com/fwlink/?linkid=2137521)
-- [DoD](https://go.microsoft.com/fwlink/?linkid=2137807)
+- [Commercial + GCC](https://go.microsoft.com/fwlink/?linkid=2088639) – a maioria dos clientes comerciais devem usar este
+- [GCC-High](https://go.microsoft.com/fwlink/?linkid=2137521) – especificamente para assinantes da nuvem governamental de alta segurança
+- [DoD](https://go.microsoft.com/fwlink/?linkid=2137807) – este é especificamente para os clientes de nuvem do Departamento de Defesa dos Estados Unidos
 
 1. Crie um diretório de trabalho para o EDMUploadAgent. Por exemplo, **C:\EDM\Data**. Coloque o arquivo **PatientRecords.csv** lá.
 
@@ -436,9 +422,9 @@ Esse computador deve ter acesso direto ao seu locatário do Microsoft 365.
 
 4. Para criar o hash e carregar os dados confidenciais, execute o seguinte comando no prompt de comando:
 
-`EdmUploadAgent.exe /UploadData /DataStoreName \<DataStoreName\> /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
+`EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]`
 
-Exemplo: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash**
+Exemplo: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
 Isso adicionará automaticamente um valor salt gerado aleatoriamente ao hash para aumentar a segurança. Opcionalmente, se você quiser usar seu próprio valor salt, adicione o **/Salt <saltvalue>** ao comando. Esse valor deve ter 64 caracteres de comprimento e só pode conter os caracteres de a-z e de 0-9.
 
@@ -456,11 +442,11 @@ Execute o hash em um computador em um ambiente seguro.
 
 1. Execute os seguinte comando na janela prompt de comando:
 
-`EdmUploadAgent.exe /CreateHash /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
+`EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] >`
 
 Por exemplo:
 
-> **EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash**
+> **EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
 Isso gerará um arquivo de hash e um arquivo salt com essas extensões, caso você não tenha especificado a opção **/Salt <saltvalue>**:
 - .EdmHash
@@ -524,11 +510,14 @@ $user = "$env:USERDOMAIN\\$env:USERNAME"
 $edminstallpath = 'C:\\Program Files\\Microsoft\\EdmUploadAgent\\'
 $edmuploader = $edminstallpath + 'EdmUploadAgent.exe'
 $csvext = '.csv'
+$schemaext = '.xml'
 \# Assuming CSV file name is same as data store name
 $dataFile = "$fileLocation\\$dataStoreName$csvext"
 \# Assuming location to store hash file is same as the location of csv file
 $hashLocation = $fileLocation
-$uploadDataArgs = '/UploadData /DataStoreName ' + $dataStoreName + ' /DataFile ' + $dataFile + ' /HashLocation' + $hashLocation
+\# Assuming Schema file name is same as data store name
+$schemaFile = "$fileLocation\\$dataStoreName$schemaext"
+$uploadDataArgs = '/UploadData /DataStoreName ' + $dataStoreName + ' /DataFile ' + $dataFile + ' /HashLocation' + $hashLocation + ' /Schema ' + $schemaFile
 \# Set up actions associated with the task
 $actions = @()
 $actions += New-ScheduledTaskAction -Execute $edmuploader -Argument $uploadDataArgs -WorkingDirectory $edminstallpath
@@ -557,12 +546,16 @@ $edminstallpath = 'C:\\Program Files\\Microsoft\\EdmUploadAgent\\'
 $edmuploader = $edminstallpath + 'EdmUploadAgent.exe'
 $csvext = '.csv'
 $edmext = '.EdmHash'
+$schemaext = '.xml'
 \# Assuming CSV file name is same as data store name
 $dataFile = "$fileLocation\\$dataStoreName$csvext"
 $hashFile = "$fileLocation\\$dataStoreName$edmext"
+\# Assuming Schema file name is same as data store name
+$schemaFile = "$fileLocation\\$dataStoreName$schemaext "
+
 \# Assuming location to store hash file is same as the location of csv file
 $hashLocation = $fileLocation
-$createHashArgs = '/CreateHash' + ' /DataFile ' + $dataFile + ' /HashLocation ' + $hashLocation
+$createHashArgs = '/CreateHash' + ' /DataFile ' + $dataFile + ' /HashLocation ' + $hashLocation + ' /Schema ' + $schemaFile
 $uploadHashArgs = '/UploadHash /DataStoreName ' + $dataStoreName + ' /HashFile ' + $hashFile
 \# Set up actions associated with the task
 $actions = @()
@@ -581,6 +574,7 @@ $password=\[Runtime.InteropServices.Marshal\]::PtrToStringAuto(\[Runtime.Interop
 \# Register the scheduled task
 $taskName = 'EDMUpload\_' + $dataStoreName
 Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $user -Password $password
+
 ```
 
 ### <a name="part-3-use-edm-based-classification-with-your-microsoft-cloud-services"></a>Parte 3: uso da classificação baseada em EDM com os serviços de nuvem da Microsoft
@@ -642,3 +636,5 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 - [Visão geral das políticas DLP](data-loss-prevention-policies.md)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 - [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)
+- [Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável](sit-modify-edm-schema-configurable-match.md)
+
