@@ -21,24 +21,24 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Saiba como os administradores globais do Office 365 podem aplicar a identidade visual da sua organização a mensagens de email criptografadas & conteúdo do portal de criptografia.
-ms.openlocfilehash: 6ec13a9d986019e6eb91d1b7a395f1c6199fe12a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 77fd5e08afa1a4d8ae5f6386fa65b88b6ea2be4d
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818654"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663228"
 ---
-# <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Adicionar a marca da sua organização a suas mensagens criptografadas
+# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Adicionar a marca da sua organização às mensagens criptografadas de criptografia de mensagem do Microsoft 365 for Business
 
-Como administrador do Exchange Online ou do Exchange Online Protection, você pode aplicar a identidade visual da sua empresa para personalizar a aparência das mensagens de email de criptografia de mensagem do Microsoft 365 for Business Message de sua organização e o conteúdo do portal de criptografia. Usando os cmdlets Get-OMEConfiguration e Set-OMEConfiguration do Windows PowerShell, você pode personalizar os seguintes aspectos da experiência de visualização para destinatários de mensagens de email criptografadas:
+Você pode aplicar a identidade visual da empresa para personalizar a aparência das mensagens de email e do portal de criptografia da sua organização. Você precisará aplicar permissões de administrador global à sua conta corporativa ou de estudante antes de começar. Depois de ter essas permissões, use o Get-OMEConfiguration e Set-OMEConfiguration cmdlets do Windows PowerShell para personalizar essas partes de mensagens de email criptografadas:
   
-- Texto introdutório do email que contém a mensagem criptografada
+- Texto introdutório
 
-- Texto do aviso de isenção de responsabilidade do email que contém a mensagem criptografada
+- Disclaimer text
 
-- URL da política de privacidade da sua organização
+- URL da declaração de privacidade da sua organização
 
-- Texto que aparece no portal OME
+- Texto no portal OME
 
 - Logotipo que aparece na mensagem de email e no portal do OME, ou se um logotipo deve ser usado
 
@@ -46,13 +46,13 @@ Como administrador do Exchange Online ou do Exchange Online Protection, você po
 
 Você também pode reverter para a aparência padrão a qualquer momento.
 
-Se quiser mais controle, você pode usar a criptografia de mensagem avançada do Office 365 e criar vários modelos para emails criptografados provenientes da sua organização. Usando esses modelos, você pode controlar mais do que apenas a aparência das mensagens de email, mas também controlar partes da experiência do usuário final. Por exemplo, você pode especificar se os destinatários de emails que possuem esse modelo aplicado e que usam Google, Yahoo e contas da Microsoft podem usar essas contas para entrar no portal de criptografia de mensagens do Office 365. Você pode usar modelos para cumprir vários casos de uso, como:
+Se você quiser mais controle, use a criptografia de mensagem avançada do Office 365 para criar vários modelos para emails criptografados provenientes da sua organização. Use esses modelos para controlar partes da experiência do usuário final. Por exemplo, especifique se os destinatários podem usar o Google, o Yahoo e contas da Microsoft para entrar no portal de criptografia. Use modelos para realizar vários casos de uso, como:
 
-- Modelos para cada departamento, como finanças, vendas e assim por diante.
+- Departamentos individuais, como finanças, vendas e assim por diante.
 
-- Modelos para produtos diferentes
+- Produtos diferentes
 
-- Modelos para diferentes regiões geográficas ou países
+- Diferentes regiões geográficas ou países
 
 - Se você deseja permitir que os emails sejam revogados
 
@@ -62,7 +62,7 @@ Depois de criar os modelos, você pode aplicá-los a emails criptografados usand
 
 ## <a name="work-with-ome-branding-templates"></a>Trabalhar com modelos de identidade visual do OME
 
-Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez. Você precisará de uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização para usar esses cmdlets.
+Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez.
 
 - [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) -modifica o modelo de identidade visual padrão ou um modelo de identidade visual personalizado que você criou.
 - [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) -criar um novo modelo de identidade visual, somente criptografia de mensagem avançada.
@@ -74,13 +74,13 @@ Use o Windows PowerShell para modificar um modelo de identidade visual por vez. 
 
 1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
+2. Use o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
 
 ![Partes de email personalizáveis](../media/ome-template-breakout.png)
 
 |**Para personalizar este recurso da experiência com criptografia**|**Use estes comandos**|
 |:-----|:-----|
-|Cor da tela de fundo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> Para obter mais informações sobre cores de plano de fundo, consulte a seção [cores de plano de fundo](#background-color-reference) mais adiante neste tópico.|
+|Cor da tela de fundo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> Para obter mais informações sobre cores de plano de fundo, consulte a seção [cores de plano de fundo](#background-color-reference) mais adiante neste artigo.|
 |Logotipo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Formatos de arquivo com suporte: .png, .jpg, .bmp ou .tiff  <br/> Tamanho ideal do arquivo de logotipo: menos que 40 KB  <br/> Tamanho ideal da imagem do logotipo: 170x70 pixels. Se a imagem exceder essas dimensões, o serviço redimensiona o logotipo para exibição no Portal. O serviço não modifica o próprio arquivo gráfico. Para obter melhores resultados, use o tamanho ideal.|
 |Texto ao lado do nome do remetente e endereço de email|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
 |Texto que aparece no botão "mensagem de leitura"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
@@ -93,7 +93,7 @@ Use o Windows PowerShell para modificar um modelo de identidade visual por vez. 
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Criar um modelo de identidade visual do OME (criptografia de mensagem avançada)
 
-Se você tiver a criptografia de mensagem avançada do Office 365, poderá criar modelos de identidade visual personalizados para sua organização usando o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) . Depois de criar o modelo, modifique o modelo usando o cmdlet Set-OMEConfiguration, conforme descrito em Modify a [ome branding template](#modify-an-ome-branding-template). Você pode criar vários modelos.
+Se você tiver a criptografia de mensagem avançada do Office 365, poderá criar modelos de identidade visual personalizados para sua organização usando o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) . Depois de criar o modelo, modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [Modify an ome branding template](#modify-an-ome-branding-template). Você pode criar vários modelos.
 
 Para criar um novo modelo de identidade visual personalizado:
 
@@ -117,13 +117,13 @@ Para remover todas as modificações do modelo padrão, incluindo as personaliza
   
 1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Use o cmdlet **set-OMEConfiguration** conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia, `""` . Para todos os valores de imagem, como logotipo, defina o valor como `"$null"` .
+2. Use o cmdlet **set-OMEConfiguration** conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia, `""` . Para todos os valores de imagem, como logotipo, defina o valor como  `"$null"` .
 
    A tabela a seguir descreve os padrões de opção de personalização de criptografia.
 
    **Para reverter esse recurso da experiência de criptografia para o texto e a imagem padrões**|**Use estes comandos**|
    |:-----|:-----|
-   |Texto padrão que acompanha as mensagens de email criptografadas  <br/> O texto padrão é exibido acima das instruções para a exibição de mensagens criptografadas|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
+   |Texto padrão que vem com mensagens de email criptografadas  <br/> O texto padrão é exibido acima das instruções para a exibição de mensagens criptografadas|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
    |Declaração de isenção de responsabilidade nos emails que contêm a mensagem criptografada|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
    |Texto que aparece na parte superior do portal de exibição do email criptografado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Exemplo reverter para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
    |Logotipo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Exemplo reverter para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
@@ -156,7 +156,7 @@ Para remover um modelo de identidade visual personalizado:
 
 Depois de modificar o modelo padrão ou criar novos modelos de identidade visual, você pode criar regras de fluxo de email do Exchange para aplicar a identidade visual personalizada com base em determinadas condições. Tal regra aplicará a identidade visual personalizada nos seguintes cenários:
 
-- Se o email foi criptografado manualmente pelo usuário final do Outlook ou do Outlook na Web (anteriormente conhecido como Outlook Web App) clientes
+- Se o email foi criptografado manualmente pelo usuário final usando o Outlook ou o Outlook na Web, anteriormente, o Outlook Web App
 
 - Se o email foi criptografado automaticamente por uma regra de fluxo de email do Exchange ou pela política de prevenção contra perda de dados
 
@@ -168,21 +168,21 @@ Para obter informações sobre como criar uma regra de fluxo de email do Exchang
 
 3. No centro de administração do Microsoft 365, escolha central de **Administração** do \> **Exchange**.
 
-4. No Eat, vá para regras de **fluxo de email** \> **Rules** e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para regras de **fluxo de email** \>  e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como identidade visual do departamento de vendas.
 
-6. Em **aplicar esta regra se**, selecione a condição que **o remetente está localizado dentro da organização** , bem como outras condições que você deseja na lista de condições disponíveis. Por exemplo, talvez você queira aplicar um modelo de identidade visual específico a:
+6. Em **aplicar esta regra se**, selecione a condição que **o remetente está localizado dentro da organização** e outras condições que você deseja na lista de condições disponíveis. Por exemplo, talvez você queira aplicar um modelo de identidade visual específico a:
 
    - Todos os emails criptografados enviados por membros do departamento financeiro
    - Emails criptografados enviados com uma determinada palavra-chave, como "externo" ou "parceiro"
    - Emails criptografados enviados para um domínio específico
 
-7. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem**  >  **aplicar a identidade visual personalizada às mensagens do ome**. Em seguida, na lista suspensa, selecione um modelo de identidade visual daqueles criados ou modificados.
+7. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **aplicar a identidade visual personalizada às mensagens do ome**. Em seguida, na lista suspensa, selecione um modelo de identidade visual.
 
-8. Opcion Se quiser que a regra de fluxo de emails aplique criptografia além da identidade visual personalizada, em **faça o seguinte**, selecione **Modificar a segurança da mensagem**e, em seguida, escolha **aplicar a criptografia de mensagens e a proteção de direitos do Office 365**. Selecione um modelo do RMS na lista, escolha **salvar**e, em seguida, escolha **OK**.
+8. Opcion Você pode configurar a regra de fluxo de emails para aplicar criptografia e identidade visual personalizada. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem** e, em seguida, escolha **aplicar a criptografia de mensagem do Office 365 e proteção de direitos**. Selecione um modelo do RMS na lista, escolha **salvar** e, em seguida, escolha **OK**.
   
-   A lista de modelos inclui todos os modelos e opções padrão, bem como os modelos personalizados que você criou para uso pelo Office 365. Se a lista estiver vazia, verifique se você configurou a criptografia de mensagem do Office 365 com os novos recursos, conforme descrito em [configurar novos recursos de criptografia de mensagens do office 365](set-up-new-message-encryption-capabilities.md). Para obter informações sobre os modelos padrão, consulte [Configurando e Gerenciando modelos para a proteção de informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Para obter informações sobre a opção não **encaminhar** , confira a [opção não encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Para obter informações sobre a opção **somente criptografia** , confira a [opção criptografar somente para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
+   A lista de modelos inclui opções e modelos padrão e todos os modelos personalizados que você criar. Se a lista estiver vazia, verifique se você configurou a criptografia de mensagem do Office 365 com os novos recursos. Para obter instruções, consulte [configurar novos recursos de criptografia de mensagem do Office 365](set-up-new-message-encryption-capabilities.md). Para obter informações sobre os modelos padrão, consulte [Configurando e Gerenciando modelos para a proteção de informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Para obter informações sobre a opção não **encaminhar** , confira a [opção não encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Para obter informações sobre a opção **somente criptografia** , confira a [opção criptografar somente para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
 
    Escolha **Adicionar ação** se você quiser especificar outra ação.
 
@@ -195,144 +195,144 @@ Os nomes de cor de plano de fundo disponíveis e seus valores de código hex cor
 |||
 |---|---|
 |**Nome da cor**|**Código de cor**|
-|aliceblue|#f0f8ff|
-|antiquewhite|#faebd7|
-|azul-piscina|#00ffff|
-|aquamarine|#7fffd4|
-|Azure|#f0ffff|
-|bege|#f5f5dc|
-|bisque|#ffe4c4|
-|preto|#000000|
-|blanchedalmond|#ffebcd|
-|azuis|#0000ff|
-|blueviolet|#8a2be2|
-|jogador|#a52a2a|
-|burlywood|#deb887|
-|cadetblue|#5f9ea0|
-|chartreuse|#7fff00|
-|leite|#d2691e|
-|cores|#ff7f50|
-|cornflowerblue|#6495ed|
-|cornsilk|#fff8dc|
-|Crimson|#dc143c|
-|ciano|#00ffff|
-|darkblue|#00008b|
-|darkcyan|#008b8b|
-|darkgoldenrod|#b8860b|
-|darkgray|#a9a9a9|
-|darkgreen|#006400|
-|darkkhaki|#bdb76b|
-|darkmagenta|#8b008b|
-|darkolivegreen|#556b2f|
-|darkorange|#ff8c00|
-|darkorchid|#9932cc|
-|darkred|#8b0000|
-|darksalmon|#e9967a|
-|darkseagreen|#8fbc8f|
-|darkslateblue|#483d8b|
-|darkslategray|#2f4f4f|
-|darkturquoise|#00ced1|
-|darkviolet|#9400d3|
-|deeppink|#ff1493|
-|deepskyblue|#00bfff|
-|dimgray|#696969|
-|dodgerblue|#1e90ff|
-|firebrick|#b22222|
-|floralwhite|#fffaf0|
-|forestgreen|#228b22|
-|fúcsia|#ff00ff|
-|gainsboro|#dcdcdc|
-|ghostwhite|#f8f8ff|
-|dourado|#ffd700|
-|Solidago|#daa520|
-|acinzentada|#808080|
-|natureza|#008000|
-|greenyellow|#adff2f|
-|honeydew|#f0fff0|
-|hotpink|#ff69b4|
-|indianred|#cd5c5c|
-|Indigo|#4b0082|
-|d'|#fffff0|
-|cáqui|#f0e68c|
-|lavanda|#e6e6fa|
-|lavenderblush|#fff0f5|
-|lawngreen|#7cfc00|
-|lemonchiffon|#fffacd|
-|lightblue|#add8e6|
-|lightcoral|#f08080|
-|lightcyan|#e0ffff|
-|lightgoldenrodyellow|#fafad2|
-|lightgray|#d3d3d3|
-|lightgrey|#d3d3d3|
-|lightgreen|#90ee90|
-|lightpink|#ffb6c1|
-|lightsalmon|#ffa07a|
-|lightseagreen|#20b2aa|
-|lightskyblue|#87cefa|
-|lightslategray|#778899|
-|lightsteelblue|#b0c4de|
-|lightyellow|#ffffe0|
-|verde|#00ff00|
-|limegreen|#32cd32|
-|linen|#faf0e6|
-|vermelho|#ff00ff|
-|bordô|#800000|
-|mediumaquamarine|#66cdaa|
-|mediumblue|#0000cd|
-|mediumorchid|#ba55d3|
-|mediumpurple|#9370db|
-|mediumseagreen|#3cb371|
-|mediumslateblue|#7b68ee|
-|mediumspringgreen|#00fa9a|
-|mediumturquoise|#48d1cc|
-|mediumvioletred|#c71585|
-|midnightblue|#191970|
-|mintcream|#f5fffa|
-|mistyrose|#ffe4e1|
-|moccasin|#ffe4b5|
-|navajowhite|#ffdead|
-|marinho|#000080|
-|oldlace|#fdf5e6|
-|oliva|#808000|
-|olivedrab|#6b8e23|
-|laranja|#ffa500|
-|orangered|#ff4500|
-|orquídea|#da70d6|
-|palegoldenrod|#eee8aa|
-|palegreen|#98fb98|
-|paleturquoise|#afeeee|
-|palevioletred|#db7093|
-|papayawhip|#ffefd5|
-|peachpuff|#ffdab9|
-|Peru|#cd853f|
-|Rosa|#ffc0cb|
-|ameixa|#dda0dd|
-|powderblue|#b0e0e6|
-|roxa|#800080|
-|vermelha|#ff0000|
-|rosybrown|#bc8f8f|
-|royalblue|#4169e1|
-|saddlebrown|#8b4513|
-|salmão|#fa8072|
-|sandybrown|#f4a460|
-|magreen verde|
-|seashell|#fff5ee|
-|sienna|#a0522d|
-|realiza|#c0c0c0|
-|skyblue|#87ceeb|
-|slateblue|#6a5acd|
-|slategray|#708090|
-|Snow|#fffafa|
-|springgreen|#00ff7f|
-|steelblue|#4682b4|
-|Claro|#d2b48c|
-|azul-petróleo|#008080|
-|thistle|#d8bfd8|
-|tomato|#ff6347|
-|turquesa|#40e0d0|
-|glacê|#ee82ee|
-|trigo|#f5deb3|
-|branco|#ffffff|
-|whitesmoke|#f5f5f5|
-|amarelo|#ffff00|
-|yellowgreen|#9acd32|
+|`aliceblue`|#f0f8ff|
+|`antiquewhite`|#faebd7|
+|`aqua`|#00ffff|
+|`aquamarine`|#7fffd4|
+|`azure`|#f0ffff|
+|`beige`|#f5f5dc|
+|`bisque`|#ffe4c4|
+|`black`|#000000|
+|`blanchedalmond`|#ffebcd|
+|`blue`|#0000ff|
+|`blueviolet`|#8a2be2|
+|`brown`|#a52a2a|
+|`burlywood`|#deb887|
+|`cadetblue`|#5f9ea0|
+|`chartreuse`|#7fff00|
+|`chocolate`|#d2691e|
+|`coral`|#ff7f50|
+|`cornflowerblue`|#6495ed|
+|`cornsilk`|#fff8dc|
+|`crimson`|#dc143c|
+|`cyan`|#00ffff|
+|`darkblue`|#00008b|
+|`darkcyan`|#008b8b|
+|`darkgoldenrod`|#b8860b|
+|`darkgray`|#a9a9a9|
+|`darkgreen`|#006400|
+|`darkkhaki`|#bdb76b|
+|`darkmagenta`|#8b008b|
+|`darkolivegreen`|#556b2f|
+|`darkorange`|#ff8c00|
+|`darkorchid`|#9932cc|
+|`darkred`|#8b0000|
+|`darksalmon`|#e9967a|
+|`darkseagreen`|#8fbc8f|
+|`darkslateblue`|#483d8b|
+|`darkslategray`|#2f4f4f|
+|`darkturquoise`|#00ced1|
+|`darkviolet`|#9400d3|
+|`deeppink`|#ff1493|
+|`deepskyblue`|#00bfff|
+|`dimgray`|#696969|
+|`dodgerblue`|#1e90ff|
+|`firebrick`|#b22222|
+|`floralwhite`|#fffaf0|
+|`forestgreen`|#228b22|
+|`fuchsia`|#ff00ff|
+|`gainsboro`|#dcdcdc|
+|`ghostwhite`|#f8f8ff|
+|`gold`|#ffd700|
+|`goldenrod`|#daa520|
+|`gray`|#808080|
+|`green`|#008000|
+|`greenyellow`|#adff2f|
+|`honeydew`|#f0fff0|
+|`hotpink`|#ff69b4|
+|`indianred`|#cd5c5c|
+|`indigo`|#4b0082|
+|`ivory`|#fffff0|
+|`khaki`|#f0e68c|
+|`lavender`|#e6e6fa|
+|`lavenderblush`|#fff0f5|
+|`lawngreen`|#7cfc00|
+|`lemonchiffon`|#fffacd|
+|`lightblue`|#add8e6|
+|`lightcoral`|#f08080|
+|`lightcyan`|#e0ffff|
+|`lightgoldenrodyellow`|#fafad2|
+|`lightgray`|#d3d3d3|
+|`lightgrey`|#d3d3d3|
+|`lightgreen`|#90ee90|
+|`lightpink`|#ffb6c1|
+|`lightsalmon`|#ffa07a|
+|`lightseagreen`|#20b2aa|
+|`lightskyblue`|#87cefa|
+|`lightslategray`|#778899|
+|`lightsteelblue`|#b0c4de|
+|`lightyellow`|#ffffe0|
+|`lime`|#00ff00|
+|`limegreen`|#32cd32|
+|`linen`|#faf0e6|
+|`magenta`|#ff00ff|
+|`maroon`|#800000|
+|`mediumaquamarine`|#66cdaa|
+|`mediumblue`|#0000cd|
+|`mediumorchid`|#ba55d3|
+|`mediumpurple`|#9370db|
+|`mediumseagreen`|#3cb371|
+|`mediumslateblue`|#7b68ee|
+|`mediumspringgreen`|#00fa9a|
+|`mediumturquoise`|#48d1cc|
+|`mediumvioletred`|#c71585|
+|`midnightblue`|#191970|
+|`mintcream`|#f5fffa|
+|`mistyrose`|#ffe4e1|
+|`moccasin`|#ffe4b5|
+|`navajowhite`|#ffdead|
+|`navy`|#000080|
+|`oldlace`|#fdf5e6|
+|`olive`|#808000|
+|`olivedrab`|#6b8e23|
+|`orange`|#ffa500|
+|`orangered`|#ff4500|
+|`orchid`|#da70d6|
+|`palegoldenrod`|#eee8aa|
+|`palegreen`|#98fb98|
+|`paleturquoise`|#afeeee|
+|`palevioletred`|#db7093|
+|`papayawhip`|#ffefd5|
+|`peachpuff`|#ffdab9|
+|`peru`|#cd853f|
+|`pink`|#ffc0cb|
+|`plum`|#dda0dd|
+|`powderblue`|#b0e0e6|
+|`purple`|#800080|
+|`red`|#ff0000|
+|`rosybrown`|#bc8f8f|
+|`royalblue`|#4169e1|
+|`saddlebrown`|#8b4513|
+|`salmon`|#fa8072|
+|`sandybrown`|#f4a460|
+|`seagreen`|#00ff00|
+|`seashell`|#fff5ee|
+|`sienna`|#a0522d|
+|`silver`|#c0c0c0|
+|`skyblue`|#87ceeb|
+|`slateblue`|#6a5acd|
+|`slategray`|#708090|
+|`snow`|#fffafa|
+|`springgreen`|#00ff7f|
+|`steelblue`|#4682b4|
+|`tan`|#d2b48c|
+|`teal`|#008080|
+|`thistle`|#d8bfd8|
+|`tomato`|#ff6347|
+|`turquoise`|#40e0d0|
+|`violet`|#ee82ee|
+|`wheat`|#f5deb3|
+|`white`|#ffffff|
+|`whitesmoke`|#f5f5f5|
+|`yellow`|#ffff00|
+|`yellowgreen`|#9acd32|
