@@ -117,11 +117,11 @@ Esse não é o caso dos rótulos de retenção quando o conteúdo não está suj
 
 ## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização
 
-**SharePoint** :
+**SharePoint**:
 
 Quando um usuário sai organização, qualquer conteúdo criado por ele não será afetado porque o SharePoint é considerado um ambiente colaborativo, ao contrário da caixa de correio ou da conta OneDrive de um usuário.
 
-**OneDrive** :
+**OneDrive**:
 
 Se um usuário sair da organização, quaisquer arquivos sujeitos a uma política de retenção ou que tenham rótulos de retenção permanecerão pela duração da política ou do rótulo.  Durante esse período, todo o acesso à compartilhamentos continua a funcionar. Quando o período de retenção expira, o conteúdo é movido para a Lixeira de Conjuntos de Sites e não pode ser acessado por ninguém, exceto pelo administrador. Se um documento for marcado por um rótulo de retenção como um registro, o documento não será excluído até que o período de retenção termine, após o qual o conteúdo será permanentemente excluído.
 

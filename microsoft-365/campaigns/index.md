@@ -65,7 +65,7 @@ Para saber mais sobre o que está incluído, confira [Microsoft 365 Business Pre
 
 Siga estas etapas para começar:
 
-- [Obter campanhas do Microsoft 365](get-microsoft-365-campaigns.md)
+- [Obtenha campanhas da Microsoft 365](get-microsoft-365-campaigns.md)
 - [Saiba como seus usuários podem trabalhar com o Microsoft 365](m365-campaigns-users.md)
 - [Configurar campanhas do Microsoft 365](microsoft-365-campaigns-setup-overview.md)
 
@@ -76,13 +76,13 @@ Depois de configurar o ambiente seguro da Microsoft 365, você pode usar as segu
 
 | Criar equipes de colaboração | Configurar reuniões online |
 | ------------- | ------------- |
-| ![um site de comunicação do SharePoint](../media/sm-m365-democracy-teams-collab.png) | ![uma reunião online](../media/m365-democracy-teams-meetings.png) |
+| ![um site de comunicação do Microsoft Office SharePoint Online](../media/sm-m365-democracy-teams-collab.png) | ![uma reunião online](../media/m365-democracy-teams-meetings.png) |
 | Colabore com equipes de principais funcionários, de todos os funcionários e parceiros, ou de fornecedores. [Criar uma equipe](create-teams-for-collaboration.md) | Agende uma reunião com áudio, vídeo e compartilhamento com o Microsoft Teams. [Configurar uma reunião](set-up-meetings.md) |
 
-| Criptografar ou rotular emails confidenciais | Criar um site de comunicação |
+| Criptografe ou rotule emails confidenciais | Criar um site de comunicação |
 | ------------- | ------------- |
-| ![Email criptografado e rotulado](../media/sm-m365-campaign-email-encrypt.png) | ![um site de comunicações do SharePoint](../media/sm-m365-democracy-comms-site.png) |
-| Use criptografia e rótulos de confidencialidade para proteger emails que contenham informações confidenciais. [Enviar email criptografado](send-encrypted-email.md) | Compartilhe eventos, mensagens, imagens e muito mais com a sua equipe em um site de comunicações internas criado com o SharePoint. [Criar seu site](create-communications-site.md) |
+| ![Email criptografado e rotulado](../media/sm-m365-campaign-email-encrypt.png) | ![um site de comunicações do Microsoft Office SharePoint Online](../media/sm-m365-democracy-comms-site.png) |
+| Use os rótulos de criptografia e sensibilidade para proteger emails que contenham informações confidenciais. [Enviar email criptografado](send-encrypted-email.md) | Compartilhe eventos, mensagens, imagens e muito mais com a sua equipe em um site de comunicações internas criado com o SharePoint. [Criar seu site](create-communications-site.md) |
 
 | Compartilhar arquivos e vídeos |
 | ------------- |
