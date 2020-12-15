@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
-ms.openlocfilehash: 0a6883bd785141af6f198f0cd871c11794618e27
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 531fd5506aeb255e261c3cce35473f1ddad2aa42
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561678"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667806"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
@@ -86,15 +86,8 @@ Se o modo de lista estiver definido como **Permitir**, os usuários poderão car
 
 Adicione navegadores, identificados por seus nomes executáveis, que serão impedidos de acessar arquivos que correspondam às condições de uma política de DLP, em que a restrição de upload para serviços de nuvem está definida para bloquear ou para substituição de bloqueio. Quando estes navegadores estiverem bloqueados de acessar um arquivo, os usuários finais verão uma notificação do sistema solicitando que eles abram o arquivo por meio do Edge Chromium.
 
-### <a name="always-audit-file-activity-from-onboarded-devices"></a>Sempre auditar atividades de arquivo de dispositivos integrados
 
-Controlar se a atividade DLP para arquivos do Office, PDF e CSV é automaticamente auditada e está disponível para análise na telemetria de auditoria e o explorador de Atividade de dispositivos integrados. 
-
-Se essa opção estiver ativada (o padrão), a atividade de arquivo será sempre auditada para dispositivos integrados, independentemente de estar ou não incluído em uma política DLP ativa.
-Se essa opção estiver desativada, a atividade de arquivo será auditada para dispositivos integrados somente quando estiverem incluídos em uma política de DLP ativa. 
-
-
-## <a name="tying-dlp-settings-together"></a>Como ligar as configurações de DLP
+## <a name="tying-dlp-settings-together"></a>Como ligar as configurações da DLP
 
 Com o Endpoint DPL e o navegador Edge Chromium, você pode restringir o compartilhamento não voluntariado de itens confidenciais a serviços e aplicativos na nuvem não permitidos. Edge Chromium entende quando um item é restrito por uma política de Endpoint DLP e impõe restrições de acesso.
 
