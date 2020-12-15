@@ -111,6 +111,8 @@
                       href: mtp/investigate-incidents.md
                     - name: Gerenciar incidentes
                       href: mtp/manage-incidents.md
+                - name: Obter notificações por email
+                  href: mtp/get-incident-notifications.md
             - name: Investigação e resposta automatizadas
               items:
                 - name: Visão geral da investigação e resposta automatizadas
@@ -410,6 +412,8 @@
               href: ./office-365-security/email-validation-and-authentication.md
             - name: Conceder aos usuários acesso à Central de segurança
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
+            - name: Recomendações de segurança para contas de prioridade
+              href: ./office-365-security/security-recommendations-for-priority-accounts.md
             - name: Documentos Seguros no Defender para Office 365
               href: ./office-365-security/safe-docs.md
             - name: Configurar políticas de Links Seguros no Defender para Office 365
