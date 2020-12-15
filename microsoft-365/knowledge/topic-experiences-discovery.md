@@ -1,143 +1,97 @@
 ---
-title: 'Gerenciar sua rede de gerenciamento de conhecimento (versão prévia) '
-description: Como configurar o gerenciamento de conhecimento.
+title: Gerenciar descoberta de tópicos no Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/01/2020
+ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
 ms.service: o365-administration
-search.appverid: ''
+search.appverid: MET150
+localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: None
-ms.openlocfilehash: 265816a8d3d04b8d10b529f1ea1a0b658aa2931d
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Saiba como administrar a descoberta de tópicos no Microsoft 365.
+ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988905"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667842"
 ---
-# <a name="manage-your-knowledge-management-network-preview"></a><span data-ttu-id="b400f-103">Gerenciar sua rede de gerenciamento de conhecimento (versão prévia)</span><span class="sxs-lookup"><span data-stu-id="b400f-103">Manage your knowledge management network (Preview)</span></span>
+# <a name="manage-topic-discovery-in-microsoft-365"></a><span data-ttu-id="8d424-103">Gerenciar descoberta de tópicos no Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8d424-103">Manage topic discovery in Microsoft 365</span></span>
 
-> [!Note] 
-> <span data-ttu-id="b400f-104">O conteúdo deste artigo é para a visualização privada do Project Cortex.</span><span class="sxs-lookup"><span data-stu-id="b400f-104">The content in this article is for Project Cortex Private Preview.</span></span> <span data-ttu-id="b400f-105">[Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).</span><span class="sxs-lookup"><span data-stu-id="b400f-105">[Find out more about Project Cortex](https://aka.ms/projectcortex).</span></span>
+<span data-ttu-id="8d424-104">Você pode gerenciar as configurações de descoberta de tópico no [centro de administração do Microsoft 365](https://admin.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="8d424-104">You can manage topic discovery settings in the [Microsoft 365 admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="8d424-105">Você deve ser um administrador global ou administrador do SharePoint para executar essas tarefas.</span><span class="sxs-lookup"><span data-stu-id="8d424-105">You must be a global administrator or SharePoint administrator to perform these tasks.</span></span>
 
+## <a name="to-access-topics-management-settings"></a><span data-ttu-id="8d424-106">Para acessar as configurações de gerenciamento de tópicos:</span><span class="sxs-lookup"><span data-stu-id="8d424-106">To access topics management settings:</span></span>
 
-<span data-ttu-id="b400f-106">Depois de [Configurar o gerenciamento de conhecimento](set-up-topic-experiences.md), a qualquer momento depois, um administrador pode fazer ajustes nas suas definições de configuração através do centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b400f-106">After you [set up knowledge management](set-up-topic-experiences.md), at any time afterwards an admin can make adjustments to your configuration settings through the Microsoft 365 admin center.</span></span>
+1. <span data-ttu-id="8d424-107">No centro de administração do Microsoft 365, clique em **configurações** e em **configurações da organização**.</span><span class="sxs-lookup"><span data-stu-id="8d424-107">In the Microsoft 365 admin center, click **Settings**, then **Org settings**.</span></span>
+2. <span data-ttu-id="8d424-108">Na guia **Serviços** , clique em **rede de conhecimento**.</span><span class="sxs-lookup"><span data-stu-id="8d424-108">On the **Services** tab, click **Knowledge network**.</span></span>
 
-<span data-ttu-id="b400f-107">Por exemplo, você pode precisar ajustar suas configurações para qualquer um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="b400f-107">For example, you may need to adjust your settings for any of the following:</span></span>
-- <span data-ttu-id="b400f-108">Adicione novas fontes do SharePoint aos tópicos de meus.</span><span class="sxs-lookup"><span data-stu-id="b400f-108">Add new SharePoint sources to mine topics.</span></span>
-- <span data-ttu-id="b400f-109">Alterar quais usuários terão acesso aos tópicos.</span><span class="sxs-lookup"><span data-stu-id="b400f-109">Change which users will have access to topics.</span></span>
-- <span data-ttu-id="b400f-110">Alterar quais usuários têm permissões para executar tarefas no centro de tópicos.</span><span class="sxs-lookup"><span data-stu-id="b400f-110">Change which users have permissions to do tasks on the topic center.</span></span>
-- <span data-ttu-id="b400f-111">Alterar o nome do seu centro de tópico</span><span class="sxs-lookup"><span data-stu-id="b400f-111">Change the name of your topic center</span></span>
+    ![Conectar pessoas a conhecimento](../media/admin-org-knowledge-options-completed.png) 
 
+3. <span data-ttu-id="8d424-110">Selecione a guia **descoberta de tópicos** . Consulte as seções a seguir para obter informações sobre cada configuração.</span><span class="sxs-lookup"><span data-stu-id="8d424-110">Select the **Topic discovery** tab. See the following sections for information about each setting.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="b400f-112">Requirements</span><span class="sxs-lookup"><span data-stu-id="b400f-112">Requirements</span></span> 
-<span data-ttu-id="b400f-113">Você deve ter permissões de administrador global ou administrador do SharePoint para poder acessar o centro de administração do Microsoft 365 e gerenciar tarefas de conhecimento organizacional.</span><span class="sxs-lookup"><span data-stu-id="b400f-113">You must have Global Admin or SharePoint admin permissions to be able to access the Microsoft 365 admin center and manage Organizational knowledge tasks.</span></span>
+    ![conhecimento-rede – configurações](../media/knowledge-network-settings-topic-discovery.png) 
 
+## <a name="select-sharepoint-topic-sources"></a><span data-ttu-id="8d424-112">Selecionar fontes de tópicos do SharePoint</span><span class="sxs-lookup"><span data-stu-id="8d424-112">Select SharePoint topic sources</span></span>
 
-## <a name="to-access-knowledge-management-settings"></a><span data-ttu-id="b400f-114">Para acessar as configurações de gerenciamento de conhecimento:</span><span class="sxs-lookup"><span data-stu-id="b400f-114">To access knowledge management settings:</span></span>
+<span data-ttu-id="8d424-113">Você pode alterar os sites do SharePoint em sua organização que serão rastreados para tópicos.</span><span class="sxs-lookup"><span data-stu-id="8d424-113">You can change the SharePoint sites in your organization that will be crawled for topics.</span></span>
 
-1. <span data-ttu-id="b400f-115">No centro de administração do Microsoft 365, selecione **configuração** e, em seguida, exiba a seção de **conhecimento organizacional** .</span><span class="sxs-lookup"><span data-stu-id="b400f-115">In the Microsoft 365 admin center, select **Setup** , and then view the **Organizational Knowledge** section.</span></span>
-2. <span data-ttu-id="b400f-116">Na seção **conhecimento organizacional** , clique em **conectar pessoas a conhecimento**.</span><span class="sxs-lookup"><span data-stu-id="b400f-116">In the **Organizational Knowledge** section, click **Connect people to knowledge**.</span></span><br/>
+<span data-ttu-id="8d424-114">Se quiser incluir ou excluir uma lista específica de sites, você pode usar o modelo. csv a seguir:</span><span class="sxs-lookup"><span data-stu-id="8d424-114">If you want to include or exclude a specific list of sites, you can use the following .csv template:</span></span>
 
-    ![Conectar pessoas a conhecimento](../media/content-understanding/admin-org-knowledge-options.png) </br>
+``` csv
+Site name,URL
+```
 
-3. <span data-ttu-id="b400f-118">Na página **conectar pessoas a conhecimento** , selecione **gerenciar** para abrir o painel **configurações de rede de conhecimento** .</span><span class="sxs-lookup"><span data-stu-id="b400f-118">On the **Connect people to knowledge** page, select **Manage** to open the **Knowledge network settings** pane.</span></span><br/>
+<span data-ttu-id="8d424-115">Se você adicionar sites usando o seletor de sites, eles serão adicionados à lista existente de sites a serem incluídos ou excluídos.</span><span class="sxs-lookup"><span data-stu-id="8d424-115">If you add sites using the site picker, they are added to the existing list of sites to include or exclude.</span></span> <span data-ttu-id="8d424-116">Se você carregar um arquivo. csv, ele substituirá qualquer lista existente.</span><span class="sxs-lookup"><span data-stu-id="8d424-116">If you upload a .csv file, it overwrites any existing list.</span></span> <span data-ttu-id="8d424-117">Se você tiver incluído ou excluído sites específicos anteriormente, você e baixar a lista como um arquivo. csv, fazer alterações e carregar a nova lista.</span><span class="sxs-lookup"><span data-stu-id="8d424-117">If you have previously included or excluded specific sites, you and download the list as a .csv file, make changes, and upload the new list.</span></span>
 
-    ![conhecimento-rede – configurações](../media/content-understanding/knowledge-network-settings.png) </br>
+<span data-ttu-id="8d424-118">Para escolher sites para descoberta de tópico</span><span class="sxs-lookup"><span data-stu-id="8d424-118">To choose sites for topic discovery</span></span>
 
-## <a name="change-how-the-knowledge-network-can-find-topics"></a><span data-ttu-id="b400f-120">Alterar o modo como a rede de conhecimento pode encontrar tópicos</span><span class="sxs-lookup"><span data-stu-id="b400f-120">Change how the knowledge network can find topics</span></span>
+1. <span data-ttu-id="8d424-119">Na guia **descoberta de tópico** , em **selecionar fontes de tópicos do SharePoint**, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="8d424-119">On the **Topic discovery** tab, under **Select SharePoint topic sources**, select **Edit**.</span></span>
+2. <span data-ttu-id="8d424-120">Na página **selecionar fontes de tópicos do SharePoint** , selecione quais sites do SharePoint serão rastreados como fontes para seus tópicos durante a descoberta.</span><span class="sxs-lookup"><span data-stu-id="8d424-120">On the **Select SharePoint topic sources** page, select which SharePoint sites will be crawled as sources for your topics during discovery.</span></span> <span data-ttu-id="8d424-121">Isso inclui:</span><span class="sxs-lookup"><span data-stu-id="8d424-121">This includes:</span></span>
+    - <span data-ttu-id="8d424-122">**Todos os sites**: todos os sites do SharePoint em seu locatário.</span><span class="sxs-lookup"><span data-stu-id="8d424-122">**All sites**: All SharePoint sites in your tenant.</span></span> <span data-ttu-id="8d424-123">Isso captura sites atuais e futuros.</span><span class="sxs-lookup"><span data-stu-id="8d424-123">This captures current and future sites.</span></span>
+    - <span data-ttu-id="8d424-124">**Todos, exceto sites selecionados**: digite os nomes dos sites que você deseja excluir.</span><span class="sxs-lookup"><span data-stu-id="8d424-124">**All, except selected sites**: Type the names of the sites you want to exclude.</span></span>  <span data-ttu-id="8d424-125">Você também pode carregar uma lista de sites que deseja recusar da descoberta.</span><span class="sxs-lookup"><span data-stu-id="8d424-125">You can also upload a list of sites you want to opt out from discovery.</span></span> <span data-ttu-id="8d424-126">Os sites criados no futuro serão incluídos como fontes para descoberta de tópicos.</span><span class="sxs-lookup"><span data-stu-id="8d424-126">Sites created in the future will be included as sources for topic discovery.</span></span> 
+    - <span data-ttu-id="8d424-127">**Somente sites selecionados**: digite os nomes dos sites que você deseja incluir.</span><span class="sxs-lookup"><span data-stu-id="8d424-127">**Only selected sites**: Type the names of the sites you want to include.</span></span> <span data-ttu-id="8d424-128">Você também pode carregar uma lista de sites.</span><span class="sxs-lookup"><span data-stu-id="8d424-128">You can also upload a list of sites.</span></span> <span data-ttu-id="8d424-129">Os sites criados no futuro não serão incluídos como fontes para descoberta de tópicos.</span><span class="sxs-lookup"><span data-stu-id="8d424-129">Sites created in the future will not be included as sources for topic discovery.</span></span>
+    - <span data-ttu-id="8d424-130">**Nenhum site**: os tópicos não serão gerados ou atualizados automaticamente com o conteúdo do SharePoint.</span><span class="sxs-lookup"><span data-stu-id="8d424-130">**No sites**: Topics won't be automatically generated or updated with SharePoint content.</span></span> <span data-ttu-id="8d424-131">Os tópicos existentes permanecem no centro de tópicos.</span><span class="sxs-lookup"><span data-stu-id="8d424-131">Existing topics remain in the topic center.</span></span>
 
-<span data-ttu-id="b400f-121">Selecione a guia **descoberta de tópico** se quiser atualizar suas escolhas para as fontes de tópico do SharePoint.</span><span class="sxs-lookup"><span data-stu-id="b400f-121">Select the **Topic discovery** tab if you want to update your choices for  for SharePoint topic sources.</span></span> <span data-ttu-id="b400f-122">Essa configuração permite que você selecione os sites do SharePoint em seu locatário que serão rastreados e extraídos para tópicos.</span><span class="sxs-lookup"><span data-stu-id="b400f-122">This setting let you select the SharePoint sites in your tenant that will be crawled and mined for topics.</span></span>
-
-1. <span data-ttu-id="b400f-123">Na guia **descoberta de tópico** , em **selecionar fontes de tópicos do SharePoint** , selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-123">On the **Topic discovery** tab, under **Select SharePoint topic sources** , select **Edit**.</span></span>
-2. <span data-ttu-id="b400f-124">Na página **selecionar fontes de tópicos do SharePoint** , selecione quais sites do SharePoint serão rastreados como fontes para seus tópicos durante a descoberta.</span><span class="sxs-lookup"><span data-stu-id="b400f-124">On the **Select SharePoint topic sources** page, select which SharePoint sites will be crawled as sources for your topics during discovery.</span></span> <span data-ttu-id="b400f-125">Isso inclui:</span><span class="sxs-lookup"><span data-stu-id="b400f-125">This includes:</span></span></br>
-    <span data-ttu-id="b400f-126">a.</span><span class="sxs-lookup"><span data-stu-id="b400f-126">a.</span></span> <span data-ttu-id="b400f-127">**Todos os sites** : todos os sites do SharePoint em seu locatário.</span><span class="sxs-lookup"><span data-stu-id="b400f-127">**All sites** : All SharePoint sites in your tenant.</span></span> <span data-ttu-id="b400f-128">Isso captura sites atuais e futuros.</span><span class="sxs-lookup"><span data-stu-id="b400f-128">This captures current and future sites.</span></span></br>
-    <span data-ttu-id="b400f-129">b.</span><span class="sxs-lookup"><span data-stu-id="b400f-129">b.</span></span> <span data-ttu-id="b400f-130">**Todos, exceto sites selecionados** : digite os nomes dos sites que você deseja excluir.</span><span class="sxs-lookup"><span data-stu-id="b400f-130">**All, except selected sites** : Type the names of the sites you want to exclude.</span></span>  <span data-ttu-id="b400f-131">Você também pode carregar uma lista de sites que deseja recusar da descoberta.</span><span class="sxs-lookup"><span data-stu-id="b400f-131">You can also upload a list of sites you want to opt out from discovery.</span></span> <span data-ttu-id="b400f-132">Os sites criados no futuro serão incluídos como fontes para descoberta de tópicos.</span><span class="sxs-lookup"><span data-stu-id="b400f-132">Sites created in the future will be included as sources for topic discovery.</span></span> </br>
-    <span data-ttu-id="b400f-133">c.</span><span class="sxs-lookup"><span data-stu-id="b400f-133">c.</span></span> <span data-ttu-id="b400f-134">**Somente sites selecionados** : digite os nomes dos sites que você deseja incluir.</span><span class="sxs-lookup"><span data-stu-id="b400f-134">**Only selected sites** : Type the names of the sites you want to include.</span></span> <span data-ttu-id="b400f-135">Você também pode carregar uma lista de sites.</span><span class="sxs-lookup"><span data-stu-id="b400f-135">You can also upload a list of sites.</span></span> <span data-ttu-id="b400f-136">Os sites criados no futuro não serão incluídos como fontes para descoberta de tópicos.</span><span class="sxs-lookup"><span data-stu-id="b400f-136">Sites created in the future will not be included as sources for topic discovery.</span></span> </br>
-
-    ![Escolher como localizar tópicos](../media/content-understanding/k-manage-select-topic-source.png) </br>
+    ![Captura de tela da interface de usuário de fontes de tópicos do SharePoint](../media/k-manage-select-topic-source.png)
    
-    <span data-ttu-id="b400f-138">Se você tiver um número de sites que você deseja excluir (se você selecionar **todos, exceto os sites selecionados** ) ou incluir (se você selecionou **apenas sites selecionados** ), poderá optar por carregar um arquivo CSV com os nomes e URLs dos sites.</span><span class="sxs-lookup"><span data-stu-id="b400f-138">If you have a number of sites that you want to exclude (if you select **All, except selected sites** ) or include (if you selected **Only selected sites** ), you can choose to upload a CSV file with the site names and URLs.</span></span> <span data-ttu-id="b400f-139">Você pode selecionar **baixar modelo de site. csv** se quiser usar o arquivo de modelo CSV.</span><span class="sxs-lookup"><span data-stu-id="b400f-139">You can select **Download site template .csv** if you want to use the CSV template file.</span></span>
+3. <span data-ttu-id="8d424-133">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="8d424-133">Click **Save**.</span></span>
 
-3. <span data-ttu-id="b400f-140">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-140">Select **Save**.</span></span>
+## <a name="exclude-topics-by-name"></a><span data-ttu-id="8d424-134">Excluir tópicos por nome</span><span class="sxs-lookup"><span data-stu-id="8d424-134">Exclude topics by name</span></span>
 
-##  <a name="change-who-can-see-topics-in-your-organization"></a><span data-ttu-id="b400f-141">Alterar quem pode ver os tópicos em sua organização</span><span class="sxs-lookup"><span data-stu-id="b400f-141">Change who can see topics in your organization</span></span>
+<span data-ttu-id="8d424-135">Você pode excluir tópicos da descoberta carregando uma lista usando um arquivo. csv.</span><span class="sxs-lookup"><span data-stu-id="8d424-135">You can exclude topics from discovery by uploading a list using a .csv file.</span></span> <span data-ttu-id="8d424-136">Se já tiver excluído os tópicos, você poderá baixar o arquivo. csv, fazer alterações e carregá-lo novamente.</span><span class="sxs-lookup"><span data-stu-id="8d424-136">If you've previously excluded topics, you can download the .csv, make changes, and upload it again.</span></span>
 
-<span data-ttu-id="b400f-142">Selecione a guia **descoberta de tópico** se você deseja atualizar quem em sua organização pode ver tópicos descobertos nos resultados da pesquisa e quando os tópicos estão realçados em conteúdo como páginas do SharePoint.</span><span class="sxs-lookup"><span data-stu-id="b400f-142">Select the **Topic discovery** tab if you want to update who in your organization can see discovered topics in search results and when topics are highlighted in content like SharePoint pages.</span></span>
+1. <span data-ttu-id="8d424-137">Na guia **descoberta de tópico** , em **excluir tópicos**, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="8d424-137">On the **Topic discovery** tab, under **Exclude topics**, select **Edit**.</span></span>
+2. <span data-ttu-id="8d424-138">Clique em **excluir tópicos por nome**.</span><span class="sxs-lookup"><span data-stu-id="8d424-138">Click **Exclude topics by name**.</span></span>
+3. <span data-ttu-id="8d424-139">Se você precisar criar uma lista, baixe o modelo. csv e adicione os tópicos que você deseja excluir (consulte *trabalhar com o modelo. csv* abaixo).</span><span class="sxs-lookup"><span data-stu-id="8d424-139">If you need to create a list, download the .csv template and add the topics that you want to exclude (see *Working with the .csv template* below).</span></span> <span data-ttu-id="8d424-140">Quando o arquivo estiver pronto, clique em **procurar** e carregar o arquivo.</span><span class="sxs-lookup"><span data-stu-id="8d424-140">When the file is ready, click **Browse** and upload the file.</span></span> <span data-ttu-id="8d424-141">Se houver uma lista existente, você poderá baixar o. csv que contém a lista.</span><span class="sxs-lookup"><span data-stu-id="8d424-141">If there's an existing list, you can download the .csv containing the list.</span></span>
+4. <span data-ttu-id="8d424-142">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="8d424-142">Click **Save**.</span></span>
 
-1. <span data-ttu-id="b400f-143">Na guia **descoberta de tópicos** , em **quem pode ver os tópicos na rede de conhecimento** , selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-143">On the **Topic discovery** tab, under **Who can see topics in the knowledge network** , select **Edit**.</span></span>
-2. <span data-ttu-id="b400f-144">Na página **quem pode ver os tópicos da página da rede de conhecimento** , você escolhe quem terá acesso aos detalhes do tópico, como tópicos realçados, cartões de tópicos, respostas de tópicos em pesquisa e páginas de tópicos.</span><span class="sxs-lookup"><span data-stu-id="b400f-144">On the **Who can see topics in the knowledge network** page, you choose who will have access to topic details, such as highlighted topics, topic cards, topic answers in search, and topic pages.</span></span> <span data-ttu-id="b400f-145">Você pode selecionar:</span><span class="sxs-lookup"><span data-stu-id="b400f-145">You can select:</span></span></br>
-    <span data-ttu-id="b400f-146">a.</span><span class="sxs-lookup"><span data-stu-id="b400f-146">a.</span></span> <span data-ttu-id="b400f-147">**Todos em sua organização**</span><span class="sxs-lookup"><span data-stu-id="b400f-147">**Everyone in your organization**</span></span></br>
-    <span data-ttu-id="b400f-148">b.</span><span class="sxs-lookup"><span data-stu-id="b400f-148">b.</span></span> <span data-ttu-id="b400f-149">**Apenas pessoas ou grupos de segurança selecionados**</span><span class="sxs-lookup"><span data-stu-id="b400f-149">**Only selected people or security groups**</span></span></br>
-    <span data-ttu-id="b400f-150">c.</span><span class="sxs-lookup"><span data-stu-id="b400f-150">c.</span></span> <span data-ttu-id="b400f-151">**Ninguém**</span><span class="sxs-lookup"><span data-stu-id="b400f-151">**No one**</span></span></br>
+    ![Captura de tela da interface de usuário de tópicos de exclusão](../media/km-manage-exclude-topics.png)
 
-    ![Quem pode ver os tópicos](../media/content-understanding/k-manage-who-can-see-topics.png) </br> 
-3. <span data-ttu-id="b400f-153">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-153">Select **Save**.</span></span>  
- 
-> [!Note] 
-> <span data-ttu-id="b400f-154">Embora essa configuração permita que você selecione qualquer usuário em sua organização, somente os usuários que têm licenças de gerenciamento de conhecimento atribuídas poderão exibir tópicos.</span><span class="sxs-lookup"><span data-stu-id="b400f-154">While this setting allows you to select any user in your organization, only users who have knowledge management licenses assigned to them will be able to view topics.</span></span>
+### <a name="working-with-the-csv-template"></a><span data-ttu-id="8d424-144">Trabalhar com o modelo. csv</span><span class="sxs-lookup"><span data-stu-id="8d424-144">Working with the .csv template</span></span>
 
-## <a name="change-who-has-permissions-to-do-tasks-on-the-topic-center"></a><span data-ttu-id="b400f-155">Alterar quem tem permissões para executar tarefas no centro de tópicos</span><span class="sxs-lookup"><span data-stu-id="b400f-155">Change who has permissions to do tasks on the topic center</span></span>
+<span data-ttu-id="8d424-145">Você pode copiar o modelo CSV abaixo:</span><span class="sxs-lookup"><span data-stu-id="8d424-145">You can copy the csv template below:</span></span>
 
-<span data-ttu-id="b400f-156">Selecione a guia **permissões de tópico** se quiser atualizar quem tem permissões para fazer o seguinte na página central de tópicos:</span><span class="sxs-lookup"><span data-stu-id="b400f-156">Select the **Topic permissions** tab if you want to update who has permissions to do the following in the topic center page:</span></span>
+``` csv
+Name (required),Expansion,MatchType- Exact/Partial (required)
+```
 
-- <span data-ttu-id="b400f-157">Quais usuários podem criar e editar tópicos: criar novos tópicos que não foram encontrados durante a descoberta ou editar detalhes da página de tópico existente.</span><span class="sxs-lookup"><span data-stu-id="b400f-157">Which users can create and edit topics: Create new topics that were not found during discovery or edit existing topic page details.</span></span>
-- <span data-ttu-id="b400f-158">Quais usuários podem gerenciar tópicos: confirmar ou rejeitar tópicos descobertos.</span><span class="sxs-lookup"><span data-stu-id="b400f-158">Which users can manage topics: Confirm or reject discovered topics.</span></span>
+<span data-ttu-id="8d424-146">No modelo CSV, insira as seguintes informações sobre os tópicos que você deseja excluir:</span><span class="sxs-lookup"><span data-stu-id="8d424-146">In the CSV template, enter the following information about the topics you want to exclude:</span></span>
 
-<span data-ttu-id="b400f-159">Para atualizar as permissões para criar e editar tópicos:</span><span class="sxs-lookup"><span data-stu-id="b400f-159">To update who has permissions to create and edit topics:</span></span>
+- <span data-ttu-id="8d424-147">**Name**: digite o nome do tópico que você deseja excluir.</span><span class="sxs-lookup"><span data-stu-id="8d424-147">**Name**: Type the name of the topic you want to exclude.</span></span> <span data-ttu-id="8d424-148">Há duas maneiras de fazer isso:</span><span class="sxs-lookup"><span data-stu-id="8d424-148">There are two ways to do this:</span></span>
+    - <span data-ttu-id="8d424-149">Correspondência exata: você pode incluir o nome exato ou o acrônimo (por exemplo, *contoso* ou *ATL*).</span><span class="sxs-lookup"><span data-stu-id="8d424-149">Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).</span></span>
+    - <span data-ttu-id="8d424-150">Correspondência parcial: você pode excluir todos os tópicos que possuem uma palavra específica.</span><span class="sxs-lookup"><span data-stu-id="8d424-150">Partial match: You can exclude all topics that have a specific word in it.</span></span>  <span data-ttu-id="8d424-151">Por exemplo, o *arco* excluirá todos os tópicos com a palavra *arco* nele, como *círculo de arco*, solda de arco de *plasma* ou arco de *treinamento*. Observe que ele não excluirá tópicos nos quais o texto está incluído como parte de uma palavra, como *arquitetura*.</span><span class="sxs-lookup"><span data-stu-id="8d424-151">For example, *arc* will exclude all topics with the word *arc* in it, such as *Arc circle*, *Plasma arc welding*, or *Training arc*. Note that it will not exclude topics in which the text is included as part of a word, such as *Architecture*.</span></span>
+- <span data-ttu-id="8d424-152">**Significa (opcional)**: se você deseja excluir um acrônimo, digite as palavras que o acrônimo significa.</span><span class="sxs-lookup"><span data-stu-id="8d424-152">**Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.</span></span>
+- <span data-ttu-id="8d424-153">**MatchType-Exact/partial**: digite se o nome inserido foi um tipo de correspondência *exata* ou *parcial* .</span><span class="sxs-lookup"><span data-stu-id="8d424-153">**MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.</span></span>
 
-1. <span data-ttu-id="b400f-160">Na guia **permissões de tópico** , em **quem pode criar e editar tópicos** , selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-160">On the **Topic permissions** tab, under **Who can create and edit topics** , select **Edit**.</span></span></br>
-2. <span data-ttu-id="b400f-161">Na página **quem pode criar e editar tópicos** , você pode selecionar:</span><span class="sxs-lookup"><span data-stu-id="b400f-161">On the **Who can create and edit topics** page, you can select:</span></span></br>
-    <span data-ttu-id="b400f-162">a.</span><span class="sxs-lookup"><span data-stu-id="b400f-162">a.</span></span> <span data-ttu-id="b400f-163">**Todos em sua organização**</span><span class="sxs-lookup"><span data-stu-id="b400f-163">**Everyone in your organization**</span></span></br>
-    <span data-ttu-id="b400f-164">b.</span><span class="sxs-lookup"><span data-stu-id="b400f-164">b.</span></span> <span data-ttu-id="b400f-165">**Apenas pessoas ou grupos de segurança selecionados**</span><span class="sxs-lookup"><span data-stu-id="b400f-165">**Only selected people or security groups**</span></span></br>
+    ![Excluir tópicos no modelo CSV](../media/exclude-topics-csv.png) 
 
-    ![Criar e editar tópicos](../media/content-understanding/k-manage-who-can-create-and-edit.png) </br> 
+## <a name="see-also"></a><span data-ttu-id="8d424-155">Também consulte</span><span class="sxs-lookup"><span data-stu-id="8d424-155">See also</span></span>
 
-3. <span data-ttu-id="b400f-167">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-167">Select **Save**.</span></span></br>
+[<span data-ttu-id="8d424-156">Gerenciar a visibilidade de tópicos no Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8d424-156">Manage topic visibility in Microsoft 365</span></span>](topic-experiences-knowledge-rules.md)
 
-<span data-ttu-id="b400f-168">Para atualizar as permissões para gerenciar tópicos:</span><span class="sxs-lookup"><span data-stu-id="b400f-168">To update who has permissions to manage topics:</span></span>
+[<span data-ttu-id="8d424-157">Gerenciar permissões de tópico no Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8d424-157">Manage topic permissions in Microsoft 365</span></span>](topic-experiences-user-permissions.md)
 
-1. <span data-ttu-id="b400f-169">Na guia **permissões de tópico** , em **quem pode gerenciar tópicos** , selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-169">On the **Topic permissions** tab, under **Who can manage topics** , select **Edit**.</span></span></br>
-2. <span data-ttu-id="b400f-170">Na página **quem pode gerenciar os tópicos** , você pode selecionar:</span><span class="sxs-lookup"><span data-stu-id="b400f-170">On the **Who can manage topics** page, you can select:</span></span></br>
-    <span data-ttu-id="b400f-171">a.</span><span class="sxs-lookup"><span data-stu-id="b400f-171">a.</span></span> <span data-ttu-id="b400f-172">**Todos em sua organização**</span><span class="sxs-lookup"><span data-stu-id="b400f-172">**Everyone in your organization**</span></span></br>
-    <span data-ttu-id="b400f-173">b.</span><span class="sxs-lookup"><span data-stu-id="b400f-173">b.</span></span> <span data-ttu-id="b400f-174">**Pessoas ou grupos de segurança selecionados**</span><span class="sxs-lookup"><span data-stu-id="b400f-174">**Selected people or security groups**</span></span></br>
-
-    ![Gerenciar tópicos](../media/content-understanding/k-manage-who-can-manage-topics.png) </br> 
-
-3. <span data-ttu-id="b400f-176">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-176">Select **Save**.</span></span></br>
-
-
-##  <a name="update-your-topic-center-name"></a><span data-ttu-id="b400f-177">Atualizar o nome da central de tópicos</span><span class="sxs-lookup"><span data-stu-id="b400f-177">Update your topic center name</span></span>
-
-<span data-ttu-id="b400f-178">Selecione a guia **central de tópicos** se você deseja atualizar o nome do seu centro de tópico.</span><span class="sxs-lookup"><span data-stu-id="b400f-178">Select the **Topic center** tab if you want to update the name of your topic center.</span></span> 
-
-1. <span data-ttu-id="b400f-179">Na guia **central de tópicos** , em **nome da central de tópicos** , selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b400f-179">On the **Topic center** tab, under **Topic center name** , select **Edit**.</span></span>
-2. <span data-ttu-id="b400f-180">Na página **Editar nome da central de tópicos** , na caixa **nome da central de tópicos** , digite o novo nome para o seu centro de tópico.</span><span class="sxs-lookup"><span data-stu-id="b400f-180">On the **Edit topic center name** page, in the **Topic center name** box, type the new name for your topic center.</span></span>
-3. <span data-ttu-id="b400f-181">Selecione **Salvar**</span><span class="sxs-lookup"><span data-stu-id="b400f-181">Select **Save**</span></span>
-
-    ![Editar nome da central de tópicos](../media/content-understanding/manage-topic-center-name.png) </br> 
-
-
-
-
-
-
-
-
-
-
-
-## <a name="see-also"></a><span data-ttu-id="b400f-183">Confira também</span><span class="sxs-lookup"><span data-stu-id="b400f-183">See also</span></span>
-
-
-
-  
-
-
-
-
-
+[<span data-ttu-id="8d424-158">Alterar o nome da central de tópicos no Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8d424-158">Change the name of the topic center in Microsoft 365</span></span>](topic-experiences-administration.md)
 
