@@ -8,6 +8,8 @@
       href: work-with-topics.md
     - name: Conceder aos usuários permissões para o tópico central
       href: give-user-permissions-to-the-topic-center.md
+    - name: Preparar seu ambiente
+      href: topic-experiences-get-ready.md
 - name: Instalação e administração
   items:
     - name: Segurança do tópico
@@ -24,3 +26,7 @@
       href: topic-experiences-user-permissions.md
     - name: Alterar o nome da central de tópicos
       href: topic-experiences-administration.md
+- name: Adoção
+  items:
+    - name: Introdução à adoção
+      href: topics-adoption-getstarted.md
