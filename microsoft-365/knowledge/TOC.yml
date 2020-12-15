@@ -8,9 +8,19 @@
       href: work-with-topics.md
     - name: Conceder aos usuários permissões para o tópico central
       href: give-user-permissions-to-the-topic-center.md
-- name: Introdução à instalação
+- name: Instalação e administração
   items:
-    - name: Configurar o gerenciamento de conhecimento
+    - name: Segurança do tópico
+      href: topic-experiences-security-privacy.md
+    - name: Planejar experiências de tópico
+      href: plan-topic-experiences.md
+    - name: Configurar experiências de tópico
       href: set-up-topic-experiences.md
-    - name: Gerenciar sua rede de gerenciamento de conhecimento
+    - name: Gerenciar descoberta de tópico
       href: topic-experiences-discovery.md
+    - name: Gerenciar visibilidade de tópico
+      href: topic-experiences-knowledge-rules.md
+    - name: Gerenciar permissões de tópico
+      href: topic-experiences-user-permissions.md
+    - name: Alterar o nome da central de tópicos
+      href: topic-experiences-administration.md

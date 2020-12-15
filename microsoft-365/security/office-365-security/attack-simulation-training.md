@@ -1,7 +1,7 @@
 ---
-title: Simular um ataque de phishing com o Microsoft defender para
-ms.author: daniha
-author: danihalfin
+title: Simular um ataque de phishing com o Microsoft defender para Office 365
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Saiba como simular ataques de phishing e treine seus usuários sobre prevenção de phishing com treinamento de simulação de ataque no Microsoft defender para Office 365.
-ms.openlocfilehash: 8f5f457f60c81fe961282f33bb8c37f4d9e27aab
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Os administradores podem aprender a simular ataques de phishing e treinar seus usuários sobre prevenção de phishing usando o treinamento de simulação de ataque no Microsoft defender para Office 365.
+ms.openlocfilehash: 3707041067fd76ee9535d0dccf5cdfcb9d74fbd7
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616099"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667498"
 ---
 # <a name="simulate-a-phishing-attack"></a>Simular um ataque de phishing
 
-O treinamento do simulador de ataques através do Microsoft defender para Office 365 permite que você execute simulações de ataques de Cyber benignas em sua organização para testar suas práticas e políticas de segurança, além de treinar os funcionários da sua organização para aumentar a conscientização e reduzir seu susceptibility a ataques. O procedimento a seguir orienta você na simulação de um ataque de phishing usando treinamento de simulador de ataques.
+O treinamento do simulador de ataque no Microsoft defender para Office 365 permite executar simulações benignas do cyberattack em sua organização para testar suas práticas e políticas de segurança, bem como treinar seus funcionários para aumentar a conscientização e reduzir o susceptibility a ataques. Este artigo orienta você durante a criação de um ataque de phishing simulado usando o treinamento do Attack Simulator.
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Para iniciar um ataque de phishing simulado, navegue até o [centro de segurança do Microsoft 365](https://security.microsoft.com/). Em **Email & colaboração** , clique em **simulador de ataques** e alterne para a guia [**Simulations**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
+Para iniciar um ataque de phishing simulado, abra o [centro de segurança do Microsoft 365](https://security.microsoft.com/), acesse **e-mail & Collaboration** Attack disparation \> **Simulator** e alterne para a guia [**Simulations**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
 
-Em **simulações** , selecione **+ iniciar uma simulação**.
+Em **simulações**, selecione **+ iniciar uma simulação**.
 
 ![Iniciar um botão de simulação no centro de segurança do Microsoft 365](../../media/attack-sim-preview-launch.png)
 
@@ -35,19 +35,19 @@ Em **simulações** , selecione **+ iniciar uma simulação**.
 
 ## <a name="selecting-a-social-engineering-technique"></a>Selecionar uma técnica de engenharia social
 
-Selecione dentre 4 técnicas diferentes, organizadas da [estrutura Mitre ATT&CK®](https://attack.mitre.org/techniques/enterprise/). Cargas diferentes estão disponíveis para diferentes técnicas.
+Selecione dentre 4 técnicas diferentes, organizadas da [estrutura Mitre ATT&CK®](https://attack.mitre.org/techniques/enterprise/). Cargas diferentes estão disponíveis para diferentes técnicas:
 
-- A **coleta de credenciais** tenta coletar credenciais de funcionários, levando-os a um site de aparência conhecido com caixas de entrada para enviar um nome de usuário e senha.
-- O **anexo de malware** adiciona um anexo mal-intencionado a uma mensagem. Quando aberto, esse anexo executará um código arbitrário que ajudará o invasor a comprometer o dispositivo de destino.
+- A **coleta de credenciais** tenta coletar credenciais levando os usuários a um site de aparência conhecido com caixas de entrada para enviar um nome de usuário e senha.
+- O **anexo de malware** adiciona um anexo mal-intencionado a uma mensagem. Quando o usuário abre o anexo, o código arbitrário é executado e ajudará o invasor a comprometer o dispositivo de destino.
 - **Link no anexo** é um tipo de coleta de credenciais híbrido. Um invasor insere uma URL em um anexo de email. A URL no anexo segue a mesma técnica que a coleta de credenciais.
-- O **link para malware** executará um código arbitrário de um arquivo hospedado em um site de compartilhamento de arquivos conhecido. Um link para este arquivo mal-intencionado é adicionado à mensagem enviada ao destino e clicar nele executará o arquivo e ajudará o invasor a comprometer o dispositivo de destino.
+- O **link para malware** executará um código arbitrário de um arquivo hospedado em um serviço de compartilhamento de arquivos conhecido. A mensagem enviada para o usuário conterá um link para este arquivo mal-intencionado. Abrir o arquivo e ajudar o atacante a comprometer o dispositivo de destino.
 
 > [!TIP]
-> Ao clicar em **Exibir detalhes** dentro da descrição de cada técnica, serão exibidas mais informações sobre a técnica, bem como as etapas de simulação dessa técnica.
+> Ao clicar em **Exibir detalhes** dentro da descrição de cada técnica, serão exibidas mais informações e as etapas de simulação da técnica.
 >
 > ![Etapas de simulação para coleta de credenciais no treinamento de simulação de ataque no centro de segurança do Microsoft 365](../../media/attack-sim-preview-sim-steps.png)
 
-Depois de selecionar a técnica e clicar em **Avançar** , dê um nome e, opcionalmente, uma descrição à sua simulação.
+Depois de selecionar a técnica e clicar em **Avançar**, dê um nome à sua simulação e, opcionalmente, uma descrição.
 
 ## <a name="selecting-a-payload"></a>Selecionar uma carga
 
@@ -56,7 +56,7 @@ Em seguida, você precisará selecionar uma carga no catálogo de carga pré-exi
 As cargas têm vários pontos de dados para ajudá-lo a escolher:
 
 - A **taxa de clique** considera quantas pessoas clicaram nesta carga.
-- A **taxa de comprometimento prevista** prevê a porcentagem de pessoas que serão comprometidas por essa carga com base em dados históricos para esta carga nos clientes do Microsoft defender para Office 365.
+- A **taxa de comprometimento prevista** prevê a porcentagem de pessoas que serão comprometidas por essa carga com base em dados históricos para a carga nos clientes do Microsoft defender para Office 365.
 - **Simulações iniciadas** conta o número de vezes que essa carga foi usada em outras simulações.
 - A **complexidade**, disponível através de **filtros**, é calculada com base no número de indicadores dentro da carga que apontam os destinos em que eles estão sendo um ataque. Mais indicadores levam a uma complexidade mais baixa.
 - **Fonte**, disponível através de **filtros**, indica se a carga foi criada em seu locatário ou faz parte do catálogo de carga (global) da Microsoft.

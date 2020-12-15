@@ -1,143 +1,97 @@
 ---
-title: 'Gerenciar sua rede de gerenciamento de conhecimento (versão prévia) '
-description: Como configurar o gerenciamento de conhecimento.
+title: Gerenciar descoberta de tópicos no Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/01/2020
+ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
 ms.service: o365-administration
-search.appverid: ''
+search.appverid: MET150
+localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: None
-ms.openlocfilehash: 265816a8d3d04b8d10b529f1ea1a0b658aa2931d
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Saiba como administrar a descoberta de tópicos no Microsoft 365.
+ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988905"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667842"
 ---
-# <a name="manage-your-knowledge-management-network-preview"></a>Gerenciar sua rede de gerenciamento de conhecimento (versão prévia)
+# <a name="manage-topic-discovery-in-microsoft-365"></a>Gerenciar descoberta de tópicos no Microsoft 365
 
-> [!Note] 
-> O conteúdo deste artigo é para a visualização privada do Project Cortex. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
+Você pode gerenciar as configurações de descoberta de tópico no [centro de administração do Microsoft 365](https://admin.microsoft.com). Você deve ser um administrador global ou administrador do SharePoint para executar essas tarefas.
 
+## <a name="to-access-topics-management-settings"></a>Para acessar as configurações de gerenciamento de tópicos:
 
-Depois de [Configurar o gerenciamento de conhecimento](set-up-topic-experiences.md), a qualquer momento depois, um administrador pode fazer ajustes nas suas definições de configuração através do centro de administração do Microsoft 365.
+1. No centro de administração do Microsoft 365, clique em **configurações** e em **configurações da organização**.
+2. Na guia **Serviços** , clique em **rede de conhecimento**.
 
-Por exemplo, você pode precisar ajustar suas configurações para qualquer um dos seguintes:
-- Adicione novas fontes do SharePoint aos tópicos de meus.
-- Alterar quais usuários terão acesso aos tópicos.
-- Alterar quais usuários têm permissões para executar tarefas no centro de tópicos.
-- Alterar o nome do seu centro de tópico
+    ![Conectar pessoas a conhecimento](../media/admin-org-knowledge-options-completed.png) 
 
+3. Selecione a guia **descoberta de tópicos** . Consulte as seções a seguir para obter informações sobre cada configuração.
 
-## <a name="requirements"></a>Requirements 
-Você deve ter permissões de administrador global ou administrador do SharePoint para poder acessar o centro de administração do Microsoft 365 e gerenciar tarefas de conhecimento organizacional.
+    ![conhecimento-rede – configurações](../media/knowledge-network-settings-topic-discovery.png) 
 
+## <a name="select-sharepoint-topic-sources"></a>Selecionar fontes de tópicos do SharePoint
 
-## <a name="to-access-knowledge-management-settings"></a>Para acessar as configurações de gerenciamento de conhecimento:
+Você pode alterar os sites do SharePoint em sua organização que serão rastreados para tópicos.
 
-1. No centro de administração do Microsoft 365, selecione **configuração** e, em seguida, exiba a seção de **conhecimento organizacional** .
-2. Na seção **conhecimento organizacional** , clique em **conectar pessoas a conhecimento**.<br/>
+Se quiser incluir ou excluir uma lista específica de sites, você pode usar o modelo. csv a seguir:
 
-    ![Conectar pessoas a conhecimento](../media/content-understanding/admin-org-knowledge-options.png) </br>
+``` csv
+Site name,URL
+```
 
-3. Na página **conectar pessoas a conhecimento** , selecione **gerenciar** para abrir o painel **configurações de rede de conhecimento** .<br/>
+Se você adicionar sites usando o seletor de sites, eles serão adicionados à lista existente de sites a serem incluídos ou excluídos. Se você carregar um arquivo. csv, ele substituirá qualquer lista existente. Se você tiver incluído ou excluído sites específicos anteriormente, você e baixar a lista como um arquivo. csv, fazer alterações e carregar a nova lista.
 
-    ![conhecimento-rede – configurações](../media/content-understanding/knowledge-network-settings.png) </br>
+Para escolher sites para descoberta de tópico
 
-## <a name="change-how-the-knowledge-network-can-find-topics"></a>Alterar o modo como a rede de conhecimento pode encontrar tópicos
+1. Na guia **descoberta de tópico** , em **selecionar fontes de tópicos do SharePoint**, selecione **Editar**.
+2. Na página **selecionar fontes de tópicos do SharePoint** , selecione quais sites do SharePoint serão rastreados como fontes para seus tópicos durante a descoberta. Isso inclui:
+    - **Todos os sites**: todos os sites do SharePoint em seu locatário. Isso captura sites atuais e futuros.
+    - **Todos, exceto sites selecionados**: digite os nomes dos sites que você deseja excluir.  Você também pode carregar uma lista de sites que deseja recusar da descoberta. Os sites criados no futuro serão incluídos como fontes para descoberta de tópicos. 
+    - **Somente sites selecionados**: digite os nomes dos sites que você deseja incluir. Você também pode carregar uma lista de sites. Os sites criados no futuro não serão incluídos como fontes para descoberta de tópicos.
+    - **Nenhum site**: os tópicos não serão gerados ou atualizados automaticamente com o conteúdo do SharePoint. Os tópicos existentes permanecem no centro de tópicos.
 
-Selecione a guia **descoberta de tópico** se quiser atualizar suas escolhas para as fontes de tópico do SharePoint. Essa configuração permite que você selecione os sites do SharePoint em seu locatário que serão rastreados e extraídos para tópicos.
-
-1. Na guia **descoberta de tópico** , em **selecionar fontes de tópicos do SharePoint** , selecione **Editar**.
-2. Na página **selecionar fontes de tópicos do SharePoint** , selecione quais sites do SharePoint serão rastreados como fontes para seus tópicos durante a descoberta. Isso inclui:</br>
-    a. **Todos os sites** : todos os sites do SharePoint em seu locatário. Isso captura sites atuais e futuros.</br>
-    b. **Todos, exceto sites selecionados** : digite os nomes dos sites que você deseja excluir.  Você também pode carregar uma lista de sites que deseja recusar da descoberta. Os sites criados no futuro serão incluídos como fontes para descoberta de tópicos. </br>
-    c. **Somente sites selecionados** : digite os nomes dos sites que você deseja incluir. Você também pode carregar uma lista de sites. Os sites criados no futuro não serão incluídos como fontes para descoberta de tópicos. </br>
-
-    ![Escolher como localizar tópicos](../media/content-understanding/k-manage-select-topic-source.png) </br>
+    ![Captura de tela da interface de usuário de fontes de tópicos do SharePoint](../media/k-manage-select-topic-source.png)
    
-    Se você tiver um número de sites que você deseja excluir (se você selecionar **todos, exceto os sites selecionados** ) ou incluir (se você selecionou **apenas sites selecionados** ), poderá optar por carregar um arquivo CSV com os nomes e URLs dos sites. Você pode selecionar **baixar modelo de site. csv** se quiser usar o arquivo de modelo CSV.
+3. Clique em **Salvar**.
 
-3. Selecione **Salvar**.
+## <a name="exclude-topics-by-name"></a>Excluir tópicos por nome
 
-##  <a name="change-who-can-see-topics-in-your-organization"></a>Alterar quem pode ver os tópicos em sua organização
+Você pode excluir tópicos da descoberta carregando uma lista usando um arquivo. csv. Se já tiver excluído os tópicos, você poderá baixar o arquivo. csv, fazer alterações e carregá-lo novamente.
 
-Selecione a guia **descoberta de tópico** se você deseja atualizar quem em sua organização pode ver tópicos descobertos nos resultados da pesquisa e quando os tópicos estão realçados em conteúdo como páginas do SharePoint.
+1. Na guia **descoberta de tópico** , em **excluir tópicos**, selecione **Editar**.
+2. Clique em **excluir tópicos por nome**.
+3. Se você precisar criar uma lista, baixe o modelo. csv e adicione os tópicos que você deseja excluir (consulte *trabalhar com o modelo. csv* abaixo). Quando o arquivo estiver pronto, clique em **procurar** e carregar o arquivo. Se houver uma lista existente, você poderá baixar o. csv que contém a lista.
+4. Clique em **Salvar**.
 
-1. Na guia **descoberta de tópicos** , em **quem pode ver os tópicos na rede de conhecimento** , selecione **Editar**.
-2. Na página **quem pode ver os tópicos da página da rede de conhecimento** , você escolhe quem terá acesso aos detalhes do tópico, como tópicos realçados, cartões de tópicos, respostas de tópicos em pesquisa e páginas de tópicos. Você pode selecionar:</br>
-    a. **Todos em sua organização**</br>
-    b. **Apenas pessoas ou grupos de segurança selecionados**</br>
-    c. **Ninguém**</br>
+    ![Captura de tela da interface de usuário de tópicos de exclusão](../media/km-manage-exclude-topics.png)
 
-    ![Quem pode ver os tópicos](../media/content-understanding/k-manage-who-can-see-topics.png) </br> 
-3. Selecione **Salvar**.  
- 
-> [!Note] 
-> Embora essa configuração permita que você selecione qualquer usuário em sua organização, somente os usuários que têm licenças de gerenciamento de conhecimento atribuídas poderão exibir tópicos.
+### <a name="working-with-the-csv-template"></a>Trabalhar com o modelo. csv
 
-## <a name="change-who-has-permissions-to-do-tasks-on-the-topic-center"></a>Alterar quem tem permissões para executar tarefas no centro de tópicos
+Você pode copiar o modelo CSV abaixo:
 
-Selecione a guia **permissões de tópico** se quiser atualizar quem tem permissões para fazer o seguinte na página central de tópicos:
+``` csv
+Name (required),Expansion,MatchType- Exact/Partial (required)
+```
 
-- Quais usuários podem criar e editar tópicos: criar novos tópicos que não foram encontrados durante a descoberta ou editar detalhes da página de tópico existente.
-- Quais usuários podem gerenciar tópicos: confirmar ou rejeitar tópicos descobertos.
+No modelo CSV, insira as seguintes informações sobre os tópicos que você deseja excluir:
 
-Para atualizar as permissões para criar e editar tópicos:
+- **Name**: digite o nome do tópico que você deseja excluir. Há duas maneiras de fazer isso:
+    - Correspondência exata: você pode incluir o nome exato ou o acrônimo (por exemplo, *contoso* ou *ATL*).
+    - Correspondência parcial: você pode excluir todos os tópicos que possuem uma palavra específica.  Por exemplo, o *arco* excluirá todos os tópicos com a palavra *arco* nele, como *círculo de arco*, solda de arco de *plasma* ou arco de *treinamento*. Observe que ele não excluirá tópicos nos quais o texto está incluído como parte de uma palavra, como *arquitetura*.
+- **Significa (opcional)**: se você deseja excluir um acrônimo, digite as palavras que o acrônimo significa.
+- **MatchType-Exact/partial**: digite se o nome inserido foi um tipo de correspondência *exata* ou *parcial* .
 
-1. Na guia **permissões de tópico** , em **quem pode criar e editar tópicos** , selecione **Editar**.</br>
-2. Na página **quem pode criar e editar tópicos** , você pode selecionar:</br>
-    a. **Todos em sua organização**</br>
-    b. **Apenas pessoas ou grupos de segurança selecionados**</br>
+    ![Excluir tópicos no modelo CSV](../media/exclude-topics-csv.png) 
 
-    ![Criar e editar tópicos](../media/content-understanding/k-manage-who-can-create-and-edit.png) </br> 
+## <a name="see-also"></a>Também consulte
 
-3. Selecione **Salvar**.</br>
+[Gerenciar a visibilidade de tópicos no Microsoft 365](topic-experiences-knowledge-rules.md)
 
-Para atualizar as permissões para gerenciar tópicos:
+[Gerenciar permissões de tópico no Microsoft 365](topic-experiences-user-permissions.md)
 
-1. Na guia **permissões de tópico** , em **quem pode gerenciar tópicos** , selecione **Editar**.</br>
-2. Na página **quem pode gerenciar os tópicos** , você pode selecionar:</br>
-    a. **Todos em sua organização**</br>
-    b. **Pessoas ou grupos de segurança selecionados**</br>
-
-    ![Gerenciar tópicos](../media/content-understanding/k-manage-who-can-manage-topics.png) </br> 
-
-3. Selecione **Salvar**.</br>
-
-
-##  <a name="update-your-topic-center-name"></a>Atualizar o nome da central de tópicos
-
-Selecione a guia **central de tópicos** se você deseja atualizar o nome do seu centro de tópico. 
-
-1. Na guia **central de tópicos** , em **nome da central de tópicos** , selecione **Editar**.
-2. Na página **Editar nome da central de tópicos** , na caixa **nome da central de tópicos** , digite o novo nome para o seu centro de tópico.
-3. Selecione **Salvar**
-
-    ![Editar nome da central de tópicos](../media/content-understanding/manage-topic-center-name.png) </br> 
-
-
-
-
-
-
-
-
-
-
-
-## <a name="see-also"></a>Confira também
-
-
-
-  
-
-
-
-
-
+[Alterar o nome da central de tópicos no Microsoft 365](topic-experiences-administration.md)
 

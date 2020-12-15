@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5b095a1d75ead0f963a71d816e7d879b7cd3697
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 54acf9d21e3dd935f8b87c6ee4a13ab30e7bc59e
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614793"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49668068"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft defender para Office 365
 
@@ -62,8 +62,8 @@ Com a experiência de configuração simplificada, você pode se concentrar em:
 
 Para acessar a avaliação, você precisa atender aos requisitos de licenciamento. Qualquer uma das seguintes licenças funcionará:
 
-- Microsoft defender para Office 365 plano 1
-- Microsoft defender para Office 365 plano 2
+- Plano 1 do Microsoft Defender para Office 365
+- Plano 2 do Microsoft Defender para Office 365
 - Microsoft 365 e5, Microsoft 365 E5 segurança
 - Office 365 E5
 
@@ -81,7 +81,7 @@ Você terá uma janela de 30 dias com a avaliação para monitorar e relatar ame
 
 As funções do Exchange Online são necessárias para configurar o defender para Office 365 no modo de avaliação. As seguintes funções são necessárias:
 
-|Tarefas|Role|
+|Tarefas|Função|
 |---|---|
 |Obter uma avaliação gratuita ou comprar o Microsoft defender para Office 365 (plano 2)|Função de administrador de cobrança ou função de administrador global|
 |Criar política de avaliação|Função de domínios remotos e aceitos; Função de administrador de segurança|

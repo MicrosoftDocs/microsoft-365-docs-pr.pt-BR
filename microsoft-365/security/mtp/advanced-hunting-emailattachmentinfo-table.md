@@ -19,12 +19,12 @@ mms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 87ebf4ca0ff773dd5622097385173f538d990afc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6d88303b34f78abc857e9aec749bf2f58090f43a
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847471"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667644"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -32,7 +32,7 @@ ms.locfileid: "48847471"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 
 
@@ -52,11 +52,15 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `MalwareFilterVerdict` | string | Veredito da pilha de filtragem de email sobre se o email contém malware: Malware, Não malware |
 | `MalwareDetectionMethod` | string | Método usado para detectar malware no mecanismo de email: Mecanismo Antimalware, reputação de arquivos e anexos seguros |
+| `SenderDisplayName` | string | Nome do remetente exibido no catálogo de endereços, geralmente uma combinação de um determinado nome, inicial do meio e sobrenome ou sobrenome |
+| `SenderObjectId` | string | Identificador exclusivo para a conta do remetente no Azure AD |
+| `ThreatTypes` | string | Veredicto da pilha de filtragem de emails em se o email contém malware, phishing ou outras ameaças |
+| `ThreatNames` | string | Nome de detecção para malware ou outras ameaças encontradas |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Buscar em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

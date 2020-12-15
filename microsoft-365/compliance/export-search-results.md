@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade da Microsoft 365 para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a697f5cf81022bf8d8122d0dd57c07ba8a578f0a
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 3250690d6699e5d39f7fa5ae01a2733595340ca1
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602048"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667784"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -90,7 +90,7 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
   
 2. Entre usando sua conta de trabalho ou da escola.
   
-3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo** de pesquisa.
+3. No painel esquerdo do centro de conformidade & segurança, clique em  \> **pesquisa de conteúdo** de pesquisa.
   
 4. Na página **pesquisa de conteúdo** , selecione uma pesquisa. 
   
@@ -191,7 +191,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
 
   - Você pode exportar no máximo 2 TB de dados de uma única pesquisa de conteúdo. Se os resultados da pesquisa forem maiores que 2 TB, considere o uso de intervalos de datas ou outros tipos de filtros para diminuir o tamanho total dos resultados da pesquisa.
   
-  - Sua organização pode exportar no máximo 2 TB de dados durante um único dia.
+  - Sua organização pode exportar no máximo 2 TB de dados durante um único dia. A cota será redefinida diariamente às 12:00AM UTC.
   
   - Você pode ter no máximo 10 exportações em execução ao mesmo tempo dentro de sua organização.
 

@@ -15,14 +15,14 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: a7a37464dc011d319021496c6d06bdf975c53f82
-ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
+ms.openlocfilehash: 6e6ad80697d332d0bccb248071b8deadf09fe8de
+ms.sourcegitcommit: 8252377f63de188d32ed1ccd37540d92cba3cb65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49624793"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49671012"
 ---
-# <a name="insider-risk-solutions-in-microsoft-365"></a>Soluções de risco Insider no Microsoft 365
+# <a name="insider-risk-solutions-in-microsoft-365"></a>Soluções de risco interno no Microsoft 365
 
 Os riscos insideres são uma das principais preocupações dos profissionais de segurança e conformidade no local de trabalho moderno. Estudos da indústria mostraram que os riscos insideres são frequentemente associados a eventos ou atividades específicos do usuário. A proteção da sua organização contra esses riscos pode ser desafiadora para identificar e dificultar a redução. Os riscos Insider incluem vulnerabilidades em uma variedade de áreas e podem causar problemas sérios para sua organização, variando da perda de propriedade intelectual para assédio do local de trabalho e muito mais. A figura a seguir descreve os riscos comuns do insider:
 
@@ -30,7 +30,7 @@ Os riscos insideres são uma das principais preocupações dos profissionais de 
 
 Os recursos de prevenção de riscos da Microsoft 365 foram projetados e integrados aos nossos produtos e soluções de risco do insider. Essas soluções funcionam juntas e usam indicadores de serviço avançado e de terceiros para ajudá-lo a identificar, fazer a triagem e agir rapidamente na atividade de riscos. A maioria das soluções oferece um fluxo de trabalho de detecção, alerta e correção abrangente para que seus analistas e investigadores de dados usem o para agir rapidamente e minimizar esses riscos.
 
-| | Associados | Conformidade em comunicações | Gerenciamento de risco interno | Barreiras de informações | Gerenciamento de acesso privilegiado |
+| | Associados | Conformidade de comunicações | Gerenciamento de risco interno | Barreiras de informações | Gerenciamento de acesso privilegiado |
 | :---- | :-------- | :--------------------------- | :-------------------------- |:-------------------------| :--------------------------------|
 | ![Ícone de derramamento de dados](../media/ir-risk-data-spillage.png)| Derramamento de dados | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |  |  |
 | ![Ícone de violações de confidencialidade](../media/ir-risk-confidentiality-violations.png)| Violações de confidencialidade | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |  |
@@ -45,14 +45,14 @@ Os recursos de prevenção de riscos da Microsoft 365 foram projetados e integra
 | ![Ícone de violações de segurança](../media/ir-risk-security-violations.png)| Violações de segurança |  | ![Com suporte](../media/check-mark.png) |  | ![Com suporte](../media/check-mark.png) |
 | ![Ícone de violações de conformidade regulatória](../media/ir-risk-regulatory-compliance-violations.png)| Violações de conformidade normativa | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |  |
 
-## <a name="microsoft-365-insider-risk-solutions"></a>Soluções de risco do Microsoft 365 Insider
+## <a name="microsoft-365-insider-risk-solutions"></a>Soluções de risco interno do Microsoft 365
 
 Para ajudar a proteger sua organização contra os riscos do Insider, use estas funcionalidades e recursos da Microsoft 365.
 
 | Soluções/recursos | Descrição | Licenças |
 | :------------------------ | :-------------- | :------------ |
-| Conformidade em comunicações | A conformidade com comunicação ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e agir em mensagens inadequadas em sua organização. | Microsoft 365 E5 <br> Assinatura do Microsoft 365 E3 + complemento de gerenciamento de risco do Microsoft 365 E5 Insider <br> Assinatura do Microsoft 365 E3 + o complemento de conformidade do Microsoft 365 e5 |
-| Gerenciamento de risco interno | O gerenciamento de risco do insider ajuda a minimizar riscos internos, permitindo que você detecte, investigue e atue em atividades mal-intencionadas e inadvertidas em sua organização. | Microsoft 365 E5 <br> Assinatura do Microsoft 365 E3 + complemento de gerenciamento de risco do Microsoft 365 E5 Insider <br> Assinatura do Microsoft 365 E3 + o complemento de conformidade do Microsoft 365 e5 |
+| Conformidade de comunicações | A conformidade com comunicação ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e agir em mensagens inadequadas em sua organização. | Assinatura do Microsoft 365 E5 (versão paga ou de avaliação) <br> Assinatura do Microsoft 365 E3 + o complemento de conformidade do Microsoft 365 e5 <br> Assinatura do Microsoft 365 E3 + o complemento de gerenciamento de risco do Microsoft 365 E5 Insider <br> Assinatura do Microsoft 365 a5 (versão paga ou de avaliação) <br> Assinatura do 365 a3 + o complemento de conformidade do Microsoft 365 a5 <br> Assinatura do 365 a3 + o complemento de gerenciamento de risco Microsoft 365 a5 Insider <br> Assinatura do Microsoft 365 G5 (versão paga ou de avaliação) <br> Assinatura do Microsoft 365 G5 + o suplemento de conformidade do Microsoft 365 G5 <br> Assinatura do Microsoft 365 G5 + o complemento de gerenciamento de risco do Microsoft 365 G5 Insider <br> Assinatura do Office 365 Enterprise E5 (versão paga ou de avaliação) <br> Assinatura do Office 365 a5 (versão paga ou de avaliação) <br> Assinatura do Office 365 Enterprise E3 + o complemento avançado de conformidade do Office 365 (não está mais disponível para novas assinaturas) |
+| Gerenciamento de risco interno | O gerenciamento de risco do insider ajuda a minimizar riscos internos, permitindo que você detecte, investigue e atue em atividades mal-intencionadas e inadvertidas em sua organização. | Assinatura do Microsoft 365 E5 (versão paga ou de avaliação) Microsoft 365 E3 Subscription + o complemento de conformidade do Microsoft 365 e5 <br> Assinatura do Microsoft 365 E3 + o complemento de gerenciamento de risco do Microsoft 365 E5 Insider <br> Assinatura do Microsoft 365 a5 (versão paga ou de avaliação) <br> Assinatura do 365 a3 + o complemento de conformidade do Microsoft 365 a5 <br> Assinatura do 365 a3 + o complemento de gerenciamento de risco Microsoft 365 a5 Insider |
 | Barreiras de informações | As barreiras de informação permitem restringir a comunicação e a colaboração entre dois grupos internos para evitar que um conflito de interesse ocorra em sua organização.  | Microsoft 365 E5/a5 <br> Office 365 E5/a5 <br> Conformidade Avançada do Office 365 <br> Conformidade da Microsoft 365 E5/a5 <br> Gerenciamento de risco do Microsoft 365 Insider |
 | Gerenciamento de acesso privilegiado | O gerenciamento de acesso privilegiado permite o controle de acesso granular sobre tarefas de administração do Exchange Online privilegiadas no Office 365. Ele pode ajudar a proteger sua organização contra violações que usam contas de administrador privilegiadas existentes com acesso à dados confidenciais ou acesso a definições de configuração crítica. | Microsoft 365 E5/a5 <br> Office 365 E5/a5 <br> Conformidade com o Microsoft 365 E5/a5 <br> Governança e proteção de informações do Microsoft 365 E5/a5 |
 
@@ -73,7 +73,7 @@ Para ajudá-lo a planejar uma estratégia integrada para implementar recursos de
 
 | Item | Descrição |
 |:-----|:------------|
-|[![Pôster do modelo: recursos de conformidade e proteção de informações do Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Baixar como um PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [Baixar como um Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Atualizado em outubro de 2020|Contém: <ul><li>  Proteção de informações e prevenção contra perda de dados da Microsoft</li><li>Políticas de retenção e rótulos de retenção </li><li>Barreiras de informações</li><li>Conformidade em comunicações</li><li>Gerenciamento de risco interno</li><li>Inclusão de dados de terceiros</li>|
+|[![Pôster do modelo: recursos de conformidade e proteção de informações do Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Baixar como um PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [Baixar como um Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Atualizado em outubro de 2020|Contém: <ul><li>  Proteção de informações e prevenção contra perda de dados da Microsoft</li><li>Políticas de retenção e rótulos de retenção </li><li>Barreiras de informações</li><li>Conformidade de comunicações</li><li>Gerenciamento de risco interno</li><li>Inclusão de dados de terceiros</li>|
 
 ## <a name="training"></a>Treinamento
 
@@ -84,7 +84,7 @@ A Microsoft 365 fornece os seguintes recursos para ajudar a informar e treinar e
 | Solução/área | Recursos |
 |:------------------|:--------------|
 | Gerenciar o risco do insider no Microsoft 365 |[Caminho de aprendizado completo](/learn/paths/m365-compliance-insider) <br> Este caminho de aprendizado inclui todos os módulos de solução individuais para conformidade de comunicação, gerenciamento de riscos de insider, barreiras de informações e gerenciamento de acesso privilegiado. Selecione este caminho de aprendizado para concluir todos os módulos. |
-| Conformidade em comunicações | [Módulo de aprendizagem: preparar conformidade de comunicação no Microsoft 365](/learn/modules/m365-compliance-insider-prepare-communication-compliance) <br> Este módulo ajuda você a aprender as noções básicas sobre como identificar e corrigir violações de política de código de conduta com conformidade de comunicação, abranger os pré-requisitos necessários antes de criar políticas de conformidade de comunicação e aprender sobre os tipos de modelos de política internos e predefinidos na conformidade de comunicação. |
+| Conformidade de comunicações | [Módulo de aprendizagem: preparar conformidade de comunicação no Microsoft 365](/learn/modules/m365-compliance-insider-prepare-communication-compliance) <br> Este módulo ajuda você a aprender as noções básicas sobre como identificar e corrigir violações de política de código de conduta com conformidade de comunicação, abranger os pré-requisitos necessários antes de criar políticas de conformidade de comunicação e aprender sobre os tipos de modelos de política internos e predefinidos na conformidade de comunicação. |
 | Gerenciamento de risco interno | [Módulo de aprendizado: gerenciamento de risco do insider no Microsoft 365](/learn/modules/m365-compliance-insider-manage-insider-risk) <br> Este módulo ajuda você a aprender como o gerenciamento de riscos do insider no Microsoft 365 pode ajudar a prevenir, detectar e conter riscos internos em uma organização, aprender sobre os tipos de modelos de política internos e predefinidos, entender os pré-requisitos básicos necessários antes de criar políticas de risco do insider |
 | Barreiras de informações | [Módulo de aprendizagem: plano para barreiras de informações](/learn/modules/m365-compliance-insider-plan-information-barriers) <br> Este módulo ajuda você a aprender como as políticas de barreira de informações podem ajudar sua organização a manter a conformidade com normas e regulamentações relevantes do setor, lista os tipos de situações nas quais as barreiras de informações seriam aplicáveis, ajuda a explicar o processo de criação de uma política de barreira de informações e ajuda a explicar como solucionar problemas inesperados após as barreiras de informações serem aplicadas. |
 | Gerenciamento de acesso privilegiado | [Módulo de aprendizado: implementar gerenciamento de acesso privilegiado](/learn/modules/m365-compliance-insider-implement-privileged-access-management) <br> Este módulo ajuda você a entender a diferença entre o gerenciamento de acesso privilegiado e o gerenciamento de identidade privilegiado, entender o fluxo de processo de gerenciamento de acesso privilegiado e compreender as noções básicas de como configurar e habilitar o gerenciamento de acesso privilegiado. |

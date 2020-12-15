@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 86cc32cf395f2216eb3e167e372d1225734c4c28
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 00fcc6514679868066ef88b0c9bc4a485d032528
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842627"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667632"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48842627"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 
 
@@ -71,11 +71,22 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AttachmentCount` | int | Número de anexos no email |
 | `UrlCount` | int | Número de URLs inseridas no email |
 | `EmailLanguage` | cadeia de caracteres | Idioma detectado do conteúdo do email |
+| `OrgLevelAction` | string | Ação tomada no email em resposta a correspondências com uma política definida no nível organizacional |
+| `OrgLevelPolicy` | string | Política organizacional que disparou a ação tomada no email |
+| `UserLevelAction` | string | Ação tomada no email em resposta a correspondências com uma política de caixa de correio definida pelo destinatário |
+| `UserLevelPolicy` | string | Política de caixa de correio de usuário final que disparou a ação executada no email |
+| `Connectors` | string | Instruções personalizadas que definem o fluxo de emails organizacionais e como o email foi roteado |
+| `SenderDisplayName` | string | Nome do remetente exibido no catálogo de endereços, geralmente uma combinação de um determinado nome, inicial do meio e sobrenome ou sobrenome |
+| `SenderObjectId` | string |Identificador exclusivo para a conta do remetente no Azure AD |
+| `ThreatTypes` | string | Veredicto da pilha de filtragem de emails em se o email contém malware, phishing ou outras ameaças |
+| `ThreatNames` | string |Nome de detecção para malware ou outras ameaças encontradas |
+| `DetectionMethods` | string | Métodos usados para detectar malware, phishing ou outras ameaças encontradas no email |
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Buscar em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

@@ -17,23 +17,26 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de links seguros e configurações globais de links seguros no Microsoft defender para Office 365.
-ms.openlocfilehash: 550be48d5f1cae490c53c8f4a9fcedb0b9f21f73
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 8a6d8a7ad567b658f04cb0b28800d4edbc33ec67
+ms.sourcegitcommit: f81ca61f74f11a7436a6172538c3bda81b484d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572712"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49675236"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas de links seguros no Microsoft defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Este artigo destina-se a clientes comerciais que têm [o Microsoft defender para Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre o Safelinks no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo se destina a clientes empresariais que possuem o [Microsoft Defender para Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre o Safelinks no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Links seguros é um recurso do [Microsoft defender para Office 365](office-365-atp.md) que oferece verificação de URL de mensagens de email de entrada no fluxo de emails e a hora de clicar em verificação de URLs e links em mensagens de email e em outros locais. Para obter mais informações, consulte [links seguros no Microsoft defender para Office 365](atp-safe-links.md).
 
 Não há nenhuma política interna ou de links seguros padrão. Para obter a verificação de URLs de links seguros, você precisa criar uma ou mais políticas de links seguros, conforme descrito neste artigo.
+
+> [!NOTE]
+> Você define as configurações globais para proteção de links seguros **fora** de políticas de links seguros. Para obter instruções, consulte [Configure Global Settings for Safe links in Microsoft defender for Office 365](configure-global-settings-for-safe-links.md).
 
 Você pode configurar políticas de links seguros no centro de conformidade e segurança & ou no PowerShell (Exchange Online PowerShell para organizações qualificadas da Microsoft 365 com caixas de correio no Exchange Online; autônomo do EOP PowerShell para organizações sem caixas de correio do Exchange Online, mas com o Microsoft defender para Office 365 Add-on subscriptions).
 
@@ -50,16 +53,13 @@ A diferença entre esses dois elementos não é óbvia quando você gerencia pol
 
 No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política e a regra são gerenciadas separadamente. Para obter mais informações, consulte a seção [usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar políticas de links seguros](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) , posteriormente neste artigo.
 
-> [!NOTE]
-> Você define as configurações globais para proteção de links seguros **fora** de políticas de links seguros. Para obter instruções, consulte [Configure Global Settings for Safe links in Microsoft defender for Office 365](configure-global-settings-for-safe-links.md).
-
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **links seguros** , use <https://protection.office.com/safelinksv2> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
   - Para criar, modificar e excluir políticas de links seguros, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** .
   - Para acesso somente leitura a políticas de links seguros, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
@@ -67,8 +67,8 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 
   **Observações**:
 
-  - A adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
-  - O grupo de função de **Gerenciamento de organização somente exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para obter as configurações recomendadas para políticas de links seguros, consulte [configurações de política de links seguros](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings).
 
@@ -80,7 +80,7 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 
 A criação de uma política de links seguros personalizada no centro de conformidade de & de segurança cria a regra de links seguros e a política de links seguros associada ao mesmo tempo usando o mesmo nome para ambos.
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \>  \> **links seguros de ATP**.
 
 2. Na página **links seguros** , clique em **criar**.
 
@@ -152,7 +152,7 @@ A criação de uma política de links seguros personalizada no centro de conform
 
 ## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>Usar o centro de conformidade de & de segurança para exibir políticas de links seguros
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \>  \> **links seguros de ATP**.
 
 2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
 
@@ -160,7 +160,7 @@ A criação de uma política de links seguros personalizada no centro de conform
 
 ## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>Usar o centro de conformidade de & de segurança para modificar as políticas de links seguros
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \>  \> **links seguros de ATP**.
 
 2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
 
@@ -172,7 +172,7 @@ Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da 
 
 ### <a name="enable-or-disable-safe-links-policies"></a>Habilitar ou desabilitar políticas de links seguros
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \>  \> **links seguros de ATP**.
 
 2. Observe o valor na coluna **status** :
 
@@ -192,7 +192,7 @@ As políticas de links seguros são exibidas na ordem em que são processadas (a
 
 Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \>  \> **links seguros de ATP**.
 
 2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
 
@@ -210,7 +210,7 @@ Para alterar a prioridade de uma política, mova a política para cima ou para b
 
 ## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>Usar o centro de conformidade de & de segurança para remover políticas de links seguros
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \>  \> **links seguros de ATP**.
 
 2. Na página de **links seguros** , selecione uma política na lista e clique nela (não marque a caixa de seleção).
 
@@ -468,7 +468,7 @@ Para verificar se os links seguros estão verificando mensagens, confira os rela
 
 Para verificar se as políticas de links seguros foram criadas, modificadas ou removidas com êxito, execute uma das seguintes etapas:
 
-- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \> **Policy** \> **links seguros de ATP**. Verifique a lista de políticas, seus valores de **status** e seus valores de **prioridade** . Para exibir mais detalhes, selecione a política na lista e exiba os detalhes na saída.
+- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** de \>  \> **links seguros de ATP**. Verifique a lista de políticas, seus valores de **status** e seus valores de **prioridade** . Para exibir mais detalhes, selecione a política na lista e exiba os detalhes na saída.
 
 - No PowerShell do Exchange Online ou do Exchange Online Protection, substitua o \<Name\> nome da política ou regra, execute o seguinte comando e verifique as configurações:
 

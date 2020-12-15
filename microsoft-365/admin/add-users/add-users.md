@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
 ms.date: 07/01/2020
-ms.openlocfilehash: 95f84ead009b7510699e467bf5f12bf32d8097d8
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 5df0db1cb782cc55bcf3e2b599430a98ea88750c
+ms.sourcegitcommit: 8252377f63de188d32ed1ccd37540d92cba3cb65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948791"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49670990"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
 
@@ -55,7 +55,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
 ::: moniker range="o365-worldwide"
 
 1. Vá para o centro de administração do<https://admin.microsoft.com>.
-2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
+2. Vá para  > **usuários ativos** do usuários e selecione **Adicionar um usuário**.
 3. No painel **Configurar o** básico, preencha as informações básicas do usuário e selecione **Avançar**.
     - **Nome** Preencha o nome e o sobrenome, o nome para exibição e o nome de usuário.
     - **Domínio** Escolha o domínio da conta do usuário. Por exemplo, se o nome de usuário do usuário for Jakob e o domínio for contoso.com, ele entrará usando o jakob@contoso.com.
@@ -64,14 +64,14 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
     - Escolha se você deseja enviar a senha no email quando o usuário for adicionado.
 4. No painel **atribuir licenças de produtos** , selecione o local e a licença apropriada para o usuário. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários. Expanda **aplicativos** e marque ou desmarque aplicativos para limitar os aplicativos para os quais o usuário tem uma licença. Selecione **Avançar**.
 5. No painel **configurações opcionais** , expanda **funções** para tornar esse usuário um administrador. Expanda **informações de perfil** para adicionar informações adicionais sobre o usuário.
-6. Selecione **Avançar**, revise as configurações do novo usuário, faça as alterações desejadas e, em seguida, selecione **concluir adição**e **Fechar**.
+6. Selecione **Avançar**, revise as configurações do novo usuário, faça as alterações desejadas e, em seguida, selecione **concluir adição** e **Fechar**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Vá para o centro de administração do<https://portal.office.de/adminportal>.
-2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
+2. Vá para  > **usuários ativos** do usuários e selecione **Adicionar um usuário**.
 3. No painel **novo usuário** , preencha as informações a seguir. Quando tiver terminado, selecione **Adicionar**.
     - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
     - **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob e o domínio for contoso.com, ele entrará na digitação de jakob@contoso.com.
@@ -85,7 +85,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
 ::: moniker range="o365-21vianet"
 
 1. Vá para o centro de administração do<https://portal.partner.microsoftonline.cn>.
-2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
+2. Vá para  > **usuários ativos** do usuários e selecione **Adicionar um usuário**.
 3. No painel **novo usuário** , preencha as informações a seguir. Quando tiver terminado, selecione **Adicionar**.
     - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
     - **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob e o domínio for contoso.com, ele entrará na digitação de jakob@contoso.com.
