@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5c558529360d84d5872649e41b95f509e5b52663
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 15778f076d4122b23449f66bd9781a7037c52c58
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663626"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683122"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede na Área de Trabalho Gerenciada da Microsoft
 
@@ -44,7 +44,7 @@ A URL da área de trabalho gerenciada da Microsoft é usada para qualquer coisa 
 Serviço da Microsoft  | URLs necessárias na lista de permissões 
 --- | ---
 Área de Trabalho Gerenciada da Microsoft | prod-mwaas-services-customerapi.azurewebsites.net
-Obter ajuda | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
+Obter ajuda | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net  <br>concierge.live.com
 Assistência rápida | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
 Assistente de recuperação e suporte da Microsoft | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  

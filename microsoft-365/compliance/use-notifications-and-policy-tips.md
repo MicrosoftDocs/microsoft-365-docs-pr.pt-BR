@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Saiba como adicionar uma dica de política a uma política de prevenção de perda de dados (DLP) para notificar um usuário de que eles estão trabalhando com conteúdo que está em conflito com uma política de DLP.
-ms.openlocfilehash: a36d1de9a24136943b41f12fe7f12a44d9df59f1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4f8855e3dce2adaf457b9a2453ca9dd827de5bcd
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819301"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682944"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -45,9 +45,9 @@ No centro de &amp; conformidade de segurança, ao criar uma política de DLP, vo
     
   - Para email no Outlook na Web e no Outlook 2013 e posterior, a dica de política aparece na parte superior de uma mensagem acima dos destinatários enquanto a mensagem está sendo redigida.
     
-  - Para documentos em uma conta do OneDrive for Business ou site do SharePoint Online, a dica de política é indicada por um ícone de aviso que aparece no item. Para exibir mais informações, você pode selecionar um item e, em **Information** seguida, escolher ![ o ícone painel de informações de informações ](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) no canto superior direito da página para abrir o painel de detalhes. 
+  - Para documentos em uma conta do OneDrive for Business ou site do SharePoint Online, a dica de política é indicada por um ícone de aviso que aparece no item. Para exibir mais informações, você pode selecionar um item e, em  seguida, escolher ![ o ícone painel de informações de informações ](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) no canto superior direito da página para abrir o painel de detalhes. 
     
-  - Para documentos do Excel, PowerPoint e Word que são armazenados em um site do OneDrive for Business ou site do SharePoint Online incluído na política de DLP, a dica de política é exibida na barra de mensagens e no modo de exibição Backstage (informações do menu de **arquivo** \> **Info**).
+  - Para documentos do Excel, PowerPoint e Word que são armazenados em um site do OneDrive for Business ou site do SharePoint Online incluído na política de DLP, a dica de política é exibida na barra de mensagens e no modo de exibição Backstage (informações do menu de **arquivo** \> ).
     
 ## <a name="add-user-notifications-to-a-dlp-policy"></a>Adicionar notificações de usuário a uma política de DLP
 
@@ -57,7 +57,7 @@ Ao criar uma política de DLP, você pode habilitar as **notificações do usuá
     
 2. Entre usando sua conta de trabalho ou da escola. Agora você está no centro de &amp; conformidade de segurança.
     
-3. Na &amp; navegação à esquerda centro de conformidade de segurança \> política de \> **prevenção contra perda** \> **Policy** \> **de dados + criar uma política**.
+3. Na &amp; navegação à esquerda centro de conformidade de segurança \> política de \> **prevenção contra perda** \>  \> **de dados + criar uma política**.
     
     ![Botão criar uma política](../media/b1e48a08-92e2-47ca-abdc-4341694ddc7c.png)
   
@@ -79,7 +79,7 @@ Ao criar uma política de DLP, você pode habilitar as **notificações do usuá
     
 7. Escolha **usar configurações avançadas** \> **próximo**.
     
-8. Escolha **+ nova regra**.
+8. Escolha **+ Nova regra**.
     
 9. No editor de regras, em **notificações do usuário**, altere o status para.
     
@@ -169,7 +169,7 @@ Quando um documento em um site do OneDrive for Business ou do SharePoint Online 
     
    ![Ícones de dica de política em documentos em uma conta do OneDrive](../media/d3e9f772-03f9-4d28-82f8-3064784332a2.png)
   
-Para executar uma ação em um documento, você pode selecionar um \> item **Information** escolha ![ o ícone do painel de informações de informações ](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) no canto superior direito da página para abrir a \> **dica de política de exibição**do painel de detalhes.
+Para executar uma ação em um documento, você pode selecionar um \> item  escolha ![ o ícone do painel de informações de informações ](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) no canto superior direito da página para abrir a \> **dica de política de exibição** do painel de detalhes.
   
 A dica de política lista os problemas com o conteúdo e se as dicas de política forem configuradas com essas opções, você pode escolher **Resolver** e então **Substituir** a dica de política ou **Relatar** um falso positivo. 
   
@@ -203,7 +203,7 @@ Dicas de política funcionam se as informações confidenciais aparecem no corpo
   
 ![Dica de política mostrando que um anexo está em conflito com uma política de DLP](../media/59ae6655-215f-47d9-ad1d-39c0d1e61740.png)
   
-Se as dicas de política estiverem configuradas para permitir substituição, você poderá escolher **Mostrar detalhes** \> **substituir** \> Insira uma justificativa de negócios ou relatar uma \> **substituição**falsa positiva.
+Se as dicas de política estiverem configuradas para permitir substituição, você poderá escolher **Mostrar detalhes** \> **substituir** \> Insira uma justificativa de negócios ou relatar uma \> **substituição** falsa positiva.
   
 ![Dica de política na mensagem expandida para mostrar a opção substituir](../media/28bfb997-48a6-41f0-8682-d5e62488458a.png)
   
@@ -247,6 +247,9 @@ Quando as pessoas trabalham com conteúdo confidencial nas versões de área de 
 - O site é incluído em uma política de DLP que é configurada para usar dicas de política.
     
 Os programas da área de trabalho do Office sincronizam automaticamente políticas DLP diretamente do Office 365 e, em seguida, examinam seus documentos para garantir que eles não entrem em conflito com suas políticas de DLP e exibem dicas de política em tempo real.
+
+> [!NOTE]
+> Os aplicativos de área de trabalho do Office verificam os documentos para determinar se as dicas de política de DLP devem ser mostradas; Eles não mostram dicas de política que os sites do SharePoint Online ou do OneDrive for Business já determinados devem ser mostrados em um arquivo. Como resultado, nem sempre é possível ver uma dica de política de DLP nos aplicativos da área de trabalho que você vê nos sites do SharePoint Online ou do OneDrive for Business. Por outro lado, os aplicativos do Office na Web mostram apenas dicas de política de DLP que os sites do SharePoint Online ou do OneDrive for Business já foram determinados devem ser mostrados.
   
 Dependendo de como você configurar as dicas de política na política de DLP, as pessoas podem optar por simplesmente ignorar a dica de política, substituir a diretiva com ou sem uma justificativa de negócios ou relatar um falso positivo.
   

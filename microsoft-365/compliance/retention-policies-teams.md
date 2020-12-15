@@ -65,7 +65,7 @@ Quando a política de retenção for reter e excluir:
 
 Para os dois caminhos no diagrama:
 
-1. **Se uma mensagem de chat ou canal for editada ou excluída** pelo usuário durante o período de retenção, a mensagem original será copiada (se tiver sido editada) ou movida (se tiver sido excluída) para a pasta SubstrateHolds dentro de 21 dias. A mensagem é armazenada lá até o período de retenção expirar e será excluída permanentemente dentro de 24 horas.
+1. **Se uma mensagem de chat ou canal for editada ou excluída** pelo usuário durante o período de retenção, a mensagem original será copiada (se tiver sido editada) ou movida (se tiver sido excluída) para a pasta SubstrateHolds dentro de 21 dias. A mensagem é armazenada lá até o período de retenção expirar e a mensagem será excluída permanentemente dentro de 24 horas.
 
 2. **Se uma mensagem de chat ou canal não for excluída** e para as mensagens atuais após a edição, a mensagem será movida para a pasta SubstrateHolds após o período de retenção expirar. Essa ação leva sete dias após a data de vencimento. Quando a mensagem estiver na pasta SubstrateHolds, ela será excluída permanentemente dentro de 24 horas. 
 

@@ -29,13 +29,13 @@ Use os recursos da Governança de Informações da Microsoft (às vezes, abrevia
 
 ![Controle seus dados: governança de informações e gerenciamento de registros](../media/information-governance-records-management.png)
 
-Procurando proteger seus dados? Confira [Proteção de Informações da Microsoft no Microsoft 365](information-protection.md).
+Deseja proteger seus dados? Confira [Proteção de Informações da Microsoft no Microsoft 365](information-protection.md).
 
 ## <a name="information-governance"></a>Governança de informações
 
 Para manter o que você precisa e excluir o que não:
  
-|Funcionalidade|Que problemas ela resolve?|Introdução|
+|Recursos|Que problemas ela resolve?|Introdução|
 |:------|:------------|:--------------------|:-----------------------------|
 |[Políticas de retenção e rótulos de retenção](retention.md)| Manter ou excluir conteúdo com o gerenciamento de políticas e um fluxo de trabalho de exclusão para emails, documentos, mensagens instantâneas e muito mais <br /><br />Cenário de exemplo: [Aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md) | [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)|
 |[Serviço de importação](importing-pst-files-to-office-365.md)| Importar em massa arquivos PST para as caixas de correio do Exchange Online para manter e pesquisar mensagens de email e atender aos requisitos normativos ou de conformidade | [Usar o carregamento de rede para importar arquivos PST da organização para o Microsoft 365](use-network-upload-to-import-pst-files.md)|
@@ -46,7 +46,7 @@ Para manter o que você precisa e excluir o que não:
 
 Para gerenciar o conteúdo de alto valor para obrigações legais, comerciais ou normativas:
 
-|Funcionalidade|Que problemas ela resolve?|Introdução|
+|Recursos|Que problemas ela resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
 |[Gerenciamento de registros](records-management.md)| Uma solução única para emails e documentos que incorpora cronogramas e requisitos de retenção em um plano de arquivo que oferece suporte a todo o ciclo de vida do conteúdo com declaração, retenção e descarte de registros <br /><br />Cenário de exemplo: [descarte de registros](disposition.md#disposition-of-records)|[Introdução ao gerenciamento de registros](get-started-with-records-management.md) |
 

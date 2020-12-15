@@ -26,7 +26,7 @@ ms.locfileid: "49002400"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Conecte-se ao Microsoft 365 com o PowerShell
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
 O Windows PowerShell para Microsoft 365 permite que você gerencie suas configurações do Microsoft 365 a partir da linha de comando. Para se conectar ao Windows PowerShell, basta instalar o software necessário e conectar-se à sua organização Microsoft 365.
 
@@ -98,7 +98,7 @@ Para se conectar ao Azure Active Directory (Azure AD) para sua assinatura do Mic
 | Office 365 U.S. Government DoD e Office 365 U.S. Government GCC High | `Connect-AzureAD -AzureEnvironmentName AzureUSGovernment` |
 |||
 
-Na caixa de diálogo **Entrar na sua conta** , digite seu nome de usuário e senha da conta corporativa ou de estudante do Microsoft 365 e selecione **OK**.
+Na caixa de diálogo **Entrar na sua conta**, digite seu nome de usuário e senha da conta corporativa ou de estudante do Microsoft 365 e selecione **OK**.
 
 Se você estiver usando a autenticação multifator, siga as instruções para fornecer informações adicionais de autenticação, como um código de verificação.
 
@@ -138,13 +138,13 @@ Para se conectar ao Azure AD para sua assinatura do Microsoft 365 com um nome de
 | Office 365 U.S. Government DoD e Office 365 U.S. Government GCC High | `Connect-MsolService -AzureEnvironment USGovernment` |
 |||
 
-Na caixa de diálogo **Entrar na sua conta** , digite seu nome de usuário e senha da conta corporativa ou de estudante do Microsoft 365 e selecione **OK**.
+Na caixa de diálogo **Entrar na sua conta**, digite seu nome de usuário e senha da conta corporativa ou de estudante do Microsoft 365 e selecione **OK**.
 
 Se você estiver usando a autenticação multifator, siga as instruções para fornecer informações adicionais de autenticação, como um código de verificação.
 
 ### <a name="how-do-you-know-it-worked"></a>Como saber se funcionou?
 
-Se você não receber uma mensagem de erro, você se conectou com êxito. Para um teste rápido, execute um cmdlet do Microsoft 365, como **Get-MsolUser** , e confira os resultados.
+Se você não receber uma mensagem de erro, você se conectou com êxito. Para um teste rápido, execute um cmdlet do Microsoft 365, como **Get-MsolUser**, e confira os resultados.
   
 Se você receber uma mensagem de erro, cheque os seguintes problemas:
   
@@ -165,11 +165,11 @@ Se você receber uma mensagem de erro, cheque os seguintes problemas:
   (Get-Item C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnline\Microsoft.Online.Administration.Automation.PSModule.dll).VersionInfo.FileVersion
   ```
 
-    Se o número da versão retornado for inferior a *1.0.8070.2* , desinstale o Módulo Microsoft Azure Active Directory para Windows PowerShell e instale a partir da [Etapa 1](#step-1-install-the-required-software), acima.
+    Se o número da versão retornado for inferior a *1.0.8070.2*, desinstale o Módulo Microsoft Azure Active Directory para Windows PowerShell e instale a partir da [Etapa 1](#step-1-install-the-required-software), acima.
 
-- **Se você receber uma mensagem de erro de conexão** , confira [o erro "Connect-MsolService: Exceção de tipo lançada"](https://go.microsoft.com/fwlink/p/?LinkId=532377).
+- **Se você receber uma mensagem de erro de conexão**, confira [o erro "Connect-MsolService: Exceção de tipo lançada"](https://go.microsoft.com/fwlink/p/?LinkId=532377).
     
-- **Se você receber uma mensagem de erro "Get-Item: Não é possível encontrar o caminho"** , execute este comando:
+- **Se você receber uma mensagem de erro "Get-Item: Não é possível encontrar o caminho"**, execute este comando:
 
 
    ```powershell

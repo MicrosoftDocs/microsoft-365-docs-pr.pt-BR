@@ -37,13 +37,13 @@ A criação de um modelo de processamento de formulário envolve o seguinte:
 
 ## <a name="requirements"></a>Requisitos
 
-Você só pode criar um modelo de processamento de formulário nas bibliotecas de documentos do SharePoint para os quais ele está habilitado. Se o processamento de formulário estiver habilitado, você poderá ver o **AI Builder** **"Criar um modelo de processamento de formulário"** no menu **Automação** na biblioteca de documentos.  Se precisar de processamento habilitado na biblioteca de documentos, você deve contatar o administrador de serviços do SharePoint.
+Você só pode criar um modelo de processamento de formulário nas bibliotecas de documentos do SharePoint para os quais ele está habilitado. Se o processamento de formulário estiver habilitado, você poderá ver o **AI Builder** **"criar um modelo de processamento de formulário"** no menu **Automação** na biblioteca de documentos.  Se precisar de processamento habilitado na biblioteca de documentos, você deve contatar o administrador do SharePoint.
 
  ![Criar um modelo do AI Builder](../media/content-understanding/create-ai-builder-model.png)</br>
 
 ## <a name="step-1-create-a-form-processing-model"></a>Etapa 1: Criar um modelo de processamento de formulário
 
-A primeira etapa na criação de um modelo de processamento de formulário é nomeá-lo e, em seguida, criar o novo tipo de conteúdo e criar um novo modo de exibição de biblioteca de documentos para ele.
+A primeira etapa na criação de um modelo de processamento de formulário é nomeá-lo e criar o novo tipo de conteúdo e criar um novo modo de exibição de biblioteca de documentos para ele.
 
 1. Na biblioteca de documentos, selecione o menu **Automatizar**, selecione **AI Builder** e selecione **Criar um Modelo de Processamento de Formulário**.
 
@@ -53,7 +53,7 @@ A primeira etapa na criação de um modelo de processamento de formulário é no
 
     ![Novo modelo de processamento de formulário](../media/content-understanding/new-form-model.png)</br> 
 
-3. Ao criar um modelo de processamento de formulário, você cria um novo tipo de conteúdo do SharePoint. Um tipo de conteúdo do SharePoint representa uma categoria de documentos que tem características comuns e compartilha um conjunto de propriedades de colunas ou metadados para esse conteúdo específico. Os tipos de conteúdo do SharePoint são gerenciados por meio da [Galeria de tipos de conteúdo]().
+3. Ao criar um modelo de processamento de formulário, você cria um novo tipo de conteúdo do SharePoint. Um tipo de conteúdo do SharePoint representa uma categoria de documentos que tem características comuns e compartilha um conjunto de propriedades de colunas ou metadados para esse conteúdo específico. Os tipos de conteúdo do SharePoint são gerenciados por meio da[Galeria de tipos de conteúdo]().
 
     Selecione **Configurações avançadas** se desejar mapear esse modelo para um tipo de conteúdo existente na Galeria de tipos de conteúdo do SharePoint para usar o esquema. 
 
@@ -70,7 +70,7 @@ Depois de criar seu novo modelo de processamento de formulário, seu navegador a
 
    ![AI Builder do Power Apps](../media/content-understanding/powerapps.png)</br> 
  
-1. Selecione **Adicionar documentos** para começar a adicionar documentos de exemplo analisados para determinar os pares de valores nomeados que podem ser extraídos. Em seguida, você pode escolher **Carregar do armazenamento local**, **do SharePoint** ou do **armazenamento de BLOBs do Azure**. Você deve usar pelo menos cinco arquivos para treinamento.
+1. Selecione **Adicionar documentos** para começar a adicionar documentos de exemplo analisados para determinar os pares de valores nomeados que podem ser extraídos. Em seguida, você pode escolher **Carregar do armazenamento local**, **SharePoint** ou **Armazenamento de Blobs do Azure**. Você deve usar pelo menos cinco arquivos para treinamento.
 
 2. Depois de adicionar arquivos, marque **Analisar** para verificar se há informações comuns a todos os arquivos. Esta ação pode levar vários minutos para ser concluída.</br> 
  
@@ -88,7 +88,7 @@ Depois de analisar os documentos dos campos, agora você pode ver os campos enco
 
     ![Página Selecionar campos](../media/content-understanding/select-fields-page.png)</br> 
 
-2. Selecione os campos que você deseja salvar e marque a caixa de seleção para confirmar a seleção. Por exemplo, no modelo de Ordem de Compra, escolha os campos *Data*, *OC* e *Total*. Observe que você também pode optar por renomear um campo.</br>
+2. Selecione os campos que você deseja salvar e marque a caixa de seleção para confirmar a seleção. Por exemplo, no modelo de Pedido de Compra, escolha os campos *Data*, *Pedido de Compra* e *Total*.  Observe que você também pode optar por renomear um campo se escolher. </br>
 
     ![Selecionar Pedido de Compra#](../media/content-understanding/po.png)</br> 
 
@@ -104,7 +104,7 @@ Depois de analisar os documentos dos campos, agora você pode ver os campos enco
 
 Depois de selecionar os campos que você deseja salvar, a página de **Resumo do modelo** permite treinar e testar o seu modelo.
 
-1. Na página **Resumo de modelo**, os campos salvos serão exibidos na seção **Campos selecionados**. Marque **Treinar** para começar o treinamento em seus arquivos de exemplo. Observe que isso pode levar alguns minutos para ser concluído.</br>
+1. Na página de **Resumo do Modelo**, os campos salvos serão exibidos na seção **Campos selecionados**. Marque **Treinar** para começar o treinamento em seus arquivos de exemplo. Observe que isso pode levar alguns minutos para ser concluído.</br>
 
      ![Selecionar campos treinamento](../media/content-understanding/select-fields-train.png)</br> 
 
@@ -116,7 +116,7 @@ Depois de selecionar os campos que você deseja salvar, a página de **Resumo do
 
 2. Quando vir a notificação de que o treinamento foi concluído, marque **Acessar a página de detalhes**. 
 
-3. Na página **Detalhes do modelo**, opte por testar como seu modelo funciona selecionando **Teste rápido**. Isso permite arrastar e soltar arquivos para a página e ver se os campos são detectados.
+3. Na página **detalhes do modelo**, opte por testar como seu modelo funciona selecionando **Teste rápido**. Isso permite arrastar e soltar arquivos para a página e ver se os campos são detectados.
 
 ## <a name="step-5-publish-your-model"></a>Etapa 5: publicar seu modelo
 
@@ -140,7 +140,7 @@ Depois de publicar seu modelo e criar seu fluxo PowerAutomate, você pode usar o
 
     ![Botão informações](../media/content-understanding/info-button.png)</br>  
 
-4. Carregar arquivos para uma biblioteca de documentos. Qualquer arquivo identificado pelo modelo como tipo de conteúdo, lista os arquivos em seu modo de exibição e exibe os dados extraídos nas colunas.</br>
+4. Carregar arquivos para uma biblioteca de documentos. Todos os arquivos identificados pelo modelo, como o tipo de conteúdo, lista os arquivos em seu modo de exibição e exibe os dados extraídos nas colunas.</br>
 
     ![Concluído](../media/content-understanding/doc-lib-done.png)</br>  
 

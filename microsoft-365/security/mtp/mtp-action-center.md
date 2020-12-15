@@ -20,13 +20,13 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 09/16/2020
-ms.openlocfilehash: 3ec17204903f3e83f3fbfd126d57d0b9ca5d56f7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.date: 12/09/2020
+ms.openlocfilehash: aa9f433bc60949aa625d9346421b025121347a2c
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843787"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683314"
 ---
 # <a name="the-action-center"></a>A Central de Ações
 
@@ -34,9 +34,9 @@ ms.locfileid: "48843787"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-Use a Central de ações para ver os resultados de investigações atuais e anteriores nos dispositivos e caixas de correio da sua organização. Dependendo do tipo de ameaça e veredicto resultante, as [ações de correção](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) ocorrerão automaticamente ou após a aprovação da equipe de operações de segurança da sua organização. Todas as ações de correção, se estão aguardando aprovação ou que já foram aprovadas, estão consolidadas na Central de ações. 
+Use a central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) para ver os resultados das investigações atuais e anteriores nos dispositivos e caixas de correio da sua organização. Dependendo do tipo de ameaça e veredicto resultante, as [ações de correção](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) podem ocorrer automaticamente ou após a aprovação da equipe de operações de segurança da sua organização. Todas as ações de correção, se estão aguardando aprovação ou que já foram aprovadas, estão consolidadas na Central de ações. 
 
 ![Central de Ações](../../media/air-actioncenter.png)
 
@@ -74,7 +74,7 @@ Sua equipe de operações de segurança pode operar de forma mais eficaz e efici
 
 ## <a name="available-actions"></a>Ações disponíveis
 
-Como as ações de correção são tomadas, elas são listadas na guia histórico na central de ações. Essas ações incluem o seguinte:
+Como as ações de correção são tomadas, elas são listadas na guia **histórico** na central de ações. Essas ações incluem o seguinte:
 
 - Coletar pacote de investigação 
 - Isolar dispositivo (esta ação pode ser desfeita) 
@@ -86,6 +86,26 @@ Como as ações de correção são tomadas, elas são listadas na guia históric
 - Executar verificação antivírus 
 - Parar e colocar em quarentena 
 
+> [!NOTE]
+> Além das ações de correção realizadas automaticamente, a equipe de operações de segurança pode executar ações manuais para lidar com ameaças detectadas. Para obter mais informações sobre ações de correção automática e manual, consulte [ações de correção](mtp-remediation-actions.md).
+
+## <a name="action-source"></a>Origem da ação
+
+(**Novo!**) Como você sabe, o Microsoft 365 defender reúne recursos de investigação e resposta automatizados em vários serviços, como [o Microsoft defender para o ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) e [o Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). A central de ações nova e aprimorada agora inclui uma coluna de **origem de ação** que informa onde cada ação de correção veio. 
+
+A tabela a seguir descreve os possíveis valores de **fonte de ação** :
+
+| Valor da origem da ação | Descrição |
+|:-----|:---|
+| **Ação manual do dispositivo** | Uma ação manual executada em um dispositivo. Exemplos incluem [isolamento de dispositivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network) ou [quarentena de arquivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#stop-and-quarantine-files). |
+| **Ação de email manual** | Uma ação manual executada no email. Um exemplo inclui mensagens de email de exclusão reversível ou [correção de uma mensagem de email](https://docs.microsoft.com/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365). |
+| **Ação automatizada do dispositivo** | Uma ação automática tomada em uma entidade, como um arquivo ou processo. Exemplos de ações automatizadas incluem o envio de um arquivo para quarentena, a interrupção de um processo e a remoção de uma chave do registro. (Consulte [ações de correção no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-auto-investigation#remediation-actions).) |
+| **Ação de email automatizada** | Uma ação automática tomada no conteúdo de email, como uma mensagem de email, um anexo ou uma URL. Exemplos de ações automatizadas incluem mensagens de email de exclusão reversível, bloqueio de URLs e desativação de encaminhamento de emails externos. (Consulte [ações de correção no Microsoft defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions).) |
+| **Ação de busca avançada** | Ações tomadas em dispositivos ou email com [busca avançada](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-overview). |
+| **Ação do Explorer** | Ações executadas no conteúdo de email com o [Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer). |
+| **Ação de resposta dinâmica manual** | Ações realizadas em um dispositivo com [resposta ao vivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response). Os exemplos incluem a exclusão de um arquivo, a interrupção de um processo e a remoção de uma tarefa agendada. |
+| **Ação de resposta ao vivo** | Ações realizadas em um dispositivo com [o Microsoft defender para APIs de ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis). Exemplos de ações incluem o isolamento de um dispositivo, a execução de uma verificação antivírus e a obter informações sobre um arquivo. |
+
 ## <a name="required-permissions-for-action-center-tasks"></a>Permissões necessárias para tarefas da Central de ações
 
 Para aprovar ou rejeitar ações pendentes na Central de ações, você deve ter permissões atribuídas conforme listado na tabela a seguir:
@@ -93,7 +113,7 @@ Para aprovar ou rejeitar ações pendentes na Central de ações, você deve ter
 |Ação de correção |Funções e permissões necessárias |
 |--|----|
 |Correção de ponto de extremidade do Microsoft defender (dispositivos) |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---ou---<br/>Função de ações de correção ativa atribuída no Microsoft defender para ponto de extremidade <br/> <br/> Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Criar e gerenciar funções para controle de acesso baseado em função (Microsoft defender para ponto de extremidade)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Correção do Microsoft defender para Office 365 (conteúdo e email do Office)  |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>A função de pesquisa e limpeza atribuiu o centro de conformidade de & de segurança ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**Importante** : se você tiver a função de administrador de segurança atribuída somente no centro de conformidade & segurança, não será possível acessar a central de ações ou os recursos do Microsoft 365 defender. Você deve ter a função Administrador de Segurança atribuída no Azure Active Directory ou no centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Correção do Microsoft defender para Office 365 (conteúdo e email do Office)  |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>A função de pesquisa e limpeza atribuiu o centro de conformidade de & de segurança ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**Importante**: se você tiver a função de administrador de segurança atribuída somente no centro de conformidade & segurança, não será possível acessar a central de ações ou os recursos do Microsoft 365 defender. Você deve ter a função Administrador de Segurança atribuída no Azure Active Directory ou no centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!NOTE]
 > Os usuários que têm a função Administrador Global atribuída no Azure Active Directory podem aprovar ou rejeitar qualquer ação pendente na Central de ações. No entanto, como uma prática recomendada, sua organização deve limitar o número de pessoas que têm a função de Administrador Global atribuída. É recomendável usar o Administrador de Segurança, Ações de correção ativa e as funções Pesquisar e Limpar, listadas acima, para permissões da Central de ações.

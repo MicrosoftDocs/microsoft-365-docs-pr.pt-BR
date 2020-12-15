@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 02c79edaa05e7903a8797cdf83c18a4ce69716dc
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 8ebfe5746a69cc0161c38f0467954fabb3839240
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920531"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683338"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar a postura de segurança com a pontuação segura da Microsoft
 
@@ -36,10 +36,8 @@ A pontuação segura da Microsoft é uma medida da postura de segurança de uma 
 Para ajudá-lo a obter mais rapidamente as informações de que você precisa, as ações de melhoria da Microsoft são organizadas em grupos:
 
 * Identity (contas do Azure Active Directory & funções)
-* Dados (sem ações de melhoria por enquanto)
 * Dispositivo (Microsoft defender para ponto de extremidade, conhecido como [Pontuação segura da Microsoft para dispositivos](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * Aplicativo (aplicativos de email e de nuvem, incluindo o Office 365 e o Microsoft Cloud app Security)
-* Infraestrutura (sem ações de melhoria por enquanto)
 
 >[!NOTE]
 >Na versão recente da Pontuação de segurança da Microsoft, foi lançado um modelo de Pontuação aprimorado que tornou a pontuação segura da Microsoft temporariamente incompatível com a pontuação segura de identidade e a API do Graph. [Exibir detalhes](microsoft-secure-score-whats-new.md)
@@ -56,9 +54,9 @@ Além disso, se você selecionar o botão **incluir** ao lado da sua pontuação
 
 Veja a seguir as pontuações que você pode adicionar ao seu modo de exibição de sua pontuação geral para fornecer uma visão mais completa de sua pontuação geral:
 
-- **Pontuação planejada** : mostrar a pontuação projetada quando as ações planejadas são concluídas
-- **Pontuação da licença atual** : mostrar a pontuação que pode ser obtida com sua licença atual da Microsoft
-- **Pontuação atingível** : mostrar a pontuação que pode ser obtida com suas licenças da Microsoft e a aceitação de riscos atual
+- **Pontuação planejada**: mostrar a pontuação projetada quando as ações planejadas são concluídas
+- **Pontuação da licença atual**: mostrar a pontuação que pode ser obtida com sua licença atual da Microsoft
+- **Pontuação atingível**: mostrar a pontuação que pode ser obtida com suas licenças da Microsoft e a aceitação de riscos atual
 
 Este modo de exibição é parecido se você incluiu todos os modos de exibição de Pontuação possíveis:
 
@@ -114,7 +112,7 @@ A seção **implementação** mostra todos os pré-requisitos, as próximas etap
 
 Os pré-requisitos incluem todas as licenças que precisam ser obtidas ou ações que precisam ser concluídas para que a ação de aprimoramento seja resolvida. Certifique-se de que você tem estações suficientes em sua licença para concluir a ação de melhoria e que essas licenças são aplicadas aos usuários necessários.  
 
-## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
+## <a name="we-want-to-hear-from-you"></a>Queremos ouvir de você
 
 Se você tiver problemas, fale conosco postando na Comunidade [segurança, privacidade & conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . Estamos monitorando a Comunidade e forneceremos ajuda.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft defender para Office 365.
-ms.openlocfilehash: 34c66d8ab39af443462e8c5ac99009b4170be21e
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 43736fbd42949a084804825ec7f12d19b7fd1818
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659849"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683036"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -43,12 +43,12 @@ As diferenças de alto nível entre políticas anti-phishing no EOP e nas polít
 
 |Recurso|Políticas anti-phishing no EOP|Políticas anti-phishing no Microsoft defender para Office 365|
 |---|:---:|:---:|
-|Política padrão criada automaticamente|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Criar políticas personalizadas|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Configurações de política<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Configurações de representação||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Configurações de spoof|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Limites avançados de phishing||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Política padrão criada automaticamente|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Criar políticas personalizadas|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Configurações de política<sup>\*</sup>|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Configurações de representação||![Marca de seleção](../../media/checkmark.png)|
+|Configurações de spoof|![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|Limites avançados de phishing||![Marca de seleção](../../media/checkmark.png)|
 |
 
 <sup>\*</sup> Na política padrão, o nome e a descrição da política são somente leitura (a descrição está em branco) e não é possível especificar a quem a política se aplica (a política padrão se aplica a todos os destinatários).

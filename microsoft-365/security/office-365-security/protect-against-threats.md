@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 description: Os administradores podem saber mais sobre a proteção contra ameaças no Microsoft 365 e configurar como usá-la para sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 646fff4550de2e07342c0fef04952846db65a8eb
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 3eec37f01bb39dda9f767ad32be96bbff43a2ee0
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615115"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683242"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -36,7 +36,7 @@ Aqui está um guia de início rápido que divide a configuração do defender pa
 > [!IMPORTANT]
 > **As configurações iniciais recomendadas são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades específicas da sua organização**. Aguarde aproximadamente 30 minutos para que as políticas ou as alterações funcionem da mesma forma por meio do datacenter.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -54,7 +54,7 @@ Os recursos de proteção contra ameaças estão incluídos em *todas as* assina
 |Proteção anti-phishing|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Proteção antispam|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Limpeza automática de zero horas (para email)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|Proteção contra URLs e arquivos mal-intencionados em emails e documentos do Office (links seguros e anexos seguros)|[Microsoft defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Proteção contra URLs e arquivos mal-intencionados em emails e documentos do Office (links seguros e anexos seguros)|[Obter o Microsoft Defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 |Ativar a ATP para cargas de trabalho do SharePoint, OneDrive e Microsoft Teams|[Defender para Office 365 ](atp-for-spo-odb-and-teams.md)|
 |Proteção anti-phishing avançada|[O que é o Defender para Office 365?](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
@@ -179,9 +179,9 @@ Para configurar [links seguros](atp-safe-links.md), revise e edite suas configur
 
 1. No [centro de conformidade do & de segurança](https://protection.office.com), escolha links seguros de ATP da política de gerenciamento de **ameaças** \>  \> e clique em **configurações globais** e defina as seguintes configurações:
 
-   - Verify **use Safe links in: os aplicativos do Office 365** estão ativados: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - Verify **use Safe links in: os aplicativos do Office 365** estão ativados: ![ Ativar/desativar ](../../media/scc-toggle-on.png) .
    - **Não rastrear quando os usuários clicarem em links seguros**: desativar esta configuração para rastrear cliques do usuário: desativar ![ ](../../media/scc-toggle-off.png) .
-   - **Não permitir que os usuários cliquem em links seguros para a URL original**: Verifique se esta configuração está ativada: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Não permitir que os usuários cliquem em links seguros para a URL original**: Verifique se esta configuração está ativada: ![ Ativar/desativar ](../../media/scc-toggle-on.png) .
 
    Quando concluir, clique em **Salvar**.
 
@@ -216,7 +216,7 @@ Cargas de trabalho como o SharePoint, o OneDrive e o Microsoft Teams são criada
 
 1. No [centro de conformidade & segurança](https://protection.office.com), escolha a política de **Gerenciamento de ameaças** \>  \> e **anexos seguros de ATP** e clique em **configurações globais**.
 
-2. Verifique se a **opção Ativar ATP para SharePoint, onedrive e Microsoft Teams** está ativada para a direita: ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) e clique em **salvar**.
+2. Verifique se a **opção Ativar ATP para SharePoint, onedrive e Microsoft Teams** está ativada para a direita: ![ Ativar/desativar ](../../media/scc-toggle-on.png) e clique em **salvar**.
 
 3. Revise (e, conforme apropriado, edite) as [políticas de anexos seguros](set-up-atp-safe-attachments-policies.md) da sua organização e [as políticas de links seguros](set-up-atp-safe-links-policies.md).
 

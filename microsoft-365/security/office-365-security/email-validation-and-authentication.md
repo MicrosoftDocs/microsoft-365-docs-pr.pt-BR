@@ -173,7 +173,7 @@ Para permitir que esse remetente envie emails não autenticados, altere **No** p
 
 ![Configurar remetentes permitidos pela antifalsificação](../../media/d4334921-d820-4334-8217-788279701e94.jpg)
 
-### <a name="create-an-allow-entry-for-the-senderrecipient-pair"></a>Criar uma permissão de entrada para o par remetente/destinatário
+### <a name="create-an-allow-entry-for-the-senderrecipient-pair"></a>Crie uma permissão de entrada para o par remetente/destinatário
 
 Para ignorar a filtragem de spam, algumas partes da filtragem de phishing, mas não a filtragem de malware de remetentes específicos, confira [Criar listas de remetentes confiáveis no Microsoft 365](create-safe-sender-lists-in-office-365.md).
 

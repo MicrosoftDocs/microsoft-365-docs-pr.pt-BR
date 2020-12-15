@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a configurar entradas de URL na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: 4bf5e2e29a9f48c434be527a2447ca4bf98c4208
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f60e2f29bf9b880e9d2247fa59554300ae348a03
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659993"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683206"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na Lista de Permissões/Bloqueios de Locatários
 
@@ -36,7 +36,7 @@ A lista de permissões/bloqueios de locatários no centro de conformidade do & d
 
 Este tópico descreve como configurar entradas na lista de permissões/bloqueios de locatário no centro de conformidade & segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; autônomo do EOP PowerShell para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **lista de permissões/bloqueios de locatários** , use <https://protection.office.com/tenantAllowBlockList> .
 
@@ -83,7 +83,7 @@ Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da U
 
      ou
 
-     - Mova a opção para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - Mova a opção para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
    - **Observação opcional**: insira texto descritivo para as entradas.
 
@@ -111,7 +111,7 @@ Clique em **filtro**. No submenu de **filtro** que aparece, configure qualquer u
 
 - **Ação**: selecione **permitir**, **Bloquear** ou ambos.
 
-- **Nunca expirar**: selecione Desativado (desativar ![ ](../../media/scc-toggle-off.png) ) ou ativado ( ![ Ativar/desativar ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) ).
+- **Nunca expirar**: selecione desativado: desativar ![ ](../../media/scc-toggle-off.png) ou ativar: ![ Ativar/desativar ](../../media/scc-toggle-on.png) .
 
 - **Última atualização**: selecione uma data de início (**de**), uma data de término (**para**) ou ambas.
 
@@ -141,7 +141,7 @@ Você não pode modificar o próprio valor de URL. Em vez disso, você precisa e
 
      ou
 
-     - Mova a opção para a direita para configurar a entrada para nunca expirar: ![Ativar](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - Mova a opção para a direita para configurar a entrada para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
    - **Observação opcional**: insira texto descritivo para a entrada.
 

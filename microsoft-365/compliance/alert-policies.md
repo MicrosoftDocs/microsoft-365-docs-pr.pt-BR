@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: b6a1689ab475b9518c290bf3db03d2144610bf8b
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 5749b38ca9b72c859e9c553ccbb4fe6a44be9754
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367174"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682954"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -146,7 +146,7 @@ A atividade incomum monitorada por algumas das políticas internas é baseada no
 
 Quando uma atividade realizada pelos usuários em sua organização corresponde às configurações de uma política de alerta, um alerta é gerado e exibido na página **exibir alertas** no centro de segurança e conformidade. Dependendo das configurações de uma política de alerta, uma notificação por email também é enviada para uma lista de usuários especificados quando um alerta é disparado. Para cada alerta, o painel na página **exibir alertas** exibe o nome da política de alerta correspondente, a gravidade e a categoria para o alerta (definido na política de alerta) e o número de vezes que uma atividade ocorreu, resultando na geração do alerta. Esse valor é baseado na configuração de limite da política de alerta. O painel também mostra o status de cada alerta. Para obter mais informações sobre como usar a propriedade status para gerenciar alertas, consulte a seção [Managing Alerts](#managing-alerts) .
 
-Para exibir alertas, vá para [https://protection.office.com](https://protection.office.com) e selecione alertas **Alerts** \> **exibir alertas**.
+Para exibir alertas, vá para [https://protection.office.com](https://protection.office.com) e selecione alertas  \> **exibir alertas**.
 
 ![Na segurança e conformidade, selecione alertas e, em seguida, selecione exibir alertas para exibir alertas](../media/ec5ea59b-bf61-459f-8b65-970ab4bb8bcc.png)
 
@@ -213,37 +213,37 @@ A tabela a seguir lista as funções necessárias para exibir alertas das seis c
 
 Para ver a qual categoria uma política de alerta padrão é atribuída, confira a tabela na seção [políticas de alerta padrão](#default-alert-policies) .
 
-|Role|Governança de informações|Prevenção contra perda de dados|Fluxo de emails|Permissões|Gerenciamento de ameaças|Outros|
+|Função|Governança de informações|Prevenção contra perda de dados|Fluxo de emails|Permissões|Gerenciamento de ameaças|Outros|
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Logs de auditoria|||||||
 |Gerenciamento de casos|||||||
-|Administrador de Conformidade|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Administrador de Conformidade|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||![Marca de seleção](../media/checkmark.png)||![Marca de seleção](../media/checkmark.png)|
 |Pesquisa de Conformidade|||||||
 |Gerenciamento de dispositivo|||||||
 |Gerenciamento de descarte|||||||
-|Gerenciamento de conformidade de DLP||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
-|Exportar|||||||
+|Gerenciamento de conformidade de DLP||![Marca de seleção](../media/checkmark.png)|||||
+|Exportação|||||||
 |Retenção|||||||
-|Gerenciar Alertas||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Configuração da organização||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Gerenciar Alertas||||||![Marca de seleção](../media/checkmark.png)|
+|Configuração da organização||||||![Marca de seleção](../media/checkmark.png)|
 |Visualização|||||||
-|Gerenciamento de registros|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
-|Gerenciamento de retenção|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
+|Gerenciamento de registros|![Marca de seleção](../media/checkmark.png)||||||
+|Gerenciamento de retenção|![Marca de seleção](../media/checkmark.png)||||||
 |Analisar|||||||
 |Descriptografia do RMS|||||||
-|Gerenciamento de função||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|Gerenciamento de função||||![Marca de seleção](../media/checkmark.png)|||
 |Pesquisa e limpeza|||||||
-|Administrador de Segurança||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Leitor de segurança||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)
+|Administrador de Segurança||![Marca de seleção](../media/checkmark.png)||![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|
+|Leitor de segurança||![Marca de seleção](../media/checkmark.png)||![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)
 |Exibição da garantia de serviço|||||||
 |Administrador de análise de supervisão|||||||
 |View-Only logs de auditoria|||||||
 |View-Only gerenciamento de dispositivos|||||||
-|View-Only gerenciamento de conformidade com DLP||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
-|View-Only Gerenciar alertas||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Destinatários Somente para Exibição|||  ![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||
-|Gerenciamento de registros de View-Only|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
-|Gerenciamento de retenção de View-Only|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||||
+|View-Only gerenciamento de conformidade com DLP||![Marca de seleção](../media/checkmark.png)|||||
+|View-Only Gerenciar alertas||||||![Marca de seleção](../media/checkmark.png)|
+|Destinatários Somente para Exibição|||![Marca de seleção](../media/checkmark.png)||||
+|Gerenciamento de registros de View-Only|![Marca de seleção](../media/checkmark.png)||||||
+|Gerenciamento de retenção de View-Only|![Marca de seleção](../media/checkmark.png)||||||
 |||||||
 
 > [!TIP]

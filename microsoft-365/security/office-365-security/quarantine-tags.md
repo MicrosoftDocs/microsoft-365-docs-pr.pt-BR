@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Os administradores podem aprender a usar as marcas de quarentena para controlar o que os usuários podem fazer com as mensagens em quarentena.
-ms.openlocfilehash: 498a5f45fa62481f7f4f8dfe5ece8a51a038f99a
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 167f147d7c74b78b1a1661b5444625fbf1cf3d41
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616003"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683062"
 ---
 # <a name="quarantine-tags"></a>Marcas de quarentena
 
@@ -44,12 +44,12 @@ As permissões individuais disponíveis e o que está incluído ou não incluíd
 
 |Permissão|Sem acesso|Acesso limitado|Acesso completo|
 |---|:---:|:---:|:---:|
-|**Permitir remetente** (_PermissionToAllowSender_)|||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Bloquear remetente** (_PermissionToBlockSender_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Excluir** (_PermissionToDelete_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Visualização** (_PermissionToPreview_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Permitir que os destinatários liberem uma mensagem da quarentena** (_PermissionToRelease_)|||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Permitir que os destinatários solicitem uma mensagem a ser liberada da quarentena** (_PermissionToRequestRelease_)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|**Permitir remetente** (_PermissionToAllowSender_)|||![Marca de seleção](../../media/checkmark.png)|
+|**Bloquear remetente** (_PermissionToBlockSender_)||![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|**Excluir** (_PermissionToDelete_)||![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|**Visualização** (_PermissionToPreview_)||![Marca de seleção](../../media/checkmark.png)|![Marca de seleção](../../media/checkmark.png)|
+|**Permitir que os destinatários liberem uma mensagem da quarentena** (_PermissionToRelease_)|||![Marca de seleção](../../media/checkmark.png)|
+|**Permitir que os destinatários solicitem uma mensagem a ser liberada da quarentena** (_PermissionToRequestRelease_)||![Marca de seleção](../../media/checkmark.png)||
 |
 
 Se você não gostar das permissões padrão nos grupos de permissão predefinidos, poderá usar permissões personalizadas ao criar ou modificar as marcas de quarentena personalizadas. Para obter mais informações sobre o que cada permissão faz, consulte a seção [detalhes da permissão de marca de quarentena](#quarantine-tag-permission-details) mais adiante neste artigo.
@@ -58,7 +58,7 @@ Você cria e atribui as marcas de quarentena no centro de conformidade & seguran
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página de **marcas de quarentena** , abra <https://protection.office.com/quarantineTags> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **marcas de quarentena** , abra <https://protection.office.com/quarantineTags> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -66,7 +66,7 @@ Você cria e atribui as marcas de quarentena no centro de conformidade & seguran
 
 ## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>Etapa 1: criar marcas de quarentena no centro de conformidade e segurança &
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \>  e selecione **marcas de quarentena**.
 
 2. Na página **marcas de quarentena** , selecione **adicionar marca personalizada**.
 
@@ -243,7 +243,7 @@ Se você estiver satisfeito com as permissões de usuário final fornecidas pela
 
 Instruções completas para a criação e modificação de políticas antispam são descritas em [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> e selecione **anti-spam**. Ou abra <https://protection.office.com/antispam> .
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \>  \> e selecione **anti-spam**. Ou abra <https://protection.office.com/antispam> .
 
 2. Encontre e selecione uma política antispam existente para editar ou crie uma nova política antispam.
 
@@ -304,7 +304,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Set-H
 
 As configurações globais para marcas de quarentena permitem que você personalize as notificações de spam do usuário final que são enviadas aos destinatários das mensagens que foram colocadas em quarentena. Para obter mais informações sobre essas notificações, consulte [end-user spam Notifications](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \>  e selecione **marcas de quarentena**.
 
 2. Na página **marcas de quarentena** , selecione **configurações globais**.
 
@@ -340,7 +340,7 @@ As configurações globais para marcas de quarentena permitem que você personal
 
 ## <a name="view-quarantine-tags-in-the-security--compliance-center"></a>Exibir as marcas de quarentena no centro de conformidade e segurança &
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \>  e selecione **marcas de quarentena**.
 
 - Para exibir as configurações de marcas de quarentena internas ou personalizadas, selecione a marca de quarentena na lista (não marque a caixa de seleção).
 
@@ -384,7 +384,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 
   Se a marca de quarentena estiver sendo usada, [substitua a marca de quarentena atribuída antes de](#step-2-assign-a-quarantine-tag-to-supported-features) removê-la.
 
-1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** e selecione **marcas de quarentena**.
+1. No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \>  e selecione **marcas de quarentena**.
 
 2. Na página **marcas de quarentena** , selecione a marca de quarentena personalizada que você deseja remover e clique em **excluir marca**.
 
