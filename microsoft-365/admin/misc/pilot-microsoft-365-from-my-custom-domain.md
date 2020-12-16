@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Aprenda a usar o recurso de email piloto do meu domínio personalizado para uma caixa de correio do Microsoft 365 usando apenas duas contas de teste.
-ms.openlocfilehash: 8bb04edc9a7879edc2094f1fed667d5956174ea3
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 6cc5b1163f666af4bd13047ab3b1fda7fd747b5f
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295029"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688212"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Piloto do Microsoft 365 a partir do meu domínio personalizado
 
@@ -39,6 +39,8 @@ Você pode usar o Microsoft 365 piloto com estes requisitos e limitações:
 - Os administradores não podem administrar todas as contas de usuário a partir de um único local.
 
 - Os usuários podem não conseguir usar a filtragem de spam do Microsoft 365.
+
+- Isso é recomendado para um número muito pequeno de usuários e aplicável somente ao uso de email para um piloto.
 
 ## <a name="set-up-a-microsoft-365-pilot"></a>Configurar um piloto do Microsoft 365
 
@@ -58,7 +60,7 @@ Siga estas etapas para configurar um piloto do Microsoft 365:
 
 3. Selecione os serviços que você deseja testar com seu domínio, como email e mensagens instantâneas.
 
-5. Na página**Verificar domínio**, siga as instruções passo a passo e selecione **Verificar**.
+5. Na página **Verificar domínio**, siga as instruções passo a passo e selecione **Verificar**.
 
     Leva entre alguns minutos e até 72 horas para que as alterações de DNS entrem em vigor.
 
@@ -83,7 +85,7 @@ O Microsoft 365 usa a Proteção do Exchange Online (EOP) para a proteção cont
 
 1. No painel de navegação do centro de administração do Exchange, selecione **Proteção** e, em seguida, selecione **Filtro de conexão**.
 
-2. Na **Lista de IP Permitidos**, selecione**+** e adicione o endereço IP do servidor de email do seu provedor de email atual. 
+2. Na **Lista de IP Permitidos**, selecione **+** e adicione o endereço IP do servidor de email do seu provedor de email atual. 
 
 ### <a name="step-5-create-user-accounts-and-set-the-primary-reply-to-address"></a>Etapa 5: Crie contas de usuário e defina o endereço principal para resposta 
 
@@ -189,4 +191,3 @@ Como você está movendo apenas dois usuários de teste, e o usuário A e o usu�
 
 Depois de importá-los para os locais apropriados na caixa de correio do Microsoft 365, os itens podem ser acessados em qualquer dispositivo, em qualquer lugar.
 
-Quando mais caixas de correio estiverem envolvidas ou se os funcionários não estiverem usando o Outlook, você poderá usar as ferramentas de migração disponíveis no centro de administração do Exchange. Para começar, vá para o centro de administração do Exchange e siga as instruções em [Migrar Email de um Servidor IMAP para as Caixas de Correio do Exchange Online](https://docs.microsoft.com/exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes).
