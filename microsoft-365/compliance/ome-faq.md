@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efccbdf2be33fb771e7e68ba5a0b3dafa82d9ce8
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a83e8b05f59ff05d22422431683e26b11bb8a780
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546055"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688602"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -96,15 +96,19 @@ Os usuários locais podem enviar mensagens criptografadas usando regras de fluxo
   
 ## <a name="what-email-client-do-i-need-to-use-in-order-to-create-an-ome-encrypted-message-what-applications-are-supported-for-sending-protected-messages"></a>Qual cliente de email preciso usar para criar uma mensagem criptografada do OME? Quais aplicativos têm suporte para o envio de mensagens protegidas?
 
-Você pode criar mensagens protegidas do Outlook 2016 e do Outlook 2013 para Windows e Mac e do Outlook na Web.
+Você pode criar mensagens protegidas no Outlook 2016, Outlook 2013 para Windows e Mac e no Outlook na Web. Para obter mais informações sobre o envio de mensagens criptografadas, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us).
   
 ## <a name="what-email-clients-are-supported-to-read-and-reply-to-protected-emails"></a>Quais clientes de email têm suporte para ler e responder a emails protegidos?
 
 Os usuários do Microsoft 365 podem ler e responder do Outlook para Windows e Mac (2013 e 2016), Outlook na Web e Outlook Mobile (Android e iOS). Você também pode usar o cliente de correio nativo do iOS se sua organização permitir. Se você não for um usuário do Microsoft 365, poderá ler e responder a mensagens criptografadas na Web através do navegador da Web.
-  
+
+## <a name="what-email-clients-support-the-encrypt-only-protected-emails"></a>Quais clientes de email dão suporte aos emails protegidos por criptografia?
+
+Os usuários do Microsoft 365 podem usar o Outlook para PC versões 2019 e o Microsoft 365 para criar email protegido com a política somente criptografia.  Isso significa que as mensagens que têm a nova política de criptografia aplicada podem ser lidas diretamente no Outlook na Web, no Outlook para iOS e no Android e agora no Outlook para o PC versões 2019 e Microsoft 365.
+
 ## <a name="is-there-a-size-limit-for-messages-you-can-send-with-ome"></a>Há um limite de tamanho para mensagens que você pode enviar com o OME?
 
-Sim. O tamanho máximo de mensagem que você pode enviar com OME, incluindo anexos, é de 30 MB.
+Sim. O tamanho máximo de mensagem que você pode enviar com o OME, incluindo os anexos, é de 25 MB. Para obter mais informações, consulte [Message Limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits-1).
 
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>Quais tipos de arquivo são suportados como anexos em emails protegidos? Os anexos herdam as políticas de proteção associadas a emails protegidos?
 
@@ -138,6 +142,11 @@ Not yet. Não há suporte para anexos do OneDrive for Business, e os usuários f
 ## <a name="what-email-clients-support-preview-of-encrypted-attachments-in-protected-emails"></a>Quais clientes de email dão suporte à visualização de anexos criptografados em emails protegidos?
 
 Quando os anexos são protegidos com um email protegido, os clientes do Outlook oferecem a capacidade do tha de visualizar o documento diretamente. O Outlook oferece suporte à visualização de documentos do Office (docx, xlsx, pptx, Doc, xls, ppt). O Outlook na Web oferece suporte à visualização de documentos do Office (docx, xlsx, pptx) e PDF.  
+
+## <a name="what-email-clients-support-revocation-of-protected-emails"></a>Quais clientes de email suportam revogação de emails protegidos?
+
+O Outlook na Web suporta revogação de email protegido.  Confira [como revogar uma mensagem criptografada que você enviou](https://docs.microsoft.com/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#how-to-revoke-an-encrypted-message-that-you-sent) para obter detalhes.
+
 
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>Posso criptografar mensagens automaticamente Configurando políticas?
 

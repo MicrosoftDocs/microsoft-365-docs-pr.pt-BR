@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4b25f701aca24563dc4f1a15f78a80e1e2064367
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: 253e85da7bb85a0722831851f00051a50a96153e
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604378"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688406"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
@@ -34,6 +34,17 @@ ms.locfileid: "49604378"
 Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md)
 
 A pontuação segura da Microsoft pode ser encontrada em https://security.microsoft.com/securescore na [central de segurança do Microsoft 365](overview-security-center.md).
+
+## <a name="december-2020"></a>Dezembro de 2020
+
+### <a name="added-6-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas 6 ações de melhoria relacionadas a contas para o Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
+
+- Defina ' comprimento mínimo da senha ' para ' 14 ou mais caracteres '
+- Defina ' Aplicar histórico de senhas ' como ' 24 ou mais senha (s) '
+- Defina "duração máxima da senha" como "60" ou menos dias, mas não 0 "
+- Defina "duração mínima da senha" como "1 ou mais dia (s)"
+- Desabilitar a conta de administrador interna
+- Desabilitar a conta de convidado interna
 
 ## <a name="november-2020"></a>Novembro de 2020
 

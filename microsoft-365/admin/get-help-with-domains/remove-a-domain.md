@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: cddbb0ef9cf48147e33b93a4a8def15576edfab5
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 02ec704e400af76c25c0eb54de10291e2ef3caa2
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655525"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688256"
 ---
 # <a name="remove-a-domain"></a>Excluir um domínio
 
@@ -219,9 +219,9 @@ Se você tem centenas ou milhares de usuários, use o PowerShell para fazer uma 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> Você não pode remover o domínio [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) da sua conta.
+> Você não pode remover o domínio [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) da sua conta. Quando você remove um domínio, as contas de usuário serão revertidas para o endereço ". onmicrosoft.com" como SMTP/UserprincipalName principal.
   
-Ainda não funciona? É possível que seja necessário remover seu domínio manualmente. [Ligue para nós](../contact-support-for-business-products.md). Ajudaremos você com essa questão!
+Ainda não está funcionando? Seu domínio pode precisar ser removido manualmente. [Envie-nos um telefonema](../contact-support-for-business-products.md) e ajudaremos você a cuidar disso!
   
 ::: moniker-end
 

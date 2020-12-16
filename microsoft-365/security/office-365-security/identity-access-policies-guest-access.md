@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: c2c01278831433c02e5c869dba83f223eea57d27
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 376845d8e3657b91b9efe0357e94f4bec3a84078
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683230"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688269"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Políticas para permitir acesso B2B e de convidado externo
 
@@ -44,7 +44,7 @@ A tabela a seguir lista as políticas que você precisa criar e atualizar. O lin
 
 |Nível de Proteção|Políticas|Mais informações|
 |---|---|---|
-|**Baseline**|[Exigir a MFA sempre para usuários convidados e externos](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Crie essa nova política e configure: <ul><li> Para as **atribuições > usuários e grupos > incluir**, escolha **Selecionar usuários e grupos** e, em seguida, selecione **todos os usuários convidados e externos**. </li><li> Para **atribuições > condições > entrar**, deixe todas as opções desmarcadas para sempre impor a autenticação multifator (MFA).</li>|
+|**Baseline**|[Exigir a MFA sempre para usuários convidados e externos](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Crie essa nova política e configure: <ul><li>Para as **atribuições > usuários e grupos > incluir**, escolha **Selecionar usuários e grupos** e, em seguida, selecione **todos os usuários convidados e externos**.</li><li>Para **atribuições > condições > entrar**, deixe todas as opções desmarcadas para sempre impor a autenticação multifator (MFA).</li></ul>|
 ||[Exigir MFA quando o risco de entrada for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Modifique esta política para excluir usuários convidados e externos.|
 ||[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Modifique esta política para excluir usuários convidados e externos.|
 

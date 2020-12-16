@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Resumo: '
-ms.openlocfilehash: 76cad72d742f6bf7ab6ddd1f90bfe0e5a2435df1
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 35d11825148af883299aed1bcb2346d26d52408c
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49552080"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688672"
 ---
 # <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Como aceitar a migração do Microsoft Cloud Alemanha (Microsoft Cloud Deutschland) para os serviços do Office 365 nas novas regiões de datacenter alemãs
 
@@ -79,7 +79,7 @@ Mover-se pela transição:
 
 - [Ações e impactos das fases de migração](ms-cloud-germany-transition-phases.md)
 - [Pré-trabalho adicional](ms-cloud-germany-transition-add-pre-work.md)
-- Informações adicionais para [Serviços](ms-cloud-germany-transition-add-general.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Informações adicionais para o [Azure ad](ms-cloud-germany-transition-azure-ad.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Aplicativos de nuvem:
 

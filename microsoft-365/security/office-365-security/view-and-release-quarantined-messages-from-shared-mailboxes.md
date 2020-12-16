@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Os usuários podem aprender a exibir e agir em mensagens em quarentena que foram enviadas a caixas de correio compartilhadas às quais têm permissões.
-ms.openlocfilehash: 0c165395edc3a3032ece603cb8d9aac875443d7d
-ms.sourcegitcommit: 26c2f01d6f88f6c288b04f9f08062d68dd1e67e1
+ms.openlocfilehash: 34a401d3bff66926acd3e04d7144ce465dfa3dbb
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570923"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688024"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>Exibir e liberar mensagens em quarentena de caixas de correio compartilhadas
 
@@ -47,16 +47,6 @@ Independentemente do método, os usuários podem evitar confusão, incluindo a c
 ## <a name="things-to-keep-in-mind"></a>Tenha em mente
 
 - O primeiro usuário a atuar na mensagem em quarentena decide o mão da mensagem para todos os usuários que usam a caixa de correio compartilhada. Por exemplo, se uma caixa de correio compartilhada for acessada por 10 usuários e um usuário decidir excluir a mensagem de quarentena, a mensagem será excluída para todos os 10 usuários. Da mesma forma, se um usuário decidir liberar a mensagem, ele é liberado para a caixa de correio compartilhada e é acessível por todos os outros usuários da caixa de correio compartilhada.
-
-- Atualmente, se um usuário selecionar várias mensagens em quarentena que foram enviadas para a caixa de correio compartilhada, os seguintes erros enganosas serão retornados quando o usuário clicar em **liberar mensagens** ou **excluir mensagens** no submenu **ações em massa** :
-
-  > Você não tem permissão para liberar todas as mensagens em quarentena selecionadas.
-  >
-  > Você não tem permissão para excluir todas as mensagens em quarentena selecionadas.
-
-  Independentemente do erro, a ação é executada nas mensagens e o erro pode ser ignorado.
-
-  ![Falso erro ao liberar ou excluir mensagens em quarentena enviadas para uma caixa de correio compartilhada.](../../media/quarantine-bulk-action-error.png)
 
 - No momento, o botão **bloquear remetente** não está disponível no submenu **detalhes** das mensagens em quarentena que foram enviadas para a caixa de correio compartilhada.
 

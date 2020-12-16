@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: 69e12d46ae4106a399a8eeff49ebbe0f2a3055e2
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: fed181649696c7f5a92850943e1dd980b42aa819
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841282"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688418"
 ---
 # <a name="set-up-customer-key"></a>Configurar a chave do cliente
 
@@ -31,9 +31,9 @@ Você deve configurar o Azure antes de poder usar a chave do cliente para o Offi
   
 ## <a name="before-you-set-up-customer-key"></a>Antes de configurar a chave do cliente
 
-Antes de começar, verifique se você tem o licenciamento apropriado para sua organização. A partir de 1º de abril de 2020, a chave de cliente no Office 365 é oferecida no Office 365 e5, M365 e5, M365 E5 conformidade e M365 E5 proteção de informações & SKUs de governança. Office 365 a SKU de conformidade avançada não está mais disponível para novas licenças do aquisição. As licenças de conformidade avançada existentes do Office 365 continuarão a ser suportadas.
+Antes de começar, verifique se você tem o licenciamento apropriado para sua organização. Use uma assinatura paga do Azure faturada usando um contrato corporativo ou um provedor de serviços de nuvem. As assinaturas do Azure adquiridas usando planos de pagamento à medida que você passa ou usando um cartão de crédito não têm suporte para a chave do cliente. A partir de 1º de abril de 2020, a chave de cliente no Office 365 é oferecida no Office 365 e5, M365 e5, M365 E5 conformidade e M365 E5 proteção de informações & SKUs de governança. Office 365 a SKU de conformidade avançada não está mais disponível para novas licenças do aquisição. As licenças de conformidade avançada existentes do Office 365 continuarão a ser suportadas.
 
-Antes de começar, verifique se você tem o licenciamento apropriado para sua organização e se sua conta está faturada e não é paga por um cartão de crédito. Para entender os conceitos e os procedimentos deste tópico, revise a documentação do [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Além disso, familiarize-se com os termos usados no Azure, por exemplo, o [locatário do Azure ad](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant).
+Para entender os conceitos e os procedimentos deste tópico, revise a documentação do [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Além disso, familiarize-se com os termos usados no Azure, por exemplo, o [locatário do Azure ad](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant).
 
 O FastTrack é usado apenas para coletar as informações de locatário e configuração de serviço necessárias usadas para registrar-se na chave do cliente. As ofertas de chave do cliente são publicadas via FastTrack para que você e nossos parceiros enviem as informações necessárias usando o mesmo método. O FastTrack também facilita o arquivamento dos dados que você fornece na oferta.
   
@@ -141,9 +141,9 @@ Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as
 
 3. Entre em contato com a Microsoft para finalizar o processo. Para a equipe do SharePoint e do OneDrive for Business, entre em contato com [Spock@microsoft.com](mailto:spock@microsoft.com). Para o Exchange Online e o Skype for Business, entre em contato com a [exock@microsoft.com](mailto:exock@microsoft.com). Inclua o seguinte em seu email:
 
-   **Assunto** : chave de cliente para \<*Your tenant's fully-qualified domain name*\>
+   **Assunto**: chave de cliente para \<*Your tenant's fully-qualified domain name*\>
 
-   **Corpo** : IDs de assinatura para as quais você deseja que o período de retenção obrigatório seja concluído.
+   **Corpo**: IDs de assinatura para as quais você deseja que o período de retenção obrigatório seja concluído.
    A saída de Get-AzProviderFeature para cada assinatura.
 
    O contrato de nível de serviço (SLA) para a conclusão desse processo é de cinco dias úteis quando a Microsoft é notificada (e verificada) que você registrou suas assinaturas para usar um período de retenção obrigatório.
@@ -254,7 +254,7 @@ Para habilitar a exclusão reversível nos seus cofres de chaves, conclua estas 
    Set-AzResource -ResourceId $r.ResourceId -Properties $r.Properties
    ```
 
-3. Confirmar se a exclusão reversível está configurada para o cofre de chaves executando o cmdlet **Get-AzKeyVault** . Se a exclusão reversível estiver configurada corretamente para o cofre de chaves, a propriedade de _exclusão reversível_ retornará um valor **true** :
+3. Confirmar se a exclusão reversível está configurada para o cofre de chaves executando o cmdlet **Get-AzKeyVault** . Se a exclusão reversível estiver configurada corretamente para o cofre de chaves, a propriedade de _exclusão reversível_ retornará um valor **true**:
 
    ```powershell
    Get-AzKeyVault -VaultName <vault name> | fl
@@ -307,7 +307,7 @@ Para verificar o nível de recuperação de uma chave, no PowerShell do Azure, e
 (Get-AzKeyVaultKey -VaultName <vault name> -Name <key name>).Attributes
 ```
 
-Se a propriedade de _nível de recuperação_ retornar algo diferente de um valor de **recuperável + ProtectedSubscription** , você precisará revisar este tópico e certificar-se de que você seguiu todas as etapas para colocar a assinatura na lista não cancelar e que você tenha a exclusão reversível habilitada em cada um dos seus compartimentos de chave.
+Se a propriedade de _nível de recuperação_ retornar algo diferente de um valor de **recuperável + ProtectedSubscription**, você precisará revisar este tópico e certificar-se de que você seguiu todas as etapas para colocar a assinatura na lista não cancelar e que você tenha a exclusão reversível habilitada em cada um dos seus compartimentos de chave.
   
 ### <a name="back-up-azure-key-vault"></a>Fazer backup do Azure Key Vault
 
@@ -501,7 +501,7 @@ Register-SPODataEncryptionPolicy -PrimaryKeyVaultName 'stageRG3vault' -PrimaryKe
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Criptografia de serviço com a chave do cliente](customer-key-overview.md)
+- [Criptografia do serviço com a Chave de Cliente](customer-key-overview.md)
 
 - [Gerenciar chave do cliente](customer-key-manage.md)
 

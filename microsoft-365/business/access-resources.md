@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamento de arquivos e impressoras de um dispositivo Windows 10 associado ao Azure Active Directory.
-ms.openlocfilehash: 2144268f5cbab67c39d5902622c61c0c35e6481c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 22edf0c23d6318e1f70bcb21b2cd697ea0a75da4
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295301"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688224"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Acessar recursos locais de um dispositivo associado ao Azure AD no Microsoft 365 Business Premium
 
@@ -63,4 +63,4 @@ Se o dispositivo do Windows que você ingressou no Azure no AD tiver ingressado 
 
 - Os usuários não conseguirão se autenticar nos aplicativos que dependem da autenticação do Active Directory. Avalie o aplicativo herdado e considere a atualização para um aplicativo que usa autenticação moderna, se possível.
 
-- A descoberta de impressora do Active Directory não funcionará. Você pode fornecer caminhos de impressora direta para todos os usuários ou usar a [impressão de nuvem híbrida](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
+- A descoberta de impressora do Active Directory não funcionará. Você pode fornecer caminhos de impressora direta para todos os usuários ou usar a [impressão universal](https://aka.ms/UPDocs).

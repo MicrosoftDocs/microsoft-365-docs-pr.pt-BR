@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: informações adicionais sobre o dispositivo em serviços ao migrar do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 941b836871f4ffb7f39f6e144675e9ee15510270
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: 1bbb4bf39db61a93844c21cd6062a70699b5d6d7
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560846"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688648"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Informações adicionais sobre o dispositivo para a migração do Microsoft Cloud Alemanha
 
@@ -247,7 +247,7 @@ Para cancelar o registro e registrar novamente o dispositivo no Android do porta
 3.  No menu reticências (três pontos), selecione **remover dispositivo** e concluir a remoção confirmando na caixa de diálogo.
 4.  Agora você deve estar desconectado do aplicativo portal da empresa. Selecione **entrar** para registrar novamente o dispositivo.
 
-Para obter mais informações sobre as ações necessárias durante a fase de migração dessa carga de trabalho ou o impacto na administração ou no uso, revise as informações sobre o Azure Active Directory em [informações gerais adicionais para a migração do Microsoft Cloud Alemanha](ms-cloud-germany-transition-add-general.md#azure-active-directory).
+Para obter mais informações sobre as ações necessárias durante a fase de migração dessa carga de trabalho ou o impacto na administração ou no uso, revise as informações sobre o Azure Active Directory (Azure AD) em [informações adicionais sobre o Azure ad para a migração do Microsoft Cloud Alemanha](ms-cloud-germany-transition-azure-ad.md).
 
 ## <a name="ios"></a>iOS
 
@@ -283,7 +283,7 @@ Mover-se pela transição:
 
 - [Ações e impactos das fases de migração](ms-cloud-germany-transition-phases.md)
 - [Pré-trabalho adicional](ms-cloud-germany-transition-add-pre-work.md)
-- Informações adicionais para [Serviços](ms-cloud-germany-transition-add-general.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Informações adicionais para o [Azure ad](ms-cloud-germany-transition-azure-ad.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Aplicativos de nuvem:
 

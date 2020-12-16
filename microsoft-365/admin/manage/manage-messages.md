@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Saiba como gerenciar mensagens do centro de mensagens para ajudar no gerenciamento de alterações.
-ms.openlocfilehash: c415120a86b0c095df8ba9cbb4130abda1f6596b
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: 9f64be8396900db3377505fea3e144fffbb3b096
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005817"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688268"
 ---
 # <a name="manage-messages-in-message-center"></a>Gerenciar mensagens no centro de mensagens
 
@@ -33,7 +33,7 @@ Postagens do centro de mensagens são comunicados importantes sobre recursos nov
   
 ## <a name="read-a-message"></a>Ler uma mensagem
 
-Para ir para o centro de mensagens, vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339)e selecione centro de mensagens de **saúde**  >  **Message center**. 
+Para ir para o centro de mensagens, vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339)e selecione centro de mensagens de **saúde**  >  . 
 
 Selecione um título da mensagem para abri-lo no painel de leitura. Cada mensagem contém um resumo da alteração, uma declaração de como a alteração pode afetar você, informações sobre como você pode preparar sua organização para a alteração e (na maioria dos casos) um link de informações adicionais onde você pode saber mais. As informações adicionais continuam disponíveis, mesmo depois que uma mensagem expira.
 
@@ -171,7 +171,7 @@ Precisa obter uma mensagem arquivada de volta? Não há problema.
   
 1. Selecione a guia **mensagens arquivadas** na parte superior do centro de mensagens. Uma lista de mensagens arquivadas é exibida. 
 
-2. Selecione a mensagem, selecione **restaurar**e a mensagem será restaurada para mensagens ativas.
+2. Selecione a mensagem, selecione **restaurar** e a mensagem será restaurada para mensagens ativas.
 
 ::: moniker-end
 
@@ -206,6 +206,11 @@ Precisa obter uma mensagem arquivada de volta? Não há problema.
 2. Selecione **restaurar** à direita da ID da mensagem e a mensagem será restaurada para mensagens ativas.
 
 ::: moniker-end
+
+## <a name="track-your-message-center-tasks-in-planner"></a>Acompanhe o centro de mensagens no Planner
+
+Uma grande quantidade de informações acionáveis sobre as alterações nos serviços do Microsoft 365 chega no centro de mensagens da Microsoft 365. Pode ser difícil controlar quais alterações exigem que as tarefas sejam realizadas, quando e por quem e para controlar cada tarefa até a conclusão. Você também pode querer fazer uma anotação de algo e marcá-la para que seja verificada depois. Você pode fazer tudo isso e muito mais ao sincronizar suas mensagens do centro de administração do Microsoft 365 para o Microsoft Planner. Para obter mais informações, consulte [acompanhar suas tarefas do centro de mensagens no Planner](https://docs.microsoft.comoffice365/planner/track-message-center-tasks-planner).
+
 
 Para obter uma visão geral do centro de mensagens, consulte [centro de mensagens no Microsoft 365](message-center.md). Ou, para saber como definir suas preferências de idioma para habilitar a tradução automática para postagens do centro de mensagens, confira [tradução de idioma para postagens do centro de mensagens](language-translation-for-message-center-posts.md). Se você quiser programar uma maneira alternativa de obter informações de integridade do serviço em tempo real e comunicações do centro de mensagens, consulte a [visão geral da API de comunicações de serviço do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=848507).
   

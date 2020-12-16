@@ -1,9 +1,9 @@
 ---
-title: 'Experiência do cliente durante a migração para os serviços do Office 365 nas novas regiões de datacenter alemãs '
+title: O que mudou para a migração para os serviços do Office 365 nas novas regiões do datacenter alemão
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 12/11/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,15 +18,15 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: 'Resumo: entenda a experiência de migrar do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: a44fbe504a9a710856deeb3baf258feb124ce7ae
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+description: 'Resumo: entenda o que mudou para migrar do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
+ms.openlocfilehash: 0415f7b95cb9a9f2625798311946dac0f1f7c2c0
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551690"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688606"
 ---
-# <a name="customer-experience-during-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Experiência do cliente durante a migração para os serviços do Office 365 nas novas regiões de datacenter alemãs 
+# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>O que mudou para a migração para os serviços do Office 365 nas novas regiões do datacenter alemão
 
 As migrações do locatário são projetadas para ter um efeito mínimo sobre administradores e usuários. No entanto, há considerações para cada carga de trabalho. Revise as seções a seguir para ter uma compreensão melhor da experiência de migração para as cargas de trabalho.
 
@@ -109,7 +109,7 @@ Mover-se pela transição:
 
 - [Ações e impactos das fases de migração](ms-cloud-germany-transition-phases.md)
 - [Pré-trabalho adicional](ms-cloud-germany-transition-add-pre-work.md)
-- Informações adicionais para [Serviços](ms-cloud-germany-transition-add-general.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Informações adicionais para o [Azure ad](ms-cloud-germany-transition-azure-ad.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Aplicativos de nuvem:
 

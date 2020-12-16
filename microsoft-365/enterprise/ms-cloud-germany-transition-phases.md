@@ -1,9 +1,9 @@
 ---
-title: Ações e impactos das fases de migração
+title: Ações de fases de migração e impactos da migração do Microsoft Cloud Alemanha (geral)
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 12/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,14 +18,14 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações de fases de migração e impactos da mudança do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 9ffdb0bbe60bdb96d6e110ac08cba4030272c7e9
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 4a032ab88704cfb46b3f451d939a784d222cbb40
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551652"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688612"
 ---
-# <a name="migration-phases-actions-and-impacts"></a>Ações e impactos das fases de migração
+# <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Ações de fases de migração e impactos da migração do Microsoft Cloud Alemanha (geral)
 
 As migrações de locatário do Microsoft Cloud Alemanha para a região da Alemanha dos serviços do Office 365 da Microsoft são executadas como um conjunto de ações configuradas para cada carga de trabalho. Essas ações garantem que os dados e as experiências críticos sejam migrados para os serviços do Office 365. Após o locatário ser adicionado à fila de migração, cada carga de trabalho será concluída como um conjunto de etapas executadas no serviço de back-end. Algumas cargas de trabalho podem exigir ações pelo administrador (ou pelo usuário) ou a migração pode afetar o uso das fases executadas e discutidas em [como a migração é organizada?](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
@@ -37,6 +37,20 @@ As seções a seguir contêm ações e efeitos para cargas de trabalho à medida
 |:-------|:-----|:-------|:-------|
 | A nova região da Alemanha é adicionada à configuração da organização existente e as caixas de correio são movidas para os serviços do Office 365. | A configuração do Exchange Online Adiciona a nova região local do alemão à organização de transição. Esta região de serviços do Office 365 é definida como padrão, o que permite que o serviço de balanceamento de carga interno Redistribua as caixas de correio para a região padrão apropriada nos serviços do Office 365. Nessa transição, os usuários do lado (serviços da Alemanha ou do Office 365) estão na mesma organização e podem usar o ponto de extremidade de URL. | Exchange Online | – Transição de usuários e serviços de URLs da Alemanha para URLs de serviços do Office 365 ( `https://outlook.office365.com` ). <br><br> -Os usuários continuarão a acessar o serviço por meio de URLs da Alemanha herdadas durante a migração. Nenhuma ação imediata necessária. <br><br> -Os usuários devem começar a usar o portal do office.com para recursos do Office Online (calendário, emails, pessoas). A navegação para serviços que ainda não foram migrados para os serviços do Office 365 não funcionará até a migração. <br><br> – O Outlook Web App não fornece a experiência de pasta pública durante a migração. |
 |||||
+
+Considerações adicionais:
+
+- `myaccount.msft.com` funcionará apenas após a transferência do Office 365. Os links produzirão mensagens de erro "algo deu errado" até esse momento.
+
+- Os usuários do Outlook Web App que acessam uma caixa de correio compartilhada no outro ambiente (por exemplo, um usuário no ambiente da Alemanha acessa uma caixa de correio compartilhada no ambiente global) serão solicitados a autenticar uma segunda vez. O usuário deve primeiro autenticar e acessar sua caixa de correio no `outlook.office.de` e, em seguida, abrir a caixa de correio compartilhada em `outlook.office365.com` . Eles precisarão autenticar uma segunda vez ao acessar os recursos compartilhados hospedados no outro serviço.
+
+- Para os clientes existentes do Microsoft Cloud Alemanha ou aqueles em transição, quando uma caixa de correio compartilhada é adicionada ao Outlook usando as **informações de > de arquivo > adicionar conta**, as permissões de calendário podem falhar (o cliente do Outlook tenta usar a API REST `https://outlook.office.de/api/v2.0/Me/Calendars` ). Os clientes que desejam adicionar uma conta para exibir permissões de calendário podem adicionar a chave do registro, conforme descrito em [alterações de experiência do usuário para compartilhar um calendário no Outlook](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) para garantir que essa ação seja bem-sucedida. Essa chave do registro pode ser implantada em toda a organização usando a política de grupo.
+
+- Durante a fase de migração, usar os cmdlets do PowerShell **New-migrationEndpoint**, **set-migrationEndpoint** e **Test-MigrationsServerAvailability** pode resultar em erros (erro no proxy). Isso acontece quando a caixa de correio de arbitragem foi migrada para o mundo inteiro, mas a caixa de correio de administrador não é ou vice-versa. Para resolver isso, ao criar a sessão do PowerShell do locatário, use a caixa de correio de arbitragem como a dica de roteamento no **ConnectionURI**. Por exemplo: `New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid?email=Migration.8f3e7716-2011-43e4-96b1-aba62d229136@TENANT.onmicrosoft.de" -Credential $UserCredential -Authentication Basic -AllowRedirection`
+
+- Se você estiver usando o Exchange Online híbrido:
+
+    - Você deve executar novamente o assistente de configuração híbrida (HCW) para atualizar a configuração local no Microsoft Cloud Alemanha antes da transição e executar novamente o HCW após a limpeza nos serviços do Office 365. Outras atualizações DNS poderão ser necessárias se você usar domínios personalizados.
 
 Para saber mais sobre as diferenças de organizações em migração e depois que os recursos do Exchange Online são migrados, revise as informações na [experiência do cliente durante a migração para os serviços do Office 365 nas novas regiões do datacenter alemão](ms-cloud-germany-transition-experience.md).
 
@@ -51,19 +65,18 @@ Os recursos de back-end do Exchange Online Protection (EOP) são copiados para a
 
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-<!--
-
-| Step(s) | Description | Applies to | Impact |
-|:-------|:-----|:-------|:-------|
-| SharePoint and OneDrive are transitioned. | SharePoint and OneDrive are migrated from Microsoft Cloud Deutschland to Office 365 services in this phase. Existing Microsoft Cloud Deutschland URLs are preserved (for example, `contoso.sharepoint.de`). Tokens that were issued by Microsoft Cloud Deutschland or Office 365 services are valid during the transition. | SharePoint customers | - Content will be read-only for two brief periods (less than x minutes) during migration. During this time, expect a "you can't edit content" banner in SharePoint. <br><br> - The search index won't be preserved, and may take up to 10 days to be rebuilt. <br><br> - SharePoint/OneDrive content will be read-only for two brief periods (less than x minutes) during migration. Users will see a "you can't edit content" banner briefly during this time. <br><br> - The search index may be unavailable while the index is rebuilt. During this period, search queries might not return complete results. <br><br> - Existing sites are preserved. |
-|||||
-
---> 
-
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
 | O SharePoint e o OneDrive estão em transição. | O SharePoint e o OneDrive são migrados do Microsoft Cloud Alemanha para os serviços do Office 365 nesta fase. As URLs de Alemanha do Microsoft Cloud existentes são preservadas (por exemplo, `contoso.sharepoint.de` ). Os tokens emitidos pelo Microsoft Cloud Alemanha ou os serviços do Office 365 são válidos durante a transição. | Clientes do SharePoint | -O conteúdo será somente leitura por dois curtos períodos durante a migração. Durante esse período, espere uma faixa "não é possível editar o conteúdo" no SharePoint. <br><br> – O índice de pesquisa não será preservado e pode levar até 10 dias para ser recriado. <br><br> – O conteúdo do SharePoint/OneDrive será somente leitura por dois curtos períodos durante a migração. Os usuários verão uma faixa de "não é possível editar conteúdo" durante esse tempo. <br><br> -O índice de pesquisa pode estar indisponível enquanto o índice é recriado. Durante esse período, as consultas de pesquisa podem não retornar resultados completos. <br><br> -Os sites existentes são preservados. |
 |||||
+
+Considerações adicionais:
+
+- Após a conclusão da migração do SharePoint Online para a região alemã, os índices de dados são reconstruídos. Os recursos que dependem dos índices de pesquisa podem ser afetados durante a conclusão da reindexação.
+
+- Se sua organização ainda usar fluxos de trabalho do SharePoint 2010, eles não funcionarão mais após 31 de dezembro de 2021. Os fluxos de trabalho do SharePoint 2013 permanecerão compatíveis, embora estejam desativados por padrão para novos locatários a partir de 1º de novembro de 2020. Depois que a migração para o serviço do SharePoint Online estiver concluída, recomendamos que você vá para automatização de energia ou outras soluções suportadas.
+
+- Após a conclusão da migração do OneDrive para a região do alemão, os índices de dados são recriados. Os recursos que dependem de índices de pesquisa podem ser afetados enquanto a reindexação está em andamento.
 
 
 ## <a name="skype-for-business-online"></a>Skype for Business Online
@@ -72,7 +85,11 @@ Os recursos de back-end do Exchange Online Protection (EOP) são copiados para a
 |:-------|:-----|:-------|:-------|
 | Migração do Skype for Business para o Microsoft Teams. | Os clientes existentes do Skype for Business são migrados para os serviços do Office 365 na Europa e, em seguida, transferidos para o Microsoft Teams na região da Alemanha dos serviços do Office 365. | Clientes do Skype for Business | -Os usuários não poderão entrar no Skype for Business na data de migração. Dez dias antes da migração, notificaremos os usuários finais por meio da banda no cliente Skype for Business que eles serão atualizados para o Microsoft Teams. Também postaremos no centro de administração, que essas alterações ocorrerão após os 10 dias. <br><br> -A configuração de política é migrada. <br><br> -Os usuários serão migrados para o Microsoft Teams e não terão mais o Skype for Business após a migração. <br><br> -Os usuários devem ter o cliente da área de trabalho do teams instalado. A instalação acontecerá durante os 10 dias da política da infraestrutura do Skype for Business, mas se isso falhar, os usuários ainda precisarão baixar o cliente ou se conectarem a um navegador com suporte. <br><br> -Contatos e reuniões serão migrados para o Microsoft Teams. <br><br> -Os usuários não poderão entrar no Skype for Business entre as transições de serviço de tempo para os serviços do Office 365 e não até que as entradas de DNS do cliente sejam concluídas. <br><br> -Contatos e reuniões existentes continuarão a funcionar como reuniões do Skype for Business. |
 |||||
-        
+
+## <a name="office-services"></a>Serviços do Office
+
+O serviço mais recentemente usado (MRU) no Office é uma substituição do serviço da Alemanha para os serviços do Office 365, não uma migração. Somente os links MRU do lado dos serviços do Office 365 serão visíveis após a migração do portal do Office.com. Os links MRU do serviço da Alemanha não são visíveis como links MRU nos serviços do Office 365. No Office 365, os links MRU são acessíveis somente após a conclusão da migração do locatário.
+
 ## <a name="subscription"></a>Assinatura
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
@@ -97,7 +114,7 @@ Introdução:
 Mover-se pela transição:
 
 - [Pré-trabalho adicional](ms-cloud-germany-transition-add-pre-work.md)
-- Informações adicionais para [Serviços](ms-cloud-germany-transition-add-general.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Informações adicionais para o [Azure ad](ms-cloud-germany-transition-azure-ad.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Aplicativos de nuvem:
 

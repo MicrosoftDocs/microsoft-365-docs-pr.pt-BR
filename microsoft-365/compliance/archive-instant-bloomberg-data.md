@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Saiba como os administradores podem configurar e usar um conector de dados para importar e arquivar dados da ferramenta de chat do Bloomberg para o Microsoft 365.
-ms.openlocfilehash: 7203af3a45529b0e5cc635a8d0cd460d13b73c20
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: c2a56feb80f6772462fae47eb2a020e951f246e6
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620005"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688486"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Configurar um conector para arquivar dados do Instant Bloomberg
 
@@ -65,6 +65,8 @@ Algumas das etapas de implementação necessárias para arquivar dados instantâ
   - URL para o site do Bloomberg SFTP (por exemplo, sftp.bloomberg.com)
 
   - Número de porta para o site Bloomberg SFTP
+
+- O conector de Bloomberg instantâneo pode importar um total de 200.000 itens em um único dia. Se houver mais de 200.000 itens em um dia presente no site SFTP, nenhum desses itens será importado para a Microsoft 365.
 
 - O usuário que cria um conector de Bloomberg instantâneo na etapa 3 (e quem baixa as chaves públicas e o endereço IP na etapa 1) deve receber a função de exportação de importação de caixa de correio no Exchange Online. Isso é necessário para adicionar conectores na página **conectores de dados** no centro de conformidade do Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 

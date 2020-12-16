@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como fazer a transição de arquivos herdados para a OME (criptografia de mensagem do Office 365) para sua organização.
-ms.openlocfilehash: ecf4723df9afdf09d63150a3ec7564df44dd9808
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 23f287fd01949d710c5cc5c65f0c36c6055d3a57
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408989"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688428"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Informações herdadas de Criptografia de Mensagens do Office 365
 
@@ -75,7 +75,7 @@ Para obter mais informações sobre como criar regras de fluxo de email do Excha
 
 3. No centro de administração do Microsoft 365, escolha central de **Administração** do \> **Exchange**.
 
-4. No Eat, vá para regras de **fluxo de email** \> **Rules** e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para regras de **fluxo de email** \>  e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como criptografar email para DrToniRamos@hotmail.com.
 
@@ -93,7 +93,7 @@ Para obter mais informações sobre como criar regras de fluxo de email do Excha
 
    Por exemplo, para aplicar a regra apenas se o destinatário estiver fora da sua organização, selecione **Adicionar condição** e selecione **o destinatário é externo/interno** \> **fora da organização** \> **OK**.
 
-8. Para habilitar a criptografia sem usar os novos recursos do ome, em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **aplique a versão anterior do ome**e, em seguida, escolha **salvar**.
+8. Para habilitar a criptografia sem usar os novos recursos do ome, em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **aplique a versão anterior do ome** e, em seguida, escolha **salvar**.
 
    Se você receber um erro de que o licenciamento do IRM não está habilitado, então você não está usando o OME herdado.
 
@@ -131,7 +131,7 @@ Quando os usuários de email enviam mensagens criptografadas, os destinatários 
 
 3. No centro de administração do Microsoft 365, escolha central de **Administração** do \> **Exchange**.
 
-4. No Eat, vá para regras de **fluxo de email** \> **Rules** e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para regras de **fluxo de email** \>  e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como remover criptografia de emails de entrada.
 
@@ -250,7 +250,7 @@ Não, as mensagens criptografadas são mantidas no sistema de email do destinat�
   
  **P. Posso personalizar mensagens de email criptografadas com minha marca?**
   
-Sim. É possível usar os cmdlets do Windows PowerShell para personalizar o texto padrão exibido na parte superior da mensagem de email criptografada, o texto do aviso de isenção de responsabilidade e o logotipo que você deseja usar nas mensagens de email e no portal de criptografia. Para obter detalhes, consulte [Add branding to encrypted messages](add-your-organization-brand-to-encrypted-messages.md).
+Sim. É possível usar os cmdlets do Windows PowerShell para personalizar o texto padrão exibido na parte superior da mensagem de email criptografada, o texto do aviso de isenção de responsabilidade e o logotipo que você deseja usar nas mensagens de email e no portal de criptografia. Este recurso agora está disponível no OMEv2. Para obter detalhes, consulte [Add branding to encrypted messages](add-your-organization-brand-to-encrypted-messages.md).
   
  **P. O serviço exige uma licença para cada usuário da organização?**
   

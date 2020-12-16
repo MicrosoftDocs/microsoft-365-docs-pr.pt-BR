@@ -1,9 +1,9 @@
 ---
-title: Informações adicionais sobre a experiência da migração do Microsoft Cloud Alemanha
+title: Ações de fases de migração e impactos da migração do Microsoft Cloud Alemanha (avançado)
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 12/11/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: informações adicionais sobre a experiência do cliente ao migrar do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 1eef8be624a92bf2dcaba8f0df2147697202be3a
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: 3f22ca9c380b3271d0c186be1f50fae4a0ea5bb9
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560833"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688188"
 ---
-# <a name="additional-experience-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Informações adicionais sobre a experiência da migração do Microsoft Cloud Alemanha 
+# <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>Ações de fases de migração e impactos da migração do Microsoft Cloud Alemanha (avançado) 
 
-As seções a seguir fornecem informações adicionais sobre as experiências dos clientes.
+As seções a seguir fornecem informações adicionais sobre as experiências do cliente ao migrar do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.
 
 ## <a name="services"></a>Serviços
 
@@ -40,18 +40,6 @@ As seções a seguir fornecem informações adicionais sobre as experiências do
 | Migração de recursos do Azure. | Os clientes que usam os recursos do Office 365 e do Azure (por exemplo, rede, computação e armazenamento) realizarão a migração de recursos para a instância dos serviços do Office 365. Essa migração é uma responsabilidade para os clientes. As postagens do centro de mensagens sinalizarão o início. A migração deve ser concluída antes da finalização da organização do Azure AD no ambiente de serviços do Office 365. | Clientes do Azure | Para migrações do Azure, consulte o guia de migração do Azure, [visão geral da guia de migração para a Alemanha do Azure](https://docs.microsoft.com/azure/germany/germany-migration-main). |
 |||||
 
-<!--
-[Reference: Experience][Data Protection] Experience][
-[Reference: Experience][Federation] 
-[Reference: Experience][MFA]  
-
-
-[Reference: Experience – Post Migration][Hybrid]    
-        
-
-[Reference: Experience – During Migration] [Azure] 
--->
-
 ### <a name="exchange-online"></a>Exchange Online
 
 Se você estiver usando o **set-UserPhoto**:
@@ -61,21 +49,12 @@ Se você estiver usando o **set-UserPhoto**:
 | A nova região da Alemanha é adicionada a uma configuração de organização existente, e as caixas de correio são movidas para os serviços do Office 365. | A configuração do Exchange Online Adiciona a nova região local do alemão à organização de transição. Esta região de serviços do Office 365 é definida como padrão, o que permite que o serviço de balanceamento de carga interno Redistribua as caixas de correio para a região padrão apropriada nos serviços do Office 365. Nessa transição, os usuários do lado (serviços da Alemanha ou do Office 365) estão na mesma organização e podem usar o ponto de extremidade de URL. |  Exchange Online | Se uma caixa de correio de usuário tiver sido migrada, mas uma caixa de correio de administrador não tiver sido migrada ou vice-versa, os administradores não poderão executar **set-UserPhoto**, um cmdlet do PowerShell. Nessa situação, um administrador deve passar uma cadeia de caracteres adicional no `ConnectionUri` durante a configuração da conexão usando a seguinte sintaxe: <br><br> `https://outlook.office.de/PowerShell-LiveID?email=<user_email>` <br><br> em que `<user_email>` é o espaço reservado para o email-ID do usuário cuja foto precisa ser alterada usando **set-UserPhoto**. |
 |||||
 
-<!--
-[Reference: Experience][Exchange Online]  [if using Set-UserPhoto] 
--->  
-
 Se você estiver usando uma implantação híbrida local:
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
 |Parar ou excluir qualquer movimento de integração ou remoção de caixas de correio.  | Isso garante que as solicitações de movimentação não falhem com um erro. | Clientes do Exchange Online com implantações híbridas (locais) | Ação necessária. Se isso não for feito, poderão ocorrer falhas do serviço ou de clientes de software. |
 |||||
-
-<!--
-[Reference: Experience][Hybrid] 
---> 
-
 
 ### <a name="dynamics"></a>Dynamics
 
@@ -104,10 +83,6 @@ Se você estiver usando uma implantação híbrida local:
 | Clientes, Office Online durante a substituição do cliente do Office, o Azure AD finaliza o escopo do locatário para apontar para os serviços do Office 365. | Essa alteração de configuração permite que os clientes do Office atualizem e apontem para os pontos de extremidade dos serviços do Office 365. | Todos os clientes do Office | -Remove MSOID CName de DNS de Propriedade do cliente, se existir. <br><br> – Notifique os usuários para fechar _todos os_ aplicativos do Office e entre novamente (ou Force os clientes a reiniciar e que os usuários façam logon) para permitir que os clientes do Office escolham a alteração. <br><br> -Notificar os usuários e a equipe de suporte técnico de que os usuários *podem* ver uma faixa do Office que solicita a reativação de aplicativos do office em 72 horas após a substituição. <br><br> – Todos os aplicativos do Office em máquinas pessoais devem ser fechados e os usuários devem sair e entrar novamente. Na barra de ativação amarela, entre para reativar para os serviços do Office 365. <br><br> -As máquinas compartilhadas exigirão ações similares às máquinas pessoais e não exigirão um procedimento especial. <br><br> -Em dispositivos móveis, os usuários devem sair de aplicativos, fechá-los e entrar novamente. |
 |||||
 
-<!--
-[Reference: Experience][Office Apps]
---> 
-
 ## <a name="during-migration"></a>Durante a migração
 
 
@@ -120,10 +95,6 @@ Para descoberta eletrônica:
 | Durante a migração, as pesquisas de descoberta eletrônica falharão ou retornarão 0 resultados para os locais do SharePoint Online, do OneDrive for Business e do Exchange Online que foram migrados. | Durante a migração, os clientes podem continuar a criar casos, isenções, pesquisas e exportações no [centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations), incluindo [pesquisa de conteúdo](https://docs.microsoft.com/microsoft-365/compliance/search-for-content).  No entanto, as pesquisas nos locais do SharePoint Online, do OneDrive for Business e do Exchange Online que foram migradas retornarão 0 resultados ou produzirão um erro. Para correção, confira a coluna _impacto_ . | Todos os clientes que usam o eDiscovery |  No caso de uma pesquisa retornar 0 resultados ou um erro durante a migração, execute a seguinte ação para o SharePoint Online: <br><br>  Baixe sites diretamente do site do SharePoint Online/OneDrive for Business seguindo as instruções em [baixar arquivos e pastas do onedrive ou do SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05). Esse método exigirá permissões de administrador do SharePoint Online ou permissões somente leitura no site. <br><br> Se os limites forem excedidos, conforme explicado em [baixar arquivos e pastas do onedrive ou do SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05), os clientes podem usar o cliente de sincronização do onedrive for Business seguindo as orientações em [sincronizar arquivos do SharePoint e do teams com o seu computador](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88). <br><br> -Exchange Online <br><br> - [Descoberta eletrônica in-loco no Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/ediscovery/ediscovery) |
 |||||
 
-<!--
-[Reference: Experience – During Migration][ [eDiscovery]
--->          
-
 
 ### <a name="sharepoint-online"></a>SharePoint Online
 
@@ -132,20 +103,12 @@ Para descoberta eletrônica:
 | O SharePoint e o OneDrive estão em transição. | O SharePoint e o OneDrive são migrados do Microsoft Cloud Alemanha para os serviços do Office 365 nesta fase. As URLs de Alemanha do Microsoft Cloud existentes são preservadas ( `contoso.sharepoint.de` ). Tokens emitidos pelo Microsoft Cloud Alemanha ou os serviços do Office 365 são válidos durante a transição. | Clientes do SharePoint | Os fluxos de trabalho do Inflight SharePoint 2013 serão desfeitos durante a migração e deverão ser publicados novamente após a migração. |
 |||||
 
-<!--
-[Reference: Experience – During Migration][ [SPO]
--->  
-
 ### <a name="skype-for-business-online"></a>Skype for Business Online
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
 | Migração do Skype for Business para o Microsoft Teams. | Os clientes existentes do Skype for Business são migrados para os serviços do Office 365 na Europa e, em seguida, transferidos para o Microsoft Teams na região da Alemanha dos serviços do Office 365. | Clientes do Skype for Business |  O PowerShell usará para administrar as configurações e políticas para seus locatários e usuários. Ao se conectar a uma sessão do PowerShell, adicione o seguinte: <br><br> `-OverridePowershellUri "https://admin4E.online.lync.com/OcsPowershellOAuth"` |
 |||||
-
-<!--
-[Reference: Experience – During Migration][ [SfBO]
--->  
 
 
 ## <a name="post-migration"></a>Pós-migração
@@ -159,20 +122,12 @@ Para o híbrido:
 | Atualize o Azure AD Connect. | Depois que o recorte para o Azure AD estiver concluído, a organização estará totalmente usando os serviços do Office 365 e não estará mais conectado ao Microsoft Cloud Alemanha. Neste ponto, o cliente precisa garantir que o processo de sincronização Delta tenha sido finalizado e depois disso, altere o valor da cadeia de caracteres de `AzureInstance` 3 (Microsoft Cloud Alemanha) para 0 no caminho do registro `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` . | Organizações híbridas conectadas ao Azure AD | Altere o valor de `AzureInstance` , a chave do registro. Se isso não for feito, o levará a objetos que não estão sendo sincronizados depois que os pontos de extremidade do Microsoft Cloud Alemanha não estão mais disponíveis. |
 |||||
 
-<!--
-[Reference: Experience – Post Migration][Hybrid]
---> 
-
 Para autenticação federada:
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
-| Remover as relações de confiança de terceira parte confiável do Microsoft Cloud Alemanha AD FS. | Depois que o recorte para o Azure AD estiver concluído, a organização estará totalmente usando os serviços do Office 365 e não estará mais conectado ao Microsoft Cloud Alemanha. Neste ponto, o cliente precisa remover o confiança da terceira parte confiável para os pontos de extremidade do Microsoft Cloud Alemanha. Isso só pode ser feito quando nenhum aplicativo do cliente aponta para pontos de extremidade do Microsoft Cloud Alemanha quando o Azure AD é aproveitado como um provedor de identidade (IdP). | Organizações de autenticação federada | Nenhum |
+| Remover as relações de confiança de terceira parte confiável do Microsoft Cloud Alemanha AD FS. | Depois que o recorte para o Azure AD estiver concluído, a organização estará totalmente usando os serviços do Office 365 e não estará mais conectado ao Microsoft Cloud Alemanha. Neste ponto, o cliente precisa remover o confiança da terceira parte confiável para os pontos de extremidade do Microsoft Cloud Alemanha. Isso só pode ser feito quando nenhum aplicativo do cliente aponta para pontos de extremidade do Microsoft Cloud Alemanha quando o Azure AD é aproveitado como um provedor de identidade (IdP). | Organizações de autenticação federada | Nenhum. |
 |||||
-
-<!--
-[Reference: Experience – Post Migration][Federated]
--->             
 
 Para o Azure AD:
 
@@ -181,10 +136,6 @@ Para o Azure AD:
 | As solicitações para ingressar em um grupo do Azure AD nos últimos 30 dias antes da migração precisarão ser solicitadas novamente se a solicitação original não for aprovada. | Os clientes de usuário final precisarão usar o painel de acesso para enviar solicitação para ingressar em um grupo do Azure AD novamente se essas solicitações não foram aprovadas nos últimos 30 dias antes da migração. | Usuários finais cujas solicitações de aprovação de grupo do Azure AD não foram aprovadas nos últimos 30 dias antes da migração |  Como usuário final: <ol><li>Navegue até o [painel de acesso](https://account.activedirectory.windowsazure.com/r#/joinGroups).</li><li>Encontre um grupo do Azure AD para o qual a aprovação de associação estava pendente em 30 dias antes da migração.</li><li>Solicite o ingresso no grupo do Azure AD novamente.</li></ol> As solicitações para ingressar em um grupo que estão ativos menos de 30 dias antes da migração não podem ser aprovadas, a menos que sejam resolicitadas após a migração. |
 |||||
 
-<!--
-[Reference: Experience – Post Migration][Azure AD]
---> 
-
 Para DNS:
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
@@ -192,20 +143,12 @@ Para DNS:
 | Atualize os serviços DNS locais para pontos de extremidade de serviços do Office 365. | As entradas DNS gerenciadas pelo cliente que apontam para o Office 365 Alemanha precisam ser atualizadas para apontar para os pontos de extremidade dos serviços do Office 365. | Todos os clientes do Office | Ação necessária. Se isso não for feito, poderão ocorrer falhas do serviço ou de clientes de software. |
 |||||
 
-<!--
- [Reference: Experience – Post Migration][DNS]
--->
-
 Para serviços de terceiros para pontos de extremidade de serviços do Office 365:
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
 | Atualizar parceiros e serviços de terceiros para pontos de extremidade de serviços do Office 365. | -Os serviços e parceiros de terceiros que apontam para o Office 365 Alemanha precisam ser atualizados para apontar para os pontos de extremidade dos serviços do Office 365. Exemplo: registrar novamente, em alinhamento com seus fornecedores e parceiros, a versão do aplicativo da Galeria de aplicativos, se disponível. <br><br> -Aponte todos os aplicativos personalizados que utilizam a API do Graph de `graph.microsoft.de` para o `graph.microsoft.com` . Outras APIs com pontos de extremidade alterados também precisam ser atualizadas, se forem aproveitadas. <br><br> -Altere todos os aplicativos corporativos que não são de terceiros para redirecionar para os pontos de extremidade mundiais.  | Todos os clientes do Office | Ação necessária. Se isso não for feito, poderão ocorrer falhas do serviço ou de clientes de software. |
 |||||
-
-<!--
- [Reference: Experience – Post Migration][]
---> 
 
 ### <a name="exchange-online"></a>Exchange Online
 
@@ -215,24 +158,13 @@ Se você estiver usando uma configuração híbrida do Exchange:
 |:-------|:-----|:-------|:-------|
 | Execute o assistente de configuração híbrida (HCW) em serviços do Office 365. | A configuração do HCW existente é destinada a oferecer suporte ao Microsoft Cloud Alemanha. Com a migração dos serviços do Exchange concluída, desassociamos a configuração local do Microsoft Cloud Alemanha. | Clientes do Exchange Online que estão executando uma implantação híbrida | -Ação necessária. Se isso não for feito, poderão ocorrer falhas do serviço ou de clientes de software. Antes do início da migração de caixa de correio do Exchange (com 5 ou mais dias de aviso), notifique os clientes de que eles devem interromper e excluir as movimentações de integração ou remoção de suas caixas de correio.  Caso contrário, eles verão os erros em suas solicitações de movimentação. <br><br> – Após a conclusão da migração de caixa de correio do Exchange, notifique os clientes de que eles podem retomar a integração e a remoção de remoções. <br> Executar **Test-MigrationServerAvailabiilty**, um cmdlet do PowerShell, durante a migração do Exchange do Microsoft Cloud Alemanha para os serviços do Office 365 pode não funcionar. No entanto, ele funcionará corretamente após a conclusão da migração. <br><br> Se os clientes estiverem em problemas com credenciais ou autorização após a migração das caixas de correio, os usuários poderão inserir novamente as credenciais de administrador local no ponto de extremidade de migração executando `Set-MigrationEndpoint endpointName -Credential $(Get-Credential)` o ou definindo o mesmo usando o painel de controle do Exchange (ECP).  |
 
-<!--
-[Reference: Experience – Post Migration][Hybrid]  
-[Reference: Experience – Post Migration][Exchange Online]
---> 
-
 Para descoberta eletrônica:
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
-|  Todos os locais do SharePoint Online, do OneDrive for Business e do Exchange Online foram migrados junto com o centro de segurança e conformidade (SCC). | Todas as atividades de descoberta eletrônica devem ser executadas do locatário mundial. As pesquisas agora terão 100% bem-sucedidas.  Qualquer falha ou erro deve seguir os canais de suporte normais. | Todos os clientes que usam eDiscovery | Nenhum |
-| Remover políticas de retenção em toda a organização que foram criadas durante as etapas de pré-migração | Os clientes podem remover as políticas de retenção em toda a organização que foram criadas durante o trabalho de pré-migração dos clientes. | Todos os clientes que aplicaram uma política de retenção como parte das etapas de pré-migração. | Nenhum |
+|  Todos os locais do SharePoint Online, do OneDrive for Business e do Exchange Online foram migrados junto com o centro de segurança e conformidade (SCC). | Todas as atividades de descoberta eletrônica devem ser executadas do locatário mundial. As pesquisas agora terão 100% bem-sucedidas.  Qualquer falha ou erro deve seguir os canais de suporte normais. | Todos os clientes que usam eDiscovery | Nenhum. |
+| Remover políticas de retenção em toda a organização que foram criadas durante as etapas de pré-migração | Os clientes podem remover as políticas de retenção em toda a organização que foram criadas durante o trabalho de pré-migração dos clientes. | Todos os clientes que aplicaram uma política de retenção como parte das etapas de pré-migração. | Nenhum. |
 |||||
-
-<!--
- [Reference: Experience – Post Migration][ [eDiscovery]             
-
-[Reference: Experience – Post Migration][ [eDiscovery]
--->             
 
 ### <a name="sharepoint-online"></a>SharePoint Online
 
@@ -240,10 +172,6 @@ Para descoberta eletrônica:
 |:-------|:-----|:-------|:-------|
 | Republicar fluxos de trabalho do SharePoint 2013. | No trabalho anterior à migração, reduzimos o número de fluxos de trabalho do SharePoint 2013. Agora, com a migração concluída, o cliente pode republicar os fluxos de trabalho. | Todos os clientes do Office | Essa é uma ação obrigatória. Se isso não for feito, poderá resultar em uma confusão do usuário e em chamadas de suporte técnico. |
 | Compartilhar itens via Outlook | O compartilhamento de itens via Outlook não funciona mais após a substituição do locatário. | SharePoint Online e OneDrive for Business | -No SharePoint Online e no OneDrive for Business, você pode compartilhar itens através do Outlook. Após pressionar o botão do Outlook, um link compartilhável é criado e enviado para uma nova mensagem no Outlook Web App. <br><br> – Após a transferência de locatário, esse método de compartilhamento não funcionará. Reconhecemos que esse é um problema conhecido. No entanto, como esse recurso do Outlook está no caminho da substituição, a correção do problema não é planejada até que a substituição seja distribuída. |
-
-<!--
- [Reference: Experience – Post Migration][ [SPO]
--->
 
 ## <a name="next-step"></a>Próxima etapa
 
@@ -262,7 +190,7 @@ Mover-se pela transição:
 
 - [Ações e impactos das fases de migração](ms-cloud-germany-transition-phases.md)
 - [Pré-trabalho adicional](ms-cloud-germany-transition-add-pre-work.md)
-- Informações adicionais para [Serviços](ms-cloud-germany-transition-add-general.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Informações adicionais para o [Azure ad](ms-cloud-germany-transition-azure-ad.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Aplicativos de nuvem:
 

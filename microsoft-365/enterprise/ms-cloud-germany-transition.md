@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Resumo: Entenda a migração dos serviços do Microsoft Cloud Alemanha (Microsoft Cloud Deutschland) para o Office 365 na nova região de datacenter alemã.'
-ms.openlocfilehash: 37bf052739bf15c1a0d3712539779e9dff31d9e8
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 16e57eff5556d31d2d13ab6ce0d284719d63c44c
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551529"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688636"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migração do Microsoft Cloud Alemanha para os serviços do Office 365 nas novas regiões do datacenter alemão
 
@@ -138,7 +138,7 @@ Os 15 serviços a seguir estão disponíveis na oferta de serviço de nuvem do M
 3. Grupos (Grupos modernos)
 4. Perfil do Delve
 5. Proteção do Exchange Online
-6. Defender para Office 365
+6. O que é o Defender para Office 365?
 7. Descoberta Eletrônica Avançada
 8. Governança de Dados Avançada
 9. SharePoint Online
@@ -158,7 +158,7 @@ Atualmente, há 29 serviços disponíveis como parte dos serviços do Office 365
 5. MyAnalytics
 6. Workplace Analytics
 7. Proteção do Exchange Online
-8. Defender para Office 365
+8. O que é o Defender para Office 365?
 9. Descoberta Eletrônica Avançada
 10. Gerenciamento de Segurança Avançada
 11. Gerenciamento de Direitos de Informação
@@ -290,7 +290,7 @@ Mover-se pela transição:
 
 - [Ações e impactos das fases de migração](ms-cloud-germany-transition-phases.md)
 - [Pré-trabalho adicional](ms-cloud-germany-transition-add-pre-work.md)
-- Informações adicionais para [Serviços](ms-cloud-germany-transition-add-general.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Informações adicionais para o [Azure ad](ms-cloud-germany-transition-azure-ad.md), [dispositivos](ms-cloud-germany-transition-add-devices.md), [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Aplicativos de nuvem:
 
