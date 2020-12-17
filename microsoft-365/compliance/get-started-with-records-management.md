@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Precisa de uma solução de gerenciamento de registros para o Microsoft 365 que gerencie o conteúdo de alto valor para obrigações legais, comerciais ou normativas, mas não sabe onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: 679300f581dd9177c00f367f4452d12142f49ee4
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 0dc0258ed53aa07df778f5d0883b02b7635f50d8
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919849"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682718"
 ---
 # <a name="get-started-with-records-management"></a>Começar a usar o gerenciamento de registros
 
@@ -49,9 +49,9 @@ Para visualizar as opções de licenciamento dos seus usuários para se benefici
 
 ## <a name="permissions-required-for-records-management"></a>Permissões necessárias para o gerenciamento de registros
 
-Os membros da sua equipe de conformidade que são responsáveis pelo gerenciamento de registros precisam de permissões para o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Por padrão, o administrador de locatários (administrador global) tem acesso a esse local e pode conceder acesso aos gerentes de conformidade e a outras pessoas sem conceder a eles todas as permissões de um administrador de locatários. Para conceder permissões para essa administração limitada, recomendamos que você adicione usuários ao grupo de função de administrador **Gerenciamento de Registros** , que concede a função **RecordManagement**.
+Os membros da sua equipe de conformidade que são responsáveis pelo gerenciamento de registros precisam de permissões para o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Por padrão, o administrador de locatários (administrador global) tem acesso a esse local e pode conceder acesso aos gerentes de conformidade e a outras pessoas sem conceder a eles todas as permissões de um administrador de locatários. Para conceder permissões para essa administração limitada, recomendamos que você adicione usuários ao grupo de função de administrador **Gerenciamento de Registros**, que concede permissões para todos os recursos relacionados ao gerenciamento de registros, incluindo [verificação e revisão de disposição](disposition.md). 
 
-As permissões incluídas neste grupo de função não incluem as permissões necessárias para a [revisão de disposição e verificação](disposition.md), e até mesmo um administrador global não tem essa permissão por padrão. Para gerenciar a disposição, use a função **Disposition Management** criando um grupo de funções personalizado ou usando um grupo de função padrão que inclui essa função (como **Administrador de Conformidade** ).
+Como alternativa para usar essa função padrão, você pode criar um novo grupo de função e adicionar a função **Gerenciamento de Registro Somente Exibição** a esse grupo. 
 
 Para obter mais informações sobre esses grupos e funções, confira [Permissões no Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center).
 

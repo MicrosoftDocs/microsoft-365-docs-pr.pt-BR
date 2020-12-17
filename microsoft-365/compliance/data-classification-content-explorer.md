@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: 7977d30881a4229f99f4c5976d4c41377573a6ca
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 9beeab0c0b00ac1ac37c9df53e14a2f3f2914422
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379213"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701148"
 ---
 # <a name="get-started-with-content-explorer"></a>Introdução ao gerenciador de conteúdo
 
@@ -39,6 +39,9 @@ Toda conta que acessa e usa a classificação de dados deve ter uma licença atr
 - Office 365 (E5)
 - Complemento de Conformidade Avançada (E5)
 - Complemento Avançado de Inteligência contra Ameaças (E5)
+- Microsoft 365 E5/A5 Proteção e Governança da Informação
+- Conformidade Microsoft 365 E5/A5
+
 
 ### <a name="permissions"></a>Permissões
 
@@ -98,7 +101,7 @@ Um [rótulo de retenção](retention.md) permite definir por quanto tempo um ite
 
 ### <a name="how-to-use-content-explorer"></a>Como usar o explorador de conteúdo
 
-1. Abra o **centro de conformidade do Microsoft 365**  > **Classificação de dados** > ** Explorador de conteúdo**.
+1. Abra o **centro de conformidade do Microsoft 365**  > **Classificação de dados** > **Explorador de conteúdo**.
 2. Se souber o nome do rótulo ou o tipo de informação confidencial, digite-o na caixa de filtro.
 3. Como alternativa, você pode procurar o item expandindo o tipo de rótulo e selecionando o rótulo da lista.
 4. Selecione um local em **Todas as localizações** e faça uma busca detalhada na estrutura de pastas para o item.

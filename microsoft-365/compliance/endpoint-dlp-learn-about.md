@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para os pontos de extremidade. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: 457701a514159e54e932db3e4ad04a7428165fdc
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: 1dac32505144c3966ad2219cc69a33ba29f194dc
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604311"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682622"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
 
@@ -34,18 +34,19 @@ Você pode usar a prevenção contra perda de dados (DLP) da Microsoft 365 para 
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>Atividades do ponto de extremidade que você pode monitorar e executar
 
-O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10. Isso inclui:
+O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10.
 
 
-|atividade no item |auditável/restringivel  |
-|---------|---------|
-|criado    | auditável      |
-|renomeado    |  auditável       |
-|copiado ou criado em mídia removível     |     auditável e restringível|
-|copiado para compartilhamento de rede, por exemplo \\my-server\fileshare   |     auditável e restringível    |
-|impresso |    auditável e restringível       |
-|copiado para a nuvem por meio do Chromium Edge    |   auditável e restringível        |
-|acessado por aplicativos e navegadores que não tem permissão de acesso    |  auditável e restringível       |
+|atividade |descrição  | auditável/restringivel|
+|---------|---------|---------|
+|carregar para o serviço de nuvem ou acessar por navegadores não permitidos    | Detecta quando um usuário tenta carregar um item em um domínio de serviço restrito ou acessar um item por meio de um navegador.  Se eles estiverem usando um navegador listado na DLP como um navegador não permitido, a atividade de carregamento será bloqueada e o usuário será redirecionado para usar o Edge Chromium. O Edge Chromium permitirá ou bloqueará o carregamento ou o acesso com base na configuração da política DLP         |auditável e restringível|
+|copiar para outro aplicativo    |Detecta quando um usuário tenta copiar informações de um item protegido e, em seguida, colá-las em outro aplicativo, processo ou item. A cópia e a colagem de informações dentro do mesmo aplicativo, processo ou item não é detectada por essa atividade.         | auditável e restringível|
+|copiar para mídia removível USB |Detecta quando um usuário tenta copiar um item ou informação para uma mídia removível ou dispositivo USB.         | auditável e restringível|
+|Copiar para um compartilhamento de rede    |Detecta quando um usuário tenta copiar um item para um compartilhamento de rede ou unidade de rede mapeada         |auditável e restringível|
+|imprimir um documento    |Detecta quando um usuário tenta imprimir um item protegido em uma impressora local ou de rede.| auditável e restringível         |
+|criar um Item|Detecta quando um usuário cria um item| auditável|
+|renomear um item|Detecta quando um usuário renomeia um item| auditável|
+
 
 ## <a name="whats-different-in-endpoint-dlp"></a>O que é diferente no Endpoint DLP
 

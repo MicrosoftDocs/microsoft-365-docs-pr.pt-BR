@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo, se você usa uma revisão de disposição ou o conteúdo é excluído automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: 9900bbc58818a98ad41f4f796184ccf21041bbfe
-ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
+ms.openlocfilehash: 9c2e9055d0468270df4e46fe39115708762052f3
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49409208"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682664"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -35,16 +35,16 @@ Para gerenciar as revisões de disposição e confirmar que os registros foram e
 
 ### <a name="permissions-for-disposition"></a>Permissões para disposição
 
-Para acessar a guia **Disposição** no Centro de conformidade do Microsoft 365, os usuários devem ter função de administrador **Gerenciamento de disposição**. Esta função é incluída nos grupos de funções de administrador padrão, **Administrador de Conformidade** e **Administrador de conformidade de dados**.
-
-Para conceder aos usuários a função de Gerenciamento de Disposição necessária, você pode adicioná-los a um desses grupos de função padrão ou criar um grupo de função personalizada (por exemplo, chamado "Revisores de disposição") e conceder a esse grupo a função de Gerenciamento de Disposição.  
+Para acessar a guia **Disposição** no Centro de conformidade do Microsoft 365, os usuários devem ter função de administrador **Gerenciamento de disposição**. A partir de dezembro de 2020, esta função está incluída no grupo de função de administrador padrão **Gerenciamento de Registros**.
 
 > [!NOTE]
-> Até mesmo um administrador global precisa ter a função de **Gerenciamento de Disposição**. 
+> Por padrão, até mesmo um administrador global precisa ter a função de **Gerenciamento de Disposição**. 
 
-Além disso, para exibir o conteúdo dos itens durante o processo de disposição, adicione usuários aos dois grupos de funções a seguir: **Visualizador de conteúdo do Gerenciador de Conteúdo** e **Visualizador de lista de Gerenciador de Conteúdo**. Se os usuários não tiverem as permissões desses grupos de função, ainda poderão selecionar uma ação de revisão de disposição para concluir a revisão de disposição, mas deve fazê-lo sem a capacidade de exibir o conteúdo do item do centro de conformidade.
+Para conceder aos usuários apenas as permissões necessárias para revisões de disposição sem conceder permissões para exibir e configurar outros recursos para gerenciamento de retenção e de registros, crie um grupo de função personalizada (por exemplo, chamado "Revisores de Disposição") e conceda a esse grupo a função de Gerenciamento de Disposição.
 
-Para obter instruções, confira [Fornecer aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+Além disso, para exibir o conteúdo dos itens durante o processo de disposição, adicione usuários aos dois grupos de funções a seguir: **Visualizador de conteúdo do Explorador de Conteúdos** e **Visualizador de Lista de Explorador de Conteúdos**. Se os usuários não tiverem as permissões desses grupos de função, ainda poderão selecionar uma ação de revisão de disposição para concluir a revisão de disposição, mas deve fazê-lo sem a capacidade de exibir o conteúdo do item do centro de conformidade.
+
+Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 ### <a name="enable-auditing"></a>Habilitar auditoria
 
