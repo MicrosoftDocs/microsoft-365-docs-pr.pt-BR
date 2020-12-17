@@ -28,7 +28,7 @@ landingContent:
       url: mtp/microsoft-threat-protection.md
     - text: Centro de segurança do Microsoft 365
       url: mtp/overview-security-center.md
-- title: Começar com avaliações gratuitas
+- title: Comece com avaliações gratuitas
   linkLists:
   - linkListType: overview
     links:
@@ -36,13 +36,13 @@ landingContent:
       url: mtp/mtp-evaluation.md
     - text: Guia estratégico do piloto do Microsoft 365 Defender
       url: mtp/mtp-pilot.md
-- title: Proteger sua força de trabalho remota
+- title: Proteja sua força de trabalho remota
   linkLists:
   - linkListType: get-started
     links:
     - text: Proteja sua força de trabalho remota
       url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: Microsoft Defender para Identidade
+- title: Microsoft Defender para Identidade?
   linkLists:
   - linkListType: overview
     links:
@@ -50,7 +50,7 @@ landingContent:
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: Arquitetura do Microsoft Defender para Identidade
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Defender para Office 365
+- title: Microsoft Defender para Office 365?
   linkLists:
   - linkListType: overview
     links:

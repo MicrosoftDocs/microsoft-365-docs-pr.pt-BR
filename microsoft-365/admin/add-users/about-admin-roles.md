@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador de serviço pode abrir tíquetes de suporte por meio do centro de administração.
-ms.openlocfilehash: 5ee8f5732d67ee3913ac7de5bcb7328065b0c8ba
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 774edf1a024bd7aab7f35d5635c84b355fc0ef5a
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445458"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682652"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 

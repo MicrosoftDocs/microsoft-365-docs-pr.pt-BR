@@ -1,5 +1,5 @@
 - name: Centro de soluções e arquitetura da Microsoft 365
-  href: solution-architecture-center.md
+  href: index.yml
   displayName: Home
 - name: Ilustrações de solução e arquitetura
   items:
@@ -7,10 +7,10 @@
       href: productivity-illustrations.md
     - name: Modelos de arquitetura em nuvem da Microsoft
       href: cloud-architecture-models.md
+    - name: Modelos e Ícones de arquitetura
+      href: architecture-icons-templates.md
 - name: Soluções de base do Microsoft 365
   items:
-    - name: Visão Geral
-      href: foundation-solutions-overview.md
     - name: Capacite funcionários remotos com o Microsoft 365
       items:
         - name: Visão Geral
@@ -29,7 +29,7 @@
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: setup-secure-collaboration-with-teams.md
         - name: Etapa 1. Configurar três camadas de proteção com o Microsoft Teams
           items:
@@ -71,7 +71,7 @@
               href: microsoft-365-guest-settings.md
     - name: Implantar proteção contra ameaças no Microsoft 365
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: deploy-threat-protection.md
         - name: Etapas para implantar a proteção contra ameaças
           href: deploy-threat-protection-configure.md
@@ -93,8 +93,6 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Soluções e cenários de carga de trabalho
   items:
-    - name: Visão Geral
-      href: workload-solutions-scenarios-overview.md
     - name: Trabalho em equipe e colaboração
       items:
         - name: Pôsteres da arquitetura do Teams
@@ -211,8 +209,6 @@
           href: team-security-isolation-dev-test.md
 - name: Orientação específica do setor
   items:
-    - name: Visão Geral
-      href: industry-specific-guidance-overview.md
     - name: Finanças
       items:
         - name: Segurança e conformidade para serviços financeiros
