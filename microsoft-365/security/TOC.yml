@@ -366,7 +366,7 @@
           items:
             - name: Proteção do Exchange Online
               items:
-                - name: Configurar a política anti-phishing padrão no EOP
+                - name: Configurar políticas anti-phishing em EOP
                   href: ./office-365-security/configure-anti-phishing-policies-eop.md
                 - name: Configurar o EOP autônomo para enviar spam para a pasta Lixo Eletrônico
                   href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md

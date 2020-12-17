@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Use a taxonomia do repositório de termos ao criar um extrator no seu modelo de compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 0008dd02ef46401e9f0c9414b8363cff034c18eb
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: a8078e6ff2d2ecd0f98c22b602a54675f7d62816
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087316"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701090"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>Aproveitar a taxonomia do repositório de termos ao criar um extrator
 
@@ -25,19 +25,20 @@ ms.locfileid: "49087316"
 
 </br>
 
-
-Ao criar um extrator no modelo de compreensão de documentos no SharePoint Syntex, você pode aproveitar a taxonomia do repositório de termos dos [serviços de metadados gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms) para exibir os termos preferenciais para os dados que você extrai.  
+Ao criar um extrator em seu modelo de compreensão de documentos usando o SharePoint Syntex, você pode aproveitar as vantagens da taxonomia do repositório de termos de [serviços de Metadados Gerenciados](https://docs.microsoft.com/sharepoint/managed-metadata#terms) para exibir os termos preferenciais para os dados extraídos.  
 
 Por exemplo, o modelo identifica e classifica todos os documentos de **Contrato** que são carregados na biblioteca de documentos.  Além disso, o modelo também extrai um valor de **Serviços contratados** de cada contrato e o exibirá em uma coluna no modo de exibição de biblioteca. Entre os vários valores dos Serviços contratados nos contratos, há vários valores mais antigos que a sua empresa não usa mais e foi renomeado. Por exemplo, todas as referências aos termos de serviços contratados *Design*, *Gráficos* ou *Topografia* devem agora ser chamados *Criativo*. Sempre que seu modelo extrai um dos termos desatualizados de um documento de contrato, você quer que ele exiba o termo atual - Criativo - no modo de exibição da biblioteca. No exemplo a seguir, enquanto treina o modelo, vemos que um documento de exemplo contém o termo desatualizado *Design*.
 
    ![Repositório de termos](../media/content-understanding/design.png)</br>
 
-
 ## <a name="use-a-managed-metadata-column-in-your-extractor"></a>Usar uma coluna de metadados gerenciados no extrator
 
-Os conjuntos de termos são configurados no repositório de termos serviços de metadados gerenciados no Centro de administração do SharePoint. No exemplo a seguir, o *conjunto de termos* dos [Serviços contratados](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) é configurado para incluir um número de termos, incluindo *Criativo*.  Os detalhes mostram que o termo tem três sinônimos (*Design*, *Gráficos* e *Topografia*) e os sinônimos devem ser traduzidos para *Criativo*. 
+Os conjuntos de termos são configurados no repositório de termos de serviços de Metadados Gerenciados (MMS) no Centro de administração do SharePoint. No exemplo a seguir, o *conjunto de termos* dos [Serviços contratados](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) é configurado para incluir um número de termos, incluindo *Criativo*.  Os detalhes mostram que o termo tem três sinônimos (*Design*, *Gráficos* e *Topografia*) e os sinônimos devem ser traduzidos para *Criativo*. 
 
    ![Conjunto de termos](../media/content-understanding/term-store.png)</br>
+
+> [!NOTE]
+>  Os conjuntos de termos são configurados como globais no campo MMS do centro de conteúdo.
 
 Pode haver vários motivos pelos quais você pode querer usar um sinônimo em seu conjunto de termos. Por exemplo, pode haver termos desatualizados, termos renomeados ou variações de nome entre seus departamentos de organizações.
 
