@@ -1,0 +1,84 @@
+### YamlMime:Hub
+title: Treinamento do Microsoft 365 Small Business
+summary: Saiba como configurar e gerenciar o Microsoft 365 para sua empresa.
+brand: m365
+metadata:
+  title: Treinamento do Microsoft 365 Small Business
+  description: Configurar e gerenciar o Microsoft 365 no centro de administração do Microsoft 365.
+  ms.service: O365-administration
+  ms.prod: microsoft-365-business
+  ms.topic: hub-page
+  author: Sirkkuw
+  ms.author: sirkkuw
+  ms.date: 12/16/2020
+  localization_priority: Priority
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: d66e3a5c56fbc6676a21ec9729d44fac64e3abe3
+  ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "49701429"
+productDirectory:
+  items:
+  - title: Introdução
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: Planeje sua migração para o Microsoft 365 for Business.
+    url: what-is-microsoft-365.md
+  - title: Configurar o Microsoft 365 para empresas
+    imageSrc: https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg
+    summary: Adicionar um domínio, adicionar usuários, configurar políticas de segurança...
+    url: sign-up.md
+  - title: Configurar computadores
+    imageSrc: https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg
+    summary: Instalar o Office, configurar emails, migrar arquivos...
+    url: upgrade.md
+  - title: Configurar dispositivos móveis
+    imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
+    summary: Instalar aplicativos do Office em dispositivos móveis.
+    url: work-from-anywhere.md
+  - title: Colaborar com outras pessoas
+    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
+    summary: Trabalhar com funcionários e clientes no Microsoft Teams.
+    url: collab-outlook-teams.md
+  - title: Armazenar e compartilhar arquivos
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
+    summary: Armazenar arquivos com segurança e acessar de qualquer lugar.
+    url: overview-file-sharing.md
+  - title: Configurar Business Voice
+    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
+    summary: Configure o serviço de telefonia e a conferência.
+    url: business-voice.md
+  - title: Configurar aplicativos de negócios
+    imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
+    summary: Configurar e aprender sobre reservas, listas, tarefas...
+    url: overview-bookings.md
+  - title: Gerenciar sua assinatura
+    imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
+    summary: Gerenciar usuários, redefinir senhas, exibir sua cobrança...
+    url: what-is-admin.md
+  - title: Gerenciar seus dispositivos
+    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
+    summary: Configurar políticas para dispositivos pessoais e de trabalho.
+    url: secure-win-10-pro-devices.md
+  - title: Proteja sua empresa
+    imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
+    summary: Configurar recursos de segurança e conformidade.
+    url: overview-m365-security.md
+  - title: Obter suporte
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-blue.svg
+    summary: Obtenha ajuda com o Microsoft 365 para empresas.
+    url: find-help-answers.md
+additionalContent:
+  sections:
+  - title: Saiba mais
+    items:
+    - title: Saiba mais sobre o Office
+      summary: Saiba como usar o Word, Excel, PowerPoint e outros aplicativos do Office.
+      url: https://support.microsoft.com/training
+    - title: Mudar do Google Workspace
+      summary: Descubra como mudar para o Microsoft 365 for Business.
+      url: https://support.microsoft.com/office/cff9f9fb-956e-4cb9-8b64-d7ebc1911123
+    - title: Encontre mais recursos de administrador
+      summary: Vá para o site de ajuda do centro de administração do Microsoft 365.
+      url: ../admin/index.yml
