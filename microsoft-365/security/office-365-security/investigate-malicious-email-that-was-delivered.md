@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 07/09/2020
+ms.date: 12/16/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3fd2e5c0f75de9a1b942e8f0baa8e9d44843de4
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 8a068f4502a286b8782e03a9a6f61e61fa96ed72
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616519"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698574"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigue emails mal-intencionados que foram entregues no Office 365
 
@@ -58,18 +58,21 @@ Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baix
 |---|---|---|
 |Usar o explorador de ameaças (e detecções em tempo real) para analisar ameaças |Administrador Global <p> Administrador de Segurança <p> Leitor de segurança|Não|
 |Usar o explorador de ameaças (e detecções em tempo real) para exibir cabeçalhos para mensagens de email, bem como para visualizar e baixar mensagens de email em quarentena|Administrador Global <p> Administrador de Segurança <p> Leitor de segurança|Não|
-|Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio|Administrador Global <p> Administrador de Segurança <p> Leitor de segurança <p> Visualização|Sim|
+|Usar o explorador de ameaças para exibir cabeçalhos, Visualizar emails (somente na página de entidade de email) e baixar mensagens de email entregues a caixas de correio|Administrador Global <p> Administrador de Segurança <p> Leitor de segurança <p> Visualização|Sim|
 |
 
 > [!NOTE]
-> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global é atribuída ao centro de administração do Microsoft 365 ( <https://admin.microsoft.com> ), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro de conformidade do & de segurança <https://protection.office.com> . Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365 (em [https://protection.office.com](https://protection.office.com) ). Vá até **permissões** e edite um grupo de função existente ou adicione um novo grupo de função com a função de **Visualização** atribuída.
+> A função de administrador global é atribuída ao centro de administração do Microsoft 365 ( <https://admin.microsoft.com> ), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro de conformidade do & de segurança <https://protection.office.com> . Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+
+Entendemos a visualização e o download de emails são atividades confidenciais e, portanto, a auditoria é habilitada para isso. Depois que um administrador realiza essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no centro de conformidade & segurança do Office 365 ( [https://protection.office.com](https://protection.office.com) ). Vá para pesquisa de log de auditoria de **pesquisa**  >   e filtre na seção nome do administrador em pesquisa. Os resultados filtrados mostrarão a atividade **AdminMailAccess**. Selecione uma linha para exibir os detalhes na seção **mais informações** sobre emails visualizados ou baixados.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Localizar emails suspeitos que foram entregues
 
 O Gerenciador de ameaças é um poderoso relatório que pode atender a vários propósitos, como localizar e excluir mensagens, identificar o endereço IP de um remetente de email mal-intencionado ou iniciar um incidente para investigação adicional. O procedimento a seguir enfoca o uso do Explorer para localizar e excluir emails mal-intencionados das caixas de correio do destinatário.
 
 > [!NOTE]
-> Pesquisas padrão no Explorer não incluem atualmente itens zapped.  Isso se aplica a todos os modos de exibição, por exemplo, malware ou phishing. Para incluir itens do zapped, você precisa adicionar uma "ação de entrega" definida para incluir "removido por ZAP". Se você incluir todas as opções, verá todos os resultados da ação de entrega, incluindo os itens do zapped.
+> Pesquisas padrão no Explorer não incluem atualmente itens zapped.  Isso se aplica a todos os modos de exibição, por exemplo, malware ou phishing. Para incluir itens do zapped, você precisa adicionar uma **ação de entrega** definida para incluir **removido por zap**. Se você incluir todas as opções, verá todos os resultados da ação de entrega, incluindo os itens do zapped.
 
 1. **Navegue até Gerenciador de ameaças**: Vá para <https://protection.office.com> e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro de conformidade & segurança.
 
@@ -200,7 +203,7 @@ A **linha do tempo de email** é um campo no explorador de ameaças que facilita
 
 [Corrigir emails mal-intencionados entregues no Office 365](remediate-malicious-email-delivered-office-365.md)
 
-[Microsoft defender para Office 365](office-365-ti.md)
+[Obter o Microsoft Defender para Office 365](office-365-ti.md)
 
 [Proteção contra ameaças no Office 365](protect-against-threats.md)
 

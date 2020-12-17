@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: 38f1ab2451191dd63d5738075dbf42f8201a34ca
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 6e33d2b75429453602615bf98b8269ab160c7749
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659899"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698694"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -97,6 +97,9 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
 
 ## <a name="use-outlook-safe-senders"></a>Usar remetentes confiáveis do Outlook
 
+> [!CAUTION]
+> Este método cria um alto risco de invasores enviando emails com êxito para a caixa de entrada que seria filtrada; no entanto, as listas de remetentes seguros ou domínios seguros do usuário não impedem que mensagens de phishing ou malware de alta confiança sejam filtradas.
+
 Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes confiáveis na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Isso não é desejável na maioria das situações, já que os remetentes ignorarão partes da pilha de filtragem. Embora você confie no remetente, o remetente ainda pode ser comprometido e enviar conteúdo mal-intencionado. É melhor que nossos filtros façam o que é necessário para verificar cada mensagem e, em seguida, [relatar o falso positivo/negativo para a Microsoft](report-junk-email-messages-to-microsoft.md) se nossos filtros erram. Ignorar a pilha de filtragem também interfere em [zap](zero-hour-auto-purge.md).
 
 Quando as mensagens ignoram a filtragem de spam devido à lista de remetentes confiáveis de um usuário, o campo de cabeçalho **X-Forefront-antispam-Report** conterá o valor `SFV:SFE` , que indica que a filtragem de spam, spoof e phishing foi ignorada.
@@ -114,7 +117,7 @@ Se você não pode usar regras de fluxo de emails conforme descrito anteriorment
 - Examine regularmente as entradas na lista de permissões de IP e remova as entradas que não são mais necessárias.
 
 > [!CAUTION]
-> Sem verificação adicional, como regras de fluxo de emails, o email de fontes na lista de IPs permitidos ignora as verificações de filtragem de spam e autenticação de remetente (SPF, DKIM, DMARC). Isso cria um alto risco de invasores enviando emails com êxito para a caixa de entrada que seria filtrada.
+> Sem verificação adicional, como regras de fluxo de emails, o email de fontes na lista de IPs permitidos ignora as verificações de filtragem de spam e autenticação de remetente (SPF, DKIM, DMARC). Isso cria um alto risco de invasores enviando emails com êxito para a caixa de entrada que seria filtrada; no entanto, a lista de IPs permitidos não impede a filtragem de malware ou mensagens de phishing de alta confiança.
 
 ## <a name="use-allowed-sender-lists-or-allowed-domain-lists"></a>Usar listas de remetentes permitidos ou listas de domínios permitidos
 
@@ -124,7 +127,7 @@ O limite máximo para essas listas é de aproximadamente 1000 entradas; no entan
 
 > [!CAUTION]
 >
-> - Este método cria um alto risco de invasores enviando emails com êxito para a caixa de entrada que seria filtrada.
+> - Este método cria um alto risco de invasores enviando emails com êxito para a caixa de entrada que seria filtrada; no entanto, as listas de remetentes permitidos ou domínios permitidos não impedem a filtragem de malware ou de phishing de alta confiança.
 >
 > - Não use domínios que você possui (também conhecidos como domínios aceitos) ou domínios populares (por exemplo, microsoft.com) em listas de domínios permitidos.
 

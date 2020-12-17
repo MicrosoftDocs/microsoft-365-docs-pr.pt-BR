@@ -11,12 +11,12 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como administrar a descoberta de tópicos no Microsoft 365.
-ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: dec8aeef9dda390fb19f5067638c2ebea6b6a2fe
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667842"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698538"
 ---
 # <a name="manage-topic-discovery-in-microsoft-365"></a>Gerenciar descoberta de tópicos no Microsoft 365
 
@@ -87,11 +87,10 @@ No modelo CSV, insira as seguintes informações sobre os tópicos que você des
 
     ![Excluir tópicos no modelo CSV](../media/exclude-topics-csv.png) 
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 [Gerenciar a visibilidade de tópicos no Microsoft 365](topic-experiences-knowledge-rules.md)
 
 [Gerenciar permissões de tópico no Microsoft 365](topic-experiences-user-permissions.md)
 
 [Alterar o nome da central de tópicos no Microsoft 365](topic-experiences-administration.md)
-

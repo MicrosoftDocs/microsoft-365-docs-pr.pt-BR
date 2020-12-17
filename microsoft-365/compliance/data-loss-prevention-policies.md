@@ -22,20 +22,20 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a identificar, monitorar e proteger automaticamente as informações confidenciais da sua organização no Office 365.
-ms.openlocfilehash: 0817d48879fccbefcda22d677c85a250dc017dd0
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 75c2f4d81b3378d031adc394a9c8f7615d51079c
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999486"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682794"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
 > [!NOTE]
-> Os recursos de prevenção contra perda de dados foram recentemente adicionados ao bate-papo do Microsoft Teams e mensagens de canal para usuários licenciados para a Conformidade Avançada do Office 365, que está disponível como uma opção autônoma e está incluído no Office 365 E5 e Microsoft 365 E5 Compliance. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes de Licenciamento de Serviços de Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
+> Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para a Conformidade Avançada do Office 365, disponível como uma opção independente e está incluso na Conformidade do Office 365 E5 e no Microsoft 365 E5. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
-Para cumprir os padrões de negócios e regulamentações do setor, as organizações devem proteger informações confidenciais e evitar sua divulgação inadvertida. As informações confidenciais podem incluir dados financeiros ou informações de identificação pessoal (PII), como números de cartão de crédito, números de previdência social ou registros de saúde. Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança do Microsoft 365, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
+Para estar em conformidade com padrões de negócios e regulamentações do setor, as organizações precisam proteger as informações confidenciais e evitar sua divulgação acidental. Informação confidencial inclui dados financeiros ou informações de identificação pessoal (PII), como números de cartão de crédito, números de CPF ou registros de saúde. Com uma política DLP no Centro de Conformidade &amp; Segurança do Office 365, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
   
 Com uma política de DLP, você pode:
   
@@ -49,11 +49,11 @@ Com uma política de DLP, você pode:
     
 - **Monitorar e proteger informações confidenciais nas versões da área de trabalho do Excel, PowerPoint e Word.**
     
-    Assim como no Exchange Online, Microsoft Office SharePoint Online e Microsoft OneDrive for Business, esses programas de área de trabalho do Office incluem os mesmos recursos para identificar informações confidenciais e aplicar políticas de DLP. A DLP fornece monitoramento contínuo quando as pessoas compartilham conteúdo nesses programas do Office.
+    Assim como no Exchange Online, no SharePoint Online e no OneDrive for Business, esses programas da área de trabalho do Office incluem os mesmos recursos para identificar informações confidenciais e aplicar políticas de DLP. A DLP oferece monitoramento contínuo, quando as pessoas compartilham conteúdo nestes programas do Office.
     
-- **Ajude os usuários a aprender como manter a conformidade sem interromper o fluxo de trabalho.**
+- **Ajude os usuários a manter a conformidade sem interromper o fluxo de trabalho.**
     
-    Você pode educar seus usuários sobre as políticas de DLP e ajudá-los a permanecer em conformidade sem bloquear seu trabalho. Por exemplo, se um usuário tentar compartilhar um documento contendo informações confidenciais, uma política de DLP pode enviar uma notificação por email e mostrar a eles uma dica de política no contexto da biblioteca de documentos que permite que eles substituam a política se eles tiverem uma justificação de negócios. As mesmas dicas de política também aparecem no Outlook na web, Outlook, Excel, PowerPoint e Word.
+    Você pode instruir os usuários sobre políticas de DLP e ajudá-los a permanecer em conformidade sem bloquear seu trabalho. Por exemplo, se um usuário tentar compartilhar um documento que contém informações confidenciais, uma política de DLP pode enviar uma notificação por email e mostrar uma dica de política no contexto da biblioteca de documentos que permite substituir a política se ele tivere uma justificativa de negócios. As mesmas dicas de política também aparecem no Outlook na Web, no Outlook, no Excel, no PowerPoint e no Word.
     
 - **Exibir alertas e relatórios de DLP mostrando o conteúdo que corresponde às políticas de DLP da organização**
     
@@ -61,7 +61,7 @@ Com uma política de DLP, você pode:
     
 Você cria e gerencia políticas DLP na página Prevenção Contra Perda de Dados no Centro de conformidade do Microsoft 365.
   
-![Página de prevenção contra perda de dados no Centro de Conformidade &amp; Segurança do Office 365](../media/943fd01c-d7aa-43a9-846d-0561321a405e.png)
+![Página de Prevenção contra Perda de Dados no Centro de Conformidade &amp; Segurança do Office 365](../media/943fd01c-d7aa-43a9-846d-0561321a405e.png)
   
 ## <a name="what-a-dlp-policy-contains"></a>O que uma política de DLP contém
 
@@ -81,7 +81,7 @@ Por exemplo, você pode ter uma política DLP que ajuda a detectar a presença d
   
 ![O diagrama mostra que a política de DLP contém locais e regras](../media/c006860c-2d00-42cb-aaa4-5b5638d139f7.png)
   
-### <a name="locations"></a>Localizações
+### <a name="locations"></a>Locais
 
 As políticas de DLP são aplicadas a itens confidenciais em locais do Microsoft 365 e podem ter um escopo adicional conforme detalhado nesta tabela.
 
@@ -96,7 +96,7 @@ As políticas de DLP são aplicadas a itens confidenciais em locais do Microsoft
 |Microsoft Cloud App Security |instância |
 
 
- Se você escolher incluir grupos de distribuição específicos no Exchange, a política de DLP terá como escopo apenas os membros desse grupo. Da mesma maneira, a exclusão de um grupo de distribuição excluirá todos os membros desse grupo de distribuição da avaliação de políticas. Você pode optar por criar uma política para os membros das listas de distribuição, grupos de distribuição dinâmicas e grupos de segurança. Uma política DLP pode conter, no máximo, 50 inclusões e exclusões.
+ Se você optar por incluir grupos de distribuição específicos no Exchange, a política DLP será delimitada somente aos membros desse grupo. Da mesma maneira, a exclusão de um grupo de distribuição excluirá todos os membros desse grupo de distribuição da avaliação de políticas. Você pode optar por criar uma política para os membros das listas de distribuição, grupos de distribuição dinâmicas e grupos de segurança. Uma política DLP pode conter, no máximo, 50 inclusões e exclusões.
 
 Se optar por incluir ou excluir sites específicos do SharePoint ou contas do OneDrive, uma política de DLP pode conter até 100 inclusões e exclusões. Embora esses limites existam, você pode excede-los ao ignorar uma política no âmbito da organização ou uma política que se aplica a locais inteiros.
   
@@ -117,7 +117,7 @@ Veja a seguir os componentes de uma regra, cada um explicado abaixo.
 
 As condições são importantes porque elas determinam que tipos de informações confidenciais está procurando e quando uma ação deve ser executada. Por exemplo, você pode optar por ignorar o conteúdo com números de passaporte, a menos que o conteúdo contenha mais de 10 números e seja compartilhado com pessoas de fora da sua organização.
   
-As condições se concentram no **conteúdo** , como quais tipos de informações confidenciais está procurando e também no **contexto** , como com quem o documento é compartilhado. Você pode usar condições para atribuir ações diferentes a diferentes níveis de risco. Por exemplo, o conteúdo confidencial compartilhado internamente pode diminuir o risco e exigir menos ações do que o conteúdo confidencial compartilhado com pessoas de fora da organização. 
+As condições se concentram no **conteúdo**, como quais tipos de informações confidenciais está procurando e também no **contexto**, como com quem o documento é compartilhado. Você pode usar condições para atribuir ações diferentes a diferentes níveis de risco. Por exemplo, o conteúdo confidencial compartilhado internamente pode diminuir o risco e exigir menos ações do que o conteúdo confidencial compartilhado com pessoas de fora da organização. 
   
 ![Lista que mostra as condições DLP disponíveis](../media/0fa43f90-d007-4506-ae93-43e8424fe103.png)
   
@@ -200,13 +200,13 @@ Esta é a aparência de uma dica de política em uma conta do OneDrive for Busin
 
 Quando uma regra é correspondida, você pode enviar um email de alerta ao responsável pela conformidade (ou a qualquer pessoa(s) que você escolher) com os detalhes do alerta. O email de alerta carregará um link do [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md) que o responsável pela conformidade pode acessar para exibir os detalhes do alerta e eventos. O painel contém detalhes do evento que acionou o alerta junto com detalhes da política DLP combinada e o conteúdo confidencial detectado.
 
-Além disso, também pode ser enviado um relatório de incidentes com detalhes do evento. Este relatório inclui informações sobre o item que foi correspondido, o conteúdo real que correspondeu à regra e o nome da pessoa que modificou o conteúdo pela última vez. Para mensagens de email, o relatório também inclui a mensagem original como anexo que corresponde a uma política DLP.
+Além disso, também pode ser enviado um relatório de incidentes com detalhes do evento. Esse relatório inclui informações sobre o item que foi correspondido, o conteúdo real que correspondeu à regra e o nome da pessoa que modificou o conteúdo por último. Para mensagens de email, o relatório também inclui a mensagem original como anexo que corresponde a uma política DLP.
   
 ![Página para configurar relatórios de incidente](../media/Alerts-and-incident-report.png)
 
-A DLP verifica o email de maneira diferente dos itens do Microsoft Office SharePoint Online ou Microsoft OneDrive for Business. No Microsoft Office SharePoint Online e no Microsoft OneDrive for Business, a DLP verifica os itens existentes e também os novos e gera um alerta e relatório de incidentes sempre que uma correspondência é encontrada. No Exchange Online, a DLP verifica apenas novas mensagens de email e gera um relatório se houver uma correspondência de política. A DLP * *_não_* _ examina ou corresponde a itens de email existentes armazenados em uma caixa de correio ou arquivo.
+O DLP verifica os e-mails de forma diferente da dos itens do SharePoint Online ou do OneDrive for Business. No Microsoft Office SharePoint Online e no Microsoft OneDrive for Business, a DLP verifica os itens existentes e também os novos e gera um alerta e relatório de incidentes sempre que uma correspondência é encontrada. No Exchange Online, a DLP verifica apenas novas mensagens de email e gera um relatório se houver uma correspondência de política. A DLP **_não_* _ examina ou corresponde a itens de email existentes armazenados em uma caixa de correio ou arquivo.
   
-## <a name="grouping-and-logical-operators"></a>Operadores de agrupamento e lógicos
+## <a name="grouping-and-logical-operators"></a>Agrupamento e operadores lógicos
 
 Muitas vezes, sua política DLP tem um requisito direto, como identificar todo o conteúdo que contém um número de CPF. No entanto, em outras situações, talvez seja necessário que sua política DLP identifique dados definidos de forma mais flexível.
   
@@ -238,11 +238,11 @@ Você pode adicionar rapidamente um grupo, que pode ter suas próprias condiçõ
   
 ### <a name="choosing-the-operator-between-groups"></a>Escolher o operador entre grupos
 
-Entre os grupos, você pode escolher se as condições em apenas um grupo ou em todos os grupos devem ser satisfeitas para que o conteúdo corresponda à regra.
+Entre grupos, você pode escolher se as condições em apenas um grupo ou todos os grupos devem ser atendidas para que o conteúdo corresponda à regra.
   
-Por exemplo, o _ *U.S. A política HIPAA* * tem uma regra que usa um operador **AND** entre os grupos para identificar o conteúdo que contém: 
+Por exemplo, o _ *U.S. A política HIPAA** tem uma regra que usa um operador **AND** entre os grupos para identificar o conteúdo que contém: 
   
-- do grupo **Identificadores PII** (pelo menos um número SSN **OU** número DEA) 
+- do grupo **Identificadores PII** (pelo menos um número de CPF **OU** número da Agência de Combate às Drogas) 
     
     **E**
     
@@ -353,21 +353,21 @@ Por essas razões, a orientação para a criação de regras com diferentes prec
 Ao usar um [rótulo de retenção](retention.md#retention-labels) criado e publicado anteriormente como condição em uma política DLP, há algumas coisas a serem observadas:
 
 - O rótulo de retenção deve ser criado e publicado antes de tentar usá-lo como condição em uma política DLP.
-- Os rótulos de retenção publicados podem levar de um a sete dias para sincronizar. Para obter mais informações, confira [Quando os rótulos de retenção se tornam disponíveis para aplicação](create-apply-retention-labels.md#when-retention-labels-become-available-to-apply) para rótulos de retenção publicados em uma política de retenção e [Quanto tempo leva para os rótulos de retenção entrarem em vigor](apply-retention-labels-automatically.md#how-long-it-takes-for-retention-labels-to-take-effect) para rótulos de retenção automáticos-publicados.
+- Os rótulos de retenção publicados podem levar de um a sete dias para sincronização. Para obter mais informações, confira [Quando os rótulos de retenção se tornam disponíveis para aplicar](create-apply-retention-labels.md#when-retention-labels-become-available-to-apply) para rótulos de retenção publicados em uma política de retenção e [Quanto tempo leva para os rótulos de retenção entrarem em vigor](apply-retention-labels-automatically.md#how-long-it-takes-for-retention-labels-to-take-effect) para os rótulos de retenção que são publicados automaticamente.
 - O uso de um rótulo de retenção em uma política **só é compatível com itens no Microsoft Office SharePoint Online e OneDrive** _.
 
   ![Rótulos como uma condição](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
-  Você pode desejar usar um rótulo de retenção em uma política de DLP se tiver itens que estão sob retenção e disposição e também quiser aplicar outros controles a eles, por exemplo:
+  Talvez você queira usar um rótulo de retenção em uma política DLP se tiver itens que estão sob retenção e descarte, e também aplicar outros controles a eles, por exemplo:
 
-  - Você publicou um rótulo de retenção denominado _*ano fiscal de 2018** que quando aplicado a documentos fiscais de 2018 armazenados no Microsoft Office SharePoint Online, os retém por 10 anos e depois os descarta. Você também não deseja que esses itens sejam compartilhados fora da organização, o que pode ser feito com uma política DLP.
+  - Você publicou um rótulo de retenção denominado _*ano fiscal de 2018** que quando aplicado a documentos fiscais de 2018 armazenados no Microsoft Office SharePoint Online, os retém por 10 anos e depois os descarta. Use também uma política DLP para impedir que itens sejam compartilhados fora da organização.
 
   > [!IMPORTANT]
   > Você receberá a seguinte mensagem de erro se especificar um rótulo de retenção como uma condição em uma política DLP e também incluir o Exchange e/ou Teams como um local: **"não há suporte para a proteção de conteúdo rotulado em mensagens de email e equipes. Remova a etiqueta a seguir ou desative o Exchange e o Teams como um local."** Isso ocorre porque o transporte do Exchange não avalia os metadados do rótulo durante o envio e a entrega da mensagem. 
 
-### <a name="support-for-sensitivity-labels-is-coming"></a>O suporte para rótulos de confidencialidade estará disponível em breve
+### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de confidencialidade como condição em uma política DLP
 
-No momento, você pode usar apenas um rótulo de retenção como uma condição, não um [rótulo de confidencialidade](sensitivity-labels.md). Estamos trabalhando no suporte para usar um rótulo de confidencialidade nesta condição.
+Rótulos de confidencialidade como condição nas políticas de DLP está atualmente na versão prévia. [Saiba mais](https://docs.microsoft.com/microsoft-365/compliance/dlp-sensitivity-label-as-condition).
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Como esse recurso se relaciona a outros recursos
 
@@ -441,7 +441,7 @@ Se estiver criando políticas DLP com um grande impacto em potencial, é recomen
 
     ![Opções para desativar uma regra em uma política](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
-    Você também pode alterar a prioridade de várias regras em uma política. Para fazer isso, abra uma política para edição. Em uma linha para uma regra, escolha as reticências ( **...** ) e, em seguida, escolha uma opção, como **Mover para baixo** ou **Colocar como mais baixa**.
+    Você também pode alterar a prioridade de várias regras em uma política. Para fazer isso, abra uma política para edição. Em uma linha para uma regra, escolha as reticências (**...**) e, em seguida, escolha uma opção, como **Mover para baixo** ou **Colocar como mais baixa**.
 
     ![Definir prioridade da regra](../media/dlp-set-rule-priority.png)
   

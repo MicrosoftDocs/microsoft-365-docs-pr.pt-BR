@@ -11,16 +11,16 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como configurar experiências de tópico no Microsoft 365
-ms.openlocfilehash: cc157463c8c85f25ba232c344294ef3e0fabba23
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: e11f0b75556a4a8ac0ffa40269d7166258128daf
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667914"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698550"
 ---
 # <a name="set-up-topic-experiences-in-microsoft-365"></a>Configurar experiências de tópico no Microsoft 365
 
-Você pode usar o centro de administração do Microsoft 365 para configurar e configurar [experiências de tópico](knowledge-management-overview.md). 
+Você pode usar o centro de administração do Microsoft 365 para configurar e configurar [experiências de tópico](topic-experiences-overview.md). 
 
 É importante planejar a melhor maneira de configurar e configurar tópicos em seu ambiente. Certifique-se de ler [planejar experiências de tópico](plan-topic-experiences.md) antes de começar os procedimentos neste artigo.
 
@@ -142,6 +142,6 @@ Depois de configurar experiências de tópico, você poderá alterar as configur
 - [Gerenciar permissões de tópico no Microsoft 365](topic-experiences-user-permissions.md)
 - [Alterar o nome da central de tópicos no Microsoft 365](topic-experiences-administration.md)
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
-[Visão geral do gerenciamento de conhecimento](knowledge-management-overview.md)
+[Visão geral da experiência do tópico](topic-experiences-overview.md)

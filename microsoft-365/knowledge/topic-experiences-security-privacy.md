@@ -11,12 +11,12 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como planejar a experiência de tópicos de segurança e privacidade no Microsoft 365
-ms.openlocfilehash: 7b88e5bbc8158ebd7dea65b2ecbf77085651b439
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: b3c33a49b8273c5f7830f08de17af9757a858413
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668088"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698492"
 ---
 # <a name="topic-experiences-security-and-privacy"></a>Tópico experiências de segurança e privacidade
 
@@ -26,7 +26,7 @@ A configuração da rede de conhecimento não modifica qualquer controle de aces
 
 Este artigo descreve como as experiências de tópicos funcionam de uma perspectiva de segurança e as opções que os administradores de conhecimento e os gerentes de conhecimento precisam controlar a visibilidade do tópico. Leia este artigo como parte do [planejamento de experiências de tópico](plan-topic-experiences.md).
 
-Você deve estar familiarizado com [experiências de tópicos](knowledge-management-overview.md), o [centro de tópicos](topic-center-overview.md)e como [trabalhar com tópicos no centro](work-with-topics.md) de tópicos antes de ler este artigo.
+Você deve estar familiarizado com [experiências de tópicos](topic-experiences-overview.md), o [centro de tópicos](topic-center-overview.md)e como [trabalhar com tópicos no centro](manage-topics.md) de tópicos antes de ler este artigo.
 
 ## <a name="what-users-can-see-in-topics"></a>O que os usuários podem ver nos tópicos
 
@@ -83,9 +83,9 @@ Além disso, recomendamos estas práticas recomendadas:
 
 Embora você possa alterar as permissões em páginas de tópicos individuais para restringir o acesso a um grupo específico de usuários, não recomendamos essa abordagem devido ao alto grau de esforço administrativo necessário.
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
-[Configurar equipes com três camadas de proteção](../solutions/configure-teams-three-tiers-protection.md)
+[Configure equipes com três níveis de proteção](../solutions/configure-teams-three-tiers-protection.md)
 
 [Planejar experiências de tópico](plan-topic-experiences.md)
 

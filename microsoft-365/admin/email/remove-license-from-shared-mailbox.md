@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Remover a licença de uma caixa de correio compartilhada para atribuí-la a outro usuário. '
-ms.openlocfilehash: 43d32744afe42a8f244160ace20c1d989f501b28
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 11d5185cc3f79899a737ddccc0a93160acb380bc
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445490"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698298"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
 
@@ -45,6 +45,7 @@ Caixas de correio compartilhadas normalmente não exigem uma licença. Siga esta
 > 1. A caixa de correio compartilhada tem mais de 50 GB de armazenamento em uso.
 > 2. A caixa de correio compartilhada usa arquivamento in-loco.
 > 3. A caixa de correio compartilhada é colocada em retenção de litígio.
+> 4. A caixa de correio compartilhada tem uma licença do Microsoft defender atribuída.
 
   
 ## <a name="remove-the-license"></a>Remover a licença
@@ -105,6 +106,8 @@ Caixas de correio compartilhadas normalmente não exigem uma licença. Siga esta
 6. Você ainda está pagando pela licença. Para parar de pagar, [remova a licença da sua assinatura](../../commerce/licenses/remove-licenses-from-subscription.md).
 
 ::: moniker-end 
+
+ 
 
 ## <a name="related-articles"></a>Artigos relacionados
 

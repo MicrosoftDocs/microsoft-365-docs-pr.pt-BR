@@ -1,5 +1,6 @@
 ---
-title: Recomendações da Microsoft para o EOP e o defender para Office 365 configurações de segurança, recomendações, estrutura de política de remetente, relatórios e conformidade de mensagens baseadas em domínio, DomainKeys identificadas por email, etapas, como funciona, as linhas de base de segurança, as linhas de base para o EOP, as linhas de base para o defender 365 para o Office 365, configurar o 365 defender para Office
+title: Recomendações da Microsoft para as configurações de segurança do EOP e do defender para Office 365
+keywords: Recomendações de segurança do Office 365, estrutura de política de remetente, relatórios e conformidade de mensagens baseados em domínio, DomainKeys identificadas por email, etapas, como funciona, linhas de base de segurança, linhas de base para o EOP, linhas de base para o defender para Office 365, configurar o defender para Office 365, configurar o EOP, configurar o defender para Office 365, definir a configuração de segurança
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e do defender para Office 365? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras que você obtém se usa também o defender para o Office 365?
-ms.openlocfilehash: 192e37a1a9a373f7b6712600bc3c81189f7c51ad
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: d731b75e05dcecc513c72b390b106491f7601c71
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615955"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698682"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Configurações recomendadas para a segurança do EOP e do Microsoft defender para Office 365
 
@@ -168,9 +169,9 @@ Para obter mais informações sobre essas configurações, consulte [configuraç
 
 |Nome do recurso de segurança|Padrão|Padrão|Impede|Comentário|
 |---|:---:|:---:|:---:|---|
-|Usuários protegidos: **Adicionar usuários para proteger** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Desabilitado <p> `$false` <p> Nenhuma|Habilitado <p> `$true` <p> \<list of users\>|Habilitado <p> `$true` <p> \<list of users\>|Dependendo da sua organização, é recomendável adicionar usuários (remetentes de mensagens) em funções principais. Os remetentes protegidos internamente podem ser o CEO, CFO e outros líderes seniores. Externamente, os remetentes protegidos podem incluir membros do Conselho ou seu Conselho de diretores.|
+|Usuários protegidos: **Adicionar usuários para proteger** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Desabilitado <p> `$false` <p> nenhum|Habilitado <p> `$true` <p> \<list of users\>|Habilitado <p> `$true` <p> \<list of users\>|Dependendo da sua organização, é recomendável adicionar usuários (remetentes de mensagens) em funções principais. Os remetentes protegidos internamente podem ser o CEO, CFO e outros líderes seniores. Externamente, os remetentes protegidos podem incluir membros do Conselho ou seu Conselho de diretores.|
 |Domínios protegidos: **incluir automaticamente os domínios que eu sou proprietário** <p> _EnableOrganizationDomainsProtection_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
-|Domínios protegidos: **incluir domínios personalizados** <p> _EnableTargetedDomainsProtection_ <p> _TargetedDomainsToProtect_|Desabilitado <p> `$false` <p> Nenhuma|Habilitado <p> `$true` <p> \<list of domains\>|Habilitado <p> `$true` <p> \<list of domains\>|Dependendo da sua organização, recomendamos adicionar domínios (domínios de remetente) que você não é proprietário, mas com as quais você interage com frequência.|
+|Domínios protegidos: **incluir domínios personalizados** <p> _EnableTargetedDomainsProtection_ <p> _TargetedDomainsToProtect_|Desabilitado <p> `$false` <p> nenhum|Habilitado <p> `$true` <p> \<list of domains\>|Habilitado <p> `$true` <p> \<list of domains\>|Dependendo da sua organização, recomendamos adicionar domínios (domínios de remetente) que você não é proprietário, mas com as quais você interage com frequência.|
 |Usuários protegidos: **se o email for enviado por um usuário representado** <p> _TargetedUserProtectionAction_|**Não aplicar nenhuma ação** <p> `NoAction`|**Colocar a mensagem em quarentena** <p> `Quarantine`|**Colocar a mensagem em quarentena** <p> `Quarantine`||
 |Domínios protegidos: **se o email for enviado por um domínio representado** <p> _TargetedDomainProtectionAction_|**Não aplicar nenhuma ação** <p> `NoAction`|**Colocar a mensagem em quarentena** <p> `Quarantine`|**Colocar a mensagem em quarentena** <p> `Quarantine`||
 |**Mostrar dica para usuários representados** <p> _EnableSimilarUsersSafetyTips_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
@@ -281,7 +282,7 @@ No PowerShell, você usa os cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 |Nome do recurso de segurança|Padrão|Padrão|Impede|Comentário|
 |---|:---:|:---:|:---:|---|
 |**Resposta desconhecida de malware de anexos seguros** <p> _Ação_|Bloquear <p> `Block`|Bloquear <p> `Block`|Bloquear <p> `Block`||
-|**Redirecionar o anexo na detecção** : **habilitar redirecionamento** <p> _Redirecionar_ <p> _RedirectAddress_|E nenhum endereço de email especificado. <p> `$true` <p> Nenhuma|Ativado e especifique um endereço de email. <p> `$true` <p> um endereço de email|Ativado e especifique um endereço de email. <p> `$true` <p> um endereço de email|Redirecionar mensagens para um administrador de segurança para revisão.|
+|**Redirecionar o anexo na detecção** : **habilitar redirecionamento** <p> _Redirecionar_ <p> _RedirectAddress_|E nenhum endereço de email especificado. <p> `$true` <p> nenhum|Ativado e especifique um endereço de email. <p> `$true` <p> um endereço de email|Ativado e especifique um endereço de email. <p> `$true` <p> um endereço de email|Redirecionar mensagens para um administrador de segurança para revisão.|
 |**Aplica a seleção acima se a verificação de malware para anexos expirar ou ocorrer erro.** <p> _ActionOnError_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |
 

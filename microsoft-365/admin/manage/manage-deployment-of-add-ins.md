@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: 9708ec9877c4d07b0cf93ea9d6815303236eff4b
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: 37fac34449ee39366778e29c0eeddf1fc7bfdd37
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830632"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698284"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
 
@@ -61,35 +61,35 @@ Dependendo do tamanho do público-alvo, você poderá adicionar ou remover etapa
 
 Antes de começar, confira [determinar se a implantação centralizada de suplementos funciona para sua organização](centralized-deployment-of-add-ins.md).
   
-1. No centro de administração, vá para a página **configurações** \> **de suplementos** . Se você não vir a página do **suplemento** , vá para a página **configurações** de \> **aplicativos integrados** da configuração \> **Add-ins** .
+1. No centro de administração, vá para a página **configurações** \> **de suplementos** . Se você não vir a página do **suplemento** , vá para a página **configurações** de \> **aplicativos integrados** da configuração \>  .
     
-2. Selecione **implantar suplemento** na parte superior da página e, em seguida, selecione **Avançar** .
+2. Selecione **implantar suplemento** na parte superior da página e, em seguida, selecione **Avançar**.
  
     > [!NOTE]
-    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para seção implantação centralizada em aplicativos de **configurações**  >  **integradas** . Na parte superior da página **aplicativos integrados** , escolha **suplementos** .
+    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para seção implantação centralizada em aplicativos de **configurações**  >  **integradas**. Na parte superior da página **aplicativos integrados** , escolha **suplementos**.
     
 3. Selecione uma opção e siga as instruções.
   
 4. Se você selecionou a opção para adicionar um suplemento da Office Store, faça a seleção do seu suplemento. </br>
 
-    Você pode exibir os suplementos disponíveis por categorias: **sugeridas para você** , **classificação** ou **nome** . Apenas os suplementos gratuitos estão disponíveis na Office Store. Atualmente, não há suporte para suplementos pagos. Depois de selecionar um suplemento, aceite os termos e condições para prosseguir. <br/> 
+    Você pode exibir os suplementos disponíveis por categorias: **sugeridas para você**, **classificação** ou **nome**. Apenas os suplementos gratuitos estão disponíveis na Office Store. Atualmente, não há suporte para suplementos pagos. Depois de selecionar um suplemento, aceite os termos e condições para prosseguir. <br/> 
 
     > [!NOTE] 
     > Com a opção da Office Store, as atualizações e aprimoramentos são implantadas automaticamente para os usuários.
 
-5. Na próxima página, selecione **todos** , **usuários/grupos específicos** ou **apenas eu** para especificar quem o suplemento será implantado. Use a caixa Pesquisar para localizar usuários ou grupos específicos. <br/>
+5. Na próxima página, selecione **todos**, **usuários/grupos específicos** ou **apenas eu** para especificar quem o suplemento será implantado. Use a caixa Pesquisar para localizar usuários ou grupos específicos. <br/>
 
     > [!NOTE] 
     > Para saber mais sobre outros Estados que se aplicam a um suplemento, confira [Estados de suplementos](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md).
   
-6. Selecione **Implantar** .
+6. Selecione **Implantar**.
   
 7. Um tique verde aparece quando o suplemento é implantado. Siga as instruções na página para testar o suplemento.
 
     > [!NOTE]
     > Talvez os usuários precisem reiniciar o Office para exibir o ícone de suplemento na faixa de opções do aplicativo. Os suplementos do Outlook podem levar até 24 horas para serem exibidos nas faixas de opções do aplicativo.
     
-8. Quando terminar, selecione **Avançar** . Se você implantou para si mesmo, é possível selecionar **alterar quem tem acesso ao suplemento** para implantar para mais usuários.
+8. Quando terminar, selecione **Avançar**. Se você implantou para si mesmo, é possível selecionar **alterar quem tem acesso ao suplemento** para implantar para mais usuários.
 
     Se você implantou o suplemento em outros membros da sua organização, siga as instruções para anunciar a implantação do suplemento. <br/>
   
@@ -138,7 +138,7 @@ As atualizações para suplementos acontecem da seguinte maneira:
 
 [Gerenciar suplementos no centro de administração](manage-addins-in-the-admin-center.md)
 
-[Criação de suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins-fundamentals).
+[Crie seu primeiro suplemento do painel de tarefas do Word](https://docs.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator).
 
 [Menores e aquisição de suplementos da loja](minors-and-acquiring-addins-from-the-store.md)
   

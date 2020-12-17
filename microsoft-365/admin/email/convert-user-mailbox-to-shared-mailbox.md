@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Saiba como converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por vários usuários. '
-ms.openlocfilehash: bc867c9b43656e40149eb7cd7a7e5ce186c10798
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: fa8e37b5e924f1b38755a953f40d8b70011213d0
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445682"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698274"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 
@@ -45,7 +45,7 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
  
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 
-2. Selecionar **Recipients** \> **caixas de correio**de destinatários.
+2. Selecionar  \> **caixas de correio** de destinatários.
 
 3. Selecione a caixa de correio do usuário. Em **converter em caixa de correio compartilhada**, selecione **converter**.
 
@@ -93,13 +93,17 @@ Digamos que você tenha excluído uma conta de usuário e agora deseja converter
 
 ## <a name="convert-a-users-mailbox-in-a-hybrid-environment"></a>Converter a caixa de correio de um usuário em um ambiente híbrido
 
-Se essa caixa de correio compartilhada estiver em um ambiente híbrido, **recomendamos enfaticamente** (quase exigir!) que você mova a caixa de correio do usuário de volta para o local, converta a caixa de correio do usuário em uma caixa de correio compartilhada e, em seguida, mova a caixa de correio compartilhada de volta para a nuvem. 
+> [!NOTE] 
+> A partir de outubro de 11, 2018, a implantação híbrida do Exchange suporta a criação de caixas de correio compartilhadas remotas começando na atualização cumulativa 21 para o Exchange Server 2013 e a atualização cumulativa 10 para o Exchange Server 2016 em um ambiente local do Exchange Server. Você pode criar ou modificar diretamente uma caixa de correio compartilhada remota usando o parâmetro New _-Shared_ . Para obter mais informações, visite [cmdlets para criar ou modificar uma caixa de correio compartilhada remota em um ambiente do Exchange local](https://support.microsoft.com/help/4133605/cmdlets-to-create-modify-remote-shared-mailbox-in-on-premises-exchange).
+
+Se essa caixa de correio compartilhada estiver em um ambiente híbrido e não se enquadrar no cenário acima, **recomendamos enfaticamente** que você mova a caixa de correio do usuário de volta para o local, converta a caixa de correio do usuário em uma caixa de correio compartilhada e mova a caixa de correio compartilhada de volta para a nuvem. 
 
 Veja por quê: se você converter a caixa de correio na nuvem, ela poderá ser convertida, mas o local ainda acha que a caixa de correio é a caixa de correio do usuário, porque a nova realidade não é sincronizada para o local.
 
 Normalmente, isso não é um problema, mas há alguns cenários em que os atributos locais (que acreditam que a caixa de correio é a caixa de correio do usuário) podem substituir as novas versões de nuvem desses atributos e, como resultado, a caixa de correio pode ser convertida novamente. Isso é um problema porque as caixas de correio do usuário exigem licenças **ou são excluídas de forma reversível após 30 dias**!
 
 Abordamos a maioria dos motivos pelos quais isso acontece, mas ele ainda pode acontecer, embora com frequência. É melhor ser seguro e mover a caixa de correio de volta para o local, convertê-la e, em seguida, mover a caixa de correio compartilhada de volta para a nuvem. Essa solução recomendada não está violando o contrato de licenciamento para ambientes híbridos porque a existência da caixa de correio de usuário local é apenas temporária. Você estaria violando sua licença se manteve a caixa de correio do usuário ou a caixa de correio compartilhada em sua organização local e não a moveu de volta para a nuvem.
+
 
 > [!NOTE]
 > Se você é membro do grupo de funções Gerenciamento da organização ou gerenciamento de destinatários, você pode usar o Shell de gerenciamento do Exchange para alterar uma caixa de correio de usuário para uma caixa de correio compartilhada no local. Por exemplo, `Set-Mailbox -Identity mailbox1@contoso.onmicrosoft.com -Type Shared`.

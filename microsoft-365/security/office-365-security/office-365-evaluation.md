@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54acf9d21e3dd935f8b87c6ee4a13ab30e7bc59e
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: abb33b85717e63cb78a2b1edfd86584fd165a71f
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668068"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701010"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft defender para Office 365
 
@@ -41,13 +41,13 @@ Se você ainda não tiver uma licença que ofereça suporte ao Microsoft defende
 
 O defender for Office 365 no modo de avaliação cria as políticas de email do defender for Office 365 que fazem o log de verdicts, como malware, mas não agem em mensagens. Não é necessário alterar sua configuração de registro MX.
 
-Com o modo de avaliação, [anexos seguros](atp-safe-attachments.md), [links seguros](atp-safe-links.md)e [diretivas de personificação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) anti-phishing estão configurados em seu nome. Todas as políticas do defender for Office 365 são criadas no modo não cumprimento em segundo plano e não são visíveis para você.
+Com o modo de avaliação, [anexos seguros](atp-safe-attachments.md), [links seguros](atp-safe-links.md)e [políticas de personificação](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) anti-phishing são configurados em seu nome. Todas as políticas do defender for Office 365 são criadas no modo não cumprimento em segundo plano e não são visíveis para você.
 
-Como parte da configuração, o modo de avaliação também configura [a filtragem avançada de conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors). Ele melhora a precisão da filtragem ao preservar as informações de endereço IP e de remetente, que são perdidas quando o email passa por um gateway de segurança de email (ESG) na frente do defender para Office 365. Isso também melhora a precisão da filtragem de suas políticas antispam e antispam do Exchange Online Protection (EOP).
+Como parte da configuração, o modo de avaliação também configura [a filtragem avançada de conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors). Ele melhora a precisão da filtragem ao preservar as informações de endereço IP e de remetente, que são perdidas quando o email passa por um gateway de segurança de email (ESG) na frente do defender para Office 365. A filtragem avançada também melhora a precisão da filtragem de suas políticas antispam e antispam do Exchange Online Protection (EOP).
 
 Para minimizar o impacto em potencial da produção em alguns cenários sem suporte, você pode ignorar a filtragem de EOP criando uma regra de transporte para definir o SCL (nível de confiança de spam) como-1. Consulte [usar o Eat para criar uma regra de fluxo de emails que define o SCL de uma mensagem](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)   para obter detalhes.
 
-Quando o modo de avaliação é configurado, você terá um relatório atualizado diariamente com até 90 dias de dados quantificando as mensagens que teriam sido bloqueadas e implementadas (por exemplo, excluir, enviar para lixo eletrônico, quarentena). Os relatórios são gerados para todas as detecções do defender for Office 365 e EOP. Eles são agregados por tecnologia de detecção (por exemplo, representação) e podem ser filtrados por intervalo de tempo. Além disso, os relatórios de mensagens podem ser criados sob demanda para criar pivôs personalizados ou para aprofundar mensagens usando o explorador de ameaças.
+Quando o modo de avaliação estiver configurado, você terá um relatório atualizado diariamente com até 90 dias de dados quantificando as mensagens que seriam bloqueadas se as políticas foram implementadas (por exemplo, excluir, enviar para lixo eletrônico, quarentena). Os relatórios são gerados para todas as detecções do defender for Office 365 e EOP. Eles são agregados por tecnologia de detecção (por exemplo, representação) e podem ser filtrados por intervalo de tempo. Além disso, os relatórios de mensagens podem ser criados sob demanda para criar pivôs personalizados ou para aprofundar mensagens usando o explorador de ameaças.
 
 Com a experiência de configuração simplificada, você pode se concentrar em:
 
@@ -79,9 +79,14 @@ Você terá uma janela de 30 dias com a avaliação para monitorar e relatar ame
 
 ### <a name="roles"></a>Funções
 
-As funções do Exchange Online são necessárias para configurar o defender para Office 365 no modo de avaliação. As seguintes funções são necessárias:
+As funções do Exchange Online são necessárias para configurar o defender para Office 365 no modo de avaliação.
 
-|Tarefas|Função|
+- [Saiba mais sobre permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+- [Saiba como atribuir funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+
+As seguintes funções são necessárias:
+
+|Tarefas|Role|
 |---|---|
 |Obter uma avaliação gratuita ou comprar o Microsoft defender para Office 365 (plano 2)|Função de administrador de cobrança ou função de administrador global|
 |Criar política de avaliação|Função de domínios remotos e aceitos; Função de administrador de segurança|
@@ -90,9 +95,10 @@ As funções do Exchange Online são necessárias para configurar o defender par
 |Exibir relatório de avaliação|Função de administrador de segurança ou de leitor de segurança|
 |
 
+
 ### <a name="enhanced-filtering"></a>Filtragem avançada
 
-Suas políticas de proteção do Exchange Online, como proteção em massa e spam, permanecerão as mesmas. A entrega de mensagens também permanecerá a mesma. No entanto, a avaliação ativa a filtragem avançada para conectores, o que afetará suas políticas de proteção do Exchange Online e do fluxo, a menos que seja ignorada.
+Suas políticas de proteção do Exchange Online, como proteção em massa e spam, permanecerão as mesmas. A entrega de mensagens também permanecerá a mesma. No entanto, a avaliação ativa a filtragem avançada para conectores, o que afeta o fluxo de email e as políticas de proteção do Exchange Online, a menos que seja ignorado.
 
 A filtragem avançada para conectores permitirá que os locatários usem a proteção contra falsificação. A antifalsificação não é suportada se você estiver usando um portal de segurança de email (ESG) sem ter ativado a filtragem avançada para conectores.
 
@@ -104,7 +110,7 @@ Links de URL nos corpos de mensagens de email não serão quebrados, para reduzi
 
 ### <a name="email-routing"></a>Roteamento de email
 
-Você precisa preparar os detalhes correspondentes que precisará para configurar a forma como seu email é roteado no momento, incluindo o nome do conector de entrada que roteia seus emails. Se você estiver usando o Exchange Online Protection, não terá um conector.  [Saiba mais sobre o fluxo de email e o roteamento de email](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+Prepare os detalhes correspondentes que você precisará para configurar a forma como seu email é roteado no momento, incluindo o nome do conector de entrada que roteia seus emails. Se você estiver usando o Exchange Online Protection, não terá um conector.  [Saiba mais sobre o fluxo de email e o roteamento de email](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
 Os cenários de roteamento de email suportados incluem:
 

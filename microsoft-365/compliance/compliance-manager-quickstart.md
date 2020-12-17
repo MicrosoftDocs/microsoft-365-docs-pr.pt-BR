@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Use o guia de início rápido do Gerenciador de conformidade para ajudá-lo na sua jornada de compreensão, configuração e uso do Gerenciador de conformidade.
-ms.openlocfilehash: 9f24a0495b7d453b70a28ad54d76ccf835000ed6
-ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
+ms.openlocfilehash: c5159e1e6faa293ba3bd49d82bb06898ec9e0bdd
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071965"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698424"
 ---
 # <a name="compliance-manager-quickstart"></a>QuickStart do Gerenciador de Conformidade
 
 **Neste artigo:** Use este guia de início rápido para ajudá-lo a usar o gerente de conformidade da Microsoft para gerenciar a conformidade da sua organização com regulamentos, políticas e padrões.
 
-O Gerenciador de conformidade oferece dados inteligentes e acionáveis na sua primeira visita. O Gerenciador de conformidade também tem recursos avançados para dimensionar sua conformidade quando você estiver pronto. Todos os clientes podem usar a [avaliação da linha de base de proteção de dados](compliance-manager-assessments.md#data-protection-baseline-default-assessment) para garantir que você esteja protegendo dados críticos. Com o Microsoft 365 e5, você pode usar mais de 150 avaliações pré-configuradas para ajudá-lo a cumprir as regulamentações em seu setor e em sua região e usar avaliações personalizadas para estender o gerente de conformidade em todos os seus ativos.
+O Gerenciador de conformidade oferece dados inteligentes e acionáveis na sua primeira visita. O Gerenciador de conformidade também tem recursos avançados para dimensionar sua conformidade quando você estiver pronto. As avaliações disponíveis dependem do seu contrato de licenciamento; [saiba mais](https://go.microsoft.com/fwlink/?linkid=2132371).
 
 Se você está entrando no gerente de conformidade pela primeira vez ou está pronto para usar alguns dos recursos avançados, este guia pode dar suporte à sua jornada.
 

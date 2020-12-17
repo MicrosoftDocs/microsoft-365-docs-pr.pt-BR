@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Saiba como criar uma política de nomenclatura para os grupos do Microsoft 365.
-ms.openlocfilehash: 15fcbace737398c6edd2062e72622e8551ebd222
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 9bc0a4c7e1ae6ad532c97b442a2bc50880a942fc
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613497"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698670"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Política de nomenclatura de grupos do Microsoft 365
 
@@ -108,15 +108,13 @@ Nenhuma pesquisa de subcadeias de caracteres é executada; especificamente, uma 
 
 Alguns administradores são isentos dessas políticas, em todas as cargas de trabalho de grupo e pontos de extremidade, para que eles possam criar grupos com essas palavras bloqueadas e com as convenções de nomenclatura desejadas. Veja a seguir a lista de funções de administrador isentas da política de nomeação de grupo.
 
-- Administração global
+- Administrador global
 
 - Suporte da camada 1 do parceiro
 
 - Suporte da camada 2 do parceiro
 
 - Administrador de conta de usuário
-
-- Gravadores de diretório
 
 ## <a name="how-to-set-up-the-naming-policy"></a>Como configurar a política de nomenclatura
 

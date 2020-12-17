@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 498ff1482bd0109903968d1c8fe250311e37a51f
-ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
+ms.openlocfilehash: cb45d613da95c977f56b82e64ad3332434e08cd8
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819111"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698504"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -656,7 +656,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - tfn
 
 ## <a name="austria-drivers-license-number"></a>Número da carteira de motorista do Áustria
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -1602,7 +1601,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 </Entity>
 ```
 ## <a name="belgium-drivers-license-number"></a>Número da carteira de motorista do Bélgica
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -1783,7 +1781,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 11 dígitos mais delimitadores.
-- seis dígitos e dois períodos opcionais no formato YY. Principal. DD para data de nascimento 
+- seis dígitos e dois períodos opcionais no formato YY. MM.DD para data de nascimento 
 - Um delimitador opcional de ponto, traço, espaço 
 - três dígitos sequenciais (ímpares para homens, mesmo para mulheres) 
 - Um delimitador opcional de ponto, traço, espaço 
@@ -2272,7 +2270,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="bulgaria-drivers-license-number"></a>Número da carteira de motorista do Bulgária
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -3594,7 +3591,6 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="croatia-drivers-license-number"></a>Número da carteira de motorista da Croácia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -4013,7 +4009,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
    
 ## <a name="cyprus-drivers-license-number"></a>Número de licença de drivers de Chipre
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -4365,7 +4360,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="czech-drivers-license-number"></a>Número da carteira de motorista do tcheco
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -4755,7 +4749,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="denmark-drivers-license-number"></a>Número da carteira de motorista da Dinamarca
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -5207,7 +5200,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="estonia-drivers-license-number"></a>Número da carteira de motorista do Estônia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -6019,7 +6011,6 @@ Essas entidades estão no tipo de informação confidencial do número de identi
 
 
 ## <a name="finland-drivers-license-number"></a>Número da carteira de motorista do Finlândia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -6479,7 +6470,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="france-drivers-license-number"></a>Número da carteira de motorista da França
-Essa entidade de tipo de informação confidencial está disponível no tipo de informação confidencial do número de carteira do driver da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
 
 ### <a name="format"></a>Formatar
 
@@ -7015,7 +7005,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="germany-drivers-license-number"></a>Número da carteira de motorista da Alemanha
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número de carteira do driver da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
 
 ### <a name="format"></a>Formatar
 
@@ -7456,7 +7445,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="greece-drivers-license-number"></a>Número da carteira de motorista do Grécia
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número de carteira do driver da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
 
 ### <a name="format"></a>Formatar
 
@@ -7890,8 +7878,6 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
    
 ## <a name="hungary-drivers-license-number"></a>Número da carteira de motorista do Hungria
-
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -8580,7 +8566,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhuma
+Nenhum
 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional do Diseases (ICD-10-CM)
@@ -8731,8 +8717,6 @@ Para IPv6, uma política de DLP tem 95% de certeza de que ela detectou este tipo
 - IP כתובת ה 
 
 ## <a name="ireland-drivers-license-number"></a>Número da carteira de motorista da Irlanda
-
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -9164,7 +9148,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
    
 ## <a name="italy-drivers-license-number"></a>Número da carteira de motorista da Itália
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número de carteira do driver da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
 
 ### <a name="format"></a>Formatar
 
@@ -9923,7 +9906,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="latvia-drivers-license-number"></a>Número da carteira de motorista da Letônia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -10282,7 +10264,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - n ° du passeport
 
 ## <a name="lithuania-drivers-license-number"></a>Número da carteira de motorista da Lituânia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -10589,7 +10570,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - paso nr
 
 ## <a name="luxemburg-drivers-license-number"></a>Número da carteira de motorista do Luxemburg
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -11025,7 +11005,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - cartão de identificação pessoal
 
 ## <a name="malta-drivers-license-number"></a>Número da carteira de motorista do driver de Malta
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -11466,7 +11445,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - uniqueidentityno #
 
 ## <a name="netherlands-drivers-license-number"></a>Número da carteira de motorista da Holanda
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -12272,7 +12250,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Pinag-isang Multi-Layunin ID
 
 ## <a name="poland-drivers-license-number"></a>Número da carteira de motorista do Polônia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -12770,7 +12747,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="portugal-drivers-license-number"></a>Número da carteira de motorista de Portugal
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -13087,7 +13063,6 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="romania-drivers-license-number"></a>Número da carteira de motorista do Romênia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -13625,7 +13600,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 身份證 
 
 ## <a name="slovakia-drivers-license-number"></a>Número da carteira de motorista do Eslováquia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -13945,7 +13919,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - n ° passeport
 
 ## <a name="slovenia-drivers-license-number"></a>Número da carteira de motorista do Eslovênia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -14419,7 +14392,6 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 주민등록번호
 
 ## <a name="spain-drivers-license-number"></a>Número da carteira de motorista da Espanha
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
@@ -14796,7 +14768,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhuma
+Nenhum
 
 ## <a name="spain-tax-identification-number"></a>Número de identificação de imposto da Espanha
 Esse tipo de informação confidencial só está disponível para uso no:
@@ -14985,7 +14957,6 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - s-int.<!--no-hyperlink-->Netlogon
 
 ## <a name="sweden-drivers-license-number"></a>Número da carteira de motorista do Suécia
-Essa entidade de tipo de informação confidencial só está disponível no tipo de informações confidenciais do número de licença do driver da UE.
 
 ### <a name="format"></a>Formatar
 
