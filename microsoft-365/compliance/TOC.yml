@@ -106,6 +106,8 @@
           href: custom-sensitive-info-types.md
         - name: Criar tipos de informações confidenciais personalizadas com combinação exata de dados
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Use o Assistente de Correspondência Exata de Dados e Tipo de Informação Confidencial
+          href: sit-edm-wizard.md
         - name: Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável
           href: sit-modify-edm-schema-configurable-match.md
         - name: Criar um tipo de informação confidencial personalizada - Centro de Conformidade e Segurança
