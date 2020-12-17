@@ -119,7 +119,7 @@
                   href: mtp/mtp-autoir.md
                 - name: Configurar os recursos de investigação e resposta automatizadas
                   href: mtp/mtp-configure-auto-investigation-response.md
-                - name: Ações de correção após a investigação automatizada
+                - name: Ações de correção
                   href: mtp/mtp-remediation-actions.md
                 - name: Visite a Central de Ações
                   href: mtp/mtp-action-center.md
