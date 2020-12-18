@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 79dc57e545c3063cae641bab2603e3011c5a1769
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 36cd6a82363c330688de071d1e09ce8f0bfdd16c
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568597"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709555"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -90,7 +90,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 |Impedir ou alertar os usuários sobre o compartilhamento de arquivos ou emails com um rótulo de confidencialidade |[Utilize rótulos de confidencialidade como condição nas políticas de DLP (visualização)](dlp-sensitivity-label-as-condition.md) |
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Aplicar e exibir rótulos de confidencialidade no Power BI e proteger dados ao exportar|[Como aplicar rótulos de sensibilidade no Power BI](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|
+|Aplique e visualize rótulos no Power BI e proteja os dados quando eles forem salvos fora do serviço|[Rótulos de confidencialidade no Power BI](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview)|
 |Monitorar e entender como os rótulos de sensibilidade estão sendo usados na minha organização|[Conhecer seus dados - visão geral da classificação de dados](data-classification-overview.md) <br /><br /> [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)|
 |Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros|[SDK de Proteção de Informações da Microsoft](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
 |Estenda os rótulos de confidencialidade em todo o conteúdo no Armazenamento de Blobs do Azure, arquivos do Azure, Azure Data Lake Storage Gen1 e Azure Data Lake Storage Gen12|[Rotular automaticamente o conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label) |

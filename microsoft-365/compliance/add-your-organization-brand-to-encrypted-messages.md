@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Saiba como os administradores globais do Office 365 podem aplicar a identidade visual da sua organização a mensagens de email criptografadas & conteúdo do portal de criptografia.
-ms.openlocfilehash: 77fd5e08afa1a4d8ae5f6386fa65b88b6ea2be4d
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 56b948fc941da4fb221d929ecd59c5300b135e39
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663228"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709493"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Adicionar a marca da sua organização às mensagens criptografadas de criptografia de mensagem do Microsoft 365 for Business
 
@@ -192,9 +192,8 @@ Os nomes de cores que você pode usar para a cor de plano de fundo são limitado
 
 Os nomes de cor de plano de fundo disponíveis e seus valores de código hex correspondentes são descritos na tabela a seguir.
 
-|||
-|---|---|
 |**Nome da cor**|**Código de cor**|
+|---|---|
 |`aliceblue`|#f0f8ff|
 |`antiquewhite`|#faebd7|
 |`aqua`|#00ffff|

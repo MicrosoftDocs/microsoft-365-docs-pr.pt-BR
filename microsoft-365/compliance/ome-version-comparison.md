@@ -17,27 +17,23 @@ search.appverid:
 - MET150
 description: Este artigo ajuda a explicar as diferenças entre diferentes versões da criptografia de mensagem do Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a52d0c0164dfddb9f678bffa088760a271bc28e3
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: f8052272cfa4951cae132f0f66b0d9f84e05b168
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754125"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709658"
 ---
 # <a name="compare-versions-of-ome"></a>Comparar versões de OME
 
 Este artigo compara a criptografia de mensagens do Office 365 (OME) herdada para os novos recursos do OME e a criptografia de mensagem avançada do Office 365. Os novos recursos são uma fusão e uma versão mais recente do OME e do gerenciamento de direitos de informação (IRM). As características exclusivas de implantação no GCC alto também são descritas. Os dois podem coexistir em sua organização. Para obter informações sobre como os novos recursos funcionam, consulte [Office 365 Message Encryption (ome)](ome.md).
 
-||
-|:-----|
-|Este artigo faz parte de uma série maior de artigos sobre a criptografia de mensagens do Office 365. Este artigo destina-se a administradores e ITPros. Se você estiver apenas procurando informações sobre como enviar ou receber uma mensagem criptografada, consulte a lista de artigos na [ome (criptografia de mensagens do Office 365)](ome.md) e localize o artigo que melhor atende às suas necessidades. |
-||
+Este artigo faz parte de uma série maior de artigos sobre a criptografia de mensagens do Office 365. Este artigo destina-se a administradores e ITPros. Se você estiver apenas procurando informações sobre como enviar ou receber uma mensagem criptografada, consulte a lista de artigos na [ome (criptografia de mensagens do Office 365)](ome.md) e localize o artigo que melhor atende às suas necessidades.
 
 ## <a name="side-by-side-comparison-of-features-and-capabilities"></a>Comparação de recursos e recursos lado a lado
 
-|                                   |Recursos antigos       |                   |Novos recursos              |
+|           **Assim**           | **OME Herdado**    | **IRM**           | **Novos recursos do OME** |
 |-----------------------------------|-------------------|-------------------|--------------------------|
-|**Funcionalidade**                     | **OME Herdado**    | **IRM**           | **Novos recursos do OME** |
 |*Enviar um email criptografado*        |Por meio de regras de fluxo de email do Exchange|O usuário final iniciou a partir do Outlook na Web ou do Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado a partir da área de trabalho do Outlook, Outlook para Mac ou Outlook na Web; por meio de regras de fluxo de email do Exchange (também conhecidas como regras de transporte) e prevenção de perda de dados (DLP)|
 |*Modelo de gerenciamento de direitos*       |   N/D      |Opção não encaminhar e modelos personalizados|Opção não encaminhar, Encrypt-Only e modelos personalizados|
 |*Tipo de destinatário*                   |Destinatários internos e externos|Somente destinatários internos         |Destinatários internos e externos|

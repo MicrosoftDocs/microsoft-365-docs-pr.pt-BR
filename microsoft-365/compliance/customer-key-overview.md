@@ -1,5 +1,5 @@
 ---
-title: Criptografia de serviço com a chave do cliente
+title: Criptografia do serviço com a Chave de Cliente
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -16,20 +16,20 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: Neste artigo, você aprenderá como a criptografia de serviço funciona com a chave do cliente no Microsoft 365.
-ms.openlocfilehash: fd00b910a9a33fb792c41c7f64f9721e2b5bd20f
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 0008d145db81d5d6c4eb9ab89ca194b7e426d2e4
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408979"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709523"
 ---
-# <a name="service-encryption-with-customer-key"></a>Criptografia de serviço com a chave do cliente
+# <a name="service-encryption-with-customer-key"></a>Criptografia do serviço com a Chave de Cliente
 
-O Microsoft 365 fornece a linha de base e a criptografia no nível do volume habilitadas por meio do BitLocker e do DKM (Distributed Key Manager). O Microsoft 365 oferece uma camada adicional de criptografia no nível do aplicativo para seu conteúdo. Este conteúdo inclui dados do Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams. Essa camada adicional de criptografia é chamada de criptografia de serviço.
+O Microsoft 365 fornece a linha de base e a criptografia no nível do volume habilitadas por meio do BitLocker e do DKM (Distributed Key Manager). O Microsoft 365 oferece uma camada adicional de criptografia na camada de aplicativo para o conteúdo. Este conteúdo inclui dados do Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams. Essa camada adicional de criptografia é chamada de criptografia de serviço.
 
 ## <a name="how-service-encryption-bitlocker-and-customer-key-work-together"></a>Como a criptografia de serviço, BitLocker e chave do cliente trabalham em conjunto
 
-A criptografia de serviço garante que o conteúdo em repouso seja criptografado na camada do aplicativo. **Seus dados são sempre criptografados em repouso no serviço do Microsoft 365 com o BitLocker e o DKM**. Para obter mais informações, consulte as informações sobre segurança, privacidade e conformidade e como o [Exchange Online protege seus segredos de email](exchange-online-secures-email-secrets.md). A chave do cliente oferece proteção adicional contra a exibição de dados por sistemas não autorizados ou pessoal e complementa a criptografia de disco BitLocker nos datacenters da Microsoft. A criptografia de serviço não é destinada a impedir que os funcionários da Microsoft acessem dados do cliente. O principal objetivo é ajudar os clientes a cumprir as obrigações normativas ou de conformidade para controlar chaves raiz. Os clientes autorizam explicitamente os serviços do O365 a usar suas chaves de criptografia para fornecer serviços de nuvem de valor adicionado, como eDiscovery, Antimalware, antispam, indexação de pesquisa, etc.
+A criptografia de serviço garante que o conteúdo em repouso seja criptografado na camada de serviço. **Seus dados são sempre criptografados em repouso no serviço do Microsoft 365 com o BitLocker e o DKM**. Para obter mais informações, consulte as informações sobre segurança, privacidade e conformidade e como o [Exchange Online protege seus segredos de email](exchange-online-secures-email-secrets.md). A chave do cliente oferece proteção adicional contra a exibição de dados por sistemas não autorizados ou pessoal e complementa a criptografia de disco BitLocker nos datacenters da Microsoft. A criptografia de serviço não é destinada a impedir que os funcionários da Microsoft acessem dados do cliente. O principal objetivo é ajudar os clientes a cumprir as obrigações normativas ou de conformidade para controlar chaves raiz. Os clientes autorizam explicitamente os serviços do O365 a usar suas chaves de criptografia para fornecer serviços de nuvem de valor adicionado, como eDiscovery, Antimalware, antispam, indexação de pesquisa, etc.
 
 A chave do cliente é criada na criptografia de serviço e permite que você forneça e controle as chaves de criptografia. A Microsoft 365 usa essas chaves para criptografar seus dados em repouso, conforme descrito nos [termos dos serviços online (OST)](https://www.microsoft.com/licensing/product-licensing/products.aspx). A chave do cliente ajuda você a cumprir as obrigações de conformidade, pois você controla as chaves de criptografia que o Microsoft 365 usa para criptografar e descriptografar dados.
   

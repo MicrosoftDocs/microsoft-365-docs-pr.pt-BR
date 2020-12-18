@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: e2833d966fb8a1fcc15cbeb02b781d9c0325b9c1
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 767e63c22d085696b53d74e3a4d6955bedec22dd
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519372"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709668"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -38,7 +38,7 @@ Para a maioria das organizações, o volume e a complexidade dos dados aumentam 
     
 - **Ajudar a sua organização a compartilhar conhecimento de maneira eficaz e ser mais ágil** garantindo que seus usuários trabalhem apenas com conteúdo atual e relevante para eles. 
     
-As configurações de retenção que você configurar podem ajudá-lo a atingir todos esses objetivos. O gerenciamento de conteúdo normalmente requer duas ações:
+As configurações de retenção que você configura podem ajudá-lo a atingir todos esses objetivos. O gerenciamento de conteúdo requer duas ações:
   
 - **Reter** conteúdo para que ele não seja excluído permanentemente antes do fim do período de retenção. 
     
@@ -81,7 +81,7 @@ Você pode usar tanto as políticas de retenção quanto os rótulos de retenç�
 
 Use uma política de retenção para atribuir as mesmas configurações de retenção para o conteúdo em um site ou nível de caixa de correio e usar um rótulo de retenção para atribuir configurações de retenção a um nível de item (pasta, documento, email).
 
-Por exemplo, se todos os documentos em um site do Microsoft Office SharePoint Online devem ser mantidos por 5 anos, é mais eficiente fazer isso com uma política de retenção do que aplicar o mesmo rótulo de retenção a todos os documentos nesse site. No entanto, se alguns documentos desse site devem ser mantidos por 5 anos e outros forem retidos por 10 anos, uma política de retenção não poderá fazer isso. Quando você precisar especificar configurações de retenção no nível de item, use os rótulos de retenção. 
+Por exemplo, se todos os documentos em um site do Microsoft Office SharePoint Online devem ser mantidos por cinco anos, é mais eficiente fazer isso com uma política de retenção do que aplicar o mesmo rótulo de retenção a todos os documentos nesse site. No entanto, se alguns documentos desse site devem ser mantidos por 5 anos e outros forem retidos por 10 anos, uma política de retenção não poderá fazer isso. Quando você precisar especificar configurações de retenção no nível de item, use os rótulos de retenção. 
 
 Diferentemente das políticas de retenção, as configurações de retenção de rótulos de retenção permanecem com o conteúdo, caso ele seja copiado ou movido para um local diferente do Microsoft 365. Além disso, os rótulos de retenção têm os seguintes recursos para os quais as políticas de retenção não têm suporte: 
  
@@ -131,20 +131,20 @@ Em todos esses casos, os rótulos de retenção permitem aplicar configurações
   
 Com os rótulos de retenção, você pode:
   
-- **Permita que pessoas em sua organização apliquem um rótulo de retenção manualmente** ao conteúdo no Outlook e no Outlook na Web, no OneDrive, no SharePoint e Grupos do Microsoft 365. Os usuários geralmente sabem melhor o tipo de conteúdo com o qual estão trabalhando; portanto, podem classificá-lo e aplicar a política apropriada. 
+- **Habilitar as pessoas em sua organização a aplicar um rótulo manualmente** ao conteúdo no Outlook e Outlook na Web, OneDrive, SharePoint e em grupos do Microsoft 365. Geralmente, os usuários sabem com que tipo de conteúdo estão trabalhando, para que eles possam classificá-lo e ter as configurações de retenção apropriadas aplicadas. 
     
-- **Aplique automaticamente os rótulos de retenção ao conteúdo** se ele corresponder a condições específicas, por exemplo, quando o conteúdo contém: 
+- **Aplique automaticamente os rótulos de retenção ao conteúdo** que corresponder a condições específicas, por exemplo, quando o conteúdo apresenta: 
     - Tipos específicos de informações confidenciais.
     - Palavras-chave específicas que correspondem a uma consulta criada por você.
     - Correspondências padrão para um classificador treinável.
 
-- **Inicie o período de retenção a partir do momento em que o conteúdo foi rotulado** para documentos em sites do SharePoint e contas do OneDrive e para itens de email com exceção dos itens do calendário. Se você aplicar um rótulo de retenção com essa configuração em um item de calendário, o período de retenção será iniciado a partir do momento em que ele for enviado.
+- **Inicie o período de retenção a partir do momento em que o conteúdo foi rotulado** para documentos em sites do Microsoft Office SharePoint Online e contas do OneDrive e para itens de email com exceção dos itens do calendário. Se você aplicar um rótulo de retenção com essa configuração em um item de calendário, o período de retenção será iniciado a partir do momento em que ele for enviado.
 
-- **Iniciar o período de retenção quando um evento ocorrer**, por exemplo, funcionários saem da organização ou os contratos expiram.
+- **Iniciar o período de retenção quando um evento ocorrer**, como funcionários saem da organização ou os contratos expiram.
 
-- **Aplique um rótulo de retenção padrão a uma biblioteca de documentos, pasta ou conjunto de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
+- **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
 
-Além disso, os rótulos de retenção oferecem suporte a [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços do Microsoft 365. Você pode usar um rótulo de retenção para marcar os itens como um registro. Quando isso acontece e o conteúdo permanece no Microsoft 365, o rótulo insere restrições sobre o conteúdo que pode ser necessário por motivos regulatórios. Para saber mais, consulte [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).
+Além disso, os rótulos de retenção são compatíveis com o [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços da Microsoft 365. Você pode usar um rótulo de retenção para marcar os itens como um registro. Quando isso acontece e o conteúdo permanece no Microsoft 365, o rótulo impõe restrições adicionais ao conteúdo que pode ser necessário por motivos regulatórios. Para saber mais, confira [Comparar restrições para quais ações são permitidas ou bloqueadas](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked).
 
 Os rótulos de retenção, diferentemente dos [rótulos de sensibilidade](sensitivity-labels.md), não persistirão se o conteúdo for transferido fora do Microsoft 365.
 
@@ -152,7 +152,7 @@ Não há limite para o número de rótulos de retenção com suporte para um loc
 
 #### <a name="classifying-content-without-applying-any-actions"></a>Classificação do conteúdo sem aplicar ações
 
-Embora o principal objetivo de rótulos de retenção seja reter ou excluir o conteúdo, você também pode usar os rótulos de retenção sem ativar qualquer retenção ou outras ações. Nesse caso, você pode usar o rótulo de retenção simplesmente como um rótulo de texto, sem impor quaisquer ações.
+Embora o principal objetivo de rótulos de retenção seja reter ou excluir o conteúdo, você também pode usar os rótulos de retenção sem ativar qualquer retenção ou outras ações. Nesse caso, você pode usar um rótulo de retenção simplesmente como um rótulo de texto, sem aplicar ações.
   
 Por exemplo, você pode criar e aplicar um rótulo de retenção chamado "Revisar mais tarde" sem ações e usar esse rótulo para localizar esse conteúdo mais tarde.
   
@@ -160,13 +160,13 @@ Por exemplo, você pode criar e aplicar um rótulo de retenção chamado "Revisa
 
 #### <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de retenção como condição em uma política DLP
 
-Você pode especificar um rótulo de retenção como uma condição em uma política de prevenção contra perda de dados (DLP) para documentos no SharePoint. Por exemplo, configure uma política DLP para evitar que os documentos sejam compartilhados fora da organização se eles tiverem um rótulo de retenção especificado aplicado a ele.
+Você pode especificar um rótulo de retenção como uma condição em uma política de prevenção contra perda de dados (DLP) para documentos no Microsoft Office SharePoint Online. Por exemplo, configure uma política DLP para evitar que os documentos sejam compartilhados fora da organização se eles tiverem um rótulo de retenção especificado aplicado a ele.
 
-Para saber mais, consulte [Usar um rótulo de retenção como condição em uma política DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
+Para saber mais, confira [Usar um rótulo de retenção como condição em uma política DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
 
 #### <a name="retention-labels-and-policies-that-apply-them"></a>Rótulos de retenção e políticas que os aplicam
 
-Os rótulos de retenção são blocos de construção independentes e reutilizáveis. O objetivo principal de uma política de rótulos de retenção é agrupar um conjunto de rótulos de retenção e especificar os locais nos quais você deseja exibi-los. Em seguida, os administradores e os usuários podem aplicar esses rótulos ao conteúdo desses locais.
+Os rótulos de retenção são blocos de construção independentes e reutilizáveis. O objetivo principal da política de rótulos de retenção é agrupar um conjunto desses rótulos e especificar os locais em que você deseja que eles sejam exibidos. Em seguida, os administradores e os usuários podem aplicar esses rótulos ao conteúdo desses locais.
   
 ![Diagrama de rótulos, políticas de rótulos e locais](../media/eee42516-adf0-4664-b5ab-76727a9a3511.png)
   
@@ -178,9 +178,9 @@ Quando você publica rótulos de retenção, eles são incluídos em uma políti
 
 - Um único local também pode ser incluído em várias políticas de rótulos de retenção.
 
-Além das políticas de rótulo de retenção, você também pode criar uma ou mais políticas de aplicação automática, cada uma com um único rótulo de retenção. Com essa política, um rótulo de retenção é aplicado automaticamente quando as condições especificadas na política são atendidas. 
+Além das políticas de rótulo de retenção, você também pode criar uma ou mais políticas de aplicação automática, cada uma com um único rótulo de retenção. Com essa política, um rótulo de retenção é aplicado automaticamente quando as condições especificadas na política são atendidas.
 
-#### <a name="retention-label-policies-and-locations"></a>Políticas e locais de rótulo de retenção
+#### <a name="retention-label-policies-and-locations"></a>Políticas de rótulo de retenção e locais
 
 É possível publicar tipos diferentes de rótulos de retenção em locais diferentes, dependendo do que o rótulo faz.
   
@@ -190,9 +190,9 @@ Além das políticas de rótulo de retenção, você também pode criar uma ou m
 |Aplicada automaticamente com base em tipos de informações confidenciais ou classificadores treináveis  <br/> |Exchange (somente para todas as caixas de correio), SharePoint, OneDrive  <br/> |
 |Aplicado automaticamente com base em uma consulta  <br/> |Exchange, SharePoint, OneDrive, Grupos do Microsoft 365  <br/> |
    
-No Exchange, os rótulos de retenção de aplicação automática são aplicados somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens na caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis para todas as caixas de correio; não é possível selecionar caixas de correio específicas.
+No Exchange, os rótulos de retenção de aplicação automática são aplicados somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens da caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis aplicam-se a todas as caixas de correio. Não é possível selecionar caixas de correio específicas.
   
-As pastas públicas do Exchange, as mensagens do Skype, Teams e Yammer não oferecem suporte a rótulos de retenção. Para manter e excluir conteúdo desses locais, use políticas de retenção.
+As pastas públicas do Exchange, Skype, Teams e as mensagens do Yammer não oferecem suporte a rótulos de retenção. Para reter e excluir conteúdo desses locais, use políticas de retenção.
 
 #### <a name="only-one-retention-label-at-a-time"></a>Apenas um rótulo de retenção por vez
 
@@ -249,7 +249,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Configurações de retenção que podem reter e excluir, somente reter ou somente excluir |Sim |Sim |
 |Cargas de trabalho com suporte: <br />- Exchange <br />- Microsoft Office SharePoint Online <br />- OneDrive <br />- Grupos do Microsoft 365 <br />- Skype for Business <br />- Teams<br />- Yammer|<br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim <br /> Sim | <br /> Sim, exceto as pastas públicas <br /> Sim <br /> Sim <br /> Sim <br /> Não <br /> Não <br /> Não |
 |Retenção aplicada automaticamente | Sim | Sim |
-|Retenção aplicada com base em condições <br /> - tipos de informações confidenciais, consultas de KQL, classificadores de treinamento| Não | Sim |
+|Retenção aplicada com base em condições <br /> - tipos de informações confidenciais, consultas e palavras-chave KQL, classificadores treináveis| Não | Sim |
 |Retenção aplicada manualmente | Não | Sim |
 |Presença da interface de usuário para usuários finais | Não | Sim |
 |Persiste se o conteúdo for movido | Não | Sim, em seu locatário do Microsoft 365 |
@@ -270,30 +270,88 @@ Para obter mais informações sobre como as políticas de retenção e os rótul
 
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>Os princípios de retenção ou o que tem precedência?
 
-É possível ou até mesmo provável que o conteúdo tenha várias políticas de retenção e rótulos de retenção aplicados a ele, cada uma com uma ação diferente (reter, excluir ou reter e depois excluir) e o período de retenção. O que tem precedência? 
+Ao contrário dos rótulos de retenção, você pode aplicar mais de uma política de retenção ao mesmo conteúdo. Cada política de retenção pode resultar em uma ação de retenção e uma ação de exclusão. Além disso, esse item também pode estar sujeito a essas ações a partir de um rótulo de retenção.
 
-Em um nível alto, você pode ter a certeza de que a retenção sempre tem precedência sobre a exclusão e, em seguida, o período de retenção mais longo vence. 
+Nesse cenário, quando os itens podem estar sujeitos a várias configurações de retenção que podem entrar em conflito entre si, quais são os fatores que têm precedência para determinar o resultado?
 
-No entanto, há mais alguns fatores a serem incluídos na mistura, portanto use o seguinte fluxo para compreender o resultado em que cada nível atua como um disjuntor de cima para baixo: se o resultado for determinado pelo primeiro nível, não será necessário progredir para o próximo nível e assim por diante. Somente se o resultado não puder ser determinado pelas regras para o nível, o fluxo se moverá para baixo até o próximo nível para determinar o resultado para o qual as configurações de retenção têm precedência.
+O resultado não é qual política de retenção única ou rótulo de retenção único prevalece, mas por quanto tempo um item é mantido (se aplicável) e quando um item é excluído (se aplicável). Essas duas ações são calculadas independentemente uma da outra, a partir de todas as configurações de retenção aplicadas a um item.
+
+Por exemplo, um item pode estar sujeito a uma política de retenção configurada para apenas uma ação de exclusão e outra política de retenção configurada para manter e excluir. Para determinar o resultado, este item tem apenas uma ação de retenção e duas ações de exclusão. A retenção e a exclusão podem estar em conflito uma com a outra e as duas ações de exclusão podem ter uma data conflitante.
+
+Em um alto nível, você pode ter certeza de que a retenção sempre tem precedência sobre a exclusão, e o período de retenção mais longo prevalece. Essas duas regras simples sempre decidem por quanto tempo um item será mantido.
+
+Existem mais alguns fatores que determinam quando um item será excluído, que incluem a ação de exclusão a partir de um rótulo de retenção que sempre tem precedência sobre a ação de exclusão a partir de uma política de retenção.
+
+Use o fluxo a seguir para entender os resultados de retenção e exclusão para um único item, onde cada nível atua como um desempate de cima para baixo.
+
+> [!IMPORTANT]
+> Se você estiver usando rótulos de retenção: Antes de usar este fluxo para determinar o resultado de várias configurações de retenção para o mesmo item, certifique-se de saber [qual rótulo de retenção está sendo aplicado](#only-one-retention-label-at-a-time).
 
 ![Diagrama dos princípios de retenção](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
   
 Explicação para os quatro níveis diferentes:
   
-1. **A retenção prevalece sobre a exclusão.** Suponha que uma política de retenção esteja configurada para excluir o email do Exchange após três anos, mas que outra política de retenção esteja configurada para manter o email do Exchange por cinco anos e depois excluí-lo. Qualquer conteúdo com três anos será excluído e ocultado dos usuários, mas ainda será mantido na pasta Itens Recuperáveis até que o conteúdo complete cinco anos, quando será permanentemente excluído. 
+1. **A retenção prevalece sobre a exclusão.** O conteúdo não será permanentemente excluído nos casos em que também tenha configurações de retenção para mantê-lo.  
+    
+    Exemplo: Uma mensagem de email está sujeita a uma política de retenção do Exchange configurada para excluir itens após três anos e também tem um rótulo de retenção aplicado que está configurado para reter itens por cinco anos.
+    
+    A mensagem de email é retida por cinco anos porque esta ação de retenção tem precedência sobre a exclusão. A mensagem de email é excluída no final dos cinco anos devido à ação de exclusão adiada.
+
 2. **O período de retenção mais longo prevalece.** Se o conteúdo estiver sujeito a várias configurações de retenção que retêm o conteúdo para diferentes períodos de tempo, o conteúdo será retido até o fim do período de retenção mais longo.
     
-3. **A inclusão explícita prevalece sobre a inclusão implícita.** Isso significa que: 
+    Exemplo: Os documentos no site de Marketing do SharePoint estão sujeitos a duas políticas de retenção. A primeira política de retenção é configurada para que todos os sites SharePoint mantenham itens por cinco anos. A segunda política de retenção é configurada para sites específicos do SharePoint para manter itens por dez anos.
     
-    1. Se um rótulo de retenção com configurações de retenção for atribuídos manualmente por um usuário a um item, como um email do Exchange ou um documento do OneDrive, esse rótulo de retenção tem precedência sobre uma política de retenção atribuída no nível do site ou da caixa de correio e um rótulo de retenção padrão atribuído à biblioteca de documentos. Por exemplo, se o rótulo de retenção explícito estiver configurado para reter o conteúdo por dez anos, mas uma política de retenção atribuída ao site está configurada para reter conteúdo por apenas cinco anos, o rótulo de retenção tem precedência.
-    
-    2. Se uma política de retenção incluir um local específico, como a caixa de correio de um usuário específico ou conta OneDrive, essa política de retenção terá precedência sobre outra política de retenção que se aplica a caixas de correio de todos os usuários ou contas do OneDrive, mas não incluirá especificamente essa caixa de correio do usuário.
-    
-4. **O período de exclusão mais curto tem precedência.** Da mesma forma, se o conteúdo estiver sujeito a várias configurações de retenção que excluem conteúdo sem um período de retenção, esse conteúdo será excluído ao fim do período de retenção mais curto. 
+    Os documentos neste site de Marketing do SharePoint são retidos por dez anos porque esse é o período de retenção mais longo.
 
-Por fim, uma política de retenção ou um rótulo de retenção não pode excluir permanentemente qualquer conteúdo que esteja em espera para Descoberta Eletrônica. Quando a retenção for liberada, o conteúdo estará novamente qualificado para o processo de limpeza no local seguro para a carga de trabalho.
+3. **Explicito prevalece sobre o implícito.** Aplicável para determinar quando os itens serão excluídos: 
+    
+    1. Um rótulo de retenção (independentemente de como foi aplicado) fornece retenção explícita em comparação com as políticas de retenção, porque as configurações de retenção são aplicadas a um item individual em vez de atribuídas implicitamente a partir de um contêiner. Isso significa que uma ação de exclusão de um rótulo de retenção sempre tem precedência sobre uma ação de exclusão de qualquer política de retenção.
+        
+        Exemplo: Um documento está sujeito a duas políticas de retenção que têm uma ação de exclusão de cinco anos e dez anos, respectivamente, e também um rótulo de retenção que tem uma ação de exclusão de sete anos.
+        
+        O documento é excluído após sete anos porque a ação de exclusão do rótulo de retenção tem precedência.
+    
+    2. Quando você tem apenas políticas de retenção: Se uma política de retenção para um local tiver o escopo definido para usar uma configuração de inclusão (como usuários específicos de email do Exchange), essa política de retenção terá precedência sobre as políticas de retenção sem escopo para o mesmo local.
+        
+        Uma política de retenção sem escopo é onde um local é selecionado sem especificar instâncias específicas. Por exemplo, o **email do Exchange** e a configuração padrão de **Todos os destinatários** são uma política de retenção sem escopo. Ou **sites do SharePoint** e a configuração padrão de **Todos os sites**. Quando o escopo das políticas de retenção é definido, elas têm igual precedência neste nível.
+        
+        Exemplo 1: uma mensagem de email está sujeita a duas políticas de retenção. A primeira política de retenção não tem escopo e exclui itens após dez anos. A segunda política de retenção tem como escopo caixas de correio específicas e exclui itens após cinco anos.
+        
+        A mensagem de email é excluída após cinco anos porque a ação de exclusão da política de retenção com escopo tem precedência sobre a política de retenção sem escopo.
+        
+        Exemplo 2: Um documento na conta do OneDrive de um usuário está sujeito a duas políticas de retenção. A primeira política de retenção tem como escopo incluir a conta do OneDrive deste usuário e tem uma ação de exclusão após 10 anos. A segunda política de retenção tem como escopo incluir a conta do OneDrive desse usuário e tem uma ação de exclusão após sete anos.
+        
+        Não é possível determinar quando este documento será excluído neste nível porque ambas as políticas de retenção têm escopo.
 
-## <a name="use-preservation-lock-to-restrict-changes-to-policies"></a>Use o Bloqueio de Preservação para restringir alterações às políticas
+4. **O período de exclusão mais curto prevalece.** Aplicável para determinar quando os itens serão excluídos das políticas de retenção e o resultado não pôde ser resolvido a partir do nível anterior: O conteúdo é excluído no final do período de retenção mais curto.
+    
+    Exemplo: Um documento na conta do OneDrive de um usuário está sujeito a duas políticas de retenção. A primeira política de retenção tem como escopo incluir a conta do OneDrive deste usuário e tem uma ação de exclusão após 10 anos. A segunda política de retenção tem como escopo incluir a conta do OneDrive desse usuário e tem uma ação de exclusão após sete anos.
+    
+    Este documento será excluído após sete anos porque esse é o período de retenção mais curto para essas duas políticas de retenção com escopo definido.
+
+Observe que os itens sujeitos à retenção da Descoberta Eletrônica também se enquadram no primeiro princípio de retenção; eles não podem ser excluídos por nenhuma política de retenção ou rótulo de retenção. Quando essa retenção é liberada, os princípios de retenção continuam a se aplicar a eles. Por exemplo, eles podem então estar sujeitos a um período de retenção vigente ou a uma ação de exclusão adiada.
+
+Exemplos mais complexos que combinam ações de retenção e exclusão:
+
+1. Um item tem as seguintes configurações de retenção aplicadas a ele:
+    
+    - Uma política de retenção para exclusão somente após cinco anos
+    - Uma política de retenção que mantém por três anos e depois exclui
+    - Um rótulo de retenção que mantém apenas por sete anos
+    
+    **Resultado**: O item é retido por sete anos porque a retenção tem precedência sobre a exclusão e sete anos é o período de retenção mais longo. No final deste período de retenção, o item é excluído devido à ação de exclusão das políticas de retenção que foi adiada enquanto o item estava retido.
+    
+    Embora as duas políticas de retenção tenham datas diferentes para as ações de exclusão, o mais cedo que o item pode ser excluído é no final do período de retenção mais longo, portanto, não há conflito a ser resolvido.
+
+2.  Um item tem as seguintes configurações de retenção aplicadas a ele:
+    
+    - Uma política de retenção sem escopo que exclui somente após dez anos
+    - Uma política de retenção de escopo que mantém por cinco anos e depois exclui
+    - Um rótulo de retenção que mantém por três anos e depois exclui
+    
+    **Resultado**: O item é retido por cinco anos porque esse é o período de retenção mais longo. No final desse período de retenção, o item é excluído devido à ação de exclusão de três anos do rótulo de retenção que foi adiado enquanto o item era retido. A exclusão dos rótulos de retenção tem precedência sobre a exclusão de todas as políticas de retenção.
+
+## <a name="use-preservation-lock-to-restrict-changes-to-policies"></a>Use o Bloqueio de Preservação para restringir mudanças nas políticas
 
 Algumas organizações talvez precisem cumprir regras definidas por órgãos regulamentadores, como a Regra 17a-4 da Securities and Exchange Commission (SEC), que exige que após uma política de retenção ser ativada, ela não pode ser desativada ou se tornar menos restritiva. 
 

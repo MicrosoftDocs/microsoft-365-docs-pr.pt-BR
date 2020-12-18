@@ -19,12 +19,12 @@ ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização.
-ms.openlocfilehash: 542b540bb06998c1b90ef74485a4096ebc9ee0dc
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: f601618c3ad44361794720852b391949901122f2
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429927"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709617"
 ---
 # <a name="message-encryption"></a>Criptografia de mensagem
 
@@ -82,11 +82,10 @@ Com a criptografia de mensagem do Office 365, os usuários podem enviar emails c
 
 Os destinatários de mensagens criptografadas que estão nas organizações poderão ler essas mensagens de forma transparente em qualquer versão do Outlook, incluindo o Outlook para PC, o Outlook para Mac, o Outlook na Web, o Outlook para iOS e o Outlook para Android. Os usuários que recebem mensagens criptografadas em outros clientes de email podem exibir as mensagens no portal do OME.
 
-Para obter orientações detalhadas sobre como enviar e exibir mensagens criptografadas, consulte estes artigos:
+Para obter orientações detalhadas sobre como enviar e exibir mensagens criptografadas, leia estes artigos.
 
-|||
-|:-----|:-----|
 |Leia este artigo...|Se você for...|
+|:-----|:-----|
 |[Saiba mais sobre mensagens protegidas no Office 365](https://support.office.com/article/2baf3ac7-12db-40a4-8af7-1852204b4b67.aspx)|Um usuário final que deseja saber mais sobre como funcionam as mensagens criptografadas e quais opções estão disponíveis para você.|
 |[Como abro uma mensagem protegida?](https://support.office.com/article/1157a286-8ecc-4b1e-ac43-2a608fbf3098.aspx)|Um usuário final que deseja ler uma mensagem protegida que foi enviada a você. Este artigo inclui informações sobre a leitura de mensagens em várias versões do Outlook e de diferentes contas de email, incluindo as contas fora do Microsoft 365 como o Gmail e o Yahoo! las.|
 |[Enviar, exibir e responder a mensagens criptografadas no Outlook](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)|Um usuário final que deseja enviar, exibir ou responder a uma mensagem criptografada do Outlook. Mesmo que você não seja um membro de uma organização, ainda receberá uma notificação de mensagens criptografadas enviadas para você no Outlook. Use este artigo para obter instruções sobre como exibir e responder a mensagens criptografadas enviadas do Office 365.|

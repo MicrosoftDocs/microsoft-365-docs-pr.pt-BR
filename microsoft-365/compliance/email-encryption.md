@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Compare as opções de criptografia do Microsoft 365, incluindo o Criptografia de Mensagem do Office 365 (OME), S/MIME, Gerenciamento de Direitos de Informação (Gerenciamento de Direitos de Informação) e aprenda sobre Protocolo TLS (TLS).
-ms.openlocfilehash: 25568d4e39c2fe7ca2dea214276be5d7f6986518
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: e1f222595479ce525b38ab97971c998f77c78581
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663016"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709575"
 ---
 # <a name="email-encryption"></a>Criptografia de email
 
-Este artigo compara as opções de criptografia no Microsoft 365, incluindo a Criptografia de Mensagens do Office (OME), S/MIME, Gerenciamento de Direitos de Informação (IRM) e apresenta o protocolo TLS (Transport Layer Security).
+Este artigo compara as opções de criptografia no Microsoft 365, incluindo Criptografia de Mensagens do Office 365 (OME), S/MIME, Gerenciamento de Direitos de Informação (IRM) e apresenta o protocolo TLS (TLS).
   
 O Microsoft 365 oferece várias opções de criptografia para ajudar a atender às necessidades de segurança de email da sua empresa. Este artigo apresenta três maneiras de criptografar emails no Office 365. Se você quiser saber mais sobre todos os recursos de segurança do Office 365, acesse a central [de confiabilidade do Office 365](https://go.microsoft.com/fwlink/p/?LinkID=282470). Este artigo apresenta os três tipos de criptografia disponíveis para administradores do Microsoft 365 para ajudar a proteger o email no Office 365:
   
@@ -38,7 +38,7 @@ O Microsoft 365 oferece várias opções de criptografia para ajudar a atender �
 
 - Gerenciamento de Direitos de Informação (IRM).
 
-## <a name="what-is-email-encryption-and-how-does-microsoft-365-use-it"></a>O que é a criptografia de email e como o Microsoft 365 a utiliza?
+## <a name="how-microsoft-365-uses-email-encryption"></a>Como o Microsoft 365 usa criptografia de email
 
 Criptografia é o processo pelo qual as informações são codificadas para que somente um destinatário autorizado possa decodificar e consumir as informações. O Microsoft 365 usa criptografia de duas maneiras: no serviço e como um controle de cliente. No serviço, a criptografia é usada no Microsoft 365 por padrão; não é necessário configurar nada. Por exemplo, o Microsoft 365 usa o protocolo Segurança na camada de transporte (TLS) para criptografar a conexão, ou sessão, entre dois servidores. 
   
@@ -60,7 +60,7 @@ Assista a este vídeo para obter uma [introdução à criptografia no Office 365
   
 ## <a name="comparing-email-encryption-options-available-in-office-365"></a>Comparação das opções de criptografia de email disponíveis no Office 365
 
-||![Arte conceitual que descreve a OME](../media/2bf27b5e-bbb3-46d1-95bf-884dc27a746c.png)|![Arte conceitual que descreve o IRM](../media/9c0cc444-9448-40c6-b244-8fcc593a64e0.png)|![Arte conceitual que descreve SMIME](../media/ae4613a8-c17e-47e1-8e13-12e891e43744.png)|
+|Tecnologia de criptografia de email|![Arte conceitual que descreve a OME](../media/2bf27b5e-bbb3-46d1-95bf-884dc27a746c.png)|![Arte conceitual que descreve o IRM](../media/9c0cc444-9448-40c6-b244-8fcc593a64e0.png)|![Arte conceitual que descreve SMIME](../media/ae4613a8-c17e-47e1-8e13-12e891e43744.png)|
 |:-----|:-----|:-----|:-----|
 |O que é isso?|Criptografia de Mensagens do Office 365 (OME) é um serviço integrado ao Azure Rights Management (Azure RMS) que permite o envio de emails criptografados para pessoas dentro ou fora da sua organização, independente do endereço de email de destino (Gmail, Yahoo! Email, Outlook.com, etc.). <br/> Como administrador, você pode configurar regras de transporte que definam as condições da criptografia. Quando um usuário envia uma mensagem que corresponde a uma regra, a criptografia é aplicada automaticamente. <br/> Para exibir mensagens criptografadas, os destinatários podem obter uma senha avulsa, entrar com uma conta da Microsoft ou com uma conta corporativa ou de estudante associada ao Office 365. Os destinatários também podem enviar respostas criptografadas. Não é necessário ter uma assinatura do Microsoft 365 para exibir mensagens criptografadas ou enviar respostas criptografadas.|O IRM é uma solução de criptografia que também aplica restrições de uso a mensagens de email. Isso ajuda a evitar que informações confidenciais sejam impressas, encaminhadas ou copiadas por pessoas não autorizadas. <br/> Os recursos IRM no Microsoft 365 usam o Azure Rights Management (Azure RMS).|S/MIME é uma solução de criptografia baseada em certificados que permite criptografar e assinar digitalmente uma mensagem. A criptografia de mensagem ajuda a garantir que somente o destinatário pretendido poderá abrir e ler a mensagem. Uma assinatura digital ajuda o destinatário a validar a identidade do remetente. <br/> As assinaturas digitais e a criptografia de mensagem são disponibilizadas por meio do uso de certificados digitais exclusivos que contêm as chaves para verificar assinaturas digitais e criptografar ou descriptografar mensagens. <br/> Para usar S/MIME, você deve ter as chaves públicas no arquivo para cada destinatário. Os destinatários precisam manter suas próprias chaves privadas, que devem permanecer seguras. Se as chaves particulares de um destinatário estiverem comprometidas, o destinatário precisará obter uma nova chave privada e redistribuir chaves públicas para todos os possíveis remetentes.|
 |E o que isso faz?|OME: <br/> Criptografa as mensagens enviadas a destinatários internos ou externos. <br/>  Permite que os usuários enviem mensagens criptografadas para qualquer endereço de email, incluindo Outlook.com, Yahoo! Mail e Gmail. <br/>  Permite que você, como administrador, personalize o portal de exibição do email para refletir a marca da sua organização. <br/> A Microsoft gerencia e armazena as chaves de maneira segura, para que você não precise fazer isso. <br/> Nenhum software especial do lado do cliente é necessário, desde que a mensagem criptografada (enviada como um anexo HTML) possa ser aberta em um navegador.|IRM: <br/> Usa a criptografia e as restrições de uso para fornecer proteção online e offline para mensagens de email e anexos. <br/> Fornece a você, como administrador, a capacidade de configurar as regras de transporte ou as regras de proteção do Outlook para aplicar o IRM automaticamente às mensagens selecionadas. <br/> Permite que os usuários apliquem modelos manualmente no Outlook ou no Outlook na Web (conhecida anteriormente com Outlook Web App).|Autenticação de endereços de remetente de S/MIME com assinaturas digitais e confidencialidade de mensagem com criptografia.|

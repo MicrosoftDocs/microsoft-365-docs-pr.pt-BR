@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5fa261f1e0db5c8ed66dfdebdca764976fe3130
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 68546f7ad9f4b97f43611d49054200db4fdd4bbd
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658668"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698392"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -107,6 +107,11 @@ Organizar e configurar a classificação baseada em EDM envolve:
 3. Preste atenção ao formato dos campos de dados confidenciais. Em particular, os campos que podem conter vírgulas no conteúdo (por exemplo, um endereço com o valor "Seattle,WA") seriam analisados como dois campos separados quando analisados pela ferramenta EDM. Para evitar isso, certifique-se de que esses campos estejam entre aspas simples ou duplas na tabela de dados confidenciais. Se os campos com vírgulas também podem conter espaços, você precisará criar um Tipo de Informação Confidencial personalizado compatível com o formato correspondente (por exemplo, uma cadeia de caracteres de várias palavras com vírgulas e espaços) para garantir que a cadeia de caracteres corresponde corretamente quando o documento for verificado.
 
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>Definir o esquema para seu banco de dados de informações confidenciais
+
+Se, por motivos técnico ou de negócios, você preferir não usar o Windows PowerShell ou a linha de comando para criar o esquema e padrão do tipo de informações confidenciais do EDM (pacote de regras), poderá usar o [Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais](sit-edm-wizard.md) para criá-los. Quando terminar de criar o esquema e o padrão do tipo de informações confidenciais do EDM, volte para concluir todas as etapas necessárias para disponibilizar seu EDM para o seu tipo de informações confidenciais.
+
+> [!NOTE]
+> O Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais está disponível apenas para as nuvens World Wide e GCC.
 
 1. Defina o esquema para o banco de dados de informações confidenciais no formato XML (semelhante ao nosso exemplo a seguir). Nomeie esse arquivo de esquema como **edm.xml** e configure-o de forma que, para cada coluna no banco de dados, haja uma linha que use a sintaxe: 
 
@@ -253,7 +258,7 @@ Nesse exemplo, onde `caseInsensitive` e `ignoredDelimiters` são usados, o EDM v
       </RulePackage>
       ```
 
-1. Carregue o pacote de regras executando os seguintes cmdlets do PowerShell, um de cada vez:
+2. Carregue o pacote de regras executando os seguintes cmdlets do PowerShell, um de cada vez:
 
       ```powershell
       $rulepack=Get-Content .\\rulepack.xml -Encoding Byte -ReadCount 0
@@ -361,7 +366,10 @@ O hash e o carregamento podem ser feitos usando um computador, ou você pode sep
 
 Se você quiser usar o hash e carregá-los de um computador, será preciso fazer isso em um computador que possa se conectar diretamente ao seu locatário do Microsoft 365. Isso exige que os arquivos de dados confidenciais de texto sem formatação estejam no computador para hash.
 
-Se você não quiser expor o seu arquivo de dados confidenciais de texto não criptografado, poderá hashá-lo em um computador em um local seguro e, em seguida, copiar o arquivo de hash e o arquivo salt para um computador que possa conectar-se diretamente ao locatário do Microsoft 365 para carregamento. Neste cenário, você precisará do EDMUploadAgent em ambos os computadores. 
+Se você não quiser expor o seu arquivo de dados confidenciais de texto não criptografado, poderá hashá-lo em um computador em um local seguro e, em seguida, copiar o arquivo de hash e o arquivo salt para um computador que possa conectar-se diretamente ao locatário do Microsoft 365 para carregamento. Neste cenário, você precisará do EDMUploadAgent em ambos os computadores.
+
+> [!IMPORTANT]
+> Caso tenha usado o Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais, você **_deve_* baixar o esquema para esse procedimento.
 
 #### <a name="prerequisites"></a>Pré-requisitos
 
@@ -372,10 +380,11 @@ Se você não quiser expor o seu arquivo de dados confidenciais de texto não cr
     - seu arquivo de item confidencial no formato cvs **PatientRecords.csv** em nossos exemplos
     -  os arquivos hash de saída e salt
     - o nome do repositório de armazenamento do arquivo **edm.xml**, para esse exemplo, é `PatientRecords`
+- Se você utilizou o [Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais](sit-edm-wizard.md) você **_deve_* _baixá-lo
 
 #### <a name="set-up-the-security-group-and-user-account"></a>Configuração do grupo de segurança e conta de usuário
 
-1. Como administrador global, vá para o centro de administração usando o [link apropriado para sua assinatura](#portal-links-for-your-subscription) e [crie um grupo de segurança](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) chamado **EDM\_DataUploaders**.
+1. Como administrador global, vá para o centro de administração usando o [link para sua assinatura](#portal-links-for-your-subscription) apropriado e [crie um grupo de segurança](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) chamado_*EDM\_ DataUploaders**.
 
 2. Adicione um ou mais usuários ao grupo de segurança **EDM\_DataUploaders**. (Esses usuários vão gerenciar o banco de dados de informações confidenciais.)
 
@@ -420,6 +429,10 @@ Esse computador deve ter acesso direto ao seu locatário do Microsoft 365.
 
 3. Entre com sua conta empresarial ou de estudante do Microsoft 365 que foi adicionada ao grupo de segurança EDM_DataUploaders. As informações do locatário são extraídas da conta do usuário para fazer a conexão.
 
+OPCIONAL: Caso tenha usado o Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais para criar o seu esquema e arquivos padrão, execute o comando a seguir na janela do Prompt de Comando:
+
+`EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
+
 4. Para criar o hash e carregar os dados confidenciais, execute o seguinte comando no prompt de comando:
 
 `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]`
@@ -439,6 +452,10 @@ Procure o status em **ProcessingInProgress**. Verifique novamente em alguns minu
 #### <a name="separate-hash-and-upload"></a>Separar hash e upload
 
 Execute o hash em um computador em um ambiente seguro.
+
+OPCIONAL: Caso tenha usado o Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais para criar o seu esquema e arquivos padrão, execute o comando a seguir na janela do Prompt de Comando:
+
+`EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
 
 1. Execute os seguinte comando na janela prompt de comando:
 

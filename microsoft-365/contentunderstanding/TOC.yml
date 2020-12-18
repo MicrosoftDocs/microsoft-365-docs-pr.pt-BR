@@ -10,7 +10,7 @@
       href: difference-between-document-understanding-and-form-processing-model.md
 - name: Introdução aos modelos
   items:
-    - name: Saiba mais sobre modelos por meio do modelo de amostra
+    - name: Saiba mais sobre os modelos por meio do modelo de exemplo
       href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Criar um centro de conteúdo
       href: create-a-content-center.md
@@ -34,17 +34,17 @@
   items:
     - name: Introdução à adoção
       href: adoption-getstarted.md
-- name: Instalação e administração
+- name: Configuração e administração
   items:
     - name: Configurar o entendimento de conteúdo
       href: set-up-content-understanding.md
 - name: Serviços de conteúdo
   items:
-    - name: Importar usando SKOS
+    - name: Importar usando o SKOS
       href: import-term-set-skos.md
     - name: Referência de formatação SKOS
       href: skos-format-reference.md
-    - name: Tipo de conteúdo push para Hub
+    - name: Tipo de conteúdo por push para hub
       href: push-content-type-to-hub.md
     - name: Relatórios do repositório de termos
       href: term-store-analytics.md

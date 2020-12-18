@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Implemente a Proteção de Informações da Microsoft (MIP) para ajudá-lo a proteger informações confidenciais onde elas ficam ou trafegam.
-ms.openlocfilehash: 59f57c920f2b753994f2335a6f2ed9ac5b7b77d1
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 2a1ec47ce888dc6d31868d65f9c4c113fa9b968c
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613083"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709503"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de Informações da Microsoft no Microsoft 365
 
@@ -59,7 +59,7 @@ Para aplicar ações de proteção flexíveis que incluem criptografia, restriç
 
 |Recursos|Que problemas ela resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
-|[Rótulos de confidencialidade](sensitivity-labels.md)| Uma solução única em aplicativos, serviços e dispositivos para rotular e proteger seus dados enquanto eles trafegam dentro e fora da organização <br /><br />Cenário de exemplo: [aplicar e exibir rótulos de confidencialidade no Power BI e proteger dados ao exportá-los](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|[Introdução ao rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
+|[Rótulos de confidencialidade](sensitivity-labels.md)| Uma solução única em aplicativos, serviços e dispositivos para rotular e proteger seus dados enquanto eles trafegam dentro e fora da organização <br /><br />Exemplo de cenário: [Aplique e visualize rótulos no Power BI, e proteja os dados quando eles forem salvos fora do serviço](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels).|[Introdução ao rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
 |[Cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Para computadores Windows, estende os rótulos de confidencialidade aos recursos e funcionalidades adicionais que incluem rotulagem e proteção de todos os tipos de arquivos do Explorador de Arquivos e do PowerShell<br /><br /> Exemplos de recursos adicionais: [configurações personalizadas do cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Guia do administrador para o cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[Criptografia de Chave Dupla](double-key-encryption.md)| Em todas as circunstâncias, somente você pode descriptografar o conteúdo protegido; ou mantenha as chaves de criptografia dentro de um limite geográfico quando se tratar de requisitos normativos | [Implantar a Criptografia de Chave Dupla](double-key-encryption.md#deploy-dke)|
 |[Criptografia de Mensagens do Office 365 (OME)](ome.md)| Criptografa mensagens de email e documentos anexos enviados a qualquer usuário em qualquer dispositivo, de modo que somente destinatários autorizados podem ler as informações enviadas por email  <br /><br />Cenário de exemplo: [revogar email criptografado por Criptografia Avançada de Mensagem](revoke-ome-encrypted-mail.md) | [Configurar novos recursos de Criptografia de Mensagem](set-up-new-message-encryption-capabilities.md)|

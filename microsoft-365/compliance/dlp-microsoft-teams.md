@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora, você pode aplicar políticas de DLP a chats e canais do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 4903056a9a7e7ae74a8ada52bd491f2b8efe771e
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: 3d55c447b2e808af2ac35f04b67a002304e3e9eb
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604355"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709533"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção de perda de dados e Microsoft Teams
 
@@ -28,6 +28,9 @@ ms.locfileid: "49604355"
 > Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para o Office 365 E5/a5, Microsoft 365 E5/a5, Microsoft 365 Information Protection and Governance ou Office 365 Advanced Compliance. O Office 365 e o Microsoft 365 E3 incluem o DLP Protection para SharePoint Online, OneDrive e Exchange Online. Isso também inclui arquivos compartilhados por meio do teams porque o Teams usa o SharePoint Online e o OneDrive para compartilhar arquivos.
 O suporte para proteção DLP no Teams chat requer e5.
 Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
+
+> [!IMPORTANT]
+> A DLP para Teams só é suportada quando o usuário possui uma caixa de correio que está no Exchange Online
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Visão geral da DLP para o Microsoft Teams
 
@@ -67,7 +70,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 1. Vá para o centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ) e entre.
 
-2. Escolha política de **prevenção contra perda de dados**  >  **Policy**.
+2. Escolha política de **prevenção contra perda de dados**  >  .
 
 3. Selecione uma política e ao lado de **configurações de política**, escolha **Editar**.
 
@@ -87,7 +90,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 1. Vá para o centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ) e entre.
 
-2. Escolha política de **prevenção contra perda de dados**  >  **Policy**.
+2. Escolha política de **prevenção contra perda de dados**  >  .
 
 3. Selecione uma política e examine os valores em **locais**. Se você vir **chat de equipes e mensagens de canal**, tudo pronto. Caso contrário, clique em **Editar**.<br/>![Locais para política existente](../media/dlp-teams-editexistingpolicy.png)<br/>
 
@@ -105,7 +108,7 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 1. Vá para o centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ) e entre.
 
-2. Escolha política de **prevenção contra perda**  >  **Policy**  >  **de dados + criar uma política**.
+2. Escolha política de **prevenção contra perda**  >    >  **de dados + criar uma política**.
 
 3. Escolha um [modelo](data-loss-prevention-policies.md#dlp-policy-templates)e, em seguida, escolha **Avançar**.<br/>No nosso exemplo, escolhemos o modelo de dados de informações de identificação pessoal dos EUA.<br/>![Modelo de privacidade para política de DLP](../media/dlp-teams-createnewpolicy-template.png)<br/>
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar a chave do cliente
+title: Configurar a chave do cliente no nível do aplicativo
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: fed181649696c7f5a92850943e1dd980b42aa819
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: b6ead2f92475dcfe230fc13d8ab1137365238755
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688418"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709513"
 ---
-# <a name="set-up-customer-key"></a>Configurar a chave do cliente
+# <a name="set-up-customer-key-at-the-application-level"></a>Configurar a chave do cliente no nível do aplicativo
 
 Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Microsoft 365 para usá-las para criptografar seus dados em repouso nos data centers da Microsoft. Em outras palavras, a chave do cliente permite que os clientes adicionem uma camada de criptografia que pertença a eles, com suas chaves. Os dados em repouso incluem dados do Exchange Online e do Skype for Business que são armazenados em caixas de correio e arquivos armazenados no SharePoint Online e no OneDrive for Business.
 
@@ -98,9 +98,10 @@ Conclua essas tarefas no Azure Key Vault. Você precisará concluir estas etapas
 A chave do cliente requer duas assinaturas do Azure. Como prática recomendada, a Microsoft recomenda que você crie novas assinaturas do Azure para uso com a chave do cliente. Chaves do Azure Key Vault só podem ser autorizadas para aplicativos no mesmo locatário do Azure Active Directory (Microsoft Azure Active Directory), você deve criar as novas assinaturas usando o mesmo locatário do Azure AD usado com sua organização onde o DEPs será atribuído. Por exemplo, usando sua conta corporativa ou de estudante que tenha privilégios de administrador global em sua organização. Para obter etapas detalhadas, consulte [inscrever-se no Azure como uma organização](https://azure.microsoft.com/documentation/articles/sign-up-organization/).
   
 > [!IMPORTANT]
-> A chave do cliente requer duas chaves para cada DEP (política de criptografia de dados). Para conseguir isso, você deve criar duas assinaturas do Azure. Como prática recomendada, a Microsoft recomenda que você tenha Membros separados da sua organização para configurar uma chave em cada assinatura. Além disso, essas assinaturas do Azure devem ser usadas apenas para administrar chaves de criptografia para o Office 365. Isso protegerá a sua organização caso um de seus operadores acidentalmente, intencionalmente ou exclua inadvertidamente as chaves para as quais são responsáveis.
-> 
-> Recomendamos que você configure novas assinaturas do Azure que são usadas unicamente para o gerenciamento de recursos do Azure Key Vault para uso com a chave do cliente. Não há um limite prático para o número de assinaturas do Azure que você pode criar para sua organização. Seguir estas práticas recomendadas minimizará o impacto do erro humano enquanto ajuda a gerenciar os recursos usados pela chave do cliente.
+> A chave do cliente requer duas chaves para cada DEP (política de criptografia de dados). Para conseguir isso, você deve criar duas assinaturas do Azure. Como prática recomendada, a Microsoft recomenda que você tenha Membros separados da sua organização para configurar uma chave em cada assinatura. Você só deve usar essas assinaturas do Azure para administrar chaves de criptografia para o Office 365. Isso protegerá a sua organização caso um de seus operadores acidentalmente, intencionalmente ou exclua inadvertidamente as chaves para as quais são responsáveis.
+>
+
+Não há um limite prático para o número de assinaturas do Azure que você pode criar para sua organização. Seguir estas práticas recomendadas minimizará o impacto do erro humano enquanto ajuda a gerenciar os recursos usados pela chave do cliente.
   
 ### <a name="submit-a-request-to-activate-customer-key-for-office-365"></a>Enviar uma solicitação para ativar a chave do cliente para o Office 365
 
@@ -279,12 +280,12 @@ Onde:
   > [!TIP]
   > Chaves de nome usando uma Convenção de nomenclatura semelhante, conforme descrito acima para os principais cofres. Dessa forma, em ferramentas que mostram apenas o nome da chave, a cadeia de caracteres é autodescritivo.
   
-- Se você pretende proteger a chave com um HSM, certifique-se de especificar o **HSM** como o valor do parâmetro _Destination_ , caso contrário, especifique **software**.
+Se você pretende proteger a chave com um HSM, certifique-se de especificar o **HSM** como o valor do parâmetro _Destination_ , caso contrário, especifique **software**.
 
 Por exemplo,
   
 ```powershell
-Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination Software -KeyOps wrapKey,unwrapKey
+Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination HSM -KeyOps wrapKey,unwrapKey
 ```
 
 Para importar uma chave diretamente para o seu cofre de chaves, você precisa ter um módulo de segurança de hardware do nCipher nShield.
@@ -307,7 +308,7 @@ Para verificar o nível de recuperação de uma chave, no PowerShell do Azure, e
 (Get-AzKeyVaultKey -VaultName <vault name> -Name <key name>).Attributes
 ```
 
-Se a propriedade de _nível de recuperação_ retornar algo diferente de um valor de **recuperável + ProtectedSubscription**, você precisará revisar este tópico e certificar-se de que você seguiu todas as etapas para colocar a assinatura na lista não cancelar e que você tenha a exclusão reversível habilitada em cada um dos seus compartimentos de chave.
+Se a propriedade de _nível de recuperação_ retornar algo diferente de um valor de **recuperável + ProtectedSubscription**, você precisará revisar este artigo e certificar-se de que você seguiu todas as etapas para colocar a assinatura na lista não cancelar e que você tenha a exclusão reversível habilitada em cada um dos seus compartimentos de chave.
   
 ### <a name="back-up-azure-key-vault"></a>Fazer backup do Azure Key Vault
 
@@ -480,7 +481,7 @@ Esquecer! Ao criar uma DEP, você especifica duas chaves que residem em dois cof
   
 Para criar uma DEP, você precisa se conectar remotamente ao SharePoint online usando o Windows PowerShell.
   
-1. No computador local, usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, [Conecte-se ao PowerShell do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+1. No computador local, usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, [Conecte-se ao PowerShell do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true).
 
 2. No Shell de gerenciamento do Microsoft SharePoint Online, execute o cmdlet Register-SPODataEncryptionPolicy da seguinte maneira:
 
@@ -493,7 +494,7 @@ Para criar uma DEP, você precisa se conectar remotamente ao SharePoint online u
 Register-SPODataEncryptionPolicy -PrimaryKeyVaultName 'stageRG3vault' -PrimaryKeyName 'SPKey3' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'stageRG5vault' -SecondaryKeyName 'SPKey5' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a’
 ```
 
-   Quando você registra a DEP, a criptografia começa nos dados na geografia. Isso pode levar algum tempo. Para obter mais informações sobre como usar esse parâmetro, consulte [Register-SPODataEncryptionPolicy](https://docs.microsoft.com/powershell/module/sharepoint-online/register-spodataencryptionpolicy?view=sharepoint-ps).
+   Quando você registra a DEP, a criptografia começa nos dados na geografia. Isso pode levar algum tempo. Para obter mais informações sobre como usar esse parâmetro, consulte [Register-SPODataEncryptionPolicy](https://docs.microsoft.com/powershell/module/sharepoint-online/register-spodataencryptionpolicy?view=sharepoint-ps&preserve-view=true).
 
 ### <a name="validate-file-encryption"></a>Validar a criptografia de arquivo
 
