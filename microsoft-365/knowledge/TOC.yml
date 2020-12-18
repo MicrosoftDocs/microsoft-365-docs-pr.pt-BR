@@ -1,32 +1,44 @@
-- name: Introdução ao gerenciamento de conhecimento
+- name: Introdução às Experiências de tópico
   items:
-    - name: Visão geral do gerenciamento de conhecimento
-      href: knowledge-management-overview.md
-    - name: Visão geral do centro de tópicos
-      href: topic-center-overview.md
-    - name: Trabalhar com tópicos no centro de tópicos
-      href: work-with-topics.md
-    - name: Conceder aos usuários permissões para o tópico central
-      href: give-user-permissions-to-the-topic-center.md
+    - name: Introdução às Experiências de tópico
+      href: index.md
+    - name: Visão geral das Experiências de tópico
+      href: topic-experiences-overview.md
+    - name: Descoberta e curadoria das Experiências de tópíco
+      href: topic-experiences-discovery-curation.md
+    - name: Funções das Experiências de tópico
+      href: topic-experiences-roles.md
     - name: Preparar seu ambiente
       href: topic-experiences-get-ready.md
-- name: Instalação e administração
+- name: Configuração e administração
   items:
     - name: Segurança do tópico
       href: topic-experiences-security-privacy.md
-    - name: Planejar experiências de tópico
+    - name: Planejar Experiências de tópico
       href: plan-topic-experiences.md
-    - name: Configurar experiências de tópico
+    - name: Configurar Experiências de tópico
       href: set-up-topic-experiences.md
-    - name: Gerenciar descoberta de tópico
+    - name: Gerenciar descoberta de tópicos
       href: topic-experiences-discovery.md
-    - name: Gerenciar visibilidade de tópico
+    - name: Gerenciar a visibilidade de tópicos
       href: topic-experiences-knowledge-rules.md
     - name: Gerenciar permissões de tópico
       href: topic-experiences-user-permissions.md
     - name: Alterar o nome da central de tópicos
       href: topic-experiences-administration.md
+- name: Trabalhar com os tópicos
+  items:
+    - name: Visão geral do centro de tópicos
+      href: topic-center-overview.md
+    - name: Gerenciar tópicos no centro de tópicos
+      href: manage-topics.md
+    - name: Criar um novo tópico
+      href: create-a-topic.md
+    - name: Editar um tópico
+      href: edit-a-topic.md
+    - name: Filtragem de segurança
+      href: topic-experiences-security-trimming.md
 - name: Adoção
   items:
-    - name: Introdução à adoção
+    - name: Começar a impulsionar a adoção
       href: topics-adoption-getstarted.md

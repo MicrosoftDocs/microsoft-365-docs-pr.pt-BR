@@ -3,45 +3,45 @@
   items:
     - name: Configurar
       items:
-        - name: Obter acesso a reservas
+        - name: Obter acesso ao Microsoft Bookings
           href: get-access.md
         - name: Insira suas informações comerciais
           href: enter-business-information.md
-        - name: Definir suas ofertas de serviços
+        - name: Definir suas ofertas de serviço
           href: define-service-offerings.md
-        - name: Adicionar equipe a reservas
+        - name: Adicionar funcionários ao Microsoft Bookings
           href: add-staff.md
-        - name: Agendar feriados comerciais e folga
+        - name: Agendar feriados comerciais e folgas
           href: schedule-closures-time-off-vacation.md
-        - name: Definir suas políticas de agendamento
+        - name: Configurar as políticas de agendamento
           href: set-scheduling-policies.md
-        - name: Personalizar e publicar sua página de reservas
+        - name: Personalizar e publicar a página de reserva
           href: customize-booking-page.md
         - name: Criar uma reserva manual
           href: create-a-manual-booking.md
-        - name: Agendar feriados comerciais e folga
+        - name: Agendar feriados comerciais e folgas
           href: schedule-closures-time-off-vacation.md
         - name: Horas do funcionário
           href: employee-hours.md
         - name: Adicionar perguntas personalizadas e necessárias à página de reserva
           href: add-questions.md
-        - name: Definir tempo do buffer
+        - name: Definir o tempo de buffer
           href: set-buffer-time.md
         - name: Métricas e acompanhamento de atividades
           href: metrics-and-activity-tracking.md
-        - name: Definir idioma e fuso horário
+        - name: Definir o idioma e o fuso horário
           href: set-language-time-zones.md
-    - name: Obter o aplicativo de reservas
+    - name: Obtenha o aplicativo Microsoft Bookings
       href: get-bookings-app.md
-    - name: Visitas de aplicativos e virtuais no Microsoft Teams
+    - name: Aplicativo Microsoft Bookings e visitas virtuais no Microsoft Teams
       href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
-    - name: Gráfico de comparação-aplicativo Web em relação ao aplicativo do teams
+    - name: Gráfico de comparação — aplicativo Web versus aplicativo do Teams
       href: comparison-chart.md
-    - name: Excluir um calendário de reserva
+    - name: Excluir um calendário de reservas
       href: delete-calendar.md
-    - name: Ativar ou desativar o Microsoft bookings
+    - name: Ativar ou desativar o Microsoft Bookings
       href: turn-bookings-on-or-off.md
-    - name: Informações de relatório para reservas da Microsoft
+    - name: Informações de relatório do Microsoft Bookings
       href: reporting-info.md
-    - name: Perguntas frequentes sobre o Microsoft bookings
+    - name: Perguntas frequentes sobre o Microsoft Bookings
       href: bookings-faq.md
