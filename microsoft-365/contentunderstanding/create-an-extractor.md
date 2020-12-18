@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Aprenda como criar um extrator no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 99d2a4602c03d8a7207736ea17ed500626ce43ac
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: b957d905f3807f6007ebeb742d9b56d81ea38ac2
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087458"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701124"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Criar um extrator no Microsoft SharePoint Syntex
 
@@ -37,7 +37,9 @@ Antes ou depois de criar um modelo de classificador para automatizar a identific
 
 1. Na página inicial do modelo, no bloco **Criar e treinar extratores**, clique em **Extrator de treinamento**.
 2. Na tela **Novo extrator de entidade**, digite o nome do seu extrator no campo **Novo nome do extrator**. Por exemplo, nomeie a **Data de Início do Serviço** se você quiser extrair a data de início do serviço de cada documento de Renovação do Contrato. Também é possível optar por reutilizar uma coluna anteriormente criada (por exemplo, uma coluna de metadados gerenciados).
-3. Clique em **Criar**.
+> [!NOTE]
+> Se você criar um novo extrator, selecione **Novo tipo de coluna** e escolha **Linha única de texto**, com o limite máximo de caracteres de 255. Qualquer caractere que você digitar excedendo o limite sairá truncado. 
+3. Quando terminar, clique em **Criar**.
 
 ## <a name="add-a-label"></a>Adicione um rótulo
 
