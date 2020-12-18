@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Neste artigo, aprenda como expandir sua presença no Microsoft 365 para várias regiões geográficas com o Microsoft 365 Multi-Geo.
-ms.openlocfilehash: cf5f655e2b205001c6c16ed05abc33d68324ff15
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
-ms.translationtype: HT
+ms.openlocfilehash: 6d16d222a97f309eafdd79a2b107978ce7b4f242
+ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580692"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712492"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -50,7 +50,7 @@ Aqui estão os principais termos usados na descrição do Microsoft 365 Multi-Ge
 
 ## <a name="licensing"></a>Licenciamento
 
-O Microsoft 365 Multi-Geo está disponível como um complemento para os seguintes planos de assinatura do Microsoft 365 para os clientes da EA, com um mínimo de 250 assinaturas do Microsoft 365 em seus locatários e um mínimo de 5% desses usuários usando várias regiões. Entre em contato com a equipe de conta Microsoft para obter mais detalhes.
+O Microsoft 365 multigeo está disponível como um complemento para os seguintes planos de assinatura do Microsoft 365 para clientes de acordos corporativos com um mínimo de 250 estações do Microsoft 365 em seus locatários, e um mínimo de 5% desses assentos usando multigeográfico. As licenças de assinatura do usuário devem estar no mesmo contrato corporativo que as licenças de serviços multigeográfico. Entre em contato com a equipe de conta Microsoft para obter mais detalhes.
 
 - Microsoft 365 F1, F3, E3 ou E5
 - Office 365 F3, E1, E3 ou E5
@@ -70,7 +70,7 @@ Siga estas etapas para iniciar com o multigeográfico:
 
 1. Trabalhe com sua equipe de conta para adicionar os _Recursos de várias áreas geográficas no plano de serviço do Microsoft 365_. Elas orientarão você ra adicionar o número de licenças necessárias. O recurso de várias áreas geográficas está disponível para clientes da EA com no mínimo 250 assinaturas do Microsoft 365.
 
-   Antes de começar a usar o Microsoft 365 Multi-Geo, a Microsoft precisa configurar seu locatário do Exchange Online do suporte multigeográfico. Esse processo de configuração única é acionado após o pedido do *Plano de serviços do Recursos Geográficos no Microsoft 365*, sendo que as licenças são exibidas no seu locatário. Você receberá notificações específicas sobre carga de trabalho no [centro de mensagem do Microsoft 365](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) quando seu locatário tiver concluído o processo de configuração para cada carga de trabalho e, então, poderá começar a configurar e a usar os recursos do seu Microsoft 365 Multi-Geo. O tempo exigido para configurar um locatário para o suporte do Multi-Geo variam de locatário para locatário, mas a maioria dos locatários conclui dentro de um mês após o recebimento das licenças do recurso. Locatários maiores ou mais complexos podem exigir mais tempo para concluir o processo de configuração. Contate sua equipe da conta para detalhes sobre seu locatário específico, se for necessário.
+   Antes de começar a usar o Microsoft 365 Multi-Geo, a Microsoft precisa configurar seu locatário do Exchange Online do suporte multigeográfico. Esse processo de configuração única é acionado após o pedido do *Plano de serviços do Recursos Geográficos no Microsoft 365*, sendo que as licenças são exibidas no seu locatário. Você receberá notificações específicas de carga de trabalho no [centro de mensagens do Microsoft 365](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) depois que o locatário tiver concluído o processo de configuração para cada carga de trabalho e você poderá começar a configurar e usar seus recursos multigeográfico do Microsoft 365. O tempo exigido para configurar um locatário para o suporte do Multi-Geo variam de locatário para locatário, mas a maioria dos locatários conclui dentro de um mês após o recebimento das licenças do recurso. Locatários maiores ou mais complexos podem exigir mais tempo para concluir o processo de configuração. Contate sua equipe da conta para detalhes sobre seu locatário específico, se for necessário.
 
 2. Leia [planejar o ambiente multigeográfico](plan-for-multi-geo.md).
 

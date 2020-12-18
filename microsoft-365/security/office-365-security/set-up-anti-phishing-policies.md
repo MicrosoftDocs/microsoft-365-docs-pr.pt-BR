@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft defender para Office 365.
-ms.openlocfilehash: 43736fbd42949a084804825ec7f12d19b7fd1818
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 7660516e60c77a7f31f711f78b6fd28d3ad179fd
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683036"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709699"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -55,7 +55,7 @@ As diferenças de alto nível entre políticas anti-phishing no EOP e nas polít
 
 Para configurar as políticas anti-phishing, consulte os seguintes artigos:
 
-- [Configurar políticas anti-phishing no EOP](configure-anti-phishing-policies-eop.md)
+- [Configurar políticas anti-phishing em EOP](configure-anti-phishing-policies-eop.md)
 
 - [Configurar políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md)
 
@@ -99,6 +99,8 @@ As seguintes configurações de spoof estão disponíveis em políticas anti-phi
   > - A proteção contra falsificação é habilitada por padrão na política anti-phishing padrão e em qualquer nova política anti-phishing personalizada que você criar.
   >
   > - Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Microsoft 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+  >
+  > - Desabilitar a proteção contra falsificação desabilita apenas a proteção de falsificação implícita de verificações de [autenticação compostas](email-validation-and-authentication.md#composite-authentication) . Se o remetente falhar [DMARC](use-dmarc-to-validate-email.md) verificações de local em que a política está definida para colocar em quarentena ou rejeitar, a mensagem ainda será colocada em quarentena ou rejeitada.
 
   Para mensagens de remetentes falsificados bloqueados, você também pode especificar a ação a ser tomada nas mensagens:
 

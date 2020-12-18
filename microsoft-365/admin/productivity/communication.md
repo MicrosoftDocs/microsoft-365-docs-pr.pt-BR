@@ -19,16 +19,28 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade da experiência de pessoas de comunicação.
-ms.openlocfilehash: de73957ffad27ddac9b5e18cd6da7becd2239a59
-ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
+ms.openlocfilehash: b688063c10749d15fc5b00b629ee18afedba927e
+ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49585311"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712574"
 ---
 # <a name="communication--people-experiences"></a>Comunicação – experiências de pessoas
 
-Pontuação de produtividade oferece suporte à jornada para transformação digital com o insights sobre como sua organização usa o Microsoft 365 e as experiências tecnológicas que dão suporte a ele. A pontuação da sua organização reflete as medidas de experiência de pessoas e tecnologias e pode ser comparada a benchmarks de organizações similares em tamanho para o seu. A categoria de comunicação faz parte das medidas de experiência de pessoas. Para saber mais, confira a [visão geral da Pontuação de produtividade](productivity-score.md) e leia a [declaração de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
+Pontuação de produtividade oferece suporte à jornada para transformação digital com o insights sobre como sua organização usa o Microsoft 365 e as experiências tecnológicas que dão suporte a ele. A pontuação da sua organização reflete as medidas das pessoas e das experiências de tecnologia e pode ser comparada com os benchmarks de organizações com tamanho semelhante ao seu. A categoria de comunicação faz parte das medidas de experiência de pessoas. Para saber mais, confira a [visão geral da Pontuação de produtividade](productivity-score.md) e leia a [declaração de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+Para começar a usar o insights de comunicação, as pessoas em sua organização precisam ser licenciadas para:
+
+- Microsoft Teams
+- Yammer
+- Exchange Online
+
+Para obter mais informações, consulte [atribuir licenças aos usuários](../manage/assign-licenses-to-users.md).
+
+Após as pessoas terem sido ativadas nos produtos acima pelo menos uma vez nos últimos 28 dias, você começará a ver as ideias.
 
 ## <a name="why-your-organizations-communication-score-matters"></a>Por que a pontuação de comunicação da sua organização é importante 
 

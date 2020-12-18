@@ -19,16 +19,28 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da Pontuação de produtividade de conteúdo – pessoas experiências.
-ms.openlocfilehash: 2637debe41cd32093c378a4665af6dc5185b0e5e
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 62486511be7e085401e4a2934ce3742a15729e1f
+ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561654"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712586"
 ---
 # <a name="content-collaboration--people-experiences"></a>Colaboração de conteúdo – experiências de pessoas
 
 A pontuação de produtividade fornece informações sobre a jornada de transformação digital da sua organização por meio do uso do Microsoft 365 e das experiências tecnológicas que dão suporte a ela. A pontuação da sua organização reflete medidas de experiência de pessoas e tecnologia e pode ser comparada a benchmarks de organizações similares às suas. A categoria de colaboração de conteúdo faz parte das medidas de experiência de pessoas. Para saber mais, confira a [visão geral da Pontuação de produtividade](productivity-score.md) e leia a [declaração de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+Para começar a usar o Content Collaboration insights, as pessoas em sua organização precisam ser licenciadas para:
+
+- OneDrive for Business
+- SharePoint
+- Exchange Online
+
+Para obter mais informações, consulte [atribuir licenças aos usuários](../manage/assign-licenses-to-users.md).
+
+ Após as pessoas terem sido ativadas nos produtos acima pelo menos uma vez nos últimos 28 dias, você começará a ver as ideias.
 
 ## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Por que a sua organização&#39;Pontuação de colaboração de conteúdo é importante
 
