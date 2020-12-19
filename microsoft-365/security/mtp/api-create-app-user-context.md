@@ -1,6 +1,6 @@
 ---
-title: Acessar APIs do Microsoft 365 defender usando em nome do usuário
-description: Saiba como acessar as APIs do Microsoft 365 defender usando em nome do usuário
+title: Criar um aplicativo para acessar as APIs do Microsoft 365 defender em nome de um usuário
+description: Saiba como acessar as APIs do Microsoft 365 defender em nome de um usuário.
 keywords: acesso, em nome de usuário, API, aplicativo, usuário, token de acesso, token,
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,112 +19,142 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: a72bc7648045e5cc37a1d899f9e15237ce29ed37
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: f1c0caea9ff7810f79026c789241a4f250ec5303
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847351"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719411"
 ---
-# <a name="access-microsoft-365-defender-apis-on-behalf-of-user"></a><span data-ttu-id="1e93a-104">Acessar APIs do Microsoft 365 defender em nome do usuário</span><span class="sxs-lookup"><span data-stu-id="1e93a-104">Access Microsoft 365 Defender APIs on behalf of user</span></span>
+# <a name="create-an-app-to-access-microsoft-365-defender-apis-on-behalf-of-a-user"></a><span data-ttu-id="31870-104">Criar um aplicativo para acessar as APIs do Microsoft 365 defender em nome de um usuário</span><span class="sxs-lookup"><span data-stu-id="31870-104">Create an app to access Microsoft 365 Defender APIs on behalf of a user</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+<span data-ttu-id="31870-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="31870-105">**Applies to:**</span></span>
 
-<span data-ttu-id="1e93a-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="1e93a-105">**Applies to:**</span></span>
-- <span data-ttu-id="1e93a-106">Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="1e93a-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="31870-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="31870-106">Microsoft 365 Defender</span></span>
 
->[!IMPORTANT] 
-><span data-ttu-id="1e93a-107">Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente.</span><span class="sxs-lookup"><span data-stu-id="1e93a-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="1e93a-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="1e93a-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="31870-107">Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente.</span><span class="sxs-lookup"><span data-stu-id="31870-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="31870-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="31870-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
+<span data-ttu-id="31870-109">Esta página descreve como criar um aplicativo para obter acesso programático ao Microsoft 365 defender em nome de um único usuário.</span><span class="sxs-lookup"><span data-stu-id="31870-109">This page describes how to create an application to get programmatic access to Microsoft 365 Defender on behalf of a single user.</span></span>
 
-<span data-ttu-id="1e93a-109">Esta página descreve como criar um aplicativo para obter acesso programático ao Microsoft 365 defender em nome de um usuário.</span><span class="sxs-lookup"><span data-stu-id="1e93a-109">This page describes how to create an application to get programmatic access to Microsoft 365 Defender on behalf of a user.</span></span>
+<span data-ttu-id="31870-110">Se você precisar de acesso programático ao Microsoft 365 defender sem um usuário definido (por exemplo, se você estiver criando um aplicativo de plano de fundo ou daemon), confira [criar um aplicativo para acessar o Microsoft 365 defender sem um usuário](api-create-app-web.md).</span><span class="sxs-lookup"><span data-stu-id="31870-110">If you need programmatic access to Microsoft 365 Defender without a defined user (for example, if you're writing a background app or daemon), see [Create an app to access Microsoft 365 Defender without a user](api-create-app-web.md).</span></span> <span data-ttu-id="31870-111">Se você precisar fornecer acesso para vários locatários — por exemplo, se estiver servindo uma grande organização ou um grupo de clientes, confira [criar um aplicativo com acesso para parceiros às APIs do Microsoft 365 defender](api-partner-access.md). Se você não tiver certeza sobre qual tipo de acesso precisa, consulte [introdução](api-access.md).</span><span class="sxs-lookup"><span data-stu-id="31870-111">If you need to provide access for multiple tenants—for example, if you're serving a large organization or a group of customers—see [Create an app with partner access to Microsoft 365 Defender APIs](api-partner-access.md).If you're not sure which kind of access you need, see [Get started](api-access.md).</span></span>
 
-<span data-ttu-id="1e93a-110">Se você precisar de acesso programático ao Microsoft 365 defender sem um usuário, consulte [criar um aplicativo para acessar o Microsoft 365 defender sem um usuário](api-create-app-web.md).</span><span class="sxs-lookup"><span data-stu-id="1e93a-110">If you need programmatic access Microsoft 365 Defender without a user, refer to [Create an app to access Microsoft 365 Defender without a user](api-create-app-web.md).</span></span>
+<span data-ttu-id="31870-112">O Microsoft 365 defender expõe grande parte de seus dados e ações por meio de um conjunto de APIs de programação.</span><span class="sxs-lookup"><span data-stu-id="31870-112">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="31870-113">Essas APIs ajudam a automatizar os fluxos de trabalho e a usar os recursos do Microsoft 365 defender.</span><span class="sxs-lookup"><span data-stu-id="31870-113">Those APIs help you automate workflows and make use of Microsoft 365 Defender's capabilities.</span></span> <span data-ttu-id="31870-114">Este acesso à API requer autenticação do OAuth 2.0.</span><span class="sxs-lookup"><span data-stu-id="31870-114">This API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="31870-115">Para obter mais informações, consulte [fluxo de código de autorização do OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span><span class="sxs-lookup"><span data-stu-id="31870-115">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
 
-<span data-ttu-id="1e93a-111">Se você não tiver certeza de qual acesso você precisa, leia o [Access The Microsoft 365 defender APIs](api-access.md).</span><span class="sxs-lookup"><span data-stu-id="1e93a-111">If you are not sure which access you need, read the [Access the Microsoft 365 Defender APIs](api-access.md).</span></span>
+<span data-ttu-id="31870-116">Em geral, você precisará executar as seguintes etapas para usar estas APIs:</span><span class="sxs-lookup"><span data-stu-id="31870-116">In general, you'll need to take the following steps to use these APIs:</span></span>
 
-<span data-ttu-id="1e93a-112">O Microsoft 365 defender expõe grande parte de seus dados e ações por meio de um conjunto de APIs de programação.</span><span class="sxs-lookup"><span data-stu-id="1e93a-112">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="1e93a-113">Essas APIs permitirão que você automatize fluxos de trabalho e inovações com base nos recursos do Microsoft 365 defender.</span><span class="sxs-lookup"><span data-stu-id="1e93a-113">Those APIs will enable you to automate work flows and innovate based on Microsoft 365 Defender capabilities.</span></span> <span data-ttu-id="1e93a-114">O acesso à API requer autenticação do OAuth 2.0.</span><span class="sxs-lookup"><span data-stu-id="1e93a-114">The API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="1e93a-115">Para obter mais informações, consulte [fluxo de código de autorização do OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span><span class="sxs-lookup"><span data-stu-id="1e93a-115">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
+- <span data-ttu-id="31870-117">Criar um aplicativo do Azure Active Directory (Azure AD).</span><span class="sxs-lookup"><span data-stu-id="31870-117">Create an Azure Active Directory (Azure AD) application.</span></span>
+- <span data-ttu-id="31870-118">Obtenha um token de acesso usando este aplicativo.</span><span class="sxs-lookup"><span data-stu-id="31870-118">Get an access token using this application.</span></span>
+- <span data-ttu-id="31870-119">Use o token para acessar a API do Microsoft 365 defender.</span><span class="sxs-lookup"><span data-stu-id="31870-119">Use the token to access Microsoft 365 Defender API.</span></span>
 
-<span data-ttu-id="1e93a-116">Em geral, você precisará executar as seguintes etapas para usar as APIs:</span><span class="sxs-lookup"><span data-stu-id="1e93a-116">In general, you’ll need to take the following steps to use the APIs:</span></span>
-- <span data-ttu-id="1e93a-117">Criar um aplicativo AAD</span><span class="sxs-lookup"><span data-stu-id="1e93a-117">Create an AAD application</span></span>
-- <span data-ttu-id="1e93a-118">Obter um token de acesso usando este aplicativo</span><span class="sxs-lookup"><span data-stu-id="1e93a-118">Get an access token using this application</span></span>
-- <span data-ttu-id="1e93a-119">Usar o token para acessar a API do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="1e93a-119">Use the token to access Microsoft 365 Defender API</span></span>
+<span data-ttu-id="31870-120">Este artigo explica como:</span><span class="sxs-lookup"><span data-stu-id="31870-120">This article explains how to:</span></span>
 
-<span data-ttu-id="1e93a-120">Esta página explica como criar um aplicativo AAD, obter um token de acesso para o Microsoft 365 defender e validar o token.</span><span class="sxs-lookup"><span data-stu-id="1e93a-120">This page explains how to create an AAD application, get an access token to Microsoft 365 Defender and validate the token.</span></span>
+- <span data-ttu-id="31870-121">Criar um aplicativo do Azure AD</span><span class="sxs-lookup"><span data-stu-id="31870-121">Create an Azure AD application</span></span>
+- <span data-ttu-id="31870-122">Obter um token de acesso para o Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="31870-122">Get an access token to Microsoft 365 Defender</span></span>
+- <span data-ttu-id="31870-123">Validar o token</span><span class="sxs-lookup"><span data-stu-id="31870-123">Validate the token</span></span>
 
->[!NOTE]
-> <span data-ttu-id="1e93a-121">Ao acessar a API do Microsoft 365 defender em nome de um usuário, você precisará da permissão de aplicativo e da permissão de usuário corretas.</span><span class="sxs-lookup"><span data-stu-id="1e93a-121">When accessing Microsoft 365 Defender API on behalf of a user, you will need the correct Application permission and user permission.</span></span>
+> [!NOTE]
+> <span data-ttu-id="31870-124">Ao acessar a API do Microsoft 365 defender em nome de um usuário, você precisará das permissões de aplicativo e permissões de usuário corretas.</span><span class="sxs-lookup"><span data-stu-id="31870-124">When accessing Microsoft 365 Defender API on behalf of a user, you will need the correct application permissions and user permissions.</span></span>
 
+> [!TIP]
+> <span data-ttu-id="31870-125">Se você tem a permissão para executar uma ação no portal, você tem a permissão para executar a ação na API.</span><span class="sxs-lookup"><span data-stu-id="31870-125">If you have the permission to perform an action in the portal, you have the permission to perform the action in the API.</span></span>
 
->[!TIP]
-> <span data-ttu-id="1e93a-122">Se você tem a permissão para executar uma ação no portal, você tem a permissão para executar a ação na API.</span><span class="sxs-lookup"><span data-stu-id="1e93a-122">If you have the permission to perform an action in the portal, you have the permission to perform the action in the API.</span></span>
+## <a name="create-an-app"></a><span data-ttu-id="31870-126">Criar um aplicativo</span><span class="sxs-lookup"><span data-stu-id="31870-126">Create an app</span></span>
 
-## <a name="create-an-app"></a><span data-ttu-id="1e93a-123">Criar um aplicativo</span><span class="sxs-lookup"><span data-stu-id="1e93a-123">Create an app</span></span>
+1. <span data-ttu-id="31870-127">Entre no [Azure](https://portal.azure.com) como um usuário com a função de **administrador global** .</span><span class="sxs-lookup"><span data-stu-id="31870-127">Sign in to [Azure](https://portal.azure.com) as a user with the **Global Administrator** role.</span></span>
 
-1. <span data-ttu-id="1e93a-124">Faça logon no [Azure](https://portal.azure.com) com um usuário com função de **administrador global** .</span><span class="sxs-lookup"><span data-stu-id="1e93a-124">Log on to [Azure](https://portal.azure.com) with user that has **Global Administrator** role.</span></span>
-
-2. <span data-ttu-id="1e93a-125">Navegue até registro de aplicativo **do Azure Active Directory**  >  **App registrations**  >  **novo registro**.</span><span class="sxs-lookup"><span data-stu-id="1e93a-125">Navigate to **Azure Active Directory** > **App registrations** > **New registration**.</span></span> 
+2. <span data-ttu-id="31870-128">Navegue até registro de aplicativo **do Azure Active Directory**  >    >  **novo registro**.</span><span class="sxs-lookup"><span data-stu-id="31870-128">Navigate to **Azure Active Directory** > **App registrations** > **New registration**.</span></span>
 
    ![Imagem do Microsoft Azure e de navegação para o registro de aplicativo](../../media/atp-azure-new-app2.png)
 
-3. <span data-ttu-id="1e93a-127">No registro de, digite as informações a seguir e clique em **registrar**.</span><span class="sxs-lookup"><span data-stu-id="1e93a-127">In the registration from, enter the following information then click **Register**.</span></span>
+3. <span data-ttu-id="31870-130">No formulário, escolha um nome para o seu aplicativo e insira as seguintes informações para o URI de redirecionamento e, em seguida, selecione **registrar**.</span><span class="sxs-lookup"><span data-stu-id="31870-130">In the form, choose a name for your application and enter the following information for the redirect URI, then select **Register**.</span></span>
 
    ![Imagem da janela de criação de aplicativo](../../media/nativeapp-create2.PNG)
 
-   - <span data-ttu-id="1e93a-129">**Nome:** O nome do aplicativo</span><span class="sxs-lookup"><span data-stu-id="1e93a-129">**Name:** Your application name</span></span>
-   - <span data-ttu-id="1e93a-130">**Tipo de aplicativo:** Cliente público</span><span class="sxs-lookup"><span data-stu-id="1e93a-130">**Application type:** Public client</span></span>
-   - <span data-ttu-id="1e93a-131">**URI de redirecionamento:**https://portal.azure.com</span><span class="sxs-lookup"><span data-stu-id="1e93a-131">**Redirect URI:** https://portal.azure.com</span></span>
+   - <span data-ttu-id="31870-132">**Tipo de aplicativo:** Cliente público</span><span class="sxs-lookup"><span data-stu-id="31870-132">**Application type:** Public client</span></span>
+   - <span data-ttu-id="31870-133">**URI de redirecionamento:**https://portal.azure.com</span><span class="sxs-lookup"><span data-stu-id="31870-133">**Redirect URI:** https://portal.azure.com</span></span>
 
-4. <span data-ttu-id="1e93a-132">Para permitir que seu aplicativo acesse o Microsoft 365 defender e atribuir permissões de ti, na página do aplicativo, selecione **permissões de API**  >  **Adicionar APIs de permissão**  >  **a minha organização usa** >, digite **Microsoft 365 defender** e selecione **Microsoft 365 defender**.</span><span class="sxs-lookup"><span data-stu-id="1e93a-132">To enable your app to access Microsoft 365 Defender and assign it permissions, on your application page, select **API Permissions** > **Add permission** > **APIs my organization uses** >, type **Microsoft 365 Defender** , and then select **Microsoft 365 Defender**.</span></span>
+4. <span data-ttu-id="31870-134">Na página do aplicativo, selecione **permissões de API**  >  **Adicionar**  >  **APIs de permissão minha organização usa** >, digite **proteção contra ameaças da Microsoft** e selecione **proteção contra ameaças da Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="31870-134">On your application page, select **API Permissions** > **Add permission** > **APIs my organization uses** >, type **Microsoft Threat Protection**, and select **Microsoft Threat Protection**.</span></span> <span data-ttu-id="31870-135">Seu aplicativo agora pode acessar o Microsoft 365 defender.</span><span class="sxs-lookup"><span data-stu-id="31870-135">Your app can now access Microsoft 365 Defender.</span></span>
 
-    >[!NOTE]
-    > <span data-ttu-id="1e93a-133">O Microsoft 365 defender não aparece na lista original.</span><span class="sxs-lookup"><span data-stu-id="1e93a-133">Microsoft 365 Defender does not appear in the original list.</span></span> <span data-ttu-id="1e93a-134">Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparece.</span><span class="sxs-lookup"><span data-stu-id="1e93a-134">You need to start writing its name in the text box to see it appear.</span></span>
+   > [!TIP]
+   > <span data-ttu-id="31870-136">A *proteção contra ameaças da Microsoft* é um nome anterior para o Microsoft 365 defender e não aparecerá na lista original.</span><span class="sxs-lookup"><span data-stu-id="31870-136">*Microsoft Threat Protection* is a former name for Microsoft 365 Defender, and will not appear in the original list.</span></span> <span data-ttu-id="31870-137">Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparece.</span><span class="sxs-lookup"><span data-stu-id="31870-137">You need to start writing its name in the text box to see it appear.</span></span>
 
-      ![Imagem de acesso à API e seleção de API](../../media/apis-in-my-org-tab.PNG)
+   ![Imagem da seleção de permissão de API](../../media/apis-in-my-org-tab.PNG)
 
-    - <span data-ttu-id="1e93a-136">Escolha **permissões delegadas** > escolha as permissões relevantes para o seu cenário, por exemplo, **Incident. Read** e, em seguida, selecione **adicionar permissões**.</span><span class="sxs-lookup"><span data-stu-id="1e93a-136">Choose **Delegated permissions** > Choose the relevant permissions for your scenario, e.g. **Incident.Read** , and then select **Add permissions**.</span></span>
+   - <span data-ttu-id="31870-139">Escolha **permissões delegadas**.</span><span class="sxs-lookup"><span data-stu-id="31870-139">Choose **Delegated permissions**.</span></span> <span data-ttu-id="31870-140">Escolha as permissões relevantes para o seu cenário (por exemplo, **incidente. ler**) e selecione **adicionar permissões**.</span><span class="sxs-lookup"><span data-stu-id="31870-140">Choose the relevant permissions for your scenario (for example **Incident.Read**), and then select **Add permissions**.</span></span>
 
-      ![Imagem de acesso à API e seleção de API](../../media/request-api-permissions-delegated.PNG)
+   ![Imagem de acesso à API e seleção de API](../../media/request-api-permissions-delegated.PNG)
 
-     >[!IMPORTANT]
-     ><span data-ttu-id="1e93a-138">Você precisa selecionar as permissões relevantes.</span><span class="sxs-lookup"><span data-stu-id="1e93a-138">You need to select the relevant permissions.</span></span> 
+    > [!NOTE]
+    > <span data-ttu-id="31870-142">Você precisa selecionar as permissões relevantes para o seu cenário.</span><span class="sxs-lookup"><span data-stu-id="31870-142">You need to select the relevant permissions for your scenario.</span></span> <span data-ttu-id="31870-143">*Ler todos os incidentes* é apenas um exemplo.</span><span class="sxs-lookup"><span data-stu-id="31870-143">*Read all incidents* is just an example.</span></span> <span data-ttu-id="31870-144">Para determinar qual permissão você precisa, consulte a seção **permissões** na API que você deseja chamar.</span><span class="sxs-lookup"><span data-stu-id="31870-144">To determine which permission you need, please look at the **Permissions** section in the API you want to call.</span></span>
+    >
+    > <span data-ttu-id="31870-145">Por exemplo, para [executar consultas avançadas](api-advanced-hunting.md), selecione a permissão "executar consultas avançadas"; para [isolar um dispositivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine), selecione a permissão "isolar máquina".</span><span class="sxs-lookup"><span data-stu-id="31870-145">For instance, to [run advanced queries](api-advanced-hunting.md), select the 'Run advanced queries' permission; to [isolate a device](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine), select the 'Isolate machine' permission.</span></span>
 
-    -  <span data-ttu-id="1e93a-139">Para determinar qual permissão você precisa, consulte a seção **permissões** na API que você está interessado em chamar.</span><span class="sxs-lookup"><span data-stu-id="1e93a-139">To determine which permission you need, please look at the **Permissions** section in the API you are interested to call.</span></span>
+5. <span data-ttu-id="31870-146">Selecione **conceder consentimento do administrador**.</span><span class="sxs-lookup"><span data-stu-id="31870-146">Select **Grant admin consent**.</span></span> <span data-ttu-id="31870-147">Toda vez que você adicionar uma permissão, deverá selecionar **conceder consentimento de administrador** para que ela entre em vigor.</span><span class="sxs-lookup"><span data-stu-id="31870-147">Every time you add a permission, you must select **Grant admin consent** for it to take effect.</span></span>
 
-    - <span data-ttu-id="1e93a-140">Clique em **conceder consentimento**</span><span class="sxs-lookup"><span data-stu-id="1e93a-140">Click **Grant consent**</span></span>
+   ![Imagem de conceder permissões](../../media/grant-consent-delegated.PNG)
 
-      >[!NOTE]
-      ><span data-ttu-id="1e93a-141">Toda vez que você adicionar permissão, deverá clicar em **conceder consentimento** para que a nova permissão entre em vigor.</span><span class="sxs-lookup"><span data-stu-id="1e93a-141">Every time you add permission you must click on **Grant consent** for the new permission to take effect.</span></span>
-
-      ![Imagem de conceder permissões](../../media/grant-consent-delegated.PNG)
-
-6. <span data-ttu-id="1e93a-143">Anote a ID do aplicativo e a ID do locatário:</span><span class="sxs-lookup"><span data-stu-id="1e93a-143">Write down your application ID and your tenant ID:</span></span>
-
-   - <span data-ttu-id="1e93a-144">Na página do aplicativo, vá para **visão geral** e copie o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1e93a-144">On your application page, go to **Overview** and copy the following:</span></span>
+6. <span data-ttu-id="31870-149">Registre a ID do aplicativo e sua ID de locatário em algum lugar seguro.</span><span class="sxs-lookup"><span data-stu-id="31870-149">Record your application ID and your tenant ID somewhere safe.</span></span> <span data-ttu-id="31870-150">Eles estão listados em **visão geral** na página do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="31870-150">They're listed under **Overview** on your application page.</span></span>
 
    ![Imagem da ID do aplicativo criado](../../media/app-and-tenant-ids.png)
 
+## <a name="get-an-access-token"></a><span data-ttu-id="31870-152">Obter um token de acesso</span><span class="sxs-lookup"><span data-stu-id="31870-152">Get an access token</span></span>
 
-## <a name="get-an-access-token-using-powershell"></a><span data-ttu-id="1e93a-146">Obter um token de acesso usando o PowerShell</span><span class="sxs-lookup"><span data-stu-id="1e93a-146">Get an access token using PowerShell</span></span>
+<span data-ttu-id="31870-153">Para obter mais informações sobre tokens do Azure Active Directory, consulte o [tutorial do Azure ad](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).</span><span class="sxs-lookup"><span data-stu-id="31870-153">For more information on Azure Active Directory tokens, see the [Azure AD tutorial](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).</span></span>
 
-```
-#Install the ADAL.PS package if it's not installed.
-if(!(Get-Package adal.ps)) { Install-Package -Name adal.ps }
+### <a name="get-an-access-token-using-powershell"></a><span data-ttu-id="31870-154">Obter um token de acesso usando o PowerShell</span><span class="sxs-lookup"><span data-stu-id="31870-154">Get an access token using PowerShell</span></span>
 
-$authority = "https://login.windows.net/{tenant-id}" # replace {tenant-id} with your tenant ID.
+```PowerShell
+if(!(Get-Package adal.ps)) { Install-Package -Name adal.ps } # Install the ADAL.PS package in case it's not already present
 
-$clientId = "{application-id}" #replace {application-id} with your application ID.
+$tenantId = '' # Paste your directory (tenant) ID here.
+$clientId = '' # Paste your application (client) ID here.
+$redirectUri = '' # Paste your app's redirection URI
 
-$redirectUri = "{redirect-uri}" # replace {redirect-uri} with your application redirect URI.
+$authority = "https://login.windows.net/$tenantId"
+$resourceUrl = 'https://api.security.microsoft.com'
 
-$resourceUrl = "https://api.security.microsoft.com"
-
-$response = Get-ADALToken -Resource $resourceUrl -ClientId $clientId -RedirectUri $redirectUri -Authority $authority -PromptBehavior:Always
+$response = Get-ADALToken -Resource $resourceUrl -ClientId $cleintId -RedirectUri $redirectUri -Authority $authority -PromptBehavior:Always
 $response.AccessToken | clip
+
 $response.AccessToken
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="1e93a-147">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="1e93a-147">Related topics</span></span>
-- [<span data-ttu-id="1e93a-148">Acessar as APIs do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="1e93a-148">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
-- [<span data-ttu-id="1e93a-149">Acessar o Microsoft 365 defender com contexto de aplicativo</span><span class="sxs-lookup"><span data-stu-id="1e93a-149">Access  Microsoft 365 Defender with application context</span></span>](api-create-app-web.md)
+## <a name="validate-the-token"></a><span data-ttu-id="31870-155">Validar o token</span><span class="sxs-lookup"><span data-stu-id="31870-155">Validate the token</span></span>
+
+1. <span data-ttu-id="31870-156">Copie e cole o token em [JWT](https://jwt.ms) para decodificá-lo.</span><span class="sxs-lookup"><span data-stu-id="31870-156">Copy and paste the token into [JWT](https://jwt.ms) to decode it.</span></span>
+1. <span data-ttu-id="31870-157">Certifique-se de que a declaração de *funções* dentro do token decodificado contenha as permissões desejadas.</span><span class="sxs-lookup"><span data-stu-id="31870-157">Make sure that the *roles* claim within the decoded token contains the desired permissions.</span></span>
+
+<span data-ttu-id="31870-158">Na imagem a seguir, você pode ver um token decodificado adquirido de um aplicativo, ```Incidents.Read.All``` com ```Incidents.ReadWrite.All``` ```AdvancedHunting.Read.All``` as permissões e:</span><span class="sxs-lookup"><span data-stu-id="31870-158">In the following image, you can see a decoded token acquired from an app, with ```Incidents.Read.All```, ```Incidents.ReadWrite.All```, and ```AdvancedHunting.Read.All``` permissions:</span></span>
+
+![Imagem da validação do token](../../media/webapp-decoded-token.png)
+
+## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a><span data-ttu-id="31870-160">Usar o token para acessar a API do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="31870-160">Use the token to access the Microsoft 365 Defender API</span></span>
+
+1. <span data-ttu-id="31870-161">Escolha a API que você deseja usar (incidentes ou busca avançada).</span><span class="sxs-lookup"><span data-stu-id="31870-161">Choose the API you want to use (incidents, or advanced hunting).</span></span> <span data-ttu-id="31870-162">Para obter mais informações, consulte [supported Microsoft 365 defender APIs](api-supported.md).</span><span class="sxs-lookup"><span data-stu-id="31870-162">For more information, see [Supported Microsoft 365 Defender APIs](api-supported.md).</span></span>
+2. <span data-ttu-id="31870-163">Na solicitação HTTP que você está prestes a enviar, defina o cabeçalho de autorização `"Bearer" <token>` , o *portador* como o esquema de autorização e o *token* que é o token validado.</span><span class="sxs-lookup"><span data-stu-id="31870-163">In the http request you're about to send, set the authorization header to `"Bearer" <token>`, *Bearer* being the authorization scheme, and *token* being your validated token.</span></span>
+3. <span data-ttu-id="31870-164">O token expirará dentro de uma hora.</span><span class="sxs-lookup"><span data-stu-id="31870-164">The token will expire within one hour.</span></span> <span data-ttu-id="31870-165">Você pode enviar mais de uma solicitação durante esse tempo com o mesmo token.</span><span class="sxs-lookup"><span data-stu-id="31870-165">You can send more than one request during this time  with the same token.</span></span>
+
+<span data-ttu-id="31870-166">O exemplo a seguir mostra como enviar uma solicitação para obter uma lista de incidentes **usando C#**.</span><span class="sxs-lookup"><span data-stu-id="31870-166">The following example shows how to send a request to get a list of incidents **using C#**.</span></span>
+
+```C#
+    var httpClient = new HttpClient();
+    var request = new HttpRequestMessage(HttpMethod.Get, "https://api.security.microsoft.com/api/incidents");
+
+    request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+    var response = httpClient.SendAsync(request).GetAwaiter().GetResult();
+```
+
+## <a name="related-articles"></a><span data-ttu-id="31870-167">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="31870-167">Related articles</span></span>
+
+- [<span data-ttu-id="31870-168">Visão geral das APIs do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="31870-168">Microsoft 365 Defender APIs overview</span></span>](api-overview.md)
+- [<span data-ttu-id="31870-169">Acessar as APIs do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="31870-169">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
+- [<span data-ttu-id="31870-170">Criar um aplicativo "Olá mundo"</span><span class="sxs-lookup"><span data-stu-id="31870-170">Create a 'Hello world' app</span></span>](api-hello-world.md)
+- [<span data-ttu-id="31870-171">Criar um aplicativo para acessar o Microsoft 365 defender sem um usuário</span><span class="sxs-lookup"><span data-stu-id="31870-171">Create an app to access Microsoft 365 Defender without a user</span></span>](api-create-app-web.md)
+- [<span data-ttu-id="31870-172">Criar um aplicativo com acesso de parceiro multilocatário às APIs do Microsoft 365 defender</span><span class="sxs-lookup"><span data-stu-id="31870-172">Create an app with multi-tenant partner access to Microsoft 365 Defender APIs</span></span>](api-partner-access.md)
+- [<span data-ttu-id="31870-173">Saiba mais sobre limites de API e licenciamento</span><span class="sxs-lookup"><span data-stu-id="31870-173">Learn about API limits and licensing</span></span>](api-terms.md)
+- [<span data-ttu-id="31870-174">Entender códigos de erro</span><span class="sxs-lookup"><span data-stu-id="31870-174">Understand error codes</span></span>](api-error-codes.md)
+- [<span data-ttu-id="31870-175">Autorização OAuth 2,0 para entrada de usuário e acesso à API</span><span class="sxs-lookup"><span data-stu-id="31870-175">OAuth 2.0 authorization for user sign in and API access</span></span>](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
