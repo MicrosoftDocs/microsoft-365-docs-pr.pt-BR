@@ -12,12 +12,12 @@ ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
 ROBOTS: NOINDEX
-ms.openlocfilehash: 9709bec9b6e59ef05903f9c04909c796eb4127f4
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 45469e17870a58966a42a13116b6ba645071722c
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683390"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698526"
 ---
 # <a name="get-started-driving-adoption-of-topic-experiences-preview"></a>Introdução à adoção de experiências de tópicos (versão prévia)
 
@@ -33,7 +33,7 @@ Antes de começar a adotar o, você precisa entender os conceitos envolvidos no 
 - **Identificação**: com o Microsoft Graph e o conhecimento e as pessoas (tópicos, habilidades, um assim por diante) são identificados e organizados automaticamente em tópicos relacionados. O conteúdo do SharePoint é indexado com o conteúdo de segurança.
 - **Extensão**: com conectores de conteúdo do Microsoft Graph (em breve), você pode incluir conhecimento de serviços externos e repositórios de dados.
 
-Para obter mais informações, você pode analisar a [visão geral](knowledge-management-overview.md) de uma introdução.
+Para obter mais informações, você pode analisar a [visão geral](topic-experiences-overview.md) de uma introdução.
 
 Tenha em mente que:
 
@@ -107,7 +107,7 @@ Escolha alguns cenários-chave para se concentrar no princípio, trabalhe com os
 
 Identifique os participantes do seu projeto. As principais funções são o patrocinador executivo, o proprietário de sucesso e os campeões.
 
-|Função |Responsabilidades |Department |
+|Role |Responsabilidades |Department |
 |:-------|:-------|:--------|
 | Patrocinador executivo (es)   | Transmitir valores e visão de alto nível para a empresa   |  Liderança executiva   |
 | Líder de projeto (s) | Supervisionar todo o processo de execução e distribuição do lançamento | Gerenciamento de projeto |
