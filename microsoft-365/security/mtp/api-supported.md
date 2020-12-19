@@ -1,6 +1,6 @@
 ---
-title: APIs do Microsoft 365 defender com suporte
-description: APIs do Microsoft 365 defender com suporte
+title: APIs com suporte do Microsoft 365 Defender
+description: APIs com suporte do Microsoft 365 Defender
 keywords: MTP, APIs, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,41 +19,45 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b7c0accf2d649d4ad6177260294922ee17783f2c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: dbb7613dae3755b0fb794a3d68b5b424d765cc62
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844955"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719317"
 ---
-# <a name="supported-microsoft-365-defender-apis"></a>APIs do Microsoft 365 defender com suporte 
+# <a name="supported-microsoft-365-defender-apis"></a>APIs com suporte do Microsoft 365 Defender 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
->[!IMPORTANT] 
->Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
+## <a name="list-of-available-apis"></a>Lista de APIs disponíveis
 
-### <a name="end-point-uris"></a>URIs de ponto de extremidade:
+Artigo | Descrição
+-|-
+[API de Busca Avançada](api-advanced-hunting.md) | Executar consultas de busca avançadas.
+[APIs de Incidente](api-incident.md) | Incidentes de lista e atualização, juntamente com outras tarefas práticas.
 
-- O URI da base de serviço é: https://api.security.microsoft.com <br>
+### <a name="endpoint-uris"></a>URIs de ponto de extremidade
 
->[!NOTE]
->Para melhorar o desempenho, você pode usar o servidor mais próximo do local geográfico:
-> - api-us.security.microsoft.com
-> - api-eu.security.microsoft.com
-> - api-uk.security.microsoft.com
+O URI de base para ambas as APIs principais é: https://api.security.microsoft.com . Para melhorar o desempenho, use um servidor mais próximo da sua localização geográfica:
 
- - O recurso para aquisição de token deve ser: https://api.security.microsoft.com
+- Estados Unidos: api-us.security.microsoft.com
+- Europa: api-eu.security.microsoft.com
+- O Reino Unido: api-uk.security.microsoft.com
 
- - Todas as APIs em ```/api``` Path são APIs OData. exemplo. ```https://api.security.microsoft.com/api/incidents```
+Tokens podem ser adquiridos acessando https://api.security.microsoft.com .
 
-## <a name="list-of-available-apis"></a>Lista de APIs disponíveis:
+Todas as APIs ao longo do `/api` caminho usam o protocolo [OData](https://docs.microsoft.com/odata/overview) ; por exemplo, https://api.security.microsoft.com/api/incidents .
 
-Tópico | Descrição
-:---|:---
-[API de Busca Avançada](api-advanced-hunting.md) | Executar consultas de busca avançada da API.
-[APIs de Incidente](api-incident.md) | Executar chamadas de API relacionadas a incidentes, como: listar incidentes, atualizar incidente e mais.
+## <a name="related-articles"></a>Artigos relacionados
+
+- [Visão geral das APIs do Microsoft 365 defender](api-overview.md)
+- [Acessar as APIs de proteção contra ameaças da Microsoft](api-access.md)
+- [Saiba mais sobre limites de API e licenciamento](api-terms.md)
+- [Entender códigos de erro](api-error-codes.md)

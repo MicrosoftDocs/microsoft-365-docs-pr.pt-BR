@@ -3,7 +3,7 @@ title: Pré-trabalho para a migração do Microsoft Cloud Alemanha
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/11/2020
+ms.date: 12/18/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: pré-trabalho ao migrar do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 1bb6a1b80da462da2218f32fbbc2899ae651a3ec
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 107447226b9b75f371e23f8dd06ec29860571c63
+ms.sourcegitcommit: 86f75cf77a7a446a79226ca530bd7b5eb39189cb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688450"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49717026"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pré-trabalho para a migração do Microsoft Cloud Alemanha
 
@@ -115,6 +115,7 @@ Se você estiver usando um serviço de terceiros ou aplicativos LOB (linha de ne
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
+| Adicione um identificador de logon único (SSO) a uma confiança de terceira parte confiável existente e desabilite as atualizações automáticas de metadados do AD FS. | Uma ID deve ser adicionada ao confiança da terceira parte confiável do AD FS antes de iniciar a migração. Para evitar a remoção acidental do identificador da terceira parte confiável, desabilite a atualização automática para atualizações de metadados. <br><br> Execute este comando no servidor AD FS: <br> `Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:microsoftonline.de -Identifier @('urn:federation:microsoftonline.de','https://login.microsoftonline.de/extSTS.srf','https://login.microsoftonline.de') -AutoUpdate $False` | Organizações de autenticação federada | Ação necessária. Inaction resultará no impacto do serviço durante a migração.  |
 | Gere confiança de terceira parte confiável para pontos de extremidade do Azure AD global. | Os clientes precisam criar manualmente um relatório de confiança de terceira parte confiável (RPT) para pontos de extremidade [globais](https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml) . Isso é feito adicionando um novo relatório via GUI, aproveitando a URL dos metadados globais de Federação e usando [as regras de declaração do Azure ad RPT](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator#:~:text=%20Azure%20AD%20RPT%20Claim%20Rules%20%201,Azure%20AD.%20This%20will%20be%20what...%20More%20) (na ajuda do AD FS) para gerar as regras de declaração e importá-las para o relatório. | Organizações de autenticação federada | Ação necessária. Inaction resultará no impacto do serviço durante a migração. |
 |||||
 

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações de fases de migração e impactos da mudança do Microsoft Cloud Alemanha (Microsoft Cloud Alemanha) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 4a032ab88704cfb46b3f451d939a784d222cbb40
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 4a54fed8a109c3d03b735a5db3cb48060f5c438f
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688612"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719387"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Ações de fases de migração e impactos da migração do Microsoft Cloud Alemanha (geral)
 
@@ -83,7 +83,7 @@ Considerações adicionais:
 
 | Etapa (s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
-| Migração do Skype for Business para o Microsoft Teams. | Os clientes existentes do Skype for Business são migrados para os serviços do Office 365 na Europa e, em seguida, transferidos para o Microsoft Teams na região da Alemanha dos serviços do Office 365. | Clientes do Skype for Business | -Os usuários não poderão entrar no Skype for Business na data de migração. Dez dias antes da migração, notificaremos os usuários finais por meio da banda no cliente Skype for Business que eles serão atualizados para o Microsoft Teams. Também postaremos no centro de administração, que essas alterações ocorrerão após os 10 dias. <br><br> -A configuração de política é migrada. <br><br> -Os usuários serão migrados para o Microsoft Teams e não terão mais o Skype for Business após a migração. <br><br> -Os usuários devem ter o cliente da área de trabalho do teams instalado. A instalação acontecerá durante os 10 dias da política da infraestrutura do Skype for Business, mas se isso falhar, os usuários ainda precisarão baixar o cliente ou se conectarem a um navegador com suporte. <br><br> -Contatos e reuniões serão migrados para o Microsoft Teams. <br><br> -Os usuários não poderão entrar no Skype for Business entre as transições de serviço de tempo para os serviços do Office 365 e não até que as entradas de DNS do cliente sejam concluídas. <br><br> -Contatos e reuniões existentes continuarão a funcionar como reuniões do Skype for Business. |
+| Migração do Skype for Business para o Microsoft Teams. | Os clientes existentes do Skype for Business são migrados para os serviços do Office 365 na Europa e, em seguida, transferidos para o Microsoft Teams na região da Alemanha dos serviços do Office 365. | Clientes do Skype for Business | -Os usuários não poderão entrar no Skype for Business na data de migração. Dez dias antes da migração, postaremos no centro de administração para permitir que você saiba quando ocorrerá a migração e, novamente, quando começarmos a migração. <br><br> -A configuração de política é migrada. <br><br> -Os usuários serão migrados para o Microsoft Teams e não terão mais o Skype for Business após a migração. <br><br> -Os usuários devem ter o cliente da área de trabalho do teams instalado. A instalação acontecerá durante os 10 dias da política da infraestrutura do Skype for Business, mas se isso falhar, os usuários ainda precisarão baixar o cliente ou se conectarem a um navegador com suporte. <br><br> -Contatos e reuniões serão migrados para o Microsoft Teams. <br><br> -Os usuários não poderão entrar no Skype for Business entre as transições de serviço de tempo para os serviços do Office 365 e não até que as entradas de DNS do cliente sejam concluídas. <br><br> -Contatos e reuniões existentes continuarão a funcionar como reuniões do Skype for Business. |
 |||||
 
 ## <a name="office-services"></a>Serviços do Office
