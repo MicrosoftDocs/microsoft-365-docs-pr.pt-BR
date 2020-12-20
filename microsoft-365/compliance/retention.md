@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 767e63c22d085696b53d74e3a4d6955bedec22dd
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+ms.openlocfilehash: c405f2bf8d9700c9a0874ba9d921a290ae63de16
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709668"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719341"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -276,7 +276,7 @@ Nesse cenário, quando os itens podem estar sujeitos a várias configurações d
 
 O resultado não é qual política de retenção única ou rótulo de retenção único prevalece, mas por quanto tempo um item é mantido (se aplicável) e quando um item é excluído (se aplicável). Essas duas ações são calculadas independentemente uma da outra, a partir de todas as configurações de retenção aplicadas a um item.
 
-Por exemplo, um item pode estar sujeito a uma política de retenção configurada para apenas uma ação de exclusão e outra política de retenção configurada para manter e excluir. Para determinar o resultado, este item tem apenas uma ação de retenção e duas ações de exclusão. A retenção e a exclusão podem estar em conflito uma com a outra e as duas ações de exclusão podem ter uma data conflitante.
+Por exemplo, um item pode estar sujeito a uma política de retenção configurada para apenas uma ação de exclusão e outra política de retenção configurada para manter e excluir. Consequentemente, este item tem apenas uma ação reter, mas duas ações de exclusão. As ações de retenção e exclusão podem estar em conflito uma com a outra e as duas ações de exclusão podem ter uma data conflitante. Para calcular o resultado, você deve aplicar os princípios de retenção.
 
 Em um alto nível, você pode ter certeza de que a retenção sempre tem precedência sobre a exclusão, e o período de retenção mais longo prevalece. Essas duas regras simples sempre decidem por quanto tempo um item será mantido.
 

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: bd7b4f78d37feddd7c66322460a6532a77045ba2
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: b05901ad8d42f481020178479df5d422fa68eb1a
+ms.sourcegitcommit: 5cbce99cfdbba4b72267a144b2e03a6c52473464
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988663"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718494"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
@@ -32,7 +32,7 @@ A [funcionalidade de auditoria unificada](search-the-audit-log-in-security-and-c
 > [!NOTE]
 > A Auditoria Avançada está disponível para organizações com uma assinatura do Office 365 E5/G5 ou Microsoft 365 Enterprise E5/G5. Além disso, uma licença de complemento do Microsoft 365 E5 Compliance ou Descoberta Eletrônica E5 pode ser atribuída aos usuários quando o licenciamento por usuário for necessário aos recursos de Auditoria Avançada, como é o caso da retenção a longo prazo dos logs de auditoria e do acesso a eventos cruciais de investigações. Para obter mais informações sobre licenciamento, confira [Diretrizes de licenciamento do Microsoft 365 para conformidade e segurança](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
 
-Este artigo fornece uma visão geral dos recursos de Auditoria Avançada.
+Este artigo fornece uma visão geral dos recursos de Auditoria Avançada e mostra como configurar usuários para Auditoria Avançada.
 
 ## <a name="long-term-retention-of-audit-logs"></a>Retenção a longo prazo de logs de auditoria
 
@@ -140,6 +140,26 @@ Com o lançamento da Auditoria Avançada, passamos de um limite de nível de edi
 Todas as organizações alocam inicialmente uma linha de base de 2.000 solicitações por minuto. Esse limite aumentará dinamicamente de acordo com a contagem de assentos de uma organização e de sua assinatura de licenciamento. As organizações E5 terão aproximadamente o dobro da largura de banda que as organizações que não são E5. Também haverá limite máximo quanto à largura de banda para proteger a integridade do serviço.
 
 Para mais informações, confira a seção "limitação da API" em [Referência da API de atividade de gerenciamento do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference#api-throttling).
+
+## <a name="set-up-advanced-audit-for-users"></a>Configurar Auditoria Avançada para usuários
+
+Recursos de Auditoria Avançada, como a capacidade de registrar eventos cruciais, como MailItemsAccessed e Send, exigem uma licença E5 apropriada atribuída aos usuários. Além disso, o aplicativo/plano de serviço de Auditoria Avançada deve ser habilitado para esses usuários. Para verificar se o aplicativo Auditoria Avançada está atribuído aos usuários, execute as seguintes etapas para cada usuário:
+
+1. No [Centro de administração do Microsoft 365](https://admin.microsoft.com/Adminportal), acesse **Usuários** > **Ativar usuários** e selecione um usuário.
+
+2. Na página flyout de propriedades do usuário, clique em **Licenças e aplicativos**.
+
+3. Na seção **Licenças**, verifique se o usuário recebeu uma licença E5.
+
+4. Expanda a seção **Aplicativos** e verifique se a caixa de seleção **Auditoria Avançada do Microsoft 365** está marcada.
+
+5. Se a caixa de seleção não estiver marcada, selecione-a e clique em **Salvar alterações**.
+
+   O registro de registros de auditoria para MailItemsAccessed, Send e outros eventos cruciais para o usuário começará em 24 horas.
+
+Para organizações que atribuem licenças a grupos de usuários usando o licenciamento baseado em grupo, é necessário desativar a atribuição de licenciamento da Auditoria avançada do Microsoft 365 do grupo. Depois de salvar as alterações, verifique se a Auditoria Avançada do Microsoft 365 está desativada para o grupo. Em seguida, ative novamente a atribuição de licenciamento do grupo. Para obter mais instruções do licenciamento baseado em grupo, consulte [Atribuir licenças a usuários por membro de grupo no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).
+
+Além disso, se você personalizou as ações de caixa de correio que estão conectadas às caixas de correio dos usuários ou compartilhadas, as novas ações da caixa de correio padrão, como MailItemsAccessed, não serão auditadas automaticamente nessas caixas de correio. Para obter informações sobre como alterar as ações da caixa de correio que são auditadas para cada tipo de logon, confira a seção "Alterar ou restaurar ações da caixa de correio registradas por padrão" em [Gerenciar auditoria de caixa de correio](enable-mailbox-auditing.md#change-or-restore-mailbox-actions-logged-by-default).
 
 ## <a name="faqs-for-advanced-audit"></a>Perguntas frequentes para Auditoria Avançada
 
