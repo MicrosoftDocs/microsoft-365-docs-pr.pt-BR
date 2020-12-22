@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: c405f2bf8d9700c9a0874ba9d921a290ae63de16
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.openlocfilehash: 9745a93139f591185e7457f5ba5c0b9b2fd56348
+ms.sourcegitcommit: 16e018f8b6eef5dad48eabf179691ead3cebe533
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719341"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49725172"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -282,7 +282,7 @@ Em um alto nível, você pode ter certeza de que a retenção sempre tem preced�
 
 Existem mais alguns fatores que determinam quando um item será excluído, que incluem a ação de exclusão a partir de um rótulo de retenção que sempre tem precedência sobre a ação de exclusão a partir de uma política de retenção.
 
-Use o fluxo a seguir para entender os resultados de retenção e exclusão para um único item, onde cada nível atua como um desempate de cima para baixo.
+Use o seguinte fluxo para entender os resultados de retenção e exclusão de um único item, onde cada nível atua no desempate de conflitos, de cima para baixo. Se o resultado for determinado pelo primeiro nível porque não há mais conflitos, não há necessidade de avançar para o nível seguinte e assim por diante.
 
 > [!IMPORTANT]
 > Se você estiver usando rótulos de retenção: Antes de usar este fluxo para determinar o resultado de várias configurações de retenção para o mesmo item, certifique-se de saber [qual rótulo de retenção está sendo aplicado](#only-one-retention-label-at-a-time).
@@ -341,7 +341,7 @@ Exemplos mais complexos que combinam ações de retenção e exclusão:
     
     **Resultado**: O item é retido por sete anos porque a retenção tem precedência sobre a exclusão e sete anos é o período de retenção mais longo. No final deste período de retenção, o item é excluído devido à ação de exclusão das políticas de retenção que foi adiada enquanto o item estava retido.
     
-    Embora as duas políticas de retenção tenham datas diferentes para as ações de exclusão, o mais cedo que o item pode ser excluído é no final do período de retenção mais longo, portanto, não há conflito a ser resolvido.
+    Embora as duas políticas de retenção tenham datas diferentes para as ações de exclusão, o mais cedo que o item pode ser excluído é ao final do período de retenção mais longo, que é mais longo do que ambas as datas de exclusão. Neste exemplo, não há conflito a ser resolvido para as datas de exclusão, portanto, todos os conflitos são resolvidos no segundo nível.
 
 2.  Um item tem as seguintes configurações de retenção aplicadas a ele:
     
@@ -349,7 +349,7 @@ Exemplos mais complexos que combinam ações de retenção e exclusão:
     - Uma política de retenção de escopo que mantém por cinco anos e depois exclui
     - Um rótulo de retenção que mantém por três anos e depois exclui
     
-    **Resultado**: O item é retido por cinco anos porque esse é o período de retenção mais longo. No final desse período de retenção, o item é excluído devido à ação de exclusão de três anos do rótulo de retenção que foi adiado enquanto o item era retido. A exclusão dos rótulos de retenção tem precedência sobre a exclusão de todas as políticas de retenção.
+    **Resultado**: O item será mantido por cinco anos porque esse é o período de retenção mais longo. No final desse período de retenção, o item é excluído devido à ação de exclusão de três anos do rótulo de retenção que foi adiado enquanto o item era retido. A exclusão dos rótulos de retenção tem precedência sobre a exclusão de todas as políticas de retenção. Neste exemplo, todos os conflitos são resolvidos no terceiro nível.
 
 ## <a name="use-preservation-lock-to-restrict-changes-to-policies"></a>Use o Bloqueio de Preservação para restringir mudanças nas políticas
 

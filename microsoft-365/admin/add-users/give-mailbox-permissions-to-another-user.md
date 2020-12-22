@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Saiba como oferecer ao usuário o direito de acessar a caixa de correio de outro usuário. Isso dará ao usuário o direito de ler e enviar emails da caixa de correio do outro usuário. '
-ms.openlocfilehash: 0b6977efbd6041a11c67ed66c9b7ecc72a38bde4
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: af12cfe3acad9e12ca3983c9fa13f52b72f0a467
+ms.sourcegitcommit: 16e018f8b6eef5dad48eabf179691ead3cebe533
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560370"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49725148"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Conceder permissões de caixa de correio para outro usuário - Ajuda para administradores
 
@@ -68,7 +68,7 @@ Há algumas maneiras diferentes que você pode acessar uma caixa de correio. Par
     
 2. Selecione o nome do usuário (do qual você pretende fornecer uma permissão de envio) para abrir o painel Propriedades.
     
-3. Na guia **email**, selecione**gerenciar permissões de caixa de correio**.
+3. Na guia **email**, selecione **gerenciar permissões de caixa de correio**.
 
 4. Ao lado de **enviar como**, selecione **editar**. 
 
@@ -114,13 +114,17 @@ Há algumas maneiras diferentes que você pode acessar uma caixa de correio. Par
     
 2. Selecione o nome do usuário (cuja caixa de correio deseja permitir a leitura) para abrir o painel propriedades dela.
     
-3. Na guia **email**, selecione**gerenciar permissões de caixa de correio**.
+3. Na guia **email**, selecione **gerenciar permissões de caixa de correio**.
     
 4. Ao lado de **ler e gerenciar**, selecione **editar**. 
     
 5. Selecione **Adicionar permissões**, digite o nome do usuário ou usuários para os quais você deseja conceder permissões para enviar emails a partir dessa caixa de correio.
 
 6. Selecione **Salvar**.
+
+
+> [!NOTE]
+> As permissões de **Leitura** e **Gerenciamento** são chamadas de permissão de **Acesso Total** quando concedidas no Centro de administração do Exchange. A permissão de Acesso Total não concede as permissões **Enviar como** ou **Enviar em Nome de**.
 
 ::: moniker-end
 
@@ -161,7 +165,7 @@ Há algumas maneiras diferentes que você pode acessar uma caixa de correio. Par
 
 2. Selecione o nome do usuário (do qual você planeja atribuir uma **permissão de envio**) para abrir o painel Propriedades.
     
-3. Na guia **email**, selecione**gerenciar permissões de caixa de correio**.
+3. Na guia **email**, selecione **gerenciar permissões de caixa de correio**.
     
 4. Ao lado de **enviar em nome**, selecione **editar**.
 
