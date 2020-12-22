@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados de CellTrust do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: 990f52eb48fcf031bda3c9f17884ff3d384afc55
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: 5870e823562f86b8b984e81fd03eeebd1b01f0ff
+ms.sourcegitcommit: a3215cc22faa47e935d22300c481e47ab2680b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620482"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "49722908"
 ---
 # <a name="set-up-a-connector-to-archive-celltrust-data"></a>Configurar um conector para arquivar dados de CellTrust
 
-Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma CellTrust para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector [CellTrust](https://globanet.com/celltrust/) configurado para capturar itens da fonte de dados de terceiros (em uma base regular) e importar esses itens para o Microsoft 365. O conector converte o conteúdo de mensagens do SMS de contas do CellTrust em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
+Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma CellTrust para caixas de correio do usuário na sua organização do Microsoft 365. Globanet fornece um conector [CellTrust](https://globanet.com/celltrust/) que captura itens da fonte de dados de terceiros e importa esses itens para o Microsoft 365. O conector converte o conteúdo de mensagens do SMS de contas do CellTrust em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
 Depois que os dados do CellTrust são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, eDiscovery, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso de um conector CellTrust para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
@@ -43,7 +43,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar dad
 
 - Crie uma conta do Merge1 para conectores da Microsoft. Para criar uma conta, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/contact-us/). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
-- O usuário que cria o conector CellTrust na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
+- O usuário que cria o conector CellTrust na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
 ## <a name="step-1-set-up-the-celltrust-connector"></a>Etapa 1: configurar o conector CellTrust
 

@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio do Microsoft 365.
-ms.openlocfilehash: 42835d103e027bd63687151554f811dc0945d46f
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 18fb9c757652cbebb456da18285444272766167f
+ms.sourcegitcommit: a3215cc22faa47e935d22300c481e47ab2680b44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682612"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "49722854"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -61,9 +61,12 @@ A tabela a seguir lista os conectores de dados de terceiros disponíveis no cent
 |[Rede <sup>1</sup> do O2](archive-o2-network-data.md)     |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Símbolos físico](import-physical-badging-data.md) ||||||![Marca de seleção](../media/checkmark.png)|
 |[Tabela dinâmica <sup>2</sup>](archive-pivot-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
+|[Redtail fala <sup>2</sup>](archive-redtailspeak-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Reuters lidando <sup>2</sup>](archive-reutersdealing-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Reuters EIKON <sup>2</sup>](archive-reuterseikon-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
+|[Salesforce (Salesforce) <sup>2</sup>](archive-salesforcechatter-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|||
+|[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|||
 |[Margem de atraso do eDiscovery <sup>2</sup>](archive-slack-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Symphony <sup>2</sup>](archive-symphony-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Rede <sup>1</sup> do Telus](archive-telus-network-data.md)    |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
@@ -76,6 +79,7 @@ A tabela a seguir lista os conectores de dados de terceiros disponíveis no cent
 |[Local de trabalho do Facebook <sup>2</sup>](archive-workplacefromfacebook-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[XIP <sup>2</sup>](archive-xip-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[XSLT/XML <sup>2</sup>](archive-xslt-xml-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|||
+|[Yieldbroker <sup>2</sup>](archive-yieldbroker-data.md)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 |[Compromissos de zoom <sup>2</sup>](archive-zoommeetings-data.md)     |![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)|![Marca de seleção](../media/checkmark.png)||
 ||||||||
 
