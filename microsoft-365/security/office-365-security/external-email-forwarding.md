@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 76cd560c3b97bb67d25d2e4ff2c219669c3d4f0d
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f75504941e8481d35458ad2ae6b5e8a72c5e8c8c
+ms.sourcegitcommit: a49338bde6923b13132c7b9e4c6bb75c14163c72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658876"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728183"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Controlar o encaminhamento de email externo automático no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Como administrador, você pode ter requisitos da empresa para restringir ou controlar mensagens encaminhadas automaticamente para destinatários externos (destinatários fora da sua organização). O encaminhamento de emails pode ser útil, mas também pode representar um risco de segurança devido à possível divulgação de informações. Os invasores podem usar essas informações para atacar sua organização ou seus parceiros.
+Como administrador, você pode ter requisitos da empresa para restringir ou controlar mensagens encaminhadas automaticamente para destinatários externos (destinatários fora da sua organização). O encaminhamento de emails pode ser um recurso útil, mas também pode representar um risco de segurança devido à possível divulgação de informações. Os invasores podem usar essas informações para atacar sua organização ou seus parceiros.
 
 Os seguintes tipos de encaminhamento automático estão disponíveis no Microsoft 365:
 

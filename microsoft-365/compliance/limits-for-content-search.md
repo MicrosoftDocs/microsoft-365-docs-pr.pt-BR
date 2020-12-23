@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: Saiba mais sobre os limites em vigor para o recurso de pesquisa de conteúdo no centro de conformidade & segurança no Office 365, como o número máximo de pesquisas simultâneas.
-ms.openlocfilehash: d43f0772c587dbdb49abdf9cf59fe02446f3d3a7
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: c62476b8cb50ca8931e62159ea946ec209ee491c
+ms.sourcegitcommit: 5713e69770ffbce4a98701579f467134dbc4bc0a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371521"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49727727"
 ---
 # <a name="limits-for-content-search-in-the-security--compliance-center"></a>Limites de pesquisa de conteúdo no centro de conformidade de & de segurança
 
@@ -41,8 +41,8 @@ A tabela a seguir lista os limites de pesquisa no centro de conformidade e segur
 |O número máximo de pesquisas de conteúdo que podem ser executadas ao mesmo tempo em sua organização.  <br/> |até  <br/> |
 |O número máximo de pesquisas de conteúdo que um único usuário pode iniciar ao mesmo tempo. Esse limite é muito semelhante quando o usuário tenta iniciar várias pesquisas usando o comando **Get-ComplianceSearch \| Start-ComplianceSearch** no PowerShell do centro de conformidade do &.  <br/> |10   <br/> |
 |O número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização durante a visualização dos resultados da pesquisa de conteúdo.  <br/> |100  <br/> |
-|O número máximo de itens encontrados em todas as caixas de correio de usuário que são exibidas na página de visualização durante a visualização dos resultados da pesquisa de conteúdo. Os itens mais recentes são exibidos.  <br/> |1,000  <br/> |
-|O número máximo de caixas de correio do usuário que podem ser visualizadas nos resultados da pesquisa. Se houver mais de 1000 caixas de correio que contenham conteúdo que corresponda à consulta de pesquisa, somente as primeiras caixas de correio de 1000 com a maioria dos resultados de pesquisa estarão disponíveis para visualização.  <br/> |1,000  <br/> |
+|O número máximo de itens encontrados em todas as caixas de correio de usuário que são exibidas na página de visualização durante a visualização dos resultados da pesquisa de conteúdo. Os itens mais recentes são exibidos.  <br/> |1.000  <br/> |
+|O número máximo de caixas de correio do usuário que podem ser visualizadas nos resultados da pesquisa. Se houver mais de 1000 caixas de correio que contenham conteúdo que corresponda à consulta de pesquisa, somente as primeiras caixas de correio de 1000 com a maioria dos resultados de pesquisa estarão disponíveis para visualização.  <br/> |1.000  <br/> |
 |O número máximo de itens encontrados em sites do SharePoint e do OneDrive for Business que são exibidos na página de visualização durante a visualização dos resultados da pesquisa de conteúdo. Os itens mais recentes são exibidos.  <br/> |200  <br/> |
 |O número máximo de sites (no SharePoint e no OneDrive for Business) que podem ser visualizados nos resultados da pesquisa. Se houver mais de 200 sites de total que contenham conteúdo que corresponda à consulta de pesquisa, somente os primeiros 200 sites com mais resultados de pesquisa estarão disponíveis para visualização.  <br/> |200  <br/> |
 |O número máximo de itens por caixa de correio de pasta pública que são exibidos na página de visualização durante a visualização dos resultados da pesquisa de conteúdo.  <br/> |100  <br/> |
@@ -50,9 +50,9 @@ A tabela a seguir lista os limites de pesquisa no centro de conformidade e segur
 |O número máximo de caixas de correio públicas que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contenham conteúdo que corresponda à consulta de pesquisa, somente as caixas de correio de pasta pública superior 500 com a maioria dos resultados da pesquisa estarão disponíveis para visualização.  <br/> |500  <br/> |
 |O número máximo de caracteres para a consulta de pesquisa (incluindo operadores e condições) para uma pesquisa de conteúdo.  <br/><br/> **Observação:** Esse limite entra em vigor depois que a consulta é expandida, o que significa que a consulta será expandida em relação a cada uma das palavras-chave. Por exemplo, se uma consulta de pesquisa tem 15 palavras-chave e parâmetros e condições adicionais, a consulta é expandida 15 vezes, cada uma com os outros parâmetros e condições na consulta. Portanto, mesmo que o número de caracteres na consulta de pesquisa possa estar abaixo do limite, é a consulta expandida que pode contribuir para exceder esse limite.  <br/> |**Caixas de correio:** 10.000  <br/> **Sites:** 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>2</sup> <br/> |
 |Número máximo de variantes retornadas ao usar um curinga de prefixo para pesquisar uma frase exata em uma consulta de pesquisa ou ao usar um caractere curinga de prefixo e o operador booliano **próximo** .  <br/> |10.000 <sup>3</sup> <br/> |
-|O número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo,  `time*` ,  `one*` ou  `set*` .  <br/> |3D  <br/> |
+|O número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo,  `time*` ,  `one*` ou  `set*` .  <br/> |3   <br/> |
 |O número máximo de caixas de correio em uma pesquisa de conteúdo que você pode excluir itens em uma ação de "pesquisa e limpeza" (usando o comando **New-ComplianceSearchAction-Purge** ). Se a pesquisa de conteúdo para a qual você está fazendo uma ação de limpeza tiver mais caixas de correio de origem do que esse limite, a ação de limpeza falhará. Para obter mais informações sobre pesquisa e limpeza, confira [Pesquisar e excluir mensagens de email em sua organização](search-for-and-delete-messages-in-your-organization.md).  <br/> |50.000  <br/> |
-|O número máximo de caixas de correio em uma pesquisa de conteúdo para a qual você pode exportar itens. Se a pesquisa de conteúdo que você está exportando tiver mais caixas de correio de origem do que esse limite, a exportação falhará. Para obter mais informações, consulte [Exportar resultados de pesquisa de conteúdo](export-search-results.md).  <br/> |100.000  <br/> |
+|O número máximo de locais em uma pesquisa de conteúdo para o qual você pode exportar itens. Se a pesquisa de conteúdo que você está exportando tiver mais locais do que esse limite, a exportação falhará. Para obter mais informações, consulte [Exportar resultados de pesquisa de conteúdo](export-search-results.md).  <br/> |100.000  <br/> |
 
 > [!NOTE]
 > <sup>1</sup> embora você possa Pesquisar um número ilimitado de caixas de correio em uma única pesquisa, só é possível baixar os resultados da pesquisa exportados de um máximo de 100.000 caixas de correio usando a ferramenta de exportação de descoberta eletrônica no centro de conformidade & segurança do Office 365 ou no centro de conformidade do Microsoft 365. Para baixar os resultados da pesquisa de mais de 100.000 caixas de correio, é necessário usar o PowerShell do centro de conformidade & segurança. Para obter mais informações e um script de exemplo, consulte [exportando resultados de mais de 100.000 caixas de correio](export-search-results.md#exporting-results-from-more-than-100000-mailboxes). <br/><br/> <sup>2</sup> ao pesquisar os locais do SharePoint e do onedrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados são contados em relação a esse limite. <br/><br/> <sup>3</sup> para consultas que não são de frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo,  `"time*"` pode expandir para  `"time OR timer OR times OR timex OR timeboxed OR …"` . 10.000 é o número máximo de variantes à qual a palavra pode ser expandida, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase. 
@@ -87,6 +87,6 @@ Há limites adicionais relacionados a diferentes aspectos da pesquisa de conteú
 
 Para obter informações sobre pesquisas de conteúdo, consulte:
   
-- [Pesquisa de conteúdo no Microsoft 365](content-search.md)
+- [Pesquisa de Conteúdo no Microsoft 365](content-search.md)
 
 - [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md)
