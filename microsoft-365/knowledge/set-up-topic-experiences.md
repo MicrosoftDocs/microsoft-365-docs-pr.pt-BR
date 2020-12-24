@@ -11,14 +11,20 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como configurar experiências de tópico no Microsoft 365
-ms.openlocfilehash: e11f0b75556a4a8ac0ffa40269d7166258128daf
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: df4dccead4b627a215ec7ebd11932aa0f2b6ac08
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698550"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731362"
 ---
 # <a name="set-up-topic-experiences-in-microsoft-365"></a>Configurar experiências de tópico no Microsoft 365
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LBp7]  
+
+</br>
 
 Você pode usar o centro de administração do Microsoft 365 para configurar e configurar [experiências de tópico](topic-experiences-overview.md). 
 
@@ -26,7 +32,7 @@ Você pode usar o centro de administração do Microsoft 365 para configurar e c
 
 Você deve ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar experiências de tópico.
 
-## <a name="set-up-topic-experiences"></a>Configurar experiências de tópico
+## <a name="set-up-topic-experiences"></a>Configurar Experiências de tópico
 
 Para configurar experiências de tópico no Microsoft 365
 
@@ -112,7 +118,7 @@ Selecione **Avançar**.
 
     ![Configurações aplicadas](../media/ksetup7.png)    
 
-## <a name="assign-licenses"></a>Atribua licenças
+## <a name="assign-licenses"></a>Atribuir licenças
 
 Depois de configurar as experiências de tópico, você deve atribuir licenças para os usuários que utilizarão experiências de tópico. Somente os usuários com uma licença podem ver informações sobre tópicos, incluindo realces, cartões de tópicos, páginas de tópicos e o tópico central. 
 

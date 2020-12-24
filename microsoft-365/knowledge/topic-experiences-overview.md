@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral das experiências de tópicos.
-ms.openlocfilehash: 9321f349056c1c4df36b6bd725214f3c6758cf6a
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 8b06dd016295c8b0712a7c18c2296a318cd826ba
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698774"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731314"
 ---
 # <a name="topic-experiences-overview-preview"></a>Visão geral da experiência do tópico (versão prévia)
 
@@ -26,7 +26,11 @@ ms.locfileid: "49698774"
 
 As experiências de tópico usam a tecnologia Microsoft AI, a Microsoft 365, o Delve, o Microsoft Graph, a pesquisa e outros componentes e serviços para criar uma rede de conhecimento em seu ambiente do Microsoft 365. 
 
-   ![Fluxo de gerenciamento de conhecimento](../media/knowledge-management/knowledge-management-flowchart.png) </br> 
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LhZP]  
+
+</br>
 
 Seu objetivo é converter informações em conhecimento e fornecê-las aos seus usuários em aplicativos que usam diariamente, como páginas modernas do SharePoint e pesquisa da Microsoft.
 

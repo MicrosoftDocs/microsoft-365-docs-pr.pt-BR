@@ -12,17 +12,24 @@ ms.collection: enabler-strategic
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: Saiba como encontrar recursos para experiências de tópico.
-ms.openlocfilehash: bc38e0a7310dd9c1d3787dbe6cabe646009d2bff
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 9141f6b445932234ebfa5a3d77833f64110ceeb4
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698783"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731338"
 ---
 # <a name="introduction-to-topic-experiences-preview"></a>Introdução às experiências de tópicos (versão prévia)
 
 > [!Note] 
 > O conteúdo deste artigo é para a visualização privada do Project Cortex. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LhZP]  
+
+</br>
+
 
 A experiência do tópico é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
 

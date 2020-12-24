@@ -11,17 +11,23 @@ ms.collection: enabler-strategic
 ms.service: ''
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9bce380e9e1380f2b2560762d2df37352251bf2b
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 809d3936ed27275873f63526e7dfc8f91a15a0cc
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698766"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731350"
 ---
 # <a name="edit-an-existing-topic-preview"></a>Editar um tópico existente (versão prévia)
 
 > [!Note] 
 > O conteúdo deste artigo é para a visualização privada do Project Cortex. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LA4n]  
+
+</br>
 
 No tópico experiências, você pode editar um tópico existente. Você pode precisar fazer isso se quiser corrigir ou adicionar informações adicionais a uma página de tópico existente. 
 
