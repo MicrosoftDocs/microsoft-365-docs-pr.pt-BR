@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: 6648a3a671e40dd5218eba1a1e8bafe42120f0de
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: 883fd65e3fba716018a1ed35cc457c2eb8f06c52
+ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830522"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49730162"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
@@ -109,7 +109,7 @@ Mensagem que um usuário vê se tentar excluir um documento rotulado no SharePoi
 > 
 > Devido a essas ações irreversíveis, certifique-se de que realmente precise usar registros regulatórios antes de selecionar essa opção para os seus rótulos de retenção. Para ajudar a evitar a configuração acidental, essa opção não está disponível por padrão, mas deve ser habilitada primeiro usando o Windows PowerShell. As instruções estão incluídas no [Declarar registros usando os rótulos de retenção](declare-records.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="configuration-guidance"></a>Instruções de configuração
 
 Confira [introdução ao gerenciamento de registros](get-started-with-records-management.md).
 

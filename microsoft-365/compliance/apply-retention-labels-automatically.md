@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar rótulos de retenção e políticas de rotulação automáticas, para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 766106e9c650047e37c9fa341bd2e78b390d814d
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: b4e1afbc520b7ec046b4af399e7c1c0cd094e8f9
+ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519449"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49730152"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -31,7 +31,7 @@ ms.locfileid: "49519449"
 > [!NOTE]
 > Não há suporte para esse cenário para [registros regulatórios](records-management.md#records).
 
-Um dos recursos mais avançados dos [rótulos de retenção](retention.md) é a capacidade de aplicá-los automaticamente ao conteúdo que atende a certas condições. Nesse caso, as pessoas em sua organização não precisam aplicar os rótulos de retenção, o Microsoft 365 faz isso por elas.
+Um dos recursos mais poderosos dos [rótulos de retenção](retention.md) é a capacidade de aplicá-los automaticamente ao conteúdo que corresponde a determinadas condições. Nesse caso, as pessoas da sua organização não precisam aplicar os rótulos de retenção. O Microsoft 365 faz o trabalho para elas.
   
 Os rótulos de retenção de aplicação automática são excelentes porque:
   
@@ -55,20 +55,21 @@ Use as instruções a seguir para as duas etapas de administrador.
 > [!NOTE]
 > As políticas automáticas usam o rotulamento do lado do serviço com condições para aplicar automaticamente os rótulos de retenção. Você também pode aplicar um rótulo de retenção automaticamente a uma política de rótulo ao fazer o seguinte: 
 >
-> - Aplicar um rótulo de retenção padrão para o SharePoint e o Outlook, para que o conteúdo não rotulado seja automaticamente rotulado
->- Aplicar automaticamente um rótulo de retenção ao email usando regras
+> - Aplicar um rótulo de retenção a um modelo de compreensão de documento no SharePoint Syntex
+> - Aplicar um rótulo de retenção padrão para o Microsoft Office SharePoint Online e o Outlook
+>- Aplicar um rótulo de retenção ao email usando regras do Outlook
 >
 > Nesses cenários, confira [Criar e aplicar rótulos de retenção em aplicativos](create-apply-retention-labels.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-O administrador global da sua organização tem permissões completas para criar e editar rótulos de retenção e suas políticas. Se você não estiver entrando como um administrador global, consulte [Permissões necessárias para criar e gerenciar as políticas e rótulos de retenção](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).
+O administrador global da sua organização tem permissões completas para criar e editar os rótulos de retenção e suas políticas. Se você não estiver entrando como um administrador global, confira [Permissões necessárias para criar e gerenciar políticas e rótulos de retenção](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).
 
 ## <a name="how-to-auto-apply-a-retention-label"></a>Como aplicar automaticamente um rótulo de retenção
 
-Primeiro, crie seu rótulo de retenção. Em seguida, crie uma política automática para aplicar esse rótulo. Se você já tiver criado seu rótulo de retenção, vá para [criar uma política automática](#step-2-create-an-auto-apply-policy).
+Primeiro, crie seu rótulo de retenção. Em seguida, crie uma política automática para aplicar esse rótulo. Se você já tiver criado seu rótulo de retenção, vá para [Criar uma política automática](#step-2-create-an-auto-apply-policy).
 
-As instruções de navegação dependem se você estiver usando o [gerenciamento de registros](records-management.md) ou não. São fornecidas instruções para ambos os cenários.
+As instruções de navegação dependem se você estiver usando o [gerenciamento de relatórios](records-management.md) ou não. São fornecidas instruções para ambos os cenários.
 
 ### <a name="step-1-create-a-retention-label"></a>Etapa 1: Criar uma política de retenção
 
@@ -78,17 +79,17 @@ As instruções de navegação dependem se você estiver usando o [gerenciamento
         - **Soluções** > **Gerenciamento de Registros** >  guia **Plano de Arquivos** > **+ Criar um Rótulo** > **Rótulo de Retenção**
         
     - Se você não estiver usando o gerenciamento de registros:
-       - **Soluções** > **Governança de informações** > **Rótulos** guia > + **Criar um rótulo**
+       - **Soluções** > **Governança de Informações** >  guia **Rótulos** > + **Criar um Rótulo**
     
-    Não vê essa opção imediatamente? Primeiro, selecione **Mostrar tudo**. 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
 
 2. Siga as instruções do assistente. Se você estiver usando o gerenciamento de registros:
     
-    - Para saber mais sobre os descritores de plano de arquivo, consulte [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md)
+    - Para saber mais sobre os descritores de plano de arquivo, confira [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md)
     
-    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, consulte [Configurar rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
+    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
 
-3. Depois de criar o rótulo, você verá as opções para publicar o rótulo, aplicar automaticamente a rótulo, ou apenas salvar o rótulo: Selecione **Aplicar o rótulo automaticamente a um tipo específico de conteúdo** e, em seguida, selecione **Concluído** para iniciar o assistente Criar rotulagem automática, que o levará diretamente para a etapa 2 do procedimento a seguir.
+3. Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar automaticamente a etiqueta, ou apenas salvar o rótulo: Selecione **Aplicar o rótulo automaticamente a um tipo específico de conteúdo** e, em seguida, selecione **concluído** para iniciar o assistente criar rotulagem automática, que o levará diretamente para a etapa 2 do procedimento a seguir.
 
 Para editar um rótulo existente, selecione-o e, em seguida, selecione **Editar rótulo** para iniciar o Assistente do editor de retenção que permite alterar as descrições de rótulo e quaisquer [configurações qualificadas](#updating-retention-labels-and-their-policies) na etapa 2.
 
@@ -102,9 +103,9 @@ Ao criar uma política de aplicação automática, selecione um rótulo de reten
         - **Soluções** > **Gerenciamento de Registros** guia  > **Políticas de Rótulo** > **Aplicar rótulo automaticamente**
     
     - Se você não estiver usando o gerenciamento de registros:
-        - **Soluções** > **Governança de informações** > **Políticas de rótulo** guia > **Aplicar rótulo automaticamente**
+        - **Soluções** > **Governança de Informações** >  guia **Políticas de Rótulo** > **Aplicar rótulo automaticamente**
     
-    Não vê essa opção imediatamente? Primeiro, selecione **Mostrar tudo**. 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
 
 2. Siga os avisos no assistente Criar rotulação automática.
     
@@ -112,7 +113,7 @@ Ao criar uma política de aplicação automática, selecione um rótulo de reten
     
     Para obter informações sobre os locais suportados pelos rótulos de retenção, confira a seção[Rótulos e locais de retenção](retention.md#retention-label-policies-and-locations).
 
-Para editar uma política de aplicação automática existente, selecione-a para iniciar o assistente de política de retenção Editar que permite alterar o rótulo de retenção selecionado e quaisquer [configurações elegíveis](#updating-retention-labels-and-their-policies) da etapa 2.
+Para editar uma política de aplicação automática existente, selecione-a para iniciar o assistente para editar política de retenção que permite alterar o rótulo de retenção selecionado e quaisquer [configurações elegíveis](#updating-retention-labels-and-their-policies) da etapa 2.
 
 Depois que o conteúdo é rotulado usando uma política de rótulo de aplicação automática, não é possível remover ou alterar automaticamente o rótulo aplicado, alterando o conteúdo ou a política ou uma nova política de aplicação automática. Para saber mais, consulte [Apenas um rótulo de retenção por vez](retention.md#only-one-retention-label-at-a-time).
 
