@@ -11,18 +11,18 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como configurar experiências de tópico no Microsoft 365
-ms.openlocfilehash: df4dccead4b627a215ec7ebd11932aa0f2b6ac08
-ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
+ms.openlocfilehash: 3ff822d863e99f7e52089d3efde3d597df9957c7
+ms.sourcegitcommit: 806536f859ac864228797f1f2f23b8f41040a6b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731362"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49735805"
 ---
 # <a name="set-up-topic-experiences-in-microsoft-365"></a>Configurar experiências de tópico no Microsoft 365
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LBp7]  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
 
 </br>
 
