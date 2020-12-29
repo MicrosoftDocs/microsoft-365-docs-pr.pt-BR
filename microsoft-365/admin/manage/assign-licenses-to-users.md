@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 description: Aprenda a atribuir licenças aos usuários.
 ms.date: 08/14/2020
-ms.openlocfilehash: ec2f9ae2e580987266c636343a66d7c21138e4c3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: fc5f9112a22d56abb9c11d61f4108586487b4986
+ms.sourcegitcommit: 806536f859ac864228797f1f2f23b8f41040a6b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645126"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49735793"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 
@@ -41,7 +41,7 @@ ms.locfileid: "48645126"
 
 ::: moniker range="o365-worldwide"
 
-Você pode atribuir licenças a usuários na página **Usuários ativos**ou na página **Licenças**. O método usado depende de você querer atribuir licenças do produto a usuários específicos ou atribuir licenças de usuários a um produto específico.
+Você pode atribuir licenças a usuários na página **Usuários ativos** ou na página **Licenças**. O método usado depende de você querer atribuir licenças do produto a usuários específicos ou atribuir licenças de usuários a um produto específico.
 
 ::: moniker-end
 
@@ -65,7 +65,7 @@ Ao usar a página **Licenças** para atribuir licenças, você atribui licenças
 3. Na página de detalhes do produto, selecione **Atribuir licenças**.
 4. No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
 5. Selecione **Ativar ou desativar os aplicativos e serviços** para atribuir ou remover o acesso a itens específicos.
-6. Quando tiver terminado, clique em **Atribuir**e depois em **Fechar**.
+6. Quando tiver terminado, clique em **Atribuir** e depois em **Fechar**.
 
 Se houver um conflito, será exibida uma mensagem informando qual é o problema e como corrigi-lo. Por exemplo, se você selecionou licenças que contêm serviços conflitantes, a mensagem de erro indicará revisar os serviços incluídos em cada licença e tentar novamente.
 
@@ -74,7 +74,7 @@ Se houver um conflito, será exibida uma mensagem informando qual é o problema 
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
 2. Na página **Licenças**, selecione a linha de um usuário específico.
 3. No painel direito, marque ou desmarque os aplicativos e serviços aos quais você deseja conceder acesso ou remover o acesso.
-4. Quando tiver terminado, selecione**Salvar**, e então selecione **Fechar**.
+4. Quando tiver terminado, selecione **Salvar**, e então selecione **Fechar**.
 
 ::: moniker-end
 
@@ -163,7 +163,7 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
 
 ## <a name="assign-a-license-to-a-guest-user"></a>Atribuir uma licença a um usuário convidado
 
-Você pode convidar usuários convidados para colaborar com sua organização no centro de administração do Azure Active Directory. Para saber mais sobre usuários convidados, confira [O que é acesso de usuário convidado no Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b) Se você não tiver nenhum usuário convidado, confira [Início Rápido: Adicionar usuários convidados ao seu diretório no portal do Azure](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
+É possível convidar usuários convidados para colaborar com sua organização no centro de administração do Azure Active Directory. Para saber mais sobre os usuários convidados, confira [O que é acesso de usuário convidado no Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b). Se você não tiver nenhum usuário convidado, confira [Início Rápido: Adicionar usuários convidados ao seu diretório no portal do Azure](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
 
 > [!IMPORTANT]
 > Você terá de ser um administrador global para executar essas etapas.
