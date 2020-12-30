@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 253e85da7bb85a0722831851f00051a50a96153e
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 61ac8c627dd701ac354a5d60d4774a6443b4d41e
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688406"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737982"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
@@ -37,7 +37,7 @@ A pontuação segura da Microsoft pode ser encontrada em https://security.micros
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
-### <a name="added-6-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas 6 ações de melhoria relacionadas a contas para o Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas seis ações de melhoria relacionadas a contas para o Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
 
 - Defina ' comprimento mínimo da senha ' para ' 14 ou mais caracteres '
 - Defina ' Aplicar histórico de senhas ' como ' 24 ou mais senha (s) '
@@ -52,7 +52,7 @@ A pontuação segura da Microsoft pode ser encontrada em https://security.micros
 
 A capacidade de criar ingressos do ServiceNow por meio de Pontuação segura, indo para **compartilhar > o ServiceNow** não está mais disponível. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
-### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas 3 ações de melhoria relacionadas aos serviços para o Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas três ações de melhoria relacionadas aos serviços para o Microsoft defender para ponto de extremidade (anteriormente Microsoft defender ATP):
 
 - Corrigir o caminho de serviço sem cotação para os serviços do Windows
 - Alterar o caminho do executável do serviço para um local protegido comum

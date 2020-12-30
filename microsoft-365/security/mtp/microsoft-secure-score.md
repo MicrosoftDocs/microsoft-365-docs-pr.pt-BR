@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 7fe5be065ee45700a1f08a39c8050757c3843f7b
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 6e9dd214e53e3fdd601fe51e5522a3a24a7fd3d0
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682566"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737994"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -50,7 +50,7 @@ As organizações obtêm acesso a visualizações robustas de métricas e tendê
 Você tem pontos para as seguintes ações:
 
 - Configurando recursos de segurança recomendados
-- Executando tarefas relacionadas à segurança
+- Executar tarefas relacionadas à segurança
 - Lidando com a ação de melhoria com um aplicativo ou software de terceiros, ou uma atenuação alternativa
 
 Algumas ações de melhoria só dão pontos quando totalmente concluídas. Alguns dão pontos parciais se eles forem concluídos para alguns dispositivos ou usuários. Se não for possível ou não quiser enactr uma das ações de aperfeiçoamento, você pode optar por aceitar o risco ou o risco restante.
@@ -65,7 +65,6 @@ Sua pontuação é atualizada em tempo real para refletir as informações apres
 - [Comparar sua pontuação com organizações como a sua](microsoft-secure-score-history-metrics-trends.md#compare-your-score-to-organizations-like-yours)
 - [Exibir ações de aprimoramento e decidir um plano de ação](microsoft-secure-score-improvement-actions.md#take-action-to-improve-your-score)
 - [Iniciar fluxos de trabalho para investigar ou implementar](microsoft-secure-score-improvement-actions.md#view-improvement-action-details)
-    - [Centro de segurança do Microsoft 365 e integração com o ServiceNow](tickets-security-center.md)
 
 ### <a name="how-improvement-actions-are-scored"></a>Como as ações de aperfeiçoamento são pontuadas
 
@@ -75,11 +74,19 @@ Por exemplo, uma ação de melhoria diz que você obtém 10 pontos protegendo to
 
 ### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
 
-No momento, há recomendações para o Microsoft 365 (incluindo o Exchange Online), o Azure Active Directory, o Microsoft defender para ponto de extremidade, o Microsoft defender para identidade e o Cloud app Security. As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou como atenuação alternativa.
+No momento, há recomendações para os seguintes produtos:
+
+- Microsoft 365 (incluindo o Exchange Online)
+- Azure Active Directory
+- Microsoft Defender para Ponto de Extremidade
+- Microsoft Defender para Identidade?
+- Segurança no Aplicativo na Nuvem
+
+As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou como atenuação alternativa.
 
 ### <a name="security-defaults"></a>Padrões de segurança
 
-A pontuação segura da Microsoft atualiza as ações de aperfeiçoamento para suportar os [padrões de segurança no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), o que facilita a proteção da organização com configurações de segurança pré-configuradas para ataques comuns.
+A pontuação segura da Microsoft atualiza as ações de aperfeiçoamento para suportar [os padrões de segurança no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), o que facilita a proteção da sua organização com configurações de segurança pré-configuradas para ataques comuns.
 
 Se você ativar os padrões de segurança, receberá pontos completos para as seguintes ações de aprimoramento:
 
@@ -117,7 +124,7 @@ Com acesso somente leitura, não é possível editar o status ou as anotações 
 
 ## <a name="risk-awareness"></a>Reconhecimento de risco
 
-A pontuação segura da Microsoft é um resumo numérico de sua postura de segurança com base nas configurações do sistema, no comportamento do usuário e em outras medidas relacionadas à segurança. Não é uma medida absoluta da probabilidade de que seu sistema ou dados seja violado. Em vez disso, ele representa a extensão à qual você adotou os controles de segurança no seu ambiente Microsoft que podem ajudar a reduzir o risco de ser violado. Nenhum serviço online é totalmente imune às brechas de segurança e a pontuação segura não deve ser interpretada como uma garantia contra violação de segurança de qualquer forma.
+A pontuação segura da Microsoft é um resumo numérico de sua postura de segurança com base nas configurações do sistema, no comportamento do usuário e em outras medidas relacionadas à segurança. Não é uma medida absoluta da probabilidade de que seu sistema ou dados seja violado. Em vez disso, ele representa a extensão à qual você adotou os controles de segurança no seu ambiente Microsoft que podem ajudar a reduzir o risco de ser violado. Nenhum serviço online está imune a brechas de segurança e a pontuação segura não deve ser interpretada como uma garantia contra violação de segurança de qualquer forma.
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir de você
 

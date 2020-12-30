@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 8ebfe5746a69cc0161c38f0467954fabb3839240
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: c463e375594b3581486cb8d4bdd380412e195b2e
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683338"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49738006"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar a postura de segurança com a pontuação segura da Microsoft
 
@@ -42,13 +42,13 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 >[!NOTE]
 >Na versão recente da Pontuação de segurança da Microsoft, foi lançado um modelo de Pontuação aprimorado que tornou a pontuação segura da Microsoft temporariamente incompatível com a pontuação segura de identidade e a API do Graph. [Exibir detalhes](microsoft-secure-score-whats-new.md)
 
-Na página da visão geral de Pontuação segura da Microsoft, veja como os pontos são divididos entre esses grupos e que pontos estão disponíveis. Você também pode obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
+Na página Microsoft Secure Score Overview, veja como os pontos são divididos entre esses grupos e que pontos estão disponíveis. Você também pode obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
 ![Home Page de Pontuação segura](../../media/secure-score/secure-score-homepage-new.png)
 
 ## <a name="check-your-current-score"></a>Verificar sua pontuação atual
 
-Para verificar sua pontuação atual, vá para a página de visão geral de Pontuação segura da Microsoft e procure o bloco que diz **sua pontuação segura**. Sua pontuação será mostrada como uma porcentagem, juntamente com o número de pontos obtidos de um total de pontos possíveis.
+Para verificar sua pontuação atual, vá para a página de visão geral de Pontuação segura da Microsoft e procure o bloco que diz **sua pontuação segura**. Sua pontuação será mostrada como uma porcentagem, juntamente com o número de pontos que você alcançou do total de pontos possíveis.
 
 Além disso, se você selecionar o botão **incluir** ao lado da sua pontuação, poderá escolher modos de exibição diferentes da sua pontuação. Esses modos de exibição de Pontuação diferentes serão exibidos no gráfico no bloco de pontos e no gráfico de divisão de pontos.
 
@@ -74,14 +74,15 @@ A classificação baseia-se no número de pontos restantes para atingir, dificul
 
 Quando você seleciona uma ação de aprimoramento específica, um submenu de página inteira aparece.  
 
-![Exemplo de submenu de ação de melhoria ](../../media/secure-score/secure-score-improvement-action-details.png)
- *Figura 2: exemplo de submenu de ação de melhoria*
+![Exemplo de submenu de ação de melhoria](../../media/secure-score/secure-score-improvement-action-details.png)
 
 Para concluir a ação, você tem algumas opções:
 
-* Selecione **gerenciar** para ir para a tela de configuração e fazer a alteração. Em seguida, você obterá os pontos que a ação vale a pena, visível no surgimento. Os pontos geralmente levam cerca de 24 horas para atualização.
+- Selecione **gerenciar** para ir para a tela de configuração e fazer a alteração. Em seguida, você obterá os pontos que a ação vale a pena, visível no surgimento. Os pontos geralmente levam cerca de 24 horas para atualização.
 
-* Selecione **compartilhar** para copiar o link direto para a ação de aprimoramento. Você também pode escolher a plataforma para compartilhar o link, como email, Microsoft Teams, Microsoft Planner ou ServiceNow. Selecionar o ServiceNow permitirá que você crie um tíquete de alteração que ficará visível no ServiceNow e na página inicial da central de segurança do Microsoft 365. Para saber mais, confira [centro de segurança do Microsoft 365 e integração com o ServiceNow](tickets-security-center.md).
+- Selecione **compartilhar** para copiar o link direto para a ação de aprimoramento. Você também pode escolher a plataforma para compartilhar o link, como email, Microsoft Teams, Microsoft Planner ou ServiceNow. Selecionar o ServiceNow permitirá que você crie um tíquete de alteração que ficará visível no ServiceNow e na página inicial da central de segurança do Microsoft 365. Para saber mais, confira [centro de segurança do Microsoft 365 e integração com o ServiceNow](tickets-security-center.md).
+
+Adicione **anotações** para acompanhar o progresso ou qualquer outra coisa que você queira comentar. Se você adicionar suas próprias **marcas** à ação de aperfeiçoamento, poderá filtrar por essas marcas.
 
 ### <a name="choose-an-improvement-action-status"></a>Escolher um status de ação de melhoria
 
@@ -94,23 +95,23 @@ Escolha qualquer status e registre as anotações específicas da ação de apri
 
 #### <a name="threat--vulnerability-management-improvement-actions"></a>Ações de melhoria de gerenciamento de vulnerabilidade & ameaça
 
-Para ações de melhoria na categoria "dispositivo", você não poderá escolher status. Em vez disso, você será direcionado para a [recomendação de segurança TVM (gerenciamento de vulnerabilidades) associada à & ameaça](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) no centro de segurança do [Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use) para executar a ação. A exceção que você escolhe e a justificação que você escreve serão específicas desse portal. Ele não estará presente no portal de Pontuação segura da Microsoft.
+Para ações de melhoria na categoria "dispositivo", você não pode escolher status. Em vez disso, você será direcionado para a recomendação associada de [segurança e gerenciamento de vulnerabilidades](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) no [centro de segurança do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use) para executar a ação. A exceção que você escolhe e a justificação que você escreve serão específicas desse portal. Ele não estará presente no portal de Pontuação segura da Microsoft.
 
 #### <a name="completed-improvement-actions"></a>Ações de aperfeiçoamento concluídas
 
-Ações de melhoria têm um status de "concluído" uma vez que todos os pontos possíveis para a ação de aprimoramento foram atingidos. Ações de aperfeiçoamento concluídas são confirmadas por meio de dados da Microsoft, e você não poderá alterar o status.
+Ações de melhoria têm um status de "concluído" uma vez que todos os pontos possíveis para a ação de aprimoramento foram atingidos. Ações de aperfeiçoamento concluídas são confirmadas por meio de dados da Microsoft, e você não pode alterar o status.
 
 ### <a name="assess-information-and-review-user-impact"></a>Avaliar informações e analisar o impacto do usuário
 
 A seção chamada **em um relance** informará a categoria, os ataques que ela pode proteger contra o e o produto.
 
-O **impacto do usuário** mostra o que os usuários terão de enfrentar se a ação de aprimoramento for executada, e **os usuários afetados** mostrarão o que perceberão.
+O **impacto do usuário** é o que os usuários terão quando a ação de aprimoramento for executada, e **os usuários afetados** serão aqueles que serão afetados.
 
 ### <a name="implement-the-improvement-action"></a>Implementar a ação de melhoria
 
 A seção **implementação** mostra todos os pré-requisitos, as próximas etapas passo a passo para concluir a ação de melhoria, o status de implementação atual da ação de aprimoramento e todos os mais links para mais informações.
 
-Os pré-requisitos incluem todas as licenças que precisam ser obtidas ou ações que precisam ser concluídas para que a ação de aprimoramento seja resolvida. Certifique-se de que você tem estações suficientes em sua licença para concluir a ação de melhoria e que essas licenças são aplicadas aos usuários necessários.  
+Os pré-requisitos incluem todas as licenças necessárias ou ações a serem concluídas antes de a ação de aprimoramento ser resolvida. Certifique-se de que você tem estações suficientes em sua licença para concluir a ação de melhoria e que essas licenças são aplicadas aos usuários necessários.  
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir de você
 
