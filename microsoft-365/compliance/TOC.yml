@@ -589,7 +589,7 @@
           items:
             - name: Adicionar custodiantes a uma ocorrência
               href: add-custodians-to-case.md
-            - name: Adição em massa de custodiantes a uma ocorrência
+            - name: Importe vários custodiantes para um caso
               href: bulk-add-custodians.md
             - name: Gerenciar custodiantes
               href: manage-new-custodians.md
