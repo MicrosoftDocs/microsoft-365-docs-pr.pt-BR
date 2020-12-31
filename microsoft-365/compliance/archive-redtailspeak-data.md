@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar Redtail falar dados do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: 546298288e69746856a1250cc4b87643dd479c91
-ms.sourcegitcommit: a3215cc22faa47e935d22300c481e47ab2680b44
+ms.openlocfilehash: ee1e5c63d8990d5847241dc0ab4a88ed19e3215f
+ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49722926"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49740288"
 ---
-# <a name="set-up-a-connector-to-archive-redtail-speak-data-preview"></a>Configurar um conector para arquivar dados de fala Redtail (visualização)
+# <a name="set-up-a-connector-to-archive-redtail-speak-data"></a>Configurar um conector para arquivar dados de fala Redtail
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados das caixas de correio do Redtail falar com o usuário na sua organização do Microsoft 365. O Globanet fornece um conector de [fala do Redtail](https://globanet.com/redtail/) que é configurado para capturar itens do servidor SFTP da sua organização onde os itens são recebidos do Redtail. O conector converte o conteúdo de Redtail fala para um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 
@@ -31,7 +31,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar os 
 
 ![Fluxo de trabalho de arquivamento para dados de fala do Redtail](../media/RedtailSpeakConnectorWorkflow.png)
 
-1. Sua organização funciona com o Redtail fala para configurar e configurar um gateway SMTP onde as mensagens diárias são encaminhadas de Redtail fala para seu servidor de organizações SFTP.
+1. Sua organização funciona com o Redtail fala para configurar e configurar um gateway SMTP onde as mensagens são encaminhadas de Redtail fala para o servidor SFTP da sua organização diariamente.
 
 2. Uma vez a cada 24 horas, os itens de fala Redtail são copiados para o site do Globanet Merge1. O conector também converte os itens de fala Redtail em um formato de mensagem de email.
 
@@ -43,7 +43,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar os 
 
 - Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para criar uma conta, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/contact-us/). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
-- Na etapa, você precisa especificar o servidor SFTP da sua organização. Isso é necessário para que o Globanet Merge1 possa contatá-lo para coletar dados de fala do Redtail via SFTP.
+- Na etapa 2, você precisa especificar o servidor SFTP da sua organização. Isso é necessário para que o Globanet Merge1 possa contatá-lo para coletar dados de fala do Redtail via SFTP.
 
 - O usuário que cria o conector de Redtail Speak conporter na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página conectores de dados no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 

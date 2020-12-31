@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados de Salesforce informativos de Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: 60d86cd01ef8da3a02839d4a3f815be02dc1ee01
-ms.sourcegitcommit: a3215cc22faa47e935d22300c481e47ab2680b44
+ms.openlocfilehash: 518eb38756d86812a8b3d41e4bc2cd46d5a23386
+ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49722929"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49740308"
 ---
-# <a name="set-up-a-connector-to-archive-salesforce-chatter-data-preview"></a>Configurar um conector para arquivar dados de Salesforce informativos (visualização)
+# <a name="set-up-a-connector-to-archive-salesforce-chatter-data"></a>Configurar um conector para arquivar dados de Salesforce informativos
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma do Salesforce para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector do [Salesforce](http://globanet.com/chatter/) que captura itens da fonte de dados de terceiros e importa esses itens para o Microsoft 365. O conector converte o conteúdo como chats, anexos e postagens do Salesforce informativos em um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 

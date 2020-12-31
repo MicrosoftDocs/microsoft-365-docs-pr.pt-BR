@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados do ServiceNow do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: 4139e66cc1554b7a7306c6076fd8475fe47f5cf5
-ms.sourcegitcommit: a3215cc22faa47e935d22300c481e47ab2680b44
+ms.openlocfilehash: 99b1f64bdb1d977816d4881fa633d77acd60952c
+ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49722919"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49740328"
 ---
-# <a name="set-up-a-connector-to-archive-servicenow-data-preview"></a>Configurar um conector para arquivar dados do ServiceNow (visualização)
+# <a name="set-up-a-connector-to-archive-servicenow-data"></a>Configurar um conector para arquivar dados do ServiceNow
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados da plataforma do ServiceNow para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector do [ServiceNow](https://globanet.com/servicenow/) que captura itens da fonte de dados de terceiros e importa esses itens para o Microsoft 365. O conector converte o conteúdo, como mensagens dinâmicas, anexos e postagens do ServiceNow em um formato de mensagem de email e, em seguida, importa esses itens para caixas de correio do usuário no Microsoft 365.
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como exibir detalhes, editar e em massa editar a lista de responsáveis em uma ocorrência de descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 95b7a7dbec5656a1ac0692ed465eb5a99d7ca11a
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: a1e9e9d481073c8bb2827d5d65537dbf2b63ef1f
+ms.sourcegitcommit: 555b200b618085706dabf8648d27fb6d6427cfce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024801"
+ms.lasthandoff: 12/30/2020
+ms.locfileid: "49739864"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
 
@@ -77,7 +77,7 @@ Para exibir os detalhes sobre um responsáveis, clique no responsáveis da lista
 
 Para atualizar as fontes de dados associadas a um responsáveis:
 
-1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
+1. Vá para  **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
   
 2. Clique na guia **fontes** .
   
@@ -89,7 +89,7 @@ Para atualizar as fontes de dados associadas a um responsáveis:
   
 5. Clique na guia **selecionar fontes de dados adicionais** para adicionar ou remover as caixas de correio do Teams, SharePoint ou Exchange associadas aos responsáveis. 
 
-    Para obter mais informações sobre fontes de dados associadas a um funcionário, consulte "etapa 3: associar fontes de dados adicionais a um funcionário" em [Adicionar responsáveis a um caso](add-custodians-to-case.md#step-3-associate-additional-data-sources-to-a-custodian). 
+    Para obter mais informações sobre fontes de dados associadas a um responsáveis, confira [Adicionar responsáveis a um caso](add-custodians-to-case.md). 
   
 6. Clique em **colocar custodial isenções** para habilitar ou desabilitar a retenção para os responsáveis.
 
@@ -101,7 +101,7 @@ Quando um Objecté adicionado a uma ocorrência, os dados localizados nas fontes
 
 Para acionar o processo de reindexação para lidar com itens parcialmente indexados:
 
-1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
+1. Vá para  **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
 
 2. Clique na guia **fontes** .
 
@@ -113,7 +113,7 @@ Para acionar o processo de reindexação para lidar com itens parcialmente index
 
 A reindexação dos dados dos responsáveis é um processo de execução demorada; o trabalho correspondente criado é chamado **de reindexação dos dados dos responsáveis**. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **responsáveis** monitorando o status na coluna **status do trabalho de indexação** .
 
-Para saber mais, veja:
+Para saber mais, confira:
 
 - [Trabalhar com erros de processamento](processing-data-for-case.md)
 
@@ -127,7 +127,7 @@ Se você liberar um dos responsáveis após um aviso de isenção ter sido publi
 
 Para liberar um responsáveis: 
 
-1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
+1. Vá para  **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
 
 2. Clique na guia **fontes** .
 

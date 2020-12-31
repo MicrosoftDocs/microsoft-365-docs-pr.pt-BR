@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar e arquivar dados de Yieldbroker do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: 1591198dae3a7a5082c4f8f7ba925eb9e6dd680b
-ms.sourcegitcommit: a3215cc22faa47e935d22300c481e47ab2680b44
+ms.openlocfilehash: 34ce7686e6fdf418257265d707eda7eed3cab026
+ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49722918"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49740318"
 ---
-# <a name="set-up-a-connector-to-archive-yieldbroker-data-preview"></a>Configurar um conector para arquivar dados de Yieldbroker (visualização)
+# <a name="set-up-a-connector-to-archive-yieldbroker-data"></a>Configurar um conector para arquivar dados de Yieldbroker
 
 Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados do Yieldbroker para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um conector [Yieldbroker](https://globanet.com/yieldbroker/) configurado para capturar itens da fonte de dados de terceiros e importar esses itens para o Microsoft 365. O conector converte o conteúdo de Yieldbroker para um formato de mensagem de email e, em seguida, importa esses itens para a caixa de correio do usuário no Microsoft 365.
 

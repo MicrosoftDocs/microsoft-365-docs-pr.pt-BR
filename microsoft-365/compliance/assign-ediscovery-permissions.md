@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4271d7cc7a9c9239aadb8ca2357e000f4f45e80
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 4b95d81114e60c9d805b90b007d40d4c1a2e62b1
+ms.sourcegitcommit: 555b200b618085706dabf8648d27fb6d6427cfce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682602"
+ms.lasthandoff: 12/30/2020
+ms.locfileid: "49739784"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -41,7 +41,7 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
   
   - Gerencie qualquer caso de descoberta eletrônica após eles se adicionarem como um membro do caso.
   
-  Consulte a seção [mais informações](#more-information) por razões pelas quais você pode querer administradores de descoberta eletrônica em sua organização.
+  Por razões pelas quais você pode querer administradores de descoberta eletrônica em sua organização, confira [mais informações](#more-information).
 
 > [!NOTE]
 > Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 E5 ou do Microsoft 365 e5. Como alternativa, os usuários com uma licença do Office 365 E1 ou do Office 365 ou do Microsoft 365 E3 podem ser atribuídos a uma licença de Microsoft 365 E5 Compliance ou Microsoft 365 eDiscovery and Audit Add-on. Administradores, responsáveis pela conformidade ou pessoal legal que são atribuídos a casos como membros e usam a descoberta eletrônica avançada para coletar, exibir e analisar dados não precisam de uma licença e5. Para obter mais informações sobre licenciamento de descoberta eletrônica avançada, confira [introdução à descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md).
@@ -50,7 +50,7 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
 
 - Você precisa ser membro do grupo de função gerenciamento da organização ou receber a função de gerenciamento de função para atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança.
 
-- Você pode usar o cmdlet [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember) no centro de segurança & conformidade para adicionar um grupo de segurança habilitado para email como membro do subgrupo gerenciadores de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica. No entanto, não é possível adicionar um grupo de segurança habilitado para email ao subgrupo administradores de descoberta eletrônica. Para obter detalhes, consulte a seção [mais informações](#more-information) . 
+- Você pode usar o cmdlet [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember) no centro de segurança & conformidade para adicionar um grupo de segurança habilitado para email como membro do subgrupo gerenciadores de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica. No entanto, não é possível adicionar um grupo de segurança habilitado para email ao subgrupo administradores de descoberta eletrônica. Para obter detalhes, consulte [more information](#more-information). 
   
 ## <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -69,19 +69,19 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
 > [!NOTE]
 > Você também pode usar o cmdlet **Add-eDiscoveryCaseAdmin** para tornar um usuário um administrador de descoberta eletrônica. No entanto, o usuário deve ter a função de gerenciamento de casos atribuída para que você possa usar este cmdlet para torná-los um administrador de descoberta eletrônica. Para obter mais informações, consulte [Add-eDiscoveryCaseAdmin](https://go.microsoft.com/fwlink/p/?LinkID=798217). 
   
-Na página **permissões** no centro de conformidade de & de segurança, você também pode atribuir permissões relacionadas a eDiscovery dos usuários adicionando-as aos grupos de função Administrador de conformidade, gerenciamento de organização e revisor. Para obter uma descrição das funções RBAC relacionadas à descoberta eletrônica atribuídas a cada um desses grupos de função, consulte a seção [funções RBAC relacionadas a descoberta eletrônica](#rbac-roles-related-to-ediscovery) .
+Na página **permissões** no centro de conformidade de & de segurança, você também pode atribuir permissões relacionadas a eDiscovery dos usuários adicionando-as aos grupos de função Administrador de conformidade, gerenciamento de organização e revisor. Para obter uma descrição das funções RBAC relacionadas à descoberta eletrônica atribuídas a cada um desses grupos de função, confira [funções RBAC relacionadas a descoberta eletrônica](#rbac-roles-related-to-ediscovery).
 
 ## <a name="rbac-roles-related-to-ediscovery"></a>Funções RBAC relacionadas à descoberta eletrônica
 
 A tabela a seguir lista as funções RBAC relacionadas à descoberta eletrônica no centro de conformidade de & de segurança e indica os grupos de função internos aos quais cada função é atribuída por padrão.
   
-|**Função**|**Administrador de Conformidade**|**Administrador & do Gerenciador de descoberta eletrônica**|**Organization Management**|**Revisor**|
+| Role | Administrador de Conformidade | Administrador & do Gerenciador de descoberta eletrônica | Gerenciamento de Organização | Revisor |
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |Gerenciamento de casos <br/> |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> |
 |Comunicação <br/> | <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> | <br/> |
 |Pesquisa de Conformidade <br/> |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> |
 |Custodian <br/> | <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> | <br/> |
-|Exportação <br/> | <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> | <br/> |
+|Exportar <br/> | <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> | <br/> |
 |Retenção <br/>  |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> |
 |Visualização <br/>  | <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> | <br/> |
 |Analisar <br/>  | <br/> |![Marca de seleção](../media/checkmark.png) <br/> | <br/> |![Marca de seleção](../media/checkmark.png) <br/> |
@@ -123,7 +123,7 @@ Essa função permite que os usuários identifiquem e gerenciem os responsáveis
 
 Para obter mais informações, consulte [trabalhar com os responsáveis na descoberta eletrônica avançada](managing-custodians.md).
 
-### <a name="export"></a>Exportação
+### <a name="export"></a>Exportar
 
 A função permite que os usuários exportem os resultados de uma pesquisa de conteúdo para um computador local. Ele também permite que eles preparam resultados de pesquisa para análise na descoberta eletrônica avançada.
 
@@ -137,7 +137,7 @@ Para obter mais informações sobre isenções, consulte:
 
 - [Criar uma retenção na descoberta eletrônica principal](create-ediscovery-holds.md) 
 
-- [Criar uma retenção na descoberta eletrônica avançada](add-custodians-to-case.md#step-4-place-custodians-on-hold)
+- [Criar uma retenção na descoberta eletrônica avançada](add-custodians-to-case.md)
 
 ### <a name="preview"></a>Visualização
 
@@ -172,7 +172,7 @@ Essa função permite que os usuários realizem a remoção em massa de dados qu
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Não há suporte para grupos de distribuição do Exchange e grupos do Microsoft 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online usando o `New-DistributionGroup -Type Security` comando. Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email esteja disponível para ser adicionada ao grupo de função gerentes de descoberta eletrônica. 
+    Não há suporte para grupos de distribuição do Exchange e grupos do Microsoft 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online executando o `New-DistributionGroup -Type Security` . Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email esteja disponível para ser adicionada ao grupo de função gerentes de descoberta eletrônica. 
 
     Além disso, como declarado anteriormente, você não pode tornar um grupo de segurança habilitado para email em um administrador de descoberta eletrônica usando o cmdlet **Add-eDiscoveryCaseAdmin** no PowerShell do centro de conformidade e segurança &. Você só pode adicionar usuários individuais como administradores de descoberta eletrônica.
 
