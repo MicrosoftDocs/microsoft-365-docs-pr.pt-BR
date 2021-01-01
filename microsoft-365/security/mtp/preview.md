@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4c731869d1ec1740f8c9173705f9af72b0e2fe53
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 15f599f425e20540f5f7889efa632f5a9f11a4e8
+ms.sourcegitcommit: 25ac2736a66bb72c0d574c3fbde7472ac98d5321
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844747"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49741052"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Recursos do Microsoft 365 defender Preview
 
@@ -34,7 +34,7 @@ ms.locfileid: "48844747"
 >As versões de visualização são fornecidas sem um contrato de nível de serviço e não são recomendadas para cargas de trabalho de produção. Alguns recursos podem não ter suporte ou podem ter recursos restritos.
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 O Microsoft 365 defender Service é constantemente atualizado para incluir novos recursos e aprimoramentos de recursos.
 
@@ -62,6 +62,8 @@ Você saberá que tem prévia dos recursos ativados quando vir que a caixa de se
 Os recursos e aprimoramentos a seguir estão disponíveis em prévia:
 
 - **[APIs do microsoft 365 defender](api-overview.md)** -as APIs do lop Microsoft 365 defender permitirão automatizar fluxos de trabalho com base no incidente compartilhado e nas tabelas de busca avançada. 
-- **[Execute uma ação em busca avançada](advanced-hunting-take-action.md)** , confira rapidamente as ameaças ou atenda aos ativos comprometidos que você encontra em [busca avançada](advanced-hunting-overview.md).
-- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — Obtenha informações sobre tabelas de esquema de busca avançada diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência inclui tipos de eventos com suporte ( `ActionType` valores) e consultas de amostra.
+- **[Execute uma ação em busca avançada](advanced-hunting-take-action.md)**, confira rapidamente as ameaças ou atenda aos ativos comprometidos que você encontra em [busca avançada](advanced-hunting-overview.md).
+- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**— Obtenha informações sobre tabelas de esquema de busca avançada diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência inclui tipos de eventos com suporte ( `ActionType` valores) e consultas de amostra.
+- **[Função DeviceFromIP ()](advanced-hunting-devicefromip-function.md)**— Obtém informações sobre quais dispositivos foram atribuídos a um endereço IP específico ou endereços em um determinado intervalo de tempo.
+
 
