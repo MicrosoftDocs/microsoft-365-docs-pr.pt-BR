@@ -223,6 +223,8 @@
                   items:
                     - name: AssignedIPAddresses()
                       href: mtp/advanced-hunting-assignedipaddresses-function.md
+                    - name: DeviceFromIP()
+                      href: mtp/advanced-hunting-devicefromip-function.md
                     - name: FileProfile()
                       href: mtp/advanced-hunting-fileprofile-function.md
                 - name: Detecções personalizadas
