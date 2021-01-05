@@ -122,13 +122,13 @@
           href: what-the-dlp-functions-look-for.md
     - name: Classificadores de treinamento
       items:
-        - name: Saiba mais sobre classificadores de treinamento (visualização)
+        - name: Saiba mais sobre classificadores treináveis
           href: classifier-learn-about.md
-        - name: Introdução aos classificadores de treinamento (visualização)
+        - name: Comece com classificadores treináveis
           href: classifier-get-started-with.md
-        - name: Como treinar novamente um classificador em conformidade de comunicações (visualização)
+        - name: Como treinar novamente um classificador em conformidade de comunicações
           href: classifier-how-to-retrain-comms-compliance.md
-        - name: Como treinar novamente um classificador no explorador de conteúdos (visualização)
+        - name: Como treinar novamente um classificador no explorador de conteúdo
           href: classifier-how-to-retrain-content-explorer.md
     - name: Classificação de dados
       items:
@@ -629,7 +629,7 @@
             - name: Consultas de palavra-chave e condições da pesquisa
               href: keyword-queries-and-search-conditions.md
             - name: Estatísticas de pesquisa
-              href: search-statistics.md
+              href: search-statistics-in-advanced-ediscovery.md
             - name: Adicionar os resultados da pesquisa a um conjunto de revisão
               href: add-data-to-review-set.md
         - name: Gerenciar conjuntos de revisão
@@ -792,83 +792,6 @@
               href: run-reports-in-advanced-ediscovery.md
     - name: Baixa das ferramentas de Descoberta Eletrônica herdadas
       href: legacy-ediscovery-retirement.md
-- name: Gerenciar investigações de dados
-  items:
-    - name: Visão geral das investigações de dados
-      href: overview-data-investigations.md
-    - name: Gerenciar um incidente de derramamento de dados
-      href: manage-data-spillage-incidents.md
-    - name: Atribuir permissões para investigações de dados
-      href: data-investigations-permissions.md
-    - name: Criar uma nova investigação
-      href: create-new-investigation.md
-    - name: Pesquisar dados em uma investigação
-      href: search-for-data.md
-      items:
-        - name: Criar consultas de pesquisa
-          href: build-search-queries.md
-        - name: Estatísticas de pesquisa
-          href: search-statistics.md
-    - name: Revisar dados em evidência
-      href: review-data-in-evidence.md
-      items:
-        - name: Consulte os dados
-          href: evidence-query.md
-        - name: Marcar documentos
-          href: tag-documents.md
-        - name: Anotar e redigir documentos
-          href: annotate-and-redact-documents.md
-        - name: Carregar dados que não são do Office 365
-          href: load-non-office365-data.md
-        - name: Correção de erros durante o processamento de dados
-          href: error-remediation.md
-        - name: Excluir itens do local original
-          href: delete-items-from-original-locations.md
-    - name: Executar análise para investigar mais rápido
-      href: run-analytics-to-investigate-faster.md
-      items:
-        - name: Threading de emails
-          href: email-threading.md
-        - name: Detecção de duplicata próxima
-          href: near-duplicates.md
-        - name: Temas
-          href: themes.md
-        - name: Usar o módulo de Relevância
-          href: use-relevance-module.md
-    - name: Gerenciar pessoas de interesse em uma investigação
-      href: manage-people-of-interest.md
-      items:
-        - name: Indexar dados das pessoas em uma investigação
-          href: index-data-people-of-interest.md
-        - name: Exibir a atividade de auditoria das pessoas em uma investigação
-          href: view-people-of-interest-activity.md
-    - name: Exportar dados de uma investigação
-      href: export-data.md
-      items:
-        - name: Exportar documentos de evidência
-          href: export-documents-from-incident.md
-        - name: Baixar trabalhos de exportação
-          href: download-export-jobs-from-a-data-investigation.md
-    - name: Definir configurações de investigação
-      items:
-        - name: Adicionar ou remover membros de uma investigação
-          href: add-remove-members.md
-        - name: Definir configurações de pesquisa e análise
-          href: configure-search-analytics-settings.md
-        - name: Feche ou exclua uma investigação
-          href: close-or-delete-investigation.md
-    - name: Referência de investigações de dados
-      items:
-        - name: Notas de versão
-          href: data-investigations-release-notes.md
-        - name: Limites nas investigações de dados
-          href: limits-datainvestigations.md
-        - name: Tipos de arquivo compatíveis
-          href: supported-filetypes-datainvestigations.md
-        - name: Campos de metadados do documento
-          href: document-metadata-fields.md
-        - name: Gerenciar tarefas
-          href: manage-jobs.md
 - name: Gerenciar retenções
   items:
     - name: Como identificar o tipo de retenção de uma caixa de correio

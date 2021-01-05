@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: c7230f23a21804530863f125003e4db0eaeeeb60
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 03252cad8449ee83cd757fac3ae74db6df68bcfe
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616291"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751138"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -101,33 +101,36 @@ Para configurar uma equipe para isolamento de segurança, usaremos um rótulo de
 
 Se você tiver um parceiro interno ou um grupo de partes interessadas capaz de visualizar documentos criptografados, mas não editá-los, poderá adicioná-los ao rótulo com permissões somente de visualização. Em seguida, você poderá adicionar essas pessoas ao site do Microsoft Office SharePoint Online da equipe com permissões de Leitura, e elas terão acesso somente leitura ao site em que os documentos são mantidos, mas não à equipe em si.
 
+
 Para criar um rótulo de confidencialidade
 1. Abra o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com).
 2. Em **Soluções**, clique em **Proteção de informações**.
 3. Clique em **Criar um rótulo**.
-4. Digite um nome para o rótulo que seja semelhante ao nome da sua equipe. Por exemplo, **Altamente confidencial - Projeto Saturno**.
-5. Adicione uma dica de ferramenta e clique em **Avançar**.
-6. Na página **Criptografia**, no menu suspenso **Criptografia**, escolha **Aplicar**.
-7. Para adicionar as permissões da equipe:<br>
-  a. Clique em **Atribuir permissões**.<br>
-  b. Clique em **Adicionar usuários ou grupos**, selecione a equipe que você criou e clique em **Adicionar**<br>
-  c. Clique em **Selecionar permissões**.<br>
-  d. Escolha **Coautoria** na lista suspensa e clique em **Salvar**.<br>
-8. Se você deseja incluir usuários ou grupos com acesso somente leitura a arquivos com o rótulo:<br>
-  a. Clique em **Atribuir permissões**.<br>
-  b. Clique em **Adicionar usuários ou grupos**, selecione os usuários ou grupos que você deseja adicionar e clique em **Adicionar**.<br>
-  c. Clique em **Selecionar permissões**.<br>
-  d. Escolha **Visualizador** na lista suspensa e clique em **Salvar**.<br>
-  e. Clique em **Salvar**.
-9. Clique em **Avançar**.
-10. Na página **Marcação de conteúdo**, ative a marcação de conteúdo se desejar adicionar automaticamente um cabeçalho, rodapé ou marca d'água aos arquivos classificados com este rótulo.
-11. Na página **Configurações de site e grupo**, defina **Configurações de site e grupo** como **Ativado**.
-12. No menu suspenso **Privacidade de sites de equipe conectados a grupos do Office 365**, escolha **Privado - somente membros podem acessar o site**.
-13. Se você deseja permitir o acesso de convidado, marque a caixa de seleção **Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização ao grupo**. 
-14. Em **Dispositivos não gerenciados**, escolha **Bloquear acesso**.
-15. Clique em **Avançar**.
-16. Na página **Rotulação automática para aplicativos do Office**, clique em **Avançar**.
-17. Clique em **Enviar** e, em seguida, clique em **Concluído**.
+4. Dê um nome ao rótulo. Sugerimos **Confidencial**, mas você pode escolher um nome diferente se esse já estiver em uso.
+5. Adicione um nome de exibição e uma descrição e clique em **Avançar**.
+6. Na página **Definir o escopo para este rótulo**, selecione **Arquivos e emails** e **Grupos e sites** e clique em **Avançar**.
+7. Na página **Escolher configurações de proteção para arquivos e emails**, selecione **Criptografar arquivos e emails** e clique em **Avançar**.
+8. Na página **Criptografia**, escolha **Definir configurações de criptografia**.
+9. Clique em **Adicionar usuários ou grupos**, selecione a equipe que você criou e clique em **Adicionar**
+10. Clique em **Selecionar permissões**.
+11. Escolha **Coautoria** na lista suspensa e clique em **Salvar**.
+12. Se você deseja incluir usuários ou grupos com acesso somente leitura a arquivos com o rótulo:
+    1. Clique em **Atribuir permissões**.
+    1. Clique em **Adicionar usuários ou grupos**, selecione os usuários ou grupos que você deseja adicionar e clique em **Adicionar**.
+    1. Clique em **Selecionar permissões**.
+    1. Escolha **Visualizador** na lista suspensa e clique em **Salvar**.
+13.  Clique em **Salvar** e, em seguida, clique em **Avançar**.
+14. Na página *Rotulagem automática para arquivos e emails**, clique em **Avançar**.
+15. Na página **Definir configurações de proteção para grupos e sites**, selecione **Configurações de privacidade e acesso de usuário externo** e **Configurações de acesso ao dispositivo e compartilhamento externo** e clique em **Avançar**.
+16. Na página **Definir privacidade e configurações de acesso de usuário externo**, em **Privacidade**, selecione a opção **Privado**.
+17. Se desejar permitir o acesso de convidado, em **Acesso de usuário externo**, selecione **Permitir que proprietários do Grupo Microsoft 365 adicionem pessoas de fora de sua organização ao grupo como convidados**.
+18. Clique em **Avançar**.
+19. Na página **Definir compartilhamento externo e configurações de acesso ao dispositivo**, selecione **Controlar compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online**.
+20. Em **O conteúdo pode ser compartilhado com**, escolha **Convidados novos e existentes** se estiver permitindo o acesso de convidado ou **Somente as pessoas em sua organização** se não.
+21. Em **Acesso de dispositivos não gerenciados**, escolha **Bloquear acesso**.
+22. Clique em **Avançar**.
+23. Na página **Rotulagem automática para colunas do banco de dados**, clique em **Avançar**.
+24. Clique em **Criar rótulo** e, a seguir, clique em **Concluído**.
 
 Depois de criar o rótulo, você precisará publicá-lo para os usuários que o usarão. Nesse caso, disponibilizaremos o rótulo apenas para as pessoas da equipe.
 

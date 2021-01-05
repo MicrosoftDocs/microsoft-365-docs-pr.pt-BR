@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365.
-ms.openlocfilehash: 39726846d591b2d1f72a89a7dc59038c726a8e80
-ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
+ms.openlocfilehash: 96e9159f3228fb6b7725f2f0d6eb515b108bc32e
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787517"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751496"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -56,18 +56,18 @@ Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem 
 > [!IMPORTANT]
 > Apenas os [administradores globais ](../add-users/about-admin-roles.md) podem executar essas etapas.
   
-1. No centro de administração do, vá para **Configurações** \> **Configurações da Organização** .
+1. No centro de administração do, vá para **Configurações** \> **Configurações da Organização**.
 
 2. Vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Segurança e privacidade</a>.
  Se você não for um administrador global, não verá a opção Segurança e privacidade.
   
-3. Selecione **Política de expiração de senha** .
+3. Selecione **Política de expiração de senha**.
   
-4. Se você não quiser que os usuários tenham que alterar as senhas, marque a caixa de seleção ao lado de **Definir senhas de usuário para expirar após um número de dias** .
+4. Se você não deseja que os usuários alterem as senhas, desmarque a caixa ao lado de **Definir as senhas dos usuários para expirar após alguns dias**.
   
 5. Digite a frequência com que as senhas devem expirar. Escolha um número de dias entre 14 e 730.
   
-6. Na segunda caixa, insira quando os usuários são notificados de que a senha expirará e, em seguida, selecione **Salvar** . Escolha um número de dias de 1 a 30.
+6. Na segunda caixa, insira quando os usuários são notificados de que a senha expirará e, em seguida, selecione **Salvar**. Escolha um número de dias de 1 a 30.
 
 7. Quando a senha do usuário expirar, ele receberá uma notificação que aparecerá no canto inferior direito da tela.
   

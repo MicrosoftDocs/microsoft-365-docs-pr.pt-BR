@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 77ec469776bf263bbd3d667a28f1f9b1bc3284b5
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 6354de5a37547d14b16a4d6a0857ddc390d531e6
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49612959"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750804"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -63,21 +63,26 @@ Para criar um rótulo de confidencialidade
 1. Abra o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com).
 2. Em **Soluções**, clique em **Proteção de informações**.
 3. Clique em **Criar um rótulo**.
-4. Dê um nome ao rótulo. Sugerimos **Altamente confidencial**, mas você pode escolher um nome diferente se este nome já estiver em uso.
-5. Adicione uma dica de ferramenta e clique em **Avançar**.
-6. Na página **Criptografia**, no menu suspenso **Criptografia**, escolha **Aplicar**.
-7. Em **Atribuir permissões a usuários e grupos específicos**, clique em **Atribuir permissões**.
-8. Clique em **Adicionar todos os usuários e grupos em sua organização**.
-9. Se houver usuários convidados que devam ter permissões para descriptografar arquivos, clique em **Adicionar usuários ou grupos** e adicione-os.
-10.  Clique em **Salvar** e, em seguida, clique em **Avançar**.
-11. Na página **Marcação de conteúdo**, ative a marcação de conteúdo se desejar adicionar automaticamente um cabeçalho, rodapé ou marca d'água aos arquivos classificados com este rótulo.
-12. Na página **Configurações de site e grupo**, defina **Configurações de site e grupo** como **Ativado**.
-13. No menu suspenso **Privacidade de sites de equipe conectados a grupos do Office 365**, escolha **Privado - somente membros podem acessar o site**.
-14. Se você deseja permitir o acesso de convidado, marque a caixa de seleção **Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização ao grupo**. 
-15. Em **Dispositivos não gerenciados**, escolha **Bloquear acesso**.
-16. Clique em **Avançar**.
-17. Na página **Rotulação automática para aplicativos do Office**, clique em **Avançar**.
-18. Clique em **Enviar** e, em seguida, clique em **Concluído**.
+4. Dê um nome ao rótulo. Sugerimos **Confidencial**, mas você pode escolher um nome diferente se esse já estiver em uso.
+5. Adicione um nome de exibição e uma descrição e clique em **Avançar**.
+6. Na página **Definir o escopo para este rótulo**, selecione **Arquivos e emails** e **Grupos e sites** e clique em **Avançar**.
+7. Na página **Escolher configurações de proteção para arquivos e emails**, selecione **Criptografar arquivos e emails** e clique em **Avançar**.
+8. Na página **Criptografia**, escolha **Definir configurações de criptografia**.
+9. Em **Atribuir permissões a usuários e grupos específicos**, clique em **Atribuir permissões**.
+10. Clique em **Adicionar todos os usuários e grupos em sua organização**.
+11. Se houver usuários convidados que devam ter permissões para descriptografar arquivos, clique em **Adicionar usuários ou grupos** e adicione-os.
+12.  Clique em **Salvar** e, em seguida, clique em **Avançar**.
+13. Na página *Rotulagem automática para arquivos e emails**, clique em **Avançar**.
+14. Na página **Definir configurações de proteção para grupos e sites**, selecione **Configurações de privacidade e acesso de usuário externo** e **Configurações de acesso ao dispositivo e compartilhamento externo** e clique em **Avançar**.
+15. Na página **Definir privacidade e configurações de acesso de usuário externo**, em **Privacidade**, selecione a opção **Privado**.
+16. Se desejar permitir o acesso de convidado, em **Acesso de usuário externo**, selecione **Permitir que proprietários do Grupo Microsoft 365 adicionem pessoas de fora de sua organização ao grupo como convidados**.
+17. Clique em **Avançar**.
+18. Na página **Definir compartilhamento externo e configurações de acesso ao dispositivo**, selecione **Controlar compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online**.
+19. Em **O conteúdo pode ser compartilhado com**, escolha **Convidados novos e existentes** se estiver permitindo o acesso de convidado ou **Somente as pessoas em sua organização** se não.
+20. Em **Acesso de dispositivos não gerenciados**, escolha **Bloquear acesso**.
+21. Clique em **Avançar**.
+22. Na página **Rotulagem automática para colunas do banco de dados**, clique em **Avançar**.
+23. Clique em **Criar rótulo** e, a seguir, clique em **Concluído**.
 
 Depois de criar o rótulo, você precisará publicá-lo para os usuários que o usarão. Para proteção confidencial, disponibilizaremos o rótulo para todos os usuários. Publique o rótulo no Centro de conformidade do Microsoft 365, na guia **Políticas de rótulo** da página **Proteção de informações**. Se você possuir uma política que se aplique a todos os usuários, adicione este rótulo a essa política. Se você precisar criar uma nova política, confira [Publicar rótulos de confidencialidade por meio da criação de uma política de rótulos](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
 
