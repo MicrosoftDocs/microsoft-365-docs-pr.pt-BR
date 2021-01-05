@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Você pode corrigir um erro de processamento em um documento em um conjunto de análise de descoberta eletrônica avançada sem precisar seguir o processo de correção de erro em massa.
-ms.openlocfilehash: c318148900d891304ebcb9b4a88abfe52f43c05e
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 8e5d8d00f507dc5792a1beda018d4c76632b82f7
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285837"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751578"
 ---
 # <a name="single-item-error-remediation-in-advanced-ediscovery"></a>Correção de erro de item único na descoberta eletrônica avançada
 
@@ -53,7 +53,7 @@ Você também pode pesquisar todos os documentos que tiveram um erro de processa
 
 Para corrigir um único documento, siga estas etapas:
 
-1. Clique em **baixar**  >  o**original** para baixar uma cópia do arquivo para um computador local.
+1. Clique em **baixar**  >  o **original** para baixar uma cópia do arquivo para um computador local.
 
    ![Baixar o documento com o erro de processamento](../media/SIERimage5.png)
 
@@ -76,7 +76,7 @@ Para corrigir um único documento, siga estas etapas:
 
     ![Você pode exibir o arquivo corrigido no formato nativo no conjunto de revisão](../media/SIERimage9.png)
 
-Para obter mais informações sobre o que acontece quando um documento é corrigido, consulte [o que acontece quando os arquivos são corrigidos](error-remediation.md#what-happens-when-files-are-remediated).
+Para obter mais informações sobre o que acontece quando um documento é corrigido, consulte [o que acontece quando os arquivos são corrigidos](error-remediation-when-processing-data-in-advanced-ediscovery.md#what-happens-when-files-are-remediated).
 
 ## <a name="search-for-remediated-documents"></a>Pesquisar documentos corrigidos
 

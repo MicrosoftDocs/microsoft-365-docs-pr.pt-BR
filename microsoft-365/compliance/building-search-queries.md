@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-mar2020
 description: Use palavras-chave e condições para restringir o escopo da pesquisa ao pesquisar dados usando a descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 38322963f04ad67d8675247bdd754ffb1d2f13e8
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+ms.openlocfilehash: 8ec1e099625bb081f8a915f08ac818fddcc2b60d
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588548"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751108"
 ---
 # <a name="build-search-collection-queries-in-advanced-ediscovery"></a>Criar consultas de coleta de pesquisa na descoberta eletrônica avançada
 
@@ -39,7 +39,7 @@ Como alternativa, você pode marcar a caixa de seleção **Mostrar lista de pala
 
 ![Use a lista de palavras-chave para obter estatísticas sobre cada palavra-chave na consulta](../media/KeywordListSearch.png)
 
-Por que usar a lista de palavras-chave? Você pode obter estatísticas que mostram quantos itens correspondem a cada palavra-chave na lista de palavras-chave. Isso pode ajudá-lo a identificar rapidamente as palavras-chave mais (e menos) em vigor. Você também pode usar uma frase de palavra-chave (entre parênteses) em uma linha na lista de palavras-chave. Para obter mais informações sobre estatísticas de pesquisa, confira [Estatísticas de pesquisa](search-statistics.md).
+Por que usar a lista de palavras-chave? Você pode obter estatísticas que mostram quantos itens correspondem a cada palavra-chave na lista de palavras-chave. Isso pode ajudá-lo a identificar rapidamente as palavras-chave mais (e menos) em vigor. Você também pode usar uma frase de palavra-chave (entre parênteses) em uma linha na lista de palavras-chave. Para obter mais informações sobre estatísticas de pesquisa, confira [Estatísticas de pesquisa](search-statistics-in-advanced-ediscovery.md).
 
 ## <a name="conditions"></a>Condições
 

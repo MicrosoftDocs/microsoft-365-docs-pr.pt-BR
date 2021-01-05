@@ -17,26 +17,26 @@ search.appverid:
 ms.assetid: ''
 description: Saiba mais sobre as ferramentas disponíveis para organizar conjuntos de documentos ao analisar uma ocorrência de descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 87788e444a5ef671586567510448dab8b9deddcd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 7c63e7eca2e032bfa11c4d4e6f961bb7a7700a4e
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033815"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751366"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>Analisar dados em um conjunto de revisão na descoberta eletrônica avançada
 
 Quando o número de documentos coletados é grande, pode ser difícil examiná-los. A descoberta eletrônica avançada fornece várias ferramentas para analisar os documentos para reduzir o volume de documentos a serem revisados sem perda de informações e para ajudá-lo a organizar os documentos de forma coerente. Para saber mais sobre esses recursos, confira:
 
-- [Próximo detecção duplicada](near-duplicates.md)
+- [Próximo detecção duplicada](near-duplicate-detection-in-advanced-ediscovery.md)
 
-- [Threading de emails](email-threading.md)
+- [Threading de emails](email-threading-in-advanced-ediscovery.md)
 
-- [Temas](themes.md)
+- [Temas](themes-in-advanced-ediscovery.md)
 
 Para analisar dados em um conjunto de revisão:
 
-1. Defina as configurações de análise para o seu caso. Para obter mais informações, consulte [Configurar definições de pesquisa e análise](configure-search-analytics-settings.md).
+1. Defina as configurações de análise para o seu caso. Para obter mais informações, consulte [Configurar definições de pesquisa e análise](configure-search-and-analytics-settings-in-advanced-ediscovery.md).
 
 2. Abra o conjunto de revisão que você deseja analisar.
 

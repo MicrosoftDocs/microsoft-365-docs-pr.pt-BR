@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 1cb707c47594b59bcb762aac5c25eaa03b33dbf1
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 7d1d52356bd3b165c24f10a20a57373a6171b8b3
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988571"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751466"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -69,7 +69,6 @@ A seção **descoberta & resposta** da página inicial mostra rapidamente como s
 Aqui, você verá cartões para as seguintes soluções:
 
 - [Auditoria](search-the-audit-log-in-security-and-compliance.md): registra a atividade do usuário e do administrador da sua organização para que você possa Pesquisar o log de auditoria e investigar uma lista abrangente de atividades em todos os locais e serviços.
-- [Investigações de dados](overview-data-investigations.md): pesquisa entre locais de conteúdo para identificar dados confidenciais, mal-intencionados ou incorretos em locais do Microsoft 365, para que você possa investigar e corrigir quaisquer incidentes, como os dados derramamento.
 - [Solicitações de entidades de dados](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md): localiza e exporta dados pessoais de um usuário para ajudá-lo a responder a solicitações de entidades de dados para o rgpd.
 - [Descoberta eletrônica](manage-legal-investigations.md)
     - [Central de descoberta eletrônica](ediscovery-cases.md): pesquisa entre locais de conteúdo para identificar, preservar e exportar dados em resposta a solicitações de descoberta legal e casos de descoberta eletrônica.
@@ -93,13 +92,13 @@ Se você estiver procurando por uma solução de conformidade existente e ela ai
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- **Visite o Microsoft Compliance Manager** , que ajuda a entender o estado de conformidade da sua organização com normas e padrões importantes. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Gerenciador de conformidade](compliance-manager.md).
+- **Visite o Microsoft Compliance Manager**, que ajuda a entender o estado de conformidade da sua organização com normas e padrões importantes. Ele fornece ações recomendadas que você pode tomar para reforçar sua postura geral de conformidade e fornece recursos de fluxo de trabalho para ajudá-lo a realizar essas ações com eficiência. Para saber mais, confira [Gerenciador de conformidade](compliance-manager.md).
 
 - **Configure as políticas de gerenciamento de risco do insider** para ajudar a minimizar os riscos internos e permitir que você detecte, investigue e execute ações para atividades arriscadas em sua organização. Confira [Gerenciamento de risco do insider](insider-risk-management.md).
 
 - **Saiba mais e crie políticas de conformidade de comunicação** para identificar e corrigir rapidamente as violações de política de código de conduta corporativo. Consulte [conformidade de comunicação](communication-compliance.md).
 
-- **Microsoft Information Protection** , saiba como a Microsoft 365 Solutions ajuda você a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
+- **Microsoft Information Protection**, saiba como a Microsoft 365 Solutions ajuda você a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
     - **Familiarize-se com e configure o Microsoft Cloud app Security**. Veja [início rápido: introdução ao Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).
     - **Introdução aos classificadores**. Classificar conteúdo e, em seguida, rotulá-lo para que possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. Confira [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md).
 

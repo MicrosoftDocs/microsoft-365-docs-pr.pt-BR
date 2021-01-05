@@ -1,5 +1,5 @@
 ---
-title: Como treinar novamente um classificador em conformidade de comunicações (visualização)
+title: Como treinar novamente um classificador em conformidade com comunicações
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,22 +15,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como fornecer comentários para um classificador treinado em conformidade com comunicações.
-ms.openlocfilehash: 1466c211e3a4958f58a7c1f1a6a5a77bed881d60
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: cdb8787715c3e022dfa0aa17cd83cc405aeef955
+ms.sourcegitcommit: 54d1a2f363b2d5b63aae258c3cec0573a08f2866
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132293"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49752645"
 ---
-# <a name="how-to-retrain-a-classifier-in-communications-compliance-preview"></a>Como treinar novamente um classificador em conformidade de comunicações (visualização)
+# <a name="how-to-retrain-a-classifier-in-communications-compliance"></a>Como treinar novamente um classificador em conformidade com comunicações
 
 Um classificador Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras a eles. Depois de treinado, você pode usá-lo para identificar o item para a aplicação de rótulos de confidencialidade do Office, políticas de conformidade de comunicações e políticas de rótulo de retenção.
 
 Este artigo mostra como melhorar o desempenho de classificadores treinados personalizados e alguns classificadores pré-qualificados, fornecendo comentários adicionais.
 
-Para saber mais sobre os diferentes tipos de classificadores, confira [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md).
+Para saber mais sobre os diferentes tipos de classificadores, confira [saiba mais sobre classificadores estagiários](classifier-learn-about.md).
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 Para acessar classificadores no centro de conformidade da Microsoft 365:
 
@@ -52,7 +52,7 @@ Para entender mais sobre o fluxo de trabalho geral do retreinamento de um classi
 > [!NOTE]
 > Um classificador já deve estar publicado e em uso para que possa ser retreinado.
 
-## <a name="how-to-retrain-a-classifier-in-communication-compliance-policies-preview"></a>Como treinar novamente um classificador em políticas de conformidade de comunicação (visualização)
+## <a name="how-to-retrain-a-classifier-in-communication-compliance-policies"></a>Como treinar novamente um classificador em políticas de conformidade de comunicação
 
 1. Abra a política de conformidade de comunicação que usa um classificador como uma condição e escolha um dos itens identificados da lista **pendente** .
 2. Escolha as reticências e **aprimore a classificação**.
@@ -68,7 +68,7 @@ Para entender mais sobre o fluxo de trabalho geral do retreinamento de um classi
 > Essas informações vão para o classificador no locatário, **não volta para a Microsoft**.
 
 6.  Abra a página de **classificação de dados** no centro de **conformidade da Microsoft 365**.
-7. Abra **classificadores estagiários (visualização)**.
+7. Abra os **classificadores estagiários**.
 8. O classificador que foi usado na política de conformidade de comunicações aparecerá sob o título de **novo treinamento** .
 
 ![classificador no status de retreinamento](../media/classifier-retraining.png)
@@ -94,5 +94,5 @@ Comparamos os números de desempenho em ambos os conjuntos de itens para o class
 
 ## <a name="see-also"></a>Confira também
 
-- [Saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md)
+- [Saiba mais sobre classificadores estagiários](classifier-learn-about.md)
 - [Extensões de nome de arquivo rastreado padrão e tipos de arquivos analisados no SharePoint Server Server](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)

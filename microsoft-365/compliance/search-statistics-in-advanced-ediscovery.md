@@ -3,7 +3,7 @@ title: Estatísticas de pesquisa na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
-author: esclee
+author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Valide os resultados da pesquisa exibindo as estatísticas geradas após a execução de uma pesquisa de coleção na descoberta eletrônica avançada.
-ms.openlocfilehash: ef5653a76d94272ba5f608149648f1421198929a
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 5b6cfdaffc7851a00035a4edcc9d490b229c455d
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48286077"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750772"
 ---
 # <a name="search-statistics-in-advanced-ediscovery"></a>Estatísticas de pesquisa na descoberta eletrônica avançada
 

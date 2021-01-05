@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Visão geral sobre o processamento de várias formas de dados na descoberta eletrônica avançada.
-ms.openlocfilehash: c82363a846334ccf47fc28cf0aaa25e92f2bbea9
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: d7969b1ef77fc161cccc85a8dee020ebe21acdb0
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285237"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751508"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Trabalhar com erros de processamento na descoberta eletrônica avançada
 
@@ -37,6 +37,6 @@ Para saber mais, confira os seguintes artigos:
 
 - [Indexação avançada de dados custodiantes](indexing-custodian-data.md)
 
-- [Correção de erros durante o processamento de dados](error-remediation.md)
+- [Correção de erros durante o processamento de dados](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 
 - [Correção de erros de item único](single-item-error-remediation.md)

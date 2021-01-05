@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Quando um qualificador é adicionado a um caso de descoberta eletrônica avançada, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.
-ms.openlocfilehash: 95e087884b65628565e596dc8ae9f33aadc4cd9f
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 908d01cacc103639e1f9efe965240c33a5296ba9
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527551"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750752"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Indexação de dados custodiante avançados
 
@@ -43,7 +43,7 @@ Após a conclusão do processo de indexação avançada, você pode entender a e
 
 Este modo de exibição também inclui o número de itens que exigem correção e outro gráfico de erros por tipo de arquivo. Para saber mais, confira:
 
-- [Correção de erros durante o processamento de dados](error-remediation.md)
+- [Correção de erros durante o processamento de dados](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 
 - [Correção de erros de item único](single-item-error-remediation.md)
 

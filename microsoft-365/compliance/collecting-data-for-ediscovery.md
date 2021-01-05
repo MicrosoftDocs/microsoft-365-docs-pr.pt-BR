@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como identificar um conjunto de documentos para revisão em uma investigação usando a ferramenta de pesquisa na descoberta eletrônica avançada.
 ms.custom: seo-marvel-2020
-ms.openlocfilehash: 725c289324a8e4d5bd4d7a7b9ddd9e091b6d6241
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: b69127f1a372a9b843b9c7dac1b2909dd80b2988
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956194"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751259"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Coletar dados para uma ocorrência na descoberta eletrônica avançada
 
@@ -46,7 +46,7 @@ Depois que a estimativa de pesquisa for concluída, selecione a pesquisa para ex
 - Principais locais
 - Consultas
 
-Para obter mais informações sobre estatísticas de pesquisa, confira [Estatísticas de pesquisa](search-statistics.md).
+Para obter mais informações sobre estatísticas de pesquisa, confira [Estatísticas de pesquisa](search-statistics-in-advanced-ediscovery.md).
 
 Após a conclusão da visualização, o botão **Visualizar** estará ativo. Selecione-o para visualizar um subconjunto de amostra dos resultados.
 

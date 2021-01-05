@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place descoberta eletrônica e In-Place Hold (e os cmdlets do PowerShell correspondentes) no Exchange Online serão desativadas no primeiro semestre de 2020. O cmdlet Search-Mailbox e o eDiscovery avançado v 1.0 também estão sendo desativados no mesmo período de tempo.
-ms.openlocfilehash: e8edda9436d62e07d0f64126a012791080766aba
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: a40cc67b29e33d61d6750792f6a773622a73f678
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877462"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750874"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Baixa das ferramentas de Descoberta Eletrônica herdadas
 
@@ -31,7 +31,7 @@ Como resultado dessa nova e aprimorada funcionalidade de descoberta eletrônica 
 
 - [Descoberta eletrônica in-loco](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) e [bloqueios in-loco](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds) no centro de administração do Exchange.
 
-- Os cmdlets do PowerShell do Exchange Online que dão suporte a In-Place descoberta eletrônica e In-Place isenções (esses cmdlets são identificados coletivamente como cmdlets * *-MailboxSearch* ). Isso inclui os seguintes cmdlets:
+- Os cmdlets do PowerShell do Exchange Online que dão suporte a In-Place descoberta eletrônica e In-Place isenções (esses cmdlets são identificados coletivamente como cmdlets **-MailboxSearch* ). Isso inclui os seguintes cmdlets:
 
   - [New-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/new-mailboxsearch)
 
@@ -111,7 +111,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </li>
 <li>
 <p>Pesquisa de conteúdo para o Exchange Online, o SharePoint Online, o OneDrive for Business, o Skype for Business, o Microsoft Teams, os grupos do Yammer, os grupos do Microsoft 365 e outros conteúdos armazenados em aplicativos do Office 365</p></li></ul>
-<p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations"> gerenciar investigações legais no Office 365</a>.</td>
+</td>
 </tr>
 <tr class="even">
 <td>Bloqueio para fins de retenção</td>
@@ -186,7 +186,7 @@ Como esses recursos agora estão disponíveis no [<span class="underline">centro
 
 - 1º de julho de 2020: você não poderá usar o **New-MailboxSearch** para criar novas pesquisas de descoberta eletrônica In-Place e In-Place isenções, mas ainda poderá usar cmdlets para executar, editar e excluir pesquisas existentes e manter por sua conta e risco. O suporte da Microsoft não fornecerá mais assistência para esses tipos de pesquisas e isenções.
 
-- 1 de outubro de 2020: como mencionado anteriormente, a In-Place descoberta eletrônica &s no Eat será colocada em um modo somente leitura. Isso também significa que você não poderá usar os cmdlets **New-MailboxSearch** , **Start-MailboxSearch** ou **Set-MailboxSearch** . Você só poderá obter e remover pesquisas e isenções existentes.
+- 1 de outubro de 2020: como mencionado anteriormente, a In-Place descoberta eletrônica &s no Eat será colocada em um modo somente leitura. Isso também significa que você não poderá usar os cmdlets **New-MailboxSearch**, **Start-MailboxSearch** ou **Set-MailboxSearch** . Você só poderá obter e remover pesquisas e isenções existentes.
 
 ### <a name="alternative-tools"></a>Ferramentas alternativas
 
@@ -235,7 +235,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </tbody>
 </table>
 
-### <a name="faqs-about--mailboxsearch-cmdlets"></a>Perguntas frequentes sobre os cmdlets * **-MailboxSearch**
+### <a name="faqs-about--mailboxsearch-cmdlets"></a>Perguntas frequentes sobre os cmdlets ***-MailboxSearch**
 
 **Usamos a pesquisa de cópia para exportar mensagens de email ou mensagens instantâneas para fins de outras investigações jurídicas e de descoberta eletrônica. Que outras opções temos após a retirada desses cmdlets?**
 
@@ -341,7 +341,7 @@ Essas operações na API de serviços Web do Exchange são usadas pelo recurso I
 
 ## <a name="advanced-ediscovery-v10"></a>Descoberta eletrônica avançada v 1.0
 
-O eDiscovery v 1.0 avançado, que é a versão da descoberta eletrônica avançada disponível em um caso de descoberta eletrônica principal clicando em **alternar para descoberta eletrônica avançada** , está sendo desativado. Sua funcionalidade foi substituída pela nova [solução de descoberta eletrônica avançada](https://aka.ms/edisco) no centro de conformidade da Microsoft 365.
+O eDiscovery v 1.0 avançado, que é a versão da descoberta eletrônica avançada disponível em um caso de descoberta eletrônica principal clicando em **alternar para descoberta eletrônica avançada**, está sendo desativado. Sua funcionalidade foi substituída pela nova [solução de descoberta eletrônica avançada](https://aka.ms/edisco) no centro de conformidade da Microsoft 365.
 
 Para determinar se sua organização está usando o eDiscovery v 1.0 avançado:
 
@@ -349,9 +349,9 @@ Para determinar se sua organização está usando o eDiscovery v 1.0 avançado:
 
 2. No painel de navegação esquerdo do centro de conformidade & segurança, clique em **descoberta eletrônica > eDiscovery** e abra um caso de descoberta eletrônica principal.
 
-3. Se você vir o botão **alternar para descoberta eletrônica avançada** e, em seguida, clicar nele para obter a versão 1,0 da descoberta eletrônica avançada, que está sendo desativada. A capacidade de criar e gerenciar ocorrências na descoberta eletrônica principal não será afetada. Somente a capacidade de adicionar e analisar dados de caso no eDiscovery v 1.0 avançado (clicando em **alternar para descoberta eletrônica avançada** ) está sendo desativada.
+3. Se você vir o botão **alternar para descoberta eletrônica avançada** e, em seguida, clicar nele para obter a versão 1,0 da descoberta eletrônica avançada, que está sendo desativada. A capacidade de criar e gerenciar ocorrências na descoberta eletrônica principal não será afetada. Somente a capacidade de adicionar e analisar dados de caso no eDiscovery v 1.0 avançado (clicando em **alternar para descoberta eletrônica avançada**) está sendo desativada.
 
-A nova solução de descoberta eletrônica avançada no Microsoft 365 (também conhecida como *AutoDiscovery v 2.0* ) fornece todos os recursos da solução original, mas agora inclui uma abordagem baseada em responsáveis de identificar conteúdo em outros serviços do Microsoft 365, coletar esse conteúdo e, em seguida, adicioná-lo a um conjunto de revisão em que os revisores podem aproveitar consultas de pesquisa rápida, marcação e recursos de análise para ajudar a analisar documentos relevantes. A descoberta eletrônica avançada agora inclui o processamento melhorado e os visualizadores nativos para tipos de arquivo da Microsoft e de terceiros, uma lista completa de tipos de arquivo é [aqui](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) e os campos de metadados suportados estão [aqui](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery). Além disso, a nova solução de descoberta eletrônica avançada fornece um recurso de gerenciamento poderoso que permite que você aplique isenções ao conteúdo em diferentes serviços, notifique os usuários das isenções e rastreie as respostas dos responsáveis, tudo em um caso de descoberta eletrônica avançada.
+A nova solução de descoberta eletrônica avançada no Microsoft 365 (também conhecida como *AutoDiscovery v 2.0*) fornece todos os recursos da solução original, mas agora inclui uma abordagem baseada em responsáveis de identificar conteúdo em outros serviços do Microsoft 365, coletar esse conteúdo e, em seguida, adicioná-lo a um conjunto de revisão em que os revisores podem aproveitar consultas de pesquisa rápida, marcação e recursos de análise para ajudar a analisar documentos relevantes. A descoberta eletrônica avançada agora inclui o processamento melhorado e os visualizadores nativos para tipos de arquivo da Microsoft e de terceiros, uma lista completa de tipos de arquivo é [aqui](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) e os campos de metadados suportados estão [aqui](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery). Além disso, a nova solução de descoberta eletrônica avançada fornece um recurso de gerenciamento poderoso que permite que você aplique isenções ao conteúdo em diferentes serviços, notifique os usuários das isenções e rastreie as respostas dos responsáveis, tudo em um caso de descoberta eletrônica avançada.
 
 Para acessar o eDiscovery v 2.0 avançado:
 

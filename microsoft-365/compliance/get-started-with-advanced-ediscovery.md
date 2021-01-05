@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: dd3ddb3e5ef3a46fc0b7b4925b639975167c15d2
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: 45443620f294489c3afb4392376c9fe999fa098b
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350719"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751088"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Introdução à Descoberta Eletrônica Avançada
 
@@ -153,7 +153,7 @@ Para começar a usar a descoberta eletrônica avançada, aqui está um fluxo de 
 
 2. **[Pesquisar fontes de dados do custodial para dados relevantes para o caso](collecting-data-for-ediscovery.md)**. Após adicionar os responsáveis a um caso, use a ferramenta de pesquisa interna para pesquisar os locais de dados dos responsáveis por dados que podem ser relevantes para o caso. Você usa palavras-chave, propriedades e condições para [criar consultas de pesquisa](building-search-queries.md) que retornem resultados de pesquisa com os dados que mais provavelmente são relevantes para o caso. Você também pode:
 
-   - Exibir [Estatísticas de pesquisa](search-statistics.md) que podem ajudá-lo a refinar uma consulta de pesquisa para restringir os resultados.
+   - Exibir [Estatísticas de pesquisa](search-statistics-in-advanced-ediscovery.md) que podem ajudá-lo a refinar uma consulta de pesquisa para restringir os resultados.
 
    - Visualize os resultados da pesquisa para verificar rapidamente se os dados relevantes estão sendo encontrados.
 

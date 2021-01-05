@@ -1,5 +1,5 @@
 ---
-title: Como treinar novamente um classificador no Gerenciador de conteúdo (versão prévia)
+title: Como treinar novamente um classificador no Gerenciador de conteúdo
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,22 +15,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como fornecer comentários para um classificador treinado no Gerenciador de conteúdo.
-ms.openlocfilehash: 0fbce595894cbbf2a017fc1bf657b14a5b812e29
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 786ebb682e9cdd96c0c6503294bd4f316f777f68
+ms.sourcegitcommit: 54d1a2f363b2d5b63aae258c3cec0573a08f2866
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132294"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49752615"
 ---
-# <a name="how-to-retrain-a-classifier-in-content-explorer-preview"></a>Como treinar novamente um classificador no Gerenciador de conteúdo (versão prévia)
+# <a name="how-to-retrain-a-classifier-in-content-explorer"></a>Como treinar novamente um classificador no Gerenciador de conteúdo
 
 Um classificador Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras a eles. Depois de treinado, você pode usá-lo para identificar o item para a aplicação de rótulos de confidencialidade do Office, políticas de conformidade de comunicações e políticas de rótulo de retenção.
 
 Este artigo mostra como melhorar o desempenho de classificadores treinados personalizados e alguns classificadores pré-qualificados, fornecendo comentários adicionais.
 
-Para saber mais sobre os diferentes tipos de classificadores, confira [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md).
+Para saber mais sobre os diferentes tipos de classificadores, confira [saiba mais sobre classificadores estagiários](classifier-learn-about.md).
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 Para acessar classificadores no centro de conformidade da Microsoft 365:
 
@@ -52,10 +52,10 @@ Para entender mais sobre o fluxo de trabalho geral do retreinamento de um classi
 > [!NOTE]
 > Um classificador já deve estar publicado e em uso para que possa ser retreinado.
 
-## <a name="how-to-retrain-a-classifier-in-content-explorer-preview"></a>Como treinar novamente um classificador no Gerenciador de conteúdo (versão prévia)
+## <a name="how-to-retrain-a-classifier-in-content-explorer"></a>Como treinar novamente um classificador no Gerenciador de conteúdo
 
-1. Entre no centro de conformidade da Microsoft 365 com administrador de conformidade ou acesso à função de administrador de segurança e abra o Gerenciador de conteúdo de classificação de dados **do centro de conformidade da Microsoft 365**  >  **Data classification**  >  **Content explorer**. 
-2. Na lista **Filtrar rótulos, tipos de informações ou categorias** , expanda **classificadores**que podem ser treinados.
+1. Entre no centro de conformidade da Microsoft 365 com administrador de conformidade ou acesso à função de administrador de segurança e abra o Gerenciador de conteúdo de classificação de dados **do centro de conformidade da Microsoft 365**  >    >  . 
+2. Na lista **Filtrar rótulos, tipos de informações ou categorias** , expanda **classificadores** que podem ser treinados.
 
 > [!IMPORTANT]
 > Pode levar até oito dias para que os itens agregados apareçam sob o cabeçalho de classificadores treinado.
@@ -78,7 +78,7 @@ Para entender mais sobre o fluxo de trabalho geral do retreinamento de um classi
 > [!IMPORTANT]
 > Essas informações vão para o classificador no locatário, **não volta para a Microsoft**.
 
-9. Abra **classificadores estagiários (visualização)**.
+9. Abra os **classificadores estagiários**.
 10. O classificador que foi usado na política de conformidade de comunicações aparecerá sob o título de **novo treinamento** .
 
 ![classificador no status de retreinamento](../media/classifier-retraining.png)
@@ -104,5 +104,5 @@ Comparamos os números de desempenho em ambos os conjuntos de itens para o class
 
 ## <a name="see-also"></a>Confira também
 
-- [Saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md)
+- [Saiba mais sobre classificadores estagiários](classifier-learn-about.md)
 - [Extensões de nome de arquivo rastreado padrão e tipos de arquivos analisados no SharePoint Server Server](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)

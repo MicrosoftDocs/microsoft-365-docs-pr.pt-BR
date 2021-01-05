@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Definir configurações de descoberta eletrônica avançadas que se aplicam a todas as análises definidas em uma ocorrência. Isso inclui configurações para análise e reconhecimento óptico de caracteres.
-ms.openlocfilehash: dfacab79f635a817b127614f524d00b0297981fb
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 11932d2172d797ae1913cf28e713d57805ace122
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277087"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751298"
 ---
 # <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>Definir as configurações de pesquisa e análise na descoberta eletrônica avançada
 
@@ -50,7 +50,7 @@ Para definir as configurações de pesquisa e análise de um caso:
 
 ## <a name="near-duplicates-and-email-threading"></a>Duplicados próximos e threads de email
 
-Nesta seção, você pode definir parâmetros para detecção de duplicidades, detecção de duplicidade próxima e thread de email. Para obter mais informações, consulte [Near Duplicate Detection](near-duplicates.md) and [e-mail Threading](email-threading.md).
+Nesta seção, você pode definir parâmetros para detecção de duplicidades, detecção de duplicidade próxima e thread de email. Para obter mais informações, consulte [Near Duplicate Detection](near-duplicate-detection-in-advanced-ediscovery.md) and [e-mail Threading](email-threading-in-advanced-ediscovery.md).
 
 - **Threads próximos de duplicatas/email:** Quando ativado, a detecção de duplicidades, a detecção de duplicidade próxima e o encadeamento de emails são incluídos como parte do fluxo de trabalho quando você executa a análise nos dados de um conjunto de revisão.
 

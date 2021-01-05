@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como usar a correção de erros para corrigir problemas de dados na descoberta eletrônica avançada que pode impedir o processamento adequado do conteúdo.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8ada53dd6339541fc39b37903a0f58fd4ad84c8c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c6ef1076e44fca0d060d766fc85a435550c40059
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035905"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750794"
 ---
 # <a name="error-remediation-when-processing-data"></a>Correção de erros durante o processamento de dados
 
@@ -79,7 +79,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de de
     Se vários arquivos forem baixados, cada um é baixado para uma subpasta nomeada com a ID de arquivo.
 
     > [!IMPORTANT]
-    > Ao carregar arquivos na etapa 9 e na etapa 10, os arquivos corrigidos devem ter o mesmo nome de arquivo e estar localizados na mesma estrutura de subpastas. Os nomes de subpasta e de arquivo são usados para associar o arquivo corrigido ao arquivo de erro original. Se a estrutura de pastas ou os nomes de arquivo forem alterados, você receberá o `Cannot apply Error Remediation to the current Workingset`seguinte erro:. Para evitar problemas, recomendamos que você mantenha os arquivos corrigidos na mesma estrutura de pastas e subpastas pai.
+    > Ao carregar arquivos na etapa 9 e na etapa 10, os arquivos corrigidos devem ter o mesmo nome de arquivo e estar localizados na mesma estrutura de subpastas. Os nomes de subpasta e de arquivo são usados para associar o arquivo corrigido ao arquivo de erro original. Se a estrutura de pastas ou os nomes de arquivo forem alterados, você receberá o seguinte erro: `Cannot apply Error Remediation to the current Workingset` . Para evitar problemas, recomendamos que você mantenha os arquivos corrigidos na mesma estrutura de pastas e subpastas pai.
 
 7. Depois de baixar os arquivos, você pode corrigi-los com uma ferramenta apropriada. Para arquivos protegidos por senha, há várias ferramentas de quebra de senha que você pode usar. Se você souber as senhas dos arquivos, poderá abri-las e remover a proteção por senha.
 
@@ -93,7 +93,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de de
 
 10. Copie o comando predefinido clicando em **copiar para área de transferência**. Abra um prompt de comando do Windows, Cole o comando AzCopy e pressione **Enter**. carregar os arquivos.
 
-    ![ff2ff691-629f-4065-9b37-5333f937daf6. png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
+    ![Resultados do carregamento bem-sucedido de arquivos corrigidos no Azcopy](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
 11. Depois de executar o comando AzCopy, clique em **Avançar: processar arquivos**.
 
@@ -105,7 +105,7 @@ Em situações em que o conteúdo de um arquivo de contêiner (como um arquivo. 
 
 ## <a name="remediating-errors-by-uploading-the-extracted-text"></a>Corrigir erros carregando o texto extraído
 
-Às vezes, não é possível corrigir um arquivo em um formato nativo que possa interpretar a descoberta eletrônica avançada. Mas você pode substituir o arquivo original por um arquivo de texto que contém o texto original do arquivo nativo (em um processo chamado *sobreposição de texto*). Para fazer isso, siga as etapas descritas neste artigo, mas em vez de corrigir o arquivo original no formato nativo, crie um arquivo de texto que contenha o texto extraído do arquivo original e, em seguida, carregue o arquivo de texto usando o nome de arquivo original anexado a um sufixo. txt. Por exemplo, você baixa um arquivo durante a correção de erros com o nome de arquivo 335850cc-6602-4af0-acfa-1d14d9128ca2. ABC. Abra o arquivo no aplicativo nativo, copie o texto e cole-o em um novo arquivo chamado 335850cc-6602-4af0-acfa-1d14d9128ca2. ABC. txt. Ao fazer isso, certifique-se de remover o arquivo original no formato nativo do local do arquivo corrigido no computador local antes de carregar o arquivo de texto corrigido para descoberta eletrônica avançada.
+Às vezes, não é possível corrigir um arquivo em um formato nativo que possa interpretar a descoberta eletrônica avançada. Mas você pode substituir o arquivo original por um arquivo de texto que contém o texto original do arquivo nativo (em um processo chamado *sobreposição de texto*). Para fazer isso, siga as etapas descritas neste artigo, mas em vez de corrigir o arquivo original no formato nativo, crie um arquivo de texto que contenha o texto extraído do arquivo original e, em seguida, carregue o arquivo de texto usando o nome de arquivo original anexado a um sufixo. txt. Por exemplo, você baixa um arquivo durante a correção de erros com o nome de arquivo 335850cc-6602-4af0-acfa-1d14d9128ca2. ABC. Abra o arquivo no aplicativo nativo, copie o texto e cole-o em um novo arquivo chamado 335850cc-6602-4af0-acfa-1d14d9128ca2.abc.txt. Ao fazer isso, certifique-se de remover o arquivo original no formato nativo do local do arquivo corrigido no computador local antes de carregar o arquivo de texto corrigido para descoberta eletrônica avançada.
 
 ## <a name="what-happens-when-files-are-remediated"></a>O que acontece quando os arquivos são corrigidos
 
@@ -121,4 +121,4 @@ Quando os arquivos corrigidos são carregados, os metadados originais são prese
 - WordCount
 - WorkingsetId
 
-Para obter uma definição de todos os campos de metadados na descoberta eletrônica avançada, confira [campos de metadados do documento](document-metadata-fields.md).
+Para obter uma definição de todos os campos de metadados na descoberta eletrônica avançada, confira [campos de metadados do documento](document-metadata-fields-in-advanced-ediscovery.md).

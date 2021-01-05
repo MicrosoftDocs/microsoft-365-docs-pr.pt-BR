@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre classificadores de treinamento (visualização)
+title: Saiba mais sobre classificadores estagiários
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -18,14 +18,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 77ebefe338f393a916f0a6844b42b16e3d011d49
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: d5e7eb891e4cff2fc220d1e9264839d05ed11bd2
+ms.sourcegitcommit: 54d1a2f363b2d5b63aae258c3cec0573a08f2866
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620157"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49752635"
 ---
-# <a name="learn-about-classifiers-preview"></a>Saiba mais sobre classificadores (visualização)
+# <a name="learn-about-classifiers"></a>Saiba mais sobre classificadores
 
 Classificar e rotular o conteúdo para que ele possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. O Microsoft 365 tem três maneiras de classificar conteúdo.
 
@@ -103,7 +103,7 @@ A Microsoft 365 vem com cinco classificadores pré-qualificados:
 - **Profanação**: detecta uma categoria específica de itens de texto de idioma ofensivo que contêm expressões que constrangim a maioria das pessoas
 - **Ameaça**: detecta uma categoria específica de itens de texto de linguagem ofensiva relacionadas a ameaças para confirmar a violência ou danos físicos ou danos a uma pessoa ou a uma propriedade
 
-Eles aparecem no modo de exibição de classificação de dados do **centro de conformidade da Microsoft 365**  >  **(visualização)**  >  **classificadores estagiários** com o status de `Ready to use` .
+Eles aparecem na classificação de dados do **centro de conformidade da Microsoft 365**  >    >  exibição de **classificadores estagiários** com o status de `Ready to use` .
 
 ![classificadores-classificadores pré treinado](../media/classifiers-ready-to-use-classifiers.png)
 
@@ -136,8 +136,8 @@ Você pode ajudar a melhorar a precisão de todos os classificadores personaliza
 ## <a name="see-also"></a>Confira também
 
 - [Rótulos de retenção](retention.md)
-- [Data loss prevention (DLP)](data-loss-prevention-policies.md)
-- [Rótulos de confidencialidade ](sensitivity-labels.md)
+- [DLP (Prevenção contra perda de dados)](data-loss-prevention-policies.md)
+- [Rótulos de confidencialidade](sensitivity-labels.md)
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Impressão digital do documento](document-fingerprinting.md)
 - [Correspondência de dados exata](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)

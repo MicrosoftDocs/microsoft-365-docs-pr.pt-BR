@@ -1,5 +1,5 @@
 ---
-title: Chave do cliente para o Microsoft 365 no nível do locatário (visualização pública)
+title: Chave do cliente para Microsoft 365 no nível do locatário (visualização pública)
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Saiba como configurar a chave do cliente para todos os dados no seu locatário do Microsoft 365.
-ms.openlocfilehash: eedf0e8c9d56131016bc798af8ae471df3005bdc
-ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+ms.openlocfilehash: f14bbc0cb6dd29883efa4c8d294d8d65cae98641
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712517"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751258"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Visão geral da chave do cliente para o Microsoft 365 no nível do locatário (visualização pública)
 
@@ -59,7 +59,7 @@ Você concluirá a maioria dessas tarefas, conectando-se remotamente ao Azure Po
 Antes de começar, verifique o seguinte:
 
 - Você precisará usar uma conta corporativa ou de estudante que tenha a função de administrador de conformidade para configurar a chave do cliente no nível do locatário.
-- Verifique se você tem o licenciamento apropriado para sua organização. Use uma assinatura paga do Azure faturada usando um contrato corporativo ou um provedor de serviços de nuvem. As assinaturas do Azure adquiridas usando planos de pagamento à medida que você passa ou usando um cartão de crédito não têm suporte para a chave do cliente. A partir de 1º de abril de 2020, a chave de cliente no Office 365 é oferecida no Office 365 e5, M365 e5, M365 E5 conformidade e M365 E5 proteção de informações & SKUs de governança. Office 365 a SKU de conformidade avançada não está mais disponível para novas licenças do aquisição. As licenças de conformidade avançada existentes do Office 365 continuarão a ser suportadas. Embora o serviço possa ser habilitado com um mínimo de uma licença do locatário com a licença apropriada, você ainda deve certificar-se de que todos os usuários que se beneficiam do serviço têm as licenças apropriadas. Você precisará de uma das seguintes licenças:
+- Verifique se você tem o licenciamento apropriado para sua organização. Use uma assinatura paga do Azure faturada usando um contrato corporativo ou um provedor de serviços de nuvem. As assinaturas do Azure adquiridas usando planos de pagamento à medida que você passa ou usando um cartão de crédito não têm suporte para a chave do cliente. A partir de 1º de abril de 2020, a chave de cliente no Office 365 é oferecida no Office 365 e5, M365 e5, M365 E5 conformidade e M365 E5 proteção de informações & SKUs de governança. Office 365 a SKU de conformidade avançada não está mais disponível para novas licenças do aquisição. As licenças de conformidade avançada existentes do Office 365 continuarão a ser suportadas. Embora o serviço possa ser habilitado com um mínimo de uma licença do locatário com a licença apropriada, você ainda deve certificar-se de que todos os usuários que se beneficiam do serviço têm as licenças apropriadas.
 
 ### <a name="create-two-new-azure-subscriptions"></a>Criar duas novas assinaturas do Azure
 

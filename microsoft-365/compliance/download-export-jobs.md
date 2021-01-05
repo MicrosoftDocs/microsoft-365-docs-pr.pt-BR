@@ -17,12 +17,12 @@ search.appverid:
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-mar2020
 description: Instale e use o Azure Storage Explorer para baixar documentos que foram exportados de uma análise definida na descoberta eletrônica avançada.
-ms.openlocfilehash: 4b09521b4a72fc8fda68f5892c899fe76a066809
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 094dcb4ecc8b1ca73a7ec0238ed20b27d4c16e72
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399158"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751288"
 ---
 # <a name="download-export-jobs-in-an-advanced-ediscovery-case"></a>Baixar trabalhos de exportação em uma caixa de descoberta eletrônica avançada
 
@@ -88,7 +88,7 @@ A etapa final é usar o Gerenciador de armazenamento do Azure e a URL SAS para s
 
    A pasta de trabalho de exportação contém os itens a seguir. Os itens reais na pasta de exportação são determinados pelas opções de exportação configuradas quando o trabalho de exportação foi criado. Para obter mais informações, consulte [exportar documentos de um conjunto de revisão](export-documents-from-review-set.md).
 
-    - Export_load_file.csv: este arquivo CSV é um relatório de exportação de detalhes que contém informações sobre cada documento exportado. O arquivo consiste em uma coluna para cada propriedade de metadados de um documento. Para obter uma lista e uma descrição dos metadados incluídos neste relatório, confira a coluna **nome do campo exportado** na tabela em [campos de metadados do documento na descoberta eletrônica avançada](document-metadata-fields.md).
+    - Export_load_file.csv: este arquivo CSV é um relatório de exportação de detalhes que contém informações sobre cada documento exportado. O arquivo consiste em uma coluna para cada propriedade de metadados de um documento. Para obter uma lista e uma descrição dos metadados incluídos neste relatório, confira a coluna **nome do campo exportado** na tabela em [campos de metadados do documento na descoberta eletrônica avançada](document-metadata-fields-in-advanced-ediscovery.md).
     
     - Summary.txt: um arquivo de texto que contém um resumo da exportação incluindo as estatísticas de exportação.
     

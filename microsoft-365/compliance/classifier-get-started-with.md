@@ -1,5 +1,5 @@
 ---
-title: Introdução aos classificadores de treinamento (visualização)
+title: Introdução aos classificadores estagiários
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -18,20 +18,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador da Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo fornecendo amostras de ti para ver. Este artigo mostra como criar e treinar um classificador personalizado e como retreiná-los para aumentar a precisão.
-ms.openlocfilehash: 9fe50f7faada77492fd93a86d0c3549cc8e1d361
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: bca1de5edc3efd38f943b02091c3f47d832e6a19
+ms.sourcegitcommit: 54d1a2f363b2d5b63aae258c3cec0573a08f2866
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072960"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49752655"
 ---
-# <a name="get-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
+# <a name="get-started-with-trainable-classifiers"></a>Introdução aos classificadores estagiários
 
 Um classificador Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras a eles. Depois de treinado, você pode usá-lo para identificar o item para a aplicação de rótulos de confidencialidade do Office, políticas de conformidade de comunicações e políticas de rótulo de retenção.
 
 A criação de um classificador personalizável personalizado primeiro envolve fornecer amostras de ti de forma humana e coincidir positivamente a categoria. Depois de ter processado esses, você testará a capacidade dos classificadores para prever dando a ele uma mistura de amostras positivas e negativas. Este artigo mostra como criar e treinar um classificador personalizado e como melhorar o desempenho de classificadores treinados personalizados e classificadores pré-qualificados em seu tempo de vida por meio de um retreinamento.
 
-Para saber mais sobre os diferentes tipos de classificadores, confira [saiba mais sobre classificadores estagiários (visualização)](classifier-learn-about.md).
+Para saber mais sobre os diferentes tipos de classificadores, confira [saiba mais sobre classificadores estagiários](classifier-learn-about.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -39,12 +39,12 @@ Para saber mais sobre os diferentes tipos de classificadores, confira [saiba mai
 
 Os classificadores são um recurso de conformidade do Microsoft 365 E5 ou e5. Você deve ter uma dessas assinaturas para usá-las.
 
-### <a name="permissions"></a>Permissões
+### <a name="permissions"></a>Permissions
 
 Para acessar classificadores na interface do usuário: 
 
 - o administrador global precisa aceitar o locatário para criar classificadores personalizados.
-- O administrador de conformidade ou a função de investigação de dados é necessária para treinar um classificador.
+- A função de administrador de conformidade é necessária para treinar um classificador.
 
 Você precisará de contas com essas permissões para usar classificadores nestes cenários:
 
@@ -101,7 +101,7 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
    > [!TIP]
    > Se você criar um novo site e pasta para seus dados semente, permita que pelo menos uma hora para esse local seja indexado antes de criar o classificador treinado que usará esses dados de propagação.
 
-3. Entre no centro de conformidade da Microsoft 365 com administrador de conformidade ou acesso à função de administrador de segurança e abra **o centro de conformidade** da Microsoft 365 ou a classificação de dados **do centro de segurança da Microsoft 365**  >  **Data classification**.
+3. Entre no centro de conformidade da Microsoft 365 com administrador de conformidade ou acesso à função de administrador de segurança e abra **o centro de conformidade** da Microsoft 365 ou a classificação de dados **do centro de segurança da Microsoft 365**  >  .
 
 4. Escolha a guia **classificadores estagiários** .
 
