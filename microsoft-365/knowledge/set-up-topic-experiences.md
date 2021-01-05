@@ -11,26 +11,30 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como configurar experiências de tópico no Microsoft 365
-ms.openlocfilehash: 3ff822d863e99f7e52089d3efde3d597df9957c7
-ms.sourcegitcommit: 806536f859ac864228797f1f2f23b8f41040a6b4
+ms.openlocfilehash: d221f2932dc2ca9f562800b7b274e35e7f3d1db3
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49735805"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749606"
 ---
 # <a name="set-up-topic-experiences-in-microsoft-365"></a>Configurar experiências de tópico no Microsoft 365
-
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
-
-</br>
 
 Você pode usar o centro de administração do Microsoft 365 para configurar e configurar [experiências de tópico](topic-experiences-overview.md). 
 
 É importante planejar a melhor maneira de configurar e configurar tópicos em seu ambiente. Certifique-se de ler [planejar experiências de tópico](plan-topic-experiences.md) antes de começar os procedimentos neste artigo.
 
 Você deve ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar experiências de tópico.
+
+## <a name="video-demonstration"></a>Demonstração de vídeo
+
+Este vídeo mostra o processo de configuração de experiências de tópico no Microsoft 365.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
+
+<br>
 
 ## <a name="set-up-topic-experiences"></a>Configurar Experiências de tópico
 

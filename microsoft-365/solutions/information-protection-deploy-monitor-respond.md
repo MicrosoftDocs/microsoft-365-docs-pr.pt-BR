@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 01/04/2021
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Use as políticas de auditoria e de alerta e as solicitações de entidades de dados para monitorar e responder a incidentes de dados pessoais.
-ms.openlocfilehash: 296220ac8b34d9ce10c783194b78ca344e746b84
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 3ae0f2a6528f6188500c7cee7732c6447013eaa6
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377194"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749582"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>Monitorar e responder a incidentes de privacidade de dados em sua organização
 
@@ -78,9 +78,6 @@ Consulte [solicitações de entidades de dados para o rgpd e o CCPA](../complian
 
 Para o Microsoft Stream, quando um usuário é excluído do Azure Active Directory (Azure AD), se o nome tiver sido associado a um vídeo de fluxo Postado antes desse ponto, o endereço de email permanecerá associado ao vídeo. Consulte [Manage Deleted users from Microsoft Stream](https://docs.microsoft.com/stream/managing-deleted-users) para removê-lo.
 
-## <a name="additional-investigative-tools"></a>Ferramentas adicionais investigativas
+## <a name="insider-risk-management-as-an-investigative-tool"></a>Gerenciamento de risco do insider como uma ferramenta investigativa
 
-Aqui estão duas ferramentas adicionais que podem ser úteis para monitorar, investigar e corrigir incidentes relacionados à privacidade de dados em sua organização:
-
-- [Gerenciamento de risco do insider no microsoft 365](../compliance/insider-risk-management.md), um recurso do centro de administração de conformidade da Microsoft para ajudar a minimizar o risco interno, permitindo que você detecte, investigue e execute ações sobre atividades arriscadas em sua organização.
-- [Investigações de dados no microsoft 365](../compliance/overview-data-investigations.md), um recurso do centro de administração de conformidade da Microsoft para pesquisar dados confidenciais, maliciosos ou incorretos no Microsoft 365 e, em seguida, investigue o que aconteceu em tomar as ações apropriadas para corrigir o incidente.
+O [Gerenciamento de riscos do insider no microsoft 365](../compliance/insider-risk-management.md) é um recurso do centro de administração de conformidade da Microsoft para ajudá-lo a minimizar o risco interno, permitindo que você detecte, investigue e execute ações em atividades arriscadas em sua organização.

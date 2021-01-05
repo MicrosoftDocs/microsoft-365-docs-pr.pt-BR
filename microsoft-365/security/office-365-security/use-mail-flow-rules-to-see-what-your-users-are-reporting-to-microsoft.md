@@ -15,12 +15,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de emails (também conhecidas como regras de transporte) para receber cópias das mensagens que os usuários reportam à Microsoft.
-ms.openlocfilehash: 0f3046c9d1962366ffd75353347b6cf7b72afd14
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: ec7145b68548bb5e1d6841387a18e86b74ec2a78
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659844"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751566"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft
 
@@ -33,7 +33,7 @@ Você pode criar uma regra de fluxo de emails (também conhecida como regra de t
 
 Você pode criar a regra de fluxo de emails no centro de administração do Exchange (Eat) e no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Você precisa receber permissões no Exchange Online ou na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisa da função de **regras de transporte** , que é atribuída ao **Gerenciamento de organização**, gerenciamento de **conformidade** (administradores globais) e grupos de função de **Gerenciamento de registros** por padrão.
 
@@ -69,7 +69,7 @@ Você pode criar a regra de fluxo de emails no centro de administração do Exch
      - `junk@office365.microsoft.com`
      - `abuse@messaging.microsoft.com`
      - `phish@office365.microsoft.com`
-     - `false_positive@messaging.microsoft.com`
+     - `not_junk@office365.microsoft.com`
 
      Para editar uma entrada, selecione-a e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) . Para remover uma entrada, selecione-a e clique em **remover** ![ ícone Remover ](../../media/ITPro-EAC-DeleteIcon.png) .
 

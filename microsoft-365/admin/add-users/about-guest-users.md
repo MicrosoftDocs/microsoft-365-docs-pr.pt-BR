@@ -21,21 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a lista de usuários convidados é preenchida no centro de administração do Microsoft 365.
-ms.openlocfilehash: c698332351d525c12659849826d9e822351a347d
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 338b86d7f32eb2a2ecbacc3d7d1e00124c3804e4
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48463973"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751431"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Usuários convidados no centro de administração do Microsoft 365
 
-Quando você adiciona convidados ao Microsoft Teams ou SharePoint, esses usuários são adicionados à lista de usuários convidados no centro de administração. Você também pode adicionar usuários convidados no Azure Active Directory para que eles possam colaborar com os usuários da sua organização. Os usuários convidados podem participar de reuniões, exibir documentos e bater papo no Microsoft Teams para as quais estão convidados.
-Depois que um usuário for adicionado à lista de usuários convidados, você poderá remover o acesso nele.
+Qualquer convidado que você adicionar ao Microsoft Teams, SharePoint ou Active Directory do Azure também será adicionado à lista de **usuários convidados** no centro de administração da Microsoft. Os convidados podem participar de reuniões, exibir documentos e bater papo no Microsoft Teams para as quais estão convidados.
+Depois que um usuário aparecer na lista de **usuários convidados** , você poderá remover seu acesso ali.
 
-Para exibir os usuários convidados, no centro de administração do Microsoft 365, no NAV esquerdo, expanda **Users**e, em seguida, escolha **usuários convidados**.
+Para exibir os usuários convidados, no centro de administração do Microsoft 365, no NAV esquerdo, expanda **Users** e, em seguida, escolha **usuários convidados**.
 
-## <a name="add-guest-users-to-teams"></a>Adicionar usuários convidados ao Microsoft Teams
+## <a name="add-guests-to-teams"></a>Adicionar convidados ao Microsoft Teams
 
 Para ver como adicionar um convidado ao Microsoft Teams, confira o seguinte vídeo: <br><br>
 
@@ -47,19 +47,17 @@ Para ingressar em uma equipe como um convidado, confira o seguinte vídeo:<br><b
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4tyys]
 
-## <a name="add-guest-users-in-azure-active-directory"></a>Adicionar usuários convidados no Azure Active Directory
+## <a name="add-guests-in-azure-active-directory"></a>Adicionar convidados no Azure Active Directory
 
-Para adicionar usuários convidados no Active Directory do Azure, confira [Adicionar usuários convidados](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+Para adicionar convidados no Azure Active Directory, confira [Adicionar usuários convidados](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-Ao adicionar um usuário, você também pode atribuí-los a um grupo ou conceder a eles acesso a um aplicativo em sua organização. Após adicionar um usuário no portal do Azure AD, esse usuário também será listado na página usuários convidados no centro de administração do Microsoft 365.
-Após um usuário ser adicionado à lista de usuários convidados, eles podem ser [adicionados aos grupos](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) no centro de administração do Microsoft 365.
+Após adicionar um usuário, você também pode atribuí-los a um grupo ou conceder a eles acesso a um aplicativo em sua organização. Após adicionar um usuário no portal do Azure AD, esse usuário também será listado na página **usuários convidados** no centro de administração do Microsoft 365.
+Após um usuário ser adicionado à lista de **usuários convidados** , eles podem ser [adicionados aos grupos](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) no centro de administração do Microsoft 365.
 
-Consulte [Adicionar usuários convidados em massa](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) para convidar vários convidados para colaborar com sua organização.
+Confira [adicionar convidados em massa](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) para convidar vários convidados para colaborar com sua organização.
 
 
-## <a name="remove-a-guest-user"></a>Remover um usuário convidado
-
-Para remover um usuário convidado:
+## <a name="remove-a-guest"></a>Remover um convidado
 
 1. No centro de administração do Microsoft 365, expanda **usuários** e, em seguida, escolha **usuários convidados**.
 1. Na página **usuários convidados** , escolha o usuário que você deseja remover e, em seguida, escolha **excluir um usuário**. 

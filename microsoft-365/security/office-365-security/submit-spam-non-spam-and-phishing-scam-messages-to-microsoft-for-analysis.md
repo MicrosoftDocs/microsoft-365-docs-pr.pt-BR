@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails em bom estado marcados como inválidos ou incorretos) para a Microsoft para análise.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68a0921f85e5b916cd53ebe84e4ea7d35e39967e
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: fe8e3c5ed44c7578764ed0bf19408f4db16e3740
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877700"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751554"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente para a Microsoft para análise
 
@@ -48,9 +48,9 @@ Se você receber uma mensagem que passa pelo filtro de spam que deve ter sido id
 
 1. Crie uma nova mensagem de email em branco com um dos seguintes destinatários:
 
-   - **Lixo eletrônico** : `junk@office365.microsoft.com`
+   - **Lixo eletrônico**: `junk@office365.microsoft.com`
 
-   - **Phishing** : `phish@office365.microsoft.com`
+   - **Phishing**: `phish@office365.microsoft.com`
 
 2. Arraste e solte a mensagem de lixo eletrônico ou phishing na nova mensagem. Isso salvará o lixo eletrônico ou a mensagem de phishing como um anexo na nova mensagem. Não copie e cole o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os cabeçalhos da mensagem).
 
@@ -90,6 +90,10 @@ Se uma mensagem foi identificada incorretamente como spam, você pode enviar a m
 
 > [!TIP]
 > Os administradores têm várias maneiras diferentes de permitir que mensagens específicas ignorem a filtragem de spam. Para obter detalhes, consulte [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).
+
+## <a name="where-is-the-data-from-submissions-to-microsoft-stored"></a>Onde os dados dos envios para a Microsoft estão armazenados?
+
+Os dados residem no limite de conformidade do Office 365 nos data centers da América do Norte. Os dados são revisados por analistas na equipe de engenharia para ajudar a melhorar a eficácia dos filtros.
 
 ## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Criar uma regra de fluxo de email para receber cópias de mensagens relatadas para a Microsoft
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Perguntas frequentes sobre o Microsoft bookings.
-ms.openlocfilehash: 47bb71476c3fd0b32f9be3e71b188bef6efe2498
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 35e1b71fb7d87d40aa9a3a60d2e3cf108f36c2bf
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561550"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751376"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Perguntas frequentes sobre o Microsoft bookings
 
@@ -34,6 +34,10 @@ As reservas estão disponíveis e ativas por padrão para o Microsoft 365 Busine
 ### <a name="will-my-customers-see-my-personal-or-business-calendar"></a>Meus clientes irão ver meu calendário pessoal ou comercial?
 
 Seus clientes só verão o calendário de livros que você publicou online para os serviços, os horários e a equipe que você escolher registrar.
+
+### <a name="how-do-i-change-a-bookable-attribute-under-manage-staff"></a>Como altero um atributo que pôde ser agendado em Gerenciar equipe?
+
+Quando os membros da equipe foram adicionados, eles receberam um email para aceitar ou rejeitar a solicitação. Eles podem abrir o mesmo email e selecionar "rejeitar" para torná-los não-bookáveis. No momento, não há uma maneira de mudar isso de dentro do aplicativo.
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>Como os usuários finais acessam o aplicativo de reservas?
 
@@ -324,7 +328,7 @@ Para que as reservas sejam sincronizadas corretamente com os calendários dos me
 
 Se um funcionário saiu da sua empresa e você os removeu da sua organização do Microsoft 365 ou do Office 365, ainda será necessário remover esse usuário dos livros de modo que eles não apareçam no calendário e para evitar que os clientes façam reservas de compromissos.
 
-1. Entre no Microsoft 365 e vá para a equipe de **reservas** \> **Staff**.
+1. Entre no Microsoft 365 e vá para a equipe de **reservas** \> .
 
 1. Passe o cursor do mouse sobre o nome do membro da equipe. Os ícones **Editar** e **excluir** aparecem à direita da coluna **telefone** .
 
@@ -354,11 +358,11 @@ Se você ainda vir esse erro após um longo período de tempo ou se estiver vend
 
   - [Começar a usar o Microsoft bookings](get-access.md)
 
-  - [Ativar ou desativar o Microsoft bookings](turn-bookings-on-or-off.md)
+  - [Ativar ou desativar o Microsoft Bookings](turn-bookings-on-or-off.md)
 
   - [Adicionar usuários individualmente ou em massa](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide.)
 
-  - [Adicionar equipe a reservas](add-staff.md)
+  - [Adicionar funcionários ao Microsoft Bookings](add-staff.md)
 
   - [Componentes da API para automatizar após a definição do modelo](https://docs.microsoft.com/graph/api/bookingbusiness-post-bookingbusinesses)
 
@@ -366,7 +370,7 @@ Se você ainda vir esse erro após um longo período de tempo ou se estiver vend
 
   - [Políticas de conformidade de livros](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365?view=o365-worldwide#bookings)
 
-  - [Personalizar e publicar sua página de reservas](customize-booking-page.md)
+  - [Personalizar e publicar a página de reserva](customize-booking-page.md)
 
   - [Configuração da caixa de correio do locatário](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 

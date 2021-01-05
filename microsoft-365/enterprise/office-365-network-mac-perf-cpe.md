@@ -3,7 +3,7 @@ title: Roteamento de rede Microsoft 365 informado
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 1/21/2020
+ms.date: 12/22/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Roteamento de rede Microsoft 365 informado
-ms.openlocfilehash: 40b4345ca80c5e90a07583b83b82368d4a35535a
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: 367f83684a4a200e3ddd630e1412c756d7093da1
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611431"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749546"
 ---
 # <a name="microsoft-365-informed-network-routing-preview"></a>Roteamento de rede informado da Microsoft 365 (versão prévia)
 
@@ -28,7 +28,7 @@ O roteamento de rede informado é um recurso que integra vários aplicativos da 
 >[!IMPORTANT]
 >O roteamento de rede Microsoft 365 informado está atualmente no status de visualização. Para obter mais informações sobre esta visualização, incluindo orientações para receber assistência, consulte [Microsoft 365 informative Routing Public Preview](https://go.microsoft.com/fwlink/?linkid=2151565).
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O roteamento de rede informado fornece um canal de compartilhamento de dados bidirecional entre a Microsoft e sua solução SD-WAN. Para todos os locais do Office e o circuito da Internet que você configura, a Microsoft compartilha periodicamente comentários com a solução SD-WAN na qualidade das experiências de aplicativo do Microsoft 365 selecionadas para o tráfego de rede associado a cada circuito de Internet específico. Usando esse feedback, a solução SD-WAN pode realizar ações de recuperação inteligentes ao rotear o tráfego do aplicativo Microsoft 365 através de links alternativos disponíveis. 
 

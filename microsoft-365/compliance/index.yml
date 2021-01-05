@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 1884e0a4946546f4f51aa8afc2476bbdd9d4346c
-  ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+  ms.openlocfilehash: a474347a193c7ba630fd9696a478e50f73af14f1
+  ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 12/01/2020
-  ms.locfileid: "49519312"
+  ms.lasthandoff: 01/05/2021
+  ms.locfileid: "49751076"
 landingContent:
 - title: Gerenciar proteção de informação e governança
   linkLists:
@@ -58,8 +58,6 @@ landingContent:
       url: ediscovery-cases.md
     - text: Pesquisa de conteúdo
       url: search-for-content.md
-    - text: Investigações de dados (pre-visualização)
-      url: overview-data-investigations.md
     - text: Auditoria
       url: search-the-audit-log-in-security-and-compliance.md
 - title: Introdução à conformidade regulamentar
