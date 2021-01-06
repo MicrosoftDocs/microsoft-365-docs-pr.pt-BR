@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b95d81114e60c9d805b90b007d40d4c1a2e62b1
-ms.sourcegitcommit: 555b200b618085706dabf8648d27fb6d6427cfce
+ms.openlocfilehash: 4d4be264791c4f3d37d7a88cb3d12d1023b3c347
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/30/2020
-ms.locfileid: "49739784"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759885"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -145,10 +145,7 @@ Essa função permite que os usuários exibam uma lista de itens que foram retor
 
 ### <a name="review"></a>Analisar
 
-Essa função permite que os usuários acessem os dados de ocorrência em [descoberta eletrônica avançada (clássico)](office-365-advanced-ediscovery.md) (também conhecido como *descoberta eletrônica v1 avançada*). O principal objetivo dessa função é fornecer aos usuários acesso à descoberta eletrônica avançada (clássico). Os usuários atribuídos a essa função podem ver e abrir a lista de casos na página **descoberta eletrônica** no centro de conformidade de & de segurança do qual eles são membros. Depois que o usuário acessa um caso no centro de conformidade & segurança, ele pode selecionar **alternar para descoberta eletrônica avançada** para acessar e analisar os dados do caso na descoberta eletrônica avançada (clássico). Essa função não permite que o usuário visualize os resultados de uma pesquisa de conteúdo associada ao caso ou outras tarefas de gerenciamento de caso ou de pesquisa de conteúdo.
-
-> [!NOTE]
-> No momento, os usuários atribuídos à função de revisão (ou é um membro do grupo de funções revisor) não podem acessar os dados na [descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) (também conhecido como *descoberta eletrônica avançada v 2.0*). Para adicionar membros a um caso no AutoDiscovery v 2.0 para que eles possam revisar os dados do caso, um usuário deve ser membro do grupo de função Gerenciador de descoberta eletrônica.
+Essa função permite que os usuários acessem conjuntos de análise na [descoberta eletrônica avançada](overview-ediscovery-20.md). Os usuários atribuídos a essa função podem ver e abrir a lista de casos na página de **descoberta eletrônica > avançada** no centro de conformidade da Microsoft 365 em que eles são membros. Depois que o usuário acessa um caso de descoberta eletrônica avançada, ele pode selecionar **conjuntos de revisão** para acessar dados de caso. Essa função não permite que o usuário visualize os resultados de uma pesquisa de coleção associada ao caso ou outras tarefas de gerenciamento de pesquisa ou caso. Os usuários com essa função só podem acessar os dados em um conjunto de revisão.
 
 ### <a name="rms-decrypt"></a>Descriptografia do RMS
 

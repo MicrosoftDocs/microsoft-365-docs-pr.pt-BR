@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: A Microsoft 365 oferece várias ferramentas de descoberta eletrônica diferentes que você pode usar para pesquisar e manter o conteúdo encontrado em locais diferentes, como caixas de correio do Exchange, sites do SharePoint e do OneDrive for Business, Microsoft 365 grupos e conversas do Skype for Business.
-ms.openlocfilehash: 2f18d3a9559293e071b7060f0e4a01a7352097c1
-ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
+ms.openlocfilehash: a6708bdf012d2cfbb182d624c8c889de5fb51c7f
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45148121"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760215"
 ---
 # <a name="ediscovery-in-microsoft-365"></a>Descoberta eletrônica no Microsoft 365
 
@@ -34,9 +34,6 @@ A Microsoft 365 fornece as seguintes ferramentas de descoberta eletrônica:
 - [Descoberta Eletrônica Central](#core-ediscovery)
 
 - [Descoberta Eletrônica Avançada](#advanced-ediscovery)
-
-> [!NOTE]
-> A descoberta eletrônica avançada (clássica) (também chamada de *descoberta eletrônica avançada v 1.0*), que é a versão da descoberta eletrônica avançada disponível em um caso de descoberta eletrônica principal clicando em **alternar para descoberta eletrônica avançada**, está sendo desativada. Sua funcionalidade foi substituída pela solução de descoberta eletrônica avançada no Microsoft 365. Para obter mais informações sobre a aposentadoria do Advanced eDiscovery v 1.0, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).
 
 ## <a name="content-search"></a>Pesquisa de Conteúdo
 
@@ -52,7 +49,7 @@ A tabela a seguir contém links para tópicos que irão ajudá-lo a usar a ferra
 |[Exportar um relatório da Pesquisa de Conteúdo](export-a-content-search-report.md) <br/> |Saiba como baixar o relatório de exportação sem precisar exportar os resultados de pesquisa reais.  <br/> |
 |[Limites de pesquisa de conteúdo](limits-for-content-search.md) <br/> |Saiba mais sobre os limites da ferramenta de pesquisa de conteúdo, como o número máximo de pesquisas que podem ser executadas ao mesmo tempo.  <br/> |
 |[Itens não indexados em Pesquisa de Conteúdo](partially-indexed-items-in-content-search.md) <br/> |Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir nas estatísticas de resultados de pesquisa estimadas ao executar uma pesquisa. Você também pode incluir itens não indexados ao exportar os resultados da pesquisa.  <br/> |
-|[Pesquisar e excluir mensagens de email](search-for-and-delete-messages-in-your-organization.md) <br/> |Saiba como usar a pesquisa de conteúdo para pesquisar e excluir uma mensagem de email de *todas as* caixas de correio em sua organização. Isso pode ajudá-lo a encontrar e remover emails potencialmente prejudiciais ou de alto risco.  <br/> |
+|[Pesquisar e excluir mensagens de email](search-for-and-delete-messages-in-your-organization.md) <br/> |Saiba como usar a pesquisa de conteúdo para pesquisar e excluir uma mensagem de email de  *todas as*  caixas de correio em sua organização. Isso pode ajudá-lo a encontrar e remover emails potencialmente prejudiciais ou de alto risco.  <br/> |
 |[Usar a pesquisa de conteúdo para pesquisar a caixa de correio e as contas do OneDrive para obter uma lista de usuários](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) <br/> |Saiba como usar um script para pesquisar a caixa de correio e uma unidade para o site de negócios de um grupo de usuários. Consulte [criar uma lista de todos os locais do onedrive](https://docs.microsoft.com/onedrive/list-onedrive-urls) para obter etapas sobre como gerar rapidamente uma lista de endereços de email que você pode usar para os locais de conteúdo de origem ao criar e executar pesquisas de conteúdo.  <br/> |
 |[Usar a Pesquisa de Conteúdo para determinadas coleções](use-content-search-for-targeted-collections.md) <br/> |Saiba como usar o script do Windows PowerShell neste artigo para realizar coleções direcionadas usando a pesquisa de conteúdo. Uma coleção direcionada significa que você deseja pesquisar uma pasta específica, pois você tem certeza de que os itens que respondem a um caso (ou itens privilegiados) estão localizados nessa pasta. Use o script neste artigo para obter a ID da pasta ou o caminho das pastas de caixa de correio ou de site específicas que você deseja pesquisar.  <br/> |
 |||

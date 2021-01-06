@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Saiba como criar uma política de nomenclatura para os grupos do Microsoft 365.
-ms.openlocfilehash: 9bc0a4c7e1ae6ad532c97b442a2bc50880a942fc
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: acf660375508760bd2e9874a07454709849929b0
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698670"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759819"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Política de nomenclatura de grupos do Microsoft 365
 
 Você pode usar uma política de nomeação de grupo para impor uma estratégia de nomenclatura consistente para grupos criados por usuários em sua organização. Uma política de nomenclatura pode ajudar você e seus usuários a identificar a função do grupo, da associação, da região geográfica ou quem criou o grupo. A política de nomenclatura também pode ajudar a categorizar grupos no catálogo de endereços. Você pode usar a política para bloquear a utilização de palavras específicas em nomes de grupo e aliases.
 
-A política de nomenclatura é aplicada a grupos criados em todas as cargas de trabalho de grupos (como Outlook, Microsoft Teams, SharePoint, Planner, Yammer, etc.). Ela é aplicada ao nome do grupo e ao alias do grupo. Ela é aplicada quando um usuário cria um grupo e quando o nome ou o alias do grupo é editado para um grupo existente.
+A política de nomenclatura é aplicada a grupos criados em todas as cargas de trabalho de grupos (como Outlook, Microsoft Teams, SharePoint, Planner, Yammer, etc.). Ela é aplicada ao nome do grupo e ao alias do grupo. Ela também é aplicada quando um usuário cria um grupo e quando o nome do grupo, alias, descrição ou avatar é editado para um grupo existente.
 
 > [!TIP]
 > Uma política de nomenclatura de grupo do Microsoft 365 só se aplica aos grupos do Microsoft 365. Ele não se aplica a grupos de distribuição criados no Exchange Online. Para criar uma política de nomenclatura para grupos de distribuição, consulte [criar uma política de nomenclatura de grupo de distribuição](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
@@ -108,7 +108,7 @@ Nenhuma pesquisa de subcadeias de caracteres é executada; especificamente, uma 
 
 Alguns administradores são isentos dessas políticas, em todas as cargas de trabalho de grupo e pontos de extremidade, para que eles possam criar grupos com essas palavras bloqueadas e com as convenções de nomenclatura desejadas. Veja a seguir a lista de funções de administrador isentas da política de nomeação de grupo.
 
-- Administrador global
+- Administração global
 
 - Suporte da camada 1 do parceiro
 

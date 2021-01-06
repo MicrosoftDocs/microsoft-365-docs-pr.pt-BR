@@ -14,14 +14,14 @@ ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a alternar para o Exchange Online Protection (EOP) de um dispositivo de higiene de email local ou serviço de proteção baseado em nuvem.
-ms.openlocfilehash: 25669982c06127331369fdb595c6614733681047
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a007bb94c35f7712b69ad5eef4152455c114ca24
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202120"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760381"
 ---
-# <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Mudando para EOP da Google Postini, Firewall de Vírus ou Spam Barracuda ou Cisco IronPort
+# <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Mudar para EOP do Google Postini, do Firewall de Vírus ou Spam Barracuda, ou do Cisco IronPort
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -44,7 +44,7 @@ Se você atualmente hospeda as suas caixas de correio localmente e use uma ferra
 
 ## <a name="switch-to-exchange-online"></a>Mude para o Exchange Online
 
-Talvez você tenha caixas de correio locais protegidas por um dispositivo local e queira saltar para as caixas de correio hospedadas na nuvem do Exchange Online e a proteção do EOP para aproveitar os recursos de proteção e mensagens na nuvem da Microsoft 365. Para começar, você pode se inscrever no Microsoft 365 e adicionar seu domínio. Este cenário não exige que você instale conectores, porque nao há nenhum roteamento para caixas de correio locais. Comece a [obter os recursos avançados mais recentes com o Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) para se inscrever e se familiarizar com seus recursos.
+Talvez você tenha caixas de correio locais protegidas por um dispositivo local e queira saltar para as caixas de correio hospedadas na nuvem do Exchange Online e a proteção do EOP para aproveitar os recursos de proteção e mensagens na nuvem da Microsoft 365. Para começar, você pode se inscrever no Microsoft 365 e adicionar seu domínio. Este cenário não exige que você configure conectores, porque não há nenhum roteamento para caixas de correio locais. Comece a [obter os recursos avançados mais recentes com o Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) para se inscrever e se familiarizar com seus recursos.
 
 Durante o processo de instalação do Microsoft 365, você irá criar seus usuários de caixa de correio baseados na nuvem.
 

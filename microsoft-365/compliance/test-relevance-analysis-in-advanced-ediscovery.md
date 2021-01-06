@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
+ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como usar a guia teste após o cálculo de lote em descoberta eletrônica avançada para testar, comparar e validar a qualidade geral do processamento.
-ms.openlocfilehash: e408d79aac8015da210f983b7b388ace84fc383a
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 52198dc5218c49598403c3f1ece201fc4f00dd47
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663414"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760317"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Testar análise de relevância na descoberta eletrônica avançada (clássica)
 
@@ -109,18 +110,3 @@ O teste "testar a fatia" executa testes semelhantes ao teste "testar o REST", ma
 10. Revise e marque cada um dos arquivos na **guia \> marca de relevância** e, quando terminar, clique em **calcular**. 
     
 11. Na guia teste, você pode clicar em **exibir resultados** para ver os resultados do teste. 
-    
-## <a name="see-also"></a>Também consulte
-
-[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
-  
-[Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[Marcação e avaliação](tagging-and-assessment-in-advanced-ediscovery.md)
-  
-[Treinamento de marcação e relevância](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[Análise de relevância de rastreamento](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[Decidindo com base nos resultados](decision-based-on-the-results-in-advanced-ediscovery.md)
-

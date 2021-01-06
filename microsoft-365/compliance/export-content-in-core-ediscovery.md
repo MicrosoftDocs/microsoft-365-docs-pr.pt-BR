@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como exportar e baixar o conteúdo de uma ocorrência de descoberta eletrônica principal.
-ms.openlocfilehash: e0d4315c48a0d0878b8052265ff8663cd1987169
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 30fc30943bd570cf4d79ce88b5bef5836b3dfe14
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551353"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760295"
 ---
 # <a name="export-content-from-a-core-ediscovery-case"></a>Exportar conteúdo de um caso de descoberta eletrônica principal
 
-Após uma pesquisa ser executada com êxito, você pode exportar os resultados da pesquisa. Quando você exporta os resultados da pesquisa, os itens da caixa de correio são baixados em arquivos PST ou como mensagens individuais. Quando você exporta conteúdo de sites do SharePoint e do OneDrive for Business, cópias de documentos nativos do Office e outros documentos são exportadas. Um arquivo Results. csv que contém informações sobre cada item que é exportado e um arquivo de manifesto (no formato XML) que contém informações sobre cada resultado de pesquisa também é exportado.
+Após uma pesquisa ser executada com êxito, você pode exportar os resultados da pesquisa. Quando você exporta os resultados da pesquisa, os itens da caixa de correio são baixados em arquivos PST ou como mensagens individuais. Quando você exporta conteúdo de sites do SharePoint e do OneDrive for Business, cópias de documentos nativos do Office e outros documentos são exportadas. Um arquivo de Results.csv que contém informações sobre cada item que é exportado e um arquivo de manifesto (no formato XML) que contém informações sobre cada resultado de pesquisa também é exportado.
   
 Você pode exportar os resultados de uma [única pesquisa associada a um caso](#export-the-results-of-a-single-search) ou pode exportar os resultados de [várias pesquisas associadas a um caso](#export-the-results-of-multiple-searches).
   
@@ -34,7 +34,7 @@ Você pode exportar os resultados de uma [única pesquisa associada a um caso](#
 
 1. Acesse [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre usando as credenciais da conta de usuário que receberam as permissões de descoberta eletrônica apropriadas.
 
-2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo**e, em seguida, clique em **descoberta eletrônica > Core**.
+2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo** e, em seguida, clique em **descoberta eletrônica > Core**.
 
 3. Na página de **descoberta eletrônica principal** , selecione o caso para o qual você deseja exportar os resultados de pesquisa e clique em **abrir caso**.
 
@@ -70,7 +70,7 @@ Como alternativa para exportar os resultados de uma única pesquisa associada a 
 
 1. Acesse [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre usando as credenciais da conta de usuário que receberam as permissões de descoberta eletrônica apropriadas.
 
-2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo**e, em seguida, clique em **descoberta eletrônica > Core**.
+2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo** e, em seguida, clique em **descoberta eletrônica > Core**.
 
 3. Na página de **descoberta eletrônica principal** , selecione o caso para o qual você deseja exportar os resultados de pesquisa e clique em **abrir caso**.
 
@@ -105,5 +105,3 @@ Como alternativa para exportar os resultados de uma única pesquisa associada a 
 - Se você reiniciar a exportação, todas as alterações nas consultas das pesquisas que compõem o trabalho de exportação não afetarão os resultados da pesquisa recuperados. Quando você reinicia uma exportação, o mesmo trabalho combinado de consulta de pesquisa que foi executado quando o trabalho de exportação foi criado será executado novamente.
 
 - Além disso, se você reiniciar uma exportação, os resultados de pesquisa que são copiados para o local de armazenamento do Azure substituirão os resultados anteriores. Os resultados anteriores que foram copiados não estarão disponíveis para download.
-
-- A preparação dos resultados de várias pesquisas de análise na descoberta eletrônica avançada (clássica) não está disponível. Você só pode preparar os resultados de uma única pesquisa para análise na descoberta eletrônica avançada (clássico).

@@ -15,13 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
 description: Saiba como a guia decidir em descoberta eletrônica avançada fornece dados que podem ajudá-lo a determinar o tamanho correto do conjunto de arquivos de caso.
+ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60213226bef1c04767d4be17a09b58d6940ac223
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+ms.openlocfilehash: 0423a21520375f1d9de8e2eaeca142b979ff1883
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562962"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759863"
 ---
 # <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a>Decisão com base nos resultados da descoberta eletrônica avançada (clássica)
 
@@ -54,17 +55,3 @@ Esta guia inclui os seguintes componentes:
     
 O painel de detalhes expandido exibe detalhes adicionais. Os arquivos nas figuras de coleção não incluem arquivos vazios ou nebulous. Os números de arquivos da família representam arquivos que não são carregados em relevância, ainda que sejam contados como parte da família.
   
-## <a name="related-topics"></a>Tópicos relacionados
-
-[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
-  
-[Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[Marcação e avaliação](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[Realizando treinamento de relevância](tagging-and-assessment-in-advanced-ediscovery.md)
-  
-[Análise de relevância de rastreamento](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[Testando análise de relevância](test-relevance-analysis-in-advanced-ediscovery.md)
-

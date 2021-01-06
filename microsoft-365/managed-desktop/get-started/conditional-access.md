@@ -9,16 +9,20 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 76a73372cc7517c3241390e58c28b0b02bffd664
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: d7fe410f114d43d4f6c983aaf23d949298635318
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527692"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760098"
 ---
 # <a name="adjust-settings-after-enrollment"></a>Ajustar as configurações após o registro
 
 Após concluir o registro na área de trabalho gerenciada da Microsoft, você precisará ajustar determinadas configurações do Microsoft Intune e do Azure Active Directory (Azure AD) para permitir o gerenciamento e manter a segurança. Defina as configurações a seguir para excluir os grupos do Azure AD que contêm os usuários e dispositivos da área de trabalho gerenciada da Microsoft. Para obter etapas para excluir grupos, consulte [acesso condicional: usuários e grupos](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users).
+
+> [!NOTE]
+> Se você fizer alterações após o registro em políticas no Microsoft Intune, Azure Active Directory ou Microsoft 365, é possível que a área de trabalho gerenciada da Microsoft possa parar de funcionar corretamente. Para evitar problemas com as operações de área de trabalho gerenciada da Microsoft, verifique as configurações específicas descritas em [corrigir problemas encontrados pela ferramenta de avaliação de prontidão antes de](../get-ready/readiness-assessment-fix.md) alterar qualquer política.
+
 
 ## <a name="microsoft-intune-settings"></a>Configurações do Microsoft Intune
 

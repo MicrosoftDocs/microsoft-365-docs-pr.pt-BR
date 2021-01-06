@@ -19,22 +19,21 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: Entenda por que os resultados de pesquisa estimados e reais podem variar nas pesquisas executadas com as ferramentas de descoberta eletrônica no Office 365.
-ms.openlocfilehash: 2c127077552b831d5bd890e03772b137338e1674
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: a5a66e070bf41cf6b3263dbae1e6ac5d136d9465
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357641"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760249"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>Diferenças entre os resultados de pesquisa de descoberta eletrônica estimado e real
 
-Este tópico se aplica a pesquisas que podem ser executadas usando uma das seguintes ferramentas de descoberta eletrônica da Microsoft: 
+Este tópico se aplica a pesquisas que você pode executar usando uma das seguintes ferramentas de eDiscovery da Microsoft 365: 
 
-- Pesquisa de conteúdo no centro de conformidade & segurança  <br/>  
-- Descoberta eletrônica in-loco no centro de administração do Exchange (Eat)  <br/>  
-- A Central de Descoberta Eletrônica no SharePoint Online  <br/> 
+- Pesquisa de conteúdo
+- Descoberta Eletrônica Central 
    
-Quando você executa uma pesquisa de descoberta eletrônica, a ferramenta que você está usando retorna uma estimativa do número de itens (e seu tamanho total) que atendem aos critérios de pesquisa. Por exemplo, quando você executa uma pesquisa no centro de conformidade & segurança, os resultados estimados da pesquisa são exibidos no painel de detalhes para a pesquisa selecionada.
+Quando você executa uma pesquisa de descoberta eletrônica, a ferramenta que você está usando retorna uma estimativa do número de itens (e seu tamanho total) que atendem aos critérios de pesquisa. Por exemplo, quando você executa uma pesquisa no centro de conformidade da Microsoft 365, os resultados estimados da pesquisa são exibidos na página de menu para a pesquisa selecionada.
   
 ![Estimativa dos resultados exibidos no painel de detalhes da pesquisa selecionada](../media/74e4ce83-40be-41a9-b60f-5ad447e79fe4.png)
   
@@ -42,7 +41,7 @@ Esta é a mesma estimativa do tamanho total e do número de itens que é exibido
   
 **Resultados estimados na ferramenta de exportação de descoberta eletrônica**
 
-![Resultados estimados na ferramenta de exportação de Descoberta Eletrônica](../media/d34312a5-0ee6-49aa-9460-7ea0015a6e66.png)
+![Resultados estimados na ferramenta de exportação de descoberta eletrônica](../media/d34312a5-0ee6-49aa-9460-7ea0015a6e66.png)
   
 **Resultados estimados no relatório de Resumo de exportação**
 
@@ -60,9 +59,9 @@ Aqui estão alguns motivos para estas diferenças:
 
    Embora seja raro, mesmo no caso de uma retenção ser aplicada, a manutenção de itens de calendário internos (que não são editáveis pelo usuário, mas que estão incluídos em muitos resultados de pesquisa) podem ser removidas de tempos para a hora. Essa remoção periódica dos itens de calendário resultará em menos itens exportados.
 
-- **Itens não indexados**. Itens não indexados para pesquisa podem causar diferenças entre resultados de pesquisa estimados e reais. Por exemplo, a descoberta eletrônica in-loco no Exchange e o centro de descoberta eletrônica no SharePoint não incluem itens não indexados (que não atendam aos critérios de pesquisa) quando você executa uma pesquisa para estimar os resultados da pesquisa. Mas você pode incluir itens não indexados ao exportar os resultados da pesquisa. Se você incluir itens não indexados ao exportar resultados de pesquisa, pode haver mais itens exportados. Isso causará uma diferença entre os resultados de pesquisa estimados e exportados.
+- **Itens não indexados**. Itens não indexados para pesquisa podem causar diferenças entre resultados de pesquisa estimados e reais. Você pode incluir itens não indexados ao exportar os resultados da pesquisa. Se você incluir itens não indexados ao exportar resultados de pesquisa, pode haver mais itens exportados. Isso causará uma diferença entre os resultados de pesquisa estimados e exportados.
 
-    Ao usar a ferramenta de pesquisa de conteúdo no centro de conformidade & segurança, você tem a opção de incluir itens não indexados na estimativa de pesquisa. O número de itens não indexados retornados pela pesquisa é listado no painel de detalhes junto com outros resultados de pesquisa estimados. Todos os itens não indexados também serão incluídos no tamanho total dos resultados estimados da pesquisa. Ao exportar os resultados da pesquisa, você tem a opção de incluir ou não itens não indexados. A maneira como você configura essas opções pode resultar em diferenças entre os resultados de pesquisa estimados e os atuais que são baixados.
+    Ao usar a ferramenta de pesquisa de conteúdo, você tem a opção de incluir itens não indexados na estimativa de pesquisa. O número de itens não indexados retornados pela pesquisa é listado na página de submenu junto com os outros resultados de pesquisa estimados. Todos os itens não indexados também serão incluídos no tamanho total dos resultados estimados da pesquisa. Ao exportar os resultados da pesquisa, você tem a opção de incluir ou não itens não indexados. A maneira como você configura essas opções pode resultar em diferenças entre os resultados de pesquisa estimados e os atuais que são baixados.
 
 - **Exportar os resultados de uma pesquisa de conteúdo que inclui todos os locais de conteúdo**. Se a pesquisa de que você está exportando os resultados for uma pesquisa de todos os locais de conteúdo em sua organização, somente os itens não indexados de locais de conteúdo que contêm itens que correspondam aos critérios de pesquisa serão exportados. In other words, if no search results are found in a mailbox or site, then any unindexed items in that mailbox or site won't be exported. No entanto, os itens não indexados de todos os locais de conteúdo (mesmo aqueles que não contêm itens que correspondam à consulta de pesquisa) serão incluídos nos resultados de pesquisa estimados.
 
@@ -77,12 +76,6 @@ Aqui estão alguns motivos para estas diferenças:
 - **Eliminação de duplicação**. Para itens do Exchange, a eliminação de duplicação reduz o número de itens exportados. Você tem a opção de eliminar a duplicação dos resultados da pesquisa ao exportá-los. Para mensagens do Exchange, isso significa que apenas uma única instância de uma mensagem é exportada, mesmo que essa mensagem possa ser encontrada em várias caixas de correio. Os resultados de pesquisa estimados incluem todas as instâncias de uma mensagem. Portanto, se você escolher a opção de eliminação de duplicação ao exportar resultados de pesquisa, o número real de itens exportados poderá ser consideravelmente menor do que o número estimado de itens.
 
     Outra coisa a ter em mente se você escolher a opção de eliminação de duplicação é que todos os itens do Exchange são exportados em um único arquivo PST e a estrutura de pastas das caixas de correio de origem não é preservada. O arquivo PST exportado contém apenas os itens de email. No entanto, um relatório de resultados de pesquisa contém uma entrada para cada mensagem exportada que identifica a caixa de correio de origem onde a mensagem está localizada. Isso ajuda a identificar todas as caixas de correio que contêm uma mensagem duplicada. Se você não habilitou a deduplicação, um arquivo PST separado é exportado para cada caixa de correio incluída na pesquisa. 
-
-## <a name="exporting-unindexed-items-from-the-ediscovery-center-in-sharepoint-online"></a>Exportando itens não indexados do centro de descoberta eletrônica no SharePoint Online
-
-No centro de descoberta eletrônica no SharePoint Online, você tem a opção de incluir conteúdo não indexado (do Exchange e do SharePoint) quando exporta os resultados de uma pesquisa de descoberta eletrônica. Para fazer isso, selecione a opção **incluir itens que estão criptografados ou com um formato não reconhecido** . Itens não indexados (também chamados de não rastreáveis no SharePoint) são itens no Exchange e no SharePoint que por algum motivo não foram indexados para pesquisa. Itens não indexados do Exchange são listados no relatório de **erros de índice do Exchange** que é incluído quando você exporta os resultados da pesquisa. Da mesma forma, itens não indexados do SharePoint são listados no relatório de **erros de índice do SharePoint** . Quando você exporta itens não indexados, eles são baixados para uma pasta chamada não **rastreável**. Itens não indexados do Exchange são incluídos em um arquivo PST; cada documento não indexado do SharePoint também é baixado. O número de itens não indexados (se houver algum) está listado em cada relatório de erros de índice. O número de itens não indexados nos relatórios deve coincidir com o número de itens não indexados baixados.
-  
- **Quais são as razões nas quais o número de itens não indexados exportados não corresponde ao número de itens no relatório de erros de índice?** Conforme explicado anteriormente, é possível que os itens tenham sido removidos do Microsoft 365 entre o momento em que a estimativa de pesquisa foi executada e a hora em que os resultados da pesquisa foram exportados. Uma discrepância semelhante pode ocorrer para itens não indexados. Por exemplo, o índice de pesquisa pode estar fora da data em que os resultados da pesquisa são exportados. Isso significa que um item não indexado que foi exportado com os resultados da pesquisa pode não estar listado no relatório de erros de índice porque o item não foi indexado no momento em que os resultados da pesquisa foram exportados. Isso resultaria em mais itens não indexados sendo exportados do que os listados no relatório de erros de índice. Da mesma forma, um item não indexado listado no relatório de erro de indexação pode ter sido removido do Microsoft 365 antes de o índice de pesquisa ser atualizado. Isso resulta em menos itens não indexados exportados do que os listados no relatório de erros de índice.
-  
+ 
 > [!NOTE]
 > Se você não marcar a opção **incluir itens que estão criptografados ou com um formato não reconhecido** ao exportar os resultados da pesquisa ou apenas baixar os relatórios, os relatórios de erros de índice serão baixados, mas não terão entradas. Isso não significa que não há nenhum erro de indexação. Apenas significa que itens não indexados não foram incluídos na exportação. 

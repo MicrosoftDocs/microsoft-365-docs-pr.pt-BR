@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo fornece informações sobre como solucionar problemas com o envio de emails para as caixas de entrada no Microsoft 365 & práticas recomendadas para envio de email em massa para os clientes da Microsoft 365.
-ms.openlocfilehash: 8b7c008f827a579e234d8a8feab008d36ecfe064
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 3504d7518073826f3979c3c837c58d4406886b41
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615392"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760477"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Solução de problemas de emails enviados para o Microsoft 365
 
@@ -128,7 +128,7 @@ Tão importante quanto a forma como os emails são enviados é o conteúdo que e
 
 - Redirecionamentos incluídos no corpo da mensagem devem ser semelhantes e consistentes, e não múltiplos e variados. Um redirecionamento neste contexto é qualquer coisa que aponte para longe da mensagem, como links e documentos. Se você tiver muitos links de propaganda ou cancelamento de assinatura ou atualizar os links de perfil, todos eles apontarão para o mesmo domínio. Por exemplo:
 
-  Correto:
+  Correto (todos os domínios são os mesmos):
 
   `unsubscribe.bulkmailer.com`
 
@@ -136,7 +136,7 @@ Tão importante quanto a forma como os emails são enviados é o conteúdo que e
 
   `options.bulkmailer.com`
 
-  Incorreto:
+  Incorreto (todos os domínios são diferentes):
 
   `unsubscribe.bulkmailer.com`
 

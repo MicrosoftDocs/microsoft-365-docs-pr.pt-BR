@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
+ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como exibir e interpretar o status de treinamento de relevância e os resultados para problemas de caso em descoberta eletrônica avançada.
-ms.openlocfilehash: bf1fe2fc6c0f3ff80fd7e53d55149a61009e2b32
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 889153b2d6587daee4212ab8f2b5ccb941e848a4
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936214"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760339"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery-classic"></a>Rastrear a análise de relevância na descoberta eletrônica avançada (clássica)
 
@@ -53,7 +54,7 @@ Na descoberta eletrônica avançada, a guia controle de relevância exibe a vali
   
     Quando a avaliação não é concluída com o primeiro conjunto de exemplos de arquivos, a avaliação pode ser a próxima etapa para marcar mais arquivos. 
     
-    No **Relevance** \> **controle**de relevância, o indicador de progresso de treinamento e a dica de ferramenta indicam o número estimado de amostras adicionais necessárias para alcançar a estabilidade. Esta estimativa fornece uma diretriz para o treinamento adicional necessário.
+    No  \> **controle** de relevância, o indicador de progresso de treinamento e a dica de ferramenta indicam o número estimado de amostras adicionais necessárias para alcançar a estabilidade. Esta estimativa fornece uma diretriz para o treinamento adicional necessário.
     
     ![Treinamento do controle de relevância](../media/98dbc3f5-5238-4d73-9f88-1aa4d77ea729.png)
   
@@ -84,9 +85,9 @@ Se você deseja importar novos arquivos após o cálculo de lote, o administrado
 Se houver inconsistências na marcação de arquivos, ela poderá afetar a análise. O processo de consistência de marcação de descoberta eletrônica avançada pode ser usado quando os resultados não são ideais ou a consistência está em dúvida. Uma lista de possíveis arquivos marcados inconsistentes é retornada, e eles podem ser revisados e remarcados, conforme necessário.
   
 > [!NOTE]
-> Após sete ou mais rodadas de treinamento após a avaliação, a consistência de marcação **Relevance** pode ser visualizada no andamento do \> **Track** \> **Issue** \> treinamento de **resultados detalhados** do problema de controle \> **Training progress**de relevância. Essa análise é feita para um problema de cada vez. 
+> Após sete ou mais rodadas de treinamento após a avaliação, a consistência de marcação  pode ser visualizada no andamento do \>  \>  \> treinamento de **resultados detalhados** do problema de controle \> de relevância. Essa análise é feita para um problema de cada vez. 
   
-1. No ** \> controle de relevância**, expanda a linha de um problema.
+1. No **\> controle de relevância**, expanda a linha de um problema.
     
 2. À direita da **próxima etapa**, clique em **Modificar**.
     
@@ -98,7 +99,7 @@ Se houver inconsistências na marcação de arquivos, ela poderá afetar a anál
     
 ## <a name="viewing-and-using-relevance-results"></a>Exibindo e usando resultados de relevância
 
-Na guia ** \> controle de relevância** , expanda a linha de um problema e ao lado de **resultados detalhados**, clique em **Exibir**. Os painéis de resultados detalhados são exibidos, conforme mostrado e descrito abaixo.
+Na guia **\> controle de relevância** , expanda a linha de um problema e ao lado de **resultados detalhados**, clique em **Exibir**. Os painéis de resultados detalhados são exibidos, conforme mostrado e descrito abaixo.
   
 ![Resultados detalhado do treinamento de relevância](../media/495c04a9-ed1e-4355-8cab-c14270ca2bbb.png)
   
@@ -108,7 +109,7 @@ Na guia ** \> controle de relevância** , expanda a linha de um problema e ao la
   
 ![Resumo de marcação de controle de relevância](../media/0ec906fc-bc84-4245-a964-fb3ca37891db.png)
   
-### <a name="keywords"></a>Keywords
+### <a name="keywords"></a>Palavras-chave
 
 Uma palavra-chave é uma cadeia de caracteres exclusiva, palavra, frase ou sequência de palavras em um arquivo identificado por uma descoberta eletrônica avançada como um indicador significativo do fato de um arquivo ser relevante. A palavra-chave "include" da lista de colunas e os pesos em arquivos marcados como relevantes e as colunas "exclude" lista palavras-chave e pesos em arquivos marcados como não relevantes.
   
@@ -133,7 +134,7 @@ O painel **andamento do treinamento** inclui um gráfico de progresso de treinam
  **Gráfico de progresso do treinamento**: mostra o grau de estabilidade de treinamento de relevância após vários ciclos de treinamento de relevância em comparação ao valor de medida F. À medida que mudamos da esquerda para a direita no gráfico, o intervalo de confiança diminui e é usado, juntamente com a medida F, por uma relevância avançada de descoberta eletrônica para determinar a estabilidade quando os resultados de treinamento de relevância são otimizados.
   
 > [!NOTE]
-> A relevância usa F2, uma métrica de c-Measure onde a recuperação recebe duas vezes mais peso que a precisão. Para casos com grande riqueza (mais de 25%), a relevância usa F1 (taxa de 1:1). A taxa de medida de F pode ser configurada em **Relevance setup** \> **Configurações avançadas**de configuração de relevância. 
+> A relevância usa F2, uma métrica de c-Measure onde a recuperação recebe duas vezes mais peso que a precisão. Para casos com grande riqueza (mais de 25%), a relevância usa F1 (taxa de 1:1). A taxa de medida de F pode ser configurada em  \> **Configurações avançadas** de configuração de relevância. 
   
 ### <a name="batch-calculation-results"></a>Resultados do cálculo em lote
 
@@ -169,18 +170,3 @@ Este modo de exibição mostra o seguinte:
 - **Recall**: porcentagem de arquivos relevantes no conjunto de revisão. 
     
 - **Distribuição por Pontuação de relevância**: os arquivos na exibição cinza escuro à esquerda estão abaixo da Pontuação de corte. Uma dica de ferramenta exibe a pontuação de relevância e a porcentagem relacionada de arquivos no conjunto de arquivos de revisão em relação ao total de arquivos.
-    
-## <a name="see-also"></a>Também consulte
-
-[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
-  
-[Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[Realizando e revisando a avaliação](tagging-and-assessment-in-advanced-ediscovery.md)
-  
-[Realizando treinamento de relevância](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[Tomada de decisões com base nos resultados](decision-based-on-the-results-in-advanced-ediscovery.md)
-  
-[Testando análise de relevância](test-relevance-analysis-in-advanced-ediscovery.md)
-

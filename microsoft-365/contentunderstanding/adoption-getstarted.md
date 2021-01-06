@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 18bc5d8d0f80f7cee024f4d6358361509879bd11
-ms.sourcegitcommit: 86f75cf77a7a446a79226ca530bd7b5eb39189cb
+ms.openlocfilehash: 95e1ad15a62762c8b28203e178d4d4ae7906e38a
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49717014"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760237"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Adoção do Syntex do Microsoft SharePoint: introdução
 
@@ -31,28 +31,30 @@ Com novos serviços e recursos do AI, você pode criar aplicativos de compreens�
 
 |Entrada manual| Processamento de formulários | Noções básicas sobre documentos |
 |:-------|:--------|:--------|
-| Entrada de dados e trabalho intensivo em qualquer conteúdo | Processar conteúdo digital-fotos, varreduras, recibos, cartões de visita, vídeos com texto de & OCR |  Capturar tipos de conteúdo e metadados de contratos, currículos e outros documentos estruturados |
-| Interativo   | Pré-criados, automatizado   | Personalizado, auxiliado  |
-| Pessoas executando o trabalho | Ensinado pelos especialistas no assunto (SMEs). Capture os tipos de conteúdo e metadados de contratos, currículos, outros documentos estruturados. | Os SMEs estão menos envolvidos. de pedidos de compra, aplicativos, outros documentos semi-estruturados e estruturados |
+| Entrada de dados e trabalho intensivo em qualquer conteúdo. | Identificar arquivos e extrair dados de documentos estruturados ou semi-estruturados, como formulários ou faturas. |  Identificar e extrair dados de documentos não estruturados, como cartas ou contratos, onde as entidades de texto que você deseja extrair residem em frases ou regiões específicas do documento. |
+| Interativa.   |  Personalizado, auxiliado.  | Pré-criados, automatizado. |
+| Pessoas que trabalham no trabalho. | Ensinado pelos especialistas no assunto (SMEs). | Os SMEs estão menos envolvidos. |
 
-A tabela a seguir explica o que você obtém ao usar o Syntex do SharePoint:
+A tabela a seguir explica a disponibilidade e o licenciamento para o SharePoint Syntex:
 
 | Processamento de formulários | Noções básicas sobre documentos |
 |:-------|:-------|
-| Disponível na América do leste, Austrália, Canadá, UE, JP, BRm, Reino Unido | Disponível em todas as regiões |
-| Usa créditos do Construtor AI-créditos de 1M = 2000 páginas; O consumo é de cerca de 2000 faturas = 2 unidades. A automatização de energia é necessária-se você precisar de mais você pode adicioná-la. créditos de 1M alocados para mais de 300 licenças adquiridas. Você também pode adquirir créditos separadamente. | Os modelos funcionam em todos os idiomas do alfabeto latino. Além de inglês: alemão, Sueco, francês, espanhol, italiano e Português. |
-| Provisionado em relação ao ambiente padrão de serviço de dados comuns| Não tem restrições de capacidade. |
+| O processamento de formulários depende da plataforma de energia. <br>Para obter informações sobre a disponibilidade global para a plataforma de energia e o Construtor AI, consulte [disponibilidade da plataforma de energia](https://dynamics.microsoft.com/geographic-availability/). | Disponível em todas as regiões. |
+| Usa créditos do Construtor AI.<br>Os créditos podem ser comprados em lotes de 1M.<br>os créditos de 1M são incluídos quando as licenças de 300 + SharePoint Syntex são compradas.<br>os créditos de 1M permitirão o processamento de 2000 páginas de arquivo. | Os modelos funcionam em todos os idiomas do alfabeto latino. Além de inglês: alemão, Sueco, francês, espanhol, italiano e Português. |
+| Provisionado em relação ao ambiente padrão de serviço de dados comuns. | Não tem restrições de capacidade. |
+
+Para obter mais informações sobre créditos e unidades do Construtor AI, confira [Licenciamento do ai Builder](https://docs.microsoft.com/ai-builder/administer-licensing).
 
 Há duas maneiras diferentes de entender seu conteúdo. O tipo de modelo usado é baseado no formato de arquivo e no caso de uso:
 
 | Processamento de formulários | Noções básicas sobre documentos |
 |:-------|:-------|
-| Criado na biblioteca de documentos | Criado no centro de conteúdo, parte do SharePoint Syntex |
-| Modelo criado no Construtor AI | Modelo criado na interface nativa |
-| Usado para formatos de arquivo semi-estruturados | Usado para formatos de arquivo não estruturados |
-| Classificador configurável | Classificador treinado com extratores opcionais |
-| Restrito a uma única biblioteca | Pode ser aplicado a várias bibliotecas |
-| Treinamento em PDF, JPG, formato PNG, total de 50 MB/500 PP | Treine no 5-10 PDF, Office ou arquivos de email, incluindo exemplos negativos |
+| Criada a partir da biblioteca de documentos. | Criado no centro de conteúdo, parte do SharePoint Syntex. |
+| Modelo criado no Construtor AI. | Modelo criado na interface nativa. |
+| Usado para formatos de arquivo semi-estruturados. | Usado para formatos de arquivo não estruturados. |
+| Classificador configurável. | Classificador treinado com extratores opcionais. |
+| Restrito a uma única biblioteca. | Pode ser aplicado a várias bibliotecas. |
+| Treinar no PDF, JPG, formato PNG, total de 50 MB/500 PP. | Treine no 5-10 PDF, Office ou arquivos de email, incluindo exemplos negativos. |
 
 O SharePoint Syntex integra-se aos recursos de conformidade do Microsoft 365, como:
 

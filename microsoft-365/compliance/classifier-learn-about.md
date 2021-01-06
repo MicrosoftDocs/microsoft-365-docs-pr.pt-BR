@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre classificadores estagiários
+title: Saiba mais sobre classificadores treináveis
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -18,14 +18,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: d5e7eb891e4cff2fc220d1e9264839d05ed11bd2
-ms.sourcegitcommit: 54d1a2f363b2d5b63aae258c3cec0573a08f2866
+ms.openlocfilehash: 0e5f712b76af2fba3d456997a47352773d92d766
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49752635"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759895"
 ---
-# <a name="learn-about-classifiers"></a>Saiba mais sobre classificadores
+# <a name="learn-about-trainable-classifiers"></a>Saiba mais sobre classificadores treináveis
 
 Classificar e rotular o conteúdo para que ele possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. O Microsoft 365 tem três maneiras de classificar conteúdo.
 

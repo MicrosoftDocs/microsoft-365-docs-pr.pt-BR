@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
+ROBOTS: NOINDEX, NOFOLLOW
 description: Revise as etapas para executar o treinamento de avaliação, incluindo arquivos de marcação e revisar os resultados da avaliação na descoberta eletrônica avançada.
-ms.openlocfilehash: c8c6f82e7cfb3e2eddcc482039582ea27a702494
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 9f826c836337ecf7a8479e7d824ff8ad9e737e97
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663456"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760371"
 ---
 # <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Marcação e avaliação na descoberta eletrônica avançada (clássica)
 
@@ -123,17 +124,3 @@ Na ausência de estabilização com base Estatistica, haverá resultados com um 
 > [!TIP]
 > Na guia **\> controle de relevância** , exibição de problema expandido, as seguintes opções de exibição estão disponíveis: > a próxima etapa recomendada, como **próxima etapa: a marcação** pode ser ignorada (por problema) clicando no botão **Modificar** à direita e selecionando uma etapa diferente na **próxima etapa**. Quando o indicador de progresso da avaliação não for concluído, a avaliação será a próxima opção recomendada para marcar mais arquivos de avaliação e aumentar a precisão das estatísticas. > você pode alterar a margem de erro e avaliar seu impacto, clicando em **Modificar** e, na **caixa de diálogo nível de avaliação**, alterando a **margem de erro de destino para obter estimativas de cancelamento** e clicando em **atualizar valores**. Além disso, nessa caixa de diálogo, você pode exibir opções avançadas clicando em **avançado**. > você pode exibir estatísticas de nível de avaliação adicionais e seu impacto clicando em **Exibir**. Na caixa de diálogo resultados detalhados exibidos, as estatísticas estão disponíveis por questão, quando há pelo menos 500 arquivos de avaliação marcados e pelo menos 18 arquivos são marcados conforme relevante para o problema. 
   
-## <a name="see-also"></a>Também consulte
-
-[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
-  
-[Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[Treinamento de marcação e relevância](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[Análise de relevância de rastreamento](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[Decidindo com base nos resultados](decision-based-on-the-results-in-advanced-ediscovery.md)
-  
-[Testando análise de relevância](test-relevance-analysis-in-advanced-ediscovery.md)
-

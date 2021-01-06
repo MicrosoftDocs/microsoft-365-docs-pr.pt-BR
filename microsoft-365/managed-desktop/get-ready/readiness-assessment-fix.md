@@ -1,5 +1,5 @@
 ---
-title: Correção de problemas encontrados pela ferramenta de avaliação de prontidão
+title: Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 description: Ações detalhadas a serem tomadas para cada problema que a ferramenta encontrar
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f23209568fcfc2db4a22dbb034890c5a25e21bf7
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 3c3c0d21ca93c0d93d17cefbc6ce630d00a16d09
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527728"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760119"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Correção de problemas encontrados pela ferramenta de avaliação de prontidão
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
 Para cada verificação, a ferramenta relatará um dos quatro resultados possíveis:
 
@@ -26,7 +26,10 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
 |Recomendações    | Siga as etapas na ferramenta ou neste artigo para obter a melhor experiência com o registro e para os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar o primeiro dispositivo.        |
 |Não está pronto | *O registro falhará se você não corrigir esses problemas.* Siga as etapas na ferramenta ou neste artigo para resolvê-los.        |
-|Error | A função de diretor do Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+|Erro | A função de diretor do Azure Active Directory (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+
+> [!NOTE]
+> Os resultados relatados por essa ferramenta refletem o status de suas configurações somente no momento específico em que foi executado. Se, posteriormente, você fizer alterações nas políticas no Microsoft Intune, no Azure Active Directory ou no Microsoft 365, os itens que estavam "prontos" podem se tornar "não pronto". Para evitar problemas com as operações de área de trabalho gerenciada da Microsoft, verifique as configurações específicas descritas neste artigo antes de alterar qualquer política.
 
 ## <a name="microsoft-intune-settings"></a>Configurações do Microsoft Intune
 
@@ -75,7 +78,7 @@ Você tem pelo menos uma política de acesso condicional que se destina a todos 
 
 Certifique-se de que as políticas de acesso condicional que você excluiu o grupo de **contas do serviço de área de trabalho moderna** do Azure AD. Para obter etapas, consulte [ajustar o acesso condicional](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access). O grupo de **serviços de área de trabalho moderna** grupo do Azure AD é um grupo dinâmico que criamos para o serviço ao se inscrever. Você precisará voltar para excluir esse grupo após o registro. Para saber mais sobre essas contas de serviço, consulte [Standard Operating procedures](../service-description/operations-and-monitoring.md#standard-operating-procedures).
 
-**Error**
+**Erro**
 
 A função de administrador do Intune não tem permissões suficientes para esta verificação. Você também precisará de qualquer uma destas funções do Azure AD atribuídas para executar esta verificação:
 
@@ -165,7 +168,7 @@ Você tem algumas políticas de autenticação multifator (MFA) definidas como "
 
 Certifique-se de que todas as políticas de acesso condicional que exijam a MFA excluam o grupo do **local de trabalho moderno – todo** o Azure AD. Para obter mais informações, consulte [políticas de acesso condicional](#conditional-access-policies) e [acesso condicional: exigir MFA para todos os usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa). O **ambiente de trabalho moderno – todos os** grupos do Azure AD é um grupo dinâmico criado quando você se inscreve na área de trabalho gerenciada da Microsoft, portanto, você terá que voltar a excluir esse grupo após o registro.
 
-**Error**
+**Erro**
 
 A função de administrador do Intune não tem permissões suficientes para esta verificação. Você também precisará de qualquer uma destas funções do Azure AD atribuídas para executar esta verificação:
 

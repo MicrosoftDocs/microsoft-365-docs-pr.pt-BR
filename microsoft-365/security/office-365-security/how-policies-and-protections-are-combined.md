@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a ordem de proteção de aplicativos na proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: c6a89e35f1cce0532f206b5ac5dbfd4a1aedda9d
-ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
+ms.openlocfilehash: a18234344e1100f3b6a03c10e970c8195e53e7df
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349263"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760561"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
 
@@ -40,9 +40,9 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
   |Priority|Proteção de email|Categoria|Onde gerenciar|
   |---|---|---|---|
-  |1|Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
-  |duas|Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
-  |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |1 |Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
+  |2 |Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |3 |Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no EOP](learn-about-spoof-intelligence.md)|
   |0,5<sup>\*</sup>|Representação de usuário (usuários protegidos)|UIMP|[Configurar políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md)|
   |6<sup>\*</sup>|Representação de domínio (domínios protegidos)|DIMP|[Configurar políticas anti-phishing no Microsoft defender para Office 365](configure-atp-anti-phishing-policies.md)|
@@ -62,11 +62,11 @@ Por exemplo, considere as seguintes políticas anti-phishing no Microsoft defend
 
   |Nome da política|Priority|Representação de usuário|Antifalsificação|
   |---|---|---|---|
-  |Política A|1|Ativada|Desativada|
-  |Política B|duas|Desativada|Ativada|
+  |Política A|1 |Ativada|Desativada|
+  |Política B|2 |Desativada|Ativada|
   |
 
-1. A mensagem é marcada e tratada como falsificação, porque a falsificação tem uma prioridade mais alta (4) do que a representação de usuário (8).
+1. A mensagem é marcada e tratada como falsificação, porque a falsificação tem uma prioridade mais alta (4) do que a representação de usuário (5).
 2. A política A é aplicada aos usuários porque tem uma prioridade maior do que a política B.
 3. Com base nas configurações da política A, nenhuma ação é tomada na mensagem porque a anti-falsificação está desativada na política.
 4. O processamento da política para de modo que a política B nunca seja aplicada aos usuários.

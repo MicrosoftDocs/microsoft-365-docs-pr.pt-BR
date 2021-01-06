@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fbe98b814b253551432ea35102f2bd6eeba921f8
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: b052f70c1b618adef12c4f70c2b3fe55741697d5
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602080"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760501"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Ativar o Microsoft 365 defender
 
@@ -39,39 +39,46 @@ O [Microsoft 365 defender](microsoft-threat-protection.md) unifica seu processo 
 O Microsoft 365 defender automaticamente é ativado quando os clientes qualificados com as permissões necessárias visitam a central de segurança da Microsoft 365. Leia este artigo para entender vários pré-requisitos e como o Microsoft 365 defender é provisionado.
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>Verificar a qualificação de licenças e as permissões necessárias
+
 Uma licença para um produto de segurança do Microsoft 365 geralmente concede a você o uso do Microsoft 365 defender no centro de segurança do Microsoft 365 sem custo adicional de licenciamento. Recomendamos obter uma licença de segurança do Microsoft 365 e5, E5 Security, a5 ou a5 ou uma combinação válida de licenças que forneçam acesso a todos os serviços com suporte.
 
 Para obter informações detalhadas sobre licenciamento, [Leia os requisitos de licenciamento](prerequisites.md#licensing-requirements).
 
 ### <a name="check-your-role"></a>Verificar sua função
-Você deve ser um **administrador global** ou um **administrador de segurança** no Azure Active Directory para ativar o Microsoft 365 defender. [Exibir suas funções no Azure AD](https://docs.microsoft.com//azure/active-directory/users-groups-roles/directory-manage-roles-portal)
+
+Você deve ser um **administrador global** ou um **administrador de segurança** no Azure Active Directory para ativar o Microsoft 365 defender. [Exibir suas funções no Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)
 
 ## <a name="supported-services"></a>Serviços com suporte
+
 O Microsoft 365 defender agrega dados dos vários serviços com suporte que você já tenha implantado. Ele processará e armazenará dados centralmente para identificar novas insights e tornar os fluxos de trabalho de resposta centralizados possíveis. Ele faz isso sem afetar as implantações, as configurações ou os dados existentes associados aos serviços integrados.
 
 Para obter a melhor proteção e otimizar o Microsoft 365 defender, recomendamos implantar todos os serviços compatíveis em sua rede. Para obter mais informações, [Leia sobre a implantação de serviços com suporte](deploy-supported-services.md).
 
 ## <a name="before-starting-the-service"></a>Antes de iniciar o serviço
+
 Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([Security.Microsoft.com](https://security.microsoft.com)) mostra a página de configurações do Microsoft 365 defender quando você seleciona **incidentes**, **central de ações** ou **busca** no painel de navegação. Esses itens de navegação não são mostrados se você não estiver qualificado para usar o Microsoft 365 defender.
 
 ![Imagem da página de configurações do Microsoft 365 defender mostra se o Microsoft 365 defender não foi ativado nas ](../../media/mtp-enable/mtp-settings.png)
  *configurações do Microsoft 365 defender no centro de segurança do Microsoft 365*
 
 ## <a name="starting-the-service"></a>Iniciar o serviço
+
 Para ativar o Microsoft 365 defender, basta selecionar **ativar o microsoft 365 defender** e aplicar a alteração. Você também pode acessar essa opção selecionando **configurações** ([Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) no painel de navegação e, em seguida, selecionando **o Microsoft 365 defender**.
 
->[!NOTE]
->Se você não vir **as configurações** no painel de navegação ou não conseguir acessar a página, verifique suas permissões e licenças.
+> [!NOTE]
+> Se você não vir **as configurações** no painel de navegação ou não conseguir acessar a página, verifique suas permissões e licenças.
 
 ### <a name="data-center-location"></a>Local do Data Center
-O Microsoft 365 defender armazenará e processará dados no [mesmo local usado pelo Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy). Se você não tiver o Microsoft defender para ponto de extremidade, um novo local de Data Center será selecionado automaticamente com base no local dos serviços de segurança do Microsoft 365 ativos. O local do Data Center selecionado é mostrado na tela. 
 
-Selecione **precisa de ajuda?** no centro de segurança do Microsoft 365 para entrar em contato com o suporte da Microsoft sobre o provisionamento do Microsoft 365 defender em um local diferente de data center. 
+O Microsoft 365 defender armazenará e processará dados no [mesmo local usado pelo Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy). Se você não tiver o Microsoft defender para ponto de extremidade, um novo local de Data Center será selecionado automaticamente com base no local dos serviços de segurança do Microsoft 365 ativos. O local do Data Center selecionado é mostrado na tela.
 
->[!NOTE]
->O Microsoft defender for Endpoint provisiona automaticamente nos data centers da União Europeia (UE) quando ativado pelo Azure defender. O Microsoft 365 defender será automaticamente provisionado no mesmo Data Center da UE para clientes que tenham provisionado o defender para ponto de extremidade dessa maneira. 
+Selecione **precisa de ajuda?** no centro de segurança do Microsoft 365 para entrar em contato com o suporte da Microsoft sobre o provisionamento do Microsoft 365 defender em um local diferente de data center.
+
+> [!NOTE]
+> O Microsoft defender for Endpoint provisiona automaticamente nos data centers da União Europeia (UE) quando ativado pelo Azure defender. O Microsoft 365 defender será automaticamente provisionado no mesmo Data Center da UE para clientes que tenham provisionado o defender para ponto de extremidade dessa maneira.
 
 ### <a name="confirm-that-the-service-is-on"></a>Confirmar se o serviço está ativado
+
 Depois que o serviço é provisionado, ele adiciona:
 
 - [Gerenciamento de incidentes](incidents-overview.md)
@@ -82,8 +89,8 @@ Depois que o serviço é provisionado, ele adiciona:
  *o centro de segurança da Microsoft 365 com gerenciamento de incidentes e outros recursos do Microsoft 365 defender*
 
 ### <a name="getting-microsoft-defender-for-identity-data"></a>Obtendo dados do Microsoft defender para identidade
-Para compartilhar os dados do Microsoft defender para identidade com o Microsoft 365 defender, certifique-se de que o Microsoft Cloud app Security e o Microsoft defender para integração de identidade estejam ativados. [Saiba mais sobre esta integração](https://docs.microsoft.com/cloud-app-security/aatp-integration) 
 
+Para compartilhar os dados do Microsoft defender para identidade com o Microsoft 365 defender, certifique-se de que o Microsoft Cloud app Security e o Microsoft defender para integração de identidade estejam ativados. [Saiba mais sobre essa integração](https://docs.microsoft.com/cloud-app-security/mdi-integration).
 
 ## <a name="get-assistance"></a>Obter assistência
 

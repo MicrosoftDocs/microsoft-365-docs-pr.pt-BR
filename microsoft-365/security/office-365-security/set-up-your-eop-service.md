@@ -13,13 +13,13 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
-description: Os administradores podem saber como configurar o proteção do Exchange Online (EOP) autônomo para proteger ambientes de email locais.
-ms.openlocfilehash: 2d63057e77e6965616e19452de824a94ba0ccda8
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Os administradores podem aprender como configurar o proteção do Exchange Online (EOP) autônomo para proteger ambientes de email locais.
+ms.openlocfilehash: ca95f7dce30e8e751e293bf4e5de9caf0c845d29
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659412"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760489"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Configurar seu serviço EOP autônomo
 

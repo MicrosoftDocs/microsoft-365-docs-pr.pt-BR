@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre a inteligência de falsificação na proteção do Exchange Online (EOP), onde você pode permitir ou bloquear remetentes falsificados específicos.
-ms.openlocfilehash: bc8ae2664acf96ea6cd4c20c2f9195db9b75b3da
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 603aeb35241f9808561593afa69b3b9ce7193fb0
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602098"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760525"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Configurar o spoof Intelligence no EOP
 
@@ -57,7 +57,7 @@ Você pode gerenciar a inteligência de falsificação no centro de conformidade
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões no centro de conformidade & de segurança antes de realizar os procedimentos deste artigo:
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
   - Para modificar a política de inteligência de spoof ou habilitar ou desabilitar a inteligência de falsificação, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** .
   - Para acesso somente leitura à política de inteligência de falsificação, você precisa ser membro dos grupos de função **leitor global** ou **leitor de segurança** .
 
@@ -182,7 +182,7 @@ Você pode definir as configurações de inteligência de spoofing na política 
 
 Para verificar se você configurou a inteligência de spoof com remetentes que são permitidos e não têm permissão para falsificar e se você configurou as configurações de inteligência de spoof, use qualquer uma das seguintes etapas:
 
-- No centro de conformidade e segurança &, vá para política de **Gerenciamento de ameaças** \> **Policy** \> **anti-spam** \> expanda **política de inteligência de falsificação** \> selecionar **Mostrar remetentes que eu já revisei** \> Selecione a guia **domínios** ou **domínios externos** e verifique o valor **permitido para falsificação?** para o remetente.
+- No centro de conformidade e segurança &, vá para política de **Gerenciamento de ameaças** \>  \> **anti-spam** \> expanda **política de inteligência de falsificação** \> selecionar **Mostrar remetentes que eu já revisei** \> Selecione a guia **domínios** ou **domínios externos** e verifique o valor **permitido para falsificação?** para o remetente.
 
 - No PowerShell, execute os seguintes comandos para exibir os remetentes que são permitidos e não podem ser falsificados:
 
@@ -199,7 +199,7 @@ Para verificar se você configurou a inteligência de spoof com remetentes que s
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
    ```
 
-- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** anti-phishing \> **Policy** \> **Anti-phishing** ou **anti-phishing de ATP** e execute uma das seguintes etapas:  
+- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** anti-phishing \>  \>  ou **anti-phishing de ATP** e execute uma das seguintes etapas:  
 
   - Selecione uma política na lista. No submenu exibido, verifique os valores na seção **spoof** .
   - Clique em **política padrão**. No submenu exibido, verifique os valores na seção **spoof** .
@@ -207,7 +207,7 @@ Para verificar se você configurou a inteligência de spoof com remetentes que s
 - No PowerShell do Exchange Online, substitua \<Name\> com o padrão de antiphishing do Office365 ou o nome de uma política personalizada e execute o seguinte comando para verificar as configurações:
 
   ```PowerShell
-  Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableAntiSpoofEnforcement,EnableUnauthenticatedSender,AuthenticationFailAction
+  Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableSpoofIntelligence,EnableUnauthenticatedSender,AuthenticationFailAction
   ```
 
 ## <a name="other-ways-to-manage-spoofing-and-phishing"></a>Outras maneiras de gerenciar falsificação e phishing
