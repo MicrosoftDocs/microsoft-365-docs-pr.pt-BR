@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
+ROBOTS: NOINDEX, NOFOLLOW
 description: Leia as recomendações para a configuração do treinamento em relevância na Descoberta Eletrônica Avançada para classificar arquivos por relevância e gerar resultados analíticos.
-ms.openlocfilehash: a6bec149e11fa80fb57cb811120218fa7f2cc45b
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 8ba09babc91f233514cd0195c3e1da08b07ccb3c
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662866"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760205"
 ---
 # <a name="manage-relevance-setup-in-advanced-ediscovery-classic"></a>Gerenciar a configuração da Relevância na Descoberta Eletrônica Avançada (clássica)
 
@@ -69,15 +70,4 @@ Os parâmetros descritos nesta seção estão disponíveis na Descoberta Eletrô
 
 - Defina e organize problemas com cuidado, porque isso poderá afetar os resultados de treinamento de relevância.
 
-Após os parâmetros serem definidos, o revisor/especialista pode começar o treinamento dos arquivos na guia **Relevância**. 
-  
-## <a name="see-also"></a>Também consulte
-
-[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
-  
-[Como definir problemas e atribuir usuários](define-issues-and-assign-users.md)
-  
-[Como configurar carregamentos para adicionar os arquivos importados](set-up-loads-to-add-imported-files.md)
-  
-[Como definir as palavras-chave realçadas e opções avançadas](define-highlighted-keywords-and-advanced-options.md)
-
+Após os parâmetros serem definidos, o revisor/especialista pode começar o treinamento dos arquivos na guia **Relevância**.
