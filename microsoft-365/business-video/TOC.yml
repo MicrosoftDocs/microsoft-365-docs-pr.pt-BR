@@ -1,13 +1,13 @@
-- name: Treinamento do Microsoft 365 Small Business
+- name: Treinamento do Microsoft 365 para pequenas e médias empresas
   href: index.yml
   items:
     - name: Introdução
       items:
-        - name: O que é o Microsoft 365
+        - name: O que é o Microsoft 365?
           href: what-is-microsoft-365.md
         - name: Visão geral da configuração
           href: setup-overview.md
-        - name: Escolher uma assinatura
+        - name: Escolha uma assinatura
           href: Choose-subscription.md
     - name: Configuração de nuvem
       items:
@@ -17,19 +17,19 @@
           href: set-up.md
         - name: Proteger computadores com Windows 10
           href: secure-win10-pcs.md
-        - name: Criar um site do GoDaddy
+        - name: Criar um site GoDaddy
           href: create-web-site.md
     - name: Configuração do dispositivo
       items:
-        - name: Atualizar para o Windows 10 pro
+        - name: Atualizar para o Windows 10 Pro
           href: upgrade.md
-        - name: Conectar PCs ao Microsoft 365
+        - name: Conectar computadores ao Microsoft 365
           href: connect.md
         - name: Instalar os aplicativos do Microsoft Office
           href: install-office.md
         - name: Configurar o Outlook para e-mail
           href: setup-outlook.md
-        - name: Importar e redirecionar emails
+        - name: Importar e redirecionar e-mails
           href: import-email.md
         - name: Mover seus arquivos para o OneDrive
           href: files-to-onedrive.md
@@ -37,23 +37,23 @@
           href: files-to-sharepoint.md
     - name: Celular
       items:
-        - name: Trabalhar de qualquer lugar
+        - name: Trabalhe em praticamente qualquer lugar
           href: work-from-anywhere.md
-        - name: Instalar aplicativos do Office no Android
+        - name: Instalar aplicativos do Office em dispositivos Android
           href: install-apps-android.md
-        - name: Instalar aplicativos do Office no iOS
+        - name: Instalar aplicativos do Office em dispositivos iOS
           href: install-apps-ios.md
-        - name: Obter o aplicativo móvel do administrador
+        - name: Baixar o aplicativo móvel de Administração
           href: admin-mobile.md
     - name: Colaborar
       items:
-        - name: Usar o Outlook e o Microsoft Teams
+        - name: Usar o Outlook e o Teams
           href: collab-outlook-teams.md
-        - name: Criar um endereço de email do grupo
+        - name: Criar um endereço de e-mail do grupo
           href: group-email.md
         - name: Criar calendário compartilhado
           href: shared-calendar.md
-        - name: Criar uma equipe de toda a organização
+        - name: Criar uma equipe em toda a organização
           href: org-wide-team.md
         - name: Criar uma equipe com convidados
           href: team-with-guests.md
@@ -63,7 +63,7 @@
           href: start-and-pin-chats.md
         - name: Visão geral de reuniões online
           href: overview-online-meetings.md
-        - name: Agendar uma reunião com convidados
+        - name: Agendar uma reunião com outras pessoas
           href: schedule-guest-meeting.md
         - name: Participar de uma reunião com convidados
           href: join-guest-meeting.md
@@ -81,27 +81,29 @@
       items:
         - name: Visão geral do Business Voice
           href: business-voice.md
-        - name: Comprar complemento Business Voice
+        - name: Comprar complemento do Business Voice
           href: buy-business-voice.md
     - name: Aplicativos de produtividade
       items:
-        - name: Visão geral das reservas
+        - name: Visão geral do Bookings
           href: overview-bookings.md
         - name: Planejar um evento
           href: plan-event.md
     - name: Gerenciar serviços
       items:
-        - name: O que é um administrador
+        - name: O que é um administrador?
           href: what-is-admin.md
-        - name: Visão geral do centro de administração
+        - name: Visão geral do centro de administração.
           href: admin-center-overview.md
-        - name: 'Exibir, baixar ou imprimir sua fatura'
+        - name: 'Exibir, baixar ou imprimir a fatura'
           href: view-bill.md
-        - name: Atualizar sua forma de pagamento
+        - name: Comprar novas licenças
+          href: buy-licenses.md
+        - name: Atualizar a forma de pagamento
           href: update-payment.md
-        - name: Redefinir senhas de usuário
+        - name: Redefinir senhas do usuário
           href: reset-user-passwords.md
-        - name: Configurar a redefinição de senha de autoatendimento
+        - name: Configurar a redefinição de senha self-service
           href: set-up-self-serve-password-reset.md
         - name: Adicionar um usuário
           href: add-user.md
@@ -115,45 +117,45 @@
           href: change-subscription.md
         - name: Criar uma assinatura para toda a empresa
           href: company-wide-signature.md
-        - name: Relatório de uso do Act on
+        - name: Tomar medidas de acordo com os relatórios de uso
           href: act-on-report.md
         - name: Adicionar outro domínio
           href: add-domain.md
     - name: Gerenciar dispositivos
       items:
-        - name: Proteger dispositivos Windows 10 pro
+        - name: Proteger dispositivos Windows 10 Pro
           href: secure-win-10-pro-devices.md
-        - name: Proteger aplicativos do Office no iOS
+        - name: Baixar aplicativos seguros do Office no iOS
           href: secure-office-on-ios.md
-    - name: Conformidade com & de segurança
+    - name: Segurança e conformidade
       items:
         - name: Visão geral da segurança do Microsoft 365 Business Premium
           href: overview-m365-security.md
-        - name: Proteger contas de funcionários com a MFA
+        - name: Proteger as contas dos funcionários com a Autenticação multifator
           href: turn-on-mfa.md
-        - name: Configurar a entrada de dois fatores no seu telefone
+        - name: Configurar o login de dois fatores no seu telefone
           href: set-up-mfa.md
-        - name: Ativar detecção de malware
+        - name: Ativar a detecção de malware
           href: anti-malware.md
-        - name: Criar regras de email para ransomware
+        - name: Criar regras de e-mail para ransomware
           href: prevent-ransom-in-email.md
-        - name: Interromper o encaminhamento automático de emails
+        - name: Parar de encaminhar e-mails automaticamente
           href: stop-email-auto-forward.md
-        - name: Configurar o anti-phishing
+        - name: Configurar anti-phishing
           href: setup-anti-phishing.md
         - name: Gerenciar anexos seguros
           href: safe-attachments.md
         - name: Gerenciar links seguros
           href: safe-links.md
-        - name: Evita a perda de dados
+        - name: Evitar a perda de dados
           href: set-up-dlp.md
         - name: Criar rótulos de confidencialidade
           href: create-sensitivity-labels.md
     - name: Suporte
       items:
-        - name: Encontre respostas e ajuda
+        - name: Encontrar respostas e ajuda
           href: find-help-answers.md
         - name: Obter ajuda ou suporte
           href: get-help-support.md
-        - name: Configuração rápida de funcionários
+        - name: Configuração rápida para funcionários
           href: employee-quick-setup.md
