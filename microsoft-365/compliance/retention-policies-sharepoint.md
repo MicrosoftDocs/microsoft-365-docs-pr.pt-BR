@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: 84191cf7df1c8382b336ecce47c50ca24bc2aede
-ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
+ms.openlocfilehash: 995f657778d3326a4d58d46f760539639f1fe7fe
+ms.sourcegitcommit: 3bf4f1c0d3a8515cca651b2a520217195f89457f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48951104"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49777064"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -49,7 +49,9 @@ Os seguintes arquivos podem ser excluídos:
 > [!TIP]
 > Ao usar uma [consulta com uma política de aplicação automática para um rótulo de retenção](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties), você pode excluir bibliotecas de documentos usando a seguinte entrada: `NOT(DocumentLink:"<URL to document library>")`
 
-As configurações de retenção não se aplicam às estruturas de organização que incluem bibliotecas, listas e pastas. Nem para itens nas listas do sistema, que são listas ocultas usadas pelo SharePoint para gerenciar o sistema e incluem o catálogo de página mestra, o catálogo de soluções e as fontes de dados.
+Os itens da lista não são compatíveis com as políticas de retenção, mas são compatíveis com os rótulos de retenção, com exceção dos itens nas listas do sistema. Essas são listas ocultas usadas pelo Microsoft Office SharePoint Online para gerenciar o sistema e incluem o catálogo da página mestra, o catálogo de soluções e as fontes de dados.
+
+As configurações de retenção de políticas de retenção e rótulos de retenção não se aplicam a estruturas de organização que incluem bibliotecas, listas e pastas.
 
 Para políticas de retenção e políticas de aplicação automática: sites do SharePoint devem ser indexados para que as configurações de retenção sejam aplicadas. No entanto, se os itens nas bibliotecas de documentos do Microsoft Office SharePoint Online forem configurados para não aparecer nos resultados da pesquisa, essa configuração não excluirá os itens das configurações de retenção.
 
