@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 95e1ad15a62762c8b28203e178d4d4ae7906e38a
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 441f28e36ced25b2e5af3f71235995c8b021f779
+ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760237"
+ms.locfileid: "49771866"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Adoção do Syntex do Microsoft SharePoint: introdução
 
@@ -27,13 +27,16 @@ Pense nos serviços de conteúdo inteligente disponíveis no SharePoint Syntex c
 - **Processamento do conteúdo:** Automatizar a captura, a inclusão e a categorização de conteúdo e simplificar processos centrados em conteúdo usando automatização de energia. Saiba mais sobre o [processamento de conteúdo](form-processing-overview.md).
 - **Conformidade de conteúdo:** Controlar e gerenciar conteúdo para melhorar a segurança e a governança com a integração com a proteção de informações da Microsoft.
 
-Com novos serviços e recursos do AI, você pode criar aplicativos de compreensão e classificação de conteúdo diretamente no fluxo de gerenciamento de conteúdo usando o Syntex do SharePoint:
+Com novos serviços e recursos do AI, você pode criar aplicativos de compreensão e classificação de conteúdo diretamente no fluxo de gerenciamento de conteúdo usando o SharePoint Syntex. Há duas maneiras diferentes de entender seu conteúdo. O tipo de modelo usado é baseado no formato de arquivo e no caso de uso:
 
-|Entrada manual| Processamento de formulários | Noções básicas sobre documentos |
-|:-------|:--------|:--------|
-| Entrada de dados e trabalho intensivo em qualquer conteúdo. | Identificar arquivos e extrair dados de documentos estruturados ou semi-estruturados, como formulários ou faturas. |  Identificar e extrair dados de documentos não estruturados, como cartas ou contratos, onde as entidades de texto que você deseja extrair residem em frases ou regiões específicas do documento. |
-| Interativa.   |  Personalizado, auxiliado.  | Pré-criados, automatizado. |
-| Pessoas que trabalham no trabalho. | Ensinado pelos especialistas no assunto (SMEs). | Os SMEs estão menos envolvidos. |
+| Processamento de formulários | Noções básicas sobre documentos |
+|:-------|:-------|
+| Criada a partir da biblioteca de documentos. | Criado no centro de conteúdo, parte do SharePoint Syntex. |
+| Modelo criado no Construtor AI. | Modelo criado na interface nativa. |
+| Usado para formatos de arquivo semi-estruturados. | Usado para formatos de arquivo não estruturados. |
+| Classificador configurável. | Classificador treinado com extratores opcionais. |
+| Restrito a uma única biblioteca. | Pode ser aplicado a várias bibliotecas. |
+| Treinar no PDF, JPG, formato PNG, total de 50 MB/500 PP. | Treine no 5-10 PDF, Office ou arquivos de email, incluindo exemplos negativos. |
 
 A tabela a seguir explica a disponibilidade e o licenciamento para o SharePoint Syntex:
 
@@ -44,17 +47,6 @@ A tabela a seguir explica a disponibilidade e o licenciamento para o SharePoint 
 | Provisionado em relação ao ambiente padrão de serviço de dados comuns. | Não tem restrições de capacidade. |
 
 Para obter mais informações sobre créditos e unidades do Construtor AI, confira [Licenciamento do ai Builder](https://docs.microsoft.com/ai-builder/administer-licensing).
-
-Há duas maneiras diferentes de entender seu conteúdo. O tipo de modelo usado é baseado no formato de arquivo e no caso de uso:
-
-| Processamento de formulários | Noções básicas sobre documentos |
-|:-------|:-------|
-| Criada a partir da biblioteca de documentos. | Criado no centro de conteúdo, parte do SharePoint Syntex. |
-| Modelo criado no Construtor AI. | Modelo criado na interface nativa. |
-| Usado para formatos de arquivo semi-estruturados. | Usado para formatos de arquivo não estruturados. |
-| Classificador configurável. | Classificador treinado com extratores opcionais. |
-| Restrito a uma única biblioteca. | Pode ser aplicado a várias bibliotecas. |
-| Treinar no PDF, JPG, formato PNG, total de 50 MB/500 PP. | Treine no 5-10 PDF, Office ou arquivos de email, incluindo exemplos negativos. |
 
 O SharePoint Syntex integra-se aos recursos de conformidade do Microsoft 365, como:
 

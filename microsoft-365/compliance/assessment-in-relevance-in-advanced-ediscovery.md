@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 titleSuffix: Office 365
-ms.date: 09/14/2017
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -18,17 +18,14 @@ ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Obtenha uma visão geral do estágio de avaliação e sua função para determinar a riqueza de problemas durante o treinamento de relevância no Microsoft 365 Advanced eDiscovery.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d9ce400af87af36dfc9e0d51caba90b952edec9c
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 8930f362d217ed87fc0e16b88b7588ab781164e8
+ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759917"
+ms.locfileid: "49769272"
 ---
-# <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Entender a avaliação em relevância na descoberta eletrônica avançada (clássica)
-
-> [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+# <a name="assessment-in-the-relevance-module-in-advanced-ediscovery"></a>Avaliação no módulo de relevância na descoberta eletrônica avançada
   
 A descoberta eletrônica avançada permite a avaliação prévia, por exemplo, para os problemas definidos e os dados importados para um caso. A descoberta eletrônica avançada permite que o especialista tome decisões sobre uma abordagem adotada e aplique essas decisões ao projeto de revisão do documento.
   
@@ -43,14 +40,14 @@ As estatísticas, que são apresentadas no controle e decidem as guias durante o
 Depois que o especialista revisa um conjunto de avaliação inicial de 500 arquivos, a relevância pode determinar a margem atual de erro dos valores de recuperação. A relevância também recomenda uma margem de erro padrão para alcançar a otimização do conjunto de avaliação. Aqui estão alguns exemplos:
   
 - Se o conjunto de avaliação já tiver resultado uma margem de erro de mais ou menos 10%, a relevância recomendará a migração para o treinamento (nenhuma análise adicional da avaliação é necessária). 
-    
+
 - Se o conjunto de avaliação tiver uma margem de erro de mais ou menos 13%, a relevância poderá recomendar a revisão de outro conjunto de arquivos de avaliação para alcançar uma margem menor. 
-    
+
 - Se a riqueza for extremamente baixa, a relevância poderá ser recomendável parando a avaliação, mesmo que a margem de erro seja grande (tornando as estatísticas impraticáveis) porque o conjunto de avaliação necessário para atingir uma margem de erro útil é muito grande.
-    
+
 Cada problema tem sua própria riqueza, margem atual de erro e, como resultado, o número estimado de arquivos de avaliação adicionais. O próximo conjunto de avaliação é criado de acordo com o número máximo de arquivos (até 1.000 em um único conjunto).
   
 Você pode aceitar as recomendações de relevância ou ajustar a margem de erro atual de acordo com suas necessidades. A margem de erro atual padrão é determinada para a recuperação em igual ou acima de 75%.
   
 > [!NOTE]
-> O estágio de avaliação pode ser ignorado, na guia **\> controle de relevância** no modo de exibição expandido para um problema, desmarcando a caixa de seleção de **avaliação** por problema e, em seguida, para "todos os problemas". No entanto, como resultado, não haverá estatísticas para esse problema. > limpar a caixa de seleção de **avaliação** só pode ser feita antes da avaliação ser realizada. Onde houver vários problemas em um caso, a avaliação será ignorada somente se a caixa de seleção estiver desmarcada para cada problema.
+> O estágio de avaliação pode ser ignorado, na guia **\> controle de relevância** no modo de exibição expandido para um problema, desmarcando a caixa de seleção de **avaliação** por problema e, em seguida, para "todos os problemas". Como resultado, não haverá estatísticas para esse problema. Desmarcar a caixa de seleção **avaliação** pode ser feita apenas antes da avaliação ser realizada. Onde houver vários problemas em um caso, a avaliação será ignorada somente se a caixa de seleção estiver desmarcada para cada problema.

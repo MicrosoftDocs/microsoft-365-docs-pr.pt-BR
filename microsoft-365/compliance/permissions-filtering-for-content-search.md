@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: Use filtragem de permissões de pesquisa de conteúdo para permitir que um gerente de descoberta eletrônica pesquise somente um subconjunto de caixas de correio e sites em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28afbf65678e74e087365518bd07ceaae0e40e8a
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 5abf50988f40a3de833583543beb3b1c49e4e520
+ms.sourcegitcommit: 3bf4f1c0d3a8515cca651b2a520217195f89457f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358543"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49777084"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>Configurar permissões de filtragem para a Pesquisa de Conteúdo
 
@@ -46,58 +46,48 @@ A filtragem de permissões de pesquisa é suportada pelo recurso de pesquisa de 
 ## <a name="requirements-to-configure-permissions-filtering"></a>Requisitos para configurar a filtragem de permissões
 
 - Para executar os cmdlets de filtro de segurança de conformidade, você precisa ser membro do grupo de função gerenciamento da organização no centro de conformidade do & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
-    
-- Você precisa conectar o Windows PowerShell ao centro de conformidade & segurança e à sua organização do Exchange Online para usar os cmdlets de filtro de segurança de conformidade. Isso é necessário porque esses cmdlets exigem acesso às propriedades da caixa de correio, que é o motivo pelo qual você precisa se conectar ao Exchange Online. Veja as etapas na próxima seção. 
-    
-- Consulte a seção [Mais informações](#more-information) para obter informações adicionais sobre os filtros de permissões de pesquisa. 
-    
-- A filtragem de permissões de pesquisa é aplicável a caixas de correio inativas, o que significa que você pode usar a filtragem de conteúdo da caixa de correio e caixa de correio para limitar quem pode pesquisar uma caixa de correio inativa Consulte a seção [mais informações](#more-information) para obter informações adicionais sobre filtragem de permissões e caixas de correio inativas. 
-    
--  A filtragem de permissões de pesquisa não pode ser usada para limitar quem pode pesquisar pastas públicas no Exchange. 
-    
-- Não há limite para o número de filtros de permissões de pesquisa que podem ser criados em uma organização. Mas o desempenho da pesquisa será afetado quando houver mais de 100 filtros de permissões de pesquisa. Para manter o número de filtros de permissão de pesquisa em sua organização o menor possível, crie filtros que combinem regras para o Exchange, SharePoint e OneDrive em um único filtro sempre que possível.
-    
-## <a name="connect-to-the-security--compliance-center-and-exchange-online-in-a-single-remote-powershell-session"></a>Conectar-se ao centro de conformidade & segurança e ao Exchange Online em uma única sessão remota do PowerShell
 
-1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo **. ps1**. Por exemplo, você pode salvá-lo em um arquivo chamado **ConnectEXO-CC.ps1**.
-    
+- Você deve se conectar ao PowerShell do centro de conformidade do Exchange Online e segurança & para usar os cmdlets de filtro de segurança de conformidade. Isso é necessário porque esses cmdlets exigem acesso às propriedades da caixa de correio, que é o motivo pelo qual você precisa se conectar ao PowerShell do Exchange Online. Veja as etapas na próxima seção.
+
+- Consulte a seção [Mais informações](#more-information) para obter informações adicionais sobre os filtros de permissões de pesquisa.
+
+- A filtragem de permissões de pesquisa é aplicável a caixas de correio inativas, o que significa que você pode usar a filtragem de conteúdo da caixa de correio e caixa de correio para limitar quem pode pesquisar uma caixa de correio inativa Consulte a seção [mais informações](#more-information) para obter informações adicionais sobre filtragem de permissões e caixas de correio inativas.
+
+- A filtragem de permissões de pesquisa não pode ser usada para limitar quem pode pesquisar pastas públicas no Exchange.
+
+- Não há limite para o número de filtros de permissões de pesquisa que podem ser criados em uma organização. Mas o desempenho da pesquisa será afetado quando houver mais de 100 filtros de permissões de pesquisa. Para manter o número de filtros de permissão de pesquisa em sua organização o menor possível, crie filtros que combinem regras para o Exchange, SharePoint e OneDrive em um único filtro sempre que possível.
+
+## <a name="connect-to-exchange-online-and-security--compliance-center-powershell-in-a-single-session"></a>Conectar-se ao PowerShell do centro de conformidade do Exchange Online e segurança & em uma única sessão
+
+Antes de poder executar o script com êxito nesta seção, você precisa baixar e instalar o módulo do Exchange Online PowerShell v2. Para obter informações, consulte [sobre o módulo do PowerShell v2 do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).
+
+1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo **. ps1**. Por exemplo, você pode salvá-lo em um arquivo chamado **ConnectEXO-SCC.ps1**.
+
     ```powershell
+    Import-Module ExchangeOnlineManagement
     $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection
-    Import-PSSession $Session -DisableNameChecking
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection
-    Import-PSSession $Session -AllowClobber -DisableNameChecking
+    Connect-ExchangeOnline -Credential $UserCredential
+    Connect-IPPSSession -Credential $UserCredential
     $Host.UI.RawUI.WindowTitle = $UserCredential.UserName + " (Exchange Online + Compliance Center)"
     ```
 
 2. No computador local, abra o Windows PowerShell, vá para a pasta onde o script criado na etapa anterior está localizado e, em seguida, execute o script; por exemplo:
-    
-    ```powershell
-    .\ConnectEXO-CC.ps1
-    ```
-
-Como saber se funcionou? Depois de executar o script, os cmdlets do centro de conformidade & segurança e do Exchange Online são importados para sua sessão local do Windows PowerShell. Se nenhum erro aparecer, você se conectou com êxito. Um teste rápido é executar um cmdlet do centro de conformidade de segurança & e um cmdlet do Exchange Online. Por exemplo, você pode executar **install-UnifiedCompliancePrerequisite** e **Get-Mailbox**. 
-  
-Caso você receba erros, verifique os seguintes requisitos:
-  
-- Um problema comum é uma senha incorreta. Execute as duas etapas novamente e preste muita atenção ao nome de usuário e à senha inseridos na Etapa 1.
-    
-- Verifique se sua conta tem permissão para acessar o centro de conformidade de & de segurança. Para obter detalhes, consulte [conceder aos usuários acesso ao centro de conformidade de & de segurança](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
-    
-- Para ajudar a evitar ataques de negação de serviço (DoS), você está limitado a três conexões do PowerShell remoto abertas para o centro de conformidade & segurança.
-    
-- O Windows PowerShell deve ser configurado para executar scripts. Isso só precisa ser feito uma vez, não sempre que você se conecta. Para permitir que o Windows PowerShell execute scripts assinados, execute o seguinte comando em uma janela elevada do Windows PowerShell (uma janela do Windows PowerShell aberta com a seleção de **Executar como administrador**).
 
     ```powershell
-    Set-ExecutionPolicy RemoteSigned
+    .\ConnectEXO-SCC.ps1
     ```
 
-- O tráfego da porta TCP 80 precisa estar aberto entre seu computador local e o Office 365. Provavelmente ele está aberto, mas é algo a ser considerado caso a sua organização tenha uma política de acesso à Internet restritiva.
+Como saber se funcionou? Depois de executar o script, os cmdlets do Exchange Online e do PowerShell de conformidade do & de segurança são importados para sua sessão local do Windows PowerShell. Se nenhum erro aparecer, a conexão terá sido estabelecida. Um teste rápido é executar um cmdlet do centro de conformidade do Exchange Online e segurança &. Por exemplo, você pode executar e **obter-Mailbox** e **Get-ComplianceSearch**.
 
-  
+Para solucionar problemas de erros de conexão do PowerShell, consulte:
+
+- [Conectar-se ao PowerShell do Exchange Online ](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell#how-do-you-know-this-worked)
+
+- [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#how-do-you-know-this-worked)
+
 ## <a name="new-compliancesecurityfilter"></a>New-ComplianceSecurityFilter
 
-O **New-ComplianceSecurityFilter** é usado para criar um filtro de permissões de pesquisa. A tabela a seguir descreve os parâmetros para esse cmdlet. Todos os parâmetros são necessários para criar um filtro de segurança de conformidade. 
+O **New-ComplianceSecurityFilter** é usado para criar um filtro de permissões de pesquisa. A tabela a seguir descreve os parâmetros para esse cmdlet. Todos os parâmetros são necessários para criar um filtro de segurança de conformidade.
   
 |**Parâmetro**|**Descrição**|
 |:-----|:-----|
@@ -144,7 +134,7 @@ Este exemplo permite que o usuário annb@contoso.com execute todas as ações de
 New-ComplianceSecurityFilter -FilterName CountryFilter  -Users annb@contoso.com -Filters "Mailbox_CountryCode  -eq '124'" -Action All
 ```
 
-Este exemplo permite que os usuários do viniciusm e do clarab pesquisem apenas as caixas de correio que têm o valor "marketing" para a propriedade de caixa de correio CustomAttribute1.
+Este exemplo permite que os usuários viniciusm e clarab pesquisem apenas as caixas de correio que têm o valor Marketing para a propriedade de caixa de correio CustomAttribute1.
 
 ```powershell
 New-ComplianceSecurityFilter -FilterName MarketingFilter  -Users donh,suzanf -Filters "Mailbox_CustomAttribute1  -eq 'Marketing'" -Action Search
@@ -156,7 +146,7 @@ Este exemplo permite que os membros do grupo de função "Gerentes de Descoberta
 New-ComplianceSecurityFilter -FilterName USDiscoveryManagers  -Users "US Discovery Managers" -Filters "Mailbox_CountryCode  -eq '840'" -Action All
 ```
 
-Este exemplo permite que os membros do grupo de função Gerenciador de descoberta eletrônica pesquisem apenas as caixas de correio dos membros do grupo de distribuição usuários do Ottawa. O cmdlet Get-Distribution no PowerShell do Exchange Online é usado para localizar os membros do grupo usuários do Ottawa.
+Este exemplo permite que os membros do grupo de função Gerenciador de descoberta eletrônica pesquisem apenas as caixas de correio dos membros do grupo de distribuição usuários do Ottawa. O cmdlet Get-DistributionGroup no PowerShell do Exchange Online é usado para localizar os membros do grupo usuários do Ottawa.
   
 ```powershell
 $DG = Get-DistributionGroup "Ottawa Users"
@@ -166,7 +156,7 @@ $DG = Get-DistributionGroup "Ottawa Users"
 New-ComplianceSecurityFilter -FilterName DGFilter  -Users eDiscoveryManager -Filters "Mailbox_MemberOfGroup -eq '$($DG.DistinguishedName)'" -Action Search
 ```
 
-Este exemplo impede que qualquer usuário exclua o conteúdo de caixas de correio dos membros do grupo de distribuição Equipe Executiva. O cmdlet Get-Distribution no PowerShell do Exchange Online é usado para localizar os membros do grupo de equipe executivo.
+Este exemplo impede que qualquer usuário exclua o conteúdo de caixas de correio dos membros do grupo de distribuição Equipe Executiva. O cmdlet Get-DistributionGroup no PowerShell do Exchange Online é usado para localizar os membros do grupo de equipe executivo.
 
 ```powershell
 $DG = Get-DistributionGroup "Executive Team"
@@ -227,7 +217,7 @@ O **set-ComplianceSecurityFilter** é usado para modificar um filtro de permiss�
 |:-----|:-----|
 | _Action_| O parâmetro  _Action_ especifica o tipo de ação de pesquisa à qual o filtro é aplicado. As ações de pesquisa de conteúdo possíveis são: <br/><br/> **Exportar:** O filtro é aplicado ao exportar os resultados da pesquisa.  <br/> **Visualização:** O filtro é aplicado durante a visualização dos resultados da pesquisa.  <br/> **Limpeza:** O filtro é aplicado ao limpar os resultados da pesquisa.  <br/> **Pesquisa:** O filtro é aplicado ao executar uma pesquisa.  <br/> **All:** O filtro é aplicado a todas as ações de pesquisa.  <br/> |
 | _FilterName_|O parâmetro  _FilterName_ especifica o nome do filtro de permissões. |
-| _Filtros_| O parâmetro  _Filters_ especifica os critérios de pesquisa para o filtro de segurança de conformidade. Você pode criar dois tipos diferentes de filtros: <br/><br/>**Filtragem de caixa de correio:** Esse tipo de filtro especifica as caixas de correio que os usuários atribuídos (especificados pelo parâmetro  _Users_ ) podem pesquisar. A sintaxe desse tipo de filtro é **Mailbox_** _MailboxPropertyName_, onde  _MailboxPropertyName_ especifica uma propriedade de caixa de correio usada para fazer o escopo das caixas de correio que podem ser pesquisadas. Por exemplo, o filtro de caixa de correio  `"Mailbox_CustomAttribute10 -eq 'OttawaUsers'"` permitiria que o usuário atribuisse este filtro pesquise apenas as caixas de correio com o valor "OttawaUsers" na propriedade CustomAttribute10.  Qualquer propriedade de destinatário filtrável com suporte pode ser usada para a propriedade  _MailboxPropertyName_ . Para obter uma lista de propriedades com suporte, consulte [Filterable Properties for the-RecipientFilter Parameter](https://go.microsoft.com/fwlink/p/?LinkId=784903). <br/><br/>**Filtragem de conteúdo de caixa de correio:** Esse tipo de filtro é aplicado ao conteúdo que pode ser pesquisado. Especifica o conteúdo da caixa de correio que os usuários atribuídos podem pesquisar. A sintaxe desse tipo de filtro é **MailboxContent_** _SearchablePropertyName: Value_, onde  _SearchablePropertyName_ especifica uma propriedade da linguagem de consulta de palavra-chave (KQL) que pode ser especificada em uma pesquisa de conteúdo. Por exemplo, o filtro de conteúdo de caixa de correio  `MailboxContent_recipients:contoso.com` permitiria que o usuário atribuisse esse filtro apenas pesquisasse mensagens enviadas a destinatários no domínio contoso.com.  Para obter uma lista das propriedades de mensagem pesquisáveis, consulte [keyword queries for Content Search](keyword-queries-and-search-conditions.md). <br/><br/>**Filtragem de conteúdo de site e site:** Há dois filtros relacionados a sites do SharePoint e do OneDrive for Business que você pode usar para especificar o conteúdo do site ou site que os usuários atribuídos podem pesquisar: <br/><br/>- **Site_** *SearchableSiteProperty* <br/>- **SiteContent**_*SearchableSiteProperty*<br/><br/>Esses dois filtros são intercambiáveis. Por exemplo,  `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` e  `"SiteContent_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` retorna os mesmos resultados. Mas para ajudá-lo a identificar o que um filtro faz, você pode usar  `Site_` para especificar propriedades relacionadas a sites (como uma URL de site) e  `SiteContent_` para especificar propriedades relacionadas a conteúdo (como tipos de documento. Por exemplo, o filtro  `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` permitiria que o usuário atribuisse esse filtro apenas pesquisasse conteúdo no https://contoso.spoppe.com/sites/doctors conjunto de sites. O filtro  `"SiteContent_FileExtension -eq 'docx'"` permitiria que o usuário atribuisse este filtro apenas pesquise documentos do Word (Word 2007 e posterior).  <br/><br/>Para obter uma lista de propriedades de site pesquisáveis, confira [visão geral das propriedades rastreadas e gerenciadas no SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=331599). As propriedades marcadas com um **Sim** na coluna **consultável** podem ser usadas para criar um filtro de conteúdo do site ou site. <br/><br/>          |
+| _Filtros_| O parâmetro  _Filters_ especifica os critérios de pesquisa para o filtro de segurança de conformidade. Você pode criar dois tipos diferentes de filtros: <br/><br/>**Filtragem de caixa de correio:** Esse tipo de filtro especifica as caixas de correio que os usuários atribuídos (especificados pelo parâmetro  _Users_ ) podem pesquisar. A sintaxe desse tipo de filtro é **Mailbox_** _MailboxPropertyName_, onde  _MailboxPropertyName_ especifica uma propriedade de caixa de correio usada para fazer o escopo das caixas de correio que podem ser pesquisadas. Por exemplo, o filtro de caixa de correio  `"Mailbox_CustomAttribute10 -eq 'OttawaUsers'"` permitiria que o usuário atribuisse este filtro pesquise apenas as caixas de correio com o valor "OttawaUsers" na propriedade CustomAttribute10.  Qualquer propriedade de destinatário filtrável com suporte pode ser usada para a propriedade  _MailboxPropertyName_ . Para obter uma lista de propriedades com suporte, consulte [Filterable Properties for the-RecipientFilter Parameter](https://go.microsoft.com/fwlink/p/?LinkId=784903). <br/><br/>**Filtragem de conteúdo de caixa de correio:** Esse tipo de filtro é aplicado ao conteúdo que pode ser pesquisado. Especifica o conteúdo da caixa de correio que os usuários atribuídos podem pesquisar. A sintaxe desse tipo de filtro é **MailboxContent_** _SearchablePropertyName: Value_, onde  _SearchablePropertyName_ especifica uma propriedade da linguagem de consulta de palavra-chave (KQL) que pode ser especificada em uma pesquisa de conteúdo. Por exemplo, o filtro de conteúdo de caixa de correio  `MailboxContent_recipients:contoso.com` permitiria que o usuário atribuisse esse filtro apenas pesquisasse mensagens enviadas a destinatários no domínio contoso.com.  Para obter uma lista das propriedades de mensagem pesquisáveis, consulte [keyword queries for Content Search](keyword-queries-and-search-conditions.md). <br/><br/>**Filtragem de conteúdo de site e site:** Há dois filtros relacionados a sites do SharePoint e do OneDrive for Business que você pode usar para especificar o conteúdo do site ou site que os usuários atribuídos podem pesquisar: <br/><br/>- **Site_** *SearchableSiteProperty* <br/>- **SiteContent** _ *SearchableSiteProperty*<br/><br/>Esses dois filtros são intercambiáveis. Por exemplo,  `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` e  `"SiteContent_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` retorna os mesmos resultados. Mas para ajudá-lo a identificar o que um filtro faz, você pode usar  `Site_` para especificar propriedades relacionadas a sites (como uma URL de site) e  `SiteContent_` para especificar propriedades relacionadas a conteúdo (como tipos de documento. Por exemplo, o filtro  `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` permitiria que o usuário atribuisse esse filtro apenas pesquisasse conteúdo no https://contoso.spoppe.com/sites/doctors conjunto de sites. O filtro  `"SiteContent_FileExtension -eq 'docx'"` permitiria que o usuário atribuisse este filtro apenas pesquise documentos do Word (Word 2007 e posterior).  <br/><br/>Para obter uma lista de propriedades de site pesquisáveis, confira [visão geral das propriedades rastreadas e gerenciadas no SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=331599). As propriedades marcadas com um **Sim** na coluna **consultável** podem ser usadas para criar um filtro de conteúdo do site ou site. <br/><br/>          |
 | _Usuários_|O parâmetro  _Users_ especifica os usuários que recebem esse filtro aplicado às suas pesquisas de conteúdo. Como esta é uma propriedade de vários valores, a especificação de um usuário ou grupo de usuários com esse parâmetro substitui a lista existente de usuários. Consulte os exemplos a seguir para obter a sintaxe para adicionar e remover usuários selecionados. <br/><br/>Você também pode usar o parâmetro  _Users_ para especificar um grupo de funções do centro de conformidade de & de segurança. Isso permite que você crie um grupo de função personalizada e, em seguida, atribua esse grupo de função a um filtro de permissões de pesquisa. Por exemplo, digamos que você tenha um grupo de função personalizada para gerentes de Descoberta Eletrônica para a subsidiária americana de uma multinacional. Você pode usar o parâmetro  _Users_ para especificar esse grupo de função (usando a propriedade Name do grupo de função) e, em seguida, usar o parâmetro  _Filter_ para permitir que apenas caixas de correio nos EUA sejam pesquisadas. <br/><br/>Você não pode especificar um grupo de distribuição com esse parâmetro. |
 
 ## <a name="examples-of-changing-search-permissions-filters"></a>Exemplos de alteração de filtros de permissão de pesquisa

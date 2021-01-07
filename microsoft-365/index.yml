@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 642fbf3bb0ace8d2cd53fd531fe2e583efbd4826
-  ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+  ms.openlocfilehash: a6b436878cf39082d582e51094e973060a1b4983
+  ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "49751542"
+  ms.lasthandoff: 01/06/2021
+  ms.locfileid: "49771830"
 highlightedContent:
   items:
   - title: Capacitar trabalhadores remotos
@@ -214,7 +214,7 @@ additionalContent:
     - title: Planner e Project
       links:
       - text: Ajuda do administrador do Planner
-        url: /office365/planner/planner-admin-home
+        url: /office365/planner
       - text: Project para a Web
         url: /project-for-the-web/projectforweb-admin-home
       - text: Mais do Project >

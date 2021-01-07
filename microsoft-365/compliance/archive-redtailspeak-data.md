@@ -1,5 +1,5 @@
 ---
-title: Configurar um conector para arquivar Redtail falar dados no Microsoft 365
+title: Configurar um conector para arquivar dados de fala de cauda vermelha no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -11,13 +11,13 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar Redtail falar dados do Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: ee1e5c63d8990d5847241dc0ab4a88ed19e3215f
-ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
+description: Os administradores podem configurar um conector para importar e arquivar dados de fala de cauda vermelha de Globanet para o Microsoft 365. Esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365. Após o arquivamento desses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
+ms.openlocfilehash: ff66f00348bd3e73bdbd607bd4bd0c0f922786cc
+ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "49740288"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49769206"
 ---
 # <a name="set-up-a-connector-to-archive-redtail-speak-data"></a>Configurar um conector para arquivar dados de fala Redtail
 
@@ -43,7 +43,7 @@ A visão geral a seguir explica o processo de usar um conector para arquivar os 
 
 - Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para criar uma conta, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/contact-us/). Você precisa entrar nessa conta ao criar o conector na etapa 1.
 
-- Na etapa 2, você precisa especificar o servidor SFTP da sua organização. Isso é necessário para que o Globanet Merge1 possa contatá-lo para coletar dados de fala do Redtail via SFTP.
+- Na etapa 2, você precisa especificar o servidor SFTP da sua organização. Essa etapa é necessária para que o Globanet Merge1 possa entrar em contato com ele para coletar dados de Redtail de fala via SFTP.
 
 - O usuário que cria o conector de Redtail Speak conporter na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página conectores de dados no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
@@ -51,13 +51,13 @@ A visão geral a seguir explica o processo de usar um conector para arquivar os 
 
 A primeira etapa é acessar a página **conectores de dados** no centro de conformidade da Microsoft 365 e criar um conector para os dados de fala do Redtail.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados** &gt; **Redtail falar**.
+1. Vá até [https://compliance.microsoft.com](https://compliance.microsoft.com/) e selecione **conectores de dados** &gt; **Redtail fala**.
 
-2. Na página de descrição do produto **Redtail Speak** , clique em **Adicionar novo conector**.
+2. Na página de descrição do produto **Redtail Speak** , selecione **Adicionar novo conector**.
 
-3. Na página **termos de serviço** , clique em **aceitar**.
+3. Na página **termos de serviço** , selecione **aceitar**.
 
-4. Insira um nome exclusivo que identifique o conector e clique em **Avançar**.
+4. Insira um nome exclusivo que identifique o conector e, em seguida, selecione **Avançar**.
 
 5. Entre em sua conta do Merge1 para configurar o conector.
 
@@ -65,7 +65,7 @@ A primeira etapa é acessar a página **conectores de dados** no centro de confo
 
 A segunda etapa é configurar o conector de fala do Redtail no site Merge1. Para obter informações sobre como configurar o conector de fala do Redtail, consulte [Merge1 de terceiros conectores do usuário](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Redtail%20Speak%20User%20Guide%20.pdf).
 
-Depois de clicar em **salvar & concluir**, a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
+Depois de selecionar **salvar & concluir**, a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
 
@@ -73,17 +73,17 @@ Para mapear usuários e concluir a configuração do conector, siga estas etapas
 
 1. Na página **mapear Redtail falar usuários para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens de fala do Redtail incluem uma propriedade chamada *email*, que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
-2. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+2. Selecione **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
 
 ## <a name="step-4-monitor-the-redtail-speak-connector"></a>Etapa 4: monitorar o conector de fala do Redtail
 
 Depois de criar o conector de fala do Redtail, você pode visualizar o status do conector no centro de conformidade da Microsoft 365.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **conectores de dados** no painel de navegação esquerdo.
+1. Vá até [https://compliance.microsoft.com](https://compliance.microsoft.com/) e selecione **conectores de dados** no painel de navegação esquerdo.
 
-2. Clique na guia **conectores** e selecione o conector de **fala do Redtail** para exibir a página do menu suspenso. Esta página exibe as propriedades e as informações sobre o conector.
+2. Selecione a guia **conectores** e, em seguida, selecione o conector de **fala do Redtail** para exibir a página de menu. Esta página exibe as propriedades e as informações sobre o conector.
 
-3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
+3. Em **status do conector com origem**, selecione o link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém dados que foram importados para a nuvem da Microsoft.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
