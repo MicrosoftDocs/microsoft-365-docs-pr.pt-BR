@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Saiba como configurar uma autenticação de mensagem baseada em domínio, relatórios e conformidade (DMARC) para validar as mensagens enviadas da sua organização.
-ms.openlocfilehash: 9dd97b1fc60f0b6198bb6c55af291c7dd103ac5d
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: bcf1c0b3dc0a1a8dd8a679af815fbdc2173cabb7
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615331"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759851"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Usar DMARC para validar emails
 
@@ -194,13 +194,13 @@ Você pode implementar o DMARC gradualmente sem causar impacto no restante de se
 
 4. Como configurar DMARC para subdomínio?
 
-DMARC é implementado por meio da publicação de uma política como um registro TXT no DNS e é hierárquico (por exemplo, uma política publicada para contoso.com será aplicada a sub.domain.contonos.com, a menos que uma política diferente seja explicitamente definida para o subdomínio). Isso é útil para que as organizações possam especificar um número menor de registros DMARC de alto nível para uma ampla cobertura. Cuidado deve ser tomado para configurar registros DMARC explícitos de subdomínio, onde você não quer que os subdomínios herdem o registro DMARC do domínio de nível superior.
+   DMARC é implementado por meio da publicação de uma política como um registro TXT no DNS e é hierárquico (por exemplo, uma política publicada para contoso.com será aplicada a sub.domain.contonos.com, a menos que uma política diferente seja explicitamente definida para o subdomínio). Isso é útil para que as organizações possam especificar um número menor de registros DMARC de alto nível para uma cobertura mais ampla. Cuidado deve ser tomado ao configurar registros DMARC explícitos de subdomínio, onde você não quer que os subdomínios herdem o registro DMARC do domínio de nível superior.
 
-Também, você pode adicionar uma política do tipo curinga para DMARC quando os subdomínios não devem enviar emails, pela adição do valor `sp=reject`. Por exemplo:
+   Também, você pode adicionar uma política do tipo curinga para DMARC quando os subdomínios não devem enviar emails, pela adição do valor `sp=reject`. Por exemplo:
 
-```console
-_dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
-```
+   ```text
+   _dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
+   ```
 
 ## <a name="how-microsoft-365-handles-outbound-email-that-fails-dmarc"></a>Como o Microsoft 365 lida com emails de saída que não passam na verificação do DMARC
 

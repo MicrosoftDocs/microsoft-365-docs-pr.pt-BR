@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
-ms.openlocfilehash: a212067d75ab3d9e195e3d869e0a6ae7d1ed4d01
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 2a00d639be3b43fb56e26dca2725f2c3dac54b39
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616375"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760537"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -38,9 +38,9 @@ Na ilustração:
 
 - Comece com os relatórios de prevenção contra perda de dados do Microsoft 365 para monitorar dados pessoais no Microsoft Office SharePoint Online, OneDrive for Business e nos emails em trânsito. Eles oferecem o maior nível de detalhes para monitorar dados pessoais. No entanto, estes relatórios não incluem todos os serviços do Office 365.
 
-- Em seguida, use políticas de alerta e logs de auditoria para monitorar as atividades entre os serviços. Configure o monitoramento contínuo ou pesquise no log de auditoria para investigar um incidente. O log de auditoria funciona entre serviços: Sway, PowerBI, Descoberta Eletrônica, Dynamics 365, Microsoft Flow, Microsoft Teams, atividades de administração, OneDrive for Business, Microsoft Office SharePoint Online, email em trânsito e caixas de correio em repouso. As conversas do Skype estão incluídas nas caixas de correio em repouso.
+- Em seguida, use políticas de alerta e logs de auditoria para monitorar as atividades entre os serviços. Configure o monitoramento contínuo ou pesquise no log de auditoria para investigar um incidente. O log de auditoria funciona entre serviços: Sway, PowerBI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, atividades de administração, OneDrive for Business, Microsoft Office SharePoint Online, email em trânsito e caixas de correio em repouso. As conversas do Skype estão incluídas nas caixas de correio em repouso.
 
-- Por fim, use o Microsoft Cloud App Security para monitorar arquivos com dados confidenciais em outros provedores de SaaS. Em breve, você poderá usar os tipos de informações confidenciais e os rótulos unificados na Proteção de Informações do Azure e no Office com aplicativo de segurança na nuvem. Você pode configurar políticas que se aplicam a todos os aplicativos SaaS ou aplicativos específicos (como o Box). O aplicativo de segurança na nuvem não descobre arquivos no Exchange Online, incluindo arquivos anexados a emails.
+- Por fim, use o Microsoft Cloud App Security para monitorar arquivos com dados confidenciais em outros provedores de SaaS. Em breve, você poderá usar os tipos de informações confidenciais e os rótulos unificados na Proteção de Informações do Azure e no Office com o Cloud App Security. Você pode configurar políticas que se aplicam a todos os aplicativos SaaS ou aplicativos específicos (como o Box). O Cloud App Security não descobre arquivos no Exchange Online, incluindo arquivos anexados a emails.
 
 ## <a name="data-loss-prevention-reports"></a>Relatórios de prevenção contra perda de dados
 
@@ -78,7 +78,7 @@ O centro de conformidade e o centro de segurança oferecem duas maneiras de moni
 
 - Pesquisar diretamente no log de auditoria – você pode pesquisar todos os eventos em um intervalo de datas especificado ou filtrar os resultados com base em determinados critérios; por exemplo, o usuário que executou a ação, a ação ou o objeto de destino.
 
-As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores entre os serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrem em conjuntos de sites específicos, por exemplo, quando o conteúdo de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
+As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores entre os serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrem em conjuntos de sites específicos - por exemplo, quando o conteúdo de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
 
 As equipes de segurança de informações podem também pesquisar o log de auditoria para investigar suspeitas de violação de dados, bem como determinar a causa raiz e a abrangência da violação. Esta funcionalidade interna facilita o cumprimento dos artigos 33 e 34 do GDPR, que exige o envio de notificações sobre violação de dados à autoridade supervisora do GDPR e aos detentores dos dados, em um período específico. As entradas do log de auditoria são mantidas apenas por 90 dias no serviço. Recomendamos e a maioria das organizações exige que esses logs sejam mantidos por mais tempo.
 
@@ -102,7 +102,7 @@ Clique nos links abaixo para saber mais sobre as políticas de alerta e como pes
 
 O Microsoft Cloud App Security ajuda a descobrir outros aplicativos SaaS em uso nas redes e os dados confidenciais enviados desses aplicativos ou para eles.
 
-O Microsoft Cloud App Security é um serviço abrangente que fornece visibilidade ampliada, controles granulares e proteção aprimorada contra ameaças para os aplicativos de nuvem. Ele identifica mais de 15 mil aplicativos de nuvem na rede, em todos os dispositivos, além de fornecer análise, avaliação e pontuação de risco contínuas. Não são necessários agentes: os dados são coletados nos firewalls e proxies para que você tenha contexto e visibilidade completa do uso da nuvem e da TI sombra.
+O Microsoft Cloud App Security é um serviço abrangente que fornece visibilidade ampliada, controles granulares e proteção aprimorada para os aplicativos de nuvem. Ele identifica mais de 15 mil aplicativos de nuvem na rede, em todos os dispositivos, além de fornecer análise, avaliação e pontuação de risco contínuas. Não são necessários agentes: os dados são coletados nos firewalls e proxies para que você tenha contexto e visibilidade completa do uso da nuvem e da Shadow IT.
 
 Para entender melhor o ambiente de nuvem, o recurso de investigação do Cloud App Security fornece uma ampla visibilidade de atividades, arquivos e contas para aplicativos gerenciados e sancionados. Você pode obter informações detalhadas em nível de arquivo e descobrir o deslocamento dos dados nos aplicativos de nuvem.
 
@@ -151,7 +151,7 @@ Alerta quando um arquivo que contém um número de cartão de crédito é compar
 |Categoria|DLP|
 |Configurações de Filtro|Nível de acesso = Público (Internet), público, externo <p> Aplicativos = \<select apps\>(use esta configuração se quiser limitar o monitoramento a aplicativos SaaS específicos)|
 |Aplicar a|Todos os arquivos, todos os proprietários|
-|Inspeção de conteúdo|Inclui os arquivos que correspondam a uma expressão presente: "Todos os países: finanças: número do cartão de crédito" <p> Não exige contexto relevante: não selecionado (isso corresponde a palavras-chave e expressões regulares) <p> Inclui arquivos com pelo menos uma correspondência <p> Remover a máscara dos quatro últimos caracteres da violação: selecionado|
+|Inspeção de conteúdo|Inclui os arquivos que correspondam a uma expressão presente: "Todos os países: finanças: número do cartão de crédito" <p> Não exige contexto relevante: não selecionado (essa configuração corresponde a palavras-chave e expressões regulares) <p> Inclui arquivos com pelo menos uma correspondência <p> Remover a máscara dos quatro últimos caracteres da violação: selecionado|
 |Alertas|Criar um alerta para cada arquivo correspondente: selecionado <p> Limite diário de alerta: 1.000 <p> Selecionar um alerta como email: selecionado <p> Para: infosec@contoso.com|
 |Gestão|Microsoft OneDrive for Business <p> Tornar particular: selecionar "Remover usuários externos" <p> Todas as outras configurações: não selecionadas <p> Microsoft SharePoint Online <p> Tornar particular: selecionar "Remover usuários externos" <p> Todas as outras configurações: não selecionadas|
 |
@@ -186,5 +186,5 @@ Observações:
 
 Políticas semelhantes:
 
-- Detectar grandes downloads de dados do cliente ou de RH – alerta quando for detectada uma grande quantidade de arquivos que contêm dados de clientes ou de RH sendo baixada por um único usuário, dentro de um curto período.
+- Detectar grandes downloads de dados do cliente ou de dados de RH – alerta quando for detectada uma grande quantidade de arquivos que contêm dados de clientes ou de RH sendo baixada por um único usuário, dentro de um curto período.
 - Detectar o compartilhamento de dados de clientes e de RH – alerta quando os arquivos com dados de clientes ou de RH são compartilhados.
