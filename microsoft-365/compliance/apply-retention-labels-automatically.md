@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar rótulos de retenção e políticas de rotulação automáticas, para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: a79e7a96cc02957b0bac4dba31b24c5727f0483b
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 2b06188a5990c7de81fca0afd21f05ef346807ba
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751172"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759961"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -247,10 +247,10 @@ Ao escolher a opção de um classificador treinado, você pode selecionar um dos
 
 Para aplicar um rótulo automaticamente usando essa opção, os sites e as caixas de correio do SharePoint devem conter pelo menos 10 MB de dados.
 
-Para saber mais sobre esses classificadores treináveis, confira [Saiba mais sobre classificadores treináveis (visualização)](classifier-learn-about.md).
+Para saber mais sobre esses classificadores treináveis, confira [Saiba mais sobre classificadores treináveis](classifier-learn-about.md).
 
 > [!TIP]
-> Se você usar classificadores treináveis para o Exchange, confira [Como treinar novamente um classificador no explorador de conteúdo (visualização)](classifier-how-to-retrain-content-explorer.md) lançado recentemente.
+> Se você usar classificadores treináveis para o Exchange, confira [Como treinar novamente um classificador no explorador de conteúdo](classifier-how-to-retrain-content-explorer.md).
 
 Para considerar quando usar classificadores de treinamento para aplicar automaticamente os rótulos de retenção:
 

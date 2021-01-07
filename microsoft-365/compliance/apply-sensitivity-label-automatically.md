@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 3f789396c3ee6746277e01f8b5c6a772bcd528ac
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: aa6b3ce2da8166cc2b33ae2b6056b54d76a0c634
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751411"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759951"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -147,7 +147,7 @@ Ao selecionar a opção **Classificadores treináveis**, selecione um ou mais cl
 > [!CAUTION]
 > Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não use esse classificador interno e se você estiver usando-o no momento, você deve migrar seus processos de negócios para fora dele. É recomendável usar os classificadores internos **Assédio Direcionado**, **Profanidade** e **Ameaças**.
 
-Para saber mais sobre esses classificadores, confira [Saiba mais sobre classificadores de treinamento (visualização)](classifier-learn-about.md).
+Para saber mais sobre esses classificadores, confira [Saiba mais sobre classificadores de treinamento](classifier-learn-about.md).
 
 Durante o período de visualização desta opção, os seguintes aplicativos são compatíveis com classificadores treináveis de rótulos de confidencialidade:
 
