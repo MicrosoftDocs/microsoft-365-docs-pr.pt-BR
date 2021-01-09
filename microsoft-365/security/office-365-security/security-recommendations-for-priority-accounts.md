@@ -1,5 +1,5 @@
 ---
-title: Recomendações de segurança para contas de prioridade no Microsoft 365
+title: Recomendações de segurança para contas prioritárias no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,63 +16,75 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender a elevar as configurações de segurança e a usar relatórios, alertas e investigações para contas de prioridade em suas organizações do Microsoft 365.
-ms.openlocfilehash: 9788131ea881a1cb3c36a60dfaac01ed5daf0901
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+- m365solution-overview
+- m365solution-protecthve
+description: Os administradores podem aprender a elevar as configurações de segurança e usar relatórios, alertas e investigações para contas prioritárias em suas organizações do Microsoft 365.
+ms.openlocfilehash: acd2eba0acd533d0cd8223f2c433cc023fc23287
+ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769238"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790121"
 ---
-# <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Recomendações de segurança para contas de prioridade no Microsoft 365
+# <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Recomendações de segurança para contas prioritárias no Microsoft 365
 
-O que você faria se recebeu uma mensagem urgente de um executivo em sua organização que solicitou algo? Você faria isso? A maioria das pessoas estaria em conformidade com a solicitação.
+Nem todas as contas de usuário têm acesso às mesmas informações da empresa. Algumas contas têm acesso a informações confidenciais, como dados financeiros, informações de desenvolvimento de produtos, acesso de parceiros a sistemas de com build críticos e muito mais. Contas que têm acesso a informações altamente confidenciais representam uma ameaça grave se comprometidas. Chamamos esses tipos de contas de _prioridade de contas._ As contas de prioridade incluem CEOs, CISOs, CFOs, contas de administrador de infraestrutura, criar contas do sistema e muito mais.
 
-Para invasores, os ataques comuns de phishing que convertem uma rede aleatória para obter as credenciais de usuários aleatórios ou desconhecidos são ineficientes. Por outro lado, os ataques de _spear phishing_ ou _Whaling_ que direcionam os usuários em posições de poder ou de autoridade são muito mais recompensados para invasores. Se essas contas de prioridade estiverem comprometidas, o invasor poderá obter acesso a contas com recursos de administrador, financeiro, produto ou mesmo acesso físico dentro da organização.
+Para invasores, ataques comuns de phishing que lançam uma rede aleatória para usuários comuns ou desconhecidos são ineficientes. Por outro lado, _os ataques de phishing_ ou _whaling_ que visam contas prioritárias são muito recompiletivas para invasores. Portanto, as contas de prioridade exigem proteção mais forte do que a comum para ajudar a evitar o comprometimento da conta.
 
-O Microsoft 365 e o Microsoft defender para Office 365 contêm vários recursos diferentes que podem ajudá-lo a fornecer camadas adicionais de segurança para suas contas de prioridade. Os recursos disponíveis e como usá-los são discutidos neste artigo.
+O Microsoft 365 e o Microsoft Defender para Office 365 contêm vários recursos importantes que fornecem camadas adicionais de segurança para suas contas prioritárias. Este artigo descreve esses recursos e como usá-los.
 
 ![Resumo das recomendações de segurança no formato de ícone](../../media/security-recommendations-for-priority-users.png)
 
-## <a name="increase-sign-in-security-for-priority-accounts"></a>Aumentar a segurança de entrada para contas de prioridade
+****
 
-As contas de prioridade exigem maior segurança de entrada. Você pode aumentar a segurança de entrada exigindo a autenticação multifator (MFA) e desabilitando os protocolos de autenticação herdados.
+|Tarefas|Todos os planos do Office 365 Enterprise|Microsoft 365 E3|Microsoft 365 E5|
+|---|:---:|:---:|:---:|
+|[Aumentar a segurança de login para contas prioritárias](#increase-sign-in-security-for-priority-accounts)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[Usar políticas de segurança predefinidas Estritas para contas prioritárias](#use-strict-preset-security-policies-for-priority-accounts)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[Aplicar marcas de usuário a contas prioritárias](#apply-user-tags-to-priority-accounts)|||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[Monitorar contas de prioridade em alertas, relatórios e detecções](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|
 
-Para obter instruções, consulte a [etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA](https://docs.microsoft.com/microsoft-365/solutions/empower-people-to-work-remotely-secure-sign-in). Embora este artigo seja sobre funcionários remotos, os mesmos conceitos se aplicam a usuários de prioridade.
+## <a name="increase-sign-in-security-for-priority-accounts"></a>Aumentar a segurança de login para contas prioritárias
 
-**Observações**:
+As contas de prioridade exigem maior segurança de login. Você pode aumentar a segurança de login deles exigindo a autenticação multifatofa (MFA) e desabilitando protocolos de autenticação herdados.
 
-- A autenticação básica está no processo de ser preterido no Exchange Online para serviços Web do Exchange (EWS), Exchange ActiveSync, POP3, IMAP4 e PowerShell remoto. Para obter detalhes, consulte esta [postagem de blog](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/).
+Para obter instruções, consulte [a Etapa 1. Aumente a segurança de login para funcionários remotos com MFA.](https://docs.microsoft.com/microsoft-365/solutions/empower-people-to-work-remotely-secure-sign-in) Embora este artigo seja sobre funcionários remotos, os mesmos conceitos se aplicam aos usuários prioritários.
 
-- Você pode usar [políticas de autenticação](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) e [regras de acesso para cliente](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) no Exchange Online para bloquear autenticação básica e protocolos de autenticação herdados como POP3, IMAP4 e SMTP autenticado.
+**Observação:** recomendamos que você desabilite globalmente os protocolos de autenticação herdados para todos os usuários com prioridade, conforme descrito no artigo anterior. Se seus requisitos de negócios impedirem isso, o Exchange Online oferecerá os seguintes controles para ajudar a limitar o escopo de protocolos de autenticação herdados:
 
-- Você pode desabilitar o acesso POP3 e IMAP4 em caixas de correio individuais. Você pode desabilitar o SMTP autenticado no nível organizacional e habilitá-lo em caixas de correio específicas que ainda exijam isso. Para obter instruções, consulte os seguintes tópicos:
+- Você pode [](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) usar [](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) políticas de autenticação e Regras de Acesso para Cliente no Exchange Online para bloquear ou permitir protocolos de autenticação básica e herdados, como POP3, IMAP4 e SMTP autenticado para usuários específicos.
+
+- Você pode desabilitar o acesso POP3 e IMAP4 em caixas de correio individuais. Você pode desabilitar o SMTP autenticado no nível organizacional e habilita-lo em caixas de correio específicas que ainda exigem isso. Para obter instruções, consulte os seguintes tópicos:
   - [Habilitar ou desabilitar o acesso POP3 ou IMAP4 para um usuário](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
-  - [Habilitar ou desabilitar o envio SMTP de cliente autenticado (autenticação SMTP)](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
+  - [Habilitar ou desabilitar o envio SMTP do cliente autenticado (SMTP AUTH)](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
 
-## <a name="use-strict-preset-security-policies-for-priority-accounts"></a>Usar políticas de segurança predefinidas restritas para contas de prioridade
+Também vale a pena notar que a autenticação Básica está sendo preterida no Exchange Online para Serviços Web do Exchange (EWS), Exchange ActiveSync, POP3, IMAP4 e PowerShell remoto. Para obter detalhes, confira esta [postagem de blog.](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/)
 
-Os usuários com prioridade exigem ações mais rigorosas para as várias proteções disponíveis no Exchange Online Protection (EOP) e no defender para Office 365.
+## <a name="use-strict-preset-security-policies-for-priority-accounts"></a>Usar políticas de segurança predefinidas Estritas para contas prioritárias
 
-Por exemplo, em vez de entregar mensagens que foram classificadas como spam para a pasta lixo eletrônico, você deve colocar essas mesmas mensagens em quarentena se elas forem destinadas às contas de prioridade.
+Os usuários prioritários exigem ações mais rigorosas para as várias proteções disponíveis no Exchange Online Protection (EOP) e no Defender para Office 365.
 
-Você pode implementar essa abordagem rigorosa para contas de prioridade usando o perfil estrito em políticas de segurança predefinidas.
+Por exemplo, em vez de entregar mensagens que foram classificadas como spam para a pasta Lixo Eletrônico, você deve colocar essas mesmas mensagens em quarentena se elas se destinam a contas prioritárias.
 
-As políticas de segurança predefinidas são um local conveniente e central para aplicar as configurações de política estrita recomendadas para todas as proteções do EOP e do defender para Office 365. Para obter mais informações, consulte [predefinições de políticas de segurança no EOP e Microsoft defender para Office 365](preset-security-policies.md).
+Você pode implementar essa abordagem rigorosa para contas prioritárias usando o perfil Estrito em políticas de segurança predefinidas.
 
-Para obter detalhes sobre como as configurações de diretiva estritas diferem das configurações de política padrão e padrão, consulte [configurações recomendadas para o EOP e o Microsoft defender para Office 365 Security](recommended-settings-for-eop-and-office365-atp.md).
+As políticas de segurança predefinidas são um local conveniente e central para aplicar nossas configurações de política Estrita recomendadas para todas as proteções no EOP e no Defender para Office 365. Para obter mais informações, consulte [Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365.](preset-security-policies.md)
 
-## <a name="apply-user-tags-to-priority-accounts"></a>Aplicar marcas de usuário às contas de prioridade
+Para obter detalhes sobre como as configurações de política Estrito diferem das configurações de política padrão e padrão, consulte Configurações recomendadas para o EOP e [o Microsoft Defender para segurança do Office 365.](recommended-settings-for-eop-and-office365-atp.md)
 
-As marcas de usuário no Microsoft defender para Office 365 plano 2 (como parte do Microsoft 365 E5 ou uma assinatura complementar) são uma maneira de identificar e classificar rapidamente usuários ou grupos específicos de usuários em relatórios e investigações de incidentes.
+## <a name="apply-user-tags-to-priority-accounts"></a>Aplicar marcas de usuário a contas prioritárias
 
-**As contas de prioridade** é um tipo de marca de usuário interna (conhecido como uma _marca do sistema_) que você pode usar para identificar incidentes e alertas que envolvem contas de prioridade. Para obter mais informações sobre **contas de prioridade**, consulte [gerenciar e monitorar contas de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts).
+As marcas de usuário no Microsoft Defender para Office 365 Plano 2 (como parte do Microsoft 365 E5 ou uma assinatura de complemento) são uma maneira de identificar e classificar rapidamente usuários ou grupos de usuários específicos em relatórios e investigações de incidentes.
 
-Você também pode criar marcas personalizadas para identificar e classificar suas contas de prioridade. Para obter mais informações, consulte [User Tags](user-tags.md). Observe que você pode gerenciar **contas de prioridade** (marcas de sistema) na mesma interface que as marcas de usuário personalizadas.
+**Contas de** prioridade é um tipo de marca de usuário interna (conhecida como marca do _sistema)_ que você pode usar para identificar incidentes e alertas que envolvem contas de prioridade. Para obter mais informações sobre **contas de prioridade,** [consulte Gerenciar e monitorar contas de prioridade.](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)
+
+Você também pode criar marcas personalizadas para identificar e classificar ainda mais suas contas de prioridade. Para obter mais informações, consulte [Marcas de usuário.](user-tags.md) Observe que você pode gerenciar **contas de prioridade** (marcas do sistema) na mesma interface que as marcas de usuário personalizadas.
 
 ## <a name="monitor-priority-accounts-in-alerts-reports-and-detections"></a>Monitorar contas de prioridade em alertas, relatórios e detecções
 
-Depois de proteger e marcar seus usuários de prioridade, você pode usar os relatórios, alertas e investigações disponíveis no EOP e no defender para Office 365 para identificar rapidamente incidentes ou detecções que envolvem contas de prioridade. Os recursos que dão suporte a marcas de usuário são descritos na tabela a seguir.
+Depois de proteger e marcar os usuários com prioridade, você pode usar os relatórios, alertas e investigações disponíveis no EOP e no Defender para Office 365 para identificar rapidamente incidentes ou detecções que envolvem contas de prioridade. Os recursos que suportam marcas de usuário são descritos na tabela a seguir.
 
 <br>
 
@@ -80,13 +92,13 @@ Depois de proteger e marcar seus usuários de prioridade, você pode usar os rel
 
 |Recurso|Descrição|
 |---|---|
-|Alertas|As marcas de usuário dos usuários afetados estão visíveis e disponíveis como filtros na página **exibir alertas** no centro de conformidade de & de segurança. Para obter mais informações, consulte [Viewing Alerts](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#viewing-alerts).|
-|Explorador de Ameaças <p> Detecções em tempo real|No **Explorador de ameaças** (Microsoft defender para Office 365 plano 2) ou **detecções em tempo real** (microsoft defender para Office 365 plano 1), as marcas de usuário são visíveis no modo de exibição grade de email e no submenu detalhes do email. Marcas de usuário também estão disponíveis como uma propriedade filtrável. Para obter mais informações, consulte  [marcas no Gerenciador de ameaças](threat-explorer.md#tags-in-threat-explorer).|
-|Modos de Exibição de Campanha|As marcas de usuário são uma das muitas propriedades filtráveis nos modos de exibição de campanha no Microsoft defender para Office 365 plano 2. Para obter mais informações, consulte [Campaign views](campaigns.md).|
-|Relatório de status de proteção contra ameaças|Em praticamente todas as tabelas de modos de exibição e detalhes no **relatório de status de proteção contra ameaças**, você pode filtrar os resultados por **contas de prioridade**. Para obter mais informações, consulte [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report).|
-|Relatório de problemas de email para contas de prioridade|O relatório de **problemas de email para contas de prioridade** no centro de administração do Exchange (Eat) contém informações sobre mensagens não entregues e atrasadas para **contas de prioridade**. Para obter mais informações, consulte [e-mail issues for Priority accounts Report](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report).|
+|Alertas|As marcas de usuário dos usuários afetados estão visíveis e disponíveis como filtros na página Exibir **alertas** no Centro de Conformidade & Segurança. Para obter mais informações, consulte [Exibindo alertas.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#viewing-alerts)|
+|Explorador de Ameaças <p> Detecções em tempo real|No **Explorador** de Ameaças (Microsoft Defender para Office 365 Plano 2) ou detecções em tempo **real** (Microsoft Defender para Office 365 Plano 1), as marcas de usuário ficam visíveis na exibição de grade Email e no submenu Detalhes do email. As marcas de usuário também estão disponíveis como uma propriedade filtável. Para obter mais informações, consulte [Marcas no Explorador de Ameaças.](threat-explorer.md#tags-in-threat-explorer)|
+|Modos de Exibição de Campanha|As marcas de usuário são uma das muitas propriedades filtáveis em Exibições de Campanha no Microsoft Defender para Office 365 Plano 2. Para obter mais informações, consulte [Exibições de Campanha.](campaigns.md)|
+|Relatório de status de proteção contra ameaças|Em praticamente todas as exibições e tabelas de detalhes no relatório de **status** de Proteção contra Ameaças, você pode filtrar os resultados por contas **de prioridade.** Para obter mais informações, consulte [o relatório de status de proteção contra ameaças.](view-email-security-reports.md#threat-protection-status-report)|
+|Email issues for priority accounts report|Os **problemas de email para** o relatório de contas de prioridade no Centro de administração do Exchange (EAC) contém informações sobre mensagens não entregues e atrasadas para contas de **prioridade.** Para obter mais informações, consulte [Email issues for priority accounts report](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report).|
 |
 
 ## <a name="see-also"></a>Confira também
 
-[Anunciando a proteção da conta de prioridade no Microsoft defender para Office 365](https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/announcing-priority-account-protection-in-microsoft-defender-for/ba-p/1696385)
+[Anunciando a Proteção de Conta Com Prioridade no Microsoft Defender para Office 365](https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/announcing-priority-account-protection-in-microsoft-defender-for/ba-p/1696385)

@@ -18,58 +18,66 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como usar o alternador de locatários e sobre os modos de exibição de vários locatários.
-ms.openlocfilehash: 2c96a80a0095e909eff19c9172eb0709ecece942
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+description: Saiba como usar o alternador de locatários e sobre as exibições de vários locatários.
+ms.openlocfilehash: 0b73665159fbc6ce2d1aa99ba1518dc257d88ec8
+ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48495841"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790133"
 ---
 # <a name="multi-tenant-management"></a>Gerenciamento de vários locatários
 
-O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite aos administradores administrar todos os locatários que eles gerenciam de um único local. Se você gerenciar vários locatários, você pode:
+O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite aos administradores administrar todos os locatários que eles gerenciam em um único local. Se você gerenciar vários locatários, poderá:
 
-- Mover-se rapidamente entre os locatários que você gerencia.
-- Avaliar a integridade do serviço, produtos e cobrança em vários locatários.
-- Na página **todos os locatários** , você pode ver rapidamente a integridade de todos os serviços de seus locatários, todas as solicitações de serviço abertas, seus produtos e cobranças e o número de usuários nesse locatário.
+- Mova-se rapidamente entre locatários que você gerencia.
+- Avaliar a saúde do serviço, produtos e cobrança em vários locatários.
+- Na página Todos os **locatários,** você pode ver rapidamente a saúde de todos os serviços de seus locatários, quaisquer solicitações de serviço abertas, seus produtos e cobranças e o número de usuários nesse locatário.
 
 
-## <a name="move-between-tenants"></a>Mover entre locatários
+## <a name="move-between-tenants"></a>Mover-se entre locatários
 
 1. No centro de administração do Microsoft 365, selecione o nome da organização.
 
-    :::image type="content" source="../../media/macorgswitcher.png" alt-text="Interruptor de vários locatários.":::
+    :::image type="content" source="../../media/macorgswitcher.png" alt-text="Alternador de vários locatários.":::
 
-- A partir do **seletor de locatário** , você pode se mover rapidamente entre os locatários que gerencia.
+- No **alternador de** locatários, você pode mover-se rapidamente entre os locatários que gerencia.
 
-    :::image type="content" source="../../media/yourtenantslist.png" alt-text="Interruptor de vários locatários.":::
+    :::image type="content" source="../../media/yourtenantslist.png" alt-text="Sua lista de locatários com funcionalidade de pesquisa.":::
 
-## <a name="view-all-tenants-page"></a>Página Exibir todos os locatários
+## <a name="view-all-tenants-page"></a>Exibir a página Todos os locatários
 
-1. No centro de administração do Microsoft 365, na navegação à esquerda, selecione **todos os locatários**.
-- Na página **todos os locatários** , você pode
-  - Avaliar a integridade do serviço
-  - Analisar o uso da licença
-  - Procure ou selecione o locatário que você deseja gerenciar
-  - Você também pode fixar o locatário mais visitado com mais frequência na parte superior da lista.
+1. No centro de administração do Microsoft 365, no painel de administração esquerdo, selecione **Todos os locatários.**
+- Na página **Todos os locatários,** você pode
+  - Avaliar a saúde do serviço
+  - Revisar o uso da licença
+  - Pesquisar ou selecionar o locatário que você deseja gerenciar
+  - Você também pode fixar seu locatário visitado com mais frequência na parte superior da lista.
 
 
-Se você marcou um locatário como favorito, ele será automaticamente expandido para que você possa exibir imediatamente os detalhes do status.
+Se você marcou um locatário como favorito, ele será expandido automaticamente para que você possa exibir imediatamente os detalhes de status.
 
-## <a name="view-service-health-for-all-accounts"></a>Exibir a integridade do serviço para todas as contas
+## <a name="view-service-health-for-all-accounts"></a>Exibir a saúde do serviço para todas as contas
 
-O modo de exibição integridade do serviço mostra se algum incidentes ou comunicados estão afetando os locatários. Ele até mesmo dirá quantos de seus locatários gerenciados são afetados.
+A exibição de saúde do serviço mostra se algum incidente ou aviso está afetando os locatários. Ele até mesmo dirá quantos de seus locatários gerenciados são afetados.
 
-1. No centro de administração do Microsoft 365, no modo de exibição de vários locatários, selecione **integridade do serviço**.
-2. Na página **integridade do serviço** , você pode examinar os problemas em **todos os serviços** ou em **todas as** guias de problemas.
-3. Selecione um incidente na guia **todos os serviços** ou **todos os problemas** para obter mais informações sobre qualquer incidente na guia **visão geral** . Selecione a guia **afetados pelos locatários** para obter uma lista dos locatários afetados.
+1. No centro de administração do Microsoft 365, na exibição de vários locatários, selecione **a Saúde do Serviço.**
+2. Na  exibição agregada da página de saúde do serviço, você também pode ver o número total de incidentes, o número total de avisos que afetam qualquer um dos locatários gerenciados e o número de serviços com incidentes ativos. Você também pode ver quantos de seus locatários são afetados por incidentes e avisos.
+    
+    - Você pode usar a opção de filtro para exibir problemas por tipo de problema ou por serviço
 
-    :::image type="content" source="../../media/tenantsaffected.png" alt-text="Interruptor de vários locatários.":::
+    - Você pode revisar os problemas nas **guias Todos os serviços** ou Todos **os** Problemas.
 
-## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Exibir um único locatário no centro de administração do Microsoft 365
+    :::image type="content" source="../../media/multitenant-servicehealth.png" alt-text="Página de saúde do Serviço de vários locatários.":::
+1. Selecione um incidente na  guia **Todos os serviços** ou Todos os problemas para obter mais informações sobre qualquer incidente na guia **Visão** Geral. Selecione a **guia Locatários afetados** para obter uma lista dos locatários afetados.
 
-Você pode retornar ao centro de administração do Microsoft 365 para qualquer um dos locatários da página **todos os locatários** .
+    :::image type="content" source="../../media/tenantsaffected.png" alt-text="Lista de locatários afetados por um problema de saúde do serviço.":::
 
-1. Na página **todos os locatários** , clique no nome do locatário para o qual você deseja exibir o centro de administração.
-2. Você é direcionado para o centro de administração desse locatário.
+A lista de locatários afetados pode ser exportada para o formato CSV para que os administradores possam compartilhá-la com as equipes de suporte.
+
+## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Exibir um único locatário no Centro de administração do Microsoft 365
+
+Você pode retornar ao centro de administração do Microsoft 365 para qualquer um dos locatários na **página Todos os locatários.**
+
+1. Na página **Todos os locatários,** selecione o nome do locatário para o qual você deseja exibir o centro de administração.
+2. Você será direcionado para o centro de administração desse locatário.
