@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 8d50e03827026100689d9b380570fa59c93e6d08
-ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
+ms.openlocfilehash: 307687a277ade03f3ba40852eff15378928465e6
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "49730172"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787981"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -166,19 +166,15 @@ Para saber mais, confira [Usar um rótulo de retenção como condição em uma p
 
 #### <a name="retention-labels-and-policies-that-apply-them"></a>Rótulos de retenção e políticas que os aplicam
 
-Os rótulos de retenção são blocos de construção independentes e reutilizáveis. O objetivo principal da política de rótulos de retenção é agrupar um conjunto desses rótulos e especificar os locais em que você deseja que eles sejam exibidos. Em seguida, os administradores e os usuários podem aplicar esses rótulos ao conteúdo desses locais.
-  
-![Diagrama de rótulos, políticas de rótulos e locais](../media/eee42516-adf0-4664-b5ab-76727a9a3511.png)
-  
-Quando você publica rótulos de retenção, eles são incluídos em uma política de rótulo de retenção que os torna disponíveis para administradores e usuários selecionarem:
+Quando você publica rótulos de retenção, eles são incluídos em uma **política de rótulos de retenção** que os disponibiliza para administradores e usuários aplicarem ao conteúdo. Como mostra o diagrama a seguir:
 
-- Um único rótulo de retenção pode ser incluído em várias políticas de rótulos de retenção.
+1. Um único rótulo de retenção pode ser incluído em várias políticas de rótulos de retenção.
 
-- As políticas de rótulos de retenção especificam os locais de publicação dos rótulos de retenção.
+2. As políticas de rótulos de retenção especificam os locais de publicação dos rótulos de retenção. O mesmo local pode ser incluído em várias políticas de rótulos de retenção.
 
-- Um único local também pode ser incluído em várias políticas de rótulos de retenção.
+![Como rótulos de retenção podem ser adicionados a políticas de rótulos que especificam locais](../media/retention-labels-and-policies.png)
 
-Além das políticas de rótulo de retenção, você também pode criar uma ou mais políticas de aplicação automática, cada uma com um único rótulo de retenção. Com essa política, um rótulo de retenção é aplicado automaticamente quando as condições especificadas na política são atendidas.
+Você também pode criar uma ou mais **políticas de rótulo de retenção de aplicação automática**, cada uma com um único rótulo de retenção. Com essa política, um rótulo de retenção é aplicado automaticamente quando as condições especificadas na política são atendidas.
 
 #### <a name="retention-label-policies-and-locations"></a>Políticas de rótulo de retenção e locais
 
@@ -190,7 +186,7 @@ Além das políticas de rótulo de retenção, você também pode criar uma ou m
 |Aplicada automaticamente com base em tipos de informações confidenciais ou classificadores treináveis  <br/> |Exchange (somente para todas as caixas de correio), SharePoint, OneDrive  <br/> |
 |Aplicado automaticamente com base em uma consulta  <br/> |Exchange, SharePoint, OneDrive, Grupos do Microsoft 365  <br/> |
    
-No Exchange, os rótulos de retenção de aplicação automática são aplicados somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens da caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis aplicam-se a todas as caixas de correio. Não é possível selecionar caixas de correio específicas.
+No Exchange, os rótulos de retenção que você aplica automaticamente são aplicados apenas às mensagens enviadas recentemente (dados em trânsito) e não a todos os itens atualmente na caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais e classificadores treináveis aplicam-se a todas as caixas de correio. Não é possível selecionar caixas de correio específicas.
   
 As pastas públicas do Exchange, Skype, Teams e as mensagens do Yammer não oferecem suporte a rótulos de retenção. Para reter e excluir conteúdo desses locais, use políticas de retenção.
 
@@ -287,7 +283,7 @@ Use o seguinte fluxo para entender os resultados de retenção e exclusão de um
 > [!IMPORTANT]
 > Se você estiver usando rótulos de retenção: Antes de usar este fluxo para determinar o resultado de várias configurações de retenção para o mesmo item, certifique-se de saber [qual rótulo de retenção está sendo aplicado](#only-one-retention-label-at-a-time).
 
-![Diagrama dos princípios de retenção](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
+![Diagrama dos princípios de retenção](../media/principles-of-retention.png)
   
 Explicação para os quatro níveis diferentes:
   
