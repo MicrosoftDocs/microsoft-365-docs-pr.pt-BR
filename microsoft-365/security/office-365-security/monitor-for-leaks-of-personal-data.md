@@ -78,11 +78,11 @@ O centro de conformidade e o centro de segurança oferecem duas maneiras de moni
 
 - Pesquisar diretamente no log de auditoria – você pode pesquisar todos os eventos em um intervalo de datas especificado ou filtrar os resultados com base em determinados critérios; por exemplo, o usuário que executou a ação, a ação ou o objeto de destino.
 
-As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores entre os serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrem em conjuntos de sites específicos - por exemplo, quando o conteúdo de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
+As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores entre os serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrem em conjuntos de sites específicos, por exemplo, quando o conteúdo de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
 
 As equipes de segurança de informações podem também pesquisar o log de auditoria para investigar suspeitas de violação de dados, bem como determinar a causa raiz e a abrangência da violação. Esta funcionalidade interna facilita o cumprimento dos artigos 33 e 34 do GDPR, que exige o envio de notificações sobre violação de dados à autoridade supervisora do GDPR e aos detentores dos dados, em um período específico. As entradas do log de auditoria são mantidas apenas por 90 dias no serviço. Recomendamos e a maioria das organizações exige que esses logs sejam mantidos por mais tempo.
 
-Existem soluções disponíveis, com quais é possível inscrever-se nos logs de auditoria unificados por meio da API da Atividade de Gestão da Microsoft, que podem armazenar as entradas do log conforme necessário, além de fornecer alertas e painéis avançados. Por exemplo, o [OMS (Microsoft Operations Management Suite)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365).
+Existem soluções disponíveis, com as quais é possível inscrever-se nos logs de auditoria unificados por meio da API da Atividade de Gestão da Microsoft, que podem armazenar as entradas do log conforme necessário, além de fornecer alertas e painéis avançados. Por exemplo, o [OMS (Microsoft Operations Management Suite)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365).
 
 Clique nos links abaixo para saber mais sobre as políticas de alerta e como pesquisar no log de auditoria.
 
@@ -186,5 +186,5 @@ Observações:
 
 Políticas semelhantes:
 
-- Detectar grandes downloads de dados do cliente ou de dados de RH – alerta quando for detectada uma grande quantidade de arquivos que contêm dados de clientes ou de RH sendo baixada por um único usuário, dentro de um curto período.
-- Detectar o compartilhamento de dados de clientes e de RH – alerta quando os arquivos com dados de clientes ou de RH são compartilhados.
+- Detectar grandes downloads de dados do cliente ou de dados de RH: alertar quando for detectada uma grande quantidade de arquivos que contêm dados de clientes ou de RH sendo baixada por um único usuário, dentro de um curto período.
+- Detectar o compartilhamento de dados de clientes e de RH: alertar quando os arquivos com dados de clientes ou de RH são compartilhados.
