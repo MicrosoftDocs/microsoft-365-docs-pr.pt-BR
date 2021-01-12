@@ -9,40 +9,54 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e78f0123c909c90ff90be913e8775cc1e5b30313
-ms.sourcegitcommit: 3bf4f1c0d3a8515cca651b2a520217195f89457f
+ms.openlocfilehash: 88a832f6c4e17756bfb25ef5cb7c4c5ecedaf2c0
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49777094"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794383"
 ---
 # <a name="adjust-settings-after-enrollment"></a>Ajustar as configurações após o registro
 
-Depois de concluir o registro na área de trabalho gerenciada da Microsoft, você precisa ajustar as configurações do Microsoft Intune e do Azure Active Directory (Azure AD) especificadas neste artigo para permitir o gerenciamento e a manutenção da segurança. Defina as configurações a seguir para excluir grupos específicos do Azure AD que contenham os usuários e dispositivos da área de trabalho gerenciada da Microsoft. Para obter etapas para excluir grupos, consulte [acesso condicional: usuários e grupos](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users).
+Depois que você concluir o registro na Área de Trabalho Gerenciada da Microsoft, algumas configurações de gerenciamento talvez precisem ser ajustadas. Para verificar e ajustar, se necessário, siga estas etapas:
+
+1. Revise as configurações do Microsoft Intune e do Azure Active Directory descritas na próxima seção.
+2. Se qualquer um dos itens se aplicar ao seu ambiente, faça os ajustes descritos.
+3. Se quiser verificar se todas as configurações estão corretas, você pode re-runcar a ferramenta de avaliação de preparação para garantir que nada entre em conflito com a Área de Trabalho Gerenciada da Microsoft. [](https://aka.ms/mmdart)
 
 > [!NOTE]
-> Se você fizer alterações após o registro em políticas no Microsoft Intune, Azure Active Directory ou Microsoft 365, é possível que a área de trabalho gerenciada da Microsoft possa parar de funcionar corretamente. Para evitar problemas com as operações de área de trabalho gerenciada da Microsoft, verifique as configurações específicas descritas em [corrigir problemas encontrados pela ferramenta de avaliação de prontidão antes de](../get-ready/readiness-assessment-fix.md) alterar qualquer política.
+> À medida que suas operações continuam nos meses seguintes, se você fizer alterações após o registro nas políticas do Microsoft Intune, do Azure Active Directory ou do Microsoft 365 que afetam a Área de Trabalho Gerenciada da Microsoft, é possível que a Área de Trabalho Gerenciada da Microsoft pare de funcionar corretamente. Para evitar problemas com o serviço, verifique [](../get-ready/readiness-assessment-fix.md) as configurações específicas descritas em Corrigir problemas encontrados pela ferramenta de avaliação de preparação antes de alterar as políticas listadas lá. Você também pode reruncar a ferramenta de avaliação de preparação a qualquer momento.
 
 
 ## <a name="microsoft-intune-settings"></a>Configurações do Microsoft Intune
 
-- Perfil de implantação do piloto automático: para perfis do AutoPilot criados por administradores em sua empresa, exclua os **dispositivos de área de trabalho moderna-todos os** grupos do Azure AD. Para obter etapas, consulte [registrar dispositivos Windows no Intune usando o Windows AutoPilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot). Não exclua os dispositivos de área de **trabalho moderna-todos os** grupos do Azure AD de qualquer política de implantação criada pelo Microsoft Managed desktop que tenha "local de trabalho moderno" no nome (por exemplo, **perfil do AutoPilot do local de trabalho moderno**). 
-- Políticas de acesso condicional: para políticas de acesso condicional criadas por administradores em sua empresa, exclua o grupo **contas do serviço de área de trabalho moderna** do Azure AD. Para obter etapas, consulte [acesso condicional: usuários e grupos](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups). Não exclua os dispositivos de área de **trabalho moderna-todos os** grupos do Azure AD de qualquer política criada pelo Microsoft Managed desktop que tenha "local de trabalho moderno" no nome (por exemplo, **estação de trabalho segura de local de trabalho moderno**).
-- Autenticação multifator: Certifique-se de que qualquer política de acesso condicional criada por administradores em sua empresa que exijam autenticação multifator exclua o grupo de **serviços de área de trabalho** do Azure AD. Para obter mais informações, consulte [políticas de acesso condicional](../get-ready/readiness-assessment-fix.md#conditional-access-policies) e [acesso condicional: exigir MFA para todos os usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
-- Linha de base de segurança: para políticas de linha de base de segurança criadas por administradores em sua empresa, exclua os **dispositivos de área de trabalho moderna-todos os**  grupos do Azure AD Para obter etapas, consulte [usar linhas de base de segurança para configurar dispositivos Windows 10 no Intune](https://docs.microsoft.com/mem/intune/protect/security-baselines). Não exclua os dispositivos de área de **trabalho moderna-todos os** grupos do Azure AD de qualquer política criada pelo Microsoft Managed desktop que tenha "local de trabalho moderno" no nome (por exemplo, a **linha de base de segurança de área de trabalho moderna**).
-- Anel de atualização do Windows 10: para as políticas de anel de atualização do Windows 10 criadas por administradores em sua empresa, exclua os **dispositivos de área de trabalho moderna-todos os**  grupos do Azure AD. Para obter etapas, consulte [Manage Windows 10 software updates no Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure). Não exclua os dispositivos de área de **trabalho moderna-todos os** grupos do Azure AD de qualquer política criada pelo Microsoft Managed desktop que tenha "local de trabalho moderno" no nome (por exemplo, a política de **atualização de área de trabalho moderna** ).
+- Perfil de implantação do Autopilot: se você usar qualquer política do Autopilot, atualize cada uma delas para excluir o grupo Dispositivos de Local de Trabalho Modernos **- Todos** do Azure AD. Para atualizá-los, na seção Grupos excluídos em Atribuições, selecione o grupo **Dispositivos** do Local de Trabalho Moderno **-Todos** os Grupos do Azure AD que foi criado durante o registro da Área de Trabalho Gerenciada da Microsoft.  A Área de Trabalho Gerenciada da Microsoft também terá criado um perfil do **Autopilot,** que terá "Modern Workplace" no nome (o Perfil do Piloto Automático do Local de Trabalho Moderno). Ao atualizar seus próprios perfis do  **Autopilot,** **certifique-se** de não excluir o grupo Dispositivos de Local de Trabalho Moderno - Todos os Azure AD do Perfil do Piloto Automático do Local de Trabalho Moderno criado pela Área de Trabalho Gerenciada da Microsoft.
+
+- Políticas de Acesso Condicional: para políticas de acesso condicional que você criou, exclua o grupo Contas do **Serviço** de Local de Trabalho Moderno do Azure AD. Para etapas, consulte [Acesso Condicional: Usuários e grupos.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups) A Área de Trabalho Gerenciada da Microsoft também terá criado algumas políticas de acesso condicional, todas com "Modern Workplace" no nome (por exemplo, **Modern Workplace Secure Workstation**). Ao atualizar suas próprias políticas de acesso  condicional, certifique-se de não excluir o grupo Dispositivos modernos do Local de Trabalho **-** Todos os Azure AD de quaisquer políticas criadas pela Área de Trabalho Gerenciada da Microsoft.
+
+- Autenticação multifator: certifique-se de que qualquer uma de  suas políticas de acesso condicional que exigem autenticação multifator exclua o grupo contas de serviço do Azure AD modernas. Para obter mais informações, [consulte Políticas de acesso condicional](../get-ready/readiness-assessment-fix.md#conditional-access-policies) e Acesso [Condicional: Exigir MFA para todos os usuários.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+
+- Anel de atualização do Windows 10: para todas as políticas de anel de atualização do Windows 10 que você criou, exclua o grupo Dispositivos Modernos do Local de Trabalho **-** Todos os grupos do Azure AD de cada política. Para etapas, consulte [Criar e atribuir anéis de atualização.](https://docs.microsoft.com/mem/intune/protect/windows-10-update-rings#create-and-assign-update-rings) A Área de Trabalho Gerenciada da Microsoft também terá criado algumas políticas de anel de atualização, todas com "Modern Workplace" no nome (por exemplo, **Política do Modern Workplace Update [Ampla]**, Política do Modern Workplace Update **[Rápida]**, **Política do Modern Workplace Update [Primeiro]** e Política de Atualização do Local de Trabalho Moderna **[Teste]**). Ao atualizar suas próprias políticas,  certifique-se de não excluir o grupo Dispositivos do Local de Trabalho Moderno **-** Todos os Azure AD daqueles que a Área de Trabalho Gerenciada da Microsoft criou.
 
 
 ## <a name="azure-active-directory-settings"></a>Configurações do Azure Active Directory
 
-Redefinição de senha de autoatendimento: escolha configuração **selecionada** e, em seguida, selecione **dispositivos de área de trabalho moderna-todos os** grupos do Azure AD. Para obter mais informações, consulte [tutorial: permitir que os usuários desbloqueiem suas contas ou redefinam senhas usando a redefinição de senha de autoatendimento do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+Redefinição de senha de autoatendido: se você usar a redefinição de senha de autoatendido para todos os usuários, ajuste a atribuição para excluir contas de serviço da Área de Trabalho Gerenciada da Microsoft. Para ajustar essa atribuição, crie um grupo dinâmico do Azure AD para todos os usuários, exceto contas de serviço da Área de Trabalho Gerenciada da *Microsoft,* e depois use esse grupo para atribuição em vez de "todos os usuários".
+
+Para ajudá-lo a encontrar e excluir as contas de serviço, aqui está um exemplo de uma consulta dinâmica que você pode usar:
+
+```Console
+(user.objectID -ne null) and (user.userPrincipalName -ne "MSADMIN@TENANT.onmicrosoft.com") and (user.userPrincipalName -ne "MSADMININT@TENANT.onmicrosoft.com") and (user.userPrincipalName -ne "MWAAS_SOC_RO@TENANT.onmicrosoft.com") and (user.userPrincipalName -ne "MWAAS_WDGSOC@TENANT.onmicrosoft.com") and (user.userPrincipalName -ne "MSTEST@TENANT.onmicrosoft.com")
+```
+
+Nesta consulta, substitua os @TENANT pelo nome de domínio do locatário.
 
 
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a trabalhar com a Área de Trabalho Gerenciada da Microsoft
 
 1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
-2. Ajustar as configurações após o registro (este artigo)
+2. Ajustar configurações após o registro (este artigo)
 3. [Atribuir licenças](assign-licenses.md)
 4. [Implantar o Portal da Empresa do Intune](company-portal.md)
 5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)

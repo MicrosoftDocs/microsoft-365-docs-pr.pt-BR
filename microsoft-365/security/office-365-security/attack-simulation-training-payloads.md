@@ -9,14 +9,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Os administradores podem aprender a criar cargas personalizadas para treinamento de simulação de ataque no Microsoft Defender para Office 365.
-ms.openlocfilehash: c48e6001e6d51c5621d54b3d4149d90b71724fad
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.openlocfilehash: fbab4825625c33d027ceaa9aa9272c06e286ed61
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780243"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794215"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Criar um conteúdo personalizado para treinamento de simulação de Ataque
 
@@ -39,7 +39,7 @@ Agora é hora de criar sua carga. Input the sender's name, email address, and th
 > [!TIP]
 > Você pode escolher um email interno para o remetente da carga, o que fará com que a carga apareça como proveniente de outro funcionário da empresa. Isso aumentará a suscetibilidade à carga e ajudará a instruir os funcionários sobre o risco de ameaças internas.
 
-Um editor de rich text está disponível para criar sua carga. Você também pode importar um email que criou com antecedência. Conforme você cria o corpo do email, aproveite as marcas dinâmicas para personalizar o email para seus destinos.  Clique **no link phishing** para adicionar a URL de phishing selecionada anteriormente ao corpo da mensagem.
+Um editor de rich text está disponível para criar sua carga. Você também pode importar um email que criou com antecedência. À medida que você cria o corpo do email, tire proveito das **marcas** dinâmicas para personalizar o email para seus destinos. Clique **no link phishing** para adicionar a URL de phishing selecionada anteriormente ao corpo da mensagem.
 
 ![Link de phishing e marcas dinâmicas realçadas na criação de carga do Microsoft Defender para Office 365](../../media/attack-sim-preview-payload-email-body.png)
 
@@ -63,4 +63,4 @@ Adicione uma descrição personalizada para descrever o indicador e clique no qu
 Você terminou de criar sua carga. Agora é hora de revisar os detalhes e ver uma visualização da carga. A visualização incluirá todos os indicadores que você criou. Você pode editar cada parte da carga desta etapa. Uma vez satisfeito, **envie** sua carga.
 
 > [!IMPORTANT]
-> As cargas que você criou terão Tenant **como** origem. Ao selecionar cargas, certifique-se de não filtrar **Tenant**.
+> As cargas que você criou terão o **locatário como** origem. Ao selecionar cargas, certifique-se de não filtrar **Tenant**.

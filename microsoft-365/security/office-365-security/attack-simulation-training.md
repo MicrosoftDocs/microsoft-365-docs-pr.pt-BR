@@ -9,14 +9,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Os administradores podem aprender a simular ataques de phishing e treinar seus usuários sobre prevenção contra phishing usando o treinamento de simulação de ataque no Microsoft Defender para Office 365.
-ms.openlocfilehash: 41a5a503fbc8aa5e41760c1cf420d5e3c6047d86
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: e7582b1f74266d988ecdf8f6dac49019699e2bc1
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49788046"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794251"
 ---
 # <a name="simulate-a-phishing-attack"></a>Simular um ataque de phishing
 
@@ -24,7 +24,7 @@ O treinamento de simulação de ataque no Microsoft Defender para Office 365 per
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Para iniciar um ataque simulado de phishing, abra o centro de segurança do [Microsoft 365,](https://security.microsoft.com/)vá para **Email &** treinamento de simulação de ataques de colaboração e alterne para a guia \>  [**Simulações.**](https://security.microsoft.com/attacksimulator?viewid=simulations)
+Para iniciar um ataque simulado de phishing, abra o centro de segurança do [Microsoft 365,](https://security.microsoft.com/)vá para **Email &** treinamento de simulação de ataque de colaboração e alterne para a guia \>  [**Simulações.**](https://security.microsoft.com/attacksimulator?viewid=simulations)
 
 Em **Simulações,** selecione **+ Iniciar uma simulação.**
 
@@ -58,8 +58,8 @@ As cargas têm vários pontos de dados para ajudá-lo a escolher:
 - **A taxa de** clique conta quantas pessoas clicaram nessa carga.
 - **A taxa de** comprometimento prevista prevê a porcentagem de pessoas que serão comprometidas por essa carga com base nos dados históricos da carga nos clientes do Microsoft Defender para Office 365.
 - **As simulações lançadas** conta o número de vezes que essa carga foi usada em outras simulações.
-- **A complexidade,** disponível por **meio** de filtros, é calculada com base no número de indicadores dentro da carga que indica um ataque. Mais indicadores levam à menor complexidade.
-- **Source**, disponível por **meio** de filtros , indica se a carga foi criada em seu locatário ou é uma parte do catálogo de carga pré-existente da Microsoft (global).
+- **A complexidade,** disponível por **meio** de filtros, é calculada com base no número de indicadores dentro da carga que indica que se trata de um ataque. Mais indicadores levam à menor complexidade.
+- **Fonte**, disponível por **meio** de filtros , indica se a carga foi criada em seu locatário ou é uma parte do catálogo de carga pré-existente da Microsoft (global).
 
 ![Carga selecionada no treinamento de simulação de ataque no centro de segurança do Microsoft 365](../../media/attack-sim-preview-select-payload.png)
 
@@ -98,4 +98,4 @@ Agora que tudo está configurado, você pode iniciar essa simulação imediatame
 
 **Habilita a entrega de zona de** tempo ciente da região para entregar mensagens de ataque simuladas aos funcionários durante o horário de trabalho com base na região.
 
-Quando terminar, clique em Próximo **e** revise os detalhes da simulação. Clique em **Editar** em qualquer uma das partes para voltar e alterar todos os detalhes que precisam ser mudados. Depois de terminar, clique **em Enviar.**
+Quando terminar, clique em Próximo **e** revise os detalhes da simulação. Clique em **Editar** em qualquer uma das partes para voltar e alterar todos os detalhes que precisam ser mudados. Depois de terminar, clique em **Enviar**.

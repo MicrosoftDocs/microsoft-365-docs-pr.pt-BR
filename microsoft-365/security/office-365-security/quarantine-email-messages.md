@@ -17,36 +17,36 @@ search.appverid:
 ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem saber mais sobre a quarentena na proteção do Exchange Online (EOP) que mantém mensagens potencialmente perigosas ou indesejadas.
-ms.openlocfilehash: f4e3f668ac94abfea6dc19f6f256141b2a7b9915
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Os administradores podem saber mais sobre a quarentena no Exchange Online Protection (EOP) que contém mensagens potencialmente perigosas ou indesejadas.
+ms.openlocfilehash: 8a978ece029de06bcb7b434de730b0baea33a5e1
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616022"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794323"
 ---
 # <a name="quarantined-email-messages-in-eop"></a>Mensagens de email em quarentena no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena está disponível para reter mensagens potencialmente perigosas ou indesejadas.
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena está disponível para ressalvar mensagens potencialmente perigosas ou indesejadas.
 
-As políticas Antimalware automaticamente colocarão uma mensagem em quarentena se *qualquer* anexo tiver malware. Para obter mais informações, consulte [Configure anti-malware Policies in EOP](configure-anti-malware-policies.md).
+As políticas anti-malware colocarão automaticamente uma mensagem em quarentena *se* qualquer anexo for encontrado contendo malware. Para obter mais informações, [consulte Configurar políticas anti-malware no EOP.](configure-anti-malware-policies.md)
 
-Por padrão, o anti-spam policia as mensagens de phishing e entrega mensagens de email em massa e spam para a pasta lixo eletrônico do usuário. No entanto, você também pode criar e personalizar políticas antispam para colocar em quarentena spam e mensagens de email em massa. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
+Por padrão, a política anti-spam coloca as mensagens de phishing em quarentena e envia mensagens de spam e emails em massa para a pasta Lixo Eletrônico do usuário. Porém, você também pode criar e personalizar políticas anti-spam para colocar mensagens de spam e emails em massa em quarentena. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
-Tanto usuários quanto administradores podem trabalhar com mensagens em quarentena:
+Tanto os usuários quanto os administradores podem trabalhar com mensagens em quarentena:
 
-- Os administradores podem trabalhar com todos os tipos de mensagens em quarentena para todos os usuários. Somente os administradores podem trabalhar com mensagens colocadas em quarentena como malware, phishing de alta confiança ou como resultado de regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações, consulte [Gerenciar mensagens e arquivos em quarentena como administrador no EOP](manage-quarantined-messages-and-files.md).
+- Os administradores podem trabalhar com todos os tipos de mensagens em quarentena para todos os usuários. Somente administradores podem trabalhar com mensagens que foram colocadas em quarentena como malware, phishing de alta confiança ou como resultado de regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações, consulte [Gerenciar mensagens e arquivos em quarentena como administrador no EOP](manage-quarantined-messages-and-files.md).
 
-- Os usuários podem trabalhar com mensagens em quarentena onde eles são um destinatário se a mensagem foi colocada em quarentena como spam, email em massa ou (a partir de abril de 2020) phishing. Para obter mais informações, consulte [Localizar e liberar mensagens em quarentena como um usuário no EOP](find-and-release-quarantined-messages-as-a-user.md).
+- Os usuários podem trabalhar com mensagens em quarentena nas quais são destinatários se a mensagem foi colocada em quarentena como spam, email em massa ou (a partir de abril de 2020) phishing. Para obter mais informações, [consulte Encontrar e liberar mensagens em quarentena como um usuário no EOP](find-and-release-quarantined-messages-as-a-user.md).
 
-  Para impedir que os usuários gerenciem suas próprias mensagens de phishing em quarentena, os administradores podem configurar uma ação diferente para a veredicto de filtragem de **email de phishing** em políticas antispam. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
+  Para impedir que os usuários gerementem suas próprias mensagens de phishing em quarentena, os administradores podem configurar uma ação diferente para o veredito de filtragem de email de **phishing** nas políticas anti-spam. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
-- Administradores e usuários podem relatar falsos positivos para a Microsoft em quarentena.
+- Os administradores e usuários podem relatar falsos positivos à Microsoft em quarentena.
 
-Para obter mais informações sobre, quarentena, consulte [perguntas frequentes sobre quarentena](quarantine-faq.md).
+Para obter mais informações sobre a quarentena, consulte [Perguntas frequentes sobre a quarentena.](quarantine-faq.md)
