@@ -15,68 +15,69 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre os limites de caso, limites de indexação e limites de pesquisa em vigor para a solução de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: abc93acb5f32ea1fdae607d8e1053adc59ad6cea
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+description: Saiba mais sobre os limites de caso, os limites de indexação e os limites de pesquisa em vigor para a solução descoberta de eDiscovery Avançada no Microsoft 365.
+ms.openlocfilehash: 051c1ce916fcb59ade19120bc25496101d501138
+ms.sourcegitcommit: f40378013757d560d5566a11ad4e6f527c018cc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49020958"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49796169"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
-Este artigo descreve os limites da solução de descoberta eletrônica avançada no Microsoft 365.
+Este artigo descreve os limites da solução descoberta de eDiscovery Avançada no Microsoft 365.
 
-## <a name="case-and-review-set-limits"></a>Casos e revisões definidas limites
+## <a name="case-and-review-set-limits"></a>Limites de definição de caso e revisão
 
-A tabela a seguir lista os limites de casos e os conjuntos de revisão na descoberta eletrônica avançada.
+A tabela a seguir lista os limites de casos e conjuntos de revisão na Descoberta Avançada.
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
-|Número total de documentos que podem ser adicionados a um caso (para todos os conjuntos de revisão em um caso).  <br/> |3 milhões <br/> |
-|Tamanho total do arquivo por conjunto de carga. Isso inclui carregar não-Office 365 em um conjunto de revisão.  <br/> |300 GB <br/> |
+|Número total de documentos que podem ser adicionados a uma ocorrência (para todos os conjuntos de revisão em uma ocorrência).  <br/> |3 milhões <br/> |
+|Tamanho total do arquivo por conjunto de carga. Isso inclui o carregamento de não-Office 365 em um conjunto de revisão.  <br/> |300 GB <br/> |
 |Quantidade total de dados carregados em todos os conjuntos de revisão na organização por dia.<br/> |2 TB <br/> |
 |Número máximo de conjuntos de cargas por caso.  <br/> |200 <br/> |
-|Número máximo de conjuntos de revisão por caso.  <br/> |508 <br/> |
-|Número máximo de grupos de marcas por caso.  <br/> |1000 <br/> |
+|Número máximo de conjuntos de revisão por caso.  <br/> |20 <br/> |
+|Número máximo de grupos de marca por caso.  <br/> |1000 <br/> |
 |Número máximo de marcas por caso.  <br/> |1000 <br/> |
 |||
 
 ## <a name="indexing-limits"></a>Limites de indexação
 
-A tabela a seguir lista os limites de indexação na descoberta eletrônica avançada.
+A tabela a seguir lista os limites de indexação na Descoberta eDiscovery Avançada.
 
 |**Descrição do limite**|**Limite**|
   |:-----|:-----|
   |Número máximo de caracteres extraídos de um único arquivo.  <br/> |10 milhões<sup>1</sup> <br/> |
   |Tamanho máximo de um único arquivo.   <br/> |100 MB<sup>1</sup> <br/> |
   |Profundidade máxima de itens incorporados em um documento.  <br/> |25<sup>1</sup> <br/> |
-  |Tamanho máximo do arquivo processado pelo reconhecimento óptico de caracteres (OCR).  <br/> |24 MB<sup>1</sup> <br/> |  
+  |Tamanho máximo de arquivos processados pelo OCR (Reconhecimento Óptico de Caracteres).  <br/> |24 MB<sup>1</sup> <br/> 
+  |Número máximo de trabalhos de indexação por organização por dia. <br/> |10<sup>6</sup> <br/>|  
 |||
 
 ## <a name="search-limits"></a>Limites da pesquisa
 
-Os limites descritos nesta seção estão relacionados ao uso da ferramenta de pesquisa na guia **pesquisas** para coletar dados de uma ocorrência. Para obter mais informações, consulte [coletar dados por um caso na descoberta eletrônica avançada](collecting-data-for-ediscovery.md).
+Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de pesquisa na guia Pesquisas para coletar dados de uma ocorrência. Para obter mais informações, [consulte Coletar dados para um caso na Descoberta Avançada de eDiscovery](collecting-data-for-ediscovery.md).
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
 |Número máximo de caixas de correio ou sites que podem ser pesquisados em uma única pesquisa.  <br/> |Sem limite  <br/> |
-|Número máximo de pesquisas que podem ser executadas ao mesmo tempo.  <br/> |Sem limite  <br/> | 
+|Número máximo de pesquisas que podem ser executados ao mesmo tempo.  <br/> |Sem limite  <br/> | 
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo.  <br/> |10   <br/> | 
-|Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de correio** : 10.000<br/>**Sites** : 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>2</sup> <br/> |
-|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo * *One \** _ ou _*set \**_. <br/> |3D  <br/> |  
-|Número máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador _ *Near* * Boolean.  <br/> |10.000 <sup>3</sup> <br/> |
-|Número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.   <br/> |100  <br/> |
-|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1,000  <br/> |
-|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1000 caixas de correio que contenham itens que correspondam à consulta de pesquisa, somente as primeiras caixas de correio de 1.000 com a maioria dos resultados estarão disponíveis para visualização.<br/> |1,000  <br/> |
-|Número máximo de itens de sites do SharePoint e do OneDrive for Business exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.  <br/> |200  <br/> |
-|Número máximo de sites do SharePoint e do OneDrive for Business que podem ser visualizados nos resultados da pesquisa. Se houver mais de 200 sites que contenham itens que correspondam à consulta de pesquisa, somente os primeiros 200 sites com mais resultados estarão disponíveis para visualização.  <br/> |200  <br/> |
-|Número máximo de itens por caixa de correio de pasta pública exibida na página de visualização para pesquisas.  <br/> |100  <br/> |
+|Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de** correio : 10.000<br/>**Sites**: 4.000 ao pesquisar em todos os sites ou 2.000 ao pesquisar até 20 sites <sup>2</sup> <br/> |
+|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo **\* um* _ ou _*um conjunto \**_. <br/> |3   <br/> |  
+|Variantes máximas retornadas ao usar caractere curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booliana _ *NEAR**.  <br/> |10.000 <sup>3</sup> <br/> |
+|Número máximo de itens por caixa de correio de usuário que são exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos.   <br/> |100  <br/> |
+|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1.000  <br/> |
+|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1.000 caixas de correio que contenham itens que corresponderem à consulta de pesquisa, somente as 1.000 caixas de correio com mais resultados estarão disponíveis para visualização.<br/> |1.000  <br/> |
+|Número máximo de itens de sites do SharePoint e do OneDrive for Business exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos.  <br/> |200  <br/> |
+|Número máximo de sites do SharePoint e do OneDrive for Business que podem ser visualizados para resultados de pesquisa. Se houver mais de 200 sites que contenham itens que corresponderem à consulta de pesquisa, somente os 200 sites com mais resultados estarão disponíveis para visualização.  <br/> |200  <br/> |
+|Número máximo de itens por caixa de correio de pasta pública exibido na página de visualização para pesquisas.  <br/> |100  <br/> |
 |Número máximo de itens encontrados em todos os itens de caixa de correio de pasta pública exibidos na página de visualização para pesquisas.  <br/> |200  <br/> |
-|Número máximo de caixas de correio de pasta pública que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contenham itens que correspondam à consulta de pesquisa, somente as primeiras caixas de correio de 500 com a maioria dos resultados estarão disponíveis para visualização.  <br/> |500  <br/> |
+|Número máximo de caixas de correio de pasta pública que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contenham itens que corresponderem à consulta de pesquisa, somente as 500 caixas de correio com mais resultados estarão disponíveis para visualização.  <br/> |500  <br/> |
 |||
 
-## <a name="viewer-limits"></a>Limites do Visualizador
+## <a name="viewer-limits"></a>Limites do visualizador
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
@@ -87,15 +88,15 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
-|Tamanho máximo de uma única exportação.|3 milhões documentos ou 100 GB, o que for menor|
+|Tamanho máximo de uma única exportação.|3 milhões de documentos ou 100 GB, o que for menor|
 |Quantidade máxima de dados em um único dia. | 2 TB |
 |Máximo de exportações simultâneas em sua organização. | 10 <sup>4</sup> |
-|Máximo de exportações simultâneas por usuário. | 3D |
+|Máximo de exportações simultâneas por usuário. | 3  |
 |Tamanho máximo de um único arquivo PST. | 10 GB |
-|Máximo de exportações simultâneas por conjunto de análise. | 1  |
+|Máximo de exportações simultâneas por conjunto de revisão. | 1  |
 |||
 
-## <a name="review-set-download-limits"></a>Analisar limites de download de conjunto
+## <a name="review-set-download-limits"></a>Revisar o conjunto de limites de download
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
@@ -106,9 +107,10 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 <br/>
 
 > [!NOTE]
-> <sup>1</sup> qualquer item que exceda um limite de arquivo único aparecerá como um erro de processamento.<br/>
-> <sup>2</sup> ao pesquisar os locais do SharePoint e do onedrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados de acordo com esse limite.<br/>
-> <sup>3</sup> para consultas que não são de frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, **time \* *_ pode expandir para _* "hora ou temporizador ou horários ou Timex ou timeboxes ou..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase.<br/>
-> <sup>4</sup> esse limite é compartilhado em todas as ferramentas de descoberta eletrônica. Isso significa que exportações simultâneas na pesquisa de conteúdo, a descoberta eletrônica principal e a descoberta eletrônica avançada são aplicadas a esse limite. <br/>
-> <sup>5</sup> este limite se aplica ao download de documentos selecionados a partir de um conjunto de revisão. Ela não se aplica à exportação de documentos a partir de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte [exportar dados de caso na descoberta eletrônica avançada](exporting-data-ediscover20.md). <br/>
+> <sup>1</sup> Qualquer item que exceda um único limite de arquivo será aparecer como um erro de processamento.<br/>
+> <sup>2</sup> Ao pesquisar locais do SharePoint e do OneDrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados contam para esse limite.<br/>
+> <sup>3</sup> Para consultas sem frase (um valor de palavra-chave que não usa aspas duplas), usamos um índice de prefixo especial. Isso nos informa que uma palavra ocorre em um documento, mas não onde ela ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição no documento com as palavras na frase. Isso significa que não podemos usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis para as quais o prefixo se expande; por exemplo, **time _ pode expandir para \* *_*"time OR timer OR times OR timex OR timeboxed OR ..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, não o número de documentos correspondentes à consulta. Não há limite superior para termos sem frase.<br/>
+> <sup>4</sup> Esse limite é compartilhado em todas as ferramentas de Descoberta eDiscovery. Isso significa que as exportações simultâneas na Pesquisa de Conteúdo, Descobertas Principais e Descobertas Avançadas são aplicadas nesse limite. <br/>
+> <sup>5</sup> Esse limite se aplica ao download de documentos selecionados de um conjunto de revisão. Não se aplica à exportação de documentos de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte Exportar dados de caso [na Descoberta eDiscovery Avançada.](exporting-data-ediscover20.md) <br/>
+> <sup>6</sup> Limites de indexação por organização por dia. Como alternativa, você pode selecionar vários custodiantes e clicar em Atualizar índice para evitar criar um trabalho de índice separado para cada custodiante.  <br/>
 
