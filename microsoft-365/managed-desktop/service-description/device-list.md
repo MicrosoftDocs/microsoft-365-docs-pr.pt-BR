@@ -1,6 +1,6 @@
 ---
-title: Dispositivos de área de trabalho gerenciada da Microsoft
-description: Este tópico lista as especificações de dispositivos aprovados para a área de trabalho gerenciada da Microsoft.
+title: Dispositivos da Área de Trabalho Gerenciada da Microsoft
+description: Este artigo lista as especificações para dispositivos aprovados para a Área de Trabalho Gerenciada da Microsoft.
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -8,89 +8,89 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e858ae1fc564fdcacbe181930ae1489d131965e7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: fff44098e3da17c68e4347fb14690945154edfdb
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659673"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841182"
 ---
-# <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
+# <a name="microsoft-managed-desktop-devices"></a>Dispositivos da Área de Trabalho Gerenciada da Microsoft 
 
-O Microsoft Managed desktop avalia regularmente os dispositivos que serão incluídos no serviço. Este artigo descreve os requisitos para que um dispositivo seja inscrito na área de trabalho gerenciada da Microsoft e lista os dispositivos específicos que têm suporte no momento.
+A Área de Trabalho Gerenciada da Microsoft avalia regularmente os dispositivos a serem incluídos no serviço. Este artigo descreve os requisitos para um dispositivo ser inscrito na Área de Trabalho Gerenciada da Microsoft e lista os dispositivos específicos com suporte no momento.
 
-Para obter mais informações sobre a área de trabalho gerenciada da Microsoft, consulte [documentação e recursos do Microsoft Managed desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/). 
+Para obter mais informações sobre a Área de Trabalho Gerenciada da Microsoft, consulte a documentação e os recursos da Área [de Trabalho Gerenciada da Microsoft.](https://docs.microsoft.com/microsoft-365/managed-desktop/) 
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo deve ser um dos seguintes modelos e atender ou exceder as especificações listadas da RAM, da família de processadores e do espaço em disco. 
+Para ser registrado na Área de Trabalho Gerenciada da Microsoft, um dispositivo deve ser um dos modelos a seguir e atender ou exceder as especificações listadas para RAM, família de processadores e espaço em disco. 
 
-Os links para dispositivos aqui são apenas para referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que você escolha as configurações corretas. Nesta tabela, a *data de arquivamento* é a data na qual esses modelos estarão sujeitos à vida útil de serviço de área de trabalho gerenciada da Microsoft mais curta; todos os dispositivos que foram integrados após essa data não receberão um termo completo de três anos de suporte da área de trabalho gerenciada da Microsoft. Os dispositivos arquivados também estão listados em [dispositivos arquivados da área de trabalho gerenciada da Microsoft](archived-device-list.md). *Data de aposentadoria* é a data na qual esse modelo não terá mais suporte no Microsoft Managed desktop. Nessa data, todos os dispositivos registrados desse modelo serão removidos da área de trabalho gerenciada da Microsoft, não importa quando eles foram registrados.
+Os links para dispositivos aqui são apenas para referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que escolha as configurações corretas. Nesta tabela, a *data* de arquivamento é a data em que esses modelos estarão sujeitos a uma vida mais curta do serviço da Área de Trabalho Gerenciada da Microsoft; qualquer um desses dispositivos onboarded após essa data não receberá um termo completo de três anos de suporte da Área de Trabalho Gerenciada da Microsoft. Os dispositivos arquivados também estão listados em dispositivos arquivados da Área de Trabalho [Gerenciada da Microsoft.](archived-device-list.md) *A data de* respalda é a data em que esse modelo não terá mais suporte da Área de Trabalho Gerenciada da Microsoft. Nessa data, todos os dispositivos inscritos desse modelo serão removidos da Área de Trabalho Gerenciada da Microsoft, independentemente de quando foram inscritos.
 
 >[!NOTE]
->Os dispositivos podem ser adicionados a esta tabela a qualquer momento, mas forneceremos 90 dias de aviso para qualquer alteração que afete o arquivo morto ou a data de aposentadoria. Os dispositivos adicionados mais recentemente são marcados com * *\** _.
+>Os dispositivos podem ser adicionados a essa tabela a qualquer momento, mas forneceremos um aviso de 90 dias para todas as alterações que afetem a data de arquivamento ou de baixa. Os dispositivos adicionados mais recentemente são marcados com * *\** _.
 
 
-## <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft
+## <a name="microsoft-managed-desktop-devices"></a>Dispositivos da Área de Trabalho Gerenciada da Microsoft
 
 ### <a name="dell"></a>Dell
 
-| Modelo    | Especificações mínimas  | Requisitos adicionais    | Data do arquivo morto   | Data de aposentadoria   |
+| Modelo    | Especificações mínimas  | Requisitos adicionais    | Data de arquivamento   | Data da reforma   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 28 de abril de 2022  | 28 de abril de 2025 |
-| [Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 28 de abril de 2022 | 28 de abril de 2025  |
-| [Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)_ * | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 28 de abril de 2022 | 28 de abril de 2025 |
-| [Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 4 de maio de 2022  | 4 de maio de 2025  |
-| [Dell Latitude 7410/7410 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 19 de maio de 2022  | 19 de maio de 2025  |
-| [Dell Latitude 9410 2-in-1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 5 de maio de 2022  | 5 de maio de 2025  |
-| [Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop) | 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | 5 de maio de 2022  | 5 de maio de 2025  |
-| [Dell OptiPlex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | 128 GB/Intel i3/8 GB de RAM | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
-| [Dell OptiPlex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | 128 GB/Intel i3/8 GB de RAM | Nenhum | 15 de maio de 2022  | 15 de maio de 2025  |
-| [Estação de trabalho Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | 256 GB/Intel i5/8 GB de RAM | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
+| [Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop) | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | 28 de abril de 2022  | 28 de abril de 2025 |
+| [Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop) | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | 28 de abril de 2022 | 28 de abril de 2025  |
+| [Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)_* | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | 28 de abril de 2022 | 28 de abril de 2025 |
+| [Dell Latitude 7310 / 7310 2 em 1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop) | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | 4 de maio de 2022  | 4 de maio de 2025  |
+| [Dell Latitude 7410 / 7410 2 em 1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop) | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | 19 de maio de 2022  | 19 de maio de 2025  |
+| [Dell Latitude 9410 2 em 1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop) | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | 5 de maio de 2022  | 5 de maio de 2025  |
+| [Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop) | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | 5 de maio de 2022  | 5 de maio de 2025  |
+| [Dell Optiplex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | 128 GB / Intel i3 / 8 GB RAM | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
+| [Dell Optiplex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | 128 GB / Intel i3 / 8 GB RAM | Nenhum | 15 de maio de 2022  | 15 de maio de 2025  |
+| [Dell 5550 Workstation](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | 256 GB / Intel i5 / 8 GB RAM | Nenhum | 27 de maio de 2022  | 27 de maio de 2025  |
 
-### <a name="hp"></a>Complement
+### <a name="hp"></a>HP
 
-| Modelo    | Especificações mínimas  | Requisitos adicionais    | Data do arquivo morto   | Data de aposentadoria   |
+| Modelo    | Especificações mínimas  | Requisitos adicionais    | Data de arquivamento   | Data da reforma   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [HP EliteBook 830/840/850 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256 GB/Intel i5/8 GB de RAM | SKU com 9MZ21AV | 30 de novembro de 2021 | 30 de novembro de 2024 |
-| [HP EliteBook X360 830 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256 GB/Intel i5/8 GB de RAM | SKU com 9MZ21AV | 30 de novembro de 2021 | 30 de novembro de 2024 |
-| [Tablet com HP elite X2 G4](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 GB/Intel i5/8 GB de RAM | SKU com 5VS03AV | 31 de julho de 2021 | 31 de julho de 2024 |
-| [HP EliteBook X360 1030/1040 G7 PC Notebook](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 GB/Intel i5/8 GB de RAM | SKU com 8XW08AV | 31 de agosto de 2021 | 31 de agosto de 2024 |
-| [HP elite DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8 GB de RAM | SKU com 9MZ21AV | 31 de março de 2021 | 31 de março de 2024 |
-| **\*[HP EliteOne 800 G6 24/27 computador tudo em um](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256/Intel i5/8 GB de RAM | SKU com 9XM14AV | 30 de junho de 2022 | 30 de junho de 2025 |
-| **\*[HP EliteDesk 800 G6 desktop mini PC](https://store.hp.com/us/en/pdp/hp-elitedesk-800-g6-desktop-mini-pc#!)** | 256/Intel i5/8 GB de RAM | SKU com 9XM14AV | 30 de junho de 2022 | 30 de junho de 2025 |
-| [Estação de trabalho HP Z2 Mini G5](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 GB/Intel i5/8 GB de RAM | SKU com 8QR48AV| 31 de dezembro de 2021 | 31 de dezembro de 2024 |
-| **\*[HP ZBook Firefly 14/15 G7 Mobile Workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 GB/Intel i5/8 GB de RAM | SKU com 9MZ22AV, câmera de infravermelho necessária | 30 de novembro de 2021 | 30 de novembro de 2024 |
+| [HP EliteBook 830 / 840 / 850 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256 GB / Intel i5 / 8 GB RAM | SKU com 9MZ21AV | 30 de novembro de 2021 | 30 de novembro de 2024 |
+| [HP EliteBook x360 830 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256 GB / Intel i5 / 8 GB RAM | SKU com 9MZ21AV | 30 de novembro de 2021 | 30 de novembro de 2024 |
+| [HP Elite x2 G4 Tablet](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 GB / Intel i5 / 8 GB RAM | SKU com 5VS03AV | 31 de julho de 2021 | 31 de julho de 2024 |
+| [HP EliteBook x360 1030 / 1040 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 GB / Intel i5 / 8 GB RAM | SKU com 8XW08AV | 31 de agosto de 2021 | 31 de agosto de 2024 |
+| [HP Elite EliteFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB / Intel i5 / 8 GB RAM | SKU com 9MZ21AV | 31 de março de 2021 | 31 de março de 2024 |
+| **\*[HP EliteOne 800 G6 24/27 All-in-One PC](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256 / Intel i5 / 8 GB DE RAM | SKU com 9XM14AV | 30 de junho de 2022 | 30 de junho de 2025 |
+| **\*[HP EliteDesk 800 G6 Desktop Mini PC](https://store.hp.com/us/en/pdp/hp-elitedesk-800-g6-desktop-mini-pc#!)** | 256 / Intel i5 / 8 GB DE RAM | SKU com 9XM14AV | 30 de junho de 2022 | 30 de junho de 2025 |
+| [HP Z2 Mini G5 Workstation](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 GB / Intel i5 / 8 GB RAM | SKU com 8QR48AV| 31 de dezembro de 2021 | 31 de dezembro de 2024 |
+| **\*[HP ZBook Firefly 14/15 G7 Mobile Workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 GB / Intel i5 / 8 GB RAM | SKU com 9MZ22AV, câmera DE IR necessária | 30 de novembro de 2021 | 30 de novembro de 2024 |
 
 ### <a name="microsoft"></a>Microsoft
 
-| Modelo    | Especificações mínimas  | Requisitos adicionais    | Data do arquivo morto   | Data de aposentadoria   |
+| Modelo    | Especificações mínimas  | Requisitos adicionais    | Data de arquivamento   | Data da reforma   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Livro de superfície 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8GB de RAM | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
-| [Superfície 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 GB/Intel Core m3/8 RAM | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
-| [Superfície do laptop go](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 12 de outubro de 2022 | 12 de outubro de 2025 |
-| [Laptop de superfície 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
-| [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
+| [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 GB / Intel i5 / 8 GB RAM | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
+| [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 GB / Intel Core M3 / 8 GB DE RAM | Nenhum | 21 de maio de 2022 | 21 de maio de 2027 |
+| [Surface Laptop Go](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB / Intel i5 / 8 GB RAM | Nenhum | 12 de outubro de 2022 | 12 de outubro de 2025 |
+| [Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB / Intel i5 / 8 GB RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
+| [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 GB / Intel i5 / 8 GB RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
 
 Além disso, o dispositivo também deve atender a estes critérios:     
 
-- Se um SKU específico estiver listado nos requisitos do dispositivo, certifique-se de usá-lo ao fazer o pedido. Isso garante que os dispositivos estejam em conformidade com os requisitos de software do Microsoft Managed desktop. 
-- Não concluiu a experiência de primeira execução do Windows.
-- Ser registrado com a área de trabalho gerenciada da Microsoft usando o recurso de [registro de dispositivo](https://aka.ms/mmddrhelp)
+- Se uma SKU específica estiver listada nos requisitos do dispositivo, certifique-se de usá-la ao solicitar. Isso garante que os dispositivos cumpram os requisitos de software da Área de Trabalho Gerenciada da Microsoft. 
+- Não concluiu a experiência de primeira executar do Windows.
+- Ser registrado na Área de Trabalho Gerenciada da Microsoft usando o recurso [Registro de](https://aka.ms/mmddrhelp) Dispositivo
 
 >[!NOTE]
 >Dispositivos com um processador de 2,0 GHz ou mais rápido fornecerão uma experiência muito melhor para os usuários envolvidos nessas atividades:
->- Usando videoconferência com o Microsoft Teams. Consulte [requisitos de hardware para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) para obter detalhes.
+>- Usando videoconferência com o Teams. Confira [os requisitos de hardware do Microsoft Teams](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) para obter detalhes.
 >-  Usar um dispositivo para várias cargas de trabalho diferentes.
 >- Usando vários monitores.
 
-**Ajuda adicional**
+**Mais Ajuda**
 
-Esses recursos podem ajudar a responder perguntas que você possa ter sobre dispositivos específicos:
+Esses recursos podem ajudar a responder perguntas que você pode ter sobre dispositivos específicos:
 
-- Para saber mais sobre os dispositivos Dell, <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com</a>de contato.
+- Para obter mais perguntas sobre dispositivos Dell, entre em <a href="mailto:MMD_at_dell@dell.com">contato MMD_at_dell@dell.com</a>.
 
-- Para saber mais sobre dispositivos HP e instruções de solicitação de dispositivo, contate: Américas (<a href="mailto:mmd-americas@hp.com">MMD-Americas@hp.com</a>); Europa/Oriente Médio/África (<a href="mailto:mmd-emea@hp.com">MMD-EMEA@hp.com</a>); Ásia (Pacífico)/Japão (<a href="mailto:mmd-apj@hp.com">MMD-APJ@hp.com</a>); Global (<a href="mailto:mmd@hp.com">MMD@hp.com</a>)
+- Para obter mais perguntas sobre os dispositivos HP e instruções de ordenação de dispositivos, entre em contato: Américas (<a href="mailto:mmd-americas@hp.com">mmd-americas@hp.com</a>); Europa/Oriente Médio/África (<a href="mailto:mmd-emea@hp.com">mmd-emea@hp.com</a>); Pacífico Asiático/Japão (<a href="mailto:mmd-apj@hp.com">mmd-apj@hp.com</a>); Global (<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
 
 
 

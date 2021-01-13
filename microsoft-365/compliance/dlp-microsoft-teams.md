@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora você pode aplicar políticas DLP a canais e chats do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 25ba5850f496c188c2a38d6cc5b68960a85e5e5f
-ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
+ms.openlocfilehash: a34a094a3c0440933a3d44e0125939a02b4ae202
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "49790155"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840578"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção contra perda de dados e Microsoft Teams
 
@@ -97,7 +97,7 @@ Para executar essa tarefa, você deve ter uma função que tenha permissões par
 
 4. Na coluna **Status,** a ativar a política para mensagens de canal e **chat do Teams.**<br/>![DLP para chats e canais do Teams](../media/dlp-teams-addteamschatschannels.png)<br/>
 
-5. Na guia **Escolher** locais, mantenha a configuração  padrão de todas as contas ou selecione Permitir que eu escolha locais específicos e especifique quais contas, listas de distribuição ou grupos de segurança para inclusão e exclusão. Depois clique em **Próximo**.
+5. Na guia **Escolher locais,** mantenha a configuração padrão de todas as contas ou selecione **Permitir** que eu escolha locais específicos e especifique quais contas incluir ou excluir. Depois clique em **Próximo**.
 
 6. Clique em **Salvar**.
 
@@ -116,7 +116,7 @@ Para executar essa tarefa, você deve ter uma função que tenha permissões par
 
 4. Na guia **Nomear sua política,** especifique um nome e uma descrição para a política e escolha **Próximo.**
 
-5. Na guia **Escolher** locais, mantenha a configuração  padrão de todas as contas ou selecione Permitir que eu escolha locais específicos e especifique quais contas, listas de distribuição ou grupos de segurança para inclusão e exclusão. Depois clique em **Próximo**.
+5. Na guia **Escolher locais,** mantenha a configuração padrão de todas as contas ou selecione **Permitir** que eu escolha locais específicos e especifique quais contas incluir ou excluir. Depois clique em **Próximo**.
 
 ![Locais de política de DLP](../media/dlp-teams-selectlocationsnewpolicy.png)
 

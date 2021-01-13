@@ -1,6 +1,6 @@
 ---
-title: Ciclo de vida do produto do Microsoft Managed desktop
-description: Este tópico lista as especificações de dispositivo usadas na área de trabalho gerenciada da Microsoft.
+title: Ciclo de vida do produto da Área de Trabalho Gerenciada da Microsoft
+description: Este artigo lista as especificações de dispositivo usadas na Área de Trabalho Gerenciada da Microsoft.
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -8,21 +8,21 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 89dbf0e67c112743a557842bb32555d3a079743b
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 75e6c2853a0ff41efdf7d5639f675927f3b95ea4
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289788"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841194"
 ---
-# <a name="microsoft-managed-desktop-product-lifecycle"></a>Ciclo de vida do produto do Microsoft Managed desktop
+# <a name="microsoft-managed-desktop-product-lifecycle"></a>Ciclo de vida do produto da Área de Trabalho Gerenciada da Microsoft
 
-O Microsoft Managed desktop beneficia os usuários a garantir que eles sempre usem dispositivos que oferecem os melhores desempenho, confiabilidade, design e recursos de segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a área de trabalho gerenciada da Microsoft mantém um pequeno catálogo de [dispositivos aprovados](device-list.md)continuamente atualizados. 
+A Área de Trabalho Gerenciada da Microsoft beneficia os usuários, garantindo que eles sempre usem dispositivos que ofereçam os melhores recursos de desempenho, confiabilidade, design e segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a Área de Trabalho Gerenciada da Microsoft mantém um pequeno catálogo de dispositivos aprovados [continuamente atualizados.](device-list.md) 
  
-Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicionados e removidos do catálogo aprovado. 
+Este artigo detalha o ciclo de vida dos dispositivos à medida que eles são adicionados e removidos do catálogo aprovado. 
 
 > [!NOTE]
-> Neste tópico, faremos uma distinção entre um "dispositivo" e um "produto". Por "dispositivo", queremos dizer um computador individual e específico. Por exemplo, "número de série 1234", "laptop da Bill", "VM compartilhada XYZ" refere-se a dispositivos específicos. Um "produto", no entanto, refere-se a uma coleção ou família de dispositivos. Por exemplo, "fabrikam laptop", "adatum ZX450 laptop", etc. Isso é importante porque os produtos são adicionados à nossa lista ou catálogos [aprovados](device-list.md), e os dispositivos são os que são registrados na área de trabalho gerenciada da Microsoft.
+> Neste tópico, faremos uma distinção entre um "dispositivo" e um "produto". Por "dispositivo", queremos dizer um computador específico e individual. Por exemplo, "Serial number 1234", "Bill's laptop", "Shared VM XYZ" referem-se a dispositivos específicos. Um "produto", no entanto, se refere a uma coleção ou família de dispositivos. Por exemplo, "Laptop Fabrikam", "Adatum ZX450 Laptop", etc. Isso é importante porque os produtos são adicionados à nossa lista aprovada [ou](device-list.md)catálogo, e os dispositivos são o que são inscritos na Área de Trabalho Gerenciada da Microsoft.
 
 ## <a name="product-lifecycle"></a>Ciclo de vida do produto
 
@@ -30,85 +30,85 @@ Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicion
 
 - [Versão e avaliação do produto](#product-release-and-evaluation)
 - [Período de disponibilidade principal do produto](#product-primary-availability-period)
-- [Período de cortesia do produto](#product-grace-period)
-- [Descontinuação de produto](#product-retirement)
+- [Período de carência do produto](#product-grace-period)
+- [Baixa do produto](#product-retirement)
 
 
-Esta ilustração mostra a sequência inteira:
+Esta ilustração mostra toda a sequência:
 
-![linha do tempo do ciclo de vida: Iniciando com a disponibilidade geral do produto, a "disponibilidade principal" dura dois anos. Durante esse período, a janela de certificação termina e em algum momento o dispositivo é integrado. No final da disponibilidade principal, o produto é arquivado e o "período de carência" de três anos é iniciado. A partir do momento em que o dispositivo é integrado, ele tem um período de 3 anos de uso até que seja removido do gerenciamento. No final do período de carência, removemos o produto do catálogo.](../../media/non-dark1-edits.PNG)
+![linha do tempo do ciclo de vida: começando com a disponibilidade geral do produto, a "disponibilidade principal" dura dois anos. Durante esse tempo, a janela de certificação termina e, em algum momento, o dispositivo é onboarded. No final da disponibilidade principal, o produto é arquivado e o "período de carência" de três anos começa. A partir de quando o dispositivo é onboarded, ele tem um período de 3 anos de uso até ser removido do gerenciamento. No final do período de carência, removemos o produto do catálogo.](../../media/non-dark1-edits.PNG)
 
-Os produtos permanecem no catálogo por até 24 meses, mas os <em>dispositivos</em> permanecem sob gerenciamento por 3 anos com base em suas datas de registro individuais. Efetivamente, cada produto tem três datas importantes, mas cada dispositivo tem apenas um. Para produtos, todas as três datas são calculadas com base na <em>data de aprovação</em>e, portanto, publicamos essas datas após a aprovação, de modo que você possa sempre olhar em frente e planejar adequadamente para o ciclo de vida inteiro do produto.
+Os produtos permanecem no catálogo por até <em></em> 24 meses, mas os dispositivos permanecem sob gerenciamento por três anos com base em suas datas de registro individuais. Efetivamente, cada produto tem três datas importantes, mas cada dispositivo tem apenas uma. Para produtos, todas essas três datas <em></em>são calculadas com base na data de aprovação e, portanto, publicamos essas datas após a aprovação para que você possa sempre olhar para frente e planejar adequadamente todo o ciclo de vida do produto.
 
-Esta tabela mostra as datas de exemplo de um produto teórico:
+Esta tabela mostra datas de exemplo para um produto bruto:
 
 
-|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da elegibilidade  |
+|Produto  |Data aprovada  |Fim da disponibilidade principal  |Fim da qualificação  |
 |---------|---------|---------|---------|
-|Laptop da Fabrikam    | 1/1/2017 | 6/1/2019 | 6/1/2022 |
-|Laptop adatum   | 1/1/2018 | 6/1/2020 | 6/1/2023  |
+|Fabrikam Laptop    | 1/1/2017 | 6/1/2019 | 6/1/2022 |
+|Adatum Laptop   | 1/1/2018 | 6/1/2020 | 6/1/2023  |
 
-Esta tabela mostra datas de exemplo para *dispositivos*teóricos:
+Esta tabela mostra datas de exemplo *para* dispositivos oficiais:
 
 
-|ID do dispositivo  |Data de registro  |Data de aposentadoria  |
+|ID do dispositivo  |Data do registro  |Data da reforma  |
 |---------|---------|---------|
-|#123412 de laptop     |  2/3/2018       |  2/3/2021       |
-|#321513 de área de trabalho     | 6/2/2018        |  6/2/2021       |
+|Laptop #123412     |  2/3/2018       |  2/3/2021       |
+|Área de #321513     | 6/2/2018        |  6/2/2021       |
 
 
 ## <a name="product-release-and-evaluation"></a>Versão e avaliação do produto
 
-O ciclo de vida do produto é iniciado quando um fabricante lança o produto publicamente:
+O ciclo de vida do produto começa quando um fabricante lança publicamente o produto:
 
-![linha do tempo do ciclo de vida mostrando o período de lançamento e avaliação](../../media/non-dark3-edits.PNG)
+![linha do tempo do ciclo de vida mostrando o período de versão e avaliação](../../media/non-dark3-edits.PNG)
 
-Durante esse estágio, a equipe de engenharia de área de trabalho gerenciada da Microsoft faz a avaliação e a certificação de um produto. A equipe avalia itens como confiabilidade e desempenho com o Windows, conformidade com uma linha de base de hardware, informações do mercado e disponibilidade de estoque e canal, entre outras coisas. Esse processo geralmente leva aproximadamente 6 semanas.
+Durante esse estágio, a equipe de engenharia da Área de Trabalho Gerenciada da Microsoft faz sua avaliação e certificação de um produto. A equipe avalia itens como confiabilidade e desempenho com o Windows, conformidade com uma linha de base de hardware, opiniões de mercado e preparação de estoque e canal, entre outras coisas. Esse processo normalmente leva aproximadamente seis semanas.
   
-A área de trabalho gerenciada da Microsoft só avaliará dispositivos de certificação nos primeiros 6 meses de disponibilidade. Isso garante que estamos sempre concentrando nossos esforços na última geração de hardware.
+A Área de Trabalho Gerenciada da Microsoft avaliará apenas os dispositivos para certificação nos primeiros seis meses de disponibilidade. Essa política garante que estamos sempre concentrando nossos esforços na geração mais recente de hardware.
  
-No final desta fase, a área de trabalho gerenciada da Microsoft adiciona o produto à [lista aprovada](device-list.md), liberando com eficiência o produto para as registradoras do cliente. Independentemente da data em que um dispositivo é certificado, sua **data de aprovação** é de back-data para a data de disponibilidade geral do produto. 
+No final desta fase, a Área de Trabalho Gerenciada da Microsoft adiciona o produto à lista [aprovada,](device-list.md)liberando efetivamente o produto para as inscrições do cliente. Independentemente da data em que  um dispositivo é certificado, sua data aprovada é aplicada novamente à data de disponibilidade geral do próprio produto. 
 
 
 ## <a name="product-primary-availability-period"></a>Período de disponibilidade principal do produto
 
-Esse período é o principal da disponibilidade do produto:
+Esse período é o núcleo da disponibilidade do produto:
 
 ![linha do tempo do ciclo de vida mostrando a disponibilidade principal](../../media/non-dark4-edits.PNG)
 
-Todos os dispositivos registrados durante esse período recebem o total de três anos de suporte da área de trabalho gerenciada da Microsoft (conforme mostrado na linha do tempo azul). Este período dura até uma data de término definida como 24 meses a partir da data de disponibilidade geral.
+Qualquer dispositivo inscrito durante esse período recebe os três anos completos de suporte da Área de Trabalho Gerenciada da Microsoft (conforme mostrado pela linha do tempo azul). Esse período dura até uma data de término definida como 24 meses a partir da data de disponibilidade geral.
 
-Você pode pensar nesse período com o "registro aberto" efetivamente, para maximizar o valor da área de trabalho gerenciada da Microsoft, você deve direcionar os modelos de compras e os produtos selecionados para se enquadram neste período. Como um pequeno exemplo, um cliente deve evitar a liquidação em um período de distribuição de dois anos usando um produto que esteja no mês final da disponibilidade principal – a maioria desses dispositivos não receberá os três anos de gerenciamento de área de trabalho gerenciada da Microsoft (consulte [período de cortesia](#product-grace-period) para obter mais informações).  
+Você pode pensar nesse período como efetivamente "abrir registro", portanto, para maximizar o valor da Área de Trabalho Gerenciada da Microsoft, você deve direcionar seus modelos de compra e produtos selecionados para ficar dentro desse período. Como um pequeno exemplo, você deve evitar ficar em um período de distribuição de dois anos usando um produto que está em seu último [](#product-grace-period) mês de disponibilidade principal – a maioria desses dispositivos não receberá os três anos completos de gerenciamento da Área de Trabalho Gerenciada da Microsoft (veja o período de carência para obter mais informações).  
 
-## <a name="product-grace-period"></a>Período de cortesia do produto
+## <a name="product-grace-period"></a>Período de carência do produto
 
-O período de cortesia do produto é um período de três anos após a disponibilidade principal. Esta fase permite que você registre dispositivos que são de uma família de produtos com suporte, mas ainda confirmam as promessas da área de trabalho gerenciada da Microsoft sobre o desempenho moderno de hardware e dispositivos. Esta fase é ideal para clientes que fizeram decisões de compras antes de saber sobre a área de trabalho gerenciada da Microsoft. 
+O período de carência do produto é um período de três anos após a disponibilidade principal. Esta fase permite que você inscreva dispositivos que são de uma família de produtos com suporte, mas ainda mantém a segurança das promessas da Área de Trabalho Gerenciada da Microsoft em relação ao desempenho moderno do hardware e do dispositivo. Esta fase é ideal para clientes que tomaram decisões de compra antes de conhecer a Área de Trabalho Gerenciada da Microsoft. 
 
-Se você comprou recentemente vários dispositivos aprovados antes de se inscrever com a área de trabalho gerenciada da Microsoft, ainda poderá registrá-los, mas não receberá um total de três anos de gerenciamento. Em vez disso, eles ficarão fora de conformidade na data de aposentadoria, independentemente de quando eles estiverem registrados. Nos bastidores, a área de trabalho gerenciada da Microsoft tratará esses dispositivos como se estivessem registrados no último dia da disponibilidade principal. Nesta ilustração, você pode ver esse cenário observando que o dispositivo azul e verde termina no mesmo dia, apesar da diferença de um ano no registro:
+Se você comprou recentemente dispositivos aprovados antes de se inscrever na Área de Trabalho Gerenciada da Microsoft, ainda poderá inscreveu-os, mas não receberá um gerenciamento completo de três anos. Em vez disso, eles sairão da conformidade na data da baixa, independentemente de quando foram inscritos. Nos bastidores, a Área de Trabalho Gerenciada da Microsoft tratará esses dispositivos como se fossem inscritos no último dia de disponibilidade principal. Nesta ilustração, você pode ver esse cenário, notando que os dispositivos azul e verde terminam no mesmo dia, apesar da diferença de um ano no registro:
 
 
-![linha do tempo do ciclo de vida mostrando período de carência](../../media/non-dark2-edits.PNG)
+![linha do tempo do ciclo de vida mostrando o período de carência](../../media/non-dark2-edits.PNG)
 
-O exemplo de laptop da Fabrikam da tabela anterior ilustra essa situação: 
+O exemplo do Fabrikam Laptop da tabela anterior ilustra essa situação: 
 
-|Produto  |Data de aprovação  |Fim da disponibilidade principal  |Fim da elegibilidade  |
+|Produto  |Data aprovada  |Fim da disponibilidade principal  |Fim da qualificação  |
 |---------|---------|---------|---------|
-|Laptop da Fabrikam    | 6/1/2017 | 6/1/2019 | 6/1/2022 |
+|Fabrikam Laptop    | 6/1/2017 | 6/1/2019 | 6/1/2022 |
 
-Como cliente, você pode registrar os laptops da Fabrikam o caminho até 6/1/2022 – no entanto, eles serão tratados como se você os tivesse registrado no 6/1/2019. Se você inscrever um laptop da Fabrikam em 6/1/2021, obterá apenas um ano de gerenciamento. Essa política permite extrair ciclos de vida parciais de produtos que tinham suporte anteriormente, em vez de ter que adquirir novos dispositivos prematuramente. 
+Como cliente, você pode registrar laptops da Fabrikam até 01/06/2022– no entanto, todos eles serão tratados como se você os registrava em 01/06/2019. Se você registrar um laptop Fabrikam em 1/6/2021, só terá um ano de gerenciamento. Essa política permite extrair ciclos de vida parciais de produtos com suporte anteriormente, em vez de precisar adquirir novos dispositivos prematuramente. 
 
-Por fim, durante esta fase, o dispositivo é removido da [lista de dispositivos](device-list.md) e movido para a lista de [dispositivos arquivados](archived-device-list.md).
+Por fim, durante essa fase, o dispositivo é removido da lista [de](device-list.md) dispositivos e movido para a lista [de dispositivos arquivados.](archived-device-list.md)
 
 
-## <a name="product-retirement"></a>Descontinuação de produto
+## <a name="product-retirement"></a>Baixa do produto
 
-A aposentadoria do produto é a fase final do ciclo de vida. Nesta fase, nenhum dispositivo novo desse tipo de produto pode ser inscrito na área de trabalho gerenciada da Microsoft e, por definição, todos os dispositivos existentes agora estão fora do termo de três anos permitido. Durante esse período, a área de trabalho gerenciada da Microsoft removerá totalmente o dispositivo da lista pública. Também é durante esta fase, em que, se você ainda não tiver adquirido as substituições, começará a ver os serviços reduzidos à medida que o Microsoft Managed desktop começar a aumentar a velocidade dos dispositivos que estão fora de conformidade. 
+A baixa do produto é a fase final do ciclo de vida. Nesta fase, nenhum dispositivo novo desse tipo de produto pode ser inscrito na Área de Trabalho Gerenciada da Microsoft e, por definição, todos os dispositivos existentes agora estão fora do período de três anos permitido. Durante esse tempo, a Área de Trabalho Gerenciada da Microsoft removerá totalmente o dispositivo da lista pública. Também é durante essa fase em que, se você ainda não tiver adquirido substituições, começará a ver os serviços reduzidos conforme a Área de Trabalho Gerenciada da Microsoft começa a aumentar os dispositivos que estão fora de conformidade. 
 
 ## <a name="devices-that-are-out-of-compliance"></a>Dispositivos que estão fora de conformidade
 
-Um dispositivo está fora de conformidade quando a janela permitida para o gerenciamento de área de trabalho gerenciada da Microsoft tiver decorrido. Isso ocorre quando o dispositivo alcança três anos de gerenciamento ou quando esse tipo de produto é removido do catálogo de dispositivos, o que ocorrer primeiro. Você deve sempre direcionar seus ciclos de compras de forma que novos dispositivos sejam implantados antes de os dispositivos atuais ficar fora de conformidade.
+Um dispositivo está fora de conformidade quando a janela permitida para o gerenciamento da Área de Trabalho Gerenciada da Microsoft decorrido. Essa situação ocorre quando o dispositivo atinge três anos de gerenciamento ou quando esse tipo de produto é removido do catálogo de dispositivos, o que ocorrer primeiro. Você deve sempre direcionar seus ciclos de compras de forma que novos dispositivos sejam implantados antes dos dispositivos atuais sairem de conformidade.
 
-A equipe de área de trabalho gerenciada da Microsoft sabe que os ciclos de compras são longos e planejados em relação aos orçamentos de longa duração. Para garantir que você esteja sempre ciente do estado de sua população de dispositivos, fornecemos um [site](https://aka.ms/mmdportal) que lista todos os dispositivos sob gerenciamento, sua idade e um status que indica sua conformidade. Isso significa que você sempre tem as últimas informações sobre a idade do dispositivo e pode usar o relatório em qualquer ciclo de planejamento de compras. 
+A equipe da Área de Trabalho Gerenciada da Microsoft sabe que os ciclos de compra são longos e planejados em torno de orçamentos de execução longa. Para garantir que você esteja sempre ciente do estado da população de dispositivos, fornecemos um [site](https://aka.ms/mmdportal) que lista todos os dispositivos sob gerenciamento, sua idade e um status indicando sua conformidade. O site ajuda você a sempre ter as informações mais recentes sobre a idade do dispositivo e pode usar o relatório em qualquer ciclo de planejamento de compras. 
 
 
 

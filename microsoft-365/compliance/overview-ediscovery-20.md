@@ -1,5 +1,5 @@
 ---
-title: Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
+title: Visão geral da solução descoberta de eDiscovery avançada no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,52 +17,56 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
-description: Este artigo fornece uma visão geral da descoberta eletrônica avançada no Microsoft 365, uma ferramenta para investigações internas e externas.
+description: Saiba mais sobre a solução de Descoberta Avançada no Microsoft 365. Este artigo fornece uma visão geral da Descoberta Avançada no Microsoft 365, uma ferramenta para ajudá-lo a gerenciar investigações internas e externas. Ele também enquadra os motivos comerciais para usar a Descoberta Avançada para gerenciar suas investigações legais.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6225411bcd3051c19e22fcb205cc7dee92f99f82
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 1b2fa0b42a7f439aa65ae53e76e377ded92f97b7
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131024"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840874"
 ---
-# <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
+# <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Visão geral da Descoberta Avançada do Microsoft 365
 
-A solução de descoberta eletrônica avançada no Microsoft 365 baseia-se nos recursos de descoberta eletrônica e análise existentes no Office 365. Essa nova solução, chamada de *descoberta eletrônica avançada*, fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Também permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal para se comunicarem com os responsáveis envolvidos em um caso. 
+A solução descoberta de eDiscovery avançada no Microsoft 365 se baseia nos recursos existentes de descoberta e análise da Microsoft. A Descoberta Avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Ele também permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de responsabilidade legal para se comunicar com os responsáveis envolvidos em um caso.
 
-> [!NOTE]
-> A descoberta eletrônica avançada requer uma assinatura empresarial do Office 365 ou do Microsoft 365 e5. Para obter mais informações sobre licenciamento de descoberta eletrônica avançada, consulte [o guia de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-ediscovery).
+A Descoberta Avançada pode ajudar sua organização a responder a assuntos jurídicos ou investigações internas ao descobrir os dados em que ela reside. Você pode gerenciar perfeitamente os fluxos de trabalho de Descoberta Eletrônico identificando pessoas de interesse e suas fontes de dados, aplicar retém perfeitamente para preservar dados e, em seguida, gerenciar o processo de comunicação de espera legal. Ao coletar dados da fonte, você pode pesquisar a plataforma do Microsoft 365 ao vivo para encontrar rapidamente o que precisa. Recursos inteligentes de aprendizado de máquina, como indexação profunda, threading de email e detecção quase duplicada, também ajudam a reduzir grandes volumes de dados para um conjunto de dados relevante.
 
-## <a name="alignment-with-edrm"></a>Alinhamento com EDRM
+As seções a seguir descrevem como esses recursos de Descobertas Avançadas podem ajudar sua organização.
 
-O fluxo de trabalho interno de descoberta eletrônica avançada se alinha com o processo de descoberta eletrônica descrito pelo modelo de referência de descoberta eletrônica (EDRM). 
+## <a name="discover-and-collect-data-in-place"></a>Descobrir e coletar dados no local
 
-![O modelo de referência de descoberta eletrônica (EDRM)](../media/EDRMv1.png)
+Tradicionalmente, as organizações que dependem de várias soluções de Descoberta eDiscovery de terceiros exigem copiar grandes volumes de dados do Microsoft 365 para processar e ter que hospedar dados duplicados. Essa necessidade aumenta o tempo para encontrar dados relevantes e o risco, o custo e a complexidade do gerenciamento de várias soluções.
 
-(Imagem de origem cortesia de edrm.net. A imagem de origem foi disponibilizada sob a licença do Creative Commons 3,0 Unported License.)
+A Descoberta Avançada no Microsoft 365 permite que você descubra dados na origem e mantenha-se dentro do limite de segurança e conformidade do Microsoft 365.  Ao coletar dados in-loco do sistema ao vivo, a Descoberta Avançada reduz o atrito de voltar para a fonte e reduz o trabalho desnecessário de encontrar conteúdo ausente, o que normalmente acontece quando o diário atrasa em soluções tradicionais de DescobertaScoberta.
 
-Em um nível alto, veja como a descoberta eletrônica avançada é compatível com o fluxo de trabalho do EDRM:
+Recursos nativos de pesquisa e coleta de dados no Teams, Yammer, SharePoint Online, OneDrive for Business e Exchange Online aprimora ainda mais a descoberta de dados. Por exemplo, Descoberta Avançada:
 
-- **Identificador.** Após identificar as possíveis pessoas de interesse em uma investigação, você poderá adicioná-las como responsáveis (também chamados de *responsáveis por dados*, pois elas podem ter informações relevantes para a investigação) a uma ocorrência de descoberta eletrônica avançada. Depois de identificar os responsáveis e adicioná-los a um caso, você pode preservar, coletar, analisar e analisar os dados associados do custodial facilmente.
+- Reconstrói as conversas do Teams (em vez de retornar mensagens individuais das conversas).
 
-- **Preservação.** Para preservar e proteger dados relevantes para uma investigação, a descoberta eletrônica avançada permite que você coloque um controle legal nas fontes de dados associadas aos responsáveis em um caso. Você também pode colocar dados não custodial em espera (geralmente recursos de grupo compartilhado, como sites do SharePoint ou canais de equipes compartilhados). A descoberta eletrônica avançada também tem um fluxo de trabalho de comunicações interno para que você possa enviar notificações de retenção legal para os responsáveis e controlar suas confirmações.
+- Coleta conteúdo baseado em nuvem compartilhado com os usuários por meio de links ou anexos modernos em mensagens de email e chats do Teams.
 
-- **Coletânea.** Após identificar (e opcionalmente preservar) as fontes de dados relevantes para a investigação, você pode usar a ferramenta de pesquisa interna na descoberta eletrônica avançada para pesquisar e coletar dados ao vivo das fontes de dados do custodial (e fontes de dados não-custodial, se aplicável) que podem ser relevantes para o caso.
+- Tem suporte integrado para centenas de tipos de arquivo que não são do Microsoft 365.
 
-- **Processe.** Após coletar todos os dados relevantes para o caso, a próxima etapa será processá-lo para revisão e análise mais detalhada. Na descoberta eletrônica avançada, os dados no local que você identificou na fase de coleta são copiados para um local de armazenamento do Azure (chamado de *conjunto de revisão*), que fornece uma exibição estática dos dados de caso.
+- Coleta dados de fontes de terceiros (como Bloomberg, Facebook, Slack e Zoom Meetings) que são importados e arquivados no Microsoft 365 por conectores [de dados.](archiving-third-party-data.md)
 
-- **Exame.** Depois que os dados tiverem sido adicionados a um conjunto de revisão, você poderá exibir documentos específicos e executar consultas adicionais dentro do conjunto de revisão para reduzir os dados para os documentos mais relevantes. Você também pode anotar e marcar documentos específicos.
+## <a name="manage-ediscovery-workflow-in-one-platform"></a>Gerenciar o fluxo de trabalho de Descoberta Eletrônico em uma plataforma
 
-- **Analisa.** A descoberta eletrônica avançada fornece um conjunto poderoso de ferramentas de análise integradas que ajudam você a analisar com inteligência os dados irrelevantes do conjunto de revisão, o que poupa os custos de análise jurídica, reduzindo com eficiência o volume de dados relevantes para produção.
+A Descoberta Avançada pode ajudá-lo a reduzir o número de soluções de Descoberta eDiscovery das que você precisa contar. Ele fornece um fluxo de trabalho simplificado e de ponta a ponta, tudo o que ocorre no Microsoft 365. A Descoberta Automática Avançada ajuda *a* reduzir o atrito da identificação e da coleta de possíveis fontes de informações relevantes mapeando automaticamente fontes de dados exclusivas e compartilhadas para a pessoa de interesse (conhecida como custodiante) e fornecendo relatórios e análises sobre dados potencialmente relevantes antes de colecioná-los para análise e análise.
 
-- **Produção** e **apresentação.** Quando estiver pronto, você pode exportar documentos de um conjunto de revisão para análise jurídica. Você pode exportar documentos em seu formato especificado pelo EDRM para que eles possam ser importados para aplicativos de análise de terceiros.
+Além disso, as APIs do Microsoft Graph podem ajudá-lo a automatizar o fluxo de trabalho de Descoberta Automática e estender a Descoberta Automática Avançada para soluções personalizadas.
 
-## <a name="advanced-ediscovery-architecture"></a>Arquitetura de descoberta eletrônica avançada
+## <a name="cull-data-intelligently"></a>Seleciona dados de forma inteligente
 
-Este é um diagrama avançado de arquitetura de descoberta eletrônica que mostra o fluxo de trabalho de ponta a ponta em um ambiente de Geografia único e em um ambiente multigeográfico. O fluxo de dados de ponta a ponta é alinhado com o EDRM.
+Os recursos inteligentes de aprendizado de máquina na Descoberta Eletrônica Avançada ajudam a reduzir a quantidade de dados a analisar. Esses recursos inteligentes ajudam a reduzir e reduzem grandes volumes de dados para um conjunto relevante. Por exemplo, uma consulta de conjunto de revisão integrado ajuda a filtrar somente por conteúdo exclusivo identificando duplicatas próximas. Essa funcionalidade pode reduzir substancialmente a quantidade de dados a analisar.
 
-[![Cartaz de modelo: arquitetura de descoberta eletrônica avançada no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+Recursos adicionais de aprendizado de máquina podem refinar e identificar dados relevantes usando marcas inteligentes e ferramentas de revisão assistida por tecnologia, como os módulos de Relevância.
+
+## <a name="advanced-ediscovery-architecture"></a>Advanced eDiscovery architecture
+
+Aqui está um diagrama de arquitetura de Descoberta Eletrônica Avançada que mostra o fluxo de trabalho de ponta a ponta em um ambiente de uma [](advanced-ediscovery-edrm.md) única área geográfica e em um ambiente multi-geo, e o fluxo de dados de ponta a ponta alinhado com o Modelo de Referência de Descoberta Eletrônica (EDRM).
+
+[![Pôster de modelo: Arquitetura avançada de DescobertaScoberta no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
 
 [Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
 
@@ -70,35 +74,39 @@ Este é um diagrama avançado de arquitetura de descoberta eletrônica que mostr
 
 [Baixar como um arquivo do Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)
 
-Para obter mais informações sobre o fluxo de trabalho de ponta a ponta na descoberta eletrônica avançada, consulte este [vídeo da Microsoft mecânica](https://go.microsoft.com/fwlink/?linkid=2066133).
+Para obter mais informações sobre o fluxo de trabalho de ponta a ponta na Descoberta Avançada, consulte este [vídeo do Microsoft Mechanics.](https://go.microsoft.com/fwlink/?linkid=2066133)
 
-As seções a seguir descrevem cada etapa no fluxo de trabalho interno na descoberta eletrônica avançada. A captura de tela a seguir mostra a guia **visão geral** de um caso chamado *2020.11.03-contoso v. fabrikam*.
+## <a name="advanced-ediscovery-workflow"></a>Fluxo de trabalho de Descoberta Eletrônico Avançada
 
-![Guias no fluxo de trabalho de descoberta eletrônica avançado interno](../media/AeD-Case-Screenshot1.png)
+As seções a seguir descrevem cada etapa no fluxo de trabalho integrado na ferramenta Descoberta Avançada no centro de conformidade do Microsoft 365. A captura de  tela a seguir mostra a guia Visão geral de um caso chamado *2020.11.03 - Contoso v. Fabrikam*.
 
-## <a name="managing-custodians-and-non-custodial-data-sources"></a>Gerenciando os responsáveis e as fontes de dados não custodial
+![Guias no fluxo de trabalho de Descoberta Eletrônico Avançada integrado](../media/AeD-Case-Screenshot1.png)
 
-Use a guia **fontes de dados** para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse no caso e outras fontes de dados que podem não estar associadas a um. Ao adicionar qualificações ou fontes de dados não-custodial, você pode rapidamente realizar ações como colocar um bloqueio legal em fontes de dados não-custodial, comunicar-se com os responsáveis e Pesquisar fontes de dados de usuários não custodial para coletar conteúdo relevante para o caso. À medida que o caso avança, é fácil adicionar novos responsáveis ou fontes de dados não-custodial ou liberá-los do caso. Para obter mais informações, consulte [trabalhar com os responsáveis na descoberta eletrônica avançada](managing-custodians.md).
+Para obter informações mais detalhadas, consulte [Gerenciar o fluxo de trabalho de Descoberta Eletrônico Avançada.](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow)
 
-## <a name="managing-legal-hold-notifications"></a>Gerenciando notificações de retenção legal
+### <a name="managing-custodians-and-non-custodial-data-sources"></a>Gerenciando custodiantes e fontes de dados não custodial
 
-Use a guia **comunicações** para gerenciar o processo de comunicação com os responsáveis no caso. Um aviso de retenção legal instrui os responsáveis a preservar qualquer conteúdo que seja relevante para o caso. As equipes jurídicas devem controlar os avisos que foram recebidos, lidos e confirmados pelos responsáveis. O fluxo de trabalho de comunicações em descoberta eletrônica avançada permite que você crie e envie notificações iniciais, lembretes, avisos de lançamento e escalonamentos se os responsáveis não conseguirem confirmar uma notificação de bloqueio. Para obter mais informações, consulte [trabalhar com comunicações na descoberta eletrônica avançada](managing-custodian-communications.md).
+Use a **guia** Fontes de dados para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse no caso e outras fontes de dados que podem não estar associadas a um custodiante. Ao adicionar custodiantes ou fontes de dados não responsáveis, você pode executar rapidamente ações como colocar uma guarda legal em fontes de dados custodiantes e não custodiais, comunicar-se com responsáveis e pesquisar fontes de dados custodiantes e não custodial para coletar conteúdo relevante para o caso. À medida que o caso progride, é fácil adicionar novos custodiantes ou fontes de data não custodial ou liberá-los da ocorrência. Para obter mais informações, [consulte Trabalhar com custodiantes](managing-custodians.md).
 
-## <a name="managing-content-preservation"></a>Gerenciando preservação de conteúdo
+### <a name="managing-legal-hold-notifications"></a>Gerenciando notificações de espera legal
 
-Ao adicionar um membro a um caso, você pode colocar uma retenção em dados de custodial. Use a guia **reter** para gerenciar a retenção criada ao adicionar os responsáveis e gerenciar outras isenções legais associadas à ocorrência; por exemplo, você pode identificar e colocar uma retenção em fontes de dados não custodial. Você também pode editar qualquer isenção no caso e torná-lo um bloqueio baseado em consulta para preservar apenas o conteúdo que corresponde à consulta. Por exemplo, você pode adicionar um intervalo de datas à isenção para que apenas o conteúdo criado em uma data específica seja rangedo em preservado. Você também pode obter estatísticas sobre o conteúdo que está em espera, remover a retenção após ela não ser mais relevante para o caso ou excluí-la. Para obter mais informações, consulte [gerenciar isenções na descoberta eletrônica avançada](managing-holds.md).
+Use a **guia** Comunicações para gerenciar o processo de comunicação com os custodiantes no caso. Um aviso de responsabilidade legal instrui os responsáveis a preservar qualquer conteúdo relevante para o caso. As equipes jurídicas devem ser capazes de acompanhar os avisos que foram recebidos, lidos e confirmados pelos responsáveis. O fluxo de trabalho de comunicação na Descoberta Eletrônica Avançada permite que você crie e envie notificações iniciais, lembretes, avisos de liberação e escalonamentos se os custodiantes não reconhecerem uma notificação de espera. Para obter mais informações, consulte [Trabalhar com comunicações.](managing-custodian-communications.md)
 
-## <a name="indexing-custodian-data"></a>Indexando dados de responsáveis
+### <a name="managing-content-preservation"></a>Gerenciando a preservação de conteúdo
 
-Quando você adiciona um Objecte as fontes de dados do custodial correspondentes a um caso, qualquer item parcialmente indexado de uma fonte de dados do responsáveis é reindexado por um processo chamado *indexação avançada*. Isso permite que o conteúdo do custodial, como imagens, tipos de arquivo não suportados, e outro conteúdo potencialmente não indexado seja totalmente pesquisável quando você executar pesquisas para coletar dados para o caso. Use a guia **processamento** para monitorar o status de erros de indexação avançada e de processamento de correção usando um processo chamado *correção de erros*. Para obter mais informações, consulte [corrigir erros de processamento em descoberta eletrônica avançada](processing-data-for-case.md).
+Ao adicionar um custodiante a uma ocorrência, você pode colocar em espera os dados de custodiante. Use a **guia** De espera para gerenciar a espera criada quando você adiciona responsáveis e gerenciar outras retém legais associadas à ocorrência; por exemplo, você pode identificar e colocar uma espera em fontes de dados não custodial. Você também pode editar qualquer espera no caso e torná-la uma espera baseada em consulta para preservar apenas o conteúdo que corresponde à consulta. Por exemplo, você pode adicionar um intervalo de datas à espera para que somente o conteúdo criado dentro de um intervalo de datas específico seja preservado. Você também pode obter estatísticas sobre o conteúdo que está em espera, remover a espera depois que ela não for mais relevante para o caso ou excluí-la. Para obter mais informações, consulte [Gerenciar retém](managing-holds.md).
 
-## <a name="collecting-case-data"></a>Coletar dados de ocorrência
+### <a name="indexing-custodian-data"></a>Indexando dados custodiante
 
-Use a guia **pesquisas** para criar pesquisas a fim de Pesquisar as fontes de dados custodial e não custodial no local para o conteúdo relevante para o caso. Você pode criar e executar pesquisas baseadas em consulta (usando palavras-chave e condições) para identificar um conjunto de mensagens de email e documentos relevantes para o caso e que você deseja revisar mais e analisar em etapas subsequentes no fluxo de trabalho de descoberta eletrônica. Você pode criar uma ou mais pesquisas associadas à ocorrência. Você também pode usar a ferramenta de pesquisa para visualizar documentos de amostra e exibir estatísticas de pesquisa para ajudá-lo a refinar e aprimorar os resultados da pesquisa. Depois de Pesquisar e coletar todos os dados relevantes para o caso, você pode adicionar os resultados da pesquisa a um conjunto de revisão para análise, análise e remoção posterior. Para obter mais informações, consulte [coletar dados por um caso na descoberta eletrônica avançada](collecting-data-for-ediscovery.md).
+Quando você adiciona um custodiante e as fontes de dados custodiais correspondentes a uma ocorrência, qualquer item parcialmente indexado de uma fonte de dados custodiante é reindexado por um processo chamado *indexação avançada.* Isso permite que o conteúdo custodial, como imagens, tipos de arquivo sem suporte e outro conteúdo potencialmente não índicedo, seja totalmente pesquisável quando você executar pesquisas para coletar dados do caso. Use a **guia Processamento para** monitorar o status de Indexação Avançada e corrigir erros de processamento usando um processo chamado *correção de erros.* Para obter mais informações, consulte [Corrigir erros de processamento.](processing-data-for-case.md)
 
-## <a name="reviewing-and-analyzing-case-data"></a>Revisando e analisando dados de caso
+### <a name="collecting-case-data"></a>Coletar dados de ocorrência
 
-Use a guia **revisar conjuntos** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado para extrair arquivos de contêineres, extrair metadados e extrair texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, encadeamento de emails e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para saber mais, confira:
+Use a **guia Pesquisas para** criar pesquisas para pesquisar as fontes de dados de custodiante no local e não custodial por conteúdo relevante para a ocorrência. Você pode criar e executar pesquisas baseadas em consulta (usando palavras-chave e condições) para identificar um conjunto de mensagens de email e documentos que são relevantes para o caso e que você deseja analisar e analisar em etapas subsequentes no fluxo de trabalho de Descoberta Eletrônico. Você pode criar uma ou mais pesquisas associadas à ocorrência. Você também pode usar a ferramenta de pesquisa para visualizar documentos de exemplo e exibir estatísticas de pesquisa para ajudá-lo a refinar e melhorar os resultados da pesquisa. Depois que você estiver satisfeito, os resultados da pesquisa contêm todos os dados relevantes para o caso, adicione os resultados da pesquisa a um conjunto de revisão para revisão, análise e reavaliação posterior. Para obter mais informações, [consulte Coletar dados para uma ocorrência.](collecting-data-for-ediscovery.md)
+
+### <a name="reviewing-and-analyzing-case-data"></a>Analisar e analisar dados de caso
+
+Use a **guia Conjuntos de** revisão para revisar e analisar o conteúdo que você coletou do sistema ao vivo e adicionado a um conjunto de revisão. Um  conjunto de revisão é uma coleção estática desses dados (em outras palavras, uma cópia offline dos dados) de dados custodiais (e, se aplicável, dados não custodial) coletados na fase anterior do fluxo de trabalho de Descoberta Eletrônico. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é acionado para extrair arquivos de contêineres, extrair metadados e extrair texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados dos custodiantes e o adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo e anotar, reexecar e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threading de email e temas. Depois de ter rebaixado os dados apenas para o que é relevante para o caso, você pode baixar documentos diretamente ou exportá-los juntamente com metadados de arquivo, anotações e qualquer marca. Para saber mais, confira:
 
 - [Exibir documentos em um conjunto de revisão](view-documents-in-review-set.md)
 
@@ -108,14 +116,20 @@ Use a guia **revisar conjuntos** para analisar e analisar o conteúdo que você 
 
 - [Analisar dados em um conjunto de revisão](analyzing-data-in-review-set.md)
 
-## <a name="exporting-data-for-review-and-presentation"></a>Exportando dados para revisão e apresentação
+### <a name="exporting-data-for-review-and-presentation"></a>Exportando dados para revisão e apresentação
 
-Depois de exportar os dados de um conjunto de revisão, use a guia **exportações** para gerenciar um trabalho de exportação e baixar dados de um conjunto de revisão. Quando um conjunto de análise é exportado, os dados são carregados para um local de armazenamento fornecido pela Microsoft (ou um local de armazenamento do Azure gerenciado por sua organização). Após ser carregado para o Azure, ele é e está disponível para download para um computador local. Você pode obter a chave de acesso de armazenamento necessária para baixar os dados exportados **na guia exportações** . Para obter mais informações, consulte [exportar dados de caso na descoberta eletrônica avançada](exporting-data-ediscover20.md).
+Depois de exportar os dados de  um conjunto de revisão, use a guia Exportações para gerenciar um trabalho de exportação e baixar dados de um conjunto de revisão. Quando você exporta um conjunto de revisão, os dados são carregados em um local de armazenamento do Azure fornecido pela Microsoft (ou em um local de armazenamento do Azure gerenciado pela sua organização). Depois de ser carregado no Azure, ele estará disponível para download em um computador local. Você pode obter a chave de avaliação de armazenamento necessária para baixar os dados exportados na **guia** Exportações. Para obter mais informações, consulte [Exportar dados de caso.](exporting-data-ediscover20.md)
 
-## <a name="managing-jobs"></a>Gerenciando trabalhos
+### <a name="managing-jobs"></a>Gerenciando trabalhos
 
-Use a guia **trabalhos** para monitorar processos de execução longa para tarefas relacionadas a casos que você tenha iniciado. Entre os exemplos de trabalhos estão relacionados à reindexação, pesquisa e exportação de dados de caso. Por exemplo, se você criar uma pesquisa na guia **pesquisas** que inclui várias fontes de dados, o status desse processo de pesquisa será exibido na guia **trabalhos** . Para obter mais informações, consulte [gerenciar trabalhos na descoberta eletrônica avançada](managing-jobs-ediscovery20.md).
+Use a **guia Trabalhos** para monitorar processos de longa execução para tarefas relacionadas a ocorrências iniciadas por você. Exemplos de trabalhos incluem aqueles relacionados à reindexação, pesquisa e exportação de dados de caso. Por exemplo, se você criar  uma pesquisa na guia Pesquisas que inclui muitas fontes de dados, o status desse processo de pesquisa será exibido na guia **Trabalhos.** Para obter mais informações, consulte [Gerenciar trabalhos.](managing-jobs-ediscovery20.md)
 
-## <a name="configuring-case-settings"></a>Configurando as configurações de caso
+### <a name="configuring-case-settings"></a>Definindo configurações de caso
 
-Use a guia **configurações** para definir as configurações em todo o caso. Isso inclui adicionar membros a um caso, fechar ou excluir uma ocorrência e definir as configurações de pesquisa e análise.
+Use a **guia Configurações** para definir configurações em toda a ocorrência. Isso inclui adicionar membros a uma ocorrência, fechar ou excluir uma ocorrência e definir configurações de pesquisa e análise. Para saber mais, confira:
+
+- [Adicionar membros a uma ocorrência](add-or-remove-members-from-a-case-in-advanced-ediscovery.md)
+
+- [Fechar ou excluir uma ocorrência](close-or-delete-case.md)
+
+- [Definir configurações de pesquisa e análise](configure-search-and-analytics-settings-in-advanced-ediscovery.md)

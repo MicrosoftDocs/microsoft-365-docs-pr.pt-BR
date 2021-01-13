@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os limites de caso, os limites de indexação e os limites de pesquisa em vigor para a solução descoberta de eDiscovery Avançada no Microsoft 365.
-ms.openlocfilehash: 051c1ce916fcb59ade19120bc25496101d501138
-ms.sourcegitcommit: f40378013757d560d5566a11ad4e6f527c018cc4
+ms.openlocfilehash: 8238a86df2d4e6b487571a3c0f9a380d90607729
+ms.sourcegitcommit: 495b66b77d6dbe6d69e5b06b304089e4e476e568
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
-ms.locfileid: "49796169"
+ms.locfileid: "49799678"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -31,7 +31,7 @@ Este artigo descreve os limites da solução descoberta de eDiscovery Avançada 
 
 A tabela a seguir lista os limites de casos e conjuntos de revisão na Descoberta Avançada.
 
-|**Descrição do limite**|**Limite**|
+| Descrição do limite | Limite |
 |:-----|:-----|
 |Número total de documentos que podem ser adicionados a uma ocorrência (para todos os conjuntos de revisão em uma ocorrência).  <br/> |3 milhões <br/> |
 |Tamanho total do arquivo por conjunto de carga. Isso inclui o carregamento de não-Office 365 em um conjunto de revisão.  <br/> |300 GB <br/> |
@@ -46,7 +46,7 @@ A tabela a seguir lista os limites de casos e conjuntos de revisão na Descobert
 
 A tabela a seguir lista os limites de indexação na Descoberta eDiscovery Avançada.
 
-|**Descrição do limite**|**Limite**|
+| Descrição do limite | Limite |
   |:-----|:-----|
   |Número máximo de caracteres extraídos de um único arquivo.  <br/> |10 milhões<sup>1</sup> <br/> |
   |Tamanho máximo de um único arquivo.   <br/> |100 MB<sup>1</sup> <br/> |
@@ -59,14 +59,14 @@ A tabela a seguir lista os limites de indexação na Descoberta eDiscovery Avan�
 
 Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de pesquisa na guia Pesquisas para coletar dados de uma ocorrência. Para obter mais informações, [consulte Coletar dados para um caso na Descoberta Avançada de eDiscovery](collecting-data-for-ediscovery.md).
 
-|**Descrição do limite**|**Limite**|
+| Descrição do limite | Limite |
 |:-----|:-----|
 |Número máximo de caixas de correio ou sites que podem ser pesquisados em uma única pesquisa.  <br/> |Sem limite  <br/> |
 |Número máximo de pesquisas que podem ser executados ao mesmo tempo.  <br/> |Sem limite  <br/> | 
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo.  <br/> |10   <br/> | 
 |Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de** correio : 10.000<br/>**Sites**: 4.000 ao pesquisar em todos os sites ou 2.000 ao pesquisar até 20 sites <sup>2</sup> <br/> |
-|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo **\* um* _ ou _*um conjunto \**_. <br/> |3   <br/> |  
-|Variantes máximas retornadas ao usar caractere curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booliana _ *NEAR**.  <br/> |10.000 <sup>3</sup> <br/> |
+|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo, **um \** _ ou _*definir \**_. <br/> |3   <br/> |  
+|Variantes máximas retornadas ao usar caractere curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano _ *NEAR**.  <br/> |10.000 <sup>3</sup> <br/> |
 |Número máximo de itens por caixa de correio de usuário que são exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos.   <br/> |100  <br/> |
 |Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1.000  <br/> |
 |Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1.000 caixas de correio que contenham itens que corresponderem à consulta de pesquisa, somente as 1.000 caixas de correio com mais resultados estarão disponíveis para visualização.<br/> |1.000  <br/> |
@@ -79,14 +79,14 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 
 ## <a name="viewer-limits"></a>Limites do visualizador
 
-|**Descrição do limite**|**Limite**|
+| Descrição do limite | Limite |
 |:-----|:-----|
 |Tamanho máximo do arquivo do Excel que pode ser exibido no visualizador nativo.  <br/> |4 MB  <br/> |
 |||
 
 ## <a name="export-limits"></a>Limites de exportação
 
-|**Descrição do limite**|**Limite**|
+| Descrição do limite | Limite |
 |:-----|:-----|
 |Tamanho máximo de uma única exportação.|3 milhões de documentos ou 100 GB, o que for menor|
 |Quantidade máxima de dados em um único dia. | 2 TB |
@@ -98,7 +98,7 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 
 ## <a name="review-set-download-limits"></a>Revisar o conjunto de limites de download
 
-|**Descrição do limite**|**Limite**|
+| Descrição do limite | Limite |
 |:-----|:-----|
 |Tamanho total do arquivo ou número máximo de documentos baixados de um conjunto de revisão.  <br/> |3 MB ou 50 documentos <sup>5</sup>|
 |||
@@ -107,10 +107,14 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 <br/>
 
 > [!NOTE]
-> <sup>1</sup> Qualquer item que exceda um único limite de arquivo será aparecer como um erro de processamento.<br/>
-> <sup>2</sup> Ao pesquisar locais do SharePoint e do OneDrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados contam para esse limite.<br/>
-> <sup>3</sup> Para consultas sem frase (um valor de palavra-chave que não usa aspas duplas), usamos um índice de prefixo especial. Isso nos informa que uma palavra ocorre em um documento, mas não onde ela ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição no documento com as palavras na frase. Isso significa que não podemos usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis para as quais o prefixo se expande; por exemplo, **time _ pode expandir para \* *_*"time OR timer OR times OR timex OR timeboxed OR ..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, não o número de documentos correspondentes à consulta. Não há limite superior para termos sem frase.<br/>
-> <sup>4</sup> Esse limite é compartilhado em todas as ferramentas de Descoberta eDiscovery. Isso significa que as exportações simultâneas na Pesquisa de Conteúdo, Descobertas Principais e Descobertas Avançadas são aplicadas nesse limite. <br/>
-> <sup>5</sup> Esse limite se aplica ao download de documentos selecionados de um conjunto de revisão. Não se aplica à exportação de documentos de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte Exportar dados de caso [na Descoberta eDiscovery Avançada.](exporting-data-ediscover20.md) <br/>
-> <sup>6</sup> Limites de indexação por organização por dia. Como alternativa, você pode selecionar vários custodiantes e clicar em Atualizar índice para evitar criar um trabalho de índice separado para cada custodiante.  <br/>
-
+> <sup>1</sup> Qualquer item que exceda um único limite de arquivo será aparecer como um erro de processamento.
+>
+> <sup>2</sup> Ao pesquisar locais do SharePoint e do OneDrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados contam para esse limite.
+>
+> <sup>3</sup> Para consultas sem frase (um valor de palavra-chave que não usa aspas duplas), usamos um índice de prefixo especial. Isso nos informa que uma palavra ocorre em um documento, mas não onde ela ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição no documento com as palavras na frase. Isso significa que não podemos usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis para as quais o prefixo se expande; por exemplo, **time _ pode expandir para \* *_*"time OR timer OR times OR timex OR timeboxed OR ..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, não o número de documentos correspondentes à consulta. Não há limite superior para termos sem frase.
+>
+> <sup>4</sup> Esse limite é compartilhado em todas as ferramentas de Descoberta eDiscovery. Isso significa que as exportações simultâneas na Pesquisa de Conteúdo, Descobertas Principais e Descobertas Avançadas são aplicadas nesse limite.
+>
+> <sup>5</sup> Esse limite se aplica ao download de documentos selecionados de um conjunto de revisão. Não se aplica à exportação de documentos de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte Exportar dados de caso [na Descoberta eDiscovery Avançada.](exporting-data-ediscover20.md)
+>
+> <sup>6</sup> Limites de indexação por organização por dia. Como alternativa, você pode selecionar vários  custodiantes na guia Fontes  de dados em um caso e, em seguida, clicar em Atualizar índice para evitar criar um trabalho de índice separado para cada custodiante. 

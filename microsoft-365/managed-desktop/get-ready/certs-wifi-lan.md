@@ -1,6 +1,6 @@
 ---
 title: Prepare certificados e perfis de rede da Área de trabalho gerenciada da Microsoft
-description: certs/WiFi/LAN
+description: certs/wifi/lan
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -11,79 +11,79 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bccfe9a6a6a0550f96ab33d5fd5142e4eaae7b51
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: cf31778d773a271ead6a1745197f04eca127ab5d
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333519"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841090"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Prepare certificados e perfis de rede da Área de trabalho gerenciada da Microsoft  
  
-A autenticação baseada em certificado é um requisito comum para os clientes que usam a área de trabalho gerenciada da Microsoft. Você pode exigir que os certificados acessem o Wi-Fi ou LAN, para se conectarem às soluções VPN ou para acessar recursos internos em sua organização.   
+A autenticação baseada em certificado é um requisito comum para clientes que usam a Área de Trabalho Gerenciada da Microsoft. Você pode exigir que os certificados acessem Wi-Fi lan, se conectem a soluções VPN ou acessem recursos internos em sua organização.   
  
-Como os dispositivos de área de trabalho gerenciada da Microsoft fazem parte do Azure Active Directory (Azure AD) e são gerenciados pelo Microsoft Intune, você deve implantar esses certificados usando uma infraestrutura de certificado (protocolo de registro de certificados simples) ou PKCS (padrão de criptografia de chave pública) integrada ao Intune.    
+Como os dispositivos da Área de Trabalho Gerenciada da Microsoft fazem parte do Azure Active Directory (Azure AD) e são gerenciados pelo Microsoft Intune, você deve implantar esses certificados usando uma infraestrutura de certificado SCEP (Simple Certificate Enrollment Protocol) ou PKCS (Public Key Cryptography Standard) integrada ao Intune.    
  
 ## <a name="certificate-requirements"></a>Requisitos de Certificação 
  
-Os certificados raiz são necessários para implantar certificados por meio de uma infraestrutura de SCEP ou PKCS. Outros aplicativos e serviços em sua organização podem exigir que certificados raiz sejam implantados em seus dispositivos de área de trabalho gerenciada da Microsoft.    
+Certificados raiz são necessários para implantar certificados por meio de uma infraestrutura SCEP ou PKCS. Outros aplicativos e serviços em sua organização podem exigir certificados raiz para serem implantados em seus dispositivos da Área de Trabalho Gerenciada da Microsoft.    
  
-Antes de implantar o SCEP ou certificados PKCS para a área de trabalho gerenciada da Microsoft, você deve coletar requisitos para cada serviço que exija um usuário ou certificado de dispositivo em sua organização. Para simplificar isso, você pode usar um dos seguintes modelos de planejamento:  
+Antes de implantar certificados SCEP ou PKCS na Área de Trabalho Gerenciada da Microsoft, você deve coletar requisitos para cada serviço que exige um certificado de usuário ou dispositivo em sua organização. Para facilitar essa atividade, você pode usar um dos seguintes modelos de planejamento:  
  
 - [Modelo de certificado PKCS](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/PKCS-certificate-template.xlsx) 
 - [Modelo de certificado SCEP](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/SCEP-certificate-template.xlsx)
 
   
-## <a name="wi-fi-connectivity-requirements"></a>Requisitos de conectividade Wi-Fi
+## <a name="wi-fi-connectivity-requirements"></a>Wi-Fi de conectividade
 
-Para permitir que um dispositivo seja fornecido automaticamente com a configuração de Wi-Fi necessária para sua rede corporativa, talvez você precise de um perfil de configuração de Wi-Fi. Você pode configurar a área de trabalho gerenciada da Microsoft para implantar esses perfis em seus dispositivos. Se a sua segurança de rede exigir que os dispositivos façam parte do domínio local, você também pode precisar avaliar sua infraestrutura de rede Wi-Fi para garantir que ela seja compatível com os dispositivos de área de trabalho gerenciada da Microsoft (os dispositivos de área de trabalho gerenciada da Microsoft são apenas associados ao AD do Azure). 
+Para permitir que um dispositivo seja fornecido automaticamente com a configuração de Wi-Fi necessária para sua rede corporativa, talvez seja necessário um perfil Wi-Fi configuração. Você pode configurar a Área de Trabalho Gerenciada da Microsoft para implantar esses perfis em seus dispositivos. Se a segurança de rede exigir que os dispositivos façam parte do domínio local, talvez também seja necessário avaliar Wi-Fi infraestrutura de rede do Wi-Fi para garantir que seja compatível com dispositivos de Área de Trabalho Gerenciada da Microsoft (os dispositivos da Área de Trabalho Gerenciada da Microsoft são ingressados apenas no Azure AD). 
  
-Antes de implantar uma configuração de Wi-Fi nos dispositivos de área de trabalho gerenciada da Microsoft, você será solicitado a coletar os requisitos da sua organização para cada rede Wi-Fi. Para facilitar, você pode usar esse modelo de [perfil WiFi](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx).
- 
- 
-## <a name="wired-connectivity-requirements-and-8021x-authentication"></a>Requisitos de conectividade com fio e autenticação 802.1 x 
- 
-Se você usar a autenticação do 802.1 x para proteger o acesso de dispositivos à sua rede local (LAN), precisará enviar os detalhes de configuração necessários para seus dispositivos de área de trabalho gerenciada da Microsoft. Os dispositivos de área de trabalho gerenciada da Microsoft que executam o Windows 10, versão 1809 ou posterior oferecem suporte à implantação de uma configuração do 802.1 x através do provedor de serviços de configuração do WiredNetwork. Para obter mais informações, consulte a documentação de [CSP do WiredNetwork](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) . 
- 
-Antes de implantar um perfil de configuração de rede com fio nos dispositivos de área de trabalho gerenciada da Microsoft, reúna os requisitos de sua organização para sua rede corporativa com fio. Para fazer isso, siga estas etapas: 
+Antes de implantar uma configuração Wi-Fi nos dispositivos da Área de Trabalho Gerenciada da Microsoft, será necessário reunir os requisitos da sua organização para cada Wi-Fi rede. Para facilitar essa atividade, você pode usar esse modelo de perfil [de WiFi.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx)
  
  
-1. Entre em um dispositivo que tenha seu perfil do 802.1 x existente configurado e esteja conectado à rede LAN.  
+## <a name="wired-connectivity-requirements-and-8021x-authentication"></a>Requisitos de conectividade com fio e autenticação 802.1x 
+ 
+Se você usar a autenticação 802.1x para proteger o acesso de dispositivos à rede local (LAN), será necessário levar os detalhes de configuração necessários para os dispositivos da Área de Trabalho Gerenciada da Microsoft. Os dispositivos da Área de Trabalho Gerenciada da Microsoft que executam o Windows 10, versão 1809 ou posterior, suportam a implantação de uma configuração 802.1x por meio do provedor de serviços de configuração (CSP) WiredNetwork. Para obter mais informações, consulte a [documentação do CSP WiredNetwork.](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) 
+ 
+Antes de implantar um perfil de configuração de rede com fio em dispositivos da Área de Trabalho Gerenciada da Microsoft, reúna os requisitos da sua organização para sua rede corporativa com fio. Para fazer isso, siga estas etapas: 
+ 
+ 
+1. Entre em um dispositivo que tenha seu perfil 802.1x existente configurado e conectado à rede LAN.  
 2. Abra um prompt de comando com credenciais administrativas. 
-3. Encontre o nome da interface LAN executando **interface netsh interface show**. 
-4. Exporte o XML do perfil de LAN executando a **pasta de perfil de exportação netsh lan =.  Interface = "interface_name"**. 
-5. Se você precisar testar seu perfil exportado no dispositivo de área de trabalho gerenciada da Microsoft, execute **netsh lan Add Profile filename = "PATH_AND_FILENAME.xml" interface = "interface_name"**. 
+3. Encontre o nome da interface lan executando a **interface netsh show interface**. 
+4. Exporte o XML de perfil de LAN executando **netsh lan export profile folder=.  Interface="interface_name"**. 
+5. Se você precisar testar seu perfil exportado no dispositivo da Área de Trabalho Gerenciada da Microsoft, execute **netsh lan add profile filename="PATH_AND_FILENAME.xml" interface="INTERFACE_NAME".** 
  
  
-## <a name="deploy-certificate-infrastructure"></a>Implantar a infraestrutura de certificado  
+## <a name="deploy-certificate-infrastructure"></a>Implantar a infraestrutura de certificados  
  
-Se você já tiver uma infraestrutura de SCEP ou PKCS existente com o Intune e isso atender aos seus requisitos, você também poderá usá-lo para a área de trabalho gerenciada da Microsoft. Se nenhuma infraestrutura de SCEP ou PKCS já existir, você terá que preparar um.  
+Se você já tiver uma infraestrutura existente do SCEP ou PKCS com o Intune e essa abordagem atender aos seus requisitos, também poderá usá-la para a Área de Trabalho Gerenciada da Microsoft. Se nenhuma infraestrutura de SCEP ou PKCS já existir, você terá que preparar uma.  
  
-Para obter mais informações, consulte [configurar um perfil de certificado para seus dispositivos no Microsoft Intune](https://docs.microsoft.com/intune/certificates-configure). 
+Para obter mais informações, [consulte Configurar um perfil de certificado para seus dispositivos no Microsoft Intune.](https://docs.microsoft.com/intune/certificates-configure) 
  
  
  
 ## <a name="deploy-a-lan-profile"></a>Implantar um perfil de LAN 
  
-Depois que seu perfil de LAN tiver sido exportado, você poderá preparar a política para a área de trabalho gerenciada da Microsoft seguindo estas etapas:   
+Depois que seu perfil de LAN tiver sido exportado, você poderá preparar a política para a Área de Trabalho Gerenciada da Microsoft seguindo estas etapas:   
  
-1. Crie um perfil personalizado no Microsoft Intune para o perfil de LAN usando as configurações a seguir (consulte [usar configurações personalizadas para dispositivos Windows 10 no Intune](https://docs.microsoft.com/intune/custom-settings-windows-10)). Em **configurações OMA-URI personalizadas**, selecione **Adicionar**e, em seguida, insira os seguintes valores: 
-    - Name: *local de trabalho moderno – perfil de LAN do Windows 10* 
-    - Descrição: Insira uma descrição que forneça uma visão geral da configuração e quaisquer outros detalhes importantes. 
-    - OMA-URI (diferencia maiúscula de minúscula): Enter *./Device/Vendor/MSFT/WiredNetwork/LanXML*
-    - Tipo de dados: selecionar **cadeia de caracteres (arquivo XML)**. 
-    - XML personalizado: carregue o arquivo XML exportado.
-2. Envie uma solicitação de suporte para as operações de ti de área de trabalho gerenciada da Microsoft usando o portal de administração de área de trabalho gerenciada da Microsoft para analisar e implantar o perfil de configuração em "dispositivos do ambiente de trabalho modernos – As operações de ti de área de trabalho gerenciada da Microsoft permitirão que você saiba quando a solicitação é concluída por meio da solicitação de suporte no portal de administração.
+1. Crie um perfil personalizado no Microsoft Intune para o perfil de LAN usando as configurações a seguir (consulte Usar configurações personalizadas para [dispositivos Windows 10 no Intune).](https://docs.microsoft.com/intune/custom-settings-windows-10) Em **Configurações OMA-URI Personalizadas,** selecione **Adicionar** e insira os seguintes valores: 
+    - Nome: *Perfil de LAN Workplace-Windows 10 moderno* 
+    - Descrição: insira uma descrição que dê uma visão geral da configuração e quaisquer outros detalhes importantes. 
+    - OMA-URI (sensível a casos): Insira *./Device/Vendor/MSFT/WiredNetwork/LanXML*
+    - Tipo de dados: selecione **Cadeia de Caracteres (arquivo XML).** 
+    - XML personalizado: carregar o arquivo XML exportado.
+2. Envie uma solicitação de suporte às operações de IT da Área de Trabalho Gerenciada da Microsoft usando o portal de Administração da Área de Trabalho Gerenciada da Microsoft para revisar e implantar o perfil de configuração em "Dispositivos modernos do local de trabalho – teste". As operações de TI da Área de Trabalho Gerenciada da Microsoft permitirão que você saiba quando a solicitação for concluída por meio da solicitação de suporte no portal do administrador.
  
-## <a name="deploy-certificates-and-wi-fivpn-profile"></a>Implantar certificados e o perfil Wi-Fi/VPN 
+## <a name="deploy-certificates-and-wi-fivpn-profile"></a>Implantar certificados e perfil de Wi-Fi/VPN 
  
  
 Para implantar certificados e perfis, siga estas etapas:
 
-1. Crie um perfil para cada um dos certificados raiz e intermediários (consulte [Create Trusted Certification Profiles](https://docs.microsoft.com/intune/protect/certificates-configure#step-3-create-trusted-certificate-profiles). Cada um desses perfis deve ter uma descrição que inclua uma data de validade no formato DD/MM/AAAA. **Os perfis de certificado sem uma data de expiração não serão implantados.**
-2. Criar um perfil para cada SCEP ou certificados PKCS (consulte [criar um perfil de certificado SCEP](https://docs.microsoft.com/intune/protect/certificates-scep-configure#create-a-scep-certificate-profile) ou [criar um perfil de certificado PKCS](https://docs.microsoft.com/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)) cada um desses perfis deve ter uma descrição que inclua uma data de expiração no formato dd/mm/aaaa. **Os perfis de certificado sem uma data de expiração não serão implantados.**
-3. Criar um perfil para cada rede WiFi corporativa (consulte [configurações de Wi-Fi para dispositivos Windows 10 e posteriores](https://docs.microsoft.com/intune/wi-fi-settings-windows)).
-4. Criar um perfil para cada VPN corporativa (consulte [Windows 10 and Windows Holographic device settings to add VPN Connections using Intune](https://docs.microsoft.com/intune/vpn-settings-windows-10)).
-5. Envie uma solicitação de suporte intitulada "implantação de certificado" ou "implantação de perfil Wi-Fi" para operações de ti de área de trabalho gerenciada da Microsoft usando o portal de administração de área de trabalho gerenciada da Microsoft para analisar e implantar o perfil de configuração em "dispositivos de local de trabalho modernos – teste" As operações de ti de área de trabalho gerenciada da Microsoft permitirão que você saiba quando a solicitação foi concluída por meio da solicitação de suporte no portal de administração. 
+1. Crie um perfil para cada um dos certificados raiz e intermediário (consulte [Criar perfis de certificado confiáveis.](https://docs.microsoft.com/intune/protect/certificates-configure#step-3-create-trusted-certificate-profiles) Cada um desses perfis deve ter uma descrição que inclua uma data de expiração no formato DD/MM/AAAA. **Os perfis de certificado sem uma data de expiração não serão implantados.**
+2. Crie um perfil para cada certificado SCEP ou PKCS (consulte Criar um perfil de certificado [SCEP](https://docs.microsoft.com/intune/protect/certificates-scep-configure#create-a-scep-certificate-profile) ou Criar um perfil de certificado [PKCS)](https://docs.microsoft.com/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)Cada um desses perfis deve ter uma descrição que inclua uma data de expiração no formato DD/MM/AAAA. **Os perfis de certificado sem uma data de expiração não serão implantados.**
+3. Crie um perfil para cada rede WiFi corporativa (consulte as configurações de [Wi-Fi para o Windows 10 e dispositivos posteriores).](https://docs.microsoft.com/intune/wi-fi-settings-windows)
+4. Crie um perfil para cada VPN corporativa (confira as configurações de dispositivo do Windows 10 e do Windows Holographic para adicionar [conexões VPN usando o Intune).](https://docs.microsoft.com/intune/vpn-settings-windows-10)
+5. Envie uma solicitação de Suporte intitulada "Implantação de Certificado" ou "Implantação de Perfil de Wi-Fi" para operações de IT da Área de Trabalho Gerenciada da Microsoft usando o portal de Administração da Área de Trabalho Gerenciada da Microsoft para revisar e implantar o perfil de configuração em "Dispositivos de Local de Trabalho Modernos – Teste". As operações de TI da Área de Trabalho Gerenciada da Microsoft permitirão que você saiba quando a solicitação foi concluída por meio da solicitação de suporte no portal do administrador. 
  
  

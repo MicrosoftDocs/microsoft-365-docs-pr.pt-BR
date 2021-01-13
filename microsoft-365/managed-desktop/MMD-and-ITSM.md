@@ -1,61 +1,61 @@
 ---
 title: Área de trabalho e ITIL gerenciados da Microsoft
-description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação, ITISM
+description: Correlaciona as fases de ITIL com artigos e informações da Área de Trabalho Gerenciada da Microsoft
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação, ITISM
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 4b735ec28b655dfc01c874bc4865388d11247b67
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e545b64670bb92c40465f1c50b2cb46b9fd7a8d8
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47947955"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841430"
 ---
 # <a name="microsoft-managed-desktop-and-itil"></a>Área de trabalho e ITIL gerenciados da Microsoft
 
-Muitas organizações acham importante estruturar seus serviços de ti ao longo das linhas de um modelo de serviço de ti formalizado (ITSM), como [ITIL](https://www.axelos.com/best-practice-solutions/itil). 
+Muitas organizações acham valioso estruturar seus serviços de IT ao longo das linhas de um MODELO de Serviço de IT (ITSM) formalizado, como [ITIL](https://www.axelos.com/best-practice-solutions/itil). 
 
-A área de trabalho gerenciada da Microsoft permite que sua organização cumpra vários aspectos fundamentais dos modelos ITSM formalizados. Usando ITIL como exemplo, este tópico ajuda você a ver as conexões entre as fases e os processos comuns da ITIL e os recursos equivalentes de área de trabalho gerenciada da Microsoft, quando aplicável. Isso aplica-se apenas à parte da área de trabalho gerenciada da Microsoft de sua organização.
+A Área de Trabalho Gerenciada da Microsoft permite que sua organização cumpra vários aspectos importantes desses modelos ITSM formalizados. Usando ITIL como exemplo, este artigo ajuda você a ver as conexões entre fases e processos comuns de ITIL e recursos equivalentes da Área de Trabalho Gerenciada da Microsoft, quando aplicável. Essas informações se aplica somente à parte da Área de Trabalho Gerenciada da Microsoft da sua organização.
 
-Para obter mais informações sobre a ITIL e suas fases e processo, consulte sua [documentação](https://www.axelos.com/best-practice-solutions/itil).
+Para obter mais informações sobre ITIL e suas fases e processo, consulte a [documentação.](https://www.axelos.com/best-practice-solutions/itil)
 
 
 ## <a name="service-design"></a>Design de serviço
 
-Esta tabela relaciona os principais processos e fases da ITIL aos recursos de área de trabalho gerenciada da Microsoft, com links para a documentação para obter detalhes:
+Esta tabela relaciona as principais fases e processos de ITIL aos recursos da Área de Trabalho Gerenciada da Microsoft, com links para nossa documentação para obter detalhes:
 
 
 
-|Processo de ITIL |Descrição  |Documentação |
+|Processo ITIL |Descrição  |Documentação |
 |---------|---------|---------|
-|Gerenciamento de nível de serviço     | Os tempos de resposta são definidos para solicitações de suporte de administração e incidentes.  |  [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md)  |
-|Gerenciamento do catálogo de serviços     | Descrição do serviço o detalhamento de componentes do serviço é mantido true para o estado do serviço, disponível para todos os clientes atuais e interessados.<br><br>Pré-requisitos detalhados para entender o que é necessário para operar o serviço.  | - [Descrição do serviço de área de trabalho gerenciada da Microsoft](service-description/index.md)<br><br>- [Prepare-se para o registro na área de trabalho gerenciada da Microsoft](get-ready/index.md)  |
-|Gerenciamento de segurança de informações     | Informações de segurança, incluindo segurança de informações para o serviço.<br><br> Políticas relacionadas à segurança e outras informações sobre como os dispositivos são configurados.   | - [Segurança na área de trabalho gerenciada da Microsoft](service-description/security.md)<br><br>- [Configuração do dispositivo](service-description/device-policies.md)  |
-|Gerenciamento de disponibilidade     |  A área de trabalho gerenciada da Microsoft equilibra a responsabilidade da sua organização para garantir a disponibilidade do serviço.<br><br>Administradores e usuários têm rotas para o respectivo suporte em caso de problemas de disponibilidade ou serviço. | - [Monitoramento e operações de área de trabalho gerenciada da Microsoft](service-description/operations-and-monitoring.md)<br><br>- [Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md)<br>- [Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md)  |
+|Gerenciamento de nível de serviço     | Os tempos de resposta são definidos para solicitações e incidentes de suporte do administrador.  |  [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md)  |
+|Gerenciamento de catálogo de serviços     | A descrição do serviço que detalha os componentes do serviço é mantida verdadeira para o estado do serviço, disponível para todos os clientes atuais e interessados.<br><br>Pré-requisitos detalhados para entender o que é necessário para operar o serviço.  | - [Descrição do serviço da Área de Trabalho Gerenciada da Microsoft](service-description/index.md)<br><br>- [Prepare-se para o registro na Área de Trabalho Gerenciada da Microsoft](get-ready/index.md)  |
+|Gerenciamento de segurança da informação     | Informações de segurança, incluindo segurança de informações para o serviço.<br><br> Políticas relacionadas à segurança e outras informações sobre como os dispositivos são configurados.   | - [Segurança na Área de Trabalho Gerenciada da Microsoft](service-description/security.md)<br><br>- [Configuração do dispositivo](service-description/device-policies.md)  |
+|Gerenciamento de disponibilidade     |  A Área de Trabalho Gerenciada da Microsoft equilibra a responsabilidade com sua organização para garantir a disponibilidade do serviço.<br><br>Os administradores e usuários têm rotas para o respectivo suporte se houver problemas de serviço ou disponibilidade. | - [Operações e monitoramento da Área de Trabalho Gerenciada da Microsoft](service-description/operations-and-monitoring.md)<br><br>- [Suporte de administrador para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md)<br>- [Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md)  |
 
 
 
 ## <a name="service-transition"></a>Transição de serviço
 
 
-|Processo de ITIL |Descrição  |Documentação |
+|Processo ITIL |Descrição  |Documentação |
 |---------|---------|---------|
-|Gerenciamento de alterações     | Foi definido o equilíbrio de responsabilidade, a visão geral do processo e os tipos relacionados ao gerenciamento de alterações disponível.  | [Monitoramento e operações de área de trabalho gerenciada da Microsoft](service-description/operations-and-monitoring.md#change-management) |
-|Gerenciamento de lançamento e implantação     |  O Microsoft Managed desktop gerencia atualizações para dispositivos registrados no serviço.  | [Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft](service-description/updates.md)        |
-|Gerenciamento de ativos e configuração de serviços     | As informações sobre a implantação do Microsoft Managed desktop da sua organização estão disponíveis no portal de administração de ti.  | [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) |
-|Gerenciamento de conhecimento     | As informações sobre o serviço de área de trabalho gerenciado da Microsoft são mantidas atualizadas neste site.   | [Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft](change-history-managed-desktop.md)        |
+|Gerenciamento de alterações     | Equilíbrio definido de responsabilidade, visão geral do processo e tipos relacionados ao gerenciamento de alterações disponíveis.  | [Operações e monitoramento da Área de Trabalho Gerenciada da Microsoft](service-description/operations-and-monitoring.md#change-management) |
+|Gerenciamento de lançamento e implantação     |  A Área de Trabalho Gerenciada da Microsoft gerencia atualizações para dispositivos inscritos no serviço.  | [Como as atualizações são tratadas na Área de Trabalho Gerenciada da Microsoft](service-description/updates.md)        |
+|Gerenciamento de configuração e ativos de serviço     | As informações sobre a implantação da Área de Trabalho Gerenciada da Microsoft da sua organização estão disponíveis no portal de administração de IT.  | [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) |
+|Gerenciamento de conhecimento     | As informações sobre o serviço área de trabalho gerenciada da Microsoft são mantidas atualizadas neste site.   | [Histórico de alterações da documentação da Área e Trabalho Gerenciada da Microsoft](change-history-managed-desktop.md)        |
 
 
 
 ## <a name="service-operation"></a>Operação de serviço
 
 
-|Processo de ITIL |Descrição  |Documentação  |
+|Processo ITIL |Descrição  |Documentação  |
 |---------|---------|---------|
-|Gerenciamento de eventos     |  São fornecidos detalhes sobre o monitoramento de dispositivos.<br><br>Os procedimentos operacionais padrão para o serviço de área de trabalho gerenciada da Microsoft são detalhados. |  - [Segurança na área de trabalho gerenciada da Microsoft](service-description/security.md)<br>- [Monitoramento e operações de área de trabalho gerenciada da Microsoft](service-description/operations-and-monitoring.md)       |
-|Gerenciamento de incidentes  | O Microsoft Managed desktop investigará e agirá em incidentes por definições de gravidade definidas.  |  [Definições de gravidade de solicitação de suporte](working-with-managed-desktop/admin-support.md#support-request-severity-definitions)       |
-|Gerenciamento de atendimento de solicitação     |  O processo para solicitações de informações e solicitações de alteração relacionadas ao serviço de área de trabalho gerenciada da Microsoft são definidos.         |[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md)         |
-|Gerenciamento de problemas     | Qualquer problema com o serviço deve ser direcionado para sua equipe de conta local no momento. | Documentação em desenvolvimento |
-|Gerenciamento de acesso     | Os componentes de gerenciamento de acesso e as responsabilidades do cliente para garantir que a funcionalidade sejam detalhadas.  | [Gerenciamento de identidades e acesso](service-description/security.md#identity-and-access-management)        |
+|Gerenciamento de eventos     |  Detalhes sobre o monitoramento de dispositivos são fornecidos.<br><br>Procedimentos operacionais padrão para o serviço de Área de Trabalho Gerenciada da Microsoft são detalhados. |  - [Segurança na Área de Trabalho Gerenciada da Microsoft](service-description/security.md)<br>- [Operações e monitoramento da Área de Trabalho Gerenciada da Microsoft](service-description/operations-and-monitoring.md)       |
+|Gestão de incidentes  | A Área de Trabalho Gerenciada da Microsoft investigará e agirá em incidentes de acordo com as definições de gravidade definidas.  |  [Definições de severidade de solicitação de suporte](working-with-managed-desktop/admin-support.md#support-request-severity-definitions)       |
+|Gerenciamento de atendimento de solicitações     |  O processo de solicitações de informações e solicitações de alteração relacionadas ao serviço de Área de Trabalho Gerenciada da Microsoft está definido.         |[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md)         |
+|Gerenciamento de problemas     | Quaisquer problemas com o serviço devem ser direcionados para sua equipe de conta local no momento. | Documentação em desenvolvimento |
+|Gerenciamento de acesso     | Acessar componentes e responsabilidades de gerenciamento para o cliente garantir que a funcionalidade seja detalhada.  | [Gerenciamento de identidades e acesso](service-description/security.md#identity-and-access-management)        |

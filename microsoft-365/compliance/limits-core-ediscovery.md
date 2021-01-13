@@ -1,5 +1,5 @@
 ---
-title: Limites no caso de descoberta eletrônica principal
+title: Limites no caso principal de Descoberta eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,26 +16,33 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Este artigo descreve os limites no caso de descoberta eletrônica principal no Microsoft 365.
-ms.openlocfilehash: 6224ce5ecb8fc0439e43ab5e1362f8a618194202
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+description: Este artigo descreve os limites no caso principal de Descoberta eDiscovery no Microsoft 365.
+ms.openlocfilehash: 43d267acdb0c1fee0202c74832b376e066241d7c
+ms.sourcegitcommit: 495b66b77d6dbe6d69e5b06b304089e4e476e568
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358509"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799658"
 ---
-# <a name="limits-in-core-ediscovery"></a>Limites na descoberta eletrônica principal
+# <a name="limits-in-core-ediscovery"></a>Limites na Descoberta eDiscovery Principal
 
-A tabela a seguir lista os limites para os principais casos de descoberta eletrônica e suspensões associados a uma ocorrência de descoberta eletrônica principal. Para obter mais informações sobre a descoberta eletrônica principal, consulte [Overview of Core eDiscovery](ediscovery-cases.md).
+A tabela a seguir lista os limites para os principais casos de Descoberta e retém associados a um caso de Descoberta eDiscovery principal. Para obter mais informações sobre a Descoberta Principal, consulte [Visão Geral da Descoberta Principal do eDiscovery.](ediscovery-cases.md)
     
-  |**Descrição do limite**|**Limite**|
+  | Descrição do limite | Limite |
   |:-----|:-----|
   |Número máximo de casos para uma organização  <br/> |Sem limite  <br/> |
-  |Número máximo de isenções de caso para uma organização  <br/> |10.000  <br/> |
-  |Número máximo de caixas de correio em uma única retenção de caso  <br/> |1,000  <br/> |
-  |Número máximo de sites do SharePoint e do OneDrive for Business em uma única retenção de caso  <br/> |100  <br/> |
-  |Número máximo de casos exibidos na Home Page principal da descoberta eletrônica e o número máximo de itens exibidos nas guias isenções, pesquisas e exportação em um caso. <sup>1</sup> |1,000|
+  |Número máximo de retém de caso para uma organização  <br/> |10.000  <br/> |
+  |Número máximo de caixas de correio em um único caso de espera  <br/> |1.000  <br/> |
+  |Número máximo de sites do SharePoint e do OneDrive for Business em um único caso de espera  <br/> |100  <br/> |
+  |Número máximo de casos exibidos na home page principal da Descoberta e o número máximo de itens exibidos nas guias Regiões, Pesquisas e Exportação em uma ocorrência. <sup>1</sup> |1.000|
   |||
 
    > [!NOTE]
-   > <sup>1</sup> para exibir uma lista de mais de 1.000 casos, isenções, pesquisas ou exportações, você pode usar o cmdlet do PowerShell de segurança & conformidade do Office 365 correspondente:<br/> [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase) <br/> [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)<br/> [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
+   > <sup>1</sup> Para exibir uma lista de mais de 1.000 casos, regiões, pesquisas ou exportações, você pode usar os cmdlets correspondentes do PowerShell de Conformidade e Segurança do Office 36 & 5:
+   > 
+   > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
+   > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
+   > - [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)
+   > - [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
+
+Para obter mais informações sobre limites relacionados a pesquisas de conteúdo e exportações associadas a um caso de Descoberta eDiscovery Principal, consulte Limites para Pesquisa de Conteúdo e Descobertas Principais [de eDiscovery](limits-for-content-search.md).

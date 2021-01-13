@@ -1,5 +1,5 @@
 ---
-title: Criar um aviso de retenção legal
+title: Criar um aviso de espera legal
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,195 +15,195 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Use a ferramenta de comunicação em um caso de descoberta eletrônica avançada para enviar, coletar e acompanhar as notificações de retenção legal.
+description: Use a ferramenta Comunicações em um caso de Descoberta Eletrônica Avançada para enviar, coletar e rastrear notificações de responsabilidade legal.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 730b60c4d57f8fecb0e66f460942e9e890732c2c
-ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
+ms.openlocfilehash: df1b2d962e83110c62ccac871f669bbc0d3bfe02
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48626174"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840556"
 ---
-# <a name="create-a-legal-hold-notice"></a>Criar um aviso de retenção legal
+# <a name="create-a-legal-hold-notice"></a>Criar um aviso de espera legal
 
-Usando a comunicação de descoberta eletrônica avançada, as organizações podem gerenciar seu fluxo de trabalho em relação à comunicação com os responsáveis. Por meio da ferramenta de comunicação, as equipes jurídicas podem, sistematicamente, enviar, coletar e acompanhar as notificações de retenção legal. O processo de criação flexível também permite que as equipes personalizem o fluxo de trabalho de notificação de espera e o conteúdo dos avisos enviados aos responsáveis. 
+Usando comunicações custodiantes de Descoberta Eletrônica Avançada, as organizações podem gerenciar seu fluxo de trabalho em torno da comunicação com os custodiantes. Por meio da ferramenta de Comunicações, as equipes jurídicas podem enviar, coletar e acompanhar sistematicamente as notificações de espera legal. O processo de criação flexível também permite que as equipes personalizem o fluxo de trabalho de notificação de espera e o conteúdo nos avisos enviados aos custodiantes.
 
-![Página de comunicações](../media/CommunicationPage.PNG)
+![Página de Comunicações](../media/CommunicationPage.PNG)
 
-O artigo descreve as etapas no fluxo de trabalho de notificação de retenção.
+O artigo descreve as etapas no fluxo de trabalho de notificação de espera.
 
 ## <a name="step-1-specify-communication-details"></a>Etapa 1: especificar detalhes de comunicação
 
-A primeira etapa é especificar os detalhes apropriados para avisos de retenção legal ou outras comunicações do mesmo.
+A primeira etapa é especificar os detalhes apropriados para avisos de responsabilidade legal ou outras comunicações custodiais.
 
-![Página de comunicação de nome](../media/NameCommunication.PNG)
+![Página de Comunicação de Nomes](../media/NameCommunication.PNG)
 
-1. No centro de conformidade de & de segurança, acesse **descoberta eletrônica avançada > eDiscovery** para exibir a lista de casos em sua organização.
+1. No Centro de Conformidade & Segurança, vá para a Descoberta > **eDiscovery** Avançada para exibir a lista de ocorrências em sua organização.
 
-2. Selecione um caso, clique na guia **comunicações** e, em seguida, clique em **nova comunicação**.
+2. Selecione um caso, clique na guia **Comunicações** e clique em **Nova comunicação.**
 
-3. Na página **comunicação de nome** , especifique os seguintes detalhes de comunicação (obrigatório).
+3. Na página **de comunicação nome,** especifique os seguintes detalhes de comunicação (obrigatórios).
 
-    - **Name**: Este é o nome da comunicação.
+    - **Nome:** este é o nome da comunicação.
 
-    - **Responsável pela emissão**: a lista suspensa exibe uma lista de membros de caso. Para obter mais informações sobre como adicionar novos membros a uma ocorrência, consulte [criar uma caixa de descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md#step-4-create-an-advanced-ediscovery-case). Cada aviso enviado aos responsáveis será enviado em nome do responsável pela emissão especificado.
+    - **Diretor de emissão:** a lista suspenso exibe uma lista de membros da ocorrência. For more information on how to add new members to a case, see [Create an Advanced eDiscovery case](create-and-manage-advanced-ediscoveryv2-case.md#create-a-case). Cada aviso enviado aos custodiantes será enviado em nome do responsável pela emissão especificada.
 
 > [!NOTE]
-> O responsável pela emissão deve ter uma **caixa de correio ativa** para aparecer no menu suspenso do responsável pela emissão
+> O diretor de emissão deve ter uma caixa de correio **ativa** para aparecer no menu suspenso do Diretor de Emissão
 
 
 4. Clique em **Avançar**.
 
 ## <a name="step-2-define-the-portal-content"></a>Etapa 2: definir o conteúdo do portal
 
-Em seguida, você pode criar e adicionar o conteúdo do aviso de isenção. Na página **definir conteúdo do portal** no Assistente para **criar comunicação** , especifique o conteúdo do aviso de isenção. Esse conteúdo será automaticamente acrescentado aos avisos de emissão, reemissão, lembrete e escalonamento. Além disso, esse conteúdo aparecerá no portal de conformidade do responsáveis. 
+Em seguida, você pode criar e adicionar o conteúdo do aviso de espera. Na página **Definir conteúdo do portal** no assistente **Criar** comunicação, especifique o conteúdo do aviso de espera. Esse conteúdo será automaticamente anexado aos avisos de Emissão, Nova Emissão, Lembrete e Escalonamento. Além disso, esse conteúdo será exibido no Portal de Conformidade do custodiante. 
 
-![Página de conteúdo do portal](../media/PortalContent.PNG)
+![Página de Conteúdo do Portal](../media/PortalContent.PNG)
 
 Para criar o conteúdo do portal:
 
-1. Digite (ou recorte e Cole de outro documento) seu aviso de bloqueio na caixa de texto do conteúdo do Portal. 
+1. Digite (ou recorte e colar de outro documento) o aviso de espera na caixa de texto do conteúdo do portal. 
 
-2. Insira as variáveis de mesclagem no seu aviso para personalizar o aviso e compartilhar o portal de conformidade do responsáveis.
+2. Insira variáveis mescladas em seu aviso para personalizar o aviso e compartilhar o Portal de Conformidade custodiantes.
 
 3. Clique em **Avançar**.
 
   >[!Tip]
-  >Para saber mais sobre como personalizar o conteúdo e o formato do conteúdo do portal, confira [usar o editor de comunicações](using-communications-editor.md).
+  >Para saber mais sobre como personalizar o conteúdo e o formato do conteúdo do portal, consulte [Usar o Editor de Comunicações.](using-communications-editor.md)
 
-## <a name="step-3-set-the-required-notifications"></a>Etapa 3: definir as notificações necessárias
+## <a name="step-3-set-the-required-notifications"></a>Etapa 3: Definir as notificações necessárias
 
-Após definir o conteúdo do aviso de espera, você pode configurar os fluxos de trabalho em torno do envio e gerenciamento do processo de notificação. Notificações são mensagens de email enviadas para notificar e acompanhar os responsáveis. Todos os responsáveis adicionados à comunicação receberão a mesma notificação. 
+Depois de definir o conteúdo do aviso de espera, você pode configurar os fluxos de trabalho para enviar e gerenciar o processo de notificação. As notificações são mensagens de email enviadas para notificar e acompanhar os custodiantes. Todos os custodiados adicionados à comunicação receberão a mesma notificação. 
 
-Para configurar e enviar um aviso de espera, você deve incluir notificações de emissão, reemissão e lançamento.
+Para configurar e enviar um aviso de espera, você deve incluir notificações de Emissão, Nova Emissão e Lançamento.
 
 ### <a name="issuance-notification"></a>Notificação de emissão 
 
-Depois que a comunicação é criada, a **notificação de emissão** é iniciada pelo responsável pela emissão especificado. A notificação de emissão é a primeira comunicação enviada ao responsáveis para informá-los sobre suas obrigações de preservação. 
+Após a criação da comunicação, a **Notificação** de Emissão é iniciada pelo Diretor de Emissão especificado. A notificação de emissão é a primeira comunicação enviada ao custodiatário para informá-lo sobre suas obrigações de preservação. 
 
 Para criar uma notificação de emissão:
 
-1. No bloco de **publicação** , clique em **Editar**.
+1. No lado **da emissão,** clique em **Editar.**
 
-2. Se necessário, adicione membros de caso adicionais ou equipe aos campos **CC** e **Cco** . Para adicionar vários usuários a esses campos, separe os endereços de email com um ponto-e-vírgula.
+2. Se necessário, adicione outros membros da ocorrência ou equipe aos **campos Cc** **e Cc.** Para adicionar vários usuários a esses campos, separe os endereços de email com pontos-e-vírgulas.
 
-3. Especifique o **assunto** para o aviso (obrigatório).
+3. **Especifique o** Assunto para o aviso (obrigatório).
 
-4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo do portal que você definiu na etapa 2 é adicionado ao final do aviso de emissão. 
+4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiatário (obrigatório). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de publicação. 
 
 5. Clique em **Salvar**.
 
-### <a name="re-issuance-notification"></a>Notificação de Re-Issuance
+### <a name="re-issuance-notification"></a>Re-Issuance notificação
 
-Como o caso progride, os responsáveis podem ser necessários para preservar dados adicionais ou menos do que foram instruídos anteriormente. Depois que você atualizar o conteúdo do portal, a notificação de reemissão será enviada e alertará os responsáveis por todas as suas obrigações de preservação.
+À medida que o caso progride, os custodiantes podem ser obrigados a preservar dados adicionais ou menores do que foi instruído anteriormente. Depois de atualizar o conteúdo do portal, a notificação de nova emissão é enviada e alerta os custodiantes sobre quaisquer alterações em suas obrigações de preservação.
 
-Para criar uma notificação de reemissão:
+Para criar uma notificação de nova emissão:
 
-1. No bloco **reemitir** , clique em **Editar**.
+1. No lado **reemissão,** clique em **Editar.**
 
-2. Se necessário, adicione membros de caso adicionais ou equipe aos campos **CC** e **Cco** . Para adicionar vários usuários a esses campos, separe os endereços de email com um ponto-e-vírgula.
+2. Se necessário, adicione outros membros da ocorrência ou equipe aos **campos Cc** **e Cc.** Para adicionar vários usuários a esses campos, separe os endereços de email com pontos-e-vírgulas.
 
-3. Especifique o **assunto** para o aviso (obrigatório).
+3. **Especifique o** Assunto para o aviso (obrigatório).
 
-4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo do portal que você definiu na etapa 2 é adicionado ao final do aviso de reemissão.
+4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiatário (obrigatório). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de reemissão.
 
 5. Clique em **Salvar**.
 
 > [!NOTE]
-> Se o conteúdo do portal for modificado (na página **definir conteúdo do portal** no assistente **Editar comunicação** ), a notificação de reemissão será automaticamente enviada a todos os responsáveis atribuídos ao aviso. Após a notificação ser enviada, os responsáveis serão solicitados a reconfirmar seu aviso de isenção. Se você tiver configurado os fluxos de trabalho de lembretes ou de escalonamento, eles também serão reiniciados. Para obter mais informações sobre o que outros eventos de gerenciamento de caso disparam comunicações, consulte [eventos que disparam notificações](#events-that-trigger-notifications).
+> Se o conteúdo do portal for modificado (na página Definir Conteúdo do **Portal** no assistente de comunicação Editar), a notificação de nova publicação será automaticamente enviada a todos os custodiantes atribuídos ao aviso.  Depois que a notificação for enviada, os custodiantes serão solicitados a confirmar o aviso de espera. Se você tiver definido algum fluxo de trabalho de lembrete ou escalonamento, eles também serão re-iniciar. Para obter mais informações sobre quais outros eventos de gerenciamento de casos disparam comunicações, consulte [Eventos que disparam notificações.](#events-that-trigger-notifications)
 
-### <a name="release-notification"></a>Notificação de lançamento
+### <a name="release-notification"></a>Notificação de versão
 
-Após uma questão ser resolvida ou se um usuário não está mais sujeito a preservar o conteúdo, você pode liberar os responsáveis de uma ocorrência. Se o objectrecebeu anteriormente um aviso de espera, a notificação de lançamento pode ser usada para alertar os responsáveis por terem sido liberados de sua obrigação.
+Depois que uma questão for resolvida ou se um custodiante não estiver mais sujeito a preservar conteúdo, você poderá liberar o custodiante de uma ocorrência. Se o custodiante tiver emitido anteriormente um aviso de responsabilidade, a notificação de liberação poderá ser usada para alertar os custodiantes de que eles foram liberados de sua obrigação.
 
 Para criar uma notificação de lançamento: 
 
-1. No bloco de **versão** , clique em **Editar**.
+1. In the **Release** tile, click **Edit**.
 
-2. Se necessário, adicione membros de caso adicionais ou equipe aos campos **CC** e **Cco** . Para adicionar vários usuários a esses campos, separe os endereços de email com um ponto-e-vírgula.
+2. Se necessário, adicione outros membros da ocorrência ou equipe aos **campos Cc** **e Cc.** Para adicionar vários usuários a esses campos, separe os endereços de email com pontos-e-vírgulas.
 
-3. Especifique o **assunto** para o aviso (obrigatório).
+3. **Especifique o** Assunto para o aviso (obrigatório).
 
-4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório).
+4. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiatário (obrigatório).
 
-5. Clique em **salvar** e vá para a próxima etapa.
+5. Clique **em** Salvar e vá para a próxima etapa.
 
-## <a name="optional-step-4-set-the-optional-notifications"></a>Opcion Etapa 4: definir as notificações opcionais
+## <a name="optional-step-4-set-the-optional-notifications"></a>(Opcional) Etapa 4: Definir as notificações opcionais
 
-Opcionalmente, você pode simplificar o fluxo de trabalho para acompanhar os responsáveis por não responder, criando e agendando notificações automatizadas de lembrete e escalonamento.
+Opcionalmente, você pode simplificar o fluxo de trabalho para acompanhar com custodiantes não responsivos criando e agendando notificações automatizadas de lembrete e escalonamento.
 
-![Página de encaminhamento/lembrete](../media/ReminderEscalations.PNG)
+![Página Lembrete/Escalonamento](../media/ReminderEscalations.PNG)
 
 ### <a name="reminders"></a>Reminders
 
-Depois de enviar uma notificação de espera, você pode acompanhar os responsáveis por não responder, definindo um fluxo de trabalho de lembrete.
+Depois de enviar uma notificação de espera, você pode acompanhar os custodiantes sem resposta definindo um fluxo de trabalho de lembrete.
 
 Para agendar lembretes:
 
-1. No bloco **lembrete** , clique em **Editar**.
+1. No lado **lembrete,** clique em **Editar**.
 
-2. Habilite o fluxo de trabalho de **lembrete** ativando o **status** de alternância (obrigatório).
+2. **Habilita o fluxo** de trabalho Lembrete ativando a **alternância status** (obrigatório).
 
-3. Especifique o **intervalo de lembretes (em dias)** (obrigatório). Este é o número de dias de espera antes de enviar as notificações de lembrete inicial e de acompanhamento. Por exemplo, se você definir o intervalo de lembretes para sete dias, o primeiro lembrete será enviado sete dias após a notificação de retenção ser emitida inicialmente. Todos os lembretes subsequentes também serão enviados a cada sete dias.
+3. **Especifique o intervalo de Lembrete (em dias)** (obrigatório). Esse é o número de dias de espera antes de enviar as primeiras notificações de lembrete e acompanhamento. Por exemplo, se você definir o intervalo de lembrete como sete dias, o primeiro lembrete será enviado sete dias após a notificação de espera ter sido inicialmente emitida. Todos os lembretes subsequentes também seriam enviados a cada sete dias.
 
-4. Especifique o **número de lembretes** (obrigatório). Este campo especifica o número de lembretes a serem enviados para os responsáveis por não responder. Por exemplo, se você definir o número de lembretes como 3, um dos responsáveis receberá um máximo de três lembretes. Depois que os responsáveis confirmarem a notificação de espera, os lembretes não serão mais enviados para esse usuário.
+4. **Especifique o Número de lembretes** (obrigatório). Este campo especifica quantos lembretes enviar a custodiantes não responsivos. Por exemplo, se você definir o número de lembretes como 3, um custodiante receberá no máximo três lembretes. Depois que um custodiante reconhecer a notificação de espera, os lembretes não serão mais enviados para esse usuário.
 
-5. Especifique o **assunto** para o aviso (obrigatório). 
+5. **Especifique o** Assunto para o aviso (obrigatório). 
 
-6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo do portal que você definiu na etapa 2 é adicionado ao final do aviso de lembrete.
+6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiatário (obrigatório). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de lembrete.
 
-7. Clique em **salvar** e vá para a próxima etapa.
+7. Clique **em** Salvar e vá para a próxima etapa.
 
 ### <a name="escalations"></a>Escalonamentos
 
-Em algumas situações, talvez você precise de outras maneiras de acompanhar os responsáveis por não responder. Se um responsáveis não confirmar uma notificação de bloqueio após receber o número especificado de lembretes, a equipe jurídica poderá especificar um fluxo de trabalho para enviar automaticamente um aviso de escalonamento para os responsáveis e seu gerente.
+Em algumas situações, talvez você precise de maneiras adicionais de acompanhar os custodiantes não responsivos. Se um custodiante não confirmar uma notificação de suspensão após receber o número especificado de lembretes, a equipe jurídica poderá especificar um fluxo de trabalho para enviar automaticamente um aviso de escalonamento para o custodiante e seu gerente.
 
 Para agendar escalonamentos:
 
-1. No bloco **escalonamento** , clique em **Editar**.
+1. No lado **do escalonamento,** clique em **Editar.**
 
-2. Habilite o fluxo de trabalho de **escalonamento** ativando a alternância de **status** .
+2. **Habilita o fluxo de** trabalho de escalonamento ativando a **alternância Status.**
 
-3. Especifique o **intervalo de escalonamento (em dias)** (obrigatório).
+3. **Especifique o intervalo de escalonamento (em dias)** (obrigatório).
 
-4. Especifique o **número de escalas** (obrigatório). Este campo especifica a quantidade de escalonamentos a ser enviada para os responsáveis por não responder. Por exemplo, se você definir o número de escalonamentos como 3, um aviso de escalonamento será enviado aos responsáveis e seu gerente no máximo três vezes. Depois que os responsáveis confirmarem a notificação de espera, os escalonamentos não serão mais enviados.
+4. **Especifique o número de escalonamentos** (obrigatório). Este campo especifica quantas escalações enviar para custodiantes não responsivos. Por exemplo, se você definir o número de escalonamentos como 3, um aviso de escalonamento será enviado ao custodiante e ao gerente no máximo três vezes. Depois que um custodiante reconhecer a notificação de espera, os escalonamentos não serão mais enviados.
 
-5. Especifique o **assunto** para o aviso (obrigatório). 
+5. **Especifique o** Assunto para o aviso (obrigatório). 
 
-6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer aos responsáveis (obrigatório). O conteúdo de portal que você definiu na etapa 2 é adicionado ao final do aviso de escalonamento.
+6. Especifique o conteúdo ou instruções adicionais que você gostaria de fornecer ao custodiatário (obrigatório). O conteúdo do portal definido na Etapa 2 é adicionado ao final do aviso de escalonamento.
 
-7. Clique em **salvar** e vá para a próxima etapa.
+7. Clique **em** Salvar e vá para a próxima etapa.
 
-## <a name="step-5-assign-custodians-to-receive-notifications"></a>Etapa 5: atribuir os responsáveis a receber notificações
+## <a name="step-5-assign-custodians-to-receive-notifications"></a>Etapa 5: Atribuir custodiantes para receber notificações
 
-Depois de finalizar o conteúdo para notificações, selecione os responsáveis para os quais você gostaria de enviar notificações. 
+Depois de finalizar o conteúdo para notificações, selecione os custodiantes aos que você gostaria de enviar notificações. 
 
-![Selecionar página de responsáveis](../media/SelectCustodians.PNG)
+![Página Selecionar Custodiantes](../media/SelectCustodians.PNG)
 
-Para adicionar os responsáveis:
+Para adicionar custodiantes:
 
-1. Atribua os responsáveis à comunicação clicando na caixa de seleção ao lado do nome.
+1. Atribua custodiantes à comunicação clicando na caixa de seleção ao lado do nome.
 
-    Depois que a comunicação for criada, o fluxo de trabalho de notificação será aplicado automaticamente aos responsáveis selecionados.
+    Após a criação da comunicação, o fluxo de trabalho de notificação será aplicado automaticamente aos custodiantes selecionados.
 
-2. Clique em **Avançar** para revisar as configurações e detalhes de comunicação.
+2. Clique **em Próximo** para revisar as configurações e os detalhes da comunicação.
 
 >[!NOTE]
->Você só pode adicionar os responsáveis que foram adicionados ao caso e não foram enviados outra notificação no caso.
+>Você só pode adicionar custodiantes que foram adicionados à ocorrência e não foram enviadas outra notificação dentro da ocorrência.
 
-## <a name="step-6-review-settings"></a>Etapa 6: revisar as configurações
+## <a name="step-6-review-settings"></a>Etapa 6: Revisar as configurações
 
-Após revisar as configurações e clicar em **Enviar** para concluir a comunicação, o sistema iniciará automaticamente o fluxo de trabalho de comunicação enviando o aviso de emissão.
+Depois de revisar as configurações e clicar em **Enviar** para concluir a comunicação, o sistema iniciará automaticamente o fluxo de trabalho de comunicação enviando o aviso de emissão.
 
 ## <a name="events-that-trigger-notifications"></a>Eventos que disparam notificações
 
-A tabela a seguir descreve os eventos no processo de gerenciamento de casos que são acionados quando os diferentes tipos de notificações são enviados para os responsáveis.
+A tabela a seguir descreve eventos no processo de gerenciamento de casos que disparam quando os diferentes tipos de notificações são enviados aos custodiantes.
 
 |Tipo de comunicação|Gatilho |
 |:---------|:---------|
-|Notificações de emissão|A criação inicial da notificação. Você também pode reenviar manualmente uma notificação de retenção. |
-|Notificações de reemissão|Atualizando o conteúdo do portal na página **definir conteúdo do portal** no Assistente para **Editar comunicação** .|
-|Avisos de lançamento|Os responsáveis são liberados do caso.|
+|Avisos de emissão|A criação inicial da notificação. Você também pode resendá-la manualmente. |
+|Avisos de reemissão|Atualizando o conteúdo do portal na página **Definir Conteúdo do Portal** no assistente editar **comunicação.**|
+|Avisos de versão|O custodiante é liberado da ocorrência.|
 |Reminders|O intervalo e o número de lembretes configurados para o lembrete.|
 |Escalonamentos|O intervalo e o número de lembretes configurados para o escalonamento.|
 |||

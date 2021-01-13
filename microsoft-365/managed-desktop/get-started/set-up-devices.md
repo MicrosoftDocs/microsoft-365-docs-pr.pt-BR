@@ -1,49 +1,49 @@
 ---
-title: Configurar dispositivos para a área de trabalho gerenciada da Microsoft
-description: ''
+title: Configurar dispositivos para a Área de Trabalho Gerenciada da Microsoft
+description: Como obter novos dispositivos ou reutilizar os existentes que se qualificam
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5efda6fe73dd5454c8b527b6ba63c9ae81951dd2
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 65c7c0c938b376a1b53910e7ca783b7bfe8a7ea8
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950503"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840498"
 ---
 # <a name="set-up-microsoft-managed-desktop-devices"></a>Configurar dispositivos de Área de Trabalho Gerenciada da Microsoft
 
-Você pode usar os dispositivos novos e existentes na área de trabalho gerenciada da Microsoft.
+Você pode usar dispositivos novos e existentes na Área de Trabalho Gerenciada da Microsoft.
 
 ## <a name="to-obtain-new-devices"></a>Para obter novos dispositivos
 
-Recomendamos trabalhar com um de nossos parceiros de dispositivo aprovados. Você pode trabalhar com seu contato de conta da Microsoft para saber mais sobre como configurar uma parceria de dispositivo. Em essência, no entanto, o processo é semelhante a:
+Recomendamos trabalhar com um de nossos parceiros de dispositivos aprovados. Você pode trabalhar com seu contato de conta da Microsoft para obter mais ajuda sobre como configurar uma parceria de dispositivo. Em essência, no entanto, o processo é assim:
 
-1. Revise a lista de [dispositivos aprovados atualmente](../service-description/device-list.md).
-2. Ordene os dispositivos, trabalhando com um parceiro de dispositivo aprovado.
-3. Após a chegada, siga um destes procedimentos:
+1. Revise a lista de [dispositivos aprovados no momento.](../service-description/device-list.md)
+2. Solicitar os dispositivos, trabalhando com um parceiro de dispositivo aprovado.
+3. Depois que eles chegarem, faça o seguinte:
     - [Registrar novos dispositivos sozinho](register-devices-self.md)
     - Trabalhar com um parceiro para registrar os dispositivos
-4. Preparar [seus usuários](get-started-devices.md) para usar dispositivos de área de trabalho gerenciada da Microsoft
+4. [Prepare seus usuários para usar](get-started-devices.md) dispositivos da Área de Trabalho Gerenciada da Microsoft
 
-## <a name="to-re-use-existing-devices"></a>Para reutilizar dispositivos existentes
+## <a name="to-reuse-existing-devices"></a>Para reutilizar dispositivos existentes
 
-1. Revise a lista de [dispositivos aprovados atualmente](../service-description/device-list.md) para identificar quais dos seus dispositivos foram aprovados para uso com a área de trabalho gerenciada da Microsoft. Se você reutilizar um dispositivo existente, você precisará reindexá-lo.
-2. Execute um dos seguintes procedimentos:
+1. Revise a lista de [dispositivos aprovados no](../service-description/device-list.md) momento para identificar quais dos seus dispositivos foram aprovados para uso com a Área de Trabalho Gerenciada da Microsoft. Se você reutilizar um dispositivo existente, será preciso reimage-lo.
+2. Faça o seguinte:
     - [Registrar dispositivos existentes sozinho](register-reused-devices-self.md)
     - Trabalhar com um parceiro para registrar os dispositivos
-3. Preparar [seus usuários](get-started-devices.md) para usar dispositivos de área de trabalho gerenciada da Microsoft
+3. [Prepare seus usuários para usar](get-started-devices.md) dispositivos da Área de Trabalho Gerenciada da Microsoft
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a trabalhar com a Área de Trabalho Gerenciada da Microsoft
 
 1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
 2. [Ajustar o acesso condicional](conditional-access.md)
 3. [Atribuir licenças](assign-licenses.md)
 4. [Implantar o Portal da Empresa do Intune](company-portal.md)
 5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)
-6. Configurar dispositivos (este tópico)
+6. Configurar dispositivos (este artigo)
 7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
 8. [Implantar aplicativos](deploy-apps.md)

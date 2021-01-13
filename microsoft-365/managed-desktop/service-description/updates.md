@@ -1,6 +1,6 @@
 ---
-title: Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft
-description: Manter atualizado o desktop gerenciado da Microsoft é um equilíbrio de velocidade e estabilidade.
+title: Como as atualizações são tratadas na Área de Trabalho Gerenciada da Microsoft
+description: Manter a Área de Trabalho Gerenciada da Microsoft atualizada é um equilíbrio de velocidade e estabilidade.
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -9,47 +9,47 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 03a9b19a5b8ba957419e23c2bb12748c9c57e80d
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 53a21c4126e59861200df405ffe365b2ccef08f8
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104613"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840284"
 ---
-# <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft
+# <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Como as atualizações são tratadas na Área de Trabalho Gerenciada da Microsoft
 
 
 <!--This topic is the target for a "Learn more" link in the Admin Portal (aka.ms/update-rings); do not delete.-->
 
 <!--Update management -->
 
-A área de trabalho gerenciada da Microsoft conecta todos os dispositivos a uma infraestrutura moderna baseada em nuvem. Manter atualizado o Windows, o Office, os drivers, o firmware e a Microsoft Store para aplicativos de negócios é um equilíbrio de velocidade e estabilidade. Os grupos de implantação serão usados para garantir que as atualizações e as políticas do sistema operacional sejam distribuídas de forma segura. Para saber mais sobre isso, confira o [processo de mudança e liberação da área de trabalho gerenciada da Microsoft em](https://www.microsoft.com/videoplayer/embed/RE4mWqP)vídeo.
+A Área de Trabalho Gerenciada da Microsoft conecta todos os dispositivos a uma infraestrutura moderna baseada em nuvem. Manter o Windows, o Office, os drivers, o firmware e os aplicativos da Microsoft Store para Empresas atualizados é um equilíbrio de velocidade e estabilidade. Os grupos de implantação serão usados para garantir que as atualizações e políticas do sistema operacional sejam implantadas de maneira segura. Para obter mais informações, consulte o vídeo [Microsoft Managed Desktop Change and Release Process](https://www.microsoft.com/videoplayer/embed/RE4mWqP).
 
-As atualizações lançadas pela Microsoft são cumulativas e são categorizadas como qualidade ou atualizações de recursos.
-Para obter mais informações, consulte [Windows Update for Business: Update Types](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb#update-types). 
+As atualizações lançadas pela Microsoft são cumulativas e são categorizadas como atualizações de qualidade ou recurso.
+Para obter mais informações, consulte [o Windows Update para Empresas: tipos de atualização.](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb#update-types) 
 
 ## <a name="update-groups"></a>Atualizar grupos
 
-O Microsoft Managed desktop usa quatro grupos do Azure AD para gerenciar atualizações:
+A Área de Trabalho Gerenciada da Microsoft usa quatro grupos do Azure AD para gerenciar atualizações:
 
-- **Teste**: usado para validar as alterações da política de área de trabalho gerenciada da Microsoft, atualizações do sistema operacional, atualizações de recursos e outras alterações enviadas para o locatário. Não deve haver nenhum usuário colocado no grupo de teste. O grupo de teste é isento de qualquer contrato de nível de serviço estabelecido e suporte ao usuário. Esse grupo está disponível para ser usado para validar a compatibilidade de aplicativos com novas alterações de política ou sistema operacional.  
-- **Primeiro**: contém os pioneiros e dispositivos de software que podem estar sujeitos às atualizações de pré-lançamento. Os dispositivos desse grupo podem sofrer interrupções se houver cenários que não foram cobertos durante o teste no anel de teste.
-- **Rápido**: prioriza a velocidade em relação à estabilidade. Útil para detectar problemas de qualidade antes que sejam oferecidos ao grupo amplo. Esse grupo serve como uma próxima camada de validação, mas geralmente é mais estável do que o teste e os primeiros grupos. 
-- **Amplo**: o último grupo deve ter as atualizações de recursos e qualidade disponíveis. Esse grupo contém a maioria dos usuários no locatário e, portanto, favorece a estabilidade sobre a velocidade na implantação. O teste de aplicativos deve ser feito aqui, pois o ambiente é mais estável. 
+- **Teste:** usado para validar alterações de política da Área de Trabalho Gerenciada da Microsoft, atualizações do sistema operacional, atualizações de recursos e outras alterações feitas pelo locatário. Não deve haver nenhum usuário colocado no grupo de teste. O grupo de teste está isento de quaisquer contratos de nível de serviço estabelecidos e suporte ao usuário. Esse grupo está disponível para uso para validar a compatibilidade de aplicativos com novas políticas ou alterações no sistema operacional.  
+- **Primeiro:** contém dispositivos e desenvolvedores de software inseríveis que podem estar sujeitos a atualizações de pré-lançamento. Os dispositivos nesse grupo podem ter paralisações se houver cenários que não foram cobertos durante o teste no anel de teste.
+- **Rápido:** prioriza a velocidade em vez da estabilidade. Útil para detectar problemas de qualidade antes que eles sejam oferecidos ao grupo Amplo. Esse grupo serve como uma próxima camada de validação, mas normalmente é mais estável do que os grupos Test e First. 
+- **Amplo:** último grupo a ter atualizações de recursos e qualidade disponíveis. Esse grupo contém a maioria dos usuários no locatário e, portanto, favorece a estabilidade em relação à velocidade na implantação. Os testes de aplicativos devem ser feitos aqui, pois o ambiente é mais estável. 
 
 > [!NOTE]
-> Se você precisar mover um usuário para um grupo de atualização diferente, envie uma solicitação de suporte. Consulte [suporte para a área de trabalho gerenciada da Microsoft](support.md) para obter mais informações sobre como enviar solicitações de suporte. Se você mesmo mover um usuário, a movimentação será revertida.
+> Se você precisar mover um usuário para um grupo de atualização diferente, envie uma solicitação de suporte. Consulte [Suporte para Área de Trabalho Gerenciada da Microsoft](support.md) para obter mais informações sobre como enviar solicitações de suporte. Se você mover um usuário por conta própria, a movimentação será revertida.
 
-Para saber mais sobre funções e responsabilidades com esses grupos de implantação, confira [funções e responsabilidades de área de trabalho gerenciada da Microsoft](../intro/roles-and-responsibilities.md)
+Para obter mais funções e responsabilidades de informações com esses grupos de implantação, consulte Funções e responsabilidades da Área de [Trabalho Gerenciada da Microsoft](../intro/roles-and-responsibilities.md)
 
-Como funciona a implantação da atualização:
-- O Microsoft Managed desktop implanta um novo recurso ou uma atualização de qualidade de acordo com o agendamento especificado abaixo.
-- Durante a implantação, o Microsoft Managed desktop monitora sinais de falha ou interrupção (com base nos dados de diagnóstico e no sistema de suporte do usuário). Se algum for detectado, a implantação de todos os grupos atuais e futuros será pausada imediatamente.
-    - Exemplo: se um problema for descoberto durante a implantação de uma atualização de qualidade para o primeiro grupo, então atualize as implantações para o primeiro, o mais rápido e o amplo será pausado até que o problema seja resolvido.
-    - Problemas de compatibilidade podem ser relatados pelo arquivamento de um tíquete no portal de administração de área de trabalho gerenciada da Microsoft.
-- As atualizações de recursos e qualidade são pausadas de forma independente. A pausa está em vigor por um ou mais 35 dias por padrão, mas pode ser reduzida ou estendida, dependendo se o problema foi corrigido.
-- Após a pausa dos grupos, a implantação é retomada de acordo com o cronograma abaixo.
-- Esse processo de implantação se aplica às atualizações de recursos e qualidade, embora a linha do tempo varie para cada.
+Como funciona a implantação de atualização:
+- A Área de Trabalho Gerenciada da Microsoft implanta um novo recurso ou atualização de qualidade de acordo com o cronograma especificado na tabela.
+- Durante a implantação, a Área de Trabalho Gerenciada da Microsoft monitora sinais de falha ou interrupção (com base nos dados de diagnóstico e no sistema de suporte do usuário). Se algum for detectado, a implantação para todos os grupos atuais e futuros será pausada imediatamente.
+    - Exemplo: se um problema for descoberto durante a implantação de uma atualização de qualidade no primeiro grupo, atualizar as implantações para First, Fast e Broad será pausado até que o problema seja resolvido.
+    - Os problemas de compatibilidade podem ser relatados apresentando um tíquete no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.
+- As atualizações de recursos e qualidade são pausadas independentemente. A pausa está em vigor por 35 dias por padrão, mas pode ser reduzida ou estendida dependendo se o problema foi remediado.
+- Depois que os grupos não sãopausados, a implantação é retomada de acordo com o cronograma na tabela.
+- Esse processo de implantação se aplica a atualizações de recursos e qualidade, embora a linha do tempo varie para cada uma delas.
 
 
 
@@ -57,27 +57,27 @@ Como funciona a implantação da atualização:
 <table>
     <tr><th colspan="5">Atualizar configurações de implantação</th></tr>
     <tr><th>Tipo de atualização</th><th>Testar</th><th>Primeiro</th><th>Rápida</th><th>Amplas</th></tr>
-    <tr><td>Atualizações de qualidade do sistema operacional</td><td>0 dias</td><td>0 dias</td><td>0 dias</td><td>3 dias</td></tr>
+    <tr><td>Atualizações de qualidade para o sistema operacional</td><td>0 dias</td><td>0 dias</td><td>0 dias</td><td>3 dias</td></tr>
     <tr><td>Atualizações de recursos para o sistema operacional</td><td>0 dias</td><td>30 dias</td><td>60 dias</td><td>90 dias</td></tr>
-    <tr><td>Drivers/firmware</td><td colspan="4">Segue o agendamento de atualizações de qualidade</td></tr>
+    <tr><td>Drivers/firmware</td><td colspan="4">Segue o cronograma de atualizações de qualidade</td></tr>
     <tr><td>Definição de antivírus</td><td colspan="4">Atualizado com cada verificação</td></tr>
-    <tr><td>Microsoft 365 Apps para empresas</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/m365-apps#updates-to-microsoft-365-apps">Saiba mais</a></td></tr>
-    <tr><td>Microsoft Edge</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/edge-browser-app#updates-to-microsoft-edge">Saiba mais</a></td></tr>
+    <tr><td>Microsoft 365 Apps para empresas</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/m365-apps#updates-to-microsoft-365-apps">Saiba Mais</a></td></tr>
+    <tr><td>Microsoft Edge</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/edge-browser-app#updates-to-microsoft-edge">Saiba Mais</a></td></tr>
 </table>
 
 >[!NOTE]
->Esses períodos de adiamento foram intencionalmente projetados para garantir altos padrões de segurança e desempenho para todos os usuários. Além disso, com base nos dados coletados em todos os dispositivos de área de trabalho gerenciada da Microsoft e no escopo variável e no impacto das atualizações, a área de trabalho gerenciada da Microsoft reserva a flexibilidade para modificar o tamanho dos períodos de adiamento acima para qualquer e todos os grupos de implantação em uma base ad hoc.
+>Esses períodos de adiamento foram projetados intencionalmente para garantir padrões de alta segurança e desempenho para todos os usuários. Além disso, com base nos dados coletados em todos os dispositivos da Área de Trabalho Gerenciada da Microsoft e no escopo e impacto variáveis das atualizações, a Área de Trabalho Gerenciada da Microsoft reserva flexibilidade para modificar o comprimento dos períodos de adiamento acima para qualquer e todos os grupos de implantação de forma ad hoc.
 >
->O Microsoft Managed desktop conduz uma avaliação independente de cada versão de recurso do Windows para avaliar sua necessidade e utilidade para seus locatários gerenciados. Consequentemente, a área de trabalho gerenciada da Microsoft pode ou não implantar todas as atualizações de recursos do Windows. 
+>A Área de Trabalho Gerenciada da Microsoft realiza uma avaliação independente de cada versão de recursos do Windows para avaliar sua necessidade e utilidade para seus locatários gerenciados. Consequentemente, a Área de Trabalho Gerenciada da Microsoft pode ou não implantar todas as atualizações de recursos do Windows. 
 
 ## <a name="windows-insider-program"></a>Programa Windows Insider
 
-A área de trabalho gerenciada da Microsoft não suporta dispositivos que fazem parte do programa Windows Insider. O programa Windows Insider é usado para validar o software de pré-lançamento do Windows e destina-se a dispositivos que não são essenciais. Embora esta seja uma importante iniciativa da Microsoft, ela não se destina à implantação abrangente em ambientes de produção. 
+A Área de Trabalho Gerenciada da Microsoft não dá suporte a dispositivos que fazem parte do programa Windows Insider. O programa Windows Insider é usado para validar o software do Windows de pré-lançamento e destina-se a dispositivos que não são essenciais. Embora seja uma iniciativa importante da Microsoft, ela não se destina a ampla implantação em ambientes de produção. 
 
-Todos os dispositivos encontrados com as compilações do Windows Insider podem ser colocados no grupo de teste e serão isentos de contratos de nível de serviço de atualização e suporte ao usuário da área de trabalho gerenciada da Microsoft.
+Todos os dispositivos encontrados com builds do Windows Insider podem ser colocados no grupo de teste e estarão isentos dos contratos de nível de serviço de atualização e do suporte do usuário da Área de Trabalho Gerenciada da Microsoft.
 
 ## <a name="bandwidth-management"></a>Gerenciamento de largura de banda
 
-Usamos a [otimização de entrega](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization) para todas as atualizações de sistema operacional e driver. Isso minimiza o tamanho do download do serviço do Windows Update procurando as atualizações de pares dentro da rede corporativa.
+Usamos a [Otimização de Entrega](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization) para todas as atualizações de driver e sistema operacional. Esse recurso minimiza o tamanho de download do serviço Windows Update buscando atualizações de pares dentro da rede corporativa.
 
 
