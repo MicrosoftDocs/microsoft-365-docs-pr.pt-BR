@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
-description: Siga estas recomendações de práticas recomendadas para proteção autônoma do Exchange Online (EOP) a fim de configurar o sucesso e evitar erros de configuração comuns.
-ms.openlocfilehash: abf68e361293b2a55cd0a382cc376cbfe21236e7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Siga estas práticas práticas recomendações para o Exchange Online Protection (EOP) autônomo a fim de se configurar para obter sucesso e evitar erros comuns de configuração.
+ms.openlocfilehash: a229f8a269037296fa2b97ff7211343549b33685
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845943"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864883"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Siga estas recomendações de práticas recomendadas para proteção autônoma do Exchange Online (EOP) a fim de configurar o sucesso e evitar erros de configuração comuns. Este tópico supõe que você já concluiu o processo de configuração. Se ainda não realizou a configuração da EOP, confira [Configurar seu serviço EOP](set-up-your-eop-service.md).
+Siga estas práticas práticas recomendações para o Exchange Online Protection (EOP) autônomo a fim de se configurar para obter sucesso e evitar erros comuns de configuração. Este tópico supõe que você já concluiu o processo de configuração. Se ainda não realizou a configuração da EOP, confira [Configurar seu serviço EOP](set-up-your-eop-service.md).
 
 ## <a name="use-a-test-domain"></a>Usar um domínio de teste
 
@@ -31,51 +31,51 @@ Recomendamos que você use um domínio de teste, subdomínio ou domínio de baix
 
 ## <a name="synchronize-recipients"></a>Sincronizar destinatários
 
-Se sua organização tiver contas de usuário existentes em um ambiente do Active Directory local, você poderá sincronizar essas contas no Azure Active Directory na nuvem. Recomendamos o uso da sincronização de diretórios. Para saber mais sobre os benefícios de usar a sincronização de diretórios e ver as etapas para configurá-la, confira [Gerenciar usuários de email no EOP](manage-mail-users-in-eop.md).
+Se sua organização tiver contas de usuário existentes em um ambiente do Active Directory local, você poderá sincronizar essas contas com o Azure Active Directory na nuvem. Recomendamos o uso da sincronização de diretórios. Para saber mais sobre os benefícios de usar a sincronização de diretórios e ver as etapas para configurá-la, confira [Gerenciar usuários de email no EOP](manage-mail-users-in-eop.md).
 
 ## <a name="recommended-settings"></a>Configurações recomendadas
 
-Capacitamos os administradores de segurança a personalizar suas configurações de segurança para atender às necessidades de sua organização. Embora, como regra geral, há dois níveis de segurança no EOP e o Microsoft defender para Office 365 que recomendamos: padrão e estrito. Essas configurações estão listadas nas [configurações recomendadas para o EOP e o Microsoft defender para segurança do Office 365](recommended-settings-for-eop-and-office365-atp.md).
+Capacitamos os administradores de segurança a personalizar suas configurações de segurança para atender às necessidades de sua organização. Embora, como regra geral, haja dois níveis de segurança no EOP e no Microsoft Defender para Office 365 que recomendamos: Padrão e Estrito. Essas configurações estão listadas nas [Configurações recomendadas para o EOP e o Microsoft Defender para segurança do Office 365.](recommended-settings-for-eop-and-office365-atp.md)
 
-### <a name="miscellaneousnon-policy-settings"></a>Configurações diversas/não relacionadas à política
+### <a name="miscellaneousnon-policy-settings"></a>Configurações miscellaneous/non-policy
 
-Estas configurações abrangem uma variedade de recursos fora das políticas de segurança.
+Essas configurações abrangem uma variedade de recursos que estão fora das políticas de segurança.
 
 ****
 
-|Nome do recurso de segurança|Padrão|Impede|Comentário|
+|Nome do recurso de segurança|Padrão|Estrito|Comentário|
 |---|---|---|---|
-|[Configurar o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
+|[Configurar o SPF para ajudar a prevenir falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
 |[Usar DKIM para validar emails enviados de seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md)|Sim|Sim||
-|[Usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)|Sim|Sim|Use `action=quarantine` para padrão e `action=reject` para estrito.|
-|Implantar o [suplemento de mensagem de relatório](enable-the-report-message-add-in.md) para melhorar o relatório do usuário final de emails suspeitos|Sim|Sim||
-|Agendar relatórios de malware e spam|Sim|Sim||
+|[Usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)|Sim|Sim|Use `action=quarantine` para Padrão e `action=reject` Estrito.|
+|Implantar o [complemento Mensagem de Relatório ou](enable-the-report-message-add-in.md) o complemento [Phishing](enable-the-report-phish-add-in.md) de Relatório para melhorar o relatório de email suspeito para o usuário final|Sim|Sim||
+|Agendar Relatórios de Malware e Spam|Sim|Sim||
 |O encaminhamento automático para domínios externos deve ser não permitido ou monitorado|Sim|Sim||
-|A auditoria unificada deve ser habilitada|Sim|Sim||
-|[Conectividade IMAP para a caixa de correio](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
-|[Conectividade POP para caixa de correio](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
-|Envio SMTP autenticado|Desabilitado|Desabilitado|O envio SMTP de cliente autenticado (também conhecido como Envio SMTP de cliente ou autenticação SMTP) é necessário para que clientes POP3 e IMAP4 enviem email.|
-|Conectividade do EWS à caixa de correio|Desabilitado|Desabilitado||
-|[Conectividade do PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
-|Usar o [spoof Intelligence](learn-about-spoof-intelligence.md) para adicionar remetentes à sua lista de permissões|Sim|Sim||
-|[Bloqueio de borda baseado em diretório (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Habilitado|Habilitado|Tipo de domínio = autoritativo|
-|[Configurar a autenticação multifator para todas as contas de administrador](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Habilitado|Habilitado||
+|A Auditoria Unificada deve ser habilitada|Sim|Sim||
+|[Conectividade IMAP à caixa de correio](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
+|[Conectividade POP à caixa de correio](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
+|Envio SMTP autenticado|Desabilitado|Desabilitado|O envio SMTP do cliente autenticado (também conhecido como envio SMTP do cliente ou SMTP AUTH) é necessário para que os clientes POP3 e IMAP4 enviem emails.|
+|Conectividade do EWS com a caixa de correio|Desabilitado|Desabilitado||
+|[Conectividade do PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User).](https://docs.microsoft.com/powershell/module/exchange/get-user)|
+|Usar [a inteligência contra spoof](learn-about-spoof-intelligence.md) para adicionar os senders à sua lista de autorizações|Sim|Sim||
+|[Bloqueio de Borda Baseado em Diretório (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Habilitado|Habilitado|Tipo de Domínio = Autoritativo|
+|[Configurar a autenticação multifa factor para todas as contas de administrador](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Habilitado|Habilitado||
 |
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Solucionar problemas gerais e tendências usando os relatórios no centro de administração. Encontre um ponto de dados específico sobre uma mensagem usando a ferramenta de Rastreamento de Mensagem. Saiba mais sobre relatórios em [Relatórios e rastreamento de mensagem no Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Saiba mais sobre a ferramenta de rastreamento de mensagens no [rastreamento de mensagens no centro de conformidade de & de segurança](message-trace-scc.md).
+Solucione problemas gerais e tendências usando os relatórios no centro de administração. Encontre um ponto de dados específico sobre uma mensagem usando a ferramenta de Rastreamento de Mensagem. Saiba mais sobre relatórios em [Relatórios e rastreamento de mensagem no Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Saiba mais sobre a ferramenta de rastreamento de mensagens no Rastreamento de mensagens no [Centro de Conformidade e & Segurança.](message-trace-scc.md)
 
-## <a name="report-false-positives-and-false-negatives-to-microsoft"></a>Relatar falsos positivos e falsos negativos à Microsoft
+## <a name="report-false-positives-and-false-negatives-to-microsoft"></a>Relatar falsos positivos e falsos negativos para a Microsoft
 
-Para ajudar a melhorar a filtragem de spam no serviço para todos, você deve relatar falsos positivos (emails satisfatórios marcados como defeituosos) e falsos negativos (emails inválidos permitidos) para a Microsoft para análise. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
+Para ajudar a melhorar a filtragem de spam no serviço para todos, você deve relatar falsos positivos (emails bons marcados como ruins) e falsos negativos (email ruim permitido) para análise da Microsoft. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="create-mail-flow-rules"></a>Criar regras de fluxo de emails
 
-Criar regras de fluxo de emails (também conhecidas como regras de transporte) ou filtros personalizados para atender às suas necessidades de negócios.
+Crie regras de fluxo de emails (também conhecidas como regras de transporte) ou filtros personalizados para atender às suas necessidades de negócios.
 
 Ao implementar uma nova regra à produção, selecione um dos modos de teste primeiro para ver o efeito da regra. Quando tiver a certeza de que a regra está funcionando da maneira pretendida, altere o modo de regra para **Forçar**.
 
 Ao implementar novas regras, considere adicionar outras ações de **Gerar Relatório de Incidente** para monitorar a regra em ação.
 
-Em ambientes híbridos em que sua organização inclui o Exchange local e o Exchange Online, considere as condições que você usa nas regras de fluxo de emails. Se quiser que as regras sejam aplicadas a toda a organização, certifique-se de usar as condições que estão disponíveis no Exchange local e no Exchange Online. Enquanto a maioria das condições está disponível em ambos os ambientes, há alguns itens que estão disponíveis apenas em um ambiente ou no outro. Saiba mais em [regras de fluxo de emails (regras de transporte) no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules).
+Em ambientes híbridos em que sua organização inclui o Exchange local e o Exchange Online, considere as condições que você usa nas regras de fluxo de emails. Se você quiser que as regras se apliquem a toda a organização, certifique-se de usar as condições disponíveis no Exchange local e no Exchange Online. Embora a maioria das condições está disponível em ambos os ambientes, há alguns que só estão disponíveis em um ambiente ou outro. Saiba mais em [Regras de fluxo de emails (regras de transporte) no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)

@@ -21,12 +21,12 @@ description: Começar a usar recursos automatizados de investigação e resposta
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 6ccefb5c435f08fcef4dcc872af676fba70668ee
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 570fb3c9d180d3167cfc5a4e3c3825102875b74f
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794539"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865003"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Investigação e resposta automatizadas (AIR) no Microsoft Defender para Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "49794539"
 
 [O Microsoft Defender para Office 365](office-365-atp.md) inclui poderosos recursos automatizados de investigação e resposta (AIR) que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, fica a sua equipe de operações de segurança revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode sobrecarregar. Automatizar algumas dessas tarefas pode ajudar.
 
-O AIR permite que sua equipe de operações de segurança opere de forma mais eficiente e eficaz. Os recursos air incluem processos de investigação automatizada em resposta a ameaças conhecidas que existem atualmente. As ações de correção apropriadas aguardam aprovação, permitindo que sua equipe de operações de segurança responda efetivamente a ameaças detectadas. Com o AIR, sua equipe de operações de segurança pode se concentrar em tarefas de prioridade mais alta sem perder a visão de alertas importantes que são disparados.
+O AIR permite que sua equipe de operações de segurança opere de forma mais eficiente e eficaz. Os recursos air incluem processos de investigação automatizados em resposta a ameaças conhecidas que existem atualmente. As ações de correção apropriadas aguardam aprovação, permitindo que sua equipe de operações de segurança responda efetivamente a ameaças detectadas. Com o AIR, sua equipe de operações de segurança pode se concentrar em tarefas de prioridade mais alta sem perder a visão de alertas importantes que são disparados.
 
 Este artigo descreve:
 
@@ -102,12 +102,12 @@ Além disso, certifique-se [de revisar as políticas](https://docs.microsoft.com
 
 ## <a name="which-alert-policies-trigger-automated-investigations"></a>Quais políticas de alerta disparam investigações automatizadas?
 
-O Microsoft 365 fornece muitas políticas de alerta internas que ajudam a identificar o abuso de permissões de administrador do Exchange, atividade de malware, possíveis ameaças externas e internas e riscos de governança de informações. Várias das políticas [de alerta padrão podem](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) disparar investigações automatizadas. A tabela a seguir descreve os alertas que disparam investigações automatizadas, sua gravidade no centro de segurança do Microsoft 365 e como eles são gerados:
+O Microsoft 365 fornece muitas políticas de alerta internas que ajudam a identificar o abuso de permissões de administrador do Exchange, a atividade de malware, possíveis ameaças externas e internas e riscos de governança de informações. Várias das políticas [de alerta padrão podem](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) disparar investigações automatizadas. A tabela a seguir descreve os alertas que disparam investigações automatizadas, sua gravidade no centro de segurança do Microsoft 365 e como eles são gerados:
 
 |Alerta|Severity|Como o alerta é gerado|
 |---|---|---|
 |Um clique de URL potencialmente mal-intencionado foi detectado|**High**|Esse alerta é gerado quando ocorre um dos seguintes: <ul><li>Um usuário protegido por [Links seguros em](atp-safe-links.md) sua organização clica em um link mal-intencionado</li><li>As alterações de veredito para URLs são identificadas pelo Microsoft Defender para Office 365</li><li>Os usuários substituem as páginas de aviso de Links seguros (com base na política de [Links seguros da sua organização).](set-up-atp-safe-links-policies.md)</li></ul> <p> Para obter mais informações sobre eventos que disparam esse alerta, consulte [Configurar políticas de Links seguros.](set-up-atp-safe-links-policies.md)|
-|Uma mensagem de email é relatada por um usuário como malware ou phishing|**Informacional**|Esse alerta é gerado quando os usuários em sua organização relatam mensagens como emails de phishing usando o complemento Mensagem [de Relatório.](enable-the-report-message-add-in.md)|
+|Uma mensagem de email é relatada por um usuário como malware ou phishing|**Informacional**|Esse alerta é gerado quando os usuários em sua [](enable-the-report-message-add-in.md) organização relatam mensagens como emails de phishing usando o complemento Mensagem de Relatório ou o complemento [Phishing de Relatório.](enable-the-report-phish-add-in.md)|
 |As mensagens de email que contêm malware são removidas após a entrega|**Informacional**|Esse alerta é gerado quando as mensagens de email que contêm malware são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando a limpeza automática [zero hora.](zero-hour-auto-purge.md)|
 |As mensagens de email que contêm URLs de phishing são removidas após a entrega|**Informacional**|Esse alerta é gerado quando as mensagens que contêm phishing são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando a limpeza automática [zero hora.](zero-hour-auto-purge.md)|
 |Padrões suspeitos de envio de email são detectados|**Medium**|Esse alerta é gerado quando alguém em sua organização envia emails suspeitos e está em risco de ser impedido de enviar emails. Esse é um aviso antecipado sobre o comportamento que pode indicar que a conta está comprometida, mas não grave o suficiente para restringir o usuário. <p> Embora seja raro, um alerta gerado por essa política pode ser uma anomalia. No entanto, é uma boa ideia verificar [se a conta de usuário está comprometida.](responding-to-a-compromised-email-account.md)|

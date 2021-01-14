@@ -1,5 +1,5 @@
 ---
-title: Enviar mensagens manualmente para a Microsoft para análise
+title: Enviar mensagens manualmente à Microsoft para análise
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -15,36 +15,36 @@ search.appverid:
 ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
-description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails em bom estado marcados como inválidos ou incorretos) para a Microsoft para análise.
+description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails bons marcados como emails ruins ou ruins permitidos) para análise da Microsoft.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe8e3c5ed44c7578764ed0bf19408f4db16e3740
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 94747b1d0a1aef746a63abada977aa47270ae4e2
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751554"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865075"
 ---
-# <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente para a Microsoft para análise
+# <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente à Microsoft para análise
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 > [!NOTE]
-> Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade do & de segurança. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos usar o portal de Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador [para enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
 
-Pode ser frustrante quando os usuários da sua organização recebem mensagens de lixo eletrônico (spam) ou mensagens de phishing em sua caixa de entrada ou se não recebem uma mensagem de email legítima porque estão marcados como lixo eletrônico. Estamos constantemente ajustando os nossos filtros de spam para serem mais precisos.
+Pode ser frustrante quando os usuários em sua organização recebem mensagens de lixo eletrônico (spam) ou phishing em sua Caixa de Entrada, ou se eles não recebem uma mensagem de email legítima porque ela está marcada como lixo eletrônico. Estamos constantemente ajustando nossos filtros de spam para ser mais preciso.
 
-Você e seus usuários podem ajudar nesse processo enviando falsos positivos (emails satisfatórios marcados como defeituosos), falsos negativos (email incorreto) e mensagens de phishing para a Microsoft para análise.
+Você e seus usuários podem ajudar nesse processo enviando falsos positivos (emails bons marcados como ruins), falsos negativos (emails falsos permitidos) e mensagens de phishing para a Microsoft para análise.
 
 > [!NOTE]
-> Devido ao alto volume de envios que recebemos, talvez não seja possível atender a todas as solicitações para análise.
+> Devido ao alto volume de envios que recebemos, talvez não seja possível responder a todas as solicitações de análise.
 
-## <a name="submit-false-negatives-to-microsoft"></a>Enviar falsos negativos para a Microsoft
+## <a name="submit-false-negatives-to-microsoft"></a>Enviar falsos negativos à Microsoft
 
 > [!TIP]
-> Em vez de usar os procedimentos a seguir para relatar falsos negativos, os usuários do Outlook e do Outlook na Web (anteriormente conhecido como Outlook Web App) podem usar o suplemento de mensagem de relatório para o Microsoft Outlook. Para obter informações sobre como instalar e usar essa ferramenta, consulte [habilitar o suplemento de mensagem de relatório](enable-the-report-message-add-in.md).
+> Em vez de usar os procedimentos a seguir para relatar falsos negativos, os usuários no Outlook e no Outlook na Web (anteriormente conhecido como Outlook Web App) podem usar o complemento Mensagem de Relatório ou o complemento Phishing de Relatório. Para obter informações sobre como instalar [](enable-the-report-message-add-in.md) e usar essas ferramentas, consulte Habilitar o complemento Mensagem de Relatório e Habilitar o complemento [Phishing de Relatório.](enable-the-report-phish-add-in.md)
 
-Se você receber uma mensagem que passa pelo filtro de spam que deve ter sido identificada como spam ou phishing, você pode enviar a mensagem para a análise de spam da Microsoft e para as equipes de análise de phishing da Microsoft, conforme apropriado. Os analistas revisarão a mensagem e a adicionarão aos filtros de todo o serviço se atenderem aos critérios de classificação.
+Se você receber uma mensagem que passou pela filtragem de spam que deveria ter sido identificada como spam ou phishing, você pode enviar a mensagem para as equipes de Análise de Spam da Microsoft e Análise de Phishing da Microsoft, conforme apropriado. Os analistas analisarão a mensagem e a adicionarão aos filtros de todo o serviço se atenderem aos critérios de classificação.
 
 1. Crie uma nova mensagem de email em branco com um dos seguintes destinatários:
 
@@ -52,49 +52,50 @@ Se você receber uma mensagem que passa pelo filtro de spam que deve ter sido id
 
    - **Phishing**: `phish@office365.microsoft.com`
 
-2. Arraste e solte a mensagem de lixo eletrônico ou phishing na nova mensagem. Isso salvará o lixo eletrônico ou a mensagem de phishing como um anexo na nova mensagem. Não copie e cole o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os cabeçalhos da mensagem).
+2. Arraste e solte a mensagem de lixo eletrônico ou phishing na nova mensagem. Isso salvará a mensagem de lixo eletrônico ou phishing como um anexo na nova mensagem. Não copie e copie e copie o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para podermos inspecionar os títulos da mensagem).
 
    > [!NOTE]
    >
-   > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens de phishing ou mensagens de lixo eletrônico.
+   > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens sejam do mesmo tipo: mensagens de phishing ou lixo eletrônico.
    >
    > - Deixe o corpo da nova mensagem vazio.
    >
-   > - Use formatos. msg (formato padrão do Outlook) ou. eml (padrão Outlook no formato da Web) para as mensagens anexadas.
+   > - Use os formatos .msg (formato padrão do Outlook) ou .eml (formato padrão do Outlook na Web) para as mensagens anexadas.
 
-3. Quando tiver terminado, clique em **Enviar**.
-
-> [!TIP]
-> Os administradores têm várias maneiras diferentes de bloquear mensagens específicas que estão sendo inalgumas identificadas como spam. Para obter detalhes, consulte [criar listas de remetentes bloqueados no EOP](create-block-sender-lists-in-office-365.md).
-
-## <a name="submit-false-positives-to-microsoft"></a>Enviar falsos positivos para a Microsoft
+3. Quando terminar, clique em **Enviar.**
 
 > [!TIP]
-> Em vez de usar os procedimentos a seguir para relatar falsos positivos, os usuários do Outlook e do Outlook na Web podem usar o suplemento de mensagem de relatório para o Microsoft Outlook. Para obter informações sobre como instalar e usar essa ferramenta, consulte [habilitar o suplemento de mensagem de relatório](enable-the-report-message-add-in.md).
+> Os administradores têm várias maneiras diferentes de bloquear mensagens específicas que estão sendo identificadas injustificadas como spam. Para obter detalhes, [consulte Criar listas de remetentes bloqueados no EOP.](create-block-sender-lists-in-office-365.md)
 
-Se uma mensagem foi identificada incorretamente como spam, você pode enviar a mensagem para a equipe de análise de spam da Microsoft. Os analistas avaliarão a mensagem e (dependendo dos resultados da análise) os filtros de todo o serviço podem ser ajustados para permitir a mensagem.
+## <a name="submit-false-positives-to-microsoft"></a>Enviar falsos positivos à Microsoft
 
-1. Crie uma nova mensagem de email em branco com `not_junk@office365.microsoft.com` o destinatário:
+> [!TIP]
+> Em vez de usar os procedimentos a seguir para relatar falsos positivos, os usuários no Outlook e no Outlook na Web (anteriormente conhecido como Outlook Web App) podem usar o complemento Mensagem de Relatório ou o complemento Phishing de Relatório. Para obter informações sobre como instalar [](enable-the-report-message-add-in.md) e usar essas ferramentas, consulte Habilitar o complemento Mensagem de Relatório e Habilitar o complemento [Phishing de Relatório.](enable-the-report-phish-add-in.md)
 
-2. Arraste e solte a mensagem inidentificada na nova mensagem. Isso salvará a mensagem inidentificada como um anexo na nova mensagem. Não copie e cole o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os cabeçalhos da mensagem).
+
+Se uma mensagem foi identificada incorretamente como spam, você pode enviar a mensagem para a Equipe de Análise de Spam da Microsoft. Os analistas avaliarão a mensagem e (dependendo dos resultados da análise) os filtros de todo o serviço podem ser ajustados para permitir a passagem da mensagem.
+
+1. Crie uma nova mensagem de email em `not_junk@office365.microsoft.com` branco com o destinatário:
+
+2. Arraste e solte a mensagem identificada incompatibilidade na nova mensagem. Isso salvará a mensagem identificada incompatibilidade como um anexo na nova mensagem. Não copie e copie e copie o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para podermos inspecionar os títulos da mensagem).
 
    > [!NOTE]
    >
-   > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens de phishing ou mensagens de lixo eletrônico.
+   > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens sejam do mesmo tipo: mensagens de phishing ou lixo eletrônico.
    >
    > - Deixe o corpo da nova mensagem vazio.
    >
-   > - Use formatos. msg (formato padrão do Outlook) ou. eml (padrão Outlook no formato da Web) para as mensagens anexadas.
+   > - Use os formatos .msg (formato padrão do Outlook) ou .eml (formato padrão do Outlook na Web) para as mensagens anexadas.
 
-3. Quando tiver terminado, clique em **Enviar**.
+3. Quando terminar, clique em **Enviar.**
 
 > [!TIP]
-> Os administradores têm várias maneiras diferentes de permitir que mensagens específicas ignorem a filtragem de spam. Para obter detalhes, consulte [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).
+> Os administradores têm várias maneiras diferentes de permitir que mensagens específicas ignorem a filtragem de spam. Para obter detalhes, [consulte Criar listas de remetentes seguros no EOP.](create-safe-sender-lists-in-office-365.md)
 
-## <a name="where-is-the-data-from-submissions-to-microsoft-stored"></a>Onde os dados dos envios para a Microsoft estão armazenados?
+## <a name="where-is-the-data-from-submissions-to-microsoft-stored"></a>Onde os dados dos envios para a Microsoft são armazenados?
 
-Os dados residem no limite de conformidade do Office 365 nos data centers da América do Norte. Os dados são revisados por analistas na equipe de engenharia para ajudar a melhorar a eficácia dos filtros.
+Os dados residem no limite de conformidade do Office 365 nos data centers da América do Norte. Os dados são revisados por analistas da equipe de engenharia para ajudar a melhorar a eficácia dos filtros.
 
-## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Criar uma regra de fluxo de email para receber cópias de mensagens relatadas para a Microsoft
+## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Criar uma regra de fluxo de emails para receber cópias de mensagens que são relatadas à Microsoft
 
-Para obter instruções, consulte [usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md).
+Para obter instruções, [confira Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft.](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)
