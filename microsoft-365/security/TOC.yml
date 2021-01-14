@@ -521,6 +521,8 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Habilitar o suplemento de Mensagem de Relatório
               href: ./office-365-security/enable-the-report-message-add-in.md
+            - name: Habilite o suplemento Relatório de Phishing
+              href: ./office-365-security/enable-the-report-phish-add-in.md
             - name: Instalar e usar o suplemento Relatório de Lixo Eletrônico
               href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
             - name: Regras de fluxo de email (regras de transporte) no EOP autônomo
