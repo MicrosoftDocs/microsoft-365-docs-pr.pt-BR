@@ -1,6 +1,6 @@
 ---
-title: A Área de Trabalho Gerenciada da Microsoft é indicada para você?
-description: ''
+title: A Área de Trabalho Gerenciada da Microsoft é ideal para você?
+description: Orientação para o que é o serviço e atalhos para artigos para diferentes audiências
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b877a35133be13cd6783659f1e5d981633338be8
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: 8e95eb0fd0e03dc718affa7e7cf044beb654bb56
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269368"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840930"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
@@ -37,7 +37,7 @@ Os usuários apreciarão as versões mais recentes dos aplicativos do Windows 10
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Exclusivo para a Área de Trabalho Gerenciada da Microsoft
 
-Claro, não há nada impedindo você de obter e gerenciar seus próprios dispositivos e implantações do Microsoft 365. Então, o que a Área de Trabalho Gerenciada da Microsoft oferece além disso?
+É claro que nada o impede de obter e gerenciar seus próprios dispositivos e de você mesmo cuidar das implantações do Microsoft 365. Então, o que a Área de Trabalho Gerenciada da Microsoft oferece além dessas coisas?
 
 Nossas políticas e linha de base de segurança oferecem aos seus usuários esses benefícios:
 
@@ -71,9 +71,9 @@ Além disso, monitoramos a integridade do dispositivo e fornecemos percepções 
 ## <a name="need-more-details"></a>Precisa de mais detalhes?
 Para saber mais sobre o valor da Área de Trabalho Gerenciada da Microsoft, incluindo histórias de clientes, confira [Área de Trabalho Gerenciada da Microsoft](https://aka.ms/mmd). Os melhores lugares para começar a aprender mais são [Roteiro](https://aka.ms/AA6jiam), um [estudo de caso da Forrester Total Economic Impact](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf) e um [resumo de uma página](https://aka.ms/AA6ob3h) que pode ser baixado. Você pode encontrar as últimas notícias no [blog](https://aka.ms/AA6l2dd) da Área de Trabalho Gerenciada da Microsoft.
 
-Se a Área de Trabalho Gerenciada da Microsoft parecer ideal para a sua organização, você poderá se aprofundar na documentação adicional que explica mais sobre o serviço, como preparar a sua organização para se inscrever, como começar a usar o serviço e as operações em andamento, inclusive como você e seus usuários poderão obter ajuda facilmente, se necessário. Se você já está pronto para aderir, primeiro entre em contato com a sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
+Se a Área de Trabalho Gerenciada da Microsoft parecer ideal para sua organização, você pode pesquisar outras documentações que explicam mais sobre o serviço, como preparar a sua organização para se inscrever, como começar a usar o serviço, e as operações em andamento depois disso, inclusive como você e seus usuários podem facilmente obter ajuda, se necessário. Se você já está pronto para aderir, primeiro entre em contato com a sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
 
-**Mais visão geral e informações de plano de fundo** primariamente para os tomadores de decisões técnicas e de negócios, esses tópicos detalham a divisão de funções e responsabilidades entre a sua organização e a Microsoft, mais informações sobre as tecnologias usadas na Área de Trabalho Gerenciada da Microsoft e como o serviço se encaixa em uma estratégia mais ampla como parte da estrutura ITIL.
+**Mais visão geral e informações de plano de fundo** Primariamente para os tomadores de decisões técnicas e de negócios, estes artigos detalham a divisão de funções e responsabilidades entre a sua organização e a Microsoft, mais informações sobre as tecnologias usadas na Área de Trabalho Gerenciada da Microsoft e como o serviço se encaixa em uma estratégia mais ampla como parte da estrutura ITIL.
 
 - [Funções e responsabilidades da Área de Trabalho Gerenciada da Microsoft](roles-and-responsibilities.md)
 - [Tecnologias de Área de Trabalho Gerenciada da Microsoft](technologies.md)
