@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem saber como o treinamento de simulação de ataque no centro de segurança do Microsoft 365 afeta os funcionários e pode obter informações sobre os resultados de simulação e treinamento.
-ms.openlocfilehash: 54855a4ce8e64f4d58b9ff2697395ed684be2773
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: c283819550872691d8dd23d3921c22cb23637633
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794551"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870950"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Obter insights por meio do treinamento de simulação de Ataque
 
@@ -33,7 +33,7 @@ Na guia **Visão geral do** treinamento de simulação de ataque, você encontra
 No gráfico, você pode ver:
 
 - **Taxa de** comprometimento prevista que reflete a taxa média de comprometimento para simulações usando o mesmo tipo de carga em outros locatários do Microsoft 365 que usam treinamento de simulação de ataque.
-- **A taxa de comprometimento** real reflete a porcentagem de funcionários que ficaram sem tempo para a simulação.
+- **A taxa de comprometimento** real reflete a porcentagem de funcionários que ficaram inocentados para a simulação.
 
 Além disso, reflete a diferença entre o número real de funcionários comprometidos pelo ataque e a `<number> less susceptible to phishing` taxa de comprometimento prevista. É menos provável que esse número de funcionários seja comprometido por ataques semelhantes no futuro, enquanto indica como os funcionários fizeram em geral em contraste com a taxa de `<percent%> better than predicted rate` comprometimento prevista.
 
@@ -53,4 +53,8 @@ A seção de ações recomendadas detalha as recomendações conforme disponíve
 
 ## <a name="related-links"></a>Links relacionados
 
-**Simulador de** [Ataque Crie uma simulação de ataque de phishing](attack-simulation-training.md) [e crie uma carga para treinar suas pessoas](attack-simulation-training-payloads.md)
+[Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md)
+
+[Criar uma simulação de ataque de phishing](attack-simulation-training.md)
+
+[criar uma carga para treinar suas pessoas](attack-simulation-training-payloads.md)
