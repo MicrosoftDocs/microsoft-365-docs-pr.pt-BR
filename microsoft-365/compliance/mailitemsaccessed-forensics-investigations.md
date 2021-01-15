@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use a ação de auditoria da caixa de correio MailItemsAccessed para executar investigações de perícia das contas de usuários comprometidas.
-ms.openlocfilehash: 908c2a22b05d7daef8d55c7e0aac61f25489692a
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 15379a5c24ee222cf097e94d46dc46de0e385820
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546287"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867999"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Usar a Auditoria Avançada para investigar contas comprometidas
 
@@ -178,8 +178,8 @@ Os registros de auditoria duplicados para as mesma operações de vinculação q
 
 |Registro de auditoria 1  |Registro de auditoria 2  |Registro de auditoria 3|
 |---------|---------|---------|
-|ClientIPAddress**1**<br/>SessionId**2**|ClientIPAddress**2**<br/>SessionId**2**|ClientIPAddress**1**<br/>SessionId**3**|
-|InternetMessageId**A**<br/>InternetMessageId**D**<br/>InternetMessageId**E**<br/>InternetMessageId**F**<br/>|InternetMessageId**A**<br/>InternetMessageId**C**|InternetMessageId**B** |
+|ClientIPAddress **1**<br/>SessionId **2**|ClientIPAddress **2**<br/>SessionId **2**|ClientIPAddress **1**<br/>SessionId **3**|
+|InternetMessageId **A**<br/>InternetMessageId **D**<br/>InternetMessageId **E**<br/>InternetMessageId **F**<br/>|InternetMessageId **A**<br/>InternetMessageId **C**|InternetMessageId **B** |
 ||||
 
 Se alguma das propriedades listadas na tabela na [seção anterior](#filtering-of-duplicate-audit-records) forem diferentes, um registro de auditoria separado será gerado para controlar o novo contexto. Os acessos serão classificados nos registros de auditoria separados, dependendo do contexto em que a atividade ocorreu.
@@ -187,3 +187,9 @@ Se alguma das propriedades listadas na tabela na [seção anterior](#filtering-o
 Por exemplo, em registros de auditoria mostrados na captura de tela a seguir, embora estejamos acessando o email do EWSEditor e OWA simultaneamente, a atividade de acesso é agrupada em registros de auditoria diferentes, dependendo do contexto no qual o acesso ocorreu. Neste caso, o contexto é definido pelo valores diferentes para a propriedade ClientInfoString.
 
 ![Registros de auditoria diferentes com base em contexto](../media/MailItemsAccessed4.png)
+
+Esta é a sintaxe do comando mostrado na captura de tela anterior:
+
+```powershell
+Search-MailboxAuditLog -Identity admin -ShowDetails -Operations MailItemsAccessed -ResultSize 2000 | Select LastAccessed,Operation,AuditOperationsCountInAggregatedRecord,ClientInfoString
+``` 

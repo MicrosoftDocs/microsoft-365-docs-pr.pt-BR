@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta Pesquisa de conteúdo no Centro de conformidade e segurança para procurar e exportar dados de bate-papo do Teams para usuários locais em uma implantação híbrida do Exchange.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60bb207463c360d98623caed4024bb87deb5fdfc
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 9620c48056545e6d6cf053040849acfe0a1bc68e
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277093"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868009"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>Pesquisar dados de chat do Teams para usuários locais
 
@@ -70,7 +70,7 @@ Após a mudança de engenharia, o suporte da Microsoft enviará a você uma data
 
 Após a implantação desse recurso na sua organização, as seguintes alterações são feitas na Pesquisa de Conteúdo e em pesquisas associadas a um caso de Descoberta eletrônica no Centro de Conformidade e Segurança:
   
-- A caixa de seleção**Adicionar o conteúdo do aplicativo do Office para usuários no local** é adicionada em **Locais** na Pesquisa de Conteúdo.
+- A caixa de seleção **Adicionar o conteúdo do aplicativo do Office para usuários no local** é adicionada em **Locais** na Pesquisa de Conteúdo.
 
     ![A caixa de seleção "Adicionar conteúdo do aplicativo do Office para usuários locais" é adicionada à IU de Pesquisa de Conteúdo](../media/599e751e-17bd-408d-a18c-127538de6e85.png)
   
@@ -118,7 +118,7 @@ Você pode usar os cmdlets **New-ComplianceSearch** e **Set-ComplianceSearch** n
     New-ComplianceSearch <name of new search> -ContentMatchQuery <search query> -ExchangeLocation <on-premises user> -IncludeUserAppContent $true -AllowNotFoundExchangeLocationsEnabled $true  
     ```
 
-    O parâmetro *IncludeUserAppContent* é usado para especificar o armazenamento baseado em nuvem para o usuário ou usuários especificados pelo parâmetro *ExchangeLocation*. O*AllowNotFoundExchangeLocationsEnabled* permite que você pesquise o armazenamento baseado em nuvem para usuários locais. Quando você usa o valor `$true` para esse parâmetro, a pesquisa não tenta validar a existência da caixa de correio antes de ser executada. Isso é necessário para pesquisar o armazenamento baseado em nuvem para usuários locais porque esse armazenamento baseado em nuvem não é resolvido como uma caixa de correio comum baseada em nuvem.
+    O parâmetro *IncludeUserAppContent* é usado para especificar o armazenamento baseado em nuvem para o usuário ou usuários especificados pelo parâmetro *ExchangeLocation*. O *AllowNotFoundExchangeLocationsEnabled* permite que você pesquise o armazenamento baseado em nuvem para usuários locais. Quando você usa o valor `$true` para esse parâmetro, a pesquisa não tenta validar a existência da caixa de correio antes de ser executada. Isso é necessário para pesquisar o armazenamento baseado em nuvem para usuários locais porque esse armazenamento baseado em nuvem não é resolvido como uma caixa de correio comum baseada em nuvem.
 
     O exemplo a seguir procura por diversos chats do Teams (que são mensagens instantâneas) que contenham a palavra-chave "redstone" no armazenamento baseado em nuvem da Sara Davis, que é uma usuária local na organização da Contoso.
   
@@ -142,13 +142,13 @@ Para mais informações sobre esses cmdlets, confira:
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
- **Onde está localizado o armazenamento baseado em nuvem para usuários locais?**
+**Onde está localizado o armazenamento baseado em nuvem para usuários locais?**
   
-O armazenamento baseado em nuvem é provisionado no mesmo Centro de Dados da sua organização.
+Os dados do bate-papo das equipes são armazenados no local de dados preferencial (PDL) para um usuário local. O PDL é homenageado em ambientes Single Geo e Multi Geo. Para mais informações, consulte [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo).
   
  **Há outros requisitos além de enviar uma solicitação de suporte?**
   
- Como explicado anteriormente, as identidades dos usuários com caixas de correio locais devem ser sincronizadas com a sua organização baseada em nuvem para que uma conta de usuário de e-mail correspondente seja criada para cada conta de usuário local no Office 365. Sua organização também deve ter uma assinatura do Office 365 Enterprise, assim como uma assinatura do Office 365 Enterprise E1, E3 ou e5.
+Como explicado anteriormente, as identidades dos usuários com caixas de correio locais devem ser sincronizadas com a sua organização baseada em nuvem para que uma conta de usuário de e-mail correspondente seja criada para cada conta de usuário local no Office 365. Sua organização também deve ter uma assinatura do Office 365 Enterprise, assim como uma assinatura do Office 365 Enterprise E1, E3 ou e5.
   
  **Há o risco de perder os dados de chat do Teams se a caixa de correio local do usuário for migrada para a nuvem?**
   
