@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador de serviço pode abrir tíquetes de suporte por meio do centro de administração.
-ms.openlocfilehash: 774edf1a024bd7aab7f35d5635c84b355fc0ef5a
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: ddea8a06af2b529a369ea045913b639b84c6f9d4
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682652"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867977"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
@@ -88,9 +88,9 @@ Se você está trabalhando com um parceiro da Microsoft, pode atribua funções 
   
 Um parceiro pode atribuir estas funções: 
   
-- **Administração total**, que tem privilégios equivalentes a um administrador global, com exceção de gerenciamento da autenticação multifatorial pelo Partner Center.
+- Privilégios de **Operador Administrativo** equivalentes a um administrador global, com exceção do gerenciamento de autenticação multifator por meio da Partner Center.
 
-- **Administração limitada**, que tem privilégios equivalentes à administração de assistência técnica.
+- Privilégios de **Operador de Central de ajuda** equivalentes a um administrador de central de ajuda.
 
 Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner).
   

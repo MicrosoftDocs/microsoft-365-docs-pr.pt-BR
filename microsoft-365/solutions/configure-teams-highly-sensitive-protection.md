@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 6354de5a37547d14b16a4d6a0857ddc390d531e6
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 045f1b1d1ebf03eb70554dc5964acb0a12e0060f
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750804"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870846"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -33,7 +33,7 @@ Para esta camada de proteção, criamos um rótulo de confidencialidade que pode
 
 A camada altamente confidencial oferece as seguintes proteções adicionais sobre a camada de linha de base:
 
-- Um rótulo de confidencialidade para a equipe que permite ativar ou desativar o compartilhamento de convidados e limita o acesso ao conteúdo do Microsoft Office SharePoint Online a somente Web para dispositivos não gerenciados. Este rótulo também pode ser usado para classificar e criptografar arquivos.
+- Um rótulo de confidencialidade para a equipe que permite ativar ou desativar o compartilhamento de convidados e bloqueia o acesso ao conteúdo do Microsoft Office SharePoint Online para dispositivos não gerenciados. Este rótulo também pode ser usado para classificar e criptografar arquivos.
 - Um tipo de link de compartilhamento padrão mais restritivo
 - Somente os proprietários da equipe podem criar canais privados.
 - As solicitações de acesso para o site do Microsoft Office SharePoint Online associado estão desativadas.
@@ -63,7 +63,7 @@ Para criar um rótulo de confidencialidade
 1. Abra o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com).
 2. Em **Soluções**, clique em **Proteção de informações**.
 3. Clique em **Criar um rótulo**.
-4. Dê um nome ao rótulo. Sugerimos **Confidencial**, mas você pode escolher um nome diferente se esse já estiver em uso.
+4. Dê um nome ao rótulo. Sugerimos **Altamente confidencial**, mas você pode escolher um nome diferente se este nome já estiver em uso.
 5. Adicione um nome de exibição e uma descrição e clique em **Avançar**.
 6. Na página **Definir o escopo para este rótulo**, selecione **Arquivos e emails** e **Grupos e sites** e clique em **Avançar**.
 7. Na página **Escolher configurações de proteção para arquivos e emails**, selecione **Criptografar arquivos e emails** e clique em **Avançar**.

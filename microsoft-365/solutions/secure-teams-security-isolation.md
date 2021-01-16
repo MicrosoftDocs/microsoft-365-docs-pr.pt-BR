@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: 03252cad8449ee83cd757fac3ae74db6df68bcfe
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: d5cfe33d4f254832ccf26552d8ca392cf1dc440c
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751138"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870974"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -106,7 +106,7 @@ Para criar um rótulo de confidencialidade
 1. Abra o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com).
 2. Em **Soluções**, clique em **Proteção de informações**.
 3. Clique em **Criar um rótulo**.
-4. Dê um nome ao rótulo. Sugerimos **Confidencial**, mas você pode escolher um nome diferente se esse já estiver em uso.
+4. Dê um nome ao rótulo. Sugerimos nomeá-lo após a equipe com a quem você vai usá-lo.
 5. Adicione um nome de exibição e uma descrição e clique em **Avançar**.
 6. Na página **Definir o escopo para este rótulo**, selecione **Arquivos e emails** e **Grupos e sites** e clique em **Avançar**.
 7. Na página **Escolher configurações de proteção para arquivos e emails**, selecione **Criptografar arquivos e emails** e clique em **Avançar**.
