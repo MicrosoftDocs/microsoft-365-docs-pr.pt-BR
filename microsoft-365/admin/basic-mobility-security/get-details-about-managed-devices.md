@@ -1,5 +1,5 @@
 ---
-title: Obter detalhes sobre dispositivos de mobilidade e gerenciamento de segurança básicos
+title: Obter detalhes sobre dispositivos gerenciados básicos de mobilidade e segurança
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,162 +17,145 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Use o Windows PowerShell para obter detalhes sobre dispositivos de segurança e mobilidade básicos em sua organização.
-ms.openlocfilehash: d34263ee215c568834034f2735bb69d9cef9ac6d
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: Use o Windows PowerShell para obter detalhes sobre dispositivos básicos de mobilidade e segurança em sua organização.
+ms.openlocfilehash: 7c6a0365dfd573377c3675bbcee8ee8280e33816
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430067"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876883"
 ---
-# <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Obter detalhes sobre dispositivos de mobilidade e gerenciamento de segurança básicos
+# <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Obter detalhes sobre dispositivos gerenciados básicos de mobilidade e segurança
 
-Este artigo mostra como usar o Windows PowerShell para obter detalhes sobre os dispositivos em sua organização que você configurou para mobilidade básica e segurança.
+Este artigo mostra como usar o Windows PowerShell para obter detalhes sobre os dispositivos em sua organização que você configura para Mobilidade Básica e Segurança.
 
-Aqui está uma divisão dos detalhes do dispositivo disponíveis para você.
+Veja um detalhamento dos detalhes do dispositivo disponíveis para você.
 
 |**Ver os detalhes**|**O que procurar no PowerShell**|
 |:----------------|:------------------------------------------------------------------------------|
-|O dispositivo está inscrito em mobilidade básica e segurança. Para saber mais, confira [registrar seu dispositivo móvel usando mobilidade básica e segurança](enroll-your-mobile-device.md)|O valor do parâmetro *IsManaged*   é:<br/>**True**= o dispositivo está inscrito.<br/>**False**= o dispositivo não está inscrito. |
-|O dispositivo é compatível com suas políticas de segurança de dispositivo. Para saber mais, confira [criar políticas de segurança de dispositivo](create-device-security-policies.md)|O valor do parâmetro *IsCompliant*   é:<br/>**True**   = o dispositivo é compatível com políticas.<br/>**False**   = o dispositivo não é compatível com políticas.|
+|O dispositivo está inscrito no Basic Mobility and Security. Para obter mais informações, consulte [Registrar seu dispositivo móvel usando Mobilidade Básica e Segurança](enroll-your-mobile-device.md)|O valor do *parâmetro isManaged*   é:<br/>**True**= o dispositivo está inscrito.<br/>**False**= o dispositivo não está inscrito. |
+|O dispositivo é compatível com as políticas de segurança do dispositivo. Para obter mais informações, consulte [Criar políticas de segurança do dispositivo](create-device-security-policies.md)|O valor do parâmetro *isCompliant*   é:<br/>**True**   = o dispositivo é compatível com políticas.<br/>**False**   = o dispositivo não está em conformidade com políticas.|
 
-:::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="Parâmetros básicos de mobilidade e segurança do PowerShell":::
+:::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="Parâmetros básicos de Mobilidade e Segurança do PowerShell":::
 
 >[!NOTE]
->Os comandos e scripts neste artigo também retornam detalhes sobre qualquer dispositivo gerenciado pelo [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
+>Os comandos e scripts neste artigo também retornam detalhes sobre todos os dispositivos gerenciados pelo [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune)
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 Há algumas coisas que você precisa configurar para executar os comandos e scripts descritos neste artigo.
 
-### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Etapa 1: baixar e instalar o módulo Azure Active Directory para Windows PowerShell
+### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Etapa 1: Baixar e instalar o Módulo Azure Active Directory para Windows PowerShell
 
-Para obter mais informações sobre essas etapas, consulte [conectar-se ao Microsoft 365 com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
+Para saber mais sobre essas etapas, confira [Conectar-se ao Microsoft 365 com o PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)
 
-1. Vá para [Assistente de conexão do Microsoft Online Services para profissionais de ti RTWl](https://www.microsoft.com/download/details.aspx?id=41950)   e selecione  **download para assistente de conexão do Microsoft Online Services**.   
+1. Vá para o Assistente de Sign-In Microsoft Online Services para Profissionais de [TI RTWl](https://www.microsoft.com/download/details.aspx?id=41950)e selecione Download para o Assistente de Login do   Microsoft Online  **Services.**   
 
-2. Instale o Módulo Microsoft Azure Active Directory para Windows PowerShell seguindo estas etapas:   
+2. Instale o Módulo Microsoft Azure Active Directory para Windows PowerShell seguindo estas etapas:
 
     1. Abra um prompt de comando do PowerShell do nível de administrador.  
 
     2. Execute o comando Install-Module MSOnline.
-    
-    3. Se solicitado a instalar o provedor de NuGet, digite Y e pressione Enter.   
 
-    4. Se solicitado a instalar o módulo de PSGallery, digite Y e pressione Enter.   
+    3. Se solicitado a instalar o provedor de NuGet, digite Y e pressione Enter.
+
+    4. Se solicitado a instalar o módulo de PSGallery, digite Y e pressione Enter.
 
     5. Após a instalação, feche a janela de comando do PowerShell.
-    
-### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Etapa 2: conectar-se à sua assinatura do Microsoft 365
 
-1. No módulo do Windows Azure Active Directory para Windows PowerShell, execute o seguinte comando.  
+### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Etapa 2: Conectar-se à sua assinatura do Microsoft 365
+
+1. No Módulo Windows Azure Active Directory para Windows PowerShell, execute o seguinte comando.  
 
     $UserCredential = Get-Credential
 
-2. Na caixa de diálogo solicitação de credencial do Windows PowerShell, digite o nome de usuário e a senha da sua conta de administrador global do Microsoft 365 e, em seguida, selecione **OK**.
-    
-3. Execute o seguinte comando.
-    
-    Connect-MsolService-Credential $UserCredential
+2. Na caixa de diálogo Solicitação de Credencial do Windows PowerShell, digite o nome de usuário e a senha da sua conta de administrador global do Microsoft 365 e selecione **OK.**
 
-### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>Etapa 3: Verifique se é possível executar scripts do PowerShell
+3. Execute o seguinte comando.
+
+    Connect-MsolService -Credential $UserCredential
+
+### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>Etapa 3: Certifique-se de poder executar scripts do PowerShell
 
 >[!NOTE]
->Você pode ignorar esta etapa se já estiver configurado para executar scripts do PowerShell.
+>Você pode ignorar esta etapa se já estiver pronto para executar scripts do PowerShell.
 
-Para executar o script Get-MsolUserDeviceComplianceStatus.ps1, você precisa habilitar a execução de scripts do PowerShell.
+Para executar o Get-MsolUserDeviceComplianceStatus.ps1 script, você precisa habilitar a execução de scripts do PowerShell.
 
-1. Na área de trabalho do Windows, selecione **Iniciar**e digite Windows PowerShell. Clique com o botão direito do mouse em Windows PowerShell e selecione **Executar como administrador**.
+1. Na área de trabalho do Windows, **selecione Iniciar** e digite Windows PowerShell. Clique com o botão direito do mouse no Windows PowerShell e selecione **Executar como administrador.**
 
 2. Execute o seguinte comando.
-    
+
     Set-ExecutionPolicy RemoteSigned
 
-3. Quando solicitado, digite s e pressione Enter.
-    
-**Execute o cmdlet Get-MsolDevice para exibir detalhes de todos os dispositivos em sua organização**
+3. Quando solicitado, digite S e pressione Enter.
+
+**Execute o Get-MsolDevice cmdlet para exibir detalhes de todos os dispositivos em sua organização**
 
 1. Abra o Módulo Microsoft Azure Active Directory para Windows PowerShell.  
 
 2. Execute o seguinte comando.
-    
-    Get-MsolDevice-All-ReturnRegisteredOwners | Em que-Object {$ _. RegisteredOwners. Count-gt 0}
 
-Para obter mais exemplos, consulte  [Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=841721).
+    Get-MsolDevice -All -ReturnRegisteredOwners | Where-Object {$_. RegisteredOwners.Count -gt 0}
+
+Para obter mais exemplos,  [consulte Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=841721).
 
 ## <a name="run-a-script-to-get-device-details"></a>Executar um script para obter detalhes do dispositivo
 
-Primeiro, salve o script no seu computador.
+Primeiro, salve o script no computador.
 
-1. Copie e cole o texto a seguir no bloco de notas.  
+1. Copie e colar o texto a seguir no Bloco de Notas.  
 
-2.  parâmetros
-    
+2.  param (
 
-3.  [PSObject []] $users = @ (),
-    
+3.  [PSObject[]]$users = @(),
 
-4.  [Opção] $export,
-    
+4.  [Switch]$export,
 
-5.  [Cadeia de caracteres] $exportFileName = "UserDeviceComplianceStatus_" + (Get-Date-Format "yyMMdd_HHMMss") + ". csv",
-    
+5.  [String]$exportFileName = "UserDeviceComplianceStatus_" + (Get-Date -Format "yyMMdd_HHMMss") + ".csv",
 
-6.  [Cadeia de caracteres] $exportPath = [ambiente]:: GetFolderPath ("área de trabalho")
-    
+6.  [String]$exportPath = [Environment]::GetFolderPath("Desktop")
 
 7.  )
+
+9.  [System.Collections.IDictionary]$script:schema = @{
+
+11.  DeviceId = ''
+
+12.  DeviceOSType = ''
+
+13.  DeviceOSVersion = ''
+
+14.  DeviceTrustLevel = ''
+
+15.  DisplayName = ''
+
+16.  IsCompliant = ''
+
+17.  IsManaged = ''
+
+18.  ApproximateLastLogonTimestamp = ''
+
+19.  DeviceObjectId = ''
+
+20.  RegisteredOwnerUpn = ''
+
+21.  RegisteredOwnerObjectId = ''
     
 
-9.  [System. Collections. IDictionary] $script: Schema = @ {
-    
-
-11.  DeviceID = ' '
-    
-
-12.  DeviceOSType = ' '
-    
-
-13.  DeviceOSVersion = ' '
-    
-
-14.  DeviceTrustLevel = ' '
-    
-
-15.  DisplayName = ' '
-    
-
-16.  IsCompliant = ' '
-    
-
-17.  IsManaged = ' '
-    
-
-18.  ApproximateLastLogonTimestamp = ' '
-    
-
-19.  DeviceObjectId = ' '
-    
-
-20.  RegisteredOwnerUpn = ' '
-    
-
-21.  RegisteredOwnerObjectId = ' '
-    
-
-22.  RegisteredOwnerDisplayName = ' '
+22.  RegisteredOwnerDisplayName = ''
     
 
 23.  }
     
 
-25.  função createresultobject
+25.  function createResultObject
     
 
 26.  {
     
 
-28.  [PSObject] $resultObject = New-Object-TypeName PSObject-Property $script: Schema
+28.  [PSObject]$resultObject = New-Object -TypeName PSObject -Property $script:schema
     
 
 30.  retornar $resultObject
@@ -181,7 +164,7 @@ Primeiro, salve o script no seu computador.
 31.  }
     
 
-33.  If ($users. Count-eq 0)
+33.  If ($users. Count -eq 0)
     
 
 34.  {
@@ -193,58 +176,58 @@ Primeiro, salve o script no seu computador.
 36.  }
     
 
-38.  [PSObject []] $result = foreach ($u em $users)
+38.  [PSObject[]]$result = foreach ($u in $users)
     
 
 39.  {
     
 
-41.  [PSObject] $devices = Get-msoldevice-RegisteredOwnerUpn $u. UserPrincipalName
+41.  [PSObject]$devices = get-msoldevice -RegisteredOwnerUpn $u.UserPrincipalName
     
 
-42.  foreach ($d em $devices)
+42.  foreach ($d in $devices)
     
 
 43.  {
     
 
-44.  [PSObject] $deviceResult = createresultobject
+44.  [PSObject]$deviceResult = createResultObject
     
 
-45.  $deviceResult. DeviceID = $d. DeviceID
+45.  $deviceResult.DeviceId = $d.DeviceId
     
 
-46.  $deviceResult. DeviceOSType = $d. DeviceOSType
+46.  $deviceResult.DeviceOSType = $d.DeviceOSType
     
 
-47.  $deviceResult. DeviceOSVersion = $d. DeviceOSVersion
+47.  $deviceResult.DeviceOSVersion = $d.DeviceOSVersion
     
 
-48.  $deviceResult. DeviceTrustLevel = $d. DeviceTrustLevel
+48.  $deviceResult.DeviceTrustLevel = $d.DeviceTrustLevel
     
 
-49.  $deviceResult. DisplayName = $d. DisplayName
+49.  $deviceResult.DisplayName = $d.DisplayName
     
 
-50.  $deviceResult. IsCompliant = $d. GraphDeviceObject. IsCompliant
+50.  $deviceResult.IsCompliant = $d.GraphDeviceObject.IsCompliant
     
 
-51.  $deviceResult. isgerencied = $d. GraphDeviceObject. isgerencied
+51.  $deviceResult.IsManaged = $d.GraphDeviceObject.IsManaged
     
 
-52.  $deviceResult. DeviceObjectId = $d. ObjectId
+52.  $deviceResult.DeviceObjectId = $d.ObjectId
     
 
-53.  $deviceResult. RegisteredOwnerUpn = $u. UserPrincipalName
+53.  $deviceResult.RegisteredOwnerUpn = $u.UserPrincipalName
     
 
-54.  $deviceResult. RegisteredOwnerObjectId = $u. ObjectId
+54.  $deviceResult.RegisteredOwnerObjectId = $u.ObjectId
     
 
-55.  $deviceResult. RegisteredOwnerDisplayName = $u. DisplayName
+55.  $deviceResult.RegisteredOwnerDisplayName = $u.DisplayName
     
 
-56.  $deviceResult. ApproximateLastLogonTimestamp = $d. ApproximateLastLogonTimestamp
+56.  $deviceResult.ApproximateLastLogonTimestamp = $d.ApproximateLastLogonTimestamp
     
 
 58.  $deviceResult
@@ -262,7 +245,7 @@ Primeiro, salve o script no seu computador.
 64.  {
     
 
-65.  $result | Export-CSV-Path ($exportPath + " \" + $exportFileName)-NoTypeInformation
+65.  $result | Export-Csv -path ($exportPath + " \" + $exportFileName) -NoTypeInformation
     
 
 66.  }
@@ -280,23 +263,23 @@ Primeiro, salve o script no seu computador.
 70.  }
     
 
-71.  Salve-o como um arquivo de script do Windows PowerShell usando a extensão de arquivo. ps1; por exemplo, Get-MsolUserDeviceComplianceStatus.ps1.   
+71.  Salve-o como um arquivo de script do Windows PowerShell usando a extensão de arquivo .ps1; por exemplo, Get-MsolUserDeviceComplianceStatus.ps1.   
 
 ## <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>Executar o script para obter informações de dispositivo para uma única conta de usuário
 
 1. Abra o Módulo Microsoft Azure Active Directory para Windows PowerShell.
     
-2. Vá para a pasta onde você salvou o script. Por exemplo, se você salvou-o no C:\PS-Scripts, execute o seguinte comando.
+2. Vá para a pasta onde você salvou o script. Por exemplo, se você salvou em C:\PS-Scripts, execute o seguinte comando.
     
-    CD C:\PS-Scripts
+    cd C:\PS-Scripts
 
-3. Execute o seguinte comando para identificar o usuário para o qual você deseja obter detalhes de dispositivo. Este exemplo obtém detalhes de bar@example.com.
+3. Execute o seguinte comando para identificar o usuário para o qual você deseja obter detalhes do dispositivo. Este exemplo obtém detalhes sobre bar@example.com.
     
-    $u = get-MsolUser-UserPrincipalName bar@example.com
+    $u = Get-MsolUser -UserPrincipalName bar@example.com
 
 4. Execute o seguinte comando para iniciar o script.
 
-    .\Get-MsolUserDeviceComplianceStatus.ps1-user $u-Export
+    .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
 As informações são exportadas para a área de trabalho do Windows como um arquivo CSV. Você pode usar parâmetros adicionais para especificar o nome do arquivo e o caminho do CSV.
 
@@ -304,24 +287,24 @@ As informações são exportadas para a área de trabalho do Windows como um arq
 
 1. Abra o Módulo Microsoft Azure Active Directory para Windows PowerShell.
     
-2. Vá para a pasta onde você salvou o script. Por exemplo, se você salvou-o no C:\PS-Scripts, execute o seguinte comando.   
+2. Vá para a pasta onde você salvou o script. Por exemplo, se você salvou em C:\PS-Scripts, execute o seguinte comando.   
 
-    CD C:\PS-Scripts
+    cd C:\PS-Scripts
 
-3. Execute o seguinte comando para identificar o grupo para o qual você deseja obter detalhes de dispositivo. Este exemplo obtém detalhes para usuários no grupo FinanceStaff. 
+3. Execute o seguinte comando para identificar o grupo para o qual você deseja obter detalhes do dispositivo. Este exemplo obtém detalhes para usuários no grupo FinanceStaff. 
 
-    $u = get-MsolGroupMember-searchString "FinanceStaff" | % {Get-MsolUser-ObjectId $ _. IDs
+    $u = Get-MsolGroupMember -SearchString "FinanceStaff" | % { Get-MsolUser -ObjectId $_. ObjectId }
 
 4. Execute o seguinte comando para iniciar o script.   
 
-    .\Get-MsolUserDeviceComplianceStatus.ps1-user $u-Export
+    .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
 As informações são exportadas para a área de trabalho do Windows como um arquivo CSV. Você pode usar parâmetros adicionais para especificar o nome do arquivo e o caminho do CSV.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[O Microsoft Connect foi desativado](https://docs.microsoft.com/collaborate/connect-redirect)
+[O Microsoft Connect foi retirado](https://docs.microsoft.com/collaborate/connect-redirect)
 
-[Visão geral da mobilidade básica e segurança](overview.md)
+[Visão geral da Mobilidade e Segurança Básicas](overview.md)
 
 [Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=841721)

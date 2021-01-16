@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fff44098e3da17c68e4347fb14690945154edfdb
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 6e904eee5a132d271ec32ee99a19380463e53193
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841182"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881768"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos da Área de Trabalho Gerenciada da Microsoft 
 
@@ -71,6 +71,7 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 | [Surface Laptop Go](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB / Intel i5 / 8 GB RAM | Nenhum | 12 de outubro de 2022 | 12 de outubro de 2025 |
 | [Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB / Intel i5 / 8 GB RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
 | [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 GB / Intel i5 / 8 GB RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
+| **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | 128 GB / Intel i5 / 8 GB RAM | Nenhum | 15 de janeiro de 2022 | 15 de janeiro de 2025 |
 
 Além disso, o dispositivo também deve atender a estes critérios:     
 

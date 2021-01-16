@@ -11,18 +11,16 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem aprender a criar cargas personalizadas para treinamento de simulação de ataque no Microsoft Defender para Office 365.
-ms.openlocfilehash: e3285b99d5b64255b9fdbda8c76b6f133aa013b2
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 45311ad4c4eb09c8238d278475248680fbc66287
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870858"
+ms.locfileid: "49877123"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Criar um conteúdo personalizado para treinamento de simulação de Ataque
 
 A Microsoft oferece um catálogo robusto de carga para várias técnicas de engenharia social para emparelhar com seu treinamento de simulação de ataque. No entanto, talvez você queira criar cargas personalizadas que funcionarão melhor para sua organização. Este artigo descreve como criar uma carga no treinamento de simulação de ataques no Microsoft Defender para Office 365.
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Você pode criar uma carga  clicando em Criar uma carga na guia [ **Cargas**](https://security.microsoft.com/attacksimulator?viewid=payload) dedicada ou no assistente de criação [de simulação.](attack-simulation-training.md#selecting-a-payload)
 

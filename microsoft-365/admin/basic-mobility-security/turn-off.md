@@ -1,5 +1,5 @@
 ---
-title: Desativar a mobilidade básica e segurança
+title: Desativar Mobilidade Básica e Segurança
 f1.keywords: NOCSH
 ms.author: kwekua
 author: kwekua
@@ -13,47 +13,46 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
-description: Remover grupos ou políticas para desativar a mobilidade básica e a segurança.
-ms.openlocfilehash: 54f78cc30e5259ad5244ce3a8fc6d0f46a395d7c
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: Remova grupos ou políticas para desativar a Mobilidade Básica e Segurança.
+ms.openlocfilehash: 0786ac8ebd190b9af3211c211cc6db2ea9e0ea48
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430054"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876835"
 ---
-# <a name="turn-off-basic-mobility-and-security"></a>Desativar a mobilidade básica e segurança
+# <a name="turn-off-basic-mobility-and-security"></a>Desativar Mobilidade Básica e Segurança
 
-Para desativar efetivamente a mobilidade e a segurança básica, remova grupos de pessoas definidos por grupos de segurança das políticas de gerenciamento de dispositivos ou remova as próprias políticas.
+Para desativar efetivamente a Mobilidade Básica e a Segurança, remova grupos de pessoas definidos por grupos de segurança das políticas de gerenciamento de dispositivos ou remova as próprias políticas.
 
-- Remover grupos de usuários, removendo grupos de segurança do usuário das políticas de dispositivos que você criou.
-    
-- Desabilite a mobilidade básica e a segurança para todos removendo todas as políticas básicas de mobilidade e dispositivo de segurança.
-    
-Essas opções removem a mobilidade básica e a imposição de segurança para dispositivos em sua organização. Infelizmente, não é possível simplesmente "desconfigurar" a mobilidade básica e a segurança após configurá-la. 
+- Remova grupos de usuários removendo grupos de segurança de usuários das políticas de dispositivo que você criou.
+
+- Desabilite a Mobilidade Básica e a Segurança para todos removendo todas as políticas básicas de dispositivos de Mobilidade e Segurança.
+
+Essas opções removem a imposição básica de mobilidade e segurança para dispositivos em sua organização. Infelizmente, você não pode simplesmente "desprovisionar" a Mobilidade e a Segurança Básica após a configuração. 
 
 >[!IMPORTANT]
->Lembre-se do impacto nos dispositivos dos usuários ao remover grupos de segurança do usuário das políticas ou remover as próprias diretivas. Por exemplo, perfis de email e emails em cache podem ser removidos, dependendo do dispositivo. Para obter mais informações, consulte  [o que acontece quando você exclui uma política ou remove um usuário da política?](https://support.microsoft.com/office/create-device-security-policies-in-basic-mobility-and-security-d310f556-8bfb-497b-9bd7-fe3c36ea2fd6#bkmk_changeimpact)
+>Esteja ciente do impacto nos dispositivos dos usuários ao remover grupos de segurança do usuário das políticas ou remover as próprias políticas. Por exemplo, perfis de email e emails armazenados em cache podem ser removidos, dependendo do dispositivo. Para saber mais, veja  [o que acontece quando você exclui uma política ou remove um usuário da política?](https://support.microsoft.com/office/create-device-security-policies-in-basic-mobility-and-security-d310f556-8bfb-497b-9bd7-fe3c36ea2fd6#bkmk_changeimpact)
 
-## <a name="remove-user-security-groups-from-basic-mobility-and-security-device-policies"></a>Remover grupos de segurança de usuário das políticas de mobilidade básica e dispositivo de segurança
+## <a name="remove-user-security-groups-from-basic-mobility-and-security-device-policies"></a>Remover grupos de segurança do usuário das políticas básicas de dispositivos de mobilidade e segurança
 
-1. No seu navegador, digite:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
+1. No seu tipo de navegador:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
 
-2. Selecione uma política de dispositivo e selecione **Editar política**. 
+2. Selecione uma política de dispositivo e selecione **Editar política.** 
 
-3. Na página  **implantação**   , selecione **remover**.
+3. Na  **** página   Implantação, selecione **Remover**.
+
+4. Em  **Grupos,** selecione um grupo de segurança.
+
+5. Selecione  **Remover** e **Salvar.**
+
+## <a name="remove-basic-mobility-and-security-device-policies"></a>Remover políticas básicas de dispositivos de mobilidade e segurança
+
+1.  No seu tipo de navegador:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) . 
+
+2.  Selecione uma política de dispositivo e, em seguida,  **selecione Excluir política.**
     
-4. Em  **grupos**, selecione um grupo de segurança.
+3.  Na caixa de diálogo Aviso, selecione **Sim**.
 
-5. Selecione  **remover**e selecione **salvar**.
-    
-
-## <a name="remove-basic-mobility-and-security-device-policies"></a>Remover as políticas de mobilidade básica e dispositivo de segurança
-
-1.  No seu navegador, digite:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) . 
-
-2.  Selecione uma política de dispositivo e, em seguida, selecione  **excluir política**.
-    
-3.  Na caixa de diálogo de aviso, selecione **Sim**.
-
->[!NOTE] 
->Para obter mais etapas para desbloquear dispositivos se os dispositivos de sua organização ainda estiverem em um estado bloqueado, consulte o blog post [removendo o controle de acesso do gerenciamento de dispositivos móveis para o Office 365](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934).
+>[!NOTE]
+>Para obter mais etapas para desbloquear dispositivos se os dispositivos da sua organização ainda estão em um estado bloqueado, consulte a postagem do blog Removendo o Controle de Acesso do Gerenciamento de Dispositivo Móvel para [o Office 365.](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)

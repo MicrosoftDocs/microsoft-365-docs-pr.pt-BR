@@ -19,18 +19,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou Microsoft Defender for Office 365 Plano 2.
-ms.openlocfilehash: 9d97816edf7d59c002658fc8bb3f39e72dbc2430
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 2c00fb27748887c6b8e2fa1458b10f0c3405eef7
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871236"
+ms.locfileid: "49877159"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Começar a usar o treinamento de simulação de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Se sua organização tiver o Microsoft 365 E5 ou o Microsoft Defender for Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o treinamento de simulação de ataque na Central de Segurança da Microsoft para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real a impacte seu resultado final. Leia este artigo para saber mais.
 
