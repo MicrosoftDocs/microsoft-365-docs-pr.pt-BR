@@ -17,17 +17,17 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 feedback_system: None
-description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 10f45403703130c191f4cbb26d1c0cba168b05ae
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+description: A prevenção contra perda de dados (DLP) no Centro de Conformidade de Segurança inclui 80 tipos de informações confidenciais que estão prontos para uso em suas &amp; políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
+ms.openlocfilehash: 584e2fe2353c1f80545a3742a44163cb26ee2c29
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751278"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881780"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
-A prevenção de perda de dados (DLP) no centro de conformidade inclui muitos tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo. Um tipo de informação confidencial é definido por um padrão que pode ser identificado por uma função ou uma expressão regular. Além disso, evidências corroborativas, como palavras-chave e somas de verificação, podem ser usadas para identificar um tipo de informação confidencial. O nível de confiança e a proximidade também são usados no processo de avaliação.
+A prevenção contra perda de dados (DLP) no Centro de Conformidade inclui vários tipos de informações confidenciais que estão prontos para uso em suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo. Um tipo de informação confidencial é definido por um padrão que pode ser identificado por uma função ou uma expressão regular. Além disso, evidências corroborativas, como palavras-chave e somas de verificação, podem ser usadas para identificar um tipo de informação confidencial. O nível de confiança e a proximidade também são usados no processo de avaliação.
 
 Os tipos de informações confidenciais exigem uma destas assinaturas:
 - Microsoft 365 E3
@@ -41,7 +41,7 @@ nove dígitos que podem estar em um padrão formatado ou não formatado
 
 ### <a name="pattern"></a>Padrão
 
-Binário
+Formatado:
 - quatro dígitos começando com 0, 1, 2, 3, 6, 7 ou 8
 - um hífen
 - quatro dígitos
@@ -90,11 +90,11 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - americanbankassociationroutingnumber
 - bankrouting #
 - bankroutingnumber
-- caminhar #
-- roteamento não
+- routing #
+- não de roteamento
 - número de roteamento
 - routing transit number
-- caminhar #
+- routing #
 - RTN
 
 
@@ -120,8 +120,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_argentina_national_id localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_argentina_national_id for encontrada.
+- A expressão regular Regex_argentina_national_id localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_argentina_national_id for encontrada.
 
 ```xml
 <!-- Argentina National Identity (DNI) Number -->
@@ -139,19 +139,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - Número de Identidade Nacional da Argentina 
 - cedula 
-- cédula 
+- que você pode 
 - dni 
-- documento nacional de Identidad 
-- número do documento 
-- documentar numero 
-- registro de nacional de las 
+- documento nacional de identidad 
+- documento número 
+- documento numero 
+- registro nacional de las personas 
 - rnp 
    
-## <a name="australia-bank-account-number"></a>Número da conta bancária da Austrália
+## <a name="australia-bank-account-number"></a>Número de conta bancária da Austrália
 
 ### <a name="format"></a>Formatar
 
-seis a dez dígitos com ou sem um número de filial do estado do banco
+de seis a dez dígitos com ou sem um número de filial de estado bancário
 
 ### <a name="pattern"></a>Padrão
 
@@ -210,13 +210,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - full names
 - iaea
 
-## <a name="australia-business-number"></a>Número de empresa da Austrália
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="australia-business-number"></a>Número comercial da Austrália
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 
 ### <a name="format"></a>Formatar
@@ -242,11 +242,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_australian_business_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_australian_business_number for encontrada.
+- A função Func_australian_business_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_australian_business_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_australian_business_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_australian_business_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Australia Business Number -->
@@ -264,21 +264,21 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_australia_business_number"></a>Keyword_australia_business_number
 
-- ausência comercial na Austrália
-- número de negócios
-- ABN #
-- BusinessID #
-- ID de negócios
-- ABN
+- australia business no
+- número comercial
+- abn #
+- businessid #
+- id da empresa
+- abn
 - businessno #
 
-## <a name="australia-company-number"></a>Número da empresa Austrália
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="australia-company-number"></a>Número da empresa na Austrália
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -302,11 +302,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Australian_Company_Number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Australian_Company_Number for encontrada.
+- A função Func_Australian_Company_Number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Australian_Company_Number for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Australian_Company_Number localiza o conteúdo que corresponde ao padrão.
+- A função Func_Australian_Company_Number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Australia Company Number -->
@@ -324,15 +324,15 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_australia_company_number"></a>Keyword_australia_company_number
 
-- Posso
-- empresa Austrália não
-- empresa Austrália não #
-- número da empresa Austrália
-- empresa australiano não
-- empresa australiano não #
-- número da empresa australiano
+- pode
+- australia company no
+- australia company no #
+- australia company number
+- australian company no
+- australian company no #
+- australian company number
 
-## <a name="australia-drivers-license-number"></a>Número da carteira de motorista da Austrália
+## <a name="australia-drivers-license-number"></a>Número de carteira de motorista da Austrália
 
 ### <a name="format"></a>Formatar
 
@@ -342,18 +342,18 @@ nove letras e dígitos
 
 nove letras e dígitos: 
 
-- dois dígitos ou letras (não diferencia maiúsculas de minúsculas) 
+- dois dígitos ou letras (não são sensíveis a maiúsculas e minúsculas) 
 - dois dígitos 
-- cinco dígitos ou letras (não diferencia maiúsculas de minúsculas)
+- cinco dígitos ou letras (não são sensíveis a maiúsculas e minúsculas)
 
 OU
 
-- uma ou duas letras opcionais (não diferencia maiúsculas de minúsculas) 
-- quatro a nove dígitos
+- uma a duas letras opcionais (não sensíveis a maiúsculas e minúsculas) 
+- de quatro a nove dígitos
 
 OU
 
-- nove dígitos ou letras (não diferencia maiúsculas de minúsculas)
+- nove dígitos ou letras (não sensíveis a maiúsculas e minúsculas)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -449,7 +449,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_australia_drivers_license_number_exclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
-- AAA
+- aaa
 - DriverLicense
 - DriverLicenses
 - Driver License
@@ -492,10 +492,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 10 a 11 dígitos:
-- o primeiro dígito está no intervalo 2-6
+- o primeiro dígito está no intervalo de 2 a 6
 - nono dígito é um dígito de verificação
-- décimo dígito é o dígito de saída
-- o décimo primeiro dígito (opcional) é o número individual
+- décimo dígito é o dígito do problema
+- primeiro dígito (opcional) é o número individual
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -531,7 +531,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - credit card loan
 - department of human services
 - local service
-- medicare
+- 2013
 
    
 ## <a name="australia-passport-number"></a>Número de passaporte da Austrália
@@ -552,7 +552,7 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_australia_passport_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_passport ou Keyword_australia_passport_number for encontrada.
+- Uma palavra-chave Keyword_passport ou Keyword_australia_passport_number for encontrada.
 
 ```xml
 <!-- Australia Passport Number -->
@@ -574,13 +574,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passport Number
 - Passport No
 - Passport #
-- Passaport #
-- Passportid
+- Passport #
+- PassportID
 - Passportno
 - passportnumber
 - パスポート
 - パスポート番号
-- パスポートのNum
+- パ ポトスNum
 - パスポート ＃ 
 - Numéro de passeport
 - Passeport n °
@@ -592,28 +592,28 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_australia_passport_number"></a>Keyword_australia_passport_number
 
-- Passaport
+- passport
 - passport details
 - immigration and citizenship
 - commonwealth of australia
 - department of immigration
 - residential address
 - department of immigration and citizenship
-- cartões
+- visa
 - national identity card
 - passport number
 - travel document
 - issuing authority
    
-## <a name="australia-tax-file-number"></a>Número de arquivo de imposto Austrália
+## <a name="australia-tax-file-number"></a>Número de arquivo de imposto da Austrália
 
 ### <a name="format"></a>Formatar
 
-8 a nove dígitos
+oito a nove dígitos
 
 ### <a name="pattern"></a>Padrão
 
-8 a nove dígitos normalmente apresentados com espaços da seguinte maneira:
+de oito a nove dígitos geralmente são apresentados com espaços da seguinte maneira:
 - três dígitos 
 - um espaço opcional 
 - três dígitos 
@@ -655,7 +655,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - tax file number
 - tfn
 
-## <a name="austria-drivers-license-number"></a>Número da carteira de motorista do Áustria
+## <a name="austria-drivers-license-number"></a>Número de carteira de motorista da Áustria
 
 ### <a name="format"></a>Formatar
 
@@ -673,8 +673,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular  `Regex_austria_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_austria_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_austria_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_austria_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Austria Driver's License Number -->
@@ -691,7 +691,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -699,135 +699,135 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver ' s_license_number
+#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver é s_license_number
 
-- fuhrerschein
+- ltdschein
 - führerschein
 - Führerscheine
 - Führerscheinnummer
 - Führerscheinnummern
 
 ## <a name="austria-identity-card"></a>Cartão de identidade da Áustria
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -837,9 +837,9 @@ Uma combinação de 24 caracteres de letras, dígitos e caracteres especiais
 
 24 caracteres:
   
--  22 letras (não diferencia maiúsculas de minúsculas), dígitos, barras invertidas, barras encaminhadas ou sinais de adição 
+-  22 letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras ou sinais de mais 
     
-- duas letras (não diferencia maiúsculas de minúsculas), dígitos, barras invertidas, barras invertidas, sinais de adição ou sinais de igual
+- duas letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras para frente, sinais de mais ou sinais de igual
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -849,8 +849,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular  `Regex_austria_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_austria_eu_national_id_card` foi encontrada. 
+- A expressão regular  `Regex_austria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_austria_eu_national_id_card` de onde foi encontrada. 
    
 ```xml
       <!-- Austria Identity Card -->
@@ -866,7 +866,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
-- número de identidade
+- identity number
 - national id
 - personalausweis republik österreich
 
@@ -874,13 +874,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-Uma letra seguida de um espaço opcional e sete dígitos
+Uma letra seguida por um espaço opcional e sete dígitos
   
 ### <a name="pattern"></a>Padrão
 
 Uma combinação de uma letra, sete dígitos e um espaço:
   
-- uma letra (não diferencia maiúsculas de minúsculas)
+- uma letra (não sensível a letras minúsculas)
 - um espaço (opcional)
 - sete dígitos
     
@@ -891,13 +891,13 @@ não se aplica
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_austria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_austria_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_austria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_austria_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_austria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_austria_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_austria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_austria_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Austria Passport Number -->
@@ -927,29 +927,29 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_austria_eu_passport_number"></a>Keywords_austria_eu_passport_number
 
 - reisepassnummer
-- reisepasse
+- reeepasse
 - No-Reisepass 
 - Nr-Reisepass
 - Reisepass-Nr
 - Passnummer
-- reisepässe
+- reeepässe
 
 
-## <a name="austria-social-security-number"></a>Número da segurança social da Áustria
+## <a name="austria-social-security-number"></a>Número do seguro social da Áustria
 
 ### <a name="format"></a>Formatar
 
@@ -961,7 +961,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
   
 - três dígitos que correspondem a um número de série 
 - um dígito de verificação
-- seis dígitos que correspondem à data de nascimento (DDMMAA)
+- seis dígitos que correspondem à data de nascimento (DDMMYY)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -971,7 +971,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- uma palavra-chave de  `Keywords_austria_eu_ssn_or_equivalent` foi encontrada. 
+- uma palavra-chave  `Keywords_austria_eu_ssn_or_equivalent` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
@@ -997,35 +997,35 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_austria_eu_ssn_or_equivalent"></a>Keywords_austria_eu_ssn_or_equivalent
 
-- SSN austríaco
-- número do EHIC
-- EHIC não
+- csn
+- ehic number
+- ehic no
 - código de seguro
 - insurancecode #
-- número de seguro
-- seguro não
+- insurance number
+- insurance no
 - krankenkassennummer
 - krankenversicherung
 - socialsecurityno
 - socialsecurityno #
-- segurança social não
+- social security no
 - social security number
 - social security code
 - sozialversicherungsnummer
 - sozialversicherungsnummer #
 - soziale sicherheit kein
 - sozialesicherheitkein #
-- es #
-- es
+- ssn #
+- ssn
 - versicherungscode
 - versicherungsnummer
 - zdravstveno zavarovanje
 
-## <a name="austria-tax-identification-number"></a>Número de identificação do imposto da Áustria
+## <a name="austria-tax-identification-number"></a>Número de identificação fiscal da Áustria
 
 ### <a name="format"></a>Formatar
 
-nove dígitos com hífen opcional e barra para frente
+nove dígitos com hífen opcional e barra
   
 ### <a name="pattern"></a>Padrão
 
@@ -1045,7 +1045,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_austria_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_austria_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -1071,40 +1071,40 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - st.nr.
 - steuernummer
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
-- número do imposto
+- tin id
+- tin no
+- tin #
+- tax number
  
 ## <a name="austria-value-added-tax"></a>Imposto sobre valor agregado da Áustria
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão alfanumérico de 11 caracteres
+Padrão alfanumérico de 11 caracteres
 
 ### <a name="pattern"></a>Padrão
 
-padrão alfanumérico de 11 caracteres:
+Padrão alfanumérico de 11 caracteres:
 
-- A ou uma
+- A ou a
 - T ou t
 - Espaço opcional
 - U ou u
@@ -1122,11 +1122,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Austria_Value_Added_Tax localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Austria_Value_Added_Tax for encontrada.
+- A função Func_Austria_Value_Added_Tax localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Austria_Value_Added_Tax for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Austria_Value_Added_Tax localiza o conteúdo que corresponde ao padrão.
+- A função Func_Austria_Value_Added_Tax localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Austria Value Added Tax -->
@@ -1144,35 +1144,35 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_austria_value_added_tax"></a>Keyword_austria_value_added_tax
 
-- número de IVA
-- IVA #
-- número de IVA austríaco
-- IVA não.
+- número do iva
+- vat #
+- vat number
+- iva no.
 - vatno #
-- número de imposto sobre valor agregado
-- VAT austríaca
+- valor adicionado número de imposto
+- vat vat
 - mwst
 - umsatzsteuernummer
 - mwstnummer
 - ust.-identifikationsnummer
 - umsatzsteuer-identifikationsnummer
-- número de identificação do IVA
-- número do atu
-- número de UID
+- número de identificação do iva
+- número de atu
+- uid number
 
 
-## <a name="azure-documentdb-auth-key"></a>Chave de autenticação do Azure DocumentDB
+## <a name="azure-documentdb-auth-key"></a>Chave de auth do Azure DocumentDB
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "DocumentDb" seguida dos caracteres e cadeias de caracteres descritos no padrão abaixo.
+A cadeia de caracteres "DocumentDb" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo.
 
 ### <a name="pattern"></a>Padrão
 
 - A cadeia de caracteres "DocumentDb"
-- Qualquer combinação entre 3-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
-- Um símbolo maior que (>), um sinal de igual (=), uma aspa (") ou um apóstrofo (')
-- Qualquer combinação de 86 letras minúsculas ou maiúsculas, dígitos, barra de avanço (/) ou sinal de adição (+)
+- Qualquer combinação entre 3 e 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- Um símbolo maior que (>), um sinal de igual (=), uma aspas (") ou um apóstrofo (')
+- Qualquer combinação de 86 letras minúsculas ou maiúsculas, dígitos, barra (/) ou sinal de mais (+)
 - Dois sinais de igual (=)
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1182,8 +1182,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureDocumentDBAuthKey localiza o conteúdo que corresponde ao padrão.
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureDocumentDBAuthKey localiza conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 ```xml
 <!-- Azure Document DB Auth Key -->
@@ -1201,39 +1201,39 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Cadeia de conexão de banco de dados Azure IAAS e cadeia de conexão do Azure SQL
+## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Cadeia de conexão de banco de dados IAAS do Azure e cadeia de conexão SQL do Azure
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "Server", "Server" ou "Data Source" seguida dos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo a cadeia de caracteres "cloudapp. Azure.<!--no-hyperlink-->com "ou" cloudapp. Azure.<!--no-hyperlink-->NET "ou" Database. Windows.<!--no-hyperlink-->NET ", e a cadeia de caracteres" password "ou" password "ou" pwd ".
+A cadeia de caracteres "Servidor", "servidor" ou "fonte de dados" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo a cadeia de caracteres "cloudapp.azure.<!--no-hyperlink-->com" ou "cloudapp.azure.<!--no-hyperlink-->net" ou "database.windows.<!--no-hyperlink-->net" e a cadeia de caracteres "Password" ou "password" ou "pwd".
 
 ### <a name="pattern"></a>Padrão
 
-- a cadeia de caracteres "Server", "Server" ou "Data Source"
+- a cadeia de caracteres "Servidor", "servidor" ou "fonte de dados"
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
-- A cadeia de caracteres "cloudapp. Azure.<!--no-hyperlink-->com "," cloudapp. Azure.<!--no-hyperlink-->NET "ou" Database. Windows.<!--no-hyperlink-->Netlogon
-- qualquer combinação entre 1-300 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
-- a cadeia de caracteres "password", "password" ou "pwd"
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- A cadeia de caracteres "cloudapp.azure.<!--no-hyperlink-->com", "cloudapp.azure.<!--no-hyperlink-->net" ou "database.windows.<!--no-hyperlink-->net"
+- qualquer combinação entre 1 a 300 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- a cadeia de caracteres "Password", "password" ou "pwd"
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- um ou mais caracteres que não são ponto-e-vírgula (;), aspas (") ou apóstrofo (')
-- um ponto e vírgula (;), aspas (") ou apóstrofo (')
+- um ou mais caracteres que não são ponto-e-vírgula (;), aspas ("), ou apóstrofo (')
+- um ponto-e-vírgula (;), aspas ("), ou apóstrofo (')
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -1242,8 +1242,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureConnectionString localiza o conteúdo que corresponde ao padrão.
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureConnectionString localiza conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 ```xml
 <!--Azure IAAS Database Connection String and Azure SQL Connection String-->
@@ -1261,23 +1261,23 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-iot-connection-string"></a>Cadeia de conexão IoT do Azure
+## <a name="azure-iot-connection-string"></a>Cadeia de conexão do Azure IoT
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "HostName" seguida dos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo as cadeias de caracteres "Azure-Devices.<!--no-hyperlink-->NET "e" SharedAccessKey ".
+A cadeia de caracteres "HostName" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo as cadeias de caracteres "azure-devices.<!--no-hyperlink-->net" e "SharedAccessKey".
 
 ### <a name="pattern"></a>Padrão
 
@@ -1285,14 +1285,14 @@ A cadeia de caracteres "HostName" seguida dos caracteres e cadeias de caracteres
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
-- a cadeia de caracteres "Azure-Devices.<!--no-hyperlink-->Netlogon
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- a cadeia de caracteres "azure-devices.<!--no-hyperlink-->net"
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
 - a cadeia de caracteres "SharedAccessKey"
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação de 43 letras minúsculas ou maiúsculas, dígitos, barra de avanço (/) ou sinal de adição (+)
+- qualquer combinação de 43 letras minúsculas ou maiúsculas, dígitos, barra (/) ou sinal de mais (+)
 - um sinal de igual (=)
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1302,8 +1302,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureIoTConnectionString localiza o conteúdo que corresponde ao padrão.
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureIoTConnectionString localiza conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 ```xml
 <!--Azure IoT Connection String-->
@@ -1321,28 +1321,28 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## <a name="azure-publish-setting-password"></a>Senha de configuração de publicação do Azure
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "userpwd =" seguida de uma cadeia de caracteres alfanumérica.
+A cadeia de caracteres "userpwd=" seguida de uma cadeia alfanumérico.
 
 ### <a name="pattern"></a>Padrão
 
-- a cadeia de caracteres "userpwd ="
-- qualquer combinação de letras minúsculas ou dígitos de 60
+- a cadeia de caracteres "userpwd="
+- qualquer combinação de 60 letras minúsculas ou dígitos
 - aspas (")
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1352,8 +1352,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzurePublishSettingPasswords localiza o conteúdo que corresponde ao padrão.
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzurePublishSettingPasswords localiza conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 
 ```xml
@@ -1372,33 +1372,33 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-redis-cache-connection-string"></a>Cadeia de conexão do cache do Redis do Azure
+## <a name="azure-redis-cache-connection-string"></a>Cadeia de conexão de cache do Azure Redis
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "Redis. cache. Windows.<!--no-hyperlink-->NET "seguido pelos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo a cadeia de caracteres" password "ou" pwd ".
+A cadeia de caracteres "redis.cache.windows.<!--no-hyperlink-->net" seguido pelos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo a cadeia de caracteres "password" ou "pwd".
 
 ### <a name="pattern"></a>Padrão
 
-- a cadeia de caracteres "Redis. cache. Windows.<!--no-hyperlink-->Netlogon
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- a cadeia de caracteres "redis.cache.windows.<!--no-hyperlink-->net"
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
 - a cadeia de caracteres "password" ou "pwd"
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação de 43 caracteres que sejam letras minúsculas ou maiúsculas, dígitos, barra de avanço (/) ou sinal de adição (+)
+- qualquer combinação de 43 caracteres com letras minúsculas ou maiúsculas, dígitos, barra (/) ou sinal de mais (+)
 - um sinal de igual (=)
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1408,8 +1408,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureRedisCacheConnectionString localiza o conteúdo que corresponde ao padrão..
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureRedisCacheConnectionString localiza conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 ```xml
 <!--Azure Redis Cache Connection String-->
@@ -1427,33 +1427,33 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-sas"></a>SAS do Azure
+## <a name="azure-sas"></a>Azure SAS
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "SIG" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo.
+A cadeia de caracteres "sig" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo.
 
 ### <a name="pattern"></a>Padrão
 
-- a cadeia de caracteres "SIG"
+- a cadeia de caracteres "sig"
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação entre 43-53 caracteres que são letras minúsculas ou maiúsculas, dígitos ou o sinal de porcentagem (%)
-- a cadeia de caracteres "% 3D"
-- qualquer caractere que não seja letras minúsculas, dígitos ou sinal de porcentagem (%)
+- qualquer combinação entre 43 e 53 caracteres com letras minúsculas ou maiúsculas, dígitos ou o sinal de porcentagem (%)
+- a cadeia de caracteres "%3d"
+- qualquer caractere que não seja letra, dígito ou sinal de porcentagem (%)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -1462,7 +1462,7 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureSAS localiza o conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureSAS localiza conteúdo que corresponde ao padrão.
 
 ```xml
 <!--Azure SAS-->
@@ -1477,7 +1477,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "EndPoint" seguida dos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo as cadeias de caracteres "ServiceBus. Windows.<!--no-hyperlink-->NET "e" SharedAccesKey ".
+A cadeia de caracteres "EndPoint" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo as cadeias de caracteres "servicebus.windows.<!--no-hyperlink-->net" e "SharedAccesKey".
 
 ### <a name="pattern"></a>Padrão
 
@@ -1485,14 +1485,14 @@ A cadeia de caracteres "EndPoint" seguida dos caracteres e cadeias de caracteres
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
-- a cadeia de caracteres "ServiceBus. Windows.<!--no-hyperlink-->Netlogon
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- a cadeia de caracteres "servicebus.windows.<!--no-hyperlink-->net"
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
 - a cadeia de caracteres "SharedAccessKey"
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação de 43 caracteres que sejam letras minúsculas ou maiúsculas, dígitos, barra de avanço (/) ou sinal de adição (+)
+- qualquer combinação de 43 caracteres com letras minúsculas ou maiúsculas, dígitos, barra (/) ou sinal de mais (+)
 - um sinal de igual (=)
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1502,8 +1502,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureServiceBusConnectionString localiza o conteúdo que corresponde ao padrão..
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureServiceBusConnectionString localiza conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 ```xml
 <!--Azure Service Bus Connection String-->
@@ -1521,23 +1521,23 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## <a name="azure-storage-account-key"></a>Chave da conta de armazenamento do Azure
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "DefaultEndpointsProtocol" seguida dos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo a cadeia de caracteres "AccountKey".
+A cadeia de caracteres "DefaultEndpointsProtocol" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo, incluindo a cadeia de caracteres "AccountKey".
 
 ### <a name="pattern"></a>Padrão
 
@@ -1545,12 +1545,12 @@ A cadeia de caracteres "DefaultEndpointsProtocol" seguida dos caracteres e cadei
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
 - a cadeia de caracteres "AccountKey"
 - zero a dois caracteres de espaço em branco
 - um sinal de igual (=)
 - zero a dois caracteres de espaço em branco
-- qualquer combinação de 86 caracteres que sejam letras minúsculas ou maiúsculas, dígitos, barra de avanço (/) ou sinal de adição (+)
+- qualquer combinação de 86 caracteres com letras minúsculas ou maiúsculas, dígitos, barra (/) ou sinal de mais (+)
 - dois sinais de igual (=)
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1560,9 +1560,9 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureStorageAccountKey localiza o conteúdo que corresponde ao padrão.
-- A expressão regular CEP_AzureEmulatorStorageAccountFilter não **localiza o** conteúdo que corresponde ao padrão.
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureStorageAccountKey localiza conteúdo que corresponde ao padrão.
+- A expressão regular CEP_AzureEmulatorStorageAccountFilter **não encontra** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 ```xml
 <!--Azure Storage Account Key-->
@@ -1581,34 +1581,34 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_azure_emulator_storage_account_filter"></a>CEP_azure_emulator_storage_account_filter
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
-- Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw = =
+- Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-storage-account-key-generic"></a>Chave da conta de armazenamento do Azure (genérico)
+## <a name="azure-storage-account-key-generic"></a>Chave da conta de armazenamento do Azure (genérica)
 
 ### <a name="format"></a>Formatar
 
-Qualquer combinação de letras maiúsculas ou minúsculas de 86, dígitos, barra (/) ou sinal de adição (+), precedida ou seguida dos caracteres descritos no padrão abaixo.
+Qualquer combinação de 86 letras minúsculas ou maiúsculas, dígitos, barra (/) ou sinal de mais (+), precedida ou seguida pelos caracteres descritos no padrão abaixo.
 
 ### <a name="pattern"></a>Padrão
 
 - zero para um dos símbolos maior que (>), apóstrofo ('), sinal de igual (=), aspas (") ou sinal de número (#)
-- qualquer combinação de 86 caracteres que sejam letras minúsculas ou maiúsculas, dígitos, a barra (/) ou sinal de adição (+)
+- qualquer combinação de 86 caracteres com letras minúsculas ou maiúsculas, dígitos, barra (/) ou sinal de mais (+)
 - dois sinais de igual (=)
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1618,7 +1618,7 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_AzureStorageAccountKeyGeneric localiza o conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_AzureStorageAccountKeyGeneric localiza conteúdo que corresponde ao padrão.
 
 ```xml
 <!--Azure Storage Account Key (Generic)-->
@@ -1628,7 +1628,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
   </Pattern>
 </Entity>
 ```
-## <a name="belgium-drivers-license-number"></a>Número da carteira de motorista do Bélgica
+## <a name="belgium-drivers-license-number"></a>Número de carteira de motorista da Bélgica
 
 ### <a name="format"></a>Formatar
 
@@ -1645,8 +1645,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_belgium_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_eu_driver's_license_number` ou `Keywords_belgium_eu_driver's_license_number` é encontrada.
+- A expressão regular  `Regex_belgium_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave `Keywords_eu_driver's_license_number` de `Keywords_belgium_eu_driver's_license_number` ou for encontrada.
     
 ```xml
       <!-- Belgium Driver's License Number -->
@@ -1664,7 +1664,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -1672,132 +1672,132 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
-#### <a name="keywords_belgium_eu_drivers_license_number"></a>Keywords_belgium_eu_driver ' s_license_number
+#### <a name="keywords_belgium_eu_drivers_license_number"></a>Keywords_belgium_eu_driver's_license_number
 
 - rijbewijs
 - rijbewijsnummer
 - führerschein
 - führerscheinnummer
 - füehrerscheinnummer
-- fuhrerschein
+- ltdschein
 - fuehrerschein
-- fuhrerscheinnummer
+- lpscheinnummer
 - fuehrerscheinnummer
 - permis de conduire
-- Numéro permé conduire
+- numéro permis conduzire
 
 
 ## <a name="belgium-national-number"></a>Número nacional da Bélgica
@@ -1809,10 +1809,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 11 dígitos mais delimitadores.
-- seis dígitos e dois períodos opcionais no formato YY. MM.DD para data de nascimento 
-- Um delimitador opcional de ponto, traço, espaço 
-- três dígitos sequenciais (ímpares para homens, mesmo para mulheres) 
-- Um delimitador opcional de ponto, traço, espaço 
+- seis dígitos e dois pontos opcionais no formato AA. MM.DD para a data de nascimento 
+- Umlimiter opcional de ponto, traço, espaço 
+- três dígitos sequenciais (ímpar para homens, mesmo para mulheres) 
+- Umlimiter opcional de ponto, traço, espaço 
 - dois dígitos de verificação
 
 ### <a name="checksum"></a>Soma de verificação
@@ -1822,12 +1822,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_belgium_national_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_belgium_national_number for encontrada.
+- A função Func_belgium_national_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_belgium_national_number for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_belgium_national_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_belgium_national_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -1847,62 +1847,62 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_belgium_national_number"></a>Keyword_belgium_national_number
 
-- aantal de última
+- relemting aantal
 - bnn #
 - bnn
-- d'identité carte
-- nacional de identificação
+- carte d'identité
+- identifiant national
 - identifiantnational #
 - identificatie
-- identificador
+- identification
 - identifikation
 - identifikationsnummer
 - identifizierung
 - identité
 - identiteit
 - identiteitskaart
-- ladrões
-- inscription
-- número nacional
-- Registro Nacional
+- identity
+- od
+- national number
+- national register
 - nationalnumber #
 - nationalnumber
-- nse #
-- nse
+- nif #
+- nif
 - numéro d'assuré
-- Numéro de Registro Nacional
+- numéro de registre national
 - numéro de sécurité
 - numéro d'identification
 - numéro d'immatriculation
-- nacional Numéro
+- numéro national
 - numéronational #
-- número de identificação pessoal
+- número de ID pessoal
 - personalausweis
 - personalidnumber #
 - registratie
-- registro
+- registration
 - registrationsnumme
 - registrierung
 - social security number
-- es #
-- es
+- ssn #
+- ssn
 - steuernummer
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 ## <a name="belgium-passport-number"></a>Número de passaporte da Bélgica
 
@@ -1921,13 +1921,13 @@ não se aplica
 ### <a name="definition"></a>Definição
 
  Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_belgium_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_belgium_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date2` encontra a data no formato dd mm aa ou uma palavra-chave de `Keywords_eu_passport_date` ou `Keywords_belgium_eu_passport_number` é encontrada
+- A expressão regular  `Regex_belgium_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_belgium_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date2` localiza data no formato DD MM AA ou uma palavra-chave de ou é `Keywords_eu_passport_date` `Keywords_belgium_eu_passport_number` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_belgium_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_belgium_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_belgium_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_belgium_eu_passport_number` ou for encontrada. 
 
 ```xml
       <!-- Belgium Passport Number -->
@@ -1959,16 +1959,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_belgium_eu_passport_number"></a>Keywords_belgium_eu_passport_number
 
@@ -1985,28 +1985,28 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="belgium-value-added-tax-number"></a>Número de imposto adicionado ao valor da Bélgica
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão alfanumérico de 12 caracteres
+Padrão alfanumérico de 12 caracteres
 
 ### <a name="pattern"></a>Padrão
 
-padrão alfanumérico de 12 caracteres:
+Padrão alfanumérico de 12 caracteres:
 
-- uma letra B ou B
-- uma letra E ou E
+- uma letra B ou b
+- uma letra E ou e
 - um dígito 0
 - um dígito de 1 a 9
-- um ponto ou hífen opcional ou espaço
+- um ponto opcional, hífen ou espaço
 - quatro dígitos
-- um ponto ou hífen opcional ou espaço
+- um ponto opcional, hífen ou espaço
 - quatro dígitos
 
 
@@ -2018,11 +2018,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_belgium_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_belgium_value_added_tax_number for encontrada.
+- A função Func_belgium_value_added_tax_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_belgium_value_added_tax_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_belgium_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_belgium_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Belgium Value Added Tax Number -->
@@ -2041,15 +2041,15 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_belgium_value_added_tax_number"></a>Keyword_belgium_value_added_tax_number
 
-- n º TVA
-- número de IVA
-- IVA não
-- Numéro t. v. a
+- nº tva
+- número do iva
+- vat no
+- numéro t.v.a
 - umsatzsteuer-identifikationsnummer
 - umsatzsteuernummer
 - btw
 - btw #
-- IVA #
+- vat #
 
 
 ## <a name="brazil-cpf-number"></a>Número de CPF do Brasil
@@ -2060,16 +2060,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="pattern"></a>Padrão
 
-Binário
+Formatado:
 - três dígitos
-- um período
+- um ponto
 - três dígitos
-- um período
+- um ponto
 - três dígitos
 - um hífen
 - dois dígitos que são dígitos de verificação
 
-Não formatado
+Não formatado:
 - 11 dígitos em que os dois últimos dígitos são dígitos de verificação
 
 ### <a name="checksum"></a>Soma de verificação
@@ -2079,12 +2079,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cpf localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_brazil_cpf for encontrada.
+- A função Func_brazil_cpf localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_brazil_cpf for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cpf localiza o conteúdo que corresponde ao padrão.
+- A função Func_brazil_cpf localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -2105,9 +2105,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_brazil_cpf"></a>Keyword_brazil_cpf
 
 - CPF
-- Identificador
+- Identificação
 - Registro
-- Participação
+- Receita
 - Cadastro de Pessoas Físicas 
 - Imposto 
 - Identificação 
@@ -2115,7 +2115,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Receita 
 
    
-## <a name="brazil-legal-entity-number-cnpj"></a>Número de entidade legal (CNPJ) do Brasil
+## <a name="brazil-legal-entity-number-cnpj"></a>Número de entidade legal do Brasil (CNPJ)
 
 ### <a name="format"></a>Formatar
 
@@ -2126,12 +2126,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 14 dígitos mais delimitadores:
 
 - dois dígitos 
-- um período 
+- um ponto 
 - três dígitos 
-- um período 
-- três dígitos (estes primeiros oito dígitos são o número de registro) 
+- um ponto 
+- três dígitos (esses primeiros oito dígitos são o número de registro) 
 - uma barra 
-- número de filial de quatro dígitos 
+- número de ramificação de quatro dígitos 
 - um hífen 
 - dois dígitos que são dígitos de verificação
 
@@ -2142,12 +2142,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cnpj localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_brazil_cnpj for encontrada.
+- A função Func_brazil_cnpj localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_brazil_cnpj for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_cnpj localiza o conteúdo que corresponde ao padrão.
+- A função Func_brazil_cnpj localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -2188,26 +2188,26 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Empresa 
 
    
-## <a name="brazil-national-identification-card-rg"></a>Cartão de identificação nacional do Brasil (RG)
+## <a name="brazil-national-identification-card-rg"></a>Cartão de identificação nacional (RG) do Brasil
 
 ### <a name="format"></a>Formatar
 
-Registro geral (formato antigo): nove dígitos
+Registro Geral (formato antigo): nove dígitos
 
-Registro de identidade (RIC) (novo formato): 11 dígitos
+Registro de Identidade (RIC) (novo formato): 11 dígitos
 
 ### <a name="pattern"></a>Padrão
 
 Registro Geral (formato antigo):
 - dois dígitos 
-- um período 
+- um ponto 
 - três dígitos 
-- um período 
+- um ponto 
 - três dígitos 
 - um hífen 
 - um dígito que é um dígito de verificação
 
-Registro de identidade (RIC) (novo formato):
+Registro de Identidade (RIC) (novo formato):
 - dez dígitos 
 - um hífen 
 - um dígito que é um dígito de verificação
@@ -2219,12 +2219,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_rg localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_brazil_rg for encontrada.
+- A função Func_brazil_rg localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_brazil_rg for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_brazil_rg localiza o conteúdo que corresponde ao padrão.
+- A função Func_brazil_rg localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -2254,7 +2254,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - RIC (esta palavra-chave diferencia maiúsculas de minúsculas) 
 
 
-## <a name="bulgaria-drivers-license-number"></a>Número da carteira de motorista do Bulgária
+## <a name="bulgaria-drivers-license-number"></a>Número de carteira de motorista da Bulgária
 
 ### <a name="format"></a>Formatar
 
@@ -2271,8 +2271,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_bulgaria_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_bulgaria_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_bulgaria_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_bulgaria_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Bulgaria Driver's License Number -->
@@ -2289,7 +2289,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -2297,121 +2297,121 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_bulgaria_eu_drivers_license_number"></a>Keywords_bulgaria_eu_driver ' s_license_number
+#### <a name="keywords_bulgaria_eu_drivers_license_number"></a>Keywords_bulgaria_eu_driver's_license_number
 
 - свидетелство за управление на мпс
 - свидетелство за управление на моторно превозно средство
@@ -2420,12 +2420,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - шофьорски книжки
 
 ## <a name="bulgaria-uniform-civil-number"></a>Número civil uniforme da Bulgária
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -2437,7 +2437,7 @@ dez dígitos sem espaços e delimitadores
   
 - seis dígitos que correspondem à data de nascimento (AAMMDD) 
 - dois dígitos que correspondem à ordem de nascimento
-- um dígito que corresponde ao gênero: um dígito par para macho e um dígito estranho para o fêmea
+- um dígito que corresponde ao sexo: um dígito even para o adulto e um dígito ímpar para a mulher
 - um dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
@@ -2448,7 +2448,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_bulgaria_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_bulgaria_eu_national_id_card` de onde foi encontrada. 
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
@@ -2476,31 +2476,31 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - bnn #
 - bnn
-- bucn #
-- bucn
-- edinen grazhdanski de nome
+- quen #
+- quen
+- edinan pasthdaski nomer
 - egn #
 - egn
 - identification number
 - national id
-- número nacional
+- national number
 - nationalnumber #
 - nationalnumber
-- ID pessoal
-- pessoal não
+- id pessoal
+- personal no
 - número pessoal
 - personalidnumber #
 - social security number
-- es #
-- es
-- ID civil uniforme
-- Nenhum civil uniforme
+- ssn #
+- ssn
+- uniform civil id
+- uniform civil no
 - número civil uniforme
 - uniformcivilno #
 - uniformcivilno
 - uniformcivilnumber #
 - uniformcivilnumber
-- número exclusivo de cidadania
+- número de cidadania exclusivo
 - егн #
 - егн
 - единен граждански номер
@@ -2510,15 +2510,15 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - лично не
 - национален номер
 - номер на гражданството
-- ID униформ
-- ID de граждански униформ
+- униформ id
+- униформ граждански id
 - униформ граждански не
 - униформ граждански номер
 - униформгражданскиid #
 - униформгражданскине. #
 
 
-## <a name="bulgaria-passport-number"></a>Número de passaporte da Bulgária
+## <a name="bulgaria-passport-number"></a>Número de passaporte bulgária
 
 ### <a name="format"></a>Formatar
 
@@ -2535,13 +2535,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_bulgaria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_bulgaria_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_bulgaria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_bulgaria_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_bulgaria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_bulgaria_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_bulgaria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_bulgaria_eu_passport_number` ou for encontrada. 
 
 ```xml
       <!-- Bulgaria Passport Number -->
@@ -2570,29 +2570,29 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_bulgaria_eu_passport_number"></a>Keywords_bulgaria_eu_passport_number
 
 - номер на паспорта
 - номер на паспорт
-- паспорт não
+- паспорт No
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
-## <a name="canada-bank-account-number"></a>Número de conta bancária do Canadá
+## <a name="canada-bank-account-number"></a>Número da conta bancária do Canadá
 
 ### <a name="format"></a>Formatar
 
@@ -2605,8 +2605,8 @@ Um número de conta bancária do Canadá tem sete ou doze dígitos.
 Um número de trânsito de conta bancária do Canadá tem:
 - cinco dígitos 
 - um hífen 
-- três dígitos ou
-- um zero "0" 
+- or de três dígitos
+- a zero "0" 
 - oito dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -2745,15 +2745,15 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_ [province_name] _drivers_license_name
+#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_[province_name]_drivers_license_name
 
 - A abreviação da província, por exemplo AB
 - O nome da província, por exemplo, Alberta
 
 #### <a name="keyword_canada_drivers_license"></a>Keyword_canada_drivers_license
 
-- DISTRIBUIÇÃO
 - DL
+- DLS
 - CDL
 - CDLS
 - DriverLic
@@ -2820,9 +2820,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - identification #s
 - identification card
 - identification cards
-- identificador 
-- DISTRIBUIÇÃO #
-- DL # 
+- identification 
+- DL #
+- DLS # 
 - CDL # 
 - CDLS # 
 - DriverLic # 
@@ -2874,17 +2874,17 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Driver's Licence# 
 - Driver's Licences# 
 - Permis de Conduire# 
-- ID # 
-- código # 
+- id # 
+- ids # 
 - idcard card# 
 - idcard cards# 
 - idcard # 
 - identification card# 
 - identification cards# 
-- identificador # 
+- identification # 
 
    
-## <a name="canada-health-service-number"></a>Número do serviço de integridade do Canadá
+## <a name="canada-health-service-number"></a>Número do serviço de saúde do Canadá
 
 ### <a name="format"></a>Formatar
 
@@ -2926,9 +2926,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - speciality services
 - automobile accident
 - patient hospital
-- psychiatrist
+- ad
 - workers compensation
-- Deficiência
+- deficiência
 
       
 ## <a name="canada-passport-number"></a>Número de passaporte do Canadá
@@ -2949,7 +2949,7 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_canada_passport_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_canada_passport_number ou Keyword_passport for encontrada.
+- Uma palavra-chave Keyword_canada_passport_number ou Keyword_passport for encontrada.
 
 ```xml 
 <!-- Canada Passport Number -->
@@ -2982,14 +2982,14 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passport Number
 - Passport No
 - Passport #
-- Passaport #
-- Passportid
+- Passport #
+- PassportID
 - Passportno
 - passportnumber
 - パスポート
 - パスポート番号
-- パスポートのNum
-- パスポート＃
+- パ ポトスNum
+- パスポート#
 - Numéro de passeport
 - Passeport n °
 - Passeport Non
@@ -3017,7 +3017,7 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_canada_phin localiza o conteúdo que corresponde ao padrão.
-- São encontradas pelo menos duas palavras-chave de Keyword_canada_phin ou Keyword_canada_provinces.
+- Pelo menos duas palavras-chave de Keyword_canada_phin ou Keyword_canada_provinces são encontradas.
 
 ```xml
 <!-- Canada PHIN -->
@@ -3057,12 +3057,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Nunavut
 - Quebec
 - Northwest Territories
-- Ontário
+- São Paulo
 - British Columbia
 - Alberta
 - Saskatchewan
 - Manitoba
-- Yukon
+- Rêon
 - Newfoundland and Labrador
 - New Brunswick
 - Nova Scotia
@@ -3070,7 +3070,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Canadá
 
    
-## <a name="canada-social-insurance-number"></a>Número de seguro social do Canadá
+## <a name="canada-social-insurance-number"></a>Número do seguro social do Canadá
 
 ### <a name="format"></a>Formatar
 
@@ -3078,7 +3078,7 @@ nove dígitos com hifens ou espaços opcionais
 
 ### <a name="pattern"></a>Padrão
 
-Binário
+Formatado:
 - três dígitos 
 - um hífen ou espaço 
 - três dígitos 
@@ -3131,14 +3131,14 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - sin 
 - social insurance 
 - numero d'assurance sociale 
-- capitais 
-- es 
-- CPFs 
+- olm 
+- ssn 
+- ssns 
 - social security 
 - numero d'assurance social 
 - national identification number 
 - national id 
-- Sin # 
+- sin # 
 - soc ins 
 - social ins 
 
@@ -3158,18 +3158,18 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-sete a oito dígitos mais delimitadores um dígito ou letra de verificação
+sete a oito dígitos mais delimitadores um dígito de verificação ou letra
 
 ### <a name="pattern"></a>Padrão
 
 sete a oito dígitos mais delimitadores:
-- um a dois dígitos 
+- de um a dois dígitos 
 - um período opcional 
 - três dígitos 
 - um período opcional 
 - três dígitos 
 - um traço 
-- um dígito ou letra (não diferencia maiúscula de minúscula), que é um dígito de verificação
+- um dígito ou letra (não faz a seleção de letras minúsculas) que é um dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -3178,12 +3178,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_chile_id_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_chile_id_card for encontrada.
+- A função Func_chile_id_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_chile_id_card for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_chile_id_card localiza o conteúdo que corresponde ao padrão.
+- A função Func_chile_id_card localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -3203,43 +3203,43 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_chile_id_card"></a>Keyword_chile_id_card
 
-- cédula de Identidad
+- sempre de identidad
 - identificación
 - national identification
 - national identification number
 - national id
-- número de Identificación nacional
+- número de identificación nacional
 - rol único nacional
-- rol único tributario
-- SEJAM
-- ROTINA
-- tarjeta de Identificación
+- rol único saltrio
+- RUN
+- PRECISO
+- tarjeta de identificación
 - Rol Unico Nacional
-- Rol Unico Tributario
-- SEJAM #
-- ROTINA #
+- Rol Unico Unico Unico unicorio
+- RUN #
+- PRECISO #
 - nationaluniqueroleID #
 - nacional identidad
-- número Identificación
+- número identificación
 - identidad número
 - numero identificacion
 - identidad numero
-- N º de identidade chileno
-- Número de identidade chileno
-- Identidade chileno #
-- Registro de imposto exclusivo
-- Função tributária exclusiva
-- Função de imposto exclusivo
-- Número exclusivo
-- Número nacional exclusivo
+- Identidade de usuário não.
+- Número de identidade de usuário
+- Identidade de usuário #
+- Registro de Imposto Exclusivo
+- Função Desamuário Exclusiva
+- Função de imposto exclusiva
+- Número de Consulta Exclusivo
+- Número Nacional Exclusivo
 - Função nacional exclusiva
-- Função única nacional
-- N º de identidade do Chile
+- Função nacional exclusiva
+- Identidade não do Chile.
 - Número de identidade do Chile
-- Identidade do Chile #
+- Identidade chilena #
 
    
-## <a name="china-resident-identity-card-prc-number"></a>Número do cartão de identidade residente (PRC) da China
+## <a name="china-resident-identity-card-prc-number"></a>Número do cartão de identidade de residente (PRC) da China
 
 ### <a name="format"></a>Formatar
 
@@ -3260,12 +3260,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_china_resident_id localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_china_resident_id for encontrada.
+- A função Func_china_resident_id localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_china_resident_id for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_china_resident_id localiza o conteúdo que corresponde ao padrão.
+- A função Func_china_resident_id localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -3286,7 +3286,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keyword_china_resident_id"></a>Keyword_china_resident_id
 
 - Cartão de Identidade da Polônia 
-- POPULAR 
+- PRC 
 - Cartão de Identificação Nacional 
 - 身份证 
 - 居民 身份证 
@@ -3301,7 +3301,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-14 a 16 dígitos que podem ser formatados ou não formatados (dddddddddddddddd) e que devem passar no teste Luhn.
+14 a 16 dígitos que podem ser formatados ou não formatados (ddddd) e que devem passar no teste luhn.
 
 ### <a name="pattern"></a>Padrão
 
@@ -3349,7 +3349,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - card verification
 - card identification number
 - cvn
-- CID
+- cid
 - cvc2
 - cvv2
 - pin block
@@ -3370,20 +3370,20 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - sicherheitsnummer
 - verfalldatum
 - codice di verifica
-- COD. sicurezza
+- cod. sicurezza
 - cod sicurezza
 - n autorizzazione
-- CFOP
+- código
 - codigo
-- COD. seg
+- cod. seg
 - cod seg
 - código de segurança
 - codigo de seguranca
 - codigo de segurança
 - código de seguranca
 - cód. segurança
-- COD. seguranca
-- COD. segurança
+- cod. seguranca
+- cod. segurança
 - cód. seguranca
 - cód segurança
 - cod seguranca
@@ -3408,9 +3408,9 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - data de expiracao
 - data em que expira
 - validade
-- coragem
+- valor
 - vencimento
-- transação
+- transaction
 - número da transação
 - número de referência
 - セキュリティコード
@@ -3425,16 +3425,16 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - american express
 - americanexpress
 - americano espresso
-- Cartões
-- MasterCard
+- Visa
+- mastercard
 - master card
-- MC
-- MasterCards
+- mc
+- mastercards
 - master cards
 - diner's Club
 - diners club
-- dinersclub
-- tect
+- daSclub
+- descobrir
 - discover card
 - discovercard
 - discover cards
@@ -3442,10 +3442,10 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - BrandSmart
 - japanese card bureau
 - carte blanche
-- carteblanche
+- carte blanche
 - credit card
-- colocado #
-- CC #:
+- cc #
+- cc#:
 - expiration date
 - exp date
 - expiry date
@@ -3459,14 +3459,14 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - cardnumber
 - cardnumbers
 - card numbers
-- CreditCard
+- creditcard
 - credit cards
 - creditcards
-- CCN
+- ccn
 - card holder
-- aos
+- cardholder
 - card holders
-- titulares de cartões
+- cardholders
 - check card
 - checkcard
 - check cards
@@ -3479,20 +3479,20 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - atmcard
 - atm cards
 - atmcards
-- encaminhar
+- enroute
 - en route
 - card type
-- Cardmember acct
-- conta Cardmember
+- Cardmember Acct
+- conta cardmember
 - Cardno
 - Cartão corporativo
 - Cartões corporativos
 - Tipo de cartão
-- número da conta de cartão
+- número da conta do cartão
 - conta de membro do cartão
-- Cardmember acct.
+- Cardmember Acct.
 - card no.
-- n º do cartão
+- card no
 - card number
 - carte bancaire
 - carte de crédit
@@ -3502,7 +3502,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - nº de la carte
 - nº de carte
 - kreditkarte
-- karte
+- quee
 - karteninhaber
 - karteninhabers
 - kreditkarteninhaber
@@ -3515,7 +3515,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - kreditkarten-nummer
 - carta di credito
 - carta credito
-- n.n.n.. carta
+- n. carta
 - n carta
 - nr. carta
 - nr carta
@@ -3533,7 +3533,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - tarjeta débito
 - tarjeta de débito
 - nº de tarjeta
-- Não. de tarjeta
+- não. de tarjeta
 - no de tarjeta
 - numero de tarjeta
 - número de tarjeta
@@ -3559,25 +3559,25 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - numero de cartao
 - nº do cartão
 - nº do cartao
-- n º. do cartão
+- nº. do cartão
 - no do cartão
 - no do cartao
-- Não. do cartão
-- Não. do cartao
+- não. do cartão
+- não. do cartao
 - クレジットカード番号
 - クレジットカードナンバー
-- クレジットカード＃
+- クレジットカード#
 - クレジットカード
 - クレジット
 - クレカ
 - カード番号
 - カードナンバー
-- カード＃
+- カード#
 - アメックス
 - アメリカンエクスプレス
 - アメリカン エクスプレス
-- Visaカード
-- カード da visa
+- Visaカド
+- Visa カ ド
 - マスターカード
 - マスター カード
 - マスター
@@ -3595,7 +3595,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - デビットカード
 
 
-## <a name="croatia-drivers-license-number"></a>Número da carteira de motorista da Croácia
+## <a name="croatia-drivers-license-number"></a>Número de carteira de motorista da Croácia
 
 ### <a name="format"></a>Formatar
 
@@ -3613,8 +3613,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular  `Regex_croatia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_eu_driver's_license_number` ou `Keywords_croatia_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_croatia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave `Keywords_eu_driver's_license_number` de `Keywords_croatia_eu_driver's_license_number` ou for encontrada. 
 
 ```xml
       <!-- Croatia Driver's License Number -->
@@ -3631,7 +3631,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -3639,128 +3639,128 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_croatia_eu_drivers_license_number"></a>Keywords_croatia_eu_driver ' s_license_number
+#### <a name="keywords_croatia_eu_drivers_license_number"></a>Keywords_croatia_eu_driver's_license_number
 
 - vozačka dozvola
 - vozačke dozvole
 
 
-## <a name="croatia-identity-card-number"></a>Número do cartão de identidade da Croácia
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número de identificação nacional da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="croatia-identity-card-number"></a>Número do cartão de identidade croata
+Essa entidade de tipo de informação sensível está incluída no tipo de informação sensível ao Número de Identificação Nacional da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -3777,8 +3777,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_croatia_id_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_croatia_id_card for encontrada.
+- A função Func_croatia_id_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_croatia_id_card for encontrada.
 
 ```xml
 <!--Croatia Identity Card Number-->
@@ -3794,37 +3794,37 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_croatia_id_card"></a>Keyword_croatia_id_card
 
-- majstorski broj građana
-- número do cidadão mestre
+- hastorski brojđana
+- master citizen number
 - nacionalni identifikacijski broj
 - national identification number
-- NIB #
-- NIB
+- oib #
+- oib
 - osobna iskaznica
-- ID Osobni
+- osobni id
 - osobni identifikacijski broj
 - número de identificação pessoal
 - porezni broj
 - porezni identifikacijski broj
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="croatia-passport-number"></a>Número de passaporte da Croácia
+## <a name="croatia-passport-number"></a>Número de passaporte croata
 
 ### <a name="format"></a>Formatar
 
@@ -3841,13 +3841,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_croatia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_croatia_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_croatia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_croatia_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_croatia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_croatia_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_croatia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_croatia_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Croatia Passport Number -->
@@ -3876,16 +3876,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_croatia_eu_passport_number"></a>Keywords_croatia_eu_passport_number
 
@@ -3893,7 +3893,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - br. Putovnice
 - br putovnice
    
-## <a name="croatia-personal-identification-oib-number"></a>Número de identificação pessoal da Croácia (NIB)
+## <a name="croatia-personal-identification-oib-number"></a>Número de identificação pessoal (OIB) da Croácia
 
 ### <a name="format"></a>Formatar
 
@@ -3903,7 +3903,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 11 dígitos:
 - dez dígitos 
-- o dígito final é um dígito de verificação
+- dígito final é um dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -3912,12 +3912,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_croatia_oib_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_croatia_eu_tax_file_number for encontrada.
+- A função Func_croatia_oib_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_croatia_eu_tax_file_number for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_croatia_oib_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_croatia_oib_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -3937,37 +3937,37 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
-- majstorski broj građana
-- número do cidadão mestre
+- hastorski brojđana
+- master citizen number
 - nacionalni identifikacijski broj
 - national identification number
-- NIB #
-- NIB
+- oib #
+- oib
 - osobna iskaznica
-- ID Osobni
+- osobni id
 - osobni identifikacijski broj
 - número de identificação pessoal
 - porezni broj
 - porezni identifikacijski broj
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="cyprus-drivers-license-number"></a>Número de licença de drivers de Chipre
+## <a name="cyprus-drivers-license-number"></a>Número de licença de drivers chipre
 
 ### <a name="format"></a>Formatar
 
@@ -3984,8 +3984,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_cyprus_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_cyprus_eu_driver's_license_number` é encontrada.
+- A expressão regular  `Regex_cyprus_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_cyprus_eu_driver's_license_number` ou for encontrada.
 
 ```xml
       <!-- Cyprus Driver's License Number -->
@@ -4002,7 +4002,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -4010,133 +4010,133 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
-#### <a name="keywords_cyprus_eu_drivers_license_number"></a>Keywords_cyprus_eu_driver ' s_license_number
+#### <a name="keywords_cyprus_eu_drivers_license_number"></a>Keywords_cyprus_eu_driver é s_license_number
 
 - άδεια οδήγησης
 - αριθμό άδειας οδήγησης
 - άδειες οδήγησης
 
 
-## <a name="cyprus-identity-card"></a>Cartão de identidade do Chipre
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="cyprus-identity-card"></a>Cartão de identidade chipre
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -4153,8 +4153,8 @@ não se aplica
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_cyprus_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_cyprus_eu_national_id_card` foi encontrada. 
+- A expressão regular  `Regex_cyprus_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_cyprus_eu_national_id_card` de onde foi encontrada. 
     
 ```xml 
       <!-- Cyprus Identity Card -->
@@ -4172,17 +4172,17 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - número do cartão de identificação
 - número do cartão de identidade
-- kimlik karti
+- kimlik kimliki
 - national identification number
-- número de identificação pessoal
+- número de ID pessoal
 - ταυτοτητασ
 
 
-## <a name="cyprus-passport-number"></a>Número de passaporte do Chipre
+## <a name="cyprus-passport-number"></a>Número de passaporte chipre
 
 ### <a name="format"></a>Formatar
 
-uma letra seguida de 6-8 dígitos sem espaços ou delimitadores
+uma letra seguida de 6 a 8 dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
@@ -4195,13 +4195,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_cyprus_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_cyprus_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_cyprus_eu_passport_date` encontra a data no formato dd/mm/aaaa ou uma palavra-chave de `Keywords_cyprus_eu_passport_date` é encontrada
+- A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_cyprus_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_cyprus_eu_passport_date` localiza a data no formato DD/MM/AAAA ou uma palavra-chave de onde foi `Keywords_cyprus_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_cyprus_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_cyprus_eu_passport_number` é encontrada.  
+- A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_cyprus_eu_passport_number` ou for encontrada.  
     
 ```xml
       <!-- Cyprus Passport Number -->
@@ -4231,16 +4231,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_cyprus_eu_passport_number"></a>Keywords_cyprus_eu_passport_number
 
@@ -4253,7 +4253,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - αριθμός διαβατηρίου
 - Pasaport Kimliği
 - pasaport numarası
-- Pasaport não.
+- Pasaport no.
 - Αρ. Διαβατηρίου
 
 #### <a name="keywords_cyprus_eu_passport_date"></a>Keywords_cyprus_eu_passport_date
@@ -4262,13 +4262,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - emitido em
 
 
-## <a name="cyprus-tax-identification-number"></a>Número de identificação do imposto do Chipre
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="cyprus-tax-identification-number"></a>Número de identificação fiscal de Chipre
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -4278,9 +4278,9 @@ oito dígitos e uma letra no padrão especificado
 
 oito dígitos e uma letra:
   
-- um "0" ou "9"
+- a "0" ou "9"
 - sete dígitos
-- uma letra (não diferencia maiúsculas de minúsculas)
+- uma letra (não sensitivo entre letras minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -4290,7 +4290,7 @@ não se aplica
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_cyprus_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_cyprus_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -4314,23 +4314,23 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - tax id
 - código de identificação de imposto
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
 - tic #
 - tic
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 - vergi kimlik kodu
 - vergi kimlik numarası
 - αριθμός φορολογικού μητρώου
@@ -4339,7 +4339,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - φορολογικού κωδικού
 
 
-## <a name="czech-drivers-license-number"></a>Número da carteira de motorista do tcheco
+## <a name="czech-drivers-license-number"></a>Número da carteira de motorista tcheca
 
 ### <a name="format"></a>Formatar
 
@@ -4349,8 +4349,8 @@ duas letras seguidas por seis dígitos
 
 oito letras e dígitos:
   
-- letra ' E ' (não diferencia maiúsculas de minúsculas)
-- uma carta
+- letra 'E' (não sensitivo entre letras minúsculas)
+- uma letra
 - um espaço (opcional)
 - seis dígitos
 
@@ -4361,8 +4361,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_czech_republic_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_czech_republic_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_czech_republic_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_czech_republic_eu_driver's_license_number` ou for encontrada. 
 
 ```xml
       <Entity id="86b40d3b-d8ea-4c36-aab0-ef9416a6769c" patternsProximity="300" recommendedConfidence="75">
@@ -4379,7 +4379,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -4387,120 +4387,120 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
-#### <a name="keywords_czech_republic_eu_drivers_license_number"></a>Keywords_czech_republic_eu_driver ' s_license_number
+#### <a name="keywords_czech_republic_eu_drivers_license_number"></a>Keywords_czech_republic_eu_driver's_license_number
 
 - řidičský prúkaz
 - řidičské průkazy
@@ -4525,13 +4525,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_czech_republic_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_czech_republic_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_czech_republic_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_czech_republic_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_czech_republic_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_czech_republic_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_czech_republic_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_czech_republic_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Czech Republic Passport Number -->
@@ -4561,47 +4561,47 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_czech_republic_eu_passport_number"></a>Keywords_czech_republic_eu_passport_number
 
-- Pas cestovní
+- quení pas
 - číslo pasu
-- cestovní pasu
-- passeport não
+- quení pasu
+- passeport no
 - čísla pasu
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
 ## <a name="czech-personal-identity-number"></a>Número de identidade pessoal tcheco
 
 ### <a name="format"></a>Formatar
 
-nove dígitos com barra de avanço opcional (formato antigo) dez dígitos com barra de avanço opcional (novo formato)
+nove dígitos com barra (formato antigo) opcional dez dígitos com barra (novo formato) opcional
 
 ### <a name="pattern"></a>Padrão
 
 nove dígitos (formato antigo):
 - seis dígitos que representam a data de nascimento
-- uma barra de avanço opcional
+- uma barra inativa opcional
 - três dígitos
 
 dez dígitos (novo formato):
 - seis dígitos que representam a data de nascimento
-- uma barra de avanço opcional 
+- uma barra inativa opcional 
 - quatro dígitos onde o último dígito é um dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
@@ -4612,13 +4612,13 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 
-- A função Func_czech_id_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_czech_id_card for encontrada.
+- A função Func_czech_id_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_czech_id_card for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 
-- A função Func_czech_id_card_new_format localiza o conteúdo que corresponde ao padrão.
+- A função Func_czech_id_card_new_format localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -4641,52 +4641,52 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_czech_id_card"></a>Keyword_czech_id_card
 
 - número de nascimento
-- ID da República Tcheca
+- id da república tcheca
 - czechidno #
 - daňové číslo
 - identifikační číslo
-- identidade não
-- número de identidade
+- identity no
+- identity number
 - identityno #
 - identityno
-- número de seguro
+- insurance number
 - national identification number
 - nationalnumber #
-- número nacional
+- national number
 - osobní číslo
 - personalidnumber #
-- número de identificação pessoal
+- número de ID pessoal
 - número de identificação pessoal
 - número pessoal
-- atos #
-- atos
+- pid #
+- pid
 - pojištění číslo
 - rč
-- rodne cislo
+- leila cislo
 - rodné číslo
-- es
-- es #
+- ssn
+- ssn #
 - social security number
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
-- número de identificação exclusivo
+- tin id
+- tin no
+- tin #
+- número de identificação exclusiva
 
 
-## <a name="denmark-drivers-license-number"></a>Número da carteira de motorista da Dinamarca
+## <a name="denmark-drivers-license-number"></a>Número de carteira de motorista da Dinamarca
 
 ### <a name="format"></a>Formatar
 
@@ -4703,8 +4703,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_denmark_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_denmark_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_denmark_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_denmark_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Denmark Driver's License Number -->
@@ -4721,7 +4721,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -4729,126 +4729,126 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
-#### <a name="keywords_denmark_eu_drivers_license_number"></a>Keywords_denmark_eu_driver ' s_license_number
+#### <a name="keywords_denmark_eu_drivers_license_number"></a>Keywords_denmark_eu_driver's_license_number
 
 - kørekort
 - kørekortnummer
 
 
-## <a name="denmark-passport-number"></a>Número de passaporte da Dinamarca
+## <a name="denmark-passport-number"></a>Número de passaporte dinamarquês
 
 ### <a name="format"></a>Formatar
 
@@ -4865,13 +4865,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_denmark_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_denmark_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date2` encontra a data no formato dd mm aa ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_denmark_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_denmark_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date2` localiza a data no formato DD MM AA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_denmark_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_denmark_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_denmark_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_denmark_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Denmark Passport Number -->
@@ -4902,27 +4902,27 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_denmark_eu_passport_number"></a>Keywords_denmark_eu_passport_number
 
 - pasnummer
-- Passeport n °
+- Passeport n°
 - pasnumre
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
 ## <a name="denmark-personal-identification-number"></a>Número de identificação pessoal da Dinamarca
@@ -4934,9 +4934,9 @@ dez dígitos contendo um hífen
 ### <a name="pattern"></a>Padrão
 
 dez dígitos:
-- seis dígitos no formato DDMMAA que são a data de nascimento 
+- seis dígitos no formato DDMMYY que são a data de nascimento 
 - um hífen 
-- quatro dígitos em que o último dígito é um dígito de verificação
+- quatro dígitos onde o dígito final é um dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -4945,12 +4945,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Func_denmark_eu_tax_file_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_denmark_id for encontrada.
+- A expressão regular Func_denmark_eu_tax_file_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_denmark_id for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Func_denmark_eu_tax_file_number localiza o conteúdo que corresponde ao padrão.
+- A expressão regular Func_denmark_eu_tax_file_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -4972,32 +4972,32 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_denmark_id"></a>Keyword_denmark_id
 
 - centrale personregister
-- registreringssystem civil
-- pedir
-- pedir #
+- civilt registreringssystem
+- cpr
+- cpr #
 - gesundheitskarte nummer
 - gesundheitsversicherungkarte nummer
 - cartão de saúde
 - número do cartão de seguro de saúde
-- número de seguro de saúde
+- health insurance number
 - identification number
 - identifikationsnummer
 - identifikationsnummer #
-- número de identidade
+- identity number
 - krankenkassennummer
 - nationalid #
 - nationalnumber #
-- número nacional
+- national number
 - personalidnumber #
 - personalidentityno #
-- número de identificação pessoal
+- número de ID pessoal
 - personnummer
 - personnummer #
-- reisekrankenversicherungskartenummer
+- reekrankenversicherungskartenummer
 - rejsesygesikringskort
-- es
-- es #
-- ID Skat
+- ssn
+- ssn #
+- skat id
 - skat kode
 - skat nummer
 - skattenummer
@@ -5008,25 +5008,25 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - sundhedskortnummer
 - sygesikring
 - sygesikringkortnummer
-- código de imposto
-- cartão de seguro de saúde de viagem
+- código fiscal
+- travel health insurance card
 - uniqueidentityno #
-- número do imposto
-- número de registro de imposto
+- tax number
+- tax registration number
 - tax id
-- número de identificação do imposto
-- táxi #
+- tax identification number
+- aaa #
 - taxnumber #
-- n º do imposto
+- tax no
 - taxno #
 - taxnumber
-- identificação de imposto não
-- Tin #
-- taxidno #
-- taxidnumber #
-- n º do imposto #
-- ID do Tin
-- Tin não
+- tax identification no
+- tin #
+- adno #
+- adnumber #
+- tax no #
+- tin id
+- tin no
 - cpr.nr
 - cprnr
 - cprnummer
@@ -5042,7 +5042,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - sygesikringsnummer
 
 
-## <a name="drug-enforcement-agency-dea-number"></a>Número da Agência de aplicação de medicamentos (DEA)
+## <a name="drug-enforcement-agency-dea-number"></a>Número da AGÊNCIA DEA (Agência de Imposição de Entortala)
 
 ### <a name="format"></a>Formatar
 
@@ -5051,9 +5051,9 @@ duas letras seguidas por sete dígitos
 ### <a name="pattern"></a>Padrão
 
 O padrão deve incluir todos os seguintes itens:
-- uma letra (não diferencia maiúsculas de minúsculas) desse conjunto de possíveis letras: abcdefghjklmnprstux, que é um código inscrito 
-- uma letra (não diferencia maiúsculas de minúsculas), que é a primeira letra do sobrenome ou dígito ' 9 ' do inscrito
-- sete dígitos, o último que é o dígito de verificação
+- uma letra (não sensível a maiúsculas e minúsculas) desse conjunto de letras possíveis: abcdefghjklmnprstux, que é um código de registro 
+- uma letra (não sensível a letras minúsculas), que é a primeira letra do sobrenome ou dígito do registro '9'
+- sete dígitos, o último deles é o dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -5063,7 +5063,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_dea_number localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de `Keyword_dea_number` foi encontrada
+- Uma palavra-chave `Keyword_dea_number` de onde foi encontrada
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
@@ -5096,11 +5096,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - dea
 - dea #
-- Administração de aplicação de medicamentos
-- Agência de aplicação de medicamentos
+- administração de imposição de dependentes
+- drug enforcement agency
 
 
-## <a name="estonia-drivers-license-number"></a>Número da carteira de motorista do Estônia
+## <a name="estonia-drivers-license-number"></a>Número de carteira de motorista da Estônia
 
 ### <a name="format"></a>Formatar
 
@@ -5110,7 +5110,7 @@ duas letras seguidas por seis dígitos
 
 duas letras e seis dígitos:
   
-- as letras "ET" (não diferencia maiúsculas de minúsculas) 
+- as letras "ET" (não são sensíveis a maiúsculas e minúsculas) 
 - seis dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -5120,8 +5120,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_estonia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_estonia_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_estonia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_estonia_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Estonia Driver's License Number -->
@@ -5138,7 +5138,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -5146,134 +5146,134 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
-#### <a name="keywords_estonia_eu_drivers_license_number"></a>Keywords_estonia_eu_driver ' s_license_number
+#### <a name="keywords_estonia_eu_drivers_license_number"></a>Keywords_estonia_eu_driver é s_license_number
 
---permé de conduire
-- juhilubade numbrid
-- número do juhiloa
+-- permis de conduzire
+- juhilubaderid
+- juhiloa number
 - juhiluba
 
 
-## <a name="estonia-personal-identification-code"></a>Estônia código de identificação pessoal
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="estonia-personal-identification-code"></a>Código de Identificação Pessoal da Estônia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -5283,9 +5283,9 @@ Esse tipo de informação confidencial só está disponível para uso no:
 
 11 dígitos:
   
-- um dígito que corresponde ao sexo e ao século de nascimento (número ímpar masculino, mesmo número fêmea; 1-2:19 Century; 3-4:20 Century; 5-6:21 século)
+- um dígito que corresponde ao sexo e ao gênero de nascimento (número ímpar do sexo, número par de mulheres; 1-2: décimo-nove; 3-4: 20º aniversário; 5-6: 21 do séc)
 - seis dígitos que correspondem à data de nascimento (AAMMDD)
-- três dígitos que correspondem a um número de série separando as pessoas que nasceu na mesma data
+- três dígitos que correspondem a um número de série separando pessoas na mesma data
 - um dígito de verificação
     
 ### <a name="checksum"></a>Soma de verificação
@@ -5296,7 +5296,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_estonia_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_estonia_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
@@ -5322,39 +5322,39 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_estonia_eu_national_id_card"></a>Keywords_estonia_eu_national_id_card
 
-- ID-kaart
-- IKMover
+- id-kaart
+- ik
 - isikukood #
 - isikukood
-- ID maksu
+- maksu id
 - maksukohustuslase identifitseerimisnumber
 - maksunumber
 - national identification number
-- número nacional
+- national number
 - código pessoal
-- número de identificação pessoal
+- número de ID pessoal
 - código de identificação pessoal
 - número de identificação pessoal
 - personalidnumber #
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="estonia-passport-number"></a>Número de passaporte da Estônia
+## <a name="estonia-passport-number"></a>Número de passaporte estônia
 
 ### <a name="format"></a>Formatar
 
@@ -5371,13 +5371,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_estonia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_estonia_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_estonia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_estonia_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_estonia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_estonia_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_estonia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_estonia_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Estonia Passport Number -->
@@ -5407,25 +5407,25 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_estonia_eu_passport_number"></a>Keywords_estonia_eu_passport_number
 
-Eesti kodaniku número de passagem de passinumbrid de documento número de documento não dokumendi NR
+eesti kodaniku passi number passinumbrid document number document no dokumendi nr
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
 ## <a name="eu-debit-card-number"></a>Número de cartão de débito da UE
@@ -5478,7 +5478,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - card number 
 - card no. 
 - security number 
-- colocado # 
+- cc # 
 
 #### <a name="keyword_card_terms_dict"></a>Keyword_card_terms_dict
 
@@ -5506,8 +5506,8 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - card numbers 
 - card type 
 - cardano numerico 
-- aos 
-- titulares de cartões 
+- cardholder 
+- cardholders 
 - cardnumber 
 - cardnumbers 
 - carta bianca 
@@ -5523,25 +5523,25 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - carte de credit 
 - carte de crédit 
 - carte di credito 
-- carteblanche 
+- carte blanche 
 - cartão de credito 
 - cartão de crédito 
 - cartão de debito 
 - cartão de débito 
 - cb 
-- CCN 
+- ccn 
 - check card 
 - check cards 
 - checkcard
 - checkcards 
 - chequekaart 
-- Cirrus 
-- Cirrus-EDC-maestro 
+- cirrus 
+- cirrus-edc-que 
 - controlekaart 
 - controlekaarten 
 - credit card 
 - credit cards 
-- CreditCard 
+- creditcard 
 - creditcards 
 - debetkaart 
 - debetkaarten 
@@ -5551,8 +5551,8 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - debitcards 
 - debito automatico 
 - diners club 
-- dinersclub 
-- tect 
+- daSclub 
+- descobrir 
 - discover card 
 - discover cards 
 - discovercard 
@@ -5566,14 +5566,14 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - in viaggio 
 - japanese card bureau 
 - japanse kaartdienst 
-- JCB 
+- jcb 
 - kaart 
 - kaart num 
 - kaartaantal 
 - kaartaantallen 
 - kaarthouder 
 - kaarthouders 
-- karte  
+- quee  
 - karteninhaber 
 - karteninhabers
 - kartennr 
@@ -5584,21 +5584,21 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - kreditkarteninstitut 
 - kreditkartennummer 
 - kreditkartentyp 
-- Maestro 
+- porque 
 - master card 
 - master cards 
-- MasterCard 
-- MasterCards 
-- MC 
+- mastercard 
+- mastercards 
+- mc 
 - mister cash 
 - n carta 
 - carta 
 - no de tarjeta 
 - no do cartao 
 - no do cartão 
-- Não. de tarjeta 
-- Não. do cartao 
-- Não. do cartão 
+- não. de tarjeta 
+- não. do cartao 
+- não. do cartão 
 - nr carta 
 - nr. carta 
 - numeri di scheda 
@@ -5619,7 +5619,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - nº de tarjeta 
 - nº do cartao 
 - nº do cartão 
-- n º. do cartão 
+- nº. do cartão 
 - número de cartao 
 - número de cartão 
 - número de tarjeta 
@@ -5637,10 +5637,10 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - schede matrici 
 - scoprono la scheda 
 - scoprono le schede 
-- individual 
+- solo 
 - supporti di scheda 
 - supporto di scheda 
-- Vá 
+- switch 
 - tarjeta atm 
 - tarjeta credito 
 - tarjeta de atm 
@@ -5653,11 +5653,11 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - ufficio giapponese della 
 - scheda 
 - v pay 
-- v-Pay 
-- cartões 
+- v-pay 
+- visa 
 - visa plus 
 - visa electron 
-- previsto 
+- visto 
 - visum 
 - vpay   
 
@@ -5666,15 +5666,15 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - card identification number
 - card verification 
 - cardi la verifica 
-- CID 
+- cid 
 - cod seg 
 - cod seguranca 
 - cod segurança 
 - cod sicurezza 
-- COD. seg 
-- COD. seguranca 
-- COD. segurança 
-- COD. sicurezza 
+- cod. seg 
+- cod. seguranca 
+- cod. segurança 
+- cod. sicurezza 
 - codice di sicurezza 
 - codice di verifica 
 - codigo 
@@ -5693,7 +5693,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - cód segurança 
 - cód. seguranca 
 - cód. segurança 
-- CFOP 
+- código 
 - código de seguranca 
 - código de segurança 
 - de kaart controle 
@@ -5704,8 +5704,8 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - kreditkartenprufnummer 
 - kreditkartenprüfnummer 
 - kwestieaantal 
-- Não. dell'edizione 
-- Não. di sicurezza 
+- não. dell'edizione 
+- não. di sicurezza 
 - numero de securite 
 - numero de verificacao 
 - numero dell'edizione 
@@ -5726,11 +5726,11 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - sicherheits kode 
 - sicherheitscode 
 - sicherheitsnummer 
-- speldblok 
+- speldbdbdb 
 - veiligheid nr 
-- veiligheidsaantal 
-- veiligheidscode 
-- veiligheidsnummer 
+- daigheidsaantal 
+- daigheidscode 
+- lpigheidsnummer 
 - verfalldatum 
 
 #### <a name="keyword_card_expiration_terms_dict"></a>Keyword_card_expiration_terms_dict
@@ -5752,10 +5752,10 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - espira 
 - exp date 
 - exp datum 
-- validade 
-- expirar 
+- expiration 
+- expire 
 - expira 
-- expiração 
+- expiry 
 - fecha de expiracion 
 - fecha de venc 
 - gultig bis 
@@ -5767,7 +5767,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - valable 
 - validade 
 - valido hasta 
-- coragem 
+- valor 
 - venc 
 - vencimento 
 - vencimiento 
@@ -5778,9 +5778,9 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - válido hasta 
 
 
-## <a name="eu-drivers-license-number"></a>Número da carteira de motorista da UE
+## <a name="eu-drivers-license-number"></a>Número de carteira de motorista da UE
 
-Estas são as entidades no tipo de informação confidencial do número da carteira de motorista da UE.
+Estas são as entidades no tipo de informação sensível ao Número de Carteira de Motorista da UE.
 
 - [Áustria ](#austria-drivers-license-number) 
 - [Bélgica](#belgium-drivers-license-number)
@@ -5799,7 +5799,7 @@ Estas são as entidades no tipo de informação confidencial do número da carte
 - [Itália](#italy-drivers-license-number)
 - [Letônia](#latvia-drivers-license-number)
 - [Lituânia ](#lithuania-drivers-license-number)
-- [Luxemburg](#luxemburg-drivers-license-number)
+- [Luxemburgo](#luxemburg-drivers-license-number)
 - [Malta](#malta-drivers-license-number)
 - [Países Baixos](#netherlands-drivers-license-number)
 - [Polônia](#poland-drivers-license-number) 
@@ -5809,12 +5809,12 @@ Estas são as entidades no tipo de informação confidencial do número da carte
 - [Eslovênia](#slovenia-drivers-license-number)
 - [Espanha](#spain-drivers-license-number)
 - [Suécia](#sweden-drivers-license-number)
-- [britânico](#uk-drivers-license-number)
+- [Reino Unido](#uk-drivers-license-number)
 
 
 ## <a name="eu-national-identification-number"></a>Número de identificação nacional da UE
 
-Estas são as entidades no tipo de informação confidencial do número de identificação nacional da UE.
+Estas são as entidades do tipo de informação sensível ao Número de Identificação Nacional da UE.
 
 - [Áustria ](#austria-identity-card)
 - [Bélgica](#belgium-national-number)
@@ -5833,7 +5833,7 @@ Estas são as entidades no tipo de informação confidencial do número de ident
 - [Itália](#italy-fiscal-code)
 - [Letônia](#latvia-personal-code)
 - [Lituânia ](#lithuania-personal-code)
-- [Luxemburg](#luxemburg-national-identification-number-natural-persons)
+- [Luxemburgo](#luxemburg-national-identification-number-natural-persons)
 - [Malta](#malta-identity-card-number)
 - [Países Baixos](#netherlands-citizens-service-bsn-number)
 - [Polônia](#poland-national-id-pesel)
@@ -5842,12 +5842,12 @@ Estas são as entidades no tipo de informação confidencial do número de ident
 - [Eslováquia](#slovakia-personal-number)
 - [Eslovênia](#slovenia-unique-master-citizen-number)
 - [Espanha](#spain-dni)
-- [britânico](#uk-national-insurance-number-nino)                                        
+- [Reino Unido](#uk-national-insurance-number-nino)                                        
 
 
-## <a name="eu-passport-number"></a>Número do Passport da UE 
+## <a name="eu-passport-number"></a>Número de passaporte da UE 
 
-Estas são as entidades no número do Passport da UE informações confidenciais typeThese são as entidades no pacote de números do Passport da UE.
+Estas são as entidades no tipo de informação sensível a números de passaporte da UEThese são as entidades no pacote de números de passaporte da UE.
 
 - [Áustria ](#austria-passport-number)
 - [Bélgica](#belgium-passport-number)
@@ -5866,7 +5866,7 @@ Estas são as entidades no número do Passport da UE informações confidenciais
 - [Itália](#italy-passport-number)
 - [Letônia](#latvia-passport-number)
 - [Lituânia ](#lithuania-passport-number)
-- [Luxemburg](#luxemburg-passport-number)
+- [Luxemburgo](#luxemburg-passport-number)
 - [Malta](#malta-passport-number)
 - [Países Baixos](#netherlands-passport-number)
 - [Polônia](#poland-passport-number)
@@ -5876,12 +5876,12 @@ Estas são as entidades no número do Passport da UE informações confidenciais
 - [Eslovênia](#slovenia-passport-number)
 - [Espanha](#spain-passport-number)
 - [Suécia](#sweden-passport-number)
-- [britânico](#us--uk-passport-number)
+- [Reino Unido](#us--uk-passport-number)
 
 
-## <a name="eu-social-security-number-or-equivalent-identification"></a>Número de seguro social da UE ou identificação equivalente
+## <a name="eu-social-security-number-or-equivalent-identification"></a>Número de seguridade social da UE ou identificação equivalente
 
-Estas são as entidades que estão no número de segurança social da UE ou tipo de informação confidencial de identificação equivalente.
+Estas são as entidades que estão no Número de Seguridade Social da UE ou no tipo de informação sensível à identificação equivalente.
 
 - [Áustria ](#austria-social-security-number)
 - [Bélgica](#belgium-national-number)
@@ -5898,9 +5898,9 @@ Estas são as entidades que estão no número de segurança social da UE ou tipo
 - [Suécia](#sweden-national-id)
 
 
-## <a name="eu-tax-identification-number"></a>Número de identificação do imposto da UE
+## <a name="eu-tax-identification-number"></a>Número de identificação de imposto da UE
 
-Essas entidades estão no tipo de informação confidencial do número de identificação de imposto da UE.
+Essas entidades estão no tipo de informação sensível ao número de identificação do imposto da UE.
 
 - [Áustria ](#austria-tax-identification-number)
 - [Bélgica](#belgium-national-number)
@@ -5919,7 +5919,7 @@ Essas entidades estão no tipo de informação confidencial do número de identi
 - [Itália](#italy-fiscal-code)
 - [Letônia](#latvia-personal-code)
 - [Lituânia ](#lithuania-personal-code)
-- [Luxemburg](#luxemburg-national-identification-number-non-natural-persons)
+- [Luxemburgo](#luxemburg-national-identification-number-non-natural-persons)
 - [Malta](#malta-tax-identification-number)
 - [Países Baixos](#netherlands-tax-identification-number)
 - [Polônia](#poland-tax-identification-number)
@@ -5929,10 +5929,10 @@ Essas entidades estão no tipo de informação confidencial do número de identi
 - [Eslovênia](#slovenia-tax-identification-number)
 - [Espanha](#spain-tax-identification-number)
 - [Suécia](#sweden-tax-identification-number)
-- [britânico](#uk-unique-taxpayer-reference-number)
+- [Reino Unido](#uk-unique-taxpayer-reference-number)
 
 
-## <a name="finland-drivers-license-number"></a>Número da carteira de motorista do Finlândia
+## <a name="finland-drivers-license-number"></a>Número de carteira de motorista da Finlândia
 
 ### <a name="format"></a>Formatar
 
@@ -5954,8 +5954,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_finland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_finland_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_finland_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_finland_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Finland Driver's License Number -->
@@ -5972,7 +5972,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -5980,151 +5980,151 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_finland_eu_drivers_license_number"></a>Keywords_finland_eu_driver ' s_license_number
+#### <a name="keywords_finland_eu_drivers_license_number"></a>Keywords_finland_eu_driver's_license_number
 
 - ajokortti
 - permis de conduire
 - ajokortin numero
-- kuljettaja driver'lic.
+- kuljettaja lic.
 - körkort
 - körkortnummer
-- förare driver'lic.
+- förare lic.
 - ajokortit
 - ajokortin numerot
 
 
-## <a name="finland-european-health-insurance-number"></a>Número de seguro de saúde da Finlândia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="finland-european-health-insurance-number"></a>Número do seguro de saúde europeu da Finlândia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-número de 20 dígitos
+Número de 20 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-número de 20 dígitos:
+Número de 20 dígitos:
 
-- dez dígitos-8024680246
-- um espaço ou hífen opcional
+- dez dígitos - 8024680246
+- um espaço opcional ou hífen
 - dez dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -6134,8 +6134,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A Regex_Finland_European_Health_Insurance_Number Regex localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Finland_European_Health_Insurance_Number for encontrada.
+- A regex Regex_Finland_European_Health_Insurance_Number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Finland_European_Health_Insurance_Number for encontrada.
 
 ```xml
       <!-- Finland European Health Insurance Number -->
@@ -6152,34 +6152,34 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - ehic #
 - ehic
-- finlandehicnumber #
+- finehicnumber #
 - finska sjukförsäkringskort
 - cartão de saúde
 - cartão de seguro de saúde
-- número de seguro de saúde
-- hälsokort
+- health insurance number
+- hälstrucrt
 - sairaanhoitokortin
 - sairausvakuutuskortti
 - sairausvakuutusnumero
 - sjukförsäkring nummer
 - sjukförsäkringskort
 - suomen sairausvakuutuskortti
-- terveyskortti
+- ter broadcastskortti
 
 
 ## <a name="finland-national-id"></a>ID nacional da Finlândia
 
 ### <a name="format"></a>Formatar
 
-seis dígitos mais um caractere indicando um século mais três dígitos mais um dígito de verificação
+seis dígitos mais um caractere indicando um centenário mais três dígitos mais um dígito de verificação
 
 ### <a name="pattern"></a>Padrão
 
 O padrão deve incluir todos os seguintes itens:
-- seis dígitos no formato de formato DDMMAA que são uma data de nascimento 
-- marcador de século ('-', ' + ' ou ' a ') 
+- seis dígitos no formato DDMMYY que são uma data de nascimento 
+- Marcador de centenário ('-', '+' ou 'a') 
 - número de identificação pessoal de três dígitos 
-- um dígito ou letra (não diferencia maiúsculas de minúsculas), que é um dígito de verificação
+- um dígito ou letra (sem maiúsculas e minúsculas), que é um dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -6188,13 +6188,13 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- a função Func_finnish_national_id localiza o conteúdo que corresponde ao padrão
-- uma palavra-chave de Keyword_finnish_national_id for encontrada
-- o checksum passa
+- a função Func_finnish_national_id localiza conteúdo que corresponde ao padrão
+- uma palavra-chave Keyword_finnish_national_id for encontrada
+- as passagens de verificação
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- a função Func_finnish_national_id localiza o conteúdo que corresponde ao padrão
-- o checksum passa
+- a função Func_finnish_national_id localiza conteúdo que corresponde ao padrão
+- as passagens de verificação
 
 ```xml
       <!-- Finnish National ID-->
@@ -6212,22 +6212,22 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="keywords"></a>Palavras-chave
 
 - ainutlaatuinen henkilökohtainen tunnus
-- henkilökohtainen tunnus
+- henkilökohtainen tunnus
 - henkilötunnus
 - henkilötunnusnumero #
-- henkilötunnusnumero
+- henkilötunnusnumero
 - hetu
-- ID não
-- número de identificação
+- id no
+- id number
 - identification number
 - identiteetti numero
-- número de identidade
+- identity number
 - idnumber
-- kansallinen henkilötunnus
+- kansallinen henkilötunnus
 - kansallisen henkilökortin
-- cartão de ID nacional
-- n º de ID nacional
-- ID pessoal
+- national id card
+- national id no.
+- id pessoal
 - código de identidade pessoal
 - personalidnumber #
 - personbeteckning
@@ -6235,39 +6235,39 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - social security number
 - sosiaaliturvatunnus
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 - tunnistenumero
 - tunnus numero
 - tunnusluku
 - tunnusnumero
-- verokortti
+- verttirtti
 - veronumero
 - verotunniste
 - verotunnus
 
 
-## <a name="finland-passport-number"></a>Número de passaporte da Finlândia
+## <a name="finland-passport-number"></a>Número de passaporte finlandês
 
 ### <a name="format"></a>Formatar
 combinação de nove letras e dígitos
 
 ### <a name="pattern"></a>Padrão
 combinação de nove letras e dígitos:
-- duas letras (não diferencia maiúsculas de minúsculas) 
+- duas letras (não sensíveis a maiúsculas e minúsculas) 
 - sete dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -6277,8 +6277,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_finland_passport_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_eu_passport_number_common ou Keyword_finland_passport_number for encontrada.
+- A expressão regular Regex_finland_passport_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_eu_passport_number_common ou Keyword_finland_passport_number for encontrada.
 
 ```xml
 <!-- Finland Passport Number -->
@@ -6296,29 +6296,29 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keyword_finland_passport_number"></a>Keyword_finland_passport_number
 
-- passagem suomalainen
-- passagem numero
-- passagem numero. #
-- passagem numero #
-- passagem numero.
-- Passi #
-- número de passagem
+- suomalainen passi
+- passin numero
+- passin numero. #
+- passin numero #
+- passin numero.
+- passi #
+- passi number
 
 
-## <a name="france-drivers-license-number"></a>Número da carteira de motorista da França
+## <a name="france-drivers-license-number"></a>Número de carteira de motorista da França
 
 ### <a name="format"></a>Formatar
 
@@ -6335,8 +6335,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- a função Func_french_drivers_license localiza o conteúdo que corresponde ao padrão.
-- uma palavra-chave de Keyword_french_drivers_license for encontrada.
+- a função Func_french_drivers_license localiza conteúdo que corresponde ao padrão.
+- uma palavra-chave Keyword_french_drivers_license for encontrada.
 
 ```xml
     <!-- France Driver's License Number -->
@@ -6358,141 +6358,141 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 - permis de conduire
 - licence number
 - license number
 - licence numbers
 - license numbers
-- numéros de licença
+- numéros de licence
 
 
-## <a name="france-health-insurance-number"></a>Número de seguro de saúde da França
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="france-health-insurance-number"></a>Número do seguro saúde da França
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-número de 21 dígitos
+Número de 21 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-número de 21 dígitos:
+Número de 21 dígitos:
 
 - dez dígitos
 - um espaço opcional
@@ -6508,8 +6508,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- a Regex_France_Health_Insurance_Number Regex localiza o conteúdo que corresponde ao padrão.
-- uma palavra-chave de Keyword_France_Health_Insurance_Number for encontrada.
+- a regex Regex_France_Health_Insurance_Number localiza conteúdo que corresponde ao padrão.
+- uma palavra-chave Keyword_France_Health_Insurance_Number for encontrada.
 
 ```xml
       <!-- France Health Insurance Number -->
@@ -6524,12 +6524,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_france_health_insurance_number"></a>Keyword_France_health_insurance_number
 
-- cartão de seguro
-- Vitale carte
-- d'assuré-social carte
+- insurance card
+- carte vitale
+- carte d'assuré social
 
 
-## <a name="france-national-id-card-cni"></a>Cartão de ID nacional da França (CNI)
+## <a name="france-national-id-card-cni"></a>Carteira nacional de identidade francesa (CNI)
 
 ### <a name="format"></a>Formatar
 
@@ -6547,7 +6547,7 @@ Não
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_france_cni localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_france_eu_national_id_card for encontrada.
+- Uma palavra-chave Keywords_france_eu_national_id_card for encontrada.
 
 ```xml
     <!-- France CNI -->
@@ -6564,20 +6564,20 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_france_eu_national_id_card"></a>Keywords_france_eu_national_id_card
 
 - card number
-- Nationale carte d'identité
-- Nationale carte d'idenite
-- CNI #
-- CNI
-- compte bancaire
+- carte nationale d'identité
+- carte nationale d'idenite no
+- cni #
+- cni
+- compte vousoire
 - national identification number
 - identidade nacional
 - nationalidno #
-- numéro d'assurance maladie
-- Numéro de Carte Vitale
+- numéro d'assurance malesco
+- numéro de carte vitale
 
    
-## <a name="france-passport-number"></a>Número de passaporte da França
-Essa entidade de tipo de informação confidencial está disponível no tipo de informação confidencial do número do Passport da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="france-passport-number"></a>Número de passaporte francês
+Essa entidade de tipo de informação confidenciais está disponível no tipo de informação sensível ao Número de Passaporte da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -6587,7 +6587,7 @@ nove dígitos e letras
 
 nove dígitos e letras:
 - dois dígitos 
-- duas letras (não diferencia maiúsculas de minúsculas) 
+- duas letras (não sensíveis a maiúsculas e minúsculas) 
 - cinco dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -6617,13 +6617,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passport Number
 - Passport No
 - Passport #
-- Passaport #
-- Passportid
+- Passport #
+- PassportID
 - Passportno
 - passportnumber
 - パスポート
 - パスポート番号
-- パスポートのNum
+- パ ポトスNum
 - パスポート ＃ 
 - Numéro de passeport
 - Passeport n °
@@ -6634,8 +6634,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passeportn °
 
       
-## <a name="france-social-security-number-insee-or-equivalent-identification"></a>Número de segurança social da França (INSEE) ou identificação equivalente
-Essa entidade de tipo de informação confidencial está incluída no número de segurança social da UE e o tipo de informação confidencial de ID equivalente e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="france-social-security-number-insee-or-equivalent-identification"></a>Número de seguro social da França (INSEE) ou identificação equivalente
+Essa entidade de tipo de informação confidenciais está incluída no Número de Seguridade Social da UE e no tipo de informação confidenciais de ID Equivalente e está disponível como uma entidade de tipo de informação confidenciais autônomo.
 
 ### <a name="format"></a>Formatar
 
@@ -6644,7 +6644,7 @@ Essa entidade de tipo de informação confidencial está incluída no número de
 ### <a name="pattern"></a>Padrão
 
 Deve corresponder a um dos dois padrões:
-- 13 dígitos seguidos de um espaço seguido de dois dígitos<br/>
+- 13 dígitos seguidos por um espaço seguido por dois dígitos<br/>
 ou
 - 15 dígitos consecutivos
 
@@ -6655,12 +6655,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 95% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_french_insee ou Func_fr_insee localiza o conteúdo que corresponde ao padrão.
+- A função Func_french_insee ou Func_fr_insee localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_french_insee ou Func_fr_insee localiza o conteúdo que corresponde ao padrão.
+- A função Func_french_insee ou Func_fr_insee localiza conteúdo que corresponde ao padrão.
 - Nenhuma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
 
@@ -6688,17 +6688,17 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_fr_insee"></a>Keyword_fr_insee
 
-- INSEE
+- insee
 - securité sociale
 - securite sociale
 - national id
 - national identification
 - numéro d'identité
 - no d'identité
-- Não. d'identité
+- não. d'identité
 - numero d'identite
 - no d'identite
-- Não. d'identite
+- não. d'identite
 - social security number
 - social security code
 - social insurance number
@@ -6740,7 +6740,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_france_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_france_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -6767,49 +6767,49 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_france_eu_tax_file_number"></a>Keywords_france_eu_tax_file_number
 
-- Numéro d'identification fiscal
+- numéro d'identification fiscale
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="france-value-added-tax-number"></a>Número de imposto adicionado ao valor da França
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="france-value-added-tax-number"></a>Número de imposto adicionado ao valor francês
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão de 13 caracteres alfanuméricos
+Padrão alfanumérico de 13 caracteres
 
 ### <a name="pattern"></a>Padrão
 
-padrão de 13 caracteres alfanuméricos:
+Padrão alfanumérico de 13 caracteres:
 
-- duas letras-FR (não diferencia maiúsculas de minúsculas)
-- um espaço ou hífen opcional
+- duas letras - FR (sem maiúsculas e minúsculas)
+- um espaço opcional ou hífen
 - duas letras ou dígitos
-- um espaço, ponto, hífen ou vírgula opcional
+- um espaço opcional, ponto, hífen ou vírgula
 - três dígitos
-- um espaço, ponto, hífen ou vírgula opcional
+- um espaço opcional, ponto, hífen ou vírgula
 - três dígitos
-- um espaço, ponto, hífen ou vírgula opcional
+- um espaço opcional, ponto, hífen ou vírgula
 - três dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -6819,11 +6819,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_france_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_france_value_added_tax_number for encontrada.
+- A função Func_france_value_added_tax_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_france_value_added_tax_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_france_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_france_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- France Value Added Tax Number -->
@@ -6841,16 +6841,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_france_value_added_tax_number"></a>Keyword_France_value_added_tax_number
 
-- número de IVA
-- IVA não
-- IVA #
-- imposto sobre valor agregado
-- identificação de Siren no Numéro d'identification taxe sur valeur ajoutée
+- número do iva
+- vat no
+- vat #
+- value added tax
+- siren identification no numéro d'identification taxe sur valeur ajoutée
 - taxe valeur ajoutée
 - taxe sur la valeur ajoutée
-- n ° TVA
-- Numéro de TVA
-- Numéro d'identification Siren
+- n° tva
+- numéro de tva
+- numéro d'identification siren
 
 
 ## <a name="germany-drivers-license-number"></a>Número da carteira de motorista da Alemanha
@@ -6899,28 +6899,28 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - ausstellende behorde
 - ausstellende behoerde
 - führerschein
-- fuhrerschein
+- ltdschein
 - fuehrerschein
 - führerscheinnummer
-- fuhrerscheinnummer
+- lpscheinnummer
 - fuehrerscheinnummer
 - führerschein- 
-- fuhrerschein- 
+- queschein- 
 - fuehrerschein- 
 - führerscheinnummernr
-- fuhrerscheinnummernr
+- lpscheinnummernr
 - fuehrerscheinnummernr
 - führerscheinnummerklasse
-- fuhrerscheinnummerklasse
+- lpscheinnummerklasse
 - fuehrerscheinnummerklasse
 - nr-führerschein
-- nr-fuhrerschein
+- nr-ltdschein
 - nr-fuehrerschein
 - no-führerschein
-- no-fuhrerschein
+- no-ltdschein
 - no-fuehrerschein
 - n-führerschein
-- n-fuhrerschein
+- n-ltdschein
 - n-fuehrerschein
 - permis de conduire
 - driverlic
@@ -6929,115 +6929,115 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
+- driving permit
 - dlno
 
 
@@ -7045,17 +7045,17 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-desde 1 de novembro de 2010: nove letras e dígitos
+desde 1º de novembro de 2010: nove letras e dígitos
 
-de 1 de abril de 1987 até 31 de outubro de 2010:10 dígitos
+de 1º de abril de 1987 até 31 de outubro de 2010: 10 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-desde 1 de novembro de 2010:
-- uma letra (não diferencia maiúsculas de minúsculas) 
+desde 1º de novembro de 2010:
+- uma letra (não sensível a letras minúsculas) 
 - oito dígitos
 
-de 1 de abril de 1987 até 31 de outubro de 2010:
+de 1º de abril de 1987 até 31 de outubro de 2010:
 - dez dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -7065,8 +7065,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_germany_id_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_germany_id_card for encontrada.
+- A expressão regular Regex_germany_id_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_germany_id_card for encontrada.
 
 ```xml
 <!-- Germany Identity Card Number -->
@@ -7084,17 +7084,17 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 - ausweis
 - gpid
-- identificador
+- identification
 - identifikation
 - identifizierungsnummer
 - cartão de identidade
-- número de identidade
-- ID-Nummer
-- ID pessoal
+- identity number
+- id-nummer
+- id pessoal
 - personalausweis
-- Persönliche ID Nummer
-- persönliche identifikationsnummer
-- Persönliche-ID-Nummer
+- persönliche id nummer
+- persönliche identifikationsnummer
+- persönliche-id-nummer
 
 
 ## <a name="germany-passport-number"></a>Número de passaporte da Alemanha
@@ -7106,9 +7106,9 @@ dez dígitos ou letras
 ### <a name="pattern"></a>Padrão
 
 O padrão deve incluir todos os seguintes itens:
-- o primeiro caractere é um dígito ou uma letra desse conjunto (C, F, G, H, J, K) 
+- primeiro caractere é um dígito ou uma letra desse conjunto (C, F, G, H, J, K) 
 - três dígitos 
-- cinco dígitos ou letras desse conjunto (C,-H, J-N, P, R, T, V-Z) 
+- cinco dígitos ou letras desse conjunto (C, -H, J-N, P, R, T, V-Z) 
 - um dígito
 
 ### <a name="checksum"></a>Soma de verificação
@@ -7119,12 +7119,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_german_passport localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de `Keyword_german_passport` ou `Keywords_eu_passport_number_common` é encontrada.
+- Uma palavra-chave `Keyword_german_passport` de `Keywords_eu_passport_number_common` ou for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_german_passport_data localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de `Keyword_german_passport` ou `Keywords_eu_passport_number_common` é encontrada.
+- Uma palavra-chave `Keyword_german_passport` de `Keywords_eu_passport_number_common` ou for encontrada.
 - A soma de verificação passa.
 
 ```xml
@@ -7151,31 +7151,31 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_german_passport"></a>Keyword_german_passport
 
-- reisepasse
+- reeepasse
 - reisepassnummer
 - No-Reisepass 
 - Nr-Reisepass
 - Reisepass-Nr
 - Passnummer
-- reisepässe
-- passeport não.
-- passeport não
+- reeepässe
+- passeport no.
+- passeport no
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 
-## <a name="germany-tax-identification-number"></a>Número de identificação do imposto da Alemanha
+## <a name="germany-tax-identification-number"></a>Número de identificação fiscal da Alemanha
 
 ### <a name="format"></a>Formatar
 
@@ -7202,7 +7202,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_germany_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_germany_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -7225,53 +7225,53 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_germany_eu_tax_file_number"></a>Keywords_germany_eu_tax_file_number
 
 - identifikationsnummer
-- ID Steuer
+- steuer id
 - steueridentifikationsnummer
 - steuernummer
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 - zinn #
 - zinn
 - zinnnummer
 
 
 ## <a name="germany-value-added-tax-number"></a>Número de imposto adicionado ao valor da Alemanha
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão de 11 caracteres alfanuméricos
+Padrão alfanumérico de 11 caracteres
 
 ### <a name="pattern"></a>Padrão
 
-padrão alfanumérico de 11 caracteres:
+Padrão alfanumérico de 11 caracteres:
 
 - uma letra D ou d
-- uma letra E ou E
+- uma letra E ou e
 - um espaço opcional
 - três dígitos
-- um espaço ou vírgula opcional
+- um espaço opcional ou vírgula
 - três dígitos
-- um espaço ou vírgula opcional
+- um espaço opcional ou vírgula
 - três dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -7281,11 +7281,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_germany_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_germany_value_added_tax_number for encontrada.
+- A função Func_germany_value_added_tax_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_germany_value_added_tax_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_germany_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_germany_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Germany Value Added Tax Number -->
@@ -7303,16 +7303,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_germany_value_added_tax_number"></a>Keyword_germany_value_added_tax_number
 
-- número de IVA
-- IVA não
-- IVA #
-- VAT # mehrwertsteuer
+- número do iva
+- vat no
+- vat #
+- vat# mehrwertsteuer
 - mwst
 - mehrwertsteuer identifikationsnummer
 - mehrwertsteuer nummer
 
 
-## <a name="greece-drivers-license-number"></a>Número da carteira de motorista do Grécia
+## <a name="greece-drivers-license-number"></a>Número de carteira de motorista da Grécia
 
 ### <a name="format"></a>Formatar
 
@@ -7329,8 +7329,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_greece_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_greece_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_greece_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_greece_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Greece Driver's License Number -->
@@ -7347,7 +7347,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -7355,121 +7355,121 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_greece_eu_drivers_license_number"></a>Keywords_greece_eu_driver ' s_license_number
+#### <a name="keywords_greece_eu_drivers_license_number"></a>Keywords_greece_eu_driver é s_license_number
 
 - δεια οδήγησης
 - Adeia odigisis
@@ -7502,11 +7502,11 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_greece_id_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_greece_id_card for encontrada.
+- A expressão regular Regex_greece_id_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_greece_id_card for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_greece_id_card localiza o conteúdo que corresponde ao padrão.
+- A expressão regular Regex_greece_id_card localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Greece National ID Card -->
@@ -7525,10 +7525,10 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_greece_id_card"></a>Keyword_greece_id_card
 
-- ID grego
-- ID nacional grego
-- cartão grego de ID pessoal
-- ID de polícia grego
+- greek id
+- greek national id
+- cartão de ID pessoal grego
+- greek police id
 - cartão de identidade
 - tautotita
 - ταυτότητα
@@ -7552,13 +7552,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_greece_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_greece_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_greece_eu_passport_date` encontra a data no formato dd mmm YY (exemplo-28 ago 19) ou uma palavra-chave de `Keywords_greece_eu_passport_date` é encontrada
+- A expressão regular  `Regex_greece_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_greece_eu_passport_number` ou for encontrada. 
+- A expressão regular localiza a data no formato `Regex_greece_eu_passport_date` DD MMM AA (Exemplo - 28 de agosto de 19) ou uma palavra-chave de `Keywords_greece_eu_passport_date` onde foi encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_greece_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_greece_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_greece_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_greece_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Greece Passport Number -->
@@ -7588,16 +7588,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_greece_eu_passport_number"></a>Keywords_greece_eu_passport_number
 
@@ -7606,17 +7606,17 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - αριθμός διαβατηριο
 
 
-## <a name="greece-social-security-number-amka"></a>Número de seguro social da Grécia (AMKA)
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="greece-social-security-number-amka"></a>Número de Seguro Social da Grécia (AMKA)
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-Onze dígitos sem espaços e delimitadores
+Dígitos iniciais sem espaços e delimitadores
   
 ### <a name="pattern"></a>Padrão
 
@@ -7632,7 +7632,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_greece_eu_ssn` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_greece_eu_ssn_or_equivalent` foi encontrada. 
+- Uma palavra-chave  `Keywords_greece_eu_ssn_or_equivalent` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_greece_eu_ssn` localiza conteúdo que corresponde ao padrão. 
@@ -7654,9 +7654,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_greece_eu_ssn_or_equivalent"></a>Keywords_greece_eu_ssn_or_equivalent
 
-- es
-- es #
-- segurança social não
+- ssn
+- ssn #
+- social security no
 - socialsecurityno #
 - social security number
 - amka
@@ -7664,13 +7664,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Αριθμού Μητρώου Κοινωνικής Ασφάλισης
 
 
-## <a name="greece-tax-identification-number"></a>Número de identificação de imposto Grécia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="greece-tax-identification-number"></a>Número de identificação fiscal da Grécia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -7688,8 +7688,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular  `Regex_greece_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_greece_eu_tax_file_number` foi encontrada. 
+- A expressão regular  `Regex_greece_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_greece_eu_tax_file_number` de onde foi encontrada. 
     
 ```xml
       <!-- Greek Tax Identification Number -->
@@ -7705,29 +7705,29 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_greece_eu_tax_file_number"></a>Keywords_greece_eu_tax_file_number
 
-- AFM #
-- AFM
-- aφμ | aφμ αριθμός
+- afm #
+- afm
+- aφμ|aφμ αριθμός
 - aφμ
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- registro de imposto não
-- número do registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- tax registry no
+- tax registry number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
 - taxregistryno #
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 - αριθμός φορολογικού μητρώου
 - τον αριθμό φορολογικού μητρώου
 - φορολογικού μητρώου νο
@@ -7753,12 +7753,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_hong_kong_id_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_hong_kong_id_card for encontrada.
+- A função Func_hong_kong_id_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_hong_kong_id_card for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_hong_kong_id_card localiza o conteúdo que corresponde ao padrão.
+- A função Func_hong_kong_id_card localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -7779,12 +7779,12 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_hong_kong_id_card"></a>Keyword_hong_kong_id_card
 
 - hkid
-- cartão de identidade de Hong Kong
+- cartão de identidade de hong kong
 - HKIDC
 - id card
 - cartão de identidade
-- cartão de identidade HK
-- ID de Hong Kong
+- hk identity card
+- hong kong id
 - 香港身份證
 - 香港永久性居民身份證
 - 身份證
@@ -7817,7 +7817,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - 香港特別行政區非永久性居民身分証
 
    
-## <a name="hungary-drivers-license-number"></a>Número da carteira de motorista do Hungria
+## <a name="hungary-drivers-license-number"></a>Número de carteira de motorista hungria
 
 ### <a name="format"></a>Formatar
 
@@ -7827,7 +7827,7 @@ Duas letras seguidas por seis dígitos
 
 Duas letras e seis dígitos:
   
-- Duas letras (não diferencia maiúsculas de minúsculas) 
+- Duas letras (não sensíveis a maiúsculas e minúsculas) 
 - Seis dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -7838,8 +7838,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular  `Regex_hungary_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_hungary_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_hungary_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_hungary_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <Entity id="9d31c46b-6e6b-444c-aeb1-6dd7e604bb24" patternsProximity="300" recommendedConfidence="75">
@@ -7855,7 +7855,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -7863,134 +7863,134 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_hungary_eu_drivers_license_number"></a>Keywords_hungary_eu_driver ' s_license_number
+#### <a name="keywords_hungary_eu_drivers_license_number"></a>Keywords_hungary_eu_driver é s_license_number
 
 - vezetoi engedely
 - vezetői engedély
 - vezetői engedélyek
 
 
-## <a name="hungary-personal-identification-number"></a>Número de identificação pessoal da Hungria
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="hungary-personal-identification-number"></a>Número de identificação pessoal hungria
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -8000,7 +8000,7 @@ Esse tipo de informação confidencial só está disponível para uso no:
 
 11 dígitos:
   
-- Um dígito que corresponde ao gênero (1-macho, 2-fêmea, outros números também são possíveis para o cidadãos nasceu antes 1900 ou cidadãos com cidadania dupla) 
+- Um dígito que corresponde ao sexo (1 adulto, 2 homens, 2 mulheres, outros números também são possíveis para cidadãos que já foram homens antes de 1900 ou cidadãos com dupla cidadania) 
 - Seis dígitos que correspondem à data de nascimento (AAMMDD)
 - Três dígitos que correspondem a um número de série
 - Um dígito de verificação
@@ -8014,7 +8014,7 @@ Sim
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_hungary_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_hungary_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
@@ -8041,16 +8041,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_hungary_eu_national_id_card"></a>Keywords_hungary_eu_national_id_card
 
-- número de identificação
+- id number
 - identification number
-- sz IG
-- v. IG.
+- sz ig
 - sz. ig.
-- személyazonosító igazolvány
-- személyi igazolvány
+- sz.ig.
+- személyazonosító iganisvány
+- személyi iganyvány
 
 
-## <a name="hungary-passport-number"></a>Número de passaporte da Hungria
+## <a name="hungary-passport-number"></a>Número de passaporte hungria
 
 ### <a name="format"></a>Formatar
 
@@ -8067,13 +8067,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_hungary_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_hungary_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_hungary_eu_passport_date` encontra a data no formato dd mmm/mmm YY (exemplo-01 MÁR/mar 12) ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_hungary_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_hungary_eu_passport_number` ou for encontrada. 
+- A expressão regular localiza a data no formato `Regex_hungary_eu_passport_date` DD MMM/MMM AA (Exemplo - 01 MÁR/MAR 12) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_hungary_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_hungary_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_hungary_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_hungary_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Hungary Passport Number -->
@@ -8102,16 +8102,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_hungary_eu_passport_number"></a>Keywords_hungary_eu_passport_number
 
@@ -8120,7 +8120,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - útlevél szám
 
 
-## <a name="hungary-social-security-number-taj"></a>Número de segurança social da Hungria (TAJ)
+## <a name="hungary-social-security-number-taj"></a>Número de seguridade social (TAD) da Hungria
 
 ### <a name="format"></a>Formatar
 
@@ -8139,7 +8139,7 @@ Sim
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_hungary_eu_ssn_or_equivalent` foi encontrada. 
+- Uma palavra-chave  `Keywords_hungary_eu_ssn_or_equivalent` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
@@ -8162,7 +8162,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_hungary_eu_ssn_or_equivalent"></a>Keywords_hungary_eu_ssn_or_equivalent
 
-- número de seguro social de seguridade
+- número de seguro social húngaro
 - social security number
 - socialsecuritynumber #
 - hssn #
@@ -8170,9 +8170,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - hssn
 - taj
 - taj #
-- es
-- es #
-- segurança social não
+- ssn
+- ssn #
+- social security no
 - áfa
 - közösségi adószám
 - általános forgalmi adó szám
@@ -8181,13 +8181,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - magyar áfa szám
 
 
-## <a name="hungary-tax-identification-number"></a>Número de identificação do imposto Hungria
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="hungary-tax-identification-number"></a>Número de identificação fiscal da Hungria
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -8210,7 +8210,7 @@ Sim
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_hungary_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_hungary_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
@@ -8240,45 +8240,45 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - adóazonosító szám
 - adóhatóság szám
 - adószám
-- Tin húngaro
+- húngaro tin
 - hungatiantin #
-- autoridade de imposto não
+- autoridade fiscal não
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
-- número de IVA
+- tin id
+- tin no
+- tin #
+- número do iva
 
 
-## <a name="hungary-value-added-tax-number"></a>Número de imposto adicionado ao valor Hungria
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="hungary-value-added-tax-number"></a>Número de imposto adicionado ao valor da Hungria
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão de 10 caracteres alfanuméricos
+Padrão alfanumérico de 10 caracteres
 
 ### <a name="pattern"></a>Padrão
 
-padrão de 10 caracteres alfanuméricos:
+Padrão alfanumérico de 10 caracteres:
 
-- 2 letras-HU ou Hu
+- 2 letras - HU ou hu
 - espaço opcional
 - 8 dígitos
 
@@ -8290,12 +8290,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 
-- A função Func_hungarian_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_hungarian_value_added_tax_number for encontrada.
+- A função Func_hungarian_value_added_tax_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_hungarian_value_added_tax_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 
-- A função Func_hungarian_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_hungarian_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Hungarian Value Added Tax Number -->
@@ -8314,20 +8314,20 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_hungary_value_added_tax_number"></a>Keyword_Hungary_value_added_tax_number
 
-- IVA
-- número de imposto sobre valor agregado
-- IVA #
+- vat
+- valor adicionado número de imposto
+- vat #
 - vatno #
-- hungarianvatno #
-- n º do imposto
-- áfa de imposto sobre valor agregado
+- húngarovatno #
+- tax no.
+- valor agregado tax áfa
 - közösségi adószám
 - általános forgalmi adó szám
 - hozzáadottérték adó
 - áfa szám
 
 
-## <a name="india-permanent-account-number-pan"></a>Número da conta permanente da Índia (PAN)
+## <a name="india-permanent-account-number-pan"></a>Número de conta permanente da Índia (PAN)
 
 ### <a name="format"></a>Formatar
 
@@ -8336,11 +8336,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 10 letras ou dígitos.
-- Três letras (não diferencia maiúsculas de minúsculas) 
-- Uma letra em C, P, H, F, A, T, B, L, J, G (não diferencia maiúsculas de minúsculas)
-- Uma carta
+- Três letras (não sensíveis a maiúsculas e minúsculas) 
+- Uma letra em C, P, H, F, A, T, B, L, J, G (não faz a sensibilidade a letras minúsculas)
+- Uma letra
 - Quatro dígitos 
-- Uma letra (não diferencia maiúsculas de minúsculas)
+- Uma letra (não sensível a letras minúsculas)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -8349,11 +8349,11 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_india_permanent_account_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_india_permanent_account_number for encontrada.
+- A expressão regular Regex_india_permanent_account_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_india_permanent_account_number for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_india_permanent_account_number localiza o conteúdo que corresponde ao padrão.
+- A expressão regular Regex_india_permanent_account_number localiza conteúdo que corresponde ao padrão.
 
 
 ```xml
@@ -8376,7 +8376,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_india_permanent_account_number"></a>Keyword_india_permanent_account_number
 
 - Número da Conta Permanente 
-- APLICAR 
+- PAN 
    
 ## <a name="india-unique-identification-aadhaar-number"></a>Número de identificação exclusiva da Índia (Aadhaar)
 
@@ -8401,13 +8401,13 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_india_aadhaar localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_india_aadhar for encontrada.
+- A função Func_india_aadhaar localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_india_aadhar for encontrada.
 - A soma de verificação passa.
 - 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 
-- A função Func_india_aadhaar localiza o conteúdo que corresponde ao padrão.
+- A função Func_india_aadhaar localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -8458,8 +8458,8 @@ Não
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 
-- A expressão regular Regex_indonesia_id_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_indonesia_id_card for encontrada.
+- A expressão regular Regex_indonesia_id_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_indonesia_id_card for encontrada.
 
 ```xml
 <!-- Indonesia Identity Card (KTP) Number -->
@@ -8478,24 +8478,24 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - Kartu Tanda Penduduk 
 - Nomor Induk Kependudukan 
    
-## <a name="international-banking-account-number-iban"></a>Número de conta bancária internacional (IBAN)
+## <a name="international-banking-account-number-iban"></a>Número internacional de conta bancária (IBAN)
 
 ### <a name="format"></a>Formatar
 
-Código do país (duas letras) mais dígitos de verificação (dois dígitos) mais Bban número (até 30 caracteres)
+Código do país (duas letras) mais dígitos de verificação (dois dígitos) mais número bban (até 30 caracteres)
 
 ### <a name="pattern"></a>Padrão
 
 O padrão deve incluir todos os seguintes itens:
 
-- Código de país de duas letras
-- Dois dígitos de verificação (seguidos por um espaço opcional) 
-- 1-7 grupos de quatro letras ou dígitos (podem ser separados por espaços)
+- Código do país de duas letras
+- Dois dígitos de verificação (seguidos de um espaço opcional) 
+- 1 a 7 grupos de quatro letras ou dígitos (podem ser separados por espaços)
 - 1 a 3 letras ou dígitos
 
-O formato de cada país é um pouco diferente. O tipo de informação confidencial do IBAN cobre estes 60 países:
+O formato para cada país é ligeiramente diferente. O tipo de informação confidenciais do IBAN abrange esses 60 países:
 
-AD, AE, Al, at, AZ, BA, or, BG, BH, ch, CR, Cy, cz, de, DK, do, EE, es, Fi, fo, FR, GB, GE, GI, GL, GA, HR, Hu, IE, Il, is, it, kW, KZ, lb, li, lt, Lu, LV, MC, MD, me, MK, Sr, MT, MU, NL, não, pl, pt,, RS, SK, SM, TN
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -8521,7 +8521,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 Nenhum
 
    
-## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional do Diseases (ICD-10-CM)
+## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional de pacientes (ICD-10-CM)
 
 ### <a name="format"></a>Formatar
 
@@ -8538,11 +8538,11 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- Uma palavra-chave de Dictionary_icd_10_updated for encontrada.
-- Uma palavra-chave de Dictionary_icd_10_codes for encontrada.
+- Uma palavra-chave Dictionary_icd_10_updated for encontrada.
+- Uma palavra-chave Dictionary_icd_10_codes for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- Uma palavra-chave de Dictionary_icd_10_ atualizada é encontrada.
+- Uma palavra-chave Dictionary_icd_10_ atualizada for encontrada.
 
 ```xml
       <!-- ICD-10 CM -->
@@ -8559,11 +8559,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Qualquer termo do dicionário de palavra-chave Dictionary_icd_10_updated, que se baseia na [classificação internacional do Diseases, décimo revisão, modificação clínica (ICD-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604). Esse tipo procura apenas o termo, não os códigos de seguro.
+Qualquer termo do dicionário Dictionary_icd_10_updated palavra-chave, que é baseado na Classificação Internacional de Pacientes, Décimo Revisão, Modificação Genética [(ICD-10-CM)](https://go.microsoft.com/fwlink/?linkid=852604). Esse tipo procura apenas o termo, não os códigos de seguro.
 
-Qualquer termo do dicionário de palavra-chave Dictionary_icd_10_codes, que se baseia na [classificação internacional do Diseases, décimo revisão, modificação clínica (ICD-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604). Este tipo procura apenas por códigos de seguro, não a descrição.
+Qualquer termo do dicionário Dictionary_icd_10_codes palavra-chave, que se baseia na Classificação Internacional de Pacientes, Décimo Revisão, Modificação Genética [(ICD-10-CM)](https://go.microsoft.com/fwlink/?linkid=852604). Esse tipo procura apenas códigos de seguro, não a descrição.
 
-## <a name="international-classification-of-diseases-icd-9-cm"></a>Classificação internacional do Diseases (ICD-9-CM)
+## <a name="international-classification-of-diseases-icd-9-cm"></a>Classificação internacional de pacientes (ICD-9-CM)
 
 ### <a name="format"></a>Formatar
 
@@ -8580,11 +8580,11 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- Uma palavra-chave de Dictionary_icd_9_updated for encontrada.
-- Uma palavra-chave de Dictionary_icd_9_codes for encontrada.
+- Uma palavra-chave Dictionary_icd_9_updated for encontrada.
+- Uma palavra-chave Dictionary_icd_9_codes for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- Uma palavra-chave de Dictionary_icd_9_updated for encontrada.
+- Uma palavra-chave Dictionary_icd_9_updated for encontrada.
 
 ```xml
     <Entity id="fa3f9c74-ee07-4c52-b5f2-085d6b2c0ec4" patternsProximity="300" recommendedConfidence="85">
@@ -8600,18 +8600,18 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-Qualquer termo do dicionário de palavra-chave Dictionary_icd_9_updated, que se baseia na [classificação internacional do Diseases, Nona revisão, modificação clínica (ICD-9-cm)](https://go.microsoft.com/fwlink/?linkid=852605). Esse tipo procura apenas o termo, não os códigos de seguro.
+Qualquer termo do dicionário Dictionary_icd_9_updated palavra-chave, que se baseia na Classificação Internacional de Pacientes,Nona Revisão, Modificação Genética [(ICD-9-CM)](https://go.microsoft.com/fwlink/?linkid=852605). Esse tipo procura apenas o termo, não os códigos de seguro.
 
-Qualquer termo do dicionário de palavra-chave Dictionary_icd_9_codes, que se baseia na [classificação internacional do Diseases, Nona revisão, modificação clínica (ICD-9-cm)](https://go.microsoft.com/fwlink/?linkid=852605). Este tipo procura apenas por códigos de seguro, não a descrição.
+Qualquer termo do dicionário Dictionary_icd_9_codes palavra-chave, que se baseia na Classificação Internacional de Pacientes,Nona Revisão, Modificação Genética [(ICD-9-CM)](https://go.microsoft.com/fwlink/?linkid=852605). Esse tipo procura apenas códigos de seguro, não a descrição.
 
 ## <a name="ip-address"></a>Endereço IP
 
 ### <a name="format"></a>Formatar
 
-#### <a name="ipv4"></a>IPv4
+#### <a name="ipv4"></a>IPv4:
 Padrão complexo que é responsável por versões formatadas (pontos) e não formatadas (sem pontos) dos endereços IPv4
 
-#### <a name="ipv6"></a>IPv6
+#### <a name="ipv6"></a>IPv6:
 Padrão complexo que é responsável por números IPv6 formatados (que incluem dois pontos)
 
 ### <a name="pattern"></a>Padrão
@@ -8668,18 +8668,18 @@ Para IPv6, uma política de DLP tem 95% de certeza de que ela detectou este tipo
 - internet protocol
 - IP כתובת ה 
 
-## <a name="ireland-drivers-license-number"></a>Número da carteira de motorista da Irlanda
+## <a name="ireland-drivers-license-number"></a>Número de carteira de motorista da Irlanda
 
 ### <a name="format"></a>Formatar
 
-Seis dígitos seguidos de quatro letras
+Seis dígitos seguidos por quatro letras
   
 ### <a name="pattern"></a>Padrão
 
 Seis dígitos e quatro letras:
   
 - Seis dígitos
-- Quatro letras (não diferencia maiúsculas de minúsculas)
+- Quatro letras (não sensíveis a maiúsculas e minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -8689,8 +8689,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular  `Regex_ireland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_ireland_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_ireland_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_ireland_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Ireland Driver's License Number -->
@@ -8707,7 +8707,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -8715,130 +8715,130 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_ireland_eu_drivers_license_number"></a>Keywords_ireland_eu_driver ' s_license_number
+#### <a name="keywords_ireland_eu_drivers_license_number"></a>Keywords_ireland_eu_driver's_license_number
 
-- ceadúnas tiomána
-- ceadúnais tiomána
+- ceadúnas casomána
+- ceadúnais diamána
 
 ## <a name="ireland-passport-number"></a>Número de passaporte da Irlanda
 
 ### <a name="format"></a>Formatar
 
-Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores
+Duas letras ou dígitos seguidos por sete dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
@@ -8854,13 +8854,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_ireland_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_ireland_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_ireland_eu_passport_date` encontra a data no formato dd mmm/mmm aaaa (exemplo-01 Bea/maio 1988) ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_ireland_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_ireland_eu_passport_number` ou for encontrada. 
+- A expressão regular localiza a data no formato `Regex_ireland_eu_passport_date` DD MMM/MMM AAAY (Exemplo - 01 BEA/MAIO de 1988) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_ireland_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_ireland_eu_passport_number` é encontrada.
+- A expressão regular  `Regex_ireland_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_ireland_eu_passport_number` ou for encontrada.
     
 ```xml
       <!-- Ireland Passport Number -->
@@ -8890,31 +8890,31 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_ireland_eu_passport_number"></a>Keywords_ireland_eu_passport_number
 
 - passeport numero
-- uimhreacha pasanna
-- Pas uimhir
+- uimhre ltda
+- uimhir pas
 - uimhir phas
-- Pas uimhreacha
+- uimhre portal pas
 - uimhir cárta
-- uimhir chárta
+- uimhir flagrta
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
 ## <a name="ireland-personal-public-service-pps-number"></a>Número de serviço público pessoal (PPS) da Irlanda
@@ -8922,20 +8922,20 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="format"></a>Formatar
 
 Formato antigo (até 31 de dezembro de 2012):
-- sete dígitos seguidos por 1-2 letras 
+- sete dígitos seguidos de 1 a 2 letras 
 
-Novo formato (1 Jan 2013 e posterior):
-- sete dígitos seguidos de duas letras
+Novo formato (1º de janeiro de 2013 e depois):
+- sete dígitos seguidos por duas letras
 
 ### <a name="pattern"></a>Padrão
 
 Formato antigo (até 31 de dezembro de 2012):
 - sete dígitos 
-- uma ou duas letras (não diferencia maiúsculas de minúsculas) 
+- uma a duas letras (não sensitivo entre maiúsculas e minúsculas) 
 
-Novo formato (1 Jan 2013 e posterior):
+Novo formato (1º de janeiro de 2013 e depois):
 - sete dígitos 
-- uma letra (não diferencia maiúsculas de minúsculas) que é um dígito de verificação alfabética 
+- uma letra (não sensível a letras minúsculas) que é um dígito de verificação alfabético 
 - Uma letra opcional no intervalo A-I ou "W"
 
 ### <a name="checksum"></a>Soma de verificação
@@ -8945,12 +8945,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_ireland_pps localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_ireland_eu_national_id_card for encontrada.
+- A função Func_ireland_pps localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_ireland_eu_national_id_card for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_ireland_pps localiza o conteúdo que corresponde ao padrão.
+- A função Func_ireland_pps localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -8972,49 +8972,49 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 - serviço de identidade do cliente
 - identification number
-- número de identificação pessoal
+- número de ID pessoal
 - número de serviço público pessoal
-- serviço pessoal não
-- phearsanta seirbhíse poiblí
-- PPS não
-- número PPS
-- número PPS
-- serviço PPS não
+- personal service no
+- phearsanta seirbhíse poiblí
+- pps no
+- pps number
+- pps num
+- pps service no
 - ppsn
 - ppsno #
 - ppsno
-- PSP
+- psp
 - serviço público não
 - publicserviceno #
 - publicserviceno
-- número da receita e do seguro social
-- RSI não
-- número do RSI
+- receita e número de seguro social
+- rsi no
+- rsi number
 - rsin
-- cliente do seirbhís aitheantais
+- cliente seirbhís aitheantais
 - uimh
-- uimhir aitheantais chánach
+- uimhir aitheantaiscontranach
 - uimhir aitheantais phearsanta
 - uimhir phearsanta seirbhíse poiblí
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="israel-bank-account-number"></a>Número de conta bancária de Israel
+## <a name="israel-bank-account-number"></a>Número da conta bancária de Israel
 
 ### <a name="format"></a>Formatar
 
@@ -9022,14 +9022,14 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 ### <a name="pattern"></a>Padrão
 
-Binário
+Formatado:
 - dois dígitos 
 - um traço 
 - três dígitos 
 - um traço 
 - oito dígitos
 
-Não formatado
+Não formatado:
 - 13 dígitos consecutivos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -9109,16 +9109,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 -   رقم الهوية
 -   عدد هوية فريدة من نوعها
 -   idnumber #
--   número de identificação
--   identidade não        
+-   id number
+-   identity no        
 -   identitynumber #
--   número de identidade
--   israeliidentitynumber       
--   ID pessoal
--   ID exclusiva  
+-   identity number
+-   mutualidentitynumber       
+-   id pessoal
+-   id exclusiva  
 
    
-## <a name="italy-drivers-license-number"></a>Número da carteira de motorista da Itália
+## <a name="italy-drivers-license-number"></a>Número de carteira de motorista da Itália
 
 ### <a name="format"></a>Formatar
 
@@ -9127,10 +9127,10 @@ uma combinação de 10 letras e dígitos
 ### <a name="pattern"></a>Padrão
 
 uma combinação de 10 letras e dígitos:
-- uma letra (não diferencia maiúsculas de minúsculas) 
-- a letra "A" ou "V" (não diferencia maiúsculas de minúsculas) 
+- uma letra (não sensível a letras minúsculas) 
+- a letra "A" ou "V" (não sensitivo entre letras minúsculas) 
 - sete dígitos
-- uma letra (não diferencia maiúsculas de minúsculas)
+- uma letra (não sensível a letras minúsculas)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -9158,19 +9158,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
-- patente numero de injeção
+- numero di patente
 - patente di guida 
-- patente Guida
-- patente n Guida
-- guida de patente
+- patente guida
+- patenti di guida
+- patenti guida
 
 ## <a name="italy-fiscal-code"></a>Código fiscal da Itália
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -9178,13 +9178,13 @@ uma combinação de 16 caracteres de letras e dígitos no padrão especificado
   
 ### <a name="pattern"></a>Padrão
 
-Uma combinação de letras e dígitos de 16 caracteres:
+Uma combinação de 16 caracteres de letras e dígitos:
 - três letras que correspondem às três primeiras consoantes no nome da família
 - três letras que correspondem à primeira, terceira e quarta consoantes no primeiro nome
 - dois dígitos que correspondem aos últimos dígitos do ano de nascimento
-- uma letra que corresponde à carta para o mês de nascimento-as letras são usadas em ordem alfabética, mas apenas as letras de a a E, H, L, M, P, R a T são usadas (dessa forma, Janeiro é A e outubro é R)
-- dois dígitos que correspondem ao dia do mês de nascimento — para diferenciar entre sexos, 40 é adicionado ao dia de nascimento para mulheres
-- quatro dígitos que correspondem ao código de área específico do município onde a pessoa nasceu (códigos de todo o país são usados para países estrangeiros)
+- uma letra que corresponde à letra do mês de nascimento — as letras são usadas em ordem alfabética, mas somente as letras A a E, H, L, M, P, R a T são usadas (portanto, janeiro é A e outubro é R)
+- dois dígitos que correspondem ao dia do mês de nascimento— para diferenciar entre os sexos, 40 é adicionado ao dia de nascimento da mulher
+- quatro dígitos que corresponde ao código de área específico da situação em que a pessoa aconteceu (códigos de país/região são usados para países estrangeiros)
 - um dígito de paridade
     
 ### <a name="checksum"></a>Soma de verificação
@@ -9195,7 +9195,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_italy_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_italy_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
@@ -9217,51 +9217,51 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_italy_eu_national_id_card"></a>Keywords_italy_eu_national_id_card
 
-- fiscal codice
-- fiscalização codice
-- pessoal da ID codice
-- pessoal do Codice
+- índice fiscal
+- codice fiscale
+- codice id personale
+- codice personale
 - código fiscal
-- numero certificato pessoal
-- numero di IDENTIFICAZIONE fiscal
-- pessoal da ID numero
-- pessoal do numero
+- numero certificato personale
+- numero di identificazione fiscale
+- numero id personale
+- numero personale
 - número do certificado pessoal
 - código pessoal
 - código de ID pessoal
-- número de identificação pessoal
+- número de ID pessoal
 - personalcodeno #
-- código de imposto
+- código fiscal
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- número de identidade do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax identity number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="italy-passport-number"></a>Número de passaporte da Itália
+## <a name="italy-passport-number"></a>Número de passaporte italiano
 
 ### <a name="format"></a>Formatar
 
-duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores
+duas letras ou dígitos seguidos por sete dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
 duas letras ou dígitos seguidos por sete dígitos:
   
-- dois dígitos ou letras (não diferencia maiúsculas de minúsculas)
+- dois dígitos ou letras (não são sensíveis a maiúsculas e minúsculas)
 - sete dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -9271,13 +9271,13 @@ não se aplica
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_italy_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_italy_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_italy_eu_passport_date` encontra a data no formato dd mmm/mmm aaaa (exemplo-01 Gen/JAN 1988) ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_italy_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_italy_eu_passport_number` ou for encontrada. 
+- A expressão regular localiza a data no formato `Regex_italy_eu_passport_date` DD MMM/MMM AAAA (Exemplo - 01 GEN/JAN 1988) ou uma palavra-chave de onde `Keywords_eu_passport_date` foi encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_italy_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_italy_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_italy_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_italy_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Italy Passport Number -->
@@ -9307,52 +9307,52 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_italy_eu_passport_number"></a>Keywords_italy_eu_passport_number
 
-- italiana passaporto
-- passaporto italiana
+- italiano passaporto
+- passaporto italiano
 - passaporto numero
 - numéro passeport
-- numero di PASSAPORTO
-- Numeri del PASSAPORTO
+- numero di passaporto
+- numeri del passaporto
 - passeport italien
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="italy-value-added-tax-number"></a>Número de imposto adicionado ao valor da Itália
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="italy-value-added-tax-number"></a>Número de imposto adicionado ao valor italiano
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão de 13 caracteres alfanuméricos com delimitadores opcionais
+Padrão alfanumérico de 13 caracteres com delimitadores opcionais
 
 ### <a name="pattern"></a>Padrão
 
-padrão de 13 caracteres alfanuméricos com delimitadores opcionais:
+Padrão alfanumérico de 13 caracteres com delimitadores opcionais:
 
 - I ou i
 - T ou t
-- espaço, ponto, hífen ou vírgula opcional
+- espaço opcional, ponto, hífen ou vírgula
 - 11 dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -9362,11 +9362,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_italy_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_italy_value_added_tax_number for encontrada.
+- A função Func_italy_value_added_tax_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_italy_value_added_tax_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_italy_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_italy_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Italy Value Added Tax -->
@@ -9385,9 +9385,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_italy_value_added_tax_number"></a>Keyword_italy_value_added_tax_number
 
-- número de IVA
-- IVA não
-- IVA #
+- número do iva
+- vat no
+- vat #
 - iva
 - iva #
 
@@ -9402,9 +9402,9 @@ sete ou oito dígitos
 
 número da conta bancária:
 - sete ou oito dígitos
-- código da filial da conta bancária:
+- código de ramificação de conta bancária:
 - quatro dígitos 
-- um espaço ou um traço (opcional) 
+- um espaço ou traço (opcional) 
 - três dígitos
 
 Soma de verificação
@@ -9495,7 +9495,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 支店コード
 - 店番号
 
-## <a name="japan-drivers-license-number"></a>Número da carteira de motorista do Japão
+## <a name="japan-drivers-license-number"></a>Número de carteira de motorista do Japão
 
 ### <a name="format"></a>Formatar
 
@@ -9535,10 +9535,10 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverslicenses
 - driver'slicenses
 - driverlicenses
-- distribuição #
-- DL #
-- driver'lic #
-- driver'lics #
+- dl #
+- dls #
+- lic #
+- lics #
 - 運転免許証
 - 運転免許
 - 免許証
@@ -9556,31 +9556,31 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 免許no
 - 運転経歴証明書番号
 - 運転経歴証明書
-- 運転免許証No.
-- 運転免許No.
-- 免許証No.
-- 免許No.
+- 運転免許証Não.
+- 運転免許Não.
+- 免許証Não.
+- 免許Não.
 - 運転免許証 #
 - 運転免許 #
 - 免許証 #
 - 免許 #
 
 
-## <a name="japan-my-number---corporate"></a>Meu número do Japão-corporativo
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="japan-my-number---corporate"></a>Meu Número do Japão - Corporativo
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-número de 13 dígitos
+Número de 13 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-número de 13 dígitos:
+Número de 13 dígitos:
 
 - um dígito de um a nove
 - 12 dígitos
@@ -9592,11 +9592,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_japanese_my_number_corporate localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_japanese_my_number_corporate for encontrada.
+- A função Func_japanese_my_number_corporate localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_japanese_my_number_corporate for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_japanese_my_number_corporate localiza o conteúdo que corresponde ao padrão.
+- A função Func_japanese_my_number_corporate localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Japanese My Number – Corporate -->
@@ -9627,26 +9627,26 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 指定通知書
 
 
-## <a name="japan-my-number---personal"></a>Japão meu número-pessoal
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="japan-my-number---personal"></a>Meu Número do Japão - Pessoal
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-número de 12 dígitos
+Número de 12 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-número de 12 dígitos:
+Número de 12 dígitos:
 
 - quatro dígitos
-- um espaço, um ponto ou hífen opcional
+- um espaço opcional, ponto ou hífen
 - quatro dígitos
-- um espaço, um ponto ou hífen opcional
+- um espaço opcional, ponto ou hífen
 - quatro dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -9656,11 +9656,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_japanese_my_number_personal localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_japanese_my_number_personal for encontrada.
+- A função Func_japanese_my_number_personal localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_japanese_my_number_personal for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_japanese_my_number_personal localiza o conteúdo que corresponde ao padrão.
+- A função Func_japanese_my_number_personal localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Japanese My Number – Personal -->
@@ -9699,7 +9699,7 @@ duas letras seguidas por sete dígitos
 
 ### <a name="pattern"></a>Padrão
 
-duas letras (não diferencia maiúsculas de minúsculas) seguidas por sete dígitos
+duas letras (não sensíveis a maiúsculas e minúsculas) seguidas de sete dígitos
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -9725,19 +9725,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
-- Passaport
+- Passport
 - Passport Number
-- N º Passport
+- Passport No.
 - Passport #
 - パスポート
 - パスポート番号
 - パスポートナンバー
-- パスポート＃
+- パスポート#
 - パスポート #
-- パスポートNo.
+- パ ポトNo.
 - 旅券番号
-- 旅券番号＃
-- ♯ 旅券番号
+- 旅券番号#
+- 旅券番号♯
 - 旅券ナンバー
 
 
@@ -9750,9 +9750,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 12 letras e dígitos:
-- duas letras (não diferencia maiúsculas de minúsculas)
+- duas letras (não sensíveis a maiúsculas e minúsculas)
 - oito dígitos 
-- duas letras (não diferencia maiúsculas de minúsculas)
+- duas letras (não sensíveis a maiúsculas e minúsculas)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -9761,8 +9761,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_jp_residence_card_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_jp_residence_card_number for encontrada.
+- A expressão regular Regex_jp_residence_card_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_jp_residence_card_number for encontrada.
 
 ```xml
 <!--Japan Residence Card Number-->
@@ -9779,13 +9779,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_jp_residence_card_number"></a>Keyword_jp_residence_card_number
 
 - Número do cartão de residência
-- Número do cartão de residência
+- Cartão de residência não
 - Cartão de residência #
 - 在留カード番号
 - 在留カード
 - 在留番号
 
-## <a name="japan-resident-registration-number"></a>Número de registro residente no Japão
+## <a name="japan-resident-registration-number"></a>Número de registro de residente do Japão
 
 ### <a name="format"></a>Formatar
 
@@ -9831,7 +9831,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 外国人登録証
 
    
-## <a name="japan-social-insurance-number-sin"></a>Número de seguro social (SIN) do Japão
+## <a name="japan-social-insurance-number-sin"></a>Número do seguro social japonês (SIN)
 
 ### <a name="format"></a>Formatar
 
@@ -9842,7 +9842,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 7 a 12 dígitos:
 - quatro dígitos 
 - um hífen (opcional) 
-- seis dígitos ou
+- ou de seis dígitos
 - 7 a 12 dígitos consecutivos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -9887,7 +9887,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 雇用保険番号
 - 保険証番号
 - 社会保険番号
-- 社会保険No.
+- 社会保険Não.
 - 社会保険
 - 介護保険
 - 介護保険被保険者番号
@@ -9897,7 +9897,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 厚生年金被保険者整理番号
 
 
-## <a name="latvia-drivers-license-number"></a>Número da carteira de motorista da Letônia
+## <a name="latvia-drivers-license-number"></a>Número de carteira de motorista da Letônia
 
 ### <a name="format"></a>Formatar
 
@@ -9907,7 +9907,7 @@ três letras seguidas por seis dígitos
 
 três letras e seis dígitos:
   
-- três letras (não diferencia maiúsculas de minúsculas) 
+- três letras (não sensíveis a maiúsculas e minúsculas) 
 - seis dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -9917,8 +9917,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_latvia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_latvia_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_latvia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_latvia_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Latvia Driver's License Number -->
@@ -9935,7 +9935,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -9943,121 +9943,121 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_latvia_eu_drivers_license_number"></a>Keywords_latvia_eu_driver ' s_license_number
+#### <a name="keywords_latvia_eu_drivers_license_number"></a>Keywords_latvia_eu_driver's_license_number
 
 - autovadītāja apliecība
 - autovadītāja apliecības
@@ -10075,9 +10075,9 @@ Formato antigo
 
 11 dígitos e um hífen:
   
-- seis dígitos que correspondem à data de nascimento (DDMMAA) 
+- seis dígitos que correspondem à data de nascimento (DDMMYY) 
 - um hífen
-- um dígito que corresponde ao século de nascimento ("0" para o século 19, "1" para o século 20 e "2" para o século 21)
+- um dígito que corresponde ao centenário de nascimento ("0" para o aniversário do 19o, "1" para o 20º ano e "2" para o 21º dia)
 - quatro dígitos, gerados aleatoriamente
 
 Novo formato
@@ -10094,11 +10094,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_latvia_eu_national_id_card` ou Regex `Regex_latvia_eu_national_id_card_new_format` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_latvia_eu_national_id_card` foi encontrada. 
+- A função  `Func_latvia_eu_national_id_card` ou regex `Regex_latvia_eu_national_id_card_new_format` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_latvia_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_latvia_eu_national_id_card` ou Regex `Regex_latvia_eu_national_id_card_new_format` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_latvia_eu_national_id_card` ou regex `Regex_latvia_eu_national_id_card_new_format` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
       <!-- Latvia Personal Code -->
@@ -10138,73 +10138,73 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número de nascimento
 - número do cidadão
 - número civil
-- número do dos censo eletrônico
+- número de censo eletrônico
 - número eletrônico
 - código fiscal
-- número de usuário da assistência médica
-- ID #
-- ID-código
+- número do usuário de assistência médica
+- id #
+- id-code
 - identification number
 - identifikācijas numurs
-- ID-número
+- id-number
 - número individual
 - latvija alva
-- ID nacionālais
+- nacionālais id
 - national id
-- número de identificação nacional
-- número de identidade nacional
+- national identifying number
+- national identity number
 - national insurance number
-- número do Registro Nacional
-- nodokļa numurs
-- ID nodokļu
+- national register number
+- nodokļa núms
+- nodokļu id
 - nodokļu identifikācija numurs
 - número do certificado pessoal
 - código pessoal
 - código de ID pessoal
-- número de identificação pessoal
+- número de ID pessoal
 - código de identificação pessoal
 - identificador pessoal
 - número de identidade pessoal
 - número pessoal
 - código numérico pessoal
 - personalcodeno #
-- Kods personas
-- código de identificação de população
+- personas kods
+- código de identificação da população
 - número de serviço público
 - registration number
 - número de receita
 - social insurance number
 - social security number
-- código de imposto estadual
+- state tax code
 - tax file number
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
-- número do eleitor
+- tin id
+- tin no
+- tin #
+- número do votantes
 
-## <a name="latvia-passport-number"></a>Número de passaporte da Letônia
+## <a name="latvia-passport-number"></a>Número de passaporte letão
 
 ### <a name="format"></a>Formatar
 
-duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores
+duas letras ou dígitos seguidos por sete dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
 duas letras ou dígitos seguidos por sete dígitos:
   
-- dois dígitos ou letras (não diferencia maiúsculas de minúsculas)
+- dois dígitos ou letras (não são sensíveis a maiúsculas e minúsculas)
 - sete dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -10214,13 +10214,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_latvia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_latvia_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_latvia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_latvia_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_latvia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_latvia_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_latvia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_latvia_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Latvia Passport Number -->
@@ -10250,16 +10250,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_latvia_eu_passport_number"></a>Keywords_latvia_eu_passport_number
 
@@ -10267,16 +10267,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - pase numur
 - pases numuri
 - pases nr
-- passeport não
-- n ° du passeport
+- passeport no
+- n° du Passeport
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="lithuania-drivers-license-number"></a>Número da carteira de motorista da Lituânia
+## <a name="lithuania-drivers-license-number"></a>Número de carteira de motorista da Lituânia
 
 ### <a name="format"></a>Formatar
 
@@ -10293,8 +10293,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_lithuania_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_lithuania_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_lithuania_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_lithuania_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Lithuania Driver's License Number -->
@@ -10311,7 +10311,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -10319,133 +10319,133 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver ' s_license_number
+#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver é s_license_number
 
 - vairuotojo pažymėjimas
 - vairuotojo pažymėjimo numeris
 - vairuotojo pažymėjimo numeriai
 
 ## <a name="lithuania-personal-code"></a>Código pessoal da Lituânia
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -10455,7 +10455,7 @@ Esse tipo de informação confidencial só está disponível para uso no:
 
 11 dígitos sem espaços e delimitadores:
   
-- um dígito (1-6) que corresponde ao sexo da pessoa e ao século de nascimento
+- um dígito (1 a 6) que corresponde ao gênero e ao gênero de nascimento da pessoa
 - seis dígitos que correspondem à data de nascimento (AAMMDD) 
 - três dígitos que correspondem ao número de série da data de nascimento
 - um dígito de verificação
@@ -10468,7 +10468,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_lithuania_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_lithuania_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -10495,9 +10495,9 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_lithuania_eu_national_id_card"></a>Keywords_lithuania_eu_national_id_card
 
 - asmeninis skaitmeninis kodas
-- kodas
-- número do serviço do cidadão
-- ID mokesčių
+- asmens kodas
+- número de serviço cidadão
+- mokesčių id
 - mokesčių identifikavimas numeris
 - mokesčių identifikavimo numeris
 - mokesčių numeris
@@ -10506,28 +10506,28 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - código numérico pessoal
 - piliečio paslaugos numeris
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 - unikalus identifikavimo kodas
 - unikalus identifikavimo numeris
-- número de identificação exclusivo
+- número de identificação exclusiva
 - número de identidade exclusivo
 - uniqueidentityno #
 
-## <a name="lithuania-passport-number"></a>Número de passaporte da Lituânia
+## <a name="lithuania-passport-number"></a>Número de passaporte lituano
 
 ### <a name="format"></a>Formatar
 
@@ -10535,7 +10535,7 @@ oito dígitos ou letras sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
-oito dígitos ou letras (não diferencia maiúsculas de minúsculas)
+oito dígitos ou letras (não são sensíveis a maiúsculas e minúsculas)
   
 ### <a name="checksum"></a>Soma de verificação
 
@@ -10544,13 +10544,13 @@ não se aplica
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_lithuania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_lithuania_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date3` encontra a data no formato dd mm aaaa ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_lithuania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_lithuania_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date3` localiza a data no formato DD MM AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_lithuania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_lithuania_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_lithuania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_lithuania_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Lithuania Passport Number -->
@@ -10580,30 +10580,30 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_lithuania_eu_passport_number"></a>Keywords_lithuania_eu_passport_number
 
-- paso numeris
-- paso numeriai
-- paso nr
+- numeris
+- numeriai
+- mos nr
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="luxemburg-drivers-license-number"></a>Número da carteira de motorista do Luxemburg
+## <a name="luxemburg-drivers-license-number"></a>Número de carteira de motorista de Luxemburgo
 
 ### <a name="format"></a>Formatar
 
@@ -10620,8 +10620,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_luxemburg_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_luxemburg_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_luxemburg_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_luxemburg_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Luxemburg Driver's License Number -->
@@ -10638,7 +10638,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -10646,132 +10646,132 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_luxemburg_eu_drivers_license_number"></a>Keywords_luxemburg_eu_driver ' s_license_number
+#### <a name="keywords_luxemburg_eu_drivers_license_number"></a>Keywords_luxemburg_eu_driver's_license_number
 
 - fahrerlaubnis
 - Führerschäin
 
-## <a name="luxemburg-national-identification-number-natural-persons"></a>Número de identificação nacional do Luxemburg (pessoas naturais)
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="luxemburg-national-identification-number-natural-persons"></a>Número de identificação nacional (pessoas físicas) de Luxemburgo
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -10792,7 +10792,7 @@ sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_luxemburg_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_luxemburg_eu_national_id_card` de onde foi encontrada. 
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -10819,28 +10819,28 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_luxemburg_eu_national_id_card"></a>Keywords_luxemburg_eu_national_id_card
 
-- ID eindeutige
-- ID eindeutige-Nummer
+- eindeutige id
+- eindeutige id-nummer
 - eindeutigeid #
-- ID personnelle
+- id personnelle
 - idpersonnelle #
 - idpersonnelle
 - código individual
-- ID individual
+- id individual
 - identificação individual
 - identidade individual
-- Numéro d'identification
-- ID pessoal
+- numéro d'identification personnel
+- id pessoal
 - identificação pessoal
 - identidade pessoal
 - personalidno #
 - personalidnumber #
 - persönliche identifikationsnummer
-- ID exclusiva
+- id exclusiva
 - identidade exclusiva
 - uniqueidkey #
 
-## <a name="luxemburg-passport-number"></a>Número de passaporte Luxemburg
+## <a name="luxemburg-passport-number"></a>Número de passaporte de Luxemburgo
 
 ### <a name="format"></a>Formatar
 
@@ -10848,7 +10848,7 @@ oito dígitos ou letras sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
-oito dígitos ou letras (não diferencia maiúsculas de minúsculas)
+oito dígitos ou letras (não são sensíveis a maiúsculas e minúsculas)
   
 ### <a name="checksum"></a>Soma de verificação
 
@@ -10857,13 +10857,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_luxemburg_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_luxemburg_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date3` encontra a data no formato dd mm aaaa ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_luxemburg_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_luxemburg_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date3` localiza a data no formato DD MM AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_luxemburg_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_luxemburg_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_luxemburg_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_luxemburg_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Luxemburg Passport Number -->
@@ -10893,41 +10893,41 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_luxemburg_eu_passport_number"></a>Keywords_luxemburg_eu_passport_number
 - ausweisnummer
-- passagem de Luxemburgo
-- passeport de Luxemburgo
-- passaporte de Luxemburgo
-- nenhum de passeport
+- luxemburgue pass
+- luxemburgo passeport
+- luxemburgo passport
+- no de passeport
 - no-reisepass
 - nr-reisepass
-- Numéro de passeport
-- passagem de rede
-- passar NR
+- numéro de passeport
+- pass net
+- pass nr
 - passnummer
 - passeport nombre
-- reisepässe
+- reeepässe
 - reisepass-nr
 - reisepassnummer
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="luxemburg-national-identification-number-non-natural-persons"></a>Número de identificação nacional do Luxemburg (pessoas não naturais)
+## <a name="luxemburg-national-identification-number-non-natural-persons"></a>Número de identificação nacional de Luxemburgo (pessoas não naturais)
 
 ### <a name="format"></a>Formatar
 
@@ -10954,7 +10954,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number_non_natural` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_luxemburg_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_luxemburg_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number_non_natural` localiza conteúdo que corresponde ao padrão. 
@@ -10980,40 +10980,40 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_luxemburg_eu_tax_file_number"></a>Keywords_luxemburg_eu_tax_file_number
 
-- carte de sécurité
-- Étain não
+- carte de sécurité sociale
+- étain non
 - étain #
-- d'impôt de identificação
-- identifikatiounsnummer de imposto de Luxemburgo
+- identifiant d'impôt
+- luxemburgo tax identifikaunsnummer
 - numéro d'étain
-- Numéro d'identification fiscal do Luxembourgeois
-- Numéro d'identification fiscal
+- numéro d'identification fiscal luxemburgeois
+- numéro d'identification fiscale
 - social security
 - sozialunterstützung
 - sozialversécherung
 - sozialversicherungsausweis
-- ID steier
-- steier identifikatiounsnummer
+- steier id
+- steier identifikaunsnummer
 - steier nummer
-- ID Steuer
+- steuer id
 - steueridentifikationsnummer
 - steuernummer
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 - zinn #
 - zinn
 - zinnzahl
@@ -11029,11 +11029,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 12 dígitos:
 - seis dígitos no formato AAMMDD que são a data de nascimento 
-- um traço (opcional) 
+- um travessão (opcional) 
 - código de local de nascimento de duas letras 
-- um traço (opcional) 
+- um travessão (opcional) 
 - três dígitos aleatórios 
-- código sexo de um dígito
+- código de gênero de um dígito
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -11042,8 +11042,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_malaysia_id_card_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_malaysia_id_card_number for encontrada.
+- A expressão regular Regex_malaysia_id_card_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_malaysia_id_card_number for encontrada.
 
 ```xml
 <!-- Malaysia ID Card Number -->
@@ -11061,31 +11061,31 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_malaysia_id_card_number"></a>Keyword_malaysia_id_card_number
 
 - cartão de aplicativo digital
-- e/c
-- e/c não
-- Liga
-- IC não
+- i/c
+- i/c no
+- ic
+- ic no
 - id card
-- Cartão de identificação
+- identification Card
 - cartão de identidade
 - k/p
-- n/p não
+- k/p no
 - kad akuan diri
 - kad aplikasi digital
-- kad pengenalan Malásia
-- KP
-- KP não
+- kad pengenalan malásia
+- kp
+- kp no
 - mykad
 - mykas
 - mykid
 - mypr
 - mytentera
-- cartão de identidade da Malásia
-- cartão de identidade do Malasiano
+- cartão de identidade da malásia
+- cartão de identidade malaio
 - nric
 - cartão de identificação pessoal
 
-## <a name="malta-drivers-license-number"></a>Número da carteira de motorista do driver de Malta
+## <a name="malta-drivers-license-number"></a>Número de carteira de motorista de Malta
 
 ### <a name="format"></a>Formatar
 
@@ -11095,7 +11095,7 @@ Combinação de dois caracteres e seis dígitos no padrão especificado
 
 combinação de dois caracteres e seis dígitos:
   
-- dois caracteres (dígitos ou letras, não diferenciam maiúsculas de minúsculas)
+- dois caracteres (dígitos ou letras, não sensíveis a maiúsculas e minúsculas)
 - um espaço (opcional)
 - três dígitos
 - um espaço (opcional)
@@ -11108,8 +11108,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_malta_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_malta_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_malta_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_malta_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Malta Driver's License Number -->
@@ -11126,7 +11126,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -11134,144 +11134,144 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_malta_eu_drivers_license_number"></a>Keywords_malta_eu_driver ' s_license_number
+#### <a name="keywords_malta_eu_drivers_license_number"></a>Keywords_malta_eu_driver's_license_number
 
 - liċenzja tas-sewqan
 - liċenzji tas-sewwieq
 
 
 ## <a name="malta-identity-card-number"></a>Número do cartão de identidade de Malta
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-sete dígitos seguidos de uma letra
+sete dígitos seguidos por uma letra
   
 ### <a name="pattern"></a>Padrão
 
-sete dígitos seguidos de uma letra:
+sete dígitos seguidos por uma letra:
   
 - sete dígitos 
-- uma letra em "M, G, A, P, L, H, B, Z" (não diferencia maiúsculas de minúsculas)
+- uma letra em "M, G, A, P, L, H, B, Z" (não maiúsculas de minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -11280,11 +11280,11 @@ Não aplicável
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_malta_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_malta_eu_national_id_card` foi encontrada. 
+- A expressão regular  `Regex_malta_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_malta_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_malta_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
+- A expressão regular  `Regex_malta_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
       <!-- Malta Identity Card Number -->
@@ -11303,18 +11303,18 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_malta_eu_national_id_card"></a>Keywords_malta_eu_national_id_card
 
-- número do serviço do cidadão
-- ID tat-taxxa
+- número de serviço cidadão
+- id ela-taxxa
 - identifika numru tal-biljett
-- Kodiċi numerali pessoali
-- numru ta ' identifikazzjoni pessoal
-- numru ta ' identifikazzjoni tat-taxxa
-- numru ta ' identifikazzjoni uniku
-- numru ta ' Identità uniku
+- kodiċi numeral personali
+- numru ta 'identifikazzjoni personali
+- numru ta 'identifikazzjonipos-taxxa
+- numru ta 'identifikazzjoni uniku
+- numru ta' identità uniku
 - numru tas-servizz taċ-ċittadin
-- numru tat-taxxa
+- numru numru numru-taxxa
 - código numérico pessoal
-- número de identificação exclusivo
+- número de identificação exclusiva
 - número de identidade exclusivo
 - uniqueidentityno #
 
@@ -11336,13 +11336,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_malta_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_malta_eu_passport_number` é encontrada. 
-- Uma palavra-chave de `Keywords_eu_passport_date` foi encontrada
+- A expressão regular  `Regex_malta_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_malta_eu_passport_number` ou for encontrada. 
+- Uma palavra-chave `Keywords_eu_passport_date` de onde foi encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_malta_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_malta_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_malta_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_malta_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Malta Passport Number -->
@@ -11369,16 +11369,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_malta_eu_passport_number"></a>Keywords_malta_eu_passport_number
 
@@ -11388,28 +11388,28 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="malta-tax-identification-number"></a>Número de identificação do imposto de Malta
+## <a name="malta-tax-identification-number"></a>Número de identificação fiscal de Malta
 
 ### <a name="format"></a>Formatar
 
-Para as nacionalidades maltês:
+Para nacionais malteses:
 - sete dígitos e uma letra no padrão especificado
   
-Entidades nacionais e Maltês que não são maltês:
+Entidades nacionais e maltesas não maltesas:
 - nove dígitos
   
 ### <a name="pattern"></a>Padrão
 
-Nacionalidades maltês: sete dígitos e uma letra
+Nacionais maltesos: sete dígitos e uma letra
   
 - sete dígitos 
-- uma letra (não diferencia maiúsculas de minúsculas)
+- uma letra (não sensitivo entre letras minúsculas)
     
-Entidades de cidadãos e Maltês que não são maltês: nove dígitos
+Entidades nacionais e maltesas não maltesas: nove dígitos
   
 - nove dígitos 
     
@@ -11420,11 +11420,11 @@ Não aplicável
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- O Regex  `Regex_malta_eu_tax_file_number`  ou `Regex_malta_eu_tax_file_number_non_maltese_national` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_malta_eu_tax_file_number` foi encontrada. 
+- A regex  `Regex_malta_eu_tax_file_number`  ou localiza conteúdo que corresponde ao `Regex_malta_eu_tax_file_number_non_maltese_national` padrão. 
+- Uma palavra-chave  `Keywords_malta_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- O Regex  `Regex_malta_eu_tax_file_number` ou `Regex_malta_eu_tax_file_number_non_maltese_national` localiza conteúdo que corresponde ao padrão. 
+- A regex  `Regex_malta_eu_tax_file_number` ou localiza conteúdo que corresponde ao `Regex_malta_eu_tax_file_number_non_maltese_national` padrão. 
     
 ```xml
       <!-- Malta Tax ID Number -->
@@ -11450,46 +11450,46 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_malta_eu_tax_file_number"></a>Keywords_malta_eu_tax_file_number
 
-- número do serviço do cidadão
-- ID tat-taxxa
+- número de serviço cidadão
+- id ela-taxxa
 - identifika numru tal-biljett
-- Kodiċi numerali pessoali
-- numru ta ' identifikazzjoni pessoal
-- numru ta ' identifikazzjoni tat-taxxa
-- numru ta ' identifikazzjoni uniku
-- numru ta ' Identità uniku
+- kodiċi numeral personali
+- numru ta 'identifikazzjoni personali
+- numru ta 'identifikazzjonipos-taxxa
+- numru ta 'identifikazzjoni uniku
+- numru ta' identità uniku
 - numru tas-servizz taċ-ċittadin
-- numru tat-taxxa
+- numru numru numru-taxxa
 - código numérico pessoal
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
-- número de identificação exclusivo
+- tin id
+- tin no
+- tin #
+- número de identificação exclusiva
 - número de identidade exclusivo
 - uniqueidentityno #
 
-## <a name="netherlands-citizens-service-bsn-number"></a>Número do serviço do cidadão (BSN) Holanda
+## <a name="netherlands-citizens-service-bsn-number"></a>Número do serviço do cidadão (BSN) da Países Baixos
 
 ### <a name="format"></a>Formatar
 
-oito e nove dígitos contendo espaços opcionais
+oito a nove dígitos contendo espaços opcionais
 
 ### <a name="pattern"></a>Padrão
 
-oito-nove dígitos:
+oito a nove dígitos:
 - três dígitos 
 - um espaço (opcional) 
 - três dígitos 
@@ -11503,8 +11503,8 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_netherlands_bsn localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_netherlands_bsn for encontrada.
+- A função Func_netherlands_bsn localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_netherlands_bsn for encontrada.
 - A soma de verificação passa.
 
 ```xml
@@ -11521,29 +11521,29 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
   
-- BSN #
-- BSN
-- burgerservicenummer
-- número do serviço do cidadão
-- número de pessoa
+- bsn #
+- bsn
+- içoservicenummer
+- número de serviço cidadão
+- número da pessoa
 - número pessoal
 - código numérico pessoal
 - número relacionado à pessoa
 - persoonlijk nummer
-- código de numerieke persoonlijke
-- persoonsgebonden
+- Código persoonlijke numerieke
+- persoonsgetimaden
 - persoonsnummer
-- sociaal-fiscaal nummer
-- social-número fiscal
+- nummer sociaal-fiscaal
+- número social-fiscal
 - sofi
 - sofinummer
 - uniek identificatienummer
 - uniek identiteitsnummer
-- número de identificação exclusivo
+- número de identificação exclusiva
 - número de identidade exclusivo
 - uniqueidentityno #
 
-## <a name="netherlands-drivers-license-number"></a>Número da carteira de motorista da Holanda
+## <a name="netherlands-drivers-license-number"></a>Número de carteira de motorista dos Países Baixos
 
 ### <a name="format"></a>Formatar
 
@@ -11560,8 +11560,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_netherlands_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_netherlands_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_netherlands_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_netherlands_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Netherlands Driver's License Number -->
@@ -11578,7 +11578,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -11586,121 +11586,121 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_netherlands_eu_drivers_license_number"></a>Keywords_netherlands_eu_driver ' s_license_number
+#### <a name="keywords_netherlands_eu_drivers_license_number"></a>Keywords_netherlands_eu_driver é s_license_number
 
 - permis de conduire
 - rijbewijs
@@ -11710,7 +11710,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - rijbewijsnummers
 
 
-## <a name="netherlands-passport-number"></a>Número de passaporte Holanda
+## <a name="netherlands-passport-number"></a>Número de passaporte dos Países Baixos
 
 ### <a name="format"></a>Formatar
 
@@ -11727,13 +11727,13 @@ não se aplica
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_netherlands_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_netherlands_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_netherlands_eu_passport_date` encontra a data no formato dd mmm/mmm aaaa (exemplo-26 Maa/MAR 2012)
+- A expressão regular  `Regex_netherlands_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_netherlands_eu_passport_number` ou for encontrada. 
+- A expressão regular localiza a data no formato `Regex_netherlands_eu_passport_date` DD MMM/MMM AAAY (Exemplo - 26 MAA/MAR 2012)
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_netherlands_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_netherlands_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_netherlands_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_netherlands_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Netherlands Passport Number -->
@@ -11760,16 +11760,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_netherlands_eu_passport_number"></a>Keywords_netherlands_eu_passport_number
 
@@ -11778,13 +11778,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - paspoortnummer
 - paspoort nr
 
-## <a name="netherlands-tax-identification-number"></a>Número de identificação do imposto Holanda
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="netherlands-tax-identification-number"></a>Número de identificação fiscal dos Países Baixos
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -11802,7 +11802,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_netherlands_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_netherlands_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -11825,63 +11825,63 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_netherlands_eu_tax_file_number"></a>Keywords_netherlands_eu_tax_file_number
 
 - btw nummer
-- identificação de imposto hollânske
-- hulandes número de ID de impuesto
-- hulandes impuesto de identificação
-- identificatienummer a última
-- identificatienummer Van é última
-- número de identificação do impuesto
-- número do impuesto
-- Países Baixos Nummer ID da última vez
-- Países Baixos identificatie
-- Países Baixos identificatienummer
-- Países Baixos belastingnummer
-- Nederlandse identificatie
-- identificação de imposto Holanda
-- identificação de imposto do Netherland
-- Tin Holanda
-- Tin do Netherland
+- hollânske tax identification
+- hulandes impuesto id number
+- hulandes impuesto identification
+- identificatienummer reating
+- identificatienummer van reesting
+- número de identificação impuesto
+- impuesto number
+- nederlands reesceting id nummer
+- ned ltdaqueting identificatie
+- nedlsons reesceting identificatienummer
+- nedlsons reastretingnummer
+- nedlsonse reastreting identificatie
+- netherlands tax identification
+- netherland's tax identification
+- netherlands tin
+- tin dos países baixos
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- tal de identificação de imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- tal de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tal de identificação fiscal
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- tax tal
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="netherlands-value-added-tax-number"></a>Número de imposto sobre valor Holanda adicionado
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="netherlands-value-added-tax-number"></a>Número de imposto adicionado ao valor dos Países Baixos
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão de 14 caracteres alfanuméricos
+Padrão alfanumérico de 14 caracteres
 
 ### <a name="pattern"></a>Padrão
 
-padrão alfanumérico de 14 caracteres:
+Padrão alfanumérico de 14 caracteres:
 
 - N ou n
 - L ou l
-- espaço, ponto ou hífen opcional
+- espaço opcional, ponto ou hífen
 - nove dígitos
-- espaço, ponto ou hífen opcional
+- espaço opcional, ponto ou hífen
 - B ou b
 - dois dígitos
 
@@ -11892,11 +11892,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_netherlands_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_netherlands_value_added_tax_number for encontrada.
+- A função Func_netherlands_value_added_tax_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_netherlands_value_added_tax_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_netherlands_value_added_tax_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_netherlands_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Netherlands Value Added Tax Number -->
@@ -11915,37 +11915,37 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_netherlands_value_added_tax_number"></a>Keyword_netherlands_value_added_tax_number
 
-- número de IVA
-- IVA não
-- IVA #
-- wearde tafoege de imposto de getal
-- btw nûmer
+- número do iva
+- vat no
+- vat #
+- getal de imposto do wearde tafoege
+- btw nūmer
 - btw-nummer
 
 
 ## <a name="new-zealand-bank-account-number"></a>Número de conta bancária da Nova Zelândia
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão de 14 a 16 dígitos com delimitador opcional
+Padrão de 14 a 16 dígitos com olimiter opcional
 
 ### <a name="pattern"></a>Padrão
 
-padrão de 14 a 16 dígitos com delimitador opcional:
+Padrão de 14 a 16 dígitos com o delimiter opcional:
 
 - dois dígitos
 - um hífen ou espaço opcional
-- três a quatro dígitos
+- de três a quatro dígitos
 - um hífen ou espaço opcional
 - sete dígitos
 - um hífen ou espaço opcional
-- dois a três dígitos
+- de dois a três dígitos
 - um hífen ou espaço de opções
 
 ### <a name="checksum"></a>Soma de verificação
@@ -11955,11 +11955,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_new_zealand_bank_account_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_new_zealand_bank_account_number for encontrada.
+- A função Func_new_zealand_bank_account_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_new_zealand_bank_account_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_new_zealand_bank_account_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_new_zealand_bank_account_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- New Zealand Bank Account Number -->
@@ -11979,27 +11979,27 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_new_zealand_bank_account_number"></a>Keyword_new_zealand_bank_account_number
 
 - account number
-- conta bancária
+- bank account
 - bank_acct_id
 - bank_acct_branch
 - bank_acct_nbr
 
 
-## <a name="new-zealand-drivers-license-number"></a>Número da carteira de motorista da Nova Zelândia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="new-zealand-drivers-license-number"></a>Número de carteira de motorista da Nova Zelândia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-padrão de oito caracteres alfanuméricos
+padrão alfanumérico de oito caracteres
 
 ### <a name="pattern"></a>Padrão
 
-padrão de oito caracteres alfanuméricos
+padrão alfanumérico de oito caracteres
 
 - duas letras 
 - seis dígitos
@@ -12011,11 +12011,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_newzealand_driver_license_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_newzealand_driver_license_number for encontrada.
+- A função Func_newzealand_driver_license_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_newzealand_driver_license_number for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_newzealand_driver_license_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_newzealand_driver_license_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- New Zealand Driver License Number -->
@@ -12036,77 +12036,77 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- licença de driver
-- licenças de driver
+- driver lic
+- driver licence
+- driver licences
 - driverslic
 - driverslicence
 - driverslicences
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's licence
-- licenças do driver
+- driver's licences
 - driverlic #
 - driverlics #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver licence #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's licence #
+- driver's licences #
 - international driving permit
 - international driving permits
-- Associação de automóvel do NZ
-- Nova Zelândia Associação de automóvel
+- Associação de automóveis da nz
+- new zelândia associação de automóveis
 
 
 ## <a name="new-zealand-inland-revenue-number"></a>Número de receita da Nova Zelândia
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -12117,9 +12117,9 @@ oito ou nove dígitos com delimitadores opcionais
 oito ou nove dígitos com delimitadores opcionais
 
 - dois ou três dígitos
-- um espaço ou hífen opcional
+- um espaço opcional ou hífen
 - três dígitos
-- um espaço ou hífen opcional
+- um espaço opcional ou hífen
 - três dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -12129,11 +12129,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_new_zealand_inland_revenue_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_new_zealand_inland_revenue_number for encontrada.
+- A função Func_new_zealand_inland_revenue_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_new_zealand_inland_revenue_number for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_new_zealand_inland_revenue_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_new_zealand_inland_revenue_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- New Zealand Inland Revenue Number -->
@@ -12152,15 +12152,15 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_new_zealand_inland_revenue_number"></a>Keyword_new_zealand_inland_revenue_number
 
-- IRD não.
-- IRD não #
-- IRD NZ
-- Nova Zelândia IRD
-- número do IRD
-- número de receita Inland
+- ird no.
+- ird no #
+- nz ird
+- new zelândia ird
+- ird number
+- número de receita do país
 
 
-## <a name="new-zealand-ministry-of-health-number"></a>Ministério do número de integridade da Nova Zelândia
+## <a name="new-zealand-ministry-of-health-number"></a>Número do ministério da saúde da Nova Zelândia
 
 ### <a name="format"></a>Formatar
 
@@ -12168,7 +12168,7 @@ três letras, um espaço (opcional) e quatro dígitos
 
 ### <a name="pattern"></a>Padrão
 
-- três letras (não diferencia maiúsculas de minúsculas) exceto ' I ' e ' O '
+- três letras (não sensíveis a maiúsculas e minúsculas), exceto 'I' e 'O'
 - um espaço (opcional) 
 - quatro dígitos
 
@@ -12208,21 +12208,22 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Nova Zelândia
 - Integridade
 - tratamento
-- Número de índice de integridade nacional
-- número do NHI
-- NHI não.
+- Número do Índice Nacional de Saúde
+- nhi number
+- nhi no.
 - NHI #
-- N º do índice de integridade nacional
-- ID de índice de integridade nacional
-- Índice de integridade nacional #
+- Índice nacional de saúde não.
+- ID do Índice Nacional de Saúde
+- Índice Nacional de Saúde #
 
-## <a name="new-zealand-social-wlefare-number"></a>Número de wlefare social da Nova Zelândia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="new-zealand-social-welfare-number"></a>Número de assistência social da Nova Zelândia
+
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -12245,11 +12246,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_newzealand_social_welfare_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_newzealand_social_welfare_number for encontrada.
+- A função Func_newzealand_social_welfare_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_newzealand_social_welfare_number for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_newzealand_social_welfare_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_newzealand_social_welfare_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Newzealand Social Welfare Number -->
@@ -12269,10 +12270,10 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_new_zealand_social_welfare_number"></a>Keyword_new_zealand_social_welfare_number
 
-- Welfare social #
-- Welfare social #
-- Welfare social não.
-- número do Welfare social
+- social meio-dia #
+- social meio-dia #
+- social não.
+- número de assistência social
 - swn #
 
    
@@ -12285,7 +12286,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 ### <a name="pattern"></a>Padrão
 
 11 dígitos:
-- seis dígitos no formato DDMMAA que são a data de nascimento 
+- seis dígitos no formato DDMMYY que são a data de nascimento 
 - número individual de três dígitos 
 - dois dígitos de verificação
 
@@ -12296,12 +12297,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_norway_id_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_norway_id_number for encontrada.
+- A função Func_norway_id_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_norway_id_number for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_norway_id_numbe localiza o conteúdo que corresponde ao padrão.
+- A função Func_norway_id_numbe localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -12324,12 +12325,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Número de identificação pessoal
 - Número de Identificação Norueguês
 - Número de Identificação
-- Identificador
+- Identificação
 - Personnummer
 - Fødselsnummer
 
    
-## <a name="philippines-unified-multi-purpose-identification-number"></a>Número de identificação de multiuso unificado Filipinas
+## <a name="philippines-unified-multi-purpose-identification-number"></a>Número de identificação multiuso unificado das Filipinas
 
 ### <a name="format"></a>Formatar
 
@@ -12351,8 +12352,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_philippines_unified_id localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_philippines_id for encontrada.
+- A expressão regular Regex_philippines_unified_id localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_philippines_id for encontrada.
 
 ```xml
 <!-- Philippines Unified Multi-Purpose ID number -->
@@ -12373,7 +12374,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Cartão de Identidade 
 - Pinag-isang Multi-Layunin ID
 
-## <a name="poland-drivers-license-number"></a>Número da carteira de motorista do Polônia
+## <a name="poland-drivers-license-number"></a>Número de carteira de motorista polônia
 
 ### <a name="format"></a>Formatar
 
@@ -12381,7 +12382,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
   
 ### <a name="pattern"></a>Padrão
 
-14 dígitos e 2 barras de avanço:
+14 dígitos e 2 barras para frente:
   
 - cinco dígitos 
 - uma barra
@@ -12396,8 +12397,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_poland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_poland_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_poland_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_poland_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Poland Driver's License Number -->
@@ -12414,7 +12415,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -12422,126 +12423,126 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_poland_eu_drivers_license_number"></a>Keywords_poland_eu_driver ' s_license_number
+#### <a name="keywords_poland_eu_drivers_license_number"></a>Keywords_poland_eu_driver é s_license_number
 
-- prawo jazdy
-- prawa jazdy
+- prawo quedasdy
+- prawa não se pode fazer isso
 
-## <a name="poland-identity-card"></a>Cartão de identidade da Polônia
+## <a name="poland-identity-card"></a>Cartão de identidade polônia
 
 ### <a name="format"></a>Formatar
 
@@ -12549,7 +12550,7 @@ três letras e seis dígitos
 
 ### <a name="pattern"></a>Padrão
 
-três letras (não diferencia maiúsculas de minúsculas) seguidas de seis dígitos
+três letras (não sensíveis a maiúsculas e minúsculas) seguidas por seis dígitos
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -12579,13 +12580,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Dowód osobisty
 - Numer dowodu osobistego
 - Nazwa i numer dowodu osobistego
-- Nazwa i NR dowodu osobistego
+- Nazwa i nr dowodu osobistego
 - Nazwa i nr dowodu tożsamości
 - Dowód Tożsamości
-- Dow. Opera.
+- dow. os.
 
    
-## <a name="poland-national-id-pesel"></a>ID nacional da Polônia (PESEL)
+## <a name="poland-national-id-pesel"></a>ID nacional polônia (PESEL)
 
 ### <a name="format"></a>Formatar
 
@@ -12593,7 +12594,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="pattern"></a>Padrão
 
-- 6 dígitos representando data de nascimento no formato AAMMDD
+- 6 dígitos que representam a data de nascimento no formato AAMMDD
 - 4 dígitos
 - 1 dígito de verificação
 
@@ -12629,19 +12630,19 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_pesel_identification_number"></a>Keyword_pesel_identification_number
 
-- dowód osobisty
-- dowódosobisty
-- niepowtarzalny numer
+- dowód osobisty
+- dowódosobisty
+- núm niepowtarzalny
 - niepowtarzalnynumer
-- Nr.-PESEL
-- NR-PESEL
+- nr.-pesel
+- nr-pesel
 - numer identyfikacyjny
-- PESEL
-- tożsamości narodowej
+- pesel
+- tożsamości narodowej
 
    
-## <a name="poland-passport-number"></a>Número de passaporte da Polônia
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número do Passport da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="poland-passport-number"></a>Número de passaporte polonês
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação sensível ao Número de Passaporte da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -12681,21 +12682,21 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - Nr. Paszportu
 - Paszport
 
-## <a name="poland-regon-number"></a>Número da Polônia REGON
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="poland-regon-number"></a>Número REGON da Polônia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-número de nove dígitos ou 14 dígitos
+nove dígitos ou número de 14 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-número de nove dígitos ou 14 dígitos:
+nove dígitos ou número de 14 dígitos:
 
 - nove dígitos ou 
 - nove dígitos
@@ -12709,11 +12710,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_polish_regon_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_polish_regon_number for encontrada.
+- A função Func_polish_regon_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_polish_regon_number for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_polish_regon_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_polish_regon_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Polish REGON Number  -->
@@ -12731,15 +12732,15 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_poland_regon_number"></a>Keywords_poland_regon_number
 
-- ID REGON
+- regon id
 - número estatístico
-- ID estatística
+- id estatística
 - estatística não
-- número do REGON
+- número do regon
 - regonid #
 - regonno #
-- ID da empresa
-- CompanyID #
+- id da empresa
+- companyid #
 - companyidno #
 - numer statystyczny
 - numeru regon
@@ -12747,13 +12748,13 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - numeruregon #
 
 
-## <a name="poland-tax-identification-number"></a>Número de identificação de imposto da Polônia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="poland-tax-identification-number"></a>Número de identificação fiscal da Polônia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -12771,7 +12772,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_poland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_poland_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_poland_eu_tax_file_number` de onde foi encontrada. 
     
   
 ```xml
@@ -12793,31 +12794,31 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - numer identyfikacji podatkowej
 - numeridentyfikacjipodatkowej #
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
-- ID de IVA #
-- ID de IVA
-- IVA não
-- número de IVA
+- tin id
+- tin no
+- tin #
+- id do iva #
+- id do iva
+- vat no
+- número do iva
 - vatid #
 - vatid
 - vatno #
    
 
-## <a name="portugal-citizen-card-number"></a>Número de cartão de cidadão da Portugal
+## <a name="portugal-citizen-card-number"></a>Número do cartão de cidadão de Portugal
 
 ### <a name="format"></a>Formatar
 
@@ -12834,8 +12835,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_portugal_citizen_card localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_portugal_citizen_card for encontrada.
+- A expressão regular Regex_portugal_citizen_card localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_portugal_citizen_card for encontrada.
 
 ```xml
 <!-- Portugal Citizen Card Number -->
@@ -12851,42 +12852,42 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_portugal_citizen_card"></a>Keyword_portugal_citizen_card
 
-- bilhete de identidade
+- situação de identidade
 - cartão de cidadão
-- cartão de cidadão
+- citizen card
 - número do documento
 - documento de identificação
-- número de identificação
-- identificação não
+- id number
+- identification no
 - identification number
-- cartão de identidade não
+- identity card no
 - número do cartão de identidade
-- cartão de ID nacional
-- placa
-- número bi de Portugal
+- national id card
+- nic
+- número bi de portugal
 - número de identificação civil
 - número de identificação fiscal
 - número do documento
-- número de bi de Portugal
+- portugal bi number
 
 
-## <a name="portugal-drivers-license-number"></a>Número da carteira de motorista de Portugal
+## <a name="portugal-drivers-license-number"></a>Número de carteira de motorista de Portugal
 
 ### <a name="format"></a>Formatar
 
-dois padrões duas letras seguidas por 5-8 dígitos com caracteres especiais
+dois padrões - duas letras seguidas de 5 a 8 dígitos com caracteres especiais
   
 ### <a name="pattern"></a>Padrão
 
-Padrão 1: duas letras seguidas por 5/6 com caracteres especiais:
-- Duas letras (não diferencia maiúsculas de minúsculas)
+Padrão 1: duas letras seguidas de 5/6 com caracteres especiais:
+- Duas letras (não sensíveis a maiúsculas e minúsculas)
 - Um hífen
 - Cinco ou seis dígitos
 - Um espaço
 - Um dígito
 
-Padrão 2: uma letra seguida por 6/8 dígitos com caracteres especiais:
-- Uma letra (não diferencia maiúsculas de minúsculas)
+Padrão 2: uma letra seguida de 6/8 dígitos com caracteres especiais:
+- Uma letra (não sensitivo entre letras minúsculas)
 - Um hífen
 - Seis ou oito dígitos
 - Um espaço
@@ -12900,8 +12901,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_portugal_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_portugal_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_portugal_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_portugal_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Portugal Driver's License Number -->
@@ -12918,7 +12919,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -12926,121 +12927,121 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_portugal_eu_drivers_license_number"></a>Keywords_portugal_eu_driver ' s_license_number
+#### <a name="keywords_portugal_eu_drivers_license_number"></a>Keywords_portugal_eu_driver's_license_number
 
 - carteira de motorista
 - carteira motorista
@@ -13048,22 +13049,22 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - carteira habilitação
 - número de licença
 - número licença
-- permissão de condução
-- permissão condução
-- Licença de condução Portugal
-- carta de condução
+- seleção de rebaixamento
+- está 100.000
+- Licença condução Portugal
+- carta de rebaixamento
 
 ## <a name="portugal-passport-number"></a>Número de passaporte de Portugal
 
 ### <a name="format"></a>Formatar
 
-uma letra seguida de seis dígitos sem espaços ou delimitadores
+uma letra seguida por seis dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
 uma letra seguida por seis dígitos:
   
-- uma letra (não diferencia maiúsculas de minúsculas)
+- uma letra (não sensível a letras minúsculas)
 - seis dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -13073,13 +13074,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_portugal_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_portugal_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_portugal_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_portugal_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_portugal_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_portugal_eu_passport_number` é encontrada.
+- A expressão regular  `Regex_portugal_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_portugal_eu_passport_number` ou for encontrada.
     
 ```xml
       <!-- Portugal Passport Number -->
@@ -13109,37 +13110,37 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_portugal_eu_passport_number"></a>Keywords_portugal_eu_passport_number
 
 - número do passaporte
-- Passport Português
-- Português de passeport
-- Português de passaporte
-- Passaporte n º
-- passeport n º
+- portuguese passport
+- passeport de português
+- português passaporte
+- passaporte nº
+- passeport nº
 - números de passaporte
-- Passports em Português
+- passaportes de português
 - número passaporte
-- números de passaporte
+- números passaporte
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="portugal-tax-identification-number"></a>Número de identificação do imposto Portugal
+## <a name="portugal-tax-identification-number"></a>Número de identificação fiscal de Portugal
 
 ### <a name="format"></a>Formatar
 
@@ -13161,7 +13162,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_portugal_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_portugal_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -13183,31 +13184,31 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_portugal_eu_tax_file_number"></a>Keywords_portugal_eu_tax_file_number
 
-- CPF #
-- CPF
-- nse #
-- nse
-- número de identificação fisca
-- fiscal numero
+- cpf #
+- cpf
+- nif #
+- nif
+- número de identificação fiscal
+- numero fiscal
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="romania-drivers-license-number"></a>Número da carteira de motorista do Romênia
+## <a name="romania-drivers-license-number"></a>Número de carteira de motorista da Romênia
 
 ### <a name="format"></a>Formatar
 
@@ -13216,7 +13217,7 @@ um caractere seguido por oito dígitos
 ### <a name="pattern"></a>Padrão
 
 um caractere seguido por oito dígitos:
-- uma letra (não diferencia maiúsculas de minúsculas) ou dígito 
+- uma letra (não sensível a letras minúsculas) ou dígito 
 - oito dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -13226,8 +13227,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_romania_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_romania_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_romania_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_romania_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Romania Driver's License Number -->
@@ -13244,7 +13245,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -13252,136 +13253,136 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_romania_eu_drivers_license_number"></a>Keywords_romania_eu_driver ' s_license_number
+#### <a name="keywords_romania_eu_drivers_license_number"></a>Keywords_romania_eu_driver é s_license_number
 
-- permé de conducere
-- permisului de conducere
-- permisului conducere
-- permisele de conducere
-- permisele conducere
-- permé conducere
+- permis decere
+- permisului decere
+- permisului conduzcere
+- permisele decere
+- permisele conduzcere
+- permis conduzcere
 
-## <a name="romania-personal-numeric-code-cnp"></a>Código numérico da Romênia (CNP)
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="romania-personal-numeric-code-cnp"></a>Código numérico pessoal (CNP) da Romênia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -13389,8 +13390,8 @@ Esse tipo de informação confidencial só está disponível para uso no:
   
 ### <a name="pattern"></a>Padrão
 
-- 1 dígito de 1-9
-- 6 dígitos representando data de nascimento (AAMMDD)
+- 1 dígito de 1 a 9
+- 6 dígitos que representam a data de nascimento (AAMMDD)
 - 2 dígitos que podem ser 01-52 ou 99
 - 4 dígitos
 
@@ -13402,7 +13403,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_romania_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_romania_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
@@ -13426,54 +13427,54 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - cnp #
 - cnp
-- identificare de c.o.d. pessoal
-- c.o.d. numérico pessoal
-- UNIC de c.o.d. identificare
+- cod identificare personal
+- cod numeric personal
+- cod unic identificare
 - codnumericpersonal #
-- codul fiscal do Nr.
+- codul fiscal nr.
 - identificarea fiscală nr #
-- ID-UL Taxei
-- número de seguro
+- id-ul taxei
+- insurance number
 - insurancenumber #
-- ID nacional #
+- national id #
 - national id
 - national identification number
-- număr identificare pessoal
-- număr identitate
-- număr pessoal do UNIC
+- număr identificare personal
+- număr identitate
+- număr personal unic
 - număridentitate #
-- număridentitate
+- număridentitate
 - numărpersonalunic #
-- numărpersonalunic
-- număru de identificare Fiscală
-- numărul de identificare Fiscală
+- numărpersonalunic
+- număru de identificare fiscală
+- numărul de identificare fiscală
 - código numérico pessoal
-- pessoal #
-- pessoal
-- arquivo de imposto não
+- pin #
+- pin
+- tax file no
 - tax file number
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
-- número de identificação exclusivo
+- tin id
+- tin no
+- tin #
+- número de identificação exclusiva
 - número de identidade exclusivo
 - uniqueidentityno #
 - uniqueidentityno
 
-## <a name="romania-passport-number"></a>Número de passaporte da Romênia
+## <a name="romania-passport-number"></a>Número de passaporte romênia
 
 ### <a name="format"></a>Formatar
 
@@ -13490,13 +13491,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_romania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_romania_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_romania_eu_passport_date` encontra a data no formato dd mmm/mmm YY (exemplo-01 fev/Fev 10) ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_romania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_romania_eu_passport_number` ou for encontrada. 
+- A expressão regular localiza a data no formato `Regex_romania_eu_passport_date` DD MMM/MMM AA (Exemplo- 01 FEB/FEB 10) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_romania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_romania_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_romania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_romania_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Romania Passport Number -->
@@ -13526,16 +13527,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_romania_eu_passport_number"></a>Keywords_romania_eu_passport_number
 
@@ -13543,17 +13544,17 @@ numărul pașaportului numarul pasaportului numerele pașaportului Pașaport nr
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="russia-passport-number-domestic"></a>Número de passaporte nacional da Rússia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="russia-passport-number-domestic"></a>Número de passaporte russo doméstico
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -13564,7 +13565,7 @@ número de dez dígitos
 número de dez dígitos:
 
 - dois dígitos
-- um espaço ou hífen opcional
+- um espaço opcional ou hífen
 - dois dígitos
 - um espaço opcional
 - seis dígitos
@@ -13576,8 +13577,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A Regex_Russian_Passport_Number_Domestic Regex localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Russian_Passport_Number for encontrada.
+- A regex Regex_Russian_Passport_Number_Domestic localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Russian_Passport_Number for encontrada.
 
 ```xml
       <!-- Russian Passport Number Domestic -->
@@ -13594,13 +13595,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_russia_passport_number_domestic"></a>Keyword_russia_passport_number_domestic
 
 - passport number
-- Passport não
-- Passaport #
-- ID do passaporte
+- passport no
+- passport #
+- passport id
 - passportno #
 - passportnumber #
 - паспорт нет
-- ID паспорт
+- паспорт id
 - pоссийской паспорт
 - pусский номер паспорта
 - паспорт #
@@ -13609,13 +13610,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - номерпаспорта #
 
 
-## <a name="russia-passport-number-international"></a>Número internacional do Passport da Rússia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="russia-passport-number-international"></a>Número de passaporte russo internacional
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -13626,7 +13627,7 @@ número de nove dígitos
 número de nove dígitos:
 
 - dois dígitos
-- um espaço ou hífen opcional
+- um espaço opcional ou hífen
 - sete dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -13636,8 +13637,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A Regex_Russian_Passport_Number_International Regex localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Russian_Passport_Number for encontrada.
+- A regex Regex_Russian_Passport_Number_International localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Russian_Passport_Number for encontrada.
 
 ```xml
       <!-- Russian Passport Number International -->
@@ -13654,13 +13655,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_russia_passport_number_international"></a>Keywords_russia_passport_number_international
 
 - passport number
-- Passport não
-- Passaport #
-- ID do passaporte
+- passport no
+- passport #
+- passport id
 - passportno #
 - passportnumber #
 - паспорт нет
-- ID паспорт
+- паспорт id
 - pоссийской паспорт
 - pусский номер паспорта
 - паспорт #
@@ -13711,7 +13712,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - الوطنية الهوية بطاقة رقم 
 
    
-## <a name="singapore-national-registration-identity-card-nric-number"></a>Número do cartão de identidade do Registro Nacional (NRIC) da Cingapura
+## <a name="singapore-national-registration-identity-card-nric-number"></a>Número do cartão de identidade do registro nacional (NRIC) de Cingapura
 
 ### <a name="format"></a>Formatar
 
@@ -13720,9 +13721,9 @@ nove letras e dígitos
 ### <a name="pattern"></a>Padrão
 
 - nove letras e dígitos:
-- a letra "F", "G", "S" ou "T" (não diferencia maiúsculas de minúsculas) 
+- a letra "F", "G", "S" ou "T" (não faz parte do caso) 
 - sete dígitos 
-- um dígito de verificação alfabética
+- um dígito de verificação alfabético
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -13731,12 +13732,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_singapore_nric localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_singapore_nric for encontrada.
+- A expressão regular Regex_singapore_nric localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_singapore_nric for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_singapore_nric localiza o conteúdo que corresponde ao padrão.
+- A expressão regular Regex_singapore_nric localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -13759,13 +13760,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Número do Cartão de Identidade do Registro Nacional 
 - Número do Cartão de Identidade 
 - NRIC 
-- Liga 
+- IC 
 - Número de Identificação Estrangeira 
-- ALETA 
+- FIN 
 - 身份证 
 - 身份證 
 
-## <a name="slovakia-drivers-license-number"></a>Número da carteira de motorista do Eslováquia
+## <a name="slovakia-drivers-license-number"></a>Número de carteira de motorista da Eslováquia
 
 ### <a name="format"></a>Formatar
 
@@ -13775,7 +13776,7 @@ um caractere seguido por sete dígitos
 
 um caractere seguido por sete dígitos
   
-- uma letra (não diferencia maiúsculas de minúsculas) ou dígito
+- uma letra (não sensível a letras minúsculas) ou dígito
 - sete dígitos 
     
 ### <a name="checksum"></a>Soma de verificação
@@ -13785,8 +13786,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_slovakia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_slovakia_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_slovakia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_slovakia_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Slovakia Driver's License Number -->
@@ -13803,7 +13804,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -13811,121 +13812,121 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_slovakia_eu_drivers_license_number"></a>Keywords_slovakia_eu_driver ' s_license_number
+#### <a name="keywords_slovakia_eu_drivers_license_number"></a>Keywords_slovakia_eu_driver's_license_number
 
 - vodičský preukaz
 - vodičské preukazy
@@ -13933,20 +13934,20 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - vodičských preukazov
 
 ## <a name="slovakia-personal-number"></a>Número pessoal da Eslováquia
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-nove ou dez dígitos contendo barra invertida opcional
+nove ou dez dígitos contendo uma invertida opcional
   
 ### <a name="pattern"></a>Padrão
 
-- 6 dígitos representando data de nascimento
+- 6 dígitos que representam a data de nascimento
 - barra opcional (/)
 - 3 dígitos
 - 1 dígito de verificação opcional
@@ -13959,7 +13960,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_slovakia_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_slovakia_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
@@ -13984,50 +13985,50 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 - azonosító szám
 - número de nascimento
-- číslo národnej identifikačnej karty
+- číslo národnej identifikačnej timey
 - číslo občianského preukazu
 - daňové číslo
-- número de identificação
-- identificação não
+- id number
+- identification no
 - identification number
-- identifikačná karta č
+- identifikačnánikaa č
 - identifikačné číslo
-- cartão de identidade não
+- identity card no
 - número do cartão de identidade
 - národná identifikačná značka č
-- número nacional
+- national number
 - nationalnumber #
-- nemzeti személyazonosító igazolvány
+- nemzeti személyazonosító iga suspensovány
 - personalidnumber #
 - rč
-- rodne cislo
+- leila cislo
 - rodné číslo
 - social security number
-- es #
-- es
-- személyi igazolvány szám
-- személyi igazolvány száma
-- személyigazolvány szám
-- arquivo de imposto não
+- ssn #
+- ssn
+- személyi iganyvány szám
+- személyi iganyvány száma
+- személyigaigavány szám
+- tax file no
 - tax file number
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
-## <a name="slovakia-passport-number"></a>Número de passaporte da Eslováquia
+## <a name="slovakia-passport-number"></a>Número de passaporte eslováquia
 
 ### <a name="format"></a>Formatar
 
@@ -14035,7 +14036,7 @@ um dígito ou letra seguido por sete dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
-um dígito ou letra (não diferencia maiúsculas de minúsculas) seguido por sete dígitos
+um dígito ou letra (não sensível a letras minúsculas) seguida por sete dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
@@ -14044,13 +14045,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_slovakia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_slovakia_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_slovakia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovakia_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_slovakia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_slovakia_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_slovakia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovakia_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Slovakia Passport Number -->
@@ -14080,32 +14081,32 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_slovakia_eu_passport_number"></a>Keywords_slovakia_eu_passport_number
 
 - číslo pasu
-- čísla pasov
-- Pas č.
-- Passeport n °
-- n ° passeport
+- čísla miliva
+- pas č.
+- Passeport n°
+- n° Passeport
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="slovenia-drivers-license-number"></a>Número da carteira de motorista do Eslovênia
+## <a name="slovenia-drivers-license-number"></a>Número de carteira de motorista da Eslovênia
 
 ### <a name="format"></a>Formatar
 
@@ -14122,8 +14123,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_slovenia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_slovenia_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_slovenia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_slovenia_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Slovenia Driver's License Number -->
@@ -14140,7 +14141,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -14148,135 +14149,135 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_slovenia_eu_drivers_license_number"></a>Keywords_slovenia_eu_driver ' s_license_number
+#### <a name="keywords_slovenia_eu_drivers_license_number"></a>Keywords_slovenia_eu_driver é s_license_number
 
 - vozniško dovoljenje
-- licença do vozniška številka
+- vozniška številka licence
 - vozniških dovoljenj
 - številka vozniškega dovoljenja
 - številke vozniških dovoljenj
 
 ## <a name="slovenia-unique-master-citizen-number"></a>Número de cidadão mestre exclusivo da Eslovênia
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -14288,7 +14289,7 @@ Esse tipo de informação confidencial só está disponível para uso no:
   
 - sete dígitos que correspondem à data de nascimento (DDMMLLL), onde "LLL" corresponde aos últimos três dígitos do ano de nascimento 
 - dois dígitos que correspondem à área de nascimento "50"
-- três dígitos que correspondem a uma combinação de sexo e número de série para pessoas nasceu no mesmo dia (000-499 para macho e 500-999 para fêmea)
+- três dígitos que correspondem a uma combinação de sexo e número de série para as pessoas que casam no mesmo dia (000-499 para adulto e 500-999 para mulheres)
 - um dígito de verificação
     
 ### <a name="checksum"></a>Soma de verificação
@@ -14299,7 +14300,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_slovenia_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave  `Keywords_slovenia_eu_national_id_card` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
@@ -14328,8 +14329,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - identification number
 - identifikacijska številka
 - cartão de identidade
-- ID Nacionalna
-- lista de potni nacionalni
+- nacionalna id
+- nacionalni potni list
 - national id
 - osebna izkaznica
 - osebni koda
@@ -14339,15 +14340,15 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número pessoal
 - código numérico pessoal
 - številka državljana
-- número exclusivo do cidadão
-- número de identificação exclusivo
+- número de cidadão exclusivo
+- número de ID exclusivo
 - número de identidade exclusivo
 - número de cidadão mestre exclusivo
 - número de registro exclusivo
 - uniqueidentityno #
 - uniqueidentityno #
 
-## <a name="slovenia-passport-number"></a>Número de passaporte da Eslovênia
+## <a name="slovenia-passport-number"></a>Número de passaporte eslovênia
 
 ### <a name="format"></a>Formatar
 
@@ -14368,13 +14369,13 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_slovenia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_slovenia_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_eu_passport_date1` encontra a data no formato DD. mm. yyyy ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_slovenia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovenia_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_slovenia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_slovenia_eu_passport_number` é encontrada. 
+- A expressão regular  `Regex_slovenia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovenia_eu_passport_number` ou for encontrada. 
     
 ```xml
       <!-- Slovenia Passport Number -->
@@ -14404,39 +14405,39 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_slovenia_eu_passport_number"></a>Keywords_slovenia_eu_passport_number
 
-- lista de številka potnega
-- potek veljavnosti
+- številka potnega lista
+- porquek veljavnosti
 - lista potni #
-- rojstva de referência
+- datum rojstva
 - lista potni
 - številke potnih listov
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="slovenia-tax-identification-number"></a>Número de identificação do imposto da Eslovênia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="slovenia-tax-identification-number"></a>Número de identificação fiscal da Eslovênia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -14444,7 +14445,7 @@ oito dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
-- um dígito de 1-9
+- um dígito de 1 a 9
 - seis dígitos
 - um dígito de verificação
   
@@ -14456,7 +14457,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_slovenia_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_slovenia_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -14481,24 +14482,24 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - davčna številka
 - identifikacijska številka davka
 - številka davčne datoteke
-- arquivo de imposto não
+- tax file no
 - tax file number
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
 ## <a name="south-africa-identification-number"></a>Número de identificação da África do Sul
@@ -14512,9 +14513,9 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 13 dígitos:
 - seis dígitos no formato AAMMDD que são a data de nascimento 
 - quatro dígitos 
-- um indicador de cidadania de um único dígito 
+- um indicador de cidadania de dígito único 
 - o dígito "8" ou "9" 
-- um dígito que é um dígito de soma de verificação
+- um dígito que é um dígito de verificação
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -14523,8 +14524,8 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_south_africa_identification_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_south_africa_identification_number for encontrada.
+- A função Func_south_africa_identification_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_south_africa_identification_number for encontrada.
 - A soma de verificação passa.
 
 ```xml
@@ -14543,9 +14544,9 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 - Cartão de identidade
 - ID
-- Identificador 
+- Identificação 
    
-## <a name="south-korea-resident-registration-number"></a>Número de registro residente da Coréia do Sul
+## <a name="south-korea-resident-registration-number"></a>Número de registro de residente da Coreia do Sul
 
 ### <a name="format"></a>Formatar
 
@@ -14556,9 +14557,9 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 13 dígitos:
 - seis dígitos no formato AAMMDD que são a data de nascimento 
 - um hífen 
-- um dígito determinado pelo século e sexo 
+- um dígito determinado pelo mundo e gênero 
 - código de região de nascimento de quatro dígitos 
-- um dígito usado para diferenciar pessoas para as quais os números anteriores são idênticos 
+- um dígito usado para diferenciar as pessoas para as quais os números anteriores são idênticos 
 - um dígito de verificação.
 
 ### <a name="checksum"></a>Soma de verificação
@@ -14568,12 +14569,12 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_south_korea_resident_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_south_korea_resident_number for encontrada.
+- A função Func_south_korea_resident_number localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_south_korea_resident_number for encontrada.
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_south_korea_resident_number localiza o conteúdo que corresponde ao padrão.
+- A função Func_south_korea_resident_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
@@ -14599,18 +14600,18 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - RRN 
 - 주민등록번호
 
-## <a name="spain-drivers-license-number"></a>Número da carteira de motorista da Espanha
+## <a name="spain-drivers-license-number"></a>Número de carteira de motorista da Espanha
 
 ### <a name="format"></a>Formatar
 
-oito dígitos seguidos de um caractere
+oito dígitos seguidos por um caractere
   
 ### <a name="pattern"></a>Padrão
 
-oito dígitos seguidos de um caractere:
+oito dígitos seguidos por um caractere:
   
 - oito dígitos 
-- um dígito ou letra (não diferencia maiúsculas de minúsculas)
+- um dígito ou letra (não sensitivo para letras minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -14619,11 +14620,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou `Func_spain_eu_DL_and_NI_number_foreigner` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_spain_eu_driver's_license_number` é encontrada. 
+- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_spain_eu_driver's_license_number` ou for encontrada. 
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou `Func_spain_eu_DL_and_NI_number_foreigner` localiza o conteúdo que corresponde ao padrão. 
+- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
     
 ```xml
       <!-- Spain Driver's License Number -->
@@ -14653,7 +14654,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -14661,154 +14662,154 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_spain_eu_drivers_license_number"></a>Keywords_spain_eu_driver ' s_license_number
+#### <a name="keywords_spain_eu_drivers_license_number"></a>Keywords_spain_eu_driver's_license_number
 
-- permiso de conducción
-- permiso conducción
-- licencia de conducir
-- licencia conducir
-- permiso conducir
-- permiso de conducir
-- permisos de conducir
-- permisos conducir
-- carnet conducir
-- Carnet de conducir
-- licencia de manejo
-- licencia manejo
+- permiso de conduzcción
+- permiso conduzcción
+- licencia decir
+- licencia circunsindocir
+- permisocir
+- permiso decir
+- permisos de todo o mundo
+- permisoscir
+- cirt propcir
+- quet decircir
+- licencia dedada
+- licencia propa
 
-## <a name="spain-dni"></a>Espanha DNI
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="spain-dni"></a>DNI da Espanha
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-oito dígitos seguidos de um caractere
+oito dígitos seguidos por um caractere
   
 ### <a name="pattern"></a>Padrão
 
-sete dígitos seguidos de um caractere
+sete dígitos seguidos por um caractere
   
 - oito dígitos
 - Um espaço ou hífen opcional
-- uma letra de verificação (não diferencia maiúsculas de minúsculas)
+- uma letra de verificação (não sensitivo entre letras minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -14817,11 +14818,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou `Func_spain_eu_DL_and_NI_number_foreigner` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_spain_eu_national_id_card"` foi encontrada. 
+- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
+- Uma palavra-chave  `Keywords_spain_eu_national_id_card"` de onde foi encontrada. 
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou `Func_spain_eu_DL_and_NI_number_foreigner` localiza o conteúdo que corresponde ao padrão. 
+- A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
 
     
 ```xml
@@ -14848,14 +14849,14 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_spain_eu_national_id_card"></a>Keywords_spain_eu_national_id_card
 
-- Carné de Identidad
+- carné de identidad
 - dni #
 - dni
 - dninúmero #
-- documento nacional de Identidad
+- documento nacional de identidad
 - identidad único
-- identidadúnico #
-- número de seguro
+- identidadúnica #
+- insurance number
 - national identification number
 - identidade nacional
 - nationalid #
@@ -14863,22 +14864,22 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - nie #
 - nie
 - nienúmero #
-- número de Identificación
+- número de identificación
 - número nacional identidad
 - número de identificação pessoal
 - identidade pessoal não
 - número de identidade exclusivo
-- UniqueId #
+- uniqueid #
 
 ## <a name="spain-passport-number"></a>Número de passaporte da Espanha
 
 ### <a name="format"></a>Formatar
 
-uma combinação de letras e números de oito ou nove caracteres sem espaços ou delimitadores
+uma combinação de oito ou nove caracteres de letras e números sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
-uma combinação de letras e números de oito ou nove caracteres:
+uma combinação de oito ou nove caracteres de letras e números:
   
 - dois dígitos ou letras 
 - um dígito ou letra (opcional)
@@ -14891,13 +14892,13 @@ Não aplicável
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_spain_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_spain_eu_passport_number` é encontrada. 
-- A expressão regular `Regex_spain_eu_passport_date` encontra a data no formato dd-mm-aaaa ou uma palavra-chave de `Keywords_eu_passport_date` é encontrada
+- A expressão regular  `Regex_spain_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_spain_eu_passport_number` ou for encontrada. 
+- A expressão regular `Regex_spain_eu_passport_date` localiza a data no formato DD-MM-AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_spain_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_passport_number` ou `Keywords_spain_eu_passport_number` é encontrada.
+- A expressão regular  `Regex_spain_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_spain_eu_passport_number` ou for encontrada.
     
 ```xml
       <!-- Spain Passport Number -->
@@ -14927,39 +14928,39 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passaport #
-- Passaport #
+- passport #
+- passport #
 - passportid
-- Passports
+- passports
 - passportno
-- Passport não
+- passport no
 - passportnumber
 - passport number
 - passportnumbers
-- números de passaporte
+- passport numbers
 
 #### <a name="keywords_spain_eu_passport_number"></a>Keywords_spain_eu_passport_number
 
-- libreta pasaporte
+- queta pasaporte
 - número pasaporte
 - españa pasaporte
 - números de pasaporte
 - número de pasaporte
-- números de pasaporte
-- pasaporte não
-- Passeport n °
-- n ° passeport
-- pasaporte não.
-- pasaporte n °
-- o Passport da Espanha
+- números pasaporte
+- pasaporte no
+- Passeport n°
+- n° Passeport
+- pasaporte no.
+- pasaporte n°
+- spain passport
 
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Data de emissão
-- Data de expiração
+- data de emissão
+- data de vencimento
 
 
-## <a name="spain-social-security-number-ssn"></a>Número da segurança social da Espanha (SSN)
+## <a name="spain-social-security-number-ssn"></a>Número de seguro social da Espanha (SSN)
 
 ### <a name="format"></a>Formatar
 
@@ -14967,7 +14968,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="pattern"></a>Padrão
 
-11-12 dígitos:
+11 a 12 dígitos:
 - dois dígitos 
 - uma barra (opcional) 
 - sete a oito dígitos 
@@ -14998,12 +14999,12 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 Nenhum
 
 ## <a name="spain-tax-identification-number"></a>Número de identificação de imposto da Espanha
-Esse tipo de informação confidencial só está disponível para uso no:
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -15011,34 +15012,34 @@ sete ou oito dígitos e uma ou duas letras no padrão especificado
   
 ### <a name="pattern"></a>Padrão
 
-Pessoas naturais do espanhol com um cartão de identidade nacional da Espanha:
+Pessoas naturais da Espanha com um Cartão de Identidade Nacional da Espanha:
   
 - oito dígitos 
-- uma letra maiúscula (diferencia maiúsculas de minúsculas) 
+- uma letra maiúscula (sensível a maiúsculas e minúsculas) 
     
-Spaniards não residente sem um cartão de identidade nacional da Espanha
+Residentes sem um Cartão de Identidade Nacional da Espanha
   
-- uma letra maiúscula "L" (diferencia maiúsculas de minúsculas)
+- uma letra maiúscula "L" (sensível a maiúsculas e minúsculas)
 - sete dígitos
-- uma letra maiúscula (diferencia maiúsculas de minúsculas) 
+- uma letra maiúscula (sensível a maiúsculas e minúsculas) 
     
-Spaniards residentes sob a idade de 14 anos sem um cartão de identidade nacional da Espanha:
+Residentes com menos de 14 anos sem um Cartão de Identidade Nacional da Espanha:
   
-- uma letra maiúscula "K" (diferencia maiúsculas de minúsculas)
+- uma letra maiúscula "K" (sensível a maiúsculas e minúsculas)
 - sete dígitos 
-- uma letra maiúscula (diferencia maiúsculas de minúsculas)
+- uma letra maiúscula (sensível a maiúsculas e minúsculas)
     
-Foreigners com o número de identificação do estrangeiro
+Identificações com o número de identificação de um estrangeiro
   
-- uma letra maiúscula que é "X", "Y" ou "Z" (diferencia maiúsculas de minúsculas) 
+- uma letra maiúscula que seja "X", "Y" ou "Z" (sensível a maiúsculas e minúsculas) 
 - sete dígitos
-- uma letra maiúscula (diferencia maiúsculas de minúsculas) 
+- uma letra maiúscula (sensível a maiúsculas e minúsculas) 
     
-Foreigners sem um número de identificação do estrangeiro
+Insuidades sem o número de identificação de um estrangeiro
   
-- uma letra maiúscula que é "M" (diferencia maiúsculas de minúsculas) 
+- uma letra maiúscula que seja "M" (sensível a maiúsculas e minúsculas) 
 - sete dígitos
-- uma letra maiúscula (diferencia maiúsculas de minúsculas) 
+- uma letra maiúscula (sensível a maiúsculas e minúsculas) 
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -15047,11 +15048,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_spain_eu_tax_file_number` ou `Func_spain_eu_DL_and_NI_number_citizen` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_spain_eu_tax_file_number` foi encontrada. 
+- A função  `Func_spain_eu_tax_file_number` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_citizen` padrão. 
+- Uma palavra-chave  `Keywords_spain_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função  `Func_spain_eu_tax_file_number` ou `Func_spain_eu_DL_and_NI_number_citizen` localiza o conteúdo que corresponde ao padrão. 
+- A função  `Func_spain_eu_tax_file_number` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_citizen` padrão. 
     
 ```xml
       <!-- Spain Tax Identification Number -->
@@ -15077,51 +15078,51 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_spain_eu_tax_file_number"></a>Keywords_spain_eu_tax_file_number
 
-- CIF
+- cif
 - cifid #
 - cifnúmero #
 - número de contribuyente
-- número de Identificación fiscal
+- número de identificación fiscal
 - número de impuesto corporativo
 - spanishcifid #
 - spanishcifid
 - spanishcifno #
 - spanishcifno
-- arquivo de imposto não
+- tax file no
 - tax file number
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
-## <a name="sql-server-connection-string"></a>Cadeia de caracteres de conexão do SQL Server
+## <a name="sql-server-connection-string"></a>Cadeia de conexão do SQL Server
 
 ### <a name="format"></a>Formatar
 
-A cadeia de caracteres "User ID", "User ID", "UID" ou "UserId" seguida dos caracteres e cadeias de caracteres descritos no padrão abaixo.
+A cadeia de caracteres "ID de usuário", "ID de usuário", "uid" ou "UserId" seguida pelos caracteres e cadeias de caracteres descritos no padrão abaixo.
 
 ### <a name="pattern"></a>Padrão
 
-- a cadeia de caracteres "User ID", "User ID", "UID" ou "UserId"
-- qualquer combinação entre 1-200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
-- a cadeia de caracteres "password" ou "pwd", onde "pwd" não é precedida por uma letra minúscula
+- a cadeia de caracteres "ID de usuário", "ID de usuário", "uid" ou "UserId"
+- qualquer combinação entre 1 a 200 letras minúsculas ou maiúsculas, dígitos, símbolos, caracteres especiais ou espaços
+- a cadeia de caracteres "Password" ou "pwd" onde "pwd" não é precedida por uma letra minúscula
 - um sinal de igual (=)
-- qualquer caractere que não seja um cifrão ($), símbolo de porcentagem (%), maior que símbolo (>), no símbolo (@), aspas ("), ponto e vírgula (;), chave esquerda ([) ou colchete esquerdo ({)
-- qualquer combinação de 7-128 caracteres que não seja um ponto-e-vírgula (;), barra (/) ou aspas (")
-- um ponto e vírgula (;) ou aspas (")
+- qualquer caractere que não seja um cifrão ($), símbolo de porcentagem (%), maior que o símbolo (>), símbolo (@), aspas ("), ponto-e-vírgula (;), chave esquerda([) ou colchete esquerdo ({)
+- qualquer combinação de 7 a 128 caracteres que não sejam ponto-e-vírgula (;), barra (/) ou aspas (")
+- um ponto-e-vírgula (;) ou aspas (")
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -15130,10 +15131,10 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular CEP_Regex_SQLServerConnectionString localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de CEP_GlobalFilter **não** é encontrada.
-- A expressão regular CEP_PasswordPlaceHolder não **localiza o** conteúdo que corresponde ao padrão.
-- A expressão regular CEP_CommonExampleKeywords não **localiza o** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_Regex_SQLServerConnectionString localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave CEP_GlobalFilter **não for** encontrada.
+- A expressão regular CEP_PasswordPlaceHolder **não encontra** conteúdo que corresponde ao padrão.
+- A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
 ```sql
 <!---SQL Server Connection String>
@@ -15153,37 +15154,37 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 #### <a name="cep_globalfilter"></a>CEP_GlobalFilter
 
-- algumas-senha
+- some-password
 - somepassword
 - secretPassword
-- ISV
+- exemplo
 
 #### <a name="cep_passwordplaceholder"></a>CEP_PasswordPlaceHolder
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
-- Senha ou pwd seguidos por 0-2 espaços, um sinal de igual (=), 0-2 espaços e um asterisco (*)--ou--
+- Senha ou pwd seguido por espaços 0-2, um sinal de igual (=), espaços de 0-2 e um asterisco (*) --OR--
 - Senha ou pwd seguido por:
     - Sinal de igual (=)
-    - Sinal de menor que (<)
-    - Qualquer combinação de 1-200 caracteres que sejam letras maiúsculas ou minúsculas, dígitos, um asterisco (*), hífen (-), sublinhado (_) ou caractere de espaço em branco
-    - Símbolo maior que (>)
+    - Menor que o símbolo (<)
+    - Qualquer combinação de 1 a 200 caracteres com letras maiúsculas ou minúsculas, dígitos, um asterisco (*), hífen (-), sublinhado (_) ou caractere de espaço em branco
+    - Maior que o símbolo (>)
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
-(Observe que tecnicamente, esse tipo de informação confidencial identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
+(Observe que, tecnicamente, esse tipo de informação sensível identifica essas palavras-chave usando uma expressão regular, não uma lista de palavras-chave.)
 
 - contoso
 - fabrikam
-- Northwind
-- área restrita
+- northwind
+- área de trabalho
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<!--no-hyperlink-->suplementos
-- s-int.<!--no-hyperlink-->Netlogon
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="sweden-drivers-license-number"></a>Número da carteira de motorista do Suécia
+## <a name="sweden-drivers-license-number"></a>Número de carteira de motorista da Suécia
 
 ### <a name="format"></a>Formatar
 
@@ -15204,8 +15205,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular  `Regex_sweden_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_eu_driver's_license_number` ou `Keywords_sweden_eu_driver's_license_number` é encontrada. 
+- A expressão regular  `Regex_sweden_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_sweden_eu_driver's_license_number` ou for encontrada. 
     
 ```xml
       <!-- Sweden Driver's License Number -->
@@ -15222,7 +15223,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
 - driverlic
 - driverlics
@@ -15230,131 +15231,131 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driverlicenses
 - driverlicence
 - driverlicences
-- Driver de driver'lic
-- Driver de driver'lics
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- licença de driver
-- licenças de driver
+- driver licence
+- driver licences
 - driverslic
 - driverslics
 - driverslicence
 - driverslicences
 - driverslicense
 - driverslicenses
-- drivers de driver'lic
-- drivers de driver'lics
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- licenças de drivers
+- drivers licences
 - driver'lic
 - driver'lics
 - driver'license
 - driver'licenses
 - driver'licence
 - driver'licences
-- Driver ' driver'lic
-- Driver ' driver'lics
-- licença do driver
-- licenças do driver
-- licença do driver
-- licenças do driver
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
 - driver'slic
 - driver'slics
 - driver'slicense
 - driver'slicenses
 - driver'slicence
 - driver'slicences
-- driver'lic do driver
-- driver'lics do driver
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- licenças do driver
-- distribuição #
-- DL #
+- driver's licences
+- dl #
+- dls #
 - driverlic #
 - driverlics #
 - driverlicense #
 - driverlicenses #
 - driverlicence #
 - driverlicences #
-- Driver de driver'lic #
-- Driver de driver'lics #
-- licença de driver #
-- licenças de driver #
-- licenças de driver #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
 - driverslic #
 - driverslics #
 - driverslicense #
 - driverslicenses #
 - driverslicence #
 - driverslicences #
-- drivers de driver'lic #
-- drivers de driver'lics #
-- licença de drivers #
-- licenças de drivers #
-- licença de drivers #
-- licenças de drivers #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
 - driver'lic #
 - driver'lics #
 - driver'license #
 - driver'licenses #
 - driver'licence #
 - driver'licences #
-- Driver ' driver'lic #
-- Driver ' driver'lics #
-- licença do driver #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
 - driver'slic #
 - driver'slics #
 - driver'slicense #
 - driver'slicenses #
 - driver'slicence #
 - driver'slicences #
-- driver'lic do driver #
-- driver'lics do driver #
-- carteira de motorista #
-- licenças do driver #
-- licença do driver #
-- licenças do driver #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving licence
 - dlno #
-- Driv driver'lic
-- Driv
-- licença Driv
-- licenças do driv
-- licença Driv
-- licenças do driv
-- fator de driver
-- drivers de atestados
-- o driver do
-- forças driver'lic
-- dirigindo
-- forças de licenças
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- permissão de condução
-- DL não
+- driving permit
+- dl no
 - dlno
-- número de DL
+- dl number
 
 
-#### <a name="keywords_sweden_eu_drivers_license_number"></a>Keywords_sweden_eu_driver ' s_license_number
+#### <a name="keywords_sweden_eu_drivers_license_number"></a>Keywords_sweden_eu_driver's_license_number
 
 - ajokortti
-- permé de conducere
+- permis decere
 - ajokortin numero
-- kuljettajat driver'lic.
-- Driver de driver'lic.
+- kuljettajat lic.
+- drivere lic.
 - körkort
-- numărul permisului de conducere
+- numărul permisului de conduzcere
 -  שאָפער דערלויבעניש נומער
-- förare driver'lic.
+- förare lic.
 -  דריווערס דערלויבעניש
 - körkortsnummer
 
@@ -15362,14 +15363,14 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-10 ou 12 dígitos e um delimitador opcional
+dez ou 12 dígitos e um delimiter opcional
 
 ### <a name="pattern"></a>Padrão
 
-10 ou 12 dígitos e um delimitador opcional:
+dez ou 12 dígitos e um delimiter opcional:
 - dois dígitos (opcional) 
 - Seis dígitos no formato de data AAMMDD 
-- delimitador de "-" ou "+" (opcional)
+- dolimidor de "-" ou "+" (opcional)
 - quatro dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -15380,7 +15381,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função `Func_swedish_national_identifier` localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de `Keywords_swedish_national_identifier` foi encontrada
+- Uma palavra-chave `Keywords_swedish_national_identifier` de onde foi encontrada
 - A soma de verificação passa.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
@@ -15405,25 +15406,25 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_swedish_national_identifier"></a>Keywords_swedish_national_identifier
 
-- ID não
-- número de identificação
-- ID #
-- identificação não
+- id no
+- id number
+- id #
+- identification no
 - identification number
 - identifikationsnumret #
 - identifikationsnumret
 - identitetshandling
 - documento de identidade
-- identidade não
-- número de identidade
-- ID-Nummer
-- ID pessoal
+- identity no
+- identity number
+- id-nummer
+- id pessoal
 - personnummer #
 - personnummer
 - skatteidentifikationsnummer
    
-## <a name="sweden-passport-number"></a>Número de passaporte da Suécia
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número do Passport da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="sweden-passport-number"></a>Número de passaporte sueco
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação sensível ao Número de Passaporte da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -15440,10 +15441,10 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- a expressão regular Regex_sweden_passport_number localiza o conteúdo que corresponde ao padrão.
-- uma das seguintes opções é verdadeira:
-    - uma palavra-chave de Keyword_passport for encontrada.
-    - uma palavra-chave de Keyword_sweden_passport for encontrada.
+- a expressão regular Regex_sweden_passport_number localiza conteúdo que corresponde ao padrão.
+- um dos seguintes é verdadeiro:
+    - uma palavra-chave Keyword_passport for encontrada.
+    - uma palavra-chave Keyword_sweden_passport for encontrada.
 
 ```xml
 <!-- Sweden Passport Number -->
@@ -15477,14 +15478,14 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passport Number 
 - Passport No 
 - Passport # 
-- Passaport # 
-- Passportid 
+- Passport # 
+- PassportID 
 - Passportno 
 - passportnumber 
 - パスポート 
 - パスポート番号 
-- パスポートのNum 
-- パスポート＃ 
+- パ ポトスNum 
+- パスポート# 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
@@ -15494,13 +15495,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passeportn ° 
 
 
-## <a name="sweden-tax-identification-number"></a>Número de identificação do imposto da Suécia
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="sweden-tax-identification-number"></a>Número de identificação fiscal da Suécia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -15512,9 +15513,9 @@ dez dígitos e um símbolo:
   
 - seis dígitos que correspondem à data de nascimento (AAMMDD) 
 - um sinal de mais ou sinal de menos
-- três dígitos que tornam o número de identificação exclusivo, onde: 
-  - para números emitidos antes de 1990, o sétimo e oitavo dígito identificam o Condado de nascimento ou pessoas de nasceu
-  - o dígito na nona posição indica sexo por tanto ímpar para masculino ou par para fêmea
+- três dígitos que fazem com que o número de identificação seja exclusivo em que: 
+  - para números emitidos antes de 1990, o sétimo e o oitavo dígito identificam o país/região de nascimento ou pessoas que não têm filhos
+  - o dígito na nona posição indica sexo por ímpar para o adulto ou até mesmo para a mulher
 - um dígito de verificação
     
 ### <a name="checksum"></a>Soma de verificação
@@ -15525,7 +15526,7 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_sweden_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_sweden_eu_tax_file_number` de onde foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
@@ -15551,45 +15552,45 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_sweden_eu_tax_file_number"></a>Keywords_sweden_eu_tax_file_number
 
-- número de identificação pessoal
+- número de ID pessoal
 - personnummer
-- skatt ID Nummer
+- skatt id nummer
 - skatt identifikation
-- skattebetalarens identifikationsnummer
-- Tin Sverige
-- arquivo de imposto
+- skattebetaikas identifikationsnummer
+- sverige tin
+- arquivo fiscal
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax number
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 
 ## <a name="swift-code"></a>Código SWIFT
 
 ### <a name="format"></a>Formatar
 
-quatro letras seguidas por 5-31 letras ou dígitos
+quatro letras seguidas de 5 a 31 letras ou dígitos
 
 ### <a name="pattern"></a>Padrão
 
-quatro letras seguidas por 5-31 letras ou dígitos:
-- código bancário de quatro letras (não diferencia maiúscula de minúscula) 
+quatro letras seguidas de 5 a 31 letras ou dígitos:
+- código bancário de quatro letras (não sensível a letras minúsculas) 
 - um espaço opcional 
 - 4 a 28 letras ou dígitos (o número de conta bancária básica (BBAN)) 
 - um espaço opcional 
-- uma ou três letras ou dígitos (restante do BBAN)
+- de uma a três letras ou dígitos (restante do BBAN)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -15617,7 +15618,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - international organization for standardization 9362
 - iso 9362
 - iso9362
-- Swift #
+- swift #
 - swiftcode
 - swiftnumber
 - swiftroutingnumber
@@ -15637,35 +15638,35 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - le numéro BIC
 - # <a name="bic"></a>BIC
 - code identificateur de banque
-- SWIFTコード
+- SWIFTコド
 - SWIFT番号
 - BIC番号
-- BICコード
-- コード SWIFT
-- 番号 SWIFT
+- BICコ ド
+- SWIFT コ ド
+- SWIFT 番号
 - BIC 番号
-- BIC コード
+- BIC コ BIC ド
 - 金融機関識別コード
 - 金融機関コード
 - 銀行コード
 
-## <a name="switzerland-ssn-ahv-number"></a>Número do AHV da Suíça
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="switzerland-ssn-ahv-number"></a>Número AHV do SSN da Suíça
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
-número de 13 dígitos
+Número de 13 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-número de 13 dígitos:
+Número de 13 dígitos:
 
-- três dígitos-756
+- três dígitos - 756
 - um ponto opcional
 - quatro dígitos
 - um ponto opcional
@@ -15680,11 +15681,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_swiss_social_security_number_ahv localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keywords_swiss_social_security_number_ahv for encontrada.
+- A função Func_swiss_social_security_number_ahv localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keywords_swiss_social_security_number_ahv for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_swiss_social_security_number_ahv localiza o conteúdo que corresponde ao padrão.
+- A função Func_swiss_social_security_number_ahv localiza conteúdo que corresponde ao padrão.
 
 ```xml
       <!-- Swiss SSN AHV Number -->
@@ -15704,22 +15705,22 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_swiss_ssn_ahv_number"></a>Keyword_swiss_ssn_AHV_number
 
 - ahv
-- es
-- atos
-- número de seguro
+- ssn
+- pid
+- insurance number
 - personalidno #
 - social security number
-- número de identificação pessoal
-- n º de identificação pessoal
+- número de ID pessoal
+- identificação pessoal não.
 - insuranceno #
 - uniqueidno #
-- n º de identificação exclusiva
-- número AVS
-- identidade pessoal sem versicherungsnummer
+- identificação exclusiva não.
+- avs number
+- personal identity no versicherungsnummer
 - identifikationsnummer
 - einzigartige identität nicht
 - sozialversicherungsnummer
-- identificação personnelle ID
+- identification personnelle id
 - numéro de sécurité sociale
 
    
@@ -15732,7 +15733,7 @@ uma letra (em inglês) seguida de nove dígitos
 ### <a name="pattern"></a>Padrão
 
 uma letra (em inglês) seguida de nove dígitos:
-- uma letra (em inglês, não diferencia maiúscula de minúscula) 
+- uma letra (em inglês, não sensitivo entre letras minúsculas) 
 - o dígito "1" ou "2" 
 - oito dígitos
 
@@ -15805,8 +15806,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_taiwan_passport localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_taiwan_passport for encontrada.
+- A expressão regular Regex_taiwan_passport localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_taiwan_passport for encontrada.
 
 ```xml
 <!-- Taiwan Passport Number -->
@@ -15831,16 +15832,16 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 中華民國護照 
 - Zhōnghuá Mínguó hùzhào
    
-## <a name="taiwan-resident-certificate-arctarc-number"></a>Número de certificado residente (arco/TARC) de Taiwan
+## <a name="taiwan-resident-certificate-arctarc-number"></a>Número do certificado de residente de Taiwan (ARC/TARC)
 
 ### <a name="format"></a>Formatar
 
-Dez letras e dígitos
+dez letras e dígitos
 
 ### <a name="pattern"></a>Padrão
 
-Dez letras e dígitos:
-- duas letras (não diferencia maiúsculas de minúsculas) 
+dez letras e dígitos:
+- duas letras (não sensíveis a maiúsculas e minúsculas) 
 - oito dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -15850,8 +15851,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_taiwan_resident_certificate localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_taiwan_resident_certificate for encontrada.
+- A expressão regular Regex_taiwan_resident_certificate localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_taiwan_resident_certificate for encontrada.
 
 ```xml
 <!-- Taiwan Resident Certificate (ARC/TARC) -->
@@ -15880,7 +15881,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 外僑居留證 
 - 台灣地區居留證 
 
-## <a name="thai-population-identification-code"></a>Código de identificação de população em tailandês
+## <a name="thai-population-identification-code"></a>Código de identificação da população tailandesa
 
 ### <a name="format"></a>Formatar
 
@@ -15899,11 +15900,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Thai_Citizen_Id localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Thai_Citizen_Id for encontrada.
+- A função Func_Thai_Citizen_Id localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Thai_Citizen_Id for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Thai_Citizen_Id localiza o conteúdo que corresponde ao padrão.
+- A função Func_Thai_Citizen_Id localiza conteúdo que corresponde ao padrão.
 
 ```xml
 <!-- Thai Citizen ID -->
@@ -15923,7 +15924,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_thai_citizen_id"></a>Keyword_thai_citizen_Id
 
 - Número de Identificação
-- Número de identificação
+- Número de Identificação
 - บัตรประชาชน
 - รหัสบัตรประชาชน
 - บัตรประชาชน
@@ -15946,11 +15947,11 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Turkish_National_Id localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Turkish_National_Id for encontrada.
+- A função Func_Turkish_National_Id localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Turkish_National_Id for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_Turkish_National_Id localiza o conteúdo que corresponde ao padrão.
+- A função Func_Turkish_National_Id localiza conteúdo que corresponde ao padrão.
 
 ```xml
 <!-- Turkish National Identity -->
@@ -15969,13 +15970,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_turkish_national_id"></a>Keyword_turkish_national_id
 
-- Kimlik TC não
+- TC Kimlik No
 - TC Kimlik numarası
-- Vatandaşlık numarası
-- Vatandaşlık não
+- Vatşlık numarası
+- Vatşşlık no
 
-## <a name="uk-drivers-license-number"></a>britânico número da carteira de motorista
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número de carteira do driver da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="uk-drivers-license-number"></a>Reino Unido número de carteira de motorista
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação sensível ao Número de Carteira de Motorista da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -15984,10 +15985,10 @@ Combinação de 18 letras e dígitos no formato especificado
 ### <a name="pattern"></a>Padrão
 
 18 letras e dígitos:
-- cinco letras (não diferencia maiúsculas de minúsculas) ou o dígito "9" em vez de uma letra 
+- cinco letras (não sensíveis a maiúsculas e minúsculas) ou o dígito "9" no lugar de uma letra 
 - um dígito 
-- cinco dígitos no formato de data MMDDY para data de nascimento (o sétimo caractere é incrementado por 50 se o driver for fêmea, ou seja, 51 a 62 em vez de 01 a 12)
-- duas letras (não diferencia maiúsculas de minúsculas) ou o dígito "9" em vez de uma letra 
+- cinco dígitos no formato de data MMDAM para a data de nascimento (o 7º caractere é incrementado em 50 se driver for mulher, ou seja, 51 a 62 em vez de 01 a 12)
+- duas letras (não sensíveis a maiúsculas e minúsculas) ou o dígito "9" no lugar de uma letra 
 - cinco dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -16022,7 +16023,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - 125cc 
 - sidecar 
 - tricycles 
-- motorcycles 
+- ads 
 - photocard licence 
 - learner drivers 
 - licence holder 
@@ -16031,15 +16032,15 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - driving licence 
 - dual control car 
    
-## <a name="uk-electoral-roll-number"></a>britânico número de rolo electoral
+## <a name="uk-electoral-roll-number"></a>Reino Unido número de rolagem de 1º
 
 ### <a name="format"></a>Formatar
 
-duas letras seguidas por 1-4 dígitos
+duas letras seguidas de 1 a 4 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-duas letras (não diferencia maiúsculas de minúsculas) seguidas por números de 1-4
+duas letras (não sensíveis a maiúsculas e minúsculas) seguidas de números de 1 a 4
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -16073,7 +16074,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - electoral roll
 
    
-## <a name="uk-national-health-service-number"></a>britânico número do serviço de integridade nacional
+## <a name="uk-national-health-service-number"></a>Reino Unido national health service number
 
 ### <a name="format"></a>Formatar
 
@@ -16121,7 +16122,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 #### <a name="keyword_uk_nhs_number"></a>Keyword_uk_nhs_number
 
 - national health service 
-- NHS 
+- nhs 
 - health services authority 
 - health authority
 
@@ -16136,12 +16137,12 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 
 - GP 
 - DOB 
-- D. O. B 
+- D.O.B 
 - Date of Birth 
 - Birth Date 
    
-## <a name="uk-national-insurance-number-nino"></a>britânico número de seguro nacional (NINO)
-Essa entidade de tipo de informação confidencial está incluída no tipo de informação confidencial do número Identificaiton nacional da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="uk-national-insurance-number-nino"></a>Reino Unido national insurance number (NINO)
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais número de identificação nacional da UE e está disponível como uma entidade de tipo de informação confidenciais autônomo.
 
 ### <a name="format"></a>Formatar
 
@@ -16151,9 +16152,9 @@ sete caracteres ou nove caracteres separados por espaços ou traços
 
 dois padrões possíveis:
 
-- duas letras (NINOs válidas usam apenas determinados caracteres neste prefixo, que esse padrão valida; não diferencia maiúsculas de minúsculas)
+- duas letras (os NINOs válidos usam apenas determinados caracteres nesse prefixo, o que esse padrão valida; não faz sentido para maiúsculas e minúsculas)
 - seis dígitos
-- "A", "B", "C" ou "(como o prefixo, apenas determinados caracteres são permitidos no sufixo; não diferencia maiúsculas de minúsculas)
+- 'A', 'B', 'C' ou 'D' (como o prefixo, somente determinados caracteres são permitidos no sufixo; não fazem a alteração de minúsculas)
 
 OU
 
@@ -16165,7 +16166,7 @@ OU
 - um espaço ou um traço
 - dois dígitos
 - um espaço ou um traço
-- ' A ', ' B ', ' C' ou ' d'
+- 'A', 'B', 'C' ou 'D'
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -16200,7 +16201,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - national insurance number
 - national insurance contributions
 - protection act
-- seguro
+- insurance
 - social security number
 - insurance application
 - medical application
@@ -16208,23 +16209,23 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - medical attention
 - social security
 - great britain
-- Número de NI
-- N º de NI
+- Número NI
+- NI Não.
 - NI #
 - NI #
-- seguro #
+- insurance #
 - insurancenumber
 - nationalinsurance #
 - nationalinsurancenumber
 
     
-## <a name="uk-unique-taxpayer-reference-number"></a>britânico Número de referência de contribuidor exclusivo
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="uk-unique-taxpayer-reference-number"></a>Reino Unido Número de Referência de Contribuinte Exclusivo
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -16243,7 +16244,7 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_uk_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de  `Keywords_uk_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave  `Keywords_uk_eu_tax_file_number` de onde foi encontrada. 
     
 ```xml
       <!-- U.K. Unique Taxpayer Reference Number -->
@@ -16259,33 +16260,33 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keywords_uk_eu_tax_file_number"></a>Keywords_uk_eu_tax_file_number
 
-- número do imposto
-- arquivo de imposto
+- tax number
+- arquivo fiscal
 - tax id
-- identificação de imposto não
-- número de identificação do imposto
-- n º do imposto #
-- n º do imposto
-- número de registro de imposto
-- táxi #
-- taxidno #
-- taxidnumber #
+- tax identification no
+- tax identification number
+- tax no #
+- tax no
+- tax registration number
+- aaa #
+- adno #
+- adnumber #
 - taxno #
 - taxnumber #
 - taxnumber
-- ID do Tin
-- Tin não
-- Tin #
+- tin id
+- tin no
+- tin #
 
 ## <a name="us-bank-account-number"></a>Número de conta bancária dos EUA
 
 ### <a name="format"></a>Formatar
 
-6-17 dígitos
+6 a 17 dígitos
 
 ### <a name="pattern"></a>Padrão
 
-6-17 dígitos consecutivos
+6 a 17 dígitos consecutivos
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -16339,7 +16340,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Debit Acct No. 
 - Debit Account No. 
 
-## <a name="us-drivers-license-number"></a>Número da carteira de motorista dos EUA
+## <a name="us-drivers-license-number"></a>Número de carteira de motorista dos EUA
 
 ### <a name="format"></a>Formatar
 
@@ -16348,8 +16349,8 @@ Depende do estado
 ### <a name="pattern"></a>Padrão
 
 depende do estado – por exemplo, Nova York:
-- nove dígitos formatados como DDD DDD DDD corresponderão.
-- nove dígitos como ddddddddd não serão correspondentes.
+- nove dígitos formatados como ddd ddd ddd corresponderão.
+- nove dígitos como ddddddd não corresponderão.
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -16360,7 +16361,7 @@ Não
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_york_drivers_license_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_[state_name]_drivers_license_name for encontrada.
-- Uma palavra-chave de Keyword_us_drivers_license for encontrada.
+- Uma palavra-chave Keyword_us_drivers_license for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_york_drivers_license_number localiza conteúdo que corresponde ao padrão.
@@ -16390,22 +16391,22 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_us_drivers_license_abbreviations"></a>Keyword_us_drivers_license_abbreviations
 
-- DISTRIBUIÇÃO 
 - DL 
+- DLS 
 - CDL 
 - CDLS 
 - ID 
-- Código 
-- DISTRIBUIÇÃO # 
+- IDs 
 - DL # 
+- DLS # 
 - CDL # 
 - CDLS # 
 - ID #
-- Código # 
+- IDs # 
 - ID number 
 - ID numbers 
-- DRIVER'LIC 
-- DRIVER'LIC # 
+- LIC 
+- LIC # 
 
 #### <a name="keyword_us_drivers_license"></a>Keyword_us_drivers_license
 
@@ -16486,32 +16487,32 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - identification cards# 
 
 
-#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_ [state_name] _drivers_license_name
+#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_[state_name]_drivers_license_name
 
-- abreviatura de estado (por exemplo, "NY") 
+- abreviação de estado (por exemplo, "NY") 
 - nome do estado (por exemplo, "Nova York")
 
-## <a name="us-individual-taxpayer-identification-number-itin"></a>Número de identificação de contribuinte individual (ITIN)
+## <a name="us-individual-taxpayer-identification-number-itin"></a>ITIN (número de identificação de contribuinte individual) dos EUA
 
 ### <a name="format"></a>Formatar
 
-nove dígitos que começam com um "9" e contêm um "7" ou "8" como o quarto dígito, opcionalmente formatado com espaços ou traços
+nove dígitos que começam com um "9" e contêm "7" ou "8" como o quarto dígito, opcionalmente formatado com espaços ou traços
 
 ### <a name="pattern"></a>Padrão
 
-binário
+formatado:
 - o dígito "9" 
 - dois dígitos 
 - um espaço ou um traço 
-- um "7" ou "8" 
+- a "7" ou "8" 
 - um dígito 
 - um espaço ou um traço 
 - quatro dígitos
 
-não formatado
+não formatado:
 - o dígito "9" 
 - dois dígitos 
-- um "7" ou "8" 
+- a "7" ou "8" 
 - cinco dígitos
 
 ### <a name="checksum"></a>Soma de verificação
@@ -16529,7 +16530,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Uma palavra-chave de Keyword_itin for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_formatted_itin ou Func_unformatted_itin localiza o conteúdo que corresponde ao padrão.
+- A função Func_formatted_itin ou Func_unformatted_itin localiza conteúdo que corresponde ao padrão.
 
 ```xml
     <!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
@@ -16555,36 +16556,36 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_itin"></a>Keyword_itin
 
-- contribui 
+- contribuinte 
 - tax id 
 - tax identification 
 - itin 
 - i.t.i.n.
-- es 
-- Tin 
+- ssn 
+- tin 
 - social security 
 - tax payer 
 - itins 
-- táxi 
+- aaa 
 - individual taxpayer 
 
 
-## <a name="us-social-security-number-ssn"></a>Número de CPF (cadastro social dos EUA)
+## <a name="us-social-security-number-ssn"></a>Número de seguridade social dos EUA (SSN)
 
 ### <a name="format"></a>Formatar
 
 nove dígitos, que podem estar em um padrão formatado ou não formatado
 
 > [!NOTE]
-> Se emitido antes de meados de 2011, um SSN tem uma formatação forte, onde determinadas partes do número devem estar dentro de determinados intervalos para serem válidos (mas não há nenhum checksum).
+> Se emitido antes de meados de 2011, um SSN tem uma formatação forte onde determinadas partes do número devem estar dentro de determinados intervalos para serem válidas (mas não há uma verificação).
 
 ### <a name="pattern"></a>Padrão
 
-quatro funções procuram CPFs em quatro padrões diferentes:
-- Func_ssn localiza CPFs com formatação forte de 2011 formatada com traços ou espaços (DDD-DD-dddd ou DDD DD dddd)
-- Func_unformatted_ssn localiza CPFs com uma formatação forte anterior à 2011 que não são formatadas como nove dígitos consecutivos (ddddddddd)
-- Func_randomized_formatted_ssn localiza CPFs post-2011 que são formatados com traços ou espaços (DDD-DD-dddd ou DDD DD dddd)
-- Func_randomized_unformatted_ssn localiza CPFs post-2011 que não estão formatados como nove dígitos consecutivos (ddddddddd)
+quatro funções procurarão SSNs em quatro padrões diferentes:
+- Func_ssn localiza SSNs com formatação forte pré-2011 formatada com traços ou espaços (ddd-dd-dddd OR ddd d)
+- Func_unformatted_ssn localiza SSNs com formatação forte pré-2011 que não são formatados como nove dígitos consecutivos (ddd)
+- Func_randomized_formatted_ssn localiza SSNs pós-2011 formatados com traços ou espaços (ddd-dd-dd OR ddd d)
+- Func_randomized_unformatted_ssn localiza SSNs pós-2011 não formatados como nove dígitos consecutivos (dddddd)
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -16598,7 +16599,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - Uma palavra-chave de Keyword_ssn for encontrada.
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_unformatted_ssn localiza o conteúdo que corresponde ao padrão.
+- A função Func_unformatted_ssn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
 
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
@@ -16636,21 +16637,21 @@ Uma política de DLP tem 55% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_ssn"></a>Keyword_ssn
 
-- Número do SSA
+- Número SSA
 - social security number
-- segurança social #
-- segurança social #
-- segurança social não
+- social security #
+- social security #
+- social security no
 - Social Security#
 - Soc Sec
-- ES
-- CPFs
-- ES #
-- PLANILHA #
+- SSN
+- SSNS
+- SSN #
+- SS #
 - SSID
    
-## <a name="us--uk-passport-number"></a>EUA/REINO UNIDO passport number
-O Reino Unido a entidade de tipo de informação confidencial do número do Passport está disponível no tipo de informação confidencial do número do Passport da UE e está disponível como uma entidade de tipo de informação confidencial autônoma.
+## <a name="us--uk-passport-number"></a>EUA/ Reino Unido passport number
+O Reino Unido a entidade de tipo de informação sensível ao número do passport está disponível no tipo de informação sensível ao Número de Passaporte da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -16686,14 +16687,14 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passport Number 
 - Passport No 
 - Passport # 
-- Passaport # 
-- Passportid 
+- Passport # 
+- PassportID 
 - Passportno 
 - passportnumber 
 - パスポート 
 - パスポート番号 
-- パスポートのNum 
-- パスポート＃ 
+- パ ポトスNum 
+- パスポート# 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
@@ -16702,13 +16703,13 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - PasseportNon 
 - Passeportn ° 
 
-## <a name="ukraine-passport-domestic"></a>Ucrânia Passport doméstico
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="ukraine-passport-domestic"></a>Passaporte doméstico da Ucrânia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -16725,8 +16726,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A Regex_Ukraine_Passport_Domestic Regex localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Ukraine_Passport_Domestic for encontrada.
+- A regex Regex_Ukraine_Passport_Domestic localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Ukraine_Passport_Domestic for encontrada.
 
 ```xml
       <!-- Ukraine Passport Domestic -->
@@ -16742,21 +16743,21 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_ukraine_passport_domestic"></a>Keyword_ukraine_passport_domestic
 
-- passaporte da Ucrânia
+- ucrânia passport
 - passport number
-- Passport não
+- passport no
 - паспорт України
 - номер паспорта
 - персональний
 
 
-## <a name="ukraine-passport-international"></a>Ucrânia Passport internacional
-Esse tipo de informação confidencial só está disponível para uso no:
+## <a name="ukraine-passport-international"></a>Passaporte internacional da Ucrânia
+Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
-- Governança de informações
+- governança de informações
 - gerenciamento de registros
-- Segurança do aplicativo do Microsoft Cloud
+- Segurança do aplicativo em nuvem da Microsoft
 
 ### <a name="format"></a>Formatar
 
@@ -16775,8 +16776,8 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A Regex_Ukraine_Passport_International Regex localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_Ukraine_Passport_International for encontrada.
+- A regex Regex_Ukraine_Passport_International localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_Ukraine_Passport_International for encontrada.
 
 ```xml
       <!-- Ukraine Passport International -->
@@ -16792,8 +16793,8 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_ukraine_passport_international"></a>Keyword_ukraine_passport_international
 
-- passaporte da Ucrânia
+- ucrânia passport
 - passport number
-- Passport não
+- passport no
 - паспорт України
 - номер паспорта
