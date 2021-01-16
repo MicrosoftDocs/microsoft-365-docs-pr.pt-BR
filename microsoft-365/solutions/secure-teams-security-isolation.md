@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: d5cfe33d4f254832ccf26552d8ca392cf1dc440c
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 439dee40d1501801fc09d570614a591259c6f09c
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870974"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881700"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -46,7 +46,7 @@ Assista a esse vídeo para obter uma visão geral do processo de implementação
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
-<a name="poster"></a> Para um resumo de duas páginas deste cenário, confira o [Pôster do Microsoft Teams com isolamento de segurança](../downloads/team-security-isolation-poster.pdf).
+<a name="poster"></a> Para obter um resumo de 1 página desse cenário, confira o [pôster do Microsoft Teams com isolamento de segurança](../downloads/team-security-isolation-poster.pdf).
 
 [![Pôster do Microsoft Teams com isolamento de segurança](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
