@@ -3,7 +3,7 @@ title: Pontos de extremidade do Office 365 U.S. Government GCC High
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 01/04/2021
+ms.date: 01/15/2021
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
 description: Neste artigo, você encontrará pontos de extremidade acessíveis para clientes que usam planos Office 365 U.S. Government GCC High.
 hideEdit: true
-ms.openlocfilehash: 7a9cc33f93ac1a887ecce24689858b283f992cde
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: cf483f06d3802bc617855cafc6f3410af9372e41
+ms.sourcegitcommit: a92b150da1e11d4a204c556ab98a4776727dbc22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787782"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49883343"
 ---
 # <a name="office-365-us-government-gcc-high-endpoints"></a>Pontos de extremidade do Office 365 U.S. Government GCC High
 
@@ -37,7 +37,7 @@ O Office 365 requer conectividade com a Internet. Os pontos de extremidade abaix
   
 |||
 |:-----|:-----|
-|**Última atualização:** 04/01/2021 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Alterar assinatura do Log](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Download:** a lista completa no [formato JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+|**Last updated:** 15/01/2021 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Download:** a lista completa no [formato JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
 
  Comece [gerenciando pontos de extremidade do Office 365](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando esses dados. Os dados de pontos de extremidade são atualizados no início de cada mês com novos endereços IP e URLs publicados 30 dias antes de serem ativos. Isso permite que os clientes que ainda não tenham atualizações automatizadas concluam seus processos antes da nova conectividade ser necessária. Os pontos de extremidade também podem ser atualizados durante o mês, se necessário, para lidar com escalonamentos de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Os dados mostrados nesta página abaixo são todos gerados a partir dos serviços Web baseados em REST. Se você estiver usando um script ou um dispositivo de rede para acessar esses dados, acesse o [serviço Web](microsoft-365-ip-web-service.md) diretamente.
 
@@ -61,7 +61,7 @@ As colunas de dados exibidas são:
 
 Observações da tabela:
 
-- O Centro de Conformidade e Segurança (SCC) fornece suporte para o Azure ExpressRoute para Office 365. O mesmo se aplica a muitos recursos expostos por meio do SCC, como Relatórios, Auditoria, DescobertaSCoberta Avançada, DLP Unificada e Governança de Dados. Dois recursos específicos, Importação de PST e Exportação de Descobertas EDiscovery, atualmente não são suportados pelo Azure ExpressRoute com apenas filtros de rota do Office 365 devido à dependência do Armazenamento de Blob do Azure. Para consumir esses recursos, você precisa de conectividade separada ao Armazenamento de Blob do Azure usando qualquer opção de conectividade do Azure com suporte, que incluem conectividade com a Internet ou Rota Expressa do Azure com filtros de rota pública do Azure. Você precisa avaliar o estabelecimento dessa conectividade para ambos os recursos. A equipe de Proteção de Informações do Office 365 está ciente dessa limitação e está trabalhando ativamente para trazer suporte para o Azure ExpressRoute para Office 365, conforme limitado aos filtros de rota do Office 365 para ambos os recursos.
+- O Centro de Conformidade e Segurança (SCC) fornece suporte para o Azure ExpressRoute para Office 365. O mesmo se aplica a muitos recursos expostos por meio do SCC, como Relatórios, Auditoria, Descobertas Avançadas, DLP Unificada e Governança de Dados. Dois recursos específicos, Importação de PST e Exportação de Descobertas EDiscovery, atualmente não são suportados pelo Azure ExpressRoute com apenas filtros de rota do Office 365 devido à dependência do Armazenamento de Blob do Azure. Para consumir esses recursos, você precisa de conectividade separada ao Armazenamento de Blob do Azure usando qualquer opção de conectividade do Azure com suporte, que incluem conectividade com a Internet ou Rota Expressa do Azure com filtros de rota pública do Azure. Você precisa avaliar o estabelecimento dessa conectividade para ambos os recursos. A equipe de Proteção de Informações do Office 365 está ciente dessa limitação e está trabalhando ativamente para trazer suporte para o Azure ExpressRoute para Office 365, conforme limitado aos filtros de rota do Office 365 para ambos os recursos.
 
 - Há pontos de extremidade opcionais adicionais para o Microsoft 365 Apps para empresas que não estão listados e não são necessários para os usuários iniciarem os Aplicativos do Microsoft 365 para empresas e editarem documentos. Os pontos de extremidade opcionais são hospedados em datacenters da Microsoft e não processam, transmitem ou armazenam dados de clientes. Recomendamos que as conexões do usuário com esses pontos de extremidade sejam direcionadas para o perímetro de saída da Internet padrão.
 
