@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: 5a5c8e77679b55f20269b135da52bc0498fd7c11
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: c9b7b10328e80a70f14b8fb40a3bf91cb89dbc88
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840920"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867955"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
@@ -84,7 +84,11 @@ Certifique-se de que os dispositivos Windows 10 que você pretende implantar o E
 
 1. Deve estar executando o Windows 10 x64 build 1809 ou superior.
 
-2. A Versão do Cliente Antimalware é 4.18.2009.7 ou mais recente. Verifique sua versão atual abrindo o aplicativo Segurança do Windows, selecione o ícone Configurações e, em seguida, selecione Sobre. O número da versão está listado na Versão do Cliente Antimalware. Atualize para a Versão do Cliente Antimalware instalando o Windows Update KB4052623. Observação: Nenhum dos componentes de Segurança do Windows precisa estar ativo, você pode executar o Ponto de Extremidade DLP independentemente do status de Segurança do Windows.
+2. A Versão do Cliente Antimalware é 4.18.2009.7 ou mais recente. Verifique sua versão atual abrindo o aplicativo Segurança do Windows, selecione o ícone Configurações e, em seguida, selecione Sobre. O número da versão está listado na Versão do Cliente Antimalware. Atualize para a Versão do Cliente Antimalware instalando o Windows Update KB4052623. 
+
+> [!NOTE]
+> Nenhum dos componentes de Segurança do Windows precisa estar ativo, você pode executar o ponto de extremidade da DLP independente do status de segurança do Windows, mas a [proteção em tempo real e o monitor de comportamento devem estar habilitados](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus).
+ 
 
 3. As seguintes atualizações do Windows foram instaladas. Observação: Essas atualizações não são um pré-requisito para integrar um dispositivo a Ponto de extremidade DLP, mas contêm correções para problemas importantes, portanto, devem ser instaladas antes de usar o produto.
 
