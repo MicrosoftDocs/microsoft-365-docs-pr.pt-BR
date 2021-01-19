@@ -241,7 +241,7 @@
           href: endpoint-dlp-learn-about.md
         - name: Introdução à Prevenção contra perda de dados do ponto de extremidade
           href: endpoint-dlp-getting-started.md
-        - name: Configurar as configurações de proxy e conexão com a Internet do dispositivo para Ponto de extremidade DLP
+        - name: Configurar as configurações de proxy e conexão com a Internet do dispositivo para DLP do ponto de extremidade
           href: endpoint-dlp-configure-proxy.md
         - name: Usando a Prevenção contra perda de dados do ponto de extremidade
           href: endpoint-dlp-using.md
