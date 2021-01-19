@@ -53,7 +53,7 @@ Embora uma política de retenção possa dar suporte a vários locais, você nã
 - Mensagens da comunidade do Yammer
 - Mensagens privadas do Yammer
 
-Quando você seleciona um dos locais do Teams ou Yammer quando cria uma política de retenção, os outros locais são excluídos automaticamente. Portanto, as instruções a seguir dependem se você precisar incluir os locais do Teams ou Yammer:
+Quando você seleciona um dos locais do Teams ou Yammer quando cria uma política de retenção, os outros locais são excluídos automaticamente. Portanto, as instruções a seguir dependem se você precisa incluir os locais do Teams ou Yammer:
 
 - [Instruções para uma política de retenção para locais do Teams](#retention-policy-for-teams-locations)
 - [Instruções para uma política de retenção para locais do Yammer](#retention-policy-for-yammer-locations)
@@ -257,7 +257,7 @@ Por exemplo, se uma política incluir todos os emails do Exchange e sites do Sha
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>Uma política com inclusões ou exclusões específicas
 
-Apenas se você usar a configuração opcional para definir o escopo de suas configurações de retenção para usuários específicos, grupos específicos do Microsoft 365 ou sites específicos, existem alguns limites por política a serem considerados: 
+Apenas se você usar a configuração opcional para definir o escopo de suas configurações de retenção para usuários específicos, grupos específicos do Microsoft 365 ou sites específicos, existirão alguns limites por política a serem considerados: 
 
 - Números máximos da política de retenção:
   - 1.000 caixas de correio (caixas de correio do usuário ou de grupos)
@@ -265,7 +265,7 @@ Apenas se você usar a configuração opcional para definir o escopo de suas con
   - 1.000 usuários para conversas privadas do Teams
   - 100 sites (OneDrive ou SharePoint)
 
-Essas limitações são por política, portanto, se você precisar usar inclusões ou exclusões específicas que resultem em passar por esses números, você pode criar políticas de retenção adicionais que têm as mesmas configurações de retenção. Confira a próxima seção de alguns [cenários de exemplo e soluções](#examples-of-using-inclusions-and-exclusions) que usam várias políticas de retenção por esse motivo. Várias políticas de retenção resultam em maiores sobrecargas administrativas, portanto, sempre se questione se você realmente precisa de inclusões e exclusões. Lembre-se de que a configuração padrão que se aplica a todo o local não tem limitações, e essa escolha de configuração pode ser uma solução melhor do que a criação e a manutenção de várias políticas.
+Essas limitações são por política, portanto, se você precisar usar inclusões ou exclusões específicas que resultem em passar por esses números, poderá criar políticas de retenção adicionais que tenham as mesmas configurações de retenção. Confira a próxima seção de alguns [cenários de exemplo e soluções](#examples-of-using-inclusions-and-exclusions) que usam várias políticas de retenção por esse motivo. Várias políticas de retenção resultam em maiores sobrecargas administrativas, portanto, sempre se questione se realmente precisa de inclusões e exclusões. Lembre-se de que a configuração padrão que se aplica a todo o local não tem limitações, e essa escolha de configuração pode ser uma solução melhor do que a criação e a manutenção de várias políticas.
 
 > [!TIP]
 > Se você precisar criar e manter várias políticas de retenção para esse cenário, considere usar o [PowerShell](retention.md#powershell-cmdlets-for-retention-policies-and-retention-labels) para uma configuração mais eficaz.
@@ -293,7 +293,7 @@ Exemplo do Exchange:
     
     Em ambos os casos, o número incluído e excluído fica abaixo do número máximo de caixas de correio especificadas para uma única política, e o subconjunto de usuários deve ser explicitamente excluído da primeira política, pois tem um período de retenção [maior](retention.md#the-principles-of-retention-or-what-takes-precedence) do que a segunda política. Se o subconjunto de usuários exigir uma política de retenção maior, não será necessário excluí-los da primeira política.
      
-    Com essa solução, se alguém novo ingressar na organização, a caixa de correio será incluída automaticamente na primeira política por sete anos e não haverá impacto nos números máximos suportados. No entanto, novos usuários que exigem o período de retenção de 5 anos somam-se aos números de inclusão e exclusão e esse limite seria atingido em 1.000.
+    Com essa solução, se alguém novo ingressar na organização, a caixa de correio será incluída automaticamente na primeira política por sete anos e não haverá impacto nos números máximos suportados. No entanto, novos usuários exigem que o período de retenção de 5 anos seja somado aos números de inclusão e exclusão, e esse limite seria atingido em 1.000.
 
 Exemplo do SharePoint:
 
