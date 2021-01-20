@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: 0057be98c79ec07018d86f3130d7e03d68c74446
-ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
+ms.openlocfilehash: 1f6ab392abbf55851e1f084507d3f1658c3cf264
+ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "49790197"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905230"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
@@ -85,7 +85,7 @@ Um rótulo de retenção padrão tem configurações de retenção e ações, ma
 |Excluir|Permitido <sup>1</sup> |**Bloqueado** |**Bloqueado**| **Bloqueado**|
 |Copiar|Permitido |Permitido | Permitido| Permitido|
 |Mover dentro do contêiner <sup>2</sup>|Permitido |Permitido | Permitido| Permitido|
-|Mover entre contêineres <sup>2</sup>|Permitido |Permitido se nunca desbloqueado | Permitido| **Bloqueado**|
+|Mover entre contêineres <sup>2</sup>|Permitido |Permitido se nunca desbloqueado | **Bloqueado** | **Bloqueado**|
 |Abrir/Ler|Permitido |Permitido | Permitido| Permitido|
 |Alterar rótulo|Permitido |Permitido - somente administrador do contêiner | Permitido - somente administrador do contêiner| **Bloqueado**
 |Remover rótulo|Permitido |Permitido - somente administrador do contêiner | Permitido - somente administrador do contêiner| **Bloqueado**
