@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem aprender a criar cargas personalizadas para treinamento de simulação de ataque no Microsoft Defender para Office 365.
-ms.openlocfilehash: 45311ad4c4eb09c8238d278475248680fbc66287
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 86a962dc3117708ac71195b9efc336fa30c573dd
+ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877123"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908336"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Criar um conteúdo personalizado para treinamento de simulação de Ataque
 
@@ -58,14 +58,14 @@ Adicione uma descrição personalizada para descrever o indicador e clique no qu
 
 ## <a name="review-payload"></a>Revisar carga
 
-Você terminou de criar sua carga. Agora é hora de revisar os detalhes e ver uma visualização da carga. A visualização incluirá todos os indicadores que você criou. Você pode editar cada parte da carga desta etapa. Uma vez satisfeito, **envie** sua carga.
+Você terminou de criar sua carga. Agora é hora de revisar os detalhes e ver uma visualização da carga. A visualização incluirá todos os indicadores que você criou. Você pode editar cada parte da carga desta etapa. Depois de satisfeito, você **pode enviar** sua carga.
 
 > [!IMPORTANT]
 > As cargas que você criou terão Tenant **como** origem. Ao selecionar cargas, certifique-se de não filtrar **Tenant**.
 
 ## <a name="related-links"></a>Links relacionados
 
-[Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md)
+[Começar a usar o Treinamento de simulação de ataque](attack-simulation-training-get-started.md)
 
 [Criar uma simulação de ataque de phishing](attack-simulation-training.md)
 
