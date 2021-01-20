@@ -29,7 +29,7 @@
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: setup-secure-collaboration-with-teams.md
         - name: Etapa 1. Configurar três camadas de proteção com o Microsoft Teams
           items:
@@ -71,7 +71,7 @@
               href: microsoft-365-guest-settings.md
     - name: Implantar proteção contra ameaças no Microsoft 365
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: deploy-threat-protection.md
         - name: Etapas para implantar a proteção contra ameaças
           href: deploy-threat-protection-configure.md
@@ -93,6 +93,22 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Soluções e cenários de carga de trabalho
   items:
+    - name: Visão Geral
+      href: workload-solutions-scenarios-overview.md
+    - name: Gerenciamento de locatários
+      items:
+        - name: Visão Geral
+          href: tenant-management-overview.md
+        - name: Etapa 1. Seus locatários
+          href: tenant-management-tenants.md
+        - name: Etapa 2. Uso eficaz de rede
+          href: tenant-management-networking.md
+        - name: Etapa 3. Identidade
+          href: tenant-management-identity.md
+        - name: Etapa 4. Migração
+          href: tenant-management-migration.md
+        - name: Etapa 5. Gerenciamento de aplicativo e dispositivo
+          href: tenant-management-device-management.md
     - name: Trabalho em equipe e colaboração
       items:
         - name: Pôsteres da arquitetura do Teams
