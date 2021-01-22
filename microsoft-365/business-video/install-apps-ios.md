@@ -1,5 +1,5 @@
 ---
-title: Instalar aplicativos do Office no iOS
+title: Instalar aplicativos do Office em dispositivos iOS
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,39 +16,40 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como instalar os aplicativos do Office em dispositivos iOS.
-ms.openlocfilehash: 4b92b21d1002d63f00cec322495cdc7d122c2f7c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como instalar aplicativos do Office em dispositivos iOS.
+ms.openlocfilehash: e3b703f3bc0bfe6972ac73e9ad7de955d773a812
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701431"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927103"
 ---
-# <a name="install-outlook-and-office-apps-on-ios-devices"></a><span data-ttu-id="e3229-103">Instalar aplicativos do Outlook e do Office em dispositivos iOS</span><span class="sxs-lookup"><span data-stu-id="e3229-103">Install Outlook and Office apps on iOS devices</span></span>
+# <a name="install-outlook-and-office-apps-on-ios-devices"></a><span data-ttu-id="0ccdc-103">Instalar aplicativos do Outlook e do Office em dispositivos iOS</span><span class="sxs-lookup"><span data-stu-id="0ccdc-103">Install Outlook and Office apps on iOS devices</span></span>
 
-<span data-ttu-id="e3229-104">Depois de&#39;configurar o Microsoft 365 Business Premium, você pode instalar os aplicativos do Office em seu iPhone.</span><span class="sxs-lookup"><span data-stu-id="e3229-104">Once you&#39;ve set up Microsoft 365 Business Premium, you can install Office apps on your iPhone.</span></span> <span data-ttu-id="e3229-105">Após instalar os aplicativos, você&#39;será solicitado a criar um PIN para ajudar a proteger seus dados do Office.</span><span class="sxs-lookup"><span data-stu-id="e3229-105">After installing the apps, you&#39;ll be prompted to create a PIN to help secure your Office data.</span></span>
+<span data-ttu-id="0ccdc-104">Depois de&#39;configurar o Microsoft 365 Business Premium, você pode instalar aplicativos do Office no seu iPhone.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-104">Once you&#39;ve set up Microsoft 365 Business Premium, you can install Office apps on your iPhone.</span></span> <span data-ttu-id="0ccdc-105">Depois de instalar os aplicativos,&#39;será solicitado a criar um PIN para ajudar a proteger seus dados do Office.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-105">After installing the apps, you&#39;ll be prompted to create a PIN to help secure your Office data.</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n?autoplay=false]
 
-## <a name="try-it"></a><span data-ttu-id="e3229-106">Experimente!</span><span class="sxs-lookup"><span data-stu-id="e3229-106">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="0ccdc-106">Experimente!</span><span class="sxs-lookup"><span data-stu-id="0ccdc-106">Try it!</span></span>
 
-1. <span data-ttu-id="e3229-107">No seu iPhone, abra a loja de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="e3229-107">On your iPhone, open the App Store.</span></span>
-2. <span data-ttu-id="e3229-108">Selecione  **pesquisa** , digite  **Outlook** na barra de pesquisa e, em seguida, escolha-a.</span><span class="sxs-lookup"><span data-stu-id="e3229-108">Select  **Search** , type  **Outlook** in the search bar, and then choose it.</span></span>
-3. <span data-ttu-id="e3229-109">Escolha **obter**   >   **instalação**.</span><span class="sxs-lookup"><span data-stu-id="e3229-109">Choose  **Get**  >  **Install**.</span></span>
-4. <span data-ttu-id="e3229-110">Insira sua senha da Apple ID, selecione **entrar**  >   **abrir**.</span><span class="sxs-lookup"><span data-stu-id="e3229-110">Enter your Apple ID password, select **Sign in** >  **Open**.</span></span>
-5. <span data-ttu-id="e3229-111">Insira seu endereço de email de trabalho.</span><span class="sxs-lookup"><span data-stu-id="e3229-111">Enter your work email address.</span></span>
-6. <span data-ttu-id="e3229-112">Selecione  **adicionar conta** , insira sua senha e, em seguida, escolha  **entrar**.</span><span class="sxs-lookup"><span data-stu-id="e3229-112">Select  **Add Account** , enter your password, and then choose  **Sign in**.</span></span>
-7. <span data-ttu-id="e3229-113">(Opcional), selecione \* \* vamos fazer isso \* \* para adicionar mais contas ou selecione talvez mais  **tarde**  para ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="e3229-113">(Optional), Select  \*\*Let's Do It \*\* to add more accounts, or select  **Maybe Later**  to skip this step.</span></span>
-8. <span data-ttu-id="e3229-114">Selecione  **OK** para reiniciar o aplicativo para que o Microsoft 365 Business possa proteger seus dados do Outlook.</span><span class="sxs-lookup"><span data-stu-id="e3229-114">Select  **OK** to restart the app so that Microsoft 365 Business  can protect your Outlook data.</span></span>
-9. <span data-ttu-id="e3229-115">Abra o Outlook novamente e será exibida uma mensagem de confirmação.</span><span class="sxs-lookup"><span data-stu-id="e3229-115">Open Outlook again, and a confirmation message appears.</span></span> <span data-ttu-id="e3229-116">Selecione  **OK**.</span><span class="sxs-lookup"><span data-stu-id="e3229-116">Select  **OK**.</span></span>
-10. <span data-ttu-id="e3229-117">Criar um PIN para o Outlook e outros aplicativos do Office e confirmá-lo.</span><span class="sxs-lookup"><span data-stu-id="e3229-117">Create a PIN for Outlook and other Office apps, and confirm it.</span></span> <span data-ttu-id="e3229-118">A partir de agora, esse PIN será usado para proteger todos os dados do aplicativo do Office.</span><span class="sxs-lookup"><span data-stu-id="e3229-118">From now on, this PIN will be used to secure all Office app data.</span></span>
-11. <span data-ttu-id="e3229-119">Selecione  **Ativar**  para habilitar as notificações por email.</span><span class="sxs-lookup"><span data-stu-id="e3229-119">Select  **Turn On**  to enable email notifications.</span></span>
-12. <span data-ttu-id="e3229-120">Selecione  **permitir** para habilitar notificações por push.</span><span class="sxs-lookup"><span data-stu-id="e3229-120">Select  **Allow** to enable push notifications.</span></span>
+1. <span data-ttu-id="0ccdc-107">No seu iPhone, abra a App Store.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-107">On your iPhone, open the App Store.</span></span>
+2. <span data-ttu-id="0ccdc-108">Selecione  **Pesquisar** , digite  **Outlook** na barra de pesquisa e escolha-o.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-108">Select  **Search** , type  **Outlook** in the search bar, and then choose it.</span></span>
+3. <span data-ttu-id="0ccdc-109">Choose **Get**   >   **Install**.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-109">Choose  **Get**  >  **Install**.</span></span>
+4. <span data-ttu-id="0ccdc-110">Insira sua senha do Apple ID, selecione **Entrar**  >   **em Abrir.**</span><span class="sxs-lookup"><span data-stu-id="0ccdc-110">Enter your Apple ID password, select **Sign in** >  **Open**.</span></span>
+5. <span data-ttu-id="0ccdc-111">Insira seu endereço de email de trabalho.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-111">Enter your work email address.</span></span>
+6. <span data-ttu-id="0ccdc-112">Selecione **Adicionar Conta,** insira sua senha e, em seguida, escolha **Entrar.**</span><span class="sxs-lookup"><span data-stu-id="0ccdc-112">Select  **Add Account** , enter your password, and then choose  **Sign in**.</span></span>
+7. <span data-ttu-id="0ccdc-113">(Opcional), Selecione \*\*Vamos Fazer \*\* para adicionar mais contas ou selecione  **Talvez**  Mais Tarde para ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-113">(Optional), Select  \*\*Let's Do It \*\* to add more accounts, or select  **Maybe Later**  to skip this step.</span></span>
+8. <span data-ttu-id="0ccdc-114">Selecione  **OK** para reiniciar o aplicativo para que o Microsoft 365 Business possa proteger seus dados do Outlook.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-114">Select  **OK** to restart the app so that Microsoft 365 Business  can protect your Outlook data.</span></span>
+9. <span data-ttu-id="0ccdc-115">Abra o Outlook novamente e uma mensagem de confirmação será exibida.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-115">Open Outlook again, and a confirmation message appears.</span></span> <span data-ttu-id="0ccdc-116">Selecione  **OK**.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-116">Select  **OK**.</span></span>
+10. <span data-ttu-id="0ccdc-117">Crie um PIN para o Outlook e outros aplicativos do Office e confirme-o.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-117">Create a PIN for Outlook and other Office apps, and confirm it.</span></span> <span data-ttu-id="0ccdc-118">De agora em diante, esse PIN será usado para proteger todos os dados de aplicativo do Office.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-118">From now on, this PIN will be used to secure all Office app data.</span></span>
+11. <span data-ttu-id="0ccdc-119">Selecione  **Ativar para habilitar**  notificações por email.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-119">Select  **Turn On**  to enable email notifications.</span></span>
+12. <span data-ttu-id="0ccdc-120">Selecione  **Permitir** para habilitar notificações por push.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-120">Select  **Allow** to enable push notifications.</span></span>
 
-<span data-ttu-id="e3229-121">Agora você pode usar o Outlook no seu iPhone para verificar seus emails, calendários e contatos.</span><span class="sxs-lookup"><span data-stu-id="e3229-121">You can now use Outlook on your iPhone to check your email, calendar, and contacts.</span></span>
+<span data-ttu-id="0ccdc-121">Agora você pode usar o Outlook no iPhone para verificar seu email, calendário e contatos.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-121">You can now use Outlook on your iPhone to check your email, calendar, and contacts.</span></span>
 
-<span data-ttu-id="e3229-122">Você pode instalar o restante dos aplicativos do Office da mesma forma e os dados desses aplicativos serão protegidos pelo Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="e3229-122">You can install the rest of the Office apps in the same way and the data in those apps will be protected by Microsoft 365 Business Premium.</span></span>
+<span data-ttu-id="0ccdc-122">Você pode instalar o restante dos aplicativos do Office da mesma maneira e os dados nesses aplicativos serão protegidos pelo Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="0ccdc-122">You can install the rest of the Office apps in the same way and the data in those apps will be protected by Microsoft 365 Business Premium.</span></span>

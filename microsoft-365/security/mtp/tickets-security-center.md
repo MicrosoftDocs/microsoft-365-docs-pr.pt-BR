@@ -1,8 +1,8 @@
 ---
 title: Criar e acompanhar tíquetes do ServiceNow no centro de segurança do Microsoft 365
-description: Saiba como criar e acompanhar tíquetes no ServiceNow do centro de segurança do Microsoft 365.
-keywords: segurança, Microsoft 365, M365, Pontuação segura, central de segurança, ServiceNow, tíquetes, tarefas
-ms.prod: w10
+description: Saiba como criar e acompanhar tíquetes no ServiceNow na central de segurança do Microsoft 365.
+keywords: segurança, Microsoft 365, M365, classificação de segurança, central de segurança, ServiceNow, tíquetes, tarefas
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -19,22 +19,23 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: f0aadbf2dbf8cb8d9815b4ef8b1c8d3d892c8b31
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+ms.technology: m365d
+ms.openlocfilehash: 3df24e01df0436f6b5824917c91dc4e7c4ee984c
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588524"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925489"
 ---
-# <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a><span data-ttu-id="28cb3-104">Criar e acompanhar tíquetes do ServiceNow no centro de segurança do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="28cb3-104">Create and track ServiceNow tickets in the Microsoft 365 security center</span></span>
+# <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a><span data-ttu-id="01c64-104">Criar e acompanhar tíquetes do ServiceNow no centro de segurança do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="01c64-104">Create and track ServiceNow tickets in the Microsoft 365 security center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 >[!CAUTION]
-><span data-ttu-id="28cb3-105">**O período de visualização para o conector do ServiceNow terminou**</span><span class="sxs-lookup"><span data-stu-id="28cb3-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
-><span data-ttu-id="28cb3-106">Esse recurso não está mais disponível.</span><span class="sxs-lookup"><span data-stu-id="28cb3-106">This capability is no longer available.</span></span> <span data-ttu-id="28cb3-107">Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.</span><span class="sxs-lookup"><span data-stu-id="28cb3-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
+><span data-ttu-id="01c64-105">**O período de visualização do conector serviceNow terminou**</span><span class="sxs-lookup"><span data-stu-id="01c64-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
+><span data-ttu-id="01c64-106">Essa funcionalidade não está mais disponível.</span><span class="sxs-lookup"><span data-stu-id="01c64-106">This capability is no longer available.</span></span> <span data-ttu-id="01c64-107">Agradecemos por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.</span><span class="sxs-lookup"><span data-stu-id="01c64-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
 
-<span data-ttu-id="28cb3-108">O [centro de segurança do Microsoft 365](overview-security-center.md) foi aprimorado com a capacidade de criar e controlar de forma nativa as permissões no ServiceNow.</span><span class="sxs-lookup"><span data-stu-id="28cb3-108">The [Microsoft 365 security center](overview-security-center.md) has been enhanced with the ability to natively create and track tickets in ServiceNow.</span></span> [<span data-ttu-id="28cb3-109">Saiba mais sobre o ServiceNow</span><span class="sxs-lookup"><span data-stu-id="28cb3-109">Learn more about ServiceNow</span></span>](https://www.servicenow.com/)
+<span data-ttu-id="01c64-108">A central de segurança do [Microsoft 365](overview-security-center.md) foi aprimorada com a capacidade de criar e rastrear nações os tíquetes no ServiceNow.</span><span class="sxs-lookup"><span data-stu-id="01c64-108">The [Microsoft 365 security center](overview-security-center.md) has been enhanced with the ability to natively create and track tickets in ServiceNow.</span></span> [<span data-ttu-id="01c64-109">Saiba mais sobre o ServiceNow</span><span class="sxs-lookup"><span data-stu-id="01c64-109">Learn more about ServiceNow</span></span>](https://www.servicenow.com/)
 
-<span data-ttu-id="28cb3-110">Na central de segurança, os administradores de segurança podem enviar uma ação de melhoria de [Pontuação segura da Microsoft](microsoft-secure-score.md) diretamente para o ServiceNow e criar uma permissão.</span><span class="sxs-lookup"><span data-stu-id="28cb3-110">In the security center, security administrators can send a [Microsoft Secure Score](microsoft-secure-score.md) improvement action directly to ServiceNow and create a ticket.</span></span> <span data-ttu-id="28cb3-111">As permissões de gerenciamento de incidentes e de alterações podem ser criadas.</span><span class="sxs-lookup"><span data-stu-id="28cb3-111">Both incident management and change management tickets can be created.</span></span> <span data-ttu-id="28cb3-112">Rastreie as permissões na home page da central de segurança e o ServiceNow.</span><span class="sxs-lookup"><span data-stu-id="28cb3-112">Track tickets in the security center home page and ServiceNow.</span></span>
+<span data-ttu-id="01c64-110">Na central de segurança, os administradores de segurança podem enviar uma ação de melhoria do [Microsoft Secure Score](microsoft-secure-score.md) diretamente para o ServiceNow e criar um tíquete.</span><span class="sxs-lookup"><span data-stu-id="01c64-110">In the security center, security administrators can send a [Microsoft Secure Score](microsoft-secure-score.md) improvement action directly to ServiceNow and create a ticket.</span></span> <span data-ttu-id="01c64-111">Os tíquetes de gerenciamento de incidentes e de gerenciamento de alterações podem ser criados.</span><span class="sxs-lookup"><span data-stu-id="01c64-111">Both incident management and change management tickets can be created.</span></span> <span data-ttu-id="01c64-112">Acompanhe tíquetes na home page do centro de segurança e no ServiceNow.</span><span class="sxs-lookup"><span data-stu-id="01c64-112">Track tickets in the security center home page and ServiceNow.</span></span>
 
