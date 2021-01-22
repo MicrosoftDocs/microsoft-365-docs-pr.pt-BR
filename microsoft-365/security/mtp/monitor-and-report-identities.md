@@ -1,8 +1,8 @@
 ---
-title: Monitoramento de identidade e relatório-central de segurança
-description: Descreve como você pode monitorar os usuários em sua organização e controlar comportamentos suspeitos ou arriscados.
-keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, identidade, usuários
-ms.prod: microsoft-365-enterprise
+title: Monitoramento e relatório de identidades - Central de segurança
+description: Descreve como você pode monitorar os usuários em sua organização e acompanhar comportamentos suspeitos ou arriscados.
+keywords: segurança, malware, Microsoft 365, M365, centro de segurança, monitorar, relatório, identidade, usuários
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,26 +17,27 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f938fba565d52658776d4a7573592026695f9ee
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.technology: m365d
+ms.openlocfilehash: 31c000871fe644f614da597912698792c5dc72ca
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429366"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930529"
 ---
-# <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de identidade no centro de segurança do Microsoft 365
+# <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatório de identidades no centro de segurança do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-Monitore as identidades em sua organização e mantenha o controle de comportamentos suspeitos ou arriscados. Na categoria **identidades** de **relatórios**, você pode controlar:
+Monitore as identidades em sua organização e acompanhe comportamentos suspeitos ou arriscados. Na categoria **Identidades** de **Relatórios,** você pode acompanhar:
 
 * Os usuários com as anomalias mais detectadas
 * Quantos usuários são relatados sob risco por políticas de acesso condicional
 * O número de administradores globais em sua organização
 
-![Categoria identidades da página relatórios](../../media/identities.png)
+![Categoria de identidades da página de relatórios](../../media/identities.png)
 
-Para usuários com detecções específicas, você pode explorar o alerta específico e investigar na central de segurança do Microsoft defender. As detecções incluem anomalias, como os usuários que entram em locais desconhecidos.
+Para usuários com detecções específicas, você pode explorar o alerta específico e investigar na Central de Segurança do Microsoft Defender. As detecções incluem anomalias, como usuários que se ins login em locais desconhecidos.
 
-Para obter um conjunto completo de eventos de risco, confira [eventos de risco do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).
+Para um conjunto completo de eventos de risco, confira eventos de risco do [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events)

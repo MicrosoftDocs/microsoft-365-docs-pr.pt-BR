@@ -3,7 +3,7 @@ title: Detalhes e resultados de uma investigação automatizada
 description: Durante e após uma investigação automática, você pode exibir os resultados e as principais descobertas
 keywords: automatização, investigação, resultados, análise, detalhes, correção, autoair
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 39f6be70ad7a611f9919bb0529e8c8ed7f9dc339
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: c050683bb3ed052ae4752ffdee66fe51fb99b88b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683350"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930361"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -36,7 +37,7 @@ ms.locfileid: "49683350"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Quando uma investigação automatizada ocorre no Microsoft 365 defender, os detalhes da investigação estão disponíveis durante e após o processo de investigação automatizada. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
+Quando uma investigação automatizada ocorre no Microsoft 365 Defender, os detalhes sobre essa investigação ficam disponíveis durante e após o processo de investigação automatizada. Se você tiver as [permissões necessárias](mtp-action-center.md#required-permissions-for-action-center-tasks), poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
 
 ![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
@@ -79,7 +80,7 @@ Na exibição de detalhes da investigação, você pode ver as informações nas
 | Guia | Descrição |
 |--------|--------|
 | **Gráficos de investigação**   | Oferece uma representação visual da investigação. Descreve entidades e lista as ameaças encontradas, juntamente com os alertas, e se as ações estão aguardando aprovação.<br/>Você pode clicar em um item no gráfico para exibir mais detalhes. Por exemplo, clicar no ícone **Ameaças encontradas** o levará para a guia **Principais conclusões**. |
-| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem ser provenientes de recursos de proteção contra ameaças no computador de um usuário, em aplicativos do Office, no Cloud app Security e em outros recursos do Microsoft 365 defender.|
+| **Alertas**    | Lista os alertas associados à investigação. Os alertas podem vir de recursos de proteção contra ameaças no computador de um usuário, nos aplicativos do Office, no Cloud App Security e em outros recursos do Microsoft 365 Defender.|
 | **Dispositivos** | Lista os computadores incluídos na investigação, juntamente com o nível de correção.|
 | **Conclusões principais**  | Lista os resultados da investigação, juntamente com o status e as ações realizadas ou pendentes. Você pode aprovar as ações pendentes para dispositivos e identidades na guia.|
 | **Entities**  | Lista as atividades do usuário, os arquivos, os processos, os serviços, os endereços IP, drivers, e os métodos de persistência associados à investigação, juntamente com o status e as ações realizadas.|
@@ -89,4 +90,4 @@ Na exibição de detalhes da investigação, você pode ver as informações nas
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Aprovar ou rejeitar ações relacionadas a investigações e respostas automatizadas](mtp-autoir-actions.md)
-- [Examinar ações de correção](mtp-remediation-actions.md)
+- [Revisar ações de correção](mtp-remediation-actions.md)

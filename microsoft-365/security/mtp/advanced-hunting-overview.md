@@ -1,10 +1,10 @@
 ---
-title: Visão geral-busca avançada
+title: Visão geral - Busca avançada
 description: Saiba mais sobre as consultas avançadas de buscas no Microsoft 365 e sobre como usá-las para encontrar ameaças e deficiências na rede de forma proativa
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção contra ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, Kusto, Microsoft 365, proteção contra ameaças da Microsoft
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, microsoft 365, Proteção contra Ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -20,14 +20,15 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bab055036a8e7fdcf88329413c9fd86269af2aaa
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.technology: m365d
+ms.openlocfilehash: 8fbf9c3d93434ec2dbc3f069bc0fbd3fe03fc260
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357215"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932269"
 ---
-# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Busca pró-ativa de ameaças com busca avançada no Microsoft 365 defender
+# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Busca proativa por ameaças com busca avançada no Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,49 +36,49 @@ ms.locfileid: "49357215"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou executar seu projeto piloto em [produção.](https://aka.ms/m365d-pilotplaybook)
 >
 
-A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar eventos de forma proativa em sua rede para localizar indicadores de ameaça e entidades. O acesso flexível aos dados permite uma busca irrestrita para ameaças conhecidas e potenciais.
+A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar proativamente os eventos em sua rede para localizar indicadores e entidades de ameaças. O acesso flexível aos dados permite a busca irr direto por ameaças conhecidas e em potencial.
 <p></p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
-Você pode usar as mesmas consultas de busca de ameaças para criar regras de detecção personalizadas. Essas regras são executadas automaticamente para verificar e, em seguida, responder à suspeita de atividade de violação, máquinas configuradas incorretamente e outras descobertas.
+Você pode usar as mesmas consultas de busca de ameaças para criar regras de detecção personalizadas. Essas regras são automaticamente realizadas para verificar e responder a atividades suspeitas de violação, máquinas configuradas inconfiguradas e outras descobertas.
 
-Esse recurso é semelhante à [busca avançada no Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview). Disponível na central de segurança do Microsoft 365, esse recurso oferece suporte a consultas que verificam um conjunto de dados mais amplo de:
+Esse recurso é semelhante à [busca avançada no Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Disponível na central de segurança do Microsoft 365, esse recurso oferece suporte a consultas que verificam um conjunto de dados mais amplo de:
 
 - Microsoft Defender para Ponto de Extremidade
-- Microsoft Defender para Office 365
-- Segurança no aplicativo na nuvem da Microsoft
-- Microsoft Defender para Identidade
+- Obter o Microsoft Defender para Office 365
+- Microsoft Cloud App Security
+- Microsoft Defender para Identidade?
 
-Para usar a busca avançada, [ative o Microsoft 365 defender](mtp-enable.md).
+Para usar a busca avançada, [a ligue o Microsoft 365 Defender.](mtp-enable.md)
 
 ## <a name="get-started-with-advanced-hunting"></a>Introdução à busca avançada
 
-Recomendamos passar por várias etapas para começar a usar rapidamente a busca avançada.
+Recomendamos passar por várias etapas para começar rapidamente com a busca avançada.
 
 | Meta de aprendizagem | Descrição | Recurso |
 |--|--|--|
-| **Saiba mais sobre o idioma** | A busca avançada é baseada na [linguagem de consulta do Kusto](https://docs.microsoft.com/azure/kusto/query/), com suporte para a mesma sintaxe e operadores. Comece a aprender a linguagem de consulta executando a primeira consulta. | [Visão geral sobre a linguagem de consulta](advanced-hunting-query-language.md) |
-| **Saiba como usar os resultados da consulta** | Saiba mais sobre gráficos e várias maneiras de exibir ou exportar os resultados. Explore como você pode ajustar as consultas rapidamente, faça uma busca detalhada para obter informações mais ricas e execute ações de resposta. | - [Trabalhar com resultados de consulta](advanced-hunting-query-results.md)<br>- [Executar ação nos resultados da consulta](advanced-hunting-take-action.md) |
-| **Compreender o esquema** | Obtenha uma compreensão de alto nível das tabelas no esquema e em suas colunas. Saiba onde procurar dados ao criar suas consultas. | - [Referência de esquema](advanced-hunting-schema-tables.md)<br>- [Transição do Microsoft defender para ponto de extremidade](advanced-hunting-migrate-from-mdatp.md) |
-| **Obter dicas e exemplos de especialistas** | Treine gratuitamente com guias de especialistas da Microsoft. Explore coleções de consultas predefinidas que abrangem diferentes cenários de exploração de ameaças. | - [Obter treinamento especializado](advanced-hunting-expert-training.md)<br>- [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)<br>- [Busca de ir](advanced-hunting-go-hunt.md)<br>- [Busca de ameaças em dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md) |
-| **Otimizar consultas e lidar com erros** | Saiba como criar consultas eficientes e livres de erros. | - [Práticas recomendadas de consulta](advanced-hunting-best-practices.md)<br>- [Manipular erros](advanced-hunting-errors.md) |
-| **Criar regras de detecção personalizadas** | Saiba como você pode usar consultas de busca avançada para disparar alertas e realizar ações de resposta automaticamente. | - [Visão geral das detecções personalizadas](custom-detections-overview.md)<br>- [Regras de detecção personalizadas](custom-detection-rules.md) |
+| **Aprenda o idioma** | A busca avançada é baseada [na linguagem de consulta Kusto,](https://docs.microsoft.com/azure/kusto/query/)dando suporte à mesma sintaxe e operadores. Comece a aprender a linguagem de consulta executando a primeira consulta. | [Visão geral sobre a linguagem de consulta](advanced-hunting-query-language.md) |
+| **Saiba como usar os resultados da consulta** | Saiba mais sobre gráficos e várias maneiras de exibir ou exportar seus resultados. Explore como você pode ajustar rapidamente as consultas, fazer uma busca mais profunda para obter informações mais completas e tomar ações de resposta. | - [Trabalhar com resultados de consulta](advanced-hunting-query-results.md)<br>- [Tomar medidas em resultados de consulta](advanced-hunting-take-action.md) |
+| **Compreender o esquema** | Obtenha uma compreensão de alto nível das tabelas no esquema e em suas colunas. Saiba onde procurar dados ao construir suas consultas. | - [Referência de esquema](advanced-hunting-schema-tables.md)<br>- [Transição do Microsoft Defender para o Ponto de Extremidade](advanced-hunting-migrate-from-mdatp.md) |
+| **Obter dicas de especialista e exemplos** | Treine gratuitamente com guias de especialistas da Microsoft. Explore coleções de consultas predefinidas que abrangem diferentes cenários de exploração de ameaças. | - [Obter treinamento especializado](advanced-hunting-expert-training.md)<br>- [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)<br>- [Ir à busca](advanced-hunting-go-hunt.md)<br>- [Busca por ameaças em dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md) |
+| **Otimizar consultas e lidar com erros** | Entenda como criar consultas eficientes e sem erros. | - [Práticas recomendadas de consulta](advanced-hunting-best-practices.md)<br>- [Lidar com erros](advanced-hunting-errors.md) |
+| **Criar regras de detecção personalizadas** | Entenda como você pode usar consultas de busca avançadas para disparar alertas e tomar ações de resposta automaticamente. | - [Visão geral de detecções personalizadas](custom-detections-overview.md)<br>- [Regras de detecção personalizadas](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Obter acesso
-Para usar a busca avançada ou outros recursos [do Microsoft 365 defender](microsoft-threat-protection.md) , você precisa de uma função apropriada no Azure Active Directory. Além disso, seu acesso aos dados do ponto de extremidade é determinado pelas configurações do controle de acesso baseado em função (RBAC) no Microsoft defender para ponto de extremidade. [Ler sobre como gerenciar o acesso ao Microsoft 365 defender](mtp-permissions.md)
+Para usar a busca avançada ou outros [recursos do Microsoft 365 Defender,](microsoft-threat-protection.md) você precisa de uma função apropriada no Azure Active Directory. Além disso, o acesso aos dados do ponto de extremidade é determinado pelas configurações de controle de acesso baseado em função (RBAC) no Microsoft Defender para Ponto de Extremidade. [Leia sobre como gerenciar o acesso ao Microsoft 365 Defender](mtp-permissions.md)
 
 ## <a name="data-freshness-and-update-frequency"></a>Atualização de dados e frequência de atualização
-Dados de busca avançada podem ser categorizados em dois tipos distintos, cada um consolidado de forma diferente.
+Os dados de busca avançada podem ser categorizados em dois tipos distintos, cada um consolidado de forma diferente.
 
-- **Dados de evento ou atividade**— preenche tabelas sobre alertas, eventos de segurança, eventos do sistema e avaliações de rotina. A busca avançada recebe esses dados quase imediatamente após os sensores que os coletam com êxito para transmiti-los para os serviços de nuvem correspondentes. Por exemplo, você pode consultar dados de eventos de sensores saudáveis em estações de trabalho ou controladores de domínio quase imediatamente após estarem disponíveis no Microsoft defender for Endpoint e Microsoft defender para identidade.
-- **Dados da entidade**— preenche tabelas com informações sobre usuários e dispositivos. Esses dados são provenientes de fontes de dados relativamente estáticas e fontes dinâmicas, como entradas do Active Directory e logs de eventos. Para fornecer dados atualizados, as tabelas são atualizadas com qualquer informação nova a cada 15 minutos, adicionando linhas que podem não estar totalmente preenchidas. A cada 24 horas, os dados são consolidados para inserir um registro que contém o conjunto de dados mais recente e mais abrangente sobre cada entidade.
+- **Dados de eventos ou atividades**— preenche tabelas sobre alertas, eventos de segurança, eventos do sistema e avaliações de rotina. A busca avançada recebe esses dados quase imediatamente depois que os sensores que os coletam os transmitem com êxito para os serviços de nuvem correspondentes. Por exemplo, você pode consultar dados de eventos de sensores saudável em estações de trabalho ou controladores de domínio quase imediatamente depois que eles estão disponíveis no Microsoft Defender para Ponto de Extremidade e no Microsoft Defender para Identidade.
+- **Dados de entidade**— preenche tabelas com informações sobre usuários e dispositivos. Esses dados vêm de fontes de dados relativamente estáticas e fontes dinâmicas, como entradas do Active Directory e logs de eventos. Para fornecer dados atualizados, as tabelas são atualizadas com qualquer informação nova a cada 15 minutos, adicionando linhas que podem não ser totalmente preenchidas. A cada 24 horas, os dados são consolidados para inserir um registro que contém o conjunto de dados mais completo e mais recente sobre cada entidade.
 
 ## <a name="time-zone"></a>Fuso horário
-As informações de tempo em busca avançada estão no fuso horário UTC.
+As informações de tempo na busca avançada estão no fuso horário UTC.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)

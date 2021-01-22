@@ -1,9 +1,9 @@
 ---
-title: Acessar as APIs do Microsoft 365 defender
-description: Saiba como acessar as APIs do Microsoft 365 defender
-keywords: acesso, APIs, contexto de aplicativo, contexto de usuário, aplicativo AAD, token de acesso
+title: Acessar as APIs do Microsoft 365 Defender
+description: Saiba como acessar as APIs do Microsoft 365 Defender
+keywords: access, apis, contexto de aplicativo, contexto de usuário, aplicativo aad, token de acesso
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5e01aaf2ee9255fd909b26278346fd4ccf54729a
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: ea787adfba0afb425da5f6ea0f6609f96e06b378
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719233"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932149"
 ---
-# <a name="access-the-microsoft-365-defender-apis"></a>Acessar as APIs do Microsoft 365 defender
+# <a name="access-the-microsoft-365-defender-apis"></a>Acessar as APIs do Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,59 +36,59 @@ ms.locfileid: "49719233"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> Algumas informações estão relacionadas a produtos de pré-lançamento que podem ser substancialmente modificados antes de serem lançadas comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-O Microsoft 365 defender expõe grande parte de seus dados e ações por meio de um conjunto de APIs de programação. Essas APIs ajudam a automatizar os fluxos de trabalho e a fazer uso completo dos recursos do Microsoft 365 defender.
+O Microsoft 365 Defender expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudam a automatizar fluxos de trabalho e usar totalmente os recursos do Microsoft 365 Defender.
 
-Em geral, você precisará executar as seguintes etapas para usar as APIs:
+Em geral, você precisará seguir as seguintes etapas para usar as APIs:
 
 - Criar um aplicativo do Azure Active Directory
 - Obter um token de acesso usando este aplicativo
-- Usar o token para acessar a API do Microsoft 365 defender
+- Usar o token para acessar a API do Microsoft 365 Defender
 
 > [!NOTE]
-> O acesso à API requer autenticação do OAuth 2.0. Para obter mais informações, consulte [fluxo de código de autorização do OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+> O acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
-Depois de concluir essas etapas, você estará pronto para acessar a API do Microsoft 365 defender usando um contexto específico.
+Depois de realizar essas etapas, você estará pronto para acessar a API do Microsoft 365 Defender usando um contexto específico.
 
-## <a name="application-context-recommended"></a>Contexto do aplicativo (recomendado)
+## <a name="application-context-recommended"></a>Contexto de aplicativo (recomendado)
 
-Use este contexto para aplicativos que são executados sem um usuário conectado, como serviços de segundo plano ou daemons.
+Use esse contexto para aplicativos que são executados sem um usuário entrar, como serviços em segundo plano ou daemons.
 
-1. Criar um aplicativo Web do Azure Active Directory.
+1. Crie um aplicativo Web do Azure Active Directory.
 2. Atribua as permissões desejadas ao aplicativo.
 3. Crie uma chave para o aplicativo.
-4. Obtenha um token de segurança usando o aplicativo e sua chave.
-5. Use o token para acessar a API do Microsoft 365 defender.
+4. Obter um token de segurança usando o aplicativo e sua chave.
+5. Use o token para acessar a API do Microsoft 365 Defender.
 
-Para obter mais informações, consulte **[criar um aplicativo para acessar o Microsoft 365 defender sem um usuário](api-create-app-web.md)**.
+Para obter mais informações, **[consulte Criar um aplicativo para acessar o Microsoft 365 Defender sem um usuário.](api-create-app-web.md)**
 
-## <a name="user-context"></a>Contexto de usuário
+## <a name="user-context"></a>Contexto do usuário
 
-Use este contexto para executar ações em nome de um único usuário.
+Use esse contexto para executar ações em nome de um único usuário.
 
-1. Criar um aplicativo nativo do Azure Active Directory.
+1. Crie um aplicativo nativo do Azure Active Directory.
 2. Atribua a permissão desejada ao aplicativo.
-3. Obtenha um token de segurança usando as credenciais do usuário para o aplicativo.
-4. Use o token para acessar a API do Microsoft 365 defender.
+3. Obter um token de segurança usando as credenciais do usuário para o aplicativo.
+4. Use o token para acessar a API do Microsoft 365 Defender.
 
-Para obter mais informações, consulte **[criar um aplicativo para acessar as APIs do Microsoft 365 defender em nome de um usuário](api-create-app-user-context.md)**.
+Para obter mais informações, consulte Criar um aplicativo para acessar as APIs do **[Microsoft 365 Defender em nome de um usuário.](api-create-app-user-context.md)**
 
 ## <a name="partner-context"></a>Contexto de parceiro
 
-Use este contexto quando precisar fornecer um aplicativo a muitos usuários em [vários locatários](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps).
+Use esse contexto quando precisar fornecer um aplicativo para vários usuários em [vários locatários.](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps)
 
-1. Criar um aplicativo de vários locatários do Azure Active Directory.
+1. Crie um aplicativo multi-locatário do Azure Active Directory.
 2. Atribua a permissão desejada ao aplicativo.
-3. Obter o [consentimento do administrador](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) para o aplicativo de cada locatário.
+3. Obter [consentimento do administrador](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) para o aplicativo de cada locatário.
 4. Obter um token de segurança usando credenciais de usuário com base na ID de locatário do cliente.
-5. Use o token para acessar a API do Microsoft 365 defender.
+5. Use o token para acessar a API do Microsoft 365 Defender.
 
-Para obter mais informações, consulte **[criar um aplicativo com acesso de parceiro às APIs do Microsoft 365 defender](api-partner-access.md)**.
+Para saber mais, confira **[Criar um aplicativo com acesso de parceiro às APIs do Microsoft 365 Defender.](api-partner-access.md)**
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral das APIs do Microsoft 365 defender](api-overview.md)
-- [Autorização OAuth 2,0 para entrada de usuário e acesso à API](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [Visão geral das APIs do Microsoft 365 Defender](api-overview.md)
+- [Autorização do OAuth 2.0 para entrada do usuário e acesso à API](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 - [Gerenciar segredos em seus aplicativos de servidor com o Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
-- [Criar um aplicativo de "Hello World" que acessa as APIs do Microsoft 365](api-hello-world.md)
+- [Criar um aplicativo "Hello world" que acesse as APIs do Microsoft 365](api-hello-world.md)

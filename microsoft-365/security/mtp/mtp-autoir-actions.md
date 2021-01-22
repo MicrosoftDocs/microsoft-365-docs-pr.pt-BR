@@ -3,7 +3,7 @@ title: Aprovar ou rejeitar ações pendentes após uma investigação automatiza
 description: Use a Central de Ações para gerenciar ações relacionadas a investigações e respostas automáticas
 keywords: ação, central, investigação e resposta automáticas, automação, investigação, resposta, correção
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 12/09/2020
-ms.openlocfilehash: b34f4a532571d6215500ab2bec022489fd462d0f
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: 3776dea4a5a24f4695a5c617325af14f1f03494f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683353"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930373"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Aprovar ou rejeitar ações pendentes após uma investigação automatizada
 
@@ -39,12 +40,12 @@ ms.locfileid: "49683353"
 Quando uma investigação automatizada é executada, pode resultar em uma ou mais [ações de correção ](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) que exigem aprovação para prosseguir. Por exemplo, um cluster de mensagens de email pode precisar ser excluído, ou talvez seja necessário remover um arquivo em quarentena. É importante aprovar (ou rejeitar) ações pendentes o mais rápido possível, para que suas investigações automatizadas possam prosseguir e ser concluídas a tempo. 
 
 > [!TIP]
-> Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados no Microsoft 365 defender, vamos nos lembrar! Confira [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft 365 defender](mtp-autoir-report-false-positives-negatives.md).
+> Se você acha que algo foi perdido ou detectado incorretamente pelos recursos de investigação e resposta automatizados no Microsoft 365 Defender, nos avise! Veja como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta [(AIR) no Microsoft 365 Defender.](mtp-autoir-report-false-positives-negatives.md)
 
-Ações pendentes podem ser revisadas e aprovadas usando a [central de ações](#review-a-pending-action-in-the-action-center) ou o [modo de exibição detalhes da investigação](#review-a-pending-action-in-the-investigation-details-view).
+Ações pendentes podem ser revisadas e aprovadas usando a Central [de ações](#review-a-pending-action-in-the-action-center) ou a [exibição de detalhes da investigação.](#review-a-pending-action-in-the-investigation-details-view)
 
 > [!NOTE]
-> Você deve ter [permissões apropriadas](mtp-action-center.md#required-permissions-for-action-center-tasks) para aprovar ou rejeitar ações de correção. Para obter mais informações, consulte [pré-requisitos para investigação e resposta automatizadas no Microsoft 365 defender](mtp-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender).
+> Você deve ter [permissões apropriadas](mtp-action-center.md#required-permissions-for-action-center-tasks) para aprovar ou rejeitar ações de correção. Para saber mais, confira Pré-requisitos para investigação e resposta [automatizadas no Microsoft 365 Defender.](mtp-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
 
 ## <a name="review-a-pending-action-in-the-action-center"></a>Revisar uma ação pendente na Central de Ações
 
@@ -66,7 +67,31 @@ Ações pendentes podem ser revisadas e aprovadas usando a [central de ações](
 
 2. Selecione um item na lista e, em seguida, escolha **Aprovar** ou **Rejeitar**.
 
+## <a name="undo-completed-actions"></a>Desfazer ações concluídas
+
+Se você tiver determinado que um dispositivo ou um arquivo não é uma ameaça, poderá desfazer ações de correção que foram tomadas, se essas ações foram realizadas automaticamente ou manualmente. Na Central de ações, na guia **Histórico,** você pode desfazer qualquer uma das seguintes ações:  
+
+| Origem da ação | Ações com suporte |
+|:---|:---|
+| - Investigação automatizada <br/>- Microsoft Defender Antivírus <br/>- Ações de resposta manual | - Isolar dispositivo <br/>- Restringir a execução de código <br/>- Colocar um arquivo em quarentena <br/>- Remover uma chave do Registro <br/>- Parar um serviço <br/>- Desabilitar um driver <br/>- Remover uma tarefa agendada |
+
+### <a name="to-undo-a-remediation-action"></a>Para desfazer uma ação de correção
+
+1. Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
+
+2. Na guia **Histórico,** selecione uma ação que você deseja desfazer.
+
+3. No painel no lado direito da tela, selecione **Desfazer**.
+
+### <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Para remover um arquivo da quarentena em vários dispositivos 
+
+1. Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
+
+2. Na guia **Histórico,** selecione um arquivo que tenha o arquivo de quarentena do tipo **Ação.**
+
+3. No painel no lado direito da tela, selecione Aplicar a **X mais instâncias** deste arquivo e selecione **Desfazer.**
+
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Exibir os detalhes e resultados de uma investigação automatizada](mtp-autoir-results.md)
-- [Lidar com falsos positivos/negativos em recursos de investigação e resposta automatizados](mtp-autoir-report-false-positives-negatives.md)
+- [Lidar com falsos positivos/negativos em recursos automatizados de investigação e resposta](mtp-autoir-report-false-positives-negatives.md)

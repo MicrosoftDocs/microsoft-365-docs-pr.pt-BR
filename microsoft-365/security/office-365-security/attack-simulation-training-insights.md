@@ -5,18 +5,19 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem saber como o treinamento de simulação de ataque no centro de segurança do Microsoft 365 afeta os funcionários e pode obter informações sobre os resultados de simulação e treinamento.
-ms.openlocfilehash: baff6032f295b2b49b4f2ec9280fb465d47b8dc3
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.technology: mdo
+ms.openlocfilehash: b7fd414cc355e768077198eb5215720c4d4a9444
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877132"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933061"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Obter insights por meio do treinamento de simulação de Ataque
 
@@ -26,17 +27,17 @@ Estamos trabalhando continuamente para expandir as informações disponíveis pa
 
 ## <a name="behavior-impact-on-compromise-rate"></a>Impacto do comportamento na taxa de comprometimento
 
-Na guia **Visão geral do** treinamento de simulação de ataque, você encontrará o impacto do comportamento no cartão de taxa **de** comprometimento. Este cartão mostra como os funcionários lidaram com as simulações que você fez em contraste com a taxa **de comprometimento prevista.** Você pode usar essas informações para controlar o progresso da prontidão contra ameaças dos funcionários executando várias simulações nos mesmos grupos de funcionários.
+Na guia **Visão geral** do treinamento de simulação de ataque, você encontrará o impacto do comportamento no cartão de **taxa de** comprometimento. Este cartão mostra como os funcionários lidam com as simulações que você fez em contraste com a **taxa de comprometimento prevista.** Você pode usar essas informações para controlar o progresso da prontidão contra ameaças dos funcionários executando várias simulações nos mesmos grupos de funcionários.
 
 No gráfico, você pode ver:
 
 - **Taxa de** comprometimento prevista que reflete a taxa média de comprometimento para simulações usando o mesmo tipo de carga em outros locatários do Microsoft 365 que usam treinamento de simulação de ataque.
-- **A taxa de comprometimento** real reflete a porcentagem de funcionários que ficaram inocentados para a simulação.
+- **A taxa de comprometimento** real reflete a porcentagem de funcionários que ficaram sem tempo para a simulação.
 
-Além disso, reflete a diferença entre o número real de funcionários comprometidos pelo ataque e a `<number> less susceptible to phishing` taxa de comprometimento prevista. É menos provável que esse número de funcionários seja comprometido por ataques semelhantes no futuro, enquanto indica como os funcionários fizeram em geral em contraste com a taxa de `<percent%> better than predicted rate` comprometimento prevista.
+Além disso, reflete a diferença entre o número real de funcionários comprometidos pelo ataque e a `<number> less susceptible to phishing` taxa de comprometimento prevista. Esse número de funcionários tem menos probabilidade de ser comprometido por ataques semelhantes no futuro, enquanto indica como os funcionários fizeram em geral em contraste com a taxa de `<percent%> better than predicted rate` comprometimento prevista.
 
 > [!div class="mx-imgBorder"]
-> ![Visão geral do cartão de impacto do comportamento no treinamento de simulação de ataques](../../media/attack-sim-preview-behavior-impact-card.png)
+> ![Visão geral do cartão de impacto do comportamento no treinamento de simulação de ataque](../../media/attack-sim-preview-behavior-impact-card.png)
 
 Para ver um relatório mais detalhado, clique em Exibir simulações **e relatório de treinamento.** Esse relatório fornece as mesmas informações com contexto adicional da própria simulação (por exemplo, técnica de simulação e total de usuários direcionados).
 
@@ -51,7 +52,7 @@ A seção de ações recomendadas detalha as recomendações conforme disponíve
 
 ## <a name="related-links"></a>Links relacionados
 
-[Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md)
+[Começar a usar o Treinamento de simulação de ataque](attack-simulation-training-get-started.md)
 
 [Criar uma simulação de ataque de phishing](attack-simulation-training.md)
 

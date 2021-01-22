@@ -1,7 +1,7 @@
 ---
 title: Políticas de acesso a identidades e dispositivos para permitir acesso B2B a usuários convidados e externos - Microsoft 365 para empresas | Microsoft Docs
 description: Descreve o Acesso Condicional recomendado e as políticas relacionadas para proteger o acesso de convidados e usuários externos.
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.topic: article
 ms.author: josephd
 author: JoeDavies-MSFT
@@ -17,18 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 4ee6cb93e5c943d704950e28ba4dc70a246429a6
-ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
+ms.technology: mdo
+ms.openlocfilehash: 2ef494f8e383f50f16b1e64f6387b6e5d62459c4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49845071"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932605"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Políticas para permitir acesso de convidados e acesso de usuário externo B2B
 
-Este artigo discute o ajuste das políticas de acesso de identidade e dispositivo recomendadas para permitir o acesso a convidados e usuários externos que tenham uma conta do Azure Active Directory (Azure AD) Business para Empresas (B2B). Essa orientação se baseia nas políticas [comuns de acesso a dispositivos e identidades.](identity-access-policies.md)
+Este artigo discute o ajuste das políticas de acesso de identidade e dispositivo recomendadas para permitir o acesso a convidados e usuários externos que tenham uma conta do Azure Active Directory (Azure AD) Entre Empresas (B2B). Essa orientação se baseia nas políticas comuns de acesso a dispositivos [e identidades.](identity-access-policies.md)
 
-Essas recomendações foram projetadas para se aplicar à camada **de linha de** base de proteção. Mas você também pode ajustar as recomendações com base em suas necessidades específicas de **proteção altamente** **controlada e** sensível.
+Essas recomendações foram projetadas para se aplicar à camada **de linha de base** de proteção. Mas você também pode ajustar as recomendações com base em suas necessidades específicas de **proteção** altamente **controlada e** sensível.
 
 Fornecer um caminho para contas B2B autenticar com seu locatário do Azure AD não dá a essas contas acesso a todo o seu ambiente. Os usuários B2B e suas contas têm acesso a serviços e recursos, como arquivos, compartilhados com eles pela política de Acesso Condicional.
 
@@ -44,7 +45,7 @@ A tabela a seguir lista as políticas que você precisa criar e atualizar. As po
 
 |Nível de Proteção|Políticas|Mais informações|
 |---|---|---|
-|**Baseline**|[Exigir MFA sempre para convidados e usuários externos](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Crie essa nova política e configure: <ul><li>For **Assignments > Users and groups > Include**, choose Select users and **groups**, and then select All guest and **external users**.</li><li>Para **Atribuições > condições > entrar,** deixe todas as opções desmarcadas para sempre impor a autenticação multifatória (MFA).</li></ul>|
+|**Baseline**|[Exigir MFA sempre para convidados e usuários externos](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Crie essa nova política e configure: <ul><li>For **Assignments > Users and groups > Include**, choose Select users and **groups**, and then select All guest and **external users**.</li><li>Para **Atribuições > condições > entrar,** deixe todas as opções desmarcadas para sempre impor a MFA (autenticação multifatória).</li></ul>|
 ||[Exigir MFA quando o risco de login for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Modifique essa política para excluir convidados e usuários externos.|
 ||[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Modifique essa política para excluir convidados e usuários externos.|
 
@@ -74,7 +75,7 @@ Essa política solicita que os convidados se registrem para a MFA em seu locatá
 
 Embora as organizações possam impor políticas baseadas em risco para usuários B2B usando o Azure AD Identity Protection, há limitações na implementação do Azure AD Identity Protection para usuários de colaboração B2B em um diretório de recursos devido à sua identidade existente em seu diretório base. Devido a essas limitações, a Microsoft recomenda que você exclua convidados de políticas de MFA baseadas em risco e exige que esses usuários sempre usem a MFA.
 
-Para obter mais informações, [consulte Limitações da Proteção de Identidade para usuários de colaboração B2B.](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users)
+Para obter mais informações, consulte [Limitações da Proteção de Identidade para usuários de colaboração B2B.](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users)
 
 ### <a name="excluding-guests-and-external-users-from-device-management"></a>Excluindo convidados e usuários externos do gerenciamento de dispositivos
 

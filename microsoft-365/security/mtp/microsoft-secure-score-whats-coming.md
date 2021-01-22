@@ -1,8 +1,8 @@
 ---
-title: O que está chegando à pontuação segura da Microsoft
-description: Descreve quais novas alterações estão chegando à pontuação segura da Microsoft na central de segurança do Microsoft 365.
-keywords: Pontuação segura da Microsoft, Pontuação segura, Pontuação segura do Office 365, pontuação de segurança da Microsoft, centro de segurança da Microsoft 365, ações de melhoria
-ms.prod: microsoft-365-enterprise
+title: O que está chegando ao Microsoft Secure Score
+description: Descreve quais novas alterações estão chegando ao Microsoft Secure Score no centro de segurança do Microsoft 365.
+keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center, improvement actions
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,22 +17,23 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0693e70cdd5636ce655a400a48aac65197327291
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: f7a0dfa3e95321ddd85a56fc32f2d36e72c6b80b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49737948"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930601"
 ---
-# <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à pontuação segura da Microsoft
+# <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando ao Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-A pontuação segura da Microsoft pode ser encontrada em https://security.microsoft.com/securescore na [central de segurança do Microsoft 365](overview-security-center.md).
+O Microsoft Secure Score pode ser encontrado https://security.microsoft.com/securescore no centro de segurança do Microsoft [365.](overview-security-center.md)
 
 ## <a name="proposed-changes"></a>Alterações propostas
 
-Estamos fazendo algumas alterações em um futuro próximo para tornar a [Pontuação segura da Microsoft](microsoft-secure-score.md) um representante melhor da sua postura de segurança e melhorar a usabilidade. Sua pontuação e a pontuação máxima possível podem ser alteradas.
+Estamos fazendo algumas alterações em um futuro próximo para tornar o [Microsoft Secure Score](microsoft-secure-score.md) um representante melhor da postura de segurança e melhorar a usabilidade. Sua pontuação e a pontuação máxima possível podem mudar.
 
 ### <a name="no-planned-changes"></a>Nenhuma alteração planejada
 
@@ -40,7 +41,7 @@ Não há alterações planejadas no momento.
 
 ## <a name="related-resources"></a>Recursos relacionados
 
-- [Visão geral da Pontuação segura da Microsoft](microsoft-secure-score.md)
+- [Visão geral do Microsoft Secure Score](microsoft-secure-score.md)
 - [Avaliar sua postura de segurança](microsoft-secure-score-improvement-actions.md)
-- [Acompanhar o histórico de Pontuação segura da Microsoft e atingir as metas](microsoft-secure-score-history-metrics-trends.md)
+- [Acompanhar o histórico do Microsoft Secure Score e cumprir as metas](microsoft-secure-score-history-metrics-trends.md)
 - [Novidades](microsoft-secure-score-whats-new.md)

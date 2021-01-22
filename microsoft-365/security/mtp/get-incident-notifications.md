@@ -3,7 +3,7 @@ title: Obter notificações de incidentes no Microsoft 365 Defender
 description: Saiba como criar regras para receber notificações por email sobre incidentes no Microsoft 365 Defender
 keywords: incidente, email, notações de email, configurar, usuários, caixa de correio, email, incidentes
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f25be4de3f25db869957474c3cb32b20e9f7aa53
-ms.sourcegitcommit: 88d358d778804b26d5e41c53b4f725d01a78112b
+ms.technology: m365d
+ms.openlocfilehash: 9db025818fdd5eb2635a9a676e4a10e20f3036b6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49848886"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930973"
 ---
 # <a name="get-incident-notifications-by-email"></a>Obter notificações de incidentes por email
 
@@ -57,19 +58,19 @@ Para configurar sua primeira notificação por email para incidentes, crie uma n
 3. Dê um nome à regra em **Nome e** fornecer uma **Descrição.**
 
     ![Criar janela de regra para notifica o email de incidente](../../media/incidentemailnotif1.png) 
-4. Selecione **Próximo** para ir para **configurações de Notificação.** Aqui você pode especificar:
+4. Selecione **Próximo** para ir para **configurações de notificação.** Aqui você pode especificar:
     - **Gravidade do alerta** - Escolha a gravidade do alerta que disparará uma notificação de incidente. Por exemplo, se você quiser apenas ser informado sobre incidentes de alta gravidade, selecione Alta.
     - **Escopo do grupo de** dispositivos - Essa lista suspenso exibe todos os grupos de dispositivos que o usuário pode acessar. Selecione para quais grupos de dispositivos você está criando as regras de notificação de incidentes.
     - **Notificar somente na primeira ocorrência por incidente-** Selecionar essa opção enviará uma notificação por email somente no primeiro alerta que corresponde às outras seleções. Atualizações ou alertas posteriores relacionados ao incidente não dispararão uma notificação.
     - **Incluir nome da** organização - Indica se o nome do cliente aparece na notificação por email ou não.
-    - **Inclua um link de portal específico do locatário:** adiciona um link com a ID de locatário para permitir o acesso a um locatário específico.
+    - **Inclua um link de portal específico do locatário** : adiciona um link com a ID de locatário para permitir o acesso a um locatário específico.
     
     ![Notif settings window for incident email notifs](../../media/incidentemailnotif2.png)
 5. Selecione **Próximo** para ir na **seção Destinatários.** Aqui você pode especificar endereços de email que receberão as notificações por email de incidente. Selecione **Adicionar um destinatário depois** de digitar cada endereço de email.
 
     ![Janela Adicionar destinatários para notifica o email de incidente](../../media/incidentemailnotif3.png) 
 
-6. Por fim, **selecione Próximo** para ir **para a** regra revisão para que você possa ver todas as configurações associadas à sua nova regra. Os destinatários começarão a receber notificações de incidentes por email com base nas configurações.
+6. Por fim, **selecione Próximo** a Ir **para Revisão para** que você possa ver todas as configurações associadas à nova regra. Os destinatários começarão a receber notificações de incidentes por email com base nas configurações.
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral de incidentes no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)

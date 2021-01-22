@@ -1,10 +1,10 @@
 ---
-title: Configurar o laboratório de avaliação do Microsoft 365 defender ou o ambiente piloto
-description: Acessar a central de segurança do Microsoft 365 configure seu ambiente de laboratório de avaliação do Microsoft 365 defender
-keywords: Configuração de avaliação do Microsoft Threat Protection, configuração do piloto do Microsoft Threat Protection, experimente proteção contra ameaças da Microsoft, configuração do laboratório de avaliação de proteção contra ameaças da Microsoft
+title: Configurar seu laboratório de avaliação ou ambiente piloto do Microsoft 365 Defender
+description: Acessar a Central de Segurança do Microsoft 365 e configurar seu ambiente de laboratório de avaliação do Microsoft 365 Defender
+keywords: Configuração de avaliação da Proteção contra Ameaças da Microsoft, configuração piloto da Proteção contra Ameaças da Microsoft, experimentar a Proteção contra Ameaças da Microsoft, configuração do laboratório de avaliação da Proteção contra Ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: w10
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -18,14 +18,15 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 503b7a6a6b3ad6394293e9f70dbdd336f6bee9dd
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.technology: m365d
+ms.openlocfilehash: 835adc5c2bf9fd1c9a14c2d53b17a032a89a6240
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131304"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932977"
 ---
-# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Configurar seu ambiente de laboratório de avaliação do Microsoft 365 defender 
+# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Configurar seu ambiente de laboratório de avaliação do Microsoft 365 Defender 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,129 +35,129 @@ ms.locfileid: "49131304"
 - Microsoft 365 Defender 
 
 
-Criar um laboratório de avaliação do Microsoft 365 defender ou um ambiente piloto e implantá-lo é um processo de três fases:
+Criar um laboratório de avaliação ou ambiente piloto do Microsoft 365 Defender e implantá-lo é um processo de três fases:
 
-|[![Fase 1: preparar](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)<br/>[Fase 1: preparar](prepare-mtpeval.md) |![Fase 2: configurar](../../media/phase-diagrams/setup.png)<br/>Fase 2: configurar |[![Fase 3: integração](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[Fase 3: integração](config-mtpeval.md) | [![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Voltar ao manual do piloto](mtp-pilot.md) |
+|[![Fase 1: Preparar](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)<br/>[Fase 1: Preparar](prepare-mtpeval.md) |![Fase 2: Configurar](../../media/phase-diagrams/setup.png)<br/>Fase 2: Configurar |[![Fase 3: Integração](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[Fase 3: Integração](config-mtpeval.md) | [![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Voltar ao manual piloto](mtp-pilot.md) |
 |--|--|--|--|
 ||*Você está aqui!*  | | |
 
 
-Você está atualmente na fase de configuração. Execute as etapas iniciais para acessar o centro de segurança do Microsoft 365 e configure seu laboratório de avaliação ou ambiente piloto.
+Você está atualmente na fase de configuração. Tome as etapas iniciais para acessar a Central de Segurança do Microsoft 365 e, em seguida, configurar seu laboratório de avaliação ou ambiente piloto.
 
-Inscreva-se para uma assinatura do Office 365 ou do Azure Active Directory para gerar um locatário *. onmicrosoft.com* que você pode usar para se inscrever na sua licença do Microsoft 365 e5. 
+Inscreva-se em uma assinatura do Office 365 ou do Azure Active Directory para gerar um locatário *.onmicrosoft.com* que você pode usar para se inscrever em sua licença do Microsoft 365 E5. 
 
 >[!NOTE]
->Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de avaliação do Office 365 E5 ou de criação do locatário piloto.
+>Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de avaliação ou criação de locatário piloto do Office 365 E5.
 
 Nesta fase, você será orientado a:
-- Criar um locatário de avaliação do Office 365 e5
+- Criar um locatário de avaliação do Office 365 E5
 - Habilitar a assinatura de avaliação do Microsoft 365
 
 
-## <a name="create-an-office-365-e5-trial-tenant"></a>Criar um locatário de avaliação do Office 365 e5
+## <a name="create-an-office-365-e5-trial-tenant"></a>Criar um locatário de avaliação do Office 365 E5
 >[!NOTE]
->Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de criação do locatário de avaliação do Office 365 e5.
+>Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, ignore as etapas de criação do locatário de avaliação do Office 365 E5.
 
-1. Vá para o [portal de produto do Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) e selecione **avaliação gratuita**.
+1. Vá para o [portal do produto do Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) e selecione **Avaliação gratuita.**
 
-   ![Página de avaliação gratuita de imagem of_Office 365 e5](../../media/mtp-eval-9.png)
+   ![Imagem of_Office de avaliação gratuita do 365 E5](../../media/mtp-eval-9.png)
   
-2. Conclua o registro de avaliação inserindo seu endereço de email (pessoal ou corporativo). Clique em **configurar conta**.
+2. Conclua o registro de avaliação inserindo seu endereço de email (pessoal ou corporativo). Clique **em Configurar conta.**
 
-   ![Página de configuração de registro de avaliação 365 E5 de imagem of_Office](../../media/mtp-eval-10.png)
+   ![Imagem of_Office de configuração de registro de avaliação do 365 E5](../../media/mtp-eval-10.png)
 
 3. Preencha seu nome, sobrenome, número de telefone comercial, nome da empresa, tamanho da empresa e país ou região.  
 
-   ![Imagem of_Office 365 E5 página de configuração de registro de avaliação para solicitar o nome, telefone e detalhes da empresa](../../media/mtp-eval-11.png)
+   ![Imagem of_Office de configuração de registro de avaliação do 365 E5 solicitando nome, telefone e detalhes da empresa](../../media/mtp-eval-11.png)
    
    > [!NOTE]
-   > O país ou a região definida aqui determina a região do Data Center em que o Office 365 será hospedado.
+   > O país ou região definida aqui determina a região do data center que seu Office 365 será hospedado.
   
-4. Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada. Clique em **enviar código de verificação**. 
+4. Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada. Clique **em Enviar Código de Verificação.** 
 
-   ![Imagem of_Office 365 E5 página de configuração de registro de avaliação solicitando preferência de verificação](../../media/mtp-eval-12.png)
+   ![Imagem of_Office de configuração de registro de avaliação do 365 E5 solicitando a preferência de verificação](../../media/mtp-eval-12.png)
 
-5. Defina o nome de domínio personalizado para o seu locatário e clique em **Avançar**.
+5. De definir o nome de domínio personalizado para seu locatário e clique em **Próximo.**
 
-   ![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode configurar seu nome de domínio personalizado](../../media/mtp-eval-13.png)
+   ![Imagem of_Office de configuração de registro de avaliação do 365 E5 onde você pode configurar seu nome de domínio personalizado](../../media/mtp-eval-13.png)
  
-6. Configure a primeira identidade, que será um administrador global para o locatário. Insira o **nome** e a **senha**. Clique em **inscrever-se**.
+6. Configurar a primeira identidade, que será um Administrador Global para o locatário. Preencha Nome **e** **Senha.** Clique **em Inscrever-se.**
 
-   ![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode definir sua identidade comercial](../../media/mtp-eval-14.png)
+   ![Imagem of_Office de configuração de registro de avaliação do 365 E5 onde você pode definir sua identidade comercial](../../media/mtp-eval-14.png)
 
-7. Clique em **ir para configuração** para concluir o provisionamento do locatário de avaliação do Office 365 e5.
+7. Clique **em Ir para a Instalação** para concluir o provisionamento de locatário de avaliação do Office 365 E5.
 
-   ![Imagem da página de configuração do registro de avaliação do Office 365 E5 solicitando o clique no botão configuração do Go](../../media/mtp-eval-15.png)
+   ![Imagem da página de configuração de registro de avaliação do Office 365 E5 solicitando clicar no botão Configurar](../../media/mtp-eval-15.png)
 
-8. Conecte seu domínio corporativo ao locatário do Office 365. Opcion Escolha **conectar um domínio que você já possui** e digite o nome do seu domínio. Clique em **Avançar**.
+8. Conecte seu domínio corporativo ao locatário do Office 365. [Opcional] Escolha **Conectar um domínio que você já possui** e digite seu nome de domínio. Clique em **Avançar**.
 
-   ![Página de configuração de imagem of_Office 365 E5 onde você deve personalizar sua entrada e email](../../media/mtp-eval-16.png)
+   ![Imagem of_Office da Instalação do 365 E5 na qual você deve personalizar sua inscrição e email](../../media/mtp-eval-16.png)
  
-9. Adicione um registro TXT ou MX para validar a propriedade do domínio. Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **verificar**.
+9. Adicione um registro TXT ou MX para validar a propriedade do domínio. Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **Verificar.**
 
-   ![Página de imagem of_Office 365 E5 onde você deve adicionar um TXT do registro MX para verificar seu domínio](../../media/mtp-eval-17.png)
+   ![Imagem of_Office de instalação do 365 E5 em que você deve adicionar um TXT de registro MX para verificar seu domínio](../../media/mtp-eval-17.png)
  
-10. Opcion Criar mais contas de usuário para o locatário. Você pode ignorar essa etapa clicando em **Avançar**.
+10. [Opcional] Crie mais contas de usuário para seu locatário. You can skip this step by clicking **Next**.
 
-    ![Página de configuração de imagem of_Office 365 E5 onde você pode adicionar mais usuários](../../media/mtp-eval-18.png)
+    ![Imagem of_Office de instalação do 365 E5 onde você pode adicionar mais usuários](../../media/mtp-eval-18.png)
  
-11. Opcion Baixar aplicativos do Office. Clique em **Avançar** para ignorar esta etapa. 
+11. [Opcional] Baixe os aplicativos do Office. Clique **em Next** para ignorar esta etapa. 
 
-    ![Página de imagem of_Office 365 E5 onde você pode instalar seus aplicativos do Office](../../media/mtp-eval-19.png)
+    ![Imagem of_Office 365 E5 onde você pode instalar seus aplicativos do Office](../../media/mtp-eval-19.png)
 
-12. Opcion Migrar mensagens de email. Novamente, você pode ignorar esta etapa.
+12. [Opcional] Migrar mensagens de email. Novamente, você pode ignorar esta etapa.
 
-    ![Image of_Office 365 E5 onde você pode definir se deseja migrar mensagens de email ou não](../../media/mtp-eval-20.png)
+    ![Imagem of_Office 365 E5 onde você pode definir se deve migrar mensagens de email ou não](../../media/mtp-eval-20.png)
  
-13. Escolha serviços online. Selecione **Exchange** e clique em **Avançar**. 
+13. Escolha serviços online. Selecione **Exchange** e clique em **Próximo**. 
 
     ![Imagem of_Office 365 E5 onde você pode escolher seus serviços online](../../media/mtp-eval-21.png)
 
-14. Adicionar registros MX, CNAME e TXT ao seu domínio. Quando concluído, selecione **verificar**.
+14. Adicione registros MX, CNAME e TXT ao seu domínio. Quando concluir, selecione **Verificar**.
 
-    ![Imagem of_Office 365 E5 aqui você pode adicionar seus registros DNS](../../media/mtp-eval-22.png)
+    ![Imagem of_Office 365 E5 aqui, você pode adicionar seus registros DNS](../../media/mtp-eval-22.png)
  
 15. Parabéns, você concluiu o provisionamento do seu locatário do Office 365.
 
-    ![Página de confirmação de conclusão da instalação da of_Office 365 e5](../../media/mtp-eval-23.png)
+    ![Imagem of_Office de confirmação de conclusão da instalação do 365 E5](../../media/mtp-eval-23.png)
 
 ## <a name="enable-microsoft-365-trial-subscription"></a>Habilitar a assinatura de avaliação do Microsoft 365
 
 >[!NOTE]
->Inscrever-se em uma avaliação oferece 25 licenças de usuário para usar por mês. Consulte [tentar ou comprar uma assinatura do M365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) para obter detalhes.
+>Inscrever-se para uma avaliação oferece 25 licenças de usuário para usar por um mês. Confira [Experimentar ou Comprar uma assinatura do M365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) para obter detalhes.
 
-1. No [centro de administração do Microsoft 365](https://admin.microsoft.com/), clique em **cobrança** e navegue até **serviços de compra**.
+1. No Centro de Administração do [Microsoft 365,](https://admin.microsoft.com/)clique **em Cobrança** e navegue até **Comprar serviços.**
 
-2. Selecione **Microsoft 365 E5** e clique em **Iniciar avaliação gratuita**. 
+2. Selecione **o Microsoft 365 E5 e clique em** Iniciar **avaliação gratuita.** 
 
-   ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita](../../media/mtp-eval-24.png)
+   ![Imagem of_Microsoft de avaliação gratuita do 365 E5](../../media/mtp-eval-24.png)
 
-3. Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada. Depois de decidir, insira o número de telefone, selecione o **texto me** ou **telefonar para mim** , dependendo da seleção.
+3. Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada. Depois de decidir, digite o número de telefone, selecione **Texto-me** ou **Ligue-me** dependendo da sua seleção.
 
-   ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita solicitando detalhes do contato para enviar código para provar que você não é um robô](../../media/mtp-eval-25.png)
+   ![Imagem of_Microsoft página iniciar avaliação gratuita do 365 E5 solicitando detalhes do contato para enviar código para provar que você não é um robô](../../media/mtp-eval-25.png)
  
-4. Insira o código de verificação e clique em **iniciar sua avaliação gratuita**.
+4. Insira o código de verificação e clique **em Iniciar sua avaliação gratuita.**
 
-   ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita onde você pode preencher o código de verificação o sistema enviado para provar que você não é um robô](../../media/mtp-eval-26.png)
+   ![Imagem of_Microsoft página iniciar avaliação gratuita do 365 E5 onde você pode preencher o código de verificação do sistema enviado para provar que você não é um robô](../../media/mtp-eval-26.png)
 
-5. Clique em **tentar agora** para confirmar sua avaliação do Microsoft 365 e5.
+5. Clique **em Experimentar agora** para confirmar sua avaliação do Microsoft 365 E5.
 
-   ![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita onde você deve registrar o botão experimentar agora para iniciar](../../media/mtp-eval-27.png)
+   ![Imagem of_Microsoft página iniciar avaliação gratuita do 365 E5 onde você deve relógio o botão Experimentar agora para iniciar](../../media/mtp-eval-27.png)
  
-6. Vá para o **centro de administração do Microsoft 365**  >  **usuários**  >  **ativos**. Selecione sua conta de usuário, selecione **gerenciar licenças de produto** e troque a licença do Office 365 E5 para a **Microsoft 365 E5**. Clique em **Salvar**.
+6. Vá para usuários ativos do Centro de Administração **do Microsoft 365.**  >    >   Selecione sua conta de usuário, selecione **Gerenciar licenças** de produto e, em seguida, troque a licença do Office 365 E5 para o **Microsoft 365 E5.** Clique em **Salvar**.
 
-   ![Imagem of_Microsoft 365 página de centro de administração onde você pode selecionar a licença do Microsoft 365 e5](../../media/mtp-eval-28.png)
+   ![Imagem of_Microsoft página do Centro de administração do 365 onde você pode selecionar a licença do Microsoft 365 E5](../../media/mtp-eval-28.png)
  
-7. Selecione a conta de administrador global novamente e, em seguida, clique em **gerenciar nome de usuário**.
+7. Selecione a conta de administrador global novamente e clique em Gerenciar nome **de usuário.**
 
-   ![Imagem of_Microsoft 365 página de centro de administração onde você pode selecionar Account e gerenciar username](../../media/mtp-eval-29.png)
+   ![Imagem of_Microsoft página do Centro de Administração do 365 onde você pode selecionar Conta e Gerenciar nome de usuário](../../media/mtp-eval-29.png)
 
-8. Opcion Altere o domínio de *onmicrosoft.com* para seu próprio domínio, dependendo do que você escolheu nas etapas anteriores. Clique em **Salvar alterações**.
+8. [Opcional] Altere o domínio *de onmicrosoft.com* para seu próprio domínio, dependendo do que você escolheu nas etapas anteriores. Clique em **Salvar alterações**.
 
-   ![Imagem of_Microsoft 365 página de centro de administração onde você pode alterar sua preferência de domínio](../../media/mtp-eval-30.png)
+   ![Imagem of_Microsoft página do Centro de administração do 365 onde você pode alterar sua preferência de domínio](../../media/mtp-eval-30.png)
 
 
 
 ## <a name="next-step"></a>Próxima etapa
-|[Fase 3: configurar o & integrado](config-mtpeval.md) | Configure cada pilar do Microsoft 365 defender para seu laboratório de avaliação do Microsoft 365 defender ou ambiente piloto e integração dos pontos de extremidade.
+|[Fase 3: Configurar o & Onboard](config-mtpeval.md) | Configure cada pilar do Microsoft 365 Defender para seu laboratório de avaliação ou ambiente piloto do Microsoft 365 Defender e a integração de seus pontos de extremidade.
 |:-------|:-----|

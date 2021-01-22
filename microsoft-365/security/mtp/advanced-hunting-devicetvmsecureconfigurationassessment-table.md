@@ -1,10 +1,10 @@
 ---
 title: Tabela DeviceTvmSecureConfigurationAssessment no esquema de busca avançada
-description: Saiba mais sobre eventos de avaliação de segurança na tabela DeviceTvmSecureConfigurationAssessment do esquema de busca avançada. Essas ameaças & eventos de gerenciamento de vulnerabilidade fornecem informações sobre o dispositivo, bem como detalhes da configuração de segurança, impacto e informações de conformidade.
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, ameaça & gerenciamento de vulnerabilidades, TVM, gerenciamento de dispositivos, configuração de segurança, DeviceTvmSecureConfigurationAssessment
+description: Saiba mais sobre os eventos de avaliação de segurança na tabela DeviceTvmSecureConfigurationAssessment do esquema de busca avançada. Esses eventos & gerenciamento de vulnerabilidades fornecem informações do dispositivo, bem como detalhes da configuração de segurança, impacto e informações de conformidade.
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, gerenciamento de vulnerabilidades do &, TVM, gerenciamento de dispositivos, configuração de segurança, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: bfe63397d194567a7d71de703363083d2fd4fe75
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 6924bbc7a88a4f32d97534c72a180a1f1c4f7db6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847603"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931093"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -32,7 +33,7 @@ ms.locfileid: "48847603"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 
 
@@ -43,7 +44,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `DeviceId` | string | Identificador exclusivo do dispositivo no serviço |
-| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7.|
 | `Timestamp` | datetime | Data e hora em que o registro foi gerado |
 | `ConfigurationId` | string | Identificador exclusivo para uma configuração específica |
@@ -51,16 +52,16 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `ConfigurationSubcategory` | string | Subcategoria ou subgrupo ao qual a configuração pertence. Em muitos casos, isso descreve capacidades ou recursos específicos. |
 | `ConfigurationImpact` | string | Impacto avaliado da configuração na classificação total (1-10) |
 | `IsCompliant` | booliano | Indica se a configuração ou política está configurada corretamente |
-| `IsApplicable` | booliano | Indica se a configuração ou política se aplica ao dispositivo |
-| `Context` | string | Informações contextuais adicionais sobre a configuração ou política |
-| `IsExpectedUserImpactCompliant` | booliano | Indica se haverá impacto no usuário se a configuração ou política for aplicada |
+| `IsApplicable` | booliano | Indica se a configuração ou a política se aplica ao dispositivo |
+| `Context` | string | Informações contextuais adicionais sobre a configuração ou a política |
+| `IsExpectedUserImpactCompliant` | booliano | Indica se haverá impacto no usuário se a configuração ou a política for aplicada |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Buscar proativamente por ameaças](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Buscar em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
 - [Visão geral do Gerenciamento de Vulnerabilidades e Ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

@@ -1,10 +1,10 @@
 ---
-title: Função AssignedIPAddresses () em busca avançada no Microsoft 365 defender
-description: Saiba como usar a função AssignedIPAddresses () para obter os endereços IP mais recentes atribuídos a um dispositivo
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, fileprofile, perfil de arquivo, função, enriquecimento
+title: Função AssignedIPAddresses() em busca avançada do Microsoft 365 Defender
+description: Saiba como usar a função AssignedIPAddresses() para obter os endereços IP mais recentes atribuídos a um dispositivo
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, FileProfile, perfil de arquivo, função, enriquecimento
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: cb9dffca148c95f284a6a7e920f3a08a839b748d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d16cd7efc49cc2498eff3f705bb43fa62f37d975
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847639"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933013"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -32,19 +33,19 @@ ms.locfileid: "48847639"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-Use a `AssignedIPAddresses()` função nas suas consultas de [busca avançada](advanced-hunting-overview.md) para obter rapidamente os endereços IP mais recentes que foram atribuídos a um dispositivo. Se você especificar um argumento timestamp, essa função obterá os endereços IP mais recentes no horário especificado. 
+Use a função nas consultas de busca avançada para obter rapidamente os endereços IP mais recentes `AssignedIPAddresses()` que foram atribuídos a um dispositivo. [](advanced-hunting-overview.md) Se você especificar um argumento timestamp, essa função obterá os endereços IP mais recentes no horário especificado. 
 
-Essa função retorna uma tabela com as seguintes colunas:
+Esta função retorna uma tabela com as seguintes colunas:
 
 | Coluna | Tipo de dados | Descrição |
 |------------|-------------|-------------|
-| `Timestamp` | datetime | Última hora em que o dispositivo foi observado usando o endereço IP |
+| `Timestamp` | datetime | Hora mais recente em que o dispositivo foi observado usando o endereço IP |
 | `IPAddress` | string | Endereço IP usado pelo dispositivo |
 | `IPType` | string | Indica se o endereço IP é um endereço público ou privado |
-| `NetworkAdapterType` | int | Tipo de adaptador de rede usado pelo dispositivo que foi atribuído ao endereço IP. Para obter os valores possíveis, consulte [essa enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
-| `ConnectedNetworks` | int | Redes às quais o adaptador com o endereço IP atribuído está conectado. Cada matriz JSON contém o nome da rede, a categoria (pública, particular ou o domínio), uma descrição e um sinalizador que indica se ele está conectado publicamente à Internet |
+| `NetworkAdapterType` | int | Tipo de adaptador de rede usado pelo dispositivo ao qual foi atribuído o endereço IP. Para os valores possíveis, consulte [esta enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `ConnectedNetworks` | int | Redes às que o adaptador com o endereço IP atribuído está conectado. Cada matriz JSON contém o nome da rede, categoria (público, privado ou domínio), uma descrição e um sinalizador indicando se ele está conectado publicamente à Internet |
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -54,19 +55,19 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Argumentos
 
-- **x** — `DeviceId` ou `DeviceName` Value identificando o dispositivo
-- valor **y** – `Timestamp` (DateTime) instruindo a função para obter os endereços IP atribuídos mais recentes de um horário específico. Se não for especificado, a função retornará os endereços IP mais recentes.
+- **x**— `DeviceId` ou valor que identifica o `DeviceName` dispositivo
+- **y**— valor (datetime) instruindo a função a obter os endereços IP atribuídos mais `Timestamp` recentes de um horário específico. Se não for especificada, a função retornará os endereços IP mais recentes.
 
 ## <a name="examples"></a>Exemplos
 
-### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>Obter a lista de endereços IP usados por um dispositivo 24 horas atrás
+### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>Obter a lista de endereços IP usados por um dispositivo há 24 horas
 
 ```kusto
 AssignedIPAddresses('example-device-name', ago(1d))
 ```
 
 ### <a name="get-ip-addresses-used-by-a-device-and-find-devices-communicating-with-it"></a>Obter endereços IP usados por um dispositivo e encontrar dispositivos se comunicando com ele
-Essa consulta usa a `AssignedIPAddresses()` função para obter endereços IP atribuídos para o dispositivo ( `example-device-name` ) em ou antes de uma data específica ( `example-date` ). Em seguida, ele usa os endereços IP para localizar conexões com o dispositivo iniciado por outros dispositivos. 
+Essa consulta usa a função para obter endereços IP atribuídos para o dispositivo `AssignedIPAddresses()` ( ) em ou antes de uma data específica ( `example-device-name` `example-date` ). Em seguida, ele usa os endereços IP para encontrar conexões com o dispositivo iniciadas por outros dispositivos. 
 
 ```kusto
 let Date = datetime(example-date);

@@ -1,9 +1,9 @@
 ---
-title: Gerenciar incidentes no Microsoft 365 defender
+title: Gerenciar incidentes no Microsoft 365 Defender
 description: Saiba como atribuir, atualizar o status,
 keywords: incidente, incidentes, alertas, alertas correlacionados, atribuir, atualizar, status, gerenciar, classificação, microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,24 +21,25 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 29f55d99dd3acd26ae305c03b533e2ca9bb61f2a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 90d9d397b8baf0ffdb9844a0f068f142a5c7fd48
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846647"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930625"
 ---
-# <a name="manage-incidents-in-microsoft-365-defender"></a>Gerenciar incidentes no Microsoft 365 defender
+# <a name="manage-incidents-in-microsoft-365-defender"></a>Gerenciar incidentes no Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 
 
-Gerenciar incidentes é fundamental para garantir que as ameaças sejam contidas e tratadas. No Microsoft 365 defender, você tem acesso ao gerenciamento de incidentes em dispositivos, usuários e caixas de correio. 
+Gerenciar incidentes é fundamental para garantir que as ameaças sejam contidas e tratadas. No Microsoft 365 Defender, você tem acesso ao gerenciamento de incidentes em dispositivos, usuários e caixas de correio. 
 
 
 Você pode gerenciar incidentes selecionando um deles da **fila de incidentes**. 
@@ -48,14 +49,14 @@ Você pode editar o nome de um incidente, resolvê-lo e definir sua classificaç
 Em casos em que, durante uma investigação, você deseje migrar os alertas de um incidente para outro, você também pode fazer isso na guia Alertas, criando, assim, um incidente maior ou menor que inclua todos os alertas relevantes.
 
 ## <a name="edit-incident-name"></a>Editar o nome do incidente
-Os incidentes são atribuídos automaticamente a um nome baseado em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
+Os incidentes são atribuídos automaticamente com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
 
 Por exemplo: *incidente de vários estágios em vários pontos de extremidade relatados por várias fontes.*
 
 Você pode modificar o nome do incidente para um melhor alinhamento à sua convenção de nomenclatura preferencial.
 
 > [!NOTE]
-> Incidentes que existiam antes da distribuição do recurso de nomeação automática de incidentes manterão seus nomes.
+> Os incidentes que existiam antes da lançamento do recurso de nomenização automática de incidentes manterão seu nome.
 
 
 
@@ -64,7 +65,7 @@ Caso um incidente ainda não tenha sido atribuído, você poderá selecionar **A
 
 ## <a name="set-status-and-classification"></a>Definir o status e a classificação
 ### <a name="incident-status"></a>Status do incidente
-Você pode categorizar os incidentes (como **Ativo** ou **Resolvido** ) alterando o status deles durante sua investigação. Isso ajuda você a organizar e a gerenciar a maneira como sua equipe é capaz de responder a incidentes.
+Você pode categorizar os incidentes (como **Ativo** ou **Resolvido**) alterando o status deles durante sua investigação. Isso ajuda você a organizar e a gerenciar a maneira como sua equipe é capaz de responder a incidentes.
 
 Por exemplo, seu analista de SOC pode analisar os incidentes **Ativos** urgentes do dia e decidir atribuí-los a si mesmo para investigação.
 

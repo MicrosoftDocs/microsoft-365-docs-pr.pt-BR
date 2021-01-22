@@ -1,10 +1,10 @@
 ---
 title: Tabela DeviceEvents no esquema de busca avançada
-description: Saiba mais sobre antivírus, firewall e outros tipos de eventos na tabela diversos eventos de dispositivo (DeviceEvents) do esquema de busca avançada
-keywords: caça avançada, busca de ameaças, busca de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema Kusto, tabela, coluna, tipo de dados, eventos de segurança, antivírus, firewall, Exploit Guard, DeviceEvents
+description: Saiba mais sobre antivírus, firewall e outros tipos de eventos na tabela Eventos de dispositivo diversos (DeviceEvents) do esquema de busca avançada
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, eventos de segurança, antivírus, firewall, exploit guard, DeviceEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,27 +19,28 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: d3f00e506d34b4c82137f368c8c8f24e52b0247a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 536d95f7226ba907d913df58a47508e44b50147a
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843035"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931345"
 ---
-# <a name="deviceevents"></a>DeviceEvents
+# <a name="deviceevents"></a>Eventos do dispositivo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 
 
-Os diversos eventos de dispositivo ou `DeviceEvents` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre vários tipos de eventos, incluindo eventos disparados por controles de segurança, como o Windows Defender Antivirus e a proteção contra Exploit. Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela ou eventos diversos do dispositivo no esquema de busca avançada contém informações sobre vários tipos de eventos, incluindo eventos disparados por controles de segurança, como o Windows Defender Antivírus e o `DeviceEvents` Exploit Protection. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 
 >[!TIP]
-> Para obter informações detalhadas sobre os tipos de eventos ( `ActionType` valores) suportados por uma tabela, use a [referência de esquema interna](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) disponível na central de segurança.
+> Para obter informações detalhadas sobre os tipos de eventos (valores) com suporte em uma tabela, use a referência de esquema interna disponível na `ActionType` central de segurança. [](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center)
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -49,54 +50,54 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
 | `DeviceId` | string | Identificador exclusivo da máquina no serviço |
 | `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
-| `ActionType` | string | Tipo de atividade que disparou o evento. Consulte a [referência de esquema no portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) para obter detalhes |
+| `ActionType` | string | Tipo de atividade que disparou o evento. Consulte a [referência de esquema no portal para](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) obter detalhes |
 | `FileName` | string | Nome do arquivo ao qual a ação gravada foi aplicada |
-| `FolderPath` | string | Pasta que contém o arquivo para o qual a ação registrada foi aplicada |
+| `FolderPath` | string | Pasta que contém o arquivo ao que a ação gravada foi aplicada |
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
-| `MD5` | string | Hash MD5 do arquivo ao qual a ação registrada foi aplicada |
+| `MD5` | string | Hash MD5 do arquivo ao que a ação gravada foi aplicada |
 | `AccountDomain` | string | Domínio da conta |
 | `AccountName` | string | Nome de usuário da conta |
-| `AccountSid` | string | Identificador de segurança (SID) da conta |
+| `AccountSid` | string | Sid (Identificador de Segurança) da conta |
 | `RemoteUrl` | cadeia de caracteres | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
-| `RemoteDeviceName` | cadeia de caracteres | Nome do computador que executou uma operação remota na máquina afetada. Dependendo do evento que está sendo relatado, esse nome poderia ser um nome de domínio totalmente qualificado (FQDN), um nome NetBIOS ou um nome de host sem informações de domínio |
-| `ProcessId` | int | ID de processo (PID) do processo recém-criado |
+| `RemoteDeviceName` | cadeia de caracteres | Nome do computador que realizou uma operação remota no computador afetado. Dependendo do evento relatado, esse nome pode ser um nome de domínio totalmente qualificado (FQDN), um nome NetBIOS ou um nome de host sem informações de domínio |
+| `ProcessId` | int | ID do processo (PID) do processo recém-criado |
 | `ProcessCommandLine` | string | Linha de comando usada para criar o novo processo |
 | `ProcessCreationTime` | datetime | Data e hora em que o processo foi criado |
-| `ProcessTokenElevation` | string | Tipo de token que indica a presença ou ausência de elevação de privilégio do controle de acesso do usuário (UAC) aplicada ao processo recém-criado |
-| `LogonId` | string | Identificador para uma sessão de logon. Este identificador é exclusivo na mesma máquina somente entre as reinicializações |
-| `RegistryKey` | string | Chave do registro à qual a ação registrada foi aplicada |
-| `RegistryValueName` | string | Nome do valor do registro ao qual a ação registrada foi aplicada |
-| `RegistryValueData` | string | Dados do valor do registro para o qual a ação registrada foi aplicada |
+| `ProcessTokenElevation` | string | Tipo de token indicando a presença ou ausência da elevação de privilégio do Controle de Acesso de Usuário (UAC) aplicada ao processo recém-criado |
+| `LogonId` | string | Identificador de uma sessão de logon. Esse identificador é exclusivo no mesmo computador somente entre reinicializações |
+| `RegistryKey` | string | Chave do Registro à que a ação gravada foi aplicada |
+| `RegistryValueName` | string | Nome do valor do Registro ao que a ação gravada foi aplicada |
+| `RegistryValueData` | string | Dados do valor do Registro ao que a ação gravada foi aplicada |
 | `RemoteIP` | cadeia de caracteres | Endereço IP que estava sendo conectado ao |
-| `RemotePort` | int | Porta TCP no dispositivo remoto que estava sendo conectado ao |
+| `RemotePort` | int | Porta TCP no dispositivo remoto que estava sendo conectado |
 | `LocalIP` | string | Endereço IP atribuído ao computador local usado durante a comunicação |
-| `LocalPort` | int | Porta TCP no computador local usado durante a comunicação |
-| `FileOriginUrl` | string | URL de onde o arquivo foi baixado |
-| `FileOriginIP` | string | Endereço IP de onde o arquivo foi baixado |
+| `LocalPort` | int | Porta TCP na máquina local usada durante a comunicação |
+| `FileOriginUrl` | string | URL da qual o arquivo foi baixado |
+| `FileOriginIP` | string | Endereço IP do qual o arquivo foi baixado |
 | `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
 | `InitiatingProcessSHA1` | string | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessSHA256` | string | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `InitiatingProcessFileName` | string | Nome do processo que iniciou o evento |
 | `InitiatingProcessFolderPath` | string | Pasta que contém o processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessId` | int | ID de processo (PID) do processo que iniciou o evento |
+| `InitiatingProcessId` | int | ID do processo (PID) do processo que iniciou o evento |
 | `InitiatingProcessCommandLine` | string | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
-| `InitiatingProcessParentId` | int | ID de processo (PID) do processo pai que gerou o processo responsável pelo evento |
+| `InitiatingProcessParentId` | int | ID do processo (PID) do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentFileName` | string | Nome do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
 | `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessAccountDomain` | string | Domínio da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessAccountName` | string | Nome de usuário da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessLogonId` | string | Identificador para uma sessão de logon do processo que iniciou o evento. Este identificador é exclusivo na mesma máquina somente entre as reinicializações |
-| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, esta coluna deve ser usada em conjunto com as colunas DeviceName e timestamp |
-| `AppGuardContainerId` | string | Identificador para o contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
+| `InitiatingProcessAccountDomain` | string | Domínio da conta que correu o processo responsável pelo evento |
+| `InitiatingProcessAccountName` | string | Nome de usuário da conta que fez a correção do processo responsável pelo evento |
+| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que fez a correção do processo responsável pelo evento |
+| `InitiatingProcessLogonId` | string | Identificador de uma sessão de logon do processo que iniciou o evento. Esse identificador é exclusivo no mesmo computador somente entre reinicializações |
+| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
+| `AppGuardContainerId` | string | Identificador do contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Buscar em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

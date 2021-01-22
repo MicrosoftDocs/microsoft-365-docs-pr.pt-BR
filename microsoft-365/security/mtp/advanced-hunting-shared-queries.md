@@ -1,10 +1,10 @@
 ---
-title: Usar consultas compartilhadas na busca avançada do Microsoft 365 defender
+title: Usar consultas compartilhadas na busca avançada do Microsoft 365 Defender
 description: Comece a rastrear ameaças imediatamente com consultas predefinidas e compartilhadas. Compartilhe suas consultas com o público em geral ou com a sua organização.
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, Kusto, repositório do GitHub, minhas consultas, consultas compartilhadas
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, github repo, minhas consultas, consultas compartilhadas
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 48da1a3a64926f44582e7872f0b0ee03240409ca
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 7dcf446b5e1014d411fc8af08dd15506a2b04e49
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844075"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932185"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Usar consultas compartilhadas na busca avançada
 
@@ -32,7 +33,7 @@ ms.locfileid: "48844075"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
 
 
@@ -65,7 +66,7 @@ Você pode salvar uma consulta nova ou existente para que ela possa ser acessada
 2. Selecione **Exclua** e confirme a exclusão. Ou selecione **Renomear** e forneça um novo nome para a consulta.
 
 ## <a name="create-a-direct-link-to-a-query"></a>Criar um link direto para uma consulta
-Para gerar um link que abra sua consulta diretamente no editor de consulta de busca avançada, Finalize sua consulta e selecione **compartilhar link**.
+Para gerar um link que abre sua consulta diretamente no editor de consulta de busca avançada, finalize sua consulta e selecione o **link Compartilhar.**
 
 ## <a name="access-queries-in-the-github-repository"></a>Acessar consultas no repositório do GitHub  
 Os pesquisadores de segurança da Microsoft compartilham regularmente consultas avançadas em um [repositório público designado no GitHub](https://aka.ms/hunting-queries). Esse repositório está aberto para a contribuições. Para contribuir, acesse [integrar o GitHub gratuitamente](https://github.com/).
@@ -77,6 +78,6 @@ Os pesquisadores de segurança da Microsoft compartilham regularmente consultas 
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Buscar em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

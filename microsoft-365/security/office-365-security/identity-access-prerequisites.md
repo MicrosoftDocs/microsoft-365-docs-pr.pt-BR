@@ -1,10 +1,10 @@
 ---
 title: Trabalho de pré-requisito para implementar políticas de acesso a identidades e dispositivos - Microsoft 365 para empresas | Microsoft Docs
-description: Este artigo descreve os pré-requisitos que você precisa atender para usar políticas e configurações de acesso a dispositivos e identidades.
+description: Este artigo descreve os pré-requisitos que você precisa atender para usar configurações e políticas de acesso a dispositivos e identidades.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.topic: article
 ms.date: 09/01/2020
 f1.keywords:
@@ -18,12 +18,13 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: eb07fe45c169d81559e4676f86abde5c6600a185
-ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
+ms.technology: mdo
+ms.openlocfilehash: a479d1bf7fee95a7d8ba862674cd75bfd3c699c7
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49845079"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932557"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar políticas de acesso a identidades e dispositivos
 
@@ -38,18 +39,18 @@ Antes de usar as políticas de acesso a identidades e dispositivos recomendadas,
 - Híbrido com autenticação de passagem (PTA)
 - Federado
 
-A tabela a seguir detalha os recursos de pré-requisito e sua configuração que se aplicam a todos os modelos de identidade, exceto quando notados.
+A tabela a seguir detalha os recursos de pré-requisito e suas configurações que se aplicam a todos os modelos de identidade, exceto quando notados.
 
 |Configuração|Exceptions|
 |---|:---:|
 |[Configurar PHS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).  Isso deve ser habilitado para detectar credenciais vazadas e agir sobre elas para acesso condicional baseado em risco. **Observação:** Isso é necessário independentemente de sua organização usar ou não a autenticação federada.|Apenas Nuvem|
-|[Habilita o logor único contínuo](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) para conectar automaticamente os usuários quando eles estão em seus dispositivos da organização conectados à rede da sua organização.|Somente nuvem e federado|
+|[Habilita o logor único contínuo](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) para conectar automaticamente os usuários quando eles estão nos dispositivos da organização conectados à rede da sua organização.|Somente nuvem e federado|
 |[Configurar redes nomeadas](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). O Azure AD Identity Protection coleta e analisa todos os dados de sessão disponíveis para gerar uma pontuação de risco. Recomendamos que você especifique os intervalos de IP públicos da sua organização para sua rede na configuração de redes nomeadas do Azure AD. O tráfego proveniente desses intervalos recebe uma pontuação de risco reduzida, e o tráfego de fora do ambiente da organização recebe uma pontuação de risco maior.||
-|Registre todos os usuários para redefinição de senha de autoatendado [(SSPR) e autenticação multifafatória (MFA).](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged) Recomendamos que você registre os usuários para a Autenticação Multifa factor do Azure AD com antecedência. O Azure AD Identity Protection usa a Autenticação Multifa factor do Azure AD para executar uma verificação de segurança adicional. Além disso, para obter a melhor experiência de entrada, recomendamos que os usuários instalem o [aplicativo Microsoft Authenticator](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) e o aplicativo Microsoft Company Portal em seus dispositivos. Eles podem ser instalados na loja de aplicativos para cada plataforma.||
+|Registre todos os usuários para redefinição de senha de autoatendado [(SSPR) e autenticação multifa factor (MFA).](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged) Recomendamos que você registre os usuários para a Autenticação Multifa factor do Azure AD com antecedência. O Azure AD Identity Protection usa a Autenticação Multifa factor do Azure AD para executar uma verificação de segurança adicional. Além disso, para obter a melhor experiência de entrada, recomendamos que os usuários instalem o aplicativo [Microsoft Authenticator](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) e o aplicativo Microsoft Company Portal em seus dispositivos. Eles podem ser instalados na loja de aplicativos para cada plataforma.||
 |[Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio.](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup) O Acesso Condicional garantirá que os dispositivos que se conectam a aplicativos sejam ingressados no domínio ou compatíveis. Para dar suporte a isso em computadores Windows, o dispositivo deve ser registrado com o Azure AD.  Este artigo discute como configurar o registro de dispositivo automático.|Apenas Nuvem|
 |**Preparar sua equipe de suporte**. Tenha um plano em vigor para os usuários que não podem concluir a MFA. Isso pode estar adicionando-os a um grupo de exclusão de política ou registrando novas informações de MFA para eles. Antes de fazer qualquer uma dessas alterações sensíveis à segurança, você precisa garantir que o usuário real está fazendo a solicitação. Exigir que os gerentes dos usuários ajudem na aprovação é uma etapa eficaz.||
 |[Configurar o write-back de senha para o AD local](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). O write-back de senha permite que o Azure AD exige que os usuários alterem suas senhas locais quando um comprometimento de conta de alto risco é detectado. Você pode habilitar esse recurso usando o Azure AD Connect de duas maneiras: habilitando o **Write-back** de Senha na tela de recursos opcionais do assistente de configuração do Azure AD Connect ou habilitando-o por meio do Windows PowerShell.|Apenas Nuvem|
-|[Configure a proteção por senha do Azure AD.](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) A Proteção por Senha do Microsoft Azure AD detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos de sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.||
+|Configure a proteção por senha [do Azure AD.](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) A Proteção por Senha do Microsoft Azure AD detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos de sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.||
 |[Habilita o Azure Active Directory Identity Protection.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection) O Azure AD Identity Protection permite detectar possíveis vulnerabilidades que afetam as identidades da sua organização e configurar uma política de correção automatizada para baixo, médio e alto risco de login e risco do usuário.||
 |**Habilitar a** [autenticação moderna para o Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) e para o Skype for Business [Online.](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) A autenticação moderna é um pré-requisito para usar a MFA. A autenticação moderna é habilitada por padrão para clientes do Office 2016 e 2019, SharePoint e OneDrive for Business.||
 |
@@ -93,11 +94,11 @@ Os clientes a seguir são recomendados quando uma política de documentos seguro
 
 |Plataforma|Word/Excel/PowerPoint|OneNote|Aplicativo OneDrive|Aplicativo do SharePoint|[Cliente de sincronização do OneDrive](https://docs.microsoft.com/onedrive/enable-conditional-access)|
 |---|---|---|---|---|---|
-|Windows 8.1|Com suporte|Com suporte|N/D|N/D|Com suporte|
-|Windows 10|Com suporte|Com suporte|N/D|N/D|Com suporte|
+|Windows 8.1|Com suporte|Com suporte|Não disponível|Não disponível|Com suporte|
+|Windows 10|Com suporte|Com suporte|Não disponível|Não disponível|Com suporte|
 |Android|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
 |iOS|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
-|macOS|Com suporte|Com suporte|N/D|N/D|Sem suporte|
+|macOS|Com suporte|Com suporte|Não disponível|Não disponível|Sem suporte|
 |Linux|Sem suporte|Sem suporte|Sem suporte|Sem suporte|Sem suporte|
 |
 
@@ -125,4 +126,4 @@ Aqui estão algumas recomendações adicionais:
 
 [![Etapa 2: Configurar a identidade comum e as políticas de Acesso Condicional](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
-[Configurar as políticas comuns de identidade e acesso a dispositivos](identity-access-policies.md)
+[Configurar as políticas comuns de identidade e acesso ao dispositivo](identity-access-policies.md)
