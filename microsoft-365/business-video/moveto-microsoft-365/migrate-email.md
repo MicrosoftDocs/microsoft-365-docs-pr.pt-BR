@@ -15,24 +15,25 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como migrar emails, contatos e calendário do Google Workspace para o Microsoft 365 para empresas.
-ms.openlocfilehash: ab70a43fb7c26c23ebc9024b1cd2803c164a0aa4
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: cb751b1d2f18b226021bb6f218b62f3ae426f6a4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794568"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928241"
 ---
 # <a name="migrate-business-email-and-calendar-from-google-workspace"></a>Migrar email e calendário comercial do Google Workspace
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LPt6?autoplay=false]
 
-Você pode usar uma migração de administrador para o Exchange Online a partir do Google Workspace. Você pode migrar o email de uma só vez ou em estágios. As etapas a seguir mostram como migrar os dados de email de uma só vez. Para obter mais informações, consulte [Executar uma migração do G Suite.](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration)
+Você pode usar uma migração gerenciada pelo administrador para o Exchange Online a partir do Google Workspace. Você pode migrar o email de uma só vez ou em estágios. As etapas a seguir mostram como migrar os dados de email de uma só vez. Para obter mais informações, consulte [Executar uma migração do G Suite.](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration)
 
 O processo de migração leva várias etapas e pode levar de várias horas a alguns dias, dependendo da quantidade de dados que você está migrando.
 
@@ -67,11 +68,11 @@ O processo de migração leva várias etapas e pode levar de várias horas a alg
 
 ### <a name="grant-access-to-the-service-account"></a>Conceder acesso à conta de serviço
 
-1. Retorne ao console de administração do Google Workspace. 
+1. Retorne ao Console de administração do Google Workspace. 
 1. Selecione **Segurança,** role para baixo e abra os controles **de API.** 
 1. Role para baixo e selecione **Gerenciar Delegação em todo o Domínio.**
 1. Selecione **Adicionar novo** e insira a ID do Cliente que você anotou anteriormente.
-1. Em seguida, insira os escopos OAuth das APIs do Google. Eles estão disponíveis [no](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration#grant-access-to-the-service-account-for-your-google-tenant) aka.ms/GoogleWorkspaceMigration etapa 5 e são:
+1. Em seguida, insira os escopos OAuth das APIs do Google. Eles estão disponíveis no [aka.ms/GoogleWorkspaceMigration](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration#grant-access-to-the-service-account-for-your-google-tenant) etapa 5 e são:
 
     `https://mail.google.com/,https://www.googleapis.com/auth/calendar,https://www.google.com/m8/feeds/,https://www.googleapis.com/auth/gmail.settings.sharing`
  
@@ -94,7 +95,7 @@ O processo de migração leva várias etapas e pode levar de várias horas a alg
 1. Retorne ao **Console de administração do Google.**
 1. Select **Domains**, select **Manage domains**, **Verify Details** and then, Manage **domain**. 
 1. In the left nav, choose **DNS** and scroll down to **Custom resource records**. 
-1. Abra o menu suspenso de tipo de registro e selecione **MX,** insira ou copie e colar as informações de registro MX que você anotou anteriormente e escolha **Adicionar**. 
+1. Abra o menu suspenso de tipo de registro e selecione **MX**, insira ou copie e colar as informações de registro MX que você anotou anteriormente e escolha **Adicionar**. 
 1. Repita o processo para o registro CNAME e o registro TXT. 
 
     Pode levar algum tempo para que essas alterações entrem em vigor.  

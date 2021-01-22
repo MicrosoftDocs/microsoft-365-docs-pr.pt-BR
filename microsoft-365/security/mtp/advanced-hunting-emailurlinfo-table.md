@@ -1,10 +1,10 @@
 ---
 title: Tabela EmailUrlInfo no esquema de busca avançada
 description: Saiba mais sobre URL ou informações de link na tabela EmailUrlInfo do esquema de busca avançada
-keywords: caça avançada, busca de ameaças, busca de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, EmailUrlInfo, ID da mensagem de rede, URL, link
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailUrlInfo, id da mensagem de rede, url, link
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6684f2d56cb30c909cae57e7b3e6593377449f6b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 56d35e2812d895215cbe76deb6791695380abc50
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842555"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929710"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -32,9 +33,9 @@ ms.locfileid: "48842555"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-A `EmailUrlInfo` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre URLs em emails e anexos processados pelo Microsoft Defender para Office 365. Use esta referência para criar consultas que retornam informações desta tabela.
+A tabela no esquema de busca avançada contém informações sobre URLs em emails e `EmailUrlInfo` anexos processados pelo Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use esta referência para criar consultas que retornam informações desta tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -49,6 +50,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Buscar em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

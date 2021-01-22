@@ -17,37 +17,38 @@ monikerRange: o365-worldwide
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como comprar o complemento Microsoft 365 Business Voice.
-ms.openlocfilehash: b90f974f5cf8b752b8a9e87fd25a39cb9ba55ebe
-ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+ms.openlocfilehash: b52d10587ce00cc2a9cd3bdb5364a0ba54cd2dbf
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712504"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927473"
 ---
-# <a name="buy-business-voice"></a>Comprar Business Voice
+# <a name="buy-business-voice"></a>Comprar o Business Voice
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Gryk?autoplay=false]
 
-Com o Microsoft 365 Business Voice, você pode fazer e receber chamadas, usar a audioconferência e configurar um sistema de menu de chamada para encaminhar os clientes para o departamento certo. Para começar, você precisa comprar o complemento Business Voice.
+Com o Microsoft 365 Business Voice, você pode fazer e receber chamadas, usar a audioconferência e configurar um sistema de menus de chamada para encaminhar os clientes para o departamento certo. Para começar, você precisa comprar o complemento Business Voice.
 
 ## <a name="try-it"></a>Experimente!
 
-1. No centro de administração do Microsoft 365, acesse **cobrança** e selecione **serviços de compra**.
-1. Role para baixo e **escolha Complementos**. 
+1. No centro de administração do Microsoft 365, vá para **Cobrança** e selecione **Serviços de compra.**
+1. Role para baixo **e escolha Complementos.** 
 1. Selecione **Microsoft 365 Business Voice**.
 
-    Se você não vir, precisará primeiro comprar uma assinatura comercial que inclui o Microsoft Teams.
-1. Insira o número de usuários para os quais você deseja licenças e selecione **fazer check-out agora**.
-1. Selecione **recarga automática** para comprar créditos de comunicação, se necessário, e evite interrupções de serviço.
+    Caso não o veja, primeiro você precisa comprar uma assinatura comercial que inclua o Microsoft Teams.
+1. Insira o número de usuários para os quais você deseja licenças e selecione **Check-out agora.**
+1. Selecione **Recarga automática para** comprar créditos de comunicação, se necessário, e evite interrupções de serviço.
 
-    Os créditos de comunicação são usados para chamadas internacionais, números de chamada gratuita e minutos de chamadas adicionais.
+    Os créditos de comunicação são usados para chamadas internacionais, números gratuitos e minutos de chamadas adicionais.
 1. Selecione **Avançar**.
 1. Verifique sua forma de pagamento.
-1. Selecione **fazer pedido** e **continuar**.
+1. Select **Place order** and **Continue**.
 
 Você adicionou com êxito o complemento Business Voice.

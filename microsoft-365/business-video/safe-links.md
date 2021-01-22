@@ -1,5 +1,5 @@
 ---
-title: Gerenciar links seguros
+title: Gerenciar Links Seguros
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,36 +16,37 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como gerenciar links seguros para proteger sua empresa contra sites mal-intencionados.
-ms.openlocfilehash: eabb2c1f71b1183867ffcb005ba4f7e44ed6e4b7
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 1f5b3f61871e8d231029156631031dbb0ef4f2f5
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701463"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928013"
 ---
-# <a name="manage-safe-links"></a>Gerenciar links seguros
+# <a name="manage-safe-links"></a>Gerenciar Links Seguros
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWvdwy?autoplay=false]
 
-O Microsoft defender para Office 365, anteriormente chamado de Microsoft 365 ATP, ou proteção avançada contra ameaças, ajuda a proteger sua empresa contra sites mal-intencionados quando as pessoas clicam em links nos aplicativos do Office.
+O Microsoft Defender para Office 365 , anteriormente chamado de Microsoft 365 ATP ou Proteção Avançada contra Ameaças, ajuda a proteger seus negócios contra sites mal-intencionados quando as pessoas clicam em links em aplicativos do Office.
 
 ## <a name="try-it"></a>Experimente!
 
-1. Vá para o [centro de administração](https://admin.microsoft.com)e selecione **configuração**.
-1. Role para baixo para **aumentar a proteção contra ameaças avançadas**. Selecione **Exibir**, **gerenciar** e, em seguida, **links seguros de ATP**.
-1. Em **políticas que se aplicam a toda a organização**, escolha a política **padrão** e, em seguida, selecione o ícone **Editar** .
+1. Vá para o [centro de administração](https://admin.microsoft.com)e selecione **Setup**.
+1. Role para baixo **até aumentar a proteção contra ameaças avançadas.** Selecione **Exibir,** **Gerenciar** e Links **Seguros da ATP.**
+1. Em **Políticas que se aplicam a toda a organização,** escolha a **política** Padrão e selecione o **ícone Editar.**
 1. Insira uma URL que você deseja bloquear.
-1. Selecione **usar links seguros em aplicativos do Office, Office para IOS e Android**; Selecione não **rastrear quando os usuários clicarem em links seguros**; e selecione não **permitir que os usuários cliquem por meio de links seguros para a URL original**. Eles já podem estar selecionados se você configurar a política padrão. Selecione **Salvar**.
-1. Em **políticas que se aplicam a destinatários específicos**, escolha **regra de links seguros recomendados** e, em seguida, selecione o ícone **Editar** .
-1. Selecione **configurações**, role para baixo, digite a URL que você não deseja verificar e, em seguida, selecione o ícone **Adicionar** .
-1. Selecione **aplicado a** e selecione seu nome de domínio. Selecione os domínios adicionais aos quais você deseja aplicar a regra. Selecione **Adicionar**, **OK** e **salvar**.
+1. Selecione **Usar links seguros em aplicativos do Office, Office para iOS e Android;** selecione **Não rastrear quando os usuários clicam em links seguros;** e selecione **Não permitir que os usuários cliquem em links seguros para a URL original.** Eles já podem estar selecionados se você configurar a política padrão. Selecione **Salvar**.
+1. Em **Políticas que se aplicam a destinatários específicos,** escolha Regra de **links** seguros recomendada e selecione o **ícone Editar.**
+1. Selecione **configurações,** role para baixo, insira a URL que você não deseja verificar e selecione o **ícone** Adicionar.
+1. Selecione **aplicado e, em** seguida, selecione seu nome de domínio. Selecione os domínios adicionais aos que você deseja que a regra seja aplicada. Selecione **adicionar**, **OK** e, em **seguida, Salvar**.
 
-Os links seguros de ATP agora estão configurados. Aguarde até 30 minutos para que as alterações entrem em vigor.
+Os Links Seguros da ATP agora estão configurados. Permita até 30 minutos para que suas alterações entre em vigor.
 
-Quando um usuário recebe um email com links, os links serão examinados. Se os links forem considerados seguros, eles serão clicados. No entanto, se o link estiver na lista de bloqueados, os usuários verão uma mensagem de que ela foi bloqueada.
+Quando um usuário receber um email com links, os links serão verificados. Se os links são considerados seguros, eles serão clicáveis. No entanto, se o link estiver na lista de bloqueios, os usuários verão uma mensagem de que ele foi bloqueado.

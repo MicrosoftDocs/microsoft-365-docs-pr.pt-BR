@@ -1,10 +1,10 @@
 ---
-title: Função fileprofile () em busca avançada para o Microsoft 365 defender
-description: Saiba como usar o fileprofile () para enriquecer informações sobre arquivos em seus resultados de consulta de busca avançada
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, fileprofile, perfil de arquivo, função, enriquecimento
+title: Função FileProfile() em busca avançada do Microsoft 365 Defender
+description: Saiba como usar o FileProfile() para enriquecer informações sobre arquivos em seus resultados de consulta de busca avançada
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, FileProfile, perfil de arquivo, função, enriquecimento
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 31959ed146df52aa6568f7aa60617b74ab8dd4db
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 68196f126ac470088d7ba5e2923accc492d8764c
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847447"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929545"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -32,26 +33,26 @@ ms.locfileid: "48847447"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-A `FileProfile()` função é uma função de enriquecimento em [busca avançada](advanced-hunting-overview.md) que adiciona os dados a seguir a arquivos encontrados pela consulta.
+A função é uma função de enriquecimento na busca avançada que adiciona os `FileProfile()` seguintes dados aos arquivos encontrados pela consulta. [](advanced-hunting-overview.md)
 
 | Coluna | Tipo de dados | Descrição |
 |------------|-------------|-------------|
 | SHA1 | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
-| SHA256 | string | SHA-256 do arquivo ao qual a ação registrada foi aplicada |
-| MD5 | string | Hash MD5 do arquivo ao qual a ação registrada foi aplicada |
+| SHA256 | string | SHA-256 do arquivo ao que a ação gravada foi aplicada |
+| MD5 | string | Hash MD5 do arquivo ao que a ação gravada foi aplicada |
 | FileSize | int | Tamanho do arquivo em bytes |
-| GlobalPrevalence | int | Número de instâncias da entidade observadas pela Microsoft globalmente |
+| GlobalPrevalence | int | Número de instâncias da entidade observada pela Microsoft globalmente |
 | GlobalFirstSeen | datetime | Data e hora em que a entidade foi observada pela primeira vez pela Microsoft globalmente |
-| GlobalLastSeen | datetime | Data e hora da última vez em que a entidade foi observada pela Microsoft globalmente |
-| Signatário | string | Informações sobre o signatário do arquivo |
-| Emissor | string | Informações sobre a CA (autoridade de certificação emissora) |
-| SignerHash | string | Valor de hash exclusivo que identifica o signatário |
+| GlobalLastSeen | datetime | Data e hora em que a entidade foi observada pela última vez pela Microsoft globalmente |
+| Signante | string | Informações sobre o signante do arquivo |
+| Emissor | string | Informações sobre a autoridade de certificação (CA) de emissão |
+| SignerHash | string | Valor de hash exclusivo que identifica o signante |
 | IsCertificateValid | booliano | Se o certificado usado para assinar o arquivo é válido |
-| IsRootSignerMicrosoft | booliano | Indica se o signatário do certificado raiz é o Microsoft |
-| IsExecutable | booliano | Se o arquivo é um arquivo executável portátil (PE) |
-| Threatname | string | Nome da detecção de qualquer malware ou outra ameaça encontrada |
+| IsRootSignerMicrosoft | booliano | Indica se o signante do certificado raiz é a Microsoft |
+| IsExecutable | booliano | Se o arquivo é um arquivo PE (Portable Executable) |
+| ThreatName | string | Nome da detecção de qualquer malware ou outras ameaças encontradas |
 | Publisher | string | Nome da organização que publicou o arquivo |
 | SoftwareName | string | Nome do produto de software |
 
@@ -63,12 +64,12 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>Argumentos
 
-- **x** — coluna de ID de arquivo para usar: `SHA1` ,, `SHA256` `InitiatingProcessSHA1` ou `InitiatingProcessSHA256` ; função usa `SHA1` se não especificado
-- **y** – limitar o número de registros a enriquecer, 1-1000; função usa 100 se não especificado
+- **x**— coluna de ID do arquivo a ser usada: , ou ; a função usa `SHA1` se não `SHA256` `InitiatingProcessSHA1` `InitiatingProcessSHA256` `SHA1` especificada
+- **y**— limite ao número de registros a enriquecer, 1 a 1000; função usa 100 se não especificado
 
 ## <a name="examples"></a>Exemplos
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a>Projetar somente a coluna SHA1 e enriquecer
+### <a name="project-only-the-sha1-column-and-enrich-it"></a>Projetar somente a coluna SHA1 e enriqueci-la
 
 ```kusto
 DeviceFileEvents
@@ -78,7 +79,7 @@ DeviceFileEvents
 | invoke FileProfile()
 ```
 
-### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a>Enriquecer os primeiros 500 registros e listar os arquivos de prevalência de baixa
+### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a>Enriquecer os primeiros 500 registros e listar arquivos de baixa prevalência
 
 ```kusto
 DeviceFileEvents

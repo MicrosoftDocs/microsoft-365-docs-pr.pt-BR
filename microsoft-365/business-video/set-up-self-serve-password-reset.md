@@ -1,5 +1,5 @@
 ---
-title: Permitir que os usuários redefinam suas senhas
+title: Permitir que os usuários redefinir suas senhas
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,30 +16,31 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como permitir que os usuários redefinam suas próprias senhas no Microsoft 365 Business Premium.
-ms.openlocfilehash: 724658e48d532b6b7b9c14244fec93eeb17a62e5
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como permitir que os usuários redefinir suas próprias senhas no Microsoft 365 Business Premium.
+ms.openlocfilehash: a1078f13bb4031427c5bdd655b095dbf8ed29bcb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701508"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927917"
 ---
-# <a name="set-up-self-service-password-reset"></a>Configurar a redefinição de senha de autoatendimento
+# <a name="set-up-self-service-password-reset"></a>Configurar a redefinição de senha self-service
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S?autoplay=false]
 
-Para permitir que os usuários redefinam suas próprias senhas sem precisar contatá-lo toda vez, você pode configurar a redefinição de senha de autoatendimento no Microsoft 365 Business Premium.
+Para permitir que seus usuários redefinir suas próprias senhas sem precisar entrar em contato com você sempre, você pode configurar a redefinição de senha de autoatendado no Microsoft 365 Business Premium.
 
 ## <a name="try-it"></a>Experimente!
 
-1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, selecione **configurações** e **segurança & privacidade**.
-1. Em **permitir que as pessoas redefinam suas próprias senhas**, selecione o **centro de administração do Azure ad**.
-1. No painel de navegação esquerdo, selecione **usuários** e, na página **usuários-todos os usuários** , selecione **redefinição de senha**.
-1. Selecione **tudo** para habilitar a redefinição de senha de autoatendimento e, em seguida, selecione **salvar**.
+1. No centro de administração do Microsoft 365,  no painel de navegação esquerdo, selecione Configurações e segurança **& privacidade.**
+1. Under **Let your people reset their own passwords,** select **Azure AD admin center**.
+1. No painel de navegação esquerdo, selecione **Usuários** e, em seguida, na página **Usuários - todos** os usuários, selecione **Redefinição de senha.**
+1. Selecione **Todos para** habilitar a redefinição de senha de autoatendenciado e, em seguida, selecione **Salvar.**
 
-Na próxima vez que um usuário entrar em sua conta, ele será solicitado a fornecer sua ID de usuário e senha. Selecione **Avançar** e, em seguida, escolha se deseja autenticar com seu telefone, email ou ambos. Insira o código que receberá, selecione **verificar** e, em seguida, selecione **concluir**. Quando eles forem concluídos, poderão redefinir sua própria senha.
+Na próxima vez que um usuário entrar em sua conta, ele será solicitado a ter sua ID de usuário e senha. Eles **selecionam Next** e, em seguida, optam por autenticar com o telefone, email ou ambos. Eles insto o código recebido, **selecionam Verificar** e, em seguida, **selecionam Concluir.** Quando terminarem, eles poderão redefinir sua própria senha.

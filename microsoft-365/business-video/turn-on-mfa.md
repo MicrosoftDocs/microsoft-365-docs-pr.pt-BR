@@ -1,5 +1,5 @@
 ---
-title: Ativar a autenticação multifator
+title: Ativar a autenticação multifa factor
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,31 +16,32 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como ativar a autenticação multifator.
-ms.openlocfilehash: 4f7cd51a8a6a412b8aed2e0855727eeb48fc522b
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como ativar a autenticação multifa factor.
+ms.openlocfilehash: 1485875d1d40d93dab7a04d4e3d81016ac1536f3
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701544"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927761"
 ---
-# <a name="turn-on-multi-factor-authentication"></a>Ativar a autenticação multifator
+# <a name="turn-on-multi-factor-authentication"></a>Ativar a autenticação multifa factor
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MuO3?autoplay=false]
 
-A autenticação multifator significa que você e seus funcionários devem fornecer mais de uma maneira de entrar no Microsoft 365 é uma das maneiras mais fáceis de proteger sua empresa.
+A autenticação multifa factor significa que você e seus funcionários devem fornecer mais de uma maneira de entrar no Microsoft 365 é uma das maneiras mais fáceis de proteger seus negócios.
 
 ## <a name="try-it"></a>Experimente!
 
 1. Vá para o centro de administração do[https://admin.microsoft.com](https://admin.microsoft.com).
-1. Selecione  **Mostrar tudo** e, em seguida, escolha o **centro de administração do Azure Active Directory**.
-1. Selecione **Active Directory do Azure**, **Propriedades**, **gerenciar padrões de segurança**.
-1. Em **habilitar padrões de segurança**, selecione **Sim** e **salvar**.
+1. Selecione **Mostrar Tudo** e, em seguida, escolha o Centro de Administração do **Azure Active Directory.**
+1. Select **Azure Active Directory**, **Properties**, Manage **Security defaults**.
+1. Em **Habilitar Padrões de Segurança,** selecione **Sim** e **Salvar.**
 
 > [!NOTE]
 > Para novas assinaturas, os padrões seguros são ativados automaticamente.

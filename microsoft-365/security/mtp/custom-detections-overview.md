@@ -1,10 +1,10 @@
 ---
-title: Visão geral das detecções personalizadas no Microsoft 365 defender
-description: Entender como você pode usar a busca avançada para criar detecções personalizadas e gerar alertas
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção contra ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, Kusto, Microsoft 365, proteção contra ameaças da Microsoft
+title: Visão geral das detecções personalizadas no Microsoft 365 Defender
+description: Entenda como você pode usar a busca avançada para criar detecções personalizadas e gerar alertas
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, microsoft 365, Proteção contra Ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -17,12 +17,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: fe2b9f1b52fa2c8d9031bb58597992f3dda91520
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: ae9617a55fd5efb40a3aba07202ebfb1494d4db6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843907"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928803"
 ---
 # <a name="custom-detections-overview"></a>Visão geral de detecções personalizadas
 
@@ -30,14 +31,14 @@ ms.locfileid: "48843907"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-Com detecções personalizadas, você pode monitorar e responder de forma proativa vários eventos e Estados do sistema, incluindo a suspeita de falha da atividade e os pontos de extremidade configurados incorretamente. Isso é possível por regras de detecção personalizáveis que disparam alertas automaticamente e ações de resposta.
+Com detecções personalizadas, você pode monitorar e responder proativamente a vários eventos e estados do sistema, incluindo atividades suspeitas de violação e pontos de extremidade configurados incorretamente. Isso é possível por meio de regras de detecção personalizáveis que disparam alertas automaticamente, bem como ações de resposta.
 
-As detecções personalizadas funcionam com a [busca avançada](advanced-hunting-overview.md), que oferece uma linguagem de consulta poderosa e flexível que abrange um amplo conjunto de informações de eventos e do sistema da sua rede. Você pode defini-los para executar em intervalos regulares, gerar alertas e realizar ações de resposta sempre que houver correspondências.
+As detecções personalizadas funcionam com a busca [avançada,](advanced-hunting-overview.md)que fornece uma linguagem de consulta avançada e flexível que abrange um amplo conjunto de informações de eventos e do sistema de sua rede. Você pode defini-los para que sejam executados em intervalos regulares, gerando alertas e tomando ações de resposta sempre que houver resultados.
 
 As detecções personalizadas fornecem:
-- Alertas para detecções baseadas em regra criadas a partir de consultas de busca avançada
+- Alertas para detecções baseadas em regras criadas a partir de consultas de busca avançada
 - Ações de resposta automática
 
 ## <a name="related-topic"></a>Tópico relacionado

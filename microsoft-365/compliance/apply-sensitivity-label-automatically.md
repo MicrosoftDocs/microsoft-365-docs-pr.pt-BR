@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: aa6b3ce2da8166cc2b33ae2b6056b54d76a0c634
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 40cb270ee7084b50ed9ef58b9598f16e76dffa36
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759951"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929487"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -210,7 +210,7 @@ Certifique-se de que você está ciente dos pré-requisitos antes de configurar 
     - Você deve [habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive ](sensitivity-labels-sharepoint-onedrive-files.md).
     - No momento em que a política de rotulagem automática é executada, o arquivo não deve estar aberto por outro processo ou usuário. Um arquivo que foi retirado para edição se enquadra nessa categoria.
 
-- Se você planeja usar [tipos de informações confidenciais personalizadas](custom-sensitive-info-types.md), em vez de tipos de confidencialidade interna: 
+- Se você planeja usar [tipos de informações confidenciais personalizadas](sensitive-information-type-learn-about.md), em vez de tipos de confidencialidade interna: 
     - Os tipos de informações de confidencialidade personalizados são avaliados para conteúdo adicionado ao Microsoft Office SharePoint Online ou OneDrive depois que os tipos de informações de confidencialidade personalizados são salvos. 
     - Para testar novos tipos de informações confidenciais personalizadas, crie-os antes de criar a política de rotulagem automática e crie novos documentos com dados de exemplo para teste.
 

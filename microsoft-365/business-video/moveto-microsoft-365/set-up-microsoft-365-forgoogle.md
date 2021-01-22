@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como configurar o Microsoft 365 para que ele esteja pronto para migração do Google Workspace.
-ms.openlocfilehash: ec8813f62febbd1c4ee2afa6877e4be505a75a81
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 42b8cd86ec03c4d4b43a4d32a1cee56e94bb7147
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794565"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928181"
 ---
 # <a name="set-up-microsoft-365-for-google-workspace-migration"></a>Configurar a migração do Microsoft 365 para o Google Workspace
 
@@ -43,7 +44,7 @@ Para migrar emails, calendário e contatos do Google Workspace, você precisa co
 1. Insira os nomes do usuário e os nomes de usuário desejados, verifique seu endereço de email para que você possa receber as senhas do usuário e, em seguida, selecione Adicionar usuários e atribuir **licenças.** 
 1. Insira os endereços de email onde seus usuários receberão suas novas credenciais, selecione **Enviar email e continue.**
 1. Em **seguida, continue** novamente para conectar seu domínio temporário. 
-1. Opcionalmente, opte por informar os usuários em sua organização sobre o Teams e, em seguida, selecione **Continuar.**
+1. Opcionalmente, opte por informar os usuários em sua organização sobre o Teams e, em seguida, selecione **Continuar**.
 1. Expanda e revise as **configurações do Android** e do iOS e, em seguida, selecione Criar política de gerenciamento de aplicativo **móvel.**
 1. Forneça comentários, se desejado, e escolha **Ir para o centro de administração.**
 

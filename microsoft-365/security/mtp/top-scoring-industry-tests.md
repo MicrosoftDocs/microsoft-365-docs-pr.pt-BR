@@ -1,9 +1,9 @@
 ---
-title: Pontuação superior nos testes do setor-Microsoft 365 defender
+title: Principais pontuações em testes do setor - Microsoft 365 Defender
 ms.reviewer: ''
-description: Exibir as pontuações e análises mais recentes do Microsoft 365 defender. Ele obtém consistentemente pontos altos em testes independentes (AV-TEST, comparativos AV, SE laboratórios do MITRE ATT&CK). Exibir as últimas pontuações e análises.
-keywords: Microsoft Defender Antivirus, Windows Defender Antivirus, revisões de AV, teste de antivírus, teste de AV, pontuações de AV mais recentes, pontuações de detecção, testes de produtos de segurança, testes do setor de segurança, testes de antivírus do setor, melhores antivírus, AV-Test, AV-comparations, SE Labs, MITRE ATT&CK, Endpoint Protection Platform, EPP, detecção de ponto de extremidade e resposta, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, proteção contra ameaças da Microsoft, classificação, êxito
-ms.prod: w10
+description: Veja as pontuações e análises mais recentes do Microsoft 365 Defender. Ele atinge pontuações altas consistentemente em testes independentes (AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK). Exibir as pontuações e análises mais recentes.
+keywords: Microsoft Defender Antivírus, Windows Defender Antivírus, avaliações av, teste antivírus, av testing, latest av scores, detection scores, security product testing, security industry tests, industry antivirus tests, best antivirus, av-test, av-comparatives, SE labs, MITRE ATT&CK, endpoint protection platform, EPP, endpoint detection and response, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, Microsoft Threat Protection, security, malware, av, antivirus, scores, s scores, next generation protection, ranking, success
+ms.prod: m365-security
 ms.mktglfcycl: secure
 ms.sitesec: library
 ms.localizationpriority: high
@@ -14,115 +14,116 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: a1e8c083c0769031fcc17cc799e7edc29fc9bc57
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.technology: m365d
+ms.openlocfilehash: cff6ec43c1eb90588107a58a2973fd3c5ad5c848
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604402"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929725"
 ---
-# <a name="top-scoring-in-industry-tests"></a>Pontuação superior nos testes do setor
+# <a name="top-scoring-in-industry-tests"></a>Principais pontuações em testes do setor
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Quer experimentar o Microsoft 365 defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou [executar o projeto piloto em produção](https://aka.ms/m365d-pilotplaybook).
+> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou executar seu projeto piloto em [produção.](https://aka.ms/m365d-pilotplaybook)
 >
 
-O [Microsoft 365 defender](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) Technologies é consistentemente elevado em testes independentes, demonstrando a força de seus recursos de proteção de ameaças empresariais. A Microsoft pretende ser transparente sobre essas pontuações de teste. Esta página resume os resultados e fornece análise.
+[As tecnologias do Microsoft 365 Defender](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) atingem consistentemente pontuações altas em testes independentes, demonstrando a força de seus recursos de proteção contra ameaças corporativas. A Microsoft pretende ser transparente sobre essas pontuações de teste. Esta página resume os resultados e fornece análise.
 
 ## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
-[O Microsoft 365 defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) é um pacote de defesa unificado do Enterprise Defense. Ele coordena nativamente a detecção, a prevenção, a investigação e a resposta entre os pontos de extremidade, as identidades, os emails e os aplicativos para fornecer proteção integrada contra ataques sofisticados.
+[O Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) é um pacote unificado de defesa empresarial pré e pós-violação. Ele na verdade coordena a detecção, a prevenção, a investigação e a resposta entre pontos de extremidade, identidades, email e aplicativos para fornecer proteção integrada contra ataques sofisticados.
 
-O Microsoft 365 defender combina os recursos do [Microsoft defender para o ponto de extremidade](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp), [o Microsoft defender para Office 365](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection), o [Microsoft defender para identidade](https://azure.microsoft.com/features/azure-advanced-threat-protection/), a [proteção de identidade do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)e [o Microsoft Cloud app Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) em uma única solução.
+O Microsoft 365 Defender combina os recursos do [Microsoft Defender para](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp)Ponto de Extremidade, Microsoft Defender para Office [365,](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection) [Microsoft Defender para Identidade,](https://azure.microsoft.com/features/azure-advanced-threat-protection/) [Azure Active Directory Identity Protection](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)e Microsoft Cloud App [Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) em uma única solução.
 
-### <a name="mitre-demonstrated-real-world-detection-response-and-protection-from-advanced-attacks"></a>MITRE: demonstrou detecção, resposta e proteção do mundo real de ataques avançados
+### <a name="mitre-demonstrated-real-world-detection-response-and-protection-from-advanced-attacks"></a>MITRE: demonstrada detecção, resposta e proteção do mundo real contra ataques avançados
 
-A abordagem de teste da Core para MITRE é a emulação de ataques reais para entender se as soluções podem detectar adequadamente e responder a elas. Enquanto o teste se concentrou na detecção e resposta de ponto de extremidade, o ataque APT29 simulado da MITRE abrange vários domínios de ataque, criando oportunidades para permitir que os defensores ultrapassem a proteção de ponto de extremidade. A Microsoft ampliou a visibilidade dos defensores além do ponto de extremidade com o Microsoft 365 defender.
+A abordagem de teste do MITRE é emular ataques do mundo real para entender se as soluções podem detectar e responder adequadamente a elas. Embora o teste se concentre na detecção e resposta do ponto de extremidade, o ataque simulado do APT29 da MITRE abrange vários domínios de ataque, criando oportunidades para capacitar os defensores além da proteção apenas do ponto de extremidade. A Microsoft expandiu a visibilidade dos defenderes além do ponto de extremidade com o Microsoft 365 Defender.
 
-- ATT&avaliação baseada em CK do Microsoft 365 defender-maio 2020: [entrelinhando a detecção do mundo real](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
+- AtT&CK-based evaluation of Microsoft 365 Defender - May 2020: [Leading in real-world detection](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
-    O Microsoft 365 defender ofereceu aproximadamente 100% de cobertura nos estágios da cadeia de ataques. Ele forneceu a principal visibilidade pronta para as atividades de atacante. A visibilidade reduz drasticamente o trabalho manual para o centro de operações de segurança e soluções de fornecedor que confiam em alterações específicas de configuração. O Microsoft 365 defender também teve menos deficiências de visibilidade, diminuindo a capacidade de o invasor de operar sem ser detectada.
+    O Microsoft 365 Defender forneceu uma cobertura de quase 100% entre os estágios da cadeia de ataque. Ele proporciona maior visibilidade das atividades do invasor. A visibilidade reduz drasticamente o trabalho manual para o centro de operações de segurança e soluções de fornecedor que dependam de alterações de configuração específicas. O Microsoft 365 Defender também tinha as menores lacunas de visibilidade, redução da capacidade do invasor de operar não detectado.
 
 ## <a name="next-generation-protection"></a>Proteção de próxima geração
 
-[O Microsoft defender antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) realiza de forma consistente os testes independentes, mostrando como é uma opção mais importante no mercado de antivírus. Tenha em mente que esses testes só fornecem resultados para antivírus e não testam proteção adicional de segurança.
+[O Microsoft Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) tem um desempenho consistente altamente em testes independentes, exibindo como ele é a principal opção no mercado de antivírus. Lembre-se de que esses testes fornecem apenas resultados para antivírus e não testam proteções de segurança adicionais.
 
-O Microsoft Defender Antivirus é o recurso de [proteção de próxima geração](https://www.youtube.com/watch?v=Xy3MOxkX_o4) na [pilha de segurança do Microsoft defender para ponto de extremidade do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) que aborda as ameaças mais recentes e mais sofisticadas atualmente. Em alguns casos, os clientes podem nem mesmo saber que estavam protegidos porque um cyberattack foi interrompido em [milissegundos após um início de uma campanha](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign). Isso porque o Microsoft Defender Antivirus e outros recursos de [plataforma de proteção de ponto de extremidade (EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) no defender para ponto de extremidade detectam e param o malware na primeira vista. Eles usam o [Machine Learning](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [inteligência artificial](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), análise comportamental e outras tecnologias avançadas.
+O Microsoft Defender [](https://www.youtube.com/watch?v=Xy3MOxkX_o4) Antivírus é o recurso de proteção de última geração na pilha de segurança do Microsoft Defender para Pontos de Extremidade do [Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) que aborda as ameaças mais recentes e sofisticadas de hoje. Em alguns casos, os clientes podem nem saber que foram protegidos porque um ataque cibernético é interrompido [milissegundos](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign)após o início de uma campanha. Isso porque o Microsoft Defender Antivírus e outros recursos da plataforma de proteção de ponto de extremidade [(EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) no Defender para Ponto de Extremidade detectam e impedem malware à primeira vista. Eles usam [aprendizado de máquina,](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering) [inteligência artificial,](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak)análise comportamental e outras tecnologias avançadas.
 
-### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-TEST: Pontuação de proteção do 6.0/6.0 no teste mais recente
+### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-TEST: pontuação de proteção de 6,0/6,0 no teste mais recente
 
-O relatório de análise e análise do produto de teste AV testa três categorias: proteção, desempenho e usabilidade. As seguintes pontuações são para a categoria de proteção que tem duas pontuações: teste de Real-World e o conjunto de referência de teste de AV (conhecido como "malware predominante").
+O Relatório de Certificação e Revisão de Produto AV-TEST testa em três categorias: proteção, desempenho e usabilidade. As pontuações a seguir são para a categoria Protection que tem duas pontuações: Real-World Testing e o conjunto de referência AV-TEST (conhecido como "Malware predominante").
 
-**Baixe o relatório de transparência mais recente: [examinando os resultados do teste de AV, January-February 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
+**Baixe o relatório de transparência mais recente: [Examinando os resultados do AV-TEST, January-February 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- Teste de usuário de negócios de setembro de 2020 AV-TEST: [Protection Scores 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2020/microsoft-defender-antivirus-4.18-204116/) <sup>**mais recente**</sup>
+- Teste do usuário comercial do AV-TEST de setembro a outubro de 2020: pontuação [de proteção 6,0/6,0 Mais](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2020/microsoft-defender-antivirus-4.18-204116/) <sup>**recente**</sup>
 
-    O Microsoft defender antivírus alcançou uma pontuação de proteção perfeita de 6.0/6.0, com 100% em setembro e outubro. 12.650 amostras de malware foram usadas.
+    O Microsoft Defender Antivírus obteve uma pontuação perfeita de Proteção de 6,0/6,0, com 100% em setembro e outubro. 12.650 amostras de malware foram usadas.
 
-- Teste de usuário corporativo de setembro de 2020 AV-TEST: [Pontuação de proteção 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/)
+- Teste do usuário comercial do AV-TEST de julho a agosto de 2020: [pontuação de proteção 6,0/6,0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/)
 
-- Teste de usuário de negócios de maio de 2020 AV-TEST: [Pontuação de proteção 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/)
+- Teste do usuário comercial do AV-TEST de maio a junho de 2020: [pontuação de proteção 6,0/6,0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/)
 
-- Março de abril de 2020 teste de usuário de negócios para teste de [segurança: Pontuação de proteção 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
+- Teste do usuário comercial do AV-TEST de março a abril de 2020: [pontuação de proteção 5,5/6,0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
-- Janeiro de fevereiro de 2020 teste de usuário corporativo de teste de AV: [proteção recorde 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
+- Teste do usuário comercial do AV-TEST de janeiro a fevereiro de 2020: Pontuação de [proteção 5,5/6,0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Análise](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
-- Teste de usuário de negócios de novembro de 2019 AV-TEST: leitura [recorde 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
+- Teste do usuário comercial do AV-TEST de novembro a dezembro de 2019: pontuação [de proteção 6,0/6,0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
 
-- Teste de usuário de negócios de setembro de 2019 AV-TEST: [Protection Score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2019/microsoft-windows-defender-antivirus-4.18-194115/)
+- Teste do usuário comercial do AV-TEST de setembro a outubro de 2019: [pontuação de proteção 5,5/6,0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2019/microsoft-windows-defender-antivirus-4.18-194115/)
 
-### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-Comparativaes: classificação de proteção de 99,7% no teste mais recente
+### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-Comparatives: classificação de proteção de 99,7% no teste mais recente
 
-O teste de segurança comercial consiste em três partes principais: o teste de proteção de Real-World que imita ataques de malware online, o teste de proteção contra malware em que o malware entra no sistema de fora da Internet (por exemplo, USB) e o teste de desempenho que analisa o impacto no desempenho do sistema.
+O Teste de Segurança Empresarial consiste em três partes principais: o Teste de Proteção do Real-World que imita ataques de malware online, o Teste de Proteção contra Malware no qual o malware entra no sistema fora da Internet (por exemplo, por USB) e o Teste de Desempenho que analisa o impacto no desempenho do sistema.
 
-- Business Security Test 2020 (março de junho): [taxa de proteção do mundo Real 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**mais recente**</sup>
+- Teste de segurança empresarial de 2020 (março - junho): taxa de proteção do mundo [real de 99,7% mais](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**recente**</sup>
 
-    O Microsoft Defender Antivirus é pontuado de forma consistente em taxas de proteção Real-World no último ano, com 99,7% no teste mais recente.
+    O Microsoft Defender Antivírus teve uma pontuação consistentemente alta em Real-World de proteção no ano passado, com 99,7% no teste mais recente.
 
-- Business Security Test 2019 (agosto de novembro): [taxa de proteção do mundo Real 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
+- Teste de segurança empresarial de 2019 (agosto - novembro): taxa de proteção do mundo [real de 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
 
-- Business Security Test 2019 (março de junho): [taxa de proteção do mundo real 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [análise](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
+- Teste de segurança empresarial de 2019 (março - junho): análise da taxa de proteção do mundo [real de 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
-### <a name="se-labs-aaa-award-in-the-latest-test"></a>SE Labs: Prêmio AAA no teste mais recente
+### <a name="se-labs-aaa-award-in-the-latest-test"></a>SE Labs: prêmio AAA no teste mais recente
 
-Os laboratórios SE testam uma variedade de soluções usadas por produtos e serviços para detectar e/ou proteger contra ataques. Ele inclui software de ponto de extremidade, dispositivos de rede e serviços em nuvem.
+Os laboratórios da SE testam uma variedade de soluções usadas por produtos e serviços para detectar e/ou proteger contra ataques. Ele inclui software de ponto de extremidade, dispositivos de rede e serviços de nuvem.
 
-**Baixe o relatório de transparência mais recente: [examinando os resultados de teste de laboratórios do se, January-March 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
+**Baixe o relatório de transparência mais recente: Examinando os resultados do teste da [SE Labs, January-March 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
 
-- Enterprise Endpoint Protection de setembro de 2020: [prêmio AAA](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/) <sup>**mais recente**</sup>
+- Enterprise Endpoint Protection de julho a setembro de 2020: prêmio [AAA mais](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/) <sup>**recente**</sup>
 
-    O produto de proteção de última geração da Microsoft interrompeu todos os ataques direcionados, mas perdeu algumas ameaças públicas.
+    O produto de proteção de próxima geração da Microsoft interrompeu todos os ataques direcionados, mas perdeu algumas ameaças públicas.
 
-- Enterprise Endpoint Protection de abril de 2020: [prêmio AAA](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
+- Proteção de Ponto de Extremidade Empresarial de abril – junho de 2020: prêmio [AAA](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
 
-- Enterprise Endpoint Protection de janeiro de 2020: <sup>**pdf**</sup>análise do pdf do [prêmio AAA](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
+- Enterprise Endpoint Protection de janeiro a março de 2020: prêmio [AAA de](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**análise em**</sup>  |  [PDF](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
-- Enterprise Endpoint Protection de outubro de dezembro de 2019: <sup>**PDF**</sup> de [prêmio AAA](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf)
+- Proteção de Ponto de Extremidade Empresarial de outubro a dezembro de 2019: prêmio [AAA](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) <sup>**pdf**</sup>
 
-- Enterprise Endpoint Protection de julho de setembro de 2019: <sup>**pdf**</sup>análise do pdf do [prêmio AAA](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
+- Enterprise Endpoint Protection de julho a setembro de 2019: prêmio [AAA de](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf) <sup>**análise em**</sup>  |  [PDF](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
 
-## <a name="endpoint-detection--response"></a>Resposta de detecção de ponto de extremidade &
+## <a name="endpoint-detection--response"></a>Detecção de ponto de extremidade & resposta
 
-Os recursos de [detecção e resposta](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) do Microsoft defender para pontos de extremidade de ponto de extremidade fornecem detecções de ataques avançados quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças.
+Os recursos de detecção e resposta de ponto de [extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) do Microsoft Defender para ponto de extremidade fornecem detecções avançadas de ataque que são quase em tempo real e ativas. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças.
 
-Os recursos do EDR e do Endpoint Protection do Microsoft defender para pontos de extremidade receberam resultados positivos de publicações e testes da indústria. O [SC Labs avaliou as ferramentas de segurança do ponto de extremidade](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) em junho de 2020 e forneceu o Microsoft defender para pontos de extremidade [5/5 estrelas](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/). Eles chamaram a capacidade do Microsoft defender para o ponto de extremidade para proteger as organizações contra o panorama de ameaças modernas usando um conjunto completo de recursos de segurança. O SC Labs também identificou a solução de segurança do ponto de extremidade como holística e unificada. Eles também confirmaram a convergência do Endpoint Protection com a funcionalidade de detecção e resposta de ponto de extremidade, porque a cadeia de ataques agora é totalmente coberta pelas soluções.
+O Microsoft Defender para EDR e os recursos de proteção de ponto de extremidade do Microsoft Defender receberam resultados positivos de testes e publicações do setor. [A SC Labs avaliou](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) as ferramentas de segurança de ponto de extremidade em junho de 2020 e deu ao Microsoft Defender para o Ponto de Extremidade [5/5 estrelas.](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/) Eles destacam a capacidade do Microsoft Defender para o Ponto de Extremidade de proteger as organizações contra o cenário de ameaças moderno usando um conjunto completo de recursos de segurança. A SC Labs também identificou a solução de segurança de ponto de extremidade como holística e unificada. Eles também reconheceram a convergência de proteção de ponto de extremidade com a funcionalidade de detecção e resposta de ponto de extremidade, porque a cadeia de ataque agora é totalmente coberta por soluções.
 
-### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>MITRE: recursos ópticos e de detecção líderes do setor
+### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>MITRE: recursos de detecção e ótica líderes do setor
 
-MITRE testou a capacidade dos produtos de detectar técnicas comumente usadas pelo grupo de ataques de destino APT3 (também conhecido como Boron ou no-break). Para isolar os recursos de detecção, todos os recursos de proteção e prevenção foram desativados. A Microsoft está feliz em ser um dos primeiros fornecedores do EDR a se inscrever para a avaliação do MITRE com base na estrutura ATT&CK. A estrutura é amplamente considerada hoje como o catálogo mais abrangente de técnicas e táticas de atacante.
+O MITRE testou a capacidade dos produtos de detectar técnicas comumente usadas pelo grupo de ataque direcionado APT3 (também conhecido como Boron ou UPS). Para isolar os recursos de detecção, todos os recursos de proteção e prevenção foram desligados. A Microsoft está feliz por ser um dos primeiros fornecedores de EDR a se inscrever para a avaliação mitre com base na estrutura da ATT&CK. A estrutura é amplamente considerada hoje como o catálogo mais abrangente de técnicas e táticas de invasores.
 
-- Avaliação baseada em ATT&CK do Microsoft defender para ponto de extremidade – dezembro de 2018: análise de [recursos de detecção e ópticos à esquerda](https://www.microsoft.com/security/blog/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)  |  [Analysis](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/MITRE-evaluation-highlights-industry-leading-EDR-capabilities-in/ba-p/369831)
+- AtT&CK baseada em CK do Microsoft Defender para Ponto de Extremidade – dezembro de 2018: análise de recursos de detecção e [ótica](https://www.microsoft.com/security/blog/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)líderes  |  [](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/MITRE-evaluation-highlights-industry-leading-EDR-capabilities-in/ba-p/369831)
 
-    O Microsoft defender para ponto de extremidade ofereceu cobertura abrangente de técnicas de atacante em toda a cadeia de ataques. Os destaques incluíam a amplitude da telemetria, a força da inteligência de ameaças e a detecção avançada e automática por meio de aprendizado de máquina, heurística e monitoramento de comportamento.
+    O Microsoft Defender para Ponto de Extremidade apresenta uma ampla cobertura de técnicas de invasores em toda a cadeia de ataque. Os destaques incluem a amplitude da telemetria, a força da inteligência contra ameaças e a detecção automática avançada por meio de aprendizado de máquina, heurística e monitoramento de comportamento.
 
-## <a name="to-what-extent-are-tests-representative-of-protection-in-the-real-world"></a>Para que ponto os representantes de proteção do são em testes no mundo real?
+## <a name="to-what-extent-are-tests-representative-of-protection-in-the-real-world"></a>Até que ponto os testes representam a proteção no mundo real?
 
-Testes do setor de segurança independentes visa avaliar os melhores produtos antivírus e de segurança de uma maneira não tendenciosa. No entanto, a Microsoft reconhece um conjunto mais amplo e abrangente de ameaças além do que é testado nas avaliações realçadas neste artigo. Em um mês médio, os produtos de segurança da Microsoft identificam mais de 100 milhões novas ameaças. Mesmo que um testador independente possa adquirir e testar 1% dessas ameaças, isso é um milhão de testes em 20 ou 30 produtos. Em outras palavras, a vastabilidade do cenário de malware dificulta a avaliação da qualidade da proteção contra ameaças reais.
+Os testes independentes do setor de segurança visam avaliar os melhores produtos antivírus e de segurança de maneira imparável. No entanto, a Microsoft vê um conjunto maior e mais amplo de ameaças além do que é testado nas avaliações realçadas neste artigo. Em um mês médio, os produtos de segurança da Microsoft identificam mais de 100 milhões de novas ameaças. Mesmo que um testador independente possa adquirir e testar 1% dessas ameaças, isso é um milhão de testes em 20 ou 30 produtos. Em outras palavras, a imensidade do cenário de malware dificulta a avaliação da qualidade da proteção contra ameaças do mundo real.
 
-Os recursos do Microsoft defender para o ponto de extremidade fornecem [camadas adicionais de proteção](https://cloudblogs.microsoft.com/microsoftsecure/2017/12/11/detonating-a-bad-rabbit-windows-defender-antivirus-and-layered-machine-learning-defenses) que não são fatoradas em testes antivírus do setor e abordam algumas das ameaças mais recentes e mais sofisticadas. Isolar o AV do restante do defender para ponto de extremidade cria uma imagem parcial de como a pilha de segurança da Microsoft opera no mundo real. Por exemplo, a redução da superfície de ataque e a detecção de ponto de extremidade & recursos de resposta podem ajudar a impedir que o malware entre em dispositivos em primeiro lugar. Comprovamos que [o Microsoft defender para componentes de ponto de extremidade capturou amostras](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2ouJA) que o Microsoft defender antivírus perdeu nesses testes da indústria. É mais um representante da eficiência do pacote de segurança da Microsoft para proteger os clientes no mundo real.
+Os recursos do Microsoft Defender [](https://cloudblogs.microsoft.com/microsoftsecure/2017/12/11/detonating-a-bad-rabbit-windows-defender-antivirus-and-layered-machine-learning-defenses) para Endpoint fornecem camadas adicionais de proteção que não são fatoradas em testes antivírus do setor e abordam algumas das ameaças mais recentes e sofisticadas. Isolar o AV do restante do Defender para o Ponto de Extremidade cria uma imagem parcial de como a pilha de segurança da Microsoft opera no mundo real. Por exemplo, a redução de superfície de ataque e a detecção de ponto de extremidade & recursos de resposta podem ajudar a impedir que malware entre em dispositivos. Provamos que o [Microsoft Defender para componentes de](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2ouJA) ponto de extremidade captura amostras que o Microsoft Defender Antivírus perdeu nesses testes do setor. É mais representativo da eficiência com que o pacote de segurança da Microsoft protege os clientes no mundo real.
 
-[Saiba mais sobre o Microsoft defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) e avalie-o em sua própria rede inscrevendo-se para obter uma [avaliação de 90 dias do Microsoft defender para ponto de extremidade](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp)ou [habilitar recursos de visualização em locatários existentes](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preview).
+Saiba mais sobre o [Microsoft Defender para](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) Ponto de Extremidade e avalie-o em sua própria rede se insndo para uma avaliação de [90](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp)dias do Microsoft Defender para Ponto de Extremidade ou habilitando recursos de Visualização em locatários [existentes.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preview)
 
-[Saiba mais sobre o Microsoft 365 defender](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) ou [comece a usar o serviço](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
+[Saiba mais sobre o Microsoft 365 Defender](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) ou [comece a usar o serviço.](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)

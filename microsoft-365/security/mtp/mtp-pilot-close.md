@@ -1,10 +1,10 @@
 ---
-title: Resumindo seus resultados do projeto do Microsoft 365 defender piloto
-description: Conclua seu projeto piloto do Microsoft 365 defender preenchendo o Scorecard, analisando suas descobertas de relatórios e decidindo como mover para frente.
-keywords: Piloto de proteção contra ameaças da Microsoft, decida o que fazer após o projeto piloto de proteção contra ameaças da Microsoft, o que fazer depois de avaliar a proteção contra ameaças da Microsoft em produção, transição do Microsoft Threat Protection Pilot para implantação, segurança da CyberSource, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, caça
+title: Resumindo os resultados do projeto piloto do Microsoft 365 Defender
+description: Conclua seu projeto piloto do Microsoft 365 Defender concluindo seu scorecard, analisando suas descobertas de relatório e decidindo como avançar.
+keywords: Piloto da Proteção contra Ameaças da Microsoft, decida o que fazer depois do projeto piloto da Proteção contra Ameaças da Microsoft, o que fazer depois de avaliar a Proteção contra Ameaças da Microsoft em produção, transição do piloto da Proteção contra Ameaças da Microsoft para a implantação, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -20,14 +20,15 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 3fe5bfdec566b0988d9f565595624fc8dd597788
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.technology: m365d
+ms.openlocfilehash: c8608568301f11a20c940a5ff9f1c205ce6e48f1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130908"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930157"
 ---
-# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Fechar e resumir seu piloto do Microsoft 365 defender  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Fechar e resumir o piloto do Microsoft 365 Defender  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -44,23 +45,23 @@ ms.locfileid: "49130908"
 
 Você está atualmente na fase de fechamento e resumo.
 
-Você acabou de executar uma simulação avançada de ataque somente de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft defender for Endpoint e o Microsoft defender para identidade detectam e criam alertas sobre atividades mal-intencionadas fraudulentas. Você também viu como os alertas de fontes diferentes são entregues junto com outras informações contextuais em um único incidente no portal da central de segurança do Microsoft 365. A integração desse tipo permite que analistas do SOC investiguem e tomem a ação necessária. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
+Você acabou de executar uma simulação avançada de ataque somente de memória que executou código remotamente em um controlador de domínio. Você viu como o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Identidade detectam e criam alertas sobre atividades maliciosas maliciosas. Você também viu como os alertas de diferentes fontes são entregues junto com outras informações contextuais em um único incidente no portal da Central de Segurança do Microsoft 365. Experimentar essa integração permite que analistas de SOC investiguem e tomem as medidas necessárias. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
 
-Você atingiu o final do processo após todos os testes terem concluído.
+Você chegou ao final do processo após a conclusão de todos os testes.
 
 A saída final deve ser:
 
 - Um scorecard concluído
-- Um relatório detalhado das conclusões do piloto
-- Uma decisão sobre como mover para frente
+- Um relatório detalhado das descobertas do piloto
+- Uma decisão sobre como avançar
 
-Apresente os relatórios de sua saída final para os participantes internos (identificados durante a fase de [preparação](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) ) e contatos da Microsoft. Tal esforço garante que qualquer feedback possa ser usado para melhorar os produtos e a documentação.
+Apresente os relatórios de sua saída final aos participantes internos [](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) (que você identificou durante a fase de preparação) e aos contatos da Microsoft. Tal esforço garante que qualquer comentário possa ser usado para melhorar os produtos e a documentação.
 
-Esperamos que você tenha aproveitado essa simulação. Comece a implementar o que você aprendeu em uma escala maior em sua organização para aproveitar ao máximo a solução de segurança integrada.
+Esperamos que você adoeçou essa simulação. Comece a implementar o que você aprendeu em grande escala em sua organização para tirar o máximo da solução de segurança integrada.
 
 ## <a name="next-step"></a>Próxima etapa
-Saiba mais sobre os pilares do Microsoft 365 defender por meio dos seguintes guias interativos:
-- [Proteger sua organização com o Microsoft defender para Office 365](https://aka.ms/O365ATP-Interactive-Guide)
-- [Detecção de atividades suspeitas e possíveis ataques com o Microsoft Defender para Identidade](https://aka.ms/AATP-Interactive-Guide)
-- [Detectar ameaças e gerenciar alertas com o Microsoft Cloud app Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
-- [Investigue e corrija ameaças com o Microsoft defender para ponto de extremidade](https://aka.ms/MDATP-IR-Interactive-Guide)
+Saiba mais sobre os pilares do Microsoft 365 Defender por meio dos seguintes guias interativos:
+- [Proteja sua organização com o Microsoft Defender para Office 365](https://aka.ms/O365ATP-Interactive-Guide)
+- [Detectar atividades suspeitas e possíveis ataques com o Microsoft Defender for Identity](https://aka.ms/AATP-Interactive-Guide)
+- [Detectar ameaças e gerenciar alertas com o Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
+- [Investigar e remediar ameaças com o Microsoft Defender para Ponto de Extremidade](https://aka.ms/MDATP-IR-Interactive-Guide)

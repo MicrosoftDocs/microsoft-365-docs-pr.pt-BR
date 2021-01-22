@@ -4,7 +4,7 @@ description: Saiba mais sobre as informações associadas à entidade de serviç
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, AlertInfo, alerta, entidades, evidências, arquivo, endereço IP, dispositivo, computador, usuário, conta, identidade, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 42acf24ce9b941fffb1ce0ed4b67216bd8c1de47
-ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
+ms.technology: m365d
+ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784294"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928613"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -52,23 +53,23 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | ----- | ----- | ---- |
 | `Timestamp` | datetime      | Data e hora em que o registro foi gerado                                                                                                     |
 | `Application`          | string        | Aplicativo que realizou a ação gravada                                                                                                   |
-| `ApplicationId`        | cadeia de caracteres        | Identificador exclusivo do aplicativo                                                                                                           |
+| `ApplicationId`        | string        | Identificador exclusivo do aplicativo                                                                                                           |
 | `IsManagedIdentity`    | booliano       | Indica se a login foi iniciada por uma identidade gerenciada                                                                               |
 | `ErrorCode`            | int        | Contém o código de erro se ocorrer um erro de login. Para encontrar uma descrição de um código de erro específico, <https://aka.ms/AADsigninsErrorCodes> visite. |
-| `CorrelationId`        | cadeia de caracteres        | Identificador exclusivo do evento de login                                                                                                          |
-| `ServicePrincipalName` | cadeia de caracteres        | Nome da entidade de serviço que iniciou a login                                                                                        |
-| `ServicePrincipalId`   | cadeia de caracteres        | Identificador exclusivo da entidade de serviço que iniciou a login                                                                           |
-| `ResourceDisplayName`  | cadeia de caracteres        | Nome de exibição do recurso acessado                                                                                                           |
-| `ResourceId`           | cadeia de caracteres        | Identificador exclusivo do recurso acessado                                                                                                      |
-| `ResourceTenantId`     | cadeia de caracteres        | Identificador exclusivo do locatário do recurso acessado                                                                                        |
-| `IPAddress`            | cadeia de caracteres        | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas                                                              |
-| `CountryCode`          | cadeia de caracteres        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocalado                                                                |
-| `State`                | cadeia de caracteres        | Estado em que ocorreu a login, se disponível                                                                                                  |
-| `City`                 | cadeia de caracteres        | Cidade onde o usuário da conta está localizado                                                                                                          |
-| `Latitude`             | cadeia de caracteres        | As coordenadas de norte para sul do local de login                                                                                          |
-| `Longitude`            | cadeia de caracteres        | As coordenadas de leste para oeste do local de login                                                                                            |
-| `RequestId`            | cadeia de caracteres        | Identificador exclusivo da solicitação                                                                                                                |
-|`ReportId` | cadeia de caracteres | Identificador exclusivo do evento | 
+| `CorrelationId`        | string        | Identificador exclusivo do evento de login                                                                                                          |
+| `ServicePrincipalName` | string        | Nome da entidade de serviço que iniciou a login                                                                                        |
+| `ServicePrincipalId`   | string        | Identificador exclusivo da entidade de serviço que iniciou a login                                                                           |
+| `ResourceDisplayName`  | string        | Nome de exibição do recurso acessado                                                                                                           |
+| `ResourceId`           | string        | Identificador exclusivo do recurso acessado                                                                                                      |
+| `ResourceTenantId`     | string        | Identificador exclusivo do locatário do recurso acessado                                                                                        |
+| `IPAddress`            | string        | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas                                                              |
+| `CountryCode`          | string        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocalado                                                                |
+| `State`                | string        | Estado em que ocorreu a login, se disponível                                                                                                  |
+| `City`                 | string        | Cidade onde o usuário da conta está localizado                                                                                                          |
+| `Latitude`             | string        | As coordenadas de norte para sul do local de login                                                                                          |
+| `Longitude`            | string        | As coordenadas de leste para oeste do local de login                                                                                            |
+| `RequestId`            | string        | Identificador exclusivo da solicitação                                                                                                                |
+|`ReportId` | string | Identificador exclusivo do evento | 
 
  
 

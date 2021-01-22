@@ -1,9 +1,9 @@
 ---
-title: Criar um aplicativo para acessar o Microsoft 365 defender sem um usuário
-description: Saiba como criar um aplicativo para acessar o Microsoft 365 defender sem um usuário.
-keywords: aplicativo, Access, API, criar
+title: Criar um aplicativo para acessar o Microsoft 365 Defender sem um usuário
+description: Saiba como criar um aplicativo para acessar o Microsoft 365 Defender sem um usuário.
+keywords: app, access, api, create
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: de925fa52056a051592fe5024c0abd40b51ad57b
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: f438189b4ba9fb66124650782b3de2ee34dfee64
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719351"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928433"
 ---
-# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a>Criar um aplicativo para acessar o Microsoft 365 defender sem um usuário
+# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a>Criar um aplicativo para acessar o Microsoft 365 Defender sem um usuário
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,76 +36,76 @@ ms.locfileid: "49719351"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> Algumas informações estão relacionadas a produtos de pré-lançamento que podem ser substancialmente modificados antes de serem lançadas comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-Esta página descreve como criar um aplicativo para obter acesso programático ao Microsoft 365 defender sem um usuário definido — por exemplo, se você estiver criando um daemon ou serviço de plano de fundo.
+Esta página descreve como criar um aplicativo para obter acesso programático ao Microsoft 365 Defender sem um usuário definido— por exemplo, se você estiver criando um daemon ou serviço em segundo plano.
 
-Se você precisar de acesso programático ao Microsoft 365 defender em nome de um ou mais usuários, confira [criar um aplicativo para acessar as APIs do microsoft 365 defender em nome de um usuário](api-create-app-user-context.md) e [criar um aplicativo com acesso de parceiro às apis do Microsoft 365 defender](api-partner-access.md). Se você não tiver certeza sobre qual tipo de acesso precisa, consulte [introdução](api-access.md).
+Se você precisar de acesso programático ao Microsoft 365 Defender em nome de um ou mais usuários, confira Criar um aplicativo para acessar as APIs do [Microsoft 365 Defender](api-create-app-user-context.md) em nome de um usuário e criar um aplicativo com acesso de parceiro às APIs do Microsoft [365 Defender.](api-partner-access.md) Se você não tiver certeza de que tipo de acesso precisa, confira [Começar.](api-access.md)
 
-O Microsoft 365 defender expõe grande parte de seus dados e ações por meio de um conjunto de APIs de programação. Essas APIs ajudam a automatizar os fluxos de trabalho e a usar os recursos do Microsoft 365 defender. Este acesso à API requer autenticação do OAuth 2.0. Para obter mais informações, consulte [fluxo de código de autorização do OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+O Microsoft 365 Defender expõe grande parte de seus dados e ações por meio de um conjunto de APIs programáticas. Essas APIs ajudam a automatizar fluxos de trabalho e usar os recursos do Microsoft 365 Defender. Esse acesso à API requer autenticação OAuth2.0. Para obter mais informações, consulte [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
-Em geral, você precisará executar as seguintes etapas para usar estas APIs:
+Em geral, você precisará seguir as seguintes etapas para usar essas APIs:
 
-- Criar um aplicativo do Azure Active Directory (Azure AD).
-- Obtenha um token de acesso usando este aplicativo.
-- Use o token para acessar a API do Microsoft 365 defender.
+- Crie um aplicativo do Azure Active Directory (Azure AD).
+- Obter um token de acesso usando este aplicativo.
+- Use o token para acessar a API do Microsoft 365 Defender.
 
 Este artigo explica como:
 
 - Criar um aplicativo do Azure AD
-- Obter um token de acesso para o Microsoft 365 defender
+- Obter um token de acesso para o Microsoft 365 Defender
 - Valide o token.
 
 ## <a name="create-an-app"></a>Criar um aplicativo
 
-1. Entre no [Azure](https://portal.azure.com) como um usuário com a função de **administrador global** .
+1. Entre no [Azure como um](https://portal.azure.com) usuário com a função de Administrador **Global.**
 
-2. Navegue até registro de aplicativo **do Azure Active Directory**  >    >  **novo registro**.
+2. Navegue até registros de aplicativo **do Azure Active Directory** Novo  >    >  **registro.**
 
-   ![Imagem do Microsoft Azure e de navegação para o registro de aplicativo](../../media/atp-azure-new-app2.png)
+   ![Imagem do Microsoft Azure e navegação para o registro do aplicativo](../../media/atp-azure-new-app2.png)
 
-3. No formulário, escolha um nome para o aplicativo e, em seguida, selecione **registrar**.
+3. In the form, choose a name for your application, then select **Register**.
 
-4. Na página do aplicativo, selecione **permissões de API**  >  **Adicionar**  >  **APIs de permissão minha organização usa** >, digite **proteção contra ameaças da Microsoft** e selecione **proteção contra ameaças da Microsoft**. Seu aplicativo agora pode acessar o Microsoft 365 defender.
+4. Na página do seu aplicativo, selecione Permissões de API Adicionar **APIs** de permissão que minha organização usa >, digite Proteção contra Ameaças da Microsoft e selecione  >    >   Proteção contra Ameaças **da Microsoft.**  Seu aplicativo agora pode acessar o Microsoft 365 Defender.
 
    > [!TIP]
-   > A *proteção contra ameaças da Microsoft* é um nome anterior para o Microsoft 365 defender e não aparecerá na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparece.
+   > *A Proteção contra* Ameaças da Microsoft é um nome antigo do Microsoft 365 Defender e não aparecerá na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparecer.
 
-   ![Imagem da seleção de permissão de API](../../media/apis-in-my-org-tab.PNG)
+   ![Imagem da seleção de permissão da API](../../media/apis-in-my-org-tab.PNG)
 
-5. Selecione **permissões do aplicativo**. Escolha as permissões relevantes para o seu cenário (por exemplo, **incidente. Read. All**) e selecione **adicionar permissões**.
+5. Selecione **permissões de aplicativo.** Escolha as permissões relevantes para seu cenário (por exemplo, **Incident.Read.All**) e, em seguida, **selecione Adicionar permissões**.
 
    ![Imagem de acesso à API e seleção de API](../../media/request-api-permissions.PNG)
 
     > [!NOTE]
-    > Você precisa selecionar as permissões relevantes para o seu cenário. *Ler todos os incidentes* é apenas um exemplo. Para determinar qual permissão você precisa, consulte a seção **permissões** na API que você deseja chamar.
+    > Você precisa selecionar as permissões relevantes para seu cenário. *Ler todos os incidentes* é apenas um exemplo. Para determinar de que permissão você precisa, consulte a seção **Permissões** na API que você deseja chamar.
     >
-    > Por exemplo, para [executar consultas avançadas](api-advanced-hunting.md), selecione a permissão "executar consultas avançadas"; para [isolar um dispositivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine), selecione a permissão "isolar máquina".
+    > Por exemplo, para [executar consultas avançadas,](api-advanced-hunting.md)selecione a permissão "Executar consultas avançadas"; para [isolar um dispositivo,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine)selecione a permissão "Isolar máquina".
 
-6. Selecione **conceder consentimento do administrador**. Toda vez que você adicionar uma permissão, deverá selecionar **conceder consentimento de administrador** para que ela entre em vigor.
+6. Selecione **Conceder consentimento de administrador.** Sempre que adicionar uma permissão, você deve selecionar Conceder **consentimento de administrador** para que ela entre em vigor.
 
     ![Imagem de conceder permissões](../../media/grant-consent.PNG)
 
-7. Para adicionar um segredo ao aplicativo, selecione **certificados & segredos**, adicione uma descrição ao segredo e, em seguida, selecione **Adicionar**.
+7. Para adicionar um segredo ao aplicativo, selecione Certificados & **segredos,** adicione uma descrição ao segredo e selecione **Adicionar**.
 
     > [!TIP]
-    > Depois de selecionar **Adicionar**, selecione **copiar o valor de segredo gerado**. Você não poderá recuperar o valor secreto após sair.
+    > Depois de selecionar **Adicionar,** selecione **copiar o valor secreto gerado.** Você não poderá recuperar o valor secreto depois de sair.
 
-    ![Imagem da chave de criação de aplicativo](../../media/webapp-create-key2.png)
+    ![Imagem de criar chave do aplicativo](../../media/webapp-create-key2.png)
 
-8. Registre a ID do aplicativo e sua ID de locatário em algum lugar seguro. Eles estão listados em **visão geral** na página do aplicativo.
+8. Grave sua ID de aplicativo e sua ID de locatário em algum lugar seguro. Eles estão listados em **Visão Geral** na página do aplicativo.
 
    ![Imagem da ID do aplicativo criado](../../media/app-and-tenant-ids.png)
 
-9. **Somente para parceiros do microsoft 365 defender**: [siga estas instruções](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access) para acesso de parceiros por meio das APIs do Microsoft 365 defender, defina seu aplicativo como multilocatário, para que ele possa estar disponível em todos os locatários quando você receber o consentimento do administrador. O acesso do parceiro é **necessário** para aplicativos de terceiros — por exemplo, se você criar um aplicativo destinado a ser executado em vários locatários de clientes. Ela **não será necessária** se você criar um serviço que você deseja executar somente em seu locatário, como um aplicativo para seu próprio uso que só interaja com seus próprios dados. Para definir seu aplicativo como multilocatário:
+9. Somente para parceiros do Microsoft [](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access) **365 Defender:** siga estas instruções para acesso de parceiros por meio das APIs do Microsoft 365 Defender, de definidas como multi-locatários, para que ele possa estar disponível em todos os locatários depois que você receber o consentimento do administrador. O acesso de parceiros **é necessário** para aplicativos de terceiros— por exemplo, se você criar um aplicativo que se destina a ser executado em locatários de vários clientes. Não será **necessário se** você criar um serviço que deseja executar somente em seu locatário, como um aplicativo para seu próprio uso que só interagirá com seus próprios dados. Para definir seu aplicativo como multi-locatário:
 
-    - Vá para **autenticação** e adicione https://portal.azure.com como o **URI de redirecionamento**.
+    - Vá para **Autenticação** e adicione https://portal.azure.com como o **URI de redirecionamento.**
 
-    - Na parte inferior da página, em **tipos de conta com suporte**, selecione as **contas em qualquer** consentimento de aplicativo de diretório organizacional para seu aplicativo de vários locatários.
+    - Na parte inferior da página, em Tipos  de conta com **suporte,** selecione as Contas em qualquer consentimento do aplicativo de diretório organizacional para seu aplicativo multi-locatário.
 
-    Como o seu aplicativo interage com o Microsoft 365 defender em nome dos seus usuários, ele precisa ser aprovado para cada locatário em que você pretende usá-lo.
+    Como seu aplicativo interage com o Microsoft 365 Defender em nome de seus usuários, ele precisa ser aprovado para todos os locatários em que você pretende usá-lo.
 
-    O administrador global do Active Directory para cada locatário precisa selecionar o link de consentimento e aprovar o aplicativo.
+    O administrador global do Active Directory para cada locatário precisa selecionar o link de consentimento e aprovar seu aplicativo.
 
     O link de consentimento tem a seguinte estrutura:
 
@@ -114,14 +115,14 @@ Este artigo explica como:
 
     Os dígitos `00000000-0000-0000-0000-000000000000` devem ser substituídos pela ID do aplicativo.  
 
-**Terminado!** Você registrou com êxito um aplicativo! Confira os exemplos abaixo para obter uma aquisição de token e validação.
+**Pronto!** Você registrou com êxito um aplicativo! Veja os exemplos abaixo para aquisição e validação de token.
 
 ## <a name="get-an-access-token"></a>Obter um token de acesso
 
-Para obter mais informações sobre tokens do Azure Active Directory, consulte o [tutorial do Azure ad](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).
+Para saber mais sobre tokens do Azure Active Directory, confira o [tutorial do Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
-> Embora os exemplos nesta seção incentivem que você cole valores secretos para fins de teste, você **nunca codifica segredos** em um aplicativo executado na produção. Uma terceira parte pode usar seu segredo para acessar recursos. Você pode ajudar a manter os segredos do seu aplicativo seguros usando o [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates). Para obter um exemplo prático de como você pode proteger seu aplicativo, confira [gerenciar segredos em seus aplicativos de servidor com o Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/).
+> Embora os exemplos nesta seção incentivem você a colar valores  secretos para fins de teste, você nunca deve codificar segredos em um aplicativo em execução na produção. Terceiros podem usar seu segredo para acessar recursos. Você pode ajudar a manter os segredos do seu aplicativo seguros usando o [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Para ver um exemplo prático de como você pode proteger seu aplicativo, confira Gerenciar segredos em seus aplicativos de servidor com o [Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 
 ### <a name="get-an-access-token-using-powershell"></a>Obter um token de acesso usando o PowerShell
 
@@ -153,11 +154,11 @@ return $token
 ### <a name="get-an-access-token-using-c"></a>Obter um token de acesso usando C\#
 
 > [!NOTE]
-> O código a seguir foi testado com o NuGet Microsoft. IdentityModel. clients. ActiveDirectory 3.19.8.
+> O código a seguir foi testado com Nuget Microsoft.IdentityModel.Clients.ActiveDirectory 3.19.8.
 
-1. Criar um novo aplicativo de console.
+1. Crie um novo aplicativo de console.
 
-1. Instale [o NuGet Microsoft. IdentityModel. clients. ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
+1. Instale o NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
 
 1. Adicione a seguinte linha:
 
@@ -165,7 +166,7 @@ return $token
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     ```
 
-1. Copie e cole o código a seguir em seu aplicativo (não se esqueça de atualizar as três variáveis: `tenantId` , `clientId` , `appSecret` ):
+1. Copie e colar o seguinte código em seu aplicativo (não se esqueça de atualizar as três variáveis: `tenantId` , `clientId` `appSecret` ):
 
     ```C#
     string tenantId = ""; // Paste your directory (tenant) ID here
@@ -181,7 +182,7 @@ return $token
     string token = authenticationResult.AccessToken;
     ```
 
-### <a name="get-an-access-token-using-python"></a>Obter um token de acesso usando Python
+### <a name="get-an-access-token-using-python"></a>Obter um token de acesso usando o Python
 
 ```Python
 import json
@@ -211,16 +212,16 @@ jsonResponse = json.loads(response.read())
 aadToken = jsonResponse["access_token"]
 ```
 
-### <a name="get-an-access-token-using-curl"></a>Obter um token de acesso usando ondulação
+### <a name="get-an-access-token-using-curl"></a>Obter um token de acesso usando o token de acesso
 
 > [!NOTE]
-> A ondulação é pré-instalada no Windows 10, versões 1803 e posteriores. Para outras versões do Windows, baixe e instale a ferramenta diretamente no [site oficial da ondulação](https://curl.haxx.se/windows/).
+> O Windows 10, versões 1803 e posteriores, foi pré-instalado. Para outras versões do Windows, baixe e instale a ferramenta diretamente do [site oficial do website.](https://curl.haxx.se/windows/)
 
-1. Abra um prompt de comando e defina CLIENT_ID para sua ID de aplicativo do Azure.
+1. Abra um prompt de comando e de definida CLIENT_ID sua ID de aplicativo do Azure.
 
-1. Defina CLIENT_SECRET como seu segredo de aplicativo do Azure.
+1. De CLIENT_SECRET seu segredo do aplicativo Azure.
 
-1. Defina TENANT_ID para a ID do locatário do Azure do cliente que deseja usar seu aplicativo para acessar o Microsoft 365 defender.
+1. De TENANT_ID a ID de locatário do Azure do cliente que deseja usar seu aplicativo para acessar o Microsoft 365 Defender.
 
 1. Execute o seguinte comando:
 
@@ -228,7 +229,7 @@ aadToken = jsonResponse["access_token"]
    curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
    ```
 
-   Uma resposta bem-sucedida terá a seguinte aparência:
+   Uma resposta bem-sucedida terá a aparência a seguir:
 
    ```bash
    {"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
@@ -236,21 +237,21 @@ aadToken = jsonResponse["access_token"]
 
 ## <a name="validate-the-token"></a>Validar o token
 
-1. Copie e cole o token no [site do validador de token de JSON Web, JWT,](https://jwt.ms) para decodificá-lo.
+1. Copie e colar o token no site do validador de [token Web JSON, JWT,](https://jwt.ms) para decodificá-lo.
 
-1. Certifique-se de que a declaração de *funções* dentro do token decodificado contenha as permissões desejadas.
+1. Certifique-se de *que a* declaração de funções dentro do token decodificado contém as permissões desejadas.
 
-   Na imagem a seguir, você pode ver um token decodificado adquirido de um aplicativo, `Incidents.Read.All` com `Incidents.ReadWrite.All` `AdvancedHunting.Read.All` as permissões e:
+   Na imagem a seguir, você pode ver um token decodificado adquirido de um aplicativo, com `Incidents.Read.All` `Incidents.ReadWrite.All` , e `AdvancedHunting.Read.All` permissões:
 
-   ![Imagem da validação do token](../../media/webapp-decoded-token.png)
+   ![Imagem de validação de token](../../media/webapp-decoded-token.png)
 
-## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>Usar o token para acessar a API do Microsoft 365 defender
+## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>Usar o token para acessar a API do Microsoft 365 Defender
 
-1. Escolha a API que você deseja usar (incidentes ou busca avançada). Para obter mais informações, consulte [supported Microsoft 365 defender APIs](api-supported.md).
+1. Escolha a API que você deseja usar (incidentes ou busca avançada). Para saber mais, confira [AS APIs do Microsoft 365 Defender com suporte.](api-supported.md)
 
-2. Na solicitação HTTP que você está prestes a enviar, defina o cabeçalho de autorização `"Bearer" <token>` , o *portador* como o esquema de autorização e o *token* que é o token validado.
+2. Na solicitação http que você está prestes a enviar, de definir o cabeçalho de autorização como , portador sendo o esquema de autorização e token sendo `"Bearer" <token>` seu token  validado. 
 
-3. O token expirará dentro de uma hora. Você pode enviar mais de uma solicitação durante esse tempo com o mesmo token.
+3. O token expirará dentro de uma hora. Você pode enviar mais de uma solicitação durante esse período com o mesmo token.
 
 O exemplo a seguir mostra como enviar uma solicitação para obter uma lista de incidentes **usando C#**.
 
@@ -265,12 +266,12 @@ O exemplo a seguir mostra como enviar uma solicitação para obter uma lista de 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral das APIs do Microsoft 365 defender](api-overview.md)
-- [Acessar as APIs do Microsoft 365 defender](api-access.md)
-- [Criar um aplicativo "Olá mundo"](api-hello-world.md)
-- [Criar um aplicativo para acessar as APIs do Microsoft 365 defender em nome de um usuário](api-create-app-user-context.md)
-- [Criar um aplicativo com acesso de parceiro multilocatário às APIs do Microsoft 365 defender](api-partner-access.md)
-- [Saiba mais sobre limites de API e licenciamento](api-terms.md)
-- [Entender códigos de erro](api-error-codes.md)
+- [Visão geral das APIs do Microsoft 365 Defender](api-overview.md)
+- [Acessar as APIs do Microsoft 365 Defender](api-access.md)
+- [Criar um aplicativo "Hello world"](api-hello-world.md)
+- [Criar um aplicativo para acessar as APIs do Microsoft 365 Defender em nome de um usuário](api-create-app-user-context.md)
+- [Criar um aplicativo com acesso de parceiro multi-locatário às APIs do Microsoft 365 Defender](api-partner-access.md)
+- [Saiba mais sobre limites e licenciamento de API](api-terms.md)
+- [Noções sobre códigos de erro](api-error-codes.md)
 - [Gerenciar segredos em seus aplicativos de servidor com o Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
-- [Autorização OAuth 2,0 para entrada de usuário e acesso à API](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [Autorização do OAuth 2.0 para entrada do usuário e acesso à API](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

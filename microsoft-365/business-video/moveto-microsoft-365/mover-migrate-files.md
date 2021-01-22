@@ -15,24 +15,25 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como migrar arquivos do Google para o Microsoft 365 para empresas usando o Mover.
-ms.openlocfilehash: a6f9dbf7803cb552c23b6c6abb13d13d6f3eda5d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 99040e4846aba084f40536e88f0aed70998f48be
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794566"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928193"
 ---
 # <a name="migrate-google-files-to-microsoft-365-for-business"></a>Migrar arquivos do Google para o Microsoft 365 para empresas 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MhaD?autoplay=false]
 
-Ao migrar para o Microsoft 365 para empresas, você vai querer migrar seus arquivos do Google Drive. Você pode usar o aplicativo Mover para mover arquivos de unidades pessoais e compartilhadas. Para obter mais informações, consulte [Mover Cloud Migration](https://docs.microsoft.com/sharepointmigration/mover-plan-migration)
+Ao migrar para o Microsoft 365 para empresas, você vai querer migrar seus arquivos do Google Drive. Você pode usar o aplicativo Mover para mover arquivos de Unidades pessoais e compartilhadas. Para obter mais informações, consulte [Mover Cloud Migration](https://docs.microsoft.com/sharepointmigration/mover-plan-migration)
 
 > [!NOTE]
 > O Mover fará uma cópia dos arquivos e move as cópias para o Microsoft 365 para empresas. Os arquivos originais também permanecerão no Google Drives.
@@ -45,11 +46,11 @@ Todos os usuários devem ter feito o acesso ao Microsoft 365 para empresas e con
 
 ### <a name="install-mover"></a>Instalar o Mover
 
-1. Entre no console de administração do Google Workspace em [admin.google.com.](https://admin.google.com)
+1. Entre no console de administração do Espaço de Trabalho do Google [admin.google.com.](https://admin.google.com)
 
 1. Choose **Apps**, **Google Workspace Marketplace apps**, Then Add app to Domain Install **list**.
 
-1. Pesquise o Mover e selecione-o.
+1. Procure o Mover e selecione-o.
 
 1. Choose **Domain Install**, then **Continue**.
 
@@ -71,7 +72,7 @@ Todos os usuários devem ter feito o acesso ao Microsoft 365 para empresas e con
 1. Selecione **Office 365 Mover**, **Permissões,** **Conceder consentimento de administrador para sua empresa**.
 1. Escolha sua conta, revise as permissões e selecione **Aceitar**.
 1. Choose **Properties** and verify that **User assignment required?** is turned on.
-1. Retorne ao aplicativo Mover, altere **o** Nome para Exibição, se quiser, escolha **Autorizar** e selecione uma conta de administrador da Microsoft.
+1. Retorne ao aplicativo Mover, altere o **Nome** para Exibição, se quiser, escolha **Autorizar** e selecione uma conta de administrador da Microsoft.
 
     O Mover informará sobre o número de sites e usuários do SharePoint Online (ou SPO) descobertos.
 1. Choose **Continue Migration Setup**, select Add **Users**, then Automatically Discover and **Add Users**.

@@ -1,10 +1,10 @@
 ---
-title: Obter informações relevantes sobre uma entidade com busca no go
-description: Saiba como usar a ferramenta "buscar busca" para consultar rapidamente informações relevantes sobre uma entidade ou um evento usando a busca avançada.
-keywords: caça avançada, incidente, pivô, entidade, busca de Go, eventos relevantes, busca de ameaças, busca de ameaças no cyber, pesquisa, consulta, telemetria, Microsoft 365, proteção contra ameaças da Microsoft
+title: Obter informações relevantes sobre uma entidade em busca de ir
+description: Saiba como usar a ferramenta ir para busca para consultar rapidamente informações relevantes sobre uma entidade ou evento usando a busca avançada.
+keywords: busca avançada, incidente, pivô, entidade, ir à busca, eventos relevantes, busca de ameaças, busca de ameaças cibernéticas, pesquisa, consulta, telemetria, Microsoft 365, Proteção contra Ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,44 +19,45 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 9ddad74d179ac16a25640e2bdf4ed4906f920102
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 9e707fe8b3dff40d0698630cd0592b297042e5fb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846875"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929497"
 ---
-# <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Busca rápida de informações de entidade ou de evento com busca no go
+# <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Busca rápida por informações de entidade ou evento com a busca
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-Com a ação de *busca do Go* , você pode investigar rapidamente eventos e vários tipos de entidade usando recursos [avançados de busca avançada](advanced-hunting-overview.md) baseados em consulta. Esta ação executa automaticamente uma consulta de busca avançada para localizar informações relevantes sobre o evento ou entidade selecionado.
+Com a *ação de busca de* ir, você pode investigar rapidamente eventos e vários tipos de entidade usando recursos avançados de busca avançados baseados [em](advanced-hunting-overview.md) consulta poderosos. Essa ação executa automaticamente uma consulta de busca avançada para encontrar informações relevantes sobre o evento ou entidade selecionada.
 
-A ação ir para a *busca* está disponível em várias seções da central de segurança sempre que os detalhes do evento ou da entidade são exibidos. Por exemplo, você pode usar a *busca do Go* das seguintes seções:
+A *ação de busca de* ir está disponível em várias seções do centro de segurança sempre que os detalhes do evento ou da entidade são exibidos. Por exemplo, você pode usar *a busca nas* seguintes seções:
 
-- Na [página incidente](investigate-incidents.md#incident-overview), você pode revisar detalhes sobre usuários, dispositivos e muitas outras entidades associadas a um incidente. À medida que você seleciona uma entidade, obtém informações adicionais, bem como várias ações que podem ser executadas naquele entitity. No exemplo abaixo, uma caixa de correio é selecionada, mostrando os detalhes sobre a caixa de correio, bem como a opção de busca para obter mais informações sobre a caixa de correio.
+- Na página [de incidentes,](investigate-incidents.md#incident-overview)você pode analisar detalhes sobre usuários, dispositivos e muitas outras entidades associadas a um incidente. À medida que você seleciona uma entidade, você pode obter informações adicionais, bem como várias ações que podem ser tomadas sobre essa direitos. No exemplo a seguir, uma caixa de correio é selecionada, mostrando detalhes sobre a caixa de correio, bem como a opção para procurar mais informações sobre a caixa de correio.
 
-    ![Imagem mostrando os detalhes da caixa de correio com a opção ir para a busca](../../media/mtp-ah/go-hunt-email.png)
+    ![Imagem mostrando detalhes da caixa de correio com a opção de busca de ir](../../media/mtp-ah/go-hunt-email.png)
 
-- Na página incidente, você também pode acessar uma lista de entidades na guia evidência. Selecionar uma dessas entidades oferece uma opção de busca rápida de informações sobre essa entidade.
+- Na página de incidentes, você também pode acessar uma lista de entidades na guia evidências. Selecionar uma dessas entidades oferece uma opção para rapidamente procurar informações sobre essa entidade.
 
-    ![Imagem mostrando o arquivo selecionado com a opção ir para a busca na guia evidência](../../media/mtp-ah/go-hunt-evidence-file.png)
+    ![Imagem mostrando o arquivo selecionado com a opção ir para busca na guia Evidências](../../media/mtp-ah/go-hunt-evidence-file.png)
 
 
-- Ao exibir a linha do tempo de um dispositivo, você pode selecionar um evento na linha do tempo para exibir informações adicionais sobre o evento. Depois que um evento for selecionado, você terá a opção de procurar outros eventos relevantes na busca avançada.
+- Ao exibir a linha do tempo de um dispositivo, você pode selecionar um evento na linha do tempo para exibir informações adicionais sobre esse evento. Depois que um evento é selecionado, você tem a opção de procurar outros eventos relevantes na busca avançada.
 
-    ![Imagem mostrando detalhes do evento com a opção ir para a busca](../../media/mtp-ah/go-hunt-event.png)
+    ![Imagem mostrando detalhes do evento com a opção de busca de ir](../../media/mtp-ah/go-hunt-event.png)
 
-Selecionar a **busca de ir** ou procurar **eventos relacionados passa por** diferentes consultas, dependendo se você selecionou uma entidade ou um evento.
+Selecionar **Ir para busca** ou **procurar** eventos relacionados passa por consultas diferentes, dependendo se você selecionou uma entidade ou um evento.
 
-## <a name="query-for-entity-information"></a>Consultar informações da entidade
-Ao usar a *busca do Go* para consultar informações sobre um usuário, dispositivo ou qualquer outro tipo de entidade, a consulta verifica todas as tabelas de esquema relevantes para todos os eventos que envolvem essa entidade. Para manter os resultados gerenciáveis, a consulta tem o escopo em torno do mesmo período de tempo que a atividade mais antiga nos últimos 30 dias que envolve a entidade e é associada ao incidente.
+## <a name="query-for-entity-information"></a>Consulta por informações de entidade
+Ao usar *ir* à busca para consultar informações sobre um usuário, dispositivo ou qualquer outro tipo de entidade, a consulta verifica todas as tabelas de esquema relevantes para quaisquer eventos envolvendo essa entidade. Para manter os resultados gerenciáveis, a consulta tem como escopo cerca do mesmo período de tempo que a atividade mais antiga nos últimos 30 dias que envolve a entidade e está associada ao incidente.
 
-Veja um exemplo da consulta de busca do Go para um dispositivo:
+Aqui está um exemplo da consulta de busca de ir para um dispositivo:
 
 ```kusto
 let selectedTimestamp = datetime(2020-06-02T02:06:47.1167157Z);
@@ -70,7 +71,7 @@ and DeviceName == deviceName
 | take 100
 ```
 ### <a name="supported-entity-types"></a>Tipos de entidade com suporte
-Você pode usar a *busca do Go* depois de selecionar qualquer um desses tipos de entidade:
+Você pode usar *ir à busca* após selecionar qualquer um desses tipos de entidade:
 
 - Arquivos
 - Emails
@@ -81,8 +82,8 @@ Você pode usar a *busca do Go* depois de selecionar qualquer um desses tipos de
 - Endereços IP
 - URLs
 
-## <a name="query-for-event-information"></a>Consultar informações de eventos
-Ao usar a *busca do Go* para consultar informações sobre um evento de linha do tempo, a consulta verifica todas as tabelas de esquema relevantes para outros eventos em torno do momento do evento selecionado. Por exemplo, a consulta a seguir lista os eventos em várias tabelas de esquema que ocorreram em torno do mesmo período de tempo no mesmo dispositivo:
+## <a name="query-for-event-information"></a>Consulta de informações sobre o evento
+Ao usar *ir à* busca para consultar informações sobre um evento de linha do tempo, a consulta verifica todas as tabelas de esquema relevantes para outros eventos em torno da hora do evento selecionado. Por exemplo, a consulta a seguir lista eventos em várias tabelas de esquema que ocorreram durante o mesmo período no mesmo dispositivo:
 
 ```kusto
 // List relevant events 30 minutes before and after selected LogonAttempted event
@@ -96,7 +97,7 @@ search in (DeviceFileEvents, DeviceProcessEvents, DeviceEvents, DeviceRegistryEv
 ```
 
 ## <a name="adjust-the-query"></a>Ajustar a consulta
-Com algum conhecimento da [linguagem de consulta](advanced-hunting-query-language.md), você pode ajustar a consulta à sua preferência. Por exemplo, você pode ajustar essa linha, que determina o tamanho da janela de tempo:
+Com algum conhecimento da [linguagem de consulta,](advanced-hunting-query-language.md)você pode ajustar a consulta à sua preferência. Por exemplo, você pode ajustar essa linha, que determina o tamanho da janela de tempo:
 
 ```kusto
 Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))

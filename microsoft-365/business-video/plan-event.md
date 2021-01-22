@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como planejar um evento com o Microsoft Planner.
-ms.openlocfilehash: f5ee4e63579c2c5f6493e16d27b7102d3b99b6d1
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: d978232dffaede882e81a491b4d927183781aa0f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701466"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928085"
 ---
 # <a name="use-microsoft-planner-to-plan-an-event"></a>Usar o Microsoft Planner para planejar um evento
 
@@ -34,35 +35,35 @@ ms.locfileid: "49701466"
 
 ## <a name="try-it"></a>Experimente!
 
-Use o Microsoft Planner para planejar um evento, como rastrear um lançamento de produto.
+Use o Microsoft Planner para planejar um evento, como acompanhar um lançamento de produto.
 
 ### <a name="work-with-buckets"></a>Trabalhar com buckets
 
-Use buckets para classificar tarefas por tipo, como o planejamento de eventos, material adicional de marketing e anúncios e PR.
+Use buckets para classificar tarefas por tipo, como planejamento de eventos, marketing e manuais de publicidade e PR.
 
-1. Selecione  **Adicionar novo Bucket**  e digite uma nova categoria de tarefa.
-2. Selecione  **+**  para adicionar tarefas a um Bucket e digite um nome.
-3. Selecione  **Adicionar tarefa**.
+1. Selecione  **Adicionar novo bucket e**  digite uma nova categoria de tarefa.
+2. Selecione  **+**  para adicionar tarefas a um bucket e digite um nome.
+3. Selecione **Adicionar Tarefa.**
 
 ### <a name="work-with-labels"></a>Trabalhar com rótulos
 
 Use rótulos para ver quais tarefas precisam de sua atenção.
 
-1. Digite os nomes dos rótulos.
+1. Digite nomes para seus rótulos.
 2. Selecione uma caixa colorida para remover ou adicionar um rótulo a uma tarefa.
 
 ## <a name="add-a-comment"></a>Adicione um comentário
 
-Poste um comentário para discutir uma tarefa com as pessoas às quais ele está atribuído.
+Poste um comentário para discutir uma tarefa com as pessoas às suas atribuídas.
 
-1. Digite uma mensagem na caixa  **comentários**  .
+1. Digite uma mensagem na caixa **Comentários.**
 2. Selecione  **Enviar**.
 
-### <a name="keep-track-of-tasks"></a>Acompanhar tarefas
+### <a name="keep-track-of-tasks"></a>Manter o controle de tarefas
 
-Use  **gráficos**  e o modo de exibição de  **quadro**  para monitorar o progresso de cada membro da equipe e o projeto geral, ou para classificar e organizar tarefas.
+Use  **o modo**  de  **exibição**  Gráficos e Quadros para monitorar o progresso de cada membro da equipe e o projeto geral, ou para classificar e organizar tarefas.
 
-- Selecione  **gráficos**, **Agrupar por** e, por fim, **data de conclusão**  para ver qual tarefa deve ser a próxima.
-- Selecione  **quadro**, **Agrupar por** e, finalmente, **progresso**  para classificar tarefas por progresso.
+- Selecione  **Gráficos**, **em seguida, Agrupar** por e, finalmente, **Data de**  vencimento para ver qual tarefa deve ser a seguir.
+- Select  **Board**, then **Group by**, and finally **Progress**  to sort tasks by progress.
 
-**Observação:**  As tarefas são organizadas por  **não iniciados**,  **em andamento** e  **concluídas**  para que você saiba quando estiver pronto para iniciar o produto.
+**Observação:**  As tarefas são organizadas por Não  **iniciadas** **,** Em andamento e Concluídas para que você saiba quando estiver pronto para iniciar seu produto.

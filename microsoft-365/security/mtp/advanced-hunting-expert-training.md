@@ -1,10 +1,10 @@
 ---
 title: Obter treinamento especializado em busca avançada
-description: Treinamento gratuito e orientações de especialistas de busca avançada
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, idioma, treinamento, cenários, básico para avançado, vídeos, passo a passo
+description: Treinamento gratuito e orientação de especialistas em busca avançada
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, idioma, treinamento, cenários, básico para avançado, vídeos, passo a passo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: c2772d0fc77e563bc80b0f29815349d1bfb3e2ea
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d7c2ccb12cb096359e558af9e1b4a962a9130be5
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842507"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929629"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Obter treinamento especializado em busca avançada
 
@@ -32,22 +33,22 @@ ms.locfileid: "48842507"
 
 
 **Aplica-se a:**
-- Microsoft 365 defender
+- Microsoft 365 Defender
 
-Aumente seu conhecimento de busca avançada rapidamente com _o acompanhamento do adversário_ , uma série de webcasts para novos analistas de segurança e hunterss de ameaça. A série orienta você pelas noções básicas, de forma a criar suas próprias consultas sofisticadas. Comece com o primeiro vídeo em conceitos básicos ou vá para vídeos mais avançados que se encontram seu nível de experiência.
+Aumente seu conhecimento da busca avançada rapidamente com o acompanhamento do _adversário,_ uma série de webcasts para novos analistas de segurança e busca experientes por ameaças. A série orienta você pelas noções básicas para criar suas próprias consultas sofisticadas. Comece com o primeiro vídeo sobre conceitos básicos ou pule para vídeos mais avançados que se adequam ao seu nível de experiência.
 
 
 | Título | Descrição | Relógio | Consultas | 
 |--|--|--|--|
-| Episódio 1: conceitos básicos do KQL | Este episódio cobre as noções básicas de busca avançada no Microsoft 365 defender. Saiba mais sobre dados de busca avançada disponíveis e sintaxe e operadores básicos de KQL. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
-| Episódio 2: junções | Continue aprendendo sobre dados em busca avançada e como ingressar em tabelas. Saiba mais sobre `inner` ,, `outer` `unique` e `semi` junções, e entenda as nuances da junção Kusto padrão `innerunique` . | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
-| Episódio 3: Resumindo, dinamizando e visualizando dados | Agora que você aprendeu a filtrar, manipular e participar de dados, é hora de resumir, quantificar, dinamizar e Visualizar. Este episódio discute o `summarize` operador e vários cálculos, enquanto introduz tabelas adicionais no esquema. Você também aprenderá a transformar conjuntos de tabelas em gráficos que podem ajudá-lo a extrair idéias. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
-| Episódio 4: Vamos procurar! Aplicando KQL ao rastreamento de incidentes | Neste episódio, você aprende a rastrear alguma atividade de atacante. Usamos nossa compreensão aprimorada do Kusto e busca avançada para rastrear um ataque. Aprenda os truques reais usados no campo, incluindo o ABCs de cybersecurity e como aplicá-los à resposta de incidentes. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)
+| Episódio 1: Conceitos básicos de KQL | Este episódio aborda as noções básicas da busca avançada no Microsoft 365 Defender. Saiba mais sobre os dados de busca avançada disponíveis e a sintaxe e os operadores KQL básicos. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
+| Episódio 2: Junções | Continue a aprender sobre os dados na busca avançada e como unir tabelas. Saiba mais `inner` sobre , , e `outer` `unique` `semi` junções, e entenda as nuances da junção padrão `innerunique` kusto. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
+| Episódio 3: Resumo, pivô e visualização de dados | Agora que você aprendeu a filtrar, manipular e ingressar dados, é hora de resumir, quantificar, girar e visualizar. Este episódio discute o operador `summarize` e vários cálculos, enquanto apresenta tabelas adicionais no esquema. Você também aprenderá a transformar conjuntos de dados em gráficos que podem ajudá-lo a extrair informações. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
+| Episódio 4: Vamos procurar! Aplicando KQL ao rastreamento de incidentes | Neste episódio, você aprende a acompanhar algumas atividades do invasor. Usamos nosso entendimento aprimorado do Kusto e da busca avançada para rastrear um ataque. Aprenda truques reais usados no campo, incluindo as ABCs de segurança cibernética e como aplicá-los à resposta a incidentes. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)
 
 ## <a name="how-to-use-the-csl-file"></a>Como usar o arquivo CSL
-Antes de iniciar um episódio, acesse o [arquivo de CSL Kusto correspondente no GitHub](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/tree/master/Webcasts/TrackingTheAdversary) e copie seu conteúdo para o editor de consulta de busca avançada. Ao assistir a um episódio, você pode usar o conteúdo copiado para acompanhar o alto-falante e executar as consultas. 
+Antes de começar um episódio, acesse o arquivo [CSL do Kusto](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/tree/master/Webcasts/TrackingTheAdversary) correspondente no GitHub e copie seu conteúdo para o editor de consulta de busca avançada. Enquanto assistir a um episódio, você pode usar o conteúdo copiado para seguir o orador e executar consultas. 
 
-O trecho a seguir de um arquivo CSL mostra um conjunto abrangente de orientações marcadas como comentários com o `//` .
+O trecho a seguir de um arquivo CSL mostra um conjunto abrangente de diretrizes marcadas como comentários com `//` .
 
 ```kusto
 // DeviceLogonEvents
@@ -60,7 +61,7 @@ O trecho a seguir de um arquivo CSL mostra um conjunto abrangente de orientaçõ
 // - Timestamp
 ```
 
-O mesmo arquivo CSL inclui consultas antes e depois dos comentários, como mostrado abaixo. Para executar uma consulta específica com [várias consultas no editor](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor), mova o cursor para a consulta e selecione **Executar consulta**.   
+O mesmo arquivo CSL inclui consultas antes e depois dos comentários, conforme mostrado abaixo. Para executar uma consulta específica com várias consultas no [editor,](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor)mova o cursor para essa consulta e selecione **Executar consulta**.   
 
 ```kusto
 DeviceLogonEvents
@@ -85,6 +86,6 @@ AppFileEvents
 - [Conhecer a linguagem de consulta de busca avançada](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Buscar em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

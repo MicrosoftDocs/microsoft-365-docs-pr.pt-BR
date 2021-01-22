@@ -1,5 +1,5 @@
 ---
-title: Configurar a proteção contra phishing
+title: Configurar a proteção anti-phishing
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,37 +16,38 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como configurar a proteção contra phishing.
-ms.openlocfilehash: f3a1399c8a6a51c7b14af7ffea8fbaea39cd1541
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como configurar a proteção anti-phishing.
+ms.openlocfilehash: bcb6b8bac316b4b74c505656cb9a93e7a87e0830
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701507"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927869"
 ---
-# <a name="set-up-anti-phishing"></a>Configurar o anti-phishing
+# <a name="set-up-anti-phishing"></a>Configurar anti-phishing
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWvt9r?autoplay=false]
 
-Phishing é um ataque mal-intencionado em que um email parece ter sido enviado por uma fonte familiar, mas ele tenta coletar suas informações pessoais. Por padrão, o Microsoft 365 inclui alguma proteção contra phishing, mas você pode aumentar essa proteção refinando as configurações. Vamos dar uma olhada.
+Phishing é um ataque mal-intencionado em que um email parece ter sido enviado de uma fonte familiar, mas tenta coletar suas informações pessoais. Por padrão, o Microsoft 365 inclui alguma proteção anti-phishing, mas você pode aumentar essa proteção refinando as configurações. Vamos dar uma olhada.
 
 ## <a name="try-it"></a>Experimente!
 
-1. No centro de administração [https://admin.microsoft.com](https://admin.microsoft.com) , selecione **segurança**, **Gerenciamento de ameaças**, **política** e **anti-phishing ATP**.
-1. Selecione **política padrão** para refinar.
-1. Na seção **representação** , selecione **Editar**.
-1. Vá para **adicionar domínios a serem protegidos** e selecione alternar para incluir automaticamente os domínios que você possui.
-1. Vá até **ações**, abra o menu suspenso **se email for enviado por um usuário representado** e escolha a ação desejada.
+1. No centro de administração em [https://admin.microsoft.com](https://admin.microsoft.com) , selecione **Segurança**, Gerenciamento **de Ameaças**, **Política**, depois **ATP Anti-phishing**.
+1. Selecione **Política Padrão** para refiná-la.
+1. Na seção **Representação,** selecione **Editar**.
+1. Vá para **Adicionar domínios para proteger** e selecione a alternância para incluir automaticamente os domínios que você possui.
+1. Vá para **Ações**, abra o drop-down **se o email** for enviado por um usuário personificado e escolha a ação que você deseja.
 
-    Abra a lista suspensa **se o email for enviado por um domínio representado** e escolha a ação desejada.
-1. Selecione **Ativar dicas de segurança de representação**. Escolha se as dicas devem ser fornecidas aos usuários quando o sistema detectar usuários, domínios ou caracteres incomuns representados. Selecione **Salvar**.
-1. Selecione **inteligência de caixa de correio** e verifique se ela está ativada. Isso permite que seu email seja mais eficiente por padrões de uso de aprendizado.
-1. Escolha **Adicionar remetentes confiáveis e domínios**. Aqui você pode adicionar endereços de email ou domínios que não devem ser classificados como representação.
-1. Escolha **revisar suas configurações**, verifique se tudo está correto, selecione **salvar** e **Fechar**.
+    Abra o drop-down se o email for enviado por um domínio **personificado** e escolha a ação que você deseja.
+1. Selecione **Ativar dicas de segurança de representação.** Escolha se as dicas devem ser fornecidas aos usuários quando o sistema detectar usuários, domínios ou caracteres incomuns. Selecione **Salvar**.
+1. Selecione **a inteligência de** caixa de correio e verifique se ela está turned on. Isso permite que seu email seja mais eficiente por meio de padrões de uso de aprendizagem.
+1. Choose **Add trusted senders and domains**. Aqui você pode adicionar endereços de email ou domínios que não devem ser classificados como uma representação.
+1. Choose **Review your settings**, make sure everything is correct, select **Save**, then **Close**.
 
-    Agora sua organização tem melhor proteção contra ameaças de phishing.
+    Sua organização agora tem melhor proteção contra ameaças de phishing.

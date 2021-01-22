@@ -13,17 +13,19 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura ou cobrança de produtos comerciais da Microsoft.
 keywords: contas de cobrança, informações sobre a organização, fatura
-ms.openlocfilehash: 80b7e4f14390e2f695dc753358f9e5bebe055bd0
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
-ms.translationtype: HT
+ms.openlocfilehash: 1d13112957c7c09cc5f2f8cd314a510a6cae760a
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638406"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928589"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Entenda sua cobrança ou fatura
 

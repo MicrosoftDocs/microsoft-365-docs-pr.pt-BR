@@ -1,5 +1,5 @@
 ---
-title: Entender assinaturas e licenças no Microsoft 365 for Business
+title: Entender assinaturas e licenças no Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,27 +14,27 @@ ms.collection:
 - Adm_TOC
 - commerce
 ms.custom:
-- okr_SMB
+- okr_smb
 - AdminSurgePortfolio
 - manage_licenses
 search.appverid:
 - MET150
-description: Saiba mais sobre assinaturas e licenças no Microsoft 365 for Business.
+description: Saiba mais sobre assinaturas e licenças no Microsoft 365 para empresas.
 ms.date: 07/01/2020
-ms.openlocfilehash: 51d07e777fd5a9e44c864ea11bb00ddc8c1c70d1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: ccfcb52548fb79267c550afba63c2f5a96b99ed1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638190"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928505"
 ---
-# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Entender assinaturas e licenças no Microsoft 365 for Business
+# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Entender assinaturas e licenças no Microsoft 365 para empresas
 
-Ao comprar uma assinatura para o Microsoft 365 for Business, você se inscreve em um conjunto de aplicativos e serviços que você paga por uma base mensal ou anual. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem do produto que você comprou, como o Microsoft 365 Apps for Business ou o Microsoft 365 Business Standard. Você pode ver o que vem com cada produto na página da [Microsoft 365 para empresas de pequeno e médio](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) porte.
+Ao comprar uma assinatura do Microsoft 365 para empresas, inscreva-se para um conjunto de aplicativos e serviços que você paga mensalmente ou anualmente. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem de qual produto você comprou, como o Microsoft 365 Apps para Empresas ou o Microsoft 365 Business Standard. Você pode ver o que vem com cada produto na [página do Microsoft 365 para pequenas e médias empresas.](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1)
 
-Ao comprar uma assinatura, você especifica o número de licenças que precisa, com base em quantas pessoas você tem em sua organização. Depois de comprar uma assinatura, você cria contas para as pessoas da sua organização e, em seguida, atribui uma licença a cada pessoa. Conforme suas necessidades organizacionais mudarem, você pode comprar mais licenças para acomodar novas pessoas ou reatribuir licenças a outros usuários quando alguém sair da sua organização.
+Ao comprar uma assinatura, você especifica o número de licenças que precisa, com base em quantas pessoas você tem em sua organização. Depois de comprar uma assinatura, crie contas para as pessoas em sua organização e atribua uma licença a cada pessoa. À medida que suas necessidades organizacionais mudam, você pode comprar mais licenças para acomodar novas pessoas ou reatribuir licenças a outros usuários quando alguém sair da sua organização.
 
-Se você tiver mais de uma assinatura, poderá atribuir licenças a pessoas diferentes para cada assinatura. Por exemplo, você pode atribuir todos os seus usuários a todos os aplicativos e serviços do Microsoft 365 como parte de uma assinatura do Microsoft 365 Business Standard. Você também pode atribuir um subconjunto de usuários ao Visio online por meio de uma assinatura separada do Visio.
+Se você tiver mais de uma assinatura, poderá atribuir licenças a pessoas diferentes para cada assinatura. Por exemplo, você pode atribuir todos os seus usuários a todos os aplicativos e serviços do Microsoft 365 como parte de uma assinatura do Microsoft 365 Business Standard. Você também pode atribuir um subconjunto de usuários ao Visio Online por meio de uma assinatura separada do Visio.
 
 ## <a name="how-many-devices-can-people-install-office-on"></a>Em quantos dispositivos as pessoas podem instalar o Office?
 
@@ -42,10 +42,10 @@ Se sua assinatura incluir qualquer um dos seguintes produtos, cada pessoa poder�
 
 :::row:::
    :::column span="":::
-        -Microsoft 365 Apps for Business-Microsoft 365 aplicativos para empresas-Microsoft 365 Business Standard-Microsoft 365 Business Premium-Microsoft 365 a3-Microsoft 365 a5
+        – Microsoft 365 Apps para Empresas - Microsoft 365 Apps para empresas - Microsoft 365 Business Standard - Microsoft 365 Business Premium - Microsoft 365 A3 - Microsoft 365 A5
    :::column-end:::
    :::column span="":::
-        -Microsoft 365 E3-Microsoft 365 E5-Office 365 a1 mais-Office 365 a3-Office 365 a5-Office 365 E3-Office 365 e5
+        - Microsoft 365 E3 - Microsoft 365 E5 - Office 365 A1 Plus - Office 365 A3 - Office 365 A5 - Office 365 E3 - Office 365 E5
    :::column-end:::
 :::row-end:::
 
@@ -55,10 +55,10 @@ A tabela a seguir lista o que ocorrerá automaticamente quando você atribuir um
   
 |**Se a assinatura tiver este serviço**|**Isto acontecerá automaticamente**|
 |:-----|:-----|
-|Exchange Online  <br/> |Uma caixa de correio será criada para tal pessoa. <br/> Para saber mais sobre o SLA para a conclusão da tarefa, consulte ["Configurando..." mensagens no centro de administração do Microsoft 365](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
+|Exchange Online  <br/> |Uma caixa de correio será criada para tal pessoa. <br/> Para saber mais sobre o SLA para que esta tarefa seja concluída, consulte ["Configurando..." mensagens no centro de administração do Microsoft 365.](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
 |SharePoint Online  <br/> |As permissões de edição para o site de equipe padrão do SharePoint Online serão atribuídas a essa pessoa.  <br/> |
 |Skype for Business Online  <br/> |A pessoa tem acesso aos recursos associados à licença.  <br/> |
-|Microsoft 365 Apps para empresas  <br/> |A pessoa pode baixar aplicativos do Office em até cinco Macs ou PCs, cinco tablets e cinco smartphones.  <br/> |
+|Microsoft 365 Apps para empresas  <br/> |A pessoa pode baixar aplicativos do Office em até cinco Macs ou computadores, cinco tablets e cinco smartphones.  <br/> |
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Noções básicas sobre licenças para caixas de correio de não usuário
 
@@ -74,7 +74,7 @@ Você não precisa atribuir licenças para caixas de correio compartilhadas, a n
 
 Diferentes tipos de administradores podem trabalhar com licenças de diferentes formas, dependendo de suas funções. A tabela a seguir lista as opções mais comuns. Para obter uma lista completa de funções e privilégios de administradores, confira [Sobre as funções de administrador](../../admin/add-users/about-admin-roles.md).
   
-|**Função do administrador**|**Atribuir uma licença**|**Cancelar a atribuição de uma licença**|**Comprar mais licenças**|**Excluir uma conta**|
+|**Função do administrador**|**Atribuir uma licença**|**Desa designar uma licença**|**Comprar mais licenças**|**Excluir uma conta**|
 |:-----|:-----|:-----|:-----|:-----|
 |Administrador de cobrança  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
 |Administrador global  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
@@ -84,7 +84,7 @@ Diferentes tipos de administradores podem trabalhar com licenças de diferentes 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Comprar ou remover licenças para sua assinatura comercial](buy-licenses.md) (artigo) \
-[Atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md) (artigo) \
+[Comprar ou remover licenças para sua assinatura comercial](buy-licenses.md) (artigo)\
+[Atribuir licenças a usuários](../../admin/manage/assign-licenses-to-users.md) (artigo)\
 [Cancelar a atribuição de licenças de usuários](../../admin/manage/remove-licenses-from-users.md) (artigo)\
 [Remover uma licença de uma caixa de correio compartilhada](../../admin/email/remove-license-from-shared-mailbox.md) (artigo)

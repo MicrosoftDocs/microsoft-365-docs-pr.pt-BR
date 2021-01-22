@@ -1,9 +1,9 @@
 ---
-title: Priorizar incidentes no Microsoft 365 defender
-description: Saiba como filtrar incidentes da fila de incidentes no Microsoft 365 defender
+title: Priorizar incidentes no Microsoft 365 Defender
+description: Saiba como filtrar incidentes da fila de incidentes no Microsoft 365 Defender
 keywords: incidente, fila, visão geral, dispositivos, identidades, usuários, caixa de correio, email, incidentes
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,14 +21,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e587004fbb3bc6defab985cea9b427f64b3aab35
-ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
+ms.technology: m365d
+ms.openlocfilehash: e01fce970b806bc425db2cd4886e82f79434656f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49409250"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929289"
 ---
-# <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 defender
+# <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +39,7 @@ ms.locfileid: "49409250"
 
 
 
-O Microsoft 365 defender aplica a análise de correlação e agrega todos os alertas e investigações relacionados de produtos diferentes em um único incidente. O Microsoft 365 defender também dispara alertas exclusivos em atividades que só podem ser identificados como mal-intencionados, dada a visibilidade de ponta a ponta que a Microsoft 365 defender tem em toda a imobiliária e pacote de produtos. Este modo de exibição fornece ao analista de operações de segurança a história de ataque mais ampla, o que ajuda a entender melhor e lidar com ameaças complexas em toda a organização.
+O Microsoft 365 Defender aplica análises de correlação e agrega todos os alertas e investigações relacionados de diferentes produtos em um único incidente. O Microsoft 365 Defender também dispara alertas exclusivos sobre atividades que só podem ser identificadas como mal-intencionadas devido à visibilidade de ponta a ponta que o Microsoft 365 Defender tem em todo o estado e pacote de produtos. Essa exibição oferece ao analista de operações de segurança a história mais ampla de ataques, o que os ajuda a entender e lidar melhor com ameaças complexas em toda a organização.
 
 
 A **Fila de incidentes** exibe um conjunto de incidentes sinalizados de vários dispositivos, usuários e caixas de correio. Isso ajuda a classificar incidentes e criar uma decisão de resposta de segurança cibernética embasada.
@@ -46,29 +47,29 @@ A **Fila de incidentes** exibe um conjunto de incidentes sinalizados de vários 
 
 ![Imagem da fila de incidentes](../../media/incidents-queue.png) 
 
-Por padrão, a fila na central de segurança do Microsoft 365 exibe incidentes vistos nos últimos 30 dias. O incidente mais recente fica na parte superior da lista para que você possa vê-lo primeiro.
+Por padrão, a fila no centro de segurança do Microsoft 365 exibe incidentes vistos nos últimos 30 dias. O incidente mais recente está no topo da lista para que você possa vê-lo primeiro.
 
-A fila de incidentes expõe colunas personalizáveis que lhe dão visibilidade de diferentes características do incidente ou das entidades contidas. Isso ajuda você a tomar decisões informadas sobre a priorização de incidentes para lidar.
+A fila de incidentes expõe colunas personalizáveis que dão visibilidade a diferentes características do incidente ou das entidades contidas. Isso ajuda você a tomar uma decisão informada em relação à priorização de incidentes a tratar.
 
-Para obter visibilidade adicional em um relance, o nome automático de incidentes gera nomes de incidentes com base em atributos de alerta como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
+Para obter visibilidade adicional em um relance, a nomenização automática de incidentes gera nomes de incidentes com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
 
 Por exemplo: *incidente de vários estágios em vários pontos de extremidade relatados por várias fontes.*
 
 > [!NOTE]
-> Incidentes que existiam antes da distribuição da nomeação automática de incidentes não terão o nome alterado.
+> Os incidentes que existiam antes da lançamento da nomenização automática de incidentes não terão seu nome alterado.
 
-A fila de incidentes também expõe várias opções de filtragem, que, quando aplicadas, permitem que você realize uma ampla varredura de todos os incidentes existentes no seu ambiente ou decida se concentrar em um cenário ou ameaça específico. A aplicação de filtros na fila de incidentes pode ajudar a determinar qual incidente exige atenção imediata. 
+A fila de incidentes também expõe várias opções de filtragem que, quando aplicadas, permitem executar uma varredura ampla de todos os incidentes existentes em seu ambiente ou decidir se concentrar em um cenário ou ameaça específico. A aplicação de filtros na fila de incidentes pode ajudar a determinar qual incidente exige atenção imediata. 
 
 ## <a name="available-filters"></a>Filtros disponíveis
 
 ### <a name="assigned-to"></a>Atribuído a
-Você pode optar por mostrar alertas que são atribuídos a você ou aqueles tratados pela automação.
+Você pode optar por mostrar alertas atribuídos a você ou aos tratados pela automação.
 
 ### <a name="categories"></a>Categorias
-Escolha categorias para se concentrar em táticas, técnicas ou componentes de ataque específicos vistos. 
+Escolha categorias para se concentrar em táticas específicas, técnicas ou componentes de ataque vistos. 
 
 ### <a name="classification"></a>Classificação
-Filtrar incidentes com base nas classificações de conjunto dos alertas relacionados. Os valores incluem alertas verdadeiros, falsos alertas ou não definidos.
+Filtrar incidentes com base nas classificações definidas dos alertas relacionados. Os valores incluem alertas verdadeiros, alertas falsos ou não definidos.
 
 ### <a name="data-sensitivity"></a>Confidencialidade de dados
 Alguns ataques se concentram no direcionamento para exfiltrar dados confidenciais ou valiosos. Ao aplicar um filtro para ver se os dados confidenciais estão envolvidos no incidente, você pode determinar rapidamente se as informações confidenciais estão potencialmente comprometidas e priorizar o tratamento desses incidentes.
@@ -80,16 +81,16 @@ Alguns ataques se concentram no direcionamento para exfiltrar dados confidenciai
 Filtrar por grupos de dispositivos definidos.
 
 ### <a name="investigation-state"></a>Estado de investigação
-Filtrar incidentes pelo status de investigação automatizada. 
+Filtrar incidentes pelo status da investigação automatizada. 
 
 ### <a name="multiple-categories"></a>Várias categorias 
-Você pode optar por ver apenas os incidentes que foram mapeados para várias categorias e podem possivelmente causar mais danos. 
+Você pode optar por ver apenas os incidentes que foram mapeados para várias categorias e, portanto, pode causar mais danos. 
 
 ### <a name="multiple-service-sources"></a>Várias fontes de serviço 
-Filtro para ver apenas incidentes que contenham alertas de fontes diferentes (Microsoft defender para ponto de extremidade, Microsoft Cloud app Security, Microsoft defender para identidade, Microsoft defender para Office 365).
+Filtrar para ver apenas incidentes que contêm alertas de diferentes fontes (Microsoft Defender para Ponto de Extremidade, Microsoft Cloud App Security, Microsoft Defender para Identidade, Microsoft Defender para Office 365).
 
 ### <a name="os-platform"></a>Plataforma do sistema operacional
-Limitar o modo de exibição fila de incidentes por sistema operacional.
+Limitar a exibição da fila de incidentes por sistema operacional.
 
 ### <a name="service-sources"></a>Fontes de serviço
 Ao escolher uma fonte específica, é possível se concentrar em incidentes com pelo menos um alerta da fonte escolhida. 
