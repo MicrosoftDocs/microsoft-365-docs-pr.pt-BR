@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com um nível de linha de base de proteção.
-ms.openlocfilehash: 16f37175c3aa7b420745e6126de1aa96368d618a
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 11554dbd7e33a77c9f6397ae9c5e91669f537081
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613437"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921865"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Configurar equipes com proteção de linha de base
 
@@ -87,7 +87,7 @@ Para atualizar as configurações de compartilhamento de site
 1. Na barra de ferramentas da equipe, clique em **Arquivos**.
 2. Clique em **Abrir no SharePoint**.
 3. Na barra de ferramentas do site do SharePoint, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
-4. No painel **Permissões do site**, em **Configurações de compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+4. No painel **Permissões do site**, em **Compartilhamento do site**, clique em **Alterar como os membros podem compartilhar**.
 5. Em **Compartilhar permissões**, escolha **Proprietários e membros do site e pessoas com permissões de edição podem compartilhar arquivos e pastas, mas apenas os proprietários do site podem compartilhar o site** e, em seguida, clique em **Salvar**.
 
 ## <a name="additional-protections"></a>Proteções adicionais

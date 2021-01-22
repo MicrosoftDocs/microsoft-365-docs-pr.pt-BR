@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: d2c5b4f67d93500f7341463a01313271d182dc38
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: 4ec7690e5300b2ac08a98fbec3f4c253e970738c
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611343"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921165"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -86,7 +86,9 @@ Para saber mais, confira [Sobre as funções de administrador](../add-users/abou
 
 De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
   
-- [Atividade de email](email-activity.md)
+- [Atividade de email](email-activity-ww.md)
+
+- [Atividade de email para o governo dos EUA](email-activity.md)
     
 - [Uso de caixa de correio](mailbox-usage.md)
     
@@ -98,7 +100,9 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
 
 - [Usuários Ativos para o Governo dos EUA](active-users.md)
   
-- [Uso de aplicativos de email](email-apps-usage.md)
+- [Uso de aplicativos de email](email-apps-usage-ww.md)
+
+- [Uso de aplicativos de email para o governo dos EUA](email-apps-usage.md)
 
 - [Atividade do Forms](forms-activity-ww.md)
 

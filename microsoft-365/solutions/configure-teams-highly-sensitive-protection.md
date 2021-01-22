@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 045f1b1d1ebf03eb70554dc5964acb0a12e0060f
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 2679a8a0bd8cf5cc3d35d517e8a44921fc4fdbc1
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870846"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921129"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -153,7 +153,7 @@ Para configurar o compartilhamento de site somente para proprietários
 2. Na barra de ferramentas da equipe, clique em **Arquivos**.
 3. Clique nas reticências e em **Abrir no SharePoint**.
 4. Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
-5. No painel Permissões de site, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+5. No painel **Permissões do site**, em **Compartilhamento do site**, clique em **Alterar como os membros podem compartilhar**.
 6. Em **Permissões de compartilhamento**, escolha **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.
 7. Defina **Permitir solicitações de acesso** como **Desativado** e clique em **Salvar**.
 
