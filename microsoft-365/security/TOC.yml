@@ -338,7 +338,7 @@
               href: ./office-365-security/office-365-evaluation.md
             - name: Novidades no Defender para Office 365
               href: office-365-security/whats-new-in-office-365-atp.md
-            - name: 'Defender para Office 365, para SharePoint, OneDrive e Microsoft Teams'
+            - name: 'Anexos seguros para SharePoint, OneDrive e Microsoft Teams'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: Novo Centro de segurança do Microsoft 365
               href: ./mtp/overview-security-center.md
@@ -400,7 +400,7 @@
               href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Segurança por padrão
               href: ./office-365-security/secure-by-default.md
-            - name: Configurar políticas anti-phishing da ATP
+            - name: Configurar políticas anti-phishing no Defender para Office 365
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Configurar políticas antimalware
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -436,7 +436,7 @@
               href: ./office-365-security/user-submission.md
             - name: Marcas de usuário no Defender para Office 365
               href: ./office-365-security/user-tags.md
-            - name: 'Ativar o Defender para Office 365, para SharePoint, OneDrive e Microsoft Teams.'
+            - name: 'Ative os anexos seguros para SharePoint, OneDrive e Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Usar DKIM para validar emails de saída
               href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -457,7 +457,7 @@
                   href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
                 - name: Enviar e receber emails assinados e criptografados com S/MIME
                   href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
-                - name: Sincronizar certificados de usuário com o Office 365 para S/MIME
+                - name: Sincronizar certificados de usuário para o Microsoft 365 para S/MIME
                   href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
                 - name: Configurar coleção de certificados virtuais para validar S/MIME
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
@@ -501,7 +501,7 @@
               href: ./office-365-security/air-custom-reporting.md
             - name: Configurações avançadas de filtro de spam (ASF)
               href: ./office-365-security/advanced-spam-filtering-asf-options.md
-            - name: Gerenciar URLs na Lista de Permissões/Bloqueios de Locatários
+            - name: Gerenciar a lista de Permissões/Bloqueios do Locatário
               href: ./office-365-security/tenant-allow-block-list.md
             - name: Rastreamento de mensagens no Centro de Conformidade e Segurança
               href: ./office-365-security/message-trace-scc.md

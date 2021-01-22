@@ -96,16 +96,17 @@
       href: information-protection.md
     - name: Tipos de informações confidenciais
       items:
+        - name: Aprenda sobre os tipos de informações confidenciais
+          href: sensitive-information-type-learn-about.md
         - name: 'Definições da entidade de tipo de informações confidenciais '
           href: sensitive-information-type-entity-definitions.md
         - name: O que as funções DLP procuram
           href: what-the-dlp-functions-look-for.md
         - name: Personalizar um tipo de informação confidencial interno
           href: customize-a-built-in-sensitive-information-type.md
-        - name: Tipos de informações confidenciais personalizadas
-          href: custom-sensitive-info-types.md
         - name: Criar tipos de informações confidenciais personalizadas com combinação exata de dados
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Comece com tipos de informações confidenciais personalizados
         - name: Use o Assistente de Correspondência Exata de Dados e Tipo de Informação Confidencial
           href: sit-edm-wizard.md
         - name: Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável
