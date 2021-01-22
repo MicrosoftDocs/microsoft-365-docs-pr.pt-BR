@@ -1,6 +1,6 @@
 ---
-title: Ferramenta de avaliação de preparação
-description: Explica as verificações que a ferramenta executa e o significado dos resultados
+title: Ferramentas de avaliação de preparação
+description: Explica as duas ferramentas, as verificações que são executados e o significado dos resultados
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -9,20 +9,26 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9c19a037ec280320d0800fe2c65f595e4b1010dd
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 9fbd24185288265d698288e0d5e63e8b3c2afd10
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840356"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921841"
 ---
-# <a name="readiness-assessment-tool"></a>Ferramenta de avaliação de preparação
+# <a name="readiness-assessment-tools"></a>Ferramentas de avaliação de preparação
 
-Para a experiência mais tranquila possível ao se inscrever na Área de Trabalho Gerenciada da Microsoft, há configurações importantes e outros parâmetros que você deve definir com antecedência. Você pode usar essa ferramenta para verificar essas configurações e receber etapas detalhadas para corrigir qualquer um que não seja correto.
+Para a experiência mais tranquila possível ao se inscrever na Área de Trabalho Gerenciada da Microsoft, há configurações e outros parâmetros que você deve definir com antecedência e determinados requisitos de dispositivo e rede para atender. Uma ferramenta, acessada por meio do Portal de Administração da Área de Trabalho Gerenciada da Microsoft, verifica as configurações relacionadas ao gerenciamento. Outra ferramenta, que pode ser baixada, verifica requisitos de dispositivo individuais e configurações de rede. Você pode usar essas ferramentas para verificar essas configurações e receber etapas detalhadas para corrigir qualquer um que não seja correto.
 
-A ferramenta verifica as configurações no Microsoft Endpoint Manager (especificamente, Microsoft Intune), Azure Active Directory (Azure AD) e No Microsoft 365 para garantir que funcionarão com a Área de Trabalho Gerenciada da Microsoft. A Área de Trabalho Gerenciada da Microsoft mantém os dados associados a essas verificações por 12 meses após a última vez que você executar uma verificação em sua organização do Azure AD (locatário). Após 12 meses, nós o manteremos no formato não identificado.  Você pode optar por excluir os dados que coletamos.
+## <a name="downloadable-readiness-assessment-checker-for-devices-and-network"></a>Verificação da avaliação de preparação para download para dispositivos e rede
 
-Qualquer pessoa com pelo menos a função de Administrador do Intune poderá executar essa ferramenta, mas duas das verificações[(](readiness-assessment-fix.md#conditional-access-policies) políticas de acesso condicional e autenticação [multifator](readiness-assessment-fix.md#multifactor-authentication) exigem mais permissões.
+Para obter detalhes sobre como usar o verificador de avaliação de preparação para download, consulte o checker de [avaliação de preparação para download.](readiness-assessment-downloadable.md)
+
+## <a name="online-readiness-assessment-tool-for-management-settings"></a>Ferramenta de avaliação de preparação online para configurações de gerenciamento
+
+A ferramenta online verifica as configurações no Microsoft Endpoint Manager (especificamente, Microsoft Intune), Azure Active Directory (Azure AD) e Microsoft 365 para garantir que funcionarão com a Área de Trabalho Gerenciada da Microsoft. A Área de Trabalho Gerenciada da Microsoft mantém os dados associados a essas verificações por 12 meses após a última vez que você executar uma verificação em sua organização do Azure AD (locatário). Após 12 meses, nós o manteremos no formato não identificado. Você pode optar por excluir os dados que coletamos.
+
+Qualquer pessoa com pelo menos a função de Administrador do Intune poderá executar essa ferramenta, mas duas das verificações[(](readiness-assessment-fix.md#conditional-access-policies) políticas de acesso condicional e autenticação [multifator](readiness-assessment-fix.md#multifactor-authentication) exigem permissões adicionais.
  
 A ferramenta de avaliação verifica estes itens:
 
@@ -37,7 +43,7 @@ A ferramenta de avaliação verifica estes itens:
 |Perfis de configuração do dispositivo     | Confirma se os perfis de configuração não estão atribuídos a todos os usuários ou a todos os dispositivos (os perfis de configuração não devem ser atribuídos a nenhum dispositivo da Área de Trabalho Gerenciada da Microsoft).      |
 |Restrições de tipo de dispositivo     | Verifica se os dispositivos Windows 10 em sua organização têm permissão para se inscrever no Intune        |
 |Página status do registro     | Confirma se a Página de Status do Registro não está habilitada      |
-|Registro do Intune     | Verifica se os dispositivos Windows 10 em sua organização do Azure AD são inscritos automaticamente no Intune         |
+|Registro no Intune     | Verifica se os dispositivos Windows 10 em sua organização do Azure AD são inscritos automaticamente no Intune         |
 |Microsoft Store para empresas     | Confirma se a Microsoft Store para Empresas está habilitada e sincronizada com o Intune        |
 |Autenticação de vários fatores | Verifica se a autenticação multifator não é aplicada às contas de serviço da Área de Trabalho Gerenciada da Microsoft.
 |Scripts do PowerShell     | Verifica se os scripts do Windows PowerShell *não estão* atribuídos de uma maneira que direcionaria dispositivos da Área de Trabalho Gerenciada da Microsoft    |
@@ -76,7 +82,7 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Resultado  |Significado  |
 |---------|---------|
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
-|Aviso    | Siga as etapas na ferramenta para a melhor experiência com o registro e para os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
+|Aviso    | Siga as etapas na ferramenta para ter a melhor experiência com o registro e os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
 |Não está pronto | *O registro falhará* se você não corrigir esses problemas. Siga as etapas na ferramenta para resolvê-las.        |
 |Erro | A função do Azure Active Director (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 

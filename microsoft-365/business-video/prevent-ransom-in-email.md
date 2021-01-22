@@ -1,5 +1,5 @@
 ---
-title: Criar regras de email para ransomware
+title: Criar regras de e-mail para ransomware
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,39 +16,40 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como criar regras de email para impedir o ransomware.
-ms.openlocfilehash: 85898480438225848fc09db9a9c507045f8a182c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como criar regras de email para evitar ransomware.
+ms.openlocfilehash: 3b45af71aa26beb31e21f5db662091f46343f97d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701420"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926109"
 ---
-# <a name="create-email-rules-to-prevent-ransomware"></a>Criar regras de email para impedir o ransomware
+# <a name="create-email-rules-to-prevent-ransomware"></a>Criar regras de email para evitar ransomware
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrWGt?autoplay=false]
 
-A Microsoft 365 ajuda a proteger sua empresa contra o ransomware, impedindo que arquivos potencialmente perigosos, como JavaScript, lote e executáveis, sejam abertos no Outlook. Para aumentar esse nível de proteção adicionando regras que bloqueiem ou avisem sobre tipos adicionais de arquivos, siga estas etapas.
+O Microsoft 365 ajuda a proteger sua empresa contra ransomware, impedindo que arquivos potencialmente perigosos, como JavaScript, lote e executáveis, seja abertos no Outlook. Para aumentar esse nível de proteção adicionando regras que bloqueiam ou avisam sobre tipos adicionais de arquivos, siga estas etapas.
 
 ## <a name="try-it"></a>Experimente!
 
-1. No centro de administração [https://admin.microsoft.com](https://admin.microsoft.com) , escolha **Exchange** em **centros de administração**.
-1. No menu à esquerda, escolha fluxo de **email**.
-1. Na guia regras, escolha a seta ao lado do símbolo de adição (+) e, em seguida, escolha **criar uma nova regra**.
-1. Na página **nova regra** , insira um nome para a regra, role até a parte inferior e, em seguida, escolha **mais opções**.
-1. Em **aplicar esta regra se**, selecione **qualquer anexo** e, em seguida, selecione **extensão de arquivo inclui essas palavras**.
-1. Na caixa em **especificar palavras ou frases**, insira as extensões de arquivo às quais você deseja aplicar a regra, como extensões de arquivo que podem conter macros. Use o símbolo de adição (+) para adicionar um de cada vez.
+1. No centro de administração em [https://admin.microsoft.com](https://admin.microsoft.com) , escolha **Exchange** em Centros **de administração**.
+1. No menu à esquerda, escolha o **fluxo de emails.**
+1. Na guia regras, escolha a seta ao lado do símbolo de adição (+) e, em seguida, **escolha Criar uma nova regra.**
+1. Na nova **página de** regras, insira um nome para a regra, role até a parte inferior e escolha **Mais opções.**
+1. Under **Apply this rule if**, select Any **attachment**, and then select file **extension includes these words**.
+1. Na caixa abaixo, especifique palavras ou **frases,** insira as extensões de arquivo às quais você deseja que a regra seja aplicada, como extensões de arquivo que podem conter macros. Use o símbolo de adição (+) para adicioná-los um de cada vez.
 
-    Saiba mais sobre tipos de arquivo lendo [proteger contra ransomware](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware).
+    Saiba mais sobre tipos de arquivo lendo [Proteger contra ransomware.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)
 
-1. Role para baixo para revisar sua lista e, em seguida, escolha **OK**.
-1. Na página **nova regra** , escolha **Adicionar condição** e, em seguida, escolha uma condição em **faça o seguinte**.
-1. Você tem muitas opções de regra para escolher, mas neste exemplo, vamos optar por **notificar o destinatário com uma mensagem**.
-1. Insira o texto da mensagem para sua notificação e, em seguida, escolha **OK**.
-1. Opcional: na página **nova regra** , escolha **Adicionar exceção** e insira os detalhes para exceções à regra, como mensagens de remetentes confiáveis.
-1. Na página nova regra, escolha **salvar** e revise as informações de resumo da regra fornecidas.
+1. Role para baixo para revisar sua lista e escolha **OK.**
+1. Na nova **página de regras,** escolha **adicionar condição** e, em seguida, escolha uma condição em Fazer **o seguinte.**
+1. Você tem muitas opções de regra para escolher, mas neste exemplo, escolheremos notificar o **destinatário com uma mensagem.**
+1. Insira o texto da mensagem para a notificação e escolha **OK.**
+1. Opcional: na nova página  **de** regras, escolha adicionar exceção e insira todos os detalhes das exceções à sua regra, como mensagens de envios confiáveis.
+1. Na nova página de regras, escolha **Salvar** e revise as informações de resumo de regra fornecidas.

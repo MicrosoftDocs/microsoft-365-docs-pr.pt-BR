@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - MET150
 description: Obtenha suporte técnico e de cobrança usando números de telefone listados para seu país ou região ou enviando uma solicitação de serviço online.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: f508607bb19a15fa089cf13eecfd7047f2e6f7bf
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 06f78d50901f279bf27f55f1b8f7ad867682d784
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307356"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925573"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Maneiras de contatar o suporte para produtos comerciais - Ajuda para Administradores
 
@@ -238,7 +239,7 @@ As opções de suporte assistido são apenas para administradores de organizaç�
 
 - **Abrir uma solicitação online.** Inicie uma solicitação de serviço online para economizar tempo. No centro de administração, escolha **Suporte**\> **Nova solicitação de serviço**. Ajudaremos você a encontrar uma solução ou indicaremos um especialista, que o contatará por email ou por telefone.
 
-- **Contate o suporte. ** Estamos aqui para ajudar. Administradores, tenham os detalhes da conta em mãos quando ligarem para o suporte.
+- **Contate o suporte.** Estamos aqui para ajudar. Administradores, tenham os detalhes da conta em mãos quando ligarem para o suporte.
 
 | Região | Número de telefone | Horas |
 |-----------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -1,5 +1,5 @@
 ---
-title: Adicione a identidade visual da empresa à página de entrada
+title: Adicionar a identidade visual da empresa à página de login
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -13,31 +13,33 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
-description: Personalizar a página de entrada do Microsoft 365 usando o Azure Active Directory. Você pode adicionar uma ilustração, um logotipo e o texto à página de entrada.
-ms.openlocfilehash: 2f6df71a46e7510413601fe7dc00143280b4e6aa
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Personalize a página de login do Microsoft 365 usando o Azure Active Directory. Você pode adicionar uma ilustração, um logotipo e um texto à página de login.
+ms.openlocfilehash: 9a4e18aeb050fe128ded1ea83756256a386a0fb4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398937"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926901"
 ---
-# <a name="add-your-company-branding-to-the-sign-in-page"></a>Adicione a identidade visual da empresa à página de entrada
+# <a name="add-your-company-branding-to-the-sign-in-page"></a>Adicionar a identidade visual da empresa à página de login
 
- Agora você pode usar a assinatura do Azure Active Directory (AD) incluída na assinatura do Microsoft 365 para personalizar a página de entrada que os usuários veem. 
+ Agora você pode usar a assinatura do Azure Active Directory (AD) incluída na assinatura do Microsoft 365 para personalizar a página de login que seus usuários veem. 
   
 ## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a>Adicionar a identidade visual da empresa nas páginas de entrada e Painel de Acesso
 
-Se você tem uma assinatura paga para o Microsoft 365 for Business, o Microsoft Dynamics CRM Online, o Enterprise Mobility Suite ou outros serviços da Microsoft, você tem uma assinatura gratuita do Azure Active Directory. Você pode usar o Azure Active Directory para criar e gerenciar contas de usuários e grupos, e adicionar a identidade visual de sua empresa às suas páginas. Para ativar esta assinatura e acessar o Portal de Gerenciamento do Microsoft Azure, é preciso concluir um processo de registro uma única vez. Depois disso, você pode acessar o Azure Active Directory de seu serviço da Microsoft que o utiliza. Para obter instruções sobre como registrar sua assinatura do Microsoft 365, confira [registrar sua assinatura gratuita do Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966)e consulte [Manage The Directory for your Microsoft 365 Subscription no Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) para obter instruções gerais de gerenciamento. 
+Se você tiver uma assinatura paga do Microsoft 365 para empresas, do Microsoft Dynamics CRM Online, do Enterprise Mobility Suite ou de outros serviços da Microsoft, terá uma assinatura gratuita do Azure Active Directory. Você pode usar o Azure Active Directory para criar e gerenciar contas de usuários e grupos, e adicionar a identidade visual de sua empresa às suas páginas. Para ativar esta assinatura e acessar o Portal de Gerenciamento do Microsoft Azure, é preciso concluir um processo de registro uma única vez. Depois disso, você pode acessar o Azure Active Directory de seu serviço da Microsoft que o utiliza. Para obter instruções sobre como registrar sua assinatura do Microsoft 365, confira Registrar sua assinatura gratuita do [Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966)e confira Gerenciar o diretório para sua assinatura do [Microsoft 365 no Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) para obter instruções gerais de gerenciamento. 
   
 A figura a seguir mostra quais partes da página de entrada podem ser alteradas no Azure.
   
-![Áreas da página de entrada que você pode personalizar.](../../media/screenshotbranding.png)
+![Áreas da página de login que você pode personalizar.](../../media/screenshotbranding.png)
   
 1. A ilustração grande e/ou sua cor de plano de fundo
     

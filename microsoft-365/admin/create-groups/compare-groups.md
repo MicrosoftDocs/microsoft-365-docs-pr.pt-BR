@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Saiba mais sobre os tipos de grupos que você pode usar.
-ms.openlocfilehash: ee8d14035ed9eb8296c54510b8fe1d374c9dc2b2
-ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
+ms.openlocfilehash: 4cbc7f15632026babec3640f021c09e901ad20b9
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46514762"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925525"
 ---
 # <a name="compare-groups"></a>Comparar grupos
 

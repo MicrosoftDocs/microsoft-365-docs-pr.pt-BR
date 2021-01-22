@@ -18,74 +18,75 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
-description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: bbde517858186d844412aca21f231620ed76496a
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha de autoatendado.
+ms.openlocfilehash: c777b9d840e0e9e467c1283fff94eca9a061ee73
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551915"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925549"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
-Como o Microsoft 365 admin, você pode permitir que as pessoas usem a [ferramenta de redefinição de senha de autoatendimento](https://go.microsoft.com/fwlink/p/?LinkId=522677) para que você não precise redefinir senhas para elas. Menos trabalho para você!
+Como administrador do Microsoft 365, você [](https://go.microsoft.com/fwlink/p/?LinkId=522677) pode permitir que as pessoas usem a ferramenta de redefinição de senha pessoal para que você não tenha que redefinir senhas para elas. Menos trabalho para você!
   
 ## <a name="before-you-begin"></a>Antes de começar
   
-- Você obtém redefinição de senha de autoatendimento para usuários em nuvem **gratuitamente** com qualquer plano pago de negócios, educação ou sem fins lucrativos da Microsoft 365. Ele não funciona com a avaliação da Microsoft 365.
+- Você pode obter a redefinição  de senha de autoatendente para usuários de nuvem gratuitamente com qualquer plano pago do Microsoft 365 para empresas, educação ou entidades sem fins lucrativos. Ele não funciona com a avaliação do Microsoft 365.
 
 - Ela usa o Azure. Você obterá automaticamente esse recurso no Azure **gratuitamente** quando realizar essas etapas. Não haverá custos para habilitar a redefinição de senha de autoatendimento se você não usar outros recursos do Azure.
 
-- **Se você estiver usando um Active Directory local**, os dois pontos acima não se aplicam. Em vez disso, você pode configurar isso, mas **requer uma assinatura paga do Azure ad Premium**.
+- **Se você estiver usando um Active Directory** local, os dois pontos acima não se aplicam. Em vez disso, você pode configurar isso, mas isso requer uma **assinatura paga do Azure AD Premium.**
 
 Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md)
 
-Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
+Você deve ser um [administrador global ou administrador de senhas](about-admin-roles.md) para executar estas etapas.
 
-## <a name="watch-let-users-reset-their-own-passwords"></a>Watch: permitir que os usuários redefinam suas próprias senhas
+## <a name="watch-let-users-reset-their-own-passwords"></a>Assista: Permitir que os usuários redefinir suas próprias senhas
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
 Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="steps-let-people-reset-their-own-passwords"></a>Etapas: permitir que as pessoas redefinam suas próprias senhas
+## <a name="steps-let-people-reset-their-own-passwords"></a>Etapas: Permitir que as pessoas redefinir suas próprias senhas
 
 Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.
   
 ::: moniker range="o365-worldwide"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>, vá para a página Configurações da organização de **configurações** > **Org settings** .
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração,</a>vá para a página **configurações** > **da Organização de Configurações.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a página **configurações** de \> **&amp; privacidade de segurança** .
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página **Privacidade de** Segurança \> **de &amp; Configurações.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Settings** \> página de privacidade de segurança **das configurações** de configurações \> **&amp;** .
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página **Privacidade de** \> **Configurações** \> **&amp; de** Segurança.
 
 ::: moniker-end
 
-2. Na parte superior da página **configurações da organização** , selecione a guia **privacidade & segurança** .
+2. At the top of the **Org settings** page, select the **Security & Privacy** tab.
   
-3. Selecione **redefinição de senha de autoatendimento**.
+3. Selecione **Redefinição de Senha de Autoatendado.**
 
-4. Em **redefinição de senha de autoatendimento**, selecione **ir para o portal do Azure para ativar a redefinição de senha de autoatendimento**.
+4. Em **Redefinição de senha de** autoatendado, selecione Ir para o portal do Azure para ativar a redefinição **de senha de autoatendado.**
 
-5. No painel de navegação esquerdo, selecione **usuários** e, em seguida, em **usuários | Página todos os usuários** , selecione **redefinição de senha**.
+5. No painel de navegação esquerdo, selecione **Usuários** e, em seguida, no **painel Usuários | Página Todos os usuários,** selecione **Redefinição de senha.**
   
-6. Na página **Propriedades** , selecione **tudo** para habilitá-lo para todas as pessoas em sua empresa e, em seguida, selecione **salvar**.
+6. Na página **Propriedades,** selecione **Tudo para** habilita-lo para todos em sua empresa e, em seguida, **selecione Salvar**.
   
-7. Quando seus usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir sua senha no futuro.
+7. Quando os usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir a senha no futuro.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

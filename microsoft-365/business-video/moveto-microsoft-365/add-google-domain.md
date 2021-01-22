@@ -15,24 +15,25 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como mover seu domínio do Google Workspace para o Microsoft 365 para empresas.
-ms.openlocfilehash: 1abc05867147d2b52e26804918e8247053b5e1d5
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 23ca451cfdcb67898a10935101efedcdf360ef91
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794576"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49924997"
 ---
 # <a name="add-your-google-workspace-domain-to-microsoft-365"></a>Adicionar seu domínio do Espaço de Trabalho do Google ao Microsoft 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LWKT?autoplay=false]
 
-Adicione seu domínio do Google Workspace ao Microsoft 365 para empresas para que você possa continuar usando seu endereço de email comercial.
+Adicione seu domínio do Espaço de Trabalho do Google ao Microsoft 365 para empresas para que você possa continuar usando seu endereço de email comercial.
 
 ## <a name="try-it"></a>Experimente!
 

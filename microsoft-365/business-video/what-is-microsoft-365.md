@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - MET150
 description: Saiba mais sobre os recursos do Microsoft 365 Business Premium.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 90aa50e409d435b996facbc1d86b0af40379c79d
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 56f6aa0dd0b34381760ea096741b98f95d4b2835
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701445"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925701"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 

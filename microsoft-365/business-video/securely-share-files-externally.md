@@ -1,5 +1,5 @@
 ---
-title: Compartilhar arquivos de forma segura fora da sua empresa
+title: Compartilhar arquivos com segurança fora da sua empresa
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,31 +16,32 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como compartilhar seus arquivos de negócios com segurança externamente.
-ms.openlocfilehash: 2ffb9067b73daad8591f6563640ca95ac4c8724b
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como compartilhar com segurança seus arquivos de negócios externamente.
+ms.openlocfilehash: c2e611d6a6fc6fb239302d2b9d4960471cd5f707
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701653"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925977"
 ---
 # <a name="securely-share-files-externally"></a>Compartilhar arquivos com segurança externamente
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE22Yf0?autoplay=false]
 
-No Microsoft 365 for Business, é fácil compartilhar arquivos com pessoas em sua organização, mas, às vezes, você também precisará compartilhar com pessoas de fora da sua organização. Para compartilhar arquivos com segurança com seus clientes, você pode enviar um link seguro.
+No Microsoft 365 para empresas, é fácil compartilhar arquivos com pessoas em sua organização, mas, às vezes, você também precisará compartilhar com pessoas de fora da sua organização. Para compartilhar arquivos com segurança com seus clientes, você pode enviar um link seguro.
 
 ## <a name="try-it"></a>Experimente!
 
-1. Na parte superior da biblioteca documentos no site do SharePoint, clique em **novo** e selecione **pasta**.
-1. Dê um nome à pasta e clique em **criar**.
-1. Carregue os arquivos que você deseja compartilhar para a nova biblioteca ou escolha **novo** para criar novos documentos diretamente na biblioteca.
-1. Selecione sua nova pasta na biblioteca documentos e, em seguida, clique no botão **compartilhar** .
-1. Na janela **Enviar Link** , clique na lista na parte superior, escolha **pessoas específicas**, selecione **permitir edição** e, em seguida, escolha **aplicar**.
-1. Na janela **Enviar Link** , digite o endereço de email do cliente, digite uma mensagem e escolha **Enviar**.
+1. At the top of the Documents library on your SharePoint site, click **New**, and then select **Folder**.
+1. Dê um nome à pasta e clique em **Criar.**
+1. Carregue os arquivos que você deseja compartilhar na nova biblioteca ou escolha **Novo** para criar novos documentos diretamente na biblioteca.
+1. Selecione sua nova pasta na biblioteca Documentos e clique no **botão** Compartilhar.
+1. Na janela **Enviar Link,** clique na lista na parte superior, escolha Pessoas específicas, selecione Permitir **edição** e, em seguida, escolha **Aplicar**.
+1. Na janela **Enviar Link,** insira o endereço de email do cliente, digite uma mensagem e escolha **Enviar.**
 
-    Seu cliente receberá um email com um código de verificação, que ele precisará enviar para si mesmo para acessar sua pasta. Caso não encontrem o email, eles devem verificar a pasta de spam.
+    Seu cliente receberá um email com um código de verificação, que será necessário enviar para si mesmo para acessar sua pasta. Se eles não puderem encontrar o email, eles deverão verificar sua pasta de Spam.

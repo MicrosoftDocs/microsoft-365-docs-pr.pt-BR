@@ -1,10 +1,10 @@
 ---
 title: Tabela EmailAttachmentInfo no esquema de busca avançada
 description: Saiba mais sobre informações de anexo de email na tabela EmailAttachmentInfo do esquema de busca avançada
-keywords: caça avançada, busca de ameaças, caça de ameaças na rede, proteção contra ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, EmailAttachmentInfo, ID da mensagem de rede, remetente, destinatário, ID de anexo, nome do anexo, veredicto de malware
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailAttachmentInfo, id da mensagem de rede, remetente, destinatário, id do anexo, nome do anexo, veredito de malware
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ mms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6d88303b34f78abc857e9aec749bf2f58090f43a
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.technology: m365d
+ms.openlocfilehash: c6cab4d813eba79e298d0082072888e3ef1ad1cd
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667644"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926997"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -36,7 +37,7 @@ ms.locfileid: "49667644"
 
 
 
-A `EmailAttachmentInfo` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre anexos em emails processados pelo Microsoft Defender para Office 365. Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre anexos em emails processados pelo `EmailAttachmentInfo` Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -51,11 +52,11 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `FileType` | string | Tipo de extensão do arquivo |
 | `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `MalwareFilterVerdict` | string | Veredito da pilha de filtragem de email sobre se o email contém malware: Malware, Não malware |
-| `MalwareDetectionMethod` | string | Método usado para detectar malware no mecanismo de email: Mecanismo Antimalware, reputação de arquivos e anexos seguros |
-| `SenderDisplayName` | string | Nome do remetente exibido no catálogo de endereços, geralmente uma combinação de um determinado nome, inicial do meio e sobrenome ou sobrenome |
-| `SenderObjectId` | string | Identificador exclusivo para a conta do remetente no Azure AD |
-| `ThreatTypes` | string | Veredicto da pilha de filtragem de emails em se o email contém malware, phishing ou outras ameaças |
-| `ThreatNames` | string | Nome de detecção para malware ou outras ameaças encontradas |
+| `MalwareDetectionMethod` | string | Método usado para detectar malware no email: mecanismo antimalware, reputação do arquivo, Anexos seguros |
+| `SenderDisplayName` | string | Nome do remetente exibido no livro de endereços, normalmente uma combinação de um nome ou nome determinado, uma inicial do meio e um sobrenome ou sobrenome |
+| `SenderObjectId` | string | Identificador exclusivo da conta do remetente no Azure AD |
+| `ThreatTypes` | string | Veredito da pilha de filtragem de email sobre se o email contém malware, phishing ou outras ameaças |
+| `ThreatNames` | string | Nome da detecção de malware ou outras ameaças encontradas |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

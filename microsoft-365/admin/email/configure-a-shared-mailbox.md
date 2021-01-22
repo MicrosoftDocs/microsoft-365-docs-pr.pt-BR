@@ -16,21 +16,22 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Depois de criar uma caixa de correio compartilhada, convém definir algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como os membros ou o nome da caixa de correio.
-ms.openlocfilehash: a007b3ca810bdfc00176e71a737a510230f18113
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Depois de criar uma caixa de correio compartilhada, você vai querer definir algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como o nome ou os membros da caixa de correio.
+ms.openlocfilehash: fe5d35be556b8edf5456bc2c0b820dc0ce77e323
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445670"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926601"
 ---
 # <a name="configure-shared-mailbox-settings"></a>Configurar caixa de correio compartilhada
 
-Depois de [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md), convém definir algumas configurações para os usuários de caixa de correio, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como o nome da caixa de correio, membros ou permissões de membro. 
+Depois de criar [uma caixa](create-a-shared-mailbox.md)de correio compartilhada, você vai querer definir algumas configurações para os usuários de caixa de correio, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como o nome da caixa de correio, membros ou permissões de membro. 
 
 ## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a>Alterar o nome ou o alias de email de uma caixa de correio compartilhada ou alterar o endereço de email principal
 
@@ -52,7 +53,7 @@ Depois de [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md)
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione **Editar** ao lado de **nome, email, aliases de email**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione **Editar** ao lado de **Nome, Email, Aliases de email.**
 
 3. Insira um novo nome ou adicione outro alias. Se você deseja alterar o endereço de email principal, sua caixa de correio deve ter mais de um alias de email.
 
@@ -60,7 +61,7 @@ Depois de [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md)
 
 ## <a name="forward-emails-that-are-sent-to-a-shared-mailbox"></a>Encaminhar emails enviados para uma caixa de correio compartilhada
 
-Você não precisa atribuir uma licença à caixa de correio compartilhada para encaminhar emails enviados a ela. Você pode encaminhar as mensagens para qualquer endereço de email ou lista de distribuição válida.
+Você não precisa atribuir uma licença à caixa de correio compartilhada para encaminhar emails enviados a ela. Você pode encaminhar as mensagens para qualquer endereço de email válido ou lista de distribuição.
 
 ::: moniker range="o365-worldwide"
 
@@ -80,9 +81,9 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione edição de **encaminhamento de email** \> **Edit**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Editar encaminhamento de** \> **email.**
     
-3. Defina **a opção**ativar e digite um endereço de email para encaminhar as mensagens. Pode ser qualquer endereço de email válido. Para encaminhar para vários endereços, você precisa [criar um grupo de distribuição](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists) para os endereços e, em seguida, inserir o nome do grupo nessa caixa.
+3. De definida a **alternância para 1** e insira um endereço de email para encaminhar as mensagens. Pode ser qualquer endereço de email válido. Para encaminhar para vários endereços, você precisa criar um grupo de distribuição para os endereços e, em seguida, inserir o nome do grupo nesta caixa. [](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists)
     
 4. Selecione **Salvar**.
 
@@ -106,13 +107,13 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione Editar **respostas automáticas** \> **Edit**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e, em **seguida, selecione Respostas automáticas** \> **Editar**.
     
-3. Defina a opção Ativar **e escolha**se deseja enviar a resposta para pessoas dentro da sua organização ou fora da organização.
+3. De configurar o **alternância** para On e escolha se a resposta será enviada para pessoas dentro ou fora da sua organização.
 
 4. Digite a resposta que deseja enviar para as pessoas da organização. Não é possível adicionar imagens, apenas texto.
 
-5. Se você deseja *também* enviar uma resposta para pessoas de fora da sua organização, marque a caixa de seleção, quem deseja obter a resposta e digite o texto. Não é possível enviar apenas para as pessoas de fora da organização, sem enviar também para as pessoas da organização.
+5. Se você também quiser *enviar* uma resposta para pessoas de fora da sua organização, marque a caixa de seleção, para quem você deseja obter a resposta e digite o texto. Não é possível enviar apenas para as pessoas de fora da organização, sem enviar também para as pessoas da organização.
 
 6. Selecione **Salvar**.
 
@@ -120,7 +121,7 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 Por padrão, as mensagens enviadas da caixa de correio compartilhada não são salvas na sua pasta Itens enviados. Em vez disso, elas são salvas na pasta Itens enviados da pessoa que enviou a mensagem.
 
-Se quiser permitir que todos vejam os emails enviados, no centro de administração, edite as configurações da caixa de correio compartilhada e selecione Editar **itens enviados** \> **Edit**.
+Se você quiser permitir que todos vejam o email enviado, no centro de administração, edite as configurações da caixa de correio compartilhada e selecione **Itens enviados** \> **Editar**.
 
 
 ## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>Escolha os aplicativos que uma caixa de correio compartilhada pode usar para acessar o email da Microsoft
@@ -143,16 +144,16 @@ Se quiser permitir que todos vejam os emails enviados, no centro de administraç
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione Editar **aplicativos de email** \> **Edit**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Editar aplicativos de email.** \> 
 
-3. Defina ativar/desativar **para todos** os aplicativos que você deseja que os membros possam usar para acessar a caixa de correio compartilhada. Defina a **opção** de alternância para qualquer aplicativo que você não deseja que eles usem. 
+3. De definida a **alternância para On** para todos os aplicativos que você deseja que os membros sejam capazes de usar para acessar a caixa de correio compartilhada. De definida a **alternância para** Desligado para todos os aplicativos que você não deseja que eles usem. 
 
 4. Selecione **Salvar**.
 
 
-## <a name="put-a-shared-mailbox-on-litigation-hold"></a>Colocar uma caixa de correio compartilhada em retenção de litígio
+## <a name="put-a-shared-mailbox-on-litigation-hold"></a>Colocar uma caixa de correio compartilhada em espera de litígio
 
-Para saber mais sobre a retenção de litígio, confira [criar uma retenção de litígio](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold).
+Para saber mais sobre a espera de litígio, consulte [Create a Litigation Hold](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold).
 
 ::: moniker range="o365-worldwide"
 
@@ -172,11 +173,11 @@ Para saber mais sobre a retenção de litígio, confira [criar uma retenção de
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione Editar a **retenção de litígio** \> **Edit**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione **Litigation hold** \> **Edit**.
 
-3. Defina a opção Toggle como **ativado**. 
+3. De definida a alternância para **1**. 
 
-4. Opcionalmente, insira uma duração, nota sobre a isenção e uma URL com mais informações.  
+4. Opcionalmente, insira uma duração, uma observação sobre a espera e uma URL com mais informações.  
 
 5. Selecione **Salvar**.
 
@@ -201,13 +202,13 @@ Para saber mais sobre a retenção de litígio, confira [criar uma retenção de
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione **Membros** \> **Editar**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Editar** \> **Membros.**
 
 3. Siga um destes procedimentos:
-   - Para adicionar membros, selecione **adicionar membros**, Pesquisar ou selecionar um membro a ser adicionado e, em seguida, selecione **salvar**.
-   - Para remover membros, use a caixa de pesquisa para pesquisar o membro, se necessário, selecione o **X** ao lado do nome do membro e, em seguida, selecione **salvar**. 
+   - Para adicionar membros, selecione **Adicionar membros,** pesquise ou selecione um membro para adicionar e, em seguida, **selecione Salvar**.
+   - Para remover membros, use a caixa De pesquisa para procurar o membro, se necessário, selecione **o X** ao lado do nome do membro e selecione **Salvar**. 
 
-4. Selecione **salvar** novamente.
+4. Selecione **Salvar** novamente.
 
 ## <a name="add-or-remove-permissions-of-members"></a>Adicionar ou remover permissões de membros
 
@@ -229,19 +230,19 @@ Para saber mais sobre a retenção de litígio, confira [criar uma retenção de
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione **Membros** \> **Personalizar permissões**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e, em **seguida, selecione Permissões** \> **Personalizar Membros.**
 
 3. Selecione **Editar** ao lado da permissão que você deseja alterar para um membro. 
 
 4. Siga um destes procedimentos:
-   - Para conceder essa permissão a um membro adicional, selecione **adicionar permissões**, Pesquisar ou selecionar um membro a ser adicionado e, em seguida, selecione **salvar**.
-   - Para remover a permissão de um membro, use a caixa de pesquisa para pesquisar o membro, se necessário, selecione o **X** ao lado do nome do membro e, em seguida, selecione **salvar**. 
+   - Para dar essa permissão a um membro adicional, selecione **Adicionar** permissões, procure ou selecione um membro para adicionar e, em seguida, **selecione Salvar**.
+   - Para remover a permissão de um membro, use a caixa De pesquisa para procurar o membro, se necessário, selecione **o X** ao lado do nome do membro e, em seguida, **selecione Salvar**. 
 
-4. Selecione **salvar** novamente.
+4. Selecione **Salvar** novamente.
 
 ## <a name="show-or-hide-a-shared-mailbox-in-the-global-address-list"></a>Mostrar ou ocultar uma caixa de correio compartilhada na lista de endereços global
 
-Se você optar por não mostrar a caixa de correio compartilhada na lista de endereços global, a caixa de correio não aparecerá na lista de endereços da sua organização, mas ainda receberá emails enviados para ele. 
+Se você optar por não mostrar a caixa de correio compartilhada na lista de endereços global, a caixa de correio não aparecerá na lista de endereços da sua organização, mas ainda receberá emails enviados para ela. 
 
 ::: moniker range="o365-worldwide"
 
@@ -261,14 +262,14 @@ Se você optar por não mostrar a caixa de correio compartilhada na lista de end
 
 ::: moniker-end
 
-2. Selecione a caixa de correio compartilhada que você deseja editar e, em seguida, selecione **Mostrar na edição da lista de endereços global** \> **Edit**.
+2. Selecione a caixa de correio compartilhada que você deseja editar e selecione **Mostrar na lista de endereços global** \> **Editar**.
 
-3. Define a opção Ativar **ou** **desativar**. 
+3. De definida a alternância **como On**  ou **Off**. 
 
 4. Selecione **Salvar**.
 
 > [!NOTE]
-> Ocultar uma caixa de correio compartilhada da lista de endereços impossibilitará que novos membros da caixa de correio compartilhada adicionem a caixa de correio oculta ao seu perfil do Outlook até que a caixa de correio compartilhada seja exibida novamente na lista de endereços. 
+> Ocultar uma caixa de correio compartilhada da lista de endereços impossibilita que novos membros da caixa de correio compartilhada adicionem a caixa de correio oculta ao perfil do Outlook até que a caixa de correio compartilhada seja mostrada novamente na lista de endereços. 
 
 ## <a name="related-articles"></a>Artigos relacionados
 

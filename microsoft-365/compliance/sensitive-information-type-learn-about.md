@@ -1,0 +1,153 @@
+---
+title: Saiba mais sobre os tipos de informações confidenciais
+f1.keywords:
+- CSH
+ms.author: chrfox
+author: chrfox
+manager: laurawi
+ms.date: ''
+audience: Admin
+search.appverid: MET150
+ms.topic: conceptual
+f1_keywords:
+- ms.o365.cc.UnifiedDLPRuleContainsSensitiveInformation
+ms.service: O365-seccomp
+localization_priority: Normal
+ms.collection:
+- M365-security-compliance
+description: ''
+ms.openlocfilehash: 896a529d67faddb45b2672ca077f5a8e3b19827e
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933074"
+---
+# <a name="learn-about-sensitive-information-types"></a>Saiba mais sobre os tipos de informações confidenciais
+
+Identificar e classificar itens confidenciais que estão sob o controle de suas organizações é a primeira etapa na disciplina de Proteção [de Informações.](protect-information.md)  O Microsoft 365 fornece três maneiras de identificar itens para que eles possam ser classificados:
+
+- manualmente pelos usuários
+- reconhecimento automatizado de padrões, como tipos de informações confidenciais
+- [aprendizado de máquina](classifier-learn-about.md)
+
+Os tipos de informações confidenciais são classificadores baseados em padrões. Eles detectam informações confidenciais, como números de previdência social, cartão de crédito ou contas [bancárias,](sensitive-information-type-entity-definitions.md) para identificar itens confidenciais. Consulte Definições de entidade de tipos de informações confidenciais
+
+## <a name="sensitive-information-types-are-used-in"></a>Os tipos de informações confidenciais são usados em
+
+- [Políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) 
+- [Rótulos de confidencialidade](sensitivity-labels.md)
+- [Rótulos de retenção](retention.md)
+- [Conformidade em comunicações](communication-compliance.md)
+- [Políticas de rotulagem automática](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
+
+## <a name="fundamental-parts-of-a-sensitive-information-type"></a>Partes fundamentais de um tipo de informação confidenciais
+
+Cada entidade de tipo de informação confidenciais é definida por estes campos:
+
+- name: how the sensitive information type is referred to
+- description: descreve o que o tipo de informação confidenciais está procurando
+- padrão: um padrão define o que um tipo de informação confidenciais detecta. Ele consiste nos seguintes componentes
+    - Elemento principal – o elemento principal que o tipo de informação sensível está procurando. Pode ser uma expressão **regular com ou sem** uma validação de verificação, uma lista de palavras-chave, um dicionário de palavras-chave ou uma **função.**  
+    - Elemento de suporte – elementos que atuam como evidências de suporte que ajudam a aumentar a confiança da partida. Por exemplo, a palavra-chave "SSN" perto de um número SSN. Pode ser uma expressão regular com ou sem uma validação de verificação, uma lista de palavras-chave, um dicionário de palavras-chave.
+    - Nível de Confiança - os níveis de confiança (alto, médio, baixo) refletem quanta evidência de suporte foi detectada junto com o elemento principal. Quanto mais evidências de suporte um item contiver, maior será a confiança de que um item com as informações confidenciais que você está procurando.
+    - Proximidade – Número de caracteres entre o elemento principal e o elemento de suporte
+
+![Diagrama da janela de proximidade e evidências comprobatórias](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
+
+Saiba mais sobre os níveis de confiança neste vídeo
+
+
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hx60]  
+
+### <a name="example-sensitive-information-type"></a>Exemplo de tipo de informação sensível
+
+
+## <a name="argentina-national-identity-dni-number"></a>Número de identidade nacional (DNI) da Argentina
+
+### <a name="format"></a>Formatar
+
+Oito dígitos separados por pontos
+
+### <a name="pattern"></a>Padrão
+
+Oito dígitos:
+- dois dígitos
+- um ponto
+- três dígitos
+- um ponto
+- três dígitos
+
+### <a name="checksum"></a>Soma de verificação
+
+Não
+
+### <a name="definition"></a>Definição
+
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A expressão regular Regex_argentina_national_id localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave Keyword_argentina_national_id for encontrada.
+
+```xml
+<!-- Argentina National Identity (DNI) Number -->
+<Entity id="eefbb00e-8282-433c-8620-8f1da3bffdb2" recommendedConfidence="75" patternsProximity="300">
+   <Pattern confidenceLevel="75">
+      <IdMatch idRef="Regex_argentina_national_id"/>
+      <Match idRef="Keyword_argentina_national_id"/>
+  </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>Palavras-chave
+
+#### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
+
+- Número de Identidade Nacional da Argentina 
+- Identidade 
+- Cartão de Identidade Nacional de Identificação 
+- DNI 
+- Registro Nacional NIC de Pessoas 
+- Documento Nacional de Identidad 
+- Registro Nacional de las Personas 
+- Identidad 
+- Identificación 
+
+### <a name="more-on-confidence-levels"></a>Mais sobre níveis de confiança
+
+Em uma definição de entidade de tipo de informação **confidenciais,** o nível de confiança reflete a quanta evidência de suporte é detectada, além do elemento principal. Quanto mais evidências de suporte um item contiver, maior será a confiança de que um item com as informações confidenciais que você está procurando. Por exemplo, as combinações com um alto nível de confiança conterão evidências de suporte mais próximas do elemento principal, enquanto as combinações com um nível de confiança baixo conteriam pouca ou nenhuma evidência de suporte próxima. 
+
+Um nível de confiança alto retorna o menor número de falsos positivos, mas pode resultar em mais falsos negativos. Níveis de confiança baixos ou médios retornam mais falsos positivos, mas poucos a zero falsos negativos.
+
+- **baixa confiança**: o valor de 65 itens, os itens que corresponderem conterão o menor falso negativo, mas a maioria dos falsos positivos.  
+- **confiança média**: valor de 75, itens de corresponder conterão uma quantidade média de falsos positivos e falsos negativos.  
+- **alta confiança**: o valor de 85 itens, os itens que corresponderem conterão o menor número de falsos positivos, mas a maioria dos falsos negativos.  
+
+Você deve usar padrões de nível de alta confiança com contagens baixas, cinco a dez e padrões de baixa confiança com contagens mais altas, digamos 20 ou mais.
+
+## <a name="creating-custom-sensitive-information-types"></a>Criando tipos de informações confidenciais personalizadas
+
+Para criar tipos de informações confidenciais personalizadas no Centro de Conformidade e Segurança, você pode escolher entre várias opções:
+
+- **Usar a interface do usuário** Você pode configurar um tipo de informações confidenciais personalizadas usando o a interface do usuário do Centro de Conformidade e Segurança. Com esse método, você pode usar expressões comuns, palavras-chave e dicionários de palavras-chave. Para saber mais, confira [Criar um tipo de informações confidenciais personalizadas](create-a-custom-sensitive-information-type.md).
+
+- **Use EDM** Você pode configurar tipos de informações confidenciais personalizadas usando a classificação baseada em EDM (Exact Data Match). Esse método permite criar um tipo de informações confidenciais dinâmico usando um banco de dados seguro que você pode atualizar periodicamente. Confira [Criar um tipo de informações confidenciais personalizadas com classificação baseada em Exact Data Match](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md).
+
+- **Use o PowerShell** Você pode configurar tipos de informações confidenciais personalizadas usando o PowerShell. Embora esse método seja mais complexo do que usar a interface do usuário, você tem mais opções de configuração. Consulte [Criar um tipo de informações confidenciais personalizadas no Centro de Conformidade e Segurança do PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md).
+
+
+
+> [!NOTE]
+> A Proteção de Informações do Microsoft 365 agora oferece suporte a idiomas de conjunto de caracteres de byte duplo de visualização:
+> - Chinês (simplificado)
+> - Chinês (tradicional)
+> - Coreano
+> - Japonês
+
+>Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
+
+## <a name="for-further-information"></a>Para obter mais informações
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
+- [Criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md)
+- [Criar um tipo personalizado de informação confidenciais no PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
+
+<!-- fwlink for this topic https://go.microsoft.com/fwlink/?linkid=2135644-->

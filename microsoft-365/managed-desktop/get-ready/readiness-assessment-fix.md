@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ada6bb8ef66e3414a375a151b45d4871e306e825
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: f1af39a9b2a09908ecf5f5ff15b9fd6d764459d6
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841059"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921853"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -37,7 +37,7 @@ Você pode acessar as configurações do Intune no centro de administração do 
 
 ### <a name="autopilot-deployment-profile"></a>Perfil de implantação do Autopilot
 
-Você não deve ter perfis existentes do Autopilot destinados a grupos atribuídos ou dinâmicos usados pela Área de Trabalho Gerenciada da Microsoft. A Área de Trabalho Gerenciada da Microsoft usa o Autopilot para provisionar novos dispositivos.
+Você não deve ter perfis existentes do Autopilot destinados a grupos atribuídos ou dinâmicos com dispositivos da Área de Trabalho Gerenciada da Microsoft. A Área de Trabalho Gerenciada da Microsoft usa o Autopilot para provisionar novos dispositivos.
 
 **Não está pronto**
 
@@ -45,38 +45,38 @@ Você tem um perfil do Autopilot atribuído a todos os dispositivos. Para ver as
 
 **Aviso**
 
-Certifique-se de que seus perfis do Autopilot sejam destinados a um grupo atribuído ou dinâmico do Azure AD que não inclua dispositivos da Área de Trabalho Gerenciada da Microsoft que serão criados no registro. Para ver as etapas, [confira Registrar dispositivos Windows no Intune usando o Windows Autopilot.](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot) Após o registro na Área de Trabalho Gerenciada da Microsoft, de configurar a política do Autopilot para excluir o grupo Dispositivos do Modern **Workplace -All** Azure AD.
+Certifique-se de que seus perfis do Autopilot visam um grupo do Azure AD atribuído ou dinâmico que não inclua dispositivos da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Registrar dispositivos Windows no Intune usando o Windows Autopilot.](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot) Após o registro na Área de Trabalho Gerenciada da Microsoft, de configurar seus perfis do Autopilot para excluir o grupo Dispositivos de Local de Trabalho Moderno **-Todos do** Azure AD.
 
 
 ### <a name="certificate-connectors"></a>Conectores de certificado
 
-Se você tiver conectores de certificado usados pelos dispositivos que deseja registrar na Área de Trabalho Gerenciada da Microsoft, os conectores não poderão ter erros. Apenas um dos seguintes avisos será aplicado à sua situação, portanto, verifique-os cuidadosamente.
+Se você tiver conectores de certificado que serão usados pelos dispositivos que você deseja registrar na Área de Trabalho Gerenciada da Microsoft, os conectores não devem ter erros. Apenas um dos seguintes avisos será aplicado à sua situação, portanto, verifique-os cuidadosamente.
 
 **Aviso**
 
-Nenhum conector de certificado está presente. É possível que você não precise de conectores, mas avalie se pode precisar de alguns para conectividade de rede com dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
+Nenhum conector de certificado está presente. É possível que você não precise de nenhum conector, mas você deve avaliar se pode precisar de alguns para conectividade de rede em seus dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
 
 **Aviso**
 
-Pelo menos um conector de certificado tem um erro. Se você precisar desse conector para conectividade com dispositivos da Área de Trabalho Gerenciada da Microsoft, deverá resolver o erro. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
+Pelo menos um conector de certificado tem um erro. Se você precisar desse conector para fornecer certificados para dispositivos da Área de Trabalho Gerenciada da Microsoft, deverá resolver o erro. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
 
 
 **Aviso**
 
-Você tem pelo menos um conector de certificado e nenhum erro é relatado. No entanto, talvez seja necessário criar um perfil para reutilizar o conector para dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
+Você tem pelo menos um conector de certificado e nenhum erro é relatado. No entanto, na preparação para a implantação, talvez seja necessário criar um perfil para reutilizar o conector para dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
 
 
 ### <a name="conditional-access-policies"></a>Políticas de acesso condicional
 
-As políticas de acesso condicional em sua organização do Azure AD não devem ter como alvo nenhum usuário do Microsoft Manage Desktop.
+As políticas de acesso condicional em sua organização do Azure AD não devem ter como alvo nenhuma conta de serviço Microsoft Manage Desktop.
 
 **Não está pronto**
 
-Você tem pelo menos uma política de acesso condicional que segmenta todos os usuários. Redefina a política para direcionar um grupo específico do Azure AD que não inclua o grupo do Azure AD de contas de serviço da Área de Trabalho Gerenciada da Microsoft que serão criadas no registro. Para etapas, [consulte Acesso Condicional: Usuários e grupos.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)
+Você tem pelo menos uma política de acesso condicional que segmenta todos os usuários. Modifique a política para direcionar um grupo específico do Azure AD que não inclui o grupo do Azure AD de contas de serviço da Área de Trabalho Gerenciada da Microsoft que serão criadas no registro. Para etapas, consulte [Acesso Condicional: Usuários e grupos.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)
 
 **Aviso**
 
-Certifique-se de que quaisquer políticas de acesso condicional que você tenha excluam o grupo Contas de Serviço do Modern **Workplace** Azure AD. Para ver as etapas, [consulte Ajustar o acesso condicional.](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access) O **grupo Azure** AD de Contas de Serviço do Local de Trabalho Moderno é um grupo dinâmico que criamos para o serviço quando você se inscreva. Você terá que voltar para excluir esse grupo após o registro. Para saber mais sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+Certifique-se de que quaisquer políticas de acesso condicional que você tenha excluam o grupo Contas do Serviço do Local de **Trabalho Moderno** do Azure AD. Para ver as etapas, [consulte Ajustar o acesso condicional.](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access) O **grupo Contas de Serviço** do Local de Trabalho Moderno do Azure AD é um grupo dinâmico que criamos para o serviço quando você se inscreva. Você terá que voltar para excluir esse grupo após o registro. Para saber mais sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Erro**
 
@@ -91,29 +91,29 @@ A função de Administrador do Intune não tem permissões suficientes para essa
 
 ### <a name="device-compliance-policies"></a>Políticas de conformidade do dispositivo
 
-As políticas de Conformidade de Dispositivos do Intune em sua organização do Azure AD não devem direcionar nenhum usuário da Área de Trabalho Gerenciada da Microsoft.
+As políticas de Conformidade de Dispositivos do Intune em sua organização do Azure AD podem afetar os dispositivos da Área de Trabalho Gerenciada da Microsoft.
 
 **Não está pronto**
 
-Você tem pelo menos uma política de conformidade que segmenta todos os usuários. Redefinir a política para direcionar um grupo específico do Azure AD que não inclui nenhum usuário da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
+Você tem pelo menos uma política de conformidade que segmenta todos os usuários. A Área de Trabalho Gerenciada da Microsoft inclui políticas de conformidade que direcionarão seus dispositivos da Área de Trabalho Gerenciada da Microsoft.  Altere a política para direcionar um grupo específico do Azure AD que não inclui nenhum dispositivo ou usuário da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
 
 **Aviso**
 
-Certifique-se de que as políticas de conformidade que você tem não incluam usuários da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
+Certifique-se de que as políticas de conformidade que você tem não visam nenhum usuário da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
 
 
 
-### <a name="device-configuration-policies"></a>Políticas de Configuração de Dispositivo
+### <a name="device-configuration-profiles"></a>Perfis de configuração do dispositivo
 
-As políticas de Configuração de Dispositivo do Intune em sua organização do Azure AD não devem direcionar nenhum dispositivo ou usuário da Área de Trabalho da Microsoft.
+Os perfis de Configuração de Dispositivo do Intune em sua organização do Azure AD não devem ter como alvo nenhum dispositivo ou usuário da Área de Trabalho da Microsoft.
 
 **Não está pronto**
 
-Você tem pelo menos uma política de configuração voltada para todos os usuários, todos os dispositivos ou ambos. Redefina a política para direcionar um grupo específico do Azure AD que não inclua nenhum dispositivo da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
+Você tem pelo menos um perfil de configuração destinado a todos os usuários, todos os dispositivos ou ambos. Redefina o perfil para direcionar um grupo específico do Azure AD que não inclui nenhum dispositivo da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar um perfil com configurações personalizadas no Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
 
 **Aviso**
 
-Certifique-se de que quaisquer políticas de conformidade que você tenha não incluam qualquer dispositivo ou usuário da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
+Certifique-se de que quaisquer políticas de configuração que você tenha não incluam qualquer dispositivo ou usuário da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar um perfil com configurações personalizadas no Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
 
 
 
@@ -123,12 +123,12 @@ Os dispositivos da Área de Trabalho Gerenciada da Microsoft devem ter permissã
 
 **Não está pronto**
 
-Siga as etapas em Definir [restrições de registro](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) para alterar a configuração para **Permitir.**
+Atualmente, você tem pelo menos uma política de restrição de registro configurada para impedir que dispositivos Windows se inscreverem no Intune. Siga as etapas [em](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) Definir restrições de registro para cada política de restrição de registro que segmenta os usuários da Área de Trabalho Gerenciada da Microsoft e altere a configuração do Windows **(MDM)** para **Permitir.** No entanto, você pode definir qualquer **dispositivo** **Windows (MDM)** de propriedade pessoal como **Block**. 
 
 
 ### <a name="enrollment-status-page"></a>Página status do registro
 
-Atualmente, você tem a Página de Status do Registro (ESP) habilitada. Se você estiver participando da visualização pública desse recurso, poderá ignorar esse item. Para obter mais informações, [consulte Experiência de primeira executar com o Autopilot e a página status do registro.](../get-started/esp-first-run.md)
+Atualmente, você tem a Página de Status do Registro (ESP) habilitada. Se você pretende participar da visualização pública da Área de Trabalho Gerenciada da Microsoft desse recurso, ignore esse item. Para obter mais informações, [consulte Experiência de primeira executar com o Autopilot e a página status do registro.](../get-started/esp-first-run.md)
 
 **Não está pronto**
 
@@ -136,20 +136,11 @@ Você tem o perfil padrão ESP definido como Mostrar **o progresso da configura�
 
 **Aviso**
 
-Certifique-se de que  quaisquer perfis que tenham a configuração Mostrar aplicativo e progresso de configuração de perfil não sejam atribuídos a nenhum grupo do Azure AD que inclua dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, [consulte Configurar a página de status do registro.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
-
-### <a name="intune-enrollment"></a>Registro do Intune
-
-Os dispositivos Windows 10 em sua organização do Azure AD devem ser inscritos automaticamente no Intune.
-
-**Aviso**
-
-Certifique-se de que o escopo de usuário MDM está definido **como Alguns** ou **Todos**, não **Nenhum**. If you choose **Some**, come back after enrollment and select the **Modern Workplace -All** Azure AD group for **Groups**.
-
+Certifique-se de que  quaisquer perfis que tenham a configuração Mostrar progresso da configuração do aplicativo e do perfil não sejam atribuídos a nenhum grupo do Azure AD que inclua dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, [consulte Configurar a página de status do registro.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
 
 ### <a name="microsoft-store-for-business"></a>Microsoft Store para empresas
 
-Usamos a Microsoft Store para Empresas para que você possa baixar o Portal da Empresa para implantar alguns aplicativos, como o Microsoft Project e o Microsoft Visio.
+Usamos a Microsoft Store para Empresas e implantamos o aplicativo Portal da Empresa na Área de Trabalho Gerenciada da Microsoft para permitir que os usuários instalem opcionalmente alguns aplicativos, como o Microsoft Project e o Microsoft Visio (onde permitido).
 
 **Não está pronto**
 
@@ -157,16 +148,16 @@ A Microsoft Store para Empresas não está habilitada ou não está sincronizada
 
 ### <a name="multifactor-authentication"></a>Autenticação de vários fatores
 
-A autenticação multifator não deve ser aplicada acidentalmente às contas de serviço da Área de Trabalho Gerenciada da Microsoft.
+A autenticação multifator não deve ser aplicada às contas de serviço da Área de Trabalho Gerenciada da Microsoft.
 
 
 **Não está pronto**
 
-Você tem algumas políticas de autenticação multifator (MFA) definidas como "necessárias" para políticas de acesso condicional atribuídas a todos os usuários. Altere a política para usar uma Atribuição que segmente um grupo específico do Azure AD que não inclua nenhum dispositivo da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, [consulte Políticas de acesso condicional](#conditional-access-policies) e Acesso [Condicional: Exigir MFA para todos os usuários.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+Você tem algumas políticas de autenticação multifator definidas como **necessárias** para políticas de acesso condicional atribuídas a todos os usuários. Altere a política para usar uma atribuição que segmente um grupo específico do Azure AD que não inclua nenhuma conta de serviço da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, [consulte Políticas de acesso condicional](#conditional-access-policies) e Acesso [Condicional: Exigir MFA para todos os usuários.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
 
 **Aviso**
 
-Certifique-se de que todas as políticas de acesso condicional que exigem MFA excluam o grupo **Modern Workplace -All** Azure AD. Para obter mais informações, [consulte Políticas de acesso condicional](#conditional-access-policies) e Acesso [Condicional: Exigir MFA para todos os usuários.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) O grupo **Modern Workplace -All** Azure AD é um grupo dinâmico que criamos quando você se inscreva na Área de Trabalho Gerenciada da Microsoft, portanto, você terá que voltar para excluir esse grupo após o registro.
+Certifique-se de que quaisquer políticas de acesso condicional que exigem autenticação multifator excluam o grupo **Modern Workplace -All** Azure AD. Para obter mais informações, [consulte Políticas de acesso condicional](#conditional-access-policies) e Acesso [Condicional: Exigir MFA para todos os usuários.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) O grupo **Modern Workplace -All** Azure AD é um grupo dinâmico que criamos quando você se inscreva na Área de Trabalho Gerenciada da Microsoft, portanto, você terá que voltar para excluir esse grupo após o registro.
 
 **Erro**
 
@@ -185,7 +176,7 @@ Os scripts do Windows PowerShell não podem ser atribuídos de uma maneira que v
 
 **Aviso**
 
-Certifique-se de que os scripts do Windows PowerShell em sua organização do Azure AD não segmentem nenhum dispositivo ou usuário da Área de Trabalho da Microsoft. Não atribua um script do PowerShell para direcionar todos os usuários, todos os dispositivos ou ambos. Altere a política para usar uma Atribuição que segmente um grupo específico do Azure AD que não inclua nenhum dispositivo da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, [consulte Usar scripts do PowerShell em dispositivos Windows 10 no Intune.](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)
+Certifique-se de que os scripts do Windows PowerShell em sua organização do Azure AD não segmentem nenhum dispositivo ou usuário da Área de Trabalho da Microsoft. Não atribua um script do PowerShell para direcionar todos os usuários, todos os dispositivos ou ambos. Altere a política para usar uma Atribuição que segmente um grupo específico do Azure AD que não inclua nenhum dispositivo ou usuário da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, [consulte Usar scripts do PowerShell em dispositivos Windows 10 no Intune.](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)
 
 ### <a name="region"></a>Região
 
@@ -230,7 +221,7 @@ A Área de Trabalho Gerenciada da Microsoft exige que o Windows Hello para Empre
 
 **Não está pronto**
 
-O Windows Hello para Empresas está desabilitado. Habilitando-o seguindo as etapas [em Criar uma política do Windows Hello para Empresas](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+O Windows Hello para Empresas está desabilitado. Habilitando-o seguindo as etapas em [Criar uma política do Windows Hello para Empresas](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 **Aviso**
 
@@ -247,12 +238,21 @@ Você tem uma política de "anel de atualização" que segmenta todos os disposi
 
 **Aviso**
 
-Certifique-se de que todas as políticas de anel de atualização que você excluiu o grupo Dispositivos modernos do Local de Trabalho **– Todo o** Azure AD. Se você atribuiu um grupo de usuários do Azure AD a essas políticas, certifique-se de que todas as políticas de anel de atualização também excluíram o grupo **Modern Workplace -All** Azure AD que inclui os usuários da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, confira Gerenciar atualizações de [software do Windows 10 no Intune.](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure) Os dispositivos modern **workplace -all** e **modern workplace -all** Azure AD groups are assigned groups that we create when you enroll in Microsoft Managed Desktop, so you'll have to come back to exclude this group after enrollment.
+Certifique-se de que quaisquer políticas de anel de atualização que você tenha excluam o grupo Dispositivos modernos do Local de Trabalho **- Todo o** grupo do Azure AD. Se você atribuiu grupos de usuários do Azure AD a essas políticas, certifique-se de que todas as políticas de anel de atualização também excluíram o grupo **Modern Workplace -All** Azure AD ao que você adiciona os usuários da Área de Trabalho Gerenciada da Microsoft (ou um grupo equivalente). Para ver as etapas, confira Gerenciar atualizações de [software do Windows 10 no Intune.](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure) Os dispositivos modern **workplace -all** e **modern workplace -all** Azure AD groups are groups that we create when you enroll in Microsoft Managed Desktop, so you'll have to come back to exclude this group after enrollment.
 
 
 ## <a name="azure-active-directory-settings"></a>Configurações do Azure Active Directory
 
 Você pode acessar as configurações do Azure Active Directory no [portal do Azure.](https://portal.azure.com)
+
+### <a name="intune-enrollment"></a>Registro do Intune
+
+Os dispositivos Windows 10 em sua organização do Azure AD devem ser capazes de se inscrever automaticamente no Intune.
+
+**Aviso**
+
+Certifique-se de **que o escopo de usuário MDM** está definido como **Alguns** ou **Todos**, não **Nenhum**. Se você escolher **Alguns**, volte após o registro e selecione Modern **Workplace -All** Azure AD group for **Groups** ou um grupo equivalente destinado a todos os usuários da Área de Trabalho Gerenciada da Microsoft.  Consulte [Configurar o registro para dispositivos Windows usando o Microsoft Intune.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
+
 
 ### <a name="ad-hoc-subscriptions"></a>Assinaturas ad hoc
 
@@ -313,16 +313,16 @@ Os padrões de segurança estão ligado. Desativar os padrões de segurança e c
 
 ### <a name="self-service-password-reset"></a>Redefinição de senha de autoatendado
 
-A Redefinição de Senha de Autoatendido (SSPR) deve ser habilitada para todos os usuários da Área de Trabalho Gerenciada da Microsoft, excluindo as contas de serviço da Área de Trabalho Gerenciada da Microsoft. Para saber mais, confira Tutorial: Permitir que os usuários desbloqueiem suas contas ou redefinir senhas usando a redefinição de senha de autoatendenciamento do [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)
+A Redefinição de Senha de Autoatendido (SSPR) pode ser habilitada para todos os usuários da Área de Trabalho Gerenciada da Microsoft, excluindo as contas de serviço da Área de Trabalho Gerenciada da Microsoft. Para saber mais, confira Tutorial: Permitir que os usuários desbloqueiem suas contas ou redefinir senhas usando a redefinição de senha de autoatendenciamento do [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)
 
 **Aviso**
 
-Certifique-se de que a configuração SSPR **Selected** inclui dispositivos da Área de Trabalho Gerenciada da Microsoft, mas exclui contas de serviço da Área de Trabalho Gerenciada da Microsoft. As contas de serviço da Área de Trabalho Gerenciada da Microsoft não podem funcionar conforme o esperado quando o SSPR está habilitado.  
+Certifique-se de que a configuração SSPR **Selected** inclui usuários da Área de Trabalho Gerenciada da Microsoft, mas exclui contas de serviço da Área de Trabalho Gerenciada da Microsoft. As contas de serviço da Área de Trabalho Gerenciada da Microsoft não podem funcionar conforme o esperado quando o SSPR está habilitado.  
 
 
 ### <a name="standard-user-role"></a>Função de usuário padrão
 
-Além dos usuários com funções atribuídas ao Azure AD de Administrador global e administrador de dispositivos, os usuários da Área de Trabalho Gerenciada da Microsoft serão usuários padrão sem privilégios de administrador local. Todos os outros usuários receberão uma função de usuário padrão quando iniciarem o dispositivo de Área de Trabalho Gerenciada da Microsoft.
+Além dos usuários que têm funções do Azure AD atribuídas de Administrador global e administrador de dispositivos, os usuários da Área de Trabalho Gerenciada da Microsoft serão usuários padrão sem privilégios de administrador local. Todos os outros usuários receberão uma função de usuário padrão quando iniciarem o dispositivo de Área de Trabalho Gerenciada da Microsoft.
 
 **Aviso**
 

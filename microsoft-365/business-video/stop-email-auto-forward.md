@@ -1,5 +1,5 @@
 ---
-title: Interromper o encaminhamento automático de emails
+title: Parar de encaminhar e-mails automaticamente
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,35 +16,36 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como interromper o encaminhamento automático de emails.
-ms.openlocfilehash: 0683e133f6c261dc19cc098b13be298cd8086001
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como parar o encaminhamento automático de emails.
+ms.openlocfilehash: ebbe37ab5c4a60c6ac4b6ebf8877247199460fa1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701449"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925881"
 ---
-# <a name="stop-email-auto-forward"></a>Parar envio automático de email
+# <a name="stop-email-auto-forward"></a>Parar o encaminhamento automático de email
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2W6kS?autoplay=false]
 
-Se um hacker obtiver acesso à caixa de correio de um usuário, ele poderá encaminhar automaticamente o email do usuário para um endereço externo e roubar informações proprietárias. Você pode parar isso criando uma regra de fluxo de emails.
+Se um hacker ganha acesso à caixa de correio de um usuário, ele pode encaminhar automaticamente o email do usuário para um endereço externo e roubar informações proprietárias. Você pode parar isso criando uma regra de fluxo de emails.
 
 ## <a name="try-it"></a>Experimente!
 
-1. No centro de administração do Microsoft 365, selecione **Exchange**, **fluxo de emails** e na guia **regras** , selecione o sinal de adição e escolha **criar uma nova regra**.
-1. Selecione **Mais opções**. Nomeie sua nova regra.
-1. Em seguida, abra o menu suspenso para **aplicar esta regra se**, selecione **o remetente** e, em seguida, **for externo interno**.
-1. Selecione **dentro da organização** e **OK**.
-1. Escolha **Adicionar condição**, abra a lista suspensa, selecione **as propriedades da mensagem** e, em seguida, **inclua o tipo de mensagem**.
-1. Abra a lista suspensa **Selecionar tipo de mensagem** , escolha **Avançar** e **OK**.
-1. Abra o menu suspenso **fazer o seguinte** , selecione **bloquear a mensagem** e, em seguida, **rejeitar a mensagem e incluir uma explicação**.
-1. Digite o texto da mensagem para sua explicação e, em seguida, selecione **OK**.
-1. Role até a parte inferior e selecione **salvar**.
+1. No centro de administração do Microsoft 365, selecione  **Exchange** **,** fluxo de emails e, na guia regras, selecione o sinal de a mais e escolha criar uma **nova regra.**
+1. Selecione **Mais opções**. Nome da nova regra.
+1. Em seguida, abra o drop-down para **aplicar essa regra se**, selecione **o** remetente e, em **seguida, é interno externo**.
+1. Selecione **Dentro da organização** e, em seguida, **OK**.
+1. Choose **add condition**, open the drop-down, select The message **properties**, then include the **message type**.
+1. Abra o **drop-down selecionar** tipo de mensagem, escolha **Encaminhar automaticamente** e **OK**.
+1. Abra o **drop-down Fazer** o seguinte, selecione Bloquear a **mensagem** e, em seguida, rejeite a mensagem e inclua **uma explicação.**
+1. Insira o texto da mensagem para a explicação e selecione **OK.**
+1. Role até a parte inferior e selecione **Salvar.**
 
-    Sua regra foi criada e os hackers não poderão mais enviar mensagens automaticamente.
+    Sua regra foi criada, e os hackers não poderão mais encaminhar mensagens automaticamente.

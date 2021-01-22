@@ -1,5 +1,5 @@
 ---
-title: Ingressar em uma reunião do Microsoft Teams com convidados
+title: Participe de uma reunião do Microsoft Teams com convidados
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como ingressar em uma reunião do teams com convidados.
-ms.openlocfilehash: bb13396f13062e65700a535315ef41292210b3a8
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Saiba como participar de uma reunião do Teams com convidados.
+ms.openlocfilehash: a5f19aab079685a76f31bf67c1c79bd7312d00a4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701423"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927137"
 ---
 # <a name="join-a-teams-meeting-with-guests"></a>Participe de uma reunião do Teams com convidados
 
@@ -36,11 +37,11 @@ Com o Microsoft Teams, você pode facilmente participar e participar de reuniõe
 
 ## <a name="try-it"></a>Experimente!
 
-1. No Microsoft Teams, escolha **calendário** e localize sua reunião.
-1. Selecione **ingressar**, decida se deseja ativar ou desativar a câmera e o microfone e selecione **ingressar agora**.
-1. Se você for um convidado externo, abra o email recebido sobre a reunião e selecione **ingressar na reunião do Microsoft Teams**.
+1. No Microsoft Teams, escolha **Calendário** e encontre sua reunião.
+1. Selecione **Ingressar,** decida se deseja que a câmera e o microfone sejam ligado ou desligados e selecione **Ingressar Agora.**
+1. Se você for um convidado externo, abra o email que você recebeu sobre a reunião e selecione Ingressar na **Reunião do Microsoft Teams.**
 
-    Se você não quiser baixar o aplicativo, escolha **ingressar na Web** .
-1. Insira seu nome e selecione **ingressar agora**.
-1. Depois que todos chegaram, você poderá iniciar sua reunião compartilhando sua área de trabalho, um monitor ou um aplicativo como o PowerPoint.
-1. Quando a reunião terminar, selecione **desligar**.
+    Se você não quiser baixar o aplicativo, escolha **Ingressar na Web.**
+1. Insira seu nome e selecione **Ingressar Agora.**
+1. Depois que todos chegarem, você poderá iniciar sua reunião compartilhando sua área de trabalho, um monitor ou um aplicativo como o PowerPoint.
+1. Quando a reunião for final, selecione **Desligar.**
