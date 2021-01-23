@@ -2,12 +2,12 @@
 manager: dansimp
 ms.author: dansimp
 author: dansimp
-ms.prod: w10
+ms.prod: m365-security
 ms.topic: include
-ms.openlocfilehash: 12313f998e2fe61c3c2c43e49715d7d886bb4f3b
-ms.sourcegitcommit: b390a17f1ce38ffa048e3eef40c1e0cadcb6d420
+ms.openlocfilehash: 0d2326d8a9e5de06e9e6a94a8ae45de7eac96343
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "49726272"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939291"
 ---
