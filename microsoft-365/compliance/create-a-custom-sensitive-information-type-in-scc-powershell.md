@@ -1,5 +1,5 @@
 ---
-title: Crie um tipo de informações confidenciais personalizado no PowerShell do Centro de Conformidade e Segurança
+title: Criar um tipo de informação confidencial personalizado usando o Windows PowerShell
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,29 +14,26 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Aprenda a criar e importar um tipo de informações confidenciais personalizado para DLP no Centro de Conformidade e Segurança.
-ms.openlocfilehash: e5669e51dd22c2f33334797a808b50ef1c0861fc
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: Aprenda a criar e importar um tipo de informação confidencial personalizada para políticas no Centro de Conformidade.
+ms.openlocfilehash: 31badcb2ab0102584e3addf3ed4d1549afe78525
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546763"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929417"
 ---
-# <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>Crie um tipo de informações confidenciais personalizado no PowerShell do Centro de Conformidade e Segurança
+# <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Criar um tipo de informação confidencial personalizado usando o Windows PowerShell
 
-A Prevenção da perda de dados (DLP) no Microsoft 365 inclui muitas [Definições internas da entidade do tipo informações sensíveis](sensitive-information-type-entity-definitions.md) que estão prontas para você usar nas suas políticas de DLP. Esses tipos internos podem ajudar a identificar e proteger números de cartão de crédito, números de contas bancárias, números de passaportes e muito mais.
-  
-Mas e se você precisar identificar e proteger um tipo diferente de informações confidenciais (por exemplo, um ID de funcionário que usa um formato específico para sua organização)? Para fazer isso, você pode criar um tipo de informação sensível personalizado que é definido em um arquivo XML chamado de *pacote de regras*.
-  
-Este tópico mostra como criar um arquivo XML que define seu próprio tipo personalizado de informações confidenciais. Você precisa saber criar uma expressão regular. Como exemplo, este tópico cria um tipo personalizado de informações confidenciais que identifica uma ID de funcionário. Você pode usar esse XML de exemplo como ponto de partida para seu próprio arquivo XML.
-  
-Depois de criar um arquivo XML bem formado, você poderá carregá-lo no Microsoft 365 usando o PowerShell do Microsoft 365. Você estará pronto para usar seu tipo personalizado de informação confidencial nas suas políticas DLP e testar se ele está detectando as informações confidenciais conforme o planejado.
+Este tópico mostra como usar o Windows PowerShell para criar um arquivo XML *pacote de regras* que define seus próprios [tipos de informações confidenciais ](sensitive-information-type-entity-definitions.md)personalizados. Você precisa saber como criar uma expressão regular. Como exemplo, este tópico cria um tipo personalizado de informações confidenciais que identifica uma ID de funcionário. Você pode usar esse XML de exemplo como ponto de partida para o seu próprio arquivo XML. Se você for novo nos tipos de informações confidenciais, consulte [Saiba mais sobre os tipos de informações confidenciais](sensitive-information-type-learn-about.md).
+
+Depois de criar um arquivo XML bem formado, você pode carregá-lo no Microsoft 365 usando o Microsoft 365 Windows PowerShell. Então você está pronto para usar seu tipo de informação confidencial personalizado em suas políticas e testar se ele está detectando as informações confidenciais conforme desejado.
 
 > [!NOTE]
-> Você também pode criar tipos personalizados de informação confidencial menos complexos na IU do Centro de Conformidade e Segurança. Para saber mais, confira [Criar um tipo personalizado de informação confidencial](create-a-custom-sensitive-information-type.md).
+> Se você não precisa do controle refinado que o Windows PowerShell oferece, pode criar tipos de informações confidenciais personalizados no Centro de conformidade. Para saber mais informações, consulte [Criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md).
 
 ## <a name="important-disclaimer"></a>Aviso de isenção de responsabilidade importante
-<!-- this is worded much better than the previous one is --> Devido às variações nos ambientes do cliente e nos requisitos de correspondência de conteúdo, o Suporte da Microsoft não pode ajudar no fornecimento de definições de correspondência de conteúdo personalizado; por exemplo, definindo classificações personalizadas ou padrões de expressões regulares ("RegEx"). Para desenvolvimento, teste e depuração de correspondência de conteúdo personalizado, os clientes do Microsoft 365 devem contar com recursos de TI internos ou usar um recurso de consultoria externo, como os Serviços de Consultoria Microsoft (MCS). Os engenheiros de suporte podem fornecer suporte limitado para o recurso, mas não podem garantir que o desenvolvimento de correspondência de conteúdo personalizado atenda aos requisitos ou à conformidade do cliente. Como exemplo do tipo de auxílio disponível que pode ser fornecido, amostras de padrões de expressão regular podem ser fornecidos para fins de teste. OU então, o suporte pode auxiliar na resolução de problemas em um padrão RegEx existente, que não esteja sendo acionado como esperado, com um único exemplo de conteúdo específico.
+
+ Devido às variações nos ambientes do cliente e nos requisitos de correspondência de conteúdo, o Suporte da Microsoft não pode ajudar no fornecimento de definições de correspondência de conteúdo personalizado; por exemplo, definindo classificações personalizadas ou padrões de expressões regulares ("RegEx"). Para desenvolvimento, teste e depuração de correspondência de conteúdo personalizado, os clientes do Microsoft 365 devem contar com recursos de TI internos ou usar um recurso de consultoria externo, como os Serviços de Consultoria Microsoft (MCS). Os engenheiros de suporte podem fornecer suporte limitado para o recurso, mas não podem garantir que o desenvolvimento de correspondência de conteúdo personalizado atenda aos requisitos ou à conformidade do cliente. Como exemplo do tipo de auxílio disponível que pode ser fornecido, amostras de padrões de expressão regular podem ser fornecidos para fins de teste. OU então, o suporte pode auxiliar na resolução de problemas em um padrão RegEx existente, que não esteja sendo acionado como esperado, com um único exemplo de conteúdo específico.
 
 Confira [Possíveis problemas de validação para se lembrar](#potential-validation-issues-to-be-aware-of) neste tópico.
 
@@ -131,11 +128,13 @@ Eis um XML de exemplo do pacote de regras que criaremos neste tópico. Os elemen
 
 Antes de começar, é importante compreender a estrutura básica do esquema XML para uma regra e como você pode usar essa estrutura para definir seu tipo personalizado de informações confidenciais para que ele identifique o conteúdo certo.
   
-Uma regra define uma ou mais entidades (tipos de informações confidenciais) e cada entidade define um ou mais padrões. Um padrão é o que a DLP procura ao avaliar conteúdo como emails e documentos.   <!-- ok then this is going to be really confusing since the terminology changes.... --> (Uma breve observação sobre a terminologia: se você estiver familiarizado com as políticas DLP, saberá que uma política contém uma ou mais regras formadas por condições e ações. No entanto, neste tópico, a marcação XML usa regras para significar os padrões que definem uma entidade, também conhecido como tipo de informação confidencial. Neste tópico, ao ver uma regra, pense em entidade ou tipo de informação confidencial e não em condições e ações.)
+Uma regra define uma ou mais entidades (tipos de informações confidenciais), e cada entidade define um ou mais padrões. Um padrão é o que uma política procura quando avalia o conteúdo, como email e documentos.
+
+Neste tópico, a marcação XML usa regra para significar os padrões que definem uma entidade, também conhecido como um tipo de informação sensível. Portanto, neste tópico, ao ver a regra, pense na entidade ou no tipo de informação sensível, não nas condições e ações.
   
 ### <a name="simplest-scenario-entity-with-one-pattern"></a>Cenário mais simples: entidade com um padrão
 
-Aqui está o cenário mais simples. Você quer que sua política DLP identifique conteúdo que inclua a ID de funcionário da sua organização, com o formato de um número de nove dígitos. Assim, o padrão faz referência a uma expressão regular contida na regra que identifica números de nove dígitos. Qualquer conteúdo que contiver um número de nove dígitos corresponderá a esse padrão.
+Aqui está o cenário mais simples. Você deseja que sua política identifique o conteúdo que contém a ID de funcionário de sua organização, que é formatada como um número de nove dígitos. Portanto, o padrão faz referência a uma expressão regular contida na regra que identifica números de nove dígitos. Qualquer conteúdo que inclua um número de nove dígitos satisfaz esse padrão.
   
 ![Diagrama de entidade com um padrão](../media/4cc82dcf-068f-43ff-99b2-bac3892e9819.png)
   
@@ -151,7 +150,7 @@ Por exemplo, para aumentar as chances de identificar o conteúdo com uma ID de f
   
 Observe alguns aspectos importantes dessa estrutura:
   
-- Os padrões que exigem mais evidência têm maior nível de confiança. Isso é útil porque, quando você usa esse tipo de informação confidencial em uma política DLP, pode usar ações mais restritivas (como bloquear conteúdo) com apenas as correspondências de maior confiança e poderá usar ações menos restritivas (como enviar notificação) com correspondências de menor confiança.
+- Padrões que exigem mais evidência têm maior nível de confiança. Isso é útil porque, ao usar posteriormente esse tipo de informação sensível em uma política, você pode usar ações mais restritivas (como bloquear conteúdo) apenas com as correspondências de maior confiança e pode usar ações menos restritivas (como enviar notificação) com as correspondências de baixa confiança.
 
 - Os elementos IdMatch e Match de suporte fazem referência a expressões regulares e palavras-chave que são na verdade filhas do elemento Rule, não o Pattern. Esses elementos de suporte são referenciados pelo Pattern, mas incluídos na Rule. Isso significa que uma única definição de um elemento de suporte, como uma expressão regular ou uma lista de palavras-chave, pode ser referenciada por várias entidades e padrões.
 
@@ -160,9 +159,10 @@ Observe alguns aspectos importantes dessa estrutura:
 Uma entidade é um tipo de informação confidencial, como um número de cartão de crédito, que tem um padrão bem definido. Cada entidade tem um GUID exclusivo como sua ID.
   
 ### <a name="name-the-entity-and-generate-its-guid"></a>Nomear a entidade e gerar seu GUID
-<!-- why isn't the following in procedure format? --> Adicione elementos Rules e Entity. Em seguida, adicione um comentário que contém o nome da sua entidade personalizada. Neste exemplo, ID do funcionário. Posteriormente, você adicionará o nome da entidade à seção de cadeias de caracteres localizadas, e esse nome será exibido na interface de usuário quando você criar uma política DLP.
-  
-Em seguida, gere um GUID para a sua entidade. Há várias maneiras de gerar GUIDs, mas você pode fazer isso facilmente no PowerShell digitando **[guid]::NewGuid()**. Mais tarde, você também adicionará a GUID de entidade à seção de cadeias de caracteres localizadas.
+
+1. No editor XML de sua escolha, adicione os elementos Regras e Entidade.
+2. Em seguida, adicione um comentário que contenha o nome da sua entidade personalizada – neste exemplo, ID do Funcionário. Posteriormente, você adicionará o nome da entidade à seção de strings localizadas, e esse nome é o que aparece na IU quando você cria uma política.
+3. Gere um GUID para sua entidade. Há várias maneiras de gerar GUIDs, mas você pode fazer isso facilmente no Windows PowerShell digitando **[guid]::NewGuid()**. Posteriormente, você também adicionará o GUID da entidade à seção de strings localizadas.
   
 ![Marcação XML mostrando os elementos Rules e Entity](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
   
@@ -174,7 +174,7 @@ O que todos os padrões abaixo têm em comum é que eles fazem referência à me
   
 ![Marcação XML mostrando vários elementos Pattern fazendo referência a um único elemento Regex](../media/8f3f497b-3b8b-4bad-9c6a-d9abf0520854.png)
   
-Quando satisfeito, um padrão retorna uma contagem e um nível de confiança, que você pode usar nas condições da sua política DLP. Quando você adiciona uma condição para detectar um tipo de informação confidencial a uma política DLP, você pode editar a contagem e o nível de confiança como mostrado aqui. O nível de confiança (também chamado de precisão de correspondência) é explicado mais adiante neste tópico.
+Quando satisfeito, um padrão retorna uma contagem e um nível de confiança, que você pode usar nas condições de sua política. Ao adicionar uma condição para detectar um tipo de informação sensível a uma política, você pode editar a contagem e o nível de confiança conforme mostrado aqui. O nível de confiança (também chamado de precisão de correspondência) é explicado mais adiante neste tópico.
   
 ![Contagem de instâncias e opções de precisão de correspondência](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
@@ -210,7 +210,7 @@ Neste exemplo, a entidade ID do funcionário já usa o elemento IdMatch para faz
   
 ### <a name="additional-patterns-such-as-dates-or-addresses-built-in-functions"></a>Padrões adicionais, como datas ou endereços [funções internas]
 
-Além dos tipos internos de informações confidenciais, a DLP também inclui funções internas capazes de identificar evidências comprobatórias, como uma data dos EUA, data da UE, data de vencimento ou um endereço nos EUA. A DLP não dá suporte ao carregamento de suas próprias funções personalizadas, mas quando você cria um tipo personalizado de informações confidenciais, sua entidade poderá fazer referência às funções internas.
+Além dos tipos de informações confidenciais integrados, os tipos de informações confidenciais também podem usar funções integradas que podem identificar evidências corroborativas, como data nos EUA, data da UE, data de expiração ou endereço nos EUA. O Microsoft 365 não oferece suporte ao upload de suas próprias funções personalizadas, mas quando você cria um tipo de informação confidencial personalizado, sua entidade pode fazer referência às funções internas.
   
 Por exemplo, um crachá de ID do funcionário tem uma data de contratação; portanto, essa entidade personalizada pode usar a função interna `Func_us_date` para identificar uma data no formato comumente utilizado nos EUA. 
   
@@ -294,15 +294,15 @@ Observe que, para email, o corpo da mensagem e cada anexo são tratados como ite
 
 Quanto mais evidências um padrão exigir, mais confiança você terá que uma entidade real (como ID do funcionário) será identificada quando esse padrão for correspondido. Por exemplo, você tem mais confiança em um padrão que exige um número de ID de nove dígitos, uma data de contratação e palavras-chave com proximidade imediata do que em um padrão que exige apenas um número de ID de nove dígitos.
   
-O elemento Pattern tem um atributo confidenceLevel obrigatório. Você pode pensar no valor de confidenceLevel (um inteiro entre 1 e 100) como uma ID exclusiva para cada padrão em uma entidade; os padrões em uma entidade devem ter níveis de confiança diferentes que você atribui. O valor preciso do inteiro não importa: basta escolher números que façam sentido para sua equipe de conformidade. Depois de carregar seu tipo personalizado de informações confidenciais e criar uma política DLP, você poderá fazer referência a esses níveis de confiança nas condições das regras que você criar.
+O elemento Pattern tem um atributo confidenceLevel necessário. Você pode pensar no valor do Nível de confiança (um número inteiro entre 1 e 100) como um ID exclusivo para cada padrão em uma entidade - os padrões em uma entidade devem ter diferentes níveis de confiança atribuídos por você. O valor preciso do inteiro não importa - basta escolher os números que fazem sentido para sua equipe de conformidade. Depois de fazer upload de seu tipo de informação confidencial personalizado e criar uma política, você pode fazer referência a esses níveis de confiança nas condições das regras que criar.
   
 ![Marcação XML mostrando elementos Pattern com valores diferentes para o atributo confidenceLevel](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
   
-Além do atributo confidenceLevel para cada Padrão, a Entidade tem um atributo recommendedConfidence. O atributo recommendedConfidence pode ser visto como o nível de confiança padrão para a regra. Ao criar uma regra em uma política DLP, se você não especificar um nível de confiança para a regra a ser usada, essa regra será correspondente com base no nível de confiança recomendado para a entidade. Observe que o atributo recommendedConfidence é obrigatório para cada ID de entidade no pacote de regras, se não houver, não será possível salvar políticas que usem o tipo de informações confidenciais. 
+Além do atributo confidenceLevel para cada Padrão, a Entidade tem um atributo recommendedConfidence. O atributo recommendedConfidence pode ser visto como o nível de confiança padrão para a regra. Quando criar uma regra em uma política, se você não especificar um nível de confiança para a regra a ser usada, essa regra corresponderá com base no nível de confiança recomendado para a entidade. Observe que o atributo recommendedConfidence é obrigatório para cada ID de entidade no pacote de regras, se não houver, não será possível salvar políticas que usem o tipo de informações confidenciais. 
   
-## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-security-amp-compliance-center-localizedstrings-element"></a>Deseja oferecer suporte a outros idiomas na interface de usuário do Centro de Conformidade e Segurança? [elemento LocalizedStrings]
+## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-compliance-center-localizedstrings-element"></a>Deseja oferecer suporte a outros idiomas na interface de usuário do Centro de Conformidade e Segurança?  [Elemento Strings Localizado]
 
-Se a sua equipe de conformidade usa o Centro de Conformidade e Segurança &amp; do Microsoft 365 para criar políticas DLP em localidades e idiomas diferentes, você pode fornecer versões localizadas do nome e da descrição do seu tipo personalizado de informações confidenciais. Quando sua equipe de conformidade usa o Microsoft 365 em um idioma compatível, ela pode ver o nome localizado na interface do usuário.
+Se sua equipe de conformidade usa o Centro de Conformidade do Microsoft 365 para criar políticas de políticas em diferentes localidades e em diferentes idiomas, você pode fornecer versões localizadas do nome e da descrição do seu tipo de informação confidencial personalizada. Quando sua equipe de conformidade usar o Microsoft 365 em um idioma que você oferece suporte, eles verão o nome localizado na interface do usuário.
   
 ![Contagem de instâncias e opções de precisão de correspondência](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
@@ -310,7 +310,7 @@ O elemento Rules deve conter um elemento LocalizedStrings, que contém um elemen
   
 ![Marcação XML mostrando o conteúdo do elemento LocalizedStrings](../media/a96fc34a-b93d-498f-8b92-285b16a7bbe6.png)
   
-Observe que você utiliza cadeias de caracteres localizadas apenas para o modo como o seu tipo personalizado de informações confidenciais é exibido na interface de usuário do Centro de Conformidade e Segurança. Não é possível usar cadeias de caracteres localizadas para fornecer diferentes versões localizadas de uma lista de palavra-chave ou expressão regular.
+Observe que você usa strings localizadas apenas para como seu tipo de informação confidencial personalizada aparece na IU do Centro de Conformidade. Você não pode usar strings localizadas para fornecer diferentes versões localizadas de uma lista de palavras-chave ou expressão regular.
   
 ## <a name="other-rule-package-markup-rulepack-guid"></a>Outra marcação de pacote de regras [GUID RulePack]
 
@@ -348,9 +348,9 @@ Ao concluir, seu elemento RulePack deve ter esta aparência.
   
 ## <a name="changes-for-exchange-online"></a>Mudanças para o Exchange Online
 
-Anteriormente, você podia usar o Exchange Online PowerShell para importar os tipos personalizados de informações confidenciais para a DLP. Agora os tipos personalizados de informações confidenciais podem ser usados no Centro de administração do Exchange e o Centro de Conformidade &amp; Segurança. Como parte dessa melhoria, você deve usar o PowerShell do Centro de Conformidade &amp; Segurança para importar tipos de informações confidenciais personalizados, você não poderá mais importá-los do Exchange PowerShell. Os tipos personalizados de informações confidenciais continuarão a funcionar como antes; no entanto, pode levar até uma hora para que as alterações feitas nos tipos personalizados de informações confidenciais no Centro de Conformidade &amp; Segurança apareçam no Centro de administração do Exchange.
+Anteriormente, talvez você tenha usado o Windows PowerShell do Exchange Online para importar tipos de informações confidenciais personalizados para DLP. Agora seus tipos de informações confidenciais personalizados podem ser usados no centro de administração do Exchange e no centro de Conformidade. Como parte dessa melhoria, você deve usar o Centro de Conformidade PowerShell para importar seus tipos de informações confidenciais personalizados - você não pode mais importá-los do Exchange Windows PowerShell. Seus tipos de informações confidenciais personalizados continuarão a funcionar como antes; entretanto, pode levar até uma hora para que as alterações feitas nos tipos de informações confidenciais personalizados no Centro de conformidade apareçam no centro de administração do Exchange.
   
-Observe que, no Centro de Conformidade &amp; Segurança, você usa o cmdlet **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)** para carregar um pacote de regras. (Anteriormente, no centro de administração do Exchange, você usava o cmdlet **ClassificationRuleCollection**`). 
+Observe que, no Centro de conformidade, você usa o **[cmdlet New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)** para carregar um pacote de regras. (Anteriormente, no Centro de administração do Exchange, você usava o cmdlet **ClassificationRuleCollection `**.) 
   
 ## <a name="upload-your-rule-package"></a>Carregar o pacote de regras
 
@@ -360,7 +360,7 @@ Para carregar o pacote de regras, siga as etapas:
   
 1. Salve-o como um arquivo .xml com codificação Unicode.
     
-2. [Conecte-se ao PowerShell do Centro de Conformidade e Segurança](https://go.microsoft.com/fwlink/p/?LinkID=799771)
+2. [Conecte-se ao centro de conformidade Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=799771)
     
 3. Use a seguinte sintaxe:
 
@@ -439,7 +439,7 @@ Se um tipo personalizado de informações confidenciais contiver um problema que
     
 ## <a name="recrawl-your-content-to-identify-the-sensitive-information"></a>Repetir o rastreamento de seu conteúdo para identificar informações confidenciais
 
-A DLP usa o rastreador de pesquisa para identificar e classificar informações confidenciais no conteúdo do site. O conteúdo em sites no SharePoint Online e no OneDrive for Business será novamente rastreado automaticamente sempre que ele for atualizado. Mas, para identificar seu novo tipo personalizado de informações confidenciais em todo o conteúdo existente, esse conteúdo deve ser novamente rastreado.
+O Microsoft 365 usa o rastreador de pesquisa para identificar e classificar informações confidenciais no conteúdo do site. O conteúdo dos sites do SharePoint Online e do OneDrive for Business é rastreado novamente de forma automática sempre que é atualizado. Porém, para identificar seu novo tipo personalizado de informações confidenciais em todo o conteúdo existente, esse conteúdo deve ser novamente rastreado.
   
 No Microsoft 365, não é possível solicitar manualmente um novo rastreamento de um locatário inteiro, mas você pode fazer isso para um conjunto de sites, lista ou biblioteca. Confira [Solicitar manualmente o rastreamento e a reindexação de um site, biblioteca ou lista](https://docs.microsoft.com/sharepoint/crawl-site-content).
   
@@ -448,13 +448,13 @@ No Microsoft 365, não é possível solicitar manualmente um novo rastreamento d
 > [!NOTE]
 > Antes de remover um tipo personalizado de informação confidencial, verifique se nenhuma política de DLP ou regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) ainda fazem referência ao tipo de informação confidencial.
 
-No PowerShell do Centro de Conformidade e Segurança, há dois métodos para remover os tipos personalizados de informação confidencial:
+No Centro de Conformidade Windows PowerShell, existem dois métodos para remover tipos de informações confidenciais personalizadas:
 
 - **Remover os tipos personalizados individuais de informação confidencial**: use o método documentado em [Modificar um tipo personalizado de informação confidencial](#modify-a-custom-sensitive-information-type). Você exporta o pacote de regras personalizado que contém o tipo personalizado de informação confidencial, remove o tipo de informação confidencial do arquivo XML e importa o arquivo XML atualizado de volta para o pacote de regras personalizado existente.
 
 - **Remover todos os pacotes de regras personalizados e todos os tipos personalizados de informação confidencial que eles contêm**: este método está documentado nesta seção.
 
-1. [Conecte-se ao PowerShell do Centro de Conformidade e Segurança](https://go.microsoft.com/fwlink/p/?LinkID=799771)
+1. [Conecte-se ao centro de conformidade Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=799771)
 
 2. Para remover um pacote de regras personalizado, use o cmdlet [Remove-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage):
 
@@ -496,7 +496,7 @@ No PowerShell do Centro de Conformidade e Segurança, há dois métodos para rem
 
 ## <a name="modify-a-custom-sensitive-information-type"></a>Modificar um tipo personalizado de informação confidencial
 
-No PowerShell do Centro de Conformidade e Segurança, a modificação de um tipo personalizado de informação confidencial requer que você:
+No Centro de Conformidade Windows PowerShell, a modificação de um tipo de informação confidencial personalizada requer que você:
 
 1. Exporte um pacote de regras existente que contém o tipo personalizado de informação confidencial para um arquivo XML (ou use o arquivo XML existente, se você o tiver).
 
@@ -504,7 +504,7 @@ No PowerShell do Centro de Conformidade e Segurança, a modificação de um tipo
 
 3. Importe o arquivo XML atualizado de volta para o pacote de regras existente.
 
-Para conectar-se ao PowerShell do Centro de Conformidade e Segurança, consulte [Conectar-se ao Centro de Conformidade e Segurança do PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=799771).
+Para se conectar ao Compliance Center Windows PowerShell, consulte [Conectar ao Compliance Center PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=799771).
 
 ### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>Etapa 1: Exportar o pacote de regras existente para um arquivo XML
 
@@ -518,7 +518,7 @@ Para conectar-se ao PowerShell do Centro de Conformidade e Segurança, consulte 
    ```
 
    > [!NOTE]
-   > O pacote de regras interno que contém os tipos internos de informação confidencial é chamado Pacote de Regras da Microsoft. O pacote de regras que contém os tipos personalizados de informações confidenciais que você criou na interface do usuário do Centro de Conformidade e Segurança é denominado Microsoft.SCCManaged.CustomRulePack.
+   > O pacote de regras interno que contém os tipos internos de informação confidencial é chamado Pacote de Regras da Microsoft. O pacote de regras que contém os tipos de informações confidenciais personalizados que você criou na IU do Centro de Conformidade é denominado Microsoft.SCCManaged.CustomRulePack.
 
 2. Use o cmdlet [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) para armazenar o pacote de regras personalizadas em uma variável:
 
